@@ -1,0 +1,12 @@
+{
+  "name": "beyonce-ticket-compare",
+  "version": "1.0.0",
+  "description": "Minimal MVP for comparing ticket prices for Beyonce tour dates.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

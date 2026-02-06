@@ -3,30 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Beyonce 2027 Tour Price Comparison</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <title>Beyonce 2027 Tour Tickets | Fan-Made Price Comparison</title>
+    <meta
+      name="description"
+      content="Independent, fan-made price comparison for Beyonce 2027 tour tickets. Compare SeatGeek, Vivid Seats, and Ticketmaster listings with transparent promo details. Not affiliated with Beyonce or any official tour."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Beyonce Ticket Price Comparison" />
+    <meta property="og:title" content="Beyonce 2027 Tour Tickets | Fan-Made Price Comparison" />
+    <meta
+      property="og:description"
+      content="Independent, fan-made price comparison for Beyonce 2027 tour tickets. Compare SeatGeek, Vivid Seats, and Ticketmaster listings with transparent promo details."
+    />
+    <meta property="og:url" content="/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Beyonce 2027 Tour Tickets | Fan-Made Price Comparison" />
+    <meta
+      name="twitter:description"
+      content="Independent, fan-made price comparison for Beyonce 2027 tour tickets. Compare SeatGeek, Vivid Seats, and Ticketmaster listings."
+    />
+    <link rel="canonical" href="/" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="loading-overlay" id="loadingOverlay" aria-live="polite">
+      <div class="loading-card">
+        <div class="loading-emoji" aria-hidden="true">🐝</div>
+        <div class="loading-text">
+          Finding the best prices<span class="loading-dots"></span>
+        </div>
+      </div>
+    </div>
+
     <header class="site-header">
-      <h1>Beyonce 2027 Tour Price Comparison</h1>
-      <p class="subtitle">Lowest available ticket prices by provider. Mock mode ready.</p>
+      <div class="badge">Independent Fan Project</div>
+      <h1>Beyonce Ticket Price Comparison</h1>
+      <p class="subtitle">
+        Fan-made, independent comparison site. Not affiliated with Beyonce, her
+        tour, or any official partners.
+      </p>
     </header>
 
     <main>
+      <section class="promo-banner" id="promoBanner" aria-live="polite">
+        <div class="promo-copy">
+          <div class="promo-title">
+            🎟️ Get $20 off SeatGeek or $30 off Vivid Seats with code
+            <strong>YONCECAPITAL</strong>
+          </div>
+          <div class="promo-subtitle">New users only. Terms apply.</div>
+        </div>
+        <div class="promo-actions">
+          <button class="promo-copy-btn" id="promoCopyBtn" type="button">
+            Copy code
+          </button>
+          <button class="promo-dismiss" id="promoDismiss" aria-label="Dismiss promo banner" type="button">
+            ×
+          </button>
+        </div>
+      </section>
+
+      <section class="controls">
+        <label class="search">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Search city or venue" />
+        </label>
+        <label>
+          <span>Country</span>
+          <select id="countryFilter"></select>
+        </label>
+        <label>
+          <span>Month</span>
+          <select id="monthFilter"></select>
+        </label>
+        <label>
+          <span>Sort</span>
+          <select id="sortSelect">
+            <option value="earliest">Earliest date</option>
+            <option value="city">City A–Z</option>
+            <option value="most-shows">Most shows</option>
+            <option value="best-value">Starting price (est.)</option>
+          </select>
+        </label>
+      </section>
+
       <section class="meta">
         <div id="status" class="status">Loading cached prices…</div>
         <div class="notes">
           Data is cached for reliability and to respect provider rate limits.
+          This site is an independent fan project and does not represent any
+          official tour or ticketing partner.
         </div>
       </section>
 
+      <section class="results">
+        <div id="resultsCount" class="results-count"></div>
+        <button id="loadMoreBtn" class="load-more" type="button">Load more cities</button>
+      </section>
+
       <section id="shows" class="shows"></section>
+
+      <section class="disclaimer">
+        Promo codes apply to eligible orders only. New users. Fees excluded.
+        Prices fluctuate.
+      </section>
     </main>
 
     <footer class="site-footer">
-      <p>Prices are indicative and may change. Always verify on the provider site.</p>
+      <p>
+        Independent fan-made comparison. Not affiliated with Beyonce or any
+        official tour. Prices are indicative and may change. Always verify on
+        the provider site.
+      </p>
+      <p class="affiliate">We may earn a commission when you buy through links on this site.</p>
     </footer>
 
-    <script src="/app.js"></script>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+
+    <script id="eventsData" type="application/json">
+[]
+    </script>
+
+    <script src="./app.js"></script>
   </body>
 </html>

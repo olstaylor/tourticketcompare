@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Hive Ticket Comparison">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2d6cdf"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <g fill="#fff" opacity="0.95">
+    <path d="M32 14 44 21v14L32 42 20 35V21l12-7zm0 4-8 5v10l8 5 8-5V23l-8-5z"/>
+    <path d="M32 26.5 38 30v7l-6 3.5L26 37v-7l6-3.5zm0 2.7-3.7 2.2v3.9l3.7 2.2 3.7-2.2v-3.9L32 29.2z"/>
+  </g>
+</svg>

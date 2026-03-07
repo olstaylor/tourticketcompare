@@ -1,0 +1,29 @@
+name = "tourticketcompare"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "public"
+
+[vars]
+MOCK_MODE = "false"
+ALLOW_MOCK_PRICES = "false"
+CACHE_TTL_MINUTES = "60"
+TICKETMASTER_DAILY_CAP = "1000"
+TICKETMASTER_STALE_TTL_HOURS = "168"
+CLICK_TRACKING_ENABLED = "true"
+TICKETMASTER_DISCOVERY_ENABLED = "true"
+TICKETMASTER_EVENTS_TTL_MINUTES = "30"
+TICKETMASTER_ARTIST_EVENTS_LIMIT = "100"
+TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED = "true"
+TICKETMASTER_DISCOVERY_COUNTRY = ""
+
+# Optional D1 bindings for CLI-based deploys and local Pages dev.
+# Configure these in the Cloudflare dashboard for Git-connected Pages deploys.
+#
+# [[d1_databases]]
+# binding = "RATE_LIMIT_DB"
+# database_name = "tourticketcompare-rate-limit"
+# database_id = "replace-with-d1-database-id"
+#
+# [[d1_databases]]
+# binding = "CLICKS_DB"
+# database_name = "tourticketcompare-clicks"
+# database_id = "replace-with-d1-database-id"

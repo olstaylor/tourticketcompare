@@ -35,6 +35,8 @@ npm install
 npm run dev
 ```
 
+For local Pages Functions environment variables, copy `.dev.vars.example` to `.dev.vars` and fill in your values.
+
 3. Open:
 
 - `http://localhost:3000`
@@ -202,10 +204,41 @@ Safety guardrails are enabled in `events:update`:
 
 ## Deployment
 
-1. Create/connect a Cloudflare Pages project from Git.
-2. Build output directory: `public`
-3. Set env vars in Pages.
-4. Deploy.
+This repo is set up for Cloudflare Pages with Pages Functions.
+
+### Git-connected Cloudflare Pages
+
+Use these settings in the Cloudflare Pages dashboard:
+
+- Framework preset: `None`
+- Production branch: `main`
+- Root directory: repository root
+- Build command: leave blank
+- Build output directory: `public`
+
+Cloudflare will serve static assets from `public/` and automatically wire Pages Functions from `functions/`.
+
+### Required repo files for Pages
+
+- `public/`
+- `functions/`
+- `wrangler.toml`
+- `.env.example`
+
+### Environment variables
+
+Set the same values from `.env.example` in both Preview and Production.
+
+### Optional bindings
+
+If you want durable rate-limit and click tracking storage, add D1 bindings in the Cloudflare dashboard:
+
+- `RATE_LIMIT_DB`
+- `CLICKS_DB`
+
+### Local Wrangler config
+
+`wrangler.toml` is included so local dev and CLI-based Pages deploys use the same output directory and compatibility date.
 
 Use this command for direct CLI deploy:
 

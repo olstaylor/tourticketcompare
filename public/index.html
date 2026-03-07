@@ -3,27 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Beyonce 2027 Tour Tickets | Fan-Made Price Comparison</title>
+    <title>Tour Ticket Compare | Compare Concert Ticket Options by City</title>
     <meta
       name="description"
-      content="Independent, fan-made price comparison for Beyonce 2027 tour tickets. Compare SeatGeek, Vivid Seats, and Ticketmaster listings with transparent promo details. Not affiliated with Beyonce or any official tour."
+      content="Compare SeatGeek, Vivid Seats, and Ticketmaster options for upcoming stadium tour dates. Choose a city and showtime, then open provider checkout links in one place."
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="theme-color" content="#0f172a" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Beyonce Ticket Price Comparison" />
-    <meta property="og:title" content="Beyonce 2027 Tour Tickets | Fan-Made Price Comparison" />
+    <meta property="og:site_name" content="Tour Ticket Compare" />
+    <meta property="og:title" content="Tour Ticket Compare | Compare Concert Ticket Options by City" />
     <meta
       property="og:description"
-      content="Independent, fan-made price comparison for Beyonce 2027 tour tickets. Compare SeatGeek, Vivid Seats, and Ticketmaster listings with transparent promo details."
+      content="Compare SeatGeek, Vivid Seats, and Ticketmaster options for upcoming stadium tour dates. Choose a city and showtime, then open provider checkout links in one place."
     />
     <meta property="og:url" content="/" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Beyonce 2027 Tour Tickets | Fan-Made Price Comparison" />
+    <meta name="twitter:title" content="Tour Ticket Compare | Compare Concert Ticket Options by City" />
     <meta
       name="twitter:description"
-      content="Independent, fan-made price comparison for Beyonce 2027 tour tickets. Compare SeatGeek, Vivid Seats, and Ticketmaster listings."
+      content="Compare SeatGeek, Vivid Seats, and Ticketmaster options for upcoming stadium tour dates in one place."
     />
     <link rel="canonical" href="/" />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
@@ -41,10 +41,10 @@
 
     <header class="site-header">
       <div class="badge">Independent Fan Project</div>
-      <h1>Beyonce Ticket Price Comparison</h1>
-      <p class="subtitle">
-        Fan-made, independent comparison site. Not affiliated with Beyonce, her
-        tour, or any official partners.
+      <h1 id="siteTitle">Tour Ticket Compare</h1>
+      <p id="siteSubtitle" class="subtitle">
+        Choose a city, pick a showtime, and compare ticket options across major
+        providers in seconds.
       </p>
     </header>
 
@@ -68,9 +68,16 @@
       </section>
 
       <section class="controls">
+        <label>
+          <span>Artist</span>
+          <select id="artistFilter"></select>
+        </label>
         <label class="search">
           <span>Search</span>
-          <input id="searchInput" type="search" placeholder="Search city or venue" />
+          <div class="search-field">
+            <input id="searchInput" type="search" placeholder="Search city, venue, or country" />
+            <button id="searchClearBtn" class="search-clear" type="button" hidden>Clear</button>
+          </div>
         </label>
         <label>
           <span>Country</span>
@@ -86,18 +93,102 @@
             <option value="earliest">Earliest date</option>
             <option value="city">City A–Z</option>
             <option value="most-shows">Most shows</option>
-            <option value="best-value">Starting price (est.)</option>
+            <option value="provider-ready">Provider-ready first</option>
           </select>
         </label>
+        <button id="resetFiltersBtn" class="reset-filters" type="button">Reset filters</button>
       </section>
 
       <section class="meta">
-        <div id="status" class="status">Loading cached prices…</div>
+        <div id="status" class="status">Loading shows…</div>
         <div class="notes">
           Data is cached for reliability and to respect provider rate limits.
-          This site is an independent fan project and does not represent any
-          official tour or ticketing partner.
+          Independent fan-made project. Not affiliated with artists, official
+          tours, or ticketing partners.
         </div>
+      </section>
+
+      <section class="artist-directory" id="artistDirectory" aria-labelledby="artistDirectoryTitle">
+        <div class="artist-directory-head">
+          <h2 id="artistDirectoryTitle">Browse By Artist</h2>
+          <p>Open an artist page to view upcoming cities and showtimes.</p>
+        </div>
+        <div class="artist-directory-list" id="artistDirectoryList"></div>
+      </section>
+
+      <section class="tour-info" aria-labelledby="tourInfoTitle">
+        <h2 id="tourInfoTitle">How It Works</h2>
+        <p>
+          Compare ticket options quickly without opening multiple tabs. Select a
+          city and showtime, then choose your provider checkout link.
+        </p>
+        <ul class="tour-info-list">
+          <li>Choose an artist and city.</li>
+          <li>Select a showtime to load provider options.</li>
+          <li>Open secure checkout on your preferred provider.</li>
+        </ul>
+      </section>
+
+      <section class="faq" aria-labelledby="faqTitle">
+        <h2 id="faqTitle">Stadium Tour Ticket FAQ</h2>
+        <article class="faq-item">
+          <h3>Are these official artist tour pages?</h3>
+          <p>
+            No. This is an independent fan-made comparison project and is not
+            affiliated with artists, managers, or official tour partners.
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>Which tours are covered?</h3>
+          <p>
+            The site focuses on major stadium tours and artist pages such as
+            /bruno-mars, /bts, /guns-n-roses, /luke-combs, and /harry-styles.
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>How are ticket prices shown here?</h3>
+          <p>
+            Prices are loaded from provider checks when available. If live
+            pricing is unavailable, use the provider link to confirm current
+            checkout pricing and availability.
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>Do promo codes always apply?</h3>
+          <p>
+            Promo offers are provider-specific and usually for new users only.
+            Eligibility, minimum spend, and fee exclusions may apply.
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>When are show dates listed?</h3>
+          <p>
+            Dates are added after official public announcements. Past events are
+            excluded so listings stay focused on upcoming shows.
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>Which providers are included in comparisons?</h3>
+          <p>
+            The comparison flow is structured around SeatGeek, Vivid Seats, and
+            Ticketmaster, with links for each selected showtime.
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>How often are prices refreshed?</h3>
+          <p>
+            Price data is cached to control API usage and improve reliability.
+            Refresh timing varies by provider policy and configured server cache
+            TTL settings.
+          </p>
+        </article>
+        <article class="faq-item">
+          <h3>Why can two providers show different prices?</h3>
+          <p>
+            Inventory, fees, and dynamic pricing models differ by provider.
+            Always review the final checkout amount before purchasing.
+          </p>
+        </article>
       </section>
 
       <section class="results">
@@ -115,18 +206,206 @@
 
     <footer class="site-footer">
       <p>
-        Independent fan-made comparison. Not affiliated with Beyonce or any
-        official tour. Prices are indicative and may change. Always verify on
-        the provider site.
+        Independent fan-made comparison. Not affiliated with artists, official
+        tours, or ticketing partners. Live pricing and availability can change
+        quickly. Always verify details at provider checkout.
       </p>
       <p class="affiliate">We may earn a commission when you buy through links on this site.</p>
     </footer>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <div class="sticky-action-bar" id="stickyActionBar" hidden>
+      <div class="sticky-action-info">
+        <div class="sticky-action-label" id="stickyActionLabel"></div>
+        <div class="sticky-action-note" id="stickyActionNote">Use code YONCECAPITAL at checkout (new users)</div>
+      </div>
+      <div class="sticky-action-buttons">
+        <button class="promo-copy-btn secondary" id="stickyCopyBtn" type="button">Copy code</button>
+        <a id="stickyPrimaryCta" class="provider-cta is-disabled" aria-disabled="true" tabindex="-1" target="_blank" rel="noopener noreferrer">
+          Live link unavailable
+        </a>
+      </div>
+    </div>
 
+    <script id="structuredDataWebsite" type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Tour Ticket Compare",
+  "description": "Compare concert ticket options by city and showtime across major providers.",
+  "inLanguage": "en"
+}
+    </script>
+
+    <script id="structuredDataWebPage" type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tour Ticket Compare | Compare Concert Ticket Options by City",
+  "description": "Compare SeatGeek, Vivid Seats, and Ticketmaster options for upcoming shows by city and showtime.",
+  "inLanguage": "en"
+}
+    </script>
+
+    <script id="structuredDataOrganization" type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Tour Ticket Compare"
+}
+    </script>
+
+    <script id="structuredDataFaq" type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are these official artist tour pages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This is an independent fan-made comparison project and is not affiliated with artists, managers, or official tour partners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which tours are covered?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The site focuses on major stadium tours and artist pages such as /bruno-mars, /bts, /guns-n-roses, /luke-combs, and /harry-styles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are ticket prices shown here?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prices are loaded from provider checks when available. If live pricing is unavailable, use the provider link to confirm current checkout pricing and availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do promo codes always apply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Promo offers are provider-specific and usually for new users only. Eligibility, minimum spend, and fee exclusions may apply."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When are show dates listed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dates are added after official public announcements. Past events are excluded so listings stay focused on upcoming shows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which providers are included in comparisons?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The comparison flow is structured around SeatGeek, Vivid Seats, and Ticketmaster, with links for each selected showtime."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often are prices refreshed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Price data is cached to control API usage and improve reliability. Refresh timing varies by provider policy and configured server cache TTL settings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why can two providers show different prices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inventory, fees, and dynamic pricing models differ by provider. Always review the final checkout amount before purchasing."
+      }
+    }
+  ]
+}
+    </script>
+
+<script id="artistsData" type="application/json">
+[
+  {
+    "slug": "bruno-mars",
+    "name": "Bruno Mars",
+    "description": "Independent fan-made ticket listings for Bruno Mars tour dates."
+  },
+  {
+    "slug": "bts",
+    "name": "BTS",
+    "description": "Independent fan-made ticket listings for BTS tour dates."
+  },
+  {
+    "slug": "guns-n-roses",
+    "name": "Guns N’ Roses",
+    "description": "Independent fan-made ticket listings for Guns N’ Roses tour dates."
+  },
+  {
+    "slug": "luke-combs",
+    "name": "Luke Combs",
+    "description": "Independent fan-made ticket listings for Luke Combs tour dates."
+  },
+  {
+    "slug": "harry-styles",
+    "name": "Harry Styles",
+    "description": "Independent fan-made ticket listings for Harry Styles tour dates."
+  }
+]
+    </script>
 
     <script id="eventsData" type="application/json">
-[]
+[
+  {
+    "id": "fallback-bruno-mars-las-vegas",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "country": "United States",
+    "city": "Las Vegas",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2027-05-12T02:00:00Z"
+  },
+  {
+    "id": "fallback-bts-seoul",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "country": "South Korea",
+    "city": "Seoul",
+    "venue": "Seoul Olympic Stadium",
+    "datetime_iso": "2027-04-20T11:00:00Z"
+  },
+  {
+    "id": "fallback-gnr-london",
+    "artist_slug": "guns-n-roses",
+    "artist_name": "Guns N’ Roses",
+    "country": "United Kingdom",
+    "city": "London",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-06-18T19:30:00Z"
+  },
+  {
+    "id": "fallback-luke-combs-nashville",
+    "artist_slug": "luke-combs",
+    "artist_name": "Luke Combs",
+    "country": "United States",
+    "city": "Nashville",
+    "venue": "Nissan Stadium",
+    "datetime_iso": "2027-07-15T01:00:00Z"
+  },
+  {
+    "id": "fallback-harry-london",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "country": "United Kingdom",
+    "city": "London",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-08-14T19:30:00Z"
+  }
+]
     </script>
 
     <script src="./app.js"></script>

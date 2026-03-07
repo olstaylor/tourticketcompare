@@ -117,6 +117,11 @@ main {
   background: rgba(45, 108, 223, 0.08);
 }
 
+.promo-copy-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
 .promo-copy-btn:focus,
 .promo-dismiss:focus {
   outline: 3px solid rgba(45, 108, 223, 0.35);
@@ -136,8 +141,9 @@ main {
 
 .controls {
   display: grid;
-  grid-template-columns: 1.3fr repeat(3, 1fr);
+  grid-template-columns: 1fr 1.4fr repeat(3, 1fr) auto;
   gap: 14px;
+  align-items: end;
   margin-bottom: 18px;
 }
 
@@ -147,6 +153,12 @@ main {
   gap: 6px;
   font-size: 12px;
   color: var(--muted);
+}
+
+.search-field {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .controls input,
@@ -159,8 +171,56 @@ main {
   background: #ffffff;
 }
 
+.search-field input {
+  width: 100%;
+  padding-right: 72px;
+}
+
+.search-clear {
+  position: absolute;
+  right: 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 9px;
+  cursor: pointer;
+}
+
+.search-clear[hidden] {
+  display: none;
+}
+
 .controls input:focus,
 .controls select:focus {
+  outline: 3px solid rgba(45, 108, 223, 0.2);
+  border-color: rgba(45, 108, 223, 0.4);
+}
+
+.search-clear:focus {
+  outline: 3px solid rgba(45, 108, 223, 0.2);
+  border-color: rgba(45, 108, 223, 0.4);
+}
+
+.reset-filters {
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #ffffff;
+  color: var(--ink);
+  height: 40px;
+  padding: 0 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reset-filters:hover {
+  background: rgba(15, 23, 42, 0.04);
+}
+
+.reset-filters:focus {
   outline: 3px solid rgba(45, 108, 223, 0.2);
   border-color: rgba(45, 108, 223, 0.4);
 }
@@ -184,6 +244,120 @@ main {
 .notes {
   color: var(--muted);
   font-size: 13px;
+}
+
+.tour-info,
+.faq {
+  margin: 0 0 18px;
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.tour-info h2,
+.faq h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.tour-info p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.tour-info-list {
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.tour-info-list li + li {
+  margin-top: 6px;
+}
+
+.faq-item + .faq-item {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.faq-item h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.faq-item p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.artist-directory {
+  margin: 0 0 18px;
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.artist-directory-head h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.artist-directory-head p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.artist-directory-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.artist-link {
+  display: grid;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+
+.artist-link:hover {
+  border-color: rgba(45, 108, 223, 0.28);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.artist-link.active {
+  border-color: rgba(45, 108, 223, 0.38);
+  background: rgba(45, 108, 223, 0.1);
+}
+
+.artist-link:focus {
+  outline: 3px solid rgba(45, 108, 223, 0.2);
+  border-color: rgba(45, 108, 223, 0.4);
+}
+
+.artist-link-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.artist-link-meta {
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .results {
@@ -237,6 +411,13 @@ main {
   font-size: 18px;
 }
 
+.highlight-match {
+  background: rgba(45, 108, 223, 0.18);
+  color: inherit;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
 .city-subtitle {
   color: var(--muted);
   font-size: 13px;
@@ -288,6 +469,27 @@ main {
   border-radius: 14px;
   border: 1px solid var(--border);
   background: var(--surface-muted);
+}
+
+.showtime-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.showtime-image {
+  width: 72px;
+  height: 54px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  background: #ffffff;
+  flex-shrink: 0;
+}
+
+.showtime-image-placeholder {
+  background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
 }
 
 .showtime-row.active {
@@ -383,6 +585,72 @@ main {
   font-weight: 700;
 }
 
+.provider-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.provider-state {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+.provider-state-live {
+  background: rgba(15, 157, 88, 0.12);
+  color: #0f7e47;
+  border-color: rgba(15, 157, 88, 0.22);
+}
+
+.provider-state-cached {
+  background: rgba(45, 108, 223, 0.12);
+  color: #245ab6;
+  border-color: rgba(45, 108, 223, 0.24);
+}
+
+.provider-state-stale {
+  background: rgba(181, 129, 29, 0.14);
+  color: #855d15;
+  border-color: rgba(181, 129, 29, 0.25);
+}
+
+.provider-state-rate-limited {
+  background: rgba(109, 40, 217, 0.12);
+  color: #6d28d9;
+  border-color: rgba(109, 40, 217, 0.24);
+}
+
+.provider-state-checking {
+  background: rgba(15, 23, 42, 0.07);
+  color: #475569;
+  border-color: rgba(15, 23, 42, 0.14);
+}
+
+.provider-state-preview {
+  background: rgba(100, 116, 139, 0.12);
+  color: #475569;
+  border-color: rgba(100, 116, 139, 0.26);
+}
+
+.provider-state-unavailable {
+  background: rgba(148, 163, 184, 0.16);
+  color: #475569;
+  border-color: rgba(100, 116, 139, 0.3);
+}
+
+.provider-updated {
+  color: var(--muted);
+  font-size: 11px;
+}
+
 .provider-label {
   font-size: 12px;
   color: var(--muted);
@@ -441,9 +709,28 @@ main {
   box-shadow: 0 6px 16px rgba(15, 23, 42, 0.1);
 }
 
+.provider-cta:hover {
+  filter: brightness(0.98);
+}
+
+.provider-cta:focus {
+  outline: 3px solid rgba(45, 108, 223, 0.25);
+  outline-offset: 2px;
+}
+
 .provider-seatgeek .provider-cta {
   background: var(--accent);
   color: #ffffff;
+}
+
+.provider-cta.is-disabled,
+.provider-cta:disabled {
+  background: #e5e7eb;
+  color: #6b7280;
+  border-color: #d1d5db;
+  box-shadow: none;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .provider-microcopy {
@@ -493,6 +780,54 @@ main {
 .toast.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.sticky-action-bar {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 12px;
+  background: rgba(255, 255, 255, 0.97);
+  border: 1px solid var(--border);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
+  border-radius: 16px;
+  padding: 12px;
+  z-index: 1100;
+  display: none;
+  gap: 10px;
+}
+
+.sticky-action-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sticky-action-label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sticky-action-note {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.sticky-action-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 8px;
+}
+
+.sticky-action-buttons .provider-cta {
+  width: 100%;
+  box-shadow: none;
+}
+
+.sticky-action-buttons .provider-cta.is-disabled {
+  background: #e5e7eb;
+  color: #6b7280;
+  border-color: #d1d5db;
 }
 
 /* Loading overlay */
@@ -574,7 +909,7 @@ main {
 
 @media (max-width: 1024px) {
   .controls {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -617,10 +952,28 @@ main {
     grid-template-columns: 1fr;
   }
 
+  .reset-filters {
+    width: 100%;
+  }
+
+  .tour-info,
+  .faq {
+    padding: 16px;
+  }
+
+  .tour-info h2,
+  .faq h2 {
+    font-size: 20px;
+  }
+
   .showtime-row {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+  }
+
+  .showtime-left {
+    width: 100%;
   }
 
   .showtime-cta {
@@ -632,5 +985,15 @@ main {
     right: 18px;
     bottom: 18px;
     text-align: center;
+  }
+}
+
+@media (max-width: 820px) {
+  main {
+    padding-bottom: 138px;
+  }
+
+  .sticky-action-bar.active {
+    display: grid;
   }
 }

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import math
 import json
 import sys
 from pathlib import Path
@@ -58,6 +59,22 @@ def main() -> int:
         action="store_true",
         help="Sort output for stable diffs (recommended).",
     )
+    parser.add_argument(
+        "--allow-empty-output",
+        action="store_true",
+        help="Allow writing an empty events file (blocked by default for safety).",
+    )
+    parser.add_argument(
+        "--allow-large-drop",
+        action="store_true",
+        help="Allow output count to drop sharply versus existing file.",
+    )
+    parser.add_argument(
+        "--min-retained-ratio",
+        type=float,
+        default=0.5,
+        help="Minimum retained ratio vs existing output before failing (default: 0.5).",
+    )
     args = parser.parse_args()
 
     in_path = Path(args.input)
@@ -68,6 +85,14 @@ def main() -> int:
         return 2
 
     events: list[dict[str, Any]] = []
+    existing_count = 0
+    if out_path.exists():
+        try:
+            existing_data = json.loads(out_path.read_text(encoding="utf-8"))
+            if isinstance(existing_data, list):
+                existing_count = len(existing_data)
+        except json.JSONDecodeError:
+            existing_count = 0
     default_artist_slug = norm(args.default_artist_slug)
     default_artist_name = norm(args.default_artist_name)
 
@@ -116,6 +141,30 @@ def main() -> int:
     if args.sort:
         events.sort(key=stable_sort_key)
 
+    new_count = len(events)
+    if new_count == 0 and existing_count > 0 and not args.allow_empty_output:
+        print(
+            "ERROR: conversion produced 0 events while existing output has data. "
+            "Refusing to overwrite to prevent accidental wipe. "
+            "Use --allow-empty-output only when intentional.",
+            file=sys.stderr,
+        )
+        return 1
+
+    min_retained_ratio = max(0.0, min(1.0, args.min_retained_ratio))
+    if (
+        existing_count >= 10
+        and new_count > 0
+        and not args.allow_large_drop
+        and new_count < math.ceil(existing_count * min_retained_ratio)
+    ):
+        print(
+            f"ERROR: conversion would reduce events from {existing_count} to {new_count}. "
+            "Refusing large drop by default. Use --allow-large-drop if intentional.",
+            file=sys.stderr,
+        )
+        return 1
+
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(events, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(events)} events -> {out_path}")
@@ -124,4 +173,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -1,14 +1,17 @@
 {
-  "name": "beyonce-ticket-compare",
+  "name": "tour-ticket-compare",
   "version": "1.0.0",
-  "description": "Minimal MVP for comparing ticket prices for Beyonce tour dates (Cloudflare Pages + Functions).",
+  "description": "Production-shaped MVP for fan-made stadium tour ticket comparison (Cloudflare Pages + Functions).",
   "scripts": {
     "dev": "wrangler pages dev public --compatibility-date=2025-01-01 --port 3000",
     "deploy": "wrangler pages deploy public",
+    "deploy:safe": "npm run events:validate:prod && wrangler pages deploy public",
     "events:csv": "python3 scripts/csv-to-events.py",
+    "events:partition": "python3 scripts/partition-events.py",
     "events:sync": "python3 scripts/sync-events-data.py",
     "events:validate": "python3 scripts/validate-events.py",
-    "events:update": "python3 scripts/csv-to-events.py && python3 scripts/validate-events.py && python3 scripts/sync-events-data.py"
+    "events:validate:prod": "python3 scripts/validate-events.py --for-production",
+    "events:update": "python3 scripts/csv-to-events.py && python3 scripts/validate-events.py && python3 scripts/partition-events.py && python3 scripts/sync-events-data.py"
   },
   "devDependencies": {
     "wrangler": "^3.90.0"

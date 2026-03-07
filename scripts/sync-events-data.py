@@ -7,7 +7,50 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "public" / "data" / "events.json"
+ARTISTS_PATH = ROOT / "public" / "data" / "artists.json"
 INDEX_PATH = ROOT / "public" / "index.html"
+
+
+def build_fallback_events(events: list) -> list[dict]:
+    if not isinstance(events, list):
+        return []
+
+    fallback: list[dict] = []
+    seen_artists: set[str] = set()
+    for event in events:
+        if not isinstance(event, dict):
+            continue
+
+        artist_slug = str(event.get("artist_slug") or "").strip()
+        if artist_slug and artist_slug in seen_artists:
+            continue
+
+        fallback.append(
+            {
+                "id": str(event.get("id") or "").strip() or f"fallback-{len(fallback) + 1}",
+                "artist_slug": artist_slug,
+                "artist_name": str(event.get("artist_name") or "").strip(),
+                "country": str(event.get("country") or "").strip(),
+                "city": str(event.get("city") or "").strip(),
+                "venue": str(event.get("venue") or "").strip(),
+                "datetime_iso": str(event.get("datetime_iso") or event.get("dateTimeISO") or "").strip(),
+            }
+        )
+
+        if artist_slug:
+            seen_artists.add(artist_slug)
+        if len(fallback) >= 6:
+            break
+
+    return fallback
+
+
+def replace_script_block(html: str, script_id: str, pretty_json: str) -> str | None:
+    pattern = rf'(<script id="{script_id}" type="application/json">)(.*?)(\n\s*</script>)'
+    match = re.search(pattern, html, flags=re.S)
+    if not match:
+        return None
+    return html[:match.start(2)] + "\n" + pretty_json + match.group(3) + html[match.end(3):]
 
 
 def main() -> int:
@@ -24,18 +67,31 @@ def main() -> int:
         print(f"Invalid JSON in {DATA_PATH}: {exc}", file=sys.stderr)
         return 1
 
-    pretty = json.dumps(events, indent=2)
+    artists = []
+    if ARTISTS_PATH.exists():
+        try:
+            loaded = json.loads(ARTISTS_PATH.read_text())
+            if isinstance(loaded, list):
+                artists = loaded
+        except json.JSONDecodeError as exc:
+            print(f"Invalid JSON in {ARTISTS_PATH}: {exc}", file=sys.stderr)
+            return 1
+
+    fallback_events = build_fallback_events(events)
     html = INDEX_PATH.read_text()
 
-    pattern = r'(<script id="eventsData" type="application/json">)(.*?)(\n\s*</script>)'
-    match = re.search(pattern, html, flags=re.S)
-    if not match:
+    updated_html = replace_script_block(html, "artistsData", json.dumps(artists, indent=2))
+    if updated_html is None:
+        print("Could not find <script id=\"artistsData\"> block in index.html", file=sys.stderr)
+        return 1
+
+    updated_html = replace_script_block(updated_html, "eventsData", json.dumps(fallback_events, indent=2))
+    if updated_html is None:
         print("Could not find <script id=\"eventsData\"> block in index.html", file=sys.stderr)
         return 1
 
-    new_html = html[:match.start(2)] + "\n" + pretty + match.group(3) + html[match.end(3):]
-    INDEX_PATH.write_text(new_html)
-    print("Synced events into public/index.html")
+    INDEX_PATH.write_text(updated_html)
+    print(f"Synced {len(artists)} artists and {len(fallback_events)} fallback events into public/index.html")
     return 0
 
 

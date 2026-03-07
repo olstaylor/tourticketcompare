@@ -9,3 +9,12 @@
 
 /data/events.json
   Cache-Control: no-store
+
+/data/events-index.json
+  Cache-Control: no-store
+
+/data/events/*
+  Cache-Control: no-store
+
+/data/artists.json
+  Cache-Control: no-store

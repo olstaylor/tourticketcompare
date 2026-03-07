@@ -9,7 +9,7 @@
       content="Tour Ticket Compare is an independent, fan-made site preparing ticket comparison pages for major stadium tours. Live event listings and provider links will be added after official tour announcements."
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
-    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="referrer" content="no-referrer" />
     <meta name="theme-color" content="#0f172a" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Tour Ticket Compare" />
@@ -31,6 +31,13 @@
   </head>
   <body>
     <div class="page-shell">
+      <a class="skip-link" href="#mainContent">Skip to content</a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="#coverage">Coverage</a>
+        <a href="#launch-plan">Launch plan</a>
+        <a href="#readiness">Readiness</a>
+        <a href="#faqTitle">FAQ</a>
+      </nav>
       <header class="hero">
         <div class="eyebrow">Independent fan-made project</div>
         <p class="status-pill">Prelaunch mode: live event listings are not published yet</p>
@@ -48,7 +55,7 @@
         </div>
       </header>
 
-      <main>
+      <main id="mainContent">
         <section class="section grid-section" aria-labelledby="principlesTitle">
           <div class="section-heading">
             <p class="section-label">Principles</p>
@@ -139,6 +146,22 @@
           </div>
         </section>
 
+        <section class="section" id="readiness" aria-labelledby="readinessTitle">
+          <div class="section-heading">
+            <p class="section-label">Readiness</p>
+            <h2 id="readinessTitle">Launch checklist</h2>
+            <p>
+              This checklist shows what must be in place before any live comparison pages are publicly enabled.
+            </p>
+          </div>
+          <ul class="checklist" role="list">
+            <li><span class="check status-done">Done</span>Cloudflare Pages deployment and core security headers are configured.</li>
+            <li><span class="check status-pending">Pending</span>Official event announcements are verified and mapped to artist/city pages.</li>
+            <li><span class="check status-pending">Pending</span>Provider adapters are connected to legitimate API/affiliate sources only.</li>
+            <li><span class="check status-pending">Pending</span>Live outbound links and disclosure copy are reviewed for compliance.</li>
+          </ul>
+        </section>
+
         <section class="section faq-section" aria-labelledby="faqTitle">
           <div class="section-heading">
             <p class="section-label">FAQ</p>
@@ -172,7 +195,7 @@
         <p>
           Live event pages will only be published when official announcements and verified ticket links are available.
         </p>
-        <p class="footer-meta">Copyright <span id="currentYear"></span> Tour Ticket Compare</p>
+        <p class="footer-meta">Copyright <span id="currentYear"></span> Tour Ticket Compare · Last updated <span id="lastUpdated"></span></p>
       </footer>
     </div>
 

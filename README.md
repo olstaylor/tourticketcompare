@@ -204,9 +204,27 @@ Safety guardrails are enabled in `events:update`:
 
 ## Deployment
 
-This repo is set up for Cloudflare Pages with Pages Functions.
+### Current Production Reality
 
-### Git-connected Cloudflare Pages
+The tracked repo is configured for Cloudflare Pages, but the live custom domains currently route to a standalone Cloudflare Worker:
+
+- `tourticketcompare.com/*` -> Worker `tourticketcompare-live`
+- `www.tourticketcompare.com/*` -> Worker `tourticketcompare-live`
+
+That means a Cloudflare Pages deploy does **not** automatically update the live custom domain while those Worker routes are active.
+
+Current production audit:
+
+- Production platform: Cloudflare Workers.
+- Production entrypoint: Worker `tourticketcompare-live`.
+- Production routes: `tourticketcompare.com/*` and `www.tourticketcompare.com/*`.
+- GitHub Actions: no workflow is currently present in this repo.
+- Manual Wrangler Pages deploy: supported for Pages previews/fallback only.
+- Cloudflare Pages project: `tourticketcompare`, production branch `main`, output directory `public`, build command blank.
+
+Beginner rule: if you want to update the live site, first confirm whether Cloudflare still routes the custom domains to Worker `tourticketcompare-live`. If yes, do not assume a Pages deploy is production.
+
+### Cloudflare Pages Preview/Fallback Deploy
 
 Use these settings in the Cloudflare Pages dashboard:
 
@@ -218,38 +236,83 @@ Use these settings in the Cloudflare Pages dashboard:
 
 Cloudflare will serve static assets from `public/` and automatically wire Pages Functions from `functions/`.
 
-### Required repo files for Pages
+Required repo files for Pages:
 
 - `public/`
 - `functions/`
 - `wrangler.toml`
 - `.env.example`
 
-### Environment variables
-
-Set the same values from `.env.example` in both Preview and Production.
-
-### Optional bindings
-
-If you want durable rate-limit and click tracking storage, add D1 bindings in the Cloudflare dashboard:
-
-- `RATE_LIMIT_DB`
-- `CLICKS_DB`
-
-### Local Wrangler config
-
-`wrangler.toml` is included so local dev and CLI-based Pages deploys use the same output directory and compatibility date.
-
-Use this command for direct CLI deploy:
+Deploy Pages manually:
 
 ```bash
-npm run deploy
+npm run deploy:pages
 ```
 
-Safer production deploy (runs strict data validation first):
+Run strict data validation first:
 
 ```bash
-npm run deploy:safe
+npm run deploy:pages:safe
+```
+
+`npm run deploy` intentionally prints a warning instead of deploying, because production is currently Worker-routed.
+
+### Production Worker Deploy
+
+The production Worker deployment path needs to preserve existing Worker bindings and secrets. Before deploying Worker `tourticketcompare-live`, confirm the Worker source/bundle you are uploading is the intended production entrypoint.
+
+Required Worker bindings observed in production:
+
+- `MOCK_MODE=false`
+- `ALLOW_MOCK_PRICES=false`
+- `CACHE_TTL_MINUTES=60`
+- `CLICK_TRACKING_ENABLED=true`
+- `DEMAND_DB` D1 binding, if demand capture is enabled
+- `IMPACT_ACCOUNT_SID` secret, if Impact Publisher API routes are enabled
+- `IMPACT_AUTH_TOKEN` secret, if Impact Publisher API routes are enabled
+- `IMPACT_DEFAULT_PROGRAM_ID`, if provider tracking-link creation is enabled
+- `IMPACT_TICKETMASTER_PROGRAM_ID`, if Ticketmaster provider routing is enabled
+
+Never paste secret values into README files, public JavaScript, public JSON, logs, or PR descriptions.
+
+### Environment Variables And Bindings
+
+Set the same non-secret values from `.env.example` in Cloudflare for Preview and Production. Secrets must be configured as Cloudflare secrets, not committed to the repo.
+
+Optional D1 bindings:
+
+- `RATE_LIMIT_DB` or fallback `DB`
+- `CLICKS_DB`
+- `DEMAND_DB`, if demand capture/analytics code is deployed
+
+### Health Check
+
+`GET /api/health` returns non-secret app status for the deployed function path:
+
+```json
+{
+  "ok": true,
+  "service": "tourticketcompare",
+  "status": "ok",
+  "config": {
+    "mockMode": false,
+    "allowMockPrices": false
+  },
+  "bindings": {
+    "impactAccountSid": true,
+    "impactAuthToken": true
+  }
+}
+```
+
+The health response reports whether bindings exist, but never returns token values, account IDs, API keys, or program IDs.
+
+After any deploy, check:
+
+```bash
+curl -fsS https://tourticketcompare.com/api/health
+curl -fsSI https://www.tourticketcompare.com/
+curl -fsS https://tourticketcompare.com/
 ```
 
 ## SEO setup

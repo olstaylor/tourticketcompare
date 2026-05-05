@@ -4,8 +4,9 @@
   "description": "Production-shaped MVP for fan-made stadium tour ticket comparison (Cloudflare Pages + Functions).",
   "scripts": {
     "dev": "wrangler pages dev public --compatibility-date=2025-01-01 --port 3000",
-    "deploy": "wrangler pages deploy public",
-    "deploy:safe": "npm run events:validate:prod && wrangler pages deploy public",
+    "deploy": "node -e \"console.log('Production custom domains currently route to Cloudflare Worker tourticketcompare-live, not Pages. See README.md#deployment before deploying.')\"",
+    "deploy:pages": "wrangler pages deploy public",
+    "deploy:pages:safe": "npm run events:validate:prod && wrangler pages deploy public",
     "events:csv": "python3 scripts/csv-to-events.py",
     "events:partition": "python3 scripts/partition-events.py",
     "events:sync": "python3 scripts/sync-events-data.py",

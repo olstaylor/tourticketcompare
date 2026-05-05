@@ -1,6 +1,19 @@
-# Tour Ticket Compare (Cloudflare Pages MVP)
+# Tour Ticket Compare
 
-Unofficial, fan-made ticket comparison site for major stadium tours.
+Unofficial, fan-made stadium tour ticket resource for major artists. The site must not claim live ticket or price comparison unless verified multi-provider live data exists.
+
+## Deployment First
+
+Production is the Cloudflare Worker `tourticketcompare-live`.
+
+- Production runtime: Cloudflare Worker `tourticketcompare-live`
+- Production routes: `tourticketcompare.com/*` and `www.tourticketcompare.com/*`
+- Cloudflare Pages: preview/fallback only while Worker routes own the custom domains
+- Vercel: not production unless explicitly reintroduced later
+
+`npm run deploy` intentionally refuses to deploy so a production-sounding command cannot accidentally deploy the wrong platform. Use `npm run deploy:pages` only for the Pages preview/fallback path.
+
+See `docs/DEPLOYMENT.md` for beginner-friendly local checks, preview deploy steps, production Worker deploy guidance, and `/api/health` verification.
 
 ## Tech stack
 
@@ -204,11 +217,13 @@ Safety guardrails are enabled in `events:update`:
 
 ## Deployment
 
-This repo is set up for Cloudflare Pages with Pages Functions.
+The live custom domains currently route to Cloudflare Worker `tourticketcompare-live`, not directly to Cloudflare Pages. Treat Cloudflare Pages as preview/fallback only unless the Cloudflare routes are intentionally changed.
+
+For the full deployment procedure, see `docs/DEPLOYMENT.md`.
 
 ### Git-connected Cloudflare Pages
 
-Use these settings in the Cloudflare Pages dashboard:
+Use these settings only for the Pages preview/fallback path:
 
 - Framework preset: `None`
 - Production branch: `main`
@@ -240,16 +255,16 @@ If you want durable rate-limit and click tracking storage, add D1 bindings in th
 
 `wrangler.toml` is included so local dev and CLI-based Pages deploys use the same output directory and compatibility date.
 
-Use this command for direct CLI deploy:
+Use this command for Pages preview/fallback deploy:
 
 ```bash
-npm run deploy
+npm run deploy:pages
 ```
 
-Safer production deploy (runs strict data validation first):
+Safer Pages preview/fallback deploy (runs strict data validation first):
 
 ```bash
-npm run deploy:safe
+npm run deploy:pages:safe
 ```
 
 ## SEO setup

@@ -1,0 +1,116 @@
+{
+  "version": 2,
+  "description": "Structured catalog model for an SEO-focused ticket comparison affiliate site. Public data may describe verified link availability, but raw affiliate destinations remain server-side where practical.",
+  "artists": [
+    "slug",
+    "name",
+    "short_description",
+    "genres",
+    "country",
+    "official_website",
+    "image_alt",
+    "factual_summary",
+    "why_demand_is_high",
+    "ticket_buying_notes",
+    "seo_title",
+    "meta_description",
+    "source_urls"
+  ],
+  "tours": [
+    "slug",
+    "artist_slug",
+    "tour_name",
+    "tour_status",
+    "factual_summary",
+    "known_regions",
+    "official_source_url",
+    "last_verified_at",
+    "seo_title",
+    "meta_description"
+  ],
+  "cities": ["slug", "name", "country", "region"],
+  "venues": ["slug", "name", "city_slug", "country", "official_website"],
+  "events": [
+    "id",
+    "artist_slug",
+    "tour_slug",
+    "city_slug",
+    "venue_slug",
+    "datetime_iso",
+    "source_type",
+    "inventory_status",
+    "last_verified_at"
+  ],
+  "providers": [
+    {
+      "slug": "ticketmaster",
+      "name": "Ticketmaster",
+      "provider_type": "primary_or_verified_marketplace",
+      "public_enabled_when_verified": true
+    },
+    {
+      "slug": "seatgeek",
+      "name": "SeatGeek",
+      "provider_type": "marketplace",
+      "public_enabled_when_verified": true
+    },
+    {
+      "slug": "vivid-seats",
+      "name": "Vivid Seats",
+      "provider_type": "marketplace",
+      "public_enabled_when_verified": true
+    }
+  ],
+  "ticket_links": [
+    "link_id",
+    "artist_slug",
+    "tour_slug",
+    "provider",
+    "destination_url_server_side",
+    "affiliate_enabled",
+    "verified",
+    "last_checked_at",
+    "market",
+    "country",
+    "disclosure_required"
+  ],
+  "affiliate_links": [
+    "link_id",
+    "provider",
+    "artist_slug",
+    "tour_slug",
+    "affiliate_network",
+    "destination_url_server_side",
+    "verified",
+    "last_checked_at"
+  ],
+  "price_snapshots": [
+    "event_id",
+    "provider",
+    "currency",
+    "min_price",
+    "max_price",
+    "fees_included",
+    "source_type",
+    "last_verified_at"
+  ],
+  "allowed_inventory_statuses": [
+    "tour_status_unknown",
+    "tour_announced_links_pending",
+    "verified_provider_links_available",
+    "live_price_available",
+    "price_unavailable",
+    "sold_out",
+    "limited_availability",
+    "error_loading_provider",
+    "affiliate_link_unavailable",
+    "unavailable_no_verified_data"
+  ],
+  "source_types": ["ticketmaster_api", "seatgeek_api", "vivid_seats_api", "impact_affiliate", "manual_verified_link"],
+  "safety_rules": [
+    "Do not publish event pages until artist, tour, city, venue, provider, and source fields are verified.",
+    "Do not show prices unless they come from a verified provider source and include last_verified_at.",
+    "Do not show outbound links unless the provider destination is real, validated, non-placeholder, and routed through /api/out.",
+    "Do not add event structured data until event date, venue, and availability data are verified."
+  ]
+}

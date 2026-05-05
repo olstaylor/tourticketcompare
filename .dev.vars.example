@@ -17,3 +17,12 @@ TICKETMASTER_API_KEY=your_key_here
 SEATGEEK_CLIENT_ID=your_client_id_here
 SEATGEEK_CLIENT_SECRET=your_client_secret_here
 VIVID_SEATS_API_KEY=your_key_here
+IMPACT_ACCOUNT_SID=your_account_sid_here
+IMPACT_AUTH_TOKEN=your_auth_token_here
+IMPACT_DEFAULT_PROGRAM_ID=your_default_program_id_here
+IMPACT_TICKETMASTER_PROGRAM_ID=your_ticketmaster_program_id_here
+PUBLIC_SITE_PHASE=seo_affiliate
+ENABLE_PUBLIC_TICKET_LISTINGS=true
+
+# D1 binding, configured in wrangler.toml / Cloudflare dashboard rather than as text:
+# DEMAND_DB=tourticketcompare-demand

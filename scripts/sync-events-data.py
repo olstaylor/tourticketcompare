@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 from pathlib import Path
 import json
 import re
@@ -80,14 +81,14 @@ def main() -> int:
     fallback_events = build_fallback_events(events)
     html = INDEX_PATH.read_text()
 
-    updated_html = replace_script_block(html, "artistsData", json.dumps(artists, indent=2))
+    updated_html = replace_script_block(html, "fallbackArtistsData", json.dumps(artists, indent=2))
     if updated_html is None:
-        print("Could not find <script id=\"artistsData\"> block in index.html", file=sys.stderr)
+        print("Could not find <script id=\"fallbackArtistsData\"> block in index.html", file=sys.stderr)
         return 1
 
-    updated_html = replace_script_block(updated_html, "eventsData", json.dumps(fallback_events, indent=2))
+    updated_html = replace_script_block(updated_html, "fallbackEventsData", json.dumps(fallback_events, indent=2))
     if updated_html is None:
-        print("Could not find <script id=\"eventsData\"> block in index.html", file=sys.stderr)
+        print("Could not find <script id=\"fallbackEventsData\"> block in index.html", file=sys.stderr)
         return 1
 
     INDEX_PATH.write_text(updated_html)

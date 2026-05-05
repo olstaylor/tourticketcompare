@@ -1,0 +1,228 @@
+{
+  "version": 2,
+  "updated_at": "2026-04-30",
+  "strategy": "SEO-focused ticket comparison affiliate catalog with factual artist content and verified provider buttons only.",
+  "artists": [
+    {
+      "slug": "beyonce",
+      "name": "Beyoncé",
+      "short_description": "Pop and R&B performer known for large-scale arena and stadium productions.",
+      "genres": ["Pop", "R&B"],
+      "country": "United States",
+      "official_website": "https://www.beyonce.com/",
+      "image_alt": "Beyoncé artist ticket information",
+      "factual_summary": "Beyoncé is an American singer, songwriter, performer, and visual artist whose solo catalog spans R&B, pop, dance, country, and hip-hop influences.",
+      "why_demand_is_high": "Demand is typically high because her tours are major cultural events with polished staging, deep catalogs, and broad international audiences.",
+      "ticket_buying_notes": "There may not be an active tour at the moment. Use verified ticket platform links below to check current availability directly.",
+      "seo_title": "Beyoncé Tickets | Verified Ticket Options",
+      "meta_description": "Check verified Beyoncé ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons."
+    },
+    {
+      "slug": "harry-styles",
+      "name": "Harry Styles",
+      "short_description": "British pop artist and former One Direction member with major global demand.",
+      "genres": ["Pop", "Rock"],
+      "country": "United Kingdom",
+      "official_website": "https://www.hstyles.co.uk/",
+      "image_alt": "Harry Styles artist ticket information",
+      "factual_summary": "Harry Styles is an English singer, songwriter, and actor who first became widely known as a member of One Direction before building a solo career.",
+      "why_demand_is_high": "Demand is typically strong because his solo tours draw pop, rock, and mainstream audiences across multiple regions.",
+      "ticket_buying_notes": "There may not be an active tour at the moment. Check verified provider links for current ticket availability.",
+      "seo_title": "Harry Styles Tickets | Verified Ticket Options",
+      "meta_description": "Check verified Harry Styles ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons."
+    },
+    {
+      "slug": "bts",
+      "name": "BTS",
+      "short_description": "South Korean group with one of the world's largest global fanbases.",
+      "genres": ["K-pop", "Pop", "Hip-hop"],
+      "country": "South Korea",
+      "official_website": "https://ibighit.com/bts/eng/",
+      "image_alt": "BTS artist ticket information",
+      "factual_summary": "BTS is a South Korean music group known for global pop releases, large-scale live shows, and a highly active international fanbase.",
+      "why_demand_is_high": "Demand is often intense because BTS announcements can draw global attention and fast-moving ticket interest.",
+      "ticket_buying_notes": "There may not be an active tour at the moment. Use verified ticket links to check current availability with platforms directly.",
+      "seo_title": "BTS Tickets | Verified Ticket Options",
+      "meta_description": "Check verified BTS ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons."
+    },
+    {
+      "slug": "ariana-grande",
+      "name": "Ariana Grande",
+      "short_description": "American pop vocalist with a large international audience.",
+      "genres": ["Pop", "R&B"],
+      "country": "United States",
+      "official_website": "https://www.arianagrande.com/",
+      "image_alt": "Ariana Grande artist ticket information",
+      "factual_summary": "Ariana Grande is an American singer, songwriter, and actor known for pop and R&B-influenced releases and a wide vocal range.",
+      "why_demand_is_high": "Demand can be high because her fanbase spans pop, streaming, and live entertainment audiences internationally.",
+      "ticket_buying_notes": "There may not be an active tour at the moment. Verified provider links are the safest way to check current availability.",
+      "seo_title": "Ariana Grande Tickets | Verified Ticket Options",
+      "meta_description": "Check verified Ariana Grande ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons."
+    },
+    {
+      "slug": "bad-bunny",
+      "name": "Bad Bunny",
+      "short_description": "Puerto Rican artist whose tours draw major demand across Latin and global markets.",
+      "genres": ["Reggaeton", "Latin trap", "Latin pop"],
+      "country": "Puerto Rico",
+      "official_website": "https://www.badbunny.com/",
+      "image_alt": "Bad Bunny artist ticket information",
+      "factual_summary": "Bad Bunny is a Puerto Rican recording artist known for reggaeton, Latin trap, pop, and genre-crossing releases.",
+      "why_demand_is_high": "Demand is typically high because his live shows attract large audiences across Spanish-speaking markets and beyond.",
+      "ticket_buying_notes": "There may not be an active tour at the moment. Check current availability directly through verified ticket platforms.",
+      "seo_title": "Bad Bunny Tickets | Verified Ticket Options",
+      "meta_description": "Check verified Bad Bunny ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons."
+    },
+    {
+      "slug": "morgan-wallen",
+      "name": "Morgan Wallen",
+      "short_description": "Country artist with high-demand arena and stadium ticket interest.",
+      "genres": ["Country"],
+      "country": "United States",
+      "official_website": "https://morganwallen.com/",
+      "image_alt": "Morgan Wallen artist ticket information",
+      "factual_summary": "Morgan Wallen is an American country music artist known for contemporary country releases and large live audiences.",
+      "why_demand_is_high": "Demand can be high because country stadium and arena tours often move quickly across major US markets.",
+      "ticket_buying_notes": "There may not be an active tour at the moment. Use verified provider links to check platform availability.",
+      "seo_title": "Morgan Wallen Tickets | Verified Ticket Options",
+      "meta_description": "Check verified Morgan Wallen ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons."
+    },
+    {
+      "slug": "jay-z",
+      "name": "JAY-Z",
+      "short_description": "American hip-hop artist and entrepreneur with legacy demand for major live appearances.",
+      "genres": ["Hip-hop"],
+      "country": "United States",
+      "official_website": "https://www.rocnation.com/music/jay-z/",
+      "image_alt": "JAY-Z artist ticket information",
+      "factual_summary": "JAY-Z is an American rapper, songwriter, producer, and entrepreneur whose catalog is central to modern hip-hop.",
+      "why_demand_is_high": "Demand can be strong because major appearances are comparatively limited and attract hip-hop, festival, and legacy catalog audiences.",
+      "ticket_buying_notes": "There may not be an active tour at the moment. Verified provider links should be used to check current availability.",
+      "seo_title": "JAY-Z Tickets | Verified Ticket Options",
+      "meta_description": "Check verified JAY-Z ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons."
+    }
+  ],
+  "tours": [],
+  "providers": [
+    {
+      "slug": "ticketmaster",
+      "name": "Ticketmaster",
+      "provider_type": "primary_or_verified_marketplace",
+      "public_enabled": true,
+      "requires_verified_destination": true
+    },
+    {
+      "slug": "seatgeek",
+      "name": "SeatGeek",
+      "provider_type": "marketplace",
+      "public_enabled": false,
+      "requires_verified_destination": true
+    },
+    {
+      "slug": "vivid-seats",
+      "name": "Vivid Seats",
+      "provider_type": "marketplace",
+      "public_enabled": false,
+      "requires_verified_destination": true
+    }
+  ],
+  "ticket_links": [
+    {
+      "link_id": "tm-artist-beyonce",
+      "artist_slug": "beyonce",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-04-30",
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-harry-styles",
+      "artist_slug": "harry-styles",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-04-30",
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-bts",
+      "artist_slug": "bts",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-04-30",
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-ariana-grande",
+      "artist_slug": "ariana-grande",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-04-30",
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-bad-bunny",
+      "artist_slug": "bad-bunny",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-04-30",
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-morgan-wallen",
+      "artist_slug": "morgan-wallen",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-04-30",
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-jay-z",
+      "artist_slug": "jay-z",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-04-30",
+      "disclosure_required": true
+    }
+  ],
+  "safety_rules": [
+    "Do not publish invented tour dates, venues, prices, availability, or provider claims.",
+    "Do not show provider buttons unless the destination is verified and server-side /api/out can route it safely.",
+    "Do not expose raw affiliate credentials or Impact tokens to the browser.",
+    "Do not add event structured data until event date, venue, and availability data are verified."
+  ]
+}

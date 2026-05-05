@@ -21,6 +21,29 @@ def optional(value: Any) -> str | None:
     return v if v else None
 
 
+PLACEHOLDER_URL_MARKERS = (
+    "example.com",
+    "your-affiliate-link",
+    "your-link-here",
+    "replace-me",
+    "placeholder",
+    "localhost",
+    "127.0.0.1",
+)
+
+
+def optional_real_url(value: Any) -> str | None:
+    v = optional(value)
+    if v is None:
+        return None
+    lowered = v.lower()
+    if any(marker in lowered for marker in PLACEHOLDER_URL_MARKERS):
+        return None
+    if not (lowered.startswith("https://") or lowered.startswith("http://")):
+        return None
+    return v
+
+
 def stable_sort_key(event: dict[str, Any]) -> tuple[str, ...]:
     return (
         str(event.get("artist_slug") or ""),
@@ -128,7 +151,7 @@ def main() -> int:
                     event[k] = v
 
             for k in ("ticketmaster_url", "seatgeek_url", "vividseats_url"):
-                v = optional(row.get(k))
+                v = optional_real_url(row.get(k))
                 if v is not None:
                     event[k] = v
 

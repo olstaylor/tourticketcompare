@@ -1,32 +1,58 @@
 [
   {
-    "slug": "bruno-mars",
-    "name": "Bruno Mars",
-    "description": "Independent fan-made ticket listings for Bruno Mars tour dates.",
-    "priority": 1
-  },
-  {
-    "slug": "bts",
-    "name": "BTS",
-    "description": "Independent fan-made ticket listings for BTS tour dates.",
-    "priority": 2
-  },
-  {
-    "slug": "guns-n-roses",
-    "name": "Guns N’ Roses",
-    "description": "Independent fan-made ticket listings for Guns N’ Roses tour dates.",
-    "priority": 3
-  },
-  {
-    "slug": "luke-combs",
-    "name": "Luke Combs",
-    "description": "Independent fan-made ticket listings for Luke Combs tour dates.",
-    "priority": 4
+    "slug": "beyonce",
+    "name": "Beyoncé",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 1,
+    "verified_providers": ["ticketmaster"],
+    "last_verified_at": "2026-04-30"
   },
   {
     "slug": "harry-styles",
     "name": "Harry Styles",
-    "description": "Independent fan-made ticket listings for Harry Styles tour dates.",
-    "priority": 5
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 1,
+    "verified_providers": ["ticketmaster"],
+    "last_verified_at": "2026-04-30"
+  },
+  {
+    "slug": "bts",
+    "name": "BTS",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 1,
+    "verified_providers": ["ticketmaster"],
+    "last_verified_at": "2026-04-30"
+  },
+  {
+    "slug": "ariana-grande",
+    "name": "Ariana Grande",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 1,
+    "verified_providers": ["ticketmaster"],
+    "last_verified_at": "2026-04-30"
+  },
+  {
+    "slug": "bad-bunny",
+    "name": "Bad Bunny",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 1,
+    "verified_providers": ["ticketmaster"],
+    "last_verified_at": "2026-04-30"
+  },
+  {
+    "slug": "morgan-wallen",
+    "name": "Morgan Wallen",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 1,
+    "verified_providers": ["ticketmaster"],
+    "last_verified_at": "2026-04-30"
+  },
+  {
+    "slug": "jay-z",
+    "name": "JAY-Z",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 1,
+    "verified_providers": ["ticketmaster"],
+    "last_verified_at": "2026-04-30"
   }
 ]

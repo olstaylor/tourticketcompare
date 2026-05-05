@@ -15,6 +15,15 @@ const PLACEHOLDER_URL_MARKERS = [
   "tbd"
 ];
 const PLACEHOLDER_HOST_REGEX = /(^|\.)example\.com$|(^|\.)example$|(^|\.)localhost$|^127\.0\.0\.1$/i;
+const TICKETMASTER_ARTIST_AFFILIATE_LINKS = {
+  "harry-styles": "https://ticketmaster.evyy.net/vD4B5y",
+  bts: "https://ticketmaster.evyy.net/OY9gkr",
+  "ariana-grande": "https://ticketmaster.evyy.net/bkDx6b",
+  "bad-bunny": "https://ticketmaster.evyy.net/zzeEWW",
+  "morgan-wallen": "https://ticketmaster.evyy.net/morganwallenus",
+  "jay-z": "https://ticketmaster.evyy.net/5kM6W3",
+  beyonce: "https://ticketmaster.evyy.net/beyonce"
+};
 
 function isValidDateISO(value) {
   if (typeof value !== "string") return false;
@@ -83,7 +92,15 @@ function mapEventsToShows(events) {
         ticketmaster_event_id: event.ticketmaster_event_id,
         seatgeek_url: event.seatgeek_url,
         vividseats_url: event.vividseats_url,
-        ticketmaster_url: event.ticketmaster_url
+        ticketmaster_url: event.ticketmaster_url,
+        impact_program_id: event.impact_program_id,
+        impact_deep_link: event.impact_deep_link,
+        ticketmaster_impact_program_id: event.ticketmaster_impact_program_id,
+        seatgeek_impact_program_id: event.seatgeek_impact_program_id,
+        vividseats_impact_program_id: event.vividseats_impact_program_id,
+        ticketmaster_deep_link: event.ticketmaster_deep_link,
+        seatgeek_deep_link: event.seatgeek_deep_link,
+        vividseats_deep_link: event.vividseats_deep_link
       };
     })
     .filter((show) => isValidDateISO(show.dateTimeISO))
@@ -405,6 +422,16 @@ function providerKey(provider) {
   return String(provider || "").toLowerCase().replace(/\s+/g, "");
 }
 
+function hasImpactCredentials(env) {
+  return Boolean(String(env?.IMPACT_ACCOUNT_SID || "").trim() && String(env?.IMPACT_AUTH_TOKEN || "").trim());
+}
+
+function getProviderDeepLink(show, provider, fallbackUrl) {
+  const key = providerKey(provider);
+  const candidate = String(show?.[`${key}_deep_link`] || show?.impact_deep_link || fallbackUrl || "").trim();
+  return isUsableAffiliateUrl(candidate) ? candidate : null;
+}
+
 function getAffiliateUrl(show, provider) {
   if (!show) return null;
   const key = providerKey(provider);
@@ -423,6 +450,65 @@ function buildProviderUrl(show, provider) {
   const affiliate = getAffiliateUrl(show, provider);
   if (affiliate) return affiliate;
   return null;
+}
+
+function getConfirmedTicketmasterArtistAffiliateUrl(show) {
+  const url = TICKETMASTER_ARTIST_AFFILIATE_LINKS[slugify(show?.artist_slug)];
+  return isUsableAffiliateUrl(url) ? url : null;
+}
+
+function isTicketmasterStaticAffiliateUrl(value) {
+  if (!isUsableAffiliateUrl(value)) return false;
+  try {
+    return new URL(value).hostname.toLowerCase() === "ticketmaster.evyy.net";
+  } catch (error) {
+    return false;
+  }
+}
+
+function buildAffiliateActionUrl(show, provider, deepLink) {
+  const params = new URLSearchParams({
+    showId: String(show?.id || ""),
+    provider: String(provider || "")
+  });
+  if (deepLink && !isTicketmasterStaticAffiliateUrl(deepLink)) {
+    params.set("deepLink", deepLink);
+  }
+  return `/api/out?${params.toString()}`;
+}
+
+function decorateProviderResult(result, show, provider, env) {
+  const key = providerKey(provider);
+  const directUrl = key === "ticketmaster"
+    ? getProviderDeepLink(show, provider, result?.url) || getConfirmedTicketmasterArtistAffiliateUrl(show)
+    : getProviderDeepLink(show, provider, result?.url);
+  const ticketmasterProgramId = String(show?.ticketmaster_impact_program_id || env?.IMPACT_TICKETMASTER_PROGRAM_ID || "").trim();
+  const canUseImpact = key === "ticketmaster" && hasImpactCredentials(env) && Boolean(ticketmasterProgramId && directUrl);
+  const actionUrl = canUseImpact ? buildAffiliateActionUrl(show, provider, directUrl) : null;
+  const baseStatus = result?.status || "unavailable";
+  const status = canUseImpact ? "affiliate_ready" : "unavailable";
+  const note = canUseImpact
+    ? key === "ticketmaster"
+      ? "Ticketmaster availability is ready through a confirmed artist-level affiliate route."
+      : "Affiliate redirect is ready for this provider."
+    : directUrl
+      ? "A real provider destination exists, but this provider still needs a confirmed safe affiliate route before it can be enabled."
+      : "No verified provider destination is available for this lane.";
+
+  return {
+    provider,
+    price: baseStatus === "ok" && Number.isFinite(Number(result?.price)) ? Number(result.price) : null,
+    currency: result?.currency || "USD",
+    fetchedAt: result?.fetchedAt || new Date().toISOString(),
+    status,
+    providerStatus: baseStatus,
+    cacheState: result?.cacheState || "live",
+    rateLimited: Boolean(result?.rateLimited),
+    error: result?.error || null,
+    url: actionUrl,
+    actionUrl,
+    note
+  };
 }
 
 function createMockAdapter(provider, options = {}) {
@@ -589,13 +675,13 @@ function hashString(value) {
 }
 
 function buildCacheKey(showId, provider) {
-  return `https://cache.local/prices?showId=${encodeURIComponent(
+  return `https://cache.local/prices-v2-real-affiliate?showId=${encodeURIComponent(
     showId
   )}&provider=${encodeURIComponent(provider)}`;
 }
 
 function buildStaleCacheKey(showId, provider) {
-  return `https://cache.local/prices-stale?showId=${encodeURIComponent(
+  return `https://cache.local/prices-stale-v2-real-affiliate?showId=${encodeURIComponent(
     showId
   )}&provider=${encodeURIComponent(provider)}`;
 }
@@ -707,6 +793,7 @@ async function setDailyCount(cache, key, count, ttlSeconds) {
 }
 
 async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfig) {
+  const env = rateLimitConfig?.env || {};
   const cacheKey = buildCacheKey(show.id, adapter.provider);
   const cached = await cache.match(cacheKey);
   if (cached) {
@@ -715,18 +802,18 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
       ? data.url
       : buildProviderUrl(show, adapter.provider);
     if (data && typeof data === "object" && !Array.isArray(data) && !data.url) {
-      return {
+      return decorateProviderResult({
         ...data,
         cacheState: data.cacheState || "cached",
         url: sanitizedUrl
-      };
+      }, show, adapter.provider, env);
     }
     if (data && typeof data === "object" && !Array.isArray(data)) {
-      return {
+      return decorateProviderResult({
         ...data,
         cacheState: data.cacheState || "cached",
         url: sanitizedUrl
-      };
+      }, show, adapter.provider, env);
     }
     return data;
   }
@@ -760,16 +847,16 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
             const staleUrl = isUsableAffiliateUrl(staleData && staleData.url)
               ? staleData.url
               : buildProviderUrl(show, adapter.provider);
-            return {
+            return decorateProviderResult({
               ...(staleData && typeof staleData === "object" ? staleData : {}),
               url: staleUrl,
               status: "stale",
               rateLimited: true,
               cacheState: "stale"
-            };
+            }, show, adapter.provider, env);
           }
 
-          return {
+          return decorateProviderResult({
             provider: adapter.provider,
             price: null,
             currency: "USD",
@@ -778,7 +865,7 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
             status: "rate_limited",
             dailyCount: count,
             cacheState: "rate_limited"
-          };
+          }, show, adapter.provider, env);
         }
       } else {
         // Fallback (not strictly durable): use caches.default as a best-effort limiter.
@@ -790,16 +877,16 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
             const staleUrl = isUsableAffiliateUrl(staleData && staleData.url)
               ? staleData.url
               : buildProviderUrl(show, adapter.provider);
-            return {
+            return decorateProviderResult({
               ...(staleData && typeof staleData === "object" ? staleData : {}),
               url: staleUrl,
               status: "stale",
               rateLimited: true,
               cacheState: "stale"
-            };
+            }, show, adapter.provider, env);
           }
 
-          return {
+          return decorateProviderResult({
             provider: adapter.provider,
             price: null,
             currency: "USD",
@@ -808,7 +895,7 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
             status: "rate_limited",
             dailyCount: count,
             cacheState: "rate_limited"
-          };
+          }, show, adapter.provider, env);
         }
 
         await setDailyCount(cache, key, count + 1, dailyTtl);
@@ -849,7 +936,7 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
         await cache.put(buildStaleCacheKey(show.id, adapter.provider), staleResponse);
       }
 
-      return normalized;
+      return decorateProviderResult(normalized, show, adapter.provider, env);
     } catch (err) {
       const fallback = {
         provider: adapter.provider,
@@ -870,7 +957,7 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
       });
 
       await cache.put(cacheKey, response.clone());
-      return fallback;
+      return decorateProviderResult(fallback, show, adapter.provider, env);
     }
   })();
 
@@ -883,8 +970,8 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
 }
 
 export async function onRequestGet({ request, env }) {
-  const mockMode = getEnvBoolean(env.MOCK_MODE, false);
-  const allowMockPrices = getEnvBoolean(env.ALLOW_MOCK_PRICES, false);
+  const mockMode = false;
+  const allowMockPrices = false;
   const ticketmasterDiscoveryEnabled = getEnvBoolean(env.TICKETMASTER_DISCOVERY_ENABLED, true);
   const ttlMinutes = Math.max(1, getEnvNumber(env.CACHE_TTL_MINUTES, 60));
   const ttlSeconds = ttlMinutes * 60;

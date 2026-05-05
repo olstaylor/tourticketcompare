@@ -18,6 +18,11 @@ TICKETMASTER_DISCOVERY_COUNTRY = ""
 # Optional D1 bindings for CLI-based deploys and local Pages dev.
 # Configure these in the Cloudflare dashboard for Git-connected Pages deploys.
 #
+[[d1_databases]]
+binding = "DEMAND_DB"
+database_name = "tourticketcompare-demand"
+database_id = "19b314b8-10f1-4504-a3bc-963f7ecbe9f6"
+
 # [[d1_databases]]
 # binding = "RATE_LIMIT_DB"
 # database_name = "tourticketcompare-rate-limit"

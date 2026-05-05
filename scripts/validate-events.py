@@ -78,12 +78,11 @@ def main() -> int:
     parser.add_argument(
         "--for-production",
         action="store_true",
-        help="Enable strict launch checks: min-events>=1, require affiliate URLs, reject placeholders.",
+        help="Enable strict launch checks: min-events>=1 and reject placeholders. Missing URLs are allowed and render unavailable.",
     )
     args = parser.parse_args()
 
     if args.for_production:
-        args.require_affiliate_urls = True
         args.reject_placeholder_urls = True
         if args.min_events < 1:
             args.min_events = 1

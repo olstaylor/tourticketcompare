@@ -1,0 +1,14 @@
+{
+  "ticketmaster": {
+    "artist_links": {},
+    "event_deeplink_template": ""
+  },
+  "seatgeek": {
+    "artist_links": {},
+    "event_deeplink_template": ""
+  },
+  "vivid_seats": {
+    "artist_links": {},
+    "event_deeplink_template": ""
+  }
+}

@@ -1,5 +1,5 @@
 /*
-  Referrer-Policy: strict-origin-when-cross-origin
+  Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Permissions-Policy: interest-cohort=()
@@ -17,4 +17,13 @@
   Cache-Control: no-store
 
 /data/artists.json
+  Cache-Control: no-store
+
+/data/affiliate-routes.json
+  Cache-Control: no-store
+
+/data/inventory-model.json
+  Cache-Control: no-store
+
+/data/catalog.json
   Cache-Control: no-store

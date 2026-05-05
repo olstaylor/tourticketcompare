@@ -1,0 +1,262 @@
+import { createHash } from "node:crypto";
+import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { extname, join, relative } from "node:path";
+import { gzipSync } from "node:zlib";
+
+const root = process.cwd();
+const publicDir = join(root, "public");
+const outputPath = process.argv[2] || "/tmp/tourticketcompare-worker.js";
+
+const contentTypes = {
+  ".html": "text/html; charset=utf-8",
+  ".css": "text/css; charset=utf-8",
+  ".js": "text/javascript; charset=utf-8",
+  ".json": "application/json; charset=utf-8",
+  ".svg": "image/svg+xml; charset=utf-8",
+  ".txt": "text/plain; charset=utf-8",
+  ".xml": "application/xml; charset=utf-8"
+};
+
+const guideRoutes = {
+  "/guides/how-to-compare-concert-ticket-prices": {
+    title: "How to Compare Concert Ticket Prices | TourTicketCompare",
+    h1: "How to compare concert ticket prices",
+    description:
+      "Learn how to compare concert ticket options safely by checking provider sources, fees, availability, and final checkout totals."
+  },
+  "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
+    title: "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
+    h1: "Ticketmaster vs SeatGeek vs Vivid Seats",
+    description:
+      "Understand how Ticketmaster, SeatGeek, and Vivid Seats can differ by inventory source, fees, checkout flow, and availability."
+  },
+  "/guides/how-to-avoid-overpaying-for-concert-tickets": {
+    title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
+    h1: "How to avoid overpaying for concert tickets",
+    description:
+      "Practical checks for avoiding unclear fees, speculative listings, placeholder ticket links, and unsupported ticket-price claims."
+  },
+  "/guides/when-is-the-best-time-to-buy-concert-tickets": {
+    title: "Best Time to Buy Concert Tickets | TourTicketCompare",
+    h1: "When is the best time to buy concert tickets?",
+    description:
+      "Learn how timing can affect concert ticket buying decisions without relying on fake scarcity or invented pricing trends."
+  },
+  "/guides/primary-vs-resale-concert-tickets": {
+    title: "Primary vs Resale Concert Tickets | TourTicketCompare",
+    h1: "Primary vs resale concert tickets",
+    description:
+      "A clear guide to primary and resale concert tickets, including fees, delivery, speculative listings, and checkout checks."
+  }
+};
+
+const trustRoutes = {
+  "/": {
+    title: "TourTicketCompare | Ticket Options & Availability",
+    description:
+      "Find verified ticket platform links for major artists. No fake prices, no placeholder buttons, and no invented tour data.",
+    indexable: true
+  },
+  "/artists": {
+    title: "Artists | TourTicketCompare",
+    description:
+      "Browse factual artist ticket pages with verified provider buttons where safe ticket links are configured.",
+    indexable: true,
+    breadcrumb: [{ name: "Artists", path: "/artists" }]
+  },
+  "/guides": {
+    title: "Concert Ticket Buying Guides | TourTicketCompare",
+    description:
+      "Practical guides to comparing concert ticket options, fees, resale listings, provider differences, and checkout totals.",
+    indexable: true,
+    breadcrumb: [{ name: "Guides", path: "/guides" }]
+  },
+  "/how-it-works": {
+    title: "How TourTicketCompare Works",
+    description:
+      "How TourTicketCompare verifies artist pages, provider buttons, disclosures, and ticket data before publishing public links.",
+    indexable: true,
+    faq: true,
+    breadcrumb: [{ name: "How it works", path: "/how-it-works" }]
+  },
+  "/about": {
+    title: "About TourTicketCompare",
+    description:
+      "TourTicketCompare is an independent, unofficial ticket comparison affiliate site built around verified links and factual content.",
+    indexable: true,
+    breadcrumb: [{ name: "About", path: "/about" }]
+  },
+  "/contact": {
+    title: "Contact TourTicketCompare",
+    description: "Contact TourTicketCompare about provider links, artist data, corrections, partnerships, or editorial questions.",
+    indexable: true,
+    breadcrumb: [{ name: "Contact", path: "/contact" }]
+  },
+  "/editorial-policy": {
+    title: "Editorial Policy | TourTicketCompare",
+    description:
+      "The editorial rules TourTicketCompare follows before publishing artist facts, tour pages, provider links, prices, or availability.",
+    indexable: true,
+    breadcrumb: [{ name: "Editorial policy", path: "/editorial-policy" }]
+  },
+  "/affiliate-disclosure": {
+    title: "Affiliate Disclosure | TourTicketCompare",
+    description:
+      "TourTicketCompare may earn commission from verified provider links without changing the price you pay.",
+    indexable: true,
+    breadcrumb: [{ name: "Affiliate disclosure", path: "/affiliate-disclosure" }]
+  }
+};
+
+const oldGuideRedirects = {
+  "/guides/compare-ticket-prices-safely": "/guides/how-to-compare-concert-ticket-prices",
+  "/guides/why-ticket-prices-vary": "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
+  "/guides/avoid-overpaying-concert-tickets": "/guides/how-to-avoid-overpaying-for-concert-tickets",
+  "/guides/best-time-to-buy-concert-tickets": "/guides/when-is-the-best-time-to-buy-concert-tickets"
+};
+
+const privateTicketLinks = {
+  "beyonce:ticketmaster": {
+    artistSlug: "beyonce",
+    provider: "ticketmaster",
+    linkId: "tm-artist-beyonce",
+    redirectUrl: "https://ticketmaster.evyy.net/beyonce",
+    verified: true
+  },
+  "harry-styles:ticketmaster": {
+    artistSlug: "harry-styles",
+    provider: "ticketmaster",
+    linkId: "tm-artist-harry-styles",
+    redirectUrl: "https://ticketmaster.evyy.net/vD4B5y",
+    verified: true
+  },
+  "bts:ticketmaster": {
+    artistSlug: "bts",
+    provider: "ticketmaster",
+    linkId: "tm-artist-bts",
+    redirectUrl: "https://ticketmaster.evyy.net/OY9gkr",
+    verified: true
+  },
+  "ariana-grande:ticketmaster": {
+    artistSlug: "ariana-grande",
+    provider: "ticketmaster",
+    linkId: "tm-artist-ariana-grande",
+    redirectUrl: "https://ticketmaster.evyy.net/bkDx6b",
+    verified: true
+  },
+  "bad-bunny:ticketmaster": {
+    artistSlug: "bad-bunny",
+    provider: "ticketmaster",
+    linkId: "tm-artist-bad-bunny",
+    redirectUrl: "https://ticketmaster.evyy.net/zzeEWW",
+    verified: true
+  },
+  "morgan-wallen:ticketmaster": {
+    artistSlug: "morgan-wallen",
+    provider: "ticketmaster",
+    linkId: "tm-artist-morgan-wallen",
+    redirectUrl: "https://ticketmaster.evyy.net/morganwallenus",
+    verified: true
+  },
+  "jay-z:ticketmaster": {
+    artistSlug: "jay-z",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jay-z",
+    redirectUrl: "https://ticketmaster.evyy.net/5kM6W3",
+    verified: true
+  }
+};
+
+function walk(dir, out = []) {
+  for (const entry of readdirSync(dir)) {
+    const fullPath = join(dir, entry);
+    const stat = statSync(fullPath);
+    if (stat.isDirectory()) {
+      walk(fullPath, out);
+    } else if (stat.isFile() && entry !== "_worker.js") {
+      out.push(fullPath);
+    }
+  }
+  return out;
+}
+
+const assets = {};
+for (const file of walk(publicDir)) {
+  const webPath = `/${relative(publicDir, file).replace(/\\/g, "/")}`;
+  assets[webPath] = {
+    content: readFileSync(file, "utf8"),
+    type: contentTypes[extname(file)] || "application/octet-stream"
+  };
+}
+
+const sourceHash = createHash("sha256").update(JSON.stringify({ assets, guideRoutes, trustRoutes })).digest("hex").slice(0, 12);
+const compressedAssets = gzipSync(JSON.stringify(assets), { level: 9 }).toString("base64");
+
+const worker = `const ASSETS_GZ=${JSON.stringify(compressedAssets)};
+const BUILD_ID=${JSON.stringify(sourceHash)};
+const GUIDE_ROUTES=${JSON.stringify(guideRoutes)};
+const TRUST_ROUTES=${JSON.stringify(trustRoutes)};
+const OLD_GUIDE_REDIRECTS=${JSON.stringify(oldGuideRedirects)};
+const VERIFIED_TICKET_LINKS=${JSON.stringify(privateTicketLinks)};
+const PLACEHOLDER=/example\\.com|placeholder|your-link|replace-me|localhost|127\\.0\\.0\\.1/i;
+const PROVIDERS={ticketmaster:{name:"Ticketmaster",allowedDestinationHosts:["ticketmaster.com","ticketmaster.co.uk"],trustedAffiliateHosts:["ticketmaster.evyy.net"]},seatgeek:{name:"SeatGeek",allowedDestinationHosts:["seatgeek.com"],trustedAffiliateHosts:[]},"vivid-seats":{name:"Vivid Seats",allowedDestinationHosts:["vividseats.com"],trustedAffiliateHosts:[]}};
+const STATIC_INDEXABLE_PATHS=["/","/artists","/guides","/how-it-works","/about","/contact","/editorial-policy","/affiliate-disclosure"].concat(Object.keys(GUIDE_ROUTES));
+const ARTIST_SLUGS=new Set(["beyonce","harry-styles","bts","ariana-grande","bad-bunny","morgan-wallen","jay-z"]);
+const RATE_LIMIT_WINDOW_MS=10*60*1000;
+const RATE_LIMIT_MAX=5;
+let ASSETS_CACHE=null;
+function json(payload,status=200){return new Response(JSON.stringify(payload),{status,headers:{"content-type":"application/json; charset=utf-8","cache-control":"no-store"}})}
+function text(body,type,status=200,cache="public, max-age=120"){return new Response(body,{status,headers:{"content-type":type,"cache-control":cache}})}
+function clean(value,max=255){return String(value||"").trim().slice(0,max)}
+function slug(value){return clean(value,120).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"")}
+function providerKey(value){const key=slug(value);return key==="vividseats"?"vivid-seats":key}
+function normalizePath(pathname){const path=pathname||"/";return path!=="/"&&path.endsWith("/")?path.replace(/\\/+$/,""):path}
+function escapeAttr(value){return String(value||"").replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function escapeXml(value){return String(value).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/'/g,"&apos;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+function getDemandDb(env){const db=env&&env.DEMAND_DB;return db&&typeof db.prepare==="function"?db:null}
+async function inflateAssets(){if(ASSETS_CACHE)return ASSETS_CACHE;const bytes=Uint8Array.from(atob(ASSETS_GZ),c=>c.charCodeAt(0));const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));ASSETS_CACHE=JSON.parse(await new Response(stream).text());return ASSETS_CACHE}
+async function catalog(){try{const assets=await inflateAssets();return JSON.parse(assets["/data/catalog.json"].content)}catch{return{artists:[],tours:[],ticket_links:[]}}}
+async function events(){try{const assets=await inflateAssets();return JSON.parse(assets["/data/events.json"].content)}catch{return[]}}
+function findArtist(data,artistSlug){return(data.artists||[]).find(row=>slug(row.slug)===artistSlug)}
+function findTour(data,artistSlug,tourSlug){return(data.tours||[]).find(row=>slug(row.artist_slug)===artistSlug&&slug(row.slug)===tourSlug)}
+async function routeForPath(pathname){const path=normalizePath(pathname);if(OLD_GUIDE_REDIRECTS[path])return{type:"redirect",location:OLD_GUIDE_REDIRECTS[path]};if(TRUST_ROUTES[path])return{type:"static",path,...TRUST_ROUTES[path]};if(GUIDE_ROUTES[path])return{type:"guide",path,indexable:true,...GUIDE_ROUTES[path],breadcrumb:[{name:"Guides",path:"/guides"},{name:GUIDE_ROUTES[path].title.replace(" | TourTicketCompare",""),path}]};const data=await catalog();let match=path.match(/^\\/artists\\/([a-z0-9-]+)$/);if(match){const artist=findArtist(data,match[1]);if(!artist)return null;return{type:"artist",path,indexable:true,title:artist.seo_title||artist.name+" Tickets | Options & Availability",description:artist.meta_description||"Check "+artist.name+" ticket options through verified provider links. No fake prices or invented tour dates.",artist,breadcrumb:[{name:"Artists",path:"/artists"},{name:artist.name,path}]}}match=path.match(/^\\/artists\\/([a-z0-9-]+)\\/tickets$/);if(match){const artist=findArtist(data,match[1]);if(artist)return{type:"redirect",location:"/artists/"+artist.slug}}match=path.match(/^\\/artists\\/([a-z0-9-]+)\\/([a-z0-9-]+)$/);if(match){const artist=findArtist(data,match[1]);const tour=artist?findTour(data,artist.slug,match[2]):null;if(!artist||!tour)return null;return{type:"tour",path,indexable:tour.verified===true,title:tour.seo_title||tour.tour_name+" Tickets | TourTicketCompare",description:tour.meta_description||"Verified ticket information for "+tour.tour_name+" by "+artist.name+".",artist,tour,breadcrumb:[{name:"Artists",path:"/artists"},{name:artist.name,path:"/artists/"+artist.slug},{name:tour.tour_name,path}]}}match=path.match(/^\\/([a-z0-9-]+)-tickets(?:-[a-z0-9-]+)?$/);if(match){const artist=findArtist(data,match[1]);if(artist)return{type:"redirect",location:"/artists/"+artist.slug}}match=path.match(/^\\/([a-z0-9-]+)$/);if(match){const artist=findArtist(data,match[1]);if(artist)return{type:"redirect",location:"/artists/"+artist.slug}}return null}
+function baseSchema(origin){return[{"@type":"Organization",name:"TourTicketCompare",url:origin+"/"},{"@type":"WebSite",name:"TourTicketCompare",url:origin+"/",description:"Independent ticket comparison affiliate site built around factual artist pages and verified provider links."}]}
+function faqSchema(route){const questions=route.type==="artist"?[["Does this page list "+route.artist.name+" tour dates?","No. This page does not publish tour dates unless event data has been verified. Use the configured provider link to check current platform information."],["Does TourTicketCompare sell "+route.artist.name+" tickets?","No. TourTicketCompare does not sell tickets directly."],["Are prices shown here?","No. Prices should appear only when live provider data is verified and timestamped."]]:[["Is TourTicketCompare official?","No. TourTicketCompare is independent and unofficial."],["Why are some providers hidden?","Provider buttons are hidden until a verified destination and safe redirect route are configured."],["Can final prices and fees change?","Yes. External ticketing sites set their own prices, fees, availability, and checkout terms."]];return{"@type":"FAQPage",mainEntity:questions.map(([name,answer])=>({"@type":"Question",name,acceptedAnswer:{"@type":"Answer",text:answer}}))}}
+function breadcrumbSchema(route,origin){const items=[{name:"Home",path:"/"}].concat(route.breadcrumb||[]);return{"@type":"BreadcrumbList",itemListElement:items.map((item,index)=>({"@type":"ListItem",position:index+1,name:item.name,item:origin+item.path}))}}
+function artistSchema(route,origin){return{"@type":route.artist.slug==="bts"?"MusicGroup":"Person",name:route.artist.name,url:origin+route.path,sameAs:route.artist.official_website?[route.artist.official_website]:undefined,description:route.artist.factual_summary}}
+function articleSchema(route,origin){return{"@type":"Article",headline:route.title.replace(" | TourTicketCompare",""),description:route.description,mainEntityOfPage:origin+route.path,publisher:{"@type":"Organization",name:"TourTicketCompare",url:origin+"/"}}}
+function routeSchema(route,origin){const graph=baseSchema(origin);if(route.breadcrumb)graph.push(breadcrumbSchema(route,origin));if(route.type==="artist")graph.push(artistSchema(route,origin),faqSchema(route));if(route.type==="guide")graph.push(articleSchema(route,origin),faqSchema(route));if(route.faq)graph.push(faqSchema(route));return{"@context":"https://schema.org","@graph":graph}}
+function escapeHtml(value){return escapeAttr(value).replace(/'/g,"&#39;")}
+function providerEnabled(data,providerSlug){return(data.providers||[]).some(provider=>slug(provider.slug)===providerSlug&&provider.public_enabled===true)}
+function ticketLinksForArtist(data,artistSlug){return(data.ticket_links||[]).filter(item=>slug(item.artist_slug)===artistSlug&&item.verified===true&&item.public_enabled===true&&item.affiliate_enabled===true&&providerEnabled(data,slug(item.provider)))}
+function anchor(label,href,className){const cls=className?' class="'+escapeAttr(className)+'"':"";return'<a'+cls+' href="'+escapeAttr(href)+'">'+escapeHtml(label)+'</a>'}
+function renderBreadcrumbHtml(route){const items=[{name:"Home",path:"/"}].concat(route.breadcrumb||[]);return'<nav class="breadcrumbs" aria-label="Breadcrumb"><ol>'+items.map((item,index)=>index===items.length-1?'<li aria-current="page">'+escapeHtml(item.name)+'</li>':'<li>'+anchor(item.name,item.path,"")+'</li>').join("")+'</ol></nav>'}
+function renderArtistLinks(data){return'<div class="artist-card-grid">'+(data.artists||[]).map(artist=>'<article class="artist-card"><h3>'+escapeHtml(artist.name)+'</h3><p class="muted">'+escapeHtml(artist.short_description||"Artist ticket options and availability notes.")+'</p>'+anchor("View ticket options","/artists/"+artist.slug,"button button-primary")+'</article>').join("")+'</div>'}
+function renderGuideLinks(){return'<div class="card-grid guide-grid">'+Object.entries(GUIDE_ROUTES).map(([path,guide])=>'<article class="info-card"><h3>'+escapeHtml(guide.h1)+'</h3><p>'+escapeHtml(guide.description)+'</p>'+anchor("Read guide",path,"text-link")+'</article>').join("")+'</div>'}
+function renderProviderFallback(data,artist,surface){const links=ticketLinksForArtist(data,artist.slug);if(!links.length)return'<section class="provider-panel"><h2>Verified ticket links</h2><p class="muted">No verified ticket links are available yet. Check back later or follow for updates.</p></section>';const cards=links.map(item=>{const provider=slug(item.provider);const label=provider==="ticketmaster"?"View tickets on Ticketmaster":"View tickets on "+item.provider;const params=new URLSearchParams({artistSlug:artist.slug,provider,sourcePath:"/artists/"+artist.slug,surface});return'<article class="provider-card"><h3>'+escapeHtml(label.replace("View tickets on ",""))+'</h3><p>Provider sets prices, fees, availability, and checkout terms.</p>'+anchor(label,"/api/out?"+params.toString(),"button button-primary")+'</article>'}).join("");return'<section class="provider-panel"><h2>Verified ticket links</h2><div class="provider-actions">'+cards+'</div><p class="disclosure-note">Affiliate link. We may earn a commission at no extra cost to you.</p><p class="disclosure-note">Final prices, fees and availability are confirmed on the ticketing platform.</p></section>'}
+function renderMainContent(route,data){if(route.type==="artist"){const artist=route.artist;return'<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">'+renderBreadcrumbHtml(route)+'<h1 id="artistTitle">'+escapeHtml(artist.name)+' tickets: check verified ticket options</h1><p class="lead">Use this page to check verified ticket destinations for '+escapeHtml(artist.name)+'. We only show provider buttons when a destination has been configured and checked.</p>'+renderProviderFallback(data,artist,"artist_hero")+'<section class="split-section"><div><h2>About '+escapeHtml(artist.name)+'</h2><p>'+escapeHtml(artist.factual_summary)+'</p></div><div><h2>Verified destination status</h2><p>'+escapeHtml(artist.ticket_buying_notes)+'</p><p class="disclosure-note">We do not sell tickets directly. We route users to external ticketing platforms only when the link is verified.</p></div></section><section class="nested-panel"><h2>Ticket buying checklist</h2><ul class="check-list"><li>Check the final price including fees before paying.</li><li>Check the seat location, section, row, and any view restrictions.</li><li>Check resale terms and buyer protections if the ticket is listed by a third party.</li><li>Check the delivery method and expected transfer timing.</li><li>Check refund, cancellation, and event-change terms on the provider site.</li></ul></section><section class="nested-panel"><h2>About this page</h2><p>This page does not list unverified tour dates, invented prices, speculative venues, or placeholder checkout links. Ticket details should be confirmed on the ticketing platform before purchase.</p></section><section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">'+anchor("All artists","/artists","mini-link")+anchor("Ticket buying guides","/guides","mini-link")+anchor("How it works","/how-it-works","mini-link")+anchor("Affiliate disclosure","/affiliate-disclosure","mini-link")+'</div></section><section class="nested-panel faq-panel"><h2>'+escapeHtml(artist.name)+' ticket FAQ</h2><details><summary>Does this page list '+escapeHtml(artist.name)+' tour dates?</summary><p>No. This page does not publish tour dates unless event data has been verified. Use the configured provider link to check current platform information.</p></details><details><summary>Does TourTicketCompare sell '+escapeHtml(artist.name)+' tickets?</summary><p>No. TourTicketCompare does not sell tickets directly. We link to external ticketing platforms when a route is verified.</p></details><details><summary>Are prices shown here?</summary><p>No. Prices should appear only when live provider data is verified and timestamped. Final prices and fees are controlled by the ticket platform.</p></details></section></section></main>'}if(route.type==="guide")return'<main id="mainContent"><section class="content-page guide-page" aria-labelledby="guideTitle">'+renderBreadcrumbHtml(route)+'<h1 id="guideTitle">'+escapeHtml(route.h1||route.title.replace(" | TourTicketCompare",""))+'</h1><p class="lead">'+escapeHtml(route.description)+'</p><section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains ticket-provider differences, checkout checks, fees, availability changes, and affiliate-link disclosures without inventing prices or event listings.</p></section><div class="action-row">'+anchor("Browse artists","/artists","button button-primary")+anchor("How it works","/how-it-works","button button-secondary")+'</div></section></main>';if(route.path==="/artists")return'<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">'+renderBreadcrumbHtml(route)+'<h1 id="artistsTitle">Artists</h1><p>Browse current artist pages. Each page uses verified destination links only and does not imply that tickets, tour dates, venues, prices, or availability are confirmed by TourTicketCompare.</p>'+renderArtistLinks(data)+'</section></main>';if(route.path==="/guides")return'<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">'+renderBreadcrumbHtml(route)+'<h1 id="guidesTitle">Concert ticket buying guides</h1><p>Practical, high-intent guides for checking ticket options, fees, provider differences, and resale risks before you buy.</p>'+renderGuideLinks()+'</section></main>';const simple={"/how-it-works":["How TourTicketCompare works","TourTicketCompare verifies artist pages, provider buttons, disclosures, and ticket data before publishing public links.","Provider buttons route through server-side validation so unsafe or unconfigured destinations stay hidden."],"/about":["About TourTicketCompare","TourTicketCompare is an independent, unofficial ticket comparison affiliate site built around verified links and factual content.","The site does not sell tickets directly. When provider links are verified, users are routed to external ticketing platforms."],"/contact":["Contact","For provider partnerships, corrections, artist data, or editorial questions, contact the project team.","Email hello@tourticketcompare.com."],"/editorial-policy":["Editorial policy","We publish factual, evergreen artist content and hide provider buttons until destinations are verified.","We do not invent tour dates, venues, ticket availability, prices, or event schema."],"/affiliate-disclosure":["Affiliate disclosure","Some outbound ticket links are affiliate links. We may earn a commission if you click through and buy tickets, at no extra cost to you.","Affiliate relationships do not change provider prices, fees, availability, or checkout terms."]};if(simple[route.path]){const page=simple[route.path];return'<main id="mainContent"><section class="content-page" aria-labelledby="pageTitle">'+renderBreadcrumbHtml(route)+'<h1 id="pageTitle">'+escapeHtml(page[0])+'</h1><p class="lead">'+escapeHtml(page[1])+'</p><p>'+escapeHtml(page[2])+'</p><div class="action-row">'+anchor("Browse artists","/artists","button button-primary")+anchor("Read buying guides","/guides","button button-secondary")+'</div></section></main>'}return'<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find ticket options for major artists</h1><p class="hero-subcopy">Use factual artist pages and verified provider buttons to check ticket availability without fake prices or placeholder links.</p><div class="action-row">'+anchor("Browse artists","/artists","button button-primary")+anchor("Read buying guides","/guides","button button-secondary")+'</div></div><aside class="trust-ledger" aria-label="Publishing rules"><h2>Built for safer ticket clicks</h2><p>No invented tour dates, venues, prices, or availability</p><p>Provider buttons appear only when a real destination is verified</p><p>Affiliate links are routed server-side through /api/out</p><p>Final prices and fees are always confirmed by the ticket platform</p></aside></section></main>'}
+function injectRoute(html,route,origin,data){const canonicalUrl=origin+route.path;const robots=route.indexable?"index,follow,max-image-preview:large":"noindex,follow";let next=html;next=next.replace(/<title>[^<]*<\\/title>/i,"<title>"+escapeAttr(route.title)+"</title>");next=next.replace(/<meta\\s+name="description"\\s+content="[^"]*"\\s*\\/?>/i,'<meta name="description" content="'+escapeAttr(route.description)+'" />');next=next.replace(/<meta\\s+name="robots"\\s+content="[^"]*"\\s*\\/?>/i,'<meta name="robots" content="'+robots+'" />');next=next.replace(/<meta\\s+property="og:title"\\s+content="[^"]*"\\s*\\/?>/i,'<meta property="og:title" content="'+escapeAttr(route.title)+'" />');next=next.replace(/<meta\\s+property="og:description"\\s+content="[^"]*"\\s*\\/?>/i,'<meta property="og:description" content="'+escapeAttr(route.description)+'" />');next=next.replace(/<meta\\s+property="og:url"\\s+content="[^"]*"\\s*\\/?>/i,'<meta property="og:url" content="'+escapeAttr(canonicalUrl)+'" />');next=next.replace(/<meta\\s+name="twitter:title"\\s+content="[^"]*"\\s*\\/?>/i,'<meta name="twitter:title" content="'+escapeAttr(route.title)+'" />');next=next.replace(/<meta\\s+name="twitter:description"\\s+content="[^"]*"\\s*\\/?>/i,'<meta name="twitter:description" content="'+escapeAttr(route.description)+'" />');next=next.replace(/<link\\s+rel="canonical"\\s+href="[^"]*"\\s*\\/?>/i,'<link rel="canonical" href="'+escapeAttr(canonicalUrl)+'" />');next=next.replace(/<script\\s+type="application\\/ld\\+json">[\\s\\S]*?<\\/script>/i,'<script type="application/ld+json">'+JSON.stringify(routeSchema(route,origin))+'</script>');return next.replace(/<main\\s+id="mainContent">[\\s\\S]*?<\\/main>/i,renderMainContent(route,data||{artists:[],ticket_links:[],providers:[]}))}
+function renderNotFoundHtml(html,pathname,origin){const route={type:"not-found",path:pathname,title:"Page Not Found | TourTicketCompare",description:"This TourTicketCompare page is not published.",indexable:false};let next=injectRoute(html,route,origin,{artists:[],ticket_links:[],providers:[]});return next.replace(/<main\\s+id="mainContent">[\\s\\S]*?<\\/main>/i,'<main id="mainContent"><section class="content-page" aria-labelledby="notFoundTitle"><h1 id="notFoundTitle">Page not found</h1><p>This route is not published. Use the artist index or guides to find current public pages.</p><div class="action-row">'+anchor("Browse artists","/artists","button button-primary")+anchor("Return home","/","button button-secondary")+'</div></section></main>')}
+async function hashRequestKey(request){const ip=clean(request.headers.get("cf-connecting-ip")||request.headers.get("x-forwarded-for"),120);const ua=clean(request.headers.get("user-agent"),255);const bytes=new TextEncoder().encode(ip+"|"+ua);const digest=await crypto.subtle.digest("SHA-256",bytes);return Array.from(new Uint8Array(digest)).map(byte=>byte.toString(16).padStart(2,"0")).join("")}
+async function applyRateLimit(db,key,now){const windowStart=new Date(Math.floor(now.getTime()/RATE_LIMIT_WINDOW_MS)*RATE_LIMIT_WINDOW_MS).toISOString();const resetAt=new Date(Date.parse(windowStart)+RATE_LIMIT_WINDOW_MS).toISOString();const limitKey="signup:"+key+":"+windowStart;await db.prepare("INSERT INTO rate_limits (key, window_start, count, reset_at) VALUES (?1, ?2, 1, ?3) ON CONFLICT(key) DO UPDATE SET count = count + 1").bind(limitKey,windowStart,resetAt).run();const row=await db.prepare("SELECT count FROM rate_limits WHERE key = ?1").bind(limitKey).first();return Number(row&&row.count||0)<=RATE_LIMIT_MAX}
+function normalizeEmail(value){return clean(value,254).toLowerCase()}
+function isValidEmail(value){return /^[^\\s@]+@[^\\s@]+\\.[^\\s@]{2,}$/i.test(value)&&value.length<=254}
+async function signupApi(request,env){const db=getDemandDb(env);if(!db)return json({ok:false,status:"storage_unavailable"},503);let payload={};try{payload=await request.json()}catch{return json({ok:false,status:"invalid_json"},400)}if(clean(payload.website,120))return json({ok:false,status:"spam_detected"},400);const email=normalizeEmail(payload.email);if(!isValidEmail(email))return json({ok:false,status:"invalid_email"},400);const artistSlug=slug(payload.artistSlug);if(artistSlug&&!ARTIST_SLUGS.has(artistSlug))return json({ok:false,status:"invalid_artist"},400);const now=new Date();const createdAt=now.toISOString();const requestKey=await hashRequestKey(request);if(!(await applyRateLimit(db,requestKey,now)))return json({ok:false,status:"rate_limited"},429);const sourcePath=clean(payload.sourcePath,255)||"/";const referrer=clean(request.headers.get("referer"),512);const userAgent=clean(request.headers.get("user-agent"),255);const existing=await db.prepare("SELECT email FROM email_subscribers WHERE email = ?1").bind(email).first();await db.prepare("INSERT INTO email_subscribers (email, created_at, updated_at, source_path, latest_artist_slug, request_key, referrer, user_agent) VALUES (?1, ?2, ?2, ?3, ?4, ?5, ?6, ?7) ON CONFLICT(email) DO UPDATE SET updated_at = excluded.updated_at, source_path = excluded.source_path, latest_artist_slug = COALESCE(excluded.latest_artist_slug, email_subscribers.latest_artist_slug), request_key = excluded.request_key, referrer = excluded.referrer, user_agent = excluded.user_agent").bind(email,createdAt,sourcePath,artistSlug||null,requestKey,referrer||null,userAgent||null).run();if(artistSlug)await db.prepare("INSERT INTO artist_interests (email, artist_slug, created_at, updated_at, source_path, request_key, referrer, user_agent) VALUES (?1, ?2, ?3, ?3, ?4, ?5, ?6, ?7) ON CONFLICT(email, artist_slug) DO UPDATE SET updated_at = excluded.updated_at, source_path = excluded.source_path, request_key = excluded.request_key, referrer = excluded.referrer, user_agent = excluded.user_agent").bind(email,artistSlug,createdAt,sourcePath,requestKey,referrer||null,userAgent||null).run();try{await insertAnalytics(db,{createdAt,eventName:artistSlug?"artist_interest":"email_signup",sourcePath,artistSlug,email,requestKey,referrer,userAgent,metadataJson:"{}"})}catch{}return json({ok:true,status:existing?"already_subscribed":"subscribed",email,artistSlug:artistSlug||null})}
+async function insertAnalytics(db,row){try{await db.prepare("INSERT INTO analytics_events (created_at, event_name, source_path, artist_slug, email, request_key, referrer, user_agent, metadata_json, provider, tour_slug, destination_host, link_id) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13)").bind(row.createdAt||new Date().toISOString(),row.eventName,row.sourcePath||"/",row.artistSlug||null,row.email||null,row.requestKey||null,row.referrer||null,row.userAgent||null,row.metadataJson||"{}",row.provider||null,row.tourSlug||null,row.destinationHost||null,row.linkId||null).run()}catch{await db.prepare("INSERT INTO analytics_events (created_at, event_name, source_path, artist_slug, email, request_key, referrer, user_agent, metadata_json) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)").bind(row.createdAt||new Date().toISOString(),row.eventName,row.sourcePath||"/",row.artistSlug||null,row.email||null,row.requestKey||null,row.referrer||null,row.userAgent||null,row.metadataJson||"{}").run()}}
+async function analyticsApi(request,env){const db=getDemandDb(env);if(!db)return json({ok:false,status:"storage_unavailable"},503);let payload={};try{payload=await request.json()}catch{return json({ok:false,status:"invalid_json"},400)}const eventName=clean(payload.eventName,80);if(!["page_view","email_signup","artist_interest","outbound_click","provider_click"].includes(eventName))return json({ok:false,status:"invalid_event"},400);const metadata=payload.metadata&&typeof payload.metadata==="object"?payload.metadata:{};await insertAnalytics(db,{eventName,sourcePath:clean(payload.sourcePath,255)||"/",artistSlug:slug(payload.artistSlug)||null,email:normalizeEmail(payload.email)||null,requestKey:await hashRequestKey(request),referrer:clean(request.headers.get("referer"),512)||null,userAgent:clean(request.headers.get("user-agent"),255)||null,metadataJson:JSON.stringify(metadata).slice(0,2048),provider:providerKey(payload.provider||metadata.provider)||null,tourSlug:slug(payload.tourSlug||metadata.tourSlug)||null,destinationHost:clean(payload.destinationHost||metadata.destinationHost,255)||null,linkId:clean(payload.linkId||metadata.linkId,120)||null});return json({ok:true})}
+async function showsApi(){const list=(await events()).filter(Boolean);return json({generatedAt:new Date().toISOString(),buildId:BUILD_ID,mockMode:false,allowMockPrices:false,shows:list})}
+function hasBinding(env,name){return !!(env&&Object.prototype.hasOwnProperty.call(env,name))}
+function healthApi(env){return json({ok:true,service:"tourticketcompare",runtime:"cloudflare-standalone-worker",status:"ok",buildId:BUILD_ID,timestamp:new Date().toISOString(),config:{mockMode:env&&env.MOCK_MODE==="true",allowMockPrices:env&&env.ALLOW_MOCK_PRICES==="true",clickTrackingEnabled:env&&env.CLICK_TRACKING_ENABLED==="true"},bindings:{demandDb:hasBinding(env,"DEMAND_DB"),impactAccountSid:hasBinding(env,"IMPACT_ACCOUNT_SID"),impactAuthToken:hasBinding(env,"IMPACT_AUTH_TOKEN"),impactDefaultProgramId:hasBinding(env,"IMPACT_DEFAULT_PROGRAM_ID"),impactTicketmasterProgramId:hasBinding(env,"IMPACT_TICKETMASTER_PROGRAM_ID")}})}
+function safeUrl(value){const raw=clean(value,2048);if(!raw||PLACEHOLDER.test(raw))return null;try{const parsed=new URL(raw);if(parsed.protocol!=="https:"&&parsed.protocol!=="http:")return null;return parsed}catch{return null}}
+function hostnameAllowed(hostname,allowed){const host=String(hostname||"").toLowerCase();return allowed.some(item=>host===item||host.endsWith("."+item))}
+function validateRequestedDestination(provider,value){if(!value)return{ok:true};const parsed=safeUrl(value);if(!parsed)return{ok:false,status:"invalid_destination"};if(!hostnameAllowed(parsed.hostname,provider.allowedDestinationHosts))return{ok:false,status:"destination_not_allowlisted"};return{ok:true,destinationHost:parsed.hostname.toLowerCase()}}
+function validateConfiguredRedirect(provider,value){const parsed=safeUrl(value);if(!parsed)return null;const hosts=provider.allowedDestinationHosts.concat(provider.trustedAffiliateHosts);return hostnameAllowed(parsed.hostname,hosts)?parsed:null}
+async function readBody(request){if(request.method!=="POST")return{};try{return await request.json()}catch{return{}}}
+async function outApi(request,env,mode){const url=new URL(request.url);const body=await readBody(request);const artistSlug=slug(body.artistSlug||url.searchParams.get("artistSlug"));const provider=providerKey(body.provider||url.searchParams.get("provider")||"ticketmaster");const sourcePath=clean(body.sourcePath||url.searchParams.get("sourcePath")||request.headers.get("referer")||"/",255);const requested=clean(body.destinationUrl||body.deepLink||url.searchParams.get("destinationUrl")||url.searchParams.get("deepLink"),2048);if(!artistSlug)return json({ok:false,status:"missing_artist_slug"},400);const providerConfig=PROVIDERS[provider];if(!providerConfig)return json({ok:false,status:"unknown_provider"},400);const destinationCheck=validateRequestedDestination(providerConfig,requested);if(!destinationCheck.ok)return json({ok:false,status:destinationCheck.status},400);const link=VERIFIED_TICKET_LINKS[artistSlug+":"+provider];if(!link||!link.verified)return json({ok:false,status:"provider_not_configured"},400);const redirect=validateConfiguredRedirect(providerConfig,link.redirectUrl);if(!redirect)return json({ok:false,status:"configured_redirect_rejected"},400);const db=getDemandDb(env);if(db){try{await insertAnalytics(db,{eventName:"outbound_click",sourcePath,artistSlug:link.artistSlug,referrer:clean(request.headers.get("referer"),512)||null,userAgent:clean(request.headers.get("user-agent"),255)||null,metadataJson:JSON.stringify({provider:link.provider,artistSlug:link.artistSlug,sourcePath,destinationHost:redirect.hostname.toLowerCase(),linkId:link.linkId}),provider:link.provider,destinationHost:redirect.hostname.toLowerCase(),linkId:link.linkId})}catch{}}if(mode==="redirect")return Response.redirect(redirect.toString(),302);return json({ok:true,status:"redirect_ready",redirectUrl:redirect.toString(),provider,artistSlug})}
+async function sitemap(request){const origin=new URL(request.url).origin;const today=new Date().toISOString().slice(0,10);const data=await catalog();const artistPaths=(data.artists||[]).map(artist=>"/artists/"+artist.slug);const paths=STATIC_INDEXABLE_PATHS.concat(artistPaths);const body='<?xml version="1.0" encoding="UTF-8"?>\\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n'+paths.map(path=>"<url><loc>"+escapeXml(origin+path)+"</loc><lastmod>"+today+"</lastmod></url>").join("\\n")+"\\n</urlset>";return text(body,"application/xml; charset=utf-8",200,"public, max-age=3600")}
+async function serveIndex(route,request,status=200){const assets=await inflateAssets();let html=assets["/index.html"].content;const data=await catalog();if(route)html=injectRoute(html,route,new URL(request.url).origin,data);return text(html,assets["/index.html"].type,status,status===404?"no-store":"public, max-age=120")}
+async function serveNotFound(pathname,request){const assets=await inflateAssets();const html=renderNotFoundHtml(assets["/index.html"].content,normalizePath(pathname),new URL(request.url).origin);return text(html,assets["/index.html"].type,404,"no-store")}
+export default{async fetch(request,env){const url=new URL(request.url);if(url.hostname==="www.tourticketcompare.com"){url.hostname="tourticketcompare.com";return Response.redirect(url.toString(),301)}if(url.pathname==="/api/health"&&request.method==="GET")return healthApi(env);if(url.pathname==="/api/signup"&&request.method==="POST")return signupApi(request,env);if(url.pathname==="/api/analytics"&&request.method==="POST")return analyticsApi(request,env);if(url.pathname==="/api/shows"&&request.method==="GET")return showsApi();if(url.pathname==="/api/out"&&request.method==="GET")return outApi(request,env,"redirect");if(url.pathname==="/api/out"&&request.method==="POST")return outApi(request,env,"json");if(url.pathname==="/api/click"&&request.method==="POST")return json({ok:true});if(url.pathname==="/sitemap.xml")return sitemap(request);const assets=await inflateAssets();const path=url.pathname==="/"?"/index.html":normalizePath(url.pathname);if(assets[path]&&path!=="/index.html")return text(assets[path].content,assets[path].type,200,path.startsWith("/data/")?"public, max-age=120":"public, max-age=3600");const route=await routeForPath(url.pathname);if(route&&route.type==="redirect")return Response.redirect(new URL(route.location,url.origin).toString(),301);if(route)return serveIndex(route,request);if(/\\.[a-z0-9]+$/i.test(path))return text("Not found","text/plain; charset=utf-8",404,"no-store");return serveNotFound(url.pathname,request)}};`;
+
+writeFileSync(outputPath, worker);
+console.log(`Wrote ${outputPath} (${worker.length} bytes, build ${sourceHash})`);

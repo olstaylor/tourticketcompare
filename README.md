@@ -37,7 +37,15 @@ npm run dev
 
 For local Pages Functions environment variables, copy `.dev.vars.example` to `.dev.vars` and fill in your values.
 
-3. Open:
+3. Apply D1 migrations locally if you are working on catalog, demand, or sync data:
+
+```bash
+npm run d1:migrate:local
+```
+
+This uses the `DEMAND_DB` binding from `wrangler.toml` and creates a local Wrangler D1 database. The local database is separate from production.
+
+4. Open:
 
 - `http://localhost:3000`
 - `http://localhost:3000/bruno-mars`
@@ -131,6 +139,89 @@ Notes:
 - Set `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=false` if you want metadata discovery only (no Ticketmaster price-range checks).
 - D1 binding name expected by code: `RATE_LIMIT_DB` (or fallback `DB`).
 - Optional dedicated D1 binding for click tracking: `CLICKS_DB`.
+- Verified catalog and demand-capture storage uses the `DEMAND_DB` D1 binding.
+
+## Cloudflare D1
+
+The repo includes D1 migrations for durable catalog and sync metadata:
+
+- `migrations/001_daily_provider_calls.sql`: optional durable provider rate-limit counters.
+- `migrations/002_ticket_catalog.sql`: artists, events, sync runs, and featured artist seed rows.
+
+### Binding
+
+`wrangler.toml` declares the shared D1 binding:
+
+```toml
+[[d1_databases]]
+binding = "DEMAND_DB"
+database_name = "tourticketcompare-demand"
+```
+
+Do not commit D1 database IDs or secrets. For remote deployments, configure the `DEMAND_DB` binding in the Cloudflare dashboard or CI environment after creating/selecting the database.
+
+If the database does not exist yet, create it with:
+
+```bash
+npm run d1:create
+```
+
+Wrangler will print a database ID. Keep that ID in Cloudflare configuration only; do not paste it into source code.
+
+### Apply migrations locally
+
+```bash
+npm run d1:migrate:local
+```
+
+Local migrations seed these featured artists:
+
+- Beyoncé
+- Harry Styles
+- BTS
+- Ariana Grande
+- Bad Bunny
+- Morgan Wallen
+- JAY-Z
+
+No event rows are seeded. Add events only after dates, venues, source URLs, provider links, and inventory status are verified.
+
+### Apply migrations remotely
+
+Confirm the remote Cloudflare environment has a `DEMAND_DB` binding, then run:
+
+```bash
+npm run d1:migrate:remote
+```
+
+To inspect migration status:
+
+```bash
+npm run d1:migrations:list
+```
+
+### D1 schema
+
+`artists`
+
+- `slug`: canonical artist slug and primary key.
+- `name`: public artist name.
+- `featured`: `1` for featured launch artists.
+- `sort_order`: display priority.
+- `status`: planning/status marker for internal catalog workflows.
+
+`events`
+
+- `id`: stable event ID.
+- `artist_slug`: foreign key to `artists.slug`.
+- `event_name`, `venue_name`, `city`, `region`, `country`, `starts_at`, `timezone`: nullable until verified.
+- `source_type`, `source_url`: where verified event data came from.
+- `inventory_status`: safe state such as `unknown`, `verified_link_available`, `price_unavailable`, `limited_availability`, `sold_out`, `unavailable`, or `error`.
+- `last_verified_at`: timestamp for the last verified provider/source check.
+
+`sync_runs`
+
+- Stores source sync status, counts, timestamps, error messages, and optional JSON metadata.
 
 ## Data model
 

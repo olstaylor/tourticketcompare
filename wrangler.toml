@@ -15,6 +15,13 @@ TICKETMASTER_ARTIST_EVENTS_LIMIT = "100"
 TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED = "true"
 TICKETMASTER_DISCOVERY_COUNTRY = ""
 
+# D1 binding for demand capture and verified catalog data.
+# The database ID is intentionally not committed. Configure the remote binding
+# in the Cloudflare dashboard or CI secrets after creating/selecting the DB.
+[[d1_databases]]
+binding = "DEMAND_DB"
+database_name = "tourticketcompare-demand"
+
 # Optional D1 bindings for CLI-based deploys and local Pages dev.
 # Configure these in the Cloudflare dashboard for Git-connected Pages deploys.
 #

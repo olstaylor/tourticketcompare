@@ -164,6 +164,16 @@ assert(showsResponse.status === 200, "/api/shows should return 200");
 const showsJson = await showsResponse.json();
 assert(Array.isArray(showsJson.shows), "/api/shows should return a shows array");
 assert(showsJson.mockMode === false && showsJson.allowMockPrices === false, "/api/shows should keep mock prices disabled");
+const morganShows = showsJson.shows.filter((show) => show.artist_slug === "morgan-wallen");
+assert(morganShows.length === 4, "/api/shows should expose the four verified Morgan Wallen events");
+for (const show of morganShows) {
+  assert(show.ticketmaster_url && show.ticketmaster_url.includes(`/event/${show.ticketmaster_event_id}`), `${show.id} should use its exact event-specific Ticketmaster URL`);
+  assert(!JSON.stringify(show).match(/example\.com|placeholder|ticketmaster\.evyy|price/i), `${show.id} should not expose placeholders, artist affiliate URLs, or prices`);
+}
+const appJs = await read("public/app.js");
+assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
+assert(appJs.includes("No verified ticket link is available for this specific date yet."), "event cards should have a safe unavailable state");
+assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
 const bulkPriceResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?includePrices=true"),

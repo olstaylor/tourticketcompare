@@ -457,7 +457,7 @@ function artistPageHeading(artist) {
 }
 
 function artistPageIntro(artist) {
-  return `Use this page to check ${artist.name} watchlist notes, verified show cards when available, and ticket-provider links only when a destination has been configured and checked.`;
+  return `Use this page to check ${artist.name} watchlist notes and verified show cards when official-source event data is available.`;
 }
 
 function renderProviderButtons(artist, surface) {
@@ -614,22 +614,50 @@ function formatShowDate(value) {
 }
 
 function showLocation(show) {
-  return [show.venue, show.city_display || show.city, show.country]
+  return [show.city, show.venue]
     .map((value) => String(value || "").trim())
     .filter(Boolean)
     .join(" · ");
 }
 
-function renderShowCard(show) {
+function safeVerifiedEventUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return null;
+  const lower = raw.toLowerCase();
+  const blockedHost = ["example", "com"].join(".");
+  try {
+    const parsed = new URL(raw);
+    if (parsed.protocol !== "https:" && parsed.protocol !== "http:") return null;
+    const host = parsed.hostname.toLowerCase();
+    if (host === "localhost" || host.endsWith(".localhost") || host === "127.0.0.1") return null;
+    if (host === blockedHost || host.endsWith(`.${blockedHost}`) || lower.includes("placeholder")) return null;
+    return parsed.toString();
+  } catch (error) {
+    return null;
+  }
+}
+
+function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
   text(article, "h3", show.event_name || show.artist_name || "Verified show");
-  const meta = [
-    formatShowDate(show.dateTimeISO),
-    showLocation(show)
-  ].filter(Boolean).join(" · ");
-  text(article, "p", meta || "Date and venue details are provided only when verified by the source.", "muted");
-  if (show.artist_slug) {
+  const date = formatShowDate(show.dateTimeISO);
+  if (date) text(article, "p", date, "card-status");
+  const location = showLocation(show);
+  text(article, "p", location || "City and venue details are shown only when verified by the source.", "muted");
+
+  if (options.showEventCta) {
+    const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
+    if (ticketmasterUrl) {
+      const cta = buttonLink("View verified ticket link", ticketmasterUrl, "primary");
+      cta.target = "_blank";
+      cta.rel = "noopener";
+      article.append(cta);
+      text(article, "p", "External ticketing sites set prices, fees, availability, and checkout terms.", "disclosure-note");
+    } else {
+      text(article, "p", "No verified ticket link is available for this specific date yet.", "disclosure-note");
+    }
+  } else if (show.artist_slug) {
     article.append(link("Open artist watch", `/artists/${slugify(show.artist_slug)}`, "text-link"));
   }
   return article;
@@ -660,7 +688,9 @@ async function hydrateShowBoard(section, filters = {}) {
       );
       return;
     }
-    grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show)));
+    grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show, {
+      showEventCta: Boolean(filters.showEventCta)
+    })));
   } catch (error) {
     grid.replaceChildren();
     text(
@@ -728,11 +758,10 @@ function renderArtist(artist) {
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Artists", href: "/artists" }, { label: artist.name }]));
   text(section, "h1", artistPageHeading(artist)).id = "artistTitle";
   text(section, "p", artistPageIntro(artist), "lead");
-  section.append(renderProviderButtons(artist, "artist_hero"));
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
-    "Verified show cards",
-    "If local data or the Ticketmaster Discovery API returns real future events for this artist, they will appear here without fake prices."
+    "Verified event links",
+    "Each card shows one verified event date and only links to the ticket URL for that exact event when one is available."
   );
   section.append(showBoard);
 
@@ -792,7 +821,7 @@ function renderArtist(artist) {
 
   section.append(summary, demand, checklist, pageNote, guideLinks, renderArtistFaq(artist));
   main.replaceChildren(section);
-  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 6 });
+  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 6, showEventCta: true });
 }
 
 function renderArtistFaq(artist) {

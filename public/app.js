@@ -138,10 +138,10 @@ const guidePages = [
     slug: "how-to-compare-concert-ticket-prices",
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Learn how to compare concert ticket options safely by checking provider sources, fees, availability, and final checkout totals.",
-    h1: "How to compare concert ticket prices",
+      "Learn how to check concert ticket links safely by reviewing provider sources, fees, availability, and final checkout totals.",
+    h1: "How to check concert ticket links safely",
     intro:
-      "The safest comparison starts with real providers, clear checkout destinations, and final totals rather than teaser prices. TourTicketCompare only publishes ticket buttons when the destination is verified.",
+      "Safer ticket research starts with real providers, clear checkout destinations, and final totals rather than teaser prices. TourTicketCompare only publishes ticket buttons when the destination is verified.",
     sections: [
       ["Compare final totals", "Service fees, delivery fees, taxes, and currency differences can change the total you pay at checkout."],
       ["Check the provider source", "Make sure the ticket link clearly leads to a known platform and not an unknown redirect or placeholder page."],
@@ -159,7 +159,7 @@ const guidePages = [
       "Understand how Ticketmaster, SeatGeek, and Vivid Seats can differ by inventory source, fees, checkout flow, and availability.",
     h1: "Ticketmaster vs SeatGeek vs Vivid Seats",
     intro:
-      "Ticket platforms can differ because they may list primary inventory, resale inventory, or a mix of both. The useful comparison is the provider, final price, fees, and current availability.",
+      "Ticket platforms can differ because they may list primary inventory, resale inventory, or a mix of both. Useful checks include provider identity, final price, fees, and current availability.",
     sections: [
       ["Ticketmaster", "Ticketmaster is commonly used for primary ticketing and may also show resale options for some events."],
       ["SeatGeek", "SeatGeek is a ticket marketplace and can show resale inventory where events are supported."],
@@ -185,7 +185,7 @@ const guidePages = [
     ],
     faq: [
       ["Does this site show fake prices?", "No. Prices should appear only when verified and timestamped."],
-      ["What should I compare first?", "Compare provider legitimacy, final checkout total, ticket type, delivery method, and refund terms."]
+      ["What should I check first?", "Check provider legitimacy, final checkout total, ticket type, delivery method, and refund terms."]
     ]
   },
   {
@@ -235,19 +235,19 @@ const oldGuideRedirects = {
 
 const routeMeta = {
   "/": {
-    title: "TourTicketCompare | Ticket Options & Availability",
+    title: "2026/27 Stadium Tour Market Watch | TourTicketCompare",
     description:
-      "Find verified ticket platform links for major artists. No fake prices, no placeholder buttons, and no invented tour data."
+      "Independent fan-made stadium tour watch for major artists, official API data where configured, and verified links only."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
     description:
-      "Browse factual artist ticket pages with verified provider buttons where safe ticket links are configured."
+      "Browse known artist pages in the 2026/27 stadium tour watch. Links appear only when a real destination is configured."
   },
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
     description:
-      "Practical guides to comparing concert ticket options, fees, resale listings, provider differences, and checkout totals."
+      "Practical guides for checking concert ticket links, fees, resale risks, provider differences, and checkout terms."
   },
   "/how-it-works": {
     title: "How TourTicketCompare Works",
@@ -257,7 +257,7 @@ const routeMeta = {
   "/about": {
     title: "About TourTicketCompare",
     description:
-      "TourTicketCompare is an independent, unofficial ticket comparison affiliate site built around verified links and factual content."
+      "TourTicketCompare is an independent, unofficial fan-made stadium tour ticket resource built around official sources where available."
   },
   "/contact": {
     title: "Contact TourTicketCompare",
@@ -453,11 +453,11 @@ function renderBreadcrumb(items) {
 }
 
 function artistPageHeading(artist) {
-  return `${artist.name} tickets: check verified ticket options`;
+  return `${artist.name} stadium tour watch`;
 }
 
 function artistPageIntro(artist) {
-  return `Use this page to check verified ticket destinations for ${artist.name}. We only show provider buttons when a destination has been configured and checked.`;
+  return `Use this page to check ${artist.name} watchlist notes, verified show cards when available, and ticket-provider links only when a destination has been configured and checked.`;
 }
 
 function renderProviderButtons(artist, surface) {
@@ -468,7 +468,7 @@ function renderProviderButtons(artist, surface) {
   text(panel, "h2", "Verified ticket links").id = "providerTitle";
 
   if (!links.length) {
-    text(panel, "p", "No verified ticket links are available yet. Check back later or follow for updates.", "muted");
+    text(panel, "p", "No verified ticket links are available yet. We hide provider buttons until a real destination is configured.", "muted");
     return panel;
   }
 
@@ -518,25 +518,25 @@ function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Find ticket options for major artists", "hero-title").id = "heroTitle";
+  text(copy, "h1", "2026/27 stadium tour market watch", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
-    "Use factual artist pages and verified provider buttons to check ticket availability without fake prices or placeholder links.",
+    "An independent fan-made watchlist for major stadium tours. We show official-source event data and verified ticket links only when they are available.",
     "hero-subcopy"
   );
   const actions = document.createElement("div");
   actions.className = "action-row";
-  actions.append(buttonLink("Browse artists", "/artists", "primary"), buttonLink("Read buying guides", "/guides", "secondary"));
+  actions.append(buttonLink("Browse artists", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"));
   copy.append(actions);
   const trust = document.createElement("aside");
   trust.className = "trust-ledger";
-  text(trust, "h2", "Built for safer ticket clicks");
+  text(trust, "h2", "Market watch rules");
   [
-    "No invented tour dates, venues, prices, or availability",
-    "Provider buttons appear only when a real destination is verified",
-    "Affiliate links are routed server-side through /api/out",
-    "Final prices and fees are always confirmed by the ticket platform"
+    "No invented dates, venues, prices, or availability",
+    "Official APIs and affiliate feeds only; no scraping",
+    "Placeholder links are never shown as ticket buttons",
+    "Final prices and fees are confirmed by the ticketing platform"
   ].forEach((item) => text(trust, "p", item));
   hero.append(copy, trust);
 
@@ -545,8 +545,8 @@ function renderHome() {
   artists.setAttribute("aria-labelledby", "homeArtistsTitle");
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
-  text(artistHeader, "h2", "Artist ticket pages").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Start with a factual artist page, then use verified provider buttons where routes are configured.");
+  text(artistHeader, "h2", "Artist watchlist").id = "homeArtistsTitle";
+  text(artistHeader, "p", "Known artist routes are controlled from site data so the MVP does not generate random thin pages.");
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => {
@@ -554,30 +554,17 @@ function renderHome() {
   });
   artists.append(artistHeader, grid);
 
-  const how = document.createElement("section");
-  how.className = "section-grid";
-  how.setAttribute("aria-labelledby", "howTitle");
-  const howHeader = document.createElement("div");
-  howHeader.className = "section-intro";
-  text(howHeader, "h2", "How it works").id = "howTitle";
-  text(howHeader, "p", "TourTicketCompare is built to reduce dead-end clicks and unsupported claims.");
-  const steps = document.createElement("div");
-  steps.className = "card-grid";
-  steps.append(
-    renderInfoCard("1. Pick an artist", "Choose a factual artist page instead of a fake event listing."),
-    renderInfoCard("2. Check verified providers", "Only real, configured provider links are shown as buttons."),
-    renderInfoCard("3. Confirm on the provider site", "The ticket platform controls current prices, fees, delivery, and availability.")
-  );
-  how.append(howHeader, steps);
+  const board = renderShowBoardShell("homeShowBoard", "Show watch", "Verified show cards appear here when local data or the Ticketmaster Discovery API returns real future events.");
 
-  main.replaceChildren(hero, artists, how, renderGuidePreview());
+  main.replaceChildren(hero, artists, board, renderGuidePreview());
+  hydrateShowBoard(board, {});
 }
 
 function renderArtistCard(artist) {
   const article = document.createElement("article");
   article.className = "artist-card";
   text(article, "h3", artist.name);
-  text(article, "p", artist.short_description || "Artist ticket options and availability notes.", "muted");
+  text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
   const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
   text(
     article,
@@ -585,7 +572,7 @@ function renderArtistCard(artist) {
     activeProviders.length ? "Verified Ticketmaster link available." : "No verified ticket links are available yet.",
     "card-status"
   );
-  article.append(buttonLink("View ticket options", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
+  article.append(buttonLink("Open artist watch", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
   return article;
 }
 
@@ -598,14 +585,101 @@ function renderInfoCard(title, body, footer) {
   return article;
 }
 
+function renderShowBoardShell(id, title, body) {
+  const section = document.createElement("section");
+  section.className = "section-grid show-board";
+  section.setAttribute("aria-labelledby", id);
+  const header = document.createElement("div");
+  header.className = "section-intro";
+  text(header, "h2", title).id = id;
+  text(header, "p", body);
+  const grid = document.createElement("div");
+  grid.className = "card-grid show-card-grid";
+  grid.dataset.showGrid = "true";
+  text(grid, "p", "Checking verified show data...", "muted");
+  section.append(header, grid);
+  return section;
+}
+
+function formatShowDate(value) {
+  if (!value) return "";
+  const parsed = new Date(value);
+  if (!Number.isFinite(parsed.getTime())) return "";
+  return parsed.toLocaleDateString(undefined, {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    year: "numeric"
+  });
+}
+
+function showLocation(show) {
+  return [show.venue, show.city_display || show.city, show.country]
+    .map((value) => String(value || "").trim())
+    .filter(Boolean)
+    .join(" · ");
+}
+
+function renderShowCard(show) {
+  const article = document.createElement("article");
+  article.className = "info-card show-card";
+  text(article, "h3", show.event_name || show.artist_name || "Verified show");
+  const meta = [
+    formatShowDate(show.dateTimeISO),
+    showLocation(show)
+  ].filter(Boolean).join(" · ");
+  text(article, "p", meta || "Date and venue details are provided only when verified by the source.", "muted");
+  if (show.artist_slug) {
+    article.append(link("Open artist watch", `/artists/${slugify(show.artist_slug)}`, "text-link"));
+  }
+  return article;
+}
+
+function safeShowList(data) {
+  return Array.isArray(data?.shows) ? data.shows.filter((show) => show && typeof show === "object") : [];
+}
+
+async function hydrateShowBoard(section, filters = {}) {
+  const grid = section.querySelector("[data-show-grid]");
+  if (!grid) return;
+  const params = new URLSearchParams({ limit: String(filters.limit || 6) });
+  if (filters.artistSlug) params.set("artistSlug", filters.artistSlug);
+
+  try {
+    const response = await fetch(`/api/shows?${params.toString()}`, { headers: { Accept: "application/json" } });
+    if (!response.ok) throw new Error("shows_unavailable");
+    const data = await response.json();
+    const shows = safeShowList(data);
+    if (!shows.length) {
+      grid.replaceChildren();
+      text(
+        grid,
+        "p",
+        "No verified future show cards are loaded yet. The board stays empty until real event data is available from local data or an official API.",
+        "muted"
+      );
+      return;
+    }
+    grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show)));
+  } catch (error) {
+    grid.replaceChildren();
+    text(
+      grid,
+      "p",
+      "Show data is temporarily unavailable. Artist pages and verified ticket links remain available where configured.",
+      "muted"
+    );
+  }
+}
+
 function renderGuidePreview() {
   const section = document.createElement("section");
   section.className = "section-grid";
   section.setAttribute("aria-labelledby", "guideTitle");
   const header = document.createElement("div");
   header.className = "section-intro";
-  text(header, "h2", "Ticket buying guides").id = "guideTitle";
-  text(header, "p", "Short, practical guides for comparing ticket options without fake savings claims.");
+  text(header, "h2", "Ticket buying notes").id = "guideTitle";
+  text(header, "p", "Short, practical notes for checking provider links, fees, resale risks, and checkout terms.");
   const grid = document.createElement("div");
   grid.className = "card-grid guide-grid";
   guidePages.slice(0, 3).forEach((guide) => {
@@ -628,7 +702,7 @@ function renderArtistsIndex() {
   text(
     section,
     "p",
-    "Browse current artist pages. Each page uses verified destination links only and does not imply that tickets, tour dates, venues, prices, or availability are confirmed by TourTicketCompare."
+    "Browse known artist routes in the 2026/27 stadium tour watch. These pages do not imply tickets, tour dates, venues, prices, or availability are confirmed by TourTicketCompare."
   );
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
@@ -655,6 +729,12 @@ function renderArtist(artist) {
   text(section, "h1", artistPageHeading(artist)).id = "artistTitle";
   text(section, "p", artistPageIntro(artist), "lead");
   section.append(renderProviderButtons(artist, "artist_hero"));
+  const showBoard = renderShowBoardShell(
+    "artistShowBoard",
+    "Verified show cards",
+    "If local data or the Ticketmaster Discovery API returns real future events for this artist, they will appear here without fake prices."
+  );
+  section.append(showBoard);
 
   const summary = document.createElement("section");
   summary.className = "split-section";
@@ -712,6 +792,7 @@ function renderArtist(artist) {
 
   section.append(summary, demand, checklist, pageNote, guideLinks, renderArtistFaq(artist));
   main.replaceChildren(section);
+  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 6 });
 }
 
 function renderArtistFaq(artist) {
@@ -753,7 +834,7 @@ function renderGuidesIndex() {
   text(
     section,
     "p",
-    "Practical, high-intent guides for checking ticket options, fees, provider differences, and resale risks before you buy."
+    "Practical notes for checking ticket links, fees, provider differences, and resale risks before you buy."
   );
   const grid = document.createElement("div");
   grid.className = "card-grid guide-grid";
@@ -858,8 +939,8 @@ function renderSimplePage(type) {
   const content = {
     about: [
       "About TourTicketCompare",
-      "TourTicketCompare is an independent, unofficial ticket comparison affiliate site. The product focuses on factual artist pages, verified provider links, and clear disclosures instead of fake prices or invented availability.",
-      "The site does not sell tickets directly. When provider links are verified, users are routed to external ticketing platforms."
+      "TourTicketCompare is an independent, unofficial stadium tour market watch. The product focuses on factual artist pages, official-source data where configured, verified provider links, and clear disclosures.",
+      "The site does not sell tickets directly and does not publish invented dates, prices, venues, or availability."
     ],
     contact: [
       "Contact",
@@ -869,7 +950,7 @@ function renderSimplePage(type) {
     "editorial-policy": [
       "Editorial policy",
       "We publish factual, evergreen artist content and hide provider buttons until destinations are verified. We do not invent tour dates, venues, ticket availability, or prices.",
-      "Event structured data should be used only when real event dates, venues, and availability are verified."
+      "We use official APIs and affiliate feeds where available, do not scrape, and use event structured data only when real event dates, venues, and availability are verified."
     ],
     "affiliate-disclosure": [
       "Affiliate disclosure",
@@ -896,7 +977,7 @@ function renderSimplePage(type) {
           "Do not invent artist facts, tour dates, venues, prices, or availability.",
           "Do not show provider buttons without verified destination URLs.",
           "Do not use Event schema until event data is real and verified.",
-          "Do not claim savings, special deals, or live comparison unless verified data supports it."
+          "Do not claim savings, special deals, or live multi-provider analysis unless verified data supports it."
         ],
         "check-list"
       )

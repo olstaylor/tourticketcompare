@@ -10,7 +10,7 @@ CLICK_TRACKING_ENABLED=true
 TICKETMASTER_DISCOVERY_ENABLED=true
 TICKETMASTER_EVENTS_TTL_MINUTES=30
 TICKETMASTER_ARTIST_EVENTS_LIMIT=100
-TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true
+TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=false
 TICKETMASTER_DISCOVERY_COUNTRY=
 
 TICKETMASTER_API_KEY=your_key_here
@@ -21,8 +21,8 @@ IMPACT_ACCOUNT_SID=your_account_sid_here
 IMPACT_AUTH_TOKEN=your_auth_token_here
 IMPACT_DEFAULT_PROGRAM_ID=your_default_program_id_here
 IMPACT_TICKETMASTER_PROGRAM_ID=your_ticketmaster_program_id_here
-PUBLIC_SITE_PHASE=seo_affiliate
-ENABLE_PUBLIC_TICKET_LISTINGS=true
+PUBLIC_SITE_PHASE=pages_mvp_market_watch
+ENABLE_PUBLIC_TICKET_LISTINGS=false
 
-# D1 binding, configured in wrangler.toml / Cloudflare dashboard rather than as text:
+# D1 binding, configured in wrangler.toml / Cloudflare Pages dashboard rather than as text:
 # DEMAND_DB=tourticketcompare-demand

@@ -165,13 +165,13 @@ function mapTicketmasterEventToShow(event, artistSlug, artistName) {
   const venue = event?._embedded?.venues?.[0] || {};
   const city = typeof venue?.city?.name === "string" && venue.city.name.trim()
     ? venue.city.name.trim()
-    : "City TBA";
+    : "";
   const country = typeof venue?.country?.name === "string" && venue.country.name.trim()
     ? venue.country.name.trim()
-    : "Country TBA";
+    : "";
   const venueName = typeof venue?.name === "string" && venue.name.trim()
     ? venue.name.trim()
-    : "Venue TBA";
+    : "";
   const eventUrl = isUsableAffiliateUrl(event.url) ? event.url.trim() : null;
   const images = Array.isArray(event.images) ? event.images : [];
   const bestImage = images.find((image) => image && typeof image.url === "string" && image.url.trim()) || null;

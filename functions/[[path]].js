@@ -1,21 +1,21 @@
 const TRUST_ROUTES = {
   "/": {
-    title: "TourTicketCompare | Ticket Options & Availability",
+    title: "2026/27 Stadium Tour Market Watch | TourTicketCompare",
     description:
-      "Find verified ticket platform links for major artists. No fake prices, no placeholder buttons, and no invented tour data.",
+      "Independent fan-made stadium tour watch for major artists, official API data where configured, and verified links only.",
     indexable: true
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
     description:
-      "Browse factual artist ticket pages with verified provider buttons where safe ticket links are configured.",
+      "Browse known artist pages in the 2026/27 stadium tour watch. Links appear only when a real destination is configured.",
     indexable: true,
     breadcrumb: [{ name: "Artists", path: "/artists" }]
   },
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
     description:
-      "Practical guides to comparing concert ticket options, fees, resale listings, provider differences, and checkout totals.",
+      "Practical guides for checking concert ticket links, fees, resale risks, provider differences, and checkout terms.",
     indexable: true,
     breadcrumb: [{ name: "Guides", path: "/guides" }]
   },
@@ -30,7 +30,7 @@ const TRUST_ROUTES = {
   "/about": {
     title: "About TourTicketCompare",
     description:
-      "TourTicketCompare is an independent, unofficial ticket comparison affiliate site built around verified links and factual content.",
+      "TourTicketCompare is an independent, unofficial fan-made stadium tour ticket resource built around official sources where available.",
     indexable: true,
     breadcrumb: [{ name: "About", path: "/about" }]
   },
@@ -59,9 +59,9 @@ const TRUST_ROUTES = {
 const GUIDE_ROUTES = {
   "/guides/how-to-compare-concert-ticket-prices": {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
-    h1: "How to compare concert ticket prices",
+    h1: "How to check concert ticket links safely",
     description:
-      "Learn how to compare concert ticket options safely by checking provider sources, fees, availability, and final checkout totals."
+      "Learn how to check concert ticket links safely by reviewing provider sources, fees, availability, and final checkout totals."
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
@@ -172,7 +172,7 @@ async function routeForPath(pathname, env) {
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
       description:
         artist.meta_description ||
-        `Check ${artist.name} ticket options through verified provider links. No fake prices or invented tour dates.`,
+        `Check ${artist.name} watchlist notes and verified provider links where configured. No fake prices or invented tour dates.`,
       artist,
       breadcrumb: [
         { name: "Artists", path: "/artists" },
@@ -234,7 +234,7 @@ function baseSchema(origin) {
       "@type": "WebSite",
       name: "TourTicketCompare",
       url: `${origin}/`,
-      description: "Independent ticket comparison affiliate site built around factual artist pages and verified provider links."
+      description: "Independent fan-made stadium tour market watch using official-source data where configured and verified links only."
     }
   ];
 }
@@ -347,8 +347,8 @@ function renderArtistLinks(catalog) {
     .map(
       (artist) =>
         `<article class="artist-card"><h3>${escapeHtml(artist.name)}</h3><p class="muted">${escapeHtml(
-          artist.short_description || "Artist ticket options and availability notes."
-        )}</p>${anchor("View ticket options", `/artists/${artist.slug}`, "button button-primary")}</article>`
+          artist.short_description || "Artist watchlist notes."
+        )}</p>${anchor("Open artist watch", `/artists/${artist.slug}`, "button button-primary")}</article>`
     )
     .join("")}</div>`;
 }
@@ -398,9 +398,9 @@ function renderMainContent(route, catalog) {
       route
     )}<h1 id="artistTitle">${escapeHtml(
       artist.name
-    )} tickets: check verified ticket options</h1><p class="lead">Use this page to check verified ticket destinations for ${escapeHtml(
+    )} stadium tour watch</h1><p class="lead">Use this page to check ${escapeHtml(
       artist.name
-    )}. We only show provider buttons when a destination has been configured and checked.</p>${renderProviderFallback(
+    )} watchlist notes and verified ticket destinations. We only show provider buttons when a destination has been configured and checked.</p>${renderProviderFallback(
       catalog,
       artist,
       "artist_hero"
@@ -444,7 +444,7 @@ function renderMainContent(route, catalog) {
   if (route.path === "/artists") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="artistsTitle">Artists</h1><p>Browse current artist pages. Each page uses verified destination links only and does not imply that tickets, tour dates, venues, prices, or availability are confirmed by TourTicketCompare.</p>${renderArtistLinks(
+    )}<h1 id="artistsTitle">Artists</h1><p>Browse known artist routes in the 2026/27 stadium tour watch. These pages do not imply that tickets, tour dates, venues, prices, or availability are confirmed by TourTicketCompare.</p>${renderArtistLinks(
       catalog
     )}</section></main>`;
   }
@@ -452,7 +452,7 @@ function renderMainContent(route, catalog) {
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Concert ticket buying guides</h1><p>Practical, high-intent guides for checking ticket options, fees, provider differences, and resale risks before you buy.</p>${renderGuideLinks()}</section></main>`;
+    )}<h1 id="guidesTitle">Concert ticket buying guides</h1><p>Practical notes for checking ticket links, fees, provider differences, and resale risks before you buy.</p>${renderGuideLinks()}</section></main>`;
   }
 
   const simplePages = {
@@ -463,8 +463,8 @@ function renderMainContent(route, catalog) {
     ],
     "/about": [
       "About TourTicketCompare",
-      "TourTicketCompare is an independent, unofficial ticket comparison affiliate site built around verified links and factual content.",
-      "The site does not sell tickets directly. When provider links are verified, users are routed to external ticketing platforms."
+      "TourTicketCompare is an independent, unofficial stadium tour market watch built around official sources where configured, verified links, and clear disclosures.",
+      "The site does not sell tickets directly and does not publish invented dates, prices, venues, or availability."
     ],
     "/contact": [
       "Contact",
@@ -474,7 +474,7 @@ function renderMainContent(route, catalog) {
     "/editorial-policy": [
       "Editorial policy",
       "We publish factual, evergreen artist content and hide provider buttons until destinations are verified.",
-      "We do not invent tour dates, venues, ticket availability, prices, or event schema."
+      "We use official APIs and affiliate feeds where available, do not scrape, and do not invent tour dates, venues, ticket availability, prices, or event schema."
     ],
     "/affiliate-disclosure": [
       "Affiliate disclosure",
@@ -496,11 +496,11 @@ function renderMainContent(route, catalog) {
     )}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find ticket options for major artists</h1><p class="hero-subcopy">Use factual artist pages and verified provider buttons to check ticket availability without fake prices or placeholder links.</p><div class="action-row">${anchor(
+  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">2026/27 stadium tour market watch</h1><p class="hero-subcopy">An independent fan-made watchlist for major stadium tours. We show official-source event data and verified ticket links only when they are available.</p><div class="action-row">${anchor(
     "Browse artists",
     "/artists",
     "button button-primary"
-  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div><aside class="trust-ledger" aria-label="Publishing rules"><h2>Built for safer ticket clicks</h2><p>No invented tour dates, venues, prices, or availability</p><p>Provider buttons appear only when a real destination is verified</p><p>Affiliate links are routed server-side through /api/out</p><p>Final prices and fees are always confirmed by the ticket platform</p></aside></section></main>`;
+  )}${anchor("How it works", "/how-it-works", "button button-secondary")}</div></div><aside class="trust-ledger" aria-label="Publishing rules"><h2>Market watch rules</h2><p>No invented dates, venues, prices, or availability</p><p>Official APIs and affiliate feeds only; no scraping</p><p>Placeholder links are never shown as ticket buttons</p><p>Final prices and fees are confirmed by the ticketing platform</p></aside></section></main>`;
 }
 
 function injectRoute(html, route, origin, catalog) {

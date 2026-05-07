@@ -821,7 +821,7 @@ function renderArtist(artist) {
 
   section.append(summary, demand, checklist, pageNote, guideLinks, renderArtistFaq(artist));
   main.replaceChildren(section);
-  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 6, showEventCta: true });
+  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 50, showEventCta: true });
 }
 
 function renderArtistFaq(artist) {

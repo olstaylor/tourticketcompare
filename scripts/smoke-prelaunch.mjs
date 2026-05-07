@@ -157,7 +157,7 @@ assert(legacy.response.status === 301, "known old root artist route should redir
 assert(legacy.response.headers.get("location") === "https://tourticketcompare.com/artists/beyonce", "known old route should target the canonical artist page");
 
 const showsResponse = await showsModule.onRequestGet({
-  request: new Request("https://tourticketcompare.com/api/shows?limit=6"),
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
   env
 });
 assert(showsResponse.status === 200, "/api/shows should return 200");
@@ -165,7 +165,7 @@ const showsJson = await showsResponse.json();
 assert(Array.isArray(showsJson.shows), "/api/shows should return a shows array");
 assert(showsJson.mockMode === false && showsJson.allowMockPrices === false, "/api/shows should keep mock prices disabled");
 const morganShows = showsJson.shows.filter((show) => show.artist_slug === "morgan-wallen");
-assert(morganShows.length === 4, "/api/shows should expose the four verified Morgan Wallen events");
+assert(morganShows.length === 18, "/api/shows should expose the eighteen current/upcoming verified Morgan Wallen events");
 for (const show of morganShows) {
   assert(show.ticketmaster_url && show.ticketmaster_url.includes(`/event/${show.ticketmaster_event_id}`), `${show.id} should use its exact event-specific Ticketmaster URL`);
   assert(!JSON.stringify(show).match(/example\.com|placeholder|ticketmaster\.evyy|price/i), `${show.id} should not expose placeholders, artist affiliate URLs, or prices`);

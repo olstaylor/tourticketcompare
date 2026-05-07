@@ -1522,5 +1522,41 @@
     "timezone": "Europe/Brussels",
     "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
     "status": "announced"
+  },
+  {
+    "id": "tm-jay-z-2026-bronx-1d006473d78cfdb8",
+    "artist_slug": "jay-z",
+    "artist_name": "JAY-Z",
+    "country": "United States",
+    "city": "Bronx",
+    "venue": "Yankee Stadium",
+    "datetime_iso": "2026-07-10T20:00:00",
+    "timezone": "America/New_York",
+    "tour_name": "JAY-Z Yankee Stadium 2026",
+    "status": "announced"
+  },
+  {
+    "id": "tm-jay-z-2026-bronx-1d006473d9d109cb",
+    "artist_slug": "jay-z",
+    "artist_name": "JAY-Z",
+    "country": "United States",
+    "city": "Bronx",
+    "venue": "Yankee Stadium",
+    "datetime_iso": "2026-07-11T20:00:00",
+    "timezone": "America/New_York",
+    "tour_name": "JAY-Z Yankee Stadium 2026",
+    "status": "announced"
+  },
+  {
+    "id": "tm-jay-z-2026-bronx-1d006473db760a7f",
+    "artist_slug": "jay-z",
+    "artist_name": "JAY-Z",
+    "country": "United States",
+    "city": "Bronx",
+    "venue": "Yankee Stadium",
+    "datetime_iso": "2026-07-12T20:00:00",
+    "timezone": "America/New_York",
+    "tour_name": "JAY-Z Yankee Stadium 2026",
+    "status": "announced"
   }
 ]

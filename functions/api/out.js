@@ -1,5 +1,6 @@
 const PLACEHOLDER_URL_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1/i;
 const EVENTS_JSON_PATH = "/data/events.json";
+const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
 
 const PROVIDERS = {
   ticketmaster: {
@@ -124,10 +125,25 @@ function safeUrl(value) {
   try {
     const parsed = new URL(raw);
     if (parsed.protocol !== "https:" && parsed.protocol !== "http:") return null;
+    if (isUnsafeHost(parsed.hostname)) return null;
     return parsed;
   } catch (error) {
     return null;
   }
+}
+
+function isUnsafeHost(hostname) {
+  const host = String(hostname || "").toLowerCase();
+  if (!host) return true;
+  if (host === "localhost" || host.endsWith(".localhost")) return true;
+  if (/^127\./.test(host) || host === "0.0.0.0" || host === "::1" || host === "[::1]") return true;
+  if (/^10\./.test(host) || /^192\.168\./.test(host)) return true;
+  const private172 = host.match(/^172\.(\d+)\./);
+  if (private172) {
+    const second = Number(private172[1]);
+    if (second >= 16 && second <= 31) return true;
+  }
+  return false;
 }
 
 function hostnameAllowed(hostname, allowedHosts) {
@@ -203,6 +219,70 @@ async function resolveShowLink(env, showId, provider) {
     },
     redirect
   };
+}
+
+function impactConfig(env = {}) {
+  const accountSid = clean(env?.IMPACT_ACCOUNT_SID, 255);
+  const authToken = clean(env?.IMPACT_AUTH_TOKEN, 255);
+  const programId = clean(env?.IMPACT_TICKETMASTER_PROGRAM_ID, 120);
+  const apiBase = clean(env?.IMPACT_API_BASE_URL || DEFAULT_IMPACT_API_BASE, 2048).replace(/\/+$/, "");
+  return {
+    accountSid,
+    authToken,
+    programId,
+    apiBase,
+    configured: Boolean(accountSid && authToken && programId)
+  };
+}
+
+function basicAuthHeader(accountSid, authToken) {
+  const raw = `${accountSid}:${authToken}`;
+  const encoded = typeof btoa === "function"
+    ? btoa(raw)
+    : Buffer.from(raw, "utf8").toString("base64");
+  return `Basic ${encoded}`;
+}
+
+function validateImpactTrackingUrl(value) {
+  return safeUrl(value);
+}
+
+async function createImpactTrackingUrl(env, deepLink) {
+  const config = impactConfig(env);
+  if (!config.configured) return null;
+
+  const verifiedDeepLink = safeUrl(deepLink);
+  const apiBase = safeUrl(config.apiBase);
+  if (!verifiedDeepLink || !apiBase) return null;
+
+  const params = new URLSearchParams({
+    Type: "Regular",
+    DeepLink: verifiedDeepLink.toString()
+  });
+  const endpoint = `${apiBase.toString().replace(/\/+$/, "")}/Mediapartners/${encodeURIComponent(
+    config.accountSid
+  )}/Programs/${encodeURIComponent(config.programId)}/TrackingLinks?${params.toString()}`;
+
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        Authorization: basicAuthHeader(config.accountSid, config.authToken)
+      }
+    });
+    if (!response.ok) return null;
+    let payload = null;
+    try {
+      payload = await response.json();
+    } catch (error) {
+      return null;
+    }
+    const trackingUrl = validateImpactTrackingUrl(payload?.TrackingURL || payload?.TrackingUrl);
+    return trackingUrl ? trackingUrl.toString() : null;
+  } catch (error) {
+    return null;
+  }
 }
 
 async function readBody(request) {
@@ -289,22 +369,26 @@ async function handleOut(request, env, mode) {
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
     }
 
+    const impactTrackingUrl = await createImpactTrackingUrl(env, resolved.redirect.toString());
+    const outboundUrl = impactTrackingUrl || resolved.redirect.toString();
+    const outbound = safeUrl(outboundUrl) || resolved.redirect;
+
     await trackClick({
       request,
       env,
       link: resolved.link,
       sourcePath,
-      destinationHost: resolved.redirect.hostname.toLowerCase()
+      destinationHost: outbound.hostname.toLowerCase()
     });
 
     if (mode === "redirect") {
-      return Response.redirect(resolved.redirect.toString(), 302);
+      return Response.redirect(outbound.toString(), 302);
     }
 
     return json({
       ok: true,
       status: "redirect_ready",
-      redirectUrl: resolved.redirect.toString(),
+      redirectUrl: outbound.toString(),
       provider,
       artistSlug: resolved.link.artistSlug,
       showId: resolved.link.showId

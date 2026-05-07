@@ -219,7 +219,7 @@ const impactTracking = await impactTrackingModule.onRequestPost({
 const impactTrackingJson = await impactTracking.json();
 assert(impactTracking.status === 200 && impactTrackingJson.status === "missing_credentials", "/api/impact/tracking-links should fail safely without credentials");
 
-async function out(pathname, method = "GET", payload = null) {
+async function out(pathname, method = "GET", payload = null, envOverride = env) {
   return outModule[method === "GET" ? "onRequestGet" : "onRequestPost"]({
     request: new Request(`https://tourticketcompare.com${pathname}`, {
       method,
@@ -227,7 +227,7 @@ async function out(pathname, method = "GET", payload = null) {
       body: payload ? JSON.stringify(payload) : undefined,
       redirect: "manual"
     }),
-    env
+    env: envOverride
   });
 }
 
@@ -248,6 +248,72 @@ assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_u
 outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com`);
 assert(outResponse.status === 302, "showId /api/out should ignore arbitrary deepLink values when the stored event URL is verified");
 assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "showId /api/out must not redirect to user-supplied deepLink values");
+const originalFetch = globalThis.fetch;
+const impactTrackingUrl = "https://ticketmaster.evyy.net/c/123456/98765/101010";
+try {
+  globalThis.fetch = async (request, options = {}) => {
+    const url = new URL(String(request.url || request));
+    assert(url.hostname === "api.impact.com", "Impact tracking links should call the server-side Impact API");
+    assert(url.searchParams.get("DeepLink") === verifiedMorganShow.ticketmaster_url, "Impact DeepLink should be the stored event-specific Ticketmaster URL");
+    assert(!url.toString().includes("example.com"), "Impact request must not use request-supplied example.com deep links");
+    assert(options.headers?.Authorization?.startsWith("Basic "), "Impact request should use server-side basic auth");
+    return new Response(JSON.stringify({ TrackingURL: impactTrackingUrl }), {
+      status: 200,
+      headers: { "content-type": "application/json" }
+    });
+  };
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com`,
+    "GET",
+    null,
+    {
+      ...env,
+      IMPACT_ACCOUNT_SID: "test-account",
+      IMPACT_AUTH_TOKEN: "test-token",
+      IMPACT_TICKETMASTER_PROGRAM_ID: "test-program"
+    }
+  );
+  assert(outResponse.status === 302, "Impact-enabled showId /api/out should still redirect");
+  assert(outResponse.headers.get("location") === impactTrackingUrl, "Impact-enabled showId /api/out should redirect to the returned TrackingURL");
+
+  globalThis.fetch = async () => new Response(JSON.stringify({ Message: "forbidden" }), {
+    status: 403,
+    headers: { "content-type": "application/json" }
+  });
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster`,
+    "GET",
+    null,
+    {
+      ...env,
+      IMPACT_ACCOUNT_SID: "test-account",
+      IMPACT_AUTH_TOKEN: "test-token",
+      IMPACT_TICKETMASTER_PROGRAM_ID: "test-program"
+    }
+  );
+  assert(outResponse.status === 302, "Impact failure should not block verified event redirects");
+  assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "Impact failure should fall back to the exact stored Ticketmaster event URL");
+
+  globalThis.fetch = async () => new Response(JSON.stringify({ TrackingURL: "http://localhost:3000/bad" }), {
+    status: 200,
+    headers: { "content-type": "application/json" }
+  });
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster`,
+    "GET",
+    null,
+    {
+      ...env,
+      IMPACT_ACCOUNT_SID: "test-account",
+      IMPACT_AUTH_TOKEN: "test-token",
+      IMPACT_TICKETMASTER_PROGRAM_ID: "test-program"
+    }
+  );
+  assert(outResponse.status === 302, "Unsafe Impact TrackingURL should not block verified event redirects");
+  assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "Unsafe Impact TrackingURL should fall back to the exact stored Ticketmaster event URL");
+} finally {
+  globalThis.fetch = originalFetch;
+}
 outResponse = await out("/api/out?showId=unknown&provider=ticketmaster");
 assert(outResponse.status === 400, "unknown showId should fail safely");
 outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=seatgeek`);

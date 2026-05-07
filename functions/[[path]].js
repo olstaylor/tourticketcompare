@@ -444,22 +444,26 @@ function renderMainContent(route, catalog) {
   if (route.path === "/artists") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="artistsTitle">Artists</h1><p>Browse known artist routes in the 2026/27 stadium tour watch. These pages do not imply that tickets, tour dates, venues, prices, or availability are confirmed by TourTicketCompare.</p>${renderArtistLinks(
+    )}<h1 id="artistsTitle">Artist watchlist</h1><p>Browse the controlled TourTicketCompare watchlist. Artist pages are published only for known slugs and use official-source event data or reviewed local records when show cards are available.</p><p>A listed artist does not mean TourTicketCompare has confirmed current tickets, prices, venues, or availability. Event buttons appear only when a verified event-specific destination is stored.</p>${renderArtistLinks(
       catalog
-    )}</section></main>`;
+    )}<section class="nested-panel"><h2>Publishing status</h2><p>Known artist pages remain useful as watch pages even when no verified future event cards are loaded. Unknown artist routes return a 404 instead of generating thin pages.</p></section></section></main>`;
   }
 
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Concert ticket buying guides</h1><p>Practical notes for checking ticket links, fees, provider differences, and resale risks before you buy.</p>${renderGuideLinks()}</section></main>`;
+    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Use these evergreen guides to understand official and resale ticket links, checkout fees, delivery terms, resale risks, and affiliate disclosures before leaving TourTicketCompare.</p><p>The guides do not claim live price comparison or guaranteed availability. They are designed to help you verify details on the ticketing platform before purchase.</p>${renderGuideLinks()}<div class="action-row">${anchor(
+      "Browse artists",
+      "/artists",
+      "button button-primary"
+    )}${anchor("How it works", "/how-it-works", "button button-secondary")}</div></section></main>`;
   }
 
   const simplePages = {
     "/how-it-works": [
       "How TourTicketCompare works",
-      "TourTicketCompare verifies artist pages, provider buttons, disclosures, and ticket data before publishing public links.",
-      "Provider buttons route through server-side validation so unsafe or unconfigured destinations stay hidden."
+      "TourTicketCompare publishes only useful ticket-watch information that can be checked against official sources, verified local records, or configured provider routes.",
+      "Event cards come from reviewed local data or official APIs where configured. Event buttons stay event-specific, use server-side affiliate routing through /api/out, and never rely on scraping or invented dates, venues, prices, availability, or Event schema."
     ],
     "/about": [
       "About TourTicketCompare",
@@ -468,18 +472,18 @@ function renderMainContent(route, catalog) {
     ],
     "/contact": [
       "Contact",
-      "For provider partnerships, corrections, artist data, or editorial questions, contact the project team.",
-      "Email hello@tourticketcompare.com."
+      "Contact TourTicketCompare about source corrections, event-link issues, provider partnerships, or editorial questions.",
+      "Email hello@tourticketcompare.com. Please include the artist, event date, source URL, and what needs checking when sending a correction."
     ],
     "/editorial-policy": [
       "Editorial policy",
-      "We publish factual, evergreen artist content and hide provider buttons until destinations are verified.",
-      "We use official APIs and affiliate feeds where available, do not scrape, and do not invent tour dates, venues, ticket availability, prices, or event schema."
+      "TourTicketCompare publishes factual artist-watch content and verified event cards only when the source can be checked.",
+      "We use official artist sources, official APIs, reviewed local records, and affiliate feeds where available. We do not scrape, invent tour dates, publish fake prices, or add Event schema without verified event data."
     ],
     "/affiliate-disclosure": [
       "Affiliate disclosure",
-      "Some outbound ticket links are affiliate links. We may earn a commission if you click through and buy tickets, at no extra cost to you.",
-      "Affiliate relationships do not change provider prices, fees, availability, or checkout terms."
+      "Some outbound ticket links may be affiliate links. We may earn a commission if you click through and buy tickets, at no extra cost to you.",
+      "Affiliate relationships do not control provider prices, fees, availability, seat details, delivery terms, refund rules, or checkout decisions. TourTicketCompare remains independent and does not sell tickets directly."
     ]
   };
 

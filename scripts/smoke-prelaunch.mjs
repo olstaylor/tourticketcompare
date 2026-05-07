@@ -7,8 +7,8 @@ const artistSlugs = ["beyonce", "harry-styles", "bts", "ariana-grande", "bad-bun
 const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
 const expectedH1 = new Map([
   ["/", "2026/27 stadium tour market watch"],
-  ["/artists", "Artists"],
-  ["/guides", "Concert ticket buying guides"],
+  ["/artists", "Artist watchlist"],
+  ["/guides", "Ticket buying guides"],
   ["/how-it-works", "How TourTicketCompare works"],
   ["/about", "About TourTicketCompare"],
   ["/contact", "Contact"],

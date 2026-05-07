@@ -730,16 +730,25 @@ function renderArtistsIndex() {
   section.className = "content-page";
   section.setAttribute("aria-labelledby", "artistsTitle");
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Artists" }]));
-  text(section, "h1", "Artists").id = "artistsTitle";
+  text(section, "h1", "Artist watchlist").id = "artistsTitle";
   text(
     section,
     "p",
-    "Browse known artist routes in the 2026/27 stadium tour watch. These pages do not imply tickets, tour dates, venues, prices, or availability are confirmed by TourTicketCompare."
+    "Browse the controlled TourTicketCompare watchlist. Artist pages are published only for known slugs and use official-source event data or reviewed local records when show cards are available."
+  );
+  text(
+    section,
+    "p",
+    "A listed artist does not mean TourTicketCompare has confirmed current tickets, prices, venues, or availability. Event buttons appear only when a verified event-specific destination is stored."
   );
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => grid.append(renderArtistCard(artist)));
-  section.append(grid);
+  const note = document.createElement("section");
+  note.className = "nested-panel";
+  text(note, "h2", "Publishing status");
+  text(note, "p", "Known artist pages remain useful as watch pages even when no verified future event cards are loaded. Unknown artist routes return a 404 instead of generating thin pages.");
+  section.append(grid, note);
   main.replaceChildren(section);
 }
 
@@ -861,16 +870,24 @@ function renderGuidesIndex() {
   section.className = "content-page";
   section.setAttribute("aria-labelledby", "guidesTitle");
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Guides" }]));
-  text(section, "h1", "Concert ticket buying guides").id = "guidesTitle";
+  text(section, "h1", "Ticket buying guides").id = "guidesTitle";
   text(
     section,
     "p",
-    "Practical notes for checking ticket links, fees, provider differences, and resale risks before you buy."
+    "Use these evergreen guides to understand official and resale ticket links, checkout fees, delivery terms, resale risks, and affiliate disclosures before leaving TourTicketCompare."
+  );
+  text(
+    section,
+    "p",
+    "The guides do not claim live price comparison or guaranteed availability. They are designed to help you verify details on the ticketing platform before purchase."
   );
   const grid = document.createElement("div");
   grid.className = "card-grid guide-grid";
   guidePages.forEach((guide) => grid.append(renderInfoCard(guide.h1, guide.description, link("Read guide", `/guides/${guide.slug}`, "text-link"))));
-  section.append(grid);
+  const links = document.createElement("div");
+  links.className = "action-row";
+  links.append(buttonLink("Browse artists", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"));
+  section.append(grid, links);
   main.replaceChildren(section);
 }
 
@@ -928,15 +945,16 @@ function renderHowItWorks() {
   text(
     section,
     "p",
-    "TourTicketCompare is built around one rule: do not show ticket buttons, prices, tour pages, or event details unless the data is verified.",
+    "TourTicketCompare is built around one rule: publish only useful ticket-watch information that can be checked against official sources, verified local records, or configured provider routes.",
     "lead"
   );
   const grid = document.createElement("div");
   grid.className = "card-grid";
   grid.append(
-    renderInfoCard("Verify the artist page", "Artist pages use factual evergreen context and avoid invented current tour status."),
-    renderInfoCard("Validate provider links", "Ticketmaster, SeatGeek, and Vivid Seats buttons appear only after a real destination is configured."),
-    renderInfoCard("Send clicks server-side", "Outbound buttons route through /api/out so validation and click tracking happen before the user leaves.")
+    renderInfoCard("Check official-source data", "Event cards come from reviewed local data or official APIs where configured. We do not scrape unofficial listings."),
+    renderInfoCard("Keep links event-specific", "A ticket button on an event card must point to the verified destination for that exact show date, not a generic artist page."),
+    renderInfoCard("Route affiliate clicks safely", "Outbound event buttons use server-side /api/out validation before the user leaves, preserving the verified destination and affiliate disclosure."),
+    renderInfoCard("Avoid invented data", "We do not publish invented tour dates, venues, prices, availability, Event schema, or fake urgency.")
   );
   section.append(grid, renderGeneralFaq());
   main.replaceChildren(section);
@@ -975,18 +993,18 @@ function renderSimplePage(type) {
     ],
     contact: [
       "Contact",
-      "For provider partnerships, corrections, artist data, or editorial questions, contact the project team.",
-      "Email hello@tourticketcompare.com"
+      "Contact TourTicketCompare about source corrections, event-link issues, provider partnerships, or editorial questions.",
+      "Email hello@tourticketcompare.com. Please include the artist, event date, source URL, and what needs checking when sending a correction."
     ],
     "editorial-policy": [
       "Editorial policy",
-      "We publish factual, evergreen artist content and hide provider buttons until destinations are verified. We do not invent tour dates, venues, ticket availability, or prices.",
-      "We use official APIs and affiliate feeds where available, do not scrape, and use event structured data only when real event dates, venues, and availability are verified."
+      "TourTicketCompare publishes factual artist-watch content and verified event cards only when the source can be checked.",
+      "We use official artist sources, official APIs, reviewed local records, and affiliate feeds where available. We do not scrape, invent tour dates, publish fake prices, or add Event schema without verified event data."
     ],
     "affiliate-disclosure": [
       "Affiliate disclosure",
-      "Some outbound ticket links are affiliate links. We may earn a commission if you click through and buy tickets, at no extra cost to you.",
-      "Affiliate relationships do not change provider prices, fees, availability, or checkout terms."
+      "Some outbound ticket links may be affiliate links. We may earn a commission if you click through and buy tickets, at no extra cost to you.",
+      "Affiliate relationships do not control provider prices, fees, availability, seat details, delivery terms, refund rules, or checkout decisions. TourTicketCompare remains independent and does not sell tickets directly."
     ]
   }[type];
   text(section, "h1", content[0]);
@@ -1006,9 +1024,22 @@ function renderSimplePage(type) {
       createList(
         [
           "Do not invent artist facts, tour dates, venues, prices, or availability.",
+          "Use official artist sources, official APIs, or reviewed local records for event claims.",
           "Do not show provider buttons without verified destination URLs.",
           "Do not use Event schema until event data is real and verified.",
           "Do not claim savings, special deals, or live multi-provider analysis unless verified data supports it."
+        ],
+        "check-list"
+      )
+    );
+  }
+  if (type === "affiliate-disclosure") {
+    section.append(
+      createList(
+        [
+          "Ticket purchases happen on external ticketing platforms.",
+          "Final prices, fees, availability, delivery, and refund terms are confirmed on the provider site.",
+          "Affiliate links are routed server-side where configured so credentials stay out of public browser code."
         ],
         "check-list"
       )

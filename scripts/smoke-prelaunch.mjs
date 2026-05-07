@@ -170,8 +170,11 @@ for (const show of morganShows) {
   assert(show.ticketmaster_url && show.ticketmaster_url.includes(`/event/${show.ticketmaster_event_id}`), `${show.id} should use its exact event-specific Ticketmaster URL`);
   assert(!JSON.stringify(show).match(/example\.com|placeholder|ticketmaster\.evyy|price/i), `${show.id} should not expose placeholders, artist affiliate URLs, or prices`);
 }
+const verifiedMorganShow = morganShows[0];
 const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
+assert(appJs.includes("/api/out?"), "artist show cards should route event CTAs through /api/out");
+assert(appJs.includes("showId"), "artist show card CTAs should include showId");
 assert(appJs.includes("No verified ticket link is available for this specific date yet."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
@@ -180,6 +183,17 @@ const bulkPriceResponse = await showsModule.onRequestGet({
   env
 });
 assert(bulkPriceResponse.status === 400, "bulk includePrices must be rejected without showId");
+
+const showPriceResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(verifiedMorganShow.id)}&includePrices=true`),
+  env
+});
+assert(showPriceResponse.status === 200, "showId includePrices should return 200");
+const showPriceJson = await showPriceResponse.json();
+assert(showPriceJson.shows.length === 1, "showId includePrices should return one show");
+assert(!JSON.stringify(showPriceJson).match(/"price"\s*:\s*[1-9]/), "showId includePrices should not expose fake prices");
+const ticketmasterLane = showPriceJson.shows[0].prices.find((lane) => lane.provider === "Ticketmaster");
+assert(ticketmasterLane?.actionUrl === `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=Ticketmaster`, "Ticketmaster lane should use the event-specific safe redirect");
 
 const healthResponse = await healthModule.onRequestGet({ env });
 const healthJson = await healthResponse.json();
@@ -213,7 +227,7 @@ async function out(pathname, method = "GET", payload = null) {
       body: payload ? JSON.stringify(payload) : undefined,
       redirect: "manual"
     }),
-    env: {}
+    env
   });
 }
 
@@ -228,5 +242,15 @@ assert(outResponse.status === 400, "localhost destination should fail");
 outResponse = await out("/api/out", "POST", { artistSlug: "beyonce", provider: "ticketmaster" });
 const outJson = await outResponse.json();
 assert(outResponse.status === 200 && outJson.redirectUrl, "POST /api/out should keep JSON compatibility");
+outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster&sourcePath=/artists/morgan-wallen`);
+assert(outResponse.status === 302, "showId /api/out should redirect verified Ticketmaster event routes");
+assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "showId /api/out should use the exact stored event-specific Ticketmaster URL");
+outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com`);
+assert(outResponse.status === 302, "showId /api/out should ignore arbitrary deepLink values when the stored event URL is verified");
+assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "showId /api/out must not redirect to user-supplied deepLink values");
+outResponse = await out("/api/out?showId=unknown&provider=ticketmaster");
+assert(outResponse.status === 400, "unknown showId should fail safely");
+outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=seatgeek`);
+assert(outResponse.status === 400, "unconfigured showId provider should fail safely");
 
 console.log("Cloudflare Pages MVP smoke checks passed");

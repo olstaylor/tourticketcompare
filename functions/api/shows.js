@@ -471,7 +471,7 @@ function buildAffiliateActionUrl(show, provider, deepLink) {
     showId: String(show?.id || ""),
     provider: String(provider || "")
   });
-  if (deepLink && !isTicketmasterStaticAffiliateUrl(deepLink)) {
+  if (deepLink && !isTicketmasterStaticAffiliateUrl(deepLink) && String(providerKey(provider)) !== "ticketmaster") {
     params.set("deepLink", deepLink);
   }
   return `/api/out?${params.toString()}`;
@@ -480,16 +480,18 @@ function buildAffiliateActionUrl(show, provider, deepLink) {
 function decorateProviderResult(result, show, provider, env) {
   const key = providerKey(provider);
   const directUrl = key === "ticketmaster"
-    ? getProviderDeepLink(show, provider, result?.url) || getConfirmedTicketmasterArtistAffiliateUrl(show)
+    ? getProviderDeepLink(show, provider, result?.url)
     : getProviderDeepLink(show, provider, result?.url);
   const ticketmasterProgramId = String(show?.ticketmaster_impact_program_id || env?.IMPACT_TICKETMASTER_PROGRAM_ID || "").trim();
+  const hasVerifiedTicketmasterEventUrl = key === "ticketmaster" && Boolean(getAffiliateUrl(show, provider));
   const canUseImpact = key === "ticketmaster" && hasImpactCredentials(env) && Boolean(ticketmasterProgramId && directUrl);
-  const actionUrl = canUseImpact ? buildAffiliateActionUrl(show, provider, directUrl) : null;
+  const canUseSafeEventRedirect = hasVerifiedTicketmasterEventUrl || canUseImpact;
+  const actionUrl = canUseSafeEventRedirect ? buildAffiliateActionUrl(show, provider, directUrl) : null;
   const baseStatus = result?.status || "unavailable";
-  const status = canUseImpact ? "affiliate_ready" : "unavailable";
-  const note = canUseImpact
+  const status = canUseSafeEventRedirect ? "affiliate_ready" : "unavailable";
+  const note = canUseSafeEventRedirect
     ? key === "ticketmaster"
-      ? "Ticketmaster availability is ready through a confirmed artist-level affiliate route."
+      ? "Ticketmaster event link is verified and routed through a safe event-specific redirect."
       : "Affiliate redirect is ready for this provider."
     : directUrl
       ? "A real provider destination exists, but this provider still needs a confirmed safe affiliate route before it can be enabled."

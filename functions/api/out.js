@@ -1,9 +1,21 @@
 const PLACEHOLDER_URL_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1/i;
+const EVENTS_JSON_PATH = "/data/events.json";
 
 const PROVIDERS = {
   ticketmaster: {
     name: "Ticketmaster",
-    allowedDestinationHosts: ["ticketmaster.com", "ticketmaster.co.uk"],
+    allowedDestinationHosts: [
+      "ticketmaster.com",
+      "ticketmaster.ca",
+      "ticketmaster.co.uk",
+      "ticketmaster.es",
+      "ticketmaster.de",
+      "ticketmaster.nl",
+      "ticketmaster.se",
+      "ticketmaster.pl",
+      "ticketmaster.be",
+      "ticketmaster.it"
+    ],
     trustedAffiliateHosts: ["ticketmaster.evyy.net"]
   },
   seatgeek: {
@@ -140,6 +152,59 @@ function validateConfiguredRedirect(provider, value) {
   return hostnameAllowed(parsed.hostname, hosts) ? parsed : null;
 }
 
+async function loadEventsFromAssets(env) {
+  const assets = env?.ASSETS;
+  if (!assets || typeof assets.fetch !== "function") return null;
+
+  try {
+    const response = await assets.fetch(new Request(`https://assets.local${EVENTS_JSON_PATH}`));
+    if (!response.ok) return null;
+    const data = await response.json();
+    return Array.isArray(data) ? data : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function validateTicketmasterEventUrl(event, providerConfig) {
+  const redirect = validateConfiguredRedirect(providerConfig, event?.ticketmaster_url);
+  if (!redirect) return null;
+
+  const eventId = clean(event?.ticketmaster_event_id, 255);
+  if (eventId && !redirect.toString().includes(eventId)) return null;
+
+  return redirect;
+}
+
+async function resolveShowLink(env, showId, provider) {
+  if (provider !== "ticketmaster") {
+    return { ok: false, status: "provider_not_configured" };
+  }
+
+  const events = await loadEventsFromAssets(env);
+  if (!events) return { ok: false, status: "event_data_unavailable", httpStatus: 503 };
+
+  const event = events.find((candidate) => clean(candidate?.id, 255) === showId);
+  if (!event) return { ok: false, status: "show_not_found" };
+
+  const providerConfig = PROVIDERS.ticketmaster;
+  const redirect = validateTicketmasterEventUrl(event, providerConfig);
+  if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
+
+  return {
+    ok: true,
+    link: {
+      artistSlug: slugify(event.artist_slug),
+      provider: "ticketmaster",
+      linkId: clean(event.id, 255),
+      showId: clean(event.id, 255),
+      redirectUrl: redirect.toString(),
+      verified: true
+    },
+    redirect
+  };
+}
+
 async function readBody(request) {
   if (request.method !== "POST") return {};
   try {
@@ -156,6 +221,7 @@ async function trackClick({ request, env, link, sourcePath, destinationHost }) {
   const metadata = JSON.stringify({
     provider: link.provider,
     artistSlug: link.artistSlug,
+    showId: link.showId || null,
     sourcePath,
     destinationHost,
     linkId: link.linkId
@@ -208,14 +274,44 @@ async function trackClick({ request, env, link, sourcePath, destinationHost }) {
 async function handleOut(request, env, mode) {
   const url = new URL(request.url);
   const body = await readBody(request);
+  const showId = clean(body.showId || url.searchParams.get("showId"), 255);
   const artistSlug = slugify(body.artistSlug || url.searchParams.get("artistSlug"));
   const provider = providerKey(body.provider || url.searchParams.get("provider") || "ticketmaster");
   const sourcePath = clean(body.sourcePath || url.searchParams.get("sourcePath") || request.headers.get("referer") || "/", 255);
   const requestedDestination = clean(body.destinationUrl || body.deepLink || url.searchParams.get("destinationUrl") || url.searchParams.get("deepLink"), 2048);
 
-  if (!artistSlug) return json({ ok: false, status: "missing_artist_slug" }, 400);
   const providerConfig = PROVIDERS[provider];
   if (!providerConfig) return json({ ok: false, status: "unknown_provider" }, 400);
+
+  if (showId) {
+    const resolved = await resolveShowLink(env, showId, provider);
+    if (!resolved.ok) {
+      return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
+    }
+
+    await trackClick({
+      request,
+      env,
+      link: resolved.link,
+      sourcePath,
+      destinationHost: resolved.redirect.hostname.toLowerCase()
+    });
+
+    if (mode === "redirect") {
+      return Response.redirect(resolved.redirect.toString(), 302);
+    }
+
+    return json({
+      ok: true,
+      status: "redirect_ready",
+      redirectUrl: resolved.redirect.toString(),
+      provider,
+      artistSlug: resolved.link.artistSlug,
+      showId: resolved.link.showId
+    });
+  }
+
+  if (!artistSlug) return json({ ok: false, status: "missing_artist_slug" }, 400);
 
   const destinationCheck = validateRequestedDestination(providerConfig, requestedDestination);
   if (!destinationCheck.ok) {

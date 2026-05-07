@@ -648,8 +648,10 @@ function renderShowCard(show, options = {}) {
 
   if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
-    if (ticketmasterUrl) {
-      const cta = buttonLink("View verified ticket link", ticketmasterUrl, "primary");
+    const showId = String(show.id || "").trim();
+    if (ticketmasterUrl && showId) {
+      const params = new URLSearchParams({ showId, provider: "ticketmaster" });
+      const cta = buttonLink("View verified ticket link", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";
       cta.rel = "noopener";
       article.append(cta);

@@ -118,17 +118,17 @@ const fallbackCatalog = {
 const providerCopy = {
   ticketmaster: {
     name: "Ticketmaster",
-    label: "View tickets on Ticketmaster",
-    bullets: ["Primary seller or verified marketplace pages where available", "Provider sets prices, fees, availability, and checkout terms"]
+    label: "Open Ticketmaster artist page",
+    bullets: ["Artist-level page, not a date-specific event link", "Provider sets prices, fees, availability, and checkout terms"]
   },
   seatgeek: {
     name: "SeatGeek",
-    label: "View tickets on SeatGeek",
+    label: "Open SeatGeek artist page",
     bullets: ["Shown only when a verified destination is available"]
   },
   "vivid-seats": {
     name: "Vivid Seats",
-    label: "View tickets on Vivid Seats",
+    label: "Open Vivid Seats artist page",
     bullets: ["Shown only when a verified destination is available"]
   }
 };
@@ -138,15 +138,15 @@ const guidePages = [
     slug: "how-to-compare-concert-ticket-prices",
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Learn how to compare concert ticket prices safely by checking fees, seat details, delivery terms, and final checkout totals.",
+      "Learn how to compare concert ticket prices safely by checking the final total, seat details, delivery timing, and provider terms.",
     h1: "How do I compare ticket prices safely?",
     intro:
       "A ticket price is only useful when you know what it includes. Before you buy, compare the full checkout total, the seat location, the delivery method, and the seller terms rather than relying on the first price you see.",
     sections: [
-      ["What to check", "Compare the final checkout total, including service fees, delivery charges, taxes, currency, seat section, row, view notes, and transfer timing."],
-      ["Red flags", "Be careful with unclear seat details, pressure-heavy countdowns, payment methods with weak protection, and ticket pages that do not clearly match the event you want."],
-      ["Before you buy", "Open the ticket provider page, confirm the date and venue, review the final total, and read the delivery and refund terms before entering payment details."],
-      ["What TourTicketCompare verifies", "We check that ticket buttons point to a real destination for the relevant artist or event. We do not verify the final checkout total for you."]
+      ["What to check", "Compare the final checkout total, not just the first number shown. Check service fees, delivery charges, taxes, currency, seat section, row, view notes, and transfer timing."],
+      ["Red flags", "Be careful with unclear seat details, pressure-heavy countdowns, payment methods with weak protection, and ticket pages that do not clearly match the artist, date, and venue you want."],
+      ["Before you buy", "Open the ticket provider page, confirm the event date and venue, review the full total, and read delivery, transfer, refund, and cancellation terms before entering payment details."],
+      ["What TourTicketCompare verifies", "We check that ticket buttons point to a real destination for the relevant artist or event. We do not verify every seat listing or final checkout total on external provider sites."]
     ],
     faq: [
       ["Does TourTicketCompare compare live prices today?", "Not yet. Live price comparison is coming later, so final prices and fees must be checked on the ticket provider site."],
@@ -157,14 +157,14 @@ const guidePages = [
     slug: "ticketmaster-vs-seatgeek-vs-vivid-seats",
     title: "Why Ticket Prices Vary Between Sites | TourTicketCompare",
     description:
-      "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, and seller terms.",
+      "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, delivery, and seller terms.",
     h1: "Why do prices vary between ticket sites?",
     intro:
       "Two ticket pages can look similar but lead to different final totals. Fees, inventory type, seat location, delivery method, currency, and seller rules can all affect what you actually pay.",
     sections: [
-      ["What to check", "Look beyond the first displayed price. Check whether the ticket is primary or resale, where the seat is, how delivery works, and what the full checkout total says."],
-      ["Red flags", "Watch for vague listing titles, missing seat information, unclear transfer timing, or a final total that changes sharply at checkout."],
-      ["Before you buy", "Compare like-for-like tickets whenever possible: same date, same venue, similar seat quality, and the final price after fees."],
+      ["What to check", "Look beyond the first displayed price. Check whether the ticket is primary or resale, where the seat is, how delivery works, whether fees are included, and what the full checkout total says."],
+      ["Red flags", "Watch for vague listing titles, missing seat information, unclear transfer timing, currency surprises, or a final total that changes sharply at checkout."],
+      ["Before you buy", "Compare like-for-like tickets whenever possible: same artist, same date, same venue, similar seat quality, similar delivery terms, and the final price after fees."],
       ["What TourTicketCompare verifies", "We verify ticket destinations before showing buttons. We do not claim one ticket site is always cheaper or better."]
     ],
     faq: [
@@ -176,14 +176,14 @@ const guidePages = [
     slug: "how-to-avoid-overpaying-for-concert-tickets",
     title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
     description:
-      "Use practical checks to avoid overpaying for concert tickets, including final fees, seat location, seller terms, and misleading urgency.",
+      "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
     h1: "How do I avoid overpaying for concert tickets?",
     intro:
       "There is no magic trick for every concert ticket. The safer approach is to slow down, compare the real checkout total, and avoid listings that hide important details.",
     sections: [
-      ["What to check", "Check the final total, the seat view, ticket type, transfer timing, refund terms, and whether the page clearly matches the artist and date."],
+      ["What to check", "Check the final total, seat view, ticket type, transfer timing, refund terms, seller details where available, and whether the page clearly matches the artist and date."],
       ["Red flags", "Treat unrealistic prices, social media sellers, vague screenshots, pressure tactics, and requests for unprotected payment methods as warning signs."],
-      ["Before you buy", "Take a screenshot of the final order summary, read the buyer terms, and make sure the ticket provider explains how and when you receive the ticket."],
+      ["Before you buy", "Pause before paying. Review the final order summary, read the buyer terms, and make sure the ticket provider explains how and when you receive the ticket."],
       ["What TourTicketCompare verifies", "We avoid fake urgency and invented prices. If a ticket destination cannot be checked, we do not present it as a ticket option."]
     ],
     faq: [
@@ -195,12 +195,12 @@ const guidePages = [
     slug: "when-is-the-best-time-to-buy-concert-tickets",
     title: "When to Buy Concert Tickets | TourTicketCompare",
     description:
-      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, and your risk tolerance.",
+      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, group plans, and your risk tolerance.",
     h1: "When should I buy concert tickets?",
     intro:
       "The right buying moment depends on the artist, the venue, demand, seat preferences, and how much risk you are comfortable taking. No timing rule works for every show.",
     sections: [
-      ["What to check", "Check whether tickets are in an official onsale, whether resale listings are active, how many seats fit your budget, and whether your preferred section is limited."],
+      ["What to check", "Check whether tickets are in an official onsale, whether resale listings are active, how many seats fit your budget, whether your preferred section is limited, and whether you need seats together."],
       ["Red flags", "Avoid advice that promises prices will rise or fall. Ticket prices can move in either direction depending on demand and inventory."],
       ["Before you buy", "Decide what matters most: price, seat quality, going with a group, or certainty. That tradeoff matters more than any generic timing rule."],
       ["What TourTicketCompare verifies", "We can point to checked ticket destinations when available, but we do not predict future prices without reliable live data."]
@@ -214,12 +214,12 @@ const guidePages = [
     slug: "primary-vs-resale-concert-tickets",
     title: "Primary vs Resale Concert Tickets | TourTicketCompare",
     description:
-      "Understand official tickets vs resale tickets, including fees, seat details, delivery timing, seller terms, and checkout checks.",
+      "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks.",
     h1: "What is the difference between official tickets and resale?",
     intro:
       "Official and resale tickets can both lead to real seats, but the buying experience and terms can be different. The safest choice depends on the event, ticket type, seller terms, and final checkout details.",
     sections: [
-      ["What to check", "Check whether the ticket is official primary inventory or resale, then review seat details, fees, transfer timing, and buyer protections."],
+      ["What to check", "Check whether the ticket is official primary inventory or resale, then review seat details, fees, transfer timing, seller terms, and buyer protections."],
       ["Red flags", "Be cautious with unclear seller names, missing delivery details, screenshots sold outside a ticket platform, or listings that do not match the event date."],
       ["Before you buy", "Read the provider terms carefully. Refund, transfer, cancellation, and delivery rules can differ between official and resale purchases."],
       ["What TourTicketCompare verifies", "We verify destination links before showing ticket buttons. We do not certify every individual seller or seat listing on external platforms."]
@@ -242,7 +242,7 @@ const routeMeta = {
   "/": {
     title: "Find Verified Ticket Options for Major Tours | TourTicketCompare",
     description:
-      "Find verified ticket options for major tours, learn why prices vary, and use checked links only when ticket destinations are verified."
+      "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -266,7 +266,7 @@ const routeMeta = {
   },
   "/contact": {
     title: "Contact TourTicketCompare",
-    description: "Contact TourTicketCompare about ticket links, source corrections, partnerships, or editorial questions."
+    description: "Contact TourTicketCompare about broken ticket links, incorrect event details, provider-link issues, or general site feedback."
   },
   "/editorial-policy": {
     title: "Editorial Policy | TourTicketCompare",
@@ -276,7 +276,7 @@ const routeMeta = {
   "/affiliate-disclosure": {
     title: "Affiliate Disclosure | TourTicketCompare",
     description:
-      "TourTicketCompare may earn commission from verified provider links without changing the price you pay."
+      "How TourTicketCompare uses affiliate links while staying independent, unofficial, and focused on checked ticket destinations."
   }
 };
 
@@ -470,10 +470,10 @@ function renderProviderButtons(artist, surface) {
   const panel = document.createElement("section");
   panel.className = "provider-panel";
   panel.setAttribute("aria-labelledby", "providerTitle");
-  text(panel, "h2", "Verified ticket links").id = "providerTitle";
+  text(panel, "h2", "Artist-level ticket pages").id = "providerTitle";
 
   if (!links.length) {
-    text(panel, "p", "No verified ticket links are available yet. We hide ticket buttons until we can verify the destination.", "muted");
+    text(panel, "p", "No checked artist-level ticket page is available yet. We hide ticket buttons until we can verify the destination.", "muted");
     return panel;
   }
 
@@ -481,7 +481,7 @@ function renderProviderButtons(artist, surface) {
   actions.className = "provider-actions";
   links.forEach((item) => {
     const providerSlug = slugify(item.provider);
-    const copy = providerCopy[providerSlug] || { name: item.provider, label: `View tickets on ${item.provider}`, bullets: [] };
+    const copy = providerCopy[providerSlug] || { name: item.provider, label: `Open ${item.provider} artist page`, bullets: [] };
     const card = document.createElement("article");
     card.className = "provider-card";
     text(card, "h3", copy.name);
@@ -527,7 +527,7 @@ function renderHome() {
   text(
     copy,
     "p",
-    "Tour Ticket Compare is made by fans for fans to check ticket links, understand price differences, and make a better-informed choice before buying. Live price comparison across ticketing platforms is coming soon, and we only show ticket links when the show and ticketing site can be verified.",
+    "TourTicketCompare helps fans find checked ticket links, understand what affects the final price, and avoid dead-end listings. We only show ticket buttons when the show and destination can be verified; final prices, fees, availability, and checkout terms are confirmed by the ticket provider.",
     "hero-subcopy"
   );
   const actions = document.createElement("div");
@@ -540,7 +540,7 @@ function renderHome() {
   [
     "Independent and unofficial",
     "Checked ticket links",
-    "No fake prices or invented dates",
+    "No invented dates or fake prices",
     "Prices and fees confirmed at checkout"
   ].forEach((item) => text(trust, "p", item));
   hero.append(copy, trust);
@@ -551,14 +551,14 @@ function renderHome() {
   const todayHeader = document.createElement("div");
   todayHeader.className = "section-intro";
   text(todayHeader, "h2", "What you can do here").id = "todayTitle";
-  text(todayHeader, "p", "Use TourTicketCompare to research the show, the ticket link, and the buying terms before you leave for checkout.");
+  text(todayHeader, "p", "Start with the artist, check whether verified event links are available, then use the guides to make a better buying decision before checkout.");
   const todayGrid = document.createElement("div");
   todayGrid.className = "card-grid";
   todayGrid.append(
-    renderInfoCard("Find major artists", "Start with artist pages for major tours and live music demand, then follow checked links when available."),
-    renderInfoCard("Check verified event links", "When we can verify a specific show and ticket destination, the event card links to that exact ticket page."),
-    renderInfoCard("Learn why prices vary", "Use the guides to understand fees, resale differences, seat location, delivery timing, and final checkout totals."),
-    renderInfoCard("Avoid misleading listings", "We do not publish invented dates, fake prices, dead-end listings, or ticket buttons we cannot verify.")
+    renderInfoCard("Find major artists", "Browse artist pages for major live music tours and see whether checked ticket links are available."),
+    renderInfoCard("Check event-specific links", "When a show link is verified, the event card points to the ticket page for that exact date."),
+    renderInfoCard("Understand the final total", "Use the guides to check fees, seat details, delivery timing, resale terms, and checkout totals."),
+    renderInfoCard("Avoid dead-end listings", "We do not publish invented dates, fake prices, or ticket buttons we cannot verify.")
   );
   today.append(todayHeader, todayGrid);
 
@@ -568,13 +568,13 @@ function renderHome() {
   const worksHeader = document.createElement("div");
   worksHeader.className = "section-intro";
   text(worksHeader, "h2", "How TourTicketCompare works").id = "worksTitle";
-  text(worksHeader, "p", "The goal is simple: help fans get to real ticket options without pretending to have data we have not checked.");
+  text(worksHeader, "p", "The goal is simple: get fans from research to checked ticket destinations without pretending to have data we have not verified.");
   const worksGrid = document.createElement("div");
   worksGrid.className = "card-grid";
   worksGrid.append(
-    renderInfoCard("We check official and approved sources", "Artist and event pages are based on sources we can review, not scraped listings or rumours."),
-    renderInfoCard("We separate event links from artist links", "A show card should link to the specific event page. Artist pages are for guidance when no event link is verified."),
-    renderInfoCard("We hide unverified ticket buttons", "If we cannot verify the destination, we do not show a ticket button just to fill the page.")
+    renderInfoCard("Sources are checked first", "Artist and event pages are based on sources we can review, not scraped listings or rumours."),
+    renderInfoCard("Event links stay specific", "A show card should link to the specific event page, not a generic artist page."),
+    renderInfoCard("Unchecked buttons stay hidden", "If we cannot verify the destination, we do not show a ticket button just to make a page look fuller.")
   );
   works.append(worksHeader, worksGrid);
 
@@ -584,7 +584,7 @@ function renderHome() {
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Featured artists").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Choose an artist to see checked ticket options when available, plus guidance for avoiding risky listings.");
+  text(artistHeader, "p", "Choose an artist to review checked ticket links when available, plus practical guidance for avoiding risky listings.");
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => {
@@ -595,7 +595,7 @@ function renderHome() {
   const board = renderShowBoardShell(
     "homeShowBoard",
     "Recently checked events",
-    "When verified event links are available, they appear here with the artist page so you can review the details before leaving for checkout."
+    "When event-specific links are verified, they appear here so you can review the date, venue, and ticket destination before leaving for checkout."
   );
 
   const disclosure = document.createElement("section");
@@ -605,7 +605,7 @@ function renderHome() {
   text(
     disclosure,
     "p",
-    "Some ticket links may be affiliate links, which means we may earn a commission at no extra cost to you. That does not change our link-checking rules, and ticket providers control final prices, fees, availability, delivery, and checkout terms."
+    "Some ticket links may be affiliate links, which means we may earn a commission at no extra cost to you. That does not change which links we show: ticket destinations still need to be checked, and providers control final prices, fees, availability, delivery, and checkout terms."
   );
   disclosure.append(buttonLink("Read affiliate disclosure", "/affiliate-disclosure", "secondary"));
 
@@ -619,16 +619,17 @@ function renderArtistCard(artist) {
   text(article, "h3", artist.name);
   text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
   const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
-  text(article, "p", activeProviders.length ? "Verified event links found" : "Artist guide available", "status-badge");
+  text(article, "p", activeProviders.length ? "Artist ticket page available" : "No checked ticket link yet", "status-badge");
   text(
     article,
     "p",
     activeProviders.length
-      ? "Checked ticket links appear on the artist page when we can verify the destination."
-      : "Price comparison is coming soon. For now, use the guide to understand what to check before buying.",
+      ? "Artist-level links are separate from dated event links. Event-specific buttons appear only on verified show cards."
+      : "Use the artist page for guidance. Ticket buttons appear only when a destination can be checked.",
     "card-status"
   );
-  article.append(buttonLink(activeProviders.length ? "View verified events" : "View artist", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
+  text(article, "p", "Price comparison coming later", "status-badge status-badge-muted");
+  article.append(buttonLink("View artist", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
   return article;
 }
 
@@ -707,13 +708,13 @@ function renderShowCard(show, options = {}) {
     const showId = String(show.id || "").trim();
     if (ticketmasterUrl && showId) {
       const params = new URLSearchParams({ showId, provider: "ticketmaster" });
-      const cta = buttonLink("View verified ticket link", `/api/out?${params.toString()}`, "primary");
+      const cta = buttonLink("View event ticket link", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";
       cta.rel = "noopener";
       article.append(cta);
       text(article, "p", "External ticketing sites set prices, fees, availability, and checkout terms.", "disclosure-note");
     } else {
-      text(article, "p", "No checked ticket link is available for this specific date yet.", "disclosure-note");
+      text(article, "p", "No event-specific ticket link is available for this date yet.", "disclosure-note");
     }
   } else if (show.artist_slug) {
     article.append(link("View artist", `/artists/${slugify(show.artist_slug)}`, "text-link"));
@@ -741,7 +742,7 @@ async function hydrateShowBoard(section, filters = {}) {
       text(
         grid,
         "p",
-        "No checked ticket link is available here yet. We only show ticket buttons when we can verify the show and destination.",
+        "No event-specific ticket link is available here yet. We only show ticket buttons when the show and destination can be verified.",
         "muted empty-state"
       );
       return;
@@ -767,7 +768,7 @@ function renderGuidePreview() {
   const header = document.createElement("div");
   header.className = "section-intro";
   text(header, "h2", "Buying guides").id = "guideTitle";
-  text(header, "p", "Practical guides for comparing final prices, avoiding risky listings, and understanding ticket provider terms.");
+  text(header, "p", "Practical guides for checking final totals, understanding resale terms, avoiding risky listings, and knowing what to confirm before checkout.");
   const grid = document.createElement("div");
   grid.className = "card-grid guide-grid";
   guidePages.forEach((guide) => {
@@ -930,20 +931,33 @@ function renderGuidesIndex() {
   text(
     section,
     "p",
-    "Use these guides to answer practical ticket-buying questions before you leave for a provider site."
+    "Use these guides to answer practical ticket-buying questions before you leave for a provider site. Each guide focuses on checks fans can actually make: final totals, seat details, delivery timing, resale terms, and refund rules."
   );
   text(
     section,
     "p",
-    "Live price comparison is coming later. For now, the guides help you understand final totals, fees, resale risks, delivery terms, and checkout checks."
+    "Live price comparison is coming later. For now, the guides help you compare options safely when verified links are available and avoid claims that are not backed by checkout details."
+  );
+  const primer = document.createElement("section");
+  primer.className = "nested-panel";
+  text(primer, "h2", "Start here before you buy");
+  primer.append(
+    createList(
+      [
+        "Confirm the artist, date, venue, and seat details match the show you want.",
+        "Compare the final checkout total after fees, not only the first displayed price.",
+        "Read delivery, refund, transfer, and resale terms on the provider site."
+      ],
+      "check-list"
+    )
   );
   const grid = document.createElement("div");
   grid.className = "card-grid guide-grid";
   guidePages.forEach((guide) => grid.append(renderInfoCard(guide.h1, guide.description, link("Read guide", `/guides/${guide.slug}`, "text-link"))));
   const links = document.createElement("div");
   links.className = "action-row";
-  links.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"));
-  section.append(grid, links);
+  links.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"), buttonLink("Affiliate disclosure", "/affiliate-disclosure", "secondary"));
+  section.append(primer, grid, links);
   main.replaceChildren(section);
 }
 
@@ -968,10 +982,10 @@ function renderGuide(guide) {
   const next = document.createElement("section");
   next.className = "nested-panel";
   text(next, "h2", "Next steps");
-  text(next, "p", "Find an artist page with checked ticket links where available, or read how TourTicketCompare decides what to publish.");
+  text(next, "p", "Use an artist page to look for checked event links where available, read how TourTicketCompare decides what to publish, or review how affiliate links are disclosed before leaving for a provider site.");
   const actions = document.createElement("div");
   actions.className = "action-row";
-  actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"));
+  actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"), buttonLink("Affiliate disclosure", "/affiliate-disclosure", "secondary"));
   next.append(actions);
   section.append(next);
   main.replaceChildren(section);
@@ -1041,27 +1055,142 @@ function renderSimplePage(type) {
   const section = document.createElement("section");
   section.className = "content-page";
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: routeMeta[`/${type}`].title.replace(" | TourTicketCompare", "") }]));
+
+  if (type === "affiliate-disclosure") {
+    text(section, "h1", "Affiliate disclosure");
+    text(
+      section,
+      "p",
+      "TourTicketCompare is an independent, unofficial ticket research site. Some outbound ticket links may be affiliate links, which means we may earn a commission if you click through and buy tickets, at no extra cost to you.",
+      "lead"
+    );
+
+    const independence = document.createElement("section");
+    independence.className = "nested-panel";
+    text(independence, "h2", "Our independence");
+    text(
+      independence,
+      "p",
+      "Affiliate relationships do not control which links we show. We only publish ticket buttons when the artist, event, and destination can be checked, and we do not add fake prices, invented dates, or dead-end listings to make a page look fuller."
+    );
+
+    const providerTerms = document.createElement("section");
+    providerTerms.className = "nested-panel";
+    text(providerTerms, "h2", "What providers control");
+    providerTerms.append(
+      createList(
+        [
+          "Final ticket prices and service fees.",
+          "Seat details, delivery methods, and transfer timing.",
+          "Ticket availability, purchase limits, and checkout rules.",
+          "Refund, cancellation, resale, and event-change terms."
+        ],
+        "check-list"
+      )
+    );
+
+    const checkout = document.createElement("section");
+    checkout.className = "nested-panel";
+    text(checkout, "h2", "Before you buy");
+    text(
+      checkout,
+      "p",
+      "Always confirm the event date, venue, seat information, final total, delivery terms, refund rules, transfer rules, and checkout terms on the ticket provider site before paying."
+    );
+
+    const disclosure = document.createElement("section");
+    disclosure.className = "nested-panel";
+    text(disclosure, "h2", "How this supports the site");
+    text(
+      disclosure,
+      "p",
+      "Affiliate commissions help support the site, but they do not change the price you pay and they do not weaken our verification rules. If a link cannot be checked, it should not appear as a ticket button."
+    );
+
+    const actions = document.createElement("div");
+    actions.className = "action-row";
+    actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("Read buying guides", "/guides", "secondary"));
+    section.append(independence, providerTerms, checkout, disclosure, actions);
+    main.replaceChildren(section);
+    return;
+  }
+
+  if (type === "contact") {
+    text(section, "h1", "Contact TourTicketCompare");
+    text(
+      section,
+      "p",
+      "Use this page to report broken links, incorrect event details, provider-link issues, or general feedback about TourTicketCompare.",
+      "lead"
+    );
+
+    const contactRoutes = document.createElement("section");
+    contactRoutes.className = "nested-panel";
+    text(contactRoutes, "h2", "Where to contact us");
+    const routeCopy = document.createElement("p");
+    routeCopy.append(
+      document.createTextNode("For quick public updates or messages, contact "),
+      link("@RenaissanceWT", "https://x.com/RenaissanceWT", "text-link"),
+      document.createTextNode(" or "),
+      link("@CowboyCarterWT", "https://x.com/CowboyCarterWT", "text-link"),
+      document.createTextNode(" on X. You can also email "),
+      link("hello@tourticketcompare.com", "mailto:hello@tourticketcompare.com", "text-link"),
+      document.createTextNode(".")
+    );
+    contactRoutes.append(routeCopy);
+
+    const reasons = document.createElement("section");
+    reasons.className = "nested-panel";
+    text(reasons, "h2", "Useful reasons to get in touch");
+    reasons.append(
+      createList(
+        [
+          "A ticket button is broken or opens the wrong destination.",
+          "An event date, venue, city, or artist detail appears incorrect.",
+          "A provider link works differently than expected.",
+          "You have general feedback about the site, guides, or artist pages."
+        ],
+        "check-list"
+      )
+    );
+
+    const details = document.createElement("section");
+    details.className = "nested-panel";
+    text(details, "h2", "What to include");
+    text(
+      details,
+      "p",
+      "Please include the artist name, event date, venue or city, the page URL, the ticket link if relevant, and a short explanation of what looks wrong."
+    );
+
+    const limits = document.createElement("section");
+    limits.className = "nested-panel";
+    text(limits, "h2", "What we cannot handle");
+    text(
+      limits,
+      "p",
+      "TourTicketCompare does not sell tickets and cannot help with ticket orders, refunds, transfers, delivery problems, payment issues, or provider account access. For those issues, contact the ticket provider shown at checkout."
+    );
+
+    const actions = document.createElement("div");
+    actions.className = "action-row";
+    actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("Read buying guides", "/guides", "secondary"));
+    section.append(contactRoutes, reasons, details, limits, actions);
+    main.replaceChildren(section);
+    return;
+  }
+
   const content = {
     about: [
       "About TourTicketCompare",
       "TourTicketCompare is an independent, unofficial ticket research site made by fans for fans of major live music tours.",
       "The site helps fans find checked ticket options where available, understand buying risks, and avoid fake prices, invented dates, and dead-end listings. We do not sell tickets directly."
     ],
-    contact: [
-      "Contact",
-      "Contact TourTicketCompare about source corrections, event-link issues, artist pages, partnerships, or editorial questions.",
-      "Email hello@tourticketcompare.com. Please include the artist, event date, source URL, and what needs checking when sending a correction."
-    ],
     "editorial-policy": [
       "Editorial policy",
       "TourTicketCompare publishes artist and ticket-link information only when the source can be checked.",
       "We use official artist, ticketing, and approved affiliate sources where available. We do not scrape, invent tour dates, publish fake prices, or add Event schema without verified event data."
     ],
-    "affiliate-disclosure": [
-      "Affiliate disclosure",
-      "Some outbound ticket links may be affiliate links. We may earn a commission if you click through and buy tickets, at no extra cost to you.",
-      "Affiliate relationships do not control which links we show. Ticket providers set final prices, fees, availability, seat details, delivery terms, refund rules, and checkout decisions."
-    ]
   }[type];
   text(section, "h1", content[0]);
   text(section, "p", content[1], "lead");
@@ -1084,18 +1213,6 @@ function renderSimplePage(type) {
           "Do not show provider buttons without verified destination URLs.",
           "Do not use Event schema until event data is real and verified.",
           "Do not claim savings, special deals, or live multi-provider analysis unless verified data supports it."
-        ],
-        "check-list"
-      )
-    );
-  }
-  if (type === "affiliate-disclosure") {
-    section.append(
-      createList(
-        [
-          "Ticket purchases happen on external ticketing platforms.",
-          "Final prices, fees, availability, delivery, and refund terms are confirmed on the provider site.",
-          "Affiliate relationships never change our rule: ticket links must point to checked destinations."
         ],
         "check-list"
       )

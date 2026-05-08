@@ -13,7 +13,7 @@ const expectedH1 = new Map([
   ["/guides", "Ticket buying guides"],
   ["/how-it-works", "How TourTicketCompare works"],
   ["/about", "About TourTicketCompare"],
-  ["/contact", "Contact"],
+  ["/contact", "Contact TourTicketCompare"],
   ["/editorial-policy", "Editorial policy"],
   ["/affiliate-disclosure", "Affiliate disclosure"]
 ]);
@@ -43,6 +43,55 @@ function assertAbsent(haystack, terms, label) {
   const lower = haystack.toLowerCase();
   const found = terms.filter((term) => lower.includes(term.toLowerCase()));
   assert(found.length === 0, `${label} contains blocked term(s): ${found.join(", ")}`);
+}
+
+async function assertPublicCopySafe(files) {
+  const rules = [
+    { label: "cheapest claim", pattern: /\bcheapest\b/i },
+    { label: "best price claim", pattern: /\bbest\s+price\b/i },
+    { label: "best deal claim", pattern: /\bbest\s+deal\b/i },
+    { label: "lowest price claim", pattern: /\blowest\s+price\b/i },
+    { label: "guaranteed claim", pattern: /\bguaranteed\b/i },
+    { label: "available now claim", pattern: /\bavailable\s+now\b/i },
+    {
+      label: "live prices claim",
+      pattern: /\blive\s+prices\b/i,
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built)\b/i
+    },
+    { label: "from-price claim", pattern: /\bfrom\s*[£$€]\s*\d/i },
+    {
+      label: "live price comparison claim",
+      pattern: /\blive\s+price\s+comparison\b/i,
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built)\b/i
+    },
+    {
+      label: "price comparison claim",
+      pattern: /\bprice\s+comparison\b/i,
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|when approved|only when)\b/i
+    },
+    {
+      label: "ticket comparison claim",
+      pattern: /\bticket\s+comparison\b/i,
+      allowedContext: /\b(not|must not|should not|does not|unless|until|without pretending)\b/i
+    }
+  ];
+  const violations = [];
+
+  for (const file of files) {
+    const lines = (await read(file)).split(/\r?\n/);
+    lines.forEach((line, index) => {
+      for (const rule of rules) {
+        if (!rule.pattern.test(line)) continue;
+        if (rule.allowedContext?.test(line)) continue;
+        violations.push(`${file}:${index + 1} ${rule.label}: ${line.trim()}`);
+      }
+    });
+  }
+
+  assert(
+    violations.length === 0,
+    `public-facing copy contains unsupported risky wording:\n${violations.join("\n")}`
+  );
 }
 
 function extractH1(html) {
@@ -78,12 +127,19 @@ const publicUiFiles = [
   "public/data/inventory-model.json",
   "public/data/catalog.json"
 ];
+const publicCopyFiles = [
+  "public/index.html",
+  "public/app.js",
+  "functions/[[path]].js",
+  "public/data/catalog.json"
+];
 
 const joinedPublic = (await Promise.all(publicUiFiles.map((file) => read(file)))).join("\n");
 assert(
   joinedPublic.includes("Find verified ticket options for major tours"),
   "homepage public-facing copy should be present"
 );
+await assertPublicCopySafe(publicCopyFiles);
 assertAbsent(
   joinedPublic,
   [
@@ -121,7 +177,7 @@ for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt",
   assert(routesManifest.exclude?.includes(pathname), `_routes.json should exclude static asset route ${pathname}`);
 }
 
-const routeModule = await import(pathToFileURL(path.join(root, "functions/[[path]].js")));
+const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
 const healthModule = await import(pathToFileURL(path.join(root, "functions/api/health.js")));
@@ -151,7 +207,7 @@ const env = {
 
 async function routeResponse(pathname) {
   let nextCalled = false;
-  const response = await routeModule.onRequest({
+  const response = await middlewareModule.onRequest({
     request: new Request(`https://tourticketcompare.com${pathname}`),
     env,
     next: () => {
@@ -160,6 +216,12 @@ async function routeResponse(pathname) {
     }
   });
   return { response, text: await response.text(), nextCalled };
+}
+
+for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/events.json", "/api/health"]) {
+  const { response, nextCalled } = await routeResponse(pathname);
+  assert(nextCalled === true, `${pathname} should pass through middleware unchanged`);
+  assert(response.status === 404, `${pathname} smoke middleware next sentinel should return 404`);
 }
 
 for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/${slug}`))) {
@@ -202,7 +264,7 @@ const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
 assert(appJs.includes("/api/out?"), "artist show cards should route event CTAs through /api/out");
 assert(appJs.includes("showId"), "artist show card CTAs should include showId");
-assert(appJs.includes("No checked ticket link is available for this specific date yet."), "event cards should have a safe unavailable state");
+assert(appJs.includes("No event-specific ticket link is available for this date yet."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
 const bulkPriceResponse = await showsModule.onRequestGet({

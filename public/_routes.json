@@ -1,14 +1,17 @@
 {
   "version": 1,
   "include": [
-    "/api/*",
-    "/sitemap.xml",
     "/artists",
+    "/artists/*",
     "/guides",
+    "/guides/*",
     "/how-it-works",
     "/editorial-policy",
     "/affiliate-disclosure",
-    "/contact"
+    "/about",
+    "/contact",
+    "/api/*",
+    "/sitemap.xml"
   ],
   "exclude": [
     "/app.js",

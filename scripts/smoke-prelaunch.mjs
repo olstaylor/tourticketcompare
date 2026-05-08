@@ -5,7 +5,8 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const artistSlugs = ["beyonce", "harry-styles", "bts", "ariana-grande", "bad-bunny", "morgan-wallen", "jay-z"];
 const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
-const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/contact"];
+const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
+const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
   ["/", "2026/27 stadium tour market watch"],
   ["/artists", "Artist watchlist"],
@@ -22,6 +23,7 @@ const routeMarkers = new Map([
   ["/how-it-works", "server-side affiliate routing through /api/out"],
   ["/editorial-policy", "official artist sources"],
   ["/affiliate-disclosure", "Affiliate relationships do not control provider prices"],
+  ["/about", "does not publish invented dates"],
   ["/contact", "hello@tourticketcompare.com"]
 ]);
 
@@ -109,7 +111,7 @@ for (const slug of artistSlugs) {
 
 const routesManifest = await readJson("public/_routes.json");
 assert(routesManifest.version === 1, "_routes.json should use Cloudflare Pages routes schema version 1");
-for (const pathname of ["/api/*", "/sitemap.xml", ...functionBackedStaticRoutes]) {
+for (const pathname of ["/api/*", "/sitemap.xml", ...functionBackedStaticRoutes, ...functionBackedWildcardRoutes]) {
   assert(routesManifest.include?.includes(pathname), `_routes.json should invoke Functions for ${pathname}`);
 }
 for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/*"]) {

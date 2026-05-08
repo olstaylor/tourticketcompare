@@ -138,15 +138,15 @@ const guidePages = [
     slug: "how-to-compare-concert-ticket-prices",
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Learn how to compare concert ticket prices safely by checking fees, seat details, delivery terms, and final checkout totals.",
+      "Learn how to compare concert ticket prices safely by checking the final total, seat details, delivery timing, and provider terms.",
     h1: "How do I compare ticket prices safely?",
     intro:
       "A ticket price is only useful when you know what it includes. Before you buy, compare the full checkout total, the seat location, the delivery method, and the seller terms rather than relying on the first price you see.",
     sections: [
-      ["What to check", "Compare the final checkout total, including service fees, delivery charges, taxes, currency, seat section, row, view notes, and transfer timing."],
-      ["Red flags", "Be careful with unclear seat details, pressure-heavy countdowns, payment methods with weak protection, and ticket pages that do not clearly match the event you want."],
-      ["Before you buy", "Open the ticket provider page, confirm the date and venue, review the final total, and read the delivery and refund terms before entering payment details."],
-      ["What TourTicketCompare verifies", "We check that ticket buttons point to a real destination for the relevant artist or event. We do not verify the final checkout total for you."]
+      ["What to check", "Compare the final checkout total, not just the first number shown. Check service fees, delivery charges, taxes, currency, seat section, row, view notes, and transfer timing."],
+      ["Red flags", "Be careful with unclear seat details, pressure-heavy countdowns, payment methods with weak protection, and ticket pages that do not clearly match the artist, date, and venue you want."],
+      ["Before you buy", "Open the ticket provider page, confirm the event date and venue, review the full total, and read delivery, transfer, refund, and cancellation terms before entering payment details."],
+      ["What TourTicketCompare verifies", "We check that ticket buttons point to a real destination for the relevant artist or event. We do not verify every seat listing or final checkout total on external provider sites."]
     ],
     faq: [
       ["Does TourTicketCompare compare live prices today?", "Not yet. Live price comparison is coming later, so final prices and fees must be checked on the ticket provider site."],
@@ -157,14 +157,14 @@ const guidePages = [
     slug: "ticketmaster-vs-seatgeek-vs-vivid-seats",
     title: "Why Ticket Prices Vary Between Sites | TourTicketCompare",
     description:
-      "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, and seller terms.",
+      "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, delivery, and seller terms.",
     h1: "Why do prices vary between ticket sites?",
     intro:
       "Two ticket pages can look similar but lead to different final totals. Fees, inventory type, seat location, delivery method, currency, and seller rules can all affect what you actually pay.",
     sections: [
-      ["What to check", "Look beyond the first displayed price. Check whether the ticket is primary or resale, where the seat is, how delivery works, and what the full checkout total says."],
-      ["Red flags", "Watch for vague listing titles, missing seat information, unclear transfer timing, or a final total that changes sharply at checkout."],
-      ["Before you buy", "Compare like-for-like tickets whenever possible: same date, same venue, similar seat quality, and the final price after fees."],
+      ["What to check", "Look beyond the first displayed price. Check whether the ticket is primary or resale, where the seat is, how delivery works, whether fees are included, and what the full checkout total says."],
+      ["Red flags", "Watch for vague listing titles, missing seat information, unclear transfer timing, currency surprises, or a final total that changes sharply at checkout."],
+      ["Before you buy", "Compare like-for-like tickets whenever possible: same artist, same date, same venue, similar seat quality, similar delivery terms, and the final price after fees."],
       ["What TourTicketCompare verifies", "We verify ticket destinations before showing buttons. We do not claim one ticket site is always cheaper or better."]
     ],
     faq: [
@@ -176,14 +176,14 @@ const guidePages = [
     slug: "how-to-avoid-overpaying-for-concert-tickets",
     title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
     description:
-      "Use practical checks to avoid overpaying for concert tickets, including final fees, seat location, seller terms, and misleading urgency.",
+      "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
     h1: "How do I avoid overpaying for concert tickets?",
     intro:
       "There is no magic trick for every concert ticket. The safer approach is to slow down, compare the real checkout total, and avoid listings that hide important details.",
     sections: [
-      ["What to check", "Check the final total, the seat view, ticket type, transfer timing, refund terms, and whether the page clearly matches the artist and date."],
+      ["What to check", "Check the final total, seat view, ticket type, transfer timing, refund terms, seller details where available, and whether the page clearly matches the artist and date."],
       ["Red flags", "Treat unrealistic prices, social media sellers, vague screenshots, pressure tactics, and requests for unprotected payment methods as warning signs."],
-      ["Before you buy", "Take a screenshot of the final order summary, read the buyer terms, and make sure the ticket provider explains how and when you receive the ticket."],
+      ["Before you buy", "Pause before paying. Review the final order summary, read the buyer terms, and make sure the ticket provider explains how and when you receive the ticket."],
       ["What TourTicketCompare verifies", "We avoid fake urgency and invented prices. If a ticket destination cannot be checked, we do not present it as a ticket option."]
     ],
     faq: [
@@ -195,12 +195,12 @@ const guidePages = [
     slug: "when-is-the-best-time-to-buy-concert-tickets",
     title: "When to Buy Concert Tickets | TourTicketCompare",
     description:
-      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, and your risk tolerance.",
+      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, group plans, and your risk tolerance.",
     h1: "When should I buy concert tickets?",
     intro:
       "The right buying moment depends on the artist, the venue, demand, seat preferences, and how much risk you are comfortable taking. No timing rule works for every show.",
     sections: [
-      ["What to check", "Check whether tickets are in an official onsale, whether resale listings are active, how many seats fit your budget, and whether your preferred section is limited."],
+      ["What to check", "Check whether tickets are in an official onsale, whether resale listings are active, how many seats fit your budget, whether your preferred section is limited, and whether you need seats together."],
       ["Red flags", "Avoid advice that promises prices will rise or fall. Ticket prices can move in either direction depending on demand and inventory."],
       ["Before you buy", "Decide what matters most: price, seat quality, going with a group, or certainty. That tradeoff matters more than any generic timing rule."],
       ["What TourTicketCompare verifies", "We can point to checked ticket destinations when available, but we do not predict future prices without reliable live data."]
@@ -214,12 +214,12 @@ const guidePages = [
     slug: "primary-vs-resale-concert-tickets",
     title: "Primary vs Resale Concert Tickets | TourTicketCompare",
     description:
-      "Understand official tickets vs resale tickets, including fees, seat details, delivery timing, seller terms, and checkout checks.",
+      "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks.",
     h1: "What is the difference between official tickets and resale?",
     intro:
       "Official and resale tickets can both lead to real seats, but the buying experience and terms can be different. The safest choice depends on the event, ticket type, seller terms, and final checkout details.",
     sections: [
-      ["What to check", "Check whether the ticket is official primary inventory or resale, then review seat details, fees, transfer timing, and buyer protections."],
+      ["What to check", "Check whether the ticket is official primary inventory or resale, then review seat details, fees, transfer timing, seller terms, and buyer protections."],
       ["Red flags", "Be cautious with unclear seller names, missing delivery details, screenshots sold outside a ticket platform, or listings that do not match the event date."],
       ["Before you buy", "Read the provider terms carefully. Refund, transfer, cancellation, and delivery rules can differ between official and resale purchases."],
       ["What TourTicketCompare verifies", "We verify destination links before showing ticket buttons. We do not certify every individual seller or seat listing on external platforms."]
@@ -768,7 +768,7 @@ function renderGuidePreview() {
   const header = document.createElement("div");
   header.className = "section-intro";
   text(header, "h2", "Buying guides").id = "guideTitle";
-  text(header, "p", "Practical guides for comparing final prices, avoiding risky listings, and understanding ticket provider terms.");
+  text(header, "p", "Practical guides for checking final totals, understanding resale terms, avoiding risky listings, and knowing what to confirm before checkout.");
   const grid = document.createElement("div");
   grid.className = "card-grid guide-grid";
   guidePages.forEach((guide) => {
@@ -931,20 +931,33 @@ function renderGuidesIndex() {
   text(
     section,
     "p",
-    "Use these guides to answer practical ticket-buying questions before you leave for a provider site."
+    "Use these guides to answer practical ticket-buying questions before you leave for a provider site. Each guide focuses on checks fans can actually make: final totals, seat details, delivery timing, resale terms, and refund rules."
   );
   text(
     section,
     "p",
-    "Live price comparison is coming later. For now, the guides help you understand final totals, fees, resale risks, delivery terms, and checkout checks."
+    "Live price comparison is coming later. For now, the guides help you compare options safely when verified links are available and avoid claims that are not backed by checkout details."
+  );
+  const primer = document.createElement("section");
+  primer.className = "nested-panel";
+  text(primer, "h2", "Start here before you buy");
+  primer.append(
+    createList(
+      [
+        "Confirm the artist, date, venue, and seat details match the show you want.",
+        "Compare the final checkout total after fees, not only the first displayed price.",
+        "Read delivery, refund, transfer, and resale terms on the provider site."
+      ],
+      "check-list"
+    )
   );
   const grid = document.createElement("div");
   grid.className = "card-grid guide-grid";
   guidePages.forEach((guide) => grid.append(renderInfoCard(guide.h1, guide.description, link("Read guide", `/guides/${guide.slug}`, "text-link"))));
   const links = document.createElement("div");
   links.className = "action-row";
-  links.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"));
-  section.append(grid, links);
+  links.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"), buttonLink("Affiliate disclosure", "/affiliate-disclosure", "secondary"));
+  section.append(primer, grid, links);
   main.replaceChildren(section);
 }
 
@@ -969,10 +982,10 @@ function renderGuide(guide) {
   const next = document.createElement("section");
   next.className = "nested-panel";
   text(next, "h2", "Next steps");
-  text(next, "p", "Find an artist page with checked ticket links where available, or read how TourTicketCompare decides what to publish.");
+  text(next, "p", "Use an artist page to look for checked event links where available, read how TourTicketCompare decides what to publish, or review how affiliate links are disclosed before leaving for a provider site.");
   const actions = document.createElement("div");
   actions.className = "action-row";
-  actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"));
+  actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"), buttonLink("Affiliate disclosure", "/affiliate-disclosure", "secondary"));
   next.append(actions);
   section.append(next);
   main.replaceChildren(section);

@@ -61,31 +61,31 @@ const GUIDE_ROUTES = {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     h1: "How do I compare ticket prices safely?",
     description:
-      "Learn how to compare concert ticket prices safely by checking fees, seat details, delivery terms, and final checkout totals."
+      "Learn how to compare concert ticket prices safely by checking the final total, seat details, delivery timing, and provider terms."
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Why Ticket Prices Vary Between Sites | TourTicketCompare",
     h1: "Why do prices vary between ticket sites?",
     description:
-      "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, and seller terms."
+      "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, delivery, and seller terms."
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
     h1: "How do I avoid overpaying for concert tickets?",
     description:
-      "Use practical checks to avoid overpaying for concert tickets, including final fees, seat location, seller terms, and misleading urgency."
+      "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency."
   },
   "/guides/when-is-the-best-time-to-buy-concert-tickets": {
     title: "When to Buy Concert Tickets | TourTicketCompare",
     h1: "When should I buy concert tickets?",
     description:
-      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, and your risk tolerance."
+      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, group plans, and your risk tolerance."
   },
   "/guides/primary-vs-resale-concert-tickets": {
     title: "Primary vs Resale Concert Tickets | TourTicketCompare",
     h1: "What is the difference between official tickets and resale?",
     description:
-      "Understand official tickets vs resale tickets, including fees, seat details, delivery timing, seller terms, and checkout checks."
+      "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks."
   }
 };
 
@@ -446,11 +446,15 @@ function renderMainContent(route, catalog) {
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p><section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify.</p></section><div class="action-row">${anchor(
+    )}</p><section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify. Final prices, fees, availability, delivery, and checkout terms should always be confirmed on the provider site.</p></section><section class="nested-panel"><h2>Related reading</h2><p>Use an artist page to look for checked event links where available, read how TourTicketCompare decides what to publish, or review how affiliate links are disclosed before leaving for a provider site.</p></section><div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"
-    )}${anchor("How it works", "/how-it-works", "button button-secondary")}</div></section></main>`;
+    )}${anchor("How it works", "/how-it-works", "button button-secondary")}${anchor(
+      "Affiliate disclosure",
+      "/affiliate-disclosure",
+      "button button-secondary"
+    )}</div></section></main>`;
   }
 
   if (route.path === "/artists") {
@@ -464,11 +468,15 @@ function renderMainContent(route, catalog) {
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Use these guides to answer practical ticket-buying questions before you leave for a provider site.</p><p>Live price comparison is coming later. For now, the guides help you understand final totals, fees, resale risks, delivery terms, and checkout checks.</p>${renderGuideLinks()}<div class="action-row">${anchor(
+    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Use these guides to answer practical ticket-buying questions before you leave for a provider site. Each guide focuses on checks fans can actually make: final totals, seat details, delivery timing, resale terms, and refund rules.</p><p>Live price comparison is coming later. For now, the guides help you compare options safely when verified links are available and avoid claims that are not backed by checkout details.</p><section class="nested-panel"><h2>Start here before you buy</h2><ul class="check-list"><li>Confirm the artist, date, venue, and seat details match the show you want.</li><li>Compare the final checkout total after fees, not only the first displayed price.</li><li>Read delivery, refund, transfer, and resale terms on the provider site.</li></ul></section>${renderGuideLinks()}<div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"
-    )}${anchor("How it works", "/how-it-works", "button button-secondary")}</div></section></main>`;
+    )}${anchor("How it works", "/how-it-works", "button button-secondary")}${anchor(
+      "Affiliate disclosure",
+      "/affiliate-disclosure",
+      "button button-secondary"
+    )}</div></section></main>`;
   }
 
   if (route.path === "/affiliate-disclosure") {

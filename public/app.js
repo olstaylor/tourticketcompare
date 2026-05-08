@@ -276,7 +276,7 @@ const routeMeta = {
   "/affiliate-disclosure": {
     title: "Affiliate Disclosure | TourTicketCompare",
     description:
-      "TourTicketCompare may earn commission from verified provider links without changing the price you pay."
+      "How TourTicketCompare uses affiliate links while staying independent, unofficial, and focused on checked ticket destinations."
   }
 };
 
@@ -1041,6 +1041,66 @@ function renderSimplePage(type) {
   const section = document.createElement("section");
   section.className = "content-page";
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: routeMeta[`/${type}`].title.replace(" | TourTicketCompare", "") }]));
+
+  if (type === "affiliate-disclosure") {
+    text(section, "h1", "Affiliate disclosure");
+    text(
+      section,
+      "p",
+      "TourTicketCompare is an independent, unofficial ticket research site. Some outbound ticket links may be affiliate links, which means we may earn a commission if you click through and buy tickets, at no extra cost to you.",
+      "lead"
+    );
+
+    const independence = document.createElement("section");
+    independence.className = "nested-panel";
+    text(independence, "h2", "Our independence");
+    text(
+      independence,
+      "p",
+      "Affiliate relationships do not control which links we show. We only publish ticket buttons when the artist, event, and destination can be checked, and we do not add fake prices, invented dates, or dead-end listings to make a page look fuller."
+    );
+
+    const providerTerms = document.createElement("section");
+    providerTerms.className = "nested-panel";
+    text(providerTerms, "h2", "What providers control");
+    providerTerms.append(
+      createList(
+        [
+          "Final ticket prices and service fees.",
+          "Seat details, delivery methods, and transfer timing.",
+          "Ticket availability, purchase limits, and checkout rules.",
+          "Refund, cancellation, resale, and event-change terms."
+        ],
+        "check-list"
+      )
+    );
+
+    const checkout = document.createElement("section");
+    checkout.className = "nested-panel";
+    text(checkout, "h2", "Before you buy");
+    text(
+      checkout,
+      "p",
+      "Always confirm the event date, venue, seat information, final total, delivery terms, refund rules, transfer rules, and checkout terms on the ticket provider site before paying."
+    );
+
+    const disclosure = document.createElement("section");
+    disclosure.className = "nested-panel";
+    text(disclosure, "h2", "How this supports the site");
+    text(
+      disclosure,
+      "p",
+      "Affiliate commissions help support the site, but they do not change the price you pay and they do not weaken our verification rules. If a link cannot be checked, it should not appear as a ticket button."
+    );
+
+    const actions = document.createElement("div");
+    actions.className = "action-row";
+    actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("Read buying guides", "/guides", "secondary"));
+    section.append(independence, providerTerms, checkout, disclosure, actions);
+    main.replaceChildren(section);
+    return;
+  }
+
   const content = {
     about: [
       "About TourTicketCompare",
@@ -1057,11 +1117,6 @@ function renderSimplePage(type) {
       "TourTicketCompare publishes artist and ticket-link information only when the source can be checked.",
       "We use official artist, ticketing, and approved affiliate sources where available. We do not scrape, invent tour dates, publish fake prices, or add Event schema without verified event data."
     ],
-    "affiliate-disclosure": [
-      "Affiliate disclosure",
-      "Some outbound ticket links may be affiliate links. We may earn a commission if you click through and buy tickets, at no extra cost to you.",
-      "Affiliate relationships do not control which links we show. Ticket providers set final prices, fees, availability, seat details, delivery terms, refund rules, and checkout decisions."
-    ]
   }[type];
   text(section, "h1", content[0]);
   text(section, "p", content[1], "lead");
@@ -1084,18 +1139,6 @@ function renderSimplePage(type) {
           "Do not show provider buttons without verified destination URLs.",
           "Do not use Event schema until event data is real and verified.",
           "Do not claim savings, special deals, or live multi-provider analysis unless verified data supports it."
-        ],
-        "check-list"
-      )
-    );
-  }
-  if (type === "affiliate-disclosure") {
-    section.append(
-      createList(
-        [
-          "Ticket purchases happen on external ticketing platforms.",
-          "Final prices, fees, availability, delivery, and refund terms are confirmed on the provider site.",
-          "Affiliate relationships never change our rule: ticket links must point to checked destinations."
         ],
         "check-list"
       )

@@ -50,7 +50,7 @@ const TRUST_ROUTES = {
   "/affiliate-disclosure": {
     title: "Affiliate Disclosure | TourTicketCompare",
     description:
-      "TourTicketCompare may earn commission from verified provider links without changing the price you pay.",
+      "How TourTicketCompare uses affiliate links while staying independent, unofficial, and focused on checked ticket destinations.",
     indexable: true,
     breadcrumb: [{ name: "Affiliate disclosure", path: "/affiliate-disclosure" }]
   }
@@ -463,6 +463,16 @@ function renderMainContent(route, catalog) {
     )}${anchor("How it works", "/how-it-works", "button button-secondary")}</div></section></main>`;
   }
 
+  if (route.path === "/affiliate-disclosure") {
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="affiliateTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="affiliateTitle">Affiliate disclosure</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site. Some outbound ticket links may be affiliate links, which means we may earn a commission if you click through and buy tickets, at no extra cost to you.</p><section class="nested-panel"><h2>Our independence</h2><p>Affiliate relationships do not control which links we show. We only publish ticket buttons when the artist, event, and destination can be checked, and we do not add fake prices, invented dates, or dead-end listings to make a page look fuller.</p></section><section class="nested-panel"><h2>What providers control</h2><ul class="check-list"><li>Final ticket prices and service fees.</li><li>Seat details, delivery methods, and transfer timing.</li><li>Ticket availability, purchase limits, and checkout rules.</li><li>Refund, cancellation, resale, and event-change terms.</li></ul></section><section class="nested-panel"><h2>Before you buy</h2><p>Always confirm the event date, venue, seat information, final total, delivery terms, refund rules, transfer rules, and checkout terms on the ticket provider site before paying.</p></section><section class="nested-panel"><h2>How this supports the site</h2><p>Affiliate commissions help support the site, but they do not change the price you pay and they do not weaken our verification rules. If a link cannot be checked, it should not appear as a ticket button.</p></section><div class="action-row">${anchor(
+      "Find an artist",
+      "/artists",
+      "button button-primary"
+    )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+  }
+
   const simplePages = {
     "/how-it-works": [
       "How TourTicketCompare works",
@@ -484,11 +494,6 @@ function renderMainContent(route, catalog) {
       "TourTicketCompare publishes artist and ticket-link information only when the source can be checked.",
       "We use official artist, ticketing, and approved affiliate sources where available. We do not scrape, invent tour dates, publish fake prices, or add Event schema without verified event data."
     ],
-    "/affiliate-disclosure": [
-      "Affiliate disclosure",
-      "Some outbound ticket links may be affiliate links. We may earn a commission if you click through and buy tickets, at no extra cost to you.",
-      "Affiliate relationships do not control which links we show. Ticket providers set final prices, fees, availability, seat details, delivery terms, refund rules, and checkout decisions."
-    ]
   };
 
   if (simplePages[route.path]) {

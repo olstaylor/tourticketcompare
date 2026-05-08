@@ -202,7 +202,7 @@ const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
 assert(appJs.includes("/api/out?"), "artist show cards should route event CTAs through /api/out");
 assert(appJs.includes("showId"), "artist show card CTAs should include showId");
-assert(appJs.includes("No checked ticket link is available for this specific date yet."), "event cards should have a safe unavailable state");
+assert(appJs.includes("No event-specific ticket link is available for this date yet."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
 const bulkPriceResponse = await showsModule.onRequestGet({

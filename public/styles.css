@@ -437,6 +437,12 @@ h3 {
   text-transform: uppercase;
 }
 
+.status-badge-muted {
+  border-color: rgba(164, 111, 33, 0.24);
+  color: var(--gold);
+  background: rgba(164, 111, 33, 0.1);
+}
+
 .guide-grid .info-card {
   min-height: 260px;
   align-content: start;

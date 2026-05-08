@@ -118,17 +118,17 @@ const fallbackCatalog = {
 const providerCopy = {
   ticketmaster: {
     name: "Ticketmaster",
-    label: "View tickets on Ticketmaster",
-    bullets: ["Primary seller or verified marketplace pages where available", "Provider sets prices, fees, availability, and checkout terms"]
+    label: "Open Ticketmaster artist page",
+    bullets: ["Artist-level page, not a date-specific event link", "Provider sets prices, fees, availability, and checkout terms"]
   },
   seatgeek: {
     name: "SeatGeek",
-    label: "View tickets on SeatGeek",
+    label: "Open SeatGeek artist page",
     bullets: ["Shown only when a verified destination is available"]
   },
   "vivid-seats": {
     name: "Vivid Seats",
-    label: "View tickets on Vivid Seats",
+    label: "Open Vivid Seats artist page",
     bullets: ["Shown only when a verified destination is available"]
   }
 };
@@ -470,10 +470,10 @@ function renderProviderButtons(artist, surface) {
   const panel = document.createElement("section");
   panel.className = "provider-panel";
   panel.setAttribute("aria-labelledby", "providerTitle");
-  text(panel, "h2", "Verified ticket links").id = "providerTitle";
+  text(panel, "h2", "Artist-level ticket pages").id = "providerTitle";
 
   if (!links.length) {
-    text(panel, "p", "No verified ticket links are available yet. We hide ticket buttons until we can verify the destination.", "muted");
+    text(panel, "p", "No checked artist-level ticket page is available yet. We hide ticket buttons until we can verify the destination.", "muted");
     return panel;
   }
 
@@ -481,7 +481,7 @@ function renderProviderButtons(artist, surface) {
   actions.className = "provider-actions";
   links.forEach((item) => {
     const providerSlug = slugify(item.provider);
-    const copy = providerCopy[providerSlug] || { name: item.provider, label: `View tickets on ${item.provider}`, bullets: [] };
+    const copy = providerCopy[providerSlug] || { name: item.provider, label: `Open ${item.provider} artist page`, bullets: [] };
     const card = document.createElement("article");
     card.className = "provider-card";
     text(card, "h3", copy.name);
@@ -619,15 +619,16 @@ function renderArtistCard(artist) {
   text(article, "h3", artist.name);
   text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
   const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
-  text(article, "p", activeProviders.length ? "Checked ticket path" : "Artist guide available", "status-badge");
+  text(article, "p", activeProviders.length ? "Artist ticket page available" : "No checked ticket link yet", "status-badge");
   text(
     article,
     "p",
     activeProviders.length
-      ? "Open the artist page to see checked event links when they are available."
-      : "Use the guide to understand what to check before buying.",
+      ? "Artist-level links are separate from dated event links. Event-specific buttons appear only on verified show cards."
+      : "Use the artist page for guidance. Ticket buttons appear only when a destination can be checked.",
     "card-status"
   );
+  text(article, "p", "Price comparison coming later", "status-badge status-badge-muted");
   article.append(buttonLink("View artist", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
   return article;
 }
@@ -707,13 +708,13 @@ function renderShowCard(show, options = {}) {
     const showId = String(show.id || "").trim();
     if (ticketmasterUrl && showId) {
       const params = new URLSearchParams({ showId, provider: "ticketmaster" });
-      const cta = buttonLink("View verified ticket link", `/api/out?${params.toString()}`, "primary");
+      const cta = buttonLink("View event ticket link", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";
       cta.rel = "noopener";
       article.append(cta);
       text(article, "p", "External ticketing sites set prices, fees, availability, and checkout terms.", "disclosure-note");
     } else {
-      text(article, "p", "No checked ticket link is available for this specific date yet.", "disclosure-note");
+      text(article, "p", "No event-specific ticket link is available for this date yet.", "disclosure-note");
     }
   } else if (show.artist_slug) {
     article.append(link("View artist", `/artists/${slugify(show.artist_slug)}`, "text-link"));
@@ -741,7 +742,7 @@ async function hydrateShowBoard(section, filters = {}) {
       text(
         grid,
         "p",
-        "No checked ticket link is available here yet. We only show ticket buttons when we can verify the show and destination.",
+        "No event-specific ticket link is available here yet. We only show ticket buttons when the show and destination can be verified.",
         "muted empty-state"
       );
       return;

@@ -345,14 +345,22 @@ function renderBreadcrumbHtml(route) {
 function renderArtistLinks(catalog) {
   return `<div class="artist-card-grid">${(catalog.artists || [])
     .map(
-      (artist) =>
+      (artist) => {
+        const hasArtistPage = ticketLinksForArtist(catalog, artist.slug).length > 0;
+        return (
         `<article class="artist-card"><h3>${escapeHtml(artist.name)}</h3><p class="muted">${escapeHtml(
           artist.short_description || "Artist watchlist notes."
-        )}</p><p class="status-badge">Artist guide available</p><p class="card-status">Use the guide to understand what to check before buying.</p>${anchor(
+        )}</p><p class="status-badge">${hasArtistPage ? "Artist ticket page available" : "No checked ticket link yet"}</p><p class="card-status">${
+          hasArtistPage
+            ? "Artist-level links are separate from dated event links. Event-specific buttons appear only on verified show cards."
+            : "Use the artist page for guidance. Ticket buttons appear only when a destination can be checked."
+        }</p><p class="status-badge status-badge-muted">Price comparison coming later</p>${anchor(
           "View artist",
           `/artists/${artist.slug}`,
-          "button button-primary"
+          hasArtistPage ? "button button-primary" : "button button-secondary"
         )}</article>`
+        );
+      }
     )
     .join("")}</div>`;
 }
@@ -373,26 +381,26 @@ function renderGuideLinks() {
 function renderProviderFallback(catalog, artist, surface) {
   const links = ticketLinksForArtist(catalog, artist.slug);
   if (!links.length) {
-    return `<section class="provider-panel"><h2>Verified ticket links</h2><p class="muted">No verified ticket links are available yet. We hide ticket buttons until we can verify the destination.</p></section>`;
+    return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">No checked artist-level ticket page is available yet. We hide ticket buttons until we can verify the destination.</p></section>`;
   }
   const cards = links
     .map((item) => {
       const provider = slugify(item.provider);
-      const label = provider === "ticketmaster" ? "View tickets on Ticketmaster" : `View tickets on ${item.provider}`;
+      const label = provider === "ticketmaster" ? "Open Ticketmaster artist page" : `Open ${item.provider} artist page`;
       const params = new URLSearchParams({
         artistSlug: artist.slug,
         provider,
         sourcePath: `/artists/${artist.slug}`,
         surface
       });
-      return `<article class="provider-card"><h3>${escapeHtml(label.replace("View tickets on ", ""))}</h3><p>Provider sets prices, fees, availability, and checkout terms.</p>${anchor(
+      return `<article class="provider-card"><h3>${escapeHtml(item.provider)}</h3><p>This is an artist-level page, not a date-specific event link. Provider sets prices, fees, availability, and checkout terms.</p>${anchor(
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
       )}</article>`;
     })
     .join("");
-  return `<section class="provider-panel"><h2>Verified ticket links</h2><div class="provider-actions">${cards}</div><p class="disclosure-note">Affiliate link. We may earn a commission at no extra cost to you.</p><p class="disclosure-note">Final prices, fees and availability are confirmed on the ticketing platform.</p></section>`;
+  return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">These links go to provider artist pages. Event-specific links appear only on dated show cards when verified.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Affiliate link. We may earn a commission at no extra cost to you.</p><p class="disclosure-note">Final prices, fees and availability are confirmed on the ticketing platform.</p></section>`;
 }
 
 function renderMainContent(route, catalog) {

@@ -13,7 +13,7 @@ const expectedH1 = new Map([
   ["/guides", "Ticket buying guides"],
   ["/how-it-works", "How TourTicketCompare works"],
   ["/about", "About TourTicketCompare"],
-  ["/contact", "Contact"],
+  ["/contact", "Contact TourTicketCompare"],
   ["/editorial-policy", "Editorial policy"],
   ["/affiliate-disclosure", "Affiliate disclosure"]
 ]);

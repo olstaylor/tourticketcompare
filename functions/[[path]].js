@@ -36,7 +36,7 @@ const TRUST_ROUTES = {
   },
   "/contact": {
     title: "Contact TourTicketCompare",
-    description: "Contact TourTicketCompare about ticket links, source corrections, partnerships, or editorial questions.",
+    description: "Contact TourTicketCompare about broken ticket links, incorrect event details, provider-link issues, or general site feedback.",
     indexable: true,
     breadcrumb: [{ name: "Contact", path: "/contact" }]
   },
@@ -473,6 +473,28 @@ function renderMainContent(route, catalog) {
     )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
   }
 
+  if (route.path === "/contact") {
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="contactTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="contactTitle">Contact TourTicketCompare</h1><p class="lead">Use this page to report broken links, incorrect event details, provider-link issues, or general feedback about TourTicketCompare.</p><section class="nested-panel"><h2>Where to contact us</h2><p>For quick public updates or messages, contact ${anchor(
+      "@RenaissanceWT",
+      "https://x.com/RenaissanceWT",
+      "text-link"
+    )} or ${anchor(
+      "@CowboyCarterWT",
+      "https://x.com/CowboyCarterWT",
+      "text-link"
+    )} on X. You can also email ${anchor(
+      "hello@tourticketcompare.com",
+      "mailto:hello@tourticketcompare.com",
+      "text-link"
+    )}.</p></section><section class="nested-panel"><h2>Useful reasons to get in touch</h2><ul class="check-list"><li>A ticket button is broken or opens the wrong destination.</li><li>An event date, venue, city, or artist detail appears incorrect.</li><li>A provider link works differently than expected.</li><li>You have general feedback about the site, guides, or artist pages.</li></ul></section><section class="nested-panel"><h2>What to include</h2><p>Please include the artist name, event date, venue or city, the page URL, the ticket link if relevant, and a short explanation of what looks wrong.</p></section><section class="nested-panel"><h2>What we cannot handle</h2><p>TourTicketCompare does not sell tickets and cannot help with ticket orders, refunds, transfers, delivery problems, payment issues, or provider account access. For those issues, contact the ticket provider shown at checkout.</p></section><div class="action-row">${anchor(
+      "Find an artist",
+      "/artists",
+      "button button-primary"
+    )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+  }
+
   const simplePages = {
     "/how-it-works": [
       "How TourTicketCompare works",
@@ -483,11 +505,6 @@ function renderMainContent(route, catalog) {
       "About TourTicketCompare",
       "TourTicketCompare is an independent, unofficial ticket research site made by fans for fans of major live music tours.",
       "The site helps fans find checked ticket options where available, understand buying risks, and avoid fake prices, invented dates, and dead-end listings. We do not sell tickets directly."
-    ],
-    "/contact": [
-      "Contact",
-      "Contact TourTicketCompare about source corrections, event-link issues, artist pages, partnerships, or editorial questions.",
-      "Email hello@tourticketcompare.com. Please include the artist, event date, source URL, and what needs checking when sending a correction."
     ],
     "/editorial-policy": [
       "Editorial policy",

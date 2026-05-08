@@ -266,7 +266,7 @@ const routeMeta = {
   },
   "/contact": {
     title: "Contact TourTicketCompare",
-    description: "Contact TourTicketCompare about ticket links, source corrections, partnerships, or editorial questions."
+    description: "Contact TourTicketCompare about broken ticket links, incorrect event details, provider-link issues, or general site feedback."
   },
   "/editorial-policy": {
     title: "Editorial Policy | TourTicketCompare",
@@ -1101,16 +1101,76 @@ function renderSimplePage(type) {
     return;
   }
 
+  if (type === "contact") {
+    text(section, "h1", "Contact TourTicketCompare");
+    text(
+      section,
+      "p",
+      "Use this page to report broken links, incorrect event details, provider-link issues, or general feedback about TourTicketCompare.",
+      "lead"
+    );
+
+    const contactRoutes = document.createElement("section");
+    contactRoutes.className = "nested-panel";
+    text(contactRoutes, "h2", "Where to contact us");
+    const routeCopy = document.createElement("p");
+    routeCopy.append(
+      document.createTextNode("For quick public updates or messages, contact "),
+      link("@RenaissanceWT", "https://x.com/RenaissanceWT", "text-link"),
+      document.createTextNode(" or "),
+      link("@CowboyCarterWT", "https://x.com/CowboyCarterWT", "text-link"),
+      document.createTextNode(" on X. You can also email "),
+      link("hello@tourticketcompare.com", "mailto:hello@tourticketcompare.com", "text-link"),
+      document.createTextNode(".")
+    );
+    contactRoutes.append(routeCopy);
+
+    const reasons = document.createElement("section");
+    reasons.className = "nested-panel";
+    text(reasons, "h2", "Useful reasons to get in touch");
+    reasons.append(
+      createList(
+        [
+          "A ticket button is broken or opens the wrong destination.",
+          "An event date, venue, city, or artist detail appears incorrect.",
+          "A provider link works differently than expected.",
+          "You have general feedback about the site, guides, or artist pages."
+        ],
+        "check-list"
+      )
+    );
+
+    const details = document.createElement("section");
+    details.className = "nested-panel";
+    text(details, "h2", "What to include");
+    text(
+      details,
+      "p",
+      "Please include the artist name, event date, venue or city, the page URL, the ticket link if relevant, and a short explanation of what looks wrong."
+    );
+
+    const limits = document.createElement("section");
+    limits.className = "nested-panel";
+    text(limits, "h2", "What we cannot handle");
+    text(
+      limits,
+      "p",
+      "TourTicketCompare does not sell tickets and cannot help with ticket orders, refunds, transfers, delivery problems, payment issues, or provider account access. For those issues, contact the ticket provider shown at checkout."
+    );
+
+    const actions = document.createElement("div");
+    actions.className = "action-row";
+    actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("Read buying guides", "/guides", "secondary"));
+    section.append(contactRoutes, reasons, details, limits, actions);
+    main.replaceChildren(section);
+    return;
+  }
+
   const content = {
     about: [
       "About TourTicketCompare",
       "TourTicketCompare is an independent, unofficial ticket research site made by fans for fans of major live music tours.",
       "The site helps fans find checked ticket options where available, understand buying risks, and avoid fake prices, invented dates, and dead-end listings. We do not sell tickets directly."
-    ],
-    contact: [
-      "Contact",
-      "Contact TourTicketCompare about source corrections, event-link issues, artist pages, partnerships, or editorial questions.",
-      "Email hello@tourticketcompare.com. Please include the artist, event date, source URL, and what needs checking when sending a correction."
     ],
     "editorial-policy": [
       "Editorial policy",

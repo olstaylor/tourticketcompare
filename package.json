@@ -1,12 +1,6 @@
 {
   "name": "tour-ticket-compare",
   "version": "1.0.0",
-  "description": "Fan-made stadium tour ticket resource with Cloudflare Pages preview and Worker production guidance.",
-  "scripts": {
-    "dev": "wrangler pages dev public --compatibility-date=2025-01-01 --port 3000",
-    "deploy": "node -e \"console.error('Refusing to deploy: production is Cloudflare Worker tourticketcompare-live, while this repo currently has only the Pages deploy command committed. See docs/DEPLOYMENT.md.'); process.exit(1)\"",
-    "deploy:pages": "wrangler pages deploy public",
-    "deploy:pages:safe": "npm run events:validate:prod && wrangler pages deploy public",
   "type": "module",
   "description": "Independent Cloudflare Pages stadium tour market watch MVP.",
   "scripts": {

@@ -56,6 +56,16 @@ const TRUST_ROUTES = {
   }
 };
 
+const PUBLIC_HTML_ROUTES = new Set([
+  "/artists",
+  "/guides",
+  "/how-it-works",
+  "/affiliate-disclosure",
+  "/editorial-policy",
+  "/about",
+  "/contact"
+]);
+
 const GUIDE_ROUTES = {
   "/guides/how-to-compare-concert-ticket-prices": {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
@@ -146,7 +156,7 @@ function findTour(catalog, artistSlug, tourSlug) {
 async function routeForPath(pathname, env) {
   const path = normalizePath(pathname);
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
-  if (TRUST_ROUTES[path]) return { type: "static", path, ...TRUST_ROUTES[path] };
+  if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
   if (GUIDE_ROUTES[path]) {
     return {
       type: "guide",
@@ -633,7 +643,7 @@ export async function onRequest(context) {
 
   const route = await routeForPath(pathname, env);
   if (!route && /\.[a-z0-9]+$/i.test(pathname)) return next();
-  const indexResponse = await env.ASSETS.fetch(new Request(new URL("/index.html", request.url), request));
+  const indexResponse = await env.ASSETS.fetch(new Request(new URL("/", request.url), request));
   if (!indexResponse.ok) return next();
 
   const html = await indexResponse.text();

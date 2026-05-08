@@ -67,7 +67,7 @@ async function assertPublicCopySafe(files) {
     {
       label: "price comparison claim",
       pattern: /\bprice\s+comparison\b/i,
-      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|when approved|only when)\b/i
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|when approved|only when|not fake)\b/i
     },
     {
       label: "ticket comparison claim",
@@ -170,14 +170,17 @@ for (const slug of artistSlugs) {
 
 const routesManifest = await readJson("public/_routes.json");
 assert(routesManifest.version === 1, "_routes.json should use Cloudflare Pages routes schema version 1");
-for (const pathname of ["/api/*", "/sitemap.xml", ...functionBackedStaticRoutes, ...functionBackedWildcardRoutes]) {
-  assert(routesManifest.include?.includes(pathname), `_routes.json should invoke Functions for ${pathname}`);
-}
-for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/*"]) {
-  assert(routesManifest.exclude?.includes(pathname), `_routes.json should exclude static asset route ${pathname}`);
-}
+assert(
+  JSON.stringify(routesManifest.include) === JSON.stringify(["/*"]),
+  "_routes.json should invoke Functions for all public routes"
+);
+assert(
+  JSON.stringify(routesManifest.exclude) === JSON.stringify(["/_assets/*", "/favicon.ico"]),
+  "_routes.json should only exclude immutable assets and favicon.ico"
+);
+await read("public/404.html");
 
-const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
+const catchAllModule = await import(pathToFileURL(path.join(root, "functions/[[path]].js")));
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
 const healthModule = await import(pathToFileURL(path.join(root, "functions/api/health.js")));
@@ -190,6 +193,7 @@ for (const file of publicUiFiles) {
   assetMap.set(`/${file.replace(/^public\//, "")}`, await read(file));
 }
 assetMap.set("/index.html", await read("public/index.html"));
+assetMap.set("/", await read("public/index.html"));
 
 const env = {
   MOCK_MODE: "false",
@@ -207,7 +211,7 @@ const env = {
 
 async function routeResponse(pathname) {
   let nextCalled = false;
-  const response = await middlewareModule.onRequest({
+  const response = await catchAllModule.onRequest({
     request: new Request(`https://tourticketcompare.com${pathname}`),
     env,
     next: () => {

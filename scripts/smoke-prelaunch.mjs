@@ -5,6 +5,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const artistSlugs = ["beyonce", "harry-styles", "bts", "ariana-grande", "bad-bunny", "morgan-wallen", "jay-z"];
 const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
+const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/contact"];
 const expectedH1 = new Map([
   ["/", "2026/27 stadium tour market watch"],
   ["/artists", "Artist watchlist"],
@@ -14,6 +15,14 @@ const expectedH1 = new Map([
   ["/contact", "Contact"],
   ["/editorial-policy", "Editorial policy"],
   ["/affiliate-disclosure", "Affiliate disclosure"]
+]);
+const routeMarkers = new Map([
+  ["/artists", "verified event-specific destination"],
+  ["/guides", "The guides do not claim live price comparison"],
+  ["/how-it-works", "server-side affiliate routing through /api/out"],
+  ["/editorial-policy", "official artist sources"],
+  ["/affiliate-disclosure", "Affiliate relationships do not control provider prices"],
+  ["/contact", "hello@tourticketcompare.com"]
 ]);
 
 function assert(condition, message) {
@@ -98,6 +107,15 @@ for (const slug of artistSlugs) {
   assert(catalog.artists.some((artist) => artist.slug === slug), `catalog missing artist ${slug}`);
 }
 
+const routesManifest = await readJson("public/_routes.json");
+assert(routesManifest.version === 1, "_routes.json should use Cloudflare Pages routes schema version 1");
+for (const pathname of ["/api/*", "/sitemap.xml", ...functionBackedStaticRoutes]) {
+  assert(routesManifest.include?.includes(pathname), `_routes.json should invoke Functions for ${pathname}`);
+}
+for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/*"]) {
+  assert(routesManifest.exclude?.includes(pathname), `_routes.json should exclude static asset route ${pathname}`);
+}
+
 const routeModule = await import(pathToFileURL(path.join(root, "functions/[[path]].js")));
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
@@ -147,6 +165,10 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   const h1 = extractH1(text);
   const expected = expectedH1.get(pathname) || `${catalog.artists.find((artist) => `/artists/${artist.slug}` === pathname)?.name} stadium tour watch`;
   assert(h1 === expected, `${pathname} should render route-specific H1 "${expected}", got "${h1}"`);
+  if (functionBackedStaticRoutes.includes(pathname)) {
+    assert(h1 !== expectedH1.get("/"), `${pathname} should not return the homepage H1 in raw HTML`);
+    assert(text.includes(routeMarkers.get(pathname)), `${pathname} should include route-specific raw HTML content`);
+  }
 }
 
 const unknownArtist = await routeResponse("/artists/not-a-real-artist");

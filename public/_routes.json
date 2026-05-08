@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "include": [
+    "/api/*",
+    "/sitemap.xml",
+    "/artists",
+    "/guides",
+    "/how-it-works",
+    "/editorial-policy",
+    "/affiliate-disclosure",
+    "/contact"
+  ],
+  "exclude": [
+    "/app.js",
+    "/styles.css",
+    "/favicon.svg",
+    "/robots.txt",
+    "/data/*"
+  ]
+}

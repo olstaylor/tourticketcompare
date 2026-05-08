@@ -177,7 +177,7 @@ for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt",
   assert(routesManifest.exclude?.includes(pathname), `_routes.json should exclude static asset route ${pathname}`);
 }
 
-const routeModule = await import(pathToFileURL(path.join(root, "functions/[[path]].js")));
+const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
 const healthModule = await import(pathToFileURL(path.join(root, "functions/api/health.js")));
@@ -207,7 +207,7 @@ const env = {
 
 async function routeResponse(pathname) {
   let nextCalled = false;
-  const response = await routeModule.onRequest({
+  const response = await middlewareModule.onRequest({
     request: new Request(`https://tourticketcompare.com${pathname}`),
     env,
     next: () => {
@@ -216,6 +216,12 @@ async function routeResponse(pathname) {
     }
   });
   return { response, text: await response.text(), nextCalled };
+}
+
+for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/events.json", "/api/health"]) {
+  const { response, nextCalled } = await routeResponse(pathname);
+  assert(nextCalled === true, `${pathname} should pass through middleware unchanged`);
+  assert(response.status === 404, `${pathname} smoke middleware next sentinel should return 404`);
 }
 
 for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/${slug}`))) {

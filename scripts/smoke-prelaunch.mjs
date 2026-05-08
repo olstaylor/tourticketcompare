@@ -45,6 +45,55 @@ function assertAbsent(haystack, terms, label) {
   assert(found.length === 0, `${label} contains blocked term(s): ${found.join(", ")}`);
 }
 
+async function assertPublicCopySafe(files) {
+  const rules = [
+    { label: "cheapest claim", pattern: /\bcheapest\b/i },
+    { label: "best price claim", pattern: /\bbest\s+price\b/i },
+    { label: "best deal claim", pattern: /\bbest\s+deal\b/i },
+    { label: "lowest price claim", pattern: /\blowest\s+price\b/i },
+    { label: "guaranteed claim", pattern: /\bguaranteed\b/i },
+    { label: "available now claim", pattern: /\bavailable\s+now\b/i },
+    {
+      label: "live prices claim",
+      pattern: /\blive\s+prices\b/i,
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built)\b/i
+    },
+    { label: "from-price claim", pattern: /\bfrom\s*[£$€]\s*\d/i },
+    {
+      label: "live price comparison claim",
+      pattern: /\blive\s+price\s+comparison\b/i,
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built)\b/i
+    },
+    {
+      label: "price comparison claim",
+      pattern: /\bprice\s+comparison\b/i,
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|when approved|only when)\b/i
+    },
+    {
+      label: "ticket comparison claim",
+      pattern: /\bticket\s+comparison\b/i,
+      allowedContext: /\b(not|must not|should not|does not|unless|until|without pretending)\b/i
+    }
+  ];
+  const violations = [];
+
+  for (const file of files) {
+    const lines = (await read(file)).split(/\r?\n/);
+    lines.forEach((line, index) => {
+      for (const rule of rules) {
+        if (!rule.pattern.test(line)) continue;
+        if (rule.allowedContext?.test(line)) continue;
+        violations.push(`${file}:${index + 1} ${rule.label}: ${line.trim()}`);
+      }
+    });
+  }
+
+  assert(
+    violations.length === 0,
+    `public-facing copy contains unsupported risky wording:\n${violations.join("\n")}`
+  );
+}
+
 function extractH1(html) {
   const match = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
   return match ? match[1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim() : "";
@@ -78,12 +127,19 @@ const publicUiFiles = [
   "public/data/inventory-model.json",
   "public/data/catalog.json"
 ];
+const publicCopyFiles = [
+  "public/index.html",
+  "public/app.js",
+  "functions/[[path]].js",
+  "public/data/catalog.json"
+];
 
 const joinedPublic = (await Promise.all(publicUiFiles.map((file) => read(file)))).join("\n");
 assert(
   joinedPublic.includes("Find verified ticket options for major tours"),
   "homepage public-facing copy should be present"
 );
+await assertPublicCopySafe(publicCopyFiles);
 assertAbsent(
   joinedPublic,
   [

@@ -1,23 +1,5 @@
 {
   "version": 1,
-  "include": [
-    "/artists",
-    "/artists/*",
-    "/guides",
-    "/guides/*",
-    "/how-it-works",
-    "/editorial-policy",
-    "/affiliate-disclosure",
-    "/about",
-    "/contact",
-    "/api/*",
-    "/sitemap.xml"
-  ],
-  "exclude": [
-    "/app.js",
-    "/styles.css",
-    "/favicon.svg",
-    "/robots.txt",
-    "/data/*"
-  ]
+  "include": ["/*"],
+  "exclude": ["/_assets/*", "/favicon.ico"]
 }

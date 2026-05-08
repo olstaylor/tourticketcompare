@@ -1,17 +1,31 @@
 # TourTicketCompare
 
-TourTicketCompare is an independent, unofficial 2026/27 stadium tour market watch. The MVP is a static Cloudflare Pages site with Pages Functions APIs. It should publish artist watch pages, verified show cards when real data exists, and safe provider links only when destinations are configured.
+TourTicketCompare is an independent, unofficial ticket research site for fans of major live music tours. It helps users find checked ticket links where available, understand buying risks, and read practical guidance before leaving for an external ticket provider.
 
-The product must not invent tour dates, venues, prices, ticket availability, provider coverage, or "deal" claims. It must not be marketed as a live multi-provider comparison product until verified multi-provider data exists.
+The site is live at `https://tourticketcompare.com` and `https://www.tourticketcompare.com`.
+
+TourTicketCompare should feel useful today without pretending to provide live multi-provider price comparison. Ticket links should only appear when the artist, event, and destination can be verified. Final prices, fees, availability, delivery terms, and checkout terms are confirmed by the ticket provider.
+
+## Project Source Of Truth
+
+Before making changes, read:
+
+- `PROJECT_BRIEF.md` — product positioning, safety rules, affiliate/provider constraints, and success criteria.
+- `PROJECT_STATUS.md` — current state, known issues, test commands, and next tasks.
+- `BACKLOG.md` — prioritised work, guardrails, and parking-lot items.
+
+GitHub `main` is the source of truth. Codex should be used for small, scoped implementation tasks, not as the only project memory.
 
 ## Current Product Scope
 
-- Homepage: finished "2026/27 stadium tour market watch" landing page.
+- Homepage: fan-facing ticket research landing page.
 - Artist pages: known artist slugs only.
-- Show cards: render from `public/data/events.json` or `/api/shows` when real future event data exists.
-- Ticket CTAs: appear only for verified configured destinations routed through server-side functions.
-- Impact API checks: server-side only and safe when credentials or scopes are missing.
-- No scraping, fake prices, invented events, placeholder links, or disabled dead-end CTAs.
+- Show cards: render only from reviewed data or approved official sources.
+- Ticket CTAs: appear only for checked destinations routed through server-side functions.
+- Guides: practical buying guidance around fees, resale risk, final totals, timing, and official vs resale tickets.
+- Affiliate links: may be used, but affiliate relationships must not weaken verification standards.
+
+The product must not invent tour dates, venues, prices, ticket availability, provider coverage, or deal/savings claims. It must not be marketed as a live multi-provider price comparison product until verified multi-provider data exists and display rights are clear.
 
 ## Tech Stack
 
@@ -21,7 +35,7 @@ The product must not invent tour dates, venues, prices, ticket availability, pro
 - Static data: JSON files in `public/data/`.
 - Optional storage: Cloudflare D1 bindings for rate limits, clicks, analytics, or demand capture if those APIs are enabled.
 
-Cloudflare Pages is the deployment path for this MVP.
+Cloudflare Pages is the deployment path for this project.
 
 ## Canonical Routes
 
@@ -44,7 +58,7 @@ Cloudflare Pages is the deployment path for this MVP.
 - `/api/impact/products`
 - `/api/impact/tracking-links`
 
-Known artist slugs only should resolve as artist pages. Unknown artist routes should return a useful 404.
+Known artist slugs only should resolve as artist pages. Unknown artist routes should return a useful 404 or an honest empty state, not a thin generated page.
 
 ## Data Rules
 
@@ -54,19 +68,29 @@ Event records must not be fabricated. If there are no verified future events, th
 
 Provider URLs must be rejected or hidden if they contain placeholder/example values such as `example.com`, `localhost`, `placeholder`, `your-link-here`, or `replace-me`.
 
+## Provider And Pricing Model
+
+- Ticketmaster should be treated as an official event verification and official event-link source, not as a reliable public price source for this project.
+- Marketplace partners such as SeatGeek, Vivid Seats, TicketNetwork, StubHub International, or others may become provider-specific price sources only if approved feeds/APIs explicitly supply displayable pricing and usage rights.
+- Impact affiliate approval does not automatically mean the site can ingest or publicly display price data.
+
+Safe model:
+
+> Verified ticket links first. Provider-specific price information only where approved providers supply it. Final prices, fees, availability, delivery terms, and checkout terms are confirmed by the provider.
+
 ## API Rules
 
 ### `/api/shows`
 
-- Returns show metadata from static data and, when configured, official Ticketmaster Discovery results.
+- Returns show metadata from reviewed static data and, when configured, approved official sources.
 - List queries must not fan out to provider pricing APIs.
-- `includePrices=true` is allowed only with `showId`.
+- `includePrices=true` is allowed only with `showId` and only where the underlying provider data is approved for display.
 - Mock prices are disabled in production.
 - Missing API credentials must return safe metadata or an empty state, not fake data.
 
 ### `/api/out`
 
-- Server-side outbound route for verified provider links.
+- Server-side outbound route for checked provider links.
 - Rejects unknown artists, unknown providers, malformed URLs, placeholder URLs, localhost, and arbitrary open redirects.
 - Never exposes Impact credentials or API keys.
 - Click tracking is best-effort and must not block a safe redirect.
@@ -92,7 +116,7 @@ Run Cloudflare Pages locally:
 npm run dev
 ```
 
-Run MVP checks:
+Run project checks:
 
 ```bash
 npm run test:mvp
@@ -106,6 +130,29 @@ npm run events:validate
 npm run events:partition
 ```
 
+## Standard Manual Checks
+
+For most scoped changes, run the relevant subset:
+
+```bash
+node --check public/app.js
+node --check 'functions/[[path]].js'
+python3 scripts/validate-events.py --for-production
+node scripts/smoke-prelaunch.mjs
+git diff --check
+```
+
+When route shims are touched, also check:
+
+```bash
+node --check functions/artists.js
+node --check functions/guides.js
+node --check functions/how-it-works.js
+node --check functions/editorial-policy.js
+node --check functions/affiliate-disclosure.js
+node --check functions/contact.js
+```
+
 ## Cloudflare Pages Deployment
 
 Use these settings in Cloudflare Pages:
@@ -113,7 +160,7 @@ Use these settings in Cloudflare Pages:
 - Production runtime: Cloudflare Pages
 - Root directory: repository root
 - Framework preset: None
-- Build command: leave blank, or run `npm run test:mvp` before manual deploy
+- Build command: leave blank, or run checks before manual deploy
 - Build output directory: `public`
 - Functions directory: `functions`
 - Compatibility date: `2025-01-01`
@@ -168,16 +215,34 @@ Impact API scopes:
 - Products: `GET /Mediapartners/<AccountSID>/Marketplace/Products`
 - Tracking Links: `POST /Mediapartners/<AccountSID>/Programs/<ProgramId>/TrackingLinks`
 
-## Safety Checklist
+## Safety Checklist Before Deployment
 
 Before deployment, confirm:
 
-- Homepage says "2026/27 stadium tour market watch."
+- Homepage clearly explains checked ticket links and buying guidance.
+- Live price comparison is not claimed unless verified provider data exists.
 - Known artist routes load.
-- Unknown artist routes return 404.
-- `/api/shows` returns JSON.
+- Unknown artist routes do not become thin generated pages.
+- `/api/shows` returns safe JSON.
+- `/api/out` preserves checked event/provider redirect behaviour.
 - No mock prices are visible.
-- No fake events, venues, dates, or availability are visible.
+- No fake events, venues, dates, prices, or availability are visible.
 - No placeholder/example affiliate links are shown as real CTAs.
 - Impact credentials are not exposed in public assets or `/api/health`.
-- README describes Cloudflare Pages only as the MVP deployment path.
+- Public pages contain no internal/dev wording.
+
+## Current Parked Issue
+
+The non-root raw HTML routing/canonical issue is parked unless explicitly prioritised. Some non-root routes have previously served homepage H1/title/canonical in raw HTML before client-side rendering. This should be fixed before serious SEO scaling or indexing work, but should not be mixed into copy, content, or artist-data tasks.
+
+## Codex Workflow
+
+Every Codex task should start with:
+
+```text
+Read PROJECT_BRIEF.md and PROJECT_STATUS.md first.
+Work only on the specific task below.
+Do not scan the whole repo unless required.
+```
+
+Use one small task at a time. List exact files to inspect/edit. Preserve affiliate routing and verified data unless explicitly working in that area. Stop after summarising changes. Commit after each clean improvement.

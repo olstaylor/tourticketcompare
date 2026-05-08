@@ -8,7 +8,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/c
 const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Verified ticket links and buying guidance for major tours"],
+  ["/", "Find verified ticket options for major tours"],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -18,12 +18,12 @@ const expectedH1 = new Map([
   ["/affiliate-disclosure", "Affiliate disclosure"]
 ]);
 const routeMarkers = new Map([
-  ["/artists", "Ticket buttons appear only when a destination has been checked"],
-  ["/guides", "The guides do not claim live price comparison"],
+  ["/artists", "Ticket buttons appear only when the destination has been checked"],
+  ["/guides", "Live price comparison is coming later"],
   ["/how-it-works", "affiliate links are handled safely"],
-  ["/editorial-policy", "official artist, ticketing, and affiliate sources"],
-  ["/affiliate-disclosure", "Affiliate relationships do not control provider prices"],
-  ["/about", "does not publish invented dates"],
+  ["/editorial-policy", "official artist, ticketing, and approved affiliate sources"],
+  ["/affiliate-disclosure", "Affiliate relationships do not control which links we show"],
+  ["/about", "avoid fake prices"],
   ["/contact", "hello@tourticketcompare.com"]
 ]);
 
@@ -81,7 +81,7 @@ const publicUiFiles = [
 
 const joinedPublic = (await Promise.all(publicUiFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Verified ticket links and buying guidance for major tours"),
+  joinedPublic.includes("Find verified ticket options for major tours"),
   "homepage public-facing copy should be present"
 );
 assertAbsent(
@@ -202,7 +202,7 @@ const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
 assert(appJs.includes("/api/out?"), "artist show cards should route event CTAs through /api/out");
 assert(appJs.includes("showId"), "artist show card CTAs should include showId");
-assert(appJs.includes("No verified ticket link is available for this specific date yet."), "event cards should have a safe unavailable state");
+assert(appJs.includes("No checked ticket link is available for this specific date yet."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
 const bulkPriceResponse = await showsModule.onRequestGet({

@@ -242,7 +242,7 @@ const routeMeta = {
   "/": {
     title: "Find Verified Ticket Options for Major Tours | TourTicketCompare",
     description:
-      "Find verified ticket options for major tours, learn why prices vary, and use checked links only when ticket destinations are verified."
+      "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -527,7 +527,7 @@ function renderHome() {
   text(
     copy,
     "p",
-    "Tour Ticket Compare is made by fans for fans to check ticket links, understand price differences, and make a better-informed choice before buying. Live price comparison across ticketing platforms is coming soon, and we only show ticket links when the show and ticketing site can be verified.",
+    "TourTicketCompare helps fans find checked ticket links, understand what affects the final price, and avoid dead-end listings. We only show ticket buttons when the show and destination can be verified; final prices, fees, availability, and checkout terms are confirmed by the ticket provider.",
     "hero-subcopy"
   );
   const actions = document.createElement("div");
@@ -540,7 +540,7 @@ function renderHome() {
   [
     "Independent and unofficial",
     "Checked ticket links",
-    "No fake prices or invented dates",
+    "No invented dates or fake prices",
     "Prices and fees confirmed at checkout"
   ].forEach((item) => text(trust, "p", item));
   hero.append(copy, trust);
@@ -551,14 +551,14 @@ function renderHome() {
   const todayHeader = document.createElement("div");
   todayHeader.className = "section-intro";
   text(todayHeader, "h2", "What you can do here").id = "todayTitle";
-  text(todayHeader, "p", "Use TourTicketCompare to research the show, the ticket link, and the buying terms before you leave for checkout.");
+  text(todayHeader, "p", "Start with the artist, check whether verified event links are available, then use the guides to make a better buying decision before checkout.");
   const todayGrid = document.createElement("div");
   todayGrid.className = "card-grid";
   todayGrid.append(
-    renderInfoCard("Find major artists", "Start with artist pages for major tours and live music demand, then follow checked links when available."),
-    renderInfoCard("Check verified event links", "When we can verify a specific show and ticket destination, the event card links to that exact ticket page."),
-    renderInfoCard("Learn why prices vary", "Use the guides to understand fees, resale differences, seat location, delivery timing, and final checkout totals."),
-    renderInfoCard("Avoid misleading listings", "We do not publish invented dates, fake prices, dead-end listings, or ticket buttons we cannot verify.")
+    renderInfoCard("Find major artists", "Browse artist pages for major live music tours and see whether checked ticket links are available."),
+    renderInfoCard("Check event-specific links", "When a show link is verified, the event card points to the ticket page for that exact date."),
+    renderInfoCard("Understand the final total", "Use the guides to check fees, seat details, delivery timing, resale terms, and checkout totals."),
+    renderInfoCard("Avoid dead-end listings", "We do not publish invented dates, fake prices, or ticket buttons we cannot verify.")
   );
   today.append(todayHeader, todayGrid);
 
@@ -568,13 +568,13 @@ function renderHome() {
   const worksHeader = document.createElement("div");
   worksHeader.className = "section-intro";
   text(worksHeader, "h2", "How TourTicketCompare works").id = "worksTitle";
-  text(worksHeader, "p", "The goal is simple: help fans get to real ticket options without pretending to have data we have not checked.");
+  text(worksHeader, "p", "The goal is simple: get fans from research to checked ticket destinations without pretending to have data we have not verified.");
   const worksGrid = document.createElement("div");
   worksGrid.className = "card-grid";
   worksGrid.append(
-    renderInfoCard("We check official and approved sources", "Artist and event pages are based on sources we can review, not scraped listings or rumours."),
-    renderInfoCard("We separate event links from artist links", "A show card should link to the specific event page. Artist pages are for guidance when no event link is verified."),
-    renderInfoCard("We hide unverified ticket buttons", "If we cannot verify the destination, we do not show a ticket button just to fill the page.")
+    renderInfoCard("Sources are checked first", "Artist and event pages are based on sources we can review, not scraped listings or rumours."),
+    renderInfoCard("Event links stay specific", "A show card should link to the specific event page, not a generic artist page."),
+    renderInfoCard("Unchecked buttons stay hidden", "If we cannot verify the destination, we do not show a ticket button just to make a page look fuller.")
   );
   works.append(worksHeader, worksGrid);
 
@@ -584,7 +584,7 @@ function renderHome() {
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Featured artists").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Choose an artist to see checked ticket options when available, plus guidance for avoiding risky listings.");
+  text(artistHeader, "p", "Choose an artist to review checked ticket links when available, plus practical guidance for avoiding risky listings.");
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => {
@@ -595,7 +595,7 @@ function renderHome() {
   const board = renderShowBoardShell(
     "homeShowBoard",
     "Recently checked events",
-    "When verified event links are available, they appear here with the artist page so you can review the details before leaving for checkout."
+    "When event-specific links are verified, they appear here so you can review the date, venue, and ticket destination before leaving for checkout."
   );
 
   const disclosure = document.createElement("section");
@@ -605,7 +605,7 @@ function renderHome() {
   text(
     disclosure,
     "p",
-    "Some ticket links may be affiliate links, which means we may earn a commission at no extra cost to you. That does not change our link-checking rules, and ticket providers control final prices, fees, availability, delivery, and checkout terms."
+    "Some ticket links may be affiliate links, which means we may earn a commission at no extra cost to you. That does not change which links we show: ticket destinations still need to be checked, and providers control final prices, fees, availability, delivery, and checkout terms."
   );
   disclosure.append(buttonLink("Read affiliate disclosure", "/affiliate-disclosure", "secondary"));
 
@@ -619,16 +619,16 @@ function renderArtistCard(artist) {
   text(article, "h3", artist.name);
   text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
   const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
-  text(article, "p", activeProviders.length ? "Verified event links found" : "Artist guide available", "status-badge");
+  text(article, "p", activeProviders.length ? "Checked ticket path" : "Artist guide available", "status-badge");
   text(
     article,
     "p",
     activeProviders.length
-      ? "Checked ticket links appear on the artist page when we can verify the destination."
-      : "Price comparison is coming soon. For now, use the guide to understand what to check before buying.",
+      ? "Open the artist page to see checked event links when they are available."
+      : "Use the guide to understand what to check before buying.",
     "card-status"
   );
-  article.append(buttonLink(activeProviders.length ? "View verified events" : "View artist", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
+  article.append(buttonLink("View artist", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
   return article;
 }
 

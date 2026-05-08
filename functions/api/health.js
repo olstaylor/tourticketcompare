@@ -17,6 +17,7 @@ export async function onRequestGet({ env }) {
     ok: true,
     service: "tourticketcompare",
     runtime: "cloudflare-pages-functions-preview",
+    runtime: "cloudflare-pages-functions",
     status: "ok",
     timestamp: new Date().toISOString(),
     config: {
@@ -31,6 +32,11 @@ export async function onRequestGet({ env }) {
       ticketmasterApiKey: hasBinding(env, "TICKETMASTER_API_KEY"),
       impactAccountSid: hasBinding(env, "IMPACT_ACCOUNT_SID"),
       impactAuthToken: hasBinding(env, "IMPACT_AUTH_TOKEN")
+      demandDb: hasBinding(env, "DEMAND_DB"),
+      impactAccountSid: hasBinding(env, "IMPACT_ACCOUNT_SID"),
+      impactAuthToken: hasBinding(env, "IMPACT_AUTH_TOKEN"),
+      impactDefaultProgramId: hasBinding(env, "IMPACT_DEFAULT_PROGRAM_ID"),
+      impactTicketmasterProgramId: hasBinding(env, "IMPACT_TICKETMASTER_PROGRAM_ID")
     }
   });
 }

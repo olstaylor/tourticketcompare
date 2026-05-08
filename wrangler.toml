@@ -12,12 +12,17 @@ CLICK_TRACKING_ENABLED = "true"
 TICKETMASTER_DISCOVERY_ENABLED = "true"
 TICKETMASTER_EVENTS_TTL_MINUTES = "30"
 TICKETMASTER_ARTIST_EVENTS_LIMIT = "100"
-TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED = "true"
+TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED = "false"
 TICKETMASTER_DISCOVERY_COUNTRY = ""
 
 # Optional D1 bindings for CLI-based deploys and local Pages dev.
 # Configure these in the Cloudflare dashboard for Git-connected Pages deploys.
 #
+[[d1_databases]]
+binding = "DEMAND_DB"
+database_name = "tourticketcompare-demand"
+database_id = "19b314b8-10f1-4504-a3bc-963f7ecbe9f6"
+
 # [[d1_databases]]
 # binding = "RATE_LIMIT_DB"
 # database_name = "tourticketcompare-rate-limit"

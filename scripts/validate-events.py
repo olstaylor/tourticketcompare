@@ -19,8 +19,10 @@ PLACEHOLDER_MARKERS = (
     "your-link-here",
     "replace-me",
     "placeholder",
-    "tbd",
 )
+PLACEHOLDER_PATTERNS = tuple(re.compile(pattern, re.IGNORECASE) for pattern in (
+    r"(?:^|[/?#=&._-])tbd(?:$|[/?#=&._-])",
+))
 
 
 def parse_iso(dt: str) -> bool:
@@ -49,7 +51,9 @@ def is_placeholder_url(value: Any) -> bool:
     v = value.strip().lower()
     if v == "":
         return False
-    return any(marker in v for marker in PLACEHOLDER_MARKERS)
+    return any(marker in v for marker in PLACEHOLDER_MARKERS) or any(
+        pattern.search(v) for pattern in PLACEHOLDER_PATTERNS
+    )
 
 
 def main() -> int:
@@ -78,12 +82,11 @@ def main() -> int:
     parser.add_argument(
         "--for-production",
         action="store_true",
-        help="Enable strict launch checks: min-events>=1, require affiliate URLs, reject placeholders.",
+        help="Enable strict launch checks: min-events>=1 and reject placeholders. Missing URLs are allowed and render unavailable.",
     )
     args = parser.parse_args()
 
     if args.for_production:
-        args.require_affiliate_urls = True
         args.reject_placeholder_urls = True
         if args.min_events < 1:
             args.min_events = 1

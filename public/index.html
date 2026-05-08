@@ -3,234 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tour Ticket Compare | Independent Stadium Tour Ticket Comparison</title>
+    <title>Find Verified Ticket Options for Major Tours | TourTicketCompare</title>
     <meta
       name="description"
-      content="Tour Ticket Compare is an independent, fan-made site preparing ticket comparison pages for major stadium tours. Live event listings and provider links will be added after official tour announcements."
+      content="Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site."
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
-    <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <meta name="theme-color" content="#0f172a" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" content="#0f1412" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Tour Ticket Compare" />
-    <meta property="og:title" content="Tour Ticket Compare | Independent Stadium Tour Ticket Comparison" />
+    <meta property="og:site_name" content="TourTicketCompare" />
+    <meta property="og:title" content="Find Verified Ticket Options for Major Tours | TourTicketCompare" />
     <meta
       property="og:description"
-      content="Independent, fan-made ticket comparison pages for major stadium tours. Live listings will be published after official announcements."
+      content="Independent ticket research for major tours with checked links, buying guides, and no fake prices or invented dates."
     />
-    <meta property="og:url" content="/" />
+    <meta property="og:url" content="https://tourticketcompare.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Tour Ticket Compare | Independent Stadium Tour Ticket Comparison" />
+    <meta name="twitter:title" content="Find Verified Ticket Options for Major Tours | TourTicketCompare" />
     <meta
       name="twitter:description"
-      content="Independent, fan-made ticket comparison pages for major stadium tours. Live listings will be published after official announcements."
+      content="Find artist pages, checked ticket links where available, and practical buying guidance."
     />
-    <link rel="canonical" href="/" />
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="canonical" href="https://tourticketcompare.com/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#mainContent">Skip to content</a>
+
     <div class="page-shell">
-      <header class="hero">
-        <div class="eyebrow">Independent fan-made project</div>
-        <p class="status-pill">Prelaunch mode: live event listings are not published yet</p>
-        <h1>Ticket comparison pages for major stadium tours, built to go live when tours are officially announced.</h1>
-        <p class="hero-copy">
-          Tour Ticket Compare is being prepared as a simple, trustworthy place to check ticket options across major providers
-          without implying official affiliation. Until tour dates are announced, this site stays intentionally lightweight.
-        </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#launch-plan">How the launch will work</a>
-          <a class="button button-secondary" href="#coverage">Planned coverage</a>
-        </div>
-        <div class="hero-note">
-          No fake prices. No placeholder checkout links. Live listings will only appear once dates and verified provider URLs are ready.
-        </div>
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="TourTicketCompare home">
+          <span class="brand-mark" aria-hidden="true">ttc</span>
+          <span>TourTicketCompare</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" data-nav-toggle>Menu</button>
+        <nav class="site-nav" aria-label="Primary navigation" data-nav-links>
+          <a href="/artists">Artists</a>
+          <a href="/guides">Guides</a>
+          <a href="/how-it-works">How it works</a>
+          <a href="/editorial-policy">Editorial policy</a>
+          <a class="nav-cta" href="/affiliate-disclosure">Affiliate disclosure</a>
+        </nav>
       </header>
 
-      <main>
-        <section class="section grid-section" aria-labelledby="principlesTitle">
-          <div class="section-heading">
-            <p class="section-label">Principles</p>
-            <h2 id="principlesTitle">What this launch page does now</h2>
-          </div>
-          <div class="card-grid">
-            <article class="card">
-              <h3>Stay accurate</h3>
-              <p>
-                The public site does not show speculative event data, synthetic prices, or generic purchase links. That keeps the
-                project commercially safer and much easier to trust.
-              </p>
-            </article>
-            <article class="card">
-              <h3>Be ready for announcement day</h3>
-              <p>
-                The backend and data structure can still be populated later with official events, verified affiliate links, and live
-                provider data once tours are publicly on sale.
-              </p>
-            </article>
-            <article class="card">
-              <h3>Launch simply</h3>
-              <p>
-                This version is designed to be easy to publish on Cloudflare Pages this week, without pretending the comparison engine
-                is live before the underlying data is ready.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section" id="coverage" aria-labelledby="coverageTitle">
-          <div class="section-heading">
-            <p class="section-label">Planned coverage</p>
-            <h2 id="coverageTitle">Initial artist focus</h2>
-            <p>
-              The first live artist pages are intended for major stadium-tour artists where official dates and verified provider links
-              are available.
+      <main id="mainContent">
+        <section class="hero-panel" aria-labelledby="heroTitle">
+          <div class="hero-copy-block">
+            <h1 class="hero-title" id="heroTitle">Find verified ticket options for major tours</h1>
+            <p class="hero-subcopy">
+              TourTicketCompare helps fans find checked ticket links, understand what affects the final price, and avoid
+              dead-end listings. We only show ticket buttons when the show and destination can be verified; final prices,
+              fees, availability, and checkout terms are confirmed by the ticket provider.
             </p>
+            <div class="action-row">
+              <a class="button button-primary" href="/artists">Find an artist</a>
+              <a class="button button-secondary" href="/guides">Read buying guides</a>
+            </div>
           </div>
-          <div class="coverage-list" role="list">
-            <div class="coverage-item" role="listitem">Bruno Mars</div>
-            <div class="coverage-item" role="listitem">BTS</div>
-            <div class="coverage-item" role="listitem">Guns N' Roses</div>
-            <div class="coverage-item" role="listitem">Luke Combs</div>
-            <div class="coverage-item" role="listitem">Harry Styles</div>
-          </div>
-          <p class="coverage-footnote">
-            Artist pages and city pages will only go live when there is real announced inventory to link to.
-          </p>
-        </section>
-
-        <section class="section timeline-section" id="launch-plan" aria-labelledby="launchPlanTitle">
-          <div class="section-heading">
-            <p class="section-label">Launch plan</p>
-            <h2 id="launchPlanTitle">What happens next</h2>
-          </div>
-          <div class="timeline">
-            <article class="timeline-step">
-              <span class="timeline-number">1</span>
-              <div>
-                <h3>Publish the brand site</h3>
-                <p>
-                  Launch the homepage, keep the positioning clearly unofficial, and establish the domain and social identity before
-                  any event pages are indexed.
-                </p>
-              </div>
-            </article>
-            <article class="timeline-step">
-              <span class="timeline-number">2</span>
-              <div>
-                <h3>Add official events after announcement</h3>
-                <p>
-                  Once a tour is publicly announced, add verified event data and provider URLs. Only then should artist pages and city
-                  listings become live.
-                </p>
-              </div>
-            </article>
-            <article class="timeline-step">
-              <span class="timeline-number">3</span>
-              <div>
-                <h3>Enable comparison pages carefully</h3>
-                <p>
-                  Introduce provider comparisons only where the data is real, current, and commercially valid. If live pricing is not
-                  available, the site should say so explicitly.
-                </p>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="section faq-section" aria-labelledby="faqTitle">
-          <div class="section-heading">
-            <p class="section-label">FAQ</p>
-            <h2 id="faqTitle">Common questions</h2>
-          </div>
-          <div class="faq-list">
-            <article class="faq-item">
-              <h3>Is this an official tour website?</h3>
-              <p>No. Tour Ticket Compare is an independent, fan-made project and is not affiliated with any artist, promoter, or ticketing platform.</p>
-            </article>
-            <article class="faq-item">
-              <h3>Why are there no live ticket listings yet?</h3>
-              <p>Because it is better to show nothing than to show placeholder information. Listings will be added only after official tour announcements and verified links are available.</p>
-            </article>
-            <article class="faq-item">
-              <h3>Will this compare Ticketmaster, SeatGeek, and Vivid Seats?</h3>
-              <p>Yes, where legitimate provider data and URLs are available. Until then, the site remains in prelaunch mode.</p>
-            </article>
-            <article class="faq-item">
-              <h3>Will prices always match checkout?</h3>
-              <p>No. Prices and availability can change quickly. Any future live pages will need clear disclaimers and direct links to provider checkout.</p>
-            </article>
-          </div>
+          <aside class="trust-ledger" aria-label="Publishing rules">
+            <h2>Why fans can trust it</h2>
+            <p>Independent and unofficial</p>
+            <p>Checked ticket links</p>
+            <p>No invented dates or fake prices</p>
+            <p>Prices and fees confirmed at checkout</p>
+          </aside>
         </section>
       </main>
 
-      <footer class="site-footer">
+      <footer class="site-footer" id="disclosure">
+        <nav aria-label="Footer navigation">
+          <a href="/artists">Artists</a>
+          <a href="/guides">Guides</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+          <a href="/editorial-policy">Editorial policy</a>
+          <a href="/affiliate-disclosure">Affiliate disclosure</a>
+        </nav>
         <p>
-          Tour Ticket Compare is an independent, unofficial project for stadium-tour ticket discovery and comparison.
+          TourTicketCompare is an independent, unofficial site and is not affiliated with any artist, venue, promoter, or
+          ticketing platform.
         </p>
         <p>
-          Live event pages will only be published when official announcements and verified ticket links are available.
+          Some outbound links may be affiliate links, which means we may earn a commission if you click through and buy tickets.
+          This does not affect the price you pay.
         </p>
-        <p class="footer-meta">Copyright <span id="currentYear"></span> Tour Ticket Compare</p>
+        <p>External ticketing sites set their own prices, fees, availability, and checkout terms.</p>
+        <p class="footer-meta">Copyright <span id="currentYear"></span> TourTicketCompare</p>
       </footer>
     </div>
 
-    <script id="structuredDataWebsite" type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Tour Ticket Compare",
-  "description": "Independent, fan-made stadium tour ticket comparison site.",
-  "inLanguage": "en",
-  "url": "/"
-}
-    </script>
-
-    <script id="structuredDataWebPage" type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Tour Ticket Compare | Independent Stadium Tour Ticket Comparison",
-  "description": "Independent, fan-made ticket comparison pages for major stadium tours. Live event listings will be published after official announcements.",
-  "inLanguage": "en",
-  "url": "/"
-}
-    </script>
-
-    <script id="structuredDataFaq" type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "Is this an official tour website?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Tour Ticket Compare is an independent, fan-made project and is not affiliated with any artist, promoter, or ticketing platform."
-      }
+      "@type": "Organization",
+      "name": "TourTicketCompare",
+      "url": "https://tourticketcompare.com/"
     },
     {
-      "@type": "Question",
-      "name": "Why are there no live ticket listings yet?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Listings will be added only after official tour announcements and verified links are available."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will this compare Ticketmaster, SeatGeek, and Vivid Seats?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, where legitimate provider data and URLs are available. Until then, the site remains in prelaunch mode."
-      }
+      "@type": "WebSite",
+      "name": "TourTicketCompare",
+      "description": "Fan-made ticket research for major tours with checked links, buying guides, and no fake prices or invented dates.",
+      "inLanguage": "en",
+      "url": "https://tourticketcompare.com/"
     }
   ]
 }
     </script>
-
-    <script src="./app.js"></script>
+    <script src="/app.js" defer></script>
+    <!-- Impact may transform eligible direct merchant links client-side. -->
+    <script type="text/javascript">
+      (function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A6059518-a226-4662-87f2-2b96ca3deaaa1.js','script','impactStat',document,window);impactStat('transformLinks');impactStat('trackImpression');
+    </script>
   </body>
 </html>

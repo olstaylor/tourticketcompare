@@ -330,6 +330,12 @@ h3 {
   margin-bottom: 24px;
 }
 
+.home-disclosure {
+  background:
+    linear-gradient(135deg, rgba(36, 72, 58, 0.08), rgba(164, 111, 33, 0.1)),
+    rgba(255, 253, 247, 0.94);
+}
+
 .artist-card-grid,
 .card-grid,
 .provider-actions,
@@ -376,6 +382,11 @@ h3 {
   align-content: start;
 }
 
+.artist-card,
+.info-card {
+  box-shadow: 0 14px 36px rgba(36, 28, 18, 0.06);
+}
+
 .info-card h3,
 .artist-card h3,
 .provider-card h3 {
@@ -393,6 +404,29 @@ h3 {
   color: var(--green);
   font-size: 0.94rem;
   font-weight: 900;
+}
+
+.status-badge {
+  width: fit-content;
+  margin: 0;
+  padding: 7px 11px;
+  border: 1px solid rgba(36, 72, 58, 0.2);
+  border-radius: 999px;
+  color: var(--green);
+  background: var(--green-soft);
+  font-size: 0.78rem;
+  font-weight: 950;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.empty-state {
+  width: 100%;
+  margin: 0;
+  padding: 22px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 253, 247, 0.76);
 }
 
 .content-page {

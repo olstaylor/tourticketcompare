@@ -8,7 +8,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/c
 const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "2026/27 stadium tour market watch"],
+  ["/", "Verified ticket links and buying guidance for major tours"],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -18,10 +18,10 @@ const expectedH1 = new Map([
   ["/affiliate-disclosure", "Affiliate disclosure"]
 ]);
 const routeMarkers = new Map([
-  ["/artists", "verified event-specific destination"],
+  ["/artists", "Ticket buttons appear only when a destination has been checked"],
   ["/guides", "The guides do not claim live price comparison"],
-  ["/how-it-works", "server-side affiliate routing through /api/out"],
-  ["/editorial-policy", "official artist sources"],
+  ["/how-it-works", "affiliate links are handled safely"],
+  ["/editorial-policy", "official artist, ticketing, and affiliate sources"],
   ["/affiliate-disclosure", "Affiliate relationships do not control provider prices"],
   ["/about", "does not publish invented dates"],
   ["/contact", "hello@tourticketcompare.com"]
@@ -80,7 +80,10 @@ const publicUiFiles = [
 ];
 
 const joinedPublic = (await Promise.all(publicUiFiles.map((file) => read(file)))).join("\n");
-assert(joinedPublic.includes("2026/27 stadium tour market watch"), "homepage MVP copy should be present");
+assert(
+  joinedPublic.includes("Verified ticket links and buying guidance for major tours"),
+  "homepage public-facing copy should be present"
+);
 assertAbsent(
   joinedPublic,
   [

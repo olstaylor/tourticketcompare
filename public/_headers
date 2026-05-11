@@ -7,23 +7,35 @@
   Cross-Origin-Resource-Policy: same-origin
   Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'
 
+/app.js
+  Cache-Control: public, max-age=3600
+
+/styles.css
+  Cache-Control: public, max-age=3600
+
+/favicon.svg
+  Cache-Control: public, max-age=604800
+
+/data/fallback-catalog.json
+  Cache-Control: public, max-age=604800
+
 /data/events.json
-  Cache-Control: no-store
+  Cache-Control: public, max-age=600
 
 /data/events-index.json
-  Cache-Control: no-store
+  Cache-Control: public, max-age=600
 
 /data/events/*
-  Cache-Control: no-store
+  Cache-Control: public, max-age=600
 
 /data/artists.json
-  Cache-Control: no-store
+  Cache-Control: public, max-age=3600
 
 /data/affiliate-routes.json
-  Cache-Control: no-store
+  Cache-Control: public, max-age=3600
 
 /data/inventory-model.json
-  Cache-Control: no-store
+  Cache-Control: public, max-age=3600
 
 /data/catalog.json
-  Cache-Control: no-store
+  Cache-Control: public, max-age=1800

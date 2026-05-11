@@ -2,7 +2,7 @@
 
 Independent, unofficial fan-facing ticket research site for major live music tours.
 
-Live at **[tourticketcompare.com](https://tourticketcompare.com)** and **[www.tourticketcompare.com](https://www.tourticketcompare.com)**.
+Live at **[tourticketcompare.com](https://tourticketcompare.com)** and **[www.tourticketcompare.com](https://www.tourticketcompare.com)** (redirects to apex).
 
 ---
 
@@ -31,10 +31,11 @@ TourTicketCompare helps fans find checked ticket links, understand buying risks,
 | [BACKLOG.md](BACKLOG.md) | Prioritised work by architecture → compliance → maintainability → content → providers |
 | [PROJECT_BRIEF.md](PROJECT_BRIEF.md) | Product positioning, safety rules, affiliate constraints, success criteria |
 | [HANDOVER.md](HANDOVER.md) | Current live state, confirmed bindings, latest smoke check results |
-| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Routing model, Pages Functions structure, Worker vs Pages ambiguity |
-| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Local dev, Pages preview deploy, production Worker deploy procedure |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Routing model, Pages Functions structure, data bindings |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Local dev, production Pages deploy, CI pipeline guidance |
 | [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) | What can and cannot be published |
 | [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) | Ticketmaster, SeatGeek, Vivid Seats, and Impact affiliate policy |
+| [docs/LIVE_PRODUCTION_VERIFICATION.md](docs/LIVE_PRODUCTION_VERIFICATION.md) | Live smoke check results and production readiness checklist |
 
 ---
 
@@ -42,12 +43,11 @@ TourTicketCompare helps fans find checked ticket links, understand buying risks,
 
 - **Frontend:** Static HTML, CSS, JS in `public/`
 - **Server-side routing and APIs:** Cloudflare Pages Functions in `functions/`
-- **Production runtime:** Cloudflare Worker `tourticketcompare-live` (built from `scripts/build-standalone-worker.mjs`)
-- **Preview/fallback:** Cloudflare Pages
+- **Production runtime:** Cloudflare Pages Functions — confirmed live via `/api/health` → `runtime: "cloudflare-pages-functions"` (2026-05-11)
 - **Storage:** Cloudflare D1 (`DEMAND_DB`) for analytics and demand capture
-- **No build step:** `public/` is served as-is
+- **No build step:** `public/` is served as-is; `functions/` is bundled by Cloudflare Pages
 
-> **Deployment note:** `npm run deploy` and `npm run deploy:pages` both deploy to the Pages preview/fallback URL — they do NOT update the production Worker. See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for the production Worker deploy procedure.
+> **Deploy note:** `npm run deploy:pages` deploys to Cloudflare Pages production. Confirm that the Cloudflare Pages project is connected to the GitHub repo (Git integration) in the dashboard — if so, pushes to `main` deploy automatically. See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ---
 
@@ -95,9 +95,9 @@ node --check functions/contact.js
 
 ---
 
-## Deploy (Pages preview/fallback only)
+## Deploy (production)
 
-Run checks then deploy:
+Run checks then deploy to Pages:
 
 ```bash
 npm run deploy:pages:safe
@@ -109,7 +109,7 @@ Or without pre-flight checks:
 npm run deploy:pages
 ```
 
-For the full production Worker deploy procedure, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
+If the Cloudflare Pages project has Git integration active, pushes to `main` deploy automatically and a manual CLI deploy is not needed. Confirm integration status in the Cloudflare Pages dashboard before relying on automatic deploys.
 
 ---
 

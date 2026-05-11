@@ -1,130 +1,174 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-11 (www redirect confirmed fixed)
+Last updated: 2026-05-11
 
 ---
 
-## Current Known-Good State
+## 1. Current Production Architecture
 
-- Live URL: `https://tourticketcompare.com`
-- `www` redirect: **confirmed working** — `https://www.tourticketcompare.com` → 301 → `https://tourticketcompare.com` (path-preserving; fixed 2026-05-11 via Cloudflare Redirect Rule)
-- Production runtime: **Cloudflare Pages Functions** (confirmed 2026-05-11 via `/api/health` → `runtime: "cloudflare-pages-functions"`)
-- Production runtime changed from: Cloudflare Worker `tourticketcompare-live` (previously deployed 2026-05-01, build `d3cc71487403`) — no longer serving production
-- GitHub `main` is the source of truth for the Pages Functions and frontend source
-- All seven Ticketmaster artist-level affiliate links are verified and routing correctly through `/api/out` (confirmed 2026-05-11: Beyoncé → 302 to `ticketmaster.evyy.net/beyonce`)
-- `DEMAND_DB` D1 binding active; `IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_TICKETMASTER_PROGRAM_ID` all confirmed present via health endpoint
-- `mockMode: false`, `allowMockPrices: false`, `clickTrackingEnabled: true` confirmed live
-- Homepage, Beyoncé artist page, guide page: correct server-injected titles and canonicals confirmed 2026-05-11
-- 404 returns HTTP 404 + `noindex,follow` confirmed 2026-05-11
-- Sitemap returns 20 URLs confirmed 2026-05-11
+### Runtime
+- **Platform:** Cloudflare Pages + Pages Functions
+- **Source of truth:** GitHub `main` — merges trigger automatic production deploys via Cloudflare Pages Git integration (confirmed 2026-05-11)
+- **Production runtime confirmed:** `cloudflare-pages-functions` via `/api/health` (2026-05-11)
+- **Manual deploy path:** `npm run deploy:pages` or `npm run deploy:pages:safe` (runs smoke check first)
+- **No build step:** `public/` is served as-is; `functions/` is bundled by Cloudflare Pages
 
-See `docs/LIVE_PRODUCTION_VERIFICATION.md` for full live evidence.
+### Request routing
+- `public/_routes.json` routes all requests (`/*`) through Pages Functions; only `/_assets/*` and `/favicon.ico` are excluded
+- `functions/_middleware.js` is the active entry point — it passes static asset paths and `/api/` and `/data/` prefixes directly to `context.next()`, and sends all HTML routes to `functions/[[path]].js`
+- `functions/[[path]].js` handles all HTML rendering: serves correct server-injected `<title>`, `<meta>`, canonical, JSON-LD, and full `<main>` content for every route
+- Named route shims (`functions/artists.js`, `functions/guides.js`, etc.) re-export from `[[path]].js` but are **not invoked** while `_middleware.js` is active — editing them has no effect on production
+- `functions/_route-metadata.js` is the **single source of truth** for page titles, H1s, descriptions, guide routes, and old-guide redirects
 
-### What is publicly available
+### Data bindings
+- **`DEMAND_DB`** (D1, `tourticketcompare-demand`, ID `19b314b8-10f1-4504-a3bc-963f7ecbe9f6`): active; used for analytics event writes and email signup. Confirmed present via live `/api/health` (2026-05-11)
+- **`RATE_LIMIT_DB`** and **`CLICKS_DB`**: referenced in `wrangler.toml` as commented-out blocks with placeholder IDs — not provisioned
+- **Impact credentials** (`IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_TICKETMASTER_PROGRAM_ID`): confirmed present as Cloudflare Pages secrets (2026-05-11); used server-side only in `functions/api/out.js`
+- **`impactDefaultProgramId`:** reported `false` by `/api/health`; Ticketmaster-specific program ID is sufficient if that is the only active program
 
-- Homepage with verified ticket guidance
-- Seven artist pages: Beyoncé, Harry Styles, BTS, Ariana Grande, Bad Bunny, Morgan Wallen, JAY-Z
-- Five guide pages: concert price comparison, fee guidance, avoiding overpaying, timing, primary vs resale
-- Trust/legal pages: how it works, about, contact, editorial policy, affiliate disclosure
-- 20-URL sitemap with all indexable pages
+### Key env vars (wrangler.toml defaults, overrideable via Cloudflare dashboard)
+- `MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false` — confirmed live (2026-05-11)
+- `CLICK_TRACKING_ENABLED=true`
+- `TICKETMASTER_DISCOVERY_ENABLED=true`, `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=false`
 
-### What is not currently available
-
-- Live multi-provider price comparison
-- SeatGeek or Vivid Seats ticket buttons (hidden until verified links are configured)
-- Verified event-level show cards with dates, venues, or cities
-- Event/MusicEvent schema (must not be added without verified event data)
-- Tour-level pages (supported in routing but no verified tour records exist)
+### Custom domains
+- `https://tourticketcompare.com` — production
+- `https://www.tourticketcompare.com` — 301 → apex (path-preserving, Cloudflare Redirect Rule, confirmed 2026-05-11)
 
 ---
 
-## Current Known Risks
+## 2. Current Working Features
+
+### Public pages (all server-rendered via Pages Functions)
+| Route | Type | Indexable |
+|---|---|---|
+| `/` | Homepage | Yes |
+| `/artists` | Artist index | Yes |
+| `/guides` | Guide index | Yes |
+| `/how-it-works` | Trust/info | Yes |
+| `/about` | Trust/info | Yes |
+| `/contact` | Trust/info | Yes |
+| `/editorial-policy` | Trust/legal | Yes |
+| `/affiliate-disclosure` | Trust/legal | Yes |
+
+### Artist pages
+Seven artist pages, each with verified Ticketmaster affiliate links:
+`/artists/beyonce`, `/artists/harry-styles`, `/artists/bts`, `/artists/ariana-grande`, `/artists/bad-bunny`, `/artists/morgan-wallen`, `/artists/jay-z`
+
+Each artist page renders:
+- Correct server-injected `<title>`, canonical, and meta description
+- Breadcrumb navigation
+- Verified ticket link(s) via `/api/out` when configured
+- Practical buying checklist, about section, artist FAQ
+- Safe empty state when no verified link exists
+
+### Guide pages (five active)
+- `/guides/how-to-compare-concert-ticket-prices`
+- `/guides/ticketmaster-vs-seatgeek-vs-vivid-seats`
+- `/guides/how-to-avoid-overpaying-for-concert-tickets`
+- `/guides/when-is-the-best-time-to-buy-concert-tickets`
+- `/guides/primary-vs-resale-concert-tickets`
+
+Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadata.js`).
+
+### `/api/out` affiliate redirect (high level only — do not modify)
+- **GET**: validates params, looks up verified link, optionally creates Impact tracking URL server-side, writes click analytics to `DEMAND_DB`, then 302 redirects
+- **POST**: same flow, returns JSON `{ok, redirectUrl}` instead of redirecting
+- Handles two modes: `showId` (event-specific, resolves from `events.json`) and `artistSlug` (artist-level, resolves from `VERIFIED_TICKET_LINKS` in source)
+- All destination URLs validated against a strict allowlist of provider hostnames; localhost/RFC1918/placeholder URLs rejected
+- Impact credential calls are server-side only; failure falls back safely to stored verified URL
+
+### Other API endpoints
+- `/api/health` — returns runtime config status (mock flags, credential presence); confirmed safe (no secrets exposed)
+- `/api/shows` — returns event data for a given `artistSlug` filtered from `events.json`; mock pricing disabled
+- `/api/analytics`, `/api/click`, `/api/signup` — D1-backed data capture endpoints
+- `/api/impact/health`, `/api/impact/products`, `/api/impact/tracking-links` — Impact integration helpers; fail safely when credentials are absent
+
+### Data files (read-only; do not modify without a verified source)
+- `public/data/catalog.json` — 7 artists, 0 tours, 3 providers (Ticketmaster, SeatGeek, Vivid Seats), 7 verified ticket links
+- `public/data/events.json` — 130 events (Ticketmaster-sourced; each has `ticketmaster_url` with event-specific path)
+- `public/data/events/` — per-artist partitioned event files (6 artist files)
+- `public/data/artists.json`, `events-index.json`, `affiliate-routes.json`, `inventory-model.json`
+
+### Sitemap
+- `functions/api/sitemap.xml.js` generates a sitemap covering 20 indexable URLs (confirmed 2026-05-11)
+- `public/robots.txt` present
+
+---
+
+## 3. Known Risks and Parked Issues
 
 | Risk | Detail | Severity |
 |---|---|---|
-| ~~www redirect broken~~ | **Resolved 2026-05-11.** Cloudflare Redirect Rule added; `www.tourticketcompare.com` now 301→apex (path-preserving). Confirmed live. | ~~High~~ |
-| ~~GitHub→Pages CI pipeline unconfirmed~~ | **Confirmed 2026-05-11.** Cloudflare Pages Git integration is active. Merges to `main` trigger automatic production Pages deployments. No manual deploy step required. | ~~High~~ |
-| ~~Worker version gap~~ | **Closed.** Production is now on Pages Functions, not the standalone Worker. The Worker version gap is no longer relevant. | ~~High~~ |
-| ~~No npm script for Worker deploy~~ | **Closed.** Worker is no longer production. `npm run deploy:pages` is the correct production deploy path. | ~~High~~ |
-| ~~Structural content divergence~~ | **Resolved.** `functions/_route-metadata.js` is now the single source of truth for page titles, descriptions, H1s, and redirects. | ~~High~~ |
-| `impactDefaultProgramId` not configured | `/api/health` reports `impactDefaultProgramId: false`. May be intentional if the Ticketmaster-specific program ID is sufficient. Confirm with account settings. | Medium |
-| Placeholder D1 bindings | `wrangler.toml` has two commented-out D1 bindings with `replace-with-d1-database-id`. Uncommenting without real IDs breaks local dev. | Medium |
-| Named route shims inactive | `functions/artists.js` and similar shims re-export from `[[path]].js` but are never invoked while `_middleware.js` is active. Editing them has no effect. | Low |
-| Vercel path exists | `vercel.json` and `api/` are present; neither is production but could be accidentally deployed. | Low |
-| SeatGeek/Vivid Seats not configured | Any attempt to enable these providers requires verified URLs, not just code changes. | Low |
-| `scripts/build-standalone-worker.mjs` still present | No longer needed for production; retire after Pages is confirmed stable. | Low |
+| **Smoke test false positive** | `node scripts/smoke-prelaunch.mjs` currently **fails** on `public/app.js:152`. A FAQ answer ("No. TourTicketCompare does not compare live prices.") triggers the `live prices claim` pattern. The allowedContext regex only permits `coming later\|not yet\|planned\|not available\|is not ready\|being built` — it does not match "does not compare". The copy is safe. The fix is to add `\|does not compare` to the allowedContext in `smoke-prelaunch.mjs`, or rephrase the FAQ answer to include a recognised safe phrase. This blocks `npm run deploy:pages:safe`. | High |
+| **Raw HTML routing** | Non-root routes (`/artists`, `/guides`, `/how-it-works`, etc.) serve correct server-injected HTML via Pages Functions, but `public/app.js` re-renders content client-side on load. If a crawler catches an intermediate state or JS fails, the homepage H1/title could be indexed instead of the route-specific values. Parked until explicitly prioritised; must be resolved before SEO scaling. See `docs/ARCHITECTURE.md`. | Medium (SEO) |
+| **`impactDefaultProgramId` not configured** | `/api/health` reports `impactDefaultProgramId: false`. Confirm whether this binding is needed for any active feature or whether the Ticketmaster-specific program ID is sufficient. | Medium |
+| **Placeholder D1 bindings** | `wrangler.toml` has two commented-out D1 bindings (`RATE_LIMIT_DB`, `CLICKS_DB`) with `replace-with-d1-database-id` placeholder IDs. Uncommenting without real IDs breaks local dev. Either provision with real IDs or remove the blocks. | Medium |
+| **Named route shims inactive** | `functions/artists.js` and peers re-export from `[[path]].js` but are never reached while `_middleware.js` is active. Editing them has no production effect. | Low |
+| **Legacy deployment paths** | `vercel.json` and `api/` directory are present but not production. `scripts/build-standalone-worker.mjs` is present as emergency rollback reference. Neither should be accidentally deployed. | Low |
+| **SeatGeek / Vivid Seats not configured** | Providers are defined in `PROVIDERS` and `catalog.json` but have no verified `VERIFIED_TICKET_LINKS` entries and no ticket links in catalog. Any attempt to enable requires verified destination URLs, not just code changes. | Low |
+
+### Parked (do not action without explicit scope)
+- Raw HTML routing fix — parked until SEO scaling is prioritised
+- `RATE_LIMIT_DB` / `CLICKS_DB` provisioning or cleanup
+- `vercel.json` / `api/` / `scripts/build-standalone-worker.mjs` retirement
+- Tour-level pages (routing supports them; no verified tour records exist)
+- Event-level show cards with dates/venues (events.json exists but no UI surface renders them on artist pages)
 
 ---
 
-## Current Parked Issues
+## 4. Safe Next Roadmap
 
-- **Raw HTML routing for non-root routes:** Routes such as `/artists`, `/guides`, `/how-it-works`, etc. have at times served homepage H1/title/canonical in raw HTML before client-side rendering. This is parked until explicitly prioritised; it should be addressed before serious SEO scaling work. See `docs/ARCHITECTURE.md` for routing details.
-- **~~Broader deployment architecture cleanup:~~** The three-path deploy model has been resolved — production is now on Pages. Vercel path (`vercel.json`, `api/`) and standalone Worker script (`scripts/build-standalone-worker.mjs`) remain as cleanup debt.
-- **`RATE_LIMIT_DB` and `CLICKS_DB`:** These D1 databases are referenced in commented-out `wrangler.toml` blocks with placeholder IDs. Either provision them with real IDs or remove the commented blocks.
+### Immediate stabilisation
+1. **Fix smoke test false positive** — update `allowedContext` in `scripts/smoke-prelaunch.mjs` for the "live prices claim" rule to also allow `does not compare`, or rephrase the FAQ copy in `public/app.js:152`. This is required to restore `npm run deploy:pages:safe`.
+2. **Confirm `impactDefaultProgramId`** — check whether the absent binding affects any live feature or whether the Ticketmaster-specific program ID covers all active use cases.
+3. **Clean up or provision placeholder D1 bindings** — remove or fill the `RATE_LIMIT_DB`/`CLICKS_DB` blocks in `wrangler.toml`.
+4. **Complete remaining live smoke checks** — six artist pages beyond Beyoncé, four guide pages, five trust/legal pages, old guide redirect slugs, D1 analytics write. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
 
----
+### MVP product polish
+- Add event-level show cards to artist pages (events data already exists in `events.json` and `/api/shows`; UI surface not yet wired up on artist pages)
+- Improve empty states for artists where no verified event-specific link exists
+- Review and polish existing guide copy for search intent and factual accuracy
+- Retire `vercel.json`, `api/`, and `scripts/build-standalone-worker.mjs` once Pages is confirmed stable for a production cycle
 
-## Do Not Touch (without explicit task scope)
+### Verified artist/search expansion
+- Add more artist pages one at a time using the strict artist template with source-backed factual summaries
+- Add one verified SeatGeek or Vivid Seats artist affiliate link only after destination and attribution behaviour are proven in `/api/out`
+- Add tour records only when source-backed data is verified and the tour-level routing is ready
 
-- `/api/out` — verified affiliate redirect logic; any change must be reviewed carefully
-- `VERIFIED_TICKET_LINKS` in `functions/api/out.js` — approved affiliate URLs; do not modify without a new verified source
-- `public/data/events.json`, `artists.json`, `catalog.json` — do not add, modify, or remove records without a verified source
-- `_routes.json` — routes everything through functions; incorrect changes cause site-wide failures
-- `functions/_middleware.js` — a bug here fails all HTML routes
-- `functions/[[path]].js` — all HTML routing lives here; changes affect every public page
-- `functions/_route-metadata.js` — single source of truth for page titles, H1s, descriptions, and redirects
-- Impact credentials and affiliate tracking logic
-- Cloudflare dashboard settings (routes, bindings, secrets)
-- `scripts/build-standalone-worker.mjs` — still present as emergency rollback reference; do not delete until explicitly scoped
+### Future provider/API integrations
+- Enable `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true` only when there is a product decision to display timestamped Ticketmaster prices
+- Add SeatGeek and Vivid Seats artist-level links when verified destination URLs, Impact program IDs (if applicable), and redirect behaviour are confirmed
+- Add provider-specific price feeds only when approved API access, explicit display rights, and a compliant pricing display design are in place
 
----
-
-## Immediate Priorities
-
-1. ~~**Fix www redirect**~~ — **Done 2026-05-11.** Cloudflare Redirect Rule active; 301 confirmed.
-2. ~~**Confirm GitHub→Pages CI pipeline**~~ — **Done 2026-05-11.** Git integration confirmed active. Merges to `main` deploy automatically.
-3. **Complete live smoke checks** — remaining routes not yet verified: six artist pages, four guide pages, five trust/legal pages, old guide redirect slugs, D1 analytics write. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
-4. **Confirm `impactDefaultProgramId`** — `/api/health` reports `false`; confirm whether the absent binding affects any live feature.
-5. Remove or provision the placeholder D1 binding entries in `wrangler.toml` (`RATE_LIMIT_DB`, `CLICKS_DB`)
-6. Add verified SeatGeek and Vivid Seats links only after destination and attribution behaviour are proven
-7. Add tour records and event-level show cards only when source-backed data is verified
+### Long-term automation
+- Automated Ticketmaster or provider event feed sync (requires human review gates before public display)
+- Public live price comparison UI (requires approved multi-provider feeds)
+- Email/newsletter automation and CRM sync
 
 ---
 
-## Recommended Workflow for Claude/Codex Sessions
+## 5. Validation Commands
 
-Every session should begin by reading:
-
-1. `AGENTS.md` — project rules and protected areas
-2. `PROJECT_STATUS.md` (this file) — current state and risks
-3. `BACKLOG.md` — priorities
-4. Only the specific files relevant to the task
-
-**Before making changes:**
-- Confirm the change is within the task scope defined above
-- Do not touch protected areas unless the task explicitly names them
-- Validate with relevant checks before committing
-
-**After making changes:**
-- Run relevant validation checks (see AGENTS.md)
-- Show a git diff summary
-- Commit with a clear message
-- Push the branch to GitHub
-- Do not open or merge a PR unless explicitly asked
-- Do not deploy to Cloudflare
-
-**Validation checks (run the relevant subset):**
+Run the relevant subset before committing any change:
 
 ```bash
+# Syntax checks — always run these
 node --check public/app.js
 node --check 'functions/[[path]].js'
 node --check functions/api/out.js
+
+# Event data validation
 python3 scripts/validate-events.py --for-production
+
+# Smoke test suite (currently fails due to false positive — see Known Risks)
 node scripts/smoke-prelaunch.mjs
+
+# Whitespace/conflict markers
 git diff --check
 ```
 
-When route shims are touched, also check:
+When named route shims are touched, also check:
 
 ```bash
 node --check functions/artists.js
@@ -134,3 +178,32 @@ node --check functions/editorial-policy.js
 node --check functions/affiliate-disclosure.js
 node --check functions/contact.js
 ```
+
+**Note:** `node scripts/smoke-prelaunch.mjs` currently fails with a false positive (see Known Risks). Until fixed, use `npm run deploy:pages` rather than `npm run deploy:pages:safe` for production deploys, and be aware that the full smoke suite is not currently passing.
+
+---
+
+## 6. Claude/Codex Operating Rules
+
+- **Make one small change at a time.** Read only the files relevant to the task. Do not scan or rewrite the whole repo.
+- **Do not modify `/api/out` or any affiliate routing** unless the task explicitly names that area. The redirect logic, `VERIFIED_TICKET_LINKS`, and Impact credential handling are protected.
+- **Do not add pricing, availability, or comparison claims** unless the task explicitly provides an approved provider data source.
+- **Do not modify artist, event, or provider data** (`catalog.json`, `events.json`, `artists.json`, `affiliate-routes.json`) unless the task provides a verified source.
+- **Do not modify `_routes.json`, `_middleware.js`, or `[[path]].js`** without careful review — bugs here fail all HTML routes site-wide.
+- **Do not deploy to Cloudflare or push to `main`** unless explicitly asked. Push to a feature branch and open a PR only when asked.
+- **After any change, summarise exactly:** which files were changed, what was changed, which checks were run and their result, and what was not touched.
+- **Before starting any session:** read `AGENTS.md`, this file (`PROJECT_STATUS.md`), and `BACKLOG.md` before reading task-specific files.
+
+---
+
+## Do Not Touch (without explicit task scope)
+
+- `functions/api/out.js` and `VERIFIED_TICKET_LINKS` — approved affiliate redirect logic
+- `public/data/events.json`, `artists.json`, `catalog.json` — do not add, modify, or remove records without a verified source
+- `public/_routes.json` — incorrect changes cause site-wide failures
+- `functions/_middleware.js` — a bug here fails all HTML routes
+- `functions/[[path]].js` — all HTML routing lives here; changes affect every public page
+- `functions/_route-metadata.js` — single source of truth for page titles, H1s, descriptions, and redirects
+- Impact credentials and affiliate tracking logic
+- Cloudflare dashboard settings (routes, bindings, secrets)
+- `scripts/build-standalone-worker.mjs` — emergency rollback reference; do not delete until explicitly scoped

@@ -138,19 +138,22 @@ const guidePages = [
     slug: "how-to-compare-concert-ticket-prices",
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Learn how to compare concert ticket prices safely by checking the final total, seat details, delivery timing, and provider terms.",
+      "Compare concert ticket prices by checking final totals, seat details, delivery timing, and provider terms. Know what to compare and what to avoid.",
     h1: "How do I compare ticket prices safely?",
     intro:
-      "A ticket price is only useful when you know what it includes. Before you buy, compare the full checkout total, the seat location, the delivery method, and the seller terms rather than rely on the first displayed price.",
+      "Comparing ticket prices means comparing final totals, not first displayed prices. Open two or more provider pages for the same show, check what each price includes, and verify the seat and terms are the same before you decide.",
     sections: [
-      ["What to check", "Compare the final checkout total, not just the first number shown. Check service fees, delivery charges, taxes, currency, seat section, row, view notes, transfer timing, and provider terms."],
-      ["Red flags", "Be careful with unclear seat details, pressure-heavy countdowns, payment methods with weak protection, and ticket pages that do not clearly match the artist, date, and venue."],
-      ["Before you buy", "Open the ticket provider page, confirm the event date and venue, review the full total, and read delivery, transfer, refund, and cancellation terms before entering payment details."],
-      ["What TourTicketCompare verifies", "We check that ticket buttons point to a real destination for the relevant artist or event. We do not verify every seat listing or final checkout total or availability."],
+      ["Find the same show on multiple providers", "Search for the artist and date on Ticketmaster, SeatGeek, Vivid Seats, or other official platforms. Write down the venue and date so you know you are looking at the right event. Screenshot the artist name, date, and venue from each site to confirm they match."],
+      ["Scroll to the final total before comparing", "Scroll past the first displayed price. Note the seat location (section, row, number), delivery method (instant download, mobile transfer, shipped), and final total including all fees, taxes, and delivery charges. This final number is what you will actually pay."],
+      ["Check the same details are included", "Compare apples to apples: same artist, same date, same venue, similar seat quality, similar delivery speed. One site might offer cheaper delivery; another might charge more for a front-row seat. Verify each site is showing the same level of access."],
+      ["Review the refund and transfer rules", "Before clicking buy, read whether the ticket is refundable, whether you can resell or transfer it, how long transfers take, and what happens if the event is cancelled or rescheduled. These rules differ between official and resale platforms."],
+      ["Spot misleading or unsafe listings", "Avoid listings with unclear seat details, no refund policy stated, countdown timers creating urgency, requests to pay outside the official site, or pages that do not clearly match the event. If the page does not say which artist, date, and venue are shown, do not buy."],
     ],
     faq: [
-      ["Does TourTicketCompare compare live prices today?", "No. TourTicketCompare does not compare live prices. Final prices and fees should always be confirmed on the ticket provider site."],
-      ["Why do totals change at checkout?", "Ticket providers may add fees, taxes, delivery charges, or currency conversion details during checkout."]
+      ["Can I trust the first price I see?", "No. Providers display prices differently. Always scroll to the final checkout total including fees, taxes, and delivery. That is the real price you will pay."],
+      ["Does TourTicketCompare compare prices for me?", "No. TourTicketCompare does not compare live prices. We show you verified ticket destinations so you can check prices yourself on official or resale platforms."],
+      ["Why do totals change at checkout?", "Providers may add or recalculate fees, taxes, delivery charges, or currency conversion during checkout. Always review the final total before entering payment details."],
+      ["Should I use a resale platform?", "Resale platforms like SeatGeek and Vivid Seats are real marketplaces for verified tickets. Check the seller terms, buyer protections, and transfer rules before buying. Official channels like Ticketmaster sell direct from the event."]
     ]
   },
   {
@@ -252,7 +255,7 @@ const routeMeta = {
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
     description:
-      "Practical guides for checking concert ticket links, fees, resale risks, provider differences, and checkout terms."
+      "Essential guides for comparing ticket prices, checking official vs. resale, deciding when to buy, and confirming final terms before checkout."
   },
   "/how-it-works": {
     title: "How TourTicketCompare Works",

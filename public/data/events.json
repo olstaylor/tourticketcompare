@@ -17,7 +17,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-indianapolis-indiana-05-08-2026/event/0500635DDC2DB013",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500635DDC2DB013",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-indianapolis-indiana-05-08-2026/event/0500635DDC2DB013",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-indianapolis-0500635ddc56b025",
@@ -37,7 +67,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-indianapolis-indiana-05-09-2026/event/0500635DDC56B025",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500635DDC56B025",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-indianapolis-indiana-05-09-2026/event/0500635DDC56B025",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-gainesville-2200635d19f97a46",
@@ -57,7 +117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-gainesville-florida-05-15-2026/event/2200635D19F97A46",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200635D19F97A46",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-gainesville-florida-05-15-2026/event/2200635D19F97A46",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-gainesville-2200635d1be07abe",
@@ -77,7 +167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-gainesville-florida-05-16-2026/event/2200635D1BE07ABE",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200635D1BE07ABE",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-gainesville-florida-05-16-2026/event/2200635D1BE07ABE",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-denver-1e00635df7cf9add",
@@ -97,7 +217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-denver-colorado-05-29-2026/event/1E00635DF7CF9ADD",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00635DF7CF9ADD",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-denver-colorado-05-29-2026/event/1E00635DF7CF9ADD",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-denver-1e00635df7d99ae8",
@@ -117,7 +267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-denver-colorado-05-30-2026/event/1E00635DF7D99AE8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00635DF7D99AE8",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-denver-colorado-05-30-2026/event/1E00635DF7D99AE8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-pittsburgh-1600635c84ff1ead",
@@ -137,7 +317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-pittsburgh-pennsylvania-06-05-2026/event/1600635C84FF1EAD",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600635C84FF1EAD",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-pittsburgh-pennsylvania-06-05-2026/event/1600635C84FF1EAD",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-pittsburgh-1600635d93d83472",
@@ -157,7 +367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-pittsburgh-pennsylvania-06-06-2026/event/1600635D93D83472",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600635D93D83472",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-pittsburgh-pennsylvania-06-06-2026/event/1600635D93D83472",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-chicago-z7r9jz1a7qtbn",
@@ -177,7 +417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbN",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbN",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-chicago-z7r9jz1a7qtba",
@@ -197,7 +467,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtba",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtba",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtba",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtbd",
@@ -217,7 +517,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbd",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbd",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtb7",
@@ -237,7 +567,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtb7",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtb7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtb7",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtba2",
@@ -257,7 +617,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbA",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbA",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtbk",
@@ -277,7 +667,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbk",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbk",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs",
@@ -297,7 +717,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbs",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbs",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbf",
@@ -317,7 +767,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbF",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbF",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635dc72ec234",
@@ -337,7 +817,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200635DC72EC234",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635da084a7a9",
@@ -357,7 +867,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-08-01-2026/event/0200635DA084A7A9",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200635DA084A7A9",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-08-01-2026/event/0200635DA084A7A9",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350404814e",
@@ -377,7 +917,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-26-2026/event/3B0064350404814E",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0064350404814E",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-26-2026/event/3B0064350404814E",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504538196",
@@ -397,7 +967,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-28-2026/event/3B00643504538196",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643504538196",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-28-2026/event/3B00643504538196",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435046481aa",
@@ -417,7 +1017,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-29-2026/event/3B006435046481AA",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B006435046481AA",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-29-2026/event/3B006435046481AA",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435047f81c1",
@@ -437,7 +1067,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-02-2026/event/3B006435047F81C1",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B006435047F81C1",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-02-2026/event/3B006435047F81C1",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435049481d0",
@@ -457,7 +1117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-04-2026/event/3B006435049481D0",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B006435049481D0",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-04-2026/event/3B006435049481D0",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504a381d8",
@@ -477,7 +1167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-05-2026/event/3B00643504A381D8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643504A381D8",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-05-2026/event/3B00643504A381D8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504b581eb",
@@ -497,7 +1217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-09-2026/event/3B00643504B581EB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643504B581EB",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-09-2026/event/3B00643504B581EB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504c881f8",
@@ -517,7 +1267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-11-2026/event/3B00643504C881F8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643504C881F8",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-11-2026/event/3B00643504C881F8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504d78209",
@@ -537,7 +1317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-12-2026/event/3B00643504D78209",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643504D78209",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-12-2026/event/3B00643504D78209",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504e38212",
@@ -557,7 +1367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-16-2026/event/3B00643504E38212",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643504E38212",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-16-2026/event/3B00643504E38212",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505018228",
@@ -577,7 +1417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-18-2026/event/3B00643505018228",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505018228",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-18-2026/event/3B00643505018228",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505178231",
@@ -597,7 +1467,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-19-2026/event/3B00643505178231",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505178231",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-19-2026/event/3B00643505178231",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350525823a",
@@ -617,7 +1517,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-23-2026/event/3B0064350525823A",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0064350525823A",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-23-2026/event/3B0064350525823A",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505428256",
@@ -637,7 +1567,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-25-2026/event/3B00643505428256",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505428256",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-25-2026/event/3B00643505428256",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435054e8262",
@@ -657,7 +1617,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-26-2026/event/3B006435054E8262",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B006435054E8262",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-26-2026/event/3B006435054E8262",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505768283",
@@ -677,7 +1667,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-30-2026/event/3B00643505768283",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505768283",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-30-2026/event/3B00643505768283",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505888295",
@@ -697,7 +1717,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-02-2026/event/3B00643505888295",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505888295",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-02-2026/event/3B00643505888295",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435059882a6",
@@ -717,7 +1767,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-03-2026/event/3B006435059882A6",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B006435059882A6",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-03-2026/event/3B006435059882A6",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505aa82b9",
@@ -737,7 +1817,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-07-2026/event/3B00643505AA82B9",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505AA82B9",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-07-2026/event/3B00643505AA82B9",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505b782ca",
@@ -757,7 +1867,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-09-2026/event/3B00643505B782CA",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505B782CA",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-09-2026/event/3B00643505B782CA",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505d182df",
@@ -777,7 +1917,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-10-2026/event/3B00643505D182DF",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505D182DF",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-10-2026/event/3B00643505D182DF",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505dd82e6",
@@ -797,7 +1967,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-14-2026/event/3B00643505DD82E6",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505DD82E6",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-14-2026/event/3B00643505DD82E6",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505ee82f4",
@@ -817,7 +2017,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-16-2026/event/3B00643505EE82F4",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643505EE82F4",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-16-2026/event/3B00643505EE82F4",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506808378",
@@ -837,7 +2067,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643506808378",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350690838a",
@@ -857,7 +2117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B0064350690838A",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435069e8398",
@@ -877,7 +2167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-23-2026/event/3B006435069E8398",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B006435069E8398",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-23-2026/event/3B006435069E8398",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506ae83a2",
@@ -897,7 +2217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643506AE83A2",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506bf83b6",
@@ -917,7 +2267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643506BF83B6",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506cf83cb",
@@ -937,7 +2317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-30-2026/event/3B00643506CF83CB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643506CF83CB",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-30-2026/event/3B00643506CF83CB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506da83de",
@@ -957,7 +2367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00643506DA83DE",
+        "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-stanford-1c006429c95ea2b8",
@@ -977,7 +2417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-16-2026/event/1C006429C95EA2B8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006429C95EA2B8",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-16-2026/event/1C006429C95EA2B8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-stanford-1c006429c9dda300",
@@ -997,7 +2467,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-17-2026/event/1C006429C9DDA300",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006429C9DDA300",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-17-2026/event/1C006429C9DDA300",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-stanford-1c006435858268ec",
@@ -1017,7 +2517,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-19-2026/event/1C006435858268EC",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006435858268EC",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-19-2026/event/1C006435858268EC",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429d233149a",
@@ -1037,7 +2567,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-23-2026/event/17006429D233149A",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006429D233149A",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-23-2026/event/17006429D233149A",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3354a8c",
@@ -1057,7 +2617,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-24-2026/event/17006429E3354A8C",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006429E3354A8C",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-24-2026/event/17006429E3354A8C",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3454a9e",
@@ -1077,7 +2667,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-27-2026/event/17006429E3454A9E",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006429E3454A9E",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-27-2026/event/17006429E3454A9E",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3514ab0",
@@ -1097,7 +2717,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-28-2026/event/17006429E3514AB0",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006429E3514AB0",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-28-2026/event/17006429E3514AB0",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429eb39bb6f",
@@ -1117,7 +2767,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-01-2026/event/00006429EB39BB6F",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006429EB39BB6F",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-01-2026/event/00006429EB39BB6F",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429ed30bceb",
@@ -1137,7 +2817,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-02-2026/event/00006429ED30BCEB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006429ED30BCEB",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-02-2026/event/00006429ED30BCEB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cbd7ab56b",
@@ -1157,7 +2867,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-05-2026/event/0100642CBD7AB56B",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100642CBD7AB56B",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-05-2026/event/0100642CBD7AB56B",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cc24ebb04",
@@ -1177,7 +2917,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-06-2026/event/0100642CC24EBB04",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100642CC24EBB04",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-06-2026/event/0100642CC24EBB04",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-chicago-0400642acbbd5d44",
@@ -1197,7 +2967,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/0400642ACBBD5D44",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400642ACBBD5D44",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/0400642ACBBD5D44",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-chicago-0400642acc7e5d9b",
@@ -1217,7 +3017,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400642ACC7E5D9B",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429ab3c5ef1",
@@ -1237,7 +3067,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006429AB3C5EF1",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b1b363a4",
@@ -1257,7 +3117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-02-2026/event/0A006429B1B363A4",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006429B1B363A4",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-02-2026/event/0A006429B1B363A4",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b2cb6418",
@@ -1277,7 +3167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-05-2026/event/0A006429B2CB6418",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006429B2CB6418",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-05-2026/event/0A006429B2CB6418",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b353645f",
@@ -1297,7 +3217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006429B353645F",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-oakland-1c00631913d14ad8",
@@ -1317,7 +3267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-oakland-california-06-06-2026/event/1C00631913D14AD8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00631913D14AD8",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-oakland-california-06-06-2026/event/1C00631913D14AD8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-oakland-1c00631a8fc31891",
@@ -1337,7 +3317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-oakland-california-06-09-2026/event/1C00631A8FC31891",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00631A8FC31891",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-oakland-california-06-09-2026/event/1C00631A8FC31891",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-oakland-1c00632490b77e47",
@@ -1357,7 +3367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-oakland-california-06-10-2026/event/1C00632490B77E47",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00632490B77E47",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-oakland-california-06-10-2026/event/1C00632490B77E47",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-los-angeles-2c00631bd2240c78",
@@ -1377,7 +3417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-los-angeles-california-06-13-2026/event/2C00631BD2240C78",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C00631BD2240C78",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-los-angeles-california-06-13-2026/event/2C00631BD2240C78",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-los-angeles-2c00631bd1f40c75",
@@ -1397,7 +3467,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-los-angeles-california-06-14-2026/event/2C00631BD1F40C75",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C00631BD1F40C75",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-los-angeles-california-06-14-2026/event/2C00631BD1F40C75",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-inglewood-09006319299f5deb",
@@ -1417,7 +3517,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-17-2026/event/09006319299F5DEB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006319299F5DEB",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-17-2026/event/09006319299F5DEB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-inglewood-090063192f945f68",
@@ -1437,7 +3567,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-19-2026/event/090063192F945F68",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090063192F945F68",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-19-2026/event/090063192F945F68",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-inglewood-09006325c6486b2e",
@@ -1457,7 +3617,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-20-2026/event/09006325C6486B2E",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006325C6486B2E",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-20-2026/event/09006325C6486B2E",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-austin-3a00631b9ce923db",
@@ -1477,7 +3667,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-24-2026/event/3A00631B9CE923DB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00631B9CE923DB",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-24-2026/event/3A00631B9CE923DB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-austin-3a00631b9e202403",
@@ -1497,7 +3717,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-26-2026/event/3A00631B9E202403",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00631B9E202403",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-26-2026/event/3A00631B9E202403",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-austin-3a00631b9f022430",
@@ -1517,7 +3767,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-27-2026/event/3A00631B9F022430",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00631B9F022430",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-27-2026/event/3A00631B9F022430",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-atlanta-0e00631a8e691e65",
@@ -1537,7 +3817,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-06-2026/event/0E00631A8E691E65",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00631A8E691E65",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-06-2026/event/0E00631A8E691E65",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-atlanta-0e00631a8f331ed1",
@@ -1557,7 +3867,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-08-2026/event/0E00631A8F331ED1",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00631A8F331ED1",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-08-2026/event/0E00631A8F331ED1",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-atlanta-0e006325bea26298",
@@ -1577,7 +3917,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006325BEA26298",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f0e94aa7",
@@ -1597,7 +3967,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-12-2026/event/30006319F0E94AA7",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006319F0E94AA7",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-12-2026/event/30006319F0E94AA7",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f34a4abb",
@@ -1617,7 +4017,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006319F34A4ABB",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f41b4abf",
@@ -1637,7 +4067,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006319F41B4ABF",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f49f4acd",
@@ -1657,7 +4117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-18-2026/event/30006319F49F4ACD",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006319F49F4ACD",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-18-2026/event/30006319F49F4ACD",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006325205054e3",
@@ -1677,7 +4167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006325205054E3",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-boston-0100631aaef23ee8",
@@ -1697,7 +4217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100631AAEF23EE8",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-boston-0100631aca626435",
@@ -1717,7 +4267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100631ACA626435",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-boston-010063289ef611c4",
@@ -1737,7 +4317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010063289EF611C4",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319ddb22b1f",
@@ -1757,7 +4367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006319DDB22B1F",
+        "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319de3a2b37",
@@ -1777,7 +4417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-30-2026/event/31006319DE3A2B37",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006319DE3A2B37",
+        "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-30-2026/event/31006319DE3A2B37",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319dedc2b4c",
@@ -1797,7 +4467,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006319DEDC2B4C",
+        "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006319ddea2cd5",
@@ -1817,7 +4517,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006319DDEA2CD5",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-chicago-0400631adf313481",
@@ -1837,7 +4567,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-05-2026/event/0400631ADF313481",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400631ADF313481",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-05-2026/event/0400631ADF313481",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006325ad9f24a7",
@@ -1857,7 +4617,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006325AD9F24A7",
+        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c8ea13055",
@@ -1877,7 +4667,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-15-08-2026/event/3500631C8EA13055",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500631C8EA13055",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-15-08-2026/event/3500631C8EA13055",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c937630fa",
@@ -1897,7 +4717,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-16-08-2026/event/3500631C937630FA",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500631C937630FA",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-16-08-2026/event/3500631C937630FA",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c950d310b",
@@ -1917,7 +4767,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-19-08-2026/event/3500631C950D310B",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500631C950D310B",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-19-08-2026/event/3500631C950D310B",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c97193144",
@@ -1937,7 +4817,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-20-08-2026/event/3500631C97193144",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500631C97193144",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-20-08-2026/event/3500631C97193144",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c98a031b3",
@@ -1957,7 +4867,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-23-08-2026/event/3500631C98A031B3",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500631C98A031B3",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-23-08-2026/event/3500631C98A031B3",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4e94ebb",
@@ -1977,7 +4917,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-24-08-2026/event/35006324F4E94EBB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006324F4E94EBB",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-24-08-2026/event/35006324F4E94EBB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4fe4f2a",
@@ -1997,7 +4967,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-27-08-2026/event/35006324F4FE4F2A",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006324F4FE4F2A",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-27-08-2026/event/35006324F4FE4F2A",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f5075024",
@@ -2017,7 +5017,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-28-08-2026/event/35006324F5075024",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006324F5075024",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-28-08-2026/event/35006324F5075024",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4f54ef7",
@@ -2037,7 +5067,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-31-08-2026/event/35006324F4F54EF7",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006324F4F54EF7",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-31-08-2026/event/35006324F4F54EF7",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f50f50d8",
@@ -2057,7 +5117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-01-09-2026/event/35006324F50F50D8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006324F50F50D8",
+        "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-01-09-2026/event/35006324F50F50D8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-barcelona-653666176",
@@ -2077,7 +5167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/653666176",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "653666176",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/653666176",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-barcelona-1116290311",
@@ -2097,7 +5217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1116290311",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1116290311",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1116290311",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-417009905",
@@ -2117,7 +5267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/417009905",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "417009905",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/417009905",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1848567714",
@@ -2137,7 +5317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1848567714",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1848567714",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1848567714",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1589736692",
@@ -2157,7 +5367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1589736692",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1589736692",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1589736692",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-961888291",
@@ -2177,7 +5417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/961888291",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "961888291",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/961888291",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1852247887",
@@ -2197,7 +5467,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1852247887",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1852247887",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1852247887",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1341715816",
@@ -2217,7 +5517,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1341715816",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1341715816",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1341715816",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-412370092",
@@ -2237,7 +5567,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/412370092",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "412370092",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/412370092",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-2035589996",
@@ -2257,7 +5617,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/2035589996",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2035589996",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/2035589996",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1378879656",
@@ -2277,7 +5667,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1378879656",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1378879656",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1378879656",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1566404077",
@@ -2297,7 +5717,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1566404077",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1566404077",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1566404077",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-d-sseldorf-1604365108",
@@ -2317,7 +5767,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1604365108",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1604365108",
+        "url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1604365108",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-d-sseldorf-653946928",
@@ -2337,7 +5817,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/653946928",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "653946928",
+        "url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/653946928",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-arnhem-1578299680",
@@ -2357,7 +5867,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1578299680",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1578299680",
+        "url": "https://www.ticketmaster.nl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1578299680",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-arnhem-2018685385",
@@ -2377,7 +5917,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/2018685385",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2018685385",
+        "url": "https://www.ticketmaster.nl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/2018685385",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-london-3500629efc0c8bc1",
@@ -2397,7 +5967,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-27-06-2026/event/3500629EFC0C8BC1",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500629EFC0C8BC1",
+        "url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-27-06-2026/event/3500629EFC0C8BC1",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-london-350062a39074101f",
@@ -2417,7 +6017,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-28-06-2026/event/350062A39074101F",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350062A39074101F",
+        "url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-28-06-2026/event/350062A39074101F",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-stockholm-625835491",
@@ -2437,7 +6067,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/625835491",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "625835491",
+        "url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/625835491",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-stockholm-734104140",
@@ -2457,7 +6117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/734104140",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "734104140",
+        "url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/734104140",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-warsaw-1844913130",
@@ -2477,7 +6167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-bilety/1844913130",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1844913130",
+        "url": "https://www.ticketmaster.pl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-bilety/1844913130",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
@@ -2497,7 +6217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
+        "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
@@ -2517,7 +6267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
+        "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-brussels-1117180915",
@@ -2537,7 +6317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1117180915",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1117180915",
+        "url": "https://www.ticketmaster.be/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1117180915",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473d78cfdb8",
@@ -2557,7 +6367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006473D78CFDB8",
+        "url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473d9d109cb",
@@ -2577,7 +6417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-25-bronx-new-york-07-11-2026/event/1D006473D9D109CB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006473D9D109CB",
+        "url": "https://www.ticketmaster.com/jayz-25-bronx-new-york-07-11-2026/event/1D006473D9D109CB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473db760a7f",
@@ -2597,6 +6467,36 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-extra-innings-bronx-new-york-07-12-2026/event/1D006473DB760A7F",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006473DB760A7F",
+        "url": "https://www.ticketmaster.com/jayz-extra-innings-bronx-new-york-07-12-2026/event/1D006473DB760A7F",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   }
 ]

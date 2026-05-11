@@ -8,7 +8,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/c
 const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Find verified ticket options for major tours"],
+  ["/", "Find verified ticket links for major tours"],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -136,7 +136,7 @@ const publicCopyFiles = [
 
 const joinedPublic = (await Promise.all(publicUiFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Find verified ticket options for major tours"),
+  joinedPublic.includes("Find verified ticket links for major tours"),
   "homepage public-facing copy should be present"
 );
 await assertPublicCopySafe(publicCopyFiles);
@@ -234,7 +234,7 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   assert(/<link rel="canonical"/.test(text), `${pathname} should include a canonical URL`);
   assert(/<meta name="description"/.test(text), `${pathname} should include a meta description`);
   const h1 = extractH1(text);
-  const expected = expectedH1.get(pathname) || `${catalog.artists.find((artist) => `/artists/${artist.slug}` === pathname)?.name} stadium tour watch`;
+  const expected = expectedH1.get(pathname) || `${catalog.artists.find((artist) => `/artists/${artist.slug}` === pathname)?.name} ticket links and buying guidance`;
   assert(h1 === expected, `${pathname} should render route-specific H1 "${expected}", got "${h1}"`);
   if (functionBackedStaticRoutes.includes(pathname)) {
     assert(h1 !== expectedH1.get("/"), `${pathname} should not return the homepage H1 in raw HTML`);

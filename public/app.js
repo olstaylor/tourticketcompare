@@ -149,7 +149,7 @@ const guidePages = [
       ["What TourTicketCompare verifies", "We check that ticket buttons point to a real destination for the relevant artist or event. We do not verify every seat listing or final checkout total or availability."],
     ],
     faq: [
-      ["Does TourTicketCompare compare live prices today?", "Not yet. Live price comparison is coming later, so final prices and fees must be checked on the ticket provider site."],
+      ["Does TourTicketCompare compare live prices today?", "No. TourTicketCompare does not compare live prices. Final prices and fees should always be confirmed on the ticket provider site."],
       ["Why do totals change at checkout?", "Ticket providers may add fees, taxes, delivery charges, or currency conversion details during checkout."]
     ]
   },
@@ -169,7 +169,7 @@ const guidePages = [
     ],
     faq: [
       ["Can one site be cheaper than another?", "Sometimes, but it depends on the specific event, seat, fees, and seller terms. Always compare the final checkout total."],
-      ["Does TourTicketCompare rank providers by price?", "Not yet. Live provider price comparison is planned for later and will only be shown when the data is reliable."]
+      ["Does TourTicketCompare rank providers by price?", "No. We do not rank providers by price because final fees and inventory vary between events. Always compare the full checkout total on each site."]
     ]
   },
   {
@@ -527,7 +527,7 @@ function renderHome() {
   text(
     copy,
     "p",
-    "Checked ticket destinations, practical buying guidance, and no fake prices or invented dates.",
+    "Independent ticket research for major live music tours. Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees at checkout.",
     "hero-subcopy"
   );
   const actions = document.createElement("div");
@@ -540,16 +540,16 @@ function renderHome() {
       target.scrollIntoView({ behavior: "smooth" });
     }
   });
-  actions.append(browseCta);
+  actions.append(browseCta, buttonLink("Read buying guides", "/guides", "secondary"));
   copy.append(actions);
   const trust = document.createElement("aside");
   trust.className = "trust-ledger";
   text(trust, "h2", "Why fans can trust it");
   [
     "Independent and unofficial",
-    "Checked ticket links",
-    "No invented dates or fake prices",
-    "Prices, fees and availability confirmed at checkout"
+    "Checked ticket links where available",
+    "Practical buying guidance",
+    "Prices and fees confirmed at checkout"
   ].forEach((item) => text(trust, "p", item));
   hero.append(copy, trust);
 
@@ -765,11 +765,7 @@ function renderArtistsIndex() {
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => grid.append(renderArtistCard(artist)));
-  const note = document.createElement("section");
-  note.className = "nested-panel";
-  text(note, "h2", "Publishing status");
-  text(note, "p", "Artist pages remain useful even when no checked event link is available. Live price comparison is coming later; for now, we focus on verified links and practical buying guidance.");
-  section.append(grid, note);
+  section.append(grid);
   main.replaceChildren(section);
 }
 
@@ -897,11 +893,6 @@ function renderGuidesIndex() {
     "p",
     "Use these guides to answer practical ticket-buying questions before you leave for a provider site. Each guide focuses on checks fans can actually make: final totals, seat details, delivery timing, resale terms, and refund rules."
   );
-  text(
-    section,
-    "p",
-    "Live price comparison is coming later. For now, the guides help you compare options safely when verified links are available and avoid claims that are not backed by checkout details."
-  );
   const primer = document.createElement("section");
   primer.className = "nested-panel";
   text(primer, "h2", "Start here before you buy");
@@ -988,7 +979,7 @@ function renderHowItWorks() {
     renderInfoCard("We check official and approved sources", "Event cards and ticket links must be backed by sources we can review. We do not scrape unofficial listings."),
     renderInfoCard("We keep event links specific", "A ticket button on an event card must point to the checked destination for that exact show date, not a generic artist page."),
     renderInfoCard("We hide unchecked buttons", "If we cannot verify the ticket destination, we do not show a button just to make a page look fuller."),
-    renderInfoCard("We are building live comparison", "Live price comparison is coming later. Until then, final prices and fees are confirmed on the ticket provider site.")
+    renderInfoCard("We keep claims honest", "We do not display prices without verified provider data and do not make savings claims we cannot back up. Final prices and fees are set by the ticket provider.")
   );
   section.append(grid, renderGeneralFaq());
   main.replaceChildren(section);

@@ -11,7 +11,7 @@ Production is the Cloudflare Worker `tourticketcompare-live`.
 - Cloudflare Pages: preview/fallback only while Worker routes own the custom domains
 - Vercel: not production unless explicitly reintroduced later
 
-`npm run deploy` intentionally refuses to deploy so a production-sounding command cannot accidentally deploy the wrong platform. Use `npm run deploy:pages` only for the Pages preview/fallback path.
+`npm run deploy` and `npm run deploy:pages` are identical — both run `wrangler pages deploy public`. Neither guards against accidental deploys. Use `npm run deploy:pages:safe` to run smoke tests before deploying.
 
 See `docs/DEPLOYMENT.md` for beginner-friendly local checks, preview deploy steps, production Worker deploy guidance, and `/api/health` verification.
 # TourTicketCompare
@@ -176,7 +176,6 @@ Use these settings in Cloudflare Pages:
 The live custom domains currently route to Cloudflare Worker `tourticketcompare-live`, not directly to Cloudflare Pages. Treat Cloudflare Pages as preview/fallback only unless the Cloudflare routes are intentionally changed.
 
 For the full deployment procedure, see `docs/DEPLOYMENT.md`.
-- Production runtime: Cloudflare Pages
 - Root directory: repository root
 - Framework preset: None
 - Build command: leave blank, or run checks before manual deploy
@@ -237,17 +236,6 @@ Impact API scopes:
 
 ## Safety Checklist Before Deployment
 
-Use this command for Pages preview/fallback deploy:
-
-```bash
-npm run deploy:pages
-```
-
-Safer Pages preview/fallback deploy (runs strict data validation first):
-
-```bash
-npm run deploy:pages:safe
-```
 Before deployment, confirm:
 
 - Homepage clearly explains checked ticket links and buying guidance.
@@ -261,6 +249,18 @@ Before deployment, confirm:
 - No placeholder/example affiliate links are shown as real CTAs.
 - Impact credentials are not exposed in public assets or `/api/health`.
 - Public pages contain no internal/dev wording.
+
+Then deploy:
+
+```bash
+npm run deploy:pages:safe
+```
+
+Or without pre-flight checks:
+
+```bash
+npm run deploy:pages
+```
 
 ## Current Parked Issue
 

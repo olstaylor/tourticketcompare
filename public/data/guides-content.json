@@ -99,5 +99,285 @@
         }
       ]
     }
+  },
+  "/guides/best-time-to-buy-concert-tickets": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Deciding when to buy concert tickets is like timing a stock trade: too early and you might miss the best price, too late and they sell out or prices spike. This guide helps you understand the key timing windows, demand patterns, and strategies that separate fans who get great deals from those who overpay.\n\nThe truth is that the best time to buy is rarely the same twice. It depends on the artist, the venue, the day of the week, whether the concert is months away or weeks away, and how flexible you are about seating. But the principles remain the same."
+      },
+      {
+        "type": "section",
+        "title": "The First Sale Window: Early Bird Advantage",
+        "content": "For major artists and high-demand events, the first few minutes of a public onsale window offer tickets at their official face value before dynamic pricing kicks in.\n\n**Why timing matters here:** Primary ticketing platforms like Ticketmaster increasingly use dynamic pricing, which means prices rise as demand increases and inventory depletes. A £60 ticket at 10:00 AM might cost £90 by noon.\n\n**How to capture it:** Register for pre-sale notifications on the artist's official website or ticketing platform. If you are a member of a fan club or loyalty program, pre-sales often open 24–48 hours before the public onsale, giving you a significant advantage.\n\n**The catch:** High-demand events (sold-out artists, small venues, festival headliners) can sell out entirely in minutes. You need to be ready the moment tickets go live."
+      },
+      {
+        "type": "section",
+        "title": "Dynamic Pricing and Demand Cycles",
+        "content": "Understanding demand cycles helps you avoid the most expensive times to buy from primary sellers.\n\n**Within the first day:** Prices rise sharply as seats fill and demand peaks.\n\n**Days 2–7:** Demand softens slightly; some prices may dip if inventory remains high, but good seats stay expensive.\n\n**Weeks 2–4:** For events months away, prices may stabilize or drop slightly as the initial rush passes.\n\n**Months before the show:** Early ticket sales on distant dates are often cheapest, assuming inventory is still available.\n\n**Last-minute (final 7 days):** Prices on resale markets drop, but primary platforms may have limited or no inventory left.\n\nThe pattern is not guaranteed — sold-out events skip the discount phase entirely."
+      },
+      {
+        "type": "section",
+        "title": "Resale Markets: Wait for Motivation",
+        "content": "Resale prices follow a different curve. Fans who bought extra tickets or can no longer attend become motivated sellers in the days before a show.\n\n**Timing strategy:** Resale prices often drop most steeply in the **final 5–7 days** before the event, as sellers grow desperate to unload tickets.\n\n**Trade-off:** You gain lower prices but lose certainty. Good seats may vanish, event logistics tighten, and you receive tickets with less delivery time.\n\n**Buyer protection:** On verified platforms like StubHub and Twickets, you have recourse if a ticket fails to deliver before the event. Always check the seller's rating and delivery guarantee before committing."
+      },
+      {
+        "type": "section",
+        "title": "Genre and Artist Patterns",
+        "content": "Demand patterns vary by music type.\n\n**High-demand pop and rock tours:** Sell out quickly; best timing is the first onsale window. Resale is your only option afterward.\n\n**Genre-specific tours (country, metal, jazz):** May not sell out immediately. Prices can stay stable or drop slightly over 2–4 weeks.\n\n**Festival lineups:** Artists announced later in the lineup rarely have special onsales; tickets sell at the festival's primary rate. Some announce additional artists late, which can affect attendance expectations and resale pricing.\n\n**Smaller venues and emerging artists:** May have multiple onsale windows or extended sales periods. Less urgency exists to buy immediately."
+      },
+      {
+        "type": "section",
+        "title": "Day of Week and Time of Day Factors",
+        "content": "Some evidence suggests demand shifts by day:\n\n**Weekday matinée shows:** Often cheaper (lower demand) than weekend evening shows.\n\n**Friday and Saturday nights:** Peak demand; expect higher prices.\n\n**Announcement Tuesday through Thursday:** Tour announcements traditionally drop mid-week, with onsales often Friday or the following Tuesday. Buy early if you are ready.\n\n**Time of day:** Morning onsales sometimes have fresher inventory and fewer bottlenecks than evening sales when more people are active."
+      },
+      {
+        "type": "section",
+        "title": "Your Risk Tolerance Matters",
+        "content": "Timing strategy depends on how comfortable you are with uncertainty.\n\n**Risk-averse buyers:** Buy in the first onsale window. You secure seats at face value with no gamble on resale prices or availability.\n\n**Flexible buyers:** Wait 2–4 weeks. If demand is high and prices are rising, you can still secure seats at the initial onsale price. If demand is soft, prices may drop.\n\n**Opportunistic buyers:** Wait until 5–7 days before the show. Resale prices are at their lowest, but you risk missing the best seats and face tight delivery windows.\n\nPick the strategy that matches your comfort level and your flexibility on seating."
+      },
+      {
+        "type": "section",
+        "title": "Putting It Together: A Timing Checklist",
+        "content": "- **Register for pre-sale alerts** on the artist's website or fan club before the onsale is announced.\n- **Know the onsale date and time** and be ready to buy in the first minutes if the artist is in high demand.\n- **Check your preferred section's availability** on day one. If it is selling out, buy immediately. If plenty remain, you can afford to wait.\n- **Track resale prices** starting 2–3 weeks before the show. Set a price alert or check daily in the final week.\n- **Buy by day 7 before the show** at the latest. Delivery windows tighten, and inventory dwindles.\n- **Verify you are using verified platforms** (official ticketing site, StubHub, Twickets, Viagogo). Avoid unverified resellers or social media offers.\n- **Compare the total price** — not just the headline price — before committing. Fees and delivery costs change the story."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is it ever too late to buy concert tickets?**\n\nNo — as long as the event has not started, tickets are available somewhere. Resale markets stay active until showtime. But availability and price improve the closer you get to the event (until the final few days, when inventory may be depleted).\n\n**Do prices always drop before the show?**\n\nNot always. Sold-out or high-demand events have little resale activity and may have no price drops. Moderately popular events typically see softer resale pricing in the final week.\n\n**What if I can't buy on the first day?**\n\nFirst-day onsale is best for high-demand artists, but not essential. Track resale markets and primary seller inventory over the next 2–4 weeks. If demand is low and your section has inventory, you can often buy later at reasonable prices.\n\n**Should I set up a bot to buy before humans?**\n\nMany ticketing platforms prohibit automated purchasing. Using bots can result in your order being cancelled, your account banned, or legal action. It is not worth the risk.\n\n**Is buying resale safer than primary?**\n\nReputable resale platforms (StubHub, Twickets) offer buyer protections. Primary sources are official and direct. Both are safe as long as you use verified platforms and avoid unverified sellers."
+      },
+      {
+        "type": "section",
+        "title": "Conclusion",
+        "content": "The best time to buy concert tickets depends on demand, artist popularity, your risk tolerance, and seating flexibility. For most fans, buying in the first onsale window guarantees face-value pricing. For flexible fans, waiting 2–4 weeks or until the final week on resale markets can yield price savings — but with less certainty. Know your threshold, track the market, and commit when the time is right."
+      }
+    ]
+  },
+  "/guides/how-to-avoid-ticket-scams": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Concert ticket fraud costs fans millions every year. Fake tickets, counterfeit marketplaces, social media scams, and unauthorized resellers prey on fans in a hurry to get tickets to sold-out shows.\n\nThe good news: most scams are easy to spot if you know what to look for. This guide covers the most common fraud tactics, red flags to watch for, how to verify legitimate platforms, and what to do if you suspect a scam."
+      },
+      {
+        "type": "section",
+        "title": "Common Ticket Scam Types",
+        "content": "**Fake ticket websites:** Scammers create lookalike websites for Ticketmaster, StubHub, or other platforms. The URL is slightly wrong (ticketsmaster.com instead of ticketmaster.com), and the design is a near-perfect copy. You enter payment details, but the site is fake.\n\n**Counterfeit tickets:** You buy what you think are legitimate resale tickets, but they are photocopies or digitally fabricated. Entry is refused at the venue.\n\n**Social media offers:** Someone messages you on Instagram or Facebook offering \"deals\" on sold-out shows. They ask for payment via wire transfer, gift card, or cryptocurrency — methods with no buyer protection or recourse.\n\n**Unauthorized resellers:** A Craigslist or Facebook Marketplace seller offers tickets, takes your money, and disappears.\n\n**Phishing emails:** An email that looks like it is from Ticketmaster or your bank asks you to \"verify your account\" or \"update payment details.\" The link goes to a fake site that steals your credentials.\n\n**Scalper bots:** Accounts on resale platforms that buy large volumes on onsale day and flip them at massive markups, sometimes with fabricated tickets mixed in."
+      },
+      {
+        "type": "section",
+        "title": "Red Flags That Signal a Scam",
+        "content": "**Price too good to be true:** If resale tickets for a sold-out show are suspiciously cheap, something is wrong. Scammers often offer \"deals\" that match or beat face value on events that should be marked up.\n\n**Pressure to buy immediately:** \"This deal expires in 2 hours\" or \"Three other buyers are interested\" are classic pressure tactics. Legitimate sellers do not use artificial urgency.\n\n**Payment methods without protection:** Wire transfers, gift cards, cash app, and cryptocurrency have no buyer protection. Legitimate platforms use credit cards, PayPal, or platform-backed payment systems.\n\n**Website URL looks slightly off:** ticketsmaster.com, ticketmaster-official.com, or seatgeek-resale.com are common spoofs. Always check the URL carefully.\n\n**No seller information:** Legitimate resellers have ratings, verified identities, or transaction history. Anonymous sellers with no reviews are a major red flag.\n\n**Asking for payment outside the platform:** If someone on StubHub asks you to pay them directly via PayPal or Venmo to \"save fees,\" walk away. That is how scammers operate.\n\n**Blurry or missing seat location details:** Legitimate resellers show seat sections, row numbers, and how the view looks from those seats. Vague listings are often fake.\n\n**Requests for personal information:** Legitimate ticket sellers never need your Social Security number, passport details, or bank account information."
+      },
+      {
+        "type": "section",
+        "title": "How to Verify Legitimate Platforms",
+        "content": "**Start with the official artist website:** Most artists link directly to authorized ticketing partners. This is always the safest first stop.\n\n**Check the URL carefully:** Legitimate sites use the exact official domain (ticketmaster.com, not ticketmaster-us.com or ticketmasters.com).\n\n**Look for HTTPS and a padlock:** Your browser should show a lock icon and https:// in the address bar, indicating an encrypted connection.\n\n**Check the seller's rating:** On StubHub, Twickets, Viagogo, and similar platforms, always check seller ratings and recent reviews. Sellers with hundreds of sales and 4.5+ stars are lower-risk than new or poorly-rated sellers.\n\n**Verify buyer protection:** Legitimate resale platforms offer guarantees that protect you if a ticket fails to deliver or is invalid. StubHub, Twickets, and Viagogo all offer this. Craigslist, Facebook Marketplace, and direct messages do not.\n\n**Use two-factor authentication:** If buying from a platform where you have an account (your ticketing account, PayPal, etc.), enable two-factor authentication to prevent unauthorized access.\n\n**Call the venue or platform directly:** If something feels off, call the official venue box office or the platform's customer service using the number on their official website. Ask if the listing or seller is legitimate."
+      },
+      {
+        "type": "section",
+        "title": "Before You Complete Purchase: Final Checks",
+        "content": "- **Confirm the event details:** Artist name, date, venue, and show time should all be correct. Scammers sometimes copy listings for the wrong date or wrong venue.\n- **Verify the seat location:** Know where your seat is. If the seller cannot provide a clear seat map or row number, do not buy.\n- **Review the delivery method:** Mobile transfer, print-at-home, or shipped? Confirm the delivery timeline allows the ticket to reach you before the event.\n- **Check the seller's delivery guarantee:** What happens if the ticket does not arrive? Is there a window to report a problem and get a refund?\n- **Read the return policy:** Some resale platforms do not allow returns once purchased. Understand the terms before clicking confirm.\n- **Screenshot everything:** Take screenshots of the listing, seller information, and all communications. This helps if you need to dispute a charge later.\n- **Use a credit card, not a debit card:** Credit card companies offer stronger fraud protections than debit cards."
+      },
+      {
+        "type": "section",
+        "title": "What to Do If You Suspect a Scam",
+        "content": "**If you have not yet paid:** Walk away. Do not engage further with the seller or platform.\n\n**If you paid but have not received the ticket:** Contact the platform immediately if you used a verified seller (StubHub, Twickets, etc.). File a support request and provide all documentation. Most platforms will refund you or resend the ticket.\n\n**If you paid via credit card:** Contact your credit card issuer immediately and report the fraudulent charge. They can dispute it and reverse the charge.\n\n**If you paid via bank transfer or wire:** Contact your bank immediately. Wire fraud is difficult to reverse, but your bank may be able to recover some funds if you act quickly.\n\n**If you paid via gift card or cryptocurrency:** These methods are nearly impossible to reverse. Contact the platform or currency exchange immediately, but recovery is unlikely.\n\n**If the ticket is fake or does not work:** Inform the venue security immediately. Ask for documentation of the failed entry attempt. This helps if you dispute the charge or report fraud.\n\n**Report to authorities:** File a report with your local police, the Federal Trade Commission (US), or your country's equivalent agency. Include all transaction details and communications."
+      },
+      {
+        "type": "section",
+        "title": "Golden Rules to Avoid Scams",
+        "content": "- Only buy from official ticketing platforms or verified resale marketplaces with buyer protection.\n- Never pay via wire transfer, gift card, or cash app for event tickets.\n- Always verify the URL and check for HTTPS.\n- Check seller ratings and reviews before purchasing.\n- If a deal seems too good, it is.\n- Do not respond to unsolicited ticket offers on social media.\n- Use a credit card for online purchases.\n- Confirm all event details and seat information before completing a purchase.\n- Report suspicious activity to the platform and authorities."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is it safe to buy tickets from Facebook Marketplace or Craigslist?**\n\nThese platforms have minimal buyer protection. If a seller is verified and has excellent reviews, the risk is lower, but there is no platform-backed guarantee. If a ticket is fake or the seller disappears, you have limited recourse.\n\n**What if I already bought from a scammer?**\n\nContact your payment method immediately (credit card issuer, PayPal, etc.) and report the fraud. For credit card and PayPal transactions, dispute charges. For cash transfers, contact your bank to see if recovery is possible.\n\n**How do I know if a ticket is real when it is handed to me in person?**\n\nAsk to see the barcode or QR code. Try scanning it with the venue app if available. Check the printing quality and security features. If something seems off, do not complete the transaction.\n\n**Are there any legitimate ticket resale sites besides StubHub?**\n\nYes. Verified platforms include Twickets, Viagogo, AXS Official Resale, Ticketmaster Fan Exchange, SeatGeek, and regional platforms depending on your location. All of these offer buyer protection."
+      },
+      {
+        "type": "section",
+        "title": "Conclusion",
+        "content": "Ticket scams are common, but they are preventable. Use verified platforms, verify seller information, check URLs carefully, and avoid pressure tactics or unusual payment methods. If something feels off, trust your instinct — the ticket will still be available elsewhere, and it is not worth the risk of losing money to a scammer."
+      }
+    ]
+  },
+  "/guides/why-ticket-prices-change": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Why does the same concert ticket cost £60 one moment and £100 the next? Why is the headline price so different from what you pay at checkout? Understanding ticket pricing mechanics helps you make smarter buying decisions and avoid overpaying.\n\nTicket prices are not fixed. They change based on demand, inventory, fees, seller motivation, and platform strategy. This guide walks you through the forces that drive those changes."
+      },
+      {
+        "type": "section",
+        "title": "Dynamic Pricing: How Primary Platforms Adjust Prices",
+        "content": "Major ticketing platforms like Ticketmaster increasingly use dynamic pricing — a system where prices rise and fall based on real-time demand, inventory, and the strength of interest in a specific section or show.\n\n**How it works:** When tickets first go on sale, they are priced at the official face value set by the artist and venue. As demand increases and inventory decreases, the system automatically raises prices. By the time 50% of the best seats have sold, prices may have doubled.\n\n**Why platforms do this:** Dynamic pricing maximizes revenue. Instead of leaving money on the table by selling premium seats at face value when demand is high, platforms capture the additional value that high-demand events generate.\n\n**The impact on you:** A £60 ticket purchased at 10:00 AM might cost £120 by noon. This is why buying in the first moments of an onsale matters for high-demand artists.\n\n**Which sections are affected most:** Front-row, center stage, and premium sections experience the steepest price rises. Upper balcony and standing room usually see smaller increases because fewer buyers are competing for those areas."
+      },
+      {
+        "type": "section",
+        "title": "Supply and Demand: The Core Driver",
+        "content": "The fundamental law: when demand exceeds supply, prices rise. When supply exceeds demand, prices fall.\n\n**High-demand scenarios:** A sold-out artist, a tiny venue, a once-in-a-decade tour, or a beloved artist's final shows all create intense demand and rising prices.\n\n**Low-demand scenarios:** A new or lesser-known artist, a large venue with many shows, or a less-desirable date (weekday matinée) creates softer demand and stable or falling prices.\n\n**Time-based shifts:** Demand is highest when tickets first go on sale. It softens mid-cycle, then spikes again a few weeks before the show as last-minute buyers enter the market.\n\n**Resale markets respond even faster:** Resale prices on StubHub, Viagogo, and Twickets reflect moment-to-moment supply and demand. A broken news story about the artist, a viral social media moment, or even weather on concert day can swing prices sharply."
+      },
+      {
+        "type": "section",
+        "title": "Platform Fees: The Hidden Component of Price",
+        "content": "The headline price shown on a ticketing website is never the final price. Fees layer on top, and they vary significantly by platform.\n\n**Common fees include:**\n- **Service/booking fee:** 10–25% on top of ticket price\n- **Facility/venue fee:** Set by the venue, typically 2–8%\n- **Payment processing fee:** 1–3%\n- **Delivery fee:** £0–£8 depending on physical or digital delivery\n- **Buyer protection fee:** On resale platforms, typically 2–5%\n\n**Fee variation:** Two platforms selling the same ticket at the same face value can differ by £15–£30 at checkout because of different fee structures.\n\n**Why fees differ:** Primary platforms like Ticketmaster have negotiated rates with venues and artists. Smaller platforms may charge higher fees. Resale platforms add buyer protection costs.\n\n**The math:** A £70 ticket with a £15 service fee and a £4 delivery fee costs £89 total — 27% more than the headline price."
+      },
+      {
+        "type": "section",
+        "title": "Resale Market Markup: Why Secondary Tickets Cost More",
+        "content": "On resale platforms like StubHub, sellers set their own prices. These are always higher than face value because:\n\n**Scarcity premium:** If primary tickets are sold out, resale is the only option. Sellers capture this monopoly premium.\n\n**Seller motivation:** A seller who paid £60 for a ticket months ago and now cannot attend might list it at £90 to recoup the cost plus delivery and fees.\n\n**Demand shifts:** A tour becomes more popular after announcement. Original buyers now see tickets worth more than they paid.\n\n**Convenience cost:** Buyers are paying for the convenience of not waiting in a queue on onsale day or risk the show selling out.\n\n**Platform leverage:** Resale platforms charge buyers a protection fee and charge sellers a commission, adding to the total cost.\n\n**Timing dynamics:** Resale markups are highest in the days immediately after onsale (when scarcity is acute) and lowest in the final week before the show (when sellers are motivated to sell)."
+      },
+      {
+        "type": "section",
+        "title": "Time-Based Price Changes",
+        "content": "Prices move predictably over time:\n\n**Onsale day:** Prices are at face value (on primary platforms). Resale listings appear at high markups due to scarcity.\n\n**Days 2–7:** Primary prices rise with demand. Resale prices remain elevated.\n\n**Weeks 2–4:** Primary prices stabilize or soften slightly if inventory remains. Resale prices stabilize as the novelty of scarcity wears off.\n\n**Months before the show:** Prices on distant events are often cheaper as the excitement fades. Inventory is plentiful.\n\n**Final 7 days:** Primary platforms may have limited inventory left. Resale prices drop as sellers become motivated.\n\n**Final 48 hours:** Last-minute resale deals appear, but availability is low. Primary inventory is nearly gone."
+      },
+      {
+        "type": "section",
+        "title": "Artist and Genre Patterns",
+        "content": "Pricing patterns differ by artist type:\n\n**Established stars:** High initial demand, rapid price spikes, quick sellouts. Prices stay high or rise on resale.\n\n**Festival lineups:** Prices are set by the festival, not by individual artists. Late-added headliners can drive overall demand and prices.\n\n**Emerging or niche artists:** Softer initial demand, stable or declining prices, longer sales windows.\n\n**Annual residencies or multiple shows:** Each night has independent pricing. A less desirable night (e.g., a weeknight) may be cheaper than a weekend show.\n\n**Genre effects:** Pop and rock typically see higher demand and faster price escalation. Genre-specific genres (jazz, classical, metal) may have smaller audiences and softer pricing."
+      },
+      {
+        "type": "section",
+        "title": "Inventory Depletion: How Seat Availability Affects Price",
+        "content": "As seats sell, prices rise — but not uniformly:\n\n**Premium sections sell out first:** Front rows, center stage, and floor seats are most desirable. These hit higher prices faster and sell out sooner.\n\n**Secondary sections remain longer:** Upper balcony and obstructed view seats take longer to sell. Prices may remain stable or even drop if not moving.\n\n**Sellout point:** Once a show is officially sold out, primary inventory is gone. Resale becomes the only option, and prices typically rise as secondary market activity increases.\n\n**Inventory surprises:** Occasionally, a platform releases additional inventory (additional rows opened, new allocation from a partner). This can temporarily soften prices."
+      },
+      {
+        "type": "section",
+        "title": "Why the Headline Price Lies",
+        "content": "The stated price (£60) is almost never what you pay (£89+). This confusion is intentional but inevitable given how fees work:\n\n**Headline price = ticket face value only.** It does not include service fees, facility fees, delivery costs, or buyer protection.\n\n**Checkout total = everything.** This is the only number that matters. Always compare platforms by final checkout total, never by headline price.\n\n**Why this persists:** Platforms are legally allowed to show the \"starting price\" prominently and disclose fees later. It is a marketing practice that drives clicks but frustrates buyers.\n\n**How to counteract it:** Always add fees mentally before deciding. Get to the checkout screen of each platform and compare final totals, not headlines."
+      },
+      {
+        "type": "section",
+        "title": "Putting It Together: A Pricing Checklist",
+        "content": "- **Expect primary platform prices to rise with demand** in the first hours and days of onsale.\n- **Resale prices are always higher than face value** — you are paying for scarcity and convenience.\n- **Always compare final checkout totals across platforms,** not headline prices.\n- **Fees vary by platform** — small differences in stated price can become large differences at checkout.\n- **Time your purchase strategically:** First onsale for cheap prices, or final week on resale for the best secondary deals.\n- **Understand you are never comparing apples to apples** — a £85 ticket on StubHub and a £60 ticket on Ticketmaster are at very different inventory and demand stages.\n- **Accept that prices are opaque and dynamic.** Platforms do not broadcast pricing algorithms, and prices change moment to moment. This is the current state of ticketing."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Why do different platforms charge different prices for the same show?**\n\nFee structures vary by platform. Ticketmaster, AXS, and other primary sellers have different negotiated fees with venues. Resale platforms add buyer protection costs. Use a comparison tool or check multiple platforms and compare final checkout prices, not headlines.\n\n**Can I avoid dynamic pricing?**\n\nNot on primary platforms that use it — you cannot opt out. You can avoid the worst of it by buying in the first minutes of onsale. Or you can accept it and buy later when inventory is plentiful (if the show has not sold out).\n\n**Are resale platforms more expensive?**\n\nAlways. Resale prices are set by sellers and are always above face value. You are paying for scarcity and convenience. The only time resale can be cheaper is in the final days before a show when sellers are motivated — but then inventory is low.\n\n**Why do concert promoters allow platforms to use dynamic pricing?**\n\nThey benefit from it. Higher prices on sold-out or high-demand events mean higher royalties and fees for promoters. The downside is that fans pay more."
+      },
+      {
+        "type": "section",
+        "title": "Conclusion",
+        "content": "Concert ticket prices change because of dynamic pricing algorithms, supply and demand, fees, resale markup, and time-based shifts. Understanding these forces helps you time your purchase wisely, compare platforms fairly, and avoid overpaying. Always check the final checkout total, never the headline price — that is where the real cost reveals itself."
+      }
+    ]
+  },
+  "/guides/ticketmaster-vs-stubhub": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Ticketmaster and StubHub dominate the concert ticket market, but they are fundamentally different: one is official (primary), the other is resale (secondary). Choosing between them depends on your timing, seat preference, and risk tolerance.\n\nThis guide breaks down how each platform works, their strengths and weaknesses, and when to use each one."
+      },
+      {
+        "type": "section",
+        "title": "Ticketmaster: The Official Primary Seller",
+        "content": "**What it is:** Ticketmaster is the official primary ticketing platform for most major concerts, venues, and festivals across North America, Europe, and beyond. Artists and venues use Ticketmaster to sell tickets at the official face value set by the promoter.\n\n**How it works:**\n- Tickets go on sale on a specific date and time\n- Prices start at the official face value set by the venue or artist\n- Prices increase with demand using dynamic pricing\n- Delivery is instant (mobile/email) or can be shipped\n- No buyer choice of seat — inventory is controlled by the platform\n\n**Strengths:**\n- Guaranteed legitimacy — you are buying from the official source\n- Lowest starting price — face value, before fees\n- Largest inventory for major events\n- Secure platform with buyer protections\n- Often the only place where presales and special access is available (fan club, venue member access, etc.)\n\n**Weaknesses:**\n- Dynamic pricing means prices rise quickly after onsale begins\n- Service fees are added (typically 15–25% on top of face value)\n- Can be slow or crash during popular onsales\n- Limited seating choice once you are in the system\n- Presales and onsales are not always transparent or fair\n- Resale through Ticketmaster's Fan Exchange is limited in some regions"
+      },
+      {
+        "type": "section",
+        "title": "StubHub: The Resale Marketplace",
+        "content": "**What it is:** StubHub is a secondary marketplace where fans sell tickets to other fans. No event is official on StubHub — every listing is a used ticket being resold by a previous buyer.\n\n**How it works:**\n- Buyers list tickets at whatever price they choose\n- Prices reflect current demand, scarcity, and seller motivation\n- You can see all available listings and choose your exact seat\n- You pay StubHub fees for buyer protection\n- Delivery is via email, mobile transfer, or shipping\n- Transactions are guaranteed by StubHub (buyer protection)\n\n**Strengths:**\n- Prices drop significantly in the final days before an event\n- You can see the exact seat location and view before buying\n- Inventory is often available for sold-out events\n- No dynamic pricing — price is the price the seller lists\n- Buyer protection guarantee means you are covered if a ticket fails to deliver\n- Wide selection of events due to resale activity\n\n**Weaknesses:**\n- Prices are always higher than face value (seller markup)\n- Buyer protection fees add 2–5% to the total cost\n- Less inventory early in the ticket cycle\n- Riskier if you are flexible on seating — you need to choose from available listings\n- No guaranteed legitimacy — relies on seller rating and buyer protection\n- Delivery windows can be tight depending on how close to the event you purchase"
+      },
+      {
+        "type": "section",
+        "title": "Feature Comparison Table",
+        "content": "| Feature | Ticketmaster | StubHub |\n| --- | --- | --- |\n| **Type** | Primary official seller | Secondary resale marketplace |\n| **Starting Price** | Face value (official) | 20–50%+ markup |\n| **Price Changes** | Dynamic pricing (rises with demand) | No dynamic pricing (seller-set, fixed per listing) |\n| **Fees** | 15–25% service fee | 2–5% buyer protection fee |\n| **Total Cost Example** | £60 ticket → £78 total | £60 ticket → £95+ total |\n| **Inventory Availability** | Highest at onsale, depletes quickly | Growing as event nears, peaks in final week |\n| **Seat Selection** | Controlled allocation, not always visible | Full visibility; choose exact seat |\n| **Delivery Time** | Instant (mobile) to 1–2 weeks (shipped) | Instant to 1–2 weeks depending on seller |\n| **Buyer Protection** | Refund policy (limited) | Full guarantee if ticket fails to deliver |\n| **Safety** | Guaranteed legitimate | Dependent on seller rating |\n| **Best Timing** | First hours of onsale | 5–7 days before event |\n| **Refund Policy** | Restrictive; mostly non-refundable | Seller-dependent; platform guarantees delivery |"
+      },
+      {
+        "type": "section",
+        "title": "When to Use Ticketmaster",
+        "content": "**Buy on Ticketmaster if:**\n- You want the cheapest starting price (face value)\n- You want guaranteed access to an official onsale (not resale)\n- You want instant delivery via mobile ticket\n- You do not have seating flexibility and will accept whatever is available\n- You want the security of an official purchase\n- You are buying for an event on your first day of onsale, before prices spike\n\n**Example scenario:** A major artist announces an onsale for 10:00 AM Friday. You want the best price and do not mind which section. Buy on Ticketmaster in the first hour before dynamic pricing takes hold."
+      },
+      {
+        "type": "section",
+        "title": "When to Use StubHub",
+        "content": "**Buy on StubHub if:**\n- You missed the primary onsale or it sold out\n- You are flexible on timing and can wait until prices drop (final week)\n- You have a specific seat preference and want to see the exact location first\n- You value the buyer protection guarantee\n- You are buying for a sold-out event and resale is your only option\n- You are willing to pay a markup for the convenience and certainty of a specific seat\n\n**Example scenario:** An event sold out on Ticketmaster within minutes. You check StubHub a week before the show and see prices have dropped by 15–20%. You find good seats in your preferred section and buy with the safety of StubHub's buyer protection."
+      },
+      {
+        "type": "section",
+        "title": "Price Comparison: Real Example",
+        "content": "**Event:** Concert on a Saturday, 2,000-person venue, sold out on Ticketmaster.\n\n**Option 1 — Ticketmaster at onsale (first hour):**\n- Face value: £65\n- Service fee (22%): £14.30\n- Delivery: Free (mobile)\n- **Total: £79.30**\n- Buyer can get any available seat at this price\n\n**Option 2 — StubHub (mid-week, 10 days before show):**\n- Reseller asking price: £105\n- Buyer protection fee (2%): £2.10\n- Service fee (StubHub): £10.50\n- **Total: £117.60**\n- Buyer can see exact seat location and choose from available listings\n\n**Option 3 — StubHub (final 7 days):**\n- Reseller asking price: £85 (seller motivated)\n- Buyer protection fee (2%): £1.70\n- Service fee: £8.50\n- **Total: £95.20**\n- Better price due to seller motivation; good seats may be sold out\n\n**Takeaway:** Ticketmaster offers the best price on onsale day. StubHub offers deals later, but only if you are willing to wait and accept what is available."
+      },
+      {
+        "type": "section",
+        "title": "Avoiding Scams on Both Platforms",
+        "content": "**On Ticketmaster:**\n- Verify you are using the official ticketmaster.com (not a lookalike)\n- Only buy during official onsales, not from third-party listings\n- Use your secure account or credit card\n\n**On StubHub:**\n- Check the seller's rating (aim for 4.5+ stars)\n- Read recent reviews from buyers\n- Verify the listing shows a clear seat location\n- Confirm the delivery guarantee is in place\n- Only buy if the seller's guarantee covers delivery before the event\n- Report suspicious listings to StubHub\n\n**General rule:** Only use official Ticketmaster or StubHub, never third-party resellers or social media offers."
+      },
+      {
+        "type": "section",
+        "title": "Which Offers Better Value?",
+        "content": "**Ticketmaster = Better value for new sales.** If you want the lowest price and can commit to buying on onsale day, Ticketmaster wins.\n\n**StubHub = Better value for strategic timing.** If you can wait until the final week and want a specific seat, StubHub may offer better value despite the higher total price, because you are buying exactly what you want.\n\n**The hybrid approach:** Set up price alerts on Ticketmaster for the onsale. If you miss it or prices are too high, monitor StubHub resale prices starting 2 weeks before the event. Buy when the price reaches your threshold."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is StubHub safe?**\n\nYes. StubHub offers a buyer guarantee that protects you if a ticket fails to deliver or is invalid. The platform verifies sellers and has a strong reputation. The main risk is seller-level (choosing a low-rated or new seller), but the platform backs your purchase.\n\n**Can I return tickets bought on Ticketmaster?**\n\nTicketmaster's refund policy is restrictive. Most tickets are non-refundable. Some events allow returns within a specific window, but this is rare. Check the specific event's refund policy at checkout.\n\n**Why is StubHub always more expensive?**\n\nBecause it is resale. Sellers are not obligated to sell at face value — they can mark up tickets based on scarcity and demand. You are paying for the convenience of buying outside the primary onsale and for the ability to choose your exact seat.\n\n**Can I use both platforms for the same event?**\n\nYes. You can buy on Ticketmaster at onsale and monitor StubHub simultaneously. If Ticketmaster prices are too high due to dynamic pricing, you can wait and buy on StubHub later. Or go with whichever platform has your preferred seat and price combination.\n\n**What if I buy on Ticketmaster and prices drop on StubHub?**\n\nYou are locked in. Ticketmaster is generally non-refundable, so you cannot recoup the difference. This is why monitoring both platforms in the days after onsale can help you decide whether to commit to Ticketmaster or wait for StubHub prices to soften."
+      },
+      {
+        "type": "section",
+        "title": "Conclusion",
+        "content": "Ticketmaster and StubHub serve different needs. Use Ticketmaster for the best starting price if you are ready to buy on onsale day. Use StubHub if you want a specific seat, prefer buyer protection, or are willing to wait for prices to drop. Many fans use both: buy on Ticketmaster if the price is right, or monitor StubHub if you missed the sale or are willing to wait."
+      }
+    ]
+  },
+  "/guides/how-resale-ticket-pricing-works": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Concert tickets on resale platforms like StubHub often cost 50–200% more than the original face value. Understanding why helps you spot fair deals and avoid overpaying.\n\nThis guide walks you through the mechanics of resale pricing: why markups exist, what drives prices up and down, and how to identify whether a resale listing is priced fairly or is a ripoff."
+      },
+      {
+        "type": "section",
+        "title": "Why Resale Markups Exist",
+        "content": "Resale markups are not arbitrary — they are driven by basic supply and demand.\n\n**Scarcity premium:** If primary tickets sold out in minutes, resale is now the only way to get a ticket. Sellers know this and can command a premium.\n\n**Seller cost recovery:** A fan who paid £60 for a ticket three months ago and can now no longer attend might list it at £90 to recoup the cost plus delivery and platform fees.\n\n**Demand changes:** An artist's profile rises after announcement. Early buyers who paid face value now see their tickets worth significantly more.\n\n**Seat quality arbitrage:** A fan who wanted a poor seat and paid £40 for it can flip it for £70 if the market has moved and that seat is scarce. Or a fan with a good seat can ask a premium because the section is in high demand.\n\n**Convenience tax:** Buyers are paying for the convenience of not waiting in a digital queue on onsale day and for the ability to choose their exact seat from available options.\n\n**The math:** A £60 face value ticket that sells for £100 on resale represents a £40 markup — that is the \"premium\" the seller and platform capture together."
+      },
+      {
+        "type": "section",
+        "title": "How Seller Motivation Affects Price",
+        "content": "Sellers move from motivated to unmotivated over time, and prices follow:\n\n**Days 1–3 after onsale:** Sellers who bought extras or got lucky are thrilled. They list at the highest markup because scarcity is acute. A £60 ticket might list for £150.\n\n**Days 4–14:** Initial enthusiasm fades. Some sellers list at the original high prices, but prices begin to soften as inventory accumulates.\n\n**Days 15–30 (final 7 days):** A seller who cannot attend is now motivated. They realize they are unlikely to sell at £150. They drop to £85, then £75, then £65 + fees to offload the ticket. This is when the best resale deals appear.\n\n**Final 48 hours:** Last-chance desperation. Some sellers drop below face value just to move the ticket and avoid a wasted sale. These are the deepest discounts, but inventory is nearly gone.\n\n**After the event:** Any unsold tickets become worthless. Sellers who procrastinated take massive losses.\n\n**The principle:** Sellers value getting *something* over the risk of *nothing*. The closer to showtime, the more willing sellers are to accept lower prices."
+      },
+      {
+        "type": "section",
+        "title": "Platform Fees and How They Affect Total Price",
+        "content": "Resale platforms like StubHub take a cut and layer fees:\n\n**Seller commission:** StubHub charges sellers 10–35% commission depending on the event type and tier.\n\n**Buyer fees:** Buyers pay a buyer's fee (2–5%) plus a processing fee and sometimes a delivery fee.\n\n**Total fee burden:** A £100 ticket might result in the seller netting only £65 and the buyer paying £110 total.\n\n**Fee impact on pricing:** Sellers often build anticipated fees into their asking price. If they want to net £70 after a 30% StubHub commission, they list at £100. This is why the sticker price is almost never what sellers actually receive.\n\n**Fee transparency:** StubHub shows buyer fees at checkout; seller fees are not always visible to buyers. This is why asking prices can seem high — the seller is pre-accounting for the commission they will lose."
+      },
+      {
+        "type": "section",
+        "title": "Demand Multipliers: What Drives Prices Up",
+        "content": "Certain factors cause resale prices to spike:\n\n**Artist popularity surge:** An artist releases a hit album or wins a major award. Existing tickets suddenly become more valuable. Resale prices spike.\n\n**Limited venue:** A small venue or an intimate show drives scarcity and high prices. A stadium show disperses demand across many shows; prices are softer.\n\n**Event rarity:** A farewell tour, a special anniversary, or a reunion drives extraordinary demand. Prices reflect this.\n\n**Seat location:** Front rows, center stage, and floor seats command premiums. Upper balcony and obstructed seats are cheaper.\n\n**Time proximity:** The same ticket is worth more two weeks before a show than three months before. Urgency drives prices.\n\n**External hype:** A viral social media moment, a festival announcement, or media coverage of the artist drives sudden demand and price spikes.\n\n**Weather or event news:** A venue booking or a tour expansion announcement can shift demand and resale prices for related events."
+      },
+      {
+        "type": "section",
+        "title": "Identifying Fair vs Overpriced Resale Listings",
+        "content": "**How to spot fair pricing:**\n- The listing price is 20–40% above face value for a recent onsale event\n- The seller has a good rating (4.5+ stars)\n- The seat location is clearly listed and visible on the venue map\n- The delivery is guaranteed to arrive before the event\n- The listing is at least 7–10 days from showtime (more time = reasonable prices)\n\n**How to spot overpriced listings:**\n- The price is 100%+ markup for a regular show (not a special event)\n- The seller has a low rating or is new with no reviews\n- The listing lacks seat details or provides vague information\n- The delivery window is tight (less than 48 hours before the show)\n- The asking price seems wildly higher than other listings for the same show\n- The seller shows urgency language (\"LAST FEW TICKETS\", \"ENDING SOON\") without justifying the premium\n\n**Fair pricing examples:**\n- £60 face value → £75–£85 resale (fair for a popular event)\n- £100 face value → £130–£150 resale (fair for a high-demand show)\n- £40 face value → £50–£60 resale (fair for a lower-tier event)\n\n**Overpriced examples:**\n- £60 face value → £200+ for a regular show (unless it is the day of the event)\n- New seller with no reviews listing at 150%+ markup (usually a scam or inexperienced seller)\n- Tight delivery window with high price (seller is hoping for desperation)"
+      },
+      {
+        "type": "section",
+        "title": "Why Last-Minute Resale is Sometimes Cheaper than Primary",
+        "content": "Counterintuitively, resale in the final week can be cheaper than what primary ticketing costs:\n\n**Scenario:** A show sold out on Ticketmaster at face value £65, but dynamic pricing meant final buyers paid £95.\n\nOne week before the show, a seller on StubHub lists at £75 because they cannot attend. After fees, the buyer pays £80 total — still cheaper than the £95 dynamic price paid by late Ticketmaster buyers.\n\n**Why this happens:** Motivated sellers understand they need to undercut dynamic pricing to move tickets. Resale becomes competitive with — and sometimes beats — primary pricing in the final days.\n\n**The catch:** Inventory is limited. The best seats are gone, and you are picking from what remains. But if you are flexible on seating, final-week resale can offer surprisingly good value."
+      },
+      {
+        "type": "section",
+        "title": "Regional and Genre Variations in Pricing",
+        "content": "Resale pricing varies by region and music type:\n\n**Urban markets:** Major cities have higher demand and higher resale markups. A show in London or New York sees steeper markups than a regional tour stop.\n\n**Popular genres:** Pop, rock, and hip-hop tours see aggressive resale markups. Niche genres see softer demand and lower markups.\n\n**Festival tiers:** A festival headliner ticket has a higher markup than a mid-card artist ticket at the same festival, even if face value is the same.\n\n**International tours:** Demand varies by country. A artist's hometown show might see higher markups than a distant market.\n\n**Seasonal patterns:** Summer outdoor concerts see higher resale markups than winter indoor shows (more planning, broader appeal)."
+      },
+      {
+        "type": "section",
+        "title": "Checklist: Is This Resale Deal Worth Buying?",
+        "content": "Before you commit to a resale purchase, check:\n\n- **Seller rating:** 4.5+ stars? Recent positive reviews?\n- **Delivery guarantee:** Does the seller's profile confirm delivery before the event?\n- **Seat location:** Can you see the exact seat, row, and section? Does it match your preferences?\n- **Price fairness:** Is this 20–50% above face value, or is it a wild markup?\n- **Time to event:** More than 7 days away? (Provides safety margin for delivery.)\n- **Venue view:** Have you checked the seat view from that location? Is the view acceptable?\n- **Platform protection:** Is this on a verified platform (StubHub, Twickets, Viagogo) with buyer guarantee?\n- **Final total:** Have you calculated the final cost including fees? Does it fit your budget?\n- **Comparable listings:** Are other sellers listing similar seats at lower prices?\n- **Alternative options:** Would waiting until the final week yield a better price, or is this acceptable now?"
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Why are some resale tickets cheaper than the original face value?**\n\nRarely, but it happens. A seller who desperately needs to offload a ticket may list below face value in the final days. This is usually a sign that demand for that event has softened. Or a seller made a mistake and listed too low. These deals are rare but real.\n\n**Is it ever worth paying 200% markup for resale?**\n\nOnly if the event is extremely high-demand, the seller is verified with excellent reviews, the seat is exceptional, and you have no other options. Most of the time, 200% markup is a red flag.\n\n**Can I negotiate price on resale platforms?**\n\nMost platforms do not allow price negotiation. StubHub and similar marketplaces use fixed prices set by the seller. Some allow you to make an offer (on certain listings), but this is rare.\n\n**What if a resale ticket does not deliver before the show?**\n\nOn verified platforms like StubHub, you have a buyer guarantee. You can report a non-delivery, and the platform will refund you or provide alternative tickets. This is why buying on verified platforms is essential.\n\n**Is resale always more expensive than primary?**\n\nAlmost always, yes. But in the final days before a popular event, motivated sellers may undercut dynamic primary pricing. Flexibility on timing and seating can yield competitive deals."
+      },
+      {
+        "type": "section",
+        "title": "Conclusion",
+        "content": "Resale ticket pricing reflects supply, demand, seller motivation, and platform fees. Early resale listings carry steep markups because scarcity is acute. Final-week listings are cheaper because sellers are motivated. Understanding these dynamics helps you buy strategically: either commit to primary onsale for the best starting price, or wait until the final week for motivated seller deals on resale platforms. Know your timing, check seller ratings, and always confirm the final total including fees before buying."
+      }
+    ]
   }
 }

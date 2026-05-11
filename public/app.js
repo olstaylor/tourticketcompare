@@ -1379,18 +1379,97 @@ function renderSimplePage(type) {
     }
   }
   if (type === "editorial-policy") {
-    section.append(
+    const verifiedSection = document.createElement("section");
+    verifiedSection.className = "nested-panel";
+    text(verifiedSection, "h2", "What counts as a checked or verified link");
+    text(
+      verifiedSection,
+      "p",
+      "A checked or verified ticket link must point to an exact destination URL that we have confirmed works and matches the artist, event, or provider it claims to represent. The URL must be directly accessible, use HTTPS, and resolve to the intended ticket platform. We do not show placeholder links, localhost addresses, private IP ranges, or test domain URLs as real ticket options. Every checked link is validated before publication."
+    );
+
+    const sourcesSection = document.createElement("section");
+    sourcesSection.className = "nested-panel";
+    text(sourcesSection, "h2", "What sources are acceptable");
+    sourcesSection.append(
       createList(
         [
-          "Do not invent artist facts, tour dates, venues, prices, or availability.",
-          "Use official artist, ticketing, or affiliate sources for event claims.",
-          "Do not show provider buttons without verified destination URLs.",
-          "Do not use Event schema until event data is real and verified.",
-          "Do not claim savings, special deals, or live multi-provider analysis unless verified data supports it."
+          "Official artist websites and verified social media accounts (for tour announcements, official dates, and verified venue information)",
+          "Ticketing platform official sources (Ticketmaster, SeatGeek, Vivid Seats) for event data and artist-level pages",
+          "Approved affiliate partner platforms (with verified Impact or comparable program IDs) for destination URLs",
+          "Public event databases and ticketing APIs with explicit permission for public display",
+          "Direct communication with official artist representatives or venue operators for event verification"
         ],
         "check-list"
       )
     );
+
+    const excludeSection = document.createElement("section");
+    excludeSection.className = "nested-panel";
+    text(excludeSection, "h2", "What TourTicketCompare will not publish");
+    excludeSection.append(
+      createList(
+        [
+          "Invented or speculative tour dates, venues, or events (even if likely to be announced soon)",
+          "Fake, placeholder, or estimated prices (prices are controlled by ticketing platforms, not by this site)",
+          "Scraped listings or ticket data from unauthorized sources, social media posts, or third-party aggregators",
+          "Resale or secondary-market listings presented as primary inventory without clear labeling",
+          "Comparative price claims or savings assertions without live multi-provider verified data to support them",
+          "Event schema or structured data without fully verified event details (artist, date, venue, URL)",
+          "Unverified claims about availability, discounts, or special access"
+        ],
+        "check-list"
+      )
+    );
+
+    const affiliateSection = document.createElement("section");
+    affiliateSection.className = "nested-panel";
+    text(affiliateSection, "h2", "How affiliate relationships are handled editorially");
+    text(
+      affiliateSection,
+      "p",
+      "Affiliate relationships do not control which artists, events, or ticket links we show. We only publish ticket buttons when the artist, event, and destination URL have been checked and verified. Affiliate commissions help support the site, but they do not weaken our verification standards. If a link cannot be verified, it must not appear as a ticket option, regardless of affiliate program status. We disclose affiliate relationships clearly on relevant pages and do not use fake urgency, countdown timers, or invented scarcity to drive clicks."
+    );
+
+    const linkMaintenanceSection = document.createElement("section");
+    linkMaintenanceSection.className = "nested-panel";
+    text(linkMaintenanceSection, "h2", "How broken or outdated links are treated");
+    text(
+      linkMaintenanceSection,
+      "p",
+      "Ticket links that break, redirect to a generic page, or no longer match the intended event must be updated or removed immediately when discovered. We check outbound links regularly and prioritize reports of broken or outdated links from users. If a ticketing platform changes its URL structure or discontinues a verified event page, the link is updated or hidden. Outdated links that point to past events or invalid dates are removed from public pages."
+    );
+
+    const providerSection = document.createElement("section");
+    providerSection.className = "nested-panel";
+    text(providerSection, "h2", "Why final availability, fees, and terms are confirmed by providers");
+    text(
+      providerSection,
+      "p",
+      "TourTicketCompare verifies that a ticket destination exists and matches the artist or event, but we do not control the inventory, pricing, fees, seat availability, delivery methods, refund policies, or checkout terms on that destination. These details are set and managed by the external ticketing platform. Fans must always confirm the final ticket price (including all fees and taxes), the seat location and view, the delivery method and timing, and the refund and transfer terms directly on the provider site before purchasing. Prices and availability can change quickly, and these changes are outside our control."
+    );
+
+    const principlesSection = document.createElement("section");
+    principlesSection.className = "nested-panel";
+    text(principlesSection, "h2", "Editorial principles");
+    principlesSection.append(
+      createList(
+        [
+          "Do not invent artist facts, tour dates, venues, prices, or availability.",
+          "Verify artist and event claims against official sources before publication.",
+          "Use only checked, working destination URLs—never placeholder, development, or test domains.",
+          "Do not show provider buttons without verified destination URLs.",
+          "Do not use Event schema or structured data until event details are verified.",
+          "Do not claim savings, special deals, or live multi-provider comparison unless verified data supports it.",
+          "Disclose affiliate relationships clearly without relying on them to determine what content is published.",
+          "Update or remove broken links immediately when discovered.",
+          "Respond to user reports of broken or incorrect links within a reasonable timeframe."
+        ],
+        "check-list"
+      )
+    );
+
+    section.append(verifiedSection, sourcesSection, excludeSection, affiliateSection, linkMaintenanceSection, providerSection, principlesSection);
   }
   main.replaceChildren(section);
 }

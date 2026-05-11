@@ -584,7 +584,7 @@ function renderArtistCard(artist) {
   text(article, "h3", artist.name);
   text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
   const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
-  text(article, "p", activeProviders.length ? "Verified ticket pages" : "Research mode—no verified links yet", "status-badge");
+  text(article, "p", activeProviders.length ? "Verified ticket pages" : "No checked ticket link yet", "status-badge");
   text(
     article,
     "p",

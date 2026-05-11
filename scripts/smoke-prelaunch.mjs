@@ -19,7 +19,7 @@ const expectedH1 = new Map([
 ]);
 const routeMarkers = new Map([
   ["/artists", "Ticket buttons appear only when the destination has been checked"],
-  ["/guides", "Live price comparison is coming later"],
+  ["/guides", "Compare the final checkout total after fees"],
   ["/how-it-works", "affiliate links are handled safely"],
   ["/editorial-policy", "official artist, ticketing, and approved affiliate sources"],
   ["/affiliate-disclosure", "Affiliate relationships do not control which links we show"],

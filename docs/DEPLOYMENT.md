@@ -62,9 +62,18 @@ These commands are not the production deploy path while custom domains route to 
 
 ## Production Worker Deploy
 
-`npm run deploy` intentionally refuses to deploy. This prevents accidental Pages deployment under a production-sounding script name.
+**There is no `npm run` command to deploy the production Worker.** `npm run deploy` and `npm run deploy:pages` both deploy to Cloudflare Pages (the preview/fallback path), not to the production Worker.
 
-Production must be deployed by updating Cloudflare Worker `tourticketcompare-live` with the intended Worker source or generated Worker bundle while preserving existing bindings and secrets.
+To deploy production, you must build the standalone Worker and upload it to `tourticketcompare-live` manually:
+
+```bash
+node scripts/build-standalone-worker.mjs /tmp/tourticketcompare-worker.js
+node --check /tmp/tourticketcompare-worker.js
+```
+
+Then upload `/tmp/tourticketcompare-worker.js` to Worker `tourticketcompare-live` via the Cloudflare dashboard or Wrangler CLI targeting the Worker (not Pages). Preserve existing bindings and secrets.
+
+Production must be deployed by updating Cloudflare Worker `tourticketcompare-live` with the generated Worker bundle while preserving existing bindings and secrets.
 
 Important current limitation: the tracked `main` branch does not yet contain the confirmed production Worker source/bundle generator. Do not deploy production until the Worker entrypoint is committed, reviewed, and verified. The committed Pages preview health route should be mirrored by the production Worker route.
 

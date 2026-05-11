@@ -1235,29 +1235,60 @@ function renderSimplePage(type) {
     text(
       section,
       "p",
-      "TourTicketCompare is an independent, unofficial ticket research site. Some outbound ticket links may be affiliate links, which means we may earn a commission if you click through and buy through one of those links.",
+      "TourTicketCompare is an independent, unofficial ticket research site. Some ticket links are affiliate links, which means we may earn a commission when you buy. You do not pay extra because of our affiliate relationship.",
       "lead"
+    );
+
+    const whatItMeans = document.createElement("section");
+    whatItMeans.className = "nested-panel";
+    text(whatItMeans, "h2", "What affiliate links mean");
+    whatItMeans.append(
+      createList(
+        [
+          "We link to ticket providers and may earn commission when you complete a purchase.",
+          "The commission does not increase your ticket price or fees.",
+          "We disclose which links are affiliate links so you know our relationship.",
+          "Affiliate relationships do not decide which links we show or which providers we recommend."
+        ],
+        "check-list"
+      )
     );
 
     const independence = document.createElement("section");
     independence.className = "nested-panel";
-    text(independence, "h2", "Our independence");
+    text(independence, "h2", "Why it does not weaken our verification");
     text(
       independence,
       "p",
-      "Affiliate relationships do not control which links we show. We only publish ticket buttons when the artist, event, and destination can be checked, and we do not add fake prices, invented dates, or fake availability claims."
+      "Affiliate relationships do not control which links we show. We do not publish fake prices, invented dates, fictional venues, unverified providers, or rankings we cannot support just because we earn a commission. We only show ticket buttons when we can check the artist, event, and destination. If a link cannot be verified, it should not appear as a ticket option."
+    );
+
+    const sources = document.createElement("section");
+    sources.className = "nested-panel";
+    text(sources, "h2", "How we handle different link types");
+    sources.append(
+      createList(
+        [
+          "Official sources: Artist-level pages on official ticketing sites (typically Ticketmaster).",
+          "Resale marketplaces: Verified platforms like SeatGeek and Vivid Seats where sellers list real tickets.",
+          "Affiliate links: Verified destination URLs that may generate commission when you buy.",
+          "Guidance: Buying guides and checklists are informational; we do not sell tickets directly."
+        ],
+        "check-list"
+      )
     );
 
     const providerTerms = document.createElement("section");
     providerTerms.className = "nested-panel";
-    text(providerTerms, "h2", "What providers control");
+    text(providerTerms, "h2", "What you confirm with the provider");
     providerTerms.append(
       createList(
         [
-          "Final ticket prices and service fees.",
-          "Seat details, delivery methods, and transfer timing.",
-          "Ticket availability, purchase limits, and checkout rules.",
-          "Refund, cancellation, resale, and event-change terms."
+          "Final ticket prices, fees, taxes, and delivery charges.",
+          "Seat location, view restrictions, and physical details.",
+          "Inventory and availability of your specific seats.",
+          "Refund, cancellation, transfer, and resale rules.",
+          "Payment security and checkout terms."
         ],
         "check-list"
       )
@@ -1265,26 +1296,26 @@ function renderSimplePage(type) {
 
     const checkout = document.createElement("section");
     checkout.className = "nested-panel";
-    text(checkout, "h2", "Before you buy");
+    text(checkout, "h2", "Before you complete a purchase");
     text(
       checkout,
       "p",
-      "Always confirm the event date, venue, seat information, final total, delivery terms, refund rules, transfer rules, and checkout terms on the ticket provider site before paying."
+      "Read the provider's terms and conditions. Confirm the event date, venue, seat information, final total, delivery method, refund policy, and transfer rules. These details come from the ticket provider, not from TourTicketCompare."
     );
 
     const disclosure = document.createElement("section");
     disclosure.className = "nested-panel";
-    text(disclosure, "h2", "How this supports the site");
+    text(disclosure, "h2", "How affiliate commissions support us");
     text(
       disclosure,
       "p",
-      "Affiliate commissions help support the site, but they do not change the price you pay and they do not weaken our verification rules. If a link cannot be checked, it should not appear as a ticket option."
+      "When you click through an affiliate link and complete a purchase, the provider may pay us a commission. This commission helps us maintain the site and continue providing free buying guidance. It does not cost you any extra."
     );
 
     const actions = document.createElement("div");
     actions.className = "action-row";
     actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("Read buying guides", "/guides", "secondary"));
-    section.append(independence, providerTerms, checkout, disclosure, actions);
+    section.append(whatItMeans, independence, sources, providerTerms, checkout, disclosure, actions);
     main.replaceChildren(section);
     return;
   }

@@ -1,15 +1,15 @@
 # TourTicketCompare Deployment
 
-This project currently has one confirmed production path:
+Production runtime: **Cloudflare Pages Functions** (confirmed 2026-05-11).
 
-- Production runtime: Cloudflare Worker `tourticketcompare-live`
-- Live routes: `tourticketcompare.com/*` and `www.tourticketcompare.com/*`
-- Cloudflare Pages: preview/fallback only
-- Vercel: not production and should not be reintroduced without an explicit architecture decision
+- Production custom domains: `tourticketcompare.com` and `www.tourticketcompare.com`
+- `www` redirects to apex via a Cloudflare Redirect Rule (confirmed 2026-05-11)
+- Deploy path: `npm run deploy:pages` or automatic via Cloudflare Pages Git integration
+- Vercel: not production — do not reintroduce without an explicit architecture decision
 
-Do not assume that a Cloudflare Pages deploy updates the live custom domains while the Worker routes remain active.
+---
 
-## Local Check
+## Local Development
 
 Install dependencies:
 
@@ -42,58 +42,40 @@ npm run dev
 
 Then open `http://localhost:3000/api/health`.
 
-## Preview Deploy
+---
 
-Cloudflare Pages can still be useful as a preview/fallback path.
+## Production Deploy
 
-Deploy Pages preview/fallback:
+### Option A — GitHub→Pages CI (preferred)
 
-```bash
-npm run deploy:pages
-```
+If the Cloudflare Pages project is connected to the GitHub repo via Git integration (check in Cloudflare Pages dashboard → Settings → Git integration), every push to `main` automatically deploys to production. No manual step needed.
 
-Deploy Pages after strict event-data validation:
+**Confirm this is active before relying on it.** If Git integration is not configured, Option B applies.
+
+### Option B — Manual CLI deploy
 
 ```bash
 npm run deploy:pages:safe
 ```
 
-These commands are not the production deploy path while custom domains route to Worker `tourticketcompare-live`.
-
-## Production Worker Deploy
-
-**There is no `npm run` command to deploy the production Worker.** `npm run deploy` and `npm run deploy:pages` both deploy to Cloudflare Pages (the preview/fallback path), not to the production Worker.
-
-To deploy production, you must build the standalone Worker and upload it to `tourticketcompare-live` manually:
+This runs the smoke check suite and then deploys. Or without pre-flight checks:
 
 ```bash
-node scripts/build-standalone-worker.mjs /tmp/tourticketcompare-worker.js
-node --check /tmp/tourticketcompare-worker.js
+npm run deploy:pages
 ```
 
-Then upload `/tmp/tourticketcompare-worker.js` to Worker `tourticketcompare-live` via the Cloudflare dashboard or Wrangler CLI targeting the Worker (not Pages). Preserve existing bindings and secrets.
+Both commands run `wrangler pages deploy public` and deploy the current `public/` and `functions/` to the production Cloudflare Pages project.
 
-Production must be deployed by updating Cloudflare Worker `tourticketcompare-live` with the generated Worker bundle while preserving existing bindings and secrets.
+### Before any production deploy
 
-Important current limitation: the tracked `main` branch does not yet contain the confirmed production Worker source/bundle generator. Do not deploy production until the Worker entrypoint is committed, reviewed, and verified. The committed Pages preview health route should be mirrored by the production Worker route.
+1. Confirm no fake prices, placeholder CTAs, or invented event data are present.
+2. Run syntax checks and event validation (see Local Development above).
+3. Run the smoke check suite: `node scripts/smoke-prelaunch.mjs`
+4. Confirm `git diff --check` is clean.
 
-Before any production Worker deploy:
+---
 
-1. Confirm Cloudflare routes still point `tourticketcompare.com/*` and `www.tourticketcompare.com/*` to `tourticketcompare-live`.
-2. Confirm the Worker source or generated bundle is the intended production entrypoint.
-3. Confirm required bindings/secrets are already configured in Cloudflare.
-4. Run local syntax checks and event validation.
-5. Do not paste secret values into source code, logs, docs, or pull requests.
-
-Required production Worker behavior:
-
-- `GET /api/health` returns app status and binding presence only.
-- Health output never returns token values, API keys, account IDs, D1 database IDs, or program IDs.
-- `www.tourticketcompare.com` redirects to `https://tourticketcompare.com/`.
-
-## Verify Health
-
-After a preview or production deploy, check:
+## Verify Health After Deploy
 
 ```bash
 curl -fsS https://tourticketcompare.com/api/health
@@ -106,19 +88,65 @@ Expected health shape:
 {
   "ok": true,
   "service": "tourticketcompare",
+  "runtime": "cloudflare-pages-functions",
   "status": "ok",
   "config": {
     "mockMode": false,
-    "allowMockPrices": false
+    "allowMockPrices": false,
+    "clickTrackingEnabled": true
   },
   "bindings": {
-    "demandDb": true
+    "demandDb": true,
+    "impactAccountSid": true,
+    "impactAuthToken": true
   }
 }
 ```
 
-The exact binding booleans may vary by environment. Secret values must never appear.
+The `www` check should return HTTP 301 to the apex domain. Secret values must never appear in the health response.
+
+---
+
+## Required Dashboard Bindings (Cloudflare Pages → Settings → Functions)
+
+These must be configured in the Cloudflare Pages dashboard for the project to function in production. They are not set automatically from `wrangler.toml` for Git-connected deploys.
+
+| Type | Binding name | Value |
+|---|---|---|
+| D1 database | `DEMAND_DB` | `tourticketcompare-demand` (ID: `19b314b8-10f1-4504-a3bc-963f7ecbe9f6`) |
+| Secret | `IMPACT_ACCOUNT_SID` | From Cloudflare Worker environment (do not store in repo) |
+| Secret | `IMPACT_AUTH_TOKEN` | From Cloudflare Worker environment (do not store in repo) |
+| Secret | `IMPACT_TICKETMASTER_PROGRAM_ID` | From Cloudflare Worker environment (do not store in repo) |
+
+Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploys):
+
+| Variable | Production value |
+|---|---|
+| `MOCK_MODE` | `false` |
+| `ALLOW_MOCK_PRICES` | `false` |
+| `CLICK_TRACKING_ENABLED` | `true` |
+
+---
 
 ## Vercel
 
 Vercel is not production for this project. Do not add `vercel.json`, `api/**/*.mjs`, or Vercel deployment commands unless a future architecture decision explicitly reintroduces Vercel as an experimental preview path.
+
+---
+
+## Legacy: Standalone Worker
+
+> **This section documents the previous production path. The standalone Worker is no longer the production runtime as of 2026-05-11. Do not follow these steps for normal production changes.**
+
+Previously, production was served by Cloudflare Worker `tourticketcompare-live`, generated by `scripts/build-standalone-worker.mjs`. The Worker has not been deleted and remains available as an emergency rollback reference only.
+
+To rebuild the Worker if needed for rollback purposes:
+
+```bash
+node scripts/build-standalone-worker.mjs /tmp/tourticketcompare-worker.js
+node --check /tmp/tourticketcompare-worker.js
+```
+
+Then upload `/tmp/tourticketcompare-worker.js` to Worker `tourticketcompare-live` via the Cloudflare dashboard or Wrangler CLI, preserving all existing bindings and secrets. This is an emergency action only — Pages is the normal production path.
+
+Last known Worker deploy: 2026-05-01, build `d3cc71487403`. Pages took over production on or before 2026-05-11 (exact date unconfirmed from repo history).

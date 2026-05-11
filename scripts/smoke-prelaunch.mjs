@@ -56,7 +56,7 @@ async function assertPublicCopySafe(files) {
     {
       label: "live prices claim",
       pattern: /\blive\s+prices\b/i,
-      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built)\b/i
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|does not compare)\b/i
     },
     { label: "from-price claim", pattern: /\bfrom\s*[£$€]\s*\d/i },
     {

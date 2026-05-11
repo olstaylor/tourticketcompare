@@ -584,7 +584,7 @@ function renderArtistCard(artist) {
   text(article, "h3", artist.name);
   text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
   const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
-  text(article, "p", activeProviders.length ? "Verified ticket pages" : "Research mode—no verified links yet", "status-badge");
+  text(article, "p", activeProviders.length ? "Verified ticket pages" : "No checked ticket link yet", "status-badge");
   text(
     article,
     "p",
@@ -848,6 +848,16 @@ function renderArtist(artist) {
   guideLinks.append(guideGrid);
 
   section.append(summary, demand, checklist, pageNote, guideLinks, renderArtistFaq(artist));
+
+  // Transplant server-rendered show cards so users see real content immediately
+  // rather than a loading state while the hydration fetch is in-flight.
+  const existingGrid = main.querySelector("[data-show-grid]");
+  const serverCards = existingGrid ? Array.from(existingGrid.querySelectorAll("article.show-card")) : [];
+  if (serverCards.length) {
+    const newGrid = showBoard.querySelector("[data-show-grid]");
+    if (newGrid) newGrid.replaceChildren(...serverCards);
+  }
+
   main.replaceChildren(section);
   hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 50, showEventCta: true });
 }

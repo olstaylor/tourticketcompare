@@ -134,7 +134,7 @@ const publicCopyFiles = [
   "public/data/catalog.json"
 ];
 
-const joinedPublic = (await Promise.all(publicUiFiles.map((file) => read(file)))).join("\n");
+const joinedPublic = (await Promise.all(publicUiFiles.concat(["functions/[[path]].js"]).map((file) => read(file)))).join("\n");
 assert(
   joinedPublic.includes("Find verified ticket links for major tours"),
   "homepage public-facing copy should be present"

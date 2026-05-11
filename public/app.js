@@ -725,6 +725,54 @@ function renderSearchWidget() {
 
 // --- End site search ---
 
+function renderWhatYouCanDo() {
+  const section = document.createElement("section");
+  section.className = "section-grid what-you-can-do";
+  section.setAttribute("aria-labelledby", "whatYouCanDoTitle");
+  const header = document.createElement("div");
+  header.className = "section-intro";
+  text(header, "h2", "What you can do here").id = "whatYouCanDoTitle";
+  const grid = document.createElement("div");
+  grid.className = "card-grid";
+  [
+    ["See artist pages and checked event links", "Browse artist pages and verified event links where available."],
+    ["Learn how to compare checkout totals", "Understand how to compare final prices, fees, provider terms, and refund rules."],
+    ["Understand checked links", "See how we verify ticket links and what to expect at checkout."]
+  ].forEach(([title, body]) => {
+    const card = document.createElement("article");
+    card.className = "info-card";
+    text(card, "h3", title);
+    text(card, "p", body);
+    grid.append(card);
+  });
+  section.append(header, grid);
+  return section;
+}
+
+function renderTrustSection() {
+  const section = document.createElement("section");
+  section.className = "section-grid trust-section";
+  section.setAttribute("aria-labelledby", "trustTitle");
+  const header = document.createElement("div");
+  header.className = "section-intro";
+  text(header, "h2", "Trust & transparency").id = "trustTitle";
+  const panel = document.createElement("div");
+  panel.className = "nested-panel";
+  text(panel, "p", "TourTicketCompare is independent and unofficial. We do not sell tickets directly.");
+  text(panel, "p", "Some outbound links may be affiliate links, which means we may earn a commission if you click through and buy tickets. This does not increase your ticket price or fees.");
+  text(panel, "p", "Final price, fees, availability, seat details, refund rules, and checkout terms are confirmed by the provider on their site.");
+  const links = document.createElement("p");
+  links.append(
+    document.createTextNode("Learn more: "),
+    link("How we work", "/how-it-works", "text-link"),
+    document.createTextNode(" • "),
+    link("Affiliate disclosure", "/affiliate-disclosure", "text-link")
+  );
+  panel.append(links);
+  section.append(header, panel);
+  return section;
+}
+
 function renderHome() {
   setMeta(routeMeta["/"], false);
   const hero = document.createElement("section");
@@ -736,7 +784,7 @@ function renderHome() {
   text(
     copy,
     "p",
-    "Independent ticket research for major live music tours. Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees at checkout.",
+    "Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees at checkout.",
     "hero-subcopy"
   );
   const actions = document.createElement("div");
@@ -751,16 +799,7 @@ function renderHome() {
   });
   actions.append(browseCta, buttonLink("Read buying guides", "/guides", "secondary"));
   copy.append(actions);
-  const trust = document.createElement("aside");
-  trust.className = "trust-ledger";
-  text(trust, "h2", "Why fans can trust it");
-  [
-    "Independent and unofficial",
-    "Checked ticket links where available",
-    "Practical buying guidance",
-    "Prices and fees confirmed at checkout"
-  ].forEach((item) => text(trust, "p", item));
-  hero.append(copy, trust);
+  hero.append(copy);
 
   const artists = document.createElement("section");
   artists.id = "featured-artists";
@@ -769,7 +808,7 @@ function renderHome() {
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Featured artists").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Choose an artist to review checked ticket links where available, plus practical guidance for making a better buying decision.");
+  text(artistHeader, "p", "Browse artist pages and checked event links where available.");
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => {
@@ -777,14 +816,7 @@ function renderHome() {
   });
   artists.append(artistHeader, grid);
 
-  const disclosure = document.createElement("p");
-  disclosure.className = "disclosure-note";
-  disclosure.append(
-    document.createTextNode("TourTicketCompare is independent and unofficial. We may earn a commission from ticket purchases made through our links. "),
-    link("How it works →", "/how-it-works", "text-link")
-  );
-
-  main.replaceChildren(hero, renderSearchWidget(), artists, renderGuidePreview(), disclosure);
+  main.replaceChildren(hero, renderSearchWidget(), renderWhatYouCanDo(), artists, renderGuidePreview(), renderTrustSection());
 }
 
 function renderArtistCard(artist) {

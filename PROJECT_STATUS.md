@@ -4,6 +4,24 @@ Last updated: 2026-05-11
 
 ---
 
+## Production Sync Status
+
+**Main does NOT reproduce the deployed Worker.**
+
+| | Current `main` | Deployed Worker |
+|---|---|---|
+| BUILD_ID | `1905d379c8f8` | `d3cc71487403` |
+| Last Worker deploy | — | 2026-05-01 (per HANDOVER.md) |
+
+**Cause:** Three files in `public/` changed after the 2026-05-01 deploy:
+- `public/app.js` (syntax fix + routing change, May 8)
+- `public/404.html` (new file, May 8)
+- `public/_routes.json` (updated, May 8)
+
+**Additional structural divergence:** `scripts/build-standalone-worker.mjs` contains its own hardcoded route content (titles, H1s, descriptions) that differs from `functions/[[path]].js`. The Worker and Pages preview serve different page titles and content regardless of the hash. See [docs/PRODUCTION_SYNC_AUDIT.md](docs/PRODUCTION_SYNC_AUDIT.md) for full details.
+
+---
+
 ## Current Known-Good State
 
 - Live URL: `https://tourticketcompare.com`
@@ -36,7 +54,8 @@ Last updated: 2026-05-11
 
 | Risk | Detail | Severity |
 |---|---|---|
-| Worker/Pages divergence | Production runs on a standalone Worker built from `scripts/build-standalone-worker.mjs`. Code changes in `functions/` or `public/` are NOT live until the Worker is rebuilt and redeployed. | High |
+| Worker/Pages divergence — confirmed | `main` builds Worker with BUILD_ID `1905d379c8f8`; deployed Worker is `d3cc71487403`. Three `public/` files changed after the May 1 deploy. Production is behind by the May 8 routing and syntax fixes. See `docs/PRODUCTION_SYNC_AUDIT.md`. | **High** |
+| Content divergence between Worker and Pages | The build script and `functions/[[path]].js` have different page titles, guide descriptions, and artist H1 patterns. A new Worker build will continue to serve different content than Pages unless the build script is updated. | **High** |
 | No npm script for Worker deploy | `npm run deploy` and `npm run deploy:pages` both deploy to Pages preview/fallback, not the production Worker. A Worker deploy requires a manual build + upload step. | High |
 | Placeholder D1 bindings | `wrangler.toml` has two commented-out D1 bindings with `replace-with-d1-database-id`. Uncommenting without real IDs breaks local dev. | Medium |
 | Named route shims inactive | `functions/artists.js` and similar shims re-export from `[[path]].js` but are never invoked while `_middleware.js` is active. Editing them has no effect. | Low |

@@ -233,23 +233,25 @@ function sendAnalytics(eventName, metadata = {}) {
 
 function setMeta(meta, noindex = false) {
   if (meta?.title) document.title = meta.title;
-  const description = document.querySelector('meta[name="description"]');
-  if (description && meta?.description) description.setAttribute("content", meta.description);
+  const canonicalUrl = new URL(window.location.pathname, window.location.origin).toString();
+  const updates = [
+    ['meta[name="description"]', meta?.description],
+    ['meta[property="og:title"]', meta?.title],
+    ['meta[property="og:description"]', meta?.description],
+    ['meta[name="twitter:title"]', meta?.title],
+    ['meta[name="twitter:description"]', meta?.description]
+  ];
+  updates.forEach(([sel, val]) => {
+    if (!val) return;
+    const el = document.querySelector(sel);
+    if (el) el.setAttribute("content", val);
+  });
   const robots = document.querySelector('meta[name="robots"]');
   if (robots) robots.setAttribute("content", noindex ? "noindex,follow" : "index,follow,max-image-preview:large");
   const canonical = document.querySelector('link[rel="canonical"]');
-  const canonicalUrl = new URL(window.location.pathname, window.location.origin).toString();
   if (canonical) canonical.setAttribute("href", canonicalUrl);
-  const ogTitle = document.querySelector('meta[property="og:title"]');
-  if (ogTitle && meta?.title) ogTitle.setAttribute("content", meta.title);
-  const ogDescription = document.querySelector('meta[property="og:description"]');
-  if (ogDescription && meta?.description) ogDescription.setAttribute("content", meta.description);
   const ogUrl = document.querySelector('meta[property="og:url"]');
   if (ogUrl) ogUrl.setAttribute("content", canonicalUrl);
-  const twitterTitle = document.querySelector('meta[name="twitter:title"]');
-  if (twitterTitle && meta?.title) twitterTitle.setAttribute("content", meta.title);
-  const twitterDescription = document.querySelector('meta[name="twitter:description"]');
-  if (twitterDescription && meta?.description) twitterDescription.setAttribute("content", meta.description);
 }
 
 function findArtist(slug) {

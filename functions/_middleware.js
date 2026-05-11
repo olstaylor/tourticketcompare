@@ -1,3 +1,10 @@
+// _middleware.js is the active entry point for all HTML routes on Cloudflare Pages.
+// It intercepts every request before named route shims (artists.js, guides.js, etc.)
+// can be invoked, so those shims are never reached in production.
+// The named shims exist solely as a Cloudflare Pages routing fallback: if this
+// middleware were ever removed, Pages would still dispatch each route to the correct
+// handler via the shim rather than returning a 404. Do not edit the shims expecting
+// a production effect while this file is present.
 import { onRequest as renderRouteHtml } from "./[[path]].js";
 
 const STATIC_ASSET_PATHS = new Set([

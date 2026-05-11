@@ -8,19 +8,26 @@ Priorities are ordered by: architecture stability → trust/compliance → repo 
 
 These risks affect production correctness and must be addressed before scaling.
 
-**High priority:**
-- Verify that `main` branch matches the deployed Worker `tourticketcompare-live` (rebuild + diff or Cloudflare dashboard check)
-- Confirm Cloudflare routes still point `tourticketcompare.com/*` and `www.tourticketcompare.com/*` to the Worker, not to Pages
-- Document and test the Worker rebuild + deploy procedure with a dry run on a staging build
-- Fix the raw HTML routing issue for non-root routes — `/artists`, `/guides`, etc. currently may serve homepage H1/title/canonical before client-side rendering; this must be resolved before SEO scaling
+**Done:**
+- ~~Verify that `main` matches deployed production~~ ✓ Done — production is Cloudflare Pages Functions confirmed 2026-05-11
+- ~~Confirm custom domains route correctly~~ ✓ Done — `tourticketcompare.com` on Pages; `www` 301→apex confirmed
+- ~~Document the production deploy path~~ ✓ Done — `npm run deploy:pages` is the production path; see `docs/DEPLOYMENT.md`
+- ~~Resolve Worker/Pages content divergence~~ ✓ Done — `functions/_route-metadata.js` is the single source of truth
+
+**High priority (operational):**
+- Confirm GitHub→Pages CI pipeline is active in the Cloudflare Pages dashboard. If no Git integration is configured, every deploy to production requires a manual `npm run deploy:pages` step. This must be confirmed before relying on `main` pushes to deploy automatically.
+
+**High priority (SEO):**
+- Fix the raw HTML routing issue for non-root routes — `/artists`, `/guides`, etc. currently serve the correct server-injected HTML via Pages Functions, but client-side JS re-renders the page on load. If a Googlebot crawl catches an intermediate state or if JS fails, the wrong H1/title could be indexed. This is the highest-priority remaining code task and should be addressed before any SEO scaling.
 
 **Medium priority:**
 - Provision real D1 database IDs for `RATE_LIMIT_DB` and `CLICKS_DB` (or remove the commented-out blocks from `wrangler.toml`)
-- Confirm `_middleware.js` and `[[path]].js` are in sync with the last Worker build
-- Add a `npm run deploy:worker` script or documented procedure so the production deploy path is explicit
+- Confirm `impactDefaultProgramId` — `/api/health` reports `false`; verify whether this binding is needed for any active feature
+- Complete remaining live smoke checks: six artist pages, four guide pages, five trust pages, old guide redirects, D1 analytics write
 
-**Parking lot:**
-- Evaluate consolidating the three-path deploy model (Worker/Pages/Vercel) to reduce maintenance overhead; Pages-native deploy without a standalone Worker generator would simplify the workflow
+**Resolved / no longer applicable:**
+- ~~Add `npm run deploy:worker` script~~ — Worker is retired from production; `npm run deploy:pages` is sufficient
+- ~~Consolidate three-path deploy model~~ — Production is Pages; Vercel and Worker paths are legacy cleanup debt
 
 ---
 
@@ -31,7 +38,7 @@ Rules that protect users and the site's credibility.
 **Immediate:**
 - Confirm no public pages display placeholder CTAs, fake prices, or placeholder event data before any marketing push
 - Run the full smoke check suite before any content or code push: `node scripts/smoke-prelaunch.mjs`, `python3 scripts/validate-events.py --for-production`
-- Confirm `MOCK_MODE=false` and `ALLOW_MOCK_PRICES=false` are active in the deployed Worker
+- ~~Confirm `MOCK_MODE=false` and `ALLOW_MOCK_PRICES=false` are active in the deployed Worker~~ ✓ Done — confirmed via live `/api/health` 2026-05-11
 
 **Ongoing:**
 - Validate all new artist, event, and provider records against content rules before committing (see `docs/CONTENT_RULES.md`)

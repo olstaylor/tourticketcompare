@@ -1,13 +1,15 @@
 # Live Production Verification
 
-Verification date: 2026-05-11
+Last updated: 2026-05-11
 Verified by: curl checks against `tourticketcompare.com` and `www.tourticketcompare.com`
 
 ---
 
 ## Summary
 
-Live `/api/health` returns `runtime: "cloudflare-pages-functions"`. Production is confirmed to be running on Cloudflare Pages Functions, not the standalone Worker `tourticketcompare-live`. All critical bindings are active. All major page routes serve correct titles and canonical tags. One open issue: `www.tourticketcompare.com` is not redirecting to the apex domain.
+Production is confirmed running on Cloudflare Pages Functions. All critical bindings are active. All verified routes serve correct server-injected titles and canonical tags. The www→apex redirect is confirmed working (301) after a Cloudflare Redirect Rule was added 2026-05-11. No remaining blocking issues.
+
+See open items at the bottom for tasks that require dashboard access or further route smoke testing.
 
 ---
 
@@ -80,22 +82,27 @@ GET https://tourticketcompare.com/api/out?artistSlug=beyonce&provider=ticketmast
 
 ---
 
+## Second Verification (2026-05-11 — after www redirect fix)
+
+| Check | HTTP status | Result |
+|---|---|---|
+| `https://www.tourticketcompare.com/` | **301** → `https://tourticketcompare.com/` | ✓ Fixed |
+| `https://www.tourticketcompare.com/artists/beyonce` | **301** → `https://tourticketcompare.com/artists/beyonce` | ✓ Fixed |
+| `https://tourticketcompare.com/` title | 200 | `Find Verified Ticket Options for Major Tours \| TourTicketCompare` ✓ |
+| `https://tourticketcompare.com/` canonical | 200 | `https://tourticketcompare.com/` ✓ |
+| `/api/health` runtime | 200 | `cloudflare-pages-functions` ✓ |
+
+www→apex 301 redirect is confirmed working across both root and path-preserving routes.
+
+---
+
 ## Open Issues
 
-### 1. www redirect is broken — HIGH SEO RISK
+### 1. ~~www redirect is broken~~ — RESOLVED 2026-05-11
 
-`https://www.tourticketcompare.com/` returns **HTTP 200** with content. It does not redirect to `https://tourticketcompare.com/`.
+~~`https://www.tourticketcompare.com/` returns **HTTP 200** with content.~~
 
-Canonical tag on `www.tourticketcompare.com/` is:
-```html
-<link rel="canonical" href="https://www.tourticketcompare.com/" />
-```
-
-This means the apex and www URLs are serving the same content with different canonicals — the www canonical is self-referential, pointing to `www` rather than the apex. This creates a duplicate-content and split-signal SEO risk. Google may index both versions.
-
-**Root cause:** The standalone Worker's `fetch()` handler contained an explicit `www → apex` 301 redirect. The Pages Functions code (`_middleware.js`, `[[path]].js`) has no equivalent. The redirect was not migrated when production moved to Pages.
-
-**Fix required:** A Cloudflare Redirect Rule (in the dashboard, no code change needed) or configuring `www.tourticketcompare.com` as a redirect-only custom domain in the Pages project. This must be prioritised before any SEO indexing work.
+**Fixed.** A Cloudflare Redirect Rule was added 2026-05-11. Both `www.tourticketcompare.com/` and `www.tourticketcompare.com/artists/beyonce` now return 301 to the apex equivalent.
 
 ### 2. impactDefaultProgramId is false
 
@@ -140,6 +147,33 @@ These were not checked in this session and should be verified before closing the
 
 ## Status of Standalone Worker
 
-**The standalone Worker (`tourticketcompare-live`) is no longer serving production traffic.** Pages Functions are confirmed as the production runtime. The Worker upload recommended in `docs/PAGES_PRODUCTION_MIGRATION_PLAN.md` Phase 1 should be skipped.
+**The standalone Worker (`tourticketcompare-live`) is no longer serving production traffic.** Pages Functions are confirmed as the production runtime. The Worker upload recommended in the original migration plan Phase 1 has been skipped — it is not needed.
 
-`scripts/build-standalone-worker.mjs` remains in the repo as a known-good backup but is not needed for production deploys. Its retirement timeline is documented in `docs/PAGES_PRODUCTION_MIGRATION_PLAN.md`.
+`scripts/build-standalone-worker.mjs` remains in the repo as an emergency reference but is not needed for production deploys. Its retirement is tracked in `docs/PAGES_PRODUCTION_MIGRATION_PLAN.md`.
+
+---
+
+## Production Readiness Checklist (as of 2026-05-11)
+
+| Item | Status |
+|---|---|
+| Runtime: Cloudflare Pages Functions | ✓ Confirmed |
+| `DEMAND_DB` binding active | ✓ Confirmed |
+| `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` active | ✓ Confirmed |
+| `IMPACT_TICKETMASTER_PROGRAM_ID` active | ✓ Confirmed |
+| `mockMode=false`, `allowMockPrices=false` | ✓ Confirmed |
+| `clickTrackingEnabled=true` | ✓ Confirmed |
+| Homepage title + canonical correct | ✓ Confirmed |
+| Beyoncé artist page title + canonical correct | ✓ Confirmed |
+| Guide page title + canonical correct | ✓ Confirmed |
+| `/api/out` Beyoncé→Ticketmaster redirect | ✓ 302 confirmed |
+| 404 returns HTTP 404 + noindex | ✓ Confirmed |
+| Sitemap returns 20 URLs | ✓ Confirmed |
+| www→apex 301 redirect | ✓ Confirmed (fixed 2026-05-11) |
+| GitHub→Pages CI pipeline | ? Unconfirmed — check Cloudflare dashboard |
+| `impactDefaultProgramId` | ? False — confirm if intentional |
+| All artist pages (6 remaining) | Unchecked |
+| All guide pages (4 remaining) | Unchecked |
+| Trust/legal pages (5) | Unchecked |
+| Old guide redirect slugs | Unchecked |
+| D1 analytics write confirmed | Unchecked |

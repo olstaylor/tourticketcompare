@@ -8,13 +8,13 @@ Target state: GitHub `main` → Cloudflare Pages → `tourticketcompare.com` / `
 
 ## Status Update — 2026-05-11
 
-**Production is already running on Cloudflare Pages Functions.** Live `/api/health` returns `runtime: "cloudflare-pages-functions"` with all critical bindings active. The cutover has already happened; Phase 6 of the migration plan below is complete.
+**Migration is complete.** Production is confirmed running on Cloudflare Pages Functions (`runtime: "cloudflare-pages-functions"`). All critical bindings are active. The www→apex 301 redirect is confirmed working after a Cloudflare Redirect Rule was added 2026-05-11.
 
-**Phase 1 (Worker upload) should be skipped.** The standalone Worker is no longer serving production traffic. Do not upload a new Worker.
+**Phase 1 (Worker upload) was skipped.** The standalone Worker is no longer serving production traffic. Do not upload a new Worker.
 
-**One open issue remains: the www redirect is broken.** `www.tourticketcompare.com` serves content with a self-referential canonical instead of redirecting to the apex domain. This is a high-priority SEO issue and must be fixed in the Cloudflare dashboard. See `docs/LIVE_PRODUCTION_VERIFICATION.md` for full details.
+**One remaining operational check:** Confirm whether the Cloudflare Pages project is connected to the GitHub repo (Git integration). If not, deploys are currently manual via `npm run deploy:pages`. This must be confirmed before treating `main → Pages` as automatic.
 
-See `docs/LIVE_PRODUCTION_VERIFICATION.md` for the full live evidence audit.
+See `docs/LIVE_PRODUCTION_VERIFICATION.md` for the full live evidence audit and production readiness checklist.
 
 ---
 
@@ -370,21 +370,19 @@ Also verify in the Cloudflare Pages dashboard:
 
 ---
 
-## Sequencing Summary (Updated 2026-05-11)
+## Sequencing Summary (Final — 2026-05-11)
 
 ```
 [✓ DONE] Phase 1: Final Worker upload          ← SKIPPED: Pages already live
 [✓ DONE] Phase 2: Pages dashboard bindings     ← Confirmed via /api/health
 [?      ] Phase 3: GitHub→Pages CI pipeline    ← Unconfirmed; check dashboard
 [✓ DONE] Phase 4: Pages preview verification   ← Pages is now production
-[OPEN   ] Phase 5: www redirect                ← www serves content, no 301
+[✓ DONE] Phase 5: www redirect                 ← 301 confirmed 2026-05-11
 [✓ DONE] Phase 6: Custom domains → cut over    ← Confirmed live
-  ↓ Fix www redirect (dashboard Redirect Rule)
-  ↓ Confirm CI pipeline active
+  ↓ Confirm CI pipeline (dashboard check)
   ↓ Complete remaining route smoke checks
-  ↓ 48–72h stable
-  ↓ Retire Worker script
-[Done]
+  ↓ Retire Worker script (when stable ≥48h)
+[Effectively done — CI pipeline confirmation pending]
 ```
 
-Each remaining item is a dashboard task or verification step; no application code changes required.
+No application code changes are required to complete the migration. All remaining items are dashboard checks or operational verification steps.

@@ -19,7 +19,7 @@ export const TRUST_ROUTES = {
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
     description:
-      "Practical guides for checking concert ticket links, fees, resale risks, provider differences, and checkout terms.",
+      "Essential guides for comparing ticket prices, checking official vs. resale, deciding when to buy, and confirming final terms before checkout.",
     indexable: true,
     breadcrumb: [{ name: "Guides", path: "/guides" }]
   },
@@ -65,7 +65,7 @@ export const GUIDE_ROUTES = {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     h1: "How do I compare ticket prices safely?",
     description:
-      "Learn how to compare concert ticket prices safely by checking the final total, seat details, delivery timing, and provider terms."
+      "Compare concert ticket prices by checking final totals, seat details, delivery timing, and provider terms. Know what to compare and what to avoid."
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Why Ticket Prices Vary Between Sites | TourTicketCompare",

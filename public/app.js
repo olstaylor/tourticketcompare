@@ -1,119 +1,4 @@
-const fallbackCatalog = {
-  artists: [
-    {
-      slug: "beyonce",
-      name: "Beyoncé",
-      short_description: "Pop and R&B performer known for large-scale arena and stadium productions.",
-      factual_summary:
-        "Beyoncé is an American singer, songwriter, performer, and visual artist whose solo catalog spans R&B, pop, dance, country, and hip-hop influences.",
-      why_demand_is_high:
-        "Demand is typically high because her tours are major cultural events with polished staging, deep catalogs, and broad international audiences.",
-      ticket_buying_notes:
-        "There may not be an active tour at the moment. Use verified ticket platform links below to check current availability directly.",
-      genres: ["Pop", "R&B"],
-      country: "United States",
-      official_website: "https://www.beyonce.com/",
-      image_alt: "Beyoncé artist ticket information"
-    },
-    {
-      slug: "harry-styles",
-      name: "Harry Styles",
-      short_description: "British pop artist and former One Direction member with major global demand.",
-      factual_summary:
-        "Harry Styles is an English singer, songwriter, and actor who first became widely known as a member of One Direction before building a solo career.",
-      why_demand_is_high:
-        "Demand is typically strong because his solo tours draw pop, rock, and mainstream audiences across multiple regions.",
-      ticket_buying_notes:
-        "There may not be an active tour at the moment. Check verified provider links for current ticket availability.",
-      genres: ["Pop", "Rock"],
-      country: "United Kingdom",
-      official_website: "https://www.hstyles.co.uk/",
-      image_alt: "Harry Styles artist ticket information"
-    },
-    {
-      slug: "bts",
-      name: "BTS",
-      short_description: "South Korean group with one of the world's largest global fanbases.",
-      factual_summary:
-        "BTS is a South Korean music group known for global pop releases, large-scale live shows, and a highly active international fanbase.",
-      why_demand_is_high:
-        "Demand is often intense because BTS announcements can draw global attention and fast-moving ticket interest.",
-      ticket_buying_notes:
-        "There may not be an active tour at the moment. Use verified ticket links to check current availability with platforms directly.",
-      genres: ["K-pop", "Pop", "Hip-hop"],
-      country: "South Korea",
-      official_website: "https://ibighit.com/bts/eng/",
-      image_alt: "BTS artist ticket information"
-    },
-    {
-      slug: "ariana-grande",
-      name: "Ariana Grande",
-      short_description: "American pop vocalist with a large international audience.",
-      factual_summary:
-        "Ariana Grande is an American singer, songwriter, and actor known for pop and R&B-influenced releases and a wide vocal range.",
-      why_demand_is_high:
-        "Demand can be high because her fanbase spans pop, streaming, and live entertainment audiences internationally.",
-      ticket_buying_notes:
-        "There may not be an active tour at the moment. Verified provider links are the safest way to check current availability.",
-      genres: ["Pop", "R&B"],
-      country: "United States",
-      official_website: "https://www.arianagrande.com/",
-      image_alt: "Ariana Grande artist ticket information"
-    },
-    {
-      slug: "bad-bunny",
-      name: "Bad Bunny",
-      short_description: "Puerto Rican artist whose tours draw major demand across Latin and global markets.",
-      factual_summary:
-        "Bad Bunny is a Puerto Rican recording artist known for reggaeton, Latin trap, pop, and genre-crossing releases.",
-      why_demand_is_high:
-        "Demand is typically high because his live shows attract large audiences across Spanish-speaking markets and beyond.",
-      ticket_buying_notes:
-        "There may not be an active tour at the moment. Check current availability directly through verified ticket platforms.",
-      genres: ["Reggaeton", "Latin trap", "Latin pop"],
-      country: "Puerto Rico",
-      official_website: "https://www.badbunny.com/",
-      image_alt: "Bad Bunny artist ticket information"
-    },
-    {
-      slug: "morgan-wallen",
-      name: "Morgan Wallen",
-      short_description: "Country artist with high-demand arena and stadium ticket interest.",
-      factual_summary:
-        "Morgan Wallen is an American country music artist known for contemporary country releases and large live audiences.",
-      why_demand_is_high:
-        "Demand can be high because country stadium and arena tours often move quickly across major US markets.",
-      ticket_buying_notes:
-        "There may not be an active tour at the moment. Use verified provider links to check platform availability.",
-      genres: ["Country"],
-      country: "United States",
-      official_website: "https://morganwallen.com/",
-      image_alt: "Morgan Wallen artist ticket information"
-    },
-    {
-      slug: "jay-z",
-      name: "JAY-Z",
-      short_description: "American hip-hop artist and entrepreneur with legacy demand for major live appearances.",
-      factual_summary:
-        "JAY-Z is an American rapper, songwriter, producer, and entrepreneur whose catalog is central to modern hip-hop.",
-      why_demand_is_high:
-        "Demand can be strong because major appearances are comparatively limited and attract hip-hop, festival, and legacy catalog audiences.",
-      ticket_buying_notes:
-        "There may not be an active tour at the moment. Verified provider links should be used to check current availability.",
-      genres: ["Hip-hop"],
-      country: "United States",
-      official_website: "https://www.rocnation.com/music/jay-z/",
-      image_alt: "JAY-Z artist ticket information"
-    }
-  ],
-  tours: [],
-  providers: [
-    { slug: "ticketmaster", name: "Ticketmaster", public_enabled: true },
-    { slug: "seatgeek", name: "SeatGeek", public_enabled: false },
-    { slug: "vivid-seats", name: "Vivid Seats", public_enabled: false }
-  ],
-  ticket_links: []
-};
+let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] };
 
 const providerCopy = {
   ticketmaster: {
@@ -330,32 +215,20 @@ function createList(items, className) {
 }
 
 function sendAnalytics(eventName, metadata = {}) {
-  const payload = {
-    eventName,
-    sourcePath: window.location.pathname,
-    artistSlug: metadata.artistSlug || "",
-    provider: metadata.provider || "",
-    tourSlug: metadata.tourSlug || "",
-    destinationHost: metadata.destinationHost || "",
-    linkId: metadata.linkId || "",
-    metadata
-  };
-
+  if (!navigator.sendBeacon) return;
   try {
-    const body = JSON.stringify(payload);
-    if (navigator.sendBeacon) {
-      navigator.sendBeacon("/api/analytics", new Blob([body], { type: "application/json" }));
-      return;
-    }
-    fetch("/api/analytics", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body,
-      keepalive: true
-    }).catch(() => {});
-  } catch (error) {
-    // Analytics must never block the user path.
-  }
+    const payload = {
+      eventName,
+      sourcePath: window.location.pathname,
+      artistSlug: metadata.artistSlug || "",
+      provider: metadata.provider || "",
+      tourSlug: metadata.tourSlug || "",
+      destinationHost: metadata.destinationHost || "",
+      linkId: metadata.linkId || "",
+      metadata
+    };
+    navigator.sendBeacon("/api/analytics", JSON.stringify(payload));
+  } catch (error) {}
 }
 
 function setMeta(meta, noindex = false) {
@@ -688,7 +561,7 @@ function renderSearchWidget() {
   let eventsData = [];
   let eventsLoaded = false;
 
-  input.addEventListener("input", () => {
+  const onSearchInput = async () => {
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(async () => {
       const query = input.value;
@@ -717,8 +590,10 @@ function renderSearchWidget() {
         .slice(0, 5);
 
       renderSearchResults(resultsContainer, { artists: matchedArtists, events: matchedEvents, guides: matchedGuides }, query);
-    }, 300);
-  });
+    }, 400);
+  };
+
+  input.addEventListener("input", onSearchInput);
 
   section.append(header, form, resultsContainer);
   return section;
@@ -1617,12 +1492,25 @@ function renderNotFound() {
 async function loadCatalog() {
   try {
     const response = await fetch("/data/catalog.json", { cache: "no-store" });
-    if (!response.ok) return fallbackCatalog;
+    if (!response.ok) return await loadFallbackCatalog();
     const data = await response.json();
-    if (!data || !Array.isArray(data.artists)) return fallbackCatalog;
+    if (!data || !Array.isArray(data.artists)) return await loadFallbackCatalog();
     return data;
   } catch (error) {
+    return await loadFallbackCatalog();
+  }
+}
+
+async function loadFallbackCatalog() {
+  if (fallbackCatalog.artists.length) return fallbackCatalog;
+  try {
+    const response = await fetch("/data/fallback-catalog.json", { cache: "force-cache" });
+    if (!response.ok) return { artists: [], tours: [], providers: [], ticket_links: [] };
+    const data = await response.json();
+    fallbackCatalog = data || fallbackCatalog;
     return fallbackCatalog;
+  } catch (error) {
+    return { artists: [], tours: [], providers: [], ticket_links: [] };
   }
 }
 

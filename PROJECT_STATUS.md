@@ -36,8 +36,9 @@ Last updated: 2026-05-11
 
 | Risk | Detail | Severity |
 |---|---|---|
-| Worker/Pages divergence | Production runs on a standalone Worker built from `scripts/build-standalone-worker.mjs`. Code changes in `functions/` or `public/` are NOT live until the Worker is rebuilt and redeployed. | High |
+| Worker version gap | Production Worker (build `d3cc71487403`, deployed 2026-05-01) does not include post-May-8 changes to `public/app.js`, `public/404.html`, `public/_routes.json`, or `functions/[[path]].js`. A new Worker build and deploy is required. See `docs/PRODUCTION_SYNC_AUDIT.md`. | High |
 | No npm script for Worker deploy | `npm run deploy` and `npm run deploy:pages` both deploy to Pages preview/fallback, not the production Worker. A Worker deploy requires a manual build + upload step. | High |
+| ~~Structural content divergence~~ | **Resolved.** `functions/_route-metadata.js` is now the single source of truth for page titles, descriptions, H1s, and redirects. Both `[[path]].js` and the build script import from it. | ~~High~~ |
 | Placeholder D1 bindings | `wrangler.toml` has two commented-out D1 bindings with `replace-with-d1-database-id`. Uncommenting without real IDs breaks local dev. | Medium |
 | Named route shims inactive | `functions/artists.js` and similar shims re-export from `[[path]].js` but are never invoked while `_middleware.js` is active. Editing them has no effect. | Low |
 | Vercel path exists | `vercel.json` and `api/` are present; neither is production but could be accidentally deployed. | Low |

@@ -458,6 +458,21 @@ function renderShowBoardServerHtml(shows) {
 function renderMainContent(route, catalog, events = [], guideContent = {}) {
   if (route.type === "artist") {
     const artist = route.artist;
+    const relatedGuideSlugs = artist.related_guides || [];
+    const relatedGuideLinks = relatedGuideSlugs
+      .slice(0, 4)
+      .map(slug => {
+        const guidePath = `/guides/${slug}`;
+        const guide = Object.entries(GUIDE_ROUTES).find(([path]) => path === guidePath);
+        if (!guide) return "";
+        const [path, guideData] = guide;
+        return `<li>${anchor(guideData.title.replace(" | TourTicketCompare", ""), path)}</li>`;
+      })
+      .filter(Boolean)
+      .join("");
+    const relatedGuidesHtml = relatedGuideLinks
+      ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
+      : "";
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="artistTitle">${escapeHtml(
@@ -472,7 +487,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}) {
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Verified destination status</h2><p>${escapeHtml(
       artist.ticket_buying_notes
-    )}</p><p class="disclosure-note">We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.</p></div></section><section class="nested-panel"><h2>Ticket buying checklist</h2><ul class="check-list"><li>Check the final price including fees before paying.</li><li>Check the seat location, section, row, and any view restrictions.</li><li>Check resale terms and buyer protections if the ticket is listed by a third party.</li><li>Check the delivery method and expected transfer timing.</li><li>Check refund, cancellation, and event-change terms on the provider site.</li></ul></section><section class="nested-panel"><h2>About this page</h2><p>This page does not list unverified tour dates, invented prices, speculative venues, or unchecked checkout links. Ticket details should be confirmed on the ticketing platform before purchase.</p></section><section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+    )}</p><p class="disclosure-note">We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.</p></div></section><section class="nested-panel"><h2>Ticket buying checklist</h2><ul class="check-list"><li>Check the final price including fees before paying.</li><li>Check the seat location, section, row, and any view restrictions.</li><li>Check resale terms and buyer protections if the ticket is listed by a third party.</li><li>Check the delivery method and expected transfer timing.</li><li>Check refund, cancellation, and event-change terms on the provider site.</li></ul></section>${relatedGuidesHtml}<section class="nested-panel"><h2>About this page</h2><p>This page does not list unverified tour dates, invented prices, speculative venues, or unchecked checkout links. Ticket details should be confirmed on the ticketing platform before purchase.</p></section><section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       "All artists",
       "/artists",
       "mini-link"

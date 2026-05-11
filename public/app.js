@@ -116,14 +116,108 @@ const guidePages = [
       ["Is resale always more expensive?", "No. Resale pricing varies. The final checkout total matters more than the first price shown."],
       ["Does TourTicketCompare sell tickets?", "No. We send users to external ticketing platforms when a verified link is available."]
     ]
+  },
+  {
+    slug: "best-time-to-buy-concert-tickets",
+    title: "Best Time to Buy Concert Tickets | TourTicketCompare",
+    description:
+      "Discover the optimal timing for buying concert tickets: early bird strategies, dynamic pricing, resale timing, and how to act fast when demand is high.",
+    h1: "What is the best time to buy concert tickets?",
+    intro:
+      "Timing a concert ticket purchase depends on artist demand, venue capacity, onsale type, and your own priorities. No single rule fits every show, but understanding when prices tend to shift helps you make a more informed decision.",
+    sections: [
+      ["What to check", "Look at whether an official onsale is active, whether resale prices are above or below face value, how many seats match your section and budget, and whether supply looks limited. These signals matter more than any generic timing advice."],
+      ["Red flags", "Avoid any site that promises prices will fall or guarantees a better deal by waiting. Ticket prices can move in either direction depending on demand, inventory, and event proximity."],
+      ["Before you buy", "Decide what matters most: best seat, lowest total, going with a group, or certainty of attending. That tradeoff shapes when buying makes sense for your specific situation."],
+      ["What TourTicketCompare verifies", "We link to verified ticket destinations when available. We do not predict future prices or claim one timing strategy is always better."]
+    ],
+    faq: [
+      ["Do prices always drop closer to the show?", "No. Some shows sell out early; others see last-minute listings at lower prices. Demand and venue capacity are the main drivers."],
+      ["Is it safer to buy in the official onsale?", "Buying in an official onsale from a primary provider like Ticketmaster usually means face-value pricing and clearer buyer protections. Check the onsale date on the artist's official channels."]
+    ]
+  },
+  {
+    slug: "how-to-avoid-ticket-scams",
+    title: "How to Avoid Ticket Scams | TourTicketCompare",
+    description:
+      "Learn how to spot fraudulent ticket sellers, fake platforms, counterfeit tickets, and scam tactics. Use verified platforms and protect yourself at checkout.",
+    h1: "How do I avoid ticket scams and fake listings?",
+    intro:
+      "Ticket scams range from fake seller accounts on social media to counterfeit barcodes and cloned ticket platforms. The safest way to avoid them is to buy only from official or established resale platforms and verify every step before paying.",
+    sections: [
+      ["What to check", "Confirm the platform is a known, established ticket seller. Check that the URL matches the official site exactly. Look for buyer guarantee details, visible seller verification, and a clear refund or dispute process."],
+      ["Red flags", "Avoid listings sold via DMs, WhatsApp, or social media from strangers. Be cautious with unusually low prices, requests for wire transfer or gift card payment, countdown timers, or vague delivery details like 'tickets will be sent later'."],
+      ["Before you buy", "Use platforms with buyer protection policies. Read the delivery method and timing before paying. If a listing asks you to meet in person or pay outside the platform, treat it as a scam."],
+      ["What TourTicketCompare verifies", "We only link to established ticket platforms with public buyer terms. We do not list unverified sellers or social media listings as ticket options."]
+    ],
+    faq: [
+      ["What makes a ticket listing suspicious?", "Vague event details, missing seat information, unusual payment requests, prices that seem too low, and sellers unwilling to explain delivery method are common warning signs."],
+      ["Can I get a refund if I buy a fake ticket?", "Refund rights depend on the platform and payment method. Platforms like Ticketmaster, SeatGeek, and Vivid Seats have buyer guarantee policies — check their terms before buying."]
+    ]
+  },
+  {
+    slug: "why-ticket-prices-change",
+    title: "Why Do Concert Ticket Prices Change? | TourTicketCompare",
+    description:
+      "Understand the mechanics behind ticket price changes: dynamic pricing, supply and demand, fees, resale markups, and why the final total differs from the headline price.",
+    h1: "Why do concert ticket prices change?",
+    intro:
+      "Concert ticket prices can move before, during, and after an onsale for several reasons. Dynamic pricing, supply and demand, fees added at checkout, and resale activity all affect the total you see at different times.",
+    sections: [
+      ["What to check", "Look at the final checkout total, not the headline price. Check whether the ticket is primary inventory or resale. Note that primary prices can change mid-session and resale prices change as sellers adjust listings."],
+      ["Red flags", "Avoid treating a first-click price as guaranteed. Fees, currency conversion, and demand-based adjustments can raise the total significantly by the time you reach payment. A sharp price change at checkout is not always an error."],
+      ["Before you buy", "Refresh the page and confirm the total before entering payment. Compare across providers when possible, checking the same seat tier and delivery method. Read the terms so you know when a price is locked in."],
+      ["What TourTicketCompare verifies", "We do not display prices. We link to verified ticket destinations where you can check current pricing directly. Prices and fees are controlled by the provider, not by TourTicketCompare."]
+    ],
+    faq: [
+      ["What is dynamic pricing?", "Dynamic pricing means ticket prices adjust based on demand. As more tickets sell, prices for remaining seats can increase. This is used by some primary providers for high-demand events."],
+      ["Why does the price change at checkout?", "Fees, taxes, delivery charges, and demand-based adjustments are often added after the initial price is shown. Always check the final order total before confirming payment."]
+    ]
+  },
+  {
+    slug: "ticketmaster-vs-stubhub",
+    title: "Ticketmaster vs StubHub: Which Should You Use? | TourTicketCompare",
+    description:
+      "Compare Ticketmaster (official primary seller) and StubHub (resale marketplace): features, fees, buyer protection, pricing, and when to use each platform.",
+    h1: "Ticketmaster vs StubHub: Which is right for you?",
+    intro:
+      "Ticketmaster is the largest primary ticket seller, selling directly from venues and promoters. StubHub is a resale marketplace where individual sellers list tickets they already own. Both are legitimate platforms, but they serve different purposes and have different fee structures.",
+    sections: [
+      ["What to check", "Check whether you want primary inventory from Ticketmaster or resale from StubHub. Review the fee structure on each platform, buyer guarantee terms, and delivery method before paying."],
+      ["Red flags", "Prices on resale platforms like StubHub are set by individual sellers and can exceed face value significantly. On both platforms, confirm the final total after fees before paying."],
+      ["Before you buy", "If the event has an active official onsale, start with Ticketmaster for face-value tickets. If you are buying after the onsale or for a sold-out event, compare resale platforms for availability and total cost."],
+      ["What TourTicketCompare verifies", "We verify ticket destinations before linking. Final prices, fees, and terms are set by each platform, not by TourTicketCompare."]
+    ],
+    faq: [
+      ["Is Ticketmaster cheaper than StubHub?", "Ticketmaster sells at face value during official onsales. StubHub prices are set by sellers and can be higher or lower depending on demand. Always compare final totals including fees."],
+      ["Which has better buyer protection?", "Both platforms offer buyer guarantees. Review the specific terms on each site, especially around delivery, cancellation, and what happens if an event is postponed."]
+    ]
+  },
+  {
+    slug: "how-resale-ticket-pricing-works",
+    title: "How Resale Ticket Pricing Works | TourTicketCompare",
+    description:
+      "Understand resale ticket pricing: why markups exist, how demand affects prices, how to spot fair vs overpriced listings, and when resale prices drop.",
+    h1: "How does resale ticket pricing work?",
+    intro:
+      "Resale tickets are sold by individuals or resellers who already own the tickets, not by the venue or artist. Prices are set by sellers based on demand, and they can be higher or lower than the original face value.",
+    sections: [
+      ["What to check", "Compare the resale price to the original face value if known. Check the seat location and section, fees added by the resale platform, buyer guarantee terms, and delivery method before paying."],
+      ["Red flags", "Very high markups relative to demand, listings with vague seat information, sellers requesting off-platform payment, or listings that do not clearly state the event date and venue are warning signs."],
+      ["Before you buy", "Check whether any official tickets are still available before turning to resale. If you use a resale platform, compare final totals across listings for similar seats. Read the buyer protection policy carefully."],
+      ["What TourTicketCompare verifies", "We link to established resale platforms with buyer protections when verified destinations are available. We do not certify individual seller listings or guarantee resale prices will be fair."]
+    ],
+    faq: [
+      ["Are resale tickets always more expensive?", "No. Resale prices depend on demand. For less popular events or dates close to the show, resale prices can fall below face value. For high-demand events, they are often higher."],
+      ["Is it safe to buy resale tickets?", "Buying from established resale platforms like SeatGeek, Vivid Seats, or StubHub that offer buyer guarantees is generally safer than buying from private sellers on social media. Always read the platform's buyer terms first."]
+    ]
   }
 ];
 
 const oldGuideRedirects = {
   "compare-ticket-prices-safely": "how-to-compare-concert-ticket-prices",
-  "why-ticket-prices-vary": "ticketmaster-vs-seatgeek-vs-vivid-seats",
-  "avoid-overpaying-concert-tickets": "how-to-avoid-overpaying-for-concert-tickets",
-  "best-time-to-buy-concert-tickets": "when-is-the-best-time-to-buy-concert-tickets"
+  "why-ticket-prices-vary": "why-ticket-prices-change",
+  "avoid-overpaying-concert-tickets": "how-to-avoid-overpaying-for-concert-tickets"
 };
 
 const routeMeta = {

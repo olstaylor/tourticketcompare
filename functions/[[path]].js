@@ -548,21 +548,17 @@ function renderMainContent(route, catalog, events = []) {
     )}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links for major tours</h1><p class="hero-subcopy">Independent ticket research for major live music tours. Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees at checkout.</p><div class="action-row">${anchor(
+  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links for major tours</h1><p class="hero-subcopy">Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees at checkout.</p><div class="action-row">${anchor(
     "Browse artists",
     "#featured-artists",
     "button button-primary"
-  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div><aside class="trust-ledger" aria-label="Publishing rules"><h2>Why fans can trust it</h2><p>Independent and unofficial</p><p>Checked ticket links where available</p><p>Practical buying guidance</p><p>Prices and fees confirmed at checkout</p></aside></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Choose an artist to review checked ticket links where available, plus practical guidance for making a better buying decision.</p></div>${renderArtistLinks(
+  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search artists, events, and guides</h2><p>Search what has been added to our verified dataset. We only surface artists, events, and guides that have been checked and published.</p></div><div style="text-align:center;margin:18px 0"><p class="muted">Search is available when you load this page in your browser.</p></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">What you can do here</h2></div><div class="card-grid"><article class="info-card"><h3>See artist pages and checked event links</h3><p>Browse artist pages and verified event links where available.</p></article><article class="info-card"><h3>Learn how to compare checkout totals</h3><p>Understand how to compare final prices, fees, provider terms, and refund rules.</p></article><article class="info-card"><h3>Understand checked links</h3><p>See how we verify ticket links and what to expect at checkout.</p></article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Browse artist pages and checked event links where available.</p></div>${renderArtistLinks(
     catalog
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Practical guides for comparing final prices, avoiding risky listings, and understanding ticket provider terms.</p></div>${renderGuideLinks()}<div class="action-row">${anchor(
     "View all guides",
     "/guides",
     "button button-secondary"
-  )}</div></section><p class="disclosure-note">TourTicketCompare is independent and unofficial. We may earn a commission from ticket purchases made through our links. ${anchor(
-    "How it works →",
-    "/how-it-works",
-    "text-link"
-  )}</p></main>`;
+  )}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">Trust &amp; transparency</h2></div><div class="nested-panel"><p>TourTicketCompare is independent and unofficial. We do not sell tickets directly.</p><p>Some outbound links may be affiliate links, which means we may earn a commission if you click through and buy tickets. This does not increase your ticket price or fees.</p><p>Final price, fees, availability, seat details, refund rules, and checkout terms are confirmed by the provider on their site.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></main>`;
 }
 
 function injectRoute(html, route, origin, catalog, events = []) {

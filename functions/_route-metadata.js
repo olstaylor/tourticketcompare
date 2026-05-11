@@ -91,12 +91,46 @@ export const GUIDE_ROUTES = {
     h1: "What is the difference between official tickets and resale?",
     description:
       "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks."
+  },
+  "/guides/best-time-to-buy-concert-tickets": {
+    title: "Best Time to Buy Concert Tickets | TourTicketCompare",
+    h1: "What is the best time to buy concert tickets?",
+    description:
+      "Discover the optimal timing for buying concert tickets: early bird strategies, dynamic pricing, resale timing, and how to act fast when demand is high.",
+    fullContent: true
+  },
+  "/guides/how-to-avoid-ticket-scams": {
+    title: "How to Avoid Ticket Scams | TourTicketCompare",
+    h1: "How do I avoid ticket scams and fake listings?",
+    description:
+      "Learn how to spot fraudulent ticket sellers, fake platforms, counterfeit tickets, and scam tactics. Use verified platforms and protect yourself at checkout.",
+    fullContent: true
+  },
+  "/guides/why-ticket-prices-change": {
+    title: "Why Do Concert Ticket Prices Change? | TourTicketCompare",
+    h1: "Why do concert ticket prices change?",
+    description:
+      "Understand the mechanics behind ticket price changes: dynamic pricing, supply and demand, fees, resale markups, and why the final total differs from the headline price.",
+    fullContent: true
+  },
+  "/guides/ticketmaster-vs-stubhub": {
+    title: "Ticketmaster vs StubHub: Which Should You Use? | TourTicketCompare",
+    h1: "Ticketmaster vs StubHub: Which is right for you?",
+    description:
+      "Compare Ticketmaster (official primary seller) and StubHub (resale marketplace): features, fees, buyer protection, pricing, and when to use each platform.",
+    fullContent: true
+  },
+  "/guides/how-resale-ticket-pricing-works": {
+    title: "How Resale Ticket Pricing Works | TourTicketCompare",
+    h1: "How does resale ticket pricing work?",
+    description:
+      "Understand resale ticket pricing: why markups exist, how demand affects prices, how to spot fair vs overpriced listings, and when resale prices drop.",
+    fullContent: true
   }
 };
 
 export const OLD_GUIDE_REDIRECTS = {
   "/guides/compare-ticket-prices-safely": "/guides/how-to-compare-concert-ticket-prices",
-  "/guides/why-ticket-prices-vary": "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
-  "/guides/avoid-overpaying-concert-tickets": "/guides/how-to-avoid-overpaying-for-concert-tickets",
-  "/guides/best-time-to-buy-concert-tickets": "/guides/when-is-the-best-time-to-buy-concert-tickets"
+  "/guides/why-ticket-prices-vary": "/guides/why-ticket-prices-change",
+  "/guides/avoid-overpaying-concert-tickets": "/guides/how-to-avoid-overpaying-for-concert-tickets"
 };

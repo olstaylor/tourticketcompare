@@ -15,7 +15,7 @@ Use this file for the current working state only. Historical MVP, prelaunch, CRO
 
 - Frontend: static assets in `public/`.
 - Cloudflare Pages Functions: `functions/`.
-- Production deploy: `npm run deploy:pages` (or automatic via Cloudflare Pages Git integration if connected).
+- Production deploy: merges to `main` trigger automatic Cloudflare Pages deployments via Git integration (confirmed 2026-05-11). `npm run deploy:pages` can be used for out-of-band manual deploys.
 - Vercel preview support: `api/` and `vercel.json` — not production; present as legacy artifacts.
 - D1 storage is used for demand capture and analytics through binding `DEMAND_DB`.
 
@@ -165,8 +165,7 @@ See `docs/LIVE_PRODUCTION_VERIFICATION.md` for the full checklist and remaining 
 
 ## Exact Next Recommended Build Steps
 
-1. Confirm GitHub→Pages CI pipeline is active in the Cloudflare Pages dashboard (Git integration). If not active, set it up so that `git push origin main` triggers automatic Pages deploys.
-2. Complete remaining live smoke checks: six artist pages, four guide pages, five trust pages, old guide redirect slugs, D1 analytics write confirmation.
+1. Complete remaining live smoke checks: six artist pages, four guide pages, five trust pages, old guide redirect slugs, D1 analytics write confirmation.
 3. Add verified SeatGeek and Vivid Seats provider links only after destination and attribution behavior are proven.
 4. Add tour records only when source-backed tour facts exist.
 5. Add event/city pages only when real event date, venue, and availability data is verified.
@@ -174,7 +173,7 @@ See `docs/LIVE_PRODUCTION_VERIFICATION.md` for the full checklist and remaining 
 
 ## Known Risks
 
-- GitHub→Pages CI pipeline is not confirmed active. If no Git integration is configured, every deploy to production requires a manual `npm run deploy:pages` step.
+- `impactDefaultProgramId` reports `false` in `/api/health`; confirm whether this binding is needed for any active feature.
 - Ticketmaster affiliate links are approved for use, but SeatGeek and Vivid Seats still need verified link data before public buttons.
 - Any future factual artist/tour claims need source URLs or public verification.
 - Thin duplicate ticket pages or old root-level artist URLs could damage SEO if reintroduced as canonicals.

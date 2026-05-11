@@ -47,7 +47,7 @@ TourTicketCompare helps fans find checked ticket links, understand buying risks,
 - **Storage:** Cloudflare D1 (`DEMAND_DB`) for analytics and demand capture
 - **No build step:** `public/` is served as-is; `functions/` is bundled by Cloudflare Pages
 
-> **Deploy note:** `npm run deploy:pages` deploys to Cloudflare Pages production. Confirm that the Cloudflare Pages project is connected to the GitHub repo (Git integration) in the dashboard — if so, pushes to `main` deploy automatically. See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
+> **Deploy note:** Merges to `main` automatically deploy to Cloudflare Pages production via Git integration (confirmed 2026-05-11). `npm run deploy:pages` can also be used for manual deploys. See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ---
 
@@ -109,7 +109,7 @@ Or without pre-flight checks:
 npm run deploy:pages
 ```
 
-If the Cloudflare Pages project has Git integration active, pushes to `main` deploy automatically and a manual CLI deploy is not needed. Confirm integration status in the Cloudflare Pages dashboard before relying on automatic deploys.
+Merges to `main` deploy automatically via Cloudflare Pages Git integration (confirmed 2026-05-11). A manual CLI deploy is not required for normal production changes.
 
 ---
 

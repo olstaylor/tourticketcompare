@@ -46,11 +46,9 @@ Then open `http://localhost:3000/api/health`.
 
 ## Production Deploy
 
-### Option A — GitHub→Pages CI (preferred)
+### Option A — GitHub→Pages CI (active — preferred)
 
-If the Cloudflare Pages project is connected to the GitHub repo via Git integration (check in Cloudflare Pages dashboard → Settings → Git integration), every push to `main` automatically deploys to production. No manual step needed.
-
-**Confirm this is active before relying on it.** If Git integration is not configured, Option B applies.
+The Cloudflare Pages project is connected to the GitHub repo via Git integration (confirmed 2026-05-11). Every merge to `main` automatically deploys to production. No manual step needed for normal changes.
 
 ### Option B — Manual CLI deploy
 

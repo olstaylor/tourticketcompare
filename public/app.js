@@ -527,12 +527,20 @@ function renderHome() {
   text(
     copy,
     "p",
-    "TourTicketCompare helps fans find checked ticket links, understand the true cost before checkout, and avoid scams and dead-end listings. Search major artists, review verified provider pages, and make safer buying decisions.",
+    "Checked ticket destinations, practical buying guidance, and no fake prices or invented dates.",
     "hero-subcopy"
   );
   const actions = document.createElement("div");
   actions.className = "action-row";
-  actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("Read buying guides", "/guides", "secondary"));
+  const browseCta = buttonLink("Browse artists", "#featured-artists", "primary");
+  browseCta.addEventListener("click", (event) => {
+    const target = document.getElementById("featured-artists");
+    if (target) {
+      event.preventDefault();
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+  actions.append(browseCta);
   copy.append(actions);
   const trust = document.createElement("aside");
   trust.className = "trust-ledger";
@@ -545,46 +553,14 @@ function renderHome() {
   ].forEach((item) => text(trust, "p", item));
   hero.append(copy, trust);
 
-  const today = document.createElement("section");
-  today.className = "section-grid";
-  today.setAttribute("aria-labelledby", "todayTitle");
-  const todayHeader = document.createElement("div");
-  todayHeader.className = "section-intro";
-  text(todayHeader, "h2", "What you can do right now").id = "todayTitle";
-  text(todayHeader, "p", "Start with an artist, find verified ticket destinations when available, use the buying guides to check final costs, and leave confident.");
-  const todayGrid = document.createElement("div");
-  todayGrid.className = "card-grid";
-  todayGrid.append(
-    renderInfoCard("Search major artists", "Find artist pages with verified ticket links to real ticketing platforms—no speculation or dead links."),
-    renderInfoCard("Get event-specific links", "When an event is checked, you'll see a link to that exact date and venue, not a generic artist page."),
-    renderInfoCard("Understand the real cost", "Review buying guides that break down fees, seat details, delivery timing, and transfer rules before you checkout."),
-    renderInfoCard("Avoid risky listings", "We skip invented dates, fake prices, and unverified ticket buttons—even if it means a page looks less full.")
-  );
-  today.append(todayHeader, todayGrid);
-
-  const works = document.createElement("section");
-  works.className = "section-grid";
-  works.setAttribute("aria-labelledby", "worksTitle");
-  const worksHeader = document.createElement("div");
-  worksHeader.className = "section-intro";
-  text(worksHeader, "h2", "How it works").id = "worksTitle";
-  text(worksHeader, "p", "Verified ticket research, not fake price comparison. From artist search to checkout confidence.");
-  const worksGrid = document.createElement("div");
-  worksGrid.className = "card-grid";
-  worksGrid.append(
-    renderInfoCard("Real sources first", "Artist and event pages come from real sources we can verify, not scraped listings or rumors."),
-    renderInfoCard("Event links are exact", "A verified event button links to that specific show date and venue—not a generic artist page."),
-    renderInfoCard("Unverified stays hidden", "If we can't verify a destination, we don't show a button just to fill a page. Honest empty states win.")
-  );
-  works.append(worksHeader, worksGrid);
-
   const artists = document.createElement("section");
+  artists.id = "featured-artists";
   artists.className = "section-grid";
   artists.setAttribute("aria-labelledby", "homeArtistsTitle");
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Featured artists").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Choose an artist to review checked ticket links where available, plus practical guidance for smarter ticket buying.");
+  text(artistHeader, "p", "Choose an artist to review checked ticket links where available, plus practical guidance for making a better buying decision.");
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => {
@@ -592,25 +568,14 @@ function renderHome() {
   });
   artists.append(artistHeader, grid);
 
-  const board = renderShowBoardShell(
-    "homeShowBoard",
-    "Recently verified events",
-    "When event-specific links are checked and verified, they appear here. Review the date, venue, and destination before you checkout."
+  const disclosure = document.createElement("p");
+  disclosure.className = "disclosure-note";
+  disclosure.append(
+    document.createTextNode("TourTicketCompare is independent and unofficial. We may earn a commission from ticket purchases made through our links. "),
+    link("How it works →", "/how-it-works", "text-link")
   );
 
-  const disclosure = document.createElement("section");
-  disclosure.className = "section-grid home-disclosure";
-  disclosure.setAttribute("aria-labelledby", "homeDisclosureTitle");
-  text(disclosure, "h2", "About affiliate links").id = "homeDisclosureTitle";
-  text(
-    disclosure,
-    "p",
-    "Some ticket links are affiliate partners, which means we may earn a commission—at no extra cost to you. Commissions don't influence which links we show. Ticket destinations are still verified before they appear, and your prices don't change."
-  );
-  disclosure.append(buttonLink("Learn more", "/affiliate-disclosure", "secondary"));
-
-  main.replaceChildren(hero, today, works, artists, board, renderGuidePreview(), disclosure);
-  hydrateShowBoard(board, {});
+  main.replaceChildren(hero, artists, renderGuidePreview(), disclosure);
 }
 
 function renderArtistCard(artist) {
@@ -628,8 +593,7 @@ function renderArtistCard(artist) {
       : "Use this page for artist details and buying guidance. Ticket links appear when we verify a destination.",
     "card-status"
   );
-  text(article, "p", "Live comparison coming", "status-badge status-badge-muted");
-  article.append(buttonLink("View artist", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
+  article.append(buttonLink(activeProviders.length ? "View verified link" : "View ticket guidance", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
   return article;
 }
 

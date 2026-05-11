@@ -268,8 +268,8 @@ function renderArtistLinks(catalog) {
           hasArtistPage
             ? "Artist-level links are separate from dated event links. Event-specific buttons appear only on verified show cards."
             : "Use the artist page for guidance. Ticket buttons appear only when a destination can be checked."
-        }</p><p class="status-badge status-badge-muted">Price comparison coming later</p>${anchor(
-          "View artist",
+        }</p>${anchor(
+          hasArtistPage ? "View verified link" : "View ticket guidance",
           `/artists/${artist.slug}`,
           hasArtistPage ? "button button-primary" : "button button-secondary"
         )}</article>`
@@ -456,21 +456,21 @@ function renderMainContent(route, catalog) {
     )}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links for major tours</h1><p class="hero-subcopy">TourTicketCompare helps fans find checked ticket links, understand what affects the final price, and avoid dead-end listings. We only show ticket buttons when the show and destination can be verified; final prices, fees, availability, and checkout terms are confirmed by the ticket provider.</p><div class="action-row">${anchor(
-    "Find an artist",
-    "/artists",
+  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links for major tours</h1><p class="hero-subcopy">Checked ticket destinations, practical buying guidance, and no fake prices or invented dates.</p><div class="action-row">${anchor(
+    "Browse artists",
+    "#featured-artists",
     "button button-primary"
-  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div><aside class="trust-ledger" aria-label="Publishing rules"><h2>Why fans can trust it</h2><p>Independent and unofficial</p><p>Checked ticket links</p><p>No invented dates or fake prices</p><p>Prices, fees and availability confirmed at checkout</p></aside></section><section class="section-grid"><div class="section-intro"><h2>What you can do here</h2><p>Start with the artist, check whether verified event links are available, then use the guides to make a better buying decision before checkout.</p></div><div class="card-grid"><article class="info-card"><h3>Find major artists</h3><p>Browse artist pages for major live music tours and see whether checked ticket links are available.</p></article><article class="info-card"><h3>Check event-specific links</h3><p>When a show link is verified, the event card points to the ticket page for that exact date.</p></article><article class="info-card"><h3>Understand the final total</h3><p>Use the guides to check fees, seat details, delivery timing, resale terms, and checkout totals.</p></article><article class="info-card"><h3>Avoid dead-end listings</h3><p>We do not publish invented dates, fake prices, or ticket buttons we cannot verify.</p></article></div></section><section class="section-grid"><div class="section-intro"><h2>Featured artists</h2><p>Choose an artist to review checked ticket links when available, plus practical guidance for avoiding risky listings.</p></div>${renderArtistLinks(
+  )}</div></div><aside class="trust-ledger" aria-label="Publishing rules"><h2>Why fans can trust it</h2><p>Independent and unofficial</p><p>Checked ticket links</p><p>No invented dates or fake prices</p><p>Prices, fees and availability confirmed at checkout</p></aside></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Choose an artist to review checked ticket links where available, plus practical guidance for making a better buying decision.</p></div>${renderArtistLinks(
     catalog
-  )}</section><section class="section-grid"><div class="section-intro"><h2>Buying guides</h2><p>Practical guides for comparing final prices, avoiding risky listings, and understanding ticket provider terms.</p></div>${renderGuideLinks()}<div class="action-row">${anchor(
+  )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Practical guides for comparing final prices, avoiding risky listings, and understanding ticket provider terms.</p></div>${renderGuideLinks()}<div class="action-row">${anchor(
     "View all guides",
     "/guides",
     "button button-secondary"
-  )}</div></section><section class="section-grid home-disclosure"><h2>Affiliate disclosure</h2><p>Some ticket links may be affiliate links, which means we may earn a commission at no extra cost to you. That does not change which links we show: ticket destinations still need to be checked, and providers control final prices, fees, availability, delivery, and checkout terms.</p>${anchor(
-    "Read affiliate disclosure",
-    "/affiliate-disclosure",
-    "button button-secondary"
-  )}</section></main>`;
+  )}</div></section><p class="disclosure-note">TourTicketCompare is independent and unofficial. We may earn a commission from ticket purchases made through our links. ${anchor(
+    "How it works →",
+    "/how-it-works",
+    "text-link"
+  )}</p></main>`;
 }
 
 function injectRoute(html, route, origin, catalog) {

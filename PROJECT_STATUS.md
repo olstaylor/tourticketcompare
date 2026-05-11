@@ -43,7 +43,7 @@ See `docs/LIVE_PRODUCTION_VERIFICATION.md` for full live evidence.
 | Risk | Detail | Severity |
 |---|---|---|
 | ~~www redirect broken~~ | **Resolved 2026-05-11.** Cloudflare Redirect Rule added; `www.tourticketcompare.com` now 301→apex (path-preserving). Confirmed live. | ~~High~~ |
-| GitHub→Pages CI pipeline unconfirmed | It is unknown whether the current production deploy was triggered by a GitHub push or a manual CLI deploy. If no Git integration is active, every deploy requires a manual `npm run deploy:pages` step. Check Cloudflare Pages dashboard. | High |
+| ~~GitHub→Pages CI pipeline unconfirmed~~ | **Confirmed 2026-05-11.** Cloudflare Pages Git integration is active. Merges to `main` trigger automatic production Pages deployments. No manual deploy step required. | ~~High~~ |
 | ~~Worker version gap~~ | **Closed.** Production is now on Pages Functions, not the standalone Worker. The Worker version gap is no longer relevant. | ~~High~~ |
 | ~~No npm script for Worker deploy~~ | **Closed.** Worker is no longer production. `npm run deploy:pages` is the correct production deploy path. | ~~High~~ |
 | ~~Structural content divergence~~ | **Resolved.** `functions/_route-metadata.js` is now the single source of truth for page titles, descriptions, H1s, and redirects. | ~~High~~ |
@@ -82,7 +82,7 @@ See `docs/LIVE_PRODUCTION_VERIFICATION.md` for full live evidence.
 ## Immediate Priorities
 
 1. ~~**Fix www redirect**~~ — **Done 2026-05-11.** Cloudflare Redirect Rule active; 301 confirmed.
-2. **Confirm GitHub→Pages CI pipeline** — check Cloudflare Pages dashboard for Git integration. If no Git integration is active, every deploy requires a manual `npm run deploy:pages` step. (High: operational risk before any feature work lands on main)
+2. ~~**Confirm GitHub→Pages CI pipeline**~~ — **Done 2026-05-11.** Git integration confirmed active. Merges to `main` deploy automatically.
 3. **Complete live smoke checks** — remaining routes not yet verified: six artist pages, four guide pages, five trust/legal pages, old guide redirect slugs, D1 analytics write. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
 4. **Confirm `impactDefaultProgramId`** — `/api/health` reports `false`; confirm whether the absent binding affects any live feature.
 5. Remove or provision the placeholder D1 binding entries in `wrangler.toml` (`RATE_LIMIT_DB`, `CLICKS_DB`)

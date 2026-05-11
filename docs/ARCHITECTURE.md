@@ -36,6 +36,8 @@ public/               Static assets served directly or bundled into the Worker
 
 functions/            Cloudflare Pages Functions
   _middleware.js      Runs for all requests; delegates HTML routes to [[path]].js
+  _route-metadata.js  Shared page metadata (TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS)
+                      — imported by both [[path]].js and scripts/build-standalone-worker.mjs
   [[path]].js         Catch-all: ALL HTML routing logic, schema injection, 404 handling
   artists.js          Re-exports onRequest from [[path]].js (fallback if middleware removed)
   guides.js           Re-exports onRequest from [[path]].js
@@ -166,13 +168,19 @@ Production traffic goes to Worker `tourticketcompare-live`. Pages serves a previ
 
 **Requires verification:** Whether the Cloudflare routes still point to `tourticketcompare-live`, and whether the current `main` branch matches the deployed Worker.
 
-### 2. Deployment path uncertainty
+### 2. Route metadata shared module
 
-The Pages Functions source and the standalone Worker source share `[[path]].js`, but the Worker bundles static assets differently (inline) vs Pages (served from `env.ASSETS`). If `[[path]].js` uses `env.ASSETS.fetch()` in a way the Worker build script does not replicate, behaviour diverges between preview and production.
+`functions/_route-metadata.js` exports `TRUST_ROUTES`, `GUIDE_ROUTES`, and `OLD_GUIDE_REDIRECTS`. Both `functions/[[path]].js` and `scripts/build-standalone-worker.mjs` import from it. This is the single source of truth for page titles, descriptions, H1s, breadcrumbs, and guide redirect mappings.
+
+**When updating page metadata:** edit `functions/_route-metadata.js` only. Do not add copies in `[[path]].js` or the build script.
+
+### 3. Deployment path uncertainty
+
+The Pages Functions source and the standalone Worker source share `[[path]].js` routing logic, but the Worker bundles static assets differently (inline, gzip-compressed) vs Pages (served from `env.ASSETS`). If `[[path]].js` uses `env.ASSETS.fetch()` in a way the Worker build script does not replicate, behaviour diverges between preview and production.
 
 **Requires verification:** That the Worker build script correctly replicates `env.ASSETS` behaviour for all data files used by `[[path]].js` and `shows.js`.
 
-### 3. Routing precedence risks
+### 4. Routing precedence risks
 
 `_routes.json` routes `/*` through functions. This means:
 
@@ -180,15 +188,15 @@ The Pages Functions source and the standalone Worker source share `[[path]].js`,
 - If `_middleware.js` throws, all HTML routes fail.
 - Adding a new file to `functions/` with a matching route name could silently shadow or double-handle a route.
 
-### 4. Named shim fragility
+### 5. Named shim fragility
 
 The named shims provide a safety net if middleware is removed, but are otherwise unused. A contributor editing `functions/artists.js` expecting to affect artist route behaviour would see no change while `_middleware.js` is active.
 
-### 5. Vercel path
+### 6. Vercel path
 
 `vercel.json` and `api/` exist in the repo. These are not production but could be accidentally used as a deploy target. Do not add Vercel-specific logic unless a deliberate architecture decision is made.
 
-### 6. Placeholder D1 bindings
+### 7. Placeholder D1 bindings
 
 `wrangler.toml` contains commented-out D1 bindings with `replace-with-d1-database-id` placeholders. Uncommenting them with placeholder values would break local Pages dev and any CLI deploys that read `wrangler.toml`.
 

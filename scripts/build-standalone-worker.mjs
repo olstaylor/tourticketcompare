@@ -2,6 +2,11 @@ import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { extname, join, relative } from "node:path";
 import { gzipSync } from "node:zlib";
+import {
+  TRUST_ROUTES as trustRoutes,
+  GUIDE_ROUTES as guideRoutes,
+  OLD_GUIDE_REDIRECTS as oldGuideRedirects
+} from "../functions/_route-metadata.js";
 
 const root = process.cwd();
 const publicDir = join(root, "public");
@@ -15,104 +20,6 @@ const contentTypes = {
   ".svg": "image/svg+xml; charset=utf-8",
   ".txt": "text/plain; charset=utf-8",
   ".xml": "application/xml; charset=utf-8"
-};
-
-const guideRoutes = {
-  "/guides/how-to-compare-concert-ticket-prices": {
-    title: "How to Compare Concert Ticket Prices | TourTicketCompare",
-    h1: "How to compare concert ticket prices",
-    description:
-      "Learn how to compare concert ticket options safely by checking provider sources, fees, availability, and final checkout totals."
-  },
-  "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-    title: "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
-    h1: "Ticketmaster vs SeatGeek vs Vivid Seats",
-    description:
-      "Understand how Ticketmaster, SeatGeek, and Vivid Seats can differ by inventory source, fees, checkout flow, and availability."
-  },
-  "/guides/how-to-avoid-overpaying-for-concert-tickets": {
-    title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
-    h1: "How to avoid overpaying for concert tickets",
-    description:
-      "Practical checks for avoiding unclear fees, speculative listings, placeholder ticket links, and unsupported ticket-price claims."
-  },
-  "/guides/when-is-the-best-time-to-buy-concert-tickets": {
-    title: "Best Time to Buy Concert Tickets | TourTicketCompare",
-    h1: "When is the best time to buy concert tickets?",
-    description:
-      "Learn how timing can affect concert ticket buying decisions without relying on fake scarcity or invented pricing trends."
-  },
-  "/guides/primary-vs-resale-concert-tickets": {
-    title: "Primary vs Resale Concert Tickets | TourTicketCompare",
-    h1: "Primary vs resale concert tickets",
-    description:
-      "A clear guide to primary and resale concert tickets, including fees, delivery, speculative listings, and checkout checks."
-  }
-};
-
-const trustRoutes = {
-  "/": {
-    title: "TourTicketCompare | Ticket Options & Availability",
-    description:
-      "Find verified ticket platform links for major artists. No fake prices, no placeholder buttons, and no invented tour data.",
-    indexable: true
-  },
-  "/artists": {
-    title: "Artists | TourTicketCompare",
-    description:
-      "Browse factual artist ticket pages with verified provider buttons where safe ticket links are configured.",
-    indexable: true,
-    breadcrumb: [{ name: "Artists", path: "/artists" }]
-  },
-  "/guides": {
-    title: "Concert Ticket Buying Guides | TourTicketCompare",
-    description:
-      "Practical guides to comparing concert ticket options, fees, resale listings, provider differences, and checkout totals.",
-    indexable: true,
-    breadcrumb: [{ name: "Guides", path: "/guides" }]
-  },
-  "/how-it-works": {
-    title: "How TourTicketCompare Works",
-    description:
-      "How TourTicketCompare verifies artist pages, provider buttons, disclosures, and ticket data before publishing public links.",
-    indexable: true,
-    faq: true,
-    breadcrumb: [{ name: "How it works", path: "/how-it-works" }]
-  },
-  "/about": {
-    title: "About TourTicketCompare",
-    description:
-      "TourTicketCompare is an independent, unofficial ticket comparison affiliate site built around verified links and factual content.",
-    indexable: true,
-    breadcrumb: [{ name: "About", path: "/about" }]
-  },
-  "/contact": {
-    title: "Contact TourTicketCompare",
-    description: "Contact TourTicketCompare about provider links, artist data, corrections, partnerships, or editorial questions.",
-    indexable: true,
-    breadcrumb: [{ name: "Contact", path: "/contact" }]
-  },
-  "/editorial-policy": {
-    title: "Editorial Policy | TourTicketCompare",
-    description:
-      "The editorial rules TourTicketCompare follows before publishing artist facts, tour pages, provider links, prices, or availability.",
-    indexable: true,
-    breadcrumb: [{ name: "Editorial policy", path: "/editorial-policy" }]
-  },
-  "/affiliate-disclosure": {
-    title: "Affiliate Disclosure | TourTicketCompare",
-    description:
-      "TourTicketCompare may earn commission from verified provider links without changing the price you pay.",
-    indexable: true,
-    breadcrumb: [{ name: "Affiliate disclosure", path: "/affiliate-disclosure" }]
-  }
-};
-
-const oldGuideRedirects = {
-  "/guides/compare-ticket-prices-safely": "/guides/how-to-compare-concert-ticket-prices",
-  "/guides/why-ticket-prices-vary": "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
-  "/guides/avoid-overpaying-concert-tickets": "/guides/how-to-avoid-overpaying-for-concert-tickets",
-  "/guides/best-time-to-buy-concert-tickets": "/guides/when-is-the-best-time-to-buy-concert-tickets"
 };
 
 const privateTicketLinks = {

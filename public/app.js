@@ -1534,6 +1534,8 @@ async function render() {
   else if (["about", "contact", "editorial-policy", "affiliate-disclosure"].includes(current.type)) renderSimplePage(current.type);
   else renderNotFound();
 
+  if (window.impactStat) window.impactStat("transformLinks");
+
   sendAnalytics("page_view", {
     routeType: current.type,
     artistSlug: current.artist?.slug || "",

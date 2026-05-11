@@ -1,13 +1,13 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-11
+Last updated: 2026-05-11 (www redirect confirmed fixed)
 
 ---
 
 ## Current Known-Good State
 
 - Live URL: `https://tourticketcompare.com`
-- `www` redirect: **BROKEN** — `https://www.tourticketcompare.com` returns 200 with self-referential canonical; no redirect to apex (previously worked 2026-05-01 via standalone Worker; lost in Pages migration)
+- `www` redirect: **confirmed working** — `https://www.tourticketcompare.com` → 301 → `https://tourticketcompare.com` (path-preserving; fixed 2026-05-11 via Cloudflare Redirect Rule)
 - Production runtime: **Cloudflare Pages Functions** (confirmed 2026-05-11 via `/api/health` → `runtime: "cloudflare-pages-functions"`)
 - Production runtime changed from: Cloudflare Worker `tourticketcompare-live` (previously deployed 2026-05-01, build `d3cc71487403`) — no longer serving production
 - GitHub `main` is the source of truth for the Pages Functions and frontend source
@@ -42,7 +42,7 @@ See `docs/LIVE_PRODUCTION_VERIFICATION.md` for full live evidence.
 
 | Risk | Detail | Severity |
 |---|---|---|
-| **www redirect broken** | `www.tourticketcompare.com` returns 200 with a self-referential canonical instead of 301→apex. The redirect previously ran in the standalone Worker; it was not replicated in Pages Functions. Duplicate content + split SEO signals until fixed. Fix via Cloudflare Redirect Rule in dashboard (no code change). See `docs/LIVE_PRODUCTION_VERIFICATION.md`. | **High** |
+| ~~www redirect broken~~ | **Resolved 2026-05-11.** Cloudflare Redirect Rule added; `www.tourticketcompare.com` now 301→apex (path-preserving). Confirmed live. | ~~High~~ |
 | GitHub→Pages CI pipeline unconfirmed | It is unknown whether the current production deploy was triggered by a GitHub push or a manual CLI deploy. If no Git integration is active, every deploy requires a manual `npm run deploy:pages` step. Check Cloudflare Pages dashboard. | High |
 | ~~Worker version gap~~ | **Closed.** Production is now on Pages Functions, not the standalone Worker. The Worker version gap is no longer relevant. | ~~High~~ |
 | ~~No npm script for Worker deploy~~ | **Closed.** Worker is no longer production. `npm run deploy:pages` is the correct production deploy path. | ~~High~~ |
@@ -81,11 +81,11 @@ See `docs/LIVE_PRODUCTION_VERIFICATION.md` for full live evidence.
 
 ## Immediate Priorities
 
-1. **Fix www redirect** — add a Cloudflare Redirect Rule so `www.tourticketcompare.com` 301→`https://tourticketcompare.com`. Dashboard only; no code change. (High: active SEO risk)
-2. **Confirm GitHub→Pages CI pipeline** — check Cloudflare Pages dashboard for Git integration status. If not active, every deploy is manual. (High: operational risk)
-3. **Complete live smoke checks** — remaining routes not yet verified: all artist pages, all guide pages, trust pages, guide redirects. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
-4. **Confirm `impactDefaultProgramId`** — check whether the absent binding causes any functional gap.
-5. Remove or provision the placeholder D1 binding entries in `wrangler.toml`
+1. ~~**Fix www redirect**~~ — **Done 2026-05-11.** Cloudflare Redirect Rule active; 301 confirmed.
+2. **Confirm GitHub→Pages CI pipeline** — check Cloudflare Pages dashboard for Git integration. If no Git integration is active, every deploy requires a manual `npm run deploy:pages` step. (High: operational risk before any feature work lands on main)
+3. **Complete live smoke checks** — remaining routes not yet verified: six artist pages, four guide pages, five trust/legal pages, old guide redirect slugs, D1 analytics write. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
+4. **Confirm `impactDefaultProgramId`** — `/api/health` reports `false`; confirm whether the absent binding affects any live feature.
+5. Remove or provision the placeholder D1 binding entries in `wrangler.toml` (`RATE_LIMIT_DB`, `CLICKS_DB`)
 6. Add verified SeatGeek and Vivid Seats links only after destination and attribution behaviour are proven
 7. Add tour records and event-level show cards only when source-backed data is verified
 

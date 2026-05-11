@@ -1,13 +1,16 @@
 {
-  "version": 2,
-  "updated_at": "2026-04-30",
+  "version": 3,
+  "updated_at": "2026-05-11",
   "strategy": "Cloudflare Pages stadium tour market watch catalog with factual artist content and verified provider buttons only.",
   "artists": [
     {
       "slug": "beyonce",
       "name": "Beyoncé",
       "short_description": "Pop and R&B performer known for large-scale arena and stadium productions.",
-      "genres": ["Pop", "R&B"],
+      "genres": [
+        "Pop",
+        "R&B"
+      ],
       "country": "United States",
       "official_website": "https://www.beyonce.com/",
       "image_alt": "Beyoncé artist ticket information",
@@ -63,7 +66,10 @@
       "slug": "harry-styles",
       "name": "Harry Styles",
       "short_description": "British pop artist and former One Direction member with major global demand.",
-      "genres": ["Pop", "Rock"],
+      "genres": [
+        "Pop",
+        "Rock"
+      ],
       "country": "United Kingdom",
       "official_website": "https://www.hstyles.co.uk/",
       "image_alt": "Harry Styles artist ticket information",
@@ -83,7 +89,11 @@
       "slug": "bts",
       "name": "BTS",
       "short_description": "South Korean group with one of the world's largest global fanbases.",
-      "genres": ["K-pop", "Pop", "Hip-hop"],
+      "genres": [
+        "K-pop",
+        "Pop",
+        "Hip-hop"
+      ],
       "country": "South Korea",
       "official_website": "https://ibighit.com/bts/eng/",
       "image_alt": "BTS artist ticket information",
@@ -103,7 +113,10 @@
       "slug": "ariana-grande",
       "name": "Ariana Grande",
       "short_description": "American pop vocalist with a large international audience.",
-      "genres": ["Pop", "R&B"],
+      "genres": [
+        "Pop",
+        "R&B"
+      ],
       "country": "United States",
       "official_website": "https://www.arianagrande.com/",
       "image_alt": "Ariana Grande artist ticket information",
@@ -123,7 +136,11 @@
       "slug": "bad-bunny",
       "name": "Bad Bunny",
       "short_description": "Puerto Rican artist whose tours draw major demand across Latin and global markets.",
-      "genres": ["Reggaeton", "Latin trap", "Latin pop"],
+      "genres": [
+        "Reggaeton",
+        "Latin trap",
+        "Latin pop"
+      ],
       "country": "Puerto Rico",
       "official_website": "https://www.badbunny.com/",
       "image_alt": "Bad Bunny artist ticket information",
@@ -143,7 +160,9 @@
       "slug": "morgan-wallen",
       "name": "Morgan Wallen",
       "short_description": "Country artist with high-demand arena and stadium ticket interest.",
-      "genres": ["Country"],
+      "genres": [
+        "Country"
+      ],
       "country": "United States",
       "official_website": "https://morganwallen.com/",
       "image_alt": "Morgan Wallen artist ticket information",
@@ -163,7 +182,9 @@
       "slug": "jay-z",
       "name": "JAY-Z",
       "short_description": "American hip-hop artist and entrepreneur with legacy demand for major live appearances.",
-      "genres": ["Hip-hop"],
+      "genres": [
+        "Hip-hop"
+      ],
       "country": "United States",
       "official_website": "https://www.rocnation.com/music/jay-z/",
       "image_alt": "JAY-Z artist ticket information",
@@ -187,21 +208,190 @@
       "name": "Ticketmaster",
       "provider_type": "primary_or_verified_marketplace",
       "public_enabled": true,
-      "requires_verified_destination": true
+      "requires_verified_destination": true,
+      "credential_type": "impact_affiliate",
+      "credential_fields": [
+        "IMPACT_ACCOUNT_SID",
+        "IMPACT_AUTH_TOKEN",
+        "IMPACT_PROGRAM_ID"
+      ],
+      "geographic_coverage": [
+        "US",
+        "CA",
+        "UK",
+        "DE",
+        "FR",
+        "NL",
+        "SE",
+        "PL",
+        "IT",
+        "BE",
+        "ES"
+      ],
+      "allowed_destination_hosts": [
+        "ticketmaster.com",
+        "ticketmaster.ca",
+        "ticketmaster.co.uk",
+        "ticketmaster.es",
+        "ticketmaster.de",
+        "ticketmaster.nl",
+        "ticketmaster.se",
+        "ticketmaster.pl",
+        "ticketmaster.be",
+        "ticketmaster.it"
+      ],
+      "trusted_affiliate_hosts": [
+        "ticketmaster.evyy.net"
+      ],
+      "api_config": {
+        "type": "rest",
+        "base_url": "https://api.ticketmaster.com/",
+        "rate_limit_per_second": 5,
+        "supports_event_search": true,
+        "supports_inventory_fetch": false,
+        "supports_pricing": true,
+        "pricing_type": "live_aggregate"
+      },
+      "features": {
+        "primary_ticket_sales": true,
+        "resale_platform": false,
+        "international_coverage": true,
+        "real_time_inventory": true,
+        "price_aggregation": false
+      },
+      "affiliate_disclosure": "This link directs to Ticketmaster. Compensation: affiliate commission.",
+      "terms_accepted_at": "2026-04-30",
+      "contact": {
+        "api_email": "api-support@ticketmaster.com",
+        "business_email": "partnerships@ticketmaster.com"
+      }
     },
     {
       "slug": "seatgeek",
       "name": "SeatGeek",
       "provider_type": "marketplace",
       "public_enabled": false,
-      "requires_verified_destination": true
+      "requires_verified_destination": true,
+      "credential_type": "api_key",
+      "credential_fields": [
+        "SEATGEEK_API_KEY"
+      ],
+      "geographic_coverage": [
+        "US",
+        "CA"
+      ],
+      "allowed_destination_hosts": [
+        "seatgeek.com"
+      ],
+      "trusted_affiliate_hosts": [],
+      "api_config": {
+        "type": "rest",
+        "base_url": "https://api.seatgeek.com/",
+        "rate_limit_per_second": 2,
+        "supports_event_search": true,
+        "supports_inventory_fetch": true,
+        "supports_pricing": true,
+        "pricing_type": "live_fetch"
+      },
+      "features": {
+        "primary_ticket_sales": true,
+        "resale_platform": true,
+        "international_coverage": false,
+        "real_time_inventory": true,
+        "price_aggregation": true
+      },
+      "affiliate_disclosure": "This link directs to SeatGeek.",
+      "terms_accepted_at": null,
+      "contact": {
+        "api_email": "api@seatgeek.com",
+        "business_email": "partnerships@seatgeek.com"
+      }
     },
     {
       "slug": "vivid-seats",
       "name": "Vivid Seats",
       "provider_type": "marketplace",
       "public_enabled": false,
-      "requires_verified_destination": true
+      "requires_verified_destination": true,
+      "credential_type": "api_key",
+      "credential_fields": [
+        "VIVID_SEATS_API_KEY"
+      ],
+      "geographic_coverage": [
+        "US"
+      ],
+      "allowed_destination_hosts": [
+        "vividseats.com"
+      ],
+      "trusted_affiliate_hosts": [],
+      "api_config": {
+        "type": "rest",
+        "base_url": "https://api.vividseats.com/",
+        "rate_limit_per_second": 2,
+        "supports_event_search": false,
+        "supports_inventory_fetch": true,
+        "supports_pricing": true,
+        "pricing_type": "live_fetch"
+      },
+      "features": {
+        "primary_ticket_sales": false,
+        "resale_platform": true,
+        "international_coverage": false,
+        "real_time_inventory": true,
+        "price_aggregation": true
+      },
+      "affiliate_disclosure": "This link directs to Vivid Seats.",
+      "terms_accepted_at": null,
+      "contact": {
+        "api_email": "api@vividseats.com",
+        "business_email": "partnerships@vividseats.com"
+      }
+    },
+    {
+      "slug": "stubhub",
+      "name": "StubHub",
+      "provider_type": "marketplace",
+      "public_enabled": false,
+      "requires_verified_destination": true,
+      "credential_type": "oauth",
+      "credential_fields": [
+        "STUBHUB_CLIENT_ID",
+        "STUBHUB_CLIENT_SECRET"
+      ],
+      "geographic_coverage": [
+        "US",
+        "CA",
+        "UK",
+        "AU",
+        "DE",
+        "FR"
+      ],
+      "allowed_destination_hosts": [
+        "stubhub.com"
+      ],
+      "trusted_affiliate_hosts": [],
+      "api_config": {
+        "type": "rest",
+        "base_url": "https://api.stubhub.com/",
+        "rate_limit_per_second": 3,
+        "supports_event_search": true,
+        "supports_inventory_fetch": true,
+        "supports_pricing": true,
+        "pricing_type": "live_fetch"
+      },
+      "features": {
+        "primary_ticket_sales": false,
+        "resale_platform": true,
+        "international_coverage": true,
+        "real_time_inventory": true,
+        "price_aggregation": true
+      },
+      "affiliate_disclosure": "This link directs to StubHub.",
+      "terms_accepted_at": null,
+      "contact": {
+        "api_email": "api-support@stubhub.com",
+        "business_email": "partnerships@stubhub.com"
+      }
     }
   ],
   "ticket_links": [

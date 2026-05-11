@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-11",
+  "provider_credentials": {
+    "ticketmaster": {
+      "enabled": true,
+      "affiliate_enabled": true,
+      "public_enabled": true,
+      "credentials_set": true,
+      "last_updated_at": "2026-04-30",
+      "notes": "Live with Impact affiliate tracking"
+    },
+    "seatgeek": {
+      "enabled": false,
+      "affiliate_enabled": false,
+      "public_enabled": false,
+      "credentials_set": false,
+      "last_updated_at": null,
+      "notes": "Awaiting API access approval"
+    },
+    "vivid-seats": {
+      "enabled": false,
+      "affiliate_enabled": false,
+      "public_enabled": false,
+      "credentials_set": false,
+      "last_updated_at": null,
+      "notes": "Awaiting terms review"
+    },
+    "stubhub": {
+      "enabled": false,
+      "affiliate_enabled": false,
+      "public_enabled": false,
+      "credentials_set": false,
+      "last_updated_at": null,
+      "notes": "Not yet in roadmap"
+    }
+  },
+  "pricing_display_rules": {
+    "enabled": false,
+    "show_low_price": false,
+    "show_all_prices": false,
+    "show_availability_only": true,
+    "verified_providers_only": true,
+    "display_currency": "USD",
+    "notes": "Pricing display disabled until live feed verified"
+  },
+  "cache_settings": {
+    "event_data_ttl_seconds": 3600,
+    "pricing_data_ttl_seconds": 300,
+    "provider_health_check_interval_seconds": 1800
+  },
+  "safety_rules": [
+    "Pricing display requires provider enabled AND credentials_set AND verification timestamp ≤ 5 minutes",
+    "Never display invented, estimated, or stale pricing data",
+    "All pricing data must originate from verified provider feeds",
+    "Affiliate redirects only for verified provider destinations",
+    "No client-side credential exposure"
+  ]
+}

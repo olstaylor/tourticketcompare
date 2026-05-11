@@ -18,7 +18,10 @@
     "events:sync": "python3 scripts/sync-events-data.py",
     "events:validate": "python3 scripts/validate-events.py",
     "events:validate:prod": "python3 scripts/validate-events.py --for-production",
-    "events:update": "python3 scripts/csv-to-events.py && python3 scripts/validate-events.py && python3 scripts/partition-events.py && python3 scripts/sync-events-data.py"
+    "events:update": "python3 scripts/csv-to-events.py && python3 scripts/validate-events.py && python3 scripts/partition-events.py && python3 scripts/sync-events-data.py",
+    "providers:validate": "node scripts/validate-provider-structure.js",
+    "providers:enrich": "node scripts/enrich-events-with-provider-links.js",
+    "test:providers": "npm run providers:validate"
   },
   "devDependencies": {
     "wrangler": "^3.90.0"

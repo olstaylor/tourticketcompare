@@ -1189,18 +1189,69 @@ function renderHowItWorks() {
   text(
     section,
     "p",
-    "TourTicketCompare helps fans move from artist research to checked ticket options without fake prices, invented dates, or dead-end ticket buttons.",
+    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options and buying guidance. We do not sell tickets, do not compare prices, and do not send users to weak generic links.",
     "lead"
   );
-  const grid = document.createElement("div");
-  grid.className = "card-grid";
-  grid.append(
-    renderInfoCard("We check official and approved sources", "Event cards and ticket links must be backed by sources we can review. We do not scrape unofficial listings."),
-    renderInfoCard("We keep event links specific", "A ticket button on an event card must point to the checked destination for that exact show date, not a generic artist page."),
-    renderInfoCard("We hide unchecked buttons", "If we cannot verify the ticket destination, we do not show a button just to make a page look fuller."),
-    renderInfoCard("We keep claims honest", "We do not display prices without verified provider data and do not make savings claims we cannot back up. Final prices and fees are set by the ticket provider.")
+
+  const whatWeDo = document.createElement("section");
+  whatWeDo.className = "nested-panel";
+  text(whatWeDo, "h2", "What TourTicketCompare does");
+  whatWeDo.append(
+    createList([
+      "Organises verified ticket links from official providers like Ticketmaster.",
+      "Shows checked event-specific links only when the destination can be verified.",
+      "Provides practical buying guidance on comparing totals, understanding fees, and confirming terms.",
+      "Displays a clear empty state when no verified ticket link exists for an event."
+    ], "check-list")
   );
-  section.append(grid, renderGeneralFaq());
+
+  const whatWeDont = document.createElement("section");
+  whatWeDont.className = "nested-panel";
+  text(whatWeDont, "h2", "What TourTicketCompare does not do");
+  whatWeDont.append(
+    createList([
+      "Sell tickets directly.",
+      "Compare prices across providers or claim one site is cheaper.",
+      "Display prices without verified, timestamped provider data.",
+      "Send users to generic artist pages when no event-specific link is verified.",
+      "Scrape unofficial sources or publish unverified tour dates."
+    ], "check-list")
+  );
+
+  const howLinks = document.createElement("section");
+  howLinks.className = "nested-panel";
+  text(howLinks, "h2", "How ticket links are handled");
+  text(
+    howLinks,
+    "p",
+    "Ticket buttons on event cards link to external ticketing platforms. Some links may be affiliate links, which means we may earn a commission if you purchase through them at no extra cost to you."
+  );
+  text(
+    howLinks,
+    "p",
+    "Affiliate relationships do not control which links we show. We only publish ticket buttons when the destination can be verified.",
+    "disclosure-note"
+  );
+
+  const finalConfirm = document.createElement("section");
+  finalConfirm.className = "nested-panel";
+  text(finalConfirm, "h2", "What you should confirm on the ticket provider site");
+  finalConfirm.append(
+    createList([
+      "Final price including all fees and taxes.",
+      "Exact seat or standing area location.",
+      "Delivery method and timing (instant, email transfer, shipped).",
+      "Refund, resale, and cancellation terms.",
+      "Event date, venue, and artist name match your intended show."
+    ], "check-list")
+  );
+
+  const verification = document.createElement("section");
+  verification.className = "nested-panel";
+  text(verification, "h2", "What we verify before showing a link");
+  text(verification, "p", "We check that the event card artist, date, and venue match verified source data. We validate each ticket link destination before showing a button. We do not show event cards or ticket links until the information can be checked.");
+
+  section.append(whatWeDo, whatWeDont, howLinks, finalConfirm, verification, renderGeneralFaq());
   main.replaceChildren(section);
 }
 

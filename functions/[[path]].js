@@ -476,6 +476,20 @@ function renderMainContent(route, catalog, events = []) {
     )}</div></section></main>`;
   }
 
+  if (route.path === "/how-it-works") {
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="pageTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="pageTitle">How TourTicketCompare works</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options and buying guidance. We do not sell tickets, do not compare prices, and do not send users to weak generic links.</p><section class="nested-panel"><h2>What TourTicketCompare does</h2><ul class="check-list"><li>Organises verified ticket links from official providers like Ticketmaster.</li><li>Shows checked event-specific links only when the destination can be verified.</li><li>Provides practical buying guidance on comparing totals, understanding fees, and confirming terms.</li><li>Displays a clear empty state when no verified ticket link exists for an event.</li></ul></section><section class="nested-panel"><h2>What TourTicketCompare does not do</h2><ul class="check-list"><li>Sell tickets directly.</li><li>Compare prices across providers or claim one site is cheaper.</li><li>Display prices without verified, timestamped provider data.</li><li>Send users to generic artist pages when no event-specific link is verified.</li><li>Scrape unofficial sources or publish unverified tour dates.</li></ul></section><section class="nested-panel"><h2>How ticket links are handled</h2><p>Ticket buttons on event cards link to external ticketing platforms. Some links may be affiliate links, which means we may earn a commission if you purchase through them at no extra cost to you.</p><p class="disclosure-note">Affiliate relationships do not control which links we show. affiliate links are handled safely and we only publish ticket buttons when the destination can be verified.</p></section><section class="nested-panel"><h2>What you should confirm on the ticket provider site</h2><ul class="check-list"><li>Final price including all fees and taxes.</li><li>Exact seat or standing area location.</li><li>Delivery method and timing (instant, email transfer, shipped).</li><li>Refund, resale, and cancellation terms.</li><li>Event date, venue, and artist name match your intended show.</li></ul></section><section class="nested-panel"><h2>What we verify before showing a link</h2><p>We check that the event card artist, date, and venue match verified source data. We validate each ticket link destination before showing a button. We do not show event cards or ticket links until the information can be checked.</p></section><section class="nested-panel faq-panel"><h2>FAQ</h2><details><summary>Is TourTicketCompare official?</summary><p>No. TourTicketCompare is independent and unofficial.</p></details><details><summary>Does the site sell tickets directly?</summary><p>No. Ticket buying happens on the external provider site.</p></details><details><summary>Why are some ticket buttons missing?</summary><p>Ticket buttons are hidden until the destination can be verified.</p></details><details><summary>Can final prices change?</summary><p>Yes. External ticketing sites set their own prices, fees, availability, and checkout terms.</p></details></section><div class="action-row">${anchor(
+      "Find an artist",
+      "/artists",
+      "button button-primary"
+    )}${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor(
+      "Affiliate disclosure",
+      "/affiliate-disclosure",
+      "button button-secondary"
+    )}</div></section></main>`;
+  }
+
   if (route.path === "/affiliate-disclosure") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="affiliateTitle">${renderBreadcrumbHtml(
       route
@@ -509,11 +523,6 @@ function renderMainContent(route, catalog, events = []) {
   }
 
   const simplePages = {
-    "/how-it-works": [
-      "How TourTicketCompare works",
-      "TourTicketCompare helps fans move from artist research to checked ticket options without fake prices, invented dates, or dead-end ticket buttons.",
-      "Event buttons stay event-specific, affiliate links are handled safely, and final prices and fees are confirmed on the ticket provider site."
-    ],
     "/about": [
       "About TourTicketCompare",
       "TourTicketCompare is an independent, unofficial ticket research site made by fans for fans of major live music tours.",

@@ -458,11 +458,11 @@ function renderBreadcrumb(items) {
 }
 
 function artistPageHeading(artist) {
-  return `${artist.name} stadium tour watch`;
+  return `${artist.name} ticket links and buying guidance`;
 }
 
 function artistPageIntro(artist) {
-  return `Use this page to check ${artist.name} watchlist notes and verified event links when reliable source information is available.`;
+  return `Find checked ticket links for ${artist.name} when available, plus practical guidance before you leave for a provider site.`;
 }
 
 function renderProviderButtons(artist, surface) {
@@ -523,7 +523,7 @@ function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Research checked ticket options", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Find verified ticket links for major tours", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
@@ -536,12 +536,12 @@ function renderHome() {
   copy.append(actions);
   const trust = document.createElement("aside");
   trust.className = "trust-ledger";
-  text(trust, "h2", "Verified and trustworthy");
+  text(trust, "h2", "Why fans can trust it");
   [
-    "Independent and fan-made",
-    "Checked ticket links only—no invented pages",
-    "No fake prices or invented tour dates",
-    "Affiliate transparent: commissions don't change your cost"
+    "Independent and unofficial",
+    "Checked ticket links",
+    "No invented dates or fake prices",
+    "Prices, fees and availability confirmed at checkout"
   ].forEach((item) => text(trust, "p", item));
   hero.append(copy, trust);
 

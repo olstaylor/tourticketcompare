@@ -6,28 +6,34 @@ Target state: GitHub `main` → Cloudflare Pages → `tourticketcompare.com` / `
 
 ---
 
-## Recommendation
+## Status Update — 2026-05-11
 
-**Option B — do one final Worker upload first, then migrate to Pages.**
+**Production is already running on Cloudflare Pages Functions.** Live `/api/health` returns `runtime: "cloudflare-pages-functions"` with all critical bindings active. The cutover has already happened; Phase 6 of the migration plan below is complete.
 
-### Why not Option A (migrate directly now)?
+**Phase 1 (Worker upload) should be skipped.** The standalone Worker is no longer serving production traffic. Do not upload a new Worker.
 
-There is one blocking gap: the Pages Functions code (`_middleware.js`, `[[path]].js`) contains **no www→apex redirect**. The current `www.tourticketcompare.com → tourticketcompare.com` redirect runs inside the standalone Worker's `fetch()` handler. If custom domain routing is switched to Pages before this gap is resolved, the www redirect silently breaks.
+**One open issue remains: the www redirect is broken.** `www.tourticketcompare.com` serves content with a self-referential canonical instead of redirecting to the apex domain. This is a high-priority SEO issue and must be fixed in the Cloudflare dashboard. See `docs/LIVE_PRODUCTION_VERIFICATION.md` for full details.
 
-The Cloudflare dashboard can solve this without code changes (a Redirect Rule, or configuring `www` as a redirect-only custom domain in the Pages project). But that dashboard step must be confirmed before traffic is cut over.
+See `docs/LIVE_PRODUCTION_VERIFICATION.md` for the full live evidence audit.
 
-Additionally, there is no CI pipeline (no GitHub Actions, no Cloudflare Git integration confirmed) that would make `main → Pages` automatic. That needs to be set up and tested on the preview URL before cutting custom domains.
+---
 
-### Why Option B is safer
+## Original Recommendation (superseded)
 
-Option B sequences the work so that each step is independently verifiable before the next:
+~~**Option B — do one final Worker upload first, then migrate to Pages.**~~
 
-1. Upload Worker BUILD_ID `39fb2f948e27` → gets structural improvements live, establishes a known-good rollback point
-2. Configure Pages dashboard (bindings, env vars, www redirect, custom domains) → verified on the `*.pages.dev` preview URL
-3. Set up GitHub→Pages CI pipeline → confirmed working on preview
-4. Confirm the Pages preview URL serves all pages correctly
-5. Switch custom domain routing from Worker to Pages
-6. Verify live, then retire the Worker
+**Superseded.** Production moved to Pages before this plan was actioned. The recommendation below is preserved for reference only. Phase 1 (Worker upload) is no longer applicable.
+
+### ~~Why Option B was safer~~
+
+~~Option B sequences the work so that each step is independently verifiable before the next:~~
+
+~~1. Upload Worker BUILD_ID `39fb2f948e27` → gets structural improvements live, establishes a known-good rollback point~~
+~~2. Configure Pages dashboard (bindings, env vars, www redirect, custom domains) → verified on the `*.pages.dev` preview URL~~
+~~3. Set up GitHub→Pages CI pipeline → confirmed working on preview~~
+~~4. Confirm the Pages preview URL serves all pages correctly~~
+~~5. Switch custom domain routing from Worker to Pages~~
+~~6. Verify live, then retire the Worker~~
 
 At any point before step 5, the Worker is live and unaffected. At step 5, rollback is re-routing to the Worker in the dashboard — a single change.
 
@@ -364,19 +370,21 @@ Also verify in the Cloudflare Pages dashboard:
 
 ---
 
-## Sequencing Summary
+## Sequencing Summary (Updated 2026-05-11)
 
 ```
-[Now]
-  ↓ Phase 1: Final Worker upload (39fb2f948e27)
-  ↓ Phase 2: Configure Pages dashboard bindings + vars
-  ↓ Phase 3: Set up GitHub→Pages CI pipeline
-  ↓ Phase 4: Verify Pages on *.pages.dev preview URL
-  ↓ Phase 5: Resolve www redirect (Redirect Rule or Pages dashboard)
-  ↓ Phase 6: Attach custom domains → cut over
+[✓ DONE] Phase 1: Final Worker upload          ← SKIPPED: Pages already live
+[✓ DONE] Phase 2: Pages dashboard bindings     ← Confirmed via /api/health
+[?      ] Phase 3: GitHub→Pages CI pipeline    ← Unconfirmed; check dashboard
+[✓ DONE] Phase 4: Pages preview verification   ← Pages is now production
+[OPEN   ] Phase 5: www redirect                ← www serves content, no 301
+[✓ DONE] Phase 6: Custom domains → cut over    ← Confirmed live
+  ↓ Fix www redirect (dashboard Redirect Rule)
+  ↓ Confirm CI pipeline active
+  ↓ Complete remaining route smoke checks
   ↓ 48–72h stable
   ↓ Retire Worker script
 [Done]
 ```
 
-Each phase is independently verifiable and reversible before the next begins.
+Each remaining item is a dashboard task or verification step; no application code changes required.

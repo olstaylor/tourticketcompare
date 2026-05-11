@@ -7,12 +7,18 @@ Last updated: 2026-05-11
 ## Current Known-Good State
 
 - Live URL: `https://tourticketcompare.com`
-- `www` redirect: `https://www.tourticketcompare.com` → apex (confirmed working 2026-05-01)
-- Production runtime: Cloudflare Worker `tourticketcompare-live` (last deployed 2026-05-01, build `d3cc71487403`)
+- `www` redirect: **BROKEN** — `https://www.tourticketcompare.com` returns 200 with self-referential canonical; no redirect to apex (previously worked 2026-05-01 via standalone Worker; lost in Pages migration)
+- Production runtime: **Cloudflare Pages Functions** (confirmed 2026-05-11 via `/api/health` → `runtime: "cloudflare-pages-functions"`)
+- Production runtime changed from: Cloudflare Worker `tourticketcompare-live` (previously deployed 2026-05-01, build `d3cc71487403`) — no longer serving production
 - GitHub `main` is the source of truth for the Pages Functions and frontend source
-- All seven Ticketmaster artist-level affiliate links are verified and routing through `/api/out`
-- `/api/health`, all artist pages, all guide pages, and trust pages passed smoke checks 2026-05-01
-- `DEMAND_DB` D1 binding is active; `outbound_click` analytics are confirmed recording
+- All seven Ticketmaster artist-level affiliate links are verified and routing correctly through `/api/out` (confirmed 2026-05-11: Beyoncé → 302 to `ticketmaster.evyy.net/beyonce`)
+- `DEMAND_DB` D1 binding active; `IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_TICKETMASTER_PROGRAM_ID` all confirmed present via health endpoint
+- `mockMode: false`, `allowMockPrices: false`, `clickTrackingEnabled: true` confirmed live
+- Homepage, Beyoncé artist page, guide page: correct server-injected titles and canonicals confirmed 2026-05-11
+- 404 returns HTTP 404 + `noindex,follow` confirmed 2026-05-11
+- Sitemap returns 20 URLs confirmed 2026-05-11
+
+See `docs/LIVE_PRODUCTION_VERIFICATION.md` for full live evidence.
 
 ### What is publicly available
 
@@ -36,20 +42,24 @@ Last updated: 2026-05-11
 
 | Risk | Detail | Severity |
 |---|---|---|
-| Worker version gap | Production Worker (build `d3cc71487403`, deployed 2026-05-01) does not include post-May-8 changes to `public/app.js`, `public/404.html`, `public/_routes.json`, or `functions/[[path]].js`. A new Worker build and deploy is required. See `docs/PRODUCTION_SYNC_AUDIT.md`. | High |
-| No npm script for Worker deploy | `npm run deploy` and `npm run deploy:pages` both deploy to Pages preview/fallback, not the production Worker. A Worker deploy requires a manual build + upload step. | High |
-| ~~Structural content divergence~~ | **Resolved.** `functions/_route-metadata.js` is now the single source of truth for page titles, descriptions, H1s, and redirects. Both `[[path]].js` and the build script import from it. | ~~High~~ |
+| **www redirect broken** | `www.tourticketcompare.com` returns 200 with a self-referential canonical instead of 301→apex. The redirect previously ran in the standalone Worker; it was not replicated in Pages Functions. Duplicate content + split SEO signals until fixed. Fix via Cloudflare Redirect Rule in dashboard (no code change). See `docs/LIVE_PRODUCTION_VERIFICATION.md`. | **High** |
+| GitHub→Pages CI pipeline unconfirmed | It is unknown whether the current production deploy was triggered by a GitHub push or a manual CLI deploy. If no Git integration is active, every deploy requires a manual `npm run deploy:pages` step. Check Cloudflare Pages dashboard. | High |
+| ~~Worker version gap~~ | **Closed.** Production is now on Pages Functions, not the standalone Worker. The Worker version gap is no longer relevant. | ~~High~~ |
+| ~~No npm script for Worker deploy~~ | **Closed.** Worker is no longer production. `npm run deploy:pages` is the correct production deploy path. | ~~High~~ |
+| ~~Structural content divergence~~ | **Resolved.** `functions/_route-metadata.js` is now the single source of truth for page titles, descriptions, H1s, and redirects. | ~~High~~ |
+| `impactDefaultProgramId` not configured | `/api/health` reports `impactDefaultProgramId: false`. May be intentional if the Ticketmaster-specific program ID is sufficient. Confirm with account settings. | Medium |
 | Placeholder D1 bindings | `wrangler.toml` has two commented-out D1 bindings with `replace-with-d1-database-id`. Uncommenting without real IDs breaks local dev. | Medium |
 | Named route shims inactive | `functions/artists.js` and similar shims re-export from `[[path]].js` but are never invoked while `_middleware.js` is active. Editing them has no effect. | Low |
 | Vercel path exists | `vercel.json` and `api/` are present; neither is production but could be accidentally deployed. | Low |
 | SeatGeek/Vivid Seats not configured | Any attempt to enable these providers requires verified URLs, not just code changes. | Low |
+| `scripts/build-standalone-worker.mjs` still present | No longer needed for production; retire after Pages is confirmed stable. | Low |
 
 ---
 
 ## Current Parked Issues
 
 - **Raw HTML routing for non-root routes:** Routes such as `/artists`, `/guides`, `/how-it-works`, etc. have at times served homepage H1/title/canonical in raw HTML before client-side rendering. This is parked until explicitly prioritised; it should be addressed before serious SEO scaling work. See `docs/ARCHITECTURE.md` for routing details.
-- **Broader deployment architecture cleanup:** The three-path deploy model (Worker/Pages/Vercel) creates maintenance overhead. Consolidating to Pages + D1 would simplify the workflow but requires a deliberate decision.
+- **~~Broader deployment architecture cleanup:~~** The three-path deploy model has been resolved — production is now on Pages. Vercel path (`vercel.json`, `api/`) and standalone Worker script (`scripts/build-standalone-worker.mjs`) remain as cleanup debt.
 - **`RATE_LIMIT_DB` and `CLICKS_DB`:** These D1 databases are referenced in commented-out `wrangler.toml` blocks with placeholder IDs. Either provision them with real IDs or remove the commented blocks.
 
 ---
@@ -62,20 +72,22 @@ Last updated: 2026-05-11
 - `_routes.json` — routes everything through functions; incorrect changes cause site-wide failures
 - `functions/_middleware.js` — a bug here fails all HTML routes
 - `functions/[[path]].js` — all HTML routing lives here; changes affect every public page
-- `scripts/build-standalone-worker.mjs` — production Worker generator; changes must be tested carefully
+- `functions/_route-metadata.js` — single source of truth for page titles, H1s, descriptions, and redirects
 - Impact credentials and affiliate tracking logic
 - Cloudflare dashboard settings (routes, bindings, secrets)
+- `scripts/build-standalone-worker.mjs` — still present as emergency rollback reference; do not delete until explicitly scoped
 
 ---
 
 ## Immediate Priorities
 
-1. Verify that the current `main` branch matches the deployed Worker (requires rebuilding and diffing, or Cloudflare dashboard inspection)
-2. Confirm Cloudflare routes still point custom domains to `tourticketcompare-live`
-3. Fix the raw HTML routing issue for non-root routes (parked but affects SEO)
-4. Remove or provision the placeholder D1 binding entries in `wrangler.toml`
-5. Add verified SeatGeek and Vivid Seats links only after destination and attribution behaviour are proven
-6. Add tour records and event-level show cards only when source-backed data is verified
+1. **Fix www redirect** — add a Cloudflare Redirect Rule so `www.tourticketcompare.com` 301→`https://tourticketcompare.com`. Dashboard only; no code change. (High: active SEO risk)
+2. **Confirm GitHub→Pages CI pipeline** — check Cloudflare Pages dashboard for Git integration status. If not active, every deploy is manual. (High: operational risk)
+3. **Complete live smoke checks** — remaining routes not yet verified: all artist pages, all guide pages, trust pages, guide redirects. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
+4. **Confirm `impactDefaultProgramId`** — check whether the absent binding causes any functional gap.
+5. Remove or provision the placeholder D1 binding entries in `wrangler.toml`
+6. Add verified SeatGeek and Vivid Seats links only after destination and attribution behaviour are proven
+7. Add tour records and event-level show cards only when source-backed data is verified
 
 ---
 

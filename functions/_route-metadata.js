@@ -62,10 +62,11 @@ export const TRUST_ROUTES = {
 
 export const GUIDE_ROUTES = {
   "/guides/how-to-compare-concert-ticket-prices": {
-    title: "How to Compare Concert Ticket Prices | TourTicketCompare",
-    h1: "How do I compare ticket prices safely?",
+    title: "How to Compare Concert Ticket Prices (And Never Overpay Again) | TourTicketCompare",
+    h1: "How to Compare Concert Ticket Prices (And Never Overpay Again)",
     description:
-      "Compare concert ticket prices by checking final totals, seat details, delivery timing, and provider terms. Know what to compare and what to avoid."
+      "Learn how to compare concert ticket prices across platforms to find the best deal for your favourite artists. Plus: the tool that does all the hard work for you.",
+    fullContent: true
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Why Ticket Prices Vary Between Sites | TourTicketCompare",

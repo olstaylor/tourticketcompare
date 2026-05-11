@@ -55,6 +55,17 @@ async function loadEvents(env) {
   }
 }
 
+async function loadGuideContent(env) {
+  try {
+    const response = await env.ASSETS.fetch(new Request("https://assets.local/data/guides-content.json"));
+    if (!response.ok) return {};
+    const data = await response.json();
+    return data && typeof data === "object" ? data : {};
+  } catch (error) {
+    return {};
+  }
+}
+
 function normalizePath(pathname) {
   if (pathname !== "/" && pathname.endsWith("/")) return pathname.replace(/\/+$/, "");
   return pathname || "/";
@@ -303,6 +314,50 @@ function renderGuideLinks() {
     .join("")}</div>`;
 }
 
+function markdownToHtml(text) {
+  if (!text) return "";
+  return text
+    .split("\n\n")
+    .map(para => {
+      if (para.startsWith("- ")) {
+        const items = para.split("\n").map(line => line.replace(/^- /, ""));
+        return `<ul><li>${items.join("</li><li>")}</li></ul>`;
+      }
+      if (para.startsWith("|")) {
+        const rows = para.split("\n").filter(r => r.trim());
+        if (rows.length < 2) return `<p>${escapeHtml(para)}</p>`;
+        const headerCells = rows[0].split("|").slice(1, -1).map(c => `<th>${escapeHtml(c.trim())}</th>`).join("");
+        const bodyRows = rows.slice(2).map(row => {
+          const cells = row.split("|").slice(1, -1).map(c => `<td>${escapeHtml(c.trim())}</td>`).join("");
+          return `<tr>${cells}</tr>`;
+        }).join("");
+        return `<table><thead><tr>${headerCells}</tr></thead><tbody>${bodyRows}</tbody></table>`;
+      }
+      return `<p>${escapeHtml(para)
+        .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+        .replace(/\*(.+?)\*/g, "<em>$1</em>")}</p>`;
+    })
+    .join("");
+}
+
+function renderFullGuideContent(sections) {
+  if (!Array.isArray(sections)) return "";
+  return sections
+    .map(section => {
+      if (section.type === "intro") {
+        return `<section class="nested-panel">${markdownToHtml(section.content)}</section>`;
+      }
+      if (section.type === "section") {
+        return `<section class="nested-panel"><h2>${escapeHtml(section.title)}</h2>${markdownToHtml(section.content)}</section>`;
+      }
+      if (section.type === "subsection") {
+        return `<section class="nested-panel"><h3>${escapeHtml(section.title)}</h3>${markdownToHtml(section.content)}</section>`;
+      }
+      return "";
+    })
+    .join("");
+}
+
 function renderProviderFallback(catalog, artist, surface) {
   const links = ticketLinksForArtist(catalog, artist.slug);
   if (!links.length) {
@@ -400,7 +455,7 @@ function renderShowBoardServerHtml(shows) {
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
-function renderMainContent(route, catalog, events = []) {
+function renderMainContent(route, catalog, events = [], guideContent = {}) {
   if (route.type === "artist") {
     const artist = route.artist;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
@@ -439,11 +494,17 @@ function renderMainContent(route, catalog, events = []) {
   }
 
   if (route.type === "guide") {
+    const fullContent = route.fullContent && guideContent[route.path]
+      ? renderFullGuideContent(guideContent[route.path].sections)
+      : "";
+    const contentHtml = fullContent
+      ? fullContent
+      : `<section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify. Final prices, fees, availability, delivery, and checkout terms should always be confirmed on the provider site.</p></section><section class="nested-panel"><h2>Related reading</h2><p>Use an artist page to look for checked event links where available, read how TourTicketCompare decides what to publish, or review how affiliate links are disclosed before leaving for a provider site.</p></section>`;
     return `<main id="mainContent"><section class="content-page guide-page" aria-labelledby="guideTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p><section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify. Final prices, fees, availability, delivery, and checkout terms should always be confirmed on the provider site.</p></section><section class="nested-panel"><h2>Related reading</h2><p>Use an artist page to look for checked event links where available, read how TourTicketCompare decides what to publish, or review how affiliate links are disclosed before leaving for a provider site.</p></section><div class="action-row">${anchor(
+    )}</p>${contentHtml}<div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"
@@ -561,7 +622,7 @@ function renderMainContent(route, catalog, events = []) {
   )}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">Trust &amp; transparency</h2></div><div class="nested-panel"><p>TourTicketCompare is independent and unofficial. We do not sell tickets directly.</p><p>Some outbound links may be affiliate links, which means we may earn a commission if you click through and buy tickets. This does not increase your ticket price or fees.</p><p>Final price, fees, availability, seat details, refund rules, and checkout terms are confirmed by the provider on their site.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></main>`;
 }
 
-function injectRoute(html, route, origin, catalog, events = []) {
+function injectRoute(html, route, origin, catalog, events = [], guideContent = {}) {
   const canonicalUrl = `${origin}${route.path}`;
   const robots = route.indexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
@@ -602,7 +663,7 @@ function injectRoute(html, route, origin, catalog, events = []) {
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
     `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin))}</script>`
   );
-  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events));
+  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent));
   return next;
 }
 
@@ -653,7 +714,8 @@ export async function onRequest(context) {
 
   const catalog = await loadCatalog(env);
   const events = route.type === "artist" ? await loadEvents(env) : [];
-  const injected = injectRoute(html, route, url.origin, catalog, events);
+  const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
+  const injected = injectRoute(html, route, url.origin, catalog, events, guideContent);
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", "public, max-age=300");

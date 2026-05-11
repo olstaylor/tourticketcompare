@@ -199,6 +199,66 @@
         "ticketmaster-vs-stubhub",
         "how-to-avoid-ticket-scams"
       ]
+    },
+    {
+      "slug": "taylor-swift",
+      "name": "Taylor Swift",
+      "short_description": "American singer-songwriter known for narrative-driven music and major global touring with high fan demand.",
+      "genres": [
+        "Pop",
+        "Country",
+        "Alternative"
+      ],
+      "country": "United States",
+      "official_website": "https://www.taylorswift.com/",
+      "image_alt": "Taylor Swift artist ticket information",
+      "factual_summary": "Taylor Swift is an American singer-songwriter and producer known for writing narrative-driven albums spanning multiple genres including pop, country, and alternative. Her tours are known for elaborate production, extended song catalogs, and global ticket demand.",
+      "why_demand_is_high": "Demand is typically among the highest for any touring artist because her tours attract large, diverse audiences globally. Tour announcements and on-sale dates generate significant ticket search interest.",
+      "ticket_buying_notes": "There may not be an active tour announcement at the moment. Check the verified ticket platform links below for current tour information and availability directly from the provider.",
+      "seo_title": "Taylor Swift Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified Taylor Swift ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
+      "faq": [
+        {
+          "question": "Where can I find Taylor Swift tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticketing platforms are the official source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to official or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "Why don't you show prices here?",
+          "answer": "Prices change constantly and are controlled by ticket platforms, not this site. Final prices include fees, taxes, and delivery costs that vary by seat and timing. Always confirm the final total on the provider site before paying."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ],
+      "provider_status": {
+        "ticketmaster": {
+          "verified": true,
+          "public_enabled": true,
+          "last_checked_at": "2026-05-11",
+          "destination_type": "artist_page",
+          "display_name": "Ticketmaster Artist Page"
+        }
+      },
+      "internal_notes": "High-search-demand artist with verified Ticketmaster artist page. Safe to publish artist page with empty event state.",
+      "page_optimization": {
+        "include_demand_section": true,
+        "include_checklist": true,
+        "include_faq": true,
+        "include_related_guides": true,
+        "include_empty_states": true,
+        "mobile_optimized": true
+      }
     }
   ],
   "tours": [],
@@ -484,6 +544,19 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-04-30",
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-taylor-swift",
+      "artist_slug": "taylor-swift",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-05-11",
       "disclosure_required": true
     }
   ],

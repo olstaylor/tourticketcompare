@@ -44,6 +44,17 @@ async function loadCatalog(env) {
   }
 }
 
+async function loadEvents(env) {
+  try {
+    const response = await env.ASSETS.fetch(new Request("https://assets.local/data/events.json"));
+    if (!response.ok) return [];
+    const data = await response.json();
+    return Array.isArray(data) ? data : [];
+  } catch (error) {
+    return [];
+  }
+}
+
 function normalizePath(pathname) {
   if (pathname !== "/" && pathname.endsWith("/")) return pathname.replace(/\/+$/, "");
   return pathname || "/";
@@ -317,7 +328,79 @@ function renderProviderFallback(catalog, artist, surface) {
   return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">These links go to provider artist pages. Event-specific links appear only on dated show cards when verified.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Affiliate link. We may earn a commission at no extra cost to you.</p><p class="disclosure-note">Final prices, fees and availability are confirmed on the ticketing platform.</p></section>`;
 }
 
-function renderMainContent(route, catalog) {
+function futureShowsForArtist(events, artistSlug, limit) {
+  const now = Date.now();
+  const slug = slugify(artistSlug);
+  return events
+    .filter((ev) => ev && typeof ev === "object" && slugify(ev.artist_slug) === slug)
+    .map((ev) => ({
+      id: String(ev.id || "").trim(),
+      event_name: String(ev.event_name || ev.name || "").trim(),
+      dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
+      city: String(ev.city || "").trim(),
+      venue: String(ev.venue || "").trim(),
+      ticketmaster_url: String(ev.ticketmaster_url || "").trim()
+    }))
+    .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
+    .filter((show) => Date.parse(show.dateTimeISO) >= now)
+    .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO))
+    .slice(0, limit);
+}
+
+function formatShowDateServer(iso) {
+  if (!iso) return "";
+  const parsed = new Date(iso);
+  if (!Number.isFinite(parsed.getTime())) return "";
+  try {
+    return parsed.toLocaleDateString("en-US", {
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+      timeZone: "UTC"
+    });
+  } catch (error) {
+    return "";
+  }
+}
+
+function showLocationServer(show) {
+  return [show.city, show.venue].filter((v) => String(v || "").trim()).join(" · ");
+}
+
+function safeShowTicketUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return null;
+  try {
+    const parsed = new URL(raw);
+    if (parsed.protocol !== "https:" && parsed.protocol !== "http:") return null;
+    const host = parsed.hostname.toLowerCase();
+    if (host === "localhost" || host === "127.0.0.1") return null;
+    if (/example/.test(host) || raw.includes("placeholder")) return null;
+    return raw;
+  } catch (error) {
+    return null;
+  }
+}
+
+function renderShowCardServerHtml(show) {
+  const date = formatShowDateServer(show.dateTimeISO);
+  const location = showLocationServer(show);
+  const validUrl = safeShowTicketUrl(show.ticketmaster_url);
+  const ctaHtml = validUrl && show.id
+    ? `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`
+    : `<p class="disclosure-note">No event-specific ticket link is available for this date yet.</p>`;
+  return `<article class="info-card show-card"><h3>${escapeHtml(show.event_name || "Verified show")}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${ctaHtml}</article>`;
+}
+
+function renderShowBoardServerHtml(shows) {
+  const gridContent = shows.length
+    ? shows.map(renderShowCardServerHtml).join("")
+    : `<p class="muted empty-state">No event-specific ticket link is available here yet. We only show ticket buttons when the show and destination can be verified.</p>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+}
+
+function renderMainContent(route, catalog, events = []) {
   if (route.type === "artist") {
     const artist = route.artist;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
@@ -326,7 +409,7 @@ function renderMainContent(route, catalog) {
       artist.name
     )} ticket links and buying guidance</h1><p class="lead">Find checked ticket links for ${escapeHtml(
       artist.name
-    )} when available, plus practical guidance before you leave for a provider site.</p>${renderProviderFallback(
+    )} when available, plus practical guidance before you leave for a provider site.</p>${renderShowBoardServerHtml(futureShowsForArtist(events, artist.slug, 6))}${renderProviderFallback(
       catalog,
       artist,
       "artist_hero"
@@ -473,7 +556,7 @@ function renderMainContent(route, catalog) {
   )}</p></main>`;
 }
 
-function injectRoute(html, route, origin, catalog) {
+function injectRoute(html, route, origin, catalog, events = []) {
   const canonicalUrl = `${origin}${route.path}`;
   const robots = route.indexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
@@ -514,7 +597,7 @@ function injectRoute(html, route, origin, catalog) {
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
     `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin))}</script>`
   );
-  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog));
+  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events));
   return next;
 }
 
@@ -564,7 +647,8 @@ export async function onRequest(context) {
   }
 
   const catalog = await loadCatalog(env);
-  const injected = injectRoute(html, route, url.origin, catalog);
+  const events = route.type === "artist" ? await loadEvents(env) : [];
+  const injected = injectRoute(html, route, url.origin, catalog, events);
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", "public, max-age=300");

@@ -848,6 +848,16 @@ function renderArtist(artist) {
   guideLinks.append(guideGrid);
 
   section.append(summary, demand, checklist, pageNote, guideLinks, renderArtistFaq(artist));
+
+  // Transplant server-rendered show cards so users see real content immediately
+  // rather than a loading state while the hydration fetch is in-flight.
+  const existingGrid = main.querySelector("[data-show-grid]");
+  const serverCards = existingGrid ? Array.from(existingGrid.querySelectorAll("article.show-card")) : [];
+  if (serverCards.length) {
+    const newGrid = showBoard.querySelector("[data-show-grid]");
+    if (newGrid) newGrid.replaceChildren(...serverCards);
+  }
+
   main.replaceChildren(section);
   hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 50, showEventCta: true });
 }

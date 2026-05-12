@@ -13,6 +13,25 @@ const PUBLIC_HTML_ROUTES = new Set([
 const RESERVED_PREFIXES = ["/api/", "/data/"];
 const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/sitemap.xml"]);
 
+// _headers applies to static-asset responses only, not to function-generated responses.
+// These headers must be set explicitly on every HTML Response returned by this function.
+const SECURITY_HEADERS = {
+  "Content-Security-Policy":
+    "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://utt.impactcdn.com; connect-src 'self' https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+  "Referrer-Policy": "no-referrer",
+  "X-Content-Type-Options": "nosniff",
+  "X-Frame-Options": "DENY",
+  "Permissions-Policy": "interest-cohort=()",
+  "Cross-Origin-Opener-Policy": "same-origin",
+  "Cross-Origin-Resource-Policy": "same-origin"
+};
+
+function applySecurityHeaders(headers) {
+  for (const [name, value] of Object.entries(SECURITY_HEADERS)) {
+    headers.set(name, value);
+  }
+}
+
 function escapeAttr(value) {
   return String(value || "")
     .replace(/&/g, "&amp;")
@@ -624,7 +643,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}) {
     )}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links for major tours</h1><p class="hero-subcopy">Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees at checkout.</p><div class="action-row">${anchor(
+  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links and buying guidance for major tours</h1><p class="hero-subcopy">Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees on the provider site. We do not compare live prices.</p><div class="action-row">${anchor(
     "Browse artists",
     "#featured-artists",
     "button button-primary"
@@ -720,6 +739,7 @@ export async function onRequest(context) {
     const headers = new Headers(indexResponse.headers);
     headers.set("Content-Type", "text/html; charset=UTF-8");
     headers.set("Cache-Control", "no-store");
+    applySecurityHeaders(headers);
     return new Response(injected404, { status: 404, headers });
   }
 
@@ -734,5 +754,6 @@ export async function onRequest(context) {
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", "public, max-age=300");
+  applySecurityHeaders(headers);
   return new Response(injected, { status: 200, headers });
 }

@@ -51,7 +51,11 @@ async function assertPublicCopySafe(files) {
     { label: "best price claim", pattern: /\bbest\s+price\b/i },
     { label: "best deal claim", pattern: /\bbest\s+deal\b/i },
     { label: "lowest price claim", pattern: /\blowest\s+price\b/i },
-    { label: "guaranteed claim", pattern: /\bguaranteed\b/i },
+    {
+      label: "guaranteed claim",
+      pattern: /\bguaranteed\b/i,
+      allowedContext: /\b(not|is not|avoid|does not)\b/i
+    },
     { label: "available now claim", pattern: /\bavailable\s+now\b/i },
     {
       label: "live prices claim",

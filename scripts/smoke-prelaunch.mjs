@@ -229,6 +229,7 @@ const healthModule = await import(pathToFileURL(path.join(root, "functions/api/h
 const impactHealthModule = await import(pathToFileURL(path.join(root, "functions/api/impact/health.js")));
 const impactProductsModule = await import(pathToFileURL(path.join(root, "functions/api/impact/products.js")));
 const impactTrackingModule = await import(pathToFileURL(path.join(root, "functions/api/impact/tracking-links.js")));
+const debugSeatgeekModule = await import(pathToFileURL(path.join(root, "functions/api/debug-seatgeek.js")));
 
 const assetMap = new Map();
 for (const file of publicUiFiles) {
@@ -524,5 +525,30 @@ outResponse = await out("/api/out?showId=unknown&provider=ticketmaster");
 assert(outResponse.status === 400, "unknown showId should fail safely");
 outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=seatgeek`);
 assert(outResponse.status === 400, "unconfigured showId provider should fail safely");
+
+async function debugSeatgeek(pathname, envOverride = env) {
+  return debugSeatgeekModule.onRequestGet({
+    request: new Request(`https://tourticketcompare.com${pathname}`),
+    env: envOverride
+  });
+}
+
+let debugResponse = await debugSeatgeek(`/api/debug-seatgeek?eventId=${encodeURIComponent(verifiedMorganShow.id)}`);
+assert(debugResponse.status === 404, "/api/debug-seatgeek without token should return 404");
+const debugJson = await debugResponse.json();
+assert(debugJson.error === "Not found", "/api/debug-seatgeek unauthorised should not leak provider info");
+assert(!JSON.stringify(debugJson).includes("seatgeek"), "/api/debug-seatgeek unauthorised should not mention SeatGeek");
+
+debugResponse = await debugSeatgeek(`/api/debug-seatgeek?eventId=${encodeURIComponent(verifiedMorganShow.id)}&token=wrong-token`);
+assert(debugResponse.status === 404, "/api/debug-seatgeek with wrong token should return 404");
+
+debugResponse = await debugSeatgeek(`/api/debug-seatgeek?eventId=${encodeURIComponent(verifiedMorganShow.id)}&token=valid-debug-token`, {
+  ...env,
+  DEBUG_API_TOKEN: "valid-debug-token"
+});
+assert(debugResponse.status === 200, "/api/debug-seatgeek with valid token should return 200");
+const authdDebugJson = await debugResponse.json();
+assert(authdDebugJson.ok === true && authdDebugJson.event, "/api/debug-seatgeek authorised should return event details");
+assert(authdDebugJson.config.seatgeek_configured === false, "/api/debug-seatgeek authorised should show SeatGeek config status");
 
 console.log("Cloudflare Pages MVP smoke checks passed");

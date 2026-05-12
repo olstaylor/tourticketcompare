@@ -1,12 +1,20 @@
 // Debug endpoint: Test SeatGeek event matching without public redirect.
-// Usage: GET /api/debug-seatgeek?eventId=<id>
-// Response: Shows SeatGeek candidates, matched result, and Impact tracking capability.
+// Protected by DEBUG_API_TOKEN environment variable.
+// Usage: GET /api/debug-seatgeek?eventId=<id>&token=<token>
+// Without valid token: returns 404 (not found)
+// With valid token: returns detailed debug info for testing.
 
 const EVENTS_JSON_PATH = "/data/events.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
 
 function clean(value, max = 255) {
   return String(value || "").trim().slice(0, max);
+}
+
+function isAuthorised(token, env) {
+  const expected = clean(env?.DEBUG_API_TOKEN, 255);
+  if (!expected) return false;
+  return token === expected;
 }
 
 function slugify(value) {
@@ -135,6 +143,13 @@ async function searchSeatGeekCandidates(env, artistSlug, eventDate, venueName) {
 
 export async function onRequestGet({ request, env }) {
   const url = new URL(request.url);
+  const token = clean(url.searchParams.get("token"), 255);
+
+  // Unauthorised access returns generic 404 (not found).
+  if (!isAuthorised(token, env)) {
+    return json({ ok: false, error: "Not found" }, 404);
+  }
+
   const eventId = clean(url.searchParams.get("eventId"), 255);
 
   if (!eventId) {
@@ -142,7 +157,7 @@ export async function onRequestGet({ request, env }) {
       {
         ok: false,
         error: "Missing eventId parameter",
-        usage: "/api/debug-seatgeek?eventId=<event-id>"
+        usage: "/api/debug-seatgeek?eventId=<event-id>&token=<token>"
       },
       400
     );

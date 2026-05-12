@@ -157,6 +157,7 @@ globalThis.caches = globalThis.caches || { default: new MemoryCache() };
 const publicUiFiles = [
   "public/index.html",
   "public/app.js",
+  "public/impact.js",
   "public/styles.css",
   "public/robots.txt",
   "public/data/artists.json",
@@ -169,6 +170,7 @@ const publicUiFiles = [
 const publicCopyFiles = [
   "public/index.html",
   "public/app.js",
+  "public/impact.js",
   "functions/[[path]].js",
   "public/data/catalog.json"
 ];
@@ -261,11 +263,15 @@ async function routeResponse(pathname) {
   return { response, text: await response.text(), nextCalled };
 }
 
-for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/events.json", "/api/health"]) {
+for (const pathname of ["/app.js", "/impact.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/events.json", "/api/health"]) {
   const { response, nextCalled } = await routeResponse(pathname);
   assert(nextCalled === true, `${pathname} should pass through middleware unchanged`);
   assert(response.status === 404, `${pathname} smoke middleware next sentinel should return 404`);
 }
+
+const indexHtml = await read("public/index.html");
+assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags — Impact script must be loaded via /impact.js");
+assert(indexHtml.includes('src="/impact.js"'), "index.html must load Impact via <script src=\"/impact.js\">");
 
 for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/${slug}`))) {
   const { response, text } = await routeResponse(pathname);

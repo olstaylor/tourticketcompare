@@ -240,9 +240,7 @@
         "ticketmaster.be",
         "ticketmaster.it"
       ],
-      "trusted_affiliate_hosts": [
-        "ticketmaster.evyy.net"
-      ],
+      "trusted_affiliate_hosts": [],
       "api_config": {
         "type": "rest",
         "base_url": "https://api.ticketmaster.com/",

@@ -79,7 +79,7 @@ Before setting `public_enabled: true`:
   "provider_type": "primary_or_verified_marketplace",
   "public_enabled": true,
   "pricing_display_allowed": false,
-  "available_display_allowed": false,
+  "available_display_allowed": true,
   "requires_verified_destination": true,
   "credential_type": "impact_affiliate",
   "credential_fields": ["IMPACT_ACCOUNT_SID", "IMPACT_AUTH_TOKEN", "IMPACT_PROGRAM_ID"],
@@ -104,6 +104,7 @@ Before setting `public_enabled: true`:
 **Key Notes:**
 - `pricing_type: "live_aggregate"` indicates search/index API, NOT live-fetch → safe from price display claims
 - `pricing_display_allowed: false` — prices are not displayed even though API supports pricing
+- `available_display_allowed: true` — availability status (e.g., `on_sale`) can be tracked for verified event data
 - `public_enabled: true` — allowed in UI because terms are accepted and verified links exist
 - 7 verified `ticket_links` exist in catalog (one per artist)
 

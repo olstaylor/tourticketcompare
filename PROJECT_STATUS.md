@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-11
+Last updated: 2026-05-12
 
 ---
 
@@ -100,7 +100,7 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 
 | Risk | Detail | Severity |
 |---|---|---|
-| **Smoke test false positive** | `node scripts/smoke-prelaunch.mjs` currently **fails** on `public/app.js:152`. A FAQ answer ("No. TourTicketCompare does not compare live prices.") triggers the `live prices claim` pattern. The allowedContext regex only permits `coming later\|not yet\|planned\|not available\|is not ready\|being built` — it does not match "does not compare". The copy is safe. The fix is to add `\|does not compare` to the allowedContext in `smoke-prelaunch.mjs`, or rephrase the FAQ answer to include a recognised safe phrase. This blocks `npm run deploy:pages:safe`. | High |
+| **✓ Smoke test false positives (FIXED 2026-05-12)** | `node scripts/smoke-prelaunch.mjs` was failing on two false positives: (1) "guaranteed claim" rule flagged safe copy like "not guaranteed" in FAQ; (2) development domain "ticketmaster.evyy.net" appeared in public data (catalog.json). Both fixed: added allowedContext to "guaranteed claim" rule, and removed development domain from trusted_affiliate_hosts. Smoke test now passes. | ✓ Resolved |
 | **Raw HTML routing** | Non-root routes (`/artists`, `/guides`, `/how-it-works`, etc.) serve correct server-injected HTML via Pages Functions, but `public/app.js` re-renders content client-side on load. If a crawler catches an intermediate state or JS fails, the homepage H1/title could be indexed instead of the route-specific values. Parked until explicitly prioritised; must be resolved before SEO scaling. See `docs/ARCHITECTURE.md`. | Medium (SEO) |
 | **`impactDefaultProgramId` not configured** | `/api/health` reports `impactDefaultProgramId: false`. Confirm whether this binding is needed for any active feature or whether the Ticketmaster-specific program ID is sufficient. | Medium |
 | **Placeholder D1 bindings** | `wrangler.toml` has two commented-out D1 bindings (`RATE_LIMIT_DB`, `CLICKS_DB`) with `replace-with-d1-database-id` placeholder IDs. Uncommenting without real IDs breaks local dev. Either provision with real IDs or remove the blocks. | Medium |
@@ -120,7 +120,7 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 ## 4. Safe Next Roadmap
 
 ### Immediate stabilisation
-1. **Fix smoke test false positive** — update `allowedContext` in `scripts/smoke-prelaunch.mjs` for the "live prices claim" rule to also allow `does not compare`, or rephrase the FAQ copy in `public/app.js:152`. This is required to restore `npm run deploy:pages:safe`.
+1. **✓ Smoke test now passes** — fixed false positives on "guaranteed claim" and development domain in catalog.json. `npm run deploy:pages:safe` is now operational.
 2. **Confirm `impactDefaultProgramId`** — check whether the absent binding affects any live feature or whether the Ticketmaster-specific program ID covers all active use cases.
 3. **Clean up or provision placeholder D1 bindings** — remove or fill the `RATE_LIMIT_DB`/`CLICKS_DB` blocks in `wrangler.toml`.
 4. **Complete remaining live smoke checks** — six artist pages beyond Beyoncé, four guide pages, five trust/legal pages, old guide redirect slugs, D1 analytics write. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
@@ -179,7 +179,7 @@ node --check functions/affiliate-disclosure.js
 node --check functions/contact.js
 ```
 
-**Note:** `node scripts/smoke-prelaunch.mjs` currently fails with a false positive (see Known Risks). Until fixed, use `npm run deploy:pages` rather than `npm run deploy:pages:safe` for production deploys, and be aware that the full smoke suite is not currently passing.
+**Note:** `node scripts/smoke-prelaunch.mjs` now passes as of 2026-05-12. Use `npm run deploy:pages:safe` for production deploys with pre-flight checks.
 
 ---
 

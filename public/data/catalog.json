@@ -492,6 +492,20 @@
       "market": "global",
       "last_checked_at": "2026-04-30",
       "disclosure_required": true
+    },
+    {
+      "link_id": "sg-artist-beyonce",
+      "artist_slug": "beyonce",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": "2026-05-12",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/beyonce-tickets"
     }
   ],
   "safety_rules": [

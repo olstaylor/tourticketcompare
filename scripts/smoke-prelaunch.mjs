@@ -440,7 +440,7 @@ async function out(pathname, method = "GET", payload = null, envOverride = env) 
 let outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&sourcePath=/artists/beyonce");
 assert(outResponse.status === 302, "/api/out should redirect configured Ticketmaster routes");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek");
-assert(outResponse.status === 400, "unconfigured SeatGeek should fail");
+assert(outResponse.status === 302, "configured SeatGeek should redirect");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com");
 assert(outResponse.status === 400, "example.com destination should fail");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=http%3A%2F%2Flocalhost%3A3000");

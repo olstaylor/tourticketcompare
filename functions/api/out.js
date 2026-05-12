@@ -80,6 +80,13 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "tm-artist-jay-z",
     redirectUrl: "https://ticketmaster.evyy.net/5kM6W3",
     verified: true
+  },
+  "beyonce:seatgeek": {
+    artistSlug: "beyonce",
+    provider: "seatgeek",
+    linkId: "sg-artist-beyonce",
+    redirectUrl: "https://seatgeek.com/beyonce-tickets",
+    verified: true
   }
 };
 

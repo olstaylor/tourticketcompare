@@ -225,6 +225,7 @@ await read("public/404.html");
 const catchAllModule = await import(pathToFileURL(path.join(root, "functions/[[path]].js")));
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
+const debugSeatgeekModule = await import(pathToFileURL(path.join(root, "functions/api/debug-seatgeek.js")));
 const healthModule = await import(pathToFileURL(path.join(root, "functions/api/health.js")));
 const impactHealthModule = await import(pathToFileURL(path.join(root, "functions/api/impact/health.js")));
 const impactProductsModule = await import(pathToFileURL(path.join(root, "functions/api/impact/products.js")));
@@ -440,7 +441,7 @@ async function out(pathname, method = "GET", payload = null, envOverride = env) 
 let outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&sourcePath=/artists/beyonce");
 assert(outResponse.status === 302, "/api/out should redirect configured Ticketmaster routes");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek");
-assert(outResponse.status === 400, "unconfigured SeatGeek should fail");
+assert(outResponse.status === 400, "SeatGeek redirect should fail safely without Impact tracking configured (IMPACT_SEATGEEK_PROGRAM_ID not set)");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com");
 assert(outResponse.status === 400, "example.com destination should fail");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=http%3A%2F%2Flocalhost%3A3000");
@@ -524,5 +525,30 @@ outResponse = await out("/api/out?showId=unknown&provider=ticketmaster");
 assert(outResponse.status === 400, "unknown showId should fail safely");
 outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=seatgeek`);
 assert(outResponse.status === 400, "unconfigured showId provider should fail safely");
+
+async function debugSeatgeek(pathname, envOverride = env) {
+  return debugSeatgeekModule.onRequestGet({
+    request: new Request(`https://tourticketcompare.com${pathname}`),
+    env: envOverride
+  });
+}
+
+let debugResponse = await debugSeatgeek(`/api/debug-seatgeek?eventId=${encodeURIComponent(verifiedMorganShow.id)}`);
+assert(debugResponse.status === 404, "/api/debug-seatgeek without token should return 404");
+const debugJson = await debugResponse.json();
+assert(debugJson.error === "Not found", "/api/debug-seatgeek unauthorised should not leak provider info");
+assert(!JSON.stringify(debugJson).includes("seatgeek"), "/api/debug-seatgeek unauthorised should not mention SeatGeek");
+
+debugResponse = await debugSeatgeek(`/api/debug-seatgeek?eventId=${encodeURIComponent(verifiedMorganShow.id)}&token=wrong-token`);
+assert(debugResponse.status === 404, "/api/debug-seatgeek with wrong token should return 404");
+
+debugResponse = await debugSeatgeek(`/api/debug-seatgeek?eventId=${encodeURIComponent(verifiedMorganShow.id)}&token=valid-debug-token`, {
+  ...env,
+  DEBUG_API_TOKEN: "valid-debug-token"
+});
+assert(debugResponse.status === 200, "/api/debug-seatgeek with valid token should return 200");
+const authdDebugJson = await debugResponse.json();
+assert(authdDebugJson.ok === true && authdDebugJson.event, "/api/debug-seatgeek authorised should return event details");
+assert(authdDebugJson.config.seatgeek_configured === false, "/api/debug-seatgeek authorised should show SeatGeek config status");
 
 console.log("Cloudflare Pages MVP smoke checks passed");

@@ -445,7 +445,26 @@ function renderProviderButtons(artist, surface) {
   text(panel, "h2", "Artist-level ticket pages").id = "providerTitle";
 
   if (!links.length) {
-    text(panel, "p", "No checked artist-level ticket page is available yet. We hide ticket buttons until we can verify the destination.", "muted");
+    text(panel, "p", "No checked artist-level ticket link is available for this artist yet. Ticket buttons appear only when we can verify the destination.", "muted");
+    const guideNote = document.createElement("p");
+    guideNote.className = "muted";
+    guideNote.append(
+      document.createTextNode("While you wait, these guides cover what to check before committing to a ticketing platform: "),
+      link("avoiding overpaying", "/guides/how-to-avoid-overpaying-for-concert-tickets", "text-link"),
+      document.createTextNode(", "),
+      link("when to buy", "/guides/when-is-the-best-time-to-buy-concert-tickets", "text-link"),
+      document.createTextNode(", and "),
+      link("spotting ticket scams", "/guides/how-to-avoid-ticket-scams", "text-link"),
+      document.createTextNode(".")
+    );
+    panel.append(guideNote);
+    const noLinkActions = document.createElement("div");
+    noLinkActions.className = "action-row";
+    noLinkActions.append(
+      buttonLink("Read buying guides", "/guides", "secondary"),
+      buttonLink("Browse other artists", "/artists", "secondary")
+    );
+    panel.append(noLinkActions);
     return panel;
   }
 
@@ -580,8 +599,20 @@ function renderSearchResults(container, results, query) {
 
   if (total === 0) {
     statusEl.textContent =
-      "No checked result yet. We only show artists, guides, and event links that have been added to our verified dataset.";
+      "No checked result for that search. We only surface artists, guides, and events that have been added to our verified dataset.";
     container.append(statusEl);
+    const nextSteps = document.createElement("p");
+    nextSteps.className = "search-result-count";
+    nextSteps.append(
+      document.createTextNode("Try: "),
+      link("browsing all artists", "/artists", "text-link"),
+      document.createTextNode(", "),
+      link("reading our buying guides", "/guides", "text-link"),
+      document.createTextNode(", or "),
+      link("learning how TourTicketCompare works", "/how-it-works", "text-link"),
+      document.createTextNode(".")
+    );
+    container.append(nextSteps);
     return;
   }
 
@@ -809,7 +840,7 @@ function renderArtistCard(artist) {
   text(article, "h3", artist.name);
   text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
   const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
-  text(article, "p", activeProviders.length ? "Verified ticket pages" : "No checked ticket link yet", "status-badge");
+  text(article, "p", activeProviders.length ? "Verified ticket pages" : "No checked ticket link yet", activeProviders.length ? "status-badge" : "status-badge status-badge-muted");
   text(
     article,
     "p",
@@ -928,12 +959,14 @@ async function hydrateShowBoard(section, filters = {}) {
     const shows = safeShowList(data);
     if (!shows.length) {
       grid.replaceChildren();
-      text(
-        grid,
-        "p",
-        "No event-specific ticket link is available here yet. We only show ticket buttons when the show and destination can be verified.",
-        "muted empty-state"
+      const emptyMsg = document.createElement("p");
+      emptyMsg.className = "muted empty-state";
+      emptyMsg.append(
+        document.createTextNode("No event-specific ticket links are available for this artist yet. We only show event cards when the date and destination can be verified. "),
+        link("Read our buying guides", "/guides", "text-link"),
+        document.createTextNode(" while you wait, or check the artist-level ticket link below if one is available.")
       );
+      grid.append(emptyMsg);
       return;
     }
     grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show, {
@@ -1577,10 +1610,10 @@ function renderNotFound() {
   const section = document.createElement("section");
   section.className = "content-page";
   text(section, "h1", "Page not found");
-  text(section, "p", "We could not find that page. Use the artist index or guides to find current public pages.");
+  text(section, "p", "We could not find that page. Use the artist index, buying guides, or homepage to find current public pages.");
   const actions = document.createElement("div");
   actions.className = "action-row";
-  actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("Return home", "/", "secondary"));
+  actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("Read buying guides", "/guides", "secondary"), buttonLink("Return home", "/", "secondary"));
   section.append(actions);
   main.replaceChildren(section);
 }

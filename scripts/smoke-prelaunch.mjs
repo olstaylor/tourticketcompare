@@ -8,7 +8,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/c
 const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Find verified ticket links for major tours"],
+  ["/", "Find verified ticket links and buying guidance for major tours"],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -17,6 +17,17 @@ const expectedH1 = new Map([
   ["/editorial-policy", "Editorial policy"],
   ["/affiliate-disclosure", "Affiliate disclosure"]
 ]);
+const expectedTitle = new Map([
+  ["/", "Find Verified Ticket Options for Major Tours | TourTicketCompare"],
+  ["/artists", "Artists | TourTicketCompare"],
+  ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
+  ["/how-it-works", "How TourTicketCompare Works"],
+  ["/about", "About TourTicketCompare"],
+  ["/contact", "Contact TourTicketCompare"],
+  ["/editorial-policy", "Editorial Policy | TourTicketCompare"],
+  ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
+]);
+const homepageDescription = "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site.";
 const routeMarkers = new Map([
   ["/artists", "Ticket buttons appear only when the destination has been checked"],
   ["/guides", "Compare the final checkout total after fees"],
@@ -103,6 +114,30 @@ function extractH1(html) {
   return match ? match[1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim() : "";
 }
 
+function decodeHtmlEntities(str) {
+  return str
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'");
+}
+
+function extractTitle(html) {
+  const match = html.match(/<title>([\s\S]*?)<\/title>/i);
+  return match ? decodeHtmlEntities(match[1].trim()) : "";
+}
+
+function extractCanonical(html) {
+  const match = html.match(/<link\s+rel="canonical"\s+href="([^"]*)"\s*\/?>/i);
+  return match ? match[1] : "";
+}
+
+function extractDescription(html) {
+  const match = html.match(/<meta\s+name="description"\s+content="([^"]*)"\s*\/?>/i);
+  return match ? match[1] : "";
+}
+
 class MemoryCache {
   constructor() {
     this.items = new Map();
@@ -140,7 +175,7 @@ const publicCopyFiles = [
 
 const joinedPublic = (await Promise.all(publicUiFiles.concat(["functions/[[path]].js"]).map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Find verified ticket links for major tours"),
+  joinedPublic.includes("Find verified ticket links and buying guidance for major tours"),
   "homepage public-facing copy should be present"
 );
 await assertPublicCopySafe(publicCopyFiles);
@@ -235,11 +270,36 @@ for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt",
 for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/${slug}`))) {
   const { response, text } = await routeResponse(pathname);
   assert(response.status === 200, `${pathname} should return 200`);
-  assert(/<link rel="canonical"/.test(text), `${pathname} should include a canonical URL`);
-  assert(/<meta name="description"/.test(text), `${pathname} should include a meta description`);
+
+  // Canonical URL: tag must be present and point to the exact route
+  const actualCanonical = extractCanonical(text);
+  assert(actualCanonical !== "", `${pathname} should include a canonical URL`);
+  assert(
+    actualCanonical === `https://tourticketcompare.com${pathname}`,
+    `${pathname} canonical should be "https://tourticketcompare.com${pathname}", got "${actualCanonical}"`
+  );
+
+  // Meta description: tag must be present and non-empty
+  const actualDescription = extractDescription(text);
+  assert(actualDescription !== "", `${pathname} should include a meta description`);
+  if (pathname !== "/") {
+    assert(
+      actualDescription !== homepageDescription,
+      `${pathname} should not return the homepage meta description`
+    );
+  }
+
+  // H1: must match the route-specific expected value
   const h1 = extractH1(text);
-  const expected = expectedH1.get(pathname) || `${catalog.artists.find((artist) => `/artists/${artist.slug}` === pathname)?.name} ticket links and buying guidance`;
+  const artist = catalog.artists.find((a) => `/artists/${a.slug}` === pathname);
+  const expected = expectedH1.get(pathname) || `${artist?.name} ticket links and buying guidance`;
   assert(h1 === expected, `${pathname} should render route-specific H1 "${expected}", got "${h1}"`);
+
+  // Title: must match the route-specific expected value
+  const actualTitle = extractTitle(text);
+  const expectedT = expectedTitle.get(pathname) || artist?.seo_title || `${artist?.name} Tickets | Options & Availability`;
+  assert(actualTitle === expectedT, `${pathname} title should be "${expectedT}", got "${actualTitle}"`);
+
   if (functionBackedStaticRoutes.includes(pathname)) {
     assert(h1 !== expectedH1.get("/"), `${pathname} should not return the homepage H1 in raw HTML`);
     assert(text.includes(routeMarkers.get(pathname)), `${pathname} should include route-specific raw HTML content`);

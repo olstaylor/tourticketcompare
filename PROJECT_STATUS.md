@@ -121,7 +121,7 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 
 ### Recommended next 5 implementation tasks (priority order)
 
-1. **Complete remaining live smoke checks** — run through the full page matrix (six remaining artist pages, four guide pages, five trust/legal pages, four old-guide redirects, D1 analytics write) and record results in `docs/LIVE_PRODUCTION_VERIFICATION.md`. Blocks clarity before any SEO push or content expansion.
+1. **Complete remaining live smoke checks** — manually verify (in browser) six artist pages, four guide pages, five trust/legal pages, four old-guide redirects, and confirm D1 analytics write. Local validation suite passes (JS syntax, events, smoke test). Live verification was blocked by Cloudflare WAF in automated testing but earlier 2026-05-11 verification succeeded. See `docs/LIVE_PRODUCTION_VERIFICATION.md` § "Manual Smoke Check Template" for complete checklist.
 2. **Wire event-level show cards on artist pages** — `events.json` and `/api/shows` already exist; the UI surface on artist pages is not yet wired. Start with one artist (e.g. Beyoncé) to prove the pattern before rolling out.
 3. **Add one verified SeatGeek or Vivid Seats affiliate link** — add a single artist-level destination URL (after confirming the redirect behaviour in `/api/out`), prove Impact attribution works, then expand. Do not add without a verified destination URL. Note: future SeatGeek/Vivid Seats integration may require an additional Impact program ID; confirm with provider before enabling.
 4. **Add more verified artist pages** — one at a time using the strict artist template with source-backed factual summaries. Site is safe for expansion; validate all new artist claims against official sources.
@@ -188,7 +188,16 @@ node --check functions/affiliate-disclosure.js
 node --check functions/contact.js
 ```
 
-**Note:** `node scripts/smoke-prelaunch.mjs` now passes as of 2026-05-12. Use `npm run deploy:pages:safe` for production deploys with pre-flight checks.
+**Status as of 2026-05-12:**
+```
+✓ public/app.js syntax OK
+✓ functions/[[path]].js syntax OK
+✓ functions/api/out.js syntax OK
+✓ 130 events validated
+✓ Cloudflare Pages MVP smoke checks passed
+```
+
+Use `npm run deploy:pages:safe` for production deploys with pre-flight checks.
 
 ---
 

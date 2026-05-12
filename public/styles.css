@@ -566,6 +566,36 @@ h3 {
   font-weight: 950;
 }
 
+.guide-card-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.guide-card-link:hover,
+.guide-card-link:focus-visible {
+  color: var(--accent-dark);
+}
+
+.guide-link-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-link-list a {
+  color: var(--accent-dark);
+  font-weight: 950;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.guide-link-list a:hover,
+.guide-link-list a:focus-visible {
+  text-decoration: underline;
+}
+
 details {
   padding: 14px 0;
   border-top: 1px solid var(--line);

@@ -325,13 +325,18 @@ function renderGuideLinks() {
   return `<div class="card-grid guide-grid">${Object.entries(GUIDE_ROUTES)
     .map(
       ([path, guide]) =>
-        `<article class="info-card"><h3>${escapeHtml(guide.h1)}</h3><p>${escapeHtml(guide.description)}</p>${anchor(
-          "Read guide",
-          path,
-          "text-link"
-        )}</article>`
+        `<article class="info-card"><h3>${anchor(guide.h1, path, "guide-card-link")}</h3><p>${escapeHtml(guide.description)}</p></article>`
     )
     .join("")}</div>`;
+}
+
+function renderArtistBrowseSection(catalog) {
+  const artists = catalog.artists || [];
+  if (!artists.length) return "";
+  const items = artists
+    .map(a => `<li>${anchor(`${a.name} ticket links and buying guidance`, `/artists/${a.slug}`)}</li>`)
+    .join("");
+  return `<section class="nested-panel"><h2>Browse artist pages</h2><p>Find checked ticket links and buying guidance for these artists:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
 function markdownToHtml(text) {
@@ -381,7 +386,7 @@ function renderFullGuideContent(sections) {
 function renderProviderFallback(catalog, artist, surface) {
   const links = ticketLinksForArtist(catalog, artist.slug);
   if (!links.length) {
-    return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">No checked artist-level ticket page is available yet. We hide ticket buttons until we can verify the destination.</p></section>`;
+    return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">No checked artist-level ticket page is available yet. We hide ticket buttons until we can verify the destination.</p><p class="muted">While you wait, these guides explain what to check before you buy: ${anchor("how to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")} and ${anchor("how to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}.</p></section>`;
   }
   const cards = links
     .map((item) => {
@@ -486,7 +491,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}) {
         const guide = Object.entries(GUIDE_ROUTES).find(([path]) => path === guidePath);
         if (!guide) return "";
         const [path, guideData] = guide;
-        return `<li>${anchor(guideData.title.replace(" | TourTicketCompare", ""), path)}</li>`;
+        return `<li>${anchor(guideData.h1 || guideData.title.replace(" | TourTicketCompare", ""), path)}</li>`;
       })
       .filter(Boolean)
       .join("");
@@ -534,12 +539,13 @@ function renderMainContent(route, catalog, events = [], guideContent = {}) {
       : "";
     const contentHtml = fullContent
       ? fullContent
-      : `<section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify. Final prices, fees, availability, delivery, and checkout terms should always be confirmed on the provider site.</p></section><section class="nested-panel"><h2>Related reading</h2><p>Use an artist page to look for checked event links where available, read how TourTicketCompare decides what to publish, or review how affiliate links are disclosed before leaving for a provider site.</p></section>`;
+      : `<section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify. Final prices, fees, availability, delivery, and checkout terms should always be confirmed on the provider site.</p></section>`;
+    const artistBrowseHtml = renderArtistBrowseSection(catalog);
     return `<main id="mainContent"><section class="content-page guide-page" aria-labelledby="guideTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${contentHtml}<div class="action-row">${anchor(
+    )}</p>${contentHtml}${artistBrowseHtml}<div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"

@@ -306,7 +306,7 @@ function renderArtistLinks(catalog) {
         return (
         `<article class="artist-card"><h3>${escapeHtml(artist.name)}</h3><p class="muted">${escapeHtml(
           artist.short_description || "Artist watchlist notes."
-        )}</p><p class="status-badge">${hasArtistPage ? "Artist ticket page available" : "No checked ticket link yet"}</p><p class="card-status">${
+        )}</p><p class="${hasArtistPage ? "status-badge" : "status-badge status-badge-muted"}">${hasArtistPage ? "Artist ticket page available" : "No checked ticket link yet"}</p><p class="card-status">${
           hasArtistPage
             ? "Artist-level links are separate from dated event links. Event-specific buttons appear only on verified show cards."
             : "Use the artist page for guidance. Ticket buttons appear only when a destination can be checked."
@@ -386,7 +386,7 @@ function renderFullGuideContent(sections) {
 function renderProviderFallback(catalog, artist, surface) {
   const links = ticketLinksForArtist(catalog, artist.slug);
   if (!links.length) {
-    return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">No checked artist-level ticket page is available yet. We hide ticket buttons until we can verify the destination.</p><p class="muted">While you wait, these guides explain what to check before you buy: ${anchor("how to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")} and ${anchor("how to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}.</p></section>`;
+    return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">No checked artist-level ticket link is available for this artist yet. Ticket buttons appear only when we can verify the destination.</p><p class="muted">While you wait, these guides cover what to check before committing to a ticketing platform:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
   }
   const cards = links
     .map((item) => {
@@ -476,7 +476,7 @@ function renderShowCardServerHtml(show) {
 function renderShowBoardServerHtml(shows) {
   const gridContent = shows.length
     ? shows.map(renderShowCardServerHtml).join("")
-    : `<p class="muted empty-state">No event-specific ticket link is available here yet. We only show ticket buttons when the show and destination can be verified.</p>`;
+    : `<p class="muted empty-state">No event-specific ticket links are available for this artist yet. We only show event cards when the date and destination can be verified. ${anchor("Read our buying guides", "/guides", "text-link")} while you wait, or check the artist-level ticket link below if one is available.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
@@ -719,11 +719,11 @@ function renderNotFoundHtml(html, pathname, origin) {
   let next = injectRoute(html, route, origin, { artists: [], ticket_links: [], providers: [] });
   next = next.replace(
     /<main\s+id="mainContent">[\s\S]*?<\/main>/i,
-    `<main id="mainContent"><section class="content-page" aria-labelledby="notFoundTitle"><h1 id="notFoundTitle">Page not found</h1><p>We could not find that page. Use the artist index or guides to find current public pages.</p><div class="action-row">${anchor(
+    `<main id="mainContent"><section class="content-page" aria-labelledby="notFoundTitle"><h1 id="notFoundTitle">Page not found</h1><p>We could not find that page. Use the artist index, buying guides, or homepage to find current public pages.</p><div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"
-    )}${anchor("Return home", "/", "button button-secondary")}</div></section></main>`
+    )}${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Return home", "/", "button button-secondary")}</div></section></main>`
   );
   return next;
 }

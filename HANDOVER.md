@@ -173,8 +173,7 @@ See `docs/LIVE_PRODUCTION_VERIFICATION.md` for the full checklist and remaining 
 
 ## Known Risks
 
-- `impactDefaultProgramId` reports `false` in `/api/health`; confirm whether this binding is needed for any active feature.
-- Ticketmaster affiliate links are approved for use, but SeatGeek and Vivid Seats still need verified link data before public buttons.
+- Ticketmaster affiliate links are approved for use, but SeatGeek and Vivid Seats still need verified link data before public buttons. Future SeatGeek/Vivid Seats integration may require an additional Impact program ID beyond the current Ticketmaster-specific one.
 - Any future factual artist/tour claims need source URLs or public verification.
 - Thin duplicate ticket pages or old root-level artist URLs could damage SEO if reintroduced as canonicals.
 - Publishing prices without verified provider data and timestamps would violate the product safety rules.

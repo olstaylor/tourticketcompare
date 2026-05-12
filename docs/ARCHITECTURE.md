@@ -198,4 +198,5 @@ The named shims provide a safety net if middleware is removed, but are otherwise
 | `MOCK_MODE` and `ALLOW_MOCK_PRICES` are `false` | Confirmed via `/api/health` 2026-05-11 |
 | `www.tourticketcompare.com` → 301 → apex | Confirmed via Cloudflare Redirect Rule 2026-05-11 |
 | GitHub→Pages Git integration active | **Unconfirmed** — check Cloudflare Pages dashboard |
-| `IMPACT_DEFAULT_PROGRAM_ID` configured | **Unconfirmed** — health reports `false`; may be intentional |
+| `IMPACT_DEFAULT_PROGRAM_ID` configured | **Not required** — confirmed 2026-05-12; `IMPACT_TICKETMASTER_PROGRAM_ID` is the only Impact binding needed for current Ticketmaster affiliate links. Future SeatGeek/Vivid Seats integration may require additional program ID. |
+| `IMPACT_TICKETMASTER_PROGRAM_ID` configured | Confirmed via `/api/health` 2026-05-11 |

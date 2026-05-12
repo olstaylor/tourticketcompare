@@ -101,8 +101,8 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 | Risk | Detail | Severity |
 |---|---|---|
 | **✓ Smoke test false positives (FIXED 2026-05-12)** | `node scripts/smoke-prelaunch.mjs` was failing on two false positives: (1) "guaranteed claim" rule flagged safe copy like "not guaranteed" in FAQ; (2) development domain "ticketmaster.evyy.net" appeared in public data (catalog.json). Both fixed: added allowedContext to "guaranteed claim" rule, and removed development domain from trusted_affiliate_hosts. Smoke test now passes. | ✓ Resolved |
+| **✓ `impactDefaultProgramId` not configured (RESOLVED 2026-05-12)** | `/api/health` reports `impactDefaultProgramId: false`. Investigation confirms `IMPACT_TICKETMASTER_PROGRAM_ID` (present and configured) is the only Impact program ID required for current Ticketmaster affiliate link generation. Code review of `functions/api/out.js` impactConfig() (line 227) uses exclusively `IMPACT_TICKETMASTER_PROGRAM_ID`. No active feature requires `IMPACT_DEFAULT_PROGRAM_ID`. Future SeatGeek/Vivid Seats providers may require a default or provider-specific program ID; this will be evaluated when those providers are enabled. | ✓ Resolved |
 | **Raw HTML routing** | Non-root routes (`/artists`, `/guides`, `/how-it-works`, etc.) serve correct server-injected HTML via Pages Functions, but `public/app.js` re-renders content client-side on load. If a crawler catches an intermediate state or JS fails, the homepage H1/title could be indexed instead of the route-specific values. Parked until explicitly prioritised; must be resolved before SEO scaling. See `docs/ARCHITECTURE.md`. | Medium (SEO) |
-| **`impactDefaultProgramId` not configured** | `/api/health` reports `impactDefaultProgramId: false`. Confirm whether this binding is needed for any active feature or whether the Ticketmaster-specific program ID is sufficient. | Medium |
 | **Placeholder D1 bindings** | `wrangler.toml` has two commented-out D1 bindings (`RATE_LIMIT_DB`, `CLICKS_DB`) with `replace-with-d1-database-id` placeholder IDs. Uncommenting without real IDs breaks local dev. Either provision with real IDs or remove the blocks. | Medium |
 | **Named route shims inactive** | `functions/artists.js` and peers re-export from `[[path]].js` but are never reached while `_middleware.js` is active. Editing them has no production effect. | Low |
 | **Legacy deployment paths** | `vercel.json` and `api/` directory are present but not production. `scripts/build-standalone-worker.mjs` is present as emergency rollback reference. Neither should be accidentally deployed. | Low |
@@ -121,18 +121,17 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 
 ### Recommended next 5 implementation tasks (priority order)
 
-1. **Confirm `impactDefaultProgramId`** — `/api/health` reports `false`; verify whether any active affiliate feature requires this binding or whether the Ticketmaster-specific program ID is sufficient. No code changes needed if it is confirmed not required.
-2. **Clean up placeholder D1 bindings** — remove or provision the `RATE_LIMIT_DB` and `CLICKS_DB` blocks in `wrangler.toml`. Placeholder IDs break local dev if accidentally uncommented. Either delete the blocks or fill real database IDs.
-3. **Wire event-level show cards on artist pages** — `events.json` and `/api/shows` already exist; the UI surface on artist pages is not yet wired. Start with one artist (e.g. Beyoncé) to prove the pattern before rolling out.
-4. **Complete remaining live smoke checks** — run through the full page matrix (six artist pages, five guide pages, five trust/legal pages, four old-guide redirects, D1 analytics write) and record results in `docs/LIVE_PRODUCTION_VERIFICATION.md`.
-5. **Add one verified SeatGeek or Vivid Seats affiliate link** — add a single artist-level destination URL (after confirming the redirect behaviour in `/api/out`), prove Impact attribution works, then expand. Do not add without a verified destination URL.
+1. **Complete remaining live smoke checks** — run through the full page matrix (six remaining artist pages, four guide pages, five trust/legal pages, four old-guide redirects, D1 analytics write) and record results in `docs/LIVE_PRODUCTION_VERIFICATION.md`. Blocks clarity before any SEO push or content expansion.
+2. **Wire event-level show cards on artist pages** — `events.json` and `/api/shows` already exist; the UI surface on artist pages is not yet wired. Start with one artist (e.g. Beyoncé) to prove the pattern before rolling out.
+3. **Add one verified SeatGeek or Vivid Seats affiliate link** — add a single artist-level destination URL (after confirming the redirect behaviour in `/api/out`), prove Impact attribution works, then expand. Do not add without a verified destination URL. Note: future SeatGeek/Vivid Seats integration may require an additional Impact program ID; confirm with provider before enabling.
+4. **Add more verified artist pages** — one at a time using the strict artist template with source-backed factual summaries. Site is safe for expansion; validate all new artist claims against official sources.
+5. **Document GitHub→Pages CI/CD pipeline status** — confirm in Cloudflare dashboard whether auto-deploy on `main` push is active or if every deploy requires manual `npm run deploy:pages`.
 
 ### Immediate stabilisation (done)
 - **✓ Smoke test now passes** — fixed false positives on "guaranteed claim" and development domain. `npm run deploy:pages:safe` is operational as of 2026-05-12.
 
 ### Next confirmation needed
-- **Confirm `impactDefaultProgramId`** — check whether the absent binding affects any live feature or whether the Ticketmaster-specific program ID covers all active use cases.
-- **Clean up or provision placeholder D1 bindings** — remove or fill the `RATE_LIMIT_DB`/`CLICKS_DB` blocks in `wrangler.toml`.
+- **Clean up or provision placeholder D1 bindings** — ✓ Done (removed 2026-05-12); no longer a concern.
 - **Complete remaining live smoke checks** — six artist pages beyond Beyoncé, four guide pages, five trust/legal pages, old guide redirect slugs, D1 analytics write. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
 
 ### MVP product polish

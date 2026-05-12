@@ -16,13 +16,13 @@ These risks affect production correctness and must be addressed before scaling.
 
 **High priority (operational):**
 - Confirm GitHub→Pages CI pipeline is active in the Cloudflare Pages dashboard. If no Git integration is configured, every deploy to production requires a manual `npm run deploy:pages` step. This must be confirmed before relying on `main` pushes to deploy automatically.
+- ✓ Confirm `impactDefaultProgramId` — Done (2026-05-12). `IMPACT_TICKETMASTER_PROGRAM_ID` is the only Impact binding required for current Ticketmaster affiliate links. The default program ID is unused and not needed for active features.
 
 **High priority (SEO):**
 - Fix the raw HTML routing issue for non-root routes — `/artists`, `/guides`, etc. currently serve the correct server-injected HTML via Pages Functions, but client-side JS re-renders the page on load. If a Googlebot crawl catches an intermediate state or if JS fails, the wrong H1/title could be indexed. This is the highest-priority remaining code task and should be addressed before any SEO scaling.
 
 **Medium priority:**
-- Provision real D1 database IDs for `RATE_LIMIT_DB` and `CLICKS_DB` (or remove the commented-out blocks from `wrangler.toml`)
-- Confirm `impactDefaultProgramId` — `/api/health` reports `false`; verify whether this binding is needed for any active feature
+- ✓ Provision real D1 database IDs for `RATE_LIMIT_DB` and `CLICKS_DB` — Done (removed 2026-05-12); placeholder blocks removed from `wrangler.toml`
 - Complete remaining live smoke checks: six artist pages, four guide pages, five trust pages, old guide redirects, D1 analytics write
 
 **Resolved / no longer applicable:**

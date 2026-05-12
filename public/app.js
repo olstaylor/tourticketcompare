@@ -800,7 +800,7 @@ function renderHome() {
   });
   artists.append(artistHeader, grid);
 
-  main.replaceChildren(hero, renderSearchWidget(), artists, renderGuidePreview(), renderTrustSection());
+  main.replaceChildren(hero, renderSearchWidget(), renderWhatYouCanDo(), artists, renderGuidePreview(), renderTrustSection());
 }
 
 function renderArtistCard(artist) {

@@ -752,11 +752,11 @@ function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Browse verified ticket links and prices from top providers", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Find verified ticket links and buying guidance for major tours", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
-    "Find checked destinations to ticket providers. No fake prices, no invented tours. Read practical guidance on comparing totals and confirming checkout terms before you leave.",
+    "Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees on the provider site. We do not compare live prices.",
     "hero-subcopy"
   );
   const actions = document.createElement("div");
@@ -800,7 +800,7 @@ function renderHome() {
   });
   artists.append(artistHeader, grid);
 
-  main.replaceChildren(hero, renderSearchWidget(), artists, renderGuidePreview());
+  main.replaceChildren(hero, renderSearchWidget(), artists, renderGuidePreview(), renderTrustSection());
 }
 
 function renderArtistCard(artist) {

@@ -20,7 +20,7 @@ const expectedH1 = new Map([
 const routeMarkers = new Map([
   ["/artists", "Ticket buttons appear only when the destination has been checked"],
   ["/guides", "Compare the final checkout total after fees"],
-  ["/how-it-works", "affiliate links are handled safely"],
+  ["/how-it-works", "Affiliate links are handled safely"],
   ["/editorial-policy", "official artist, ticketing, and approved affiliate sources"],
   ["/affiliate-disclosure", "Affiliate relationships do not control which links we show"],
   ["/about", "avoid fake prices"],
@@ -60,7 +60,7 @@ async function assertPublicCopySafe(files) {
     {
       label: "live prices claim",
       pattern: /\blive\s+prices\b/i,
-      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|does not compare)\b/i
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|does not compare|do not compare)\b/i
     },
     { label: "from-price claim", pattern: /\bfrom\s*[£$€]\s*\d/i },
     {

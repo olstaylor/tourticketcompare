@@ -208,6 +208,8 @@
       "name": "Ticketmaster",
       "provider_type": "primary_or_verified_marketplace",
       "public_enabled": true,
+      "pricing_display_allowed": false,
+      "available_display_allowed": true,
       "requires_verified_destination": true,
       "credential_type": "impact_affiliate",
       "credential_fields": [
@@ -269,6 +271,8 @@
       "name": "SeatGeek",
       "provider_type": "marketplace",
       "public_enabled": false,
+      "pricing_display_allowed": false,
+      "available_display_allowed": false,
       "requires_verified_destination": true,
       "credential_type": "api_key",
       "credential_fields": [
@@ -310,6 +314,8 @@
       "name": "Vivid Seats",
       "provider_type": "marketplace",
       "public_enabled": false,
+      "pricing_display_allowed": false,
+      "available_display_allowed": false,
       "requires_verified_destination": true,
       "credential_type": "api_key",
       "credential_fields": [
@@ -350,6 +356,8 @@
       "name": "StubHub",
       "provider_type": "marketplace",
       "public_enabled": false,
+      "pricing_display_allowed": false,
+      "available_display_allowed": false,
       "requires_verified_destination": true,
       "credential_type": "oauth",
       "credential_fields": [

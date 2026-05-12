@@ -56,6 +56,60 @@ def is_placeholder_url(value: Any) -> bool:
     )
 
 
+def load_provider_metadata() -> dict:
+    catalog_path = Path("public/data/catalog.json")
+    if not catalog_path.exists():
+        return {}
+    try:
+        catalog = json.loads(catalog_path.read_text())
+        providers = {}
+        for provider in catalog.get("providers", []):
+            slug = provider.get("slug")
+            if slug:
+                providers[slug] = provider
+        return providers
+    except Exception:
+        return {}
+
+
+def validate_provider_gates(event: Any, providers: dict) -> list:
+    errors = []
+    if not isinstance(event, dict):
+        return errors
+
+    provider_links = event.get("provider_links")
+    if not isinstance(provider_links, dict):
+        return errors
+
+    for provider_slug, link in provider_links.items():
+        if not isinstance(link, dict):
+            continue
+
+        if provider_slug not in providers:
+            errors.append(f"provider_links.{provider_slug}: unknown provider")
+            continue
+
+        provider = providers[provider_slug]
+        prefix = f"provider_links.{provider_slug}"
+
+        if not provider.get("public_enabled"):
+            if link.get("verified"):
+                errors.append(f"{prefix}: verified link but provider public_enabled=false")
+
+        if not provider.get("pricing_display_allowed"):
+            for price_field in ("price", "price_min", "price_max"):
+                if price_field in event and event.get(price_field):
+                    errors.append(f"{prefix}: price claim but pricing_display_allowed=false")
+                    break
+
+        if not provider.get("available_display_allowed"):
+            status = link.get("availability_status")
+            if status and status not in ("not_checked", ""):
+                errors.append(f"{prefix}: availability claim '{status}' but available_display_allowed=false")
+
+    return errors
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate public/data/events.json")
     parser.add_argument(
@@ -80,6 +134,11 @@ def main() -> int:
         help="Fail if event count is below this threshold (default: 0).",
     )
     parser.add_argument(
+        "--validate-provider-gates",
+        action="store_true",
+        help="Validate that events do not claim unsupported provider capabilities.",
+    )
+    parser.add_argument(
         "--for-production",
         action="store_true",
         help="Enable strict launch checks: min-events>=1 and reject placeholders. Missing URLs are allowed and render unavailable.",
@@ -88,9 +147,11 @@ def main() -> int:
 
     if args.for_production:
         args.reject_placeholder_urls = True
+        args.validate_provider_gates = True
         if args.min_events < 1:
             args.min_events = 1
 
+    providers = load_provider_metadata()
     path = Path(args.path)
     if not path.exists():
         print(f"ERROR: missing file: {path}", file=sys.stderr)
@@ -182,6 +243,10 @@ def main() -> int:
                 value = event.get(url_field)
                 if not isinstance(value, str) or value.strip() == "":
                     errors.append(f"{prefix}.{url_field}: required when --require-affiliate-urls is set")
+
+        if args.validate_provider_gates and providers:
+            gate_errors = validate_provider_gates(event, providers)
+            errors.extend(f"{prefix}: {err}" if not err.startswith("provider_links") else err for err in gate_errors)
 
     if errors:
         print("VALIDATION FAILED:", file=sys.stderr)

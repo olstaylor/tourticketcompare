@@ -229,6 +229,29 @@ Do not modify without explicit task scope:
 - **Impact credentials** (`IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`) and affiliate tracking logic
 - **Cloudflare dashboard settings** (routes, bindings, secrets)
 
+### Adding a New Provider (Safety Checklist)
+
+Do not add a new provider without explicit task scope. If tasked to add a provider:
+
+1. **Verify capabilities**: Document provider type (primary_ticket_sales, resale_platform, etc.) from official provider documentation — never invent.
+2. **Add to catalog.json**: Add provider entry under `providers` array with:
+   - Required: `slug`, `name`, `provider_type`, `public_enabled: false`, `requires_verified_destination: true`
+   - Safety gates: `pricing_display_allowed: false`, `available_display_allowed: false` (assume false until proven)
+   - Credentials: `credential_type`, `credential_fields` (leave blank if no credentials needed)
+   - Set `terms_accepted_at: null` (not signed yet)
+3. **Add test link**: Add ONE artist-level ticket_link to catalog.json with `verified: true` and `public_enabled: false`
+4. **Configure secrets** (if needed): Create Cloudflare Pages secret and update `wrangler.toml` binding
+5. **Test /api/out**: Verify redirect works with test link
+6. **Run validation**:
+   ```bash
+   python3 scripts/validate-events.py --for-production --validate-provider-gates
+   node scripts/smoke-prelaunch.mjs
+   ```
+7. **Enable only if testing passes**: Set `terms_accepted_at` to agreement date and `public_enabled: true`
+8. **Repeat smoke tests**: After enabling `public_enabled: true`
+
+See `docs/PROVIDER_SCHEMA.md` for full schema and example (Ticketmaster).
+
 ---
 
 ## Working Style

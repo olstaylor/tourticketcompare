@@ -252,6 +252,20 @@ Do not add a new provider without explicit task scope. If tasked to add a provid
 
 See `docs/PROVIDER_SCHEMA.md` for full schema and example (Ticketmaster).
 
+### Current Provider Status
+
+**Ticketmaster** (active)
+- `public_enabled: true`, `terms_accepted_at: 2026-04-30`
+- 7 verified artist-level links, all live
+- Impact affiliate tracking configured
+
+**SeatGeek, Vivid Seats, StubHub** (disabled, pending verification)
+- `public_enabled: false`, `terms_accepted_at: null`
+- Metadata in catalog.json is conservative (no confirmed primary sales, no pricing/availability display)
+- No verified links exist
+- SeatGeek: awaiting external verification of affiliate/deep-link format and promo code usage before any public enablement
+- Do NOT enable any of these without explicit verification of partnership terms and link behavior
+
 ---
 
 ## Working Style

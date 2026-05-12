@@ -269,7 +269,7 @@
     {
       "slug": "seatgeek",
       "name": "SeatGeek",
-      "provider_type": "marketplace",
+      "provider_type": "marketplace_with_primary_partnerships",
       "public_enabled": false,
       "pricing_display_allowed": false,
       "available_display_allowed": false,
@@ -296,7 +296,7 @@
         "pricing_type": "live_fetch"
       },
       "features": {
-        "primary_ticket_sales": true,
+        "primary_ticket_sales": false,
         "resale_platform": true,
         "international_coverage": false,
         "real_time_inventory": true,
@@ -304,6 +304,7 @@
       },
       "affiliate_disclosure": "This link directs to SeatGeek.",
       "terms_accepted_at": null,
+      "internal_notes": "SeatGeek is primarily a secondary marketplace. Do not claim it as a primary ticket seller for any event unless that specific event is explicitly verified as a primary partnership with SeatGeek. Pricing and availability display remain disabled until terms and commercial rights are confirmed. Affiliate/deep-link format and promo code usage are not yet documented; external verification required before public enablement.",
       "contact": {
         "api_email": "api@seatgeek.com",
         "business_email": "partnerships@seatgeek.com"

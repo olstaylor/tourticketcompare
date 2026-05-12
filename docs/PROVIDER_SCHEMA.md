@@ -70,6 +70,20 @@ Before setting `public_enabled: true`:
 5. Test `/api/out` with the verified link
 6. Smoke test: `node scripts/smoke-prelaunch.mjs`
 
+## Status: Active vs. Pending Providers
+
+**Active Providers (public_enabled: true):**
+- **Ticketmaster** — fully configured with affiliate tracking, terms signed, verified artist links deployed
+
+**Pending Providers (public_enabled: false):**
+- **SeatGeek** — metadata defined; awaiting external verification of affiliate/deep-link format and promo code usage
+- **Vivid Seats** — metadata defined; no verified links
+- **StubHub** — metadata defined; no verified links
+
+Pending providers have conservative metadata (no primary_ticket_sales claims, no pricing/availability display allowed) to prevent unsafe claims until partnership terms and operational details are confirmed.
+
+---
+
 ## Example: Ticketmaster (Current)
 
 ```json

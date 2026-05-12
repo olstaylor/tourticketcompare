@@ -22,13 +22,3 @@ TICKETMASTER_DISCOVERY_COUNTRY = ""
 binding = "DEMAND_DB"
 database_name = "tourticketcompare-demand"
 database_id = "19b314b8-10f1-4504-a3bc-963f7ecbe9f6"
-
-# [[d1_databases]]
-# binding = "RATE_LIMIT_DB"
-# database_name = "tourticketcompare-rate-limit"
-# database_id = "replace-with-d1-database-id"
-#
-# [[d1_databases]]
-# binding = "CLICKS_DB"
-# database_name = "tourticketcompare-clicks"
-# database_id = "replace-with-d1-database-id"

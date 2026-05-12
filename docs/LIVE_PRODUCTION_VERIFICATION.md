@@ -104,9 +104,9 @@ www→apex 301 redirect is confirmed working across both root and path-preservin
 
 **Fixed.** A Cloudflare Redirect Rule was added 2026-05-11. Both `www.tourticketcompare.com/` and `www.tourticketcompare.com/artists/beyonce` now return 301 to the apex equivalent.
 
-### 2. impactDefaultProgramId is false
+### 2. ✓ impactDefaultProgramId is false — RESOLVED
 
-The `/api/health` binding check shows `impactDefaultProgramId: false`. The `IMPACT_DEFAULT_PROGRAM_ID` secret is not configured in the Pages project. This may be intentional if only the Ticketmaster-specific program ID is used, but should be confirmed with the account settings.
+**Finding (2026-05-12):** Code review of `functions/api/out.js` confirms `impactConfig()` (line 227) uses exclusively `IMPACT_TICKETMASTER_PROGRAM_ID`. No active feature requires `IMPACT_DEFAULT_PROGRAM_ID`. The binding being absent is intentional and safe. Future SeatGeek/Vivid Seats provider integration may require a default or provider-specific program ID; this will be evaluated when those providers are enabled.
 
 ### 3. GitHub→Pages CI pipeline not confirmed
 
@@ -140,7 +140,6 @@ These were not checked in this session and should be verified before closing the
 - [ ] Old guide redirect slugs (e.g. `/guides/compare-ticket-prices-safely` → canonical guide)
 - [ ] D1 analytics recording: confirm `outbound_click` is written to `DEMAND_DB` after an `/api/out` redirect
 - [ ] Whether GitHub→Pages CI is active (requires Cloudflare dashboard access)
-- [ ] `IMPACT_DEFAULT_PROGRAM_ID` — confirm whether it is intentionally absent
 - [ ] Cloudflare caching headers on HTML routes vs API routes
 
 ---
@@ -171,7 +170,7 @@ These were not checked in this session and should be verified before closing the
 | Sitemap returns 20 URLs | ✓ Confirmed |
 | www→apex 301 redirect | ✓ Confirmed (fixed 2026-05-11) |
 | GitHub→Pages CI pipeline | ? Unconfirmed — check Cloudflare dashboard |
-| `impactDefaultProgramId` | ? False — confirm if intentional |
+| `impactDefaultProgramId` | ✓ Confirmed not required (2026-05-12) — `IMPACT_TICKETMASTER_PROGRAM_ID` is sufficient for current Ticketmaster affiliate links |
 | All artist pages (6 remaining) | Unchecked |
 | All guide pages (4 remaining) | Unchecked |
 | Trust/legal pages (5) | Unchecked |

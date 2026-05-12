@@ -379,5 +379,167 @@
         "content": "Resale ticket pricing reflects supply, demand, seller motivation, and platform fees. Early resale listings carry steep markups because scarcity is acute. Final-week listings are cheaper because sellers are motivated. Understanding these dynamics helps you buy strategically: either commit to primary onsale for the best starting price, or wait until the final week for motivated seller deals on resale platforms. Know your timing, check seller ratings, and always confirm the final total including fees before buying."
       }
     ]
+  },
+  "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "You search for the same show on two different ticketing sites and get two noticeably different prices. Which one is right? Both are — they just reflect different costs, inventory sources, and fee structures.\n\nUnderstanding why prices vary between ticket sites lets you make a confident decision rather than a confused one. This guide explains the main factors behind the variation so you can compare sites on equal terms."
+      },
+      {
+        "type": "section",
+        "title": "Primary versus resale inventory",
+        "content": "The most significant driver of price differences between sites is whether they are selling **primary** or **resale** tickets.\n\n**Primary tickets** come directly from the venue or promoter. Sites like Ticketmaster and AXS are the most common primary sellers. Face-value primary tickets reflect the price set by the venue or artist team.\n\n**Resale tickets** are listed by fans or brokers who already own the tickets. Sites like SeatGeek, StubHub, and Vivid Seats operate largely as resale marketplaces. Sellers set their own asking prices, which are frequently above face value for in-demand events.\n\nSome platforms operate in both roles depending on the event. A single site may show primary inventory for one show and resale-only inventory for another, so the type you are looking at is not always obvious from the site name alone."
+      },
+      {
+        "type": "section",
+        "title": "How booking fees affect the final total",
+        "content": "Every major ticketing platform adds service fees, booking fees, or facility charges on top of the listed ticket price. These are charged by the platform, not the venue, and they vary considerably.\n\nThe same face-value ticket can produce meaningfully different final totals depending on which platform you use to purchase it. A site with a lower headline price but a higher fee structure can easily end up more expensive than a site showing a higher starting price.\n\n**Always check the full checkout total** — not the headline price — before deciding which site offers better value. The displayed price and the amount you actually pay at checkout are rarely the same number."
+      },
+      {
+        "type": "section",
+        "title": "Dynamic pricing on primary platforms",
+        "content": "Many primary ticketing platforms now use dynamic pricing, which means ticket prices increase as demand rises — similar to how airline seats are priced.\n\nA ticket that is listed at one price when a tour is first announced may be priced significantly higher by the time it reaches the front of the queue during a popular onsale. This is set by the promoter or venue, not by the ticketing platform itself, but it explains why the same show can appear at different prices on different days, or even at different points in the same queue.\n\nDynamic pricing affects primary inventory. Resale prices are set by individual sellers and are not controlled by dynamic pricing models, though they tend to follow demand in a similar way."
+      },
+      {
+        "type": "section",
+        "title": "Seat location and section differences",
+        "content": "Two tickets on the same platform at different prices may simply be in different parts of the venue. Two tickets on different platforms at different prices may be in different sections entirely, even if the listing titles sound similar.\n\nBefore comparing prices across sites, confirm that the listings you are comparing are for the same section, the same tier, and where possible, a similar row. Floor-level general admission and upper-tier seated tickets for the same show can appear at very different prices, and a side-by-side platform comparison only makes sense if both listings are genuinely equivalent."
+      },
+      {
+        "type": "section",
+        "title": "Delivery method and timing",
+        "content": "Most platforms now offer mobile or e-ticket delivery at no extra cost. Some still charge for physical ticket delivery or express shipping, which adds to the total.\n\nDelivery timing also matters. For some events, tickets are not released until close to the event date. Check when the platform says tickets will be delivered and confirm it suits your situation, particularly if you are travelling to the event or need to make transport arrangements in advance."
+      },
+      {
+        "type": "section",
+        "title": "Buyer protection and seller terms",
+        "content": "Platforms differ in the buyer protections they offer, particularly on resale inventory. Some offer a formal guarantee that covers you if a ticket is found to be invalid at the door or if the event is cancelled. Others offer more limited recourse.\n\nBefore purchasing from a resale site:\n- Check whether the platform has a published buyer guarantee policy\n- Read what the guarantee actually covers — cancellation, invalid tickets, and non-delivery have different terms on different platforms\n- Review the seller's rating if individual seller ratings are shown\n- Confirm the refund and cancellation terms before completing the purchase"
+      },
+      {
+        "type": "section",
+        "title": "What to check before buying from any platform",
+        "content": "- **Confirm the ticket type.** Is this a primary or resale listing? The site name alone does not always tell you.\n- **Check the final checkout total.** The headline price rarely includes all fees.\n- **Verify the seat section.** Make sure you are comparing equivalent seating areas across platforms.\n- **Review delivery timing.** Confirm when you will receive the ticket and in what format.\n- **Read the refund and cancellation terms.** These are set by the platform and vary significantly.\n- **Check buyer protection coverage.** Understand what recourse you have if something goes wrong."
+      }
+    ]
+  },
+  "/guides/how-to-avoid-overpaying-for-concert-tickets": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Overpaying for concert tickets is more common than most people realise — and it usually comes down to a few avoidable mistakes: comparing headline prices instead of final totals, buying through the wrong type of platform, or making a quick decision under the impression that tickets are about to run out.\n\nThis guide covers the practical checks that help you spend only what the ticket is actually worth."
+      },
+      {
+        "type": "section",
+        "title": "Always compare final checkout totals",
+        "content": "The most common way people overpay is by comparing headline prices without accounting for booking fees, service charges, and delivery costs.\n\nTicketing platforms add fees at checkout. These can range from a modest percentage to a substantial addition to the face value, and they differ from platform to platform. A site showing a lower headline price can easily produce a higher final total than a site with a higher-looking starting price.\n\nBefore you decide which platform offers better value, put both listings through to the final checkout page and compare what you would actually pay. The headline is a starting point, not the price."
+      },
+      {
+        "type": "section",
+        "title": "Know what you are buying: primary versus resale",
+        "content": "Primary tickets are sold at the official face value set by the venue or promoter. Resale tickets are priced by individual sellers and are typically higher than face value for in-demand shows.\n\nIf you have the option to buy primary tickets through an official ticketing partner, you are almost always starting at a lower base price than resale. The challenge is that primary tickets can sell out quickly for popular shows, which is why checking the artist's official site to identify authorised sellers first is worth doing.\n\nIf you are using a resale marketplace, check whether the platform charges an additional buyer fee on top of the seller's asking price. Some platforms show the seller's price prominently and add a buyer protection fee only at the final checkout stage."
+      },
+      {
+        "type": "section",
+        "title": "Do not act on urgency alone",
+        "content": "Ticketing platforms commonly show messages indicating that few seats remain, that other buyers are viewing the same tickets, or that your held seats will expire within a short countdown window.\n\nSome of this is accurate — popular shows do sell quickly. But the same urgency copy appears for all events regardless of actual demand, and making a rushed decision without checking the final total or verifying the seat section is one of the more reliable ways to overpay or end up with the wrong seats.\n\nIf the timer expires and you want to try again, most platforms will let you restart the checkout process. The seats may no longer be available, but the urgency messaging does not mean the entire event is about to sell out."
+      },
+      {
+        "type": "section",
+        "title": "Check the seat section carefully",
+        "content": "A lower-priced ticket is not necessarily better value if it is in a section with restricted sightlines, far from the stage, or in a standing area when you expected seated. Before completing a purchase, verify:\n\n- The section name or number and where it is in the venue layout\n- Whether the ticket is seated or standing\n- Whether there are any listed view restrictions or obstructions\n- Whether the price difference between sections justifies the difference in experience for the specific venue\n\nMany venues publish detailed seating maps. Using the venue's official site to understand the layout before buying can help you decide whether a cheaper section is actually worth less or is simply less familiar."
+      },
+      {
+        "type": "section",
+        "title": "Understand timing and when prices are likely to change",
+        "content": "For primary tickets, buying as close to the official onsale as possible typically gives you access to face-value pricing before dynamic price increases take effect. Prices on primary platforms can rise after the initial onsale window as demand is confirmed.\n\nFor resale tickets, prices tend to be highest immediately after a tour is announced (when scarcity feels acute but before many people have listed their tickets) and in the weeks after the onsale when primary stock is gone. Resale prices often soften in the final days before a show, as sellers become motivated to move tickets rather than hold them.\n\nTiming decisions depend on your risk tolerance. Waiting carries the possibility of missing out entirely for high-demand events. Buying early on resale typically means paying a premium."
+      },
+      {
+        "type": "section",
+        "title": "Confirm terms before you commit",
+        "content": "Refund, resale, and transfer terms vary considerably between platforms. Some tickets are non-transferable. Some are non-refundable under all circumstances. Some platforms offer a resale option through their own marketplace; others do not.\n\nBefore completing a purchase, read the relevant terms for that specific ticket:\n- Refund and cancellation policy\n- Transfer and resale restrictions\n- What happens if the event is rescheduled or cancelled\n- Delivery method and timing"
+      }
+    ]
+  },
+  "/guides/when-is-the-best-time-to-buy-concert-tickets": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "There is no single answer to when you should buy concert tickets — it depends on the artist, the demand, whether you are looking at primary or resale inventory, and how much flexibility you have on seat choice and risk.\n\nThis guide walks through the main timing scenarios so you can make an informed decision rather than guessing."
+      },
+      {
+        "type": "section",
+        "title": "Primary tickets: buy at the official onsale",
+        "content": "For primary tickets — sold at the official face value through authorised ticketing partners — the onsale window is typically the best time to buy.\n\nReasons to buy at onsale:\n- Face-value pricing is usually set at the start of the sale\n- Dynamic pricing on primary platforms can push prices up as demand is confirmed\n- Popular shows can sell out quickly, particularly floor-level and front-section seats\n- Waiting after onsale on primary platforms often means fewer seat options and higher prices, not lower ones\n\nTo prepare for an onsale: confirm the exact date and time from the artist's official site or the verified ticketing partner, create an account on the platform in advance, and be ready to enter the queue at the announced start time."
+      },
+      {
+        "type": "section",
+        "title": "What dynamic pricing means for your timing decision",
+        "content": "Dynamic pricing allows primary ticketing platforms to adjust prices based on real-time demand. This means that even on an official primary platform, the price for a given seat can increase during the onsale itself.\n\nThe practical implication: buying early in a popular onsale is usually cheaper than buying later in the same sale. If you are in a queue, the price when you reach the checkout may be higher than the price quoted at the start.\n\nDynamic pricing does not affect all shows. Smaller venues, less in-demand events, or artists with restricted pricing agreements may have fixed face values throughout. Checking whether the platform shows a dynamic pricing notice for your event before queuing helps you set realistic expectations."
+      },
+      {
+        "type": "section",
+        "title": "Resale timing: early risk versus late value",
+        "content": "Resale markets — where fans or brokers sell tickets they already own — follow a different timing pattern from primary.\n\n**Shortly after onsale:** Resale prices are often at their highest. Supply is limited because few ticket holders have listed yet, and demand is at its most visible. Paying a significant premium over face value is common in this window.\n\n**Weeks before the event:** Prices can vary widely. Some sections remain elevated; others soften as more supply becomes available.\n\n**Final days before the event:** Sellers become motivated to move tickets rather than hold them. Prices often drop noticeably in the final 48–72 hours. For events that are not fully sold out, this can be the most price-efficient window on resale.\n\nThe trade-off: late resale buying carries real risk for high-demand events. Tickets may be sold out. Prices for remaining stock can be higher, not lower. The timing that works well for a mid-demand show may not work for an in-demand tour."
+      },
+      {
+        "type": "section",
+        "title": "Group bookings: an additional consideration",
+        "content": "Buying tickets for a group adds a layer of complexity to timing decisions. Primary platforms typically let you select multiple seats in one transaction, which is straightforward if you act during onsale. On resale, finding identical consecutive seats in the same section from the same seller becomes harder as inventory thins.\n\nFor groups, acting early — at or near the onsale — tends to give you the most options on both seat choice and section consistency. Leaving group purchases to the resale market late in the cycle increases the difficulty of keeping everyone together in the venue."
+      },
+      {
+        "type": "section",
+        "title": "When waiting is worth the risk",
+        "content": "There are situations where waiting makes practical sense:\n\n- **Shows that are not selling out:** Not every event sells to capacity. For artists with broad availability, waiting for resale softening or platform promotions is a reasonable approach.\n- **Flexible seat preferences:** If you are not particular about section or row, late resale inventory is often in areas that sold less quickly — which may suit you.\n- **Known rescheduled dates:** When a show is postponed and rescheduled, ticket prices on resale often soften temporarily as some buyers return their tickets or choose not to transfer.\n\nFor any show where demand is high and the artist has a track record of selling out, waiting typically means paying more, not less — or missing out entirely."
+      },
+      {
+        "type": "section",
+        "title": "Before you buy at any time",
+        "content": "Regardless of timing:\n- Confirm the final checkout total including all fees before committing\n- Verify the seat section, view, and delivery method\n- Read the refund and cancellation terms — these vary by platform and ticket type\n- Check whether the ticket is primary (face value) or resale (seller-set price)\n\nTiming the purchase well only matters if you are comparing on equal terms. A late cheap price that comes with no buyer protection or a non-transferable restriction may not represent the saving it appears to be."
+      }
+    ]
+  },
+  "/guides/primary-vs-resale-concert-tickets": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "When you search for concert tickets, you will find two fundamentally different types of listings: primary tickets sold at official face value, and resale tickets listed by fans or brokers who already own them.\n\nUnderstanding the difference matters because it affects the price you pay, the protections available to you, and what happens if the event changes. This guide explains both clearly."
+      },
+      {
+        "type": "section",
+        "title": "Primary tickets: official face-value inventory",
+        "content": "Primary tickets are sold by the venue, the promoter, or an officially authorised ticketing partner. They are priced at the face value set by the artist's team or the venue, and they represent the original release of seats for an event.\n\nCommon primary ticketing platforms include Ticketmaster, AXS, See Tickets, and Dice, among others. The artist's official website typically lists which platform is authorised for each tour.\n\n**Key characteristics of primary tickets:**\n- Priced at face value (subject to dynamic pricing on some platforms)\n- Sold during the official onsale window\n- Subject to purchase limits per customer to reduce bulk purchasing\n- Often come with protections if the event is cancelled or rescheduled\n- Platform may have paperless or restricted-transfer options to limit resale"
+      },
+      {
+        "type": "section",
+        "title": "Resale tickets: secondary market inventory",
+        "content": "Resale tickets are listed by individuals or brokers who have already purchased tickets and are selling them on. They are not sold by the venue or the artist's team, and the prices are set by the individual seller rather than by any official body.\n\nCommon resale platforms include StubHub, SeatGeek, Vivid Seats, and Twickets. Some primary platforms also have an integrated resale marketplace for the same events.\n\n**Key characteristics of resale tickets:**\n- Priced by individual sellers — often above face value for in-demand shows, occasionally at or below face value closer to the event date\n- Available after the primary onsale, including for sold-out events\n- No purchase limits from the platform's perspective\n- Buyer protection varies by platform and may not cover all scenarios\n- Delivery and transfer timing depends on when the original ticket holder chooses to transfer"
+      },
+      {
+        "type": "section",
+        "title": "How to tell which type you are looking at",
+        "content": "The platform name alone does not reliably tell you whether you are buying primary or resale. Some platforms sell both.\n\nSignals that suggest primary inventory:\n- The ticket price matches the face value listed on the artist's official ticketing page\n- The platform is named as an authorised seller on the artist's site\n- The listing appears during or shortly after the official onsale window\n\nSignals that suggest resale inventory:\n- The price is noticeably above published face value\n- The listing says 'seller' or shows a seller rating\n- The platform is not listed as an authorised partner on the artist's official site\n- The ticket becomes available after the primary onsale has closed\n\nWhen in doubt, check the artist's official site to see which platforms are listed as authorised sellers for that specific tour."
+      },
+      {
+        "type": "section",
+        "title": "Fees: how they differ between primary and resale",
+        "content": "Both primary and resale platforms charge fees on top of the listed price. The structures differ.\n\n**Primary platform fees** typically include a booking or service fee applied by the ticketing platform, and sometimes a facility fee from the venue. These are added at checkout and can range from a small percentage to more than 25% of the face value.\n\n**Resale platform fees** typically include both a seller fee (paid by the person listing the ticket) and a buyer fee (added to the buyer's checkout total). The buyer fee on resale platforms can be substantial — sometimes 20–30% on top of the already-marked-up asking price.\n\nAlways review the final checkout total on both types of platform before deciding where to buy. The all-in price is the only fair comparison."
+      },
+      {
+        "type": "section",
+        "title": "Buyer protection: what each type typically covers",
+        "content": "**Primary tickets** bought through authorised platforms generally come with protections for:\n- Event cancellations (refund to the original payment method)\n- Event postponements (option to retain tickets for the new date or request a refund, depending on the platform's policy)\n\nTransfer and resale restrictions may apply. Some primary tickets are non-transferable by design.\n\n**Resale tickets** carry varying levels of protection depending on the platform. Many reputable resale platforms offer a buyer guarantee that covers you if:\n- The ticket turns out to be invalid or duplicated\n- The seller fails to transfer the ticket before the event\n\nBuyer guarantees on resale platforms do not always cover event cancellations or postponements — those situations may direct you back to the original ticket holder or the primary platform. Read the specific terms of the resale platform's guarantee before purchasing."
+      },
+      {
+        "type": "section",
+        "title": "Transfer and delivery timing",
+        "content": "**Primary tickets** are typically delivered immediately after purchase as mobile tickets, e-tickets, or occasionally by post. Delivery timing is controlled by the platform.\n\n**Resale tickets** depend on when the original ticket holder transfers them. Some sellers transfer immediately; others wait until close to the event date. Resale platforms typically set a deadline by which tickets must be transferred, but the practical window can be narrower than it appears.\n\nIf you are travelling to attend an event or need to arrange transport in advance, confirm the expected delivery timing before purchasing on a resale platform."
+      },
+      {
+        "type": "section",
+        "title": "Which should you choose?",
+        "content": "**Choose primary when:**\n- Primary inventory is still available during the official onsale\n- You want to start at face value before resale markups are applied\n- You value the cancellation and postponement protections that come with authorised sales\n- You prefer a straightforward checkout without seller-variable factors\n\n**Consider resale when:**\n- Primary inventory has sold out and you still want to attend\n- You want a specific seating area that was not available at primary onsale\n- The event is approaching and resale prices have softened to a level you are comfortable with\n- The resale platform offers a buyer guarantee that covers the main risks\n\nIn both cases, confirm the final checkout total, verify the seat section, and read the refund and transfer terms before committing."
+      }
+    ]
   }
 }

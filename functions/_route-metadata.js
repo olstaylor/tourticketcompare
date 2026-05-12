@@ -72,25 +72,29 @@ export const GUIDE_ROUTES = {
     title: "Why Ticket Prices Vary Between Sites | TourTicketCompare",
     h1: "Why do prices vary between ticket sites?",
     description:
-      "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, delivery, and seller terms."
+      "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, delivery, and seller terms.",
+    fullContent: true
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
     h1: "How do I avoid overpaying for concert tickets?",
     description:
-      "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency."
+      "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
+    fullContent: true
   },
   "/guides/when-is-the-best-time-to-buy-concert-tickets": {
     title: "When to Buy Concert Tickets | TourTicketCompare",
     h1: "When should I buy concert tickets?",
     description:
-      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, group plans, and your risk tolerance."
+      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, group plans, and your risk tolerance.",
+    fullContent: true
   },
   "/guides/primary-vs-resale-concert-tickets": {
     title: "Primary vs Resale Concert Tickets | TourTicketCompare",
     h1: "What is the difference between official tickets and resale?",
     description:
-      "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks."
+      "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks.",
+    fullContent: true
   },
   "/guides/best-time-to-buy-concert-tickets": {
     title: "Best Time to Buy Concert Tickets | TourTicketCompare",

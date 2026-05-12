@@ -235,6 +235,12 @@ async function resolveShowLink(env, showId, provider) {
     const redirect = validateConfiguredRedirect(PROVIDERS.seatgeek, seatgeekUrl);
     if (!redirect) return { ok: false, status: "invalid_seatgeek_url" };
 
+    // SeatGeek redirects must be affiliate-tracked via Impact. No raw SeatGeek URLs.
+    const impactTrackingUrl = await createImpactTrackingUrl(env, redirect.toString());
+    if (!impactTrackingUrl) return { ok: false, status: "event_ticket_url_unavailable" };
+    const outbound = safeUrl(impactTrackingUrl);
+    if (!outbound) return { ok: false, status: "event_ticket_url_unavailable" };
+
     return {
       ok: true,
       link: {
@@ -242,20 +248,23 @@ async function resolveShowLink(env, showId, provider) {
         provider: "seatgeek",
         linkId: clean(event.id, 255),
         showId: clean(event.id, 255),
-        redirectUrl: redirect.toString(),
+        redirectUrl: outbound.toString(),
         verified: true
       },
-      redirect
+      redirect: outbound
     };
   }
 
   return { ok: false, status: "provider_not_configured" };
 }
 
-function impactConfig(env = {}) {
+function impactConfig(env = {}, provider = "ticketmaster") {
   const accountSid = clean(env?.IMPACT_ACCOUNT_SID, 255);
   const authToken = clean(env?.IMPACT_AUTH_TOKEN, 255);
-  const programId = clean(env?.IMPACT_TICKETMASTER_PROGRAM_ID, 120);
+  // SeatGeek requires IMPACT_SEATGEEK_PROGRAM_ID; Ticketmaster uses IMPACT_TICKETMASTER_PROGRAM_ID
+  const programId = provider === "seatgeek"
+    ? clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120)
+    : clean(env?.IMPACT_TICKETMASTER_PROGRAM_ID, 120);
   const apiBase = clean(env?.IMPACT_API_BASE_URL || DEFAULT_IMPACT_API_BASE, 2048).replace(/\/+$/, "");
   return {
     accountSid,
@@ -280,6 +289,10 @@ async function searchSeatGeekEvent(env, artistSlug, eventDate, venueName) {
   const config = seatgeekConfig(env);
   if (!config.configured) return null;
 
+  // Impact tracking must be configured for SeatGeek to redirect safely.
+  const impactCfg = impactConfig(env, "seatgeek");
+  if (!impactCfg.configured) return null;
+
   const dateObj = new Date(eventDate);
   if (isNaN(dateObj.getTime())) return null;
 
@@ -303,12 +316,19 @@ async function searchSeatGeekEvent(env, artistSlug, eventDate, venueName) {
     const events = Array.isArray(data.events) ? data.events : [];
 
     const eventDate_comp = dateStr;
+    // Match on date, venue, AND performer. Conservative: require at least one performer to match artist slug.
     const matched = events.find(
       (e) =>
         e.datetime_utc &&
         e.datetime_utc.startsWith(eventDate_comp) &&
         e.url &&
-        typeof e.url === "string"
+        typeof e.url === "string" &&
+        e.performers &&
+        Array.isArray(e.performers) &&
+        e.performers.some((p) => {
+          const pSlug = slugify(p.name || "");
+          return pSlug === artistSlug || slugify(p.slug || "") === artistSlug;
+        })
     );
 
     return matched ? matched.url : null;
@@ -491,6 +511,14 @@ async function handleOut(request, env, mode) {
 
   const redirect = validateConfiguredRedirect(providerConfig, link.redirectUrl);
   if (!redirect) return json({ ok: false, status: "configured_redirect_rejected" }, 400);
+
+  // SeatGeek redirects require server-side Impact tracking to be affiliate-safe. Block raw redirects.
+  if (provider === "seatgeek") {
+    const impactCfg = impactConfig(env, "seatgeek");
+    if (!impactCfg.configured) {
+      return json({ ok: false, status: "provider_not_configured" }, 400);
+    }
+  }
 
   await trackClick({ request, env, link, sourcePath, destinationHost: redirect.hostname.toLowerCase() });
 

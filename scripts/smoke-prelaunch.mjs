@@ -28,6 +28,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site.";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://utt.impactcdn.com; connect-src 'self' https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const routeMarkers = new Map([
   ["/artists", "Ticket buttons appear only when the destination has been checked"],
   ["/guides", "Compare the final checkout total after fees"],
@@ -277,6 +278,13 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   const { response, text } = await routeResponse(pathname);
   assert(response.status === 200, `${pathname} should return 200`);
 
+  // CSP: must be present on function-rendered HTML responses, allow Impact CDN, no unsafe-inline
+  const csp = response.headers.get("Content-Security-Policy");
+  assert(csp !== null, `${pathname} function response must include Content-Security-Policy`);
+  assert(csp === EXPECTED_CSP, `${pathname} CSP should match expected value, got: ${csp}`);
+  assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
+  assert(csp.includes("https://utt.impactcdn.com"), `${pathname} CSP must allow https://utt.impactcdn.com`);
+
   // Canonical URL: tag must be present and point to the exact route
   const actualCanonical = extractCanonical(text);
   assert(actualCanonical !== "", `${pathname} should include a canonical URL`);
@@ -315,6 +323,7 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
 const unknownArtist = await routeResponse("/artists/not-a-real-artist");
 assert(unknownArtist.response.status === 404, "unknown artist route should return 404");
 assert(/noindex,follow/.test(unknownArtist.text), "unknown artist route should be noindex");
+assert(unknownArtist.response.headers.get("Content-Security-Policy") === EXPECTED_CSP, "404 function response must include correct Content-Security-Policy");
 const legacy = await routeResponse("/beyonce");
 assert(legacy.response.status === 301, "known old root artist route should redirect");
 assert(legacy.response.headers.get("location") === "https://tourticketcompare.com/artists/beyonce", "known old route should target the canonical artist page");

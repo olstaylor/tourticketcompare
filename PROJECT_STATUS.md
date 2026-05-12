@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-12
+Last updated: 2026-05-12 (revised)
 
 ---
 
@@ -85,9 +85,9 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 - `/api/impact/health`, `/api/impact/products`, `/api/impact/tracking-links` — Impact integration helpers; fail safely when credentials are absent
 
 ### Data files (read-only; do not modify without a verified source)
-- `public/data/catalog.json` — 7 artists, 0 tours, 3 providers (Ticketmaster, SeatGeek, Vivid Seats), 7 verified ticket links
+- `public/data/catalog.json` — 7 artists, 0 tours, 4 providers (Ticketmaster public_enabled; SeatGeek, Vivid Seats, StubHub defined but `public_enabled: false`), 7 verified ticket links (all Ticketmaster artist-level)
 - `public/data/events.json` — 130 events (Ticketmaster-sourced; each has `ticketmaster_url` with event-specific path)
-- `public/data/events/` — per-artist partitioned event files (6 artist files)
+- `public/data/events/` — per-artist partitioned event files (6 files: ariana-grande, bad-bunny, bts, harry-styles, jay-z, morgan-wallen; beyoncé events remain in the root events.json)
 - `public/data/artists.json`, `events-index.json`, `affiliate-routes.json`, `inventory-model.json`
 
 ### Sitemap
@@ -119,11 +119,21 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 
 ## 4. Safe Next Roadmap
 
-### Immediate stabilisation
-1. **✓ Smoke test now passes** — fixed false positives on "guaranteed claim" and development domain in catalog.json. `npm run deploy:pages:safe` is now operational.
-2. **Confirm `impactDefaultProgramId`** — check whether the absent binding affects any live feature or whether the Ticketmaster-specific program ID covers all active use cases.
-3. **Clean up or provision placeholder D1 bindings** — remove or fill the `RATE_LIMIT_DB`/`CLICKS_DB` blocks in `wrangler.toml`.
-4. **Complete remaining live smoke checks** — six artist pages beyond Beyoncé, four guide pages, five trust/legal pages, old guide redirect slugs, D1 analytics write. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
+### Recommended next 5 implementation tasks (priority order)
+
+1. **Confirm `impactDefaultProgramId`** — `/api/health` reports `false`; verify whether any active affiliate feature requires this binding or whether the Ticketmaster-specific program ID is sufficient. No code changes needed if it is confirmed not required.
+2. **Clean up placeholder D1 bindings** — remove or provision the `RATE_LIMIT_DB` and `CLICKS_DB` blocks in `wrangler.toml`. Placeholder IDs break local dev if accidentally uncommented. Either delete the blocks or fill real database IDs.
+3. **Wire event-level show cards on artist pages** — `events.json` and `/api/shows` already exist; the UI surface on artist pages is not yet wired. Start with one artist (e.g. Beyoncé) to prove the pattern before rolling out.
+4. **Complete remaining live smoke checks** — run through the full page matrix (six artist pages, five guide pages, five trust/legal pages, four old-guide redirects, D1 analytics write) and record results in `docs/LIVE_PRODUCTION_VERIFICATION.md`.
+5. **Add one verified SeatGeek or Vivid Seats affiliate link** — add a single artist-level destination URL (after confirming the redirect behaviour in `/api/out`), prove Impact attribution works, then expand. Do not add without a verified destination URL.
+
+### Immediate stabilisation (done)
+- **✓ Smoke test now passes** — fixed false positives on "guaranteed claim" and development domain. `npm run deploy:pages:safe` is operational as of 2026-05-12.
+
+### Next confirmation needed
+- **Confirm `impactDefaultProgramId`** — check whether the absent binding affects any live feature or whether the Ticketmaster-specific program ID covers all active use cases.
+- **Clean up or provision placeholder D1 bindings** — remove or fill the `RATE_LIMIT_DB`/`CLICKS_DB` blocks in `wrangler.toml`.
+- **Complete remaining live smoke checks** — six artist pages beyond Beyoncé, four guide pages, five trust/legal pages, old guide redirect slugs, D1 analytics write. See `docs/LIVE_PRODUCTION_VERIFICATION.md`.
 
 ### MVP product polish
 - Add event-level show cards to artist pages (events data already exists in `events.json` and `/api/shows`; UI surface not yet wired up on artist pages)
@@ -161,7 +171,7 @@ node --check functions/api/out.js
 # Event data validation
 python3 scripts/validate-events.py --for-production
 
-# Smoke test suite (currently fails due to false positive — see Known Risks)
+# Smoke test suite (passes as of 2026-05-12; false positives fixed)
 node scripts/smoke-prelaunch.mjs
 
 # Whitespace/conflict markers

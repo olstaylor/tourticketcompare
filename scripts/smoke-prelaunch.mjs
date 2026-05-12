@@ -320,6 +320,40 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   }
 }
 
+// JSON-LD: verify schema exists, parses, and contains correct types per route
+function extractJsonLd(html) {
+  const match = html.match(/<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/i);
+  if (!match) return null;
+  try { return JSON.parse(match[1]); } catch { return null; }
+}
+
+const jsonLdRoutes = [
+  { pathname: "/", expectTypes: ["Organization", "WebSite"], noTypes: ["BreadcrumbList", "FAQPage", "Article"] },
+  { pathname: "/artists", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article"] },
+  { pathname: "/guides", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article"] },
+  { pathname: "/how-it-works", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article"] },
+  { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
+  { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article"], noTypes: ["FAQPage", "Event", "Product", "Offer", "AggregateRating"] }
+];
+for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
+  const { text } = await routeResponse(pathname);
+  const ld = extractJsonLd(text);
+  assert(ld !== null, `${pathname} must include a parseable application/ld+json script tag`);
+  assert(ld["@context"] === "https://schema.org", `${pathname} JSON-LD must use @context https://schema.org`);
+  assert(Array.isArray(ld["@graph"]), `${pathname} JSON-LD must use @graph array`);
+  const types = ld["@graph"].map(node => node["@type"]);
+  for (const t of expectTypes) {
+    assert(types.includes(t), `${pathname} JSON-LD @graph must include @type "${t}", found: ${types.join(", ")}`);
+  }
+  for (const t of noTypes) {
+    assert(!types.includes(t), `${pathname} JSON-LD @graph must NOT include @type "${t}"`);
+  }
+  const forbidden = ["Event", "Product", "Offer", "AggregateRating", "Review"];
+  for (const t of forbidden) {
+    assert(!types.includes(t), `${pathname} JSON-LD must not include forbidden @type "${t}"`);
+  }
+}
+
 const unknownArtist = await routeResponse("/artists/not-a-real-artist");
 assert(unknownArtist.response.status === 404, "unknown artist route should return 404");
 assert(/noindex,follow/.test(unknownArtist.text), "unknown artist route should be noindex");

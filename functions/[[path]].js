@@ -207,8 +207,9 @@ function faqSchema(route) {
         ]
       : [
           ["Is TourTicketCompare official?", "No. TourTicketCompare is independent and unofficial."],
-          ["Why are some providers hidden?", "Ticket buttons are hidden until the destination can be verified."],
-          ["Can final prices and fees change?", "Yes. External ticketing sites set their own prices, fees, availability, and checkout terms."]
+          ["Does the site sell tickets directly?", "No. Ticket buying happens on the external provider site."],
+          ["Why are some ticket buttons missing?", "Ticket buttons are hidden until the destination can be verified."],
+          ["Can final prices change?", "Yes. External ticketing sites set their own prices, fees, availability, and checkout terms."]
         ];
 
   return {
@@ -263,7 +264,7 @@ function routeSchema(route, origin) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
   if (route.type === "artist") graph.push(artistSchema(route, origin), faqSchema(route));
-  if (route.type === "guide") graph.push(articleSchema(route, origin), faqSchema(route));
+  if (route.type === "guide") graph.push(articleSchema(route, origin));
   if (route.faq) graph.push(faqSchema(route));
   return { "@context": "https://schema.org", "@graph": graph };
 }

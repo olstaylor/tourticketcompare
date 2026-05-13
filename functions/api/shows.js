@@ -426,6 +426,9 @@ function hasImpactCredentials(env) {
   return Boolean(String(env?.IMPACT_ACCOUNT_SID || "").trim() && String(env?.IMPACT_AUTH_TOKEN || "").trim());
 }
 
+// Public SeatGeek CTA availability is tied to Impact affiliate-link creation,
+// not to SeatGeek API discovery credentials. SeatGeek API credentials are only
+// for debug/future proposal tooling and should not gate approved event URLs.
 function hasSeatGeekProviderConfig(env = {}) {
   return Boolean(
     String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim() &&

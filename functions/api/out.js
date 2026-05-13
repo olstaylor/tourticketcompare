@@ -192,6 +192,9 @@ function validateTicketmasterEventUrl(event, providerConfig) {
   return redirect;
 }
 
+// SeatGeek event URLs must be pre-approved in event data. The SeatGeek API is
+// intentionally not used in /api/out, so click-time redirects never run broad
+// SeatGeek search or auto-publish candidate matches.
 function validateSeatGeekEventUrl(event, providerConfig) {
   return validateConfiguredRedirect(providerConfig, event?.seatgeek_url);
 }
@@ -249,6 +252,8 @@ function impactConfig(env = {}, provider = "ticketmaster") {
   const apiBase = clean(env?.IMPACT_API_BASE_URL || DEFAULT_IMPACT_API_BASE, 2048).replace(/\/+$/, "");
 
   if (normalizedProvider === "seatgeek") {
+    // SeatGeek redirects use only SeatGeek-specific Impact credentials to turn
+    // the already-approved SeatGeek destination URL into an affiliate tracking link.
     const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
     const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
     const programId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
@@ -402,6 +407,9 @@ async function handleOut(request, env, mode) {
   if (!providerConfig) return json({ ok: false, status: "unknown_provider" }, 400);
 
   if (showId) {
+    // showId mode is intentionally controlled: resolve the stored event URL first,
+    // then optionally wrap it with Impact. Do not use user deep links or provider
+    // discovery/search fallbacks for an event click.
     const resolved = await resolveShowLink(env, showId, provider);
     if (!resolved.ok) {
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);

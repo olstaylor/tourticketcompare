@@ -392,6 +392,16 @@ const showsJson = await showsResponse.json();
 assert(Array.isArray(showsJson.shows), "/api/shows should return a shows array");
 assert(showsJson.mockMode === false && showsJson.allowMockPrices === false, "/api/shows should keep mock prices disabled");
 assert(showsJson.providerAvailability?.seatgeek === false, "/api/shows should expose only a safe false SeatGeek availability flag without credentials");
+const seatGeekApiOnlyShowsResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
+  env: {
+    ...env,
+    SEATGEEK_CLIENT_ID: "sg-client-id",
+    SEATGEEK_CLIENT_SECRET: "sg-client-secret"
+  }
+});
+const seatGeekApiOnlyShowsJson = await seatGeekApiOnlyShowsResponse.json();
+assert(seatGeekApiOnlyShowsJson.providerAvailability?.seatgeek === false, "/api/shows SeatGeek availability should not be enabled by SeatGeek API discovery credentials alone");
 const morganShows = showsJson.shows.filter((show) => show.artist_slug === "morgan-wallen");
 assert(morganShows.length === 16, "/api/shows should expose the sixteen current/upcoming verified Morgan Wallen events");
 for (const show of morganShows) {
@@ -622,6 +632,19 @@ outResponse = await out(`/api/out?showId=${encodeURIComponent(controlledSeatGeek
 assert(outResponse.status === 400, "SeatGeek showId provider should fail safely without Impact tracking configured");
 const unconfiguredSeatGeekShowJson = await outResponse.json();
 assert(unconfiguredSeatGeekShowJson.status === "provider_not_configured", "controlled SeatGeek showId should report provider_not_configured when SeatGeek Impact credentials are missing");
+outResponse = await out(
+  `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
+  "GET",
+  null,
+  {
+    ...env,
+    SEATGEEK_CLIENT_ID: "sg-client-id",
+    SEATGEEK_CLIENT_SECRET: "sg-client-secret"
+  }
+);
+assert(outResponse.status === 400, "SeatGeek API discovery credentials alone should not enable controlled SeatGeek redirects");
+const apiOnlySeatGeekShowJson = await outResponse.json();
+assert(apiOnlySeatGeekShowJson.status === "provider_not_configured", "SeatGeek showId redirects should require SeatGeek Impact config, not SeatGeek API credentials");
 
 const seatGeekTrackingUrl = "https://seatgeek.com/impact-tracked/morgan-wallen";
 try {

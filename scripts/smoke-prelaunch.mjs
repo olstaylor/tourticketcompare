@@ -742,6 +742,34 @@ try {
   assert(outResponse.status === 302, "SeatGeek should redirect when shared Impact credentials and SeatGeek program ID succeed");
   assert(outResponse.headers.get("location") === seatGeekTrackingUrl, "SeatGeek shared Impact success should redirect to the tracking URL");
 
+  const campaignIdSeatGeekImpactEnv = {
+    ...env,
+    IMPACT_ACCOUNT_SID: "shared-account",
+    IMPACT_AUTH_TOKEN: "shared-token",
+    IMPACT_SEATGEEK_PROGRAM_ID: "legacy-sg-program",
+    IMPACT_SEATGEEK_CAMPAIGN_ID: "campaign-sg-program"
+  };
+  let campaignIdSeatGeekImpactCalled = false;
+  globalThis.fetch = async (request, options = {}) => {
+    const requestUrl = new URL(String(request.url || request));
+    campaignIdSeatGeekImpactCalled = true;
+    assert(requestUrl.pathname.includes("/Mediapartners/shared-account/Programs/campaign-sg-program/TrackingLinks"), "SeatGeek CampaignId env var should take precedence over legacy ProgramId env var");
+    assert(!requestUrl.pathname.includes("legacy-sg-program"), "SeatGeek CampaignId precedence should not use the legacy ProgramId when both are present");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("shared-account:shared-token").toString("base64")}`, "SeatGeek CampaignId precedence should preserve shared basic auth");
+    return new Response(JSON.stringify({ TrackingURL: seatGeekTrackingUrl }), {
+      status: 200,
+      headers: { "content-type": "application/json" }
+    });
+  };
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
+    "GET",
+    null,
+    campaignIdSeatGeekImpactEnv
+  );
+  assert(campaignIdSeatGeekImpactCalled, "SeatGeek should call Impact when the CampaignId alias is configured");
+  assert(outResponse.status === 302, "SeatGeek should redirect when the CampaignId alias succeeds");
+
   const configuredSeatGeekImpactEnv = {
     ...env,
     IMPACT_ACCOUNT_SID: "legacy-account",
@@ -782,13 +810,37 @@ try {
   assert(seatGeekImpactCalled, "SeatGeek unavailable path should still call SeatGeek Impact tracking");
   assert(outResponse.status === 400, "SeatGeek Impact failure should fail safely");
   let seatGeekImpactJson = await outResponse.json();
-  assert(seatGeekImpactJson.status === "impact_request_failed", "SeatGeek Impact non-2xx failure should report impact_request_failed");
+  assert(seatGeekImpactJson.status === "impact_program_not_accessible", "SeatGeek Impact 403 failure should report impact_program_not_accessible");
   assert(seatGeekImpactJson.impactStatusCode === 403, "SeatGeek Impact non-2xx diagnostics should include the safe status code");
   assert(seatGeekImpactJson.provider === "seatgeek", "SeatGeek Impact diagnostics should include provider");
   assert(seatGeekImpactJson.hasDestination === true, "SeatGeek Impact diagnostics should confirm a stored destination was available");
   assert(seatGeekImpactJson.destinationHost === "seatgeek.com", "SeatGeek Impact diagnostics should include only the safe destination host");
   assert(seatGeekImpactJson.impactConfigPresent === true, "SeatGeek Impact diagnostics should confirm config presence without exposing secrets");
+  assert(seatGeekImpactJson.impactEndpoint?.endpointPathShape === "/Mediapartners/{AccountSID}/Programs/{ProgramId}/TrackingLinks", "SeatGeek Impact diagnostics should include the safe endpoint path shape");
+  assert(seatGeekImpactJson.impactEndpoint?.parameterLocation === "query_string", "SeatGeek Impact diagnostics should show DeepLink is sent in the query string");
   assert(!JSON.stringify(seatGeekImpactJson).includes("sg-token") && !JSON.stringify(seatGeekImpactJson).includes("sg-account"), "SeatGeek Impact diagnostics must not expose secrets or account IDs");
+
+  seatGeekImpactCalled = false;
+  globalThis.fetch = async (request, options = {}) => {
+    assertSeatGeekImpactRequest(request, options);
+    return new Response(JSON.stringify({ Message: "not found" }), {
+      status: 404,
+      headers: { "content-type": "application/json" }
+    });
+  };
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
+    "GET",
+    null,
+    configuredSeatGeekImpactEnv
+  );
+  assert(seatGeekImpactCalled, "SeatGeek 404 path should still call SeatGeek Impact tracking");
+  assert(outResponse.status === 400, "SeatGeek Impact 404 should fail safely");
+  seatGeekImpactJson = await outResponse.json();
+  assert(seatGeekImpactJson.status === "impact_tracking_endpoint_not_found", "SeatGeek Impact 404 should report impact_tracking_endpoint_not_found");
+  assert(seatGeekImpactJson.impactStatusCode === 404, "SeatGeek Impact 404 diagnostics should include the safe status code");
+  assert(seatGeekImpactJson.impactResponseMessage === "not found", "SeatGeek Impact 404 diagnostics may include a sanitized safe message");
+  assert(!JSON.stringify(seatGeekImpactJson).includes("sg-token") && !JSON.stringify(seatGeekImpactJson).includes("sg-account"), "SeatGeek Impact 404 diagnostics must not expose secrets or account IDs");
 
   seatGeekImpactCalled = false;
   globalThis.fetch = async (request, options = {}) => {
@@ -880,6 +932,46 @@ assert(debugResponse.status === 200, "/api/debug-seatgeek with valid token shoul
 const authdDebugJson = await debugResponse.json();
 assert(authdDebugJson.ok === true && authdDebugJson.event, "/api/debug-seatgeek authorised should return event details");
 assert(authdDebugJson.config.seatgeek_configured === false, "/api/debug-seatgeek authorised should show SeatGeek config status");
+
+try {
+  const debugImpactCalls = [];
+  globalThis.fetch = async (request, options = {}) => {
+    const requestUrl = new URL(String(request.url || request));
+    debugImpactCalls.push({ pathname: requestUrl.pathname, options });
+    assert(requestUrl.hostname === "api.impact.com", "/api/debug-seatgeek impact diagnostics should only call Impact");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("sg-account:sg-token").toString("base64")}`, "/api/debug-seatgeek impact diagnostics should use server-side auth without returning it");
+    if (requestUrl.pathname.includes("/Campaigns/sg-program")) {
+      return new Response(JSON.stringify({
+        CampaignId: "sg-program",
+        ContractStatus: "Active",
+        AllowsDeeplinking: "true",
+        TrackingLink: "https://seatgeek.com/c/partner/ad/program",
+        DeeplinkDomains: { DeeplinkDomain: "seatgeek.com" }
+      }), { status: 200, headers: { "content-type": "application/json" } });
+    }
+    assert(requestUrl.pathname.includes("/Programs/sg-program/TrackingLinks"), "/api/debug-seatgeek impact diagnostics should use the create tracking link endpoint shape");
+    return new Response(JSON.stringify({ TrackingURL: seatGeekTrackingUrl }), {
+      status: 200,
+      headers: { "content-type": "application/json" }
+    });
+  };
+  debugResponse = await debugSeatgeek(`/api/debug-seatgeek?eventId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&impact=1&token=valid-debug-token`, {
+    ...env,
+    DEBUG_API_TOKEN: "valid-debug-token",
+    IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
+    IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token",
+    IMPACT_SEATGEEK_PROGRAM_ID: "sg-program"
+  });
+  assert(debugResponse.status === 200, "/api/debug-seatgeek impact diagnostics should return 200 with valid token");
+  const debugImpactJson = await debugResponse.json();
+  assert(debugImpactJson.impact_diagnostics?.programLookup?.status === "impact_program_found", "/api/debug-seatgeek should verify whether the SeatGeek program exists");
+  assert(debugImpactJson.impact_diagnostics?.tracking?.status === "impact_tracking_link_created", "/api/debug-seatgeek should verify tracking link creation capability");
+  assert(debugImpactJson.impact_diagnostics?.tracking?.endpoint?.endpointPathShape === "/Mediapartners/{AccountSID}/Programs/{ProgramId}/TrackingLinks", "/api/debug-seatgeek should expose the safe Impact endpoint path shape");
+  assert(debugImpactCalls.length === 2, "/api/debug-seatgeek impact diagnostics should perform one program lookup and one tracking-link attempt");
+  assert(!JSON.stringify(debugImpactJson).includes("sg-token") && !JSON.stringify(debugImpactJson).includes("sg-account"), "/api/debug-seatgeek impact diagnostics must not expose secrets or account IDs");
+} finally {
+  globalThis.fetch = originalFetch;
+}
 
 // Verify SeatGeek CTA visibility rules
 // Rule 1: SeatGeek CTA requires SeatGeek Impact config + an event-level verified SeatGeek URL.

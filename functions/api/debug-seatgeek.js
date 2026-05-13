@@ -1,3 +1,5 @@
+import { createImpactTrackingUrlResult, impactConfig as outImpactConfig, inspectImpactProgram, safeImpactDiagnosticConfig } from "./out.js";
+
 // Debug endpoint: Test SeatGeek event matching without public redirect.
 // Protected by DEBUG_API_TOKEN environment variable.
 // Usage: GET /api/debug-seatgeek?eventId=<id>&token=<token>
@@ -42,14 +44,14 @@ function seatgeekConfig(env = {}) {
 }
 
 function impactConfig(env = {}) {
-  const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
-  const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
-  const programId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
+  const cfg = outImpactConfig(env, "seatgeek");
   return {
-    accountSidPresent: Boolean(accountSid),
-    authTokenPresent: Boolean(authToken),
-    programIdPresent: Boolean(programId),
-    configured: Boolean(accountSid && authToken && programId)
+    accountSidPresent: Boolean(cfg.accountSid),
+    authTokenPresent: Boolean(cfg.authToken),
+    programIdPresent: Boolean(cfg.programId),
+    campaignIdPresent: Boolean(cfg.campaignId),
+    programIdSource: cfg.programIdSource || "",
+    configured: Boolean(cfg.configured)
   };
 }
 
@@ -141,6 +143,44 @@ async function searchSeatGeekCandidates(env, artistSlug, eventDate, venueName) {
   }
 }
 
+async function runImpactDiagnostics(env, event) {
+  const destination = clean(event?.seatgeek_url, 2048);
+  const cfg = outImpactConfig(env, "seatgeek");
+  const safeConfig = safeImpactDiagnosticConfig(cfg);
+  if (!destination) {
+    return {
+      ok: false,
+      status: "event_ticket_url_unavailable",
+      config: safeConfig,
+      note: "No stored SeatGeek destination is present for this event."
+    };
+  }
+
+  const programLookup = await inspectImpactProgram(env, "seatgeek");
+  const trackingAttempt = await createImpactTrackingUrlResult(env, destination, "seatgeek");
+  const tracking = {
+    ok: trackingAttempt.ok,
+    status: trackingAttempt.ok ? "impact_tracking_link_created" : trackingAttempt.status,
+    impactStatusCode: trackingAttempt.impactStatusCode || null,
+    endpoint: trackingAttempt.endpointDiagnostics || null,
+    hasTrackingUrl: Boolean(trackingAttempt.trackingUrl),
+    trackingUrlHost: trackingAttempt.trackingUrl ? new URL(trackingAttempt.trackingUrl).hostname.toLowerCase() : "",
+    impactResponseFieldNames: trackingAttempt.impactResponseFieldNames || [],
+    impactResponseMessage: trackingAttempt.impactResponseMessage || ""
+  };
+
+  return {
+    ok: programLookup.ok && trackingAttempt.ok,
+    destination: {
+      present: true,
+      host: new URL(destination).hostname.toLowerCase()
+    },
+    config: safeConfig,
+    programLookup,
+    tracking
+  };
+}
+
 export async function onRequestGet({ request, env }) {
   const url = new URL(request.url);
   const token = clean(url.searchParams.get("token"), 255);
@@ -151,6 +191,7 @@ export async function onRequestGet({ request, env }) {
   }
 
   const eventId = clean(url.searchParams.get("eventId"), 255);
+  const shouldRunImpactDiagnostics = clean(url.searchParams.get("impact"), 20) === "1";
 
   if (!eventId) {
     return json(
@@ -182,6 +223,7 @@ export async function onRequestGet({ request, env }) {
     event.datetime_iso,
     event.venue
   );
+  const impactDiagnostics = shouldRunImpactDiagnostics ? await runImpactDiagnostics(env, event) : null;
 
   return json({
     ok: true,
@@ -199,10 +241,11 @@ export async function onRequestGet({ request, env }) {
       impact_seatgeek_configured: impactCfg.configured
     },
     seatgeek_search: candidates,
+    impact_diagnostics: impactDiagnostics,
     affiliate_tracking_capable: impactCfg.configured && candidates.matched ? true : false,
     next_steps: [
       !sgConfig.configured ? "Set SEATGEEK_CLIENT_ID and SEATGEEK_CLIENT_SECRET" : null,
-      !impactCfg.configured ? "Set IMPACT_ACCOUNT_SID, IMPACT_AUTH_TOKEN, and IMPACT_SEATGEEK_PROGRAM_ID for affiliate tracking (or SeatGeek-specific account/token overrides)" : null,
+      !impactCfg.configured ? "Set IMPACT_ACCOUNT_SID, IMPACT_AUTH_TOKEN, and IMPACT_SEATGEEK_CAMPAIGN_ID for affiliate tracking (IMPACT_SEATGEEK_PROGRAM_ID remains supported as a legacy fallback, with optional SeatGeek-specific account/token overrides)" : null,
       candidates.matched
         ? `SeatGeek URL ready: ${candidates.matched.url}`
         : "No confident SeatGeek match found"

@@ -291,19 +291,28 @@ function impactConfig(env = {}, provider = "ticketmaster") {
   const apiBase = clean(env?.IMPACT_API_BASE_URL || DEFAULT_IMPACT_API_BASE, 2048).replace(/\/+$/, "");
 
   if (normalizedProvider === "seatgeek") {
-    // SeatGeek redirects use SeatGeek-specific program configuration with the
-    // shared Impact account credentials unless SeatGeek-specific credentials are
-    // explicitly provided. The program ID still selects the SeatGeek advertiser.
+    // Impact's publisher API calls the create-tracking-link path parameter
+    // ProgramId, while the joined-program listing and related endpoints expose
+    // the same identifier as CampaignId. Prefer the explicit CampaignId alias
+    // for SeatGeek, but keep IMPACT_SEATGEEK_PROGRAM_ID as a backwards-
+    // compatible fallback for the current Cloudflare Pages configuration.
     const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
     const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
-    const programId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
+    const campaignId = clean(env?.IMPACT_SEATGEEK_CAMPAIGN_ID, 120);
+    const legacyProgramId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
+    const programId = campaignId || legacyProgramId;
     return {
       accountSid,
       authToken,
       programId,
+      campaignId,
+      legacyProgramId,
+      programIdSource: campaignId ? "IMPACT_SEATGEEK_CAMPAIGN_ID" : legacyProgramId ? "IMPACT_SEATGEEK_PROGRAM_ID" : "",
       apiBase,
+      provider: normalizedProvider,
       hasCredentials: Boolean(accountSid && authToken),
       hasProgramId: Boolean(programId),
+      hasCampaignId: Boolean(campaignId),
       configured: Boolean(accountSid && authToken && programId)
     };
   }
@@ -315,11 +324,176 @@ function impactConfig(env = {}, provider = "ticketmaster") {
     accountSid,
     authToken,
     programId,
+    campaignId: "",
+    legacyProgramId: programId,
+    programIdSource: programId ? "IMPACT_TICKETMASTER_PROGRAM_ID" : "",
     apiBase,
+    provider: normalizedProvider,
     hasCredentials: Boolean(accountSid && authToken),
     hasProgramId: Boolean(programId),
+    hasCampaignId: false,
     configured: Boolean(accountSid && authToken && programId)
   };
+}
+
+function impactEndpointDiagnostics(config, deepLink) {
+  const parsedDeepLink = safeUrl(deepLink);
+  return {
+    endpointPathShape: "/Mediapartners/{AccountSID}/Programs/{ProgramId}/TrackingLinks",
+    endpointResource: "Programs",
+    identifierType: "ProgramId",
+    identifierConfiguredAs: config.programIdSource || "",
+    requestMethod: "POST",
+    parameterLocation: "query_string",
+    requestFields: ["Type", "DeepLink"],
+    trackingLinkType: "Regular",
+    deepLinkHost: parsedDeepLink ? parsedDeepLink.hostname.toLowerCase() : "",
+    deepLinkEncoding: "URLSearchParams"
+  };
+}
+
+function safeImpactDiagnosticConfig(config) {
+  return {
+    provider: config.provider || "",
+    hasCredentials: Boolean(config.hasCredentials),
+    hasProgramId: Boolean(config.hasProgramId),
+    hasCampaignId: Boolean(config.hasCampaignId),
+    programIdSource: config.programIdSource || "",
+    configured: Boolean(config.configured)
+  };
+}
+
+function impactRequestStatus(statusCode, provider = "ticketmaster") {
+  if (Number(statusCode) === 404 && providerKey(provider) === "seatgeek") {
+    return "impact_tracking_endpoint_not_found";
+  }
+  if (Number(statusCode) === 403 && providerKey(provider) === "seatgeek") {
+    return "impact_program_not_accessible";
+  }
+  return "impact_request_failed";
+}
+
+function safeImpactMessageFromPayload(payload, secrets = []) {
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)) return "";
+  const raw = clean(payload.Message || payload.message || payload.Error || payload.error || payload.Status || payload.status, 180);
+  if (!raw || !/^[\w\s.,:;!?()\-/]+$/.test(raw)) return "";
+  const lower = raw.toLowerCase();
+  if (secrets.some((secret) => secret && lower.includes(String(secret).toLowerCase()))) return "";
+  return raw;
+}
+
+async function safeImpactResponseDiagnostics(response, config, deepLink) {
+  const diagnostics = {};
+  let payload = null;
+  try {
+    const contentType = clean(response.headers.get("content-type"), 120).toLowerCase();
+    if (contentType.includes("application/json")) {
+      payload = await response.clone().json();
+    }
+  } catch (error) {
+    payload = null;
+  }
+
+  const fieldNames = safeFieldNames(payload);
+  if (fieldNames.length > 0) diagnostics.impactResponseFieldNames = fieldNames;
+  const safeMessage = safeImpactMessageFromPayload(payload, [
+    config.accountSid,
+    config.authToken,
+    config.programId,
+    deepLink
+  ]);
+  if (safeMessage) diagnostics.impactResponseMessage = safeMessage;
+  return diagnostics;
+}
+
+function buildImpactTrackingEndpoint(config, deepLink) {
+  const verifiedDeepLink = safeUrl(deepLink);
+  const apiBase = safeUrl(config.apiBase);
+  if (!verifiedDeepLink || !apiBase) return null;
+
+  const params = new URLSearchParams({
+    Type: "Regular",
+    DeepLink: verifiedDeepLink.toString()
+  });
+  return `${apiBase.toString().replace(/\/+$/, "")}/Mediapartners/${encodeURIComponent(
+    config.accountSid
+  )}/Programs/${encodeURIComponent(config.programId)}/TrackingLinks?${params.toString()}`;
+}
+
+function buildImpactCampaignEndpoint(config) {
+  const apiBase = safeUrl(config.apiBase);
+  if (!apiBase || !config.accountSid || !config.programId) return null;
+  return `${apiBase.toString().replace(/\/+$/, "")}/Mediapartners/${encodeURIComponent(
+    config.accountSid
+  )}/Campaigns/${encodeURIComponent(config.programId)}`;
+}
+
+function impactProgramStatus(statusCode) {
+  if (Number(statusCode) === 404) return "impact_program_not_found";
+  if (Number(statusCode) === 403) return "impact_program_not_accessible";
+  return "impact_program_lookup_failed";
+}
+
+async function inspectImpactProgram(env, provider = "seatgeek") {
+  const config = impactConfig(env, provider);
+  if (!config.hasCredentials) {
+    return { ok: false, status: "impact_missing_credentials", config: safeImpactDiagnosticConfig(config) };
+  }
+  if (!config.hasProgramId) {
+    return { ok: false, status: "impact_missing_program_id", config: safeImpactDiagnosticConfig(config) };
+  }
+
+  const endpoint = buildImpactCampaignEndpoint(config);
+  if (!endpoint) {
+    return { ok: false, status: "impact_tracking_url_failed_safety_check", config: safeImpactDiagnosticConfig(config) };
+  }
+
+  try {
+    const response = await fetch(endpoint, {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+        Authorization: basicAuthHeader(config.accountSid, config.authToken)
+      }
+    });
+    if (!response.ok) {
+      return {
+        ok: false,
+        status: impactProgramStatus(response.status),
+        impactStatusCode: response.status,
+        config: safeImpactDiagnosticConfig(config)
+      };
+    }
+    let payload = null;
+    try {
+      payload = await response.json();
+    } catch (error) {
+      return {
+        ok: false,
+        status: "impact_response_parse_failed",
+        impactStatusCode: response.status,
+        config: safeImpactDiagnosticConfig(config)
+      };
+    }
+    const domains = payload?.DeeplinkDomains?.DeeplinkDomain || payload?.DeeplinkDomains || [];
+    const domainList = Array.isArray(domains) ? domains : [domains].filter(Boolean);
+    return {
+      ok: true,
+      status: "impact_program_found",
+      impactStatusCode: response.status,
+      config: safeImpactDiagnosticConfig(config),
+      program: {
+        campaignIdPresent: Boolean(payload?.CampaignId),
+        contractStatus: clean(payload?.ContractStatus, 60),
+        allowsDeeplinking: String(payload?.AllowsDeeplinking || "").toLowerCase() === "true",
+        trackingLinkPresent: Boolean(clean(payload?.TrackingLink, 2048)),
+        deeplinkDomainsIncludeDestinationHost: domainList.some((domain) => String(domain).toLowerCase() === "seatgeek.com")
+      },
+      impactResponseFieldNames: safeFieldNames(payload)
+    };
+  } catch (error) {
+    return { ok: false, status: "impact_program_lookup_failed", config: safeImpactDiagnosticConfig(config) };
+  }
 }
 
 function basicAuthHeader(accountSid, authToken) {
@@ -353,13 +527,17 @@ function extractImpactTrackingUrl(payload) {
 }
 
 async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketmaster") {
-  const config = impactConfig(env, provider);
+  const normalizedProvider = providerKey(provider || "ticketmaster");
+  const config = impactConfig(env, normalizedProvider);
+  const endpointDiagnostics = impactEndpointDiagnostics(config, deepLink);
   if (!config.hasCredentials) {
     return {
       ok: false,
       status: "impact_missing_credentials",
       hasProgramId: config.hasProgramId,
-      impactConfigPresent: false
+      hasCampaignId: config.hasCampaignId,
+      impactConfigPresent: false,
+      endpointDiagnostics
     };
   }
   if (!config.hasProgramId) {
@@ -367,28 +545,23 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
       ok: false,
       status: "impact_missing_program_id",
       hasProgramId: false,
-      impactConfigPresent: false
+      hasCampaignId: config.hasCampaignId,
+      impactConfigPresent: false,
+      endpointDiagnostics
     };
   }
 
-  const verifiedDeepLink = safeUrl(deepLink);
-  const apiBase = safeUrl(config.apiBase);
-  if (!verifiedDeepLink || !apiBase) {
+  const endpoint = buildImpactTrackingEndpoint(config, deepLink);
+  if (!endpoint) {
     return {
       ok: false,
       status: "impact_tracking_url_failed_safety_check",
       hasProgramId: config.hasProgramId,
-      impactConfigPresent: config.configured
+      hasCampaignId: config.hasCampaignId,
+      impactConfigPresent: config.configured,
+      endpointDiagnostics
     };
   }
-
-  const params = new URLSearchParams({
-    Type: "Regular",
-    DeepLink: verifiedDeepLink.toString()
-  });
-  const endpoint = `${apiBase.toString().replace(/\/+$/, "")}/Mediapartners/${encodeURIComponent(
-    config.accountSid
-  )}/Programs/${encodeURIComponent(config.programId)}/TrackingLinks?${params.toString()}`;
 
   try {
     const response = await fetch(endpoint, {
@@ -401,10 +574,13 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
     if (!response.ok) {
       return {
         ok: false,
-        status: "impact_request_failed",
+        status: impactRequestStatus(response.status, normalizedProvider),
         hasProgramId: config.hasProgramId,
+        hasCampaignId: config.hasCampaignId,
         impactConfigPresent: config.configured,
-        impactStatusCode: response.status
+        impactStatusCode: response.status,
+        endpointDiagnostics,
+        ...(await safeImpactResponseDiagnostics(response, config, deepLink))
       };
     }
     let payload = null;
@@ -415,8 +591,10 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
         ok: false,
         status: "impact_response_parse_failed",
         hasProgramId: config.hasProgramId,
+        hasCampaignId: config.hasCampaignId,
         impactConfigPresent: config.configured,
-        impactStatusCode: response.status
+        impactStatusCode: response.status,
+        endpointDiagnostics
       };
     }
     const impactResponseFieldNames = safeFieldNames(payload);
@@ -426,9 +604,11 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
         ok: false,
         status: "impact_response_missing_tracking_url",
         hasProgramId: config.hasProgramId,
+        hasCampaignId: config.hasCampaignId,
         impactConfigPresent: config.configured,
         impactStatusCode: response.status,
-        impactResponseFieldNames
+        impactResponseFieldNames,
+        endpointDiagnostics
       };
     }
     const trackingUrl = validateImpactTrackingUrl(rawTrackingUrl);
@@ -437,18 +617,27 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
         ok: false,
         status: "impact_tracking_url_failed_safety_check",
         hasProgramId: config.hasProgramId,
+        hasCampaignId: config.hasCampaignId,
         impactConfigPresent: config.configured,
         impactStatusCode: response.status,
-        impactResponseFieldNames
+        impactResponseFieldNames,
+        endpointDiagnostics
       };
     }
-    return { ok: true, trackingUrl: trackingUrl.toString() };
+    return {
+      ok: true,
+      trackingUrl: trackingUrl.toString(),
+      endpointDiagnostics,
+      impactStatusCode: response.status
+    };
   } catch (error) {
     return {
       ok: false,
       status: "impact_request_failed",
       hasProgramId: config.hasProgramId,
-      impactConfigPresent: config.configured
+      hasCampaignId: config.hasCampaignId,
+      impactConfigPresent: config.configured,
+      endpointDiagnostics
     };
   }
 }
@@ -539,6 +728,8 @@ function seatGeekImpactFailurePayload(resolved, result, config) {
     destinationHost: resolved.redirect.hostname.toLowerCase(),
     impactConfigPresent: Boolean(config.configured),
     hasProgramId: Boolean(result.hasProgramId ?? config.hasProgramId),
+    hasCampaignId: Boolean(result.hasCampaignId ?? config.hasCampaignId),
+    programIdSource: config.programIdSource || "",
     outVersion: OUT_VERSION_HEADER
   };
 
@@ -547,6 +738,12 @@ function seatGeekImpactFailurePayload(resolved, result, config) {
   }
   if (Array.isArray(result.impactResponseFieldNames)) {
     payload.impactResponseFieldNames = result.impactResponseFieldNames;
+  }
+  if (result.impactResponseMessage) {
+    payload.impactResponseMessage = result.impactResponseMessage;
+  }
+  if (result.endpointDiagnostics) {
+    payload.impactEndpoint = result.endpointDiagnostics;
   }
 
   return payload;
@@ -679,6 +876,14 @@ async function handleOut(request, env, mode) {
     artistSlug
   });
 }
+
+export {
+  createImpactTrackingUrlResult,
+  impactConfig,
+  impactEndpointDiagnostics,
+  inspectImpactProgram,
+  safeImpactDiagnosticConfig
+};
 
 export async function onRequestGet({ request, env }) {
   return handleOut(request, env, "redirect");

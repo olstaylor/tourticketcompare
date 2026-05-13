@@ -431,8 +431,8 @@ function hasImpactCredentials(env) {
 // for debug/future proposal tooling and should not gate approved event URLs.
 function hasSeatGeekProviderConfig(env = {}) {
   return Boolean(
-    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim() &&
-    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN || "").trim() &&
     String(env?.IMPACT_SEATGEEK_PROGRAM_ID || "").trim()
   );
 }

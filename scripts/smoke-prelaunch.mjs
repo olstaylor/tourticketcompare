@@ -680,7 +680,8 @@ assert(outResponse.status === 400, "unknown showId should fail safely");
 outResponse = await out(`/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`);
 assert(outResponse.status === 400, "SeatGeek showId provider should fail safely without Impact tracking configured");
 const unconfiguredSeatGeekShowJson = await outResponse.json();
-assert(unconfiguredSeatGeekShowJson.status === "provider_not_configured", "controlled SeatGeek showId should report provider_not_configured when SeatGeek Impact credentials are missing");
+assert(unconfiguredSeatGeekShowJson.status === "impact_missing_credentials", "controlled SeatGeek showId should report impact_missing_credentials when SeatGeek Impact credentials are missing");
+assert(unconfiguredSeatGeekShowJson.hasProgramId === false, "missing SeatGeek credentials diagnostics should show missing program ID");
 outResponse = await out(
   `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
   "GET",
@@ -693,13 +694,10 @@ outResponse = await out(
 );
 assert(outResponse.status === 400, "SeatGeek API discovery credentials alone should not enable controlled SeatGeek redirects");
 const apiOnlySeatGeekShowJson = await outResponse.json();
-assert(apiOnlySeatGeekShowJson.status === "provider_not_configured", "SeatGeek showId redirects should require SeatGeek Impact config, not SeatGeek API credentials");
+assert(apiOnlySeatGeekShowJson.status === "impact_missing_credentials", "SeatGeek showId redirects should require Impact config, not SeatGeek API credentials");
 
 const seatGeekTrackingUrl = "https://seatgeek.com/impact-tracked/morgan-wallen";
 try {
-  globalThis.fetch = async () => {
-    throw new Error("SeatGeek should not call external APIs without SeatGeek-specific Impact account credentials");
-  };
   outResponse = await out(
     `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
     "GET",
@@ -707,16 +705,42 @@ try {
     {
       ...env,
       IMPACT_ACCOUNT_SID: "legacy-account",
-      IMPACT_AUTH_TOKEN: "legacy-token",
-      IMPACT_TICKETMASTER_ACCOUNT_SID: "tm-account",
-      IMPACT_TICKETMASTER_AUTH_TOKEN: "tm-token",
-      IMPACT_TICKETMASTER_PROGRAM_ID: "tm-program",
-      IMPACT_SEATGEEK_PROGRAM_ID: "sg-program"
+      IMPACT_AUTH_TOKEN: "legacy-token"
     }
   );
-  assert(outResponse.status === 400, "SeatGeek must not fall back to generic or Ticketmaster Impact credentials");
-  const missingSpecificSeatGeekJson = await outResponse.json();
-  assert(missingSpecificSeatGeekJson.status === "provider_not_configured", "SeatGeek should report missing provider config without SeatGeek-specific Impact account credentials");
+  assert(outResponse.status === 400, "SeatGeek should fail safely when the SeatGeek Impact program ID is missing");
+  const missingSeatGeekProgramJson = await outResponse.json();
+  assert(missingSeatGeekProgramJson.status === "impact_missing_program_id", "SeatGeek should report impact_missing_program_id when only shared Impact credentials are present");
+  assert(missingSeatGeekProgramJson.hasProgramId === false, "missing SeatGeek program diagnostics should show hasProgramId false");
+
+  const sharedSeatGeekImpactEnv = {
+    ...env,
+    IMPACT_ACCOUNT_SID: "shared-account",
+    IMPACT_AUTH_TOKEN: "shared-token",
+    IMPACT_SEATGEEK_PROGRAM_ID: "sg-program"
+  };
+  let sharedSeatGeekImpactCalled = false;
+  globalThis.fetch = async (request, options = {}) => {
+    const requestUrl = new URL(String(request.url || request));
+    sharedSeatGeekImpactCalled = true;
+    assert(requestUrl.hostname === "api.impact.com", "SeatGeek shared Impact credentials should still call Impact");
+    assert(requestUrl.pathname.includes("/Mediapartners/shared-account/Programs/sg-program/TrackingLinks"), "SeatGeek shared Impact request should use the shared account and SeatGeek program");
+    assert(requestUrl.searchParams.get("DeepLink") === CONTROLLED_SEATGEEK_URL, "SeatGeek shared Impact DeepLink should be the controlled SeatGeek event URL");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("shared-account:shared-token").toString("base64")}`, "SeatGeek shared Impact request should use shared basic auth");
+    return new Response(JSON.stringify({ TrackingURL: seatGeekTrackingUrl }), {
+      status: 200,
+      headers: { "content-type": "application/json" }
+    });
+  };
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
+    "GET",
+    null,
+    sharedSeatGeekImpactEnv
+  );
+  assert(sharedSeatGeekImpactCalled, "SeatGeek should call Impact when shared credentials and SeatGeek program ID are configured");
+  assert(outResponse.status === 302, "SeatGeek should redirect when shared Impact credentials and SeatGeek program ID succeed");
+  assert(outResponse.headers.get("location") === seatGeekTrackingUrl, "SeatGeek shared Impact success should redirect to the tracking URL");
 
   const configuredSeatGeekImpactEnv = {
     ...env,
@@ -736,9 +760,9 @@ try {
     assert(requestUrl.hostname !== "api.seatgeek.com", "SeatGeek showId /api/out must not use broad SeatGeek API search fallback");
     assert(requestUrl.hostname === "api.impact.com", "SeatGeek tracking should call Impact with the controlled event URL");
     seatGeekImpactCalled = true;
-    assert(requestUrl.pathname.includes("/Mediapartners/sg-account/Programs/sg-program/TrackingLinks"), "SeatGeek Impact request should use SeatGeek credentials");
+    assert(requestUrl.pathname.includes("/Mediapartners/sg-account/Programs/sg-program/TrackingLinks"), "SeatGeek Impact request should use the configured SeatGeek account and program");
     assert(requestUrl.searchParams.get("DeepLink") === CONTROLLED_SEATGEEK_URL, "SeatGeek Impact DeepLink should be the controlled SeatGeek event URL");
-    assert(!requestUrl.pathname.includes("tm-account") && !requestUrl.pathname.includes("legacy-account"), "SeatGeek Impact request must not use Ticketmaster or generic account IDs");
+    assert(!requestUrl.pathname.includes("tm-account") && !requestUrl.pathname.includes("legacy-account"), "SeatGeek Impact request must not use Ticketmaster account IDs when SeatGeek-specific credentials are configured");
     assert(options.headers?.Authorization === `Basic ${Buffer.from("sg-account:sg-token").toString("base64")}`, "SeatGeek Impact request should use SeatGeek basic auth");
   };
 
@@ -758,12 +782,33 @@ try {
   assert(seatGeekImpactCalled, "SeatGeek unavailable path should still call SeatGeek Impact tracking");
   assert(outResponse.status === 400, "SeatGeek Impact failure should fail safely");
   let seatGeekImpactJson = await outResponse.json();
-  assert(seatGeekImpactJson.status === "impact_tracking_url_unavailable", "SeatGeek Impact failure should report impact_tracking_url_unavailable");
+  assert(seatGeekImpactJson.status === "impact_request_failed", "SeatGeek Impact non-2xx failure should report impact_request_failed");
+  assert(seatGeekImpactJson.impactStatusCode === 403, "SeatGeek Impact non-2xx diagnostics should include the safe status code");
   assert(seatGeekImpactJson.provider === "seatgeek", "SeatGeek Impact diagnostics should include provider");
   assert(seatGeekImpactJson.hasDestination === true, "SeatGeek Impact diagnostics should confirm a stored destination was available");
   assert(seatGeekImpactJson.destinationHost === "seatgeek.com", "SeatGeek Impact diagnostics should include only the safe destination host");
   assert(seatGeekImpactJson.impactConfigPresent === true, "SeatGeek Impact diagnostics should confirm config presence without exposing secrets");
   assert(!JSON.stringify(seatGeekImpactJson).includes("sg-token") && !JSON.stringify(seatGeekImpactJson).includes("sg-account"), "SeatGeek Impact diagnostics must not expose secrets or account IDs");
+
+  seatGeekImpactCalled = false;
+  globalThis.fetch = async (request, options = {}) => {
+    assertSeatGeekImpactRequest(request, options);
+    return new Response(JSON.stringify({ Message: "created without tracking URL" }), {
+      status: 200,
+      headers: { "content-type": "application/json" }
+    });
+  };
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
+    "GET",
+    null,
+    configuredSeatGeekImpactEnv
+  );
+  assert(seatGeekImpactCalled, "SeatGeek missing TrackingURL path should still call SeatGeek Impact tracking");
+  assert(outResponse.status === 400, "SeatGeek Impact response missing TrackingURL should fail safely");
+  seatGeekImpactJson = await outResponse.json();
+  assert(seatGeekImpactJson.status === "impact_response_missing_tracking_url", "SeatGeek Impact response missing TrackingURL should report impact_response_missing_tracking_url");
+  assert(seatGeekImpactJson.impactResponseFieldNames?.includes("Message"), "SeatGeek missing TrackingURL diagnostics should include safe Impact response field names");
 
   seatGeekImpactCalled = false;
   globalThis.fetch = async (request, options = {}) => {
@@ -783,6 +828,7 @@ try {
   assert(outResponse.status === 400, "Unsafe SeatGeek Impact TrackingURL should not redirect");
   seatGeekImpactJson = await outResponse.json();
   assert(seatGeekImpactJson.status === "impact_tracking_url_unsafe", "Unsafe SeatGeek Impact TrackingURL should report impact_tracking_url_unsafe");
+  assert(seatGeekImpactJson.impactResponseFieldNames?.includes("TrackingURL"), "Unsafe SeatGeek diagnostics should include safe Impact response field names");
   assert(seatGeekImpactJson.provider === "seatgeek", "Unsafe SeatGeek Impact diagnostics should include provider");
   assert(seatGeekImpactJson.hasDestination === true, "Unsafe SeatGeek Impact diagnostics should confirm a stored destination was available");
   assert(seatGeekImpactJson.destinationHost === "seatgeek.com", "Unsafe SeatGeek Impact diagnostics should include only the safe destination host");

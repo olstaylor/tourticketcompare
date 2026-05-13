@@ -291,16 +291,19 @@ function impactConfig(env = {}, provider = "ticketmaster") {
   const apiBase = clean(env?.IMPACT_API_BASE_URL || DEFAULT_IMPACT_API_BASE, 2048).replace(/\/+$/, "");
 
   if (normalizedProvider === "seatgeek") {
-    // SeatGeek redirects use only SeatGeek-specific Impact credentials to turn
-    // the already-approved SeatGeek destination URL into an affiliate tracking link.
-    const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
-    const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
+    // SeatGeek redirects use SeatGeek-specific program configuration with the
+    // shared Impact account credentials unless SeatGeek-specific credentials are
+    // explicitly provided. The program ID still selects the SeatGeek advertiser.
+    const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
+    const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
     const programId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
     return {
       accountSid,
       authToken,
       programId,
       apiBase,
+      hasCredentials: Boolean(accountSid && authToken),
+      hasProgramId: Boolean(programId),
       configured: Boolean(accountSid && authToken && programId)
     };
   }
@@ -313,6 +316,8 @@ function impactConfig(env = {}, provider = "ticketmaster") {
     authToken,
     programId,
     apiBase,
+    hasCredentials: Boolean(accountSid && authToken),
+    hasProgramId: Boolean(programId),
     configured: Boolean(accountSid && authToken && programId)
   };
 }
@@ -329,13 +334,53 @@ function validateImpactTrackingUrl(value) {
   return safeUrl(value);
 }
 
+function safeFieldNames(payload) {
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)) return [];
+  return Object.keys(payload)
+    .filter((key) => /^[A-Za-z0-9_-]{1,64}$/.test(key))
+    .slice(0, 20);
+}
+
+function extractImpactTrackingUrl(payload) {
+  if (!payload || typeof payload !== "object") return "";
+  return clean(
+    payload.TrackingURL ||
+    payload.TrackingUrl ||
+    payload.trackingUrl ||
+    payload.tracking_url,
+    2048
+  );
+}
+
 async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketmaster") {
   const config = impactConfig(env, provider);
-  if (!config.configured) return { ok: false, status: "impact_config_unavailable" };
+  if (!config.hasCredentials) {
+    return {
+      ok: false,
+      status: "impact_missing_credentials",
+      hasProgramId: config.hasProgramId,
+      impactConfigPresent: false
+    };
+  }
+  if (!config.hasProgramId) {
+    return {
+      ok: false,
+      status: "impact_missing_program_id",
+      hasProgramId: false,
+      impactConfigPresent: false
+    };
+  }
 
   const verifiedDeepLink = safeUrl(deepLink);
   const apiBase = safeUrl(config.apiBase);
-  if (!verifiedDeepLink || !apiBase) return { ok: false, status: "impact_tracking_url_unavailable" };
+  if (!verifiedDeepLink || !apiBase) {
+    return {
+      ok: false,
+      status: "impact_tracking_url_failed_safety_check",
+      hasProgramId: config.hasProgramId,
+      impactConfigPresent: config.configured
+    };
+  }
 
   const params = new URLSearchParams({
     Type: "Regular",
@@ -353,20 +398,58 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
         Authorization: basicAuthHeader(config.accountSid, config.authToken)
       }
     });
-    if (!response.ok) return { ok: false, status: "impact_tracking_url_unavailable" };
+    if (!response.ok) {
+      return {
+        ok: false,
+        status: "impact_request_failed",
+        hasProgramId: config.hasProgramId,
+        impactConfigPresent: config.configured,
+        impactStatusCode: response.status
+      };
+    }
     let payload = null;
     try {
       payload = await response.json();
     } catch (error) {
-      return { ok: false, status: "impact_tracking_url_unavailable" };
+      return {
+        ok: false,
+        status: "impact_response_parse_failed",
+        hasProgramId: config.hasProgramId,
+        impactConfigPresent: config.configured,
+        impactStatusCode: response.status
+      };
     }
-    const rawTrackingUrl = payload?.TrackingURL || payload?.TrackingUrl;
-    if (!rawTrackingUrl) return { ok: false, status: "impact_tracking_url_unavailable" };
+    const impactResponseFieldNames = safeFieldNames(payload);
+    const rawTrackingUrl = extractImpactTrackingUrl(payload);
+    if (!rawTrackingUrl) {
+      return {
+        ok: false,
+        status: "impact_response_missing_tracking_url",
+        hasProgramId: config.hasProgramId,
+        impactConfigPresent: config.configured,
+        impactStatusCode: response.status,
+        impactResponseFieldNames
+      };
+    }
     const trackingUrl = validateImpactTrackingUrl(rawTrackingUrl);
-    if (!trackingUrl) return { ok: false, status: "impact_tracking_url_unsafe" };
+    if (!trackingUrl) {
+      return {
+        ok: false,
+        status: "impact_tracking_url_failed_safety_check",
+        hasProgramId: config.hasProgramId,
+        impactConfigPresent: config.configured,
+        impactStatusCode: response.status,
+        impactResponseFieldNames
+      };
+    }
     return { ok: true, trackingUrl: trackingUrl.toString() };
   } catch (error) {
-    return { ok: false, status: "impact_tracking_url_unavailable" };
+    return {
+      ok: false,
+      status: "impact_request_failed",
+      hasProgramId: config.hasProgramId,
+      impactConfigPresent: config.configured
+    };
   }
 }
 
@@ -441,6 +524,34 @@ async function trackClick({ request, env, link, sourcePath, destinationHost }) {
   }
 }
 
+
+function impactFailureStatus(status) {
+  if (status === "impact_tracking_url_failed_safety_check") return "impact_tracking_url_unsafe";
+  return status || "impact_request_failed";
+}
+
+function seatGeekImpactFailurePayload(resolved, result, config) {
+  const payload = {
+    ok: false,
+    status: impactFailureStatus(result.status),
+    provider: "seatgeek",
+    hasDestination: true,
+    destinationHost: resolved.redirect.hostname.toLowerCase(),
+    impactConfigPresent: Boolean(config.configured),
+    hasProgramId: Boolean(result.hasProgramId ?? config.hasProgramId),
+    outVersion: OUT_VERSION_HEADER
+  };
+
+  if (Number.isInteger(result.impactStatusCode)) {
+    payload.impactStatusCode = result.impactStatusCode;
+  }
+  if (Array.isArray(result.impactResponseFieldNames)) {
+    payload.impactResponseFieldNames = result.impactResponseFieldNames;
+  }
+
+  return payload;
+}
+
 async function handleOut(request, env, mode) {
   const url = new URL(request.url);
   const body = await readBody(request);
@@ -469,35 +580,19 @@ async function handleOut(request, env, mode) {
       // SeatGeek API search or broad fallback in this path.
       const destination = resolved.redirect.toString();
       const seatGeekImpactConfig = impactConfig(env, "seatgeek");
-      if (!seatGeekImpactConfig.configured) {
-        return json({ ok: false, status: "provider_not_configured" }, 400);
-      }
-
       const impactTrackingResult = await createImpactTrackingUrlResult(env, destination, "seatgeek");
       if (!impactTrackingResult.ok) {
-        const status = impactTrackingResult.status === "impact_tracking_url_unsafe"
-          ? "impact_tracking_url_unsafe"
-          : "impact_tracking_url_unavailable";
-        return json({
-          ok: false,
-          status,
-          provider: "seatgeek",
-          hasDestination: true,
-          destinationHost: resolved.redirect.hostname.toLowerCase(),
-          impactConfigPresent: seatGeekImpactConfig.configured
-        }, 400);
+        return json(seatGeekImpactFailurePayload(resolved, impactTrackingResult, seatGeekImpactConfig), 400);
       }
 
       const outbound = safeUrl(impactTrackingResult.trackingUrl);
       if (!outbound) {
-        return json({
+        return json(seatGeekImpactFailurePayload(resolved, {
           ok: false,
-          status: "impact_tracking_url_unsafe",
-          provider: "seatgeek",
-          hasDestination: true,
-          destinationHost: resolved.redirect.hostname.toLowerCase(),
+          status: "impact_tracking_url_failed_safety_check",
+          hasProgramId: seatGeekImpactConfig.hasProgramId,
           impactConfigPresent: seatGeekImpactConfig.configured
-        }, 400);
+        }, seatGeekImpactConfig), 400);
       }
 
       await trackClick({

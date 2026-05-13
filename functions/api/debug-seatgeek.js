@@ -42,13 +42,13 @@ function seatgeekConfig(env = {}) {
 }
 
 function impactConfig(env = {}) {
-  const accountSid = clean(env?.IMPACT_ACCOUNT_SID, 255);
-  const authToken = clean(env?.IMPACT_AUTH_TOKEN, 255);
+  const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
+  const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
   const programId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
   return {
-    accountSid,
-    authToken,
-    programId,
+    accountSidPresent: Boolean(accountSid),
+    authTokenPresent: Boolean(authToken),
+    programIdPresent: Boolean(programId),
     configured: Boolean(accountSid && authToken && programId)
   };
 }
@@ -202,7 +202,7 @@ export async function onRequestGet({ request, env }) {
     affiliate_tracking_capable: impactCfg.configured && candidates.matched ? true : false,
     next_steps: [
       !sgConfig.configured ? "Set SEATGEEK_CLIENT_ID and SEATGEEK_CLIENT_SECRET" : null,
-      !impactCfg.configured ? "Set IMPACT_SEATGEEK_PROGRAM_ID for affiliate tracking" : null,
+      !impactCfg.configured ? "Set IMPACT_SEATGEEK_ACCOUNT_SID, IMPACT_SEATGEEK_AUTH_TOKEN, and IMPACT_SEATGEEK_PROGRAM_ID for affiliate tracking" : null,
       candidates.matched
         ? `SeatGeek URL ready: ${candidates.matched.url}`
         : "No confident SeatGeek match found"

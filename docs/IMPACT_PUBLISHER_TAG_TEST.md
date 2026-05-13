@@ -30,12 +30,13 @@ Set as a Cloudflare Pages environment variable on the appropriate environment
 
 | Variable | Purpose |
 |---|---|
-| `IMPACT_SEATGEEK_PUBLISHER_TAG_URL` | Full https URL of the SeatGeek Impact Publisher Tag SDK. Must point to `*.impactcdn.com` or `*.impact.com`. If unset or invalid, the SeatGeek tag is not loaded and the page surfaces a clear warning. |
+| `IMPACT_SEATGEEK_PUBLISHER_TAG_URL` | Full https URL of the SeatGeek Impact Publisher Tag SDK. Must point to `*.impactcdn.com` or `*.impact.com`. If unset or invalid, the SeatGeek tag is not loaded and the page surfaces a clear warning. Can be overridden for one internal request with `?sgTagUrl=`. |
 | `IMPACT_TAG_TEST_SEATGEEK_URL` | Single raw `https://seatgeek.com/...` URL used as the raw-SeatGeek test anchor when no `?sgUrl=` query is supplied. Validated server-side; non-SeatGeek hosts are rejected. |
 | `IMPACT_TAG_TEST_SEATGEEK_SHOW_ID` | A `showId` matching an event in `public/data/events.json`. Used to render the `/api/out?showId=...&provider=seatgeek` control link when no `?sgShowId=` query is supplied. |
 
-If the SeatGeek tag URL is not configured, the page still renders and runs;
-only the SeatGeek tag bootstrap is skipped, with a visible warning.
+If the SeatGeek tag URL is not configured and no valid `?sgTagUrl=` override is
+provided, the page still renders and runs; only the SeatGeek tag bootstrap is
+skipped, with a visible warning.
 
 ## Per-request overrides (query parameters)
 
@@ -43,6 +44,7 @@ only the SeatGeek tag bootstrap is skipped, with a visible warning.
 |---|---|
 | `token` | **Required.** Validates against `IMPACT_TAG_TEST_TOKEN`. |
 | `sgUrl` | Overrides `IMPACT_TAG_TEST_SEATGEEK_URL` for one request. Must be a `https://seatgeek.com/...` URL. |
+| `sgTagUrl` | Overrides `IMPACT_SEATGEEK_PUBLISHER_TAG_URL` for one request. Must be an `https://*.impactcdn.com/...` or `https://*.impact.com/...` SDK URL. The route-scoped CSP allows only the validated origin. |
 | `sgShowId` | Overrides `IMPACT_TAG_TEST_SEATGEEK_SHOW_ID` for one request. Must match an event id in `events.json`. |
 
 ## What the page renders

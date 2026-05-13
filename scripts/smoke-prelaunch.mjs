@@ -400,8 +400,6 @@ assert(controlledSeatGeekShow.seatgeek_url === CONTROLLED_SEATGEEK_URL, "/api/sh
 assert(morganShows.every((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID || !String(show.seatgeek_url || "").trim()), "Morgan Wallen shows should not expose SeatGeek URLs on non-controlled events");
 const seatGeekConfiguredEnv = {
   ...env,
-  SEATGEEK_CLIENT_ID: "sg-client",
-  SEATGEEK_CLIENT_SECRET: "sg-secret",
   IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
   IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token",
   IMPACT_SEATGEEK_PROGRAM_ID: "sg-program"
@@ -584,8 +582,6 @@ try {
     null,
     {
       ...env,
-      SEATGEEK_CLIENT_ID: "sg-client",
-      SEATGEEK_CLIENT_SECRET: "sg-secret",
       IMPACT_ACCOUNT_SID: "legacy-account",
       IMPACT_AUTH_TOKEN: "legacy-token",
       IMPACT_TICKETMASTER_ACCOUNT_SID: "tm-account",
@@ -619,8 +615,6 @@ try {
     null,
     {
       ...env,
-      SEATGEEK_CLIENT_ID: "sg-client",
-      SEATGEEK_CLIENT_SECRET: "sg-secret",
       IMPACT_ACCOUNT_SID: "legacy-account",
       IMPACT_AUTH_TOKEN: "legacy-token",
       IMPACT_TICKETMASTER_ACCOUNT_SID: "tm-account",
@@ -681,8 +675,8 @@ assert(noCrdsJson.status === "provider_not_configured", "SeatGeek reports missin
 // Test 3: Impact program missing → SeatGeek blocked
 outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek", "GET", null, {
   ...env,
-  SEATGEEK_CLIENT_ID: "test-client",
-  SEATGEEK_CLIENT_SECRET: "test-secret"
+  IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
+  IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token"
 });
 assert(outResponse.status === 400, "SeatGeek should fail when Impact program missing");
 

@@ -480,15 +480,10 @@ function clean(value, max = 255) {
 }
 
 function isSeatGeekConfigured(env = {}) {
-  const clientId = clean(env?.SEATGEEK_CLIENT_ID, 255);
-  const clientSecret = clean(env?.SEATGEEK_CLIENT_SECRET, 255);
   const impactSeatGeekAccountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
   const impactSeatGeekAuthToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
   const impactSeatGeekProgramId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
-  return Boolean(
-    clientId && clientSecret &&
-    impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId
-  );
+  return Boolean(impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId);
 }
 
 function renderShowCardServerHtml(show, seatGeekAvailable = false) {

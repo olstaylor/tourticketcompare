@@ -14,7 +14,6 @@ TICKETMASTER_EVENTS_TTL_MINUTES = "30"
 TICKETMASTER_ARTIST_EVENTS_LIMIT = "100"
 TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED = "false"
 TICKETMASTER_DISCOVERY_COUNTRY = ""
-DEBUG_API_TOKEN = "debug-test-12345"
 
 # Optional D1 bindings for CLI-based deploys and local Pages dev.
 # Configure these in the Cloudflare dashboard for Git-connected Pages deploys.

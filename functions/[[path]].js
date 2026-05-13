@@ -475,6 +475,10 @@ function safeSeatGeekTicketUrl(value) {
   }
 }
 
+function seatGeekOutAvailable(show, seatGeekAvailable = false) {
+  return Boolean(seatGeekAvailable && safeSeatGeekTicketUrl(show?.seatgeek_url));
+}
+
 function clean(value, max = 255) {
   return String(value || "").trim().slice(0, max);
 }
@@ -490,15 +494,14 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
   const date = formatShowDateServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
-  const validSeatGeekUrl = safeSeatGeekTicketUrl(show.seatgeek_url);
   let ctaHtml = `<p class="disclosure-note">No event-specific ticket link is available for this date yet.</p>`;
 
   if (validUrl && show.id) {
     const ticketmasterCta = `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}`;
     const disclosure = `<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`;
 
-    // SeatGeek CTA appears only if credentials are present AND event has verified SeatGeek URL
-    if (seatGeekAvailable && validSeatGeekUrl) {
+    // SeatGeek CTA appears only if /api/out can resolve a configured event-level SeatGeek URL.
+    if (seatGeekOutAvailable(show, seatGeekAvailable)) {
       const seatGeekCta = `${anchor("Check SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-secondary")}`;
       ctaHtml = `<div class="cta-group">${ticketmasterCta}${seatGeekCta}</div><p class="disclosure-note">Prices, fees and availability are confirmed on SeatGeek. External ticketing sites set checkout terms and refund policies.</p>`;
     } else {

@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-12 (revised)
+Last updated: 2026-05-13 (SeatGeek redirect scaling prep)
 
 ---
 
@@ -78,6 +78,13 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 - All destination URLs validated against a strict allowlist of provider hostnames; localhost/RFC1918/placeholder URLs rejected
 - Impact credential calls are server-side only; failure falls back safely to stored verified URL
 
+### SeatGeek event-level redirect posture
+- SeatGeek base-link redirect is proven with `IMPACT_SEATGEEK_BASE_TRACKING_URL=https://seatgeek.pxf.io/eK6adX`: `/api/out?showId=<id>&provider=seatgeek` resolves the stored `event.seatgeek_url`, appends it as `u=<encoded event.seatgeek_url>`, and returns HTTP 302.
+- Redirect code is generic for any event with a valid event-level `event.seatgeek_url`; the current dataset has 1 unique SeatGeek-eligible event (Morgan Wallen, Gainesville, May 15, 2026).
+- Morgan-only smoke restrictions have been removed. Smoke checks now validate strict SeatGeek URL shape and root-vs-partition `seatgeek_url` consistency without requiring all non-Morgan events to remain empty.
+- Public SeatGeek CTAs remain event-level only: an event must have a valid stored SeatGeek event URL and SeatGeek affiliate config (`IMPACT_SEATGEEK_BASE_TRACKING_URL` preferred, or complete SeatGeek Impact API config) before the CTA renders.
+- Future SeatGeek API enrichment should populate `event.seatgeek_url` upstream in the controlled event data/store; `/api/out` must not search SeatGeek or call SeatGeek APIs during user click redirects.
+
 ### Other API endpoints
 - `/api/health` — returns runtime config status (mock flags, credential presence); confirmed safe (no secrets exposed)
 - `/api/shows` — returns event data for a given `artistSlug` filtered from `events.json`; mock pricing disabled
@@ -86,7 +93,7 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 
 ### Data files (read-only; do not modify without a verified source)
 - `public/data/catalog.json` — 7 artists, 0 tours, 4 providers (Ticketmaster public_enabled; SeatGeek, Vivid Seats, StubHub defined but `public_enabled: false`), 7 verified ticket links (all Ticketmaster artist-level)
-- `public/data/events.json` — 130 events (Ticketmaster-sourced; each has `ticketmaster_url` with event-specific path)
+- `public/data/events.json` — 130 events (Ticketmaster-sourced; each has `ticketmaster_url` with event-specific path); 1 unique event currently has a valid event-level `seatgeek_url`
 - `public/data/events/` — per-artist partitioned event files (6 files: ariana-grande, bad-bunny, bts, harry-styles, jay-z, morgan-wallen; beyoncé events remain in the root events.json)
 - `public/data/artists.json`, `events-index.json`, `affiliate-routes.json`, `inventory-model.json`
 
@@ -106,7 +113,7 @@ Four old guide slugs redirect 301 → canonical URLs (defined in `_route-metadat
 | **Placeholder D1 bindings** | `wrangler.toml` has two commented-out D1 bindings (`RATE_LIMIT_DB`, `CLICKS_DB`) with `replace-with-d1-database-id` placeholder IDs. Uncommenting without real IDs breaks local dev. Either provision with real IDs or remove the blocks. | Medium |
 | **Named route shims inactive** | `functions/artists.js` and peers re-export from `[[path]].js` but are never reached while `_middleware.js` is active. Editing them has no production effect. | Low |
 | **Legacy deployment paths** | `vercel.json` and `api/` directory are present but not production. `scripts/build-standalone-worker.mjs` is present as emergency rollback reference. Neither should be accidentally deployed. | Low |
-| **SeatGeek / Vivid Seats not configured** | Providers are defined in `PROVIDERS` and `catalog.json` but have no verified `VERIFIED_TICKET_LINKS` entries and no ticket links in catalog. Any attempt to enable requires verified destination URLs, not just code changes. | Low |
+| **SeatGeek / Vivid Seats not broadly configured** | Providers are defined in `PROVIDERS` and `catalog.json` but have no verified artist-level `VERIFIED_TICKET_LINKS` entries and no ticket links in catalog. SeatGeek event-level redirects are prepared for any validated `event.seatgeek_url`, but current public eligibility remains limited to 1 unique event and requires SeatGeek affiliate config before rendering CTAs. | Low |
 
 ### Parked (do not action without explicit scope)
 - Raw HTML routing fix — parked until SEO scaling is prioritised

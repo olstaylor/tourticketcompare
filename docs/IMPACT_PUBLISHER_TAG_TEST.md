@@ -71,16 +71,15 @@ anchor with these columns:
 | `label` | The anchor's visible text. |
 | `data-provider` | `ticketmaster` or `seatgeek`. |
 | `data-test-link` | `raw-*` (expect transformation) or `out-*` (expect untouched). |
-| `initial host` | Host parsed from the href on `DOMContentLoaded`. |
-| `post-load host` | Host parsed from the href ~2s later. |
-| `initial href` | Full initial href, truncated with the full value in a copyable `<details>`. |
-| `post-load href` | Full post-load href, same truncated/copyable layout. |
+| `initial href host` | Host parsed from the href on `DOMContentLoaded`. |
+| `post-load href host` | Host parsed from the href ~2s later. |
+| `initial full href` | Full initial href, truncated with the full value in a copyable `<details>`. |
+| `post-load full href` | Full post-load href, same truncated/copyable layout. |
 | `host changed` | `yes` if the parsed host differs between snapshots. Useful context only; a host change is not required for a pass. |
 | `full href changed` | `yes` if the full href string differs between the two snapshots. |
-| `affiliate params present` | `yes` if any recognised tracking key was detected on the post-load href. |
-| `detected tracking params` | List of recognised affiliate query keys detected on the post-load href (see below). |
-| `added query params` | Generic detector: query parameter names that exist post-load but were not present on the initial href. This helps assess SeatGeek if its tag uses different parameter names. |
-| `tracking likely present` | `yes` when the full href changed and new query parameter names appeared after load. |
+| `recognised params` | List of recognised affiliate query keys detected on the post-load href (see below). |
+| `added params` | Generic detector: query parameter names that exist post-load but were not present on the initial href. This helps assess SeatGeek if its tag uses different parameter names. |
+| `tracking likely` | `yes` when the full href changed and new query parameter names appeared after load. |
 | `verdict` | Per-row pass/fail based on the rules below. |
 
 Tracked affiliate query keys (case-insensitive match): `irgwc`, `afsrc`,
@@ -143,14 +142,14 @@ on `/internal/impact-tag-test?token=<value>`:
       params.
 - [ ] Raw SeatGeek anchor: initial `href` host is `seatgeek.com`. After 2s, the
       verdict shows `transformed` — driven by recognised tracking params,
-      `full href changed=yes`, or the generic `added query params` detector. The
+      `full href changed=yes`, or the generic `added params` detector. The
       host may remain `seatgeek.com`; confirm the change was introduced by the
       SeatGeek tag and not by the Ticketmaster tag.
 - [ ] No anchor is transformed by both tags. Each `raw-*` row's verdict is
       `transformed`; each `out-*` row's verdict is `untouched (expected)`.
-- [ ] `/api/out` Ticketmaster control: initial `href` host is the page origin.
-      Post-load host is still the page origin, `full href changed=no`,
-      `affiliate params present=no`, and `added query params=none` (i.e. neither
+- [ ] `/api/out` Ticketmaster control: `initial href host` is the page origin.
+      `post-load href host` is still the page origin, `full href changed=no`,
+      `recognised params=none`, and `added params=none` (i.e. neither
       tag rewrote or decorated it).
 - [ ] `/api/out` SeatGeek control: same as above. Untouched by either tag.
 - [ ] Click each link individually:

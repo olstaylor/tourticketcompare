@@ -426,6 +426,16 @@ function hasImpactCredentials(env) {
   return Boolean(String(env?.IMPACT_ACCOUNT_SID || "").trim() && String(env?.IMPACT_AUTH_TOKEN || "").trim());
 }
 
+function hasSeatGeekProviderConfig(env = {}) {
+  return Boolean(
+    String(env?.SEATGEEK_CLIENT_ID || "").trim() &&
+    String(env?.SEATGEEK_CLIENT_SECRET || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_PROGRAM_ID || "").trim()
+  );
+}
+
 function getProviderDeepLink(show, provider, fallbackUrl) {
   const key = providerKey(provider);
   const candidate = String(show?.[`${key}_deep_link`] || show?.impact_deep_link || fallbackUrl || "").trim();
@@ -1096,6 +1106,9 @@ export async function onRequestGet({ request, env }) {
         allowMockPrices,
         artistFeed,
         includePrices: false,
+        providerAvailability: {
+          seatgeek: hasSeatGeekProviderConfig(env)
+        },
         pagination: {
           offset,
           limit,
@@ -1130,6 +1143,9 @@ export async function onRequestGet({ request, env }) {
       allowMockPrices,
       artistFeed,
       includePrices: true,
+      providerAvailability: {
+        seatgeek: hasSeatGeekProviderConfig(env)
+      },
       shows
     }),
     {

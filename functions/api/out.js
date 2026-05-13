@@ -3,7 +3,7 @@ const EVENTS_JSON_PATH = "/data/events.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
 // Temporary production proof header for /api/out. Remove after verifying
 // SeatGeek event URL-first redirects are live.
-const OUT_VERSION_HEADER = "seatgeek-url-first-2026-05-13";
+const OUT_VERSION_HEADER = "seatgeek-impact-diagnostics-2026-05-13";
 
 const PROVIDERS = {
   ticketmaster: {
@@ -329,13 +329,13 @@ function validateImpactTrackingUrl(value) {
   return safeUrl(value);
 }
 
-async function createImpactTrackingUrl(env, deepLink, provider = "ticketmaster") {
+async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketmaster") {
   const config = impactConfig(env, provider);
-  if (!config.configured) return null;
+  if (!config.configured) return { ok: false, status: "impact_config_unavailable" };
 
   const verifiedDeepLink = safeUrl(deepLink);
   const apiBase = safeUrl(config.apiBase);
-  if (!verifiedDeepLink || !apiBase) return null;
+  if (!verifiedDeepLink || !apiBase) return { ok: false, status: "impact_tracking_url_unavailable" };
 
   const params = new URLSearchParams({
     Type: "Regular",
@@ -353,18 +353,26 @@ async function createImpactTrackingUrl(env, deepLink, provider = "ticketmaster")
         Authorization: basicAuthHeader(config.accountSid, config.authToken)
       }
     });
-    if (!response.ok) return null;
+    if (!response.ok) return { ok: false, status: "impact_tracking_url_unavailable" };
     let payload = null;
     try {
       payload = await response.json();
     } catch (error) {
-      return null;
+      return { ok: false, status: "impact_tracking_url_unavailable" };
     }
-    const trackingUrl = validateImpactTrackingUrl(payload?.TrackingURL || payload?.TrackingUrl);
-    return trackingUrl ? trackingUrl.toString() : null;
+    const rawTrackingUrl = payload?.TrackingURL || payload?.TrackingUrl;
+    if (!rawTrackingUrl) return { ok: false, status: "impact_tracking_url_unavailable" };
+    const trackingUrl = validateImpactTrackingUrl(rawTrackingUrl);
+    if (!trackingUrl) return { ok: false, status: "impact_tracking_url_unsafe" };
+    return { ok: true, trackingUrl: trackingUrl.toString() };
   } catch (error) {
-    return null;
+    return { ok: false, status: "impact_tracking_url_unavailable" };
   }
+}
+
+async function createImpactTrackingUrl(env, deepLink, provider = "ticketmaster") {
+  const result = await createImpactTrackingUrlResult(env, deepLink, provider);
+  return result.ok ? result.trackingUrl : null;
 }
 
 async function readBody(request) {
@@ -465,14 +473,31 @@ async function handleOut(request, env, mode) {
         return json({ ok: false, status: "provider_not_configured" }, 400);
       }
 
-      const impactTrackingUrl = await createImpactTrackingUrl(env, destination, "seatgeek");
-      if (!impactTrackingUrl) {
-        return json({ ok: false, status: "event_ticket_url_unavailable" }, 400);
+      const impactTrackingResult = await createImpactTrackingUrlResult(env, destination, "seatgeek");
+      if (!impactTrackingResult.ok) {
+        const status = impactTrackingResult.status === "impact_tracking_url_unsafe"
+          ? "impact_tracking_url_unsafe"
+          : "impact_tracking_url_unavailable";
+        return json({
+          ok: false,
+          status,
+          provider: "seatgeek",
+          hasDestination: true,
+          destinationHost: resolved.redirect.hostname.toLowerCase(),
+          impactConfigPresent: seatGeekImpactConfig.configured
+        }, 400);
       }
 
-      const outbound = safeUrl(impactTrackingUrl);
+      const outbound = safeUrl(impactTrackingResult.trackingUrl);
       if (!outbound) {
-        return json({ ok: false, status: "event_ticket_url_unavailable" }, 400);
+        return json({
+          ok: false,
+          status: "impact_tracking_url_unsafe",
+          provider: "seatgeek",
+          hasDestination: true,
+          destinationHost: resolved.redirect.hostname.toLowerCase(),
+          impactConfigPresent: seatGeekImpactConfig.configured
+        }, 400);
       }
 
       await trackClick({

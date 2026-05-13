@@ -484,10 +484,11 @@ function clean(value, max = 255) {
 }
 
 function isSeatGeekConfigured(env = {}) {
+  const impactSeatGeekBaseTrackingUrl = clean(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL, 2048);
   const impactSeatGeekAccountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
   const impactSeatGeekAuthToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
-  const impactSeatGeekProgramId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
-  return Boolean(impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId);
+  const impactSeatGeekProgramId = clean(env?.IMPACT_SEATGEEK_CAMPAIGN_ID || env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
+  return Boolean(impactSeatGeekBaseTrackingUrl || (impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId));
 }
 
 function renderShowCardServerHtml(show, seatGeekAvailable = false) {

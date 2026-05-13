@@ -26,6 +26,7 @@ h2 { font-size: 1.1rem; margin: 24px 0 8px; }
 }
 .info-note { color: #243f63; }
 .warning-note { color: #8f341e; }
+.results-scroll { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
 th, td {
   border: 1px solid #d8d0c0;

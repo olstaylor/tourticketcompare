@@ -902,8 +902,10 @@ ${sgTagBanner}
 
 <section class="section">
   <h2>Href transformation results</h2>
-  <p>Initial href hosts are captured on DOMContentLoaded. Post-load hosts are captured ~2 seconds later. Nothing is sent off-device.</p>
-  <table id="tagTestResults"><thead><tr><th>label</th><th>data-provider</th><th>data-test-link</th><th>initial href host</th><th>post-load href host</th><th>changed</th></tr></thead><tbody><tr><td colspan="6">Waiting for snapshots...</td></tr></tbody></table>
+  <p>Initial full hrefs and hosts are captured on DOMContentLoaded. Post-load hrefs and hosts are captured ~2 seconds later. Host changes are reported, but query-param decoration can count as a transform even when the host stays the same. Nothing is sent off-device.</p>
+  <div class="results-scroll">
+    <table id="tagTestResults"><thead><tr><th>label</th><th>data-provider</th><th>data-test-link</th><th>initial host</th><th>post-load host</th><th>initial href</th><th>post-load href</th><th>host changed</th><th>full href changed</th><th>affiliate params present</th><th>detected tracking params</th><th>added query params</th><th>tracking likely present</th><th>verdict</th></tr></thead><tbody><tr><td colspan="14">Waiting for snapshots...</td></tr></tbody></table>
+  </div>
 </section>
 
 <script src="/internal/impact-tag-test.js" defer></script>

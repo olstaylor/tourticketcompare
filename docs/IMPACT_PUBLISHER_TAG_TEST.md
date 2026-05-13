@@ -63,10 +63,39 @@ note — no fake links are ever rendered):
    Impact SeatGeek program credentials are configured server-side.
    `data-provider="seatgeek"`, `data-test-link="out-seatgeek"`.
 
-Below the links, a diagnostic table renders:
+Below the links, a diagnostic table renders one row per `[data-test-link]`
+anchor with these columns:
 
-| label | data-provider | data-test-link | initial href host | post-load href host | changed |
-|---|---|---|---|---|---|
+| column | meaning |
+|---|---|
+| `label` | The anchor's visible text. |
+| `data-provider` | `ticketmaster` or `seatgeek`. |
+| `data-test-link` | `raw-*` (expect transformation) or `out-*` (expect untouched). |
+| `initial host` | Host parsed from the href on `DOMContentLoaded`. |
+| `post-load host` | Host parsed from the href ~2s later. |
+| `initial href` | Full initial href, truncated with the full value in a copyable `<details>`. |
+| `post-load href` | Full post-load href, same truncated/copyable layout. |
+| `full href changed` | `yes` if the full href string differs between the two snapshots. |
+| `affiliate params present` | `yes` if any tracking key was detected on the post-load href. |
+| `detected params` | List of detected affiliate query keys (see below). |
+| `verdict` | Per-row pass/fail based on the rules below. |
+
+Tracked affiliate query keys (case-insensitive match): `irgwc`, `afsrc`,
+`clickid`, `camefrom`, `impradid`, `REFERRAL_ID`, `wt.mc_id`, `utm_source`,
+`utm_medium`, `ircid`. The Impact Publisher Tag commonly decorates Ticketmaster
+links by appending these parameters while keeping the host as
+`www.ticketmaster.com`, so a host-only diff is not sufficient to detect a
+successful transform.
+
+Per-row verdict logic:
+
+- `raw-*` row → **pass** if the full href changed **or** any tracked affiliate
+  param is present on the post-load href; otherwise **fail** (`not transformed`).
+- `out-*` row → **pass** if the href is unchanged **and** no tracked affiliate
+  params are present (the `/api/out` redirect must not be decorated by either
+  tag); otherwise **fail** (`unexpectedly altered`).
+- A row whose anchor was rendered as a disabled note (no href on either
+  snapshot) is shown as `disabled (no href)` and is neither pass nor fail.
 
 The helper captures hrefs on `DOMContentLoaded` and again 2 seconds later. It
 sends nothing off-device.
@@ -97,14 +126,17 @@ Run each item in Chrome DevTools (Network + Console + Application > Cookies)
 on `/internal/impact-tag-test?token=<value>`:
 
 - [ ] Raw Ticketmaster anchor: initial `href` host is `www.ticketmaster.com`.
-      After 2s, the diagnostic table shows it transformed to a Ticketmaster
-      Impact-branded host (e.g. `ticketmaster.evyy.net`) by the Ticketmaster
-      tag and **not** by the SeatGeek tag.
-- [ ] Raw SeatGeek anchor: initial `href` host is `seatgeek.com`. After 2s, it
-      shows a SeatGeek Impact-branded host (the SeatGeek tag's transform target)
-      and **not** a Ticketmaster Impact host.
-- [ ] No anchor is transformed by both tags. The `changed` column shows `yes`
-      for the raw provider anchors and `no` for the `/api/out` controls.
+      After 2s, the diagnostic row shows verdict `transformed`. The host may
+      stay `www.ticketmaster.com`; pass is determined by the `affiliate params
+      present` column being `yes` (e.g. `clickid`, `irgwc`, `camefrom`,
+      `impradid`, `wt.mc_id`) or by the full href changing. Confirm via the
+      `<details>` block that the post-load href contains Ticketmaster Impact
+      campaign params and not SeatGeek-account params.
+- [ ] Raw SeatGeek anchor: initial `href` host is `seatgeek.com`. After 2s, the
+      verdict shows `transformed` — driven by tracking params or a full href
+      change introduced by the SeatGeek tag, not by the Ticketmaster tag.
+- [ ] No anchor is transformed by both tags. Each `raw-*` row's verdict is
+      `transformed`; each `out-*` row's verdict is `untouched (expected)`.
 - [ ] `/api/out` Ticketmaster control: initial `href` host is the page origin.
       Post-load host is still the page origin (i.e. neither tag rewrote it).
 - [ ] `/api/out` SeatGeek control: same as above. Untouched by either tag.

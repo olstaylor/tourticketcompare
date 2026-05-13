@@ -551,4 +551,14 @@ const authdDebugJson = await debugResponse.json();
 assert(authdDebugJson.ok === true && authdDebugJson.event, "/api/debug-seatgeek authorised should return event details");
 assert(authdDebugJson.config.seatgeek_configured === false, "/api/debug-seatgeek authorised should show SeatGeek config status");
 
+// Verify SeatGeek API gating works
+outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek");
+assert(outResponse.status === 400, "SeatGeek CTA should be blocked without IMPACT_SEATGEEK_PROGRAM_ID");
+const seatgeekBlockedJson = await outResponse.json();
+assert(seatgeekBlockedJson.status === "provider_not_configured", "SeatGeek should report missing Impact config");
+
+// Verify Ticketmaster still works
+outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster`);
+assert(outResponse.status === 302, "Ticketmaster redirect should still work");
+
 console.log("Cloudflare Pages MVP smoke checks passed");

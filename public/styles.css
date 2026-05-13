@@ -287,6 +287,27 @@ h3 {
   background: rgba(215, 91, 47, 0.1);
 }
 
+.cta-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cta-group .button {
+  flex: 1;
+  min-width: 140px;
+}
+
+@media (max-width: 640px) {
+  .cta-group {
+    flex-direction: column;
+  }
+
+  .cta-group .button {
+    width: 100%;
+  }
+}
+
 .trust-ledger {
   display: grid;
   align-content: center;

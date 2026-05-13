@@ -430,8 +430,7 @@ const invalidSeatGeekEnv = {
     async fetch(request) {
       const url = new URL(request.url);
       if (url.pathname === "/data/events.json") return new Response(invalidSeatGeekEventsJson, { status: 200 });
-      const body = assetMap.get(url.pathname);
-      return body == null ? new Response("not found", { status: 404 }) : new Response(body, { status: 200 });
+      return seatGeekConfiguredEnv.ASSETS.fetch(request);
     }
   }
 };

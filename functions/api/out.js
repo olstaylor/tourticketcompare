@@ -182,14 +182,30 @@ async function loadEventsFromAssets(env) {
   }
 }
 
+function eventUrlContainsTicketmasterId(redirect, eventId) {
+  const expected = clean(eventId, 255).toLowerCase();
+  if (!expected) return true;
+
+  const pathSegments = redirect.pathname
+    .split("/")
+    .map((segment) => decodeURIComponent(segment).toLowerCase());
+  if (pathSegments.includes(expected)) return true;
+
+  return redirect.toString().toLowerCase().includes(encodeURIComponent(expected).toLowerCase());
+}
+
 function validateTicketmasterEventUrl(event, providerConfig) {
-  const redirect = validateConfiguredRedirect(providerConfig, event?.ticketmaster_url);
-  if (!redirect) return null;
-
+  const candidates = [event?.ticketmaster_url, event?.source_url];
   const eventId = clean(event?.ticketmaster_event_id, 255);
-  if (eventId && !redirect.toString().includes(eventId)) return null;
 
-  return redirect;
+  for (const candidate of candidates) {
+    const redirect = validateConfiguredRedirect(providerConfig, candidate);
+    if (!redirect) continue;
+    if (!eventUrlContainsTicketmasterId(redirect, eventId)) continue;
+    return redirect;
+  }
+
+  return null;
 }
 
 // SeatGeek event URLs must be pre-approved in event data. The SeatGeek API is

@@ -235,6 +235,12 @@ function validateTicketmasterEventUrl(event, providerConfig) {
 function validateSeatGeekEventUrl(seatGeekUrl, providerConfig) {
   const redirect = validateConfiguredRedirect(providerConfig, seatGeekUrl);
   if (!redirect || redirect.protocol !== "https:") return null;
+  const host = redirect.hostname.toLowerCase();
+  if (host !== "seatgeek.com" && host !== "www.seatgeek.com") return null;
+  const path = decodeURIComponent(redirect.pathname || "/").replace(/\/+$/, "");
+  if (!path || path === "/") return null;
+  if (/^\/(search|venues?|performers?|artists?|concert-tickets|tickets)(?:\/|$)/i.test(path)) return null;
+  if (!/\/(concert|sports|theater|theatre)\/\d+$/i.test(path)) return null;
   return redirect;
 }
 

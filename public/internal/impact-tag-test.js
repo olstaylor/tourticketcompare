@@ -54,7 +54,7 @@
     }
   }
 
-  function detectTrackingParams(href) {
+  function queryParamNames(href) {
     if (!href) return [];
     var url;
     try {
@@ -62,17 +62,47 @@
     } catch (err) {
       return [];
     }
-    // Build a lowercase key set once so detection is case-insensitive while
-    // still reporting the canonical TRACKING_PARAMS spelling.
-    var present = {};
+    var seen = {};
+    var names = [];
     url.searchParams.forEach(function (_value, key) {
-      present[key.toLowerCase()] = true;
+      var normalized = key.toLowerCase();
+      if (seen[normalized]) return;
+      seen[normalized] = true;
+      names.push(key);
     });
+    return names;
+  }
+
+  function detectTrackingParams(href) {
+    var presentNames = queryParamNames(href);
+    var present = {};
+    for (var i = 0; i < presentNames.length; i++) {
+      present[presentNames[i].toLowerCase()] = true;
+    }
     var found = [];
-    for (var i = 0; i < TRACKING_PARAMS.length; i++) {
-      if (present[TRACKING_PARAMS[i].toLowerCase()]) found.push(TRACKING_PARAMS[i]);
+    for (var j = 0; j < TRACKING_PARAMS.length; j++) {
+      if (present[TRACKING_PARAMS[j].toLowerCase()]) found.push(TRACKING_PARAMS[j]);
     }
     return found;
+  }
+
+  function addedQueryParamNames(initialHref, finalHref) {
+    var initialNames = queryParamNames(initialHref);
+    var finalNames = queryParamNames(finalHref);
+    var initialSeen = {};
+    for (var i = 0; i < initialNames.length; i++) {
+      initialSeen[initialNames[i].toLowerCase()] = true;
+    }
+    var addedSeen = {};
+    var added = [];
+    for (var j = 0; j < finalNames.length; j++) {
+      var normalized = finalNames[j].toLowerCase();
+      if (!initialSeen[normalized] && !addedSeen[normalized]) {
+        addedSeen[normalized] = true;
+        added.push(finalNames[j]);
+      }
+    }
+    return added;
   }
 
   function escapeHtml(value) {
@@ -144,24 +174,33 @@
     return rows;
   }
 
-  function classifyRow(testId, initialHref, finalHref, paramsFound) {
+  function classifyRow(testId, initialHref, finalHref, paramsFound, addedParams) {
     var disabled = !initialHref && !finalHref;
     if (disabled) return { kind: "disabled", text: "disabled (no href)" };
 
     var hrefChanged = initialHref !== finalHref;
     var hasParams = paramsFound.length > 0;
+    var hasAddedParams = addedParams.length > 0;
     var isRaw = /^raw-/.test(testId);
     var isOut = /^out-/.test(testId);
 
     if (isRaw) {
-      if (hrefChanged || hasParams) return { kind: "pass", text: "transformed" };
+      if (hrefChanged || hasParams || hasAddedParams) return { kind: "pass", text: "transformed" };
       return { kind: "fail", text: "not transformed" };
     }
     if (isOut) {
-      if (!hrefChanged && !hasParams) return { kind: "pass", text: "untouched (expected)" };
+      if (!hrefChanged && !hasParams && !hasAddedParams) return { kind: "pass", text: "untouched (expected)" };
       return { kind: "fail", text: "unexpectedly altered" };
     }
     return { kind: "info", text: "n/a" };
+  }
+
+
+  function paramListCell(params) {
+    if (!params.length) return '<span class="muted">none</span>';
+    return params.map(function (p) {
+      return '<code>' + escapeHtml(p) + '</code>';
+    }).join(" ");
   }
 
   function hrefCell(href) {
@@ -187,13 +226,15 @@
       var finalHref = b.href || "";
       var initialHost = a.host || "";
       var finalHost = b.host || "";
+      var hostChanged = (initialHost || finalHost) && initialHost !== finalHost;
       var hrefChanged = (initialHref || finalHref) && initialHref !== finalHref;
       var params = detectTrackingParams(finalHref);
-      var verdict = classifyRow(a.testId, initialHref, finalHref, params);
+      var addedParams = addedQueryParamNames(initialHref, finalHref);
+      var trackingLikely = hrefChanged && addedParams.length > 0;
+      var verdict = classifyRow(a.testId, initialHref, finalHref, params, addedParams);
 
-      var paramsCell = params.length
-        ? params.map(function (p) { return '<code>' + escapeHtml(p) + '</code>'; }).join(" ")
-        : '<span class="muted">none</span>';
+      var paramsCell = paramListCell(params);
+      var addedParamsCell = paramListCell(addedParams);
 
       rows.push(
         '<tr class="row-' + escapeHtml(verdict.kind) + '">' +
@@ -204,9 +245,12 @@
         '<td>' + escapeHtml(finalHost || "—") + '</td>' +
         '<td>' + hrefCell(initialHref) + '</td>' +
         '<td>' + hrefCell(finalHref) + '</td>' +
+        '<td>' + (hostChanged ? "yes" : "no") + '</td>' +
         '<td>' + (hrefChanged ? "yes" : "no") + '</td>' +
         '<td>' + (params.length ? "yes" : "no") + '</td>' +
         '<td>' + paramsCell + '</td>' +
+        '<td>' + addedParamsCell + '</td>' +
+        '<td>' + (trackingLikely ? "yes" : "no") + '</td>' +
         '<td class="verdict verdict-' + escapeHtml(verdict.kind) + '">' + escapeHtml(verdict.text) + '</td>' +
         '</tr>'
       );
@@ -220,9 +264,12 @@
       "<th>post-load host</th>" +
       "<th>initial href</th>" +
       "<th>post-load href</th>" +
+      "<th>host changed</th>" +
       "<th>full href changed</th>" +
       "<th>affiliate params present</th>" +
-      "<th>detected params</th>" +
+      "<th>detected tracking params</th>" +
+      "<th>added query params</th>" +
+      "<th>tracking likely present</th>" +
       "<th>verdict</th>" +
       "</tr></thead><tbody>" + rows.join("") + "</tbody>";
   }

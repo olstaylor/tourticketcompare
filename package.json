@@ -24,6 +24,6 @@
     "test:providers": "npm run providers:validate"
   },
   "devDependencies": {
-    "wrangler": "^3.90.0"
+    "wrangler": "^4.90.0"
   }
 }

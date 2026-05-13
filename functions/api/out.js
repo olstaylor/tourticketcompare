@@ -210,9 +210,13 @@ function validateTicketmasterEventUrl(event, providerConfig) {
 
 // SeatGeek event URLs must be pre-approved in event data. The SeatGeek API is
 // intentionally not used in /api/out, so click-time redirects never run broad
-// SeatGeek search or auto-publish candidate matches.
+// SeatGeek search or auto-publish candidate matches. Event-level SeatGeek
+// destinations must be direct HTTPS SeatGeek URLs; no affiliate or HTTP
+// fallback is accepted before Impact tracking is applied.
 function validateSeatGeekEventUrl(event, providerConfig) {
-  return validateConfiguredRedirect(providerConfig, event?.seatgeek_url);
+  const redirect = validateConfiguredRedirect(providerConfig, event?.seatgeek_url);
+  if (!redirect || redirect.protocol !== "https:") return null;
+  return redirect;
 }
 
 async function resolveShowLink(env, showId, provider) {

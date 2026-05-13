@@ -582,6 +582,28 @@ const invalidSeatGeekOutResponse = await out(
 assert(invalidSeatGeekOutResponse.status === 400, "invalid stored SeatGeek event URL should not resolve through /api/out");
 const invalidSeatGeekOutJson = await invalidSeatGeekOutResponse.json();
 assert(invalidSeatGeekOutJson.status === "event_ticket_url_unavailable", "invalid stored SeatGeek event URL should fail with event_ticket_url_unavailable");
+const httpSeatGeekEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? { ...event, seatgeek_url: CONTROLLED_SEATGEEK_URL.replace("https://", "http://") }
+  : event));
+const httpSeatGeekEnv = {
+  ...seatGeekConfiguredEnv,
+  ASSETS: {
+    async fetch(request) {
+      const url = new URL(request.url);
+      if (url.pathname === "/data/events.json") return new Response(httpSeatGeekEventsJson, { status: 200 });
+      return seatGeekConfiguredEnv.ASSETS.fetch(request);
+    }
+  }
+};
+outResponse = await out(
+  `/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=seatgeek`,
+  "GET",
+  null,
+  httpSeatGeekEnv
+);
+assert(outResponse.status === 400, "HTTP SeatGeek event URL should not resolve through /api/out");
+const httpSeatGeekJson = await outResponse.json();
+assert(httpSeatGeekJson.status === "event_ticket_url_unavailable", "HTTP SeatGeek event URL should fail with event_ticket_url_unavailable");
 const impactTrackingUrl = "https://ticketmaster.evyy.net/c/123456/98765/101010";
 try {
   globalThis.fetch = async (request, options = {}) => {

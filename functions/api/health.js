@@ -26,10 +26,16 @@ export async function onRequestGet({ env }) {
     },
     bindings: {
       demandDb: hasBinding(env, "DEMAND_DB"),
-      impactAccountSid: hasBinding(env, "IMPACT_ACCOUNT_SID"),
-      impactAuthToken: hasBinding(env, "IMPACT_AUTH_TOKEN"),
-      impactDefaultProgramId: hasBinding(env, "IMPACT_DEFAULT_PROGRAM_ID"),
-      impactTicketmasterProgramId: hasBinding(env, "IMPACT_TICKETMASTER_PROGRAM_ID")
+      impactTicketmasterAccountSid: hasBinding(env, "IMPACT_TICKETMASTER_ACCOUNT_SID"),
+      impactTicketmasterAuthToken: hasBinding(env, "IMPACT_TICKETMASTER_AUTH_TOKEN"),
+      impactTicketmasterProgramId: hasBinding(env, "IMPACT_TICKETMASTER_PROGRAM_ID"),
+      impactSeatGeekAccountSid: hasBinding(env, "IMPACT_SEATGEEK_ACCOUNT_SID"),
+      impactSeatGeekAuthToken: hasBinding(env, "IMPACT_SEATGEEK_AUTH_TOKEN"),
+      impactSeatGeekProgramId: hasBinding(env, "IMPACT_SEATGEEK_PROGRAM_ID"),
+      seatGeekClientId: hasBinding(env, "SEATGEEK_CLIENT_ID"),
+      seatGeekClientSecret: hasBinding(env, "SEATGEEK_CLIENT_SECRET"),
+      legacyImpactAccountSid: hasBinding(env, "IMPACT_ACCOUNT_SID"),
+      legacyImpactAuthToken: hasBinding(env, "IMPACT_AUTH_TOKEN")
     }
   });
 }

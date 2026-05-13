@@ -228,11 +228,6 @@ async function resolveShowLink(env, showId, provider) {
     const redirect = validateConfiguredRedirect(PROVIDERS.seatgeek, seatgeekUrl);
     if (!redirect) return { ok: false, status: "invalid_seatgeek_url" };
 
-    const impactTrackingUrl = await createImpactTrackingUrl(env, redirect.toString());
-    if (!impactTrackingUrl) return { ok: false, status: "event_ticket_url_unavailable" };
-    const outbound = safeUrl(impactTrackingUrl);
-    if (!outbound) return { ok: false, status: "event_ticket_url_unavailable" };
-
     return {
       ok: true,
       link: {
@@ -240,10 +235,10 @@ async function resolveShowLink(env, showId, provider) {
         provider: "seatgeek",
         linkId: clean(event.id, 255),
         showId: clean(event.id, 255),
-        redirectUrl: outbound.toString(),
+        redirectUrl: redirect.toString(),
         verified: true
       },
-      redirect: outbound
+      redirect
     };
   }
 
@@ -261,12 +256,25 @@ function seatgeekConfig(env = {}) {
 }
 
 function impactConfig(env = {}, provider = "ticketmaster") {
-  const accountSid = clean(env?.IMPACT_ACCOUNT_SID, 255);
-  const authToken = clean(env?.IMPACT_AUTH_TOKEN, 255);
-  const programId = provider === "seatgeek"
-    ? clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120)
-    : clean(env?.IMPACT_TICKETMASTER_PROGRAM_ID, 120);
+  const normalizedProvider = providerKey(provider || "ticketmaster");
   const apiBase = clean(env?.IMPACT_API_BASE_URL || DEFAULT_IMPACT_API_BASE, 2048).replace(/\/+$/, "");
+
+  if (normalizedProvider === "seatgeek") {
+    const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
+    const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
+    const programId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
+    return {
+      accountSid,
+      authToken,
+      programId,
+      apiBase,
+      configured: Boolean(accountSid && authToken && programId)
+    };
+  }
+
+  const accountSid = clean(env?.IMPACT_TICKETMASTER_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
+  const authToken = clean(env?.IMPACT_TICKETMASTER_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+  const programId = clean(env?.IMPACT_TICKETMASTER_PROGRAM_ID, 120);
   return {
     accountSid,
     authToken,
@@ -338,8 +346,8 @@ function validateImpactTrackingUrl(value) {
   return safeUrl(value);
 }
 
-async function createImpactTrackingUrl(env, deepLink) {
-  const config = impactConfig(env);
+async function createImpactTrackingUrl(env, deepLink, provider = "ticketmaster") {
+  const config = impactConfig(env, provider);
   if (!config.configured) return null;
 
   const verifiedDeepLink = safeUrl(deepLink);
@@ -460,7 +468,10 @@ async function handleOut(request, env, mode) {
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
     }
 
-    const impactTrackingUrl = await createImpactTrackingUrl(env, resolved.redirect.toString());
+    const impactTrackingUrl = await createImpactTrackingUrl(env, resolved.redirect.toString(), provider);
+    if (provider === "seatgeek" && !impactTrackingUrl) {
+      return json({ ok: false, status: "event_ticket_url_unavailable" }, 400);
+    }
     const outboundUrl = impactTrackingUrl || resolved.redirect.toString();
     const outbound = safeUrl(outboundUrl) || resolved.redirect;
 

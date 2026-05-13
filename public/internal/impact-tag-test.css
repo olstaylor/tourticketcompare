@@ -35,3 +35,29 @@ th, td {
 }
 th { background: #f5f1e8; }
 code { background: #f5f1e8; padding: 0 4px; border-radius: 4px; }
+.muted { color: #8a8a82; }
+.href-details > summary { cursor: pointer; list-style: revert; }
+.href-preview {
+  display: inline-block;
+  max-width: 360px;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+.href-full {
+  display: block;
+  margin-top: 6px;
+  padding: 6px 8px;
+  background: #f5f1e8;
+  border-radius: 4px;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  user-select: all;
+  font-size: 0.85rem;
+}
+.verdict { font-weight: 600; }
+.verdict-pass { color: #1d6b2c; }
+.verdict-fail { color: #8f341e; }
+.verdict-disabled,
+.verdict-info { color: #5f675f; font-weight: 500; }
+.row-fail td { background: #fdf4f1; }
+.row-pass td { background: #f3faf4; }

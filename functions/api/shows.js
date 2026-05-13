@@ -426,17 +426,17 @@ function hasImpactCredentials(env) {
   return Boolean(String(env?.IMPACT_ACCOUNT_SID || "").trim() && String(env?.IMPACT_AUTH_TOKEN || "").trim());
 }
 
+// Public SeatGeek CTA availability is tied to Impact affiliate-link creation,
+// not to SeatGeek API discovery credentials. SeatGeek API credentials are only
+// for debug/future proposal tooling and should not gate approved event URLs.
 function hasSeatGeekProviderConfig(env = {}) {
-  return Boolean(
-    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim() &&
-    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || "").trim() &&
-    String(env?.IMPACT_SEATGEEK_PROGRAM_ID || "").trim()
+  const hasBaseTrackingUrl = Boolean(String(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL || "").trim());
+  const hasImpactApiConfig = Boolean(
+    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_CAMPAIGN_ID || env?.IMPACT_SEATGEEK_PROGRAM_ID || "").trim()
   );
-}
-
-function hostnameAllowed(hostname, allowedHosts) {
-  const host = String(hostname || "").toLowerCase();
-  return allowedHosts.some((allowed) => host === allowed || host.endsWith(`.${allowed}`));
+  return hasBaseTrackingUrl || hasImpactApiConfig;
 }
 
 function validSeatGeekEventUrl(value) {
@@ -445,8 +445,13 @@ function validSeatGeekEventUrl(value) {
   if (!trimmed || isLikelyPlaceholderUrl(trimmed)) return null;
   try {
     const parsed = new URL(trimmed);
-    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return null;
-    return hostnameAllowed(parsed.hostname, ["seatgeek.com"]) ? parsed.toString() : null;
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (host !== "seatgeek.com" && host !== "www.seatgeek.com") return null;
+    if (!path || path === "/") return null;
+    if (/^\/(search|venues?|performers?|artists?|concert-tickets|tickets)(?:\/|$)/i.test(path)) return null;
+    return /\/(concert|sports|theater|theatre)\/\d+$/i.test(path) ? parsed.toString() : null;
   } catch (err) {
     return null;
   }

@@ -468,8 +468,14 @@ function safeSeatGeekTicketUrl(value) {
   const safeUrl = safeShowTicketUrl(value);
   if (!safeUrl) return null;
   try {
-    const host = new URL(safeUrl).hostname.toLowerCase();
-    return host === "seatgeek.com" || host.endsWith(".seatgeek.com") ? safeUrl : null;
+    const parsed = new URL(safeUrl);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (host !== "seatgeek.com" && host !== "www.seatgeek.com") return null;
+    if (!path || path === "/") return null;
+    if (/^\/(search|venues?|performers?|artists?|concert-tickets|tickets)(?:\/|$)/i.test(path)) return null;
+    return /\/(concert|sports|theater|theatre)\/\d+$/i.test(path) ? safeUrl : null;
   } catch (error) {
     return null;
   }
@@ -484,10 +490,11 @@ function clean(value, max = 255) {
 }
 
 function isSeatGeekConfigured(env = {}) {
-  const impactSeatGeekAccountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
-  const impactSeatGeekAuthToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
-  const impactSeatGeekProgramId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
-  return Boolean(impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId);
+  const impactSeatGeekBaseTrackingUrl = clean(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL, 2048);
+  const impactSeatGeekAccountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
+  const impactSeatGeekAuthToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+  const impactSeatGeekProgramId = clean(env?.IMPACT_SEATGEEK_CAMPAIGN_ID || env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
+  return Boolean(impactSeatGeekBaseTrackingUrl || (impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId));
 }
 
 function renderShowCardServerHtml(show, seatGeekAvailable = false) {
@@ -500,10 +507,10 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
     const ticketmasterCta = `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}`;
     const disclosure = `<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`;
 
-    // SeatGeek CTA appears only if /api/out can resolve a configured event-level SeatGeek URL.
+    // SeatGeek CTA appears only when redirects are configured and /api/out can resolve the stored event-level SeatGeek URL.
     if (seatGeekOutAvailable(show, seatGeekAvailable)) {
       const seatGeekCta = `${anchor("Check SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-secondary")}`;
-      ctaHtml = `<div class="cta-group">${ticketmasterCta}${seatGeekCta}</div><p class="disclosure-note">Prices, fees and availability are confirmed on SeatGeek. External ticketing sites set checkout terms and refund policies.</p>`;
+      ctaHtml = `<div class="cta-group">${ticketmasterCta}${seatGeekCta}</div><p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>`;
     } else {
       ctaHtml = `${ticketmasterCta}${disclosure}`;
     }

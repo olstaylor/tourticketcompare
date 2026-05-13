@@ -918,8 +918,14 @@ function safeSeatGeekEventUrl(value) {
   const safeUrl = safeVerifiedEventUrl(value);
   if (!safeUrl) return null;
   try {
-    const host = new URL(safeUrl).hostname.toLowerCase();
-    return host === "seatgeek.com" || host.endsWith(".seatgeek.com") ? safeUrl : null;
+    const parsed = new URL(safeUrl);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (host !== "seatgeek.com" && host !== "www.seatgeek.com") return null;
+    if (!path || path === "/") return null;
+    if (/^\/(search|venues?|performers?|artists?|concert-tickets|tickets)(?:\/|$)/i.test(path)) return null;
+    return /\/(concert|sports|theater|theatre)\/\d+$/i.test(path) ? safeUrl : null;
   } catch (error) {
     return null;
   }
@@ -959,7 +965,7 @@ function renderShowCard(show, options = {}) {
         ctaGroup.className = "cta-group";
         ctaGroup.append(cta, seatGeekCta);
         article.append(ctaGroup);
-        text(article, "p", "Prices, fees and availability are confirmed on SeatGeek. External ticketing sites set checkout terms and refund policies.", "disclosure-note");
+        text(article, "p", "SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.", "disclosure-note");
       } else {
         article.append(cta);
         text(article, "p", "External ticketing sites set prices, fees, availability, and checkout terms.", "disclosure-note");

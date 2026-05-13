@@ -6,6 +6,7 @@ import json
 import re
 import sys
 from datetime import datetime
+from urllib.parse import unquote, urlparse
 from pathlib import Path
 from typing import Any
 
@@ -54,6 +55,69 @@ def is_placeholder_url(value: Any) -> bool:
     return any(marker in v for marker in PLACEHOLDER_MARKERS) or any(
         pattern.search(v) for pattern in PLACEHOLDER_PATTERNS
     )
+
+
+def parse_url(value: Any):
+    if not isinstance(value, str):
+        return None
+    raw = value.strip()
+    if raw == "":
+        return None
+    try:
+        parsed = urlparse(raw)
+    except Exception:
+        return None
+    if not parsed.scheme or not parsed.netloc:
+        return None
+    return parsed
+
+
+def is_seatgeek_event_url(value: Any) -> tuple[bool, str]:
+    if value is None or (isinstance(value, str) and value.strip() == ""):
+        return True, ""
+    if not isinstance(value, str):
+        return False, "must be empty or a SeatGeek event URL string"
+
+    raw = value.strip()
+    parsed = parse_url(raw)
+    if parsed is None:
+        return False, "must be a valid absolute URL"
+    if parsed.scheme.lower() != "https":
+        return False, "must use https"
+
+    host = (parsed.hostname or "").lower()
+    if host not in {"seatgeek.com", "www.seatgeek.com"}:
+        return False, "host must be seatgeek.com or www.seatgeek.com"
+
+    if is_placeholder_url(raw):
+        return False, "placeholder/example URL is not allowed"
+
+    path = unquote(parsed.path or "/").strip()
+    normalized_path = path.rstrip("/")
+    if normalized_path in {"", "/"}:
+        return False, "must not be the SeatGeek homepage"
+
+    first_segment = normalized_path.split("/")[1].lower() if normalized_path.startswith("/") and len(normalized_path.split("/")) > 1 else ""
+    if first_segment in {"search", "venues", "venue", "performers", "performer", "artists", "artist", "concert-tickets", "tickets"}:
+        return False, "must be an event-specific SeatGeek URL, not a generic search/artist/venue URL"
+
+    # SeatGeek event pages for concerts use paths ending in /concert/<numeric id>.
+    # Accept a small set of event-category segments so validation remains event-page
+    # oriented without requiring a single artist-specific URL shape.
+    if not re.search(r"/(concert|sports|theater|theatre)/\d+$", normalized_path, re.IGNORECASE):
+        return False, "must look like an event URL ending in /concert/<id> or another event category with a numeric id"
+
+    return True, ""
+
+
+def provider_link_value(event: dict[str, Any], provider: str, field: str) -> Any:
+    provider_links = event.get("provider_links")
+    if not isinstance(provider_links, dict):
+        return None
+    provider_data = provider_links.get(provider)
+    if not isinstance(provider_data, dict):
+        return None
+    return provider_data.get(field)
 
 
 def main() -> int:
@@ -176,6 +240,29 @@ def main() -> int:
                 errors.append(f"{prefix}.{url_field}: must be http(s) URL or empty")
             elif args.reject_placeholder_urls and is_placeholder_url(event.get(url_field)):
                 errors.append(f"{prefix}.{url_field}: placeholder/example URL is not allowed")
+
+        seatgeek_url = event.get("seatgeek_url")
+        seatgeek_ok, seatgeek_error = is_seatgeek_event_url(seatgeek_url)
+        if not seatgeek_ok:
+            errors.append(f"{prefix}.seatgeek_url: {seatgeek_error}")
+
+        provider_seatgeek_url = provider_link_value(event, "seatgeek", "url")
+        if provider_seatgeek_url not in (None, ""):
+            provider_ok, provider_error = is_seatgeek_event_url(provider_seatgeek_url)
+            if not provider_ok:
+                errors.append(f"{prefix}.provider_links.seatgeek.url: {provider_error}")
+            top_level = seatgeek_url.strip() if isinstance(seatgeek_url, str) else ""
+            provider_level = provider_seatgeek_url.strip() if isinstance(provider_seatgeek_url, str) else ""
+            if top_level and provider_level and top_level != provider_level:
+                errors.append(f"{prefix}.provider_links.seatgeek.url: must match top-level seatgeek_url when both are present")
+            elif provider_level and not top_level:
+                errors.append(f"{prefix}.provider_links.seatgeek.url: must also be present in top-level seatgeek_url before public CTA use")
+
+        provider_seatgeek_verified = provider_link_value(event, "seatgeek", "verified")
+        if isinstance(seatgeek_url, str) and seatgeek_url.strip() and provider_seatgeek_url in (None, "") and provider_seatgeek_verified is True:
+            errors.append(f"{prefix}.provider_links.seatgeek.verified: cannot be true when provider_links.seatgeek.url is empty and top-level seatgeek_url is used")
+        if provider_seatgeek_url not in (None, "") and provider_seatgeek_verified is True and isinstance(seatgeek_url, str) and seatgeek_url.strip() and provider_seatgeek_url.strip() != seatgeek_url.strip():
+            errors.append(f"{prefix}.provider_links.seatgeek.verified: cannot be true for a URL that differs from top-level seatgeek_url")
 
         if args.require_affiliate_urls:
             for url_field in ("ticketmaster_url", "seatgeek_url", "vividseats_url"):

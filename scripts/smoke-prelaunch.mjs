@@ -31,6 +31,7 @@ const homepageDescription = "Find checked ticket links for major tours, read pra
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://utt.impactcdn.com; connect-src 'self' https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
+const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
 const EXPECTED_OUT_VERSION = "seatgeek-impact-diagnostics-2026-05-13";
 const routeMarkers = new Map([
   ["/artists", "Ticket buttons appear only when the destination has been checked"],
@@ -422,13 +423,23 @@ const seatGeekConfiguredEnv = {
   IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token",
   IMPACT_SEATGEEK_PROGRAM_ID: "sg-program"
 };
+const seatGeekBaseTrackingEnv = {
+  ...env,
+  IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL
+};
 const configuredShowsResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
   env: seatGeekConfiguredEnv
 });
 const configuredShowsJson = await configuredShowsResponse.json();
-assert(configuredShowsJson.providerAvailability?.seatgeek === true, "/api/shows should expose only a safe true SeatGeek availability flag when configured");
-const serverMorganWithSeatGeek = await routeResponse("/artists/morgan-wallen", seatGeekConfiguredEnv);
+assert(configuredShowsJson.providerAvailability?.seatgeek === true, "/api/shows should expose only a safe true SeatGeek availability flag when the Impact API fallback is configured");
+const baseTrackingShowsResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
+  env: seatGeekBaseTrackingEnv
+});
+const baseTrackingShowsJson = await baseTrackingShowsResponse.json();
+assert(baseTrackingShowsJson.providerAvailability?.seatgeek === true, "/api/shows should expose a safe true SeatGeek availability flag when the base tracking URL is configured");
+const serverMorganWithSeatGeek = await routeResponse("/artists/morgan-wallen", seatGeekBaseTrackingEnv);
 assert((serverMorganWithSeatGeek.text.match(/Check SeatGeek/g) || []).length === 1, "server-rendered Morgan Wallen page should show exactly one SeatGeek CTA when configured");
 assert(serverMorganWithSeatGeek.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "server-rendered SeatGeek CTA should target the controlled show through /api/out");
 assert(serverMorganWithSeatGeek.text.includes("Prices, fees and availability are confirmed on SeatGeek."), "server-rendered SeatGeek CTA should include safe supporting copy");
@@ -436,12 +447,12 @@ const invalidSeatGeekEventsJson = JSON.stringify(events.map((event) => event.id 
   ? { ...event, seatgeek_url: "https://example.com/not-a-valid-seatgeek-event" }
   : event));
 const invalidSeatGeekEnv = {
-  ...seatGeekConfiguredEnv,
+  ...seatGeekBaseTrackingEnv,
   ASSETS: {
     async fetch(request) {
       const url = new URL(request.url);
       if (url.pathname === "/data/events.json") return new Response(invalidSeatGeekEventsJson, { status: 200 });
-      return seatGeekConfiguredEnv.ASSETS.fetch(request);
+      return seatGeekBaseTrackingEnv.ASSETS.fetch(request);
     }
   }
 };
@@ -566,12 +577,11 @@ const originalFetch = globalThis.fetch;
 const renderedSeatGeekShowIds = [...serverMorganWithSeatGeek.text.matchAll(/showId=([^&"]+)&amp;provider=seatgeek/g)].map((match) => decodeURIComponent(match[1]));
 assert(renderedSeatGeekShowIds.length === 1, "regression check should find exactly one rendered SeatGeek CTA showId");
 try {
-  globalThis.fetch = async () => new Response(JSON.stringify({ TrackingURL: "https://seatgeek.com/impact-tracked/rendered-cta" }), {
-    status: 200,
-    headers: { "content-type": "application/json" }
-  });
+  globalThis.fetch = async () => {
+    throw new Error("SeatGeek base tracking redirects should not call the Impact API");
+  };
   for (const showId of renderedSeatGeekShowIds) {
-    outResponse = await out(`/api/out?showId=${encodeURIComponent(showId)}&provider=seatgeek`, "GET", null, seatGeekConfiguredEnv);
+    outResponse = await out(`/api/out?showId=${encodeURIComponent(showId)}&provider=seatgeek`, "GET", null, seatGeekBaseTrackingEnv);
     assert(outResponse.status === 302, `rendered SeatGeek CTA for ${showId} should resolve through /api/out`);
     assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "rendered SeatGeek CTA redirects should include the temporary production proof header");
   }
@@ -695,6 +705,73 @@ outResponse = await out(
 assert(outResponse.status === 400, "SeatGeek API discovery credentials alone should not enable controlled SeatGeek redirects");
 const apiOnlySeatGeekShowJson = await outResponse.json();
 assert(apiOnlySeatGeekShowJson.status === "impact_missing_credentials", "SeatGeek showId redirects should require Impact config, not SeatGeek API credentials");
+
+try {
+  globalThis.fetch = async () => {
+    throw new Error("SeatGeek base tracking redirects should not call the Impact API");
+  };
+
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
+    "GET",
+    null,
+    seatGeekBaseTrackingEnv
+  );
+  assert(outResponse.status === 302, "SeatGeek base tracking URL should produce a 302 redirect");
+  const baseLocation = outResponse.headers.get("location");
+  assert(baseLocation.startsWith(CONTROLLED_SEATGEEK_BASE_TRACKING_URL), "SeatGeek base tracking redirect should start with the configured pxf.io base URL");
+  const baseLocationUrl = new URL(baseLocation);
+  assert(baseLocationUrl.searchParams.getAll("u").length === 1, "SeatGeek base tracking redirect should include exactly one u parameter");
+  assert(baseLocationUrl.searchParams.get("u") === CONTROLLED_SEATGEEK_URL, "SeatGeek base tracking redirect should deep-link to the exact stored SeatGeek event URL");
+
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
+    "GET",
+    null,
+    {
+      ...env,
+      IMPACT_SEATGEEK_BASE_TRACKING_URL: `${CONTROLLED_SEATGEEK_BASE_TRACKING_URL}?subId=abc123&u=https%3A%2F%2Fold.example%2Fstale`
+    }
+  );
+  assert(outResponse.status === 302, "SeatGeek base tracking URL with existing params should still redirect");
+  const replacedLocationUrl = new URL(outResponse.headers.get("location"));
+  assert(replacedLocationUrl.searchParams.getAll("u").length === 1, "SeatGeek base tracking redirect should replace an existing u parameter instead of duplicating it");
+  assert(replacedLocationUrl.searchParams.get("u") === CONTROLLED_SEATGEEK_URL, "SeatGeek base tracking redirect should replace stale u values with the stored SeatGeek event URL");
+  assert(replacedLocationUrl.searchParams.get("subId") === "abc123", "SeatGeek base tracking redirect should preserve non-u query parameters");
+
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
+    "GET",
+    null,
+    {
+      ...env,
+      IMPACT_SEATGEEK_BASE_TRACKING_URL: "not a url"
+    }
+  );
+  assert(outResponse.status === 400, "Invalid SeatGeek base tracking URL should fail safely");
+  let baseTrackingJson = await outResponse.json();
+  assert(baseTrackingJson.status === "impact_base_tracking_url_invalid", "Invalid SeatGeek base tracking URL should report impact_base_tracking_url_invalid");
+  assert(!JSON.stringify(baseTrackingJson).includes(CONTROLLED_SEATGEEK_BASE_TRACKING_URL), "SeatGeek base tracking diagnostics must not expose the full base tracking URL");
+
+  outResponse = await out(
+    `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
+    "GET",
+    null,
+    {
+      ...env,
+      IMPACT_SEATGEEK_BASE_TRACKING_URL: "https://evil.example/eK6adX"
+    }
+  );
+  assert(outResponse.status === 400, "Disallowed SeatGeek base tracking host should fail safely");
+  baseTrackingJson = await outResponse.json();
+  assert(
+    ["impact_base_tracking_url_host_not_allowed", "impact_base_tracking_url_unsafe"].includes(baseTrackingJson.status),
+    "Disallowed SeatGeek base tracking host should report a safe base tracking URL status"
+  );
+  assert(!JSON.stringify(baseTrackingJson).includes("evil.example"), "SeatGeek base tracking diagnostics must not expose the configured disallowed host");
+} finally {
+  globalThis.fetch = originalFetch;
+}
 
 const seatGeekTrackingUrl = "https://seatgeek.com/impact-tracked/morgan-wallen";
 try {

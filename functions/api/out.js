@@ -1,6 +1,7 @@
 const PLACEHOLDER_URL_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1/i;
 const EVENTS_JSON_PATH = "/data/events.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
+const IMPACT_PXF_TRACKING_HOSTS = ["pxf.io"];
 // Temporary production proof header for /api/out. Remove after verifying
 // SeatGeek event URL-first redirects are live.
 const OUT_VERSION_HEADER = "seatgeek-impact-diagnostics-2026-05-13";
@@ -284,6 +285,52 @@ async function resolveShowLink(env, showId, provider) {
   }
 
   return { ok: false, status: "provider_not_configured" };
+}
+
+
+function hasSeatGeekBaseTrackingUrl(env = {}) {
+  return Boolean(clean(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL, 2048));
+}
+
+function validateImpactPxfBaseTrackingUrl(value) {
+  const raw = clean(value, 2048);
+  if (!raw || isPlaceholderUrl(raw)) {
+    return { ok: false, status: "impact_base_tracking_url_invalid" };
+  }
+
+  let parsed;
+  try {
+    parsed = new URL(raw);
+  } catch (error) {
+    return { ok: false, status: "impact_base_tracking_url_invalid" };
+  }
+
+  if (parsed.protocol !== "https:" || isUnsafeHost(parsed.hostname)) {
+    return { ok: false, status: "impact_base_tracking_url_unsafe" };
+  }
+
+  if (!hostnameAllowed(parsed.hostname, IMPACT_PXF_TRACKING_HOSTS)) {
+    return { ok: false, status: "impact_base_tracking_url_host_not_allowed" };
+  }
+
+  return { ok: true, url: parsed };
+}
+
+function buildSeatGeekBaseTrackingRedirect(env, destination) {
+  const configuredBase = clean(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL, 2048);
+  if (!configuredBase) return { ok: false, status: "impact_base_tracking_url_missing" };
+
+  const base = validateImpactPxfBaseTrackingUrl(configuredBase);
+  if (!base.ok) return base;
+
+  const destinationUrl = validateSeatGeekEventUrl(destination, PROVIDERS.seatgeek);
+  if (!destinationUrl) {
+    return { ok: false, status: "event_ticket_url_unavailable" };
+  }
+
+  const outbound = new URL(base.url.toString());
+  outbound.searchParams.set("u", destinationUrl.toString());
+  return { ok: true, trackingUrl: outbound.toString() };
 }
 
 function impactConfig(env = {}, provider = "ticketmaster") {
@@ -777,7 +824,14 @@ async function handleOut(request, env, mode) {
       // SeatGeek API search or broad fallback in this path.
       const destination = resolved.redirect.toString();
       const seatGeekImpactConfig = impactConfig(env, "seatgeek");
-      const impactTrackingResult = await createImpactTrackingUrlResult(env, destination, "seatgeek");
+      let impactTrackingResult = null;
+
+      if (hasSeatGeekBaseTrackingUrl(env)) {
+        impactTrackingResult = buildSeatGeekBaseTrackingRedirect(env, destination);
+      } else {
+        impactTrackingResult = await createImpactTrackingUrlResult(env, destination, "seatgeek");
+      }
+
       if (!impactTrackingResult.ok) {
         return json(seatGeekImpactFailurePayload(resolved, impactTrackingResult, seatGeekImpactConfig), 400);
       }

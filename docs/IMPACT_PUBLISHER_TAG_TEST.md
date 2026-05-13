@@ -2,9 +2,14 @@
 
 ## Purpose
 
-`/internal/impact-tag-test` is a noindex, token-gated test route used to compare
-the Ticketmaster Impact Publisher Tag and the SeatGeek Impact Publisher Tag on
-a single page **without** changing public CTA behaviour.
+`/internal/impact-tag-test` is a noindex, token-gated diagnostic route used
+to compare the Ticketmaster Impact Publisher Tag and the SeatGeek Impact
+Publisher Tag on a single page **without** changing public CTA behaviour.
+
+Ticketmaster production tracking is the known-good baseline. This page is a
+diagnostic helper for evaluating SeatGeek coexistence; it is not the source of
+truth for production attribution and must not be used to conclude that
+Ticketmaster production tracking is broken.
 
 The route is:
 
@@ -16,6 +21,20 @@ The route is:
 Production pages are unchanged. The SeatGeek Publisher Tag is loaded **only**
 on this route, via a separate global (`window.impactStatSG`) to reduce the risk
 of colliding with the existing site-wide Ticketmaster tag (`window.impactStat`).
+Do not add SeatGeek globally based on href snapshots alone.
+
+## Attribution interpretation rules
+
+Publisher Tags may transform links at page load, at click time, through visible
+query decoration, through a redirect chain, or in a way that is confirmed only
+by Impact dashboard reporting. A raw link that does not visibly change in the
+2-second snapshot window is therefore **not** enough evidence to conclude that
+attribution is failing. Treat the table as a local snapshot aid, then verify
+real click handling and dashboard reporting.
+
+Keep the `/api/out` controls as a fallback/reference path. They are expected to
+stay untouched by client-side tags and remain useful for comparing the existing
+server-side redirect path against raw Publisher Tag behaviour.
 
 ## Required environment variable
 
@@ -82,7 +101,7 @@ anchor with these columns:
 | `recognised params` | List of recognised affiliate query keys detected on the post-load href (see below). |
 | `added params` | Generic detector: query parameter names that exist post-load but were not present on the initial href. This helps assess SeatGeek if its tag uses different parameter names. |
 | `tracking likely` | `yes` when the full href changed and new query parameter names appeared after load. |
-| `verdict` | Per-row pass/fail based on the rules below. |
+| `diagnostic note` | Local snapshot note based on the rules below. This is not the final attribution verdict. |
 
 Tracked affiliate query keys (case-insensitive match): `irgwc`, `afsrc`,
 `clickid`, `camefrom`, `impradid`, `REFERRAL_ID`, `wt.mc_id`, `utm_source`,
@@ -93,21 +112,25 @@ successful transform. For SeatGeek, the exact parameter names may differ by
 account/tag, so the table also lists any new query parameter names that appeared
 after load.
 
-Per-row verdict logic:
+Per-row diagnostic-note logic:
 
-- `raw-*` row → **pass** if the full href changed, any recognised affiliate
-  param is present on the post-load href, **or** new query parameter names were
-  added after load; otherwise **fail** (`not transformed`). Host change is not
-  required.
-- `out-*` row → **pass** if the href is unchanged, no recognised affiliate
-  params are present, and no new query parameter names were added (the
-  `/api/out` redirect must not be decorated by either tag); otherwise **fail**
-  (`unexpectedly altered`).
+- `raw-*` row → `visible transform detected` if the full href changed, any
+  recognised affiliate param is present on the post-load href, **or** new query
+  parameter names were added after load. Host change is not required.
+- `raw-*` row with no visible post-load href change → `no visible href change;
+  verify click/dashboard`. This is an inconclusive diagnostic state, not a
+  failed attribution verdict, because a Publisher Tag may transform on click or
+  require Impact dashboard reporting to confirm attribution.
+- `out-*` row → `untouched (expected)` if the href is unchanged, no recognised
+  affiliate params are present, and no new query parameter names were added
+  (the `/api/out` redirect must not be decorated by either tag); otherwise
+  `unexpectedly altered`.
 - A row whose anchor was rendered as a disabled note (no href on either
   snapshot) is shown as `disabled (no href)` and is neither pass nor fail.
 
 The helper captures hrefs on `DOMContentLoaded` and again 2 seconds later. It
-sends nothing off-device.
+sends nothing off-device, and its snapshot output is not the source of truth for
+Impact attribution.
 
 ## Tag loading model
 
@@ -122,9 +145,10 @@ sends nothing off-device.
 ## CSP
 
 The internal route returns a route-scoped Content-Security-Policy. It allows
-`https://utt.impactcdn.com` (covers the Ticketmaster Publisher Tag) and, if
-`IMPACT_SEATGEEK_PUBLISHER_TAG_URL` is set, the exact origin of that URL is
-appended to `script-src` and `connect-src`. No `unsafe-inline`, no wildcards.
+`https://utt.impactcdn.com` (covers the Ticketmaster Publisher Tag) and, if a
+valid SeatGeek tag URL is supplied by `IMPACT_SEATGEEK_PUBLISHER_TAG_URL` or
+`?sgTagUrl=`, the exact origin of that URL is appended to `script-src` and
+`connect-src`. No `unsafe-inline`, no wildcards.
 
 `public/_headers` and the production CSP in `functions/[[path]].js` are
 **unchanged**.
@@ -135,20 +159,17 @@ Run each item in Chrome DevTools (Network + Console + Application > Cookies)
 on `/internal/impact-tag-test?token=<value>`:
 
 - [ ] Raw Ticketmaster anchor: initial `href` host is `www.ticketmaster.com`.
-      After 2s, the diagnostic row shows verdict `transformed`. The host may
-      stay `www.ticketmaster.com`; pass is determined by the `affiliate params
-      present` column being `yes` (e.g. `clickid`, `irgwc`, `camefrom`,
-      `impradid`, `wt.mc_id`), by `full href changed=yes`, or by new query
-      params appearing. Confirm via the `<details>` block that the post-load
-      href contains Ticketmaster Impact campaign params and not SeatGeek-account
-      params.
-- [ ] Raw SeatGeek anchor: initial `href` host is `seatgeek.com`. After 2s, the
-      verdict shows `transformed` — driven by recognised tracking params,
-      `full href changed=yes`, or the generic `added params` detector. The
-      host may remain `seatgeek.com`; confirm the change was introduced by the
-      SeatGeek tag and not by the Ticketmaster tag.
-- [ ] No anchor is transformed by both tags. Each `raw-*` row's verdict is
-      `transformed`; each `out-*` row's verdict is `untouched (expected)`.
+      Ticketmaster production tracking is already the known-good baseline, so
+      this row is only a control signal on the diagnostic page. Do not treat a
+      no-change Ticketmaster snapshot as proof that production Ticketmaster
+      tracking is broken.
+- [ ] Raw SeatGeek anchor: initial `href` host is `seatgeek.com`. A visible
+      href change, recognised tracking param, or added query param is useful
+      evidence, but no visible href change after 2 seconds is inconclusive.
+      Continue with click-through and Impact dashboard checks.
+- [ ] No anchor shows evidence of being transformed by both tags. Each `out-*`
+      row should show `untouched (expected)` so `/api/out` remains available as
+      the fallback/reference path.
 - [ ] `/api/out` Ticketmaster control: `initial href host` is the page origin.
       `post-load href host` is still the page origin, `full href changed=no`,
       `recognised params=none`, and `added params=none` (i.e. neither
@@ -159,9 +180,10 @@ on `/internal/impact-tag-test?token=<value>`:
         Ticketmaster Impact host, then to `ticketmaster.com`. No SeatGeek
         Impact host in the chain. The Ticketmaster Impact account dashboard
         records the click; the SeatGeek dashboard does not.
-  - [ ] Raw SeatGeek: redirect chain through the SeatGeek Impact host, then
-        `seatgeek.com`. No Ticketmaster Impact host in the chain. The SeatGeek
-        Impact dashboard records the click; the Ticketmaster dashboard does not.
+  - [ ] Raw SeatGeek: the click lands on the correct SeatGeek event page. If
+        a redirect chain is visible, it should not include the Ticketmaster
+        Impact host. The SeatGeek Impact dashboard records the click; the
+        Ticketmaster Impact dashboard does not record that SeatGeek click.
   - [ ] `/api/out` Ticketmaster: request hits `/api/out`, server-side analytics
         write to `DEMAND_DB`, final destination is `ticketmaster.com` (or its
         Impact-branded host when artist-level).
@@ -190,16 +212,21 @@ After the QA above, confirm that production pages are unchanged:
       to the Ticketmaster Impact account.
 - [ ] `/api/out` analytics rows still land in `DEMAND_DB`.
 
-## Pass criterion
+## SeatGeek final pass/fail criterion
 
-A "safe to deploy both tags globally" verdict requires **all** of:
+The SeatGeek Publisher Tag test passes only when **all** of these are true:
 
-- Each tag transforms only its own provider's anchors.
-- No double transformation.
-- No cross-account attribution.
-- `/api/out` anchors are untouched: no host change, no full href change, no recognised affiliate params, and no added query params.
-- No console or CSP errors.
+- The raw SeatGeek URL lands on the correct SeatGeek event page.
+- The SeatGeek Impact account records the raw SeatGeek click.
+- The Ticketmaster Impact account does **not** record that SeatGeek click.
+- No double transformation or cross-account attribution occurs.
+- `/api/out` anchors are untouched and remain available as the
+  fallback/reference path: no host change, no full href change, no recognised
+  affiliate params, and no added query params.
+- No console or CSP errors appear.
 - Cookies set by the two tags do not collide.
 
-If any check fails, do **not** add the SeatGeek Publisher Tag globally. Rely
-on `/api/out` + `IMPACT_SEATGEEK_PROGRAM_ID` for SeatGeek attribution.
+Do not fail the SeatGeek test solely because the post-load href snapshot did
+not visibly change after 2 seconds. If any final criterion fails, do **not**
+add the SeatGeek Publisher Tag globally. Rely on `/api/out` +
+`IMPACT_SEATGEEK_PROGRAM_ID` for SeatGeek attribution.

@@ -38,7 +38,7 @@
     "recognised params",
     "added params",
     "tracking likely",
-    "verdict"
+    "diagnostic note"
   ];
 
   function safeImpactCdn(url) {
@@ -212,8 +212,8 @@
     var isOut = /^out-/.test(testId);
 
     if (isRaw) {
-      if (hrefChanged || hasParams || hasAddedParams) return { kind: "pass", text: "transformed" };
-      return { kind: "fail", text: "not transformed" };
+      if (hrefChanged || hasParams || hasAddedParams) return { kind: "pass", text: "visible transform detected" };
+      return { kind: "info", text: "no visible href change; verify click/dashboard" };
     }
     if (isOut) {
       if (!hrefChanged && !hasParams && !hasAddedParams) return { kind: "pass", text: "untouched (expected)" };

@@ -892,6 +892,9 @@ ${sgTagMeta}
 <body>
 <h1>Impact Publisher Tag Test (internal)</h1>
 <p>Internal-only route. Not indexable. Compares the Ticketmaster and SeatGeek Impact Publisher Tags on a single page.</p>
+<p><strong>Ticketmaster production tracking is the known-good baseline.</strong> This helper is not the source of truth for attribution and should not be used to decide that Ticketmaster production tracking is broken.</p>
+<p>A Publisher Tag may transform at page load, at click time, through query decoration, or in a way that is confirmed only by Impact dashboard reporting. Do not treat a no-change href snapshot after 2 seconds as a final attribution failure.</p>
+<p>Final SeatGeek pass/fail depends on the raw SeatGeek URL landing on the correct SeatGeek event page, the SeatGeek Impact account recording the click, the Ticketmaster Impact account not recording that SeatGeek click, and no double transformation or cross-account attribution. Keep <code>/api/out</code> controls as the fallback/reference path.</p>
 ${sgTagBanner}
 <p id="sgTagStatus" class="info-note">SeatGeek Publisher Tag status will appear after the helper script runs.</p>
 
@@ -906,10 +909,10 @@ ${sgTagBanner}
 </section>
 
 <section class="section">
-  <h2>Href transformation results</h2>
-  <p>Initial full hrefs and hosts are captured on DOMContentLoaded. Post-load hrefs and hosts are captured ~2 seconds later. Host changes are reported, but query-param decoration can count as a transform even when the host stays the same. Nothing is sent off-device.</p>
+  <h2>Href snapshot diagnostics</h2>
+  <p>Initial full hrefs and hosts are captured on DOMContentLoaded. Post-load hrefs and hosts are captured ~2 seconds later. Host changes are reported, but query-param decoration can count as a transform even when the host stays the same. No visible change is not conclusive because some tags transform on click or are verified only in Impact reporting. Nothing is sent off-device.</p>
   <div class="results-scroll">
-    <table id="tagTestResults" data-schema-version="expanded-diagnostics-20260513"><thead><tr><th>label</th><th>data-provider</th><th>data-test-link</th><th>initial href host</th><th>post-load href host</th><th>initial full href</th><th>post-load full href</th><th>host changed</th><th>full href changed</th><th>recognised params</th><th>added params</th><th>tracking likely</th><th>verdict</th></tr></thead><tbody><tr><td colspan="13">Waiting for snapshots...</td></tr></tbody></table>
+    <table id="tagTestResults" data-schema-version="expanded-diagnostics-20260513"><thead><tr><th>label</th><th>data-provider</th><th>data-test-link</th><th>initial href host</th><th>post-load href host</th><th>initial full href</th><th>post-load full href</th><th>host changed</th><th>full href changed</th><th>recognised params</th><th>added params</th><th>tracking likely</th><th>diagnostic note</th></tr></thead><tbody><tr><td colspan="13">Waiting for snapshots...</td></tr></tbody></table>
   </div>
 </section>
 

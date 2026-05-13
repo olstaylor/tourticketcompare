@@ -38,7 +38,7 @@
     "recognised params",
     "added params",
     "tracking likely",
-    "verdict"
+    "diagnostic note"
   ];
 
   function safeImpactCdn(url) {
@@ -156,6 +156,17 @@
     var el = document.createElement("script");
     el.async = true;
     el.src = src;
+    el.onload = function () {
+      if (status) {
+        status.textContent = "SeatGeek Publisher Tag script loaded under window.impactStatSG.";
+      }
+    };
+    el.onerror = function () {
+      if (status) {
+        status.textContent = "SeatGeek Publisher Tag failed to load. Check the URL, CSP, and network panel.";
+        status.className = "warning-note";
+      }
+    };
     var first = document.getElementsByTagName("script")[0];
     if (first && first.parentNode) {
       first.parentNode.insertBefore(el, first);
@@ -165,7 +176,7 @@
     window[name]("transformLinks");
     window[name]("trackImpression");
     if (status) {
-      status.textContent = "SeatGeek Publisher Tag loaded under window.impactStatSG.";
+      status.textContent = "SeatGeek Publisher Tag requested under window.impactStatSG; waiting for script load.";
     }
   }
 
@@ -201,8 +212,8 @@
     var isOut = /^out-/.test(testId);
 
     if (isRaw) {
-      if (hrefChanged || hasParams || hasAddedParams) return { kind: "pass", text: "transformed" };
-      return { kind: "fail", text: "not transformed" };
+      if (hrefChanged || hasParams || hasAddedParams) return { kind: "pass", text: "visible transform detected" };
+      return { kind: "info", text: "no visible href change; verify click/dashboard" };
     }
     if (isOut) {
       if (!hrefChanged && !hasParams && !hasAddedParams) return { kind: "pass", text: "untouched (expected)" };

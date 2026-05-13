@@ -192,6 +192,10 @@ function validateTicketmasterEventUrl(event, providerConfig) {
   return redirect;
 }
 
+function validateSeatGeekEventUrl(event, providerConfig) {
+  return validateConfiguredRedirect(providerConfig, event?.seatgeek_url);
+}
+
 async function resolveShowLink(env, showId, provider) {
   const events = await loadEventsFromAssets(env);
   if (!events) return { ok: false, status: "event_data_unavailable", httpStatus: 503 };
@@ -219,14 +223,9 @@ async function resolveShowLink(env, showId, provider) {
   }
 
   if (provider === "seatgeek") {
-    const eventDate = clean(event?.datetime_iso, 255);
-    const venueName = clean(event?.venue, 255);
-    const seatgeekUrl = await searchSeatGeekEvent(env, event.artist_slug, eventDate, venueName);
-
-    if (!seatgeekUrl) return { ok: false, status: "event_ticket_url_unavailable" };
-
-    const redirect = validateConfiguredRedirect(PROVIDERS.seatgeek, seatgeekUrl);
-    if (!redirect) return { ok: false, status: "invalid_seatgeek_url" };
+    const providerConfig = PROVIDERS.seatgeek;
+    const redirect = validateSeatGeekEventUrl(event, providerConfig);
+    if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
 
     return {
       ok: true,
@@ -243,16 +242,6 @@ async function resolveShowLink(env, showId, provider) {
   }
 
   return { ok: false, status: "provider_not_configured" };
-}
-
-function seatgeekConfig(env = {}) {
-  const clientId = clean(env?.SEATGEEK_CLIENT_ID, 255);
-  const clientSecret = clean(env?.SEATGEEK_CLIENT_SECRET, 255);
-  return {
-    clientId,
-    clientSecret,
-    configured: Boolean(clientId && clientSecret)
-  };
 }
 
 function impactConfig(env = {}, provider = "ticketmaster") {
@@ -282,56 +271,6 @@ function impactConfig(env = {}, provider = "ticketmaster") {
     apiBase,
     configured: Boolean(accountSid && authToken && programId)
   };
-}
-
-async function searchSeatGeekEvent(env, artistSlug, eventDate, venueName) {
-  const config = seatgeekConfig(env);
-  if (!config.configured) return null;
-
-  const impactCfg = impactConfig(env, "seatgeek");
-  if (!impactCfg.configured) return null;
-
-  const dateObj = new Date(eventDate);
-  if (isNaN(dateObj.getTime())) return null;
-
-  const dateStr = dateObj.toISOString().split("T")[0];
-  const params = new URLSearchParams({
-    client_id: config.clientId,
-    per_page: "10",
-    sort: "datetime.asc"
-  });
-
-  if (venueName && venueName.trim()) {
-    params.append("venue", venueName.trim());
-  }
-
-  const endpoint = `https://api.seatgeek.com/2/events?${params.toString()}`;
-
-  try {
-    const response = await fetch(endpoint);
-    if (!response.ok) return null;
-    const data = await response.json();
-    const events = Array.isArray(data.events) ? data.events : [];
-
-    const eventDate_comp = dateStr;
-    const matched = events.find(
-      (e) =>
-        e.datetime_utc &&
-        e.datetime_utc.startsWith(eventDate_comp) &&
-        e.url &&
-        typeof e.url === "string" &&
-        e.performers &&
-        Array.isArray(e.performers) &&
-        e.performers.some((p) => {
-          const pSlug = slugify(p.name || "");
-          return pSlug === artistSlug || slugify(p.slug || "") === artistSlug;
-        })
-    );
-
-    return matched ? matched.url : null;
-  } catch (error) {
-    return null;
-  }
 }
 
 function basicAuthHeader(accountSid, authToken) {
@@ -466,6 +405,10 @@ async function handleOut(request, env, mode) {
     const resolved = await resolveShowLink(env, showId, provider);
     if (!resolved.ok) {
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
+    }
+
+    if (provider === "seatgeek" && !impactConfig(env, "seatgeek").configured) {
+      return json({ ok: false, status: "provider_not_configured" }, 400);
     }
 
     const impactTrackingUrl = await createImpactTrackingUrl(env, resolved.redirect.toString(), provider);

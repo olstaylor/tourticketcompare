@@ -31,6 +31,7 @@ const homepageDescription = "Find checked ticket links for major tours, read pra
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://utt.impactcdn.com; connect-src 'self' https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
+const EXPECTED_OUT_VERSION = "seatgeek-url-first-2026-05-13";
 const routeMarkers = new Map([
   ["/artists", "Ticket buttons appear only when the destination has been checked"],
   ["/guides", "Compare the final checkout total after fees"],
@@ -521,8 +522,10 @@ async function out(pathname, method = "GET", payload = null, envOverride = env) 
 
 let outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&sourcePath=/artists/beyonce");
 assert(outResponse.status === 302, "/api/out should redirect configured Ticketmaster routes");
+assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "/api/out redirect responses should include the temporary production proof header");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek");
 assert(outResponse.status === 400, "SeatGeek redirect should fail safely without Impact tracking configured (IMPACT_SEATGEEK_PROGRAM_ID not set)");
+assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "/api/out error responses should include the temporary production proof header");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com");
 assert(outResponse.status === 400, "example.com destination should fail");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=http%3A%2F%2Flocalhost%3A3000");
@@ -530,6 +533,7 @@ assert(outResponse.status === 400, "localhost destination should fail");
 outResponse = await out("/api/out", "POST", { artistSlug: "beyonce", provider: "ticketmaster" });
 const outJson = await outResponse.json();
 assert(outResponse.status === 200 && outJson.redirectUrl, "POST /api/out should keep JSON compatibility");
+assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "POST /api/out JSON responses should include the temporary production proof header");
 outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster&sourcePath=/artists/morgan-wallen`);
 assert(outResponse.status === 302, "showId /api/out should redirect verified Ticketmaster event routes");
 assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "showId /api/out should use the exact stored event-specific Ticketmaster URL");
@@ -569,6 +573,7 @@ try {
   for (const showId of renderedSeatGeekShowIds) {
     outResponse = await out(`/api/out?showId=${encodeURIComponent(showId)}&provider=seatgeek`, "GET", null, seatGeekConfiguredEnv);
     assert(outResponse.status === 302, `rendered SeatGeek CTA for ${showId} should resolve through /api/out`);
+    assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "rendered SeatGeek CTA redirects should include the temporary production proof header");
   }
 } finally {
   globalThis.fetch = originalFetch;
@@ -746,6 +751,7 @@ try {
   );
   assert(seatGeekImpactCalled, "SeatGeek configured path should call SeatGeek Impact tracking");
   assert(outResponse.status === 302, "SeatGeek configured showId /api/out should redirect");
+  assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "SeatGeek configured showId /api/out should include the temporary production proof header");
   assert(outResponse.headers.get("location") === seatGeekTrackingUrl, "SeatGeek configured showId /api/out should redirect to SeatGeek Impact tracking URL");
 } finally {
   globalThis.fetch = originalFetch;

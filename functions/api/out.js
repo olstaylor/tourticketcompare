@@ -1,6 +1,9 @@
 const PLACEHOLDER_URL_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1/i;
 const EVENTS_JSON_PATH = "/data/events.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
+// Temporary production proof header for /api/out. Remove after verifying
+// SeatGeek event URL-first redirects are live.
+const OUT_VERSION_HEADER = "seatgeek-url-first-2026-05-13";
 
 const PROVIDERS = {
   ticketmaster: {
@@ -83,12 +86,27 @@ const VERIFIED_TICKET_LINKS = {
   }
 };
 
+function withOutVersionHeader(response) {
+  response.headers.set("X-TTC-Out-Version", OUT_VERSION_HEADER);
+  return response;
+}
+
 function json(payload, status = 200) {
-  return new Response(JSON.stringify(payload), {
+  return withOutVersionHeader(new Response(JSON.stringify(payload), {
     status,
     headers: {
       "Content-Type": "application/json; charset=utf-8",
       "Cache-Control": "no-store"
+    }
+  }));
+}
+
+function redirectResponse(destination, status = 302) {
+  return new Response(null, {
+    status,
+    headers: {
+      Location: destination,
+      "X-TTC-Out-Version": OUT_VERSION_HEADER
     }
   });
 }
@@ -213,8 +231,8 @@ function validateTicketmasterEventUrl(event, providerConfig) {
 // SeatGeek search or auto-publish candidate matches. Event-level SeatGeek
 // destinations must be direct HTTPS SeatGeek URLs; no affiliate or HTTP
 // fallback is accepted before Impact tracking is applied.
-function validateSeatGeekEventUrl(event, providerConfig) {
-  const redirect = validateConfiguredRedirect(providerConfig, event?.seatgeek_url);
+function validateSeatGeekEventUrl(seatGeekUrl, providerConfig) {
+  const redirect = validateConfiguredRedirect(providerConfig, seatGeekUrl);
   if (!redirect || redirect.protocol !== "https:") return null;
   return redirect;
 }
@@ -247,7 +265,8 @@ async function resolveShowLink(env, showId, provider) {
 
   if (provider === "seatgeek") {
     const providerConfig = PROVIDERS.seatgeek;
-    const redirect = validateSeatGeekEventUrl(event, providerConfig);
+    const seatGeekUrl = clean(event?.seatgeek_url, 2048);
+    const redirect = validateSeatGeekEventUrl(seatGeekUrl, providerConfig);
     if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
 
     return {
@@ -435,14 +454,50 @@ async function handleOut(request, env, mode) {
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
     }
 
-    if (provider === "seatgeek" && !impactConfig(env, "seatgeek").configured) {
-      return json({ ok: false, status: "provider_not_configured" }, 400);
+    if (provider === "seatgeek") {
+      // SeatGeek showId redirects are event URL-first. The destination was read
+      // from event.seatgeek_url and validated as an HTTPS seatgeek.com URL by
+      // resolveShowLink before any Impact call. There is intentionally no
+      // SeatGeek API search or broad fallback in this path.
+      const destination = resolved.redirect.toString();
+      const seatGeekImpactConfig = impactConfig(env, "seatgeek");
+      if (!seatGeekImpactConfig.configured) {
+        return json({ ok: false, status: "provider_not_configured" }, 400);
+      }
+
+      const impactTrackingUrl = await createImpactTrackingUrl(env, destination, "seatgeek");
+      if (!impactTrackingUrl) {
+        return json({ ok: false, status: "event_ticket_url_unavailable" }, 400);
+      }
+
+      const outbound = safeUrl(impactTrackingUrl);
+      if (!outbound) {
+        return json({ ok: false, status: "event_ticket_url_unavailable" }, 400);
+      }
+
+      await trackClick({
+        request,
+        env,
+        link: resolved.link,
+        sourcePath,
+        destinationHost: outbound.hostname.toLowerCase()
+      });
+
+      if (mode === "redirect") {
+        return redirectResponse(outbound.toString(), 302);
+      }
+
+      return json({
+        ok: true,
+        status: "redirect_ready",
+        redirectUrl: outbound.toString(),
+        provider,
+        artistSlug: resolved.link.artistSlug,
+        showId: resolved.link.showId
+      });
     }
 
     const impactTrackingUrl = await createImpactTrackingUrl(env, resolved.redirect.toString(), provider);
-    if (provider === "seatgeek" && !impactTrackingUrl) {
-      return json({ ok: false, status: "event_ticket_url_unavailable" }, 400);
-    }
     const outboundUrl = impactTrackingUrl || resolved.redirect.toString();
     const outbound = safeUrl(outboundUrl) || resolved.redirect;
 
@@ -455,7 +510,7 @@ async function handleOut(request, env, mode) {
     });
 
     if (mode === "redirect") {
-      return Response.redirect(outbound.toString(), 302);
+      return redirectResponse(outbound.toString(), 302);
     }
 
     return json({
@@ -493,7 +548,7 @@ async function handleOut(request, env, mode) {
   await trackClick({ request, env, link, sourcePath, destinationHost: redirect.hostname.toLowerCase() });
 
   if (mode === "redirect") {
-    return Response.redirect(redirect.toString(), 302);
+    return redirectResponse(redirect.toString(), 302);
   }
 
   return json({

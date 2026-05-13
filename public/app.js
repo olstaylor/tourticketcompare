@@ -914,6 +914,17 @@ function safeVerifiedEventUrl(value) {
   }
 }
 
+function safeSeatGeekEventUrl(value) {
+  const safeUrl = safeVerifiedEventUrl(value);
+  if (!safeUrl) return null;
+  try {
+    const host = new URL(safeUrl).hostname.toLowerCase();
+    return host === "seatgeek.com" || host.endsWith(".seatgeek.com") ? safeUrl : null;
+  } catch (error) {
+    return null;
+  }
+}
+
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
@@ -931,8 +942,21 @@ function renderShowCard(show, options = {}) {
       const cta = buttonLink("View event ticket link", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";
       cta.rel = "noopener";
-      article.append(cta);
-      text(article, "p", "External ticketing sites set prices, fees, availability, and checkout terms.", "disclosure-note");
+      const seatGeekUrl = safeSeatGeekEventUrl(show.seatgeek_url);
+      if (options.seatGeekAvailable && seatGeekUrl) {
+        const seatGeekParams = new URLSearchParams({ showId, provider: "seatgeek" });
+        const seatGeekCta = buttonLink("Check SeatGeek", `/api/out?${seatGeekParams.toString()}`, "secondary");
+        seatGeekCta.target = "_blank";
+        seatGeekCta.rel = "noopener";
+        const ctaGroup = document.createElement("div");
+        ctaGroup.className = "cta-group";
+        ctaGroup.append(cta, seatGeekCta);
+        article.append(ctaGroup);
+        text(article, "p", "Prices, fees and availability are confirmed on SeatGeek. External ticketing sites set checkout terms and refund policies.", "disclosure-note");
+      } else {
+        article.append(cta);
+        text(article, "p", "External ticketing sites set prices, fees, availability, and checkout terms.", "disclosure-note");
+      }
     } else {
       text(article, "p", "No event-specific ticket link is available for this date yet.", "disclosure-note");
     }
@@ -970,7 +994,8 @@ async function hydrateShowBoard(section, filters = {}) {
       return;
     }
     grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show, {
-      showEventCta: Boolean(filters.showEventCta)
+      showEventCta: Boolean(filters.showEventCta),
+      seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek)
     })));
   } catch (error) {
     grid.replaceChildren();

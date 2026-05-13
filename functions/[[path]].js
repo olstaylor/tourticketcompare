@@ -419,7 +419,8 @@ function futureShowsForArtist(events, artistSlug, limit) {
       dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
       city: String(ev.city || "").trim(),
       venue: String(ev.venue || "").trim(),
-      ticketmaster_url: String(ev.ticketmaster_url || "").trim()
+      ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
+      seatgeek_url: String(ev.seatgeek_url || "").trim()
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -463,6 +464,17 @@ function safeShowTicketUrl(value) {
   }
 }
 
+function safeSeatGeekTicketUrl(value) {
+  const safeUrl = safeShowTicketUrl(value);
+  if (!safeUrl) return null;
+  try {
+    const host = new URL(safeUrl).hostname.toLowerCase();
+    return host === "seatgeek.com" || host.endsWith(".seatgeek.com") ? safeUrl : null;
+  } catch (error) {
+    return null;
+  }
+}
+
 function clean(value, max = 255) {
   return String(value || "").trim().slice(0, max);
 }
@@ -483,7 +495,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
   const date = formatShowDateServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
-  const validSeatGeekUrl = safeShowTicketUrl(show.seatgeek_url);
+  const validSeatGeekUrl = safeSeatGeekTicketUrl(show.seatgeek_url);
   let ctaHtml = `<p class="disclosure-note">No event-specific ticket link is available for this date yet.</p>`;
 
   if (validUrl && show.id) {

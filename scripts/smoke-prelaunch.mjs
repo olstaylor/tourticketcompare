@@ -415,15 +415,14 @@ assert((serverMorganWithSeatGeek.text.match(/Check SeatGeek/g) || []).length ===
 assert(serverMorganWithSeatGeek.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "server-rendered SeatGeek CTA should target the controlled show through /api/out");
 assert(serverMorganWithSeatGeek.text.includes("Prices, fees and availability are confirmed on SeatGeek."), "server-rendered SeatGeek CTA should include safe supporting copy");
 const serverMorganWithoutSeatGeek = await routeResponse("/artists/morgan-wallen");
-assert((serverMorganWithoutSeatGeek.text.match(/Check SeatGeek/g) || []).length === 1, "server-rendered Morgan Wallen page should show the controlled SeatGeek CTA whenever the event URL is verified");
-assert(serverMorganWithoutSeatGeek.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "server-rendered SeatGeek CTA should not depend on environment config for visibility");
+assert(!serverMorganWithoutSeatGeek.text.includes("Check SeatGeek"), "server-rendered SeatGeek CTA should stay hidden without SeatGeek Impact config");
 const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
 assert(appJs.includes("/api/out?"), "artist show cards should route event CTAs through /api/out");
 assert(appJs.includes("showId"), "artist show card CTAs should include showId");
 assert(appJs.includes("safeSeatGeekEventUrl"), "hydrated artist show cards should validate SeatGeek event URLs");
-assert(!appJs.includes("providerAvailability?.seatgeek"), "hydration should not hide verified SeatGeek event URLs behind environment availability flags");
-assert(appJs.includes("Check SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when the event URL is verified");
+assert(appJs.includes("providerAvailability?.seatgeek"), "hydration should use the safe SeatGeek availability flag from /api/shows");
+assert(appJs.includes("Check SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
 assert(appJs.includes("Prices, fees and availability are confirmed on SeatGeek."), "hydration should preserve the safe SeatGeek supporting copy");
 assert(appJs.includes("No event-specific ticket link is available for this date yet."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");

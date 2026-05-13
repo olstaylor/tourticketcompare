@@ -479,7 +479,14 @@ function clean(value, max = 255) {
   return String(value || "").trim().slice(0, max);
 }
 
-function renderShowCardServerHtml(show) {
+function isSeatGeekConfigured(env = {}) {
+  const impactSeatGeekAccountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
+  const impactSeatGeekAuthToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
+  const impactSeatGeekProgramId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
+  return Boolean(impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId);
+}
+
+function renderShowCardServerHtml(show, seatGeekAvailable = false) {
   const date = formatShowDateServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
@@ -490,8 +497,8 @@ function renderShowCardServerHtml(show) {
     const ticketmasterCta = `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}`;
     const disclosure = `<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`;
 
-    // SeatGeek CTA appears only when the event has a verified SeatGeek URL; /api/out enforces Impact config before redirecting.
-    if (validSeatGeekUrl) {
+    // SeatGeek CTA appears only when the event URL is verified and SeatGeek Impact is configured.
+    if (seatGeekAvailable && validSeatGeekUrl) {
       const seatGeekCta = `${anchor("Check SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-secondary")}`;
       ctaHtml = `<div class="cta-group">${ticketmasterCta}${seatGeekCta}</div><p class="disclosure-note">Prices, fees and availability are confirmed on SeatGeek. External ticketing sites set checkout terms and refund policies.</p>`;
     } else {
@@ -502,9 +509,9 @@ function renderShowCardServerHtml(show) {
   return `<article class="info-card show-card"><h3>${escapeHtml(show.event_name || "Verified show")}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${ctaHtml}</article>`;
 }
 
-function renderShowBoardServerHtml(shows) {
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false) {
   const gridContent = shows.length
-    ? shows.map(show => renderShowCardServerHtml(show)).join("")
+    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable)).join("")
     : `<p class="muted empty-state">No event-specific ticket links are available for this artist yet. We only show event cards when the date and destination can be verified. ${anchor("Read our buying guides", "/guides", "text-link")} while you wait, or check the artist-level ticket link below if one is available.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
@@ -512,6 +519,7 @@ function renderShowBoardServerHtml(shows) {
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
   if (route.type === "artist") {
     const artist = route.artist;
+    const seatGeekAvailable = isSeatGeekConfigured(env);
     const relatedGuideSlugs = artist.related_guides || [];
     const relatedGuideLinks = relatedGuideSlugs
       .slice(0, 4)
@@ -533,7 +541,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )} ticket links and buying guidance</h1><p class="lead">Find checked ticket links for ${escapeHtml(
       artist.name
-    )} when available, plus practical guidance before you leave for a provider site.</p>${renderShowBoardServerHtml(futureShowsForArtist(events, artist.slug, 6))}${renderProviderFallback(
+    )} when available, plus practical guidance before you leave for a provider site.</p>${renderShowBoardServerHtml(futureShowsForArtist(events, artist.slug, 6), seatGeekAvailable)}${renderProviderFallback(
       catalog,
       artist,
       "artist_hero"

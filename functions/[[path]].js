@@ -463,26 +463,56 @@ function safeShowTicketUrl(value) {
   }
 }
 
-function renderShowCardServerHtml(show) {
+function clean(value, max = 255) {
+  return String(value || "").trim().slice(0, max);
+}
+
+function isSeatGeekConfigured(env = {}) {
+  const clientId = clean(env?.SEATGEEK_CLIENT_ID, 255);
+  const clientSecret = clean(env?.SEATGEEK_CLIENT_SECRET, 255);
+  const impactAccountSid = clean(env?.IMPACT_ACCOUNT_SID, 255);
+  const impactAuthToken = clean(env?.IMPACT_AUTH_TOKEN, 255);
+  const impactSeatGeekProgramId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
+  return Boolean(
+    clientId && clientSecret &&
+    impactAccountSid && impactAuthToken && impactSeatGeekProgramId
+  );
+}
+
+function renderShowCardServerHtml(show, seatGeekAvailable = false) {
   const date = formatShowDateServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
-  const ctaHtml = validUrl && show.id
-    ? `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`
-    : `<p class="disclosure-note">No event-specific ticket link is available for this date yet.</p>`;
+  const validSeatGeekUrl = safeShowTicketUrl(show.seatgeek_url);
+  let ctaHtml = `<p class="disclosure-note">No event-specific ticket link is available for this date yet.</p>`;
+
+  if (validUrl && show.id) {
+    const ticketmasterCta = `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}`;
+    const disclosure = `<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`;
+
+    // SeatGeek CTA appears only if credentials are present AND event has verified SeatGeek URL
+    if (seatGeekAvailable && validSeatGeekUrl) {
+      const seatGeekCta = `${anchor("Check SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-secondary")}`;
+      ctaHtml = `<div class="cta-group">${ticketmasterCta}${seatGeekCta}</div><p class="disclosure-note">Prices, fees and availability are confirmed on SeatGeek. External ticketing sites set checkout terms and refund policies.</p>`;
+    } else {
+      ctaHtml = `${ticketmasterCta}${disclosure}`;
+    }
+  }
+
   return `<article class="info-card show-card"><h3>${escapeHtml(show.event_name || "Verified show")}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${ctaHtml}</article>`;
 }
 
-function renderShowBoardServerHtml(shows) {
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false) {
   const gridContent = shows.length
-    ? shows.map(renderShowCardServerHtml).join("")
+    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable)).join("")
     : `<p class="muted empty-state">No event-specific ticket links are available for this artist yet. We only show event cards when the date and destination can be verified. ${anchor("Read our buying guides", "/guides", "text-link")} while you wait, or check the artist-level ticket link below if one is available.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
-function renderMainContent(route, catalog, events = [], guideContent = {}) {
+function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
   if (route.type === "artist") {
     const artist = route.artist;
+    const seatGeekAvailable = isSeatGeekConfigured(env);
     const relatedGuideSlugs = artist.related_guides || [];
     const relatedGuideLinks = relatedGuideSlugs
       .slice(0, 4)
@@ -504,7 +534,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}) {
       artist.name
     )} ticket links and buying guidance</h1><p class="lead">Find checked ticket links for ${escapeHtml(
       artist.name
-    )} when available, plus practical guidance before you leave for a provider site.</p>${renderShowBoardServerHtml(futureShowsForArtist(events, artist.slug, 6))}${renderProviderFallback(
+    )} when available, plus practical guidance before you leave for a provider site.</p>${renderShowBoardServerHtml(futureShowsForArtist(events, artist.slug, 6), seatGeekAvailable)}${renderProviderFallback(
       catalog,
       artist,
       "artist_hero"
@@ -663,7 +693,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}) {
   )}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">Trust &amp; transparency</h2></div><div class="nested-panel"><p>TourTicketCompare is independent and unofficial. We do not sell tickets directly.</p><p>Some outbound links may be affiliate links, which means we may earn a commission if you click through and buy tickets. This does not increase your ticket price or fees.</p><p>Final price, fees, availability, seat details, refund rules, and checkout terms are confirmed by the provider on their site.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></main>`;
 }
 
-function injectRoute(html, route, origin, catalog, events = [], guideContent = {}) {
+function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
   const canonicalUrl = `${origin}${route.path}`;
   const robots = route.indexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
@@ -704,7 +734,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
     `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin))}</script>`
   );
-  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent));
+  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
   return next;
 }
 
@@ -757,7 +787,7 @@ export async function onRequest(context) {
   const catalog = await loadCatalog(env);
   const events = route.type === "artist" ? await loadEvents(env) : [];
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
-  const injected = injectRoute(html, route, url.origin, catalog, events, guideContent);
+  const injected = injectRoute(html, route, url.origin, catalog, events, guideContent, env);
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", "public, max-age=300");

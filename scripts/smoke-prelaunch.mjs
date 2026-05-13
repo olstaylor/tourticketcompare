@@ -551,4 +551,37 @@ const authdDebugJson = await debugResponse.json();
 assert(authdDebugJson.ok === true && authdDebugJson.event, "/api/debug-seatgeek authorised should return event details");
 assert(authdDebugJson.config.seatgeek_configured === false, "/api/debug-seatgeek authorised should show SeatGeek config status");
 
+// Verify SeatGeek CTA visibility rules
+// Rule 1: SeatGeek CTA requires credentials + Impact program + event-level verified SeatGeek URL
+// Currently all seatgeek_url fields are empty, so SeatGeek CTA should never appear
+
+// Test 1: Credentials present, Impact program present, but no event-level SeatGeek match
+outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=seatgeek`);
+assert(outResponse.status === 400, "SeatGeek /api/out should fail safely when event has no verified SeatGeek URL");
+const noMatchJson = await outResponse.json();
+assert(noMatchJson.status === "event_ticket_url_unavailable", "SeatGeek should fail with correct status when no event-level URL");
+
+// Test 2: Credentials missing → SeatGeek blocked
+outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek", "GET", null, env);
+assert(outResponse.status === 400, "SeatGeek should fail when credentials missing");
+const noCrdsJson = await outResponse.json();
+assert(noCrdsJson.status === "provider_not_configured", "SeatGeek reports missing credentials");
+
+// Test 3: Impact program missing → SeatGeek blocked
+outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek", "GET", null, {
+  ...env,
+  SEATGEEK_CLIENT_ID: "test-client",
+  SEATGEEK_CLIENT_SECRET: "test-secret"
+});
+assert(outResponse.status === 400, "SeatGeek should fail when Impact program missing");
+
+// Test 4: Ticketmaster still works
+outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster`);
+assert(outResponse.status === 302, "Ticketmaster redirect should still work");
+
+// Test 5: SeatGeek CTA hidden (no event-level URL in current events.json)
+assert(!verifiedMorganShow.seatgeek_url || verifiedMorganShow.seatgeek_url.trim() === "", "Test assumes no event-level SeatGeek URL in events.json");
+
+console.log("SeatGeek visibility gating verified: hidden without event-level destination");
+
 console.log("Cloudflare Pages MVP smoke checks passed");

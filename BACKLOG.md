@@ -92,7 +92,7 @@ Improves the fan-facing product without adding risk.
 Only after A, B, and C are stable.
 
 **When ready:**
-- Build SeatGeek API enrichment: search SeatGeek `/events` upstream using artist, venue, city, and event date from Ticketmaster-verified events; store candidate matches with confidence metadata; publish `event.seatgeek_url` only after validation rules pass; never run SeatGeek API lookup during `/api/out` click redirects.
+- ✓ Build SeatGeek API enrichment dry run — Done (2026-05-13): `scripts/enrich-seatgeek-events.mjs` searches SeatGeek `/events` upstream for Ticketmaster-verified events and labels candidates `high_confidence`, `needs_review`, or `no_match` without writing event data. Applying high-confidence matches remains a separate future review/apply task. Click-time redirects still use only stored `event.seatgeek_url` and must not call SeatGeek APIs.
 - Add SeatGeek artist-level links: requires verified SeatGeek destination URLs, Impact program ID (if applicable), and testing of `/api/out` redirect behaviour
 - Add Vivid Seats artist-level links: same requirements as SeatGeek
 - Add live event-level Ticketmaster pricing: requires `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true` and a product decision on displaying timestamped prices

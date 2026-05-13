@@ -738,6 +738,193 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   return next;
 }
 
+const INTERNAL_IMPACT_TAG_TEST_PATH = "/internal/impact-tag-test";
+
+function safeImpactCdnUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return null;
+  try {
+    const parsed = new URL(raw);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    if (!/(^|\.)impactcdn\.com$|(^|\.)impact\.com$/.test(host)) return null;
+    return parsed.toString();
+  } catch (err) {
+    return null;
+  }
+}
+
+function safeImpactCdnOrigin(value) {
+  const url = safeImpactCdnUrl(value);
+  if (!url) return null;
+  try {
+    return new URL(url).origin;
+  } catch (err) {
+    return null;
+  }
+}
+
+function safeSeatGeekUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return null;
+  try {
+    const parsed = new URL(raw);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    if (host === "seatgeek.com" || host.endsWith(".seatgeek.com")) return parsed.toString();
+    return null;
+  } catch (err) {
+    return null;
+  }
+}
+
+function pickSampleTicketmasterUrl(events) {
+  if (!Array.isArray(events)) return null;
+  for (const event of events) {
+    const url = safeShowTicketUrl(event && event.ticketmaster_url);
+    if (url) {
+      return { url, id: String(event.id || "").trim(), eventId: String(event.ticketmaster_event_id || "").trim() };
+    }
+  }
+  return null;
+}
+
+function tokenMatches(provided, expected) {
+  const a = String(provided || "");
+  const b = String(expected || "");
+  if (!a || !b || a.length !== b.length) return false;
+  let mismatch = 0;
+  for (let i = 0; i < a.length; i++) mismatch |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return mismatch === 0;
+}
+
+function internalTagTestCsp(extraScriptOrigins = []) {
+  const baseScript = ["'self'", "https://utt.impactcdn.com"];
+  const baseConnect = ["'self'", "https://utt.impactcdn.com"];
+  for (const origin of extraScriptOrigins) {
+    if (origin && !baseScript.includes(origin)) baseScript.push(origin);
+    if (origin && !baseConnect.includes(origin)) baseConnect.push(origin);
+  }
+  return [
+    "default-src 'self'",
+    "img-src 'self' data:",
+    "style-src 'self'",
+    `script-src ${baseScript.join(" ")}`,
+    `connect-src ${baseConnect.join(" ")}`,
+    "base-uri 'self'",
+    "frame-ancestors 'none'",
+    "object-src 'none'"
+  ].join("; ");
+}
+
+async function renderInternalImpactTagTest(request, env, url) {
+  const expectedToken = String(env && env.IMPACT_TAG_TEST_TOKEN ? env.IMPACT_TAG_TEST_TOKEN : "");
+  const providedToken = url.searchParams.get("token") || "";
+  if (!expectedToken || !tokenMatches(providedToken, expectedToken)) {
+    return null;
+  }
+
+  const events = await loadEvents(env);
+  const sample = pickSampleTicketmasterUrl(events);
+
+  const sgRawCandidate =
+    url.searchParams.get("sgUrl") ||
+    (env && env.IMPACT_TAG_TEST_SEATGEEK_URL) ||
+    "";
+  const sgRawUrl = safeSeatGeekUrl(sgRawCandidate);
+
+  const sgShowId = String(
+    url.searchParams.get("sgShowId") ||
+      (env && env.IMPACT_TAG_TEST_SEATGEEK_SHOW_ID) ||
+      ""
+  ).trim();
+
+  const sgTagSrc = safeImpactCdnUrl(env && env.IMPACT_SEATGEEK_PUBLISHER_TAG_URL);
+  const sgTagOrigin = safeImpactCdnOrigin(env && env.IMPACT_SEATGEEK_PUBLISHER_TAG_URL);
+
+  const tmRawAnchor = sample
+    ? `<a href="${escapeAttr(sample.url)}" data-provider="ticketmaster" data-test-link="raw-ticketmaster" rel="noopener nofollow">Raw Ticketmaster direct link</a>`
+    : `<span class="disabled-note" data-test-link="raw-ticketmaster" data-provider="ticketmaster">Raw Ticketmaster direct link unavailable: no event with a Ticketmaster URL found in events.json.</span>`;
+
+  const sgRawAnchor = sgRawUrl
+    ? `<a href="${escapeAttr(sgRawUrl)}" data-provider="seatgeek" data-test-link="raw-seatgeek" rel="noopener nofollow">Raw SeatGeek direct link</a>`
+    : `<span class="disabled-note" data-test-link="raw-seatgeek" data-provider="seatgeek">Raw SeatGeek direct link unavailable: pass <code>?sgUrl=</code> or set <code>IMPACT_TAG_TEST_SEATGEEK_URL</code> to a https://seatgeek.com URL.</span>`;
+
+  const tmOutHref = sample
+    ? `/api/out?${new URLSearchParams({ showId: sample.id, provider: "ticketmaster" }).toString()}`
+    : null;
+  const tmOutAnchor = tmOutHref
+    ? `<a href="${escapeAttr(tmOutHref)}" data-provider="ticketmaster" data-test-link="out-ticketmaster" rel="noopener nofollow">/api/out Ticketmaster control</a>`
+    : `<span class="disabled-note" data-test-link="out-ticketmaster" data-provider="ticketmaster">/api/out Ticketmaster control unavailable: no sample event found.</span>`;
+
+  const sgOutHref = sgShowId
+    ? `/api/out?${new URLSearchParams({ showId: sgShowId, provider: "seatgeek" }).toString()}`
+    : null;
+  const sgOutAnchor = sgOutHref
+    ? `<a href="${escapeAttr(sgOutHref)}" data-provider="seatgeek" data-test-link="out-seatgeek" rel="noopener nofollow">/api/out SeatGeek control</a>`
+    : `<span class="disabled-note" data-test-link="out-seatgeek" data-provider="seatgeek">/api/out SeatGeek control unavailable: pass <code>?sgShowId=</code> or set <code>IMPACT_TAG_TEST_SEATGEEK_SHOW_ID</code>. Backend SeatGeek + Impact SeatGeek program credentials must also be configured server-side for the redirect to succeed.</span>`;
+
+  const sgTagMeta = sgTagSrc
+    ? `<meta name="impact-sg-tag-src" content="${escapeAttr(sgTagSrc)}" />`
+    : "";
+
+  const sgTagBanner = sgTagSrc
+    ? `<p class="info-note">SeatGeek Publisher Tag will load from a configured impactcdn.com URL using a separate global (<code>window.impactStatSG</code>).</p>`
+    : `<p class="warning-note"><strong>Warning:</strong> SeatGeek Publisher Tag is not loaded. Set <code>IMPACT_SEATGEEK_PUBLISHER_TAG_URL</code> (must point to an https://utt.impactcdn.com or https://*.impact.com URL) to enable.</p>`;
+
+  const body = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="referrer" content="no-referrer" />
+<title>Impact Publisher Tag Test (internal) | TourTicketCompare</title>
+${sgTagMeta}
+<link rel="stylesheet" href="/internal/impact-tag-test.css" />
+<script src="/impact.js"></script>
+</head>
+<body>
+<h1>Impact Publisher Tag Test (internal)</h1>
+<p>Internal-only route. Not indexable. Compares the Ticketmaster and SeatGeek Impact Publisher Tags on a single page.</p>
+${sgTagBanner}
+<p id="sgTagStatus" class="info-note">SeatGeek Publisher Tag status will appear after the helper script runs.</p>
+
+<section class="section">
+  <h2>Test links</h2>
+  <div class="links">
+    ${tmRawAnchor}
+    ${sgRawAnchor}
+    ${tmOutAnchor}
+    ${sgOutAnchor}
+  </div>
+</section>
+
+<section class="section">
+  <h2>Href transformation results</h2>
+  <p>Initial href hosts are captured on DOMContentLoaded. Post-load hosts are captured ~2 seconds later. Nothing is sent off-device.</p>
+  <table id="tagTestResults"><thead><tr><th>label</th><th>data-provider</th><th>data-test-link</th><th>initial href host</th><th>post-load href host</th><th>changed</th></tr></thead><tbody><tr><td colspan="6">Waiting for snapshots...</td></tr></tbody></table>
+</section>
+
+<script src="/internal/impact-tag-test.js" defer></script>
+</body>
+</html>`;
+
+  const headers = new Headers();
+  headers.set("Content-Type", "text/html; charset=UTF-8");
+  headers.set("Cache-Control", "no-store");
+  headers.set("X-Robots-Tag", "noindex, nofollow");
+  headers.set("Referrer-Policy", "no-referrer");
+  headers.set("X-Content-Type-Options", "nosniff");
+  headers.set("X-Frame-Options", "DENY");
+  headers.set("Permissions-Policy", "interest-cohort=()");
+  headers.set("Cross-Origin-Opener-Policy", "same-origin");
+  headers.set("Cross-Origin-Resource-Policy", "same-origin");
+  const extraOrigins = sgTagOrigin ? [sgTagOrigin] : [];
+  headers.set("Content-Security-Policy", internalTagTestCsp(extraOrigins));
+  return new Response(body, { status: 200, headers });
+}
+
 function renderNotFoundHtml(html, pathname, origin) {
   const route = {
     type: "not-found",
@@ -764,6 +951,12 @@ export async function onRequest(context) {
   const pathname = normalizePath(url.pathname);
 
   if (RESERVED_PREFIXES.some((prefix) => pathname.startsWith(prefix)) || RESERVED_FILES.has(pathname)) return next();
+
+  if (pathname === INTERNAL_IMPACT_TAG_TEST_PATH) {
+    const internalResponse = await renderInternalImpactTagTest(request, env, url);
+    if (internalResponse) return internalResponse;
+    // No valid token: fall through to the standard 404 path below.
+  }
 
   const route = await routeForPath(pathname, env);
   if (!route && /\.[a-z0-9]+$/i.test(pathname)) return next();

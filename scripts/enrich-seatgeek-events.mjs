@@ -7,14 +7,16 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
+const EVENTS_PARTITIONS_DIR = path.join(REPO_ROOT, "public", "data", "events");
 const LOG_PATH = path.join(REPO_ROOT, "docs", "SEATGEEK_CTA_AUTO_ADD_LOG.md");
 const SEATGEEK_EVENTS_ENDPOINT = "https://api.seatgeek.com/2/events";
 const DEFAULT_PER_PAGE = 20;
 const HIGH_CONFIDENCE_MIN_SCORE = 78;
 const CONFLICT_SCORE_WINDOW = 10;
 const REQUEST_TIMEOUT_MS = 30000;
-const REQUEST_DELAY_MS = 350;
+const DEFAULT_REQUEST_DELAY_MS = 1000;
 const RATE_LIMIT_RETRY_MS = 65000;
+const RATE_LIMIT_MAX_RETRIES = 2;
 const GENERIC_SEATGEEK_FIRST_SEGMENTS = new Set([
   "search",
   "venues",
@@ -32,6 +34,10 @@ function parseArgs(argv) {
     applyHighConfidence: false,
     artist: "",
     limit: null,
+    delayMs: DEFAULT_REQUEST_DELAY_MS,
+    maxApiCalls: null,
+    resumeFromLog: false,
+    resumeFromId: "",
     refresh: false,
     json: false,
     verbose: false,
@@ -53,12 +59,33 @@ function parseArgs(argv) {
       if (!value || value.startsWith("--")) throw new Error("--artist requires a slug or artist name");
       options.artist = value.trim();
       i += 1;
-    } else if (arg === "--limit") {
+    } else if (arg === "--limit" || arg === "--max-events") {
       const value = argv[i + 1];
-      if (!value || value.startsWith("--")) throw new Error("--limit requires a positive number");
+      if (!value || value.startsWith("--")) throw new Error(`${arg} requires a positive number`);
       const parsed = Number.parseInt(value, 10);
-      if (!Number.isFinite(parsed) || parsed < 1) throw new Error("--limit must be a positive number");
+      if (!Number.isFinite(parsed) || parsed < 1) throw new Error(`${arg} must be a positive number`);
       options.limit = parsed;
+      i += 1;
+    } else if (arg === "--delay-ms") {
+      const value = argv[i + 1];
+      if (!value || value.startsWith("--")) throw new Error("--delay-ms requires a non-negative number");
+      const parsed = Number.parseInt(value, 10);
+      if (!Number.isFinite(parsed) || parsed < 0) throw new Error("--delay-ms must be a non-negative number");
+      options.delayMs = parsed;
+      i += 1;
+    } else if (arg === "--max-api-calls") {
+      const value = argv[i + 1];
+      if (!value || value.startsWith("--")) throw new Error("--max-api-calls requires a positive number");
+      const parsed = Number.parseInt(value, 10);
+      if (!Number.isFinite(parsed) || parsed < 1) throw new Error("--max-api-calls must be a positive number");
+      options.maxApiCalls = parsed;
+      i += 1;
+    } else if (arg === "--resume-from-log") {
+      options.resumeFromLog = true;
+    } else if (arg === "--resume-from") {
+      const value = argv[i + 1];
+      if (!value || value.startsWith("--")) throw new Error("--resume-from requires a showId");
+      options.resumeFromId = value.trim();
       i += 1;
     } else if (arg === "--log-path") {
       const value = argv[i + 1];
@@ -76,7 +103,7 @@ function parseArgs(argv) {
 }
 
 function usage() {
-  return `Usage: node scripts/enrich-seatgeek-events.mjs [options]\n\nSearch SeatGeek with SEATGEEK_CLIENT_ID only and add event-level SeatGeek URLs only in explicit apply mode. Default mode is a dry-run: events.json is not modified, but the audit log is refreshed.\n\nOptions:\n  --apply-high-confidence  Write high-confidence top-level seatgeek_url matches to events.json\n  --artist <slug-or-name>  Filter by artist slug or name\n  --limit <number>         Process at most this many selected events\n  --refresh                Include events that already have seatgeek_url\n  --json                   Emit machine-readable JSON\n  --verbose                Include API query and candidate diagnostics\n  --log-path <path>        Override audit log path\n  -h, --help               Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID       Required\n`;
+  return `Usage: node scripts/enrich-seatgeek-events.mjs [options]\n\nSearch SeatGeek with SEATGEEK_CLIENT_ID only and add event-level SeatGeek URLs only in explicit apply mode. Default mode is a dry-run: events.json is not modified, but the audit log is refreshed.\n\nOptions:\n  --apply-high-confidence  Write high-confidence top-level seatgeek_url matches to events.json\n  --artist <slug-or-name>  Filter by artist slug or name\n  --limit <number>         Process at most this many selected events\n  --max-events <number>    Alias for --limit\n  --delay-ms <number>      Delay before each SeatGeek API call (default: 1000)\n  --max-api-calls <number> Stop before exceeding this many enrichment API calls\n  --resume-from-log        Resume from the next showId written in the audit log\n  --resume-from <showId>   Resume from a specific selected showId\n  --refresh                Include events that already have seatgeek_url\n  --json                   Emit machine-readable JSON\n  --verbose                Include API query and candidate diagnostics\n  --log-path <path>        Override audit log path\n  -h, --help               Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID       Required\n`;
 }
 
 function clean(value, max = 500) {
@@ -211,6 +238,23 @@ function artistMatches(event, artistFilter) {
   );
 }
 
+async function resumeShowIdFromLog(logPath) {
+  try {
+    const log = await fs.readFile(logPath, "utf8");
+    const match = log.match(/^- Next resume showId: `?([^`\n]+)`?/m);
+    return clean(match?.[1] || "", 120);
+  } catch {
+    return "";
+  }
+}
+
+function applyResumeCursor(selected, resumeFromId) {
+  if (!resumeFromId) return selected;
+  const index = selected.findIndex((event) => event.id === resumeFromId);
+  if (index < 0) return selected;
+  return selected.slice(index);
+}
+
 function selectEvents(events, options) {
   let selected = events.filter(eventIsTicketmasterVerified);
   if (!options.refresh) {
@@ -219,6 +263,7 @@ function selectEvents(events, options) {
   if (options.artist) {
     selected = selected.filter((event) => artistMatches(event, options.artist));
   }
+  selected = applyResumeCursor(selected, options.resumeFromId);
   if (options.limit !== null) {
     selected = selected.slice(0, options.limit);
   }
@@ -294,6 +339,19 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function apiCallLimitReached(options, runState) {
+  return options.maxApiCalls !== null && runState.apiCalls >= options.maxApiCalls;
+}
+
+async function pacedSeatGeekJson(url, options, runState) {
+  if (apiCallLimitReached(options, runState)) {
+    return { status: 0, ok: false, payload: null, stopped: true, stopReason: "api_call_limit_reached" };
+  }
+  if (options.delayMs > 0) await sleep(options.delayMs);
+  runState.apiCalls += 1;
+  return httpsJson(url);
+}
+
 function httpsJson(url) {
   return new Promise((resolve, reject) => {
     execFile(
@@ -323,7 +381,7 @@ function httpsJson(url) {
   });
 }
 
-async function fetchSeatGeekCandidates(event, options) {
+async function fetchSeatGeekCandidates(event, options, runState) {
   const attempts = buildAttempts(event);
   const candidateMap = new Map();
   const attemptResults = [];
@@ -333,15 +391,59 @@ async function fetchSeatGeekCandidates(event, options) {
     const url = buildSeatGeekUrl(attempt);
     const safeUrl = safeApiUrl(url);
     if (options.verbose && !options.json) console.error(`Query ${event.id}: ${attempt.name}: ${safeUrl}`);
+
+    if (apiCallLimitReached(options, runState)) {
+      attemptResults.push({ name: attempt.name, ok: false, status: 0, query: safeUrl, candidateCount: 0, stopped: true, stopReason: "api_call_limit_reached" });
+      return {
+        ok: attemptResults.some((attemptResult) => attemptResult.ok),
+        status: attemptResults.find((attemptResult) => attemptResult.ok)?.status || 0,
+        reason: "Stopped before exceeding --max-api-calls.",
+        attempts: attemptResults,
+        candidates: [...candidateMap.values()],
+        localDate: localDateFromIso(event.datetime_iso, event.timezone),
+        stopped: true,
+        stopReason: "api_call_limit_reached"
+      };
+    }
+
     try {
-      await sleep(REQUEST_DELAY_MS);
-      let response = await httpsJson(url);
-      if (response.status === 429) {
-        await sleep(RATE_LIMIT_RETRY_MS);
-        response = await httpsJson(url);
+      let response = await pacedSeatGeekJson(url, options, runState);
+      let rateLimitRetries = 0;
+      while (response.status === 429 && rateLimitRetries < RATE_LIMIT_MAX_RETRIES) {
+        rateLimitRetries += 1;
+        runState.rateLimitResponses += 1;
+        if (options.verbose && !options.json) {
+          console.error(`SeatGeek rate limit for ${event.id}; retry ${rateLimitRetries}/${RATE_LIMIT_MAX_RETRIES} after ${RATE_LIMIT_RETRY_MS}ms.`);
+        }
+        await sleep(RATE_LIMIT_RETRY_MS * rateLimitRetries);
+        response = await pacedSeatGeekJson(url, options, runState);
       }
+
       const events = Array.isArray(response.payload?.events) ? response.payload.events : [];
-      attemptResults.push({ name: attempt.name, ok: response.ok, status: response.status, query: safeUrl, candidateCount: events.length });
+      attemptResults.push({
+        name: attempt.name,
+        ok: response.ok,
+        status: response.status,
+        query: safeUrl,
+        candidateCount: events.length,
+        rateLimited: response.status === 429,
+        retryCount: rateLimitRetries
+      });
+
+      if (response.status === 429) {
+        runState.rateLimitResponses += 1;
+        return {
+          ok: attemptResults.some((attemptResult) => attemptResult.ok),
+          status: 429,
+          reason: `SeatGeek API returned HTTP 429 after ${rateLimitRetries} retry attempt(s); stopped early to avoid hammering the API.`,
+          attempts: attemptResults,
+          candidates: [...candidateMap.values()],
+          localDate: localDateFromIso(event.datetime_iso, event.timezone),
+          stopped: true,
+          stopReason: "rate_limited"
+        };
+      }
+
       if (!response.ok) {
         errors.push(`${attempt.name}: HTTP ${response.status}`);
         continue;
@@ -368,10 +470,11 @@ async function fetchSeatGeekCandidates(event, options) {
     reason: errors.length ? errors.join("; ") : "ok",
     attempts: attemptResults,
     candidates: [...candidateMap.values()],
-    localDate: localDateFromIso(event.datetime_iso, event.timezone)
+    localDate: localDateFromIso(event.datetime_iso, event.timezone),
+    stopped: false,
+    stopReason: ""
   };
 }
-
 function candidateLocalDate(candidate) {
   return isoDateOnly(candidate.datetime_local) || isoDateOnly(candidate.datetime_utc);
 }
@@ -588,6 +691,31 @@ function skipped(candidate, skippedReason, matchReason, conflicts) {
   };
 }
 
+function notCheckedClassification(reason, matchReason) {
+  return {
+    candidate: null,
+    decision: "skipped",
+    skippedReason: reason,
+    confidenceScore: 0,
+    matchReason,
+    uncertaintyNotes: [matchReason],
+    conflicts: []
+  };
+}
+
+function emptyApiResult(event, reason, stopped = false) {
+  return {
+    ok: false,
+    status: stopped && reason === "rate_limited" ? 429 : 0,
+    reason,
+    attempts: [],
+    candidates: [],
+    localDate: localDateFromIso(event.datetime_iso, event.timezone),
+    stopped,
+    stopReason: reason
+  };
+}
+
 function formatEventResult(event, tmLocalDate, apiResult, scoredCandidates, classification, options, applied) {
   const candidate = classification.candidate?.seatgeek || null;
   return {
@@ -650,8 +778,29 @@ function formatEventResult(event, tmLocalDate, apiResult, scoredCandidates, clas
   };
 }
 
-function summarize(results, options, apiEnvironment) {
+function shellQuote(value) {
+  const raw = String(value ?? "");
+  return `'${raw.replace(/'/g, `'"'"'`)}'`;
+}
+
+function buildResumeCommand(options, nextResumeShowId) {
+  if (!nextResumeShowId) return "";
+  const args = ["node", "scripts/enrich-seatgeek-events.mjs"];
+  if (options.applyHighConfidence) args.push("--apply-high-confidence");
+  if (options.artist) args.push("--artist", shellQuote(options.artist));
+  if (options.limit !== null) args.push("--limit", String(options.limit));
+  if (options.delayMs !== DEFAULT_REQUEST_DELAY_MS) args.push("--delay-ms", String(options.delayMs));
+  if (options.maxApiCalls !== null) args.push("--max-api-calls", String(options.maxApiCalls));
+  if (options.refresh) args.push("--refresh");
+  if (options.verbose) args.push("--verbose");
+  args.push("--resume-from", shellQuote(nextResumeShowId));
+  return args.join(" ");
+}
+
+function summarize(results, options, apiEnvironment, runState) {
   const skipped = results.filter((result) => result.decision === "skipped");
+  const notCheckedReasons = new Set(["rate_limited_not_checked", "api_call_limit_not_checked"]);
+  const checkedResults = results.filter((result) => !notCheckedReasons.has(result.skipped_reason));
   const skippedReasons = {};
   for (const result of skipped) {
     skippedReasons[result.skipped_reason || "unknown"] = (skippedReasons[result.skipped_reason || "unknown"] || 0) + 1;
@@ -659,11 +808,19 @@ function summarize(results, options, apiEnvironment) {
   return {
     mode: options.applyHighConfidence ? "apply-high-confidence" : "dry-run",
     selected: results.length,
-    checked: results.length,
+    checked: checkedResults.length,
     high_confidence: results.filter((result) => result.decision === "high_confidence").length,
     added: results.filter((result) => result.applied).length,
     skipped: skipped.length,
     skipped_reasons: skippedReasons,
+    no_candidates_returned: skippedReasons.no_candidates_returned || 0,
+    rate_limited_not_checked: skippedReasons.rate_limited_not_checked || 0,
+    api_calls_made: runState.apiCalls,
+    rate_limit_responses: runState.rateLimitResponses,
+    stopped_early: Boolean(runState.stopReason),
+    stop_reason: runState.stopReason,
+    next_resume_show_id: runState.nextResumeShowId || "",
+    next_resume_command: buildResumeCommand(options, runState.nextResumeShowId),
     accepted_venue_mismatches: results.filter((result) => result.venue_mismatch_accepted).length,
     conflicts_found: results.reduce((total, result) => total + result.conflicts.length, 0),
     api_environment: apiEnvironment,
@@ -671,7 +828,9 @@ function summarize(results, options, apiEnvironment) {
     wrote_log: true,
     refresh: options.refresh,
     artist_filter: options.artist || null,
-    limit: options.limit
+    limit: options.limit,
+    delay_ms: options.delayMs,
+    max_api_calls: options.maxApiCalls
   };
 }
 
@@ -682,6 +841,9 @@ function textCell(value) {
 
 function printTextResults(results, summary) {
   console.log(`SeatGeek ${summary.mode} enrichment checked ${summary.checked} event(s): ${summary.added} URL(s) added, ${summary.high_confidence} high-confidence candidate(s), ${summary.skipped} skipped.`);
+  console.log(`API calls made: ${summary.api_calls_made}`);
+  if (summary.stopped_early) console.log(`Stopped early: ${summary.stop_reason}`);
+  if (summary.next_resume_command) console.log(`Next resume command: ${summary.next_resume_command}`);
   console.log(`Skipped reasons: ${JSON.stringify(summary.skipped_reasons)}`);
   console.log(`Audit log refreshed: docs/SEATGEEK_CTA_AUTO_ADD_LOG.md`);
   if (summary.mode === "dry-run") console.log("Dry-run mode: public/data/events.json was not modified.\n");
@@ -718,12 +880,43 @@ function markdownCell(value) {
   return textCell(value).replace(/\|/g, "\\|");
 }
 
+async function syncPartitionedEventFiles(events, additions) {
+  const changedFiles = new Set();
+  for (const event of events) {
+    if (!additions.has(event.id)) continue;
+    const artistSlug = slugify(event.artist_slug || event.artist_name);
+    if (!artistSlug) continue;
+    const partitionPath = path.join(EVENTS_PARTITIONS_DIR, `${artistSlug}.json`);
+    let partitionRaw;
+    try {
+      partitionRaw = await fs.readFile(partitionPath, "utf8");
+    } catch {
+      continue;
+    }
+    const partitionEvents = JSON.parse(partitionRaw);
+    if (!Array.isArray(partitionEvents)) continue;
+    let changed = false;
+    for (const partitionEvent of partitionEvents) {
+      if (partitionEvent.id === event.id && !isValidSeatGeekEventUrl(partitionEvent.seatgeek_url).ok) {
+        partitionEvent.seatgeek_url = additions.get(event.id);
+        changed = true;
+      }
+    }
+    if (changed) {
+      await fs.writeFile(partitionPath, `${JSON.stringify(partitionEvents, null, 2)}\n`);
+      changedFiles.add(path.relative(REPO_ROOT, partitionPath));
+    }
+  }
+  return [...changedFiles];
+}
+
 function renderLog(results, summary) {
   const added = results.filter((result) => result.applied);
   const skipped = results.filter((result) => result.decision === "skipped");
   const venueMismatches = results.filter((result) => result.venue_mismatch_accepted);
   const conflicts = results.filter((result) => result.conflicts.length > 0);
   const apiFailures = results.filter((result) => result.skipped_reason === "api_failure");
+  const rateLimitedNotChecked = results.filter((result) => result.skipped_reason === "rate_limited_not_checked");
   const generatedAt = new Date().toISOString();
 
   const lines = [
@@ -737,9 +930,17 @@ function renderLog(results, summary) {
     `- SeatGeek client ID present: ${summary.api_environment.seatgeek_client_id_present}`,
     `- SeatGeek client secret present: ${summary.api_environment.seatgeek_client_secret_present}`,
     `- API access with client ID only: ${summary.api_environment.client_id_only_http_status === 200 ? "HTTP 200" : `not confirmed (${summary.api_environment.client_id_only_http_status || "no status"})`}`,
+    `- Events selected/logged: ${summary.selected}`,
     `- Events checked: ${summary.checked}`,
+    `- API calls made: ${summary.api_calls_made}`,
+    `- Rate-limit responses: ${summary.rate_limit_responses}`,
     `- URLs added: ${summary.added}`,
     `- Events skipped: ${summary.skipped}`,
+    `- no_candidates_returned: ${summary.no_candidates_returned}`,
+    `- rate_limited_not_checked: ${summary.rate_limited_not_checked}`,
+    `- Stopped early: ${summary.stopped_early ? summary.stop_reason : "no"}`,
+    `- Next resume showId: ${summary.next_resume_show_id || ""}`,
+    `- Next recommended resume command: ${summary.next_resume_command || ""}`,
     `- Accepted venue mismatches: ${summary.accepted_venue_mismatches}`,
     `- Conflicts found: ${summary.conflicts_found}`,
     "",
@@ -786,6 +987,16 @@ function renderLog(results, summary) {
   ].join("\n")).join("\n") : "- None");
   lines.push("");
 
+  lines.push("## Rate-limited / not checked", "");
+  lines.push(rateLimitedNotChecked.length ? markdownTable(rateLimitedNotChecked, [
+    { label: "showId", value: (row) => row.showId },
+    { label: "artist", value: (row) => row.artist },
+    { label: "date", value: (row) => row.ticketmaster.date },
+    { label: "city", value: (row) => row.ticketmaster.city },
+    { label: "reason", value: (row) => row.match_reason }
+  ]) : "- None");
+  lines.push("");
+
   lines.push("## API/environment failures", "");
   lines.push(apiFailures.length ? markdownTable(apiFailures, [
     { label: "showId", value: (row) => row.showId },
@@ -794,7 +1005,7 @@ function renderLog(results, summary) {
   ]) : "- None");
   lines.push("");
 
-  return `${lines.join("\n")}\n`;
+  return `${lines.join("\n").trimEnd()}\n`;
 }
 
 async function confirmSeatGeekApiAccess() {
@@ -819,6 +1030,11 @@ async function main() {
   const clientId = clean(process.env.SEATGEEK_CLIENT_ID, 255);
   if (!clientId) throw new Error("SEATGEEK_CLIENT_ID is required for SeatGeek API enrichment");
 
+  if (options.resumeFromLog && !options.resumeFromId) {
+    options.resumeFromId = await resumeShowIdFromLog(options.logPath);
+    if (options.verbose && !options.json) console.error(`Resume from log resolved to: ${options.resumeFromId || "<none>"}`);
+  }
+
   const apiAccess = await confirmSeatGeekApiAccess();
   const apiEnvironment = {
     seatgeek_client_id_present: Boolean(clientId),
@@ -832,14 +1048,54 @@ async function main() {
   const events = JSON.parse(eventsRaw);
   if (!Array.isArray(events)) throw new Error("public/data/events.json must contain an array");
 
-  const selected = selectEvents(events, options);
+  const eligibleOptions = { ...options, limit: null };
+  const eligible = selectEvents(events, eligibleOptions);
+  const selected = options.limit === null ? eligible : eligible.slice(0, options.limit);
   const selectedIds = new Set(selected.map((event) => event.id));
   const results = [];
   const additions = new Map();
+  const runState = {
+    apiCalls: 0,
+    rateLimitResponses: 0,
+    stopReason: "",
+    nextResumeShowId: ""
+  };
 
-  for (const event of selected) {
-    const apiResult = await fetchSeatGeekCandidates(event, options);
+  for (let index = 0; index < selected.length; index += 1) {
+    const event = selected[index];
+    const apiResult = await fetchSeatGeekCandidates(event, options, runState);
     const tmLocalDate = apiResult.localDate || localDateFromIso(event.datetime_iso, event.timezone);
+
+    if (apiResult.stopped && apiResult.stopReason === "rate_limited") {
+      runState.stopReason = "rate_limited";
+      runState.nextResumeShowId = event.id;
+      const classification = notCheckedClassification(
+        "rate_limited_not_checked",
+        apiResult.reason || "SeatGeek API returned HTTP 429; event was not checked and no URL was applied."
+      );
+      results.push(formatEventResult(event, tmLocalDate, apiResult, [], classification, options, false));
+      for (const remaining of selected.slice(index + 1)) {
+        const remainingApiResult = emptyApiResult(remaining, "rate_limited", true);
+        const remainingClassification = notCheckedClassification(
+          "rate_limited_not_checked",
+          "Skipped without an API search because the run stopped after SeatGeek rate limiting."
+        );
+        results.push(formatEventResult(remaining, remainingApiResult.localDate, remainingApiResult, [], remainingClassification, options, false));
+      }
+      break;
+    }
+
+    if (apiResult.stopped && apiResult.stopReason === "api_call_limit_reached") {
+      runState.stopReason = "api_call_limit_reached";
+      runState.nextResumeShowId = event.id;
+      const classification = notCheckedClassification(
+        "api_call_limit_not_checked",
+        apiResult.reason || "Stopped before exceeding --max-api-calls; event was not checked and no URL was applied."
+      );
+      results.push(formatEventResult(event, tmLocalDate, apiResult, [], classification, options, false));
+      break;
+    }
+
     const scoredCandidates = apiResult.ok ? apiResult.candidates.map((candidate) => scoreCandidate(event, candidate, tmLocalDate)) : [];
     const classification = apiResult.ok
       ? classifyCandidate(event, scoredCandidates)
@@ -857,6 +1113,13 @@ async function main() {
     results.push(formatEventResult(event, tmLocalDate, apiResult, scoredCandidates, classification, options, shouldApply));
   }
 
+  if (!runState.nextResumeShowId) {
+    const lastResult = results.at(-1);
+    const lastIndex = lastResult ? eligible.findIndex((event) => event.id === lastResult.showId) : -1;
+    const nextEligible = lastIndex >= 0 ? eligible[lastIndex + 1] : null;
+    runState.nextResumeShowId = nextEligible?.id || "";
+  }
+
   if (options.applyHighConfidence && additions.size > 0) {
     for (const event of events) {
       if (selectedIds.has(event.id) && additions.has(event.id) && !isValidSeatGeekEventUrl(event.seatgeek_url).ok) {
@@ -864,9 +1127,10 @@ async function main() {
       }
     }
     await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
+    await syncPartitionedEventFiles(events, additions);
   }
 
-  const summary = summarize(results, options, apiEnvironment);
+  const summary = summarize(results, options, apiEnvironment, runState);
   await fs.writeFile(options.logPath, renderLog(results, summary));
 
   if (options.json) {
@@ -877,7 +1141,6 @@ async function main() {
 
   return 0;
 }
-
 main().then((code) => {
   process.exitCode = code;
 }).catch((error) => {

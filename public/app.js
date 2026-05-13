@@ -943,7 +943,7 @@ function renderShowCard(show, options = {}) {
       cta.target = "_blank";
       cta.rel = "noopener";
       const seatGeekUrl = safeSeatGeekEventUrl(show.seatgeek_url);
-      if (options.seatGeekAvailable && seatGeekUrl) {
+      if (seatGeekUrl) {
         const seatGeekParams = new URLSearchParams({ showId, provider: "seatgeek" });
         const seatGeekCta = buttonLink("Check SeatGeek", `/api/out?${seatGeekParams.toString()}`, "secondary");
         seatGeekCta.target = "_blank";
@@ -994,8 +994,7 @@ async function hydrateShowBoard(section, filters = {}) {
       return;
     }
     grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show, {
-      showEventCta: Boolean(filters.showEventCta),
-      seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek)
+      showEventCta: Boolean(filters.showEventCta)
     })));
   } catch (error) {
     grid.replaceChildren();

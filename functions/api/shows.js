@@ -428,8 +428,6 @@ function hasImpactCredentials(env) {
 
 function hasSeatGeekProviderConfig(env = {}) {
   return Boolean(
-    String(env?.SEATGEEK_CLIENT_ID || "").trim() &&
-    String(env?.SEATGEEK_CLIENT_SECRET || "").trim() &&
     String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim() &&
     String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || "").trim() &&
     String(env?.IMPACT_SEATGEEK_PROGRAM_ID || "").trim()

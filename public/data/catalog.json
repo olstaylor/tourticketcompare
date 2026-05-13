@@ -279,7 +279,8 @@
         "CA"
       ],
       "allowed_destination_hosts": [
-        "seatgeek.com"
+        "seatgeek.com",
+        "api.seatgeek.com"
       ],
       "trusted_affiliate_hosts": [],
       "api_config": {

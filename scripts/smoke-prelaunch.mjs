@@ -465,14 +465,22 @@ const configuredShowsResponse = await showsModule.onRequestGet({
 });
 const configuredShowsJson = await configuredShowsResponse.json();
 assert(configuredShowsJson.providerAvailability?.seatgeek === true, "/api/shows should expose only a safe true SeatGeek availability flag when the Impact API fallback is configured");
+assert(
+  configuredShowsJson.shows.every((show) => show.provider_ctas?.seatgeek === (show.id === CONTROLLED_SEATGEEK_SHOW_ID)),
+  "/api/shows should mark SeatGeek CTAs resolvable only for the controlled event-level URL when Impact API tracking is configured"
+);
 const baseTrackingShowsResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
   env: seatGeekBaseTrackingEnv
 });
 const baseTrackingShowsJson = await baseTrackingShowsResponse.json();
 assert(baseTrackingShowsJson.providerAvailability?.seatgeek === true, "/api/shows should expose a safe true SeatGeek availability flag when the base tracking URL is configured");
+assert(
+  baseTrackingShowsJson.shows.every((show) => show.provider_ctas?.seatgeek === (show.id === CONTROLLED_SEATGEEK_SHOW_ID)),
+  "/api/shows should mark SeatGeek CTAs resolvable only for the controlled event-level URL when base tracking is configured"
+);
 const serverMorganWithSeatGeek = await routeResponse("/artists/morgan-wallen", seatGeekBaseTrackingEnv);
-const expectedMorganSeatGeekCtas = morganShows.filter((show) => safeSeatGeekEventUrl(show.seatgeek_url)).length;
+const expectedMorganSeatGeekCtas = baseTrackingShowsJson.shows.filter((show) => show.provider_ctas?.seatgeek === true).length;
 assert((serverMorganWithSeatGeek.text.match(/Check SeatGeek/g) || []).length === expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "server-rendered SeatGeek CTA should target the controlled show through /api/out");
 assert(serverMorganWithSeatGeek.text.includes("SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase."), "server-rendered SeatGeek CTA should include conservative supporting copy");
@@ -496,6 +504,10 @@ const invalidSeatGeekShowsResponse = await showsModule.onRequestGet({
   env: invalidSeatGeekEnv
 });
 const invalidSeatGeekShowsJson = await invalidSeatGeekShowsResponse.json();
+assert(
+  invalidSeatGeekShowsJson.shows.every((show) => show.provider_ctas?.seatgeek === false),
+  "hydrated SeatGeek CTAs should be unavailable when event URLs are not accepted by the redirect allowlist"
+);
 const invalidSeatGeekShow = invalidSeatGeekShowsJson.shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
 assert(invalidSeatGeekShow?.seatgeek_url?.includes("example.com"), "invalid test fixture should expose a SeatGeek URL that the hydrated allowlist rejects");
 const serverMorganWithoutSeatGeek = await routeResponse("/artists/morgan-wallen");

@@ -919,6 +919,7 @@ function safeSeatGeekEventUrl(value) {
   if (!safeUrl) return null;
   try {
     const parsed = new URL(safeUrl);
+    if (parsed.protocol !== "https:") return null;
     const host = parsed.hostname.toLowerCase();
     const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
     if (host !== "seatgeek.com" && host !== "www.seatgeek.com") return null;
@@ -928,6 +929,14 @@ function safeSeatGeekEventUrl(value) {
   } catch (error) {
     return null;
   }
+}
+
+function seatGeekOutAvailable(show, options = {}) {
+  if (!options.seatGeekAvailable) return false;
+  if (show?.provider_ctas && typeof show.provider_ctas === "object") {
+    return show.provider_ctas.seatgeek === true;
+  }
+  return Boolean(safeSeatGeekEventUrl(show?.seatgeek_url));
 }
 
 function renderShowCard(show, options = {}) {
@@ -947,8 +956,7 @@ function renderShowCard(show, options = {}) {
       const cta = buttonLink("View event ticket link", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";
       cta.rel = "noopener";
-      const seatGeekUrl = safeSeatGeekEventUrl(show.seatgeek_url);
-      if (options.seatGeekAvailable && seatGeekUrl) {
+      if (seatGeekOutAvailable(show, options)) {
         const seatGeekParams = new URLSearchParams({ showId, provider: "seatgeek" });
         const seatGeekCta = buttonLink("Check SeatGeek", `/api/out?${seatGeekParams.toString()}`, "secondary");
         seatGeekCta.target = "_blank";

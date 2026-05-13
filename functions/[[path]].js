@@ -469,6 +469,7 @@ function safeSeatGeekTicketUrl(value) {
   if (!safeUrl) return null;
   try {
     const parsed = new URL(safeUrl);
+    if (parsed.protocol !== "https:") return null;
     const host = parsed.hostname.toLowerCase();
     const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
     if (host !== "seatgeek.com" && host !== "www.seatgeek.com") return null;
@@ -506,7 +507,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
     const ticketmasterCta = `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}`;
     const disclosure = `<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`;
 
-    // SeatGeek CTA appears only when the event URL is verified, /api/out can resolve it, and SeatGeek Impact is configured.
+    // SeatGeek CTA appears only when redirects are configured and /api/out can resolve the stored event-level SeatGeek URL.
     if (seatGeekOutAvailable(show, seatGeekAvailable)) {
       const seatGeekCta = `${anchor("Check SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-secondary")}`;
       ctaHtml = `<div class="cta-group">${ticketmasterCta}${seatGeekCta}</div><p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>`;

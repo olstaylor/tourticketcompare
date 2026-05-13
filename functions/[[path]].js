@@ -839,8 +839,13 @@ async function renderInternalImpactTagTest(request, env, url) {
       ""
   ).trim();
 
-  const sgTagSrc = safeImpactCdnUrl(env && env.IMPACT_SEATGEEK_PUBLISHER_TAG_URL);
-  const sgTagOrigin = safeImpactCdnOrigin(env && env.IMPACT_SEATGEEK_PUBLISHER_TAG_URL);
+  const sgTagCandidate =
+    url.searchParams.get("sgTagUrl") ||
+    (env && env.IMPACT_SEATGEEK_PUBLISHER_TAG_URL) ||
+    "";
+  const sgTagSrc = safeImpactCdnUrl(sgTagCandidate);
+  const sgTagOrigin = safeImpactCdnOrigin(sgTagCandidate);
+  const sgTagParamProvided = url.searchParams.has("sgTagUrl");
 
   const tmRawAnchor = sample
     ? `<a href="${escapeAttr(sample.url)}" data-provider="ticketmaster" data-test-link="raw-ticketmaster" rel="noopener nofollow">Raw Ticketmaster direct link</a>`
@@ -869,8 +874,8 @@ async function renderInternalImpactTagTest(request, env, url) {
     : "";
 
   const sgTagBanner = sgTagSrc
-    ? `<p class="info-note">SeatGeek Publisher Tag will load from a configured impactcdn.com URL using a separate global (<code>window.impactStatSG</code>).</p>`
-    : `<p class="warning-note"><strong>Warning:</strong> SeatGeek Publisher Tag is not loaded. Set <code>IMPACT_SEATGEEK_PUBLISHER_TAG_URL</code> (must point to an https://utt.impactcdn.com or https://*.impact.com URL) to enable.</p>`;
+    ? `<p class="info-note">SeatGeek Publisher Tag will load using ${sgTagParamProvided ? "the validated <code>?sgTagUrl=</code> override" : "configured environment"} and a separate global (<code>window.impactStatSG</code>).</p>`
+    : `<p class="warning-note"><strong>Warning:</strong> SeatGeek Publisher Tag is not loaded. Pass <code>?sgTagUrl=</code> or set <code>IMPACT_SEATGEEK_PUBLISHER_TAG_URL</code> (must point to an https://utt.impactcdn.com, https://*.impactcdn.com, or https://*.impact.com URL) to enable.</p>`;
 
   const body = `<!doctype html>
 <html lang="en">

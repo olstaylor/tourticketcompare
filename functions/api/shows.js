@@ -434,6 +434,35 @@ function hasSeatGeekProviderConfig(env = {}) {
   );
 }
 
+function hostnameAllowed(hostname, allowedHosts) {
+  const host = String(hostname || "").toLowerCase();
+  return allowedHosts.some((allowed) => host === allowed || host.endsWith(`.${allowed}`));
+}
+
+function validSeatGeekEventUrl(value) {
+  if (typeof value !== "string") return null;
+  const trimmed = value.trim();
+  if (!trimmed || isLikelyPlaceholderUrl(trimmed)) return null;
+  try {
+    const parsed = new URL(trimmed);
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return null;
+    return hostnameAllowed(parsed.hostname, ["seatgeek.com"]) ? parsed.toString() : null;
+  } catch (err) {
+    return null;
+  }
+}
+
+function withResolvableProviderCtas(shows, env = {}) {
+  const seatGeekConfigured = hasSeatGeekProviderConfig(env);
+  return shows.map((show) => ({
+    ...show,
+    provider_ctas: {
+      ...(show.provider_ctas && typeof show.provider_ctas === "object" ? show.provider_ctas : {}),
+      seatgeek: Boolean(seatGeekConfigured && validSeatGeekEventUrl(show.seatgeek_url))
+    }
+  }));
+}
+
 function getProviderDeepLink(show, provider, fallbackUrl) {
   const key = providerKey(provider);
   const candidate = String(show?.[`${key}_deep_link`] || show?.impact_deep_link || fallbackUrl || "").trim();
@@ -1091,9 +1120,10 @@ export async function onRequestGet({ request, env }) {
     );
   }
 
-  const requestedShows = includesShowId
-    ? filteredShows
-    : filteredShows.slice(offset, offset + limit);
+  const requestedShows = withResolvableProviderCtas(
+    includesShowId ? filteredShows : filteredShows.slice(offset, offset + limit),
+    env
+  );
 
   if (!includePrices) {
     return new Response(

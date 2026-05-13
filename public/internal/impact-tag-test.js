@@ -25,6 +25,22 @@
     "ircid"
   ];
 
+  var RESULT_COLUMNS = [
+    "label",
+    "data-provider",
+    "data-test-link",
+    "initial href host",
+    "post-load href host",
+    "initial full href",
+    "post-load full href",
+    "host changed",
+    "full href changed",
+    "recognised params",
+    "added params",
+    "tracking likely",
+    "verdict"
+  ];
+
   function safeImpactCdn(url) {
     try {
       var u = new URL(url);
@@ -215,6 +231,12 @@
     );
   }
 
+  function renderHeader() {
+    return RESULT_COLUMNS.map(function (label) {
+      return "<th>" + escapeHtml(label) + "</th>";
+    }).join("");
+  }
+
   function renderTable(initial, after) {
     var target = document.getElementById("tagTestResults");
     if (!target) return;
@@ -233,9 +255,6 @@
       var trackingLikely = hrefChanged && addedParams.length > 0;
       var verdict = classifyRow(a.testId, initialHref, finalHref, params, addedParams);
 
-      var paramsCell = paramListCell(params);
-      var addedParamsCell = paramListCell(addedParams);
-
       rows.push(
         '<tr class="row-' + escapeHtml(verdict.kind) + '">' +
         '<td>' + escapeHtml(a.label) + '</td>' +
@@ -247,36 +266,24 @@
         '<td>' + hrefCell(finalHref) + '</td>' +
         '<td>' + (hostChanged ? "yes" : "no") + '</td>' +
         '<td>' + (hrefChanged ? "yes" : "no") + '</td>' +
-        '<td>' + (params.length ? "yes" : "no") + '</td>' +
-        '<td>' + paramsCell + '</td>' +
-        '<td>' + addedParamsCell + '</td>' +
+        '<td>' + paramListCell(params) + '</td>' +
+        '<td>' + paramListCell(addedParams) + '</td>' +
         '<td>' + (trackingLikely ? "yes" : "no") + '</td>' +
         '<td class="verdict verdict-' + escapeHtml(verdict.kind) + '">' + escapeHtml(verdict.text) + '</td>' +
         '</tr>'
       );
     }
+    if (!rows.length) {
+      rows.push('<tr><td colspan="' + RESULT_COLUMNS.length + '">No test links found.</td></tr>');
+    }
     target.innerHTML =
-      "<thead><tr>" +
-      "<th>label</th>" +
-      "<th>data-provider</th>" +
-      "<th>data-test-link</th>" +
-      "<th>initial host</th>" +
-      "<th>post-load host</th>" +
-      "<th>initial href</th>" +
-      "<th>post-load href</th>" +
-      "<th>host changed</th>" +
-      "<th>full href changed</th>" +
-      "<th>affiliate params present</th>" +
-      "<th>detected tracking params</th>" +
-      "<th>added query params</th>" +
-      "<th>tracking likely present</th>" +
-      "<th>verdict</th>" +
-      "</tr></thead><tbody>" + rows.join("") + "</tbody>";
+      "<thead><tr>" + renderHeader() + "</tr></thead><tbody>" + rows.join("") + "</tbody>";
   }
 
   function init() {
     bootstrapSeatGeekTag();
     var initial = snapshot();
+    renderTable(initial, initial);
     setTimeout(function () {
       renderTable(initial, snapshot());
     }, 2000);

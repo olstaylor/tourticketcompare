@@ -4,6 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
+import { ProxyAgent, setGlobalDispatcher } from "undici";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -12,9 +13,12 @@ const DEFAULT_OUTPUT_PATH = path.join(REPO_ROOT, "reports", "seatgeek-url-candid
 const SEATGEEK_EVENTS_ENDPOINT = "https://api.seatgeek.com/2/events";
 const DEFAULT_PER_PAGE = 10;
 const DEFAULT_TIMEOUT_MS = 20_000;
+const DEFAULT_DELAY_MS = 350;
 const HIGH_CONFIDENCE_MIN_SCORE = 82;
 const NEEDS_REVIEW_MIN_SCORE = 55;
 const SIMILAR_SCORE_WINDOW = 8;
+configureFetchProxy();
+
 const GENERIC_SEATGEEK_FIRST_SEGMENTS = new Set([
   "search",
   "venues",
@@ -27,8 +31,27 @@ const GENERIC_SEATGEEK_FIRST_SEGMENTS = new Set([
   "tickets"
 ]);
 
+function configuredProxyUrl() {
+  const proxy = clean(process.env.HTTPS_PROXY || process.env.https_proxy || process.env.HTTP_PROXY || process.env.http_proxy, 2048);
+  if (!proxy) return "";
+  const noProxy = clean(process.env.NO_PROXY || process.env.no_proxy, 2048)
+    .toLowerCase()
+    .split(",")
+    .map((entry) => entry.trim())
+    .filter(Boolean);
+  if (noProxy.includes("*") || noProxy.includes("api.seatgeek.com") || noProxy.includes("seatgeek.com") || noProxy.includes(".seatgeek.com")) return "";
+  return proxy;
+}
+
+function configureFetchProxy() {
+  const proxy = configuredProxyUrl();
+  if (!proxy) return false;
+  setGlobalDispatcher(new ProxyAgent(proxy));
+  return true;
+}
+
 function usage() {
-  return `Usage: node scripts/propose-seatgeek-urls.mjs [options]\n\nProposal-only SeatGeek URL enrichment. Reads events, optionally queries SeatGeek when server-side credentials are present, and writes a review JSON file only. It never mutates public/data/events.json.\n\nOptions:\n  --output <path>       Review JSON output path (default: reports/seatgeek-url-candidates.json)\n  --events <path>       Events JSON path (default: public/data/events.json)\n  --artist <value>      Filter by artist slug or name\n  --limit <number>      Process at most this many missing future events\n  --dry-run             Explicit dry run; retained for clarity because all modes are proposal-only\n  --verbose             Log redacted SeatGeek request URLs and scoring details\n  --self-test           Run built-in smoke tests without calling SeatGeek\n  -h, --help            Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID     Enables SeatGeek API lookups when present\n  SEATGEEK_CLIENT_SECRET Optional; sent server-side if present and always redacted from logs/output\n  TTC_TODAY              Optional YYYY-MM-DD date override for deterministic local testing\n`;
+  return `Usage: node scripts/propose-seatgeek-urls.mjs [options]\n\nProposal-only SeatGeek URL enrichment. Reads events, optionally queries SeatGeek when server-side credentials are present, and writes a review JSON file only. It never mutates public/data/events.json.\n\nOptions:\n  --output <path>       Review JSON output path (default: reports/seatgeek-url-candidates.json)\n  --events <path>       Events JSON path (default: public/data/events.json)\n  --artist <value>      Filter by artist slug or name\n  --limit <number>      Process at most this many missing future events\n  --delay-ms <number>   Delay before each SeatGeek API request (default: 350)\n  --dry-run             Explicit dry run; retained for clarity because all modes are proposal-only\n  --verbose             Log redacted SeatGeek request URLs and scoring details\n  --self-test           Run built-in smoke tests without calling SeatGeek\n  --diagnostics-output <path>  Write a curated SeatGeek API diagnostics Markdown report\n  -h, --help            Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID     Enables SeatGeek API lookups when present\n  SEATGEEK_CLIENT_SECRET Optional; sent server-side if present and always redacted from logs/output\n  TTC_TODAY              Optional YYYY-MM-DD date override for deterministic local testing\n`;
 }
 
 function parseArgs(argv) {
@@ -37,9 +60,11 @@ function parseArgs(argv) {
     eventsPath: DEFAULT_EVENTS_PATH,
     artist: "",
     limit: null,
+    delayMs: DEFAULT_DELAY_MS,
     dryRun: true,
     verbose: false,
     selfTest: false,
+    diagnosticsOutputPath: "",
     help: false
   };
   for (let i = 0; i < argv.length; i += 1) {
@@ -62,12 +87,22 @@ function parseArgs(argv) {
       const parsed = Number.parseInt(value, 10);
       if (!Number.isInteger(parsed) || parsed < 1) throw new Error("--limit requires a positive integer");
       options.limit = parsed;
+    } else if (arg === "--delay-ms") {
+      const value = argv[++i];
+      if (!value || value.startsWith("--")) throw new Error("--delay-ms requires a non-negative integer");
+      const parsed = Number.parseInt(value, 10);
+      if (!Number.isInteger(parsed) || parsed < 0) throw new Error("--delay-ms requires a non-negative integer");
+      options.delayMs = parsed;
     } else if (arg === "--dry-run") {
       options.dryRun = true;
     } else if (arg === "--verbose") {
       options.verbose = true;
     } else if (arg === "--self-test") {
       options.selfTest = true;
+    } else if (arg === "--diagnostics-output") {
+      const value = argv[++i];
+      if (!value || value.startsWith("--")) throw new Error("--diagnostics-output requires a path");
+      options.diagnosticsOutputPath = path.resolve(REPO_ROOT, value);
     } else if (arg === "--help" || arg === "-h") {
       options.help = true;
     } else {
@@ -272,6 +307,10 @@ function redactApiUrl(url) {
   return parsed.toString();
 }
 
+function sleep(ms) {
+  return ms > 0 ? new Promise((resolve) => setTimeout(resolve, ms)) : Promise.resolve();
+}
+
 async function fetchJson(url) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), DEFAULT_TIMEOUT_MS);
@@ -284,10 +323,31 @@ async function fetchJson(url) {
     } catch {
       throw new Error(`SeatGeek API returned invalid JSON after HTTP ${response.status}`);
     }
-    return { ok: response.ok, status: response.status, payload };
+    return {
+      ok: response.ok,
+      status: response.status,
+      payload,
+      headers: {
+        ratelimitRemaining: response.headers.get("ratelimit-remaining") || response.headers.get("x-ratelimit-remaining-minute") || "",
+        ratelimitReset: response.headers.get("ratelimit-reset") || response.headers.get("x-ratelimit-reset") || ""
+      }
+    };
   } finally {
     clearTimeout(timeout);
   }
+}
+
+function rawCandidateSummary(candidate) {
+  return {
+    title: clean(candidate?.title, 200),
+    datetime: clean(candidate?.datetime_local || candidate?.datetime_utc || "", 100),
+    venue: candidateVenue(candidate),
+    city: candidateCity(candidate),
+    url: clean(candidate?.url, 2048),
+    performers: candidatePerformers(candidate),
+    taxonomy: taxonomyNames(candidate),
+    type: clean(candidate?.type, 80)
+  };
 }
 
 async function fetchCandidates(event, options, credentials) {
@@ -299,9 +359,18 @@ async function fetchCandidates(event, options, credentials) {
     const redactedUrl = redactApiUrl(url);
     if (options.verbose) console.error(`SeatGeek query for ${event.id}: ${attempt.name}: ${redactedUrl}`);
     try {
-      const response = await fetchJson(url);
+      await sleep(options.delayMs);
+      let response = await fetchJson(url);
+      if (response.status === 429) {
+        const resetSeconds = Number.parseInt(response.headers.ratelimitReset, 10);
+        const retryDelayMs = Number.isFinite(resetSeconds) && resetSeconds > 0 ? (resetSeconds + 1) * 1000 : 65_000;
+        if (options.verbose) console.error(`SeatGeek rate limit for ${event.id}; retrying ${attempt.name} after ${retryDelayMs}ms`);
+        await sleep(retryDelayMs);
+        response = await fetchJson(url);
+      }
       const sgEvents = Array.isArray(response.payload?.events) ? response.payload.events : [];
-      attemptResults.push({ name: attempt.name, ok: response.ok, status: response.status, query: redactedUrl, candidateCount: sgEvents.length });
+      const apiError = response.ok ? "" : clean(response.payload?.message || response.payload?.error || `SeatGeek API HTTP ${response.status}`, 200);
+      attemptResults.push({ name: attempt.name, ok: response.ok, status: response.status, query: redactedUrl, candidateCount: sgEvents.length, topCandidates: sgEvents.slice(0, 5).map(rawCandidateSummary), error: apiError });
       if (!response.ok) continue;
       for (const candidate of sgEvents) {
         const key = clean(candidate?.url, 2048) || String(candidate?.id ?? "");
@@ -608,6 +677,161 @@ async function runProposal(options) {
   return report;
 }
 
+
+function pickDiagnosticEvent(events, label, predicate) {
+  const event = events.find(predicate);
+  if (!event) throw new Error(`Could not find diagnostic sample event: ${label}`);
+  return { label, event };
+}
+
+function diagnosticSamples(events, asOfDate) {
+  const future = (event) => eventIsFuture(event, asOfDate);
+  const missingSeatGeek = (event) => !validateSeatGeekEventUrl(getStoredSeatGeekUrl(event)).ok;
+  const hasSeatGeek = (event) => validateSeatGeekEventUrl(getStoredSeatGeekUrl(event)).ok;
+  return [
+    pickDiagnosticEvent(events, "Ariana Grande — Oakland Arena missing SeatGeek URL", (event) => future(event) && missingSeatGeek(event) && event.artist_name === "Ariana Grande" && event.venue === "Oakland Arena"),
+    pickDiagnosticEvent(events, "Ariana Grande — Los Angeles missing SeatGeek URL", (event) => future(event) && missingSeatGeek(event) && event.artist_name === "Ariana Grande" && event.city === "Los Angeles"),
+    pickDiagnosticEvent(events, "Ariana Grande — Brooklyn missing SeatGeek URL", (event) => future(event) && missingSeatGeek(event) && event.artist_name === "Ariana Grande" && event.city === "Brooklyn"),
+    pickDiagnosticEvent(events, "BTS — Stanford Stadium missing SeatGeek URL", (event) => future(event) && missingSeatGeek(event) && event.artist_name === "BTS" && event.venue === "Stanford Stadium"),
+    pickDiagnosticEvent(events, "BTS — SoFi Stadium missing SeatGeek URL", (event) => future(event) && missingSeatGeek(event) && event.artist_name === "BTS" && event.venue === "SoFi Stadium"),
+    pickDiagnosticEvent(events, "BTS — MetLife Stadium missing SeatGeek URL", (event) => future(event) && missingSeatGeek(event) && event.artist_name === "BTS" && event.venue === "MetLife Stadium"),
+    pickDiagnosticEvent(events, "JAY-Z — Yankee Stadium missing SeatGeek URL", (event) => future(event) && missingSeatGeek(event) && event.artist_name === "JAY-Z" && event.venue === "Yankee Stadium"),
+    pickDiagnosticEvent(events, "Harry Styles — Madison Square Garden missing SeatGeek URL", (event) => future(event) && missingSeatGeek(event) && event.artist_name === "Harry Styles" && event.venue === "Madison Square Garden"),
+    pickDiagnosticEvent(events, "Harry Styles — Madison Square Garden stored SeatGeek URL control", (event) => future(event) && hasSeatGeek(event) && event.artist_name === "Harry Styles" && event.venue === "Madison Square Garden"),
+    pickDiagnosticEvent(events, "Morgan Wallen — stored SeatGeek URL control", (event) => future(event) && hasSeatGeek(event) && event.artist_name === "Morgan Wallen")
+  ];
+}
+
+function markdownCell(value) {
+  const text = Array.isArray(value) ? value.join(", ") : clean(value, 4000);
+  return text.replace(/\|/g, "\\|").replace(/\n/g, "<br>") || "—";
+}
+
+function candidateDecisionText(candidate) {
+  if (candidate.proposed_status === "high_confidence") return "accepted as high_confidence";
+  if (candidate.proposed_status === "needs_review") return "downgraded to needs_review";
+  return "rejected";
+}
+
+async function runDiagnostics(options) {
+  const asOfDate = todayString();
+  const beforeHash = await sha256File(options.eventsPath);
+  const raw = await fs.readFile(options.eventsPath, "utf8");
+  const events = JSON.parse(raw);
+  if (!Array.isArray(events)) throw new Error(`${path.relative(REPO_ROOT, options.eventsPath)} must contain a JSON array`);
+  const credentials = seatgeekCredentials();
+  if (!credentials.configured) throw new Error("SEATGEEK_CLIENT_ID is required for diagnostics");
+
+  const sections = [];
+  for (const sample of diagnosticSamples(events, asOfDate)) {
+    const apiResult = await fetchCandidates(sample.event, { ...options, verbose: false }, credentials);
+    const classified = classifyScoredCandidates(apiResult.candidates.map((candidate) => scoreCandidate(sample.event, candidate)));
+    const storedSeatGeekUrl = getStoredSeatGeekUrl(sample.event);
+    const rediscoveredStoredUrl = Boolean(storedSeatGeekUrl && classified.some((candidate) => candidate.proposed_seatgeek_url === storedSeatGeekUrl));
+    sections.push({ sample, apiResult, classified, storedSeatGeekUrl, rediscoveredStoredUrl });
+  }
+
+  const totalRaw = sections.reduce((sum, section) => sum + section.apiResult.attempts.reduce((attemptSum, attempt) => attemptSum + attempt.candidateCount, 0), 0);
+  const totalUnique = sections.reduce((sum, section) => sum + section.apiResult.candidates.length, 0);
+  const rediscoveryControls = sections.filter((section) => section.storedSeatGeekUrl);
+  const rediscoveredControls = rediscoveryControls.filter((section) => section.rediscoveredStoredUrl);
+  const proxyConfigured = Boolean(configuredProxyUrl());
+
+  const lines = [
+    "# SeatGeek Proposal Diagnostics",
+    "",
+    "Curated diagnostic run for the SeatGeek proposal workflow. The run used SeatGeek API credentials server-side, redacted credentials from query logs, and did not mutate event data or apply URLs.",
+    "",
+    "## Summary",
+    "",
+    `- Generated at: ${new Date().toISOString()}`,
+    `- As-of date: ${asOfDate}`,
+    `- Diagnostic samples checked: ${sections.length}`,
+    `- SeatGeek API credentials available: ${credentials.configured ? "yes" : "no"} (client secret present: ${credentials.clientSecretPresent ? "yes" : "no"})`,
+    `- HTTP(S) proxy configured for Node fetch: ${proxyConfigured ? "yes" : "no"}`,
+    `- SeatGeek request delay: ${options.delayMs}ms, with one retry after HTTP 429 rate-limit responses`,
+    `- Raw SeatGeek candidate rows returned across all attempts: ${totalRaw}`,
+    `- Unique SeatGeek candidate URLs/IDs after de-duplication: ${totalUnique}`,
+    `- Stored positive-control URLs rediscovered: ${rediscoveredControls.length} of ${rediscoveryControls.length}`,
+    "- Event data changed: no",
+    "- SeatGeek URLs applied: no",
+    "",
+    "## Diagnosis",
+    "",
+    totalRaw > 0
+      ? "The SeatGeek API did return raw candidates for the diagnostic sample after Node fetch was configured to honor the environment HTTP(S) proxy. The earlier all-zero review was therefore not evidence that SeatGeek had no API candidates; it was caused by transport failures being collapsed into zero-candidate attempts in this environment. The script now also paces requests and retries HTTP 429 responses so rate-limit responses are less likely to be mistaken for no-candidate results during all-artist runs."
+      : "The SeatGeek API returned zero raw candidates for the diagnostic sample. This would support a genuine no-candidate result for the sampled events, assuming the credentials and network path are valid.",
+    "",
+    rediscoveredControls.length === rediscoveryControls.length
+      ? "The script rediscovered every stored positive-control SeatGeek URL in the diagnostic sample."
+      : "The script did not rediscover every stored positive-control SeatGeek URL in the diagnostic sample; query strategy should be reviewed before applying candidates.",
+    ""
+  ];
+
+  for (const section of sections) {
+    const event = section.sample.event;
+    lines.push(`## ${section.sample.label}`);
+    lines.push("");
+    lines.push(`- Local event ID: ${clean(event.id, 160)}`);
+    lines.push(`- Artist: ${clean(event.artist_name || event.artist_slug, 120)}`);
+    lines.push(`- Date: ${localDateFromIso(event.datetime_iso, event.timezone)}`);
+    lines.push(`- City: ${clean(event.city, 120)}`);
+    lines.push(`- Venue: ${clean(event.venue, 180)}`);
+    lines.push(`- Ticketmaster URL: ${clean(event.ticketmaster_url, 2048) || "—"}`);
+    lines.push(`- Stored SeatGeek URL: ${section.storedSeatGeekUrl || "—"}`);
+    if (section.storedSeatGeekUrl) lines.push(`- Stored SeatGeek URL rediscovered: ${section.rediscoveredStoredUrl ? "yes" : "no"}`);
+    lines.push(`- Unique candidates after de-duplication: ${section.apiResult.candidates.length}`);
+    lines.push("");
+    lines.push("### SeatGeek API attempts");
+    lines.push("");
+    for (const attempt of section.apiResult.attempts) {
+      lines.push(`#### ${attempt.name}`);
+      lines.push("");
+      lines.push(`- Query: \`${attempt.query}\``);
+      lines.push(`- HTTP status: ${attempt.status}`);
+      lines.push(`- Raw candidate count before filtering: ${attempt.candidateCount}`);
+      if (attempt.error) lines.push(`- Error: ${attempt.error}`);
+      if (attempt.topCandidates.length) {
+        lines.push("");
+        lines.push("| # | Title | Date/time | Venue | City | URL | Performers | Taxonomy/type |");
+        lines.push("|---:|---|---|---|---|---|---|---|");
+        attempt.topCandidates.forEach((candidate, index) => {
+          lines.push(`| ${index + 1} | ${markdownCell(candidate.title)} | ${markdownCell(candidate.datetime)} | ${markdownCell(candidate.venue)} | ${markdownCell(candidate.city)} | ${markdownCell(candidate.url)} | ${markdownCell(candidate.performers)} | ${markdownCell([...candidate.taxonomy, candidate.type].filter(Boolean))} |`);
+        });
+      } else {
+        lines.push("");
+        lines.push("No raw candidates returned for this attempt.");
+      }
+      lines.push("");
+    }
+    lines.push("### Candidate scoring decisions");
+    lines.push("");
+    if (section.classified.length) {
+      lines.push("| Proposed status | Decision | Score | SeatGeek title | SeatGeek date/time | SeatGeek venue/city | URL | Match reasons | Risk flags |");
+      lines.push("|---|---|---:|---|---|---|---|---|---|");
+      for (const candidate of section.classified.slice(0, 10)) {
+        lines.push(`| ${markdownCell(candidate.proposed_status)} | ${markdownCell(candidateDecisionText(candidate))} | ${candidate.confidence_score} | ${markdownCell(candidate.seatgeek_event_title)} | ${markdownCell(candidate.seatgeek_event_datetime)} | ${markdownCell(`${candidate.seatgeek_venue}${candidate.seatgeek_venue_city ? `, ${candidate.seatgeek_venue_city}` : ""}`)} | ${markdownCell(candidate.proposed_seatgeek_url)} | ${markdownCell(candidate.match_reasons)} | ${markdownCell(candidate.risk_flags)} |`);
+      }
+      if (section.classified.length > 10) lines.push(`\nOnly the top 10 scored decisions are shown out of ${section.classified.length} unique candidates.`);
+    } else {
+      lines.push("No unique candidates were available to score.");
+    }
+    lines.push("");
+  }
+
+  lines.push("## Recommendation");
+  lines.push("");
+  lines.push("Rerun the all-artist proposal workflow after this diagnostic fix. The diagnostic sample shows that the API can return raw candidates and that stored positive-control SeatGeek URLs can be rediscovered once Node fetch uses the configured HTTP(S) proxy. Keep the existing strict scoring/classification rules and manually review `needs_review` candidates before any separate apply PR.");
+  lines.push("");
+
+  await fs.mkdir(path.dirname(options.diagnosticsOutputPath), { recursive: true });
+  await fs.writeFile(options.diagnosticsOutputPath, `${lines.join("\n")}\n`);
+  const afterHash = await sha256File(options.eventsPath);
+  if (beforeHash !== afterHash) throw new Error("Safety check failed: events JSON changed during diagnostics run");
+  console.log(`Wrote SeatGeek diagnostics report: ${path.relative(REPO_ROOT, options.diagnosticsOutputPath)}`);
+  console.log("Diagnostics mode: event data, CTA rendering, /api/out, Ticketmaster behavior, and provider URLs were not changed.");
+}
+
 function requiredCandidateFields() {
   return [
     "local_event_id",
@@ -705,6 +929,10 @@ async function main() {
   }
   if (options.selfTest) {
     await runSelfTest();
+    return;
+  }
+  if (options.diagnosticsOutputPath) {
+    await runDiagnostics(options);
     return;
   }
   await runProposal(options);

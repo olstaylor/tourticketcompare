@@ -276,7 +276,8 @@ assert(
 );
 await read("public/404.html");
 
-const catchAllModule = await import(pathToFileURL(path.join(root, "functions/[[path]].js")));
+const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
+const routeMetadataModule = await import(pathToFileURL(path.join(root, "functions/_route-metadata.js")));
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
 const debugSeatgeekModule = await import(pathToFileURL(path.join(root, "functions/api/debug-seatgeek.js")));
@@ -308,7 +309,7 @@ const env = {
 
 async function routeResponse(pathname, envOverride = env) {
   let nextCalled = false;
-  const response = await catchAllModule.onRequest({
+  const response = await middlewareModule.onRequest({
     request: new Request(`https://tourticketcompare.com${pathname}`),
     env: envOverride,
     next: () => {
@@ -330,7 +331,7 @@ assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must 
 assert(indexHtml.includes('src="/impact.js"'), "index.html must load Impact via <script src=\"/impact.js\">");
 
 for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/${slug}`))) {
-  const { response, text } = await routeResponse(pathname);
+  const { response, text, nextCalled } = await routeResponse(pathname);
   assert(response.status === 200, `${pathname} should return 200`);
 
   // CSP: must be present on function-rendered HTML responses, allow Impact CDN, no unsafe-inline
@@ -348,9 +349,18 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
     `${pathname} canonical should be "https://tourticketcompare.com${pathname}", got "${actualCanonical}"`
   );
 
-  // Meta description: tag must be present and non-empty
+  assert(nextCalled === false, `${pathname} should be rendered by Pages Functions middleware, not passed to static assets`);
+
+  // Meta description: tag must be present and match the route-specific source of truth.
   const actualDescription = extractDescription(text);
   assert(actualDescription !== "", `${pathname} should include a meta description`);
+  const expectedDescription = routeMetadataModule.TRUST_ROUTES[pathname]?.description;
+  if (expectedDescription) {
+    assert(
+      actualDescription === expectedDescription,
+      `${pathname} description should be "${expectedDescription}", got "${actualDescription}"`
+    );
+  }
   if (pathname !== "/") {
     assert(
       actualDescription !== homepageDescription,

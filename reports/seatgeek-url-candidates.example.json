@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "generated_at": "2026-05-14T00:00:00.000Z",
+    "mode": "dry_run_proposal_only",
+    "as_of_date": "2026-05-14",
+    "total_future_events_checked": 1,
+    "total_already_covered_by_seatgeek": 0,
+    "total_missing_seatgeek_url": 1,
+    "selected_missing_events_checked": 1,
+    "candidates_found_by_artist": {
+      "Example Artist": 1
+    },
+    "high_confidence_count": 0,
+    "needs_review_count": 1,
+    "rejected_count": 0,
+    "events_with_no_candidate_found": [],
+    "seatgeek_api": {
+      "credentials_available": false,
+      "client_id_present": false,
+      "client_secret_present": false,
+      "credentials_redacted": true
+    },
+    "writes": {
+      "review_file_only": true,
+      "mutated_event_data": false,
+      "changed_cloudflare_config_or_data": false
+    }
+  },
+  "candidates": [
+    {
+      "local_event_id": "tm-example-2026-boston-abc123",
+      "artist": "Example Artist",
+      "date": "2026-08-01",
+      "city": "Boston",
+      "venue": "Example Stadium",
+      "existing_ticketmaster_url": "https://www.ticketmaster.com/example-artist-boston/event/abc123",
+      "proposed_seatgeek_url": "https://seatgeek.com/example-artist-tickets/boston-massachusetts-example-stadium-2026-08-01-7-30-pm/concert/12345678",
+      "seatgeek_event_title": "Example Artist Tickets",
+      "seatgeek_event_datetime": "2026-08-01T19:30:00",
+      "seatgeek_venue_city": "Boston",
+      "seatgeek_venue": "Example Stadium",
+      "confidence_score": 76,
+      "match_reasons": [
+        "strong artist/performer match",
+        "exact local date match",
+        "city match",
+        "possible venue match",
+        "concert/music taxonomy",
+        "event-specific SeatGeek URL"
+      ],
+      "risk_flags": [
+        "venue_match_is_ambiguous"
+      ],
+      "proposed_status": "needs_review"
+    }
+  ]
+}

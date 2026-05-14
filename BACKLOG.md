@@ -1,123 +1,125 @@
 # TourTicketCompare Backlog
 
-Priorities are ordered by: architecture stability → trust/compliance → repo maintainability → content quality → future provider integrations.
+Last updated: 2026-05-14
 
----
+This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-state source of truth; `CLEANUP_AUDIT.md` is a reference audit, not the active task list.
 
-## A. Architecture Stability
+## Recommended next 5 Codex-sized tasks
 
-These risks affect production correctness and must be addressed before scaling.
+1. **Prove and, only if needed, fix raw HTML routing/canonical behavior for public routes.** Keep the scope to status/canonical/H1/body/noindex checks and the smallest necessary routing fix.
+2. **Build a safe SeatGeek promo code guide.** Content-only unless metadata/sitemap wiring is explicitly needed; avoid claiming a working discount unless verified.
+3. **Add a safe ticket-buying guide cluster.** Publish practical guidance without invented prices, availability, providers, or live comparison claims.
+4. **Continue verified SeatGeek URL coverage without changing redirect logic.** Review/apply only verified event-level URLs through the existing data workflow; do not alter `/api/out`.
+5. **Remove tracked `.DS_Store` and keep status wording current.** Housekeeping-only: remove `functions/.DS_Store`, confirm `.gitignore`, and do not touch product code.
 
-**Done:**
-- ~~Verify that `main` matches deployed production~~ ✓ Done — production is Cloudflare Pages Functions confirmed 2026-05-11
-- ~~Confirm custom domains route correctly~~ ✓ Done — `tourticketcompare.com` on Pages; `www` 301→apex confirmed
-- ~~Document the production deploy path~~ ✓ Done — `npm run deploy:pages` is the production path; see `docs/DEPLOYMENT.md`
-- ~~Resolve Worker/Pages content divergence~~ ✓ Done — `functions/_route-metadata.js` is the single source of truth
+## P0 — blocking or trust-breaking
 
-**High priority (operational):**
-- Confirm GitHub→Pages CI pipeline is active in the Cloudflare Pages dashboard. If no Git integration is configured, every deploy to production requires a manual `npm run deploy:pages` step. This must be confirmed before relying on `main` pushes to deploy automatically.
-- ✓ Confirm `impactDefaultProgramId` — Done (2026-05-12). `IMPACT_TICKETMASTER_PROGRAM_ID` is the only Impact binding required for current Ticketmaster affiliate links. The default program ID is unused and not needed for active features.
+### P0.1 Prove/fix raw HTML routing and canonical metadata for public non-root routes
 
-**High priority (SEO):**
-- Fix the raw HTML routing issue for non-root routes — `/artists`, `/guides`, etc. currently serve the correct server-injected HTML via Pages Functions, but client-side JS re-renders the page on load. If a Googlebot crawl catches an intermediate state or if JS fails, the wrong H1/title could be indexed. This is the highest-priority remaining code task and should be addressed before any SEO scaling.
+**Why:** SEO growth depends on crawlers receiving the correct server-rendered status, canonical, title, H1, body content, redirects, and 404/noindex behavior without depending on client-side JavaScript.
 
-**Medium priority:**
-- ✓ Provision real D1 database IDs for `RATE_LIMIT_DB` and `CLICKS_DB` — Done (removed 2026-05-12); placeholder blocks removed from `wrangler.toml`
-- Complete remaining live smoke checks: six artist pages, four guide pages, five trust pages, old guide redirects, D1 analytics write
+**Scope:**
+- Inspect representative raw HTML responses for `/artists`, one artist page, `/guides`, one guide page, a trust page, an old guide redirect, an unknown artist, and an unknown route.
+- If a mismatch is found, make the smallest safe fix in routing/metadata only.
+- Do not touch provider redirects, affiliate behavior, CTA generation, data files, SeatGeek redirects, or diagnostic routes.
 
-**Resolved / no longer applicable:**
-- ~~Add `npm run deploy:worker` script~~ — Worker is retired from production; `npm run deploy:pages` is sufficient
-- ~~Consolidate three-path deploy model~~ — Production is Pages; Vercel and Worker paths are legacy cleanup debt
+**Checks:**
+- `git diff --check`
+- If runtime code is touched: `node --check 'functions/[[path]].js'`, `node --check functions/_middleware.js`, and `node scripts/smoke-prelaunch.mjs`.
 
----
+### P0.2 Preserve verified ticket-link trust
 
-## B. Trust and Compliance
+**Why:** Trust is the product. Any fake price, fake event, unsupported provider button, or generic unverified CTA would be user-facing and revenue-damaging.
 
-Rules that protect users and the site's credibility.
+**Scope:**
+- Keep Ticketmaster/SeatGeek/Vivid Seats CTAs hidden unless destinations are verified and allowed.
+- Keep all external ticket details framed as provider-confirmed at checkout.
+- Reject content that claims live price comparison, cheapest tickets, guaranteed availability, or verified inventory without approved data.
 
-**Immediate:**
-- Confirm no public pages display placeholder CTAs, fake prices, or placeholder event data before any marketing push
-- Run the full smoke check suite before any content or code push: `node scripts/smoke-prelaunch.mjs`, `python3 scripts/validate-events.py --for-production`
-- ~~Confirm `MOCK_MODE=false` and `ALLOW_MOCK_PRICES=false` are active in the deployed Worker~~ ✓ Done — confirmed via live `/api/health` 2026-05-11
+**Checks:**
+- `git diff --check`
+- For data/content changes: `python3 scripts/validate-events.py --for-production` and `node scripts/smoke-prelaunch.mjs`.
 
-**Ongoing:**
-- Validate all new artist, event, and provider records against content rules before committing (see `docs/CONTENT_RULES.md`)
-- Confirm Impact credentials are never visible in public HTML, JS, JSON, or logs
-- Do not publish prices, availability, or "cheapest" claims unless an approved provider feed supports it
+## P1 — important revenue, SEO, or product work
 
-**Not in scope:**
-- Automation that publishes content without human review
-- Scraped data from unofficial sources
-- Fake or mock comparison tables at any stage
+### P1.1 Build SeatGeek promo code guide safely
 
----
+**Goal:** Capture SeatGeek promo-code search intent without inventing or guaranteeing discounts.
 
-## C. Repo Maintainability
+**Safe content rules:**
+- Do not publish a promo code unless it is verified from an approved source at the time of writing.
+- Say that codes, eligibility, inventory, fees, and final totals are confirmed on SeatGeek.
+- Avoid fake comparison tables, fake savings, and time-limited claims unless sourced.
 
-Reduces friction for future contributors and AI agents.
+### P1.2 Add safe ticket-buying guide cluster
 
-**Immediate:**
-- ~~Create `docs/ARCHITECTURE.md`~~ ✓ Done
-- ~~Create `docs/CONTENT_RULES.md`~~ ✓ Done
-- ~~Create `docs/PROVIDER_DATA_POLICY.md`~~ ✓ Done
-- ~~Fix stale `npm run deploy` documentation~~ ✓ Done (README + DEPLOYMENT.md)
-- ~~Create `AGENTS.md`~~ ✓ Done
+**Goal:** Expand useful evergreen guidance around fees, resale risk, delivery timing, checkout checks, and avoiding scams.
 
-**Next:**
-- Simplify or consolidate duplicate guidance across `README.md`, `PROJECT_BRIEF.md`, `PROJECT_STATUS.md`, `HANDOVER.md` — each should have a clear, distinct purpose
-- Add inline comments to `_middleware.js` explaining why named shims exist and that they are inactive while middleware is in place
-- Ensure `docs/history.md` is current and does not contradict active docs
+**Safe content rules:**
+- Use practical advice, not invented provider rankings or unsupported price claims.
+- Avoid Event/MusicEvent schema unless the page is about verified event data.
+- Keep guides distinct enough to avoid thin/duplicated SEO pages.
 
----
+### P1.3 Continue verified SeatGeek URL coverage without redirect changes
 
-## D. Content Quality
+**Goal:** Increase event-level SeatGeek coverage through verified stored URLs while preserving current redirect safety.
 
-Improves the fan-facing product without adding risk.
+**Scope:**
+- Use existing review/enrichment scripts and reports.
+- Apply only verified event-level URLs to event data in a separately scoped data task.
+- Do not change `/api/out`, Impact logic, provider URL construction, CTA generation, or click-time lookup behavior.
 
-**Next:**
-- Add more verified artist pages — one at a time, using the strict artist template, with source-backed factual summaries
-- Improve empty states for artists where no verified event link exists
-- Review and polish existing guide copy for factual accuracy and search intent
-- Add one verified artist affiliate link (SeatGeek or Vivid Seats) only after destination and attribution behaviour are proven
+### P1.4 Keep docs aligned after each product/data change
 
-**Later:**
-- Add event-level show cards only when real event date, venue, availability, and a verified ticket URL exist
-- Add city or tour pages only with distinct, verified content and appropriate canonical handling
-- Add structured internal checks that catch risky phrases (unsupported savings claims, placeholder wording) before deploy
+**Goal:** Prevent status drift now that current-state, backlog, cleanup audit, handover, and issue drafts have distinct ownership.
 
----
+**Scope:**
+- Update `PROJECT_STATUS.md` for current facts.
+- Update `BACKLOG.md` for changed priorities.
+- Update `HANDOVER.md` for short session-start guidance.
+- Leave `CLEANUP_AUDIT.md` as audit reference unless accepting/superseding a cleanup finding.
 
-## E. Future Provider Integrations
+## P2 — useful improvements
 
-Only after A, B, and C are stable.
+### P2.1 Remove tracked `.DS_Store`
 
-**When ready:**
-- ✓ Build SeatGeek API enrichment dry run — Done (2026-05-13): `scripts/enrich-seatgeek-events.mjs` searches SeatGeek `/events` upstream for Ticketmaster-verified events and labels candidates `high_confidence`, `needs_review`, or `no_match` without writing event data. Applying high-confidence matches remains a separate future review/apply task. Click-time redirects still use only stored `event.seatgeek_url` and must not call SeatGeek APIs.
-- Add SeatGeek artist-level links: requires verified SeatGeek destination URLs, Impact program ID (if applicable), and testing of `/api/out` redirect behaviour
-- Add Vivid Seats artist-level links: same requirements as SeatGeek
-- Add live event-level Ticketmaster pricing: requires `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true` and a product decision on displaying timestamped prices
-- Add provider-specific price feeds: requires approved provider API access, explicit display rights, and a pricing display design that meets content rules
+**Scope:** Remove `functions/.DS_Store` from git and confirm `.gitignore` covers `.DS_Store`.
 
----
+**Checks:** `git diff --check`.
 
-## Guardrails (apply to every task)
+### P2.2 Review stale D1/status wording across secondary docs
 
-- Do not add fake prices, dates, venues, tours, availability, providers, or placeholder listings.
-- Do not use Ticketmaster as a public price source without approved, displayable data.
-- Do not scrape unofficial sources.
-- Do not expose affiliate credentials or API secrets.
-- Do not change `/api/out`, Impact logic, provider URLs, or deployment config unless the task explicitly asks for that area.
-- Do not claim live price comparison until the feature is backed by verified multi-provider data.
-- Do not publish Event or MusicEvent schema without verified event-level data.
-- Do not open or merge PRs unless explicitly asked.
-- Do not deploy to Cloudflare unless explicitly asked.
+**Scope:** Keep active docs accurate. `wrangler.toml` no longer contains placeholder `RATE_LIMIT_DB` or `CLICKS_DB` blocks, so any remaining docs that say those placeholders exist should be updated when those docs are next touched.
 
----
+### P2.3 Improve content depth for existing guide pages
 
-## Parking Lot
+**Scope:** Strengthen guide copy where useful, but keep claims conservative and source-safe.
 
-- Automated Ticketmaster or provider feed sync (requires review gates before public display)
-- Public live price comparison UI (requires approved multi-provider feeds)
-- Broader deployment architecture consolidation
-- Email/newsletter automation
-- CRM sync
+### P2.4 Add verified artist/event coverage one small batch at a time
+
+**Scope:** Add only source-verified artists/events/URLs. Use the existing data validation workflow. Do not invent tour facts or availability.
+
+### P2.5 Add social sharing metadata when design/assets are ready
+
+**Scope:** Add `og:image` only after a suitable asset exists. Avoid broad rendering refactors.
+
+## Parked / not ready
+
+These are intentionally not implementation tasks until explicitly scoped:
+
+- Provider scaffold future: decide whether `functions/api/_providers/index.js`, `functions/_provider-registry.js`, provider docs, and provider validation are long-term scaffolding or cleanup candidates.
+- Fallback catalog future: decide whether `public/data/fallback-catalog.json` remains necessary before changing fallback behavior.
+- Legacy deployment retirement: do not delete `api/`, `vercel.json`, `archive/vercel-experimental/`, or `scripts/build-standalone-worker.mjs` without explicit approval.
+- Broad smoke script refactoring: useful later, but lower priority than route proof and safe content growth.
+- Diagnostic/internal endpoints and Impact publisher-tag test assets: do not remove without a dedicated decision.
+- Live price aggregation: parked until approved provider feeds, usage rights, timestamping, and product copy rules exist.
+- City/tour/event landing pages: parked unless verified data and canonical/indexing strategy are ready.
+
+## Completed / accepted facts
+
+- Cloudflare Pages Functions is the active production architecture in current docs.
+- `functions/_middleware.js` documents that named route shims are fallback-only while middleware is active.
+- `functions/_route-metadata.js` covers 10 guide routes; `public/data/guides-content.json` contains content for the same 10 guide routes.
+- `wrangler.toml` has active `DEMAND_DB` only; placeholder D1 blocks are gone.
+- Smoke test wording for the safe "does not compare" live-prices disclaimer is already allowed by the current smoke script.
+- `CLEANUP_AUDIT.md` is accepted as a reference audit, not the active backlog.

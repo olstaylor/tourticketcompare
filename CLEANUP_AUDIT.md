@@ -4,6 +4,8 @@ Date: 2026-05-14
 
 Scope: documentation-only audit of `public/`, `functions/`, `scripts/`, `package.json`, docs/status files, and smoke/validation scripts. No cleanup has been implemented in this pass.
 
+Status: accepted as a reference audit on 2026-05-14. This file is not the active backlog; use `BACKLOG.md` for prioritised tasks and `PROJECT_STATUS.md` for current repo state. Some findings below have since been resolved or superseded and should be re-verified before implementation.
+
 Guardrails applied during audit:
 
 - Do not modify `/api/out`, Impact logic, affiliate redirect behaviour, provider URLs, CTA generation, destination URL logic, or artist/event/provider datasets.

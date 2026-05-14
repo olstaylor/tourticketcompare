@@ -27,15 +27,16 @@ TourTicketCompare helps fans find checked ticket links, understand buying risks,
 | Document | Purpose |
 |---|---|
 | [AGENTS.md](AGENTS.md) | Rules for AI/Codex sessions: protected areas, working style, validation |
-| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Current known-good state, risks, parked issues, immediate priorities |
-| [BACKLOG.md](BACKLOG.md) | Prioritised work by architecture → compliance → maintainability → content → providers |
+| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Current state source of truth: runtime facts, active risks, latest known checks |
+| [BACKLOG.md](BACKLOG.md) | Active prioritised backlog grouped by P0/P1/P2/Parked/Completed |
 | [PROJECT_BRIEF.md](PROJECT_BRIEF.md) | Product positioning, safety rules, affiliate constraints, success criteria |
-| [HANDOVER.md](HANDOVER.md) | Current live state, confirmed bindings, latest smoke check results |
+| [HANDOVER.md](HANDOVER.md) | Short start-here handoff for future Codex sessions |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Routing model, Pages Functions structure, data bindings |
 | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Local dev, production Pages deploy, CI pipeline guidance |
 | [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) | What can and cannot be published |
 | [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) | Ticketmaster, SeatGeek, Vivid Seats, and Impact affiliate policy |
 | [docs/LIVE_PRODUCTION_VERIFICATION.md](docs/LIVE_PRODUCTION_VERIFICATION.md) | Live smoke check results and production readiness checklist |
+| [docs/ISSUE_DRAFTS.md](docs/ISSUE_DRAFTS.md) | Copy/paste-ready GitHub issue drafts for the highest-value next tasks |
 
 ---
 
@@ -141,6 +142,6 @@ See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLIC
 
 ---
 
-## Parked issue
+## Current priority
 
-Non-root routes (`/artists`, `/guides`, `/how-it-works`, etc.) may serve homepage HTML before client-side rendering in some conditions. This is parked until explicitly prioritised. It should be resolved before serious SEO scaling. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for details.
+The highest-priority next task is to prove raw HTML routing and canonical metadata for representative public non-root routes. If a mismatch is found, fix only the smallest routing/metadata issue. See [PROJECT_STATUS.md](PROJECT_STATUS.md), [BACKLOG.md](BACKLOG.md), and [docs/ISSUE_DRAFTS.md](docs/ISSUE_DRAFTS.md).

@@ -933,10 +933,12 @@ function safeSeatGeekEventUrl(value) {
 
 function seatGeekOutAvailable(show, options = {}) {
   if (!options.seatGeekAvailable) return false;
+  const hasValidSeatGeekEventUrl = Boolean(safeSeatGeekEventUrl(show?.seatgeek_url));
+  if (!hasValidSeatGeekEventUrl) return false;
   if (show?.provider_ctas && typeof show.provider_ctas === "object") {
-    return show.provider_ctas.seatgeek === true;
+    return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;
   }
-  return Boolean(safeSeatGeekEventUrl(show?.seatgeek_url));
+  return hasValidSeatGeekEventUrl;
 }
 
 function renderShowCard(show, options = {}) {

@@ -23,24 +23,24 @@ const providerCopy = {
 const guidePages = [
   {
     slug: "how-to-compare-concert-ticket-prices",
-    title: "How to Compare Concert Ticket Prices | TourTicketCompare",
+    title: "How to Compare Concert Ticket Prices Safely | TourTicketCompare",
     description:
-      "Compare concert ticket prices by checking final totals, seat details, delivery timing, and provider terms. Know what to compare and what to avoid.",
-    h1: "How do I compare ticket prices safely?",
+      "Learn how to compare concert ticket options manually by checking final checkout totals, exact show details, delivery terms, and provider rules.",
+    h1: "How to compare concert ticket prices safely",
     intro:
-      "Comparing ticket prices means comparing final totals, not first displayed prices. Open two or more provider pages for the same show, check what each price includes, and verify the seat and terms are the same before you decide.",
+      "Use this guide to slow down before checkout. TourTicketCompare helps you find checked artist and event links where available, but it does not compare live prices or know current inventory. Confirm the final price, fees, availability, delivery, refund, transfer, and checkout terms on the provider site before you buy.",
     sections: [
-      ["Find the same show on multiple providers", "Search for the artist and date on Ticketmaster, SeatGeek, Vivid Seats, or other official platforms. Write down the venue and date so you know you are looking at the right event. Screenshot the artist name, date, and venue from each site to confirm they match."],
-      ["Scroll to the final total before comparing", "Scroll past the first displayed price. Note the seat location (section, row, number), delivery method (instant download, mobile transfer, shipped), and final total including all fees, taxes, and delivery charges. This final number is what you will actually pay."],
-      ["Check the same details are included", "Compare apples to apples: same artist, same date, same venue, similar seat quality, similar delivery speed. One site might offer cheaper delivery; another might charge more for a front-row seat. Verify each site is showing the same level of access."],
-      ["Review the refund and transfer rules", "Before clicking buy, read whether the ticket is refundable, whether you can resell or transfer it, how long transfers take, and what happens if the event is cancelled or rescheduled. These rules differ between official and resale platforms."],
-      ["Spot misleading or unsafe listings", "Avoid listings with unclear seat details, no refund policy stated, countdown timers creating urgency, requests to pay outside the official site, or pages that do not clearly match the event. If the page does not say which artist, date, and venue are shown, do not buy."],
+      ["Start with the exact show", "Make sure every page you open matches the same artist, date, venue, city, ticket type, seat section, delivery method, and visible terms. A lower first price may belong to a different section, a different ticket type, or a listing with terms that do not work for you."],
+      ["Compare the final checkout total", "Record the provider page URL, first displayed price, final checkout total, fees, taxes, delivery charges, currency conversion where shown, delivery timing, refund terms, transfer rules, and cancellation terms. The final checkout total is the number to compare after the provider has shown the relevant charges."],
+      ["Check primary and resale options separately", "Primary tickets are sold through official channels for the event. Resale tickets are listed by sellers through a marketplace. Both can be useful, but resale adds seller-set details such as transfer timing, listing accuracy, and marketplace protection terms that you should review carefully."],
+      ["Watch for pressure and missing details", "Pause if the artist, date, venue, seat details, delivery timing, final total, refund terms, or transfer terms are unclear. Urgency messages should not replace checking whether the ticket page actually matches the show you want."],
+      ["Use TourTicketCompare as a research step", "Artist pages and event cards can help you find checked links where available. Once you leave for a provider site, that provider controls current prices, fees, inventory, seat maps, delivery, refunds, transfers, and checkout rules."],
     ],
     faq: [
-      ["Can I trust the first price I see?", "No. Providers display prices differently. Always scroll to the final checkout total including fees, taxes, and delivery. That is the real price you will pay."],
-      ["Does TourTicketCompare compare prices for me?", "No. TourTicketCompare does not compare live prices. We show you verified ticket destinations so you can check prices yourself on official or resale platforms."],
-      ["Why do totals change at checkout?", "Providers may add or recalculate fees, taxes, delivery charges, or currency conversion during checkout. Always review the final total before entering payment details."],
-      ["Should I use a resale platform?", "Resale platforms like SeatGeek and Vivid Seats are real marketplaces for verified tickets. Check the seller terms, buyer protections, and transfer rules before buying. Official channels like Ticketmaster sell direct from the event."]
+      ["Does TourTicketCompare compare live ticket prices?", "No. TourTicketCompare provides checked links and buying guidance. You should compare current provider checkout totals manually before you buy."],
+      ["What number should I compare?", "Compare the final checkout total after fees, taxes, delivery charges, and currency conversion where the provider shows them. Do not rely only on the first displayed price."],
+      ["Can TourTicketCompare tell me whether tickets are still available?", "No. Availability can change quickly and must be confirmed on the ticket provider site."],
+      ["What should I do next?", "Find the relevant artist page, use checked links where available, and confirm the current final total and terms on the provider site before purchasing."]
     ]
   },
   {

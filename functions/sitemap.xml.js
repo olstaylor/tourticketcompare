@@ -12,7 +12,6 @@ const STATIC_INDEXABLE_PATHS = [
   "/guides/how-to-avoid-overpaying-for-concert-tickets",
   "/guides/when-is-the-best-time-to-buy-concert-tickets",
   "/guides/primary-vs-resale-concert-tickets",
-  "/guides/best-time-to-buy-concert-tickets",
   "/guides/how-to-avoid-ticket-scams",
   "/guides/why-ticket-prices-change",
   "/guides/ticketmaster-vs-stubhub",

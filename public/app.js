@@ -123,7 +123,7 @@ const guidePages = [
     slug: "best-time-to-buy-concert-tickets",
     title: "Best Time to Buy Concert Tickets | TourTicketCompare",
     description:
-      "Discover the optimal timing for buying concert tickets: early bird strategies, dynamic pricing, resale timing, and how to act fast when demand is high.",
+      "Understand timing trade-offs for buying concert tickets, including official onsales, dynamic pricing, resale activity, seat choice, and your risk tolerance.",
     h1: "What is the best time to buy concert tickets?",
     intro:
       "Timing a concert ticket purchase depends on artist demand, venue capacity, onsale type, and your own priorities. No single rule fits every show, but understanding when prices tend to shift helps you make a more informed decision.",

@@ -62,10 +62,10 @@ export const TRUST_ROUTES = {
 
 export const GUIDE_ROUTES = {
   "/guides/how-to-compare-concert-ticket-prices": {
-    title: "How to Compare Concert Ticket Prices (And Never Overpay Again) | TourTicketCompare",
-    h1: "How to Compare Concert Ticket Prices (And Never Overpay Again)",
+    title: "How to Compare Concert Ticket Prices Safely | TourTicketCompare",
+    h1: "How to Compare Concert Ticket Prices Safely",
     description:
-      "Learn how to compare concert ticket prices across platforms to find the best deal for your favourite artists. Plus: the tool that does all the hard work for you.",
+      "Learn how to compare concert ticket prices by checking final checkout totals, fees, seat details, delivery terms, and provider rules before you buy.",
     fullContent: true
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
@@ -100,7 +100,7 @@ export const GUIDE_ROUTES = {
     title: "Best Time to Buy Concert Tickets | TourTicketCompare",
     h1: "What is the best time to buy concert tickets?",
     description:
-      "Discover the optimal timing for buying concert tickets: early bird strategies, dynamic pricing, resale timing, and how to act fast when demand is high.",
+      "Understand timing trade-offs for buying concert tickets, including official onsales, dynamic pricing, resale activity, seat choice, and your risk tolerance.",
     fullContent: true
   },
   "/guides/how-to-avoid-ticket-scams": {

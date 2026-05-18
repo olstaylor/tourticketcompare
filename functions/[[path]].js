@@ -349,6 +349,15 @@ function renderArtistBrowseSection(catalog) {
   return `<section class="nested-panel"><h2>Browse artist pages</h2><p>Find checked ticket links and buying guidance for these artists:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
+function inlineMarkdownToHtml(text) {
+  return escapeHtml(text)
+    .replace(/\[([^\]]+)\]\((\/guides\/[a-z0-9-]+)\)/g, (_match, label, href) => {
+      return `<a class="text-link" href="${escapeAttr(href)}">${label}</a>`;
+    })
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(.+?)\*/g, "<em>$1</em>");
+}
+
 function markdownToHtml(text) {
   if (!text) return "";
   return text
@@ -356,21 +365,19 @@ function markdownToHtml(text) {
     .map(para => {
       if (para.startsWith("- ")) {
         const items = para.split("\n").map(line => line.replace(/^- /, ""));
-        return `<ul><li>${items.join("</li><li>")}</li></ul>`;
+        return `<ul><li>${items.map(item => inlineMarkdownToHtml(item)).join("</li><li>")}</li></ul>`;
       }
       if (para.startsWith("|")) {
         const rows = para.split("\n").filter(r => r.trim());
-        if (rows.length < 2) return `<p>${escapeHtml(para)}</p>`;
-        const headerCells = rows[0].split("|").slice(1, -1).map(c => `<th>${escapeHtml(c.trim())}</th>`).join("");
+        if (rows.length < 2) return `<p>${inlineMarkdownToHtml(para)}</p>`;
+        const headerCells = rows[0].split("|").slice(1, -1).map(c => `<th>${inlineMarkdownToHtml(c.trim())}</th>`).join("");
         const bodyRows = rows.slice(2).map(row => {
-          const cells = row.split("|").slice(1, -1).map(c => `<td>${escapeHtml(c.trim())}</td>`).join("");
+          const cells = row.split("|").slice(1, -1).map(c => `<td>${inlineMarkdownToHtml(c.trim())}</td>`).join("");
           return `<tr>${cells}</tr>`;
         }).join("");
         return `<table><thead><tr>${headerCells}</tr></thead><tbody>${bodyRows}</tbody></table>`;
       }
-      return `<p>${escapeHtml(para)
-        .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-        .replace(/\*(.+?)\*/g, "<em>$1</em>")}</p>`;
+      return `<p>${inlineMarkdownToHtml(para)}</p>`;
     })
     .join("");
 }

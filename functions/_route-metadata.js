@@ -107,7 +107,7 @@ export const GUIDE_ROUTES = {
     title: "Why Do Concert Ticket Prices Change? | TourTicketCompare",
     h1: "Why do concert ticket prices change?",
     description:
-      "Understand the mechanics behind ticket price changes: dynamic pricing, supply and demand, fees, resale markups, and why the final total differs from the headline price.",
+      "Learn why concert ticket totals can change because of onsale demand, provider pricing methods, resale seller decisions, fees, seat details, delivery, and terms.",
     fullContent: true
   },
   "/guides/ticketmaster-vs-stubhub": {

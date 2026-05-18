@@ -144,19 +144,21 @@ const guidePages = [
     slug: "why-ticket-prices-change",
     title: "Why Do Concert Ticket Prices Change? | TourTicketCompare",
     description:
-      "Understand the mechanics behind ticket price changes: dynamic pricing, supply and demand, fees, resale markups, and why the final total differs from the headline price.",
+      "Learn why concert ticket totals can change because of onsale demand, provider pricing methods, resale seller decisions, fees, seat details, delivery, and terms.",
     h1: "Why do concert ticket prices change?",
     intro:
-      "Concert ticket prices can move before, during, and after an onsale for several reasons. Dynamic pricing, supply and demand, fees added at checkout, and resale activity all affect the total you see at different times.",
+      "Concert ticket totals can change for several reasons, and a general guide cannot predict what will happen for a specific show. TourTicketCompare helps fans find checked links and understand what to compare, but final price, fees, availability, delivery, transfer, refund, cancellation, and checkout terms are confirmed on the provider site.",
     sections: [
-      ["What to check", "Look at the final checkout total, not the headline price. Check whether the ticket is primary inventory or resale. Note that primary prices can change mid-session and resale prices change as sellers adjust listings."],
-      ["Red flags", "Avoid treating a first-click price as guaranteed. Fees, currency conversion, and demand-based adjustments can raise the total significantly by the time you reach payment. A sharp price change at checkout is not always an error."],
-      ["Before you buy", "Refresh the page and confirm the total before entering payment. Compare across providers when possible, checking the same seat tier and delivery method. Read the terms so you know when a price is locked in."],
-      ["What TourTicketCompare verifies", "We do not display prices. We link to verified ticket destinations where you can check current pricing directly. Prices and fees are controlled by the provider, not by TourTicketCompare."]
+      ["Possible reasons totals change", "Official onsale demand, provider pricing methods where applicable, resale seller pricing, fees and taxes, seat location, ticket type, delivery method, transfer timing, availability, refund terms, cancellation terms, and checkout rules can all affect what you see."],
+      ["Headline price versus checkout total", "A first displayed price may not include every fee, tax, delivery charge, currency issue, or order-specific term. Compare the current final checkout total before paying. For a step-by-step process, read [How to Compare Concert Ticket Prices Safely](/guides/how-to-compare-concert-ticket-prices)."],
+      ["Primary and resale checks", "Primary, official resale, and marketplace resale options can have different pricing controls, seller behavior, delivery timing, transfer rules, and buyer terms. Read [Primary vs Resale Concert Tickets](/guides/primary-vs-resale-concert-tickets) and [How Resale Ticket Pricing Works](/guides/how-resale-ticket-pricing-works) for more context."],
+      ["Timing without predictions", "Do not assume prices move in a reliable direction. Instead, decide whether the current total, seat details, delivery timing, and provider terms fit your plans. For timing trade-offs, read [When Should I Buy Concert Tickets?](/guides/when-is-the-best-time-to-buy-concert-tickets)."],
+      ["What TourTicketCompare can confirm", "We can point to checked destinations where available and explain what to compare. We do not verify individual listings, monitor live provider inventory, rank provider totals or tickets by price, make savings promises, or predict future prices."]
     ],
     faq: [
-      ["What is dynamic pricing?", "Dynamic pricing means ticket prices adjust based on demand. As more tickets sell, prices for remaining seats can increase. This is used by some primary providers for high-demand events."],
-      ["Why does the price change at checkout?", "Fees, taxes, delivery charges, and demand-based adjustments are often added after the initial price is shown. Always check the final order total before confirming payment."]
+      ["Why did the total change between the listing page and checkout?", "Fees, taxes, delivery charges, currency conversion, seat selection, ticket type, availability, or provider checkout rules may affect the final total. Confirm the current checkout total before paying."],
+      ["Can TourTicketCompare tell me whether a price will rise or drop?", "No. TourTicketCompare does not track live provider inventory, monitor individual listings, or predict future prices."],
+      ["Where are final terms confirmed?", "On the provider site. Confirm final price, fees, availability, delivery, transfer, refund, cancellation, and checkout terms there before paying."]
     ]
   },
   {
@@ -266,6 +268,27 @@ function text(parent, tagName, value, className) {
   const element = document.createElement(tagName);
   if (className) element.className = className;
   element.textContent = value;
+  parent.append(element);
+  return element;
+}
+
+function appendInlineGuideContent(element, value) {
+  const pattern = /\[([^\]]+)\]\((\/guides\/[a-z0-9-]+)\)/g;
+  let lastIndex = 0;
+  let match;
+  const copy = String(value || "");
+  while ((match = pattern.exec(copy)) !== null) {
+    if (match.index > lastIndex) element.append(document.createTextNode(copy.slice(lastIndex, match.index)));
+    element.append(link(match[1], match[2], "text-link"));
+    lastIndex = pattern.lastIndex;
+  }
+  if (lastIndex < copy.length) element.append(document.createTextNode(copy.slice(lastIndex)));
+}
+
+function guideText(parent, tagName, value, className) {
+  const element = document.createElement(tagName);
+  if (className) element.className = className;
+  appendInlineGuideContent(element, value);
   parent.append(element);
   return element;
 }
@@ -1242,14 +1265,14 @@ function renderGuide(guide) {
   section.setAttribute("aria-labelledby", "guidePageTitle");
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Guides", href: "/guides" }, { label: guide.h1 }]));
   text(section, "h1", guide.h1).id = "guidePageTitle";
-  text(section, "p", guide.intro, "lead");
+  guideText(section, "p", guide.intro, "lead");
   const body = document.createElement("div");
   body.className = "guide-body";
   guide.sections.forEach(([heading, copy]) => {
     const block = document.createElement("section");
     block.className = "nested-panel";
     text(block, "h2", heading);
-    text(block, "p", copy);
+    guideText(block, "p", copy);
     body.append(block);
   });
   section.append(body, renderGuideFaq(guide));
@@ -1274,7 +1297,7 @@ function renderGuideFaq(guide) {
     const summary = document.createElement("summary");
     summary.textContent = question;
     details.append(summary);
-    text(details, "p", answer);
+    guideText(details, "p", answer);
     faq.append(details);
   });
   return faq;

@@ -86,7 +86,7 @@ export const GUIDE_ROUTES = {
     title: "When to Buy Concert Tickets | TourTicketCompare",
     h1: "When should I buy concert tickets?",
     description:
-      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, group plans, and your risk tolerance.",
+      "Learn how to choose when to buy concert tickets by weighing certainty, seat choice, group seating, budget, delivery timing, provider terms, and risk tolerance.",
     fullContent: true
   },
   "/guides/primary-vs-resale-concert-tickets": {
@@ -94,13 +94,6 @@ export const GUIDE_ROUTES = {
     h1: "What is the difference between official tickets and resale?",
     description:
       "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks.",
-    fullContent: true
-  },
-  "/guides/best-time-to-buy-concert-tickets": {
-    title: "Best Time to Buy Concert Tickets | TourTicketCompare",
-    h1: "What is the best time to buy concert tickets?",
-    description:
-      "Understand timing trade-offs for buying concert tickets, including official onsales, dynamic pricing, resale activity, seat choice, and your risk tolerance.",
     fullContent: true
   },
   "/guides/how-to-avoid-ticket-scams": {
@@ -136,5 +129,6 @@ export const GUIDE_ROUTES = {
 export const OLD_GUIDE_REDIRECTS = {
   "/guides/compare-ticket-prices-safely": "/guides/how-to-compare-concert-ticket-prices",
   "/guides/why-ticket-prices-vary": "/guides/why-ticket-prices-change",
-  "/guides/avoid-overpaying-concert-tickets": "/guides/how-to-avoid-overpaying-for-concert-tickets"
+  "/guides/avoid-overpaying-concert-tickets": "/guides/how-to-avoid-overpaying-for-concert-tickets",
+  "/guides/best-time-to-buy-concert-tickets": "/guides/when-is-the-best-time-to-buy-concert-tickets"
 };

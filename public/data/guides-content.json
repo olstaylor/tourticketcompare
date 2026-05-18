@@ -85,59 +85,6 @@
       ]
     }
   },
-  "/guides/best-time-to-buy-concert-tickets": {
-    "sections": [
-      {
-        "type": "intro",
-        "content": "Deciding when to buy concert tickets involves trade-offs. Buying early can provide more official options, while waiting can sometimes reveal resale changes or new release batches. Neither approach guarantees a lower final total or availability.\n\nThis guide explains the main timing windows, demand patterns, and checks to make before purchase so you can choose a moment that fits your budget, seat preferences, and risk tolerance."
-      },
-      {
-        "type": "section",
-        "title": "The First Sale Window: Official Options First",
-        "content": "For major artists and high-demand events, the official onsale is often the cleanest place to start because it shows the event's authorised ticketing path.\n\n**Why timing matters here:** Primary ticketing platforms may use dynamic pricing, queues, presales, or limited release batches. Prices and available seats can change during the sale.\n\n**How to prepare:** Confirm the onsale date and time from the artist, venue, promoter, or authorised ticketing platform. Create any required account in advance and review payment and delivery options before the sale starts.\n\n**The catch:** High-demand events can move quickly, and joining a queue does not guarantee a specific seat, price, or successful checkout."
-      },
-      {
-        "type": "section",
-        "title": "Dynamic Pricing and Demand Cycles",
-        "content": "Understanding demand cycles helps you avoid assuming that every price movement follows the same pattern.\n\n**During the first day:** Demand can be high and seat choice can change quickly.\n\n**After the initial onsale:** Some events may have fewer options, while others may see additional releases, official resale, or changing demand.\n\n**Weeks before the show:** Resale listings can shift as sellers adjust prices, but movement depends on the event.\n\n**Final days:** Some sellers may adjust listings close to showtime, but high-demand events may still have limited or expensive options.\n\nThe pattern is not guaranteed. Always use current provider pages to confirm final total and availability before making a decision."
-      },
-      {
-        "type": "section",
-        "title": "Resale Markets: Seller Motivation Varies",
-        "content": "Resale marketplaces reflect seller behaviour as well as fan demand. Sellers may adjust prices when an event approaches, but that does not mean waiting is always safer or cheaper.\n\nIf you are considering resale, compare similar seats, check final totals after fees, and make sure delivery timing works for the event date. Late purchases require extra caution because transfer windows can be tight."
-      },
-      {
-        "type": "section",
-        "title": "Genre and Artist Patterns",
-        "content": "Demand patterns vary by music type.\n\n**High-demand pop and rock tours:** Sell out quickly; best timing is the first onsale window. Resale is your only option afterward.\n\n**Genre-specific tours (country, metal, jazz):** May not sell out immediately. Prices can stay stable or drop slightly over 2–4 weeks.\n\n**Festival lineups:** Artists announced later in the lineup rarely have special onsales; tickets sell at the festival's primary rate. Some announce additional artists late, which can affect attendance expectations and resale pricing.\n\n**Smaller venues and emerging artists:** May have multiple onsale windows or extended sales periods. Less urgency exists to buy immediately."
-      },
-      {
-        "type": "section",
-        "title": "Day of Week and Time of Day Factors",
-        "content": "Some evidence suggests demand shifts by day:\n\n**Weekday matinée shows:** Often cheaper (lower demand) than weekend evening shows.\n\n**Friday and Saturday nights:** Peak demand; expect higher prices.\n\n**Announcement Tuesday through Thursday:** Tour announcements traditionally drop mid-week, with onsales often Friday or the following Tuesday. Buy early if you are ready.\n\n**Time of day:** Morning onsales sometimes have fresher inventory and fewer bottlenecks than evening sales when more people are active."
-      },
-      {
-        "type": "section",
-        "title": "Your Risk Tolerance Matters",
-        "content": "Timing strategy depends on how comfortable you are with uncertainty.\n\n**Risk-averse buyers:** Buy in the first onsale window. You secure seats at face value with no gamble on resale prices or availability.\n\n**Flexible buyers:** Wait 2–4 weeks. If demand is high and prices are rising, you can still secure seats at the initial onsale price. If demand is soft, prices may drop.\n\n**Opportunistic buyers:** Wait until 5–7 days before the show. Resale prices are at their lowest, but you risk missing the best seats and face tight delivery windows.\n\nPick the strategy that matches your comfort level and your flexibility on seating."
-      },
-      {
-        "type": "section",
-        "title": "Putting It Together: A Timing Checklist",
-        "content": "Use this checklist before deciding when to buy:\n\n- Confirm the official onsale and provider from the artist, venue, or promoter\n- Check whether the provider uses dynamic pricing, queues, or delayed delivery\n- Compare final checkout totals manually, not headline prices\n- Review seat details, restricted-view notes, transfer timing, and refund terms\n- Decide whether you value seat choice, certainty, timing flexibility, or budget control most\n- Avoid pressure tactics that push you to buy before you have checked fees and terms"
-      },
-      {
-        "type": "section",
-        "title": "FAQ",
-        "content": "**Is there a single best time to buy concert tickets?**\n\nNo. Timing depends on demand, event size, seat preference, official inventory, resale activity, and your risk tolerance.\n\n**Should I always buy during the official onsale?**\n\nThe official onsale is a useful starting point, especially when you want authorised channels and early seat choice. It does not guarantee a specific price or successful checkout.\n\n**Can waiting save money?**\n\nSometimes, but not reliably. Waiting can also mean fewer seats, tighter delivery windows, or higher final totals for high-demand events.\n\n**What should I compare before buying?**\n\nCompare final checkout totals, seat details, delivery timing, refund and transfer terms, and provider policies for the exact event."
-      },
-      {
-        "type": "section",
-        "title": "Conclusion",
-        "content": "The right time to buy concert tickets depends on demand, availability, seat preference, delivery timing, and your tolerance for risk. Start with official sources, use verified provider links where available, and confirm the final checkout total and terms on the provider site before committing."
-      }
-    ]
-  },
   "/guides/how-to-avoid-ticket-scams": {
     "sections": [
       {
@@ -450,37 +397,42 @@
     "sections": [
       {
         "type": "intro",
-        "content": "There is no single answer to when you should buy concert tickets — it depends on the artist, the demand, whether you are looking at primary or resale inventory, and how much flexibility you have on seat choice and risk.\n\nThis guide walks through the main timing scenarios so you can make an informed decision rather than guessing."
+        "content": "There is no universal best time to buy concert tickets. The safer decision is to weigh the trade-offs that matter for your specific show: certainty, seat choice, group seating, budget, risk tolerance, delivery timing, and the checkout terms shown by the provider.\n\nTourTicketCompare does not compare live prices, does not track provider inventory, does not predict future ticket prices, and does not promise the best time to buy. Use this guide as a conservative checklist, then confirm the final price, fees, availability, delivery method, refund rules, transfer terms, and checkout terms on the provider site before you pay."
       },
       {
         "type": "section",
-        "title": "Primary tickets: buy at the official onsale",
-        "content": "For primary tickets — sold at the official face value through authorised ticketing partners — the onsale window is typically the best time to buy.\n\nReasons to buy at onsale:\n- Face-value pricing is usually set at the start of the sale\n- Dynamic pricing on primary platforms can push prices up as demand is confirmed\n- Popular shows can sell out quickly, particularly floor-level and front-section seats\n- Waiting after onsale on primary platforms often means fewer seat options and higher prices, not lower ones\n\nTo prepare for an onsale: confirm the exact date and time from the artist's official site or the verified ticketing partner, create an account on the platform in advance, and be ready to enter the queue at the announced start time."
+        "title": "Start with what you value most",
+        "content": "Different fans should make different timing choices. Before looking at listings, decide which trade-off matters most:\n\n- **Certainty:** If attending is more important than waiting for possible changes, buying earlier through an authorised path may reduce uncertainty, but it still does not guarantee a specific seat or final total until checkout is complete.\n- **Seat choice:** Earlier buying may show more available sections or rows for some events, while waiting can leave fewer options. Provider pages are the only place to confirm current seats.\n- **Group seating:** If you need seats together, waiting can make it harder to find a matching block. Check consecutive-seat details carefully before paying.\n- **Budget:** If budget is the top priority, compare final checkout totals and terms manually. Do not assume waiting will produce a lower total.\n- **Risk tolerance:** Waiting can preserve flexibility, but it can also mean less availability, tighter delivery timing, or less suitable seats."
       },
       {
         "type": "section",
-        "title": "What dynamic pricing means for your timing decision",
-        "content": "Dynamic pricing allows primary ticketing platforms to adjust prices based on real-time demand. This means that even on an official primary platform, the price for a given seat can increase during the onsale itself.\n\nThe practical implication: buying early in a popular onsale is usually cheaper than buying later in the same sale. If you are in a queue, the price when you reach the checkout may be higher than the price quoted at the start.\n\nDynamic pricing does not affect all shows. Smaller venues, less in-demand events, or artists with restricted pricing agreements may have fixed face values throughout. Checking whether the platform shows a dynamic pricing notice for your event before queuing helps you set realistic expectations."
+        "title": "Official onsales and early buying",
+        "content": "An official onsale or presale can be a useful starting point because it points you toward the event's authorised ticketing path. It may also give you a clearer view of seat locations, ticket types, delivery rules, and provider checkout terms at the start of the sales process.\n\nEarly buying can make sense when you want certainty, need several seats together, have specific sections in mind, or are uncomfortable with last-minute delivery risk. The trade-off is that prices, fees, availability, seat maps, queues, and delivery rules are controlled by the provider and can change or be limited. Joining a queue or seeing a first displayed price does not guarantee a successful checkout."
       },
       {
         "type": "section",
-        "title": "Resale timing: early risk versus late value",
-        "content": "Resale markets — where fans or brokers sell tickets they already own — follow a different timing pattern from primary.\n\n**Shortly after onsale:** Resale prices are often at their highest. Supply is limited because few ticket holders have listed yet, and demand is at its most visible. Paying a significant premium over face value is common in this window.\n\n**Weeks before the event:** Prices can vary widely. Some sections remain elevated; others soften as more supply becomes available.\n\n**Final days before the event:** Sellers become motivated to move tickets rather than hold them. Prices often drop noticeably in the final 48–72 hours. For events that are not fully sold out, this can be the most price-efficient window on resale.\n\nThe trade-off: late resale buying carries real risk for high-demand events. Tickets may be sold out. Prices for remaining stock can be higher, not lower. The timing that works well for a mid-demand show may not work for an in-demand tour."
+        "title": "Waiting and resale trade-offs",
+        "content": "Waiting can make sense when your plans are flexible, you are comfortable with uncertainty, and you are willing to keep checking provider pages for current availability and final totals. It is not a guaranteed savings strategy.\n\nResale marketplaces reflect seller decisions, platform rules, demand, seat location, event timing, and delivery constraints. Some listings may change as an event approaches, but the direction is not predictable from a general guide. Waiting can leave you with fewer seats, less time to resolve delivery issues, or final totals that do not fit your budget."
       },
       {
         "type": "section",
-        "title": "Group bookings: an additional consideration",
-        "content": "Buying tickets for a group adds a layer of complexity to timing decisions. Primary platforms typically let you select multiple seats in one transaction, which is straightforward if you act during onsale. On resale, finding identical consecutive seats in the same section from the same seller becomes harder as inventory thins.\n\nFor groups, acting early — at or near the onsale — tends to give you the most options on both seat choice and section consistency. Leaving group purchases to the resale market late in the cycle increases the difficulty of keeping everyone together in the venue."
+        "title": "Delivery timing matters",
+        "content": "Ticket delivery can be immediate, delayed, mobile-transfer based, or subject to provider and event rules. Late purchases require extra care because there may be less time to resolve account issues, transfer delays, payment holds, or event-entry problems.\n\nBefore buying, confirm when and how the provider says tickets will be delivered, whether transfer restrictions apply, and what support or refund terms apply if delivery does not work as expected."
       },
       {
         "type": "section",
-        "title": "When waiting is worth the risk",
-        "content": "There are situations where waiting makes practical sense:\n\n- **Shows that are not selling out:** Not every event sells to capacity. For artists with broad availability, waiting for resale softening or platform promotions is a reasonable approach.\n- **Flexible seat preferences:** If you are not particular about section or row, late resale inventory is often in areas that sold less quickly — which may suit you.\n- **Known rescheduled dates:** When a show is postponed and rescheduled, ticket prices on resale often soften temporarily as some buyers return their tickets or choose not to transfer.\n\nFor any show where demand is high and the artist has a track record of selling out, waiting typically means paying more, not less — or missing out entirely."
+        "title": "Provider terms decide the final details",
+        "content": "TourTicketCompare can help you find checked ticket destinations where available, but the provider site controls the live transaction. Before committing, confirm all of these on the provider page:\n\n- Final checkout total, including fees, taxes, delivery charges, and currency conversion where shown\n- Current availability for the exact event and seats\n- Seat section, row, view restrictions, and whether seats are together\n- Ticket type, delivery method, transfer timing, and mobile-entry requirements\n- Refund, cancellation, postponement, resale, and support terms\n\nIf any detail is unclear, pause before paying."
       },
       {
         "type": "section",
-        "title": "Before you buy at any time",
-        "content": "Regardless of timing:\n- Confirm the final checkout total including all fees before committing\n- Verify the seat section, view, and delivery method\n- Read the refund and cancellation terms — these vary by platform and ticket type\n- Check whether the ticket is primary (face value) or resale (seller-set price)\n\nTiming the purchase well only matters if you are comparing on equal terms. A late cheap price that comes with no buyer protection or a non-transferable restriction may not represent the saving it appears to be."
+        "title": "A conservative timing checklist",
+        "content": "Use this checklist instead of relying on a prediction:\n\n1. Confirm the artist, event date, venue, and authorised ticket path from official or checked sources.\n2. Decide whether certainty, seat choice, group seating, budget, or flexibility matters most.\n3. Compare only final checkout totals for the same event and similar seats.\n4. Read delivery, refund, transfer, and cancellation terms before payment.\n5. Avoid advice that promises a specific lower-price day, genre pattern, time window, or predictable price drop.\n6. Buy only when the current provider terms fit your budget and risk tolerance."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Does TourTicketCompare know the best time to buy?**\n\nNo. TourTicketCompare does not compare live prices, track provider inventory, predict future prices, or promise the best time to buy.\n\n**Should I always buy early?**\n\nNot always. Buying earlier can help with certainty, seat choice, and group seating, but provider checkout terms and final totals still need to work for you.\n\n**Is waiting a reliable way to pay less?**\n\nNo. Waiting may help some flexible buyers in some situations, but it can also mean fewer seats, tighter delivery timing, or a higher final total.\n\n**What should I confirm before paying?**\n\nConfirm final price, fees, availability, seat details, delivery timing, refund terms, transfer rules, and checkout terms on the provider site."
       }
     ]
   },

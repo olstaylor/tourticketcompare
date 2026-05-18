@@ -85,19 +85,21 @@ const guidePages = [
     slug: "when-is-the-best-time-to-buy-concert-tickets",
     title: "When to Buy Concert Tickets | TourTicketCompare",
     description:
-      "Learn when to buy concert tickets by weighing demand, official onsales, resale activity, seat choice, group plans, and your risk tolerance.",
+      "Learn how to choose when to buy concert tickets by weighing certainty, seat choice, group seating, budget, delivery timing, provider terms, and risk tolerance.",
     h1: "When should I buy concert tickets?",
     intro:
-      "The right buying moment depends on the artist, the venue, demand, seat preferences, and how much risk you are comfortable taking. No timing rule works for every show.",
+      "There is no universal best time to buy concert tickets. TourTicketCompare does not compare live prices, track provider inventory, predict future prices, or promise the best time to buy. Use this guide to weigh certainty, seat choice, group seating, budget, risk tolerance, delivery timing, and provider checkout terms before you pay.",
     sections: [
-      ["What to check", "Check whether tickets are in an official onsale, whether resale listings are active, how many seats fit your budget, whether your preferred section is limited, and whether waiting would risk missing the seats you want."],
-      ["Red flags", "Avoid advice that promises prices will rise or fall. Ticket prices can move in either direction depending on demand and inventory."],
-      ["Before you buy", "Decide what matters most: price, seat quality, going with a group, or certainty. That tradeoff matters more than any generic timing rule."],
-      ["What TourTicketCompare verifies", "We can point to checked ticket destinations when available, but we do not predict future prices without reliable live data."]
+      ["Start with your trade-offs", "Decide what matters most before looking at listings: certainty of attending, preferred seat location, keeping a group together, staying within budget, or preserving flexibility. Different priorities can lead to different timing choices for the same event."],
+      ["Official onsales and early buying", "An official onsale or presale can be a useful starting point when you want an authorised path, clearer seat choices, or multiple seats together. The trade-off is that queues, prices, fees, seat maps, delivery rules, and successful checkout are controlled by the provider and are not guaranteed by TourTicketCompare."],
+      ["Waiting and resale trade-offs", "Waiting can suit flexible buyers, but it is not a reliable savings strategy. Resale listings reflect seller decisions, platform rules, demand, seat location, event timing, and delivery constraints. Waiting can also mean fewer suitable seats or tighter delivery timing."],
+      ["Delivery and checkout terms", "Before buying, confirm the final checkout total, current availability, seat details, whether seats are together, delivery method, transfer timing, refund rules, cancellation terms, and provider support options on the provider site."],
+      ["What TourTicketCompare verifies", "We can point to checked ticket destinations when available, but final price, availability, fees, delivery, and terms are confirmed by external provider sites. Avoid advice that promises a lower-price day, genre pattern, time window, or predictable price drop."]
     ],
     faq: [
-      ["Should I wait for prices to drop?", "That depends on demand, inventory, and your risk tolerance. No site should promise a price drop without current data."],
-      ["Can availability change quickly?", "Yes. Ticket provider inventory can change quickly, especially for high-demand artists."]
+      ["Does TourTicketCompare know the best time to buy?", "No. TourTicketCompare does not compare live prices, track provider inventory, predict future prices, or promise the best time to buy."],
+      ["Is waiting a reliable way to pay less?", "No. Waiting may help some flexible buyers in some situations, but it can also mean fewer seats, tighter delivery timing, or a higher final total."],
+      ["What should I confirm before paying?", "Confirm final price, fees, availability, seat details, delivery timing, refund terms, transfer rules, and checkout terms on the provider site."]
     ]
   },
   {
@@ -117,25 +119,6 @@ const guidePages = [
     faq: [
       ["Is resale always more expensive?", "No. Resale pricing varies. The final checkout total matters more than the first price shown."],
       ["Does TourTicketCompare sell tickets?", "No. We send users to external ticketing platforms when a verified link is available."]
-    ]
-  },
-  {
-    slug: "best-time-to-buy-concert-tickets",
-    title: "Best Time to Buy Concert Tickets | TourTicketCompare",
-    description:
-      "Understand timing trade-offs for buying concert tickets, including official onsales, dynamic pricing, resale activity, seat choice, and your risk tolerance.",
-    h1: "What is the best time to buy concert tickets?",
-    intro:
-      "Timing a concert ticket purchase depends on artist demand, venue capacity, onsale type, and your own priorities. No single rule fits every show, but understanding when prices tend to shift helps you make a more informed decision.",
-    sections: [
-      ["What to check", "Look at whether an official onsale is active, whether resale prices are above or below face value, how many seats match your section and budget, and whether supply looks limited. These signals matter more than any generic timing advice."],
-      ["Red flags", "Avoid any site that promises prices will fall or guarantees a better deal by waiting. Ticket prices can move in either direction depending on demand, inventory, and event proximity."],
-      ["Before you buy", "Decide what matters most: best seat, lowest total, going with a group, or certainty of attending. That tradeoff shapes when buying makes sense for your specific situation."],
-      ["What TourTicketCompare verifies", "We link to verified ticket destinations when available. We do not predict future prices or claim one timing strategy is always better."]
-    ],
-    faq: [
-      ["Do prices always drop closer to the show?", "No. Some shows sell out early; others see last-minute listings at lower prices. Demand and venue capacity are the main drivers."],
-      ["Is it safer to buy in the official onsale?", "Buying in an official onsale from a primary provider like Ticketmaster usually means face-value pricing and clearer buyer protections. Check the onsale date on the artist's official channels."]
     ]
   },
   {
@@ -219,7 +202,8 @@ const guidePages = [
 const oldGuideRedirects = {
   "compare-ticket-prices-safely": "how-to-compare-concert-ticket-prices",
   "why-ticket-prices-vary": "why-ticket-prices-change",
-  "avoid-overpaying-concert-tickets": "how-to-avoid-overpaying-for-concert-tickets"
+  "avoid-overpaying-concert-tickets": "how-to-avoid-overpaying-for-concert-tickets",
+  "best-time-to-buy-concert-tickets": "when-is-the-best-time-to-buy-concert-tickets"
 };
 
 const routeMeta = {

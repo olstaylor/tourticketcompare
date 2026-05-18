@@ -33,6 +33,10 @@ const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d1
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
 const EXPECTED_OUT_VERSION = "seatgeek-impact-diagnostics-2026-05-13";
+const SMOKE_TEST_NOW_ISO = "2026-05-14T12:00:00Z";
+const SMOKE_TEST_NOW_MS = Date.parse(SMOKE_TEST_NOW_ISO);
+assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO timestamp");
+Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
   ["/artists", "Ticket buttons appear only when the destination has been checked"],
   ["/guides", "Compare the final checkout total after fees"],
@@ -447,7 +451,24 @@ const seatGeekApiOnlyShowsResponse = await showsModule.onRequestGet({
 const seatGeekApiOnlyShowsJson = await seatGeekApiOnlyShowsResponse.json();
 assert(seatGeekApiOnlyShowsJson.providerAvailability?.seatgeek === false, "/api/shows SeatGeek availability should not be enabled by SeatGeek API discovery credentials alone");
 const morganShows = showsJson.shows.filter((show) => show.artist_slug === "morgan-wallen");
-assert(morganShows.length === 16, "/api/shows should expose the sixteen current/upcoming verified Morgan Wallen events");
+const expectedMorganShows = events
+  .filter((event) => event?.artist_slug === "morgan-wallen")
+  .filter((event) => Number.isFinite(Date.parse(event.dateTimeISO || event.datetime_iso)))
+  .filter((event) => Date.parse(event.dateTimeISO || event.datetime_iso) >= SMOKE_TEST_NOW_MS)
+  .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso) - Date.parse(b.dateTimeISO || b.datetime_iso));
+const pastMorganEvents = events
+  .filter((event) => event?.artist_slug === "morgan-wallen")
+  .filter((event) => Number.isFinite(Date.parse(event.dateTimeISO || event.datetime_iso)))
+  .filter((event) => Date.parse(event.dateTimeISO || event.datetime_iso) < SMOKE_TEST_NOW_MS);
+assert(pastMorganEvents.length > 0, "/api/shows regression fixture should include at least one past Morgan Wallen event for exclusion coverage");
+assert(morganShows.length === expectedMorganShows.length, `/api/shows should expose exactly the Morgan Wallen events current/upcoming as of ${SMOKE_TEST_NOW_ISO}`);
+assert(
+  morganShows.map((show) => show.id).join("|") === expectedMorganShows.map((event) => event.id).join("|"),
+  `/api/shows should exclude past Morgan Wallen events and preserve current/upcoming event order as of ${SMOKE_TEST_NOW_ISO}`
+);
+for (const pastEvent of pastMorganEvents) {
+  assert(!morganShows.some((show) => show.id === pastEvent.id), `${pastEvent.id} should be excluded once it is before the smoke test clock`);
+}
 for (const show of morganShows) {
   assert(show.ticketmaster_url && show.ticketmaster_url.includes(`/event/${show.ticketmaster_event_id}`), `${show.id} should use its exact event-specific Ticketmaster URL`);
   assert(!JSON.stringify(show).match(/example\.com|placeholder|ticketmaster\.evyy|price/i), `${show.id} should not expose placeholders, artist affiliate URLs, or prices`);

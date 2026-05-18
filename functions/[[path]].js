@@ -540,7 +540,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false) {
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable)).join("")
     : `<p class="muted empty-state">No event-specific ticket links are available for this artist yet. We only show event cards when the date and destination can be verified. ${anchor("Read our buying guides", "/guides", "text-link")} while you wait, or check the artist-level ticket link below if one is available.</p>`;
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -623,7 +623,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/artists") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="artistsTitle">Artist watchlist</h1><p>Find major artists, see whether checked ticket links are available, and use the buying guidance before you leave for a ticket provider.</p><p>A listed artist does not mean current tickets, prices, venues, or availability are confirmed. Ticket buttons appear only when the destination has been checked.</p>${renderArtistLinks(
+    )}<h1 id="artistsTitle">Artist watchlist</h1><p>Find major artists, see whether checked ticket links are available, and use the buying guidance before you leave for a ticket provider.</p><p>A listed artist does not mean current tickets, prices, venues, or availability are confirmed. Ticket buttons appear only when the destination has been checked.</p><p class="disclosure-note">Coverage varies by artist and region. This is not a complete global tour listing; we only show event links where the artist, date, venue, and ticket destination can be checked.</p>${renderArtistLinks(
       catalog
     )}</section></main>`;
   }
@@ -714,7 +714,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links and buying guidance for major tours</h1><p class="hero-subcopy">Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees on the provider site. We do not compare live prices.</p><div class="action-row">${anchor(
+  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links and buying guidance for major tours</h1><p class="hero-subcopy">Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees on the provider site. We do not compare live prices.</p><p class="disclosure-note">Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.</p><div class="action-row">${anchor(
     "Browse artists",
     "#featured-artists",
     "button button-primary"

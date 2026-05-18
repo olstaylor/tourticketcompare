@@ -824,6 +824,12 @@ function renderHome() {
     "Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees on the provider site. We do not compare live prices.",
     "hero-subcopy"
   );
+  text(
+    copy,
+    "p",
+    "Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.",
+    "disclosure-note"
+  );
   const actions = document.createElement("div");
   actions.className = "action-row";
   const browseCta = buttonLink("Browse artists", "#featured-artists", "primary");
@@ -1094,6 +1100,12 @@ function renderArtistsIndex() {
     "p",
     "A listed artist does not mean current tickets, prices, venues, or availability are confirmed. Ticket buttons appear only when the destination has been checked."
   );
+  text(
+    section,
+    "p",
+    "Coverage varies by artist and region. This is not a complete global tour listing; we only show event links where the artist, date, venue, and ticket destination can be checked.",
+    "disclosure-note"
+  );
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => grid.append(renderArtistCard(artist)));
@@ -1121,7 +1133,7 @@ function renderArtist(artist) {
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
     "Verified event links",
-    "Each card shows one checked event date and only links to the ticket URL for that exact event when one is available."
+    "Each card shows one checked event date and only links to the ticket URL for that exact event when one is available. Coverage varies by artist and region; final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site."
   );
   section.append(showBoard);
 

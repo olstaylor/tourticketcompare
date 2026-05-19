@@ -111,17 +111,17 @@ export const GUIDE_ROUTES = {
     fullContent: true
   },
   "/guides/ticketmaster-vs-stubhub": {
-    title: "Ticketmaster vs StubHub: Which Should You Use? | TourTicketCompare",
-    h1: "Ticketmaster vs StubHub: Which is right for you?",
+    title: "Ticketmaster vs StubHub: How to Compare Safely | TourTicketCompare",
+    h1: "How should I compare Ticketmaster and StubHub?",
     description:
-      "Compare Ticketmaster (official primary seller) and StubHub (resale marketplace): features, fees, buyer protection, pricing, and when to use each platform.",
+      "Compare Ticketmaster and StubHub by checking event source, ticket type, final totals, delivery timing, and provider terms before checkout.",
     fullContent: true
   },
   "/guides/how-resale-ticket-pricing-works": {
     title: "How Resale Ticket Pricing Works | TourTicketCompare",
     h1: "How does resale ticket pricing work?",
     description:
-      "Understand resale ticket pricing: why markups exist, how demand affects prices, how to spot fair vs overpriced listings, and when resale prices drop.",
+      "Understand resale ticket pricing by reviewing seller-set prices, fees, seat details, delivery timing, and provider terms before checkout.",
     fullContent: true
   }
 };

@@ -2,7 +2,7 @@
   --bg: #f5f1e8;
   --paper: #fffdf7;
   --ink: #101411;
-  --muted: #5f675f;
+  --muted: #4a524a;
   --line: #d8d0c0;
   --line-strong: #bdb29f;
   --accent: #d75b2f;
@@ -429,6 +429,13 @@ h3 {
 .artist-card,
 .info-card {
   box-shadow: 0 14px 36px rgba(36, 28, 18, 0.06);
+}
+
+.artist-card.is-pending {
+  border-style: dashed;
+  border-color: var(--line-strong);
+  background: rgba(255, 253, 247, 0.6);
+  box-shadow: none;
 }
 
 .info-card h3,

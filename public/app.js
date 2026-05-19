@@ -849,20 +849,21 @@ function renderHome() {
 
 function renderArtistCard(artist) {
   const article = document.createElement("article");
-  article.className = "artist-card";
+  const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
+  const isPending = activeProviders.length === 0;
+  article.className = isPending ? "artist-card is-pending" : "artist-card";
   text(article, "h3", artist.name);
   text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
-  const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
-  text(article, "p", activeProviders.length ? "Verified ticket pages" : "No checked ticket link yet", activeProviders.length ? "status-badge" : "status-badge status-badge-muted");
+  text(article, "p", isPending ? "No checked ticket link yet" : "Verified ticket pages", isPending ? "status-badge status-badge-muted" : "status-badge");
   text(
     article,
     "p",
-    activeProviders.length
-      ? "Artist pages show verified destinations. Event-specific buttons appear only on checked show cards."
-      : "Use this page for artist details and buying guidance. Ticket links appear when we verify a destination.",
+    isPending
+      ? "We're still verifying a ticket link for this artist. The artist page covers buying guidance in the meantime."
+      : "Artist pages show verified destinations. Event-specific buttons appear only on checked show cards.",
     "card-status"
   );
-  article.append(buttonLink(activeProviders.length ? "View verified link" : "View ticket guidance", `/artists/${artist.slug}`, activeProviders.length ? "primary" : "secondary"));
+  article.append(buttonLink(isPending ? "View ticket guidance" : "View verified link", `/artists/${artist.slug}`, isPending ? "secondary" : "primary"));
   return article;
 }
 
@@ -1730,10 +1731,31 @@ async function render() {
 if (year) year.textContent = String(new Date().getFullYear());
 
 if (navToggle && navLinks) {
+  const navOpenLabel = "Close";
+  const navClosedLabel = navToggle.textContent.trim() || "Menu";
+  const setNavState = (open) => {
+    navToggle.setAttribute("aria-expanded", String(open));
+    navLinks.toggleAttribute("data-open", open);
+    navToggle.textContent = open ? navOpenLabel : navClosedLabel;
+  };
+  const closeNav = ({ restoreFocus = false } = {}) => {
+    if (navToggle.getAttribute("aria-expanded") !== "true") return;
+    setNavState(false);
+    if (restoreFocus) navToggle.focus();
+  };
   navToggle.addEventListener("click", () => {
     const isOpen = navToggle.getAttribute("aria-expanded") === "true";
-    navToggle.setAttribute("aria-expanded", String(!isOpen));
-    navLinks.toggleAttribute("data-open", !isOpen);
+    setNavState(!isOpen);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeNav({ restoreFocus: true });
+  });
+  document.addEventListener("click", (event) => {
+    if (navToggle.getAttribute("aria-expanded") !== "true") return;
+    const target = event.target;
+    if (!(target instanceof Node)) return;
+    if (navToggle.contains(target) || navLinks.contains(target)) return;
+    closeNav();
   });
 }
 

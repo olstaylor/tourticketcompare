@@ -1,7 +1,5 @@
 let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] };
 
-const GENERIC_SEATGEEK_SEARCH_URL = "https://seatgeek.pxf.io/cowboycarter";
-
 const providerCopy = {
   ticketmaster: {
     name: "Ticketmaster",
@@ -304,31 +302,6 @@ function link(label, href, className) {
 
 function buttonLink(label, href, variant = "primary") {
   return link(label, href, `button button-${variant}`);
-}
-
-function genericSeatGeekSearchLink(className = "text-link") {
-  const cta = link("Search SeatGeek", GENERIC_SEATGEEK_SEARCH_URL, className);
-  cta.target = "_blank";
-  cta.rel = "sponsored nofollow noopener";
-  return cta;
-}
-
-function renderGenericSeatGeekSearchPanel() {
-  const panel = document.createElement("section");
-  panel.className = "nested-panel";
-  text(panel, "h2", "General SeatGeek search");
-  const copy = document.createElement("p");
-  copy.append(
-    document.createTextNode(
-      "This is a general SeatGeek search/discovery link, not a verified event-specific link. For shows where no verified SeatGeek event link is available yet, you can search SeatGeek directly, but final availability, prices and fees must be checked on SeatGeek."
-    )
-  );
-  panel.append(copy);
-  const actions = document.createElement("div");
-  actions.className = "action-row";
-  actions.append(genericSeatGeekSearchLink("button button-secondary"));
-  panel.append(actions);
-  return panel;
 }
 
 function createList(items, className) {
@@ -1266,7 +1239,7 @@ function renderGuidesIndex() {
   const links = document.createElement("div");
   links.className = "action-row";
   links.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"), buttonLink("Affiliate disclosure", "/affiliate-disclosure", "secondary"));
-  section.append(primer, renderGenericSeatGeekSearchPanel(), grid, links);
+  section.append(primer, grid, links);
   main.replaceChildren(section);
 }
 

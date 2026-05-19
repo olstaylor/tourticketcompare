@@ -232,7 +232,11 @@ assertAbsent(
     "from $",
     "from €",
     "MusicEvent",
-    "ticketmaster.evyy.net"
+    "ticketmaster.evyy.net",
+    "https://seatgeek.pxf.io/cowboycarter",
+    "seatgeek.pxf.io/cowboycarter",
+    "GENERIC_SEATGEEK_SEARCH_URL",
+    "General SeatGeek search"
   ],
   "public files"
 );

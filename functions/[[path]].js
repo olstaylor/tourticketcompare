@@ -15,8 +15,6 @@ const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robo
 
 // _headers applies to static-asset responses only, not to function-generated responses.
 // These headers must be set explicitly on every HTML Response returned by this function.
-const GENERIC_SEATGEEK_SEARCH_URL = "https://seatgeek.pxf.io/cowboycarter";
-
 const SECURITY_HEADERS = {
   "Content-Security-Policy":
     "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://utt.impactcdn.com; connect-src 'self' https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
@@ -288,14 +286,6 @@ function ticketLinksForArtist(catalog, artistSlug) {
 
 function anchor(label, href, className = "text-link") {
   return `<a class="${escapeAttr(className)}" href="${escapeAttr(href)}">${escapeHtml(label)}</a>`;
-}
-
-function genericSeatGeekSearchAnchor(className = "text-link") {
-  return `<a class="${escapeAttr(className)}" href="${escapeAttr(GENERIC_SEATGEEK_SEARCH_URL)}" rel="sponsored nofollow noopener" target="_blank">Search SeatGeek</a>`;
-}
-
-function renderGenericSeatGeekSearchPanel() {
-  return `<section class="nested-panel"><h2>General SeatGeek search</h2><p>This is a general SeatGeek search/discovery link, not a verified event-specific link. For shows where no verified SeatGeek event link is available yet, you can search SeatGeek directly, but final availability, prices and fees must be checked on SeatGeek.</p><div class="action-row">${genericSeatGeekSearchAnchor("button button-secondary")}</div></section>`;
 }
 
 function renderBreadcrumbHtml(route) {
@@ -631,7 +621,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Each guide helps you make one safe decision before you buy: comparing final totals, checking if a ticket is official or resale, deciding when to buy, and confirming terms. Use them to avoid overpaying, spot misleading listings, and feel confident about checkout.</p><section class="nested-panel"><h2>Essential checks before checkout</h2><ul class="check-list"><li>Check that the artist, date, venue, and seat details match your show.</li><li>Compare the final checkout total after fees, not just the first displayed price.</li><li>Review delivery, refund, and resale terms on the provider site before paying.</li><li>Look for official sources or verified resale marketplaces; avoid unmatched listings and social media sellers.</li></ul></section>${renderGenericSeatGeekSearchPanel()}${renderGuideLinks()}<div class="action-row">${anchor(
+    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Each guide helps you make one safe decision before you buy: comparing final totals, checking if a ticket is official or resale, deciding when to buy, and confirming terms. Use them to avoid overpaying, spot misleading listings, and feel confident about checkout.</p><section class="nested-panel"><h2>Essential checks before checkout</h2><ul class="check-list"><li>Check that the artist, date, venue, and seat details match your show.</li><li>Compare the final checkout total after fees, not just the first displayed price.</li><li>Review delivery, refund, and resale terms on the provider site before paying.</li><li>Look for official sources or verified resale marketplaces; avoid unmatched listings and social media sellers.</li></ul></section>${renderGuideLinks()}<div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"

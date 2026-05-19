@@ -93,6 +93,23 @@ function assertAbsent(haystack, terms, label) {
   assert(found.length === 0, `${label} contains blocked term(s): ${found.join(", ")}`);
 }
 
+async function assertLineRulesAbsent(files, rules, label) {
+  const violations = [];
+
+  for (const file of files) {
+    const lines = (await read(file)).split(/\r?\n/);
+    lines.forEach((line, index) => {
+      for (const rule of rules) {
+        if (!rule.pattern.test(line)) continue;
+        if (rule.allowedContext?.test(line)) continue;
+        violations.push(`${file}:${index + 1} ${rule.label}: ${line.trim()}`);
+      }
+    });
+  }
+
+  assert(violations.length === 0, `${label} contains blocked public-copy pattern(s):\n${violations.join("\n")}`);
+}
+
 async function assertPublicCopySafe(files) {
   const rules = [
     { label: "cheapest claim", pattern: /\bcheapest\b/i },
@@ -144,6 +161,50 @@ async function assertPublicCopySafe(files) {
     violations.length === 0,
     `public-facing copy contains unsupported risky wording:\n${violations.join("\n")}`
   );
+}
+
+async function assertGuideCopyGuardrails(files) {
+  const rules = [
+    { label: "currency price example", pattern: /[£$€]\s*\d/i },
+    { label: "fixed percentage claim", pattern: /\b\d+(?:\.\d+)?\s*(?:%|percent)\b/i },
+    { label: "fixed percentage range claim", pattern: /\b\d+(?:\.\d+)?\s*[-–]\s*\d+(?:\.\d+)?\s*%/i },
+    { label: "rating threshold claim", pattern: /\b\d+(?:\.\d+)?\+?\s*stars?\b/i },
+    { label: "cheapest claim", pattern: /\bcheapest\b/i },
+    { label: "best price claim", pattern: /\bbest\s+price\b/i },
+    { label: "best deal claim", pattern: /\bbest\s+deal\b/i },
+    { label: "lowest price claim", pattern: /\blowest\s+price\b/i },
+    { label: "deep discount claim", pattern: /\b(?:deepest\s+discounts?|best\s+resale\s+deals?)\b/i },
+    {
+      label: "savings claim",
+      pattern: /\bsavings?\b/i,
+      allowedContext: /\b(no|not|without|do not|does not|cannot|never|unless|until|unverified|unsupported|promise|promises|claim|claims|strategy)\b/i
+    },
+    {
+      label: "provider guarantee claim",
+      pattern: /\b(?:buyer\s+guarantees?|delivery\s+guarantee|guarantee\s+that|protects\s+you\s+if|platform\s+backs|will\s+refund|will\s+resend)\b/i,
+      allowedContext: /\b(no|not|without|does not|do not|cannot|never|unless|until|assuming|instead of assuming|read|review|published|terms|varies|coverage)\b/i
+    },
+    {
+      label: "deterministic resale timing claim",
+      pattern: /\b(?:prices?\s+(?:will|are\s+likely\s+to|tend\s+to|typically|often)\s+(?:drop|rise|fall|soften|increase)|resale\s+prices\s+(?:will|are\s+likely\s+to|tend\s+to|typically|often)|prices?\s+drop|price\s+drop|final\s+48\s+hours|days?\s+\d+(?:\s*[-–]\s*\d+)?)\b/i,
+      allowedContext: /\b(no|not|do not|does not|cannot|never|without|avoid|predict|prediction|predictable|not predictable|not guaranteed|do not rely|cannot predict)\b/i
+    },
+    { label: "raw Ticketmaster affiliate URL", pattern: /https?:\/\/(?:www\.)?ticketmaster\.evyy\.net\b/i },
+    { label: "raw SeatGeek affiliate URL", pattern: /https?:\/\/(?:www\.)?seatgeek\.pxf\.io\b/i },
+    { label: "raw Impact affiliate URL", pattern: /https?:\/\/(?:www\.)?pxf\.io\b/i }
+  ];
+
+  await assertLineRulesAbsent(files, rules, "guide copy guardrails");
+}
+
+async function assertNoRawPublicAffiliateUrls(files) {
+  const rules = [
+    { label: "raw Ticketmaster affiliate host", pattern: /\b(?:https?:\/\/)?(?:www\.)?ticketmaster\.evyy\.net\b/i },
+    { label: "raw SeatGeek affiliate host", pattern: /\b(?:https?:\/\/)?(?:www\.)?seatgeek\.pxf\.io\b/i },
+    { label: "raw Impact affiliate host", pattern: /\b(?:https?:\/\/)?(?:www\.)?pxf\.io\b/i }
+  ];
+
+  await assertLineRulesAbsent(files, rules, "public-facing affiliate URL guardrails");
 }
 
 function extractH1(html) {
@@ -211,13 +272,29 @@ const publicCopyFiles = [
   "functions/[[path]].js",
   "public/data/catalog.json"
 ];
+const guideCopyFiles = [
+  "public/data/guides-content.json",
+  "public/app.js",
+  "functions/_route-metadata.js"
+];
+const publicAffiliateUrlFiles = [
+  ...new Set(
+    publicUiFiles.concat([
+      "public/data/guides-content.json",
+      "functions/[[path]].js",
+      "functions/_route-metadata.js"
+    ])
+  )
+];
 
-const joinedPublic = (await Promise.all(publicUiFiles.concat(["functions/[[path]].js"]).map((file) => read(file)))).join("\n");
+const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
   joinedPublic.includes("Find verified ticket links and buying guidance for major tours"),
   "homepage public-facing copy should be present"
 );
 await assertPublicCopySafe(publicCopyFiles);
+await assertGuideCopyGuardrails(guideCopyFiles);
+await assertNoRawPublicAffiliateUrls(publicAffiliateUrlFiles);
 assertAbsent(
   joinedPublic,
   [

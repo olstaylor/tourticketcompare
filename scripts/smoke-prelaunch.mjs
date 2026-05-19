@@ -415,6 +415,8 @@ const indexHtml = await read("public/index.html");
 assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags — Impact script must be loaded via /impact.js");
 assert(indexHtml.includes('src="/impact.js"'), "index.html must load Impact via <script src=\"/impact.js\">");
 
+const routeRawEvidence = [];
+
 for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/${slug}`))) {
   const { response, text, nextCalled } = await routeResponse(pathname);
   assert(response.status === 200, `${pathname} should return 200`);
@@ -468,6 +470,29 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
     assert(h1 !== expectedH1.get("/"), `${pathname} should not return the homepage H1 in raw HTML`);
     assert(text.includes(routeMarkers.get(pathname)), `${pathname} should include route-specific raw HTML content`);
   }
+
+  const canonicalTag = text.match(/<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>(?:\s*)/i)?.[0] || "";
+  const titleTag = text.match(/<title>[\s\S]*?<\/title>/i)?.[0] || "";
+  const h1Tag = text.match(/<h1[^>]*>[\s\S]*?<\/h1>/i)?.[0] || "";
+  const metaDescriptionTag = text.match(/<meta\s+name="description"\s+content="[^"]*"\s*\/?>(?:\s*)/i)?.[0] || "";
+  assert(canonicalTag.includes(`href="https://tourticketcompare.com${pathname}"`), `${pathname} raw canonical tag should include expected href`);
+  assert(titleTag.length > 0, `${pathname} should include a raw <title> tag`);
+  assert(h1Tag.length > 0, `${pathname} should include a raw <h1> tag`);
+  assert(metaDescriptionTag.length > 0, `${pathname} should include a raw description meta tag`);
+
+  routeRawEvidence.push({
+    pathname,
+    status: response.status,
+    canonicalTag,
+    titleTag,
+    h1Tag,
+    metaDescriptionTag
+  });
+}
+
+console.log("[smoke] Route raw-response evidence:");
+for (const evidence of routeRawEvidence) {
+  console.log(JSON.stringify(evidence));
 }
 
 // JSON-LD: verify schema exists, parses, and contains correct types per route

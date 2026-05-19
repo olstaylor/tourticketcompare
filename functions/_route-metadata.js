@@ -117,6 +117,27 @@ export const GUIDE_ROUTES = {
       "Compare Ticketmaster and StubHub by checking event source, ticket type, final totals, delivery timing, and provider terms before checkout.",
     fullContent: true
   },
+  "/guides/seatgeek-promo-code-guide": {
+    title: "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
+    h1: "How should I verify a SeatGeek promo code safely?",
+    description:
+      "Learn how to verify SeatGeek promo-code claims safely by checking eligibility, final checkout totals, fees, and order terms on SeatGeek before purchase.",
+    fullContent: true
+  },
+  "/guides/concert-ticket-fees-explained": {
+    title: "Concert Ticket Fees Explained | TourTicketCompare",
+    h1: "What concert ticket fees should I check before buying?",
+    description:
+      "Understand common concert ticket fee categories and compare final checkout totals safely before you buy.",
+    fullContent: true
+  },
+  "/guides/ticket-delivery-and-transfer-timing": {
+    title: "Ticket Delivery and Transfer Timing Guide | TourTicketCompare",
+    h1: "How do ticket delivery and transfer timing affect risk?",
+    description:
+      "Learn how to check ticket delivery methods and transfer timing so checkout terms match your travel and event plans.",
+    fullContent: true
+  },
   "/guides/how-resale-ticket-pricing-works": {
     title: "How Resale Ticket Pricing Works | TourTicketCompare",
     h1: "How does resale ticket pricing work?",

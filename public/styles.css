@@ -190,7 +190,7 @@ main {
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
   gap: clamp(22px, 5vw, 54px);
-  min-height: 640px;
+  min-height: 520px;
   align-items: stretch;
   padding: clamp(36px, 7vw, 72px);
   overflow: hidden;
@@ -212,13 +212,14 @@ h3 {
 
 .hero-title,
 .content-page h1 {
-  max-width: 860px;
-  font-size: clamp(3.25rem, 8vw, 7.35rem);
-  line-height: 0.9;
+  max-width: 720px;
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
 }
 
 .content-page h1 {
-  font-size: clamp(3rem, 6.8vw, 6.4rem);
+  font-size: clamp(2.1rem, 4.6vw, 3.4rem);
 }
 
 .hero-subcopy,
@@ -237,15 +238,15 @@ h3 {
 }
 
 .hero-subcopy {
-  max-width: 720px;
-  margin: 28px 0 0;
+  max-width: 640px;
+  margin: 20px 0 0;
 }
 
 .action-row {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 .button {
@@ -759,11 +760,11 @@ summary {
   }
 
   .hero-title {
-    font-size: clamp(2.7rem, 13vw, 4rem);
+    font-size: clamp(1.95rem, 7.5vw, 2.5rem);
   }
 
   .content-page h1 {
-    font-size: clamp(2.35rem, 11.5vw, 3.6rem);
+    font-size: clamp(1.85rem, 7vw, 2.4rem);
   }
 
   .hero-subcopy {
@@ -782,6 +783,16 @@ summary {
   .action-row {
     gap: 10px;
     margin-top: 20px;
+  }
+
+  .hero-search-form {
+    margin-top: 22px;
+    gap: 10px;
+  }
+
+  .hero-search-submit {
+    width: 100%;
+    padding-inline: 22px;
   }
 
   .button {
@@ -815,6 +826,48 @@ summary {
 }
 
 /* Search widget */
+
+.hero-search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: stretch;
+  width: 100%;
+  max-width: 640px;
+  margin: 28px 0 0;
+}
+
+.hero-search-input {
+  flex: 1 1 240px;
+  min-width: 0;
+  min-height: 56px;
+  padding: 14px 22px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--paper);
+  font-size: 1.05rem;
+  font-family: var(--body);
+  line-height: 1.4;
+  appearance: none;
+  box-shadow: 0 8px 22px rgba(36, 28, 18, 0.06);
+}
+
+.hero-search-input::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+
+.hero-search-input:focus {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-color: var(--focus);
+}
+
+.hero-search-submit {
+  flex: 0 0 auto;
+  padding-inline: 30px;
+}
 
 .search-form {
   display: grid;

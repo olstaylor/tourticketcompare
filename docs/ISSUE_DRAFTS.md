@@ -1,10 +1,12 @@
 # GitHub Issue Drafts
 
-Last updated: 2026-05-14
+Last updated: 2026-05-19
 
 These are copy/paste-ready drafts. Do not create issues automatically unless the environment explicitly supports it and the exact issue content is shown first.
 
-## 1. Fix raw HTML routing and canonical metadata for public routes
+## 1. Fix raw HTML routing and canonical metadata for public routes — DONE (2026-05-18)
+
+Implemented via commits `0f85c5a` ("Strengthen per-route raw HTML smoke evidence") and merged PR #125. Per-route raw HTML assertions now run in `scripts/smoke-prelaunch.mjs`.
 
 **Title:** Prove and fix raw HTML routing/canonical metadata for public routes
 
@@ -42,7 +44,9 @@ Public non-root routes must return correct server-rendered HTML without relying 
 - If middleware changes: `node --check functions/_middleware.js`
 - If runtime code changes: `node scripts/smoke-prelaunch.mjs`
 
-## 2. Build SeatGeek promo code guide safely
+## 2. Build SeatGeek promo code guide safely — DONE (2026-05-18)
+
+Implemented via commit `c9f2203` ("Add safe SeatGeek promo and ticket-buying guides").
 
 **Title:** Add a safe SeatGeek promo code guide
 
@@ -151,7 +155,9 @@ SeatGeek event coverage can improve provider choice, but only verified stored ev
 - `python3 scripts/validate-events.py --for-production`
 - `node scripts/smoke-prelaunch.mjs`
 
-## 5. Remove tracked .DS_Store and confirm stale D1 wording is fixed in active docs
+## 5. Remove tracked .DS_Store and confirm stale D1 wording is fixed in active docs — PARTIAL
+
+D1 wording in `CLAUDE.md` updated (2026-05-19) to reflect that `RATE_LIMIT_DB` / `CLICKS_DB` are no longer in `wrangler.toml`. `.DS_Store` removal still pending.
 
 **Title:** Remove tracked .DS_Store and confirm active D1 status wording
 

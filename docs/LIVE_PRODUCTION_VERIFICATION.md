@@ -1,7 +1,7 @@
 # Live Production Verification
 
-Last updated: 2026-05-12
-Verified by: curl checks against `tourticketcompare.com` and `www.tourticketcompare.com` (2026-05-11), local validation suite (2026-05-12)
+Last updated: 2026-05-19 (status notes refreshed; live curl evidence below still dates from 2026-05-11)
+Verified by: curl checks against `tourticketcompare.com` and `www.tourticketcompare.com` (2026-05-11), local validation suite (2026-05-12). The pending browser-based checks listed below have not been re-run since 2026-05-12.
 
 ---
 

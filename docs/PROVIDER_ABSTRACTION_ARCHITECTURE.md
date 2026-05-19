@@ -1,8 +1,8 @@
 # Provider Abstraction Architecture
 
-**Date:** 2026-05-11  
-**Status:** Design document + safe structural prep work completed  
-**Scope:** Prepare TourTicketCompare for future provider integrations (SeatGeek, StubHub, Vivid Seats, TicketNetwork)
+- **Date:** 2026-05-11 (originally drafted); status refreshed 2026-05-19
+- **Status:** Phase 1 complete and merged to `main`. This document remains the design reference for future phases.
+- **Scope:** Prepare TourTicketCompare for future provider integrations (SeatGeek, StubHub, Vivid Seats, TicketNetwork)
 
 ---
 

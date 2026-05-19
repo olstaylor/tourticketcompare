@@ -32,7 +32,7 @@ const EXPECTED_CSP = "default-src 'self'; img-src 'self' data:; style-src 'self'
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
-const EXPECTED_OUT_VERSION = "seatgeek-impact-diagnostics-2026-05-13";
+const EXPECTED_OUT_VERSION = "seatgeek-impact-diagnostics-2026-05-19";
 const SMOKE_TEST_NOW_ISO = "2026-05-14T12:00:00Z";
 const SMOKE_TEST_NOW_MS = Date.parse(SMOKE_TEST_NOW_ISO);
 assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO timestamp");

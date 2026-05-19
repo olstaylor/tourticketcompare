@@ -4,7 +4,7 @@ const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
 const IMPACT_PXF_TRACKING_HOSTS = ["pxf.io"];
 // Temporary production proof header for /api/out. Remove after verifying
 // SeatGeek event URL-first redirects are live.
-const OUT_VERSION_HEADER = "seatgeek-impact-diagnostics-2026-05-13";
+const OUT_VERSION_HEADER = "seatgeek-impact-diagnostics-2026-05-19";
 
 const PROVIDERS = {
   ticketmaster: {

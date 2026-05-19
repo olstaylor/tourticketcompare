@@ -303,4 +303,4 @@ npm run providers:enrich  # Run again — should report 130 already enriched
 
 **Phase 1 complete:** Provider abstraction layer built without modifying existing logic. The codebase is now structured to support multi-provider integrations in future phases. All safety boundaries maintained; no fake data, no scraping, no credential leaks. Future provider integrations are plug-and-play.
 
-**Commit hash:** `claude/provider-abstraction-architecture-j8SqI` branch
+**Merged:** to `main` on or around 2026-05-11 (originally developed on the `claude/provider-abstraction-architecture-j8SqI` branch).

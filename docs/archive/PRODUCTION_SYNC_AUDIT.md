@@ -1,5 +1,7 @@
 # Production Sync Audit
 
+> Archived: historical one-time audit. Kept for audit trail; not active guidance.
+
 Audit date: 2026-05-11
 Branch audited: `main` (commit `09c08cf`)
 

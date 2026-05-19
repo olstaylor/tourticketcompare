@@ -1,5 +1,7 @@
 # Pages Production Migration Plan
 
+> Archived: migration to Cloudflare Pages is complete (2026-05-11). Kept for audit trail; not active guidance.
+
 Audit date: 2026-05-11
 Branch: `claude/plan-pages-production-migration`
 Target state: GitHub `main` → Cloudflare Pages → `tourticketcompare.com` / `www.tourticketcompare.com`

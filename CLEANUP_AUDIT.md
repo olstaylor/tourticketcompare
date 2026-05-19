@@ -58,7 +58,7 @@ These candidates are documentation, local tooling, or clearly isolated housekeep
   - `HANDOVER.md`
   - `docs/ARCHITECTURE.md`
   - `docs/DEPLOYMENT.md`
-  - `docs/PAGES_PRODUCTION_MIGRATION_PLAN.md`
+  - `docs/archive/PAGES_PRODUCTION_MIGRATION_PLAN.md`
 - **Checks after cleanup:**
   - `git diff --check`
 
@@ -316,7 +316,7 @@ Grouped by proposed cleanup:
 - **S1 remove tracked macOS metadata:** `.DS_Store`, `.gitignore`.
 - **S2 fix placeholder-D1 status docs:** `PROJECT_STATUS.md`.
 - **S3 fix stale smoke-test notes:** `CLAUDE.md`, `HANDOVER.md`, `AUDIT_PARKING_LOT.md`.
-- **S4 clarify legacy deployment docs:** `README.md`, `PROJECT_STATUS.md`, `HANDOVER.md`, `docs/ARCHITECTURE.md`, `docs/DEPLOYMENT.md`, `docs/PAGES_PRODUCTION_MIGRATION_PLAN.md`.
+- **S4 clarify legacy deployment docs:** `README.md`, `PROJECT_STATUS.md`, `HANDOVER.md`, `docs/ARCHITECTURE.md`, `docs/DEPLOYMENT.md`, `docs/archive/PAGES_PRODUCTION_MIGRATION_PLAN.md`.
 - **S5 clarify route metadata comment:** `functions/_route-metadata.js`, `docs/ARCHITECTURE.md`.
 - **S6 document route shims:** `README.md`, `docs/ARCHITECTURE.md`, `PROJECT_STATUS.md`.
 - **S7 add validation aliases:** `package.json`, possibly `package-lock.json`, and any docs that mention validation commands.
@@ -327,7 +327,7 @@ Grouped by proposed cleanup:
 - **M5 smoke script refactor:** `scripts/smoke-prelaunch.mjs`, possibly new helper files under `scripts/`.
 - **M6 internal Impact diagnostic cleanup:** `functions/[[path]].js`, `public/internal/impact-tag-test.css`, `public/internal/impact-tag-test.js`, `docs/IMPACT_PUBLISHER_TAG_TEST.md`, `scripts/smoke-prelaunch.mjs`.
 - **M7 SeatGeek debug endpoint cleanup:** `functions/api/debug-seatgeek.js`, `scripts/smoke-prelaunch.mjs`, SeatGeek docs/reports.
-- **H4 legacy deployment retirement:** `api/`, `vercel.json`, `scripts/build-standalone-worker.mjs`, `archive/vercel-experimental/`, `docs/DEPLOYMENT.md`, `docs/PAGES_PRODUCTION_MIGRATION_PLAN.md`, `docs/ARCHITECTURE.md`, `PROJECT_STATUS.md`, `HANDOVER.md`.
+- **H4 legacy deployment retirement:** `api/`, `vercel.json`, `scripts/build-standalone-worker.mjs`, `archive/vercel-experimental/`, `docs/DEPLOYMENT.md`, `docs/archive/PAGES_PRODUCTION_MIGRATION_PLAN.md`, `docs/ARCHITECTURE.md`, `PROJECT_STATUS.md`, `HANDOVER.md`.
 
 ## 7. Recommended first cleanup task for a follow-up Codex session
 

@@ -187,7 +187,7 @@ Based on `functions/_route-metadata.js` OLD_GUIDE_REDIRECTS:
 
 **The standalone Worker (`tourticketcompare-live`) is no longer serving production traffic.** Pages Functions are confirmed as the production runtime. The Worker upload recommended in the original migration plan Phase 1 has been skipped — it is not needed.
 
-`scripts/build-standalone-worker.mjs` remains in the repo as an emergency reference but is not needed for production deploys. Its retirement is tracked in `docs/PAGES_PRODUCTION_MIGRATION_PLAN.md`.
+`scripts/build-standalone-worker.mjs` remains in the repo as an emergency reference but is not needed for production deploys. Its retirement is tracked in `docs/archive/PAGES_PRODUCTION_MIGRATION_PLAN.md`.
 
 ---
 

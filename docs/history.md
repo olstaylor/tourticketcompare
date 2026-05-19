@@ -1,6 +1,6 @@
 # TourTicketCompare Historical Notes
 
-This file archives older project states that are no longer the source of truth. Use `README.md` for product and implementation rules, and use `HANDOVER.md` for current state and next steps.
+This file archives older project states that are no longer the source of truth. Use `README.md` for product and implementation rules, and use `PROJECT_STATUS.md` for current state and next steps.
 
 ## Archived States
 

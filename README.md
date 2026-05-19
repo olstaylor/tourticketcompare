@@ -144,4 +144,4 @@ See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLIC
 
 ## Current priority
 
-The highest-priority next task is to prove raw HTML routing and canonical metadata for representative public non-root routes. If a mismatch is found, fix only the smallest routing/metadata issue. See [PROJECT_STATUS.md](PROJECT_STATUS.md), [BACKLOG.md](BACKLOG.md), and [docs/ISSUE_DRAFTS.md](docs/ISSUE_DRAFTS.md).
+As of 2026-05-19, the highest-priority next task is production verification of representative non-root routes (raw response + browser view) to confirm route metadata and canonicals match local proof. See [PROJECT_STATUS.md](PROJECT_STATUS.md), [BACKLOG.md](BACKLOG.md), and [docs/ISSUE_DRAFTS.md](docs/ISSUE_DRAFTS.md).

@@ -304,12 +304,12 @@ function renderArtistLinks(catalog) {
       (artist) => {
         const hasArtistPage = ticketLinksForArtist(catalog, artist.slug).length > 0;
         return (
-        `<article class="artist-card"><h3>${escapeHtml(artist.name)}</h3><p class="muted">${escapeHtml(
+        `<article class="${hasArtistPage ? "artist-card" : "artist-card is-pending"}"><h3>${escapeHtml(artist.name)}</h3><p class="muted">${escapeHtml(
           artist.short_description || "Artist watchlist notes."
         )}</p><p class="${hasArtistPage ? "status-badge" : "status-badge status-badge-muted"}">${hasArtistPage ? "Artist ticket page available" : "No checked ticket link yet"}</p><p class="card-status">${
           hasArtistPage
             ? "Artist-level links are separate from dated event links. Event-specific buttons appear only on verified show cards."
-            : "Use the artist page for guidance. Ticket buttons appear only when a destination can be checked."
+            : "We're still verifying a ticket link for this artist. The artist page covers buying guidance in the meantime."
         }</p>${anchor(
           hasArtistPage ? "View verified link" : "View ticket guidance",
           `/artists/${artist.slug}`,

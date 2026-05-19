@@ -7,10 +7,10 @@ This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-stat
 ## Recommended next 5 Codex-sized tasks
 
 1. ~~Prove raw HTML routing/canonical behavior for public routes.~~ **Done locally 2026-05-19** (see P0.1). Still pending: confirm the same against live production once a non-blocked network is available.
-2. **Build a safe SeatGeek promo code guide.** Content-only unless metadata/sitemap wiring is explicitly needed; avoid claiming a working discount unless verified.
-3. **Add a safe ticket-buying guide cluster.** Publish practical guidance without invented prices, availability, providers, or live comparison claims.
+2. ~~Build a safe SeatGeek promo code guide.~~ **Already shipped** — `/guides/seatgeek-promo-code-guide` is live with route metadata, server-rendered content, sitemap entry, and `/guides` index card (verified locally 2026-05-19).
+3. **Add a safe ticket-buying guide cluster** beyond what already exists. Twelve guides are live; identify the next 1–3 evergreen topics that don't duplicate existing pages (e.g. how to read a ticket listing, what to do if an event is postponed/cancelled). Content-only; safe rules apply.
 4. **Continue verified SeatGeek URL coverage without changing redirect logic.** Review/apply only verified event-level URLs through the existing data workflow; do not alter `/api/out`.
-5. **Remove tracked `.DS_Store` and keep status wording current.** Housekeeping-only: remove `functions/.DS_Store`, confirm `.gitignore`, and do not touch product code.
+5. ~~Remove tracked `.DS_Store`.~~ **Already done** in `12df8d3` ("Remove tracked macOS metadata files"); `.gitignore` already covers `.DS_Store`. No tracked DS_Store files remain.
 
 ## P0 — blocking or trust-breaking
 
@@ -35,14 +35,9 @@ This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-stat
 
 ## P1 — important revenue, SEO, or product work
 
-### P1.1 Build SeatGeek promo code guide safely
+### P1.1 Build SeatGeek promo code guide safely — DONE
 
-**Goal:** Capture SeatGeek promo-code search intent without inventing or guaranteeing discounts.
-
-**Safe content rules:**
-- Do not publish a promo code unless it is verified from an approved source at the time of writing.
-- Say that codes, eligibility, inventory, fees, and final totals are confirmed on SeatGeek.
-- Avoid fake comparison tables, fake savings, and time-limited claims unless sourced.
+`/guides/seatgeek-promo-code-guide` is live: route in `_route-metadata.js`, content in `public/data/guides-content.json`, sitemap entry, and `/guides` index card. End-to-end verified in local Pages preview 2026-05-19 (HTTP 200, self-referencing canonical, route-specific title and H1, 2,524 chars of server-rendered `<main>` text, no unverified codes published, conservative claims throughout).
 
 ### P1.2 Add safe ticket-buying guide cluster
 
@@ -74,11 +69,9 @@ This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-stat
 
 ## P2 — useful improvements
 
-### P2.1 Remove tracked `.DS_Store`
+### P2.1 Remove tracked `.DS_Store` — DONE
 
-**Scope:** Remove `functions/.DS_Store` from git and confirm `.gitignore` covers `.DS_Store`.
-
-**Checks:** `git diff --check`.
+Completed in commit `12df8d3` ("Remove tracked macOS metadata files"). `.gitignore` already has `.DS_Store`. `git ls-files | grep -i ds_store` returns nothing.
 
 ### P2.2 Review stale D1/status wording across secondary docs
 
@@ -112,7 +105,10 @@ These are intentionally not implementation tasks until explicitly scoped:
 
 - Cloudflare Pages Functions is the active production architecture in current docs.
 - `functions/_middleware.js` documents that named route shims are fallback-only while middleware is active.
-- `functions/_route-metadata.js` covers 10 guide routes; `public/data/guides-content.json` contains content for the same 10 guide routes.
+- `functions/_route-metadata.js` covers 12 guide routes; `public/data/guides-content.json` contains content for the same 12 guide routes.
 - `wrangler.toml` has active `DEMAND_DB` only; placeholder D1 blocks are gone.
 - Smoke test wording for the safe "does not compare" live-prices disclaimer is already allowed by the current smoke script.
 - `CLEANUP_AUDIT.md` is accepted as a reference audit, not the active backlog.
+- Tracked `.DS_Store` cleanup is done (commit `12df8d3`); `.gitignore` already ignores `.DS_Store`.
+- SeatGeek promo-code guide is live at `/guides/seatgeek-promo-code-guide` with conservative verified-only content.
+- P0.1 raw-HTML routing/canonical proof passed locally on 17 representative routes (2026-05-19); production confirmation remains pending a non-blocked network.

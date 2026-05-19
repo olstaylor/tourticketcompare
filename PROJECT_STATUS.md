@@ -15,9 +15,8 @@ Current repo facts checked on 2026-05-14:
 - `functions/_route-metadata.js` is the source of truth for public route titles, descriptions, H1s, guide routes, and old-guide redirects.
 - `public/data/catalog.json` currently contains 7 artists and 0 tour records.
 - `public/data/events.json` currently contains 130 events, all with Ticketmaster URLs; 93 records contain stored SeatGeek event URLs.
-- `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 10 guide routes.
+- `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 12 guide routes.
 - `wrangler.toml` has one active D1 binding, `DEMAND_DB`; stale placeholder `RATE_LIMIT_DB` and `CLICKS_DB` bindings are no longer present.
-- `functions/.DS_Store` is still tracked and should be removed in a housekeeping-only task.
 
 ## Runtime and routing facts
 
@@ -35,7 +34,7 @@ Supported:
 
 - Homepage and trust/legal pages.
 - Artist index plus 7 artist pages: Beyoncé, Harry Styles, BTS, Ariana Grande, Bad Bunny, Morgan Wallen, and JAY-Z.
-- 10 guide pages with server-rendered guide content.
+- 12 guide pages with server-rendered guide content (including SeatGeek promo-code guide).
 - Verified Ticketmaster links where configured.
 - Stored event-level SeatGeek URLs in event data, gated by SeatGeek configuration and safe URL checks before public CTAs render.
 - First-party analytics and signup writes through `DEMAND_DB` where bindings are available.
@@ -88,10 +87,6 @@ The current product depends on conservative link behavior. Ticketmaster and Seat
 ### P1 — SeatGeek expansion must remain data-first and redirect-safe
 
 The dataset now contains many stored SeatGeek event URLs. Public SeatGeek CTAs should remain hidden unless the URL is stored, validated, and the SeatGeek affiliate/configuration path is available. `/api/out` must not search SeatGeek at click time.
-
-### P2 — tracked `.DS_Store` is still repository noise
-
-`functions/.DS_Store` is tracked. Removing it and ensuring `.DS_Store` is ignored is a safe housekeeping task, but it should be done separately and should not touch runtime behavior.
 
 ### Parked — provider scaffold and legacy deployment decisions
 

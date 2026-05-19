@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-19 (P0 raw-HTML routing proven locally)
+Last updated: 2026-05-19 (P0 raw-HTML routing proven locally; two new guides shipped)
 
 This file is the current-state source of truth. Use `BACKLOG.md` for prioritised tasks, `HANDOVER.md` for the short session handoff, and `docs/ISSUE_DRAFTS.md` for copy/paste GitHub issue drafts.
 
@@ -15,7 +15,7 @@ Current repo facts checked on 2026-05-14:
 - `functions/_route-metadata.js` is the source of truth for public route titles, descriptions, H1s, guide routes, and old-guide redirects.
 - `public/data/catalog.json` currently contains 7 artists and 0 tour records.
 - `public/data/events.json` currently contains 130 events, all with Ticketmaster URLs; 93 records contain stored SeatGeek event URLs.
-- `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 12 guide routes.
+- `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 14 guide routes.
 - `wrangler.toml` has one active D1 binding, `DEMAND_DB`; stale placeholder `RATE_LIMIT_DB` and `CLICKS_DB` bindings are no longer present.
 
 ## Runtime and routing facts
@@ -34,7 +34,7 @@ Supported:
 
 - Homepage and trust/legal pages.
 - Artist index plus 7 artist pages: Beyoncé, Harry Styles, BTS, Ariana Grande, Bad Bunny, Morgan Wallen, and JAY-Z.
-- 12 guide pages with server-rendered guide content (including SeatGeek promo-code guide).
+- 14 guide pages with server-rendered guide content (including SeatGeek promo-code guide, onsale-prep, and reading-a-listing).
 - Verified Ticketmaster links where configured.
 - Stored event-level SeatGeek URLs in event data, gated by SeatGeek configuration and safe URL checks before public CTAs render.
 - First-party analytics and signup writes through `DEMAND_DB` where bindings are available.

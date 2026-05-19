@@ -18,7 +18,9 @@ const STATIC_INDEXABLE_PATHS = [
   "/guides/how-resale-ticket-pricing-works",
   "/guides/ticket-delivery-and-transfer-timing",
   "/guides/concert-ticket-fees-explained",
-  "/guides/seatgeek-promo-code-guide"
+  "/guides/seatgeek-promo-code-guide",
+  "/guides/how-to-prepare-for-a-ticket-onsale",
+  "/guides/how-to-read-a-ticket-listing"
 ];
 
 const FALLBACK_ARTIST_SLUGS = ["beyonce", "harry-styles", "bts", "ariana-grande", "bad-bunny", "morgan-wallen", "jay-z"];

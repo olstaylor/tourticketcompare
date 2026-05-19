@@ -144,6 +144,20 @@ export const GUIDE_ROUTES = {
     description:
       "Understand resale ticket pricing by reviewing seller-set prices, fees, seat details, delivery timing, and provider terms before checkout.",
     fullContent: true
+  },
+  "/guides/how-to-prepare-for-a-ticket-onsale": {
+    title: "How to Prepare for a Concert Ticket Onsale | TourTicketCompare",
+    h1: "How do I prepare for a concert ticket onsale?",
+    description:
+      "Practical pre-onsale and onsale-day routine for major concert tickets, covering presales, account setup, queues, listing checks, and what to do if you miss out.",
+    fullContent: true
+  },
+  "/guides/how-to-read-a-ticket-listing": {
+    title: "How to Read a Concert Ticket Listing | TourTicketCompare",
+    h1: "How do I read a concert ticket listing?",
+    description:
+      "Learn how to read concert ticket listings by checking section, row, seat, listing notes, ticket type, delivery method, and cross-checks before checkout.",
+    fullContent: true
   }
 };
 

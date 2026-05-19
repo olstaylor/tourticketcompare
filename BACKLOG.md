@@ -8,7 +8,7 @@ This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-stat
 
 1. ~~Prove raw HTML routing/canonical behavior for public routes.~~ **Done locally 2026-05-19** (see P0.1). Still pending: confirm the same against live production once a non-blocked network is available.
 2. ~~Build a safe SeatGeek promo code guide.~~ **Already shipped** — `/guides/seatgeek-promo-code-guide` is live with route metadata, server-rendered content, sitemap entry, and `/guides` index card (verified locally 2026-05-19).
-3. **Add a safe ticket-buying guide cluster** beyond what already exists. Twelve guides are live; identify the next 1–3 evergreen topics that don't duplicate existing pages (e.g. how to read a ticket listing, what to do if an event is postponed/cancelled). Content-only; safe rules apply.
+3. **Add a safe ticket-buying guide cluster** — partial. Onsale-prep and reading-a-listing shipped 2026-05-19; the cancelled/postponed guide is still a strong next candidate. Content-only; safe rules apply.
 4. **Continue verified SeatGeek URL coverage without changing redirect logic.** Review/apply only verified event-level URLs through the existing data workflow; do not alter `/api/out`.
 5. ~~Remove tracked `.DS_Store`.~~ **Already done** in `12df8d3` ("Remove tracked macOS metadata files"); `.gitignore` already covers `.DS_Store`. No tracked DS_Store files remain.
 
@@ -105,7 +105,7 @@ These are intentionally not implementation tasks until explicitly scoped:
 
 - Cloudflare Pages Functions is the active production architecture in current docs.
 - `functions/_middleware.js` documents that named route shims are fallback-only while middleware is active.
-- `functions/_route-metadata.js` covers 12 guide routes; `public/data/guides-content.json` contains content for the same 12 guide routes.
+- `functions/_route-metadata.js` covers 14 guide routes; `public/data/guides-content.json` contains content for the same 14 guide routes.
 - `wrangler.toml` has active `DEMAND_DB` only; placeholder D1 blocks are gone.
 - Smoke test wording for the safe "does not compare" live-prices disclaimer is already allowed by the current smoke script.
 - `CLEANUP_AUDIT.md` is accepted as a reference audit, not the active backlog.

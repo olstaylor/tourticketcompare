@@ -1,12 +1,12 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-05-14
+Last updated: 2026-05-19
 
 This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-state source of truth; `CLEANUP_AUDIT.md` is a reference audit, not the active task list.
 
 ## Recommended next 5 Codex-sized tasks
 
-1. **Prove and, only if needed, fix raw HTML routing/canonical behavior for public routes.** Keep the scope to status/canonical/H1/body/noindex checks and the smallest necessary routing fix.
+1. ~~Prove raw HTML routing/canonical behavior for public routes.~~ **Done locally 2026-05-19** (see P0.1). Still pending: confirm the same against live production once a non-blocked network is available.
 2. **Build a safe SeatGeek promo code guide.** Content-only unless metadata/sitemap wiring is explicitly needed; avoid claiming a working discount unless verified.
 3. **Add a safe ticket-buying guide cluster.** Publish practical guidance without invented prices, availability, providers, or live comparison claims.
 4. **Continue verified SeatGeek URL coverage without changing redirect logic.** Review/apply only verified event-level URLs through the existing data workflow; do not alter `/api/out`.
@@ -14,18 +14,11 @@ This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-stat
 
 ## P0 — blocking or trust-breaking
 
-### P0.1 Prove/fix raw HTML routing and canonical metadata for public non-root routes
+### P0.1 Prove/fix raw HTML routing and canonical metadata for public non-root routes — DONE (2026-05-19, local proof)
 
-**Why:** SEO growth depends on crawlers receiving the correct server-rendered status, canonical, title, H1, body content, redirects, and 404/noindex behavior without depending on client-side JavaScript.
+**Result:** All 17 representative routes inspected in local Pages preview return correct server-rendered status, canonical (self-referencing on 200s, absent on 404s), title, H1, body content, JSON-LD, old-guide 301 redirects, and 404+noindex behavior without relying on client-side JavaScript. No mismatch found; no code fix made. See `PROJECT_STATUS.md` § "P0 — raw HTML routing/canonical proof" for evidence detail.
 
-**Scope:**
-- Inspect representative raw HTML responses for `/artists`, one artist page, `/guides`, one guide page, a trust page, an old guide redirect, an unknown artist, and an unknown route.
-- If a mismatch is found, make the smallest safe fix in routing/metadata only.
-- Do not touch provider redirects, affiliate behavior, CTA generation, data files, SeatGeek redirects, or diagnostic routes.
-
-**Checks:**
-- `git diff --check`
-- If runtime code is touched: `node --check 'functions/[[path]].js'`, `node --check functions/_middleware.js`, and `node scripts/smoke-prelaunch.mjs`.
+**Still pending:** confirming the same behavior against live production (`docs/LIVE_PRODUCTION_VERIFICATION.md` § Remaining Unverified Items) — requires a non-blocked network.
 
 ### P0.2 Preserve verified ticket-link trust
 

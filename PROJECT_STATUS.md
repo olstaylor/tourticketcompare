@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-14 (documentation reconciliation)
+Last updated: 2026-05-19 (P0 raw-HTML routing proven locally; two new guides shipped)
 
 This file is the current-state source of truth. Use `BACKLOG.md` for prioritised tasks, `HANDOVER.md` for the short session handoff, and `docs/ISSUE_DRAFTS.md` for copy/paste GitHub issue drafts.
 
@@ -15,9 +15,8 @@ Current repo facts checked on 2026-05-14:
 - `functions/_route-metadata.js` is the source of truth for public route titles, descriptions, H1s, guide routes, and old-guide redirects.
 - `public/data/catalog.json` currently contains 7 artists and 0 tour records.
 - `public/data/events.json` currently contains 130 events, all with Ticketmaster URLs; 93 records contain stored SeatGeek event URLs.
-- `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 10 guide routes.
+- `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 14 guide routes.
 - `wrangler.toml` has one active D1 binding, `DEMAND_DB`; stale placeholder `RATE_LIMIT_DB` and `CLICKS_DB` bindings are no longer present.
-- `functions/.DS_Store` is still tracked and should be removed in a housekeeping-only task.
 
 ## Runtime and routing facts
 
@@ -35,7 +34,7 @@ Supported:
 
 - Homepage and trust/legal pages.
 - Artist index plus 7 artist pages: Beyoncé, Harry Styles, BTS, Ariana Grande, Bad Bunny, Morgan Wallen, and JAY-Z.
-- 10 guide pages with server-rendered guide content.
+- 14 guide pages with server-rendered guide content (including SeatGeek promo-code guide, onsale-prep, and reading-a-listing).
 - Verified Ticketmaster links where configured.
 - Stored event-level SeatGeek URLs in event data, gated by SeatGeek configuration and safe URL checks before public CTAs render.
 - First-party analytics and signup writes through `DEMAND_DB` where bindings are available.
@@ -68,11 +67,18 @@ Product guardrails:
 
 ## Active risks
 
-### P0 — raw HTML routing/canonical proof is still the highest-value next task
+### P0 — raw HTML routing/canonical proof: PROVEN LOCALLY (2026-05-19)
 
-The repo appears designed to server-render public non-root routes through Pages Functions, but the next task should prove the raw HTTP response for representative non-root public routes in local Pages preview or production before further SEO expansion. The check must verify title, canonical, H1/body content, status code, redirects, and 404/noindex behavior without relying on client-side JavaScript.
+Proven in local Pages preview (`npm run dev`) against 17 representative routes: homepage, `/artists`, two artist pages (Beyoncé, Harry Styles), `/guides`, two guide pages, five trust/legal pages, three old-guide redirects, and two unknown routes (artist and top-level).
 
-If the proof finds a mismatch, fix only the minimal routing/canonical issue. Do not change affiliate redirects, provider URL logic, CTA generation, data, or unrelated rendering.
+Raw HTTP responses confirmed without relying on client-side JavaScript:
+
+- All public routes return 200 with route-specific server-injected `<title>`, self-referencing `<link rel="canonical">`, page-specific `<h1>`, and `robots: index,follow,max-image-preview:large`.
+- `<main>` bodies are server-rendered (Beyoncé artist page: 3,224 chars of visible text; guide page: 8,644 chars; JSON-LD present).
+- All three old-guide slugs return 301 to their new canonicals (`compare-ticket-prices-safely` → `how-to-compare-concert-ticket-prices`, `why-ticket-prices-vary` → `why-ticket-prices-change`, `avoid-overpaying-concert-tickets` → `how-to-avoid-overpaying-for-concert-tickets`).
+- Unknown routes (`/artists/nonexistent-artist-xyz`, `/random-route-xyzabc`) return HTTP 404 with `robots: noindex,follow`.
+
+No mismatch found; no routing/metadata fix required. Production live-route browser confirmation (`docs/LIVE_PRODUCTION_VERIFICATION.md` § Remaining Unverified Items) remains pending and still requires a non-blocked network.
 
 ### P1 — verified ticket-link trust must remain protected
 
@@ -81,10 +87,6 @@ The current product depends on conservative link behavior. Ticketmaster and Seat
 ### P1 — SeatGeek expansion must remain data-first and redirect-safe
 
 The dataset now contains many stored SeatGeek event URLs. Public SeatGeek CTAs should remain hidden unless the URL is stored, validated, and the SeatGeek affiliate/configuration path is available. `/api/out` must not search SeatGeek at click time.
-
-### P2 — tracked `.DS_Store` is still repository noise
-
-`functions/.DS_Store` is tracked. Removing it and ensuring `.DS_Store` is ignored is a safe housekeeping task, but it should be done separately and should not touch runtime behavior.
 
 ### Parked — provider scaffold and legacy deployment decisions
 

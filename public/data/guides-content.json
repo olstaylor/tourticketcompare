@@ -557,5 +557,76 @@
         "content": "Only buy when delivery timing and transfer terms are clear enough for your plans. Final delivery rules are confirmed on the provider checkout page."
       }
     ]
+  },
+  "/guides/how-to-prepare-for-a-ticket-onsale": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Onsale day for a major tour can be high-traffic and competitive. Preparation cannot promise a successful order, but it does reduce avoidable mistakes that lose access to inventory before checkout completes.\n\nTourTicketCompare does not run onsales, control queue mechanics, or guarantee that tickets will be available. Final inventory, queue order, prices, and fees are decided by the ticket provider. This guide explains a practical pre-onsale and onsale-day routine."
+      },
+      {
+        "type": "section",
+        "title": "Before Onsale Day",
+        "content": "- Check whether the tour uses a Verified Fan or fan-registration process and register on time if required.\n- Confirm the artist's official channels (their site or verified social accounts) for the correct onsale time, presale codes, and the official ticket provider for each show.\n- Set up your provider account in advance: confirmed email, current phone number for verification, a saved payment method, and your billing address.\n- For transfer-locked tickets, check that your account name and ID details match how you intend to enter the venue.\n- Note the onsale time in your own timezone so you are not early or late by an hour."
+      },
+      {
+        "type": "section",
+        "title": "Understanding Your Presale Options",
+        "content": "Presales can include artist fan-club, credit-card holder, venue, radio, and Verified Fan presales. Each has its own access window, code, and inventory pool. Eligibility, codes, and inventory are controlled by the provider; a code that is shared publicly online does not prove it currently works for your event. Check the artist's official announcement for which presales apply to your show and how to access them."
+      },
+      {
+        "type": "section",
+        "title": "Onsale-Day Routine",
+        "content": "- Use one device and one browser window. Multiple sessions can trigger anti-bot controls.\n- Use a stable internet connection where possible.\n- Open the provider's queue page a few minutes before the listed start time and do not refresh once you are in the queue.\n- Know two or three seating areas you would accept, in order, so you can choose quickly.\n- Read the listing details before confirming: section, row or area, quantity, delivery method, and the full checkout total including fees.\n- Complete checkout within the timer. Abandoned carts release inventory back into the queue."
+      },
+      {
+        "type": "section",
+        "title": "If You Do Not Get Tickets in the Onsale",
+        "content": "Missing the initial onsale is common. Official resale on the original provider often opens later, sometimes at the original price. Verified resale marketplaces may list tickets too, but listing details and the final checkout total should be checked carefully. Avoid sellers on social media or messaging apps who ask for direct payment outside a verified platform."
+      },
+      {
+        "type": "section",
+        "title": "Important Limits",
+        "content": "TourTicketCompare does not control onsale timing, presale eligibility, queue order, inventory, prices, or fees. Provider terms and venue rules apply at checkout and at entry. Confirm everything on the provider's current pages before you commit to a purchase."
+      }
+    ]
+  },
+  "/guides/how-to-read-a-ticket-listing": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Ticket listings on different providers can look similar but use slightly different labels for seating, ticket type, delivery, and listing notes. Reading a listing carefully before checkout helps you avoid surprises that are hard to fix after purchase.\n\nThis guide explains what to look for. TourTicketCompare does not control how providers label their listings; final details, fees, and terms are confirmed on the provider site at checkout."
+      },
+      {
+        "type": "section",
+        "title": "Section, Row, and Seat",
+        "content": "Most listings show a section, a row label, and seat numbers. Row labels are not always alphabetical from the front. Venues sometimes use double letters such as AA or BB, codes such as FL for floor, or arena-specific names. Section names can also be venue-specific. Before clicking buy, cross-check the seat against the provider's seat map for that exact venue rather than relying on assumptions about layout."
+      },
+      {
+        "type": "section",
+        "title": "Listing Notes to Take Seriously",
+        "content": "Providers may add short notes to a listing, such as limited view, obstructed view, side stage, behind stage, partial view, or rear stage. These notes mean the view of the stage or screens is restricted in some way and are not always reflected in the seat-map colour. Treat them as the listing's most important detail and decide whether you accept the trade-off before paying."
+      },
+      {
+        "type": "section",
+        "title": "Ticket Type Indicators",
+        "content": "Listings often label whether a ticket is primary (originally issued by the venue or official platform), official resale, third-party resale, dynamically priced (provider-set premium pricing such as platinum), or part of a package. Each type has different rules for fees, transfers, refunds, and entry. The label is shown for a reason; read the linked terms before committing."
+      },
+      {
+        "type": "section",
+        "title": "Delivery and Transfer Indicators",
+        "content": "Common delivery indicators include mobile transfer, instant download, delayed delivery, shipped, and will-call. Each affects when and how you receive the ticket. Delayed delivery is common for major tours: the ticket is not sent until closer to the event date. Check that the timing fits your travel and entry plans, especially if you are flying in, buying as a gift, or attending with a group."
+      },
+      {
+        "type": "section",
+        "title": "Cross-Checks Before You Buy",
+        "content": "- The listing's event date, venue, city, and artist match the show you intend.\n- Quantity matches your group.\n- Any listing note is acceptable to you.\n- Ticket type and delivery method are acceptable for your timing.\n- The full checkout total, including all fees, is within your budget.\n- The provider's terms for this exact order, including refund and transfer rules, are readable before payment."
+      },
+      {
+        "type": "section",
+        "title": "Important Limits",
+        "content": "TourTicketCompare does not control listing details, seat map data, ticket-type labels, fees, or delivery rules. Final order details are confirmed on the provider site. If a listing detail is unclear, treat that as a reason to slow down, not a reason to buy."
+      }
+    ]
   }
 }

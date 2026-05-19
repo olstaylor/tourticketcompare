@@ -129,7 +129,7 @@
       {
         "type": "section",
         "title": "Conclusion",
-        "content": "Ticket scams are common, but they are preventable. Use verified platforms, verify seller information, check URLs carefully, and avoid pressure tactics or unusual payment methods. If something feels off, trust your instinct — the ticket will still be available elsewhere, and it is not worth the risk of losing money to a scammer."
+        "content": "Ticket scams are common, but they are preventable. Use verified platforms, verify seller information, check URLs carefully, and avoid pressure tactics or unusual payment methods. If something feels off, trust your instinct \u2014 the ticket will still be available elsewhere, and it is not worth the risk of losing money to a scammer."
       }
     ]
   },
@@ -303,7 +303,7 @@
       {
         "type": "section",
         "title": "Conclusion",
-        "content": "Resale ticket pricing reflects supply, demand, seller motivation, seat details, delivery timing, and platform fees. Early resale listings can carry high markups, while later listings may change as sellers adjust—but neither direction is guaranteed.\n\nUse official sources where available, review resale listings carefully, and confirm final total, delivery method, buyer protection, refund, transfer, and cancellation terms before buying."
+        "content": "Resale ticket pricing reflects supply, demand, seller motivation, seat details, delivery timing, and platform fees. Early resale listings can carry high markups, while later listings may change as sellers adjust\u2014but neither direction is guaranteed.\n\nUse official sources where available, review resale listings carefully, and confirm final total, delivery method, buyer protection, refund, transfer, and cancellation terms before buying."
       }
     ]
   },
@@ -471,6 +471,90 @@
         "type": "section",
         "title": "Which should you choose?",
         "content": "**Consider primary or official resale when:**\n- The platform is named by official event sources\n- The ticket type, seat details, final total, delivery method, and provider terms work for your plans\n- You want to start with the authorised ticketing path before checking marketplace resale\n\n**Consider marketplace resale only after extra checks when:**\n- You understand it is seller-set inventory\n- The listing clearly shows event, seat, delivery, transfer, and provider terms\n- The current final total fits your budget and risk tolerance\n\nIn both cases, confirm the final checkout total, verify the seat section, and read refund, cancellation, delivery, and transfer terms before committing."
+      }
+    ]
+  },
+  "/guides/seatgeek-promo-code-guide": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "SeatGeek promo code searches are common, but promo eligibility can vary by account, event, order total, geography, payment method, and current platform terms. This guide explains how to check promo claims carefully without assuming a code will work.\n\nTourTicketCompare does not publish unverified promo codes, guarantee discounts, or control provider checkout outcomes. Final code eligibility, savings amount, fees, availability, and terms are confirmed on SeatGeek during checkout."
+      },
+      {
+        "type": "section",
+        "title": "How to Verify a SeatGeek Promo Claim Safely",
+        "content": "1. Start from SeatGeek's official app or website.\n2. Confirm the event, seat details, and ticket type you actually want.\n3. Enter the code exactly as shown (capitalization/spaces can matter).\n4. Review any code message shown by SeatGeek before paying.\n5. Compare the final checkout total with and without the code where possible.\n6. Confirm fees, taxes, delivery, and transfer terms before placing the order."
+      },
+      {
+        "type": "section",
+        "title": "Common Reasons a Promo Code May Not Apply",
+        "content": "Promo codes may fail for many normal reasons, including first-order limits, minimum spend, excluded events, excluded ticket types, account restrictions, expiration, region limits, or one-time-use limits. A code being visible online does not prove it is currently valid for your order."
+      },
+      {
+        "type": "section",
+        "title": "Checkout Checklist Before You Buy",
+        "content": "- Confirm artist, date, venue, and city.\n- Confirm section/row or listing details where shown.\n- Review final total after any code and all fees.\n- Check delivery timing and transfer method.\n- Read SeatGeek's current refund/cancellation and buyer terms for your order.\n- Save your order confirmation and support links."
+      },
+      {
+        "type": "section",
+        "title": "Important Limits",
+        "content": "TourTicketCompare is an independent research site. We do not guarantee promo availability, discount size, inventory, or final checkout totals. SeatGeek controls promo eligibility and order terms at checkout."
+      }
+    ]
+  },
+  "/guides/concert-ticket-fees-explained": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Ticket buyers often compare the first number they see and only later notice added charges. This guide explains common fee categories and how to compare totals carefully before purchase."
+      },
+      {
+        "type": "section",
+        "title": "Fee Types You May See",
+        "content": "Depending on provider and event, checkout may include service fees, order processing fees, facility charges, delivery charges, taxes, and currency conversion. Names and amounts can vary by provider and order."
+      },
+      {
+        "type": "section",
+        "title": "Compare the Final Total, Not Only Headline Price",
+        "content": "Use the same checklist for each option: event details, ticket type, seat location, quantity, all fees shown, delivery method, and final total. If you cannot view a clear final total, pause before buying."
+      },
+      {
+        "type": "section",
+        "title": "Questions to Ask Before Checkout",
+        "content": "- Which charges are mandatory versus optional?\n- Is delivery method acceptable for your timing?\n- Are refund/cancellation terms clear for this exact order?\n- Does the current total still fit your budget?"
+      },
+      {
+        "type": "section",
+        "title": "Conclusion",
+        "content": "A safer buying decision comes from comparing complete checkout totals and terms, not just listing prices. Confirm current details on the provider site each time."
+      }
+    ]
+  },
+  "/guides/ticket-delivery-and-transfer-timing": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Delivery timing can matter as much as price. Some tickets transfer instantly, while others may be delayed until closer to event day. This guide helps you check delivery timing before paying."
+      },
+      {
+        "type": "section",
+        "title": "Common Delivery Methods",
+        "content": "Providers may use mobile app delivery, account transfer, email delivery, venue pickup, or shipping. The method can differ by event, seller type, and ticket category."
+      },
+      {
+        "type": "section",
+        "title": "Why Timing Risks Happen",
+        "content": "Delays can occur when transfer windows open later, seller fulfilment is pending, or event rules require closer-to-show delivery. These situations are not always a scam, but they increase planning risk for travel and group entry."
+      },
+      {
+        "type": "section",
+        "title": "Pre-Purchase Timing Checklist",
+        "content": "- Check the estimated delivery window.\n- Confirm whether all tickets in the order transfer together.\n- Read provider terms on non-delivery and support options.\n- Make sure timing works for your travel plans."
+      },
+      {
+        "type": "section",
+        "title": "Conclusion",
+        "content": "Only buy when delivery timing and transfer terms are clear enough for your plans. Final delivery rules are confirmed on the provider checkout page."
       }
     ]
   }

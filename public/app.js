@@ -647,7 +647,95 @@ function renderSearchResults(container, results, query) {
   });
 }
 
-function renderSearchWidget() {
+function attachSearchBehavior(input, resultsContainer) {
+  let debounceTimer;
+  let eventsData = [];
+  let eventsLoaded = false;
+
+  const runSearch = async () => {
+    const query = input.value;
+    if (normalizeQuery(query).length < 2) {
+      resultsContainer.replaceChildren();
+      return;
+    }
+
+    if (!eventsLoaded) {
+      eventsData = await loadEventsForSearch();
+      eventsLoaded = true;
+    }
+
+    const matchedArtists = (catalog.artists || [])
+      .filter((a) => matchesQuery(query, a.name, ...(a.genres || [])))
+      .slice(0, 5);
+
+    const matchedEvents = sortEventsForSearch(eventsData)
+      .filter((e) => matchesQuery(query, e.event_name, e.city, e.venue, e.artist_name, e.tour_name))
+      .slice(0, 6);
+
+    const matchedGuides = guidePages
+      .filter((g) =>
+        matchesQuery(query, g.h1, g.title, g.description, ...(g.sections || []).map(([h]) => h))
+      )
+      .slice(0, 5);
+
+    renderSearchResults(
+      resultsContainer,
+      { artists: matchedArtists, events: matchedEvents, guides: matchedGuides },
+      query
+    );
+  };
+
+  input.addEventListener("input", () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(runSearch, 400);
+  });
+
+  return runSearch;
+}
+
+function renderHeroSearchForm(resultsContainer) {
+  const form = document.createElement("form");
+  form.className = "hero-search-form";
+  form.setAttribute("role", "search");
+  form.setAttribute("aria-label", "Search artists, events, and guides");
+
+  const labelEl = document.createElement("label");
+  labelEl.htmlFor = "site-search";
+  labelEl.className = "sr-only";
+  labelEl.textContent = "Search by artist, city, or venue";
+
+  const input = document.createElement("input");
+  input.type = "search";
+  input.id = "site-search";
+  input.name = "q";
+  input.className = "hero-search-input";
+  input.placeholder = "Search by artist, city, or venue";
+  input.setAttribute("aria-label", "Search by artist, city, or venue");
+  input.setAttribute("autocomplete", "off");
+  input.setAttribute("spellcheck", "false");
+  input.setAttribute("enterkeyhint", "search");
+
+  const submit = document.createElement("button");
+  submit.type = "submit";
+  submit.className = "button button-primary hero-search-submit";
+  submit.textContent = "Search";
+
+  form.append(labelEl, input, submit);
+
+  const runSearch = attachSearchBehavior(input, resultsContainer);
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    runSearch();
+    const target = document.getElementById("search-widget");
+    if (target && normalizeQuery(input.value).length >= 2) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  });
+
+  return form;
+}
+
+function renderSearchResultsPanel() {
   const section = document.createElement("section");
   section.id = "search-widget";
   section.className = "section-grid search-section";
@@ -655,34 +743,12 @@ function renderSearchWidget() {
 
   const header = document.createElement("div");
   header.className = "section-intro";
-  text(header, "h2", "Search artists, events, and guides").id = "searchSectionTitle";
+  text(header, "h2", "Search results").id = "searchSectionTitle";
   text(
     header,
     "p",
-    "Search what has been added to our verified dataset. We only surface artists, events, and guides that have been checked and published."
+    "We only surface artists, events, and guides that have been checked and published. Start typing in the search field above."
   );
-
-  const form = document.createElement("form");
-  form.className = "search-form";
-  form.setAttribute("role", "search");
-  form.addEventListener("submit", (e) => e.preventDefault());
-
-  const labelEl = document.createElement("label");
-  labelEl.htmlFor = "site-search";
-  labelEl.className = "search-label";
-  labelEl.textContent = "Search";
-
-  const input = document.createElement("input");
-  input.type = "search";
-  input.id = "site-search";
-  input.name = "q";
-  input.className = "search-input";
-  input.placeholder = "Artist name, city, venue, or guide topic";
-  input.setAttribute("aria-label", "Search artists, events, and guides");
-  input.setAttribute("autocomplete", "off");
-  input.setAttribute("spellcheck", "false");
-
-  form.append(labelEl, input);
 
   const resultsContainer = document.createElement("div");
   resultsContainer.className = "search-results";
@@ -691,46 +757,8 @@ function renderSearchWidget() {
   resultsContainer.setAttribute("aria-live", "polite");
   resultsContainer.setAttribute("aria-atomic", "false");
 
-  let debounceTimer;
-  let eventsData = [];
-  let eventsLoaded = false;
-
-  const onSearchInput = async () => {
-    clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(async () => {
-      const query = input.value;
-      if (normalizeQuery(query).length < 2) {
-        resultsContainer.replaceChildren();
-        return;
-      }
-
-      if (!eventsLoaded) {
-        eventsData = await loadEventsForSearch();
-        eventsLoaded = true;
-      }
-
-      const matchedArtists = (catalog.artists || [])
-        .filter((a) => matchesQuery(query, a.name, ...(a.genres || [])))
-        .slice(0, 5);
-
-      const matchedEvents = sortEventsForSearch(eventsData)
-        .filter((e) => matchesQuery(query, e.event_name, e.city, e.venue, e.artist_name, e.tour_name))
-        .slice(0, 6);
-
-      const matchedGuides = guidePages
-        .filter((g) =>
-          matchesQuery(query, g.h1, g.title, g.description, ...(g.sections || []).map(([h]) => h))
-        )
-        .slice(0, 5);
-
-      renderSearchResults(resultsContainer, { artists: matchedArtists, events: matchedEvents, guides: matchedGuides }, query);
-    }, 400);
-  };
-
-  input.addEventListener("input", onSearchInput);
-
-  section.append(header, form, resultsContainer);
-  return section;
+  section.append(header, resultsContainer);
+  return { section, resultsContainer };
 }
 
 // --- End site search ---
@@ -790,11 +818,11 @@ function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Find verified ticket links and buying guidance for major tours", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Find verified ticket links for major tours", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
-    "Find checked links to ticket providers, read practical buying guidance, and confirm final prices and fees on the provider site. We do not compare live prices.",
+    "Hand-checked ticket links and clear buying guidance for major tours. No fake listings, no scraped prices, no invented availability.",
     "hero-subcopy"
   );
   text(
@@ -803,9 +831,13 @@ function renderHome() {
     "Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.",
     "disclosure-note"
   );
+
+  const { section: resultsSection, resultsContainer } = renderSearchResultsPanel();
+  copy.append(renderHeroSearchForm(resultsContainer));
+
   const actions = document.createElement("div");
   actions.className = "action-row";
-  const browseCta = buttonLink("Browse artists", "#featured-artists", "primary");
+  const browseCta = buttonLink("Browse artists", "#featured-artists", "secondary");
   browseCta.addEventListener("click", (event) => {
     const target = document.getElementById("featured-artists");
     if (target) {
@@ -813,19 +845,7 @@ function renderHome() {
       target.scrollIntoView({ behavior: "smooth" });
     }
   });
-  actions.append(browseCta, buttonLink("Search events", "#search-widget", "secondary"));
-  const searchLink = actions.querySelector('a[href="#search-widget"]');
-  if (searchLink) {
-    searchLink.addEventListener("click", (event) => {
-      const target = document.getElementById("search-widget");
-      if (target) {
-        event.preventDefault();
-        target.scrollIntoView({ behavior: "smooth" });
-        const input = target.querySelector('input[type="search"]');
-        if (input) input.focus();
-      }
-    });
-  }
+  actions.append(browseCta, buttonLink("Read buying guides", "/guides", "secondary"));
   copy.append(actions);
   hero.append(copy);
 
@@ -844,7 +864,7 @@ function renderHome() {
   });
   artists.append(artistHeader, grid);
 
-  main.replaceChildren(hero, renderSearchWidget(), renderWhatYouCanDo(), artists, renderGuidePreview(), renderTrustSection());
+  main.replaceChildren(hero, resultsSection, renderWhatYouCanDo(), artists, renderGuidePreview(), renderTrustSection());
 }
 
 function renderArtistCard(artist) {

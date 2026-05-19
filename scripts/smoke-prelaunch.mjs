@@ -8,7 +8,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/c
 const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Find verified ticket links and buying guidance for major tours"],
+  ["/", "Find verified ticket links for major tours"],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -289,7 +289,7 @@ const publicAffiliateUrlFiles = [
 
 const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Find verified ticket links and buying guidance for major tours"),
+  joinedPublic.includes("Find verified ticket links for major tours"),
   "homepage public-facing copy should be present"
 );
 await assertPublicCopySafe(publicCopyFiles);

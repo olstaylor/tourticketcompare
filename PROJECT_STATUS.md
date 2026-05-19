@@ -8,7 +8,7 @@ This file is the current-state source of truth. Use `BACKLOG.md` for prioritised
 
 TourTicketCompare is a Cloudflare Pages + Pages Functions ticket research site. It is useful today as an independent guide and verified-link directory, not as a live price comparison engine.
 
-Current repo facts checked on 2026-05-14:
+Current repo facts checked on 2026-05-19:
 
 - Production architecture is Pages Functions: static assets live in `public/`, server-side HTML/API logic lives in `functions/`, and there is no application build step.
 - `functions/_middleware.js` is the active HTML entry point and delegates non-asset, non-API routes to `functions/[[path]].js`.
@@ -94,7 +94,7 @@ Provider abstraction files, fallback catalog, Vercel artifacts, and standalone W
 
 ## Latest checks recorded in this documentation pass
 
-Documentation-only repo inspection was performed on 2026-05-14 using:
+Documentation-only repo inspection was performed on 2026-05-19 using:
 
 - `git status --short`
 - `rg --files -g '!node_modules'`

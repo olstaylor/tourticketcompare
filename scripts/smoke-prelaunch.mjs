@@ -3,7 +3,6 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const artistSlugs = ["beyonce", "harry-styles", "bts", "ariana-grande", "bad-bunny", "morgan-wallen", "jay-z", "olivia-rodrigo", "bruno-mars"];
 const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
 const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
@@ -57,6 +56,62 @@ async function read(relativePath) {
 
 async function readJson(relativePath) {
   return JSON.parse(await read(relativePath));
+}
+
+function normalizeSlug(value) {
+  return String(value || "").trim();
+}
+
+function duplicateValues(values) {
+  const counts = new Map();
+  for (const value of values) {
+    counts.set(value, (counts.get(value) || 0) + 1);
+  }
+  return [...counts.entries()].filter(([, count]) => count > 1).map(([value]) => value);
+}
+
+function missingValues(left, right) {
+  const rightSet = new Set(right);
+  return left.filter((value) => !rightSet.has(value));
+}
+
+async function deriveArtistSlugsFromData() {
+  const catalogPath = "public/data/catalog.json";
+  const artistsPath = "public/data/artists.json";
+  let catalog;
+  let artists;
+  try {
+    catalog = await readJson(catalogPath);
+  } catch (error) {
+    throw new Error(`failed to read ${catalogPath}: ${error.message}`);
+  }
+  try {
+    artists = await readJson(artistsPath);
+  } catch (error) {
+    throw new Error(`failed to read ${artistsPath}: ${error.message}`);
+  }
+
+  assert(Array.isArray(catalog?.artists), `${catalogPath} should contain an artists array`);
+  assert(Array.isArray(artists), `${artistsPath} should be an array`);
+
+  const catalogSlugs = catalog.artists.map((artist) => normalizeSlug(artist?.slug)).filter(Boolean);
+  const artistsSlugs = artists.map((artist) => normalizeSlug(artist?.slug)).filter(Boolean);
+  assert(catalogSlugs.length > 0, `${catalogPath} should contain at least one artist slug`);
+  assert(artistsSlugs.length > 0, `${artistsPath} should contain at least one artist slug`);
+
+  const duplicateCatalogSlugs = duplicateValues(catalogSlugs);
+  const duplicateArtistsSlugs = duplicateValues(artistsSlugs);
+  assert(duplicateCatalogSlugs.length === 0, `${catalogPath} has duplicate artist slugs: ${duplicateCatalogSlugs.join(", ")}`);
+  assert(duplicateArtistsSlugs.length === 0, `${artistsPath} has duplicate artist slugs: ${duplicateArtistsSlugs.join(", ")}`);
+
+  const inCatalogNotArtists = missingValues(catalogSlugs, artistsSlugs);
+  const inArtistsNotCatalog = missingValues(artistsSlugs, catalogSlugs);
+  assert(
+    inCatalogNotArtists.length === 0 && inArtistsNotCatalog.length === 0,
+    `artist slug drift between ${catalogPath} and ${artistsPath}; only in catalog: ${inCatalogNotArtists.join(", ") || "(none)"}, only in artists: ${inArtistsNotCatalog.join(", ") || "(none)"}`
+  );
+
+  return { artistSlugs: catalogSlugs, catalog };
 }
 
 async function fileExists(relativePath) {
@@ -343,7 +398,7 @@ for (const artistSlug of eventPartitionSlugs) {
     }
   }
 }
-const catalog = await readJson("public/data/catalog.json");
+const { artistSlugs, catalog } = await deriveArtistSlugsFromData();
 assert(Array.isArray(catalog.artists) && catalog.artists.length === artistSlugs.length, "catalog should expose the known artist routes");
 for (const slug of artistSlugs) {
   assert(catalog.artists.some((artist) => artist.slug === slug), `catalog missing artist ${slug}`);

@@ -874,12 +874,21 @@ function renderArtistCard(artist) {
   article.className = isPending ? "artist-card is-pending" : "artist-card";
   text(article, "h3", artist.name);
   text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
-  text(article, "p", isPending ? "No checked ticket link yet" : "Verified ticket pages", isPending ? "status-badge status-badge-muted" : "status-badge");
+  const statusRow = document.createElement("div");
+  statusRow.className = "artist-status-row";
+  text(
+    statusRow,
+    "p",
+    isPending ? "Guidance only" : "Event links available",
+    isPending ? "status-badge status-badge-muted" : "status-badge"
+  );
+  text(statusRow, "p", isPending ? "No checked event links yet" : "Checked event links", "status-chip-detail");
+  article.append(statusRow);
   text(
     article,
     "p",
     isPending
-      ? "We're still verifying a ticket link for this artist. The artist page covers buying guidance in the meantime."
+      ? "We're still verifying event links for this artist. The artist page covers buying guidance in the meantime."
       : "Artist pages show verified destinations. Event-specific buttons appear only on checked show cards.",
     "card-status"
   );

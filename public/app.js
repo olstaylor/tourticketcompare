@@ -822,14 +822,8 @@ function renderHome() {
   text(
     copy,
     "p",
-    "Hand-checked ticket links and clear buying guidance for major tours. No fake listings, no scraped prices, no invented availability.",
+    "Find hand-checked ticket links and clear buying guidance for major tours. Prices, fees, and availability are confirmed on the ticket provider site, not live on TourTicketCompare.",
     "hero-subcopy"
-  );
-  text(
-    copy,
-    "p",
-    "Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.",
-    "disclosure-note"
   );
 
   const { section: resultsSection, resultsContainer } = renderSearchResultsPanel();

@@ -119,6 +119,17 @@ def provider_link_value(event: dict[str, Any], provider: str, field: str) -> Any
         return None
     return provider_data.get(field)
 
+def extract_ticketmaster_event_path_id(url: str) -> str | None:
+    parsed = parse_url(url)
+    if parsed is None:
+        return None
+    segments = [segment for segment in (parsed.path or "").split("/") if segment]
+    for idx, segment in enumerate(segments[:-1]):
+        if segment.lower() == "event":
+            return unquote(segments[idx + 1]).strip() or None
+    return None
+
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate public/data/events.json")
@@ -315,6 +326,33 @@ def main() -> int:
             errors.append(f"{prefix}.provider_links.seatgeek.verified: cannot be true when provider_links.seatgeek.url is empty and top-level seatgeek_url is used")
         if provider_seatgeek_url not in (None, "") and provider_seatgeek_verified is True and isinstance(seatgeek_url, str) and seatgeek_url.strip() and provider_seatgeek_url.strip() != seatgeek_url.strip():
             errors.append(f"{prefix}.provider_links.seatgeek.verified: cannot be true for a URL that differs from top-level seatgeek_url")
+
+        if args.for_production:
+            ticketmaster_url = event.get("ticketmaster_url")
+            ticketmaster_event_id = event.get("ticketmaster_event_id")
+            if (
+                isinstance(ticketmaster_url, str)
+                and ticketmaster_url.strip()
+                and isinstance(ticketmaster_event_id, str)
+                and ticketmaster_event_id.strip()
+            ):
+                normalized_ticketmaster_url = ticketmaster_url.strip()
+                normalized_ticketmaster_event_id = ticketmaster_event_id.strip()
+                path_event_id = extract_ticketmaster_event_path_id(normalized_ticketmaster_url)
+                if path_event_id is not None:
+                    if path_event_id != normalized_ticketmaster_event_id and normalized_ticketmaster_event_id not in normalized_ticketmaster_url:
+                        errors.append(
+                            f"{prefix}.ticketmaster_event_id: event id '{event_id if isinstance(event_id, str) and event_id.strip() else f'index {i}'}', "
+                            f"artist_slug '{slug.strip() if isinstance(slug, str) else ''}', "
+                            f"ticketmaster_event_id '{normalized_ticketmaster_event_id}' must match /event/ segment '{path_event_id}' "
+                            f"or appear in ticketmaster_url '{normalized_ticketmaster_url}'"
+                        )
+                elif normalized_ticketmaster_event_id not in normalized_ticketmaster_url:
+                    errors.append(
+                        f"{prefix}.ticketmaster_event_id: event id '{event_id if isinstance(event_id, str) and event_id.strip() else f'index {i}'}', "
+                        f"artist_slug '{slug.strip() if isinstance(slug, str) else ''}', "
+                        f"ticketmaster_event_id '{normalized_ticketmaster_event_id}' must appear in ticketmaster_url '{normalized_ticketmaster_url}'"
+                    )
 
         if args.require_affiliate_urls:
             for url_field in ("ticketmaster_url", "seatgeek_url", "vividseats_url"):

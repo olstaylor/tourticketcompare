@@ -156,6 +156,30 @@ function rowIssues(row) {
   return issues;
 }
 
+function normalizeKeyPart(value, { stripPunctuation = false } = {}) {
+  let out = clean(value).toLowerCase();
+  if (!out) return "";
+  if (stripPunctuation) out = out.replace(/[.,'’"()\-_/]/g, " ");
+  return out.replace(/\s+/g, " ").trim();
+}
+
+function localDateFromIso(datetimeIso) {
+  const dt = clean(datetimeIso);
+  if (!dt) return "";
+  const m = dt.match(/^(\d{4}-\d{2}-\d{2})/);
+  return m ? m[1] : "";
+}
+
+function semanticDuplicateKey(row) {
+  return [
+    normalizeKeyPart(row.artist_slug),
+    normalizeKeyPart(row.venue, { stripPunctuation: true }),
+    normalizeKeyPart(row.city, { stripPunctuation: true }),
+    normalizeKeyPart(row.country, { stripPunctuation: true }),
+    localDateFromIso(row.datetime_iso)
+  ].join("||");
+}
+
 function unverifiedProviderStub() {
   return {
     event_id: null,
@@ -231,7 +255,22 @@ function planMerge(existingEvents, candidateRows) {
     else newRows.push(row);
     seenInBatch.add(id);
   }
-  return { validRows, invalidRows, newRows, duplicateRows };
+
+  const semanticDuplicateGroups = [];
+  const bySemanticKey = new Map();
+  for (const row of validRows) {
+    const key = semanticDuplicateKey(row);
+    if (!key) continue;
+    const bucket = bySemanticKey.get(key) || [];
+    bucket.push(row);
+    bySemanticKey.set(key, bucket);
+  }
+  for (const [key, rows] of bySemanticKey.entries()) {
+    const distinctIds = new Set(rows.map((row) => clean(row.id)).filter(Boolean));
+    if (rows.length > 1 && distinctIds.size > 1) semanticDuplicateGroups.push({ key, rows });
+  }
+
+  return { validRows, invalidRows, newRows, duplicateRows, semanticDuplicateGroups };
 }
 
 async function readJson(filePath) {
@@ -359,6 +398,21 @@ function runSelfTest() {
   ]);
   assert("duplicate id is skipped", plan.duplicateRows.length === 2 && plan.newRows.length === 1);
   assert("invalid row is excluded", plan.invalidRows.length === 1 && plan.newRows.every((r) => r.id !== "bad"));
+  const semanticDupePlan = planMerge([], [
+    { ...goodRow, id: "a1", venue: "Madison Square Garden", city: "New York", country: "US", datetime_iso: "2026-06-01T19:00:00-04:00" },
+    { ...goodRow, id: "a2", venue: "Madison  Square  Garden", city: "new york", country: "us", datetime_iso: "2026-06-01T00:00:00Z" }
+  ]);
+  assert("semantic duplicate with distinct ids is flagged", semanticDupePlan.semanticDuplicateGroups.length === 1);
+  const differentGeoPlan = planMerge([], [
+    { ...goodRow, id: "b1", venue: "The O2", city: "London", country: "GB", datetime_iso: "2026-06-01T19:00:00+01:00" },
+    { ...goodRow, id: "b2", venue: "The O2", city: "Prague", country: "CZ", datetime_iso: "2026-06-01T19:00:00+01:00" }
+  ]);
+  assert("same artist/venue/date but different city-country is not duplicate", differentGeoPlan.semanticDuplicateGroups.length === 0);
+  const differentDatePlan = planMerge([], [
+    { ...goodRow, id: "c1", venue: "The O2", city: "London", country: "GB", datetime_iso: "2026-06-01T19:00:00+01:00" },
+    { ...goodRow, id: "c2", venue: "The O2", city: "London", country: "GB", datetime_iso: "2026-06-02T19:00:00+01:00" }
+  ]);
+  assert("same artist/venue but different date is not duplicate", differentDatePlan.semanticDuplicateGroups.length === 0);
 
   let failed = 0;
   for (const check of checks) {
@@ -415,7 +469,7 @@ async function main() {
   const proposedCatalog = catalogResult.ok && Array.isArray(catalogResult.data) ? catalogResult.data : [];
 
   const { records: candidateRows } = csvToObjects(candidateCsvText);
-  const { validRows, invalidRows, newRows, duplicateRows } = planMerge(existingEvents, candidateRows);
+  const { validRows, invalidRows, newRows, duplicateRows, semanticDuplicateGroups } = planMerge(existingEvents, candidateRows);
 
   const convention = inspectProviderConvention(existingEvents);
   const drift = describeDrift(await fs.readFile(EVENTS_CSV_PATH, "utf8").catch(() => ""));
@@ -425,6 +479,9 @@ async function main() {
   const writeBlockers = [];
   if (report && clean(report.mode) !== "dry-run") writeBlockers.push("report.json mode is not 'dry-run'");
   if (invalidRows.length > 0) writeBlockers.push(`${invalidRows.length} invalid candidate row(s)`);
+  if (semanticDuplicateGroups.length > 0) {
+    writeBlockers.push(`${semanticDuplicateGroups.length} semantic duplicate group(s) found in candidate rows (same artist_slug + venue + city + country + local date from datetime_iso)`);
+  }
   if (rejectedEvents.length > 0 && !options.allowRejected) {
     writeBlockers.push(`events.rejected.json is non-empty (${rejectedEvents.length}); pass --allow-rejected to proceed`);
   }
@@ -477,6 +534,28 @@ async function main() {
   out.push(line("new events (to add):", String(newRows.length)));
   out.push(line("duplicates (skipped):", String(duplicateRows.length)));
   for (const row of duplicateRows.slice(0, 10)) out.push(`    - ${clean(row.id)}`);
+  out.push("");
+
+  out.push("SEMANTIC DUPLICATE DETECTION (within candidate events.csv)");
+  out.push("  Duplicate key: artist_slug + venue + city + country + local-date(datetime_iso)");
+  out.push(line("duplicate groups:", String(semanticDuplicateGroups.length)));
+  if (semanticDuplicateGroups.length > 0) {
+    out.push("  Likely duplicate real-world shows detected. Clean candidate CSV before apply.");
+  }
+  semanticDuplicateGroups.slice(0, 10).forEach((group, index) => {
+    out.push(`    Group ${index + 1}: ${group.key}`);
+    for (const row of group.rows) {
+      out.push(
+        `      - row id=${clean(row.id)} tm_event_id=${clean(row.ticketmaster_event_id) || "(none)"} ` +
+          `artist_slug=${clean(row.artist_slug)} venue=${clean(row.venue)} city=${clean(row.city)} ` +
+          `country=${clean(row.country)} date=${localDateFromIso(row.datetime_iso) || "(invalid)"} ` +
+          `ticketmaster_url=${clean(row.ticketmaster_url) || "(none)"}`
+      );
+    }
+  });
+  if (semanticDuplicateGroups.length > 10) {
+    out.push(`    ... ${semanticDuplicateGroups.length - 10} more group(s) not shown`);
+  }
   out.push("");
 
   out.push("EXISTING provider_links.ticketmaster CONVENTION (events.json)");

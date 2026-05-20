@@ -17,7 +17,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/653666176",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "653666176",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/653666176",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-barcelona-1116290311",
@@ -37,7 +67,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1116290311",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1116290311",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1116290311",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-417009905",
@@ -57,7 +117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/417009905",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "417009905",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/417009905",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1848567714",
@@ -77,7 +167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1848567714",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1848567714",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1848567714",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1589736692",
@@ -97,7 +217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1589736692",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1589736692",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1589736692",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-961888291",
@@ -117,7 +267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/961888291",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "961888291",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/961888291",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1852247887",
@@ -137,7 +317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1852247887",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1852247887",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1852247887",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1341715816",
@@ -157,7 +367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1341715816",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1341715816",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1341715816",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-412370092",
@@ -177,7 +417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/412370092",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "412370092",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/412370092",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-2035589996",
@@ -197,7 +467,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/2035589996",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2035589996",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/2035589996",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1378879656",
@@ -217,7 +517,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1378879656",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1378879656",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1378879656",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1566404077",
@@ -237,7 +567,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1566404077",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1566404077",
+        "url": "https://www.ticketmaster.es/event/bad-bunny-debi-tirar-mas-fotos-world-tour-entradas/1566404077",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-d-sseldorf-1604365108",
@@ -257,7 +617,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1604365108",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1604365108",
+        "url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1604365108",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-d-sseldorf-653946928",
@@ -277,7 +667,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/653946928",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "653946928",
+        "url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/653946928",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-arnhem-1578299680",
@@ -297,7 +717,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1578299680",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1578299680",
+        "url": "https://www.ticketmaster.nl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1578299680",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-arnhem-2018685385",
@@ -317,7 +767,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/2018685385",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2018685385",
+        "url": "https://www.ticketmaster.nl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/2018685385",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-london-3500629efc0c8bc1",
@@ -337,7 +817,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-27-06-2026/event/3500629EFC0C8BC1",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500629EFC0C8BC1",
+        "url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-27-06-2026/event/3500629EFC0C8BC1",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-london-350062a39074101f",
@@ -357,7 +867,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-28-06-2026/event/350062A39074101F",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350062A39074101F",
+        "url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-28-06-2026/event/350062A39074101F",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-stockholm-625835491",
@@ -377,7 +917,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/625835491",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "625835491",
+        "url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/625835491",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-stockholm-734104140",
@@ -397,7 +967,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/734104140",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "734104140",
+        "url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/734104140",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-warsaw-1844913130",
@@ -417,7 +1017,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-bilety/1844913130",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1844913130",
+        "url": "https://www.ticketmaster.pl/event/bad-bunny-debi-tirar-mas-fotos-world-tour-bilety/1844913130",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
@@ -437,7 +1067,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
+        "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
@@ -457,7 +1117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
+        "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bad-bunny-2026-brussels-1117180915",
@@ -477,6 +1167,36 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1117180915",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1117180915",
+        "url": "https://www.ticketmaster.be/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1117180915",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   }
 ]

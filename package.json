@@ -24,7 +24,8 @@
     "artists:apply-preview": "node scripts/apply-artists.mjs",
     "providers:validate": "node scripts/validate-provider-structure.js",
     "providers:enrich": "node scripts/enrich-events-with-provider-links.js",
-    "test:providers": "npm run providers:validate"
+    "test:providers": "npm run providers:validate",
+    "data:stats": "node scripts/report-data-stats.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.90.0"

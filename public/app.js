@@ -567,7 +567,7 @@ function renderSearchResultItem(type, data) {
   if (type === "artist") {
     nameEl.textContent = data.name;
     desc.textContent = data.short_description || "";
-    ctaLabel = "View artist page";
+    ctaLabel = "Open artist page";
     ctaHref = `/artists/${data.slug}`;
   } else if (type === "event") {
     const isoField = data.datetime_iso || data.dateTimeISO || "";
@@ -579,10 +579,10 @@ function renderSearchResultItem(type, data) {
     if (hasVerifiedLink && data.id) {
       const params = new URLSearchParams({ showId: data.id, provider: "ticketmaster" });
       ctaHref = `/api/out?${params.toString()}`;
-      ctaLabel = "Check verified link";
+      ctaLabel = "Open verified event link";
     } else {
       ctaHref = `/artists/${slugify(data.artist_slug || "")}`;
-      ctaLabel = "View event guidance";
+      ctaLabel = "Open artist guidance page";
     }
   } else if (type === "guide") {
     nameEl.textContent = data.h1;
@@ -883,7 +883,7 @@ function renderArtistCard(artist) {
       : "Artist pages show verified destinations. Event-specific buttons appear only on checked show cards.",
     "card-status"
   );
-  article.append(buttonLink(isPending ? "View ticket guidance" : "View verified link", `/artists/${artist.slug}`, isPending ? "secondary" : "primary"));
+  article.append(buttonLink(isPending ? "Open artist guidance page" : "Open artist ticket page", `/artists/${artist.slug}`, isPending ? "secondary" : "primary"));
   return article;
 }
 
@@ -989,7 +989,7 @@ function renderShowCard(show, options = {}) {
     const showId = String(show.id || "").trim();
     if (ticketmasterUrl && showId) {
       const params = new URLSearchParams({ showId, provider: "ticketmaster" });
-      const cta = buttonLink("View event ticket link", `/api/out?${params.toString()}`, "primary");
+      const cta = buttonLink("Open verified event ticket link", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";
       cta.rel = "noopener";
       if (seatGeekOutAvailable(show, options)) {
@@ -1010,7 +1010,7 @@ function renderShowCard(show, options = {}) {
       text(article, "p", "No event-specific ticket link is available for this date yet.", "disclosure-note");
     }
   } else if (show.artist_slug) {
-    article.append(link("View artist", `/artists/${slugify(show.artist_slug)}`, "text-link"));
+    article.append(link("Open artist page", `/artists/${slugify(show.artist_slug)}`, "text-link"));
   }
   return article;
 }

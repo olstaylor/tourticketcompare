@@ -3244,53 +3244,5 @@
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
-  },
-  {
-    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkesyi9m",
-    "artist_slug": "bruno-mars",
-    "artist_name": "Bruno Mars",
-    "country": "Mexico",
-    "city": "Ciudad de México",
-    "venue": "Estadio GNP Seguros",
-    "datetime_iso": "2026-12-04T03:00:00Z",
-    "timezone": "America/Mexico_City",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu",
-    "artist_slug": "bruno-mars",
-    "artist_name": "Bruno Mars",
-    "country": "Mexico",
-    "city": "Ciudad de México",
-    "venue": "Estadio GNP Seguros",
-    "datetime_iso": "2026-12-05T03:00:00Z",
-    "timezone": "America/Mexico_City",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy",
-    "artist_slug": "bruno-mars",
-    "artist_name": "Bruno Mars",
-    "country": "Mexico",
-    "city": "Ciudad de México",
-    "venue": "Estadio GNP Seguros",
-    "datetime_iso": "2026-12-08T03:00:00Z",
-    "timezone": "America/Mexico_City",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd",
-    "artist_slug": "bruno-mars",
-    "artist_name": "Bruno Mars",
-    "country": "Mexico",
-    "city": "Ciudad de México",
-    "venue": "Estadio GNP Seguros",
-    "datetime_iso": "2026-12-09T03:00:00Z",
-    "timezone": "America/Mexico_City",
-    "tour_name": "",
-    "status": "on-sale"
   }
 ]

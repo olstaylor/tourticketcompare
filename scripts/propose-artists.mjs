@@ -272,6 +272,28 @@ function isTicketmasterHost(host) {
   return /(^|\.)ticketmaster\.[a-z.]+$/i.test(clean(host));
 }
 
+// The Ticketmaster Discovery `event.id` (e.g. "vv1A...") is NOT the id used in
+// the storefront event URL path. /api/out validates that ticketmaster_event_id
+// appears in the stored ticketmaster_url, so the id written to events data must
+// be the one in the URL, i.e. its last path segment.
+function ticketmasterEventIdFromUrl(value) {
+  let parsed;
+  try {
+    parsed = new URL(clean(value, 2048));
+  } catch {
+    return "";
+  }
+  const segments = parsed.pathname.split("/").filter(Boolean);
+  if (!segments.length) return "";
+  let last = segments[segments.length - 1];
+  try {
+    last = decodeURIComponent(last);
+  } catch {
+    // Keep the raw segment if it is not valid percent-encoding.
+  }
+  return clean(last, 255);
+}
+
 // Maps a raw Ticketmaster country display name to a canonical label.
 // Returns the original name unchanged when no synonym is known.
 function normalizeCountry(value) {
@@ -379,7 +401,9 @@ function mapEvent(artistSlug, artistName, tmEvent) {
       timezone: clean(start.timeZone || tmEvent?.dates?.timezone),
       tour_name: "", // Never inferred: Ticketmaster does not return a tour name.
       status: discoveryStatusToStatus(tmEvent?.dates?.status?.code),
-      ticketmaster_event_id: tmEventId,
+      // Taken from the URL path, not tmEvent.id: /api/out requires this id to
+      // appear in ticketmaster_url before it will redirect the event.
+      ticketmaster_event_id: ticketmasterEventIdFromUrl(ticketmasterUrl),
       ticketmaster_url: ticketmasterUrl,
       seatgeek_event_id: "",
       seatgeek_url: "",
@@ -722,6 +746,17 @@ function runSelfTest() {
   assert("ticketmaster.co.uk is a ticketmaster host", isTicketmasterHost("www.ticketmaster.co.uk"));
   assert("axs is not a ticketmaster host", !isTicketmasterHost("www.axs.com"));
   assert("lookalike ticketmaster host is rejected", !isTicketmasterHost("notticketmaster.com"));
+  assert(
+    "ticketmaster event id is taken from the storefront url path",
+    ticketmasterEventIdFromUrl("https://www.ticketmaster.com/bruno-mars-columbus-ohio/event/05006394EB3DD035") ===
+      "05006394EB3DD035"
+  );
+  assert(
+    "ticketmaster event id is taken from a localized url path",
+    ticketmasterEventIdFromUrl("https://www.ticketmaster.nl/event/bruno-mars-tickets/1307970954?language=en-us") ===
+      "1307970954"
+  );
+  assert("ticketmaster event id is empty for an unparseable url", ticketmasterEventIdFromUrl("not-a-url") === "");
   assert("csv escapes commas", csvCell("a,b") === '"a,b"');
   assert("onsale maps to on-sale", discoveryStatusToStatus("onsale") === "on-sale");
   assert("offsale maps to announced", discoveryStatusToStatus("offsale") === "announced");

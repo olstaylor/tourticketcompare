@@ -71,6 +71,8 @@ Options:
   --delay-ms <n>         Delay between API requests (default: ${DEFAULT_DELAY_MS})
   --out <dir>            Output directory (default: candidates/artists-<timestamp>)
   --verbose              Log redacted request URLs and scoring detail
+  --diagnose-ticketmaster
+                        Run safe connectivity/auth diagnostics only
   --self-test            Run built-in checks without calling Ticketmaster
   -h, --help             Show this help
 
@@ -97,6 +99,7 @@ function parseArgs(argv) {
     delayMs: DEFAULT_DELAY_MS,
     outDir: "",
     verbose: false,
+    diagnoseTicketmaster: false,
     selfTest: false,
     help: false
   };
@@ -130,6 +133,9 @@ function parseArgs(argv) {
         break;
       case "--verbose":
         options.verbose = true;
+        break;
+      case "--diagnose-ticketmaster":
+        options.diagnoseTicketmaster = true;
         break;
       case "--self-test":
         options.selfTest = true;
@@ -311,6 +317,21 @@ async function discoveryFetch(url, { verbose }) {
   }
 }
 
+function classifyDiscoveryFailure(response, context) {
+  const status = Number(response?.status || 0);
+  if (!status) {
+    const err = clean(response?.error).toLowerCase();
+    if (!clean(process.env.TICKETMASTER_API_KEY)) {
+      return `${context} failed: missing API key`;
+    }
+    if (err.includes("timed out")) return `${context} failed: network/DNS/TLS/fetch failure (request timed out)`;
+    return `${context} failed: network/DNS/TLS/fetch failure (${clean(response?.error) || "fetch error"})`;
+  }
+  if (status === 401 || status === 403) return `${context} failed: HTTP ${status} auth issue`;
+  if (status === 429) return `${context} failed: HTTP 429 rate limit`;
+  return `${context} failed: HTTP ${status} error`;
+}
+
 function discoveryStatusToStatus(code) {
   // Ticketmaster Discovery status codes -> events.json status enum.
   // Only factual mapping; never invents a more optimistic state.
@@ -435,7 +456,7 @@ async function processArtist(name, { apiKey, base, options }) {
     `&keyword=${encodeURIComponent(name)}&classificationName=music&size=20`;
   const attractionsResponse = await discoveryFetch(attractionsUrl, options);
   if (!attractionsResponse.ok) {
-    return { input: name, accepted: false, reason: `attraction lookup failed: ${attractionsResponse.error}` };
+    return { input: name, accepted: false, reason: classifyDiscoveryFailure(attractionsResponse, "attraction lookup") };
   }
   const attractions = attractionsResponse.data?._embedded?.attractions || [];
   const match = pickAttraction(name, attractions, options.minConfidence);
@@ -465,7 +486,7 @@ async function processArtist(name, { apiKey, base, options }) {
   const warnings = [];
   let events = [];
   if (!eventsResponse.ok) {
-    warnings.push(`event lookup failed: ${eventsResponse.error}`);
+    warnings.push(classifyDiscoveryFailure(eventsResponse, "event lookup"));
   } else {
     events = eventsResponse.data?._embedded?.events || [];
     const totalElements = Number(eventsResponse.data?.page?.totalElements || events.length);
@@ -724,6 +745,36 @@ function runSelfTest() {
   assert("known country name is preserved", normalizeCountry("United States Of America").country === "United States Of America");
   assert("unchanged country is not flagged normalized", normalizeCountry("Sweden").normalized === false);
   assert("empty country yields empty result", normalizeCountry("").country === "");
+  const originalApiKey = process.env.TICKETMASTER_API_KEY;
+  delete process.env.TICKETMASTER_API_KEY;
+  assert(
+    "classification reports missing key",
+    classifyDiscoveryFailure({ ok: false, status: 0, error: "fetch failed" }, "attraction lookup") ===
+      "attraction lookup failed: missing API key"
+  );
+  process.env.TICKETMASTER_API_KEY = "test-key";
+  assert(
+    "classification reports generic network failure",
+    classifyDiscoveryFailure({ ok: false, status: 0, error: "getaddrinfo ENOTFOUND app.ticketmaster.com" }, "event lookup")
+      .startsWith("event lookup failed: network/DNS/TLS/fetch failure")
+  );
+  assert(
+    "classification reports auth issue",
+    classifyDiscoveryFailure({ ok: false, status: 401, error: "HTTP 401" }, "attraction lookup") ===
+      "attraction lookup failed: HTTP 401 auth issue"
+  );
+  assert(
+    "classification reports rate limit issue",
+    classifyDiscoveryFailure({ ok: false, status: 429, error: "HTTP 429" }, "event lookup") ===
+      "event lookup failed: HTTP 429 rate limit"
+  );
+  assert(
+    "classification reports other http issue",
+    classifyDiscoveryFailure({ ok: false, status: 500, error: "HTTP 500" }, "event lookup") ===
+      "event lookup failed: HTTP 500 error"
+  );
+  if (originalApiKey === undefined) delete process.env.TICKETMASTER_API_KEY;
+  else process.env.TICKETMASTER_API_KEY = originalApiKey;
 
   let failed = 0;
   for (const check of checks) {
@@ -734,6 +785,42 @@ function runSelfTest() {
   return failed === 0 ? 0 : 1;
 }
 
+async function runTicketmasterDiagnostics(options) {
+  const base = clean(process.env.TICKETMASTER_DISCOVERY_BASE_URL || DEFAULT_DISCOVERY_BASE).replace(/\/+$/, "");
+  const apiKey = await resolveApiKey();
+  const keyPresent = Boolean(apiKey);
+  console.log(`API key present: ${keyPresent ? "yes" : "no"}`);
+
+  const reachability = await discoveryFetch(`${base}/`, options);
+  if (reachability.ok) {
+    console.log("Discovery base reachability: OK (HTTP 200)");
+  } else if (reachability.status) {
+    console.log(`Discovery base reachability: HTTP ${reachability.status}`);
+  } else {
+    console.log(`Discovery base reachability: network/DNS/TLS/fetch failure (${clean(reachability.error) || "fetch error"})`);
+  }
+
+  if (!apiKey) {
+    console.log("Attractions endpoint check: skipped (missing API key)");
+    return 2;
+  }
+  const attractionsUrl =
+    `${base}/attractions.json?apikey=${encodeURIComponent(apiKey)}&classificationName=music&size=1`;
+  const attractionsCheck = await discoveryFetch(attractionsUrl, options);
+  if (attractionsCheck.ok) {
+    console.log("Attractions endpoint status: OK (HTTP 200)");
+    return 0;
+  }
+  if (attractionsCheck.status) {
+    console.log(`Attractions endpoint status: HTTP ${attractionsCheck.status}`);
+  } else {
+    console.log(
+      `Attractions endpoint status: network/DNS/TLS/fetch failure (${clean(attractionsCheck.error) || "fetch error"})`
+    );
+  }
+  return 1;
+}
+
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   if (options.help) {
@@ -742,6 +829,9 @@ async function main() {
   }
   if (options.selfTest) {
     return runSelfTest();
+  }
+  if (options.diagnoseTicketmaster) {
+    return runTicketmasterDiagnostics(options);
   }
 
   const names = [...options.artists];

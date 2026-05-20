@@ -61,7 +61,7 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
     impact/               Impact API integration helpers
 
 scripts/
-  smoke-prelaunch.mjs     Pre-deploy smoke checks (currently has false positive — see Known Risks)
+  smoke-prelaunch.mjs     Pre-deploy smoke checks
   validate-events.py      Validates events.json against production rules
   csv-to-events.py        Converts CSV to events.json format
   partition-events.py     Partitions events by artist for events-index.json
@@ -148,7 +148,7 @@ node --check functions/api/out.js
 # Python event data validation
 python3 scripts/validate-events.py --for-production
 
-# Smoke test suite (currently has false positive — see Known Risks)
+# Smoke test suite
 node scripts/smoke-prelaunch.mjs
 
 # Whitespace/conflict marker check
@@ -201,7 +201,6 @@ Review before starting work:
 
 | Issue | Severity | Impact |
 |-------|----------|--------|
-| **Smoke test false positive** | High | `node scripts/smoke-prelaunch.mjs` fails on `public/app.js:152`. A FAQ answer ("No. TourTicketCompare does not compare live prices.") triggers the `live prices claim` pattern. The copy is safe; the regex allowedContext just doesn't match "does not compare". Fix: add `\|does not compare` to allowedContext in `smoke-prelaunch.mjs`, or rephrase FAQ to use a recognised safe phrase. This blocks `npm run deploy:pages:safe`. |
 | **Raw HTML routing** | Medium (SEO) | Non-root routes serve correct server-injected HTML but client-side re-rendering on load can expose intermediate state to crawlers. Must be fixed before SEO scaling. |
 | **Named route shims inactive** | Low | Editing `functions/artists.js` etc. has no effect while middleware is active. Edit `[[path]].js` instead. |
 | **Placeholder D1 bindings** | Medium | `wrangler.toml` has `RATE_LIMIT_DB` and `CLICKS_DB` with placeholder IDs. Uncommenting breaks local dev. Either provision with real IDs or remove. |

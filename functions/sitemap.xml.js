@@ -1,26 +1,10 @@
+import { TRUST_ROUTES, GUIDE_ROUTES } from "./_route-metadata.js";
+
+// Derived from _route-metadata.js (single source of truth) so the sitemap
+// cannot silently drift from the routes the site actually renders.
 const STATIC_INDEXABLE_PATHS = [
-  "/",
-  "/artists",
-  "/guides",
-  "/how-it-works",
-  "/about",
-  "/contact",
-  "/editorial-policy",
-  "/affiliate-disclosure",
-  "/guides/how-to-compare-concert-ticket-prices",
-  "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
-  "/guides/how-to-avoid-overpaying-for-concert-tickets",
-  "/guides/when-is-the-best-time-to-buy-concert-tickets",
-  "/guides/primary-vs-resale-concert-tickets",
-  "/guides/how-to-avoid-ticket-scams",
-  "/guides/why-ticket-prices-change",
-  "/guides/ticketmaster-vs-stubhub",
-  "/guides/how-resale-ticket-pricing-works",
-  "/guides/ticket-delivery-and-transfer-timing",
-  "/guides/concert-ticket-fees-explained",
-  "/guides/seatgeek-promo-code-guide",
-  "/guides/how-to-prepare-for-a-ticket-onsale",
-  "/guides/how-to-read-a-ticket-listing"
+  ...Object.keys(TRUST_ROUTES).filter((path) => TRUST_ROUTES[path].indexable),
+  ...Object.keys(GUIDE_ROUTES)
 ];
 
 const FALLBACK_ARTIST_SLUGS = ["beyonce", "harry-styles", "bts", "ariana-grande", "bad-bunny", "morgan-wallen", "jay-z"];

@@ -1010,10 +1010,20 @@ function renderShowCard(show, options = {}) {
         ctaGroup.className = "cta-group";
         ctaGroup.append(cta, seatGeekCta);
         article.append(ctaGroup);
-        text(article, "p", "SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.", "disclosure-note");
+        text(
+          article,
+          "p",
+          "Verified means destination URL checked; it does not guarantee current price, fees, or availability. SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.",
+          "disclosure-note"
+        );
       } else {
         article.append(cta);
-        text(article, "p", "External ticketing sites set prices, fees, availability, and checkout terms.", "disclosure-note");
+        text(
+          article,
+          "p",
+          "Verified means destination URL checked; it does not guarantee current price, fees, or availability. External ticketing sites set prices, fees, availability, and checkout terms.",
+          "disclosure-note"
+        );
       }
     } else {
       text(article, "p", "No event-specific ticket link is available for this date yet.", "disclosure-note");

@@ -229,6 +229,43 @@ function isPlaceholderUrl(value) {
   return PLACEHOLDER_MARKERS.some((marker) => lower.includes(marker));
 }
 
+// Ticketmaster Discovery can return event `url` values that are already
+// Impact affiliate links (host ticketmaster.evyy.net) wrapping the real
+// destination in a `u=` query param. events.json must store the plain
+// destination URL only - affiliate wrapping happens at runtime in
+// /api/out. resolveTicketmasterUrl unwraps such links and reports the
+// final destination host so non-Ticketmaster targets can be dropped.
+function resolveTicketmasterUrl(value) {
+  let current = clean(value, 2048);
+  if (!current) return { url: "", host: "", wasWrapped: false };
+  let wasWrapped = false;
+  for (let depth = 0; depth < 4; depth += 1) {
+    let parsed;
+    try {
+      parsed = new URL(current);
+    } catch {
+      return { url: current, host: "", wasWrapped };
+    }
+    if (/(^|\.)evyy\.net$/i.test(parsed.hostname)) {
+      const target = clean(parsed.searchParams.get("u"), 2048);
+      if (!target) return { url: current, host: parsed.hostname.toLowerCase(), wasWrapped };
+      current = target;
+      wasWrapped = true;
+      continue;
+    }
+    return { url: current, host: parsed.hostname.toLowerCase(), wasWrapped };
+  }
+  return { url: current, host: "", wasWrapped };
+}
+
+// True only for genuine Ticketmaster storefront domains (ticketmaster.com,
+// .co.uk, .ca, .de, .es, .nl, ...). Resellers such as axs.com or
+// seatgeek.com return false so those events are not published as
+// Ticketmaster events.
+function isTicketmasterHost(host) {
+  return /(^|\.)ticketmaster\.[a-z.]+$/i.test(clean(host));
+}
+
 // Maps a raw Ticketmaster country display name to a canonical label.
 // Returns the original name unchanged when no synonym is known.
 function normalizeCountry(value) {
@@ -296,8 +333,18 @@ function mapEvent(artistSlug, artistName, tmEvent) {
   if (!city) warnings.push("event missing city");
   if (!venue?.name) warnings.push("event missing venue name");
   if (!country) warnings.push("event missing country");
-  const url = clean(tmEvent?.url, 2048);
+  const rawUrl = clean(tmEvent?.url, 2048);
+  const resolved = resolveTicketmasterUrl(rawUrl);
+  const url = resolved.url;
   if (url && isPlaceholderUrl(url)) warnings.push("event url looks like a placeholder");
+  const onTicketmasterHost = isTicketmasterHost(resolved.host);
+  // An event whose link resolves to a non-Ticketmaster storefront
+  // (e.g. AXS, SeatGeek) cannot be published as a Ticketmaster event.
+  let urlRejection = null;
+  if (rawUrl && url && !onTicketmasterHost) {
+    urlRejection = `event url resolves to non-Ticketmaster host '${resolved.host || "unknown"}'`;
+  }
+  const ticketmasterUrl = url && !isPlaceholderUrl(url) && onTicketmasterHost ? url : "";
 
   return {
     row: {
@@ -312,13 +359,16 @@ function mapEvent(artistSlug, artistName, tmEvent) {
       tour_name: "", // Never inferred: Ticketmaster does not return a tour name.
       status: discoveryStatusToStatus(tmEvent?.dates?.status?.code),
       ticketmaster_event_id: tmEventId,
-      ticketmaster_url: url && !isPlaceholderUrl(url) ? url : "",
+      ticketmaster_url: ticketmasterUrl,
       seatgeek_event_id: "",
       seatgeek_url: "",
       vividseats_event_id: "",
       vividseats_url: ""
     },
     warnings,
+    // Set when the event link resolves off Ticketmaster; the partition
+    // step uses it to route the row into events.rejected.json.
+    urlRejection,
     // Source country metadata kept for report.json auditing only; never
     // written into events.csv (its schema is fixed by csv-to-events.py).
     countrySource: {
@@ -633,6 +683,24 @@ function runSelfTest() {
   assert("slug regex accepts slugify output", SLUG_RE.test(slugify("Olivia Rodrigo")));
   assert("placeholder url detected", isPlaceholderUrl("https://example.com/x"));
   assert("real url not flagged", !isPlaceholderUrl("https://www.ticketmaster.com/event/123"));
+  assert(
+    "evyy affiliate url unwraps to ticketmaster destination",
+    resolveTicketmasterUrl(
+      "https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FZ1&utm_medium=affiliate"
+    ).url === "https://www.ticketmaster.com/event/Z1"
+  );
+  assert(
+    "plain ticketmaster url passes through unchanged",
+    resolveTicketmasterUrl("https://www.ticketmaster.com/event/Z1").url === "https://www.ticketmaster.com/event/Z1"
+  );
+  assert(
+    "affiliate-wrapped reseller url reports the reseller host",
+    resolveTicketmasterUrl("https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.axs.com%2Fevents%2F1").host ===
+      "www.axs.com"
+  );
+  assert("ticketmaster.co.uk is a ticketmaster host", isTicketmasterHost("www.ticketmaster.co.uk"));
+  assert("axs is not a ticketmaster host", !isTicketmasterHost("www.axs.com"));
+  assert("lookalike ticketmaster host is rejected", !isTicketmasterHost("notticketmaster.com"));
   assert("csv escapes commas", csvCell("a,b") === '"a,b"');
   assert("onsale maps to on-sale", discoveryStatusToStatus("onsale") === "on-sale");
   assert("offsale maps to announced", discoveryStatusToStatus("offsale") === "announced");
@@ -726,7 +794,7 @@ async function main() {
     const validMapped = [];
     const rejectedRows = [];
     for (const m of result.mapped) {
-      const issues = rowIssues(m.row);
+      const issues = [...rowIssues(m.row), ...(m.urlRejection ? [m.urlRejection] : [])];
       if (issues.length > 0) {
         rejectedRows.push({ ...m.row, rejection_reasons: issues });
       } else {

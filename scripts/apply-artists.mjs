@@ -1,21 +1,26 @@
 #!/usr/bin/env node
-// Preview-only apply planner for reviewed Ticketmaster candidate batches.
+// Apply planner for reviewed Ticketmaster candidate batches.
 //
 // Reads one candidate folder (produced by scripts/propose-artists.mjs) and the
-// current public/data/events.json, then reports exactly what a future apply
-// step WOULD do: which rows merge, which are duplicates, which are invalid,
-// and what a full-schema event object would look like.
+// current public/data/events.json. By default it is PREVIEW-ONLY and writes
+// nothing. With --write it performs the smallest safe apply: events only.
 //
-// This script is PREVIEW-ONLY. It writes nothing. There is intentionally no
-// --write flag: a write-capable apply step is a separate, unapproved task.
+// It merges new candidate events into public/data/events.json (the
+// authoritative source of truth), never via data/events.csv. It never adds
+// artists or catalog links, never touches affiliate files, and never invents
+// event names, tour names, prices, availability, or marketing copy.
 
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const EVENTS_JSON_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
+const EVENTS_INDEX_PATH = path.join(REPO_ROOT, "public", "data", "events-index.json");
+const EVENTS_PARTITION_DIR = path.join(REPO_ROOT, "public", "data", "events");
+const INDEX_HTML_PATH = path.join(REPO_ROOT, "public", "index.html");
 const EVENTS_CSV_PATH = path.join(REPO_ROOT, "data", "events.csv");
 
 const REQUIRED_FIELDS = ["id", "artist_slug", "artist_name", "city", "country", "venue", "datetime_iso"];
@@ -29,19 +34,22 @@ const RICH_ONLY_FIELDS = ["event_name", "source_type", "source_url", "last_verif
 function usage() {
   return `Usage: node scripts/apply-artists.mjs --candidate <dir> [options]
 
-Preview-only apply planner. Reports what a future apply step would do for one
-reviewed candidate batch. It writes nothing - there is no --write flag.
+Apply planner for a reviewed candidate batch. Preview-only by default.
 
 Options:
   --candidate <dir>   Candidate batch folder (required), e.g.
                       candidates/artists-2026-05-20T10-42-22Z/
-  --allow-rejected    Show the plan as if a real apply were allowed to run
-                      with a non-empty events.rejected.json. Rejected rows are
-                      never applied regardless of this flag.
+  --write             Perform the apply: merge new events into
+                      public/data/events.json and run the events pipeline.
+                      Without this flag nothing is written.
+  --allow-rejected    Proceed when events.rejected.json is non-empty.
+                      Rejected rows are never applied regardless.
+  --self-test         Run built-in checks without touching any file.
   -h, --help          Show this help
 
-This script never edits public/data/*, functions/*, data/events.csv, or any
-production file. Applying a batch for real is a separate, unapproved step.
+This step is EVENTS ONLY. It never adds artists or catalog links, never
+edits public/data/artists.json, public/data/catalog.json,
+functions/api/out.js, or functions/api/shows.js, and never publishes pages.
 `;
 }
 
@@ -50,15 +58,21 @@ function clean(value, max = 4096) {
 }
 
 function parseArgs(argv) {
-  const options = { candidate: "", allowRejected: false, help: false };
+  const options = { candidate: "", write: false, allowRejected: false, selfTest: false, help: false };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     switch (arg) {
       case "--candidate":
         options.candidate = clean(argv[(i += 1)]);
         break;
+      case "--write":
+        options.write = true;
+        break;
       case "--allow-rejected":
         options.allowRejected = true;
+        break;
+      case "--self-test":
+        options.selfTest = true;
         break;
       case "-h":
       case "--help":
@@ -152,36 +166,39 @@ function unverifiedProviderStub() {
   };
 }
 
-// Builds the full-schema event object a future apply step would insert into
-// public/data/events.json. Trust markers start unverified by design: nothing
-// here is human-checked yet, so verified is false and dates are null.
-function buildSampleEvent(row) {
+// Builds the full-schema event object inserted into public/data/events.json.
+// Trust markers start unverified by design: nothing here is human-checked yet,
+// so verified is false and dates are null. event_name is left empty because
+// the candidate CSV carries no event name and inventing one is forbidden.
+function buildEvent(row) {
   const tmUrl = clean(row.ticketmaster_url);
   const tmEventId = clean(row.ticketmaster_event_id);
-  return {
+  const timezone = clean(row.timezone);
+  const status = clean(row.status);
+  const event = {
     id: clean(row.id),
     artist_slug: clean(row.artist_slug),
     artist_name: clean(row.artist_name),
-    event_name: "", // Not available from the candidate CSV; never invented.
+    event_name: "",
     city: clean(row.city),
     country: clean(row.country),
     venue: clean(row.venue),
     datetime_iso: clean(row.datetime_iso),
-    timezone: clean(row.timezone),
-    tour_name: "", // Discovery returns no reliable tour name.
-    status: clean(row.status) || "announced",
+    // timezone and status are inserted below only when present: an empty
+    // string is rejected by validate-events.py, but an absent key is fine.
+    tour_name: "",
     ticketmaster_event_id: tmEventId,
     ticketmaster_url: tmUrl,
     seatgeek_url: clean(row.seatgeek_url),
     vividseats_url: clean(row.vividseats_url),
     source_type: "ticketmaster",
     source_url: tmUrl,
-    last_verified_at: null, // Unverified until a human confirms the listing.
+    last_verified_at: null,
     provider_links: {
       ticketmaster: {
         event_id: tmEventId || null,
         url: tmUrl || null,
-        verified: false, // Existing events use true; candidates start false.
+        verified: false,
         last_verified_at: null,
         availability_status: "not_checked"
       },
@@ -190,11 +207,35 @@ function buildSampleEvent(row) {
       stubhub: unverifiedProviderStub()
     }
   };
+  if (timezone) event.timezone = timezone;
+  if (status) event.status = status;
+  return event;
+}
+
+// Pure planning step: classifies candidate rows against existing events.
+function planMerge(existingEvents, candidateRows) {
+  const validRows = [];
+  const invalidRows = [];
+  for (const row of candidateRows) {
+    const issues = rowIssues(row);
+    if (issues.length > 0) invalidRows.push({ row, issues });
+    else validRows.push(row);
+  }
+  const existingIds = new Set(existingEvents.map((event) => clean(event?.id)).filter(Boolean));
+  const newRows = [];
+  const duplicateRows = [];
+  const seenInBatch = new Set();
+  for (const row of validRows) {
+    const id = clean(row.id);
+    if (existingIds.has(id) || seenInBatch.has(id)) duplicateRows.push(row);
+    else newRows.push(row);
+    seenInBatch.add(id);
+  }
+  return { validRows, invalidRows, newRows, duplicateRows };
 }
 
 async function readJson(filePath) {
-  const text = await fs.readFile(filePath, "utf8");
-  return JSON.parse(text);
+  return JSON.parse(await fs.readFile(filePath, "utf8"));
 }
 
 async function tryReadJson(filePath) {
@@ -205,8 +246,7 @@ async function tryReadJson(filePath) {
   }
 }
 
-// Inspects the trust-flag convention of the existing events.json so the
-// preview can show how applied candidates would differ.
+// Inspects the trust-flag convention of the existing events.json.
 function inspectProviderConvention(events) {
   let withTm = 0;
   const verifiedCounts = {};
@@ -224,9 +264,8 @@ function inspectProviderConvention(events) {
 
 function describeDrift(csvText) {
   const { header, records } = csvToObjects(csvText);
-  const headerOnly = records.length === 0;
   return {
-    headerOnly,
+    headerOnly: records.length === 0,
     dataRows: records.length,
     columnCount: header.length,
     missingRichColumns: RICH_ONLY_FIELDS.filter((field) => !header.includes(field))
@@ -237,11 +276,107 @@ function line(label, value) {
   return `  ${label.padEnd(34)}${value}`;
 }
 
+// Snapshots every file the events pipeline may write, so a failed apply can
+// be rolled back to a byte-identical pre-run state.
+async function snapshotPipelineFiles() {
+  const files = new Map();
+  for (const filePath of [EVENTS_JSON_PATH, EVENTS_INDEX_PATH, INDEX_HTML_PATH]) {
+    try {
+      files.set(filePath, await fs.readFile(filePath));
+    } catch (error) {
+      if (error.code !== "ENOENT") throw error;
+    }
+  }
+  let partitionFiles = [];
+  try {
+    partitionFiles = (await fs.readdir(EVENTS_PARTITION_DIR)).filter((f) => f.endsWith(".json"));
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+  for (const name of partitionFiles) {
+    const filePath = path.join(EVENTS_PARTITION_DIR, name);
+    files.set(filePath, await fs.readFile(filePath));
+  }
+  return files;
+}
+
+// Restores a snapshot: rewrites captured files and deletes any partition file
+// created after the snapshot (e.g. a new per-artist file).
+async function restoreSnapshot(snapshot) {
+  for (const [filePath, content] of snapshot) {
+    await fs.writeFile(filePath, content);
+  }
+  let current = [];
+  try {
+    current = (await fs.readdir(EVENTS_PARTITION_DIR)).filter((f) => f.endsWith(".json"));
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+  for (const name of current) {
+    const filePath = path.join(EVENTS_PARTITION_DIR, name);
+    if (!snapshot.has(filePath)) await fs.rm(filePath);
+  }
+}
+
+// Runs a pipeline step; returns { ok, label, detail }.
+function runStep(label, command, args) {
+  const result = spawnSync(command, args, { cwd: REPO_ROOT, encoding: "utf8" });
+  if (result.error) return { ok: false, label, detail: String(result.error.message || result.error) };
+  if (result.status !== 0) {
+    const tail = clean(`${result.stderr || ""}${result.stdout || ""}`, 600);
+    return { ok: false, label, detail: `exit ${result.status}: ${tail}` };
+  }
+  return { ok: true, label, detail: clean(result.stdout, 200) };
+}
+
+function runSelfTest() {
+  const checks = [];
+  const assert = (label, condition) => checks.push({ label, pass: Boolean(condition) });
+
+  const parsed = parseCsv('a,b\n"x,y",z\n');
+  assert("csv parses quoted comma", parsed.length === 2 && parsed[1][0] === "x,y");
+  const objs = csvToObjects("id,venue\n1,The O2\n");
+  assert("csv maps headers to objects", objs.records[0].id === "1" && objs.records[0].venue === "The O2");
+
+  const goodRow = { id: "x", artist_slug: "olivia-rodrigo", artist_name: "a", city: "a", country: "a", venue: "The O2", datetime_iso: "2026-01-01T00:00:00Z" };
+  assert("clean row has no issues", rowIssues(goodRow).length === 0);
+  assert("missing venue is flagged", rowIssues({ ...goodRow, venue: "" }).some((r) => r.includes("venue")));
+  assert("bad slug is flagged", rowIssues({ ...goodRow, artist_slug: "Bad Slug" }).length > 0);
+
+  const event = buildEvent({ ...goodRow, ticketmaster_url: "https://tm.example/e/1", ticketmaster_event_id: "E1", status: "on-sale" });
+  assert("built event starts unverified", event.provider_links.ticketmaster.verified === false);
+  assert("built event source_type is ticketmaster", event.source_type === "ticketmaster");
+  assert("built event never invents event_name", event.event_name === "");
+  assert("built event never invents tour_name", event.tour_name === "");
+  assert("built event keeps last_verified_at null", event.last_verified_at === null);
+
+  const existing = [{ id: "dup-1" }, { id: "keep-1" }];
+  const plan = planMerge(existing, [
+    { ...goodRow, id: "dup-1" },
+    { ...goodRow, id: "new-1" },
+    { ...goodRow, id: "new-1" },
+    { ...goodRow, id: "bad", venue: "" }
+  ]);
+  assert("duplicate id is skipped", plan.duplicateRows.length === 2 && plan.newRows.length === 1);
+  assert("invalid row is excluded", plan.invalidRows.length === 1 && plan.newRows.every((r) => r.id !== "bad"));
+
+  let failed = 0;
+  for (const check of checks) {
+    if (!check.pass) failed += 1;
+    console.log(`${check.pass ? "PASS" : "FAIL"}  ${check.label}`);
+  }
+  console.log(`\n${checks.length - failed}/${checks.length} checks passed.`);
+  return failed === 0 ? 0 : 1;
+}
+
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   if (options.help) {
     console.log(usage());
     return 0;
+  }
+  if (options.selfTest) {
+    return runSelfTest();
   }
   if (!options.candidate) {
     console.error("ERROR: --candidate <dir> is required. See --help.");
@@ -279,69 +414,44 @@ async function main() {
   const catalogResult = await tryReadJson(catalogPath);
   const proposedCatalog = catalogResult.ok && Array.isArray(catalogResult.data) ? catalogResult.data : [];
 
-  // Candidate rows.
   const { records: candidateRows } = csvToObjects(candidateCsvText);
-  const validRows = [];
-  const invalidRows = [];
-  for (const row of candidateRows) {
-    const issues = rowIssues(row);
-    if (issues.length > 0) invalidRows.push({ row, issues });
-    else validRows.push(row);
-  }
-
-  // Duplicate detection against existing events.json.
-  const existingIds = new Set(existingEvents.map((event) => clean(event?.id)).filter(Boolean));
-  const newRows = [];
-  const duplicateRows = [];
-  const seenInBatch = new Set();
-  for (const row of validRows) {
-    const id = clean(row.id);
-    if (existingIds.has(id) || seenInBatch.has(id)) duplicateRows.push(row);
-    else newRows.push(row);
-    seenInBatch.add(id);
-  }
+  const { validRows, invalidRows, newRows, duplicateRows } = planMerge(existingEvents, candidateRows);
 
   const convention = inspectProviderConvention(existingEvents);
   const drift = describeDrift(await fs.readFile(EVENTS_CSV_PATH, "utf8").catch(() => ""));
 
+  // Conditions that block a real --write run (the drift is handled by design,
+  // so it is a warning, not a blocker).
+  const writeBlockers = [];
+  if (report && clean(report.mode) !== "dry-run") writeBlockers.push("report.json mode is not 'dry-run'");
+  if (invalidRows.length > 0) writeBlockers.push(`${invalidRows.length} invalid candidate row(s)`);
+  if (rejectedEvents.length > 0 && !options.allowRejected) {
+    writeBlockers.push(`events.rejected.json is non-empty (${rejectedEvents.length}); pass --allow-rejected to proceed`);
+  }
+
   // ---- Report -------------------------------------------------------------
   const out = [];
   out.push("=".repeat(72));
-  out.push("apply-artists.mjs - PREVIEW ONLY (no files are written)");
+  out.push(`apply-artists.mjs - ${options.write ? "WRITE MODE (events only)" : "PREVIEW ONLY (no files written)"}`);
   out.push("=".repeat(72));
   out.push(`Candidate batch: ${path.relative(REPO_ROOT, candidateDir)}/`);
-  out.push(`Live events file: public/data/events.json`);
+  out.push("Live events file: public/data/events.json");
   out.push("");
 
   out.push("SOURCE-OF-TRUTH CHECK");
-  out.push(
-    line(
-      "public/data/events.json:",
-      `${existingEvents.length} events - AUTHORITATIVE live source (confirmed)`
-    )
-  );
+  out.push(line("public/data/events.json:", `${existingEvents.length} events - AUTHORITATIVE live source (confirmed)`));
   if (drift.headerOnly) {
     out.push(line("data/events.csv:", `header-only (${drift.columnCount} columns, 0 data rows) - STALE`));
     out.push("");
-    out.push("  >> SOURCE-OF-TRUTH DRIFT DETECTED");
-    out.push("     data/events.csv is header-only while events.json holds");
-    out.push(`     ${existingEvents.length} events. The two are out of sync.`);
+    out.push("  >> SOURCE-OF-TRUTH DRIFT (warning, not a blocker)");
+    out.push(`     data/events.csv is header-only while events.json holds ${existingEvents.length} events.`);
     if (drift.missingRichColumns.length > 0) {
-      out.push(
-        `     The CSV schema is also lossy: it has no column for ` +
-          `${drift.missingRichColumns.join(", ")},`
-      );
-      out.push("     all of which exist in events.json records.");
+      out.push(`     The CSV schema is lossy: no column for ${drift.missingRichColumns.join(", ")}.`);
     }
-    out.push("     Consequence: running scripts/csv-to-events.py against this");
-    out.push("     stale CSV would OVERWRITE events.json and destroy live data.");
-    out.push("");
-    out.push("  Recommended future cleanup (do NOT do it in this task):");
-    out.push("   - Treat public/data/events.json as the single source of truth.");
-    out.push("   - Either retire data/events.csv, or add a json->csv exporter so");
-    out.push("     it is regenerated from events.json and kept lossless.");
-    out.push("   - A future apply step should merge into events.json directly,");
-    out.push("     not via data/events.csv + csv-to-events.py.");
+    out.push("     This apply step merges into events.json directly and never runs");
+    out.push("     csv-to-events.py, so the stale CSV cannot corrupt live data.");
+    out.push("     Future cleanup: treat events.json as the single source of truth;");
+    out.push("     retire data/events.csv or regenerate it from events.json.");
   } else {
     out.push(line("data/events.csv:", `${drift.dataRows} data rows`));
   }
@@ -349,81 +459,139 @@ async function main() {
 
   out.push("CANDIDATE BATCH CONTENTS");
   out.push(line("report.json mode:", report ? clean(report.mode) || "(unknown)" : "(report.json missing)"));
-  if (report && Array.isArray(report.structural_issues)) {
-    out.push(line("report structural_issues:", String(report.structural_issues.length)));
-  }
   out.push(line("events.csv rows:", String(candidateRows.length)));
   out.push(line("events.rejected.json rows:", String(rejectedEvents.length)));
-  out.push(line("artists.proposed.json:", String(proposedArtists.length)));
-  out.push(line("catalog-ticket-links.proposed:", String(proposedCatalog.length)));
+  out.push(line("artists.proposed.json:", `${proposedArtists.length} (NOT applied - events only)`));
+  out.push(line("catalog-ticket-links.proposed:", `${proposedCatalog.length} (NOT applied - events only)`));
   out.push("");
 
   out.push("ROW VALIDATION (re-check of candidate events.csv)");
   out.push(line("valid rows:", String(validRows.length)));
-  out.push(line("invalid rows (would reject):", String(invalidRows.length)));
+  out.push(line("invalid rows (excluded):", String(invalidRows.length)));
   for (const { row, issues } of invalidRows.slice(0, 10)) {
     out.push(`    - ${clean(row.id) || "(no id)"}: ${issues.join("; ")}`);
   }
-  if (invalidRows.length > 10) out.push(`    ... and ${invalidRows.length - 10} more`);
   out.push("");
 
   out.push("DUPLICATE DETECTION (candidate id vs events.json id)");
-  out.push(line("new events (would add):", String(newRows.length)));
-  out.push(line("duplicates (would skip):", String(duplicateRows.length)));
-  for (const row of duplicateRows.slice(0, 10)) {
-    out.push(`    - ${clean(row.id)}`);
-  }
-  if (duplicateRows.length > 10) out.push(`    ... and ${duplicateRows.length - 10} more`);
+  out.push(line("new events (to add):", String(newRows.length)));
+  out.push(line("duplicates (skipped):", String(duplicateRows.length)));
+  for (const row of duplicateRows.slice(0, 10)) out.push(`    - ${clean(row.id)}`);
   out.push("");
 
   out.push("EXISTING provider_links.ticketmaster CONVENTION (events.json)");
   out.push(line("events with ticketmaster link:", `${convention.withTm}/${convention.total}`));
   out.push(line("verified flag distribution:", JSON.stringify(convention.verifiedCounts)));
-  out.push(line("availability_status values:", JSON.stringify(convention.availabilityValues)));
-  out.push("  Note: every existing event is verified:true (human-checked).");
-  out.push("  Applied candidates would start verified:false / availability");
-  out.push("  not_checked until a human verifies them - see sample below.");
+  out.push("  Applied candidates start verified:false / availability not_checked");
+  out.push("  until a human verifies them.");
   out.push("");
 
-  if (newRows.length > 0) {
-    out.push("SAMPLE FULL-SCHEMA EVENT OBJECT (first new event - illustration only)");
-    out.push(JSON.stringify(buildSampleEvent(newRows[0]), null, 2).split("\n").map((l) => `  ${l}`).join("\n"));
-    out.push("");
+  // ---- Write path ---------------------------------------------------------
+  let writeResult = null;
+  if (options.write) {
+    if (writeBlockers.length > 0) {
+      out.push("WRITE ABORTED - preconditions not met:");
+      for (const blocker of writeBlockers) out.push(`   - ${blocker}`);
+      out.push("");
+      out.push("No files were written.");
+      out.push("=".repeat(72));
+      console.log(out.join("\n"));
+      return 1;
+    }
+    if (newRows.length === 0) {
+      out.push("WRITE SKIPPED - no new events to add (nothing to do).");
+      out.push("No files were written.");
+      out.push("=".repeat(72));
+      console.log(out.join("\n"));
+      return 0;
+    }
+    writeResult = await performWrite(existingEvents, newRows);
   }
 
-  out.push("BEFORE / AFTER SUMMARY (projected - nothing written)");
+  out.push("BEFORE / AFTER SUMMARY");
   out.push(line("events.json before:", String(existingEvents.length)));
-  out.push(line("new events to add:", String(newRows.length)));
+  out.push(line("valid candidate rows:", String(validRows.length)));
+  out.push(line("rejected rows ignored:", `${rejectedEvents.length} (never applied)`));
   out.push(line("duplicates skipped:", String(duplicateRows.length)));
-  out.push(line("invalid rows ignored:", String(invalidRows.length)));
-  out.push(line("rejected rows ignored:", `${rejectedEvents.length} (events.rejected.json - never applied)`));
-  out.push(line("events.json after (projected):", String(existingEvents.length + newRows.length)));
-  out.push(line("artists proposed / would add:", `${proposedArtists.length} / 0 (artist add is a separate opt-in)`));
-  out.push(line("catalog stubs proposed / add:", `${proposedCatalog.length} / 0 (catalog add is a separate opt-in)`));
+  out.push(line("new events added:", options.write ? String(writeResult?.added ?? 0) : `${newRows.length} (projected)`));
+  out.push(
+    line(
+      options.write ? "events.json after (actual):" : "events.json after (projected):",
+      String(options.write ? writeResult?.after ?? existingEvents.length : existingEvents.length + newRows.length)
+    )
+  );
+
+  if (options.write && writeResult) {
+    out.push("");
+    out.push("WRITE RESULT");
+    if (writeResult.ok) {
+      out.push("  status: SUCCESS");
+      out.push("  files changed:");
+      for (const f of writeResult.filesChanged) out.push(`   - ${f}`);
+      out.push("  pipeline:");
+      for (const step of writeResult.steps) out.push(`   - ${step.label}: ${step.ok ? "OK" : "FAILED"}`);
+    } else {
+      out.push("  status: FAILED - changes rolled back");
+      for (const step of writeResult.steps) {
+        out.push(`   - ${step.label}: ${step.ok ? "OK" : "FAILED"}`);
+        if (!step.ok) out.push(`       ${step.detail}`);
+      }
+      out.push(`  rollback: ${writeResult.rolledBack ? "events.json and pipeline files restored to pre-run state" : "INCOMPLETE - inspect manually"}`);
+    }
+  }
   out.push("");
 
-  out.push("APPLY-READINESS VERDICT");
-  const blockers = [];
-  if (report && clean(report.mode) !== "dry-run") blockers.push("report.json mode is not 'dry-run'");
-  if (invalidRows.length > 0) blockers.push(`${invalidRows.length} invalid candidate row(s)`);
-  if (rejectedEvents.length > 0 && !options.allowRejected) {
-    blockers.push(`events.rejected.json is non-empty (${rejectedEvents.length}) - a real apply would need --allow-rejected`);
+  if (!options.write) {
+    out.push("APPLY-READINESS VERDICT");
+    if (writeBlockers.length === 0) {
+      out.push("  --write could proceed for this batch.");
+    } else {
+      out.push("  --write would abort until these are handled:");
+      for (const blocker of writeBlockers) out.push(`   - ${blocker}`);
+    }
+    out.push("");
+    out.push("PREVIEW ONLY: no files were written. Re-run with --write to apply.");
   }
-  if (drift.headerOnly) {
-    blockers.push("source-of-truth drift: a real apply must merge into events.json directly, not via data/events.csv");
-  }
-  if (blockers.length === 0) {
-    out.push("  A future write-capable apply step could proceed for this batch.");
-  } else {
-    out.push("  A future write-capable apply step would need to handle:");
-    for (const blocker of blockers) out.push(`   - ${blocker}`);
-  }
-  out.push("");
-  out.push("PREVIEW ONLY: no files were written. There is no --write flag.");
   out.push("=".repeat(72));
 
   console.log(out.join("\n"));
-  return 0;
+  return options.write && writeResult && !writeResult.ok ? 1 : 0;
+}
+
+// Performs the events-only apply with snapshot/rollback around the pipeline.
+async function performWrite(existingEvents, newRows) {
+  const snapshot = await snapshotPipelineFiles();
+  const steps = [];
+  const builtEvents = newRows.map(buildEvent);
+  // Existing events are preserved exactly; new events are appended in order.
+  const merged = [...existingEvents, ...builtEvents];
+
+  await fs.writeFile(EVENTS_JSON_PATH, `${JSON.stringify(merged, null, 2)}\n`, "utf8");
+
+  // partition-events.py and sync-events-data.py are Python scripts; they are
+  // invoked with python3 (the package.json events:* aliases do the same).
+  const pipeline = [
+    ["validate events (pre-pipeline)", "python3", ["scripts/validate-events.py", "--for-production"]],
+    ["partition events", "python3", ["scripts/partition-events.py"]],
+    ["sync events data", "python3", ["scripts/sync-events-data.py"]],
+    ["validate events (post-pipeline)", "python3", ["scripts/validate-events.py", "--for-production"]]
+  ];
+  for (const [label, command, args] of pipeline) {
+    const step = runStep(label, command, args);
+    steps.push(step);
+    if (!step.ok) {
+      let rolledBack = true;
+      try {
+        await restoreSnapshot(snapshot);
+      } catch {
+        rolledBack = false;
+      }
+      return { ok: false, steps, rolledBack, added: 0, after: existingEvents.length };
+    }
+  }
+
+  const filesChanged = ["public/data/events.json", "public/data/events-index.json", "public/data/events/*.json", "public/index.html"];
+  return { ok: true, steps, added: builtEvents.length, after: merged.length, filesChanged };
 }
 
 main()

@@ -206,6 +206,13 @@
       "short_description": "American singer-songwriter.",
       "factual_summary": "Olivia Rodrigo is an American singer-songwriter.",
       "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified."
+    },
+    {
+      "slug": "bruno-mars",
+      "name": "Bruno Mars",
+      "short_description": "American singer, songwriter, and musician.",
+      "factual_summary": "Bruno Mars is an American singer, songwriter, and musician.",
+      "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified."
     }
   ],
   "tours": [],

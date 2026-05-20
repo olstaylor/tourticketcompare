@@ -10790,5 +10790,2995 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-columbus-vv1aazkcfgkdl2qzg",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Ohio Stadium",
+    "datetime_iso": "2026-05-20T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vv1AAZkCfGkdl2qZg",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-columbus-ohio-05-20-2026/event/05006394EB3DD035",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-columbus-ohio-05-20-2026/event/05006394EB3DD035",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vv1AAZkCfGkdl2qZg",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-columbus-ohio-05-20-2026/event/05006394EB3DD035",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkev_6oa",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2026-05-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1A8ZkC8GkeV_6Oa",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-23-2026/event/10006390B4647809",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-23-2026/event/10006390B4647809",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1A8ZkC8GkeV_6Oa",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-23-2026/event/10006390B4647809",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkevq6og",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2026-05-24T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1A8ZkC8GkeVQ6OG",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-24-2026/event/10006390B468780C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-24-2026/event/10006390B468780C",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1A8ZkC8GkeVQ6OG",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-24-2026/event/10006390B468780C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkevqmo2",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2026-05-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1A8ZkC8GkeVQMO2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-27-2026/event/10006390B46B780F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-27-2026/event/10006390B46B780F",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1A8ZkC8GkeVQMO2",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-27-2026/event/10006390B46B780F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkevhmob",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2026-05-28T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1A8ZkC8GkeVhMOb",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-28-2026/event/10006390B46F7818",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-28-2026/event/10006390B46F7818",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1A8ZkC8GkeVhMOb",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-28-2026/event/10006390B46F7818",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-toronto-168zk8yb-za2d6ed",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2026-05-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "168Zk8Yb-ZA2d6ed",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-30-2026/event/10006430621E2612",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-30-2026/event/10006430621E2612",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "168Zk8Yb-ZA2d6ed",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-toronto-ontario-05-30-2026/event/10006430621E2612",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_k",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Saint Denis",
+    "country": "France",
+    "venue": "Stade de France - Paris",
+    "datetime_iso": "2026-06-18",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OE_k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_k",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OE_k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_6",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Saint Denis",
+    "country": "France",
+    "venue": "Stade de France - Paris",
+    "datetime_iso": "2026-06-20",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OE_6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_6",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OE_6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_f",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Saint Denis",
+    "country": "France",
+    "venue": "Stade de France - Paris",
+    "datetime_iso": "2026-06-21",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OE_F",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_F",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OE_F",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_k",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Olympiastadion - Berlin",
+    "datetime_iso": "2026-06-26T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OE_K",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_K",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_K",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OE_K",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_K",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_f",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Olympiastadion - Berlin",
+    "datetime_iso": "2026-06-28T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OE_f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_f",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OE_f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_4",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Olympiastadion - Berlin",
+    "datetime_iso": "2026-06-29T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OE_4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_4",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OE_4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vg6pypf",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2026-07-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z698xZbpZ16vG6PYPf",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/1307970954?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/1307970954?language=en-us",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z698xZbpZ16vG6PYPf",
+        "url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/1307970954?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16v3zapgk",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2026-07-04T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z698xZbpZ16v3ZApGk",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/1480156306?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/1480156306?language=en-us",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z698xZbpZ16v3ZApGk",
+        "url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/1480156306?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz1kbsa6fz",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2026-07-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z698xZbpZ1kbsa6FZ",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/631247200?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/631247200?language=en-us",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z698xZbpZ1kbsa6FZ",
+        "url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/631247200?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vvoue3b",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2026-07-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z698xZbpZ16vvOue3b",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/1060342498?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/1060342498?language=en-us",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z698xZbpZ16vvOue3b",
+        "url": "https://www.ticketmaster.nl/event/bruno-mars--the-romantic-tour-tickets/1060342498?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-madrid-z698xz2qz1kutpbz7",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2026-07-10T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z698xZ2qZ1kutPbZ7",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/369958004?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/369958004?language=en-us",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z698xZ2qZ1kutPbZ7",
+        "url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/369958004?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-madrid-z698xz2qz1koyq7f6",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2026-07-11T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z698xZ2qZ1koYq7f6",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/470744507?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/470744507?language=en-us",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z698xZ2qZ1koYq7f6",
+        "url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/470744507?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_x",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Milan",
+    "country": "Italy",
+    "venue": "San Siro Stadium",
+    "datetime_iso": "2026-07-14T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OE_x",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_x",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_x",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OE_x",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_x",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_n",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Milan",
+    "country": "Italy",
+    "venue": "San Siro Stadium",
+    "datetime_iso": "2026-07-15T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OE_N",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_N",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_N",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OE_N",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_N",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-london-1aegzbzgksgzoma",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "London",
+    "country": "United Kingdom",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-07-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1AeGZbzGkSGzoMA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-18-07-2026/event/2300638CCCE11DC5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-18-07-2026/event/2300638CCCE11DC5",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1AeGZbzGkSGzoMA",
+        "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-18-07-2026/event/2300638CCCE11DC5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-london-1anzk8egkdftyue",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "London",
+    "country": "United Kingdom",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-07-19T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1ANZk8EGkdFTYUe",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-19-07-2026/event/23006427C8FF0D82",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-19-07-2026/event/23006427C8FF0D82",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1ANZk8EGkdFTYUe",
+        "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-19-07-2026/event/23006427C8FF0D82",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-london-1anzk8egkduy8wh",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "London",
+    "country": "United Kingdom",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-07-22T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1ANZk8EGkdUY8Wh",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-22-07-2026/event/23006427F6C10F5B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-22-07-2026/event/23006427F6C10F5B",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1ANZk8EGkdUY8Wh",
+        "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-22-07-2026/event/23006427F6C10F5B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-london-1anzk8egkdmnywe",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "London",
+    "country": "United Kingdom",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-07-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1ANZk8EGkdMNYWE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-24-07-2026/event/23006427F78F0F67",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-24-07-2026/event/23006427F78F0F67",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1ANZk8EGkdMNYWE",
+        "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-24-07-2026/event/23006427F78F0F67",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-london-1anzk8egkdzq8wy",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "London",
+    "country": "United Kingdom",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-07-25T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1ANZk8EGkdzq8WY",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-25-07-2026/event/23006427F8750F70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-25-07-2026/event/23006427F8750F70",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1ANZk8EGkdzq8WY",
+        "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-25-07-2026/event/23006427F8750F70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-london-1anzk8egkdbd8xc",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "London",
+    "country": "United Kingdom",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-07-28T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1ANZk8EGkdBd8XC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-28-07-2026/event/23006427FA0D0F8E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-28-07-2026/event/23006427FA0D0F8E",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1ANZk8EGkdBd8XC",
+        "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-28-07-2026/event/23006427FA0D0F8E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2026-08-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "k7vGFbyDOLWCM",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-21-2026/event/0000639EE07FD3B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-21-2026/event/0000639EE07FD3B7",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "k7vGFbyDOLWCM",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-21-2026/event/0000639EE07FD3B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2026-08-22T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "k7vGFbyDO-qCD",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-22-2026/event/0000639EE085D3BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-22-2026/event/0000639EE085D3BB",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "k7vGFbyDO-qCD",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-22-2026/event/0000639EE085D3BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydoxccx",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2026-08-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "k7vGFbyDOxcCX",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-25-2026/event/0000639EE08AD3BE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-25-2026/event/0000639EE08AD3BE",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "k7vGFbyDOxcCX",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-25-2026/event/0000639EE08AD3BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydonw2z",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2026-08-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "k7vGFbyDONW2Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "k7vGFbyDONW2Z",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Acrisure Stadium",
+    "datetime_iso": "2026-08-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1AvbZbyGkUHq626",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-pittsburgh-pennsylvania-08-29-2026/event/1600639DBC7473C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-pittsburgh-pennsylvania-08-29-2026/event/1600639DBC7473C7",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1AvbZbyGkUHq626",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-pittsburgh-pennsylvania-08-29-2026/event/1600639DBC7473C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-philadelphia-vv1aezk8pgkdj_ywf",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Lincoln Financial Field",
+    "datetime_iso": "2026-09-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vv1AeZk8PGkdj_ywf",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-01-2026/event/02006425DC679C94",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-01-2026/event/02006425DC679C94",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vv1AeZk8PGkdj_ywf",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-01-2026/event/02006425DC679C94",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Lincoln Financial Field",
+    "datetime_iso": "2026-09-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vv17FZ_eGkSsN1I0",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-02-2026/event/0200642CF18CAA24",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-02-2026/event/0200642CF18CAA24",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vv17FZ_eGkSsN1I0",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-02-2026/event/0200642CF18CAA24",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-foxborough-vv1a8vn0_ga221kn",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2026-09-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vv1A8vN0_GA221kN",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-05-2026/event/010063919F3CA1A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-05-2026/event/010063919F3CA1A3",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vv1A8vN0_GA221kN",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-05-2026/event/010063919F3CA1A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2026-09-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vv1AvZk8IGkdNsGXb",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-06-2026/event/01006428E3C4CF98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-06-2026/event/01006428E3C4CF98",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vv1AvZk8IGkdNsGXb",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-06-2026/event/01006428E3C4CF98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Lucas Oil Stadium",
+    "datetime_iso": "2026-09-09T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vv17fZbyGklNuhph",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-indianapolis-indiana-09-09-2026/event/0500639AE335B59B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-indianapolis-indiana-09-09-2026/event/0500639AE335B59B",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vv17fZbyGklNuhph",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-indianapolis-indiana-09-09-2026/event/0500639AE335B59B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-tampa-vvg1vz_e944pwc",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Raymond James Stadium",
+    "datetime_iso": "2026-09-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vvG1VZ_e944pWC",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-12-2026/event/0D006425D5556F4E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-12-2026/event/0D006425D5556F4E",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vvG1VZ_e944pWC",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-12-2026/event/0D006425D5556F4E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-tampa-vvg1vz_exa-kfw",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Raymond James Stadium",
+    "datetime_iso": "2026-09-13T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vvG1VZ_exA-Kfw",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-13-2026/event/0D00642885853532",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-13-2026/event/0D00642885853532",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vvG1VZ_exA-Kfw",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-13-2026/event/0D00642885853532",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-new-orleans-g5vizbye_a_hw",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Caesars Superdome",
+    "datetime_iso": "2026-09-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "G5viZbye_a_hw",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-new-orleans-louisiana-09-16-2026/event/1B006390992596F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-new-orleans-louisiana-09-16-2026/event/1B006390992596F2",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "G5viZbye_a_hw",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-new-orleans-louisiana-09-16-2026/event/1B006390992596F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-miami-vvg1vz_ekc64hs",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Hard Rock Stadium",
+    "datetime_iso": "2026-09-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vvG1VZ_ekC64hS",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-19-2026/event/0D0064218E1D56F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-19-2026/event/0D0064218E1D56F3",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vvG1VZ_ekC64hS",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-19-2026/event/0D0064218E1D56F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Hard Rock Stadium",
+    "datetime_iso": "2026-09-20T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vvG1VZ_e-DkwJ_",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-20-2026/event/0D0064287B1B2999",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-20-2026/event/0D0064287B1B2999",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vvG1VZ_e-DkwJ_",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-20-2026/event/0D0064287B1B2999",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-san-antonio-g5dizbyc__upm",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Alamodome",
+    "datetime_iso": "2026-09-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "G5dIZbyC__Upm",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-san-antonio-texas-09-23-2026/event/3A006393996765AE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-san-antonio-texas-09-23-2026/event/3A006393996765AE",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "G5dIZbyC__Upm",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-san-antonio-texas-09-23-2026/event/3A006393996765AE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Falcon Stadium",
+    "datetime_iso": "2026-09-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7O9_A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O9_A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O9_A",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7O9_A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O9_A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Falcon Stadium",
+    "datetime_iso": "2026-09-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Ox8I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox8I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox8I",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Ox8I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox8I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2026-10-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vvG1IZ_A6pmG6f",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-09-30-2026/event/0A006451D6B8C1D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-09-30-2026/event/0A006451D6B8C1D4",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vvG1IZ_A6pmG6f",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-09-30-2026/event/0A006451D6B8C1D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2026-10-03T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vvG1IZbyQBb4mX",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-02-2026/event/0A006396BA615BBE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-02-2026/event/0A006396BA615BBE",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vvG1IZbyQBb4mX",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-02-2026/event/0A006396BA615BBE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-inglewood-vvg1izbyhid9od",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2026-10-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vvG1IZbyhId9oD",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vvG1IZbyhId9oD",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2026-10-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vvG1IZ_eheCVin",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vvG1IZ_eheCVin",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2026-10-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "vvG1IZ_eheo7is",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-07-2026/event/0A006426C2444B31",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-07-2026/event/0A006426C2444B31",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "vvG1IZ_eheo7is",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-07-2026/event/0A006426C2444B31",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Santa Clara",
+    "country": "United States Of America",
+    "venue": "Levi's® Stadium",
+    "datetime_iso": "2026-10-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "G5vYZ_epX9yGn",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-10-2026/event/1C006425BE5F932A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-10-2026/event/1C006425BE5F932A",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "G5vYZ_epX9yGn",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-10-2026/event/1C006425BE5F932A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Santa Clara",
+    "country": "United States Of America",
+    "venue": "Levi's® Stadium",
+    "datetime_iso": "2026-10-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "G5vYZ_eEJSDnx",
+    "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-11-2026/event/1C006429E6CFBAA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-11-2026/event/1C006429E6CFBAA2",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "G5vYZ_eEJSDnx",
+        "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-11-2026/event/1C006429E6CFBAA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2026-10-15T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16v7ZbyrvG7DKHM",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-14-2026/event/1100639781ED3F37",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-14-2026/event/1100639781ED3F37",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16v7ZbyrvG7DKHM",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-14-2026/event/1100639781ED3F37",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshvjex",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2026-10-17T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1Av7Z_eGkShVJEX",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-16-2026/event/1100642CDBD269FE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-16-2026/event/1100642CDBD269FE",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1Av7Z_eGkShVJEX",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-16-2026/event/1100642CDBD269FE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshmjia",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2026-10-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1Av7Z_eGkShMJIA",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1Av7Z_eGkShMJIA",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-vancouver-1av7z_egkwimwwb",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2026-10-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1Av7Z_eGkWiMwWb",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1Av7Z_eGkWiMwWb",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-vancouver-1k78v0fjgacrkay",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2026-10-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1k78v0fJGACrKAY",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-21-2026/event/110064526E793170",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-21-2026/event/110064526E793170",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1k78v0fJGACrKAY",
+        "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-21-2026/event/110064526E793170",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkesyi9m",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1AfZkoKGkeSyi9M",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-03-12-2026/event/14006453B3E6C5F7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-03-12-2026/event/14006453B3E6C5F7",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1AfZkoKGkeSyi9M",
+        "url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-03-12-2026/event/14006453B3E6C5F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1AfZkoKGkeHFcxU",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-04-12-2026/event/14006453BC22D8B6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-04-12-2026/event/14006453BC22D8B6",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1AfZkoKGkeHFcxU",
+        "url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-04-12-2026/event/14006453BC22D8B6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1AfZkoKGkeHFWxy",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-07-12-2026/event/14006453BC23D8B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-07-12-2026/event/14006453BC23D8B9",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1AfZkoKGkeHFWxy",
+        "url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-07-12-2026/event/14006453BC23D8B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1AfZkoKGkeHFWxD",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-08-12-2026/event/14006453BC23D8BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-08-12-2026/event/14006453BC23D8BB",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1AfZkoKGkeHFWxD",
+        "url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-08-12-2026/event/14006453BC23D8BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

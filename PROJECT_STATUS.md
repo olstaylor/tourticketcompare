@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-19 (P0 raw-HTML routing proven locally; two new guides shipped)
+Last updated: 2026-05-20 (Bruno Mars + Olivia Rodrigo data/verification merged; P0 raw-HTML routing previously proven locally)
 
 This file is the current-state source of truth. Use `BACKLOG.md` for prioritised tasks, `HANDOVER.md` for the short session handoff, and `docs/ISSUE_DRAFTS.md` for copy/paste GitHub issue drafts.
 
@@ -8,13 +8,18 @@ This file is the current-state source of truth. Use `BACKLOG.md` for prioritised
 
 TourTicketCompare is a Cloudflare Pages + Pages Functions ticket research site. It is useful today as an independent guide and verified-link directory, not as a live price comparison engine.
 
-Current repo facts checked on 2026-05-19:
+Current repo facts checked on 2026-05-20:
 
 - Production architecture is Pages Functions: static assets live in `public/`, server-side HTML/API logic lives in `functions/`, and there is no application build step.
 - `functions/_middleware.js` is the active HTML entry point and delegates non-asset, non-API routes to `functions/[[path]].js`.
 - `functions/_route-metadata.js` is the source of truth for public route titles, descriptions, H1s, guide routes, and old-guide redirects.
-- `public/data/catalog.json` currently contains 7 artists and 0 tour records.
-- `public/data/events.json` currently contains 130 events, all with Ticketmaster URLs; 93 records contain stored SeatGeek event URLs.
+- `public/data/catalog.json` currently contains 9 artists and 0 tour records.
+- `public/data/events.json` currently contains 272 events, all with Ticketmaster URLs; 93 records contain stored SeatGeek event URLs.
+- `public/data/events/bruno-mars.json` currently contains 56 Bruno Mars events with event-level Ticketmaster links marked verified.
+- `public/data/events/olivia-rodrigo.json` currently contains 86 Olivia Rodrigo events with event-level Ticketmaster links marked verified.
+- Bruno Mars and Olivia Rodrigo event-level Ticketmaster links were verified locally through `/api/out` simulation; this verifies the event-specific destination mapping only, not live prices or availability.
+- `provider_links.ticketmaster.availability_status` remains `not_checked`; verified links must not be treated as availability or pricing claims.
+- Four Bruno Mars Mexico City events remain intentionally excluded because `ticketmaster.com.mx` is not in the current Ticketmaster host allowlist.
 - `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 14 guide routes.
 - `wrangler.toml` has one active D1 binding, `DEMAND_DB`; stale placeholder `RATE_LIMIT_DB` and `CLICKS_DB` bindings are no longer present.
 
@@ -33,7 +38,7 @@ Current repo facts checked on 2026-05-19:
 Supported:
 
 - Homepage and trust/legal pages.
-- Artist index plus 7 artist pages: Beyoncé, Harry Styles, BTS, Ariana Grande, Bad Bunny, Morgan Wallen, and JAY-Z.
+- Artist index plus 9 artist pages: Beyoncé, Harry Styles, BTS, Ariana Grande, Bad Bunny, Morgan Wallen, JAY-Z, Olivia Rodrigo, and Bruno Mars.
 - 14 guide pages with server-rendered guide content (including SeatGeek promo-code guide, onsale-prep, and reading-a-listing).
 - Verified Ticketmaster links where configured.
 - Stored event-level SeatGeek URLs in event data, gated by SeatGeek configuration and safe URL checks before public CTAs render.

@@ -856,9 +856,29 @@ function renderHome() {
   catalog.artists.forEach((artist) => {
     grid.append(renderArtistCard(artist));
   });
-  artists.append(artistHeader, grid);
+  artists.append(artistHeader, renderArtistStatusLegend(), grid);
 
   main.replaceChildren(hero, resultsSection, renderWhatYouCanDo(), artists, renderGuidePreview(), renderTrustSection());
+}
+
+
+function renderArtistStatusLegend() {
+  const legend = document.createElement("div");
+  legend.className = "artist-status-legend";
+  legend.setAttribute("aria-label", "Artist card status legend");
+  const items = [
+    ["Event links available", "Checked event links"],
+    ["Guidance only", "Artist page only"],
+    ["Pending", "No checked event links yet"]
+  ];
+  items.forEach(([badge, detail], index) => {
+    const item = document.createElement("span");
+    item.className = "artist-status-legend-item";
+    text(item, "span", badge, index === 0 ? "status-badge" : "status-badge status-badge-muted");
+    text(item, "span", detail, "status-chip-detail");
+    legend.append(item);
+  });
+  return legend;
 }
 
 function renderArtistCard(artist) {
@@ -1116,7 +1136,7 @@ function renderArtistsIndex() {
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => grid.append(renderArtistCard(artist)));
-  section.append(grid);
+  section.append(renderArtistStatusLegend(), grid);
   main.replaceChildren(section);
 }
 

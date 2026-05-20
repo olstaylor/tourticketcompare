@@ -148,6 +148,11 @@ def main() -> int:
         action="store_true",
         help="Enable strict launch checks: min-events>=1 and reject placeholders. Missing URLs are allowed and render unavailable.",
     )
+    parser.add_argument(
+        "--artists-path",
+        default="public/data/artists.json",
+        help="Path to artists JSON, used for the --for-production artist-reference checks (default: public/data/artists.json).",
+    )
     args = parser.parse_args()
 
     if args.for_production:
@@ -185,6 +190,29 @@ def main() -> int:
     errors: list[str] = []
     ids: set[str] = set()
 
+    # Artist-reference integrity (events must point at a real artist record).
+    # Enforced only under --for-production so default runs stay lenient.
+    artist_names: dict[str, Any] = {}
+    if args.for_production:
+        artists_path = Path(args.artists_path)
+        if not artists_path.exists():
+            print(f"ERROR: missing artists file: {artists_path}", file=sys.stderr)
+            return 2
+        try:
+            artists_data = json.loads(artists_path.read_text())
+        except json.JSONDecodeError as exc:
+            print(f"ERROR: invalid JSON in {artists_path}: {exc}", file=sys.stderr)
+            return 2
+        if not isinstance(artists_data, list):
+            print(f"ERROR: {artists_path} must be a JSON array.", file=sys.stderr)
+            return 2
+        for artist in artists_data:
+            if not isinstance(artist, dict):
+                continue
+            artist_slug = artist.get("slug")
+            if isinstance(artist_slug, str) and artist_slug.strip():
+                artist_names[artist_slug.strip()] = artist.get("name")
+
     required_fields = [
         "id",
         "artist_slug",
@@ -215,6 +243,30 @@ def main() -> int:
         slug = event.get("artist_slug")
         if isinstance(slug, str) and slug.strip() and not SLUG_RE.match(slug.strip()):
             errors.append(f"{prefix}.artist_slug: invalid slug '{slug}' (use lowercase-hyphenated)")
+
+        if args.for_production and isinstance(slug, str) and slug.strip():
+            slug_value = slug.strip()
+            id_label = event_id.strip() if isinstance(event_id, str) and event_id.strip() else f"index {i}"
+            if slug_value not in artist_names:
+                errors.append(
+                    f"{prefix}.artist_slug: '{slug_value}' (event id '{id_label}') "
+                    f"has no matching artist record in {args.artists_path}"
+                )
+            else:
+                expected_name = artist_names[slug_value]
+                event_artist_name = event.get("artist_name")
+                if (
+                    isinstance(expected_name, str)
+                    and expected_name.strip()
+                    and isinstance(event_artist_name, str)
+                    and event_artist_name.strip()
+                    and event_artist_name.strip() != expected_name.strip()
+                ):
+                    errors.append(
+                        f"{prefix}.artist_name: '{event_artist_name.strip()}' "
+                        f"(event id '{id_label}', artist_slug '{slug_value}') "
+                        f"does not match artist record name '{expected_name.strip()}' in {args.artists_path}"
+                    )
 
         dt = event.get("datetime_iso")
         if isinstance(dt, str) and dt.strip() and not parse_iso(dt.strip()):

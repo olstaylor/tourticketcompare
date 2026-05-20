@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-05-11",
+  "updated_at": "2026-05-20",
   "strategy": "Cloudflare Pages stadium tour market watch catalog with factual artist content and verified provider buttons only.",
   "artists": [
     {
@@ -199,6 +199,13 @@
         "ticketmaster-vs-stubhub",
         "how-to-avoid-ticket-scams"
       ]
+    },
+    {
+      "slug": "olivia-rodrigo",
+      "name": "Olivia Rodrigo",
+      "short_description": "American singer-songwriter.",
+      "factual_summary": "Olivia Rodrigo is an American singer-songwriter.",
+      "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified."
     }
   ],
   "tours": [],

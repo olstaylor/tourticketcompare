@@ -47,6 +47,15 @@ const ALLOWED_STATUSES = new Set(["draft", "announced", "on-sale", "past"]);
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const PLACEHOLDER_MARKERS = ["example.com", "placeholder", "your-link", "replace-me", "localhost", "127.0.0.1"];
 
+// Ticketmaster Discovery returns inconsistent display names for the same
+// country (e.g. "Great Britain" vs "United Kingdom"). This map only renames
+// known synonyms to a single canonical label - it never invents a country.
+const COUNTRY_NORMALIZATION = new Map([["great britain", "United Kingdom"]]);
+
+// Share of a multi-artist batch a single artist may hold before review is
+// likely skewed. Used only to surface a warning, never to drop rows.
+const ARTIST_DOMINANCE_THRESHOLD = 0.8;
+
 function usage() {
   return `Usage: node scripts/propose-artists.mjs [options]
 
@@ -220,6 +229,16 @@ function isPlaceholderUrl(value) {
   return PLACEHOLDER_MARKERS.some((marker) => lower.includes(marker));
 }
 
+// Maps a raw Ticketmaster country display name to a canonical label.
+// Returns the original name unchanged when no synonym is known.
+function normalizeCountry(value) {
+  const raw = clean(value, 120);
+  if (!raw) return { country: "", normalized: false };
+  const mapped = COUNTRY_NORMALIZATION.get(raw.toLowerCase());
+  if (mapped && mapped !== raw) return { country: mapped, normalized: true };
+  return { country: raw, normalized: false };
+}
+
 function csvCell(value) {
   const text = clean(value, 1024);
   if (/[",\r\n]/.test(text)) return `"${text.replace(/"/g, '""')}"`;
@@ -267,7 +286,9 @@ function mapEvent(artistSlug, artistName, tmEvent) {
   const datetimeIso = clean(start.dateTime) || clean(start.localDate);
   const year = datetimeIso.slice(0, 4) || "tba";
   const city = clean(venue?.city?.name);
-  const country = clean(venue?.country?.name);
+  const countryRaw = clean(venue?.country?.name);
+  const countryCode = clean(venue?.country?.countryCode, 8);
+  const { country, normalized: countryNormalized } = normalizeCountry(countryRaw);
   const tmEventId = clean(tmEvent?.id, 255);
   const citySlug = slugify(city) || "tba";
   const warnings = [];
@@ -297,30 +318,39 @@ function mapEvent(artistSlug, artistName, tmEvent) {
       vividseats_event_id: "",
       vividseats_url: ""
     },
-    warnings
+    warnings,
+    // Source country metadata kept for report.json auditing only; never
+    // written into events.csv (its schema is fixed by csv-to-events.py).
+    countrySource: {
+      raw: countryRaw,
+      code: countryCode,
+      normalized: countryNormalized
+    }
   };
 }
 
-function selfCheckRow(row, index) {
+// Returns plain-text reasons a candidate row is not apply-ready. An empty
+// array means the row can go into events.csv; any reason routes it to
+// events.rejected.json instead.
+function rowIssues(row) {
   const issues = [];
-  const prefix = `row[${index}] (${row.id || "no-id"})`;
   for (const field of ["id", "artist_slug", "artist_name", "city", "country", "venue", "datetime_iso"]) {
-    if (!clean(row[field])) issues.push(`${prefix}: missing required field '${field}'`);
+    if (!clean(row[field])) issues.push(`missing required field '${field}'`);
   }
   if (row.artist_slug && !SLUG_RE.test(row.artist_slug)) {
-    issues.push(`${prefix}: artist_slug '${row.artist_slug}' is not lowercase-hyphenated`);
+    issues.push(`artist_slug '${row.artist_slug}' is not lowercase-hyphenated`);
   }
   if (row.datetime_iso && Number.isNaN(Date.parse(row.datetime_iso))) {
-    issues.push(`${prefix}: datetime_iso '${row.datetime_iso}' is not parseable`);
+    issues.push(`datetime_iso '${row.datetime_iso}' is not parseable`);
   }
   if (row.status && !ALLOWED_STATUSES.has(row.status)) {
-    issues.push(`${prefix}: status '${row.status}' not in allowed set`);
+    issues.push(`status '${row.status}' not in allowed set`);
   }
   if (row.timezone && !row.timezone.includes("/")) {
-    issues.push(`${prefix}: timezone '${row.timezone}' is not IANA-like`);
+    issues.push(`timezone '${row.timezone}' is not IANA-like`);
   }
   if (row.ticketmaster_url && isPlaceholderUrl(row.ticketmaster_url)) {
-    issues.push(`${prefix}: ticketmaster_url is a placeholder`);
+    issues.push("ticketmaster_url is a placeholder");
   }
   return issues;
 }
@@ -407,7 +437,7 @@ async function processArtist(name, { apiKey, base, options }) {
     attractionId: clean(attraction.id),
     confidence: match.best.confidence,
     genres: genresFromAttraction(attraction),
-    rows: mapped.map((m) => m.row),
+    mapped,
     eventWarnings: mapped.flatMap((m, idx) => m.warnings.map((w) => `${m.row.id || `event[${idx}]`}: ${w}`)),
     warnings
   };
@@ -444,7 +474,7 @@ function buildCatalogTicketLink(result) {
   };
 }
 
-function buildAffiliateActions(accepted) {
+function buildAffiliateActions(artistGroups) {
   const lines = [
     "# Affiliate / deep-link actions",
     "",
@@ -477,13 +507,13 @@ function buildAffiliateActions(accepted) {
     "### Per-artist status",
     ""
   ];
-  if (accepted.length === 0) {
+  if (artistGroups.length === 0) {
     lines.push("_No accepted artists in this batch._", "");
   }
-  for (const result of accepted) {
+  for (const { result, valid } of artistGroups) {
     lines.push(`- **${result.canonicalName}** (\`${result.slug}\`)`);
     lines.push(
-      `  - Event-level CTAs: ${result.rows.length} candidate event(s) with Ticketmaster URLs ` +
+      `  - Event-level CTAs: ${valid.length} candidate event(s) with Ticketmaster URLs ` +
         "-> work automatically via the existing Impact API path once events are applied."
     );
     lines.push(
@@ -497,9 +527,87 @@ function buildAffiliateActions(accepted) {
   return `${lines.join("\n")}\n`;
 }
 
+// Counts of output (post-normalisation) country names across rows.
+function summarizeCountries(rows) {
+  const out = {};
+  for (const row of rows) {
+    const key = clean(row.country) || "(unknown)";
+    out[key] = (out[key] || 0) + 1;
+  }
+  return out;
+}
+
+// Audit trail of every distinct source country seen, with ISO code and the
+// output name, so source-data inconsistencies can be reviewed after the fact.
+function buildCountryAudit(mappedRows) {
+  const audit = new Map();
+  for (const m of mappedRows) {
+    const cs = m.countrySource || { raw: "", code: "", normalized: false };
+    const key = JSON.stringify([cs.raw, cs.code, m.row.country, Boolean(cs.normalized)]);
+    audit.set(key, (audit.get(key) || 0) + 1);
+  }
+  return [...audit.entries()]
+    .map(([key, rows]) => {
+      const [raw, code, output, normalized] = JSON.parse(key);
+      return {
+        source_country_name: raw || null,
+        source_country_code: code || null,
+        output_country_name: output || null,
+        normalized,
+        rows
+      };
+    })
+    .sort((a, b) => b.rows - a.rows);
+}
+
+// Surfaces batch-shape problems for the reviewer: a dominant artist or
+// multiple accepted artists with no events. Warnings only - drops nothing.
+function buildBatchWarnings(artistGroups, totalValid) {
+  const warnings = [];
+  const zeroEventArtists = artistGroups
+    .filter((g) => g.valid.length === 0)
+    .map((g) => g.result.canonicalName);
+  if (zeroEventArtists.length >= 2) {
+    warnings.push(
+      `${zeroEventArtists.length} accepted artists produced zero candidate events ` +
+        `(${zeroEventArtists.join(", ")}). They matched a Ticketmaster attraction but ` +
+        "have no upcoming events, or none under the current country filter."
+    );
+  }
+  if (totalValid > 0 && artistGroups.length > 1) {
+    const top = artistGroups
+      .map((g) => ({ name: g.result.canonicalName, count: g.valid.length }))
+      .sort((a, b) => b.count - a.count)[0];
+    const share = top.count / totalValid;
+    if (share >= ARTIST_DOMINANCE_THRESHOLD) {
+      warnings.push(
+        `One artist (${top.name}) accounts for ${top.count}/${totalValid} ` +
+          `(${Math.round(share * 100)}%) of candidate events. Consider proposing ` +
+          "artists in separate batches so one artist does not dominate review."
+      );
+    }
+  }
+  return warnings;
+}
+
+// Suggested follow-up runs so reviewers can compare market coverage.
+function recommendedNextRuns(inputs, minConfidence) {
+  const argList = `--artists ${JSON.stringify(inputs.join(","))} --min-confidence ${minConfidence}`;
+  return [
+    `Global (no country filter): npm run artists:propose -- ${argList}`,
+    `US events only: npm run artists:propose -- ${argList} --country US`,
+    `GB events only: npm run artists:propose -- ${argList} --country GB`
+  ];
+}
+
 async function writeOutputs(outDir, payload) {
   await fs.mkdir(outDir, { recursive: true });
   await fs.writeFile(path.join(outDir, "events.csv"), payload.csv, "utf8");
+  await fs.writeFile(
+    path.join(outDir, "events.rejected.json"),
+    `${JSON.stringify(payload.rejectedEvents, null, 2)}\n`,
+    "utf8"
+  );
   await fs.writeFile(
     path.join(outDir, "artists.proposed.json"),
     `${JSON.stringify(payload.artists, null, 2)}\n`,
@@ -530,15 +638,24 @@ function runSelfTest() {
   assert("offsale maps to announced", discoveryStatusToStatus("offsale") === "announced");
   assert(
     "row self-check flags bad slug",
-    selfCheckRow({ id: "x", artist_slug: "Bad Slug", artist_name: "a", city: "a", country: "a", venue: "a", datetime_iso: "2026-01-01T00:00:00Z" }, 0).length > 0
+    rowIssues({ id: "x", artist_slug: "Bad Slug", artist_name: "a", city: "a", country: "a", venue: "a", datetime_iso: "2026-01-01T00:00:00Z" }).length > 0
   );
   assert(
     "clean row passes self-check",
-    selfCheckRow(
-      { id: "x", artist_slug: "good-slug", artist_name: "a", city: "a", country: "a", venue: "a", datetime_iso: "2026-01-01T00:00:00Z", status: "announced" },
-      0
+    rowIssues(
+      { id: "x", artist_slug: "good-slug", artist_name: "a", city: "a", country: "a", venue: "a", datetime_iso: "2026-01-01T00:00:00Z", status: "announced" }
     ).length === 0
   );
+  assert(
+    "missing venue row is flagged for rejection",
+    rowIssues({ id: "x", artist_slug: "good-slug", artist_name: "a", city: "a", country: "a", venue: "", datetime_iso: "2026-01-01T00:00:00Z" })
+      .some((reason) => reason.includes("venue"))
+  );
+  assert("great britain normalizes to united kingdom", normalizeCountry("Great Britain").country === "United Kingdom");
+  assert("country normalization is flagged", normalizeCountry("Great Britain").normalized === true);
+  assert("known country name is preserved", normalizeCountry("United States Of America").country === "United States Of America");
+  assert("unchanged country is not flagged normalized", normalizeCountry("Sweden").normalized === false);
+  assert("empty country yields empty result", normalizeCountry("").country === "");
 
   let failed = 0;
   for (const check of checks) {
@@ -595,29 +712,54 @@ async function main() {
     const result = await processArtist(name, { apiKey, base, options });
     if (result.accepted) {
       accepted.push(result);
-      console.error(`  matched "${result.canonicalName}" (confidence ${result.confidence}, ${result.rows.length} events)`);
+      console.error(`  matched "${result.canonicalName}" (confidence ${result.confidence}, ${result.mapped.length} events)`);
     } else {
       rejected.push(result);
       console.error(`  rejected: ${result.reason}`);
     }
   }
 
-  const allRows = accepted.flatMap((result) => result.rows);
-  const selfCheckIssues = allRows.flatMap((row, idx) => selfCheckRow(row, idx));
+  // Partition each accepted artist's rows: apply-ready rows go to events.csv,
+  // rows with a structural problem go to events.rejected.json with reasons.
+  const artistGroups = accepted.map((result) => {
+    const valid = [];
+    const validMapped = [];
+    const rejectedRows = [];
+    for (const m of result.mapped) {
+      const issues = rowIssues(m.row);
+      if (issues.length > 0) {
+        rejectedRows.push({ ...m.row, rejection_reasons: issues });
+      } else {
+        valid.push(m.row);
+        validMapped.push(m);
+      }
+    }
+    return { result, valid, validMapped, rejectedRows };
+  });
 
-  // Duplicate id detection across the candidate batch.
+  const allRows = artistGroups.flatMap((g) => g.valid);
+  const allValidMapped = artistGroups.flatMap((g) => g.validMapped);
+  const rejectedEvents = artistGroups.flatMap((g) => g.rejectedRows);
+
+  // Duplicate id detection across the apply-ready rows.
+  const structuralIssues = [];
   const seenIds = new Map();
   for (const row of allRows) {
     seenIds.set(row.id, (seenIds.get(row.id) || 0) + 1);
   }
   for (const [id, count] of seenIds) {
-    if (count > 1) selfCheckIssues.push(`duplicate candidate id '${id}' appears ${count} times`);
+    if (count > 1) structuralIssues.push(`duplicate candidate id '${id}' appears ${count} times`);
   }
 
+  const batchWarnings = buildBatchWarnings(artistGroups, allRows.length);
+
   const validationNotes = [
-    selfCheckIssues.length === 0
-      ? "Structural self-check passed for all candidate event rows (required fields, slug, ISO date, status, timezone, placeholder URLs, unique ids)."
-      : `Structural self-check found ${selfCheckIssues.length} issue(s) - see structural_issues below.`,
+    structuralIssues.length === 0
+      ? "Structural self-check passed for all rows written to events.csv (required fields, slug, ISO date, status, timezone, placeholder URLs, unique ids)."
+      : `Structural self-check found ${structuralIssues.length} issue(s) in events.csv - see structural_issues below.`,
+    rejectedEvents.length === 0
+      ? "No rows were rejected; every fetched event was apply-ready."
+      : `${rejectedEvents.length} event row(s) were withheld from events.csv and written to events.rejected.json with reasons.`,
     "This script does not run the Python validator directly because that requires merging into events.json (an apply step).",
     "After an approved apply step, run: python3 scripts/validate-events.py --for-production",
     "Other repo checks to run after apply: node --check public/app.js | node --check 'functions/[[path]].js' | node --check functions/api/out.js | node --check functions/api/shows.js | node scripts/smoke-prelaunch.mjs | git diff --check"
@@ -625,10 +767,11 @@ async function main() {
 
   const reviewInstructions = [
     "1. Review events.csv: confirm every row is a real, upcoming, correctly-attributed event. Delete any row you do not want.",
-    "2. Review artists.proposed.json: set indexing_status to a real value only when the artist page will have substantial content. Marketing copy for catalog.json (factual_summary, FAQ, etc.) must be written by a human - this script intentionally does not generate it.",
-    "3. Review catalog-ticket-links.proposed.json: all trust flags are false by design. Do not flip verified/public_enabled until the affiliate destination is confirmed.",
-    "4. Read affiliate-actions.md: event-level CTAs work automatically via the existing Impact API path; artist-page vanity links must be created in the Impact dashboard and added to functions/api/out.js by hand.",
-    "5. Nothing here is applied to production. Applying an approved batch is a separate, not-yet-implemented step."
+    "2. Review events.rejected.json: rows withheld for missing required fields (e.g. venue). Fix the source data and re-run, or discard.",
+    "3. Review artists.proposed.json: set indexing_status to a real value only when the artist page will have substantial content. Marketing copy for catalog.json (factual_summary, FAQ, etc.) must be written by a human - this script intentionally does not generate it.",
+    "4. Review catalog-ticket-links.proposed.json: all trust flags are false by design. Do not flip verified/public_enabled until the affiliate destination is confirmed.",
+    "5. Read affiliate-actions.md: event-level CTAs work automatically via the existing Impact API path; artist-page vanity links must be created in the Impact dashboard and added to functions/api/out.js by hand.",
+    "6. Nothing here is applied to production. Applying an approved batch is a separate, not-yet-implemented step."
   ];
 
   const report = {
@@ -643,16 +786,18 @@ async function main() {
       inputs: uniqueNames.length,
       accepted: accepted.length,
       rejected: rejected.length,
-      candidate_events: allRows.length
+      candidate_events: allRows.length,
+      rejected_events: rejectedEvents.length
     },
-    accepted: accepted.map((result) => ({
+    accepted: accepted.map((result, idx) => ({
       input: result.input,
       matched_attraction: result.canonicalName,
       attraction_id: result.attractionId,
       proposed_slug: result.slug,
       confidence: result.confidence,
       genres: result.genres,
-      event_count: result.rows.length,
+      event_count: artistGroups[idx].valid.length,
+      rejected_event_count: artistGroups[idx].rejectedRows.length,
       warnings: [...result.warnings, ...result.eventWarnings]
     })),
     rejected: rejected.map((result) => ({
@@ -661,12 +806,23 @@ async function main() {
       best_candidate: result.best_candidate || null,
       best_confidence: result.best_confidence ?? null
     })),
-    structural_issues: selfCheckIssues,
+    artist_event_summary: artistGroups.map((g) => ({
+      slug: g.result.slug,
+      name: g.result.canonicalName,
+      accepted_events: g.valid.length,
+      rejected_events: g.rejectedRows.length
+    })),
+    country_summary: summarizeCountries(allRows),
+    country_source_audit: buildCountryAudit(allValidMapped),
+    batch_warnings: batchWarnings,
+    recommended_next_runs: recommendedNextRuns(uniqueNames, options.minConfidence),
+    structural_issues: structuralIssues,
     validation_notes: validationNotes,
     review_instructions: reviewInstructions,
     notes: [
       "Ticketmaster Discovery is the only event source used. No provider scraping occurs.",
       "tour_name is left empty for every event because Discovery does not return a reliable tour name.",
+      "country names are normalised to a canonical label (see country_source_audit); ISO codes are preserved there for auditing.",
       "SeatGeek enrichment is intentionally out of scope here; scripts/propose-seatgeek-urls.mjs covers that separately.",
       "Credentials are read server-side only and are never written to any output file."
     ]
@@ -674,21 +830,25 @@ async function main() {
 
   await writeOutputs(outDir, {
     csv: toCsv(allRows),
+    rejectedEvents,
     artists: accepted.map(buildArtistRecord),
     catalogTicketLinks: accepted.map(buildCatalogTicketLink),
-    affiliateActions: buildAffiliateActions(accepted),
+    affiliateActions: buildAffiliateActions(artistGroups),
     report
   });
 
   console.error("");
   console.error(`Wrote candidate files to: ${path.relative(REPO_ROOT, outDir)}/`);
   console.error(`  events.csv                        (${allRows.length} candidate events)`);
+  console.error(`  events.rejected.json              (${rejectedEvents.length} withheld rows)`);
   console.error(`  artists.proposed.json             (${accepted.length} proposed artist records)`);
   console.error(`  catalog-ticket-links.proposed.json(${accepted.length} proposed ticket_link drafts)`);
   console.error("  affiliate-actions.md");
   console.error("  report.json");
   if (rejected.length > 0) console.error(`Rejected ${rejected.length} input(s) below confidence ${options.minConfidence}.`);
-  if (selfCheckIssues.length > 0) console.error(`WARNING: ${selfCheckIssues.length} structural issue(s) - see report.json.`);
+  if (rejectedEvents.length > 0) console.error(`Withheld ${rejectedEvents.length} event row(s) - see events.rejected.json.`);
+  if (structuralIssues.length > 0) console.error(`WARNING: ${structuralIssues.length} structural issue(s) - see report.json.`);
+  for (const warning of batchWarnings) console.error(`WARNING: ${warning}`);
   console.error("Dry-run only: no production files were changed.");
   return 0;
 }

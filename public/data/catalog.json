@@ -203,16 +203,56 @@
     {
       "slug": "olivia-rodrigo",
       "name": "Olivia Rodrigo",
-      "short_description": "American singer-songwriter.",
-      "factual_summary": "Olivia Rodrigo is an American singer-songwriter.",
-      "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified."
+      "short_description": "American singer-songwriter known for pop releases, high-demand arena dates, and a strong global fan audience.",
+      "factual_summary": "Olivia Rodrigo is an American singer-songwriter and performer. She first gained broad recognition through acting before launching a chart-successful music career. Her catalog is centered on contemporary pop and pop-rock songwriting, and major live appearances can draw fast-moving demand in larger markets.",
+      "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified.",
+      "faq": [
+        {
+          "question": "Where should I confirm Olivia Rodrigo ticket details before buying?",
+          "answer": "Use the ticket provider page linked for the event and confirm the current date, venue, seat details, delivery method, and final checkout total there before paying."
+        },
+        {
+          "question": "Does a verified link confirm current prices or availability?",
+          "answer": "No. Verified means the destination link was checked. Current prices, fees, and availability are confirmed by the ticket provider at checkout."
+        },
+        {
+          "question": "What should I compare if I am checking more than one provider page?",
+          "answer": "Compare the same event and similar seat details, then use the final checkout total and provider terms, including delivery, refund, and transfer rules."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     },
     {
       "slug": "bruno-mars",
       "name": "Bruno Mars",
-      "short_description": "American singer, songwriter, and musician.",
-      "factual_summary": "Bruno Mars is an American singer, songwriter, and musician.",
-      "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified."
+      "short_description": "American singer-songwriter and performer associated with pop, funk, R&B, and large live-production shows.",
+      "factual_summary": "Bruno Mars is an American singer, songwriter, musician, and performer. His recorded work spans pop, funk, soul, and R&B influences, and he has released multiple globally recognized singles and albums. Demand for major appearances can be concentrated in specific cities, so provider checkout pages are the source for current event and ticket details.",
+      "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified.",
+      "faq": [
+        {
+          "question": "How can I check whether a Bruno Mars event link is up to date?",
+          "answer": "Open the linked provider page and confirm the artist, event date, venue, and city on that page before you continue to checkout."
+        },
+        {
+          "question": "Does TourTicketCompare publish live Bruno Mars ticket prices?",
+          "answer": "No. This site provides checked destination links and guidance. Current prices, fees, and availability are shown and confirmed by the ticket provider."
+        },
+        {
+          "question": "What is the safest way to compare Bruno Mars ticket options?",
+          "answer": "Review matching event details across provider pages and compare final checkout totals, then read delivery timing and refund or transfer terms before purchase."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],

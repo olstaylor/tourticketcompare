@@ -1,8 +1,10 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-05-19
+Last updated: 2026-05-20
 
 This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-state source of truth; `CLEANUP_AUDIT.md` is a reference audit, not the active task list.
+
+Status note (2026-05-20): Recent UX/trust polish is complete — verified event-link disclosure is clearer, homepage positioning is simpler, and an artist status legend has been added. The current site audit now rates UX/trust posture Green with minor Amber caveats. `data:stats` remains a small follow-up only if it is not already complete.
 
 ## Recommended next 5 Codex-sized tasks
 

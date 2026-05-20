@@ -17,7 +17,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-indianapolis-indiana-05-08-2026/event/0500635DDC2DB013",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500635DDC2DB013",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-indianapolis-indiana-05-08-2026/event/0500635DDC2DB013",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-indianapolis-0500635ddc56b025",
@@ -37,7 +67,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-indianapolis-indiana-05-09-2026/event/0500635DDC56B025",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500635DDC56B025",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-indianapolis-indiana-05-09-2026/event/0500635DDC56B025",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-gainesville-2200635d19f97a46",
@@ -57,7 +117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-gainesville-florida-05-15-2026/event/2200635D19F97A46",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200635D19F97A46",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-gainesville-florida-05-15-2026/event/2200635D19F97A46",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-gainesville-2200635d1be07abe",
@@ -77,7 +167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-gainesville-florida-05-16-2026/event/2200635D1BE07ABE",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200635D1BE07ABE",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-gainesville-florida-05-16-2026/event/2200635D1BE07ABE",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-denver-1e00635df7cf9add",
@@ -97,7 +217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-denver-colorado-05-29-2026/event/1E00635DF7CF9ADD",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00635DF7CF9ADD",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-denver-colorado-05-29-2026/event/1E00635DF7CF9ADD",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-denver-1e00635df7d99ae8",
@@ -117,7 +267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-denver-colorado-05-30-2026/event/1E00635DF7D99AE8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00635DF7D99AE8",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-denver-colorado-05-30-2026/event/1E00635DF7D99AE8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-pittsburgh-1600635c84ff1ead",
@@ -137,7 +317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-pittsburgh-pennsylvania-06-05-2026/event/1600635C84FF1EAD",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600635C84FF1EAD",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-pittsburgh-pennsylvania-06-05-2026/event/1600635C84FF1EAD",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-pittsburgh-1600635d93d83472",
@@ -157,7 +367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-pittsburgh-pennsylvania-06-06-2026/event/1600635D93D83472",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600635D93D83472",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-pittsburgh-pennsylvania-06-06-2026/event/1600635D93D83472",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-chicago-z7r9jz1a7qtbn",
@@ -177,7 +417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbN",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbN",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-chicago-z7r9jz1a7qtba",
@@ -197,7 +467,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtba",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtba",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtba",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtbd",
@@ -217,7 +517,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbd",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbd",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtb7",
@@ -237,7 +567,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtb7",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtb7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtb7",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtba2",
@@ -257,7 +617,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbA",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbA",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtbk",
@@ -277,7 +667,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbk",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbk",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs",
@@ -297,7 +717,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbs",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbs",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbf",
@@ -317,7 +767,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbF",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qtbF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbF",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635dc72ec234",
@@ -337,7 +817,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200635DC72EC234",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635da084a7a9",
@@ -357,6 +867,36 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-08-01-2026/event/0200635DA084A7A9",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200635DA084A7A9",
+        "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-08-01-2026/event/0200635DA084A7A9",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   }
 ]

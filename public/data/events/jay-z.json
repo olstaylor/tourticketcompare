@@ -17,7 +17,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006473D78CFDB8",
+        "url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473d9d109cb",
@@ -37,7 +67,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-25-bronx-new-york-07-11-2026/event/1D006473D9D109CB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006473D9D109CB",
+        "url": "https://www.ticketmaster.com/jayz-25-bronx-new-york-07-11-2026/event/1D006473D9D109CB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473db760a7f",
@@ -57,6 +117,36 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-extra-innings-bronx-new-york-07-12-2026/event/1D006473DB760A7F",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006473DB760A7F",
+        "url": "https://www.ticketmaster.com/jayz-extra-innings-bronx-new-york-07-12-2026/event/1D006473DB760A7F",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   }
 ]

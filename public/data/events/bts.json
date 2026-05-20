@@ -17,7 +17,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-16-2026/event/1C006429C95EA2B8",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006429C95EA2B8",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-16-2026/event/1C006429C95EA2B8",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-stanford-1c006429c9dda300",
@@ -37,7 +67,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-17-2026/event/1C006429C9DDA300",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006429C9DDA300",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-17-2026/event/1C006429C9DDA300",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-stanford-1c006435858268ec",
@@ -57,7 +117,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-19-2026/event/1C006435858268EC",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006435858268EC",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-stanford-stanford-california-05-19-2026/event/1C006435858268EC",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429d233149a",
@@ -77,7 +167,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-23-2026/event/17006429D233149A",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006429D233149A",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-23-2026/event/17006429D233149A",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3354a8c",
@@ -97,7 +217,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-24-2026/event/17006429E3354A8C",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006429E3354A8C",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-24-2026/event/17006429E3354A8C",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3454a9e",
@@ -117,7 +267,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-27-2026/event/17006429E3454A9E",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006429E3454A9E",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-27-2026/event/17006429E3454A9E",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3514ab0",
@@ -137,7 +317,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-28-2026/event/17006429E3514AB0",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006429E3514AB0",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-las-las-vegas-nevada-05-28-2026/event/17006429E3514AB0",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429eb39bb6f",
@@ -157,7 +367,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-01-2026/event/00006429EB39BB6F",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006429EB39BB6F",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-01-2026/event/00006429EB39BB6F",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429ed30bceb",
@@ -177,7 +417,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-02-2026/event/00006429ED30BCEB",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006429ED30BCEB",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-02-2026/event/00006429ED30BCEB",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cbd7ab56b",
@@ -197,7 +467,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-05-2026/event/0100642CBD7AB56B",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100642CBD7AB56B",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-05-2026/event/0100642CBD7AB56B",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cc24ebb04",
@@ -217,7 +517,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-06-2026/event/0100642CC24EBB04",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100642CC24EBB04",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-06-2026/event/0100642CC24EBB04",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-chicago-0400642acbbd5d44",
@@ -237,7 +567,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/0400642ACBBD5D44",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400642ACBBD5D44",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/0400642ACBBD5D44",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-chicago-0400642acc7e5d9b",
@@ -257,7 +617,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400642ACC7E5D9B",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429ab3c5ef1",
@@ -277,7 +667,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006429AB3C5EF1",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b1b363a4",
@@ -297,7 +717,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-02-2026/event/0A006429B1B363A4",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006429B1B363A4",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-02-2026/event/0A006429B1B363A4",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b2cb6418",
@@ -317,7 +767,37 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-05-2026/event/0A006429B2CB6418",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006429B2CB6418",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-05-2026/event/0A006429B2CB6418",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b353645f",
@@ -337,6 +817,36 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F",
-    "last_verified_at": "2026-05-07"
+    "last_verified_at": "2026-05-07",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006429B353645F",
+        "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F",
+        "verified": true,
+        "last_verified_at": "2026-05-07",
+        "availability_status": "on_sale"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    }
   }
 ]

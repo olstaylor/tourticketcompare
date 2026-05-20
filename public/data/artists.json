@@ -54,5 +54,13 @@
     "verified_provider_count": 1,
     "verified_providers": ["ticketmaster"],
     "last_verified_at": "2026-04-30"
+  },
+  {
+    "slug": "olivia-rodrigo",
+    "name": "Olivia Rodrigo",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 1,
+    "verified_providers": ["ticketmaster"],
+    "last_verified_at": "2026-05-20"
   }
 ]

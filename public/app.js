@@ -1192,10 +1192,13 @@ function renderArtist(artist) {
   text(right, "p", "We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.", "disclosure-note");
   summary.append(left, right);
 
-  const demand = document.createElement("section");
-  demand.className = "nested-panel";
-  text(demand, "h2", "Why fans check early");
-  text(demand, "p", artist.why_demand_is_high);
+  let demand = null;
+  if (typeof artist.why_demand_is_high === "string" && artist.why_demand_is_high.trim()) {
+    demand = document.createElement("section");
+    demand.className = "nested-panel";
+    text(demand, "h2", "Why demand may be high");
+    text(demand, "p", artist.why_demand_is_high);
+  }
 
   const checklist = document.createElement("section");
   checklist.className = "nested-panel";
@@ -1237,7 +1240,7 @@ function renderArtist(artist) {
   );
   guideLinks.append(guideGrid);
 
-  section.append(verificationPanel, summary, demand, checklist, pageNote, guideLinks, renderArtistFaq(artist));
+  section.append(verificationPanel, summary, ...(demand ? [demand] : []), checklist, pageNote, guideLinks, renderArtistFaq(artist));
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.
@@ -1256,20 +1259,27 @@ function renderArtistFaq(artist) {
   const faq = document.createElement("section");
   faq.className = "nested-panel faq-panel";
   text(faq, "h2", `${artist.name} ticket FAQ`);
-  const items = [
-    [
-      `Does this page list ${artist.name} tour dates?`,
-      "Event details are only shown when the artist, date, venue, and ticket destination have all been verified. Use the verified event link to confirm current platform information."
-    ],
-    [
-      `Does TourTicketCompare sell ${artist.name} tickets?`,
-      "No. TourTicketCompare links to external ticketing platforms when a destination is verified. Prices, fees, and terms are set by the provider, not by this site."
-    ],
-    [
-      "Are prices shown here?",
-      "Prices are set and controlled by external ticket platforms. Always check the final checkout total on the provider site before buying."
-    ]
-  ].concat(artist.faq || []);
+  const custom = Array.isArray(artist.faq)
+    ? artist.faq
+        .filter((entry) => entry && typeof entry === "object" && entry.question && entry.answer)
+        .map((entry) => [entry.question, entry.answer])
+    : [];
+  const items = custom.length
+    ? custom
+    : [
+        [
+          `Does this page list ${artist.name} tour dates?`,
+          "No. This page does not publish tour dates unless event details have been verified. Use the verified ticket link, when available, to check current platform information."
+        ],
+        [
+          `Does TourTicketCompare sell ${artist.name} tickets?`,
+          "No. TourTicketCompare does not sell tickets directly. We link to external ticketing platforms when a destination is verified."
+        ],
+        [
+          "Are prices shown here?",
+          "No. Prices should appear only when live provider data is verified and timestamped. Final prices and fees are controlled by the ticket platform."
+        ]
+      ];
   items.forEach(([question, answer]) => {
     const details = document.createElement("details");
     const summary = document.createElement("summary");

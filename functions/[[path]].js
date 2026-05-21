@@ -194,17 +194,36 @@ function baseSchema(origin) {
   ];
 }
 
+function genericArtistFaq(artistName) {
+  return [
+    [
+      `Does this page list ${artistName} tour dates?`,
+      "No. This page does not publish tour dates unless event details have been verified. Use the verified ticket link, when available, to check current platform information."
+    ],
+    [
+      `Does TourTicketCompare sell ${artistName} tickets?`,
+      "No. TourTicketCompare does not sell tickets directly. We link to external ticketing platforms when a destination is verified."
+    ],
+    [
+      "Are prices shown here?",
+      "No. Prices should appear only when live provider data is verified and timestamped. Final prices and fees are controlled by the ticket platform."
+    ]
+  ];
+}
+
+function artistFaqEntries(artist) {
+  const custom = Array.isArray(artist.faq)
+    ? artist.faq
+        .filter((entry) => entry && typeof entry === "object" && entry.question && entry.answer)
+        .map((entry) => [String(entry.question), String(entry.answer)])
+    : [];
+  return custom.length ? custom : genericArtistFaq(artist.name);
+}
+
 function faqSchema(route) {
   const questions =
     route.type === "artist"
-      ? [
-          [
-            `Does this page list ${route.artist.name} tour dates?`,
-            "No. This page does not publish tour dates unless event details have been verified. Use the verified ticket link, when available, to check current platform information."
-          ],
-          [`Does TourTicketCompare sell ${route.artist.name} tickets?`, "No. TourTicketCompare does not sell tickets directly."],
-          ["Are prices shown here?", "No. Prices should appear only when live provider data is verified and timestamped."]
-        ]
+      ? artistFaqEntries(route.artist)
       : [
           ["Is TourTicketCompare official?", "No. TourTicketCompare is independent and unofficial."],
           ["Does the site sell tickets directly?", "No. Ticket buying happens on the external provider site."],
@@ -664,6 +683,15 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
     const shows = futureShowsForArtist(events, artist.slug, 6);
+    const demandHtml =
+      typeof artist.why_demand_is_high === "string" && artist.why_demand_is_high.trim()
+        ? `<section class="nested-panel"><h2>Why demand may be high</h2><p>${escapeHtml(
+            artist.why_demand_is_high
+          )}</p></section>`
+        : "";
+    const artistFaqHtml = artistFaqEntries(artist)
+      .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
+      .join("");
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="artistTitle">${escapeHtml(
@@ -678,7 +706,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes
-    )}</p><p class="disclosure-note">We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.</p></div></section><section class="nested-panel"><h2>Ticket buying checklist</h2><ul class="check-list"><li>Check the final price including fees before paying.</li><li>Check the seat location, section, row, and any view restrictions.</li><li>Check resale terms and buyer protections if the ticket is listed by a third party.</li><li>Check the delivery method and expected transfer timing.</li><li>Check refund, cancellation, and event-change terms on the provider site.</li></ul></section>${relatedGuidesHtml}<section class="nested-panel"><h2>About this page</h2><p>This page does not list unverified tour dates, invented prices, speculative venues, or unchecked checkout links. Ticket details should be confirmed on the ticketing platform before purchase.</p></section><section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+    )}</p><p class="disclosure-note">We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.</p></div></section>${demandHtml}<section class="nested-panel"><h2>Ticket buying checklist</h2><ul class="check-list"><li>Check the final price including fees before paying.</li><li>Check the seat location, section, row, and any view restrictions.</li><li>Check resale terms and buyer protections if the ticket is listed by a third party.</li><li>Check the delivery method and expected transfer timing.</li><li>Check refund, cancellation, and event-change terms on the provider site.</li></ul></section>${relatedGuidesHtml}<section class="nested-panel"><h2>About this page</h2><p>This page does not list unverified tour dates, invented prices, speculative venues, or unchecked checkout links. Ticket details should be confirmed on the ticketing platform before purchase.</p></section><section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       "All artists",
       "/artists",
       "mini-link"
@@ -692,11 +720,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "mini-link"
     )}</div></section><section class="nested-panel faq-panel"><h2>${escapeHtml(
       artist.name
-    )} ticket FAQ</h2><details><summary>Does this page list ${escapeHtml(
-      artist.name
-    )} tour dates?</summary><p>No. This page does not publish tour dates unless event details have been verified. Use the verified ticket link, when available, to check current platform information.</p></details><details><summary>Does TourTicketCompare sell ${escapeHtml(
-      artist.name
-    )} tickets?</summary><p>No. TourTicketCompare does not sell tickets directly. We link to external ticketing platforms when a destination is verified.</p></details><details><summary>Are prices shown here?</summary><p>No. Prices should appear only when live provider data is verified and timestamped. Final prices and fees are controlled by the ticket platform.</p></details></section></section></main>`;
+    )} ticket FAQ</h2>${artistFaqHtml}</section></section></main>`;
   }
 
   if (route.type === "guide") {

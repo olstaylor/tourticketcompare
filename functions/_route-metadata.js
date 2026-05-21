@@ -12,7 +12,7 @@ export const TRUST_ROUTES = {
   "/artists": {
     title: "Artists | TourTicketCompare",
     description:
-      "Browse major artist pages with verified ticket links where available, practical guidance, and no fake prices or invented dates.",
+      "Browse major artist pages with verified ticket links where available and practical buying guidance on what to check before checkout.",
     indexable: true,
     breadcrumb: [{ name: "Artists", path: "/artists" }]
   },
@@ -26,7 +26,7 @@ export const TRUST_ROUTES = {
   "/how-it-works": {
     title: "How TourTicketCompare Works",
     description:
-      "How TourTicketCompare checks official sources, keeps ticket links specific, and avoids fake prices or invented event details.",
+      "How TourTicketCompare checks official sources, keeps ticket links specific, and gives you clear guidance on what to confirm before checkout.",
     indexable: true,
     faq: true,
     breadcrumb: [{ name: "How it works", path: "/how-it-works" }]

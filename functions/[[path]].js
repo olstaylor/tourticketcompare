@@ -127,7 +127,7 @@ async function routeForPath(pathname, env) {
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
       description:
         artist.meta_description ||
-        `Check ${artist.name} watchlist notes and verified ticket links where available. No fake prices or invented tour dates.`,
+        `Check ${artist.name} watchlist notes and verified ticket links where available, with practical buying guidance and transparent sourcing.`,
       artist,
       breadcrumb: [
         { name: "Artists", path: "/artists" },

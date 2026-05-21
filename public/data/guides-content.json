@@ -640,5 +640,58 @@
         "content": "TourTicketCompare does not control listing details, seat map data, ticket-type labels, fees, or delivery rules. Final order details are confirmed on the provider site. If a listing detail is unclear, treat that as a reason to slow down, not a reason to buy."
       }
     ]
+  },
+  "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "A postponed, rescheduled, cancelled, moved, or materially changed concert can be stressful, especially if you have already paid or made travel plans. The most useful first step is to slow down, confirm what has actually happened, and check the terms that apply to your specific ticket.\n\nTourTicketCompare does not sell tickets, process refunds, or control event scheduling. Refund, transfer, resale, delivery, and cancellation terms are set by the ticket provider and the event organiser, and they vary by event. This guide explains what to check and where, without promising any particular outcome."
+      },
+      {
+        "type": "section",
+        "title": "First: Confirm the Event Status",
+        "content": "Before acting, confirm the change from a reliable source rather than a social media rumour. An event may be unchanged, postponed, rescheduled, moved, or cancelled, and each status is handled differently.\n\nReliable places to confirm the current status include:\n- Your ticket provider account, where order and event updates usually appear.\n- Your original order confirmation email, which links back to the provider.\n- The artist's official website or verified social channels.\n- The venue's official website.\n- The ticket provider's support or help page.\n\nIf two sources disagree, treat the ticket provider's own update as the one that affects your order."
+      },
+      {
+        "type": "section",
+        "title": "Check Where You Bought the Ticket",
+        "content": "How a change is handled depends on where you bought the ticket. Find your original order confirmation and note the provider name.\n\n- If you bought from an official primary provider, event updates and any refund or exchange steps are usually managed in that provider account.\n- If you bought from a resale marketplace, the resale platform's own terms apply, and these can differ from the primary provider's terms.\n- If you bought from an individual seller outside a recognised platform, you may have little or no structured support, which is one reason recognised checkout flows are safer.\n\nKeep your confirmation email, order number, and any reference numbers in one place so you can refer to them."
+      },
+      {
+        "type": "section",
+        "title": "Postponed, Rescheduled, Cancelled, or Changed",
+        "content": "These words are often used loosely, so check exactly what the provider says.\n\n- Postponed usually means the event is delayed and a new date may be announced later. A date is not yet confirmed, and terms can vary while the event is in this state.\n- Rescheduled usually means a new date has been announced. Your existing ticket may remain valid for the new date, but you should confirm this with the provider rather than assume it.\n- Cancelled means the event is not going ahead. Whether and how a refund is handled depends on the provider and event terms, so check the provider's update directly.\n- Changed or moved events may involve a different venue, date, time, lineup, or delivery method. Even small changes can affect travel plans, so review the details carefully.\n\nDo not assume your ticket's status. Confirm it against the provider's official update."
+      },
+      {
+        "type": "section",
+        "title": "Review Refund, Transfer, and Delivery Rules",
+        "content": "Refund, transfer, resale, and delivery rules are provider-specific and event-specific. TourTicketCompare cannot tell you the outcome for your order.\n\nWhen you read the provider's update and terms, look for:\n- Whether any action is required from you, and by when.\n- Whether refunds, credits, or exchanges are being offered for your event, and how they are requested.\n- Whether tickets already delivered remain valid, or whether new tickets will be issued.\n- How transferred tickets are handled if you sent or received a ticket from someone else.\n- Any deadline for responding, since some options are time-limited.\n\nIf the terms are unclear, contact the provider's official support channel rather than relying on second-hand summaries. For a wider view of checking totals and terms before any purchase, see [how to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)."
+      },
+      {
+        "type": "section",
+        "title": "Be Careful With Resale Tickets",
+        "content": "Resale tickets can add extra steps when an event changes. Buyer protections on resale marketplaces vary between platforms and are not the same as primary-provider terms, so check them directly with the platform you used.\n\n- Confirm whether the resale platform's terms cover postponed, rescheduled, or cancelled events, and what they ask you to do.\n- Remember that a rescheduled date may or may not suit the original buyer, which can affect a resale ticket's value and validity.\n- If you are considering buying a resale ticket for an event that has already changed, confirm the current event details before you commit.\n\nIf you are unsure how official and resale tickets differ, the guide on [official tickets versus resale](/guides/primary-vs-resale-concert-tickets) explains the main differences."
+      },
+      {
+        "type": "section",
+        "title": "Watch for Scam Messages After Event Changes",
+        "content": "Event changes are a common moment for scams, because people are anxious and looking for fast answers. Be cautious with unexpected messages.\n\n- Do not trust direct messages, comments, or emails that pressure you to act immediately.\n- Do not send payments, ticket transfers, or personal details through chat apps, social media, or links from unverified messages.\n- Do not assume a message is official just because it uses an artist, venue, or provider name.\n- Use only the recognised checkout, account, and support flows of the provider you actually bought from.\n\nFor more detail on spotting fraud, see the guide on [avoiding ticket scams](/guides/how-to-avoid-ticket-scams)."
+      },
+      {
+        "type": "section",
+        "title": "Practical Checklist",
+        "content": "Use this checklist when an event changes:\n- Confirm the current event status from the ticket provider, artist, and venue.\n- Identify exactly where you bought the ticket and find your confirmation email.\n- Check whether your ticket is still valid for any new date.\n- Read the provider's refund, transfer, and delivery terms for this specific event.\n- Note any deadlines for responding or requesting a refund or exchange.\n- For resale tickets, check the resale platform's own terms.\n- Ignore unsolicited messages and use only recognised provider channels.\n- Keep records of your order details and any communication."
+      },
+      {
+        "type": "section",
+        "title": "Frequently Asked Questions",
+        "content": "**Does postponed mean my ticket is cancelled?**\n\nNo. Postponed usually means the event is delayed and a new date may be announced later. Your ticket's status depends on the provider's terms, so confirm it directly rather than assuming.\n\n**Am I automatically entitled to a refund if a concert is cancelled?**\n\nNot automatically. Whether a refund, credit, or exchange is offered, and how it is requested, depends on the provider and event terms. Check the provider's official update for your order.\n\n**My ticket was transferred to me. Who handles the change?**\n\nThe provider account that holds the ticket usually manages event updates. Coordinate with the person who sent the ticket and follow the provider's guidance.\n\n**Can I still resell a ticket for a rescheduled show?**\n\nResale rules vary by platform and event. Check the resale marketplace's terms, and confirm the current event details before listing or buying."
+      },
+      {
+        "type": "section",
+        "title": "Next Steps",
+        "content": "An event change is rarely welcome news, but a calm, methodical check protects you from avoidable mistakes and scams. Confirm the status, read the terms for your specific ticket, and use only recognised provider channels.\n\nThese guides can help you prepare for future bookings:\n- [When to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets) covers the main timing trade-offs.\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) explains how delivery method affects risk.\n- [How to prepare for a concert ticket onsale](/guides/how-to-prepare-for-a-ticket-onsale) helps you plan your next booking."
+      }
+    ]
   }
 }

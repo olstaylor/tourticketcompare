@@ -410,7 +410,8 @@ const GUIDE_CLUSTERS = [
     intro: "Plan when to buy and what to check before committing to a ticket.",
     slugs: [
       "/guides/when-is-the-best-time-to-buy-concert-tickets",
-      "/guides/how-to-prepare-for-a-ticket-onsale"
+      "/guides/how-to-prepare-for-a-ticket-onsale",
+      "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled"
     ]
   }
 ];

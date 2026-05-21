@@ -113,6 +113,13 @@ const guidePages = [
     description: "Learn how to read concert ticket listings by checking section, row, seat, listing notes, ticket type, delivery method, and cross-checks before checkout.",
     h1: "How do I read a concert ticket listing?",
     serverRendered: true
+  },
+  {
+    slug: "what-to-do-if-a-concert-is-postponed-or-cancelled",
+    title: "What to Do if a Concert Is Postponed or Cancelled | TourTicketCompare",
+    description: "Learn what to check if a concert is postponed, rescheduled, cancelled, or changed, including provider updates, refunds, transfers, resale rules, and ticket delivery.",
+    h1: "What should I do if a concert is postponed or cancelled?",
+    serverRendered: true
   }
 ];
 
@@ -153,7 +160,11 @@ const guideClusters = [
   {
     title: "Timing and planning",
     intro: "Plan when to buy and what to check before committing to a ticket.",
-    slugs: ["when-is-the-best-time-to-buy-concert-tickets", "how-to-prepare-for-a-ticket-onsale"]
+    slugs: [
+      "when-is-the-best-time-to-buy-concert-tickets",
+      "how-to-prepare-for-a-ticket-onsale",
+      "what-to-do-if-a-concert-is-postponed-or-cancelled"
+    ]
   }
 ];
 

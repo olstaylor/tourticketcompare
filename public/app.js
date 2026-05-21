@@ -364,6 +364,51 @@ function artistPageIntro(artist) {
   return `Find checked ticket links for ${artist.name} when available, plus practical guidance before you leave for a provider site.`;
 }
 
+function formatVerificationDate(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return null;
+  const parsed = new Date(`${raw}T00:00:00Z`);
+  if (!Number.isFinite(parsed.getTime())) return null;
+  try {
+    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+  } catch (error) {
+    return null;
+  }
+}
+
+function buildVerificationDisclosurePanel(artist, shows = []) {
+  const panel = document.createElement("section");
+  panel.className = "nested-panel verification-disclosure";
+  text(panel, "h2", "Verification and disclosure");
+  const summary = document.createElement("ul");
+  summary.className = "check-list";
+  [
+    "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
+    "Ticket links are organised from available provider and official event sources after destination checks.",
+    "We do not display ticket prices on this page and we do not guarantee ticket availability.",
+    "Before purchase, confirm final prices, fees, availability, delivery timing, refund rules, and checkout terms with the provider."
+  ].forEach((item) => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    summary.append(li);
+  });
+  panel.append(summary);
+
+  const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
+  if (artistVerifiedDate) {
+    text(panel, "p", `Artist-level link verification: ${artistVerifiedDate}.`, "disclosure-note");
+  }
+
+  const eventDates = shows.map((show) => formatVerificationDate(show.last_verified_at)).filter(Boolean);
+  if (eventDates.length) {
+    const uniqueDates = [...new Set(eventDates)];
+    const label = uniqueDates.length === 1 ? uniqueDates[0] : `${uniqueDates[0]} to ${uniqueDates[uniqueDates.length - 1]}`;
+    text(panel, "p", `Event-link verification window: ${label}.`, "disclosure-note");
+  }
+
+  return panel;
+}
+
 function renderProviderButtons(artist, surface) {
   const links = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
   const panel = document.createElement("section");
@@ -1083,6 +1128,14 @@ function renderArtist(artist) {
     "Each card shows one checked event date and only links to the ticket URL for that exact event when one is available. Coverage varies by artist and region; final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site."
   );
   section.append(showBoard);
+  const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
+    try {
+      return JSON.parse(card.getAttribute("data-show-json") || "{}");
+    } catch (error) {
+      return {};
+    }
+  });
+  const verificationPanel = buildVerificationDisclosurePanel(artist, serverShows);
 
   const summary = document.createElement("section");
   summary.className = "split-section";
@@ -1140,7 +1193,7 @@ function renderArtist(artist) {
   );
   guideLinks.append(guideGrid);
 
-  section.append(summary, demand, checklist, pageNote, guideLinks, renderArtistFaq(artist));
+  section.append(verificationPanel, summary, demand, checklist, pageNote, guideLinks, renderArtistFaq(artist));
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.

@@ -429,6 +429,33 @@ function renderProviderFallback(catalog, artist, surface) {
   return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">These links go to provider artist pages. Event-specific links appear only on dated show cards when verified.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Affiliate link. We may earn a commission at no extra cost to you.</p><p class="disclosure-note">Final prices, fees and availability are confirmed on the ticketing platform.</p></section>`;
 }
 
+function formatVerificationDate(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return null;
+  const parsed = new Date(`${raw}T00:00:00Z`);
+  if (!Number.isFinite(parsed.getTime())) return null;
+  try {
+    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+  } catch (error) {
+    return null;
+  }
+}
+
+function renderVerificationDisclosure(artist, shows = []) {
+  const lines = [
+    "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
+    "Ticket links are organised from available provider and official event sources after destination checks.",
+    "We do not display ticket prices on this page and we do not guarantee ticket availability.",
+    "Before purchase, confirm final prices, fees, availability, delivery timing, refund rules, and checkout terms with the provider."
+  ];
+  const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
+  const eventDates = [...new Set(shows.map(show => formatVerificationDate(show.last_verified_at)).filter(Boolean))];
+  const eventRange = eventDates.length ? (eventDates.length === 1 ? eventDates[0] : `${eventDates[0]} to ${eventDates[eventDates.length - 1]}`) : null;
+  return `<section class="nested-panel verification-disclosure"><h2>Verification and disclosure</h2><ul class="check-list">${lines.map(line => `<li>${escapeHtml(line)}</li>`).join("")}</ul>${
+    artistVerifiedDate ? `<p class="disclosure-note">Artist-level link verification: ${escapeHtml(artistVerifiedDate)}.</p>` : ""
+  }${eventRange ? `<p class="disclosure-note">Event-link verification window: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
+}
+
 function futureShowsForArtist(events, artistSlug, limit) {
   const now = Date.now();
   const slug = slugify(artistSlug);
@@ -441,7 +468,8 @@ function futureShowsForArtist(events, artistSlug, limit) {
       city: String(ev.city || "").trim(),
       venue: String(ev.venue || "").trim(),
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
-      seatgeek_url: String(ev.seatgeek_url || "").trim()
+      seatgeek_url: String(ev.seatgeek_url || "").trim(),
+      last_verified_at: String(ev.last_verified_at || "").trim()
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -537,7 +565,8 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
     }
   }
 
-  return `<article class="info-card show-card"><h3>${escapeHtml(show.event_name || "Verified show")}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${ctaHtml}</article>`;
+  const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
+  return `<article class="info-card show-card" data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || "Verified show")}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${ctaHtml}</article>`;
 }
 
 function renderShowBoardServerHtml(shows, seatGeekAvailable = false) {
@@ -566,17 +595,18 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const relatedGuidesHtml = relatedGuideLinks
       ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
+    const shows = futureShowsForArtist(events, artist.slug, 6);
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="artistTitle">${escapeHtml(
       artist.name
     )} ticket links and buying guidance</h1><p class="lead">Find checked ticket links for ${escapeHtml(
       artist.name
-    )} when available, plus practical guidance before you leave for a provider site.</p>${renderShowBoardServerHtml(futureShowsForArtist(events, artist.slug, 6), seatGeekAvailable)}${renderProviderFallback(
+    )} when available, plus practical guidance before you leave for a provider site.</p>${renderShowBoardServerHtml(shows, seatGeekAvailable)}${renderProviderFallback(
       catalog,
       artist,
       "artist_hero"
-    )}<section class="split-section"><div><h2>About ${escapeHtml(
+    )}${renderVerificationDisclosure(artist, shows)}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Verified destination status</h2><p>${escapeHtml(
       artist.ticket_buying_notes

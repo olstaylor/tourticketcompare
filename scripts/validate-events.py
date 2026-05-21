@@ -55,6 +55,19 @@ def parse_iso(dt: str) -> bool:
         return False
 
 
+def is_iso_date(value: Any) -> bool:
+    if not isinstance(value, str):
+        return False
+    text = value.strip()
+    if not re.match(r"^\d{4}-\d{2}-\d{2}$", text):
+        return False
+    try:
+        datetime.strptime(text, "%Y-%m-%d")
+        return True
+    except ValueError:
+        return False
+
+
 def is_http_url(value: Any) -> bool:
     if value is None:
         return True
@@ -345,6 +358,23 @@ def main() -> int:
             artist_slug = artist.get("slug")
             if isinstance(artist_slug, str) and artist_slug.strip():
                 artist_names[artist_slug.strip()] = artist.get("name")
+            artist_prefix = f"artist[{artist_slug.strip() if isinstance(artist_slug, str) and artist_slug.strip() else 'unknown'}]"
+            artist_last_verified_at = artist.get("last_verified_at")
+            if artist_last_verified_at is not None and not is_iso_date(artist_last_verified_at):
+                errors.append(f"{artist_prefix}.last_verified_at: must be YYYY-MM-DD if present")
+
+            verified_provider_count = artist.get("verified_provider_count")
+            verified_providers = artist.get("verified_providers")
+            if verified_provider_count is not None or verified_providers is not None:
+                if not isinstance(verified_provider_count, int):
+                    errors.append(f"{artist_prefix}.verified_provider_count: must be an integer when present")
+                if not isinstance(verified_providers, list):
+                    errors.append(f"{artist_prefix}.verified_providers: must be an array when present")
+                if isinstance(verified_provider_count, int) and isinstance(verified_providers, list):
+                    if verified_provider_count != len(verified_providers):
+                        errors.append(
+                            f"{artist_prefix}.verified_provider_count: must match verified_providers length ({len(verified_providers)})"
+                        )
 
     required_fields = [
         "id",
@@ -468,10 +498,26 @@ def main() -> int:
             errors.append(f"{prefix}.provider_links.seatgeek.verified: cannot be true for a URL that differs from top-level seatgeek_url")
 
         provider_links = event.get("provider_links")
+        event_last_verified_at = event.get("last_verified_at")
+        if event_last_verified_at is not None:
+            if not is_iso_date(event_last_verified_at):
+                errors.append(f"{prefix}.last_verified_at: must be YYYY-MM-DD if present")
         if isinstance(provider_links, dict):
             for provider_key, provider_data in provider_links.items():
                 if not isinstance(provider_data, dict):
                     continue
+                provider_last_verified_at = provider_data.get("last_verified_at")
+                if provider_last_verified_at is not None:
+                    if not is_iso_date(provider_last_verified_at):
+                        errors.append(
+                            f"{prefix}.provider_links.{provider_key}.last_verified_at: must be YYYY-MM-DD if present"
+                        )
+                    provider_verified = provider_data.get("verified")
+                    provider_url = provider_data.get("url")
+                    if provider_verified is not True or not isinstance(provider_url, str) or not provider_url.strip():
+                        errors.append(
+                            f"{prefix}.provider_links.{provider_key}.last_verified_at: requires verified=true and a non-empty url"
+                        )
                 provider_url = provider_data.get("url")
                 link_prefix = f"{prefix}.provider_links.{provider_key}.url"
                 if provider_url in (None, ""):

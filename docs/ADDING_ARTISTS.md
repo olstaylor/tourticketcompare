@@ -58,7 +58,7 @@ Every new artist record requires **all** of the following fields. Do not omit an
   "indexing_status": "indexable_with_substantial_content",
   "verified_provider_count": <integer: number of providers with a live verified link>,
   "verified_providers": ["<provider slug>"],
-  "last_verified_at": "<YYYY-MM-DD: date you confirmed the destination URL>"
+  "last_verified_at": "<YYYY-MM-DD or null: most recent artist-level verification date>"
 }
 ```
 
@@ -130,14 +130,30 @@ A ticket CTA button may only appear on the page if **all three** are true:
 
 ---
 
-## 7. Last-Checked-Date Rules
+## 7. Verification Timestamp Rules
 
-Every artist record and every ticket link entry must carry a `last_verified_at` / `last_checked_at` date.
+Use these definitions consistently across artist/event data:
+
+- `artist.last_verified_at` = artist-level freshness marker for the artist page itself. Optional; use `null` when no artist-level verification has been performed yet.
+- `event.last_verified_at` = event-level freshness marker for that specific event row. Optional.
+- `provider_links.<provider>.last_verified_at` = provider-link freshness marker for that provider URL on that specific event. Optional.
+- Date format for all of the above is strictly `YYYY-MM-DD` (ISO calendar date, no time component).
+- Provider-level timestamp may be present only when the same provider entry is both `verified: true` and has a non-empty `url`.
+- For artist summaries, `verified_provider_count` must equal `verified_providers.length`.
+
+Display precedence for freshness copy:
+
+1. Use provider-level timestamp when showing a specific provider link on an event.
+2. Otherwise use event-level timestamp for event-level verification copy.
+3. Otherwise use artist-level timestamp for artist-wide verification copy.
+4. If none exists, show a neutral "verification date unavailable" style message (no invented date).
+
+For new records, add verification dates only when you personally completed that exact verification step.
 
 - Set this to the date you personally opened the destination URL in a browser and confirmed it resolved to a live, correct page
 - Do not copy a date from another record
 - Do not use a future date
-- Do not leave this field blank or set to a placeholder value
+- Do not use placeholder values
 - When you re-verify an existing link, update the date
 
 Records with `last_checked_at` older than 90 days should be re-verified before a new artist is added in the same session.

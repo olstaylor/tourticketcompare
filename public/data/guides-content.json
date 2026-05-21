@@ -518,27 +518,37 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Ticket buyers often compare the first number they see and only later notice added charges. This guide explains common fee categories and how to compare totals carefully before purchase."
+        "content": "When you buy concert tickets, the first price you see is not always the amount you pay at checkout. Several fees can be added before the order is complete, and the categories and amounts vary from one provider and event to another.\n\nThis guide explains the fee types you may encounter, why the headline price and the final total can differ, and how to compare options fairly. TourTicketCompare does not sell tickets or set fees: fees and checkout terms are decided by each ticket provider, and the final total should always be confirmed on the provider site before you pay."
       },
       {
         "type": "section",
-        "title": "Fee Types You May See",
-        "content": "Depending on provider and event, checkout may include service fees, order processing fees, facility charges, delivery charges, taxes, and currency conversion. Names and amounts can vary by provider and order."
+        "title": "What Ticket Fees Can Include",
+        "content": "Ticket fees are not a single charge. Depending on the provider, the event, the ticket type, your location, and the delivery method, a checkout total can include several separate items:\n\n- Service fees, sometimes shown per ticket, that the provider applies on top of the face value.\n- Order or processing fees applied once per order rather than per ticket.\n- Facility or venue fees associated with the venue rather than the provider.\n- Delivery or fulfilment charges, which can depend on whether tickets are sent by mobile transfer, email, or post.\n- Taxes, where they apply to the order.\n- Currency conversion charges, where you are buying in a currency different from your card's currency.\n\nNot every order includes every item, and the names providers use can differ. The point is to expect more than one line on the final order summary."
       },
       {
         "type": "section",
-        "title": "Compare the Final Total, Not Only Headline Price",
-        "content": "Use the same checklist for each option: event details, ticket type, seat location, quantity, all fees shown, delivery method, and final total. If you cannot view a clear final total, pause before buying."
+        "title": "Why the First Price May Not Be the Final Total",
+        "content": "The price shown on a listing or a search result is often a starting figure rather than the amount charged. Fees can be presented at different stages of checkout depending on the provider and the market.\n\n- Some markets require providers to show an all-in price from the start; others allow fees to appear later in checkout.\n- Different ticket types for the same event can carry different fees, so two listings that look similar may not end at the same total.\n- Optional extras, such as certain delivery methods or add-ons, can change the figure when they are selected.\n\nThis does not mean fees are always hidden or always added late. It means the headline price is not a reliable comparison number on its own, so read through to the final order summary before deciding."
       },
       {
         "type": "section",
-        "title": "Questions to Ask Before Checkout",
-        "content": "- Which charges are mandatory versus optional?\n- Is delivery method acceptable for your timing?\n- Are refund/cancellation terms clear for this exact order?\n- Does the current total still fit your budget?"
+        "title": "How to Compare Fees Safely",
+        "content": "To compare options fairly, compare the final checkout total for genuinely equivalent tickets, not the first displayed price.\n\n- Confirm you are comparing the same event, date, venue, section, ticket type, and quantity.\n- Progress each option to the order summary so every fee is visible before you compare.\n- Check the delivery method on each option, since a lower total may rely on a delivery method that does not suit your timing.\n- Re-check totals close to the time you buy, because fees and availability can change.\n\nTourTicketCompare does not claim that any provider is cheaper or more expensive, and it does not compare live prices for you. The comparison is a manual check you make on the provider sites. For a step-by-step routine, see [how to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)."
       },
       {
         "type": "section",
-        "title": "Conclusion",
-        "content": "A safer buying decision comes from comparing complete checkout totals and terms, not just listing prices. Confirm current details on the provider site each time."
+        "title": "Practical Checklist",
+        "content": "Before you pay, work through this checklist:\n- Find the final order summary and read every line, not just the face value.\n- Identify which charges are mandatory and which come from optional choices.\n- Confirm the delivery method and timing work for your plans.\n- Check the refund, exchange, and cancellation terms for this exact order.\n- Compare the complete totals of equivalent tickets, not headline prices.\n- Confirm the total still fits your budget once all fees are included.\n- If you cannot see a clear final total, pause before buying."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Why is the checkout total higher than the listed price?**\n\nProviders can add service, order, facility, delivery, tax, or currency conversion charges during checkout. The listed price is often a starting figure, so read the final order summary before paying.\n\n**Are ticket fees the same on every provider?**\n\nNo. Fee names, amounts, and how they are shown vary by provider, event, ticket type, location, and delivery method. Compare the final totals rather than assuming fees match.\n\n**Can I avoid ticket fees completely?**\n\nUsually not. Most providers apply some fees, and they are set by the provider. The practical goal is to see the full total clearly before you decide, not to expect a fee-free checkout.\n\n**Which number should I use to compare options?**\n\nUse the final checkout total for equivalent tickets, after all fees are shown. The first displayed price is not a reliable comparison number on its own."
+      },
+      {
+        "type": "section",
+        "title": "Next Steps",
+        "content": "Understanding fees is one part of a careful buying decision. These guides cover the rest:\n- [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices) gives a full comparison routine.\n- [Why concert ticket prices change](/guides/why-ticket-prices-change) explains why totals can move over time.\n- [How to avoid overpaying for concert tickets](/guides/how-to-avoid-overpaying-for-concert-tickets) covers practical checks before you commit.\n- [Why prices vary between ticket sites](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats) explains how fees and inventory can differ between platforms."
       }
     ]
   },

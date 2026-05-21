@@ -3,18 +3,15 @@ let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] 
 const providerCopy = {
   ticketmaster: {
     name: "Ticketmaster",
-    label: "Open Ticketmaster artist page",
-    bullets: ["Provider artist page, not a date-specific event link", "Provider checkout controls final price, fees, and availability"]
+    label: "Open Ticketmaster artist page"
   },
   seatgeek: {
     name: "SeatGeek",
-    label: "Open SeatGeek artist page",
-    bullets: ["Shown only when a verified destination is available"]
+    label: "Open SeatGeek artist page"
   },
   "vivid-seats": {
     name: "Vivid Seats",
-    label: "Open Vivid Seats artist page",
-    bullets: ["Shown only when a verified destination is available"]
+    label: "Open Vivid Seats artist page"
   }
 };
 
@@ -396,14 +393,14 @@ function buildVerificationDisclosurePanel(artist, shows = []) {
 
   const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
   if (artistVerifiedDate) {
-    text(panel, "p", `Artist verification last checked: ${artistVerifiedDate}.`, "disclosure-note");
+    text(panel, "p", `Artist last checked: ${artistVerifiedDate}.`, "disclosure-note");
   }
 
   const eventDates = shows.map((show) => formatVerificationDate(show.last_verified_at)).filter(Boolean);
   if (eventDates.length) {
     const uniqueDates = [...new Set(eventDates)];
     const label = uniqueDates.length === 1 ? uniqueDates[0] : `${uniqueDates[0]} to ${uniqueDates[uniqueDates.length - 1]}`;
-    text(panel, "p", `Event verification dates in this list: ${label}.`, "disclosure-note");
+    text(panel, "p", `Event links last checked: ${label}.`, "disclosure-note");
   }
 
   return panel;
@@ -411,7 +408,7 @@ function buildVerificationDisclosurePanel(artist, shows = []) {
 
 function providerVerificationNote(item) {
   const date = formatVerificationDate(item?.last_verified_at);
-  return date ? `Verified destination last checked: ${date}.` : "";
+  return date ? `Provider link last checked: ${date}.` : "";
 }
 
 function renderProviderButtons(artist, surface) {
@@ -445,16 +442,16 @@ function renderProviderButtons(artist, surface) {
     return panel;
   }
 
+  text(panel, "p", "These links go to provider artist pages. Event-specific buttons appear only on verified show cards.", "muted");
   const actions = document.createElement("div");
   actions.className = "provider-actions";
-  let hasMissingProviderVerificationDate = false;
   links.forEach((item) => {
     const providerSlug = slugify(item.provider);
-    const copy = providerCopy[providerSlug] || { name: item.provider, label: `Open ${item.provider} artist page`, bullets: [] };
+    const copy = providerCopy[providerSlug] || { name: item.provider, label: `Open ${item.provider} artist page` };
     const card = document.createElement("article");
     card.className = "provider-card";
     text(card, "h3", copy.name);
-    if (copy.bullets.length) card.append(createList(copy.bullets, "compact-list"));
+    text(card, "p", "Provider checkout controls final price, fees, and availability.");
     const params = new URLSearchParams({
       artistSlug: artist.slug,
       provider: providerSlug,
@@ -475,25 +472,14 @@ function renderProviderButtons(artist, surface) {
     const verificationNote = providerVerificationNote(item);
     if (verificationNote) {
       text(card, "p", verificationNote, "disclosure-note");
-    } else {
-      hasMissingProviderVerificationDate = true;
     }
     actions.append(card);
   });
   panel.append(actions);
-  if (hasMissingProviderVerificationDate) {
-    text(
-      panel,
-      "p",
-      "Some verified provider destinations do not currently include a provider-level last-checked date.",
-      "disclosure-note"
-    );
-  }
-  text(panel, "p", "Affiliate link. We may earn a commission at no extra cost to you.", "disclosure-note");
   text(
     panel,
     "p",
-    "Final prices, fees and availability are confirmed on the ticketing platform.",
+    "Some links are affiliate links. This does not change your price. Final prices, fees, and availability are confirmed on the ticketing platform.",
     "disclosure-note"
   );
   return panel;
@@ -804,7 +790,7 @@ function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Find trusted ticket links for major tours", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Find verified ticket links for major tours", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
@@ -1002,7 +988,7 @@ function renderShowCard(show, options = {}) {
       cta.target = "_blank";
       cta.rel = "noopener";
       if (eventVerifiedDate) {
-        text(article, "p", `Event verification last checked: ${eventVerifiedDate}.`, "disclosure-note");
+        text(article, "p", `Event last checked: ${eventVerifiedDate}.`, "disclosure-note");
       }
       if (seatGeekOutAvailable(show, options)) {
         const seatGeekParams = new URLSearchParams({ showId, provider: "seatgeek" });
@@ -1016,7 +1002,7 @@ function renderShowCard(show, options = {}) {
         text(
           article,
           "p",
-          "Verified means destination URL checked; it does not guarantee current price, fees, or availability. SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.",
+          "SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.",
           "disclosure-note"
         );
       } else {
@@ -1024,7 +1010,7 @@ function renderShowCard(show, options = {}) {
         text(
           article,
           "p",
-          "Verified means destination URL checked; it does not guarantee current price, fees, or availability. External ticketing sites set prices, fees, availability, and checkout terms.",
+          "External ticketing sites set prices, fees, availability, and checkout terms.",
           "disclosure-note"
         );
       }
@@ -1057,9 +1043,9 @@ async function hydrateShowBoard(section, filters = {}) {
       const emptyMsg = document.createElement("p");
       emptyMsg.className = "muted empty-state";
       emptyMsg.append(
-        document.createTextNode("No verified event-specific ticket links are currently published for this artist. We only show event cards after the event date and destination URL are checked. "),
+        document.createTextNode("No verified event-specific ticket links are published yet. We only show event buttons when the artist, date, venue, and ticket destination have been checked. "),
         link("Read our buying guides", "/guides", "text-link"),
-        document.createTextNode(" while you wait. If available, you can still use provider links below. Verification status and last-checked details are listed on this page when supported by source data.")
+        document.createTextNode(" while you wait, or use the provider links below where available.")
       );
       grid.append(emptyMsg);
       return;
@@ -1353,7 +1339,7 @@ function renderHowItWorks() {
   text(
     section,
     "p",
-    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options and buying guidance. We do not sell tickets, do not compare prices, and do not send users to weak generic links.",
+    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options and buying guidance. We do not sell tickets, do not compare live prices, and only link out to destinations we have checked.",
     "lead"
   );
 
@@ -1600,12 +1586,61 @@ function renderSimplePage(type) {
     return;
   }
 
+  if (type === "about") {
+    text(section, "h1", "About TourTicketCompare");
+    text(
+      section,
+      "p",
+      "TourTicketCompare is an independent, unofficial site that helps fans research tickets for major live music tours.",
+      "lead"
+    );
+
+    const whatWeDo = document.createElement("section");
+    whatWeDo.className = "nested-panel";
+    text(whatWeDo, "h2", "What we do");
+    whatWeDo.append(
+      createList(
+        [
+          "Collect verified ticket links for major artists so you have a reliable starting point.",
+          "Show event-specific ticket links only when the artist, date, venue, and destination have been checked.",
+          "Publish plain buying guides on fees, resale, delivery timing, and what to confirm before checkout."
+        ],
+        "check-list"
+      )
+    );
+
+    const whatWeDont = document.createElement("section");
+    whatWeDont.className = "nested-panel";
+    text(whatWeDont, "h2", "What we do not do");
+    whatWeDont.append(
+      createList(
+        [
+          "Sell or resell tickets.",
+          "Compare prices across providers or claim one site is cheaper.",
+          "Invent tour dates, venues, prices, or availability."
+        ],
+        "check-list"
+      )
+    );
+
+    const affiliateNote = document.createElement("section");
+    affiliateNote.className = "nested-panel";
+    text(affiliateNote, "h2", "Why affiliate links do not change our standards");
+    text(
+      affiliateNote,
+      "p",
+      "Some links are affiliate links, so we may earn a commission when you buy. That never decides which links we show. A link only appears once its destination has been checked, whether or not it earns us anything."
+    );
+
+    const actions = document.createElement("div");
+    actions.className = "action-row";
+    actions.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("Read buying guides", "/guides", "secondary"));
+    section.append(whatWeDo, whatWeDont, affiliateNote, actions);
+    main.replaceChildren(section);
+    return;
+  }
+
   const content = {
-    about: [
-      "About TourTicketCompare",
-      "TourTicketCompare is an independent, unofficial ticket research site made by fans for fans of major live music tours.",
-      "The site helps fans find checked ticket options where available, understand buying risks, and avoid fake prices, invented dates, and dead-end listings. We do not sell tickets directly."
-    ],
     "editorial-policy": [
       "Editorial policy",
       "TourTicketCompare publishes artist and ticket-link information only when the source can be checked.",

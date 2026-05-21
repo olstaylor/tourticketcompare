@@ -406,7 +406,7 @@ function renderFullGuideContent(sections) {
 
 function providerVerificationNote(item) {
   const date = formatVerificationDate(item?.last_verified_at);
-  return date ? `Verified destination last checked: ${date}.` : "";
+  return date ? `Provider link last checked: ${date}.` : "";
 }
 
 function renderProviderFallback(catalog, artist, surface) {
@@ -414,7 +414,6 @@ function renderProviderFallback(catalog, artist, surface) {
   if (!links.length) {
     return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">No provider artist link is available for this artist yet. Ticket buttons appear only after destination checks.</p><p class="muted">While you wait, these guides cover what to check before committing to a ticketing platform:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
   }
-  let hasMissingProviderVerificationDate = false;
   const cards = links
     .map((item) => {
       const provider = slugify(item.provider);
@@ -426,18 +425,14 @@ function renderProviderFallback(catalog, artist, surface) {
         surface
       });
       const verificationNote = providerVerificationNote(item);
-      if (!verificationNote) hasMissingProviderVerificationDate = true;
-      return `<article class="provider-card"><h3>${escapeHtml(item.provider)}</h3><p>These links open provider artist pages, not date-specific event links. Provider checkout controls final price, fees, and availability.</p>${anchor(
+      return `<article class="provider-card"><h3>${escapeHtml(item.provider)}</h3><p>Provider checkout controls final price, fees, and availability.</p>${anchor(
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
-  const missingDateNote = hasMissingProviderVerificationDate
-    ? `<p class="disclosure-note">Some verified provider destinations do not currently include a provider-level last-checked date.</p>`
-    : "";
-  return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">These links go to provider artist pages. Event-specific buttons appear only on verified show cards.</p><div class="provider-actions">${cards}</div>${missingDateNote}<p class="disclosure-note">Affiliate link. We may earn a commission at no extra cost to you.</p><p class="disclosure-note">Final prices, fees and availability are confirmed on the ticketing platform.</p></section>`;
+  return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">These links go to provider artist pages. Event-specific buttons appear only on verified show cards.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Some links are affiliate links. This does not change your price. Final prices, fees, and availability are confirmed on the ticketing platform.</p></section>`;
 }
 
 function formatVerificationDate(value) {
@@ -463,8 +458,8 @@ function renderVerificationDisclosure(artist, shows = []) {
   const eventDates = [...new Set(shows.map(show => formatVerificationDate(show.last_verified_at)).filter(Boolean))];
   const eventRange = eventDates.length ? (eventDates.length === 1 ? eventDates[0] : `${eventDates[0]} to ${eventDates[eventDates.length - 1]}`) : null;
   return `<section class="nested-panel verification-disclosure"><h2>Verification and disclosure</h2><ul class="check-list">${lines.map(line => `<li>${escapeHtml(line)}</li>`).join("")}</ul>${
-    artistVerifiedDate ? `<p class="disclosure-note">Artist verification last checked: ${escapeHtml(artistVerifiedDate)}.</p>` : ""
-  }${eventRange ? `<p class="disclosure-note">Event verification dates in this list: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
+    artistVerifiedDate ? `<p class="disclosure-note">Artist last checked: ${escapeHtml(artistVerifiedDate)}.</p>` : ""
+  }${eventRange ? `<p class="disclosure-note">Event links last checked: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
 }
 
 function futureShowsForArtist(events, artistSlug, limit) {
@@ -578,14 +573,14 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
   }
 
   const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
-  const eventVerifiedHtml = eventVerifiedDate ? `<p class="disclosure-note">Event verification last checked: ${escapeHtml(eventVerifiedDate)}.</p>` : "";
+  const eventVerifiedHtml = eventVerifiedDate ? `<p class="disclosure-note">Event last checked: ${escapeHtml(eventVerifiedDate)}.</p>` : "";
   return `<article class="info-card show-card" data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || "Verified show")}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${eventVerifiedHtml}${ctaHtml}</article>`;
 }
 
 function renderShowBoardServerHtml(shows, seatGeekAvailable = false) {
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable)).join("")
-    : `<p class="muted empty-state">No verified event-specific ticket links are currently published for this artist. We only show event cards after the event date and destination URL are checked. ${anchor("Read our buying guides", "/guides", "text-link")} while you wait. If available, you can still use provider links below. Verification status and last-checked details are listed on this page when supported by source data.</p>`;
+    : `<p class="muted empty-state">No verified event-specific ticket links are published yet. We only show event buttons when the artist, date, venue, and ticket destination have been checked. ${anchor("Read our buying guides", "/guides", "text-link")} while you wait, or use the provider links below where available.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
@@ -621,7 +616,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "artist_hero"
     )}${renderVerificationDisclosure(artist, shows)}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
-    )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Verified destination status</h2><p>${escapeHtml(
+    )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes
     )}</p><p class="disclosure-note">We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.</p></div></section><section class="nested-panel"><h2>Ticket buying checklist</h2><ul class="check-list"><li>Check the final price including fees before paying.</li><li>Check the seat location, section, row, and any view restrictions.</li><li>Check resale terms and buyer protections if the ticket is listed by a third party.</li><li>Check the delivery method and expected transfer timing.</li><li>Check refund, cancellation, and event-change terms on the provider site.</li></ul></section>${relatedGuidesHtml}<section class="nested-panel"><h2>About this page</h2><p>This page does not list unverified tour dates, invented prices, speculative venues, or unchecked checkout links. Ticket details should be confirmed on the ticketing platform before purchase.</p></section><section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       "All artists",
@@ -692,7 +687,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/how-it-works") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="pageTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="pageTitle">How TourTicketCompare works</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options and buying guidance. We do not sell tickets, do not compare prices, and do not send users to weak generic links.</p><section class="nested-panel"><h2>What TourTicketCompare does</h2><ul class="check-list"><li>Organises verified ticket links from official providers like Ticketmaster.</li><li>Shows checked event-specific links only when the destination can be verified.</li><li>Provides practical buying guidance on comparing totals, understanding fees, and confirming terms.</li><li>Displays a clear empty state when no verified ticket link exists for an event.</li></ul></section><section class="nested-panel"><h2>What TourTicketCompare does not do</h2><ul class="check-list"><li>Sell tickets directly.</li><li>Compare prices across providers or claim one site is cheaper.</li><li>Display prices without verified, timestamped provider data.</li><li>Send users to generic artist pages when no event-specific link is verified.</li><li>Scrape unofficial sources or publish unverified tour dates.</li></ul></section><section class="nested-panel"><h2>How ticket links are handled</h2><p>Ticket buttons on event cards link to external ticketing platforms. Some links may be affiliate links, which means we may earn a commission if you purchase through them at no extra cost to you.</p><p class="disclosure-note">Affiliate relationships do not control which links we show. Affiliate links are handled safely and we only publish ticket buttons when the destination can be verified.</p></section><section class="nested-panel"><h2>What you should confirm on the ticket provider site</h2><ul class="check-list"><li>Final price including all fees and taxes.</li><li>Exact seat or standing area location.</li><li>Delivery method and timing (instant, email transfer, shipped).</li><li>Refund, resale, and cancellation terms.</li><li>Event date, venue, and artist name match your intended show.</li></ul></section><section class="nested-panel"><h2>What we verify before showing a link</h2><p>We check that the event card artist, date, and venue match verified source data. We validate each ticket link destination before showing a button. We do not show event cards or ticket links until the information can be checked.</p></section><section class="nested-panel faq-panel"><h2>FAQ</h2><details><summary>Is TourTicketCompare official?</summary><p>No. TourTicketCompare is independent and unofficial.</p></details><details><summary>Does the site sell tickets directly?</summary><p>No. Ticket buying happens on the external provider site.</p></details><details><summary>Why are some ticket buttons missing?</summary><p>Ticket buttons are hidden until the destination can be verified.</p></details><details><summary>Can final prices change?</summary><p>Yes. External ticketing sites set their own prices, fees, availability, and checkout terms.</p></details></section><div class="action-row">${anchor(
+    )}<h1 id="pageTitle">How TourTicketCompare works</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options and buying guidance. We do not sell tickets, do not compare live prices, and only link out to destinations we have checked.</p><section class="nested-panel"><h2>What TourTicketCompare does</h2><ul class="check-list"><li>Organises verified ticket links from official providers like Ticketmaster.</li><li>Shows checked event-specific links only when the destination can be verified.</li><li>Provides practical buying guidance on comparing totals, understanding fees, and confirming terms.</li><li>Displays a clear empty state when no verified ticket link exists for an event.</li></ul></section><section class="nested-panel"><h2>What TourTicketCompare does not do</h2><ul class="check-list"><li>Sell tickets directly.</li><li>Compare prices across providers or claim one site is cheaper.</li><li>Display prices without verified, timestamped provider data.</li><li>Send users to generic artist pages when no event-specific link is verified.</li><li>Scrape unofficial sources or publish unverified tour dates.</li></ul></section><section class="nested-panel"><h2>How ticket links are handled</h2><p>Ticket buttons on event cards link to external ticketing platforms. Some links may be affiliate links, which means we may earn a commission if you purchase through them at no extra cost to you.</p><p class="disclosure-note">Affiliate relationships do not control which links we show. Affiliate links are handled safely and we only publish ticket buttons when the destination can be verified.</p></section><section class="nested-panel"><h2>What you should confirm on the ticket provider site</h2><ul class="check-list"><li>Final price including all fees and taxes.</li><li>Exact seat or standing area location.</li><li>Delivery method and timing (instant, email transfer, shipped).</li><li>Refund, resale, and cancellation terms.</li><li>Event date, venue, and artist name match your intended show.</li></ul></section><section class="nested-panel"><h2>What we verify before showing a link</h2><p>We check that the event card artist, date, and venue match verified source data. We validate each ticket link destination before showing a button. We do not show event cards or ticket links until the information can be checked.</p></section><section class="nested-panel faq-panel"><h2>FAQ</h2><details><summary>Is TourTicketCompare official?</summary><p>No. TourTicketCompare is independent and unofficial.</p></details><details><summary>Does the site sell tickets directly?</summary><p>No. Ticket buying happens on the external provider site.</p></details><details><summary>Why are some ticket buttons missing?</summary><p>Ticket buttons are hidden until the destination can be verified.</p></details><details><summary>Can final prices change?</summary><p>Yes. External ticketing sites set their own prices, fees, availability, and checkout terms.</p></details></section><div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"
@@ -735,12 +730,17 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
   }
 
+  if (route.path === "/about") {
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="aboutTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="aboutTitle">About TourTicketCompare</h1><p class="lead">TourTicketCompare is an independent, unofficial site that helps fans research tickets for major live music tours.</p><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Collect verified ticket links for major artists so you have a reliable starting point.</li><li>Show event-specific ticket links only when the artist, date, venue, and destination have been checked.</li><li>Publish plain buying guides on fees, resale, delivery timing, and what to confirm before checkout.</li></ul></section><section class="nested-panel"><h2>What we do not do</h2><ul class="check-list"><li>Sell or resell tickets.</li><li>Compare prices across providers or claim one site is cheaper.</li><li>Invent tour dates, venues, prices, or availability.</li></ul></section><section class="nested-panel"><h2>Why affiliate links do not change our standards</h2><p>Some links are affiliate links, so we may earn a commission when you buy. That never decides which links we show. A link only appears once its destination has been checked, whether or not it earns us anything.</p></section><div class="action-row">${anchor(
+      "Find an artist",
+      "/artists",
+      "button button-primary"
+    )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+  }
+
   const simplePages = {
-    "/about": [
-      "About TourTicketCompare",
-      "TourTicketCompare is an independent, unofficial ticket research site made by fans for fans of major live music tours.",
-      "The site helps fans find checked ticket options where available, understand buying risks, and avoid fake prices, invented dates, and dead-end listings. We do not sell tickets directly."
-    ],
     "/editorial-policy": [
       "Editorial policy",
       "TourTicketCompare publishes artist and ticket-link information only when the source can be checked.",
@@ -761,7 +761,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find trusted ticket links for major tours</h1><p class="hero-subcopy">Browse artist pages, verified event links when available, and straightforward buying guidance. Always confirm final price, fees, and availability at checkout.</p><p class="disclosure-note">Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, or venue</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Search by artist, city, or venue" aria-label="Search by artist, city, or venue" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
+  return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links for major tours</h1><p class="hero-subcopy">Browse artist pages, verified event links when available, and straightforward buying guidance. Always confirm final price, fees, and availability at checkout.</p><p class="disclosure-note">Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, or venue</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Search by artist, city, or venue" aria-label="Search by artist, city, or venue" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
     "Browse artists",
     "#featured-artists",
     "button button-secondary"

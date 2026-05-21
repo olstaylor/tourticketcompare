@@ -317,26 +317,60 @@ function renderBreadcrumbHtml(route) {
     .join("")}</ol></nav>`;
 }
 
-function renderArtistLinks(catalog) {
+function artistHasVerifiedEventLinks(events, artistSlug) {
+  return futureShowsForArtist(events, artistSlug, 6).some(
+    (show) => show.id && safeShowTicketUrl(show.ticketmaster_url)
+  );
+}
+
+function artistCardStatus(catalog, artist, events) {
+  if (artistHasVerifiedEventLinks(events, artist.slug)) {
+    return {
+      pending: false,
+      badgeClass: "status-badge",
+      badge: "Verified event links",
+      detail: "Event-specific ticket links available",
+      cardStatus: "Event-specific ticket links are available on this artist page.",
+      ctaLabel: "View ticket links",
+      ctaClass: "button button-primary"
+    };
+  }
+  if (ticketLinksForArtist(catalog, artist.slug).length > 0) {
+    return {
+      pending: false,
+      badgeClass: "status-badge",
+      badge: "Verified artist page",
+      detail: "Provider artist page available",
+      cardStatus: "Provider artist page available. Event-specific links appear when verified.",
+      ctaLabel: "View artist page",
+      ctaClass: "button button-primary"
+    };
+  }
+  return {
+    pending: true,
+    badgeClass: "status-badge status-badge-muted",
+    badge: "Buying guidance",
+    detail: "Event links added after review",
+    cardStatus: "No verified ticket destination is currently published for this artist.",
+    ctaLabel: "View artist page",
+    ctaClass: "button button-secondary"
+  };
+}
+
+function renderArtistLinks(catalog, events = []) {
   return `<div class="artist-card-grid">${(catalog.artists || [])
-    .map(
-      (artist) => {
-        const hasArtistPage = ticketLinksForArtist(catalog, artist.slug).length > 0;
-        return (
-        `<article class="${hasArtistPage ? "artist-card" : "artist-card is-pending"}"><h3>${escapeHtml(artist.name)}</h3><p class="muted">${escapeHtml(
-          artist.short_description || "Artist watchlist notes."
-        )}</p><div class="artist-status-row"><p class="${hasArtistPage ? "status-badge" : "status-badge status-badge-muted"}">${hasArtistPage ? "Ticket links available" : "Guides only (for now)"}</p><p class="status-chip-detail">${hasArtistPage ? "Verified Ticketmaster destination" : "Event links added after review"}</p></div><p class="card-status">${
-          hasArtistPage
-            ? "Event-specific buttons appear on show cards after destination checks."
-            : "Use buying guides now; verified event links are added after review."
-        }</p>${anchor(
-          "View artist page",
-          `/artists/${artist.slug}`,
-          hasArtistPage ? "button button-primary" : "button button-secondary"
-        )}</article>`
-        );
-      }
-    )
+    .map((artist) => {
+      const status = artistCardStatus(catalog, artist, events);
+      return `<article class="${status.pending ? "artist-card is-pending" : "artist-card"}"><h3>${escapeHtml(
+        artist.name
+      )}</h3><p class="muted">${escapeHtml(
+        artist.short_description || "Artist watchlist notes."
+      )}</p><div class="artist-status-row"><p class="${status.badgeClass}">${escapeHtml(
+        status.badge
+      )}</p><p class="status-chip-detail">${escapeHtml(status.detail)}</p></div><p class="card-status">${escapeHtml(
+        status.cardStatus
+      )}</p>${anchor(status.ctaLabel, `/artists/${artist.slug}`, status.ctaClass)}</article>`;
+    })
     .join("")}</div>`;
 }
 
@@ -410,7 +444,19 @@ function renderGuideClusters() {
 }
 
 function renderArtistStatusLegendHtml() {
-  return `<div class="artist-status-legend" aria-label="Artist card status legend"><span class="artist-status-legend-item"><span class="status-badge">Ticket links available</span><span class="status-chip-detail">Verified Ticketmaster destination</span></span><span class="artist-status-legend-item"><span class="status-badge status-badge-muted">Guides only (for now)</span><span class="status-chip-detail">Event links added after review</span></span></div>`;
+  const items = [
+    ["status-badge", "Verified event links", "Event-specific ticket links available"],
+    ["status-badge", "Verified artist page", "Provider artist page available"],
+    ["status-badge status-badge-muted", "Buying guidance", "Event links added after review"]
+  ];
+  return `<div class="artist-status-legend" aria-label="Artist card status legend">${items
+    .map(
+      ([badgeClass, badge, detail]) =>
+        `<span class="artist-status-legend-item"><span class="${badgeClass}">${escapeHtml(
+          badge
+        )}</span><span class="status-chip-detail">${escapeHtml(detail)}</span></span>`
+    )
+    .join("")}</div>`;
 }
 
 function renderHomepageGuideLinks() {
@@ -750,7 +796,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="artistsTitle">Artist watchlist</h1><p>Find major artists, see whether checked ticket links are available, and use the buying guidance before you leave for a ticket provider.</p><p>A listed artist does not mean current tickets, prices, venues, or availability are confirmed. Ticket buttons appear only when the destination has been checked.</p><p class="disclosure-note">Coverage varies by artist and region. This is not a complete global tour listing; we only show event links where the artist, date, venue, and ticket destination can be checked.</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
-      catalog
+      catalog,
+      events
     )}</section></main>`;
   }
 
@@ -847,7 +894,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "#featured-artists",
     "button button-secondary"
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search artists, events, and guides we’ve reviewed.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">What you can do here</h2></div><div class="card-grid"><article class="info-card"><h3>Browse verified event links</h3><p>Find major artists and see event-specific ticket links where available.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>Compare checkout totals safely</h3><p>Learn how to compare final prices and fees across providers before you buy.</p>${anchor("Read guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>Spot risks before you pay</h3><p>Know what red flags to check before committing to a ticket purchase.</p>${anchor("Read guide", "/guides/how-to-avoid-ticket-scams", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Browse artist pages and verified event links where available.</p></div>${renderArtistStatusLegendHtml()}${renderArtistLinks(
-    catalog
+    catalog,
+    events
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Practical guides for comparing final prices, avoiding risky listings, and understanding ticket provider terms.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
     "View all guides",
     "/guides",
@@ -1150,7 +1198,8 @@ export async function onRequest(context) {
   }
 
   const catalog = await loadCatalog(env);
-  const events = route.type === "artist" ? await loadEvents(env) : [];
+  const needsEvents = route.type === "artist" || route.path === "/artists" || route.path === "/";
+  const events = needsEvents ? await loadEvents(env) : [];
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
   const injected = injectRoute(html, route, url.origin, catalog, events, guideContent, env);
   const headers = new Headers(indexResponse.headers);

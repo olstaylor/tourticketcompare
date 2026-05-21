@@ -328,6 +328,58 @@ function providerEnabled(providerSlug) {
   return (catalog.providers || []).some((provider) => slugify(provider.slug) === providerSlug && provider.public_enabled === true);
 }
 
+function artistHasVerifiedEventLinks(events, artistSlug) {
+  const now = Date.now();
+  const slug = slugify(artistSlug);
+  return (events || []).some((event) => {
+    if (!event || slugify(event.artist_slug) !== slug) return false;
+    const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
+    if (!Number.isFinite(ts) || ts < now) return false;
+    const url = String(event.ticketmaster_url || "").trim();
+    if (!/^https:\/\//i.test(url)) return false;
+    try {
+      return new URL(url).hostname.includes(".");
+    } catch (error) {
+      return false;
+    }
+  });
+}
+
+function artistCardStatus(artist, events) {
+  if (artistHasVerifiedEventLinks(events, artist.slug)) {
+    return {
+      pending: false,
+      badgeClass: "status-badge",
+      badge: "Verified event links",
+      detail: "Event-specific ticket links available",
+      cardStatus: "Event-specific ticket links are available on this artist page.",
+      ctaLabel: "View ticket links",
+      ctaVariant: "primary"
+    };
+  }
+  const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
+  if (activeProviders.length > 0) {
+    return {
+      pending: false,
+      badgeClass: "status-badge",
+      badge: "Verified artist page",
+      detail: "Provider artist page available",
+      cardStatus: "Provider artist page available. Event-specific links appear when verified.",
+      ctaLabel: "View artist page",
+      ctaVariant: "primary"
+    };
+  }
+  return {
+    pending: true,
+    badgeClass: "status-badge status-badge-muted",
+    badge: "Buying guidance",
+    detail: "Event links added after review",
+    cardStatus: "No verified ticket destination is currently published for this artist.",
+    ctaLabel: "View artist page",
+    ctaVariant: "secondary"
+  };
+}
+
 function getRoute() {
   const parts = window.location.pathname.split("/").filter(Boolean).map(slugify);
   if (!parts.length) return { type: "home" };
@@ -817,7 +869,7 @@ function renderTrustSection() {
   return section;
 }
 
-function renderHome() {
+async function renderHome() {
   setMeta(routeMeta["/"], false);
   const hero = document.createElement("section");
   hero.className = "hero-panel";
@@ -857,10 +909,11 @@ function renderHome() {
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Featured artists").id = "homeArtistsTitle";
   text(artistHeader, "p", "Browse artist pages and verified event links where available.");
+  const homeEvents = await loadEventsForSearch();
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => {
-    grid.append(renderArtistCard(artist));
+    grid.append(renderArtistCard(artist, homeEvents));
   });
   artists.append(artistHeader, renderArtistStatusLegend(), grid);
 
@@ -873,45 +926,33 @@ function renderArtistStatusLegend() {
   legend.className = "artist-status-legend";
   legend.setAttribute("aria-label", "Artist card status legend");
   const items = [
-    ["Ticket links available", "Verified Ticketmaster destination"],
-    ["Guides only (for now)", "Event links added after review"]
+    ["status-badge", "Verified event links", "Event-specific ticket links available"],
+    ["status-badge", "Verified artist page", "Provider artist page available"],
+    ["status-badge status-badge-muted", "Buying guidance", "Event links added after review"]
   ];
-  items.forEach(([badge, detail], index) => {
+  items.forEach(([badgeClass, badge, detail]) => {
     const item = document.createElement("span");
     item.className = "artist-status-legend-item";
-    text(item, "span", badge, index === 0 ? "status-badge" : "status-badge status-badge-muted");
+    text(item, "span", badge, badgeClass);
     text(item, "span", detail, "status-chip-detail");
     legend.append(item);
   });
   return legend;
 }
 
-function renderArtistCard(artist) {
+function renderArtistCard(artist, events = []) {
   const article = document.createElement("article");
-  const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
-  const isPending = activeProviders.length === 0;
-  article.className = isPending ? "artist-card is-pending" : "artist-card";
+  const status = artistCardStatus(artist, events);
+  article.className = status.pending ? "artist-card is-pending" : "artist-card";
   text(article, "h3", artist.name);
   text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
   const statusRow = document.createElement("div");
   statusRow.className = "artist-status-row";
-  text(
-    statusRow,
-    "p",
-    isPending ? "Guides only (for now)" : "Ticket links available",
-    isPending ? "status-badge status-badge-muted" : "status-badge"
-  );
-  text(statusRow, "p", isPending ? "Event links added after review" : "Verified Ticketmaster destination", "status-chip-detail");
+  text(statusRow, "p", status.badge, status.badgeClass);
+  text(statusRow, "p", status.detail, "status-chip-detail");
   article.append(statusRow);
-  text(
-    article,
-    "p",
-    isPending
-      ? "Use buying guides now; verified event links are added after review."
-      : "Event-specific buttons appear on show cards after destination checks.",
-    "card-status"
-  );
-  article.append(buttonLink("View artist page", `/artists/${artist.slug}`, isPending ? "secondary" : "primary"));
+  text(article, "p", status.cardStatus, "card-status");
+  article.append(buttonLink(status.ctaLabel, `/artists/${artist.slug}`, status.ctaVariant));
   return article;
 }
 
@@ -1119,7 +1160,7 @@ function renderGuidePreview() {
   return section;
 }
 
-function renderArtistsIndex() {
+async function renderArtistsIndex() {
   setMeta(routeMeta["/artists"], false);
   const section = document.createElement("section");
   section.className = "content-page";
@@ -1142,9 +1183,10 @@ function renderArtistsIndex() {
     "Coverage varies by artist and region. This is not a complete global tour listing; we only show event links where the artist, date, venue, and ticket destination can be checked.",
     "disclosure-note"
   );
+  const events = await loadEventsForSearch();
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
-  catalog.artists.forEach((artist) => grid.append(renderArtistCard(artist)));
+  catalog.artists.forEach((artist) => grid.append(renderArtistCard(artist, events)));
   section.append(renderArtistStatusLegend(), grid);
   main.replaceChildren(section);
 }

@@ -218,6 +218,36 @@ async function assertPublicCopySafe(files) {
   );
 }
 
+
+async function assertPublicCopyRegressionGuardrails(files) {
+  const rules = [
+    { label: "unsupported live pricing claim", pattern: /\blive\s+prices\b/i, allowedContext: /\b(do\s+not|does\s+not|not\s+display|not\s+show|no\s+on-page|without)\b/i },
+    { label: "unsupported live comparison claim", pattern: /\blive\s+price\s+comparison\b/i, allowedContext: /\b(do\s+not|does\s+not|not\s+available|not\s+supported|without)\b/i },
+    { label: "unsupported realtime pricing claim", pattern: /\breal-time\s+prices\b/i, allowedContext: /\b(do\s+not|does\s+not|not\s+available|not\s+supported|without)\b/i },
+    { label: "unsupported compare-live claim", pattern: /\bcompare\s+live\s+prices\b/i, allowedContext: /\b(do\s+not|does\s+not|cannot|can\'?t|not\s+available|not\s+supported|without)\b/i },
+    { label: "cheapest tickets claim", pattern: /\bcheapest\s+tickets\b/i },
+    { label: "best price claim", pattern: /\bbest\s+price\b/i },
+    { label: "guaranteed lowest claim", pattern: /\bguaranteed\s+lowest\b/i },
+    { label: "official partner claim", pattern: /\bofficial\s+partner\b/i },
+
+    { label: "placeholder domain", pattern: /\bexample\.com\b/i },
+    { label: "localhost placeholder", pattern: /\blocalhost\b/i, allowedContext: /(host\s*===|endsWith\("\.localhost"\)|127\.0\.0\.1|do\s+not\s+show\s+placeholder\s+links)/i },
+    { label: "your-link-here placeholder", pattern: /\byour-link-here\b/i },
+    { label: "replace-me placeholder", pattern: /\breplace-me\b/i },
+    { label: "mock price placeholder", pattern: /\bmock\s+price\b/i },
+    { label: "sample price placeholder", pattern: /\bsample\s+price\b/i },
+
+    { label: "public TODO marker", pattern: /\bTODO\b/ },
+    { label: "public WIP marker", pattern: /\bWIP\b/ },
+    { label: "public debug marker", pattern: /\bdebug\b/i, allowedContext: /\/api\/debug-seatgeek/ },
+    { label: "route shim wording", pattern: /\broute\s+shim\b/i },
+    { label: "raw HTML internal wording", pattern: /\braw\s+HTML\b/i, allowedContext: /\b(include|render|response)\b/i },
+    { label: "implementation detail wording", pattern: /\bimplementation\s+detail\b/i }
+  ];
+
+  await assertLineRulesAbsent(files, rules, "public copy regression guardrails");
+}
+
 async function assertGuideCopyGuardrails(files) {
   const rules = [
     { label: "currency price example", pattern: /[£$€]\s*\d/i },
@@ -332,6 +362,14 @@ const guideCopyFiles = [
   "public/app.js",
   "functions/_route-metadata.js"
 ];
+const publicCopyRegressionFiles = [
+  "public/index.html",
+  "public/app.js",
+  "functions/[[path]].js",
+  "functions/_route-metadata.js",
+  "public/data/guides-content.json",
+  "public/data/catalog.json"
+];
 const publicAffiliateUrlFiles = [
   ...new Set(
     publicUiFiles.concat([
@@ -348,6 +386,7 @@ assert(
   "homepage public-facing copy should be present"
 );
 await assertPublicCopySafe(publicCopyFiles);
+await assertPublicCopyRegressionGuardrails(publicCopyRegressionFiles);
 await assertGuideCopyGuardrails(guideCopyFiles);
 await assertNoRawPublicAffiliateUrls(publicAffiliateUrlFiles);
 assertAbsent(

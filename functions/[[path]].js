@@ -330,6 +330,20 @@ function renderGuideLinks() {
     .join("")}</div>`;
 }
 
+function renderArtistStatusLegendHtml() {
+  return `<div class="artist-status-legend" aria-label="Artist card status legend"><span class="artist-status-legend-item"><span class="status-badge">Artist ticket page</span><span class="status-chip-detail">Ticketmaster artist page verified</span></span><span class="artist-status-legend-item"><span class="status-badge status-badge-muted">Buying guidance</span><span class="status-chip-detail">Artist page with event links</span></span></div>`;
+}
+
+function renderHomepageGuideLinks() {
+  return `<div class="card-grid guide-grid">${Object.entries(GUIDE_ROUTES)
+    .slice(0, 6)
+    .map(
+      ([path, guide]) =>
+        `<article class="info-card"><h3>${anchor(guide.h1, path, "guide-card-link")}</h3><p>${escapeHtml(guide.description)}</p></article>`
+    )
+    .join("")}</div>`;
+}
+
 function renderArtistBrowseSection(catalog) {
   const artists = catalog.artists || [];
   if (!artists.length) return "";
@@ -613,7 +627,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/artists") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="artistsTitle">Artist watchlist</h1><p>Find major artists, see whether checked ticket links are available, and use the buying guidance before you leave for a ticket provider.</p><p>A listed artist does not mean current tickets, prices, venues, or availability are confirmed. Ticket buttons appear only when the destination has been checked.</p><p class="disclosure-note">Coverage varies by artist and region. This is not a complete global tour listing; we only show event links where the artist, date, venue, and ticket destination can be checked.</p>${renderArtistLinks(
+    )}<h1 id="artistsTitle">Artist watchlist</h1><p>Find major artists, see whether checked ticket links are available, and use the buying guidance before you leave for a ticket provider.</p><p>A listed artist does not mean current tickets, prices, venues, or availability are confirmed. Ticket buttons appear only when the destination has been checked.</p><p class="disclosure-note">Coverage varies by artist and region. This is not a complete global tour listing; we only show event links where the artist, date, venue, and ticket destination can be checked.</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
       catalog
     )}</section></main>`;
   }
@@ -708,9 +722,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "Browse artists",
     "#featured-artists",
     "button button-secondary"
-  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>We only surface artists, events, and guides that have been checked and published. Start typing in the search field above.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">What you can do here</h2></div><div class="card-grid"><article class="info-card"><h3>Browse verified event links</h3><p>Find major artists and see event-specific ticket links where available.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>Compare checkout totals safely</h3><p>Learn how to compare final prices and fees across providers before you buy.</p>${anchor("Read guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>Spot risks before you pay</h3><p>Know what red flags to check before committing to a ticket purchase.</p>${anchor("Read guide", "/guides/how-to-avoid-ticket-scams", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Browse artist pages and checked event links where available.</p></div>${renderArtistLinks(
+  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>We only surface artists, events, and guides that have been checked and published. Start typing in the search field above.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">What you can do here</h2></div><div class="card-grid"><article class="info-card"><h3>Browse verified event links</h3><p>Find major artists and see event-specific ticket links where available.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>Compare checkout totals safely</h3><p>Learn how to compare final prices and fees across providers before you buy.</p>${anchor("Read guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>Spot risks before you pay</h3><p>Know what red flags to check before committing to a ticket purchase.</p>${anchor("Read guide", "/guides/how-to-avoid-ticket-scams", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Browse artist pages and checked event links where available.</p></div>${renderArtistStatusLegendHtml()}${renderArtistLinks(
     catalog
-  )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Practical guides for comparing final prices, avoiding risky listings, and understanding ticket provider terms.</p></div>${renderGuideLinks()}<div class="action-row">${anchor(
+  )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Practical guides for comparing final prices, avoiding risky listings, and understanding ticket provider terms.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
     "View all guides",
     "/guides",
     "button button-secondary"

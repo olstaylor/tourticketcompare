@@ -309,48 +309,11 @@ h3 {
   }
 }
 
-.trust-ledger {
-  display: grid;
-  align-content: center;
-  gap: 12px;
-  padding: clamp(22px, 4vw, 38px);
-  border: 1px solid rgba(189, 178, 159, 0.92);
-  border-radius: var(--radius-lg);
-  background:
-    linear-gradient(160deg, rgba(255, 255, 255, 0.94), rgba(247, 238, 222, 0.9)),
-    var(--paper);
-}
-
-.trust-ledger h2,
 .section-intro h2,
 .provider-panel h2,
 .nested-panel h2 {
   font-size: clamp(2rem, 4vw, 4rem);
   line-height: 0.96;
-}
-
-.trust-ledger p {
-  position: relative;
-  margin: 0;
-  padding: 12px 14px 12px 38px;
-  border: 1px solid rgba(36, 72, 58, 0.11);
-  border-radius: 999px;
-  color: var(--ink);
-  background: rgba(255, 253, 247, 0.72);
-  font-weight: 850;
-  line-height: 1.42;
-}
-
-.trust-ledger p::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 16px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--green);
 }
 
 .section-grid,
@@ -366,12 +329,6 @@ h3 {
 
 .section-intro {
   max-width: 800px;
-}
-
-.home-disclosure {
-  background:
-    linear-gradient(135deg, rgba(36, 72, 58, 0.08), rgba(164, 111, 33, 0.1)),
-    rgba(255, 253, 247, 0.94);
 }
 
 .artist-card-grid,
@@ -846,10 +803,6 @@ summary {
   .button {
     min-height: 56px;
     padding: 16px 22px;
-  }
-
-  .trust-ledger p {
-    border-radius: 18px;
   }
 
   .info-card,

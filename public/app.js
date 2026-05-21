@@ -1020,7 +1020,7 @@ function renderGuidePreview() {
   text(header, "p", "Practical guides for checking final totals, understanding resale terms, avoiding risky listings, and knowing what to confirm before checkout.");
   const grid = document.createElement("div");
   grid.className = "card-grid guide-grid";
-  guidePages.forEach((guide) => {
+  guidePages.slice(0, 6).forEach((guide) => {
     grid.append(renderInfoCard(guide.h1, guide.description, link("Read guide", `/guides/${guide.slug}`, "text-link")));
   });
   const actions = document.createElement("div");

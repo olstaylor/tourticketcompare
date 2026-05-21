@@ -4,7 +4,7 @@ const providerCopy = {
   ticketmaster: {
     name: "Ticketmaster",
     label: "Open Ticketmaster artist page",
-    bullets: ["Artist-level page, not a date-specific event link", "Provider sets prices, fees, availability, and checkout terms"]
+    bullets: ["Provider artist page, not a date-specific event link", "Provider checkout controls final price, fees, and availability"]
   },
   seatgeek: {
     name: "SeatGeek",
@@ -419,10 +419,10 @@ function renderProviderButtons(artist, surface) {
   const panel = document.createElement("section");
   panel.className = "provider-panel";
   panel.setAttribute("aria-labelledby", "providerTitle");
-  text(panel, "h2", "Artist-level ticket pages").id = "providerTitle";
+  text(panel, "h2", "Provider links").id = "providerTitle";
 
   if (!links.length) {
-    text(panel, "p", "No checked artist-level ticket link is available for this artist yet. Ticket buttons appear only when we can verify the destination.", "muted");
+    text(panel, "p", "No provider artist link is available for this artist yet. Ticket buttons appear only after destination checks.", "muted");
     const guideNote = document.createElement("p");
     guideNote.className = "muted";
     guideNote.append(
@@ -591,7 +591,7 @@ function renderSearchResults(container, results, query) {
 
   if (total === 0) {
     statusEl.textContent =
-      "No checked result for that search. We only surface artists, guides, and events that have been added to our verified dataset.";
+      "No matching artist, event, or guide found yet.";
     container.append(statusEl);
     const nextSteps = document.createElement("p");
     nextSteps.className = "search-result-count";
@@ -601,7 +601,7 @@ function renderSearchResults(container, results, query) {
       document.createTextNode(", "),
       link("reading our buying guides", "/guides", "text-link"),
       document.createTextNode(", or "),
-      link("learning how TourTicketCompare works", "/how-it-works", "text-link"),
+      link("checking how our link verification works", "/how-it-works", "text-link"),
       document.createTextNode(".")
     );
     container.append(nextSteps);
@@ -732,7 +732,7 @@ function renderSearchResultsPanel() {
   text(
     header,
     "p",
-    "We only surface artists, events, and guides that have been checked and published. Start typing in the search field above."
+    "Search artists, events, and guides we’ve reviewed."
   );
 
   const resultsContainer = document.createElement("div");
@@ -782,9 +782,9 @@ function renderTrustSection() {
   text(header, "h2", "Trust & transparency").id = "trustTitle";
   const panel = document.createElement("div");
   panel.className = "nested-panel";
-  text(panel, "p", "TourTicketCompare is independent and unofficial. We do not sell tickets directly.");
-  text(panel, "p", "Some outbound links may be affiliate links, which means we may earn a commission if you click through and buy tickets. This does not increase your ticket price or fees.");
-  text(panel, "p", "Final price, fees, availability, seat details, refund rules, and checkout terms are confirmed by the provider on their site.");
+  text(panel, "p", "TourTicketCompare is independent and unofficial.");
+  text(panel, "p", "Some links are affiliate links. This doesn’t change your price.");
+  text(panel, "p", "Final prices, fees, and availability are set by the ticket provider.");
   const links = document.createElement("p");
   links.append(
     document.createTextNode("Learn more: "),
@@ -804,11 +804,11 @@ function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Find verified ticket links for major tours", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Find trusted ticket links for major tours", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
-    "Find hand-checked ticket links and practical buying guidance for major concert tours. Confirm final prices, fees, and availability on the ticket provider site before you buy.",
+    "Browse artist pages, verified event links when available, and straightforward buying guidance. Always confirm final price, fees, and availability at checkout.",
     "hero-subcopy"
   );
 
@@ -836,7 +836,7 @@ function renderHome() {
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Featured artists").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Browse artist pages and checked event links where available.");
+  text(artistHeader, "p", "Browse artist pages and verified event links where available.");
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
   catalog.artists.forEach((artist) => {
@@ -853,8 +853,8 @@ function renderArtistStatusLegend() {
   legend.className = "artist-status-legend";
   legend.setAttribute("aria-label", "Artist card status legend");
   const items = [
-    ["Artist ticket page", "Ticketmaster artist page verified"],
-    ["Buying guidance", "Artist page with event links"]
+    ["Ticket links available", "Verified Ticketmaster destination"],
+    ["Guides only (for now)", "Event links added after review"]
   ];
   items.forEach(([badge, detail], index) => {
     const item = document.createElement("span");
@@ -878,20 +878,20 @@ function renderArtistCard(artist) {
   text(
     statusRow,
     "p",
-    isPending ? "Buying guidance" : "Artist ticket page",
+    isPending ? "Guides only (for now)" : "Ticket links available",
     isPending ? "status-badge status-badge-muted" : "status-badge"
   );
-  text(statusRow, "p", isPending ? "Artist page with event links" : "Ticketmaster artist page verified", "status-chip-detail");
+  text(statusRow, "p", isPending ? "Event links added after review" : "Verified Ticketmaster destination", "status-chip-detail");
   article.append(statusRow);
   text(
     article,
     "p",
     isPending
-      ? "Buying guidance and event-specific ticket links are available on this artist page."
-      : "Artist pages show verified destinations. Event-specific buttons appear only on checked show cards.",
+      ? "Use buying guides now; verified event links are added after review."
+      : "Event-specific buttons appear on show cards after destination checks.",
     "card-status"
   );
-  article.append(buttonLink(isPending ? "Open artist page" : "Open artist ticket page", `/artists/${artist.slug}`, isPending ? "secondary" : "primary"));
+  article.append(buttonLink("View artist page", `/artists/${artist.slug}`, isPending ? "secondary" : "primary"));
   return article;
 }
 
@@ -1059,7 +1059,7 @@ async function hydrateShowBoard(section, filters = {}) {
       emptyMsg.append(
         document.createTextNode("No verified event-specific ticket links are currently published for this artist. We only show event cards after the event date and destination URL are checked. "),
         link("Read our buying guides", "/guides", "text-link"),
-        document.createTextNode(" while you wait. If available, you can still use the verified artist-level ticket page below. Verification status and last-checked details are listed on this page when supported by source data.")
+        document.createTextNode(" while you wait. If available, you can still use provider links below. Verification status and last-checked details are listed on this page when supported by source data.")
       );
       grid.append(emptyMsg);
       return;

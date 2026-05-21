@@ -406,7 +406,7 @@ function renderFullGuideContent(sections) {
 
 function providerVerificationNote(item) {
   const date = formatVerificationDate(item?.last_verified_at);
-  return date ? `Verified destination last checked: ${date}.` : "Verification date not available.";
+  return date ? `Verified destination last checked: ${date}.` : "";
 }
 
 function renderProviderFallback(catalog, artist, surface) {
@@ -414,6 +414,7 @@ function renderProviderFallback(catalog, artist, surface) {
   if (!links.length) {
     return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">No checked artist-level ticket link is available for this artist yet. Ticket buttons appear only when we can verify the destination.</p><p class="muted">While you wait, these guides cover what to check before committing to a ticketing platform:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
   }
+  let hasMissingProviderVerificationDate = false;
   const cards = links
     .map((item) => {
       const provider = slugify(item.provider);
@@ -424,14 +425,19 @@ function renderProviderFallback(catalog, artist, surface) {
         sourcePath: `/artists/${artist.slug}`,
         surface
       });
+      const verificationNote = providerVerificationNote(item);
+      if (!verificationNote) hasMissingProviderVerificationDate = true;
       return `<article class="provider-card"><h3>${escapeHtml(item.provider)}</h3><p>This is an artist-level page, not a date-specific event link. Provider sets prices, fees, availability, and checkout terms.</p>${anchor(
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
-      )}<p class="disclosure-note">${escapeHtml(providerVerificationNote(item))}</p></article>`;
+      )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
-  return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">These links go to provider artist pages. Event-specific links appear only on dated show cards when verified.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Affiliate link. We may earn a commission at no extra cost to you.</p><p class="disclosure-note">Final prices, fees and availability are confirmed on the ticketing platform.</p></section>`;
+  const missingDateNote = hasMissingProviderVerificationDate
+    ? `<p class="disclosure-note">Some verified provider destinations do not currently include a provider-level last-checked date.</p>`
+    : "";
+  return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">These links go to provider artist pages. Event-specific links appear only on dated show cards when verified.</p><div class="provider-actions">${cards}</div>${missingDateNote}<p class="disclosure-note">Affiliate link. We may earn a commission at no extra cost to you.</p><p class="disclosure-note">Final prices, fees and availability are confirmed on the ticketing platform.</p></section>`;
 }
 
 function formatVerificationDate(value) {

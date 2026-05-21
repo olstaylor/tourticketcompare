@@ -411,7 +411,7 @@ function buildVerificationDisclosurePanel(artist, shows = []) {
 
 function providerVerificationNote(item) {
   const date = formatVerificationDate(item?.last_verified_at);
-  return date ? `Verified destination last checked: ${date}.` : "Verification date not available.";
+  return date ? `Verified destination last checked: ${date}.` : "";
 }
 
 function renderProviderButtons(artist, surface) {
@@ -447,6 +447,7 @@ function renderProviderButtons(artist, surface) {
 
   const actions = document.createElement("div");
   actions.className = "provider-actions";
+  let hasMissingProviderVerificationDate = false;
   links.forEach((item) => {
     const providerSlug = slugify(item.provider);
     const copy = providerCopy[providerSlug] || { name: item.provider, label: `Open ${item.provider} artist page`, bullets: [] };
@@ -471,10 +472,23 @@ function renderProviderButtons(artist, surface) {
       });
     });
     card.append(cta);
-    text(card, "p", providerVerificationNote(item), "disclosure-note");
+    const verificationNote = providerVerificationNote(item);
+    if (verificationNote) {
+      text(card, "p", verificationNote, "disclosure-note");
+    } else {
+      hasMissingProviderVerificationDate = true;
+    }
     actions.append(card);
   });
   panel.append(actions);
+  if (hasMissingProviderVerificationDate) {
+    text(
+      panel,
+      "p",
+      "Some verified provider destinations do not currently include a provider-level last-checked date.",
+      "disclosure-note"
+    );
+  }
   text(panel, "p", "Affiliate link. We may earn a commission at no extra cost to you.", "disclosure-note");
   text(
     panel,

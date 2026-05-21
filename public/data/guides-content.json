@@ -37,7 +37,7 @@
       },
       {
         "type": "section",
-        "title": "Frequently Asked Questions",
+        "title": "FAQ",
         "content": "**Does TourTicketCompare compare live ticket prices?**\n\nNo. TourTicketCompare provides checked links and buying guidance. Compare current provider checkout totals manually before you buy.\n\n**What number should I actually compare?**\n\nCompare the final checkout total after the provider has shown all fees, taxes, delivery charges, and currency conversion. The first displayed price does not reliably reflect what you will pay.\n\n**Why does the total change between the listing page and the checkout screen?**\n\nService fees, order fees, facility fees, taxes, delivery charges, and sometimes currency conversion are often added during checkout rather than shown upfront. Some markets require providers to display all-in pricing from the start; others do not. Always scroll through to the final order summary before comparing totals.\n\n**Is a resale ticket always riskier than a primary ticket?**\n\nNot automatically. Resale through an established marketplace with published buyer protection can be a legitimate option. The key extra checks for resale are seat accuracy, delivery timing, transfer rules, and what the marketplace guarantees if delivery fails.\n\n**What if two providers show different totals for what looks like the same show?**\n\nFirst check whether the event, date, venue, section, ticket type, delivery method, and terms are genuinely comparable. If they differ in any of those factors, you may be comparing unlike offers.\n\n**Can TourTicketCompare confirm whether tickets are still available?**\n\nNo. Availability changes quickly and must be confirmed on the provider site at the time of purchase."
       },
       {
@@ -118,7 +118,7 @@
       },
       {
         "type": "section",
-        "title": "Frequently asked questions",
+        "title": "FAQ",
         "content": "**How is a ticket scam different from a resale markup?**\n\nA scam involves deliberate payment for a ticket that is invalid, non-transferable, or non-existent. A resale markup involves a genuine ticket sold at a higher price than primary. Both require checks before buying, but the responses differ: stop for a scam; compare final totals and verify terms for resale.\n\n**Why are screenshots and PDFs risky?**\n\nWhen a ticket is transferred through an official provider account, the original holder loses access and you become the authoritative holder. A screenshot, PDF, or barcode image can be duplicated and sent to multiple buyers — whoever scans it first at the door is admitted, and the rest are turned away. Only an official in-account transfer provides a clear record of ownership.\n\n**Is meeting in person to collect a ticket safe?**\n\nIt carries additional risk unless you can complete a verified in-account transfer on the spot before paying. A barcode shown on a screen is not the same as a transfer to your account. If the seller cannot or will not use the official transfer process, that is a strong warning sign.\n\n**Does HTTPS or a padlock mean the website is trustworthy?**\n\nNo. HTTPS confirms the connection is encrypted but does not verify that the site is legitimate or that any ticket is valid. Always check the full domain carefully and start from official sources rather than following links in messages or search engine results.\n\n**What does TourTicketCompare verify?**\n\nTourTicketCompare checks that artist pages and event links point to verified destinations before showing them. We do not verify individual resale sellers, the accuracy of listings on external platforms, or the validity of tickets at the venue. Buyer protection, dispute processes, and final purchase terms are set by the provider you buy through.\n\n**Can I recover money paid by bank transfer?**\n\nIt may be difficult. Contact your bank immediately, report the transaction as fraud, and follow their process. Some banks have fraud recovery procedures, but full recovery is not certain. This is why payment method is an important check before buying."
       }
     ],
@@ -389,7 +389,7 @@
       },
       {
         "type": "section",
-        "title": "Frequently asked questions",
+        "title": "FAQ",
         "content": "**Is dynamic pricing the same as a scam?**\n\nNo. Dynamic or demand-responsive pricing is a disclosed feature used by some providers on some events. It means a listed price may change based on demand at the time of purchase. It is not the same as a resale markup, a fraudulent listing, or a sign that something has gone wrong.\n\n**Why is my final total higher than the price I first saw?**\n\nFees, taxes, delivery charges, and currency conversion are often added at checkout rather than shown upfront. Some markets require providers to display the full amount from the start; others do not. Always proceed to the final order screen before comparing totals.\n\n**Is a primary ticket always cheaper than resale?**\n\nNot after fees. A primary ticket may carry service fees and order charges that bring the final total close to or above some resale listings for the same event and section. Compare final checkout totals before drawing conclusions.\n\n**Can I get a refund if something changes?**\n\nNot automatically. Refund, transfer, and cancellation terms vary by provider, event, and ticket type. Read the terms for the specific event before buying. Do not assume the platform's general refund policy applies to your order.\n\n**Does TourTicketCompare tell me whether one provider is cheaper?**\n\nNo. We do not compare live prices across providers. Compare current final checkout totals manually on the relevant provider pages for the same event and seat type."
       }
     ],
@@ -684,7 +684,7 @@
       },
       {
         "type": "section",
-        "title": "Frequently Asked Questions",
+        "title": "FAQ",
         "content": "**Does postponed mean my ticket is cancelled?**\n\nNo. Postponed usually means the event is delayed and a new date may be announced later. Your ticket's status depends on the provider's terms, so confirm it directly rather than assuming.\n\n**Am I automatically entitled to a refund if a concert is cancelled?**\n\nNot automatically. Whether a refund, credit, or exchange is offered, and how it is requested, depends on the provider and event terms. Check the provider's official update for your order.\n\n**My ticket was transferred to me. Who handles the change?**\n\nThe provider account that holds the ticket usually manages event updates. Coordinate with the person who sent the ticket and follow the provider's guidance.\n\n**Can I still resell a ticket for a rescheduled show?**\n\nResale rules vary by platform and event. Check the resale marketplace's terms, and confirm the current event details before listing or buying."
       },
       {

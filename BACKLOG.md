@@ -1,10 +1,10 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-05-20
+Last updated: 2026-05-21
 
 This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-state source of truth; `CLEANUP_AUDIT.md` is a reference audit, not the active task list.
 
-Status note (2026-05-20): Recent UX/trust polish is complete — verified event-link disclosure is clearer, homepage positioning is simpler, and an artist status legend has been added. The current site audit now rates UX/trust posture Green with minor Amber caveats. `data:stats` remains a small follow-up only if it is not already complete.
+Status note (2026-05-21): UX/trust polish pass complete (PR #156 merged). Homepage guide preview is now 6 cards; artist status legend is server-rendered; dead trust-ledger CSS removed; three core trust guides improved; artist status copy corrected. Site is paused before The Weeknd addition — next task is a proposal-only research candidate for that artist. See `HANDOVER.md` for the full session summary and new-artist checklist.
 
 ## Recommended next 5 Codex-sized tasks
 

@@ -191,8 +191,15 @@ def run_self_test() -> int:
             "seatgeek": {"url": "https://seatgeek.com/test-show/concert/123456", "verified": True},
             "vivid-seats": {"url": "https://www.vividseats.com/test-event-tickets/production/1234567", "verified": True},
         },
+        "last_verified_at": "2026-05-21",
     }
-    artists = [{"slug": "self-test-artist", "name": "Self Test Artist"}]
+    base_artists = [{
+        "slug": "self-test-artist",
+        "name": "Self Test Artist",
+        "last_verified_at": "2026-05-21",
+        "verified_provider_count": 2,
+        "verified_providers": ["ticketmaster", "seatgeek"],
+    }]
     script_path = Path(__file__).resolve()
     test_cases = [
         {
@@ -220,15 +227,63 @@ def run_self_test() -> int:
             "mutate": lambda event: event["provider_links"]["ticketmaster"].__setitem__("url", "https://example.com/replace-me"),
             "expect": "provider_links.ticketmaster.url: placeholder/example URL is not allowed",
         },
+        {
+            "name": "malformed artist last_verified_at",
+            "mutate_artists": lambda artists: artists[0].__setitem__("last_verified_at", "2026/05/21"),
+            "expect": "artist[self-test-artist].last_verified_at: must be YYYY-MM-DD if present",
+        },
+        {
+            "name": "invalid artist calendar date",
+            "mutate_artists": lambda artists: artists[0].__setitem__("last_verified_at", "2026-02-30"),
+            "expect": "artist[self-test-artist].last_verified_at: must be YYYY-MM-DD if present",
+        },
+        {
+            "name": "malformed event last_verified_at",
+            "mutate": lambda event: event.__setitem__("last_verified_at", "2026/05/21"),
+            "expect": "event[0].last_verified_at: must be YYYY-MM-DD if present",
+        },
+        {
+            "name": "provider timestamp requires verified true",
+            "mutate": lambda event: (
+                event["provider_links"]["ticketmaster"].__setitem__("verified", False),
+                event["provider_links"]["ticketmaster"].__setitem__("last_verified_at", "2026-05-21")
+            ),
+            "expect": "event[0].provider_links.ticketmaster.last_verified_at: requires verified=true and a non-empty url",
+        },
+        {
+            "name": "provider timestamp requires non-empty url",
+            "mutate": lambda event: (
+                event["provider_links"]["ticketmaster"].__setitem__("url", ""),
+                event["provider_links"]["ticketmaster"].__setitem__("last_verified_at", "2026-05-21")
+            ),
+            "expect": "event[0].provider_links.ticketmaster.last_verified_at: requires verified=true and a non-empty url",
+        },
+        {
+            "name": "artist verified provider count mismatch",
+            "mutate_artists": lambda artists: artists[0].__setitem__("verified_provider_count", 3),
+            "expect": "artist[self-test-artist].verified_provider_count: must match verified_providers length (2)",
+        },
+    ]
+    positive_cases = [
+        {
+            "name": "valid timestamp fields across artist event and provider",
+            "mutate": lambda event: event["provider_links"]["ticketmaster"].__setitem__("last_verified_at", "2026-05-21"),
+        },
     ]
 
     with tempfile.TemporaryDirectory(prefix="ttc-validate-events-self-test-") as tmp_dir:
         tmp = Path(tmp_dir)
-        artists_path = tmp / "artists.json"
-        artists_path.write_text(json.dumps(artists), encoding="utf-8")
         for case in test_cases:
             event = copy.deepcopy(base_event)
-            case["mutate"](event)
+            artists = copy.deepcopy(base_artists)
+            mutate_event = case.get("mutate")
+            mutate_artists = case.get("mutate_artists")
+            if callable(mutate_event):
+                mutate_event(event)
+            if callable(mutate_artists):
+                mutate_artists(artists)
+            artists_path = tmp / f"artists-{slugify_case_name(case['name'])}.json"
+            artists_path.write_text(json.dumps(artists), encoding="utf-8")
             events_path = tmp / f"{slugify_case_name(case['name'])}.json"
             events_path.write_text(json.dumps([event]), encoding="utf-8")
             cmd = [
@@ -253,7 +308,41 @@ def run_self_test() -> int:
                     file=sys.stderr,
                 )
                 return 1
-    print(f"OK: validate-events self-test passed ({len(test_cases)} negative cases).")
+        for case in positive_cases:
+            event = copy.deepcopy(base_event)
+            artists = copy.deepcopy(base_artists)
+            mutate_event = case.get("mutate")
+            mutate_artists = case.get("mutate_artists")
+            if callable(mutate_event):
+                mutate_event(event)
+            if callable(mutate_artists):
+                mutate_artists(artists)
+            artists_path = tmp / f"artists-{slugify_case_name(case['name'])}.json"
+            artists_path.write_text(json.dumps(artists), encoding="utf-8")
+            events_path = tmp / f"{slugify_case_name(case['name'])}.json"
+            events_path.write_text(json.dumps([event]), encoding="utf-8")
+            cmd = [
+                sys.executable,
+                str(script_path),
+                "--for-production",
+                "--path",
+                str(events_path),
+                "--artists-path",
+                str(artists_path),
+            ]
+            result = subprocess.run(cmd, capture_output=True, text=True)
+            stderr = result.stderr or ""
+            if result.returncode != 0:
+                print(
+                    f"SELF-TEST FAILED: {case['name']} unexpectedly failed.\n"
+                    f"Actual stderr:\n{stderr}",
+                    file=sys.stderr,
+                )
+                return 1
+    print(
+        f"OK: validate-events self-test passed ({len(test_cases)} negative cases, "
+        f"{len(positive_cases)} positive case)."
+    )
     return 0
 
 

@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-20 (Bruno Mars + Olivia Rodrigo data/verification merged; P0 raw-HTML routing previously proven locally)
+Last updated: 2026-05-21 (UX/trust polish pass complete; PR #156 merged)
 
 This file is the current-state source of truth. Use `BACKLOG.md` for prioritised tasks, `HANDOVER.md` for the short session handoff, and `docs/ISSUE_DRAFTS.md` for copy/paste GitHub issue drafts.
 
@@ -8,7 +8,7 @@ This file is the current-state source of truth. Use `BACKLOG.md` for prioritised
 
 TourTicketCompare is a Cloudflare Pages + Pages Functions ticket research site. It is useful today as an independent guide and verified-link directory, not as a live price comparison engine.
 
-Current repo facts checked on 2026-05-20:
+Current repo facts checked on 2026-05-21:
 
 - Production architecture is Pages Functions: static assets live in `public/`, server-side HTML/API logic lives in `functions/`, and there is no application build step.
 - `functions/_middleware.js` is the active HTML entry point and delegates non-asset, non-API routes to `functions/[[path]].js`.

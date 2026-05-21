@@ -404,6 +404,11 @@ function renderFullGuideContent(sections) {
     .join("");
 }
 
+function providerVerificationNote(item) {
+  const date = formatVerificationDate(item?.last_verified_at);
+  return date ? `Verified destination last checked: ${date}.` : "Verification date not available.";
+}
+
 function renderProviderFallback(catalog, artist, surface) {
   const links = ticketLinksForArtist(catalog, artist.slug);
   if (!links.length) {
@@ -423,7 +428,7 @@ function renderProviderFallback(catalog, artist, surface) {
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
-      )}</article>`;
+      )}<p class="disclosure-note">${escapeHtml(providerVerificationNote(item))}</p></article>`;
     })
     .join("");
   return `<section class="provider-panel"><h2>Artist-level ticket pages</h2><p class="muted">These links go to provider artist pages. Event-specific links appear only on dated show cards when verified.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Affiliate link. We may earn a commission at no extra cost to you.</p><p class="disclosure-note">Final prices, fees and availability are confirmed on the ticketing platform.</p></section>`;
@@ -452,8 +457,8 @@ function renderVerificationDisclosure(artist, shows = []) {
   const eventDates = [...new Set(shows.map(show => formatVerificationDate(show.last_verified_at)).filter(Boolean))];
   const eventRange = eventDates.length ? (eventDates.length === 1 ? eventDates[0] : `${eventDates[0]} to ${eventDates[eventDates.length - 1]}`) : null;
   return `<section class="nested-panel verification-disclosure"><h2>Verification and disclosure</h2><ul class="check-list">${lines.map(line => `<li>${escapeHtml(line)}</li>`).join("")}</ul>${
-    artistVerifiedDate ? `<p class="disclosure-note">Artist-level link verification: ${escapeHtml(artistVerifiedDate)}.</p>` : ""
-  }${eventRange ? `<p class="disclosure-note">Event-link verification window: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
+    artistVerifiedDate ? `<p class="disclosure-note">Artist verification last checked: ${escapeHtml(artistVerifiedDate)}.</p>` : ""
+  }${eventRange ? `<p class="disclosure-note">Event verification dates in this list: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
 }
 
 function futureShowsForArtist(events, artistSlug, limit) {
@@ -550,6 +555,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
   const date = formatShowDateServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
+  const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
   let ctaHtml = `<p class="disclosure-note">No event-specific ticket link is available for this date yet.</p>`;
 
   if (validUrl && show.id) {
@@ -566,7 +572,8 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
   }
 
   const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
-  return `<article class="info-card show-card" data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || "Verified show")}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${ctaHtml}</article>`;
+  const eventVerifiedHtml = eventVerifiedDate ? `<p class="disclosure-note">Event verification last checked: ${escapeHtml(eventVerifiedDate)}.</p>` : "";
+  return `<article class="info-card show-card" data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || "Verified show")}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${eventVerifiedHtml}${ctaHtml}</article>`;
 }
 
 function renderShowBoardServerHtml(shows, seatGeekAvailable = false) {

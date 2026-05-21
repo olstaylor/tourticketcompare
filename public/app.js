@@ -396,17 +396,22 @@ function buildVerificationDisclosurePanel(artist, shows = []) {
 
   const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
   if (artistVerifiedDate) {
-    text(panel, "p", `Artist-level link verification: ${artistVerifiedDate}.`, "disclosure-note");
+    text(panel, "p", `Artist verification last checked: ${artistVerifiedDate}.`, "disclosure-note");
   }
 
   const eventDates = shows.map((show) => formatVerificationDate(show.last_verified_at)).filter(Boolean);
   if (eventDates.length) {
     const uniqueDates = [...new Set(eventDates)];
     const label = uniqueDates.length === 1 ? uniqueDates[0] : `${uniqueDates[0]} to ${uniqueDates[uniqueDates.length - 1]}`;
-    text(panel, "p", `Event-link verification window: ${label}.`, "disclosure-note");
+    text(panel, "p", `Event verification dates in this list: ${label}.`, "disclosure-note");
   }
 
   return panel;
+}
+
+function providerVerificationNote(item) {
+  const date = formatVerificationDate(item?.last_verified_at);
+  return date ? `Verified destination last checked: ${date}.` : "Verification date not available.";
 }
 
 function renderProviderButtons(artist, surface) {
@@ -466,6 +471,7 @@ function renderProviderButtons(artist, surface) {
       });
     });
     card.append(cta);
+    text(card, "p", providerVerificationNote(item), "disclosure-note");
     actions.append(card);
   });
   panel.append(actions);
@@ -972,6 +978,7 @@ function renderShowCard(show, options = {}) {
   const location = showLocation(show);
   text(article, "p", location || "City and venue details are shown only when verified by the source.", "muted");
 
+  const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
   if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
     const showId = String(show.id || "").trim();
@@ -980,6 +987,9 @@ function renderShowCard(show, options = {}) {
       const cta = buttonLink("Open verified event ticket link", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";
       cta.rel = "noopener";
+      if (eventVerifiedDate) {
+        text(article, "p", `Event verification last checked: ${eventVerifiedDate}.`, "disclosure-note");
+      }
       if (seatGeekOutAvailable(show, options)) {
         const seatGeekParams = new URLSearchParams({ showId, provider: "seatgeek" });
         const seatGeekCta = buttonLink("Check SeatGeek", `/api/out?${seatGeekParams.toString()}`, "secondary");

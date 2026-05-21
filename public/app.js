@@ -788,7 +788,7 @@ function renderArtistStatusLegend() {
   legend.className = "artist-status-legend";
   legend.setAttribute("aria-label", "Artist card status legend");
   const items = [
-    ["Event links available", "Ticketmaster artist page verified"],
+    ["Artist ticket page", "Ticketmaster artist page verified"],
     ["Buying guidance", "Artist page with event links"]
   ];
   items.forEach(([badge, detail], index) => {
@@ -813,7 +813,7 @@ function renderArtistCard(artist) {
   text(
     statusRow,
     "p",
-    isPending ? "Buying guidance" : "Event links available",
+    isPending ? "Buying guidance" : "Artist ticket page",
     isPending ? "status-badge status-badge-muted" : "status-badge"
   );
   text(statusRow, "p", isPending ? "Artist page with event links" : "Ticketmaster artist page verified", "status-chip-detail");

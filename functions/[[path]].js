@@ -306,7 +306,7 @@ function renderArtistLinks(catalog) {
         return (
         `<article class="${hasArtistPage ? "artist-card" : "artist-card is-pending"}"><h3>${escapeHtml(artist.name)}</h3><p class="muted">${escapeHtml(
           artist.short_description || "Artist watchlist notes."
-        )}</p><div class="artist-status-row"><p class="${hasArtistPage ? "status-badge" : "status-badge status-badge-muted"}">${hasArtistPage ? "Event links available" : "Buying guidance"}</p><p class="status-chip-detail">${hasArtistPage ? "Ticketmaster artist page verified" : "Artist page with event links"}</p></div><p class="card-status">${
+        )}</p><div class="artist-status-row"><p class="${hasArtistPage ? "status-badge" : "status-badge status-badge-muted"}">${hasArtistPage ? "Artist ticket page" : "Buying guidance"}</p><p class="status-chip-detail">${hasArtistPage ? "Ticketmaster artist page verified" : "Artist page with event links"}</p></div><p class="card-status">${
           hasArtistPage
             ? "Artist pages show verified destinations. Event-specific buttons appear only on checked show cards."
             : "Buying guidance and event-specific ticket links are available on this artist page."

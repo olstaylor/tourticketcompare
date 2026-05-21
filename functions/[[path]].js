@@ -194,17 +194,36 @@ function baseSchema(origin) {
   ];
 }
 
+function genericArtistFaq(artistName) {
+  return [
+    [
+      `Does this page list ${artistName} tour dates?`,
+      "No. This page does not publish tour dates unless event details have been verified. Use the verified ticket link, when available, to check current platform information."
+    ],
+    [
+      `Does TourTicketCompare sell ${artistName} tickets?`,
+      "No. TourTicketCompare does not sell tickets directly. We link to external ticketing platforms when a destination is verified."
+    ],
+    [
+      "Are prices shown here?",
+      "No. Prices should appear only when live provider data is verified and timestamped. Final prices and fees are controlled by the ticket platform."
+    ]
+  ];
+}
+
+function artistFaqEntries(artist) {
+  const custom = Array.isArray(artist.faq)
+    ? artist.faq
+        .filter((entry) => entry && typeof entry === "object" && entry.question && entry.answer)
+        .map((entry) => [String(entry.question), String(entry.answer)])
+    : [];
+  return custom.length ? custom : genericArtistFaq(artist.name);
+}
+
 function faqSchema(route) {
   const questions =
     route.type === "artist"
-      ? [
-          [
-            `Does this page list ${route.artist.name} tour dates?`,
-            "No. This page does not publish tour dates unless event details have been verified. Use the verified ticket link, when available, to check current platform information."
-          ],
-          [`Does TourTicketCompare sell ${route.artist.name} tickets?`, "No. TourTicketCompare does not sell tickets directly."],
-          ["Are prices shown here?", "No. Prices should appear only when live provider data is verified and timestamped."]
-        ]
+      ? artistFaqEntries(route.artist)
       : [
           ["Is TourTicketCompare official?", "No. TourTicketCompare is independent and unofficial."],
           ["Does the site sell tickets directly?", "No. Ticket buying happens on the external provider site."],
@@ -298,40 +317,147 @@ function renderBreadcrumbHtml(route) {
     .join("")}</ol></nav>`;
 }
 
-function renderArtistLinks(catalog) {
+function artistHasVerifiedEventLinks(events, artistSlug) {
+  return futureShowsForArtist(events, artistSlug, 6).some(
+    (show) => show.id && safeShowTicketUrl(show.ticketmaster_url)
+  );
+}
+
+function artistCardStatus(catalog, artist, events) {
+  if (artistHasVerifiedEventLinks(events, artist.slug)) {
+    return {
+      pending: false,
+      badgeClass: "status-badge",
+      badge: "Verified event links",
+      detail: "Event-specific ticket links available",
+      cardStatus: "Event-specific ticket links are available on this artist page.",
+      ctaLabel: "View ticket links",
+      ctaClass: "button button-primary"
+    };
+  }
+  if (ticketLinksForArtist(catalog, artist.slug).length > 0) {
+    return {
+      pending: false,
+      badgeClass: "status-badge",
+      badge: "Verified artist page",
+      detail: "Provider artist page available",
+      cardStatus: "Provider artist page available. Event-specific links appear when verified.",
+      ctaLabel: "View artist page",
+      ctaClass: "button button-primary"
+    };
+  }
+  return {
+    pending: true,
+    badgeClass: "status-badge status-badge-muted",
+    badge: "Buying guidance",
+    detail: "Event links added after review",
+    cardStatus: "No verified ticket destination is currently published for this artist.",
+    ctaLabel: "View artist page",
+    ctaClass: "button button-secondary"
+  };
+}
+
+function renderArtistLinks(catalog, events = []) {
   return `<div class="artist-card-grid">${(catalog.artists || [])
-    .map(
-      (artist) => {
-        const hasArtistPage = ticketLinksForArtist(catalog, artist.slug).length > 0;
-        return (
-        `<article class="${hasArtistPage ? "artist-card" : "artist-card is-pending"}"><h3>${escapeHtml(artist.name)}</h3><p class="muted">${escapeHtml(
-          artist.short_description || "Artist watchlist notes."
-        )}</p><div class="artist-status-row"><p class="${hasArtistPage ? "status-badge" : "status-badge status-badge-muted"}">${hasArtistPage ? "Ticket links available" : "Guides only (for now)"}</p><p class="status-chip-detail">${hasArtistPage ? "Verified Ticketmaster destination" : "Event links added after review"}</p></div><p class="card-status">${
-          hasArtistPage
-            ? "Event-specific buttons appear on show cards after destination checks."
-            : "Use buying guides now; verified event links are added after review."
-        }</p>${anchor(
-          "View artist page",
-          `/artists/${artist.slug}`,
-          hasArtistPage ? "button button-primary" : "button button-secondary"
-        )}</article>`
-        );
-      }
-    )
+    .map((artist) => {
+      const status = artistCardStatus(catalog, artist, events);
+      return `<article class="${status.pending ? "artist-card is-pending" : "artist-card"}"><h3>${escapeHtml(
+        artist.name
+      )}</h3><p class="muted">${escapeHtml(
+        artist.short_description || "Artist watchlist notes."
+      )}</p><div class="artist-status-row"><p class="${status.badgeClass}">${escapeHtml(
+        status.badge
+      )}</p><p class="status-chip-detail">${escapeHtml(status.detail)}</p></div><p class="card-status">${escapeHtml(
+        status.cardStatus
+      )}</p>${anchor(status.ctaLabel, `/artists/${artist.slug}`, status.ctaClass)}</article>`;
+    })
     .join("")}</div>`;
 }
 
-function renderGuideLinks() {
-  return `<div class="card-grid guide-grid">${Object.entries(GUIDE_ROUTES)
-    .map(
-      ([path, guide]) =>
-        `<article class="info-card"><h3>${anchor(guide.h1, path, "guide-card-link")}</h3><p>${escapeHtml(guide.description)}</p></article>`
-    )
-    .join("")}</div>`;
+const GUIDE_CLUSTERS = [
+  {
+    title: "Compare prices and fees",
+    intro: "Compare final checkout totals, fees, and provider terms before you decide.",
+    slugs: [
+      "/guides/how-to-compare-concert-ticket-prices",
+      "/guides/how-to-avoid-overpaying-for-concert-tickets",
+      "/guides/concert-ticket-fees-explained",
+      "/guides/why-ticket-prices-change",
+      "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats"
+    ]
+  },
+  {
+    title: "Buy safely",
+    intro: "Check legitimacy, avoid risky sellers, and understand what to verify before payment.",
+    slugs: [
+      "/guides/how-to-avoid-ticket-scams",
+      "/guides/ticketmaster-vs-stubhub",
+      "/guides/seatgeek-promo-code-guide"
+    ]
+  },
+  {
+    title: "Understand resale and listings",
+    intro: "Understand how resale listings, transfer timing, and provider protections can differ.",
+    slugs: [
+      "/guides/primary-vs-resale-concert-tickets",
+      "/guides/how-resale-ticket-pricing-works",
+      "/guides/how-to-read-a-ticket-listing",
+      "/guides/ticket-delivery-and-transfer-timing"
+    ]
+  },
+  {
+    title: "Timing and planning",
+    intro: "Plan when to buy and what to check before committing to a ticket.",
+    slugs: [
+      "/guides/when-is-the-best-time-to-buy-concert-tickets",
+      "/guides/how-to-prepare-for-a-ticket-onsale",
+      "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled"
+    ]
+  }
+];
+
+function guideCardHtml(path) {
+  const guide = GUIDE_ROUTES[path];
+  if (!guide) return "";
+  return `<article class="info-card"><h3>${anchor(guide.h1, path, "guide-card-link")}</h3><p>${escapeHtml(guide.description)}</p></article>`;
+}
+
+function renderGuideClusters() {
+  const clustered = new Set();
+  const clusterSections = GUIDE_CLUSTERS.map((cluster) => {
+    const cards = cluster.slugs
+      .map((path) => {
+        clustered.add(path);
+        return guideCardHtml(path);
+      })
+      .join("");
+    return `<section class="nested-panel"><h2>${escapeHtml(cluster.title)}</h2><p>${escapeHtml(
+      cluster.intro
+    )}</p><div class="card-grid guide-grid">${cards}</div></section>`;
+  }).join("");
+  const uncovered = Object.keys(GUIDE_ROUTES).filter((path) => !clustered.has(path));
+  const moreSection = uncovered.length
+    ? `<section class="nested-panel"><h2>More guides</h2><div class="card-grid guide-grid">${uncovered
+        .map(guideCardHtml)
+        .join("")}</div></section>`
+    : "";
+  return clusterSections + moreSection;
 }
 
 function renderArtistStatusLegendHtml() {
-  return `<div class="artist-status-legend" aria-label="Artist card status legend"><span class="artist-status-legend-item"><span class="status-badge">Ticket links available</span><span class="status-chip-detail">Verified Ticketmaster destination</span></span><span class="artist-status-legend-item"><span class="status-badge status-badge-muted">Guides only (for now)</span><span class="status-chip-detail">Event links added after review</span></span></div>`;
+  const items = [
+    ["status-badge", "Verified event links", "Event-specific ticket links available"],
+    ["status-badge", "Verified artist page", "Provider artist page available"],
+    ["status-badge status-badge-muted", "Buying guidance", "Event links added after review"]
+  ];
+  return `<div class="artist-status-legend" aria-label="Artist card status legend">${items
+    .map(
+      ([badgeClass, badge, detail]) =>
+        `<span class="artist-status-legend-item"><span class="${badgeClass}">${escapeHtml(
+          badge
+        )}</span><span class="status-chip-detail">${escapeHtml(detail)}</span></span>`
+    )
+    .join("")}</div>`;
 }
 
 function renderHomepageGuideLinks() {
@@ -604,6 +730,15 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
     const shows = futureShowsForArtist(events, artist.slug, 6);
+    const demandHtml =
+      typeof artist.why_demand_is_high === "string" && artist.why_demand_is_high.trim()
+        ? `<section class="nested-panel"><h2>Why demand may be high</h2><p>${escapeHtml(
+            artist.why_demand_is_high
+          )}</p></section>`
+        : "";
+    const artistFaqHtml = artistFaqEntries(artist)
+      .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
+      .join("");
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="artistTitle">${escapeHtml(
@@ -618,7 +753,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes
-    )}</p><p class="disclosure-note">We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.</p></div></section><section class="nested-panel"><h2>Ticket buying checklist</h2><ul class="check-list"><li>Check the final price including fees before paying.</li><li>Check the seat location, section, row, and any view restrictions.</li><li>Check resale terms and buyer protections if the ticket is listed by a third party.</li><li>Check the delivery method and expected transfer timing.</li><li>Check refund, cancellation, and event-change terms on the provider site.</li></ul></section>${relatedGuidesHtml}<section class="nested-panel"><h2>About this page</h2><p>This page does not list unverified tour dates, invented prices, speculative venues, or unchecked checkout links. Ticket details should be confirmed on the ticketing platform before purchase.</p></section><section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+    )}</p><p class="disclosure-note">We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.</p></div></section>${demandHtml}<section class="nested-panel"><h2>Ticket buying checklist</h2><ul class="check-list"><li>Check the final price including fees before paying.</li><li>Check the seat location, section, row, and any view restrictions.</li><li>Check resale terms and buyer protections if the ticket is listed by a third party.</li><li>Check the delivery method and expected transfer timing.</li><li>Check refund, cancellation, and event-change terms on the provider site.</li></ul></section>${relatedGuidesHtml}<section class="nested-panel"><h2>About this page</h2><p>This page does not list unverified tour dates, invented prices, speculative venues, or unchecked checkout links. Ticket details should be confirmed on the ticketing platform before purchase.</p></section><section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       "All artists",
       "/artists",
       "mini-link"
@@ -632,11 +767,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "mini-link"
     )}</div></section><section class="nested-panel faq-panel"><h2>${escapeHtml(
       artist.name
-    )} ticket FAQ</h2><details><summary>Does this page list ${escapeHtml(
-      artist.name
-    )} tour dates?</summary><p>No. This page does not publish tour dates unless event details have been verified. Use the verified ticket link, when available, to check current platform information.</p></details><details><summary>Does TourTicketCompare sell ${escapeHtml(
-      artist.name
-    )} tickets?</summary><p>No. TourTicketCompare does not sell tickets directly. We link to external ticketing platforms when a destination is verified.</p></details><details><summary>Are prices shown here?</summary><p>No. Prices should appear only when live provider data is verified and timestamped. Final prices and fees are controlled by the ticket platform.</p></details></section></section></main>`;
+    )} ticket FAQ</h2>${artistFaqHtml}</section></section></main>`;
   }
 
   if (route.type === "guide") {
@@ -666,14 +797,15 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="artistsTitle">Artist watchlist</h1><p>Find major artists, see whether checked ticket links are available, and use the buying guidance before you leave for a ticket provider.</p><p>A listed artist does not mean current tickets, prices, venues, or availability are confirmed. Ticket buttons appear only when the destination has been checked.</p><p class="disclosure-note">Coverage varies by artist and region. This is not a complete global tour listing; we only show event links where the artist, date, venue, and ticket destination can be checked.</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
-      catalog
+      catalog,
+      events
     )}</section></main>`;
   }
 
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Each guide helps you make one safe decision before you buy: comparing final totals, checking if a ticket is official or resale, deciding when to buy, and confirming terms. Use them to avoid overpaying, spot misleading listings, and feel confident about checkout.</p><section class="nested-panel"><h2>Essential checks before checkout</h2><ul class="check-list"><li>Check that the artist, date, venue, and seat details match your show.</li><li>Compare the final checkout total after fees, not just the first displayed price.</li><li>Review delivery, refund, and resale terms on the provider site before paying.</li><li>Look for official sources or verified resale marketplaces; avoid unmatched listings and social media sellers.</li></ul></section>${renderGuideLinks()}<div class="action-row">${anchor(
+    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Use these guides to compare ticket options, understand resale risks, avoid scams, and check provider terms before you buy.</p><section class="nested-panel"><h2>Essential checks before checkout</h2><ul class="check-list"><li>Check that the artist, date, venue, and seat details match your show.</li><li>Compare the final checkout total after fees, not just the first displayed price.</li><li>Review delivery, refund, and resale terms on the provider site before paying.</li><li>Look for official sources or verified resale marketplaces; avoid unmatched listings and social media sellers.</li></ul></section>${renderGuideClusters()}<div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"
@@ -740,25 +872,22 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
   }
 
-  const simplePages = {
-    "/editorial-policy": [
-      "Editorial policy",
-      "TourTicketCompare publishes artist and ticket-link information only when the source can be checked.",
-      "We use official artist, ticketing, and approved affiliate sources where available. We do not scrape, invent tour dates, publish fake prices, or add Event schema without verified event data."
-    ],
-  };
-
-  if (simplePages[route.path]) {
-    const [h1, lead, body] = simplePages[route.path];
-    return `<main id="mainContent"><section class="content-page" aria-labelledby="pageTitle">${renderBreadcrumbHtml(
+  if (route.path === "/editorial-policy") {
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="editorialTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="pageTitle">${escapeHtml(h1)}</h1><p class="lead">${escapeHtml(lead)}</p><p>${escapeHtml(
-      body
-    )}</p><div class="action-row">${anchor("Find an artist", "/artists", "button button-primary")}${anchor(
-      "Read buying guides",
-      "/guides",
+    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">TourTicketCompare publishes artist and ticket-link information only when the source can be checked. These are the editorial rules we follow before anything appears on the site.</p><section class="nested-panel"><h2>What we publish</h2><ul class="check-list"><li>Artist watchlist pages for major tours, with factual artist summaries drawn from confirmed public sources.</li><li>Verified provider destinations, such as artist-level links to official ticketing sites.</li><li>Event-specific ticket links where the event date, venue, and destination have been checked.</li><li>Practical buying guides on fees, resale, delivery timing, and what to confirm before checkout.</li></ul></section><section class="nested-panel"><h2>What we verify before showing ticket links</h2><p>A ticket button appears only when the artist is a known, verified artist, the destination is a configured verified link, and the link passes our outbound safety checks. Event-specific buttons additionally require a verified event record with a confirmed date, venue, and artist. We use official artist, ticketing, and approved affiliate sources where available, and we show a clear empty state when no verified link exists.</p></section><section class="nested-panel"><h2>What we do not publish</h2><ul class="check-list"><li>Invented tour dates, venues, or cities.</li><li>Ticket prices, availability, or inventory status we cannot confirm from an approved source.</li><li>Provider partnership or coverage claims we cannot confirm.</li><li>Fake comparison tables or placeholder pricing.</li><li>Listings obtained by scraping ticket providers or other sites.</li><li>Savings, discount, or value claims we cannot support with approved provider data.</li><li>Event schema on pages without verified event-level data.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a ticket button is broken, opens the wrong destination, or an event detail looks incorrect, please report it through our ${anchor(
+      "contact page",
+      "/contact",
+      "text-link"
+    )}. When we find a link that is outdated or can no longer be verified, we update or remove it rather than leave it live.</p></section><div class="action-row">${anchor(
+      "Find an artist",
+      "/artists",
+      "button button-primary"
+    )}${anchor("How it works", "/how-it-works", "button button-secondary")}${anchor(
+      "Affiliate disclosure",
+      "/affiliate-disclosure",
       "button button-secondary"
-    )}</div></section></main>`;
+    )}${anchor("Contact", "/contact", "button button-secondary")}</div></section></main>`;
   }
 
   return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links for major tours</h1><p class="hero-subcopy">Browse artist pages, verified event links when available, and straightforward buying guidance. Always confirm final price, fees, and availability at checkout.</p><p class="disclosure-note">Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, or venue</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Search by artist, city, or venue" aria-label="Search by artist, city, or venue" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
@@ -766,7 +895,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "#featured-artists",
     "button button-secondary"
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search artists, events, and guides we’ve reviewed.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">What you can do here</h2></div><div class="card-grid"><article class="info-card"><h3>Browse verified event links</h3><p>Find major artists and see event-specific ticket links where available.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>Compare checkout totals safely</h3><p>Learn how to compare final prices and fees across providers before you buy.</p>${anchor("Read guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>Spot risks before you pay</h3><p>Know what red flags to check before committing to a ticket purchase.</p>${anchor("Read guide", "/guides/how-to-avoid-ticket-scams", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Browse artist pages and verified event links where available.</p></div>${renderArtistStatusLegendHtml()}${renderArtistLinks(
-    catalog
+    catalog,
+    events
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Practical guides for comparing final prices, avoiding risky listings, and understanding ticket provider terms.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
     "View all guides",
     "/guides",
@@ -1069,7 +1199,8 @@ export async function onRequest(context) {
   }
 
   const catalog = await loadCatalog(env);
-  const events = route.type === "artist" ? await loadEvents(env) : [];
+  const needsEvents = route.type === "artist" || route.path === "/artists" || route.path === "/";
+  const events = needsEvents ? await loadEvents(env) : [];
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
   const injected = injectRoute(html, route, url.origin, catalog, events, guideContent, env);
   const headers = new Headers(indexResponse.headers);

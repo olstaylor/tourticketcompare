@@ -18,6 +18,7 @@
     "events:sync": "python3 scripts/sync-events-data.py",
     "events:validate": "python3 scripts/validate-events.py",
     "events:validate:prod": "python3 scripts/validate-events.py --for-production",
+    "events:validate:self-test": "python3 scripts/validate-events.py --self-test",
     "events:update": "python3 scripts/csv-to-events.py && python3 scripts/validate-events.py && python3 scripts/partition-events.py && python3 scripts/sync-events-data.py",
     "artists:propose": "node scripts/propose-artists.mjs",
     "artists:diagnose-ticketmaster": "node scripts/propose-artists.mjs --diagnose-ticketmaster",

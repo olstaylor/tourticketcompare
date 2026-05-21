@@ -2,9 +2,12 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import re
+import subprocess
 import sys
+import tempfile
 from datetime import datetime
 from urllib.parse import unquote, urlparse
 from pathlib import Path
@@ -16,11 +19,28 @@ URL_RE = re.compile(r"^https?://", re.IGNORECASE)
 ALLOWED_STATUSES = {"draft", "announced", "on-sale", "past"}
 PLACEHOLDER_MARKERS = (
     "example.com",
+    "localhost",
     "your-affiliate-link",
     "your-link-here",
     "replace-me",
     "placeholder",
 )
+PROVIDER_URL_HOSTS = {
+    "ticketmaster": {
+        "ticketmaster.com",
+        "ticketmaster.ca",
+        "ticketmaster.co.uk",
+        "ticketmaster.es",
+        "ticketmaster.de",
+        "ticketmaster.nl",
+        "ticketmaster.se",
+        "ticketmaster.pl",
+        "ticketmaster.be",
+        "ticketmaster.it",
+    },
+    "seatgeek": {"seatgeek.com", "www.seatgeek.com"},
+    "vividseats": {"vividseats.com", "www.vividseats.com"},
+}
 PLACEHOLDER_PATTERNS = tuple(re.compile(pattern, re.IGNORECASE) for pattern in (
     r"(?:^|[/?#=&._-])tbd(?:$|[/?#=&._-])",
 ))
@@ -70,6 +90,12 @@ def parse_url(value: Any):
     if not parsed.scheme or not parsed.netloc:
         return None
     return parsed
+
+
+def host_allowed_for_provider(hostname: str, provider: str) -> bool:
+    host = hostname.lower()
+    allowed_hosts = PROVIDER_URL_HOSTS.get(provider, set())
+    return any(host == allowed or host.endswith(f".{allowed}") for allowed in allowed_hosts)
 
 
 def is_seatgeek_event_url(value: Any) -> tuple[bool, str]:
@@ -130,9 +156,102 @@ def extract_ticketmaster_event_path_id(url: str) -> str | None:
     return None
 
 
+def slugify_case_name(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-") or "case"
+
+
+def run_self_test() -> int:
+    base_event = {
+        "id": "self-test-event-1",
+        "artist_slug": "self-test-artist",
+        "artist_name": "Self Test Artist",
+        "city": "Test City",
+        "country": "US",
+        "venue": "Test Arena",
+        "datetime_iso": "2026-06-01T20:00:00Z",
+        "ticketmaster_event_id": "ABC123",
+        "ticketmaster_url": "https://www.ticketmaster.com/test/event/ABC123",
+        "seatgeek_url": "https://seatgeek.com/test-show/concert/123456",
+        "vividseats_url": "https://www.vividseats.com/test-event-tickets/production/1234567",
+        "provider_links": {
+            "ticketmaster": {"url": "https://www.ticketmaster.com/test/event/ABC123", "verified": True},
+            "seatgeek": {"url": "https://seatgeek.com/test-show/concert/123456", "verified": True},
+            "vivid-seats": {"url": "https://www.vividseats.com/test-event-tickets/production/1234567", "verified": True},
+        },
+    }
+    artists = [{"slug": "self-test-artist", "name": "Self Test Artist"}]
+    script_path = Path(__file__).resolve()
+    test_cases = [
+        {
+            "name": "protocol-relative top-level provider URL",
+            "mutate": lambda event: event.__setitem__("ticketmaster_url", "//ticketmaster.com/event/ABC123"),
+            "expect": "ticketmaster_url: must be http(s) URL or empty",
+        },
+        {
+            "name": "placeholder top-level provider URL",
+            "mutate": lambda event: event.__setitem__("seatgeek_url", "https://example.com/replace-me"),
+            "expect": "seatgeek_url: host must be seatgeek.com or www.seatgeek.com",
+        },
+        {
+            "name": "wrong-host top-level provider URL",
+            "mutate": lambda event: event.__setitem__("seatgeek_url", "https://www.ticketmaster.com/event/ABC123"),
+            "expect": "seatgeek_url: host 'www.ticketmaster.com' is not allowed for seatgeek",
+        },
+        {
+            "name": "provider_links wrong-host URL for known provider key",
+            "mutate": lambda event: event["provider_links"]["seatgeek"].__setitem__("url", "https://www.vividseats.com/test-event-tickets/production/1234567"),
+            "expect": "provider_links.seatgeek.url: host must be seatgeek.com or www.seatgeek.com",
+        },
+        {
+            "name": "provider_links placeholder URL",
+            "mutate": lambda event: event["provider_links"]["ticketmaster"].__setitem__("url", "https://example.com/replace-me"),
+            "expect": "provider_links.ticketmaster.url: placeholder/example URL is not allowed",
+        },
+    ]
+
+    with tempfile.TemporaryDirectory(prefix="ttc-validate-events-self-test-") as tmp_dir:
+        tmp = Path(tmp_dir)
+        artists_path = tmp / "artists.json"
+        artists_path.write_text(json.dumps(artists), encoding="utf-8")
+        for case in test_cases:
+            event = copy.deepcopy(base_event)
+            case["mutate"](event)
+            events_path = tmp / f"{slugify_case_name(case['name'])}.json"
+            events_path.write_text(json.dumps([event]), encoding="utf-8")
+            cmd = [
+                sys.executable,
+                str(script_path),
+                "--for-production",
+                "--path",
+                str(events_path),
+                "--artists-path",
+                str(artists_path),
+            ]
+            result = subprocess.run(cmd, capture_output=True, text=True)
+            stderr = result.stderr or ""
+            if result.returncode == 0:
+                print(f"SELF-TEST FAILED: {case['name']} unexpectedly passed.", file=sys.stderr)
+                return 1
+            if case["expect"] not in stderr:
+                print(
+                    f"SELF-TEST FAILED: {case['name']} did not include expected error.\n"
+                    f"Expected substring: {case['expect']}\n"
+                    f"Actual stderr:\n{stderr}",
+                    file=sys.stderr,
+                )
+                return 1
+    print(f"OK: validate-events self-test passed ({len(test_cases)} negative cases).")
+    return 0
+
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate public/data/events.json")
+    parser.add_argument(
+        "--self-test",
+        action="store_true",
+        help="Run built-in negative regression checks for structural link validation.",
+    )
     parser.add_argument(
         "--path",
         default="public/data/events.json",
@@ -165,6 +284,9 @@ def main() -> int:
         help="Path to artists JSON, used for the --for-production artist-reference checks (default: public/data/artists.json).",
     )
     args = parser.parse_args()
+
+    if args.self_test:
+        return run_self_test()
 
     if args.for_production:
         args.reject_placeholder_urls = True
@@ -304,6 +426,24 @@ def main() -> int:
             elif args.reject_placeholder_urls and is_placeholder_url(event.get(url_field)):
                 errors.append(f"{prefix}.{url_field}: placeholder/example URL is not allowed")
 
+        for provider, url_field in (("ticketmaster", "ticketmaster_url"), ("seatgeek", "seatgeek_url"), ("vividseats", "vividseats_url")):
+            value = event.get(url_field)
+            if not isinstance(value, str) or not value.strip():
+                continue
+            parsed = parse_url(value)
+            if parsed is None:
+                errors.append(f"{prefix}.{url_field}: must be a valid absolute URL")
+                continue
+            if parsed.scheme.lower() not in {"http", "https"}:
+                errors.append(f"{prefix}.{url_field}: must use http or https")
+            if not host_allowed_for_provider(parsed.hostname or "", provider):
+                allowed = ", ".join(sorted(PROVIDER_URL_HOSTS[provider]))
+                errors.append(f"{prefix}.{url_field}: host '{parsed.hostname or ''}' is not allowed for {provider} (allowed: {allowed})")
+            if value.strip().startswith("//"):
+                errors.append(f"{prefix}.{url_field}: protocol-relative URLs are not allowed")
+            if is_placeholder_url(value):
+                errors.append(f"{prefix}.{url_field}: placeholder/example URL is not allowed")
+
         seatgeek_url = event.get("seatgeek_url")
         seatgeek_ok, seatgeek_error = is_seatgeek_event_url(seatgeek_url)
         if not seatgeek_ok:
@@ -326,6 +466,38 @@ def main() -> int:
             errors.append(f"{prefix}.provider_links.seatgeek.verified: cannot be true when provider_links.seatgeek.url is empty and top-level seatgeek_url is used")
         if provider_seatgeek_url not in (None, "") and provider_seatgeek_verified is True and isinstance(seatgeek_url, str) and seatgeek_url.strip() and provider_seatgeek_url.strip() != seatgeek_url.strip():
             errors.append(f"{prefix}.provider_links.seatgeek.verified: cannot be true for a URL that differs from top-level seatgeek_url")
+
+        provider_links = event.get("provider_links")
+        if isinstance(provider_links, dict):
+            for provider_key, provider_data in provider_links.items():
+                if not isinstance(provider_data, dict):
+                    continue
+                provider_url = provider_data.get("url")
+                link_prefix = f"{prefix}.provider_links.{provider_key}.url"
+                if provider_url in (None, ""):
+                    continue
+                if not isinstance(provider_url, str):
+                    errors.append(f"{link_prefix}: must be a string URL when present")
+                    continue
+                if provider_url.strip().startswith("//"):
+                    errors.append(f"{link_prefix}: protocol-relative URLs are not allowed")
+                parsed_provider_url = parse_url(provider_url)
+                if parsed_provider_url is None:
+                    errors.append(f"{link_prefix}: must be a valid absolute URL")
+                    continue
+                if parsed_provider_url.scheme.lower() not in {"http", "https"}:
+                    errors.append(f"{link_prefix}: must use http or https")
+                if is_placeholder_url(provider_url):
+                    errors.append(f"{link_prefix}: placeholder/example URL is not allowed")
+
+                normalized_provider_key = str(provider_key).strip().lower().replace("-", "")
+                known_provider = normalized_provider_key in PROVIDER_URL_HOSTS
+                if known_provider and not host_allowed_for_provider(parsed_provider_url.hostname or "", normalized_provider_key):
+                    allowed = ", ".join(sorted(PROVIDER_URL_HOSTS[normalized_provider_key]))
+                    errors.append(
+                        f"{link_prefix}: host '{parsed_provider_url.hostname or ''}' is not allowed for provider '{provider_key}' "
+                        f"(allowed: {allowed})"
+                    )
 
         if args.for_production:
             ticketmaster_url = event.get("ticketmaster_url")

@@ -693,14 +693,15 @@ function renderWhatYouCanDo() {
   const grid = document.createElement("div");
   grid.className = "card-grid";
   [
-    ["See artist pages and checked event links", "Browse artist pages and verified event links where available."],
-    ["Learn how to compare checkout totals", "Understand how to compare final prices, fees, provider terms, and refund rules."],
-    ["Understand checked links", "See how we verify ticket links and what to expect at checkout."]
-  ].forEach(([title, body]) => {
+    ["Browse verified event links", "Find major artists and see event-specific ticket links where available.", "/artists", "Browse artists"],
+    ["Compare checkout totals safely", "Learn how to compare final prices and fees across providers before you buy.", "/guides/how-to-compare-concert-ticket-prices", "Read guide"],
+    ["Spot risks before you pay", "Know what red flags to check before committing to a ticket purchase.", "/guides/how-to-avoid-ticket-scams", "Read guide"]
+  ].forEach(([title, body, href, ctaLabel]) => {
     const card = document.createElement("article");
     card.className = "info-card";
     text(card, "h3", title);
     text(card, "p", body);
+    card.append(link(ctaLabel, href, "text-link"));
     grid.append(card);
   });
   section.append(header, grid);
@@ -742,7 +743,7 @@ function renderHome() {
   text(
     copy,
     "p",
-    "Find hand-checked ticket links and clear buying guidance for major tours. Prices, fees, and availability are confirmed on the ticket provider site, not live on TourTicketCompare.",
+    "Find hand-checked ticket links and practical buying guidance for major concert tours. Confirm final prices, fees, and availability on the ticket provider site before you buy.",
     "hero-subcopy"
   );
 
@@ -787,9 +788,8 @@ function renderArtistStatusLegend() {
   legend.className = "artist-status-legend";
   legend.setAttribute("aria-label", "Artist card status legend");
   const items = [
-    ["Event links available", "Checked event links"],
-    ["Guidance only", "Artist page only"],
-    ["Pending", "No checked event links yet"]
+    ["Event links available", "Ticketmaster artist page verified"],
+    ["Buying guidance", "Artist page with event links"]
   ];
   items.forEach(([badge, detail], index) => {
     const item = document.createElement("span");
@@ -813,20 +813,20 @@ function renderArtistCard(artist) {
   text(
     statusRow,
     "p",
-    isPending ? "Guidance only" : "Event links available",
+    isPending ? "Buying guidance" : "Event links available",
     isPending ? "status-badge status-badge-muted" : "status-badge"
   );
-  text(statusRow, "p", isPending ? "No checked event links yet" : "Checked event links", "status-chip-detail");
+  text(statusRow, "p", isPending ? "Artist page with event links" : "Ticketmaster artist page verified", "status-chip-detail");
   article.append(statusRow);
   text(
     article,
     "p",
     isPending
-      ? "We're still verifying event links for this artist. The artist page covers buying guidance in the meantime."
+      ? "Buying guidance and event-specific ticket links are available on this artist page."
       : "Artist pages show verified destinations. Event-specific buttons appear only on checked show cards.",
     "card-status"
   );
-  article.append(buttonLink(isPending ? "Open artist guidance page" : "Open artist ticket page", `/artists/${artist.slug}`, isPending ? "secondary" : "primary"));
+  article.append(buttonLink(isPending ? "Open artist page" : "Open artist ticket page", `/artists/${artist.slug}`, isPending ? "secondary" : "primary"));
   return article;
 }
 
@@ -1122,7 +1122,7 @@ function renderArtist(artist) {
   text(
     pageNote,
     "p",
-    "This page does not list unverified tour dates, invented prices, speculative venues, or unchecked checkout links. Final prices, fees, availability, and delivery terms should be confirmed on the provider site before purchase."
+    "All event details on this page come from verified sources. Final prices, fees, availability, and delivery terms are set by the ticket provider and should be confirmed on their site before purchase."
   );
 
   const guideLinks = document.createElement("section");
@@ -1132,9 +1132,11 @@ function renderArtist(artist) {
   guideGrid.className = "mini-link-grid";
   guideGrid.append(
     link("All artists", "/artists", "mini-link"),
-    link("Ticket buying guides", "/guides", "mini-link"),
-    link("How it works", "/how-it-works", "mini-link"),
-    link("Affiliate disclosure", "/affiliate-disclosure", "mini-link")
+    link("How to compare ticket prices", "/guides/how-to-compare-concert-ticket-prices", "mini-link"),
+    link("How to avoid overpaying", "/guides/how-to-avoid-overpaying-for-concert-tickets", "mini-link"),
+    link("How to avoid ticket scams", "/guides/how-to-avoid-ticket-scams", "mini-link"),
+    link("All buying guides", "/guides", "mini-link"),
+    link("How it works", "/how-it-works", "mini-link")
   );
   guideLinks.append(guideGrid);
 
@@ -1160,15 +1162,15 @@ function renderArtistFaq(artist) {
   const items = [
     [
       `Does this page list ${artist.name} tour dates?`,
-      "No. This page does not publish tour dates unless event details have been checked. Use the verified ticket link, when available, to confirm current platform information."
+      "Event details are only shown when the artist, date, venue, and ticket destination have all been verified. Use the verified event link to confirm current platform information."
     ],
     [
       `Does TourTicketCompare sell ${artist.name} tickets?`,
-      "No. TourTicketCompare does not sell tickets directly. We link to external ticketing platforms when a destination is verified."
+      "No. TourTicketCompare links to external ticketing platforms when a destination is verified. Prices, fees, and terms are set by the provider, not by this site."
     ],
     [
       "Are prices shown here?",
-      "No. Prices should appear only when live provider data is verified and timestamped. Final prices and fees are controlled by the ticket platform."
+      "Prices are set and controlled by external ticket platforms. Always check the final checkout total on the provider site before buying."
     ]
   ].concat(artist.faq || []);
   items.forEach(([question, answer]) => {

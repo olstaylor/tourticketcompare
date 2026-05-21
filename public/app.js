@@ -1033,9 +1033,9 @@ async function hydrateShowBoard(section, filters = {}) {
       const emptyMsg = document.createElement("p");
       emptyMsg.className = "muted empty-state";
       emptyMsg.append(
-        document.createTextNode("No event-specific ticket links are available for this artist yet. We only show event cards when the date and destination can be verified. "),
+        document.createTextNode("No verified event-specific ticket links are currently published for this artist. We only show event cards after the event date and destination URL are checked. "),
         link("Read our buying guides", "/guides", "text-link"),
-        document.createTextNode(" while you wait, or check the artist-level ticket link below if one is available.")
+        document.createTextNode(" while you wait. If available, you can still use the verified artist-level ticket page below. Verification status and last-checked details are listed on this page when supported by source data.")
       );
       grid.append(emptyMsg);
       return;

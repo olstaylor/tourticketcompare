@@ -740,25 +740,22 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
   }
 
-  const simplePages = {
-    "/editorial-policy": [
-      "Editorial policy",
-      "TourTicketCompare publishes artist and ticket-link information only when the source can be checked.",
-      "We use official artist, ticketing, and approved affiliate sources where available. We do not scrape, invent tour dates, publish fake prices, or add Event schema without verified event data."
-    ],
-  };
-
-  if (simplePages[route.path]) {
-    const [h1, lead, body] = simplePages[route.path];
-    return `<main id="mainContent"><section class="content-page" aria-labelledby="pageTitle">${renderBreadcrumbHtml(
+  if (route.path === "/editorial-policy") {
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="editorialTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="pageTitle">${escapeHtml(h1)}</h1><p class="lead">${escapeHtml(lead)}</p><p>${escapeHtml(
-      body
-    )}</p><div class="action-row">${anchor("Find an artist", "/artists", "button button-primary")}${anchor(
-      "Read buying guides",
-      "/guides",
+    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">TourTicketCompare publishes artist and ticket-link information only when the source can be checked. These are the editorial rules we follow before anything appears on the site.</p><section class="nested-panel"><h2>What we publish</h2><ul class="check-list"><li>Artist watchlist pages for major tours, with factual artist summaries drawn from confirmed public sources.</li><li>Verified provider destinations, such as artist-level links to official ticketing sites.</li><li>Event-specific ticket links where the event date, venue, and destination have been checked.</li><li>Practical buying guides on fees, resale, delivery timing, and what to confirm before checkout.</li></ul></section><section class="nested-panel"><h2>What we verify before showing ticket links</h2><p>A ticket button appears only when the artist is a known, verified artist, the destination is a configured verified link, and the link passes our outbound safety checks. Event-specific buttons additionally require a verified event record with a confirmed date, venue, and artist. We use official artist, ticketing, and approved affiliate sources where available, and we show a clear empty state when no verified link exists.</p></section><section class="nested-panel"><h2>What we do not publish</h2><ul class="check-list"><li>Invented tour dates, venues, or cities.</li><li>Ticket prices, availability, or inventory status we cannot confirm from an approved source.</li><li>Provider partnership or coverage claims we cannot confirm.</li><li>Fake comparison tables or placeholder pricing.</li><li>Listings obtained by scraping ticket providers or other sites.</li><li>Savings, discount, or value claims we cannot support with approved provider data.</li><li>Event schema on pages without verified event-level data.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a ticket button is broken, opens the wrong destination, or an event detail looks incorrect, please report it through our ${anchor(
+      "contact page",
+      "/contact",
+      "text-link"
+    )}. When we find a link that is outdated or can no longer be verified, we update or remove it rather than leave it live.</p></section><div class="action-row">${anchor(
+      "Find an artist",
+      "/artists",
+      "button button-primary"
+    )}${anchor("How it works", "/how-it-works", "button button-secondary")}${anchor(
+      "Affiliate disclosure",
+      "/affiliate-disclosure",
       "button button-secondary"
-    )}</div></section></main>`;
+    )}${anchor("Contact", "/contact", "button button-secondary")}</div></section></main>`;
   }
 
   return `<main id="mainContent"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find verified ticket links for major tours</h1><p class="hero-subcopy">Browse artist pages, verified event links when available, and straightforward buying guidance. Always confirm final price, fees, and availability at checkout.</p><p class="disclosure-note">Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, or venue</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Search by artist, city, or venue" aria-label="Search by artist, city, or venue" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(

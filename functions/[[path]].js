@@ -321,13 +321,73 @@ function renderArtistLinks(catalog) {
     .join("")}</div>`;
 }
 
-function renderGuideLinks() {
-  return `<div class="card-grid guide-grid">${Object.entries(GUIDE_ROUTES)
-    .map(
-      ([path, guide]) =>
-        `<article class="info-card"><h3>${anchor(guide.h1, path, "guide-card-link")}</h3><p>${escapeHtml(guide.description)}</p></article>`
-    )
-    .join("")}</div>`;
+const GUIDE_CLUSTERS = [
+  {
+    title: "Compare prices and fees",
+    intro: "Compare final checkout totals, fees, and provider terms before you decide.",
+    slugs: [
+      "/guides/how-to-compare-concert-ticket-prices",
+      "/guides/how-to-avoid-overpaying-for-concert-tickets",
+      "/guides/concert-ticket-fees-explained",
+      "/guides/why-ticket-prices-change",
+      "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats"
+    ]
+  },
+  {
+    title: "Buy safely",
+    intro: "Check legitimacy, avoid risky sellers, and understand what to verify before payment.",
+    slugs: [
+      "/guides/how-to-avoid-ticket-scams",
+      "/guides/ticketmaster-vs-stubhub",
+      "/guides/seatgeek-promo-code-guide"
+    ]
+  },
+  {
+    title: "Understand resale and listings",
+    intro: "Understand how resale listings, transfer timing, and provider protections can differ.",
+    slugs: [
+      "/guides/primary-vs-resale-concert-tickets",
+      "/guides/how-resale-ticket-pricing-works",
+      "/guides/how-to-read-a-ticket-listing",
+      "/guides/ticket-delivery-and-transfer-timing"
+    ]
+  },
+  {
+    title: "Timing and planning",
+    intro: "Plan when to buy and what to check before committing to a ticket.",
+    slugs: [
+      "/guides/when-is-the-best-time-to-buy-concert-tickets",
+      "/guides/how-to-prepare-for-a-ticket-onsale"
+    ]
+  }
+];
+
+function guideCardHtml(path) {
+  const guide = GUIDE_ROUTES[path];
+  if (!guide) return "";
+  return `<article class="info-card"><h3>${anchor(guide.h1, path, "guide-card-link")}</h3><p>${escapeHtml(guide.description)}</p></article>`;
+}
+
+function renderGuideClusters() {
+  const clustered = new Set();
+  const clusterSections = GUIDE_CLUSTERS.map((cluster) => {
+    const cards = cluster.slugs
+      .map((path) => {
+        clustered.add(path);
+        return guideCardHtml(path);
+      })
+      .join("");
+    return `<section class="nested-panel"><h2>${escapeHtml(cluster.title)}</h2><p>${escapeHtml(
+      cluster.intro
+    )}</p><div class="card-grid guide-grid">${cards}</div></section>`;
+  }).join("");
+  const uncovered = Object.keys(GUIDE_ROUTES).filter((path) => !clustered.has(path));
+  const moreSection = uncovered.length
+    ? `<section class="nested-panel"><h2>More guides</h2><div class="card-grid guide-grid">${uncovered
+        .map(guideCardHtml)
+        .join("")}</div></section>`
+    : "";
+  return clusterSections + moreSection;
 }
 
 function renderArtistStatusLegendHtml() {
@@ -673,7 +733,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Each guide helps you make one safe decision before you buy: comparing final totals, checking if a ticket is official or resale, deciding when to buy, and confirming terms. Use them to avoid overpaying, spot misleading listings, and feel confident about checkout.</p><section class="nested-panel"><h2>Essential checks before checkout</h2><ul class="check-list"><li>Check that the artist, date, venue, and seat details match your show.</li><li>Compare the final checkout total after fees, not just the first displayed price.</li><li>Review delivery, refund, and resale terms on the provider site before paying.</li><li>Look for official sources or verified resale marketplaces; avoid unmatched listings and social media sellers.</li></ul></section>${renderGuideLinks()}<div class="action-row">${anchor(
+    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Use these guides to compare ticket options, understand resale risks, avoid scams, and check provider terms before you buy.</p><section class="nested-panel"><h2>Essential checks before checkout</h2><ul class="check-list"><li>Check that the artist, date, venue, and seat details match your show.</li><li>Compare the final checkout total after fees, not just the first displayed price.</li><li>Review delivery, refund, and resale terms on the provider site before paying.</li><li>Look for official sources or verified resale marketplaces; avoid unmatched listings and social media sellers.</li></ul></section>${renderGuideClusters()}<div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"

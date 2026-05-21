@@ -123,6 +123,40 @@ const oldGuideRedirects = {
   "best-time-to-buy-concert-tickets": "when-is-the-best-time-to-buy-concert-tickets"
 };
 
+const guideClusters = [
+  {
+    title: "Compare prices and fees",
+    intro: "Compare final checkout totals, fees, and provider terms before you decide.",
+    slugs: [
+      "how-to-compare-concert-ticket-prices",
+      "how-to-avoid-overpaying-for-concert-tickets",
+      "concert-ticket-fees-explained",
+      "why-ticket-prices-change",
+      "ticketmaster-vs-seatgeek-vs-vivid-seats"
+    ]
+  },
+  {
+    title: "Buy safely",
+    intro: "Check legitimacy, avoid risky sellers, and understand what to verify before payment.",
+    slugs: ["how-to-avoid-ticket-scams", "ticketmaster-vs-stubhub", "seatgeek-promo-code-guide"]
+  },
+  {
+    title: "Understand resale and listings",
+    intro: "Understand how resale listings, transfer timing, and provider protections can differ.",
+    slugs: [
+      "primary-vs-resale-concert-tickets",
+      "how-resale-ticket-pricing-works",
+      "how-to-read-a-ticket-listing",
+      "ticket-delivery-and-transfer-timing"
+    ]
+  },
+  {
+    title: "Timing and planning",
+    intro: "Plan when to buy and what to check before committing to a ticket.",
+    slugs: ["when-is-the-best-time-to-buy-concert-tickets", "how-to-prepare-for-a-ticket-onsale"]
+  }
+];
+
 const routeMeta = {
   "/": {
     title: "Find Verified Ticket Options for Major Tours | TourTicketCompare",
@@ -1257,7 +1291,7 @@ function renderGuidesIndex() {
   text(
     section,
     "p",
-    "Use these guides to answer practical ticket-buying questions before you leave for a provider site. Each guide focuses on checks fans can actually make: final totals, seat details, delivery timing, resale terms, and refund rules."
+    "Use these guides to compare ticket options, understand resale risks, avoid scams, and check provider terms before you buy."
   );
   const primer = document.createElement("section");
   primer.className = "nested-panel";
@@ -1272,13 +1306,38 @@ function renderGuidesIndex() {
       "check-list"
     )
   );
-  const grid = document.createElement("div");
-  grid.className = "card-grid guide-grid";
-  guidePages.forEach((guide) => grid.append(renderInfoCard(guide.h1, guide.description, link("Read guide", `/guides/${guide.slug}`, "text-link"))));
+  section.append(primer);
+  const clustered = new Set();
+  guideClusters.forEach((cluster) => {
+    const clusterSection = document.createElement("section");
+    clusterSection.className = "nested-panel";
+    text(clusterSection, "h2", cluster.title);
+    text(clusterSection, "p", cluster.intro);
+    const grid = document.createElement("div");
+    grid.className = "card-grid guide-grid";
+    cluster.slugs.forEach((slug) => {
+      clustered.add(slug);
+      const guide = findGuide(slug);
+      if (guide) grid.append(renderInfoCard(guide.h1, guide.description, link("Read guide", `/guides/${guide.slug}`, "text-link")));
+    });
+    clusterSection.append(grid);
+    section.append(clusterSection);
+  });
+  const uncovered = guidePages.filter((guide) => !clustered.has(guide.slug));
+  if (uncovered.length) {
+    const moreSection = document.createElement("section");
+    moreSection.className = "nested-panel";
+    text(moreSection, "h2", "More guides");
+    const moreGrid = document.createElement("div");
+    moreGrid.className = "card-grid guide-grid";
+    uncovered.forEach((guide) => moreGrid.append(renderInfoCard(guide.h1, guide.description, link("Read guide", `/guides/${guide.slug}`, "text-link"))));
+    moreSection.append(moreGrid);
+    section.append(moreSection);
+  }
   const links = document.createElement("div");
   links.className = "action-row";
   links.append(buttonLink("Find an artist", "/artists", "primary"), buttonLink("How it works", "/how-it-works", "secondary"), buttonLink("Affiliate disclosure", "/affiliate-disclosure", "secondary"));
-  section.append(primer, grid, links);
+  section.append(links);
   main.replaceChildren(section);
 }
 

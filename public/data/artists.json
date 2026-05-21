@@ -59,14 +59,14 @@
     "slug": "olivia-rodrigo",
     "name": "Olivia Rodrigo",
     "indexing_status": "indexable_with_substantial_content",
-    "verified_provider_count": 1,
-    "verified_providers": ["ticketmaster"],
+    "verified_provider_count": 0,
+    "verified_providers": [],
     "last_verified_at": "2026-05-20"
   },
   {
     "slug": "bruno-mars",
     "name": "Bruno Mars",
-    "indexing_status": "review_required",
+    "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 0,
     "verified_providers": [],
     "last_verified_at": null

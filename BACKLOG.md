@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-05-19
+Last updated: 2026-05-21
 
 This is the active, prioritised backlog. `PROJECT_STATUS.md` is the current-state source of truth; `CLEANUP_AUDIT.md` is a reference audit, not the active task list.
 
@@ -84,6 +84,15 @@ Completed in commit `12df8d3` ("Remove tracked macOS metadata files"). `.gitigno
 ### P2.4 Add verified artist/event coverage one small batch at a time
 
 **Scope:** Add only source-verified artists/events/URLs. Use the existing data validation workflow. Do not invent tour facts or availability.
+
+**Manual onboarding steps (not automated by `scripts/apply-artists.mjs`):** `apply-artists.mjs` merges events into `events.json` only. Each new artist still requires these manual updates:
+
+- `public/data/artists.json` — add the artist record.
+- `public/data/catalog.json` — add the `artists[]` record.
+- `public/data/catalog.json` — add a `ticket_links[]` entry only if an artist-level CTA is intended.
+- `functions/api/out.js` `VERIFIED_TICKET_LINKS` — add an entry only if an Impact vanity link is intended.
+- `scripts/smoke-prelaunch.mjs` — add the slug to the `artistSlugs` fixture (the smoke suite asserts it matches `catalog.json`).
+- Docs (`PROJECT_STATUS.md`, `BACKLOG.md`, `HANDOVER.md`) — update counts and current state.
 
 ### P2.5 Add social sharing metadata when design/assets are ready
 

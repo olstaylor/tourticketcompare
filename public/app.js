@@ -179,6 +179,30 @@ const guidePages = [
     ]
   },
   {
+    slug: "seatgeek-promo-code-guide",
+    title: "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
+    description:
+      "Learn how to verify SeatGeek promo-code claims safely by checking eligibility, final checkout totals, fees, and order terms on SeatGeek before purchase.",
+    h1: "How should I verify a SeatGeek promo code safely?",
+    serverRendered: true
+  },
+  {
+    slug: "concert-ticket-fees-explained",
+    title: "Concert Ticket Fees Explained | TourTicketCompare",
+    description:
+      "Understand common concert ticket fee categories and compare final checkout totals safely before you buy.",
+    h1: "What concert ticket fees should I check before buying?",
+    serverRendered: true
+  },
+  {
+    slug: "ticket-delivery-and-transfer-timing",
+    title: "Ticket Delivery and Transfer Timing Guide | TourTicketCompare",
+    description:
+      "Learn how to check ticket delivery methods and transfer timing so checkout terms match your travel and event plans.",
+    h1: "How do ticket delivery and transfer timing affect risk?",
+    serverRendered: true
+  },
+  {
     slug: "how-resale-ticket-pricing-works",
     title: "How Resale Ticket Pricing Works | TourTicketCompare",
     description:
@@ -196,6 +220,22 @@ const guidePages = [
       ["Can resale tickets cost more than primary?", "They can, but no single rule applies. Resale prices are seller-set and can change. Always compare current final totals and terms."],
       ["Is it safe to buy resale tickets?", "Use established platform checkouts with published buyer terms rather than private social media sellers. Always read the provider's current terms first."]
     ]
+  },
+  {
+    slug: "how-to-prepare-for-a-ticket-onsale",
+    title: "How to Prepare for a Concert Ticket Onsale | TourTicketCompare",
+    description:
+      "Practical pre-onsale and onsale-day routine for major concert tickets, covering presales, account setup, queues, listing checks, and what to do if you miss out.",
+    h1: "How do I prepare for a concert ticket onsale?",
+    serverRendered: true
+  },
+  {
+    slug: "how-to-read-a-ticket-listing",
+    title: "How to Read a Concert Ticket Listing | TourTicketCompare",
+    description:
+      "Learn how to read concert ticket listings by checking section, row, seat, listing notes, ticket type, delivery method, and cross-checks before checkout.",
+    h1: "How do I read a concert ticket listing?",
+    serverRendered: true
   }
 ];
 
@@ -1299,6 +1339,9 @@ function renderGuidesIndex() {
 
 function renderGuide(guide) {
   setMeta({ title: guide.title, description: guide.description }, false);
+  // These guides have their full content server-rendered by functions/[[path]].js.
+  // Keep the server HTML in place; re-rendering here would blank the page.
+  if (guide.serverRendered) return;
   const section = document.createElement("section");
   section.className = "content-page guide-page";
   section.setAttribute("aria-labelledby", "guidePageTitle");

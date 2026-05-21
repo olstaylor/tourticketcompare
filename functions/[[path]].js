@@ -572,7 +572,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
 function renderShowBoardServerHtml(shows, seatGeekAvailable = false) {
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable)).join("")
-    : `<p class="muted empty-state">No event-specific ticket links are available for this artist yet. We only show event cards when the date and destination can be verified. ${anchor("Read our buying guides", "/guides", "text-link")} while you wait, or check the artist-level ticket link below if one is available.</p>`;
+    : `<p class="muted empty-state">No verified event-specific ticket links are currently published for this artist. We only show event cards after the event date and destination URL are checked. ${anchor("Read our buying guides", "/guides", "text-link")} while you wait. If available, you can still use the verified artist-level ticket page below. Verification status and last-checked details are listed on this page when supported by source data.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 

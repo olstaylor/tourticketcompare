@@ -361,11 +361,12 @@ function renderArtistLinks(catalog, events = []) {
   return `<div class="artist-card-grid">${(catalog.artists || [])
     .map((artist) => {
       const status = artistCardStatus(catalog, artist, events);
+      const descriptionHtml = artist.short_description
+        ? `<p class="muted">${escapeHtml(artist.short_description)}</p>`
+        : "";
       return `<article class="${status.pending ? "artist-card is-pending" : "artist-card"}"><h3>${escapeHtml(
         artist.name
-      )}</h3><p class="muted">${escapeHtml(
-        artist.short_description || "Artist watchlist notes."
-      )}</p><div class="artist-status-row"><p class="${status.badgeClass}">${escapeHtml(
+      )}</h3>${descriptionHtml}<div class="artist-status-row"><p class="${status.badgeClass}">${escapeHtml(
         status.badge
       )}</p><p class="status-chip-detail">${escapeHtml(status.detail)}</p></div><p class="card-status">${escapeHtml(
         status.cardStatus

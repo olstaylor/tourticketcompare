@@ -10,19 +10,19 @@
     "datetime_iso": "2026-09-25T23:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A706ep",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A706ep",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A706ep",
+    "source_url": "",
     "last_verified_at": "2026-05-20",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A706ep",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A706ep",
-        "verified": true,
-        "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -46,7 +46,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
@@ -59,19 +60,19 @@
     "datetime_iso": "2026-09-26T23:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70677",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70677",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70677",
+    "source_url": "",
     "last_verified_at": "2026-05-20",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A70677",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70677",
-        "verified": true,
-        "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -95,7 +96,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
@@ -1258,19 +1260,19 @@
     "datetime_iso": "2026-11-20T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7067F",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7067F",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7067F",
+    "source_url": "",
     "last_verified_at": "2026-05-20",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7067F",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7067F",
-        "verified": true,
-        "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -1294,7 +1296,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
@@ -1307,19 +1310,19 @@
     "datetime_iso": "2026-11-21T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7067o",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7067o",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7067o",
+    "source_url": "",
     "last_verified_at": "2026-05-20",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7067o",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7067o",
-        "verified": true,
-        "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -1343,7 +1346,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
@@ -1856,19 +1860,19 @@
     "datetime_iso": "2026-12-20T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A706kk",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A706kk",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A706kk",
+    "source_url": "",
     "last_verified_at": "2026-05-20",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A706kk",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A706kk",
-        "verified": true,
-        "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -1892,7 +1896,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf",
@@ -1905,19 +1910,19 @@
     "datetime_iso": "2026-12-21T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A706kF",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A706kF",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A706kF",
+    "source_url": "",
     "last_verified_at": "2026-05-20",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A706kF",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A706kF",
-        "verified": true,
-        "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -1941,7 +1946,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw",
@@ -4104,19 +4110,19 @@
     "datetime_iso": "2027-05-09T16:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70ff4",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ff4",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ff4",
+    "source_url": "",
     "last_verified_at": "2026-05-20",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A70ff4",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ff4",
-        "verified": true,
-        "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -4140,7 +4146,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",
@@ -4203,19 +4210,19 @@
     "datetime_iso": "2027-05-10T16:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70fff",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fff",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fff",
+    "source_url": "",
     "last_verified_at": "2026-05-20",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A70fff",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fff",
-        "verified": true,
-        "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -4239,7 +4246,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3",

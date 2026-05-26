@@ -956,7 +956,9 @@ function renderArtistCard(artist, events = []) {
   const status = artistCardStatus(artist, events);
   article.className = status.pending ? "artist-card is-pending" : "artist-card";
   text(article, "h3", artist.name);
-  text(article, "p", artist.short_description || "Artist watchlist notes.", "muted");
+  if (artist.short_description) {
+    text(article, "p", artist.short_description, "muted");
+  }
   const statusRow = document.createElement("div");
   statusRow.className = "artist-status-row";
   text(statusRow, "p", status.badge, status.badgeClass);

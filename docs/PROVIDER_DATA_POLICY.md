@@ -24,7 +24,14 @@ This document defines how TourTicketCompare uses data from ticket providers, aff
 - "Lowest price from Ticketmaster" or equivalent claims unless live, timestamped, approved price data is shown
 
 **Affiliate links:**
-Ticketmaster artist affiliate links are managed server-side in `/api/out` (`VERIFIED_TICKET_LINKS`). They use the `ticketmaster.evyy.net` affiliate domain. These are approved for the seven currently configured artists only.
+Ticketmaster artist affiliate links are managed server-side in `/api/out` (`VERIFIED_TICKET_LINKS`). Two URL shapes are valid for the `redirectUrl` field:
+
+1. **Plain `https://www.ticketmaster.com/...` URLs** (preferred for new entries). The site-wide Impact Publisher Tag (`public/impact.js`, which calls `impactStat('transformLinks')` on every page) transforms eligible Ticketmaster anchors client-side at load time and attributes the click through the Ticketmaster Impact account. No pre-minted shortlink is required.
+2. **`https://ticketmaster.evyy.net/<code>` Impact shortlinks**, manually minted in the Impact dashboard. The seven currently configured artists use this shape for historical reasons. New entries do not need to follow it.
+
+Both shapes pass `validateConfiguredRedirect` in `functions/api/out.js` because `ticketmaster.com` is in `PROVIDERS.ticketmaster.allowedDestinationHosts` and `ticketmaster.evyy.net` is in `trustedAffiliateHosts`.
+
+Do not confuse Publisher Tag transformation with manually generated Impact shortlinks: they are two separate mechanisms. A new artist can be added to `VERIFIED_TICKET_LINKS` as soon as a verified plain Ticketmaster URL is available — minting an Impact shortlink is not a prerequisite. As always, do not invent URLs: only use a Ticketmaster URL that has been confirmed from the Ticketmaster API or another trusted source.
 
 **Daily API cap:**
 `TICKETMASTER_DAILY_CAP` (default 1000) limits Discovery API calls per day. Stale cached data is served when the cap is hit.

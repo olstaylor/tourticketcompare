@@ -9,7 +9,7 @@ This report records the state of Olivia Rodrigo's Ticketmaster verification as o
 Live HTTP verification against Ticketmaster is not reliable from the current execution environment — `GET https://www.ticketmaster.com/` and `GET https://www.ticketmaster.com/olivia-rodrigo-tickets/...` both return **HTTP 403** to the user-agent used by `scripts/verify-outbound-links.mjs`. Per issue #171's "Verification environment" rule, this pass therefore does not claim any Ticketmaster URL was re-verified. Instead, it:
 
 1. Flags the 8 short-form (404-prone) event URLs as `verification_status: "needs_recheck"` and clears their suspect URLs so the frontend renders a safe "no event-specific ticket link is available" state instead of a broken click.
-2. Leaves `functions/api/out.js` untouched. The `VERIFIED_TICKET_LINKS` allowlist still does not contain an `olivia-rodrigo:ticketmaster` entry, because no verified Ticketmaster artist-page URL or Impact `ticketmaster.evyy.net/<code>` short link exists anywhere in the repo for her, and inventing one is forbidden by the project's content rules.
+2. Leaves `functions/api/out.js` untouched. The `VERIFIED_TICKET_LINKS` allowlist still does not contain an `olivia-rodrigo:ticketmaster` entry, because no verified Ticketmaster artist-page URL exists for her in approved repo data, and inventing one is forbidden by the project's content rules.
 
 ## What changed in this pass
 
@@ -77,9 +77,23 @@ For a reviewer with browser access to Ticketmaster:
 - `/api/out?artistSlug=olivia-rodrigo&provider=ticketmaster` currently returns `{ ok: false, status: "provider_not_configured" }` (HTTP 400). Event-level CTAs are unaffected — they use `showId` routing, which reads the event's `ticketmaster_url` directly.
 - The frontend should still render Olivia Rodrigo's event CTAs (where a verified event URL exists), but any "see all tickets" / artist-level Ticketmaster button is non-functional.
 
-To close this part of the issue, a reviewer with Impact dashboard access needs to:
+### How attribution actually works (architecture clarification)
 
-1. Confirm an existing Impact `ticketmaster.evyy.net/<code>` short link for Olivia Rodrigo, or mint a new one (the other 7 artists in the allowlist all use this shape).
+A previous version of this report stated that a pre-minted `ticketmaster.evyy.net/<code>` Impact shortlink was required to close this gap. **That is not correct.** The intended Ticketmaster attribution path is:
+
+> Verified Ticketmaster URL (from the Ticketmaster API or trusted existing data) → site renders the plain Ticketmaster URL → the Impact Publisher Tag transforms eligible Ticketmaster links client-side.
+
+The Publisher Tag is loaded site-wide by `public/impact.js`, which calls `impactStat('transformLinks')` on every page. It rewrites plain `www.ticketmaster.com/...` anchors at load time and attributes the click through the Ticketmaster Impact account. A pre-minted `ticketmaster.evyy.net/<code>` shortlink is **one** valid approach (used by the seven existing allowlist entries), not the only one. A plain `https://www.ticketmaster.com/...` URL in `VERIFIED_TICKET_LINKS[].redirectUrl` is also valid: `validateConfiguredRedirect` in `functions/api/out.js` allows `ticketmaster.com` because it appears in `PROVIDERS.ticketmaster.allowedDestinationHosts`.
+
+### What's actually blocking closure
+
+No verified Olivia Rodrigo Ticketmaster artist-page URL is present in approved repo data. The repo only has event-level URLs (e.g. `https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-...`). The canonical artist-page URL (typically `https://www.ticketmaster.com/olivia-rodrigo-tickets/artist/<numeric-id>`) has not been confirmed from the Ticketmaster API or any trusted source in this repository, and inventing one would violate the no-invented-URL rule.
+
+### To close this part of the issue
+
+A reviewer with Ticketmaster API access or browser access to a Ticketmaster session needs to:
+
+1. Confirm the canonical Ticketmaster artist-page URL for Olivia Rodrigo from the Ticketmaster Discovery API (or from a Ticketmaster session that resolves an artist search to the artist landing page). Treat URL slugs as evidence, not proof — the final URL must be the one Ticketmaster itself returns.
 2. Add an entry to `VERIFIED_TICKET_LINKS` in `functions/api/out.js` of the form:
 
    ```js
@@ -87,15 +101,16 @@ To close this part of the issue, a reviewer with Impact dashboard access needs t
      artistSlug: "olivia-rodrigo",
      provider: "ticketmaster",
      linkId: "tm-artist-olivia-rodrigo",
-     redirectUrl: "https://ticketmaster.evyy.net/<verified-code>",
+     redirectUrl: "https://www.ticketmaster.com/<verified-artist-page-path>",
      verified: true
    }
    ```
 
+   (A `ticketmaster.evyy.net/<code>` Impact shortlink also works if the reviewer prefers it, but it is not required — the Publisher Tag handles attribution for plain TM URLs.)
 3. Add a matching entry to `public/data/catalog.json` `ticket_links` if the other 7 are listed there.
 4. Re-run `scripts/smoke-prelaunch.mjs` and add a smoke assertion that `/api/out?artistSlug=olivia-rodrigo&provider=ticketmaster` returns 302 (parallel to the existing Beyoncé check at smoke-prelaunch.mjs:819).
 
-This step is intentionally NOT done in this pass because there is no verified short link to use, and inventing one would violate the affiliate-link integrity rules in `docs/PROVIDER_DATA_POLICY.md`.
+This step is intentionally NOT done in this pass because no verified Ticketmaster artist URL for Olivia Rodrigo exists in approved repo data.
 
 ## Validation results
 

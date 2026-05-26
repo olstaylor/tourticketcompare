@@ -20,7 +20,7 @@ Current repo facts checked on 2026-05-21:
 - Bruno Mars and Olivia Rodrigo event-level Ticketmaster links were verified locally through `/api/out` simulation; this verifies the event-specific destination mapping only, not live prices or availability.
 - `provider_links.ticketmaster.availability_status` remains `not_checked`; verified links must not be treated as availability or pricing claims.
 - Four Bruno Mars Mexico City events remain intentionally excluded because `ticketmaster.com.mx` is not in the current Ticketmaster host allowlist.
-- `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 14 guide routes.
+- `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 15 guide routes (including `/guides/what-to-do-if-a-concert-is-postponed-or-cancelled`).
 - `wrangler.toml` has one active D1 binding, `DEMAND_DB`; stale placeholder `RATE_LIMIT_DB` and `CLICKS_DB` bindings are no longer present.
 
 ## Runtime and routing facts
@@ -39,7 +39,7 @@ Supported:
 
 - Homepage and trust/legal pages.
 - Artist index plus 9 artist pages: Beyoncé, Harry Styles, BTS, Ariana Grande, Bad Bunny, Morgan Wallen, JAY-Z, Olivia Rodrigo, and Bruno Mars.
-- 14 guide pages with server-rendered guide content (including SeatGeek promo-code guide, onsale-prep, and reading-a-listing).
+- 15 guide pages with server-rendered guide content (including SeatGeek promo-code guide, onsale-prep, reading-a-listing, and postponed-or-cancelled).
 - Verified Ticketmaster links where configured.
 - Stored event-level SeatGeek URLs in event data, gated by SeatGeek configuration and safe URL checks before public CTAs render.
 - First-party analytics and signup writes through `DEMAND_DB` where bindings are available.

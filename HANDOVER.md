@@ -21,8 +21,8 @@ TourTicketCompare is an independent, unofficial ticket research site for major l
 
 - `public/data/catalog.json`: 9 artists, 0 tour records.
 - `public/data/events.json`: 272 events; all have Ticketmaster URLs; 93 have stored SeatGeek event URLs.
-- `public/data/guides-content.json`: 14 guide content entries.
-- `functions/_route-metadata.js`: 14 guide routes plus trust/static route metadata.
+- `public/data/guides-content.json`: 15 guide content entries (includes `/guides/what-to-do-if-a-concert-is-postponed-or-cancelled`).
+- `functions/_route-metadata.js`: 15 guide routes plus trust/static route metadata.
 - `wrangler.toml`: active `DEMAND_DB` binding only; no placeholder `RATE_LIMIT_DB` or `CLICKS_DB` blocks.
 - Artist pages live: Beyoncé, Harry Styles, BTS, Ariana Grande, Bad Bunny, Morgan Wallen, JAY-Z, Olivia Rodrigo, Bruno Mars.
 

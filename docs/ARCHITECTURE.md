@@ -154,8 +154,8 @@ It is **not** part of the normal production deploy path. Do not run it as part o
 | Binding | Name | Status | Notes |
 |---|---|---|---|
 | `DEMAND_DB` | `tourticketcompare-demand` | Active | Real database ID in wrangler.toml; stores email_subscribers, artist_interests, analytics_events, rate_limits |
-| `RATE_LIMIT_DB` | `tourticketcompare-rate-limit` | Commented out | Placeholder database ID — do not uncomment without a real D1 ID |
-| `CLICKS_DB` | (unnamed) | Commented out | Placeholder database ID — do not uncomment without a real D1 ID |
+
+`wrangler.toml` currently declares `DEMAND_DB` only. Earlier placeholder `RATE_LIMIT_DB` and `CLICKS_DB` blocks have been removed and are no longer present in the file.
 
 ---
 
@@ -183,9 +183,9 @@ The named shims provide a safety net if middleware is removed, but are otherwise
 
 `vercel.json` and `api/` exist in the repo as legacy artifacts. These are not production but could be accidentally used as a deploy target. Do not add Vercel-specific logic unless a deliberate architecture decision is made.
 
-### 5. Placeholder D1 bindings
+### 5. D1 bindings
 
-`wrangler.toml` contains commented-out D1 bindings with `replace-with-d1-database-id` placeholders. Uncommenting them with placeholder values would break local Pages dev and any CLI deploys that read `wrangler.toml`.
+`wrangler.toml` declares only `DEMAND_DB` (real database ID). The earlier placeholder `RATE_LIMIT_DB` and `CLICKS_DB` blocks have been removed; do not re-add them without a real D1 ID, since placeholder values would break local Pages dev and any CLI deploys that read `wrangler.toml`.
 
 ---
 

@@ -23,6 +23,7 @@
     "artists:propose": "node scripts/propose-artists.mjs",
     "artists:diagnose-ticketmaster": "node scripts/propose-artists.mjs --diagnose-ticketmaster",
     "artists:apply-preview": "node scripts/apply-artists.mjs",
+    "guides:validate": "node scripts/validate-guide-routes.mjs",
     "providers:validate": "node scripts/validate-provider-structure.js",
     "providers:enrich": "node scripts/enrich-events-with-provider-links.js",
     "test:providers": "npm run providers:validate",

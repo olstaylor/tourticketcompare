@@ -19,6 +19,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Validate guide route / content / sitemap sync
+        run: npm run guides:validate
+
       - name: Run canonical prelaunch validation
         run: npm run test:mvp
 

@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Skip commit/push/PR; produce candidate diff only.'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -42,9 +47,16 @@ jobs:
         run: |
           if [ -z "$TICKETMASTER_API_KEY" ]; then
             echo "TICKETMASTER_API_KEY not configured; skipping TM diff."
+            printf '%s\n' '{"status":"skipped","reason":"TICKETMASTER_API_KEY not set"}' > .audit/tm-status.json
             exit 0
           fi
-          node scripts/audit-tm-events.mjs --json .audit/tm.json
+          if node scripts/audit-tm-events.mjs --json .audit/tm.json; then
+            printf '%s\n' '{"status":"ok"}' > .audit/tm-status.json
+          else
+            code=$?
+            printf '%s\n' "{\"status\":\"failed\",\"reason\":\"audit-tm-events.mjs exited ${code}\"}" > .audit/tm-status.json
+            exit $code
+          fi
 
       - name: Update rolling audit issue
         env:
@@ -89,7 +101,17 @@ jobs:
 
       - name: Bump verified dates for clean artists
         id: bump
-        run: node scripts/bump-verified-dates.mjs --links .audit/links.json --tm .audit/tm.json
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+            echo "Dry-run mode: artists.json will not be modified and no PR will be opened."
+          fi
+          node scripts/bump-verified-dates.mjs \
+            --links .audit/links.json \
+            --tm .audit/tm.json \
+            --tm-status .audit/tm-status.json \
+            $DRY_RUN_FLAG
 
       - name: Check for changes
         id: diff
@@ -101,7 +123,7 @@ jobs:
           fi
 
       - name: Push branch and open daily PR
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

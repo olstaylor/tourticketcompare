@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 
-const ARTISTS_PATH = new URL('../public/data/artists.json', import.meta.url);
+const DEFAULT_ARTISTS_PATH = new URL('../public/data/artists.json', import.meta.url);
 
 const argv = process.argv.slice(2);
 function arg(name) {
@@ -11,6 +11,8 @@ function arg(name) {
 
 const linksPath = arg('--links');
 const tmPath = arg('--tm');
+const tmStatusPath = arg('--tm-status');
+const artistsPathArg = arg('--artists');
 const today = arg('--today') || new Date().toISOString().slice(0, 10);
 const dryRun = argv.includes('--dry-run');
 
@@ -18,6 +20,12 @@ if (!linksPath) {
   console.error('ERROR: --links <path> required.');
   process.exit(2);
 }
+if (!tmStatusPath) {
+  console.error('ERROR: --tm-status <path> required. The daily audit must write an explicit TM audit status file.');
+  process.exit(2);
+}
+
+const artistsPath = artistsPathArg ? new URL(`file://${artistsPathArg.startsWith('/') ? artistsPathArg : process.cwd() + '/' + artistsPathArg}`) : DEFAULT_ARTISTS_PATH;
 
 async function readJson(path) {
   if (!path) return null;
@@ -32,31 +40,60 @@ async function readJson(path) {
 }
 
 async function main() {
+  const tmStatus = await readJson(tmStatusPath);
+  if (!tmStatus || tmStatus.status !== 'ok') {
+    const detail = tmStatus
+      ? `status=${tmStatus.status}${tmStatus.reason ? ` (${tmStatus.reason})` : ''}`
+      : `no tm-status.json at ${tmStatusPath}`;
+    console.log(`TM audit not confirmed clean (${detail}); skipping all date bumps.`);
+    return;
+  }
+
   const links = await readJson(linksPath);
-  const tm = await readJson(tmPath);
   if (!links) {
     console.error('No link audit JSON found; aborting.');
     process.exit(2);
   }
 
-  const failingArtists = new Set();
-  for (const f of links.failures || []) {
-    for (const slug of f.artistSlugs || []) failingArtists.add(slug);
-  }
-  if (tm) {
-    for (const artist of tm.artists || []) {
-      if (artist.missing?.length || artist.changed?.length) failingArtists.add(artist.slug);
-    }
+  const tm = await readJson(tmPath);
+  if (!tm) {
+    console.error(`TM status reports "ok" but no tm.json found at ${tmPath}; aborting to stay safe.`);
+    process.exit(2);
   }
 
-  const artists = JSON.parse(await fs.readFile(ARTISTS_PATH, 'utf8'));
+  const failingArtists = new Set();
+  const reasons = new Map();
+  const note = (slug, reason) => {
+    failingArtists.add(slug);
+    if (!reasons.has(slug)) reasons.set(slug, reason);
+  };
+
+  for (const f of links.failures || []) {
+    for (const slug of f.artistSlugs || []) note(slug, 'link failure');
+  }
+  for (const artist of tm.artists || []) {
+    if (artist.missing?.length) note(artist.slug, `${artist.missing.length} TM event(s) missing`);
+    else if (artist.changed?.length) note(artist.slug, `${artist.changed.length} TM event(s) changed`);
+    else if (artist.errors?.length) note(artist.slug, `${artist.errors.length} TM event check error(s)`);
+  }
+
+  const artists = JSON.parse(await fs.readFile(artistsPath, 'utf8'));
   const changes = [];
+  const skipped = [];
   for (const artist of artists) {
     if (artist.indexing_status !== 'indexable_with_substantial_content') continue;
-    if (failingArtists.has(artist.slug)) continue;
+    if (failingArtists.has(artist.slug)) {
+      skipped.push({ slug: artist.slug, reason: reasons.get(artist.slug) });
+      continue;
+    }
     if (artist.last_verified_at === today) continue;
     changes.push({ slug: artist.slug, from: artist.last_verified_at, to: today });
     artist.last_verified_at = today;
+  }
+
+  if (skipped.length > 0) {
+    console.log(`Skipping ${skipped.length} artist(s) due to audit findings:`);
+    for (const s of skipped) console.log(`  ${s.slug}: ${s.reason}`);
   }
 
   if (changes.length === 0) {
@@ -73,7 +110,7 @@ async function main() {
   }
 
   const output = JSON.stringify(artists, null, 2) + '\n';
-  await fs.writeFile(ARTISTS_PATH, output);
+  await fs.writeFile(artistsPath, output);
   console.log('artists.json updated.');
 }
 

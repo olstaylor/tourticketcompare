@@ -107,7 +107,7 @@ These are intentionally not implementation tasks until explicitly scoped:
 
 - Cloudflare Pages Functions is the active production architecture in current docs.
 - `functions/_middleware.js` documents that named route shims are fallback-only while middleware is active.
-- `functions/_route-metadata.js` covers 14 guide routes; `public/data/guides-content.json` contains content for the same 14 guide routes.
+- `functions/_route-metadata.js` covers 15 guide routes; `public/data/guides-content.json` contains content for the same 15 guide routes (including `/guides/what-to-do-if-a-concert-is-postponed-or-cancelled`).
 - `wrangler.toml` has active `DEMAND_DB` only; placeholder D1 blocks are gone.
 - Smoke test wording for the safe "does not compare" live-prices disclaimer is already allowed by the current smoke script.
 - `CLEANUP_AUDIT.md` is accepted as a reference audit, not the active backlog.

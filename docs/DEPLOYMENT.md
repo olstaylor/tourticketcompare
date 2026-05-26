@@ -126,6 +126,36 @@ Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploy
 
 ---
 
+## Daily Data Audit
+
+`.github/workflows/daily-audit.yml` runs at 03:00 UTC daily (and on `workflow_dispatch`). It is the scheduled check-and-update pipeline for outbound ticket links and Ticketmaster event freshness.
+
+### What it does
+
+1. **URL liveness** — `scripts/verify-outbound-links.mjs --json` HEAD-checks every `ticketmaster_url`, `seatgeek_url`, `source_url`, and `provider_links[*].url` in `public/data/events.json`.
+2. **TM Discovery diff** — `scripts/audit-tm-events.mjs --json` calls the Ticketmaster Discovery API per event ID for every indexed artist, flagging `404/410` (missing), date/venue/status changes, and transient errors.
+3. **Report** — `scripts/daily-audit-report.mjs` writes findings into a single rolling GitHub issue labelled `automation:daily-audit`. The issue body is overwritten each run; status reads `🔴 Findings` or `🟢 All clean`.
+4. **Verification dates PR** — `scripts/bump-verified-dates.mjs` bumps `last_verified_at` to today on `public/data/artists.json` for indexed artists whose URL audit and TM diff produced no findings. The change is pushed to `automation/verified-dates-YYYY-MM-DD` and opens a PR for human review.
+
+### Required secrets
+
+| Secret | Where set | Used by |
+|---|---|---|
+| `TICKETMASTER_API_KEY` | Repo settings → Actions secrets | TM Discovery diff (without it, the diff job is skipped, link liveness still runs) |
+| `GITHUB_TOKEN` | Provided automatically | Rolling issue + daily PR |
+
+### What it does **not** do
+
+- Does **not** auto-edit `events.json`, `catalog.json`, or any event-level record. Diffs are reported for human review.
+- Does **not** scrape provider pages. Link checks use `HEAD`/`Range: 0-0` per the existing `verify-outbound-links.mjs` policy; TM data uses the official Discovery API.
+- Does **not** modify `functions/api/out.js` or affiliate logic.
+
+### PR stale-sync guard
+
+`prelaunch-validation.yml` includes a `stale-sync-guard` job that runs on every PR. When `public/data/*.json` changes, it runs `npm run events:sync` and fails the PR if `public/index.html` is stale. This prevents JSON edits from shipping without the inlined-fallback being refreshed — see issue #174 for the underlying caching/refresh model.
+
+---
+
 ## Vercel
 
 Vercel is not production for this project. Do not add `vercel.json`, `api/**/*.mjs`, or Vercel deployment commands unless a future architecture decision explicitly reintroduces Vercel as an experimental preview path.

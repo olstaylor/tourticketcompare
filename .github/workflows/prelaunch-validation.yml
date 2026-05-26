@@ -21,3 +21,42 @@ jobs:
 
       - name: Run canonical prelaunch validation
         run: npm run test:mvp
+
+  stale-sync-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Detect data changes
+        id: changed
+        run: |
+          BASE_SHA=${{ github.event.pull_request.base.sha }}
+          HEAD_SHA=${{ github.event.pull_request.head.sha }}
+          if git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- public/data | grep -q .; then
+            echo "data_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "data_changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ensure index.html reflects current data
+        if: steps.changed.outputs.data_changed == 'true'
+        run: |
+          python3 scripts/sync-events-data.py
+          if ! git diff --quiet -- public/index.html; then
+            echo "::error::public/data/*.json was modified but public/index.html is stale."
+            echo "Run 'npm run events:sync' locally and commit the index.html diff."
+            git --no-pager diff -- public/index.html | head -80
+            exit 1
+          fi

@@ -1,0 +1,116 @@
+name: Daily data audit
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Prepare report directory
+        run: mkdir -p .audit
+
+      - name: URL liveness check
+        id: links
+        continue-on-error: true
+        run: node scripts/verify-outbound-links.mjs --json .audit/links.json
+
+      - name: TM Discovery diff
+        id: tm
+        continue-on-error: true
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: |
+          if [ -z "$TICKETMASTER_API_KEY" ]; then
+            echo "TICKETMASTER_API_KEY not configured; skipping TM diff."
+            exit 0
+          fi
+          node scripts/audit-tm-events.mjs --json .audit/tm.json
+
+      - name: Update rolling audit issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node scripts/daily-audit-report.mjs \
+            --links .audit/links.json \
+            --tm .audit/tm.json \
+            --repo "${GITHUB_REPOSITORY}"
+
+      - name: Upload audit artefacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: daily-audit-${{ github.run_id }}
+          path: .audit/
+          retention-days: 30
+
+  verification-dates:
+    runs-on: ubuntu-latest
+    needs: audit
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download audit artefacts
+        uses: actions/download-artifact@v4
+        with:
+          name: daily-audit-${{ github.run_id }}
+          path: .audit
+
+      - name: Bump verified dates for clean artists
+        id: bump
+        run: node scripts/bump-verified-dates.mjs --links .audit/links.json --tm .audit/tm.json
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet -- public/data/artists.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push branch and open daily PR
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/verified-dates-${TODAY}"
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add public/data/artists.json
+          git commit -m "Bump last_verified_at for clean artists (${TODAY})"
+          git push -u origin "$BRANCH" --force-with-lease
+          BRANCH="$BRANCH" TODAY="$TODAY" node scripts/open-daily-pr.mjs

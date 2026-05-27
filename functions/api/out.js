@@ -84,6 +84,13 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "tm-artist-jay-z",
     redirectUrl: "https://ticketmaster.evyy.net/5kM6W3",
     verified: true
+  },
+  "olivia-rodrigo:ticketmaster": {
+    artistSlug: "olivia-rodrigo",
+    provider: "ticketmaster",
+    linkId: "tm-artist-olivia-rodrigo",
+    redirectUrl: "https://www.ticketmaster.com/artist/2836194",
+    verified: true
   }
 };
 

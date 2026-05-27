@@ -181,6 +181,7 @@ def run_self_test() -> int:
         "city": "Test City",
         "country": "US",
         "venue": "Test Arena",
+        "tour_name": "Self Test Tour",
         "datetime_iso": "2026-06-01T20:00:00Z",
         "ticketmaster_event_id": "ABC123",
         "ticketmaster_url": "https://www.ticketmaster.com/test/event/ABC123",
@@ -263,11 +264,21 @@ def run_self_test() -> int:
             "mutate_artists": lambda artists: artists[0].__setitem__("verified_provider_count", 3),
             "expect": "artist[self-test-artist].verified_provider_count: must match verified_providers length (2)",
         },
+        {
+            "name": "tour_name key missing",
+            "mutate": lambda event: event.pop("tour_name", None),
+            "expect": "event[0].tour_name: required key (must be present; empty string allowed)",
+        },
     ]
     positive_cases = [
         {
             "name": "valid timestamp fields across artist event and provider",
             "mutate": lambda event: event["provider_links"]["ticketmaster"].__setitem__("last_verified_at", "2026-05-21"),
+        },
+        {
+            "name": "blank tour_name on indexed artist warns but passes",
+            "mutate": lambda event: event.__setitem__("tour_name", ""),
+            "expect_in_stderr": "WARNING: blank tour_name on indexed artist events",
         },
     ]
 
@@ -335,6 +346,15 @@ def run_self_test() -> int:
             if result.returncode != 0:
                 print(
                     f"SELF-TEST FAILED: {case['name']} unexpectedly failed.\n"
+                    f"Actual stderr:\n{stderr}",
+                    file=sys.stderr,
+                )
+                return 1
+            expect_in_stderr = case.get("expect_in_stderr")
+            if expect_in_stderr and expect_in_stderr not in stderr:
+                print(
+                    f"SELF-TEST FAILED: {case['name']} did not surface expected warning.\n"
+                    f"Expected substring: {expect_in_stderr}\n"
                     f"Actual stderr:\n{stderr}",
                     file=sys.stderr,
                 )
@@ -424,10 +444,15 @@ def main() -> int:
 
     errors: list[str] = []
     ids: set[str] = set()
+    # Blank tour_name on indexed-artist events is a content warning, not a hard
+    # error — see issue #172. We group by artist_slug for a single tidy summary
+    # so a hundred-event artist doesn't spam the validator output.
+    blank_tour_name_by_slug: dict[str, list[str]] = {}
 
     # Artist-reference integrity (events must point at a real artist record).
     # Enforced only under --for-production so default runs stay lenient.
     artist_names: dict[str, Any] = {}
+    indexed_artist_slugs: set[str] = set()
     if args.for_production:
         artists_path = Path(args.artists_path)
         if not artists_path.exists():
@@ -447,6 +472,13 @@ def main() -> int:
             artist_slug = artist.get("slug")
             if isinstance(artist_slug, str) and artist_slug.strip():
                 artist_names[artist_slug.strip()] = artist.get("name")
+                # An artist is "indexed" for the tour_name warning if it isn't
+                # explicitly held back from the public index. Missing
+                # indexing_status defaults to indexed so the warning surfaces
+                # the same way for legacy records as for new ones.
+                indexing_status = artist.get("indexing_status")
+                if not (isinstance(indexing_status, str) and indexing_status.strip() in {"review_required", "hidden"}):
+                    indexed_artist_slugs.add(artist_slug.strip())
             artist_prefix = f"artist[{artist_slug.strip() if isinstance(artist_slug, str) and artist_slug.strip() else 'unknown'}]"
             artist_last_verified_at = artist.get("last_verified_at")
             if artist_last_verified_at is not None and not is_iso_date(artist_last_verified_at):
@@ -486,6 +518,16 @@ def main() -> int:
             if not isinstance(value, str) or value.strip() == "":
                 errors.append(f"{prefix}.{field}: required string")
 
+        # tour_name: the key must exist (forward-looking schema guard). The
+        # value may be blank, but blanks on indexed-artist events surface as a
+        # warning so the gap is visible without blocking deploys.
+        if "tour_name" not in event:
+            errors.append(f"{prefix}.tour_name: required key (must be present; empty string allowed)")
+        else:
+            tour_name_value = event.get("tour_name")
+            if tour_name_value is not None and not isinstance(tour_name_value, str):
+                errors.append(f"{prefix}.tour_name: must be a string when present (use \"\" if unknown)")
+
         event_id = event.get("id")
         if isinstance(event_id, str) and event_id.strip():
             if event_id in ids:
@@ -499,6 +541,11 @@ def main() -> int:
         if args.for_production and isinstance(slug, str) and slug.strip():
             slug_value = slug.strip()
             id_label = event_id.strip() if isinstance(event_id, str) and event_id.strip() else f"index {i}"
+            if "tour_name" in event:
+                tour_name_value = event.get("tour_name")
+                tour_name_blank = not (isinstance(tour_name_value, str) and tour_name_value.strip())
+                if tour_name_blank and slug_value in indexed_artist_slugs:
+                    blank_tour_name_by_slug.setdefault(slug_value, []).append(id_label)
             if slug_value not in artist_names:
                 errors.append(
                     f"{prefix}.artist_slug: '{slug_value}' (event id '{id_label}') "
@@ -666,6 +713,21 @@ def main() -> int:
                 value = event.get(url_field)
                 if not isinstance(value, str) or value.strip() == "":
                     errors.append(f"{prefix}.{url_field}: required when --require-affiliate-urls is set")
+
+    if blank_tour_name_by_slug:
+        total_blank = sum(len(v) for v in blank_tour_name_by_slug.values())
+        print(
+            f"WARNING: blank tour_name on indexed artist events "
+            f"({total_blank} event(s) across {len(blank_tour_name_by_slug)} artist(s)). "
+            "Populate from a verified source or mark the event verification_status=needs_recheck. "
+            "Do not infer tour names from URL slugs.",
+            file=sys.stderr,
+        )
+        for slug_value in sorted(blank_tour_name_by_slug):
+            ids_for_slug = blank_tour_name_by_slug[slug_value]
+            sample = ", ".join(ids_for_slug[:5])
+            extra = "" if len(ids_for_slug) <= 5 else f", +{len(ids_for_slug) - 5} more"
+            print(f"  - {slug_value}: {len(ids_for_slug)} event(s) (e.g. {sample}{extra})", file=sys.stderr)
 
     if errors:
         print("VALIDATION FAILED:", file=sys.stderr)

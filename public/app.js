@@ -516,11 +516,11 @@ function renderProviderButtons(artist, surface) {
   text(panel, "h2", "Provider links").id = "providerTitle";
 
   if (!links.length) {
-    text(panel, "p", "No provider artist link is available for this artist yet. Ticket buttons appear only after destination checks.", "muted");
+    text(panel, "p", "No provider artist page link is currently available for this artist. Ticket buttons for provider artist pages appear only after destination checks. Event-level links, where shown, come from ticket data sources and have not been confirmed as verified destinations.", "muted");
     const guideNote = document.createElement("p");
     guideNote.className = "muted";
     guideNote.append(
-      document.createTextNode("While you wait, these guides cover what to check before committing to a ticketing platform: "),
+      document.createTextNode("These guides cover what to check before committing to a ticketing platform: "),
       link("avoiding overpaying", "/guides/how-to-avoid-overpaying-for-concert-tickets", "text-link"),
       document.createTextNode(", "),
       link("when to buy", "/guides/when-is-the-best-time-to-buy-concert-tickets", "text-link"),
@@ -1060,7 +1060,8 @@ function seatGeekOutAvailable(show, options = {}) {
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
-  text(article, "h3", show.event_name || show.artist_name || "Verified show");
+  const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
+  text(article, "h3", show.event_name || show.artist_name || titleFallback);
   const date = formatShowDate(show.dateTimeISO);
   if (date) text(article, "p", date, "card-status");
   const location = showLocation(show);
@@ -1103,7 +1104,7 @@ function renderShowCard(show, options = {}) {
         );
       }
     } else {
-      text(article, "p", "No event-specific ticket link is available for this date yet.", "disclosure-note");
+      text(article, "p", "No verified ticket link is available for this date.", "disclosure-note");
     }
   } else if (show.artist_slug) {
     article.append(link("Open artist page", `/artists/${slugify(show.artist_slug)}`, "text-link"));
@@ -1131,9 +1132,9 @@ async function hydrateShowBoard(section, filters = {}) {
       const emptyMsg = document.createElement("p");
       emptyMsg.className = "muted empty-state";
       emptyMsg.append(
-        document.createTextNode("No verified event-specific ticket links are published yet. We only show event buttons when the artist, date, venue, and ticket destination have been checked. "),
+        document.createTextNode("No verified show dates are currently listed for this artist. Use the provider link below to check current tour announcements and availability directly with the ticket platform. "),
         link("Read our buying guides", "/guides", "text-link"),
-        document.createTextNode(" while you wait, or use the provider links below where available.")
+        document.createTextNode(" for what to check before you buy.")
       );
       grid.append(emptyMsg);
       return;

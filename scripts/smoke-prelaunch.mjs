@@ -760,7 +760,7 @@ assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === 
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
 assert(appJs.includes("Check SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
 assert(appJs.includes("SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase."), "hydration should preserve the safe SeatGeek supporting copy");
-assert(appJs.includes("No event-specific ticket link is available for this date yet."), "event cards should have a safe unavailable state");
+assert(appJs.includes("No verified ticket link is available for this date."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
 const bulkPriceResponse = await showsModule.onRequestGet({

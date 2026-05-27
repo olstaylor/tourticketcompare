@@ -539,7 +539,7 @@ function providerVerificationNote(item) {
 function renderProviderFallback(catalog, artist, surface) {
   const links = ticketLinksForArtist(catalog, artist.slug);
   if (!links.length) {
-    return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">No provider artist link is available for this artist yet. Ticket buttons appear only after destination checks.</p><p class="muted">While you wait, these guides cover what to check before committing to a ticketing platform:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
+    return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">No provider artist page link is currently available for this artist. Ticket buttons for provider artist pages appear only after destination checks. Event-level links, where shown, come from ticket data sources and have not been confirmed as verified destinations.</p><p class="muted">These guides cover what to check before committing to a ticketing platform:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
   }
   const cards = links
     .map((item) => {
@@ -602,7 +602,8 @@ function futureShowsForArtist(events, artistSlug, limit) {
       venue: String(ev.venue || "").trim(),
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
       seatgeek_url: String(ev.seatgeek_url || "").trim(),
-      last_verified_at: String(ev.last_verified_at || "").trim()
+      last_verified_at: String(ev.last_verified_at || "").trim(),
+      verification_status: String(ev.verification_status || "").trim()
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -684,7 +685,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
   const location = showLocationServer(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
   const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
-  let ctaHtml = `<p class="disclosure-note">No event-specific ticket link is available for this date yet.</p>`;
+  let ctaHtml = `<p class="disclosure-note">No verified ticket link is available for this date.</p>`;
 
   if (validUrl && show.id) {
     const ticketmasterCta = `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}`;
@@ -701,13 +702,14 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
 
   const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
   const eventVerifiedHtml = eventVerifiedDate ? `<p class="disclosure-note">Event last checked: ${escapeHtml(eventVerifiedDate)}.</p>` : "";
-  return `<article class="info-card show-card" data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || "Verified show")}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${eventVerifiedHtml}${ctaHtml}</article>`;
+  const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
+  return `<article class="info-card show-card" data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || titleFallback)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${eventVerifiedHtml}${ctaHtml}</article>`;
 }
 
 function renderShowBoardServerHtml(shows, seatGeekAvailable = false) {
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable)).join("")
-    : `<p class="muted empty-state">No verified event-specific ticket links are published yet. We only show event buttons when the artist, date, venue, and ticket destination have been checked. ${anchor("Read our buying guides", "/guides", "text-link")} while you wait, or use the provider links below where available.</p>`;
+    : `<p class="muted empty-state">No verified show dates are currently listed for this artist. Use the provider link below to check current tour announcements and availability directly with the ticket platform. ${anchor("Read our buying guides", "/guides", "text-link")} for what to check before you buy.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 

@@ -28,6 +28,7 @@
     "artists:apply-preview": "node scripts/apply-artists.mjs",
     "guides:validate": "node scripts/validate-guide-routes.mjs",
     "providers:validate": "node scripts/validate-provider-structure.js",
+    "validate:provider-allowlists": "node scripts/validate-provider-allowlists.mjs",
     "providers:enrich": "node scripts/enrich-events-with-provider-links.js",
     "test:providers": "npm run providers:validate",
     "data:stats": "node scripts/report-data-stats.mjs",

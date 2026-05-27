@@ -8,7 +8,9 @@ const ARTIST_SLUGS = new Set([
   "ariana-grande",
   "bad-bunny",
   "morgan-wallen",
-  "jay-z"
+  "jay-z",
+  "olivia-rodrigo",
+  "bruno-mars" // review_required: signup allowed; CTAs gated separately via artists.json
 ]);
 
 function json(payload, status = 200) {

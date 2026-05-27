@@ -22,7 +22,8 @@ const TICKETMASTER_ARTIST_AFFILIATE_LINKS = {
   "bad-bunny": "https://ticketmaster.evyy.net/zzeEWW",
   "morgan-wallen": "https://ticketmaster.evyy.net/morganwallenus",
   "jay-z": "https://ticketmaster.evyy.net/5kM6W3",
-  beyonce: "https://ticketmaster.evyy.net/beyonce"
+  beyonce: "https://ticketmaster.evyy.net/beyonce",
+  "olivia-rodrigo": "https://www.ticketmaster.com/artist/2836194"
 };
 
 function isValidDateISO(value) {

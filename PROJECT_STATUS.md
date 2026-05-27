@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-27 (post PR #186)
+Last updated: 2026-05-27 (post PR #190)
 
 This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. Older audits (CLEANUP_AUDIT, AUDIT_PARKING_LOT, SEO_ARCHITECTURE_AUDIT, LIVE_PRODUCTION_VERIFICATION, etc.) are historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
 
@@ -37,10 +37,10 @@ Verified by direct inspection of `public/data/` on 2026-05-27:
 | bad-bunny | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
 | morgan-wallen | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
 | jay-z | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
-| **olivia-rodrigo** | indexable_with_substantial_content | **`[]`** | **no** | Not artist-level verified (PR #185). 8 short-form event URLs marked `verification_status: "needs_recheck"` per PR #177; remaining 78 events use long-form URLs. All 86 events have blank `tour_name` (warning surfaced per PR #186). |
+| **olivia-rodrigo** | indexable_with_substantial_content | `["ticketmaster"]` | yes | Artist-level Ticketmaster verification restored in PR #190 (issue #171 closed). 8 short-form event URLs remain `needs_recheck` — human browser verification required before CTAs are restored for those events. All 86 events have blank `tour_name` (issue #172). |
 | **bruno-mars** | **`review_required`** | `[]` | no | 56 events excluded from the `tour_name` warning by design while `review_required`. Four Mexico City events intentionally excluded because `ticketmaster.com.mx` is not in the Ticketmaster host allowlist. |
 
-Olivia Rodrigo is **not** currently a fully verified artist-level Ticketmaster provider. Restoring her artist-level verification is the highest-priority active task (issue #171); event-level CTAs continue to render only where a verified event URL exists.
+Olivia Rodrigo's artist-level Ticketmaster verification was restored in PR #190 (issue #171 closed). Eight short-form event URLs remain `needs_recheck` and require human browser verification before CTAs are restored for those events. All 86 events have blank `tour_name` (issue #172). See `BACKLOG.md` for the human-verification steps.
 
 ## Validation pipeline
 
@@ -49,6 +49,7 @@ Run before committing data, content, or rendering changes:
 - `python3 scripts/validate-events.py --for-production` — event schema, hard error on missing `tour_name` key, warning on blank `tour_name` for indexed artists (PR #186).
 - `node scripts/validate-guide-routes.mjs` — guide route / content / sitemap drift validation (PR #184).
 - `node scripts/validate-artist-provider-claims.mjs` — artist metadata vs `VERIFIED_TICKET_LINKS` drift guard (PR #185).
+- `npm run artist:check -- <slug>` — per-artist readiness validator: checks `artists.json`, `catalog.json`, `events.json`, partition files, `VERIFIED_TICKET_LINKS` in `out.js`, `TICKETMASTER_ARTIST_AFFILIATE_LINKS` in `shows.js`, and `ARTIST_SLUGS` in `signup.js` (PR #188, extended to shows.js + signup.js checks).
 - `node scripts/smoke-prelaunch.mjs` — route/CTA/copy smoke checks.
 - `node --check public/app.js`, `node --check 'functions/[[path]].js'`, `node --check functions/api/out.js` — syntax.
 - `git diff --check` — whitespace and conflict markers.
@@ -70,10 +71,10 @@ Run before committing data, content, or rendering changes:
 
 These are the live risks. Detailed task scope and ordering live in `BACKLOG.md`.
 
-- **Olivia Rodrigo trust gap (#171).** Artist-level Ticketmaster verification is not restored. Until a human-verified TM artist URL is added to `VERIFIED_TICKET_LINKS`, `/api/out?artistSlug=olivia-rodrigo&provider=ticketmaster` returns `provider_not_configured`. Event-level CTAs continue to render only where a verified event URL exists; 8 events remain `needs_recheck`.
-- **Data refresh opacity (#174).** `scripts/sync-events-data.py` inlines the first artists and fallback events into `public/index.html`. Without explicit documentation in `docs/DEPLOYMENT.md`, contributors can land JSON edits that do not reach production. The `stale-sync-guard` job catches this on PRs; the user-facing refresh behaviour still needs to be written up (Phase A).
-- **Onboarding drift (#175).** Adding an artist still touches `artists.json`, `catalog.json`, `events.json`, `VERIFIED_TICKET_LINKS` in `functions/api/out.js`, and the smoke fixture. There is no single-command validator that confirms a new slug is wired end-to-end. The Olivia Rodrigo gap is the symptom.
-- **Blank `tour_name` for Olivia Rodrigo (#172 sub-deliverable B).** Sub-deliverable A landed in PR #186 (validator warning). Populate must be human-verified per source; URL slugs are evidence, not proof.
+- **8 Olivia Rodrigo events need human verification (#171 sub-item).** Issue #171 is closed (artist-level VERIFIED_TICKET_LINKS restored in PR #190). Remaining: 8 short-form event URLs marked `needs_recheck` require a human to open each in a browser and confirm live or mark hidden. CTAs for those 8 events are suppressed until verified.
+- **Blank `tour_name` for Olivia Rodrigo (#172).** All 86 Olivia Rodrigo events have blank `tour_name`. The validator warns. Populating requires human confirmation of the official tour name from a Ticketmaster event page; URL slugs are evidence, not proof.
+- **Onboarding drift (#175).** `validate-artist.mjs` (`npm run artist:check`) now covers `artists.json`, `catalog.json`, `events.json`, partition files, `VERIFIED_TICKET_LINKS` (out.js), `TICKETMASTER_ARTIST_AFFILIATE_LINKS` (shows.js), and `ARTIST_SLUGS` (signup.js). Outstanding: canonical onboarding doc (`docs/ADDING_ARTISTS.md`) should be extended with shows.js and signup.js steps; three historical onboarding docs should be stubbed out.
+- **Data refresh documentation (#174).** `scripts/sync-events-data.py` inlines fallback data into `public/index.html`; the `stale-sync-guard` CI job catches stale commits on PRs. Phase A (documented data-refresh flow) is addressed in `docs/DEPLOYMENT.md`. Phase B (optional cache-bust scheme) remains parked.
 - **Stale-file risk (#176).** Vercel artefacts (`api/`, `vercel.json`), legacy standalone Worker builder, inactive route shims, and `archive/vercel-experimental/` still live in the repo. Audit-first, deletions later — do not delete during other work.
 - **Raw HTML production proof (#10).** Local proof passed (17 representative routes); production browser proof is still unconfirmed. PR #184's guide drift validation reduces the risk further. This is not a coding priority unless a fresh production check identifies a real mismatch.
 

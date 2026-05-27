@@ -18,11 +18,13 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 const PATHS = {
-  artists: path.join(root, 'public/data/artists.json'),
-  catalog:  path.join(root, 'public/data/catalog.json'),
-  events:   path.join(root, 'public/data/events.json'),
+  artists:   path.join(root, 'public/data/artists.json'),
+  catalog:   path.join(root, 'public/data/catalog.json'),
+  events:    path.join(root, 'public/data/events.json'),
   eventsDir: path.join(root, 'public/data/events'),
-  out:      path.join(root, 'functions/api/out.js'),
+  out:       path.join(root, 'functions/api/out.js'),
+  shows:     path.join(root, 'functions/api/shows.js'),
+  signup:    path.join(root, 'functions/api/signup.js'),
 };
 
 // Providers whose artist-level CTAs are dispatched via VERIFIED_TICKET_LINKS.
@@ -42,6 +44,30 @@ async function loadVerifiedTicketLinkKeys() {
   let m;
   while ((m = keyPattern.exec(blockMatch[1])) !== null) keys.add(`${m[1]}:${m[2]}`);
   return keys;
+}
+
+async function loadShowsAffiliateKeys() {
+  const source = await fs.readFile(PATHS.shows, 'utf8');
+  const blockMatch = source.match(/const\s+TICKETMASTER_ARTIST_AFFILIATE_LINKS\s*=\s*\{([\s\S]*?)\n\};/);
+  if (!blockMatch) throw new Error(`Could not locate TICKETMASTER_ARTIST_AFFILIATE_LINKS block in ${PATHS.shows}`);
+  const keys = new Set();
+  // Handles both quoted ("harry-styles") and bare-word (bts, beyonce) object keys.
+  // Anchored to start-of-line to avoid matching URL path segments.
+  const keyPattern = /^\s+(?:"([a-z0-9-]+)"|([a-z][a-z0-9]*))\s*:/gm;
+  let m;
+  while ((m = keyPattern.exec(blockMatch[1])) !== null) keys.add(m[1] ?? m[2]);
+  return keys;
+}
+
+async function loadSignupArtistSlugs() {
+  const source = await fs.readFile(PATHS.signup, 'utf8');
+  const blockMatch = source.match(/const\s+ARTIST_SLUGS\s*=\s*new\s+Set\(\[([\s\S]*?)\]\)/);
+  if (!blockMatch) throw new Error(`Could not locate ARTIST_SLUGS block in ${PATHS.signup}`);
+  const slugs = new Set();
+  const strPattern = /"([a-z0-9-]+)"/g;
+  let m;
+  while ((m = strPattern.exec(blockMatch[1])) !== null) slugs.add(m[1]);
+  return slugs;
 }
 
 // ─── Report builder ────────────────────────────────────────────────────────────
@@ -120,13 +146,15 @@ async function main() {
     process.exit(2);
   }
 
-  let artists, catalog, events, vtlKeys;
+  let artists, catalog, events, vtlKeys, showsAffiliateKeys, signupSlugs;
   try {
-    [artists, catalog, events, vtlKeys] = await Promise.all([
+    [artists, catalog, events, vtlKeys, showsAffiliateKeys, signupSlugs] = await Promise.all([
       readJson(PATHS.artists),
       readJson(PATHS.catalog),
       readJson(PATHS.events),
       loadVerifiedTicketLinkKeys(),
+      loadShowsAffiliateKeys(),
+      loadSignupArtistSlugs(),
     ]);
   } catch (err) {
     console.error(`FATAL: could not load data files — ${err.message}`);
@@ -256,7 +284,40 @@ async function main() {
     }
   }
 
-  // ── 6. Event coverage ─────────────────────────────────────────────────────
+  // ── 6. Allowlist membership ───────────────────────────────────────────────
+
+  report.openSection('allowlist membership');
+
+  // shows.js check: only required when the artist is indexable AND has Ticketmaster
+  // as a verified provider — those are exactly the artists whose pages display a
+  // Ticketmaster CTA sourced from /api/shows.
+  if (isIndexable && verifiedProviders.includes('ticketmaster')) {
+    if (showsAffiliateKeys.has(slug)) {
+      report.pass(`shows.js TICKETMASTER_ARTIST_AFFILIATE_LINKS: "${slug}" present`);
+    } else {
+      report.fail(
+        `shows.js TICKETMASTER_ARTIST_AFFILIATE_LINKS: "${slug}" missing — ` +
+        `/api/shows returns no affiliate URL for this artist`
+      );
+    }
+  } else {
+    report.info(
+      `shows.js affiliate map check skipped (artist not indexable or no Ticketmaster provider)`
+    );
+  }
+
+  // signup.js check: warn for all slugs — even review_required artists should be in
+  // the allowlist so fans can sign up for interest alerts.
+  if (signupSlugs.has(slug)) {
+    report.pass(`signup.js ARTIST_SLUGS: "${slug}" present`);
+  } else {
+    report.warn(
+      `signup.js ARTIST_SLUGS: "${slug}" missing — ` +
+      `/api/signup returns 400 invalid_artist for this slug`
+    );
+  }
+
+  // ── 7. Event coverage ─────────────────────────────────────────────────────
 
   report.openSection('event coverage');
 

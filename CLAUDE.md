@@ -107,10 +107,9 @@ All HTML route handling lives in `functions/[[path]].js`. It:
 | `DEMAND_DB` | D1 | `tourticketcompare-demand` | Active | Analytics, email signups, rate limiting |
 | `IMPACT_ACCOUNT_SID` | Secret | (Cloudflare) | Active | Affiliate tracking (server-side only) |
 | `IMPACT_AUTH_TOKEN` | Secret | (Cloudflare) | Active | Affiliate tracking (server-side only) |
-| `RATE_LIMIT_DB` | D1 | Commented out in wrangler.toml | Inactive | Placeholder — do not uncomment without real ID |
-| `CLICKS_DB` | D1 | Commented out in wrangler.toml | Inactive | Placeholder — do not uncomment without real ID |
+| `IMPACT_TICKETMASTER_PROGRAM_ID` | Secret | (Cloudflare) | Active | Ticketmaster Impact program (server-side only) |
 
-Impact credentials are never exposed client-side; they're used only in `functions/api/out.js`.
+`wrangler.toml` declares `DEMAND_DB` only. There are no longer any `RATE_LIMIT_DB` or `CLICKS_DB` placeholder blocks in the file. Impact credentials are never exposed client-side; they're used only in `functions/api/out.js`.
 
 ### Named Route Shims
 
@@ -201,17 +200,20 @@ Review before starting work:
 
 | Issue | Severity | Impact |
 |-------|----------|--------|
-| **Raw HTML routing** | Medium (SEO) | Non-root routes serve correct server-injected HTML but client-side re-rendering on load can expose intermediate state to crawlers. Must be fixed before SEO scaling. |
+| **Olivia Rodrigo trust gap** | High | No artist-level Ticketmaster verification (`verified_providers: []`); 8 short-form events flagged `needs_recheck` per PR #177. Top active priority — issue #171. See `BACKLOG.md`. |
+| **Data refresh opacity** | Medium | `scripts/sync-events-data.py` inlines fallback data into `public/index.html`; user-facing refresh flow not yet documented in `docs/DEPLOYMENT.md`. The `stale-sync-guard` PR job catches the most common failure mode. Issue #174. |
+| **Onboarding drift** | Medium | Adding an artist touches 5+ files with no single-command end-to-end validator. Issue #175. |
+| **Raw HTML routing (production proof)** | Low–Medium (SEO) | Local proof passed 2026-05-19 on 17 representative routes; PR #184 added guide route / content / sitemap drift validation in CI. Production browser proof remains optional (issue #10). |
 | **Named route shims inactive** | Low | Editing `functions/artists.js` etc. has no effect while middleware is active. Edit `[[path]].js` instead. |
-| **Placeholder D1 bindings** | Medium | `wrangler.toml` has `RATE_LIMIT_DB` and `CLICKS_DB` with placeholder IDs. Uncommenting breaks local dev. Either provision with real IDs or remove. |
-| **Legacy deploy paths** | Low | `vercel.json`, `api/` directory, and `scripts/build-standalone-worker.mjs` are not production but could be accidentally used. Do not add Vercel-specific logic. |
+| **Legacy deploy paths** | Low | `vercel.json`, `api/`, `scripts/build-standalone-worker.mjs`, and `archive/vercel-experimental/` are not production. Do not add Vercel-specific logic. Audit-only deletion plan tracked under issue #176. |
 
-Do not action these without explicit scope:
-- Raw HTML routing fix (parked for SEO scaling decision)
-- `RATE_LIMIT_DB` / `CLICKS_DB` provisioning or cleanup
-- `vercel.json`, `api/`, `build-standalone-worker.mjs` retirement
-- Tour-level pages (routing supports them; no verified records exist)
-- Event-level show cards on artist pages (data exists; UI not wired)
+Do not action these without explicit scope (also tracked as "parked" in `BACKLOG.md`):
+- Adding new artists, including The Weeknd
+- `vercel.json`, `api/`, `build-standalone-worker.mjs`, `archive/vercel-experimental/` retirement (waits on issue #176 audit)
+- Provider abstraction implementation (`functions/api/_providers/index.js`, `functions/_provider-registry.js`)
+- Tour-level pages, city pages, event landing pages
+- Public SeatGeek or Vivid Seats CTAs
+- Live price aggregation or "cheapest" / "guaranteed availability" claims
 
 ---
 
@@ -236,22 +238,32 @@ Do not modify without explicit task scope:
 - **Make small, isolated changes.** One task = one or a few related commits.
 - **Validate before committing.** Run the relevant checks from the Validation section above.
 - **Summarise after changes:** which files changed, what was changed, which checks passed, what was not touched.
-- **Before starting any session:** read `AGENTS.md`, `PROJECT_STATUS.md`, and `BACKLOG.md` for context.
+- **Before starting any session:** read this file, then `PROJECT_STATUS.md`, then `BACKLOG.md`. Those three files are the current source of truth for product state and active priorities — do not rely on `HANDOVER.md` or any historical audit (`CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/LIVE_PRODUCTION_VERIFICATION.md`, etc.) as a source of priorities.
 
 ---
 
 ## Key Documentation
 
-- **`AGENTS.md`** — rules for AI/Codex sessions: protected areas, working style, validation
-- **`PROJECT_STATUS.md`** — current known-good state, risks, priorities, confirmed live features
-- **`BACKLOG.md`** — prioritised work by area
-- **`PROJECT_BRIEF.md`** — product positioning, safety rules, affiliate constraints, success criteria
-- **`HANDOVER.md`** — current live state, confirmed bindings, latest smoke check results
-- **`docs/ARCHITECTURE.md`** — detailed routing model, Pages Functions structure, data bindings
-- **`docs/DEPLOYMENT.md`** — local dev, production Pages deploy, CI guidance
-- **`docs/CONTENT_RULES.md`** — what can and cannot be published
-- **`docs/PROVIDER_DATA_POLICY.md`** — Ticketmaster, SeatGeek, Vivid Seats, Impact affiliate policy
-- **`docs/LIVE_PRODUCTION_VERIFICATION.md`** — production readiness checklist and smoke test results
+**Current source of truth (read first, in this order):**
+
+- **`CLAUDE.md`** (this file) — protected areas, hard product rules, validation, working style.
+- **`PROJECT_STATUS.md`** — current state of the site and data; active risks.
+- **`BACKLOG.md`** — active priorities, each tied to a live GitHub issue.
+
+**Reference docs:**
+
+- **`docs/ARCHITECTURE.md`** — routing model, Pages Functions structure, data bindings.
+- **`docs/DEPLOYMENT.md`** — local dev, production Pages deploy, daily audit pipeline.
+- **`docs/CONTENT_RULES.md`** — what can and cannot be published.
+- **`docs/PROVIDER_DATA_POLICY.md`** — Ticketmaster, SeatGeek, Vivid Seats, Impact affiliate policy.
+- **`docs/ADDING_ARTISTS.md`** — artist onboarding runbook.
+- **`README.md`** — public front door; deploy commands; links to canonical docs.
+
+**Not authoritative** (do not use as a source of current priorities or state):
+
+- `HANDOVER.md` — stub pointing here.
+- `AGENTS.md`, `PROJECT_BRIEF.md` — historical AI briefs; current rules live here and in `docs/CONTENT_RULES.md` / `docs/PROVIDER_DATA_POLICY.md`.
+- Audits and one-off reports (`CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/LIVE_PRODUCTION_VERIFICATION.md`, `docs/OLIVIA_RODRIGO_LINK_REVIEW.md`, `docs/TOUR_NAME_AUDIT.md`, `docs/PROVIDER_ABSTRACTION_*.md`, `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md`) — historical evidence only; treat as current only if `PROJECT_STATUS.md` or `BACKLOG.md` explicitly references them.
 
 ---
 
@@ -259,10 +271,10 @@ Do not modify without explicit task scope:
 
 When starting a new task:
 
-1. Check `PROJECT_STATUS.md` § 4 "Safe Next Roadmap" for priority
-2. Read `BACKLOG.md` to understand work ordering
-3. If modifying routes, page metadata, or HTML rendering, review `docs/ARCHITECTURE.md` § "Routing Model"
-4. If adding/modifying data files, review `docs/CONTENT_RULES.md` and `docs/PROVIDER_DATA_POLICY.md`
-5. If touching `functions/api/out.js`, affiliate routing, or provider links, confirm the change is explicitly scoped
-6. Run validation checks before committing
-7. Push to the feature branch; do not push to `main` unless explicitly asked
+1. Read this file, `PROJECT_STATUS.md`, and `BACKLOG.md` in that order.
+2. Pick the highest active priority from `BACKLOG.md` that matches the user's request.
+3. If modifying routes, page metadata, or HTML rendering, review `docs/ARCHITECTURE.md` § "Routing Model".
+4. If adding/modifying data files, review `docs/CONTENT_RULES.md` and `docs/PROVIDER_DATA_POLICY.md`.
+5. If touching `functions/api/out.js`, affiliate routing, or provider links, confirm the change is explicitly scoped — these are protected.
+6. Run the relevant validation checks before committing.
+7. Push to the feature branch; do not push to `main` unless explicitly asked.

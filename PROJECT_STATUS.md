@@ -1,120 +1,108 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-21 (UX/trust polish pass complete; PR #156 merged)
+Last updated: 2026-05-27 (post PR #186)
 
-This file is the current-state source of truth. Use `BACKLOG.md` for prioritised tasks, `HANDOVER.md` for the short session handoff, and `docs/ISSUE_DRAFTS.md` for copy/paste GitHub issue drafts.
+This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. Older audits (CLEANUP_AUDIT, AUDIT_PARKING_LOT, SEO_ARCHITECTURE_AUDIT, LIVE_PRODUCTION_VERIFICATION, etc.) are historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
 
-## Current state summary
+## Runtime and architecture
 
-TourTicketCompare is a Cloudflare Pages + Pages Functions ticket research site. It is useful today as an independent guide and verified-link directory, not as a live price comparison engine.
+- Production runtime: **Cloudflare Pages Functions**. Confirmed live via `/api/health` reporting `runtime: "cloudflare-pages-functions"`.
+- Source of truth: GitHub `main`. Merges to `main` auto-deploy via Cloudflare Pages Git integration.
+- HTML entry: `functions/_middleware.js` delegates non-asset, non-API requests to `functions/[[path]].js`.
+- Page metadata source of truth: `functions/_route-metadata.js`.
+- Named route shims (`functions/artists.js`, etc.) are fallback-only while middleware is active.
+- D1 bindings: `DEMAND_DB` only. (No `RATE_LIMIT_DB`, no `CLICKS_DB`.)
+- Impact bindings: `IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_TICKETMASTER_PROGRAM_ID` (server-side only). `MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false`.
+- Affiliate model (PR #180 clarification): the site-wide Impact Publisher Tag in `public/impact.js` transforms plain `ticketmaster.com` anchors at load time; a pre-minted `ticketmaster.evyy.net/<code>` shortlink is **not** required. Both URL shapes pass `validateConfiguredRedirect` in `functions/api/out.js`.
 
-Current repo facts checked on 2026-05-21:
+## Current data
 
-- Production architecture is Pages Functions: static assets live in `public/`, server-side HTML/API logic lives in `functions/`, and there is no application build step.
-- `functions/_middleware.js` is the active HTML entry point and delegates non-asset, non-API routes to `functions/[[path]].js`.
-- `functions/_route-metadata.js` is the source of truth for public route titles, descriptions, H1s, guide routes, and old-guide redirects.
-- `public/data/catalog.json` currently contains 9 artists and 0 tour records.
-- `public/data/events.json` currently contains 272 events, all with Ticketmaster URLs; 93 records contain stored SeatGeek event URLs.
-- `public/data/events/bruno-mars.json` currently contains 56 Bruno Mars events with event-level Ticketmaster links marked verified.
-- `public/data/events/olivia-rodrigo.json` currently contains 86 Olivia Rodrigo events with event-level Ticketmaster links marked verified.
-- Bruno Mars and Olivia Rodrigo event-level Ticketmaster links were verified locally through `/api/out` simulation; this verifies the event-specific destination mapping only, not live prices or availability.
-- `provider_links.ticketmaster.availability_status` remains `not_checked`; verified links must not be treated as availability or pricing claims.
-- Four Bruno Mars Mexico City events remain intentionally excluded because `ticketmaster.com.mx` is not in the current Ticketmaster host allowlist.
-- `public/data/guides-content.json` and `functions/_route-metadata.js` both cover 15 guide routes (including `/guides/what-to-do-if-a-concert-is-postponed-or-cancelled`).
-- `wrangler.toml` has one active D1 binding, `DEMAND_DB`; stale placeholder `RATE_LIMIT_DB` and `CLICKS_DB` bindings are no longer present.
+Verified by direct inspection of `public/data/` on 2026-05-27:
 
-## Runtime and routing facts
+- `public/data/artists.json`: **9 artists**.
+- `public/data/catalog.json`: 9 artists; 0 tour records.
+- `public/data/events.json`: **272 events**; all carry Ticketmaster URLs; **93 carry stored SeatGeek event URLs**.
+- `public/data/events/<artist>.json`: per-artist partitions used at runtime.
+- `public/data/guides-content.json`: **15 guide content entries**.
+- `functions/_route-metadata.js`: **15 guide routes** plus trust/static route metadata.
 
-- Platform: Cloudflare Pages + Pages Functions.
-- Source of truth: GitHub `main`; prior docs say Cloudflare Pages Git deployment was confirmed on 2026-05-11.
-- Manual deploy commands remain `npm run deploy:pages` and `npm run deploy:pages:safe`.
-- `public/_routes.json` routes requests through Pages Functions except excluded static assets.
-- `_middleware.js` passes `/api/`, `/data/`, known static files, and paths with file extensions to `context.next()`; other paths are rendered by `[[path]].js`.
-- Named route shims such as `functions/artists.js` and `functions/guides.js` re-export `[[path]].js`; while middleware is active they are fallback files, not the live routing path.
-- Public HTML routes should return route-specific server-rendered title, canonical metadata, JSON-LD, and body content. This should be proven with raw-HTML checks before SEO scaling.
+### Per-artist status
 
-## Current public product
+| Slug | `indexing_status` | `verified_providers` | `VERIFIED_TICKET_LINKS` entry | Notes |
+|---|---|---|---|---|
+| beyonce | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
+| harry-styles | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
+| bts | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
+| ariana-grande | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
+| bad-bunny | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
+| morgan-wallen | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
+| jay-z | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
+| **olivia-rodrigo** | indexable_with_substantial_content | **`[]`** | **no** | Not artist-level verified (PR #185). 8 short-form event URLs marked `verification_status: "needs_recheck"` per PR #177; remaining 78 events use long-form URLs. All 86 events have blank `tour_name` (warning surfaced per PR #186). |
+| **bruno-mars** | **`review_required`** | `[]` | no | 56 events excluded from the `tour_name` warning by design while `review_required`. Four Mexico City events intentionally excluded because `ticketmaster.com.mx` is not in the Ticketmaster host allowlist. |
 
-Supported:
+Olivia Rodrigo is **not** currently a fully verified artist-level Ticketmaster provider. Restoring her artist-level verification is the highest-priority active task (issue #171); event-level CTAs continue to render only where a verified event URL exists.
 
-- Homepage and trust/legal pages.
-- Artist index plus 9 artist pages: Beyoncé, Harry Styles, BTS, Ariana Grande, Bad Bunny, Morgan Wallen, JAY-Z, Olivia Rodrigo, and Bruno Mars.
-- 15 guide pages with server-rendered guide content (including SeatGeek promo-code guide, onsale-prep, reading-a-listing, and postponed-or-cancelled).
-- Verified Ticketmaster links where configured.
-- Stored event-level SeatGeek URLs in event data, gated by SeatGeek configuration and safe URL checks before public CTAs render.
-- First-party analytics and signup writes through `DEMAND_DB` where bindings are available.
+## Validation pipeline
 
-Not supported:
+Run before committing data, content, or rendering changes:
 
-- Live multi-provider price aggregation.
-- Cheapest-ticket, guaranteed-availability, or savings claims.
-- Scraping ticket providers.
-- Unverified tour pages, city pages, venue pages, or event pages.
-- Event/MusicEvent schema unless event-level data is verified for that exact page.
+- `python3 scripts/validate-events.py --for-production` — event schema, hard error on missing `tour_name` key, warning on blank `tour_name` for indexed artists (PR #186).
+- `node scripts/validate-guide-routes.mjs` — guide route / content / sitemap drift validation (PR #184).
+- `node scripts/validate-artist-provider-claims.mjs` — artist metadata vs `VERIFIED_TICKET_LINKS` drift guard (PR #185).
+- `node scripts/smoke-prelaunch.mjs` — route/CTA/copy smoke checks.
+- `node --check public/app.js`, `node --check 'functions/[[path]].js'`, `node --check functions/api/out.js` — syntax.
+- `git diff --check` — whitespace and conflict markers.
 
-## Protected areas and guardrails
+`npm run test:mvp` runs the events self-test, artist-provider validator, and smoke suite together.
 
-Do not modify these without an explicit task that names them:
+## Daily automation
 
-- `/api/out`, affiliate redirect behavior, Impact logic, and destination URL logic.
-- CTA generation and provider URL handling.
-- Artist/event/provider datasets.
-- Cloudflare routing, middleware, route shims, provider abstraction, fallback catalog, public app rendering, SeatGeek redirects, and diagnostic API routes.
-- Legacy deployment files, provider scaffolding, debug endpoints, fallback catalog, and route shims.
+`.github/workflows/daily-audit.yml` runs at 03:00 UTC and on `workflow_dispatch`. It performs:
 
-Product guardrails:
+1. URL liveness via `scripts/verify-outbound-links.mjs`.
+2. Ticketmaster Discovery diff via `scripts/audit-tm-events.mjs` per event ID (requires `TICKETMASTER_API_KEY`; skipped safely if absent).
+3. Reporting via `scripts/daily-audit-report.mjs` into a single rolling GitHub issue (`automation:daily-audit`).
+4. Verification-date bumps via `scripts/bump-verified-dates.mjs`, opening a PR for human review. The TM-skip/failure guard added in PR #182 prevents date bumps when TM data is unavailable.
 
-- Never invent tours, dates, venues, prices, availability, providers, inventory, or ticket links.
-- Never show placeholder comparison tables or fake pricing.
-- Never claim live price comparison unless approved provider feeds support it.
-- Never expose secrets client-side.
-- Affiliate relationships must not weaken verification standards.
+`.github/workflows/prelaunch-validation.yml` includes a `stale-sync-guard` that runs `npm run events:sync` on PRs touching `public/data/*.json` and fails if `public/index.html` is stale.
 
 ## Active risks
 
-### P0 — raw HTML routing/canonical proof: PROVEN LOCALLY (2026-05-19)
+These are the live risks. Detailed task scope and ordering live in `BACKLOG.md`.
 
-Proven in local Pages preview (`npm run dev`) against 17 representative routes: homepage, `/artists`, two artist pages (Beyoncé, Harry Styles), `/guides`, two guide pages, five trust/legal pages, three old-guide redirects, and two unknown routes (artist and top-level).
+- **Olivia Rodrigo trust gap (#171).** Artist-level Ticketmaster verification is not restored. Until a human-verified TM artist URL is added to `VERIFIED_TICKET_LINKS`, `/api/out?artistSlug=olivia-rodrigo&provider=ticketmaster` returns `provider_not_configured`. Event-level CTAs continue to render only where a verified event URL exists; 8 events remain `needs_recheck`.
+- **Data refresh opacity (#174).** `scripts/sync-events-data.py` inlines the first artists and fallback events into `public/index.html`. Without explicit documentation in `docs/DEPLOYMENT.md`, contributors can land JSON edits that do not reach production. The `stale-sync-guard` job catches this on PRs; the user-facing refresh behaviour still needs to be written up (Phase A).
+- **Onboarding drift (#175).** Adding an artist still touches `artists.json`, `catalog.json`, `events.json`, `VERIFIED_TICKET_LINKS` in `functions/api/out.js`, and the smoke fixture. There is no single-command validator that confirms a new slug is wired end-to-end. The Olivia Rodrigo gap is the symptom.
+- **Blank `tour_name` for Olivia Rodrigo (#172 sub-deliverable B).** Sub-deliverable A landed in PR #186 (validator warning). Populate must be human-verified per source; URL slugs are evidence, not proof.
+- **Stale-file risk (#176).** Vercel artefacts (`api/`, `vercel.json`), legacy standalone Worker builder, inactive route shims, and `archive/vercel-experimental/` still live in the repo. Audit-first, deletions later — do not delete during other work.
+- **Raw HTML production proof (#10).** Local proof passed (17 representative routes); production browser proof is still unconfirmed. PR #184's guide drift validation reduces the risk further. This is not a coding priority unless a fresh production check identifies a real mismatch.
 
-Raw HTTP responses confirmed without relying on client-side JavaScript:
+## Product guardrails (summary)
 
-- All public routes return 200 with route-specific server-injected `<title>`, self-referencing `<link rel="canonical">`, page-specific `<h1>`, and `robots: index,follow,max-image-preview:large`.
-- `<main>` bodies are server-rendered (Beyoncé artist page: 3,224 chars of visible text; guide page: 8,644 chars; JSON-LD present).
-- All three old-guide slugs return 301 to their new canonicals (`compare-ticket-prices-safely` → `how-to-compare-concert-ticket-prices`, `why-ticket-prices-vary` → `why-ticket-prices-change`, `avoid-overpaying-concert-tickets` → `how-to-avoid-overpaying-for-concert-tickets`).
-- Unknown routes (`/artists/nonexistent-artist-xyz`, `/random-route-xyzabc`) return HTTP 404 with `robots: noindex,follow`.
+The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, and `CLAUDE.md`. Highlights:
 
-No mismatch found; no routing/metadata fix required. Production live-route browser confirmation (`docs/LIVE_PRODUCTION_VERIFICATION.md` § Remaining Unverified Items) remains pending and still requires a non-blocked network.
+- Never invent tours, dates, venues, prices, availability, providers, inventory, or ticket links.
+- Never scrape ticket providers.
+- Never claim live price comparison unless approved provider feeds support it.
+- Never expose Impact or any other secret client-side.
+- CTAs only when artist ∈ catalog, provider has a verified `redirectUrl`, and the URL passes `/api/out` validation.
 
-### P1 — verified ticket-link trust must remain protected
+## What is supported today
 
-The current product depends on conservative link behavior. Ticketmaster and SeatGeek links must remain verified, provider-specific, and routed safely. No live price, availability, or cheapest-ticket claims should be introduced.
+- Homepage and trust/legal pages.
+- Artist index plus the 9 artist pages above.
+- 15 guide pages with server-rendered content.
+- Verified Ticketmaster CTAs (artist- and event-level) where configured.
+- Stored event-level SeatGeek URLs (gated off for public CTAs until SeatGeek configuration is complete).
+- First-party analytics and signup writes through `DEMAND_DB`.
 
-### P1 — SeatGeek expansion must remain data-first and redirect-safe
+## What is not supported
 
-The dataset now contains many stored SeatGeek event URLs. Public SeatGeek CTAs should remain hidden unless the URL is stored, validated, and the SeatGeek affiliate/configuration path is available. `/api/out` must not search SeatGeek at click time.
+- Live multi-provider price aggregation; "cheapest" / "guaranteed availability" claims.
+- Tour, city, venue, or event landing pages.
+- Public SeatGeek or Vivid Seats CTAs.
+- `Event` / `MusicEvent` schema on any page without verified event-level data.
 
-### Parked — provider scaffold and legacy deployment decisions
+## How to update this file
 
-Provider abstraction files, fallback catalog, Vercel artifacts, and standalone Worker rollback files may be intentional scaffolding or rollback support. Do not remove them without a decision task.
-
-## Latest checks recorded in this documentation pass
-
-Documentation-only repo inspection was performed on 2026-05-19 using:
-
-- `git status --short`
-- `rg --files -g '!node_modules'`
-- `cat package.json`
-- `git ls-files | grep -E '(^|/)\.DS_Store$'`
-- `sed` inspections of `wrangler.toml`, `functions/_middleware.js`, `functions/[[path]].js`, `functions/_route-metadata.js`, and `functions/sitemap.xml.js`
-- a Python count of `public/data/catalog.json`, `public/data/events.json`, and `public/data/guides-content.json`
-
-No runtime product files were changed in this documentation pass.
-
-## Documentation ownership
-
-- `PROJECT_STATUS.md`: current state, active risks, current runtime facts, latest known checks.
-- `BACKLOG.md`: prioritised actionable tasks grouped by P0/P1/P2/Parked/Completed.
-- `CLEANUP_AUDIT.md`: accepted cleanup audit reference, not the active backlog.
-- `HANDOVER.md`: short start-here handoff for future Codex sessions.
-- `docs/ISSUE_DRAFTS.md`: copy/paste-ready GitHub issue drafts.
-- `README.md`: project overview and links to source-of-truth docs.
+Refresh when any of the following change: artist count, indexing status, event count, guide count, bindings, validation pipeline, daily automation, or the set of active issues. Reference `BACKLOG.md` for prioritised work — do not duplicate the priority list here.

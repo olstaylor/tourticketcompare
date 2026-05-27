@@ -24,19 +24,20 @@ TourTicketCompare helps fans find checked ticket links, understand buying risks,
 
 ## Project docs
 
+The current source of truth is:
+
 | Document | Purpose |
 |---|---|
-| [AGENTS.md](AGENTS.md) | Rules for AI/Codex sessions: protected areas, working style, validation |
-| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Current state source of truth: runtime facts, active risks, latest known checks |
-| [BACKLOG.md](BACKLOG.md) | Active prioritised backlog grouped by P0/P1/P2/Parked/Completed |
-| [PROJECT_BRIEF.md](PROJECT_BRIEF.md) | Product positioning, safety rules, affiliate constraints, success criteria |
-| [HANDOVER.md](HANDOVER.md) | Short start-here handoff for future Codex sessions |
+| [CLAUDE.md](CLAUDE.md) | AI/contributor brief: protected areas, hard product rules, validation, working style |
+| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Current state snapshot: runtime, data counts, active risks |
+| [BACKLOG.md](BACKLOG.md) | Active prioritised backlog (each item ties to a live GitHub issue) |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Routing model, Pages Functions structure, data bindings |
-| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Local dev, production Pages deploy, CI pipeline guidance |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Local dev, production Pages deploy, daily audit pipeline |
 | [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) | What can and cannot be published |
 | [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) | Ticketmaster, SeatGeek, Vivid Seats, and Impact affiliate policy |
-| [docs/LIVE_PRODUCTION_VERIFICATION.md](docs/LIVE_PRODUCTION_VERIFICATION.md) | Live smoke check results and production readiness checklist |
-| [docs/ISSUE_DRAFTS.md](docs/ISSUE_DRAFTS.md) | Copy/paste-ready GitHub issue drafts for the highest-value next tasks |
+| [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) | Artist onboarding runbook |
+
+Historical audits, one-off reports, and older handover/brief docs (`HANDOVER.md`, `AGENTS.md`, `PROJECT_BRIEF.md`, `CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/LIVE_PRODUCTION_VERIFICATION.md`, `docs/OLIVIA_RODRIGO_LINK_REVIEW.md`, `docs/TOUR_NAME_AUDIT.md`, `docs/PROVIDER_ABSTRACTION_*.md`, `docs/ISSUE_DRAFTS.md`, `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md`, `ARTIST_PAGE_*.md`, `BEYONCE_REFERENCE_IMPLEMENTATION.md`) remain in the repo for reference but **should not be treated as current guidance** unless `PROJECT_STATUS.md` or `BACKLOG.md` explicitly cites them.
 
 ---
 
@@ -142,6 +143,6 @@ See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLIC
 
 ---
 
-## Current priority
+## Active priorities
 
-The highest-priority next task is production verification of representative non-root routes (raw response and browser view) to confirm route metadata and canonicals match local proof. See [PROJECT_STATUS.md](PROJECT_STATUS.md), [BACKLOG.md](BACKLOG.md), and [docs/ISSUE_DRAFTS.md](docs/ISSUE_DRAFTS.md).
+See [BACKLOG.md](BACKLOG.md). Top items are tied to live GitHub issues — currently #171 (Olivia Rodrigo trust gap), #174 (data refresh documentation), and #175 (artist onboarding runbook + validator). Do not rely on older "next task" notes elsewhere in the repo.

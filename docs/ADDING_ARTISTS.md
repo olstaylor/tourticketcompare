@@ -212,6 +212,9 @@ Work through this checklist in order. Check off each item only when you have per
 Run these in order before committing. All must pass.
 
 ```bash
+# Per-artist cross-file readiness check (run this first)
+npm run artist:check -- <slug>
+
 # Syntax checks
 node --check public/app.js
 node --check 'functions/[[path]].js'
@@ -226,6 +229,8 @@ node scripts/smoke-prelaunch.mjs
 # Whitespace and conflict markers
 git diff --check
 ```
+
+`npm run artist:check -- <slug>` prints a PASS / WARN / FAIL report for one artist slug, checking artists.json, catalog.json, events.json, the per-artist partition file, and `VERIFIED_TICKET_LINKS` in `functions/api/out.js`. A WARN result (exit 0) means the artist is intentionally gated or has known open issues. A FAIL result (exit 1) means the data is internally inconsistent and must be fixed before publishing.
 
 If any command fails, fix the issue before committing. Do not use `--no-verify` to skip hooks.
 

@@ -81,20 +81,25 @@ const dryRun = argv.includes('--dry-run');
 const requestDelayMs = Number.parseInt(process.env.TM_REQUEST_DELAY_MS || '300', 10);
 const requestTimeoutMs = Number.parseInt(process.env.TM_REQUEST_TIMEOUT_MS || '15000', 10);
 
-async function fetchDiscoveryEvents(apiKey, base, page = 0) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
+function redactApiKey(text, apiKey) {
+  let redacted = String(text || '').replace(/apikey=[^&\s"']*/gi, 'apikey=REDACTED');
+  if (apiKey) {
+    redacted = redacted.split(apiKey).join('REDACTED');
+  }
+  return redacted;
+}
 
-  // Format startDateTime without milliseconds (ISO format: YYYY-MM-DDTHH:mm:ssZ)
-  const now = new Date();
-  const startDateTime = new Date(now.getTime() - now.getMilliseconds()).toISOString();
+// Format as YYYY-MM-DDTHH:mm:ssZ (no milliseconds — TM Discovery rejects fractional seconds)
+function formatStartDateTime(date) {
+  return date.toISOString().replace(/\.\d{3}Z$/, 'Z');
+}
 
-  // Query parameters: music events, exclude cancelled, TBA, TBD, test events
-  const params = new URLSearchParams({
+function buildPrimaryParams(apiKey, page, startDateTime) {
+  return new URLSearchParams({
     apikey: apiKey,
     classificationName: 'music',
     size: '200',
-    page,
+    page: String(page),
     startDateTime,
     sort: 'date,asc',
     includeTBA: 'no',
@@ -102,12 +107,28 @@ async function fetchDiscoveryEvents(apiKey, base, page = 0) {
     includeTest: 'no',
     source: 'ticketmaster'
   });
+}
+
+function buildFallbackParams(apiKey, page, startDateTime) {
+  // Minimum params: drop classificationName / includeTBA / includeTBD / includeTest / source
+  return new URLSearchParams({
+    apikey: apiKey,
+    size: '200',
+    page: String(page),
+    sort: 'date,asc',
+    startDateTime
+  });
+}
+
+async function requestDiscovery(apiKey, base, params, { attempt }) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
 
   const url = `${base}/events.json?${params.toString()}`;
-  const redactedUrl = url.replace(new RegExp(`apikey=[^&]*`), 'apikey=REDACTED');
+  const redactedUrl = redactApiKey(url, apiKey);
 
   try {
-    console.log(`Query URL: ${redactedUrl}`);
+    console.log(`[${attempt}] Query URL: ${redactedUrl}`);
     const response = await fetch(url, {
       method: 'GET',
       redirect: 'follow',
@@ -116,9 +137,21 @@ async function fetchDiscoveryEvents(apiKey, base, page = 0) {
     });
 
     if (!response.ok) {
+      let body = '';
+      try {
+        body = await response.text();
+      } catch {
+        body = '<unable to read response body>';
+      }
+      const redactedBody = redactApiKey(body, apiKey);
       const error = `HTTP ${response.status}`;
-      console.warn(`Warning: TM API returned ${error}`);
-      return { success: false, events: [], error, status: response.status };
+      console.warn(`Warning: TM API returned ${error} on ${attempt} attempt`);
+      if (response.status === 400) {
+        console.warn(`[${attempt}] Ticketmaster 400 response body:\n${redactedBody}`);
+      } else if (redactedBody) {
+        console.warn(`[${attempt}] Response body:\n${redactedBody}`);
+      }
+      return { success: false, events: [], error, status: response.status, body: redactedBody, attempt };
     }
 
     const data = await response.json();
@@ -126,19 +159,33 @@ async function fetchDiscoveryEvents(apiKey, base, page = 0) {
     const totalElements = data?.page?.totalElements || 0;
 
     if (totalElements > 0) {
-      console.log(`API returned ${events.length} raw events (${totalElements} total in result)`);
+      console.log(`[${attempt}] API returned ${events.length} raw events (${totalElements} total in result)`);
     } else {
-      console.log('API returned no events for the query.');
+      console.log(`[${attempt}] API returned no events for the query.`);
     }
 
-    return { success: true, events, totalPages: data?.page?.totalPages || 1, totalElements };
+    return { success: true, events, totalPages: data?.page?.totalPages || 1, totalElements, attempt };
   } catch (error) {
     const message = error?.name === 'AbortError' ? `timeout after ${requestTimeoutMs}ms` : String(error?.message || error);
-    console.warn(`Warning: TM API fetch failed: ${message}`);
-    return { success: false, events: [], error: message };
+    console.warn(`Warning: TM API fetch failed on ${attempt} attempt: ${message}`);
+    return { success: false, events: [], error: message, attempt };
   } finally {
     clearTimeout(timeout);
   }
+}
+
+async function fetchDiscoveryEvents(apiKey, base, page = 0) {
+  const startDateTime = formatStartDateTime(new Date());
+
+  const primary = await requestDiscovery(apiKey, base, buildPrimaryParams(apiKey, page, startDateTime), { attempt: 'primary' });
+  if (primary.success) return primary;
+
+  // Only retry on HTTP 400 — other errors (auth, rate limit, network) should not be masked
+  if (primary.status !== 400) return primary;
+
+  console.warn('Primary query failed with HTTP 400; retrying with minimum fallback params.');
+  const fallback = await requestDiscovery(apiKey, base, buildFallbackParams(apiKey, page, startDateTime), { attempt: 'fallback' });
+  return fallback;
 }
 
 async function main() {
@@ -156,13 +203,19 @@ async function main() {
     console.log('Querying Ticketmaster Discovery API...');
     let page = 0;
     let hasMore = true;
+    let firstPageFailed = false;
+    let firstPageError = null;
 
     while (hasMore && page < 5) { // Limit to 5 pages to avoid excessive API calls
       console.log(`Fetching page ${page}...`);
       const result = await fetchDiscoveryEvents(apiKey, DEFAULT_BASE, page);
 
       if (!result.success) {
-        console.warn(`Failed to fetch page ${page}: ${result.error}`);
+        console.error(`ERROR: Failed to fetch page ${page} (${result.attempt || 'unknown'} attempt): ${result.error}`);
+        if (page === 0) {
+          firstPageFailed = true;
+          firstPageError = `${result.error} (${result.attempt || 'unknown'} attempt)`;
+        }
         break;
       }
 
@@ -171,6 +224,11 @@ async function main() {
       page++;
 
       if (hasMore) await sleep(requestDelayMs);
+    }
+
+    if (firstPageFailed) {
+      console.error(`ERROR: Ticketmaster Discovery query failed: ${firstPageError}. Not writing a misleading empty result.`);
+      process.exit(3);
     }
   }
 

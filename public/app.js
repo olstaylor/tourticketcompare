@@ -211,6 +211,7 @@ const routeMeta = {
 };
 
 let catalog = fallbackCatalog;
+let artistsMeta = [];
 const main = document.getElementById("mainContent");
 const year = document.getElementById("currentYear");
 const navToggle = document.querySelector("[data-nav-toggle]");
@@ -318,7 +319,10 @@ function setMeta(meta, noindex = false) {
 }
 
 function findArtist(slug) {
-  return (catalog.artists || []).find((artist) => slugify(artist.slug) === slug);
+  const artist = (catalog.artists || []).find((a) => slugify(a.slug) === slug);
+  if (!artist) return undefined;
+  const meta = artistsMeta.find((m) => slugify(m.slug) === slug) || {};
+  return { ...artist, indexing_status: meta.indexing_status || "" };
 }
 
 function findGuide(slug) {
@@ -1068,7 +1072,9 @@ function renderShowCard(show, options = {}) {
   text(article, "p", location || "City and venue details are shown only when verified by the source.", "muted");
 
   const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
-  if (options.showEventCta) {
+  if (options.reviewGated) {
+    text(article, "p", "Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.", "disclosure-note");
+  } else if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
     const showId = String(show.id || "").trim();
     if (ticketmasterUrl && showId) {
@@ -1140,7 +1146,8 @@ async function hydrateShowBoard(section, filters = {}) {
       return;
     }
     grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show, {
-      showEventCta: Boolean(filters.showEventCta),
+      showEventCta: Boolean(filters.showEventCta) && !filters.reviewGated,
+      reviewGated: Boolean(filters.reviewGated),
       seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek)
     })));
   } catch (error) {
@@ -1206,6 +1213,7 @@ async function renderArtistsIndex() {
 }
 
 function renderArtist(artist) {
+  const isReviewRequired = artist.indexing_status !== "indexable_with_substantial_content";
   setMeta(
     {
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
@@ -1213,7 +1221,7 @@ function renderArtist(artist) {
         artist.meta_description ||
         `Check ${artist.name} ticket options through verified provider links, with practical buying guidance and clear transparency.`
     },
-    false
+    isReviewRequired
   );
 
   const section = document.createElement("section");
@@ -1222,6 +1230,12 @@ function renderArtist(artist) {
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Artists", href: "/artists" }, { label: artist.name }]));
   text(section, "h1", artistPageHeading(artist)).id = "artistTitle";
   text(section, "p", artistPageIntro(artist), "lead");
+  if (isReviewRequired) {
+    const reviewNotice = document.createElement("section");
+    reviewNotice.className = "nested-panel review-notice";
+    text(reviewNotice, "p", "This artist page is currently under review. Event details are shown for reference while ticket links are checked.", "disclosure-note");
+    section.append(reviewNotice);
+  }
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
     "Verified event links",
@@ -1308,7 +1322,7 @@ function renderArtist(artist) {
   }
 
   main.replaceChildren(section);
-  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 50, showEventCta: true });
+  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 50, showEventCta: !isReviewRequired, reviewGated: isReviewRequired });
 }
 
 function renderArtistFaq(artist) {
@@ -1872,6 +1886,17 @@ async function loadCatalog() {
   }
 }
 
+async function loadArtistsMeta() {
+  try {
+    const response = await fetch("/data/artists.json", { cache: "no-store" });
+    if (!response.ok) return [];
+    const data = await response.json();
+    return Array.isArray(data) ? data : [];
+  } catch (error) {
+    return [];
+  }
+}
+
 async function loadFallbackCatalog() {
   if (fallbackCatalog.artists.length) return fallbackCatalog;
   try {
@@ -1886,7 +1911,7 @@ async function loadFallbackCatalog() {
 }
 
 async function render() {
-  catalog = await loadCatalog();
+  [catalog, artistsMeta] = await Promise.all([loadCatalog(), loadArtistsMeta()]);
   const current = getRoute();
 
   if (current.type === "client-redirect") {

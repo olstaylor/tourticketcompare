@@ -85,23 +85,29 @@ async function fetchDiscoveryEvents(apiKey, base, page = 0) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
 
-  // Format startDateTime.gte without milliseconds (ISO format: YYYY-MM-DDTHH:mm:ssZ)
+  // Format startDateTime without milliseconds (ISO format: YYYY-MM-DDTHH:mm:ssZ)
   const now = new Date();
   const startDateTime = new Date(now.getTime() - now.getMilliseconds()).toISOString();
 
-  // Query parameters: music events, exclude cancelled
+  // Query parameters: music events, exclude cancelled, TBA, TBD, test events
   const params = new URLSearchParams({
     apikey: apiKey,
-    classificationId: '10', // Music
+    classificationName: 'music',
     size: '200',
     page,
-    'startDateTime.gte': startDateTime,
-    sort: 'date,asc'
+    startDateTime,
+    sort: 'date,asc',
+    includeTBA: 'no',
+    includeTBD: 'no',
+    includeTest: 'no',
+    source: 'ticketmaster'
   });
 
   const url = `${base}/events.json?${params.toString()}`;
+  const redactedUrl = url.replace(new RegExp(`apikey=[^&]*`), 'apikey=REDACTED');
 
   try {
+    console.log(`Query URL: ${redactedUrl}`);
     const response = await fetch(url, {
       method: 'GET',
       redirect: 'follow',
@@ -117,8 +123,15 @@ async function fetchDiscoveryEvents(apiKey, base, page = 0) {
 
     const data = await response.json();
     const events = data?._embedded?.events || [];
+    const totalElements = data?.page?.totalElements || 0;
 
-    return { success: true, events, totalPages: data?.page?.totalPages || 1 };
+    if (totalElements > 0) {
+      console.log(`API returned ${events.length} raw events (${totalElements} total in result)`);
+    } else {
+      console.log('API returned no events for the query.');
+    }
+
+    return { success: true, events, totalPages: data?.page?.totalPages || 1, totalElements };
   } catch (error) {
     const message = error?.name === 'AbortError' ? `timeout after ${requestTimeoutMs}ms` : String(error?.message || error);
     console.warn(`Warning: TM API fetch failed: ${message}`);
@@ -161,13 +174,33 @@ async function main() {
     }
   }
 
+  console.log(`Total raw events fetched: ${allEvents.length}`);
+
   // Filter: exclude cancelled/postponed, require at least one attraction
+  const rejectionReasons = {};
   const validEvents = allEvents.filter((e) => {
     const status = clean(e?.dates?.status?.code || '');
-    if (status === 'cancelled' || status === 'postponed') return false;
+    if (status === 'cancelled' || status === 'postponed') {
+      rejectionReasons[`status:${status}`] = (rejectionReasons[`status:${status}`] || 0) + 1;
+      return false;
+    }
     const attractions = e?._embedded?.attractions || [];
-    return attractions.length > 0;
+    if (attractions.length === 0) {
+      rejectionReasons['no_attractions'] = (rejectionReasons['no_attractions'] || 0) + 1;
+      return false;
+    }
+    return true;
   });
+
+  if (allEvents.length > 0 && validEvents.length === 0) {
+    console.log('Top rejection reasons:');
+    const sorted = Object.entries(rejectionReasons)
+      .sort(([, a], [, b]) => b - a)
+      .slice(0, 5);
+    sorted.forEach(([reason, count]) => {
+      console.log(`  - ${reason}: ${count}`);
+    });
+  }
 
   console.log(`Found ${validEvents.length} valid events.`);
 

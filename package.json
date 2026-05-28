@@ -36,7 +36,10 @@
     "audit:tm-events": "node scripts/audit-tm-events.mjs",
     "audit:report": "node scripts/daily-audit-report.mjs",
     "audit:bump-dates": "node scripts/bump-verified-dates.mjs",
-    "test:bump-guard": "node scripts/test-bump-verified-dates-guard.mjs"
+    "test:bump-guard": "node scripts/test-bump-verified-dates-guard.mjs",
+    "audit:candidates": "node scripts/audit-candidates.mjs",
+    "candidates:score": "node scripts/score-candidates.mjs",
+    "candidates:report": "node scripts/report-candidates.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.90.0"

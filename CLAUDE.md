@@ -166,7 +166,7 @@ Do not modify without explicit task scope:
 - **Make small, isolated changes.** One task = one or a few related commits.
 - **Validate before committing.** Run the relevant checks from [CONTRIBUTING.md](CONTRIBUTING.md).
 - **Summarise after changes:** which files changed, what was changed, which checks passed, what was not touched.
-- **Before starting any session:** read this file, then `PROJECT_STATUS.md`, then `BACKLOG.md`. Those three files are the current source of truth for product state and active priorities — do not rely on `HANDOVER.md` or any historical audit (`CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/LIVE_PRODUCTION_VERIFICATION.md`, etc.) as a source of priorities.
+- **Before starting any session:** read this file, then `PROJECT_STATUS.md`, then `BACKLOG.md`. Those three files are the current source of truth for product state and active priorities — do not rely on `HANDOVER.md` or anything in `docs/archive/` as a source of priorities.
 
 ---
 
@@ -176,7 +176,7 @@ Read in order: **`CLAUDE.md`** (this file) → **`PROJECT_STATUS.md`** → **`BA
 
 Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md)
 
-Not authoritative: `HANDOVER.md`, `AGENTS.md` — superseded; `CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/PROVIDER_ABSTRACTION_*.md` — parked/historical.
+Not authoritative: `HANDOVER.md`, `AGENTS.md` — superseded; anything in `docs/archive/` — parked/historical.
 
 ---
 

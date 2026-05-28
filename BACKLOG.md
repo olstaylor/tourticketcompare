@@ -31,7 +31,7 @@ Phase B (build-time cache-bust or stronger pre-commit hook) is a separate PR aft
 
 Two deliverables:
 
-- Confirm `docs/ADDING_ARTISTS.md` is the canonical onboarding doc (it already uses the current `verified_providers` / `indexing_status` field schema). A later docs PR collapses the legacy root-level `ARTIST_PAGE_*.md` docs into stubs that point to it.
+- Confirm `docs/ADDING_ARTISTS.md` is the canonical onboarding doc (it already uses the current `verified_providers` / `indexing_status` field schema). The legacy `ARTIST_PAGE_*.md` files have been moved to `docs/archive/artist-page-system/`.
 - Add `scripts/validate-artist.mjs` and `npm run artist:check -- <slug>` that asserts the slug is wired in `artists.json`, `catalog.json`, `events.json` / `events/<slug>.json`, `VERIFIED_TICKET_LINKS`, and the smoke fixture. The validator only checks what humans have already verified — it does not auto-generate pages, tour names, or links.
 
 ### 4. #172 sub-deliverable B — Populate verified `tour_name` for Olivia Rodrigo

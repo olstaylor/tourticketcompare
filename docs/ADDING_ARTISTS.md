@@ -6,6 +6,8 @@ Strict manual template and validation checklist for adding one new artist record
 
 **Before starting:** Complete the proposal and human-verification gates in `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`. That document defines the Proposal → Shell → Promote → Events phases, the gate checklists between them, and the AI proposal prompt. The field-level templates and example format below apply once a proposal has cleared Gate 1.
 
+> **Older design specs archived:** `ARTIST_PAGE_TEMPLATE_SYSTEM.md`, `ARTIST_PAGE_COMPONENTS.md`, `ARTIST_PAGE_QUICK_START.md`, and `BEYONCE_REFERENCE_IMPLEMENTATION.md` have been moved to `docs/archive/artist-page-system/` for reference only. The current active workflow is `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` + this file.
+
 ---
 
 ## 1. Required Evidence Before Adding an Artist

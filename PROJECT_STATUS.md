@@ -2,7 +2,7 @@
 
 Last updated: 2026-05-27 (post PR #190)
 
-This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. Older audits (CLEANUP_AUDIT, AUDIT_PARKING_LOT, SEO_ARCHITECTURE_AUDIT, LIVE_PRODUCTION_VERIFICATION, etc.) are historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
+This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. Historical audits and one-off reports are in `docs/archive/` — do not treat them as current guidance unless referenced from here or `BACKLOG.md`.
 
 ## Runtime and architecture
 

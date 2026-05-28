@@ -257,6 +257,7 @@ Do not modify without explicit task scope:
 - **`docs/CONTENT_RULES.md`** — what can and cannot be published.
 - **`docs/PROVIDER_DATA_POLICY.md`** — Ticketmaster, SeatGeek, Vivid Seats, Impact affiliate policy.
 - **`docs/ADDING_ARTISTS.md`** — artist onboarding runbook.
+- **`docs/SAFE_NEXT_ARTIST_WORKFLOW.md`** — new artist proposal, phase gates, and PR/validation checklists; start here before any artist addition.
 - **`README.md`** — public front door; deploy commands; links to canonical docs.
 
 **Not authoritative** (do not use as a source of current priorities or state):

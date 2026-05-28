@@ -1,5 +1,7 @@
 # Provider Abstraction Implementation Status
 
+> **PARKED** — This describes scaffolding for an unimplemented feature. Do not build on this without a real provider integration scoped first. See `BACKLOG.md § Explicitly parked`.
+
 **Date:** 2026-05-11  
 **Status:** Structural preparation complete and committed  
 **Phase:** Phase 1 (now) — Groundwork for future provider integrations

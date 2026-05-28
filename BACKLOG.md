@@ -2,8 +2,6 @@
 
 Last updated: 2026-05-27 (post PR #186)
 
-Active priorities are tied to live GitHub issues. `PROJECT_STATUS.md` holds the current-state snapshot. `CLAUDE.md` holds hard product rules, protected areas, and validation. Older audit/handover docs are not the active backlog.
-
 ## Active priorities (in order)
 
 ### 1. #171 — Close the Olivia Rodrigo trust gap

@@ -553,6 +553,19 @@
       "market": "global",
       "last_checked_at": "2026-05-27",
       "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-bruno-mars",
+      "artist_slug": "bruno-mars",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-05-28",
+      "disclosure_required": true
     }
   ],
   "safety_rules": [

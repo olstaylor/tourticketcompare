@@ -17,16 +17,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Critical Product Rules
 
-These are non-negotiable — violations compromise the site's integrity:
-
-1. **Never invent data:** tours, dates, venues, prices, availability, or ticket inventory
-2. **Never scrape** ticket providers
-3. **Never claim live price comparison** unless approved provider feeds supply it
-4. **Provider pricing** may only be displayed with explicit usage rights from an approved provider feed
-5. **No fake CTAs:** placeholder or example affiliate links must never be shown as real calls-to-action
-6. **Affiliates are protected:** `/api/out` redirect logic, `VERIFIED_TICKET_LINKS`, and Impact credential handling are locked — do not modify without explicit scope
-
-See `docs/CONTENT_RULES.md` and `docs/PROVIDER_DATA_POLICY.md` for full rules.
+See [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) for the full non-negotiable list. In brief: never invent data, never scrape, never show fake CTAs or price comparison, never expose credentials client-side, never modify `/api/out` or affiliate logic without explicit scope.
 
 ---
 
@@ -127,70 +118,7 @@ export { onRequest } from "./[[path]].js";
 
 ## Development Commands
 
-### Local Development
-
-```bash
-npm install          # Install dependencies
-
-npm run dev          # Run local Pages preview (includes Functions)
-                     # Opens http://localhost:3000 and http://localhost:3000/api/health
-```
-
-### Validation & Testing
-
-```bash
-# Syntax checks (always run these before committing)
-node --check public/app.js
-node --check 'functions/[[path]].js'
-node --check functions/api/out.js
-
-# Python event data validation
-python3 scripts/validate-events.py --for-production
-
-# Smoke test suite
-node scripts/smoke-prelaunch.mjs
-
-# Whitespace/conflict marker check
-git diff --check
-
-# When named route shims are touched, also check:
-node --check functions/artists.js
-node --check functions/guides.js
-node --check functions/how-it-works.js
-node --check functions/editorial-policy.js
-node --check functions/affiliate-disclosure.js
-node --check functions/contact.js
-```
-
-### Event Data Management
-
-```bash
-npm run events:csv       # Convert CSV input to events.json
-npm run events:validate  # Validate events.json against production rules
-npm run events:partition # Partition events by artist for events-index.json
-npm run events:sync      # Sync event data files
-npm run events:update    # Run csv→validate→partition→sync pipeline
-```
-
-### Deployment
-
-```bash
-# Manual deploy to production (no pre-flight checks)
-npm run deploy:pages
-
-# Deploy with smoke tests first (recommended)
-npm run deploy:pages:safe
-
-# Note: Merges to main auto-deploy via Cloudflare Pages Git integration
-#       Manual deploy is only needed for emergency or off-schedule deploys
-```
-
-### Database (D1)
-
-```bash
-npm run demand:migrate   # Run migrations on production D1
-npm run demand:export    # Export email_subscribers from production D1
-```
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local setup, validation commands, event data management, and deploy commands.
 
 ---
 
@@ -236,7 +164,7 @@ Do not modify without explicit task scope:
 
 - **Read only files relevant to the task.** Do not scan or rewrite the whole repo.
 - **Make small, isolated changes.** One task = one or a few related commits.
-- **Validate before committing.** Run the relevant checks from the Validation section above.
+- **Validate before committing.** Run the relevant checks from [CONTRIBUTING.md](CONTRIBUTING.md).
 - **Summarise after changes:** which files changed, what was changed, which checks passed, what was not touched.
 - **Before starting any session:** read this file, then `PROJECT_STATUS.md`, then `BACKLOG.md`. Those three files are the current source of truth for product state and active priorities — do not rely on `HANDOVER.md` or any historical audit (`CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/LIVE_PRODUCTION_VERIFICATION.md`, etc.) as a source of priorities.
 
@@ -244,27 +172,11 @@ Do not modify without explicit task scope:
 
 ## Key Documentation
 
-**Current source of truth (read first, in this order):**
+Read in order: **`CLAUDE.md`** (this file) → **`PROJECT_STATUS.md`** → **`BACKLOG.md`**.
 
-- **`CLAUDE.md`** (this file) — protected areas, hard product rules, validation, working style.
-- **`PROJECT_STATUS.md`** — current state of the site and data; active risks.
-- **`BACKLOG.md`** — active priorities, each tied to a live GitHub issue.
+Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md)
 
-**Reference docs:**
-
-- **`docs/ARCHITECTURE.md`** — routing model, Pages Functions structure, data bindings.
-- **`docs/DEPLOYMENT.md`** — local dev, production Pages deploy, daily audit pipeline.
-- **`docs/CONTENT_RULES.md`** — what can and cannot be published.
-- **`docs/PROVIDER_DATA_POLICY.md`** — Ticketmaster, SeatGeek, Vivid Seats, Impact affiliate policy.
-- **`docs/ADDING_ARTISTS.md`** — artist onboarding runbook.
-- **`docs/SAFE_NEXT_ARTIST_WORKFLOW.md`** — new artist proposal, phase gates, and PR/validation checklists; start here before any artist addition.
-- **`README.md`** — public front door; deploy commands; links to canonical docs.
-
-**Not authoritative** (do not use as a source of current priorities or state):
-
-- `HANDOVER.md` — stub pointing here.
-- `AGENTS.md`, `PROJECT_BRIEF.md` — historical AI briefs; current rules live here and in `docs/CONTENT_RULES.md` / `docs/PROVIDER_DATA_POLICY.md`.
-- Audits and one-off reports (`CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/LIVE_PRODUCTION_VERIFICATION.md`, `docs/OLIVIA_RODRIGO_LINK_REVIEW.md`, `docs/TOUR_NAME_AUDIT.md`, `docs/PROVIDER_ABSTRACTION_*.md`, `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md`) — historical evidence only; treat as current only if `PROJECT_STATUS.md` or `BACKLOG.md` explicitly references them.
+Not authoritative: `HANDOVER.md`, `AGENTS.md` — superseded; `CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/PROVIDER_ABSTRACTION_*.md` — parked/historical.
 
 ---
 

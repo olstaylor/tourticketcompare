@@ -28,16 +28,20 @@ The current source of truth is:
 
 | Document | Purpose |
 |---|---|
-| [CLAUDE.md](CLAUDE.md) | AI/contributor brief: protected areas, hard product rules, validation, working style |
+| [CLAUDE.md](CLAUDE.md) | AI/contributor brief: protected areas, working style, session checklist |
 | [PROJECT_STATUS.md](PROJECT_STATUS.md) | Current state snapshot: runtime, data counts, active risks |
 | [BACKLOG.md](BACKLOG.md) | Active prioritised backlog (each item ties to a live GitHub issue) |
+| [PROJECT_BRIEF.md](PROJECT_BRIEF.md) | Site overview, architecture summary, hard rules quick-reference |
+| [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) | Non-negotiable publishing, data, and affiliate rules |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Local setup, validation commands, PR checklist |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Routing model, Pages Functions structure, data bindings |
 | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Local dev, production Pages deploy, daily audit pipeline |
-| [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) | What can and cannot be published |
+| [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) | What can and cannot be published (full detail) |
 | [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) | Ticketmaster, SeatGeek, Vivid Seats, and Impact affiliate policy |
-| [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) | Artist onboarding runbook |
+| [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) | Artist onboarding field templates and checklist |
+| [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) | Gated artist onboarding workflow (Proposal → Shell → Promote → Events) |
 
-Historical audits, one-off reports, and older handover/brief docs (`HANDOVER.md`, `AGENTS.md`, `PROJECT_BRIEF.md`, `CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/LIVE_PRODUCTION_VERIFICATION.md`, `docs/OLIVIA_RODRIGO_LINK_REVIEW.md`, `docs/TOUR_NAME_AUDIT.md`, `docs/PROVIDER_ABSTRACTION_*.md`, `docs/ISSUE_DRAFTS.md`, `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md`, `ARTIST_PAGE_*.md`, `BEYONCE_REFERENCE_IMPLEMENTATION.md`) remain in the repo for reference but **should not be treated as current guidance** unless `PROJECT_STATUS.md` or `BACKLOG.md` explicitly cites them.
+Historical audits, one-off reports, and superseded docs (`HANDOVER.md`, `AGENTS.md`, `CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/LIVE_PRODUCTION_VERIFICATION.md`, `docs/OLIVIA_RODRIGO_LINK_REVIEW.md`, `docs/TOUR_NAME_AUDIT.md`, `docs/PROVIDER_ABSTRACTION_*.md`, `docs/ISSUE_DRAFTS.md`, `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md`, `ARTIST_PAGE_*.md`, `BEYONCE_REFERENCE_IMPLEMENTATION.md`) remain in the repo for reference but **should not be treated as current guidance** unless `PROJECT_STATUS.md` or `BACKLOG.md` explicitly cites them.
 
 ---
 

@@ -1,5 +1,7 @@
 # Provider Abstraction Architecture
 
+> **PARKED** — This is a design document for an unimplemented feature. Do not build on this without a real provider integration scoped first. See `BACKLOG.md § Explicitly parked`.
+
 **Date:** 2026-05-11  
 **Status:** Design document + safe structural prep work completed  
 **Scope:** Prepare TourTicketCompare for future provider integrations (SeatGeek, StubHub, Vivid Seats, TicketNetwork)

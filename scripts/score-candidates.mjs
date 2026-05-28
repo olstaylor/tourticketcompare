@@ -15,7 +15,49 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const SUPPORTED_DOMAINS = ['ticketmaster.com', 'ticketmaster.ca', 'ticketmaster.co.uk', 'livenation.com'];
+// Diagnostic supported-domain allowlist for candidate REPORTING only.
+// Do NOT consume this list from CTA / affiliate / out.js code. Public CTA
+// eligibility lives in functions/api/out.js and requires explicit per-domain
+// verification. Expanding this list never changes what we link to publicly.
+const SUPPORTED_DOMAINS = [
+  // Americas
+  'ticketmaster.com',
+  'ticketmaster.ca',
+  'ticketmaster.com.mx',
+  'ticketmaster.com.br',
+  'ticketmaster.com.ar',
+  'ticketmaster.com.co',
+  'ticketmaster.com.pe',
+  'ticketmaster.cl',
+  // EMEA
+  'ticketmaster.co.uk',
+  'ticketmaster.ie',
+  'ticketmaster.de',
+  'ticketmaster.at',
+  'ticketmaster.ch',
+  'ticketmaster.es',
+  'ticketmaster.fr',
+  'ticketmaster.it',
+  'ticketmaster.nl',
+  'ticketmaster.be',
+  'ticketmaster.dk',
+  'ticketmaster.fi',
+  'ticketmaster.no',
+  'ticketmaster.se',
+  'ticketmaster.pl',
+  'ticketmaster.cz',
+  'ticketmaster.pt',
+  'ticketmaster.ae',
+  // APAC
+  'ticketmaster.com.au',
+  'ticketmaster.co.nz',
+  'ticketmaster.sg',
+  // Live Nation
+  'livenation.com',
+  'livenation.co.uk',
+  'livenation.ca',
+  'livenation.com.au'
+];
 
 const argv = process.argv.slice(2);
 function arg(name) {
@@ -101,6 +143,25 @@ async function main() {
 
   console.log(`Read ${rawEvents.length} raw events.`);
   console.log(`Read ${artists.length} existing artists.`);
+
+  // Hostname distribution across all raw events (diagnostic).
+  // Counts every event URL hostname; events without a parseable URL are counted
+  // under the synthetic "_no_url" bucket so the total ties back to event count.
+  const hostnameCounts = new Map();
+  for (const event of rawEvents) {
+    const domain = eventUrlDomain(event);
+    const key = domain || '_no_url';
+    hostnameCounts.set(key, (hostnameCounts.get(key) || 0) + 1);
+  }
+  const hostnameDistribution = Array.from(hostnameCounts.entries())
+    .map(([hostname, count]) => ({
+      hostname,
+      count,
+      supported:
+        hostname !== '_no_url' &&
+        SUPPORTED_DOMAINS.some((sd) => hostname === sd || hostname.endsWith(`.${sd}`))
+    }))
+    .sort((a, b) => b.count - a.count);
 
   // Build existing artist slugs and names (case-insensitive)
   const existingArtistsBySlug = new Set();
@@ -207,10 +268,20 @@ async function main() {
 
     const lacksAttractionId = !attractionId;
     const unstableName = looksUnstableAttractionName(name);
-    const supportedDomain = Array.from(data.domains).some((d) =>
+    const candidateDomains = Array.from(data.domains).sort();
+    const supportedDomain = candidateDomains.some((d) =>
       SUPPORTED_DOMAINS.some((sd) => d === sd || d.endsWith(`.${sd}`))
     );
     const unsupportedDomainOnly = data.domains.size > 0 && !supportedDomain;
+    let unsupportedDomainReason = null;
+    if (unsupportedDomainOnly) {
+      unsupportedDomainReason =
+        `All ${data.events.length} event URL hostname(s) [${candidateDomains.join(', ')}] are outside the diagnostic supported-domain list ` +
+        `(Ticketmaster regional + Live Nation). Reporting-only flag; does not gate CTA eligibility.`;
+    } else if (data.domains.size === 0) {
+      unsupportedDomainReason =
+        `No event had a parseable URL hostname, so supported-domain status cannot be determined.`;
+    }
 
     if (isAlreadyPublished) countsByExclusionReason.already_published++;
     if (lacksAttractionId) countsByExclusionReason.no_attraction_id_fallback_to_name++;
@@ -239,8 +310,9 @@ async function main() {
       is_already_published: isAlreadyPublished,
       lacks_attraction_id: lacksAttractionId,
       flagged_unstable_name: unstableName,
-      domains: Array.from(data.domains).sort(),
+      domains: candidateDomains,
       unsupported_domain_only: unsupportedDomainOnly,
+      unsupported_domain_reason: unsupportedDomainReason,
       secondary_attraction_ids: Array.from(data.secondary_attraction_ids).sort(),
       secondary_attraction_names: Array.from(data.secondary_attraction_names).sort(),
       rationale: isAlreadyPublished
@@ -274,6 +346,8 @@ async function main() {
       'Scoring is advisory only. Nothing here authorises shell creation, publication, or catalog modification.',
     threshold: eventCountThreshold,
     grouping: groupingStats,
+    hostname_distribution: hostnameDistribution,
+    supported_domain_allowlist: SUPPORTED_DOMAINS,
     candidates,
     top_candidate: topPassingCandidate
       ? {

@@ -2,6 +2,20 @@ name: Candidate Audit
 
 on:
   workflow_dispatch:  # Manual trigger only (MVP — cron reserved for Phase 2)
+    inputs:
+      pages:
+        description: 'Pages of 200 events to fetch (1–25). Conservative default is 5; increase to widen the scan window so major tours scheduled further out are less likely to be missed.'
+        required: false
+        default: '5'
+        type: string
+      mode:
+        description: 'Search mode: "default" keeps source=ticketmaster; "broad" drops the source filter to include syndicated music events on TM hostnames.'
+        required: false
+        default: 'default'
+        type: choice
+        options:
+          - default
+          - broad
 
 jobs:
   audit:
@@ -30,12 +44,14 @@ jobs:
         continue-on-error: true
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          AUDIT_PAGES: ${{ github.event.inputs.pages || '5' }}
+          AUDIT_MODE: ${{ github.event.inputs.mode || 'default' }}
         run: |
           if [ -z "$TICKETMASTER_API_KEY" ]; then
             echo "TICKETMASTER_API_KEY not configured; using --dry-run mode"
-            npm run audit:candidates -- --dry-run --output .audit/candidates-raw.json
+            npm run audit:candidates -- --dry-run --pages "$AUDIT_PAGES" --mode "$AUDIT_MODE" --output .audit/candidates-raw.json
           else
-            npm run audit:candidates -- --api-key="$TICKETMASTER_API_KEY" --output .audit/candidates-raw.json
+            npm run audit:candidates -- --api-key="$TICKETMASTER_API_KEY" --pages "$AUDIT_PAGES" --mode "$AUDIT_MODE" --output .audit/candidates-raw.json
           fi
 
       - name: Score and rank candidates

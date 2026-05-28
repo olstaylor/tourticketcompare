@@ -280,6 +280,12 @@ def run_self_test() -> int:
             "mutate": lambda event: event.__setitem__("tour_name", ""),
             "expect_in_stderr": "WARNING: blank tour_name on indexed artist events",
         },
+        {
+            "name": "blank tour_name on indexed artist fails in strict mode",
+            "mutate": lambda event: event.__setitem__("tour_name", ""),
+            "strict_tour_name": True,
+            "expect_failure": "STRICT TOUR_NAME CHECK FAILED:",
+        },
     ]
 
     with tempfile.TemporaryDirectory(prefix="ttc-validate-events-self-test-") as tmp_dir:
@@ -341,8 +347,24 @@ def run_self_test() -> int:
                 "--artists-path",
                 str(artists_path),
             ]
+            if case.get("strict_tour_name"):
+                cmd.append("--strict-tour-name")
             result = subprocess.run(cmd, capture_output=True, text=True)
             stderr = result.stderr or ""
+            expect_failure = case.get("expect_failure")
+            if expect_failure:
+                if result.returncode == 0:
+                    print(f"SELF-TEST FAILED: {case['name']} unexpectedly passed in strict mode.", file=sys.stderr)
+                    return 1
+                if expect_failure not in stderr:
+                    print(
+                        f"SELF-TEST FAILED: {case['name']} missing strict failure text.\n"
+                        f"Expected substring: {expect_failure}\n"
+                        f"Actual stderr:\n{stderr}",
+                        file=sys.stderr,
+                    )
+                    return 1
+                continue
             if result.returncode != 0:
                 print(
                     f"SELF-TEST FAILED: {case['name']} unexpectedly failed.\n"
@@ -399,6 +421,11 @@ def main() -> int:
         "--for-production",
         action="store_true",
         help="Enable strict launch checks: min-events>=1 and reject placeholders. Missing URLs are allowed and render unavailable.",
+    )
+    parser.add_argument(
+        "--strict-tour-name",
+        action="store_true",
+        help="When used with --for-production, fail if indexed artists have events with blank tour_name.",
     )
     parser.add_argument(
         "--artists-path",
@@ -728,6 +755,15 @@ def main() -> int:
             sample = ", ".join(ids_for_slug[:5])
             extra = "" if len(ids_for_slug) <= 5 else f", +{len(ids_for_slug) - 5} more"
             print(f"  - {slug_value}: {len(ids_for_slug)} event(s) (e.g. {sample}{extra})", file=sys.stderr)
+        if args.strict_tour_name:
+            print(
+                "STRICT TOUR_NAME CHECK FAILED: --strict-tour-name requires non-blank tour_name "
+                "for indexed artist events.",
+                file=sys.stderr,
+            )
+            for slug_value in sorted(blank_tour_name_by_slug):
+                print(f"  - {slug_value}: {len(blank_tour_name_by_slug[slug_value])} blank tour_name event(s)", file=sys.stderr)
+            errors.append("indexed artists contain events with blank tour_name under --strict-tour-name")
 
     if errors:
         print("VALIDATION FAILED:", file=sys.stderr)

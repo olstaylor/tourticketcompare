@@ -1,0 +1,39 @@
+name: Ticketmaster Discovery Shell PR (Phase 2)
+
+on:
+  workflow_dispatch:
+    inputs:
+      score_threshold:
+        description: "Minimum candidate score"
+        required: false
+        default: "70"
+
+jobs:
+  shell_pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Download Phase 1 artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: tm-discovery-proposal
+          path: artifacts/tm-discovery
+
+      - name: Create one review_required shell PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          TM_DISCOVERY_ARTIFACT_DIR: artifacts/tm-discovery
+          TM_SHELL_SCORE_THRESHOLD: ${{ inputs.score_threshold }}
+        run: node scripts/tm-discovery-shell-pr.mjs

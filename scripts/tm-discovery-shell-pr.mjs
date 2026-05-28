@@ -1,35 +1,24 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { spawnSync } from 'node:child_process';
+import { execFileSync, spawnSync } from 'node:child_process';
 
 const SCORE_THRESHOLD = Number(process.env.TM_SHELL_SCORE_THRESHOLD || 70);
 const ARTIFACT_DIR = process.env.TM_DISCOVERY_ARTIFACT_DIR || 'artifacts/tm-discovery';
 const MAX_SHELLS_PER_RUN = 1;
 const LABEL = 'automation:tm-shell';
-const MUTATED_FILES = [
-  'public/data/artists.json',
-  'public/data/catalog.json',
-  'functions/api/signup.js',
-  'public/index.html'
-];
 
 function slugify(name) {
   return String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
 async function readJson(file) { return JSON.parse(await fs.readFile(file, 'utf8')); }
+
 function fail(msg) { throw new Error(msg); }
 
-function run(cmd, args, options = {}) {
-  const out = spawnSync(cmd, args, { stdio: 'inherit', ...options });
+function run(cmd, args) {
+  const out = spawnSync(cmd, args, { stdio: 'inherit' });
   if (out.status !== 0) throw new Error(`Command failed: ${cmd} ${args.join(' ')}`);
-}
-
-function capture(cmd, args) {
-  const out = spawnSync(cmd, args, { encoding: 'utf8' });
-  if (out.status !== 0) throw new Error(`Command failed: ${cmd} ${args.join(' ')}`);
-  return String(out.stdout || '').trim();
 }
 
 function getRepoInfo() {
@@ -63,28 +52,7 @@ function hasParkingBlock(backlogText, artistName) {
   return backlogText.split(/\r?\n/).some((line) => /parked|blocked|do not onboard/i.test(line) && line.toLowerCase().includes(n));
 }
 
-function duplicateCatalogLink(catalog, slug) {
-  const linkId = `tm-artist-${slug}`;
-  const links = Array.isArray(catalog?.ticket_links) ? catalog.ticket_links : [];
-  const byLinkId = links.find((row) => String(row?.link_id || '').trim().toLowerCase() === linkId);
-  if (byLinkId) return `catalog.json already has link_id "${linkId}"`;
-  const byArtistProvider = links.find((row) => String(row?.artist_slug || '').trim() === slug && String(row?.provider || '').trim() === 'ticketmaster');
-  if (byArtistProvider) return `catalog.json already has ticket_links row for artist_slug "${slug}" + provider "ticketmaster"`;
-  return null;
-}
-
 async function main() {
-  if (MAX_SHELLS_PER_RUN !== 1) fail('MAX_SHELLS_PER_RUN misconfigured');
-
-  const { owner, name } = getRepoInfo();
-  const searchQuery = encodeURIComponent(`repo:${owner}/${name} is:pr is:open label:${LABEL}`);
-  const existingShellPrs = await githubApi(`/search/issues?q=${searchQuery}&per_page=1`);
-  if (Number(existingShellPrs?.total_count || 0) > 0) {
-    const ref = existingShellPrs.items?.[0] ? `#${existingShellPrs.items[0].number}` : 'existing open PR';
-    console.log(`Skip: found open ${LABEL} PR (${ref}). Exiting without edits.`);
-    return;
-  }
-
   const candidates = await readJson(path.join(ARTIFACT_DIR, 'candidates.json'));
   const skipLog = await readJson(path.join(ARTIFACT_DIR, 'skip-log.json'));
   const artists = await readJson('public/data/artists.json');
@@ -92,6 +60,14 @@ async function main() {
   const backlogText = await fs.readFile('BACKLOG.md', 'utf8');
 
   if (!Array.isArray(candidates) || candidates.length === 0) fail('No candidates found. Failing closed.');
+
+  const { owner, name } = getRepoInfo();
+  const openPrs = await githubApi(`/repos/${owner}/${name}/pulls?state=open&per_page=100`);
+  const existingShellPr = openPrs.find((pr) => Array.isArray(pr.labels) && pr.labels.some((l) => l.name === LABEL));
+  if (existingShellPr) {
+    console.log(`Open ${LABEL} PR already exists (#${existingShellPr.number}); no new shell PR created.`);
+    return;
+  }
 
   let selected = null;
   for (const c of candidates) {
@@ -112,102 +88,73 @@ async function main() {
 
   if (!selected) fail('No valid candidate passed Phase 2 shell checks. Failing closed.');
 
-  const duplicateReason = duplicateCatalogLink(catalog, selected.slug);
-  if (duplicateReason) fail(`Fail closed: ${duplicateReason}`);
-
   const today = new Date().toISOString().slice(0, 10);
-  const branch = `automation/tm-shell-${selected.slug}-${today}`;
-  const originalBranch = capture('git', ['rev-parse', '--abbrev-ref', 'HEAD']);
+  const newArtist = {
+    slug: selected.slug,
+    name: selected.artistName,
+    short_description: '',
+    indexing_status: 'review_required',
+    verified_provider_count: 0,
+    verified_providers: [],
+    last_verified_at: null
+  };
 
-  let pushed = false;
-  let prCreated = false;
+  artists.push(newArtist);
+  await fs.writeFile('public/data/artists.json', `${JSON.stringify(artists, null, 2)}\n`);
 
-  try {
-    run('git', ['checkout', '-b', branch]);
+  const ticketLinks = Array.isArray(catalog.ticket_links) ? catalog.ticket_links : [];
+  ticketLinks.push({
+    link_id: `tm-artist-${selected.slug}`,
+    artist_slug: selected.slug,
+    tour_slug: null,
+    provider: 'ticketmaster',
+    destination_type: 'artist_page',
+    affiliate_enabled: false,
+    verified: false,
+    public_enabled: false,
+    market: 'global',
+    last_checked_at: today,
+    disclosure_required: true,
+    ticketmaster_attraction_id: String(selected.attractionId)
+  });
+  catalog.ticket_links = ticketLinks;
+  await fs.writeFile('public/data/catalog.json', `${JSON.stringify(catalog, null, 2)}\n`);
 
-    const newArtist = {
-      slug: selected.slug,
-      name: selected.artistName,
-      short_description: '',
-      indexing_status: 'review_required',
-      verified_provider_count: 0,
-      verified_providers: [],
-      last_verified_at: null
-    };
-
-    artists.push(newArtist);
-    await fs.writeFile('public/data/artists.json', `${JSON.stringify(artists, null, 2)}\n`);
-
-    const ticketLinks = Array.isArray(catalog.ticket_links) ? catalog.ticket_links : [];
-    ticketLinks.push({
-      link_id: `tm-artist-${selected.slug}`,
-      artist_slug: selected.slug,
-      tour_slug: null,
-      provider: 'ticketmaster',
-      destination_type: 'artist_page',
-      affiliate_enabled: false,
-      verified: false,
-      public_enabled: false,
-      market: 'global',
-      last_checked_at: today,
-      disclosure_required: true,
-      ticketmaster_attraction_id: String(selected.attractionId)
+  const signupSource = await fs.readFile('functions/api/signup.js', 'utf8');
+  if (!signupSource.includes(`"${selected.slug}"`)) {
+    const updated = signupSource.replace(/const\s+ARTIST_SLUGS\s*=\s*new\s+Set\(\[([\s\S]*?)\]\);/, (m, inside) => {
+      const trimmed = inside.replace(/\s*$/, '');
+      return `const ARTIST_SLUGS = new Set([${trimmed}\n  "${selected.slug}"\n]);`;
     });
-    catalog.ticket_links = ticketLinks;
-    await fs.writeFile('public/data/catalog.json', `${JSON.stringify(catalog, null, 2)}\n`);
-
-    const signupSource = await fs.readFile('functions/api/signup.js', 'utf8');
-    if (!signupSource.includes(`"${selected.slug}"`)) {
-      const updated = signupSource.replace(/const\s+ARTIST_SLUGS\s*=\s*new\s+Set\(\[([\s\S]*?)\]\);/, (m, inside) => {
-        const trimmed = inside.replace(/\s*$/, '');
-        return `const ARTIST_SLUGS = new Set([${trimmed}\n  "${selected.slug}"\n]);`;
-      });
-      if (updated === signupSource) fail('Could not update ARTIST_SLUGS in signup.js');
-      await fs.writeFile('functions/api/signup.js', updated);
-    }
-
-    run('npm', ['run', 'events:sync']);
-    console.log('Note: npm run artist:check may return WARN for review_required shells and this is expected.');
-    run('npm', ['run', 'artist:check', '--', selected.slug]);
-    run('npm', ['run', 'test:mvp']);
-    run('git', ['diff', '--check']);
-
-    run('git', ['add', ...MUTATED_FILES]);
-    run('git', ['commit', '-m', `automation: create review_required shell for ${selected.slug}`]);
-    run('git', ['push', '--set-upstream', 'origin', branch]);
-    pushed = true;
-
-    const skipSummary = Object.entries(skipLog.reduce((acc, row) => {
-      const r = row?.reason || 'unknown';
-      acc[r] = (acc[r] || 0) + 1;
-      return acc;
-    }, {})).map(([reason, count]) => `- ${reason}: ${count}`).join('\n');
-
-    const prTitle = `Automated artist shell: ${selected.slug} — review_required`;
-    const prBody = `## What this PR does\n- Adds one Ticketmaster-discovered artist shell for \`${selected.slug}\` in \`review_required\` state only.\n- Adds one non-public, unverified Ticketmaster ticket_links entry with all trust flags off.\n\n## Candidate evidence\n- Artist: **${selected.artistName}**\n- Ticketmaster attraction ID: \`${selected.attractionId}\`\n- Upcoming non-cancelled events: ${selected.upcomingEventCount}\n- Location completeness ratio: ${selected.locationCompletenessRatio}\n\n## Score breakdown\n- Total score: **${selected.score}** (threshold: ${SCORE_THRESHOLD})\n- eventScore: ${selected.scoreBreakdown?.eventScore ?? 'n/a'}\n- geographyScore: ${selected.scoreBreakdown?.geographyScore ?? 'n/a'}\n- completenessScore: ${selected.scoreBreakdown?.completenessScore ?? 'n/a'}\n\n## Skip log summary\n${skipSummary || '- (none)'}\n\n## Explicit non-changes\n- No CTAs enabled.\n- No prices added.\n- No events ingested.\n- No changes to \`functions/api/out.js\` or \`functions/api/shows.js\`.\n- No indexability promotion (artist remains \`review_required\` / noindex).\n- No auto-merge.\n\n## Validation notes\n- \`npm run artist:check -- ${selected.slug}\` WARN is expected for \`review_required\` shell state and is acceptable.\n\n## Human review checklist\n- [ ] Confirm slug/name formatting and safety fields in \`artists.json\`\n- [ ] Confirm \`catalog.json\` link flags are all non-public/unverified\n- [ ] Confirm \`signup.js\` slug inclusion is intentional\n- [ ] Confirm page renders with watchlist-only empty state\n\n## Next manual steps\n1. Browser-verify canonical Ticketmaster artist URL for this slug.\n2. In a separate promote PR, add VERIFIED_TICKET_LINKS entry in \`functions/api/out.js\`.\n3. Only then consider indexability promotion and CTA enablement.\n`;
-
-    const pr = await githubApi(`/repos/${owner}/${name}/pulls`, { method: 'POST', body: { title: prTitle, head: branch, base: 'main', body: prBody, maintainer_can_modify: true } });
-    prCreated = true;
-    await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/labels`, { method: 'POST', body: { labels: [LABEL] } });
-
-    console.log(`Created shell PR #${pr.number} for ${selected.slug}.`);
-  } catch (err) {
-    if (!prCreated) {
-      try {
-        run('git', ['reset', '--hard', 'HEAD']);
-        run('git', ['clean', '-fd']);
-        if (capture('git', ['rev-parse', '--abbrev-ref', 'HEAD']) !== originalBranch) {
-          run('git', ['checkout', originalBranch]);
-        }
-      } catch (cleanupErr) {
-        console.error(`Cleanup warning: ${cleanupErr.message}`);
-      }
-    }
-    if (pushed && !prCreated) {
-      console.error(`Branch was pushed but PR creation failed. Manual recovery branch: ${branch}`);
-    }
-    throw err;
+    if (updated === signupSource) fail('Could not update ARTIST_SLUGS in signup.js');
+    await fs.writeFile('functions/api/signup.js', updated);
   }
+
+  run('npm', ['run', 'events:sync']);
+  run('npm', ['run', 'artist:check', '--', selected.slug]);
+  run('npm', ['run', 'test:mvp']);
+  run('git', ['diff', '--check']);
+
+  const branch = `automation/tm-shell-${selected.slug}-${today}`;
+  run('git', ['checkout', '-b', branch]);
+  run('git', ['add', 'public/data/artists.json', 'public/data/catalog.json', 'functions/api/signup.js', 'public/index.html']);
+  run('git', ['commit', '-m', `automation: create review_required shell for ${selected.slug}`]);
+  run('git', ['push', '--set-upstream', 'origin', branch]);
+
+  const skipSummary = Object.entries(skipLog.reduce((acc, row) => {
+    const r = row?.reason || 'unknown';
+    acc[r] = (acc[r] || 0) + 1;
+    return acc;
+  }, {})).map(([reason, count]) => `- ${reason}: ${count}`).join('\n');
+
+  const prTitle = `Automated artist shell: ${selected.slug} — review_required`;
+  const prBody = `## What this PR does\n- Adds one Ticketmaster-discovered artist shell for \`${selected.slug}\` in \`review_required\` state only.\n- Adds one non-public, unverified Ticketmaster ticket_links entry with all trust flags off.\n\n## Candidate evidence\n- Artist: **${selected.artistName}**\n- Ticketmaster attraction ID: \`${selected.attractionId}\`\n- Upcoming non-cancelled events: ${selected.upcomingEventCount}\n- Location completeness ratio: ${selected.locationCompletenessRatio}\n\n## Score breakdown\n- Total score: **${selected.score}** (threshold: ${SCORE_THRESHOLD})\n- eventScore: ${selected.scoreBreakdown?.eventScore ?? 'n/a'}\n- geographyScore: ${selected.scoreBreakdown?.geographyScore ?? 'n/a'}\n- completenessScore: ${selected.scoreBreakdown?.completenessScore ?? 'n/a'}\n\n## Skip log summary\n${skipSummary || '- (none)'}\n\n## Explicit non-changes\n- No CTAs enabled.\n- No prices added.\n- No events ingested.\n- No changes to \`functions/api/out.js\` or \`functions/api/shows.js\`.\n- No indexability promotion (artist remains \`review_required\` / noindex).\n- No auto-merge.\n\n## Human review checklist\n- [ ] Confirm slug/name formatting and safety fields in \`artists.json\`\n- [ ] Confirm \`catalog.json\` link flags are all non-public/unverified\n- [ ] Confirm \`signup.js\` slug inclusion is intentional\n- [ ] Confirm page renders with watchlist-only empty state\n\n## Next manual steps\n1. Browser-verify canonical Ticketmaster artist URL for this slug.\n2. In a separate promote PR, add VERIFIED_TICKET_LINKS entry in \`functions/api/out.js\`.\n3. Only then consider indexability promotion and CTA enablement.\n`;
+
+  const pr = await githubApi(`/repos/${owner}/${name}/pulls`, { method: 'POST', body: { title: prTitle, head: branch, base: 'main', body: prBody, maintainer_can_modify: true } });
+  await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/labels`, { method: 'POST', body: { labels: [LABEL] } });
+
+  console.log(`Created shell PR #${pr.number} for ${selected.slug}.`);
+  if (MAX_SHELLS_PER_RUN !== 1) fail('MAX_SHELLS_PER_RUN misconfigured');
 }
 
 main().catch((err) => {

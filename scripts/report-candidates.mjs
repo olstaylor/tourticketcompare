@@ -13,6 +13,14 @@ function arg(name) {
   return i >= 0 ? argv[i + 1] : null;
 }
 
+async function ensureDir(dirPath) {
+  try {
+    await fs.mkdir(dirPath, { recursive: true });
+  } catch {
+    // ignore mkdir errors
+  }
+}
+
 async function readJson(filePath) {
   if (!filePath) return null;
   try {
@@ -78,6 +86,7 @@ async function main() {
     markdown += '|--------|--------|-------|--------|\n';
 
     for (const c of topCandidates) {
+      if (!c) continue;
       const status = c.is_already_published ? '📌 Published' : c.event_count >= 50 ? '✅ Available' : '⚠️ Below threshold';
       markdown += `| ${c.artist_name} | ${c.event_count} | ${c.score} | ${status} |\n`;
     }
@@ -89,6 +98,7 @@ async function main() {
     markdown += '## Candidate Details\n\n';
 
     for (const c of topCandidates.slice(0, 5)) {
+      if (!c) continue;
       markdown += `### ${c.artist_name}\n\n`;
       markdown += `- **Events:** ${c.event_count}\n`;
       markdown += `- **Score:** ${c.score}\n`;
@@ -102,6 +112,8 @@ async function main() {
   markdown += '_This report is machine-generated. Human review and verification required before any artist onboarding._\n';
 
   const outputFile = path.resolve(process.cwd(), outputPath);
+  const outputDir = path.dirname(outputFile);
+  await ensureDir(outputDir);
   await fs.writeFile(outputFile, markdown, 'utf8');
   console.log(`Wrote report to ${outputPath}`);
 

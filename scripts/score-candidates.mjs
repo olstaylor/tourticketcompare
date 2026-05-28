@@ -17,12 +17,21 @@ function clean(value) {
   return String(value || '').trim();
 }
 
-function slugify(name) {
-  return clean(name)
+function slugify(value) {
+  return clean(value, 120)
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-');
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+
+async function ensureDir(dirPath) {
+  try {
+    await fs.mkdir(dirPath, { recursive: true });
+  } catch {
+    // ignore mkdir errors
+  }
 }
 
 async function readJson(filePath) {
@@ -73,9 +82,11 @@ async function main() {
   console.log(`Read ${artists.length} existing artists.`);
 
   // Build existing artist slugs and names (case-insensitive)
+  // Defensive: skip null/undefined entries
   const existingArtistsBySlug = new Set();
   const existingArtistsByNameLower = new Map();
   for (const artist of artists) {
+    if (!artist) continue;
     if (artist.slug) existingArtistsBySlug.add(clean(artist.slug).toLowerCase());
     if (artist.name) {
       const nameLower = clean(artist.name).toLowerCase();
@@ -87,8 +98,10 @@ async function main() {
   const candidatesByName = new Map();
 
   for (const event of rawEvents) {
+    if (!event) continue;
     const attractions = event?._embedded?.attractions || [];
     for (const attraction of attractions) {
+      if (!attraction) continue;
       const artistName = clean(attraction.name);
       if (!artistName) continue;
 
@@ -112,12 +125,22 @@ async function main() {
     // Skip if below threshold
     if (eventCount < eventCountThreshold) continue;
 
-    const artistSlug = slugify(name);
     const nameLower = clean(name).toLowerCase();
 
-    // Check if already in catalog
-    const existingSlug = existingArtistsByNameLower.get(nameLower) || existingArtistsBySlug.has(artistSlug) ? artistSlug : null;
-    const isAlreadyPublished = existingSlug && artists.some((a) => a.slug === existingSlug && a.indexing_status === 'indexable_with_substantial_content');
+    // Check if artist matches existing catalog by name (case-insensitive)
+    // If found, use the stored slug, not a newly generated one
+    let existingSlug = null;
+    let isAlreadyPublished = false;
+
+    const storedSlug = existingArtistsByNameLower.get(nameLower);
+    if (storedSlug) {
+      // Artist found by name; use the stored slug
+      existingSlug = storedSlug;
+      isAlreadyPublished = artists.some((a) => a?.slug === existingSlug && a?.indexing_status === 'indexable_with_substantial_content');
+    }
+
+    // For candidates not yet in catalog, generate a slug
+    const artistSlug = existingSlug || slugify(name);
 
     // Calculate score
     let score = eventCount;
@@ -173,6 +196,8 @@ async function main() {
   };
 
   const outputFile = path.resolve(process.cwd(), outputPath);
+  const outputDir = path.dirname(outputFile);
+  await ensureDir(outputDir);
   await fs.writeFile(outputFile, JSON.stringify(output, null, 2), 'utf8');
   console.log(`Wrote ${candidates.length} candidates to ${outputPath}`);
   console.log(`Top passing candidate: ${topPassingCandidate ? topPassingCandidate.artist_name : 'none'}`);

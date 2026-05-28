@@ -63,6 +63,14 @@ function clean(value) {
   return String(value || '').trim();
 }
 
+async function ensureDir(dirPath) {
+  try {
+    await fs.mkdir(dirPath, { recursive: true });
+  } catch {
+    // ignore mkdir errors
+  }
+}
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -73,17 +81,13 @@ const dryRun = argv.includes('--dry-run');
 const requestDelayMs = Number.parseInt(process.env.TM_REQUEST_DELAY_MS || '300', 10);
 const requestTimeoutMs = Number.parseInt(process.env.TM_REQUEST_TIMEOUT_MS || '15000', 10);
 
-async function ensureAuditDir() {
-  try {
-    await fs.mkdir(AUDIT_DIR, { recursive: true });
-  } catch {
-    // ignore
-  }
-}
-
 async function fetchDiscoveryEvents(apiKey, base, page = 0) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
+
+  // Format startDateTime.gte without milliseconds (ISO format: YYYY-MM-DDTHH:mm:ssZ)
+  const now = new Date();
+  const startDateTime = new Date(now.getTime() - now.getMilliseconds()).toISOString();
 
   // Query parameters: music events, exclude cancelled
   const params = new URLSearchParams({
@@ -91,7 +95,7 @@ async function fetchDiscoveryEvents(apiKey, base, page = 0) {
     classificationId: '10', // Music
     size: '200',
     page,
-    'startDateTime.gte': new Date().toISOString(),
+    'startDateTime.gte': startDateTime,
     sort: 'date,asc'
   });
 
@@ -125,8 +129,6 @@ async function fetchDiscoveryEvents(apiKey, base, page = 0) {
 }
 
 async function main() {
-  await ensureAuditDir();
-
   let allEvents = [];
 
   if (dryRun) {
@@ -171,6 +173,8 @@ async function main() {
 
   // Output raw events
   const outputFile = path.resolve(process.cwd(), outputPath);
+  const outputDir = path.dirname(outputFile);
+  await ensureDir(outputDir);
   await fs.writeFile(outputFile, JSON.stringify(validEvents, null, 2), 'utf8');
   console.log(`Wrote ${validEvents.length} events to ${outputPath}`);
 

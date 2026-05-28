@@ -9,6 +9,10 @@ import path from 'node:path';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
 const AUDIT_DIR = new URL('../.audit/', import.meta.url);
+const DEFAULT_PAGES = 5;
+const MAX_PAGES = 25;
+const SUPPORTED_MODES = new Set(['default', 'broad']);
+
 // Generate fixture with 60+ events for a test artist
 function generateFixtureCandidates() {
   const candidates = [];
@@ -24,6 +28,14 @@ function generateFixtureCandidates() {
     'Smoothie King Center',
     'Golden State Warriors'
   ];
+  // Spread fixture URLs across a few regional TM domains so dry-run exercises
+  // the supported-domain detection logic (reporting only — not a CTA allowlist).
+  const fixtureHosts = [
+    'www.ticketmaster.com',
+    'www.ticketmaster.co.uk',
+    'www.ticketmaster.ie',
+    'www.ticketmaster.ca'
+  ];
 
   // Generate 65 events for a fictional tour
   for (let i = 0; i < 65; i++) {
@@ -31,6 +43,7 @@ function generateFixtureCandidates() {
     candidates.push({
       id: `fixture-event-${i}`,
       name: 'World Tour 2025',
+      url: `https://${fixtureHosts[i % fixtureHosts.length]}/event/fixture-${i}`,
       classifications: [{ segment: 'music', genre: { id: '10', name: 'Pop' } }],
       dates: {
         start: {
@@ -81,6 +94,25 @@ const dryRun = argv.includes('--dry-run');
 const requestDelayMs = Number.parseInt(process.env.TM_REQUEST_DELAY_MS || '300', 10);
 const requestTimeoutMs = Number.parseInt(process.env.TM_REQUEST_TIMEOUT_MS || '15000', 10);
 
+function parsePages(raw) {
+  const parsed = Number.parseInt(raw, 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) return DEFAULT_PAGES;
+  return Math.min(parsed, MAX_PAGES);
+}
+
+function parseMode(raw) {
+  const value = clean(raw).toLowerCase();
+  if (!value) return 'default';
+  if (!SUPPORTED_MODES.has(value)) {
+    console.warn(`Warning: unknown --mode "${raw}"; falling back to "default".`);
+    return 'default';
+  }
+  return value;
+}
+
+const pages = parsePages(arg('--pages') ?? process.env.AUDIT_PAGES ?? DEFAULT_PAGES);
+const mode = parseMode(arg('--mode') ?? process.env.AUDIT_MODE ?? 'default');
+
 function redactApiKey(text, apiKey) {
   let redacted = String(text || '').replace(/apikey=[^&\s"']*/gi, 'apikey=REDACTED');
   if (apiKey) {
@@ -94,8 +126,8 @@ function formatStartDateTime(date) {
   return date.toISOString().replace(/\.\d{3}Z$/, 'Z');
 }
 
-function buildPrimaryParams(apiKey, page, startDateTime) {
-  return new URLSearchParams({
+function buildPrimaryParams(apiKey, page, startDateTime, mode = 'default') {
+  const params = {
     apikey: apiKey,
     classificationName: 'music',
     size: '200',
@@ -104,9 +136,13 @@ function buildPrimaryParams(apiKey, page, startDateTime) {
     sort: 'date,asc',
     includeTBA: 'no',
     includeTBD: 'no',
-    includeTest: 'no',
-    source: 'ticketmaster'
-  });
+    includeTest: 'no'
+  };
+  // Default mode constrains to TM-sourced events; broad mode drops the source
+  // filter so syndicated music events on TM domains are also returned. The
+  // music classification constraint is kept in both modes.
+  if (mode !== 'broad') params.source = 'ticketmaster';
+  return new URLSearchParams(params);
 }
 
 function buildFallbackParams(apiKey, page, startDateTime) {
@@ -174,10 +210,10 @@ async function requestDiscovery(apiKey, base, params, { attempt }) {
   }
 }
 
-async function fetchDiscoveryEvents(apiKey, base, page = 0) {
+async function fetchDiscoveryEvents(apiKey, base, page = 0, mode = 'default') {
   const startDateTime = formatStartDateTime(new Date());
 
-  const primary = await requestDiscovery(apiKey, base, buildPrimaryParams(apiKey, page, startDateTime), { attempt: 'primary' });
+  const primary = await requestDiscovery(apiKey, base, buildPrimaryParams(apiKey, page, startDateTime, mode), { attempt: 'primary' });
   if (primary.success) return primary;
 
   // Only retry on HTTP 400 — other errors (auth, rate limit, network) should not be masked
@@ -200,15 +236,15 @@ async function main() {
       process.exit(2);
     }
 
-    console.log('Querying Ticketmaster Discovery API...');
+    console.log(`Querying Ticketmaster Discovery API (pages=${pages}, mode=${mode})...`);
     let page = 0;
     let hasMore = true;
     let firstPageFailed = false;
     let firstPageError = null;
 
-    while (hasMore && page < 5) { // Limit to 5 pages to avoid excessive API calls
+    while (hasMore && page < pages) {
       console.log(`Fetching page ${page}...`);
-      const result = await fetchDiscoveryEvents(apiKey, DEFAULT_BASE, page);
+      const result = await fetchDiscoveryEvents(apiKey, DEFAULT_BASE, page, mode);
 
       if (!result.success) {
         console.error(`ERROR: Failed to fetch page ${page} (${result.attempt || 'unknown'} attempt): ${result.error}`);

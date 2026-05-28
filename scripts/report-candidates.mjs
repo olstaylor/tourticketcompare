@@ -66,15 +66,30 @@ function statusLabel(c, threshold) {
   return 'Single-event';
 }
 
+function domainsCell(c) {
+  const domains = Array.isArray(c.domains) ? c.domains : [];
+  if (domains.length === 0) return '_(no URL)_';
+  if (domains.length <= 2) return domains.join(', ');
+  return `${domains.slice(0, 2).join(', ')} (+${domains.length - 2})`;
+}
+
 function renderTable(rows, threshold) {
   if (!rows.length) return '_None._\n\n';
-  let md = '| # | Artist | Attraction ID | Events | Score | Status | Flags |\n';
-  md += '|---|--------|---------------|--------|-------|--------|-------|\n';
+  let md = '| # | Artist | Attraction ID | Events | Score | Status | Domains | Flags |\n';
+  md += '|---|--------|---------------|--------|-------|--------|---------|-------|\n';
   rows.forEach((c, idx) => {
     const id = c.attraction_id || '_(name-fallback)_';
-    md += `| ${idx + 1} | ${c.artist_name} | ${id} | ${c.event_count} | ${c.score} | ${statusLabel(c, threshold)} | ${flagString(c)} |\n`;
+    md += `| ${idx + 1} | ${c.artist_name} | ${id} | ${c.event_count} | ${c.score} | ${statusLabel(c, threshold)} | ${domainsCell(c)} | ${flagString(c)} |\n`;
   });
   return `${md}\n`;
+}
+
+function sameOrdering(a, b) {
+  if (a.length !== b.length) return false;
+  for (let i = 0; i < a.length; i++) {
+    if (a[i].group_key !== b[i].group_key) return false;
+  }
+  return true;
 }
 
 async function main() {
@@ -93,6 +108,8 @@ async function main() {
     top_candidate,
     stats = {},
     grouping = {},
+    hostname_distribution = [],
+    supported_domain_allowlist = [],
     threshold = 50
   } = data;
 
@@ -104,6 +121,23 @@ async function main() {
 
   const bands = stats.bands || {};
   const diagnostics = stats.exclusion_diagnostics || {};
+
+  // Top 20 by raw event count (deterministic tiebreak on group_key)
+  const topByEvents = [...selectable]
+    .sort((a, b) => b.event_count - a.event_count || (a.group_key || '').localeCompare(b.group_key || ''))
+    .slice(0, 20);
+  // Top 20 by composite score (deterministic tiebreak on group_key)
+  const topByScore = [...selectable]
+    .sort((a, b) => b.score - a.score || (a.group_key || '').localeCompare(b.group_key || ''))
+    .slice(0, 20);
+
+  // "Potentially useful but below threshold": non-trivial event count, below
+  // recommendation threshold, sorted by score. Excludes already-published.
+  const promisingLowerBound = Math.max(5, Math.min(10, threshold - 1));
+  const promising = [...selectable]
+    .filter((c) => c.event_count >= promisingLowerBound && c.event_count < threshold)
+    .sort((a, b) => b.score - a.score || b.event_count - a.event_count)
+    .slice(0, 20);
 
   let markdown = '';
 
@@ -147,6 +181,40 @@ async function main() {
   markdown += `- **All event URLs on unsupported domains:** ${diagnostics.unsupported_domain_only ?? 0}\n\n`;
   markdown += '_Flagged candidates are still listed below; flagging is informational and does not auto-exclude them._\n\n';
 
+  // Hostname distribution (diagnostic)
+  markdown += '## Hostname distribution (diagnostic)\n\n';
+  if (hostname_distribution.length === 0) {
+    markdown += '_No hostnames recorded — raw events lacked URL fields._\n\n';
+  } else {
+    const supportedCount = hostname_distribution.filter((h) => h.supported).reduce((s, h) => s + h.count, 0);
+    const noUrlCount = hostname_distribution.filter((h) => h.hostname === '_no_url').reduce((s, h) => s + h.count, 0);
+    const unsupportedCount = hostname_distribution
+      .filter((h) => !h.supported && h.hostname !== '_no_url')
+      .reduce((s, h) => s + h.count, 0);
+    const total = supportedCount + unsupportedCount + noUrlCount;
+    markdown += `- **Total events with URL hostnames counted:** ${total}\n`;
+    markdown += `- **On diagnostic supported-domain list:** ${supportedCount}\n`;
+    markdown += `- **On other hostnames:** ${unsupportedCount}\n`;
+    markdown += `- **No parseable URL:** ${noUrlCount}\n\n`;
+    markdown += `**Top ${Math.min(20, hostname_distribution.length)} hostnames by event count:**\n\n`;
+    markdown += '| # | Hostname | Events | On supported list |\n';
+    markdown += '|---|----------|--------|-------------------|\n';
+    hostname_distribution.slice(0, 20).forEach((h, idx) => {
+      const supported = h.hostname === '_no_url' ? '—' : (h.supported ? 'yes' : 'no');
+      markdown += `| ${idx + 1} | ${h.hostname} | ${h.count} | ${supported} |\n`;
+    });
+    markdown += '\n';
+    markdown += '> The supported-domain list is diagnostic only. It exists so the report can ';
+    markdown += 'flag candidates whose event URLs do not land on a known Ticketmaster regional or ';
+    markdown += 'Live Nation hostname. It is **not** consulted by CTA / affiliate routing — public ';
+    markdown += 'links continue to be governed by `functions/api/out.js` and per-artist verification.\n\n';
+    if (supported_domain_allowlist.length > 0) {
+      markdown += `<details><summary>Supported-domain allowlist (${supported_domain_allowlist.length} hostnames)</summary>\n\n`;
+      markdown += supported_domain_allowlist.map((d) => `- ${d}`).join('\n');
+      markdown += '\n\n</details>\n\n';
+    }
+  }
+
   // Top candidate (if any pass)
   if (top_candidate?.passes_threshold) {
     markdown += '## Top recommended candidate\n\n';
@@ -158,10 +226,32 @@ async function main() {
     markdown += `_No candidates pass the conservative ${threshold}-event threshold. See lower bands below for watchlist candidates._\n\n`;
   }
 
-  // Top 20 overall
-  const topOverall = selectable.slice(0, 20);
-  markdown += '## Top 20 candidates overall (by event count)\n\n';
-  markdown += renderTable(topOverall, threshold);
+  // Top 20 overall — by event count
+  markdown += '## Top 20 candidates by event count\n\n';
+  markdown += renderTable(topByEvents, threshold);
+
+  // Top 20 by score — only render if the ordering differs from event-count order
+  if (!sameOrdering(topByEvents, topByScore)) {
+    markdown += '## Top 20 candidates by composite score\n\n';
+    markdown += '_Score currently mirrors event count for selectable candidates, but the ordering above diverges — likely due to scoring adjustments._\n\n';
+    markdown += renderTable(topByScore, threshold);
+  } else {
+    markdown += '## Top 20 candidates by composite score\n\n';
+    markdown += '_Identical to the event-count ranking above (score has no divergent adjustments for selectable candidates in this run)._\n\n';
+  }
+
+  // Potentially useful but below threshold
+  markdown += '## Potentially useful but below threshold\n\n';
+  if (promisingLowerBound >= threshold) {
+    markdown += `_Recommendation threshold (${threshold}) is at or below the minimum interesting band, so this section is empty._\n\n`;
+  } else {
+    markdown += `_Selectable candidates with ${promisingLowerBound}–${threshold - 1} events, ranked by composite score. Advisory only — these have not been verified and may be flagged as unstable-name, name-fallback, or unsupported-domain._\n\n`;
+    if (promising.length === 0) {
+      markdown += '_No candidates in this band._\n\n';
+    } else {
+      markdown += renderTable(promising, threshold);
+    }
+  }
 
   // 50+ band table
   markdown += `## 50+ events band (${band50.length})\n\n`;
@@ -181,7 +271,8 @@ async function main() {
 
   // Footer
   markdown += '---\n\n';
-  markdown += '_This report is machine-generated and advisory only. Human review and verification are required before any artist onboarding._\n';
+  markdown += '_This report is machine-generated and advisory only. Human review and verification are required before any artist onboarding. ';
+  markdown += 'Per-candidate `unsupported_domain_reason` and full `domains` list are preserved in the companion `candidates.json`._\n';
 
   const outputFile = path.resolve(process.cwd(), outputPath);
   const outputDir = path.dirname(outputFile);

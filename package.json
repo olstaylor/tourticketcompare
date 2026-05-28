@@ -37,6 +37,9 @@
     "audit:report": "node scripts/daily-audit-report.mjs",
     "audit:bump-dates": "node scripts/bump-verified-dates.mjs",
     "test:bump-guard": "node scripts/test-bump-verified-dates-guard.mjs",
+    "audit:candidates": "node scripts/audit-candidates.mjs",
+    "candidates:score": "node scripts/score-candidates.mjs",
+    "candidates:report": "node scripts/report-candidates.mjs",
     "artists:tm-shell-pr": "node scripts/tm-discovery-shell-pr.mjs",
     "events:check-fallback-freshness": "node scripts/check-fallback-freshness.mjs",
     "audit:production-routes": "node scripts/verify-production-route-html.mjs"

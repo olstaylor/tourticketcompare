@@ -9,3 +9,6 @@ reports/seatgeek-url-candidates.json
 
 # Generated artist-import proposal output (dry-run candidates)
 candidates/
+
+# Audit artifacts (generated during CI runs, uploaded separately)
+.audit/

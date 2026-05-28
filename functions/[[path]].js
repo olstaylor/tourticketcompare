@@ -74,6 +74,17 @@ async function loadEvents(env) {
   }
 }
 
+async function loadArtistsMeta(env) {
+  try {
+    const response = await env.ASSETS.fetch(new Request("https://assets.local/data/artists.json"));
+    if (!response.ok) return [];
+    const data = await response.json();
+    return Array.isArray(data) ? data : [];
+  } catch (error) {
+    return [];
+  }
+}
+
 async function loadGuideContent(env) {
   try {
     const response = await env.ASSETS.fetch(new Request("https://assets.local/data/guides-content.json"));
@@ -115,20 +126,22 @@ async function routeForPath(pathname, env) {
     };
   }
 
-  const catalog = await loadCatalog(env);
+  const [catalog, artistsMeta] = await Promise.all([loadCatalog(env), loadArtistsMeta(env)]);
   const artistMatch = path.match(/^\/artists\/([a-z0-9-]+)$/);
   if (artistMatch) {
     const artist = findArtist(catalog, artistMatch[1]);
     if (!artist) return null;
+    const artistMetaRecord = artistsMeta.find(m => slugify(m.slug) === artistMatch[1]) || {};
+    const enrichedArtist = { ...artist, indexing_status: artistMetaRecord.indexing_status || "" };
     return {
       type: "artist",
       path,
-      indexable: true,
+      indexable: enrichedArtist.indexing_status === "indexable_with_substantial_content",
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
       description:
         artist.meta_description ||
         `Check ${artist.name} watchlist notes and verified ticket links where available, with practical buying guidance and transparent sourcing.`,
-      artist,
+      artist: enrichedArtist,
       breadcrumb: [
         { name: "Artists", path: "/artists" },
         { name: artist.name, path }
@@ -680,14 +693,16 @@ function isSeatGeekConfigured(env = {}) {
   return Boolean(impactSeatGeekBaseTrackingUrl || (impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId));
 }
 
-function renderShowCardServerHtml(show, seatGeekAvailable = false) {
+function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true) {
   const date = formatShowDateServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
   const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
   let ctaHtml = `<p class="disclosure-note">No verified ticket link is available for this date.</p>`;
 
-  if (validUrl && show.id) {
+  if (!isIndexableArtist) {
+    ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.</p>`;
+  } else if (validUrl && show.id) {
     const ticketmasterCta = `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}`;
     const disclosure = `<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`;
 
@@ -706,9 +721,9 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false) {
   return `<article class="info-card show-card" data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || titleFallback)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${eventVerifiedHtml}${ctaHtml}</article>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false) {
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true) {
   const gridContent = shows.length
-    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable)).join("")
+    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist)).join("")
     : `<p class="muted empty-state">No verified show dates are currently listed for this artist. Use the provider link below to check current tour announcements and availability directly with the ticket platform. ${anchor("Read our buying guides", "/guides", "text-link")} for what to check before you buy.</p>`;
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
@@ -732,7 +747,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const relatedGuidesHtml = relatedGuideLinks
       ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
+    const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
     const shows = futureShowsForArtist(events, artist.slug, 6);
+    const reviewNoticeHtml = isIndexableArtist
+      ? ""
+      : `<section class="nested-panel review-notice"><p class="disclosure-note">This artist page is currently under review. Event details are shown for reference while ticket links are checked.</p></section>`;
     const demandHtml =
       typeof artist.why_demand_is_high === "string" && artist.why_demand_is_high.trim()
         ? `<section class="nested-panel"><h2>Why demand may be high</h2><p>${escapeHtml(
@@ -748,7 +767,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )} ticket links and buying guidance</h1><p class="lead">Find checked ticket links for ${escapeHtml(
       artist.name
-    )} when available, plus practical guidance before you leave for a provider site.</p>${renderShowBoardServerHtml(shows, seatGeekAvailable)}${renderProviderFallback(
+    )} when available, plus practical guidance before you leave for a provider site.</p>${reviewNoticeHtml}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist)}${renderProviderFallback(
       catalog,
       artist,
       "artist_hero"

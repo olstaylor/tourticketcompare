@@ -65,10 +65,17 @@ jobs:
             echo "No report generated."
           fi
 
+      - name: List .audit directory
+        if: always()
+        run: |
+          echo "=== .audit directory listing ==="
+          ls -la .audit || echo ".audit directory not found"
+
       - name: Upload audit artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: candidates-audit-${{ github.run_id }}
-          path: .audit/
+          path: .audit/**
+          if-no-files-found: warn
           retention-days: 30

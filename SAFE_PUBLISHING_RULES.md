@@ -26,7 +26,12 @@ If any condition is unmet, show the watchlist / empty state. No placeholder or d
 
 Artist pages may exist in `indexing_status: "review_required"` with no CTAs. This is the safe default for new artists.
 
-Pages become indexable and conversion-led only after completing the phase gates in [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md). Do not set `indexing_status: "indexable_with_substantial_content"` without human browser verification of the live ticket URL.
+| State | `indexing_status` | CTA visible | Indexed by search engines |
+|-------|-------------------|-------------|--------------------------|
+| Shell | `review_required` | No — watchlist shown | No |
+| Active | `indexable_with_substantial_content` | Yes (if verified provider exists) | Yes |
+
+Transition Shell → Active requires completing the Phase 3 gates in [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md). The `indexing_status` promotion and the `out.js` `VERIFIED_TICKET_LINKS` entry must land in the same PR. Never promote `indexing_status` without a confirmed, browser-verified ticket URL.
 
 ## Price Display
 

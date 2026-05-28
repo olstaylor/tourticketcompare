@@ -119,12 +119,6 @@ Any provider URL containing these patterns must not appear as a public CTA.
 
 ## Adding a New Provider
 
-To add a new provider safely:
+See [docs/ADDING_PROVIDERS.md](ADDING_PROVIDERS.md) for the full gated workflow (Proposal → Configure → Activate) including human verification gates, exact file changes per phase, and validation commands.
 
-1. Confirm the provider has a verified destination URL (not a placeholder).
-2. Add the provider's allowlisted destination hosts to `PROVIDERS` in `functions/api/out.js`.
-3. Add the verified artist or event link to `VERIFIED_TICKET_LINKS` in `out.js` (for artist-level links) or to the event record in `events.json` (for event-level links).
-4. Confirm affiliate handling (Impact or direct) is configured server-side.
-5. Rebuild and deploy the standalone Worker if this is a production change.
-6. Run smoke checks and verify the new provider buttons appear only for the intended artists/events.
-7. Do not enable buttons for artists or events where the destination is not verified.
+**Currently parked:** SeatGeek and Vivid Seats. Do not onboard either without explicit scope — see `BACKLOG.md § Explicitly parked`.

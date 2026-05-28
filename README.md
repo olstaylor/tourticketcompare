@@ -40,6 +40,7 @@ The current source of truth is:
 | [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) | Ticketmaster, SeatGeek, Vivid Seats, and Impact affiliate policy |
 | [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) | Artist onboarding field templates and checklist |
 | [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) | Gated artist onboarding workflow (Proposal → Shell → Promote → Events) |
+| [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) | Gated provider onboarding workflow (Proposal → Configure → Activate) |
 
 Historical audits, one-off reports, and superseded docs have been moved to `docs/archive/`. `HANDOVER.md` and `AGENTS.md` remain at root as redirect stubs. None of these should be treated as current guidance unless `PROJECT_STATUS.md` or `BACKLOG.md` explicitly cites them. Active reference docs (`docs/OLIVIA_RODRIGO_LINK_REVIEW.md`, `docs/TOUR_NAME_AUDIT.md`, `docs/ISSUE_DRAFTS.md`) remain in `docs/` and are cited from `BACKLOG.md`.
 

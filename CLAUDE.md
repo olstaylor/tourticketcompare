@@ -160,13 +160,31 @@ Do not modify without explicit task scope:
 
 ---
 
-## Working Style
+## Session Protocol
 
-- **Read only files relevant to the task.** Do not scan or rewrite the whole repo.
-- **Make small, isolated changes.** One task = one or a few related commits.
-- **Validate before committing.** Run the relevant checks from [CONTRIBUTING.md](CONTRIBUTING.md).
-- **Summarise after changes:** which files changed, what was changed, which checks passed, what was not touched.
-- **Before starting any session:** read this file, then `PROJECT_STATUS.md`, then `BACKLOG.md`. Those three files are the current source of truth for product state and active priorities — do not rely on `HANDOVER.md` or anything in `docs/archive/` as a source of priorities.
+Run at the start of every session, in this order:
+
+1. Read `CLAUDE.md` (this file) → `PROJECT_STATUS.md` → `BACKLOG.md`.
+2. Identify the task. If unspecified, pick the top unblocked item from `BACKLOG.md`.
+3. Read only the files relevant to the task scope. Do not scan the whole repo.
+4. Make the change. Touch only files within the explicit task scope.
+5. Run the validation checks for the task type (see [CONTRIBUTING.md](CONTRIBUTING.md) for the full command list).
+6. All checks must pass before committing.
+7. Commit and push to the feature branch. Do not push to `main` or open a PR unless explicitly asked.
+8. Summarise: files changed, checks passed, what was not touched.
+
+---
+
+## Task Routing
+
+| Task type | Read first | Protected files involved |
+|-----------|-----------|--------------------------|
+| Route or page metadata | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | `functions/[[path]].js`, `functions/_route-metadata.js` |
+| Data file change | [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md), [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) | `public/data/*.json` — run `npm run events:sync` after any edit |
+| Add or promote an artist | [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) | `functions/api/out.js`, `public/data/artists.json`, `public/data/catalog.json` |
+| Add a ticket provider | [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) | `functions/api/out.js` |
+| Affiliate or redirect change | [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) | `functions/api/out.js` |
+| Deployment or infrastructure | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | `functions/_middleware.js`, `public/_routes.json` |
 
 ---
 
@@ -174,20 +192,6 @@ Do not modify without explicit task scope:
 
 Read in order: **`CLAUDE.md`** (this file) → **`PROJECT_STATUS.md`** → **`BACKLOG.md`**.
 
-Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md)
+Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md)
 
 Not authoritative: `HANDOVER.md`, `AGENTS.md` — superseded; anything in `docs/archive/` — parked/historical.
-
----
-
-## Safe Next Steps
-
-When starting a new task:
-
-1. Read this file, `PROJECT_STATUS.md`, and `BACKLOG.md` in that order.
-2. Pick the highest active priority from `BACKLOG.md` that matches the user's request.
-3. If modifying routes, page metadata, or HTML rendering, review `docs/ARCHITECTURE.md` § "Routing Model".
-4. If adding/modifying data files, review `docs/CONTENT_RULES.md` and `docs/PROVIDER_DATA_POLICY.md`.
-5. If touching `functions/api/out.js`, affiliate routing, or provider links, confirm the change is explicitly scoped — these are protected.
-6. Run the relevant validation checks before committing.
-7. Push to the feature branch; do not push to `main` unless explicitly asked.

@@ -8,6 +8,21 @@ See also `docs/ADDING_ARTISTS.md` for field-level templates and the example plac
 
 ---
 
+## Phase cheat sheet
+
+| Phase | `indexing_status` | CTAs | Files changed | Human gate condition |
+|-------|-------------------|------|---------------|----------------------|
+| **Shell** | `review_required` | None — watchlist shown | `artists.json`, `catalog.json`, `signup.js`, `index.html` | Name/slug unique; TM URL live in browser; affiliate confirmed |
+| **Promote** | `indexable_with_substantial_content` | Ticketmaster | `artists.json`, `catalog.json`, `out.js`, `shows.js`, `index.html` | TM URL re-opened in browser today; `out.js` entry confirmed |
+| **Events** | (unchanged from Promote) | (unchanged) | `events.json`, `events/<slug>.json`, `index.html` | Event IDs from TM Discovery API; `tour_name` from event page |
+
+**Key invariants:**
+- `out.js` is never touched in the Shell phase.
+- `indexing_status` promotion and the `out.js` entry must land in the same PR.
+- One artist per PR — no concurrent additions.
+
+---
+
 ## Quick reference
 
 | # | Question | Answer |

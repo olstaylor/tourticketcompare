@@ -23,7 +23,8 @@ const TICKETMASTER_ARTIST_AFFILIATE_LINKS = {
   "morgan-wallen": "https://ticketmaster.evyy.net/morganwallenus",
   "jay-z": "https://ticketmaster.evyy.net/5kM6W3",
   beyonce: "https://ticketmaster.evyy.net/beyonce",
-  "olivia-rodrigo": "https://www.ticketmaster.com/artist/2836194"
+  "olivia-rodrigo": "https://www.ticketmaster.com/artist/2836194",
+  "bruno-mars": "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801"
 };
 
 function isValidDateISO(value) {

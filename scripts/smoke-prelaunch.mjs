@@ -1410,19 +1410,17 @@ assert(!serverMorganWithoutSeatGeek.text.includes("Check SeatGeek"), "SeatGeek C
 
 console.log("SeatGeek visibility gating verified: event-level URL plus affiliate config required");
 
-// review_required artist pages must be noindex and must not show event-level buy CTAs
+// Verified artist (Bruno Mars) must be indexable with artist-level CTA
 const brunoMarsPage = await routeResponse("/artists/bruno-mars");
-assert(brunoMarsPage.response.status === 200, "/artists/bruno-mars (review_required) must return 200");
-assert(/noindex,follow/.test(brunoMarsPage.text), "/artists/bruno-mars (review_required) must render noindex,follow robots meta");
-assert(!/\/api\/out\?showId=/.test(brunoMarsPage.text), "/artists/bruno-mars (review_required) must not render event-level /api/out CTA links");
-assert(!brunoMarsPage.text.includes("View event ticket link"), "/artists/bruno-mars (review_required) must not show event CTA buttons");
-assert(brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mars (review_required) must show the review-pending notice");
-assert(brunoMarsPage.text.includes("Event details are shown for reference"), "/artists/bruno-mars (review_required) must show the artist-level review notice");
+assert(brunoMarsPage.response.status === 200, "/artists/bruno-mars must return 200");
+assert(/index,follow/.test(brunoMarsPage.text), "/artists/bruno-mars (indexable) must render index,follow robots meta");
+assert(/\/api\/out\?artistSlug=bruno-mars/.test(brunoMarsPage.text), "/artists/bruno-mars must render artist-level /api/out CTA link");
+assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mars (indexable) must not show review-pending notice");
 
 // Fully-verified artist (Morgan Wallen) must remain indexable and keep its event CTAs
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
 assert(serverMorganWithoutSeatGeek.text.includes("View event ticket link"), "/artists/morgan-wallen (indexable) must still show event CTA buttons");
 
-console.log("review_required artist gating verified: noindex and no event CTAs for review_required artists");
+console.log("indexable artist verification passed for bruno-mars");
 
 console.log("Cloudflare Pages MVP smoke checks passed");

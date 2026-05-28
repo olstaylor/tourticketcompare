@@ -91,6 +91,13 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "tm-artist-olivia-rodrigo",
     redirectUrl: "https://www.ticketmaster.com/artist/2836194",
     verified: true
+  },
+  "bruno-mars:ticketmaster": {
+    artistSlug: "bruno-mars",
+    provider: "ticketmaster",
+    linkId: "tm-artist-bruno-mars",
+    redirectUrl: "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801",
+    verified: true
   }
 };
 

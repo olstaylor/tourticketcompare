@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-27 (post PR #190)
+Last updated: 2026-05-28 (post Bruno Mars promotion)
 
 This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. Older audits (CLEANUP_AUDIT, AUDIT_PARKING_LOT, SEO_ARCHITECTURE_AUDIT, LIVE_PRODUCTION_VERIFICATION, etc.) are historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
 
@@ -38,7 +38,7 @@ Verified by direct inspection of `public/data/` on 2026-05-27:
 | morgan-wallen | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
 | jay-z | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
 | **olivia-rodrigo** | indexable_with_substantial_content | `["ticketmaster"]` | yes | Artist-level Ticketmaster verification restored in PR #190 (issue #171 closed). 8 short-form event URLs remain `needs_recheck` — human browser verification required before CTAs are restored for those events. All 86 events have blank `tour_name` (issue #172). |
-| **bruno-mars** | **`review_required`** | `[]` | no | 56 events excluded from the `tour_name` warning by design while `review_required`. Four Mexico City events intentionally excluded because `ticketmaster.com.mx` is not in the Ticketmaster host allowlist. |
+| **bruno-mars** | `indexable_with_substantial_content` | `["ticketmaster"]` | yes | Promoted to indexable_with_substantial_content (verified Ticketmaster URL via browser; entry added to `VERIFIED_TICKET_LINKS`). 56 events available. Four Mexico City events intentionally excluded because `ticketmaster.com.mx` is not in the Ticketmaster host allowlist. |
 
 Olivia Rodrigo's artist-level Ticketmaster verification was restored in PR #190 (issue #171 closed). Eight short-form event URLs remain `needs_recheck` and require human browser verification before CTAs are restored for those events. All 86 events have blank `tour_name` (issue #172). See `BACKLOG.md` for the human-verification steps.
 

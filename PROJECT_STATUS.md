@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-05-28 (post Bruno Mars promotion)
+Last updated: 2026-06-01 (SeatGeek configured/live reconciliation)
 
 This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. Older audits (CLEANUP_AUDIT, AUDIT_PARKING_LOT, SEO_ARCHITECTURE_AUDIT, LIVE_PRODUCTION_VERIFICATION, etc.) are historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
 
@@ -12,7 +12,7 @@ This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work a
 - Page metadata source of truth: `functions/_route-metadata.js`.
 - Named route shims (`functions/artists.js`, etc.) are fallback-only while middleware is active.
 - D1 bindings: `DEMAND_DB` only. (No `RATE_LIMIT_DB`, no `CLICKS_DB`.)
-- Impact bindings: `IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_TICKETMASTER_PROGRAM_ID` (server-side only). `MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false`.
+- Impact bindings: `IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_TICKETMASTER_PROGRAM_ID` (server-side only). SeatGeek Impact bindings are also present in production (`IMPACT_SEATGEEK_ACCOUNT_SID`, `IMPACT_SEATGEEK_AUTH_TOKEN`, `IMPACT_SEATGEEK_PROGRAM_ID`), plus SeatGeek API credentials `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` (held for future discovery tooling; not used by `/api/out`). All confirmed via `/api/health`. `MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false`.
 - Affiliate model (PR #180 clarification): the site-wide Impact Publisher Tag in `public/impact.js` transforms plain `ticketmaster.com` anchors at load time; a pre-minted `ticketmaster.evyy.net/<code>` shortlink is **not** required. Both URL shapes pass `validateConfiguredRedirect` in `functions/api/out.js`.
 
 ## Current data
@@ -94,14 +94,14 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 - Artist index plus the 9 artist pages above.
 - 15 guide pages with server-rendered content.
 - Verified Ticketmaster CTAs (artist- and event-level) where configured.
-- Stored event-level SeatGeek URLs (gated off for public CTAs until SeatGeek configuration is complete).
+- Verified event-level SeatGeek CTAs — live in production where a verified `seatgeek_url` exists; routed through `/api/out` with Impact tracking (SeatGeek Impact bindings present).
 - First-party analytics and signup writes through `DEMAND_DB`.
 
 ## What is not supported
 
-- Live multi-provider price aggregation; "cheapest" / "guaranteed availability" claims.
+- Live multi-provider price aggregation; "cheapest" / "guaranteed availability" claims (including any SeatGeek price display).
 - Tour, city, venue, or event landing pages.
-- Public SeatGeek or Vivid Seats CTAs.
+- Public Vivid Seats CTAs; artist-level SeatGeek links (SeatGeek is event-level only).
 - `Event` / `MusicEvent` schema on any page without verified event-level data.
 
 ## How to update this file

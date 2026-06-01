@@ -140,7 +140,7 @@ Do not action these without explicit scope (also tracked as "parked" in `BACKLOG
 - `vercel.json`, `api/`, `build-standalone-worker.mjs`, `archive/vercel-experimental/` retirement (waits on issue #176 audit)
 - Provider abstraction implementation (`functions/api/_providers/index.js`, `functions/_provider-registry.js`)
 - Tour-level pages, city pages, event landing pages
-- Public SeatGeek or Vivid Seats CTAs
+- Public Vivid Seats CTAs; artist-level SeatGeek links or SeatGeek price display (SeatGeek is configured and live in production, but **event-level only** — destinations come from a verified `seatgeek_url` in `events.json`, never from artist-level allowlist entries)
 - Live price aggregation or "cheapest" / "guaranteed availability" claims
 
 ---

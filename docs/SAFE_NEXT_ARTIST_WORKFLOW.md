@@ -352,6 +352,7 @@ git diff --check
 
 ## Related documents
 
+- `docs/ARTIST_SCALING_MAP.md` — index of existing tooling mapped to each phase (which command to run when)
 - `docs/ADDING_ARTISTS.md` — field-level templates, required fields, and example placeholder format
 - `docs/CONTENT_RULES.md` — full content and data rules
 - `docs/PROVIDER_DATA_POLICY.md` — Ticketmaster affiliate URL shapes; Impact Publisher Tag vs shortlink

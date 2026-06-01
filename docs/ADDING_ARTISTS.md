@@ -91,6 +91,16 @@ A new key must be added to the `VERIFIED_TICKET_LINKS` constant using the exact 
 - The destination hostname is in the provider's `allowed_destination_hosts` list in `catalog.json`
 - The URL does not contain `localhost`, `127.0.0.1`, `placeholder`, `example.com`, `replace-me`, or any development string
 
+### `functions/api/shows.js` — `TICKETMASTER_ARTIST_AFFILIATE_LINKS` entry
+
+When an artist is promoted to `indexable_with_substantial_content` with Ticketmaster verified, the slug must be added to the `TICKETMASTER_ARTIST_AFFILIATE_LINKS` map in `functions/api/shows.js`. Without this entry, `/api/shows` will not return an affiliate URL for the artist and the artist-level Ticketmaster CTA will not render. Use the existing object-literal pattern in that file (quoted slug → Ticketmaster artist URL).
+
+This file is only touched at the Promote phase, not at the Shell phase. See `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` § "Phase 3 — Promote" for the full file-change matrix.
+
+### `functions/api/signup.js` — `ARTIST_SLUGS` entry
+
+Every artist slug — including `review_required` artists — must be added to the `ARTIST_SLUGS` set in `functions/api/signup.js`. Without this entry, `/api/signup` rejects watchlist signups for the artist with `invalid_artist`. This file is touched at the Shell phase so fans can register interest before CTAs are live.
+
 ---
 
 ## 4. Prohibited Fields Unless Verified
@@ -179,24 +189,30 @@ Work through this checklist in order. Check off each item only when you have per
 
 - [ ] `artists.json` entry added with all required fields
 - [ ] `catalog.json` `ticket_links` entry added with all required fields
-- [ ] `VERIFIED_TICKET_LINKS` entry added to `functions/api/out.js` (destination URL is live, hostname allowlisted)
+- [ ] `VERIFIED_TICKET_LINKS` entry added to `functions/api/out.js` (Promote phase only — destination URL live, hostname allowlisted)
+- [ ] `TICKETMASTER_ARTIST_AFFILIATE_LINKS` entry added to `functions/api/shows.js` (Promote phase only — same artist URL as the `out.js` entry)
+- [ ] `ARTIST_SLUGS` entry added to `functions/api/signup.js` (Shell phase — required for watchlist signups, including `review_required` artists)
 - [ ] No price, availability, or inventory data added anywhere
 - [ ] No placeholder strings in any field (`example.com`, `tbd`, `replace-me`, `your-link-here`, `localhost`)
 - [ ] `last_checked_at` / `last_verified_at` set to today's date (not copied, not future-dated)
 
 ### HTML routing
 
-- [ ] `functions/[[path]].js` — artist slug added to the artist routing block if required (check existing pattern)
-- [ ] `functions/_route-metadata.js` — page title, H1, meta description, and canonical added for the new artist slug
+- [ ] `functions/[[path]].js` — no edit needed for a standard artist slug (artist routes are handled dynamically from `catalog.json`); only add to the routing block if the slug deviates from the standard pattern
+- [ ] `functions/_route-metadata.js` — **optional**: artist routes derive metadata dynamically from `catalog.json`; add an explicit entry only if you need to override the dynamic title/description/H1/canonical/breadcrumb
 - [ ] Page title format matches existing pattern: `"<Artist Name> Tickets | TourTicketCompare"`
 - [ ] No invented tour name, date, or venue used in any metadata field
 
 ### Validation
 
+- [ ] `npm run artist:check -- <slug>` — exits 0 (PASS at Promote phase, WARN acceptable at Shell phase)
 - [ ] `node --check 'functions/[[path]].js'` — passes
 - [ ] `node --check functions/api/out.js` — passes
+- [ ] `node --check functions/api/shows.js` — passes
+- [ ] `node --check functions/api/signup.js` — passes
 - [ ] `node --check public/app.js` — passes
 - [ ] `python3 scripts/validate-events.py --for-production` — passes (or no events added)
+- [ ] `node scripts/validate-artist-provider-claims.mjs` — passes
 - [ ] `node scripts/smoke-prelaunch.mjs` — passes
 - [ ] `git diff --check` — no whitespace errors or conflict markers
 
@@ -221,20 +237,34 @@ npm run artist:check -- <slug>
 node --check public/app.js
 node --check 'functions/[[path]].js'
 node --check functions/api/out.js
+node --check functions/api/shows.js
+node --check functions/api/signup.js
+
+# Artist/provider drift guard (cross-checks artists.json vs VERIFIED_TICKET_LINKS)
+node scripts/validate-artist-provider-claims.mjs
 
 # Event data (if events.json was touched)
 python3 scripts/validate-events.py --for-production
+node scripts/validate-partitions.mjs
 
 # Smoke test suite
 node scripts/smoke-prelaunch.mjs
+
+# Full MVP suite (events self-test + provider drift + smoke)
+npm run test:mvp
+
+# Inline fallback sync (required whenever any public/data/*.json changes)
+npm run events:sync
 
 # Whitespace and conflict markers
 git diff --check
 ```
 
-`npm run artist:check -- <slug>` prints a PASS / WARN / FAIL report for one artist slug, checking artists.json, catalog.json, events.json, the per-artist partition file, and `VERIFIED_TICKET_LINKS` in `functions/api/out.js`. A WARN result (exit 0) means the artist is intentionally gated or has known open issues. A FAIL result (exit 1) means the data is internally inconsistent and must be fixed before publishing.
+`npm run artist:check -- <slug>` prints a PASS / WARN / FAIL report for one artist slug, checking `artists.json`, `catalog.json`, `events.json` and the per-artist partition file, `VERIFIED_TICKET_LINKS` in `functions/api/out.js`, `TICKETMASTER_ARTIST_AFFILIATE_LINKS` in `functions/api/shows.js`, and `ARTIST_SLUGS` in `functions/api/signup.js`. A WARN result (exit 0) means the artist is intentionally gated or has known open issues. A FAIL result (exit 1) means the data is internally inconsistent and must be fixed before publishing.
 
 If any command fails, fix the issue before committing. Do not use `--no-verify` to skip hooks.
+
+For the full phase-by-phase workflow (Shell → Promote → Events) and the file matrix at each gate, see `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`.
 
 ---
 
@@ -277,17 +307,36 @@ The artist **Nova Skye** is entirely fictional and used here only to illustrate 
 
 ```js
 // Fictional example — replace with a real, verified Ticketmaster artist URL
-"nova-skye": {
+"nova-skye:ticketmaster": {
   provider: "ticketmaster",
   destination: "https://www.ticketmaster.com/nova-skye-tickets/artist/XXXXXXX",
   market: "global",
 }
 ```
 
-### `_route-metadata.js` entry
+### `TICKETMASTER_ARTIST_AFFILIATE_LINKS` entry in `functions/api/shows.js`
 
 ```js
-// Fictional example — follow the exact pattern used by existing artists
+// Fictional example — must be the same URL as the out.js entry above
+"nova-skye": "https://www.ticketmaster.com/nova-skye-tickets/artist/XXXXXXX",
+```
+
+### `ARTIST_SLUGS` entry in `functions/api/signup.js`
+
+```js
+// Add to the existing Set — used to validate watchlist signups
+const ARTIST_SLUGS = new Set([
+  // ...existing slugs
+  "nova-skye",
+]);
+```
+
+### `_route-metadata.js` entry (optional for artist routes)
+
+Artist routes derive title, description, H1, canonical, and breadcrumbs dynamically from `catalog.json` via `[[path]].js`. An explicit `_route-metadata.js` entry is **not required** for an artist route; only add one if you need to override the dynamic defaults.
+
+```js
+// Optional override — only add if dynamic defaults are insufficient
 "/artists/nova-skye": {
   title: "Nova Skye Tickets | TourTicketCompare",
   description: "Find verified Nova Skye ticket links. Independent research — not affiliated with any artist or provider.",

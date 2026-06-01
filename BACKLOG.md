@@ -27,12 +27,15 @@ Write a "How a data change reaches production" section covering:
 
 Phase B (build-time cache-bust or stronger pre-commit hook) is a separate PR after Phase A is reviewed.
 
-### 3. #175 — Artist onboarding runbook and validator
+### 3. #175 — Artist onboarding runbook and validator (closeout pending PR review)
 
-Two deliverables:
+Deliverables status:
 
-- Confirm `docs/ADDING_ARTISTS.md` is the canonical onboarding doc (it already uses the current `verified_providers` / `indexing_status` field schema). A later docs PR collapses the legacy root-level `ARTIST_PAGE_*.md` docs into stubs that point to it.
-- Add `scripts/validate-artist.mjs` and `npm run artist:check -- <slug>` that asserts the slug is wired in `artists.json`, `catalog.json`, `events.json` / `events/<slug>.json`, `VERIFIED_TICKET_LINKS`, and the smoke fixture. The validator only checks what humans have already verified — it does not auto-generate pages, tour names, or links.
+- ✓ `scripts/validate-artist.mjs` / `npm run artist:check -- <slug>` shipped (PR #188). Covers `artists.json`, `catalog.json`, `events.json` / `events/<slug>.json`, `VERIFIED_TICKET_LINKS` in `out.js`, `TICKETMASTER_ARTIST_AFFILIATE_LINKS` in `shows.js`, and `ARTIST_SLUGS` in `signup.js`.
+- ✓ `docs/ADDING_ARTISTS.md` is the canonical onboarding doc; extended with `shows.js` and `signup.js` (required fields, manual review checklist, example, validation commands).
+- ✓ Legacy root-level `ARTIST_PAGE_*.md` stub work: not required — those files do not exist in the repo (the earlier audit assumption was stale). Only `docs/ADDING_ARTISTS.md` and `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` are live onboarding docs and they cross-reference each other.
+
+Close this issue after the PR that ships these doc updates lands.
 
 ### 4. #172 sub-deliverable B — Populate verified `tour_name` for Olivia Rodrigo
 

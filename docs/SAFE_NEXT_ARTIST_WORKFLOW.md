@@ -346,13 +346,7 @@ git diff --check
 
 6. **Batch size: 1 artist per PR.** Never add two artists concurrently. Never add events for artist B in the same PR as the shell for artist A.
 
-7. **`shows.js` and `signup.js` are required.** `validate-artist.mjs` (`npm run artist:check`) checks both `TICKETMASTER_ARTIST_AFFILIATE_LINKS` in `functions/api/shows.js` and `ARTIST_SLUGS` in `functions/api/signup.js`. Previous drift happened in both files. The current `docs/ADDING_ARTISTS.md` does not list these files in its checklist — this is a known gap tracked under issue #175. Until that doc is updated, treat this document as the authoritative file list.
-
----
-
-## Known gap in `docs/ADDING_ARTISTS.md`
-
-`docs/ADDING_ARTISTS.md` (last verified 2026-05-27) lists `artists.json`, `catalog.json`, `out.js`, and `_route-metadata.js` in its manual review checklist but does not include `functions/api/shows.js` (`TICKETMASTER_ARTIST_AFFILIATE_LINKS`) or `functions/api/signup.js` (`ARTIST_SLUGS`). Both are checked by `npm run artist:check -- <slug>` (as of PR #188). The onboarding doc should be updated as part of issue #175 to add these two files to its checklist.
+7. **`shows.js` and `signup.js` are required.** `validate-artist.mjs` (`npm run artist:check`) checks both `TICKETMASTER_ARTIST_AFFILIATE_LINKS` in `functions/api/shows.js` and `ARTIST_SLUGS` in `functions/api/signup.js`. Both files now appear in the `docs/ADDING_ARTISTS.md` checklist; this document and that one are kept in sync.
 
 ---
 

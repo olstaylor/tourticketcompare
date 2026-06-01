@@ -1,0 +1,136 @@
+name: SeatGeek price snapshots
+
+# SeatGeek price snapshot ingestion for D1 provider_pricing_cache.
+# Required repository secrets:
+# - SEATGEEK_CLIENT_ID
+# - CLOUDFLARE_API_TOKEN (apply mode only; remote D1 writes via wrangler)
+# - CLOUDFLARE_ACCOUNT_ID (apply mode only; remote D1 writes via wrangler)
+# Optional repository secret:
+# - SEATGEEK_CLIENT_SECRET
+# D1 target:
+# - Default database name is tourticketcompare-demand, matching wrangler.toml and
+#   scripts/snapshot-seatgeek-prices.mjs. Override only for a known safe D1 target.
+# Safety notes:
+# - The workflow never enables SEATGEEK_PRICE_DISPLAY_ENABLED.
+# - It does not deploy, call /api/out, mutate event data, or run destructive D1 SQL.
+
+on:
+  schedule:
+    - cron: '17 */12 * * *'
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: 'Write snapshots to remote D1. Leave false for self-test + dry-run only.'
+        type: boolean
+        default: false
+      limit:
+        description: 'Optional max eligible SeatGeek events to process.'
+        type: string
+        default: ''
+      event_id:
+        description: 'Optional single local event ID to process.'
+        type: string
+        default: ''
+      database:
+        description: 'D1 database name for apply mode.'
+        type: string
+        default: 'tourticketcompare-demand'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: seatgeek-price-snapshots
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SEATGEEK_PRICE_DISPLAY_ENABLED: 'false'
+      D1_DATABASE_NAME: ${{ github.event.inputs.database || 'tourticketcompare-demand' }}
+      SNAPSHOT_LIMIT: ${{ github.event.inputs.limit || '' }}
+      SNAPSHOT_EVENT_ID: ${{ github.event.inputs.event_id || '' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run SeatGeek price snapshot self-test
+        run: npm run seatgeek:prices:self-test
+
+      - name: Require SeatGeek credentials for API snapshot runs
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+        run: |
+          set -euo pipefail
+          if [ -z "${SEATGEEK_CLIENT_ID}" ]; then
+            echo "::error::SEATGEEK_CLIENT_ID is required for SeatGeek price snapshot dry-run/apply."
+            exit 1
+          fi
+
+      - name: Run SeatGeek price snapshot dry-run
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          args=()
+          if [ -n "${SNAPSHOT_LIMIT}" ]; then
+            args+=(--limit "${SNAPSHOT_LIMIT}")
+          fi
+          if [ -n "${SNAPSHOT_EVENT_ID}" ]; then
+            args+=(--event-id "${SNAPSHOT_EVENT_ID}")
+          fi
+          npm run seatgeek:prices:dry-run -- "${args[@]}"
+
+      - name: Run SeatGeek price snapshot apply
+        if: github.event_name == 'schedule' || github.event.inputs.apply == 'true'
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          missing=0
+          if [ -z "${SEATGEEK_CLIENT_ID}" ]; then
+            echo "::error::SEATGEEK_CLIENT_ID is required for apply mode."
+            missing=1
+          fi
+          if [ -z "${CLOUDFLARE_API_TOKEN}" ]; then
+            echo "::error::CLOUDFLARE_API_TOKEN is required for remote D1 apply mode."
+            missing=1
+          fi
+          if [ -z "${CLOUDFLARE_ACCOUNT_ID}" ]; then
+            echo "::error::CLOUDFLARE_ACCOUNT_ID is required for remote D1 apply mode."
+            missing=1
+          fi
+          if [ "${missing}" -ne 0 ]; then
+            exit 1
+          fi
+
+          args=(--database "${D1_DATABASE_NAME}")
+          if [ -n "${SNAPSHOT_LIMIT}" ]; then
+            args+=(--limit "${SNAPSHOT_LIMIT}")
+          fi
+          if [ -n "${SNAPSHOT_EVENT_ID}" ]; then
+            args+=(--event-id "${SNAPSHOT_EVENT_ID}")
+          fi
+          npm run seatgeek:prices:apply -- "${args[@]}"
+
+      - name: Confirm protected files/data were not modified
+        run: |
+          set -euo pipefail
+          git diff --exit-code -- functions/api/out.js
+          git diff --exit-code -- public/data/events.json

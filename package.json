@@ -44,6 +44,9 @@
     "seatgeek:propose": "node scripts/propose-seatgeek-urls.mjs",
     "seatgeek:enrich": "node scripts/enrich-seatgeek-events.mjs",
     "seatgeek:enrich:apply": "node scripts/enrich-seatgeek-events.mjs --apply-high-confidence",
+    "seatgeek:prices:self-test": "node scripts/snapshot-seatgeek-prices.mjs --self-test",
+    "seatgeek:prices:dry-run": "node scripts/snapshot-seatgeek-prices.mjs",
+    "seatgeek:prices:apply": "node scripts/snapshot-seatgeek-prices.mjs --apply",
     "artists:tm-shell-pr": "node scripts/tm-discovery-shell-pr.mjs",
     "events:check-fallback-freshness": "node scripts/check-fallback-freshness.mjs",
     "audit:production-routes": "node scripts/verify-production-route-html.mjs"

@@ -57,6 +57,24 @@ Classify each as safe-to-delete / archive-or-deprecate / keep. Output a deletion
 
 Local proof of correct server-injected title, canonical, H1, body, and 404+noindex behaviour passed on 17 representative routes (2026-05-19). PR #184 added guide route / content / sitemap drift validation that runs on every PR. Treat this as non-blocking unless a fresh production browser check finds a real mismatch; if it does, scope the fix narrowly.
 
+### 7. SeatGeek event-level CTA coverage closeout (tooling operational)
+
+The event-level SeatGeek discovery tooling is now operational and wired in:
+`scripts/propose-seatgeek-urls.mjs` (proposal-only) and
+`scripts/enrich-seatgeek-events.mjs` (`--apply-high-confidence`), exposed as
+`npm run seatgeek:propose` / `seatgeek:enrich` / `seatgeek:enrich:apply` /
+`seatgeek:self-test`, plus the `SeatGeek Discovery Proposal` dispatch workflow.
+Runbook: `docs/SEATGEEK_DISCOVERY.md`.
+
+Coverage gap as of 2026-06-01: 93/272 events carry a verified `seatgeek_url`; 179
+do not (`bad-bunny`, `bruno-mars`, `olivia-rodrigo` have none; `ariana-grande`,
+`jay-z`, `morgan-wallen` are partial). Closing it requires a **credentialed
+run**: provide `SEATGEEK_CLIENT_ID` (+ optional `SEATGEEK_CLIENT_SECRET`),
+dispatch the proposal workflow or run `npm run seatgeek:propose`, review the
+candidates, then run `npm run seatgeek:enrich:apply`, `npm run events:sync`, the
+validators, and open a PR. Absence of a SeatGeek match for a show is acceptable —
+the Ticketmaster CTA still renders. Event-level only; do not invent URLs.
+
 ## Explicitly parked
 
 These are intentionally not work until separately scoped and approved.
@@ -64,7 +82,7 @@ These are intentionally not work until separately scoped and approved.
 - **The Weeknd, or any new artist.** Do not propose or onboard a new artist as part of any other task.
 - **Tour / city / venue / event landing pages.** No verified data, no canonical/indexing strategy.
 - **Live price aggregation; "cheapest ticket" / "guaranteed availability" claims.** Requires approved provider feeds with explicit usage rights.
-- **Public Vivid Seats CTAs.** Vivid Seats has no verified destinations. (SeatGeek is no longer parked — it is configured and live in production: event-level CTAs render where a verified `seatgeek_url` exists, routed through `/api/out` with Impact tracking. Coverage exists in `scripts/smoke-prelaunch.mjs`. Still parked for SeatGeek: artist-level SeatGeek links and any SeatGeek price display.)
+- **Public Vivid Seats CTAs.** Vivid Seats has no verified destinations. (SeatGeek is no longer parked — it is configured and live in production: event-level CTAs render where a verified `seatgeek_url` exists, routed through `/api/out` with Impact tracking. Coverage exists in `scripts/smoke-prelaunch.mjs`. Event-level URL discovery tooling is now operational — see active item 7 and `docs/SEATGEEK_DISCOVERY.md`. Still parked for SeatGeek: artist-level SeatGeek links and any SeatGeek price display.)
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
 - **Deleting Vercel / standalone Worker / archive artefacts.** Waits on #176 audit.
 - **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.

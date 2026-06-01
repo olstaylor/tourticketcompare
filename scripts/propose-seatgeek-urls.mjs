@@ -4,7 +4,6 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { ProxyAgent, setGlobalDispatcher } from "undici";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -17,7 +16,6 @@ const DEFAULT_DELAY_MS = 350;
 const HIGH_CONFIDENCE_MIN_SCORE = 82;
 const NEEDS_REVIEW_MIN_SCORE = 55;
 const SIMILAR_SCORE_WINDOW = 8;
-configureFetchProxy();
 
 const GENERIC_SEATGEEK_FIRST_SEGMENTS = new Set([
   "search",
@@ -43,11 +41,23 @@ function configuredProxyUrl() {
   return proxy;
 }
 
-function configureFetchProxy() {
+// Proxy support is optional. Node 18+ ships a global fetch, so the script runs
+// without any extra dependency. When an HTTPS proxy is configured AND the
+// optional `undici` package is installed, route fetch through the proxy; if
+// `undici` is absent we fall back to direct fetch rather than hard-failing.
+async function configureFetchProxy() {
   const proxy = configuredProxyUrl();
   if (!proxy) return false;
-  setGlobalDispatcher(new ProxyAgent(proxy));
-  return true;
+  try {
+    const { ProxyAgent, setGlobalDispatcher } = await import("undici");
+    setGlobalDispatcher(new ProxyAgent(proxy));
+    return true;
+  } catch {
+    console.error(
+      "An HTTPS proxy is configured but the optional 'undici' package is not installed; proceeding with direct fetch. Run `npm install undici` to enable proxy support."
+    );
+    return false;
+  }
 }
 
 function usage() {
@@ -931,6 +941,7 @@ async function main() {
     await runSelfTest();
     return;
   }
+  await configureFetchProxy();
   if (options.diagnosticsOutputPath) {
     await runDiagnostics(options);
     return;

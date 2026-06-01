@@ -69,6 +69,19 @@ npm run events:update    # Full pipeline: csv → validate → partition → syn
 
 `npm run events:sync` is required after any JSON edits to `public/data/`. The `stale-sync-guard` CI job fails the PR if `public/index.html` is out of sync with the data files.
 
+### SeatGeek event-URL discovery
+
+```bash
+npm run seatgeek:self-test    # Scoring + safety smoke test (no API calls)
+npm run seatgeek:propose      # Proposal-only review file (no event-data edits)
+npm run seatgeek:enrich       # Dry-run enrichment (audit log only)
+npm run seatgeek:enrich:apply # Apply high-confidence seatgeek_url matches
+```
+
+Requires `SEATGEEK_CLIENT_ID` (and optional `SEATGEEK_CLIENT_SECRET`). Event-level
+only; never invents URLs. After `seatgeek:enrich:apply`, run `events:sync` and the
+validators, then open a PR. Full runbook: [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md).
+
 ---
 
 ## Deployment

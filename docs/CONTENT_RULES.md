@@ -88,9 +88,11 @@ Event-level buttons must additionally have a verified event record (`events.json
 ## Price Data
 
 - Ticketmaster should not be used as a public price source unless the Discovery API supplies approved, displayable pricing for the specific event.
-- SeatGeek, Vivid Seats, and other marketplace partners may only supply prices if their approved feed/API explicitly permits public display with usage rights confirmed.
+- SeatGeek may supply a SeatGeek-only, provider-attributed latest price snapshot only when written SeatGeek display permission has been confirmed, the data is sourced from the approved SeatGeek partner API only, `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, the price is timestamped, and stale rows are hidden.
+- Vivid Seats and other marketplace partners may only supply prices if their approved feed/API explicitly permits public display with usage rights confirmed.
 - Impact affiliate approval does not grant the right to ingest or publicly display provider pricing.
 - Price data must be timestamped and attributed to the provider.
+- Do not publish cross-provider comparison, scraping-derived prices, fake/manual prices, or any "cheapest", "lowest", "best deal", "savings", "price guarantee", or "real-time cheapest" claims.
 
 ---
 

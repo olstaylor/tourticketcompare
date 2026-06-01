@@ -49,7 +49,7 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `impact_
 **Constraints (unchanged):**
 - **Event-level only.** SeatGeek destinations come from a verified `seatgeek_url` in `events.json`; there are no artist-level SeatGeek entries in `/api/out`'s `VERIFIED_TICKET_LINKS`.
 - The destination host is `seatgeek.com` (the only allowlisted SeatGeek host). Generic search/artist/venue/performer URLs are rejected.
-- **No SeatGeek price display.** `/api/shows` returns `status: unavailable` for SeatGeek prices (see below); do not claim live price comparison.
+- **SeatGeek price snapshots are default-off and display-only.** SeatGeek price data may be used only as a SeatGeek-only, provider-attributed latest snapshot after written SeatGeek display permission has been confirmed, sourced from the approved SeatGeek partner API only, gated by `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, tied to an event with a valid verified `seatgeek_url`, loaded from a cached row with `source='seatgeek_partner_api'`, timestamped, and hidden when stale. Do not scrape, invent, manually enter, compare across providers, or make "cheapest", "lowest", "best deal", "savings", "price guarantee", or "real-time cheapest" claims.
 
 ---
 
@@ -97,7 +97,8 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `impact_
 - `includePrices=true` requires a `showId` parameter. Bulk price fan-out to providers is not permitted.
 - `MOCK_MODE` and `ALLOW_MOCK_PRICES` must both be `false` in production. Mock prices must never be displayed to users.
 - `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` must be `true` and a valid `TICKETMASTER_API_KEY` must be configured for live Ticketmaster price lookups.
-- SeatGeek and Vivid Seats return `status: unavailable` in all non-mock scenarios because no approved live price feeds are configured.
+- SeatGeek returns `status: unavailable` unless `SEATGEEK_PRICE_DISPLAY_ENABLED=true` and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='seatgeek'`, `source='seatgeek_partner_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
+- Vivid Seats returns `status: unavailable` in all non-mock scenarios because no approved live price feed is configured.
 - Price results include `fetchedAt` timestamps. Do not display prices without showing or conveying freshness.
 
 ---

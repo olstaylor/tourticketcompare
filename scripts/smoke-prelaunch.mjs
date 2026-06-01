@@ -327,12 +327,45 @@ class MemoryCache {
   }
 
   async match(key) {
-    return this.items.get(String(key)) || null;
+    const response = this.items.get(String(key));
+    return response ? response.clone() : null;
   }
 
   async put(key, response) {
     this.items.set(String(key), response.clone());
   }
+}
+
+function createProviderPricingDb(rows) {
+  const pricingRows = Array.isArray(rows) ? rows : [];
+  return {
+    prepare(sql) {
+      const text = String(sql || "");
+      return {
+        bind(...values) {
+          return {
+            async first() {
+              if (text.includes("provider_pricing_cache")) {
+                const [eventId, provider, source] = values;
+                return pricingRows.find((row) =>
+                  row.event_id === eventId &&
+                  row.provider === provider &&
+                  row.source === source
+                ) || null;
+              }
+              return null;
+            },
+            async run() {
+              return { success: true };
+            }
+          };
+        },
+        async run() {
+          return { success: true };
+        }
+      };
+    }
+  };
 }
 
 globalThis.caches = globalThis.caches || { default: new MemoryCache() };
@@ -779,6 +812,90 @@ assert(showPriceJson.shows.length === 1, "showId includePrices should return one
 assert(!JSON.stringify(showPriceJson).match(/"price"\s*:\s*[1-9]/), "showId includePrices should not expose fake prices");
 const ticketmasterLane = showPriceJson.shows[0].prices.find((lane) => lane.provider === "Ticketmaster");
 assert(ticketmasterLane?.actionUrl === `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=Ticketmaster`, "Ticketmaster lane should use the event-specific safe redirect");
+
+function seatGeekLaneFrom(showPricesJson) {
+  return showPricesJson.shows[0].prices.find((lane) => lane.provider === "SeatGeek");
+}
+
+const freshSeatGeekPriceRow = {
+  event_id: CONTROLLED_SEATGEEK_SHOW_ID,
+  provider: "seatgeek",
+  low_price: 123.45,
+  avg_price: 150.25,
+  high_price: 240,
+  currency: "USD",
+  inventory_count: 42,
+  verified_at: "2026-05-14T11:00:00Z",
+  expires_at: "2026-05-14T13:00:00Z",
+  source: "seatgeek_partner_api"
+};
+const staleSeatGeekPriceRow = {
+  ...freshSeatGeekPriceRow,
+  expires_at: "2026-05-14T11:30:00Z"
+};
+const flagOffFreshSeatGeekResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+  env: {
+    ...env,
+    DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "false"
+  }
+});
+const flagOffFreshSeatGeekJson = await flagOffFreshSeatGeekResponse.json();
+const flagOffSeatGeekLane = seatGeekLaneFrom(flagOffFreshSeatGeekJson);
+assert(flagOffSeatGeekLane?.price === null && flagOffSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when SEATGEEK_PRICE_DISPLAY_ENABLED is false even if a fresh D1 row exists");
+
+const flagOnFreshSeatGeekResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+  env: {
+    ...env,
+    DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
+  }
+});
+const flagOnFreshSeatGeekJson = await flagOnFreshSeatGeekResponse.json();
+const flagOnFreshSeatGeekLane = seatGeekLaneFrom(flagOnFreshSeatGeekJson);
+assert(flagOnFreshSeatGeekLane?.price === freshSeatGeekPriceRow.low_price, "SeatGeek price should be returned from a fresh approved D1 latest snapshot when the feature flag is enabled");
+assert(flagOnFreshSeatGeekLane?.providerStatus === "ok" && flagOnFreshSeatGeekLane?.status === "ok", "fresh SeatGeek snapshot should return an ok provider lane");
+assert(flagOnFreshSeatGeekLane?.fetchedAt === freshSeatGeekPriceRow.verified_at, "SeatGeek price lane should use verified_at as its as-of timestamp");
+assert(flagOnFreshSeatGeekLane?.source === "seatgeek_partner_api", "SeatGeek price lane should expose only the approved source attribution");
+assert(flagOnFreshSeatGeekLane?.expiresAt === freshSeatGeekPriceRow.expires_at, "SeatGeek price lane should expose the snapshot expiry for freshness checks");
+
+const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+  env: {
+    ...env,
+    DEMAND_DB: createProviderPricingDb([staleSeatGeekPriceRow]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
+  }
+});
+const flagOnStaleSeatGeekLane = seatGeekLaneFrom(await flagOnStaleSeatGeekResponse.json());
+assert(flagOnStaleSeatGeekLane?.price === null && flagOnStaleSeatGeekLane?.providerStatus === "unavailable", "stale SeatGeek D1 snapshots should be hidden and should not fall back to stale data");
+
+if (nonSeatGeekMorganShow) {
+  const missingUrlRow = { ...freshSeatGeekPriceRow, event_id: nonSeatGeekMorganShow.id };
+  const missingUrlSeatGeekResponse = await showsModule.onRequestGet({
+    request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(nonSeatGeekMorganShow.id)}&includePrices=true`),
+    env: {
+      ...env,
+      DEMAND_DB: createProviderPricingDb([missingUrlRow]),
+      SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
+    }
+  });
+  const missingUrlSeatGeekLane = seatGeekLaneFrom(await missingUrlSeatGeekResponse.json());
+  assert(missingUrlSeatGeekLane?.price === null && missingUrlSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when the event has no verified SeatGeek URL");
+}
+
+const malformedUrlSeatGeekResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+  env: {
+    ...invalidSeatGeekEnv,
+    DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
+  }
+});
+const malformedUrlSeatGeekLane = seatGeekLaneFrom(await malformedUrlSeatGeekResponse.json());
+assert(malformedUrlSeatGeekLane?.price === null && malformedUrlSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when the stored SeatGeek URL is malformed or rejected");
 
 const healthResponse = await healthModule.onRequestGet({ env });
 const healthJson = await healthResponse.json();

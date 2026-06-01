@@ -30,10 +30,11 @@ Pages become indexable and conversion-led only after completing the phase gates 
 
 ## Price Display
 
-- Do not display prices, price ranges, or "cheapest" claims.
 - Do not claim live price comparison is available.
 - Do not say "sold out" or "available" based on unverified inventory data.
-- Price display from an approved provider feed requires `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true` and is off by default.
+- Do not publish cross-provider comparison, scraping-derived prices, fake/manual prices, or any "cheapest", "lowest", "best deal", "savings", "price guarantee", or "real-time cheapest" claims.
+- Ticketmaster price display from an approved provider feed requires `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true` and is off by default.
+- SeatGeek price snapshots are allowed only for a SeatGeek-only, provider-attributed latest snapshot when all of these are true: written SeatGeek display permission has been confirmed, the data is sourced from the approved SeatGeek partner API only, `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, the price is timestamped, and stale rows are hidden.
 
 ## Affiliate and Redirect Rules
 

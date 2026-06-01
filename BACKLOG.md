@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-05-27 (post PR #186)
+Last updated: 2026-06-01 (SeatGeek configured/live reconciliation)
 
 ## Active priorities (in order)
 
@@ -64,7 +64,7 @@ These are intentionally not work until separately scoped and approved.
 - **The Weeknd, or any new artist.** Do not propose or onboard a new artist as part of any other task.
 - **Tour / city / venue / event landing pages.** No verified data, no canonical/indexing strategy.
 - **Live price aggregation; "cheapest ticket" / "guaranteed availability" claims.** Requires approved provider feeds with explicit usage rights.
-- **Public SeatGeek or Vivid Seats CTAs.** SeatGeek event URLs are stored but gated off until configuration is complete; Vivid Seats has no verified destinations.
+- **Public Vivid Seats CTAs.** Vivid Seats has no verified destinations. (SeatGeek is no longer parked — it is configured and live in production: event-level CTAs render where a verified `seatgeek_url` exists, routed through `/api/out` with Impact tracking. Coverage exists in `scripts/smoke-prelaunch.mjs`. Still parked for SeatGeek: artist-level SeatGeek links and any SeatGeek price display.)
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
 - **Deleting Vercel / standalone Worker / archive artefacts.** Waits on #176 audit.
 - **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.

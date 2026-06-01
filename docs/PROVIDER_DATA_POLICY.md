@@ -40,14 +40,16 @@ Do not confuse Publisher Tag transformation with manually generated Impact short
 
 ## SeatGeek
 
-**Role:** Intended future provider. Not yet live.
+**Role:** Live secondary marketplace provider. Event-level only.
 
-**Current status:** SeatGeek buttons are hidden on all artist pages. No verified SeatGeek destination URLs are configured. `/api/out` rejects SeatGeek provider requests with `provider_not_configured`.
+**Current status:** Configured and live in production. The Impact SeatGeek bindings (`IMPACT_SEATGEEK_ACCOUNT_SID`, `IMPACT_SEATGEEK_AUTH_TOKEN`, `IMPACT_SEATGEEK_PROGRAM_ID`) are present (confirmed via `/api/health`). `/api/out` resolves `provider=seatgeek` from a verified event-level `seatgeek_url`, validates it (HTTPS, host `seatgeek.com`, event path pattern `/(concert|sports|theater|theatre)/<id>`), wraps it in Impact tracking, and returns a 302 redirect. The "Check SeatGeek" CTA renders as a secondary button on event cards that carry a verified `seatgeek_url` when the SeatGeek Impact config is present.
 
-**When SeatGeek buttons may be enabled:**
-- A verified SeatGeek destination URL (not a placeholder) exists for the artist or event.
-- The link has been reviewed and added to `/api/out`'s `VERIFIED_TICKET_LINKS` or to `events.json`.
-- The destination host is `seatgeek.com` (currently the only allowlisted SeatGeek host).
+When the SeatGeek Impact config is absent, `/api/out` fails safely with `impact_missing_credentials` / `impact_missing_program_id` (not a redirect), and the CTA does not render.
+
+**Constraints (unchanged):**
+- **Event-level only.** SeatGeek destinations come from a verified `seatgeek_url` in `events.json`; there are no artist-level SeatGeek entries in `/api/out`'s `VERIFIED_TICKET_LINKS`.
+- The destination host is `seatgeek.com` (the only allowlisted SeatGeek host). Generic search/artist/venue/performer URLs are rejected.
+- **No SeatGeek price display.** `/api/shows` returns `status: unavailable` for SeatGeek prices (see below); do not claim live price comparison.
 
 ---
 

@@ -40,6 +40,10 @@
     "audit:candidates": "node scripts/audit-candidates.mjs",
     "candidates:score": "node scripts/score-candidates.mjs",
     "candidates:report": "node scripts/report-candidates.mjs",
+    "seatgeek:self-test": "node scripts/propose-seatgeek-urls.mjs --self-test",
+    "seatgeek:propose": "node scripts/propose-seatgeek-urls.mjs",
+    "seatgeek:enrich": "node scripts/enrich-seatgeek-events.mjs",
+    "seatgeek:enrich:apply": "node scripts/enrich-seatgeek-events.mjs --apply-high-confidence",
     "artists:tm-shell-pr": "node scripts/tm-discovery-shell-pr.mjs",
     "events:check-fallback-freshness": "node scripts/check-fallback-freshness.mjs",
     "audit:production-routes": "node scripts/verify-production-route-html.mjs"

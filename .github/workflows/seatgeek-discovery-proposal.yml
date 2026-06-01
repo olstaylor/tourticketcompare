@@ -1,0 +1,69 @@
+name: SeatGeek Discovery Proposal
+
+# Proposal-only SeatGeek event-URL discovery. Runs on manual dispatch, queries
+# the SeatGeek API with repository secrets, and uploads review artifacts for a
+# human to inspect. It never mutates public/data/events.json or applies CTAs.
+# Applying high-confidence matches is a deliberate, separate, human-run step
+# (`npm run seatgeek:enrich:apply`) followed by the standard validation + PR.
+
+on:
+  workflow_dispatch:
+    inputs:
+      artist:
+        description: 'Optional artist slug or name filter (blank = all artists).'
+        type: string
+        default: ''
+      limit:
+        description: 'Max missing future events to check (blank = all).'
+        type: string
+        default: ''
+
+jobs:
+  proposal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate SeatGeek URL proposals
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
+          INPUT_ARTIST: ${{ inputs.artist }}
+          INPUT_LIMIT: ${{ inputs.limit }}
+        run: |
+          if [ -z "$SEATGEEK_CLIENT_ID" ]; then
+            echo "SEATGEEK_CLIENT_ID not configured; the proposal will only emit a summary with no candidates."
+          fi
+          args=()
+          if [ -n "$INPUT_ARTIST" ]; then
+            args+=(--artist "$INPUT_ARTIST")
+          fi
+          if [ -n "$INPUT_LIMIT" ]; then
+            args+=(--limit "$INPUT_LIMIT")
+          fi
+          node scripts/propose-seatgeek-urls.mjs \
+            --output reports/seatgeek-url-candidates.json \
+            "${args[@]}"
+
+      - name: Verify event data was not mutated
+        run: |
+          if ! git diff --quiet -- public/data/events.json; then
+            echo "ERROR: public/data/events.json changed during a proposal-only run." >&2
+            git --no-pager diff --stat -- public/data/events.json
+            exit 1
+          fi
+          echo "Confirmed: public/data/events.json unchanged."
+
+      - name: Upload proposal artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: seatgeek-discovery-proposal
+          path: reports/seatgeek-url-candidates.json
+          if-no-files-found: error
+          retention-days: 30

@@ -978,12 +978,10 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
   if (route.path === "/") {
-    // Homepage-only progressive enhancement. Both assets are same-origin, so they
-    // satisfy the existing CSP (style-src 'self' / script-src 'self') with no policy
-    // change. ttc-home.js hydrates the #ttc-main mount inside the server-rendered
-    // homepage; on every other route these tags are never injected, so the shared
-    // shell and all subpages are untouched.
-    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css" /></head>');
+    // Homepage-only progressive enhancement: ttc-home.js hydrates the #ttc-main
+    // mount with the full redesigned homepage. Same-origin, so it satisfies the
+    // existing CSP (script-src 'self'). The chrome stylesheet (ttc-home.css) is
+    // loaded site-wide from the shell <head>; only this script is homepage-scoped.
     next = next.replace("</body>", '<script src="/ttc-home.js" defer></script></body>');
   }
   return next;

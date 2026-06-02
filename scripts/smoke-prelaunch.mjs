@@ -1541,4 +1541,19 @@ assert(/provider=ticketmaster"\s+target="_blank"\s+rel="noopener"/.test(serverMo
 
 console.log("indexable artist verification passed for bruno-mars");
 
+// Indexable artist with zero verified upcoming events (Beyoncé) must render the improved empty state
+const beyonceEmptyStatePage = await routeResponse("/artists/beyonce");
+assert(beyonceEmptyStatePage.response.status === 200, "/artists/beyonce must return 200");
+assert(/index,follow/.test(beyonceEmptyStatePage.text), "/artists/beyonce (indexable) must render index,follow robots meta");
+const beyonceShowBoardMatch = beyonceEmptyStatePage.text.match(/<section class="section-grid show-board"[\s\S]*?<\/section>/);
+assert(beyonceShowBoardMatch, "zero-event artist page must render the show board section");
+const beyonceShowBoard = beyonceShowBoardMatch[0];
+assert(beyonceShowBoard.includes("No verified Beyoncé ticket links yet"), "zero-event artist page must render the improved empty-state heading with the artist name");
+assert(beyonceShowBoard.includes("we haven't verified an event-specific ticket destination"), "zero-event empty state must explain why no ticket links are shown");
+assert(!beyonceShowBoard.includes("No verified show dates are currently listed"), "zero-event empty state must not use the old generic copy");
+assert(!beyonceShowBoard.includes("View tickets") && !beyonceShowBoard.includes("/api/out"), "zero-event empty state must not include any ticket CTA");
+assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes("Browse artists with ticket links"), "zero-event empty state must link users to the artists index");
+assert(beyonceShowBoard.includes('href="/guides"') && beyonceShowBoard.includes("Read ticket buying guide"), "zero-event empty state must link users to the buying guides");
+console.log("zero-event empty-state verification passed for beyonce");
+
 console.log("Cloudflare Pages MVP smoke checks passed");

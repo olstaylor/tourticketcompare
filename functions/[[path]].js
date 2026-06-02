@@ -721,10 +721,19 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   return `<article class="info-card show-card" data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || titleFallback)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${eventVerifiedHtml}${ctaHtml}</article>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true) {
+function renderShowBoardEmptyStateHtml(artistName = "") {
+  const safeName = escapeHtml(String(artistName || "").trim() || "these");
+  return `<div class="empty-state"><h3>No verified ${safeName} ticket links yet</h3><p class="muted">We're not listing any upcoming ${safeName} dates right now because we haven't verified an event-specific ticket destination. We'll only show ticket links when there's a confirmed source we can check.</p><div class="action-row">${anchor(
+    "Browse artists with ticket links",
+    "/artists",
+    "button button-secondary"
+  )}${anchor("Read ticket buying guide", "/guides", "button button-secondary")}</div></div>`;
+}
+
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "") {
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist)).join("")
-    : `<p class="muted empty-state">No verified show dates are currently listed for this artist. Use the provider link below to check current tour announcements and availability directly with the ticket platform. ${anchor("Read our buying guides", "/guides", "text-link")} for what to check before you buy.</p>`;
+    : renderShowBoardEmptyStateHtml(artistName);
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card shows one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
@@ -767,7 +776,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )} ticket links and buying guidance</h1><p class="lead">Find checked ticket links for ${escapeHtml(
       artist.name
-    )} when available, plus practical guidance before you leave for a provider site.</p>${reviewNoticeHtml}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist)}${renderProviderFallback(
+    )} when available, plus practical guidance before you leave for a provider site.</p>${reviewNoticeHtml}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name)}${renderProviderFallback(
       catalog,
       artist,
       "artist_hero"

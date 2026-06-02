@@ -53,6 +53,9 @@
   function ymd(iso) { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || ""); return m ? { y: +m[1], mo: +m[2], d: +m[3] } : null; }
   function dateParts(iso) { const p = ymd(iso); return p ? { day: p.d, mon: MON[p.mo - 1] } : { day: "", mon: "" }; }
   function prettyDate(iso) { const p = ymd(iso); if (!p) return ""; const m = MON[p.mo - 1]; return m.charAt(0) + m.slice(1).toLowerCase() + " " + p.d; }
+  // Year-qualified variant for standalone dates (e.g. the "Catalog last updated"
+  // stat), where a bare "May 20" with no year reads as ambiguous.
+  function prettyDateFull(iso) { const p = ymd(iso); const d = prettyDate(iso); return d && p ? d + ", " + p.y : d; }
   const prettyChecked = prettyDate;
 
   function regionCode(country) {
@@ -288,7 +291,7 @@
       { n: String(verifiedCount), l: "Artists with verified pages" },
       { n: DATA.publicProviders.join(" · ") || "—", sm: true, l: "Verified ticket source" },
       { n: String(DATA.upcomingCount), l: "Upcoming dates tracked" },
-      { n: prettyChecked(DATA.updated_at), sm: true, l: "Catalog last updated", live: true },
+      { n: prettyDateFull(DATA.updated_at), sm: true, l: "Catalog last updated", live: true },
     ];
     return h("section", { class: "ttc-stats" }, [
       h("div", { class: "ttc-wrap ttc-stats__in" }, cells.map(c => h("div", { class: "ttc-stat" }, [

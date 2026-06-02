@@ -7,7 +7,7 @@ const STATIC_INDEXABLE_PATHS = [
   ...Object.keys(GUIDE_ROUTES)
 ];
 
-const FALLBACK_ARTIST_SLUGS = ["beyonce", "harry-styles", "bts", "ariana-grande", "bad-bunny", "morgan-wallen", "jay-z"];
+const INDEXABLE_ARTIST_STATUS = "indexable_with_substantial_content";
 
 function escapeXml(value) {
   return String(value)
@@ -18,15 +18,33 @@ function escapeXml(value) {
     .replace(/>/g, "&gt;");
 }
 
-async function loadArtistSlugs(env) {
+async function loadJsonAsset(env, pathname) {
+  const response = await env?.ASSETS?.fetch(new Request(`https://assets.local${pathname}`));
+  if (!response?.ok) return null;
+  return response.json();
+}
+
+async function loadIndexableArtistSlugs(env) {
   try {
-    const response = await env?.ASSETS?.fetch(new Request("https://assets.local/data/catalog.json"));
-    if (!response?.ok) return FALLBACK_ARTIST_SLUGS;
-    const data = await response.json();
-    const slugs = Array.isArray(data?.artists) ? data.artists.map((artist) => artist.slug).filter(Boolean) : [];
-    return slugs.length ? slugs : FALLBACK_ARTIST_SLUGS;
+    const [catalog, artistsMeta] = await Promise.all([
+      loadJsonAsset(env, "/data/catalog.json"),
+      loadJsonAsset(env, "/data/artists.json")
+    ]);
+
+    if (!Array.isArray(catalog?.artists) || !Array.isArray(artistsMeta)) return [];
+
+    const indexableMetaSlugs = new Set(
+      artistsMeta
+        .filter((artist) => artist?.indexing_status === INDEXABLE_ARTIST_STATUS)
+        .map((artist) => String(artist?.slug || "").trim())
+        .filter(Boolean)
+    );
+
+    return catalog.artists
+      .map((artist) => String(artist?.slug || "").trim())
+      .filter((slug) => slug && indexableMetaSlugs.has(slug));
   } catch (error) {
-    return FALLBACK_ARTIST_SLUGS;
+    return [];
   }
 }
 
@@ -34,7 +52,7 @@ export async function onRequestGet({ request, env }) {
   const requestUrl = new URL(request.url);
   const origin = `${requestUrl.protocol}//${requestUrl.host}`;
   const today = new Date().toISOString().slice(0, 10);
-  const artistPaths = (await loadArtistSlugs(env)).map((slug) => `/artists/${slug}`);
+  const artistPaths = (await loadIndexableArtistSlugs(env)).map((slug) => `/artists/${slug}`);
   const paths = STATIC_INDEXABLE_PATHS.concat(artistPaths);
 
   const urlsXml = paths

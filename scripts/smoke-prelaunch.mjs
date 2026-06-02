@@ -111,7 +111,7 @@ async function deriveArtistSlugsFromData() {
     `artist slug drift between ${catalogPath} and ${artistsPath}; only in catalog: ${inCatalogNotArtists.join(", ") || "(none)"}, only in artists: ${inArtistsNotCatalog.join(", ") || "(none)"}`
   );
 
-  return { artistSlugs: catalogSlugs, catalog };
+  return { artistSlugs: catalogSlugs, catalog, artists };
 }
 
 async function fileExists(relativePath) {
@@ -470,7 +470,7 @@ for (const artistSlug of eventPartitionSlugs) {
     }
   }
 }
-const { artistSlugs, catalog } = await deriveArtistSlugsFromData();
+const { artistSlugs, catalog, artists } = await deriveArtistSlugsFromData();
 assert(Array.isArray(catalog.artists) && catalog.artists.length === artistSlugs.length, "catalog should expose the known artist routes");
 for (const slug of artistSlugs) {
   assert(catalog.artists.some((artist) => artist.slug === slug), `catalog missing artist ${slug}`);
@@ -490,6 +490,7 @@ await read("public/404.html");
 
 const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
 const routeMetadataModule = await import(pathToFileURL(path.join(root, "functions/_route-metadata.js")));
+const sitemapModule = await import(pathToFileURL(path.join(root, "functions/sitemap.xml.js")));
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
 const debugSeatgeekModule = await import(pathToFileURL(path.join(root, "functions/api/debug-seatgeek.js")));
@@ -531,6 +532,79 @@ async function routeResponse(pathname, envOverride = env) {
   });
   return { response, text: await response.text(), nextCalled };
 }
+
+
+function extractSitemapLocs(xml) {
+  return [...String(xml || "").matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+}
+
+async function sitemapLocs(envOverride = env) {
+  const response = await sitemapModule.onRequestGet({
+    request: new Request("https://tourticketcompare.com/sitemap.xml"),
+    env: envOverride
+  });
+  assert(response.status === 200, "/sitemap.xml should return 200");
+  return extractSitemapLocs(await response.text());
+}
+
+const sitemapLocations = await sitemapLocs();
+const indexableArtistSlugs = artists
+  .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+  .map((artist) => normalizeSlug(artist?.slug))
+  .filter(Boolean);
+for (const slug of indexableArtistSlugs) {
+  assert(
+    sitemapLocations.includes(`https://tourticketcompare.com/artists/${slug}`),
+    `/sitemap.xml should include currently indexable artist ${slug}`
+  );
+}
+
+const reviewRequiredSlug = "smoke-review-required-artist";
+const missingMetadataSlug = "smoke-missing-metadata-artist";
+const syntheticCatalog = {
+  ...catalog,
+  artists: catalog.artists.concat([
+    { slug: reviewRequiredSlug, name: "Smoke Review Required Artist" },
+    { slug: missingMetadataSlug, name: "Smoke Missing Metadata Artist" }
+  ])
+};
+const syntheticArtists = artists.concat([
+  {
+    slug: reviewRequiredSlug,
+    name: "Smoke Review Required Artist",
+    indexing_status: "review_required",
+    verified_provider_count: 0,
+    verified_providers: [],
+    last_verified_at: null
+  }
+]);
+const syntheticSitemapEnv = {
+  ...env,
+  ASSETS: {
+    async fetch(request) {
+      const url = new URL(request.url);
+      if (url.pathname === "/data/catalog.json") return new Response(JSON.stringify(syntheticCatalog), { status: 200 });
+      if (url.pathname === "/data/artists.json") return new Response(JSON.stringify(syntheticArtists), { status: 200 });
+      return env.ASSETS.fetch(request);
+    }
+  }
+};
+const syntheticSitemapLocations = await sitemapLocs(syntheticSitemapEnv);
+for (const slug of indexableArtistSlugs) {
+  assert(
+    syntheticSitemapLocations.includes(`https://tourticketcompare.com/artists/${slug}`),
+    `/sitemap.xml should preserve currently indexable artist ${slug} with synthetic shell fixture`
+  );
+}
+assert(
+  !syntheticSitemapLocations.includes(`https://tourticketcompare.com/artists/${reviewRequiredSlug}`),
+  "/sitemap.xml must exclude review_required artist shells"
+);
+assert(
+  !syntheticSitemapLocations.includes(`https://tourticketcompare.com/artists/${missingMetadataSlug}`),
+  "/sitemap.xml must exclude catalog artists with no artists.json metadata"
+);
+console.log("sitemap artist indexability filtering verified");
 
 for (const pathname of ["/app.js", "/impact.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/events.json", "/api/health"]) {
   const { response, nextCalled } = await routeResponse(pathname);

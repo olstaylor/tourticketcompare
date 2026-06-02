@@ -1122,6 +1122,27 @@ function safeShowList(data) {
   return Array.isArray(data?.shows) ? data.shows.filter((show) => show && typeof show === "object") : [];
 }
 
+function renderShowBoardEmptyState(artistName = "") {
+  const name = String(artistName || "").trim() || "these";
+  const wrap = document.createElement("div");
+  wrap.className = "empty-state";
+  text(wrap, "h3", `No verified ${name} ticket links yet`);
+  text(
+    wrap,
+    "p",
+    `We're not listing any upcoming ${name} dates right now because we haven't verified an event-specific ticket destination. We'll only show ticket links when there's a confirmed source we can check.`,
+    "muted"
+  );
+  const actions = document.createElement("div");
+  actions.className = "action-row";
+  actions.append(
+    buttonLink("Browse artists with ticket links", "/artists", "secondary"),
+    buttonLink("Read ticket buying guide", "/guides", "secondary")
+  );
+  wrap.append(actions);
+  return wrap;
+}
+
 async function hydrateShowBoard(section, filters = {}) {
   const grid = section.querySelector("[data-show-grid]");
   if (!grid) return;
@@ -1134,15 +1155,7 @@ async function hydrateShowBoard(section, filters = {}) {
     const data = await response.json();
     const shows = safeShowList(data);
     if (!shows.length) {
-      grid.replaceChildren();
-      const emptyMsg = document.createElement("p");
-      emptyMsg.className = "muted empty-state";
-      emptyMsg.append(
-        document.createTextNode("No verified show dates are currently listed for this artist. Use the provider link below to check current tour announcements and availability directly with the ticket platform. "),
-        link("Read our buying guides", "/guides", "text-link"),
-        document.createTextNode(" for what to check before you buy.")
-      );
-      grid.append(emptyMsg);
+      grid.replaceChildren(renderShowBoardEmptyState(filters.artistName));
       return;
     }
     grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show, {
@@ -1322,7 +1335,7 @@ function renderArtist(artist) {
   }
 
   main.replaceChildren(section);
-  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 50, showEventCta: !isReviewRequired, reviewGated: isReviewRequired });
+  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 50, showEventCta: !isReviewRequired, reviewGated: isReviewRequired, artistName: artist.name });
 }
 
 function renderArtistFaq(artist) {

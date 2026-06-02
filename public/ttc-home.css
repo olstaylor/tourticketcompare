@@ -205,8 +205,15 @@
 .ttc-tcell-artist .gn { font-size: 12px; color: var(--ttc-muted); }
 .ttc-region { font-family: var(--ttc-font-mono); font-size: 12px; color: var(--ttc-muted); }
 .ttc-tcell-act { text-align: right; }
-.ttc-tbtn { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12.5px; border-radius: 7px; padding: 7px 13px; background: var(--ttc-accent); color: #fff; transition: .14s; white-space: nowrap; }
-.ttc-tbtn:hover { background: var(--ttc-accent-hover); }
+/* Lower-emphasis by default: the coverage explorer is a scan surface, so the
+   per-row action is a tinted/outline accent (not a wall of solid terracotta),
+   filling solid only on hover. Solid terracotta stays reserved for the single
+   hero "Search" CTA. */
+.ttc-tbtn { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12.5px; border-radius: 7px; padding: 7px 13px; background: color-mix(in oklab, var(--ttc-accent) 10%, transparent); color: var(--ttc-accent); border: 1px solid color-mix(in oklab, var(--ttc-accent) 28%, transparent); transition: .14s; white-space: nowrap; }
+.ttc-tbtn:hover { background: var(--ttc-accent); color: #fff; border-color: var(--ttc-accent); }
+/* "Watching" rows (no verified destination): neutral, clearly secondary. */
+.ttc-tbtn--ghost { background: transparent; color: var(--ttc-muted); border-color: var(--ttc-border-strong); }
+.ttc-tbtn--ghost:hover { background: color-mix(in oklab, var(--ttc-ink) 5%, transparent); color: var(--ttc-ink); border-color: var(--ttc-muted); }
 .ttc-tbtn svg { width: 13px; height: 13px; flex: none; }
 .ttc-table thead th.right, .ttc-table td.ttc-tcell-act { white-space: nowrap; width: 1%; }
 
@@ -256,15 +263,18 @@
   .ttc-stats__in { grid-template-columns: 1fr 1fr; }
   .ttc-stat:nth-child(2) { border-right: none; }
   .ttc-stat:nth-child(1), .ttc-stat:nth-child(2) { border-bottom: 1px solid var(--ttc-border); }
-}
-@media (max-width: 620px) {
-  .ttc-stats__in { grid-template-columns: 1fr; }
-  .ttc-stat { border-right: none; border-bottom: 1px solid var(--ttc-border); }
+  /* Reflow the coverage table into stacked cards for the whole sub-920 range.
+     Below this width the 6-column table overflows .ttc-tablecard (overflow:
+     hidden) and clips the action button — the card layout avoids that. */
   .ttc-table thead { display: none; }
   .ttc-table tbody td { display: block; padding: 4px 16px; border: none; }
   .ttc-table tbody tr { display: block; padding: 12px 0; border-bottom: 1px solid var(--ttc-border); }
   .ttc-table tbody td.ttc-tcell-act { text-align: left; padding: 10px 16px 4px; }
   .ttc-table td[data-k]::before { content: attr(data-k); font-family: var(--ttc-font-mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ttc-faint); display: inline-block; width: 96px; }
+}
+@media (max-width: 620px) {
+  .ttc-stats__in { grid-template-columns: 1fr; }
+  .ttc-stat { border-right: none; border-bottom: 1px solid var(--ttc-border); }
 }
 
 /* ============================================================

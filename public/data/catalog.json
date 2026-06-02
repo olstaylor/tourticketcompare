@@ -255,6 +255,43 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "ed-sheeran",
+      "name": "Ed Sheeran",
+      "short_description": "English singer-songwriter known for acoustic-led pop songs and large-scale live performances.",
+      "genres": [
+        "Pop",
+        "Singer-songwriter"
+      ],
+      "country": "United Kingdom",
+      "official_website": "https://www.edsheeran.com/",
+      "image_alt": "Ed Sheeran artist ticket information",
+      "factual_summary": "Ed Sheeran is an English singer-songwriter whose recorded work spans acoustic pop, folk-pop, and mainstream pop releases. His catalog includes solo albums and collaborations that have reached international audiences. TourTicketCompare is reviewing this artist page before publishing any provider buttons.",
+      "why_demand_is_high": "Demand can be high for major Ed Sheeran appearances because his songs have a broad international audience and his live shows often draw fans across pop and singer-songwriter markets.",
+      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
+      "seo_title": "Ed Sheeran Ticket Links & Buying Guidance | TourTicketCompare",
+      "meta_description": "Review Ed Sheeran ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
+      "faq": [
+        {
+          "question": "Why are Ed Sheeran ticket buttons not shown yet?",
+          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+        },
+        {
+          "question": "Does TourTicketCompare publish live Ed Sheeran ticket prices?",
+          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+        },
+        {
+          "question": "How should I check Ed Sheeran ticket options safely?",
+          "answer": "Confirm the artist, date, venue, fees, delivery method, and refund or transfer terms on the ticket provider site before checkout."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -565,6 +602,19 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-05-28",
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-ed-sheeran",
+      "artist_slug": "ed-sheeran",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
       "disclosure_required": true
     }
   ],

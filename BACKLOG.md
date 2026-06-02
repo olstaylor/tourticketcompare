@@ -79,7 +79,7 @@ the Ticketmaster CTA still renders. Event-level only; do not invent URLs.
 
 These are intentionally not work until separately scoped and approved.
 
-- **The Weeknd, or any new artist.** Do not propose or onboard a new artist as part of any other task.
+- **Any new artist except the Ed Sheeran Phase 2 Shell-only scaling test.** Do not propose or onboard other artists as part of any other task. The Ed Sheeran exception is limited to a `review_required` shell: it does not authorize Promote, Events, `/api/out`, `functions/api/shows.js`, provider/affiliate changes, public CTAs, or event data.
 - **Tour / city / venue / event landing pages.** No verified data, no canonical/indexing strategy.
 - **Live price aggregation; "cheapest ticket" / "guaranteed availability" claims.** Requires approved provider feeds with explicit usage rights.
 - **Public Vivid Seats CTAs.** Vivid Seats has no verified destinations. (SeatGeek is no longer parked — it is configured and live in production: event-level CTAs render where a verified `seatgeek_url` exists, routed through `/api/out` with Impact tracking. Coverage exists in `scripts/smoke-prelaunch.mjs`. Event-level URL discovery tooling is now operational — see active item 7 and `docs/SEATGEEK_DISCOVERY.md`. Still parked for SeatGeek: artist-level SeatGeek links and any SeatGeek price display.)

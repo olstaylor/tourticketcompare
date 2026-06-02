@@ -1932,7 +1932,12 @@ async function render() {
     return;
   }
 
-  if (current.type === "home") renderHome();
+  if (current.type === "home") {
+    // The redesigned homepage (ttc-home.js) mounts into #ttc-main and owns
+    // #mainContent. Skip the legacy client home render when that mount point is
+    // present so the two renderers don't fight over the same container.
+    if (!document.getElementById("ttc-main")) renderHome();
+  }
   else if (current.type === "artists") renderArtistsIndex();
   else if (current.type === "artist") renderArtist(current.artist);
   else if (current.type === "guides") renderGuidesIndex();

@@ -1079,7 +1079,7 @@ function renderShowCard(show, options = {}) {
     const showId = String(show.id || "").trim();
     if (ticketmasterUrl && showId) {
       const params = new URLSearchParams({ showId, provider: "ticketmaster" });
-      const cta = buttonLink("Open verified event ticket link", `/api/out?${params.toString()}`, "primary");
+      const cta = buttonLink("View tickets", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";
       cta.rel = "noopener";
       if (eventVerifiedDate) {

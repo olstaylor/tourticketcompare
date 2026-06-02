@@ -1536,7 +1536,8 @@ assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mar
 
 // Fully-verified artist (Morgan Wallen) must remain indexable and keep its event CTAs
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
-assert(serverMorganWithoutSeatGeek.text.includes("View event ticket link"), "/artists/morgan-wallen (indexable) must still show event CTA buttons");
+assert(serverMorganWithoutSeatGeek.text.includes(">View tickets</a>"), "/artists/morgan-wallen (indexable) must still show event CTA buttons with the 'View tickets' label");
+assert(/provider=ticketmaster"\s+target="_blank"\s+rel="noopener"/.test(serverMorganWithoutSeatGeek.text), "server-rendered verified event CTA should open in a new tab to match client behaviour");
 
 console.log("indexable artist verification passed for bruno-mars");
 

@@ -316,8 +316,8 @@ function ticketLinksForArtist(catalog, artistSlug) {
   );
 }
 
-function anchor(label, href, className = "text-link") {
-  return `<a class="${escapeAttr(className)}" href="${escapeAttr(href)}">${escapeHtml(label)}</a>`;
+function anchor(label, href, className = "text-link", attrs = "") {
+  return `<a class="${escapeAttr(className)}" href="${escapeAttr(href)}"${attrs ? ` ${attrs}` : ""}>${escapeHtml(label)}</a>`;
 }
 
 function renderBreadcrumbHtml(route) {
@@ -703,12 +703,12 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.</p>`;
   } else if (validUrl && show.id) {
-    const ticketmasterCta = `${anchor("View event ticket link", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary")}`;
+    const ticketmasterCta = `${anchor("View tickets", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}`;
     const disclosure = `<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`;
 
     // SeatGeek CTA appears only when redirects are configured and /api/out can resolve the stored event-level SeatGeek URL.
     if (seatGeekOutAvailable(show, seatGeekAvailable)) {
-      const seatGeekCta = `${anchor("Check SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-secondary")}`;
+      const seatGeekCta = `${anchor("Check SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-secondary", 'target="_blank" rel="noopener"')}`;
       ctaHtml = `<div class="cta-group">${ticketmasterCta}${seatGeekCta}</div><p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>`;
     } else {
       ctaHtml = `${ticketmasterCta}${disclosure}`;

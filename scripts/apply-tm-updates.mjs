@@ -79,6 +79,60 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+const COUNTRY_NORMALIZATIONS = new Map([
+  ['united states of america', 'United States']
+]);
+
+const SAFE_STATUS_CODES = new Set(['onsale', 'offsale']);
+
+function normalizeCountryName(value) {
+  const raw = clean(value);
+  return COUNTRY_NORMALIZATIONS.get(raw.toLowerCase()) || raw;
+}
+
+function asciiJson(value) {
+  return JSON.stringify(value, null, 2).replace(/[^\x00-\x7F]/g, (char) => {
+    return [...char]
+      .map((part) => {
+        const code = part.codePointAt(0);
+        if (code <= 0xffff) return `\\u${code.toString(16).padStart(4, '0')}`;
+        const offset = code - 0x10000;
+        const high = 0xd800 + (offset >> 10);
+        const low = 0xdc00 + (offset & 0x3ff);
+        return `\\u${high.toString(16).padStart(4, '0')}\\u${low.toString(16).padStart(4, '0')}`;
+      })
+      .join('');
+  });
+}
+
+function words(value) {
+  return clean(value)
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .split(/[^a-z0-9]+/)
+    .filter(Boolean);
+}
+
+function meaningfulArtistTokens(name) {
+  return words(name).filter((token) => token.length >= 3 && !['the', 'and', 'with'].includes(token));
+}
+
+function remoteTextForIdentity(data) {
+  const parts = [data?.name];
+  for (const attraction of data?._embedded?.attractions || []) {
+    parts.push(attraction?.name);
+  }
+  return words(parts.join(' '));
+}
+
+function identityLooksSafe(event, data) {
+  const artistTokens = meaningfulArtistTokens(event.artist_name);
+  if (artistTokens.length === 0) return true;
+  const remoteTokens = new Set(remoteTextForIdentity(data));
+  return artistTokens.every((token) => remoteTokens.has(token));
+}
+
 function today() {
   return new Date().toISOString().slice(0, 10);
 }
@@ -157,6 +211,20 @@ function computeUpdates(event, remote) {
   const data = remote?.data;
   if (!data) return { applied, review };
 
+  const remoteStatus = clean(data?.dates?.status?.code).toLowerCase();
+  if (remoteStatus && !SAFE_STATUS_CODES.has(remoteStatus)) {
+    review.push({ kind: 'status', detail: `Ticketmaster status='${remoteStatus}' (no safe local enum) — confirm cancel/postpone handling` });
+    return { applied, review };
+  }
+
+  if (!identityLooksSafe(event, data)) {
+    review.push({
+      kind: 'identity_mismatch',
+      detail: `Ticketmaster event name='${clean(data?.name) || '(missing)'}' does not clearly match local artist='${clean(event.artist_name)}' — confirm event id before syncing`
+    });
+    return { applied, review };
+  }
+
   // --- date / time -----------------------------------------------------------
   const remoteDateTime = clean(data?.dates?.start?.dateTime);
   const localDateTime = clean(event.datetime_iso);
@@ -183,7 +251,7 @@ function computeUpdates(event, remote) {
     applied.push({ field: 'city', from: clean(event.city), to: remoteCity });
     event.city = remoteCity;
   }
-  const remoteCountry = clean(venue?.country?.name);
+  const remoteCountry = normalizeCountryName(venue?.country?.name);
   if (remoteCountry && remoteCountry.toLowerCase() !== clean(event.country).toLowerCase()) {
     applied.push({ field: 'country', from: clean(event.country), to: remoteCountry });
     event.country = remoteCountry;
@@ -198,12 +266,6 @@ function computeUpdates(event, remote) {
     if (event.provider_links?.ticketmaster && typeof event.provider_links.ticketmaster === 'object') {
       event.provider_links.ticketmaster.url = refreshedUrl;
     }
-  }
-
-  // --- review-only signals (never auto-applied) ------------------------------
-  const remoteStatus = clean(data?.dates?.status?.code).toLowerCase();
-  if (remoteStatus && remoteStatus !== 'onsale' && remoteStatus !== 'offsale') {
-    review.push({ kind: 'status', detail: `Ticketmaster status='${remoteStatus}' (no safe local enum) — confirm cancel/postpone handling` });
   }
 
   return { applied, review };
@@ -285,7 +347,7 @@ async function main() {
   }
 
   if (updatedEvents.length && !dryRun) {
-    const output = JSON.stringify(events, null, 2) + '\n';
+    const output = asciiJson(events) + '\n';
     await fs.writeFile(eventsPath, output);
     console.log(`\n${path.basename(eventsPath.pathname)} updated.`);
   } else if (dryRun) {

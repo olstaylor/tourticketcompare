@@ -1889,7 +1889,10 @@ function renderNotFound() {
 
 async function loadCatalog() {
   try {
-    const response = await fetch("/data/catalog.json", { cache: "no-store" });
+    // Default cache mode respects the CDN cache headers (public/_headers gives
+    // catalog.json a 30-min max-age) and lets the <link rel="preload"> in the shell
+    // actually be reused. "no-store" previously bypassed both, forcing a second fetch.
+    const response = await fetch("/data/catalog.json");
     if (!response.ok) return await loadFallbackCatalog();
     const data = await response.json();
     if (!data || !Array.isArray(data.artists)) return await loadFallbackCatalog();

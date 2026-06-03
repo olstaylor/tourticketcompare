@@ -960,6 +960,15 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i,
     `<meta property="og:url" content="${escapeAttr(canonicalUrl)}" />`
   );
+  const ogImageUrl = `${origin}/og-image.png`;
+  next = next.replace(
+    /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i,
+    `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`
+  );
+  next = next.replace(
+    /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/i,
+    `<meta name="twitter:image" content="${escapeAttr(ogImageUrl)}" />`
+  );
   next = next.replace(
     /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/i,
     `<meta name="twitter:title" content="${escapeAttr(route.title)}" />`

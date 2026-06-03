@@ -79,6 +79,10 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `impact_
 - Permission to ingest or publicly display provider pricing data
 - Permission to claim price comparison unless an approved feed explicitly supplies displayable pricing
 
+**Ticketmaster is an event-verification and link source, not a price source.** Do not present Ticketmaster data as a price or as a price comparison.
+
+**Catalog capability flags are inert metadata.** The `pricing_type`, `supports_pricing`, `price_aggregation`, and `real_time_inventory` fields in `public/data/catalog.json` describe what a provider's API *could* do — they do **not** mean prices are displayed. Public price display is gated solely by `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` / `SEATGEEK_PRICE_DISPLAY_ENABLED` (both OFF) and, for SeatGeek, the written-permission conditions above. Never read these flags as authorization to show prices.
+
 **Impact credentials required for:**
 - `GET /api/impact/health` to return `ok: true`
 - `GET /api/impact/products` to return product feed data

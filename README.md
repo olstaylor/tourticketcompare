@@ -1,5 +1,7 @@
 # TourTicketCompare
 
+_Reviewed current: 2026-06-03._
+
 Independent, unofficial fan-facing ticket research site for major live music tours.
 
 Live at **[tourticketcompare.com](https://tourticketcompare.com)** and **[www.tourticketcompare.com](https://www.tourticketcompare.com)** (redirects to apex).

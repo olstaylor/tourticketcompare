@@ -1,6 +1,8 @@
 # TourTicketCompare Content Rules
 
-Rules for what can and cannot be published on TourTicketCompare. These apply to all human and AI contributors.
+_Reviewed current: 2026-06-03._
+
+Rules for what can and cannot be published on TourTicketCompare. These apply to all human and AI contributors. For provider/price-display rights and the inert-catalog-metadata rule, see `SAFE_PUBLISHING_RULES.md` and `docs/PROVIDER_DATA_POLICY.md`.
 
 ---
 

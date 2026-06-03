@@ -1,5 +1,7 @@
 # Contributing
 
+_Reviewed current: 2026-06-03._
+
 Practical guide for working on TourTicketCompare. Start by reading [CLAUDE.md](CLAUDE.md) → [PROJECT_STATUS.md](PROJECT_STATUS.md) → [BACKLOG.md](BACKLOG.md).
 
 For workflow guidance, see [docs/AI_AGENT_WORKFLOW.md](docs/AI_AGENT_WORKFLOW.md). For a quick validation checklist, see [docs/VALIDATION_CHECKLIST.md](docs/VALIDATION_CHECKLIST.md).

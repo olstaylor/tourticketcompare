@@ -14,6 +14,8 @@ This document describes the repo architecture as confirmed by reading the source
 | Standalone Worker | `tourticketcompare-live` — legacy; no longer serving production custom domains | Superseded 2026-05-11 |
 | Vercel | Not production; legacy artifacts only via `api/` + `vercel.json` | Not in use |
 
+**Canonical deployment model (issue #176): Cloudflare Pages + Pages Functions is the only production deployment path.** The Vercel artefacts (`vercel.json`, `api/`), the standalone Worker builder (`scripts/build-standalone-worker.mjs`), and `archive/vercel-experimental/` are non-production and retained pending the #176 audit; do not add Vercel- or Worker-specific logic. D1 bindings are limited to `DEMAND_DB` (no `RATE_LIMIT_DB`, no `CLICKS_DB`).
+
 **Production deploy path:** Changes to `functions/` or `public/` committed to `main` deploy to production via `npm run deploy:pages` (or automatically if Cloudflare Pages Git integration is active). No Worker rebuild is required for normal production changes.
 
 ---

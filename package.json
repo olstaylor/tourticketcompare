@@ -30,6 +30,7 @@
     "providers:validate": "node scripts/validate-provider-structure.js",
     "validate:provider-allowlists": "node scripts/validate-provider-allowlists.mjs",
     "providers:enrich": "node scripts/enrich-events-with-provider-links.js",
+    "providers:parity": "node scripts/report-provider-parity.mjs",
     "test:providers": "npm run providers:validate",
     "data:stats": "node scripts/report-data-stats.mjs",
     "audit:links": "node scripts/verify-outbound-links.mjs",

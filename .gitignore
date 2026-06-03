@@ -4,8 +4,9 @@ node_modules/
 .env
 .DS_Store
 
-# Generated SeatGeek proposal output
+# Generated SeatGeek proposal output (dry-run candidates; uploaded separately, not committed)
 reports/seatgeek-url-candidates.json
+reports/seatgeek-*.json
 
 # Generated artist-import proposal output (dry-run candidates)
 candidates/

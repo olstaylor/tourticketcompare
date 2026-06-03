@@ -936,6 +936,17 @@ assert(recheckTaggedPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_S
 //    copy while verified provider links exist on it.
 assert(!serverMorganWithSeatGeek.text.includes(TM_RECHECK_HIDDEN_COPY), "server-rendered artist page with verified links must not contain Ticketmaster recheck-hidden copy");
 
+// 4. Cache-bust guard: app.js is loaded unhashed on this no-build static site, so
+//    a fix that lives only in app.js (e.g. removing client-side suppression) does
+//    not reach returning visitors until their cached copy expires — the bundle
+//    must carry a version query so the HTML (served fresh) forces every browser
+//    onto the new file immediately. Regression 2026-06-03: the suppression fix
+//    shipped but stale cached app.js kept re-hiding CTAs during hydration.
+const shellHtml = await read("public/index.html");
+const appScriptRef = shellHtml.match(/<script\s+src="\/app\.js[^"]*"/);
+assert(appScriptRef, "index.html must load /app.js");
+assert(/\/app\.js\?v=/.test(appScriptRef[0]), "index.html must load app.js with a ?v= cache-busting version so app.js-only fixes reach returning visitors without waiting for cache expiry");
+
 const bulkPriceResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?includePrices=true"),
   env

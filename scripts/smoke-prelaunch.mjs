@@ -888,6 +888,54 @@ assert(appJs.includes("SeatGeek sets prices, fees, availability, and checkout te
 assert(appJs.includes("No verified ticket link is available for this date."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
+// --- Regression guard: transient Ticketmaster sync/recheck state must never
+// suppress public CTAs (production regression 2026-06-03). A data-sync or audit
+// workflow must not be able to hide working provider CTAs. CTA suppression may
+// only come from explicit, reviewed provider/link fields — never from
+// transient review state, and never globally across providers. ---
+const TM_RECHECK_HIDDEN_COPY = "Ticketmaster link temporarily hidden while";
+
+// 1. Source-level guard: the renderer-facing CTA kill-switch artifact and the
+//    code that read it must not be reintroduced. The original regression slipped
+//    past behavioural tests because the suppression artifact (`/data/tm-cta-suppression.json`)
+//    was served in production but not mocked in this smoke env, so suppression
+//    silently no-op'd in tests while hiding ~256/272 CTAs in production. Guard at
+//    the source so the pattern cannot return unnoticed.
+const pathSource = await read("functions/[[path]].js");
+assert(!(await fileExists("public/data/tm-cta-suppression.json")), "renderer-facing Ticketmaster CTA suppression artifact must not exist; CTA suppression must come from reviewed provider/link fields only");
+for (const [label, src] of [["functions/[[path]].js", pathSource], ["public/app.js", appJs]]) {
+  assert(!/tm-cta-suppression/i.test(src), `${label} must not load a transient Ticketmaster CTA suppression artifact`);
+  assert(!/ticketmaster_cta_suppressed|ticketmasterCtaSuppress/i.test(src), `${label} must not gate CTAs on transient Ticketmaster suppression state`);
+  assert(!src.includes(TM_RECHECK_HIDDEN_COPY), `${label} must not render broad "Ticketmaster link temporarily hidden" recheck copy that can blanket-hide CTAs`);
+}
+
+// 2. Behavioural guard: even if an event carries transient review/recheck state
+//    (verification_status: needs_recheck, plus a stray suppression flag), the
+//    server-rendered page must still show the verified Ticketmaster AND SeatGeek
+//    CTAs, and must NOT show the recheck-hidden copy. Provider rendering is
+//    provider-specific, not globally gated by Ticketmaster review status.
+const recheckTaggedEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? { ...event, verification_status: "needs_recheck", ticketmaster_cta_suppressed: true, needs_recheck: true }
+  : event));
+const recheckTaggedEnv = {
+  ...seatGeekBaseTrackingEnv,
+  ASSETS: {
+    async fetch(request) {
+      const url = new URL(request.url);
+      if (url.pathname === "/data/events.json") return new Response(recheckTaggedEventsJson, { status: 200 });
+      return seatGeekBaseTrackingEnv.ASSETS.fetch(request);
+    }
+  }
+};
+const recheckTaggedPage = await routeResponse("/artists/morgan-wallen", recheckTaggedEnv);
+assert(!recheckTaggedPage.text.includes(TM_RECHECK_HIDDEN_COPY), "transient recheck state must not render the Ticketmaster-hidden recheck copy on public pages");
+assert(recheckTaggedPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "verified Ticketmaster CTA must survive transient recheck/review state");
+assert(recheckTaggedPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "SeatGeek CTA must never be hidden by Ticketmaster recheck/review state");
+
+// 3. Whole-page guard: no public artist page should ever ship the recheck-hidden
+//    copy while verified provider links exist on it.
+assert(!serverMorganWithSeatGeek.text.includes(TM_RECHECK_HIDDEN_COPY), "server-rendered artist page with verified links must not contain Ticketmaster recheck-hidden copy");
+
 const bulkPriceResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?includePrices=true"),
   env

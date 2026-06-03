@@ -74,6 +74,27 @@ async function loadEvents(env) {
   }
 }
 
+async function loadTicketmasterCtaSuppression(env) {
+  try {
+    const response = await env.ASSETS.fetch(new Request("https://assets.local/data/tm-cta-suppression.json"));
+    if (!response.ok) return new Set();
+    const data = await response.json();
+    const ids = Array.isArray(data?.suppressed_event_ids) ? data.suppressed_event_ids : [];
+    return new Set(ids.map((id) => String(id || "").trim()).filter(Boolean));
+  } catch (error) {
+    return new Set();
+  }
+}
+
+function applyTicketmasterCtaSuppression(events, suppressedEventIds) {
+  if (!suppressedEventIds || suppressedEventIds.size === 0) return events;
+  return events.map((event) => {
+    const id = String(event?.id || "").trim();
+    if (!id || !suppressedEventIds.has(id)) return event;
+    return { ...event, ticketmaster_cta_suppressed: true };
+  });
+}
+
 async function loadArtistsMeta(env) {
   try {
     const response = await env.ASSETS.fetch(new Request("https://assets.local/data/artists.json"));
@@ -616,7 +637,8 @@ function futureShowsForArtist(events, artistSlug, limit) {
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
       seatgeek_url: String(ev.seatgeek_url || "").trim(),
       last_verified_at: String(ev.last_verified_at || "").trim(),
-      verification_status: String(ev.verification_status || "").trim()
+      verification_status: String(ev.verification_status || "").trim(),
+      ticketmaster_cta_suppressed: ev.ticketmaster_cta_suppressed === true
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -702,7 +724,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.</p>`;
-  } else if (validUrl && show.id) {
+  } else if (validUrl && show.id && show.ticketmaster_cta_suppressed !== true) {
     const ticketmasterCta = `${anchor("View tickets", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}`;
     const disclosure = `<p class="disclosure-note">External ticketing sites set prices, fees, availability, and checkout terms.</p>`;
 
@@ -713,6 +735,8 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     } else {
       ctaHtml = `${ticketmasterCta}${disclosure}`;
     }
+  } else if (show.ticketmaster_cta_suppressed === true) {
+    ctaHtml = `<p class="disclosure-note">Ticketmaster link temporarily hidden while this event is rechecked.</p>`;
   }
 
   const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
@@ -1247,7 +1271,9 @@ export async function onRequest(context) {
 
   const catalog = await loadCatalog(env);
   const needsEvents = route.type === "artist" || route.path === "/artists" || route.path === "/";
-  const events = needsEvents ? await loadEvents(env) : [];
+  const rawEvents = needsEvents ? await loadEvents(env) : [];
+  const suppressedEventIds = needsEvents ? await loadTicketmasterCtaSuppression(env) : new Set();
+  const events = needsEvents ? applyTicketmasterCtaSuppression(rawEvents, suppressedEventIds) : [];
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
   const injected = injectRoute(html, route, url.origin, catalog, events, guideContent, env);
   const headers = new Headers(indexResponse.headers);

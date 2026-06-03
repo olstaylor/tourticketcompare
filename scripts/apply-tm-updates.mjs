@@ -83,7 +83,7 @@ const COUNTRY_NORMALIZATIONS = new Map([
   ['united states of america', 'United States']
 ]);
 
-const SAFE_STATUS_CODES = new Set(['onsale', 'offsale']);
+const SAFE_AUTO_STATUS_CODES = new Set(['onsale']);
 
 function normalizeCountryName(value) {
   const raw = clean(value);
@@ -203,72 +203,185 @@ async function fetchEvent(apiKey, base, eventId) {
   }
 }
 
-// Build the set of safe, lossless field updates for one event from its remote
-// Ticketmaster record. Returns { applied: [...], review: [...] }.
-function computeUpdates(event, remote) {
-  const applied = [];
-  const review = [];
+// Build the lossless field updates that would be written for one event from
+// its remote Ticketmaster record. This function is intentionally side-effect
+// free: callers must first prove there are no review-only blockers, then apply
+// the returned changes.
+function computeIntendedUpdates(event, remote) {
+  const changes = [];
   const data = remote?.data;
-  if (!data) return { applied, review };
-
-  const remoteStatus = clean(data?.dates?.status?.code).toLowerCase();
-  if (remoteStatus && !SAFE_STATUS_CODES.has(remoteStatus)) {
-    review.push({ kind: 'status', detail: `Ticketmaster status='${remoteStatus}' (no safe local enum) — confirm cancel/postpone handling` });
-    return { applied, review };
-  }
-
-  if (!identityLooksSafe(event, data)) {
-    review.push({
-      kind: 'identity_mismatch',
-      detail: `Ticketmaster event name='${clean(data?.name) || '(missing)'}' does not clearly match local artist='${clean(event.artist_name)}' — confirm event id before syncing`
-    });
-    return { applied, review };
-  }
+  if (!data) return changes;
 
   // --- date / time -----------------------------------------------------------
   const remoteDateTime = clean(data?.dates?.start?.dateTime);
   const localDateTime = clean(event.datetime_iso);
   if (remoteDateTime && remoteDateTime !== localDateTime) {
-    applied.push({ field: 'datetime_iso', from: localDateTime, to: remoteDateTime });
-    event.datetime_iso = remoteDateTime;
+    changes.push({ field: 'datetime_iso', from: localDateTime, to: remoteDateTime });
   }
 
   const remoteTz = clean(data?.dates?.timezone);
   if (remoteTz && remoteTz.includes('/') && remoteTz !== clean(event.timezone)) {
-    applied.push({ field: 'timezone', from: clean(event.timezone), to: remoteTz });
-    event.timezone = remoteTz;
+    changes.push({ field: 'timezone', from: clean(event.timezone), to: remoteTz });
   }
 
   // --- venue / city / country ------------------------------------------------
   const venue = data?._embedded?.venues?.[0] || null;
   const remoteVenue = clean(venue?.name);
   if (remoteVenue && remoteVenue.toLowerCase() !== clean(event.venue).toLowerCase()) {
-    applied.push({ field: 'venue', from: clean(event.venue), to: remoteVenue });
-    event.venue = remoteVenue;
+    changes.push({ field: 'venue', from: clean(event.venue), to: remoteVenue });
   }
   const remoteCity = clean(venue?.city?.name);
   if (remoteCity && remoteCity.toLowerCase() !== clean(event.city).toLowerCase()) {
-    applied.push({ field: 'city', from: clean(event.city), to: remoteCity });
-    event.city = remoteCity;
+    changes.push({ field: 'city', from: clean(event.city), to: remoteCity });
   }
   const remoteCountry = normalizeCountryName(venue?.country?.name);
   if (remoteCountry && remoteCountry.toLowerCase() !== clean(event.country).toLowerCase()) {
-    applied.push({ field: 'country', from: clean(event.country), to: remoteCountry });
-    event.country = remoteCountry;
+    changes.push({ field: 'country', from: clean(event.country), to: remoteCountry });
   }
 
   // --- canonical URL refresh (keeps the out.js event-id match valid) ----------
   const refreshedUrl = safeTicketmasterUrl(data?.url, event.ticketmaster_event_id);
   if (refreshedUrl && refreshedUrl !== clean(event.ticketmaster_url)) {
-    applied.push({ field: 'ticketmaster_url', from: clean(event.ticketmaster_url), to: refreshedUrl });
-    event.ticketmaster_url = refreshedUrl;
-    event.source_url = refreshedUrl;
-    if (event.provider_links?.ticketmaster && typeof event.provider_links.ticketmaster === 'object') {
-      event.provider_links.ticketmaster.url = refreshedUrl;
-    }
+    changes.push({ field: 'ticketmaster_url', from: clean(event.ticketmaster_url), to: refreshedUrl });
   }
 
-  return { applied, review };
+  return changes;
+}
+
+function summarizeEvent(event, ticketmasterEventId, data = null) {
+  return {
+    id: event.id,
+    ticketmaster_event_id: ticketmasterEventId,
+    artist_slug: clean(event.artist_slug),
+    local_event_name: clean(event.event_name),
+    ticketmaster_status: clean(data?.dates?.status?.code).toLowerCase() || null
+  };
+}
+
+function reviewItem(event, ticketmasterEventId, data, kind, detail, intendedChanges = [], recommendedAction = 'Review the Ticketmaster response and update local event data by PR only after human verification.') {
+  return {
+    ...summarizeEvent(event, ticketmasterEventId, data),
+    kind,
+    reason: kind,
+    detail,
+    intendedChanges,
+    recommendedAction
+  };
+}
+
+function computeReviewBlockers(event, remote) {
+  const data = remote?.data;
+  const id = clean(event.ticketmaster_event_id);
+  const blockers = [];
+  if (!data || typeof data !== 'object') {
+    blockers.push(reviewItem(
+      event,
+      id,
+      data,
+      'ambiguous_api_response',
+      'Ticketmaster response did not contain a usable event object.',
+      [],
+      'Re-run after confirming the API response; do not change local data automatically.'
+    ));
+    return blockers;
+  }
+
+  const remoteId = clean(data.id);
+  if (!remoteId || remoteId.toLowerCase() !== id.toLowerCase()) {
+    blockers.push(reviewItem(
+      event,
+      id,
+      data,
+      'identity_mismatch',
+      `Ticketmaster response id='${remoteId || '(missing)'}' did not match local ticketmaster_event_id='${id}'.`,
+      [],
+      'Confirm the event id in Ticketmaster and update local data by PR only if the id is still correct.'
+    ));
+  }
+
+  const remoteStatus = clean(data?.dates?.status?.code).toLowerCase();
+  if (!remoteStatus) {
+    blockers.push(reviewItem(
+      event,
+      id,
+      data,
+      'unknown_status',
+      'Ticketmaster response did not include a status code.',
+      [],
+      'Confirm the event status manually before any local mutation.'
+    ));
+  } else if (!SAFE_AUTO_STATUS_CODES.has(remoteStatus)) {
+    const kind = ['rescheduled', 'postponed', 'cancelled', 'canceled', 'offsale', 'unknown'].includes(remoteStatus)
+      ? 'status'
+      : 'unknown_status';
+    blockers.push(reviewItem(
+      event,
+      id,
+      data,
+      kind,
+      `Ticketmaster status='${remoteStatus}' is review-only and has no safe automatic local mutation.`,
+      [],
+      'Confirm whether the local event should be retained, removed, or copy-adjusted via PR.'
+    ));
+  }
+
+  if (!identityLooksSafe(event, data)) {
+    blockers.push(reviewItem(
+      event,
+      id,
+      data,
+      'identity_mismatch',
+      `Ticketmaster event name='${clean(data?.name) || '(missing)'}' does not clearly match local artist='${clean(event.artist_name)}'.`,
+      [],
+      'Confirm the Ticketmaster event is the same local event before syncing any fields.'
+    ));
+  }
+
+  if (!clean(data?.dates?.start?.dateTime)) {
+    blockers.push(reviewItem(
+      event,
+      id,
+      data,
+      'ambiguous_api_response',
+      'Ticketmaster response did not include a clear ISO start date/time.',
+      [],
+      'Confirm date/time manually before any local mutation.'
+    ));
+  }
+
+  const venues = data?._embedded?.venues;
+  if (!Array.isArray(venues) || venues.length !== 1) {
+    blockers.push(reviewItem(
+      event,
+      id,
+      data,
+      'ambiguous_api_response',
+      `Ticketmaster response included ${Array.isArray(venues) ? venues.length : 0} venue record(s); expected exactly 1.`,
+      [],
+      'Confirm venue manually before any local mutation.'
+    ));
+  }
+
+  return blockers;
+}
+
+function attachIntendedChanges(reviewItems, intendedChanges) {
+  if (!intendedChanges.length) return reviewItems;
+  return reviewItems.map((item) => ({ ...item, intendedChanges }));
+}
+
+function applyChanges(event, changes) {
+  for (const change of changes) {
+    if (change.field === 'ticketmaster_url') {
+      event.ticketmaster_url = change.to;
+      event.source_url = change.to;
+      if (event.provider_links?.ticketmaster && typeof event.provider_links.ticketmaster === 'object') {
+        event.provider_links.ticketmaster.url = change.to;
+      }
+      continue;
+    }
+    event[change.field] = change.to;
+  }
 }
 
 function stampVerified(event) {
@@ -286,7 +399,15 @@ async function main() {
     console.log('TICKETMASTER_API_KEY not set; apply-tm-updates is a no-op.');
     if (jsonOutPath) {
       await fs.mkdir(path.dirname(jsonOutPath), { recursive: true }).catch(() => {});
-      await fs.writeFile(jsonOutPath, JSON.stringify({ status: 'skipped', reason: 'TICKETMASTER_API_KEY not set' }, null, 2));
+      await fs.writeFile(jsonOutPath, JSON.stringify({
+        status: 'skipped',
+        reason: 'TICKETMASTER_API_KEY not set',
+        updates: [],
+        reviewItems: [],
+        errors: [],
+        blockedUpdateIds: [],
+        summary: { checked: 0, updated: 0, reviewItems: 0, errors: 0, blockedUpdateIds: 0, autoCommitSafe: false }
+      }, null, 2));
     }
     return;
   }
@@ -299,9 +420,10 @@ async function main() {
   );
   console.log(`Checking ${targets.length} tracked event(s) across ${indexed.size} indexed artist(s)...`);
 
-  const updatedEvents = [];
+  const updates = [];
   const reviewItems = [];
   const errors = [];
+  const blockedUpdateIds = [];
   let checked = 0;
 
   for (const event of targets) {
@@ -310,43 +432,71 @@ async function main() {
     checked += 1;
 
     if (result.exists === false) {
-      reviewItems.push({ id: event.id, ticketmaster_event_id: id, kind: 'deleted', detail: `Ticketmaster returned ${result.status} — event no longer exists` });
+      reviewItems.push(reviewItem(
+        event,
+        id,
+        null,
+        'deleted',
+        `Ticketmaster returned ${result.status} — event is review-only and must not be removed or mutated automatically.`,
+        [],
+        'Confirm the show is genuinely gone, then remove or update the event and any CTA by PR.'
+      ));
     } else if (result.exists === null) {
-      errors.push({ id: event.id, ticketmaster_event_id: id, error: result.error, status: result.status });
+      errors.push({
+        ...summarizeEvent(event, id),
+        error: result.error,
+        status: result.status,
+        recommendedAction: 'Retry on the next run; do not commit any data changes from a run with errors.'
+      });
     } else {
-      const { applied, review } = computeUpdates(event, result);
-      if (applied.length) {
+      const intendedChanges = computeIntendedUpdates(event, result);
+      const blockers = attachIntendedChanges(computeReviewBlockers(event, result), intendedChanges);
+      if (blockers.length) {
+        reviewItems.push(...blockers);
+        if (intendedChanges.length) blockedUpdateIds.push(event.id);
+      } else if (intendedChanges.length) {
+        applyChanges(event, intendedChanges);
         stampVerified(event);
-        updatedEvents.push({ id: event.id, ticketmaster_event_id: id, changes: applied });
+        updates.push({
+          ...summarizeEvent(event, id, result.data),
+          changes: intendedChanges
+        });
       }
-      for (const r of review) reviewItems.push({ id: event.id, ticketmaster_event_id: id, ...r });
     }
     if (requestDelayMs > 0) await sleep(requestDelayMs);
   }
 
+  const summary = {
+    checked,
+    updated: updates.length,
+    reviewItems: reviewItems.length,
+    errors: errors.length,
+    blockedUpdateIds: blockedUpdateIds.length,
+    autoCommitSafe: updates.length > 0 && reviewItems.length === 0 && errors.length === 0 && blockedUpdateIds.length === 0
+  };
+
   const report = {
     checked_at: new Date().toISOString(),
     dry_run: dryRun,
-    totals: {
-      checked,
-      events_updated: updatedEvents.length,
-      review_items: reviewItems.length,
-      errors: errors.length
-    },
-    updated: updatedEvents,
-    review: reviewItems,
-    errors
+    updates,
+    reviewItems,
+    errors,
+    blockedUpdateIds,
+    summary
   };
 
-  console.log(`\nResult: ${updatedEvents.length} event(s) updated, ${reviewItems.length} review item(s), ${errors.length} error(s).`);
-  for (const u of updatedEvents) {
+  console.log(`\nResult: ${updates.length} event(s) updated, ${reviewItems.length} review item(s), ${errors.length} error(s), ${blockedUpdateIds.length} blocked update id(s).`);
+  for (const u of updates) {
     console.log(`  updated ${u.id}: ${u.changes.map((c) => c.field).join(', ')}`);
+  }
+  for (const id of blockedUpdateIds) {
+    console.log(`  blocked update ${id}`);
   }
   for (const r of reviewItems) {
     console.log(`  review  ${r.id} [${r.kind}]: ${r.detail}`);
   }
 
-  if (updatedEvents.length && !dryRun) {
+  if (updates.length && !dryRun) {
     const output = asciiJson(events) + '\n';
     await fs.writeFile(eventsPath, output);
     console.log(`\n${path.basename(eventsPath.pathname)} updated.`);

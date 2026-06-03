@@ -74,25 +74,54 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # Validation gates the commit: if events.json is invalid, the job fails
-      # here and nothing is committed or pushed.
+      - name: Evaluate sync report commit gate
+        id: gate
+        run: |
+          node <<'NODE' >> "$GITHUB_OUTPUT"
+          const fs = require('node:fs');
+          const reportPath = '.audit/tm-sync.json';
+          if (!fs.existsSync(reportPath)) {
+            console.log('updated=0');
+            console.log('review_items=0');
+            console.log('errors=1');
+            console.log('blocked_updates=0');
+            console.log('commit_allowed=false');
+            throw new Error(`${reportPath} was not written; refusing to commit`);
+          }
+          const report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+          const updated = Number(report?.summary?.updated ?? report?.updates?.length ?? 0);
+          const reviewItems = Number(report?.summary?.reviewItems ?? report?.reviewItems?.length ?? 0);
+          const errors = Number(report?.summary?.errors ?? report?.errors?.length ?? 0);
+          const blockedUpdates = Number(report?.summary?.blockedUpdateIds ?? report?.blockedUpdateIds?.length ?? 0);
+          const commitAllowed = updated > 0 && errors === 0 && blockedUpdates === 0 && reviewItems === 0;
+          console.log(`updated=${updated}`);
+          console.log(`review_items=${reviewItems}`);
+          console.log(`errors=${errors}`);
+          console.log(`blocked_updates=${blockedUpdates}`);
+          console.log(`commit_allowed=${commitAllowed ? 'true' : 'false'}`);
+          console.error(`TM sync gate: updated=${updated}, reviewItems=${reviewItems}, errors=${errors}, blockedUpdates=${blockedUpdates}, commitAllowed=${commitAllowed}`);
+          NODE
+
+      # Validation and smoke tests gate the commit: if any check fails, nothing
+      # is committed or pushed. Any review item, blocked update, or error keeps
+      # commit_allowed=false and still allows the review issue/artifact steps.
       - name: Validate events (production rules)
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true'
         run: npm run events:validate:prod
 
       - name: Regenerate inline fallback and partitions
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true'
         run: |
           npm run events:sync
           npm run events:partition
           npm run events:validate:partitions
 
       - name: Run smoke tests before push
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true'
         run: npm run test:mvp
 
       - name: Commit and push to main
-        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
+        if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true' && inputs.dry_run != true
         run: |
           TODAY=$(date -u +%Y-%m-%d)
           git config user.name "tourticketcompare-bot"
@@ -101,8 +130,8 @@ jobs:
           git commit -m "Nightly data sync: refresh tracked event dates/venues (${TODAY})"
           git push origin HEAD:main
 
-      - name: Post review issue (deletions / cancellations)
-        if: inputs.dry_run != true
+      - name: Post review issue (review-only blockers)
+        if: always() && inputs.dry_run != true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/report-tm-sync-review.mjs --report .audit/tm-sync.json --repo "${GITHUB_REPOSITORY}"
@@ -112,5 +141,7 @@ jobs:
         if: always()
         with:
           name: nightly-data-sync-${{ github.run_id }}
-          path: .audit/
+          path: .audit/tm-sync.json
+          if-no-files-found: warn
+          include-hidden-files: true
           retention-days: 30

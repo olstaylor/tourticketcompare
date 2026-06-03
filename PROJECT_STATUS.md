@@ -67,6 +67,8 @@ Run before committing data, content, or rendering changes:
 3. Reporting via `scripts/daily-audit-report.mjs` into a single rolling GitHub issue (`automation:daily-audit`).
 4. Verification-date bumps via `scripts/bump-verified-dates.mjs`, opening a PR for human review. The TM-skip/failure guard added in PR #182 prevents date bumps when TM data is unavailable.
 
+`.github/workflows/nightly-data-sync.yml` runs at 03:30 UTC and on `workflow_dispatch`. It **auto-commits to `main`** lossless factual updates (date/time, venue/city, refreshed canonical TM URL) for events that already exist in `events.json`, pulled per event id from the Ticketmaster Discovery API via `scripts/apply-tm-updates.mjs`, then regenerates the inline fallback and partitions. The commit is gated on `events:validate:prod` passing. Items that need human judgement — new shows, deletions (404/410), cancelled/postponed status, `tour_name` — are **never auto-applied**; they are surfaced in the rolling `automation:data-sync` issue via `scripts/report-tm-sync-review.mjs`. See `SAFE_PUBLISHING_RULES.md` → "Discovery, Enrichment, and Rendering" for the boundary. (Requires `TICKETMASTER_API_KEY`; no-ops safely if absent.)
+
 `.github/workflows/prelaunch-validation.yml` includes a `stale-sync-guard` that runs `npm run events:sync` on PRs touching `public/data/*.json` and fails if `public/index.html` is stale.
 
 ## Active risks

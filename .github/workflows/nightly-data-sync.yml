@@ -1,0 +1,112 @@
+name: Nightly data sync
+
+# Authoritative nightly field-sync for already-tracked events.
+#
+# Auto-commits lossless date/time + venue/city changes pulled from the
+# Ticketmaster Discovery API for events that already exist in events.json, then
+# regenerates the inline fallback and partitions and pushes to main (Cloudflare
+# Pages auto-deploys). Anything that needs human judgement — brand-new shows,
+# deletions, cancellations, tour names — is NOT auto-published; it is surfaced
+# in the rolling "automation:data-sync" issue / handled by the discovery PR flow.
+#
+# Runs 30 min after daily-audit.yml (03:00 UTC) to avoid Ticketmaster
+# rate-limit collisions.
+
+on:
+  schedule:
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Check and report only; do not write, commit, or push.'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: nightly-data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Prepare report directory
+        run: mkdir -p .audit
+
+      - name: Apply authoritative TM field updates
+        id: apply
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: |
+          DRY=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then DRY="--dry-run"; fi
+          node scripts/apply-tm-updates.mjs $DRY --json .audit/tm-sync.json
+
+      - name: Detect data changes
+        id: diff
+        run: |
+          if git diff --quiet -- public/data/events.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Validation gates the commit: if events.json is invalid, the job fails
+      # here and nothing is committed or pushed.
+      - name: Validate events (production rules)
+        if: steps.diff.outputs.changed == 'true'
+        run: npm run events:validate:prod
+
+      - name: Regenerate inline fallback and partitions
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          npm run events:sync
+          npm run events:partition
+          npm run events:validate:partitions
+
+      - name: Commit and push to main
+        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          git add public/data/events.json public/data/events public/index.html
+          git commit -m "Nightly data sync: refresh tracked event dates/venues (${TODAY})"
+          git push origin HEAD:main
+
+      - name: Post review issue (deletions / cancellations)
+        if: inputs.dry_run != true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/report-tm-sync-review.mjs --report .audit/tm-sync.json --repo "${GITHUB_REPOSITORY}"
+
+      - name: Upload sync artefacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nightly-data-sync-${{ github.run_id }}
+          path: .audit/
+          retention-days: 30

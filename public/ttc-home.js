@@ -254,7 +254,7 @@
   function heroSection(DATA) {
     const chips = DATA.artists.slice(0, 5).map(a => a.name);
     const left = h("div", {}, [
-      h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent ticket-link checks"]),
+      h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Verified ticket options for <em>major tours.</em>' }),
       h("p", { class: "ttc-hero__sub" }, ["Human-checked links to official ticket pages, clear official-vs-resale guidance, and the checks to run before you pay. We don’t sell tickets and we never show live prices."]),
       h("div", { class: "ttc-hero__searchwrap" }, [
@@ -268,14 +268,17 @@
       ])
     ]);
 
-    const feedList = h("div", { class: "ttc-feed__list" }, DATA.feedEvents.map(e => {
+    const feedRows = DATA.feedEvents.map(e => {
       const p = dateParts(e.datetime_iso);
       return h("a", { class: "ttc-evrow", href: "/" + e.artist_slug }, [
         h("span", { class: "ttc-evrow__date" }, [h("span", { class: "d" }, [String(p.day)]), h("span", { class: "m" }, [p.mon])]),
         h("span", { class: "ttc-evrow__body" }, [h("span", { class: "ttc-evrow__a" }, [e.artist_name]), h("span", { class: "ttc-evrow__v" }, [e.venue + ", " + e.city])]),
         h("span", { class: "ttc-pill ttc-pill--info" }, [regionTone(e.country)])
       ]);
-    }));
+    });
+    const feedList = h("div", { class: "ttc-feed__list" }, feedRows.length ? feedRows : [
+      h("div", { class: "ttc-feed__empty" }, ["No upcoming dates are being tracked right now. New dates appear here once they’ve been announced and checked."])
+    ]);
     const feed = h("div", { class: "ttc-feed" }, [
       h("div", { class: "ttc-feed__hd" }, [h("span", { class: "t" }, [pulse(), "Upcoming dates we’re tracking"]), h("span", { class: "ttc-meta" }, [DATA.upcomingCount + " dates"])]),
       feedList,
@@ -324,6 +327,7 @@
   function tableSection(DATA) {
     let tab = "artist", sort = { key: "name", dir: 1 };
     const card = h("div", { class: "ttc-tablecard" });
+    const emptyRow = (cols, msg) => h("tr", {}, [h("td", { colspan: cols, class: "ttc-table__empty" }, [msg])]);
 
     function artistRows() {
       const arr = [...DATA.artists].sort((a, b) => {
@@ -377,11 +381,13 @@
           return th;
         })));
         table.appendChild(thead);
-        table.appendChild(h("tbody", {}, artistRows()));
+        const rows = artistRows();
+        table.appendChild(h("tbody", {}, rows.length ? rows : [emptyRow(6, "No artists to show yet.")]));
       } else {
         thead.appendChild(h("tr", {}, [["Event"],["Venue"],["Date"],["Region"],["Action",true]].map(([lbl, right]) => h("th", { class: right ? "right" : "" }, [lbl]))));
         table.appendChild(thead);
-        table.appendChild(h("tbody", {}, eventRows()));
+        const rows = eventRows();
+        table.appendChild(h("tbody", {}, rows.length ? rows : [emptyRow(5, "No upcoming dates are being tracked right now. Dates appear here once they’ve been announced and checked.")]));
       }
       card.appendChild(table);
     }

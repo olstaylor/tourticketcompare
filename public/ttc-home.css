@@ -81,7 +81,7 @@
 .ttc-btn { display: inline-flex; align-items: center; gap: 7px; font-weight: 700; font-size: 14px; border-radius: 9px; padding: 8px 14px; transition: .14s; white-space: nowrap; }
 .ttc-btn--ghost { color: var(--ttc-ink); border: 1px solid var(--ttc-border-strong); background: var(--ttc-surface); }
 .ttc-btn--ghost:hover { border-color: var(--ttc-muted); }
-.ttc-hamb { display: none; align-items: center; justify-content: center; min-height: 40px; padding: 0 14px; border: 1px solid var(--ttc-border-strong); border-radius: 9px; background: var(--ttc-surface); color: var(--ttc-ink); font-weight: 700; font-size: 14px; }
+.ttc-hamb { display: none; align-items: center; justify-content: center; min-height: 44px; padding: 0 14px; border: 1px solid var(--ttc-border-strong); border-radius: 9px; background: var(--ttc-surface); color: var(--ttc-ink); font-weight: 700; font-size: 14px; }
 .ttc-hamb:hover { border-color: var(--ttc-muted); }
 .ttc-hd__search:empty { display: none; }
 .ttc-nav__extra { display: none; }
@@ -158,6 +158,7 @@
 .ttc-evrow__v { font-size: 12px; color: var(--ttc-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .ttc-feed__ft { padding: 10px 16px; border-top: 1px solid var(--ttc-border); background: color-mix(in oklab, var(--ttc-ink) 2.5%, transparent); }
 .ttc-feed__ft .ttc-meta { white-space: normal; line-height: 1.5; }
+.ttc-feed__empty { padding: 22px 16px; text-align: center; font-size: 13px; line-height: 1.5; color: var(--ttc-muted); }
 
 /* ============================================================ SIGNAL STRIP */
 .ttc-stats { border-top: 1px solid var(--ttc-border); border-bottom: 1px solid var(--ttc-border); background: var(--ttc-surface); }
@@ -216,6 +217,7 @@
 .ttc-tbtn--ghost:hover { background: color-mix(in oklab, var(--ttc-ink) 5%, transparent); color: var(--ttc-ink); border-color: var(--ttc-muted); }
 .ttc-tbtn svg { width: 13px; height: 13px; flex: none; }
 .ttc-table thead th.right, .ttc-table td.ttc-tcell-act { white-space: nowrap; width: 1%; }
+.ttc-table__empty { padding: 26px 16px; text-align: center; color: var(--ttc-muted); font-size: 13.5px; line-height: 1.5; }
 
 /* ============================================================ GUIDES */
 .ttc-guides { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
@@ -256,8 +258,11 @@
   .ttc-hamb { display: inline-flex; margin-left: auto; }
   /* mobile dropdown: app.js toggles [data-open] on the nav */
   .ttc-nav[data-open] { display: flex; flex-direction: column; align-items: stretch; gap: 2px; position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 8px 16px 14px; background: var(--ttc-surface); border-bottom: 1px solid var(--ttc-border); box-shadow: var(--ttc-shadow); z-index: 40; }
-  .ttc-nav[data-open] a { padding: 11px 12px; font-size: 15px; }
+  .ttc-nav[data-open] a { display: flex; align-items: center; min-height: 44px; padding: 11px 12px; font-size: 15px; }
   .ttc-nav[data-open] .ttc-nav__extra { display: block; }
+  /* Thumb-friendly hero shortcuts + let the eyebrow wrap instead of overflowing. */
+  .ttc-eyebrow { white-space: normal; }
+  .ttc-chip { min-height: 38px; padding: 8px 14px; }
   .ttc-trust__grid { grid-template-columns: 1fr; gap: 20px; }
   .ttc-vp, .ttc-guides { grid-template-columns: 1fr; }
   .ttc-stats__in { grid-template-columns: 1fr 1fr; }

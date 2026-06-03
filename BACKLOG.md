@@ -22,7 +22,7 @@ Produce evidence (grep, npm script references, workflow references, dashboard to
 - `archive/vercel-experimental/`
 - Inactive route shims: `functions/{artists,guides,how-it-works,affiliate-disclosure,editorial-policy,contact}.js`
 
-Classify each as safe-to-delete / archive-or-deprecate / keep. Output a deletion-diff proposal as a PR description or short report under `docs/`. Do not delete in this pass.
+Classify each as safe-to-delete / archive-or-deprecate / keep. The evidence-backed classification is in `docs/STALE_FILE_AUDIT.md` (audit complete — no deletions). A follow-up PR may delete candidates #1–#3 (Vercel pair + standalone Worker builder + its `_route-metadata.js` comment) after a human confirms no Cloudflare/Vercel dashboard dependency.
 
 ### 4. #10 — Production raw HTML verification (only if still needed)
 

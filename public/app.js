@@ -295,34 +295,8 @@ function sendAnalytics(eventName, metadata = {}) {
   } catch (error) {}
 }
 
-// Persistent live region for announcing client-side route changes to screen
-// readers. The #mainContent status node is replaced on every render, so the
-// announcer lives on <body> instead and survives navigation.
-let routeAnnouncer = null;
-let routeAnnouncerPrimed = false;
-function announceRoute(title) {
-  if (!title) return;
-  if (!routeAnnouncer) {
-    routeAnnouncer = document.createElement("p");
-    routeAnnouncer.className = "sr-only";
-    routeAnnouncer.setAttribute("aria-live", "polite");
-    routeAnnouncer.setAttribute("aria-atomic", "true");
-    document.body.append(routeAnnouncer);
-  }
-  // Skip the first call (initial page load) so the screen reader's own page
-  // announcement isn't duplicated; announce only on subsequent navigations.
-  if (!routeAnnouncerPrimed) {
-    routeAnnouncerPrimed = true;
-    return;
-  }
-  routeAnnouncer.textContent = title;
-}
-
 function setMeta(meta, noindex = false) {
-  if (meta?.title) {
-    document.title = meta.title;
-    announceRoute(meta.title);
-  }
+  if (meta?.title) document.title = meta.title;
   const canonicalUrl = new URL(window.location.pathname, window.location.origin).toString();
   const updates = [
     ['meta[name="description"]', meta?.description],

@@ -1,5 +1,7 @@
 # HANDOVER.md
 
+> **ARCHIVED (not authoritative).** Superseded by `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. Kept only as a pointer.
+
 This file is no longer the source of truth. Start any session by reading, in order:
 
 1. **`CLAUDE.md`** — protected areas, hard product rules, validation commands, working style.

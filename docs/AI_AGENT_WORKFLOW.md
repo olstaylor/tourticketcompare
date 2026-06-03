@@ -91,6 +91,7 @@ docs/VALIDATION_CHECKLIST.md
 - ❌ Do not assume you understand the codebase without reading relevant active docs first
 - ❌ Do not modify protected areas without explicit scope
 - ❌ Do not scan the whole repo unless the task requires broad exploration
+- ❌ Do not auto-publish artists/events or scrape providers — see "What AI Agents May Not Change" in `SAFE_PUBLISHING_RULES.md`
 
 ---
 

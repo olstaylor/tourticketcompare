@@ -124,19 +124,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for local setup, validation commands, eve
 
 ## Known Risks & Parked Issues
 
-Review before starting work:
+Review before starting work. (Issues **#171** Olivia Rodrigo verified links and **#175** onboarding runbook are now **closed/delivered** — `olivia-rodrigo` is verified `["ticketmaster"]` and `scripts/validate-artist.mjs` ships. See `BACKLOG.md` → "Recently completed". The rows below are the remaining live risks only.)
 
 | Issue | Severity | Impact |
 |-------|----------|--------|
-| **Olivia Rodrigo trust gap** | High | No artist-level Ticketmaster verification (`verified_providers: []`); 8 short-form events flagged `needs_recheck` per PR #177. Top active priority — issue #171. See `BACKLOG.md`. |
-| **Data refresh opacity** | Medium | `scripts/sync-events-data.py` inlines fallback data into `public/index.html`; user-facing refresh flow not yet documented in `docs/DEPLOYMENT.md`. The `stale-sync-guard` PR job catches the most common failure mode. Issue #174. |
-| **Onboarding drift** | Medium | Adding an artist touches 5+ files with no single-command end-to-end validator. Issue #175. |
+| **Olivia Rodrigo residual event verification** | Medium | Artist-level Ticketmaster verification is restored (`verified_providers: ["ticketmaster"]`, in `VERIFIED_TICKET_LINKS`; issue #171 closed via PR #190). Remaining: **8 short-form events flagged `needs_recheck`** — CTAs suppressed until a human confirms each URL in a browser. See `PROJECT_STATUS.md` → Active risks. |
+| **Blank `tour_name` (Olivia Rodrigo)** | Medium | All 86 Olivia Rodrigo events have blank `tour_name`. The validator already warns (blank) and hard-errors (missing key) per PR #186. Populating is blocked on human verification of the official tour name — URL slugs are evidence, not proof. Issue #172. |
+| **Data refresh (#174 Phase B)** | Medium | `scripts/sync-events-data.py` inlines fallback data into `public/index.html`. Phase A (data-refresh flow) is now documented in `docs/DEPLOYMENT.md`; the `stale-sync-guard` PR job catches the common failure mode. Phase B (build-time cache-bust / stronger hook) remains parked. Issue #174. |
 | **Raw HTML routing (production proof)** | Low–Medium (SEO) | Local proof passed 2026-05-19 on 17 representative routes; PR #184 added guide route / content / sitemap drift validation in CI. Production browser proof remains optional (issue #10). |
 | **Named route shims inactive** | Low | Editing `functions/artists.js` etc. has no effect while middleware is active. Edit `[[path]].js` instead. |
 | **Legacy deploy paths** | Low | `vercel.json`, `api/`, `scripts/build-standalone-worker.mjs`, and `archive/vercel-experimental/` are not production. Do not add Vercel-specific logic. Audit-only deletion plan tracked under issue #176. |
 
 Do not action these without explicit scope (also tracked as "parked" in `BACKLOG.md`):
-- Adding new artists, including The Weeknd
+- Adding new artists, including The Weeknd. The only exception is the **Ed Sheeran Phase 2 `review_required` shell** (no CTAs, no `/api/out`, no events, no provider/affiliate changes) — already present in `public/data/artists.json`.
 - `vercel.json`, `api/`, `build-standalone-worker.mjs`, `archive/vercel-experimental/` retirement (waits on issue #176 audit)
 - Provider abstraction implementation (`functions/api/_providers/index.js`, `functions/_provider-registry.js`)
 - Tour-level pages, city pages, event landing pages

@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-06-01 (SeatGeek configured/live reconciliation)
+Last updated: 2026-06-03 (issue-status + artist-count reconciliation; #171 and #175 closed)
 
 This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. Older audits (CLEANUP_AUDIT, AUDIT_PARKING_LOT, SEO_ARCHITECTURE_AUDIT, LIVE_PRODUCTION_VERIFICATION, etc.) are historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
 
@@ -17,11 +17,11 @@ This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work a
 
 ## Current data
 
-Verified by direct inspection of `public/data/` on 2026-05-27:
+Verified by direct inspection of `public/data/` on 2026-06-03:
 
-- `public/data/artists.json`: **9 artists**.
-- `public/data/catalog.json`: 9 artists; 0 tour records.
-- `public/data/events.json`: **272 events**; all carry Ticketmaster URLs; **93 carry stored SeatGeek event URLs**.
+- `public/data/artists.json`: **10 records — 9 `indexable_with_substantial_content` + 1 `review_required` shell (`ed-sheeran`)**.
+- `public/data/catalog.json`: 10 artist records; the `ed-sheeran` ticket link is `verified: false`, `public_enabled: false`, `affiliate_enabled: false` (Phase 2 shell — no CTA). 0 tour records.
+- `public/data/events.json`: **272 events** (no `ed-sheeran` events); all carry Ticketmaster URLs; **93 carry stored SeatGeek event URLs**.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
 - `public/data/guides-content.json`: **15 guide content entries**.
 - `functions/_route-metadata.js`: **15 guide routes** plus trust/static route metadata.
@@ -39,6 +39,7 @@ Verified by direct inspection of `public/data/` on 2026-05-27:
 | jay-z | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
 | **olivia-rodrigo** | indexable_with_substantial_content | `["ticketmaster"]` | yes | Artist-level Ticketmaster verification restored in PR #190 (issue #171 closed). 8 short-form event URLs remain `needs_recheck` — human browser verification required before CTAs are restored for those events. All 86 events have blank `tour_name` (issue #172). |
 | **bruno-mars** | `indexable_with_substantial_content` | `["ticketmaster"]` | yes | Promoted to indexable_with_substantial_content (verified Ticketmaster URL via browser; entry added to `VERIFIED_TICKET_LINKS`). 56 events available. Four Mexico City events intentionally excluded because `ticketmaster.com.mx` is not in the Ticketmaster host allowlist. |
+| **ed-sheeran** | `review_required` | `[]` | no | Phase 2 `review_required` shell only (the one sanctioned scaling exception). No CTAs, no `/api/out` entry, no events, `last_verified_at: null`; page renders the watchlist/empty state and is noindex. Do not promote without human browser verification per `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`. |
 
 Olivia Rodrigo's artist-level Ticketmaster verification was restored in PR #190 (issue #171 closed). Eight short-form event URLs remain `needs_recheck` and require human browser verification before CTAs are restored for those events. All 86 events have blank `tour_name` (issue #172). See `BACKLOG.md` for the human-verification steps.
 
@@ -74,7 +75,7 @@ These are the live risks. Detailed task scope and ordering live in `BACKLOG.md`.
 
 - **8 Olivia Rodrigo events need human verification (#171 sub-item).** Issue #171 is closed (artist-level VERIFIED_TICKET_LINKS restored in PR #190). Remaining: 8 short-form event URLs marked `needs_recheck` require a human to open each in a browser and confirm live or mark hidden. CTAs for those 8 events are suppressed until verified.
 - **Blank `tour_name` for Olivia Rodrigo (#172).** All 86 Olivia Rodrigo events have blank `tour_name`. The validator warns. Populating requires human confirmation of the official tour name from a Ticketmaster event page; URL slugs are evidence, not proof.
-- **Onboarding drift (#175).** `validate-artist.mjs` (`npm run artist:check`) covers `artists.json`, `catalog.json`, `events.json`, partition files, `VERIFIED_TICKET_LINKS` (out.js), `TICKETMASTER_ARTIST_AFFILIATE_LINKS` (shows.js), and `ARTIST_SLUGS` (signup.js). `docs/ADDING_ARTISTS.md` was extended to document `shows.js` and `signup.js` (required fields, manual checklist, example, validation commands). No legacy root-level `ARTIST_PAGE_*.md` docs exist to stub — earlier audit assumption was stale. Issue #175 can close subject to PR review.
+- **Onboarding drift (#175) — CLOSED/delivered.** `validate-artist.mjs` (`npm run artist:check`) covers `artists.json`, `catalog.json`, `events.json`, partition files, `VERIFIED_TICKET_LINKS` (out.js), `TICKETMASTER_ARTIST_AFFILIATE_LINKS` (shows.js), and `ARTIST_SLUGS` (signup.js). `docs/ADDING_ARTISTS.md` and `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` are the canonical onboarding docs. Retained here only as a pointer; no further work outstanding.
 - **Data refresh documentation (#174).** `scripts/sync-events-data.py` inlines fallback data into `public/index.html`; the `stale-sync-guard` CI job catches stale commits on PRs. Phase A (documented data-refresh flow) is addressed in `docs/DEPLOYMENT.md`. Phase B (optional cache-bust scheme) remains parked.
 - **Stale-file risk (#176).** Vercel artefacts (`api/`, `vercel.json`), legacy standalone Worker builder, inactive route shims, and `archive/vercel-experimental/` still live in the repo. Audit-first, deletions later — do not delete during other work.
 - **Raw HTML production proof (#10).** Local proof passed (17 representative routes); production browser proof is still unconfirmed. PR #184's guide drift validation reduces the risk further. This is not a coding priority unless a fresh production check identifies a real mismatch.
@@ -92,7 +93,7 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 ## What is supported today
 
 - Homepage and trust/legal pages.
-- Artist index plus the 9 artist pages above.
+- Artist index plus the 9 indexable artist pages above. (`ed-sheeran` exists as a noindex `review_required` shell with no CTAs.)
 - 15 guide pages with server-rendered content.
 - Verified Ticketmaster CTAs (artist- and event-level) where configured.
 - Verified event-level SeatGeek CTAs — live in production where a verified `seatgeek_url` exists; routed through `/api/out` with Impact tracking (SeatGeek Impact bindings present). Currently 93/272 events carry a verified `seatgeek_url`. Event-level SeatGeek URL discovery tooling is operational and wired in (`npm run seatgeek:propose` / `seatgeek:enrich:apply`, `SeatGeek Discovery Proposal` workflow); closing the remaining coverage gap needs a credentialed run — see `BACKLOG.md` item 7 and `docs/SEATGEEK_DISCOVERY.md`.

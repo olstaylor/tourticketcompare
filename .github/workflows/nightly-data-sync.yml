@@ -13,8 +13,12 @@ name: Nightly data sync
 # rate-limit collisions.
 
 on:
-  schedule:
-    - cron: '30 3 * * *'
+  # Scheduled trigger temporarily disabled (manual-only) while CTA rendering
+  # safety and regression tests are hardened. An automated sync must never be
+  # able to hide working public CTAs. Re-enable the cron only after the
+  # provider-specific CTA regression guards are confirmed green.
+  #   schedule:
+  #     - cron: '30 3 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

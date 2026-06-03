@@ -343,12 +343,6 @@ function providerEnabled(providerSlug) {
   return (catalog.providers || []).some((provider) => slugify(provider.slug) === providerSlug && provider.public_enabled === true);
 }
 
-function ticketmasterCtaSuppressed(event) {
-  const id = String(event?.id || "").trim();
-  if (!id) return false;
-  return event?.ticketmaster_cta_suppressed === true;
-}
-
 function artistHasVerifiedEventLinks(events, artistSlug) {
   const now = Date.now();
   const slug = slugify(artistSlug);
@@ -356,7 +350,6 @@ function artistHasVerifiedEventLinks(events, artistSlug) {
     if (!event || slugify(event.artist_slug) !== slug) return false;
     const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
     if (!Number.isFinite(ts) || ts < now) return false;
-    if (ticketmasterCtaSuppressed(event)) return false;
     const url = String(event.ticketmaster_url || "").trim();
     if (!/^https:\/\//i.test(url)) return false;
     try {
@@ -596,38 +589,13 @@ function renderProviderButtons(artist, surface) {
 // --- Site search ---
 
 let eventsSearchPromise = null;
-let ticketmasterCtaSuppressionPromise = null;
-
-function loadTicketmasterCtaSuppression() {
-  if (!ticketmasterCtaSuppressionPromise) {
-    ticketmasterCtaSuppressionPromise = fetch("/data/tm-cta-suppression.json", { cache: "force-cache" })
-      .then((r) => (r.ok ? r.json() : null))
-      .then((data) => new Set((Array.isArray(data?.suppressed_event_ids) ? data.suppressed_event_ids : [])
-        .map((id) => String(id || "").trim())
-        .filter(Boolean)))
-      .catch(() => new Set());
-  }
-  return ticketmasterCtaSuppressionPromise;
-}
-
-function applyTicketmasterCtaSuppression(events, suppressedEventIds) {
-  if (!suppressedEventIds || suppressedEventIds.size === 0) return events;
-  return events.map((event) => {
-    const id = String(event?.id || "").trim();
-    if (!id || !suppressedEventIds.has(id)) return event;
-    return { ...event, ticketmaster_cta_suppressed: true };
-  });
-}
 
 function loadEventsForSearch() {
   if (!eventsSearchPromise) {
-    eventsSearchPromise = Promise.all([
-      fetch("/data/events.json", { cache: "force-cache" })
-        .then((r) => (r.ok ? r.json() : []))
-        .then((data) => (Array.isArray(data) ? data : []))
-        .catch(() => []),
-      loadTicketmasterCtaSuppression()
-    ]).then(([events, suppressedEventIds]) => applyTicketmasterCtaSuppression(events, suppressedEventIds));
+    eventsSearchPromise = fetch("/data/events.json", { cache: "force-cache" })
+      .then((r) => (r.ok ? r.json() : []))
+      .then((data) => (Array.isArray(data) ? data : []))
+      .catch(() => []);
   }
   return eventsSearchPromise;
 }
@@ -679,7 +647,7 @@ function renderSearchResultItem(type, data) {
     const loc = [data.city, data.venue].filter(Boolean).join(" · ");
     nameEl.textContent = data.event_name || data.artist_name || "Verified show";
     desc.textContent = [dateStr, loc].filter(Boolean).join(" — ");
-    const hasVerifiedLink = !ticketmasterCtaSuppressed(data) && Boolean(safeVerifiedEventUrl(data.ticketmaster_url));
+    const hasVerifiedLink = Boolean(safeVerifiedEventUrl(data.ticketmaster_url));
     if (hasVerifiedLink && data.id) {
       const params = new URLSearchParams({ showId: data.id, provider: "ticketmaster" });
       ctaHref = `/api/out?${params.toString()}`;
@@ -1109,7 +1077,7 @@ function renderShowCard(show, options = {}) {
   } else if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
     const showId = String(show.id || "").trim();
-    if (ticketmasterUrl && showId && !ticketmasterCtaSuppressed(show)) {
+    if (ticketmasterUrl && showId) {
       const params = new URLSearchParams({ showId, provider: "ticketmaster" });
       const cta = buttonLink("View tickets", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";
@@ -1142,10 +1110,7 @@ function renderShowCard(show, options = {}) {
         );
       }
     } else {
-      const message = ticketmasterCtaSuppressed(show)
-        ? "Ticketmaster link temporarily hidden while this event is rechecked."
-        : "No verified ticket link is available for this date.";
-      text(article, "p", message, "disclosure-note");
+      text(article, "p", "No verified ticket link is available for this date.", "disclosure-note");
     }
   } else if (show.artist_slug) {
     article.append(link("Open artist page", `/artists/${slugify(show.artist_slug)}`, "text-link"));
@@ -1188,8 +1153,7 @@ async function hydrateShowBoard(section, filters = {}) {
     const response = await fetch(`/api/shows?${params.toString()}`, { headers: { Accept: "application/json" } });
     if (!response.ok) throw new Error("shows_unavailable");
     const data = await response.json();
-    const suppressedEventIds = await loadTicketmasterCtaSuppression();
-    const shows = applyTicketmasterCtaSuppression(safeShowList(data), suppressedEventIds);
+    const shows = safeShowList(data);
     if (!shows.length) {
       grid.replaceChildren(renderShowBoardEmptyState(filters.artistName));
       return;

@@ -40,8 +40,6 @@
     "data:sync-tm": "node scripts/apply-tm-updates.mjs",
     "data:sync-tm:dry-run": "node scripts/apply-tm-updates.mjs --dry-run",
     "data:sync-review": "node scripts/report-tm-sync-review.mjs",
-    "data:generate-tm-cta-suppression": "node scripts/generate-tm-cta-suppression.mjs",
-    "test:tm-cta-suppression": "node scripts/test-tm-cta-suppression.mjs",
     "audit:candidates": "node scripts/audit-candidates.mjs",
     "candidates:score": "node scripts/score-candidates.mjs",
     "candidates:report": "node scripts/report-candidates.mjs",

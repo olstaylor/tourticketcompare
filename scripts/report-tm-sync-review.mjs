@@ -56,7 +56,8 @@ function buildBody(report) {
   const errors = report?.errors || [];
   const deleted = review.filter((r) => r.kind === 'deleted');
   const status = review.filter((r) => r.kind === 'status');
-  const hasFindings = deleted.length + status.length > 0;
+  const otherReview = review.filter((r) => r.kind !== 'deleted' && r.kind !== 'status');
+  const hasFindings = review.length > 0;
 
   let body = `<!-- tm-sync-review -->\n`;
   body += `**Last run:** \`${generated}\`\n`;
@@ -82,6 +83,15 @@ function buildBody(report) {
     body += `No safe local \`status\` enum exists for these — handle via PR (remove, or update copy).\n\n`;
     for (const s of status) {
       body += `- \`${s.id}\` — TM ID \`${s.ticketmaster_event_id}\` — ${s.detail}\n`;
+    }
+    body += '\n';
+  }
+
+  if (otherReview.length) {
+    body += `## Other sync blockers\n\n`;
+    body += `These were not auto-applied because the Ticketmaster response was not a clear, lossless match for the local event. Confirm by PR before changing event data.\n\n`;
+    for (const item of otherReview) {
+      body += `- \`${item.id}\` — TM ID \`${item.ticketmaster_event_id}\` — ${item.detail}\n`;
     }
     body += '\n';
   }

@@ -87,6 +87,10 @@ jobs:
           npm run events:partition
           npm run events:validate:partitions
 
+      - name: Run smoke tests before push
+        if: steps.diff.outputs.changed == 'true'
+        run: npm run test:mvp
+
       - name: Commit and push to main
         if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
         run: |

@@ -639,6 +639,24 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
 
   assert(nextCalled === false, `${pathname} should be rendered by Pages Functions middleware, not passed to static assets`);
 
+  // Social share image: every route must expose an absolute og:image + twitter:image
+  // pointing at the shared brand card, and use the large summary card.
+  const ogImage = text.match(/<meta\s+property="og:image"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
+  const twitterImage = text.match(/<meta\s+name="twitter:image"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
+  const twitterCard = text.match(/<meta\s+name="twitter:card"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
+  assert(
+    ogImage === "https://tourticketcompare.com/og-image.png",
+    `${pathname} og:image should be the absolute brand image URL, got "${ogImage}"`
+  );
+  assert(
+    twitterImage === "https://tourticketcompare.com/og-image.png",
+    `${pathname} twitter:image should be the absolute brand image URL, got "${twitterImage}"`
+  );
+  assert(
+    twitterCard === "summary_large_image",
+    `${pathname} twitter:card should be "summary_large_image", got "${twitterCard}"`
+  );
+
   // Meta description: tag must be present and match the route-specific source of truth.
   const actualDescription = extractDescription(text);
   assert(actualDescription !== "", `${pathname} should include a meta description`);

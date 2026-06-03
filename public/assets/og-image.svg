@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TourTicketCompare — verified ticket links for major tours">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="0.5" stop-color="#f5f1e8"/>
+      <stop offset="1" stop-color="#ebe2d1"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="12%" cy="0%" r="60%">
+      <stop offset="0" stop-color="#d75b2f" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#d75b2f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="92%" cy="12%" r="55%">
+      <stop offset="0" stop-color="#24483a" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#24483a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101411"/>
+      <stop offset="1" stop-color="#24483a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)"/>
+  <rect width="1200" height="630" fill="url(#glowB)"/>
+  <rect x="20" y="20" width="1160" height="590" rx="34" fill="#fffdf7" fill-opacity="0.78" stroke="#d8d0c0" stroke-width="2"/>
+
+  <!-- Brand mark -->
+  <circle cx="130" cy="140" r="46" fill="url(#mark)"/>
+  <text x="130" y="150" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="3" fill="#ffffff" text-anchor="middle">TTC</text>
+  <text x="200" y="151" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="-1" fill="#101411">TourTicketCompare</text>
+
+  <!-- Headline -->
+  <text x="100" y="330" font-family="DejaVu Serif, Georgia, 'Times New Roman', serif" font-size="86" font-weight="700" letter-spacing="-3" fill="#101411">Verified ticket links</text>
+  <text x="100" y="430" font-family="DejaVu Serif, Georgia, 'Times New Roman', serif" font-size="86" font-weight="700" letter-spacing="-3" fill="#8f341e">for major tours</text>
+
+  <!-- Tagline -->
+  <text x="100" y="510" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="32" fill="#4a524a">Checked artist pages, event links, and practical buying guidance.</text>
+
+  <!-- Accent rule -->
+  <rect x="100" y="540" width="220" height="8" rx="4" fill="#d75b2f"/>
+</svg>

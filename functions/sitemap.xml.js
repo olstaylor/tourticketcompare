@@ -24,7 +24,14 @@ async function loadJsonAsset(env, pathname) {
   return response.json();
 }
 
-async function loadIndexableArtistSlugs(env) {
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+
+// Stable freshness date for static/guide routes. These pages change rarely, so
+// stamping them with "today" on every request is a noisy/false signal to crawlers.
+// Bump this when the static page content or guides are meaningfully revised.
+const STATIC_LASTMOD = "2026-06-03";
+
+async function loadIndexableArtists(env) {
   try {
     const [catalog, artistsMeta] = await Promise.all([
       loadJsonAsset(env, "/data/catalog.json"),
@@ -33,16 +40,21 @@ async function loadIndexableArtistSlugs(env) {
 
     if (!Array.isArray(catalog?.artists) || !Array.isArray(artistsMeta)) return [];
 
-    const indexableMetaSlugs = new Set(
+    // Map slug -> last_verified_at so each artist URL gets a real freshness date.
+    const verifiedBySlug = new Map(
       artistsMeta
         .filter((artist) => artist?.indexing_status === INDEXABLE_ARTIST_STATUS)
-        .map((artist) => String(artist?.slug || "").trim())
-        .filter(Boolean)
+        .map((artist) => [String(artist?.slug || "").trim(), String(artist?.last_verified_at || "").trim()])
+        .filter(([slug]) => slug)
     );
 
     return catalog.artists
       .map((artist) => String(artist?.slug || "").trim())
-      .filter((slug) => slug && indexableMetaSlugs.has(slug));
+      .filter((slug) => slug && verifiedBySlug.has(slug))
+      .map((slug) => {
+        const verified = verifiedBySlug.get(slug);
+        return { slug, lastmod: ISO_DATE.test(verified) ? verified : STATIC_LASTMOD };
+      });
   } catch (error) {
     return [];
   }
@@ -51,16 +63,28 @@ async function loadIndexableArtistSlugs(env) {
 export async function onRequestGet({ request, env }) {
   const requestUrl = new URL(request.url);
   const origin = `${requestUrl.protocol}//${requestUrl.host}`;
-  const today = new Date().toISOString().slice(0, 10);
-  const artistPaths = (await loadIndexableArtistSlugs(env)).map((slug) => `/artists/${slug}`);
-  const paths = STATIC_INDEXABLE_PATHS.concat(artistPaths);
+  const staticEntries = STATIC_INDEXABLE_PATHS.map((path) => ({
+    path,
+    lastmod: STATIC_LASTMOD,
+    changefreq: "monthly",
+    priority: path === "/" ? "1.0" : "0.6"
+  }));
+  const artistEntries = (await loadIndexableArtists(env)).map(({ slug, lastmod }) => ({
+    path: `/artists/${slug}`,
+    lastmod,
+    changefreq: "weekly",
+    priority: "0.8"
+  }));
+  const entries = staticEntries.concat(artistEntries);
 
-  const urlsXml = paths
-    .map((path) => {
+  const urlsXml = entries
+    .map((entry) => {
       return [
         "  <url>",
-        `    <loc>${escapeXml(`${origin}${path}`)}</loc>`,
-        `    <lastmod>${escapeXml(today)}</lastmod>`,
+        `    <loc>${escapeXml(`${origin}${entry.path}`)}</loc>`,
+        `    <lastmod>${escapeXml(entry.lastmod)}</lastmod>`,
+        `    <changefreq>${entry.changefreq}</changefreq>`,
+        `    <priority>${entry.priority}</priority>`,
         "  </url>"
       ].join("\n");
     })

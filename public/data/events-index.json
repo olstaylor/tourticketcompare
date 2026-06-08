@@ -2592,7 +2592,7 @@
     "venue": "Ohio Stadium",
     "datetime_iso": "2026-05-20T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2604,7 +2604,7 @@
     "venue": "Rogers Stadium",
     "datetime_iso": "2026-05-23T23:00:00Z",
     "timezone": "America/Toronto",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2616,7 +2616,7 @@
     "venue": "Rogers Stadium",
     "datetime_iso": "2026-05-24T23:00:00Z",
     "timezone": "America/Toronto",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2628,7 +2628,7 @@
     "venue": "Rogers Stadium",
     "datetime_iso": "2026-05-27T23:00:00Z",
     "timezone": "America/Toronto",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2640,7 +2640,7 @@
     "venue": "Rogers Stadium",
     "datetime_iso": "2026-05-28T23:00:00Z",
     "timezone": "America/Toronto",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2652,7 +2652,7 @@
     "venue": "Rogers Stadium",
     "datetime_iso": "2026-05-30T23:00:00Z",
     "timezone": "America/Toronto",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2663,7 +2663,7 @@
     "city": "Saint Denis",
     "venue": "Stade de France - Paris",
     "datetime_iso": "2026-06-18",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2674,7 +2674,7 @@
     "city": "Saint Denis",
     "venue": "Stade de France - Paris",
     "datetime_iso": "2026-06-20",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2685,7 +2685,7 @@
     "city": "Saint Denis",
     "venue": "Stade de France - Paris",
     "datetime_iso": "2026-06-21",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2696,7 +2696,7 @@
     "city": "Berlin",
     "venue": "Olympiastadion - Berlin",
     "datetime_iso": "2026-06-26T16:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2707,7 +2707,7 @@
     "city": "Berlin",
     "venue": "Olympiastadion - Berlin",
     "datetime_iso": "2026-06-28T16:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2718,7 +2718,7 @@
     "city": "Berlin",
     "venue": "Olympiastadion - Berlin",
     "datetime_iso": "2026-06-29T16:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2730,7 +2730,7 @@
     "venue": "Johan Cruijff ArenA",
     "datetime_iso": "2026-07-02T18:00:00Z",
     "timezone": "Europe/Amsterdam",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2742,7 +2742,7 @@
     "venue": "Johan Cruijff ArenA",
     "datetime_iso": "2026-07-04T18:00:00Z",
     "timezone": "Europe/Amsterdam",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2754,7 +2754,7 @@
     "venue": "Johan Cruijff ArenA",
     "datetime_iso": "2026-07-05T18:00:00Z",
     "timezone": "Europe/Amsterdam",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2766,7 +2766,7 @@
     "venue": "Johan Cruijff ArenA",
     "datetime_iso": "2026-07-07T18:00:00Z",
     "timezone": "Europe/Amsterdam",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2778,7 +2778,7 @@
     "venue": "Estadio Riyadh Air Metropolitano",
     "datetime_iso": "2026-07-10T18:30:00Z",
     "timezone": "Europe/Madrid",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2790,7 +2790,7 @@
     "venue": "Estadio Riyadh Air Metropolitano",
     "datetime_iso": "2026-07-11T18:30:00Z",
     "timezone": "Europe/Madrid",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2801,7 +2801,7 @@
     "city": "Milan",
     "venue": "San Siro Stadium",
     "datetime_iso": "2026-07-14T17:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2812,7 +2812,7 @@
     "city": "Milan",
     "venue": "San Siro Stadium",
     "datetime_iso": "2026-07-15T17:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2824,7 +2824,7 @@
     "venue": "Wembley Stadium",
     "datetime_iso": "2026-07-18T16:00:00Z",
     "timezone": "Europe/London",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2836,7 +2836,7 @@
     "venue": "Wembley Stadium",
     "datetime_iso": "2026-07-19T15:30:00Z",
     "timezone": "Europe/London",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2848,7 +2848,7 @@
     "venue": "Wembley Stadium",
     "datetime_iso": "2026-07-22T16:00:00Z",
     "timezone": "Europe/London",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2860,7 +2860,7 @@
     "venue": "Wembley Stadium",
     "datetime_iso": "2026-07-24T16:00:00Z",
     "timezone": "Europe/London",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2872,7 +2872,7 @@
     "venue": "Wembley Stadium",
     "datetime_iso": "2026-07-25T16:00:00Z",
     "timezone": "Europe/London",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2884,7 +2884,7 @@
     "venue": "Wembley Stadium",
     "datetime_iso": "2026-07-28T16:00:00Z",
     "timezone": "Europe/London",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2896,7 +2896,7 @@
     "venue": "MetLife Stadium",
     "datetime_iso": "2026-08-21T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2908,7 +2908,7 @@
     "venue": "MetLife Stadium",
     "datetime_iso": "2026-08-22T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2920,7 +2920,7 @@
     "venue": "MetLife Stadium",
     "datetime_iso": "2026-08-25T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2932,7 +2932,7 @@
     "venue": "MetLife Stadium",
     "datetime_iso": "2026-08-26T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2944,7 +2944,7 @@
     "venue": "Acrisure Stadium",
     "datetime_iso": "2026-08-29T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2956,7 +2956,7 @@
     "venue": "Lincoln Financial Field",
     "datetime_iso": "2026-09-01T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2968,7 +2968,7 @@
     "venue": "Lincoln Financial Field",
     "datetime_iso": "2026-09-02T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2980,7 +2980,7 @@
     "venue": "Gillette Stadium",
     "datetime_iso": "2026-09-05T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -2992,7 +2992,7 @@
     "venue": "Gillette Stadium",
     "datetime_iso": "2026-09-06T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3004,7 +3004,7 @@
     "venue": "Lucas Oil Stadium",
     "datetime_iso": "2026-09-09T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3016,7 +3016,7 @@
     "venue": "Raymond James Stadium",
     "datetime_iso": "2026-09-12T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3028,7 +3028,7 @@
     "venue": "Raymond James Stadium",
     "datetime_iso": "2026-09-13T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3040,7 +3040,7 @@
     "venue": "Caesars Superdome",
     "datetime_iso": "2026-09-17T00:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3052,7 +3052,7 @@
     "venue": "Hard Rock Stadium",
     "datetime_iso": "2026-09-19T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3064,7 +3064,7 @@
     "venue": "Hard Rock Stadium",
     "datetime_iso": "2026-09-20T23:00:00Z",
     "timezone": "America/New_York",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3076,7 +3076,7 @@
     "venue": "Alamodome",
     "datetime_iso": "2026-09-24T00:00:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3087,7 +3087,7 @@
     "city": "Colorado Springs",
     "venue": "Falcon Stadium",
     "datetime_iso": "2026-09-27T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3098,7 +3098,7 @@
     "city": "Colorado Springs",
     "venue": "Falcon Stadium",
     "datetime_iso": "2026-09-28T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3110,7 +3110,7 @@
     "venue": "SoFi Stadium",
     "datetime_iso": "2026-10-01T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3122,7 +3122,7 @@
     "venue": "SoFi Stadium",
     "datetime_iso": "2026-10-03T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3134,7 +3134,7 @@
     "venue": "SoFi Stadium",
     "datetime_iso": "2026-10-04T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3146,7 +3146,7 @@
     "venue": "SoFi Stadium",
     "datetime_iso": "2026-10-07T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3158,7 +3158,7 @@
     "venue": "SoFi Stadium",
     "datetime_iso": "2026-10-08T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3170,7 +3170,7 @@
     "venue": "Levi's® Stadium",
     "datetime_iso": "2026-10-11T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3182,7 +3182,7 @@
     "venue": "Levi's® Stadium",
     "datetime_iso": "2026-10-12T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3194,7 +3194,7 @@
     "venue": "BC Place",
     "datetime_iso": "2026-10-15T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3206,7 +3206,7 @@
     "venue": "BC Place",
     "datetime_iso": "2026-10-17T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3218,7 +3218,7 @@
     "venue": "BC Place",
     "datetime_iso": "2026-10-18T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3230,7 +3230,7 @@
     "venue": "BC Place",
     "datetime_iso": "2026-10-21T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
   {
@@ -3242,7 +3242,7 @@
     "venue": "BC Place",
     "datetime_iso": "2026-10-22T02:00:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "status": "on-sale"
   }
 ]

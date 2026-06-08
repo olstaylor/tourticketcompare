@@ -80,7 +80,7 @@
       "meta_description": "Check verified Harry Styles ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons.",
       "related_guides": [
         "how-to-compare-concert-ticket-prices",
-        "best-time-to-buy-concert-tickets",
+        "when-is-the-best-time-to-buy-concert-tickets",
         "ticketmaster-vs-stubhub",
         "how-to-avoid-ticket-scams"
       ]
@@ -104,7 +104,7 @@
       "meta_description": "Check verified BTS ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons.",
       "related_guides": [
         "why-ticket-prices-change",
-        "best-time-to-buy-concert-tickets",
+        "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-ticket-scams"
       ]
@@ -151,7 +151,7 @@
       "meta_description": "Check verified Bad Bunny ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons.",
       "related_guides": [
         "why-ticket-prices-change",
-        "best-time-to-buy-concert-tickets",
+        "when-is-the-best-time-to-buy-concert-tickets",
         "how-resale-ticket-pricing-works",
         "how-to-avoid-ticket-scams"
       ]
@@ -172,7 +172,7 @@
       "seo_title": "Morgan Wallen Tickets | Verified Ticket Options",
       "meta_description": "Check verified Morgan Wallen ticket destinations. No invented tour dates, fake prices, or placeholder provider buttons.",
       "related_guides": [
-        "best-time-to-buy-concert-tickets",
+        "when-is-the-best-time-to-buy-concert-tickets",
         "how-to-compare-concert-ticket-prices",
         "how-to-avoid-overpaying-for-concert-tickets",
         "primary-vs-resale-concert-tickets"
@@ -204,7 +204,15 @@
       "slug": "olivia-rodrigo",
       "name": "Olivia Rodrigo",
       "short_description": "American singer-songwriter known for pop releases, high-demand arena dates, and a strong global fan audience.",
+      "genres": [
+        "Pop",
+        "Pop-rock"
+      ],
+      "country": "United States",
+      "official_website": "https://www.oliviarodrigo.com/",
+      "image_alt": "Olivia Rodrigo artist ticket information",
       "factual_summary": "Olivia Rodrigo is an American singer-songwriter and performer. She first gained broad recognition through acting before launching a chart-successful music career. Her catalog is centered on contemporary pop and pop-rock songwriting, and major live appearances can draw fast-moving demand in larger markets.",
+      "why_demand_is_high": "Demand can be high because her pop and pop-rock releases have a large, fast-moving global fanbase, and her arena dates often sell quickly across major markets.",
       "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified.",
       "faq": [
         {
@@ -227,13 +235,32 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "provider_status": {
+        "ticketmaster": {
+          "verified": true,
+          "public_enabled": true,
+          "last_checked_at": "2026-05-27",
+          "destination_type": "artist_page",
+          "display_name": "Ticketmaster Artist Page"
+        }
+      }
     },
     {
       "slug": "bruno-mars",
       "name": "Bruno Mars",
       "short_description": "American singer-songwriter and performer associated with pop, funk, R&B, and large live-production shows.",
+      "genres": [
+        "Pop",
+        "Funk",
+        "R&B",
+        "Soul"
+      ],
+      "country": "United States",
+      "official_website": "https://www.brunomars.com/",
+      "image_alt": "Bruno Mars artist ticket information",
       "factual_summary": "Bruno Mars is an American singer, songwriter, musician, and performer. His recorded work spans pop, funk, soul, and R&B influences, and he has released multiple globally recognized singles and albums. Demand for major appearances can be concentrated in specific cities, so provider checkout pages are the source for current event and ticket details.",
+      "why_demand_is_high": "Demand can be high because his catalogue of chart-topping singles draws broad pop, funk, soul, and R&B audiences, and his large-scale live productions regularly fill major arenas and stadiums across multiple regions.",
       "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified.",
       "faq": [
         {
@@ -254,7 +281,16 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "provider_status": {
+        "ticketmaster": {
+          "verified": true,
+          "public_enabled": true,
+          "last_checked_at": "2026-05-28",
+          "destination_type": "artist_page",
+          "display_name": "Ticketmaster Artist Page"
+        }
+      }
     },
     {
       "slug": "ed-sheeran",

@@ -406,7 +406,12 @@ function stampVerified(event) {
 async function main() {
   const apiKey = clean(process.env.TICKETMASTER_API_KEY);
   if (!apiKey) {
-    console.log('TICKETMASTER_API_KEY not set; apply-tm-updates is a no-op.');
+    const message = 'TICKETMASTER_API_KEY not set; no Ticketmaster API calls were made. Writing a skipped report; auto-commit remains disabled.';
+    if (process.env.GITHUB_ACTIONS === 'true') {
+      console.warn(`::warning::${message}`);
+    } else {
+      console.warn(message);
+    }
     if (jsonOutPath) {
       await fs.mkdir(path.dirname(jsonOutPath), { recursive: true }).catch(() => {});
       await fs.writeFile(jsonOutPath, JSON.stringify({

@@ -423,6 +423,14 @@ def self_test():
     check("out.js Ticketmaster allowlist parses", bool(allowed_hosts) and "ticketmaster.com" in allowed_hosts)
     check("subdomain of allowlisted host passes", host_allowed("www.ticketmaster.com", ["ticketmaster.com"]))
     check("non-allowlisted host fails", not host_allowed("www.ticketmaster.com.mx", ["ticketmaster.com"]))
+    check(
+        "affiliate host ticketmaster.evyy.net is blocked (subdomain of evyy.net, not ticketmaster.com)",
+        not host_allowed("ticketmaster.evyy.net", allowed_hosts),
+    )
+    check(
+        "deceptive host containing 'ticketmaster' is blocked",
+        not host_allowed("ticketmaster.evil.example", allowed_hosts),
+    )
 
     def make_event(**overrides):
         event = {
@@ -483,6 +491,12 @@ def self_test():
         "non-allowlisted host withheld",
         any("not in the out.js" in r for r in classify(
             make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001")
+        )["withheld_reasons"]),
+    )
+    check(
+        "affiliate-wrapped (ticketmaster.evyy.net) event url withheld",
+        any("not in the out.js" in r for r in classify(
+            make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FVV001")
         )["withheld_reasons"]),
     )
     check(

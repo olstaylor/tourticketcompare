@@ -105,6 +105,27 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "tm-artist-shakira",
     redirectUrl: "https://www.ticketmaster.com/shakira-tickets/artist/779049",
     verified: true
+  },
+  "raye:ticketmaster": {
+    artistSlug: "raye",
+    provider: "ticketmaster",
+    linkId: "tm-artist-raye",
+    redirectUrl: "https://www.ticketmaster.com/raye-tickets/artist/2065089",
+    verified: true
+  },
+  "charli-xcx:ticketmaster": {
+    artistSlug: "charli-xcx",
+    provider: "ticketmaster",
+    linkId: "tm-artist-charli-xcx",
+    redirectUrl: "https://www.ticketmaster.com/charli-xcx-tickets/artist/1638380",
+    verified: true
+  },
+  "tate-mcrae:ticketmaster": {
+    artistSlug: "tate-mcrae",
+    provider: "ticketmaster",
+    linkId: "tm-artist-tate-mcrae",
+    redirectUrl: "https://www.ticketmaster.com/tate-mcrae-tickets/artist/2720246",
+    verified: true
   }
 };
 

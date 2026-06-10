@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-06-03 (issue-status + artist-count reconciliation; #171 and #175 closed)
+Last updated: 2026-06-10 (new-artist onboarding and public Vivid Seats CTAs unparked per owner direction; verification gates unchanged)
 
 This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. Older audits (CLEANUP_AUDIT, AUDIT_PARKING_LOT, SEO_ARCHITECTURE_AUDIT, LIVE_PRODUCTION_VERIFICATION, etc.) are historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
 
@@ -39,7 +39,7 @@ Verified by direct inspection of `public/data/` on 2026-06-03:
 | jay-z | indexable_with_substantial_content | `["ticketmaster"]` | yes | — |
 | **olivia-rodrigo** | indexable_with_substantial_content | `["ticketmaster"]` | yes | Artist-level Ticketmaster verification restored in PR #190 (issue #171 closed). 8 short-form event URLs remain `needs_recheck` — human browser verification required before CTAs are restored for those events. All 86 events have blank `tour_name` (issue #172). |
 | **bruno-mars** | `indexable_with_substantial_content` | `["ticketmaster"]` | yes | Promoted to indexable_with_substantial_content (verified Ticketmaster URL via browser; entry added to `VERIFIED_TICKET_LINKS`). 56 events available. Four Mexico City events intentionally excluded because `ticketmaster.com.mx` is not in the Ticketmaster host allowlist. |
-| **ed-sheeran** | `review_required` | `[]` | no | Phase 2 `review_required` shell only (the one sanctioned scaling exception). No CTAs, no `/api/out` entry, no events, `last_verified_at: null`; page renders the watchlist/empty state and is noindex. Do not promote without human browser verification per `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`. |
+| **ed-sheeran** | `review_required` | `[]` | no | Phase 2 `review_required` shell. No CTAs, no `/api/out` entry, no events, `last_verified_at: null`; page renders the watchlist/empty state and is noindex. Do not promote without human browser verification per `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`. |
 
 Olivia Rodrigo's artist-level Ticketmaster verification was restored in PR #190 (issue #171 closed). Eight short-form event URLs remain `needs_recheck` and require human browser verification before CTAs are restored for those events. All 86 events have blank `tour_name` (issue #172). See `BACKLOG.md` for the human-verification steps.
 
@@ -105,7 +105,8 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 
 - Live multi-provider price aggregation; "cheapest" / "guaranteed availability" claims (including any SeatGeek price display).
 - Tour, city, venue, or event landing pages.
-- Public Vivid Seats CTAs; artist-level SeatGeek links (SeatGeek is event-level only).
+- Public Vivid Seats CTAs — **not live** (unparked 2026-06-10 and may now be scoped, but no verified `vividseats.com` destinations exist yet; buttons stay hidden until one is verified and added to `/api/out`).
+- Artist-level SeatGeek links (SeatGeek is event-level only).
 - `Event` / `MusicEvent` schema on any page without verified event-level data.
 
 ## How to update this file

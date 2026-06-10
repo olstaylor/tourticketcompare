@@ -225,9 +225,10 @@ Protected (no changes without explicit scope): `functions/api/out.js`,
 `public/data/{events,artists,catalog}.json`, `public/_routes.json`, Impact credentials,
 Cloudflare dashboard settings. Core product rules: never invent data, never scrape, no
 fake CTAs / price comparison / "cheapest" claims, never expose credentials client-side,
-never modify `/api/out` or affiliate logic without scope. Parked: new artists (except the
-Ed Sheeran review shell), tour/city/event pages, public Vivid Seats / artist-level
-SeatGeek CTAs, provider abstraction, Vercel legacy retirement.
+never modify `/api/out` or affiliate logic without scope. Parked: tour/city/event pages,
+artist-level SeatGeek CTAs, provider abstraction, Vercel legacy retirement. Unparked
+2026-06-10: new-artist onboarding (phase gates still mandatory) and public Vivid Seats
+CTAs (still require verified `vividseats.com` destinations via `/api/out`).
 
 ---
 

@@ -88,5 +88,14 @@
     "verified_provider_count": 0,
     "verified_providers": [],
     "last_verified_at": null
+  },
+  {
+    "slug": "shakira",
+    "name": "Shakira",
+    "short_description": "Colombian singer and songwriter.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
   }
 ]

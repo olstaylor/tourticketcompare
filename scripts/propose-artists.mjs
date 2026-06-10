@@ -272,6 +272,67 @@ function isTicketmasterHost(host) {
   return /(^|\.)ticketmaster\.[a-z.]+$/i.test(clean(host));
 }
 
+// Classifies the `url` field of a Discovery attraction as artist-page
+// evidence for the candidate outputs. The URL is preserved only when
+// Ticketmaster itself supplied a public storefront artist page; nothing is
+// constructed or guessed. A "sourced" status is still evidence, not
+// verification: a human must open the URL in a browser before it is used
+// anywhere (docs/SAFE_NEXT_ARTIST_WORKFLOW.md gates 1 and 3).
+const ARTIST_PAGE_URL_SOURCE = "discovery_attraction_url";
+
+function classifyArtistPageUrl(rawUrl) {
+  const raw = clean(rawUrl, 2048);
+  if (!raw) {
+    return { url: "", status: "missing", source: null, notes: ["Discovery attraction response contained no url field."] };
+  }
+  const notes = [];
+  const resolved = resolveTicketmasterUrl(raw);
+  if (resolved.wasWrapped) {
+    notes.push("Unwrapped from an Impact affiliate link returned by Discovery; only the plain storefront URL is preserved.");
+  }
+  const invalid = (reason) => ({ url: "", status: "invalid", source: ARTIST_PAGE_URL_SOURCE, notes: [...notes, reason] });
+  let parsed;
+  try {
+    parsed = new URL(resolved.url);
+  } catch {
+    return invalid(`not a parseable absolute URL: '${clean(raw, 120)}'`);
+  }
+  if (parsed.protocol !== "https:") return invalid(`protocol '${parsed.protocol}' is not https`);
+  if (isPlaceholderUrl(resolved.url)) return invalid("URL contains a placeholder/localhost marker");
+  const host = parsed.hostname.toLowerCase();
+  if (!isTicketmasterHost(host)) return invalid(`host '${host}' is not a Ticketmaster storefront domain`);
+  let pathName = parsed.pathname || "/";
+  try {
+    pathName = decodeURIComponent(pathName);
+  } catch {
+    // Keep the raw path if it is not valid percent-encoding.
+  }
+  pathName = pathName.replace(/\/+$/, "");
+  if (host.startsWith("app.") || /^\/discovery(\/|$)/i.test(pathName)) {
+    return invalid("Ticketmaster API endpoint, not a public storefront page");
+  }
+  if (!pathName) return invalid("Ticketmaster homepage, not an artist page");
+  if (/(^|\/)event\//i.test(pathName)) return invalid("event URL, not an artist page");
+  if (/^\/search(\/|$)/i.test(pathName)) return invalid("search page, not an artist page");
+  if (/\/artist\/\d+$/i.test(pathName)) {
+    return {
+      url: resolved.url,
+      status: "sourced",
+      source: ARTIST_PAGE_URL_SOURCE,
+      notes: [
+        ...notes,
+        "Public storefront artist page supplied by Ticketmaster Discovery. A human must still open this exact URL in a browser before promotion; automation cannot substitute for that step."
+      ]
+    };
+  }
+  return {
+    url: resolved.url,
+    status: "needs_review",
+    source: ARTIST_PAGE_URL_SOURCE,
+    notes: [...notes, "Ticketmaster storefront URL whose path does not match the expected /artist/<id> shape; review by hand."]
+  };
+}
+
 // The Ticketmaster Discovery `event.id` (e.g. "vv1A...") is NOT the id used in
 // the storefront event URL path. /api/out validates that ticketmaster_event_id
 // appears in the stored ticketmaster_url, so the id written to events data must
@@ -497,6 +558,7 @@ async function processArtist(name, { apiKey, base, options }) {
   const attraction = match.best.attraction;
   const canonicalName = clean(attraction?.name);
   const slug = slugify(canonicalName);
+  const artistPage = classifyArtistPageUrl(attraction?.url);
   await sleep(options.delayMs);
 
   const startDateTime = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
@@ -508,6 +570,11 @@ async function processArtist(name, { apiKey, base, options }) {
 
   const eventsResponse = await discoveryFetch(eventsUrl, options);
   const warnings = [];
+  if (artistPage.status !== "sourced") {
+    warnings.push(
+      `artist-page URL evidence is '${artistPage.status}': ${artistPage.notes[artistPage.notes.length - 1] || "no detail"}`
+    );
+  }
   let events = [];
   if (!eventsResponse.ok) {
     warnings.push(classifyDiscoveryFailure(eventsResponse, "event lookup"));
@@ -532,6 +599,7 @@ async function processArtist(name, { apiKey, base, options }) {
     attractionId: clean(attraction.id),
     confidence: match.best.confidence,
     genres: genresFromAttraction(attraction),
+    artistPage,
     mapped,
     eventWarnings: mapped.flatMap((m, idx) => m.warnings.map((w) => `${m.row.id || `event[${idx}]`}: ${w}`)),
     warnings
@@ -540,20 +608,30 @@ async function processArtist(name, { apiKey, base, options }) {
 
 function buildArtistRecord(result) {
   // artists.json shape. indexing_status is an editorial decision, so it is
-  // emitted as a review marker, not a real production value.
+  // emitted as a review marker, not a real production value. The
+  // ticketmaster_artist_url / artist_page_url_* fields are Discovery-sourced
+  // review evidence only - they are NOT part of the production artists.json
+  // schema and must not be copied into it.
   return {
     slug: result.slug,
     name: result.canonicalName,
     indexing_status: "REVIEW_REQUIRED",
     verified_provider_count: 0,
     verified_providers: [],
-    last_verified_at: null
+    last_verified_at: null,
+    ticketmaster_artist_url: result.artistPage?.url || "",
+    artist_page_url_status: result.artistPage?.status || "missing",
+    artist_page_url_source: result.artistPage?.source || null,
+    artist_page_url_notes: result.artistPage?.notes || []
   };
 }
 
 function buildCatalogTicketLink(result) {
   // catalog.json ticket_links[] shape. All trust flags start false: a human
   // must verify the affiliate destination before any of these flip true.
+  // The ticketmaster_artist_url / artist_page_url_* fields are Discovery-
+  // sourced review evidence for that verification - they are NOT part of the
+  // production catalog.json ticket_links schema and must not be copied in.
   return {
     link_id: `tm-artist-${result.slug}`,
     artist_slug: result.slug,
@@ -565,7 +643,11 @@ function buildCatalogTicketLink(result) {
     public_enabled: false,
     market: "global",
     last_checked_at: null,
-    disclosure_required: true
+    disclosure_required: true,
+    ticketmaster_artist_url: result.artistPage?.url || "",
+    artist_page_url_status: result.artistPage?.status || "missing",
+    artist_page_url_source: result.artistPage?.source || null,
+    artist_page_url_notes: result.artistPage?.notes || []
   };
 }
 
@@ -606,17 +688,28 @@ function buildAffiliateActions(artistGroups) {
     lines.push("_No accepted artists in this batch._", "");
   }
   for (const { result, valid } of artistGroups) {
+    const page = result.artistPage || { url: "", status: "missing", notes: [] };
     lines.push(`- **${result.canonicalName}** (\`${result.slug}\`)`);
     lines.push(
       `  - Event-level CTAs: ${valid.length} candidate event(s) with Ticketmaster URLs ` +
         "-> work automatically via the existing Impact API path once events are applied."
     );
-    lines.push(
-      "  - Artist-page CTA: MISSING. Needs a `VERIFIED_TICKET_LINKS[\"" +
-        `${result.slug}:ticketmaster"]\` entry in \`functions/api/out.js\` ` +
-        "pointing to an Impact vanity link. Create the link in the Impact dashboard, " +
-        "then add the entry by hand (a future `--apply-affiliate` step may print this diff)."
-    );
+    if (page.status === "sourced" && page.url) {
+      lines.push(`  - Artist-page CTA: NOT LIVE. Discovery supplied a candidate artist-page URL: ${page.url}`);
+      lines.push(
+        "    (artist_page_url_status: sourced). A human must open this exact URL in a browser and " +
+          "confirm it resolves to the correct artist, then hand-add the " +
+          `\`VERIFIED_TICKET_LINKS["${result.slug}:ticketmaster"]\` entry in \`functions/api/out.js\` ` +
+          "(protected file). A plain ticketmaster.com URL is acceptable there; no pre-minted " +
+          "Impact vanity link is required (see docs/SAFE_NEXT_ARTIST_WORKFLOW.md Phase 3)."
+      );
+    } else {
+      lines.push(
+        `  - Artist-page CTA: MISSING (artist_page_url_status: ${page.status}). Needs a \`VERIFIED_TICKET_LINKS["` +
+          `${result.slug}:ticketmaster"]\` entry in \`functions/api/out.js\`, added by hand after a human ` +
+          "locates and browser-verifies the Ticketmaster artist page. This script never edits that protected file."
+      );
+    }
     lines.push("");
   }
   return `${lines.join("\n")}\n`;
@@ -757,6 +850,63 @@ function runSelfTest() {
       "1307970954"
   );
   assert("ticketmaster event id is empty for an unparseable url", ticketmasterEventIdFromUrl("not-a-url") === "");
+  assert(
+    "discovery artist-page url is sourced",
+    classifyArtistPageUrl("https://www.ticketmaster.com/shakira-tickets/artist/779049").status === "sourced"
+  );
+  assert(
+    "sourced artist-page url is preserved verbatim",
+    classifyArtistPageUrl("https://www.ticketmaster.com/shakira-tickets/artist/779049").url ===
+      "https://www.ticketmaster.com/shakira-tickets/artist/779049"
+  );
+  assert(
+    "bare /artist/<id> path is sourced",
+    classifyArtistPageUrl("https://www.ticketmaster.com/artist/2836194").status === "sourced"
+  );
+  assert(
+    "localized storefront artist page is sourced",
+    classifyArtistPageUrl("https://www.ticketmaster.co.uk/raye-tickets/artist/2065089").status === "sourced"
+  );
+  assert(
+    "affiliate-wrapped artist url unwraps to sourced",
+    classifyArtistPageUrl(
+      "https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com%2Fshakira-tickets%2Fartist%2F779049"
+    ).status === "sourced"
+  );
+  assert(
+    "api self link host is rejected as not storefront",
+    classifyArtistPageUrl("https://app.ticketmaster.com/discovery/v2/attractions/K8vZ9171xeV").status === "invalid"
+  );
+  assert(
+    "relative api self link is rejected",
+    classifyArtistPageUrl("/discovery/v2/attractions/K8vZ9171xeV?locale=en-us").status === "invalid"
+  );
+  assert(
+    "event url is rejected as artist page",
+    classifyArtistPageUrl("https://www.ticketmaster.com/shakira-miami/event/0C006394AF52121").status === "invalid"
+  );
+  assert(
+    "search url is rejected as artist page",
+    classifyArtistPageUrl("https://www.ticketmaster.com/search?q=shakira").status === "invalid"
+  );
+  assert(
+    "ticketmaster homepage is rejected as artist page",
+    classifyArtistPageUrl("https://www.ticketmaster.com/").status === "invalid"
+  );
+  assert(
+    "non-ticketmaster url is rejected as artist page",
+    classifyArtistPageUrl("https://www.axs.com/artists/123/some-artist").status === "invalid"
+  );
+  assert(
+    "non-https artist url is rejected",
+    classifyArtistPageUrl("http://www.ticketmaster.com/artist/1").status === "invalid"
+  );
+  assert("missing artist url yields missing status", classifyArtistPageUrl("").status === "missing");
+  assert("missing artist url has no source", classifyArtistPageUrl("").source === null);
+  assert(
+    "odd storefront path needs review, not sourced",
+    classifyArtistPageUrl("https://www.ticketmaster.com/shakira").status === "needs_review"
+  );
   assert("csv escapes commas", csvCell("a,b") === '"a,b"');
   assert("onsale maps to on-sale", discoveryStatusToStatus("onsale") === "on-sale");
   assert("offsale maps to announced", discoveryStatusToStatus("offsale") === "announced");
@@ -963,8 +1113,9 @@ async function main() {
     "2. Review events.rejected.json: rows withheld for missing required fields (e.g. venue). Fix the source data and re-run, or discard.",
     "3. Review artists.proposed.json: set indexing_status to a real value only when the artist page will have substantial content. Marketing copy for catalog.json (factual_summary, FAQ, etc.) must be written by a human - this script intentionally does not generate it.",
     "4. Review catalog-ticket-links.proposed.json: all trust flags are false by design. Do not flip verified/public_enabled until the affiliate destination is confirmed.",
-    "5. Read affiliate-actions.md: event-level CTAs work automatically via the existing Impact API path; artist-page vanity links must be created in the Impact dashboard and added to functions/api/out.js by hand.",
-    "6. Nothing here is applied to production. Applying an approved batch is a separate, not-yet-implemented step."
+    "5. Read affiliate-actions.md: event-level CTAs work automatically via the existing Impact API path; artist-page entries in functions/api/out.js must be added by hand after browser verification.",
+    "6. ticketmaster_artist_url / artist_page_url_* fields are Discovery-sourced evidence for review only. Do not copy them into production files. Browser verification of the exact URL remains mandatory before any VERIFIED_TICKET_LINKS entry.",
+    "7. Nothing here is applied to production. Applying an approved batch is a separate step (events only; see scripts/apply-artists.mjs)."
   ];
 
   const report = {
@@ -989,6 +1140,10 @@ async function main() {
       proposed_slug: result.slug,
       confidence: result.confidence,
       genres: result.genres,
+      ticketmaster_artist_url: result.artistPage?.url || "",
+      artist_page_url_status: result.artistPage?.status || "missing",
+      artist_page_url_source: result.artistPage?.source || null,
+      artist_page_url_notes: result.artistPage?.notes || [],
       event_count: artistGroups[idx].valid.length,
       rejected_event_count: artistGroups[idx].rejectedRows.length,
       warnings: [...result.warnings, ...result.eventWarnings]
@@ -1016,6 +1171,7 @@ async function main() {
       "Ticketmaster Discovery is the only event source used. No provider scraping occurs.",
       "tour_name is left empty for every event because Discovery does not return a reliable tour name.",
       "country names are normalised to a canonical label (see country_source_audit); ISO codes are preserved there for auditing.",
+      "ticketmaster_artist_url is preserved only when the Discovery attraction response itself supplies a public storefront artist page (attraction.url). Nothing is constructed or guessed; a human must open the URL in a browser before it is used anywhere.",
       "SeatGeek enrichment is intentionally out of scope here; scripts/propose-seatgeek-urls.mjs covers that separately.",
       "Credentials are read server-side only and are never written to any output file."
     ]

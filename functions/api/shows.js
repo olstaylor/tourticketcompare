@@ -25,7 +25,10 @@ const TICKETMASTER_ARTIST_AFFILIATE_LINKS = {
   beyonce: "https://ticketmaster.evyy.net/beyonce",
   "olivia-rodrigo": "https://www.ticketmaster.com/artist/2836194",
   "bruno-mars": "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801",
-  shakira: "https://www.ticketmaster.com/shakira-tickets/artist/779049"
+  shakira: "https://www.ticketmaster.com/shakira-tickets/artist/779049",
+  raye: "https://www.ticketmaster.com/raye-tickets/artist/2065089",
+  "charli-xcx": "https://www.ticketmaster.com/charli-xcx-tickets/artist/1638380",
+  "tate-mcrae": "https://www.ticketmaster.com/tate-mcrae-tickets/artist/2720246"
 };
 
 function isValidDateISO(value) {

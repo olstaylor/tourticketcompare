@@ -9,8 +9,9 @@ name: Nightly data sync
 # deletions, cancellations, tour names — is NOT auto-published; it is surfaced
 # in the rolling "automation:data-sync" issue / handled by the discovery PR flow.
 #
-# Runs 30 min after daily-audit.yml (03:00 UTC) to avoid Ticketmaster
-# rate-limit collisions.
+# Scheduled trigger is currently disabled, so this workflow is manual-only.
+# If re-enabled, the historical cron ran 30 min after daily-audit.yml
+# (03:00 UTC) to avoid Ticketmaster rate-limit collisions.
 
 on:
   # Scheduled trigger temporarily disabled (manual-only) while CTA rendering
@@ -24,7 +25,7 @@ on:
       dry_run:
         description: 'Check and report only; do not write, commit, or push.'
         type: boolean
-        default: false
+        default: true
 
 permissions:
   contents: write

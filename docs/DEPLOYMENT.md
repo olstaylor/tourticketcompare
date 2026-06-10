@@ -156,6 +156,68 @@ Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploy
 
 ---
 
+## Nightly data sync operational state
+
+`.github/workflows/nightly-data-sync.yml` is currently **manual-only**. Its historical `schedule` cron (`30 3 * * *`) remains commented out, so no nightly run happens until a maintainer deliberately re-enables that event. The workflow can still be launched from **Actions → Nightly data sync → Run workflow**.
+
+### Safe manual dry-run
+
+Use the manual `dry_run` input and leave it set to `true` (the safe default):
+
+```text
+Actions → Nightly data sync → Run workflow → dry_run: true
+```
+
+A dry-run passes `--dry-run --json .audit/tm-sync.json` to `scripts/apply-tm-updates.mjs`. The script calls Ticketmaster for already-tracked events and writes the report, but it does not write `public/data/events.json`; the commit step is also blocked by `inputs.dry_run != true`.
+
+`TICKETMASTER_API_KEY` is required for a useful live Ticketmaster check. If the repository secret is missing, `scripts/apply-tm-updates.mjs` emits a GitHub Actions warning, makes no Ticketmaster calls, writes `.audit/tm-sync.json` with `status: "skipped"`, and exits 0. That is safe, but it is not evidence that the sync is healthy.
+
+### Report artifact
+
+The workflow creates `.audit/` and writes `.audit/tm-sync.json`. The final artifact step runs with `if: always()` and uploads that file as `nightly-data-sync-${{ github.run_id }}` with `include-hidden-files: true` and `retention-days: 30`. Download the artifact from the workflow run summary and inspect:
+
+- `status` / `reason` for skipped runs, especially missing `TICKETMASTER_API_KEY`;
+- `summary.checked`;
+- `summary.updated`;
+- `summary.reviewItems`;
+- `summary.errors`;
+- `summary.blockedUpdateIds`;
+- each `updates[]`, `reviewItems[]`, `errors[]`, and `blockedUpdateIds[]` entry.
+
+### Commit gate
+
+The workflow commits directly to `main` only when all of these are true:
+
+1. the run is not a dry-run (`inputs.dry_run != true`);
+2. `public/data/events.json` changed;
+3. `.audit/tm-sync.json` exists;
+4. `updated > 0`;
+5. `errors === 0`;
+6. `blockedUpdateIds === 0`;
+7. `reviewItems === 0`;
+8. `npm run events:validate:prod`, `npm run events:sync`, `npm run events:partition`, `npm run events:validate:partitions`, and `npm run test:mvp` all pass.
+
+Any review item, blocked update, script error, validation failure, smoke-test failure, missing report, dry-run input, or lack of an `events.json` diff blocks the commit/push. Non-dry-run runs also invoke `scripts/report-tm-sync-review.mjs`, which updates or creates the rolling `automation:data-sync` issue when review findings need human attention.
+
+### Evidence required before re-enabling cron
+
+Do not uncomment the schedule until there is clean evidence from recent manual runs that:
+
+- `TICKETMASTER_API_KEY` is present in Actions secrets and the report is not skipped;
+- the dry-run checks a non-zero number of tracked events;
+- `summary.errors`, `summary.reviewItems`, and `summary.blockedUpdateIds` are all zero, or any findings have been resolved by human-reviewed PRs;
+- the commit gate and validation/smoke commands are still appropriate for every file the workflow may touch;
+- CTA rendering regression guards remain green, so a sync cannot hide working public CTAs;
+- artifact upload works and the `.audit/tm-sync.json` evidence is retained for review.
+
+### Difference from provider-sync dry-run recognition
+
+This workflow is the legacy authoritative field-sync for events that already exist in `public/data/events.json`. It looks up each event by `ticketmaster_discovery_event_id` when present, then by legacy `provider_links.ticketmaster.discovery_event_id` or `ticketmaster_event_id`, and may auto-apply only narrow factual field refreshes for that same existing event when the commit gate is clean.
+
+The newer provider-sync recogniser (`scripts/sync-ticketmaster-events.py`, documented in `docs/PROVIDER_SYNC.md`) works at the artist/attraction level for human-verified `data/provider-identities.json` entries. It is dry-run-only, refuses to run without `--dry-run`, writes no files, adds no CTAs, and has no write mode. Its `PROPOSE` rows are evidence for a future PR-based write-mode design, not authorization for direct data changes or `main` commits.
+
+---
+
 ## How a data change reaches production
 
 This section describes the full path from a JSON edit to a live user seeing the update. Understanding it prevents the most common failure mode — shipping JSON edits without refreshing the inlined fallback (issue #174).

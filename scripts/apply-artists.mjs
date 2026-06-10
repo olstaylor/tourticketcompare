@@ -197,6 +197,7 @@ function unverifiedProviderStub() {
 function buildEvent(row) {
   const tmUrl = clean(row.ticketmaster_url);
   const tmEventId = clean(row.ticketmaster_event_id);
+  const tmDiscoveryEventId = clean(row.ticketmaster_discovery_event_id);
   const timezone = clean(row.timezone);
   const status = clean(row.status);
   const event = {
@@ -221,6 +222,7 @@ function buildEvent(row) {
     provider_links: {
       ticketmaster: {
         event_id: tmEventId || null,
+        discovery_event_id: tmDiscoveryEventId || null,
         url: tmUrl || null,
         verified: false,
         last_verified_at: null,
@@ -231,6 +233,9 @@ function buildEvent(row) {
       stubhub: unverifiedProviderStub()
     }
   };
+  if (tmDiscoveryEventId) {
+    event.ticketmaster_discovery_event_id = tmDiscoveryEventId;
+  }
   if (timezone) event.timezone = timezone;
   if (status) event.status = status;
   return event;
@@ -382,8 +387,17 @@ function runSelfTest() {
   assert("missing venue is flagged", rowIssues({ ...goodRow, venue: "" }).some((r) => r.includes("venue")));
   assert("bad slug is flagged", rowIssues({ ...goodRow, artist_slug: "Bad Slug" }).length > 0);
 
-  const event = buildEvent({ ...goodRow, ticketmaster_url: "https://tm.example/e/1", ticketmaster_event_id: "E1", status: "on-sale" });
+  const event = buildEvent({
+    ...goodRow,
+    ticketmaster_url: "https://tm.example/e/1",
+    ticketmaster_event_id: "E1",
+    ticketmaster_discovery_event_id: "vv1AAZkOVGkdF4IwR",
+    status: "on-sale"
+  });
   assert("built event starts unverified", event.provider_links.ticketmaster.verified === false);
+  assert("built event keeps storefront id top-level", event.ticketmaster_event_id === "E1");
+  assert("built event stores Discovery id top-level", event.ticketmaster_discovery_event_id === "vv1AAZkOVGkdF4IwR");
+  assert("built event stores Discovery id in provider metadata", event.provider_links.ticketmaster.discovery_event_id === "vv1AAZkOVGkdF4IwR");
   assert("built event source_type is ticketmaster", event.source_type === "ticketmaster");
   assert("built event never invents event_name", event.event_name === "");
   assert("built event never invents tour_name", event.tour_name === "");

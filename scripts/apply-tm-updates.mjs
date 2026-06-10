@@ -8,7 +8,8 @@
 // Enrichment, and Rendering"):
 //   - AUTO-APPLY, lossless, from the Ticketmaster Discovery API source of truth,
 //     for events that ALREADY exist in events.json and carry a
-//     ticketmaster_event_id:
+//     Ticketmaster Discovery id (ticketmaster_discovery_event_id when
+//     present, otherwise legacy ticketmaster_event_id fallback):
 //       * date / time  (datetime_iso, timezone)
 //       * venue / city / country
 //       * canonical Ticketmaster URL (refreshed so the /event/<id> slug and the
@@ -24,7 +25,7 @@
 //       * tour_name                      -> verification-gated (issue #172)
 //
 // The script never invents data: every applied value comes from the official
-// Ticketmaster Discovery API response for that exact event id.
+// Ticketmaster Discovery API response for that exact Discovery event id.
 //
 // Usage:
 //   node scripts/apply-tm-updates.mjs [--dry-run] [--json <report-path>]
@@ -73,6 +74,14 @@ const requestTimeoutMs = Number.parseInt(process.env.TM_REQUEST_TIMEOUT_MS || '1
 
 function clean(value) {
   return String(value ?? '').trim();
+}
+
+function ticketmasterDiscoveryEventId(event) {
+  return clean(event?.ticketmaster_discovery_event_id) || clean(event?.provider_links?.ticketmaster?.discovery_event_id) || clean(event?.ticketmaster_event_id);
+}
+
+function ticketmasterStorefrontEventId(event) {
+  return clean(event?.ticketmaster_event_id);
 }
 
 function sleep(ms) {
@@ -248,19 +257,20 @@ function computeIntendedUpdates(event, remote) {
   return changes;
 }
 
-function summarizeEvent(event, ticketmasterEventId, data = null) {
+function summarizeEvent(event, ticketmasterDiscoveryEventId, data = null) {
   return {
     id: event.id,
-    ticketmaster_event_id: ticketmasterEventId,
+    ticketmaster_event_id: ticketmasterStorefrontEventId(event),
+    ticketmaster_discovery_event_id: ticketmasterDiscoveryEventId,
     artist_slug: clean(event.artist_slug),
     local_event_name: clean(event.event_name),
     ticketmaster_status: clean(data?.dates?.status?.code).toLowerCase() || null
   };
 }
 
-function reviewItem(event, ticketmasterEventId, data, kind, detail, intendedChanges = [], recommendedAction = 'Review the Ticketmaster response and update local event data by PR only after human verification.') {
+function reviewItem(event, ticketmasterDiscoveryEventId, data, kind, detail, intendedChanges = [], recommendedAction = 'Review the Ticketmaster response and update local event data by PR only after human verification.') {
   return {
-    ...summarizeEvent(event, ticketmasterEventId, data),
+    ...summarizeEvent(event, ticketmasterDiscoveryEventId, data),
     kind,
     reason: kind,
     detail,
@@ -271,12 +281,12 @@ function reviewItem(event, ticketmasterEventId, data, kind, detail, intendedChan
 
 function computeReviewBlockers(event, remote) {
   const data = remote?.data;
-  const id = clean(event.ticketmaster_event_id);
+  const discoveryId = ticketmasterDiscoveryEventId(event);
   const blockers = [];
   if (!data || typeof data !== 'object') {
     blockers.push(reviewItem(
       event,
-      id,
+      discoveryId,
       data,
       'ambiguous_api_response',
       'Ticketmaster response did not contain a usable event object.',
@@ -287,15 +297,15 @@ function computeReviewBlockers(event, remote) {
   }
 
   const remoteId = clean(data.id);
-  if (!remoteId || remoteId.toLowerCase() !== id.toLowerCase()) {
+  if (!remoteId || remoteId.toLowerCase() !== discoveryId.toLowerCase()) {
     blockers.push(reviewItem(
       event,
-      id,
+      discoveryId,
       data,
       'identity_mismatch',
-      `Ticketmaster response id='${remoteId || '(missing)'}' did not match local ticketmaster_event_id='${id}'.`,
+      `Ticketmaster response id='${remoteId || '(missing)'}' did not match local ticketmaster_discovery_event_id='${discoveryId}'.`,
       [],
-      'Confirm the event id in Ticketmaster and update local data by PR only if the id is still correct.'
+      'Confirm the Discovery event id in Ticketmaster and update local data by PR only if the id is still correct.'
     ));
   }
 
@@ -303,7 +313,7 @@ function computeReviewBlockers(event, remote) {
   if (!remoteStatus) {
     blockers.push(reviewItem(
       event,
-      id,
+      discoveryId,
       data,
       'unknown_status',
       'Ticketmaster response did not include a status code.',
@@ -316,7 +326,7 @@ function computeReviewBlockers(event, remote) {
       : 'unknown_status';
     blockers.push(reviewItem(
       event,
-      id,
+      discoveryId,
       data,
       kind,
       `Ticketmaster status='${remoteStatus}' is review-only and has no safe automatic local mutation.`,
@@ -328,7 +338,7 @@ function computeReviewBlockers(event, remote) {
   if (!identityLooksSafe(event, data)) {
     blockers.push(reviewItem(
       event,
-      id,
+      discoveryId,
       data,
       'identity_mismatch',
       `Ticketmaster event name='${clean(data?.name) || '(missing)'}' does not clearly match local artist='${clean(event.artist_name)}'.`,
@@ -340,7 +350,7 @@ function computeReviewBlockers(event, remote) {
   if (!clean(data?.dates?.start?.dateTime)) {
     blockers.push(reviewItem(
       event,
-      id,
+      discoveryId,
       data,
       'ambiguous_api_response',
       'Ticketmaster response did not include a clear ISO start date/time.',
@@ -353,7 +363,7 @@ function computeReviewBlockers(event, remote) {
   if (!Array.isArray(venues) || venues.length !== 1) {
     blockers.push(reviewItem(
       event,
-      id,
+      discoveryId,
       data,
       'ambiguous_api_response',
       `Ticketmaster response included ${Array.isArray(venues) ? venues.length : 0} venue record(s); expected exactly 1.`,
@@ -416,7 +426,7 @@ async function main() {
   const indexed = await loadIndexedArtistSlugs();
   const events = await readJson(eventsPath);
   const targets = events.filter(
-    (e) => indexed.has(clean(e?.artist_slug)) && clean(e?.ticketmaster_event_id)
+    (e) => indexed.has(clean(e?.artist_slug)) && ticketmasterDiscoveryEventId(e)
   );
   console.log(`Checking ${targets.length} tracked event(s) across ${indexed.size} indexed artist(s)...`);
 
@@ -427,7 +437,7 @@ async function main() {
   let checked = 0;
 
   for (const event of targets) {
-    const id = clean(event.ticketmaster_event_id);
+    const id = ticketmasterDiscoveryEventId(event);
     const result = await fetchEvent(apiKey, base, id);
     checked += 1;
 

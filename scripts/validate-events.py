@@ -269,11 +269,23 @@ def run_self_test() -> int:
             "mutate": lambda event: event.pop("tour_name", None),
             "expect": "event[0].tour_name: required key (must be present; empty string allowed)",
         },
+        {
+            "name": "ticketmaster storefront id must remain in url",
+            "mutate": lambda event: event.__setitem__("ticketmaster_event_id", "DISCOVERY123"),
+            "expect": "ticketmaster_event_id 'DISCOVERY123' must match /event/ segment 'ABC123'",
+        },
     ]
     positive_cases = [
         {
             "name": "valid timestamp fields across artist event and provider",
             "mutate": lambda event: event["provider_links"]["ticketmaster"].__setitem__("last_verified_at", "2026-05-21"),
+        },
+        {
+            "name": "ticketmaster discovery id may differ from storefront url id",
+            "mutate": lambda event: (
+                event.__setitem__("ticketmaster_discovery_event_id", "vv1AAZkOVGkdF4IwR"),
+                event["provider_links"]["ticketmaster"].__setitem__("discovery_event_id", "vv1AAZkOVGkdF4IwR"),
+            ),
         },
         {
             "name": "blank tour_name on indexed artist warns but passes",
@@ -720,6 +732,10 @@ def main() -> int:
                 normalized_ticketmaster_url = ticketmaster_url.strip()
                 normalized_ticketmaster_event_id = ticketmaster_event_id.strip()
                 path_event_id = extract_ticketmaster_event_path_id(normalized_ticketmaster_url)
+                # ticketmaster_event_id intentionally remains the public storefront
+                # URL path id used by /api/out. A separate
+                # ticketmaster_discovery_event_id may be present for Discovery API
+                # sync and is not required to appear in the storefront URL.
                 if path_event_id is not None:
                     if path_event_id != normalized_ticketmaster_event_id and normalized_ticketmaster_event_id not in normalized_ticketmaster_url:
                         errors.append(

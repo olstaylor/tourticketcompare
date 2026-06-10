@@ -36,6 +36,7 @@ const CSV_COLUMNS = [
   "tour_name",
   "status",
   "ticketmaster_event_id",
+  "ticketmaster_discovery_event_id",
   "ticketmaster_url",
   "seatgeek_event_id",
   "seatgeek_url",
@@ -484,6 +485,9 @@ function mapEvent(artistSlug, artistName, tmEvent) {
       // Taken from the URL path, not tmEvent.id: /api/out requires this id to
       // appear in ticketmaster_url before it will redirect the event.
       ticketmaster_event_id: ticketmasterEventIdFromUrl(ticketmasterUrl),
+      // Discovery detail lookups need the API event id, which can differ from
+      // the public storefront URL path id preserved above.
+      ticketmaster_discovery_event_id: tmEventId,
       ticketmaster_url: ticketmasterUrl,
       seatgeek_event_id: "",
       seatgeek_url: "",
@@ -884,6 +888,14 @@ function runSelfTest() {
     ticketmasterEventIdFromUrl("https://www.ticketmaster.nl/event/bruno-mars-tickets/1307970954?language=en-us") ===
       "1307970954"
   );
+  const mappedIdentity = mapEvent("shakira", "Shakira", {
+    id: "vv1AAZkOVGkdF4IwR",
+    url: "https://www.ticketmaster.com/shakira/event/09006474C856CC9E",
+    dates: { start: { dateTime: "2026-06-13T19:30:00Z", timeZone: "America/Los_Angeles" }, status: { code: "onsale" } },
+    _embedded: { venues: [{ name: "SoFi Stadium", city: { name: "Inglewood" }, country: { name: "United States" } }] }
+  }).row;
+  assert("candidate preserves storefront path id for /api/out", mappedIdentity.ticketmaster_event_id === "09006474C856CC9E");
+  assert("candidate preserves Discovery id separately for sync", mappedIdentity.ticketmaster_discovery_event_id === "vv1AAZkOVGkdF4IwR");
   assert("ticketmaster event id is empty for an unparseable url", ticketmasterEventIdFromUrl("not-a-url") === "");
   assert(
     "discovery artist-page url is sourced",
@@ -1207,6 +1219,7 @@ async function main() {
       "tour_name is left empty for every event because Discovery does not return a reliable tour name.",
       "country names are normalised to a canonical label (see country_source_audit); ISO codes are preserved there for auditing.",
       "ticketmaster_artist_url is preserved only when the Discovery attraction response itself supplies a public storefront artist page (attraction.url). Nothing is constructed or guessed; a human must open the URL in a browser before it is used anywhere.",
+      "ticketmaster_event_id remains the public storefront URL path id required by /api/out; ticketmaster_discovery_event_id is preserved separately for Ticketmaster Discovery API detail sync.",
       "SeatGeek enrichment is intentionally out of scope here; scripts/propose-seatgeek-urls.mjs covers that separately.",
       "Credentials are read server-side only and are never written to any output file."
     ]

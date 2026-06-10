@@ -98,6 +98,13 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "tm-artist-bruno-mars",
     redirectUrl: "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801",
     verified: true
+  },
+  "shakira:ticketmaster": {
+    artistSlug: "shakira",
+    provider: "ticketmaster",
+    linkId: "tm-artist-shakira",
+    redirectUrl: "https://www.ticketmaster.com/shakira-tickets/artist/779049",
+    verified: true
   }
 };
 

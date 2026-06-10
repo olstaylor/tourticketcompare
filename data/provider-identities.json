@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "updated_at": "2026-06-10",
+  "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
+  "review_status_values": [
+    "unverified",
+    "verified",
+    "withheld"
+  ],
+  "artists": [
+    {
+      "slug": "beyonce",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "harry-styles",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "bts",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "ariana-grande",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "bad-bunny",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "morgan-wallen",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "jay-z",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "olivia-rodrigo",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "bruno-mars",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "ed-sheeran",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "shakira",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "raye",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "charli-xcx",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    },
+    {
+      "slug": "tate-mcrae",
+      "ticketmaster_attraction_id": null,
+      "ticketmaster_artist_url": null,
+      "seatgeek_performer_id": null,
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "unverified",
+      "notes": null
+    }
+  ]
+}

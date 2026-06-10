@@ -46,6 +46,25 @@ candidates, then run `npm run seatgeek:enrich:apply`, `npm run events:sync`, the
 validators, and open a PR. Absence of a SeatGeek match for a show is acceptable —
 the Ticketmaster CTA still renders. Event-level only; do not invent URLs.
 
+### 6. Provider-sync rollout (foundation landed; sequence below)
+
+Goal: provider-based event recognition and CTA automation, gated end-to-end by
+human verification. Spec: `docs/PROVIDER_SYNC.md`. Foundation in place:
+`data/provider-identities.json` (registry, all IDs null / sync disabled),
+`scripts/validate-provider-identities.mjs` (`npm run providers:identities:validate`),
+and the offline dry-run scaffold `scripts/sync-ticketmaster-events.py`.
+
+Implementation sequence (one PR each, in order):
+
+1. **Foundation** — registry + validator + offline dry-run scaffold. ✅ Done (this section's source PR).
+2. **Ticketmaster dry-run sync** — live TM Discovery API by verified attraction ID for `sync_enabled` artists; report-only; withholds risky rows; no writes.
+3. **Ticketmaster write-to-PR mode** — explicit `--write-pr` gate; validated rows land on a branch + PR for human review; never commits to `main`.
+4. **SeatGeek enrichment dry-run** — extend existing SeatGeek tooling to consume `seatgeek_performer_id`; event-level URL proposals only; no prices.
+5. **CTA generation from provider status** — CTA eligibility derived from verified provider state; `VERIFIED_TICKET_LINKS` and `/api/out` gates unchanged.
+
+Populating registry IDs is a human verification task (one-time per artist) —
+see `docs/PROVIDER_SYNC.md` → "The provider identity registry".
+
 ## Recently completed
 
 These issues are **closed** on GitHub and are kept here only as a short audit trail. They must not be presented as active work.

@@ -13612,7 +13612,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-13-2026/event/09006474C856CC9E",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1AaZkoVGkdF4iwr"
       },
       "seatgeek": {
         "event_id": null,
@@ -13637,7 +13638,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF4iwr"
   },
   {
     "id": "tm-shakira-2026-inglewood-vv1aazkovgkdf_jwm",
@@ -13662,7 +13664,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-14-2026/event/09006474C865CCB7",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1AaZkoVGkdF_jwM"
       },
       "seatgeek": {
         "event_id": null,
@@ -13687,7 +13690,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF_jwM"
   },
   {
     "id": "tm-shakira-2026-palm-desert-vvg1iz_6abv7yw",
@@ -13712,7 +13716,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-palm-desert-california-06-17-2026/event/0A0064727A044E72",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZ_6aBv7yw"
       },
       "seatgeek": {
         "event_id": null,
@@ -13737,7 +13742,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vvG1IZ_6aBv7yw"
   },
   {
     "id": "tm-shakira-2026-san-jose-g5vyz_663mr7p",
@@ -13762,7 +13768,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-19-2026/event/1C006471D2B9E125",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_663mr7P"
       },
       "seatgeek": {
         "event_id": null,
@@ -13787,7 +13794,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "G5vYZ_663mr7P"
   },
   {
     "id": "tm-shakira-2026-san-jose-g5vyz_6x6bktl",
@@ -13812,7 +13820,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-20-2026/event/1C00647F87E86A5F",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_6X6BktL"
       },
       "seatgeek": {
         "event_id": null,
@@ -13837,7 +13846,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "G5vYZ_6X6BktL"
   },
   {
     "id": "tm-shakira-2026-dallas-vvg1yz_6c939ia",
@@ -13862,7 +13872,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-dallas-texas-06-23-2026/event/0C00647397497A05",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1YZ_6C939IA"
       },
       "seatgeek": {
         "event_id": null,
@@ -13887,7 +13898,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vvG1YZ_6C939IA"
   },
   {
     "id": "tm-shakira-2026-atlanta-vvg1zz_66u4nyt",
@@ -13912,7 +13924,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-26-2026/event/0E006471CD56AE69",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1zZ_66u4nyt"
       },
       "seatgeek": {
         "event_id": null,
@@ -13937,7 +13950,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vvG1zZ_66u4nyt"
   },
   {
     "id": "tm-shakira-2026-atlanta-vvg1zz_f6arur7",
@@ -13962,7 +13976,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-28-2026/event/0E006481C9BCDBC4",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1zZ_F6aRuR7"
       },
       "seatgeek": {
         "event_id": null,
@@ -13987,7 +14002,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vvG1zZ_F6aRuR7"
   },
   {
     "id": "tm-shakira-2026-miami-vvg1vz_6knubnj",
@@ -14012,7 +14028,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-01-2026/event/0D006471AADBA8DC",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_6knUBNj"
       },
       "seatgeek": {
         "event_id": null,
@@ -14037,7 +14054,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vvG1VZ_6knUBNj"
   },
   {
     "id": "tm-shakira-2026-miami-vvg1vz_6r8_upj",
@@ -14062,7 +14080,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-02-2026/event/0D00647790676966",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_6r8_UPJ"
       },
       "seatgeek": {
         "event_id": null,
@@ -14087,7 +14106,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vvG1VZ_6r8_UPJ"
   },
   {
     "id": "tm-shakira-2026-baltimore-1a4zkosgf76zecv",
@@ -14112,7 +14132,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-baltimore-maryland-07-06-2026/event/15006471314107D0",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1a4ZkosGf76ZeCv"
       },
       "seatgeek": {
         "event_id": null,
@@ -14137,7 +14158,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "1a4ZkosGf76ZeCv"
   },
   {
     "id": "tm-shakira-2026-boston-vv1avzkosgkdb5unc",
@@ -14162,7 +14184,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1AvZkosGkdb5UNC"
       },
       "seatgeek": {
         "event_id": null,
@@ -14187,7 +14210,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vv1AvZkosGkdb5UNC"
   },
   {
     "id": "tm-shakira-2026-boston-vv177z_6gkrmuczn",
@@ -14212,7 +14236,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv177Z_6GkRmUCzN"
       },
       "seatgeek": {
         "event_id": null,
@@ -14237,7 +14262,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vv177Z_6GkRmUCzN"
   },
   {
     "id": "tm-shakira-2026-newark-vv1aezkosgketdd_b",
@@ -14262,7 +14288,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1AeZkoSGketdD_B"
       },
       "seatgeek": {
         "event_id": null,
@@ -14287,7 +14314,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vv1AeZkoSGketdD_B"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1ayzkosgkdghkeg",
@@ -14312,7 +14340,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AYZkosGkdghkEG"
       },
       "seatgeek": {
         "event_id": null,
@@ -14337,7 +14366,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "1AYZkosGkdghkEG"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1adzz_6gktq1p0z",
@@ -14362,7 +14392,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_6GkTq1p0Z"
       },
       "seatgeek": {
         "event_id": null,
@@ -14387,7 +14418,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "1AdZZ_6GkTq1p0Z"
   },
   {
     "id": "tm-shakira-2026-belmont-park-15dzz_619b3pj",
@@ -14412,7 +14444,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "15dZZ_619b3PJ"
       },
       "seatgeek": {
         "event_id": null,
@@ -14437,7 +14470,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "15dZZ_619b3PJ"
   },
   {
     "id": "tm-shakira-2026-atlantic-city-vv17fz_6gkb5efrp",
@@ -14462,7 +14496,8 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv17FZ_6GkB5efrP"
       },
       "seatgeek": {
         "event_id": null,
@@ -14487,7 +14522,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "vv17FZ_6GkB5efrP"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1k7eo4av",
@@ -14512,7 +14548,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1k7EO4Av"
       },
       "seatgeek": {
         "event_id": null,
@@ -14537,7 +14574,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k7EO4Av"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vas39ay",
@@ -14562,7 +14600,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ16vaS39AY"
       },
       "seatgeek": {
         "event_id": null,
@@ -14587,7 +14626,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaS39AY"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vrkvz38",
@@ -14612,7 +14652,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ16vrkvZ38"
       },
       "seatgeek": {
         "event_id": null,
@@ -14637,7 +14678,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vrkvZ38"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v_oqxoe",
@@ -14662,7 +14704,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ16v_oqxoe"
       },
       "seatgeek": {
         "event_id": null,
@@ -14687,7 +14730,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_oqxoe"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vowff-f",
@@ -14712,7 +14756,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ16vowfF-f"
       },
       "seatgeek": {
         "event_id": null,
@@ -14737,7 +14782,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vowfF-f"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1konkpax",
@@ -14762,7 +14808,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1kONkpax"
       },
       "seatgeek": {
         "event_id": null,
@@ -14787,7 +14834,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kONkpax"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1kbi4uav",
@@ -14812,7 +14860,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1kbI4Uav"
       },
       "seatgeek": {
         "event_id": null,
@@ -14837,7 +14886,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kbI4Uav"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v4mzjas",
@@ -14862,7 +14912,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ16v4MZJas"
       },
       "seatgeek": {
         "event_id": null,
@@ -14887,7 +14938,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4MZJas"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v73axp9",
@@ -14912,7 +14964,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ16v73axP9"
       },
       "seatgeek": {
         "event_id": null,
@@ -14937,7 +14990,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v73axP9"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koifuzg",
@@ -14962,7 +15016,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1kOIFUZg"
       },
       "seatgeek": {
         "event_id": null,
@@ -14987,7 +15042,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOIFUZg"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koecouy",
@@ -15012,7 +15068,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1kOeCouY"
       },
       "seatgeek": {
         "event_id": null,
@@ -15037,7 +15094,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOeCouY"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vfpafo8",
@@ -15062,7 +15120,8 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ16vfPaFO8"
       },
       "seatgeek": {
         "event_id": null,
@@ -15087,6 +15146,7 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfPaFO8"
   }
 ]

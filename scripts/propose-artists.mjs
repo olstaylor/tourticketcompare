@@ -264,12 +264,31 @@ function resolveTicketmasterUrl(value) {
   return { url: current, host: "", wasWrapped };
 }
 
-// True only for genuine Ticketmaster storefront domains (ticketmaster.com,
-// .co.uk, .ca, .de, .es, .nl, ...). Resellers such as axs.com or
-// seatgeek.com return false so those events are not published as
-// Ticketmaster events.
+// True only for the Ticketmaster storefront domains allowlisted in
+// functions/api/out.js PROVIDERS.ticketmaster.allowedDestinationHosts.
+// Exact registrable-domain suffix matching only: resellers (axs.com,
+// seatgeek.com), affiliate/tracking hosts (ticketmaster.evyy.net — a
+// subdomain of evyy.net, not of ticketmaster.com), deceptive hosts that
+// merely contain the word "ticketmaster", and non-allowlisted regional
+// storefronts (ticketmaster.com.mx) all return false so those events are
+// not published as Ticketmaster events. Keep this list in sync with out.js;
+// never widen it to a generic ticketmaster.* pattern.
+const TICKETMASTER_STOREFRONT_DOMAINS = [
+  "ticketmaster.com",
+  "ticketmaster.ca",
+  "ticketmaster.co.uk",
+  "ticketmaster.es",
+  "ticketmaster.de",
+  "ticketmaster.nl",
+  "ticketmaster.se",
+  "ticketmaster.pl",
+  "ticketmaster.be",
+  "ticketmaster.it"
+];
+
 function isTicketmasterHost(host) {
-  return /(^|\.)ticketmaster\.[a-z.]+$/i.test(clean(host));
+  const h = clean(host).toLowerCase();
+  return TICKETMASTER_STOREFRONT_DOMAINS.some((domain) => h === domain || h.endsWith(`.${domain}`));
 }
 
 // Classifies the `url` field of a Discovery attraction as artist-page
@@ -839,6 +858,22 @@ function runSelfTest() {
   assert("ticketmaster.co.uk is a ticketmaster host", isTicketmasterHost("www.ticketmaster.co.uk"));
   assert("axs is not a ticketmaster host", !isTicketmasterHost("www.axs.com"));
   assert("lookalike ticketmaster host is rejected", !isTicketmasterHost("notticketmaster.com"));
+  assert(
+    "affiliate host ticketmaster.evyy.net is not a ticketmaster host (subdomain of evyy.net)",
+    !isTicketmasterHost("ticketmaster.evyy.net")
+  );
+  assert(
+    "deceptive host containing 'ticketmaster' is rejected",
+    !isTicketmasterHost("ticketmaster.evil.example")
+  );
+  assert(
+    "non-allowlisted regional storefront ticketmaster.com.mx is rejected",
+    !isTicketmasterHost("www.ticketmaster.com.mx")
+  );
+  assert(
+    "evyy wrapper without a u= param does not classify as a storefront url",
+    !isTicketmasterHost(resolveTicketmasterUrl("https://ticketmaster.evyy.net/vD4B5y").host)
+  );
   assert(
     "ticketmaster event id is taken from the storefront url path",
     ticketmasterEventIdFromUrl("https://www.ticketmaster.com/bruno-mars-columbus-ohio/event/05006394EB3DD035") ===

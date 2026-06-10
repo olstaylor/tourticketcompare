@@ -1,6 +1,6 @@
 # Provider Sync — Foundation and Future Workflow
 
-_Status: **foundation only** (registry + validator + dry-run scaffold). No sync script calls any live API yet. No events, CTAs, or data writes are produced by anything described here._
+_Status: **Ticketmaster dry-run recognition live** (sequence step 2). `scripts/sync-ticketmaster-events.py` now performs a real TM Discovery lookup by verified attraction ID for sync-enabled artists and prints a report. It is still **dry-run only**: no events, CTAs, or data writes are produced by anything described here, and the script refuses to run without `--dry-run`._
 
 This document defines how TourTicketCompare will move from manually curated event
 data to provider-based event recognition and CTA automation — without weakening
@@ -99,26 +99,64 @@ These are hard constraints, not preferences:
 
 ---
 
-## Planned commands
+## Commands
 
-Available now (foundation, offline, read-only):
+Available now:
 
 ```bash
-python3 scripts/sync-ticketmaster-events.py --artist <slug> --dry-run
+# Live Ticketmaster dry-run recognition for one verified, sync-enabled artist
+python3 scripts/sync-ticketmaster-events.py --artist raye --dry-run
+
+# All registry entries (ineligible artists are listed with their blockers)
 python3 scripts/sync-ticketmaster-events.py --all-approved --dry-run
+
+# Machine-readable report (JSON to stdout; still writes no files)
+python3 scripts/sync-ticketmaster-events.py --artist raye --dry-run --json
+
+# Offline withhold-rule and dry-run-contract self-test (no network)
+python3 scripts/sync-ticketmaster-events.py --self-test   # npm run providers:sync:tm:self-test
+
+# Registry validation
 npm run providers:identities:validate
 ```
 
-The current `sync-ticketmaster-events.py` is **scaffolding**: it reads the
-registry and existing artist/event data and prints the checks a real sync run
-will perform. It makes no network calls and refuses to run without `--dry-run`.
+`TICKETMASTER_API_KEY` is required for the live lookup (read from the
+environment or `.dev.vars`/`.env`, the propose-artists pattern). **Without it
+the script fails safely**: it prints a clear notice, emits only the offline
+eligibility report, writes nothing, and exits 0 — mirroring the
+`apply-tm-updates.mjs` no-op pattern. Running without `--dry-run` is an error
+(exit 2): no write mode exists.
+
+### Reading the dry-run report
+
+Per artist the report shows the slug, the registry attraction ID used, the
+count of events **recognised** (returned by Discovery for that attraction ID),
+how many would be **proposed**, how many are **withheld**, and a histogram of
+withheld reasons. Each event row shows TM event ID, name, date/time, venue,
+city/country, the URL host, whether that host passes the existing `out.js`
+Ticketmaster destination allowlist, and every withhold reason that applies.
+
+Interpretation:
+
+- **PROPOSE** means only that the row passed every dry-run check. Nothing is
+  written; a proposed row still goes through the future write-to-PR mode,
+  `events:validate:prod`, and human PR review before it can ever reach
+  `events.json`.
+- **WITHHOLD** means at least one rule failed; the row needs a human decision.
+  Common cases: support-act/festival-lineup appearances (the registry
+  attraction is not the event's primary attraction — e.g. RAYE on Bruno Mars
+  stadium dates), affiliate-wrapped Discovery URLs (`ticketmaster.evyy.net` is
+  a trusted *affiliate* host in `out.js` but not a *destination* host, so the
+  dry-run conservatively withholds until URL canonicalisation is designed in
+  the write-mode PR), non-onsale statuses, missing venue/city/country,
+  date-only datetimes, travel/upsell packages, and duplicates.
+- A withheld row is never an instruction to relax a rule. If a withheld row
+  looks publishable, that is input to the **write-to-PR design**, not a reason
+  to hand-edit data files outside the established artist/event workflows.
 
 Future (each its own PR — see the sequence below):
 
 ```bash
-# Ticketmaster dry-run sync (live Discovery API, report-only)
-python3 scripts/sync-ticketmaster-events.py --artist <slug> --dry-run
-
 # Ticketmaster write mode (explicitly gated; output goes to a PR, never main)
 python3 scripts/sync-ticketmaster-events.py --artist <slug> --write-pr
 
@@ -138,8 +176,8 @@ script; the registry adds the performer ID it will consume later.
 
 | Step | PR | Scope |
 |---|---|---|
-| 1 | **Foundation (this PR)** | Registry, schema doc, validator, offline dry-run scaffold. No events, no writes, no CTAs. |
-| 2 | Ticketmaster dry-run sync | `sync-ticketmaster-events.py` calls the TM Discovery API by attraction ID for `sync_enabled` artists; reports new/changed/withheld rows; writes nothing. Requires `TICKETMASTER_API_KEY`; no-ops safely if absent (same pattern as the nightly sync). |
+| 1 | Foundation — **done** (PR #243) | Registry, schema doc, validator, offline dry-run scaffold. No events, no writes, no CTAs. |
+| 2 | Ticketmaster dry-run sync — **done** | `sync-ticketmaster-events.py` calls the TM Discovery API by attraction ID for `sync_enabled` artists; reports proposed/withheld rows; writes nothing. Requires `TICKETMASTER_API_KEY`; no-ops safely if absent (same pattern as the nightly sync). |
 | 3 | Ticketmaster write-to-PR mode | Explicit `--write-pr` gate; validated candidate rows land on a branch + PR for human review. Withheld rows go to a review report, never the data files. |
 | 4 | SeatGeek enrichment dry-run | Extend existing SeatGeek tooling to use `seatgeek_performer_id`; event-level URL proposals only; no prices, no artist-level links. |
 | 5 | CTA generation from provider status | CTA eligibility derived from verified provider state. All existing gates remain: `VERIFIED_TICKET_LINKS` stays human-confirmed, `/api/out` validation unchanged. |
@@ -156,6 +194,7 @@ Run when touching the registry, the scaffold, or this document:
 
 ```bash
 npm run providers:identities:validate
+npm run providers:sync:tm:self-test
 python3 scripts/sync-ticketmaster-events.py --all-approved --dry-run
 python3 -m py_compile scripts/sync-ticketmaster-events.py
 node --check scripts/validate-provider-identities.mjs

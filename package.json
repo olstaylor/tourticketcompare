@@ -44,6 +44,7 @@
     "audit:candidates": "node scripts/audit-candidates.mjs",
     "candidates:score": "node scripts/score-candidates.mjs",
     "candidates:report": "node scripts/report-candidates.mjs",
+    "candidates:split": "node scripts/split-candidates.mjs",
     "seatgeek:self-test": "node scripts/propose-seatgeek-urls.mjs --self-test",
     "seatgeek:propose": "node scripts/propose-seatgeek-urls.mjs",
     "seatgeek:enrich": "node scripts/enrich-seatgeek-events.mjs",

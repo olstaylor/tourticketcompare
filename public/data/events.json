@@ -411,20 +411,21 @@
     "timezone": "America/Chicago",
     "tour_name": "Still the Problem Tour",
     "status": "announced",
-    "ticketmaster_event_id": "Z7r9jZ1A7qtbN",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbN",
+    "ticketmaster_event_id": "Z7r9jZ1A7qtbV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbV",
     "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/chicago-illinois-soldier-field-2026-06-19-5-30-pm/concert/17873130",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbN",
-    "last_verified_at": "2026-05-07",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbV",
+    "last_verified_at": "2026-06-10",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "Z7r9jZ1A7qtbN",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbN",
+        "event_id": "Z7r9jZ1A7qtbV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbV",
         "verified": true,
-        "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "last_verified_at": "2026-06-10",
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qtbV"
       },
       "seatgeek": {
         "event_id": null,
@@ -447,7 +448,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbV"
   },
   {
     "id": "tm-morgan-wallen-2026-chicago-z7r9jz1a7qtba",
@@ -561,20 +563,21 @@
     "timezone": "America/New_York",
     "tour_name": "Still the Problem Tour",
     "status": "announced",
-    "ticketmaster_event_id": "Z7r9jZ1A7qtb7",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtb7",
+    "ticketmaster_event_id": "Z7r9jZ1A7qYJ9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qYJ9",
     "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/clemson-south-carolina-clemson-memorial-stadium-2026-06-27-5-30-pm/concert/17882632",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtb7",
-    "last_verified_at": "2026-05-07",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qYJ9",
+    "last_verified_at": "2026-06-10",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "Z7r9jZ1A7qtb7",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtb7",
+        "event_id": "Z7r9jZ1A7qYJ9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qYJ9",
         "verified": true,
-        "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "last_verified_at": "2026-06-10",
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qYJ9"
       },
       "seatgeek": {
         "event_id": null,
@@ -597,7 +600,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ9"
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtba2",
@@ -761,20 +765,21 @@
     "timezone": "America/New_York",
     "tour_name": "Still the Problem Tour",
     "status": "announced",
-    "ticketmaster_event_id": "Z7r9jZ1A7qtbF",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbF",
+    "ticketmaster_event_id": "Z7r9jZ1A7qtbw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbw",
     "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/ann-arbor-michigan-michigan-stadium-2026-07-25-5-30-pm/concert/17873140",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbF",
-    "last_verified_at": "2026-05-07",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbw",
+    "last_verified_at": "2026-06-10",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "Z7r9jZ1A7qtbF",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbF",
+        "event_id": "Z7r9jZ1A7qtbw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbw",
         "verified": true,
-        "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "last_verified_at": "2026-06-10",
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qtbw"
       },
       "seatgeek": {
         "event_id": null,
@@ -797,7 +802,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbw"
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635dc72ec234",

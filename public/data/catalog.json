@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-05-20",
+  "updated_at": "2026-06-10",
   "strategy": "Cloudflare Pages stadium tour market watch catalog with factual artist content and verified provider buttons only.",
   "artists": [
     {
@@ -328,6 +328,37 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "shakira",
+      "name": "Shakira",
+      "short_description": "Colombian singer and songwriter.",
+      "country": "Colombia",
+      "image_alt": "Shakira artist ticket information",
+      "factual_summary": "Shakira is a Colombian singer and songwriter. TourTicketCompare is reviewing this artist page before publishing any provider buttons.",
+      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
+      "seo_title": "Shakira Ticket Links & Buying Guidance | TourTicketCompare",
+      "meta_description": "Review Shakira ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
+      "faq": [
+        {
+          "question": "Why are Shakira ticket buttons not shown yet?",
+          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+        },
+        {
+          "question": "Does TourTicketCompare publish live Shakira ticket prices?",
+          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+        },
+        {
+          "question": "How should I check Shakira ticket options safely?",
+          "answer": "Confirm the artist, date, venue, fees, delivery method, and refund or transfer terms on the ticket provider site before checkout."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -643,6 +674,19 @@
     {
       "link_id": "tm-artist-ed-sheeran",
       "artist_slug": "ed-sheeran",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-shakira",
+      "artist_slug": "shakira",
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",

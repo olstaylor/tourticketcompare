@@ -110,43 +110,43 @@
     },
     {
       "slug": "shakira",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ9171xeV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/shakira-tickets/artist/779049",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #239 promote commit); attraction ID from the Ticketmaster Discovery attraction record."
     },
     {
       "slug": "raye",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ917Kvt7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/raye-tickets/artist/2065089",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #242 promote commit); attraction ID from the Ticketmaster Discovery attraction record."
     },
     {
       "slug": "charli-xcx",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ917CDKf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/charli-xcx-tickets/artist/1638380",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #242 promote commit); attraction ID from the Ticketmaster Discovery attraction record."
     },
     {
       "slug": "tate-mcrae",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ917bcy0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/tate-mcrae-tickets/artist/2720246",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #242 promote commit); attraction ID from the Ticketmaster Discovery attraction record."
     }
   ]
 }

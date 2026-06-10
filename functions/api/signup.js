@@ -12,7 +12,10 @@ const ARTIST_SLUGS = new Set([
   "olivia-rodrigo",
   "bruno-mars",
   "ed-sheeran", // review_required: signup allowed; CTAs gated separately via artists.json
-  "shakira" // review_required: signup allowed; CTAs gated separately via artists.json
+  "shakira",
+  "raye", // review_required: signup allowed; CTAs gated separately via artists.json
+  "charli-xcx", // review_required: signup allowed; CTAs gated separately via artists.json
+  "tate-mcrae" // review_required: signup allowed; CTAs gated separately via artists.json
 ]);
 
 function json(payload, status = 200) {

@@ -363,6 +363,99 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "raye",
+      "name": "RAYE",
+      "short_description": "English singer and songwriter.",
+      "country": "United Kingdom",
+      "image_alt": "RAYE artist ticket information",
+      "factual_summary": "RAYE is an English singer and songwriter. TourTicketCompare is reviewing this artist page before publishing any provider buttons.",
+      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
+      "seo_title": "RAYE Ticket Links & Buying Guidance | TourTicketCompare",
+      "meta_description": "Review RAYE ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
+      "faq": [
+        {
+          "question": "Why are RAYE ticket buttons not shown yet?",
+          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+        },
+        {
+          "question": "Does TourTicketCompare publish live RAYE ticket prices?",
+          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+        },
+        {
+          "question": "How should I check RAYE ticket options safely?",
+          "answer": "Confirm the artist, date, venue, fees, delivery method, and refund or transfer terms on the ticket provider site before checkout."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "charli-xcx",
+      "name": "Charli xcx",
+      "short_description": "English singer and songwriter.",
+      "country": "United Kingdom",
+      "image_alt": "Charli xcx artist ticket information",
+      "factual_summary": "Charli xcx is an English singer and songwriter. TourTicketCompare is reviewing this artist page before publishing any provider buttons.",
+      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
+      "seo_title": "Charli xcx Ticket Links & Buying Guidance | TourTicketCompare",
+      "meta_description": "Review Charli xcx ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
+      "faq": [
+        {
+          "question": "Why are Charli xcx ticket buttons not shown yet?",
+          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+        },
+        {
+          "question": "Does TourTicketCompare publish live Charli xcx ticket prices?",
+          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+        },
+        {
+          "question": "How should I check Charli xcx ticket options safely?",
+          "answer": "Confirm the artist, date, venue, fees, delivery method, and refund or transfer terms on the ticket provider site before checkout."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "tate-mcrae",
+      "name": "Tate McRae",
+      "short_description": "Canadian singer and songwriter.",
+      "country": "Canada",
+      "image_alt": "Tate McRae artist ticket information",
+      "factual_summary": "Tate McRae is a Canadian singer and songwriter. TourTicketCompare is reviewing this artist page before publishing any provider buttons.",
+      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
+      "seo_title": "Tate McRae Ticket Links & Buying Guidance | TourTicketCompare",
+      "meta_description": "Review Tate McRae ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
+      "faq": [
+        {
+          "question": "Why are Tate McRae ticket buttons not shown yet?",
+          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+        },
+        {
+          "question": "Does TourTicketCompare publish live Tate McRae ticket prices?",
+          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+        },
+        {
+          "question": "How should I check Tate McRae ticket options safely?",
+          "answer": "Confirm the artist, date, venue, fees, delivery method, and refund or transfer terms on the ticket provider site before checkout."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -699,6 +792,45 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-06-10",
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-raye",
+      "artist_slug": "raye",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-charli-xcx",
+      "artist_slug": "charli-xcx",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-tate-mcrae",
+      "artist_slug": "tate-mcrae",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
       "disclosure_required": true
     }
   ],

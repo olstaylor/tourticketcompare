@@ -402,6 +402,29 @@ function buildReport({ sourceReport, sourceRel, slugs, artistGroups, keptRows, k
   };
 }
 
+// Renders the artist-page CTA lines for affiliate-actions.md from a proposed
+// artist record, which may carry Discovery-sourced URL evidence added by
+// scripts/propose-artists.mjs (ticketmaster_artist_url / artist_page_url_*).
+function artistPageCtaLines(slug, record) {
+  const url = clean(record?.ticketmaster_artist_url, 2048);
+  const status = clean(record?.artist_page_url_status) || "missing";
+  if (status === "sourced" && url) {
+    return [
+      `  - Artist-page CTA: NOT LIVE. Discovery-sourced candidate URL: ${url}`,
+      "    (artist_page_url_status: sourced). A human must open this exact URL in a browser and " +
+        "confirm it resolves to the correct artist before hand-adding the " +
+        `\`VERIFIED_TICKET_LINKS["${slug}:ticketmaster"]\` entry in \`functions/api/out.js\` ` +
+        "(protected file - explicit scope required)."
+    ];
+  }
+  return [
+    `  - Artist-page CTA: MISSING (artist_page_url_status: ${status}). The Ticketmaster artist page URL must be manually ` +
+      "verified in a browser before promotion, then added by hand as a " +
+      `\`VERIFIED_TICKET_LINKS["${slug}:ticketmaster"]\` entry in \`functions/api/out.js\` ` +
+      "(protected file - explicit scope required)."
+  ];
+}
+
 function buildAffiliateActions({ sourceRel, artistGroups }) {
   const lines = [
     "# Affiliate / deep-link actions (split folder)",
@@ -421,12 +444,7 @@ function buildAffiliateActions({ sourceRel, artistGroups }) {
       `  - Event-level CTAs: ${group.acceptedRows.length} candidate event(s) with Ticketmaster URLs ` +
         "-> work automatically via the existing Impact API path once events are applied."
     );
-    lines.push(
-      "  - Artist-page CTA: MISSING. The Ticketmaster artist page URL must be manually " +
-        "verified in a browser before promotion, then added by hand as a " +
-        `\`VERIFIED_TICKET_LINKS["${group.slug}:ticketmaster"]\` entry in \`functions/api/out.js\` ` +
-        "(protected file - explicit scope required)."
-    );
+    lines.push(...artistPageCtaLines(group.slug, group.record));
     lines.push("");
   }
   lines.push(`See \`${sourceRel}/affiliate-actions.md\` for the full batch context.`, "");
@@ -521,6 +539,23 @@ function runSelfTest() {
   assert("rejected fallback matches id prefix when slug missing", keptRejected.some((r) => r.id.endsWith("ghi")));
   assert("rejected fallback does not match prefix-colliding slug", !keptRejected.some((r) => r.id.endsWith("jkl")));
   assert("--drop-rejected writes empty set", filterRejectedRows(rejectedRows, ["shakira"], true).length === 0);
+
+  // Artist-page CTA evidence rendering in regenerated affiliate-actions.md.
+  const sourcedLines = artistPageCtaLines("shakira", {
+    ticketmaster_artist_url: "https://www.ticketmaster.com/shakira-tickets/artist/779049",
+    artist_page_url_status: "sourced"
+  });
+  assert("sourced artist record renders the candidate URL", sourcedLines.join(" ").includes("artist/779049"));
+  assert("sourced artist record still requires browser verification", sourcedLines.join(" ").includes("browser"));
+  assert("absent artist record renders MISSING", artistPageCtaLines("x", null)[0].includes("MISSING"));
+  assert(
+    "non-sourced status renders MISSING with the status",
+    artistPageCtaLines("x", { artist_page_url_status: "needs_review" })[0].includes("needs_review")
+  );
+  assert(
+    "sourced status without a url renders MISSING",
+    artistPageCtaLines("x", { artist_page_url_status: "sourced", ticketmaster_artist_url: "" })[0].includes("MISSING")
+  );
 
   // Missing slug error lists available slugs.
   const selection = selectSlugs(["nope"], ["shakira", "raye"]);
@@ -683,6 +718,7 @@ async function main() {
   const artistGroups = slugs.map((slug) => ({
     slug,
     name: nameBySlug.get(slug) || slug,
+    record: keptArtists.find((a) => clean(a?.slug) === slug) || null,
     acceptedRows: keptRows.filter((r) => clean(r.artist_slug) === slug),
     rejectedRows: options.dropRejected
       ? []
@@ -773,7 +809,7 @@ async function main() {
   console.log(`  events.rejected.json               ${keptRejected.length} withheld row(s)${options.dropRejected ? " (--drop-rejected)" : ""}`);
   console.log(`  artists.proposed.json              ${keptArtists.length} proposed artist record(s)`);
   console.log(`  catalog-ticket-links.proposed.json ${keptCatalogLinks.length} proposed ticket_link draft(s)`);
-  console.log("  affiliate-actions.md               regenerated (artist-page CTAs remain MISSING until human verification)");
+  console.log("  affiliate-actions.md               regenerated (artist-page URL evidence carried over; human browser verification still required)");
   console.log("  report.json                        rewritten (mode: dry-run preserved; provenance: split_from/split_slugs/split_at)");
   console.log("");
   console.log("Post-write verification passed: CSV re-parsed, row count and slug set match.");

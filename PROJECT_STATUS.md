@@ -53,6 +53,7 @@ Run before committing data, content, or rendering changes:
 - `npm run artist:check -- <slug>` — per-artist readiness validator: checks `artists.json`, `catalog.json`, `events.json`, partition files, `VERIFIED_TICKET_LINKS` in `out.js`, `TICKETMASTER_ARTIST_AFFILIATE_LINKS` in `shows.js`, and `ARTIST_SLUGS` in `signup.js` (PR #188, extended to shows.js + signup.js checks).
 - `node scripts/smoke-prelaunch.mjs` — route/CTA/copy smoke checks.
 - `npm run seatgeek:self-test` — SeatGeek discovery scoring/safety smoke test (no API calls). Run before changing the discovery tooling.
+- `npm run providers:identities:validate` — provider identity registry validation (`data/provider-identities.json` vs `artists.json` and the out.js Ticketmaster host allowlist). Run whenever the registry changes. See `docs/PROVIDER_SYNC.md`.
 - `node --check public/app.js`, `node --check 'functions/[[path]].js'`, `node --check functions/api/out.js` — syntax.
 - `git diff --check` — whitespace and conflict markers.
 
@@ -100,6 +101,7 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 - Verified Ticketmaster CTAs (artist- and event-level) where configured.
 - Verified event-level SeatGeek CTAs — live in production where a verified `seatgeek_url` exists; routed through `/api/out` with Impact tracking (SeatGeek Impact bindings present). Currently 93/272 events carry a verified `seatgeek_url`. Event-level SeatGeek URL discovery tooling is operational and wired in (`npm run seatgeek:propose` / `seatgeek:enrich:apply`, `SeatGeek Discovery Proposal` workflow); closing the remaining coverage gap needs a credentialed run — see `BACKLOG.md` item 7 and `docs/SEATGEEK_DISCOVERY.md`.
 - First-party analytics and signup writes through `DEMAND_DB`.
+- Provider-sync **foundation** (registry, validator, offline dry-run scaffold — `docs/PROVIDER_SYNC.md`). No live provider sync runs yet; all registry entries have null IDs and `sync_enabled: false`. Rollout sequence in `BACKLOG.md` item 6.
 
 ## What is not supported
 

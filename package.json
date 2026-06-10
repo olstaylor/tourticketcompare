@@ -29,6 +29,8 @@
     "guides:validate": "node scripts/validate-guide-routes.mjs",
     "providers:validate": "node scripts/validate-provider-structure.js",
     "validate:provider-allowlists": "node scripts/validate-provider-allowlists.mjs",
+    "providers:identities:validate": "node scripts/validate-provider-identities.mjs",
+    "providers:sync:tm:dry-run": "python3 scripts/sync-ticketmaster-events.py --all-approved --dry-run",
     "providers:enrich": "node scripts/enrich-events-with-provider-links.js",
     "providers:parity": "node scripts/report-provider-parity.mjs",
     "test:providers": "npm run providers:validate",

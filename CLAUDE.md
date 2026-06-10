@@ -136,12 +136,15 @@ Review before starting work. (Issues **#171** Olivia Rodrigo verified links and 
 | **Legacy deploy paths** | Low | `vercel.json`, `api/`, `scripts/build-standalone-worker.mjs`, and `archive/vercel-experimental/` are not production. Do not add Vercel-specific logic. Audit-only deletion plan tracked under issue #176. |
 
 Do not action these without explicit scope (also tracked as "parked" in `BACKLOG.md`):
-- Adding new artists, including The Weeknd. The only exception is the **Ed Sheeran Phase 2 `review_required` shell** (no CTAs, no `/api/out`, no events, no provider/affiliate changes) — already present in `public/data/artists.json`.
 - `vercel.json`, `api/`, `build-standalone-worker.mjs`, `archive/vercel-experimental/` retirement (waits on issue #176 audit)
 - Provider abstraction implementation (`functions/api/_providers/index.js`, `functions/_provider-registry.js`)
 - Tour-level pages, city pages, event landing pages
-- Public Vivid Seats CTAs; artist-level SeatGeek links or SeatGeek price display (SeatGeek is configured and live in production, but **event-level only** — destinations come from a verified `seatgeek_url` in `events.json`, never from artist-level allowlist entries)
+- Artist-level SeatGeek links or SeatGeek price display (SeatGeek is configured and live in production, but **event-level only** — destinations come from a verified `seatgeek_url` in `events.json`, never from artist-level allowlist entries)
 - Live price aggregation or "cheapest" / "guaranteed availability" claims
+
+Unparked 2026-06-10 (no longer blocked, but the standard gates still apply):
+- **New artists** may be onboarded via `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` + `docs/ADDING_ARTISTS.md` (phase gates, human browser verification, `npm run artist:check`). Never auto-published.
+- **Public Vivid Seats CTAs** may be scoped and enabled — but only with a verified `vividseats.com` destination URL routed through `/api/out` (see `docs/PROVIDER_DATA_POLICY.md` → Vivid Seats). No verified destinations exist yet, so no CTAs render until they do.
 
 ---
 

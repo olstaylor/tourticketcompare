@@ -30,7 +30,7 @@ Artist pages may exist in `indexing_status: "review_required"` with no CTAs. Thi
 
 Pages become indexable and conversion-led only after completing the phase gates in [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md). Do not set `indexing_status: "indexable_with_substantial_content"` without human browser verification of the live ticket URL.
 
-**New artists and events are never auto-published.** Discovery tooling (Ticketmaster / SeatGeek) may only *propose* candidates for human review. Promotion to indexable, and any `VERIFIED_TICKET_LINKS` / `/api/out` entry, require a human to verify the live ticket URL in a browser and to follow the phase gates. The only sanctioned scaling exception is the Ed Sheeran Phase 2 `review_required` shell — no CTAs, no `/api/out`, no events.
+**New artists and events are never auto-published.** Discovery tooling (Ticketmaster / SeatGeek) may only *propose* candidates for human review. Promotion to indexable, and any `VERIFIED_TICKET_LINKS` / `/api/out` entry, require a human to verify the live ticket URL in a browser and to follow the phase gates. New-artist onboarding is no longer parked (lifted 2026-06-10), but every artist must still pass these gates — start from a `review_required` shell per `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`.
 
 ## Price Display
 

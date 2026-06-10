@@ -20,7 +20,7 @@ Helps fans find checked ticket links, understand buying risks, and read practica
 **Not supported:**
 - Live multi-provider price comparison
 - "Cheapest price" or "guaranteed availability" claims
-- Public SeatGeek or Vivid Seats CTAs (gated, not yet live)
+- Public Vivid Seats CTAs (unparked but not live — awaiting verified destinations); artist-level SeatGeek links (SeatGeek is live event-level only)
 
 ---
 

@@ -118,7 +118,7 @@ npm run demand:export    # Export email_subscribers from production D1
 
 Follow the gated workflow in [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md). Field-level templates are in [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md). Do not add a new artist without completing Phase 1 (Proposal) human verification first.
 
-**Currently blocked:** no new artists until #171 (Olivia Rodrigo trust gap) is resolved. See [BACKLOG.md](BACKLOG.md).
+New-artist onboarding is unblocked as of 2026-06-10 (#171 closed; block lifted by owner direction). The phase gates above remain mandatory for every artist. See [BACKLOG.md](BACKLOG.md).
 
 ---
 

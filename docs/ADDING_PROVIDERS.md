@@ -87,8 +87,8 @@ Once Phase 1 is documented and reviewed:
 | Provider | Status | Notes |
 |----------|--------|-------|
 | **Ticketmaster** | ✅ Live | Official event source; Impact affiliate tracking active |
-| **SeatGeek** | ⏸️ Parked | Data feed exists; public CTAs pending scope & approval (issue #177) |
-| **Vivid Seats** | ⏸️ Parked | Data feed exists; public CTAs pending scope & approval (issue #177) |
+| **SeatGeek** | ✅ Live (event-level only) | Event-level CTAs render where a verified `seatgeek_url` exists, via `/api/out` with Impact tracking. Artist-level links and price display remain parked. |
+| **Vivid Seats** | 🔓 Unparked (not live) | Block lifted 2026-06-10; public CTAs may be scoped. Requires a verified `vividseats.com` destination URL added to `/api/out` — none exist yet, so buttons stay hidden. |
 | **StubHub, Viagogo** | ⏸️ Not started | No active priority; do not add without explicit scope |
 
 ---

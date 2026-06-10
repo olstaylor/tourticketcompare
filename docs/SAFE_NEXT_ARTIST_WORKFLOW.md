@@ -2,7 +2,7 @@
 
 **Scope:** Adding one new artist to TourTicketCompare without compromising data integrity, CTA accuracy, or SEO safety.
 
-**Status note:** `BACKLOG.md` explicitly parks new artist additions ("Do not propose or onboard a new artist as part of any other task"). This document defines the process to follow *when that block is lifted* for a specific artist. Do not use it to propose or onboard an artist as part of any other task.
+**Status note:** New-artist onboarding is **unparked** as of 2026-06-10 (owner direction; see `BACKLOG.md` → "Recently unparked"). This document is the mandatory process for every new artist — all phase gates, human browser verification, and validators still apply. Onboarding should still be its own scoped task; do not fold an artist addition into an unrelated change.
 
 See also `docs/ADDING_ARTISTS.md` for field-level templates and the example placeholder format.
 

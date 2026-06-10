@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-06-03 (issue-status reconciliation; #171 and #175 moved to Recently completed)
+Last updated: 2026-06-10 (unparked new-artist onboarding and public Vivid Seats CTAs per owner direction; verification gates unchanged)
 
 ## Active priorities (in order)
 
@@ -57,14 +57,20 @@ These issues are **closed** on GitHub and are kept here only as a short audit tr
 
 These are intentionally not work until separately scoped and approved.
 
-- **Any new artist except the Ed Sheeran Phase 2 Shell-only scaling test.** Do not propose or onboard other artists as part of any other task. The Ed Sheeran exception is limited to a `review_required` shell: it does not authorize Promote, Events, `/api/out`, `functions/api/shows.js`, provider/affiliate changes, public CTAs, or event data.
 - **Tour / city / venue / event landing pages.** No verified data, no canonical/indexing strategy.
 - **Live price aggregation; "cheapest ticket" / "guaranteed availability" claims.** Requires approved provider feeds with explicit usage rights.
-- **Public Vivid Seats CTAs.** Vivid Seats has no verified destinations. (SeatGeek is no longer parked — it is configured and live in production: event-level CTAs render where a verified `seatgeek_url` exists, routed through `/api/out` with Impact tracking. Coverage exists in `scripts/smoke-prelaunch.mjs`. Event-level URL discovery tooling is now operational — see active item 5 and `docs/SEATGEEK_DISCOVERY.md`. Still parked for SeatGeek: artist-level SeatGeek links and any SeatGeek price display.)
+- **Artist-level SeatGeek links and any SeatGeek price display.** (SeatGeek itself is live in production, event-level only: CTAs render where a verified `seatgeek_url` exists, routed through `/api/out` with Impact tracking. Coverage exists in `scripts/smoke-prelaunch.mjs`. Event-level URL discovery tooling is operational — see active item 5 and `docs/SEATGEEK_DISCOVERY.md`.)
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
 - **Deleting Vercel / standalone Worker / archive artefacts.** Waits on #176 audit.
 - **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.
 - **Internal Impact Publisher Tag diagnostic route and `functions/api/debug-seatgeek.js`** — leave intact.
+
+## Recently unparked (2026-06-10, owner direction)
+
+These are no longer blocked, but every standard publishing gate still applies — unparking removes the scope freeze, not the verification rules:
+
+- **New artist onboarding.** Follow `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` and `docs/ADDING_ARTISTS.md` end-to-end: `review_required` shell first, human browser verification before promotion or any `VERIFIED_TICKET_LINKS` entry, `npm run artist:check -- <slug>` before PR. Never auto-publish.
+- **Public Vivid Seats CTAs.** May now be scoped. CTAs render only once a verified `vividseats.com` destination URL exists and is added to `/api/out` per `docs/PROVIDER_DATA_POLICY.md` → Vivid Seats. No verified destinations exist yet — do not invent URLs; until one is verified, Vivid Seats buttons stay hidden.
 
 ## How to update this file
 

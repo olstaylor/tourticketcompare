@@ -24,7 +24,8 @@ const TICKETMASTER_ARTIST_AFFILIATE_LINKS = {
   "jay-z": "https://ticketmaster.evyy.net/5kM6W3",
   beyonce: "https://ticketmaster.evyy.net/beyonce",
   "olivia-rodrigo": "https://www.ticketmaster.com/artist/2836194",
-  "bruno-mars": "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801"
+  "bruno-mars": "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801",
+  shakira: "https://www.ticketmaster.com/shakira-tickets/artist/779049"
 };
 
 function isValidDateISO(value) {

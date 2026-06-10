@@ -335,22 +335,26 @@
       "short_description": "Colombian singer and songwriter.",
       "country": "Colombia",
       "image_alt": "Shakira artist ticket information",
-      "factual_summary": "Shakira is a Colombian singer and songwriter. TourTicketCompare is reviewing this artist page before publishing any provider buttons.",
-      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
-      "seo_title": "Shakira Ticket Links & Buying Guidance | TourTicketCompare",
-      "meta_description": "Review Shakira ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
+      "factual_summary": "Shakira is a Colombian singer and songwriter.",
+      "ticket_buying_notes": "There may not be an active tour announcement at the moment. Use the verified ticket platform links below to check current availability and tour information directly on the provider site.",
+      "seo_title": "Shakira Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified Shakira ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
       "faq": [
         {
-          "question": "Why are Shakira ticket buttons not shown yet?",
-          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+          "question": "Where can I find Shakira tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
         },
         {
-          "question": "Does TourTicketCompare publish live Shakira ticket prices?",
-          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
         },
         {
-          "question": "How should I check Shakira ticket options safely?",
-          "answer": "Confirm the artist, date, venue, fees, delivery method, and refund or transfer terms on the ticket provider site before checkout."
+          "question": "Why don't you show prices here?",
+          "answer": "Prices change constantly and are controlled by ticket platforms, not this site. Final prices include fees, taxes, and delivery costs that vary by seat and timing. Always confirm the final total on the provider site before paying."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -690,11 +694,11 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
+      "last_checked_at": "2026-06-10",
       "disclosure_required": true
     }
   ],

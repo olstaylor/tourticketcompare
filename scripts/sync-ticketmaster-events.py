@@ -76,6 +76,7 @@ PROPOSABLE_STATUS_CODES = {"onsale", ""}
 TRAVEL_PACKAGE_MARKERS = ("travel", "hotel", "package", "parking", "shuttle", "hospitality")
 
 PLACEHOLDER_MARKERS = ("localhost", "example.com", "placeholder", "replace-me", "tbd")
+AFFILIATE_WRAPPER_HOSTS = {"ticketmaster.evyy.net"}
 
 
 def load_json(path):
@@ -113,6 +114,103 @@ def ticketmaster_allowed_hosts(out_js_text):
 def host_allowed(hostname, allowed_hosts):
     h = (hostname or "").lower()
     return any(h == allowed or h.endswith(f".{allowed}") for allowed in allowed_hosts)
+
+
+def is_affiliate_wrapper_host(hostname):
+    return (hostname or "").lower() in AFFILIATE_WRAPPER_HOSTS
+
+
+def resolve_ticketmaster_url(raw_url):
+    """Return raw/resolved host metadata for direct TM URLs and known wrappers.
+
+    ticketmaster.evyy.net is an Impact affiliate wrapper, not a storefront. The
+    recogniser may inspect its u= destination for dry-run classification, but
+    the wrapper itself is never treated as a usable production URL.
+    """
+    raw = (raw_url or "").strip()
+    if not raw:
+        return {
+            "raw_url_host": "",
+            "resolved_url": "",
+            "resolved_url_host": "",
+            "url_resolution_status": "missing_url",
+            "parsed": None,
+        }
+    try:
+        parsed = urllib.parse.urlparse(raw)
+    except ValueError:
+        return {
+            "raw_url_host": "",
+            "resolved_url": "",
+            "resolved_url_host": "",
+            "url_resolution_status": "malformed_raw_url",
+            "parsed": None,
+        }
+    raw_host = (parsed.hostname or "").lower()
+    if not raw_host:
+        return {
+            "raw_url_host": "",
+            "resolved_url": "",
+            "resolved_url_host": "",
+            "url_resolution_status": "malformed_raw_url",
+            "parsed": None,
+        }
+    if not is_affiliate_wrapper_host(raw_host):
+        return {
+            "raw_url_host": raw_host,
+            "resolved_url": raw,
+            "resolved_url_host": raw_host,
+            "url_resolution_status": "direct",
+            "parsed": parsed,
+        }
+
+    query = urllib.parse.parse_qs(parsed.query, keep_blank_values=True)
+    destinations = [v.strip() for v in query.get("u", []) if v and v.strip()]
+    if not destinations:
+        return {
+            "raw_url_host": raw_host,
+            "resolved_url": "",
+            "resolved_url_host": "",
+            "url_resolution_status": "wrapper_missing_u",
+            "parsed": None,
+        }
+    destination = destinations[0]
+    try:
+        resolved = urllib.parse.urlparse(destination)
+    except ValueError:
+        return {
+            "raw_url_host": raw_host,
+            "resolved_url": destination,
+            "resolved_url_host": "",
+            "url_resolution_status": "wrapper_malformed_destination",
+            "parsed": None,
+        }
+    resolved_host = (resolved.hostname or "").lower()
+    if not resolved.scheme or not resolved_host:
+        return {
+            "raw_url_host": raw_host,
+            "resolved_url": destination,
+            "resolved_url_host": resolved_host,
+            "url_resolution_status": "wrapper_malformed_destination",
+            "parsed": resolved,
+        }
+    return {
+        "raw_url_host": raw_host,
+        "resolved_url": destination,
+        "resolved_url_host": resolved_host,
+        "url_resolution_status": "wrapper_resolved",
+        "parsed": resolved,
+    }
+
+
+def storefront_event_id_from_url(parsed_url):
+    if not parsed_url:
+        return ""
+    path_parts = [urllib.parse.unquote(part) for part in (parsed_url.path or "").split("/") if part]
+    for idx, part in enumerate(path_parts[:-1]):
+        if part.lower() == "event" and path_parts[idx + 1].strip():
+            return path_parts[idx + 1].strip()
+    return ""
 
 
 def read_api_key():
@@ -197,23 +295,43 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     if not country:
         reasons.append("missing country")
 
-    url_host = ""
-    url_host_allowed = False
-    if not url:
+    resolution = resolve_ticketmaster_url(url)
+    raw_url_host = resolution["raw_url_host"]
+    resolved_url = resolution["resolved_url"]
+    resolved_url_host = resolution["resolved_url_host"]
+    url_resolution_status = resolution["url_resolution_status"]
+    resolved_parsed = resolution["parsed"]
+    resolved_url_host_allowed = False
+    storefront_event_id = ""
+    if url_resolution_status == "missing_url":
         reasons.append("missing ticketmaster url")
-    else:
-        try:
-            url_host = (urllib.parse.urlparse(url).hostname or "").lower()
-        except ValueError:
-            url_host = ""
-        url_host_allowed = bool(url_host) and host_allowed(url_host, allowed_hosts)
-        if not url_host_allowed:
-            reasons.append(f"url host '{url_host or 'unparseable'}' not in the out.js Ticketmaster allowlist")
-        lowered = url.lower()
-        if any(marker in lowered for marker in PLACEHOLDER_MARKERS):
-            reasons.append("url looks like a placeholder")
+    elif url_resolution_status == "malformed_raw_url":
+        reasons.append("malformed ticketmaster url")
+    elif url_resolution_status == "wrapper_missing_u":
+        reasons.append("ticketmaster.evyy.net wrapper has no u= destination")
+    elif url_resolution_status == "wrapper_malformed_destination":
+        reasons.append("ticketmaster.evyy.net wrapper u= destination is malformed")
 
-    haystack = f"{event_name} {url}".lower()
+    if resolved_parsed:
+        if resolved_parsed.scheme.lower() != "https":
+            reasons.append("resolved ticketmaster url is not HTTPS")
+        resolved_url_host_allowed = bool(resolved_url_host) and host_allowed(resolved_url_host, allowed_hosts)
+        if not resolved_url_host_allowed:
+            reasons.append(
+                f"resolved url host '{resolved_url_host or 'unparseable'}' not in the out.js Ticketmaster allowlist"
+            )
+        storefront_event_id = storefront_event_id_from_url(resolved_parsed)
+        if not storefront_event_id:
+            reasons.append("resolved Ticketmaster storefront URL is missing an /event/<id> path")
+
+    if is_affiliate_wrapper_host(resolved_url_host):
+        reasons.append("resolved destination is still the ticketmaster.evyy.net wrapper, not a storefront")
+
+    lowered = f"{url} {resolved_url}".lower()
+    if any(marker in lowered for marker in PLACEHOLDER_MARKERS):
+        reasons.append("url looks like a placeholder")
+
+    haystack = f"{event_name} {url} {resolved_url}".lower()
     travel_hits = [m for m in TRAVEL_PACKAGE_MARKERS if m in haystack]
     if travel_hits:
         reasons.append(f"likely travel/upsell package listing (matched: {', '.join(travel_hits)})")
@@ -232,7 +350,7 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         )
 
     if event_id and event_id.upper() in existing_event_ids:
-        reasons.append("duplicate of an existing events.json row (same ticketmaster_event_id)")
+        reasons.append("duplicate of an existing events.json row (same ticketmaster_discovery_event_id)")
     venue_key = f"{venue_name.lower()}|{city.lower()}|{datetime_iso[:10]}"
     if venue_name and city and datetime_iso:
         if venue_key in existing_venue_keys:
@@ -243,14 +361,19 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
             batch_venue_keys.add(venue_key)
 
     return {
+        "ticketmaster_discovery_event_id": event_id,
+        "ticketmaster_event_id": storefront_event_id,
         "event_id": event_id,
         "event_name": event_name,
         "datetime_iso": datetime_iso,
         "venue": venue_name,
         "city": city,
         "country": country,
-        "url_host": url_host,
-        "url_host_allowed": url_host_allowed,
+        "raw_url_host": raw_url_host,
+        "resolved_url_host": resolved_url_host,
+        "url_resolution_status": url_resolution_status,
+        "url_host": resolved_url_host,
+        "url_host_allowed": resolved_url_host_allowed,
         "status_code": status_code or "(none)",
         "disposition": "withheld" if reasons else "proposed",
         "withheld_reasons": reasons,
@@ -334,11 +457,16 @@ def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, b
         report["warnings"].append(fetch_warning)
 
     existing = events_by_slug.get(slug, [])
-    existing_event_ids = {
-        (e.get("ticketmaster_event_id") or "").strip().upper()
-        for e in existing
-        if (e.get("ticketmaster_event_id") or "").strip()
-    }
+    existing_event_ids = set()
+    for e in existing:
+        discovery_id = (e.get("ticketmaster_discovery_event_id") or "").strip()
+        legacy_id = (e.get("ticketmaster_event_id") or "").strip()
+        if discovery_id:
+            existing_event_ids.add(discovery_id.upper())
+        elif legacy_id:
+            # Backward-compatible fallback for rows created before the
+            # split-ID model; new rows should carry ticketmaster_discovery_event_id.
+            existing_event_ids.add(legacy_id.upper())
     existing_venue_keys = {
         f"{(e.get('venue') or '').strip().lower()}|{(e.get('city') or '').strip().lower()}|{(e.get('datetime_iso') or '')[:10]}"
         for e in existing
@@ -400,8 +528,14 @@ def print_human_report(report):
             f"{row['country'] or '(missing)'}  status: {row['status_code']}"
         )
         print(
-            f"           url host: {row['url_host'] or '(missing)'}  "
-            f"allowlisted: {'yes' if row['url_host_allowed'] else 'NO'}"
+            f"           raw url host: {row['raw_url_host'] or '(missing)'}  "
+            f"resolved url host: {row['resolved_url_host'] or '(missing)'}  "
+            f"resolution: {row['url_resolution_status']}"
+        )
+        print(
+            f"           resolved allowlisted: {'yes' if row['url_host_allowed'] else 'NO'}  "
+            f"storefront id: {row['ticketmaster_event_id'] or '(missing)'}  "
+            f"discovery id: {row['ticketmaster_discovery_event_id'] or '(missing)'}"
         )
         for reason in row["withheld_reasons"]:
             print(f"           withheld: {reason}")
@@ -493,10 +627,39 @@ def self_test():
             make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001")
         )["withheld_reasons"]),
     )
+    wrapped_ok = classify(
+        make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FVV001")
+    )
     check(
-        "affiliate-wrapped (ticketmaster.evyy.net) event url withheld",
+        "affiliate-wrapped ticketmaster.evyy.net event url is proposed only after safe unwrap",
+        wrapped_ok["disposition"] == "proposed"
+        and wrapped_ok["raw_url_host"] == "ticketmaster.evyy.net"
+        and wrapped_ok["resolved_url_host"] == "www.ticketmaster.com"
+        and wrapped_ok["url_resolution_status"] == "wrapper_resolved"
+        and wrapped_ok["ticketmaster_event_id"] == "VV001",
+    )
+    check(
+        "affiliate wrapper with no u= destination withheld",
+        any("no u=" in r for r in classify(
+            make_event(url="https://ticketmaster.evyy.net/c/1/2/3")
+        )["withheld_reasons"]),
+    )
+    check(
+        "affiliate wrapper with non-HTTPS destination withheld",
+        any("not HTTPS" in r for r in classify(
+            make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=http%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FVV001")
+        )["withheld_reasons"]),
+    )
+    check(
+        "affiliate wrapper with non-allowlisted destination withheld",
         any("not in the out.js" in r for r in classify(
-            make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FVV001")
+            make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com.mx%2Fevent%2FVV001")
+        )["withheld_reasons"]),
+    )
+    check(
+        "deceptive unwrapped destination withheld",
+        any("not in the out.js" in r for r in classify(
+            make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com.evil.example%2Fevent%2FVV001")
         )["withheld_reasons"]),
     )
     check(
@@ -518,8 +681,8 @@ def self_test():
         any("not the event's primary attraction" in r for r in classify(support_act)["withheld_reasons"]),
     )
     check(
-        "duplicate of existing events.json id withheld",
-        any("same ticketmaster_event_id" in r for r in classify(
+        "duplicate of existing events.json Discovery id withheld",
+        any("same ticketmaster_discovery_event_id" in r for r in classify(
             make_event(), existing_ids={"VV001"}
         )["withheld_reasons"]),
     )

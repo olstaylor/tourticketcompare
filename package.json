@@ -60,7 +60,9 @@
     "seatgeek:prices:apply": "node scripts/snapshot-seatgeek-prices.mjs --apply",
     "artists:tm-shell-pr": "node scripts/tm-discovery-shell-pr.mjs",
     "events:check-fallback-freshness": "node scripts/check-fallback-freshness.mjs",
-    "audit:production-routes": "node scripts/verify-production-route-html.mjs"
+    "audit:production-routes": "node scripts/verify-production-route-html.mjs",
+    "growth:plan": "node scripts/growth-pipeline.mjs",
+    "growth:plan:no-api": "node scripts/growth-pipeline.mjs --no-api"
   },
   "devDependencies": {
     "wrangler": "^4.90.0"

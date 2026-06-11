@@ -5,7 +5,9 @@ import { execFileSync, spawnSync } from 'node:child_process';
 
 const SCORE_THRESHOLD = Number(process.env.TM_SHELL_SCORE_THRESHOLD || 70);
 const ARTIFACT_DIR = process.env.TM_DISCOVERY_ARTIFACT_DIR || 'artifacts/tm-discovery';
-const MAX_SHELLS_PER_RUN = 1;
+// Shells are review_required + noindex with no CTAs, so batching is low risk.
+// Promote PRs remain strictly one artist each.
+const MAX_SHELLS_PER_RUN = Math.max(1, Number(process.env.TM_SHELL_MAX_PER_RUN || 3));
 const LABEL = 'automation:tm-shell';
 
 function slugify(name) {
@@ -69,8 +71,10 @@ async function main() {
     return;
   }
 
-  let selected = null;
+  const selectedList = [];
+  const batchSlugs = new Set();
   for (const c of candidates) {
+    if (selectedList.length >= MAX_SHELLS_PER_RUN) break;
     const slug = c.slug || slugify(c.artistName);
     const eventCount = Number(c.upcomingEventCount || 0);
     const score = Number(c.score || 0);
@@ -81,64 +85,63 @@ async function main() {
     if (eventCount < 2) continue;
     if (!attractionId) continue;
     if (slugTaken) continue;
+    if (batchSlugs.has(slug)) continue;
     if (hasParkingBlock(backlogText, c.artistName || '')) continue;
-    selected = { ...c, slug };
-    break;
+    batchSlugs.add(slug);
+    selectedList.push({ ...c, slug });
   }
 
-  if (!selected) fail('No valid candidate passed Phase 2 shell checks. Failing closed.');
+  if (selectedList.length === 0) fail('No valid candidate passed Phase 2 shell checks. Failing closed.');
 
   const today = new Date().toISOString().slice(0, 10);
-  const newArtist = {
-    slug: selected.slug,
-    name: selected.artistName,
-    short_description: '',
-    indexing_status: 'review_required',
-    verified_provider_count: 0,
-    verified_providers: [],
-    last_verified_at: null
-  };
-
-  artists.push(newArtist);
-  await fs.writeFile('public/data/artists.json', `${JSON.stringify(artists, null, 2)}\n`);
-
   const ticketLinks = Array.isArray(catalog.ticket_links) ? catalog.ticket_links : [];
-  ticketLinks.push({
-    link_id: `tm-artist-${selected.slug}`,
-    artist_slug: selected.slug,
-    tour_slug: null,
-    provider: 'ticketmaster',
-    destination_type: 'artist_page',
-    affiliate_enabled: false,
-    verified: false,
-    public_enabled: false,
-    market: 'global',
-    last_checked_at: today,
-    disclosure_required: true,
-    ticketmaster_attraction_id: String(selected.attractionId)
-  });
+
+  for (const selected of selectedList) {
+    artists.push({
+      slug: selected.slug,
+      name: selected.artistName,
+      short_description: '',
+      indexing_status: 'review_required',
+      verified_provider_count: 0,
+      verified_providers: [],
+      last_verified_at: null
+    });
+
+    ticketLinks.push({
+      link_id: `tm-artist-${selected.slug}`,
+      artist_slug: selected.slug,
+      tour_slug: null,
+      provider: 'ticketmaster',
+      destination_type: 'artist_page',
+      affiliate_enabled: false,
+      verified: false,
+      public_enabled: false,
+      market: 'global',
+      last_checked_at: today,
+      disclosure_required: true,
+      ticketmaster_attraction_id: String(selected.attractionId)
+    });
+  }
+
+  await fs.writeFile('public/data/artists.json', `${JSON.stringify(artists, null, 2)}\n`);
   catalog.ticket_links = ticketLinks;
   await fs.writeFile('public/data/catalog.json', `${JSON.stringify(catalog, null, 2)}\n`);
 
-  const signupSource = await fs.readFile('functions/api/signup.js', 'utf8');
-  if (!signupSource.includes(`"${selected.slug}"`)) {
-    const updated = signupSource.replace(/const\s+ARTIST_SLUGS\s*=\s*new\s+Set\(\[([\s\S]*?)\]\);/, (m, inside) => {
-      const trimmed = inside.replace(/\s*$/, '');
-      return `const ARTIST_SLUGS = new Set([${trimmed}\n  "${selected.slug}"\n]);`;
-    });
-    if (updated === signupSource) fail('Could not update ARTIST_SLUGS in signup.js');
-    await fs.writeFile('functions/api/signup.js', updated);
-  }
+  // signup.js needs no edit: its allowlist is derived from artists.json at runtime.
 
   run('npm', ['run', 'events:sync']);
-  run('npm', ['run', 'artist:check', '--', selected.slug]);
+  for (const selected of selectedList) {
+    run('npm', ['run', 'artist:check', '--', selected.slug]);
+  }
   run('npm', ['run', 'test:mvp']);
   run('git', ['diff', '--check']);
 
-  const branch = `automation/tm-shell-${selected.slug}-${today}`;
+  const slugs = selectedList.map((s) => s.slug);
+  const slugLabel = slugs.length === 1 ? slugs[0] : `batch-${slugs.length}`;
+  const branch = `automation/tm-shell-${slugLabel}-${today}`;
   run('git', ['checkout', '-b', branch]);
-  run('git', ['add', 'public/data/artists.json', 'public/data/catalog.json', 'functions/api/signup.js', 'public/index.html']);
-  run('git', ['commit', '-m', `automation: create review_required shell for ${selected.slug}`]);
+  run('git', ['add', 'public/data/artists.json', 'public/data/catalog.json', 'public/index.html']);
+  run('git', ['commit', '-m', `automation: create review_required shell${slugs.length === 1 ? '' : 's'} for ${slugs.join(', ')}`]);
   run('git', ['push', '--set-upstream', 'origin', branch]);
 
   const skipSummary = Object.entries(skipLog.reduce((acc, row) => {
@@ -147,14 +150,19 @@ async function main() {
     return acc;
   }, {})).map(([reason, count]) => `- ${reason}: ${count}`).join('\n');
 
-  const prTitle = `Automated artist shell: ${selected.slug} — review_required`;
-  const prBody = `## What this PR does\n- Adds one Ticketmaster-discovered artist shell for \`${selected.slug}\` in \`review_required\` state only.\n- Adds one non-public, unverified Ticketmaster ticket_links entry with all trust flags off.\n\n## Candidate evidence\n- Artist: **${selected.artistName}**\n- Ticketmaster attraction ID: \`${selected.attractionId}\`\n- Upcoming non-cancelled events: ${selected.upcomingEventCount}\n- Location completeness ratio: ${selected.locationCompletenessRatio}\n\n## Score breakdown\n- Total score: **${selected.score}** (threshold: ${SCORE_THRESHOLD})\n- eventScore: ${selected.scoreBreakdown?.eventScore ?? 'n/a'}\n- geographyScore: ${selected.scoreBreakdown?.geographyScore ?? 'n/a'}\n- completenessScore: ${selected.scoreBreakdown?.completenessScore ?? 'n/a'}\n\n## Skip log summary\n${skipSummary || '- (none)'}\n\n## Explicit non-changes\n- No CTAs enabled.\n- No prices added.\n- No events ingested.\n- No changes to \`functions/api/out.js\` or \`functions/api/shows.js\`.\n- No indexability promotion (artist remains \`review_required\` / noindex).\n- No auto-merge.\n\n## Human review checklist\n- [ ] Confirm slug/name formatting and safety fields in \`artists.json\`\n- [ ] Confirm \`catalog.json\` link flags are all non-public/unverified\n- [ ] Confirm \`signup.js\` slug inclusion is intentional\n- [ ] Confirm page renders with watchlist-only empty state\n\n## Next manual steps\n1. Browser-verify canonical Ticketmaster artist URL for this slug.\n2. In a separate promote PR, add VERIFIED_TICKET_LINKS entry in \`functions/api/out.js\`.\n3. Only then consider indexability promotion and CTA enablement.\n`;
+  const candidateSections = selectedList.map((selected) => `### \`${selected.slug}\`\n- Artist: **${selected.artistName}**\n- Ticketmaster attraction ID: \`${selected.attractionId}\`\n- Upcoming non-cancelled events: ${selected.upcomingEventCount}\n- Location completeness ratio: ${selected.locationCompletenessRatio}\n- Total score: **${selected.score}** (threshold: ${SCORE_THRESHOLD})\n  - eventScore: ${selected.scoreBreakdown?.eventScore ?? 'n/a'}\n  - geographyScore: ${selected.scoreBreakdown?.geographyScore ?? 'n/a'}\n  - completenessScore: ${selected.scoreBreakdown?.completenessScore ?? 'n/a'}`).join('\n\n');
+
+  const reviewChecklist = selectedList.map((selected) => `- [ ] \`${selected.slug}\`: slug/name formatting and safety fields in \`artists.json\`\n- [ ] \`${selected.slug}\`: \`catalog.json\` link flags are all non-public/unverified\n- [ ] \`${selected.slug}\`: page renders with watchlist-only empty state`).join('\n');
+
+  const prTitle = slugs.length === 1
+    ? `Automated artist shell: ${slugs[0]} — review_required`
+    : `Automated artist shells (${slugs.length}): ${slugs.join(', ')} — review_required`;
+  const prBody = `## What this PR does\n- Adds ${slugs.length} Ticketmaster-discovered artist shell${slugs.length === 1 ? '' : 's'} (\`${slugs.join('`, `')}\`) in \`review_required\` state only.\n- Adds matching non-public, unverified Ticketmaster ticket_links entries with all trust flags off.\n\n## Candidate evidence\n${candidateSections}\n\n## Skip log summary\n${skipSummary || '- (none)'}\n\n## Explicit non-changes\n- No CTAs enabled.\n- No prices added.\n- No events ingested.\n- No changes to \`functions/api/out.js\` or \`functions/api/shows.js\`.\n- No \`functions/api/signup.js\` edit (signup allowlist is derived from \`artists.json\` at runtime).\n- No indexability promotion (artists remain \`review_required\` / noindex).\n- No auto-merge.\n\n## Human review checklist\n${reviewChecklist}\n\n## Next manual steps (per artist)\n1. Browser-verify the canonical Ticketmaster artist URL.\n2. In a separate promote PR (strictly one artist each), add the VERIFIED_TICKET_LINKS entry via \`npm run artist:promote\`.\n3. Only then consider indexability promotion and CTA enablement.\n`;
 
   const pr = await githubApi(`/repos/${owner}/${name}/pulls`, { method: 'POST', body: { title: prTitle, head: branch, base: 'main', body: prBody, maintainer_can_modify: true } });
   await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/labels`, { method: 'POST', body: { labels: [LABEL] } });
 
-  console.log(`Created shell PR #${pr.number} for ${selected.slug}.`);
-  if (MAX_SHELLS_PER_RUN !== 1) fail('MAX_SHELLS_PER_RUN misconfigured');
+  console.log(`Created shell PR #${pr.number} for ${slugs.join(', ')}.`);
 }
 
 main().catch((err) => {

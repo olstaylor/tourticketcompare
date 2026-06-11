@@ -7,6 +7,10 @@ on:
         description: "Minimum candidate score"
         required: false
         default: "70"
+      max_shells:
+        description: "Maximum shells per run (shell phase only; promote stays 1 per PR)"
+        required: false
+        default: "3"
 
 jobs:
   shell_pr:
@@ -29,10 +33,11 @@ jobs:
           name: tm-discovery-proposal
           path: artifacts/tm-discovery
 
-      - name: Create one review_required shell PR
+      - name: Create review_required shell PR (up to max_shells shells)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           TM_DISCOVERY_ARTIFACT_DIR: artifacts/tm-discovery
           TM_SHELL_SCORE_THRESHOLD: ${{ inputs.score_threshold }}
+          TM_SHELL_MAX_PER_RUN: ${{ inputs.max_shells }}
         run: node scripts/tm-discovery-shell-pr.mjs

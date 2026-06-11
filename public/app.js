@@ -459,7 +459,7 @@ function artistPageHeading(artist) {
 }
 
 function artistPageIntro(artist) {
-  return `Find checked ticket links for ${artist.name} when available, plus practical guidance before you leave for a provider site.`;
+  return `Checked ticket links for ${artist.name} dates, plus what to confirm about fees, seats, and resale before you buy.`;
 }
 
 function formatVerificationDate(value) {
@@ -480,11 +480,13 @@ function buildVerificationDisclosurePanel(artist, shows = []) {
   text(panel, "h2", "Verification and disclosure");
   const summary = document.createElement("ul");
   summary.className = "check-list";
+  // Single consolidated trust block. Keep in sync with
+  // renderVerificationDisclosure in functions/[[path]].js.
   [
     "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
-    "Ticket links are organised from available provider and official event sources after destination checks.",
-    "We do not display ticket prices on this page and we do not guarantee ticket availability.",
-    "Before purchase, confirm final prices, fees, availability, delivery timing, refund rules, and checkout terms with the provider."
+    "We only show ticket destinations that pass our verification checks.",
+    "We do not display ticket prices or guarantee availability. Final prices, fees, and availability are confirmed by the provider before you pay.",
+    "Some links may earn us a commission. That never changes which links we show."
   ].forEach((item) => {
     const li = document.createElement("li");
     li.textContent = item;
@@ -600,6 +602,98 @@ function loadEventsForSearch() {
   return eventsSearchPromise;
 }
 
+// Lightweight per-event index for search matching (~5x smaller than
+// events.json). Matched results are resolved back to full event records via
+// the per-artist partition files so CTA decisions are unchanged.
+let eventsSearchIndexPromise = null;
+
+function loadEventsSearchIndex() {
+  if (!eventsSearchIndexPromise) {
+    eventsSearchIndexPromise = fetch("/data/events-index.json", { cache: "force-cache" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => (Array.isArray(data) && data.length ? data : null))
+      .catch(() => null)
+      .then((data) => data || loadEventsForSearch());
+  }
+  return eventsSearchIndexPromise;
+}
+
+const artistPartitionPromises = new Map();
+
+function loadArtistPartition(slug) {
+  const key = slugify(slug);
+  if (!key) return Promise.resolve([]);
+  if (!artistPartitionPromises.has(key)) {
+    artistPartitionPromises.set(
+      key,
+      fetch(`/data/events/${key}.json`, { cache: "force-cache" })
+        .then((r) => (r.ok ? r.json() : []))
+        .then((data) => (Array.isArray(data) ? data : []))
+        .catch(() => [])
+    );
+  }
+  return artistPartitionPromises.get(key);
+}
+
+// Swap index records for full partition records by id. A record that cannot
+// be resolved keeps its index shape, which has no ticketmaster_url — so the
+// result CTA safely falls back to the artist guidance page.
+async function resolveEventRecords(indexRecords) {
+  const slugs = [...new Set(indexRecords.map((event) => slugify(event.artist_slug)).filter(Boolean))];
+  const partitions = await Promise.all(slugs.map(loadArtistPartition));
+  const byId = new Map();
+  partitions.flat().forEach((event) => {
+    if (event && typeof event === "object" && event.id) byId.set(event.id, event);
+  });
+  return indexRecords.map((event) => byId.get(event.id) || event);
+}
+
+const COUNTRY_QUERY_ALIASES = {
+  "usa": "united states",
+  "us": "united states",
+  "u.s.": "united states",
+  "u.s.a.": "united states",
+  "america": "united states",
+  "united states of america": "united states",
+  "uk": "united kingdom",
+  "u.k.": "united kingdom",
+  "britain": "united kingdom",
+  "great britain": "united kingdom",
+  "england": "united kingdom",
+  "holland": "netherlands"
+};
+
+function expandedQueries(query) {
+  const q = normalizeQuery(query);
+  if (!q) return [];
+  const alias = COUNTRY_QUERY_ALIASES[q];
+  return alias ? [q, alias] : [q];
+}
+
+function searchableEventDate(event) {
+  const iso = event.datetime_iso || event.dateTimeISO || "";
+  const parsed = new Date(iso);
+  if (!Number.isFinite(parsed.getTime())) return "";
+  try {
+    return parsed.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+  } catch (error) {
+    return "";
+  }
+}
+
+function eventMatchesSearch(query, event) {
+  const fields = [
+    event.event_name,
+    event.city,
+    event.country,
+    event.venue,
+    event.artist_name,
+    event.tour_name,
+    searchableEventDate(event)
+  ];
+  return expandedQueries(query).some((q) => fields.some((field) => normalizeQuery(field).includes(q)));
+}
+
 function normalizeQuery(value) {
   return String(value || "")
     .normalize("NFD")
@@ -644,9 +738,10 @@ function renderSearchResultItem(type, data) {
   } else if (type === "event") {
     const isoField = data.datetime_iso || data.dateTimeISO || "";
     const dateStr = formatShowDate(isoField) || "";
-    const loc = [data.city, data.venue].filter(Boolean).join(" · ");
+    const place = [data.city, data.country].filter(Boolean).join(", ");
+    const loc = [place, data.venue].filter(Boolean).join(" · ");
     nameEl.textContent = data.event_name || data.artist_name || "Verified show";
-    desc.textContent = [dateStr, loc].filter(Boolean).join(" — ");
+    desc.textContent = [dateStr, loc, data.tour_name].filter(Boolean).join(" — ");
     const hasVerifiedLink = Boolean(safeVerifiedEventUrl(data.ticketmaster_url));
     if (hasVerifiedLink && data.id) {
       const params = new URLSearchParams({ showId: data.id, provider: "ticketmaster" });
@@ -678,7 +773,7 @@ function renderSearchResults(container, results, query) {
 
   if (total === 0) {
     statusEl.textContent =
-      "No matching artist, event, or guide found yet.";
+      `No matches for “${query.trim()}” among the artists, events, and guides we’ve checked.`;
     container.append(statusEl);
     const nextSteps = document.createElement("p");
     nextSteps.className = "search-result-count";
@@ -699,12 +794,12 @@ function renderSearchResults(container, results, query) {
   container.append(statusEl);
 
   const groups = [
-    { label: "Artists", items: results.artists, type: "artist" },
+    { label: "Artists", items: results.artists, type: "artist", moreLabel: "Browse all artists", moreHref: "/artists", cap: 5 },
     { label: "Verified events", items: results.events, type: "event" },
-    { label: "Buying guides", items: results.guides, type: "guide" }
+    { label: "Buying guides", items: results.guides, type: "guide", moreLabel: "View all guides", moreHref: "/guides", cap: 5 }
   ];
 
-  groups.forEach(({ label, items, type }) => {
+  groups.forEach(({ label, items, type, moreLabel, moreHref, cap }) => {
     if (!items.length) return;
     const group = document.createElement("div");
     group.className = "search-group";
@@ -715,34 +810,53 @@ function renderSearchResults(container, results, query) {
     list.className = "search-group-list";
     items.forEach((item) => list.append(renderSearchResultItem(type, item)));
     group.append(heading, list);
+    if (type === "event" && Number(results.eventsTotal) > items.length) {
+      text(
+        group,
+        "p",
+        `Showing the first ${items.length} of ${results.eventsTotal} matching events — add a city, venue, or date to narrow it down.`,
+        "search-result-count"
+      );
+    }
+    if (moreHref && cap && items.length >= cap) {
+      const more = document.createElement("p");
+      more.className = "search-result-count";
+      more.append(link(moreLabel, moreHref, "text-link"));
+      group.append(more);
+    }
     container.append(group);
   });
 }
 
 function attachSearchBehavior(input, resultsContainer) {
   let debounceTimer;
-  let eventsData = [];
-  let eventsLoaded = false;
+  let searchSequence = 0;
 
   const runSearch = async () => {
     const query = input.value;
-    if (normalizeQuery(query).length < 2) {
+    const normalized = normalizeQuery(query);
+    const requestId = ++searchSequence;
+
+    if (!normalized.length) {
       resultsContainer.replaceChildren();
       return;
     }
-
-    if (!eventsLoaded) {
-      eventsData = await loadEventsForSearch();
-      eventsLoaded = true;
+    if (normalized.length < 2) {
+      resultsContainer.replaceChildren();
+      text(resultsContainer, "p", "Keep typing — search needs at least 2 characters.", "search-result-count");
+      return;
     }
+
+    const eventsData = await loadEventsSearchIndex();
+    if (requestId !== searchSequence) return;
 
     const matchedArtists = (catalog.artists || [])
       .filter((a) => matchesQuery(query, a.name, ...(a.genres || [])))
       .slice(0, 5);
 
-    const matchedEvents = sortEventsForSearch(eventsData)
-      .filter((e) => matchesQuery(query, e.event_name, e.city, e.venue, e.artist_name, e.tour_name))
-      .slice(0, 6);
+    const allMatchedEvents = sortEventsForSearch(eventsData).filter((e) => eventMatchesSearch(query, e));
+    const matchedEvents = await resolveEventRecords(allMatchedEvents.slice(0, 6));
+    if (requestId !== searchSequence) return;
 
     const matchedGuides = guidePages
       .filter((g) =>
@@ -752,7 +866,7 @@ function attachSearchBehavior(input, resultsContainer) {
 
     renderSearchResults(
       resultsContainer,
-      { artists: matchedArtists, events: matchedEvents, guides: matchedGuides },
+      { artists: matchedArtists, events: matchedEvents, guides: matchedGuides, eventsTotal: allMatchedEvents.length },
       query
     );
   };
@@ -774,15 +888,15 @@ function renderHeroSearchForm(resultsContainer) {
   const labelEl = document.createElement("label");
   labelEl.htmlFor = "site-search";
   labelEl.className = "sr-only";
-  labelEl.textContent = "Search by artist, city, or venue";
+  labelEl.textContent = "Search by artist, city, country, venue, or tour";
 
   const input = document.createElement("input");
   input.type = "search";
   input.id = "site-search";
   input.name = "q";
   input.className = "hero-search-input";
-  input.placeholder = "Search by artist, city, or venue";
-  input.setAttribute("aria-label", "Search by artist, city, or venue");
+  input.placeholder = "Search by artist, city, country, venue, or tour";
+  input.setAttribute("aria-label", "Search by artist, city, country, venue, or tour");
   input.setAttribute("autocomplete", "off");
   input.setAttribute("spellcheck", "false");
   input.setAttribute("enterkeyhint", "search");
@@ -819,7 +933,7 @@ function renderSearchResultsPanel() {
   text(
     header,
     "p",
-    "Search artists, events, and guides we’ve reviewed."
+    "Search artists, events, and guides we’ve reviewed — by name, city, country, venue, or tour."
   );
 
   const resultsContainer = document.createElement("div");
@@ -844,10 +958,11 @@ function renderWhatYouCanDo() {
   text(header, "h2", "What you can do here").id = "whatYouCanDoTitle";
   const grid = document.createElement("div");
   grid.className = "card-grid";
+  // Keep in sync with the homepage template in functions/[[path]].js.
   [
-    ["Browse verified event links", "Find major artists and see event-specific ticket links where available.", "/artists", "Browse artists"],
-    ["Compare checkout totals safely", "Learn how to compare final prices and fees across providers before you buy.", "/guides/how-to-compare-concert-ticket-prices", "Read guide"],
-    ["Spot risks before you pay", "Know what red flags to check before committing to a ticket purchase.", "/guides/how-to-avoid-ticket-scams", "Read guide"]
+    ["Find your show", "Browse an artist's checked dates and filter by city, country, or venue to reach the right event page fast.", "/artists", "Browse artists"],
+    ["Understand fees and totals", "Service and delivery fees change the final total. Learn how to check what you will actually pay before checkout.", "/guides/how-to-compare-concert-ticket-prices", "Read the guide"],
+    ["Avoid risky listings", "Spot resale red flags, fake urgency, and scam patterns before you hand over payment details.", "/guides/how-to-avoid-ticket-scams", "Read the guide"]
   ].forEach(([title, body, href, ctaLabel]) => {
     const card = document.createElement("article");
     card.className = "info-card";
@@ -869,9 +984,10 @@ function renderTrustSection() {
   text(header, "h2", "Trust & transparency").id = "trustTitle";
   const panel = document.createElement("div");
   panel.className = "nested-panel";
-  text(panel, "p", "TourTicketCompare is independent and unofficial.");
-  text(panel, "p", "Some links are affiliate links. This doesn’t change your price.");
-  text(panel, "p", "Final prices, fees, and availability are set by the ticket provider.");
+  text(panel, "p", "TourTicketCompare is independent and unofficial. We do not sell tickets.");
+  text(panel, "p", "We only show ticket destinations that pass our verification checks.");
+  text(panel, "p", "Some links may earn us a commission. That never changes which links we show, or the price you pay.");
+  text(panel, "p", "Final prices, fees, and availability are confirmed by the provider.");
   const links = document.createElement("p");
   links.append(
     document.createTextNode("Learn more: "),
@@ -895,8 +1011,14 @@ async function renderHome() {
   text(
     copy,
     "p",
-    "Browse artist pages, verified event links when available, and straightforward buying guidance. Always confirm final price, fees, and availability at checkout.",
+    "Verified ticket links and buying guidance for major tours. Open the checked provider page for your date and confirm final prices, fees, and availability with the provider.",
     "hero-subcopy"
+  );
+  text(
+    copy,
+    "p",
+    "Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.",
+    "disclosure-note"
   );
 
   const { section: resultsSection, resultsContainer } = renderSearchResultsPanel();
@@ -923,7 +1045,7 @@ async function renderHome() {
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Featured artists").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Browse artist pages and verified event links where available.");
+  text(artistHeader, "p", "Every artist page lists checked upcoming dates, with links to the exact event page where one is verified.");
   const homeEvents = await loadEventsForSearch();
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
@@ -955,6 +1077,35 @@ function renderArtistStatusLegend() {
   return legend;
 }
 
+function formatCardDate(iso) {
+  if (!iso) return null;
+  const parsed = new Date(iso);
+  if (!Number.isFinite(parsed.getTime())) return null;
+  try {
+    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+  } catch (error) {
+    return null;
+  }
+}
+
+// Keep in sync with upcomingVerifiedShowSummary in functions/[[path]].js.
+function upcomingVerifiedShowSummary(events, artistSlug) {
+  const now = Date.now();
+  const slug = slugify(artistSlug);
+  const upcoming = (events || [])
+    .filter((event) => {
+      if (!event || slugify(event.artist_slug) !== slug) return false;
+      const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
+      if (!Number.isFinite(ts) || ts < now) return false;
+      return /^https:\/\//i.test(String(event.ticketmaster_url || "").trim());
+    })
+    .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso) - Date.parse(b.dateTimeISO || b.datetime_iso));
+  if (!upcoming.length) return null;
+  const next = formatCardDate(upcoming[0].dateTimeISO || upcoming[0].datetime_iso);
+  if (!next) return null;
+  return `Next verified date: ${next} · ${upcoming.length} upcoming ${upcoming.length === 1 ? "date" : "dates"}`;
+}
+
 function renderArtistCard(artist, events = []) {
   const article = document.createElement("article");
   const status = artistCardStatus(artist, events);
@@ -968,7 +1119,8 @@ function renderArtistCard(artist, events = []) {
   text(statusRow, "p", status.badge, status.badgeClass);
   text(statusRow, "p", status.detail, "status-chip-detail");
   article.append(statusRow);
-  text(article, "p", status.cardStatus, "card-status");
+  const showSummary = status.pending ? null : upcomingVerifiedShowSummary(events, artist.slug);
+  text(article, "p", showSummary || status.cardStatus, "card-status");
   article.append(buttonLink(status.ctaLabel, `/artists/${artist.slug}`, status.ctaVariant));
   return article;
 }
@@ -982,7 +1134,7 @@ function renderInfoCard(title, body, footer) {
   return article;
 }
 
-function renderShowBoardShell(id, title, body) {
+function renderShowBoardShell(id, title, body, note) {
   const section = document.createElement("section");
   section.className = "section-grid show-board";
   section.setAttribute("aria-labelledby", id);
@@ -990,6 +1142,7 @@ function renderShowBoardShell(id, title, body) {
   header.className = "section-intro";
   text(header, "h2", title).id = id;
   text(header, "p", body);
+  if (note) text(header, "p", note, "disclosure-note");
   const grid = document.createElement("div");
   grid.className = "card-grid show-card-grid";
   grid.dataset.showGrid = "true";
@@ -1085,6 +1238,9 @@ function renderShowCard(show, options = {}) {
       if (eventVerifiedDate) {
         text(article, "p", `Event last checked: ${eventVerifiedDate}.`, "disclosure-note");
       }
+      // The generic provider disclosure lives once in the show-board intro
+      // instead of repeating on every card. The SeatGeek note stays per-card
+      // (smoke-asserted resale caution).
       if (seatGeekOutAvailable(show, options)) {
         const seatGeekParams = new URLSearchParams({ showId, provider: "seatgeek" });
         const seatGeekCta = buttonLink("Check SeatGeek", `/api/out?${seatGeekParams.toString()}`, "secondary");
@@ -1102,12 +1258,6 @@ function renderShowCard(show, options = {}) {
         );
       } else {
         article.append(cta);
-        text(
-          article,
-          "p",
-          "External ticketing sites set prices, fees, availability, and checkout terms.",
-          "disclosure-note"
-        );
       }
     } else {
       text(article, "p", "No verified ticket link is available for this date.", "disclosure-note");
@@ -1143,10 +1293,186 @@ function renderShowBoardEmptyState(artistName = "") {
   return wrap;
 }
 
+function showFilterHaystack(show) {
+  return [show.city, show.country, show.venue, show.event_name, show.tour_name]
+    .map((value) => String(value || "").toLowerCase())
+    .join(" ");
+}
+
+function uniqueShowValues(shows, key) {
+  return [...new Set(shows.map((show) => String(show?.[key] || "").trim()).filter(Boolean))].sort((a, b) =>
+    a.localeCompare(b)
+  );
+}
+
+function renderShowFilterEmptyState(onReset) {
+  const wrap = document.createElement("div");
+  wrap.className = "empty-state";
+  text(wrap, "h3", "No matching verified shows for this search.");
+  text(
+    wrap,
+    "p",
+    "Try a different city, venue, or tour name, or clear the filters to see every verified date.",
+    "muted"
+  );
+  const reset = document.createElement("button");
+  reset.type = "button";
+  reset.className = "show-filter-reset";
+  reset.textContent = "Clear filters";
+  reset.addEventListener("click", onReset);
+  wrap.append(reset);
+  return wrap;
+}
+
+// Filters only decide which verified shows render; every card still goes through
+// renderShowCard with unchanged options, so CTA eligibility is untouched.
+function setupShowBoardFilters(section, grid, shows, cardOptions) {
+  const state = { query: "", country: "", city: "", sort: "soonest" };
+  const countries = uniqueShowValues(shows, "country");
+  const cities = uniqueShowValues(shows, "city");
+
+  const bar = document.createElement("div");
+  bar.className = "show-filter-bar";
+
+  const count = document.createElement("p");
+  count.className = "muted show-filter-count";
+  count.setAttribute("role", "status");
+
+  const setSelectOptions = (select, values, allLabel, selected) => {
+    select.replaceChildren();
+    const all = document.createElement("option");
+    all.value = "";
+    all.textContent = allLabel;
+    select.append(all);
+    values.forEach((value) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      select.append(option);
+    });
+    select.value = selected;
+  };
+
+  const searchInput = document.createElement("input");
+  searchInput.type = "search";
+  searchInput.className = "show-filter-input";
+  searchInput.placeholder = "Search by city, venue, or tour";
+  searchInput.setAttribute("aria-label", "Search verified shows by city, country, venue, event, or tour name");
+
+  let countrySelect = null;
+  if (countries.length > 1) {
+    countrySelect = document.createElement("select");
+    countrySelect.className = "show-filter-select";
+    countrySelect.setAttribute("aria-label", "Filter by country");
+    setSelectOptions(countrySelect, countries, "All countries", "");
+  }
+
+  let citySelect = null;
+  if (cities.length > 1) {
+    citySelect = document.createElement("select");
+    citySelect.className = "show-filter-select";
+    citySelect.setAttribute("aria-label", "Filter by city");
+    setSelectOptions(citySelect, cities, "All cities", "");
+  }
+
+  const sortSelect = document.createElement("select");
+  sortSelect.className = "show-filter-select";
+  sortSelect.setAttribute("aria-label", "Sort by date");
+  [["soonest", "Soonest first"], ["latest", "Latest first"]].forEach(([value, label]) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = label;
+    sortSelect.append(option);
+  });
+
+  const resetButton = document.createElement("button");
+  resetButton.type = "button";
+  resetButton.className = "show-filter-reset";
+  resetButton.textContent = "Clear filters";
+
+  const refreshCityOptions = () => {
+    if (!citySelect) return;
+    const source = state.country
+      ? shows.filter((show) => String(show?.country || "").trim() === state.country)
+      : shows;
+    const values = uniqueShowValues(source, "city");
+    if (state.city && !values.includes(state.city)) state.city = "";
+    setSelectOptions(citySelect, values, "All cities", state.city);
+  };
+
+  const apply = () => {
+    const terms = state.query.toLowerCase().split(/\s+/).filter(Boolean);
+    const visible = shows
+      .filter((show) => {
+        if (state.country && String(show?.country || "").trim() !== state.country) return false;
+        if (state.city && String(show?.city || "").trim() !== state.city) return false;
+        if (terms.length) {
+          const haystack = showFilterHaystack(show);
+          if (!terms.every((term) => haystack.includes(term))) return false;
+        }
+        return true;
+      })
+      .sort((a, b) => {
+        const diff = Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO);
+        return state.sort === "latest" ? -diff : diff;
+      });
+    const datesLabel = cardOptions.reviewGated ? "listed dates" : "verified dates";
+    count.textContent = `Showing ${visible.length} of ${shows.length} ${datesLabel}`;
+    if (!visible.length) {
+      grid.replaceChildren(renderShowFilterEmptyState(resetFilters));
+      return;
+    }
+    grid.replaceChildren(...visible.map((show) => renderShowCard(show, cardOptions)));
+  };
+
+  function resetFilters() {
+    state.query = "";
+    state.country = "";
+    state.city = "";
+    state.sort = "soonest";
+    searchInput.value = "";
+    if (countrySelect) countrySelect.value = "";
+    sortSelect.value = "soonest";
+    refreshCityOptions();
+    apply();
+  }
+
+  searchInput.addEventListener("input", () => {
+    state.query = searchInput.value.trim();
+    apply();
+  });
+  if (countrySelect) {
+    countrySelect.addEventListener("change", () => {
+      state.country = countrySelect.value;
+      refreshCityOptions();
+      apply();
+    });
+  }
+  if (citySelect) {
+    citySelect.addEventListener("change", () => {
+      state.city = citySelect.value;
+      apply();
+    });
+  }
+  sortSelect.addEventListener("change", () => {
+    state.sort = sortSelect.value;
+    apply();
+  });
+  resetButton.addEventListener("click", resetFilters);
+
+  if (shows.length > 1) {
+    bar.append(searchInput, ...(countrySelect ? [countrySelect] : []), ...(citySelect ? [citySelect] : []), sortSelect, resetButton);
+    grid.before(bar);
+  }
+  grid.before(count);
+  apply();
+}
+
 async function hydrateShowBoard(section, filters = {}) {
   const grid = section.querySelector("[data-show-grid]");
   if (!grid) return;
-  const params = new URLSearchParams({ limit: String(filters.limit || 6) });
+  const limit = Math.max(1, Math.min(500, Number(filters.limit) || 6));
+  const params = new URLSearchParams({ limit: String(limit) });
   if (filters.artistSlug) params.set("artistSlug", filters.artistSlug);
 
   try {
@@ -1158,11 +1484,16 @@ async function hydrateShowBoard(section, filters = {}) {
       grid.replaceChildren(renderShowBoardEmptyState(filters.artistName));
       return;
     }
-    grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show, {
+    const cardOptions = {
       showEventCta: Boolean(filters.showEventCta) && !filters.reviewGated,
       reviewGated: Boolean(filters.reviewGated),
       seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek)
-    })));
+    };
+    if (filters.filterable) {
+      setupShowBoardFilters(section, grid, shows, cardOptions);
+      return;
+    }
+    grid.replaceChildren(...shows.slice(0, limit).map((show) => renderShowCard(show, cardOptions)));
   } catch (error) {
     grid.replaceChildren();
     text(
@@ -1249,10 +1580,12 @@ function renderArtist(artist) {
     text(reviewNotice, "p", "This artist page is currently under review. Event details are shown for reference while ticket links are checked.", "disclosure-note");
     section.append(reviewNotice);
   }
+  // Keep this intro in sync with renderShowBoardServerHtml in functions/[[path]].js.
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
     "Verified event links",
-    "Each card shows one checked event date and only links to the ticket URL for that exact event when one is available. Coverage varies by artist and region; final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site."
+    "Each card is one checked event date and links to the ticket page for that exact show when one is available.",
+    "Coverage varies by artist and region. Final prices, fees, availability, and checkout terms are confirmed on the provider site."
   );
   section.append(showBoard);
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
@@ -1272,7 +1605,6 @@ function renderArtist(artist) {
   const right = document.createElement("div");
   text(right, "h2", "Ticket link status");
   text(right, "p", artist.ticket_buying_notes);
-  text(right, "p", "We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.", "disclosure-note");
   summary.append(left, right);
 
   let demand = null;
@@ -1299,15 +1631,6 @@ function renderArtist(artist) {
     )
   );
 
-  const pageNote = document.createElement("section");
-  pageNote.className = "nested-panel";
-  text(pageNote, "h2", "About this page");
-  text(
-    pageNote,
-    "p",
-    "All event details on this page come from verified sources. Final prices, fees, availability, and delivery terms are set by the ticket provider and should be confirmed on their site before purchase."
-  );
-
   const guideLinks = document.createElement("section");
   guideLinks.className = "nested-panel";
   text(guideLinks, "h2", "Useful links");
@@ -1323,7 +1646,7 @@ function renderArtist(artist) {
   );
   guideLinks.append(guideGrid);
 
-  section.append(verificationPanel, summary, ...(demand ? [demand] : []), checklist, pageNote, guideLinks, renderArtistFaq(artist));
+  section.append(verificationPanel, summary, ...(demand ? [demand] : []), checklist, guideLinks, renderArtistFaq(artist));
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.
@@ -1335,7 +1658,16 @@ function renderArtist(artist) {
   }
 
   main.replaceChildren(section);
-  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 50, showEventCta: !isReviewRequired, reviewGated: isReviewRequired, artistName: artist.name });
+  hydrateShowBoard(showBoard, {
+    artistSlug: artist.slug,
+    // 500 is the /api/shows MAX_LIST_LIMIT — well above any artist's event count,
+    // so every verified upcoming date is fetched instead of silently truncating.
+    limit: 500,
+    filterable: true,
+    showEventCta: !isReviewRequired,
+    reviewGated: isReviewRequired,
+    artistName: artist.name
+  });
 }
 
 function renderArtistFaq(artist) {

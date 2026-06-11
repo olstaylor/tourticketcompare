@@ -312,8 +312,8 @@ h3 {
 .section-intro h2,
 .provider-panel h2,
 .nested-panel h2 {
-  font-size: clamp(2rem, 4vw, 4rem);
-  line-height: 0.96;
+  font-size: clamp(1.7rem, 2.8vw, 2.4rem);
+  line-height: 1.08;
 }
 
 .section-grid,
@@ -369,7 +369,7 @@ h3 {
 .nested-panel,
 .provider-panel {
   display: grid;
-  gap: 18px;
+  gap: 14px;
   padding: 28px;
 }
 
@@ -399,8 +399,8 @@ h3 {
 .info-card h3,
 .artist-card h3,
 .provider-card h3 {
-  font-size: clamp(1.75rem, 3.2vw, 2.7rem);
-  line-height: 0.96;
+  font-size: clamp(1.3rem, 2.1vw, 1.65rem);
+  line-height: 1.18;
   font-weight: inherit;
 }
 
@@ -494,6 +494,69 @@ h3 {
   background: rgba(255, 253, 247, 0.76);
 }
 
+.show-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.show-filter-input,
+.show-filter-select,
+.show-filter-reset {
+  min-height: 48px;
+  padding: 10px 18px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--body);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.show-filter-input {
+  flex: 1 1 220px;
+  min-width: 0;
+  appearance: none;
+}
+
+.show-filter-input::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+
+.show-filter-select {
+  flex: 0 1 auto;
+  max-width: 100%;
+}
+
+.show-filter-reset {
+  flex: 0 0 auto;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.show-filter-reset:hover,
+.show-filter-reset:focus-visible {
+  color: var(--ink);
+  background: rgba(16, 20, 17, 0.06);
+}
+
+.show-filter-count {
+  margin: 0;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .show-filter-input,
+  .show-filter-select,
+  .show-filter-reset {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+}
+
 .content-page {
   display: grid;
   gap: 22px;
@@ -562,7 +625,8 @@ h3 {
 .disclosure-note {
   margin: 0;
   color: var(--muted);
-  font-size: 0.96rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
 }
 
 .guide-body {

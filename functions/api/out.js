@@ -984,7 +984,9 @@ export {
   impactConfig,
   impactEndpointDiagnostics,
   inspectImpactProgram,
-  safeImpactDiagnosticConfig
+  safeImpactDiagnosticConfig,
+  PROVIDERS,
+  VERIFIED_TICKET_LINKS
 };
 
 export async function onRequestGet({ request, env }) {

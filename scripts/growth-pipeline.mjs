@@ -25,6 +25,18 @@ const TICKETMASTER_SYNC_SCRIPT = path.join(REPO_ROOT, "scripts", "sync-ticketmas
 const SEATGEEK_PROPOSAL_SCRIPT = path.join(REPO_ROOT, "scripts", "propose-seatgeek-urls.mjs");
 const VALID_SCOPES = new Set(["provider-identities", "ticketmaster-events", "seatgeek-events", "all"]);
 
+const PUBLISHING_ACTION_TYPES = new Set([
+  "no_op",
+  "report_only",
+  "blocked_pending_human_verification",
+  "provider_identity_pr_required",
+  "ticketmaster_event_pr_possible_after_review",
+  "seatgeek_event_url_pr_possible_after_review",
+  "artist_shell_pr_possible",
+  "pricing_blocked_by_policy"
+]);
+
+
 function usage() {
   return `Usage: node scripts/growth-pipeline.mjs [options]\n\nReport-only growth planning pipeline. Reads local artist data and the local provider identity registry, then writes JSON + Markdown reports under .audit/. It never mutates production data, scrapes, applies provider identities, creates events, publishes, changes CTAs, or displays prices.\n\nOptions:\n  --artist <slug>       Restrict report to one artist slug\n  --all                 Inspect all local artists/provider identities (default when --artist is omitted)\n  --scope <scope>       provider-identities, ticketmaster-events, seatgeek-events, or all (default: provider-identities)\n  --audit-dir <path>    Output directory (default: .audit)\n  --json <path>         Explicit timestamped JSON report path\n  --markdown <path>     Explicit timestamped Markdown report path\n  --no-api              Do not call external APIs; API-backed phases are skipped/report-only\n  --dry-run             Accepted for clarity; report-only is the only mode\n  -h, --help            Show this help\n\nEnvironment:\n  TTC_REPORT_TIMESTAMP  Optional ISO-ish timestamp override for deterministic report names\n`;
 }
@@ -588,6 +600,190 @@ async function buildSeatGeekEventReport({ options, inspectedArtists }) {
   return report;
 }
 
+
+function publishingAction({ action, scope, artistSlug = null, title, rationale, prerequisites = [], files = [] }) {
+  if (!PUBLISHING_ACTION_TYPES.has(action)) throw new Error(`Unsupported publishing action: ${action}`);
+  return {
+    action,
+    scope,
+    artist_slug: artistSlug,
+    title,
+    rationale,
+    prerequisites,
+    files,
+    opens_pr: false,
+    writes_production_data: false,
+    status: action === "blocked_pending_human_verification" || action === "pricing_blocked_by_policy"
+      ? "blocked"
+      : "report_only"
+  };
+}
+
+function addPublishingAction(actions, action) {
+  const key = [action.action, action.scope, action.artist_slug || "", action.title].join("|");
+  if (!actions.some((existing) => [existing.action, existing.scope, existing.artist_slug || "", existing.title].join("|") === key)) {
+    actions.push(action);
+  }
+}
+
+function buildPublishingPlan({ inspectedArtists, ticketmasterEvents, seatgeekEvents }) {
+  const actions = [];
+
+  addPublishingAction(actions, publishingAction({
+    action: "report_only",
+    scope: "growth-pipeline",
+    title: "Current run produced audit artifacts only",
+    rationale: "The growth pipeline did not open a PR, did not write production data, and did not enable publishing or routing changes.",
+    prerequisites: ["Any future write must be requested explicitly with a narrow, scope-specific command."],
+    files: [".audit/growth-plan*.md", ".audit/growth-plan*.json"]
+  }));
+
+  for (const artist of inspectedArtists) {
+    if (!artist.artist_exists_locally) {
+      addPublishingAction(actions, publishingAction({
+        action: "artist_shell_pr_possible",
+        scope: "artist-shell",
+        artistSlug: artist.artist_slug,
+        title: "Artist shell PR could be considered after review",
+        rationale: "The inspected provider identity does not have a matching local artist shell.",
+        prerequisites: [
+          "Human confirms the artist is in scope.",
+          "The shell remains review_required and does not add CTAs, affiliate routing, events, or pricing."
+        ],
+        files: ["public/data/artists.json"]
+      }));
+    }
+
+    const needsProviderIdentity = artist.ticketmaster.attraction_id_status === "missing" || artist.seatgeek.performer_id_status === "missing";
+    if (needsProviderIdentity) {
+      addPublishingAction(actions, publishingAction({
+        action: "blocked_pending_human_verification",
+        scope: "provider-identities",
+        artistSlug: artist.artist_slug,
+        title: "Provider identity changes are blocked pending human verification",
+        rationale: "One or more provider identity fields are missing or unverified; the growth pipeline may report this but cannot fill IDs automatically.",
+        prerequisites: [
+          "Human/browser verification from an accepted source.",
+          "Explicit provider-identity-only write request."
+        ],
+        files: ["data/provider-identities.json"]
+      }));
+      addPublishingAction(actions, publishingAction({
+        action: "provider_identity_pr_required",
+        scope: "provider-identities",
+        artistSlug: artist.artist_slug,
+        title: "A provider identity PR would be required before dependent publishing work",
+        rationale: "Future event sync or provider-specific publishing work must not proceed from missing/unverified provider identities.",
+        prerequisites: [
+          "Human verifies exact provider identity values.",
+          "A narrow PR updates only provider identity fields that were explicitly approved."
+        ],
+        files: ["data/provider-identities.json"]
+      }));
+    }
+  }
+
+  for (const artist of ticketmasterEvents?.artists || []) {
+    if (Number(artist.proposed_events || 0) > 0) {
+      addPublishingAction(actions, publishingAction({
+        action: "ticketmaster_event_pr_possible_after_review",
+        scope: "ticketmaster-events",
+        artistSlug: artist.artist_slug,
+        title: "Ticketmaster event PR may be possible after review",
+        rationale: `${artist.proposed_events} Ticketmaster event proposal(s) were found in dry-run output.`,
+        prerequisites: [
+          "Human reviews every proposed event against accepted sources.",
+          "A separate explicit event-only PR request is made.",
+          "No CTA, affiliate routing, pricing, or /api/out change is bundled."
+        ],
+        files: ["public/data/events.json"]
+      }));
+    }
+    if ((artist.blockers || []).length || Number(artist.withheld_events || 0) > 0) {
+      addPublishingAction(actions, publishingAction({
+        action: "blocked_pending_human_verification",
+        scope: "ticketmaster-events",
+        artistSlug: artist.artist_slug,
+        title: "Ticketmaster event publishing is blocked pending review",
+        rationale: "The Ticketmaster dry-run reported blockers or withheld events; no write can proceed from this growth report alone.",
+        prerequisites: ["Resolve dry-run blockers and review withheld reasons before requesting a scoped event PR."],
+        files: ["public/data/events.json"]
+      }));
+    }
+  }
+
+  if (seatgeekEvents) {
+    const proposalCount = Number(seatgeekEvents.high_confidence_proposal_count || 0) + Number(seatgeekEvents.needs_review_proposal_count || 0);
+    if (proposalCount > 0) {
+      addPublishingAction(actions, publishingAction({
+        action: "seatgeek_event_url_pr_possible_after_review",
+        scope: "seatgeek-events",
+        title: "SeatGeek event URL PR may be possible after review",
+        rationale: `${proposalCount} SeatGeek event URL proposal(s) were found in dry-run output.`,
+        prerequisites: [
+          "Human reviews each event-level URL proposal.",
+          "A separate explicit SeatGeek-event-URL-only PR request is made.",
+          "No artist-level SeatGeek onboarding, pricing, CTA, affiliate routing, or /api/out change is bundled."
+        ],
+        files: ["public/data/events.json"]
+      }));
+    }
+    if (Number(seatgeekEvents.coverage?.events_missing_seatgeek_urls || 0) > 0 && proposalCount === 0) {
+      addPublishingAction(actions, publishingAction({
+        action: "report_only",
+        scope: "seatgeek-events",
+        title: "SeatGeek coverage gaps are reported only",
+        rationale: "Some local events are missing SeatGeek URLs, but this run did not produce reviewed URL proposals.",
+        prerequisites: ["Run proposal-only tooling with API access if explicitly requested, then review results before any scoped PR."],
+        files: ["public/data/events.json"]
+      }));
+    }
+  }
+
+  addPublishingAction(actions, publishingAction({
+    action: "pricing_blocked_by_policy",
+    scope: "pricing",
+    title: "Pricing remains blocked by policy",
+    rationale: "The growth pipeline cannot add price display, price comparison claims, cheapest/best deal claims, or inventory availability claims.",
+    prerequisites: [
+      "Separate written provider display permission and policy gates are required before any pricing work.",
+      "Pricing must never be bundled into provider identity, event, CTA, affiliate routing, or /api/out changes."
+    ],
+    files: []
+  }));
+
+  if (!actions.length) {
+    addPublishingAction(actions, publishingAction({
+      action: "no_op",
+      scope: "growth-pipeline",
+      title: "No publishing action identified",
+      rationale: "The current report did not identify any follow-up publishing work.",
+      prerequisites: [],
+      files: []
+    }));
+  }
+
+  const actionCounts = {};
+  for (const action of actions) actionCounts[action.action] = (actionCounts[action.action] || 0) + 1;
+
+  return {
+    dry_run_only: true,
+    no_pr_opened: true,
+    production_data_changed: false,
+    auto_publishing: false,
+    combined_mega_publish_mode: "forbidden",
+    future_write_policy: [
+      "No PR was opened by this pipeline run.",
+      "No production data was changed by this pipeline run.",
+      "Any future write must be explicit and scope-specific.",
+      "No combined mega-publish mode should be used."
+    ],
+    allowed_action_types: [...PUBLISHING_ACTION_TYPES],
+    action_counts: actionCounts,
+    normalized_actions: actions
+  };
+}
+
 function markdownEscape(value) {
   return clean(value, 2048).replace(/\|/g, "\\|").replace(/\n/g, " ");
 }
@@ -722,6 +918,36 @@ function renderMarkdown(report) {
     lines.push("");
   }
 
+
+  if (report.publishing_plan) {
+    const plan = report.publishing_plan;
+    lines.push("## Publishing plan");
+    lines.push("");
+    lines.push("Safe action plan only. No PR was opened, no production data was changed, any future write must be explicit and scope-specific, and no combined mega-publish mode should be used.");
+    lines.push("");
+    lines.push(`- No PR opened: ${plan.no_pr_opened ? "yes" : "no"}`);
+    lines.push(`- Production data changed: ${plan.production_data_changed ? "yes" : "no"}`);
+    lines.push(`- Auto-publishing: ${plan.auto_publishing ? "enabled" : "disabled"}`);
+    lines.push(`- Combined mega-publish mode: ${plan.combined_mega_publish_mode}`);
+    lines.push(`- Action counts: ${formatHistogram(plan.action_counts)}`);
+    lines.push("");
+    lines.push("| Action | Scope | Artist | Status | Rationale | Future gate | Files |");
+    lines.push("|---|---|---|---|---|---|---|");
+    for (const action of plan.normalized_actions) {
+      const row = [
+        markdownEscape(action.action),
+        markdownEscape(action.scope),
+        markdownEscape(action.artist_slug || ""),
+        markdownEscape(action.status),
+        markdownEscape(action.rationale),
+        markdownEscape((action.prerequisites || []).join("; ")),
+        markdownEscape((action.files || []).join(", "))
+      ];
+      lines.push(`| ${row.join(" | ")} |`);
+    }
+    lines.push("");
+  }
+
   return `${lines.join("\n")}\n`;
 }
 
@@ -764,6 +990,7 @@ async function main() {
   const seatgeekEvents = scopeIncludes(options, "seatgeek-events")
     ? await buildSeatGeekEventReport({ options, inspectedArtists })
     : null;
+  const publishingPlan = buildPublishingPlan({ inspectedArtists, ticketmasterEvents, seatgeekEvents });
 
   const report = {
     generated_at: new Date().toISOString(),
@@ -789,7 +1016,8 @@ async function main() {
       "The growth pipeline never runs SeatGeek apply mode, artist-level SeatGeek onboarding, or SeatGeek price display.",
       "Scraping, price display changes, publishing, and CTA changes are not part of this pipeline.",
       "Missing provider identities are blocked until human/browser verification or a later gated API-assisted phase.",
-      "SeatGeek remains event-level-first; artist-level SeatGeek onboarding is not automatic."
+      "SeatGeek remains event-level-first; artist-level SeatGeek onboarding is not automatic.",
+      "No PR is opened, no production data is changed, any future write must be explicit and scope-specific, and no combined mega-publish mode is allowed."
     ],
     provider_identity: {
       source_available: providerIdentitiesSource.available,
@@ -798,7 +1026,8 @@ async function main() {
       inspected_artists: inspectedArtists
     },
     ticketmaster_events: ticketmasterEvents,
-    seatgeek_events: seatgeekEvents
+    seatgeek_events: seatgeekEvents,
+    publishing_plan: publishingPlan
   };
 
   const paths = reportPaths(options);

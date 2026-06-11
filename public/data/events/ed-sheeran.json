@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "tm-ed-sheeran-2026-glendale-z7r9jz1a7jm",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "State Farm Stadium",
+    "datetime_iso": "2026-06-14T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7j-_M",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7j-_M",
+        "discovery_event_id": "Z7r9jZ1A7j-_M",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_M",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-nashville-z7r9jz1a7js",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Nissan Stadium",
+    "datetime_iso": "2026-06-20T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7j-_S",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7j-_S",
+        "discovery_event_id": "Z7r9jZ1A7j-_S",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_S",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-milwaukee-0700632fb5d7362c",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "American Family Insurance Amphitheater - Summerfest Grounds",
+    "datetime_iso": "2026-06-26T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700632FB5D7362C",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700632FB5D7362C",
+        "discovery_event_id": "vv17jZbwGkXggSbi",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZbwGkXggSbi",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-chicago-04006331fcb85a8a",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2026-06-27T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006331FCB85A8A",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006331FCB85A8A",
+        "discovery_event_id": "vv1A7ZkGsGkdHmAn1",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkGsGkdHmAn1",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-denver-1e006330c3b936ad",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Empower Field At Mile High",
+    "datetime_iso": "2026-07-04T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006330C3B936AD",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006330C3B936AD",
+        "discovery_event_id": "G5vzZbSddmKQc",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZbSddmKQc",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-las-vegas-1700632f29ecabed",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2026-07-19T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700632F29ECABED",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700632F29ECABED",
+        "discovery_event_id": "1AvjZbwGkHtD1Rc",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZbwGkHtD1Rc",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-san-diego-0a006331da303659",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Petco Park",
+    "datetime_iso": "2026-07-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006331DA303659",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006331DA303659",
+        "discovery_event_id": "vvG1IZbS6QGd__",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZbS6QGd__",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-santa-clara-1c006331c1a54d19",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Santa Clara",
+    "country": "United States Of America",
+    "venue": "Levi's® Stadium",
+    "datetime_iso": "2026-07-26T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006331C1A54D19",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006331C1A54D19",
+        "discovery_event_id": "G5vYZbS6vtfV_",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZbS6vtfV_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-seattle-0f00632ea04f19df",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Lumen Field",
+    "datetime_iso": "2026-08-02T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00632EA04F19DF",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00632EA04F19DF",
+        "discovery_event_id": "vvG1HZbwBOKsEL",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZbwBOKsEL",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-inglewood-0a006331dc273765",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2026-08-09T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006331DC273765",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006331DC273765",
+        "discovery_event_id": "vvG1IZbS6jaSqP",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZbS6jaSqP",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-minneapolis-0600632e29196b3e",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "U.S. Bank Stadium",
+    "datetime_iso": "2026-08-15T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600632E29196B3E",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600632E29196B3E",
+        "discovery_event_id": "vv17bZbwGkztkpiX",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZbwGkztkpiX",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-toronto-1000632fe9bb4345",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2026-08-20T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000632FE9BB4345",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000632FE9BB4345",
+        "discovery_event_id": "1AvZZbwGkTtmVuA",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZbwGkTtmVuA",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-toronto-1000632fe9c34349",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2026-08-21T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000632FE9C34349",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000632FE9C34349",
+        "discovery_event_id": "1AvZZbwGkTtYVua",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZbwGkTtYVua",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-toronto-1000632fe9ca4361",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2026-08-22T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000632FE9CA4361",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000632FE9CA4361",
+        "discovery_event_id": "1AvZZbwGkTtw0u-",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZbwGkTtw0u-",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-detroit-0800632ca3272367",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Ford Field",
+    "datetime_iso": "2026-08-29T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800632CA3272367",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800632CA3272367",
+        "discovery_event_id": "vv17OZbwGkwNawuE",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZbwGkwNawuE",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-east-rutherford-00006331cc3a2a14",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2026-09-04T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006331CC3A2A14",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006331CC3A2A14",
+        "discovery_event_id": "k7vGFbS6GCxIf",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGFbS6GCxIf",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-east-rutherford-00006331cecb2b77",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2026-09-05T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006331CECB2B77",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006331CECB2B77",
+        "discovery_event_id": "k7vGFbS6CwwcM",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGFbS6CwwcM",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-philadelphia-02006331ed9c6125",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Lincoln Financial Field",
+    "datetime_iso": "2026-09-19T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006331ED9C6125",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006331ED9C6125",
+        "discovery_event_id": "vv1AeZkGsGkdcEk7P",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkGsGkdcEk7P",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-foxborough-0100632fcae52e03",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2026-09-25T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100632FCAE52E03",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100632FCAE52E03",
+        "discovery_event_id": "vv177ZbwGkT1y3zd",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177ZbwGkT1y3zd",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-foxborough-01006331f67e74d9",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2026-09-26T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006331F67E74D9",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006331F67E74D9",
+        "discovery_event_id": "vv1AvZkGsGkdULEK_",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkGsGkdULEK_",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-atlanta-0e00632fc0572cc1",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Mercedes-Benz Stadium",
+    "datetime_iso": "2026-10-03T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00632FC0572CC1",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00632FC0572CC1",
+        "discovery_event_id": "vvG1zZbwTZ4wSv",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZbwTZ4wSv",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-indianapolis-050063299afd15f3",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Lucas Oil Stadium",
+    "datetime_iso": "2026-10-10T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050063299AFD15F3",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050063299AFD15F3",
+        "discovery_event_id": "vv1kv8vN1_GA1To9S",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vN1_GA1To9S",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-charlotte-2d006331aac349eb",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Bank of America Stadium",
+    "datetime_iso": "2026-10-17T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006331AAC349EB",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006331AAC349EB",
+        "discovery_event_id": "G5eVZbSknYVEl",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZbSknYVEl",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-arlington-z7r9jz1a7jw",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2026-10-24T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7j-_w",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7j-_w",
+        "discovery_event_id": "Z7r9jZ1A7j-_w",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_w",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-hollywood-0d006331a7d91aff",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2026-10-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006331A7D91AFF",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006331A7D91AFF",
+        "discovery_event_id": "vvG1VZbSkEUolT",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZbSkEUolT",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-hollywood-0d006331f45e4089",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006331F45E4089",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006331F45E4089",
+        "discovery_event_id": "vvG1VZbS6V90ea",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZbS6V90ea",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-ed-sheeran-2026-tampa-0d006331d60a3a7a",
+    "artist_slug": "ed-sheeran",
+    "artist_name": "Ed Sheeran",
+    "event_name": "",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Raymond James Stadium",
+    "datetime_iso": "2026-11-07T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006331D60A3A7A",
+    "ticketmaster_url": "",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "",
+    "last_verified_at": null,
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006331D60A3A7A",
+        "discovery_event_id": "vvG1VZbS6peNtB",
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZbS6peNtB",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
+  }
+]

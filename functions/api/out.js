@@ -133,6 +133,13 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "tm-artist-ed-sheeran",
     redirectUrl: "https://www.ticketmaster.com/ed-sheeran-tickets/artist/1560779",
     verified: true
+  },
+  "summer-walker:ticketmaster": {
+    artistSlug: "summer-walker",
+    provider: "ticketmaster",
+    linkId: "tm-artist-summer-walker",
+    redirectUrl: "https://www.ticketmaster.com/summer-walker-tickets/artist/2537562",
+    verified: true
   }
 };
 

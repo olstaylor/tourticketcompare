@@ -126,6 +126,13 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "tm-artist-tate-mcrae",
     redirectUrl: "https://www.ticketmaster.com/tate-mcrae-tickets/artist/2720246",
     verified: true
+  },
+  "ed-sheeran:ticketmaster": {
+    artistSlug: "ed-sheeran",
+    provider: "ticketmaster",
+    linkId: "tm-artist-ed-sheeran",
+    redirectUrl: "https://www.ticketmaster.com/ed-sheeran-tickets/artist/1560779",
+    verified: true
   }
 };
 

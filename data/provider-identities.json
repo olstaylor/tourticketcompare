@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-10",
+  "updated_at": "2026-06-11",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -100,13 +100,13 @@
     },
     {
       "slug": "ed-sheeran",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ917CAQV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/ed-sheeran-tickets/artist/1560779",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Ticketmaster artist page opened in a browser by owner and confirmed 2026-06-11 (promote PR); attraction ID from the Ticketmaster Discovery attraction record matching the same artist URL."
     },
     {
       "slug": "shakira",

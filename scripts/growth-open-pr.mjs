@@ -17,7 +17,7 @@ const REGISTRY_PATH = path.join(ROOT, 'data/provider-identities.json');
 const ARTISTS_PATH = path.join(ROOT, 'public/data/artists.json');
 
 function usage() {
-  return `Usage:\n  npm run growth:open-pr -- --scope provider-identity --artist <slug> --ticketmaster-attraction-id <id> --evidence-url <url> --notes "<notes>"\n\nThis command only supports --scope provider-identity. It updates one provider identity registry entry, then runs provider identity validation, production event validation, smoke tests, and git diff --check. It never writes events, CTAs, prices, SeatGeek URLs, public artist data, or affiliate routing.`;
+  return `Usage:\n  npm run growth:open-pr -- --scope provider-identity --artist <slug> --ticketmaster-attraction-id <id> --evidence-url <url> --notes "<notes>"\n\nDespite the npm script name, this command does not open a GitHub PR. It currently only supports --scope provider-identity. It updates one provider identity registry entry, then runs provider identity validation, production event validation, smoke tests, and git diff --check. It never writes events, CTAs, prices, SeatGeek URLs, public artist data, or affiliate routing.`;
 }
 
 function fail(message, code = 1) {
@@ -173,7 +173,7 @@ async function main() {
   }
 
   console.log('');
-  console.log('Provider identity write completed. No branch, commit, push, or GitHub PR was created by this local command.');
+  console.log('Provider identity write completed. Despite the growth:open-pr script name, no branch, commit, push, or GitHub PR was created by this local command.');
   console.log('Review the diff, then commit exactly:');
   console.log('  git add data/provider-identities.json');
   console.log(`  git commit -m "Verify Ticketmaster provider identity for ${slug}"`);

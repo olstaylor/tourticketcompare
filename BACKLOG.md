@@ -4,9 +4,9 @@ Last updated: 2026-06-10 (unparked new-artist onboarding and public Vivid Seats 
 
 ## Active priorities (in order)
 
-### 1. #172 sub-deliverable B — Populate verified `tour_name` for Olivia Rodrigo
+### 1. #172 sub-deliverable B — Populate verified `tour_name` — DONE (close issue after verifying on `main`)
 
-Sub-deliverable A landed in PR #186 (the validator hard-errors on a missing `tour_name` key and warns on blank `tour_name` for indexed artists — already live in `scripts/validate-events.py`; no further validator work needed). The populate pass is blocked on per-event human verification from an official source. URL slugs (e.g. `olivia-rodrigo-the-unraveled-tour-…`) are evidence, not proof — confirm from the event page itself before populating. Leave events blank or `needs_recheck` rather than bulk-filling from URL evidence alone. A blank/missing-`tour_name` audit across all 10 records (`docs/TOUR_NAME_AUDIT.md`) supports the human review.
+Sub-deliverable A landed in PR #186 (validator hard-errors on missing `tour_name` key, warns on blank for indexed artists). Sub-deliverable B is complete: Olivia Rodrigo (86, "The Unraveled Tour"), Bruno Mars (56, "The Romantic Tour"), and Shakira (30, "Las Mujeres Ya No Lloran" — owner confirmed the title from the Ticketmaster event page 2026-06-10) are all populated; the validator's blank-`tour_name` warning is clear. Remaining step: close issue #172 on GitHub.
 
 ### 2. #174 Phase B — Data-refresh hardening (Phase A done)
 

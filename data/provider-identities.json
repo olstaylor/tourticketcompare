@@ -60,13 +60,13 @@
     },
     {
       "slug": "morgan-wallen",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ9174qlV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/morgan-wallen-tickets/artist/2288122",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Owner confirmed 2026-06-10: track only the official Morgan Wallen artist's tour dates. Attraction ID from the Ticketmaster Discovery attraction record. Known TM name collisions explicitly excluded: Morgan Wallen Tribute UK (K8vZ917jiY0), The Morgan Wallen Experience, Morgan Wallen Night, Morgan Wallen Dance Party."
     },
     {
       "slug": "jay-z",

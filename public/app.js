@@ -602,6 +602,98 @@ function loadEventsForSearch() {
   return eventsSearchPromise;
 }
 
+// Lightweight per-event index for search matching (~5x smaller than
+// events.json). Matched results are resolved back to full event records via
+// the per-artist partition files so CTA decisions are unchanged.
+let eventsSearchIndexPromise = null;
+
+function loadEventsSearchIndex() {
+  if (!eventsSearchIndexPromise) {
+    eventsSearchIndexPromise = fetch("/data/events-index.json", { cache: "force-cache" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => (Array.isArray(data) && data.length ? data : null))
+      .catch(() => null)
+      .then((data) => data || loadEventsForSearch());
+  }
+  return eventsSearchIndexPromise;
+}
+
+const artistPartitionPromises = new Map();
+
+function loadArtistPartition(slug) {
+  const key = slugify(slug);
+  if (!key) return Promise.resolve([]);
+  if (!artistPartitionPromises.has(key)) {
+    artistPartitionPromises.set(
+      key,
+      fetch(`/data/events/${key}.json`, { cache: "force-cache" })
+        .then((r) => (r.ok ? r.json() : []))
+        .then((data) => (Array.isArray(data) ? data : []))
+        .catch(() => [])
+    );
+  }
+  return artistPartitionPromises.get(key);
+}
+
+// Swap index records for full partition records by id. A record that cannot
+// be resolved keeps its index shape, which has no ticketmaster_url — so the
+// result CTA safely falls back to the artist guidance page.
+async function resolveEventRecords(indexRecords) {
+  const slugs = [...new Set(indexRecords.map((event) => slugify(event.artist_slug)).filter(Boolean))];
+  const partitions = await Promise.all(slugs.map(loadArtistPartition));
+  const byId = new Map();
+  partitions.flat().forEach((event) => {
+    if (event && typeof event === "object" && event.id) byId.set(event.id, event);
+  });
+  return indexRecords.map((event) => byId.get(event.id) || event);
+}
+
+const COUNTRY_QUERY_ALIASES = {
+  "usa": "united states",
+  "us": "united states",
+  "u.s.": "united states",
+  "u.s.a.": "united states",
+  "america": "united states",
+  "united states of america": "united states",
+  "uk": "united kingdom",
+  "u.k.": "united kingdom",
+  "britain": "united kingdom",
+  "great britain": "united kingdom",
+  "england": "united kingdom",
+  "holland": "netherlands"
+};
+
+function expandedQueries(query) {
+  const q = normalizeQuery(query);
+  if (!q) return [];
+  const alias = COUNTRY_QUERY_ALIASES[q];
+  return alias ? [q, alias] : [q];
+}
+
+function searchableEventDate(event) {
+  const iso = event.datetime_iso || event.dateTimeISO || "";
+  const parsed = new Date(iso);
+  if (!Number.isFinite(parsed.getTime())) return "";
+  try {
+    return parsed.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+  } catch (error) {
+    return "";
+  }
+}
+
+function eventMatchesSearch(query, event) {
+  const fields = [
+    event.event_name,
+    event.city,
+    event.country,
+    event.venue,
+    event.artist_name,
+    event.tour_name,
+    searchableEventDate(event)
+  ];
+  return expandedQueries(query).some((q) => fields.some((field) => normalizeQuery(field).includes(q)));
+}
+
 function normalizeQuery(value) {
   return String(value || "")
     .normalize("NFD")
@@ -646,9 +738,10 @@ function renderSearchResultItem(type, data) {
   } else if (type === "event") {
     const isoField = data.datetime_iso || data.dateTimeISO || "";
     const dateStr = formatShowDate(isoField) || "";
-    const loc = [data.city, data.venue].filter(Boolean).join(" · ");
+    const place = [data.city, data.country].filter(Boolean).join(", ");
+    const loc = [place, data.venue].filter(Boolean).join(" · ");
     nameEl.textContent = data.event_name || data.artist_name || "Verified show";
-    desc.textContent = [dateStr, loc].filter(Boolean).join(" — ");
+    desc.textContent = [dateStr, loc, data.tour_name].filter(Boolean).join(" — ");
     const hasVerifiedLink = Boolean(safeVerifiedEventUrl(data.ticketmaster_url));
     if (hasVerifiedLink && data.id) {
       const params = new URLSearchParams({ showId: data.id, provider: "ticketmaster" });
@@ -680,7 +773,7 @@ function renderSearchResults(container, results, query) {
 
   if (total === 0) {
     statusEl.textContent =
-      "No matching artist, event, or guide found yet.";
+      `No matches for “${query.trim()}” among the artists, events, and guides we’ve checked.`;
     container.append(statusEl);
     const nextSteps = document.createElement("p");
     nextSteps.className = "search-result-count";
@@ -701,12 +794,12 @@ function renderSearchResults(container, results, query) {
   container.append(statusEl);
 
   const groups = [
-    { label: "Artists", items: results.artists, type: "artist" },
+    { label: "Artists", items: results.artists, type: "artist", moreLabel: "Browse all artists", moreHref: "/artists", cap: 5 },
     { label: "Verified events", items: results.events, type: "event" },
-    { label: "Buying guides", items: results.guides, type: "guide" }
+    { label: "Buying guides", items: results.guides, type: "guide", moreLabel: "View all guides", moreHref: "/guides", cap: 5 }
   ];
 
-  groups.forEach(({ label, items, type }) => {
+  groups.forEach(({ label, items, type, moreLabel, moreHref, cap }) => {
     if (!items.length) return;
     const group = document.createElement("div");
     group.className = "search-group";
@@ -717,34 +810,53 @@ function renderSearchResults(container, results, query) {
     list.className = "search-group-list";
     items.forEach((item) => list.append(renderSearchResultItem(type, item)));
     group.append(heading, list);
+    if (type === "event" && Number(results.eventsTotal) > items.length) {
+      text(
+        group,
+        "p",
+        `Showing the first ${items.length} of ${results.eventsTotal} matching events — add a city, venue, or date to narrow it down.`,
+        "search-result-count"
+      );
+    }
+    if (moreHref && cap && items.length >= cap) {
+      const more = document.createElement("p");
+      more.className = "search-result-count";
+      more.append(link(moreLabel, moreHref, "text-link"));
+      group.append(more);
+    }
     container.append(group);
   });
 }
 
 function attachSearchBehavior(input, resultsContainer) {
   let debounceTimer;
-  let eventsData = [];
-  let eventsLoaded = false;
+  let searchSequence = 0;
 
   const runSearch = async () => {
     const query = input.value;
-    if (normalizeQuery(query).length < 2) {
+    const normalized = normalizeQuery(query);
+    const requestId = ++searchSequence;
+
+    if (!normalized.length) {
       resultsContainer.replaceChildren();
       return;
     }
-
-    if (!eventsLoaded) {
-      eventsData = await loadEventsForSearch();
-      eventsLoaded = true;
+    if (normalized.length < 2) {
+      resultsContainer.replaceChildren();
+      text(resultsContainer, "p", "Keep typing — search needs at least 2 characters.", "search-result-count");
+      return;
     }
+
+    const eventsData = await loadEventsSearchIndex();
+    if (requestId !== searchSequence) return;
 
     const matchedArtists = (catalog.artists || [])
       .filter((a) => matchesQuery(query, a.name, ...(a.genres || [])))
       .slice(0, 5);
 
-    const matchedEvents = sortEventsForSearch(eventsData)
-      .filter((e) => matchesQuery(query, e.event_name, e.city, e.venue, e.artist_name, e.tour_name))
-      .slice(0, 6);
+    const allMatchedEvents = sortEventsForSearch(eventsData).filter((e) => eventMatchesSearch(query, e));
+    const matchedEvents = await resolveEventRecords(allMatchedEvents.slice(0, 6));
+    if (requestId !== searchSequence) return;
 
     const matchedGuides = guidePages
       .filter((g) =>
@@ -754,7 +866,7 @@ function attachSearchBehavior(input, resultsContainer) {
 
     renderSearchResults(
       resultsContainer,
-      { artists: matchedArtists, events: matchedEvents, guides: matchedGuides },
+      { artists: matchedArtists, events: matchedEvents, guides: matchedGuides, eventsTotal: allMatchedEvents.length },
       query
     );
   };
@@ -776,15 +888,15 @@ function renderHeroSearchForm(resultsContainer) {
   const labelEl = document.createElement("label");
   labelEl.htmlFor = "site-search";
   labelEl.className = "sr-only";
-  labelEl.textContent = "Search by artist, city, or venue";
+  labelEl.textContent = "Search by artist, city, country, venue, or tour";
 
   const input = document.createElement("input");
   input.type = "search";
   input.id = "site-search";
   input.name = "q";
   input.className = "hero-search-input";
-  input.placeholder = "Search by artist, city, or venue";
-  input.setAttribute("aria-label", "Search by artist, city, or venue");
+  input.placeholder = "Search by artist, city, country, venue, or tour";
+  input.setAttribute("aria-label", "Search by artist, city, country, venue, or tour");
   input.setAttribute("autocomplete", "off");
   input.setAttribute("spellcheck", "false");
   input.setAttribute("enterkeyhint", "search");
@@ -821,7 +933,7 @@ function renderSearchResultsPanel() {
   text(
     header,
     "p",
-    "Search artists, events, and guides we’ve reviewed."
+    "Search artists, events, and guides we’ve reviewed — by name, city, country, venue, or tour."
   );
 
   const resultsContainer = document.createElement("div");

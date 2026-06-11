@@ -1143,10 +1143,185 @@ function renderShowBoardEmptyState(artistName = "") {
   return wrap;
 }
 
+function showFilterHaystack(show) {
+  return [show.city, show.country, show.venue, show.event_name, show.tour_name]
+    .map((value) => String(value || "").toLowerCase())
+    .join(" ");
+}
+
+function uniqueShowValues(shows, key) {
+  return [...new Set(shows.map((show) => String(show?.[key] || "").trim()).filter(Boolean))].sort((a, b) =>
+    a.localeCompare(b)
+  );
+}
+
+function renderShowFilterEmptyState(onReset) {
+  const wrap = document.createElement("div");
+  wrap.className = "empty-state";
+  text(wrap, "h3", "No matching verified shows for this search.");
+  text(
+    wrap,
+    "p",
+    "Try a different city, venue, or tour name, or clear the filters to see every verified date.",
+    "muted"
+  );
+  const reset = document.createElement("button");
+  reset.type = "button";
+  reset.className = "show-filter-reset";
+  reset.textContent = "Clear filters";
+  reset.addEventListener("click", onReset);
+  wrap.append(reset);
+  return wrap;
+}
+
+// Filters only decide which verified shows render; every card still goes through
+// renderShowCard with unchanged options, so CTA eligibility is untouched.
+function setupShowBoardFilters(section, grid, shows, cardOptions) {
+  const state = { query: "", country: "", city: "", sort: "soonest" };
+  const countries = uniqueShowValues(shows, "country");
+  const cities = uniqueShowValues(shows, "city");
+
+  const bar = document.createElement("div");
+  bar.className = "show-filter-bar";
+
+  const count = document.createElement("p");
+  count.className = "muted show-filter-count";
+  count.setAttribute("role", "status");
+
+  const setSelectOptions = (select, values, allLabel, selected) => {
+    select.replaceChildren();
+    const all = document.createElement("option");
+    all.value = "";
+    all.textContent = allLabel;
+    select.append(all);
+    values.forEach((value) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      select.append(option);
+    });
+    select.value = selected;
+  };
+
+  const searchInput = document.createElement("input");
+  searchInput.type = "search";
+  searchInput.className = "show-filter-input";
+  searchInput.placeholder = "Search by city, venue, or tour";
+  searchInput.setAttribute("aria-label", "Search verified shows by city, country, venue, event, or tour name");
+
+  let countrySelect = null;
+  if (countries.length > 1) {
+    countrySelect = document.createElement("select");
+    countrySelect.className = "show-filter-select";
+    countrySelect.setAttribute("aria-label", "Filter by country");
+    setSelectOptions(countrySelect, countries, "All countries", "");
+  }
+
+  let citySelect = null;
+  if (cities.length > 1) {
+    citySelect = document.createElement("select");
+    citySelect.className = "show-filter-select";
+    citySelect.setAttribute("aria-label", "Filter by city");
+    setSelectOptions(citySelect, cities, "All cities", "");
+  }
+
+  const sortSelect = document.createElement("select");
+  sortSelect.className = "show-filter-select";
+  sortSelect.setAttribute("aria-label", "Sort by date");
+  [["soonest", "Soonest first"], ["latest", "Latest first"]].forEach(([value, label]) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = label;
+    sortSelect.append(option);
+  });
+
+  const resetButton = document.createElement("button");
+  resetButton.type = "button";
+  resetButton.className = "show-filter-reset";
+  resetButton.textContent = "Clear filters";
+
+  const refreshCityOptions = () => {
+    if (!citySelect) return;
+    const source = state.country
+      ? shows.filter((show) => String(show?.country || "").trim() === state.country)
+      : shows;
+    const values = uniqueShowValues(source, "city");
+    if (state.city && !values.includes(state.city)) state.city = "";
+    setSelectOptions(citySelect, values, "All cities", state.city);
+  };
+
+  const apply = () => {
+    const terms = state.query.toLowerCase().split(/\s+/).filter(Boolean);
+    const visible = shows
+      .filter((show) => {
+        if (state.country && String(show?.country || "").trim() !== state.country) return false;
+        if (state.city && String(show?.city || "").trim() !== state.city) return false;
+        if (terms.length) {
+          const haystack = showFilterHaystack(show);
+          if (!terms.every((term) => haystack.includes(term))) return false;
+        }
+        return true;
+      })
+      .sort((a, b) => {
+        const diff = Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO);
+        return state.sort === "latest" ? -diff : diff;
+      });
+    count.textContent = `Showing ${visible.length} of ${shows.length} verified dates`;
+    if (!visible.length) {
+      grid.replaceChildren(renderShowFilterEmptyState(resetFilters));
+      return;
+    }
+    grid.replaceChildren(...visible.map((show) => renderShowCard(show, cardOptions)));
+  };
+
+  function resetFilters() {
+    state.query = "";
+    state.country = "";
+    state.city = "";
+    state.sort = "soonest";
+    searchInput.value = "";
+    if (countrySelect) countrySelect.value = "";
+    sortSelect.value = "soonest";
+    refreshCityOptions();
+    apply();
+  }
+
+  searchInput.addEventListener("input", () => {
+    state.query = searchInput.value.trim();
+    apply();
+  });
+  if (countrySelect) {
+    countrySelect.addEventListener("change", () => {
+      state.country = countrySelect.value;
+      refreshCityOptions();
+      apply();
+    });
+  }
+  if (citySelect) {
+    citySelect.addEventListener("change", () => {
+      state.city = citySelect.value;
+      apply();
+    });
+  }
+  sortSelect.addEventListener("change", () => {
+    state.sort = sortSelect.value;
+    apply();
+  });
+  resetButton.addEventListener("click", resetFilters);
+
+  if (shows.length > 1) {
+    bar.append(searchInput, ...(countrySelect ? [countrySelect] : []), ...(citySelect ? [citySelect] : []), sortSelect, resetButton);
+    grid.before(bar);
+  }
+  grid.before(count);
+  apply();
+}
+
 async function hydrateShowBoard(section, filters = {}) {
   const grid = section.querySelector("[data-show-grid]");
   if (!grid) return;
-  const params = new URLSearchParams({ limit: String(filters.limit || 6) });
+  const limit = Math.max(1, Math.min(500, Number(filters.limit) || 6));
+  const params = new URLSearchParams({ limit: String(limit) });
   if (filters.artistSlug) params.set("artistSlug", filters.artistSlug);
 
   try {
@@ -1158,11 +1333,16 @@ async function hydrateShowBoard(section, filters = {}) {
       grid.replaceChildren(renderShowBoardEmptyState(filters.artistName));
       return;
     }
-    grid.replaceChildren(...shows.slice(0, filters.limit || 6).map((show) => renderShowCard(show, {
+    const cardOptions = {
       showEventCta: Boolean(filters.showEventCta) && !filters.reviewGated,
       reviewGated: Boolean(filters.reviewGated),
       seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek)
-    })));
+    };
+    if (filters.filterable) {
+      setupShowBoardFilters(section, grid, shows, cardOptions);
+      return;
+    }
+    grid.replaceChildren(...shows.slice(0, limit).map((show) => renderShowCard(show, cardOptions)));
   } catch (error) {
     grid.replaceChildren();
     text(
@@ -1335,7 +1515,16 @@ function renderArtist(artist) {
   }
 
   main.replaceChildren(section);
-  hydrateShowBoard(showBoard, { artistSlug: artist.slug, limit: 50, showEventCta: !isReviewRequired, reviewGated: isReviewRequired, artistName: artist.name });
+  hydrateShowBoard(showBoard, {
+    artistSlug: artist.slug,
+    // 500 is the /api/shows MAX_LIST_LIMIT — well above any artist's event count,
+    // so every verified upcoming date is fetched instead of silently truncating.
+    limit: 500,
+    filterable: true,
+    showEventCta: !isReviewRequired,
+    reviewGated: isReviewRequired,
+    artistName: artist.name
+  });
 }
 
 function renderArtistFaq(artist) {

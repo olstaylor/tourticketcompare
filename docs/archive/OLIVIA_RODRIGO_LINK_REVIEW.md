@@ -1,5 +1,7 @@
 # Olivia Rodrigo verified ticket links — manual review report
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 Tracks [issue #171](https://github.com/olstaylor/tourticketcompare/issues/171).
 
 This report records the state of Olivia Rodrigo's Ticketmaster verification as of 2026-05-26 and lists the actions a human reviewer with Ticketmaster + Impact dashboard access needs to take to close the issue.

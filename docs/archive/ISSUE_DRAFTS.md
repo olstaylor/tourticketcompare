@@ -1,5 +1,7 @@
 # GitHub Issue Drafts
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 Last updated: 2026-05-14
 
 These are copy/paste-ready drafts. Do not create issues automatically unless the environment explicitly supports it and the exact issue content is shown first.

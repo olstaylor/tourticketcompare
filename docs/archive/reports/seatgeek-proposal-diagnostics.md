@@ -1,5 +1,7 @@
 # SeatGeek Proposal Diagnostics
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 Curated diagnostic run for the SeatGeek proposal workflow. The run used SeatGeek API credentials server-side, redacted credentials from query logs, and did not mutate event data or apply URLs.
 
 ## Summary

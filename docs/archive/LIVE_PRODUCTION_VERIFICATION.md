@@ -1,5 +1,7 @@
 # Live Production Verification
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 Last updated: 2026-05-12
 Verified by: curl checks against `tourticketcompare.com` and `www.tourticketcompare.com` (2026-05-11), local validation suite (2026-05-12)
 

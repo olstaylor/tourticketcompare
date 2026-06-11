@@ -45,6 +45,7 @@ The current source of truth is:
 | [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) | Artist onboarding field templates and checklist |
 | [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) | Gated artist onboarding workflow (Proposal → Shell → Promote → Events) |
 | [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) | Provider integration path: data source, rights, disclosure, validation |
+| [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md) | Which files are canonical / reference / generated; archive policy |
 
 **Archived docs:** Historical audits, parked features, one-off reports, and reference docs are in [`docs/archive/`](docs/archive/) with an [index](docs/archive/INDEX.md). These are reference-only — **not authoritative**. Do not act on archived findings without re-verifying against current `BACKLOG.md` and `PROJECT_STATUS.md`.
 

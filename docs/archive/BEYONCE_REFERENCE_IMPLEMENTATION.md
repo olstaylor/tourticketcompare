@@ -1,5 +1,7 @@
 # Beyoncé Artist Page: Gold-Standard Reference Implementation
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 This document describes the implementation of the Beyoncé artist page as a reference template for other artist pages.
 
 ## Why Beyoncé as Gold Standard

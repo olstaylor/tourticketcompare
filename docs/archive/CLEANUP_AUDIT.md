@@ -1,5 +1,7 @@
 # TourTicketCompare Cleanup Audit
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 Date: 2026-05-14
 
 Scope: documentation-only audit of `public/`, `functions/`, `scripts/`, `package.json`, docs/status files, and smoke/validation scripts. No cleanup has been implemented in this pass.

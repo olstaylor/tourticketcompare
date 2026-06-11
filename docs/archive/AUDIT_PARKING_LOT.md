@@ -1,5 +1,7 @@
 # AUDIT_PARKING_LOT.md
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 Captured from: Full production-readiness audit conducted 2026-05-11.
 Purpose: Preserve every finding, risk, and recommendation so nothing is lost during prioritised implementation.
 Status: Analysis only. No fixes implemented yet.

@@ -124,12 +124,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for local setup, validation commands, eve
 
 ## Known Risks & Parked Issues
 
-Review before starting work. (Issues **#171** Olivia Rodrigo verified links and **#175** onboarding runbook are now **closed/delivered** — `olivia-rodrigo` is verified `["ticketmaster"]` and `scripts/validate-artist.mjs` ships. See `BACKLOG.md` → "Recently completed". The rows below are the remaining live risks only.)
+Review before starting work. **`PROJECT_STATUS.md` → "Active risks" is the live, detailed list — treat it as authoritative over this table**, which is a summary and has drifted before. (Issues **#171** Olivia Rodrigo verified links and **#175** onboarding runbook are **closed/delivered**; see `BACKLOG.md` → "Recently completed".)
 
 | Issue | Severity | Impact |
 |-------|----------|--------|
-| **Olivia Rodrigo residual event verification** | Medium | Artist-level Ticketmaster verification is restored (`verified_providers: ["ticketmaster"]`, in `VERIFIED_TICKET_LINKS`; issue #171 closed via PR #190). Remaining: **8 short-form events flagged `needs_recheck`** — CTAs suppressed until a human confirms each URL in a browser. See `PROJECT_STATUS.md` → Active risks. |
-| **Blank `tour_name` (Olivia Rodrigo)** | Medium | All 86 Olivia Rodrigo events have blank `tour_name`. The validator already warns (blank) and hard-errors (missing key) per PR #186. Populating is blocked on human verification of the official tour name — URL slugs are evidence, not proof. Issue #172. |
+| **Ed Sheeran events unverified** | Medium | `ed-sheeran` is indexed and in `VERIFIED_TICKET_LINKS`, but all 27 of its events are `needs_recheck` with blank `tour_name` and cleared `ticketmaster_url` (event CTAs suppressed — safe state). Needs human browser verification and a verified tour name. See `PROJECT_STATUS.md` → Active risks. |
+| **Olivia Rodrigo residual event verification** | Medium | Artist-level Ticketmaster verification is restored (issue #171 closed via PR #190). Remaining: **8 short-form events flagged `needs_recheck`** — human-checked 2026-06-10, all 404; CTAs stay suppressed until working storefront URLs exist. See `PROJECT_STATUS.md` → Active risks. |
 | **Data refresh (#174 Phase B)** | Medium | `scripts/sync-events-data.py` inlines fallback data into `public/index.html`. Phase A (data-refresh flow) is now documented in `docs/DEPLOYMENT.md`; the `stale-sync-guard` PR job catches the common failure mode. Phase B (build-time cache-bust / stronger hook) remains parked. Issue #174. |
 | **Raw HTML routing (production proof)** | Low–Medium (SEO) | Local proof passed 2026-05-19 on 17 representative routes; PR #184 added guide route / content / sitemap drift validation in CI. Production browser proof remains optional (issue #10). |
 | **Named route shims inactive** | Low | Editing `functions/artists.js` etc. has no effect while middleware is active. Edit `[[path]].js` instead. |
@@ -169,7 +169,7 @@ Do not modify without explicit task scope:
 - **Make small, isolated changes.** One task = one or a few related commits.
 - **Validate before committing.** Run the relevant checks from [CONTRIBUTING.md](CONTRIBUTING.md).
 - **Summarise after changes:** which files changed, what was changed, which checks passed, what was not touched.
-- **Before starting any session:** read this file, then `PROJECT_STATUS.md`, then `BACKLOG.md`. Those three files are the current source of truth for product state and active priorities — do not rely on `HANDOVER.md` or any historical audit (`CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/LIVE_PRODUCTION_VERIFICATION.md`, etc.) as a source of priorities.
+- **Before starting any session:** read this file, then `PROJECT_STATUS.md`, then `BACKLOG.md`. Those three files are the current source of truth for product state and active priorities — do not rely on `HANDOVER.md` or anything in `docs/archive/` (`CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `LIVE_PRODUCTION_VERIFICATION.md`, `REPO_BRIEFING.md`, etc.) as a source of priorities.
 
 ---
 
@@ -177,9 +177,9 @@ Do not modify without explicit task scope:
 
 Read in order: **`CLAUDE.md`** (this file) → **`PROJECT_STATUS.md`** → **`BACKLOG.md`**.
 
-Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ARTIST_SCALING_MAP.md](docs/ARTIST_SCALING_MAP.md)
+Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ARTIST_SCALING_MAP.md](docs/ARTIST_SCALING_MAP.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md) (which files are canonical)
 
-Not authoritative: `HANDOVER.md`, `AGENTS.md` — superseded; `CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `docs/PROVIDER_ABSTRACTION_*.md` — parked/historical.
+Not authoritative: `HANDOVER.md`, `AGENTS.md` — superseded pointer stubs; everything in `docs/archive/` (e.g. `CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `REPO_BRIEFING.md`, `PROVIDER_ABSTRACTION_*.md`) — parked/historical, indexed in [docs/archive/INDEX.md](docs/archive/INDEX.md).
 
 ---
 

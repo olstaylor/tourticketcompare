@@ -1,5 +1,7 @@
 # Impact Publisher Tag Test (internal)
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 ## Purpose
 
 `/internal/impact-tag-test` is a noindex, token-gated diagnostic route used

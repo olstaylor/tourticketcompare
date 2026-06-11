@@ -218,12 +218,23 @@ function isValidSeatGeekEventUrl(value) {
   return { ok: true, reason: "valid event-level SeatGeek URL" };
 }
 
-function eventIsTicketmasterVerified(event) {
+function eventHasTicketmasterSource(event) {
   const source = clean(event.source_type).toLowerCase();
-  const tmId = clean(event.ticketmaster_event_id);
+  const tmId = clean(event.ticketmaster_event_id || event.ticketmaster_discovery_event_id);
+  return (
+    source === "ticketmaster" &&
+    Boolean(tmId) &&
+    Boolean(clean(event.artist_name || event.artist_slug, 120)) &&
+    Boolean(clean(event.datetime_iso, 120)) &&
+    Boolean(clean(event.city, 120)) &&
+    Boolean(clean(event.venue, 180))
+  );
+}
+
+function eventIsTicketmasterVerified(event) {
   const tmUrl = clean(event.ticketmaster_url, 2048);
   const provider = event.provider_links?.ticketmaster;
-  return source === "ticketmaster" && Boolean(tmId) && /^https:\/\//i.test(tmUrl) && provider?.verified === true;
+  return eventHasTicketmasterSource(event) && /^https:\/\//i.test(tmUrl) && provider?.verified === true;
 }
 
 function artistMatches(event, artistFilter) {
@@ -256,7 +267,7 @@ function applyResumeCursor(selected, resumeFromId) {
 }
 
 function selectEvents(events, options) {
-  let selected = events.filter(eventIsTicketmasterVerified);
+  let selected = events.filter(eventHasTicketmasterSource);
   if (!options.refresh) {
     selected = selected.filter((event) => !isValidSeatGeekEventUrl(event.seatgeek_url).ok);
   }
@@ -310,6 +321,13 @@ function buildAttempts(event) {
       city: "",
       dateStart: exactDate,
       dateEnd: exactDate
+    },
+    {
+      name: "artist only + narrow date window",
+      q: artist,
+      city: "",
+      dateStart: addDays(exactDate, -1),
+      dateEnd: addDays(exactDate, 1)
     }
   ];
   return attempts.filter((attempt) => attempt.q && attempt.dateStart && attempt.dateEnd);
@@ -534,7 +552,11 @@ function scoreCandidate(event, candidate, tmLocalDate) {
   const titleSimilarity = Math.max(diceSimilarity(event.event_name, candidate.title), diceSimilarity(artist, candidate.title));
   const venueSimilarity = Math.max(diceSimilarity(event.venue, candidateVenue(candidate)), containsNormalized(event.venue, candidateVenue(candidate)) || containsNormalized(candidateVenue(candidate), event.venue) ? 1 : 0);
   const sgLocalDate = candidateLocalDate(candidate);
+  const timezoneMissing = !clean(event.timezone, 120);
+  const previousUtcDate = tmLocalDate ? addDays(tmLocalDate, -1) : "";
   const exactDate = Boolean(tmLocalDate && sgLocalDate && tmLocalDate === sgLocalDate);
+  const adjacentPreviousDateWithMissingTimezone = Boolean(timezoneMissing && previousUtcDate && sgLocalDate === previousUtcDate);
+  const dateCompatible = exactDate || adjacentPreviousDateWithMissingTimezone;
   const cityExact = normalizeText(event.city) === normalizeText(candidate.venue?.city || "");
   const cityMetro = metroLikeMatch(event.city, candidate.venue);
   const urlValidation = isValidSeatGeekEventUrl(candidate.url);
@@ -555,6 +577,10 @@ function scoreCandidate(event, candidate, tmLocalDate) {
   if (exactDate) {
     score += 28;
     reasons.push("exact local date match");
+  } else if (adjacentPreviousDateWithMissingTimezone) {
+    score += 24;
+    reasons.push("date match after missing-timezone adjustment");
+    notes.push("event timezone is missing; accepted SeatGeek local date one day before stored UTC date");
   } else {
     notes.push("local date does not match");
   }
@@ -596,7 +622,7 @@ function scoreCandidate(event, candidate, tmLocalDate) {
     notes.push(`SeatGeek URL invalid: ${urlValidation.reason}`);
   }
 
-  const mandatoryPass = bestPerformerSimilarity >= 0.9 && exactDate && (cityExact || cityMetro) && urlValidation.ok;
+  const mandatoryPass = bestPerformerSimilarity >= 0.9 && dateCompatible && (cityExact || cityMetro) && urlValidation.ok;
 
   return {
     raw: candidate,
@@ -617,6 +643,8 @@ function scoreCandidate(event, candidate, tmLocalDate) {
       titleSimilarity: Number(titleSimilarity.toFixed(3)),
       venueSimilarity: Number(venueSimilarity.toFixed(3)),
       exactDate,
+      adjacentPreviousDateWithMissingTimezone,
+      dateCompatible,
       cityExact,
       cityMetro,
       taxonomyRelevant,
@@ -652,8 +680,8 @@ function classifyCandidate(event, scoredCandidates) {
   if (best.signals.performerSimilarity < 0.9) {
     return skipped(best, "artist_match_failed", "Best candidate did not pass the required artist/performer match.", conflicts);
   }
-  if (!best.signals.exactDate) {
-    return skipped(best, "date_match_failed", "Best candidate did not match the exact event date.", conflicts);
+  if (!best.signals.dateCompatible) {
+    return skipped(best, "date_match_failed", "Best candidate did not match the event date.", conflicts);
   }
   if (!best.signals.cityExact && !best.signals.cityMetro) {
     return skipped(best, "city_or_metro_match_failed", "Best candidate did not match the event city or accepted metro area.", conflicts);
@@ -754,6 +782,7 @@ function formatEventResult(event, tmLocalDate, apiResult, scoredCandidates, clas
       confidence_score: conflict.score
     })),
     venue_mismatch_accepted: Boolean(classification.decision === "high_confidence" && classification.candidate?.signals.venueSimilarity < 0.55),
+    date_adjustment_accepted: Boolean(classification.decision === "high_confidence" && classification.candidate?.signals.adjacentPreviousDateWithMissingTimezone),
     ...(options.verbose ? {
       api: {
         ok: apiResult.ok,
@@ -797,7 +826,27 @@ function buildResumeCommand(options, nextResumeShowId) {
   return args.join(" ");
 }
 
-function summarize(results, options, apiEnvironment, runState) {
+function summarize(results, options, apiEnvironment, runState, beforeEvents, afterEvents) {
+  const countCoverage = (events) => {
+    const ticketmasterSourcedEvents = events.filter(eventHasTicketmasterSource);
+    const ticketmasterVerifiedEvents = events.filter(eventIsTicketmasterVerified);
+    const eventsWithValidSeatGeekUrl = events.filter((event) => isValidSeatGeekEventUrl(event.seatgeek_url).ok);
+    const ticketmasterSourcedWithSeatGeekUrl = ticketmasterSourcedEvents.filter((event) => isValidSeatGeekEventUrl(event.seatgeek_url).ok);
+    const ticketmasterVerifiedWithSeatGeekUrl = ticketmasterVerifiedEvents.filter((event) => isValidSeatGeekEventUrl(event.seatgeek_url).ok);
+    return {
+      total_events: events.length,
+      ticketmaster_sourced_events: ticketmasterSourcedEvents.length,
+      ticketmaster_verified_events: ticketmasterVerifiedEvents.length,
+      events_with_valid_seatgeek_url: eventsWithValidSeatGeekUrl.length,
+      ticketmaster_sourced_with_valid_seatgeek_url: ticketmasterSourcedWithSeatGeekUrl.length,
+      ticketmaster_sourced_missing_valid_seatgeek_url: ticketmasterSourcedEvents.length - ticketmasterSourcedWithSeatGeekUrl.length,
+      ticketmaster_verified_with_valid_seatgeek_url: ticketmasterVerifiedWithSeatGeekUrl.length,
+      ticketmaster_verified_missing_valid_seatgeek_url: ticketmasterVerifiedEvents.length - ticketmasterVerifiedWithSeatGeekUrl.length
+    };
+  };
+
+  const beforeCoverage = countCoverage(beforeEvents);
+  const afterCoverage = countCoverage(afterEvents);
   const skipped = results.filter((result) => result.decision === "skipped");
   const notCheckedReasons = new Set(["rate_limited_not_checked", "api_call_limit_not_checked"]);
   const checkedResults = results.filter((result) => !notCheckedReasons.has(result.skipped_reason));
@@ -807,6 +856,12 @@ function summarize(results, options, apiEnvironment, runState) {
   }
   return {
     mode: options.applyHighConfidence ? "apply-high-confidence" : "dry-run",
+    ...beforeCoverage,
+    after_events_with_valid_seatgeek_url: afterCoverage.events_with_valid_seatgeek_url,
+    after_ticketmaster_sourced_with_valid_seatgeek_url: afterCoverage.ticketmaster_sourced_with_valid_seatgeek_url,
+    after_ticketmaster_sourced_missing_valid_seatgeek_url: afterCoverage.ticketmaster_sourced_missing_valid_seatgeek_url,
+    after_ticketmaster_verified_with_valid_seatgeek_url: afterCoverage.ticketmaster_verified_with_valid_seatgeek_url,
+    after_ticketmaster_verified_missing_valid_seatgeek_url: afterCoverage.ticketmaster_verified_missing_valid_seatgeek_url,
     selected: results.length,
     checked: checkedResults.length,
     high_confidence: results.filter((result) => result.decision === "high_confidence").length,
@@ -822,6 +877,7 @@ function summarize(results, options, apiEnvironment, runState) {
     next_resume_show_id: runState.nextResumeShowId || "",
     next_resume_command: buildResumeCommand(options, runState.nextResumeShowId),
     accepted_venue_mismatches: results.filter((result) => result.venue_mismatch_accepted).length,
+    accepted_date_adjustments: results.filter((result) => result.date_adjustment_accepted).length,
     conflicts_found: results.reduce((total, result) => total + result.conflicts.length, 0),
     api_environment: apiEnvironment,
     wrote_events_json: Boolean(options.applyHighConfidence),
@@ -914,6 +970,7 @@ function renderLog(results, summary) {
   const added = results.filter((result) => result.applied);
   const skipped = results.filter((result) => result.decision === "skipped");
   const venueMismatches = results.filter((result) => result.venue_mismatch_accepted);
+  const dateAdjustments = results.filter((result) => result.date_adjustment_accepted);
   const conflicts = results.filter((result) => result.conflicts.length > 0);
   const apiFailures = results.filter((result) => result.skipped_reason === "api_failure");
   const rateLimitedNotChecked = results.filter((result) => result.skipped_reason === "rate_limited_not_checked");
@@ -930,8 +987,21 @@ function renderLog(results, summary) {
     `- SeatGeek client ID present: ${summary.api_environment.seatgeek_client_id_present}`,
     `- SeatGeek client secret present: ${summary.api_environment.seatgeek_client_secret_present}`,
     `- API access with client ID only: ${summary.api_environment.client_id_only_http_status === 200 ? "HTTP 200" : `not confirmed (${summary.api_environment.client_id_only_http_status || "no status"})`}`,
-    `- Events selected/logged: ${summary.selected}`,
-    `- Events checked: ${summary.checked}`,
+    `- Total events in data: ${summary.total_events}`,
+    `- Ticketmaster-sourced events eligible for SeatGeek enrichment: ${summary.ticketmaster_sourced_events}`,
+    `- Ticketmaster-verified events: ${summary.ticketmaster_verified_events}`,
+    `- Events carrying a valid SeatGeek URL before this run: ${summary.events_with_valid_seatgeek_url}`,
+    `- Events carrying a valid SeatGeek URL after this run: ${summary.after_events_with_valid_seatgeek_url}`,
+    `- Ticketmaster-sourced events carrying a valid SeatGeek URL before this run: ${summary.ticketmaster_sourced_with_valid_seatgeek_url}`,
+    `- Ticketmaster-sourced events carrying a valid SeatGeek URL after this run: ${summary.after_ticketmaster_sourced_with_valid_seatgeek_url}`,
+    `- Ticketmaster-sourced events missing a valid SeatGeek URL before this run: ${summary.ticketmaster_sourced_missing_valid_seatgeek_url}`,
+    `- Ticketmaster-sourced events missing a valid SeatGeek URL after this run: ${summary.after_ticketmaster_sourced_missing_valid_seatgeek_url}`,
+    `- Ticketmaster-verified events carrying a valid SeatGeek URL before this run: ${summary.ticketmaster_verified_with_valid_seatgeek_url}`,
+    `- Ticketmaster-verified events carrying a valid SeatGeek URL after this run: ${summary.after_ticketmaster_verified_with_valid_seatgeek_url}`,
+    `- Ticketmaster-verified events missing a valid SeatGeek URL before this run: ${summary.ticketmaster_verified_missing_valid_seatgeek_url}`,
+    `- Ticketmaster-verified events missing a valid SeatGeek URL after this run: ${summary.after_ticketmaster_verified_missing_valid_seatgeek_url}`,
+    `- Events selected/logged by this run: ${summary.selected}`,
+    `- Events checked by this run: ${summary.checked}`,
     `- API calls made: ${summary.api_calls_made}`,
     `- Rate-limit responses: ${summary.rate_limit_responses}`,
     `- URLs added: ${summary.added}`,
@@ -942,15 +1012,25 @@ function renderLog(results, summary) {
     `- Next resume showId: ${summary.next_resume_show_id || ""}`,
     `- Next recommended resume command: ${summary.next_resume_command || ""}`,
     `- Accepted venue mismatches: ${summary.accepted_venue_mismatches}`,
+    `- Accepted missing-timezone date adjustments: ${summary.accepted_date_adjustments}`,
     `- Conflicts found: ${summary.conflicts_found}`,
     "",
     "## Skipped reasons",
     "",
     ...Object.entries(summary.skipped_reasons).map(([reason, count]) => `- ${reason}: ${count}`),
+    "",
+    "## Interpretation",
+    "",
+    `- \`URLs added: ${summary.added}\` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.`,
+    `- ${summary.events_with_valid_seatgeek_url} event(s) carried valid SeatGeek URLs before this run; ${summary.after_events_with_valid_seatgeek_url} carry valid SeatGeek URLs after this run.`,
+    `- This run queried the ${summary.ticketmaster_sourced_missing_valid_seatgeek_url} Ticketmaster-sourced event(s) that were still missing a valid \`seatgeek_url\` at the start of the run.`,
+    `- SeatGeek returned high-confidence API matches for ${summary.added} of those events; the remaining ${summary.after_ticketmaster_sourced_missing_valid_seatgeek_url} Ticketmaster-sourced event(s) still lack a safe event-level SeatGeek URL.`,
     ""
   ];
 
   lines.push("## URLs added", "");
+  lines.push("This section lists only URLs newly added by this run. Events that already had valid SeatGeek URLs were retained in event data and were not re-listed here.");
+  lines.push("");
   lines.push(added.length ? markdownTable(added, [
     { label: "showId", value: (row) => row.showId },
     { label: "artist", value: (row) => row.artist },
@@ -961,6 +1041,8 @@ function renderLog(results, summary) {
   lines.push("");
 
   lines.push("## Events skipped", "");
+  lines.push("Skipped rows are only the Ticketmaster-sourced events that were still missing a valid `seatgeek_url` when this run started.");
+  lines.push("");
   lines.push(skipped.length ? markdownTable(skipped, [
     { label: "showId", value: (row) => row.showId },
     { label: "artist", value: (row) => row.artist },
@@ -976,6 +1058,15 @@ function renderLog(results, summary) {
     { label: "showId", value: (row) => row.showId },
     { label: "TTC venue", value: (row) => row.ticketmaster.venue },
     { label: "SeatGeek venue", value: (row) => row.candidate?.venue },
+    { label: "URL", value: (row) => row.candidate?.url }
+  ]) : "- None");
+  lines.push("");
+
+  lines.push("## Accepted missing-timezone date adjustments", "");
+  lines.push(dateAdjustments.length ? markdownTable(dateAdjustments, [
+    { label: "showId", value: (row) => row.showId },
+    { label: "stored date", value: (row) => row.ticketmaster.date },
+    { label: "SeatGeek date", value: (row) => row.candidate?.date },
     { label: "URL", value: (row) => row.candidate?.url }
   ]) : "- None");
   lines.push("");
@@ -1046,6 +1137,7 @@ async function main() {
 
   const eventsRaw = await fs.readFile(EVENTS_PATH, "utf8");
   const events = JSON.parse(eventsRaw);
+  const beforeEvents = JSON.parse(eventsRaw);
   if (!Array.isArray(events)) throw new Error("public/data/events.json must contain an array");
 
   const eligibleOptions = { ...options, limit: null };
@@ -1130,7 +1222,7 @@ async function main() {
     await syncPartitionedEventFiles(events, additions);
   }
 
-  const summary = summarize(results, options, apiEnvironment, runState);
+  const summary = summarize(results, options, apiEnvironment, runState, beforeEvents, events);
   await fs.writeFile(options.logPath, renderLog(results, summary));
 
   if (options.json) {

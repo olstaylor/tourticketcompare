@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-06-01T13:26:05.443Z
+Generated: 2026-06-11T09:32:43.450Z
 
 ## Run summary
 
@@ -8,113 +8,102 @@ Generated: 2026-06-01T13:26:05.443Z
 - SeatGeek client ID present: true
 - SeatGeek client secret present: false
 - API access with client ID only: HTTP 200
-- Events selected/logged: 171
-- Events checked: 171
-- API calls made: 855
+- Total events in data: 329
+- Ticketmaster-sourced events eligible for SeatGeek enrichment: 329
+- Ticketmaster-verified events: 264
+- Events carrying a valid SeatGeek URL before this run: 180
+- Events carrying a valid SeatGeek URL after this run: 226
+- Ticketmaster-sourced events carrying a valid SeatGeek URL before this run: 180
+- Ticketmaster-sourced events carrying a valid SeatGeek URL after this run: 226
+- Ticketmaster-sourced events missing a valid SeatGeek URL before this run: 149
+- Ticketmaster-sourced events missing a valid SeatGeek URL after this run: 103
+- Ticketmaster-verified events carrying a valid SeatGeek URL before this run: 176
+- Ticketmaster-verified events carrying a valid SeatGeek URL after this run: 177
+- Ticketmaster-verified events missing a valid SeatGeek URL before this run: 88
+- Ticketmaster-verified events missing a valid SeatGeek URL after this run: 87
+- Events selected/logged by this run: 149
+- Events checked by this run: 149
+- API calls made: 894
 - Rate-limit responses: 0
-- URLs added: 83
-- Events skipped: 88
-- no_candidates_returned: 88
+- URLs added: 46
+- Events skipped: 103
+- no_candidates_returned: 101
 - rate_limited_not_checked: 0
 - Stopped early: no
 - Next resume showId: 
 - Next recommended resume command: 
 - Accepted venue mismatches: 0
+- Accepted missing-timezone date adjustments: 4
 - Conflicts found: 0
 
 ## Skipped reasons
 
-- no_candidates_returned: 88
+- no_candidates_returned: 101
+- city_or_metro_match_failed: 2
+
+## Interpretation
+
+- `URLs added: 46` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
+- 180 event(s) carried valid SeatGeek URLs before this run; 226 carry valid SeatGeek URLs after this run.
+- This run queried the 149 Ticketmaster-sourced event(s) that were still missing a valid `seatgeek_url` at the start of the run.
+- SeatGeek returned high-confidence API matches for 46 of those events; the remaining 103 Ticketmaster-sourced event(s) still lack a safe event-level SeatGeek URL.
 
 ## URLs added
 
+This section lists only URLs newly added by this run. Events that already had valid SeatGeek URLs were retained in event data and were not re-listed here.
+
 | showId | artist | date | city | SeatGeek URL |
 | --- | --- | --- | --- | --- |
-| tm-jay-z-2026-bronx-1d006473d78cfdb8 | JAY-Z | 2026-07-10 | Bronx | https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-10-3-30-am/concert/18131684 |
-| tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv | Olivia Rodrigo | 2026-09-29 | Pittsburgh | https://seatgeek.com/olivia-rodrigo-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-09-29-7-pm/concert/18211667 |
-| tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7 | Olivia Rodrigo | 2026-09-30 | Pittsburgh | https://seatgeek.com/olivia-rodrigo-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-09-30-7-pm/concert/18211669 |
-| tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387 | Olivia Rodrigo | 2026-10-03 | Washington | https://seatgeek.com/olivia-rodrigo-tickets/washington-district-of-columbia-capital-one-arena-2026-10-03-7-pm/concert/18211668 |
-| tm-olivia-rodrigo-2026-washington-1avfz_agkvqmncz | Olivia Rodrigo | 2026-10-04 | Washington | https://seatgeek.com/olivia-rodrigo-tickets/washington-district-of-columbia-capital-one-arena-2026-10-04-7-pm/concert/18211670 |
-| tm-olivia-rodrigo-2026-charlotte-g5evz_auyed-b | Olivia Rodrigo | 2026-10-07 | Charlotte | https://seatgeek.com/olivia-rodrigo-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-10-07-7-pm/concert/18211674 |
-| tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g | Olivia Rodrigo | 2026-10-08 | Charlotte | https://seatgeek.com/olivia-rodrigo-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-10-08-7-pm/concert/18211678 |
-| tm-olivia-rodrigo-2026-chicago-vv178z_agkyetuoa | Olivia Rodrigo | 2026-10-11 | Chicago | https://seatgeek.com/olivia-rodrigo-tickets/chicago-illinois-united-center-2026-10-11-7-pm/concert/18211679 |
-| tm-olivia-rodrigo-2026-chicago-vv178z_agkmlebgy | Olivia Rodrigo | 2026-10-12 | Chicago | https://seatgeek.com/olivia-rodrigo-tickets/chicago-illinois-united-center-2026-10-12-7-pm/concert/18211680 |
-| tm-olivia-rodrigo-2026-boston-vv177z_agksbtqpc | Olivia Rodrigo | 2026-10-15 | Boston | https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-15-7-pm/concert/18211681 |
-| tm-olivia-rodrigo-2026-boston-vv177z_agkv-whjn | Olivia Rodrigo | 2026-10-17 | Boston | https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-17-7-pm/concert/18211686 |
-| tm-olivia-rodrigo-2026-boston-vvg17z_13s_x9k | Olivia Rodrigo | 2026-10-18 | Boston | https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-18-7-pm/concert/18224681 |
-| tm-olivia-rodrigo-2026-montreal-1ad7z_agkmby4v9 | Olivia Rodrigo | 2026-10-21 | Montreal | https://seatgeek.com/olivia-rodrigo-tickets/montreal-canada-centre-bell-2026-10-21-7-pm/concert/18211732 |
-| tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_ | Olivia Rodrigo | 2026-10-22 | Montreal | https://seatgeek.com/olivia-rodrigo-tickets/montreal-canada-centre-bell-2026-10-22-7-pm/concert/18211735 |
-| tm-olivia-rodrigo-2026-toronto-1avzz_agkmwmykb | Olivia Rodrigo | 2026-10-26 | Toronto | https://seatgeek.com/olivia-rodrigo-tickets/toronto-canada-scotiabank-arena-2026-10-26-7-pm/concert/18211736 |
-| tm-olivia-rodrigo-2026-toronto-1avzz_agkvcvogj | Olivia Rodrigo | 2026-10-27 | Toronto | https://seatgeek.com/olivia-rodrigo-tickets/toronto-canada-scotiabank-arena-2026-10-27-7-pm/concert/18211738 |
-| tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtn2ij | Olivia Rodrigo | 2026-10-29 | Columbus | https://seatgeek.com/olivia-rodrigo-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-29-7-pm/concert/18211687 |
-| tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri- | Olivia Rodrigo | 2026-10-30 | Columbus | https://seatgeek.com/olivia-rodrigo-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-30-7-pm/concert/18211689 |
-| tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg | Olivia Rodrigo | 2026-11-07 | Philadelphia | https://seatgeek.com/olivia-rodrigo-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-07-7-pm/concert/18211690 |
-| tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzoemy | Olivia Rodrigo | 2026-11-08 | Philadelphia | https://seatgeek.com/olivia-rodrigo-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-08-7-pm/concert/18211692 |
-| tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5 | Olivia Rodrigo | 2026-11-11 | Atlanta | https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-11-7-pm/concert/18211693 |
-| tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw8bjb | Olivia Rodrigo | 2026-11-12 | Atlanta | https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-12-7-pm/concert/18211698 |
-| tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj | Olivia Rodrigo | 2026-11-15 | Orlando | https://seatgeek.com/olivia-rodrigo-tickets/orlando-florida-kia-center-2026-11-15-7-pm/concert/18211699 |
-| tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf | Olivia Rodrigo | 2026-11-16 | Orlando | https://seatgeek.com/olivia-rodrigo-tickets/orlando-florida-kia-center-2026-11-16-7-pm/concert/18211700 |
-| tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo | Olivia Rodrigo | 2026-11-23 | Nashville | https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-23-7-pm/concert/18211703 |
-| tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh | Olivia Rodrigo | 2026-11-24 | Nashville | https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-24-7-pm/concert/18211705 |
-| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb | Olivia Rodrigo | 2026-12-01 | Vancouver | https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-01-7-pm/concert/18211742 |
-| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj | Olivia Rodrigo | 2026-12-02 | Vancouver | https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-02-7-pm/concert/18211743 |
-| tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty | Olivia Rodrigo | 2026-12-07 | Seattle | https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-07-7-pm/concert/18211710 |
-| tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1 | Olivia Rodrigo | 2026-12-08 | Seattle | https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-08-7-pm/concert/18211711 |
-| tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b | Olivia Rodrigo | 2026-12-11 | Oakland | https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-11-7-pm/concert/18211712 |
-| tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1 | Olivia Rodrigo | 2026-12-12 | Oakland | https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-12-7-pm/concert/18211714 |
-| tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi | Olivia Rodrigo | 2026-12-15 | Sacramento | https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-15-7-pm/concert/18211717 |
-| tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy | Olivia Rodrigo | 2026-12-16 | Sacramento | https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-16-7-pm/concert/18211719 |
-| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw | Olivia Rodrigo | 2027-01-12 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-12-7-pm/concert/18211724 |
-| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b | Olivia Rodrigo | 2027-01-13 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-13-7-pm/concert/18211726 |
-| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku | Olivia Rodrigo | 2027-01-16 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-16-7-pm/concert/18214730 |
-| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45 | Olivia Rodrigo | 2027-01-17 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-17-7-pm/concert/18211731 |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr | Olivia Rodrigo | 2027-01-20 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-20-7-pm/concert/18224991 |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph | Olivia Rodrigo | 2027-01-21 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-21-7-pm/concert/18224990 |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo | Olivia Rodrigo | 2027-01-24 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-24-7-pm/concert/18225825 |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd | Olivia Rodrigo | 2027-01-25 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-25-7-pm/concert/18227093 |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte- | Olivia Rodrigo | 2027-01-28 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-28-7-pm/concert/18230500 |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq | Olivia Rodrigo | 2027-01-29 | Inglewood | https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-29-7-pm/concert/18230501 |
-| tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq | Olivia Rodrigo | 2027-02-11 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-11-7-pm/concert/18211656 |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn | Olivia Rodrigo | 2027-02-12 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-12-7-pm/concert/18211659 |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl | Olivia Rodrigo | 2027-02-15 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-15-7-pm/concert/18211660 |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs | Olivia Rodrigo | 2027-02-16 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-16-7-pm/concert/18211657 |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx | Olivia Rodrigo | 2027-02-19 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-19-7-pm/concert/18224685 |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi | Olivia Rodrigo | 2027-02-20 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-20-7-pm/concert/18224992 |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi | Olivia Rodrigo | 2027-02-23 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-23-7-pm/concert/18226585 |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw | Olivia Rodrigo | 2027-02-24 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-24-7-pm/concert/18226587 |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg | Olivia Rodrigo | 2027-02-27 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-27-7-pm/concert/18227138 |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx | Olivia Rodrigo | 2027-02-28 | Brooklyn | https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-28-7-pm/concert/18229435 |
-| tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm | Bruno Mars | 2026-08-21 | East Rutherford | https://seatgeek.com/bruno-mars-tickets/east-rutherford-new-jersey-metlife-stadium-2026-08-21-7-pm/concert/18004645 |
-| tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd | Bruno Mars | 2026-08-22 | East Rutherford | https://seatgeek.com/bruno-mars-tickets/east-rutherford-new-jersey-metlife-stadium-2026-08-22-7-pm/concert/18004642 |
-| tm-bruno-mars-2026-east-rutherford-k7vgfbydoxccx | Bruno Mars | 2026-08-25 | East Rutherford | https://seatgeek.com/bruno-mars-tickets/east-rutherford-new-jersey-metlife-stadium-2026-08-25-7-pm/concert/18013033 |
-| tm-bruno-mars-2026-east-rutherford-k7vgfbydonw2z | Bruno Mars | 2026-08-26 | East Rutherford | https://seatgeek.com/bruno-mars-tickets/east-rutherford-new-jersey-metlife-stadium-2026-08-26-7-pm/concert/18013460 |
-| tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626 | Bruno Mars | 2026-08-29 | Pittsburgh | https://seatgeek.com/bruno-mars-tickets/pittsburgh-pennsylvania-acrisure-stadium-2026-08-29-7-pm/concert/18004659 |
-| tm-bruno-mars-2026-philadelphia-vv1aezk8pgkdj_ywf | Bruno Mars | 2026-09-01 | Philadelphia | https://seatgeek.com/bruno-mars-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-09-01-7-pm/concert/18004658 |
-| tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0 | Bruno Mars | 2026-09-02 | Philadelphia | https://seatgeek.com/bruno-mars-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-09-02-7-pm/concert/18013349 |
-| tm-bruno-mars-2026-foxborough-vv1a8vn0_ga221kn | Bruno Mars | 2026-09-05 | Foxborough | https://seatgeek.com/bruno-mars-tickets/foxborough-massachusetts-gillette-stadium-2026-09-05-7-pm/concert/18004666 |
-| tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb | Bruno Mars | 2026-09-06 | Foxborough | https://seatgeek.com/bruno-mars-tickets/foxborough-massachusetts-gillette-stadium-2026-09-06-7-pm/concert/18013044 |
-| tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph | Bruno Mars | 2026-09-09 | Indianapolis | https://seatgeek.com/bruno-mars-tickets/indianapolis-indiana-lucas-oil-stadium-2026-09-09-7-pm/concert/18004665 |
-| tm-bruno-mars-2026-tampa-vvg1vz_e944pwc | Bruno Mars | 2026-09-12 | Tampa | https://seatgeek.com/bruno-mars-tickets/tampa-florida-raymond-james-stadium-2026-09-12-7-pm/concert/18004669 |
-| tm-bruno-mars-2026-tampa-vvg1vz_exa-kfw | Bruno Mars | 2026-09-13 | Tampa | https://seatgeek.com/bruno-mars-tickets/tampa-florida-raymond-james-stadium-2026-09-13-7-pm/concert/18013047 |
-| tm-bruno-mars-2026-new-orleans-g5vizbye_a_hw | Bruno Mars | 2026-09-16 | New Orleans | https://seatgeek.com/bruno-mars-tickets/new-orleans-louisiana-caesars-superdome-2026-09-16-7-pm/concert/18004670 |
-| tm-bruno-mars-2026-miami-vvg1vz_ekc64hs | Bruno Mars | 2026-09-19 | Miami | https://seatgeek.com/bruno-mars-tickets/miami-gardens-florida-hard-rock-stadium-2026-09-19-7-pm/concert/18004671 |
-| tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_ | Bruno Mars | 2026-09-20 | Miami | https://seatgeek.com/bruno-mars-tickets/miami-gardens-florida-hard-rock-stadium-2026-09-20-7-pm/concert/18013024 |
-| tm-bruno-mars-2026-san-antonio-g5dizbyc__upm | Bruno Mars | 2026-09-23 | San Antonio | https://seatgeek.com/bruno-mars-tickets/san-antonio-texas-alamodome-2026-09-23-7-pm/concert/18004675 |
-| tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a | Bruno Mars | 2026-09-27 | Colorado Springs | https://seatgeek.com/bruno-mars-tickets/colorado-springs-colorado-falcon-stadium-2026-09-27-7-pm/concert/18013502 |
-| tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f | Bruno Mars | 2026-09-30 | Inglewood | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-09-30-7-pm/concert/18107918 |
-| tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx | Bruno Mars | 2026-10-02 | Inglewood | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-02-7-pm/concert/18004678 |
-| tm-bruno-mars-2026-inglewood-vvg1izbyhid9od | Bruno Mars | 2026-10-03 | Inglewood | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-03-7-pm/concert/18004681 |
-| tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin | Bruno Mars | 2026-10-06 | Inglewood | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-06-7-pm/concert/18013259 |
-| tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is | Bruno Mars | 2026-10-07 | Inglewood | https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-07-7-pm/concert/18013882 |
-| tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn | Bruno Mars | 2026-10-10 | Santa Clara | https://seatgeek.com/bruno-mars-tickets/santa-clara-california-levi-s-stadium-2026-10-10-7-pm/concert/18004682 |
-| tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx | Bruno Mars | 2026-10-11 | Santa Clara | https://seatgeek.com/bruno-mars-tickets/santa-clara-california-levi-s-stadium-2026-10-11-7-pm/concert/18013261 |
-| tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm | Bruno Mars | 2026-10-14 | Vancouver | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-14-7-pm/concert/18004687 |
-| tm-bruno-mars-2026-vancouver-1av7z_egkshvjex | Bruno Mars | 2026-10-16 | Vancouver | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-16-7-pm/concert/18013263 |
-| tm-bruno-mars-2026-vancouver-1av7z_egkshmjia | Bruno Mars | 2026-10-17 | Vancouver | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-17-7-pm/concert/18013350 |
-| tm-bruno-mars-2026-vancouver-1av7z_egkwimwwb | Bruno Mars | 2026-10-20 | Vancouver | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-20-7-pm/concert/18016784 |
-| tm-bruno-mars-2026-vancouver-1k78v0fjgacrkay | Bruno Mars | 2026-10-21 | Vancouver | https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-21-7-pm/concert/18107920 |
+| tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o | Olivia Rodrigo | 2026-11-21 | Sunrise | https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620 |
+| tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | Olivia Rodrigo | 2026-12-21 | Las Vegas | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723 |
+| tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i | Bruno Mars | 2026-09-28 | Colorado Springs | https://seatgeek.com/bruno-mars-tickets/colorado-springs-colorado-falcon-stadium-2026-09-27-7-pm/concert/18013502 |
+| tm-shakira-2026-inglewood-vv1aazkovgkdf4iwr | Shakira | 2026-06-13 | Inglewood | https://seatgeek.com/shakira-tickets/inglewood-california-intuit-dome-2026-06-13-7-30-pm/concert/18157383 |
+| tm-shakira-2026-inglewood-vv1aazkovgkdf_jwm | Shakira | 2026-06-14 | Inglewood | https://seatgeek.com/shakira-tickets/inglewood-california-intuit-dome-2026-06-14-7-30-pm/concert/18157382 |
+| tm-shakira-2026-san-jose-g5vyz_663mr7p | Shakira | 2026-06-19 | San Jose | https://seatgeek.com/shakira-tickets/san-jose-california-sap-center-at-san-jose-2026-06-19-7-30-pm/concert/18157391 |
+| tm-shakira-2026-san-jose-g5vyz_6x6bktl | Shakira | 2026-06-20 | San Jose | https://seatgeek.com/shakira-tickets/san-jose-california-sap-center-at-san-jose-2026-06-20-7-30-pm/concert/18225032 |
+| tm-shakira-2026-dallas-vvg1yz_6c939ia | Shakira | 2026-06-23 | Dallas | https://seatgeek.com/shakira-tickets/dallas-texas-american-airlines-center-2026-06-23-7-30-pm/concert/18157392 |
+| tm-shakira-2026-atlanta-vvg1zz_66u4nyt | Shakira | 2026-06-26 | Atlanta | https://seatgeek.com/shakira-tickets/atlanta-georgia-state-farm-arena-1-2026-06-26-7-30-pm/concert/18157394 |
+| tm-shakira-2026-atlanta-vvg1zz_f6arur7 | Shakira | 2026-06-28 | Atlanta | https://seatgeek.com/shakira-tickets/atlanta-georgia-state-farm-arena-1-2026-06-28-7-30-pm/concert/18225030 |
+| tm-shakira-2026-miami-vvg1vz_6knubnj | Shakira | 2026-07-01 | Miami | https://seatgeek.com/shakira-tickets/miami-florida-kaseya-center-2026-07-01-7-30-pm/concert/18157395 |
+| tm-shakira-2026-miami-vvg1vz_6r8_upj | Shakira | 2026-07-02 | Miami | https://seatgeek.com/shakira-tickets/miami-florida-kaseya-center-2026-07-02-7-30-pm/concert/18225031 |
+| tm-shakira-2026-baltimore-1a4zkosgf76zecv | Shakira | 2026-07-06 | Baltimore | https://seatgeek.com/shakira-tickets/baltimore-maryland-cfg-bank-arena-2026-07-06-7-30-pm/concert/18157397 |
+| tm-shakira-2026-boston-vv1avzkosgkdb5unc | Shakira | 2026-07-10 | Boston | https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-10-7-30-pm/concert/18157398 |
+| tm-shakira-2026-boston-vv177z_6gkrmuczn | Shakira | 2026-07-11 | Boston | https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-11-7-30-pm/concert/18225033 |
+| tm-shakira-2026-newark-vv1aezkosgketdd_b | Shakira | 2026-07-14 | Newark | https://seatgeek.com/shakira-tickets/newark-new-jersey-prudential-center-2026-07-14-7-30-pm/concert/18157380 |
+| tm-shakira-2026-brooklyn-1ayzkosgkdghkeg | Shakira | 2026-07-20 | Brooklyn | https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-20-7-30-pm/concert/18157379 |
+| tm-shakira-2026-brooklyn-1adzz_6gktq1p0z | Shakira | 2026-07-21 | Brooklyn | https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-21-7-30-pm/concert/18225034 |
+| tm-shakira-2026-atlantic-city-vv17fz_6gkb5efrp | Shakira | 2026-07-25 | Atlantic City | https://seatgeek.com/shakira-tickets/atlantic-city-new-jersey-boardwalk-hall-2026-07-25-7-30-pm/concert/18157403 |
+| tm-ed-sheeran-2026-glendale-z7r9jz1a7jm | Ed Sheeran | 2026-06-14 | Glendale | https://seatgeek.com/ed-sheeran-tickets/glendale-arizona-state-farm-stadium-2026-06-13-5-30-pm/concert/17724383 |
+| tm-ed-sheeran-2026-nashville-z7r9jz1a7js | Ed Sheeran | 2026-06-20 | Nashville | https://seatgeek.com/ed-sheeran-tickets/nashville-tennessee-nissan-stadium-2026-06-20-5-30-pm/concert/17722014 |
+| tm-ed-sheeran-2026-milwaukee-0700632fb5d7362c | Ed Sheeran | 2026-06-25 | Milwaukee | https://seatgeek.com/ed-sheeran-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2026-06-25-7-30-pm/concert/17738440 |
+| tm-ed-sheeran-2026-chicago-04006331fcb85a8a | Ed Sheeran | 2026-06-27 | Chicago | https://seatgeek.com/ed-sheeran-tickets/chicago-illinois-soldier-field-2026-06-27-5-30-pm/concert/17738438 |
+| tm-ed-sheeran-2026-denver-1e006330c3b936ad | Ed Sheeran | 2026-07-04 | Denver | https://seatgeek.com/ed-sheeran-tickets/denver-colorado-empower-field-at-mile-high-2026-07-04-5-30-pm/concert/17738439 |
+| tm-ed-sheeran-2026-las-vegas-1700632f29ecabed | Ed Sheeran | 2026-07-18 | Las Vegas | https://seatgeek.com/ed-sheeran-tickets/las-vegas-nevada-allegiant-stadium-2026-07-18-5-30-pm/concert/17738441 |
+| tm-ed-sheeran-2026-san-diego-0a006331da303659 | Ed Sheeran | 2026-07-21 | San Diego | https://seatgeek.com/ed-sheeran-tickets/san-diego-california-petco-park-2026-07-21-5-30-pm/concert/17738442 |
+| tm-ed-sheeran-2026-santa-clara-1c006331c1a54d19 | Ed Sheeran | 2026-07-25 | Santa Clara | https://seatgeek.com/ed-sheeran-tickets/santa-clara-california-levi-s-stadium-2026-07-25-5-30-pm/concert/17738443 |
+| tm-ed-sheeran-2026-seattle-0f00632ea04f19df | Ed Sheeran | 2026-08-01 | Seattle | https://seatgeek.com/ed-sheeran-tickets/seattle-washington-lumen-field-2026-08-01-5-30-pm/concert/17738449 |
+| tm-ed-sheeran-2026-inglewood-0a006331dc273765 | Ed Sheeran | 2026-08-08 | Inglewood | https://seatgeek.com/ed-sheeran-tickets/inglewood-california-sofi-stadium-2026-08-08-5-30-pm/concert/17738451 |
+| tm-ed-sheeran-2026-minneapolis-0600632e29196b3e | Ed Sheeran | 2026-08-15 | Minneapolis | https://seatgeek.com/ed-sheeran-tickets/minneapolis-minnesota-u-s-bank-stadium-2026-08-15-5-30-pm/concert/17738452 |
+| tm-ed-sheeran-2026-toronto-1000632fe9bb4345 | Ed Sheeran | 2026-08-20 | Toronto | https://seatgeek.com/ed-sheeran-tickets/toronto-canada-rogers-centre-2026-08-20-5-30-pm/concert/17751967 |
+| tm-ed-sheeran-2026-toronto-1000632fe9c34349 | Ed Sheeran | 2026-08-21 | Toronto | https://seatgeek.com/ed-sheeran-tickets/toronto-canada-rogers-centre-2026-08-21-5-30-pm/concert/17738477 |
+| tm-ed-sheeran-2026-toronto-1000632fe9ca4361 | Ed Sheeran | 2026-08-22 | Toronto | https://seatgeek.com/ed-sheeran-tickets/toronto-canada-rogers-centre-2026-08-22-5-30-pm/concert/17738478 |
+| tm-ed-sheeran-2026-detroit-0800632ca3272367 | Ed Sheeran | 2026-08-29 | Detroit | https://seatgeek.com/ed-sheeran-tickets/detroit-michigan-ford-field-2026-08-29-5-30-pm/concert/17738481 |
+| tm-ed-sheeran-2026-east-rutherford-00006331cc3a2a14 | Ed Sheeran | 2026-09-04 | East Rutherford | https://seatgeek.com/ed-sheeran-tickets/east-rutherford-new-jersey-metlife-stadium-2026-09-04-5-30-pm/concert/17738453 |
+| tm-ed-sheeran-2026-east-rutherford-00006331cecb2b77 | Ed Sheeran | 2026-09-05 | East Rutherford | https://seatgeek.com/ed-sheeran-tickets/east-rutherford-new-jersey-metlife-stadium-2026-09-05-5-30-pm/concert/17738455 |
+| tm-ed-sheeran-2026-philadelphia-02006331ed9c6125 | Ed Sheeran | 2026-09-19 | Philadelphia | https://seatgeek.com/ed-sheeran-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-09-19-5-30-pm/concert/17738457 |
+| tm-ed-sheeran-2026-foxborough-0100632fcae52e03 | Ed Sheeran | 2026-09-25 | Foxborough | https://seatgeek.com/ed-sheeran-tickets/foxborough-massachusetts-gillette-stadium-2026-09-25-5-30-pm/concert/17738460 |
+| tm-ed-sheeran-2026-foxborough-01006331f67e74d9 | Ed Sheeran | 2026-09-26 | Foxborough | https://seatgeek.com/ed-sheeran-tickets/foxborough-massachusetts-gillette-stadium-2026-09-26-5-30-pm/concert/17738463 |
+| tm-ed-sheeran-2026-atlanta-0e00632fc0572cc1 | Ed Sheeran | 2026-10-03 | Atlanta | https://seatgeek.com/ed-sheeran-tickets/atlanta-georgia-mercedes-benz-stadium-2026-10-03-5-30-pm/concert/17738465 |
+| tm-ed-sheeran-2026-indianapolis-050063299afd15f3 | Ed Sheeran | 2026-10-10 | Indianapolis | https://seatgeek.com/ed-sheeran-tickets/indianapolis-indiana-lucas-oil-stadium-2026-10-10-5-30-pm/concert/17738466 |
+| tm-ed-sheeran-2026-charlotte-2d006331aac349eb | Ed Sheeran | 2026-10-17 | Charlotte | https://seatgeek.com/ed-sheeran-tickets/charlotte-north-carolina-bank-of-america-stadium-2026-10-17-5-30-pm/concert/17738470 |
+| tm-ed-sheeran-2026-arlington-z7r9jz1a7jw | Ed Sheeran | 2026-10-24 | Arlington | https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039 |
+| tm-ed-sheeran-2026-hollywood-0d006331a7d91aff | Ed Sheeran | 2026-10-29 | Hollywood | https://seatgeek.com/ed-sheeran-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-29-8-pm/concert/17738469 |
+| tm-ed-sheeran-2026-hollywood-0d006331f45e4089 | Ed Sheeran | 2026-10-30 | Hollywood | https://seatgeek.com/ed-sheeran-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-30-8-pm/concert/17738471 |
+| tm-ed-sheeran-2026-tampa-0d006331d60a3a7a | Ed Sheeran | 2026-11-07 | Tampa | https://seatgeek.com/ed-sheeran-tickets/tampa-florida-raymond-james-stadium-2026-11-07-5-30-pm/concert/17738474 |
 
 ## Events skipped
+
+Skipped rows are only the Ticketmaster-sourced events that were still missing a valid `seatgeek_url` when this run started.
 
 | showId | artist | date | city | reason | best candidate |
 | --- | --- | --- | --- | --- | --- |
@@ -177,7 +166,9 @@ Generated: 2026-06-01T13:26:05.443Z
 | tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6 | Olivia Rodrigo | 2027-05-02 | Barcelona | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7 | Olivia Rodrigo | 2027-05-05 | Barcelona | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_ | Olivia Rodrigo | 2027-05-06 | Barcelona | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4 | Olivia Rodrigo | 2027-05-09 | Greenwich | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p | Olivia Rodrigo | 2027-05-09 | London | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff | Olivia Rodrigo | 2027-05-10 | Greenwich | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3 | Olivia Rodrigo | 2027-05-10 | London | no_candidates_returned | - |
 | tm-bruno-mars-2026-columbus-vv1aazkcfgkdl2qzg | Bruno Mars | 2026-05-20 | Columbus | no_candidates_returned | - |
 | tm-bruno-mars-2026-toronto-1a8zkc8gkev_6oa | Bruno Mars | 2026-05-23 | Toronto | no_candidates_returned | - |
@@ -205,11 +196,33 @@ Generated: 2026-06-01T13:26:05.443Z
 | tm-bruno-mars-2026-london-1anzk8egkdmnywe | Bruno Mars | 2026-07-24 | London | no_candidates_returned | - |
 | tm-bruno-mars-2026-london-1anzk8egkdzq8wy | Bruno Mars | 2026-07-25 | London | no_candidates_returned | - |
 | tm-bruno-mars-2026-london-1anzk8egkdbd8xc | Bruno Mars | 2026-07-28 | London | no_candidates_returned | - |
-| tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i | Bruno Mars | 2026-09-28 | Colorado Springs | no_candidates_returned | - |
+| tm-shakira-2026-palm-desert-vvg1iz_6abv7yw | Shakira | 2026-06-17 | Palm Desert | city_or_metro_match_failed | https://seatgeek.com/shakira-tickets/thousand-palms-california-acrisure-arena-2026-06-17-7-30-pm/concert/18157384 |
+| tm-shakira-2026-belmont-park-15dzz_619b3pj | Shakira | 2026-07-23 | Belmont Park | city_or_metro_match_failed | https://seatgeek.com/shakira-tickets/elmont-new-york-ubs-arena-2026-07-23-7-30-pm/concert/18157381 |
+| tm-shakira-2026-madrid-z698xz2qz1k7eo4av | Shakira | 2026-09-18 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16vas39ay | Shakira | 2026-09-19 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16vrkvz38 | Shakira | 2026-09-20 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16v_oqxoe | Shakira | 2026-09-25 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16vowff-f | Shakira | 2026-09-26 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1konkpax | Shakira | 2026-09-27 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1kbi4uav | Shakira | 2026-10-02 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16v4mzjas | Shakira | 2026-10-03 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16v73axp9 | Shakira | 2026-10-04 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1koifuzg | Shakira | 2026-10-09 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1koecouy | Shakira | 2026-10-10 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz16vfpafo8 | Shakira | 2026-10-11 | Madrid | no_candidates_returned | - |
 
 ## Accepted venue mismatches
 
 - None
+
+## Accepted missing-timezone date adjustments
+
+| showId | stored date | SeatGeek date | URL |
+| --- | --- | --- | --- |
+| tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o | 2026-11-21 | 2026-11-20 | https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620 |
+| tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | 2026-12-21 | 2026-12-20 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723 |
+| tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i | 2026-09-28 | 2026-09-27 | https://seatgeek.com/bruno-mars-tickets/colorado-springs-colorado-falcon-stadium-2026-09-27-7-pm/concert/18013502 |
+| tm-ed-sheeran-2026-glendale-z7r9jz1a7jm | 2026-06-14 | 2026-06-13 | https://seatgeek.com/ed-sheeran-tickets/glendale-arizona-state-farm-stadium-2026-06-13-5-30-pm/concert/17724383 |
 
 ## Conflicts found
 

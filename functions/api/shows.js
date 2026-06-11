@@ -1,3 +1,5 @@
+import { VERIFIED_TICKET_LINKS } from "./out.js";
+
 const EVENTS_JSON_PATH = "/data/events.json";
 const ARTISTS_JSON_PATH = "/data/artists.json";
 const IN_FLIGHT_PROVIDER_REQUESTS = new Map();
@@ -15,21 +17,15 @@ const PLACEHOLDER_URL_MARKERS = [
   "tbd"
 ];
 const PLACEHOLDER_HOST_REGEX = /(^|\.)example\.com$|(^|\.)example$|(^|\.)localhost$|^127\.0\.0\.1$/i;
-const TICKETMASTER_ARTIST_AFFILIATE_LINKS = {
-  "harry-styles": "https://ticketmaster.evyy.net/vD4B5y",
-  bts: "https://ticketmaster.evyy.net/OY9gkr",
-  "ariana-grande": "https://ticketmaster.evyy.net/bkDx6b",
-  "bad-bunny": "https://ticketmaster.evyy.net/zzeEWW",
-  "morgan-wallen": "https://ticketmaster.evyy.net/morganwallenus",
-  "jay-z": "https://ticketmaster.evyy.net/5kM6W3",
-  beyonce: "https://ticketmaster.evyy.net/beyonce",
-  "olivia-rodrigo": "https://www.ticketmaster.com/artist/2836194",
-  "bruno-mars": "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801",
-  shakira: "https://www.ticketmaster.com/shakira-tickets/artist/779049",
-  raye: "https://www.ticketmaster.com/raye-tickets/artist/2065089",
-  "charli-xcx": "https://www.ticketmaster.com/charli-xcx-tickets/artist/1638380",
-  "tate-mcrae": "https://www.ticketmaster.com/tate-mcrae-tickets/artist/2720246"
-};
+// Derived from the verified affiliate registry in out.js — do not hand-edit.
+// Promoting an artist (VERIFIED_TICKET_LINKS entry) makes them appear here.
+const TICKETMASTER_ARTIST_AFFILIATE_LINKS = Object.fromEntries(
+  Object.values(VERIFIED_TICKET_LINKS)
+    .filter((link) => link?.provider === "ticketmaster" && link?.verified === true && link?.redirectUrl)
+    .map((link) => [link.artistSlug, link.redirectUrl])
+);
+
+export { TICKETMASTER_ARTIST_AFFILIATE_LINKS };
 
 function isValidDateISO(value) {
   if (typeof value !== "string") return false;

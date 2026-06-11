@@ -1,22 +1,37 @@
 const MAX_BODY_SIZE = 8 * 1024;
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX = 5;
-const ARTIST_SLUGS = new Set([
-  "beyonce",
-  "harry-styles",
-  "bts",
-  "ariana-grande",
-  "bad-bunny",
-  "morgan-wallen",
-  "jay-z",
-  "olivia-rodrigo",
-  "bruno-mars",
-  "ed-sheeran", // review_required: signup allowed; CTAs gated separately via artists.json
-  "shakira",
-  "raye", // review_required: signup allowed; CTAs gated separately via artists.json
-  "charli-xcx", // review_required: signup allowed; CTAs gated separately via artists.json
-  "tate-mcrae" // review_required: signup allowed; CTAs gated separately via artists.json
-]);
+const ARTISTS_JSON_PATH = "/data/artists.json";
+
+// Allowlist is derived from artists.json at runtime — every artist record
+// (including review_required ones) accepts watchlist signups; CTAs are gated
+// separately via indexing_status. Cached for the isolate lifetime; a failed
+// or empty load is never cached.
+let CACHED_ARTIST_SLUGS = null;
+
+async function loadArtistSlugs(env) {
+  if (CACHED_ARTIST_SLUGS) return CACHED_ARTIST_SLUGS;
+  const assets = env?.ASSETS;
+  if (!assets || typeof assets.fetch !== "function") return null;
+
+  try {
+    const req = new Request(`https://assets.local${ARTISTS_JSON_PATH}`, { method: "GET" });
+    const res = await assets.fetch(req);
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!Array.isArray(data)) return null;
+    const slugs = new Set(
+      data
+        .map((artist) => String(artist?.slug || "").trim().toLowerCase())
+        .filter(Boolean)
+    );
+    if (slugs.size === 0) return null;
+    CACHED_ARTIST_SLUGS = slugs;
+    return slugs;
+  } catch (error) {
+    return null;
+  }
+}
 
 function json(payload, status = 200) {
   return new Response(JSON.stringify(payload), {
@@ -118,7 +133,13 @@ export async function onRequestPost({ request, env }) {
   if (!isValidEmail(email)) return json({ ok: false, status: "invalid_email" }, 400);
 
   const artistSlug = clean(payload?.artistSlug, 80).toLowerCase();
-  if (artistSlug && !ARTIST_SLUGS.has(artistSlug)) return json({ ok: false, status: "invalid_artist" }, 400);
+  if (artistSlug) {
+    const artistSlugs = await loadArtistSlugs(env);
+    // Fail closed: if the allowlist cannot be loaded, reject artist-tagged
+    // signups rather than letting unknown slugs into artist_interests.
+    if (!artistSlugs) return json({ ok: false, status: "artist_validation_unavailable" }, 503);
+    if (!artistSlugs.has(artistSlug)) return json({ ok: false, status: "invalid_artist" }, 400);
+  }
 
   const now = new Date();
   const createdAt = now.toISOString();

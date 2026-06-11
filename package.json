@@ -62,7 +62,8 @@
     "events:check-fallback-freshness": "node scripts/check-fallback-freshness.mjs",
     "audit:production-routes": "node scripts/verify-production-route-html.mjs",
     "growth:plan": "node scripts/growth-pipeline.mjs",
-    "growth:plan:no-api": "node scripts/growth-pipeline.mjs --no-api"
+    "growth:plan:no-api": "node scripts/growth-pipeline.mjs --no-api",
+    "growth:open-pr": "node scripts/growth-open-pr.mjs"
   },
   "devDependencies": {
     "wrangler": "^4.90.0"

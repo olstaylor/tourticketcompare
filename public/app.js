@@ -1416,7 +1416,8 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
         const diff = Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO);
         return state.sort === "latest" ? -diff : diff;
       });
-    count.textContent = `Showing ${visible.length} of ${shows.length} verified dates`;
+    const datesLabel = cardOptions.reviewGated ? "listed dates" : "verified dates";
+    count.textContent = `Showing ${visible.length} of ${shows.length} ${datesLabel}`;
     if (!visible.length) {
       grid.replaceChildren(renderShowFilterEmptyState(resetFilters));
       return;

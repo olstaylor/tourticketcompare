@@ -65,6 +65,46 @@
 /* ---- monogram ---- */
 .ttc-mono { flex: none; display: grid; place-items: center; font-weight: 700; letter-spacing: -.02em; border-radius: 9px; }
 
+/* ============================================================ BETA NOTICE */
+.ttc-beta-notice {
+  position: relative;
+  z-index: 31;
+  padding: 8px 0;
+  color: color-mix(in oklab, var(--ttc-ink) 90%, #000);
+  background: linear-gradient(135deg, #fff7df, #f8ead8);
+  border-bottom: 1px solid color-mix(in oklab, var(--ttc-accent) 28%, var(--ttc-border));
+  font-family: var(--ttc-font-ui);
+}
+.ttc-beta-notice__in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 30px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.35;
+}
+.ttc-beta-notice strong {
+  flex: none;
+  padding: 3px 8px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--ttc-accent);
+  font-family: var(--ttc-font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.ttc-beta-notice a {
+  color: var(--ttc-accent-hover);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
 /* ============================================================ HEADER */
 .ttc-hd { position: sticky; top: 0; z-index: 30; font-family: var(--ttc-font-ui); color: var(--ttc-ink); background: color-mix(in oklab, var(--ttc-surface) 88%, transparent); backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--ttc-border); }
 .ttc-hd a, .ttc-ft a { text-decoration: none; }
@@ -251,6 +291,7 @@
 
 /* ============================================================ RESPONSIVE */
 @media (max-width: 920px) {
+  .ttc-beta-notice__in { align-items: flex-start; justify-content: flex-start; text-align: left; }
   .ttc-hero__grid { grid-template-columns: 1fr; gap: 26px; }
   .ttc-hero__h1 { font-size: 38px; }
   .ttc-hd__in { position: relative; flex-wrap: wrap; }
@@ -278,6 +319,8 @@
   .ttc-table td[data-k]::before { content: attr(data-k); font-family: var(--ttc-font-mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ttc-faint); display: inline-block; width: 96px; }
 }
 @media (max-width: 620px) {
+  .ttc-beta-notice { padding: 7px 0; }
+  .ttc-beta-notice__in { flex-direction: column; gap: 5px; font-size: 12.5px; }
   .ttc-stats__in { grid-template-columns: 1fr; }
   .ttc-stat { border-right: none; border-bottom: 1px solid var(--ttc-border); }
 }

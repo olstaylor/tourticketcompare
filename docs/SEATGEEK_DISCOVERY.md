@@ -93,12 +93,16 @@ Ticketmaster-verified and currently lack a valid `seatgeek_url`.
 
 ## Current coverage snapshot
 
-As of the last audit (2026-06-01), 93 of 272 events carry a verified
-`seatgeek_url`. Artists with full event coverage where SeatGeek had matches:
-`bts`, `harry-styles`. Partial: `ariana-grande`, `morgan-wallen`, `jay-z`.
-No matches stored yet for `bad-bunny`, `bruno-mars`, `olivia-rodrigo`. Closing
-the remaining gap requires a credentialed apply run; absence of a SeatGeek match
-for a given show is expected and acceptable (the Ticketmaster CTA still renders).
+As of the latest credentialed enrichment audit (2026-06-11), 180 of 329
+events carry a valid event-level `seatgeek_url`; 176 of 264 Ticketmaster-verified
+events carry one. Artists with full stored SeatGeek event coverage where matches
+exist: `bts`, `harry-styles`, `jay-z`. Partial stored coverage: `ariana-grande`,
+`bruno-mars`, `morgan-wallen`, `olivia-rodrigo`. No matches are stored yet for
+`bad-bunny`, `ed-sheeran`, or `shakira`. The latest apply run queried the 88
+Ticketmaster-verified events still missing a SeatGeek URL and the SeatGeek API
+returned no candidates for those event/date/city searches; absence of a SeatGeek
+match for a given show is expected and acceptable (the Ticketmaster CTA still
+renders).
 
 ## Non-goals
 

@@ -797,8 +797,11 @@ function buildResumeCommand(options, nextResumeShowId) {
   return args.join(" ");
 }
 
-function summarize(results, options, apiEnvironment, runState) {
+function summarize(results, options, apiEnvironment, runState, events) {
   const skipped = results.filter((result) => result.decision === "skipped");
+  const ticketmasterVerifiedEvents = events.filter(eventIsTicketmasterVerified);
+  const eventsWithValidSeatGeekUrl = events.filter((event) => isValidSeatGeekEventUrl(event.seatgeek_url).ok);
+  const ticketmasterVerifiedWithSeatGeekUrl = ticketmasterVerifiedEvents.filter((event) => isValidSeatGeekEventUrl(event.seatgeek_url).ok);
   const notCheckedReasons = new Set(["rate_limited_not_checked", "api_call_limit_not_checked"]);
   const checkedResults = results.filter((result) => !notCheckedReasons.has(result.skipped_reason));
   const skippedReasons = {};
@@ -807,6 +810,11 @@ function summarize(results, options, apiEnvironment, runState) {
   }
   return {
     mode: options.applyHighConfidence ? "apply-high-confidence" : "dry-run",
+    total_events: events.length,
+    ticketmaster_verified_events: ticketmasterVerifiedEvents.length,
+    events_with_valid_seatgeek_url: eventsWithValidSeatGeekUrl.length,
+    ticketmaster_verified_with_valid_seatgeek_url: ticketmasterVerifiedWithSeatGeekUrl.length,
+    ticketmaster_verified_missing_valid_seatgeek_url: ticketmasterVerifiedEvents.length - ticketmasterVerifiedWithSeatGeekUrl.length,
     selected: results.length,
     checked: checkedResults.length,
     high_confidence: results.filter((result) => result.decision === "high_confidence").length,
@@ -930,8 +938,13 @@ function renderLog(results, summary) {
     `- SeatGeek client ID present: ${summary.api_environment.seatgeek_client_id_present}`,
     `- SeatGeek client secret present: ${summary.api_environment.seatgeek_client_secret_present}`,
     `- API access with client ID only: ${summary.api_environment.client_id_only_http_status === 200 ? "HTTP 200" : `not confirmed (${summary.api_environment.client_id_only_http_status || "no status"})`}`,
-    `- Events selected/logged: ${summary.selected}`,
-    `- Events checked: ${summary.checked}`,
+    `- Total events in data: ${summary.total_events}`,
+    `- Ticketmaster-verified events: ${summary.ticketmaster_verified_events}`,
+    `- Events already carrying a valid SeatGeek URL: ${summary.events_with_valid_seatgeek_url}`,
+    `- Ticketmaster-verified events already carrying a valid SeatGeek URL: ${summary.ticketmaster_verified_with_valid_seatgeek_url}`,
+    `- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: ${summary.ticketmaster_verified_missing_valid_seatgeek_url}`,
+    `- Events selected/logged by this run: ${summary.selected}`,
+    `- Events checked by this run: ${summary.checked}`,
     `- API calls made: ${summary.api_calls_made}`,
     `- Rate-limit responses: ${summary.rate_limit_responses}`,
     `- URLs added: ${summary.added}`,
@@ -947,10 +960,19 @@ function renderLog(results, summary) {
     "## Skipped reasons",
     "",
     ...Object.entries(summary.skipped_reasons).map(([reason, count]) => `- ${reason}: ${count}`),
+    "",
+    "## Interpretation",
+    "",
+    `- \`URLs added: ${summary.added}\` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.`,
+    `- ${summary.events_with_valid_seatgeek_url} event(s) already carried valid SeatGeek URLs before this run, including ${summary.ticketmaster_verified_with_valid_seatgeek_url} Ticketmaster-verified event(s).`,
+    `- This run queried only the ${summary.ticketmaster_verified_missing_valid_seatgeek_url} Ticketmaster-verified event(s) that were still missing a valid \`seatgeek_url\`.`,
+    `- SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.`,
     ""
   ];
 
   lines.push("## URLs added", "");
+  lines.push("This section lists only URLs newly added by this run. Events that already had valid SeatGeek URLs were retained in event data and were not re-listed here.");
+  lines.push("");
   lines.push(added.length ? markdownTable(added, [
     { label: "showId", value: (row) => row.showId },
     { label: "artist", value: (row) => row.artist },
@@ -961,6 +983,8 @@ function renderLog(results, summary) {
   lines.push("");
 
   lines.push("## Events skipped", "");
+  lines.push("Skipped rows are only the Ticketmaster-verified events that were still missing a valid `seatgeek_url` when this run started.");
+  lines.push("");
   lines.push(skipped.length ? markdownTable(skipped, [
     { label: "showId", value: (row) => row.showId },
     { label: "artist", value: (row) => row.artist },
@@ -1130,7 +1154,7 @@ async function main() {
     await syncPartitionedEventFiles(events, additions);
   }
 
-  const summary = summarize(results, options, apiEnvironment, runState);
+  const summary = summarize(results, options, apiEnvironment, runState, events);
   await fs.writeFile(options.logPath, renderLog(results, summary));
 
   if (options.json) {

@@ -1,5 +1,7 @@
 # SEO Architecture Audit - TourTicketCompare.com
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 **Date:** May 11, 2026  
 **Status:** Audit complete, implementation planned
 

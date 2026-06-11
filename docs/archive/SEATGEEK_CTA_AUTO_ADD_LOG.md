@@ -1,5 +1,7 @@
 # SeatGeek CTA auto-add log
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 Generated: 2026-05-13T20:51:58.658Z
 
 ## Run summary

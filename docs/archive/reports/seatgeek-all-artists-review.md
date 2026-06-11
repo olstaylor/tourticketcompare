@@ -1,5 +1,7 @@
 # SeatGeek All-Artists Coverage Review
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 > **Superseded diagnostic note (2026-05-14):** A follow-up diagnostic found that this all-artist review's zero-candidate result was not reliable in this environment. Node `fetch` was not honoring the configured HTTP(S) proxy, so SeatGeek API transport failures were collapsed into no-candidate outcomes; the proposal script now configures proxy-aware fetch, paces SeatGeek requests, and retries HTTP 429 responses. Use `reports/seatgeek-proposal-diagnostics.md` and rerun the all-artist proposal workflow before making any apply decision.
 
 Proposal-only all-artist review generated from the existing SeatGeek URL proposal workflow. No event data, CTA rendering, `/api/out`, Ticketmaster behavior, provider URLs, or generic SeatGeek links were changed.

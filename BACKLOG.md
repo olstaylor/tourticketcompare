@@ -1,12 +1,16 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-06-10 (unparked new-artist onboarding and public Vivid Seats CTAs per owner direction; verification gates unchanged)
+Last updated: 2026-06-11 (documentation cleanup: factual drift corrections only — priorities unchanged and owner-managed. Data drift note: between 2026-06-03 and 2026-06-11 the repo gained 5 artists — shakira, raye, charli-xcx, tate-mcrae, summer-walker — plus an ed-sheeran promotion and 57 events; see `PROJECT_STATUS.md` for current counts. **Owner review requested** on the corrections marked "[2026-06-11 correction]" below.)
+
+Previous update: 2026-06-10 (unparked new-artist onboarding and public Vivid Seats CTAs per owner direction; verification gates unchanged)
 
 ## Active priorities (in order)
 
 ### 1. #172 sub-deliverable B — Populate verified `tour_name` — DONE (close issue after verifying on `main`)
 
-Sub-deliverable A landed in PR #186 (validator hard-errors on missing `tour_name` key, warns on blank for indexed artists). Sub-deliverable B is complete: Olivia Rodrigo (86, "The Unraveled Tour"), Bruno Mars (56, "The Romantic Tour"), and Shakira (30, "Las Mujeres Ya No Lloran" — owner confirmed the title from the Ticketmaster event page 2026-06-10) are all populated; the validator's blank-`tour_name` warning is clear. Remaining step: close issue #172 on GitHub.
+Sub-deliverable A landed in PR #186 (validator hard-errors on missing `tour_name` key, warns on blank for indexed artists). Sub-deliverable B is complete for its original scope: Olivia Rodrigo (86, "The Unraveled Tour"), Bruno Mars (56, "The Romantic Tour"), and Shakira (30, "Las Mujeres Ya No Lloran" — owner confirmed the title from the Ticketmaster event page 2026-06-10) are all populated. Remaining step: close issue #172 on GitHub.
+
+> [2026-06-11 correction] The blank-`tour_name` warning is **no longer clear**: the 27 ed-sheeran events added since (all `needs_recheck`, indexed artist) have blank `tour_name`. This is a new occurrence, not a regression of the work above — see `PROJECT_STATUS.md` → Active risks.
 
 ### 2. #174 Phase B — Data-refresh hardening (Phase A done)
 
@@ -37,9 +41,10 @@ The event-level SeatGeek discovery tooling is now operational and wired in:
 `seatgeek:self-test`, plus the `SeatGeek Discovery Proposal` dispatch workflow.
 Runbook: `docs/SEATGEEK_DISCOVERY.md`.
 
-Coverage gap as of 2026-06-01: 93/272 events carry a verified `seatgeek_url`; 179
-do not (`bad-bunny`, `bruno-mars`, `olivia-rodrigo` have none; `ariana-grande`,
-`jay-z`, `morgan-wallen` are partial). Closing it requires a **credentialed
+Coverage as of 2026-06-11 ([2026-06-11 correction] — previous snapshot said
+93/272): **226/329 events** carry a stored `seatgeek_url`; 103 do not
+(`bad-bunny` has none; `ariana-grande`, `morgan-wallen`, `olivia-rodrigo`,
+`bruno-mars`, `shakira` are partial). Closing the rest requires a **credentialed
 run**: provide `SEATGEEK_CLIENT_ID` (+ optional `SEATGEEK_CLIENT_SECRET`),
 dispatch the proposal workflow or run `npm run seatgeek:propose`, review the
 candidates, then run `npm run seatgeek:enrich:apply`, `npm run events:sync`, the

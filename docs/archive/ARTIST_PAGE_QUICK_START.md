@@ -1,5 +1,7 @@
 # Artist Page System: Quick Start Guide
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 ## What You're Building
 
 A scalable template system for high-trust artist pages that:

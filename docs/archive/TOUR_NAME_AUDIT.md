@@ -1,56 +1,43 @@
-# tour_name coverage audit
+# `tour_name` Audit (Issue #172)
 
-Source: `public/data/events.json` (272 events) cross-referenced against `public/data/artists.json` (9 artist records). Snapshot taken 2026-05-27. Tracks issue #172 sub-deliverable A.
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
 
-## How "indexed" is defined here
+_Audit date: 2026-06-03. Source: `python3 scripts/validate-events.py --for-production` against
+`public/data/events.json` (272 events)._
 
-An artist is treated as "indexed" for the purposes of the `tour_name` warning when their `indexing_status` is anything other than `review_required` or `hidden`. Missing `indexing_status` defaults to indexed. This is the visibility-on-the-site signal — distinct from PR #185's `verified_providers != []` signal, which is about whether an artist-level provider CTA is supportable. The two diverge for Olivia Rodrigo today: she is publicly indexed, but her `verified_providers` is `[]` pending a human-verified Ticketmaster artist URL.
+## Validator status (sub-deliverable A — DONE)
 
-## Per-artist coverage
+`scripts/validate-events.py` already enforces the `tour_name` contract (PR #186); **no further
+validator work is required**:
 
-| Artist slug      | indexing_status                      | Events | tour_name filled | tour_name blank | Missing key | Indexed for warning |
-|------------------|--------------------------------------|-------:|-----------------:|----------------:|------------:|---------------------|
-| ariana-grande    | indexable_with_substantial_content   |     38 |               38 |               0 |           0 | yes                 |
-| bad-bunny        | indexable_with_substantial_content   |     24 |               24 |               0 |           0 | yes                 |
-| beyonce          | indexable_with_substantial_content   |      — |                — |               — |           — | yes                 |
-| bts              | indexable_with_substantial_content   |     17 |               17 |               0 |           0 | yes                 |
-| bruno-mars       | review_required                      |     56 |                0 |              56 |           0 | no                  |
-| harry-styles     | indexable_with_substantial_content   |     30 |               30 |               0 |           0 | yes                 |
-| jay-z            | indexable_with_substantial_content   |      3 |                3 |               0 |           0 | yes                 |
-| morgan-wallen    | indexable_with_substantial_content   |     18 |               18 |               0 |           0 | yes                 |
-| olivia-rodrigo   | indexable_with_substantial_content   |     86 |                0 |              86 |           0 | yes                 |
+- **Hard error** when the `tour_name` key is missing from an event.
+- **Warning** when `tour_name` is blank (`""`) for an **indexed** artist.
+- **Hard fail** on blank `tour_name` for indexed artists only under `--strict-tour-name`.
 
-Beyoncé has no rows in `public/data/events.json` at the time of audit; she ships as an artist watchlist entry without verified event records. The validator's tour_name warning therefore has nothing to say about her — there are no events for it to evaluate.
+## Blank-`tour_name` findings (across all 10 records)
 
-Distinct tour names present (one per indexed artist with coverage): `The Eternal Sunshine Tour` (Ariana Grande); `DeBÍ TiRAR MáS FOToS World Tour` (Bad Bunny); `BTS WORLD TOUR 'ARIRANG'` (BTS); `Together, Together` (Harry Styles); `JAY-Z Yankee Stadium 2026` (Jay-Z); `Still the Problem Tour` (Morgan Wallen).
+The validator reports **142 events with blank `tour_name` across 2 indexed artists**:
 
-## Totals
+| Artist | Indexing status | Blank `tour_name` events | Notes |
+|--------|-----------------|--------------------------|-------|
+| olivia-rodrigo | indexable | **86** | The original #172 case. 8 of these also carry `verification_status: needs_recheck`. |
+| bruno-mars | indexable | **56** | **Not previously flagged in #172** — same blank-`tour_name` condition; surfaced by this audit. Four Mexico City events are separately excluded (host allowlist). |
+| (other 7 indexed artists) | indexable | 0 | `tour_name` populated. |
+| ed-sheeran | review_required (shell) | 0 events | No events; out of scope. |
 
-- 272 events.
-- 130 events (47.8%) have a non-empty `tour_name`.
-- 142 events (52.2%) have a blank `tour_name`.
-- 0 events are missing the `tour_name` key.
-- Of the blanks, 86 surface as warnings (Olivia Rodrigo) and 56 are silent (Bruno Mars is `review_required`).
+## Decision (per safe model — confirm with human before any data edit)
 
-## Artists needing manual verification
+- **Do NOT bulk-fill `tour_name` from URL slugs.** Slugs (e.g.
+  `olivia-rodrigo-the-unraveled-tour-…`) are evidence, not proof.
+- Populate a `tour_name` only after a human confirms the official tour title from the Ticketmaster
+  event page (or another trusted source). Otherwise leave it blank or set
+  `verification_status: "needs_recheck"`.
+- Scope expands beyond Olivia Rodrigo: **Bruno Mars (56 events) needs the same human verification
+  pass.** No frontend change is required — the render path already falls back gracefully and the
+  validator surfaces the gap.
 
-1. **Olivia Rodrigo (86 blank events)** — 8 of these already carry `verification_status: "needs_recheck"` from PR #177 because their Ticketmaster URLs were short-form and returned HTTP 403 in CI. The remaining 78 events use long-form Ticketmaster URLs whose slug contains `olivia-rodrigo-the-unraveled-tour-…`. Per #172, **the URL slug is evidence, not proof** — the tour title must be confirmed from the event page itself (or another trusted source) before any populate pass. No `tour_name` values are populated in this PR.
-2. **Bruno Mars (56 blank events)** — her record is `indexing_status: review_required`, so she is excluded from the validator warning by design. If she is ever moved to `indexable_with_substantial_content`, the warning will start firing for these 56 events and they will need to be populated from a verified source at that time.
+## Validation
 
-No other artists need attention; the six indexed artists with event coverage have 100% `tour_name` fill.
-
-## Validator behaviour added by this audit
-
-In `scripts/validate-events.py`:
-
-- **Hard error** when `tour_name` key is missing from an event, or when the value is present but not a string. (Applies on every run, not just `--for-production`.)
-- **Warning** under `--for-production` when `tour_name` is the empty string and the artist is indexed (`indexing_status not in {"review_required", "hidden"}`). Warnings are grouped by artist slug with a sample of event IDs so a single artist with many blanks does not flood output.
-- Warnings are written to stderr and do not change the exit code. They surface alongside any errors when validation fails.
-- Self-test gains one negative case (`tour_name key missing → required-key error`) and one positive case (`blank tour_name on indexed artist warns but passes`), bringing the suite to 12 negative + 2 positive cases.
-
-## What this audit deliberately does not do
-
-- Does not populate or infer any `tour_name` value on Olivia Rodrigo or any other artist.
-- Does not call Ticketmaster, SeatGeek, or any external provider.
-- Does not touch `public/data/artists.json`, `public/data/events.json`, `public/data/events/*.json`, provider URLs, `/api/out`, Impact logic, CTA generation, routing, or affiliate behaviour.
-- Does not address sub-deliverable B of #172 (the actual populate pass), which is blocked on human verification of each event page.
+```bash
+python3 scripts/validate-events.py --for-production   # warns on the 142 blank events; passes
+```

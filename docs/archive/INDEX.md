@@ -36,19 +36,20 @@ Snapshots from specific dates; do not assume accuracy without re-verification.
 
 - **LIVE_PRODUCTION_VERIFICATION.md** (2026-05-12) — Browser and API verification snapshot. Current status in `PROJECT_STATUS.md`.
 - **IMPACT_PUBLISHER_TAG_TEST.md** — Feature validation log; now live and confirmed in `PROJECT_STATUS.md`.
+- **REPO_BRIEFING.md** (generated 2026-06-08, archived 2026-06-11) — Read-only repo survey. Stale on artist/event counts and `tour_name` state; superseded by `PROJECT_STATUS.md`.
 
 ### Case Studies (Specific Issues — Now Closed)
 
 Detailed walkthroughs of single issues; useful for context but not general guidance.
 
 - **OLIVIA_RODRIGO_LINK_REVIEW.md** — URL verification workflow for Olivia Rodrigo (issue #171 closed in PR #190). Reference if similar case arises.
-- **TOUR_NAME_AUDIT.md** — One-off audit of tour name blanks (issue #172). Folded into BACKLOG.md Phase B.
+- **TOUR_NAME_AUDIT.md** (2026-06-03, archived 2026-06-11; replaced an earlier 2026-05-27 copy retained in git history) — One-off audit of tour name blanks (issue #172). The original blanks (olivia-rodrigo, bruno-mars) are populated; current `tour_name` state lives in `PROJECT_STATUS.md`.
 
 ### Implementation Logs (Historical Record)
 
 Record of past implementation work; not instructions for new work.
 
-- **SEATGEEK_CTA_AUTO_ADD_LOG.md** — Detailed log from SeatGeek integration experiment (parked; not current workflow)
+- **SEATGEEK_CTA_AUTO_ADD_LOG.md** (2026-05-13 run) — Early log from the SeatGeek enrichment tooling. The **live, regenerated log is `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md`** (written by `scripts/enrich-seatgeek-events.mjs`); this copy is a historical snapshot only.
 - **ISSUE_DRAFTS.md** — Copy/paste-ready GitHub issue templates (reference only)
 
 ### Historical Context (Early Product States)
@@ -73,7 +74,7 @@ Exploratory analysis; archived to avoid cluttering active docs.
 | "Why weren't we using provider abstraction?" | Scaffolding only; not implemented | PROVIDER_ABSTRACTION_*.md |
 | "How were artist pages built?" | Old system; see current workflow instead | ARTIST_PAGE_*.md |
 | "Was Olivia Rodrigo issue resolved?" | Yes (PR #190); see PROJECT_STATUS.md | OLIVIA_RODRIGO_LINK_REVIEW.md |
-| "Can we add SeatGeek CTAs now?" | Check BACKLOG.md first; still parked | SEATGEEK_CTA_AUTO_ADD_LOG.md |
+| "Can we add SeatGeek CTAs now?" | Event-level SeatGeek CTAs are **live in production** (artist-level remains parked) — see PROJECT_STATUS.md and `docs/SEATGEEK_DISCOVERY.md` | SEATGEEK_CTA_AUTO_ADD_LOG.md (historical) |
 
 ---
 

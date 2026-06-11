@@ -1,5 +1,7 @@
 # Artist Page Template System Specification
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 ## Overview
 
 This document defines a scalable, reusable template system for high-trust artist pages that avoid thin SEO spam and prepare for future provider integrations.

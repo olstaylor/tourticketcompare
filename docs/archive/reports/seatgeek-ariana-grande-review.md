@@ -1,5 +1,7 @@
 # SeatGeek Ariana Grande Candidate Review
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 Proposal-only review generated from the existing SeatGeek workflow. No event data, CTA rendering, `/api/out`, Ticketmaster behavior, provider URLs, or generic SeatGeek links were changed.
 
 ## Source command

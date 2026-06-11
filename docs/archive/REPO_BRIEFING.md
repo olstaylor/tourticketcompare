@@ -1,5 +1,7 @@
 # REPO_BRIEFING.md
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-06-11.)
+
 > Read-only survey of the TourTicketCompare repository. No source files were modified.
 > Generated 2026-06-08. Scope: data shape, routing/rendering, frontend, configuration,
 > content audit, and gaps/issues.

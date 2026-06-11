@@ -23,7 +23,7 @@ const DEFAULT_EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json"
 const DEFAULT_AUDIT_DIR = path.join(REPO_ROOT, ".audit");
 const TICKETMASTER_SYNC_SCRIPT = path.join(REPO_ROOT, "scripts", "sync-ticketmaster-events.py");
 const SEATGEEK_PROPOSAL_SCRIPT = path.join(REPO_ROOT, "scripts", "propose-seatgeek-urls.mjs");
-const VALID_SCOPES = new Set(["provider-identities", "ticketmaster-events", "seatgeek-events", "all"]);
+const VALID_SCOPES = new Set(["provider-identities", "ticketmaster-events", "seatgeek-events", "pricing", "artist-discovery", "all"]);
 
 const PUBLISHING_ACTION_TYPES = new Set([
   "no_op",
@@ -38,7 +38,7 @@ const PUBLISHING_ACTION_TYPES = new Set([
 
 
 function usage() {
-  return `Usage: node scripts/growth-pipeline.mjs [options]\n\nReport-only growth planning pipeline. Reads local artist data and the local provider identity registry, then writes JSON + Markdown reports under .audit/. It never mutates production data, scrapes, applies provider identities, creates events, publishes, changes CTAs, or displays prices.\n\nOptions:\n  --artist <slug>       Restrict report to one artist slug\n  --all                 Inspect all local artists/provider identities (default when --artist is omitted)\n  --scope <scope>       provider-identities, ticketmaster-events, seatgeek-events, or all (default: provider-identities)\n  --audit-dir <path>    Output directory (default: .audit)\n  --json <path>         Explicit timestamped JSON report path\n  --markdown <path>     Explicit timestamped Markdown report path\n  --no-api              Do not call external APIs; API-backed phases are skipped/report-only\n  --dry-run             Accepted for clarity; report-only is the only mode\n  -h, --help            Show this help\n\nEnvironment:\n  TTC_REPORT_TIMESTAMP  Optional ISO-ish timestamp override for deterministic report names\n`;
+  return `Usage: node scripts/growth-pipeline.mjs [options]\n\nReport-only growth planning pipeline. Reads local artist data and the local provider identity registry, then writes JSON + Markdown reports under .audit/. It never mutates production data, scrapes, applies provider identities, creates events, publishes, changes CTAs, or displays prices.\n\nOptions:\n  --artist <slug>       Restrict report to one artist slug\n  --all                 Inspect all local artists/provider identities (default when --artist is omitted)\n  --scope <scope>       provider-identities, ticketmaster-events, seatgeek-events, pricing, artist-discovery, or all (default: provider-identities)\n  --audit-dir <path>    Output directory (default: .audit)\n  --json <path>         Explicit timestamped JSON report path\n  --markdown <path>     Explicit timestamped Markdown report path\n  --no-api              Do not call external APIs; API-backed phases are skipped/report-only\n  --dry-run             Accepted for clarity; report-only is the only mode\n  -h, --help            Show this help\n\nEnvironment:\n  TTC_REPORT_TIMESTAMP  Optional ISO-ish timestamp override for deterministic report names\n`;
 }
 
 function clean(value, max = 512) {
@@ -601,6 +601,57 @@ async function buildSeatGeekEventReport({ options, inspectedArtists }) {
 }
 
 
+function buildPricingReport() {
+  return {
+    phase: "pricing",
+    report_only_stub: true,
+    invocation_status: "blocked_by_policy",
+    external_api_calls_allowed: false,
+    writes_production_data: false,
+    display_enabled: false,
+    notes: [
+      "Pricing scope is a report-only policy stub; no price APIs, provider feeds, inventory checks, display changes, or production writes are run.",
+      "Pricing display, price comparison claims, cheapest/best-deal language, savings claims, and availability/inventory claims remain blocked unless separate written provider permissions and policy gates are satisfied."
+    ],
+    blocked_reasons: [
+      "pricing_display_blocked_by_policy",
+      "no_provider_price_display_permission_checked_by_growth_pipeline",
+      "no_write_mode_for_pricing_scope"
+    ],
+    allowed_follow_up: "Separate policy-approved pricing work would require explicit scope, written provider display permission, and must not be bundled with provider identity, events, CTAs, affiliate routing, or /api/out changes."
+  };
+}
+
+function buildArtistDiscoveryReport({ inspectedArtists }) {
+  return {
+    phase: "artist-discovery",
+    report_only_stub: true,
+    invocation_status: "report_only",
+    external_api_calls_allowed: false,
+    writes_production_data: false,
+    creates_artist_shells: false,
+    inspected_count: inspectedArtists.length,
+    notes: [
+      "Artist discovery scope is a report-only stub; it does not call discovery APIs, scrape sources, create artist shells, add events, or change provider identities.",
+      "Any future artist shell must be explicitly requested, human-reviewed, review_required, and must not include CTAs, affiliate routing, events, provider identities, or pricing."
+    ],
+    candidate_summary: {
+      candidates_discovered: 0,
+      candidates_written: 0,
+      artist_shells_created: 0
+    },
+    artists: inspectedArtists.map((item) => ({
+      artist_slug: item.artist_slug,
+      artist_name: item.artist_name,
+      artist_exists_locally: item.artist_exists_locally,
+      phase_status: "report_only",
+      action: item.artist_exists_locally
+        ? "existing_local_artist_only_no_discovery_run"
+        : "missing_local_artist_reported_only_no_shell_created"
+    }))
+  };
+}
+
 function publishingAction({ action, scope, artistSlug = null, title, rationale, prerequisites = [], files = [] }) {
   if (!PUBLISHING_ACTION_TYPES.has(action)) throw new Error(`Unsupported publishing action: ${action}`);
   return {
@@ -626,7 +677,7 @@ function addPublishingAction(actions, action) {
   }
 }
 
-function buildPublishingPlan({ inspectedArtists, ticketmasterEvents, seatgeekEvents }) {
+function buildPublishingPlan({ inspectedArtists, ticketmasterEvents, seatgeekEvents, pricing, artistDiscovery }) {
   const actions = [];
 
   addPublishingAction(actions, publishingAction({
@@ -751,6 +802,20 @@ function buildPublishingPlan({ inspectedArtists, ticketmasterEvents, seatgeekEve
     ],
     files: []
   }));
+
+  if (artistDiscovery) {
+    addPublishingAction(actions, publishingAction({
+      action: "report_only",
+      scope: "artist-discovery",
+      title: "Artist discovery is report-only",
+      rationale: "The artist-discovery scope is a stub that does not discover, create, or publish artist shells.",
+      prerequisites: [
+        "Any future artist shell requires an explicit artist-shell-only request and human review.",
+        "No CTAs, affiliate routing, events, provider identities, or pricing may be bundled."
+      ],
+      files: []
+    }));
+  }
 
   if (!actions.length) {
     addPublishingAction(actions, publishingAction({
@@ -919,6 +984,47 @@ function renderMarkdown(report) {
   }
 
 
+  if (report.pricing) {
+    const pricing = report.pricing;
+    lines.push("## Pricing scope stub");
+    lines.push("");
+    lines.push("Report-only policy stub. No price APIs, feeds, inventory checks, display changes, or production writes were run.");
+    lines.push("");
+    lines.push(`- Phase status: ${pricing.invocation_status}`);
+    lines.push(`- Display enabled: ${pricing.display_enabled ? "yes" : "no"}`);
+    lines.push(`- Production data writes: ${pricing.writes_production_data ? "yes" : "no"}`);
+    for (const reason of pricing.blocked_reasons || []) lines.push(`- Blocked reason: ${markdownEscape(reason)}`);
+    for (const note of pricing.notes || []) lines.push(`- Note: ${markdownEscape(note)}`);
+    lines.push("");
+  }
+
+  if (report.artist_discovery) {
+    const discovery = report.artist_discovery;
+    lines.push("## Artist discovery scope stub");
+    lines.push("");
+    lines.push("Report-only stub. No discovery APIs, scraping, artist shell creation, events, provider identities, CTAs, affiliate routing, or pricing changes were run.");
+    lines.push("");
+    lines.push(`- Phase status: ${discovery.invocation_status}`);
+    lines.push(`- Candidates discovered: ${discovery.candidate_summary.candidates_discovered}`);
+    lines.push(`- Candidates written: ${discovery.candidate_summary.candidates_written}`);
+    lines.push(`- Artist shells created: ${discovery.candidate_summary.artist_shells_created}`);
+    for (const note of discovery.notes || []) lines.push(`- Note: ${markdownEscape(note)}`);
+    lines.push("");
+    lines.push("| Artist slug | Local artist | Phase status | Action |");
+    lines.push("|---|---|---|---|");
+    for (const artist of discovery.artists) {
+      const row = [
+        markdownEscape(artist.artist_slug),
+        artist.artist_exists_locally ? "yes" : "no",
+        markdownEscape(artist.phase_status),
+        markdownEscape(artist.action)
+      ];
+      lines.push(`| ${row.join(" | ")} |`);
+    }
+    lines.push("");
+  }
+
+
   if (report.publishing_plan) {
     const plan = report.publishing_plan;
     lines.push("## Publishing plan");
@@ -990,7 +1096,13 @@ async function main() {
   const seatgeekEvents = scopeIncludes(options, "seatgeek-events")
     ? await buildSeatGeekEventReport({ options, inspectedArtists })
     : null;
-  const publishingPlan = buildPublishingPlan({ inspectedArtists, ticketmasterEvents, seatgeekEvents });
+  const pricing = scopeIncludes(options, "pricing")
+    ? buildPricingReport()
+    : null;
+  const artistDiscovery = scopeIncludes(options, "artist-discovery")
+    ? buildArtistDiscoveryReport({ inspectedArtists })
+    : null;
+  const publishingPlan = buildPublishingPlan({ inspectedArtists, ticketmasterEvents, seatgeekEvents, pricing, artistDiscovery });
 
   const report = {
     generated_at: new Date().toISOString(),
@@ -1017,6 +1129,7 @@ async function main() {
       "Scraping, price display changes, publishing, and CTA changes are not part of this pipeline.",
       "Missing provider identities are blocked until human/browser verification or a later gated API-assisted phase.",
       "SeatGeek remains event-level-first; artist-level SeatGeek onboarding is not automatic.",
+      "Pricing and artist-discovery scopes are report-only stubs; they do not call APIs or add write modes.",
       "No PR is opened, no production data is changed, any future write must be explicit and scope-specific, and no combined mega-publish mode is allowed."
     ],
     provider_identity: {
@@ -1027,6 +1140,8 @@ async function main() {
     },
     ticketmaster_events: ticketmasterEvents,
     seatgeek_events: seatgeekEvents,
+    pricing,
+    artist_discovery: artistDiscovery,
     publishing_plan: publishingPlan
   };
 

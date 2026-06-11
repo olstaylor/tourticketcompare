@@ -2,6 +2,24 @@
 
 The growth pipeline is a report-only planning shell for reviewing artist growth readiness from repository-safe sources. It writes audit artifacts for humans to inspect and does not publish, apply, enrich, create, or route any production ticket data.
 
+
+## Supported `growth:plan` scopes
+
+`growth:plan` currently accepts these report-only scopes:
+
+- `provider-identities` (default) — local provider identity inspection only.
+- `ticketmaster-events` — dry-run summary delegated to the lower-level Ticketmaster sync script when API access is allowed.
+- `seatgeek-events` — event-level SeatGeek URL proposal summary only; apply mode is never run.
+- `pricing` — report-only policy stub. It does not call price APIs, read provider feeds, check inventory, display prices, or write production data.
+- `artist-discovery` — report-only stub. It does not call discovery APIs, scrape sources, create artist shells, add events, or change provider identities.
+- `all` — runs the implemented report-only phases and the two report-only stubs above.
+
+No `growth:plan` scope opens PRs or writes production data.
+
+## `growth:open-pr` limitation
+
+The `growth:open-pr` npm script name is historical/misleading. The command currently only supports `--scope provider-identity`, updates at most one provider identity registry entry after human-supplied evidence, runs validation checks, and prints manual follow-up instructions. It does **not** create a branch, commit, push, or open a GitHub PR. It is not a general write-to-PR mechanism for events, pricing, artist discovery, SeatGeek URLs, CTAs, affiliate routing, or `/api/out`.
+
 ## Outputs
 
 Running the pipeline writes all of the following under `.audit/`:
@@ -90,6 +108,16 @@ The SeatGeek event section summarizes, when available:
 If the lower-level SeatGeek proposal script is missing, unavailable, lacks credentials, or does not support the requested mode, the phase is reported as `not_configured` or `blocked` instead of failing the entire growth plan. SeatGeek remains event-level-only; artist-level SeatGeek onboarding is outside `growth:plan`.
 
 
+
+## Pricing scope stub
+
+The `pricing` scope is a report-only policy stub. It exists so advertised scopes match CLI behavior, but it does not run provider price APIs, consume provider feeds, check inventory or availability, display prices, create cheapest/best-deal claims, or write production data. The generated report records pricing as blocked by policy unless separate written provider display permission and all safe publishing gates are satisfied in a future explicitly scoped request.
+
+
+## Artist discovery scope stub
+
+The `artist-discovery` scope is a report-only stub. It does not call external discovery APIs, scrape sources, create artist shells, add events, change provider identities, change CTAs, change affiliate routing, or add pricing. It only records that no candidates were discovered or written. Any future artist shell work must be explicitly requested as a narrow, human-reviewed, review-required shell with no CTAs, affiliate routing, events, provider identities, or pricing bundled in.
+
 ## Publishing plan and future write-to-PR gates
 
 Every growth report includes a `Publishing plan` section in both Markdown and JSON. The section translates the report findings into normalized, safe follow-up classifications only; it does not perform the actions. The plan must always state that no PR was opened, no production data was changed, auto-publishing is disabled, any future write must be explicit and scope-specific, and combined mega-publish mode is forbidden.
@@ -122,7 +150,9 @@ npm run growth:plan:no-api -- --artist beyonce --scope ticketmaster-events
 npm run growth:plan:no-api -- --artist beyonce --scope seatgeek-events
 npm run growth:plan -- --artist beyonce --scope seatgeek-events
 npm run growth:plan -- --all --scope ticketmaster-events
+npm run growth:plan:no-api -- --scope pricing
+npm run growth:plan:no-api -- --scope artist-discovery
 npm run growth:plan -- --scope all
 ```
 
-The `--no-api` flag is accepted for clarity and safety. API-backed phases are skipped/report-only under `--no-api`; missing IDs are reported instead of discovered.
+The `--no-api` flag is accepted for clarity and safety. API-backed phases are skipped/report-only under `--no-api`; missing IDs are reported instead of discovered. The `pricing` and `artist-discovery` scopes are stubs, so they remain report-only regardless of `--no-api`.

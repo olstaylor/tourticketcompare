@@ -153,7 +153,7 @@
       "ticketmaster_attraction_id": "K8vZ9179b17",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/summer-walker-tickets/artist/2537562",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Ticketmaster artist page opened in a browser by owner and confirmed 2026-06-11; attraction ID from the Ticketmaster Discovery attraction record matching the same artist URL (15 upcoming events at lookup time)."

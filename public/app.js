@@ -459,7 +459,7 @@ function artistPageHeading(artist) {
 }
 
 function artistPageIntro(artist) {
-  return `Find checked ticket links for ${artist.name} when available, plus practical guidance before you leave for a provider site.`;
+  return `Checked ticket links for ${artist.name} dates, plus what to confirm about fees, seats, and resale before you buy.`;
 }
 
 function formatVerificationDate(value) {
@@ -480,11 +480,13 @@ function buildVerificationDisclosurePanel(artist, shows = []) {
   text(panel, "h2", "Verification and disclosure");
   const summary = document.createElement("ul");
   summary.className = "check-list";
+  // Single consolidated trust block. Keep in sync with
+  // renderVerificationDisclosure in functions/[[path]].js.
   [
     "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
-    "Ticket links are organised from available provider and official event sources after destination checks.",
-    "We do not display ticket prices on this page and we do not guarantee ticket availability.",
-    "Before purchase, confirm final prices, fees, availability, delivery timing, refund rules, and checkout terms with the provider."
+    "We only show ticket destinations that pass our verification checks.",
+    "We do not display ticket prices or guarantee availability. Final prices, fees, and availability are confirmed by the provider before you pay.",
+    "Some links may earn us a commission. That never changes which links we show."
   ].forEach((item) => {
     const li = document.createElement("li");
     li.textContent = item;
@@ -844,10 +846,11 @@ function renderWhatYouCanDo() {
   text(header, "h2", "What you can do here").id = "whatYouCanDoTitle";
   const grid = document.createElement("div");
   grid.className = "card-grid";
+  // Keep in sync with the homepage template in functions/[[path]].js.
   [
-    ["Browse verified event links", "Find major artists and see event-specific ticket links where available.", "/artists", "Browse artists"],
-    ["Compare checkout totals safely", "Learn how to compare final prices and fees across providers before you buy.", "/guides/how-to-compare-concert-ticket-prices", "Read guide"],
-    ["Spot risks before you pay", "Know what red flags to check before committing to a ticket purchase.", "/guides/how-to-avoid-ticket-scams", "Read guide"]
+    ["Find your show", "Browse an artist's checked dates and filter by city, country, or venue to reach the right event page fast.", "/artists", "Browse artists"],
+    ["Understand fees and totals", "Service and delivery fees change the final total. Learn how to check what you will actually pay before checkout.", "/guides/how-to-compare-concert-ticket-prices", "Read the guide"],
+    ["Avoid risky listings", "Spot resale red flags, fake urgency, and scam patterns before you hand over payment details.", "/guides/how-to-avoid-ticket-scams", "Read the guide"]
   ].forEach(([title, body, href, ctaLabel]) => {
     const card = document.createElement("article");
     card.className = "info-card";
@@ -869,9 +872,10 @@ function renderTrustSection() {
   text(header, "h2", "Trust & transparency").id = "trustTitle";
   const panel = document.createElement("div");
   panel.className = "nested-panel";
-  text(panel, "p", "TourTicketCompare is independent and unofficial.");
-  text(panel, "p", "Some links are affiliate links. This doesn’t change your price.");
-  text(panel, "p", "Final prices, fees, and availability are set by the ticket provider.");
+  text(panel, "p", "TourTicketCompare is independent and unofficial. We do not sell tickets.");
+  text(panel, "p", "We only show ticket destinations that pass our verification checks.");
+  text(panel, "p", "Some links may earn us a commission. That never changes which links we show, or the price you pay.");
+  text(panel, "p", "Final prices, fees, and availability are confirmed by the provider.");
   const links = document.createElement("p");
   links.append(
     document.createTextNode("Learn more: "),
@@ -895,8 +899,14 @@ async function renderHome() {
   text(
     copy,
     "p",
-    "Browse artist pages, verified event links when available, and straightforward buying guidance. Always confirm final price, fees, and availability at checkout.",
+    "Verified ticket links and buying guidance for major tours. Open the checked provider page for your date and confirm final prices, fees, and availability with the provider.",
     "hero-subcopy"
+  );
+  text(
+    copy,
+    "p",
+    "Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.",
+    "disclosure-note"
   );
 
   const { section: resultsSection, resultsContainer } = renderSearchResultsPanel();
@@ -923,7 +933,7 @@ async function renderHome() {
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Featured artists").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Browse artist pages and verified event links where available.");
+  text(artistHeader, "p", "Every artist page lists checked upcoming dates, with links to the exact event page where one is verified.");
   const homeEvents = await loadEventsForSearch();
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
@@ -955,6 +965,35 @@ function renderArtistStatusLegend() {
   return legend;
 }
 
+function formatCardDate(iso) {
+  if (!iso) return null;
+  const parsed = new Date(iso);
+  if (!Number.isFinite(parsed.getTime())) return null;
+  try {
+    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+  } catch (error) {
+    return null;
+  }
+}
+
+// Keep in sync with upcomingVerifiedShowSummary in functions/[[path]].js.
+function upcomingVerifiedShowSummary(events, artistSlug) {
+  const now = Date.now();
+  const slug = slugify(artistSlug);
+  const upcoming = (events || [])
+    .filter((event) => {
+      if (!event || slugify(event.artist_slug) !== slug) return false;
+      const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
+      if (!Number.isFinite(ts) || ts < now) return false;
+      return /^https:\/\//i.test(String(event.ticketmaster_url || "").trim());
+    })
+    .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso) - Date.parse(b.dateTimeISO || b.datetime_iso));
+  if (!upcoming.length) return null;
+  const next = formatCardDate(upcoming[0].dateTimeISO || upcoming[0].datetime_iso);
+  if (!next) return null;
+  return `Next verified date: ${next} · ${upcoming.length} upcoming ${upcoming.length === 1 ? "date" : "dates"}`;
+}
+
 function renderArtistCard(artist, events = []) {
   const article = document.createElement("article");
   const status = artistCardStatus(artist, events);
@@ -968,7 +1007,8 @@ function renderArtistCard(artist, events = []) {
   text(statusRow, "p", status.badge, status.badgeClass);
   text(statusRow, "p", status.detail, "status-chip-detail");
   article.append(statusRow);
-  text(article, "p", status.cardStatus, "card-status");
+  const showSummary = status.pending ? null : upcomingVerifiedShowSummary(events, artist.slug);
+  text(article, "p", showSummary || status.cardStatus, "card-status");
   article.append(buttonLink(status.ctaLabel, `/artists/${artist.slug}`, status.ctaVariant));
   return article;
 }
@@ -982,7 +1022,7 @@ function renderInfoCard(title, body, footer) {
   return article;
 }
 
-function renderShowBoardShell(id, title, body) {
+function renderShowBoardShell(id, title, body, note) {
   const section = document.createElement("section");
   section.className = "section-grid show-board";
   section.setAttribute("aria-labelledby", id);
@@ -990,6 +1030,7 @@ function renderShowBoardShell(id, title, body) {
   header.className = "section-intro";
   text(header, "h2", title).id = id;
   text(header, "p", body);
+  if (note) text(header, "p", note, "disclosure-note");
   const grid = document.createElement("div");
   grid.className = "card-grid show-card-grid";
   grid.dataset.showGrid = "true";
@@ -1085,6 +1126,9 @@ function renderShowCard(show, options = {}) {
       if (eventVerifiedDate) {
         text(article, "p", `Event last checked: ${eventVerifiedDate}.`, "disclosure-note");
       }
+      // The generic provider disclosure lives once in the show-board intro
+      // instead of repeating on every card. The SeatGeek note stays per-card
+      // (smoke-asserted resale caution).
       if (seatGeekOutAvailable(show, options)) {
         const seatGeekParams = new URLSearchParams({ showId, provider: "seatgeek" });
         const seatGeekCta = buttonLink("Check SeatGeek", `/api/out?${seatGeekParams.toString()}`, "secondary");
@@ -1102,12 +1146,6 @@ function renderShowCard(show, options = {}) {
         );
       } else {
         article.append(cta);
-        text(
-          article,
-          "p",
-          "External ticketing sites set prices, fees, availability, and checkout terms.",
-          "disclosure-note"
-        );
       }
     } else {
       text(article, "p", "No verified ticket link is available for this date.", "disclosure-note");
@@ -1429,10 +1467,12 @@ function renderArtist(artist) {
     text(reviewNotice, "p", "This artist page is currently under review. Event details are shown for reference while ticket links are checked.", "disclosure-note");
     section.append(reviewNotice);
   }
+  // Keep this intro in sync with renderShowBoardServerHtml in functions/[[path]].js.
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
     "Verified event links",
-    "Each card shows one checked event date and only links to the ticket URL for that exact event when one is available. Coverage varies by artist and region; final prices, fees, availability, delivery, and checkout terms are confirmed on the provider site."
+    "Each card is one checked event date and links to the ticket page for that exact show when one is available.",
+    "Coverage varies by artist and region. Final prices, fees, availability, and checkout terms are confirmed on the provider site."
   );
   section.append(showBoard);
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
@@ -1452,7 +1492,6 @@ function renderArtist(artist) {
   const right = document.createElement("div");
   text(right, "h2", "Ticket link status");
   text(right, "p", artist.ticket_buying_notes);
-  text(right, "p", "We do not sell tickets directly. We send users to external ticketing platforms only when the link is verified.", "disclosure-note");
   summary.append(left, right);
 
   let demand = null;
@@ -1479,15 +1518,6 @@ function renderArtist(artist) {
     )
   );
 
-  const pageNote = document.createElement("section");
-  pageNote.className = "nested-panel";
-  text(pageNote, "h2", "About this page");
-  text(
-    pageNote,
-    "p",
-    "All event details on this page come from verified sources. Final prices, fees, availability, and delivery terms are set by the ticket provider and should be confirmed on their site before purchase."
-  );
-
   const guideLinks = document.createElement("section");
   guideLinks.className = "nested-panel";
   text(guideLinks, "h2", "Useful links");
@@ -1503,7 +1533,7 @@ function renderArtist(artist) {
   );
   guideLinks.append(guideGrid);
 
-  section.append(verificationPanel, summary, ...(demand ? [demand] : []), checklist, pageNote, guideLinks, renderArtistFaq(artist));
+  section.append(verificationPanel, summary, ...(demand ? [demand] : []), checklist, guideLinks, renderArtistFaq(artist));
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.

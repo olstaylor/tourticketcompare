@@ -77,7 +77,7 @@
 .ttc-nav a { font-size: 14px; font-weight: 600; color: var(--ttc-muted); padding: 7px 11px; border-radius: 8px; transition: .12s; }
 .ttc-nav a:hover { background: color-mix(in oklab, var(--ttc-ink) 6%, transparent); color: var(--ttc-ink); }
 .ttc-hd__right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
-.ttc-hd__search { width: 230px; }
+.ttc-hd__search { width: 280px; }
 .ttc-btn { display: inline-flex; align-items: center; gap: 7px; font-weight: 700; font-size: 14px; border-radius: 9px; padding: 8px 14px; transition: .14s; white-space: nowrap; }
 .ttc-btn--ghost { color: var(--ttc-ink); border: 1px solid var(--ttc-border-strong); background: var(--ttc-surface); }
 .ttc-btn--ghost:hover { border-color: var(--ttc-muted); }
@@ -254,7 +254,7 @@
   .ttc-hero__grid { grid-template-columns: 1fr; gap: 26px; }
   .ttc-hero__h1 { font-size: 38px; }
   .ttc-hd__in { position: relative; flex-wrap: wrap; }
-  .ttc-nav, .ttc-hd__search, .ttc-hd__right .ttc-btn--ghost { display: none; }
+  .ttc-nav, .ttc-hd__search { display: none; }
   .ttc-hamb { display: inline-flex; margin-left: auto; }
   /* mobile dropdown: app.js toggles [data-open] on the nav */
   .ttc-nav[data-open] { display: flex; flex-direction: column; align-items: stretch; gap: 2px; position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 8px 16px 14px; background: var(--ttc-surface); border-bottom: 1px solid var(--ttc-border); box-shadow: var(--ttc-shadow); z-index: 40; }

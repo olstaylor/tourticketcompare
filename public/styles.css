@@ -312,8 +312,8 @@ h3 {
 .section-intro h2,
 .provider-panel h2,
 .nested-panel h2 {
-  font-size: clamp(2rem, 4vw, 4rem);
-  line-height: 0.96;
+  font-size: clamp(1.7rem, 2.8vw, 2.4rem);
+  line-height: 1.08;
 }
 
 .section-grid,
@@ -369,7 +369,7 @@ h3 {
 .nested-panel,
 .provider-panel {
   display: grid;
-  gap: 18px;
+  gap: 14px;
   padding: 28px;
 }
 
@@ -399,8 +399,8 @@ h3 {
 .info-card h3,
 .artist-card h3,
 .provider-card h3 {
-  font-size: clamp(1.75rem, 3.2vw, 2.7rem);
-  line-height: 0.96;
+  font-size: clamp(1.3rem, 2.1vw, 1.65rem);
+  line-height: 1.18;
   font-weight: inherit;
 }
 
@@ -625,7 +625,8 @@ h3 {
 .disclosure-note {
   margin: 0;
   color: var(--muted);
-  font-size: 0.96rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
 }
 
 .guide-body {

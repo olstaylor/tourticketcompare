@@ -15166,20 +15166,20 @@
     "datetime_iso": "2026-06-14T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7j-_M",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_M",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_M",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7j-_M",
         "discovery_event_id": "Z7r9jZ1A7j-_M",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_M",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15204,7 +15204,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_M",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-nashville-z7r9jz1a7js",
@@ -15217,20 +15218,20 @@
     "datetime_iso": "2026-06-20T22:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7j-_S",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_S",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_S",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7j-_S",
         "discovery_event_id": "Z7r9jZ1A7j-_S",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_S",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15255,7 +15256,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_S",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-milwaukee-0700632fb5d7362c",
@@ -15268,20 +15270,20 @@
     "datetime_iso": "2026-06-26T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0700632FB5D7362C",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-milwaukee-wisconsin-06-25-2026/event/0700632FB5D7362C",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-milwaukee-wisconsin-06-25-2026/event/0700632FB5D7362C",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0700632FB5D7362C",
         "discovery_event_id": "vv17jZbwGkXggSbi",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-milwaukee-wisconsin-06-25-2026/event/0700632FB5D7362C",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15307,7 +15309,8 @@
     },
     "ticketmaster_discovery_event_id": "vv17jZbwGkXggSbi",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-chicago-04006331fcb85a8a",
@@ -15320,20 +15323,20 @@
     "datetime_iso": "2026-06-27T22:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "04006331FCB85A8A",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-chicago-illinois-06-27-2026/event/04006331FCB85A8A",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-chicago-illinois-06-27-2026/event/04006331FCB85A8A",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "04006331FCB85A8A",
         "discovery_event_id": "vv1A7ZkGsGkdHmAn1",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-chicago-illinois-06-27-2026/event/04006331FCB85A8A",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15359,7 +15362,8 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkGsGkdHmAn1",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-denver-1e006330c3b936ad",
@@ -15372,20 +15376,20 @@
     "datetime_iso": "2026-07-04T23:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1E006330C3B936AD",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-denver-colorado-07-04-2026/event/1E006330C3B936AD",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-denver-colorado-07-04-2026/event/1E006330C3B936AD",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "1E006330C3B936AD",
         "discovery_event_id": "G5vzZbSddmKQc",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-denver-colorado-07-04-2026/event/1E006330C3B936AD",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15411,7 +15415,8 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZbSddmKQc",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-las-vegas-1700632f29ecabed",
@@ -15424,20 +15429,20 @@
     "datetime_iso": "2026-07-19T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1700632F29ECABED",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-las-vegas-nevada-07-18-2026/event/1700632F29ECABED",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-las-vegas-nevada-07-18-2026/event/1700632F29ECABED",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "1700632F29ECABED",
         "discovery_event_id": "1AvjZbwGkHtD1Rc",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-las-vegas-nevada-07-18-2026/event/1700632F29ECABED",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15463,7 +15468,8 @@
     },
     "ticketmaster_discovery_event_id": "1AvjZbwGkHtD1Rc",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-san-diego-0a006331da303659",
@@ -15476,20 +15482,20 @@
     "datetime_iso": "2026-07-22T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0A006331DA303659",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-san-diego-california-07-21-2026/event/0A006331DA303659",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-san-diego-california-07-21-2026/event/0A006331DA303659",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A006331DA303659",
         "discovery_event_id": "vvG1IZbS6QGd__",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-san-diego-california-07-21-2026/event/0A006331DA303659",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15515,7 +15521,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZbS6QGd__",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-santa-clara-1c006331c1a54d19",
@@ -15528,20 +15535,20 @@
     "datetime_iso": "2026-07-26T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1C006331C1A54D19",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-santa-clara-california-07-25-2026/event/1C006331C1A54D19",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-santa-clara-california-07-25-2026/event/1C006331C1A54D19",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C006331C1A54D19",
         "discovery_event_id": "G5vYZbS6vtfV_",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-santa-clara-california-07-25-2026/event/1C006331C1A54D19",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15567,7 +15574,8 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZbS6vtfV_",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-seattle-0f00632ea04f19df",
@@ -15580,20 +15588,20 @@
     "datetime_iso": "2026-08-02T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0F00632EA04F19DF",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-seattle-washington-08-01-2026/event/0F00632EA04F19DF",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-seattle-washington-08-01-2026/event/0F00632EA04F19DF",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0F00632EA04F19DF",
         "discovery_event_id": "vvG1HZbwBOKsEL",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-seattle-washington-08-01-2026/event/0F00632EA04F19DF",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15619,7 +15627,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZbwBOKsEL",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-inglewood-0a006331dc273765",
@@ -15632,20 +15641,20 @@
     "datetime_iso": "2026-08-09T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0A006331DC273765",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-inglewood-california-08-08-2026/event/0A006331DC273765",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-inglewood-california-08-08-2026/event/0A006331DC273765",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A006331DC273765",
         "discovery_event_id": "vvG1IZbS6jaSqP",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-inglewood-california-08-08-2026/event/0A006331DC273765",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15671,7 +15680,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZbS6jaSqP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-minneapolis-0600632e29196b3e",
@@ -15684,20 +15694,20 @@
     "datetime_iso": "2026-08-15T22:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0600632E29196B3E",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-minneapolis-minnesota-08-15-2026/event/0600632E29196B3E",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-minneapolis-minnesota-08-15-2026/event/0600632E29196B3E",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0600632E29196B3E",
         "discovery_event_id": "vv17bZbwGkztkpiX",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-minneapolis-minnesota-08-15-2026/event/0600632E29196B3E",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15723,7 +15733,8 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZbwGkztkpiX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-toronto-1000632fe9bb4345",
@@ -15736,20 +15747,20 @@
     "datetime_iso": "2026-08-20T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1000632FE9BB4345",
-    "ticketmaster_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-20-2026/event/1000632FE9BB4345",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-20-2026/event/1000632FE9BB4345",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000632FE9BB4345",
         "discovery_event_id": "1AvZZbwGkTtmVuA",
-        "url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-20-2026/event/1000632FE9BB4345",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15775,7 +15786,8 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZbwGkTtmVuA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-toronto-1000632fe9c34349",
@@ -15788,20 +15800,20 @@
     "datetime_iso": "2026-08-21T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1000632FE9C34349",
-    "ticketmaster_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-21-2026/event/1000632FE9C34349",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-21-2026/event/1000632FE9C34349",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000632FE9C34349",
         "discovery_event_id": "1AvZZbwGkTtYVua",
-        "url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-21-2026/event/1000632FE9C34349",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15827,7 +15839,8 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZbwGkTtYVua",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-toronto-1000632fe9ca4361",
@@ -15840,20 +15853,20 @@
     "datetime_iso": "2026-08-22T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1000632FE9CA4361",
-    "ticketmaster_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-22-2026/event/1000632FE9CA4361",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-22-2026/event/1000632FE9CA4361",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000632FE9CA4361",
         "discovery_event_id": "1AvZZbwGkTtw0u-",
-        "url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-22-2026/event/1000632FE9CA4361",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15879,7 +15892,8 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZbwGkTtw0u-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-detroit-0800632ca3272367",
@@ -15892,20 +15906,20 @@
     "datetime_iso": "2026-08-29T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0800632CA3272367",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-detroit-michigan-08-29-2026/event/0800632CA3272367",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-detroit-michigan-08-29-2026/event/0800632CA3272367",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0800632CA3272367",
         "discovery_event_id": "vv17OZbwGkwNawuE",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-detroit-michigan-08-29-2026/event/0800632CA3272367",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15931,7 +15945,8 @@
     },
     "ticketmaster_discovery_event_id": "vv17OZbwGkwNawuE",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-east-rutherford-00006331cc3a2a14",
@@ -15944,20 +15959,20 @@
     "datetime_iso": "2026-09-04T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "00006331CC3A2A14",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-east-rutherford-new-jersey-09-04-2026/event/00006331CC3A2A14",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-east-rutherford-new-jersey-09-04-2026/event/00006331CC3A2A14",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "00006331CC3A2A14",
         "discovery_event_id": "k7vGFbS6GCxIf",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-east-rutherford-new-jersey-09-04-2026/event/00006331CC3A2A14",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -15983,7 +15998,8 @@
     },
     "ticketmaster_discovery_event_id": "k7vGFbS6GCxIf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-east-rutherford-00006331cecb2b77",
@@ -15996,20 +16012,20 @@
     "datetime_iso": "2026-09-05T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "00006331CECB2B77",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-east-rutherford-new-jersey-09-05-2026/event/00006331CECB2B77",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-east-rutherford-new-jersey-09-05-2026/event/00006331CECB2B77",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "00006331CECB2B77",
         "discovery_event_id": "k7vGFbS6CwwcM",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-east-rutherford-new-jersey-09-05-2026/event/00006331CECB2B77",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16035,7 +16051,8 @@
     },
     "ticketmaster_discovery_event_id": "k7vGFbS6CwwcM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-philadelphia-02006331ed9c6125",
@@ -16048,20 +16065,20 @@
     "datetime_iso": "2026-09-19T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "02006331ED9C6125",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-philadelphia-pennsylvania-09-19-2026/event/02006331ED9C6125",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-philadelphia-pennsylvania-09-19-2026/event/02006331ED9C6125",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "02006331ED9C6125",
         "discovery_event_id": "vv1AeZkGsGkdcEk7P",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-philadelphia-pennsylvania-09-19-2026/event/02006331ED9C6125",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16087,7 +16104,8 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZkGsGkdcEk7P",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-foxborough-0100632fcae52e03",
@@ -16100,20 +16118,20 @@
     "datetime_iso": "2026-09-25T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0100632FCAE52E03",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-25-2026/event/0100632FCAE52E03",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-25-2026/event/0100632FCAE52E03",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100632FCAE52E03",
         "discovery_event_id": "vv177ZbwGkT1y3zd",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-25-2026/event/0100632FCAE52E03",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16139,7 +16157,8 @@
     },
     "ticketmaster_discovery_event_id": "vv177ZbwGkT1y3zd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-foxborough-01006331f67e74d9",
@@ -16152,20 +16171,20 @@
     "datetime_iso": "2026-09-26T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "01006331F67E74D9",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-26-2026/event/01006331F67E74D9",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-26-2026/event/01006331F67E74D9",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "01006331F67E74D9",
         "discovery_event_id": "vv1AvZkGsGkdULEK_",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-26-2026/event/01006331F67E74D9",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16191,7 +16210,8 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZkGsGkdULEK_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-atlanta-0e00632fc0572cc1",
@@ -16204,20 +16224,20 @@
     "datetime_iso": "2026-10-03T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0E00632FC0572CC1",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-atlanta-georgia-10-03-2026/event/0E00632FC0572CC1",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-atlanta-georgia-10-03-2026/event/0E00632FC0572CC1",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0E00632FC0572CC1",
         "discovery_event_id": "vvG1zZbwTZ4wSv",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-atlanta-georgia-10-03-2026/event/0E00632FC0572CC1",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16243,7 +16263,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZbwTZ4wSv",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-indianapolis-050063299afd15f3",
@@ -16256,20 +16277,20 @@
     "datetime_iso": "2026-10-10T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "050063299AFD15F3",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-indianapolis-indiana-10-10-2026/event/050063299AFD15F3",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-indianapolis-indiana-10-10-2026/event/050063299AFD15F3",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "050063299AFD15F3",
         "discovery_event_id": "vv1kv8vN1_GA1To9S",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-indianapolis-indiana-10-10-2026/event/050063299AFD15F3",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16295,7 +16316,8 @@
     },
     "ticketmaster_discovery_event_id": "vv1kv8vN1_GA1To9S",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-charlotte-2d006331aac349eb",
@@ -16308,20 +16330,20 @@
     "datetime_iso": "2026-10-17T21:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "2D006331AAC349EB",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "2D006331AAC349EB",
         "discovery_event_id": "G5eVZbSknYVEl",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16347,7 +16369,8 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZbSknYVEl",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-arlington-z7r9jz1a7jw",
@@ -16360,20 +16383,20 @@
     "datetime_iso": "2026-10-24T22:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7j-_w",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_w",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_w",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7j-_w",
         "discovery_event_id": "Z7r9jZ1A7j-_w",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_w",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16398,7 +16421,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_w",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331a7d91aff",
@@ -16411,20 +16435,20 @@
     "datetime_iso": "2026-10-30T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0D006331A7D91AFF",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-29-2026/event/0D006331A7D91AFF",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-29-2026/event/0D006331A7D91AFF",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331A7D91AFF",
         "discovery_event_id": "vvG1VZbSkEUolT",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-29-2026/event/0D006331A7D91AFF",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16450,7 +16474,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZbSkEUolT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331f45e4089",
@@ -16463,20 +16488,20 @@
     "datetime_iso": "2026-10-31T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0D006331F45E4089",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-30-2026/event/0D006331F45E4089",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-30-2026/event/0D006331F45E4089",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331F45E4089",
         "discovery_event_id": "vvG1VZbS6V90ea",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-30-2026/event/0D006331F45E4089",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16502,7 +16527,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS6V90ea",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-tampa-0d006331d60a3a7a",
@@ -16515,20 +16541,20 @@
     "datetime_iso": "2026-11-07T22:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0D006331D60A3A7A",
-    "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-tampa-florida-11-07-2026/event/0D006331D60A3A7A",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-tampa-florida-11-07-2026/event/0D006331D60A3A7A",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331D60A3A7A",
         "discovery_event_id": "vvG1VZbS6peNtB",
-        "url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-tampa-florida-11-07-2026/event/0D006331D60A3A7A",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16554,6 +16580,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS6peNtB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   }
 ]

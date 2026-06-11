@@ -23,6 +23,7 @@
     "events:validate:partitions": "node scripts/validate-partitions.mjs",
     "events:update": "python3 scripts/csv-to-events.py && python3 scripts/validate-events.py && python3 scripts/partition-events.py && python3 scripts/sync-events-data.py",
     "artist:check": "node scripts/validate-artist.mjs",
+    "artist:promote": "node scripts/promote-artist.mjs",
     "artists:propose": "node scripts/propose-artists.mjs",
     "artists:diagnose-ticketmaster": "node scripts/propose-artists.mjs --diagnose-ticketmaster",
     "artists:apply-preview": "node scripts/apply-artists.mjs",

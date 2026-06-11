@@ -89,6 +89,30 @@ The SeatGeek event section summarizes, when available:
 
 If the lower-level SeatGeek proposal script is missing, unavailable, lacks credentials, or does not support the requested mode, the phase is reported as `not_configured` or `blocked` instead of failing the entire growth plan. SeatGeek remains event-level-only; artist-level SeatGeek onboarding is outside `growth:plan`.
 
+
+## Publishing plan and future write-to-PR gates
+
+Every growth report includes a `Publishing plan` section in both Markdown and JSON. The section translates the report findings into normalized, safe follow-up classifications only; it does not perform the actions. The plan must always state that no PR was opened, no production data was changed, auto-publishing is disabled, any future write must be explicit and scope-specific, and combined mega-publish mode is forbidden.
+
+Normalized action types are:
+
+- `no_op` — no publishing follow-up was identified.
+- `report_only` — the finding is useful for audit/review but does not justify a production-data PR.
+- `blocked_pending_human_verification` — a human must verify the underlying identity, event, URL, or blocker before any write can be requested.
+- `provider_identity_pr_required` — a provider identity update would need its own narrow PR after human verification; it must not be bundled with events, CTAs, affiliate routing, pricing, or `/api/out`.
+- `ticketmaster_event_pr_possible_after_review` — Ticketmaster event proposals may become an event-only PR only after human review and an explicit scope-specific request.
+- `seatgeek_event_url_pr_possible_after_review` — SeatGeek event URL proposals may become an event-URL-only PR only after human review and an explicit scope-specific request.
+- `artist_shell_pr_possible` — an artist shell may be considered only as a review-required shell with no CTAs, affiliate routing, events, or pricing.
+- `pricing_blocked_by_policy` — pricing display, price comparison claims, availability claims, cheapest/best-deal language, and inventory claims remain blocked by policy.
+
+Future write-to-PR work is intentionally outside `growth:plan`. A future write may be considered only when all of these gates are satisfied:
+
+1. The request is explicit about the exact write scope, such as provider identities only, Ticketmaster events only, SeatGeek event URLs only, or artist shell only.
+2. The requested scope has human-reviewed evidence from accepted sources and does not rely on the growth report alone.
+3. The PR is narrow and does not combine unrelated publishing surfaces. No combined mega-publish mode should be used.
+4. The change does not modify CTAs, affiliate routing, pricing, provider identities, events, artists, or `/api/out` unless that exact surface is named in the explicit request.
+5. The change keeps auto-publishing disabled; the growth pipeline must not open PRs or write production data itself.
+
 ## Usage
 
 ```bash

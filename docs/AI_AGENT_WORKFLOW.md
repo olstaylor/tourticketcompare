@@ -29,7 +29,7 @@ How Claude Code and Codex should operate on this repo safely and effectively.
 - **Read first:** `docs/ADDING_ARTISTS.md`, then `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`
 - **Plan mode:** Yes; describe phases before implementing
 - **Protected:** Do not modify `/api/out`, `VERIFIED_TICKET_LINKS`, affiliate logic, or CTA generation
-- **Commit:** One PR per artist; never concurrent additions
+- **Commit:** One PR per artist for Promote/Events; Shell phase may batch up to 3 shells per automated PR (see `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` guardrail 6)
 
 ### 3. Provider Integration
 - **When:** Adding support for new ticket provider or affiliate partner

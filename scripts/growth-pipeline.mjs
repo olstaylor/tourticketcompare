@@ -3,9 +3,10 @@
  * growth-pipeline.mjs
  *
  * Report-only growth planning shell. This script reads local repository data and
- * writes human-review artifacts under .audit/. The optional Ticketmaster event
- * scope may delegate to the existing dry-run sync script unless --no-api is set.
- * It never mutates production data, scrapes, or changes CTA/affiliate routing.
+ * writes human-review artifacts under .audit/. The optional Ticketmaster and
+ * SeatGeek event scopes may delegate to existing proposal/dry-run scripts unless
+ * --no-api is set. It never mutates production data, applies URLs, scrapes, or
+ * changes CTA/affiliate routing.
  */
 
 import { spawn } from "node:child_process";
@@ -18,12 +19,14 @@ const REPO_ROOT = path.resolve(__dirname, "..");
 
 const DEFAULT_ARTISTS_PATH = path.join(REPO_ROOT, "public", "data", "artists.json");
 const DEFAULT_PROVIDER_IDENTITIES_PATH = path.join(REPO_ROOT, "data", "provider-identities.json");
+const DEFAULT_EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
 const DEFAULT_AUDIT_DIR = path.join(REPO_ROOT, ".audit");
 const TICKETMASTER_SYNC_SCRIPT = path.join(REPO_ROOT, "scripts", "sync-ticketmaster-events.py");
-const VALID_SCOPES = new Set(["provider-identities", "ticketmaster-events", "all"]);
+const SEATGEEK_PROPOSAL_SCRIPT = path.join(REPO_ROOT, "scripts", "propose-seatgeek-urls.mjs");
+const VALID_SCOPES = new Set(["provider-identities", "ticketmaster-events", "seatgeek-events", "all"]);
 
 function usage() {
-  return `Usage: node scripts/growth-pipeline.mjs [options]\n\nReport-only growth planning pipeline. Reads local artist data and the local provider identity registry, then writes JSON + Markdown reports under .audit/. It never mutates production data, scrapes, applies provider identities, creates events, publishes, changes CTAs, or displays prices.\n\nOptions:\n  --artist <slug>       Restrict report to one artist slug\n  --all                 Inspect all local artists/provider identities (default when --artist is omitted)\n  --scope <scope>       provider-identities, ticketmaster-events, or all (default: provider-identities)\n  --audit-dir <path>    Output directory (default: .audit)\n  --json <path>         Explicit timestamped JSON report path\n  --markdown <path>     Explicit timestamped Markdown report path\n  --no-api              Do not call external APIs; API-backed phases are skipped/report-only\n  --dry-run             Accepted for clarity; report-only is the only mode\n  -h, --help            Show this help\n\nEnvironment:\n  TTC_REPORT_TIMESTAMP  Optional ISO-ish timestamp override for deterministic report names\n`;
+  return `Usage: node scripts/growth-pipeline.mjs [options]\n\nReport-only growth planning pipeline. Reads local artist data and the local provider identity registry, then writes JSON + Markdown reports under .audit/. It never mutates production data, scrapes, applies provider identities, creates events, publishes, changes CTAs, or displays prices.\n\nOptions:\n  --artist <slug>       Restrict report to one artist slug\n  --all                 Inspect all local artists/provider identities (default when --artist is omitted)\n  --scope <scope>       provider-identities, ticketmaster-events, seatgeek-events, or all (default: provider-identities)\n  --audit-dir <path>    Output directory (default: .audit)\n  --json <path>         Explicit timestamped JSON report path\n  --markdown <path>     Explicit timestamped Markdown report path\n  --no-api              Do not call external APIs; API-backed phases are skipped/report-only\n  --dry-run             Accepted for clarity; report-only is the only mode\n  -h, --help            Show this help\n\nEnvironment:\n  TTC_REPORT_TIMESTAMP  Optional ISO-ish timestamp override for deterministic report names\n`;
 }
 
 function clean(value, max = 512) {
@@ -431,6 +434,160 @@ async function buildTicketmasterEventReport({ options, inspectedArtists }) {
   return report;
 }
 
+function eventMatchesInspectedArtist(event, inspectedSlugs) {
+  if (!inspectedSlugs.size) return true;
+  const eventArtistSlug = slugify(event?.artist_slug);
+  const eventArtistNameSlug = slugify(event?.artist_name);
+  return inspectedSlugs.has(eventArtistSlug) || inspectedSlugs.has(eventArtistNameSlug);
+}
+
+function hasSeatGeekUrl(event) {
+  return Boolean(clean(event?.seatgeek_url, 2048));
+}
+
+async function localSeatGeekCoverage({ inspectedArtists }) {
+  const eventsSource = await readJsonIfPresent(DEFAULT_EVENTS_PATH, []);
+  const events = eventsSource.value;
+  if (!Array.isArray(events)) throw new Error("public/data/events.json must be an array");
+  const inspectedSlugs = new Set(inspectedArtists.map((item) => item.artist_slug));
+  const selected = events.filter((event) => eventMatchesInspectedArtist(event, inspectedSlugs));
+  const already = selected.filter(hasSeatGeekUrl).length;
+  return {
+    source_available: eventsSource.available,
+    total_local_events_inspected: selected.length,
+    events_already_containing_seatgeek_urls: already,
+    events_missing_seatgeek_urls: selected.length - already
+  };
+}
+
+function proposalPathForSeatGeek(options) {
+  const slug = options.artist || (options.all ? "all" : "selected");
+  return path.join(options.auditDir, `seatgeek-url-candidates-${slug}-${timestampForPath()}.json`);
+}
+
+function emptySeatGeekProposalSummary() {
+  return {
+    high_confidence_proposal_count: null,
+    needs_review_proposal_count: null,
+    blocked_or_no_match_count: null,
+    proposal_summary_available: false
+  };
+}
+
+function normalizeSeatGeekProposalSummary(raw) {
+  const summary = raw?.summary || {};
+  const noCandidateCount = Array.isArray(summary.events_with_no_candidate_found)
+    ? summary.events_with_no_candidate_found.length
+    : null;
+  const rejectedCount = Number.isFinite(Number(summary.rejected_count)) ? Number(summary.rejected_count) : null;
+  const blockedOrNoMatch = noCandidateCount === null && rejectedCount === null
+    ? null
+    : Number(noCandidateCount || 0) + Number(rejectedCount || 0);
+  return {
+    high_confidence_proposal_count: Number.isFinite(Number(summary.high_confidence_count)) ? Number(summary.high_confidence_count) : null,
+    needs_review_proposal_count: Number.isFinite(Number(summary.needs_review_count)) ? Number(summary.needs_review_count) : null,
+    blocked_or_no_match_count: blockedOrNoMatch,
+    proposal_summary_available: Boolean(raw?.summary),
+    lower_level_summary: raw?.summary || null
+  };
+}
+
+function markSeatGeekArtists(report, status, reason) {
+  for (const artist of report.artists) {
+    artist.phase_status = status;
+    artist.blocked_reasons = reason ? [reason] : [];
+  }
+}
+
+function baseSeatGeekEventReport({ options, inspectedArtists, coverage }) {
+  return {
+    phase: "seatgeek-events",
+    dry_run_summary_only: true,
+    event_level_only: true,
+    source_of_truth: path.relative(REPO_ROOT, SEATGEEK_PROPOSAL_SCRIPT),
+    invoked_proposal_script: false,
+    invocation_status: options.noApi ? "skipped_no_api" : "not_configured",
+    external_api_calls_allowed: !options.noApi,
+    apply_mode_run: false,
+    apply_mode_statement: "No SeatGeek apply mode was run; no SeatGeek URLs were applied.",
+    notes: options.noApi
+      ? ["Skipped lower-level SeatGeek proposal script by --no-api; no external SeatGeek API call was attempted."]
+      : [],
+    coverage,
+    ...emptySeatGeekProposalSummary(),
+    artists: inspectedArtists.map((item) => ({
+      artist_slug: item.artist_slug,
+      artist_name: item.artist_name,
+      phase_status: options.noApi ? "skipped_no_api" : "not_configured",
+      event_level_only: true,
+      artist_level_onboarding: "blocked_not_run",
+      blocked_reasons: options.noApi ? ["api_disabled_by_growth_plan_no_api"] : []
+    }))
+  };
+}
+
+async function buildSeatGeekEventReport({ options, inspectedArtists }) {
+  const coverage = await localSeatGeekCoverage({ inspectedArtists });
+  const report = baseSeatGeekEventReport({ options, inspectedArtists, coverage });
+  if (options.noApi) return report;
+
+  try {
+    await fs.access(SEATGEEK_PROPOSAL_SCRIPT);
+  } catch (error) {
+    report.invocation_status = "not_configured";
+    report.notes.push(`Lower-level SeatGeek proposal script unavailable: ${error.message}`);
+    markSeatGeekArtists(report, "not_configured", "seatgeek_proposal_script_missing_or_unavailable");
+    return report;
+  }
+
+  const proposalOutputPath = proposalPathForSeatGeek(options);
+  const args = [path.relative(REPO_ROOT, SEATGEEK_PROPOSAL_SCRIPT), "--dry-run", "--output", path.relative(REPO_ROOT, proposalOutputPath)];
+  if (options.artist) args.push("--artist", options.artist);
+  const result = await runCommand("node", args);
+  report.invoked_proposal_script = true;
+  report.invocation = {
+    command: `node ${args.join(" ")}`,
+    exit_code: result.code,
+    stderr: clean(result.stderr, 4000),
+    proposal_output: path.relative(REPO_ROOT, proposalOutputPath)
+  };
+
+  if (result.status === "spawn_error") {
+    report.invocation_status = "not_configured";
+    report.notes.push(`Could not start lower-level SeatGeek proposal script: ${result.error?.message || "unknown error"}`);
+    markSeatGeekArtists(report, "not_configured", "seatgeek_proposal_script_spawn_error");
+    return report;
+  }
+
+  if (result.code !== 0) {
+    const reason = clean(result.stderr || result.stdout || `proposal script exited ${result.code}`, 4000);
+    const lacksCredentials = /SEATGEEK_CLIENT_ID|credential/i.test(reason);
+    report.invocation_status = lacksCredentials ? "not_configured" : "blocked";
+    report.notes.push("Lower-level SeatGeek proposal script did not complete successfully; growth plan recorded a blocked/not_configured report instead of failing.");
+    if (reason) report.notes.push(reason);
+    markSeatGeekArtists(report, report.invocation_status, lacksCredentials ? "seatgeek_credentials_missing_or_unavailable" : "seatgeek_proposal_script_failed");
+    return report;
+  }
+
+  let raw;
+  try {
+    raw = JSON.parse(await fs.readFile(proposalOutputPath, "utf8"));
+  } catch (error) {
+    report.invocation_status = "blocked";
+    report.notes.push(`Lower-level SeatGeek proposal script did not write readable JSON: ${error.message}`);
+    markSeatGeekArtists(report, "blocked", "seatgeek_proposal_output_missing_or_unreadable");
+    return report;
+  }
+
+  Object.assign(report, normalizeSeatGeekProposalSummary(raw));
+  report.invocation_status = raw?.summary?.seatgeek_api?.credentials_available ? "completed" : "not_configured";
+  if (!raw?.summary?.seatgeek_api?.credentials_available) {
+    report.notes.push("SEATGEEK_CLIENT_ID was not available to the lower-level proposal script; live lookup was skipped.");
+  }
+  markSeatGeekArtists(report, report.invocation_status === "completed" ? "report_only" : report.invocation_status, report.invocation_status === "completed" ? "" : "seatgeek_credentials_missing_or_unavailable");
+  return report;
+}
+
 function markdownEscape(value) {
   return clean(value, 2048).replace(/\|/g, "\\|").replace(/\n/g, " ");
 }
@@ -489,6 +646,39 @@ function renderMarkdown(report) {
     lines.push(`- SeatGeek performer ID: ${item.seatgeek.performer_id_status}`);
     lines.push(`- SeatGeek artist-level onboarding: ${item.seatgeek.onboarding_status} (${item.seatgeek.action})`);
     if (item.blocked_reasons.length) lines.push(`- Blocked reasons: ${item.blocked_reasons.join(", ")}`);
+    lines.push("");
+  }
+
+  if (report.seatgeek_events) {
+    const sg = report.seatgeek_events;
+    lines.push("## SeatGeek event enrichment summary");
+    lines.push("");
+    lines.push("Event-level dry-run/proposal summary only. This growth report does not apply SeatGeek URLs, does not onboard artist-level SeatGeek links, does not display prices, and does not change CTAs or affiliate routing.");
+    lines.push("");
+    lines.push(`- Phase status: ${sg.invocation_status}`);
+    lines.push(`- Proposal script invoked: ${sg.invoked_proposal_script ? "yes" : "no"}`);
+    lines.push(`- External API calls allowed for this run: ${sg.external_api_calls_allowed ? "yes" : "no"}`);
+    lines.push(`- Total local events inspected: ${sg.coverage.total_local_events_inspected}`);
+    lines.push(`- Events already containing SeatGeek URLs: ${sg.coverage.events_already_containing_seatgeek_urls}`);
+    lines.push(`- Events missing SeatGeek URLs: ${sg.coverage.events_missing_seatgeek_urls}`);
+    lines.push(`- High-confidence proposal count: ${sg.high_confidence_proposal_count ?? "not available"}`);
+    lines.push(`- Needs-review proposal count: ${sg.needs_review_proposal_count ?? "not available"}`);
+    lines.push(`- Blocked/no-match count: ${sg.blocked_or_no_match_count ?? "not available"}`);
+    lines.push(`- Apply mode: ${sg.apply_mode_statement}`);
+    for (const note of sg.notes || []) lines.push(`- Note: ${markdownEscape(note)}`);
+    lines.push("");
+    lines.push("| Artist slug | Phase status | Event-level only | Artist-level SeatGeek onboarding | Blocked reasons |");
+    lines.push("|---|---|---|---|---|");
+    for (const artist of sg.artists) {
+      const row = [
+        markdownEscape(artist.artist_slug),
+        markdownEscape(artist.phase_status),
+        artist.event_level_only ? "yes" : "no",
+        markdownEscape(artist.artist_level_onboarding),
+        markdownEscape((artist.blocked_reasons || []).join(", "))
+      ];
+      lines.push(`| ${row.join(" | ")} |`);
+    }
     lines.push("");
   }
 
@@ -571,6 +761,9 @@ async function main() {
   const ticketmasterEvents = scopeIncludes(options, "ticketmaster-events")
     ? await buildTicketmasterEventReport({ options, inspectedArtists })
     : null;
+  const seatgeekEvents = scopeIncludes(options, "seatgeek-events")
+    ? await buildSeatGeekEventReport({ options, inspectedArtists })
+    : null;
 
   const report = {
     generated_at: new Date().toISOString(),
@@ -584,13 +777,16 @@ async function main() {
     },
     sources: {
       artists: path.relative(REPO_ROOT, DEFAULT_ARTISTS_PATH),
-      provider_identities: path.relative(REPO_ROOT, DEFAULT_PROVIDER_IDENTITIES_PATH)
+      provider_identities: path.relative(REPO_ROOT, DEFAULT_PROVIDER_IDENTITIES_PATH),
+      events: path.relative(REPO_ROOT, DEFAULT_EVENTS_PATH)
     },
     safety_decisions: [
       "Report-only workflow: no production artist, event, provider identity, CTA, affiliate, or pricing files are written.",
       "Local artist and provider identity registry inspection is allowed.",
       "Ticketmaster event sync, when requested, delegates to the existing dry-run sync script and only normalizes its report.",
       "The growth pipeline never applies proposed Ticketmaster events or creates write-to-PR mode.",
+      "SeatGeek event enrichment, when requested, stays event-level-only and may delegate only to the existing proposal/dry-run script.",
+      "The growth pipeline never runs SeatGeek apply mode, artist-level SeatGeek onboarding, or SeatGeek price display.",
       "Scraping, price display changes, publishing, and CTA changes are not part of this pipeline.",
       "Missing provider identities are blocked until human/browser verification or a later gated API-assisted phase.",
       "SeatGeek remains event-level-first; artist-level SeatGeek onboarding is not automatic."
@@ -601,7 +797,8 @@ async function main() {
       inspected_count: inspectedArtists.length,
       inspected_artists: inspectedArtists
     },
-    ticketmaster_events: ticketmasterEvents
+    ticketmaster_events: ticketmasterEvents,
+    seatgeek_events: seatgeekEvents
   };
 
   const paths = reportPaths(options);
@@ -622,6 +819,11 @@ async function main() {
   if (report.ticketmaster_events) {
     console.log(`Ticketmaster event phase: ${report.ticketmaster_events.invocation_status}`);
     console.log(`Ticketmaster proposed/withheld: ${report.ticketmaster_events.totals.proposed_events}/${report.ticketmaster_events.totals.withheld_events}`);
+  }
+  if (report.seatgeek_events) {
+    console.log(`SeatGeek event phase: ${report.seatgeek_events.invocation_status}`);
+    console.log(`SeatGeek coverage existing/missing: ${report.seatgeek_events.coverage.events_already_containing_seatgeek_urls}/${report.seatgeek_events.coverage.events_missing_seatgeek_urls}`);
+    console.log(report.seatgeek_events.apply_mode_statement);
   }
 }
 

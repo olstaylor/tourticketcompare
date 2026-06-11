@@ -468,6 +468,42 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "summer-walker",
+      "name": "Summer Walker",
+      "short_description": "American R&B singer-songwriter currently touring North America.",
+      "genres": [
+        "R&B"
+      ],
+      "country": "United States",
+      "official_website": null,
+      "image_alt": "Summer Walker artist ticket information",
+      "factual_summary": "Summer Walker is an American R&B singer-songwriter. Ticketmaster’s artist record lists upcoming North American tour dates. TourTicketCompare is reviewing this artist page before publishing any provider buttons.",
+      "why_demand_is_high": "Demand can be high for major Summer Walker appearances because her releases have a broad R&B audience and her tour dates are concentrated in major markets.",
+      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
+      "seo_title": "Summer Walker Ticket Links & Buying Guidance | TourTicketCompare",
+      "meta_description": "Review Summer Walker ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
+      "faq": [
+        {
+          "question": "Why are Summer Walker ticket buttons not shown yet?",
+          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+        },
+        {
+          "question": "Does TourTicketCompare publish live Summer Walker ticket prices?",
+          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+        },
+        {
+          "question": "How should I check Summer Walker ticket options safely?",
+          "answer": "Confirm the artist, date, venue, fees, delivery method, and refund or transfer terms on the ticket provider site before checkout."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -844,6 +880,20 @@
       "market": "global",
       "last_checked_at": "2026-06-10",
       "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-summer-walker",
+      "artist_slug": "summer-walker",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": "2026-06-11",
+      "disclosure_required": true,
+      "ticketmaster_attraction_id": "K8vZ9179b17"
     }
   ],
   "safety_rules": [

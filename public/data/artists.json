@@ -152,5 +152,14 @@
       "ticketmaster"
     ],
     "last_verified_at": "2026-06-10"
+  },
+  {
+    "slug": "summer-walker",
+    "name": "Summer Walker",
+    "short_description": "American R&B singer-songwriter currently touring North America.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
   }
 ]

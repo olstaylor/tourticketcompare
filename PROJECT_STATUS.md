@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-06-11 (documentation cleanup: counts and per-artist table refreshed by direct inspection of `public/data/`, `functions/api/out.js`, and `public/data/events.json`; previous snapshot was dated 2026-06-03/10 and had drifted)
+Last updated: 2026-06-12 (Ed Sheeran tour name "The Loop Tour" owner-confirmed and 24/27 event URLs restored as `machine_high_confidence`; counts and per-artist table re-verified by direct inspection of `public/data/` — the repo had drifted again since 2026-06-11: 10 Summer Walker events landed with CTAs live and blank `tour_name`, and 12 Shakira events became `needs_recheck` via PR #273)
 
 This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. `docs/DOCS_MAINTENANCE.md` explains which files are canonical and how to keep this one fresh. Everything in `docs/archive/` is historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
 
@@ -17,11 +17,11 @@ This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work a
 
 ## Current data
 
-Verified by direct inspection of `public/data/` and `functions/api/out.js` on 2026-06-11:
+Verified by direct inspection of `public/data/` and `functions/api/out.js` on 2026-06-12:
 
-- `public/data/artists.json`: **15 records — all `indexable_with_substantial_content`**. (The previous `review_required` shell, `ed-sheeran`, was promoted; `shakira`, `raye`, `charli-xcx`, `tate-mcrae`, and `summer-walker` were added with `last_verified_at` of 2026-06-10/11.)
+- `public/data/artists.json`: **15 records — all `indexable_with_substantial_content`**. (The previous `review_required` shell, `ed-sheeran`, was promoted; `shakira`, `raye`, `charli-xcx`, `tate-mcrae`, and `summer-walker` were added with `last_verified_at` of 2026-06-10/11; `ed-sheeran` re-verified 2026-06-12.)
 - `public/data/catalog.json`: 15 artist records; 0 tour records.
-- `public/data/events.json`: **329 events**; **226 carry stored SeatGeek event URLs**.
+- `public/data/events.json`: **339 events**; **226 carry stored SeatGeek event URLs**.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
 - `public/data/guides-content.json`: **15 guide content entries**.
 - `functions/_route-metadata.js`: **15 guide routes** plus trust/static route metadata.
@@ -42,12 +42,12 @@ All 15 artists are `indexable_with_substantial_content` with `verified_providers
 | jay-z | 2026-04-30 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | — |
 | olivia-rodrigo | 2026-05-27 | 86 | 59 | **8** | The Unraveled Tour | 8 short-form event URLs human-checked 2026-06-10: all 404 in a browser; they remain `needs_recheck` with `ticketmaster_url` cleared and event CTAs suppressed. |
 | bruno-mars | 2026-05-28 | 56 | 30 | 0 | The Romantic Tour | Four Mexico City events intentionally excluded (`ticketmaster.com.mx` not in the Ticketmaster host allowlist). |
-| **ed-sheeran** | 2026-06-11 | 27 | 27 | **27** | **(blank)** | Promoted from `review_required` to indexable; in `VERIFIED_TICKET_LINKS`. **All 27 events are `verification_status: "needs_recheck"` with blank `tour_name` and cleared `ticketmaster_url`** — event-level CTAs (Ticketmaster *and* SeatGeek) are suppressed; see Active risks. |
-| shakira | 2026-06-10 | 30 | 16 | 0 | Las Mujeres Ya No Lloran | Tour title owner-confirmed from the Ticketmaster event page 2026-06-10. |
+| ed-sheeran | 2026-06-12 | 27 | 27 | **3** | The Loop Tour | Tour title owner-confirmed 2026-06-12; owner spot-checked the long-form `loop-tour` storefront URLs in a browser. 24 events restored to `machine_high_confidence` with CTAs live. **3 short-form `/event/<id>` URLs (Glendale, Nashville, Arlington) stay `needs_recheck` with URLs cleared and CTAs suppressed** — same 404 failure mode as the Olivia Rodrigo 8. |
+| shakira | 2026-06-10 | 30 | 16 | **12** | Las Mujeres Ya No Lloran | Tour title owner-confirmed from the Ticketmaster event page 2026-06-10. 12 events `needs_recheck` with cleared `ticketmaster_url` (CTAs suppressed) since PR #273. |
 | raye | 2026-06-10 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | charli-xcx | 2026-06-11 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | tate-mcrae | 2026-06-10 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
-| summer-walker | 2026-06-11 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| summer-walker | 2026-06-11 | 10 | 0 | 0 | **(blank)** | 10 events merged post-2026-06-11, all `machine_high_confidence` with CTAs live but **blank `tour_name`** — the validator's blank-`tour_name` warning fires on these; needs an owner-verified tour name. |
 
 Note on `needs_recheck` rendering: `renderShowCardServerHtml` in `functions/[[path]].js` only renders event CTAs when a valid `ticketmaster_url` exists; the SeatGeek CTA renders only alongside it. Events with cleared Ticketmaster URLs therefore show "No verified ticket link is available for this date" — the safe state.
 
@@ -84,13 +84,12 @@ Run before committing data, content, or rendering changes:
 
 These are the live risks. Detailed task scope and ordering live in `BACKLOG.md`.
 
-- **Ed Sheeran: indexed artist with 27/27 events `needs_recheck` and blank `tour_name` — flagged for human review.** `ed-sheeran` was promoted to `indexable_with_substantial_content` (artists.json `last_verified_at: 2026-06-11`) and has a `VERIFIED_TICKET_LINKS` entry, but every one of its 27 events has `verification_status: "needs_recheck"`, a cleared `ticketmaster_url`, and a blank `tour_name` (each event does carry a `seatgeek_url`). Event-level CTAs are suppressed (safe state); the artist-level Ticketmaster CTA renders. A human should confirm this promoted-but-unverified-events state is intended, re-verify the event URLs in a browser, and populate `tour_name` from a verified source. The validator's blank-`tour_name` warning for indexed artists fires on these 27 events.
-- **8 Olivia Rodrigo events remain CTA-suppressed (#171 sub-item) — human check done, URLs still broken.** Human browser check completed 2026-06-10: all 8 short-form `ticketmaster.com/event/<id>` URLs return 404, even though the Discovery API still resolves the same IDs to the correct Olivia Rodrigo shows (status `onsale`). The events stay `verification_status: "needs_recheck"` with URLs cleared and CTAs suppressed — this is the correct safe state. Re-check periodically for a working storefront URL; do not restore from the Discovery `url` field alone.
-- **Blank `tour_name` (#172) — resolved for the original scope, reopened by ed-sheeran.** Olivia Rodrigo (86, "The Unraveled Tour"), Bruno Mars (56, "The Romantic Tour"), and Shakira (30, "Las Mujeres Ya No Lloran"; owner-confirmed 2026-06-10) are populated. The 27 ed-sheeran events are a new occurrence of the same gap (see the first risk). Populating requires human verification of the official tour name — URL slugs are evidence, not proof.
+- **Short-form `ticketmaster.com/event/<id>` URLs remain broken across three artists — 3 Ed Sheeran, 8 Olivia Rodrigo, 12 Shakira events CTA-suppressed.** Ed Sheeran was resolved 2026-06-12 for the 24 long-form URLs (owner confirmed "The Loop Tour" and spot-checked the storefront pages; restored as `machine_high_confidence`), but its 3 short-form URLs (Glendale, Nashville, Arlington) stay `needs_recheck` with URLs cleared. The Olivia Rodrigo 8 were human-checked 2026-06-10: all 404, even though the Discovery API still resolves the same IDs (status `onsale`). The 12 Shakira events were suppressed via PR #273. Suppression is the correct safe state. Re-check periodically for working storefront URLs; do not restore from the Discovery `url` field alone.
+- **Blank `tour_name` (#172) — ed-sheeran occurrence resolved 2026-06-12; reopened by summer-walker.** Olivia Rodrigo (86, "The Unraveled Tour"), Bruno Mars (56, "The Romantic Tour"), Shakira (30, "Las Mujeres Ya No Lloran"; owner-confirmed 2026-06-10), and Ed Sheeran (27, "The Loop Tour"; owner-confirmed 2026-06-12) are populated. The 10 summer-walker events are a new occurrence — `machine_high_confidence` with CTAs live but blank `tour_name`, so the validator warning fires. Populating requires human verification of the official tour name — URL slugs are evidence, not proof.
 - **Data refresh documentation (#174).** `scripts/sync-events-data.py` inlines fallback data into `public/index.html`; the `stale-sync-guard` CI job catches stale commits on PRs. Phase A (documented data-refresh flow) is addressed in `docs/DEPLOYMENT.md`. Phase B (optional cache-bust scheme) remains parked.
 - **Stale-file risk (#176).** Vercel artefacts (`api/`, `vercel.json`), legacy standalone Worker builder, inactive route shims, and `archive/vercel-experimental/` still live in the repo. Evidence-backed classification is in `docs/STALE_FILE_AUDIT.md`. Audit-first, deletions later — do not delete during other work.
 - **Raw HTML production proof (#10).** Local proof passed (17 representative routes, 2026-05-19); production browser proof is still unconfirmed. PR #184's guide drift validation reduces the risk further. This is not a coding priority unless a fresh production check identifies a real mismatch.
-- **Status-doc drift.** Between 2026-06-03 and 2026-06-11 the repo gained 5 artists and 57 events while this file still described the old state. When merging data PRs, refresh the counts here (see `docs/DOCS_MAINTENANCE.md` → update triggers).
+- **Status-doc drift.** This file drifted twice: 2026-06-03→11 (5 artists, 57 events) and again 2026-06-11→12 (10 summer-walker events with live CTAs, 12 shakira events suppressed via PR #273 — neither was reflected here until the 2026-06-12 refresh). When merging data PRs, refresh the counts here (see `docs/DOCS_MAINTENANCE.md` → update triggers).
 
 ## Product guardrails (summary)
 
@@ -105,10 +104,10 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 ## What is supported today
 
 - Homepage and trust/legal pages.
-- Artist index plus the 15 indexable artist pages above (5 of them — beyonce, raye, charli-xcx, tate-mcrae, summer-walker — currently have no event records and render artist-level CTAs only).
+- Artist index plus the 15 indexable artist pages above (4 of them — beyonce, raye, charli-xcx, tate-mcrae — currently have no event records and render artist-level CTAs only).
 - 15 guide pages with server-rendered content.
 - Verified Ticketmaster CTAs (artist- and event-level) where configured.
-- Verified event-level SeatGeek CTAs — live in production where a verified `seatgeek_url` exists alongside a valid `ticketmaster_url`; routed through `/api/out` with Impact tracking (SeatGeek Impact bindings present). Currently 226/329 events carry a stored `seatgeek_url`. Event-level SeatGeek URL discovery tooling is operational and wired in (`npm run seatgeek:propose` / `seatgeek:enrich:apply`, `SeatGeek Discovery Proposal` workflow); see `BACKLOG.md` item 5 and `docs/SEATGEEK_DISCOVERY.md`.
+- Verified event-level SeatGeek CTAs — live in production where a verified `seatgeek_url` exists alongside a valid `ticketmaster_url`; routed through `/api/out` with Impact tracking (SeatGeek Impact bindings present). Currently 226/339 events carry a stored `seatgeek_url`. Event-level SeatGeek URL discovery tooling is operational and wired in (`npm run seatgeek:propose` / `seatgeek:enrich:apply`, `SeatGeek Discovery Proposal` workflow); see `BACKLOG.md` item 5 and `docs/SEATGEEK_DISCOVERY.md`.
 - First-party analytics and signup writes through `DEMAND_DB`.
 - Provider-sync **foundation** (registry, validator, offline dry-run scaffold, Ticketmaster dry-run sync — `docs/PROVIDER_SYNC.md`). No live provider sync writes yet. Rollout sequence in `BACKLOG.md` item 6.
 

@@ -95,10 +95,18 @@ function mapEventsToShows(events) {
         seatgeek_url: event.seatgeek_url,
         vividseats_url: event.vividseats_url,
         ticketmaster_url: event.ticketmaster_url,
-        // Explicit publishability state consumed by eventLinkPublishable in
+        // Publishability state consumed by eventLinkPublishable in
         // public/app.js — without it, hydrated show cards could not
         // distinguish machine-approved links from needs-recheck links.
+        // The slim provider_links carries the legacy fallback flag so rows
+        // without an explicit verification_status stay publishable when
+        // provider_links.ticketmaster.verified is true.
         verification_status: event.verification_status,
+        provider_links: {
+          ticketmaster: {
+            verified: event?.provider_links?.ticketmaster?.verified === true
+          }
+        },
         impact_program_id: event.impact_program_id,
         impact_deep_link: event.impact_deep_link,
         ticketmaster_impact_program_id: event.ticketmaster_impact_program_id,

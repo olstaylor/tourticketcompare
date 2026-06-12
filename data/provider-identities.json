@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-11",
+  "updated_at": "2026-06-12",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -10,53 +10,53 @@
   "artists": [
     {
       "slug": "beyonce",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ9175rX7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/beyonce-tickets/artist/894191",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record \"Beyoncé\" matching the official artist page. 0 upcoming Discovery events at lookup time (no active tour) — attraction ID still resolves cleanly via /attractions/{id}. Collisions excluded: Beyonce night (K8vZ917OkQ0), themed/tribute events."
     },
     {
       "slug": "harry-styles",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ9174XZ0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/harry-styles-tickets/artist/2366444",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (60 upcoming events; events.json?attractionId returns \"Harry Styles\" events). Collision excluded: The Harry Styles Tribute Show (K8vZ917L_Qf)."
     },
     {
       "slug": "bts",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ917KpXV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/bts-tickets/artist/2110227",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (48 upcoming events; events.json?attractionId returns \"BTS\" events). Collisions excluded: BTS Live Play (K8vZ917_SGf), BTS Rave - Tribute, B.T. Express."
     },
     {
       "slug": "ariana-grande",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ9172Qo7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/ariana-grande-tickets/artist/1688071",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (42 upcoming events; events.json?attractionId returns \"Ariana Grande\" events). Known TM name collisions excluded: One Love Manchester (K8vZ917pe70), tribute shows."
     },
     {
       "slug": "bad-bunny",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ9174l1f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/bad-bunny-tickets/artist/2317395",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (48 upcoming events; events.json?attractionId returns \"Bad Bunny\" events). Known TM name collisions excluded: Bad Bunny Rave (K8vZ917hAm0), Bad Bunny Nights (K8vZ917he90), Club 90's Bad Bunny Night (K8vZ917_EZ7), tribute nights."
     },
     {
       "slug": "morgan-wallen",
@@ -70,33 +70,33 @@
     },
     {
       "slug": "jay-z",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ9171Qi7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/jayz-tickets/artist/781009",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Discovery attraction record named \"JAŸ-Z\" (Ticketmaster's stylised spelling of JAY-Z) matching the official /jayz-tickets/artist/781009 page; 5 upcoming events and events.json?attractionId returns \"JAŸ-Z\" events. Collisions excluded: JAY-Z and Beyoncé OTR II (K8vZ9179jX0), JAY Z and Justin Timberlake (K8vZ9178BkV)."
     },
     {
       "slug": "olivia-rodrigo",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ917_Su0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/olivia-rodrigo-tickets/artist/2836194",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (103 upcoming events; events.json?attractionId returns \"Olivia Rodrigo\" events). Tribute acts excluded (Bitter Sweet, Sweet & Sour)."
     },
     {
       "slug": "bruno-mars",
-      "ticketmaster_attraction_id": null,
-      "ticketmaster_artist_url": null,
+      "ticketmaster_attraction_id": "K8vZ917GJc7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801",
       "seatgeek_performer_id": null,
-      "sync_enabled": false,
+      "sync_enabled": true,
       "last_synced_at": null,
-      "review_status": "unverified",
-      "notes": null
+      "review_status": "verified",
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (79 upcoming events; events.json?attractionId returns \"Bruno Mars\" events). Artist URL matches the existing VERIFIED_TICKET_LINKS destination in functions/api/out.js. Tribute acts excluded (Treasure, 24K Magic, Just The Way to Mars)."
     },
     {
       "slug": "ed-sheeran",

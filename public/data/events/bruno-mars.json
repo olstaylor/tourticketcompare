@@ -47,7 +47,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkev_6oa",
@@ -97,7 +98,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkevq6og",
@@ -147,7 +149,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkevqmo2",
@@ -197,7 +200,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkevhmob",
@@ -247,7 +251,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-168zk8yb-za2d6ed",
@@ -297,7 +302,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_k",
@@ -346,7 +352,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_6",
@@ -395,7 +402,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_f",
@@ -444,7 +452,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_k",
@@ -493,7 +502,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_f",
@@ -542,7 +552,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_4",
@@ -591,7 +602,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vg6pypf",
@@ -641,7 +653,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16v3zapgk",
@@ -691,7 +704,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz1kbsa6fz",
@@ -741,7 +755,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vvoue3b",
@@ -791,7 +806,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-madrid-z698xz2qz1kutpbz7",
@@ -841,7 +857,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-madrid-z698xz2qz1koyq7f6",
@@ -891,7 +908,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_x",
@@ -940,7 +958,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_n",
@@ -989,7 +1008,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1aegzbzgksgzoma",
@@ -1039,7 +1059,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdftyue",
@@ -1089,7 +1110,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkduy8wh",
@@ -1139,7 +1161,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdmnywe",
@@ -1189,7 +1212,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdzq8wy",
@@ -1239,7 +1263,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdbd8xc",
@@ -1289,7 +1314,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm",
@@ -1339,7 +1365,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd",
@@ -1389,7 +1416,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydoxccx",
@@ -1439,7 +1467,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydonw2z",
@@ -1489,7 +1518,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626",
@@ -1539,7 +1569,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv1aezk8pgkdj_ywf",
@@ -1589,7 +1620,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0",
@@ -1639,7 +1671,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1a8vn0_ga221kn",
@@ -1689,7 +1722,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb",
@@ -1739,7 +1773,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph",
@@ -1789,7 +1824,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_e944pwc",
@@ -1839,7 +1875,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_exa-kfw",
@@ -1889,7 +1926,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-new-orleans-g5vizbye_a_hw",
@@ -1939,7 +1977,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_ekc64hs",
@@ -1989,7 +2028,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_",
@@ -2039,7 +2079,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-san-antonio-g5dizbyc__upm",
@@ -2089,7 +2130,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a",
@@ -2138,7 +2180,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i",
@@ -2187,7 +2230,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f",
@@ -2237,7 +2281,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx",
@@ -2287,7 +2332,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyhid9od",
@@ -2337,7 +2383,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin",
@@ -2387,7 +2434,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is",
@@ -2437,7 +2485,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",
@@ -2487,7 +2536,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx",
@@ -2537,7 +2587,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm",
@@ -2587,7 +2638,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshvjex",
@@ -2637,7 +2689,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshmjia",
@@ -2687,7 +2740,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkwimwwb",
@@ -2737,7 +2791,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1k78v0fjgacrkay",
@@ -2787,6 +2842,7 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   }
 ]

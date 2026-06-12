@@ -47,7 +47,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473d9d109cb",
@@ -97,7 +98,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473db760a7f",
@@ -147,6 +149,7 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   }
 ]

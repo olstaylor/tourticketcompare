@@ -47,7 +47,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-indianapolis-0500635ddc56b025",
@@ -97,7 +98,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-gainesville-2200635d19f97a46",
@@ -147,7 +149,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-gainesville-2200635d1be07abe",
@@ -197,7 +200,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-denver-1e00635df7cf9add",
@@ -247,7 +251,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-denver-1e00635df7d99ae8",
@@ -297,7 +302,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-pittsburgh-1600635c84ff1ead",
@@ -347,7 +353,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-pittsburgh-1600635d93d83472",
@@ -397,7 +404,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-chicago-z7r9jz1a7qtbn",
@@ -449,7 +457,8 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbV"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbV",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-chicago-z7r9jz1a7qtba",
@@ -499,7 +508,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtbd",
@@ -549,7 +559,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtb7",
@@ -601,7 +612,8 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ9"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ9",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtba2",
@@ -651,7 +663,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtbk",
@@ -701,7 +714,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs",
@@ -751,7 +765,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbf",
@@ -803,7 +818,8 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbw"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbw",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635dc72ec234",
@@ -853,7 +869,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635da084a7a9",
@@ -903,6 +920,7 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   }
 ]

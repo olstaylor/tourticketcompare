@@ -194,7 +194,62 @@ function unverifiedProviderStub() {
 // Trust markers start unverified by design: nothing here is human-checked yet,
 // so verified is false and dates are null. event_name is left empty because
 // the candidate CSV carries no event name and inventing one is forbidden.
-function buildEvent(row) {
+// Mirrors functions/api/out.js PROVIDERS.ticketmaster.allowedDestinationHosts.
+// Read-only policy copy: never extend this list here — out.js is the gate.
+const TICKETMASTER_PUBLISHABLE_HOSTS = [
+  "ticketmaster.com",
+  "ticketmaster.ca",
+  "ticketmaster.co.uk",
+  "ticketmaster.es",
+  "ticketmaster.de",
+  "ticketmaster.nl",
+  "ticketmaster.se",
+  "ticketmaster.pl",
+  "ticketmaster.be",
+  "ticketmaster.it"
+];
+
+function ticketmasterHostAllowed(hostname) {
+  const host = String(hostname || "").toLowerCase();
+  return TICKETMASTER_PUBLISHABLE_HOSTS.some((allowed) => host === allowed || host.endsWith(`.${allowed}`));
+}
+
+// Classifies a candidate row's Ticketmaster link publishability. A row may be
+// labelled machine_high_confidence only when the Discovery artist match
+// confidence is exactly 1.0 AND the URL is a canonical storefront link:
+// https, allowlisted Ticketmaster host, a slug segment before /event/<id>
+// (short-form /event/<id> URLs are excluded — they have 404'd in browsers
+// while still resolving via the Discovery API), the storefront event id
+// appears in the URL, and the row has a full datetime plus venue and city.
+// Everything else is needs_recheck: the URL is preserved but CTAs and
+// /api/out redirects stay suppressed until a human verifies it. This never
+// produces human_verified — machine approval and human verification are
+// distinct states.
+function classifyCandidateLink(row, confidenceBySlug) {
+  const confidence = confidenceBySlug instanceof Map ? confidenceBySlug.get(clean(row.artist_slug)) : undefined;
+  if (confidence !== 1) return "needs_recheck";
+  const url = clean(row.ticketmaster_url);
+  if (!url) return "needs_recheck";
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return "needs_recheck";
+  }
+  if (parsed.protocol !== "https:") return "needs_recheck";
+  if (!ticketmasterHostAllowed(parsed.hostname)) return "needs_recheck";
+  const segments = parsed.pathname.split("/").filter(Boolean);
+  const eventIndex = segments.indexOf("event");
+  if (eventIndex === -1 || !segments[eventIndex + 1]) return "needs_recheck";
+  if (eventIndex === 0) return "needs_recheck";
+  const tmEventId = clean(row.ticketmaster_event_id).toLowerCase();
+  if (!tmEventId || !url.toLowerCase().includes(tmEventId)) return "needs_recheck";
+  if (!/T\d{2}:\d{2}/.test(clean(row.datetime_iso))) return "needs_recheck";
+  if (!clean(row.venue) || !clean(row.city)) return "needs_recheck";
+  return "machine_high_confidence";
+}
+
+function buildEvent(row, verificationStatus = "needs_recheck") {
   const tmUrl = clean(row.ticketmaster_url);
   const tmEventId = clean(row.ticketmaster_event_id);
   const tmDiscoveryEventId = clean(row.ticketmaster_discovery_event_id);
@@ -219,6 +274,11 @@ function buildEvent(row) {
     source_type: "ticketmaster",
     source_url: tmUrl,
     last_verified_at: null,
+    // Explicit publishability state read by the runtime CTA/redirect gates
+    // (eventLinkPublishable in functions/[[path]].js, public/app.js,
+    // functions/api/out.js). machine_high_confidence rows may render without
+    // human review; needs_recheck rows never render until a human flips them.
+    verification_status: verificationStatus,
     provider_links: {
       ticketmaster: {
         event_id: tmEventId || null,
@@ -395,6 +455,58 @@ function runSelfTest() {
     status: "on-sale"
   });
   assert("built event starts unverified", event.provider_links.ticketmaster.verified === false);
+  assert("built event defaults to needs_recheck", event.verification_status === "needs_recheck");
+
+  const canonicalRow = {
+    ...goodRow,
+    ticketmaster_url: "https://www.ticketmaster.com/artist-show-city-01-01-2026/event/E100ABC",
+    ticketmaster_event_id: "E100ABC",
+    datetime_iso: "2026-01-01T19:30:00Z"
+  };
+  const fullConfidence = new Map([["olivia-rodrigo", 1]]);
+  assert(
+    "canonical 1.0-confidence row is machine_high_confidence",
+    classifyCandidateLink(canonicalRow, fullConfidence) === "machine_high_confidence"
+  );
+  assert(
+    "sub-1.0 confidence row is needs_recheck",
+    classifyCandidateLink(canonicalRow, new Map([["olivia-rodrigo", 0.92]])) === "needs_recheck"
+  );
+  assert(
+    "missing confidence is needs_recheck",
+    classifyCandidateLink(canonicalRow, new Map()) === "needs_recheck"
+  );
+  assert(
+    "short-form /event/<id> url is needs_recheck",
+    classifyCandidateLink(
+      { ...canonicalRow, ticketmaster_url: "https://www.ticketmaster.com/event/E100ABC" },
+      fullConfidence
+    ) === "needs_recheck"
+  );
+  assert(
+    "non-allowlisted host is needs_recheck",
+    classifyCandidateLink(
+      { ...canonicalRow, ticketmaster_url: "https://www.axs.com/artist-show/event/E100ABC" },
+      fullConfidence
+    ) === "needs_recheck"
+  );
+  assert(
+    "event id missing from url is needs_recheck",
+    classifyCandidateLink(
+      { ...canonicalRow, ticketmaster_url: "https://www.ticketmaster.com/artist-show-city-01-01-2026/event/OTHER1" },
+      fullConfidence
+    ) === "needs_recheck"
+  );
+  assert(
+    "date-only datetime is needs_recheck",
+    classifyCandidateLink({ ...canonicalRow, datetime_iso: "2026-01-01" }, fullConfidence) === "needs_recheck"
+  );
+  const builtHighConfidence = buildEvent(canonicalRow, classifyCandidateLink(canonicalRow, fullConfidence));
+  assert(
+    "machine approval never sets the human-verified provider flag",
+    builtHighConfidence.verification_status === "machine_high_confidence" &&
+      builtHighConfidence.provider_links.ticketmaster.verified === false
+  );
   assert("built event keeps storefront id top-level", event.ticketmaster_event_id === "E1");
   assert("built event stores Discovery id top-level", event.ticketmaster_discovery_event_id === "vv1AAZkOVGkdF4IwR");
   assert("built event stores Discovery id in provider metadata", event.provider_links.ticketmaster.discovery_event_id === "vv1AAZkOVGkdF4IwR");
@@ -477,6 +589,14 @@ async function main() {
   const rejectedEvents = rejectedResult.ok && Array.isArray(rejectedResult.data) ? rejectedResult.data : [];
   const reportResult = await tryReadJson(reportPath);
   const report = reportResult.ok ? reportResult.data : null;
+  // Discovery artist-match confidence per slug, used to classify candidate
+  // link publishability. Missing report or missing entry → no confidence →
+  // rows land as needs_recheck (suppressed until human review).
+  const confidenceBySlug = new Map(
+    (Array.isArray(report?.accepted) ? report.accepted : [])
+      .filter((entry) => entry && clean(entry.proposed_slug))
+      .map((entry) => [clean(entry.proposed_slug), entry.confidence])
+  );
   const artistsResult = await tryReadJson(artistsPath);
   const proposedArtists = artistsResult.ok && Array.isArray(artistsResult.data) ? artistsResult.data : [];
   const catalogResult = await tryReadJson(catalogPath);
@@ -598,7 +718,7 @@ async function main() {
       console.log(out.join("\n"));
       return 0;
     }
-    writeResult = await performWrite(existingEvents, newRows);
+    writeResult = await performWrite(existingEvents, newRows, confidenceBySlug);
   }
 
   out.push("BEFORE / AFTER SUMMARY");
@@ -652,10 +772,10 @@ async function main() {
 }
 
 // Performs the events-only apply with snapshot/rollback around the pipeline.
-async function performWrite(existingEvents, newRows) {
+async function performWrite(existingEvents, newRows, confidenceBySlug) {
   const snapshot = await snapshotPipelineFiles();
   const steps = [];
-  const builtEvents = newRows.map(buildEvent);
+  const builtEvents = newRows.map((row) => buildEvent(row, classifyCandidateLink(row, confidenceBySlug)));
   // Existing events are preserved exactly; new events are appended in order.
   const merged = [...existingEvents, ...builtEvents];
 

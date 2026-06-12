@@ -49,7 +49,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF4iwr"
+    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF4iwr",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-inglewood-vv1aazkovgkdf_jwm",
@@ -101,7 +102,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF_jwM"
+    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF_jwM",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-palm-desert-vvg1iz_6abv7yw",
@@ -153,7 +155,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1IZ_6aBv7yw"
+    "ticketmaster_discovery_event_id": "vvG1IZ_6aBv7yw",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-san-jose-g5vyz_663mr7p",
@@ -205,7 +208,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "G5vYZ_663mr7P"
+    "ticketmaster_discovery_event_id": "G5vYZ_663mr7P",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-san-jose-g5vyz_6x6bktl",
@@ -257,7 +261,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "G5vYZ_6X6BktL"
+    "ticketmaster_discovery_event_id": "G5vYZ_6X6BktL",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-dallas-vvg1yz_6c939ia",
@@ -309,7 +314,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1YZ_6C939IA"
+    "ticketmaster_discovery_event_id": "vvG1YZ_6C939IA",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-atlanta-vvg1zz_66u4nyt",
@@ -361,7 +367,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1zZ_66u4nyt"
+    "ticketmaster_discovery_event_id": "vvG1zZ_66u4nyt",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-atlanta-vvg1zz_f6arur7",
@@ -413,7 +420,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1zZ_F6aRuR7"
+    "ticketmaster_discovery_event_id": "vvG1zZ_F6aRuR7",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-miami-vvg1vz_6knubnj",
@@ -465,7 +473,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1VZ_6knUBNj"
+    "ticketmaster_discovery_event_id": "vvG1VZ_6knUBNj",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-miami-vvg1vz_6r8_upj",
@@ -517,7 +526,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1VZ_6r8_UPJ"
+    "ticketmaster_discovery_event_id": "vvG1VZ_6r8_UPJ",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-baltimore-1a4zkosgf76zecv",
@@ -569,7 +579,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "1a4ZkosGf76ZeCv"
+    "ticketmaster_discovery_event_id": "1a4ZkosGf76ZeCv",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-boston-vv1avzkosgkdb5unc",
@@ -621,7 +632,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv1AvZkosGkdb5UNC"
+    "ticketmaster_discovery_event_id": "vv1AvZkosGkdb5UNC",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-boston-vv177z_6gkrmuczn",
@@ -673,7 +685,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv177Z_6GkRmUCzN"
+    "ticketmaster_discovery_event_id": "vv177Z_6GkRmUCzN",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-newark-vv1aezkosgketdd_b",
@@ -725,7 +738,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv1AeZkoSGketdD_B"
+    "ticketmaster_discovery_event_id": "vv1AeZkoSGketdD_B",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1ayzkosgkdghkeg",
@@ -777,7 +791,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "1AYZkosGkdghkEG"
+    "ticketmaster_discovery_event_id": "1AYZkosGkdghkEG",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1adzz_6gktq1p0z",
@@ -829,7 +844,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "1AdZZ_6GkTq1p0Z"
+    "ticketmaster_discovery_event_id": "1AdZZ_6GkTq1p0Z",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-belmont-park-15dzz_619b3pj",
@@ -881,7 +897,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "15dZZ_619b3PJ"
+    "ticketmaster_discovery_event_id": "15dZZ_619b3PJ",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-atlantic-city-vv17fz_6gkb5efrp",
@@ -933,7 +950,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv17FZ_6GkB5efrP"
+    "ticketmaster_discovery_event_id": "vv17FZ_6GkB5efrP",
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1k7eo4av",
@@ -985,7 +1003,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k7EO4Av"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k7EO4Av",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vas39ay",
@@ -1037,7 +1056,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaS39AY"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaS39AY",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vrkvz38",
@@ -1089,7 +1109,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vrkvZ38"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vrkvZ38",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v_oqxoe",
@@ -1141,7 +1162,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_oqxoe"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_oqxoe",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vowff-f",
@@ -1193,7 +1215,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vowfF-f"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vowfF-f",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1konkpax",
@@ -1245,7 +1268,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kONkpax"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kONkpax",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1kbi4uav",
@@ -1297,7 +1321,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kbI4Uav"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kbI4Uav",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v4mzjas",
@@ -1349,7 +1374,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4MZJas"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4MZJas",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v73axp9",
@@ -1401,7 +1427,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v73axP9"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v73axP9",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koifuzg",
@@ -1453,7 +1480,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOIFUZg"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOIFUZg",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koecouy",
@@ -1505,7 +1533,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOeCouY"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOeCouY",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vfpafo8",
@@ -1557,6 +1586,7 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfPaFO8"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfPaFO8",
+    "verification_status": "needs_recheck"
   }
 ]

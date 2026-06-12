@@ -348,6 +348,7 @@ function artistHasVerifiedEventLinks(events, artistSlug) {
   const slug = slugify(artistSlug);
   return (events || []).some((event) => {
     if (!event || slugify(event.artist_slug) !== slug) return false;
+    if (!eventLinkPublishable(event)) return false;
     const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
     if (!Number.isFinite(ts) || ts < now) return false;
     const url = String(event.ticketmaster_url || "").trim();
@@ -742,7 +743,7 @@ function renderSearchResultItem(type, data) {
     const loc = [place, data.venue].filter(Boolean).join(" · ");
     nameEl.textContent = data.event_name || data.artist_name || "Verified show";
     desc.textContent = [dateStr, loc, data.tour_name].filter(Boolean).join(" — ");
-    const hasVerifiedLink = Boolean(safeVerifiedEventUrl(data.ticketmaster_url));
+    const hasVerifiedLink = eventLinkPublishable(data) && Boolean(safeVerifiedEventUrl(data.ticketmaster_url));
     if (hasVerifiedLink && data.id) {
       const params = new URLSearchParams({ showId: data.id, provider: "ticketmaster" });
       ctaHref = `/api/out?${params.toString()}`;
@@ -1097,6 +1098,7 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
       if (!event || slugify(event.artist_slug) !== slug) return false;
       const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
       if (!Number.isFinite(ts) || ts < now) return false;
+      if (!eventLinkPublishable(event)) return false;
       return /^https:\/\//i.test(String(event.ticketmaster_url || "").trim());
     })
     .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso) - Date.parse(b.dateTimeISO || b.datetime_iso));
@@ -1170,6 +1172,21 @@ function showLocation(show) {
     .join(" · ");
 }
 
+// Explicit event-link publishability. CTAs may render only for events whose
+// verification_status is an allowed publish state ("human_verified" or
+// "machine_high_confidence"); "needs_recheck" suppresses CTAs even when a
+// top-level ticketmaster_url is present. Events without an explicit
+// verification_status fall back to the legacy human-verified provider flag.
+// Keep in sync with eventLinkPublishable in functions/[[path]].js and
+// functions/api/out.js.
+const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
+
+function eventLinkPublishable(event) {
+  const status = String((event && event.verification_status) || "").trim().toLowerCase();
+  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  return Boolean(event && event.provider_links && event.provider_links.ticketmaster && event.provider_links.ticketmaster.verified === true);
+}
+
 function safeVerifiedEventUrl(value) {
   const raw = String(value || "").trim();
   if (!raw) return null;
@@ -1230,7 +1247,7 @@ function renderShowCard(show, options = {}) {
   } else if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
     const showId = String(show.id || "").trim();
-    if (ticketmasterUrl && showId) {
+    if (ticketmasterUrl && showId && eventLinkPublishable(show)) {
       const params = new URLSearchParams({ showId, provider: "ticketmaster" });
       const cta = buttonLink("View tickets", `/api/out?${params.toString()}`, "primary");
       cta.target = "_blank";

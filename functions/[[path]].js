@@ -332,7 +332,7 @@ function renderBreadcrumbHtml(route) {
 
 function artistHasVerifiedEventLinks(events, artistSlug) {
   return futureShowsForArtist(events, artistSlug, 6).some(
-    (show) => show.id && safeShowTicketUrl(show.ticketmaster_url)
+    (show) => show.id && show.publishable && safeShowTicketUrl(show.ticketmaster_url)
   );
 }
 
@@ -383,7 +383,7 @@ function formatCardDate(iso) {
 
 // Keep in sync with upcomingVerifiedShowSummary in public/app.js.
 function upcomingVerifiedShowSummary(events, artistSlug) {
-  const shows = futureShowsForArtist(events, artistSlug, 500).filter((show) => safeShowTicketUrl(show.ticketmaster_url));
+  const shows = futureShowsForArtist(events, artistSlug, 500).filter((show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url));
   if (!shows.length) return null;
   const next = formatCardDate(shows[0].dateTimeISO);
   if (!next) return null;
@@ -639,7 +639,8 @@ function futureShowsForArtist(events, artistSlug, limit) {
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
       seatgeek_url: String(ev.seatgeek_url || "").trim(),
       last_verified_at: String(ev.last_verified_at || "").trim(),
-      verification_status: String(ev.verification_status || "").trim()
+      verification_status: String(ev.verification_status || "").trim(),
+      publishable: eventLinkPublishable(ev)
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -666,6 +667,21 @@ function formatShowDateServer(iso) {
 
 function showLocationServer(show) {
   return [show.city, show.venue].filter((v) => String(v || "").trim()).join(" · ");
+}
+
+// Explicit event-link publishability. CTAs may render only for events whose
+// verification_status is an allowed publish state ("human_verified" or
+// "machine_high_confidence"); "needs_recheck" suppresses CTAs even when a
+// top-level ticketmaster_url is present. Events without an explicit
+// verification_status fall back to the legacy human-verified provider flag.
+// Keep in sync with eventLinkPublishable in public/app.js and
+// functions/api/out.js.
+const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
+
+function eventLinkPublishable(event) {
+  const status = String(event?.verification_status || "").trim().toLowerCase();
+  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  return event?.provider_links?.ticketmaster?.verified === true;
 }
 
 function safeShowTicketUrl(value) {
@@ -725,7 +741,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.</p>`;
-  } else if (validUrl && show.id) {
+  } else if (validUrl && show.id && show.publishable) {
     // Provider price/fee/availability disclosure lives once in the show-board
     // intro instead of repeating on every card.
     const ticketmasterCta = `${anchor("View tickets", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}`;

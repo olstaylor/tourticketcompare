@@ -126,7 +126,8 @@
         "url": "https://www.ticketmaster.com/jayz-extra-innings-bronx-new-york-07-12-2026/event/1D006473DB760A7F",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5vVZ_62hqOtT"
       },
       "seatgeek": {
         "event_id": null,
@@ -150,6 +151,7 @@
         "availability_status": "not_checked"
       }
     },
+    "ticketmaster_discovery_event_id": "G5vVZ_62hqOtT",
     "verification_status": "human_verified"
   }
 ]

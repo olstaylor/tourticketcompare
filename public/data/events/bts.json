@@ -47,7 +47,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-stanford-1c006429c9dda300",
@@ -97,7 +98,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-stanford-1c006435858268ec",
@@ -147,7 +149,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429d233149a",
@@ -197,7 +200,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3354a8c",
@@ -247,7 +251,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3454a9e",
@@ -297,7 +302,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3514ab0",
@@ -347,7 +353,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429eb39bb6f",
@@ -397,7 +404,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429ed30bceb",
@@ -447,7 +455,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cbd7ab56b",
@@ -497,7 +506,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cc24ebb04",
@@ -547,7 +557,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-chicago-0400642acbbd5d44",
@@ -597,7 +608,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-chicago-0400642acc7e5d9b",
@@ -647,7 +659,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429ab3c5ef1",
@@ -697,7 +710,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b1b363a4",
@@ -747,7 +761,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b2cb6418",
@@ -797,7 +812,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b353645f",
@@ -847,6 +863,7 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   }
 ]

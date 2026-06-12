@@ -269,6 +269,21 @@ function eventUrlContainsTicketmasterId(redirect, eventId) {
   return redirect.toString().toLowerCase().includes(encodeURIComponent(expected).toLowerCase());
 }
 
+// Explicit event-link publishability. Event-level redirects may resolve only
+// for events whose verification_status is an allowed publish state
+// ("human_verified" or "machine_high_confidence"); "needs_recheck" blocks the
+// redirect even when a top-level ticketmaster_url is present. Events without
+// an explicit verification_status fall back to the legacy human-verified
+// provider flag. Keep in sync with eventLinkPublishable in
+// functions/[[path]].js and public/app.js.
+const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
+
+function eventLinkPublishable(event) {
+  const status = clean(event?.verification_status, 64).toLowerCase();
+  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  return event?.provider_links?.ticketmaster?.verified === true;
+}
+
 function validateTicketmasterEventUrl(event, providerConfig) {
   const candidates = [event?.ticketmaster_url, event?.source_url];
   const eventId = clean(event?.ticketmaster_event_id, 255);
@@ -306,6 +321,7 @@ async function resolveShowLink(env, showId, provider) {
 
   const event = events.find((candidate) => clean(candidate?.id, 255) === showId);
   if (!event) return { ok: false, status: "show_not_found" };
+  if (!eventLinkPublishable(event)) return { ok: false, status: "event_link_not_publishable" };
 
   if (provider === "ticketmaster") {
     const providerConfig = PROVIDERS.ticketmaster;

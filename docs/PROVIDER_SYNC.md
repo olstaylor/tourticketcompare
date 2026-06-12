@@ -99,6 +99,28 @@ These are hard constraints, not preferences:
 
 ---
 
+## Event link publishability (`verification_status`)
+
+Every event row carries an explicit, top-level `verification_status` that
+drives whether event-level CTAs render and whether `/api/out` resolves the
+event redirect. Presence of a top-level `ticketmaster_url` is **not**
+sufficient on its own.
+
+| Value | CTA / redirect | Meaning |
+|---|---|---|
+| `human_verified` | allowed | A human opened the storefront URL in a browser and confirmed it. Equivalent to the legacy `provider_links.ticketmaster.verified: true` flag. |
+| `machine_high_confidence` | allowed | API-sourced link that passed every machine gate: Discovery artist-match confidence exactly 1.0, `https`, allowlisted Ticketmaster host (the `functions/api/out.js` list), canonical storefront path with a slug segment before `/event/<id>` (short-form `/event/<id>` URLs never qualify — they have 404'd in browsers while still resolving via the Discovery API), storefront event id present in the URL, full datetime, venue and city present. Assigned by `scripts/apply-artists.mjs` at apply time; never assigned by hand without re-checking the criteria. |
+| `needs_recheck` | suppressed | Anything else: weak/sub-1.0 matches, short-form URLs, non-allowlisted hosts, date-only datetimes, or links a human flagged. The candidate URL is preserved in `provider_links.ticketmaster.url` (and may remain in `ticketmaster_url`) but nothing renders until a human review changes the status. |
+
+Rows without an explicit `verification_status` fall back to
+`provider_links.ticketmaster.verified === true`. The runtime gate is
+`eventLinkPublishable`, kept in sync across `functions/[[path]].js`,
+`public/app.js`, and `functions/api/out.js`; allowed values are enforced by
+`scripts/validate-events.py`. Machine approval never sets the human-verified
+provider flag — `human_verified` is only ever assigned by a human.
+
+---
+
 ## Commands
 
 Available now:

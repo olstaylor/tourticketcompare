@@ -147,7 +147,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7",
@@ -197,7 +198,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387",
@@ -247,7 +249,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1avfz_agkvqmncz",
@@ -297,7 +300,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyed-b",
@@ -347,7 +351,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g",
@@ -397,7 +402,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkyetuoa",
@@ -447,7 +453,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkmlebgy",
@@ -497,7 +504,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agksbtqpc",
@@ -547,7 +555,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agkv-whjn",
@@ -597,7 +606,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vvg17z_13s_x9k",
@@ -647,7 +657,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmby4v9",
@@ -697,7 +708,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_",
@@ -747,7 +759,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkmwmykb",
@@ -797,7 +810,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkvcvogj",
@@ -847,7 +861,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtn2ij",
@@ -897,7 +912,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri-",
@@ -947,7 +963,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg",
@@ -997,7 +1014,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzoemy",
@@ -1047,7 +1065,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5",
@@ -1097,7 +1116,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw8bjb",
@@ -1147,7 +1167,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
@@ -1197,7 +1218,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf",
@@ -1247,7 +1269,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
@@ -1397,7 +1420,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh",
@@ -1447,7 +1471,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb",
@@ -1497,7 +1522,8 @@
       }
     },
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj",
@@ -1547,7 +1573,8 @@
       }
     },
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty",
@@ -1597,7 +1624,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1",
@@ -1647,7 +1675,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b",
@@ -1697,7 +1726,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1",
@@ -1747,7 +1777,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi",
@@ -1797,7 +1828,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy",
@@ -1847,7 +1879,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk",
@@ -1997,7 +2030,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b",
@@ -2047,7 +2081,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku",
@@ -2097,7 +2132,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45",
@@ -2147,7 +2183,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr",
@@ -2197,7 +2234,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph",
@@ -2247,7 +2285,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo",
@@ -2297,7 +2336,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd",
@@ -2347,7 +2387,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte-",
@@ -2397,7 +2438,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq",
@@ -2447,7 +2489,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq",
@@ -2497,7 +2540,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn",
@@ -2547,7 +2591,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl",
@@ -2597,7 +2642,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs",
@@ -2647,7 +2693,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx",
@@ -2697,7 +2744,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi",
@@ -2747,7 +2795,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi",
@@ -2797,7 +2846,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw",
@@ -2847,7 +2897,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg",
@@ -2897,7 +2948,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx",
@@ -2947,7 +2999,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e",
@@ -2997,7 +3050,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg",
@@ -3047,7 +3101,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa",
@@ -3097,7 +3152,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe",
@@ -3147,7 +3203,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za",
@@ -3197,7 +3254,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa",
@@ -3247,7 +3305,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm",
@@ -3297,7 +3356,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog",
@@ -3347,7 +3407,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao",
@@ -3397,7 +3458,8 @@
       }
     },
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8",
@@ -3447,7 +3509,8 @@
       }
     },
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah",
@@ -3497,7 +3560,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3",
@@ -3547,7 +3611,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusmfph",
@@ -3597,7 +3662,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkug10qr",
@@ -3647,7 +3713,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep",
@@ -3697,7 +3764,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff",
@@ -3747,7 +3815,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd",
@@ -3797,7 +3866,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol",
@@ -3847,7 +3917,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i",
@@ -3897,7 +3968,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b",
@@ -3947,7 +4019,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6",
@@ -3997,7 +4070,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7",
@@ -4047,7 +4121,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_",
@@ -4097,7 +4172,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4",
@@ -4197,7 +4273,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff",
@@ -4297,6 +4374,7 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   }
 ]

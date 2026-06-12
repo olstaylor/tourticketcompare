@@ -909,28 +909,77 @@ for (const [label, src] of [["functions/[[path]].js", pathSource], ["public/app.
   assert(!src.includes(TM_RECHECK_HIDDEN_COPY), `${label} must not render broad "Ticketmaster link temporarily hidden" recheck copy that can blanket-hide CTAs`);
 }
 
-// 2. Behavioural guard: even if an event carries transient review/recheck state
-//    (verification_status: needs_recheck, plus a stray suppression flag), the
-//    server-rendered page must still show the verified Ticketmaster AND SeatGeek
-//    CTAs, and must NOT show the recheck-hidden copy. Provider rendering is
-//    provider-specific, not globally gated by Ticketmaster review status.
-const recheckTaggedEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
-  ? { ...event, verification_status: "needs_recheck", ticketmaster_cta_suppressed: true, needs_recheck: true }
+// 2a. Behavioural guard: stray transient suppression flags alone (without an
+//     explicit reviewed verification_status) must NOT hide the verified
+//     Ticketmaster or SeatGeek CTAs, and must NOT render the recheck-hidden
+//     copy. This is the incident guard: blanket/transient suppression state
+//     can never blanket-hide CTAs — only the reviewed, row-level
+//     verification_status (2b below) or the provider verified flag may.
+const strayFlaggedEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? { ...event, ticketmaster_cta_suppressed: true, needs_recheck: true }
   : event));
-const recheckTaggedEnv = {
+const strayFlaggedEnv = {
   ...seatGeekBaseTrackingEnv,
   ASSETS: {
     async fetch(request) {
       const url = new URL(request.url);
-      if (url.pathname === "/data/events.json") return new Response(recheckTaggedEventsJson, { status: 200 });
+      if (url.pathname === "/data/events.json") return new Response(strayFlaggedEventsJson, { status: 200 });
       return seatGeekBaseTrackingEnv.ASSETS.fetch(request);
     }
   }
 };
-const recheckTaggedPage = await routeResponse("/artists/morgan-wallen", recheckTaggedEnv);
-assert(!recheckTaggedPage.text.includes(TM_RECHECK_HIDDEN_COPY), "transient recheck state must not render the Ticketmaster-hidden recheck copy on public pages");
-assert(recheckTaggedPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "verified Ticketmaster CTA must survive transient recheck/review state");
-assert(recheckTaggedPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "SeatGeek CTA must never be hidden by Ticketmaster recheck/review state");
+const strayFlaggedPage = await routeResponse("/artists/morgan-wallen", strayFlaggedEnv);
+assert(!strayFlaggedPage.text.includes(TM_RECHECK_HIDDEN_COPY), "stray suppression flags must not render the Ticketmaster-hidden recheck copy on public pages");
+assert(strayFlaggedPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "verified Ticketmaster CTA must survive stray transient suppression flags");
+assert(strayFlaggedPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "SeatGeek CTA must never be hidden by stray transient suppression flags");
+
+// 2b. Behavioural guard: an explicit, reviewed verification_status of
+//     needs_recheck IS the supported row-level suppression state — the event's
+//     CTAs must NOT render (eventLinkPublishable gate), and the recheck-hidden
+//     copy must still never render.
+const recheckStatusEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? { ...event, verification_status: "needs_recheck" }
+  : event));
+const recheckStatusEnv = {
+  ...seatGeekBaseTrackingEnv,
+  ASSETS: {
+    async fetch(request) {
+      const url = new URL(request.url);
+      if (url.pathname === "/data/events.json") return new Response(recheckStatusEventsJson, { status: 200 });
+      return seatGeekBaseTrackingEnv.ASSETS.fetch(request);
+    }
+  }
+};
+const recheckStatusPage = await routeResponse("/artists/morgan-wallen", recheckStatusEnv);
+assert(!recheckStatusPage.text.includes(TM_RECHECK_HIDDEN_COPY), "explicit needs_recheck must not render the Ticketmaster-hidden recheck copy");
+assert(!recheckStatusPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "explicit verification_status=needs_recheck must suppress the event's Ticketmaster CTA");
+assert(!recheckStatusPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "explicit verification_status=needs_recheck must suppress the event's SeatGeek CTA too (SeatGeek renders only beside a publishable Ticketmaster link)");
+
+// 2c. Behavioural guard: machine_high_confidence is CTA-publishable without
+//     the human-verified provider flag — the explicit status alone must keep
+//     the event CTA rendering.
+const machineStatusEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? {
+      ...event,
+      verification_status: "machine_high_confidence",
+      provider_links: {
+        ...event.provider_links,
+        ticketmaster: { ...event.provider_links?.ticketmaster, verified: false }
+      }
+    }
+  : event));
+const machineStatusEnv = {
+  ...seatGeekBaseTrackingEnv,
+  ASSETS: {
+    async fetch(request) {
+      const url = new URL(request.url);
+      if (url.pathname === "/data/events.json") return new Response(machineStatusEventsJson, { status: 200 });
+      return seatGeekBaseTrackingEnv.ASSETS.fetch(request);
+    }
+  }
+};
+const machineStatusPage = await routeResponse("/artists/morgan-wallen", machineStatusEnv);
+assert(machineStatusPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "verification_status=machine_high_confidence must keep the event Ticketmaster CTA rendering without the human-verified provider flag");
 
 // 3. Whole-page guard: no public artist page should ever ship the recheck-hidden
 //    copy while verified provider links exist on it.

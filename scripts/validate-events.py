@@ -17,6 +17,13 @@ from typing import Any
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 URL_RE = re.compile(r"^https?://", re.IGNORECASE)
 ALLOWED_STATUSES = {"draft", "announced", "on-sale", "past"}
+
+# Explicit event-link publishability states. human_verified and
+# machine_high_confidence allow CTAs/redirects; needs_recheck suppresses them.
+# Runtime gates: eventLinkPublishable in functions/[[path]].js, public/app.js,
+# functions/api/out.js. An absent key falls back to the legacy
+# provider_links.ticketmaster.verified flag.
+ALLOWED_VERIFICATION_STATUSES = {"human_verified", "machine_high_confidence", "needs_recheck"}
 PLACEHOLDER_MARKERS = (
     "example.com",
     "localhost",
@@ -617,6 +624,16 @@ def main() -> int:
             elif status.strip() not in ALLOWED_STATUSES:
                 allowed = ", ".join(sorted(ALLOWED_STATUSES))
                 errors.append(f"{prefix}.status: invalid '{status}' (allowed: {allowed})")
+
+        verification_status = event.get("verification_status")
+        if verification_status is not None:
+            if not isinstance(verification_status, str) or verification_status.strip() == "":
+                errors.append(f"{prefix}.verification_status: must be a non-empty string if present")
+            elif verification_status.strip() not in ALLOWED_VERIFICATION_STATUSES:
+                allowed = ", ".join(sorted(ALLOWED_VERIFICATION_STATUSES))
+                errors.append(
+                    f"{prefix}.verification_status: invalid '{verification_status}' (allowed: {allowed})"
+                )
 
         tz = event.get("timezone")
         if tz is not None:

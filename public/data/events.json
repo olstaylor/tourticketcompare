@@ -47,7 +47,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-indianapolis-0500635ddc56b025",
@@ -97,7 +98,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-gainesville-2200635d19f97a46",
@@ -147,7 +149,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-gainesville-2200635d1be07abe",
@@ -197,7 +200,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-denver-1e00635df7cf9add",
@@ -247,7 +251,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-denver-1e00635df7d99ae8",
@@ -297,7 +302,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-pittsburgh-1600635c84ff1ead",
@@ -347,7 +353,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-pittsburgh-1600635d93d83472",
@@ -397,7 +404,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-chicago-z7r9jz1a7qtbn",
@@ -449,7 +457,8 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbV"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbV",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-chicago-z7r9jz1a7qtba",
@@ -499,7 +508,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtbd",
@@ -549,7 +559,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtb7",
@@ -601,7 +612,8 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ9"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ9",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtba2",
@@ -651,7 +663,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtbk",
@@ -701,7 +714,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs",
@@ -751,7 +765,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbf",
@@ -803,7 +818,8 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbw"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbw",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635dc72ec234",
@@ -853,7 +869,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635da084a7a9",
@@ -903,7 +920,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350404814e",
@@ -953,7 +971,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504538196",
@@ -1003,7 +1022,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435046481aa",
@@ -1053,7 +1073,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435047f81c1",
@@ -1103,7 +1124,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435049481d0",
@@ -1153,7 +1175,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504a381d8",
@@ -1203,7 +1226,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504b581eb",
@@ -1253,7 +1277,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504c881f8",
@@ -1303,7 +1328,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504d78209",
@@ -1353,7 +1379,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504e38212",
@@ -1403,7 +1430,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505018228",
@@ -1453,7 +1481,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505178231",
@@ -1503,7 +1532,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350525823a",
@@ -1553,7 +1583,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505428256",
@@ -1603,7 +1634,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435054e8262",
@@ -1653,7 +1685,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505768283",
@@ -1703,7 +1736,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505888295",
@@ -1753,7 +1787,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435059882a6",
@@ -1803,7 +1838,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505aa82b9",
@@ -1853,7 +1889,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505b782ca",
@@ -1903,7 +1940,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505d182df",
@@ -1953,7 +1991,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505dd82e6",
@@ -2003,7 +2042,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505ee82f4",
@@ -2053,7 +2093,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506808378",
@@ -2103,7 +2144,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350690838a",
@@ -2153,7 +2195,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435069e8398",
@@ -2203,7 +2246,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506ae83a2",
@@ -2253,7 +2297,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506bf83b6",
@@ -2303,7 +2348,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506cf83cb",
@@ -2353,7 +2399,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506da83de",
@@ -2403,7 +2450,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-stanford-1c006429c95ea2b8",
@@ -2453,7 +2501,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-stanford-1c006429c9dda300",
@@ -2503,7 +2552,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-stanford-1c006435858268ec",
@@ -2553,7 +2603,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429d233149a",
@@ -2603,7 +2654,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3354a8c",
@@ -2653,7 +2705,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3454a9e",
@@ -2703,7 +2756,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-las-vegas-17006429e3514ab0",
@@ -2753,7 +2807,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429eb39bb6f",
@@ -2803,7 +2858,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429ed30bceb",
@@ -2853,7 +2909,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cbd7ab56b",
@@ -2903,7 +2960,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cc24ebb04",
@@ -2953,7 +3011,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-chicago-0400642acbbd5d44",
@@ -3003,7 +3062,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-chicago-0400642acc7e5d9b",
@@ -3053,7 +3113,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429ab3c5ef1",
@@ -3103,7 +3164,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b1b363a4",
@@ -3153,7 +3215,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b2cb6418",
@@ -3203,7 +3266,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b353645f",
@@ -3253,7 +3317,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-oakland-1c00631913d14ad8",
@@ -3303,7 +3368,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-oakland-1c00631a8fc31891",
@@ -3353,7 +3419,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-oakland-1c00632490b77e47",
@@ -3403,7 +3470,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-los-angeles-2c00631bd2240c78",
@@ -3453,7 +3521,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-los-angeles-2c00631bd1f40c75",
@@ -3503,7 +3572,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-inglewood-09006319299f5deb",
@@ -3553,7 +3623,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-inglewood-090063192f945f68",
@@ -3603,7 +3674,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-inglewood-09006325c6486b2e",
@@ -3653,7 +3725,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-austin-3a00631b9ce923db",
@@ -3703,7 +3776,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-austin-3a00631b9e202403",
@@ -3753,7 +3827,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-austin-3a00631b9f022430",
@@ -3803,7 +3878,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-atlanta-0e00631a8e691e65",
@@ -3853,7 +3929,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-atlanta-0e00631a8f331ed1",
@@ -3903,7 +3980,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-atlanta-0e006325bea26298",
@@ -3953,7 +4031,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f0e94aa7",
@@ -4003,7 +4082,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f34a4abb",
@@ -4053,7 +4133,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f41b4abf",
@@ -4103,7 +4184,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f49f4acd",
@@ -4153,7 +4235,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006325205054e3",
@@ -4203,7 +4286,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-boston-0100631aaef23ee8",
@@ -4253,7 +4337,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-boston-0100631aca626435",
@@ -4303,7 +4388,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-boston-010063289ef611c4",
@@ -4353,7 +4439,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319ddb22b1f",
@@ -4403,7 +4490,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319de3a2b37",
@@ -4453,7 +4541,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319dedc2b4c",
@@ -4503,7 +4592,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006319ddea2cd5",
@@ -4553,7 +4643,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-0400631adf313481",
@@ -4603,7 +4694,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006325ad9f24a7",
@@ -4653,7 +4745,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c8ea13055",
@@ -4703,7 +4796,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c937630fa",
@@ -4753,7 +4847,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c950d310b",
@@ -4803,7 +4898,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c97193144",
@@ -4853,7 +4949,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c98a031b3",
@@ -4903,7 +5000,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4e94ebb",
@@ -4953,7 +5051,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4fe4f2a",
@@ -5003,7 +5102,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f5075024",
@@ -5053,7 +5153,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4f54ef7",
@@ -5103,7 +5204,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f50f50d8",
@@ -5153,7 +5255,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-barcelona-653666176",
@@ -5203,7 +5306,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-barcelona-1116290311",
@@ -5253,7 +5357,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-417009905",
@@ -5303,7 +5408,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1848567714",
@@ -5353,7 +5459,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1589736692",
@@ -5403,7 +5510,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-961888291",
@@ -5453,7 +5561,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1852247887",
@@ -5503,7 +5612,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1341715816",
@@ -5553,7 +5663,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-412370092",
@@ -5603,7 +5714,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-2035589996",
@@ -5653,7 +5765,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1378879656",
@@ -5703,7 +5816,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-madrid-1566404077",
@@ -5753,7 +5867,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-d-sseldorf-1604365108",
@@ -5803,7 +5918,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-d-sseldorf-653946928",
@@ -5853,7 +5969,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-arnhem-1578299680",
@@ -5903,7 +6020,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-arnhem-2018685385",
@@ -5953,7 +6071,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-london-3500629efc0c8bc1",
@@ -6003,7 +6122,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-london-350062a39074101f",
@@ -6053,7 +6173,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-stockholm-625835491",
@@ -6103,7 +6224,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-stockholm-734104140",
@@ -6153,7 +6275,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-warsaw-1844913130",
@@ -6203,7 +6326,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
@@ -6253,7 +6377,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
@@ -6303,7 +6428,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bad-bunny-2026-brussels-1117180915",
@@ -6353,7 +6479,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473d78cfdb8",
@@ -6403,7 +6530,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473d9d109cb",
@@ -6453,7 +6581,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473db760a7f",
@@ -6503,7 +6632,8 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       }
-    }
+    },
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a706ep",
@@ -6653,7 +6783,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7",
@@ -6703,7 +6834,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387",
@@ -6753,7 +6885,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1avfz_agkvqmncz",
@@ -6803,7 +6936,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyed-b",
@@ -6853,7 +6987,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g",
@@ -6903,7 +7038,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkyetuoa",
@@ -6953,7 +7089,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkmlebgy",
@@ -7003,7 +7140,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agksbtqpc",
@@ -7053,7 +7191,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agkv-whjn",
@@ -7103,7 +7242,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vvg17z_13s_x9k",
@@ -7153,7 +7293,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmby4v9",
@@ -7203,7 +7344,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_",
@@ -7253,7 +7395,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkmwmykb",
@@ -7303,7 +7446,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkvcvogj",
@@ -7353,7 +7497,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtn2ij",
@@ -7403,7 +7548,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri-",
@@ -7453,7 +7599,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg",
@@ -7503,7 +7650,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzoemy",
@@ -7553,7 +7701,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5",
@@ -7603,7 +7752,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw8bjb",
@@ -7653,7 +7803,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
@@ -7703,7 +7854,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf",
@@ -7753,7 +7905,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
@@ -7903,7 +8056,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh",
@@ -7953,7 +8107,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb",
@@ -8003,7 +8158,8 @@
       }
     },
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj",
@@ -8053,7 +8209,8 @@
       }
     },
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty",
@@ -8103,7 +8260,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1",
@@ -8153,7 +8311,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b",
@@ -8203,7 +8362,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1",
@@ -8253,7 +8413,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi",
@@ -8303,7 +8464,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy",
@@ -8353,7 +8515,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk",
@@ -8503,7 +8666,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b",
@@ -8553,7 +8717,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku",
@@ -8603,7 +8768,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45",
@@ -8653,7 +8819,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr",
@@ -8703,7 +8870,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph",
@@ -8753,7 +8921,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo",
@@ -8803,7 +8972,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd",
@@ -8853,7 +9023,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte-",
@@ -8903,7 +9074,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq",
@@ -8953,7 +9125,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq",
@@ -9003,7 +9176,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn",
@@ -9053,7 +9227,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl",
@@ -9103,7 +9278,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs",
@@ -9153,7 +9329,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx",
@@ -9203,7 +9380,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi",
@@ -9253,7 +9431,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi",
@@ -9303,7 +9482,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw",
@@ -9353,7 +9533,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg",
@@ -9403,7 +9584,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx",
@@ -9453,7 +9635,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e",
@@ -9503,7 +9686,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg",
@@ -9553,7 +9737,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa",
@@ -9603,7 +9788,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe",
@@ -9653,7 +9839,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za",
@@ -9703,7 +9890,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa",
@@ -9753,7 +9941,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm",
@@ -9803,7 +9992,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog",
@@ -9853,7 +10043,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao",
@@ -9903,7 +10094,8 @@
       }
     },
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8",
@@ -9953,7 +10145,8 @@
       }
     },
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah",
@@ -10003,7 +10196,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3",
@@ -10053,7 +10247,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusmfph",
@@ -10103,7 +10298,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkug10qr",
@@ -10153,7 +10349,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep",
@@ -10203,7 +10400,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff",
@@ -10253,7 +10451,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd",
@@ -10303,7 +10502,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol",
@@ -10353,7 +10553,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i",
@@ -10403,7 +10604,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b",
@@ -10453,7 +10655,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6",
@@ -10503,7 +10706,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7",
@@ -10553,7 +10757,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_",
@@ -10603,7 +10808,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4",
@@ -10703,7 +10909,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff",
@@ -10803,7 +11010,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-columbus-vv1aazkcfgkdl2qzg",
@@ -10853,7 +11061,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkev_6oa",
@@ -10903,7 +11112,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkevq6og",
@@ -10953,7 +11163,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkevqmo2",
@@ -11003,7 +11214,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-1a8zkc8gkevhmob",
@@ -11053,7 +11265,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-toronto-168zk8yb-za2d6ed",
@@ -11103,7 +11316,8 @@
       }
     },
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_k",
@@ -11152,7 +11366,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_6",
@@ -11201,7 +11416,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_f",
@@ -11250,7 +11466,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_k",
@@ -11299,7 +11516,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_f",
@@ -11348,7 +11566,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_4",
@@ -11397,7 +11616,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vg6pypf",
@@ -11447,7 +11667,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16v3zapgk",
@@ -11497,7 +11718,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz1kbsa6fz",
@@ -11547,7 +11769,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vvoue3b",
@@ -11597,7 +11820,8 @@
       }
     },
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-madrid-z698xz2qz1kutpbz7",
@@ -11647,7 +11871,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-madrid-z698xz2qz1koyq7f6",
@@ -11697,7 +11922,8 @@
       }
     },
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_x",
@@ -11746,7 +11972,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_n",
@@ -11795,7 +12022,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1aegzbzgksgzoma",
@@ -11845,7 +12073,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdftyue",
@@ -11895,7 +12124,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkduy8wh",
@@ -11945,7 +12175,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdmnywe",
@@ -11995,7 +12226,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdzq8wy",
@@ -12045,7 +12277,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdbd8xc",
@@ -12095,7 +12328,8 @@
       }
     },
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm",
@@ -12145,7 +12379,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd",
@@ -12195,7 +12430,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydoxccx",
@@ -12245,7 +12481,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydonw2z",
@@ -12295,7 +12532,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626",
@@ -12345,7 +12583,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv1aezk8pgkdj_ywf",
@@ -12395,7 +12634,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0",
@@ -12445,7 +12685,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1a8vn0_ga221kn",
@@ -12495,7 +12736,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb",
@@ -12545,7 +12787,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph",
@@ -12595,7 +12838,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_e944pwc",
@@ -12645,7 +12889,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_exa-kfw",
@@ -12695,7 +12940,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-new-orleans-g5vizbye_a_hw",
@@ -12745,7 +12991,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_ekc64hs",
@@ -12795,7 +13042,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_",
@@ -12845,7 +13093,8 @@
       }
     },
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-san-antonio-g5dizbyc__upm",
@@ -12895,7 +13144,8 @@
       }
     },
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a",
@@ -12944,7 +13194,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i",
@@ -12993,7 +13244,8 @@
         "availability_status": "not_checked"
       }
     },
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f",
@@ -13043,7 +13295,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx",
@@ -13093,7 +13346,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyhid9od",
@@ -13143,7 +13397,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin",
@@ -13193,7 +13448,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is",
@@ -13243,7 +13499,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",
@@ -13293,7 +13550,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx",
@@ -13343,7 +13601,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm",
@@ -13393,7 +13652,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshvjex",
@@ -13443,7 +13703,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshmjia",
@@ -13493,7 +13754,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkwimwwb",
@@ -13543,7 +13805,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1k78v0fjgacrkay",
@@ -13593,7 +13856,8 @@
       }
     },
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-inglewood-vv1aazkovgkdf4iwr",
@@ -13606,11 +13870,11 @@
     "datetime_iso": "2026-06-14T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "09006474C856CC9E",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-13-2026/event/09006474C856CC9E",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/inglewood-california-intuit-dome-2026-06-13-7-30-pm/concert/18157383",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-13-2026/event/09006474C856CC9E",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13618,7 +13882,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-13-2026/event/09006474C856CC9E",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vv1AaZkoVGkdF4iwr"
       },
       "seatgeek": {
@@ -13646,7 +13910,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF4iwr",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-inglewood-vv1aazkovgkdf_jwm",
@@ -13659,11 +13923,11 @@
     "datetime_iso": "2026-06-15T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "09006474C865CCB7",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-14-2026/event/09006474C865CCB7",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/inglewood-california-intuit-dome-2026-06-14-7-30-pm/concert/18157382",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-14-2026/event/09006474C865CCB7",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13671,7 +13935,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-14-2026/event/09006474C865CCB7",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vv1AaZkoVGkdF_jwM"
       },
       "seatgeek": {
@@ -13699,7 +13963,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF_jwM",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-palm-desert-vvg1iz_6abv7yw",
@@ -13712,11 +13976,11 @@
     "datetime_iso": "2026-06-18T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0A0064727A044E72",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-palm-desert-california-06-17-2026/event/0A0064727A044E72",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-palm-desert-california-06-17-2026/event/0A0064727A044E72",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13724,7 +13988,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-palm-desert-california-06-17-2026/event/0A0064727A044E72",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vvG1IZ_6aBv7yw"
       },
       "seatgeek": {
@@ -13752,7 +14016,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vvG1IZ_6aBv7yw",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-san-jose-g5vyz_663mr7p",
@@ -13765,11 +14029,11 @@
     "datetime_iso": "2026-06-20T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1C006471D2B9E125",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-19-2026/event/1C006471D2B9E125",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/san-jose-california-sap-center-at-san-jose-2026-06-19-7-30-pm/concert/18157391",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-19-2026/event/1C006471D2B9E125",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13777,7 +14041,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-19-2026/event/1C006471D2B9E125",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_663mr7P"
       },
       "seatgeek": {
@@ -13805,7 +14069,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "G5vYZ_663mr7P",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-san-jose-g5vyz_6x6bktl",
@@ -13818,11 +14082,11 @@
     "datetime_iso": "2026-06-21T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1C00647F87E86A5F",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-20-2026/event/1C00647F87E86A5F",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/san-jose-california-sap-center-at-san-jose-2026-06-20-7-30-pm/concert/18225032",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-20-2026/event/1C00647F87E86A5F",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13830,7 +14094,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-20-2026/event/1C00647F87E86A5F",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_6X6BktL"
       },
       "seatgeek": {
@@ -13858,7 +14122,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "G5vYZ_6X6BktL",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-dallas-vvg1yz_6c939ia",
@@ -13871,11 +14135,11 @@
     "datetime_iso": "2026-06-24T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0C00647397497A05",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-dallas-texas-06-23-2026/event/0C00647397497A05",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/dallas-texas-american-airlines-center-2026-06-23-7-30-pm/concert/18157392",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-dallas-texas-06-23-2026/event/0C00647397497A05",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13883,7 +14147,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-dallas-texas-06-23-2026/event/0C00647397497A05",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vvG1YZ_6C939IA"
       },
       "seatgeek": {
@@ -13911,7 +14175,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vvG1YZ_6C939IA",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-atlanta-vvg1zz_66u4nyt",
@@ -13924,11 +14188,11 @@
     "datetime_iso": "2026-06-26T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0E006471CD56AE69",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-26-2026/event/0E006471CD56AE69",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/atlanta-georgia-state-farm-arena-1-2026-06-26-7-30-pm/concert/18157394",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-26-2026/event/0E006471CD56AE69",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13936,7 +14200,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-26-2026/event/0E006471CD56AE69",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vvG1zZ_66u4nyt"
       },
       "seatgeek": {
@@ -13964,7 +14228,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vvG1zZ_66u4nyt",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-atlanta-vvg1zz_f6arur7",
@@ -13977,11 +14241,11 @@
     "datetime_iso": "2026-06-28T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0E006481C9BCDBC4",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-28-2026/event/0E006481C9BCDBC4",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/atlanta-georgia-state-farm-arena-1-2026-06-28-7-30-pm/concert/18225030",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-28-2026/event/0E006481C9BCDBC4",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13989,7 +14253,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-28-2026/event/0E006481C9BCDBC4",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vvG1zZ_F6aRuR7"
       },
       "seatgeek": {
@@ -14017,7 +14281,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vvG1zZ_F6aRuR7",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-miami-vvg1vz_6knubnj",
@@ -14030,11 +14294,11 @@
     "datetime_iso": "2026-07-01T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0D006471AADBA8DC",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-01-2026/event/0D006471AADBA8DC",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/miami-florida-kaseya-center-2026-07-01-7-30-pm/concert/18157395",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-01-2026/event/0D006471AADBA8DC",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14042,7 +14306,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-01-2026/event/0D006471AADBA8DC",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vvG1VZ_6knUBNj"
       },
       "seatgeek": {
@@ -14070,7 +14334,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vvG1VZ_6knUBNj",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-miami-vvg1vz_6r8_upj",
@@ -14083,11 +14347,11 @@
     "datetime_iso": "2026-07-02T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0D00647790676966",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-02-2026/event/0D00647790676966",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/miami-florida-kaseya-center-2026-07-02-7-30-pm/concert/18225031",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-02-2026/event/0D00647790676966",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14095,7 +14359,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-02-2026/event/0D00647790676966",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vvG1VZ_6r8_UPJ"
       },
       "seatgeek": {
@@ -14123,7 +14387,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vvG1VZ_6r8_UPJ",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-baltimore-1a4zkosgf76zecv",
@@ -14136,11 +14400,11 @@
     "datetime_iso": "2026-07-06T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "15006471314107D0",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-baltimore-maryland-07-06-2026/event/15006471314107D0",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/baltimore-maryland-cfg-bank-arena-2026-07-06-7-30-pm/concert/18157397",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-baltimore-maryland-07-06-2026/event/15006471314107D0",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14148,7 +14412,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-baltimore-maryland-07-06-2026/event/15006471314107D0",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "1a4ZkosGf76ZeCv"
       },
       "seatgeek": {
@@ -14176,7 +14440,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "1a4ZkosGf76ZeCv",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-boston-vv1avzkosgkdb5unc",
@@ -14189,11 +14453,11 @@
     "datetime_iso": "2026-07-10T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "01006471D82F68CE",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-10-7-30-pm/concert/18157398",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14201,7 +14465,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vv1AvZkosGkdb5UNC"
       },
       "seatgeek": {
@@ -14229,7 +14493,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vv1AvZkosGkdb5UNC",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-boston-vv177z_6gkrmuczn",
@@ -14242,11 +14506,11 @@
     "datetime_iso": "2026-07-11T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0100647BEED8EE23",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-11-7-30-pm/concert/18225033",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14254,7 +14518,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vv177Z_6GkRmUCzN"
       },
       "seatgeek": {
@@ -14282,7 +14546,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vv177Z_6GkRmUCzN",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-newark-vv1aezkosgketdd_b",
@@ -14295,11 +14559,11 @@
     "datetime_iso": "2026-07-14T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "02006473A90FB67A",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/newark-new-jersey-prudential-center-2026-07-14-7-30-pm/concert/18157380",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14307,7 +14571,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vv1AeZkoSGketdD_B"
       },
       "seatgeek": {
@@ -14335,7 +14599,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vv1AeZkoSGketdD_B",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1ayzkosgkdghkeg",
@@ -14348,11 +14612,11 @@
     "datetime_iso": "2026-07-20T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "30006471F56C69CC",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-20-7-30-pm/concert/18157379",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14360,7 +14624,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "1AYZkosGkdghkEG"
       },
       "seatgeek": {
@@ -14388,7 +14652,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "1AYZkosGkdghkEG",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1adzz_6gktq1p0z",
@@ -14401,11 +14665,11 @@
     "datetime_iso": "2026-07-21T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "3000647FDD296900",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-21-7-30-pm/concert/18225034",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14413,7 +14677,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_6GkTq1p0Z"
       },
       "seatgeek": {
@@ -14441,7 +14705,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "1AdZZ_6GkTq1p0Z",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-belmont-park-15dzz_619b3pj",
@@ -14454,11 +14718,11 @@
     "datetime_iso": "2026-07-23T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "3000647297612966",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14466,7 +14730,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "15dZZ_619b3PJ"
       },
       "seatgeek": {
@@ -14494,7 +14758,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "15dZZ_619b3PJ",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-atlantic-city-vv17fz_6gkb5efrp",
@@ -14507,11 +14771,11 @@
     "datetime_iso": "2026-07-25T23:00:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0200647E8B0947A5",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/atlantic-city-new-jersey-boardwalk-hall-2026-07-25-7-30-pm/concert/18157403",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14519,7 +14783,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "availability_status": "not_checked",
         "discovery_event_id": "vv17FZ_6GkB5efrP"
       },
       "seatgeek": {
@@ -14547,7 +14811,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vv17FZ_6GkB5efrP",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1k7eo4av",
@@ -16624,11 +16888,11 @@
     "datetime_iso": "2026-06-12T23:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0E006434ED9CA34C",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-atlanta-georgia-06-12-2026/event/0E006434ED9CA34C",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-atlanta-georgia-06-12-2026/event/0E006434ED9CA34C",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16637,7 +16901,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-atlanta-georgia-06-12-2026/event/0E006434ED9CA34C",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -16664,7 +16928,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_dKcE1uG",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-summer-walker-2026-miami-vvg1vz_d3n-985",
@@ -16677,11 +16941,11 @@
     "datetime_iso": "2026-06-14T23:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0D006434AA85740B",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-miami-florida-06-14-2026/event/0D006434AA85740B",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-miami-florida-06-14-2026/event/0D006434AA85740B",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16690,7 +16954,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-miami-florida-06-14-2026/event/0D006434AA85740B",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -16717,7 +16981,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_d3n-985",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-summer-walker-2026-dallas-vvg1yz_dphg_3m",
@@ -16730,11 +16994,11 @@
     "datetime_iso": "2026-06-18T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0C0064359BD594B7",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-dallas-texas-06-17-2026/event/0C0064359BD594B7",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-dallas-texas-06-17-2026/event/0C0064359BD594B7",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16743,7 +17007,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-dallas-texas-06-17-2026/event/0C0064359BD594B7",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -16770,7 +17034,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_dphg_3M",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-summer-walker-2026-austin-g5diz_dpyyjel",
@@ -16783,11 +17047,11 @@
     "datetime_iso": "2026-06-19T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "3A006435B9C1C9EB",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-austin-texas-06-18-2026/event/3A006435B9C1C9EB",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-austin-texas-06-18-2026/event/3A006435B9C1C9EB",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16796,7 +17060,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-austin-texas-06-18-2026/event/3A006435B9C1C9EB",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -16823,7 +17087,7 @@
     "ticketmaster_discovery_event_id": "G5dIZ_dpyYjEl",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-summer-walker-2026-los-angeles-g5eyz_dpcrysi",
@@ -16836,11 +17100,11 @@
     "datetime_iso": "2026-06-26T02:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "2C0064358E7B0C6C",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-los-angeles-california-06-25-2026/event/2C0064358E7B0C6C",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-los-angeles-california-06-25-2026/event/2C0064358E7B0C6C",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16849,7 +17113,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-los-angeles-california-06-25-2026/event/2C0064358E7B0C6C",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -16876,7 +17140,7 @@
     "ticketmaster_discovery_event_id": "G5eYZ_dpCrYsi",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-summer-walker-2026-oakland-g5vyz_dptbovy",
@@ -16889,11 +17153,11 @@
     "datetime_iso": "2026-06-29T02:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1C006435BFEA0D30",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-oakland-california-06-28-2026/event/1C006435BFEA0D30",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-oakland-california-06-28-2026/event/1C006435BFEA0D30",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16902,7 +17166,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-oakland-california-06-28-2026/event/1C006435BFEA0D30",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -16929,7 +17193,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_dpTBOVY",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-summer-walker-2026-seattle-vvg1hz_d9kqqkt",
@@ -16942,11 +17206,11 @@
     "datetime_iso": "2026-07-02T02:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0F006435C675D4E9",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-seattle-washington-07-01-2026/event/0F006435C675D4E9",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-seattle-washington-07-01-2026/event/0F006435C675D4E9",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16955,7 +17219,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-seattle-washington-07-01-2026/event/0F006435C675D4E9",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -16982,7 +17246,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_d9kqqKt",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-summer-walker-2026-vancouver-1f78v0uvf8z7g576",
@@ -16995,11 +17259,11 @@
     "datetime_iso": "2026-07-04T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "110064341510BA36",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.ca/summer-walker-still-finally-over-it-vancouver-british-columbia-07-03-2026/event/110064341510BA36",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.ca/summer-walker-still-finally-over-it-vancouver-british-columbia-07-03-2026/event/110064341510BA36",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -17008,7 +17272,7 @@
         "url": "https://www.ticketmaster.ca/summer-walker-still-finally-over-it-vancouver-british-columbia-07-03-2026/event/110064341510BA36",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -17035,7 +17299,7 @@
     "ticketmaster_discovery_event_id": "1F78v0uvf8Z7G576",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-summer-walker-2026-london-1agzk8mgkdnfpsx",
@@ -17048,11 +17312,11 @@
     "datetime_iso": "2026-08-01T17:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "35006437EA516C62",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -17061,7 +17325,7 @@
         "url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -17088,7 +17352,7 @@
     "ticketmaster_discovery_event_id": "1AgZk8MGkdnfpsx",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   },
   {
     "id": "tm-summer-walker-2026-london-1agzk8ugkeefegp",
@@ -17101,11 +17365,11 @@
     "datetime_iso": "2026-08-02T17:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "35006436A7502325",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -17114,7 +17378,7 @@
         "url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": null,
@@ -17141,6 +17405,6 @@
     "ticketmaster_discovery_event_id": "1AgZk8UGkeEfeGP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "machine_high_confidence"
   }
 ]

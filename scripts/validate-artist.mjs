@@ -373,13 +373,23 @@ async function main() {
       );
     }
 
-    // Events with unverified provider links
-    const unverifiedTm = eventsForSlug.filter(
-      e => e?.provider_links?.ticketmaster?.verified === false
-    );
-    if (unverifiedTm.length > 0) {
+    // Events whose Ticketmaster link is not CTA-publishable. Mirrors
+    // eventLinkPublishable in functions/[[path]].js / public/app.js /
+    // functions/api/out.js: an explicit verification_status of
+    // human_verified or machine_high_confidence allows CTAs; needs_recheck
+    // suppresses them; with no explicit status the legacy
+    // provider_links.ticketmaster.verified flag decides.
+    const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
+    const nonPublishable = eventsForSlug.filter(e => {
+      const status = String(e?.verification_status || "").trim().toLowerCase();
+      if (status) return !PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+      return e?.provider_links?.ticketmaster?.verified !== true;
+    });
+    if (nonPublishable.length > 0) {
       report.warn(
-        `${unverifiedTm.length} event(s) have provider_links.ticketmaster.verified=false ` +
+        `${nonPublishable.length} event(s) are not CTA-publishable ` +
+        `(verification_status is needs_recheck, or no explicit status and ` +
+        `provider_links.ticketmaster.verified is not true) ` +
         `— show cards for these events will have no Ticketmaster CTA`
       );
     }

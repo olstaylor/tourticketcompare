@@ -13606,11 +13606,11 @@
     "datetime_iso": "2026-06-14T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "09006474C856CC9E",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-13-2026/event/09006474C856CC9E",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/inglewood-california-intuit-dome-2026-06-13-7-30-pm/concert/18157383",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-13-2026/event/09006474C856CC9E",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13618,7 +13618,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-13-2026/event/09006474C856CC9E",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vv1AaZkoVGkdF4iwr"
       },
       "seatgeek": {
@@ -13645,7 +13645,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF4iwr"
+    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF4iwr",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-inglewood-vv1aazkovgkdf_jwm",
@@ -13658,11 +13659,11 @@
     "datetime_iso": "2026-06-15T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "09006474C865CCB7",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-14-2026/event/09006474C865CCB7",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/inglewood-california-intuit-dome-2026-06-14-7-30-pm/concert/18157382",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-14-2026/event/09006474C865CCB7",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13670,7 +13671,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-inglewood-california-06-14-2026/event/09006474C865CCB7",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vv1AaZkoVGkdF_jwM"
       },
       "seatgeek": {
@@ -13697,7 +13698,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF_jwM"
+    "ticketmaster_discovery_event_id": "vv1AaZkoVGkdF_jwM",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-palm-desert-vvg1iz_6abv7yw",
@@ -13710,11 +13712,11 @@
     "datetime_iso": "2026-06-18T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0A0064727A044E72",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-palm-desert-california-06-17-2026/event/0A0064727A044E72",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-palm-desert-california-06-17-2026/event/0A0064727A044E72",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13722,7 +13724,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-palm-desert-california-06-17-2026/event/0A0064727A044E72",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vvG1IZ_6aBv7yw"
       },
       "seatgeek": {
@@ -13749,7 +13751,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1IZ_6aBv7yw"
+    "ticketmaster_discovery_event_id": "vvG1IZ_6aBv7yw",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-san-jose-g5vyz_663mr7p",
@@ -13762,11 +13765,11 @@
     "datetime_iso": "2026-06-20T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1C006471D2B9E125",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-19-2026/event/1C006471D2B9E125",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/san-jose-california-sap-center-at-san-jose-2026-06-19-7-30-pm/concert/18157391",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-19-2026/event/1C006471D2B9E125",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13774,7 +13777,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-19-2026/event/1C006471D2B9E125",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "G5vYZ_663mr7P"
       },
       "seatgeek": {
@@ -13801,7 +13804,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "G5vYZ_663mr7P"
+    "ticketmaster_discovery_event_id": "G5vYZ_663mr7P",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-san-jose-g5vyz_6x6bktl",
@@ -13814,11 +13818,11 @@
     "datetime_iso": "2026-06-21T02:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1C00647F87E86A5F",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-20-2026/event/1C00647F87E86A5F",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/san-jose-california-sap-center-at-san-jose-2026-06-20-7-30-pm/concert/18225032",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-20-2026/event/1C00647F87E86A5F",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13826,7 +13830,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-san-jose-california-06-20-2026/event/1C00647F87E86A5F",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "G5vYZ_6X6BktL"
       },
       "seatgeek": {
@@ -13853,7 +13857,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "G5vYZ_6X6BktL"
+    "ticketmaster_discovery_event_id": "G5vYZ_6X6BktL",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-dallas-vvg1yz_6c939ia",
@@ -13866,11 +13871,11 @@
     "datetime_iso": "2026-06-24T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0C00647397497A05",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-dallas-texas-06-23-2026/event/0C00647397497A05",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/dallas-texas-american-airlines-center-2026-06-23-7-30-pm/concert/18157392",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-dallas-texas-06-23-2026/event/0C00647397497A05",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13878,7 +13883,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-dallas-texas-06-23-2026/event/0C00647397497A05",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vvG1YZ_6C939IA"
       },
       "seatgeek": {
@@ -13905,7 +13910,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1YZ_6C939IA"
+    "ticketmaster_discovery_event_id": "vvG1YZ_6C939IA",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-atlanta-vvg1zz_66u4nyt",
@@ -13918,11 +13924,11 @@
     "datetime_iso": "2026-06-26T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0E006471CD56AE69",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-26-2026/event/0E006471CD56AE69",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/atlanta-georgia-state-farm-arena-1-2026-06-26-7-30-pm/concert/18157394",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-26-2026/event/0E006471CD56AE69",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13930,7 +13936,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-26-2026/event/0E006471CD56AE69",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vvG1zZ_66u4nyt"
       },
       "seatgeek": {
@@ -13957,7 +13963,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1zZ_66u4nyt"
+    "ticketmaster_discovery_event_id": "vvG1zZ_66u4nyt",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-atlanta-vvg1zz_f6arur7",
@@ -13970,11 +13977,11 @@
     "datetime_iso": "2026-06-28T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0E006481C9BCDBC4",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-28-2026/event/0E006481C9BCDBC4",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/atlanta-georgia-state-farm-arena-1-2026-06-28-7-30-pm/concert/18225030",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-28-2026/event/0E006481C9BCDBC4",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -13982,7 +13989,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlanta-georgia-06-28-2026/event/0E006481C9BCDBC4",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vvG1zZ_F6aRuR7"
       },
       "seatgeek": {
@@ -14009,7 +14016,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1zZ_F6aRuR7"
+    "ticketmaster_discovery_event_id": "vvG1zZ_F6aRuR7",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-miami-vvg1vz_6knubnj",
@@ -14022,11 +14030,11 @@
     "datetime_iso": "2026-07-01T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0D006471AADBA8DC",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-01-2026/event/0D006471AADBA8DC",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/miami-florida-kaseya-center-2026-07-01-7-30-pm/concert/18157395",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-01-2026/event/0D006471AADBA8DC",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14034,7 +14042,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-01-2026/event/0D006471AADBA8DC",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vvG1VZ_6knUBNj"
       },
       "seatgeek": {
@@ -14061,7 +14069,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1VZ_6knUBNj"
+    "ticketmaster_discovery_event_id": "vvG1VZ_6knUBNj",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-miami-vvg1vz_6r8_upj",
@@ -14074,11 +14083,11 @@
     "datetime_iso": "2026-07-02T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0D00647790676966",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-02-2026/event/0D00647790676966",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/miami-florida-kaseya-center-2026-07-02-7-30-pm/concert/18225031",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-02-2026/event/0D00647790676966",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14086,7 +14095,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-miami-florida-07-02-2026/event/0D00647790676966",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vvG1VZ_6r8_UPJ"
       },
       "seatgeek": {
@@ -14113,7 +14122,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vvG1VZ_6r8_UPJ"
+    "ticketmaster_discovery_event_id": "vvG1VZ_6r8_UPJ",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-baltimore-1a4zkosgf76zecv",
@@ -14126,11 +14136,11 @@
     "datetime_iso": "2026-07-06T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "15006471314107D0",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-baltimore-maryland-07-06-2026/event/15006471314107D0",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/baltimore-maryland-cfg-bank-arena-2026-07-06-7-30-pm/concert/18157397",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-baltimore-maryland-07-06-2026/event/15006471314107D0",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14138,7 +14148,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-baltimore-maryland-07-06-2026/event/15006471314107D0",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "1a4ZkosGf76ZeCv"
       },
       "seatgeek": {
@@ -14165,7 +14175,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "1a4ZkosGf76ZeCv"
+    "ticketmaster_discovery_event_id": "1a4ZkosGf76ZeCv",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-boston-vv1avzkosgkdb5unc",
@@ -14178,11 +14189,11 @@
     "datetime_iso": "2026-07-10T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "01006471D82F68CE",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-10-7-30-pm/concert/18157398",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14190,7 +14201,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vv1AvZkosGkdb5UNC"
       },
       "seatgeek": {
@@ -14217,7 +14228,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv1AvZkosGkdb5UNC"
+    "ticketmaster_discovery_event_id": "vv1AvZkosGkdb5UNC",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-boston-vv177z_6gkrmuczn",
@@ -14230,11 +14242,11 @@
     "datetime_iso": "2026-07-11T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0100647BEED8EE23",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-11-7-30-pm/concert/18225033",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14242,7 +14254,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vv177Z_6GkRmUCzN"
       },
       "seatgeek": {
@@ -14269,7 +14281,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv177Z_6GkRmUCzN"
+    "ticketmaster_discovery_event_id": "vv177Z_6GkRmUCzN",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-newark-vv1aezkosgketdd_b",
@@ -14282,11 +14295,11 @@
     "datetime_iso": "2026-07-14T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "02006473A90FB67A",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/newark-new-jersey-prudential-center-2026-07-14-7-30-pm/concert/18157380",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14294,7 +14307,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vv1AeZkoSGketdD_B"
       },
       "seatgeek": {
@@ -14321,7 +14334,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv1AeZkoSGketdD_B"
+    "ticketmaster_discovery_event_id": "vv1AeZkoSGketdD_B",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1ayzkosgkdghkeg",
@@ -14334,11 +14348,11 @@
     "datetime_iso": "2026-07-20T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "30006471F56C69CC",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-20-7-30-pm/concert/18157379",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14346,7 +14360,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "1AYZkosGkdghkEG"
       },
       "seatgeek": {
@@ -14373,7 +14387,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "1AYZkosGkdghkEG"
+    "ticketmaster_discovery_event_id": "1AYZkosGkdghkEG",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1adzz_6gktq1p0z",
@@ -14386,11 +14401,11 @@
     "datetime_iso": "2026-07-21T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "3000647FDD296900",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-21-7-30-pm/concert/18225034",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14398,7 +14413,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "1AdZZ_6GkTq1p0Z"
       },
       "seatgeek": {
@@ -14425,7 +14440,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "1AdZZ_6GkTq1p0Z"
+    "ticketmaster_discovery_event_id": "1AdZZ_6GkTq1p0Z",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-belmont-park-15dzz_619b3pj",
@@ -14438,11 +14454,11 @@
     "datetime_iso": "2026-07-23T23:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "3000647297612966",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14450,7 +14466,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "15dZZ_619b3PJ"
       },
       "seatgeek": {
@@ -14477,7 +14493,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "15dZZ_619b3PJ"
+    "ticketmaster_discovery_event_id": "15dZZ_619b3PJ",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-atlantic-city-vv17fz_6gkb5efrp",
@@ -14490,11 +14507,11 @@
     "datetime_iso": "2026-07-25T23:00:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0200647E8B0947A5",
-    "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/atlantic-city-new-jersey-boardwalk-hall-2026-07-25-7-30-pm/concert/18157403",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14502,7 +14519,7 @@
         "url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "vv17FZ_6GkB5efrP"
       },
       "seatgeek": {
@@ -14529,7 +14546,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "vv17FZ_6GkB5efrP"
+    "ticketmaster_discovery_event_id": "vv17FZ_6GkB5efrP",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1k7eo4av",
@@ -14542,11 +14560,11 @@
     "datetime_iso": "2026-09-18T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "127815141",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14554,7 +14572,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ1k7EO4Av"
       },
       "seatgeek": {
@@ -14581,7 +14599,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k7EO4Av"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k7EO4Av",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vas39ay",
@@ -14594,11 +14613,11 @@
     "datetime_iso": "2026-09-19T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1273497170",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14606,7 +14625,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ16vaS39AY"
       },
       "seatgeek": {
@@ -14633,7 +14652,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaS39AY"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaS39AY",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vrkvz38",
@@ -14646,11 +14666,11 @@
     "datetime_iso": "2026-09-20T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1786040490",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14658,7 +14678,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ16vrkvZ38"
       },
       "seatgeek": {
@@ -14685,7 +14705,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vrkvZ38"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vrkvZ38",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v_oqxoe",
@@ -14698,11 +14719,11 @@
     "datetime_iso": "2026-09-25T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1651762442",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14710,7 +14731,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ16v_oqxoe"
       },
       "seatgeek": {
@@ -14737,7 +14758,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_oqxoe"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_oqxoe",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vowff-f",
@@ -14750,11 +14772,11 @@
     "datetime_iso": "2026-09-26T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1472508854",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14762,7 +14784,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ16vowfF-f"
       },
       "seatgeek": {
@@ -14789,7 +14811,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vowfF-f"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vowfF-f",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1konkpax",
@@ -14802,11 +14825,11 @@
     "datetime_iso": "2026-09-27T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "823196262",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14814,7 +14837,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ1kONkpax"
       },
       "seatgeek": {
@@ -14841,7 +14864,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kONkpax"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kONkpax",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1kbi4uav",
@@ -14854,11 +14878,11 @@
     "datetime_iso": "2026-10-02T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "628576241",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14866,7 +14890,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ1kbI4Uav"
       },
       "seatgeek": {
@@ -14893,7 +14917,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kbI4Uav"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kbI4Uav",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v4mzjas",
@@ -14906,11 +14931,11 @@
     "datetime_iso": "2026-10-03T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1577026271",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14918,7 +14943,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ16v4MZJas"
       },
       "seatgeek": {
@@ -14945,7 +14970,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4MZJas"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4MZJas",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v73axp9",
@@ -14958,11 +14984,11 @@
     "datetime_iso": "2026-10-04T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1112262957",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -14970,7 +14996,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ16v73axP9"
       },
       "seatgeek": {
@@ -14997,7 +15023,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v73axP9"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v73axP9",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koifuzg",
@@ -15010,11 +15037,11 @@
     "datetime_iso": "2026-10-09T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "828236035",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -15022,7 +15049,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ1kOIFUZg"
       },
       "seatgeek": {
@@ -15049,7 +15076,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOIFUZg"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOIFUZg",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koecouy",
@@ -15062,11 +15090,11 @@
     "datetime_iso": "2026-10-10T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "802391370",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -15074,7 +15102,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ1kOeCouY"
       },
       "seatgeek": {
@@ -15101,7 +15129,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOeCouY"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOeCouY",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vfpafo8",
@@ -15114,11 +15143,11 @@
     "datetime_iso": "2026-10-11T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1525248810",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -15126,7 +15155,7 @@
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked",
+        "availability_status": "needs_recheck",
         "discovery_event_id": "Z698xZ2qZ16vfPaFO8"
       },
       "seatgeek": {
@@ -15153,7 +15182,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfPaFO8"
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfPaFO8",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-ed-sheeran-2026-glendale-z7r9jz1a7jm",

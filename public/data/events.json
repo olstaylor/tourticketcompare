@@ -16594,11 +16594,11 @@
     "datetime_iso": "2026-06-12T23:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0E006434ED9CA34C",
-    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-atlanta-georgia-06-12-2026/event/0E006434ED9CA34C",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-atlanta-georgia-06-12-2026/event/0E006434ED9CA34C",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16607,7 +16607,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-atlanta-georgia-06-12-2026/event/0E006434ED9CA34C",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16633,7 +16633,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_dKcE1uG",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-summer-walker-2026-miami-vvg1vz_d3n-985",
@@ -16646,11 +16647,11 @@
     "datetime_iso": "2026-06-14T23:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0D006434AA85740B",
-    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-miami-florida-06-14-2026/event/0D006434AA85740B",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-miami-florida-06-14-2026/event/0D006434AA85740B",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16659,7 +16660,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-miami-florida-06-14-2026/event/0D006434AA85740B",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16685,7 +16686,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_d3n-985",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-summer-walker-2026-dallas-vvg1yz_dphg_3m",
@@ -16698,11 +16700,11 @@
     "datetime_iso": "2026-06-18T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0C0064359BD594B7",
-    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-dallas-texas-06-17-2026/event/0C0064359BD594B7",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-dallas-texas-06-17-2026/event/0C0064359BD594B7",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16711,7 +16713,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-dallas-texas-06-17-2026/event/0C0064359BD594B7",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16737,7 +16739,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_dphg_3M",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-summer-walker-2026-austin-g5diz_dpyyjel",
@@ -16750,11 +16753,11 @@
     "datetime_iso": "2026-06-19T00:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "3A006435B9C1C9EB",
-    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-austin-texas-06-18-2026/event/3A006435B9C1C9EB",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-austin-texas-06-18-2026/event/3A006435B9C1C9EB",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16763,7 +16766,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-austin-texas-06-18-2026/event/3A006435B9C1C9EB",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16789,7 +16792,8 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_dpyYjEl",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-summer-walker-2026-los-angeles-g5eyz_dpcrysi",
@@ -16802,11 +16806,11 @@
     "datetime_iso": "2026-06-26T02:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "2C0064358E7B0C6C",
-    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-los-angeles-california-06-25-2026/event/2C0064358E7B0C6C",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-los-angeles-california-06-25-2026/event/2C0064358E7B0C6C",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16815,7 +16819,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-los-angeles-california-06-25-2026/event/2C0064358E7B0C6C",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16841,7 +16845,8 @@
     },
     "ticketmaster_discovery_event_id": "G5eYZ_dpCrYsi",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-summer-walker-2026-oakland-g5vyz_dptbovy",
@@ -16854,11 +16859,11 @@
     "datetime_iso": "2026-06-29T02:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1C006435BFEA0D30",
-    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-oakland-california-06-28-2026/event/1C006435BFEA0D30",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-oakland-california-06-28-2026/event/1C006435BFEA0D30",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16867,7 +16872,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-oakland-california-06-28-2026/event/1C006435BFEA0D30",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16893,7 +16898,8 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_dpTBOVY",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-summer-walker-2026-seattle-vvg1hz_d9kqqkt",
@@ -16906,11 +16912,11 @@
     "datetime_iso": "2026-07-02T02:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0F006435C675D4E9",
-    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-seattle-washington-07-01-2026/event/0F006435C675D4E9",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-seattle-washington-07-01-2026/event/0F006435C675D4E9",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16919,7 +16925,7 @@
         "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-seattle-washington-07-01-2026/event/0F006435C675D4E9",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16945,7 +16951,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_d9kqqKt",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-summer-walker-2026-vancouver-1f78v0uvf8z7g576",
@@ -16958,11 +16965,11 @@
     "datetime_iso": "2026-07-04T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "110064341510BA36",
-    "ticketmaster_url": "https://www.ticketmaster.ca/summer-walker-still-finally-over-it-vancouver-british-columbia-07-03-2026/event/110064341510BA36",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.ca/summer-walker-still-finally-over-it-vancouver-british-columbia-07-03-2026/event/110064341510BA36",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -16971,7 +16978,7 @@
         "url": "https://www.ticketmaster.ca/summer-walker-still-finally-over-it-vancouver-british-columbia-07-03-2026/event/110064341510BA36",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -16997,7 +17004,8 @@
     },
     "ticketmaster_discovery_event_id": "1F78v0uvf8Z7G576",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-summer-walker-2026-london-1agzk8mgkdnfpsx",
@@ -17010,11 +17018,11 @@
     "datetime_iso": "2026-08-01T17:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "35006437EA516C62",
-    "ticketmaster_url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -17023,7 +17031,7 @@
         "url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -17049,7 +17057,8 @@
     },
     "ticketmaster_discovery_event_id": "1AgZk8MGkdnfpsx",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   },
   {
     "id": "tm-summer-walker-2026-london-1agzk8ugkeefegp",
@@ -17062,11 +17071,11 @@
     "datetime_iso": "2026-08-02T17:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "35006436A7502325",
-    "ticketmaster_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
+    "source_url": "",
     "last_verified_at": null,
     "provider_links": {
       "ticketmaster": {
@@ -17075,7 +17084,7 @@
         "url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -17101,6 +17110,7 @@
     },
     "ticketmaster_discovery_event_id": "1AgZk8UGkeEfeGP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "verification_status": "needs_recheck"
   }
 ]

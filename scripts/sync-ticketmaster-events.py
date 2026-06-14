@@ -278,6 +278,7 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     event_id = (tm_event.get("id") or "").strip()
     url = (tm_event.get("url") or "").strip()
     status_code = (((tm_event.get("dates") or {}).get("status") or {}).get("code") or "").strip().lower()
+    timezone = (((tm_event.get("dates") or {}).get("timezone")) or "").strip()
     datetime_iso, has_exact_time = parse_event_datetime(tm_event)
 
     if not datetime_iso:
@@ -366,9 +367,14 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         "event_id": event_id,
         "event_name": event_name,
         "datetime_iso": datetime_iso,
+        "timezone": timezone,
         "venue": venue_name,
         "city": city,
         "country": country,
+        # The resolved storefront URL a downstream write-to-PR step would
+        # publish (direct URL as-is, or the unwrapped affiliate destination).
+        # Empty when the URL is missing/malformed — such rows are withheld.
+        "ticketmaster_url": resolved_url,
         "raw_url_host": raw_url_host,
         "resolved_url_host": resolved_url_host,
         "url_resolution_status": url_resolution_status,

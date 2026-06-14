@@ -13,3 +13,4 @@ candidates/
 
 # Audit artifacts (generated during CI runs, uploaded separately)
 .audit/
+artifacts/

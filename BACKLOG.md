@@ -62,7 +62,7 @@ Implementation sequence (one PR each, in order):
 
 1. **Foundation** — registry + validator + offline dry-run scaffold. ✅ Done (PR #243).
 2. **Ticketmaster dry-run sync** — live TM Discovery API by verified attraction ID for `sync_enabled` artists; report-only; withholds risky rows; no writes. ✅ Done — `python3 scripts/sync-ticketmaster-events.py --artist raye --dry-run` (+ `--json`, `npm run providers:sync:tm:self-test`); fails safely without `TICKETMASTER_API_KEY`. Review the RAYE dry-run report before designing step 3.
-3. **Ticketmaster write-to-PR mode** — explicit `--write-pr` gate; validated rows land on a branch + PR for human review; never commits to `main`.
+3. **Ticketmaster write-to-PR mode** — ✅ Done — `scripts/sync-tm-events-write-pr.mjs` (`npm run providers:sync:tm:write-pr`). Explicit `--write-pr` gate (defaults to a no-write preview); PROPOSED recogniser rows are applied through `apply-artists.mjs` (the canonical events writer + validate-with-rollback) and land on a branch + PR with the `automation:tm-events` label. Withheld rows → `withheld-review.md`, never the data files. Never commits to `main`; never auto-merges; `tour_name` left blank for human verification. Offline self-test: `npm run providers:sync:tm:write-pr:self-test`. See `docs/PROVIDER_SYNC.md`.
 4. **SeatGeek enrichment dry-run** — extend existing SeatGeek tooling to consume `seatgeek_performer_id`; event-level URL proposals only; no prices.
 5. **CTA generation from provider status** — CTA eligibility derived from verified provider state; `VERIFIED_TICKET_LINKS` and `/api/out` gates unchanged.
 

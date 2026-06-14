@@ -35,6 +35,8 @@
     "providers:candidates:no-api": "node scripts/propose-provider-candidates.mjs --no-api",
     "providers:sync:tm:dry-run": "python3 scripts/sync-ticketmaster-events.py --all-approved --dry-run",
     "providers:sync:tm:self-test": "python3 scripts/sync-ticketmaster-events.py --self-test",
+    "providers:sync:tm:write-pr": "node scripts/sync-tm-events-write-pr.mjs",
+    "providers:sync:tm:write-pr:self-test": "node scripts/sync-tm-events-write-pr.mjs --self-test",
     "providers:enrich": "node scripts/enrich-events-with-provider-links.js",
     "providers:parity": "node scripts/report-provider-parity.mjs",
     "test:providers": "npm run providers:validate",

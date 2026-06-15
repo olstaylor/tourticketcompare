@@ -53,8 +53,10 @@ Useful flags (both enrich + propose): `--artist <slug-or-name>`, `--limit <n>`,
 
 ## Registry performer-id scoping (provider-sync step 4)
 
-When an artist has a verified `seatgeek_performer_id` in
-`data/provider-identities.json`, `propose-seatgeek-urls.mjs` uses it to:
+When an artist has a `seatgeek_performer_id` in
+`data/provider-identities.json` **and the entry's `review_status` is
+`"verified"`** (an id on an unverified/withheld entry is ignored),
+`propose-seatgeek-urls.mjs` uses it to:
 
 - **Scope the SeatGeek query by `performers.id`** (a strongest-first attempt
   tried before the free-text artist queries), which eliminates same-name /

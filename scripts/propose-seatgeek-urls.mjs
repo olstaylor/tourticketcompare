@@ -440,10 +440,13 @@ function candidatePerformerIds(candidate) {
 }
 
 // Reads data/provider-identities.json and returns a Map of artist slug ->
-// verified seatgeek_performer_id, including only integer ids (nulls are skipped:
-// an unverified artist is simply searched by name as before). Any missing or
-// unreadable registry yields an empty map — the proposal still runs, just
-// without performer-id scoping.
+// seatgeek_performer_id, including an integer id ONLY when the entry's
+// review_status is "verified" — an id on an unverified/withheld entry is an
+// identity that was not approved, so it must not scope queries or confirm a
+// candidate (the same review_status gate the Ticketmaster sync applies). Null
+// ids and non-verified entries are skipped: the artist is searched by name as
+// before. Any missing or unreadable registry yields an empty map — the proposal
+// still runs, just without performer-id scoping.
 async function loadPerformerIdMap(registryPath) {
   const map = new Map();
   if (!registryPath) return map;
@@ -455,7 +458,7 @@ async function loadPerformerIdMap(registryPath) {
   }
   for (const entry of Array.isArray(parsed?.artists) ? parsed.artists : []) {
     const slug = clean(entry?.slug, 120);
-    if (slug && Number.isInteger(entry?.seatgeek_performer_id)) {
+    if (slug && clean(entry?.review_status) === "verified" && Number.isInteger(entry?.seatgeek_performer_id)) {
       map.set(slug, entry.seatgeek_performer_id);
     }
   }
@@ -1014,6 +1017,22 @@ async function runSelfTest() {
   const tempDir = await fs.mkdtemp(path.join(process.env.TMPDIR || "/tmp", "ttc-sg-proposal-"));
   const eventsPath = path.join(tempDir, "events.json");
   const outputPath = path.join(tempDir, "report.json");
+
+  // Only a "verified" registry entry contributes a performer id; an id on an
+  // unverified/withheld entry must be ignored (identity not approved).
+  const registryPath = path.join(tempDir, "registry.json");
+  await fs.writeFile(registryPath, JSON.stringify({ artists: [
+    { slug: "verified-artist", review_status: "verified", seatgeek_performer_id: 11 },
+    { slug: "unverified-artist", review_status: "unverified", seatgeek_performer_id: 22 },
+    { slug: "withheld-artist", review_status: "withheld", seatgeek_performer_id: 33 },
+    { slug: "null-artist", review_status: "verified", seatgeek_performer_id: null }
+  ] }));
+  const performerMap = await loadPerformerIdMap(registryPath);
+  assert.equal(performerMap.get("verified-artist"), 11, "verified entry contributes its performer id");
+  assert.equal(performerMap.has("unverified-artist"), false, "unverified entry must not contribute a performer id");
+  assert.equal(performerMap.has("withheld-artist"), false, "withheld entry must not contribute a performer id");
+  assert.equal(performerMap.has("null-artist"), false, "null performer id is skipped");
+
   await fs.writeFile(eventsPath, `${JSON.stringify([event], null, 2)}\n`);
   const before = await sha256File(eventsPath);
   const oldClientId = process.env.SEATGEEK_CLIENT_ID;

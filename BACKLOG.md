@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-06-12 (Ed Sheeran resolution: owner confirmed tour name "The Loop Tour" and spot-checked the long-form storefront URLs; 24/27 events restored to `machine_high_confidence`, 3 short-form URLs stay suppressed. Issue #172 closed. New drift recorded: 10 summer-walker events live with blank `tour_name`, 12 shakira events `needs_recheck` — see `PROJECT_STATUS.md`.)
+Last updated: 2026-06-15 (verification refresh — priorities below re-checked against the repo and confirmed current; no reordering or re-scoping, no new issues opened/closed since 2026-06-12. Prior update 2026-06-12: Ed Sheeran resolution: owner confirmed tour name "The Loop Tour" and spot-checked the long-form storefront URLs; 24/27 events restored to `machine_high_confidence`, 3 short-form URLs stay suppressed. Issue #172 closed. New drift recorded: 10 summer-walker events live with blank `tour_name`, 12 shakira events `needs_recheck` — see `PROJECT_STATUS.md`.)
 
 Previous update: 2026-06-11 (documentation cleanup: factual drift corrections only — priorities unchanged and owner-managed. Data drift note: between 2026-06-03 and 2026-06-11 the repo gained 5 artists — shakira, raye, charli-xcx, tate-mcrae, summer-walker — plus an ed-sheeran promotion and 57 events. **Owner review requested** on the corrections marked "[2026-06-11 correction]" below.)
 

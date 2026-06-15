@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-06-12 (Ed Sheeran tour name "The Loop Tour" owner-confirmed and 24/27 event URLs restored as `machine_high_confidence`; counts and per-artist table re-verified by direct inspection of `public/data/` — the repo had drifted again since 2026-06-11: 10 Summer Walker events landed with CTAs live and blank `tour_name`, and 12 Shakira events became `needs_recheck` via PR #273)
+Last updated: 2026-06-15 (verification refresh — re-counted `public/data/*.json` and `functions/api/out.js` by direct inspection: 15 artists / 339 events / 226 with `seatgeek_url` / 23 `needs_recheck` / 10 Summer Walker blank `tour_name`. No drift since the 2026-06-12 update; figures below confirmed current, no content changes required. Prior update 2026-06-12: Ed Sheeran tour name "The Loop Tour" owner-confirmed and 24/27 event URLs restored as `machine_high_confidence`; counts and per-artist table re-verified by direct inspection of `public/data/` — the repo had drifted again since 2026-06-11: 10 Summer Walker events landed with CTAs live and blank `tour_name`, and 12 Shakira events became `needs_recheck` via PR #273)
 
 This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. `docs/DOCS_MAINTENANCE.md` explains which files are canonical and how to keep this one fresh. Everything in `docs/archive/` is historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
 

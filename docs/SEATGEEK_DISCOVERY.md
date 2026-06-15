@@ -51,12 +51,35 @@ Useful flags (both enrich + propose): `--artist <slug-or-name>`, `--limit <n>`,
 `--delay-ms <n>`, `--verbose`. Enrichment also supports `--max-api-calls`,
 `--resume-from-log`, `--resume-from <showId>`, and `--refresh`.
 
+## Registry performer-id scoping (provider-sync step 4)
+
+When an artist has a verified `seatgeek_performer_id` in
+`data/provider-identities.json`, `propose-seatgeek-urls.mjs` uses it to:
+
+- **Scope the SeatGeek query by `performers.id`** (a strongest-first attempt
+  tried before the free-text artist queries), which eliminates same-name /
+  tribute collisions at the API level; and
+- **Confirm candidate identity by id** — a candidate whose SeatGeek performer id
+  equals the verified registry id clears the mandatory performer-similarity
+  gate even when SeatGeek styles the performer name differently.
+
+This **never** relaxes the other mandatory gates (valid event-level URL, exact
+local date, city). It is event-level only — the performer id scopes a search for
+*events*, it never proposes a performer/artist page URL. Artists with a `null`
+performer id (all of them today) are searched by name exactly as before, so the
+behaviour is unchanged until a human verifies and populates a performer id
+(one-time, per `docs/PROVIDER_SYNC.md`). The proposal report's
+`summary.registry_performer_id` block records how many artists carry a verified
+id, how many events were scoped by id, and how many candidates were id-confirmed.
+
+This step remains **proposal-only/dry-run**: it never writes `events.json`.
+
 ## Matching & safety model
 
-Candidates are scored on artist/performer similarity, exact local date, city
-(exact or known metro equivalent), venue similarity, concert/music taxonomy, and
-event-URL validity. A match is only applied (`high_confidence`) when **all**
-mandatory checks pass:
+Candidates are scored on artist/performer similarity (or a verified performer-id
+confirmation, see above), exact local date, city (exact or known metro
+equivalent), venue similarity, concert/music taxonomy, and event-URL validity. A
+match is only applied (`high_confidence`) when **all** mandatory checks pass:
 
 - valid event-level SeatGeek URL,
 - performer similarity ≥ 0.9,

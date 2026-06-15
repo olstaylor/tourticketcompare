@@ -9,6 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const DEFAULT_EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
 const DEFAULT_OUTPUT_PATH = path.join(REPO_ROOT, "reports", "seatgeek-url-candidates.json");
+const DEFAULT_REGISTRY_PATH = path.join(REPO_ROOT, "data", "provider-identities.json");
 const SEATGEEK_EVENTS_ENDPOINT = "https://api.seatgeek.com/2/events";
 const DEFAULT_PER_PAGE = 10;
 const DEFAULT_TIMEOUT_MS = 20_000;
@@ -61,13 +62,14 @@ async function configureFetchProxy() {
 }
 
 function usage() {
-  return `Usage: node scripts/propose-seatgeek-urls.mjs [options]\n\nProposal-only SeatGeek URL enrichment. Reads events, optionally queries SeatGeek when server-side credentials are present, and writes a review JSON file only. It never mutates public/data/events.json.\n\nOptions:\n  --output <path>       Review JSON output path (default: reports/seatgeek-url-candidates.json)\n  --events <path>       Events JSON path (default: public/data/events.json)\n  --artist <value>      Filter by artist slug or name\n  --limit <number>      Process at most this many missing future events\n  --delay-ms <number>   Delay before each SeatGeek API request (default: 350)\n  --dry-run             Explicit dry run; retained for clarity because all modes are proposal-only\n  --verbose             Log redacted SeatGeek request URLs and scoring details\n  --self-test           Run built-in smoke tests without calling SeatGeek\n  --diagnostics-output <path>  Write a curated SeatGeek API diagnostics Markdown report\n  -h, --help            Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID     Enables SeatGeek API lookups when present\n  SEATGEEK_CLIENT_SECRET Optional; sent server-side if present and always redacted from logs/output\n  TTC_TODAY              Optional YYYY-MM-DD date override for deterministic local testing\n`;
+  return `Usage: node scripts/propose-seatgeek-urls.mjs [options]\n\nProposal-only SeatGeek URL enrichment. Reads events, optionally queries SeatGeek when server-side credentials are present, and writes a review JSON file only. It never mutates public/data/events.json.\n\nOptions:\n  --output <path>       Review JSON output path (default: reports/seatgeek-url-candidates.json)\n  --events <path>       Events JSON path (default: public/data/events.json)\n  --registry <path>     Provider identity registry path (default: data/provider-identities.json); supplies verified seatgeek_performer_id for performer-id-scoped queries\n  --artist <value>      Filter by artist slug or name\n  --limit <number>      Process at most this many missing future events\n  --delay-ms <number>   Delay before each SeatGeek API request (default: 350)\n  --dry-run             Explicit dry run; retained for clarity because all modes are proposal-only\n  --verbose             Log redacted SeatGeek request URLs and scoring details\n  --self-test           Run built-in smoke tests without calling SeatGeek\n  --diagnostics-output <path>  Write a curated SeatGeek API diagnostics Markdown report\n  -h, --help            Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID     Enables SeatGeek API lookups when present\n  SEATGEEK_CLIENT_SECRET Optional; sent server-side if present and always redacted from logs/output\n  TTC_TODAY              Optional YYYY-MM-DD date override for deterministic local testing\n`;
 }
 
 function parseArgs(argv) {
   const options = {
     outputPath: DEFAULT_OUTPUT_PATH,
     eventsPath: DEFAULT_EVENTS_PATH,
+    registryPath: DEFAULT_REGISTRY_PATH,
     artist: "",
     limit: null,
     delayMs: DEFAULT_DELAY_MS,
@@ -87,6 +89,10 @@ function parseArgs(argv) {
       const value = argv[++i];
       if (!value || value.startsWith("--")) throw new Error("--events requires a path");
       options.eventsPath = path.resolve(REPO_ROOT, value);
+    } else if (arg === "--registry") {
+      const value = argv[++i];
+      if (!value || value.startsWith("--")) throw new Error("--registry requires a path");
+      options.registryPath = path.resolve(REPO_ROOT, value);
     } else if (arg === "--artist") {
       const value = argv[++i];
       if (!value || value.startsWith("--")) throw new Error("--artist requires a value");
@@ -268,18 +274,28 @@ function addDays(dateString, days) {
   return date.toISOString().slice(0, 10);
 }
 
-function buildAttempts(event) {
+function buildAttempts(event, performerId = null) {
   const artist = clean(event.artist_name || event.artist_slug, 120);
   const venue = clean(event.venue, 160);
   const city = clean(event.city, 100);
   const date = localDateFromIso(event.datetime_iso, event.timezone);
-  return [
+  const attempts = [];
+  // Strongest first: when a verified registry performer id exists, scope the
+  // query to that performer id rather than a free-text artist name. This
+  // eliminates name-collision results (tributes, same-name acts) at the API
+  // level. Still event-level: it filters events by performer, never proposes a
+  // performer/artist page URL.
+  if (Number.isInteger(performerId)) {
+    attempts.push({ name: "performer id + exact date", performerId, city: "", start: date, end: date });
+  }
+  attempts.push(
     { name: "artist + venue + city + exact date", q: [artist, venue, city].filter(Boolean).join(" "), city, start: date, end: date },
     { name: "artist + city + exact date", q: [artist, city].filter(Boolean).join(" "), city, start: date, end: date },
     { name: "artist + venue + exact date", q: [artist, venue].filter(Boolean).join(" "), city: "", start: date, end: date },
     { name: "artist + city + narrow date window", q: [artist, city].filter(Boolean).join(" "), city, start: addDays(date, -1), end: addDays(date, 1) },
     { name: "artist only + exact date", q: artist, city: "", start: date, end: date }
-  ].filter((attempt) => attempt.q && attempt.start && attempt.end);
+  );
+  return attempts.filter((attempt) => (attempt.q || Number.isInteger(attempt.performerId)) && attempt.start && attempt.end);
 }
 
 function seatgeekCredentials() {
@@ -299,11 +315,14 @@ function buildSeatGeekApiUrl(attempt, credentials) {
     client_id: credentials.clientId,
     per_page: String(DEFAULT_PER_PAGE),
     sort: "score.desc",
-    q: attempt.q,
     "datetime_local.gte": `${attempt.start}T00:00:00`,
     "datetime_local.lte": `${attempt.end}T23:59:59`,
     "taxonomies.name": "concert"
   });
+  // A performer-id attempt filters by the verified performer rather than a
+  // free-text artist name; otherwise fall back to the text query.
+  if (Number.isInteger(attempt.performerId)) params.set("performers.id", String(attempt.performerId));
+  else params.set("q", attempt.q);
   if (credentials.clientSecret) params.set("client_secret", credentials.clientSecret);
   if (attempt.city) params.set("venue.city", attempt.city);
   return `${SEATGEEK_EVENTS_ENDPOINT}?${params.toString()}`;
@@ -360,8 +379,8 @@ function rawCandidateSummary(candidate) {
   };
 }
 
-async function fetchCandidates(event, options, credentials) {
-  const attempts = buildAttempts(event);
+async function fetchCandidates(event, options, credentials, performerId = null) {
+  const attempts = buildAttempts(event, performerId);
   const candidateMap = new Map();
   const attemptResults = [];
   for (const attempt of attempts) {
@@ -412,6 +431,40 @@ function candidatePerformers(candidate) {
   return Array.isArray(candidate?.performers) ? candidate.performers.map((performer) => clean(performer?.name, 120)).filter(Boolean) : [];
 }
 
+// Integer SeatGeek performer ids attached to a candidate event. Used to confirm
+// identity against the verified registry id (data/provider-identities.json).
+function candidatePerformerIds(candidate) {
+  return Array.isArray(candidate?.performers)
+    ? candidate.performers.map((performer) => performer?.id).filter((id) => Number.isInteger(id))
+    : [];
+}
+
+// Reads data/provider-identities.json and returns a Map of artist slug ->
+// seatgeek_performer_id, including an integer id ONLY when the entry's
+// review_status is "verified" — an id on an unverified/withheld entry is an
+// identity that was not approved, so it must not scope queries or confirm a
+// candidate (the same review_status gate the Ticketmaster sync applies). Null
+// ids and non-verified entries are skipped: the artist is searched by name as
+// before. Any missing or unreadable registry yields an empty map — the proposal
+// still runs, just without performer-id scoping.
+async function loadPerformerIdMap(registryPath) {
+  const map = new Map();
+  if (!registryPath) return map;
+  let parsed;
+  try {
+    parsed = JSON.parse(await fs.readFile(registryPath, "utf8"));
+  } catch {
+    return map;
+  }
+  for (const entry of Array.isArray(parsed?.artists) ? parsed.artists : []) {
+    const slug = clean(entry?.slug, 120);
+    if (slug && clean(entry?.review_status) === "verified" && Number.isInteger(entry?.seatgeek_performer_id)) {
+      map.set(slug, entry.seatgeek_performer_id);
+    }
+  }
+  return map;
+}
+
 function taxonomyNames(candidate) {
   return Array.isArray(candidate?.taxonomies) ? candidate.taxonomies.map((taxonomy) => clean(taxonomy?.name, 80).toLowerCase()).filter(Boolean) : [];
 }
@@ -443,7 +496,7 @@ function metroLikeMatch(eventCity, sgVenue) {
   return Boolean(eventCityNorm && candidateCityNorm && metroPairs.has(`${eventCityNorm}|${candidateCityNorm}`));
 }
 
-function scoreCandidate(event, candidate) {
+function scoreCandidate(event, candidate, performerId = null) {
   const reasons = [];
   const riskFlags = [];
   let score = 0;
@@ -451,7 +504,17 @@ function scoreCandidate(event, candidate) {
   const artist = clean(event.artist_name || event.artist_slug, 120);
   const performers = candidatePerformers(candidate);
   const performerSimilarities = performers.map((name) => Math.max(diceSimilarity(artist, name), containsNormalized(name, artist) || containsNormalized(artist, name) ? 1 : 0));
-  const bestPerformerSimilarity = performerSimilarities.length ? Math.max(...performerSimilarities) : 0;
+  const namePerformerSimilarity = performerSimilarities.length ? Math.max(...performerSimilarities) : 0;
+  // A verified registry performer id present on the candidate is an exact
+  // identity confirmation — stronger than any name-string similarity, and it
+  // clears the mandatory performer_similarity gate even when SeatGeek styles
+  // the performer name differently. It never relaxes the date/city/URL gates.
+  const performerIdMatch = Number.isInteger(performerId) && candidatePerformerIds(candidate).includes(performerId);
+  const bestPerformerSimilarity = performerIdMatch ? 1 : namePerformerSimilarity;
+  if (performerIdMatch) {
+    score += 5;
+    reasons.push("confirmed SeatGeek performer id match");
+  }
   const titleSimilarity = Math.max(diceSimilarity(event.event_name || artist, candidate.title), diceSimilarity(artist, candidate.title));
   const venueSimilarity = Math.max(diceSimilarity(event.venue, candidateVenue(candidate)), containsNormalized(event.venue, candidateVenue(candidate)) || containsNormalized(candidateVenue(candidate), event.venue) ? 1 : 0);
   const eventDate = localDateFromIso(event.datetime_iso, event.timezone);
@@ -542,6 +605,7 @@ function scoreCandidate(event, candidate) {
     risk_flags: [...new Set(riskFlags)],
     signals: {
       performer_similarity: Number(bestPerformerSimilarity.toFixed(3)),
+      performer_id_match: performerIdMatch,
       title_similarity: Number(titleSimilarity.toFixed(3)),
       venue_similarity: Number(venueSimilarity.toFixed(3)),
       exact_date: exactDate,
@@ -602,7 +666,7 @@ function emptyCandidate(event, reason) {
   };
 }
 
-function summarize({ future, alreadyCovered, missing, missingAll, candidates, credentials, noCandidateEventIds, asOfDate }) {
+function summarize({ future, alreadyCovered, missing, missingAll, candidates, credentials, noCandidateEventIds, asOfDate, performerIdScopedEvents = 0, performerIdConfirmedCandidates = 0, performerIdRegistryCount = 0 }) {
   const artists = {};
   for (const candidate of candidates) {
     if (candidate.proposed_seatgeek_url) artists[candidate.artist] = (artists[candidate.artist] || 0) + 1;
@@ -620,6 +684,14 @@ function summarize({ future, alreadyCovered, missing, missingAll, candidates, cr
     needs_review_count: candidates.filter((candidate) => candidate.proposed_status === "needs_review").length,
     rejected_count: candidates.filter((candidate) => candidate.proposed_status === "reject").length,
     events_with_no_candidate_found: noCandidateEventIds.sort(),
+    registry_performer_id: {
+      // verified seatgeek_performer_id entries in data/provider-identities.json
+      artists_with_verified_performer_id: performerIdRegistryCount,
+      // missing events whose artist had a verified performer id (query scoped by id)
+      events_scoped_by_performer_id: performerIdScopedEvents,
+      // candidates whose SeatGeek performer id matched the verified registry id
+      candidates_confirmed_by_performer_id: performerIdConfirmedCandidates
+    },
     seatgeek_api: {
       credentials_available: credentials.configured,
       client_id_present: credentials.clientIdPresent,
@@ -647,9 +719,12 @@ async function runProposal(options) {
   if (!Array.isArray(events)) throw new Error(`${path.relative(REPO_ROOT, options.eventsPath)} must contain a JSON array`);
 
   const credentials = seatgeekCredentials();
+  const performerIdMap = await loadPerformerIdMap(options.registryPath || DEFAULT_REGISTRY_PATH);
   const { future, alreadyCovered, missing, missingAll } = selectMissingFutureEvents(events, options, asOfDate);
   const candidates = [];
   const noCandidateEventIds = [];
+  let performerIdScopedEvents = 0;
+  let performerIdConfirmedCandidates = 0;
 
   if (!credentials.configured) {
     for (const event of missing) {
@@ -658,19 +733,28 @@ async function runProposal(options) {
     console.log("SeatGeek credentials unavailable: SEATGEEK_CLIENT_ID is not set. Wrote a review file with summary only; no API calls were made.");
   } else {
     for (const event of missing) {
-      const apiResult = await fetchCandidates(event, options, credentials);
-      const scored = classifyScoredCandidates(apiResult.candidates.map((candidate) => scoreCandidate(event, candidate)));
+      const performerId = performerIdMap.get(clean(event.artist_slug, 120));
+      const usePerformerId = Number.isInteger(performerId);
+      if (usePerformerId) performerIdScopedEvents += 1;
+      const apiResult = await fetchCandidates(event, options, credentials, usePerformerId ? performerId : null);
+      const scored = classifyScoredCandidates(
+        apiResult.candidates.map((candidate) => scoreCandidate(event, candidate, usePerformerId ? performerId : null))
+      );
+      performerIdConfirmedCandidates += scored.filter((candidate) => candidate.signals?.performer_id_match).length;
       if (!scored.length) {
         noCandidateEventIds.push(clean(event.id, 160));
         candidates.push(emptyCandidate(event, "no_candidate_found"));
       } else {
         candidates.push(...scored);
       }
-      if (options.verbose) console.error(`Scored ${scored.length} candidate(s) for ${event.id}; attempts=${apiResult.attempts.length}`);
+      if (options.verbose) console.error(`Scored ${scored.length} candidate(s) for ${event.id}; attempts=${apiResult.attempts.length}${usePerformerId ? ` (performer id ${performerId})` : ""}`);
     }
   }
 
-  const summary = summarize({ future, alreadyCovered, missing, missingAll, candidates, credentials, noCandidateEventIds, asOfDate });
+  const summary = summarize({
+    future, alreadyCovered, missing, missingAll, candidates, credentials, noCandidateEventIds, asOfDate,
+    performerIdScopedEvents, performerIdConfirmedCandidates, performerIdRegistryCount: performerIdMap.size
+  });
   const report = {
     summary,
     candidates: candidates.map(({ raw, signals, ...candidate }) => candidate)
@@ -896,9 +980,59 @@ async function runSelfTest() {
   assert.notEqual(classifiedLow[0].proposed_status, "high_confidence", "low-confidence artist mismatch should not be high_confidence");
   for (const field of requiredCandidateFields()) assert.ok(field in classifiedStrong[0], `candidate output should include ${field}`);
 
+  // ── Registry performer-id scoping (step 4) ──────────────────────────────
+  const PERFORMER_ID = 35;
+  // A candidate whose SeatGeek-styled performer NAME differs but whose performer
+  // id matches the verified registry id: name similarity alone would fail the
+  // 0.9 gate, but the confirmed id clears it without relaxing date/city/URL.
+  const idMatchCandidate = {
+    ...strongCandidate,
+    id: 9,
+    title: "EXAMPLE-ARTIST (Stylised) Tickets",
+    performers: [{ name: "EXAMPLE-ARTIST (Stylised)", id: PERFORMER_ID }],
+    url: "https://seatgeek.com/example-artist-tickets/boston-massachusetts-fenway-park-2026-08-01-7-30-pm/concert/9"
+  };
+  const idScored = scoreCandidate(event, idMatchCandidate, PERFORMER_ID);
+  assert.equal(idScored.signals.performer_id_match, true, "matching registry performer id should be confirmed");
+  assert.equal(idScored.signals.performer_similarity, 1, "confirmed performer id should clear the similarity gate");
+  assert.ok(idScored.match_reasons.includes("confirmed SeatGeek performer id match"), "confirmed id should be a stated reason");
+  assert.equal(classifyScoredCandidates([idScored])[0].proposed_status, "high_confidence", "confirmed performer id + exact date/city/url should be high_confidence");
+  // A non-matching id (or no registry id) must not fabricate a confirmation.
+  assert.equal(scoreCandidate(event, idMatchCandidate, 99).signals.performer_id_match, false, "non-matching performer id must not confirm");
+  assert.equal(scoreCandidate(event, strongCandidate, null).signals.performer_id_match, false, "absent registry id must not confirm");
+
+  // buildAttempts prepends a performer-id-scoped attempt; the API URL uses
+  // performers.id and omits the free-text q.
+  const idAttempts = buildAttempts(event, PERFORMER_ID);
+  assert.equal(idAttempts[0].name, "performer id + exact date", "performer-id attempt should be tried first");
+  const idUrl = buildSeatGeekApiUrl(idAttempts[0], { clientId: "x" });
+  assert.ok(idUrl.includes("performers.id=35"), "performer-id query should scope by performers.id");
+  assert.ok(!new URL(idUrl).searchParams.has("q"), "performer-id query should omit the free-text q");
+  assert.ok(buildSeatGeekApiUrl(idAttempts[1], { clientId: "x" }).includes("q="), "text attempts should still send q");
+  assert.equal(buildAttempts(event, null).every((attempt) => !Number.isInteger(attempt.performerId)), true, "no registry id means no performer-id attempt");
+
+  // Missing/unreadable registry yields an empty map (proposal still runs).
+  assert.equal((await loadPerformerIdMap(path.join(REPO_ROOT, "data", "no-such-registry-xyz.json"))).size, 0, "missing registry should yield an empty map");
+
   const tempDir = await fs.mkdtemp(path.join(process.env.TMPDIR || "/tmp", "ttc-sg-proposal-"));
   const eventsPath = path.join(tempDir, "events.json");
   const outputPath = path.join(tempDir, "report.json");
+
+  // Only a "verified" registry entry contributes a performer id; an id on an
+  // unverified/withheld entry must be ignored (identity not approved).
+  const registryPath = path.join(tempDir, "registry.json");
+  await fs.writeFile(registryPath, JSON.stringify({ artists: [
+    { slug: "verified-artist", review_status: "verified", seatgeek_performer_id: 11 },
+    { slug: "unverified-artist", review_status: "unverified", seatgeek_performer_id: 22 },
+    { slug: "withheld-artist", review_status: "withheld", seatgeek_performer_id: 33 },
+    { slug: "null-artist", review_status: "verified", seatgeek_performer_id: null }
+  ] }));
+  const performerMap = await loadPerformerIdMap(registryPath);
+  assert.equal(performerMap.get("verified-artist"), 11, "verified entry contributes its performer id");
+  assert.equal(performerMap.has("unverified-artist"), false, "unverified entry must not contribute a performer id");
+  assert.equal(performerMap.has("withheld-artist"), false, "withheld entry must not contribute a performer id");
+  assert.equal(performerMap.has("null-artist"), false, "null performer id is skipped");
+
   await fs.writeFile(eventsPath, `${JSON.stringify([event], null, 2)}\n`);
   const before = await sha256File(eventsPath);
   const oldClientId = process.env.SEATGEEK_CLIENT_ID;
@@ -926,8 +1060,10 @@ async function runSelfTest() {
     "high_confidence_count",
     "needs_review_count",
     "rejected_count",
-    "events_with_no_candidate_found"
+    "events_with_no_candidate_found",
+    "registry_performer_id"
   ]) assert.ok(field in written.summary, `summary should include ${field}`);
+  assert.ok("artists_with_verified_performer_id" in written.summary.registry_performer_id, "summary should report registry performer-id usage");
   console.log("Self-test passed: no mutation, required fields, generic URL rejection, low-confidence downgrade, and missing credential handling verified.");
 }
 

@@ -58,6 +58,7 @@ Run before committing data, content, or rendering changes:
 - `python3 scripts/validate-events.py --for-production` — event schema, hard error on missing `tour_name` key, warning on blank `tour_name` for indexed artists (PR #186).
 - `node scripts/validate-guide-routes.mjs` — guide route / content / sitemap drift validation (PR #184).
 - `node scripts/validate-artist-provider-claims.mjs` — artist metadata vs `VERIFIED_TICKET_LINKS` drift guard (PR #185).
+- `node scripts/validate-cta-provider-state.mjs` (`npm run validate:cta-provider-state`, in `test:mvp`) — read-only CTA ↔ provider-state guard: artist CTAs backed by a `verified` registry identity, no `withheld` identity publishing, every publishable event resolvable through `/api/out`, every `machine_high_confidence` row meeting its canonical contract. Runtime gates unchanged.
 - `npm run artist:check -- <slug>` — per-artist readiness validator: checks `artists.json`, `catalog.json`, `events.json`, partition files, `VERIFIED_TICKET_LINKS` in `out.js`, and the `shows.js` affiliate map (PR #188; since 2026-06-11 the shows.js map is derived from out.js and the signup allowlist from artists.json — neither is hand-edited per artist).
 - `node scripts/smoke-prelaunch.mjs` — route/CTA/copy smoke checks.
 - `npm run seatgeek:self-test` — SeatGeek discovery scoring/safety smoke test (no API calls). Run before changing the discovery tooling.
@@ -109,7 +110,7 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 - Verified Ticketmaster CTAs (artist- and event-level) where configured.
 - Verified event-level SeatGeek CTAs — live in production where a verified `seatgeek_url` exists alongside a valid `ticketmaster_url`; routed through `/api/out` with Impact tracking (SeatGeek Impact bindings present). Currently 226/339 events carry a stored `seatgeek_url`. Event-level SeatGeek URL discovery tooling is operational and wired in (`npm run seatgeek:propose` / `seatgeek:enrich:apply`, `SeatGeek Discovery Proposal` workflow); see `BACKLOG.md` item 5 and `docs/SEATGEEK_DISCOVERY.md`.
 - First-party analytics and signup writes through `DEMAND_DB`.
-- Provider-sync **foundation** (registry, validator, offline dry-run scaffold, Ticketmaster dry-run sync — `docs/PROVIDER_SYNC.md`). No live provider sync writes yet. Rollout sequence in `BACKLOG.md` item 6.
+- Provider-sync **sequence complete (steps 1–5)** — registry + validators, Ticketmaster dry-run recognition, Ticketmaster write-to-PR mode (`scripts/sync-tm-events-write-pr.mjs`), SeatGeek performer-id-scoped enrichment dry-run, and the read-only CTA ↔ provider-state guard (`scripts/validate-cta-provider-state.mjs`). All write paths stay human-gated/PR-based; runtime CTA gates and `/api/out` are unchanged. No autonomous provider writes to `main`. Remaining work is operational (human populates registry IDs, runs the gated tools). See `docs/PROVIDER_SYNC.md` and `BACKLOG.md` item 6.
 
 ## What is not supported
 

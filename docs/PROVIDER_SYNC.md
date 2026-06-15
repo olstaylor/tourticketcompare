@@ -1,6 +1,8 @@
 # Provider Sync — Foundation and Future Workflow
 
-_Status: **Ticketmaster dry-run recognition live** (sequence step 2). `scripts/sync-ticketmaster-events.py` now performs a real TM Discovery lookup by verified attraction ID for sync-enabled artists and prints a report. It is still **dry-run only**: no events, CTAs, or data writes are produced by anything described here, and the script refuses to run without `--dry-run`._
+_Status: **Provider-sync sequence complete** (steps 1–5; see the table below). Recognition, write-to-PR, SeatGeek performer-id enrichment, and the CTA ↔ provider-state guard are all in place — every write path stays human-gated and PR-based, and the runtime CTA gates are unchanged.
+
+Earlier milestone — **Ticketmaster write-to-PR mode + SeatGeek performer-id dry-run live** (sequence steps 3–4). `scripts/sync-ticketmaster-events.py` performs a real TM Discovery lookup by verified attraction ID for sync-enabled artists and prints a dry-run report (it remains dry-run only and refuses to run without `--dry-run`). On top of it, `scripts/sync-tm-events-write-pr.mjs` turns the recogniser's PROPOSED rows into a candidate batch, drives the canonical events writer (`scripts/apply-artists.mjs`), and opens a branch + PR for human review — it **never commits to `main`**, **never auto-merges**, and defaults to a no-write preview; withheld rows are surfaced for review and never published. `scripts/propose-seatgeek-urls.mjs` now consumes the registry's `seatgeek_performer_id` to scope and confirm event-level SeatGeek URL proposals — still proposal-only/dry-run, event-level only, no prices._
 
 This document defines how TourTicketCompare will move from manually curated event
 data to provider-based event recognition and CTA automation — without weakening
@@ -43,7 +45,7 @@ it is not served and is never read at runtime). One entry per artist in
 | `slug` | string | Must match an existing record in `public/data/artists.json`. |
 | `ticketmaster_attraction_id` | string \| null | TM Discovery API attraction ID. Human-verified once; never inferred from search results without a human confirming the match. |
 | `ticketmaster_artist_url` | string \| null | The TM artist page URL opened in a browser during verification. Hostname must be in `PROVIDERS.ticketmaster.allowedDestinationHosts` in `functions/api/out.js`. |
-| `seatgeek_performer_id` | number \| null | SeatGeek performer ID for future enrichment only. No SeatGeek URLs are stored here — ever. |
+| `seatgeek_performer_id` | number \| null | Verified SeatGeek performer ID. **Consumed only when the entry's `review_status` is `"verified"`** (an id on an `unverified`/`withheld` entry is an unapproved identity and is ignored). When consumed, `scripts/propose-seatgeek-urls.mjs` scopes its event-level URL discovery query by `performers.id` and treats a candidate whose performer id matches as an identity confirmation (clearing the performer-similarity gate without relaxing the date/city/URL gates). `null` ids and non-verified entries are searched by name as before. No SeatGeek URLs are stored here — ever. |
 | `sync_enabled` | boolean | Whether provider sync scripts may process this artist. May only be `true` for an `indexable_with_substantial_content` artist with verified Ticketmaster, a populated `ticketmaster_attraction_id`, and `review_status: "verified"`. |
 | `last_synced_at` | string \| null | `YYYY-MM-DD` of the last provider sync run that processed this artist. |
 | `review_status` | string | `"unverified"` (default), `"verified"` (human confirmed the provider match), or `"withheld"` (match is ambiguous — see `notes`). |
@@ -140,6 +142,9 @@ python3 scripts/sync-ticketmaster-events.py --self-test   # npm run providers:sy
 
 # Registry validation
 npm run providers:identities:validate
+
+# CTA <-> provider-state consistency guard (read-only; part of test:mvp)
+npm run validate:cta-provider-state          # --json for machine-readable, --self-test for offline tests
 ```
 
 `TICKETMASTER_API_KEY` is required for the live lookup (read from the
@@ -176,12 +181,51 @@ Interpretation:
   looks publishable, that is input to the **write-to-PR design**, not a reason
   to hand-edit data files outside the established artist/event workflows.
 
+Ticketmaster write-to-PR mode (sequence step 3 — `scripts/sync-tm-events-write-pr.mjs`):
+
+```bash
+# Preview (default): build the candidate batch from a recogniser report and run
+# apply-artists.mjs in preview. Nothing tracked changes; no PR is created.
+python3 scripts/sync-ticketmaster-events.py --all-approved --dry-run --json > report.json
+node scripts/sync-tm-events-write-pr.mjs --report report.json
+
+# Or let the writer run the recogniser itself (needs TICKETMASTER_API_KEY):
+node scripts/sync-tm-events-write-pr.mjs --artist raye          # preview
+node scripts/sync-tm-events-write-pr.mjs --artist raye --write-pr   # apply + commit + PR
+
+# Apply + commit locally but skip the GitHub PR (env without GITHUB_TOKEN):
+node scripts/sync-tm-events-write-pr.mjs --report report.json --write-pr --no-pr
+
+# Offline pure-function self-test (no network, no git)
+node scripts/sync-tm-events-write-pr.mjs --self-test   # npm run providers:sync:tm:write-pr:self-test
+```
+
+How the write-to-PR step stays safe:
+
+- It does **not** build event records, classify links, serialise `events.json`,
+  or regenerate partitions itself. It emits a candidate batch (the same
+  `events.csv` + `report.json` shape `propose-artists.mjs` produces) and hands
+  it to `scripts/apply-artists.mjs --write`, the single source of truth for all
+  of that. Link publishability is classified there: a canonical long-form
+  storefront URL becomes `machine_high_confidence` (CTA renders); a short-form
+  `/event/<id>` or any non-canonical URL becomes `needs_recheck` (URL preserved,
+  CTA suppressed). No data logic is duplicated.
+- `apply-artists.mjs` validates (`events:validate:prod`) before and after
+  partition/sync and **rolls back** on any failure. The writer additionally runs
+  `npm run test:mvp` and `git diff --check` before committing.
+- `tour_name` is left blank on every new row — never inferred from a URL slug
+  (issue #172). The PR body flags it as a required human follow-up.
+- Only PROPOSED rows from artists whose live lookup succeeded are written.
+  Withheld rows (and artists with an incomplete/failed fetch) go to
+  `withheld-review.md` in the batch artifact, never to `events.json`.
+- The PR is created on a feature branch with the `automation:tm-events` label
+  and `maintainer_can_modify`; it is never auto-merged and the GitHub step
+  requires `GITHUB_TOKEN` + `GITHUB_REPOSITORY` (use `--no-pr` to stop after the
+  local commit).
+
 Future (each its own PR — see the sequence below):
 
 ```bash
-# Ticketmaster write mode (explicitly gated; output goes to a PR, never main)
-python3 scripts/sync-ticketmaster-events.py --artist <slug> --write-pr
-
 # SeatGeek enrichment dry-run (builds on the existing
 # scripts/enrich-seatgeek-events.mjs / propose-seatgeek-urls.mjs tooling,
 # extended to use seatgeek_performer_id from the registry)
@@ -200,9 +244,9 @@ script; the registry adds the performer ID it will consume later.
 |---|---|---|
 | 1 | Foundation — **done** (PR #243) | Registry, schema doc, validator, offline dry-run scaffold. No events, no writes, no CTAs. |
 | 2 | Ticketmaster dry-run sync — **done** | `sync-ticketmaster-events.py` calls the TM Discovery API by attraction ID for `sync_enabled` artists; reports proposed/withheld rows; writes nothing. Requires `TICKETMASTER_API_KEY`; no-ops safely if absent (same pattern as the nightly sync). |
-| 3 | Ticketmaster write-to-PR mode | Explicit `--write-pr` gate; validated candidate rows land on a branch + PR for human review. Withheld rows go to a review report, never the data files. |
-| 4 | SeatGeek enrichment dry-run | Extend existing SeatGeek tooling to use `seatgeek_performer_id`; event-level URL proposals only; no prices, no artist-level links. |
-| 5 | CTA generation from provider status | CTA eligibility derived from verified provider state. All existing gates remain: `VERIFIED_TICKET_LINKS` stays human-confirmed, `/api/out` validation unchanged. |
+| 3 | Ticketmaster write-to-PR mode — **done** | `scripts/sync-tm-events-write-pr.mjs`: explicit `--write-pr` gate; PROPOSED rows are applied via `apply-artists.mjs` (canonical writer + validate-with-rollback) and land on a branch + PR for human review. Withheld rows go to `withheld-review.md`, never the data files. Defaults to a no-write preview; never commits to `main`; never auto-merges. |
+| 4 | SeatGeek enrichment dry-run — **done** | `scripts/propose-seatgeek-urls.mjs` consumes `seatgeek_performer_id` from the registry: a verified id scopes the SeatGeek query by `performers.id` and confirms candidate identity by id. Still proposal-only/dry-run (never writes `events.json`), event-level URLs only, no prices, no artist-level links. Inert until a human populates a performer id (all are `null` today). |
+| 5 | CTA generation from provider status — **done** | `scripts/validate-cta-provider-state.mjs` (`npm run validate:cta-provider-state`, in `test:mvp`): read-only guard that CTA eligibility derives from verified provider state — every artist CTA is backed by a `review_status: "verified"` registry identity, no `withheld` identity publishes, every publishable event resolves through `/api/out`, and every `machine_high_confidence` row meets its canonical contract. `VERIFIED_TICKET_LINKS` and `/api/out` are unchanged. |
 
 Each step keeps every existing gate: human browser verification for
 `VERIFIED_TICKET_LINKS`, `npm run artist:check`, `events:validate:prod`,
@@ -217,8 +261,13 @@ Run when touching the registry, the scaffold, or this document:
 ```bash
 npm run providers:identities:validate
 npm run providers:sync:tm:self-test
+npm run providers:sync:tm:write-pr:self-test
+npm run seatgeek:self-test
+npm run validate:cta-provider-state:self-test
 python3 scripts/sync-ticketmaster-events.py --all-approved --dry-run
 python3 -m py_compile scripts/sync-ticketmaster-events.py
+node --check scripts/sync-tm-events-write-pr.mjs
+node --check scripts/validate-cta-provider-state.mjs
 node --check scripts/validate-provider-identities.mjs
 python3 -m json.tool data/provider-identities.json > /dev/null
 npm run test:mvp

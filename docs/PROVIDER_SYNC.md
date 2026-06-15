@@ -200,6 +200,13 @@ node scripts/sync-tm-events-write-pr.mjs --report report.json --write-pr --no-pr
 node scripts/sync-tm-events-write-pr.mjs --self-test   # npm run providers:sync:tm:write-pr:self-test
 ```
 
+Scheduled invocation: `.github/workflows/tm-new-shows-pr.yml` runs this step
+daily at 04:00 UTC for `--all-approved` in `--write-pr` mode — the scheduled
+new-show discovery loop. It opens one review PR proposing newly-discovered shows
+and never commits to `main` or auto-merges. `workflow_dispatch` runs default to a
+safe `preview` (no PR) and accept an optional single-artist `artist` input.
+Without `TICKETMASTER_API_KEY` the recogniser no-ops safely (no rows, no PR).
+
 How the write-to-PR step stays safe:
 
 - It does **not** build event records, classify links, serialise `events.json`,

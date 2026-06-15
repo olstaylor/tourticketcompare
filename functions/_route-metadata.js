@@ -65,7 +65,7 @@ export const GUIDE_ROUTES = {
     title: "How to Compare Concert Ticket Prices Safely | TourTicketCompare",
     h1: "How to Compare Concert Ticket Prices Safely",
     description:
-      "Learn how to compare concert ticket prices by checking final checkout totals, fees, seat details, delivery terms, and provider rules before you buy.",
+      "Compare concert ticket prices the right way: check the final checkout total after fees, match the exact show and seats, and confirm provider terms before you buy.",
     fullContent: true
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {

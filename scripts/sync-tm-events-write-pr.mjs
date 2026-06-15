@@ -225,12 +225,16 @@ async function readJson(file) {
 
 function run(cmd, args, opts = {}) {
   const res = spawnSync(cmd, args, { stdio: "inherit", cwd: REPO_ROOT, ...opts });
+  // res.error (e.g. ENOENT when the binary is missing) leaves status null;
+  // surface the system error rather than a generic status failure.
+  if (res.error) throw res.error;
   if (res.status !== 0) throw new Error(`Command failed: ${cmd} ${args.join(" ")}`);
   return res;
 }
 
 function runCapture(cmd, args) {
   const res = spawnSync(cmd, args, { cwd: REPO_ROOT, encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
+  if (res.error) throw res.error;
   if (res.status !== 0) {
     throw new Error(`Command failed: ${cmd} ${args.join(" ")}\n${res.stderr || res.stdout || ""}`);
   }
@@ -468,7 +472,9 @@ async function main() {
   const slugs = [...new Set(usedArtists.filter((a) => a.proposed > 0).map((a) => a.slug))];
   const slugLabel = slugs.length === 1 ? slugs[0] : `batch-${slugs.length}`;
   const branch = `automation/tm-events-${slugLabel}-${today}`;
-  run("git", ["checkout", "-b", branch]);
+  // -B (not -b) so a re-run after a previous failure, or a same-day rerun,
+  // reuses/resets the date+slug automation branch instead of failing fatally.
+  run("git", ["checkout", "-B", branch]);
   run("git", [
     "add",
     "public/data/events.json",

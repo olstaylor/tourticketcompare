@@ -112,7 +112,7 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 
 `functions/api/shows.js` needs no edit — its affiliate map is derived from the new `out.js` entry automatically.
 
-**Scaffold:** `npm run artist:promote -- --slug <slug> --url <verified-url>` generates all of the above edits (dry-run by default; `--write` applies them and runs `events:sync`). It validates the URL shape and hostname but does **not** check the page is live — the browser pre-condition above remains mandatory, the same day, before running with `--write`.
+**Scaffold:** `npm run artist:promote -- --slug <slug>` generates all of the above edits (dry-run by default; `--write` applies them and runs `events:sync`). The Ticketmaster URL is sourced from the Discovery API (`ticketmasterArtistUrl` in `artifacts/tm-discovery/candidates.json`), never constructed from the artist name — the storefront id differs from the Discovery id. Pass `--url <verified-url>` to override; the script warns if your URL disagrees with the API-captured one, and refuses if neither is available. It validates the URL shape and hostname but does **not** check the page is live — the browser pre-condition above remains mandatory, the same day, before running with `--write`.
 
 The `indexing_status` promotion and the `out.js` entry must land in the **same PR**. Never set `indexable_with_substantial_content` without a corresponding `VERIFIED_TICKET_LINKS` entry.
 

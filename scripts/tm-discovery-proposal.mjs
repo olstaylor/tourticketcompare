@@ -3,10 +3,16 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const API_BASE = 'https://app.ticketmaster.com/discovery/v2/events.json';
-const PAGE_LIMIT = Number(process.env.TM_DISCOVERY_PAGE_LIMIT || 3);
+const PAGE_LIMIT = Number(process.env.TM_DISCOVERY_PAGE_LIMIT || 10);
 const SIZE = Number(process.env.TM_DISCOVERY_PAGE_SIZE || 50);
 const MAX_RESULTS = PAGE_LIMIT * SIZE;
 const OUTPUT_DIR = process.env.TM_OUTPUT_DIR || 'artifacts/tm-discovery';
+// Scope discovery to a single market so candidates align with the affiliate
+// programme and existing roster. Defaults to US; set TM_DISCOVERY_COUNTRY_CODE
+// to another ISO code, or to an empty string to scan all markets.
+const COUNTRY_CODE = process.env.TM_DISCOVERY_COUNTRY_CODE === undefined
+  ? 'US'
+  : process.env.TM_DISCOVERY_COUNTRY_CODE.trim();
 
 function slugify(name) {
   return String(name || '')
@@ -50,8 +56,9 @@ async function main() {
 
   const apiCalls = [];
   const allEvents = [];
+  const seenEventIds = new Set();
   for (let page = 0; page < PAGE_LIMIT; page += 1) {
-    const query = new URLSearchParams({
+    const params = {
       apikey: apiKey,
       classificationName: 'music',
       size: String(SIZE),
@@ -62,16 +69,25 @@ async function main() {
       // Ticketmaster Discovery rejects startDateTime with milliseconds (HTTP 400);
       // it requires YYYY-MM-DDTHH:mm:ssZ.
       startDateTime: new Date().toISOString().replace(/\.\d{3}Z$/, 'Z')
-    });
+    };
+    if (COUNTRY_CODE) params.countryCode = COUNTRY_CODE;
+    const query = new URLSearchParams(params);
     const url = `${API_BASE}?${query.toString()}`;
     const res = await fetch(url);
-    apiCalls.push({ page, status: res.status, url: `${API_BASE}?page=${page}&size=${SIZE}&classificationName=music` });
+    apiCalls.push({ page, status: res.status, url: `${API_BASE}?page=${page}&size=${SIZE}&classificationName=music${COUNTRY_CODE ? `&countryCode=${COUNTRY_CODE}` : ''}` });
     if (!res.ok) throw new Error(`Ticketmaster API error on page ${page}: HTTP ${res.status}`);
     const payload = await res.json();
     requireExpectedShape(payload, page);
-    const events = payload._embedded.events.filter((ev) => ev?.dates?.status?.code !== 'cancelled');
+    // Dedup by event id — the date-sorted feed repeats listings across pages,
+    // which otherwise inflates per-attraction event counts.
+    const events = payload._embedded.events.filter((ev) => {
+      if (ev?.dates?.status?.code === 'cancelled') return false;
+      if (!ev?.id || seenEventIds.has(ev.id)) return false;
+      seenEventIds.add(ev.id);
+      return true;
+    });
     allEvents.push(...events);
-    if (events.length === 0 || allEvents.length >= MAX_RESULTS || page >= (payload.page.totalPages - 1)) break;
+    if (payload._embedded.events.length === 0 || allEvents.length >= MAX_RESULTS || page >= (payload.page.totalPages - 1)) break;
   }
 
   const grouped = new Map();
@@ -148,8 +164,9 @@ async function main() {
   const report = `# Ticketmaster Discovery Proposal (${today})
 
 ## Run summary
+- Market scope: ${COUNTRY_CODE ? `countryCode=${COUNTRY_CODE}` : 'all markets'}
 - API calls used: ${apiCalls.length}
-- Raw upcoming non-cancelled music events: ${allEvents.length}
+- Unique upcoming non-cancelled music events: ${allEvents.length}
 - Candidate groups passing all filters: ${candidates.length}
 - Current repo artist count: ${artists.length}
 - Current repo event count: ${repoEventCount}

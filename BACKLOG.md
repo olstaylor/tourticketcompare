@@ -37,9 +37,14 @@ The event-level SeatGeek discovery tooling is now operational and wired in:
 `seatgeek:self-test`, plus the `SeatGeek Discovery Proposal` dispatch workflow.
 Runbook: `docs/SEATGEEK_DISCOVERY.md`.
 
-Coverage as of 2026-06-12: **226/339 events** carry a stored `seatgeek_url`;
-113 do not (`bad-bunny` and `summer-walker` have none; `ariana-grande`,
-`morgan-wallen`, `olivia-rodrigo`, `bruno-mars`, `shakira` are partial). Closing the rest requires a **credentialed
+Coverage as of 2026-06-16: **234/339 events** carry a stored `seatgeek_url`;
+105 do not (`bad-bunny` has none; `summer-walker` is now partial — 6/10 added
+via PR #282; `ariana-grande`, `morgan-wallen`, `olivia-rodrigo`, `bruno-mars`,
+`shakira` are partial). Repeated proposal runs have already harvested the
+matchable US dates; the latest run over the 83 uncovered future events returned
+zero candidates (all European/non-US legs not listed on SeatGeek), so the
+remaining gap is largely structural rather than untried. Any further closeout
+requires a **credentialed
 run**: provide `SEATGEEK_CLIENT_ID` (+ optional `SEATGEEK_CLIENT_SECRET`),
 dispatch the proposal workflow or run `npm run seatgeek:propose`, review the
 candidates, then run `npm run seatgeek:enrich:apply`, `npm run events:sync`, the

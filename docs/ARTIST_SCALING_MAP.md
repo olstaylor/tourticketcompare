@@ -11,10 +11,12 @@ authoritative process docs:
   example placeholder format.
 - **`docs/SEATGEEK_DISCOVERY.md`** — event-level SeatGeek enrichment runbook.
 
-> **Scope reminder:** `BACKLOG.md` parks new-artist onboarding. Do not run any
-> apply/shell-PR step to actually onboard an artist unless that block is lifted
-> for a specific artist. The commands below are documented so the path is
-> repeatable when it is.
+> **Scope reminder:** new-artist onboarding is **unparked** (owner direction,
+> 2026-06-10; see `BACKLOG.md` → "Recently unparked" and
+> `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`). Unparking removed the scope freeze, **not**
+> the verification rules — every phase gate, human browser verification, and
+> validator below still applies, and each onboarding should be its own scoped
+> task. Do not fold an artist addition into an unrelated change.
 
 ---
 

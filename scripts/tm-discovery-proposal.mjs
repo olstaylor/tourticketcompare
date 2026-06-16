@@ -59,7 +59,9 @@ async function main() {
       sort: 'date,asc',
       includeTBA: 'no',
       includeTBD: 'no',
-      startDateTime: new Date().toISOString()
+      // Ticketmaster Discovery rejects startDateTime with milliseconds (HTTP 400);
+      // it requires YYYY-MM-DDTHH:mm:ssZ.
+      startDateTime: new Date().toISOString().replace(/\.\d{3}Z$/, 'Z')
     });
     const url = `${API_BASE}?${query.toString()}`;
     const res = await fetch(url);

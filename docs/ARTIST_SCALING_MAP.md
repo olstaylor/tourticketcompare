@@ -34,7 +34,7 @@ authoritative process docs:
 | **Gate 1** | Human reviews the proposal: slug uniqueness, real touring source, TM artist URL opened in a browser, affiliate membership, no `BACKLOG.md` parking note | **Manual** | — |
 | **Shell** | `npm run artists:tm-shell-pr` (`tm-discovery-shell-pr.mjs`) — or the **`Ticketmaster Discovery Shell PR (Phase 2)`** Action, which consumes the Phase 1 artifact | Automated end-to-end | `artists.json` (`review_required`), `catalog.json` ticket_link (`verified:false, public_enabled:false`), regenerated `index.html` (signup allowlist is derived from `artists.json` — no `signup.js` edit); runs `events:sync` + `artist:check` + `test:mvp` + `git diff --check`, then branches, commits, pushes, opens a labelled PR |
 | **Gate 2** | Human confirms the shell page renders a watchlist empty state (no broken CTA), no regressions, TM URL re-confirmed live | **Manual** | — |
-| **Promote** | `npm run artist:promote -- --slug <slug> --url <verified-url>` generates the edits (dry-run by default; `--write` applies + runs `events:sync`) — only after browser confirmation | **Human-gated** (browser verification of the URL is mandatory before `--write`; the script only removes transcription errors) | `functions/api/out.js` (`VERIFIED_TICKET_LINKS`), `artists.json`, `catalog.json`, `index.html` (`shows.js` map is derived from `out.js` — no edit) |
+| **Promote** | `npm run artist:promote -- --slug <slug>` generates the edits (URL sourced from the API artifact; `--url` optional override; dry-run by default; `--write` applies + runs `events:sync`) — only after browser confirmation | **Human-gated** (browser verification of the API URL is mandatory before `--write`; the URL comes from the API, never the artist name) | `functions/api/out.js` (`VERIFIED_TICKET_LINKS`), `artists.json`, `catalog.json`, `index.html` (`shows.js` map is derived from `out.js` — no edit) |
 | **Gate 3** | Human confirms `GET /api/out?artistSlug=<slug>&provider=ticketmaster` returns 302 and the CTA href is `/api/out?...` | **Manual** | — |
 | **Events** (optional, separate PR) | `npm run artists:apply-preview -- --candidate <dir>` (preview), then `--write` to merge events; or the CSV pipeline (`npm run events:update`) | Semi-automated | `events.json`, `events/<slug>.json`, `index.html` |
 | **SeatGeek enrich** (optional, separate PR) | `npm run seatgeek:propose` → review → `npm run seatgeek:enrich:apply` → `npm run events:sync` + validators | Semi-automated (high-confidence auto-apply only) | `events.json`, partitions, `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md` |
@@ -51,16 +51,23 @@ slugs). Promote and Events PRs remain strictly one artist each.
 
 `functions/api/out.js` is **protected**: a `VERIFIED_TICKET_LINKS` entry may only
 be added after a human has opened the exact Ticketmaster artist URL in a browser
-on the day of the PR and confirmed it resolves. Once that's done, generate the
+on the day of the PR and confirmed it resolves. The URL itself comes from the
+**Discovery API** (captured as `ticketmasterArtistUrl` in the proposal artifact),
+never constructed from the artist name — the storefront id (e.g. `/artist/2453211`)
+differs from the Discovery id (e.g. `K8vZ917pJy7`). Once verified, generate the
 full Promote edit set with:
 
 ```bash
-npm run artist:promote -- --slug <slug> --url "https://www.ticketmaster.com/<artist>-tickets/artist/<ID>"
+# URL sourced automatically from artifacts/tm-discovery/candidates.json:
+npm run artist:promote -- --slug <slug>
+# or pass an explicit browser-verified URL (warns if it disagrees with the API):
+npm run artist:promote -- --slug <slug> --url "<browser-verified-tm-url>"
 # review the printed preview, then re-run with --write to apply + events:sync
 ```
 
 The script refuses non-promotable slugs (not in shell state, already promoted),
-placeholder URLs, and non-allowlisted hostnames. It writes the `out.js` entry
+placeholder URLs, non-allowlisted hostnames, and the case where no URL is
+available from the API artifact or `--url` (it never falls back to name-building). It writes the `out.js` entry
 (shape: `artistSlug` / `provider` / `linkId` / `redirectUrl` / `verified: true`),
 promotes `artists.json` to `indexable_with_substantial_content` /
 `verified_providers: ["ticketmaster"]`, and flips the `catalog.json` ticket_link

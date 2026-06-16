@@ -6,8 +6,16 @@
 // happen the same day, BEFORE running with --write.
 //
 // Usage:
-//   npm run artist:promote -- --slug <slug> --url <human-verified-tm-url>          (dry run)
-//   npm run artist:promote -- --slug <slug> --url <human-verified-tm-url> --write
+//   npm run artist:promote -- --slug <slug>                                        (dry run, URL from API artifact)
+//   npm run artist:promote -- --slug <slug> --url <human-verified-tm-url>          (dry run, explicit URL)
+//   npm run artist:promote -- --slug <slug> [--url <...>] --write
+//
+// The Ticketmaster URL is sourced, in order of preference, from:
+//   1. the discovery artifact's API-captured `ticketmasterArtistUrl` for this
+//      slug (artifacts/tm-discovery/candidates.json, or TM_DISCOVERY_ARTIFACT_DIR), or
+//   2. an explicit --url (which must be a browser-verified canonical URL).
+// NEVER construct the URL from the artist name — the storefront id differs from
+// the Discovery id. If both sources are present and disagree, the script warns.
 //
 // Exit code 0 = preview printed or edits applied
 // Exit code 1 = refused (slug not promotable, URL rejected, data inconsistent)
@@ -25,6 +33,23 @@ const PATHS = {
   catalog: path.join(root, 'public/data/catalog.json'),
   out:     path.join(root, 'functions/api/out.js'),
 };
+
+const ARTIFACT_DIR = process.env.TM_DISCOVERY_ARTIFACT_DIR
+  ? path.resolve(process.env.TM_DISCOVERY_ARTIFACT_DIR)
+  : path.join(root, 'artifacts/tm-discovery');
+
+// The canonical Ticketmaster URL captured from the Discovery API at proposal
+// time. Returns null if there is no artifact or no captured URL for this slug.
+async function resolveArtifactUrl(slug) {
+  try {
+    const candidates = JSON.parse(await fs.readFile(path.join(ARTIFACT_DIR, 'candidates.json'), 'utf8'));
+    const match = Array.isArray(candidates) ? candidates.find((c) => c?.slug === slug) : null;
+    const u = match?.ticketmasterArtistUrl;
+    return typeof u === 'string' && u.trim() ? u.trim() : null;
+  } catch {
+    return null;
+  }
+}
 
 const PLACEHOLDER_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1|tbd/i;
 const VTL_BLOCK_PATTERN = /const\s+VERIFIED_TICKET_LINKS\s*=\s*\{([\s\S]*?)\n\};/;
@@ -50,14 +75,34 @@ function refuse(msg) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  if (!args || !args.slug || !args.url) {
-    console.error('Usage: npm run artist:promote -- --slug <slug> --url <verified-url> [--write]');
+  if (!args || !args.slug) {
+    console.error('Usage: npm run artist:promote -- --slug <slug> [--url <verified-url>] [--write]');
     process.exit(2);
   }
 
   const slug = String(args.slug).trim().toLowerCase();
-  const url = String(args.url).trim();
   const today = new Date().toISOString().slice(0, 10);
+
+  // ── Resolve the Ticketmaster URL from the API artifact, never the name ──────
+  const explicitUrl = args.url ? String(args.url).trim() : null;
+  const artifactUrl = await resolveArtifactUrl(slug);
+  let url;
+  let urlSource;
+  if (explicitUrl) {
+    url = explicitUrl;
+    urlSource = '--url flag';
+    if (artifactUrl && artifactUrl !== explicitUrl) {
+      console.error('\nWARNING: --url differs from the API-captured URL in the discovery artifact:');
+      console.error(`  --url (you):   ${explicitUrl}`);
+      console.error(`  API artifact:  ${artifactUrl}`);
+      console.error('Proceeding with --url. Confirm it is the browser-verified canonical URL, not a hand-built one.\n');
+    }
+  } else if (artifactUrl) {
+    url = artifactUrl;
+    urlSource = 'discovery artifact (API-captured)';
+  } else {
+    refuse(`No --url given and no API-captured ticketmasterArtistUrl for "${slug}" in ${path.relative(root, ARTIFACT_DIR)}/candidates.json. Re-run the discovery proposal (it captures the API URL), or pass --url with a browser-verified Ticketmaster URL. Do NOT construct the URL from the artist name.`);
+  }
 
   // ── URL validation ─────────────────────────────────────────────────────────
 
@@ -174,12 +219,13 @@ async function main() {
   console.log('  affiliate_enabled: → true');
   console.log(`  last_checked_at: → ${today}`);
   console.log('\nfunctions/api/out.js — new VERIFIED_TICKET_LINKS entry:');
+  console.log(`  (redirectUrl source: ${urlSource})`);
   console.log(vtlEntry.replace(/^/gm, '  '));
 
   if (!args.write) {
     console.log('\nDry run — no files written.');
-    console.log('Reminder: open the URL in a browser and confirm the artist page is live');
-    console.log('TODAY before re-running with --write (Phase 3 pre-condition).');
+    console.log(`Reminder: open this exact URL (${urlSource}) in a browser and confirm the`);
+    console.log('artist page is live TODAY before re-running with --write (Phase 3 pre-condition).');
     return;
   }
 

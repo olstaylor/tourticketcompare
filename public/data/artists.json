@@ -163,5 +163,14 @@
       "ticketmaster"
     ],
     "last_verified_at": "2026-06-11"
+  },
+  {
+    "slug": "rosalia",
+    "name": "ROSALÍA",
+    "short_description": "Spanish singer-songwriter known for blending flamenco with pop and electronic music.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
   }
 ]

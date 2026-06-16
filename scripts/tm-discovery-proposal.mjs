@@ -15,7 +15,12 @@ const COUNTRY_CODE = process.env.TM_DISCOVERY_COUNTRY_CODE === undefined
   : process.env.TM_DISCOVERY_COUNTRY_CODE.trim();
 
 function slugify(name) {
+  // Decompose accented characters (ROSALÍA -> ROSALIA, Beyoncé -> Beyonce)
+  // and drop the combining marks before stripping to [a-z0-9]; otherwise an
+  // accent collapses to a hyphen (ROSALÍA -> "rosal-a").
   return String(name || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '');
@@ -23,6 +28,28 @@ function slugify(name) {
 
 async function readJson(file) {
   return JSON.parse(await fs.readFile(file, 'utf8'));
+}
+
+// Resolve the canonical ticketmaster.com destination from the API-provided
+// attraction url. Discovery may return an Impact affiliate wrapper
+// (ticketmaster.evyy.net/...?u=<encoded canonical url>). NEVER construct this
+// from the artist name — the storefront id (e.g. /artist/2453211) differs from
+// the Discovery id (e.g. K8vZ917pJy7), so a name-built URL would be wrong.
+function canonicalTicketmasterUrl(rawUrl) {
+  const value = String(rawUrl || '').trim();
+  if (!value) return null;
+  try {
+    const parsed = new URL(value);
+    if (parsed.hostname.endsWith('ticketmaster.com')) return value;
+    const wrapped = parsed.searchParams.get('u');
+    if (wrapped) {
+      const inner = new URL(decodeURIComponent(wrapped));
+      if (inner.hostname.endsWith('ticketmaster.com')) return inner.toString();
+    }
+  } catch {
+    return null;
+  }
+  return null;
 }
 
 function getParkedNames(backlogText) {
@@ -102,7 +129,7 @@ async function main() {
     const slug = slugify(attr.name);
     const venue = ev?._embedded?.venues?.[0];
     const hasCleanLocation = Boolean(venue?.name && venue?.city?.name && venue?.country?.countryCode);
-    if (!grouped.has(attr.id)) grouped.set(attr.id, { attractionId: attr.id, artistName: attr.name, slug, events: [], cleanCount: 0, cities: new Set(), countries: new Set() });
+    if (!grouped.has(attr.id)) grouped.set(attr.id, { attractionId: attr.id, artistName: attr.name, slug, ticketmasterArtistUrl: canonicalTicketmasterUrl(attr.url), events: [], cleanCount: 0, cities: new Set(), countries: new Set() });
     const g = grouped.get(attr.id);
     g.events.push({ eventId: ev.id, date: ev?.dates?.start?.dateTime || null, venue: venue?.name || null, city: venue?.city?.name || null, country: venue?.country?.countryCode || null });
     if (hasCleanLocation) {
@@ -131,6 +158,7 @@ async function main() {
       attractionId: g.attractionId,
       artistName: g.artistName,
       slug: g.slug,
+      ticketmasterArtistUrl: g.ticketmasterArtistUrl,
       score,
       scoreBreakdown: { eventScore, geographyScore, completenessScore },
       upcomingEventCount: eventCount,
@@ -155,7 +183,7 @@ async function main() {
   const repoEventCount = (await readJson('public/data/events.json')).length;
   const topCandidatesText = candidates
     .slice(0, 20)
-    .map((c, i) => `${i + 1}. **${c.artistName}** (slug: \`${c.slug}\`, attractionId: \`${c.attractionId}\`)\n   - Score: ${c.score} (events ${c.scoreBreakdown.eventScore}, geography ${c.scoreBreakdown.geographyScore}, completeness ${c.scoreBreakdown.completenessScore})\n   - Events: ${c.upcomingEventCount}, countries: ${c.uniqueCountries}, cities: ${c.uniqueCities}, completeness: ${c.locationCompletenessRatio}`)
+    .map((c, i) => `${i + 1}. **${c.artistName}** (slug: \`${c.slug}\`, attractionId: \`${c.attractionId}\`)\n   - Score: ${c.score} (events ${c.scoreBreakdown.eventScore}, geography ${c.scoreBreakdown.geographyScore}, completeness ${c.scoreBreakdown.completenessScore})\n   - Events: ${c.upcomingEventCount}, countries: ${c.uniqueCountries}, cities: ${c.uniqueCities}, completeness: ${c.locationCompletenessRatio}\n   - Ticketmaster URL (from API, verify in browser): ${c.ticketmasterArtistUrl || 'n/a — not provided by API'}`)
     .join('\n');
   const skipSummaryText = Object.entries(skipLog.reduce((acc, row) => {
     acc[row.reason] = (acc[row.reason] || 0) + 1;

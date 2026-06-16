@@ -11,7 +11,9 @@ const MAX_SHELLS_PER_RUN = Math.max(1, Number(process.env.TM_SHELL_MAX_PER_RUN |
 const LABEL = 'automation:tm-shell';
 
 function slugify(name) {
-  return String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  // Strip accents (ROSALÍA -> rosalia) before reducing to [a-z0-9]; otherwise
+  // an accented letter collapses to a hyphen.
+  return String(name || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
 async function readJson(file) { return JSON.parse(await fs.readFile(file, 'utf8')); }

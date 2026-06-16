@@ -517,7 +517,11 @@ function metroLikeMatch(eventCity, sgVenue) {
     "phoenix|glendale",
     "glendale|phoenix",
     "washington|landover",
-    "landover|washington"
+    "landover|washington",
+    "palm desert|thousand palms",
+    "thousand palms|palm desert",
+    "belmont park|elmont",
+    "elmont|belmont park"
   ]);
   return Boolean(eventCityNorm && candidateCityNorm && metroPairs.has(`${eventCityNorm}|${candidateCityNorm}`));
 }

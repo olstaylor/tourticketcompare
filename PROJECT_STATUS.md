@@ -1,6 +1,8 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-06-16 (Summer Walker `tour_name` populated as "Still Finally Over It" across all 10 events — owner-confirmed; partitions + events-index regenerated, `test:mvp` green. No blank-`tour_name` events remain. SeatGeek proposal run over the 83 uncovered future events returned zero candidates — all are European/non-US legs not listed on SeatGeek; no enrichment applied. Short-form URL recheck (owner, 2026-06-16): Ed Sheeran Glendale confirmed working in a browser and restored as `human_verified`; Nashville, Arlington, the Olivia Rodrigo 8 and the Shakira 12 re-confirmed 404 and stay suppressed. `needs_recheck` now 22. Count correction: body figures refreshed to **234/339 events carrying a stored `seatgeek_url`** (was 226) — PR #282 added 8 event-level SeatGeek CTAs (6 Summer Walker, 2 Shakira) that the prior doc refresh did not propagate into the counts.)
+Last updated: 2026-06-16 (Roster grew to **16 artists**: `rosalia` (ROSALÍA) added as the first `review_required` Ticketmaster Discovery shell — no CTAs, no events, no `out.js` entry, noindex (PR #286). Onboarding her surfaced and fixed three discovery→promote pipeline bugs, all merged: the proposal feeder's HTTP 400 (`startDateTime` milliseconds), accented-name slugs (`ROSALÍA → rosal-a`, now `rosalia`), and URL provenance — discovery now captures the API-provided Ticketmaster URL and `promote-artist.mjs` sources it from there rather than constructing it from the artist name. Discovery is also US-scoped/depth-10/deduped now.)
+
+Prior update: 2026-06-16 (Summer Walker `tour_name` populated as "Still Finally Over It" across all 10 events — owner-confirmed; partitions + events-index regenerated, `test:mvp` green. No blank-`tour_name` events remain. SeatGeek proposal run over the 83 uncovered future events returned zero candidates — all are European/non-US legs not listed on SeatGeek; no enrichment applied. Short-form URL recheck (owner, 2026-06-16): Ed Sheeran Glendale confirmed working in a browser and restored as `human_verified`; Nashville, Arlington, the Olivia Rodrigo 8 and the Shakira 12 re-confirmed 404 and stay suppressed. `needs_recheck` now 22. Count correction: body figures refreshed to **234/339 events carrying a stored `seatgeek_url`** (was 226) — PR #282 added 8 event-level SeatGeek CTAs (6 Summer Walker, 2 Shakira) that the prior doc refresh did not propagate into the counts.)
 
 Prior update: 2026-06-15 (verification refresh — re-counted `public/data/*.json` and `functions/api/out.js` by direct inspection: 15 artists / 339 events / 226 with `seatgeek_url` / 23 `needs_recheck` / 10 Summer Walker blank `tour_name`. No drift since the 2026-06-12 update; figures below confirmed current, no content changes required. Prior update 2026-06-12: Ed Sheeran tour name "The Loop Tour" owner-confirmed and 24/27 event URLs restored as `machine_high_confidence`; counts and per-artist table re-verified by direct inspection of `public/data/` — the repo had drifted again since 2026-06-11: 10 Summer Walker events landed with CTAs live and blank `tour_name`, and 12 Shakira events became `needs_recheck` via PR #273)
 
@@ -19,19 +21,19 @@ This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work a
 
 ## Current data
 
-Verified by direct inspection of `public/data/` and `functions/api/out.js` on 2026-06-12:
+Verified by direct inspection of `public/data/` and `functions/api/out.js` on 2026-06-16:
 
-- `public/data/artists.json`: **15 records — all `indexable_with_substantial_content`**. (The previous `review_required` shell, `ed-sheeran`, was promoted; `shakira`, `raye`, `charli-xcx`, `tate-mcrae`, and `summer-walker` were added with `last_verified_at` of 2026-06-10/11; `ed-sheeran` re-verified 2026-06-12.)
-- `public/data/catalog.json`: 15 artist records; 0 tour records.
+- `public/data/artists.json`: **16 records — 15 `indexable_with_substantial_content` + 1 `review_required`** (`rosalia`, added 2026-06-16 as a Ticketmaster Discovery shell: no CTAs, noindex, no `out.js` entry).
+- `public/data/catalog.json`: 16 artist records; 0 tour records.
 - `public/data/events.json`: **339 events**; **234 carry stored SeatGeek event URLs**.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
-- `public/data/guides-content.json`: **15 guide content entries**.
+- `public/data/guides-content.json`: **15 guide content entries** (topic guides; not per-artist).
 - `functions/_route-metadata.js`: **15 guide routes** plus trust/static route metadata.
-- `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **15 entries**, one `<slug>:ticketmaster` per artist. No SeatGeek or Vivid Seats artist-level entries.
+- `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **15 entries**, one `<slug>:ticketmaster` per indexable artist. `rosalia` (`review_required`) has no entry yet. No SeatGeek or Vivid Seats artist-level entries.
 
 ### Per-artist status
 
-All 15 artists are `indexable_with_substantial_content` with `verified_providers: ["ticketmaster"]` and a `<slug>:ticketmaster` entry in `VERIFIED_TICKET_LINKS`. Event counts from `events.json`:
+15 of the 16 artists are `indexable_with_substantial_content` with `verified_providers: ["ticketmaster"]` and a `<slug>:ticketmaster` entry in `VERIFIED_TICKET_LINKS`; `rosalia` is a `review_required` shell with no provider wiring. Event counts from `events.json`:
 
 | Slug | `last_verified_at` | Events | With `seatgeek_url` | `needs_recheck` | Tour name | Notes |
 |---|---|---|---|---|---|---|
@@ -50,6 +52,7 @@ All 15 artists are `indexable_with_substantial_content` with `verified_providers
 | charli-xcx | 2026-06-11 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | tate-mcrae | 2026-06-10 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | summer-walker | 2026-06-11 | 10 | 6 | 0 | Still Finally Over It | Tour name owner-confirmed 2026-06-16; populated across all 10 events. 6 events carry a verified `seatgeek_url` (added via PR #282); the remaining 4 have no SeatGeek match. |
+| rosalia | — (`review_required`) | 0 | 0 | 0 | — | **Shell only (PR #286).** Ticketmaster Discovery candidate (attraction `K8vZ917pJy7`; 2 MSG NYC dates). `review_required`, noindex, no CTA, no `out.js` entry. Gate 1 browser-verified by owner. Awaiting Promote (separate one-artist PR): re-run discovery for the API `ticketmasterArtistUrl`, browser-confirm, then `npm run artist:promote -- --slug rosalia`. |
 
 Note on `needs_recheck` rendering: `renderShowCardServerHtml` in `functions/[[path]].js` only renders event CTAs when a valid `ticketmaster_url` exists; the SeatGeek CTA renders only alongside it. Events with cleared Ticketmaster URLs therefore show "No verified ticket link is available for this date" — the safe state.
 
@@ -109,7 +112,7 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 ## What is supported today
 
 - Homepage and trust/legal pages.
-- Artist index plus the 15 indexable artist pages above (4 of them — beyonce, raye, charli-xcx, tate-mcrae — currently have no event records and render artist-level CTAs only).
+- Artist index plus the 15 indexable artist pages above (4 of them — beyonce, raye, charli-xcx, tate-mcrae — currently have no event records and render artist-level CTAs only). A 16th artist, `rosalia`, exists as a `review_required` shell (noindex, watchlist empty state, no CTA) pending Promote.
 - 15 guide pages with server-rendered content.
 - Verified Ticketmaster CTAs (artist- and event-level) where configured.
 - Verified event-level SeatGeek CTAs — live in production where a verified `seatgeek_url` exists alongside a valid `ticketmaster_url`; routed through `/api/out` with Impact tracking (SeatGeek Impact bindings present). Currently 234/339 events carry a stored `seatgeek_url`. Event-level SeatGeek URL discovery tooling is operational and wired in (`npm run seatgeek:propose` / `seatgeek:enrich:apply`, `SeatGeek Discovery Proposal` workflow); see `BACKLOG.md` item 4 and `docs/SEATGEEK_DISCOVERY.md`.

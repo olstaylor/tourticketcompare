@@ -10,20 +10,20 @@
     "datetime_iso": "2026-06-14T00:30:00Z",
     "tour_name": "The Loop Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7j-_M",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_M",
     "seatgeek_url": "https://seatgeek.com/ed-sheeran-tickets/glendale-arizona-state-farm-stadium-2026-06-13-5-30-pm/concert/17724383",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-06-16",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7j-_M",
         "discovery_event_id": "Z7r9jZ1A7j-_M",
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j-_M",
+        "verified": true,
+        "last_verified_at": "2026-06-16",
+        "availability_status": "on_sale"
       },
       "seatgeek": {
         "event_id": null,
@@ -49,7 +49,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_M",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ed-sheeran-2026-nashville-z7r9jz1a7js",

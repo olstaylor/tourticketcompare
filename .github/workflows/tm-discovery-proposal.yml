@@ -19,8 +19,9 @@ jobs:
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           TM_OUTPUT_DIR: artifacts/tm-discovery
-          TM_DISCOVERY_PAGE_LIMIT: '3'
+          TM_DISCOVERY_PAGE_LIMIT: '10'
           TM_DISCOVERY_PAGE_SIZE: '50'
+          TM_DISCOVERY_COUNTRY_CODE: 'US'
         run: node scripts/tm-discovery-proposal.mjs
 
       - name: Upload artifacts

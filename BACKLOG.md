@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-06-15 (verification refresh — priorities below re-checked against the repo and confirmed current; no reordering or re-scoping, no new issues opened/closed since 2026-06-12. Prior update 2026-06-12: Ed Sheeran resolution: owner confirmed tour name "The Loop Tour" and spot-checked the long-form storefront URLs; 24/27 events restored to `machine_high_confidence`, 3 short-form URLs stay suppressed. Issue #172 closed. New drift recorded: 10 summer-walker events live with blank `tour_name`, 12 shakira events `needs_recheck` — see `PROJECT_STATUS.md`.)
+Last updated: 2026-06-16 (added items 6 (finish ROSALÍA onboarding — Promote) and 7 (slugify diacritics sweep) after PR #286 landed the first `review_required` artist shell and fixed the discovery→promote URL/slug pipeline. Prior update 2026-06-15: verification refresh — priorities below re-checked against the repo and confirmed current; no reordering or re-scoping, no new issues opened/closed since 2026-06-12. Prior update 2026-06-12: Ed Sheeran resolution: owner confirmed tour name "The Loop Tour" and spot-checked the long-form storefront URLs; 24/27 events restored to `machine_high_confidence`, 3 short-form URLs stay suppressed. Issue #172 closed. New drift recorded: 10 summer-walker events live with blank `tour_name`, 12 shakira events `needs_recheck` — see `PROJECT_STATUS.md`.)
 
 Previous update: 2026-06-11 (documentation cleanup: factual drift corrections only — priorities unchanged and owner-managed. Data drift note: between 2026-06-03 and 2026-06-11 the repo gained 5 artists — shakira, raye, charli-xcx, tate-mcrae, summer-walker — plus an ed-sheeran promotion and 57 events. **Owner review requested** on the corrections marked "[2026-06-11 correction]" below.)
 
@@ -71,6 +71,14 @@ Implementation sequence (one PR each, in order):
 
 Populating registry IDs is a human verification task (one-time per artist) —
 see `docs/PROVIDER_SYNC.md` → "The provider identity registry".
+
+### 6. ROSALÍA — finish onboarding (Promote)
+
+`rosalia` is live as a `review_required` shell (PR #286, attraction `K8vZ917pJy7`; no CTA, noindex). To complete onboarding, run the Gate 2 → Promote path as a **separate one-artist PR**: confirm the deployed shell page renders the watchlist empty state, re-run the Ticketmaster Discovery Proposal so the artifact carries `ticketmasterArtistUrl`, browser-confirm that API URL the same day, then `npm run artist:promote -- --slug rosalia` (dry-run) → `--write` → validators → PR. Do not name-build the URL.
+
+### 7. slugify diacritics sweep (small, off the critical path)
+
+The accent-aware `slugify` fix landed in the two canonical discovery scripts (`tm-discovery-proposal.mjs`, `tm-discovery-shell-pr.mjs`) via PR #286. The other ~10 `slugify` definitions across `scripts/` (e.g. `propose-artists.mjs`, `audit-candidates.mjs`, `score-candidates.mjs`, the validators) still use the naive version that drops accents to a hyphen. They are not on the canonical onboarding path, so this is low priority, but a one-PR sweep to a shared accent-aware helper would make slug generation uniform. Plain-ASCII names are unaffected, so the change is low-risk.
 
 ## Recently completed
 

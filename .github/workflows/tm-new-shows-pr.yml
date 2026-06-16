@@ -1,0 +1,95 @@
+name: Ticketmaster new shows PR
+
+# Scheduled new-show discovery loop (provider-sync step 3, write-to-PR mode).
+#
+# Each day this runs the Ticketmaster Discovery recogniser for every verified,
+# sync-enabled artist in data/provider-identities.json and opens ONE review PR
+# proposing newly-discovered shows. It is deliberately a discovery + human-gate
+# loop, not autonomous publishing:
+#
+#   - scripts/sync-tm-events-write-pr.mjs never commits to main and never
+#     auto-merges; it lands proposed events on a branch + PR for human review.
+#   - The recogniser withholds events already in events.json, so only genuinely
+#     new shows are proposed; a quiet day produces no commit and no PR.
+#   - Risky rows (missing venue/date, non-allowlisted host, support-act/festival
+#     appearances, upsell packages) are withheld for human review, never written.
+#   - tour_name is left blank on every new row (never inferred from a URL slug,
+#     issue #172); the PR flags it as a required human follow-up.
+#   - Without TICKETMASTER_API_KEY the recogniser no-ops safely (no rows, no PR).
+#
+# See docs/PROVIDER_SYNC.md and SAFE_PUBLISHING_RULES.md.
+
+on:
+  schedule:
+    # 04:00 UTC — after the 03:00 daily audit, separate from the (manual-only)
+    # nightly data sync which historically ran at 03:30.
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+    inputs:
+      artist:
+        description: 'Single artist slug to run (blank = all approved sync-enabled artists).'
+        required: false
+        default: ''
+      mode:
+        description: 'preview = no PR (safe dry run); write-pr = open a review PR.'
+        type: choice
+        options:
+          - preview
+          - write-pr
+        default: preview
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Never overlap with another run (a previous run may still hold the automation
+# branch / be opening a PR). Queue rather than cancel so a scheduled run is not
+# dropped mid-write.
+concurrency:
+  group: tm-new-shows-pr
+  cancel-in-progress: false
+
+jobs:
+  new-shows:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run Ticketmaster new-shows write-to-PR
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_ARTIST: ${{ github.event.inputs.artist }}
+          INPUT_MODE: ${{ github.event.inputs.mode }}
+        run: |
+          set -euo pipefail
+          ARGS=()
+          if [ -n "${INPUT_ARTIST:-}" ]; then
+            ARGS+=(--artist "${INPUT_ARTIST}")
+          else
+            ARGS+=(--all-approved)
+          fi
+          # Scheduled runs always open a review PR. Manual runs honour the mode
+          # input and default to a safe preview (no PR).
+          if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_MODE:-preview}" = "write-pr" ]; then
+            ARGS+=(--write-pr)
+          fi
+          echo "Running: node scripts/sync-tm-events-write-pr.mjs ${ARGS[*]}"
+          node scripts/sync-tm-events-write-pr.mjs "${ARGS[@]}"

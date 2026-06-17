@@ -50,7 +50,7 @@ function formatTimestamp(iso) {
 
 function renderLinks(links) {
   if (!links) return '_Link audit did not run._\n';
-  const { checked, failures = [], redirects = [], checked_at } = links;
+  const { checked, failures = [], redirects = [], blocked = [], checked_at } = links;
   let out = `Checked ${checked} URL(s) at ${formatTimestamp(checked_at)}.\n\n`;
   if (failures.length === 0) {
     out += '✅ No failing URLs.\n';
@@ -66,6 +66,9 @@ function renderLinks(links) {
     if (failures.length > MAX_FAILURE_ROWS) {
       out += `\n_… ${failures.length - MAX_FAILURE_ROWS} more failing URL(s) omitted. See the \`links.json\` artefact on the [workflow run](../actions/workflows/daily-audit.yml) for the full list._\n`;
     }
+  }
+  if (blocked.length > 0) {
+    out += `\n🔒 ${blocked.length} URL(s) returned 401/403/429 (anti-bot/WAF block, **not** confirmed dead — not counted as failures).\n`;
   }
   if (redirects.length > 0) {
     out += `\nℹ️ ${redirects.length} URL(s) followed a redirect (not a failure):\n`;

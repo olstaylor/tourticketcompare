@@ -16,6 +16,7 @@ const bumpScript = path.join(here, 'bump-verified-dates.mjs');
 const ARTISTS_FIXTURE = [
   { slug: 'clean-artist', name: 'Clean', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'link-fail-artist', name: 'Link Fail', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
+  { slug: 'link-blocked-artist', name: 'Link Blocked', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'tm-missing-artist', name: 'TM Missing', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'tm-error-artist', name: 'TM Error', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'tm-changed-artist', name: 'TM Changed', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
@@ -23,8 +24,9 @@ const ARTISTS_FIXTURE = [
 ];
 
 const LINKS_FIXTURE = {
-  checked: 6,
+  checked: 7,
   failures: [{ url: 'https://example.com/x', artistSlugs: ['link-fail-artist'] }],
+  blocked: [{ url: 'https://example.com/blocked', status: 403, artistSlugs: ['link-blocked-artist'] }],
   passes: [],
   redirects: []
 };
@@ -34,6 +36,7 @@ const TM_FIXTURE = {
   artists: [
     { slug: 'clean-artist', events_checked: 1, events_without_tm_id: 0, missing: [], errors: [], changed: [] },
     { slug: 'link-fail-artist', events_checked: 1, events_without_tm_id: 0, missing: [], errors: [], changed: [] },
+    { slug: 'link-blocked-artist', events_checked: 1, events_without_tm_id: 0, missing: [], errors: [], changed: [] },
     { slug: 'tm-missing-artist', events_checked: 1, events_without_tm_id: 0, missing: [{ id: 'e1', ticketmaster_event_id: 'TM1', status: 404 }], errors: [], changed: [] },
     { slug: 'tm-error-artist', events_checked: 1, events_without_tm_id: 0, missing: [], errors: [{ id: 'e2', ticketmaster_event_id: 'TM2', error: 'timeout' }], changed: [] },
     { slug: 'tm-changed-artist', events_checked: 1, events_without_tm_id: 0, missing: [], errors: [], changed: [{ id: 'e3', diffs: [{ field: 'venue', local: 'A', remote: 'B' }] }] }
@@ -140,6 +143,7 @@ console.log('Case 5: tm-status ok with findings -> only clean artists bumped, er
   const bumped = bumpedSlugs(ctx.artistsPath);
   expect('clean-artist bumped', bumped.includes('clean-artist'), `bumped=${JSON.stringify(bumped)}`);
   expect('link-fail-artist NOT bumped', !bumped.includes('link-fail-artist'));
+  expect('link-blocked-artist NOT bumped (blocked link is unconfirmed)', !bumped.includes('link-blocked-artist'));
   expect('tm-missing-artist NOT bumped', !bumped.includes('tm-missing-artist'));
   expect('tm-error-artist NOT bumped (errors[] guard)', !bumped.includes('tm-error-artist'));
   expect('tm-changed-artist NOT bumped', !bumped.includes('tm-changed-artist'));

@@ -71,6 +71,12 @@ async function main() {
   for (const f of links.failures || []) {
     for (const slug of f.artistSlugs || []) note(slug, 'link failure');
   }
+  // A "blocked" link (401/403/429 from an anti-bot WAF) is NOT a confirmed-live
+  // link — we never loaded it. Stay conservative: do not bump an artist's
+  // last_verified_at on the basis of links we could not actually verify.
+  for (const b of links.blocked || []) {
+    for (const slug of b.artistSlugs || []) note(slug, 'link blocked (unconfirmed, anti-bot/WAF)');
+  }
   for (const artist of tm.artists || []) {
     if (artist.missing?.length) note(artist.slug, `${artist.missing.length} TM event(s) missing`);
     else if (artist.changed?.length) note(artist.slug, `${artist.changed.length} TM event(s) changed`);

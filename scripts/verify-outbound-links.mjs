@@ -3,6 +3,20 @@ import fs from 'node:fs/promises';
 
 const EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
 
+// Ticket storefronts (Ticketmaster, SeatGeek, etc.) sit behind anti-bot WAFs
+// (Akamai/Cloudflare/PerimeterX) that reject non-browser or datacenter clients.
+// Present a realistic browser fingerprint so live pages aren't misreported.
+const BROWSER_HEADERS = {
+  'user-agent':
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+  'accept-language': 'en-US,en;q=0.9'
+};
+
+// Even with a browser fingerprint, WAFs frequently return these to CI runners
+// for live pages. Treat them as "blocked" (inconclusive), not a dead link.
+const BLOCKED_STATUSES = new Set([401, 403, 429]);
+
 function asUrl(value) {
   if (typeof value !== 'string') return null;
   const trimmed = value.trim();
@@ -44,23 +58,23 @@ async function checkUrl(url, timeoutMs) {
       method: 'HEAD',
       redirect: 'follow',
       signal: controller.signal,
-      headers: { 'user-agent': 'TourTicketCompareLinkVerifier/1.0 (+https://tourticketcompare.com)' }
+      headers: BROWSER_HEADERS
     });
 
-    if (response.status === 405 || response.status === 501) {
+    // Some WAFs reject HEAD specifically (405/501) or challenge it (401/403/429);
+    // retry with a ranged GET, which browsers use and WAFs are more likely to allow.
+    if (response.status === 405 || response.status === 501 || BLOCKED_STATUSES.has(response.status)) {
       response = await fetch(url, {
         method: 'GET',
         redirect: 'follow',
         signal: controller.signal,
-        headers: {
-          Range: 'bytes=0-0',
-          'user-agent': 'TourTicketCompareLinkVerifier/1.0 (+https://tourticketcompare.com)'
-        }
+        headers: { ...BROWSER_HEADERS, Range: 'bytes=0-0' }
       });
     }
 
     return {
       ok: response.status >= 200 && response.status < 400,
+      blocked: BLOCKED_STATUSES.has(response.status),
       status: response.status,
       finalUrl: response.url
     };
@@ -106,6 +120,7 @@ if (!links.length) {
 const failureEntries = [];
 const passEntries = [];
 const redirectEntries = [];
+const blockedEntries = [];
 
 console.log(`Checking ${links.length} unique outbound links from public/data/events.json ...`);
 for (const item of links) {
@@ -113,6 +128,18 @@ for (const item of links) {
   const refs = item.refs.slice(0, 2).join(', ');
   const eventIds = [...new Set(item.refs.map((ref) => ref.split(':')[0]))];
   const artistSlugs = [...new Set(eventIds.map((id) => eventIndex.get(id)?.artist_slug).filter(Boolean))];
+
+  if (result.blocked) {
+    blockedEntries.push({
+      url: item.url,
+      status: result.status,
+      refs: item.refs,
+      eventIds,
+      artistSlugs
+    });
+    console.log(`BLOCKED ${result.status} ${item.url} (${refs}) :: anti-bot/WAF, not confirmed dead`);
+    continue;
+  }
 
   if (!result.ok) {
     failureEntries.push({
@@ -151,14 +178,16 @@ for (const item of links) {
 
 const failures = failureEntries.length;
 const redirects = redirectEntries.length;
+const blocked = blockedEntries.length;
 
-console.log(`\nSummary: ${links.length} checked, ${failures} failures, ${redirects} redirects.`);
+console.log(`\nSummary: ${links.length} checked, ${failures} failures, ${blocked} blocked (anti-bot), ${redirects} redirects.`);
 
 if (emitJson) {
   const summary = {
     checked_at: new Date().toISOString(),
     checked: links.length,
     failures: failureEntries,
+    blocked: blockedEntries,
     passes: passEntries,
     redirects: redirectEntries
   };

@@ -45,6 +45,7 @@
     "data:stats": "node scripts/report-data-stats.mjs",
     "audit:links": "node scripts/verify-outbound-links.mjs",
     "audit:tm-events": "node scripts/audit-tm-events.mjs",
+    "audit:seatgeek-events": "node scripts/audit-seatgeek-events.mjs",
     "audit:report": "node scripts/daily-audit-report.mjs",
     "audit:bump-dates": "node scripts/bump-verified-dates.mjs",
     "test:bump-guard": "node scripts/test-bump-verified-dates-guard.mjs",

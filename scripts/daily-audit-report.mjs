@@ -4,10 +4,9 @@ import fs from 'node:fs/promises';
 const ROLLING_ISSUE_LABEL = 'automation:daily-audit';
 const ROLLING_ISSUE_TITLE = 'Daily data audit — open findings';
 
-// GitHub rejects issue bodies over 65536 characters with a 422. Cap the
-// number of failing-URL rows we render, and hard-truncate the final body
-// below the API limit so a large failure list can never fail the workflow.
-const MAX_FAILURE_ROWS = 100;
+// GitHub rejects issue bodies over 65536 characters with a 422. Hard-truncate
+// the final body below the API limit so a large findings list can never fail
+// the workflow.
 const GITHUB_BODY_LIMIT = 65536;
 const BODY_SAFETY_CEILING = 60000;
 
@@ -17,8 +16,8 @@ function arg(name) {
   return i >= 0 ? argv[i + 1] : null;
 }
 
-const linksPath = arg('--links');
 const tmPath = arg('--tm');
+const sgPath = arg('--sg');
 const repo = arg('--repo') || process.env.GITHUB_REPOSITORY;
 const token = process.env.GITHUB_TOKEN;
 const dryRun = argv.includes('--dry-run');
@@ -48,84 +47,56 @@ function formatTimestamp(iso) {
   return iso ? `\`${iso}\`` : '_no timestamp_';
 }
 
-function renderLinks(links) {
-  if (!links) return '_Link audit did not run._\n';
-  const { checked, failures = [], redirects = [], blocked = [], checked_at } = links;
-  let out = `Checked ${checked} URL(s) at ${formatTimestamp(checked_at)}.\n\n`;
-  if (failures.length === 0) {
-    out += '✅ No failing URLs.\n';
-  } else {
-    out += `❌ ${failures.length} failing URL(s):\n\n`;
-    out += '| Status | URL | Artist | Events |\n';
-    out += '|---|---|---|---|\n';
-    for (const f of failures.slice(0, MAX_FAILURE_ROWS)) {
-      const artists = (f.artistSlugs || []).join(', ') || '—';
-      const events = (f.eventIds || []).slice(0, 3).join(', ') + ((f.eventIds || []).length > 3 ? '…' : '');
-      out += `| ${f.status ?? 'ERR'} | ${f.url} | ${artists} | ${events} |\n`;
-    }
-    if (failures.length > MAX_FAILURE_ROWS) {
-      out += `\n_… ${failures.length - MAX_FAILURE_ROWS} more failing URL(s) omitted. See the \`links.json\` artefact on the [workflow run](../actions/workflows/daily-audit.yml) for the full list._\n`;
-    }
-  }
-  if (blocked.length > 0) {
-    out += `\n🔒 ${blocked.length} URL(s) returned 401/403/429 (anti-bot/WAF block, **not** confirmed dead — not counted as failures).\n`;
-  }
-  if (redirects.length > 0) {
-    out += `\nℹ️ ${redirects.length} URL(s) followed a redirect (not a failure):\n`;
-    for (const r of redirects.slice(0, 10)) {
-      out += `- \`${r.url}\` → \`${r.finalUrl}\`\n`;
-    }
-    if (redirects.length > 10) out += `- _… ${redirects.length - 10} more_\n`;
-  }
-  return out;
-}
-
-function renderTm(tm) {
-  if (!tm) return '_TM Discovery diff did not run._\n';
-  const { totals = {}, artists = [], checked_at } = tm;
-  let out = `Checked ${totals.checked || 0} TM event ID(s) at ${formatTimestamp(checked_at)}.\n\n`;
-  out += `- ❌ Missing on TM (404/410): **${totals.missing || 0}**\n`;
+// Renders a provider API diff (Ticketmaster or SeatGeek) — both auditors emit
+// the same { totals, artists:[{ slug, missing, changed, errors }] } shape.
+function renderProviderDiff(diff, { name, idKey }) {
+  if (!diff) return `_${name} Discovery diff did not run._\n`;
+  const { totals = {}, artists = [], checked_at } = diff;
+  let out = `Checked ${totals.checked || 0} ${name} event(s) at ${formatTimestamp(checked_at)}.\n\n`;
+  out += `- ❌ Missing on ${name} (404/410): **${totals.missing || 0}**\n`;
   out += `- ⚠️ Changed (date/venue/status): **${totals.changed || 0}**\n`;
   out += `- 🔁 Transient errors: **${totals.errors || 0}**\n\n`;
   for (const artist of artists) {
-    if (!artist.missing.length && !artist.changed.length && !artist.errors.length) continue;
+    const missing = artist.missing || [];
+    const changed = artist.changed || [];
+    const errors = artist.errors || [];
+    if (!missing.length && !changed.length && !errors.length) continue;
     out += `### ${artist.slug}\n\n`;
-    if (artist.missing.length) {
-      out += `**Missing events (TM returned 404/410):**\n`;
-      for (const m of artist.missing) {
-        out += `- \`${m.id}\` (${m.city || '—'}, ${m.datetime_iso || '—'}) — TM ID \`${m.ticketmaster_event_id}\`\n`;
+    if (missing.length) {
+      out += `**Missing events (${name} returned 404/410):**\n`;
+      for (const m of missing) {
+        out += `- \`${m.id}\` (${m.city || '—'}, ${m.datetime_iso || '—'}) — ${name} ID \`${m[idKey]}\`\n`;
       }
       out += '\n';
     }
-    if (artist.changed.length) {
-      out += `**Changed events (local vs TM):**\n`;
-      for (const c of artist.changed) {
+    if (changed.length) {
+      out += `**Changed events (local vs ${name}):**\n`;
+      for (const c of changed) {
         const diffSummary = c.diffs.map((d) => `\`${d.field}\`: \`${d.local}\` → \`${d.remote}\``).join('; ');
         out += `- \`${c.id}\` — ${diffSummary}\n`;
       }
       out += '\n';
     }
-    if (artist.errors.length) {
-      out += `**Transient errors (likely retry next run):** ${artist.errors.length}\n\n`;
+    if (errors.length) {
+      out += `**Transient errors (likely retry next run):** ${errors.length}\n\n`;
     }
   }
   return out;
 }
 
-function buildBody(links, tm) {
+function buildBody(tm, sg) {
   const generated = new Date().toISOString();
-  const linkFailing = (links?.failures?.length || 0) > 0;
-  const tmMissing = (tm?.totals?.missing || 0) > 0;
-  const tmChanged = (tm?.totals?.changed || 0) > 0;
-  const hasFindings = linkFailing || tmMissing || tmChanged;
+  const tmFinding = (tm?.totals?.missing || 0) > 0 || (tm?.totals?.changed || 0) > 0;
+  const sgFinding = (sg?.totals?.missing || 0) > 0 || (sg?.totals?.changed || 0) > 0;
+  const hasFindings = tmFinding || sgFinding;
 
   const status = hasFindings ? '🔴 **Findings**' : '🟢 **All clean**';
   let body = `<!-- daily-audit-report -->\n`;
   body += `**Last run:** \`${generated}\`\n`;
   body += `**Status:** ${status}\n\n`;
-  body += `> This issue is updated automatically by [`.concat('.github/workflows/daily-audit.yml').concat('](../actions/workflows/daily-audit.yml). Close it manually only when you want a fresh issue next run.\n\n');
-  body += `## 1. URL liveness\n\n${renderLinks(links)}\n`;
-  body += `## 2. TM Discovery diff\n\n${renderTm(tm)}\n`;
+  body += `> This issue is updated automatically by [`.concat('.github/workflows/daily-audit.yml').concat('](../actions/workflows/daily-audit.yml). Verification is via the official Ticketmaster and SeatGeek APIs. Close it manually only when you want a fresh issue next run.\n\n');
+  body += `## 1. Ticketmaster Discovery diff\n\n${renderProviderDiff(tm, { name: 'TM', idKey: 'ticketmaster_event_id' })}\n`;
+  body += `## 2. SeatGeek Discovery diff\n\n${renderProviderDiff(sg, { name: 'SeatGeek', idKey: 'seatgeek_event_id' })}\n`;
   body += `---\n_Generated by \`scripts/daily-audit-report.mjs\` on ${generated}._\n`;
 
   if (body.length > BODY_SAFETY_CEILING) {
@@ -160,9 +131,9 @@ async function findRollingIssue() {
 }
 
 async function main() {
-  const links = await readJson(linksPath);
   const tm = await readJson(tmPath);
-  const { body, hasFindings } = buildBody(links, tm);
+  const sg = await readJson(sgPath);
+  const { body, hasFindings } = buildBody(tm, sg);
 
   if (dryRun) {
     console.log('--- DRY RUN ---');

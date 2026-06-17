@@ -34,10 +34,10 @@ jobs:
       - name: Prepare report directory
         run: mkdir -p .audit
 
-      - name: URL liveness check
-        id: links
-        continue-on-error: true
-        run: node scripts/verify-outbound-links.mjs --json .audit/links.json
+      # Storefront HTTP liveness checks were removed: Ticketmaster/SeatGeek sit
+      # behind anti-bot WAFs that 403 CI runners, so the check could never
+      # confirm a live link, and scraping is against project policy. Link
+      # verification is now done via the official provider APIs below.
 
       - name: TM Discovery diff
         id: tm
@@ -58,13 +58,32 @@ jobs:
             exit $code
           fi
 
+      - name: SeatGeek Discovery diff
+        id: sg
+        continue-on-error: true
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+        run: |
+          if [ -z "$SEATGEEK_CLIENT_ID" ]; then
+            echo "SEATGEEK_CLIENT_ID not configured; skipping SeatGeek diff."
+            printf '%s\n' '{"status":"skipped","reason":"SEATGEEK_CLIENT_ID not set"}' > .audit/sg-status.json
+            exit 0
+          fi
+          if node scripts/audit-seatgeek-events.mjs --json .audit/sg.json; then
+            printf '%s\n' '{"status":"ok"}' > .audit/sg-status.json
+          else
+            code=$?
+            printf '%s\n' "{\"status\":\"failed\",\"reason\":\"audit-seatgeek-events.mjs exited ${code}\"}" > .audit/sg-status.json
+            exit $code
+          fi
+
       - name: Update rolling audit issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node scripts/daily-audit-report.mjs \
-            --links .audit/links.json \
             --tm .audit/tm.json \
+            --sg .audit/sg.json \
             --repo "${GITHUB_REPOSITORY}"
 
       - name: Upload audit artefacts
@@ -112,9 +131,10 @@ jobs:
             echo "Dry-run mode: artists.json will not be modified and no PR will be opened."
           fi
           node scripts/bump-verified-dates.mjs \
-            --links .audit/links.json \
             --tm .audit/tm.json \
             --tm-status .audit/tm-status.json \
+            --sg .audit/sg.json \
+            --sg-status .audit/sg-status.json \
             $DRY_RUN_FLAG
 
       - name: Check for changes

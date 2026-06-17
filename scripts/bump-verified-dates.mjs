@@ -9,19 +9,20 @@ function arg(name) {
   return i >= 0 ? argv[i + 1] : null;
 }
 
-const linksPath = arg('--links');
 const tmPath = arg('--tm');
 const tmStatusPath = arg('--tm-status');
+const sgPath = arg('--sg');
+const sgStatusPath = arg('--sg-status');
 const artistsPathArg = arg('--artists');
 const today = arg('--today') || new Date().toISOString().slice(0, 10);
 const dryRun = argv.includes('--dry-run');
 
-if (!linksPath) {
-  console.error('ERROR: --links <path> required.');
-  process.exit(2);
-}
 if (!tmStatusPath) {
   console.error('ERROR: --tm-status <path> required. The daily audit must write an explicit TM audit status file.');
+  process.exit(2);
+}
+if (!sgStatusPath) {
+  console.error('ERROR: --sg-status <path> required. The daily audit must write an explicit SeatGeek audit status file.');
   process.exit(2);
 }
 
@@ -39,20 +40,51 @@ async function readJson(path) {
   }
 }
 
-async function main() {
-  const tmStatus = await readJson(tmStatusPath);
-  if (!tmStatus || tmStatus.status !== 'ok') {
-    const detail = tmStatus
-      ? `status=${tmStatus.status}${tmStatus.reason ? ` (${tmStatus.reason})` : ''}`
-      : `no tm-status.json at ${tmStatusPath}`;
-    console.log(`TM audit not confirmed clean (${detail}); skipping all date bumps.`);
-    return;
-  }
+function indexBySlug(artists) {
+  const map = new Map();
+  for (const a of artists || []) map.set(a.slug, a);
+  return map;
+}
 
-  const links = await readJson(linksPath);
-  if (!links) {
-    console.error('No link audit JSON found; aborting.');
-    process.exit(2);
+// Returns a human-readable reason the artist must NOT be bumped, or null if it
+// is fully verified. "Verified" requires positive confirmation: at least one
+// event actually checked against the TM API (so zero-event artists are never
+// auto-verified), no TM findings, and — since every storefront link must be
+// confirmed — no SeatGeek findings either.
+function bumpBlockReason(slug, tmBySlug, sgBySlug) {
+  const tmA = tmBySlug.get(slug);
+  const tmChecked = tmA?.events_checked || 0;
+  if (tmChecked === 0) return 'no events confirmed via TM API (nothing checked)';
+  if (tmA.missing?.length) return `${tmA.missing.length} TM event(s) missing`;
+  if (tmA.changed?.length) return `${tmA.changed.length} TM event(s) changed`;
+  if (tmA.errors?.length) return `${tmA.errors.length} TM event check error(s)`;
+
+  const sgA = sgBySlug.get(slug);
+  if (sgA) {
+    if (sgA.unparsable?.length) return `${sgA.unparsable.length} SeatGeek URL(s) could not be verified (unparsable)`;
+    if (sgA.missing?.length) return `${sgA.missing.length} SeatGeek event(s) missing`;
+    if (sgA.changed?.length) return `${sgA.changed.length} SeatGeek event(s) changed`;
+    if (sgA.errors?.length) return `${sgA.errors.length} SeatGeek event check error(s)`;
+  }
+  return null;
+}
+
+async function main() {
+  // Both provider audits must have positively confirmed "ok". If either was
+  // skipped or failed we could not verify those links, so we make no claims:
+  // skip all date bumps rather than asserting verification we didn't perform.
+  const statuses = [
+    ['TM', await readJson(tmStatusPath), tmStatusPath],
+    ['SeatGeek', await readJson(sgStatusPath), sgStatusPath]
+  ];
+  for (const [label, status, p] of statuses) {
+    if (!status || status.status !== 'ok') {
+      const detail = status
+        ? `status=${status.status}${status.reason ? ` (${status.reason})` : ''}`
+        : `no status file at ${p}`;
+      console.log(`${label} audit not confirmed clean (${detail}); skipping all date bumps.`);
+      return;
+    }
   }
 
   const tm = await readJson(tmPath);
@@ -60,36 +92,23 @@ async function main() {
     console.error(`TM status reports "ok" but no tm.json found at ${tmPath}; aborting to stay safe.`);
     process.exit(2);
   }
+  const sg = await readJson(sgPath);
+  if (!sg) {
+    console.error(`SeatGeek status reports "ok" but no sg.json found at ${sgPath}; aborting to stay safe.`);
+    process.exit(2);
+  }
 
-  const failingArtists = new Set();
-  const reasons = new Map();
-  const note = (slug, reason) => {
-    failingArtists.add(slug);
-    if (!reasons.has(slug)) reasons.set(slug, reason);
-  };
-
-  for (const f of links.failures || []) {
-    for (const slug of f.artistSlugs || []) note(slug, 'link failure');
-  }
-  // A "blocked" link (401/403/429 from an anti-bot WAF) is NOT a confirmed-live
-  // link — we never loaded it. Stay conservative: do not bump an artist's
-  // last_verified_at on the basis of links we could not actually verify.
-  for (const b of links.blocked || []) {
-    for (const slug of b.artistSlugs || []) note(slug, 'link blocked (unconfirmed, anti-bot/WAF)');
-  }
-  for (const artist of tm.artists || []) {
-    if (artist.missing?.length) note(artist.slug, `${artist.missing.length} TM event(s) missing`);
-    else if (artist.changed?.length) note(artist.slug, `${artist.changed.length} TM event(s) changed`);
-    else if (artist.errors?.length) note(artist.slug, `${artist.errors.length} TM event check error(s)`);
-  }
+  const tmBySlug = indexBySlug(tm.artists);
+  const sgBySlug = indexBySlug(sg.artists);
 
   const artists = JSON.parse(await fs.readFile(artistsPath, 'utf8'));
   const changes = [];
   const skipped = [];
   for (const artist of artists) {
     if (artist.indexing_status !== 'indexable_with_substantial_content') continue;
-    if (failingArtists.has(artist.slug)) {
-      skipped.push({ slug: artist.slug, reason: reasons.get(artist.slug) });
+    const reason = bumpBlockReason(artist.slug, tmBySlug, sgBySlug);
+    if (reason) {
+      skipped.push({ slug: artist.slug, reason });
       continue;
     }
     if (artist.last_verified_at === today) continue;
@@ -98,7 +117,7 @@ async function main() {
   }
 
   if (skipped.length > 0) {
-    console.log(`Skipping ${skipped.length} artist(s) due to audit findings:`);
+    console.log(`Skipping ${skipped.length} artist(s) — not fully verified:`);
     for (const s of skipped) console.log(`  ${s.slug}: ${s.reason}`);
   }
 

@@ -128,27 +128,31 @@ Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploy
 
 ## Daily Data Audit
 
-`.github/workflows/daily-audit.yml` runs at 03:00 UTC daily (and on `workflow_dispatch`). It is the scheduled check-and-update pipeline for outbound ticket links and Ticketmaster event freshness.
+`.github/workflows/daily-audit.yml` runs at 03:00 UTC daily (and on `workflow_dispatch`). It is the scheduled check-and-update pipeline that verifies outbound ticket links against the official provider APIs.
 
 ### What it does
 
-1. **URL liveness** — `scripts/verify-outbound-links.mjs --json` HEAD-checks every `ticketmaster_url`, `seatgeek_url`, `source_url`, and `provider_links[*].url` in `public/data/events.json`.
-2. **TM Discovery diff** — `scripts/audit-tm-events.mjs --json` calls the Ticketmaster Discovery API per event ID for every indexed artist, flagging `404/410` (missing), date/venue/status changes, and transient errors.
+1. **TM Discovery diff** — `scripts/audit-tm-events.mjs --json` calls the Ticketmaster Discovery API per event ID for every indexed artist, flagging `404/410` (missing), date/venue/status changes, and transient errors.
+2. **SeatGeek Discovery diff** — `scripts/audit-seatgeek-events.mjs --json` calls the SeatGeek Platform API for every event carrying a `seatgeek_url` (ID parsed from the `/concert/<id>` path), flagging the same missing/changed/error conditions.
 3. **Report** — `scripts/daily-audit-report.mjs` writes findings into a single rolling GitHub issue labelled `automation:daily-audit`. The issue body is overwritten each run; status reads `🔴 Findings` or `🟢 All clean`.
-4. **Verification dates PR** — `scripts/bump-verified-dates.mjs` bumps `last_verified_at` to today on `public/data/artists.json` for indexed artists whose URL audit and TM diff produced no findings. The change is pushed to `automation/verified-dates-YYYY-MM-DD` and opens a PR for human review.
+4. **Verification dates PR** — `scripts/bump-verified-dates.mjs` bumps `last_verified_at` to today on `public/data/artists.json` only for indexed artists that were **positively confirmed** — at least one event actually checked, and no findings on **either** the TM or SeatGeek API. Artists with no checkable events are never auto-verified. The change is pushed to `automation/verified-dates-YYYY-MM-DD` and opens a PR for human review.
+
+> **Note:** earlier versions HEAD-checked storefront URLs directly (`scripts/verify-outbound-links.mjs`). That was removed from the pipeline: Ticketmaster/SeatGeek sit behind anti-bot WAFs that return `403` to CI runners, so an HTTP check could never confirm a live link, and scraping is against project policy. The script remains for manual use (`npm run audit:links`) but is not part of the daily audit. Verification is now API-only.
 
 ### Required secrets
 
 | Secret | Where set | Used by |
 |---|---|---|
-| `TICKETMASTER_API_KEY` | Repo settings → Actions secrets | TM Discovery diff (without it, the diff job is skipped, link liveness still runs) |
+| `TICKETMASTER_API_KEY` | Repo settings → Actions secrets | TM Discovery diff (without it the TM diff is skipped, and no date bumps occur) |
+| `SEATGEEK_CLIENT_ID` | Repo settings → Actions secrets | SeatGeek Discovery diff (without it the SeatGeek diff is skipped, and no date bumps occur) |
 | `GITHUB_TOKEN` | Provided automatically | Rolling issue + daily PR |
 
 ### What it does **not** do
 
 - Does **not** auto-edit `events.json`, `catalog.json`, or any event-level record. Diffs are reported for human review.
-- Does **not** scrape provider pages. Link checks use `HEAD`/`Range: 0-0` per the existing `verify-outbound-links.mjs` policy; TM data uses the official Discovery API.
+- Does **not** scrape provider pages. Verification uses only the official Ticketmaster Discovery and SeatGeek Platform APIs.
 - Does **not** modify `functions/api/out.js` or affiliate logic.
+- Does **not** bump `last_verified_at` unless **both** provider audits ran cleanly that day; if either is skipped or fails, all date bumps are skipped.
 
 ### PR stale-sync guard
 

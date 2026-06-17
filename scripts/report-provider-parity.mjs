@@ -32,6 +32,7 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
+import { slugify } from "./lib/slugify.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, "..");
@@ -62,14 +63,6 @@ function parseArgs(argv) {
 // ---------------------------------------------------------------------------
 // Validation rules — copied to mirror functions/[[path]].js (keep in sync)
 // ---------------------------------------------------------------------------
-function slugify(value) {
-  return String(value || "")
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-}
-
 function safeShowTicketUrl(value) {
   const raw = String(value || "").trim();
   if (!raw) return null;

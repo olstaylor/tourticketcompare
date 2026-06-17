@@ -9,6 +9,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { slugify } from './lib/slugify.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ARTISTS_PATH = path.join(root, 'public/data/artists.json');
@@ -22,10 +23,6 @@ const ARTIST_LEVEL_PROVIDERS = new Set(['ticketmaster']);
 
 async function readJson(p) {
   return JSON.parse(await fs.readFile(p, 'utf8'));
-}
-
-function slugify(value) {
-  return String(value || '').trim().toLowerCase();
 }
 
 async function loadVerifiedTicketLinkKeys() {

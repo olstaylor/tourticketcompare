@@ -15,6 +15,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { slugify } from "./lib/slugify.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -54,15 +55,6 @@ Notes:
 
 function clean(value, max = 4096) {
   return String(value ?? "").trim().slice(0, max);
-}
-
-function slugify(value) {
-  return clean(value, 120)
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
 }
 
 function parseArgs(argv) {

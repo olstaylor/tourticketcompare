@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { slugify } from './lib/slugify.mjs';
 
 const API_BASE = 'https://app.ticketmaster.com/discovery/v2/events.json';
 const PAGE_LIMIT = Number(process.env.TM_DISCOVERY_PAGE_LIMIT || 10);
@@ -13,18 +14,6 @@ const OUTPUT_DIR = process.env.TM_OUTPUT_DIR || 'artifacts/tm-discovery';
 const COUNTRY_CODE = process.env.TM_DISCOVERY_COUNTRY_CODE === undefined
   ? 'US'
   : process.env.TM_DISCOVERY_COUNTRY_CODE.trim();
-
-function slugify(name) {
-  // Decompose accented characters (ROSALÍA -> ROSALIA, Beyoncé -> Beyonce)
-  // and drop the combining marks before stripping to [a-z0-9]; otherwise an
-  // accent collapses to a hyphen (ROSALÍA -> "rosal-a").
-  return String(name || '')
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)/g, '');
-}
 
 async function readJson(file) {
   return JSON.parse(await fs.readFile(file, 'utf8'));

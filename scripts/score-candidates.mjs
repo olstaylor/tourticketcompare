@@ -14,6 +14,7 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { slugify } from './lib/slugify.mjs';
 
 // Diagnostic supported-domain allowlist for candidate REPORTING only.
 // Do NOT consume this list from CTA / affiliate / out.js code. Public CTA
@@ -67,15 +68,6 @@ function arg(name) {
 
 function clean(value) {
   return String(value || '').trim();
-}
-
-function slugify(value) {
-  return clean(value, 120)
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)/g, '');
 }
 
 async function ensureDir(dirPath) {

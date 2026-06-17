@@ -13,7 +13,9 @@ const ARTISTS_PATH = new URL('../public/data/artists.json', import.meta.url);
 
 const argv = process.argv.slice(2);
 const jsonFlagIndex = argv.indexOf('--json');
-const jsonOutPath = jsonFlagIndex >= 0 ? (argv[jsonFlagIndex + 1] || null) : null;
+const jsonNext = jsonFlagIndex >= 0 ? argv[jsonFlagIndex + 1] : null;
+// Only treat the next token as the output path when it isn't another flag.
+const jsonOutPath = jsonNext && !jsonNext.startsWith('-') ? jsonNext : null;
 const emitJson = jsonFlagIndex >= 0;
 const requestDelayMs = Number.parseInt(process.env.SEATGEEK_REQUEST_DELAY_MS || '300', 10);
 const requestTimeoutMs = Number.parseInt(process.env.SEATGEEK_REQUEST_TIMEOUT_MS || '15000', 10);
@@ -70,7 +72,14 @@ async function fetchEvent(clientId, eventId) {
     if (!response.ok) {
       return { status, exists: null, error: `HTTP ${status}`, data: null };
     }
-    const data = await response.json().catch(() => null);
+    // A 200 with an unparsable body (e.g. an HTML error/interstitial page) must
+    // not be treated as a clean verification — surface it as an error instead.
+    let data;
+    try {
+      data = await response.json();
+    } catch (parseErr) {
+      return { status, exists: null, error: `JSON parse error: ${parseErr?.message || parseErr}`, data: null };
+    }
     return { status, exists: true, data };
   } catch (error) {
     return {

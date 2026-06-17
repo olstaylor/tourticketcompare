@@ -55,12 +55,17 @@ function renderProviderDiff(diff, { name, idKey }) {
   let out = `Checked ${totals.checked || 0} ${name} event(s) at ${formatTimestamp(checked_at)}.\n\n`;
   out += `- ❌ Missing on ${name} (404/410): **${totals.missing || 0}**\n`;
   out += `- ⚠️ Changed (date/venue/status): **${totals.changed || 0}**\n`;
-  out += `- 🔁 Transient errors: **${totals.errors || 0}**\n\n`;
+  out += `- 🔁 Transient errors: **${totals.errors || 0}**\n`;
+  if (totals.unparsable !== undefined) {
+    out += `- 🧩 Unparsable stored URLs: **${totals.unparsable || 0}**\n`;
+  }
+  out += '\n';
   for (const artist of artists) {
     const missing = artist.missing || [];
     const changed = artist.changed || [];
     const errors = artist.errors || [];
-    if (!missing.length && !changed.length && !errors.length) continue;
+    const unparsable = artist.unparsable || [];
+    if (!missing.length && !changed.length && !errors.length && !unparsable.length) continue;
     out += `### ${artist.slug}\n\n`;
     if (missing.length) {
       out += `**Missing events (${name} returned 404/410):**\n`;
@@ -80,6 +85,13 @@ function renderProviderDiff(diff, { name, idKey }) {
     if (errors.length) {
       out += `**Transient errors (likely retry next run):** ${errors.length}\n\n`;
     }
+    if (unparsable.length) {
+      out += `**Unparsable stored URLs (cannot verify — fix the stored link):**\n`;
+      for (const u of unparsable) {
+        out += `- \`${u.id}\` — \`${u.seatgeek_url || u.url || '—'}\`\n`;
+      }
+      out += '\n';
+    }
   }
   return out;
 }
@@ -87,7 +99,7 @@ function renderProviderDiff(diff, { name, idKey }) {
 function buildBody(tm, sg) {
   const generated = new Date().toISOString();
   const tmFinding = (tm?.totals?.missing || 0) > 0 || (tm?.totals?.changed || 0) > 0;
-  const sgFinding = (sg?.totals?.missing || 0) > 0 || (sg?.totals?.changed || 0) > 0;
+  const sgFinding = (sg?.totals?.missing || 0) > 0 || (sg?.totals?.changed || 0) > 0 || (sg?.totals?.unparsable || 0) > 0;
   const hasFindings = tmFinding || sgFinding;
 
   const status = hasFindings ? '🔴 **Findings**' : '🟢 **All clean**';

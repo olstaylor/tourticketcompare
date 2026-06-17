@@ -47,11 +47,29 @@ const body = [
   '- Tomorrow\'s run will open a new branch `automation/verified-dates-YYYY-MM-DD`; this one is safe to close at any time.'
 ].join('\n');
 
-const pr = await gh('POST', `/repos/${repo}/pulls`, {
+const prPayload = {
   title: `Bump last_verified_at for clean artists (${today})`,
   head: branch,
   base: 'main',
   body
-});
+};
+
+let pr;
+try {
+  pr = await gh('POST', `/repos/${repo}/pulls`, prPayload);
+} catch (err) {
+  // The Actions GITHUB_TOKEN can only open PRs when the repo/org setting
+  // "Allow GitHub Actions to create and approve pull requests" is enabled.
+  // The verified-dates branch is already pushed, so degrade gracefully:
+  // surface a manual PR link and succeed rather than failing the audit.
+  if (/not permitted to create or approve pull requests/i.test(err.message)) {
+    console.warn(`Could not open PR automatically: ${err.message}`);
+    console.warn(`Branch "${branch}" is pushed. Open a PR manually:`);
+    console.warn(`  https://github.com/${repo}/compare/main...${branch}?expand=1`);
+    console.warn('To auto-open in future runs, enable Settings → Actions → General → Workflow permissions → "Allow GitHub Actions to create and approve pull requests".');
+    process.exit(0);
+  }
+  throw err;
+}
 
 console.log(`Opened PR #${pr.number}: ${pr.html_url}`);

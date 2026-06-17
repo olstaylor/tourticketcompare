@@ -140,6 +140,13 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "tm-artist-summer-walker",
     redirectUrl: "https://www.ticketmaster.com/summer-walker-tickets/artist/2537562",
     verified: true
+  },
+  "rosalia:ticketmaster": {
+    artistSlug: "rosalia",
+    provider: "ticketmaster",
+    linkId: "tm-artist-rosalia",
+    redirectUrl: "https://www.ticketmaster.com/rosalia-tickets/artist/2453211",
+    verified: true
   }
 };
 

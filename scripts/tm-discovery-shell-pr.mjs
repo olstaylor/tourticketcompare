@@ -2,6 +2,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { execFileSync, spawnSync } from 'node:child_process';
+import { slugify } from './lib/slugify.mjs';
 
 const SCORE_THRESHOLD = Number(process.env.TM_SHELL_SCORE_THRESHOLD || 70);
 const ARTIFACT_DIR = process.env.TM_DISCOVERY_ARTIFACT_DIR || 'artifacts/tm-discovery';
@@ -9,12 +10,6 @@ const ARTIFACT_DIR = process.env.TM_DISCOVERY_ARTIFACT_DIR || 'artifacts/tm-disc
 // Promote PRs remain strictly one artist each.
 const MAX_SHELLS_PER_RUN = Math.max(1, Number(process.env.TM_SHELL_MAX_PER_RUN || 3));
 const LABEL = 'automation:tm-shell';
-
-function slugify(name) {
-  // Strip accents (ROSALÍA -> rosalia) before reducing to [a-z0-9]; otherwise
-  // an accented letter collapses to a hyphen.
-  return String(name || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-}
 
 async function readJson(file) { return JSON.parse(await fs.readFile(file, 'utf8')); }
 

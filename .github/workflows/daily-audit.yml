@@ -73,6 +73,10 @@ jobs:
         with:
           name: daily-audit-${{ github.run_id }}
           path: .audit/
+          # .audit is a dotfile dir; upload-artifact@v4 excludes hidden files
+          # by default, which would skip the upload and break the download in
+          # the verification-dates job.
+          include-hidden-files: true
           retention-days: 30
 
   verification-dates:

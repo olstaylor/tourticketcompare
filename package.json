@@ -48,6 +48,8 @@
     "audit:report": "node scripts/daily-audit-report.mjs",
     "audit:bump-dates": "node scripts/bump-verified-dates.mjs",
     "audit:backfill-discovery-ids": "node scripts/backfill-discovery-ids.mjs",
+    "providers:sync:tm:coverage": "node scripts/report-tm-discovery-coverage.mjs",
+    "providers:sync:tm:coverage:self-test": "node scripts/report-tm-discovery-coverage.mjs --self-test",
     "test:bump-guard": "node scripts/test-bump-verified-dates-guard.mjs",
     "data:sync-tm": "node scripts/apply-tm-updates.mjs",
     "data:sync-tm:dry-run": "node scripts/apply-tm-updates.mjs --dry-run",

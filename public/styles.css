@@ -1,23 +1,27 @@
 :root {
-  --bg: #f5f1e8;
-  --paper: #fffdf7;
-  --ink: #101411;
-  --muted: #4a524a;
-  --line: #d8d0c0;
-  --line-strong: #bdb29f;
-  --accent: #d75b2f;
-  --accent-dark: #8f341e;
-  --green: #24483a;
-  --green-soft: #dfe9dd;
+  /* Aligned with the brand-evolved design system (ttc-home.css):
+     warm paper, forest-green identity, one terracotta CTA, sans
+     headings (the legacy Georgia headings are superseded), hairline
+     borders, small radii, two soft shadows, flat backgrounds. */
+  --bg: #fbfaf8;
+  --paper: #ffffff;
+  --ink: #1c1a16;
+  --muted: #6c665c;
+  --line: #ece7dd;
+  --line-strong: #ddd5c6;
+  --accent: #bf4a2c;
+  --accent-dark: #a63e22;
+  --green: #214034;
+  --green-soft: #e7f1ea;
   --gold: #a46f21;
-  --blue: #243f63;
-  --focus: #1f5eff;
-  --shadow: 0 24px 70px rgba(36, 28, 18, 0.12);
-  --radius-xl: 32px;
-  --radius-lg: 22px;
-  --radius-md: 16px;
-  --headline: Georgia, "Times New Roman", serif;
-  --body: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+  --blue: #355f7e;
+  --focus: #214034;
+  --shadow: 0 1px 2px rgba(20, 18, 15, 0.05), 0 10px 28px -14px rgba(20, 18, 15, 0.16);
+  --radius-xl: 12px;
+  --radius-lg: 12px;
+  --radius-md: 8px;
+  --headline: "Hanken Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --body: "Hanken Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * {
@@ -32,11 +36,9 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 12% 0%, rgba(215, 91, 47, 0.14), transparent 30rem),
-    radial-gradient(circle at 92% 10%, rgba(36, 72, 58, 0.16), transparent 28rem),
-    linear-gradient(180deg, #fffaf0 0%, var(--bg) 46%, #ebe2d1 100%);
+  background: var(--bg);
   font-family: var(--body);
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -180,9 +182,9 @@ main {
 .section-grid,
 .content-page,
 .site-footer {
-  border: 1px solid rgba(216, 208, 192, 0.94);
+  border: 1px solid var(--line);
   border-radius: var(--radius-xl);
-  background: rgba(255, 253, 247, 0.9);
+  background: var(--paper);
   box-shadow: var(--shadow);
 }
 
@@ -206,7 +208,8 @@ h2,
 h3 {
   margin: 0;
   font-family: var(--headline);
-  letter-spacing: -0.045em;
+  font-weight: 800;
+  letter-spacing: -0.025em;
   overflow-wrap: anywhere;
 }
 
@@ -269,13 +272,18 @@ h3 {
 
 .button:hover,
 .button:focus-visible {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 .button-primary {
   color: #fff;
-  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-  box-shadow: 0 18px 36px rgba(143, 52, 30, 0.24);
+  background: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+.button-primary:hover,
+.button-primary:focus-visible {
+  background: var(--accent-dark);
 }
 
 .button-secondary {
@@ -285,7 +293,7 @@ h3 {
 
 .button-ghost {
   color: var(--accent-dark);
-  background: rgba(215, 91, 47, 0.1);
+  background: color-mix(in oklab, var(--accent) 10%, transparent);
 }
 
 .cta-group {
@@ -386,7 +394,7 @@ h3 {
 
 .artist-card,
 .info-card {
-  box-shadow: 0 14px 36px rgba(36, 28, 18, 0.06);
+  box-shadow: var(--shadow);
 }
 
 .artist-card.is-pending {
@@ -401,7 +409,7 @@ h3 {
 .provider-card h3 {
   font-size: clamp(1.3rem, 2.1vw, 1.65rem);
   line-height: 1.18;
-  font-weight: inherit;
+  font-weight: 700;
 }
 
 .artist-card .button,
@@ -462,7 +470,7 @@ h3 {
   max-width: 100%;
   margin: 0;
   padding: 7px 11px;
-  border: 1px solid rgba(36, 72, 58, 0.2);
+  border: 1px solid color-mix(in oklab, var(--green) 20%, transparent);
   border-radius: 999px;
   color: var(--green);
   background: var(--green-soft);
@@ -588,9 +596,7 @@ h3 {
 }
 
 .provider-panel {
-  background:
-    linear-gradient(135deg, rgba(36, 72, 58, 0.08), rgba(215, 91, 47, 0.06)),
-    var(--paper);
+  background: var(--paper);
 }
 
 .compact-list,
@@ -815,7 +821,7 @@ summary {
   .section-grid,
   .content-page,
   .site-footer {
-    border-radius: 24px;
+    border-radius: var(--radius-xl);
     padding: 20px;
   }
 

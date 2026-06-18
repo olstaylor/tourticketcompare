@@ -1222,5 +1222,421 @@
       }
     },
     "verification_status": "human_verified"
+  },
+  {
+    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzc9",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "",
+    "city": "Dusseldorf",
+    "country": "Germany",
+    "venue": "Merkur Spiel Arena",
+    "datetime_iso": "2026-06-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZC9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZC9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZC9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZC9",
+        "discovery_event_id": "Z7r9jZ1A7xZC9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZC9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZC9",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzcb",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "",
+    "city": "Dusseldorf",
+    "country": "Germany",
+    "venue": "Merkur Spiel Arena",
+    "datetime_iso": "2026-06-21T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZCb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZCb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZCb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZCb",
+        "discovery_event_id": "Z7r9jZ1A7xZCb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZCb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZCb",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bad-bunny-2026-marseille-z7r9jz1a7baxb",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "",
+    "city": "Marseille",
+    "country": "France",
+    "venue": "Stade Velodrome",
+    "datetime_iso": "2026-07-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7baxb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7baxb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7baxb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7baxb",
+        "discovery_event_id": "Z7r9jZ1A7baxb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7baxb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7baxb",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8v",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "",
+    "city": "Solna",
+    "country": "Sweden",
+    "venue": "Strawberry Arena",
+    "datetime_iso": "2026-07-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZ8v",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8v",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8v",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZ8v",
+        "discovery_event_id": "Z7r9jZ1A7xZ8v",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8v",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8v",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8e",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "",
+    "city": "Solna",
+    "country": "Sweden",
+    "venue": "Strawberry Arena",
+    "datetime_iso": "2026-07-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZ8e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZ8e",
+        "discovery_event_id": "Z7r9jZ1A7xZ8e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8e",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz87",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "",
+    "city": "Milan",
+    "country": "Italy",
+    "venue": "Ippodromo Snai La Maura",
+    "datetime_iso": "2026-07-17T18:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZ87",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ87",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ87",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZ87",
+        "discovery_event_id": "Z7r9jZ1A7xZ87",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ87",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ87",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz8a",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "",
+    "city": "Milan",
+    "country": "Italy",
+    "venue": "Ippodromo Snai La Maura",
+    "datetime_iso": "2026-07-18T18:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZ8A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZ8A",
+        "discovery_event_id": "Z7r9jZ1A7xZ8A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8A",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Stade Roi Boudoin - Brussels",
+    "datetime_iso": "2026-07-21T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZuo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZuo",
+        "discovery_event_id": "Z7r9jZ1A7xZuo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZuo",
+    "status": "on-sale"
   }
 ]

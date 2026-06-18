@@ -41,6 +41,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 # Never overlap with another run (a previous run may still hold the automation
 # branch / be opening a PR). Queue rather than cancel so a scheduled run is not
@@ -96,12 +97,12 @@ jobs:
           node scripts/sync-tm-events-write-pr.mjs "${ARGS[@]}"
 
       # Heartbeat: maintain the rolling automation:tm-discovery coverage issue so
-      # every scheduled run leaves a positive trace of which artists were checked
+      # every full-roster run leaves a positive trace of which artists were checked
       # — and a failed/partial run (no coverage.json) is surfaced, not silent.
-      # Runs even when the discovery step failed (if: always()), but only for
-      # PR-opening runs (scheduled or explicit write-pr), not manual previews.
+      # Targeted single-artist runs retain their artefact but do not overwrite the
+      # full-roster heartbeat with intentionally out-of-scope artists marked absent.
       - name: Update discovery coverage heartbeat
-        if: always() && (github.event_name == 'schedule' || github.event.inputs.mode == 'write-pr')
+        if: always() && (github.event_name == 'schedule' || (github.event.inputs.mode == 'write-pr' && github.event.inputs.artist == ''))
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}

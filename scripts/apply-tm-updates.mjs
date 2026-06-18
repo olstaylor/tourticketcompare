@@ -7,9 +7,9 @@
 // Scope (deliberately narrow — see SAFE_PUBLISHING_RULES.md "Discovery,
 // Enrichment, and Rendering"):
 //   - AUTO-APPLY, lossless, from the Ticketmaster Discovery API source of truth,
-//     for events that ALREADY exist in events.json and carry a
-//     Ticketmaster Discovery id (ticketmaster_discovery_event_id when
-//     present, otherwise legacy ticketmaster_event_id fallback):
+//     for events that ALREADY exist in events.json and carry a valid
+//     Ticketmaster Discovery id (explicit field preferred; a legacy
+//     ticketmaster_event_id is used only when it is Discovery-format):
 //       * date / time  (datetime_iso, timezone)
 //       * venue / city / country
 //       * canonical Ticketmaster URL (refreshed so the /event/<id> slug and the
@@ -76,8 +76,22 @@ function clean(value) {
   return String(value ?? '').trim();
 }
 
+function isDiscoveryFormatId(value) {
+  const id = clean(value);
+  if (!id) return false;
+  if (/^[0-9]+$/.test(id)) return false;
+  if (/^[0-9A-F]{16}$/.test(id)) return false;
+  if (/\.html?$/i.test(id)) return false;
+  return /^[A-Za-z0-9_-]{6,20}$/.test(id);
+}
+
 function ticketmasterDiscoveryEventId(event) {
-  return clean(event?.ticketmaster_discovery_event_id) || clean(event?.provider_links?.ticketmaster?.discovery_event_id) || clean(event?.ticketmaster_event_id);
+  const explicit =
+    clean(event?.ticketmaster_discovery_event_id) ||
+    clean(event?.provider_links?.ticketmaster?.discovery_event_id);
+  if (isDiscoveryFormatId(explicit)) return explicit;
+  const legacy = clean(event?.ticketmaster_event_id);
+  return isDiscoveryFormatId(legacy) ? legacy : '';
 }
 
 function ticketmasterStorefrontEventId(event) {
@@ -109,7 +123,7 @@ function normalizeText(value) {
   return clean(value)
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
 }
@@ -460,14 +474,23 @@ function stampVerified(event) {
 }
 
 // Offline regression test for the representation-aware comparison logic, so a
-// future edit cannot silently reintroduce the cosmetic-diff churn (country
-// synonyms, venue-local vs UTC datetimes, venue punctuation).
+// future edit cannot silently reintroduce cosmetic diff churn or query the
+// Discovery API with storefront-only event identifiers.
 function runSelfTest() {
   const checks = [];
   const assert = (label, pass) => checks.push({ label, pass: !!pass });
   const ev = (o) => ({ datetime_iso: '', timezone: '', venue: '', city: '', country: '', ticketmaster_event_id: 'X', ticketmaster_url: '', ...o });
   const remote = (o) => ({ data: { id: 'X', dates: { start: {}, timezone: '' }, _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: '' } }] }, ...o } });
   const fieldsOf = (e, r) => computeIntendedUpdates(e, r).map((c) => c.field);
+
+  assert('explicit Discovery id is accepted',
+    ticketmasterDiscoveryEventId({ ticketmaster_discovery_event_id: 'vv1AaZkoVGkdF4iwr' }) === 'vv1AaZkoVGkdF4iwr');
+  assert('legacy Discovery-format id is accepted',
+    ticketmasterDiscoveryEventId({ ticketmaster_event_id: 'Z7r9jZ1A706ep' }) === 'Z7r9jZ1A706ep');
+  assert('storefront hex id is not queried as a Discovery id',
+    ticketmasterDiscoveryEventId({ ticketmaster_event_id: '09006474C856CC9E' }) === '');
+  assert('international numeric id is not queried as a Discovery id',
+    ticketmasterDiscoveryEventId({ ticketmaster_event_id: '653666176' }) === '');
 
   // datetime: venue-local wall time vs the same instant in UTC is NOT a change.
   assert('same instant (PT wall vs UTC) is not a datetime change',

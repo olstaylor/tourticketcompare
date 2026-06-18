@@ -35,7 +35,8 @@ async function gh(method, path, payload) {
   return res.status === 204 ? null : res.json();
 }
 
-const existing = await gh("GET", `/repos/${repo}/pulls?head=${owner}:${branch}&state=open`);
+const head = encodeURIComponent(`${owner}:${branch}`);
+const existing = await gh("GET", `/repos/${repo}/pulls?head=${head}&state=open`);
 if (existing.length > 0) {
   console.log(`PR already open: #${existing[0].number} ${existing[0].html_url}`);
   process.exit(0);

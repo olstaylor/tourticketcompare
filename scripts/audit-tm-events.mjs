@@ -10,6 +10,7 @@ const argv = process.argv.slice(2);
 const jsonFlagIndex = argv.indexOf('--json');
 const jsonOutPath = jsonFlagIndex >= 0 ? (argv[jsonFlagIndex + 1] || null) : null;
 const emitJson = jsonFlagIndex >= 0;
+const selfTest = argv.includes('--self-test');
 const requestDelayMs = Number.parseInt(process.env.TM_REQUEST_DELAY_MS || '300', 10);
 const requestTimeoutMs = Number.parseInt(process.env.TM_REQUEST_TIMEOUT_MS || '15000', 10);
 
@@ -103,23 +104,24 @@ async function fetchEvent(apiKey, base, eventId) {
   }
 }
 
+function validDatePrefix(value) {
+  const prefix = clean(value).slice(0, 10);
+  return /^\d{4}-\d{2}-\d{2}$/.test(prefix) ? prefix : null;
+}
+
 // Venue-local calendar date from a UTC-or-wall-clock `datetime_iso` plus the
-// event's IANA timezone. `datetime_iso` is stored inconsistently (some events
-// carry a trailing `Z`/UTC, others venue-local wall time); formatting in the
-// event timezone yields the same venue-local date the Discovery API reports as
-// `dates.start.localDate`, so the two are directly comparable.
+// event's IANA timezone. Date-only and offset-free wall-clock values are already
+// venue-local; values with an explicit offset/Z are rendered in the venue zone.
 function venueLocalDate(iso, tz) {
   const value = clean(iso);
   if (!value) return null;
-  // A date-only value (no time component) is already the venue-local date;
-  // timezone-shifting it would wrongly roll it back a day for US venues.
-  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return value;
+  if (!/[zZ]$|[+-]\d{2}:?\d{2}$/.test(value)) return validDatePrefix(value);
   const d = new Date(value);
   if (Number.isNaN(d.getTime())) return null;
   try {
     return new Intl.DateTimeFormat('en-CA', { timeZone: clean(tz) || 'UTC', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
   } catch {
-    return value.slice(0, 10);
+    return validDatePrefix(value);
   }
 }
 
@@ -164,11 +166,28 @@ function compareLocal(localEvent, remote) {
   return diffs;
 }
 
+function runSelfTest() {
+  const checks = [
+    ['date-only value stays venue-local', venueLocalDate('2026-06-19', 'America/Los_Angeles') === '2026-06-19'],
+    ['offset-free wall time stays venue-local', venueLocalDate('2026-06-19T02:00:00', 'America/Los_Angeles') === '2026-06-19'],
+    ['UTC instant converts to venue-local date', venueLocalDate('2026-06-19T02:00:00Z', 'America/Los_Angeles') === '2026-06-18'],
+    ['malformed local date is rejected', venueLocalDate('invalid', 'America/Los_Angeles') === null]
+  ];
+  let failed = 0;
+  for (const [label, pass] of checks) {
+    if (!pass) failed += 1;
+    console.log(`${pass ? 'PASS' : 'FAIL'}  ${label}`);
+  }
+  console.log(`\n${checks.length - failed}/${checks.length} checks passed.`);
+  return failed === 0 ? 0 : 1;
+}
+
 async function main() {
+  if (selfTest) return runSelfTest();
   const apiKey = clean(process.env.TICKETMASTER_API_KEY);
   if (!apiKey) {
     console.error('ERROR: TICKETMASTER_API_KEY is not set.');
-    process.exit(2);
+    return 2;
   }
   const base = clean(process.env.TICKETMASTER_DISCOVERY_BASE_URL || DEFAULT_BASE).replace(/\/+$/, '');
 
@@ -180,7 +199,6 @@ async function main() {
   let totalMissing = 0;
   let totalErrors = 0;
   let totalChanged = 0;
-
   let totalUnresolvable = 0;
 
   for (const slug of slugs) {
@@ -260,9 +278,12 @@ async function main() {
       console.log(JSON.stringify(summary, null, 2));
     }
   }
+  return 0;
 }
 
-main().catch((err) => {
-  console.error('audit-tm-events failed:', err);
-  process.exit(1);
-});
+main()
+  .then((code) => process.exit(code ?? 0))
+  .catch((err) => {
+    console.error('audit-tm-events failed:', err);
+    process.exit(1);
+  });

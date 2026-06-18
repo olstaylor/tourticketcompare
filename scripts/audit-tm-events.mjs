@@ -104,19 +104,24 @@ async function fetchEvent(apiKey, base, eventId) {
   }
 }
 
+function validDatePrefix(value) {
+  const prefix = clean(value).slice(0, 10);
+  return /^\d{4}-\d{2}-\d{2}$/.test(prefix) ? prefix : null;
+}
+
 // Venue-local calendar date from a UTC-or-wall-clock `datetime_iso` plus the
 // event's IANA timezone. Date-only and offset-free wall-clock values are already
 // venue-local; values with an explicit offset/Z are rendered in the venue zone.
 function venueLocalDate(iso, tz) {
   const value = clean(iso);
   if (!value) return null;
-  if (!/[zZ]$|[+-]\d{2}:?\d{2}$/.test(value)) return value.slice(0, 10);
+  if (!/[zZ]$|[+-]\d{2}:?\d{2}$/.test(value)) return validDatePrefix(value);
   const d = new Date(value);
   if (Number.isNaN(d.getTime())) return null;
   try {
     return new Intl.DateTimeFormat('en-CA', { timeZone: clean(tz) || 'UTC', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
   } catch {
-    return value.slice(0, 10);
+    return validDatePrefix(value);
   }
 }
 
@@ -165,7 +170,8 @@ function runSelfTest() {
   const checks = [
     ['date-only value stays venue-local', venueLocalDate('2026-06-19', 'America/Los_Angeles') === '2026-06-19'],
     ['offset-free wall time stays venue-local', venueLocalDate('2026-06-19T02:00:00', 'America/Los_Angeles') === '2026-06-19'],
-    ['UTC instant converts to venue-local date', venueLocalDate('2026-06-19T02:00:00Z', 'America/Los_Angeles') === '2026-06-18']
+    ['UTC instant converts to venue-local date', venueLocalDate('2026-06-19T02:00:00Z', 'America/Los_Angeles') === '2026-06-18'],
+    ['malformed local date is rejected', venueLocalDate('invalid', 'America/Los_Angeles') === null]
   ];
   let failed = 0;
   for (const [label, pass] of checks) {

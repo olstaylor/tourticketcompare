@@ -865,5 +865,427 @@
       }
     },
     "verification_status": "human_verified"
+  },
+  {
+    "id": "tm-bts-2026-madrid-z698xz2qz16ezdbsgk",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2026-06-26T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "bts-world-tour-arirang-in-madrid-tickets",
+        "discovery_event_id": "Z698xZ2qZ16eZdbSGK",
+        "url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16eZdbSGK",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2026-madrid-z698xz2qz16ez94-rv",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Estadio Riyadh Air Metropolitano",
+    "datetime_iso": "2026-06-27T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "bts-world-tour-arirang-in-madrid-tickets",
+        "discovery_event_id": "Z698xZ2qZ16eZ94-rv",
+        "url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16eZ94-rv",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2026-munich-z698xzc2z1konbaqf",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2026-07-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "bts-world-tour-arirang-in-munich-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "bts-world-tour-arirang-in-munich-tickets",
+        "discovery_event_id": "Z698xZC2Z1koNbaqf",
+        "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1koNbaqf",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2026-munich-z698xzc2z1kfj7mgy",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2026-07-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "bts-world-tour-arirang-in-munich-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "bts-world-tour-arirang-in-munich-tickets",
+        "discovery_event_id": "Z698xZC2Z1kFJ7MGy",
+        "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kFJ7MGy",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2026-arlington-z7r9jz1a7ooui",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2026-08-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OOuI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OOuI",
+        "discovery_event_id": "Z7r9jZ1A7OOuI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOuI",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2026-arlington-z7r9jz1a7oout",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2026-08-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7OOut",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7OOut",
+        "discovery_event_id": "Z7r9jZ1A7OOut",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOut",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2026-toronto-1avzz_egkiiidcu",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2026-08-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000642B2CB3BB4D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bts-world-tour-arirang-in-toronto-toronto-ontario-08-22-2026/event/1000642B2CB3BB4D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bts-world-tour-arirang-in-toronto-toronto-ontario-08-22-2026/event/1000642B2CB3BB4D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000642B2CB3BB4D",
+        "discovery_event_id": "1AvZZ_eGkiiiDcu",
+        "url": "https://www.ticketmaster.ca/bts-world-tour-arirang-in-toronto-toronto-ontario-08-22-2026/event/1000642B2CB3BB4D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_eGkiiiDcu",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bts-2026-toronto-1avzz_egkicklrr",
+    "artist_slug": "bts",
+    "artist_name": "BTS",
+    "event_name": "",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2026-08-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000642B2D4EBBDE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/bts-world-tour-arirang-in-toronto-toronto-ontario-08-23-2026/event/1000642B2D4EBBDE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/bts-world-tour-arirang-in-toronto-toronto-ontario-08-23-2026/event/1000642B2D4EBBDE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000642B2D4EBBDE",
+        "discovery_event_id": "1AvZZ_eGkicKlRr",
+        "url": "https://www.ticketmaster.ca/bts-world-tour-arirang-in-toronto-toronto-ontario-08-23-2026/event/1000642B2D4EBBDE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_eGkicKlRr",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
   }
 ]

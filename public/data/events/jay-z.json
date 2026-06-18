@@ -24,7 +24,8 @@
         "url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5vVZ_629N2Uz"
       },
       "seatgeek": {
         "event_id": null,
@@ -48,7 +49,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vVZ_629N2Uz"
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473d9d109cb",
@@ -75,7 +77,8 @@
         "url": "https://www.ticketmaster.com/jayz-25-bronx-new-york-07-11-2026/event/1D006473D9D109CB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5vVZ_62_V8E5"
       },
       "seatgeek": {
         "event_id": null,
@@ -99,7 +102,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vVZ_62_V8E5"
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473db760a7f",

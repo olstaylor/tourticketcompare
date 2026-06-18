@@ -22,7 +22,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A706ep"
       },
       "seatgeek": {
         "event_id": null,
@@ -47,7 +48,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706ep"
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
@@ -72,7 +74,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A70677"
       },
       "seatgeek": {
         "event_id": null,
@@ -97,7 +100,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70677"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
@@ -122,7 +126,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-29-2026/event/1600649DD7C8F781",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvbZ_aGkM9w2rv"
       },
       "seatgeek": {
         "event_id": null,
@@ -148,7 +153,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvbZ_aGkM9w2rv"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7",
@@ -173,7 +179,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-30-2026/event/1600649DD7CAF784",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvbZ_aGkM9wRr7"
       },
       "seatgeek": {
         "event_id": null,
@@ -199,7 +206,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvbZ_aGkM9wRr7"
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387",
@@ -224,7 +232,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-03-2026/event/150064943E892404",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1kA8v0PdGACx387"
       },
       "seatgeek": {
         "event_id": null,
@@ -250,7 +259,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1kA8v0PdGACx387"
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1avfz_agkvqmncz",
@@ -275,7 +285,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-04-2026/event/1500649D1DBAAB40",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvfZ_aGkVqmncZ"
       },
       "seatgeek": {
         "event_id": null,
@@ -301,7 +312,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvfZ_aGkVqmncZ"
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyed-b",
@@ -326,7 +338,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-07-2026/event/2D00649DB99FB858",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5eVZ_aUyED-b"
       },
       "seatgeek": {
         "event_id": null,
@@ -352,7 +365,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5eVZ_aUyED-b"
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g",
@@ -377,7 +391,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-08-2026/event/2D00649DB9A4B875",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5eVZ_aUyt5-g"
       },
       "seatgeek": {
         "event_id": null,
@@ -403,7 +418,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5eVZ_aUyt5-g"
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkyetuoa",
@@ -428,7 +444,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-11-2026/event/0400649C02FF6809",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv178Z_aGkYeTUOa"
       },
       "seatgeek": {
         "event_id": null,
@@ -454,7 +471,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv178Z_aGkYeTUOa"
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkmlebgy",
@@ -479,7 +497,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-12-2026/event/0400649DEB9FA339",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv178Z_aGkMlEBGy"
       },
       "seatgeek": {
         "event_id": null,
@@ -505,7 +524,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv178Z_aGkMlEBGy"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agksbtqpc",
@@ -530,7 +550,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-15-2026/event/0100649CD8A5A5AD",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv177Z_aGkSbtQpc"
       },
       "seatgeek": {
         "event_id": null,
@@ -556,7 +577,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv177Z_aGkSbtQpc"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agkv-whjn",
@@ -581,7 +603,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-17-2026/event/0100649D21F5B72A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv177Z_aGkV-Whjn"
       },
       "seatgeek": {
         "event_id": null,
@@ -607,7 +630,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv177Z_aGkV-Whjn"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vvg17z_13s_x9k",
@@ -632,7 +656,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-18-2026/event/010064A4B36625C6",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG17Z_13S_x9k"
       },
       "seatgeek": {
         "event_id": null,
@@ -658,7 +683,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG17Z_13S_x9k"
   },
   {
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmby4v9",
@@ -683,7 +709,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Ad7Z_aGkmbY4v9"
       },
       "seatgeek": {
         "event_id": null,
@@ -709,7 +736,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Ad7Z_aGkmbY4v9"
   },
   {
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_",
@@ -734,7 +762,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Ad7Z_aGkmbsAv_"
       },
       "seatgeek": {
         "event_id": null,
@@ -760,7 +789,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Ad7Z_aGkmbsAv_"
   },
   {
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkmwmykb",
@@ -785,7 +815,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-26-2026/event/1000649BBDBB94D8",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvZZ_aGkmWmyKb"
       },
       "seatgeek": {
         "event_id": null,
@@ -811,7 +842,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvZZ_aGkmWmyKb"
   },
   {
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkvcvogj",
@@ -836,7 +868,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-27-2026/event/1000649D0E060D66",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvZZ_aGkVCvOgJ"
       },
       "seatgeek": {
         "event_id": null,
@@ -862,7 +895,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvZZ_aGkVCvOgJ"
   },
   {
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtn2ij",
@@ -887,7 +921,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv17fZ_aGkMTN2Ij"
       },
       "seatgeek": {
         "event_id": null,
@@ -913,7 +948,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17fZ_aGkMTN2Ij"
   },
   {
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri-",
@@ -938,7 +974,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-30-2026/event/0500649DFF8EFA21",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv17fZ_aGkMTNRI-"
       },
       "seatgeek": {
         "event_id": null,
@@ -964,7 +1001,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17fZ_aGkMTNRI-"
   },
   {
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg",
@@ -989,7 +1027,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-07-2026/event/3000649DC07F7DF5",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkMZLMMg"
       },
       "seatgeek": {
         "event_id": null,
@@ -1015,7 +1054,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkMZLMMg"
   },
   {
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzoemy",
@@ -1040,7 +1080,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-08-2026/event/3000649DC0827DF9",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkMZOEMy"
       },
       "seatgeek": {
         "event_id": null,
@@ -1066,7 +1107,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkMZOEMy"
   },
   {
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5",
@@ -1091,7 +1133,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-11-2026/event/0E00649DBD3E870B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1zZ_aUW2Ij5"
       },
       "seatgeek": {
         "event_id": null,
@@ -1117,7 +1160,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1zZ_aUW2Ij5"
   },
   {
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw8bjb",
@@ -1142,7 +1186,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-12-2026/event/0E00649DBD418718",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1zZ_aUW8bjb"
       },
       "seatgeek": {
         "event_id": null,
@@ -1168,7 +1213,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1zZ_aUW8bjb"
   },
   {
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
@@ -1193,7 +1239,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-15-2026/event/2200649DA5425466",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AeFZ_aGkUP8PoJ"
       },
       "seatgeek": {
         "event_id": null,
@@ -1219,7 +1266,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AeFZ_aGkUP8PoJ"
   },
   {
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf",
@@ -1244,7 +1292,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-16-2026/event/2200649DB24560D4",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AeFZ_aGkUwopdf"
       },
       "seatgeek": {
         "event_id": null,
@@ -1270,7 +1319,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AeFZ_aGkUwopdf"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
@@ -1295,7 +1345,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A7067F"
       },
       "seatgeek": {
         "event_id": null,
@@ -1320,7 +1371,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067F"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
@@ -1345,7 +1397,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A7067o"
       },
       "seatgeek": {
         "event_id": null,
@@ -1370,7 +1423,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067o"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
@@ -1395,7 +1449,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-23-2026/event/1B00649D0DA1A0A0",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5viZ_aVuIQeO"
       },
       "seatgeek": {
         "event_id": null,
@@ -1421,7 +1476,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5viZ_aVuIQeO"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh",
@@ -1446,7 +1502,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-24-2026/event/1B00649D0E9FA33C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5viZ_aVCEBGH"
       },
       "seatgeek": {
         "event_id": null,
@@ -1472,7 +1529,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5viZ_aVCEBGH"
   },
   {
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb",
@@ -1497,7 +1555,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-01-2026/event/1100649D82B16018",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_aGkUeipZb"
       },
       "seatgeek": {
         "event_id": null,
@@ -1523,7 +1582,8 @@
     },
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_aGkUeipZb"
   },
   {
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj",
@@ -1548,7 +1608,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-02-2026/event/1100649D82B46026",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_aGkUeckZJ"
       },
       "seatgeek": {
         "event_id": null,
@@ -1574,7 +1635,8 @@
     },
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_aGkUeckZJ"
   },
   {
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty",
@@ -1599,7 +1661,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-07-2026/event/0F00649DD1062FF0",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1HZ_aMovxTY"
       },
       "seatgeek": {
         "event_id": null,
@@ -1625,7 +1688,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1HZ_aMovxTY"
   },
   {
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1",
@@ -1650,7 +1714,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-08-2026/event/0F00649DE731624A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1HZ_aMEGpa1"
       },
       "seatgeek": {
         "event_id": null,
@@ -1676,7 +1741,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1HZ_aMEGpa1"
   },
   {
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b",
@@ -1701,7 +1767,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-11-2026/event/1C00649DD84D193A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_aMbKo0B"
       },
       "seatgeek": {
         "event_id": null,
@@ -1727,7 +1794,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_aMbKo0B"
   },
   {
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1",
@@ -1752,7 +1820,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-12-2026/event/1C00649DD853194A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_aMbfsP1"
       },
       "seatgeek": {
         "event_id": null,
@@ -1778,7 +1847,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_aMbfsP1"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi",
@@ -1803,7 +1873,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-15-2026/event/1C00649CABA73528",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_awltSfI"
       },
       "seatgeek": {
         "event_id": null,
@@ -1829,7 +1900,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_awltSfI"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy",
@@ -1854,7 +1926,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-16-2026/event/1C00649CABAA3530",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_awlnNfY"
       },
       "seatgeek": {
         "event_id": null,
@@ -1880,7 +1953,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_awlnNfY"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk",
@@ -1905,7 +1979,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A706kk"
       },
       "seatgeek": {
         "event_id": null,
@@ -1930,7 +2005,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kk"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf",
@@ -1955,7 +2031,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A706kF"
       },
       "seatgeek": {
         "event_id": null,
@@ -1980,7 +2057,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kF"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw",
@@ -2005,7 +2083,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-12-2027/event/0900649DE7C663B2",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv170Z_aGkMEsJCw"
       },
       "seatgeek": {
         "event_id": null,
@@ -2031,7 +2110,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv170Z_aGkMEsJCw"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b",
@@ -2056,7 +2136,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-13-2027/event/0900649DE7FE6418",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv170Z_aGkMETJ8b"
       },
       "seatgeek": {
         "event_id": null,
@@ -2082,7 +2163,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv170Z_aGkMETJ8b"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku",
@@ -2107,7 +2189,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-16-2027/event/0900649DE84C64CD",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv170Z_aGkMIKkKu"
       },
       "seatgeek": {
         "event_id": null,
@@ -2133,7 +2216,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv170Z_aGkMIKkKu"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45",
@@ -2158,7 +2242,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-17-2027/event/0900649DE899654B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv170Z_aGkMIJp45"
       },
       "seatgeek": {
         "event_id": null,
@@ -2184,7 +2269,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv170Z_aGkMIJp45"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr",
@@ -2209,7 +2295,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-20-2027/event/090064A4B79AF95E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MJRPr"
       },
       "seatgeek": {
         "event_id": null,
@@ -2235,7 +2322,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MJRPr"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph",
@@ -2260,7 +2348,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-21-2027/event/090064A4B7A6F97C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MtRPH"
       },
       "seatgeek": {
         "event_id": null,
@@ -2286,7 +2375,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MtRPH"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo",
@@ -2311,7 +2401,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-24-2027/event/090064A4B7B2F9A0",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MiRJO"
       },
       "seatgeek": {
         "event_id": null,
@@ -2337,7 +2428,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MiRJO"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd",
@@ -2362,7 +2454,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-25-2027/event/090064A4B7BFF9BB",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MRTJD"
       },
       "seatgeek": {
         "event_id": null,
@@ -2388,7 +2481,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MRTJD"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte-",
@@ -2413,7 +2507,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-28-2027/event/090064A4B7CBF9E1",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MwTE-"
       },
       "seatgeek": {
         "event_id": null,
@@ -2439,7 +2534,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MwTE-"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq",
@@ -2464,7 +2560,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-29-2027/event/090064A4B7E1FA1A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MzLIQ"
       },
       "seatgeek": {
         "event_id": null,
@@ -2490,7 +2587,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MzLIQ"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq",
@@ -2515,7 +2613,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-11-2027/event/30006497FDD3D51D",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AYZk39GkdWVWfq"
       },
       "seatgeek": {
         "event_id": null,
@@ -2541,7 +2640,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AYZk39GkdWVWfq"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn",
@@ -2566,7 +2666,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-12-2027/event/3000649D1548C9A3",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkV43GJN"
       },
       "seatgeek": {
         "event_id": null,
@@ -2592,7 +2693,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkV43GJN"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl",
@@ -2617,7 +2719,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-15-2027/event/3000649D1555C9AB",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkV44jJl"
       },
       "seatgeek": {
         "event_id": null,
@@ -2643,7 +2746,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkV44jJl"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs",
@@ -2668,7 +2772,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-16-2027/event/3000649D155FC9B3",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkV49HJS"
       },
       "seatgeek": {
         "event_id": null,
@@ -2694,7 +2799,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkV49HJS"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx",
@@ -2719,7 +2825,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-19-2027/event/3000649D3207D962",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwvWPx"
       },
       "seatgeek": {
         "event_id": null,
@@ -2745,7 +2852,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwvWPx"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi",
@@ -2770,7 +2878,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-20-2027/event/3000649D320FD968",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwdWPI"
       },
       "seatgeek": {
         "event_id": null,
@@ -2796,7 +2905,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwdWPI"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi",
@@ -2821,7 +2931,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-23-2027/event/3000649D3218D96C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwkuPi"
       },
       "seatgeek": {
         "event_id": null,
@@ -2847,7 +2958,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwkuPi"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw",
@@ -2872,7 +2984,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-24-2027/event/3000649D3220D972",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwFuPw"
       },
       "seatgeek": {
         "event_id": null,
@@ -2898,7 +3011,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwFuPw"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg",
@@ -2923,7 +3037,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-27-2027/event/3000649D322BD975",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVw1WPg"
       },
       "seatgeek": {
         "event_id": null,
@@ -2949,7 +3064,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVw1WPg"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx",
@@ -2974,7 +3090,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-28-2027/event/3000649D3235D97E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwuqPX"
       },
       "seatgeek": {
         "event_id": null,
@@ -3000,7 +3117,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwuqPX"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e",
@@ -3025,7 +3143,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1272271842?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16vawas-e"
       },
       "seatgeek": {
         "event_id": null,
@@ -3051,7 +3170,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vawas-e"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg",
@@ -3076,7 +3196,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1685500735?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16eeK73Fx"
       },
       "seatgeek": {
         "event_id": null,
@@ -3102,7 +3223,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16eeK73Fx"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa",
@@ -3127,7 +3249,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/184166589?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ1kk7AJpa"
       },
       "seatgeek": {
         "event_id": null,
@@ -3153,7 +3276,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kk7AJpa"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe",
@@ -3178,7 +3302,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1326599942?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16vAOfwGx"
       },
       "seatgeek": {
         "event_id": null,
@@ -3204,7 +3329,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vAOfwGx"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za",
@@ -3229,7 +3355,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1280221009?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16v1ZF-Za"
       },
       "seatgeek": {
         "event_id": null,
@@ -3255,7 +3382,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v1ZF-Za"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa",
@@ -3280,7 +3408,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1858815589?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ1krKo_rd"
       },
       "seatgeek": {
         "event_id": null,
@@ -3306,7 +3435,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1krKo_rd"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm",
@@ -3331,7 +3461,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1650605337?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16v_8bAGM"
       },
       "seatgeek": {
         "event_id": null,
@@ -3357,7 +3488,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v_8bAGM"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog",
@@ -3382,7 +3514,8 @@
         "url": "https://www.ticketmaster.nl/event/oliva-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/963929835?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16vb_GPZo"
       },
       "seatgeek": {
         "event_id": null,
@@ -3408,7 +3541,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vb_GPZo"
   },
   {
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao",
@@ -3433,7 +3567,8 @@
         "url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/530317160?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZC2Z1kfYG9AO"
       },
       "seatgeek": {
         "event_id": null,
@@ -3459,7 +3594,8 @@
     },
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kfYG9AO"
   },
   {
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8",
@@ -3484,7 +3620,8 @@
         "url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/1372657990?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZC2Z16vuw_9J8"
       },
       "seatgeek": {
         "event_id": null,
@@ -3510,7 +3647,8 @@
     },
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vuw_9J8"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah",
@@ -3535,7 +3673,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-05-04-2027/event/3500649DB098427C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkUYJ7aH"
       },
       "seatgeek": {
         "event_id": null,
@@ -3561,7 +3700,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkUYJ7aH"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3",
@@ -3586,7 +3726,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-06-04-2027/event/3500649DB3304512",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkUSG7f3"
       },
       "seatgeek": {
         "event_id": null,
@@ -3612,7 +3753,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkUSG7f3"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusmfph",
@@ -3637,7 +3779,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-08-04-2027/event/3500649DB3DD459B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkUSMfph"
       },
       "seatgeek": {
         "event_id": null,
@@ -3663,7 +3806,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkUSMfph"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkug10qr",
@@ -3688,7 +3832,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-04-2027/event/3500649DB52A469E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkUg10Qr"
       },
       "seatgeek": {
         "event_id": null,
@@ -3714,7 +3859,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkUg10Qr"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep",
@@ -3739,7 +3885,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-12-04-2027/event/3500649ED42F6096",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDf5Uep"
       },
       "seatgeek": {
         "event_id": null,
@@ -3765,7 +3912,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDf5Uep"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff",
@@ -3790,7 +3938,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-14-04-2027/event/3500649ED8236514",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDbFUff"
       },
       "seatgeek": {
         "event_id": null,
@@ -3816,7 +3965,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDbFUff"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd",
@@ -3841,7 +3991,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-15-04-2027/event/3500649EDAC36683",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDQYUQd"
       },
       "seatgeek": {
         "event_id": null,
@@ -3867,7 +4018,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDQYUQd"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol",
@@ -3892,7 +4044,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-19-04-2027/event/3500649EDCB9682B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDjmpOl"
       },
       "seatgeek": {
         "event_id": null,
@@ -3918,7 +4071,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDjmpOl"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i",
@@ -3943,7 +4097,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-20-04-2027/event/3500649EE68772AC",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDJ-M1i"
       },
       "seatgeek": {
         "event_id": null,
@@ -3969,7 +4124,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDJ-M1i"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b",
@@ -3994,7 +4150,8 @@
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/515318918?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1kf4Gb0b"
       },
       "seatgeek": {
         "event_id": null,
@@ -4020,7 +4177,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kf4Gb0b"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6",
@@ -4045,7 +4203,8 @@
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/436032987?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1k8UZwJ6"
       },
       "seatgeek": {
         "event_id": null,
@@ -4071,7 +4230,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8UZwJ6"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7",
@@ -4096,7 +4256,8 @@
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/2022065084?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ16eZxvPe7"
       },
       "seatgeek": {
         "event_id": null,
@@ -4122,7 +4283,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16eZxvPe7"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_",
@@ -4147,7 +4309,8 @@
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/408226519?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1k8FFJf_"
       },
       "seatgeek": {
         "event_id": null,
@@ -4173,7 +4336,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8FFJf_"
   },
   {
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4",
@@ -4198,7 +4362,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A70ff4"
       },
       "seatgeek": {
         "event_id": null,
@@ -4223,7 +4388,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70ff4"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",
@@ -4248,7 +4414,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-05-2027/event/3500649EF88784A5",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDz-z3P"
       },
       "seatgeek": {
         "event_id": null,
@@ -4274,7 +4441,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDz-z3P"
   },
   {
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff",
@@ -4299,7 +4467,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A70fff"
       },
       "seatgeek": {
         "event_id": null,
@@ -4324,7 +4493,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70fff"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3",
@@ -4349,7 +4519,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-10-05-2027/event/3500649EFB8486D2",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDD-Fh3"
       },
       "seatgeek": {
         "event_id": null,
@@ -4375,6 +4546,7 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDD-Fh3"
   }
 ]

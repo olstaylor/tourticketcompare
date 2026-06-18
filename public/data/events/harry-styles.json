@@ -24,7 +24,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-26-2026/event/3B0064350404814E",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7vFAC"
       },
       "seatgeek": {
         "event_id": null,
@@ -48,7 +49,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7vFAC"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504538196",
@@ -75,7 +77,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-28-2026/event/3B00643504538196",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7fzkp"
       },
       "seatgeek": {
         "event_id": null,
@@ -99,7 +102,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7fzkp"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435046481aa",
@@ -126,7 +130,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-29-2026/event/3B006435046481AA",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7_Fkn"
       },
       "seatgeek": {
         "event_id": null,
@@ -150,7 +155,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7_Fkn"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435047f81c1",
@@ -177,7 +183,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-02-2026/event/3B006435047F81C1",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7Lz6v"
       },
       "seatgeek": {
         "event_id": null,
@@ -201,7 +208,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7Lz6v"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435049481d0",
@@ -228,7 +236,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-04-2026/event/3B006435049481D0",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7PF68"
       },
       "seatgeek": {
         "event_id": null,
@@ -252,7 +261,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7PF68"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504a381d8",
@@ -279,7 +289,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-05-2026/event/3B00643504A381D8",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7Iz6b"
       },
       "seatgeek": {
         "event_id": null,
@@ -303,7 +314,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7Iz6b"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504b581eb",
@@ -330,7 +342,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-09-2026/event/3B00643504B581EB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7cb6l"
       },
       "seatgeek": {
         "event_id": null,
@@ -354,7 +367,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7cb6l"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504c881f8",
@@ -381,7 +395,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-11-2026/event/3B00643504C881F8",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7wF6z"
       },
       "seatgeek": {
         "event_id": null,
@@ -405,7 +420,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7wF6z"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504d78209",
@@ -432,7 +448,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-12-2026/event/3B00643504D78209",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7gzFa"
       },
       "seatgeek": {
         "event_id": null,
@@ -456,7 +473,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7gzFa"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504e38212",
@@ -483,7 +501,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-16-2026/event/3B00643504E38212",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7zzF3"
       },
       "seatgeek": {
         "event_id": null,
@@ -507,7 +526,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7zzF3"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505018228",
@@ -534,7 +554,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-18-2026/event/3B00643505018228",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAZbFI"
       },
       "seatgeek": {
         "event_id": null,
@@ -558,7 +579,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAZbFI"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505178231",
@@ -585,7 +607,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-19-2026/event/3B00643505178231",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAAzFs"
       },
       "seatgeek": {
         "event_id": null,
@@ -609,7 +632,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAAzFs"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350525823a",
@@ -636,7 +660,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-23-2026/event/3B0064350525823A",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAabFB"
       },
       "seatgeek": {
         "event_id": null,
@@ -660,7 +685,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAabFB"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505428256",
@@ -687,7 +713,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-25-2026/event/3B00643505428256",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfA8Iap"
       },
       "seatgeek": {
         "event_id": null,
@@ -711,7 +738,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfA8Iap"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435054e8262",
@@ -738,7 +766,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-26-2026/event/3B006435054E8262",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAKIax"
       },
       "seatgeek": {
         "event_id": null,
@@ -762,7 +791,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAKIax"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505768283",
@@ -789,7 +819,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-30-2026/event/3B00643505768283",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAqI1d"
       },
       "seatgeek": {
         "event_id": null,
@@ -813,7 +844,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAqI1d"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505888295",
@@ -840,7 +872,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-02-2026/event/3B00643505888295",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAxF14"
       },
       "seatgeek": {
         "event_id": null,
@@ -864,7 +897,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAxF14"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435059882a6",
@@ -891,7 +925,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-03-2026/event/3B006435059882A6",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAJF1J"
       },
       "seatgeek": {
         "event_id": null,
@@ -915,7 +950,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAJF1J"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505aa82b9",
@@ -942,7 +978,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-07-2026/event/3B00643505AA82B9",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAnI1y"
       },
       "seatgeek": {
         "event_id": null,
@@ -966,7 +1003,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAnI1y"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505b782ca",
@@ -993,7 +1031,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-09-2026/event/3B00643505B782CA",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAcz51"
       },
       "seatgeek": {
         "event_id": null,
@@ -1017,7 +1056,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAcz51"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505d182df",
@@ -1044,7 +1084,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-10-2026/event/3B00643505D182DF",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAVb5L"
       },
       "seatgeek": {
         "event_id": null,
@@ -1068,7 +1109,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAVb5L"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505dd82e6",
@@ -1095,7 +1137,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-14-2026/event/3B00643505DD82E6",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAMb5J"
       },
       "seatgeek": {
         "event_id": null,
@@ -1119,7 +1162,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAMb5J"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505ee82f4",
@@ -1146,7 +1190,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-16-2026/event/3B00643505EE82F4",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfADI5V"
       },
       "seatgeek": {
         "event_id": null,
@@ -1170,7 +1215,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfADI5V"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506808378",
@@ -1197,7 +1243,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkOFuz"
       },
       "seatgeek": {
         "event_id": null,
@@ -1221,7 +1268,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkOFuz"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350690838a",
@@ -1248,7 +1296,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfk0FC1"
       },
       "seatgeek": {
         "event_id": null,
@@ -1272,7 +1321,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfk0FC1"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435069e8398",
@@ -1299,7 +1349,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-23-2026/event/3B006435069E8398",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkEICb"
       },
       "seatgeek": {
         "event_id": null,
@@ -1323,7 +1374,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkEICb"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506ae83a2",
@@ -1350,7 +1402,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfklICx"
       },
       "seatgeek": {
         "event_id": null,
@@ -1374,7 +1427,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfklICx"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506bf83b6",
@@ -1401,7 +1455,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkRzCU"
       },
       "seatgeek": {
         "event_id": null,
@@ -1425,7 +1480,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkRzCU"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506cf83cb",
@@ -1452,7 +1508,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-30-2026/event/3B00643506CF83CB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkSz25"
       },
       "seatgeek": {
         "event_id": null,
@@ -1476,7 +1533,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkSz25"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506da83de",
@@ -1503,7 +1561,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkUI2r"
       },
       "seatgeek": {
         "event_id": null,
@@ -1527,6 +1586,7 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkUI2r"
   }
 ]

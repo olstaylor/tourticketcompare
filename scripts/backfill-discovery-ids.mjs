@@ -8,32 +8,33 @@
 // Discovery id are reported "unresolvable" and cannot be verified. This script
 // recovers the correct Discovery id from the verified per-artist attraction
 // feed (`/discovery/v2/events.json?attractionId=...`) by matching on the
-// venue-local date (parsed from the storefront URL, which is timezone-correct)
-// and city. It never invents data: an id is written only on an unambiguous
-// API match, and only `ticketmaster_discovery_event_id` /
+// venue-local date and additional identity evidence. It never invents data: an
+// id is written only on an unambiguous API match, and only
+// `ticketmaster_discovery_event_id` /
 // `provider_links.ticketmaster.discovery_event_id` are touched — the verified
 // `ticketmaster_event_id` and `ticketmaster_url` are left exactly as-is.
 //
 // Usage:
 //   node scripts/backfill-discovery-ids.mjs            # dry-run (default)
 //   node scripts/backfill-discovery-ids.mjs --apply    # write public/data/events.json
+//   node scripts/backfill-discovery-ids.mjs --self-test
 import fs from 'node:fs/promises';
 
 const EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
 const IDENTITIES_PATH = new URL('../data/provider-identities.json', import.meta.url);
 const BASE = (process.env.TICKETMASTER_DISCOVERY_BASE_URL || 'https://app.ticketmaster.com/discovery/v2').replace(/\/+$/, '');
+const MIN_REQUEST_DELAY_MS = 250;
+const parsedDelay = Number.parseInt(process.env.TM_REQUEST_DELAY_MS || String(MIN_REQUEST_DELAY_MS), 10);
+const requestDelayMs = Math.max(MIN_REQUEST_DELAY_MS, Number.isFinite(parsedDelay) ? parsedDelay : MIN_REQUEST_DELAY_MS);
 
 const apply = process.argv.includes('--apply');
+const selfTest = process.argv.includes('--self-test');
 const apiKey = String(process.env.TICKETMASTER_API_KEY || '').trim();
-if (!apiKey) {
-  console.error('ERROR: TICKETMASTER_API_KEY is not set.');
-  process.exit(2);
-}
 
 const clean = (v) => String(v ?? '').trim();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const normCity = (c) =>
-  clean(c).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z]/g, '');
+  clean(c).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z]/g, '');
 
 // Same id-format test as scripts/audit-tm-events.mjs: a Discovery-format id is
 // mixed-case alphanumeric, never a pure-numeric storefront id or a 16-char
@@ -47,13 +48,13 @@ function isDiscoveryFormatId(value) {
   return /^[A-Za-z0-9_-]{6,20}$/.test(id);
 }
 
-// Venue-local calendar date from the UTC `datetime_iso` and the event's IANA
-// `timezone`. This is locale-independent (storefront URL slugs use MM-DD-YYYY in
-// the US but DD-MM-YYYY in the UK/EU) and matches the Discovery feed's
-// `dates.start.localDate` exactly.
+// Venue-local calendar date from `datetime_iso`. A date-only or offset-free
+// wall-time is already venue-local and must not be timezone-shifted. Values with
+// an explicit offset/Z are absolute instants and are rendered in the event zone.
 function localDate(event) {
   const iso = clean(event?.datetime_iso);
   if (!iso) return null;
+  if (!/[zZ]$|[+-]\d{2}:?\d{2}$/.test(iso)) return iso.slice(0, 10);
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return null;
   const tz = clean(event?.timezone) || 'UTC';
@@ -111,37 +112,103 @@ async function fetchAttractionEvents(attractionId) {
     }
     const totalPages = json?.page?.totalPages ?? 1;
     if (page + 1 >= totalPages) break;
-    await sleep(200);
+    await sleep(requestDelayMs);
   }
   return out;
+}
+
+function uniqueExactTimeMatch(event, candidates) {
+  const iso = clean(event.datetime_iso);
+  if (!/[zZ]$|[+-]\d{2}:?\d{2}$/.test(iso)) return null;
+  const localTime = Date.parse(iso);
+  if (Number.isNaN(localTime)) return null;
+  const matches = candidates.filter((f) => {
+    const remoteTime = Date.parse(f.dateTime);
+    return f.dateTime && !Number.isNaN(remoteTime) && remoteTime === localTime;
+  });
+  return matches.length === 1 ? matches[0] : null;
+}
+
+function uniqueVenueMatch(event, candidates) {
+  const venue = normCity(event.venue);
+  if (!venue) return null;
+  const matches = candidates.filter((f) => normCity(f.venue) === venue);
+  return matches.length === 1 ? matches[0] : null;
 }
 
 function matchOne(event, feed) {
   const targetDate = localDate(event);
   if (!targetDate) return { status: 'no-date' };
-  const city = normCity(event.city);
-
   const byDate = feed.filter((f) => f.localDate === targetDate);
   if (byDate.length === 0) return { status: 'no-feed-match', targetDate };
 
-  let cand = city ? byDate.filter((f) => normCity(f.city) === city) : byDate;
-  if (cand.length === 0) cand = byDate; // city spelling mismatch — fall back to date alone
+  const city = normCity(event.city);
+  if (city) {
+    const cityMatches = byDate.filter((f) => normCity(f.city) === city);
+    if (cityMatches.length === 1) return { status: 'matched', discId: cityMatches[0].discId };
+    if (cityMatches.length > 1) {
+      const exactTime = uniqueExactTimeMatch(event, cityMatches);
+      if (exactTime) return { status: 'matched', discId: exactTime.discId };
+      const venue = uniqueVenueMatch(event, cityMatches);
+      if (venue) return { status: 'matched', discId: venue.discId };
+      return { status: 'ambiguous', count: cityMatches.length, targetDate };
+    }
 
-  if (cand.length === 1) return { status: 'matched', discId: cand[0].discId };
+    // Never broaden a city mismatch to date-only identity. Accept only if an
+    // independent exact instant or venue match proves which same-date show it is.
+    const exactTime = uniqueExactTimeMatch(event, byDate);
+    if (exactTime) return { status: 'matched', discId: exactTime.discId };
+    const venue = uniqueVenueMatch(event, byDate);
+    if (venue) return { status: 'matched', discId: venue.discId };
+    return { status: 'city-mismatch', targetDate };
+  }
 
-  // Multiple same-date candidates: disambiguate by exact UTC start time, then venue.
-  const iso = clean(event.datetime_iso);
-  const byTime = cand.filter((f) => f.dateTime && new Date(f.dateTime).getTime() === new Date(iso).getTime());
-  if (byTime.length === 1) return { status: 'matched', discId: byTime[0].discId };
+  // A missing local city also cannot be resolved by date alone.
+  const exactTime = uniqueExactTimeMatch(event, byDate);
+  if (exactTime) return { status: 'matched', discId: exactTime.discId };
+  const venue = uniqueVenueMatch(event, byDate);
+  if (venue) return { status: 'matched', discId: venue.discId };
+  return { status: 'insufficient-identity', count: byDate.length, targetDate };
+}
 
-  const venue = normCity(event.venue);
-  const byVenue = cand.filter((f) => normCity(f.venue) === venue);
-  if (byVenue.length === 1) return { status: 'matched', discId: byVenue[0].discId };
+function runSelfTest() {
+  const checks = [];
+  const assert = (label, pass) => checks.push({ label, pass: Boolean(pass) });
 
-  return { status: 'ambiguous', count: cand.length, targetDate };
+  assert('offset-free wall time keeps its written local date',
+    localDate({ datetime_iso: '2026-06-19T02:00:00', timezone: 'America/Los_Angeles' }) === '2026-06-19');
+  assert('UTC instant converts to the venue-local date',
+    localDate({ datetime_iso: '2026-06-19T02:00:00Z', timezone: 'America/Los_Angeles' }) === '2026-06-18');
+  assert('accented cities normalize consistently', normCity('São Paulo') === normCity('Sao Paulo'));
+
+  const feed = [
+    { discId: 'right', localDate: '2026-07-01', dateTime: '2026-07-01T20:00:00Z', city: 'Paris', venue: 'Arena A' }
+  ];
+  assert('date-only candidate in another city is refused',
+    matchOne({ datetime_iso: '2026-07-01', city: 'London', venue: 'Unknown' }, feed).status === 'city-mismatch');
+  assert('matching date and city can resolve one candidate',
+    matchOne({ datetime_iso: '2026-07-01', city: 'Paris', venue: '' }, feed).discId === 'right');
+  assert('city mismatch can resolve with an independent exact instant',
+    matchOne({ datetime_iso: '2026-07-01T20:00:00Z', city: 'London', venue: '' }, feed).discId === 'right');
+  assert('missing city is not accepted on date alone',
+    matchOne({ datetime_iso: '2026-07-01', city: '', venue: '' }, feed).status === 'insufficient-identity');
+
+  let failed = 0;
+  for (const check of checks) {
+    if (!check.pass) failed += 1;
+    console.log(`${check.pass ? 'PASS' : 'FAIL'}  ${check.label}`);
+  }
+  console.log(`\n${checks.length - failed}/${checks.length} checks passed.`);
+  return failed === 0 ? 0 : 1;
 }
 
 async function main() {
+  if (selfTest) return runSelfTest();
+  if (!apiKey) {
+    console.error('ERROR: TICKETMASTER_API_KEY is not set.');
+    return 2;
+  }
+
   const events = JSON.parse(await fs.readFile(EVENTS_PATH, 'utf8'));
   const identities = JSON.parse(await fs.readFile(IDENTITIES_PATH, 'utf8'));
   const attractionBySlug = new Map();
@@ -159,7 +226,7 @@ async function main() {
     targetsBySlug.get(e.artist_slug).push(e);
   }
 
-  const stats = { exactCopy: 0, matched: 0, ambiguous: 0, noFeed: 0, noDate: 0, noAttraction: 0 };
+  const stats = { exactCopy: 0, matched: 0, ambiguous: 0, noFeed: 0, noDate: 0, identityMismatch: 0, noAttraction: 0 };
   const unmatched = [];
 
   for (const [slug, targets] of [...targetsBySlug.entries()].sort()) {
@@ -174,7 +241,7 @@ async function main() {
       } else {
         needFeed.push(e);
       }
-      await sleep(120);
+      await sleep(requestDelayMs);
     }
 
     // Tier 2 — feed match: recover the id from the artist's attraction feed.
@@ -197,6 +264,7 @@ async function main() {
         if (r.status === 'ambiguous') stats.ambiguous += 1;
         else if (r.status === 'no-feed-match') stats.noFeed += 1;
         else if (r.status === 'no-date') stats.noDate += 1;
+        else stats.identityMismatch += 1;
         unmatched.push({ slug, id: e.id, hex: clean(e.ticketmaster_event_id), reason: r.status, targetDate: r.targetDate, count: r.count });
       }
     }
@@ -217,9 +285,12 @@ async function main() {
   } else {
     console.log(`\nDRY RUN: no files written. Re-run with --apply to write ${written} id(s).`);
   }
+  return 0;
 }
 
-main().catch((err) => {
-  console.error('backfill-discovery-ids failed:', err);
-  process.exit(1);
-});
+main()
+  .then((code) => process.exit(code ?? 0))
+  .catch((err) => {
+    console.error('backfill-discovery-ids failed:', err);
+    process.exit(1);
+  });

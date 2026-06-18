@@ -86,7 +86,8 @@ function renderTm(tm) {
   let out = `Checked ${totals.checked || 0} TM event ID(s) at ${formatTimestamp(checked_at)}.\n\n`;
   out += `- ❌ Missing on TM (404/410): **${totals.missing || 0}**\n`;
   out += `- ⚠️ Changed (date/venue/status): **${totals.changed || 0}**\n`;
-  out += `- 🔁 Transient errors: **${totals.errors || 0}**\n\n`;
+  out += `- 🔁 Transient errors: **${totals.errors || 0}**\n`;
+  out += `- ⏭️ Unresolvable id (website/international code — not checked, **not** a failure): **${totals.unresolvable || 0}**\n\n`;
   for (const artist of artists) {
     if (!artist.missing.length && !artist.changed.length && !artist.errors.length) continue;
     out += `### ${artist.slug}\n\n`;

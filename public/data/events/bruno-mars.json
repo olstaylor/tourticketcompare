@@ -328,7 +328,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_k",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_k"
       },
       "seatgeek": {
         "event_id": null,
@@ -353,7 +354,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_k"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_6",
@@ -378,7 +380,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_6",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_6"
       },
       "seatgeek": {
         "event_id": null,
@@ -403,7 +406,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_6"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_f",
@@ -428,7 +432,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_F",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_F"
       },
       "seatgeek": {
         "event_id": null,
@@ -453,7 +458,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_F"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_k",
@@ -478,7 +484,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_K",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_K"
       },
       "seatgeek": {
         "event_id": null,
@@ -503,7 +510,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_K"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_f",
@@ -528,7 +536,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_f",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_f"
       },
       "seatgeek": {
         "event_id": null,
@@ -553,7 +562,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_f"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_4",
@@ -578,7 +588,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_4",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_4"
       },
       "seatgeek": {
         "event_id": null,
@@ -603,7 +614,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_4"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vg6pypf",
@@ -934,7 +946,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_x",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_x"
       },
       "seatgeek": {
         "event_id": null,
@@ -959,7 +972,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_x"
   },
   {
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_n",
@@ -984,7 +998,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_N",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_N"
       },
       "seatgeek": {
         "event_id": null,
@@ -1009,7 +1024,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_N"
   },
   {
     "id": "tm-bruno-mars-2026-london-1aegzbzgksgzoma",
@@ -1034,7 +1050,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-18-07-2026/event/2300638CCCE11DC5",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AeGZbzGkSGzoMA"
       },
       "seatgeek": {
         "event_id": null,
@@ -1060,7 +1077,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AeGZbzGkSGzoMA"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdftyue",
@@ -1085,7 +1103,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-19-07-2026/event/23006427C8FF0D82",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdFTYUe"
       },
       "seatgeek": {
         "event_id": null,
@@ -1111,7 +1130,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdFTYUe"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkduy8wh",
@@ -1136,7 +1156,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-22-07-2026/event/23006427F6C10F5B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdUY8Wh"
       },
       "seatgeek": {
         "event_id": null,
@@ -1162,7 +1183,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdUY8Wh"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdmnywe",
@@ -1187,7 +1209,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-24-07-2026/event/23006427F78F0F67",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdMNYWE"
       },
       "seatgeek": {
         "event_id": null,
@@ -1213,7 +1236,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdMNYWE"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdzq8wy",
@@ -1238,7 +1262,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-25-07-2026/event/23006427F8750F70",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdzq8WY"
       },
       "seatgeek": {
         "event_id": null,
@@ -1264,7 +1289,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdzq8WY"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdbd8xc",
@@ -1289,7 +1315,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-28-07-2026/event/23006427FA0D0F8E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdBd8XC"
       },
       "seatgeek": {
         "event_id": null,
@@ -1315,7 +1342,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdBd8XC"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm",
@@ -1340,7 +1368,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-21-2026/event/0000639EE07FD3B7",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "k7vGFbyDOLWCM"
       },
       "seatgeek": {
         "event_id": null,
@@ -1366,7 +1395,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGFbyDOLWCM"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd",
@@ -1391,7 +1421,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-22-2026/event/0000639EE085D3BB",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "k7vGFbyDO-qCD"
       },
       "seatgeek": {
         "event_id": null,
@@ -1417,7 +1448,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGFbyDO-qCD"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydoxccx",
@@ -1442,7 +1474,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-25-2026/event/0000639EE08AD3BE",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "k7vGFbyDOxcCX"
       },
       "seatgeek": {
         "event_id": null,
@@ -1468,7 +1501,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGFbyDOxcCX"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydonw2z",
@@ -1493,7 +1527,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "k7vGFbyDONW2Z"
       },
       "seatgeek": {
         "event_id": null,
@@ -1519,7 +1554,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGFbyDONW2Z"
   },
   {
     "id": "tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626",
@@ -1544,7 +1580,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-pittsburgh-pennsylvania-08-29-2026/event/1600639DBC7473C7",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvbZbyGkUHq626"
       },
       "seatgeek": {
         "event_id": null,
@@ -1570,7 +1607,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvbZbyGkUHq626"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv1aezk8pgkdj_ywf",
@@ -1595,7 +1633,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-01-2026/event/02006425DC679C94",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1AeZk8PGkdj_ywf"
       },
       "seatgeek": {
         "event_id": null,
@@ -1621,7 +1660,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1AeZk8PGkdj_ywf"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0",
@@ -1646,7 +1686,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-02-2026/event/0200642CF18CAA24",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv17FZ_eGkSsN1I0"
       },
       "seatgeek": {
         "event_id": null,
@@ -1672,7 +1713,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17FZ_eGkSsN1I0"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1a8vn0_ga221kn",
@@ -1697,7 +1739,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-05-2026/event/010063919F3CA1A3",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1A8vN0_GA221kN"
       },
       "seatgeek": {
         "event_id": null,
@@ -1723,7 +1766,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1A8vN0_GA221kN"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb",
@@ -1748,7 +1792,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-06-2026/event/01006428E3C4CF98",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1AvZk8IGkdNsGXb"
       },
       "seatgeek": {
         "event_id": null,
@@ -1774,7 +1819,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1AvZk8IGkdNsGXb"
   },
   {
     "id": "tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph",
@@ -1799,7 +1845,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-indianapolis-indiana-09-09-2026/event/0500639AE335B59B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv17fZbyGklNuhph"
       },
       "seatgeek": {
         "event_id": null,
@@ -1825,7 +1872,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17fZbyGklNuhph"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_e944pwc",
@@ -1850,7 +1898,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-12-2026/event/0D006425D5556F4E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_e944pWC"
       },
       "seatgeek": {
         "event_id": null,
@@ -1876,7 +1925,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1VZ_e944pWC"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_exa-kfw",
@@ -1901,7 +1951,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-13-2026/event/0D00642885853532",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_exA-Kfw"
       },
       "seatgeek": {
         "event_id": null,
@@ -1927,7 +1978,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1VZ_exA-Kfw"
   },
   {
     "id": "tm-bruno-mars-2026-new-orleans-g5vizbye_a_hw",
@@ -1952,7 +2004,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-new-orleans-louisiana-09-16-2026/event/1B006390992596F2",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5viZbye_a_hw"
       },
       "seatgeek": {
         "event_id": null,
@@ -1978,7 +2031,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5viZbye_a_hw"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_ekc64hs",
@@ -2003,7 +2057,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-19-2026/event/0D0064218E1D56F3",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_ekC64hS"
       },
       "seatgeek": {
         "event_id": null,
@@ -2029,7 +2084,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1VZ_ekC64hS"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_",
@@ -2054,7 +2110,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-20-2026/event/0D0064287B1B2999",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_e-DkwJ_"
       },
       "seatgeek": {
         "event_id": null,
@@ -2080,7 +2137,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1VZ_e-DkwJ_"
   },
   {
     "id": "tm-bruno-mars-2026-san-antonio-g5dizbyc__upm",
@@ -2105,7 +2163,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-san-antonio-texas-09-23-2026/event/3A006393996765AE",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5dIZbyC__Upm"
       },
       "seatgeek": {
         "event_id": null,
@@ -2131,7 +2190,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5dIZbyC__Upm"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a",
@@ -2156,7 +2216,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O9_A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7O9_A"
       },
       "seatgeek": {
         "event_id": null,
@@ -2181,7 +2242,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7O9_A"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i",
@@ -2206,7 +2268,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox8I",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7Ox8I"
       },
       "seatgeek": {
         "event_id": null,
@@ -2231,7 +2294,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ox8I"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f",
@@ -2256,7 +2320,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-09-30-2026/event/0A006451D6B8C1D4",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZ_A6pmG6f"
       },
       "seatgeek": {
         "event_id": null,
@@ -2282,7 +2347,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_A6pmG6f"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx",
@@ -2307,7 +2373,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-02-2026/event/0A006396BA615BBE",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZbyQBb4mX"
       },
       "seatgeek": {
         "event_id": null,
@@ -2333,7 +2400,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZbyQBb4mX"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyhid9od",
@@ -2358,7 +2426,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZbyhId9oD"
       },
       "seatgeek": {
         "event_id": null,
@@ -2384,7 +2453,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZbyhId9oD"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin",
@@ -2409,7 +2479,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZ_eheCVin"
       },
       "seatgeek": {
         "event_id": null,
@@ -2435,7 +2506,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_eheCVin"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is",
@@ -2460,7 +2532,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-07-2026/event/0A006426C2444B31",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZ_eheo7is"
       },
       "seatgeek": {
         "event_id": null,
@@ -2486,7 +2559,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_eheo7is"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",
@@ -2511,7 +2585,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-10-2026/event/1C006425BE5F932A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_epX9yGn"
       },
       "seatgeek": {
         "event_id": null,
@@ -2537,7 +2612,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_epX9yGn"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx",
@@ -2562,7 +2638,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-11-2026/event/1C006429E6CFBAA2",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_eEJSDnx"
       },
       "seatgeek": {
         "event_id": null,
@@ -2588,7 +2665,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_eEJSDnx"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm",
@@ -2613,7 +2691,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-14-2026/event/1100639781ED3F37",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "16v7ZbyrvG7DKHM"
       },
       "seatgeek": {
         "event_id": null,
@@ -2639,7 +2718,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "16v7ZbyrvG7DKHM"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshvjex",
@@ -2664,7 +2744,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-16-2026/event/1100642CDBD269FE",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_eGkShVJEX"
       },
       "seatgeek": {
         "event_id": null,
@@ -2690,7 +2771,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_eGkShVJEX"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshmjia",
@@ -2715,7 +2797,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_eGkShMJIA"
       },
       "seatgeek": {
         "event_id": null,
@@ -2741,7 +2824,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_eGkShMJIA"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkwimwwb",
@@ -2766,7 +2850,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_eGkWiMwWb"
       },
       "seatgeek": {
         "event_id": null,
@@ -2792,7 +2877,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_eGkWiMwWb"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1k78v0fjgacrkay",
@@ -2817,7 +2903,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-21-2026/event/110064526E793170",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1k78v0fJGACrKAY"
       },
       "seatgeek": {
         "event_id": null,
@@ -2843,6 +2930,7 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1k78v0fJGACrKAY"
   }
 ]

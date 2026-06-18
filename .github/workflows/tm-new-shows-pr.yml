@@ -71,6 +71,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Run Ticketmaster new-shows write-to-PR
+        id: discovery
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -80,7 +81,7 @@ jobs:
           INPUT_MODE: ${{ github.event.inputs.mode }}
         run: |
           set -euo pipefail
-          ARGS=()
+          ARGS=(--out-dir .tm-discovery)
           if [ -n "${INPUT_ARTIST:-}" ]; then
             ARGS+=(--artist "${INPUT_ARTIST}")
           else
@@ -93,3 +94,27 @@ jobs:
           fi
           echo "Running: node scripts/sync-tm-events-write-pr.mjs ${ARGS[*]}"
           node scripts/sync-tm-events-write-pr.mjs "${ARGS[@]}"
+
+      # Heartbeat: maintain the rolling automation:tm-discovery coverage issue so
+      # every scheduled run leaves a positive trace of which artists were checked
+      # — and a failed/partial run (no coverage.json) is surfaced, not silent.
+      # Runs even when the discovery step failed (if: always()), but only for
+      # PR-opening runs (scheduled or explicit write-pr), not manual previews.
+      - name: Update discovery coverage heartbeat
+        if: always() && (github.event_name == 'schedule' || github.event.inputs.mode == 'write-pr')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          node scripts/report-tm-discovery-coverage.mjs \
+            --coverage .tm-discovery/coverage.json \
+            --repo "${GITHUB_REPOSITORY}"
+
+      - name: Upload discovery coverage artefact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tm-discovery-coverage-${{ github.run_id }}
+          path: .tm-discovery/
+          include-hidden-files: true
+          retention-days: 30

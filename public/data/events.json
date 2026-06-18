@@ -485,7 +485,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtba",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qtbg"
       },
       "seatgeek": {
         "event_id": null,
@@ -509,7 +510,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbg"
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtbd",
@@ -536,7 +538,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbd",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qYJp"
       },
       "seatgeek": {
         "event_id": null,
@@ -560,7 +563,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJp"
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtb7",
@@ -640,7 +644,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbA",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qtbI"
       },
       "seatgeek": {
         "event_id": null,
@@ -664,7 +669,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbI"
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtbk",
@@ -691,7 +697,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbk",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qYJ_"
       },
       "seatgeek": {
         "event_id": null,
@@ -715,7 +722,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ_"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs",
@@ -742,7 +750,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbs",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qtbs"
       },
       "seatgeek": {
         "event_id": null,
@@ -766,7 +775,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbs"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbf",
@@ -846,7 +856,8 @@
         "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv17FZbgGkM65iFV"
       },
       "seatgeek": {
         "event_id": null,
@@ -870,7 +881,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17FZbgGkM65iFV"
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635da084a7a9",
@@ -897,7 +909,8 @@
         "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-08-01-2026/event/0200635DA084A7A9",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv17FZbgGkUO-1rt"
       },
       "seatgeek": {
         "event_id": null,
@@ -921,7 +934,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17FZbgGkUO-1rt"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350404814e",
@@ -948,7 +962,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-26-2026/event/3B0064350404814E",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7vFAC"
       },
       "seatgeek": {
         "event_id": null,
@@ -972,7 +987,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7vFAC"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504538196",
@@ -999,7 +1015,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-28-2026/event/3B00643504538196",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7fzkp"
       },
       "seatgeek": {
         "event_id": null,
@@ -1023,7 +1040,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7fzkp"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435046481aa",
@@ -1050,7 +1068,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-08-29-2026/event/3B006435046481AA",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7_Fkn"
       },
       "seatgeek": {
         "event_id": null,
@@ -1074,7 +1093,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7_Fkn"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435047f81c1",
@@ -1101,7 +1121,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-02-2026/event/3B006435047F81C1",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7Lz6v"
       },
       "seatgeek": {
         "event_id": null,
@@ -1125,7 +1146,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7Lz6v"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435049481d0",
@@ -1152,7 +1174,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-04-2026/event/3B006435049481D0",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7PF68"
       },
       "seatgeek": {
         "event_id": null,
@@ -1176,7 +1199,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7PF68"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504a381d8",
@@ -1203,7 +1227,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-05-2026/event/3B00643504A381D8",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7Iz6b"
       },
       "seatgeek": {
         "event_id": null,
@@ -1227,7 +1252,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7Iz6b"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504b581eb",
@@ -1254,7 +1280,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-09-2026/event/3B00643504B581EB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7cb6l"
       },
       "seatgeek": {
         "event_id": null,
@@ -1278,7 +1305,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7cb6l"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504c881f8",
@@ -1305,7 +1333,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-11-2026/event/3B00643504C881F8",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7wF6z"
       },
       "seatgeek": {
         "event_id": null,
@@ -1329,7 +1358,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7wF6z"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504d78209",
@@ -1356,7 +1386,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-12-2026/event/3B00643504D78209",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7gzFa"
       },
       "seatgeek": {
         "event_id": null,
@@ -1380,7 +1411,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7gzFa"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643504e38212",
@@ -1407,7 +1439,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-16-2026/event/3B00643504E38212",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_df7zzF3"
       },
       "seatgeek": {
         "event_id": null,
@@ -1431,7 +1464,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_df7zzF3"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505018228",
@@ -1458,7 +1492,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-18-2026/event/3B00643505018228",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAZbFI"
       },
       "seatgeek": {
         "event_id": null,
@@ -1482,7 +1517,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAZbFI"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505178231",
@@ -1509,7 +1545,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-19-2026/event/3B00643505178231",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAAzFs"
       },
       "seatgeek": {
         "event_id": null,
@@ -1533,7 +1570,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAAzFs"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350525823a",
@@ -1560,7 +1598,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-23-2026/event/3B0064350525823A",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAabFB"
       },
       "seatgeek": {
         "event_id": null,
@@ -1584,7 +1623,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAabFB"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505428256",
@@ -1611,7 +1651,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-25-2026/event/3B00643505428256",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfA8Iap"
       },
       "seatgeek": {
         "event_id": null,
@@ -1635,7 +1676,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfA8Iap"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435054e8262",
@@ -1662,7 +1704,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-26-2026/event/3B006435054E8262",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAKIax"
       },
       "seatgeek": {
         "event_id": null,
@@ -1686,7 +1729,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAKIax"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505768283",
@@ -1713,7 +1757,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-09-30-2026/event/3B00643505768283",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAqI1d"
       },
       "seatgeek": {
         "event_id": null,
@@ -1737,7 +1782,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAqI1d"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505888295",
@@ -1764,7 +1810,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-02-2026/event/3B00643505888295",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAxF14"
       },
       "seatgeek": {
         "event_id": null,
@@ -1788,7 +1835,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAxF14"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435059882a6",
@@ -1815,7 +1863,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-03-2026/event/3B006435059882A6",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAJF1J"
       },
       "seatgeek": {
         "event_id": null,
@@ -1839,7 +1888,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAJF1J"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505aa82b9",
@@ -1866,7 +1916,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-07-2026/event/3B00643505AA82B9",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAnI1y"
       },
       "seatgeek": {
         "event_id": null,
@@ -1890,7 +1941,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAnI1y"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505b782ca",
@@ -1917,7 +1969,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-09-2026/event/3B00643505B782CA",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAcz51"
       },
       "seatgeek": {
         "event_id": null,
@@ -1941,7 +1994,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAcz51"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505d182df",
@@ -1968,7 +2022,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-10-2026/event/3B00643505D182DF",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAVb5L"
       },
       "seatgeek": {
         "event_id": null,
@@ -1992,7 +2047,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAVb5L"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505dd82e6",
@@ -2019,7 +2075,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-14-2026/event/3B00643505DD82E6",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfAMb5J"
       },
       "seatgeek": {
         "event_id": null,
@@ -2043,7 +2100,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfAMb5J"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505ee82f4",
@@ -2070,7 +2128,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-16-2026/event/3B00643505EE82F4",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfADI5V"
       },
       "seatgeek": {
         "event_id": null,
@@ -2094,7 +2153,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfADI5V"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506808378",
@@ -2121,7 +2181,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkOFuz"
       },
       "seatgeek": {
         "event_id": null,
@@ -2145,7 +2206,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkOFuz"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350690838a",
@@ -2172,7 +2234,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfk0FC1"
       },
       "seatgeek": {
         "event_id": null,
@@ -2196,7 +2259,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfk0FC1"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435069e8398",
@@ -2223,7 +2287,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-23-2026/event/3B006435069E8398",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkEICb"
       },
       "seatgeek": {
         "event_id": null,
@@ -2247,7 +2312,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkEICb"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506ae83a2",
@@ -2274,7 +2340,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfklICx"
       },
       "seatgeek": {
         "event_id": null,
@@ -2298,7 +2365,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfklICx"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506bf83b6",
@@ -2325,7 +2393,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkRzCU"
       },
       "seatgeek": {
         "event_id": null,
@@ -2349,7 +2418,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkRzCU"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506cf83cb",
@@ -2376,7 +2446,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-30-2026/event/3B00643506CF83CB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkSz25"
       },
       "seatgeek": {
         "event_id": null,
@@ -2400,7 +2471,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkSz25"
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506da83de",
@@ -2427,7 +2499,8 @@
         "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5diZ_dfkUI2r"
       },
       "seatgeek": {
         "event_id": null,
@@ -2451,7 +2524,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5diZ_dfkUI2r"
   },
   {
     "id": "tm-bts-2026-stanford-1c006429c95ea2b8",
@@ -2835,7 +2909,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-01-2026/event/00006429EB39BB6F",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "k7vGF_eElChcR"
       },
       "seatgeek": {
         "event_id": null,
@@ -2859,7 +2934,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGF_eElChcR"
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429ed30bceb",
@@ -2886,7 +2962,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-east-east-rutherford-new-jersey-08-02-2026/event/00006429ED30BCEB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "k7vGF_eEcG5Sl"
       },
       "seatgeek": {
         "event_id": null,
@@ -2910,7 +2987,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGF_eEcG5Sl"
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cbd7ab56b",
@@ -2937,7 +3015,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-05-2026/event/0100642CBD7AB56B",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv177Z_eGkwWrl4l"
       },
       "seatgeek": {
         "event_id": null,
@@ -2961,7 +3040,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv177Z_eGkwWrl4l"
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cc24ebb04",
@@ -2988,7 +3068,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-06-2026/event/0100642CC24EBB04",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv177Z_eGkSeKli7"
       },
       "seatgeek": {
         "event_id": null,
@@ -3012,7 +3093,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv177Z_eGkSeKli7"
   },
   {
     "id": "tm-bts-2026-chicago-0400642acbbd5d44",
@@ -3039,7 +3121,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-27-2026/event/0400642ACBBD5D44",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv178Z_eGkl5R4g7"
       },
       "seatgeek": {
         "event_id": null,
@@ -3063,7 +3146,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv178Z_eGkl5R4g7"
   },
   {
     "id": "tm-bts-2026-chicago-0400642acc7e5d9b",
@@ -3090,7 +3174,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-chicago-chicago-illinois-08-28-2026/event/0400642ACC7E5D9B",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv178Z_eGklGLPUh"
       },
       "seatgeek": {
         "event_id": null,
@@ -3114,7 +3199,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv178Z_eGklGLPUh"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429ab3c5ef1",
@@ -3141,7 +3227,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-01-2026/event/0A006429AB3C5EF1",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vvG1IZ_eJl2ADs"
       },
       "seatgeek": {
         "event_id": null,
@@ -3165,7 +3252,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_eJl2ADs"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b1b363a4",
@@ -3192,7 +3280,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-02-2026/event/0A006429B1B363A4",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vvG1IZ_eJsiUC0"
       },
       "seatgeek": {
         "event_id": null,
@@ -3216,7 +3305,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_eJsiUC0"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b2cb6418",
@@ -3243,7 +3333,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-05-2026/event/0A006429B2CB6418",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vvG1IZ_eJwwU8b"
       },
       "seatgeek": {
         "event_id": null,
@@ -3267,7 +3358,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_eJwwU8b"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b353645f",
@@ -3294,7 +3386,8 @@
         "url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-los-inglewood-california-09-06-2026/event/0A006429B353645F",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vvG1IZ_eJSfUoL"
       },
       "seatgeek": {
         "event_id": null,
@@ -3318,7 +3411,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_eJSfUoL"
   },
   {
     "id": "tm-ariana-grande-2026-oakland-1c00631913d14ad8",
@@ -3600,7 +3694,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-17-2026/event/09006319299F5DEB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv16aZkG_1_ZA8kC2G"
       },
       "seatgeek": {
         "event_id": null,
@@ -3624,7 +3719,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv16aZkG_1_ZA8kC2G"
   },
   {
     "id": "tm-ariana-grande-2026-inglewood-090063192f945f68",
@@ -3651,7 +3747,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-19-2026/event/090063192F945F68",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv1ke8vNk3GA2PAWI"
       },
       "seatgeek": {
         "event_id": null,
@@ -3675,7 +3772,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1ke8vNk3GA2PAWI"
   },
   {
     "id": "tm-ariana-grande-2026-inglewood-09006325c6486b2e",
@@ -3702,7 +3800,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-20-2026/event/09006325C6486B2E",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv1AaZkGPGkdk3kim"
       },
       "seatgeek": {
         "event_id": null,
@@ -3726,7 +3825,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1AaZkGPGkdk3kim"
   },
   {
     "id": "tm-ariana-grande-2026-austin-3a00631b9ce923db",
@@ -3753,7 +3853,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-24-2026/event/3A00631B9CE923DB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5dIZbsmjB32h"
       },
       "seatgeek": {
         "event_id": null,
@@ -3777,7 +3878,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5dIZbsmjB32h"
   },
   {
     "id": "tm-ariana-grande-2026-austin-3a00631b9e202403",
@@ -3804,7 +3906,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-26-2026/event/3A00631B9E202403",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5dIZbsmrFe8d"
       },
       "seatgeek": {
         "event_id": null,
@@ -3828,7 +3931,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5dIZbsmrFe8d"
   },
   {
     "id": "tm-ariana-grande-2026-austin-3a00631b9f022430",
@@ -3855,7 +3959,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-27-2026/event/3A00631B9F022430",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5dIZbsmLZx8Y"
       },
       "seatgeek": {
         "event_id": null,
@@ -3879,7 +3984,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5dIZbsmLZx8Y"
   },
   {
     "id": "tm-ariana-grande-2026-atlanta-0e00631a8e691e65",
@@ -3906,7 +4012,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-06-2026/event/0E00631A8E691E65",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vvG1zZbsnCQoyP"
       },
       "seatgeek": {
         "event_id": null,
@@ -3930,7 +4037,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1zZbsnCQoyP"
   },
   {
     "id": "tm-ariana-grande-2026-atlanta-0e00631a8f331ed1",
@@ -3957,7 +4065,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-08-2026/event/0E00631A8F331ED1",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vvG1zZbsn2GsDo"
       },
       "seatgeek": {
         "event_id": null,
@@ -3981,7 +4090,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1zZbsn2GsDo"
   },
   {
     "id": "tm-ariana-grande-2026-atlanta-0e006325bea26298",
@@ -4008,7 +4118,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vvG1zZbwpXIJ1b"
       },
       "seatgeek": {
         "event_id": null,
@@ -4032,7 +4143,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1zZbwpXIJ1b"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f0e94aa7",
@@ -4059,7 +4171,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-12-2026/event/30006319F0E94AA7",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AYZkG_GkdYBfnE"
       },
       "seatgeek": {
         "event_id": null,
@@ -4083,7 +4196,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AYZkG_GkdYBfnE"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f34a4abb",
@@ -4110,7 +4224,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AYZkG_GkdS30nD"
       },
       "seatgeek": {
         "event_id": null,
@@ -4134,7 +4249,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AYZkG_GkdS30nD"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f41b4abf",
@@ -4161,7 +4277,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AYZkG_GkdVkVnT"
       },
       "seatgeek": {
         "event_id": null,
@@ -4185,7 +4302,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AYZkG_GkdVkVnT"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f49f4acd",
@@ -4212,7 +4330,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-18-2026/event/30006319F49F4ACD",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AYZkG_GkdVEVlu"
       },
       "seatgeek": {
         "event_id": null,
@@ -4236,7 +4355,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AYZkG_GkdVEVlu"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006325205054e3",
@@ -4263,7 +4383,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1aYZkGPFAvfZe27"
       },
       "seatgeek": {
         "event_id": null,
@@ -4287,7 +4408,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1aYZkGPFAvfZe27"
   },
   {
     "id": "tm-ariana-grande-2026-boston-0100631aaef23ee8",
@@ -4314,7 +4436,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv177ZbsGknmHNDI"
       },
       "seatgeek": {
         "event_id": null,
@@ -4338,7 +4461,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv177ZbsGknmHNDI"
   },
   {
     "id": "tm-ariana-grande-2026-boston-0100631aca626435",
@@ -4365,7 +4489,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv177ZbsGkl1bJ8g"
       },
       "seatgeek": {
         "event_id": null,
@@ -4389,7 +4514,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv177ZbsGkl1bJ8g"
   },
   {
     "id": "tm-ariana-grande-2026-boston-010063289ef611c4",
@@ -4416,7 +4542,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv1A8vN1aGACW-67"
       },
       "seatgeek": {
         "event_id": null,
@@ -4440,7 +4567,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1A8vN1aGACW-67"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319ddb22b1f",
@@ -4467,7 +4595,8 @@
         "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AsZkG_GkdqixiL"
       },
       "seatgeek": {
         "event_id": null,
@@ -4491,7 +4620,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AsZkG_GkdqixiL"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319de3a2b37",
@@ -4518,7 +4648,8 @@
         "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-30-2026/event/31006319DE3A2B37",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AsZkG_GkdrCxiM"
       },
       "seatgeek": {
         "event_id": null,
@@ -4542,7 +4673,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AsZkG_GkdrCxiM"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319dedc2b4c",
@@ -4569,7 +4701,8 @@
         "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AsZkG_GkdrMecG"
       },
       "seatgeek": {
         "event_id": null,
@@ -4593,7 +4726,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AsZkG_GkdrMecG"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006319ddea2cd5",
@@ -4620,7 +4754,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv1A7ZkG_GkdqBxS4"
       },
       "seatgeek": {
         "event_id": null,
@@ -4644,7 +4779,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1A7ZkG_GkdqBxS4"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-0400631adf313481",
@@ -4671,7 +4807,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-05-2026/event/0400631ADF313481",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv178ZbsGklLGK3v"
       },
       "seatgeek": {
         "event_id": null,
@@ -4695,7 +4832,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv178ZbsGklLGK3v"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006325ad9f24a7",
@@ -4722,7 +4860,8 @@
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv1A7ZkGPGkecEw3E"
       },
       "seatgeek": {
         "event_id": null,
@@ -4746,7 +4885,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1A7ZkGPGkecEw3E"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c8ea13055",
@@ -4773,7 +4913,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-15-08-2026/event/3500631C8EA13055",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AdfZbsGkwCIKv4"
       },
       "seatgeek": {
         "event_id": null,
@@ -4797,7 +4938,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZbsGkwCIKv4"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c937630fa",
@@ -4824,7 +4966,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-16-08-2026/event/3500631C937630FA",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AdfZbsGkwKqNdB"
       },
       "seatgeek": {
         "event_id": null,
@@ -4848,7 +4991,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZbsGkwKqNdB"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c950d310b",
@@ -4875,7 +5019,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-19-08-2026/event/3500631C950D310B",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AdfZbsGkw4dK75"
       },
       "seatgeek": {
         "event_id": null,
@@ -4899,7 +5044,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZbsGkw4dK75"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c97193144",
@@ -4926,7 +5072,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-20-08-2026/event/3500631C97193144",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AdfZbsGkw9kKA7"
       },
       "seatgeek": {
         "event_id": null,
@@ -4950,7 +5097,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZbsGkw9kKA7"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c98a031b3",
@@ -4977,7 +5125,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-23-08-2026/event/3500631C98A031B3",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AdfZbsGkwbIdkS"
       },
       "seatgeek": {
         "event_id": null,
@@ -5001,7 +5150,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZbsGkwbIdkS"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4e94ebb",
@@ -5028,7 +5178,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-24-08-2026/event/35006324F4E94EBB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AgZkG0GkdVBfBD"
       },
       "seatgeek": {
         "event_id": null,
@@ -5052,7 +5203,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AgZkG0GkdVBfBD"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4fe4f2a",
@@ -5079,7 +5231,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-27-08-2026/event/35006324F4FE4F2A",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AgZkG0GkdVT0Hn"
       },
       "seatgeek": {
         "event_id": null,
@@ -5103,7 +5256,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AgZkG0GkdVT0Hn"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f5075024",
@@ -5130,7 +5284,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-28-08-2026/event/35006324F5075024",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AgZkG0GkdgvgZ0"
       },
       "seatgeek": {
         "event_id": null,
@@ -5154,7 +5309,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AgZkG0GkdgvgZ0"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4f54ef7",
@@ -5181,7 +5337,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-31-08-2026/event/35006324F4F54EF7",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AgZkG0GkdVWfDM"
       },
       "seatgeek": {
         "event_id": null,
@@ -5205,7 +5362,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AgZkG0GkdVWfDM"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f50f50d8",
@@ -5232,7 +5390,8 @@
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-01-09-2026/event/35006324F50F50D8",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AgZkG0Gkdgdgdb"
       },
       "seatgeek": {
         "event_id": null,
@@ -5256,7 +5415,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AgZkG0Gkdgdgdb"
   },
   {
     "id": "tm-bad-bunny-2026-barcelona-653666176",
@@ -5895,7 +6055,8 @@
         "url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1604365108",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZC9"
       },
       "seatgeek": {
         "event_id": null,
@@ -5919,7 +6080,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZC9"
   },
   {
     "id": "tm-bad-bunny-2026-d-sseldorf-653946928",
@@ -5946,7 +6108,8 @@
         "url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/653946928",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZCb"
       },
       "seatgeek": {
         "event_id": null,
@@ -5970,7 +6133,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZCb"
   },
   {
     "id": "tm-bad-bunny-2026-arnhem-1578299680",
@@ -6099,7 +6263,8 @@
         "url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-27-06-2026/event/3500629EFC0C8BC1",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AdfZbtGkDHdFRv"
       },
       "seatgeek": {
         "event_id": null,
@@ -6123,7 +6288,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZbtGkDHdFRv"
   },
   {
     "id": "tm-bad-bunny-2026-london-350062a39074101f",
@@ -6150,7 +6316,8 @@
         "url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-28-06-2026/event/350062A39074101F",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "17u8vxG61C8qvZL"
       },
       "seatgeek": {
         "event_id": null,
@@ -6174,7 +6341,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "17u8vxG61C8qvZL"
   },
   {
     "id": "tm-bad-bunny-2026-stockholm-625835491",
@@ -6354,7 +6522,8 @@
         "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZ87"
       },
       "seatgeek": {
         "event_id": null,
@@ -6378,7 +6547,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ87"
   },
   {
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
@@ -6405,7 +6575,8 @@
         "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZ8A"
       },
       "seatgeek": {
         "event_id": null,
@@ -6429,7 +6600,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8A"
   },
   {
     "id": "tm-bad-bunny-2026-brussels-1117180915",
@@ -6507,7 +6679,8 @@
         "url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5vVZ_629N2Uz"
       },
       "seatgeek": {
         "event_id": null,
@@ -6531,7 +6704,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vVZ_629N2Uz"
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473d9d109cb",
@@ -6558,7 +6732,8 @@
         "url": "https://www.ticketmaster.com/jayz-25-bronx-new-york-07-11-2026/event/1D006473D9D109CB",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "G5vVZ_62_V8E5"
       },
       "seatgeek": {
         "event_id": null,
@@ -6582,7 +6757,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vVZ_62_V8E5"
   },
   {
     "id": "tm-jay-z-2026-bronx-1d006473db760a7f",
@@ -6660,7 +6836,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A706ep"
       },
       "seatgeek": {
         "event_id": null,
@@ -6685,7 +6862,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706ep"
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
@@ -6710,7 +6888,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A70677"
       },
       "seatgeek": {
         "event_id": null,
@@ -6735,7 +6914,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70677"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
@@ -6760,7 +6940,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-29-2026/event/1600649DD7C8F781",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvbZ_aGkM9w2rv"
       },
       "seatgeek": {
         "event_id": null,
@@ -6786,7 +6967,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvbZ_aGkM9w2rv"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7",
@@ -6811,7 +6993,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-30-2026/event/1600649DD7CAF784",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvbZ_aGkM9wRr7"
       },
       "seatgeek": {
         "event_id": null,
@@ -6837,7 +7020,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvbZ_aGkM9wRr7"
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387",
@@ -6862,7 +7046,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-03-2026/event/150064943E892404",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1kA8v0PdGACx387"
       },
       "seatgeek": {
         "event_id": null,
@@ -6888,7 +7073,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1kA8v0PdGACx387"
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1avfz_agkvqmncz",
@@ -6913,7 +7099,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-04-2026/event/1500649D1DBAAB40",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvfZ_aGkVqmncZ"
       },
       "seatgeek": {
         "event_id": null,
@@ -6939,7 +7126,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvfZ_aGkVqmncZ"
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyed-b",
@@ -6964,7 +7152,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-07-2026/event/2D00649DB99FB858",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5eVZ_aUyED-b"
       },
       "seatgeek": {
         "event_id": null,
@@ -6990,7 +7179,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5eVZ_aUyED-b"
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g",
@@ -7015,7 +7205,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-08-2026/event/2D00649DB9A4B875",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5eVZ_aUyt5-g"
       },
       "seatgeek": {
         "event_id": null,
@@ -7041,7 +7232,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5eVZ_aUyt5-g"
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkyetuoa",
@@ -7066,7 +7258,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-11-2026/event/0400649C02FF6809",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv178Z_aGkYeTUOa"
       },
       "seatgeek": {
         "event_id": null,
@@ -7092,7 +7285,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv178Z_aGkYeTUOa"
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkmlebgy",
@@ -7117,7 +7311,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-12-2026/event/0400649DEB9FA339",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv178Z_aGkMlEBGy"
       },
       "seatgeek": {
         "event_id": null,
@@ -7143,7 +7338,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv178Z_aGkMlEBGy"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agksbtqpc",
@@ -7168,7 +7364,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-15-2026/event/0100649CD8A5A5AD",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv177Z_aGkSbtQpc"
       },
       "seatgeek": {
         "event_id": null,
@@ -7194,7 +7391,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv177Z_aGkSbtQpc"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agkv-whjn",
@@ -7219,7 +7417,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-17-2026/event/0100649D21F5B72A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv177Z_aGkV-Whjn"
       },
       "seatgeek": {
         "event_id": null,
@@ -7245,7 +7444,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv177Z_aGkV-Whjn"
   },
   {
     "id": "tm-olivia-rodrigo-2026-boston-vvg17z_13s_x9k",
@@ -7270,7 +7470,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-18-2026/event/010064A4B36625C6",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG17Z_13S_x9k"
       },
       "seatgeek": {
         "event_id": null,
@@ -7296,7 +7497,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG17Z_13S_x9k"
   },
   {
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmby4v9",
@@ -7321,7 +7523,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Ad7Z_aGkmbY4v9"
       },
       "seatgeek": {
         "event_id": null,
@@ -7347,7 +7550,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Ad7Z_aGkmbY4v9"
   },
   {
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_",
@@ -7372,7 +7576,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Ad7Z_aGkmbsAv_"
       },
       "seatgeek": {
         "event_id": null,
@@ -7398,7 +7603,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Ad7Z_aGkmbsAv_"
   },
   {
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkmwmykb",
@@ -7423,7 +7629,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-26-2026/event/1000649BBDBB94D8",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvZZ_aGkmWmyKb"
       },
       "seatgeek": {
         "event_id": null,
@@ -7449,7 +7656,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvZZ_aGkmWmyKb"
   },
   {
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkvcvogj",
@@ -7474,7 +7682,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-27-2026/event/1000649D0E060D66",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvZZ_aGkVCvOgJ"
       },
       "seatgeek": {
         "event_id": null,
@@ -7500,7 +7709,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvZZ_aGkVCvOgJ"
   },
   {
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtn2ij",
@@ -7525,7 +7735,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv17fZ_aGkMTN2Ij"
       },
       "seatgeek": {
         "event_id": null,
@@ -7551,7 +7762,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17fZ_aGkMTN2Ij"
   },
   {
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri-",
@@ -7576,7 +7788,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-30-2026/event/0500649DFF8EFA21",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv17fZ_aGkMTNRI-"
       },
       "seatgeek": {
         "event_id": null,
@@ -7602,7 +7815,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17fZ_aGkMTNRI-"
   },
   {
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg",
@@ -7627,7 +7841,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-07-2026/event/3000649DC07F7DF5",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkMZLMMg"
       },
       "seatgeek": {
         "event_id": null,
@@ -7653,7 +7868,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkMZLMMg"
   },
   {
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzoemy",
@@ -7678,7 +7894,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-08-2026/event/3000649DC0827DF9",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkMZOEMy"
       },
       "seatgeek": {
         "event_id": null,
@@ -7704,7 +7921,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkMZOEMy"
   },
   {
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5",
@@ -7729,7 +7947,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-11-2026/event/0E00649DBD3E870B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1zZ_aUW2Ij5"
       },
       "seatgeek": {
         "event_id": null,
@@ -7755,7 +7974,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1zZ_aUW2Ij5"
   },
   {
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw8bjb",
@@ -7780,7 +8000,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-12-2026/event/0E00649DBD418718",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1zZ_aUW8bjb"
       },
       "seatgeek": {
         "event_id": null,
@@ -7806,7 +8027,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1zZ_aUW8bjb"
   },
   {
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
@@ -7831,7 +8053,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-15-2026/event/2200649DA5425466",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AeFZ_aGkUP8PoJ"
       },
       "seatgeek": {
         "event_id": null,
@@ -7857,7 +8080,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AeFZ_aGkUP8PoJ"
   },
   {
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf",
@@ -7882,7 +8106,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-16-2026/event/2200649DB24560D4",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AeFZ_aGkUwopdf"
       },
       "seatgeek": {
         "event_id": null,
@@ -7908,7 +8133,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AeFZ_aGkUwopdf"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
@@ -7933,7 +8159,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A7067F"
       },
       "seatgeek": {
         "event_id": null,
@@ -7958,7 +8185,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067F"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
@@ -7983,7 +8211,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A7067o"
       },
       "seatgeek": {
         "event_id": null,
@@ -8008,7 +8237,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067o"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
@@ -8033,7 +8263,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-23-2026/event/1B00649D0DA1A0A0",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5viZ_aVuIQeO"
       },
       "seatgeek": {
         "event_id": null,
@@ -8059,7 +8290,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5viZ_aVuIQeO"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh",
@@ -8084,7 +8316,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-24-2026/event/1B00649D0E9FA33C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5viZ_aVCEBGH"
       },
       "seatgeek": {
         "event_id": null,
@@ -8110,7 +8343,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5viZ_aVCEBGH"
   },
   {
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb",
@@ -8135,7 +8369,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-01-2026/event/1100649D82B16018",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_aGkUeipZb"
       },
       "seatgeek": {
         "event_id": null,
@@ -8161,7 +8396,8 @@
     },
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_aGkUeipZb"
   },
   {
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj",
@@ -8186,7 +8422,8 @@
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-02-2026/event/1100649D82B46026",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_aGkUeckZJ"
       },
       "seatgeek": {
         "event_id": null,
@@ -8212,7 +8449,8 @@
     },
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_aGkUeckZJ"
   },
   {
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty",
@@ -8237,7 +8475,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-07-2026/event/0F00649DD1062FF0",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1HZ_aMovxTY"
       },
       "seatgeek": {
         "event_id": null,
@@ -8263,7 +8502,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1HZ_aMovxTY"
   },
   {
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1",
@@ -8288,7 +8528,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-08-2026/event/0F00649DE731624A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1HZ_aMEGpa1"
       },
       "seatgeek": {
         "event_id": null,
@@ -8314,7 +8555,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1HZ_aMEGpa1"
   },
   {
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b",
@@ -8339,7 +8581,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-11-2026/event/1C00649DD84D193A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_aMbKo0B"
       },
       "seatgeek": {
         "event_id": null,
@@ -8365,7 +8608,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_aMbKo0B"
   },
   {
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1",
@@ -8390,7 +8634,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-12-2026/event/1C00649DD853194A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_aMbfsP1"
       },
       "seatgeek": {
         "event_id": null,
@@ -8416,7 +8661,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_aMbfsP1"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi",
@@ -8441,7 +8687,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-15-2026/event/1C00649CABA73528",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_awltSfI"
       },
       "seatgeek": {
         "event_id": null,
@@ -8467,7 +8714,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_awltSfI"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy",
@@ -8492,7 +8740,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-16-2026/event/1C00649CABAA3530",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_awlnNfY"
       },
       "seatgeek": {
         "event_id": null,
@@ -8518,7 +8767,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_awlnNfY"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk",
@@ -8543,7 +8793,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A706kk"
       },
       "seatgeek": {
         "event_id": null,
@@ -8568,7 +8819,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kk"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf",
@@ -8593,7 +8845,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A706kF"
       },
       "seatgeek": {
         "event_id": null,
@@ -8618,7 +8871,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kF"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw",
@@ -8643,7 +8897,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-12-2027/event/0900649DE7C663B2",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv170Z_aGkMEsJCw"
       },
       "seatgeek": {
         "event_id": null,
@@ -8669,7 +8924,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv170Z_aGkMEsJCw"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b",
@@ -8694,7 +8950,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-13-2027/event/0900649DE7FE6418",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv170Z_aGkMETJ8b"
       },
       "seatgeek": {
         "event_id": null,
@@ -8720,7 +8977,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv170Z_aGkMETJ8b"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku",
@@ -8745,7 +9003,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-16-2027/event/0900649DE84C64CD",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv170Z_aGkMIKkKu"
       },
       "seatgeek": {
         "event_id": null,
@@ -8771,7 +9030,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv170Z_aGkMIKkKu"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45",
@@ -8796,7 +9056,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-17-2027/event/0900649DE899654B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv170Z_aGkMIJp45"
       },
       "seatgeek": {
         "event_id": null,
@@ -8822,7 +9083,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv170Z_aGkMIJp45"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr",
@@ -8847,7 +9109,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-20-2027/event/090064A4B79AF95E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MJRPr"
       },
       "seatgeek": {
         "event_id": null,
@@ -8873,7 +9136,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MJRPr"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph",
@@ -8898,7 +9162,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-21-2027/event/090064A4B7A6F97C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MtRPH"
       },
       "seatgeek": {
         "event_id": null,
@@ -8924,7 +9189,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MtRPH"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo",
@@ -8949,7 +9215,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-24-2027/event/090064A4B7B2F9A0",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MiRJO"
       },
       "seatgeek": {
         "event_id": null,
@@ -8975,7 +9242,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MiRJO"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd",
@@ -9000,7 +9268,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-25-2027/event/090064A4B7BFF9BB",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MRTJD"
       },
       "seatgeek": {
         "event_id": null,
@@ -9026,7 +9295,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MRTJD"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte-",
@@ -9051,7 +9321,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-28-2027/event/090064A4B7CBF9E1",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MwTE-"
       },
       "seatgeek": {
         "event_id": null,
@@ -9077,7 +9348,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MwTE-"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq",
@@ -9102,7 +9374,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-29-2027/event/090064A4B7E1FA1A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG10Z_13MzLIQ"
       },
       "seatgeek": {
         "event_id": null,
@@ -9128,7 +9401,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG10Z_13MzLIQ"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq",
@@ -9153,7 +9427,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-11-2027/event/30006497FDD3D51D",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AYZk39GkdWVWfq"
       },
       "seatgeek": {
         "event_id": null,
@@ -9179,7 +9454,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AYZk39GkdWVWfq"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn",
@@ -9204,7 +9480,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-12-2027/event/3000649D1548C9A3",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkV43GJN"
       },
       "seatgeek": {
         "event_id": null,
@@ -9230,7 +9507,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkV43GJN"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl",
@@ -9255,7 +9533,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-15-2027/event/3000649D1555C9AB",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkV44jJl"
       },
       "seatgeek": {
         "event_id": null,
@@ -9281,7 +9560,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkV44jJl"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs",
@@ -9306,7 +9586,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-16-2027/event/3000649D155FC9B3",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkV49HJS"
       },
       "seatgeek": {
         "event_id": null,
@@ -9332,7 +9613,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkV49HJS"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx",
@@ -9357,7 +9639,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-19-2027/event/3000649D3207D962",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwvWPx"
       },
       "seatgeek": {
         "event_id": null,
@@ -9383,7 +9666,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwvWPx"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi",
@@ -9408,7 +9692,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-20-2027/event/3000649D320FD968",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwdWPI"
       },
       "seatgeek": {
         "event_id": null,
@@ -9434,7 +9719,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwdWPI"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi",
@@ -9459,7 +9745,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-23-2027/event/3000649D3218D96C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwkuPi"
       },
       "seatgeek": {
         "event_id": null,
@@ -9485,7 +9772,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwkuPi"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw",
@@ -9510,7 +9798,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-24-2027/event/3000649D3220D972",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwFuPw"
       },
       "seatgeek": {
         "event_id": null,
@@ -9536,7 +9825,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwFuPw"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg",
@@ -9561,7 +9851,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-27-2027/event/3000649D322BD975",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVw1WPg"
       },
       "seatgeek": {
         "event_id": null,
@@ -9587,7 +9878,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVw1WPg"
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx",
@@ -9612,7 +9904,8 @@
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-28-2027/event/3000649D3235D97E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdZZ_aGkVwuqPX"
       },
       "seatgeek": {
         "event_id": null,
@@ -9638,7 +9931,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdZZ_aGkVwuqPX"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e",
@@ -9663,7 +9957,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1272271842?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16vawas-e"
       },
       "seatgeek": {
         "event_id": null,
@@ -9689,7 +9984,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vawas-e"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg",
@@ -9714,7 +10010,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1685500735?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16eeK73Fx"
       },
       "seatgeek": {
         "event_id": null,
@@ -9740,7 +10037,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16eeK73Fx"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa",
@@ -9765,7 +10063,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/184166589?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ1kk7AJpa"
       },
       "seatgeek": {
         "event_id": null,
@@ -9791,7 +10090,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kk7AJpa"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe",
@@ -9816,7 +10116,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1326599942?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16vAOfwGx"
       },
       "seatgeek": {
         "event_id": null,
@@ -9842,7 +10143,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vAOfwGx"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za",
@@ -9867,7 +10169,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1280221009?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16v1ZF-Za"
       },
       "seatgeek": {
         "event_id": null,
@@ -9893,7 +10196,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v1ZF-Za"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa",
@@ -9918,7 +10222,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1858815589?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ1krKo_rd"
       },
       "seatgeek": {
         "event_id": null,
@@ -9944,7 +10249,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1krKo_rd"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm",
@@ -9969,7 +10275,8 @@
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1650605337?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16v_8bAGM"
       },
       "seatgeek": {
         "event_id": null,
@@ -9995,7 +10302,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v_8bAGM"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog",
@@ -10020,7 +10328,8 @@
         "url": "https://www.ticketmaster.nl/event/oliva-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/963929835?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZbpZ16vb_GPZo"
       },
       "seatgeek": {
         "event_id": null,
@@ -10046,7 +10355,8 @@
     },
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vb_GPZo"
   },
   {
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao",
@@ -10071,7 +10381,8 @@
         "url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/530317160?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZC2Z1kfYG9AO"
       },
       "seatgeek": {
         "event_id": null,
@@ -10097,7 +10408,8 @@
     },
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kfYG9AO"
   },
   {
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8",
@@ -10122,7 +10434,8 @@
         "url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/1372657990?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZC2Z16vuw_9J8"
       },
       "seatgeek": {
         "event_id": null,
@@ -10148,7 +10461,8 @@
     },
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vuw_9J8"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah",
@@ -10173,7 +10487,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-05-04-2027/event/3500649DB098427C",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkUYJ7aH"
       },
       "seatgeek": {
         "event_id": null,
@@ -10199,7 +10514,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkUYJ7aH"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3",
@@ -10224,7 +10540,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-06-04-2027/event/3500649DB3304512",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkUSG7f3"
       },
       "seatgeek": {
         "event_id": null,
@@ -10250,7 +10567,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkUSG7f3"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusmfph",
@@ -10275,7 +10593,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-08-04-2027/event/3500649DB3DD459B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkUSMfph"
       },
       "seatgeek": {
         "event_id": null,
@@ -10301,7 +10620,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkUSMfph"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkug10qr",
@@ -10326,7 +10646,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-04-2027/event/3500649DB52A469E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkUg10Qr"
       },
       "seatgeek": {
         "event_id": null,
@@ -10352,7 +10673,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkUg10Qr"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep",
@@ -10377,7 +10699,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-12-04-2027/event/3500649ED42F6096",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDf5Uep"
       },
       "seatgeek": {
         "event_id": null,
@@ -10403,7 +10726,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDf5Uep"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff",
@@ -10428,7 +10752,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-14-04-2027/event/3500649ED8236514",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDbFUff"
       },
       "seatgeek": {
         "event_id": null,
@@ -10454,7 +10779,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDbFUff"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd",
@@ -10479,7 +10805,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-15-04-2027/event/3500649EDAC36683",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDQYUQd"
       },
       "seatgeek": {
         "event_id": null,
@@ -10505,7 +10832,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDQYUQd"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol",
@@ -10530,7 +10858,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-19-04-2027/event/3500649EDCB9682B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDjmpOl"
       },
       "seatgeek": {
         "event_id": null,
@@ -10556,7 +10885,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDjmpOl"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i",
@@ -10581,7 +10911,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-20-04-2027/event/3500649EE68772AC",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDJ-M1i"
       },
       "seatgeek": {
         "event_id": null,
@@ -10607,7 +10938,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDJ-M1i"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b",
@@ -10632,7 +10964,8 @@
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/515318918?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1kf4Gb0b"
       },
       "seatgeek": {
         "event_id": null,
@@ -10658,7 +10991,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kf4Gb0b"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6",
@@ -10683,7 +11017,8 @@
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/436032987?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1k8UZwJ6"
       },
       "seatgeek": {
         "event_id": null,
@@ -10709,7 +11044,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8UZwJ6"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7",
@@ -10734,7 +11070,8 @@
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/2022065084?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ16eZxvPe7"
       },
       "seatgeek": {
         "event_id": null,
@@ -10760,7 +11097,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16eZxvPe7"
   },
   {
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_",
@@ -10785,7 +11123,8 @@
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/408226519?language=en-us",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z698xZ2qZ1k8FFJf_"
       },
       "seatgeek": {
         "event_id": null,
@@ -10811,7 +11150,8 @@
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8FFJf_"
   },
   {
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4",
@@ -10836,7 +11176,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A70ff4"
       },
       "seatgeek": {
         "event_id": null,
@@ -10861,7 +11202,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70ff4"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",
@@ -10886,7 +11228,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-05-2027/event/3500649EF88784A5",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDz-z3P"
       },
       "seatgeek": {
         "event_id": null,
@@ -10912,7 +11255,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDz-z3P"
   },
   {
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff",
@@ -10937,7 +11281,8 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "availability_status": "needs_recheck",
+        "discovery_event_id": "Z7r9jZ1A70fff"
       },
       "seatgeek": {
         "event_id": null,
@@ -10962,7 +11307,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70fff"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3",
@@ -10987,7 +11333,8 @@
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-10-05-2027/event/3500649EFB8486D2",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AdfZ_aGkDD-Fh3"
       },
       "seatgeek": {
         "event_id": null,
@@ -11013,7 +11360,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZ_aGkDD-Fh3"
   },
   {
     "id": "tm-bruno-mars-2026-columbus-vv1aazkcfgkdl2qzg",
@@ -11344,7 +11692,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_k",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_k"
       },
       "seatgeek": {
         "event_id": null,
@@ -11369,7 +11718,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_k"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_6",
@@ -11394,7 +11744,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_6",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_6"
       },
       "seatgeek": {
         "event_id": null,
@@ -11419,7 +11770,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_6"
   },
   {
     "id": "tm-bruno-mars-2026-saint-denis-z7r9jz1a7oe_f",
@@ -11444,7 +11796,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_F",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_F"
       },
       "seatgeek": {
         "event_id": null,
@@ -11469,7 +11822,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_F"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_k",
@@ -11494,7 +11848,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_K",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_K"
       },
       "seatgeek": {
         "event_id": null,
@@ -11519,7 +11874,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_K"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_f",
@@ -11544,7 +11900,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_f",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_f"
       },
       "seatgeek": {
         "event_id": null,
@@ -11569,7 +11926,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_f"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_4",
@@ -11594,7 +11952,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_4",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_4"
       },
       "seatgeek": {
         "event_id": null,
@@ -11619,7 +11978,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_4"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vg6pypf",
@@ -11950,7 +12310,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_x",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_x"
       },
       "seatgeek": {
         "event_id": null,
@@ -11975,7 +12336,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_x"
   },
   {
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_n",
@@ -12000,7 +12362,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_N",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7OE_N"
       },
       "seatgeek": {
         "event_id": null,
@@ -12025,7 +12388,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_N"
   },
   {
     "id": "tm-bruno-mars-2026-london-1aegzbzgksgzoma",
@@ -12050,7 +12414,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-18-07-2026/event/2300638CCCE11DC5",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AeGZbzGkSGzoMA"
       },
       "seatgeek": {
         "event_id": null,
@@ -12076,7 +12441,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AeGZbzGkSGzoMA"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdftyue",
@@ -12101,7 +12467,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-19-07-2026/event/23006427C8FF0D82",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdFTYUe"
       },
       "seatgeek": {
         "event_id": null,
@@ -12127,7 +12494,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdFTYUe"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkduy8wh",
@@ -12152,7 +12520,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-22-07-2026/event/23006427F6C10F5B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdUY8Wh"
       },
       "seatgeek": {
         "event_id": null,
@@ -12178,7 +12547,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdUY8Wh"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdmnywe",
@@ -12203,7 +12573,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-24-07-2026/event/23006427F78F0F67",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdMNYWE"
       },
       "seatgeek": {
         "event_id": null,
@@ -12229,7 +12600,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdMNYWE"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdzq8wy",
@@ -12254,7 +12626,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-25-07-2026/event/23006427F8750F70",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdzq8WY"
       },
       "seatgeek": {
         "event_id": null,
@@ -12280,7 +12653,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdzq8WY"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdbd8xc",
@@ -12305,7 +12679,8 @@
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-28-07-2026/event/23006427FA0D0F8E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1ANZk8EGkdBd8XC"
       },
       "seatgeek": {
         "event_id": null,
@@ -12331,7 +12706,8 @@
     },
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdBd8XC"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm",
@@ -12356,7 +12732,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-21-2026/event/0000639EE07FD3B7",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "k7vGFbyDOLWCM"
       },
       "seatgeek": {
         "event_id": null,
@@ -12382,7 +12759,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGFbyDOLWCM"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd",
@@ -12407,7 +12785,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-22-2026/event/0000639EE085D3BB",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "k7vGFbyDO-qCD"
       },
       "seatgeek": {
         "event_id": null,
@@ -12433,7 +12812,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGFbyDO-qCD"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydoxccx",
@@ -12458,7 +12838,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-25-2026/event/0000639EE08AD3BE",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "k7vGFbyDOxcCX"
       },
       "seatgeek": {
         "event_id": null,
@@ -12484,7 +12865,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGFbyDOxcCX"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydonw2z",
@@ -12509,7 +12891,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "k7vGFbyDONW2Z"
       },
       "seatgeek": {
         "event_id": null,
@@ -12535,7 +12918,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "k7vGFbyDONW2Z"
   },
   {
     "id": "tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626",
@@ -12560,7 +12944,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-pittsburgh-pennsylvania-08-29-2026/event/1600639DBC7473C7",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1AvbZbyGkUHq626"
       },
       "seatgeek": {
         "event_id": null,
@@ -12586,7 +12971,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AvbZbyGkUHq626"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv1aezk8pgkdj_ywf",
@@ -12611,7 +12997,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-01-2026/event/02006425DC679C94",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1AeZk8PGkdj_ywf"
       },
       "seatgeek": {
         "event_id": null,
@@ -12637,7 +13024,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1AeZk8PGkdj_ywf"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0",
@@ -12662,7 +13050,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-02-2026/event/0200642CF18CAA24",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv17FZ_eGkSsN1I0"
       },
       "seatgeek": {
         "event_id": null,
@@ -12688,7 +13077,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17FZ_eGkSsN1I0"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1a8vn0_ga221kn",
@@ -12713,7 +13103,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-05-2026/event/010063919F3CA1A3",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1A8vN0_GA221kN"
       },
       "seatgeek": {
         "event_id": null,
@@ -12739,7 +13130,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1A8vN0_GA221kN"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb",
@@ -12764,7 +13156,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-06-2026/event/01006428E3C4CF98",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv1AvZk8IGkdNsGXb"
       },
       "seatgeek": {
         "event_id": null,
@@ -12790,7 +13183,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv1AvZk8IGkdNsGXb"
   },
   {
     "id": "tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph",
@@ -12815,7 +13209,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-indianapolis-indiana-09-09-2026/event/0500639AE335B59B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vv17fZbyGklNuhph"
       },
       "seatgeek": {
         "event_id": null,
@@ -12841,7 +13236,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17fZbyGklNuhph"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_e944pwc",
@@ -12866,7 +13262,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-12-2026/event/0D006425D5556F4E",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_e944pWC"
       },
       "seatgeek": {
         "event_id": null,
@@ -12892,7 +13289,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1VZ_e944pWC"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_exa-kfw",
@@ -12917,7 +13315,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-13-2026/event/0D00642885853532",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_exA-Kfw"
       },
       "seatgeek": {
         "event_id": null,
@@ -12943,7 +13342,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1VZ_exA-Kfw"
   },
   {
     "id": "tm-bruno-mars-2026-new-orleans-g5vizbye_a_hw",
@@ -12968,7 +13368,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-new-orleans-louisiana-09-16-2026/event/1B006390992596F2",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5viZbye_a_hw"
       },
       "seatgeek": {
         "event_id": null,
@@ -12994,7 +13395,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5viZbye_a_hw"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_ekc64hs",
@@ -13019,7 +13421,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-19-2026/event/0D0064218E1D56F3",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_ekC64hS"
       },
       "seatgeek": {
         "event_id": null,
@@ -13045,7 +13448,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1VZ_ekC64hS"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_",
@@ -13070,7 +13474,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-20-2026/event/0D0064287B1B2999",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1VZ_e-DkwJ_"
       },
       "seatgeek": {
         "event_id": null,
@@ -13096,7 +13501,8 @@
     },
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1VZ_e-DkwJ_"
   },
   {
     "id": "tm-bruno-mars-2026-san-antonio-g5dizbyc__upm",
@@ -13121,7 +13527,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-san-antonio-texas-09-23-2026/event/3A006393996765AE",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5dIZbyC__Upm"
       },
       "seatgeek": {
         "event_id": null,
@@ -13147,7 +13554,8 @@
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5dIZbyC__Upm"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a",
@@ -13172,7 +13580,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O9_A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7O9_A"
       },
       "seatgeek": {
         "event_id": null,
@@ -13197,7 +13606,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7O9_A"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i",
@@ -13222,7 +13632,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox8I",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "Z7r9jZ1A7Ox8I"
       },
       "seatgeek": {
         "event_id": null,
@@ -13247,7 +13658,8 @@
       }
     },
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ox8I"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f",
@@ -13272,7 +13684,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-09-30-2026/event/0A006451D6B8C1D4",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZ_A6pmG6f"
       },
       "seatgeek": {
         "event_id": null,
@@ -13298,7 +13711,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_A6pmG6f"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx",
@@ -13323,7 +13737,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-02-2026/event/0A006396BA615BBE",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZbyQBb4mX"
       },
       "seatgeek": {
         "event_id": null,
@@ -13349,7 +13764,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZbyQBb4mX"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyhid9od",
@@ -13374,7 +13790,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZbyhId9oD"
       },
       "seatgeek": {
         "event_id": null,
@@ -13400,7 +13817,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZbyhId9oD"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin",
@@ -13425,7 +13843,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZ_eheCVin"
       },
       "seatgeek": {
         "event_id": null,
@@ -13451,7 +13870,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_eheCVin"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is",
@@ -13476,7 +13896,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-07-2026/event/0A006426C2444B31",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "vvG1IZ_eheo7is"
       },
       "seatgeek": {
         "event_id": null,
@@ -13502,7 +13923,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vvG1IZ_eheo7is"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",
@@ -13527,7 +13949,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-10-2026/event/1C006425BE5F932A",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_epX9yGn"
       },
       "seatgeek": {
         "event_id": null,
@@ -13553,7 +13976,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_epX9yGn"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx",
@@ -13578,7 +14002,8 @@
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-11-2026/event/1C006429E6CFBAA2",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "G5vYZ_eEJSDnx"
       },
       "seatgeek": {
         "event_id": null,
@@ -13604,7 +14029,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "G5vYZ_eEJSDnx"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm",
@@ -13629,7 +14055,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-14-2026/event/1100639781ED3F37",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "16v7ZbyrvG7DKHM"
       },
       "seatgeek": {
         "event_id": null,
@@ -13655,7 +14082,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "16v7ZbyrvG7DKHM"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshvjex",
@@ -13680,7 +14108,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-16-2026/event/1100642CDBD269FE",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_eGkShVJEX"
       },
       "seatgeek": {
         "event_id": null,
@@ -13706,7 +14135,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_eGkShVJEX"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshmjia",
@@ -13731,7 +14161,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_eGkShMJIA"
       },
       "seatgeek": {
         "event_id": null,
@@ -13757,7 +14188,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_eGkShMJIA"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkwimwwb",
@@ -13782,7 +14214,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1Av7Z_eGkWiMwWb"
       },
       "seatgeek": {
         "event_id": null,
@@ -13808,7 +14241,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1Av7Z_eGkWiMwWb"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1k78v0fjgacrkay",
@@ -13833,7 +14267,8 @@
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-21-2026/event/110064526E793170",
         "verified": true,
         "last_verified_at": "2026-05-20",
-        "availability_status": "not_checked"
+        "availability_status": "not_checked",
+        "discovery_event_id": "1k78v0fJGACrKAY"
       },
       "seatgeek": {
         "event_id": null,
@@ -13859,7 +14294,8 @@
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1k78v0fJGACrKAY"
   },
   {
     "id": "tm-shakira-2026-inglewood-vv1aazkovgkdf4iwr",

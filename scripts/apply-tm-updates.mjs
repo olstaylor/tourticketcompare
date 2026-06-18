@@ -88,30 +88,81 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// The Discovery API returns country names inconsistently across venues
+// (e.g. "United States Of America" vs "United States", "United Kingdom" vs
+// "Great Britain"). Collapse the known synonyms to one canonical form so an
+// identical country is never mistaken for a change.
 const COUNTRY_NORMALIZATIONS = new Map([
-  ['united states of america', 'United States']
+  ['united states of america', 'United States'],
+  ['united states', 'United States'],
+  ['usa', 'United States'],
+  ['us', 'United States'],
+  ['united kingdom', 'United Kingdom'],
+  ['great britain', 'United Kingdom'],
+  ['uk', 'United Kingdom'],
+  ['gb', 'United Kingdom']
 ]);
+
+// Collapse case / punctuation / whitespace so cosmetic venue-name differences
+// ("MERKUR SPIEL-ARENA" vs "Merkur Spiel Arena") are not treated as a move.
+function normalizeText(value) {
+  return clean(value)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+// Venue-local wall-clock time (to minute precision) for a UTC instant rendered
+// in an IANA timezone — used to compare an inconsistently-stored datetime_iso
+// (some rows are UTC with `Z`, others venue-local wall time) against the API's
+// canonical UTC value by actual instant, not by string representation.
+function wallTimeInTz(utcIso, tz) {
+  const d = new Date(utcIso);
+  if (Number.isNaN(d.getTime())) return null;
+  try {
+    const p = new Intl.DateTimeFormat('en-CA', {
+      timeZone: clean(tz) || 'UTC',
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', hour12: false
+    }).formatToParts(d);
+    const g = (t) => p.find((x) => x.type === t)?.value;
+    return `${g('year')}-${g('month')}-${g('day')}T${g('hour')}:${g('minute')}`;
+  } catch {
+    return null;
+  }
+}
+
+// True only when the event's start instant genuinely differs from the API's —
+// not when it is merely a different representation of the same moment.
+function datetimeGenuinelyChanged(localIso, remoteUtcIso, tz) {
+  const local = clean(localIso);
+  const remote = clean(remoteUtcIso);
+  if (!local || !remote) return false;
+  const remoteMs = Date.parse(remote);
+  if (Number.isNaN(remoteMs)) return false;
+  // Local carries an explicit offset/Z → compare absolute instants directly.
+  if (/([zZ])$|[+-]\d{2}:?\d{2}$/.test(local)) {
+    const localMs = Date.parse(local);
+    return !Number.isNaN(localMs) && localMs !== remoteMs;
+  }
+  // Date-only local value → compare venue-local calendar dates.
+  if (/^\d{4}-\d{2}-\d{2}$/.test(local)) {
+    const wall = wallTimeInTz(remote, tz);
+    return wall !== null && wall.slice(0, 10) !== local;
+  }
+  // Local is venue-local wall time (no offset) → compare to the remote instant
+  // rendered in the venue timezone, to the minute.
+  const wall = wallTimeInTz(remote, tz);
+  return wall !== null && local.slice(0, 16) !== wall;
+}
 
 const SAFE_AUTO_STATUS_CODES = new Set(['onsale']);
 
 function normalizeCountryName(value) {
   const raw = clean(value);
   return COUNTRY_NORMALIZATIONS.get(raw.toLowerCase()) || raw;
-}
-
-function asciiJson(value) {
-  return JSON.stringify(value, null, 2).replace(/[^\x00-\x7F]/g, (char) => {
-    return [...char]
-      .map((part) => {
-        const code = part.codePointAt(0);
-        if (code <= 0xffff) return `\\u${code.toString(16).padStart(4, '0')}`;
-        const offset = code - 0x10000;
-        const high = 0xd800 + (offset >> 10);
-        const low = 0xdc00 + (offset & 0x3ff);
-        return `\\u${high.toString(16).padStart(4, '0')}\\u${low.toString(16).padStart(4, '0')}`;
-      })
-      .join('');
-  });
 }
 
 function words(value) {
@@ -222,29 +273,34 @@ function computeIntendedUpdates(event, remote) {
   if (!data) return changes;
 
   // --- date / time -----------------------------------------------------------
+  // Only a genuine instant move is a change; differing representations of the
+  // same moment (venue-local wall time vs the API's UTC) are not.
   const remoteDateTime = clean(data?.dates?.start?.dateTime);
   const localDateTime = clean(event.datetime_iso);
-  if (remoteDateTime && remoteDateTime !== localDateTime) {
+  const tz = clean(event.timezone) || clean(data?.dates?.timezone);
+  if (remoteDateTime && datetimeGenuinelyChanged(localDateTime, remoteDateTime, tz)) {
     changes.push({ field: 'datetime_iso', from: localDateTime, to: remoteDateTime });
   }
 
+  // Only fill a missing timezone; never rewrite a present one (avoids churn
+  // when the API reports an equivalent zone for the same location).
   const remoteTz = clean(data?.dates?.timezone);
-  if (remoteTz && remoteTz.includes('/') && remoteTz !== clean(event.timezone)) {
+  if (remoteTz && remoteTz.includes('/') && !clean(event.timezone)) {
     changes.push({ field: 'timezone', from: clean(event.timezone), to: remoteTz });
   }
 
   // --- venue / city / country ------------------------------------------------
   const venue = data?._embedded?.venues?.[0] || null;
   const remoteVenue = clean(venue?.name);
-  if (remoteVenue && remoteVenue.toLowerCase() !== clean(event.venue).toLowerCase()) {
+  if (remoteVenue && normalizeText(remoteVenue) !== normalizeText(event.venue)) {
     changes.push({ field: 'venue', from: clean(event.venue), to: remoteVenue });
   }
   const remoteCity = clean(venue?.city?.name);
-  if (remoteCity && remoteCity.toLowerCase() !== clean(event.city).toLowerCase()) {
+  if (remoteCity && normalizeText(remoteCity) !== normalizeText(event.city)) {
     changes.push({ field: 'city', from: clean(event.city), to: remoteCity });
   }
   const remoteCountry = normalizeCountryName(venue?.country?.name);
-  if (remoteCountry && remoteCountry.toLowerCase() !== clean(event.country).toLowerCase()) {
+  if (remoteCountry && normalizeCountryName(event.country).toLowerCase() !== remoteCountry.toLowerCase()) {
     changes.push({ field: 'country', from: clean(event.country), to: remoteCountry });
   }
 
@@ -403,7 +459,55 @@ function stampVerified(event) {
   }
 }
 
+// Offline regression test for the representation-aware comparison logic, so a
+// future edit cannot silently reintroduce the cosmetic-diff churn (country
+// synonyms, venue-local vs UTC datetimes, venue punctuation).
+function runSelfTest() {
+  const checks = [];
+  const assert = (label, pass) => checks.push({ label, pass: !!pass });
+  const ev = (o) => ({ datetime_iso: '', timezone: '', venue: '', city: '', country: '', ticketmaster_event_id: 'X', ticketmaster_url: '', ...o });
+  const remote = (o) => ({ data: { id: 'X', dates: { start: {}, timezone: '' }, _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: '' } }] }, ...o } });
+  const fieldsOf = (e, r) => computeIntendedUpdates(e, r).map((c) => c.field);
+
+  // datetime: venue-local wall time vs the same instant in UTC is NOT a change.
+  assert('same instant (PT wall vs UTC) is not a datetime change',
+    !datetimeGenuinelyChanged('2026-06-19T20:00:00', '2026-06-20T03:00:00Z', 'America/Los_Angeles'));
+  assert('a real one-hour move IS a datetime change',
+    datetimeGenuinelyChanged('2026-06-20T02:30:00Z', '2026-06-20T03:30:00Z', 'America/Los_Angeles'));
+  assert('date-only local matching the venue-local date is not a change',
+    !datetimeGenuinelyChanged('2026-06-18', '2026-06-18T20:00:00Z', 'Europe/Paris'));
+
+  // country: synonym differences collapse; a genuine country move surfaces.
+  assert('US synonym is not a country change',
+    !fieldsOf(ev({ country: 'United States Of America' }), remote({ _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: 'United States' } }] } })).includes('country'));
+  assert('UK/Great Britain synonym is not a country change',
+    !fieldsOf(ev({ country: 'United Kingdom' }), remote({ _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: 'Great Britain' } }] } })).includes('country'));
+
+  // venue: punctuation/case differences do not count; a real rename does.
+  assert('venue punctuation/case is not a change',
+    !fieldsOf(ev({ venue: 'MERKUR SPIEL-ARENA' }), remote({ _embedded: { venues: [{ name: 'Merkur Spiel Arena', city: { name: '' }, country: { name: '' } }] } })).includes('venue'));
+  assert('a genuine venue rename IS a change',
+    fieldsOf(ev({ venue: 'Old Hall' }), remote({ _embedded: { venues: [{ name: 'New Arena', city: { name: '' }, country: { name: '' } }] } })).includes('venue'));
+
+  // timezone: only filled when missing, never rewritten.
+  assert('present timezone is not rewritten',
+    !fieldsOf(ev({ timezone: 'America/New_York' }), remote({ dates: { start: {}, timezone: 'America/Toronto' } })).includes('timezone'));
+  assert('missing timezone is filled',
+    fieldsOf(ev({ timezone: '' }), remote({ dates: { start: {}, timezone: 'America/New_York' } })).includes('timezone'));
+
+  let failed = 0;
+  for (const c of checks) {
+    if (!c.pass) failed += 1;
+    console.log(`${c.pass ? 'PASS' : 'FAIL'}  ${c.label}`);
+  }
+  console.log(`\n${checks.length - failed}/${checks.length} checks passed.`);
+  return failed === 0 ? 0 : 1;
+}
+
 async function main() {
+  if (argv.includes('--self-test')) {
+    process.exit(runSelfTest());
+  }
   const apiKey = clean(process.env.TICKETMASTER_API_KEY);
   if (!apiKey) {
     const message = 'TICKETMASTER_API_KEY not set; no Ticketmaster API calls were made. Writing a skipped report; auto-commit remains disabled.';
@@ -512,7 +616,10 @@ async function main() {
   }
 
   if (updates.length && !dryRun) {
-    const output = asciiJson(events) + '\n';
+    // Write literal UTF-8 to match the canonical events.json encoding produced
+    // by the partition/sync pipeline (ensure_ascii=False); escaping non-ASCII
+    // here would churn every accented venue/city on each run.
+    const output = JSON.stringify(events, null, 2) + '\n';
     await fs.writeFile(eventsPath, output);
     console.log(`\n${path.basename(eventsPath.pathname)} updated.`);
   } else if (dryRun) {

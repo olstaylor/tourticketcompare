@@ -1,0 +1,130 @@
+name: TM data refresh PR
+
+# PR-only refresh of EXISTING events (manual). Two safe, source-of-truth
+# updates, surfaced as one review PR you check and merge — never a direct
+# commit to main, never an auto-merge:
+#
+#   1. scripts/apply-tm-updates.mjs — lossless factual refresh (genuine date
+#      move, venue/city correction, canonical URL) for events already in
+#      events.json, from the Ticketmaster Discovery API. Cancelled/deleted/
+#      tour_name and other judgement calls are NOT applied; they are surfaced in
+#      the rolling automation:data-sync issue.
+#   2. scripts/backfill-discovery-ids.mjs --apply — recovers Discovery ids for
+#      events that newly resolve (e.g. an 'announced' show that has gone on
+#      sale), shrinking the audit's `unresolvable` bucket.
+#
+# Manual-only by design (mirrors the repo's manual-only posture on automated
+# event-data writes). Default run is a safe dry-run: no writes, no PR.
+#
+# NOTE: restoring a CTA-suppressed (needs_recheck) event is deliberately NOT
+# automated — those require human browser verification (see PROJECT_STATUS.md).
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'true = preview only (no writes, no PR). false = apply + open review PR.'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: tm-data-refresh-pr
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git identity
+        run: |
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+
+      - name: Prepare report directory
+        run: mkdir -p .audit
+
+      - name: Refresh existing events + recover discovery ids
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          if [ "${DRY_RUN}" = "false" ]; then
+            node scripts/apply-tm-updates.mjs --json .audit/tm-refresh.json
+            node scripts/backfill-discovery-ids.mjs --apply
+            npm run events:partition
+            npm run events:sync
+          else
+            echo "DRY RUN — previewing changes only, no writes."
+            node scripts/apply-tm-updates.mjs --dry-run --json .audit/tm-refresh.json
+            node scripts/backfill-discovery-ids.mjs
+          fi
+
+      - name: Validate
+        run: |
+          npm run events:validate:prod
+          npm run events:validate:partitions
+          npm run test:mvp
+
+      - name: Detect data changes
+        id: diff
+        run: |
+          if git diff --quiet -- public/data/events.json public/data/events public/data/events-index.json public/index.html; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open data-refresh PR
+        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/data-refresh-${TODAY}"
+          git checkout -B "$BRANCH"
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html
+          git commit -m "automation: refresh existing TM event data (${TODAY})"
+          git push -u origin "$BRANCH" --force-with-lease
+          BRANCH="$BRANCH" \
+          PR_TITLE="Refresh existing Ticketmaster event data (${TODAY})" \
+          PR_LABEL="automation:tm-events" \
+          PR_BODY=$'## What this PR does\n- Lossless factual refresh of existing events from the Ticketmaster Discovery API (genuine date moves, venue/city corrections, canonical URL refresh) via `scripts/apply-tm-updates.mjs`.\n- Recovers missing Discovery ids via `scripts/backfill-discovery-ids.mjs` (verified attraction-feed matches only).\n\n## Explicit non-changes\n- No `tour_name` inference, no CTA restoration of `needs_recheck` events, no `out.js`/affiliate changes, no prices.\n- Cancelled/deleted/status items are NOT applied here — see the rolling `automation:data-sync` issue.\n\n## Validation run before this PR\n- `events:validate:prod`, `events:validate:partitions`, `test:mvp`.\n\n## Review checklist\n- [ ] Spot-check that the date/venue changes match the official Ticketmaster page.\n- [ ] Confirm no CTA regressions.\n' \
+          node scripts/open-automation-pr.mjs
+
+      - name: Surface review items (cancelled / deleted / status)
+        if: always() && inputs.dry_run != true && hashFiles('.audit/tm-refresh.json') != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/report-tm-sync-review.mjs --report .audit/tm-refresh.json
+
+      - name: Upload refresh artefact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tm-data-refresh-${{ github.run_id }}
+          path: .audit/
+          include-hidden-files: true
+          retention-days: 30

@@ -132,10 +132,16 @@ Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploy
 
 ### What it does
 
-1. **URL liveness** — `scripts/verify-outbound-links.mjs --json` HEAD-checks every `ticketmaster_url`, `seatgeek_url`, `source_url`, and `provider_links[*].url` in `public/data/events.json`.
-2. **TM Discovery diff** — `scripts/audit-tm-events.mjs --json` calls the Ticketmaster Discovery API per event ID for every indexed artist, flagging `404/410` (missing), date/venue/status changes, and transient errors.
-3. **Report** — `scripts/daily-audit-report.mjs` writes findings into a single rolling GitHub issue labelled `automation:daily-audit`. The issue body is overwritten each run; status reads `🔴 Findings` or `🟢 All clean`.
-4. **Verification dates PR** — `scripts/bump-verified-dates.mjs` bumps `last_verified_at` to today on `public/data/artists.json` for indexed artists whose URL audit and TM diff produced no findings. The change is pushed to `automation/verified-dates-YYYY-MM-DD` and opens a PR for human review.
+1. **URL liveness** — `scripts/verify-outbound-links.mjs --json` HEAD-checks every `ticketmaster_url`, `seatgeek_url`, `source_url`, and `provider_links[*].url` in `public/data/events.json`. Storefront WAF challenges (401/403/429) are reported as `blocked` (inconclusive), never as failures.
+2. **TM Discovery diff** — `scripts/audit-tm-events.mjs --json` calls the Ticketmaster Discovery API for every indexed artist's events. It queries by the **Discovery event id** (`ticketmaster_discovery_event_id`, falling back to `provider_links.ticketmaster.discovery_event_id`, then to `ticketmaster_event_id` only when that is itself Discovery-format). It flags:
+   - `missing` — Discovery returns `404/410` (the show is genuinely gone);
+   - `changed` — resolves but the venue-local date, venue name, or an **actionable** status (cancelled/postponed/rescheduled) differs. Date comparison is timezone-aware and venue comparison ignores case/punctuation, so representation differences are not flagged;
+   - `unresolvable` — no Discovery-format id is stored (a legacy consumer-website `/event/<hex>` code or an international numeric storefront id). These **cannot** be checked against the API and are surfaced for backfill, **not** counted as failures or missing;
+   - `errors` — transient (timeout/5xx), retried next run.
+
+   > **Why the split id model matters:** the Discovery API is keyed by the Discovery event id, not the `/event/<id>` code in storefront URLs. Events that only carry the storefront code return `404` and would otherwise be reported as false "missing". `scripts/backfill-discovery-ids.mjs` (`npm run audit:backfill-discovery-ids`; dry-run by default, `--apply` to write) repairs legacy rows by recovering the Discovery id from each artist's verified attraction feed on an unambiguous venue-local-date + city match. New rows added by the discovery loop already carry the Discovery id, so this is a one-time legacy repair.
+3. **Report** — `scripts/daily-audit-report.mjs` writes findings into a single rolling GitHub issue labelled `automation:daily-audit`. The issue body is overwritten each run; status reads `🔴 Findings` or `🟢 All clean`. The `unresolvable` count is shown but does not turn the issue red.
+4. **Verification dates PR** — `scripts/bump-verified-dates.mjs` bumps `last_verified_at` to today on `public/data/artists.json` for indexed artists whose URL audit and TM diff produced no findings. It conservatively **skips** any artist with a link failure, a `blocked` link, or a `missing`/`changed`/`error` event (an `unresolvable` event does not block a bump). The change is pushed to `automation/verified-dates-YYYY-MM-DD` and opens a PR for human review.
 
 ### Required secrets
 
@@ -153,6 +159,53 @@ Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploy
 ### PR stale-sync guard
 
 `prelaunch-validation.yml` includes a `stale-sync-guard` job that runs on every PR. When `public/data/*.json` changes, it runs `npm run events:sync` and fails the PR if `public/index.html` is stale. This prevents JSON edits from shipping without the inlined-fallback being refreshed — see issue #174 for the underlying caching/refresh model.
+
+---
+
+## Ticketmaster new-shows discovery PR (how new links reach you)
+
+`.github/workflows/tm-new-shows-pr.yml` runs at **04:00 UTC daily** (after the audit) and on `workflow_dispatch`. This is the workflow that **proposes newly-announced shows as a PR for you to review and merge** — the primary path by which fresh ticket links arrive on the site.
+
+### What it does
+
+1. Runs `scripts/sync-tm-events-write-pr.mjs --all-approved --write-pr`, which runs the Ticketmaster Discovery recogniser for **every artist in `data/provider-identities.json` with `review_status: "verified"` and `sync_enabled: true`** (currently all 16 indexed artists).
+2. The recogniser **withholds events already in `events.json`** (matched by Discovery id), so only genuinely new shows are proposed. New rows carry `ticketmaster_discovery_event_id` (so the daily audit can verify them) and a **blank `tour_name`** (never inferred — a required human follow-up, #172).
+3. Risky rows (missing venue/date, non-allowlisted host, support-act/festival/upsell listings) are withheld for human review and listed in `withheld-review.md`, never written.
+4. It opens **one review PR** labelled `automation:tm-events`. It never commits to `main` and never auto-merges. A quiet day (no new shows) produces **no PR**.
+
+### Coverage and gating
+
+- **All 16 artists are in scope** (`sync_enabled: true`, `review_status: verified`, attraction id present). Onboarding a new artist requires a verified `data/provider-identities.json` entry, or that artist is silently skipped.
+- Manual runs default to a safe `preview` (no PR); scheduled runs always open the PR. A single artist can be targeted via the `artist` input.
+- Without `TICKETMASTER_API_KEY` the recogniser no-ops safely (no rows, no PR). See `docs/PROVIDER_SYNC.md`.
+
+A scheduled run also maintains a rolling **`automation:tm-discovery`** coverage issue (via `scripts/report-tm-discovery-coverage.mjs`): it records which indexed artists were checked, how many new shows were proposed, links the PR, and **flags any artist that was skipped or absent from the run**. A quiet day still updates the issue, so a partial or failed run is never silent. (See "Discovery coverage heartbeat" below.)
+
+### Automation map — the standing workflows
+
+| Workflow | Schedule | Purpose | Output |
+|---|---|---|---|
+| **Daily data audit** (`daily-audit.yml`) | 03:00 UTC | Detect dead links and drift in **existing** events; bump verified dates for clean artists | Rolling `automation:daily-audit` issue + `automation/verified-dates-*` PR |
+| **TM new-shows PR** (`tm-new-shows-pr.yml`) | 04:00 UTC | Propose **new** shows/links for every verified artist + maintain the coverage heartbeat | `automation:tm-events` review PR + `automation:tm-discovery` issue |
+| **TM data refresh PR** (`tm-data-refresh-pr.yml`) | manual | Refresh **existing** events (genuine date/venue/city moves, canonical URL) and recover missing Discovery ids, as one review PR | `automation:tm-events` review PR + `automation:data-sync` issue |
+| **Nightly data sync** (`nightly-data-sync.yml`) | manual-only | Legacy direct-to-`main` field sync (gated); superseded for review use by the refresh-PR workflow | Direct `main` commit (gated) or `automation:data-sync` issue |
+
+In short: **new** links → the 04:00 new-shows PR; **drift in existing** links → the audit issue (detection) and the manual refresh-PR workflow (fix, reviewed); **link death** → the audit issue.
+
+### Discovery coverage heartbeat
+
+`scripts/report-tm-discovery-coverage.mjs` (`npm run providers:sync:tm:coverage`) consumes the `coverage.json` emitted by every new-shows run and maintains the rolling `automation:tm-discovery` issue. The guarantee it provides: **every indexed artist is positively accounted for on each run** — checked-with-new-shows, checked-no-new, skipped (with reason), or flagged as absent from the run (e.g. a `data/provider-identities.json` entry that lost `verified`/`sync_enabled`). This turns "no PR today" from an ambiguous silence into an explicit, auditable signal.
+
+### TM data refresh PR (manual)
+
+`tm-data-refresh-pr.yml` is **manual** (`workflow_dispatch`), defaulting to a safe `dry_run: true` preview. With `dry_run: false` it:
+
+1. Runs `scripts/apply-tm-updates.mjs` — lossless factual refresh of existing events from the Discovery API. The comparison is **representation-aware**: it ignores country-name synonyms (`United States` ≈ `United States Of America`, `Great Britain` ≈ `United Kingdom`), venue-local-vs-UTC datetime representations of the same instant, and venue case/punctuation — so it proposes only **genuine** date moves, venue/city corrections, and canonical URL refreshes, not cosmetic churn.
+2. Runs `scripts/backfill-discovery-ids.mjs --apply` to recover Discovery ids for events that newly resolve (shrinking the audit's `unresolvable` bucket).
+3. Regenerates partitions/index, validates (`events:validate:prod`, `events:validate:partitions`, `test:mvp`), and opens **one review PR** (`automation:tm-events`) — never a direct `main` commit, never an auto-merge.
+4. Surfaces cancelled/deleted/status items (never auto-applied) into the rolling `automation:data-sync` issue.
+
+Restoring a CTA-suppressed (`needs_recheck`) event is deliberately **not** automated — those require human browser verification (see `PROJECT_STATUS.md` → Active risks).
 
 ---
 

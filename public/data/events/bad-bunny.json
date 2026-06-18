@@ -636,7 +636,8 @@
         "url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/1604365108",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZC9"
       },
       "seatgeek": {
         "event_id": null,
@@ -660,7 +661,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZC9"
   },
   {
     "id": "tm-bad-bunny-2026-d-sseldorf-653946928",
@@ -687,7 +689,8 @@
         "url": "https://www.ticketmaster.de/event/bad-bunny-debi-tirar-mas-fotos-world-tour-tickets/653946928",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZCb"
       },
       "seatgeek": {
         "event_id": null,
@@ -711,7 +714,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZCb"
   },
   {
     "id": "tm-bad-bunny-2026-arnhem-1578299680",
@@ -840,7 +844,8 @@
         "url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-27-06-2026/event/3500629EFC0C8BC1",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "1AdfZbtGkDHdFRv"
       },
       "seatgeek": {
         "event_id": null,
@@ -864,7 +869,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "1AdfZbtGkDHdFRv"
   },
   {
     "id": "tm-bad-bunny-2026-london-350062a39074101f",
@@ -891,7 +897,8 @@
         "url": "https://www.ticketmaster.co.uk/bad-bunny-debi-tirar-mas-fotos-london-28-06-2026/event/350062A39074101F",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "17u8vxG61C8qvZL"
       },
       "seatgeek": {
         "event_id": null,
@@ -915,7 +922,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "17u8vxG61C8qvZL"
   },
   {
     "id": "tm-bad-bunny-2026-stockholm-625835491",
@@ -1095,7 +1103,8 @@
         "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZ87"
       },
       "seatgeek": {
         "event_id": null,
@@ -1119,7 +1128,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ87"
   },
   {
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
@@ -1146,7 +1156,8 @@
         "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZ8A"
       },
       "seatgeek": {
         "event_id": null,
@@ -1170,7 +1181,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8A"
   },
   {
     "id": "tm-bad-bunny-2026-brussels-1117180915",

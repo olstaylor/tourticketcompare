@@ -209,6 +209,36 @@ function buildWithheldMarkdown(withheld) {
   return lines.join("\n");
 }
 
+// Builds the per-run coverage heartbeat: one entry per artist the recogniser
+// attempted, recording whether new shows were proposed, none were found, or the
+// artist was skipped (and why). The downstream reporter
+// (scripts/report-tm-discovery-coverage.mjs) cross-checks this against the
+// indexed roster so a silently-dropped artist is always surfaced.
+function buildCoverage({ usedArtists, skippedArtists, withheld, proposedRows, mode }) {
+  const withheldBySlug = new Map();
+  for (const w of withheld) withheldBySlug.set(w.slug, (withheldBySlug.get(w.slug) || 0) + 1);
+  const artists = [];
+  for (const a of usedArtists) {
+    artists.push({ slug: a.slug, status: a.proposed > 0 ? "proposed" : "no-new", proposed: a.proposed, withheld: withheldBySlug.get(a.slug) || 0 });
+  }
+  for (const s of skippedArtists) {
+    artists.push({ slug: s.slug, status: "skipped", proposed: 0, withheld: withheldBySlug.get(s.slug) || 0, reason: s.reason });
+  }
+  artists.sort((a, b) => a.slug.localeCompare(b.slug));
+  return {
+    generated_at: new Date().toISOString(),
+    mode,
+    totals: {
+      checked: usedArtists.length,
+      skipped: skippedArtists.length,
+      proposed_events: proposedRows.length,
+      withheld_events: withheld.length,
+    },
+    artists,
+    pr: null,
+  };
+}
+
 // ─── I/O + process helpers (not exercised by --self-test) ───────────────────
 
 async function readJson(file) {
@@ -389,6 +419,14 @@ function selfTest() {
   assert("withheld markdown lists the reason", md.includes("past event"));
   assert("empty withheld markdown is explicit", buildWithheldMarkdown([]).includes("None"));
 
+  const coverage = buildCoverage({ ...part, proposedRows: part.proposedRows, mode: "write-pr" });
+  assert("coverage has one entry per attempted artist", coverage.artists.length === 3);
+  assert("coverage marks the proposing artist as proposed", coverage.artists.some((a) => a.slug === "raye" && a.status === "proposed" && a.proposed === 1));
+  assert("coverage records per-artist withheld count", coverage.artists.find((a) => a.slug === "raye").withheld === 1);
+  assert("coverage marks a failed-lookup artist as skipped", coverage.artists.some((a) => a.slug === "beyonce" && a.status === "skipped"));
+  assert("coverage totals count skipped artists", coverage.totals.skipped === 2);
+  assert("coverage pr is null until a PR is opened", coverage.pr === null);
+
   let failed = 0;
   for (const c of checks) {
     if (!c.pass) failed += 1;
@@ -440,7 +478,14 @@ async function main() {
   await fs.writeFile(path.join(outDir, "events.rejected.json"), "[]\n", "utf8");
   await fs.writeFile(path.join(outDir, "report.json"), `${JSON.stringify(buildApplyReport(usedArtists), null, 2)}\n`, "utf8");
   await fs.writeFile(path.join(outDir, "withheld-review.md"), buildWithheldMarkdown(withheld), "utf8");
-  console.log(`Candidate batch written to ${path.relative(REPO_ROOT, outDir)}/`);
+
+  // Per-run coverage heartbeat — always written (preview, no-op, and write
+  // modes) so the reporter can confirm every artist was checked even on a quiet
+  // day. Overwritten with the PR number below if one is opened.
+  const coverage = buildCoverage({ usedArtists, skippedArtists, withheld, proposedRows, mode: options.writePr ? "write-pr" : "preview" });
+  const coveragePath = path.join(outDir, "coverage.json");
+  await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
+  console.log(`Candidate batch + coverage written to ${path.relative(REPO_ROOT, outDir)}/`);
 
   if (proposedRows.length === 0) {
     console.log("No proposed rows — nothing to write, no PR. (Withheld rows, if any, are in withheld-review.md.)");
@@ -519,6 +564,8 @@ async function main() {
   await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/labels`, { method: "POST", body: { labels: [LABEL] } }).catch((err) => {
     console.warn(`Could not add label ${LABEL}: ${err.message}`);
   });
+  coverage.pr = { number: pr.number, url: pr.html_url };
+  await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
   console.log(`\nCreated PR #${pr.number} for ${slugs.join(", ")}.`);
   return 0;
 }

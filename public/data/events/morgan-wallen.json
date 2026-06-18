@@ -485,7 +485,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtba",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qtbg"
       },
       "seatgeek": {
         "event_id": null,
@@ -509,7 +510,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbg"
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtbd",
@@ -536,7 +538,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbd",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qYJp"
       },
       "seatgeek": {
         "event_id": null,
@@ -560,7 +563,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJp"
   },
   {
     "id": "tm-morgan-wallen-2026-clemson-z7r9jz1a7qtb7",
@@ -640,7 +644,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbA",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qtbI"
       },
       "seatgeek": {
         "event_id": null,
@@ -664,7 +669,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbI"
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtbk",
@@ -691,7 +697,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbk",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qYJ_"
       },
       "seatgeek": {
         "event_id": null,
@@ -715,7 +722,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ_"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs",
@@ -742,7 +750,8 @@
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbs",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7qtbs"
       },
       "seatgeek": {
         "event_id": null,
@@ -766,7 +775,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbs"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbf",
@@ -846,7 +856,8 @@
         "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv17FZbgGkM65iFV"
       },
       "seatgeek": {
         "event_id": null,
@@ -870,7 +881,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17FZbgGkM65iFV"
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635da084a7a9",
@@ -897,7 +909,8 @@
         "url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-08-01-2026/event/0200635DA084A7A9",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "vv17FZbgGkUO-1rt"
       },
       "seatgeek": {
         "event_id": null,
@@ -921,6 +934,7 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "vv17FZbgGkUO-1rt"
   }
 ]

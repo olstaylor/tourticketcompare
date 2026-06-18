@@ -13,6 +13,7 @@ import { spawn } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { slugify } from "./lib/slugify.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -43,15 +44,6 @@ function usage() {
 
 function clean(value, max = 512) {
   return String(value ?? "").trim().slice(0, max);
-}
-
-function slugify(value) {
-  return clean(value, 160)
-    .toLowerCase()
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
 }
 
 function parseArgs(argv) {

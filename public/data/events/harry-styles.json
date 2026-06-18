@@ -1588,5 +1588,482 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfkUI2r"
+  },
+  {
+    "id": "tm-harry-styles-2026-london-1aegz_egkuqz8x-",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-06-19T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300642D9A010FA1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-19-06-2026/event/2300642D9A010FA1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-19-06-2026/event/2300642D9A010FA1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300642D9A010FA1",
+        "discovery_event_id": "1AeGZ_eGkUQZ8X-",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-19-06-2026/event/2300642D9A010FA1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_eGkUQZ8X-",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-london-1aegz_egkusb-e-",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-06-20T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300642DB1EA10A1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-20-06-2026/event/2300642DB1EA10A1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-20-06-2026/event/2300642DB1EA10A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300642DB1EA10A1",
+        "discovery_event_id": "1AeGZ_eGkUsB-e-",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-20-06-2026/event/2300642DB1EA10A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_eGkUsB-e-",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-london-1aegz_egkug9sdf",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-06-23T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300642DB55F10C8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-23-06-2026/event/2300642DB55F10C8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-23-06-2026/event/2300642DB55F10C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300642DB55F10C8",
+        "discovery_event_id": "1AeGZ_eGkUg9sdF",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-23-06-2026/event/2300642DB55F10C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_eGkUg9sdF",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-london-1aegz_egkmuro6v",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-06-26T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300642DCD7911C1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-26-06-2026/event/2300642DCD7911C1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-26-06-2026/event/2300642DCD7911C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300642DCD7911C1",
+        "discovery_event_id": "1AeGZ_eGkMuro6v",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-26-06-2026/event/2300642DCD7911C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_eGkMuro6v",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-london-1aegz_egkmcbo6q",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-06-27T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300642DCEE911DA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-06-2026/event/2300642DCEE911DA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-06-2026/event/2300642DCEE911DA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300642DCEE911DA",
+        "discovery_event_id": "1AeGZ_eGkMCBo6Q",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-27-06-2026/event/2300642DCEE911DA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_eGkMCBo6Q",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-london-1aegz_egkm2xs6r",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-06-29T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300642DCFFB11EF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-29-06-2026/event/2300642DCFFB11EF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-29-06-2026/event/2300642DCFFB11EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300642DCFFB11EF",
+        "discovery_event_id": "1AeGZ_eGkM2Xs6R",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-29-06-2026/event/2300642DCFFB11EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_eGkM2Xs6R",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-london-1aegz_egkmkmofc",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-07-01T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300642DD3DD122D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-01-07-2026/event/2300642DD3DD122D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-01-07-2026/event/2300642DD3DD122D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300642DD3DD122D",
+        "discovery_event_id": "1AeGZ_eGkMKMoFc",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-01-07-2026/event/2300642DD3DD122D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_eGkMKMoFc",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-london-1aegz_egkmfmsfv",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-07-03T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300642DD4DF1234",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-03-07-2026/event/2300642DD4DF1234",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-03-07-2026/event/2300642DD4DF1234",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300642DD4DF1234",
+        "discovery_event_id": "1AeGZ_eGkMfMsFV",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-03-07-2026/event/2300642DD4DF1234",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_eGkMfMsFV",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-harry-styles-2026-london-1aegz_egkm4csfw",
+    "artist_slug": "harry-styles",
+    "artist_name": "Harry Styles",
+    "event_name": "",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2026-07-04T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300642DD5B7123D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-04-07-2026/event/2300642DD5B7123D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-04-07-2026/event/2300642DD5B7123D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300642DD5B7123D",
+        "discovery_event_id": "1AeGZ_eGkM4csFW",
+        "url": "https://www.ticketmaster.co.uk/harry-styles-together-together-london-04-07-2026/event/2300642DD5B7123D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_eGkM4csFW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

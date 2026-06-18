@@ -50,6 +50,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
+import { slugify } from "./lib/slugify.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -83,15 +84,6 @@ const CSV_COLUMNS = [
 
 function clean(value) {
   return String(value ?? "").trim();
-}
-
-function slugify(value) {
-  return clean(value)
-    .toLowerCase()
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
 }
 
 // Discovery status code -> events.json status enum. Matches

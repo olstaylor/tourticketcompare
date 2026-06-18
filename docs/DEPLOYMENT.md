@@ -179,15 +179,33 @@ Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploy
 - Manual runs default to a safe `preview` (no PR); scheduled runs always open the PR. A single artist can be targeted via the `artist` input.
 - Without `TICKETMASTER_API_KEY` the recogniser no-ops safely (no rows, no PR). See `docs/PROVIDER_SYNC.md`.
 
-### Automation map — the three daily/standing workflows
+A scheduled run also maintains a rolling **`automation:tm-discovery`** coverage issue (via `scripts/report-tm-discovery-coverage.mjs`): it records which indexed artists were checked, how many new shows were proposed, links the PR, and **flags any artist that was skipped or absent from the run**. A quiet day still updates the issue, so a partial or failed run is never silent. (See "Discovery coverage heartbeat" below.)
+
+### Automation map — the standing workflows
 
 | Workflow | Schedule | Purpose | Output |
 |---|---|---|---|
 | **Daily data audit** (`daily-audit.yml`) | 03:00 UTC | Detect dead links and drift in **existing** events; bump verified dates for clean artists | Rolling `automation:daily-audit` issue + `automation/verified-dates-*` PR |
-| **TM new-shows PR** (`tm-new-shows-pr.yml`) | 04:00 UTC | Propose **new** shows/links for every verified artist | `automation:tm-events` review PR |
-| **Nightly data sync** (`nightly-data-sync.yml`) | manual-only | Refresh narrow factual fields (date/venue/URL) on **existing** events | Direct `main` commit (gated) or `automation:data-sync` issue |
+| **TM new-shows PR** (`tm-new-shows-pr.yml`) | 04:00 UTC | Propose **new** shows/links for every verified artist + maintain the coverage heartbeat | `automation:tm-events` review PR + `automation:tm-discovery` issue |
+| **TM data refresh PR** (`tm-data-refresh-pr.yml`) | manual | Refresh **existing** events (genuine date/venue/city moves, canonical URL) and recover missing Discovery ids, as one review PR | `automation:tm-events` review PR + `automation:data-sync` issue |
+| **Nightly data sync** (`nightly-data-sync.yml`) | manual-only | Legacy direct-to-`main` field sync (gated); superseded for review use by the refresh-PR workflow | Direct `main` commit (gated) or `automation:data-sync` issue |
 
-In short: **new** links → the 04:00 new-shows PR; **drift in existing** links → the audit issue (detection) and the manual nightly sync (fix); **link death** → the audit issue.
+In short: **new** links → the 04:00 new-shows PR; **drift in existing** links → the audit issue (detection) and the manual refresh-PR workflow (fix, reviewed); **link death** → the audit issue.
+
+### Discovery coverage heartbeat
+
+`scripts/report-tm-discovery-coverage.mjs` (`npm run providers:sync:tm:coverage`) consumes the `coverage.json` emitted by every new-shows run and maintains the rolling `automation:tm-discovery` issue. The guarantee it provides: **every indexed artist is positively accounted for on each run** — checked-with-new-shows, checked-no-new, skipped (with reason), or flagged as absent from the run (e.g. a `data/provider-identities.json` entry that lost `verified`/`sync_enabled`). This turns "no PR today" from an ambiguous silence into an explicit, auditable signal.
+
+### TM data refresh PR (manual)
+
+`tm-data-refresh-pr.yml` is **manual** (`workflow_dispatch`), defaulting to a safe `dry_run: true` preview. With `dry_run: false` it:
+
+1. Runs `scripts/apply-tm-updates.mjs` — lossless factual refresh of existing events from the Discovery API. The comparison is **representation-aware**: it ignores country-name synonyms (`United States` ≈ `United States Of America`, `Great Britain` ≈ `United Kingdom`), venue-local-vs-UTC datetime representations of the same instant, and venue case/punctuation — so it proposes only **genuine** date moves, venue/city corrections, and canonical URL refreshes, not cosmetic churn.
+2. Runs `scripts/backfill-discovery-ids.mjs --apply` to recover Discovery ids for events that newly resolve (shrinking the audit's `unresolvable` bucket).
+3. Regenerates partitions/index, validates (`events:validate:prod`, `events:validate:partitions`, `test:mvp`), and opens **one review PR** (`automation:tm-events`) — never a direct `main` commit, never an auto-merge.
+4. Surfaces cancelled/deleted/status items (never auto-applied) into the rolling `automation:data-sync` issue.
+
+Restoring a CTA-suppressed (`needs_recheck`) event is deliberately **not** automated — those require human browser verification (see `PROJECT_STATUS.md` → Active risks).
 
 ---
 

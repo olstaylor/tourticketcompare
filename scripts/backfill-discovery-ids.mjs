@@ -33,8 +33,10 @@ const apiKey = String(process.env.TICKETMASTER_API_KEY || '').trim();
 
 const clean = (v) => String(v ?? '').trim();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const normCity = (c) =>
-  clean(c).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z]/g, '');
+const normalize = (value, disallowed) =>
+  clean(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(disallowed, '');
+const normCity = (value) => normalize(value, /[^a-z]/g);
+const normVenue = (value) => normalize(value, /[^a-z0-9]/g);
 
 // Same id-format test as scripts/audit-tm-events.mjs: a Discovery-format id is
 // mixed-case alphanumeric, never a pure-numeric storefront id or a 16-char
@@ -48,20 +50,25 @@ function isDiscoveryFormatId(value) {
   return /^[A-Za-z0-9_-]{6,20}$/.test(id);
 }
 
+function validDatePrefix(value) {
+  const prefix = clean(value).slice(0, 10);
+  return /^\d{4}-\d{2}-\d{2}$/.test(prefix) ? prefix : null;
+}
+
 // Venue-local calendar date from `datetime_iso`. A date-only or offset-free
 // wall-time is already venue-local and must not be timezone-shifted. Values with
 // an explicit offset/Z are absolute instants and are rendered in the event zone.
 function localDate(event) {
   const iso = clean(event?.datetime_iso);
   if (!iso) return null;
-  if (!/[zZ]$|[+-]\d{2}:?\d{2}$/.test(iso)) return iso.slice(0, 10);
+  if (!/[zZ]$|[+-]\d{2}:?\d{2}$/.test(iso)) return validDatePrefix(iso);
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return null;
   const tz = clean(event?.timezone) || 'UTC';
   try {
     return new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
   } catch {
-    return iso.slice(0, 10);
+    return validDatePrefix(iso);
   }
 }
 
@@ -123,16 +130,17 @@ function uniqueExactTimeMatch(event, candidates) {
   const localTime = Date.parse(iso);
   if (Number.isNaN(localTime)) return null;
   const matches = candidates.filter((f) => {
+    if (!f.dateTime) return false;
     const remoteTime = Date.parse(f.dateTime);
-    return f.dateTime && !Number.isNaN(remoteTime) && remoteTime === localTime;
+    return !Number.isNaN(remoteTime) && remoteTime === localTime;
   });
   return matches.length === 1 ? matches[0] : null;
 }
 
 function uniqueVenueMatch(event, candidates) {
-  const venue = normCity(event.venue);
+  const venue = normVenue(event.venue);
   if (!venue) return null;
-  const matches = candidates.filter((f) => normCity(f.venue) === venue);
+  const matches = candidates.filter((f) => normVenue(f.venue) === venue);
   return matches.length === 1 ? matches[0] : null;
 }
 
@@ -179,6 +187,7 @@ function runSelfTest() {
     localDate({ datetime_iso: '2026-06-19T02:00:00', timezone: 'America/Los_Angeles' }) === '2026-06-19');
   assert('UTC instant converts to the venue-local date',
     localDate({ datetime_iso: '2026-06-19T02:00:00Z', timezone: 'America/Los_Angeles' }) === '2026-06-18');
+  assert('malformed local date is rejected', localDate({ datetime_iso: 'invalid' }) === null);
   assert('accented cities normalize consistently', normCity('São Paulo') === normCity('Sao Paulo'));
 
   const feed = [
@@ -189,9 +198,14 @@ function runSelfTest() {
   assert('matching date and city can resolve one candidate',
     matchOne({ datetime_iso: '2026-07-01', city: 'Paris', venue: '' }, feed).discId === 'right');
   assert('city mismatch can resolve with an independent exact instant',
-    matchOne({ datetime_iso: '2026-07-01T20:00:00Z', city: 'London', venue: '' }, feed).discId === 'right');
+    matchOne({ datetime_iso: '2026-07-01T20:00:00Z', city: 'London', venue: '' }, [{ ...feed[0] }, { discId: 'missing-time', localDate: '2026-07-01', dateTime: '', city: 'Berlin', venue: 'Arena B' }]).discId === 'right');
   assert('missing city is not accepted on date alone',
     matchOne({ datetime_iso: '2026-07-01', city: '', venue: '' }, feed).status === 'insufficient-identity');
+  assert('numbered venues remain distinct identity evidence',
+    uniqueVenueMatch(
+      { venue: 'Arena 1' },
+      [{ discId: 'one', venue: 'Arena 1' }, { discId: 'two', venue: 'Arena 2' }]
+    )?.discId === 'one');
 
   let failed = 0;
   for (const check of checks) {

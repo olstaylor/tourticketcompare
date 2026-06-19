@@ -12,9 +12,9 @@ This document describes the repo architecture as confirmed by reading the source
 | `functions/` | Cloudflare Pages Functions (server-side routing + APIs) | Confirmed |
 | Cloudflare Pages | **Production runtime** — serves `tourticketcompare.com` and `www.tourticketcompare.com` | Confirmed live 2026-05-11 |
 | Standalone Worker | `tourticketcompare-live` — legacy; no longer serving production custom domains | Superseded 2026-05-11 |
-| Vercel | Not production; legacy artifacts only via `api/` + `vercel.json` | Not in use |
+| Vercel | Never production; deploy artefacts removed from the repo (#176) | Not in use |
 
-**Canonical deployment model (issue #176): Cloudflare Pages + Pages Functions is the only production deployment path.** The Vercel artefacts (`vercel.json`, `api/`), the standalone Worker builder (`scripts/build-standalone-worker.mjs`), and `archive/vercel-experimental/` are non-production and retained pending the #176 audit; do not add Vercel- or Worker-specific logic. D1 bindings are limited to `DEMAND_DB` (no `RATE_LIMIT_DB`, no `CLICKS_DB`).
+**Canonical deployment model (issue #176): Cloudflare Pages + Pages Functions is the only production deployment path.** The Vercel deploy artefacts (`vercel.json`, root `api/`) and the standalone Worker builder (`scripts/build-standalone-worker.mjs`) were removed from the repo in the #176 deletion pass (2026-06-19); only `archive/vercel-experimental/README.md` remains as a historical marker. Do not add Vercel- or Worker-specific logic. D1 bindings are limited to `DEMAND_DB` (no `RATE_LIMIT_DB`, no `CLICKS_DB`).
 
 **Production deploy path:** Changes to `functions/` or `public/` committed to `main` deploy to production via `npm run deploy:pages` (or automatically if Cloudflare Pages Git integration is active). No Worker rebuild is required for normal production changes.
 
@@ -39,7 +39,7 @@ public/               Static assets served directly by Cloudflare Pages
 functions/            Cloudflare Pages Functions
   _middleware.js      Runs for all requests; delegates HTML routes to [[path]].js
   _route-metadata.js  Shared page metadata (TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS)
-                      — imported by both [[path]].js and scripts/build-standalone-worker.mjs
+                      — imported by [[path]].js
   [[path]].js         Catch-all: ALL HTML routing logic, schema injection, 404 handling
   artists.js          Re-exports onRequest from [[path]].js (fallback if middleware removed)
   guides.js           Re-exports onRequest from [[path]].js
@@ -62,7 +62,6 @@ functions/            Cloudflare Pages Functions
       tracking-links.js POST /api/impact/tracking-links — generate Impact tracking URLs
 
 scripts/
-  build-standalone-worker.mjs   Legacy: bundles public/ + functions/ into a standalone Worker .js file (not the production path)
   smoke-prelaunch.mjs           Pre-deploy smoke checks
   validate-events.py            Validates events.json against production rules
   csv-to-events.py              Converts CSV input to events.json format
@@ -143,11 +142,9 @@ npm run deploy:pages → manual Pages deploy
 
 **`npm run deploy:pages` is the production deploy command.** Both `npm run deploy` and `npm run deploy:pages` run `wrangler pages deploy public` — they are identical and both update production.
 
-### Legacy: Standalone Worker (`scripts/build-standalone-worker.mjs`)
+### Legacy: Standalone Worker (removed)
 
-`scripts/build-standalone-worker.mjs` is retained as an emergency rollback reference. It bundles `public/` assets and `functions/` routing into a single self-contained Worker `.js` file that can be uploaded to Worker `tourticketcompare-live` if needed.
-
-It is **not** part of the normal production deploy path. Do not run it as part of routine feature work. See `docs/DEPLOYMENT.md` for the full legacy section.
+The standalone Worker builder (`scripts/build-standalone-worker.mjs`) was removed from the repo in the #176 deletion pass (2026-06-19). It had bundled `public/` assets and `functions/` routing into a single self-contained Worker `.js` file for the superseded `tourticketcompare-live` Worker, and was never part of the Pages production deploy path. If a Worker rollback is ever needed again, rebuild the bundler from git history rather than re-adding it speculatively.
 
 ---
 
@@ -183,7 +180,7 @@ The named shims provide a safety net if middleware is removed, but are otherwise
 
 ### 4. Vercel path
 
-`vercel.json` and `api/` exist in the repo as legacy artifacts. These are not production but could be accidentally used as a deploy target. Do not add Vercel-specific logic unless a deliberate architecture decision is made.
+`vercel.json` and the root `api/` Vercel-style handlers were removed from the repo in the #176 deletion pass (2026-06-19). Vercel is not a production target. Do not re-add Vercel deploy config or root `api/**/*.mjs` handlers unless a deliberate architecture decision reintroduces Vercel.
 
 ### 5. D1 bindings
 

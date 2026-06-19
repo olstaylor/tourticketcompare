@@ -1,6 +1,6 @@
 # Stale-File Audit (Issue #176)
 
-_Audit date: 2026-06-03. **Audit only — no files deleted in this pass.**_
+_Audit date: 2026-06-03. **Update 2026-06-19: candidates #1, #2, #3 deleted** (Vercel pair + standalone Worker builder + the `_route-metadata.js` comment) after owner authorisation; #4 and #5 left in place. `test:mvp` green post-deletion. The classification table below is retained as the audit record._
 
 Evidence-backed classification of legacy / inactive artefacts called out in `CLAUDE.md`
 "Known Risks". A follow-up PR may act on the **Safe to delete** items; deletions must not be
@@ -26,12 +26,14 @@ bundled with other workstreams. Production is **Cloudflare Pages + Pages Functio
 
 ## Recommendation
 
-- A single scoped follow-up PR may delete candidates **#1, #2, #3** together (Vercel pair +
-  standalone Worker builder + its `_route-metadata.js` comment), after a human confirms no
-  Cloudflare/Vercel dashboard dependency.
-- Leave **#4** as-is and **#5** in place.
-- Re-run `node scripts/smoke-prelaunch.mjs`, `npm run test:mvp`, and a `npm run dev` smoke after
-  any deletion PR.
+- ✅ **Done (2026-06-19):** candidates **#1, #2, #3** deleted together (Vercel pair +
+  standalone Worker builder + its `_route-metadata.js` comment), after owner authorisation.
+  Canonical docs (`docs/ARCHITECTURE.md`, `docs/DEPLOYMENT.md`, `CLAUDE.md`,
+  `PROJECT_STATUS.md`, `BACKLOG.md`) updated to drop the "present pending audit" framing.
+  `npm run test:mvp` green.
+- Left **#4** (`archive/vercel-experimental/README.md`) as-is and **#5** (route shims) in place.
+- If a Worker rollback is ever needed, recover `scripts/build-standalone-worker.mjs` from git
+  history rather than re-adding it speculatively.
 
 ## Acceptance criteria (this issue)
 

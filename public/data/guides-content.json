@@ -133,57 +133,52 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Concert ticket totals move around for several reasons, and no general guide can tell you what will happen for one specific show. Treat any price you see as accurate only for the provider page in front of you, and confirm the final checkout total before you pay.\n\nTourTicketCompare helps fans find checked ticket links and work out what to compare. It does not monitor live prices, verify individual listings, track inventory, promise availability, predict future prices, or make savings claims. Price, fees, availability, delivery, transfer, refund, cancellation, and checkout terms are all confirmed on the provider site."
+        "content": "You check a ticket in the morning, come back in the afternoon, and the number has moved. That is normal, and it usually has a concrete cause: a fee that only loads at checkout, a seller who has relisted, a provider that prices certain seats by demand, or simply different stock than was there earlier. None of it means you have done something wrong, and none of it can be predicted reliably for one specific show.\n\nThis guide explains the real reasons a ticket total shifts, so you can read a price for what it is rather than chase it. TourTicketCompare helps you find checked links and work out what to compare. It does not track live prices, watch inventory, or forecast where a price is heading — that all lives on the provider's checkout page, which is where you confirm it."
       },
       {
         "type": "section",
-        "title": "Why a Ticket Total Can Change",
-        "content": "A ticket total is affected by more than the first number shown on a search result or listing card. Possible factors include:\n\n- **Official onsale demand:** Queues, seat maps, holdbacks, presales, and event-specific rules can affect which tickets you are able to see or buy during an onsale.\n- **Provider pricing methods:** Some providers or event partners may use pricing methods that adjust certain ticket prices, packages, or seat categories where their terms allow it.\n- **Resale seller pricing:** On resale marketplaces, sellers may set or change asking prices subject to marketplace rules.\n- **Fees and taxes:** Service fees, order fees, facility charges, taxes, delivery costs, and currency conversion can change the final checkout total.\n- **Seat location and ticket type:** Section, row, view notes, standing versus seated areas, accessible seats, VIP packages, and official platinum or premium categories can carry different terms.\n- **Delivery and transfer terms:** Mobile delivery, delayed transfer, app transfer, pickup, or shipping can affect whether a listing fits your plans.\n- **Availability changing over time:** Tickets and listings can appear, disappear, be held, be purchased by another buyer, or become unavailable before checkout is complete.\n- **Refund and cancellation terms:** Policies can differ by provider, event status, ticket type, and marketplace rules."
+        "title": "What actually moves a ticket total",
+        "content": "The first number on a search result is rarely the whole story. A total changes for a handful of distinct reasons:\n\n- **Onsale demand and stock.** During an onsale, queues, holdbacks, presales, and purchase limits shape which tickets you can even see, and stock shifts by the second as other people buy.\n- **Demand-based pricing on primary tickets.** Some providers price certain seats or categories according to how fast they are selling. It is a disclosed feature on the events that use it, not a glitch.\n- **Seller decisions on resale.** On a marketplace, individual sellers set and adjust their own asking prices within the platform's rules.\n- **Fees and taxes.** Service, order, and facility fees, taxes, delivery charges, and currency conversion are often added later in checkout.\n- **Seat and ticket type.** A floor spot, an upper-tier seat, an accessible space, a VIP package, and a premium category all carry different prices and terms.\n\nThese are separate forces. A change driven by fees is not the same as one driven by a seller relisting, and reading which is which keeps you from over-reacting to a number."
       },
       {
         "type": "section",
-        "title": "Headline Price Versus Checkout Total",
-        "content": "The headline price is not enough for a buying decision. A listing card, seat-map price, or search result may not include every fee, tax, delivery charge, currency issue, or order-specific term. The final checkout total is the number to review before you pay.\n\nWhen comparing options, open the provider page and check the same details each time: artist, date, venue, ticket type, seat location, quantity, fees, taxes, delivery method, transfer timing, refund terms, cancellation rules, and checkout total. If the provider updates the total during checkout, pause and decide whether the current total and terms still work for you.\n\nFor a step-by-step process, read [How to Compare Concert Ticket Prices Safely](/guides/how-to-compare-concert-ticket-prices)."
+        "title": "The headline price is not the deciding number",
+        "content": "A listing card or seat-map price is a starting figure. It may leave out fees, taxes, delivery, currency conversion, or terms specific to that order. The number that decides your purchase is the final checkout total.\n\nWhen you compare options, open each provider page and check the same fields every time: artist, date, venue, ticket type, seat location, quantity, fees, delivery method, transfer timing, refund and cancellation terms, and the final total. If the provider changes the total partway through checkout, stop and decide whether the current figure still works before going on.\n\nFor the full routine, see [how to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)."
       },
       {
         "type": "section",
-        "title": "Official Onsale and Provider Pricing Factors",
-        "content": "During official onsales, the provider controls the queue, seat map, purchase limits, ticket categories, fees, delivery options, and checkout rules. Some events may include fixed-price tickets, premium categories, packages, or pricing methods that can vary by seat type or demand signals where applicable.\n\nSeeing a ticket in a queue or cart does not mean TourTicketCompare can confirm the price, availability, or successful checkout. Confirm the current provider terms before paying, especially if the page shows a countdown, limited-time hold, changing seat map, or updated total.\n\nFor timing trade-offs without price predictions, read [When Should I Buy Concert Tickets?](/guides/when-is-the-best-time-to-buy-concert-tickets)."
+        "title": "Onsales and demand-based pricing",
+        "content": "During an official onsale, the provider runs everything: the queue, the seat map, purchase limits, the ticket categories on offer, fees, and the checkout rules. Some events mix fixed-price seats with premium categories, packages, or demand-based pricing that moves with how quickly a section sells.\n\nSeeing a ticket in your queue or cart is not the same as owning it. The price and the seat are only settled once checkout completes, so read the current terms before you pay — especially if the page is showing a countdown, a hold timer, or a total that just changed. For the timing trade-offs, see [when to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets)."
       },
       {
         "type": "section",
-        "title": "Resale Listings Can Change for Seller Reasons",
-        "content": "Resale marketplaces can include listings from different sellers with different seat details, asking prices, delivery timing, and marketplace terms. A seller may change or remove a listing, another buyer may purchase it, or the marketplace may update what is visible.\n\nDo not assume resale prices follow a reliable pattern. Instead, compare the current final total, seat details, delivery timing, buyer protection, refund terms, transfer terms, and cancellation rules shown by the provider. TourTicketCompare may link to checked destinations, but we do not verify individual resale listings or seller behavior.\n\nFor more detail, read [How Resale Ticket Pricing Works](/guides/how-resale-ticket-pricing-works) and [Primary vs Resale Concert Tickets](/guides/primary-vs-resale-concert-tickets)."
+        "title": "Why resale prices drift",
+        "content": "A resale marketplace shows listings from many sellers, each with their own seats, asking price, delivery timing, and terms. A seller can raise, lower, or pull a listing at any point; another buyer can take it; and the marketplace decides what stays visible.\n\nThat is why resale prices do not follow a tidy pattern you can time. Rather than wait for a price you expect to appear, compare the listings actually in front of you: the final total, the seat details, delivery timing, buyer protection, and the refund, transfer, and cancellation terms. TourTicketCompare links to checked destinations but does not vouch for individual sellers or listings. For the mechanics, see [how resale ticket pricing works](/guides/how-resale-ticket-pricing-works) and [primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)."
       },
       {
         "type": "section",
-        "title": "Delivery, Transfer, Refund, and Cancellation Terms",
-        "content": "A cheaper-looking ticket is not necessarily the right ticket if the terms do not fit your plans. Before paying, confirm:\n\n- Whether delivery is mobile, app transfer, delayed transfer, email, pickup, or shipping.\n- When tickets are expected to be delivered or transferable.\n- Whether the ticket type has transfer, resale, or entry restrictions.\n- What the provider says happens after a cancellation, postponement, venue change, or other event update.\n- What refund or credit terms apply to your exact order.\n\nThese terms are confirmed by the provider, not by TourTicketCompare. If any term is unclear, slow down before entering payment details."
+        "title": "A cheaper price is not always the better ticket",
+        "content": "Price is only one part of the offer. A lower total can come with terms that do not suit you, so before paying, confirm:\n\n- How the ticket is delivered, and when it becomes transferable.\n- Whether the ticket type has transfer, resale, or entry restrictions.\n- What the provider does if the show is postponed, moved, or cancelled.\n- What refund or credit terms apply to your exact order.\n\nThe provider sets all of this, not TourTicketCompare. If any term is unclear, slow down before you enter payment details."
       },
       {
         "type": "section",
-        "title": "Urgency and Pressure Tactics",
-        "content": "Ticket pages can create pressure through queues, timers, limited-quantity messages, cart holds, or warnings that another buyer may act first. Some messages may reflect real provider rules, but urgency should not replace basic checks.\n\nBefore paying, make sure the event details match your intended show, the ticket type and seat details are clear enough, the final total is acceptable, and delivery, transfer, refund, cancellation, and checkout terms fit your plans. Be especially cautious if a page pushes you away from the provider checkout, asks for off-platform payment, hides key terms, or makes you feel unable to review the order."
+        "title": "Don't let urgency do the thinking",
+        "content": "Ticket pages lean on pressure: queues, timers, low-stock warnings, cart holds, and notices that another buyer might be about to take the seat. Some of that reflects genuine demand. None of it removes the need for a basic check.\n\nBefore you pay, make sure the event details match your show, the seat and ticket type are clear, the final total is acceptable, and the delivery, transfer, refund, and cancellation terms fit your plans. Treat a countdown as a reason to check faster — and be especially wary if a page pushes you off the provider's own checkout, asks for off-platform payment, or hides the terms."
       },
       {
         "type": "section",
-        "title": "Practical Checklist Before You Pay",
-        "content": "Use this checklist instead of relying on a price prediction:\n\n1. Confirm the artist, date, venue, and city match the show you want.\n2. Confirm whether you are viewing primary, official resale, or marketplace resale where the provider states it.\n3. Compare the current final checkout total, not only the headline price.\n4. Check seat location, ticket type, quantity, view notes, and package details.\n5. Review delivery, transfer, refund, cancellation, and event-change terms.\n6. Avoid off-platform payment and vague listings.\n7. Buy only if the current provider page gives you enough information and the current terms fit your budget and risk tolerance."
-      },
-      {
-        "type": "section",
-        "title": "What TourTicketCompare Can and Cannot Confirm",
-        "content": "TourTicketCompare can help you find checked links where available and understand what to compare before leaving for a ticket provider. We can also provide buying guidance about fees, final totals, resale risk, delivery terms, transfer rules, and checkout checks.\n\nTourTicketCompare does not offer current provider-total rankings, complete market coverage, availability promises, claims that identify the least expensive ticket, savings promises, individual listing verification, provider inventory monitoring, or price predictions. The provider site is the source for the final price, fees, availability, delivery, transfer, refund, cancellation, and checkout terms."
+        "title": "A checklist instead of a prediction",
+        "content": "No guide can tell you what a specific ticket will cost later, so work from what you can confirm now:\n\n- Confirm the artist, date, venue, and city match the show you want.\n- Note whether you are looking at primary, official resale, or marketplace resale.\n- Compare final checkout totals, not headline prices.\n- Check seat location, ticket type, quantity, view notes, and any package details.\n- Read the delivery, transfer, refund, cancellation, and event-change terms.\n- Steer clear of off-platform payment and listings that stay vague.\n- Buy only when the page gives you enough to decide and the terms fit your budget."
       },
       {
         "type": "section",
         "title": "FAQ",
-        "content": "**Why did the total change between the listing page and checkout?**\n\nFees, taxes, delivery charges, currency conversion, seat selection, ticket type, availability, or provider checkout rules may affect the final total. Confirm the current checkout total before paying.\n\n**Can TourTicketCompare tell me whether a price will rise or drop?**\n\nNo. We do not track live provider inventory, monitor individual listings, or predict future prices.\n\n**Are resale tickets more expensive than primary tickets?**\n\nNo single rule applies to every event or listing. Compare the current final total, seat details, delivery timing, and provider terms.\n\n**What should I compare first?**\n\nStart with the exact event, ticket type, seat details, quantity, final checkout total, delivery method, transfer timing, refund terms, cancellation rules, and checkout terms.\n\n**Where are final terms confirmed?**\n\nOn the provider site. TourTicketCompare can point you to checked destinations where available, but the provider confirms final price, fees, availability, delivery, transfer, refund, cancellation, and checkout terms."
+        "content": "**Why did the total change between the listing and checkout?**\n\nFees, taxes, delivery charges, currency conversion, the seats you picked, the ticket type, or the provider's own checkout rules can all move it. Confirm the final total before paying.\n\n**Can you tell me whether a price will rise or fall?**\n\nNo. We do not track live inventory, monitor individual listings, or predict future prices.\n\n**Are resale tickets always dearer than primary?**\n\nNo single rule fits every event. Compare the current final total, the seat details, delivery timing, and the provider's terms.\n\n**What should I compare first?**\n\nStart with the exact event and seats, then the final checkout total, delivery method, transfer timing, and refund and cancellation terms.\n\n**Where are the final terms confirmed?**\n\nOn the provider site. We can point you to checked destinations, but the provider sets the final price, fees, availability, delivery, transfer, refund, and cancellation terms."
       },
       {
         "type": "section",
-        "title": "Conclusion",
-        "content": "Concert ticket totals can change because provider rules, onsale demand, resale seller decisions, fees, seat details, delivery terms, transfer limits, availability, and refund or cancellation policies can differ by event and ticket type. Treat the provider checkout page as the place where current terms are confirmed.\n\nUse TourTicketCompare for checked links and practical buying guidance, then make the final decision only after the provider site shows a current total and terms you are comfortable with."
+        "title": "The short version",
+        "content": "Ticket totals move because onsale demand, demand-based pricing, seller decisions, fees, seat type, delivery terms, and refund rules all differ from one event and ticket to the next. None of it is predictable from a general rule.\n\nUse TourTicketCompare to find checked links and to know what to look at, then decide only once the provider's page shows a current total and terms you are comfortable with."
       }
     ]
   },
@@ -195,53 +190,43 @@
       },
       {
         "type": "section",
-        "title": "Ticketmaster: The Official Primary Seller",
-        "content": "**What it is:** Ticketmaster is an official primary ticketing platform for many concerts, venues, and festivals. For a specific event, confirm whether it is named by the artist, venue, promoter, or official event source as an authorised ticketing source.\n\n**How it works:**\n- Tickets may go on sale on a published date and time\n- Some events may include face-value inventory, official resale, premium categories, or event-specific pricing rules\n- Delivery can be mobile, digital, delayed, shipped, or another provider-supported method\n- Seat selection and availability vary by event and sale type\n\n**What to check:**\n- Whether Ticketmaster is listed as an official source for that event\n- The exact artist, date, venue, city, ticket type, and seat details\n- The final checkout total after fees and taxes where shown\n- Delivery, refund, transfer, cancellation, and event-change terms\n\nAlways confirm current price, availability, fees, delivery, and terms on Ticketmaster before purchase."
+        "title": "Ticketmaster: the official seller, most of the time",
+        "content": "Ticketmaster is an official primary ticketing platform for a great many concerts, venues, and festivals — and for some events it also runs an official resale flow. The key word is \"official\": for any given show, confirm that Ticketmaster is actually named as an authorised source by the artist, venue, or promoter, rather than assuming it because the name is familiar.\n\nOn a Ticketmaster event you will typically meet a published onsale date and time, a mix of face-value seats and sometimes premium or demand-priced categories, and delivery that might be instant mobile, delayed, or shipped depending on the show. Before you buy, check that it is the official source for that event, that the artist, date, venue, and seats are right, and what the final total comes to once fees and taxes are shown. The price, availability, and terms are all settled on Ticketmaster's own checkout."
       },
       {
         "type": "section",
-        "title": "StubHub: The Resale Marketplace",
-        "content": "**What it is:** StubHub is a secondary marketplace where sellers list tickets they already hold or expect to transfer. It is not the official primary seller for an event unless that event's official sources say otherwise.\n\n**How it works:**\n- Sellers set listing prices subject to marketplace rules\n- Listing prices can change or disappear before checkout is complete\n- Seat detail and delivery timing depend on the listing\n- Fees, delivery rules, and marketplace terms are shown by StubHub before purchase\n\n**What to check:**\n- Whether the listing matches the exact event, date, venue, and seat details\n- The final checkout total after fees and taxes where shown\n- Delivery timing and transfer method\n- StubHub's current buyer-protection, refund, cancellation, and dispute terms for that order\n\nAlways confirm the exact event, seat details, final total, delivery method, and provider terms on StubHub before purchase."
+        "title": "StubHub: a resale marketplace",
+        "content": "StubHub is a secondary marketplace: the tickets are listed by sellers who already hold them or expect to transfer them, not by the event itself. It is not the primary seller for a show unless that show's official sources say so.\n\nThat changes what you are looking at. Sellers set their own prices within StubHub's rules, and a listing can change or vanish before you finish checking out. Seat detail and delivery timing depend entirely on the individual listing, and StubHub's fees and terms are shown before you pay. So the checks shift towards the listing itself: does it match the exact event and seats, what is the total after fees, when and how does it deliver, and what do StubHub's current buyer-protection, refund, and dispute terms cover for that order?"
       },
       {
         "type": "section",
-        "title": "Feature Checklist",
-        "content": "| Feature | Ticketmaster | StubHub |\n| --- | --- | --- |\n| **Typical role** | Official primary ticketing or official resale, depending on event | Resale marketplace |\n| **Who sets prices** | Event organiser, promoter, provider, or event-specific rules | Individual sellers subject to marketplace rules |\n| **Price changes** | May vary by event, ticket type, seat category, and provider rules | Seller-set listings can change or disappear |\n| **Fees** | Confirmed by Ticketmaster before purchase | Confirmed by StubHub before purchase |\n| **Inventory** | Depends on the event and sale type | Depends on sellers listing tickets |\n| **Seat selection** | Varies by event and sale type | Varies by listing and seller detail |\n| **Delivery** | Event-specific mobile, digital, delayed, shipped, or other provider-supported methods | Delivery method and timing depend on the listing and marketplace rules |\n| **Provider terms** | Review Ticketmaster's event-specific policies | Review StubHub's current buyer, delivery, refund, and dispute terms |\n\nUse this table as a checklist, not a ranking. The safer choice depends on the specific event, seat, final total, delivery timing, and provider terms shown at checkout."
+        "title": "Side by side",
+        "content": "| | Ticketmaster | StubHub |\n| --- | --- | --- |\n| **Role** | Official primary ticketing, plus official resale on some events | Resale marketplace |\n| **Who prices it** | The event organiser, promoter, or provider | Individual sellers, within marketplace rules |\n| **How prices move** | By event, ticket type, and any demand-based category | Sellers can change or pull listings at any time |\n| **Stock** | Depends on the event and sale type | Depends on what sellers have listed |\n| **Delivery** | Instant mobile, delayed, digital, or shipped, by event | Set by the listing and marketplace rules |\n| **Terms to read** | Ticketmaster's event-specific policies | StubHub's buyer, delivery, refund, and dispute terms |\n\nRead this as a checklist of what differs, not a scoreboard. Which one suits you comes down to the specific event, seat, total, and terms in front of you — not a rule that one always wins."
       },
       {
         "type": "section",
-        "title": "When to Use Ticketmaster",
-        "content": "**Consider checking Ticketmaster if:**\n- It is named by the artist, venue, promoter, or official event source as a ticketing source for the event\n- You are shopping during an official onsale, presale, or official resale flow\n- You want to review official source information before checking resale marketplaces\n- You are comfortable with the seat options, final total, delivery method, and event-specific terms shown at checkout\n\nTicketmaster is not automatically the right option for every event. Check the final total, fees, seat details, and delivery terms before paying."
+        "title": "When each one makes sense",
+        "content": "**Start with Ticketmaster when** it is the named official source for the show, you are buying during an onsale, presale, or official resale, or you simply want to see the authorised path before looking anywhere else — and the seats, total, and terms at checkout work for you.\n\n**Turn to StubHub when** the official options are gone or do not suit, and you want to look at resale listings for a particular date or seating area. Go in knowing the listing is seller-set, that it can change before you check out, and that delivery timing needs its own look. In both cases, the final total and terms are confirmed at the provider's checkout, not before."
       },
       {
         "type": "section",
-        "title": "When to Use StubHub",
-        "content": "**Consider checking StubHub if:**\n- You want to review resale listings for a specific event, date, or seating area\n- The listing clearly shows seat details, delivery timing, and marketplace terms\n- You understand that seller-set listings can change or disappear before checkout\n- You are comfortable with the current final total after fees and the provider terms shown for that order\n\nResale prices and listing availability can change quickly. Confirm the current listing details on StubHub before purchase."
+        "title": "Comparing the same event fairly",
+        "content": "If you want to weigh the two against each other, open the same event on each and note the same things down for both:\n\n- Artist, date, venue, and city.\n- Ticket type and seat section.\n- The final total after fees, taxes, delivery, and any currency conversion.\n- Delivery method and transfer timing.\n- Refund, cancellation, postponement, and buyer-protection terms.\n\nThe trap is assuming one platform is cheaper because of a headline price or because it was cheaper for a different show. Totals and availability are specific to the event and the seat, so only a like-for-like comparison tells you anything."
       },
       {
         "type": "section",
-        "title": "How to Compare the Same Event",
-        "content": "A safer comparison is to open the same event on each provider and record:\n\n- Artist, date, venue, and city\n- Ticket type and seat section\n- Final checkout total including fees, taxes, delivery, and currency conversion where shown\n- Delivery method and transfer timing\n- Refund, cancellation, postponement, and buyer protection terms\n\nDo not assume one provider is cheaper because of a headline price or because it was cheaper for a different event. Final totals and availability are event-specific."
-      },
-      {
-        "type": "section",
-        "title": "Avoiding Scams on Both Platforms",
-        "content": "**On Ticketmaster:**\n- Verify you are using the official Ticketmaster domain or an official event link\n- Confirm the event, ticket type, delivery method, and checkout terms\n- Do not sign in or pay through a lookalike page\n\n**On StubHub:**\n- Check listing details, seller information where shown, and delivery timing\n- Read the current provider terms for delivery, invalid-ticket issues, cancellations, and disputes\n- Avoid any seller request to leave the platform checkout\n- Report suspicious listings through StubHub's official process\n\n**General rule:** Use established platform checkouts and official event sources. Avoid social media offers, direct messages, and off-platform payments."
-      },
-      {
-        "type": "section",
-        "title": "Which Offers Better Value for Your Situation?",
-        "content": "**Ticketmaster can be a useful official-source check.** If Ticketmaster is named for the event and the final total, seat details, and terms work for you, it may be one option to consider.\n\n**StubHub can be useful for resale research.** Resale listings may show different sections or seller-set options, but delivery timing and marketplace terms require extra checks.\n\n**A practical approach:** start with official event sources, then compare resale listings only after confirming the event details match. Choose based on the current final total, seat details, delivery timing, and terms, not a blanket claim that one platform always offers better value."
+        "title": "Staying safe on both",
+        "content": "On either platform, the basics are the same: stay on the official domain, confirm the event and terms before you sign in or pay, and never move the payment off the platform's own checkout because a seller suggests it. On StubHub specifically, check the listing and seller detail, read the current terms for non-delivery and disputes, and report anything that looks off through StubHub's own process. Offers that arrive by direct message or social media, or that ask for bank transfer or gift cards, sit outside all of this — see [how to avoid ticket scams](/guides/how-to-avoid-ticket-scams) for the full picture."
       },
       {
         "type": "section",
         "title": "FAQ",
-        "content": "**Is StubHub safe?**\n\nStubHub is an established resale marketplace, but you should still read its current buyer-protection, delivery, refund, cancellation, and dispute terms before buying. TourTicketCompare does not verify individual StubHub sellers or listings.\n\n**Can I return tickets bought on Ticketmaster?**\n\nTicketmaster refund, return, transfer, and cancellation terms can vary by event and order. Check the event-specific terms at checkout before purchasing.\n\n**Why can StubHub totals differ from Ticketmaster totals?**\n\nStubHub listings are seller-set resale offers, while Ticketmaster may show primary, official resale, premium, or event-specific inventory depending on the event. Compare the current final checkout total and terms, not just the first displayed price.\n\n**Can I check both platforms for the same event?**\n\nYes. If both pages clearly match the same event, compare ticket type, seat details, delivery timing, final total, and provider terms before deciding.\n\n**What if totals change after I buy?**\n\nYour order is governed by the provider terms accepted at checkout. TourTicketCompare cannot refund orders or recover differences if another listing changes later."
+        "content": "**Is StubHub safe?**\n\nIt is an established resale marketplace, but you should still read its current buyer-protection, delivery, refund, and dispute terms before buying. TourTicketCompare does not verify individual StubHub sellers or listings.\n\n**Can I return a Ticketmaster ticket?**\n\nIt depends on the event. Ticketmaster's refund, return, and transfer terms vary by show and order, so check the event-specific terms at checkout before you buy.\n\n**Why do StubHub and Ticketmaster totals differ for the same show?**\n\nStubHub totals are seller-set resale offers; Ticketmaster's can be primary, official resale, or a premium category depending on the event. Compare the final totals and terms, not the first price shown.\n\n**Can I check both for the same event?**\n\nYes — and it is worth doing. As long as both pages clearly match the same show, compare seats, delivery timing, the final total, and the terms before deciding.\n\n**What if a total changes after I buy?**\n\nYour order is governed by the terms you accepted at checkout. TourTicketCompare cannot refund orders or make up a difference if another listing moves later."
       },
       {
         "type": "section",
-        "title": "Conclusion",
-        "content": "Ticketmaster and StubHub serve different roles, and neither is automatically the right choice for every event. Use official sources to confirm authorised ticketing paths, then compare any resale listings only when the event, ticket type, seat details, final total, delivery timing, and provider terms are clear.\n\nTourTicketCompare can help with the research checklist, but the provider confirms final prices, fees, availability, delivery, refund, transfer, cancellation, and checkout terms."
+        "title": "The short version",
+        "content": "Ticketmaster and StubHub do different jobs, and neither wins by default. Confirm the official ticketing path first, then weigh any resale listings once the event, seats, final total, delivery timing, and terms are all clear.\n\nTourTicketCompare helps with the research; the provider settles the final price, fees, availability, delivery, and refund and cancellation terms at checkout."
       }
     ]
   },
@@ -249,57 +234,47 @@
     "sections": [
       {
         "type": "intro",
-        "content": "On a resale listing, the seller sets the price, so it can sit well above the first price you saw at an official onsale or on another provider page. The amount you actually pay can shift again once fees, taxes, delivery, seat details, and provider terms are added.\n\nThis guide explains how to read a resale listing without leaning on price predictions, fixed markup ranges, or assumptions that a listing is automatically fair or a rip-off."
+        "content": "On a resale listing, the price is whatever the seller decides to ask. There is no fixed formula behind it, which is why the same seat can be listed far above its original face value on one site and closer to it on another. What you finally pay shifts again once the marketplace adds its fees, taxes, and delivery charges.\n\nThis guide is about reading a resale listing on its own terms — working out what is driving the asking price and whether the offer in front of you is worth taking — without leaning on price predictions or the idea that a markup is automatically fair or automatically a rip-off."
       },
       {
         "type": "section",
-        "title": "Why Resale Markups Exist",
-        "content": "Resale listings can be influenced by supply, demand, seller expectations, seat details, delivery timing, and marketplace rules.\n\n**Limited official options:** If official source inventory is limited or no longer visible, some buyers may look at resale listings.\n\n**Seller-set pricing:** Sellers choose asking prices subject to marketplace rules. They may consider what they paid, demand for the event, fees, and how quickly they want to sell.\n\n**Seat and ticket details:** Section, row, view notes, package type, accessibility, and delivery method can all affect whether one listing is comparable with another.\n\n**Marketplace fees:** The seller's asking price is not the same as your final checkout total. Review buyer fees, taxes, delivery, currency conversion where shown, and all order terms before paying.\n\nAvoid treating any markup as automatically justified. Compare the exact event, seat details, final total, delivery timing, and provider terms."
+        "title": "What sets a resale asking price",
+        "content": "A seller's price is a judgement, not a calculation, shaped by a few things at once:\n\n- **How much official stock is left.** When face-value tickets are gone or hard to find, demand shifts to resale, and asking prices tend to firm up.\n- **What the seller wants out of it.** Some price to recover what they paid; others price for a quick sale or for as much as the market will bear.\n- **The seat itself.** Section, row, view notes, accessibility, and whether it is part of a package all change how one listing compares with another.\n- **How soon the show is.** A seller's willingness to move on price often changes as the date approaches — in either direction.\n\nNone of this makes a markup right or wrong on its own. It just tells you what to weigh, and reminds you that the asking price is the seller's opinion, not the value of the ticket."
       },
       {
         "type": "section",
-        "title": "How Seller Motivation Affects Price",
-        "content": "Seller motivation can change, but it does not follow a reliable public pattern for every event.\n\nA seller may adjust a listing because plans changed, similar seats appeared, demand changed, delivery timing became tighter, or the marketplace updated what is visible. Another seller may hold firm or remove a listing entirely.\n\nDo not rely on a calendar rule such as waiting until a certain week, day, or hour before the show. Waiting may lead to a lower total for some listings, but it may also leave fewer suitable seats, tighter delivery timing, or higher current totals. Use the provider page in front of you, not a prediction, to decide."
+        "title": "The asking price is not your final total",
+        "content": "Resale marketplaces add their own charges on top of the listing, and they fall on both sides of the deal:\n\n- **Buyer fees** — service and order fees, taxes, delivery, and currency conversion can all load on before you pay.\n- **Seller fees** — the seller usually nets less than the headline figure, which is part of why asking prices sit where they do.\n\nThe number that matters to you is the final checkout total, after every fee is shown. Some of those fees appear only late in the flow, so take a listing all the way to the order screen before judging it. If the total drifts past your budget, or the fee and delivery terms stay murky, that is a reason to pause."
       },
       {
         "type": "section",
-        "title": "Platform Fees and How They Affect Total Price",
-        "content": "Resale platforms may charge fees to buyers, sellers, or both. The exact structure depends on the provider, event, listing, region, and checkout terms.\n\n**Seller fees:** A seller may receive less than the listed asking price after marketplace fees.\n\n**Buyer fees:** A buyer may see service fees, order fees, taxes, delivery, or currency conversion added before payment.\n\n**Final total:** The listed resale price is not enough for a buying decision. Review the final checkout total and compare it with the exact seat details, ticket type, delivery method, and provider terms.\n\n**Fee transparency:** Some fees may appear only later in checkout. Pause if the final total no longer matches your budget or if the fee and delivery terms are unclear."
+        "title": "Why you can't time the price",
+        "content": "It is tempting to wait for a rule to pay off — \"prices always drop the week before\", or \"weeknights are cheaper\". Resale does not work that cleanly. Two dates on the same tour can behave completely differently depending on the venue, the demand, the seat maps, and how many sellers are holding stock.\n\nWaiting genuinely can lower the total on some listings. It can equally leave you with worse seats, a tighter delivery window, or a higher price than the one you passed up. Because the direction is not predictable, the listing in front of you now — its seats, its total, its terms — is better evidence than any general pattern."
       },
       {
         "type": "section",
-        "title": "Demand Multipliers: What Drives Prices Up",
-        "content": "Resale asking prices can be affected by many factors, but a general guide cannot predict the direction for a specific event.\n\nPossible factors include:\n\n- Current demand for the artist or event\n- Venue size, city, date, and day of week\n- Seat section, row, view notes, and ticket type\n- Whether official source inventory is still visible\n- Delivery timing and transfer restrictions\n- Provider fees, taxes, and currency conversion where shown\n- Event news, schedule changes, or provider updates\n\nUse these factors as prompts for what to check, not as proof that a listed price is good or bad."
+        "title": "Judging whether a listing is worth it",
+        "content": "To sanity-check an asking price, compare it against things you can actually see:\n\n- Any face-value or official resale tickets still available for the same event.\n- Similar seats in the same or neighbouring sections on the same marketplace.\n- Seller information, where the platform shows history or ratings.\n- The seat location, delivery method, and transfer timing on the listing itself.\n- The marketplace's buyer-protection, refund, and cancellation terms.\n\nAnd treat these as reasons to slow down:\n\n- The listing is vague on seats or delivery.\n- The total jumps sharply once fees load.\n- The page pushes urgency without backing it up with detail.\n- The price is far above comparable seats and nothing explains why.\n- The delivery window cuts it too fine for your plans."
       },
       {
         "type": "section",
-        "title": "Identifying Resale Listings That Need Extra Checks",
-        "content": "**How to assess whether a resale listing is reasonable:**\n- Compare it with any known face-value or official resale options for the same event\n- Check similar seats in the same section or nearby sections on the same provider\n- Review seller information where the marketplace provides it\n- Confirm the seat location, delivery method, and transfer timing\n- Read the marketplace's buyer protection, refund, and cancellation terms\n\n**Warning signs:**\n- The listing lacks clear seat or delivery details\n- The final total rises sharply after fees\n- The seller or page pushes urgency without enough event detail\n- The listing is much higher than comparable seats for the same show\n- The delivery window is too tight for your comfort\n\nAvoid treating any markup percentage as automatically fair. Demand, seat quality, timing, and provider terms all matter."
+        "title": "Buying resale close to the show",
+        "content": "Last-minute resale is a real option, but it carries less margin for error. Listings can move late, in either direction, and a tight delivery window leaves little time to fix a transfer that stalls.\n\nIf you are buying near the date, confirm the seat details, the final total, and — above all — that the delivery or transfer can realistically complete before doors. The trade-off is straightforward: waiting changes your options without promising a better one, so decide on the current page, not on a rule of thumb."
       },
       {
         "type": "section",
-        "title": "Why Last-Minute Resale Can Change",
-        "content": "Resale listings can change close to an event, but the direction is not predictable. Waiting can leave you with different options, fewer suitable seats, tighter delivery timing, or a higher final total.\n\nIf you are considering a late resale purchase, check the exact seat details, delivery timing, and final total before paying. Make sure mobile transfer or other delivery methods can be completed before the event.\n\nThe practical trade-off is simple: waiting changes your options, but it does not guarantee a better outcome. Use current provider information, not a general rule, to decide."
-      },
-      {
-        "type": "section",
-        "title": "Why General Market Rules Are Unreliable",
-        "content": "It is tempting to use broad rules about cities, genres, seasons, or artist popularity, but those rules can become misleading quickly.\n\nTwo events by the same artist can have different seat maps, delivery rules, fees, demand, currency, and resale listing behavior. A festival date can work differently from a headline show. A weekend date can work differently from a weekday date.\n\nFor that reason, do not rely on a genre or city rule to decide whether to buy. Compare the exact event, seat details, final checkout total, delivery timing, and provider terms shown now."
-      },
-      {
-        "type": "section",
-        "title": "Checklist: Is This Resale Deal Worth Buying?",
-        "content": "Before you commit to a resale purchase, check:\n\n- **Seller information:** Does the marketplace show useful seller history or listing detail?\n- **Delivery timing:** Does the delivery method fit the event date and your travel plans?\n- **Seat location:** Can you confirm section, row where available, and any restricted-view notes?\n- **Final total:** Have you reviewed fees, taxes, delivery, and currency conversion where shown?\n- **Provider terms:** Have you read buyer protection, refund, cancellation, postponement, and transfer terms?\n- **Comparable listings:** Are similar seats on the same provider priced very differently, and can you explain why?\n- **Official alternatives:** Are primary or official resale tickets still available?\n\nOnly buy when the current provider page gives you enough information to make a confident decision."
+        "title": "Before you commit",
+        "content": "Run through this before paying for any resale ticket:\n\n- **Seller** — does the marketplace show history or detail you can use?\n- **Delivery** — does the method and timing fit the date and your travel?\n- **Seats** — can you confirm the section, row where shown, and any view notes?\n- **Total** — have you seen the full figure after fees, taxes, and delivery?\n- **Terms** — have you read buyer protection, refunds, cancellation, postponement, and transfer rules?\n- **Comparison** — if similar seats are priced very differently, can you say why?\n- **Alternatives** — are primary or official resale tickets still going?\n\nBuy only when the page gives you enough to decide with confidence. TourTicketCompare links to checked destinations but does not verify individual sellers or listings — the marketplace sets the final total and terms at checkout."
       },
       {
         "type": "section",
         "title": "FAQ",
-        "content": "**Why are some resale tickets below an earlier listed price?**\n\nSeller-set listings can change for many reasons. Do not rely on a pattern, and always confirm fees, delivery, and terms before paying.\n\n**Is it ever worth paying a large markup for resale?**\n\nThat depends on your budget, seat preference, demand for the event, and whether official options remain. Treat very high markups as a reason to slow down and compare alternatives.\n\n**Can I negotiate price on resale platforms?**\n\nMost resale marketplaces use seller-set listing prices. Some platforms may support offers for certain listings, but you should follow the marketplace's current rules.\n\n**What if a resale ticket does not deliver before the show?**\n\nContact the provider through its official support process and follow the buyer protection terms shown for your order. Review those terms before purchasing.\n\n**Can resale cost more than primary?**\n\nIt can, but no single rule applies to every event. Compare current final totals, seat details, delivery timing, and provider terms."
+        "content": "**Why is a resale ticket cheaper than it was earlier?**\n\nSellers change their listings for all sorts of reasons. There is no pattern to rely on, so confirm the current fees, delivery, and terms before paying.\n\n**Is a big markup ever worth paying?**\n\nThat is your call, based on your budget, how much the seat matters, and whether official options are still open. A very high markup is a reason to slow down and look at the alternatives first.\n\n**Can I haggle on a resale platform?**\n\nMost use fixed seller-set prices. A few support offers on some listings — follow the marketplace's own rules if so.\n\n**What if a resale ticket never arrives?**\n\nContact the marketplace through its official support and follow the buyer-protection terms for your order. Read those terms before you buy, not after.\n\n**Can resale cost more than primary?**\n\nIt often does, but not always, and no rule covers every event. Compare the current totals, seats, delivery timing, and terms."
       },
       {
         "type": "section",
-        "title": "Conclusion",
-        "content": "Resale ticket pricing reflects supply, demand, seller motivation, seat details, delivery timing, and platform fees. Early resale listings can carry high markups, while later listings may change as sellers adjust—but neither direction is guaranteed.\n\nUse official sources where available, review resale listings carefully, and confirm final total, delivery method, buyer protection, refund, transfer, and cancellation terms before buying."
+        "title": "The short version",
+        "content": "A resale price is a seller's asking figure, shaped by remaining official stock, the seat, and how close the show is — then changed again by marketplace fees. It does not follow a pattern you can time.\n\nStart with official sources where they exist, read resale listings closely, and confirm the final total, delivery method, and buyer-protection, refund, transfer, and cancellation terms before you buy. For how this sits alongside official tickets, see [primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)."
       }
     ]
   },
@@ -307,42 +282,42 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Search for the same show across a few ticketing sites and you will often see different first prices, fees, delivery terms, or seat details. No general guide can pick the right current listing for your order.\n\nThis guide explains why totals vary between sites and how to compare provider pages yourself before you reach checkout."
+        "content": "Look up the same concert on Ticketmaster, SeatGeek, and Vivid Seats and the prices rarely line up. One shows a low headline figure that climbs at checkout; another quotes more up front but in a better seat; a third is all resale. None of that means one site is ripping you off and another is a bargain — it usually means you are looking at different tickets, sold in different ways.\n\nThis guide explains what drives those gaps so you can compare the pages yourself, fairly, before you reach anyone's checkout. It is a manual comparison: TourTicketCompare does not pull live prices from these sites or rank them for you."
       },
       {
         "type": "section",
-        "title": "Primary versus resale inventory",
-        "content": "A major driver of price differences is whether you are looking at **primary**, **official resale**, or **marketplace resale** tickets.\n\n**Primary tickets** come through official event ticketing paths named by the artist, venue, promoter, or event source.\n\n**Resale tickets** are listed by sellers who already hold, or expect to transfer, tickets. Marketplaces such as SeatGeek, StubHub, and Vivid Seats can include resale listings depending on the event and region.\n\nSome platforms operate in more than one role depending on the event. The site name alone does not always tell you what type of ticket you are viewing, so check the provider's labeling and terms."
+        "title": "Primary or resale — the biggest reason prices differ",
+        "content": "The single largest cause of a price gap is whether you are looking at primary or resale tickets, and the three sites do not all play the same role.\n\n- **Primary tickets** are sold through the official path for the event — the channel the artist, venue, or promoter has authorised. Ticketmaster is primarily a primary seller.\n- **Resale tickets** are listed by people or businesses who already hold them. SeatGeek and Vivid Seats are largely resale marketplaces, though what appears depends on the event and your region.\n\nThe complication is that some platforms wear more than one hat depending on the show, and the site name alone will not always tell you which. Check how the listing is labelled and read the terms before assuming you are comparing like with like."
       },
       {
         "type": "section",
-        "title": "How booking fees affect the final total",
-        "content": "Many ticketing platforms add service fees, order fees, facility charges, taxes, delivery charges, or currency conversion before payment. These charges vary by provider, event, region, and order.\n\nA lower headline price can lead to a higher final checkout total once fees and terms are shown. A higher headline price can also come with different seat details or delivery rules.\n\n**Check the full checkout total** before deciding whether two options are comparable. The displayed price and the amount you pay at checkout may not be the same number."
+        "title": "Fees, and why the headline lies",
+        "content": "Most of these platforms add charges on top of the listed price — service fees, order fees, facility charges, taxes, delivery, and sometimes currency conversion — and they differ by provider, event, and region.\n\nThis is where a side-by-side comparison goes wrong. The site with the lowest headline can end up the dearest once its fees load, and the one that quotes higher up front may be showing an all-in figure. The displayed price and the amount you actually pay are often two different numbers, so the only fair comparison is the full total at the final order screen on each site."
       },
       {
         "type": "section",
-        "title": "Dynamic pricing on primary platforms",
-        "content": "Some events may use provider pricing methods where certain ticket categories, packages, or seats can change under event-specific rules. Other events may use fixed pricing, official resale, premium categories, or other sale structures.\n\nDo not assume TourTicketCompare can confirm a current price just because a ticket page or queue shows one. The provider controls current pricing, availability, fees, and checkout rules.\n\nResale prices are seller-set under marketplace rules and should be checked separately from primary or official resale options."
+        "title": "Demand-based pricing on primary sites",
+        "content": "On some events, a primary platform prices certain seats or categories by demand, so the figure can move while the show is selling. Others use fixed prices, official resale, or premium tiers. Either way, seeing a price on a queue or seat map is not a promise — the provider settles it at checkout.\n\nResale listings are a separate thing again: those prices are set by individual sellers under the marketplace's rules, so check them on their own rather than reading them as a primary-versus-primary comparison."
       },
       {
         "type": "section",
-        "title": "Seat location and section differences",
-        "content": "Two tickets on the same platform at different prices may simply be in different parts of the venue. Two tickets on different platforms at different prices may be in different sections entirely, even if the listing titles sound similar.\n\nBefore comparing prices across sites, confirm that the listings you are comparing are for the same section, the same tier, and where possible, a similar row. Floor-level general admission and upper-tier seated tickets for the same show can appear at very different prices, and a side-by-side platform comparison only makes sense if both listings are genuinely equivalent."
+        "title": "You might be comparing different seats",
+        "content": "Two prices that look comparable can be for completely different parts of the venue. Even when listing titles sound alike, a floor general-admission ticket and an upper-tier seat for the same show sit at very different prices for good reason.\n\nBefore you read anything into a price gap, confirm the listings are for the same section, the same tier, and — where the seat map shows it — a comparable row. A cross-site comparison only means something when both tickets are genuinely equivalent."
       },
       {
         "type": "section",
-        "title": "Delivery method and timing",
-        "content": "Delivery method and timing can affect whether a ticket works for your plans. A provider may use mobile delivery, app transfer, delayed transfer, email, pickup, shipping, or another method.\n\nSome delivery methods may add fees or have timing restrictions. Check when the provider says tickets will be delivered and confirm it suits your situation, particularly if you are travelling or need to make transport arrangements in advance."
+        "title": "Delivery and timing differ too",
+        "content": "How and when a ticket reaches you can vary between sites for the same event: instant mobile, app transfer, delayed transfer, email, pickup, or post. Some methods add a fee or come with timing limits.\n\nA cheaper ticket that only transfers the night before is not the cheaper option if you are flying in or meeting a group at the door. Check the stated delivery date on each listing — [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) goes into this in more detail."
       },
       {
         "type": "section",
-        "title": "Buyer protection and seller terms",
-        "content": "Platforms differ in the terms they offer, particularly on resale inventory. Published protection, refund, cancellation, invalid-ticket, and non-delivery terms can vary by provider, event, ticket type, and order.\n\nBefore purchasing from a resale site:\n- Check whether the platform publishes buyer-protection or dispute terms\n- Read what those terms cover for non-delivery, invalid tickets, cancellation, postponement, and event changes\n- Review seller information if individual seller details are shown\n- Confirm refund and cancellation terms before completing the purchase"
+        "title": "Buyer protection varies by platform",
+        "content": "Cover for non-delivery, invalid tickets, cancellations, and postponements is not standard across sites, and it matters most on resale. Before buying from a resale platform, check that it publishes buyer-protection or dispute terms, read what those terms actually cover for your order, look at any seller information shown, and confirm the refund and cancellation rules before you pay — not after."
       },
       {
         "type": "section",
-        "title": "What to check before buying from any platform",
-        "content": "- **Confirm the ticket type.** Is this a primary or resale listing? The site name alone does not always tell you.\n- **Check the final checkout total.** The headline price rarely includes all fees.\n- **Verify the seat section.** Make sure you are comparing equivalent seating areas across platforms.\n- **Review delivery timing.** Confirm when you will receive the ticket and in what format.\n- **Read the refund and cancellation terms.** These are set by the platform and vary significantly.\n- **Check buyer protection coverage.** Understand what recourse you have if something goes wrong."
+        "title": "What to check on any of them",
+        "content": "Whichever site you land on, run the same checks before buying:\n\n- **Ticket type** — primary or resale? The name on the site does not always settle it.\n- **Final total** — read it after every fee, not from the headline.\n- **Seat section** — make sure any comparison is between equivalent seats.\n- **Delivery** — confirm when and how the ticket arrives.\n- **Refund and cancellation terms** — set by the platform, and they vary a lot.\n- **Buyer protection** — know what recourse you have if it goes wrong.\n\nFor the full routine across sites, see [how to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)."
       }
     ]
   },
@@ -404,42 +379,42 @@
     "sections": [
       {
         "type": "intro",
-        "content": "There is no single best time to buy concert tickets, whatever a rule of thumb might suggest. A better approach is to weigh the things that actually matter for your show: how certain you want to be of getting in, seat choice, sitting together as a group, budget, how much risk you can take, delivery timing, and the checkout terms the provider shows.\n\nTourTicketCompare does not compare live prices, track inventory, predict future prices, or name a best time to buy. Use this guide as a cautious checklist, then confirm the final price, fees, availability, delivery method, refund rules, transfer terms, and checkout terms on the provider site before you pay."
+        "content": "\"Buy early\" and \"wait for prices to drop\" are both offered as the answer, and neither holds for every show. There is no single best moment to buy, because the right moment depends on what you are optimising for — getting in at all, a particular seat, sitting with your group, sticking to a budget, or keeping your options open.\n\nSo this guide does not name a magic day. It helps you decide which of those things matters most to you, and what that means for when to act. TourTicketCompare does not track live prices, watch inventory, or predict where a price is going — the final price, fees, availability, and terms are all on the provider's page when you check out."
       },
       {
         "type": "section",
-        "title": "Start with what you value most",
-        "content": "Different fans should make different timing choices. Before looking at listings, decide which trade-off matters most:\n\n- **Certainty:** If attending is more important than waiting for possible changes, buying earlier through an authorised path may reduce uncertainty, but it still does not guarantee a specific seat or final total until checkout is complete.\n- **Seat choice:** Earlier buying may show more available sections or rows for some events, while waiting can leave fewer options. Provider pages are the only place to confirm current seats.\n- **Group seating:** If you need seats together, waiting can make it harder to find a matching block. Check consecutive-seat details carefully before paying.\n- **Budget:** If budget is the top priority, compare final checkout totals and terms manually. Do not assume waiting will produce a lower total.\n- **Risk tolerance:** Waiting can preserve flexibility, but it can also mean less availability, tighter delivery timing, or less suitable seats."
+        "title": "Decide what you're optimising for",
+        "content": "The timing question really comes down to one earlier question: what would you most regret missing? Pick the one that matters most before you start looking.\n\n- **Getting in at all.** If being there is non-negotiable, buying early through the official path lowers the risk of missing out — though nothing is settled until checkout completes.\n- **A specific seat.** Earlier often means more sections and rows to choose from; leaving it can thin the choice. Only the provider's page shows what is actually available now.\n- **Sitting together.** Blocks of adjacent seats get harder to find the longer you wait, so check consecutive-seat detail carefully if your group needs to be together.\n- **Budget.** If money is the priority, compare final totals yourself, and do not assume waiting will bring the price down — it might not.\n- **Flexibility.** Waiting keeps your options open, but the cost is fewer seats, tighter delivery windows, and less time to fix problems."
       },
       {
         "type": "section",
-        "title": "Official onsales and early buying",
-        "content": "An official onsale or presale can be a useful starting point because it points you toward the event's authorised ticketing path. It may also give you a clearer view of seat locations, ticket types, delivery rules, and provider checkout terms at the start of the sales process.\n\nEarly buying can make sense when you want certainty, need several seats together, have specific sections in mind, or are uncomfortable with last-minute delivery risk. The trade-off is that prices, fees, availability, seat maps, queues, and delivery rules are controlled by the provider and can change or be limited. Joining a queue or seeing a first displayed price does not guarantee a successful checkout."
+        "title": "Buying early at the onsale",
+        "content": "An official onsale or presale is a sensible starting point, because it points you straight at the authorised ticketing path and usually shows the fullest picture of seats, ticket types, and terms at the start of the sale.\n\nBuying then makes most sense when you want certainty, need several seats together, have particular sections in mind, or do not want to be relying on a last-minute transfer. The catch is that the provider controls the prices, stock, seat map, and queue, all of which can change or run out — and joining a queue or seeing a first price is no guarantee you will complete checkout. For the practical drill, see [how to prepare for a concert ticket onsale](/guides/how-to-prepare-for-a-ticket-onsale)."
       },
       {
         "type": "section",
-        "title": "Waiting and resale trade-offs",
-        "content": "Waiting can make sense when your plans are flexible, you are comfortable with uncertainty, and you are willing to keep checking provider pages for current availability and final totals. It is not a guaranteed savings strategy.\n\nResale marketplaces reflect seller decisions, platform rules, demand, seat location, event timing, and delivery constraints. Some listings may change as an event approaches, but the direction is not predictable from a general guide. Waiting can leave you with fewer seats, less time to resolve delivery issues, or final totals that do not fit your budget."
+        "title": "Waiting, and what resale really offers",
+        "content": "Waiting suits flexible plans and a tolerance for uncertainty — and a willingness to keep checking back. What it is not is a reliable way to pay less.\n\nResale listings move with seller decisions, demand, seat location, and how close the show is, and the direction is not predictable in advance. Hold off and you might find a better price; you might equally find fewer suitable seats, a tighter delivery window, or a higher total than the one you passed up. There is no pattern to lean on, only the listings actually in front of you."
       },
       {
         "type": "section",
-        "title": "Delivery timing matters",
-        "content": "Ticket delivery can be immediate, delayed, mobile-transfer based, or subject to provider and event rules. Late purchases require extra care because there may be less time to resolve account issues, transfer delays, payment holds, or event-entry problems.\n\nBefore buying, confirm when and how the provider says tickets will be delivered, whether transfer restrictions apply, and what support or refund terms apply if delivery does not work as expected."
+        "title": "Why buying late raises the stakes",
+        "content": "The closer you buy to the date, the less room there is to fix anything that goes wrong — a transfer that stalls, a sign-in problem, a payment hold, or a name mismatch at the door.\n\nBefore a late purchase, confirm how and when the ticket is delivered, whether any transfer restrictions apply, and what support exists if delivery fails. A great-looking ticket that cannot reach you in time is no use at all."
       },
       {
         "type": "section",
-        "title": "Provider terms decide the final details",
-        "content": "TourTicketCompare can help you find checked ticket destinations where available, but the provider site controls the live transaction. Before committing, confirm all of these on the provider page:\n\n- Final checkout total, including fees, taxes, delivery charges, and currency conversion where shown\n- Current availability for the exact event and seats\n- Seat section, row, view restrictions, and whether seats are together\n- Ticket type, delivery method, transfer timing, and mobile-entry requirements\n- Refund, cancellation, postponement, resale, and support terms\n\nIf any detail is unclear, pause before paying."
+        "title": "The provider settles the details",
+        "content": "Whenever you buy, the live transaction happens on the provider's page, so confirm these there before committing:\n\n- The final total, after fees, taxes, delivery, and any currency conversion.\n- Current availability for the exact event and seats.\n- Seat section, row, view notes, and whether the seats are together.\n- Ticket type, delivery method, transfer timing, and any mobile-entry requirement.\n- Refund, cancellation, postponement, resale, and support terms.\n\nIf any of it is unclear, pause before you pay."
       },
       {
         "type": "section",
-        "title": "A conservative timing checklist",
-        "content": "Use this checklist instead of relying on a prediction:\n\n1. Confirm the artist, event date, venue, and authorised ticket path from official or checked sources.\n2. Decide whether certainty, seat choice, group seating, budget, or flexibility matters most.\n3. Compare only final checkout totals for the same event and similar seats.\n4. Read delivery, refund, transfer, and cancellation terms before payment.\n5. Avoid advice that promises a specific lower-price day, genre pattern, time window, or predictable price movement.\n6. Buy only when the current provider terms fit your budget and risk tolerance."
+        "title": "A timing checklist that doesn't guess",
+        "content": "Instead of betting on a prediction:\n\n- Confirm the artist, date, venue, and the authorised ticket path from official or checked sources.\n- Decide whether certainty, seat choice, group seating, budget, or flexibility comes first.\n- Compare final totals only for the same event and similar seats.\n- Read the delivery, refund, transfer, and cancellation terms before paying.\n- Ignore advice promising a specific cheap day, genre pattern, or predictable price swing.\n- Buy only when the current terms fit your budget and how much risk you want to take."
       },
       {
         "type": "section",
         "title": "FAQ",
-        "content": "**Does TourTicketCompare know the best time to buy?**\n\nNo. TourTicketCompare does not compare live prices, track provider inventory, predict future prices, or promise the best time to buy.\n\n**Should I always buy early?**\n\nNot always. Buying earlier can help with certainty, seat choice, and group seating, but provider checkout terms and final totals still need to work for you.\n\n**Is waiting a reliable way to pay less?**\n\nNo. Waiting may help some flexible buyers in some situations, but it can also mean fewer seats, tighter delivery timing, or a higher final total.\n\n**What should I confirm before paying?**\n\nConfirm final price, fees, availability, seat details, delivery timing, refund terms, transfer rules, and checkout terms on the provider site."
+        "content": "**Do you know the best time to buy?**\n\nNo. We do not compare live prices, track inventory, or predict where a price is heading, so we cannot name a best moment to buy.\n\n**Should I always buy early?**\n\nNot always. Early helps with certainty, seat choice, and group seating, but the total and terms at checkout still have to work for you.\n\n**Is waiting a reliable way to pay less?**\n\nNo. It can pay off for flexible buyers in some cases, but it can just as easily mean fewer seats, tighter delivery, or a higher total.\n\n**What should I confirm before paying?**\n\nThe final price, fees, availability, seat details, delivery timing, and the refund, transfer, and cancellation terms — all on the provider's page."
       }
     ]
   },
@@ -447,42 +422,42 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Search for concert tickets and you may see three kinds of listing: primary, official resale, and marketplace resale. The difference matters, because it shapes who sets the price, how the ticket reaches you, and which provider terms apply.\n\nThis guide walks through those differences without claiming that any one ticket type is cheaper, safer, or better for every event."
+        "content": "When you search for a concert ticket, you are usually looking at one of three things, even if the page does not spell it out: a primary ticket, an official resale, or a marketplace resale. They can sit side by side on the same screen, but they are not the same purchase. Which one you are buying decides who set the price, how the ticket reaches you, and whose terms apply if anything changes.\n\nThis guide explains the differences plainly, without pretending any one type is always cheaper, safer, or the right call. The aim is to know what you are looking at before you pay."
       },
       {
         "type": "section",
-        "title": "Primary tickets: official face-value inventory",
-        "content": "Primary tickets are sold through official event channels such as the venue, promoter, or authorised ticketing partner. For a specific event, check the artist, venue, promoter, or official event source to confirm the authorised path.\n\n**Key characteristics of primary tickets:**\n- Sold through official event ticketing paths\n- May include face-value tickets, premium categories, packages, or event-specific pricing rules\n- Usually governed by provider purchase limits and event-specific terms\n- Refund, cancellation, delivery, transfer, and resale rules vary by event and provider\n- Platform restrictions may apply to mobile delivery, paperless entry, transfers, or resale"
+        "title": "Primary tickets: straight from the source",
+        "content": "A primary ticket is sold through the event's official channel — the venue, the promoter, or the ticketing partner they have authorised. For any given show, confirm that path with the artist, venue, or promoter rather than assuming it from the platform's name.\n\nPrimary tickets usually behave in predictable ways:\n\n- They are sold through the authorised channel, sometimes with face-value seats and sometimes with premium categories or packages.\n- Purchase limits and event-specific terms apply.\n- Refund, cancellation, delivery, transfer, and resale rules vary by event and provider.\n- Some tickets carry restrictions — paperless entry, locked transfers, or named-holder rules — that you cannot change after buying."
       },
       {
         "type": "section",
-        "title": "Resale tickets: secondary market inventory",
-        "content": "Resale tickets are listed by sellers who already hold, or expect to transfer, tickets. Prices are set by sellers subject to marketplace rules rather than by TourTicketCompare.\n\nCommon resale marketplaces include StubHub, SeatGeek, Vivid Seats, and regional platforms. Some primary ticketing platforms also operate official resale flows for certain events.\n\n**Key characteristics of resale tickets:**\n- Seller-set prices can differ from official source prices\n- Listings can appear, change, or disappear before checkout is complete\n- Provider terms and protections vary by platform, event, ticket type, and order\n- Delivery and transfer timing depends on the listing and marketplace rules\n- TourTicketCompare does not certify individual sellers or listings"
+        "title": "Resale tickets: bought from someone else",
+        "content": "A resale ticket is listed by someone who already holds it, or expects to be able to transfer it. The price is the seller's, set within the marketplace's rules, not anyone's official figure. StubHub, SeatGeek, and Vivid Seats are largely resale marketplaces, and some primary platforms run their own official resale for certain shows.\n\nWhat that means in practice:\n\n- Seller-set prices can sit above or below what official channels charged.\n- A listing can change or disappear while you are still deciding.\n- Protection and terms differ by platform, event, and order.\n- Delivery and transfer timing depend on the individual listing.\n\nTourTicketCompare links to checked destinations but does not certify individual sellers or listings."
       },
       {
         "type": "section",
-        "title": "How to tell which type you are looking at",
-        "content": "The platform name alone does not reliably tell you whether you are buying primary or resale. Some platforms sell in more than one role depending on the event.\n\nSignals to check:\n- Whether the platform is named by the artist, venue, promoter, or official event source\n- Whether the listing is labelled primary, official resale, marketplace resale, verified resale, or seller-listed\n- Whether seller information, delivery timing, or transfer rules are shown\n- Whether the provider terms explain refund, cancellation, transfer, and event-change rules\n\nWhen in doubt, return to the artist, venue, promoter, or official event page to confirm the authorised ticketing path."
+        "title": "Working out which one you're looking at",
+        "content": "The platform's name will not reliably tell you, because some sites sell in more than one role depending on the event. Read the listing instead:\n\n- Is the platform named as an official source by the artist, venue, or promoter?\n- Is the listing labelled — primary, official resale, verified resale, or seller-listed?\n- Does it show seller information, delivery timing, or transfer rules?\n- Do the terms set out refund, cancellation, transfer, and event-change rules?\n\nIf you cannot tell, go back to the artist, venue, or promoter page and confirm the authorised path from there."
       },
       {
         "type": "section",
-        "title": "Fees: how they differ between primary and resale",
-        "content": "Both primary and resale platforms may charge fees on top of the listed price. The structures differ by provider, event, region, and order.\n\n**Primary platform fees** may include service fees, order fees, facility fees, taxes, delivery charges, or other provider-disclosed charges.\n\n**Resale platform fees** may include seller fees, buyer fees, service fees, delivery charges, taxes, or currency conversion where shown.\n\nAlways review the final checkout total on both types of platform before deciding where to buy. The final total is the only number to compare once the provider has shown the relevant charges."
+        "title": "Fees on each side",
+        "content": "Both kinds of platform add charges on top of the listed price, and the structures differ by provider, event, and region.\n\nOn primary platforms that tends to mean service, order, and facility fees, taxes, and delivery charges. On resale platforms you may see buyer fees, service fees, delivery, and currency conversion, with the seller paying their own fees out of the headline figure. Either way, the number that counts is the final checkout total once everything is shown — that is the only figure worth comparing between the two."
       },
       {
         "type": "section",
-        "title": "Buyer protection: what each type typically covers",
-        "content": "**Primary tickets** bought through authorised platforms are governed by that provider's event-specific refund, cancellation, postponement, delivery, transfer, and resale rules.\n\nTransfer and resale restrictions may apply. Some ticket types may be delayed, restricted, or non-transferable depending on the event.\n\n**Resale tickets** carry varying levels of protection depending on the platform, event, listing, and order. A marketplace may publish terms for non-delivery, invalid tickets, cancellations, postponements, and disputes, but coverage can differ.\n\nRead the specific provider terms before purchasing instead of assuming a guarantee applies."
+        "title": "What protection you actually get",
+        "content": "A primary ticket bought through an authorised platform comes under that provider's event-specific terms for refunds, cancellations, postponements, delivery, and transfer. Some tickets are delayed, restricted, or non-transferable depending on the event.\n\nResale protection is more variable. A marketplace may publish terms covering non-delivery, invalid tickets, cancellations, and disputes, but the cover differs from platform to platform and order to order. Read the specific terms before you buy rather than assuming a blanket guarantee applies."
       },
       {
         "type": "section",
-        "title": "Transfer and delivery timing",
-        "content": "**Primary tickets** are typically delivered immediately after purchase as mobile tickets, e-tickets, or occasionally by post. Delivery timing is controlled by the platform.\n\n**Resale tickets** depend on when the original ticket holder transfers them. Some sellers transfer immediately; others wait until close to the event date. Resale platforms typically set a deadline by which tickets must be transferred, but the practical window can be narrower than it appears.\n\nIf you are travelling to attend an event or need to arrange transport in advance, confirm the expected delivery timing before purchasing on a resale platform."
+        "title": "When the ticket actually arrives",
+        "content": "Primary tickets are usually delivered soon after purchase — as mobile tickets, e-tickets, or occasionally by post — with timing the platform controls.\n\nResale is different: the ticket arrives when the seller transfers it. Some transfer at once; others wait until close to the date. Marketplaces set a deadline by which transfer must happen, but the real-world window can be tighter than it looks. If you are travelling or arranging transport in advance, confirm the expected delivery timing before buying — [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) covers this in full."
       },
       {
         "type": "section",
-        "title": "Which should you choose?",
-        "content": "**Consider primary or official resale when:**\n- The platform is named by official event sources\n- The ticket type, seat details, final total, delivery method, and provider terms work for your plans\n- You want to start with the authorised ticketing path before checking marketplace resale\n\n**Consider marketplace resale only after extra checks when:**\n- You understand it is seller-set inventory\n- The listing clearly shows event, seat, delivery, transfer, and provider terms\n- The current final total fits your budget and risk tolerance\n\nIn both cases, confirm the final checkout total, verify the seat section, and read refund, cancellation, delivery, and transfer terms before committing."
+        "title": "So which should you pick?",
+        "content": "**Start with primary or official resale** when the platform is the named official source and the seats, total, delivery, and terms suit you — it is the natural first place to look.\n\n**Move to marketplace resale** when official options are gone or do not fit, and only after the extra checks: knowing it is seller-set, seeing clear seat, delivery, and transfer detail, and being comfortable with the total.\n\nEither way, the last steps are the same — confirm the final total, check the seat section, and read the refund, cancellation, delivery, and transfer terms before you commit."
       }
     ]
   },
@@ -490,27 +465,27 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Searching for a SeatGeek promo code is common enough, but whether a code works can depend on your account, the event, your order total, where you are, how you pay, and SeatGeek's current terms. This guide explains how to check a promo claim carefully rather than assume it will apply.\n\nTourTicketCompare does not publish unverified promo codes, promise discounts, or control what happens at provider checkout. Code eligibility, any savings, fees, availability, and terms are all confirmed on SeatGeek during checkout."
+        "content": "Search for a SeatGeek promo code and you will find plenty of them listed across coupon sites and social posts. The harder question is whether any given code will actually do anything for your order, because that depends on your account, the event, your order total, where you are, and SeatGeek's own terms at the moment you check out. A code can be perfectly real and still apply nothing to your basket.\n\nThis guide explains how promo codes generally work, why they often fail, and how to test one safely. It is about the method, not a list of codes: TourTicketCompare does not publish promo codes, promise a discount, or control what happens at SeatGeek's checkout. Whether a code applies, and the final total, are decided by SeatGeek when you enter it."
       },
       {
         "type": "section",
-        "title": "How to Verify a SeatGeek Promo Claim Safely",
-        "content": "1. Start from SeatGeek's official app or website.\n2. Confirm the event, seat details, and ticket type you actually want.\n3. Enter the code exactly as shown (capitalization/spaces can matter).\n4. Review any code message shown by SeatGeek before paying.\n5. Compare the final checkout total with and without the code where possible.\n6. Confirm fees, taxes, delivery, and transfer terms before placing the order."
+        "title": "How promo codes usually work",
+        "content": "A promo code is a rule attached to an account or an order, not a fixed amount that works everywhere. When you enter one, the platform checks it against conditions it has set in advance, and only applies it if every condition is met. Codes commonly come with rules such as:\n\n- **First-order or new-account only**, so an existing account sees nothing.\n- **A minimum spend** the order has to clear before the code does anything.\n- **Event, team, genre, or region limits**, so a music code may not touch a sports listing, or a US code may not apply abroad.\n- **Ticket-type exclusions**, where some categories or partner listings are not eligible.\n- **An expiry date and a single use** per account.\n\nBecause the rule is checked live, the only place you learn whether a code applies to your specific order is the checkout screen itself."
       },
       {
         "type": "section",
-        "title": "Common Reasons a Promo Code May Not Apply",
-        "content": "Promo codes may fail for many normal reasons, including first-order limits, minimum spend, excluded events, excluded ticket types, account restrictions, expiration, region limits, or one-time-use limits. A code being visible online does not prove it is currently valid for your order."
+        "title": "How to test a promo code safely",
+        "content": "If you want to try a code, do it inside the real purchase flow so you can see exactly what it does before you commit:\n\n- Start from SeatGeek's official app or website, not a link in a message or advert.\n- Build the order you actually want first — the right event, date, seats, and quantity.\n- Enter the code exactly as written. Capitalisation and stray spaces can stop it matching.\n- Read any message SeatGeek shows when the code is applied or rejected; it usually says why.\n- Look at the final total with the code applied, and check it against the total without it.\n- Confirm fees, taxes, delivery, and transfer terms before you place the order.\n\nIf a code does nothing, that is normal and not a sign anything is wrong. Decide whether the order still works for you at the full total rather than hunting for another code under time pressure."
       },
       {
         "type": "section",
-        "title": "Checkout Checklist Before You Buy",
-        "content": "- Confirm artist, date, venue, and city.\n- Confirm section/row or listing details where shown.\n- Review final total after any code and all fees.\n- Check delivery timing and transfer method.\n- Read SeatGeek's current refund/cancellation and buyer terms for your order.\n- Save your order confirmation and support links."
+        "title": "Staying safe while you search for codes",
+        "content": "Promo-code searches are a common hook for phishing and lookalike sites, because people are actively looking for a deal and willing to click. Keep a few habits:\n\n- Enter codes only at SeatGeek's own checkout, never on a third-party page that asks you to \"validate\" a code by signing in.\n- Ignore codes that arrive by direct message or that demand personal or payment details up front.\n- Check the domain in the address bar before signing in — a padlock alone does not prove a site is genuine.\n\nA code is never worth handing your login or card details to a site you cannot verify."
       },
       {
         "type": "section",
-        "title": "Important Limits",
-        "content": "TourTicketCompare is an independent research site. We do not guarantee promo availability, discount size, inventory, or final checkout totals. SeatGeek controls promo eligibility and order terms at checkout."
+        "title": "What to confirm before you buy",
+        "content": "Whether or not a code applies, run the same final checks:\n\n- Artist, date, venue, and city match the show you want.\n- Section, row, or listing details are clear for the seats you are buying.\n- The final total — after any code and all fees — is one you are happy with.\n- Delivery timing and transfer method suit your plans.\n- SeatGeek's current refund, cancellation, and buyer terms cover your order.\n- You have saved the confirmation and support links once the order goes through.\n\nTourTicketCompare is an independent research site. We do not control promo availability, the size of any reduction, inventory, or the checkout total — SeatGeek sets those when you order."
       }
     ]
   },
@@ -522,22 +497,22 @@
       },
       {
         "type": "section",
-        "title": "What Ticket Fees Can Include",
+        "title": "What ticket fees can include",
         "content": "Ticket fees are not a single charge. Depending on the provider, the event, the ticket type, your location, and the delivery method, a checkout total can include several separate items:\n\n- Service fees, sometimes shown per ticket, that the provider applies on top of the face value.\n- Order or processing fees applied once per order rather than per ticket.\n- Facility or venue fees associated with the venue rather than the provider.\n- Delivery or fulfilment charges, which can depend on whether tickets are sent by mobile transfer, email, or post.\n- Taxes, where they apply to the order.\n- Currency conversion charges, where you are buying in a currency different from your card's currency.\n\nNot every order includes every item, and the names providers use can differ. The point is to expect more than one line on the final order summary."
       },
       {
         "type": "section",
-        "title": "Why the First Price May Not Be the Final Total",
+        "title": "Why the first price isn't the final total",
         "content": "The price shown on a listing or a search result is often a starting figure rather than the amount charged. Fees can be presented at different stages of checkout depending on the provider and the market.\n\n- Some markets require providers to show an all-in price from the start; others allow fees to appear later in checkout.\n- Different ticket types for the same event can carry different fees, so two listings that look similar may not end at the same total.\n- Optional extras, such as certain delivery methods or add-ons, can change the figure when they are selected.\n\nThis does not mean fees are always hidden or always added late. It means the headline price is not a reliable comparison number on its own, so read through to the final order summary before deciding."
       },
       {
         "type": "section",
-        "title": "How to Compare Fees Safely",
+        "title": "How to compare fees fairly",
         "content": "To compare options fairly, compare the final checkout total for genuinely equivalent tickets, not the first displayed price.\n\n- Confirm you are comparing the same event, date, venue, section, ticket type, and quantity.\n- Progress each option to the order summary so every fee is visible before you compare.\n- Check the delivery method on each option, since a lower total may rely on a delivery method that does not suit your timing.\n- Re-check totals close to the time you buy, because fees and availability can change.\n\nTourTicketCompare does not claim that any provider is cheaper or more expensive, and it does not compare live prices for you. The comparison is a manual check you make on the provider sites. For a step-by-step routine, see [how to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)."
       },
       {
         "type": "section",
-        "title": "Practical Checklist",
+        "title": "Practical checklist",
         "content": "Before you pay, work through this checklist:\n- Find the final order summary and read every line, not just the face value.\n- Identify which charges are mandatory and which come from optional choices.\n- Confirm the delivery method and timing work for your plans.\n- Check the refund, exchange, and cancellation terms for this exact order.\n- Compare the complete totals of equivalent tickets, not headline prices.\n- Confirm the total still fits your budget once all fees are included.\n- If you cannot see a clear final total, pause before buying."
       },
       {
@@ -547,7 +522,7 @@
       },
       {
         "type": "section",
-        "title": "Next Steps",
+        "title": "Next steps",
         "content": "Understanding fees is one part of a careful buying decision. These guides cover the rest:\n- [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices) gives a full comparison routine.\n- [Why concert ticket prices change](/guides/why-ticket-prices-change) explains why totals can move over time.\n- [How to avoid overpaying for concert tickets](/guides/how-to-avoid-overpaying-for-concert-tickets) covers practical checks before you commit.\n- [Why prices vary between ticket sites](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats) explains how fees and inventory can differ between platforms."
       }
     ]
@@ -556,27 +531,27 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Delivery timing can matter as much as price. Some tickets transfer to you straight away; others are held back until closer to the event. This guide helps you check how and when a ticket will arrive before you pay."
+        "content": "Two tickets for the same show can be worth very different amounts to you depending on one thing the price never shows: when the ticket actually reaches you. Some arrive the moment you pay. Others sit with the seller or the provider until days before the show, sometimes hours. If you are travelling in, meeting friends at the door, or buying as a gift, that timing is not a detail — it shapes the whole decision.\n\nThis guide explains the common delivery methods, why tickets are sometimes held back, and what to confirm before you pay. TourTicketCompare points you to checked ticket links, but the delivery method, the transfer window, and what happens if a ticket never arrives are all set by the provider and shown on its checkout page."
       },
       {
         "type": "section",
-        "title": "Common Delivery Methods",
-        "content": "Providers may use mobile app delivery, account transfer, email delivery, venue pickup, or shipping. The method can differ by event, seller type, and ticket category."
+        "title": "The main delivery methods, and what each means for you",
+        "content": "Most tickets reach buyers in one of a few ways, and each carries a different kind of risk:\n\n- **Mobile transfer to your account** — the ticket moves into your app or provider account and the previous holder loses access. This is the cleanest outcome, because there is a clear record that the ticket is now yours.\n- **Instant mobile or e-ticket download** — a digital ticket you can open straight after paying. Useful for last-minute buys, but check whether it is a transferable in-account ticket or a static file.\n- **Delayed delivery** — the ticket is promised but not released until closer to the event. Common on major tours as an anti-touting measure. You have paid, but you are waiting.\n- **Will-call or venue pickup** — you collect on the day, usually with photo ID and the payment card.\n- **Postal delivery** — physical tickets sent by mail, now less common and the slowest to resolve if something goes wrong.\n\nThe method is usually shown on the listing or at checkout. If you cannot tell which one applies, treat that as a question to answer before paying, not after."
       },
       {
         "type": "section",
-        "title": "Why Timing Risks Happen",
-        "content": "Delays can occur when transfer windows open later, seller fulfilment is pending, or event rules require closer-to-show delivery. These situations are not always a scam, but they increase planning risk for travel and group entry."
+        "title": "Why tickets get held back",
+        "content": "A delayed or restricted delivery window is not automatically a warning sign. There are ordinary reasons a provider or seller holds a ticket back:\n\n- **Anti-touting controls.** Many tours deliberately delay transfer so tickets cannot be resold easily before the show.\n- **Locked transfer dates.** Some primary tickets cannot be transferred at all until a set date, even between friends.\n- **Resale fulfilment.** On a marketplace, the seller may not transfer until their own ticket clears, which can land close to the event.\n- **Event rules.** Paperless or named-entry tickets sometimes only become usable shortly before doors.\n\nThe problem is rarely the delay itself. It is a delay you did not expect, on a timeline that leaves no room to fix anything if the transfer fails."
       },
       {
         "type": "section",
-        "title": "Pre-Purchase Timing Checklist",
-        "content": "- Check the estimated delivery window.\n- Confirm whether all tickets in the order transfer together.\n- Read provider terms on non-delivery and support options.\n- Make sure timing works for your travel plans."
+        "title": "Where delayed delivery turns into real risk",
+        "content": "A late transfer narrows the window for sorting out anything that goes wrong — a transfer that never arrives, a sign-in problem, a payment hold, or a name mismatch at the door. Pay closer attention when:\n\n- You are travelling to the show and need the ticket settled before you leave.\n- The order has several tickets and you need all of them, together, for group entry.\n- You are buying close to the event date, so there is little slack if the transfer stalls.\n- The ticket is a gift and has to reach someone else in time.\n\nIn each of these cases, a confirmed delivery date matters as much as the seat or the total."
       },
       {
         "type": "section",
-        "title": "Conclusion",
-        "content": "Only buy when delivery timing and transfer terms are clear enough for your plans. Final delivery rules are confirmed on the provider checkout page."
+        "title": "What to confirm before you pay",
+        "content": "Run through these before entering any payment details:\n\n- **The delivery method** — mobile transfer, instant download, delayed delivery, will-call, or post.\n- **The expected delivery date or window**, especially for delayed or resale tickets.\n- **Whether every ticket in the order transfers together**, if you are entering as a group.\n- **What the provider does if a ticket never arrives** — its non-delivery and support terms.\n- **Any entry conditions** — photo ID, the original payment card, or a named lead booker.\n\nIf any of these stays unclear and the page will not clarify it, slow down. A cheaper ticket that arrives too late, or not at all, is not the better buy. Final delivery rules live on the provider's checkout page, so confirm them there before you commit. If the timing makes you uneasy, [how to read a ticket listing](/guides/how-to-read-a-ticket-listing) covers the delivery labels in more detail."
       }
     ]
   },
@@ -588,27 +563,27 @@
       },
       {
         "type": "section",
-        "title": "Before Onsale Day",
+        "title": "Before onsale day",
         "content": "- Check whether the tour uses a Verified Fan or fan-registration process and register on time if required.\n- Confirm the artist's official channels (their site or verified social accounts) for the correct onsale time, presale codes, and the official ticket provider for each show.\n- Set up your provider account in advance: confirmed email, current phone number for verification, a saved payment method, and your billing address.\n- For transfer-locked tickets, check that your account name and ID details match how you intend to enter the venue.\n- Note the onsale time in your own timezone so you are not early or late by an hour."
       },
       {
         "type": "section",
-        "title": "Understanding Your Presale Options",
+        "title": "Understanding your presale options",
         "content": "Presales can include artist fan-club, credit-card holder, venue, radio, and Verified Fan presales. Each has its own access window, code, and inventory pool. Eligibility, codes, and inventory are controlled by the provider; a code that is shared publicly online does not prove it currently works for your event. Check the artist's official announcement for which presales apply to your show and how to access them."
       },
       {
         "type": "section",
-        "title": "Onsale-Day Routine",
+        "title": "Your onsale-day routine",
         "content": "- Use one device and one browser window. Multiple sessions can trigger anti-bot controls.\n- Use a stable internet connection where possible.\n- Open the provider's queue page a few minutes before the listed start time and do not refresh once you are in the queue.\n- Know two or three seating areas you would accept, in order, so you can choose quickly.\n- Read the listing details before confirming: section, row or area, quantity, delivery method, and the full checkout total including fees.\n- Complete checkout within the timer. Abandoned carts release inventory back into the queue."
       },
       {
         "type": "section",
-        "title": "If You Do Not Get Tickets in the Onsale",
+        "title": "If you miss out in the onsale",
         "content": "Missing the initial onsale is common. Official resale on the original provider often opens later, sometimes at the original price. Verified resale marketplaces may list tickets too, but listing details and the final checkout total should be checked carefully. Avoid sellers on social media or messaging apps who ask for direct payment outside a verified platform."
       },
       {
         "type": "section",
-        "title": "Important Limits",
+        "title": "Important limits",
         "content": "TourTicketCompare does not control onsale timing, presale eligibility, queue order, inventory, prices, or fees. Provider terms and venue rules apply at checkout and at entry. Confirm everything on the provider's current pages before you commit to a purchase."
       }
     ]
@@ -621,32 +596,32 @@
       },
       {
         "type": "section",
-        "title": "Section, Row, and Seat",
+        "title": "Section, row, and seat",
         "content": "Most listings show a section, a row label, and seat numbers. Row labels are not always alphabetical from the front. Venues sometimes use double letters such as AA or BB, codes such as FL for floor, or arena-specific names. Section names can also be venue-specific. Before clicking buy, cross-check the seat against the provider's seat map for that exact venue rather than relying on assumptions about layout."
       },
       {
         "type": "section",
-        "title": "Listing Notes to Take Seriously",
+        "title": "Listing notes to take seriously",
         "content": "Providers may add short notes to a listing, such as limited view, obstructed view, side stage, behind stage, partial view, or rear stage. These notes mean the view of the stage or screens is restricted in some way and are not always reflected in the seat-map colour. Treat them as the listing's most important detail and decide whether you accept the trade-off before paying."
       },
       {
         "type": "section",
-        "title": "Ticket Type Indicators",
+        "title": "Ticket type labels",
         "content": "Listings often label whether a ticket is primary (originally issued by the venue or official platform), official resale, third-party resale, dynamically priced (provider-set premium pricing such as platinum), or part of a package. Each type has different rules for fees, transfers, refunds, and entry. The label is shown for a reason; read the linked terms before committing."
       },
       {
         "type": "section",
-        "title": "Delivery and Transfer Indicators",
+        "title": "Delivery and transfer labels",
         "content": "Common delivery indicators include mobile transfer, instant download, delayed delivery, shipped, and will-call. Each affects when and how you receive the ticket. Delayed delivery is common for major tours: the ticket is not sent until closer to the event date. Check that the timing fits your travel and entry plans, especially if you are flying in, buying as a gift, or attending with a group."
       },
       {
         "type": "section",
-        "title": "Cross-Checks Before You Buy",
+        "title": "Cross-checks before you buy",
         "content": "- The listing's event date, venue, city, and artist match the show you intend.\n- Quantity matches your group.\n- Any listing note is acceptable to you.\n- Ticket type and delivery method are acceptable for your timing.\n- The full checkout total, including all fees, is within your budget.\n- The provider's terms for this exact order, including refund and transfer rules, are readable before payment."
       },
       {
         "type": "section",
-        "title": "Important Limits",
+        "title": "Important limits",
         "content": "TourTicketCompare does not control listing details, seat map data, ticket-type labels, fees, or delivery rules. Final order details are confirmed on the provider site. If a listing detail is unclear, treat that as a reason to slow down, not a reason to buy."
       }
     ]
@@ -659,37 +634,37 @@
       },
       {
         "type": "section",
-        "title": "First: Confirm the Event Status",
+        "title": "First, confirm the event status",
         "content": "Before acting, confirm the change from a reliable source rather than a social media rumour. An event may be unchanged, postponed, rescheduled, moved, or cancelled, and each status is handled differently.\n\nReliable places to confirm the current status include:\n- Your ticket provider account, where order and event updates usually appear.\n- Your original order confirmation email, which links back to the provider.\n- The artist's official website or verified social channels.\n- The venue's official website.\n- The ticket provider's support or help page.\n\nIf two sources disagree, treat the ticket provider's own update as the one that affects your order."
       },
       {
         "type": "section",
-        "title": "Check Where You Bought the Ticket",
+        "title": "Check where you bought the ticket",
         "content": "How a change is handled depends on where you bought the ticket. Find your original order confirmation and note the provider name.\n\n- If you bought from an official primary provider, event updates and any refund or exchange steps are usually managed in that provider account.\n- If you bought from a resale marketplace, the resale platform's own terms apply, and these can differ from the primary provider's terms.\n- If you bought from an individual seller outside a recognised platform, you may have little or no structured support, which is one reason recognised checkout flows are safer.\n\nKeep your confirmation email, order number, and any reference numbers in one place so you can refer to them."
       },
       {
         "type": "section",
-        "title": "Postponed, Rescheduled, Cancelled, or Changed",
+        "title": "Postponed, rescheduled, cancelled, or changed",
         "content": "These words are often used loosely, so check exactly what the provider says.\n\n- Postponed usually means the event is delayed and a new date may be announced later. A date is not yet confirmed, and terms can vary while the event is in this state.\n- Rescheduled usually means a new date has been announced. Your existing ticket may remain valid for the new date, but you should confirm this with the provider rather than assume it.\n- Cancelled means the event is not going ahead. Whether and how a refund is handled depends on the provider and event terms, so check the provider's update directly.\n- Changed or moved events may involve a different venue, date, time, lineup, or delivery method. Even small changes can affect travel plans, so review the details carefully.\n\nDo not assume your ticket's status. Confirm it against the provider's official update."
       },
       {
         "type": "section",
-        "title": "Review Refund, Transfer, and Delivery Rules",
+        "title": "Read the refund, transfer, and delivery rules",
         "content": "Refund, transfer, resale, and delivery rules are provider-specific and event-specific. TourTicketCompare cannot tell you the outcome for your order.\n\nWhen you read the provider's update and terms, look for:\n- Whether any action is required from you, and by when.\n- Whether refunds, credits, or exchanges are being offered for your event, and how they are requested.\n- Whether tickets already delivered remain valid, or whether new tickets will be issued.\n- How transferred tickets are handled if you sent or received a ticket from someone else.\n- Any deadline for responding, since some options are time-limited.\n\nIf the terms are unclear, contact the provider's official support channel rather than relying on second-hand summaries. For a wider view of checking totals and terms before any purchase, see [how to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)."
       },
       {
         "type": "section",
-        "title": "Be Careful With Resale Tickets",
+        "title": "Take extra care with resale tickets",
         "content": "Resale tickets can add extra steps when an event changes. Buyer protections on resale marketplaces vary between platforms and are not the same as primary-provider terms, so check them directly with the platform you used.\n\n- Confirm whether the resale platform's terms cover postponed, rescheduled, or cancelled events, and what they ask you to do.\n- Remember that a rescheduled date may or may not suit the original buyer, which can affect a resale ticket's value and validity.\n- If you are considering buying a resale ticket for an event that has already changed, confirm the current event details before you commit.\n\nIf you are unsure how official and resale tickets differ, the guide on [official tickets versus resale](/guides/primary-vs-resale-concert-tickets) explains the main differences."
       },
       {
         "type": "section",
-        "title": "Watch for Scam Messages After Event Changes",
+        "title": "Watch for scam messages after a change",
         "content": "Event changes are a common moment for scams, because people are anxious and looking for fast answers. Be cautious with unexpected messages.\n\n- Do not trust direct messages, comments, or emails that pressure you to act immediately.\n- Do not send payments, ticket transfers, or personal details through chat apps, social media, or links from unverified messages.\n- Do not assume a message is official just because it uses an artist, venue, or provider name.\n- Use only the recognised checkout, account, and support flows of the provider you actually bought from.\n\nFor more detail on spotting fraud, see the guide on [avoiding ticket scams](/guides/how-to-avoid-ticket-scams)."
       },
       {
         "type": "section",
-        "title": "Practical Checklist",
+        "title": "Practical checklist",
         "content": "Use this checklist when an event changes:\n- Confirm the current event status from the ticket provider, artist, and venue.\n- Identify exactly where you bought the ticket and find your confirmation email.\n- Check whether your ticket is still valid for any new date.\n- Read the provider's refund, transfer, and delivery terms for this specific event.\n- Note any deadlines for responding or requesting a refund or exchange.\n- For resale tickets, check the resale platform's own terms.\n- Ignore unsolicited messages and use only recognised provider channels.\n- Keep records of your order details and any communication."
       },
       {
@@ -699,7 +674,7 @@
       },
       {
         "type": "section",
-        "title": "Next Steps",
+        "title": "Next steps",
         "content": "An event change is rarely welcome news, but a calm, methodical check protects you from avoidable mistakes and scams. Confirm the status, read the terms for your specific ticket, and use only recognised provider channels.\n\nThese guides can help you prepare for future bookings:\n- [When to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets) covers the main timing trade-offs.\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) explains how delivery method affects risk.\n- [How to prepare for a concert ticket onsale](/guides/how-to-prepare-for-a-ticket-onsale) helps you plan your next booking."
       }
     ]

@@ -12,17 +12,17 @@ Previous update: 2026-06-10 (unparked new-artist onboarding and public Vivid Sea
 
 Phase A is complete: the "How a data change reaches production" flow is documented in `docs/DEPLOYMENT.md` (server load via `env.ASSETS`, client load via `public/app.js`, the inlined fallback written by `scripts/sync-events-data.py`, the `public/_headers` CDN TTLs, and why `npm run events:sync` + the `stale-sync-guard` job are required). Remaining open scope is Phase B (build-time cache-bust or a stronger pre-commit hook) — only adopt if it fits the Cloudflare Pages build cleanly; do not ship a brittle cache-bust.
 
-### 2. #176 — Stale-file audit (audit only, no deletions)
+### 2. #176 — Stale-file audit + deletion (deletions done 2026-06-19)
 
-Produce evidence (grep, npm script references, workflow references, dashboard touchpoints) for each candidate:
+Audit complete; evidence-backed classification in `docs/STALE_FILE_AUDIT.md`. Candidates #1–#3 were **deleted on 2026-06-19** after owner authorisation:
 
-- `vercel.json`
-- `api/` (Vercel-style handlers)
-- `scripts/build-standalone-worker.mjs`
-- `archive/vercel-experimental/`
-- Inactive route shims: `functions/{artists,guides,how-it-works,affiliate-disclosure,editorial-policy,contact}.js`
+- ✅ `vercel.json` (deleted)
+- ✅ `api/` (9 Vercel-style handlers, deleted)
+- ✅ `scripts/build-standalone-worker.mjs` (deleted) + the stale `functions/_route-metadata.js` comment (removed)
 
-Classify each as safe-to-delete / archive-or-deprecate / keep. The evidence-backed classification is in `docs/STALE_FILE_AUDIT.md` (audit complete — no deletions). A follow-up PR may delete candidates #1–#3 (Vercel pair + standalone Worker builder + its `_route-metadata.js` comment) after a human confirms no Cloudflare/Vercel dashboard dependency.
+Verification: no `package.json`, workflow, or `functions/`/`public/` reference pointed at these; `npm run test:mvp` green post-deletion; canonical docs updated (`docs/ARCHITECTURE.md`, `docs/DEPLOYMENT.md`, `CLAUDE.md`, `PROJECT_STATUS.md`, `STALE_FILE_AUDIT.md`).
+
+Intentionally kept: `archive/vercel-experimental/README.md` (#4, harmless historical marker) and the inactive route shims `functions/{artists,guides,how-it-works,affiliate-disclosure,editorial-policy,contact}.js` (#5, documented fallback if `_middleware.js` is ever removed).
 
 ### 3. #10 — Production raw HTML verification (only if still needed)
 
@@ -92,7 +92,7 @@ These are intentionally not work until separately scoped and approved.
 - **Live price aggregation; "cheapest ticket" / "guaranteed availability" claims.** Requires approved provider feeds with explicit usage rights.
 - **Artist-level SeatGeek links and any SeatGeek price display.** (SeatGeek itself is live in production, event-level only: CTAs render where a verified `seatgeek_url` exists, routed through `/api/out` with Impact tracking. Coverage exists in `scripts/smoke-prelaunch.mjs`. Event-level URL discovery tooling is operational — see active item 4 and `docs/SEATGEEK_DISCOVERY.md`.)
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
-- **Deleting Vercel / standalone Worker / archive artefacts.** Waits on #176 audit.
+- **Deleting the remaining `archive/vercel-experimental/README.md`.** Optional, low value — kept as a historical marker. (The Vercel pair and standalone Worker builder were deleted 2026-06-19; see active item 2.)
 - **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.
 - **Internal Impact Publisher Tag diagnostic route and `functions/api/debug-seatgeek.js`** — leave intact.
 

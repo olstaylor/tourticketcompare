@@ -133,10 +133,10 @@ Review before starting work. **`PROJECT_STATUS.md` → "Active risks" is the liv
 | **Data refresh (#174 Phase B)** | Medium | `scripts/sync-events-data.py` inlines fallback data into `public/index.html`. Phase A (data-refresh flow) is now documented in `docs/DEPLOYMENT.md`; the `stale-sync-guard` PR job catches the common failure mode. Phase B (build-time cache-bust / stronger hook) remains parked. Issue #174. |
 | **Raw HTML routing (production proof)** | Low–Medium (SEO) | Local proof passed 2026-05-19 on 17 representative routes; PR #184 added guide route / content / sitemap drift validation in CI. Production browser proof remains optional (issue #10). |
 | **Named route shims inactive** | Low | Editing `functions/artists.js` etc. has no effect while middleware is active. Edit `[[path]].js` instead. |
-| **Legacy deploy paths** | Low | `vercel.json`, `api/`, `scripts/build-standalone-worker.mjs`, and `archive/vercel-experimental/` are not production. Do not add Vercel-specific logic. Audit-only deletion plan tracked under issue #176. |
+| **Legacy deploy paths** | Low | Vercel deploy artefacts (`vercel.json`, root `api/`) and the standalone Worker builder (`scripts/build-standalone-worker.mjs`) were deleted in the #176 deletion pass (2026-06-19); only `archive/vercel-experimental/README.md` remains as a historical marker. Do not re-add Vercel-specific logic. |
 
 Do not action these without explicit scope (also tracked as "parked" in `BACKLOG.md`):
-- `vercel.json`, `api/`, `build-standalone-worker.mjs`, `archive/vercel-experimental/` retirement (waits on issue #176 audit)
+- `archive/vercel-experimental/README.md` removal (#176 candidate #4 — left as a harmless historical marker; the Vercel pair and Worker builder were already deleted 2026-06-19)
 - Provider abstraction implementation (`functions/api/_providers/index.js`, `functions/_provider-registry.js`)
 - Tour-level pages, city pages, event landing pages
 - Artist-level SeatGeek links or SeatGeek price display (SeatGeek is configured and live in production, but **event-level only** — destinations come from a verified `seatgeek_url` in `events.json`, never from artist-level allowlist entries)

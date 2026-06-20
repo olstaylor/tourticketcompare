@@ -1,6 +1,5 @@
-// Shared route metadata used by both functions/[[path]].js (Pages Functions)
-// and scripts/build-standalone-worker.mjs (standalone Worker build).
-// Edit here; do not duplicate in either consumer.
+// Shared route metadata used by functions/[[path]].js (Pages Functions).
+// Edit here; do not duplicate in the consumer.
 
 export const TRUST_ROUTES = {
   "/": {

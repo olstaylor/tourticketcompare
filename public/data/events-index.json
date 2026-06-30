@@ -4762,5 +4762,29 @@
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-summer-walker-2026-bristow-17a8v0g6urtwfpk",
+    "artist_slug": "summer-walker",
+    "artist_name": "Summer Walker",
+    "country": "United States Of America",
+    "city": "Bristow",
+    "venue": "Jiffy Lube Live",
+    "datetime_iso": "2026-09-19T21:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-summer-walker-2026-chicago-vvg18z_uroiect",
+    "artist_slug": "summer-walker",
+    "artist_name": "Summer Walker",
+    "country": "United States Of America",
+    "city": "Chicago",
+    "venue": "Credit Union 1 Arena at UIC",
+    "datetime_iso": "2026-10-17T00:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

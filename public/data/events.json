@@ -21062,5 +21062,111 @@
     "ticketmaster_discovery_event_id": "G5vYZbUMKyR1F",
     "timezone": "America/Los_Angeles",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-summer-walker-2026-bristow-17a8v0g6urtwfpk",
+    "artist_slug": "summer-walker",
+    "artist_name": "Summer Walker",
+    "event_name": "",
+    "city": "Bristow",
+    "country": "United States Of America",
+    "venue": "Jiffy Lube Live",
+    "datetime_iso": "2026-09-19T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064D7BFF48953",
+    "ticketmaster_url": "https://www.ticketmaster.com/broccoli-city-2026-feat-summer-walker-bristow-virginia-09-19-2026/event/150064D7BFF48953",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/broccoli-city-2026-feat-summer-walker-bristow-virginia-09-19-2026/event/150064D7BFF48953",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064D7BFF48953",
+        "discovery_event_id": "17A8v0G6urTWFPK",
+        "url": "https://www.ticketmaster.com/broccoli-city-2026-feat-summer-walker-bristow-virginia-09-19-2026/event/150064D7BFF48953",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6urTWFPK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-summer-walker-2026-chicago-vvg18z_uroiect",
+    "artist_slug": "summer-walker",
+    "artist_name": "Summer Walker",
+    "event_name": "",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Credit Union 1 Arena at UIC",
+    "datetime_iso": "2026-10-17T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064D7A0B27B7F",
+    "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064D7A0B27B7F",
+        "discovery_event_id": "vvG18Z_urOiEcT",
+        "url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_urOiEcT",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

@@ -95,16 +95,23 @@ function mapEventsToShows(events) {
         seatgeek_url: event.seatgeek_url,
         vividseats_url: event.vividseats_url,
         ticketmaster_url: event.ticketmaster_url,
-        // Publishability state consumed by eventLinkPublishable in
-        // public/app.js — without it, hydrated show cards could not
-        // distinguish machine-approved links from needs-recheck links.
-        // The slim provider_links carries the legacy fallback flag so rows
-        // without an explicit verification_status stay publishable when
-        // provider_links.ticketmaster.verified is true.
+        // Publishability state consumed by eventLinkPublishable /
+        // providerEventPublishable in public/app.js — without it, hydrated
+        // show cards could not distinguish machine-approved links from
+        // needs-recheck links. The slim provider_links carries the legacy
+        // fallback flag (ticketmaster.verified) plus the per-provider
+        // provenance flags that let a SeatGeek / Vivid Seats CTA stand alone
+        // on a needs_recheck event.
         verification_status: event.verification_status,
         provider_links: {
           ticketmaster: {
             verified: event?.provider_links?.ticketmaster?.verified === true
+          },
+          seatgeek: {
+            verified: event?.provider_links?.seatgeek?.verified === true
+          },
+          "vivid-seats": {
+            verified: event?.provider_links?.["vivid-seats"]?.verified === true
           }
         },
         impact_program_id: event.impact_program_id,
@@ -467,6 +474,34 @@ function validSeatGeekEventUrl(value) {
   }
 }
 
+function hasVividSeatsProviderConfig(env = {}) {
+  const hasBaseTrackingUrl = Boolean(String(env?.IMPACT_VIVIDSEATS_BASE_TRACKING_URL || "").trim());
+  const hasImpactApiConfig = Boolean(
+    String(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID || "").trim() &&
+    String(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN || "").trim() &&
+    String(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID || env?.IMPACT_VIVIDSEATS_PROGRAM_ID || "").trim()
+  );
+  return hasBaseTrackingUrl || hasImpactApiConfig;
+}
+
+function validVividSeatsEventUrl(value) {
+  if (typeof value !== "string") return null;
+  const trimmed = value.trim();
+  if (!trimmed || isLikelyPlaceholderUrl(trimmed)) return null;
+  try {
+    const parsed = new URL(trimmed);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (host !== "vividseats.com" && host !== "www.vividseats.com") return null;
+    if (!path || path === "/") return null;
+    if (/^\/(search|venues?|performers?|artists?|category|concerts?|sports?|theater|theatre)(?:\/|$)/i.test(path)) return null;
+    return /\/production\/\d+$/i.test(path) ? parsed.toString() : null;
+  } catch (err) {
+    return null;
+  }
+}
+
 // Per-provider event publishability. Keep in sync with
 // providerEventPublishable in functions/api/out.js, functions/[[path]].js
 // and public/app.js: a needs_recheck event may publish a SeatGeek CTA only
@@ -481,11 +516,13 @@ function eventLinkPublishable(event) {
 
 function providerEventPublishable(event, provider) {
   if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
+  if (provider === "vivid-seats" && event?.provider_links?.["vivid-seats"]?.verified === true) return true;
   return eventLinkPublishable(event);
 }
 
 function withResolvableProviderCtas(shows, env = {}) {
   const seatGeekConfigured = hasSeatGeekProviderConfig(env);
+  const vividSeatsConfigured = hasVividSeatsProviderConfig(env);
   return shows.map((show) => ({
     ...show,
     provider_ctas: {
@@ -494,6 +531,11 @@ function withResolvableProviderCtas(shows, env = {}) {
         seatGeekConfigured &&
         providerEventPublishable(show, "seatgeek") &&
         validSeatGeekEventUrl(show.seatgeek_url)
+      ),
+      vividseats: Boolean(
+        vividSeatsConfigured &&
+        providerEventPublishable(show, "vivid-seats") &&
+        validVividSeatsEventUrl(show.vividseats_url)
       )
     }
   }));
@@ -1254,7 +1296,8 @@ export async function onRequestGet({ request, env }) {
         artistFeed,
         includePrices: false,
         providerAvailability: {
-          seatgeek: hasSeatGeekProviderConfig(env)
+          seatgeek: hasSeatGeekProviderConfig(env),
+          vividseats: hasVividSeatsProviderConfig(env)
         },
         pagination: {
           offset,
@@ -1291,7 +1334,8 @@ export async function onRequestGet({ request, env }) {
       artistFeed,
       includePrices: true,
       providerAvailability: {
-        seatgeek: hasSeatGeekProviderConfig(env)
+        seatgeek: hasSeatGeekProviderConfig(env),
+        vividseats: hasVividSeatsProviderConfig(env)
       },
       shows
     }),

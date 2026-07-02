@@ -638,10 +638,12 @@ function futureShowsForArtist(events, artistSlug, limit) {
       venue: String(ev.venue || "").trim(),
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
       seatgeek_url: String(ev.seatgeek_url || "").trim(),
+      vividseats_url: String(ev.vividseats_url || "").trim(),
       last_verified_at: String(ev.last_verified_at || "").trim(),
       verification_status: String(ev.verification_status || "").trim(),
       publishable: eventLinkPublishable(ev),
-      seatgeekPublishable: providerEventPublishable(ev, "seatgeek")
+      seatgeekPublishable: providerEventPublishable(ev, "seatgeek"),
+      vividseatsPublishable: providerEventPublishable(ev, "vivid-seats")
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -737,6 +739,31 @@ function seatGeekOutAvailable(show, seatGeekAvailable = false) {
   return Boolean(publishable && safeSeatGeekTicketUrl(show?.seatgeek_url));
 }
 
+function safeVividSeatsTicketUrl(value) {
+  const safeUrl = safeShowTicketUrl(value);
+  if (!safeUrl) return null;
+  try {
+    const parsed = new URL(safeUrl);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (host !== "vividseats.com" && host !== "www.vividseats.com") return null;
+    if (!path || path === "/") return null;
+    if (/^\/(search|venues?|performers?|artists?|category|concerts?|sports?|theater|theatre)(?:\/|$)/i.test(path)) return null;
+    return /\/production\/\d+$/i.test(path) ? safeUrl : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function vividSeatsOutAvailable(show, vividSeatsAvailable = false) {
+  if (!vividSeatsAvailable) return false;
+  const publishable = typeof show?.vividseatsPublishable === "boolean"
+    ? show.vividseatsPublishable
+    : providerEventPublishable(show, "vivid-seats");
+  return Boolean(publishable && safeVividSeatsTicketUrl(show?.vividseats_url));
+}
+
 function clean(value, max = 255) {
   return String(value || "").trim().slice(0, max);
 }
@@ -749,7 +776,15 @@ function isSeatGeekConfigured(env = {}) {
   return Boolean(impactSeatGeekBaseTrackingUrl || (impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId));
 }
 
-function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true) {
+function isVividSeatsConfigured(env = {}) {
+  const impactVividSeatsBaseTrackingUrl = clean(env?.IMPACT_VIVIDSEATS_BASE_TRACKING_URL, 2048);
+  const impactVividSeatsAccountSid = clean(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
+  const impactVividSeatsAuthToken = clean(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+  const impactVividSeatsProgramId = clean(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID || env?.IMPACT_VIVIDSEATS_PROGRAM_ID, 120);
+  return Boolean(impactVividSeatsBaseTrackingUrl || (impactVividSeatsAccountSid && impactVividSeatsAuthToken && impactVividSeatsProgramId));
+}
+
+function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false) {
   const date = formatShowDateServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
@@ -761,22 +796,29 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   } else if (show.id) {
     // Provider price/fee/availability disclosure lives once in the show-board
     // intro instead of repeating on every card.
-    // SeatGeek is the primary CTA (affiliate provider); the verified
-    // Ticketmaster link renders as a plain, unmonetized secondary CTA. Either
-    // renders standalone when the other is unavailable — a SeatGeek CTA no
-    // longer requires a publishable Ticketmaster URL on the same card.
-    // The SeatGeek note stays per-card (smoke-asserted resale caution); the generic provider disclosure lives in the board intro.
+    // Affiliate providers (SeatGeek, then Vivid Seats) render first as the
+    // primary CTA; the verified Ticketmaster link renders as a plain,
+    // unmonetized CTA last. Any provider renders standalone when the others
+    // are unavailable. The SeatGeek/Vivid Seats notes stay per-card
+    // (smoke-asserted resale caution); the generic provider disclosure lives
+    // in the board intro.
     const tmAvailable = Boolean(validUrl && show.publishable);
     const sgAvailable = seatGeekOutAvailable(show, seatGeekAvailable);
-    const seatGeekNote = `<p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>`;
-    if (sgAvailable && tmAvailable) {
-      const seatGeekCta = `${anchor("View tickets on SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}`;
-      const ticketmasterCta = `${anchor("Check Ticketmaster", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-secondary", 'target="_blank" rel="noopener"')}`;
-      ctaHtml = `<div class="cta-group">${seatGeekCta}${ticketmasterCta}</div>${seatGeekNote}`;
-    } else if (sgAvailable) {
-      ctaHtml = `${anchor("View tickets on SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}${seatGeekNote}`;
-    } else if (tmAvailable) {
-      ctaHtml = `${anchor("View tickets", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}`;
+    const vsAvailable = vividSeatsOutAvailable(show, vividSeatsAvailable);
+    const outHref = (provider) => `/api/out?${new URLSearchParams({ showId: show.id, provider }).toString()}`;
+    const ctas = [];
+    if (sgAvailable) ctas.push({ provider: "seatgeek", primaryLabel: "View tickets on SeatGeek", secondaryLabel: "Check SeatGeek" });
+    if (vsAvailable) ctas.push({ provider: "vivid-seats", primaryLabel: "View tickets on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+    if (tmAvailable) ctas.push({ provider: "ticketmaster", primaryLabel: ctas.length ? "Check Ticketmaster" : "View tickets", secondaryLabel: "Check Ticketmaster" });
+    if (ctas.length) {
+      const buttons = ctas
+        .map((cta, index) => anchor(index === 0 ? cta.primaryLabel : cta.secondaryLabel, outHref(cta.provider), index === 0 ? "button button-primary" : "button button-secondary", 'target="_blank" rel="noopener"'))
+        .join("");
+      const notes = [
+        sgAvailable ? `<p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>` : "",
+        vsAvailable ? `<p class="disclosure-note">Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase.</p>` : ""
+      ].join("");
+      ctaHtml = ctas.length > 1 ? `<div class="cta-group">${buttons}</div>${notes}` : `${buttons}${notes}`;
     }
   }
 
@@ -795,9 +837,9 @@ function renderShowBoardEmptyStateHtml(artistName = "") {
   )}${anchor("Read ticket buying guide", "/guides", "button button-secondary")}</div></div>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "") {
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false) {
   const gridContent = shows.length
-    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist)).join("")
+    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable)).join("")
     : renderShowBoardEmptyStateHtml(artistName);
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card is one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
@@ -806,6 +848,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "artist") {
     const artist = route.artist;
     const seatGeekAvailable = isSeatGeekConfigured(env);
+    const vividSeatsAvailable = isVividSeatsConfigured(env);
     const relatedGuideSlugs = artist.related_guides || [];
     const relatedGuideLinks = relatedGuideSlugs
       .slice(0, 4)
@@ -841,7 +884,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )} ticket links and buying guidance</h1><p class="lead">Checked ticket links for ${escapeHtml(
       artist.name
-    )} dates, plus what to confirm about fees, seats, and resale before you buy.</p>${reviewNoticeHtml}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name)}${renderProviderFallback(
+    )} dates, plus what to confirm about fees, seats, and resale before you buy.</p>${reviewNoticeHtml}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
       catalog,
       artist,
       "artist_hero"

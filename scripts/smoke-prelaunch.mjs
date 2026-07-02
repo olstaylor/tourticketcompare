@@ -1646,6 +1646,154 @@ try {
   globalThis.fetch = originalFetch;
 }
 
+// --- Vivid Seats wiring: dormant without Impact config + verified event URLs,
+//     Impact-wrapped (never a raw redirect) once configured. ---
+const CONTROLLED_VIVIDSEATS_URL = "https://www.vividseats.com/morgan-wallen-tickets--concerts-country-and-folk/production/5240001";
+const CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL = "https://vividseats.pxf.io/testcode";
+const vividSeatsEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? { ...event, vividseats_url: CONTROLLED_VIVIDSEATS_URL }
+  : event));
+function withVividSeatsEventsFixture(baseEnv) {
+  return {
+    ...baseEnv,
+    ASSETS: {
+      async fetch(request) {
+        const url = new URL(request.url);
+        if (url.pathname === "/data/events.json") return new Response(vividSeatsEventsJson, { status: 200 });
+        return baseEnv.ASSETS.fetch(request);
+      }
+    }
+  };
+}
+
+// 1. Dormancy: a stored vividseats_url alone (no Vivid Seats Impact config)
+//    must not surface anything.
+const vsDormantEnv = withVividSeatsEventsFixture(env);
+const vsDormantShowsResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
+  env: vsDormantEnv
+});
+const vsDormantShowsJson = await vsDormantShowsResponse.json();
+assert(vsDormantShowsJson.providerAvailability?.vividseats === false, "/api/shows should report vividseats availability false without Vivid Seats Impact config");
+assert(vsDormantShowsJson.shows.every((show) => show.provider_ctas?.vividseats === false), "/api/shows should mark every Vivid Seats CTA unresolvable without Vivid Seats Impact config");
+const vsDormantPage = await routeResponse("/artists/morgan-wallen", vsDormantEnv);
+assert(!vsDormantPage.text.includes("Vivid Seats sets prices"), "server-rendered Vivid Seats CTA copy should stay hidden without Vivid Seats Impact config");
+assert(!vsDormantPage.text.includes("provider=vivid-seats"), "server-rendered pages should not link /api/out Vivid Seats redirects without Vivid Seats Impact config");
+const vsDormantOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=vivid-seats`, "GET", null, vsDormantEnv);
+assert(vsDormantOut.status === 400, "Vivid Seats showId redirect should fail safely without Impact config");
+
+// 2. Configured (base tracking) + verified event URL: the CTA renders and the
+//    redirect is Impact-wrapped through the configured pxf.io base URL.
+const vsConfiguredEnv = withVividSeatsEventsFixture({
+  ...env,
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL
+});
+const vsConfiguredShowsResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
+  env: vsConfiguredEnv
+});
+const vsConfiguredShowsJson = await vsConfiguredShowsResponse.json();
+assert(vsConfiguredShowsJson.providerAvailability?.vividseats === true, "/api/shows should report vividseats availability true when the base tracking URL is configured");
+const vsControlledShow = vsConfiguredShowsJson.shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
+assert(vsControlledShow?.provider_ctas?.vividseats === true, "/api/shows should mark the controlled Vivid Seats CTA resolvable when configured");
+const vsConfiguredPage = await routeResponse("/artists/morgan-wallen", vsConfiguredEnv);
+assert(vsConfiguredPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`), "server-rendered Vivid Seats CTA should target the controlled show through /api/out when configured");
+assert(vsConfiguredPage.text.includes("View tickets on Vivid Seats"), "Vivid Seats should be the primary CTA when SeatGeek is not configured");
+assert(vsConfiguredPage.text.includes("Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase."), "server-rendered Vivid Seats CTA should include conservative supporting copy");
+try {
+  globalThis.fetch = async () => {
+    throw new Error("Vivid Seats base tracking redirects should not call the Impact API");
+  };
+  const vsBaseOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=vivid-seats`, "GET", null, vsConfiguredEnv);
+  assert(vsBaseOut.status === 302, "Vivid Seats base tracking URL should produce a 302 redirect");
+  const vsBaseLocation = new URL(vsBaseOut.headers.get("location"));
+  assert(vsBaseOut.headers.get("location").startsWith(CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL), "Vivid Seats base tracking redirect should start with the configured pxf.io base URL");
+  assert(vsBaseLocation.searchParams.get("u") === CONTROLLED_VIVIDSEATS_URL, "Vivid Seats base tracking redirect should deep-link to the exact stored Vivid Seats event URL");
+} finally {
+  globalThis.fetch = originalFetch;
+}
+
+// 3. Both affiliate providers configured: CTA order is SeatGeek (primary),
+//    Vivid Seats, then the plain Ticketmaster link.
+const vsAndSgEnv = withVividSeatsEventsFixture({
+  ...env,
+  IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL
+});
+const vsAndSgPage = await routeResponse("/artists/morgan-wallen", vsAndSgEnv);
+const vsAndSgGroup = vsAndSgPage.text
+  .split("<div class=\"cta-group\">")
+  .find((chunk) => chunk.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`));
+assert(vsAndSgGroup, "controlled show card should render a cta-group including the Vivid Seats CTA when both affiliate providers are configured");
+const sgIdx = vsAndSgGroup.indexOf("View tickets on SeatGeek");
+const vsIdx = vsAndSgGroup.indexOf("Check Vivid Seats");
+const tmIdx = vsAndSgGroup.indexOf("Check Ticketmaster");
+assert(sgIdx !== -1 && vsIdx !== -1 && tmIdx !== -1 && sgIdx < vsIdx && vsIdx < tmIdx, "CTA order must be SeatGeek, Vivid Seats, Ticketmaster");
+
+// 4. Impact API failure must return diagnostic JSON, never a raw redirect.
+const vsApiConfigEnv = withVividSeatsEventsFixture({
+  ...env,
+  IMPACT_VIVIDSEATS_ACCOUNT_SID: "vs-account",
+  IMPACT_VIVIDSEATS_AUTH_TOKEN: "vs-token",
+  IMPACT_VIVIDSEATS_CAMPAIGN_ID: "vs-campaign"
+});
+try {
+  let vividSeatsImpactCalled = false;
+  globalThis.fetch = async (request, options = {}) => {
+    const requestUrl = new URL(String(request.url || request));
+    vividSeatsImpactCalled = true;
+    assert(requestUrl.hostname === "api.impact.com", "Vivid Seats tracking should call Impact with the controlled event URL");
+    assert(requestUrl.pathname.includes("/Mediapartners/vs-account/Programs/vs-campaign/TrackingLinks"), "Vivid Seats Impact request should use the configured Vivid Seats account and campaign");
+    assert(requestUrl.searchParams.get("DeepLink") === CONTROLLED_VIVIDSEATS_URL, "Vivid Seats Impact DeepLink should be the controlled Vivid Seats event URL");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("vs-account:vs-token").toString("base64")}`, "Vivid Seats Impact request should use Vivid Seats basic auth");
+    return new Response(JSON.stringify({ Message: "forbidden" }), {
+      status: 403,
+      headers: { "content-type": "application/json" }
+    });
+  };
+  const vsFailureOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=vivid-seats`, "GET", null, vsApiConfigEnv);
+  assert(vividSeatsImpactCalled, "Vivid Seats configured path should call Impact tracking");
+  assert(vsFailureOut.status === 400, "Vivid Seats Impact failure should fail safely, not redirect");
+  const vsFailureJson = await vsFailureOut.json();
+  assert(vsFailureJson.status === "impact_program_not_accessible", "Vivid Seats Impact 403 failure should report impact_program_not_accessible");
+  assert(vsFailureJson.provider === "vivid-seats", "Vivid Seats Impact diagnostics should include provider");
+  assert(vsFailureJson.destinationHost === "www.vividseats.com", "Vivid Seats Impact diagnostics should include only the safe destination host");
+  assert(!JSON.stringify(vsFailureJson).includes("vs-token"), "Vivid Seats Impact diagnostics must not expose secrets");
+} finally {
+  globalThis.fetch = originalFetch;
+}
+
+// 5. A generic (non-production) Vivid Seats URL must never surface: CTA hidden
+//    and /api/out rejects it.
+const vsInvalidEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? { ...event, vividseats_url: "https://www.vividseats.com/morgan-wallen-tickets" }
+  : event));
+const vsInvalidEnv = {
+  ...env,
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL,
+  ASSETS: {
+    async fetch(request) {
+      const url = new URL(request.url);
+      if (url.pathname === "/data/events.json") return new Response(vsInvalidEventsJson, { status: 200 });
+      return env.ASSETS.fetch(request);
+    }
+  }
+};
+const vsInvalidPage = await routeResponse("/artists/morgan-wallen", vsInvalidEnv);
+assert(!vsInvalidPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`), "server-rendered Vivid Seats CTA should be hidden for a Vivid Seats URL that /api/out would reject");
+const vsInvalidOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=vivid-seats`, "GET", null, vsInvalidEnv);
+assert(vsInvalidOut.status === 400, "generic Vivid Seats URL should not resolve through /api/out");
+assert((await vsInvalidOut.json()).status === "event_ticket_url_unavailable", "generic Vivid Seats URL should fail with event_ticket_url_unavailable");
+
+// app.js must gate Vivid Seats CTAs the same way as SeatGeek.
+const vividSeatsGateFunction = appJs.match(/function vividSeatsOutAvailable\(show, options = \{\}\) \{[\s\S]*?\n\}/);
+assert(vividSeatsGateFunction, "client-side Vivid Seats CTA gate should exist");
+assert(vividSeatsGateFunction[0].includes('if (!providerEventPublishable(show, "vivid-seats")) return false;'), "Vivid Seats CTA gate should require per-provider event publishability");
+assert(vividSeatsGateFunction[0].includes("return show.provider_ctas.vividseats === true && hasValidVividSeatsEventUrl;"), "Vivid Seats CTA gate should require both the provider flag and a valid stored Vivid Seats event URL");
+assert(appJs.includes("safeVividSeatsEventUrl"), "hydrated artist show cards should validate Vivid Seats event URLs");
+assert(appJs.includes("providerAvailability?.vividseats"), "hydration should use the safe Vivid Seats availability flag from /api/shows");
+assert(!appJs.includes("https://vividseats.com") && !appJs.includes("https://www.vividseats.com"), "client-side app code must not hard-code direct Vivid Seats public CTA links");
+
 async function debugSeatgeek(pathname, envOverride = env) {
   return debugSeatgeekModule.onRequestGet({
     request: new Request(`https://tourticketcompare.com${pathname}`),

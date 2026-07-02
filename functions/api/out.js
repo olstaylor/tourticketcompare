@@ -300,6 +300,7 @@ function eventLinkPublishable(event) {
 // public/app.js.
 function providerEventPublishable(event, provider) {
   if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
+  if (provider === "vivid-seats" && event?.provider_links?.["vivid-seats"]?.verified === true) return true;
   return eventLinkPublishable(event);
 }
 
@@ -331,6 +332,23 @@ function validateSeatGeekEventUrl(seatGeekUrl, providerConfig) {
   if (!path || path === "/") return null;
   if (/^\/(search|venues?|performers?|artists?|concert-tickets|tickets)(?:\/|$)/i.test(path)) return null;
   if (!/\/(concert|sports|theater|theatre)\/\d+$/i.test(path)) return null;
+  return redirect;
+}
+
+// Vivid Seats event URLs follow the same policy: pre-approved in event data,
+// direct HTTPS vividseats.com production-page URLs only. The shape is
+// conservative — /…/production/<id> — and rejects search/venue/performer/
+// category pages and bare "…-tickets" root paths. Adjust only alongside the
+// first owner-verified vividseats_url data (a too-strict validator fails safe).
+function validateVividSeatsEventUrl(vividSeatsUrl, providerConfig) {
+  const redirect = validateConfiguredRedirect(providerConfig, vividSeatsUrl);
+  if (!redirect || redirect.protocol !== "https:") return null;
+  const host = redirect.hostname.toLowerCase();
+  if (host !== "vividseats.com" && host !== "www.vividseats.com") return null;
+  const path = decodeURIComponent(redirect.pathname || "/").replace(/\/+$/, "");
+  if (!path || path === "/") return null;
+  if (/^\/(search|venues?|performers?|artists?|category|concerts?|sports?|theater|theatre)(?:\/|$)/i.test(path)) return null;
+  if (!/\/production\/\d+$/i.test(path)) return null;
   return redirect;
 }
 
@@ -381,12 +399,42 @@ async function resolveShowLink(env, showId, provider) {
     };
   }
 
+  if (provider === "vivid-seats") {
+    const providerConfig = PROVIDERS["vivid-seats"];
+    const vividSeatsUrl = clean(event?.vividseats_url, 2048);
+    const redirect = validateVividSeatsEventUrl(vividSeatsUrl, providerConfig);
+    if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
+
+    return {
+      ok: true,
+      link: {
+        artistSlug: slugify(event.artist_slug),
+        provider: "vivid-seats",
+        linkId: clean(event.id, 255),
+        showId: clean(event.id, 255),
+        redirectUrl: redirect.toString(),
+        verified: true
+      },
+      redirect
+    };
+  }
+
   return { ok: false, status: "provider_not_configured" };
 }
 
 
-function hasSeatGeekBaseTrackingUrl(env = {}) {
-  return Boolean(clean(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL, 2048));
+const BASE_TRACKING_URL_ENV_VARS = {
+  seatgeek: "IMPACT_SEATGEEK_BASE_TRACKING_URL",
+  "vivid-seats": "IMPACT_VIVIDSEATS_BASE_TRACKING_URL"
+};
+
+function baseTrackingUrlFor(env = {}, provider) {
+  const envVar = BASE_TRACKING_URL_ENV_VARS[providerKey(provider)];
+  return envVar ? clean(env?.[envVar], 2048) : "";
+}
+
+function hasBaseTrackingUrl(env = {}, provider) {
+  return Boolean(baseTrackingUrlFor(env, provider));
 }
 
 function validateImpactPxfBaseTrackingUrl(value) {
@@ -413,14 +461,18 @@ function validateImpactPxfBaseTrackingUrl(value) {
   return { ok: true, url: parsed };
 }
 
-function buildSeatGeekBaseTrackingRedirect(env, destination) {
-  const configuredBase = clean(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL, 2048);
+// Wraps a pre-validated provider destination with the provider's configured
+// pxf.io base tracking URL. `validateDestination` re-validates the destination
+// with the caller's context (event-shape validator on the showId path;
+// validateConfiguredRedirect for hand-verified artist-level entries).
+function buildBaseTrackingRedirect(env, provider, destination, validateDestination) {
+  const configuredBase = baseTrackingUrlFor(env, provider);
   if (!configuredBase) return { ok: false, status: "impact_base_tracking_url_missing" };
 
   const base = validateImpactPxfBaseTrackingUrl(configuredBase);
   if (!base.ok) return base;
 
-  const destinationUrl = validateSeatGeekEventUrl(destination, PROVIDERS.seatgeek);
+  const destinationUrl = validateDestination(destination);
   if (!destinationUrl) {
     return { ok: false, status: "event_ticket_url_unavailable" };
   }
@@ -452,6 +504,30 @@ function impactConfig(env = {}, provider = "ticketmaster") {
       campaignId,
       legacyProgramId,
       programIdSource: campaignId ? "IMPACT_SEATGEEK_CAMPAIGN_ID" : legacyProgramId ? "IMPACT_SEATGEEK_PROGRAM_ID" : "",
+      apiBase,
+      provider: normalizedProvider,
+      hasCredentials: Boolean(accountSid && authToken),
+      hasProgramId: Boolean(programId),
+      hasCampaignId: Boolean(campaignId),
+      configured: Boolean(accountSid && authToken && programId)
+    };
+  }
+
+  if (normalizedProvider === "vivid-seats") {
+    // Mirrors the SeatGeek Impact configuration shape: CampaignId alias
+    // preferred, ProgramId kept as the backwards-compatible fallback.
+    const accountSid = clean(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
+    const authToken = clean(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+    const campaignId = clean(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID, 120);
+    const legacyProgramId = clean(env?.IMPACT_VIVIDSEATS_PROGRAM_ID, 120);
+    const programId = campaignId || legacyProgramId;
+    return {
+      accountSid,
+      authToken,
+      programId,
+      campaignId,
+      legacyProgramId,
+      programIdSource: campaignId ? "IMPACT_VIVIDSEATS_CAMPAIGN_ID" : legacyProgramId ? "IMPACT_VIVIDSEATS_PROGRAM_ID" : "",
       apiBase,
       provider: normalizedProvider,
       hasCredentials: Boolean(accountSid && authToken),
@@ -507,11 +583,13 @@ function safeImpactDiagnosticConfig(config) {
   };
 }
 
+const IMPACT_WRAPPED_PROVIDERS = new Set(["seatgeek", "vivid-seats"]);
+
 function impactRequestStatus(statusCode, provider = "ticketmaster") {
-  if (Number(statusCode) === 404 && providerKey(provider) === "seatgeek") {
+  if (Number(statusCode) === 404 && IMPACT_WRAPPED_PROVIDERS.has(providerKey(provider))) {
     return "impact_tracking_endpoint_not_found";
   }
-  if (Number(statusCode) === 403 && providerKey(provider) === "seatgeek") {
+  if (Number(statusCode) === 403 && IMPACT_WRAPPED_PROVIDERS.has(providerKey(provider))) {
     return "impact_program_not_accessible";
   }
   return "impact_request_failed";
@@ -858,11 +936,11 @@ function impactFailureStatus(status) {
   return status || "impact_request_failed";
 }
 
-function seatGeekImpactFailurePayload(resolved, result, config) {
+function impactFailurePayload(provider, resolved, result, config) {
   const payload = {
     ok: false,
     status: impactFailureStatus(result.status),
-    provider: "seatgeek",
+    provider,
     hasDestination: true,
     destinationHost: resolved.redirect.hostname.toLowerCase(),
     impactConfigPresent: Boolean(config.configured),
@@ -910,33 +988,38 @@ async function handleOut(request, env, mode) {
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
     }
 
-    if (provider === "seatgeek") {
-      // SeatGeek showId redirects are event URL-first. The destination was read
-      // from event.seatgeek_url and validated as an HTTPS seatgeek.com URL by
-      // resolveShowLink before any Impact call. There is intentionally no
-      // SeatGeek API search or broad fallback in this path.
+    if (IMPACT_WRAPPED_PROVIDERS.has(provider)) {
+      // SeatGeek / Vivid Seats showId redirects are event URL-first. The
+      // destination was read from the stored event field and validated as a
+      // direct HTTPS provider URL by resolveShowLink before any Impact call.
+      // There is intentionally no provider API search or broad fallback in
+      // this path, and no raw-URL fallback: an Impact failure returns a
+      // diagnostic JSON, never an untracked redirect.
       const destination = resolved.redirect.toString();
-      const seatGeekImpactConfig = impactConfig(env, "seatgeek");
+      const providerImpactConfig = impactConfig(env, provider);
+      const validateEventDestination = provider === "seatgeek"
+        ? (value) => validateSeatGeekEventUrl(value, PROVIDERS.seatgeek)
+        : (value) => validateVividSeatsEventUrl(value, PROVIDERS["vivid-seats"]);
       let impactTrackingResult = null;
 
-      if (hasSeatGeekBaseTrackingUrl(env)) {
-        impactTrackingResult = buildSeatGeekBaseTrackingRedirect(env, destination);
+      if (hasBaseTrackingUrl(env, provider)) {
+        impactTrackingResult = buildBaseTrackingRedirect(env, provider, destination, validateEventDestination);
       } else {
-        impactTrackingResult = await createImpactTrackingUrlResult(env, destination, "seatgeek");
+        impactTrackingResult = await createImpactTrackingUrlResult(env, destination, provider);
       }
 
       if (!impactTrackingResult.ok) {
-        return json(seatGeekImpactFailurePayload(resolved, impactTrackingResult, seatGeekImpactConfig), 400);
+        return json(impactFailurePayload(provider, resolved, impactTrackingResult, providerImpactConfig), 400);
       }
 
       const outbound = safeUrl(impactTrackingResult.trackingUrl);
       if (!outbound) {
-        return json(seatGeekImpactFailurePayload(resolved, {
+        return json(impactFailurePayload(provider, resolved, {
           ok: false,
           status: "impact_tracking_url_failed_safety_check",
-          hasProgramId: seatGeekImpactConfig.hasProgramId,
-          impactConfigPresent: seatGeekImpactConfig.configured
-        }, seatGeekImpactConfig), 400);
+          hasProgramId: providerImpactConfig.hasProgramId,
+          impactConfigPresent: providerImpactConfig.configured
+        }, providerImpactConfig), 400);
       }
 
       await trackClick({
@@ -1001,9 +1084,9 @@ async function handleOut(request, env, mode) {
   const redirect = validateConfiguredRedirect(providerConfig, link.redirectUrl);
   if (!redirect) return json({ ok: false, status: "configured_redirect_rejected" }, 400);
 
-  if (provider === "seatgeek") {
-    const impactCfg = impactConfig(env, "seatgeek");
-    if (!impactCfg.configured) {
+  if (IMPACT_WRAPPED_PROVIDERS.has(provider)) {
+    const impactCfg = impactConfig(env, provider);
+    if (!impactCfg.configured && !hasBaseTrackingUrl(env, provider)) {
       return json({ ok: false, status: "provider_not_configured" }, 400);
     }
   }

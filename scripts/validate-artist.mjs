@@ -130,28 +130,7 @@ function renderReport(slug, report) {
 
 // ─── Main ──────────────────────────────────────────────────────────────────────
 
-async function main() {
-  const slug = process.argv[2]?.trim().toLowerCase();
-  if (!slug) {
-    console.error('Usage: node scripts/validate-artist.mjs <slug>');
-    console.error('       npm run artist:check -- <slug>');
-    process.exit(2);
-  }
-
-  let artists, catalog, events, vtlKeys, showsArtistLinkKeys;
-  try {
-    [artists, catalog, events, vtlKeys, showsArtistLinkKeys] = await Promise.all([
-      readJson(PATHS.artists),
-      readJson(PATHS.catalog),
-      readJson(PATHS.events),
-      loadVerifiedTicketLinkKeys(),
-      loadShowsArtistLinkKeys(),
-    ]);
-  } catch (err) {
-    console.error(`FATAL: could not load data files — ${err.message}`);
-    process.exit(2);
-  }
-
+async function checkArtist(slug, { artists, catalog, events, vtlKeys, showsArtistLinkKeys }) {
   const report = makeReport();
 
   // ── 1. artists.json ────────────────────────────────────────────────────────
@@ -163,7 +142,7 @@ async function main() {
   if (artistMatches.length === 0) {
     report.fail(`No artist with slug "${slug}" found in artists.json`);
     renderReport(slug, report);
-    process.exit(1);
+    return 1;
   }
   if (artistMatches.length > 1) {
     report.fail(`Duplicate slug "${slug}" in artists.json (${artistMatches.length} entries)`);
@@ -434,10 +413,42 @@ async function main() {
     }
   }
 
-  // ── Render and exit ────────────────────────────────────────────────────────
+  // ── Render and return ──────────────────────────────────────────────────────
 
   renderReport(slug, report);
-  process.exit(report.totalFails > 0 ? 1 : 0);
+  return report.totalFails;
+}
+
+async function main() {
+  // Accepts one or more slugs so batch-promote PRs can validate every artist
+  // in the batch in one run: npm run artist:check -- slug-a slug-b slug-c
+  const slugs = process.argv.slice(2).map((s) => s.trim().toLowerCase()).filter(Boolean);
+  if (!slugs.length) {
+    console.error('Usage: node scripts/validate-artist.mjs <slug> [<slug> …]');
+    console.error('       npm run artist:check -- <slug> [<slug> …]');
+    process.exit(2);
+  }
+
+  let data;
+  try {
+    const [artists, catalog, events, vtlKeys, showsArtistLinkKeys] = await Promise.all([
+      readJson(PATHS.artists),
+      readJson(PATHS.catalog),
+      readJson(PATHS.events),
+      loadVerifiedTicketLinkKeys(),
+      loadShowsArtistLinkKeys(),
+    ]);
+    data = { artists, catalog, events, vtlKeys, showsArtistLinkKeys };
+  } catch (err) {
+    console.error(`FATAL: could not load data files — ${err.message}`);
+    process.exit(2);
+  }
+
+  let totalFails = 0;
+  for (const slug of slugs) {
+    totalFails += await checkArtist(slug, data);
+  }
+  process.exit(totalFails > 0 ? 1 : 0);
 }
 
 main().catch(err => {

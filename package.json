@@ -77,7 +77,7 @@
     "growth:open-pr": "node scripts/growth-open-pr.mjs"
   },
   "devDependencies": {
-    "wrangler": "^4.100.0"
+    "wrangler": "^4.106.0"
   },
   "overrides": {
     "esbuild": "0.28.1",

@@ -17,7 +17,7 @@ const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robo
 // These headers must be set explicitly on every HTML Response returned by this function.
 const SECURITY_HEADERS = {
   "Content-Security-Policy":
-    "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://utt.impactcdn.com; connect-src 'self' https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+    "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
   "Referrer-Policy": "no-referrer",
   "X-Content-Type-Options": "nosniff",
   "X-Frame-Options": "DENY",
@@ -1186,14 +1186,12 @@ async function renderInternalImpactTagTest(request, env, url) {
 <title>Impact Publisher Tag Test (internal) | TourTicketCompare</title>
 ${sgTagMeta}
 <link rel="stylesheet" href="/internal/impact-tag-test.css" />
-<script src="/impact.js"></script>
 </head>
 <body>
 <h1>Impact Publisher Tag Test (internal)</h1>
-<p>Internal-only route. Not indexable. Compares the Ticketmaster and SeatGeek Impact Publisher Tags on a single page.</p>
-<p><strong>Ticketmaster production tracking is the known-good baseline.</strong> This helper is not the source of truth for attribution and should not be used to decide that Ticketmaster production tracking is broken.</p>
+<p>Internal-only route. Not indexable. Exercises the SeatGeek Impact Publisher Tag. The Ticketmaster Publisher Tag was removed when the site left the Ticketmaster affiliate programme; the Ticketmaster links below are plain, untracked controls.</p>
 <p>A Publisher Tag may transform at page load, at click time, through query decoration, or in a way that is confirmed only by Impact dashboard reporting. Do not treat a no-change href snapshot after 2 seconds as a final attribution failure.</p>
-<p>Final SeatGeek pass/fail depends on the raw SeatGeek URL landing on the correct SeatGeek event page, the SeatGeek Impact account recording the click, the Ticketmaster Impact account not recording that SeatGeek click, and no double transformation or cross-account attribution. Keep <code>/api/out</code> controls as the fallback/reference path.</p>
+<p>Final SeatGeek pass/fail depends on the raw SeatGeek URL landing on the correct SeatGeek event page, the SeatGeek Impact account recording the click, and no double transformation. Keep <code>/api/out</code> controls as the fallback/reference path.</p>
 ${sgTagBanner}
 <p id="sgTagStatus" class="info-note">SeatGeek Publisher Tag status will appear after the helper script runs.</p>
 

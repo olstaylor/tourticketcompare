@@ -3,8 +3,8 @@ const EVENTS_JSON_PATH = "/data/events.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
 const IMPACT_PXF_TRACKING_HOSTS = ["pxf.io"];
 // Temporary production proof header for /api/out. Remove after verifying
-// SeatGeek event URL-first redirects are live.
-const OUT_VERSION_HEADER = "seatgeek-impact-diagnostics-2026-05-13";
+// plain (non-affiliate) Ticketmaster redirects are live.
+const OUT_VERSION_HEADER = "tm-plain-redirects-2026-07-02";
 
 const PROVIDERS = {
   ticketmaster: {
@@ -21,7 +21,7 @@ const PROVIDERS = {
       "ticketmaster.be",
       "ticketmaster.it"
     ],
-    trustedAffiliateHosts: ["ticketmaster.evyy.net"]
+    trustedAffiliateHosts: []
   },
   seatgeek: {
     name: "SeatGeek",
@@ -40,49 +40,49 @@ const VERIFIED_TICKET_LINKS = {
     artistSlug: "beyonce",
     provider: "ticketmaster",
     linkId: "tm-artist-beyonce",
-    redirectUrl: "https://ticketmaster.evyy.net/beyonce",
+    redirectUrl: "https://www.ticketmaster.com/beyonce-tickets/artist/894191",
     verified: true
   },
   "harry-styles:ticketmaster": {
     artistSlug: "harry-styles",
     provider: "ticketmaster",
     linkId: "tm-artist-harry-styles",
-    redirectUrl: "https://ticketmaster.evyy.net/vD4B5y",
+    redirectUrl: "https://www.ticketmaster.com/harry-styles-tickets/artist/2366444",
     verified: true
   },
   "bts:ticketmaster": {
     artistSlug: "bts",
     provider: "ticketmaster",
     linkId: "tm-artist-bts",
-    redirectUrl: "https://ticketmaster.evyy.net/OY9gkr",
+    redirectUrl: "https://www.ticketmaster.com/bts-tickets/artist/2110227",
     verified: true
   },
   "ariana-grande:ticketmaster": {
     artistSlug: "ariana-grande",
     provider: "ticketmaster",
     linkId: "tm-artist-ariana-grande",
-    redirectUrl: "https://ticketmaster.evyy.net/bkDx6b",
+    redirectUrl: "https://www.ticketmaster.com/ariana-grande-tickets/artist/1688071",
     verified: true
   },
   "bad-bunny:ticketmaster": {
     artistSlug: "bad-bunny",
     provider: "ticketmaster",
     linkId: "tm-artist-bad-bunny",
-    redirectUrl: "https://ticketmaster.evyy.net/zzeEWW",
+    redirectUrl: "https://www.ticketmaster.com/bad-bunny-tickets/artist/2317395",
     verified: true
   },
   "morgan-wallen:ticketmaster": {
     artistSlug: "morgan-wallen",
     provider: "ticketmaster",
     linkId: "tm-artist-morgan-wallen",
-    redirectUrl: "https://ticketmaster.evyy.net/morganwallenus",
+    redirectUrl: "https://www.ticketmaster.com/morgan-wallen-tickets/artist/2288122",
     verified: true
   },
   "jay-z:ticketmaster": {
     artistSlug: "jay-z",
     provider: "ticketmaster",
     linkId: "tm-artist-jay-z",
-    redirectUrl: "https://ticketmaster.evyy.net/5kM6W3",
+    redirectUrl: "https://www.ticketmaster.com/jayz-tickets/artist/781009",
     verified: true
   },
   "olivia-rodrigo:ticketmaster": {
@@ -449,22 +449,22 @@ function impactConfig(env = {}, provider = "ticketmaster") {
     };
   }
 
-  const accountSid = clean(env?.IMPACT_TICKETMASTER_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
-  const authToken = clean(env?.IMPACT_TICKETMASTER_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
-  const programId = clean(env?.IMPACT_TICKETMASTER_PROGRAM_ID, 120);
+  // Ticketmaster has no Impact program (the site was removed from the
+  // Ticketmaster affiliate programme). Ticketmaster redirects are plain,
+  // unmonetized links and never call the Impact API.
   return {
-    accountSid,
-    authToken,
-    programId,
+    accountSid: "",
+    authToken: "",
+    programId: "",
     campaignId: "",
-    legacyProgramId: programId,
-    programIdSource: programId ? "IMPACT_TICKETMASTER_PROGRAM_ID" : "",
+    legacyProgramId: "",
+    programIdSource: "",
     apiBase,
     provider: normalizedProvider,
-    hasCredentials: Boolean(accountSid && authToken),
-    hasProgramId: Boolean(programId),
+    hasCredentials: false,
+    hasProgramId: false,
     hasCampaignId: false,
-    configured: Boolean(accountSid && authToken && programId)
+    configured: false
   };
 }
 
@@ -774,11 +774,6 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
   }
 }
 
-async function createImpactTrackingUrl(env, deepLink, provider = "ticketmaster") {
-  const result = await createImpactTrackingUrlResult(env, deepLink, provider);
-  return result.ok ? result.trackingUrl : null;
-}
-
 async function readBody(request) {
   if (request.method !== "POST") return {};
   try {
@@ -894,9 +889,10 @@ async function handleOut(request, env, mode) {
   if (!providerConfig) return json({ ok: false, status: "unknown_provider" }, 400);
 
   if (showId) {
-    // showId mode is intentionally controlled: resolve the stored event URL first,
-    // then optionally wrap it with Impact. Do not use user deep links or provider
-    // discovery/search fallbacks for an event click.
+    // showId mode is intentionally controlled: resolve the stored event URL
+    // first, then wrap it with Impact for affiliate providers (SeatGeek).
+    // Ticketmaster event redirects are plain, unmonetized links. Do not use
+    // user deep links or provider discovery/search fallbacks for an event click.
     const resolved = await resolveShowLink(env, showId, provider);
     if (!resolved.ok) {
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
@@ -953,9 +949,8 @@ async function handleOut(request, env, mode) {
       });
     }
 
-    const impactTrackingUrl = await createImpactTrackingUrl(env, resolved.redirect.toString(), provider);
-    const outboundUrl = impactTrackingUrl || resolved.redirect.toString();
-    const outbound = safeUrl(outboundUrl) || resolved.redirect;
+    // Ticketmaster: plain redirect to the verified event URL, no Impact call.
+    const outbound = resolved.redirect;
 
     await trackClick({
       request,

@@ -27,11 +27,11 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site.";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://utt.impactcdn.com; connect-src 'self' https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
-const EXPECTED_OUT_VERSION = "seatgeek-impact-diagnostics-2026-05-13";
+const EXPECTED_OUT_VERSION = "tm-plain-redirects-2026-07-02";
 const SMOKE_TEST_NOW_ISO = "2026-05-14T12:00:00Z";
 const SMOKE_TEST_NOW_MS = Date.parse(SMOKE_TEST_NOW_ISO);
 assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO timestamp");
@@ -373,7 +373,6 @@ globalThis.caches = globalThis.caches || { default: new MemoryCache() };
 const publicUiFiles = [
   "public/index.html",
   "public/app.js",
-  "public/impact.js",
   "public/styles.css",
   "public/robots.txt",
   "public/data/artists.json",
@@ -386,7 +385,6 @@ const publicUiFiles = [
 const publicCopyFiles = [
   "public/index.html",
   "public/app.js",
-  "public/impact.js",
   "functions/[[path]].js",
   "public/data/catalog.json"
 ];
@@ -606,15 +604,16 @@ assert(
 );
 console.log("sitemap artist indexability filtering verified");
 
-for (const pathname of ["/app.js", "/impact.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/events.json", "/api/health"]) {
+for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/events.json", "/api/health"]) {
   const { response, nextCalled } = await routeResponse(pathname);
   assert(nextCalled === true, `${pathname} should pass through middleware unchanged`);
   assert(response.status === 404, `${pathname} smoke middleware next sentinel should return 404`);
 }
 
 const indexHtml = await read("public/index.html");
-assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags — Impact script must be loaded via /impact.js");
-assert(indexHtml.includes('src="/impact.js"'), "index.html must load Impact via <script src=\"/impact.js\">");
+assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags");
+assert(!indexHtml.includes("impact.js"), "index.html must not reference the removed Ticketmaster Impact Publisher Tag (/impact.js)");
+assert(!indexHtml.includes("impactcdn.com"), "index.html must not reference impactcdn.com — the Ticketmaster affiliate tag was removed");
 
 const routeRawEvidence = [];
 
@@ -622,12 +621,12 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   const { response, text, nextCalled } = await routeResponse(pathname);
   assert(response.status === 200, `${pathname} should return 200`);
 
-  // CSP: must be present on function-rendered HTML responses, allow Impact CDN, no unsafe-inline
+  // CSP: must be present on function-rendered HTML responses, same-origin only, no unsafe-inline
   const csp = response.headers.get("Content-Security-Policy");
   assert(csp !== null, `${pathname} function response must include Content-Security-Policy`);
   assert(csp === EXPECTED_CSP, `${pathname} CSP should match expected value, got: ${csp}`);
   assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
-  assert(csp.includes("https://utt.impactcdn.com"), `${pathname} CSP must allow https://utt.impactcdn.com`);
+  assert(!csp.includes("impactcdn.com"), `${pathname} CSP must not allow impactcdn.com — the Ticketmaster affiliate tag was removed`);
 
   // Canonical URL: tag must be present and point to the exact route
   const actualCanonical = extractCanonical(text);
@@ -1260,19 +1259,12 @@ outResponse = await out(
 assert(outResponse.status === 400, "HTTP SeatGeek event URL should not resolve through /api/out");
 const httpSeatGeekJson = await outResponse.json();
 assert(httpSeatGeekJson.status === "event_ticket_url_unavailable", "HTTP SeatGeek event URL should fail with event_ticket_url_unavailable");
-const impactTrackingUrl = "https://ticketmaster.evyy.net/c/123456/98765/101010";
+// Ticketmaster redirects are plain, unmonetized links: the site was removed
+// from the Ticketmaster affiliate programme, so no Impact API call may be
+// made for a Ticketmaster redirect even when legacy Impact env vars exist.
 try {
-  globalThis.fetch = async (request, options = {}) => {
-    const url = new URL(String(request.url || request));
-    assert(url.hostname === "api.impact.com", "Impact tracking links should call the server-side Impact API");
-    assert(url.searchParams.get("DeepLink") === verifiedMorganShow.ticketmaster_url, "Impact DeepLink should be the stored event-specific Ticketmaster URL");
-    assert(url.pathname.includes("/Mediapartners/tm-account/Programs/tm-program/TrackingLinks"), "Ticketmaster Impact request should use Ticketmaster credentials");
-    assert(!url.toString().includes("example.com"), "Impact request must not use request-supplied example.com deep links");
-    assert(options.headers?.Authorization === `Basic ${Buffer.from("tm-account:tm-token").toString("base64")}`, "Ticketmaster Impact request should use Ticketmaster basic auth");
-    return new Response(JSON.stringify({ TrackingURL: impactTrackingUrl }), {
-      status: 200,
-      headers: { "content-type": "application/json" }
-    });
+  globalThis.fetch = async () => {
+    throw new Error("Ticketmaster redirects must not call the Impact API");
   };
   outResponse = await out(
     `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com`,
@@ -1280,49 +1272,15 @@ try {
     null,
     {
       ...env,
+      IMPACT_ACCOUNT_SID: "legacy-account",
+      IMPACT_AUTH_TOKEN: "legacy-token",
       IMPACT_TICKETMASTER_ACCOUNT_SID: "tm-account",
       IMPACT_TICKETMASTER_AUTH_TOKEN: "tm-token",
       IMPACT_TICKETMASTER_PROGRAM_ID: "tm-program"
     }
   );
-  assert(outResponse.status === 302, "Impact-enabled showId /api/out should still redirect");
-  assert(outResponse.headers.get("location") === impactTrackingUrl, "Impact-enabled showId /api/out should redirect to the returned TrackingURL");
-
-  globalThis.fetch = async () => new Response(JSON.stringify({ Message: "forbidden" }), {
-    status: 403,
-    headers: { "content-type": "application/json" }
-  });
-  outResponse = await out(
-    `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster`,
-    "GET",
-    null,
-    {
-      ...env,
-      IMPACT_ACCOUNT_SID: "test-account",
-      IMPACT_AUTH_TOKEN: "test-token",
-      IMPACT_TICKETMASTER_PROGRAM_ID: "test-program"
-    }
-  );
-  assert(outResponse.status === 302, "Impact failure should not block verified event redirects");
-  assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "Impact failure should fall back to the exact stored Ticketmaster event URL");
-
-  globalThis.fetch = async () => new Response(JSON.stringify({ TrackingURL: "http://localhost:3000/bad" }), {
-    status: 200,
-    headers: { "content-type": "application/json" }
-  });
-  outResponse = await out(
-    `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster`,
-    "GET",
-    null,
-    {
-      ...env,
-      IMPACT_TICKETMASTER_ACCOUNT_SID: "tm-account",
-      IMPACT_TICKETMASTER_AUTH_TOKEN: "tm-token",
-      IMPACT_TICKETMASTER_PROGRAM_ID: "tm-program"
-    }
-  );
-  assert(outResponse.status === 302, "Unsafe Impact TrackingURL should not block verified event redirects");
-  assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "Unsafe Impact TrackingURL should fall back to the exact stored Ticketmaster event URL");
+  assert(outResponse.status === 302, "Ticketmaster showId /api/out should redirect");
+  assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "Ticketmaster showId /api/out should redirect to the exact stored event URL with no Impact wrapping");
 } finally {
   globalThis.fetch = originalFetch;
 }

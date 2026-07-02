@@ -436,10 +436,6 @@ function providerKey(provider) {
   return String(provider || "").toLowerCase().replace(/\s+/g, "");
 }
 
-function hasImpactCredentials(env) {
-  return Boolean(String(env?.IMPACT_ACCOUNT_SID || "").trim() && String(env?.IMPACT_AUTH_TOKEN || "").trim());
-}
-
 // Public SeatGeek CTA availability is tied to Impact affiliate-link creation,
 // not to SeatGeek API discovery credentials. SeatGeek API credentials are only
 // for debug/future proposal tooling and should not gate approved event URLs.
@@ -596,21 +592,12 @@ function getConfirmedTicketmasterArtistAffiliateUrl(show) {
   return isUsableAffiliateUrl(url) ? url : null;
 }
 
-function isTicketmasterStaticAffiliateUrl(value) {
-  if (!isUsableAffiliateUrl(value)) return false;
-  try {
-    return new URL(value).hostname.toLowerCase() === "ticketmaster.evyy.net";
-  } catch (error) {
-    return false;
-  }
-}
-
 function buildAffiliateActionUrl(show, provider, deepLink) {
   const params = new URLSearchParams({
     showId: String(show?.id || ""),
     provider: String(provider || "")
   });
-  if (deepLink && !isTicketmasterStaticAffiliateUrl(deepLink) && String(providerKey(provider)) !== "ticketmaster") {
+  if (deepLink && String(providerKey(provider)) !== "ticketmaster") {
     params.set("deepLink", deepLink);
   }
   return `/api/out?${params.toString()}`;
@@ -618,13 +605,9 @@ function buildAffiliateActionUrl(show, provider, deepLink) {
 
 function decorateProviderResult(result, show, provider, env) {
   const key = providerKey(provider);
-  const directUrl = key === "ticketmaster"
-    ? getProviderDeepLink(show, provider, result?.url)
-    : getProviderDeepLink(show, provider, result?.url);
-  const ticketmasterProgramId = String(show?.ticketmaster_impact_program_id || env?.IMPACT_TICKETMASTER_PROGRAM_ID || "").trim();
+  const directUrl = getProviderDeepLink(show, provider, result?.url);
   const hasVerifiedTicketmasterEventUrl = key === "ticketmaster" && Boolean(getAffiliateUrl(show, provider));
-  const canUseImpact = key === "ticketmaster" && hasImpactCredentials(env) && Boolean(ticketmasterProgramId && directUrl);
-  const canUseSafeEventRedirect = hasVerifiedTicketmasterEventUrl || canUseImpact;
+  const canUseSafeEventRedirect = hasVerifiedTicketmasterEventUrl;
   const actionUrl = canUseSafeEventRedirect ? buildAffiliateActionUrl(show, provider, directUrl) : null;
   const baseStatus = result?.status || "unavailable";
   const isSeatGeekPriceSnapshot = key === "seatgeek" &&

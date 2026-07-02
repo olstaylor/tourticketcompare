@@ -26,9 +26,6 @@ export async function onRequestGet({ env }) {
     },
     bindings: {
       demandDb: hasBinding(env, "DEMAND_DB"),
-      impactTicketmasterAccountSid: hasBinding(env, "IMPACT_TICKETMASTER_ACCOUNT_SID"),
-      impactTicketmasterAuthToken: hasBinding(env, "IMPACT_TICKETMASTER_AUTH_TOKEN"),
-      impactTicketmasterProgramId: hasBinding(env, "IMPACT_TICKETMASTER_PROGRAM_ID"),
       impactSeatGeekAccountSid: hasBinding(env, "IMPACT_SEATGEEK_ACCOUNT_SID"),
       impactSeatGeekAuthToken: hasBinding(env, "IMPACT_SEATGEEK_AUTH_TOKEN"),
       impactSeatGeekProgramId: hasBinding(env, "IMPACT_SEATGEEK_PROGRAM_ID"),

@@ -551,12 +551,8 @@
       "provider_type": "primary_or_verified_marketplace",
       "public_enabled": true,
       "requires_verified_destination": true,
-      "credential_type": "impact_affiliate",
-      "credential_fields": [
-        "IMPACT_ACCOUNT_SID",
-        "IMPACT_AUTH_TOKEN",
-        "IMPACT_PROGRAM_ID"
-      ],
+      "credential_type": "none",
+      "credential_fields": [],
       "geographic_coverage": [
         "US",
         "CA",
@@ -599,7 +595,7 @@
         "real_time_inventory": true,
         "price_aggregation": false
       },
-      "affiliate_disclosure": "This link directs to Ticketmaster. Compensation: affiliate commission.",
+      "affiliate_disclosure": "This link directs to Ticketmaster. Compensation: none (plain link; no affiliate relationship).",
       "terms_accepted_at": "2026-04-30",
       "contact": {
         "api_email": "api-support@ticketmaster.com",

@@ -19,7 +19,7 @@ This file is the current-state snapshot. Use `BACKLOG.md` for prioritised work a
 - Named route shims (`functions/artists.js`, etc.) are fallback-only while middleware is active.
 - D1 bindings: `DEMAND_DB` only. (No `RATE_LIMIT_DB`, no `CLICKS_DB`.)
 - Impact bindings: `IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_TICKETMASTER_PROGRAM_ID` (server-side only). SeatGeek Impact bindings are also present in production (`IMPACT_SEATGEEK_ACCOUNT_SID`, `IMPACT_SEATGEEK_AUTH_TOKEN`, `IMPACT_SEATGEEK_PROGRAM_ID`), plus SeatGeek API credentials `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` (held for discovery tooling; not used by `/api/out`). All confirmed via `/api/health`. `MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false`.
-- Affiliate model (PR #180 clarification): the site-wide Impact Publisher Tag in `public/impact.js` transforms plain `ticketmaster.com` anchors at load time; a pre-minted `ticketmaster.evyy.net/<code>` shortlink is **not** required. Both URL shapes pass `validateConfiguredRedirect` in `functions/api/out.js`.
+- Affiliate model (updated 2026-07-02): **Ticketmaster affiliate is gone** — the site was removed from the Ticketmaster affiliate programme. All Ticketmaster links are plain, unmonetized `ticketmaster.com` URLs (the Impact Publisher Tag `public/impact.js` and the `ticketmaster.evyy.net` shortlinks were removed; `/api/out` never calls Impact for Ticketmaster). SeatGeek (and Vivid Seats once configured) are the monetized providers via Impact.
 
 ## Current data
 

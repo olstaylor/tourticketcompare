@@ -114,7 +114,10 @@ These must be configured in the Cloudflare Pages dashboard for the project to fu
 | D1 database | `DEMAND_DB` | `tourticketcompare-demand` (ID: `19b314b8-10f1-4504-a3bc-963f7ecbe9f6`) |
 | Secret | `IMPACT_ACCOUNT_SID` | From Cloudflare Worker environment (do not store in repo) |
 | Secret | `IMPACT_AUTH_TOKEN` | From Cloudflare Worker environment (do not store in repo) |
-| Secret | `IMPACT_TICKETMASTER_PROGRAM_ID` | From Cloudflare Worker environment (do not store in repo) |
+| Secret | `IMPACT_SEATGEEK_*` | SeatGeek Impact program (account SID / auth token / program or campaign id, optional base tracking URL) |
+| Secret | `IMPACT_VIVIDSEATS_*` | Vivid Seats Impact program — not yet set; CTAs stay dormant until it is |
+
+`IMPACT_TICKETMASTER_*` secrets are no longer read by any code (Ticketmaster affiliate ended 2026-07) — delete them from the dashboard after verifying the pivot deploy.
 
 Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploys):
 

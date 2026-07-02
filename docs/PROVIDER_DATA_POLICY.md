@@ -35,27 +35,31 @@ Only plain `ticketmaster.com` (and allowlisted country-TLD) URLs pass `validateC
 
 ## SeatGeek
 
-**Role:** Live secondary marketplace provider. Event-level only.
+**Role:** Primary affiliate provider (Impact network). Artist-level and event-level.
 
-**Current status:** Configured and live in production. The Impact SeatGeek bindings (`IMPACT_SEATGEEK_ACCOUNT_SID`, `IMPACT_SEATGEEK_AUTH_TOKEN`, `IMPACT_SEATGEEK_PROGRAM_ID`) are present (confirmed via `/api/health`). `/api/out` resolves `provider=seatgeek` from a verified event-level `seatgeek_url`, validates it (HTTPS, host `seatgeek.com`, event path pattern `/(concert|sports|theater|theatre)/<id>`), wraps it in Impact tracking, and returns a 302 redirect. The "Check SeatGeek" CTA renders as a secondary button on event cards that carry a verified `seatgeek_url` when the SeatGeek Impact config is present.
+**Current status (2026-07-02):** Live in production as the **primary CTA**. The Impact SeatGeek bindings (`IMPACT_SEATGEEK_ACCOUNT_SID`, `IMPACT_SEATGEEK_AUTH_TOKEN`, `IMPACT_SEATGEEK_PROGRAM_ID`/`_CAMPAIGN_ID`, optional `IMPACT_SEATGEEK_BASE_TRACKING_URL`) are present. Two lanes:
 
-When the SeatGeek Impact config is absent, `/api/out` fails safely with `impact_missing_credentials` / `impact_missing_program_id` (not a redirect), and the CTA does not render.
+1. **Event-level:** `/api/out?showId=<id>&provider=seatgeek` resolves the verified event-level `seatgeek_url`, validates it (HTTPS, host `seatgeek.com`, event path pattern `/(concert|sports|theater|theatre)/<id>`), wraps it in Impact tracking, and 302s. The "View tickets on SeatGeek" CTA renders as the primary button on publishable event cards; it may render **standalone** (a publishable Ticketmaster URL is no longer required on the same card). On a `needs_recheck` event it renders only when the SeatGeek link carries its own verified provenance (`provider_links.seatgeek.verified === true`).
+2. **Artist-level:** `/api/out?artistSlug=<slug>&provider=seatgeek` resolves the `<slug>:seatgeek` entry in `VERIFIED_TICKET_LINKS`. Destinations are performer-page URLs **captured from the SeatGeek `/2/performers/{id}` API record for the registry-verified `seatgeek_performer_id`** (stored as `seatgeek_artist_url` in `data/provider-identities.json`) — never constructed from names, and browser-verified by the owner before merge. Artist-level clicks are Impact-wrapped exactly like the event lane.
 
-**Constraints (unchanged):**
-- **Event-level only.** SeatGeek destinations come from a verified `seatgeek_url` in `events.json`; there are no artist-level SeatGeek entries in `/api/out`'s `VERIFIED_TICKET_LINKS`.
-- The destination host is `seatgeek.com` (the only allowlisted SeatGeek host). Generic search/artist/venue/performer URLs are rejected.
+When the SeatGeek Impact config is absent, `/api/out` fails safely with `provider_not_configured` / `impact_missing_credentials` (JSON, not a redirect), and no SeatGeek CTA renders anywhere.
+
+**Constraints:**
+- The destination host is `seatgeek.com` (the only allowlisted SeatGeek host). Generic search/venue URLs are rejected on the event lane; the artist lane accepts only the hand-verified performer-page constants in `VERIFIED_TICKET_LINKS`.
 - **SeatGeek price snapshots are default-off and display-only.** SeatGeek price data may be used only as a SeatGeek-only, provider-attributed latest snapshot after written SeatGeek display permission has been confirmed, sourced from the approved SeatGeek partner API only, gated by `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, tied to an event with a valid verified `seatgeek_url`, loaded from a cached row with `source='seatgeek_partner_api'`, timestamped, and hidden when stale. Do not scrape, invent, manually enter, compare across providers, or make "cheapest", "lowest", "best deal", "savings", "price guarantee", or "real-time cheapest" claims.
 
 ---
 
 ## Vivid Seats
 
-**Role:** Intended future provider. Not yet live.
+**Role:** Second affiliate provider (Impact network, approved). Wired but dormant.
 
-**Current status:** Vivid Seats buttons are hidden on all artist pages. No verified Vivid Seats destination URLs are configured. `/api/out` rejects Vivid Seats provider requests with `provider_not_configured`.
+**Current status (2026-07-02):** The full code path exists and mirrors SeatGeek — `impactConfig(env, "vivid-seats")` (`IMPACT_VIVIDSEATS_ACCOUNT_SID`/`_AUTH_TOKEN`/`_CAMPAIGN_ID` or `_PROGRAM_ID`, optional `IMPACT_VIVIDSEATS_BASE_TRACKING_URL`), event-level `vividseats_url` resolution (strict production-page shape `/production/<numeric id>` on host `vividseats.com`), artist-level `VERIFIED_TICKET_LINKS` support, and rendering slots ordered SeatGeek → Vivid Seats → Ticketmaster. **No CTAs render today**: no secrets are set and no verified `vividseats.com` destinations exist; `/api/out` rejects with `provider_not_configured`. Dormancy is smoke-asserted.
 
-**When Vivid Seats buttons may be enabled:**
-- Same conditions as SeatGeek: verified destination URL, reviewed and added to `/api/out`, destination host is `vividseats.com`.
+**To activate:**
+1. Add the `IMPACT_VIVIDSEATS_*` secrets (or a pxf.io base tracking URL) in the Cloudflare dashboard.
+2. Land verified `vividseats_url` event data and/or `<slug>:vivid-seats` artist entries — same verification gates as SeatGeek (API-captured or owner browser-verified URLs only; adjust the conservative URL validator in the same PR if real production URLs differ).
+3. Like SeatGeek, an Impact failure returns diagnostic JSON — never an untracked redirect.
 
 ---
 

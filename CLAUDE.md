@@ -96,11 +96,12 @@ All HTML route handling lives in `functions/[[path]].js`. It:
 | Binding | Type | ID | Status | Used for |
 |---------|------|----|---------|-----------| 
 | `DEMAND_DB` | D1 | `tourticketcompare-demand` | Active | Analytics, email signups, rate limiting |
-| `IMPACT_ACCOUNT_SID` | Secret | (Cloudflare) | Active | Affiliate tracking (server-side only) |
-| `IMPACT_AUTH_TOKEN` | Secret | (Cloudflare) | Active | Affiliate tracking (server-side only) |
-| `IMPACT_TICKETMASTER_PROGRAM_ID` | Secret | (Cloudflare) | Active | Ticketmaster Impact program (server-side only) |
+| `IMPACT_ACCOUNT_SID` | Secret | (Cloudflare) | Active | Impact network credentials (SeatGeek/Vivid Seats fallback; server-side only) |
+| `IMPACT_AUTH_TOKEN` | Secret | (Cloudflare) | Active | Impact network credentials (SeatGeek/Vivid Seats fallback; server-side only) |
+| `IMPACT_SEATGEEK_*` | Secret | (Cloudflare) | Active | SeatGeek Impact program (server-side only) |
+| `IMPACT_VIVIDSEATS_*` | Secret | (Cloudflare) | Pending owner setup | Vivid Seats Impact program (server-side only; CTAs stay dormant until set) |
 
-`wrangler.toml` declares `DEMAND_DB` only. There are no longer any `RATE_LIMIT_DB` or `CLICKS_DB` placeholder blocks in the file. Impact credentials are never exposed client-side; they're used only in `functions/api/out.js`.
+**Ticketmaster has no affiliate bindings** — the site was removed from the Ticketmaster affiliate programme (2026-07). Ticketmaster links are plain, unmonetized redirects; the old `IMPACT_TICKETMASTER_*` secrets are unused and should be deleted from the Cloudflare dashboard. `wrangler.toml` declares `DEMAND_DB` only. Impact credentials are never exposed client-side; they're used only in `functions/api/out.js`.
 
 ### Named Route Shims
 
@@ -139,12 +140,14 @@ Do not action these without explicit scope (also tracked as "parked" in `BACKLOG
 - `archive/vercel-experimental/README.md` removal (#176 candidate #4 — left as a harmless historical marker; the Vercel pair and Worker builder were already deleted 2026-06-19)
 - Provider abstraction implementation (`functions/api/_providers/index.js`, `functions/_provider-registry.js`)
 - Tour-level pages, city pages, event landing pages
-- Artist-level SeatGeek links or SeatGeek price display (SeatGeek is configured and live in production, but **event-level only** — destinations come from a verified `seatgeek_url` in `events.json`, never from artist-level allowlist entries)
+- SeatGeek price display (parked; requires written SeatGeek permission)
 - Live price aggregation or "cheapest" / "guaranteed availability" claims
 
-Unparked 2026-06-10 (no longer blocked, but the standard gates still apply):
-- **New artists** may be onboarded via `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` + `docs/ADDING_ARTISTS.md` (phase gates, human browser verification, `npm run artist:check`). Never auto-published.
-- **Public Vivid Seats CTAs** may be scoped and enabled — but only with a verified `vividseats.com` destination URL routed through `/api/out` (see `docs/PROVIDER_DATA_POLICY.md` → Vivid Seats). No verified destinations exist yet, so no CTAs render until they do.
+Affiliate model (2026-07 pivot — owner-approved):
+- **Ticketmaster affiliate is gone.** Ticketmaster links are plain, unmonetized verified redirects, rendered after the affiliate providers. Never re-add Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
+- **SeatGeek is artist-level + event-level** and is the primary CTA. Artist-level entries are performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for the registry-verified performer id — never constructed from names.
+- **Vivid Seats is wired but dormant** until `IMPACT_VIVIDSEATS_*` secrets and verified `vividseats.com` destinations exist.
+- **New artists** are onboarded in batches (up to 20/PR) via `npm run artists:onboard:propose` → shells → `npm run artists:promote:batch` with a per-artist human browser spot-check checklist in the PR body. Never auto-published.
 
 ---
 
@@ -152,7 +155,7 @@ Unparked 2026-06-10 (no longer blocked, but the standard gates still apply):
 
 Do not modify without explicit task scope:
 
-- **`functions/api/out.js`** — verified affiliate redirect logic; contains `VERIFIED_TICKET_LINKS`
+- **`functions/api/out.js`** — verified outbound redirect logic; contains `VERIFIED_TICKET_LINKS` (SeatGeek/Vivid Seats redirects are Impact-wrapped; Ticketmaster redirects are plain)
 - **`functions/_middleware.js`** — entry point for all requests; a bug here breaks all HTML routes
 - **`functions/[[path]].js`** — all HTML routing; changes affect every public page
 - **`functions/_route-metadata.js`** — single source of truth for page titles, H1s, descriptions, breadcrumbs, guide slugs

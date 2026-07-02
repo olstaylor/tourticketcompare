@@ -86,20 +86,20 @@ Once Phase 1 is documented and reviewed:
 
 | Provider | Status | Notes |
 |----------|--------|-------|
-| **Ticketmaster** | ✅ Live | Official event source; Impact affiliate tracking active |
-| **SeatGeek** | ✅ Live (event-level only) | Event-level CTAs render where a verified `seatgeek_url` exists, via `/api/out` with Impact tracking. Artist-level links and price display remain parked. |
-| **Vivid Seats** | 🔓 Unparked (not live) | Block lifted 2026-06-10; public CTAs may be scoped. Requires a verified `vividseats.com` destination URL added to `/api/out` — none exist yet, so buttons stay hidden. |
+| **SeatGeek** | ✅ Live (artist + event level) | Primary affiliate CTA via Impact. Artist-level performer-page entries (API-captured URLs) and event-level `seatgeek_url` CTAs, all through `/api/out`. Price display remains parked. |
+| **Ticketmaster** | ✅ Live (plain links) | Official event source and verified destination; **no affiliate relationship** (removed from the programme 2026-07). Links are plain, unmonetized redirects rendered after the affiliate providers. |
+| **Vivid Seats** | 🔌 Wired, dormant | Approved on Impact; full code path mirrors SeatGeek. Buttons stay hidden until `IMPACT_VIVIDSEATS_*` secrets and verified `vividseats.com` destinations exist. |
 | **StubHub, Viagogo** | ⏸️ Not started | No active priority; do not add without explicit scope |
 
 ---
 
-## Example: Ticketmaster Integration (Live)
+## Example: Ticketmaster Integration (Live, plain links)
 
 **Source:** Official Ticketmaster artist pages + event discovery API
-**Rights:** Impact affiliate program (active; provided IMPACT_TICKETMASTER_PROGRAM_ID)
-**Disclosure:** Impact publisher tag in `public/impact.js` (transforms `ticketmaster.com` links to tracked redirects)
-**CTA behaviour:** Show "Buy on Ticketmaster" only if `verified_providers: ["ticketmaster"]` in artist record
-**Fallback:** If Impact tracking fails, redirect to raw Ticketmaster URL (fail-safe)
+**Rights:** None needed — plain, unmonetized links to verified destinations (the Impact affiliate programme membership ended 2026-07)
+**Disclosure:** Affiliate-disclosure page states Ticketmaster links earn nothing
+**CTA behaviour:** Verified Ticketmaster links render after the affiliate providers ("Check Ticketmaster" beside a SeatGeek CTA, "View tickets" standalone)
+**Fallback:** Redirect straight to the verified stored URL; no tracking involved
 **Validation:** Smoke test checks `/api/out?artistSlug=beyonce&provider=ticketmaster` → 302 redirect to Ticketmaster
 
 ---

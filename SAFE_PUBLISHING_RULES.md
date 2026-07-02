@@ -51,8 +51,9 @@ Pages become indexable and conversion-led only after completing the phase gates 
 
 - All ticket outbound links must route through `/api/out` — no raw affiliate URLs in HTML or data files.
 - `functions/api/out.js` and `VERIFIED_TICKET_LINKS` are protected. Do not modify without explicit scope.
-- Impact credentials (`IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_TICKETMASTER_PROGRAM_ID`) are server-side only. Never expose in public assets, API responses, or client-side code.
-- If affiliate tracking fails, the redirect must fail safe or fall back only to the verified stored destination.
+- Impact credentials (`IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_SEATGEEK_*`, `IMPACT_VIVIDSEATS_*`) are server-side only. Never expose in public assets, API responses, or client-side code.
+- **Ticketmaster links carry no affiliate tracking** (the site left the Ticketmaster affiliate programme, 2026-07): they are plain redirects to the verified stored destination. Never re-add Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
+- SeatGeek / Vivid Seats redirects are Impact-wrapped; if the Impact call fails, `/api/out` returns a diagnostic JSON — never an untracked redirect and never a made-up destination.
 
 ## Schema and SEO
 
@@ -66,7 +67,7 @@ Pages become indexable and conversion-led only after completing the phase gates 
 
 ## Discovery, Enrichment, and Rendering
 
-- SeatGeek is **event-level only**. Artist-level SeatGeek links and any SeatGeek price display are parked. Enrichment auto-apply is limited to high-confidence event-URL matches (logged); price snapshots write only to D1 and never enable display.
+- SeatGeek is **artist-level and event-level** (artist-level unparked and shipped 2026-07-02). Artist-level destinations must be performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for a registry-verified performer id — never constructed from names. Any SeatGeek price display remains parked. Enrichment auto-apply is limited to high-confidence event-URL matches (logged); price snapshots write only to D1 and never enable display.
 - **Nightly authoritative field-sync** (`.github/workflows/nightly-data-sync.yml` → `scripts/apply-tm-updates.mjs`) may auto-commit **lossless factual updates to events that already exist in `events.json`** — date/time, venue/city, and the canonical Ticketmaster URL (refreshed so the `/event/<id>` slug and the `out.js` event-id match stay valid) — sourced directly from the Ticketmaster Discovery API for that exact event id. This is the only sanctioned auto-commit to `events.json`, and it is gated on `events:validate:prod` passing. It is **not** licence to auto-publish anything new or unverified: brand-new shows (discovery/proposal PR flow), event deletions (404/410), cancelled/postponed status (no safe local enum), and `tour_name` (verification-gated, issue #172) are **never auto-applied** — they are surfaced in the rolling `automation:data-sync` issue for human review.
 - Every non-root route must return route-specific H1, title, and canonical in raw HTML (SSR via `functions/[[path]].js`). Smoke tests assert this; production proof for issue #10 is a human curl/browser checklist.
 

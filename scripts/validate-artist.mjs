@@ -27,8 +27,9 @@ const PATHS = {
 };
 
 // Providers whose artist-level CTAs are dispatched via VERIFIED_TICKET_LINKS.
-// Event-only providers (e.g. seatgeek) resolve destinations from event records.
-const ARTIST_LEVEL_PROVIDERS = new Set(['ticketmaster']);
+// SeatGeek gained artist-level performer-page entries in the 2026-07 affiliate
+// pivot; vivid-seats joins when its first artist-level entry lands.
+const ARTIST_LEVEL_PROVIDERS = new Set(['ticketmaster', 'seatgeek']);
 
 async function readJson(p) {
   return JSON.parse(await fs.readFile(p, 'utf8'));
@@ -45,16 +46,20 @@ async function loadVerifiedTicketLinkKeys() {
   return keys;
 }
 
-async function loadShowsAffiliateKeys() {
-  // shows.js derives TICKETMASTER_ARTIST_AFFILIATE_LINKS from out.js
-  // VERIFIED_TICKET_LINKS at module load — import it and read the real map
-  // instead of regex-parsing source text.
+async function loadShowsArtistLinkKeys() {
+  // shows.js derives ARTIST_LINKS_BY_PROVIDER (provider → { slug → url })
+  // from out.js VERIFIED_TICKET_LINKS at module load — import it and read the
+  // real map instead of regex-parsing source text.
   const showsModule = await import(pathToFileURL(PATHS.shows));
-  const map = showsModule.TICKETMASTER_ARTIST_AFFILIATE_LINKS;
+  const map = showsModule.ARTIST_LINKS_BY_PROVIDER;
   if (!map || typeof map !== 'object') {
-    throw new Error(`TICKETMASTER_ARTIST_AFFILIATE_LINKS not exported from ${PATHS.shows}`);
+    throw new Error(`ARTIST_LINKS_BY_PROVIDER not exported from ${PATHS.shows}`);
   }
-  return new Set(Object.keys(map));
+  const byProvider = new Map();
+  for (const [provider, links] of Object.entries(map)) {
+    byProvider.set(provider, new Set(Object.keys(links || {})));
+  }
+  return byProvider;
 }
 
 // ─── Report builder ────────────────────────────────────────────────────────────
@@ -133,14 +138,14 @@ async function main() {
     process.exit(2);
   }
 
-  let artists, catalog, events, vtlKeys, showsAffiliateKeys;
+  let artists, catalog, events, vtlKeys, showsArtistLinkKeys;
   try {
-    [artists, catalog, events, vtlKeys, showsAffiliateKeys] = await Promise.all([
+    [artists, catalog, events, vtlKeys, showsArtistLinkKeys] = await Promise.all([
       readJson(PATHS.artists),
       readJson(PATHS.catalog),
       readJson(PATHS.events),
       loadVerifiedTicketLinkKeys(),
-      loadShowsAffiliateKeys(),
+      loadShowsArtistLinkKeys(),
     ]);
   } catch (err) {
     console.error(`FATAL: could not load data files — ${err.message}`);
@@ -279,18 +284,21 @@ async function main() {
   // Ticketmaster CTA sourced from /api/shows. The map is derived at runtime from
   // out.js VERIFIED_TICKET_LINKS, so a miss here means the out.js entry is absent
   // or not a verified ticketmaster link.
-  if (isIndexable && verifiedProviders.includes('ticketmaster')) {
-    if (showsAffiliateKeys.has(slug)) {
-      report.pass(`shows.js affiliate map (derived from out.js): "${slug}" present`);
-    } else {
-      report.fail(
-        `shows.js affiliate map (derived from out.js): "${slug}" missing — ` +
-        `/api/shows returns no affiliate URL for this artist`
-      );
+  const artistLevelProviders = ['ticketmaster', 'seatgeek'].filter((provider) => verifiedProviders.includes(provider));
+  if (isIndexable && artistLevelProviders.length) {
+    for (const provider of artistLevelProviders) {
+      if (showsArtistLinkKeys.get(provider)?.has(slug)) {
+        report.pass(`shows.js artist-link map (derived from out.js): "${slug}:${provider}" present`);
+      } else {
+        report.fail(
+          `shows.js artist-link map (derived from out.js): "${slug}:${provider}" missing — ` +
+          `the ${provider} artist link is not derivable from out.js`
+        );
+      }
     }
   } else {
     report.info(
-      `shows.js affiliate map check skipped (artist not indexable or no Ticketmaster provider)`
+      `shows.js artist-link map check skipped (artist not indexable or no artist-level provider)`
     );
   }
 

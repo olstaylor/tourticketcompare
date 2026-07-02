@@ -17,15 +17,17 @@ const PLACEHOLDER_URL_MARKERS = [
   "tbd"
 ];
 const PLACEHOLDER_HOST_REGEX = /(^|\.)example\.com$|(^|\.)example$|(^|\.)localhost$|^127\.0\.0\.1$/i;
-// Derived from the verified affiliate registry in out.js — do not hand-edit.
-// Promoting an artist (VERIFIED_TICKET_LINKS entry) makes them appear here.
-const TICKETMASTER_ARTIST_AFFILIATE_LINKS = Object.fromEntries(
-  Object.values(VERIFIED_TICKET_LINKS)
-    .filter((link) => link?.provider === "ticketmaster" && link?.verified === true && link?.redirectUrl)
-    .map((link) => [link.artistSlug, link.redirectUrl])
-);
+// Derived from the verified link registry in out.js — do not hand-edit.
+// Keyed provider → { artistSlug → redirectUrl }. Promoting an artist
+// (VERIFIED_TICKET_LINKS entry) makes them appear here.
+const ARTIST_LINKS_BY_PROVIDER = {};
+for (const link of Object.values(VERIFIED_TICKET_LINKS)) {
+  if (link?.verified !== true || !link?.redirectUrl || !link?.provider || !link?.artistSlug) continue;
+  if (!ARTIST_LINKS_BY_PROVIDER[link.provider]) ARTIST_LINKS_BY_PROVIDER[link.provider] = {};
+  ARTIST_LINKS_BY_PROVIDER[link.provider][link.artistSlug] = link.redirectUrl;
+}
 
-export { TICKETMASTER_ARTIST_AFFILIATE_LINKS };
+export { ARTIST_LINKS_BY_PROVIDER };
 
 function isValidDateISO(value) {
   if (typeof value !== "string") return false;
@@ -648,11 +650,6 @@ function buildProviderUrl(show, provider) {
   const affiliate = getAffiliateUrl(show, provider);
   if (affiliate) return affiliate;
   return null;
-}
-
-function getConfirmedTicketmasterArtistAffiliateUrl(show) {
-  const url = TICKETMASTER_ARTIST_AFFILIATE_LINKS[slugify(show?.artist_slug)];
-  return isUsableAffiliateUrl(url) ? url : null;
 }
 
 function buildAffiliateActionUrl(show, provider, deepLink) {

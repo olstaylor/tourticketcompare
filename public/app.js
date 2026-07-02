@@ -515,8 +515,20 @@ function providerVerificationNote(item) {
   return date ? `Provider link last checked: ${date}.` : "";
 }
 
+// Affiliate providers (SeatGeek, Vivid Seats) render before the plain,
+// unmonetized Ticketmaster link. Keep in sync with PROVIDER_DISPLAY_ORDER in
+// functions/[[path]].js.
+const PROVIDER_DISPLAY_ORDER = ["seatgeek", "vivid-seats", "ticketmaster"];
+
+function providerDisplayRank(providerSlug) {
+  const rank = PROVIDER_DISPLAY_ORDER.indexOf(providerSlug);
+  return rank === -1 ? PROVIDER_DISPLAY_ORDER.length : rank;
+}
+
 function renderProviderButtons(artist, surface) {
-  const links = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
+  const links = ticketLinksForArtist(artist.slug)
+    .filter((item) => providerEnabled(slugify(item.provider)))
+    .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)));
   const panel = document.createElement("section");
   panel.className = "provider-panel";
   panel.setAttribute("aria-labelledby", "providerTitle");

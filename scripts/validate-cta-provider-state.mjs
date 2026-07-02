@@ -136,9 +136,13 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
   const errors = [];
   const info = [];
 
-  // 1 + 2: artist-level CTA <-> verified provider identity.
+  // 1 + 2: artist-level CTA <-> verified provider identity. Every artist CTA
+  // (any provider) needs a review_status "verified" registry entry; each
+  // provider additionally requires its identity anchor: ticketmaster_
+  // attraction_id for ticketmaster keys, seatgeek_performer_id for seatgeek
+  // keys (the performer-page URL is only trusted while pinned to the verified
+  // performer record).
   for (const { slug, provider, key } of verifiedKeys) {
-    if (provider !== "ticketmaster") continue;
     const reg = registryBySlug.get(slug);
     if (!reg) {
       errors.push(`artist CTA "${key}" has no provider-identity registry entry (CTA not backed by a verified identity)`);
@@ -147,14 +151,22 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
     if (clean(reg.review_status) !== "verified") {
       errors.push(`artist CTA "${key}" is published but registry review_status is "${clean(reg.review_status) || "(absent)"}" (must be "verified")`);
     }
-    if (!clean(reg.ticketmaster_attraction_id)) {
+    if (provider === "ticketmaster" && !clean(reg.ticketmaster_attraction_id)) {
       errors.push(`artist CTA "${key}" is published but registry ticketmaster_attraction_id is empty`);
     }
+    if (provider === "seatgeek" && !Number.isInteger(reg.seatgeek_performer_id)) {
+      errors.push(`artist CTA "${key}" is published but registry seatgeek_performer_id is empty`);
+    }
   }
-  const verifiedKeySet = new Set(verifiedKeys.map((k) => k.key));
+  const publishedSlugs = new Map();
+  for (const { slug, key } of verifiedKeys) {
+    const list = publishedSlugs.get(slug) || [];
+    list.push(key);
+    publishedSlugs.set(slug, list);
+  }
   for (const [slug, reg] of registryBySlug) {
-    if (clean(reg.review_status) === "withheld" && verifiedKeySet.has(`${slug}:ticketmaster`)) {
-      errors.push(`registry "${slug}" is review_status "withheld" but has a VERIFIED_TICKET_LINKS CTA (withheld identity must not publish)`);
+    if (clean(reg.review_status) === "withheld" && publishedSlugs.has(slug)) {
+      errors.push(`registry "${slug}" is review_status "withheld" but has VERIFIED_TICKET_LINKS CTA(s) ${publishedSlugs.get(slug).join(", ")} (withheld identity must not publish)`);
     }
   }
 

@@ -1199,7 +1199,42 @@ assert(outResponse.status === 302, "/api/out should redirect configured Ticketma
 assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "/api/out redirect responses should include the temporary production proof header");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek");
 assert(outResponse.status === 400, "SeatGeek redirect should fail safely without Impact tracking configured (IMPACT_SEATGEEK_PROGRAM_ID not set)");
+assert((await outResponse.json()).status === "provider_not_configured", "unconfigured artist-level SeatGeek should report provider_not_configured");
 assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "/api/out error responses should include the temporary production proof header");
+// Artist-level SeatGeek performer-page redirects are Impact-wrapped: base
+// tracking mode deep-links the exact verified performer URL, and an Impact
+// failure returns diagnostic JSON rather than an untracked redirect.
+const preArtistSgFetch = globalThis.fetch;
+try {
+  globalThis.fetch = async () => {
+    throw new Error("artist-level SeatGeek base tracking redirects should not call the Impact API");
+  };
+  outResponse = await out("/api/out?artistSlug=bruno-mars&provider=seatgeek&sourcePath=/artists/bruno-mars", "GET", null, {
+    ...env,
+    IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL
+  });
+  assert(outResponse.status === 302, "artist-level SeatGeek /api/out should redirect when base tracking is configured");
+  const artistSgLocation = new URL(outResponse.headers.get("location"));
+  assert(outResponse.headers.get("location").startsWith(CONTROLLED_SEATGEEK_BASE_TRACKING_URL), "artist-level SeatGeek redirect should start with the configured pxf.io base URL");
+  assert(artistSgLocation.searchParams.get("u") === "https://seatgeek.com/bruno-mars-tickets", "artist-level SeatGeek redirect should deep-link the exact verified performer-page URL");
+
+  globalThis.fetch = async () => new Response(JSON.stringify({ Message: "forbidden" }), {
+    status: 403,
+    headers: { "content-type": "application/json" }
+  });
+  outResponse = await out("/api/out?artistSlug=bruno-mars&provider=seatgeek", "GET", null, {
+    ...env,
+    IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
+    IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token",
+    IMPACT_SEATGEEK_PROGRAM_ID: "sg-program"
+  });
+  assert(outResponse.status === 400, "artist-level SeatGeek Impact failure should fail safely, not redirect untracked");
+  const artistSgFailure = await outResponse.json();
+  assert(artistSgFailure.status === "impact_program_not_accessible", "artist-level SeatGeek Impact 403 should report impact_program_not_accessible");
+  assert(artistSgFailure.provider === "seatgeek", "artist-level SeatGeek Impact diagnostics should include provider");
+} finally {
+  globalThis.fetch = preArtistSgFetch;
+}
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com");
 assert(outResponse.status === 400, "example.com destination should fail");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=http%3A%2F%2Flocalhost%3A3000");
@@ -1238,12 +1273,23 @@ for (const showId of renderedTicketmasterShowIds) {
 }
 const originalFetch = globalThis.fetch;
 const renderedSeatGeekShowIds = [...serverMorganWithSeatGeek.text.matchAll(/showId=([^&"]+)&amp;provider=seatgeek/g)].map((match) => decodeURIComponent(match[1]));
-const renderedSeatGeekHrefs = [...serverMorganWithSeatGeek.text.matchAll(/href="([^"]*provider=seatgeek[^"]*)"/g)].map((match) => decodeHtmlEntities(match[1]));
+const allRenderedSeatGeekHrefs = [...serverMorganWithSeatGeek.text.matchAll(/href="([^"]*provider=seatgeek[^"]*)"/g)].map((match) => decodeHtmlEntities(match[1]));
+const renderedSeatGeekHrefs = allRenderedSeatGeekHrefs.filter((href) => href.includes("showId="));
+const renderedArtistSeatGeekHrefs = allRenderedSeatGeekHrefs.filter((href) => href.includes("artistSlug="));
 const seatGeekEligibleShowIds = new Set(baseTrackingShowsJson.shows.filter((show) => show.provider_ctas?.seatgeek === true).map((show) => show.id));
 const expectedRenderedSeatGeekShowIds = renderedTicketmasterShowIds.filter((showId) => seatGeekEligibleShowIds.has(showId));
 assert(renderedSeatGeekShowIds.length > 0, "regression check should find rendered SeatGeek CTA showIds for SeatGeek-eligible rendered events");
 assert(JSON.stringify([...renderedSeatGeekShowIds].sort()) === JSON.stringify([...expectedRenderedSeatGeekShowIds].sort()), "regression check should find exactly the SeatGeek-eligible rendered showIds and no extra SeatGeek CTAs");
-assert(renderedSeatGeekHrefs.length === renderedSeatGeekShowIds.length && renderedSeatGeekHrefs.every((href) => href.startsWith("/api/out?") && href.includes("provider=seatgeek")), "rendered SeatGeek CTAs must route through /api/out instead of direct SeatGeek links");
+assert(allRenderedSeatGeekHrefs.every((href) => href.startsWith("/api/out?") && href.includes("provider=seatgeek")), "rendered SeatGeek CTAs must route through /api/out instead of direct SeatGeek links");
+assert(renderedSeatGeekHrefs.length === renderedSeatGeekShowIds.length, "every event-level SeatGeek href must carry a showId");
+assert(renderedArtistSeatGeekHrefs.length === 1 && renderedArtistSeatGeekHrefs[0].includes("artistSlug=morgan-wallen"), "the artist-level SeatGeek performer-page CTA must render exactly once through /api/out when configured");
+// Provider panel: SeatGeek card renders before the Ticketmaster card when
+// configured, and not at all when unconfigured.
+const sgCardIdx = serverMorganWithSeatGeek.text.indexOf("Open SeatGeek artist page");
+const tmCardIdx = serverMorganWithSeatGeek.text.indexOf("Open Ticketmaster artist page");
+assert(sgCardIdx !== -1 && tmCardIdx !== -1 && sgCardIdx < tmCardIdx, "provider panel must show the SeatGeek artist card before the Ticketmaster artist card when configured");
+assert(!serverMorganWithoutSeatGeek.text.includes("Open SeatGeek artist page"), "provider panel must not show a SeatGeek artist card without SeatGeek Impact config");
+assert(serverMorganWithoutSeatGeek.text.includes("Open Ticketmaster artist page"), "provider panel must keep the plain Ticketmaster artist card without SeatGeek Impact config");
 try {
   globalThis.fetch = async () => {
     throw new Error("SeatGeek base tracking redirects should not call the Impact API");

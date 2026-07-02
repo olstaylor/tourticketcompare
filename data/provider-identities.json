@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-20",
+  "updated_at": "2026-07-02",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -13,160 +13,176 @@
       "ticketmaster_attraction_id": "K8vZ9175rX7",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/beyonce-tickets/artist/894191",
       "seatgeek_performer_id": 37,
+      "seatgeek_artist_url": "https://seatgeek.com/beyonce-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record \"Beyoncé\" matching the official artist page. 0 upcoming Discovery events at lookup time (no active tour) — attraction ID still resolves cleanly via /attractions/{id}. Collisions excluded: Beyonce night (K8vZ917OkQ0), themed/tribute events. SeatGeek performer id 37 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Beyonce\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record \"Beyoncé\" matching the official artist page. 0 upcoming Discovery events at lookup time (no active tour) — attraction ID still resolves cleanly via /attractions/{id}. Collisions excluded: Beyonce night (K8vZ917OkQ0), themed/tribute events. SeatGeek performer id 37 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Beyonce\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "harry-styles",
       "ticketmaster_attraction_id": "K8vZ9174XZ0",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/harry-styles-tickets/artist/2366444",
       "seatgeek_performer_id": 621559,
+      "seatgeek_artist_url": "https://seatgeek.com/harry-styles-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (60 upcoming events; events.json?attractionId returns \"Harry Styles\" events). Collision excluded: The Harry Styles Tribute Show (K8vZ917L_Qf). SeatGeek performer id 621559 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Harry Styles\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (60 upcoming events; events.json?attractionId returns \"Harry Styles\" events). Collision excluded: The Harry Styles Tribute Show (K8vZ917L_Qf). SeatGeek performer id 621559 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Harry Styles\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "bts",
       "ticketmaster_attraction_id": "K8vZ917KpXV",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/bts-tickets/artist/2110227",
       "seatgeek_performer_id": 309286,
+      "seatgeek_artist_url": "https://seatgeek.com/bts-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (48 upcoming events; events.json?attractionId returns \"BTS\" events). Collisions excluded: BTS Live Play (K8vZ917_SGf), BTS Rave - Tribute, B.T. Express. SeatGeek performer id 309286 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"BTS\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (48 upcoming events; events.json?attractionId returns \"BTS\" events). Collisions excluded: BTS Live Play (K8vZ917_SGf), BTS Rave - Tribute, B.T. Express. SeatGeek performer id 309286 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"BTS\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "ariana-grande",
       "ticketmaster_attraction_id": "K8vZ9172Qo7",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/ariana-grande-tickets/artist/1688071",
       "seatgeek_performer_id": 13852,
+      "seatgeek_artist_url": "https://seatgeek.com/ariana-grande-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (42 upcoming events; events.json?attractionId returns \"Ariana Grande\" events). Known TM name collisions excluded: One Love Manchester (K8vZ917pe70), tribute shows. SeatGeek performer id 13852 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Ariana Grande\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (42 upcoming events; events.json?attractionId returns \"Ariana Grande\" events). Known TM name collisions excluded: One Love Manchester (K8vZ917pe70), tribute shows. SeatGeek performer id 13852 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Ariana Grande\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "bad-bunny",
       "ticketmaster_attraction_id": "K8vZ9174l1f",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/bad-bunny-tickets/artist/2317395",
       "seatgeek_performer_id": 616548,
+      "seatgeek_artist_url": "https://seatgeek.com/bad-bunny-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (48 upcoming events; events.json?attractionId returns \"Bad Bunny\" events). Known TM name collisions excluded: Bad Bunny Rave (K8vZ917hAm0), Bad Bunny Nights (K8vZ917he90), Club 90's Bad Bunny Night (K8vZ917_EZ7), tribute nights. SeatGeek performer id 616548 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Bad Bunny\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (48 upcoming events; events.json?attractionId returns \"Bad Bunny\" events). Known TM name collisions excluded: Bad Bunny Rave (K8vZ917hAm0), Bad Bunny Nights (K8vZ917he90), Club 90's Bad Bunny Night (K8vZ917_EZ7), tribute nights. SeatGeek performer id 616548 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Bad Bunny\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "morgan-wallen",
       "ticketmaster_attraction_id": "K8vZ9174qlV",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/morgan-wallen-tickets/artist/2288122",
       "seatgeek_performer_id": 562860,
+      "seatgeek_artist_url": "https://seatgeek.com/morgan-wallen-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Owner confirmed 2026-06-10: track only the official Morgan Wallen artist's tour dates. Attraction ID from the Ticketmaster Discovery attraction record. Known TM name collisions explicitly excluded: Morgan Wallen Tribute UK (K8vZ917jiY0), The Morgan Wallen Experience, Morgan Wallen Night, Morgan Wallen Dance Party. SeatGeek performer id 562860 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Morgan Wallen\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Owner confirmed 2026-06-10: track only the official Morgan Wallen artist's tour dates. Attraction ID from the Ticketmaster Discovery attraction record. Known TM name collisions explicitly excluded: Morgan Wallen Tribute UK (K8vZ917jiY0), The Morgan Wallen Experience, Morgan Wallen Night, Morgan Wallen Dance Party. SeatGeek performer id 562860 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Morgan Wallen\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "jay-z",
       "ticketmaster_attraction_id": "K8vZ9171Qi7",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/jayz-tickets/artist/781009",
       "seatgeek_performer_id": 927,
+      "seatgeek_artist_url": "https://seatgeek.com/jay-z-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Discovery attraction record named \"JAŸ-Z\" (Ticketmaster's stylised spelling of JAY-Z) matching the official /jayz-tickets/artist/781009 page; 5 upcoming events and events.json?attractionId returns \"JAŸ-Z\" events. Collisions excluded: JAY-Z and Beyoncé OTR II (K8vZ9179jX0), JAY Z and Justin Timberlake (K8vZ9178BkV). SeatGeek performer id 927 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Jay-Z\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Discovery attraction record named \"JAŸ-Z\" (Ticketmaster's stylised spelling of JAY-Z) matching the official /jayz-tickets/artist/781009 page; 5 upcoming events and events.json?attractionId returns \"JAŸ-Z\" events. Collisions excluded: JAY-Z and Beyoncé OTR II (K8vZ9179jX0), JAY Z and Justin Timberlake (K8vZ9178BkV). SeatGeek performer id 927 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Jay-Z\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "olivia-rodrigo",
       "ticketmaster_attraction_id": "K8vZ917_Su0",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/olivia-rodrigo-tickets/artist/2836194",
       "seatgeek_performer_id": 793855,
+      "seatgeek_artist_url": "https://seatgeek.com/olivia-rodrigo-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (103 upcoming events; events.json?attractionId returns \"Olivia Rodrigo\" events). Tribute acts excluded (Bitter Sweet, Sweet & Sour). SeatGeek performer id 793855 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Olivia Rodrigo\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (103 upcoming events; events.json?attractionId returns \"Olivia Rodrigo\" events). Tribute acts excluded (Bitter Sweet, Sweet & Sour). SeatGeek performer id 793855 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Olivia Rodrigo\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "bruno-mars",
       "ticketmaster_attraction_id": "K8vZ917GJc7",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801",
       "seatgeek_performer_id": 6148,
+      "seatgeek_artist_url": "https://seatgeek.com/bruno-mars-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (79 upcoming events; events.json?attractionId returns \"Bruno Mars\" events). Artist URL matches the existing VERIFIED_TICKET_LINKS destination in functions/api/out.js. Tribute acts excluded (Treasure, 24K Magic, Just The Way to Mars). SeatGeek performer id 6148 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Bruno Mars\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Verified 2026-06-12 via Ticketmaster Discovery API: attraction ID and official artist URL taken from the Discovery attraction record, confirmed by direct /discovery/v2/attractions/{id} lookup and a /discovery/v2/events.json?attractionId filter (read-only). Exact-name Discovery attraction record (79 upcoming events; events.json?attractionId returns \"Bruno Mars\" events). Artist URL matches the existing VERIFIED_TICKET_LINKS destination in functions/api/out.js. Tribute acts excluded (Treasure, 24K Magic, Just The Way to Mars). SeatGeek performer id 6148 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Bruno Mars\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "ed-sheeran",
       "ticketmaster_attraction_id": "K8vZ917CAQV",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/ed-sheeran-tickets/artist/1560779",
       "seatgeek_performer_id": 13546,
+      "seatgeek_artist_url": "https://seatgeek.com/ed-sheeran-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Ticketmaster artist page opened in a browser by owner and confirmed 2026-06-11 (promote PR); attraction ID from the Ticketmaster Discovery attraction record matching the same artist URL. SeatGeek performer id 13546 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Ed Sheeran\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Ticketmaster artist page opened in a browser by owner and confirmed 2026-06-11 (promote PR); attraction ID from the Ticketmaster Discovery attraction record matching the same artist URL. SeatGeek performer id 13546 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Ed Sheeran\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "shakira",
       "ticketmaster_attraction_id": "K8vZ9171xeV",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/shakira-tickets/artist/779049",
       "seatgeek_performer_id": 4677,
+      "seatgeek_artist_url": "https://seatgeek.com/shakira-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #239 promote commit); attraction ID from the Ticketmaster Discovery attraction record. SeatGeek performer id 4677 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Shakira\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #239 promote commit); attraction ID from the Ticketmaster Discovery attraction record. SeatGeek performer id 4677 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Shakira\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "raye",
       "ticketmaster_attraction_id": "K8vZ917Kvt7",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/raye-tickets/artist/2065089",
       "seatgeek_performer_id": 325253,
+      "seatgeek_artist_url": "https://seatgeek.com/raye-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #242 promote commit); attraction ID from the Ticketmaster Discovery attraction record. SeatGeek performer id 325253 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"RAYE\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #242 promote commit); attraction ID from the Ticketmaster Discovery attraction record. SeatGeek performer id 325253 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"RAYE\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "charli-xcx",
       "ticketmaster_attraction_id": "K8vZ917CDKf",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/charli-xcx-tickets/artist/1638380",
       "seatgeek_performer_id": 16709,
+      "seatgeek_artist_url": "https://seatgeek.com/charli-xcx-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #242 promote commit); attraction ID from the Ticketmaster Discovery attraction record. SeatGeek performer id 16709 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Charli XCX\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #242 promote commit); attraction ID from the Ticketmaster Discovery attraction record. SeatGeek performer id 16709 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Charli XCX\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "tate-mcrae",
       "ticketmaster_attraction_id": "K8vZ917bcy0",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/tate-mcrae-tickets/artist/2720246",
       "seatgeek_performer_id": 778431,
+      "seatgeek_artist_url": "https://seatgeek.com/tate-mcrae-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #242 promote commit); attraction ID from the Ticketmaster Discovery attraction record. SeatGeek performer id 778431 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Tate McRae\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Ticketmaster artist page opened in a browser and confirmed 2026-06-10 (PR #242 promote commit); attraction ID from the Ticketmaster Discovery attraction record. SeatGeek performer id 778431 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Tate McRae\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "summer-walker",
       "ticketmaster_attraction_id": "K8vZ9179b17",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/summer-walker-tickets/artist/2537562",
       "seatgeek_performer_id": 691095,
+      "seatgeek_artist_url": "https://seatgeek.com/summer-walker-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Ticketmaster artist page opened in a browser by owner and confirmed 2026-06-11; attraction ID from the Ticketmaster Discovery attraction record matching the same artist URL (15 upcoming events at lookup time). SeatGeek performer id 691095 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Summer Walker\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Ticketmaster artist page opened in a browser by owner and confirmed 2026-06-11; attraction ID from the Ticketmaster Discovery attraction record matching the same artist URL (15 upcoming events at lookup time). SeatGeek performer id 691095 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Summer Walker\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     },
     {
       "slug": "rosalia",
       "ticketmaster_attraction_id": "K8vZ917pJy7",
       "ticketmaster_artist_url": "https://www.ticketmaster.com/rosalia-tickets/artist/2453211",
       "seatgeek_performer_id": 705166,
+      "seatgeek_artist_url": "https://seatgeek.com/rosalia-tickets",
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Ticketmaster artist page opened in a browser by owner and confirmed 2026-06-17 (Promote PR); canonical artist URL captured from the Ticketmaster Discovery attractions endpoint for attraction K8vZ917pJy7 (storefront id 2453211 differs from the Discovery id, so sourced from the API rather than name-built). SeatGeek performer id 705166 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Rosalia\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. No SeatGeek URLs stored here (event-level only)."
+      "notes": "Ticketmaster artist page opened in a browser by owner and confirmed 2026-06-17 (Promote PR); canonical artist URL captured from the Ticketmaster Discovery attractions endpoint for attraction K8vZ917pJy7 (storefront id 2453211 differs from the Discovery id, so sourced from the API rather than name-built). SeatGeek performer id 705166 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Rosalia\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
     }
   ]
 }

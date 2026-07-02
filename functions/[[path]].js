@@ -570,15 +570,37 @@ function providerVerificationNote(item) {
   return date ? `Provider link last checked: ${date}.` : "";
 }
 
-function renderProviderFallback(catalog, artist, surface) {
-  const links = ticketLinksForArtist(catalog, artist.slug);
+// Affiliate providers (SeatGeek, Vivid Seats) render before the plain,
+// unmonetized Ticketmaster link. Keep in sync with PROVIDER_DISPLAY_ORDER in
+// public/app.js.
+const PROVIDER_DISPLAY_ORDER = ["seatgeek", "vivid-seats", "ticketmaster"];
+const PROVIDER_DISPLAY_NAMES = { ticketmaster: "Ticketmaster", seatgeek: "SeatGeek", "vivid-seats": "Vivid Seats" };
+
+function providerDisplayRank(providerSlug) {
+  const rank = PROVIDER_DISPLAY_ORDER.indexOf(providerSlug);
+  return rank === -1 ? PROVIDER_DISPLAY_ORDER.length : rank;
+}
+
+function renderProviderFallback(catalog, artist, surface, providerAvailability = {}) {
+  // SeatGeek / Vivid Seats artist cards render only when the provider's
+  // Impact config is present server-side, so an unconfigured provider never
+  // shows a dead button. Plain Ticketmaster links have no config requirement.
+  const links = ticketLinksForArtist(catalog, artist.slug)
+    .filter((item) => {
+      const provider = slugify(item.provider);
+      if (provider === "seatgeek") return providerAvailability.seatgeek === true;
+      if (provider === "vivid-seats") return providerAvailability["vivid-seats"] === true;
+      return true;
+    })
+    .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)));
   if (!links.length) {
     return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">No provider artist page link is currently available for this artist. Ticket buttons for provider artist pages appear only after destination checks. Event-level links, where shown, come from ticket data sources and have not been confirmed as verified destinations.</p><p class="muted">These guides cover what to check before committing to a ticketing platform:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
   }
   const cards = links
     .map((item) => {
       const provider = slugify(item.provider);
-      const label = provider === "ticketmaster" ? "Open Ticketmaster artist page" : `Open ${item.provider} artist page`;
+      const displayName = PROVIDER_DISPLAY_NAMES[provider] || item.provider;
+      const label = `Open ${displayName} artist page`;
       const params = new URLSearchParams({
         artistSlug: artist.slug,
         provider,
@@ -586,7 +608,7 @@ function renderProviderFallback(catalog, artist, surface) {
         surface
       });
       const verificationNote = providerVerificationNote(item);
-      return `<article class="provider-card"><h3>${escapeHtml(item.provider)}</h3><p>Provider checkout controls final price, fees, and availability.</p>${anchor(
+      return `<article class="provider-card"><h3>${escapeHtml(displayName)}</h3><p>Provider checkout controls final price, fees, and availability.</p>${anchor(
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
@@ -887,7 +909,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )} dates, plus what to confirm about fees, seats, and resale before you buy.</p>${reviewNoticeHtml}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
       catalog,
       artist,
-      "artist_hero"
+      "artist_hero",
+      { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable }
     )}${renderVerificationDisclosure(artist, shows)}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(

@@ -17,9 +17,10 @@ const CATALOG_PATH = path.join(root, 'public/data/catalog.json');
 const OUT_PATH = path.join(root, 'functions/api/out.js');
 
 // Providers whose artist-level CTAs are dispatched via VERIFIED_TICKET_LINKS in
-// functions/api/out.js. Event-level-only providers (e.g. seatgeek) resolve
-// click destinations from event records and are intentionally excluded here.
-const ARTIST_LEVEL_PROVIDERS = new Set(['ticketmaster']);
+// functions/api/out.js. SeatGeek gained artist-level performer-page entries in
+// the 2026-07 affiliate pivot; vivid-seats joins this set when its first
+// artist-level entry lands.
+const ARTIST_LEVEL_PROVIDERS = new Set(['ticketmaster', 'seatgeek']);
 
 async function readJson(p) {
   return JSON.parse(await fs.readFile(p, 'utf8'));

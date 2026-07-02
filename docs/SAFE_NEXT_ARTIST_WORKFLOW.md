@@ -19,7 +19,7 @@ See also `docs/ADDING_ARTISTS.md` for field-level templates and the example plac
 | 5 | Files that change per phase? | See Section A |
 | 6 | Validation commands in order? | See Section E |
 | 7 | What must remain human-reviewed? | Browser URL confirmation; tour name from event page; affiliate programme membership |
-| 8 | Safest first batch size? | Shell phase: up to 3 shells per automated PR (no CTAs, noindex). Promote: strictly 1 artist per PR |
+| 8 | Safest first batch size? | Shell phase: up to 20 shells per automated PR (no CTAs, noindex; `TM_SHELL_MAX_PER_RUN`). Promote: up to 20 artists per PR via `npm run artists:promote:batch` — every artist gets a browser spot-check tick row in the PR-body checklist, and merge is blocked until all rows are ticked (single-artist `npm run artist:promote` still works) |
 | 9 | Exact Claude prompt to propose (not implement) the next artist? | See Section B |
 
 ---
@@ -76,7 +76,7 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 
 **`functions/api/out.js` is NOT touched in this phase.** No `VERIFIED_TICKET_LINKS` entry. No `public_enabled: true` in `catalog.json`.
 
-**`functions/api/shows.js` is never touched per-artist.** `TICKETMASTER_ARTIST_AFFILIATE_LINKS` is derived at runtime from `VERIFIED_TICKET_LINKS` in `out.js`; the artist appears in it automatically once promoted.
+**`functions/api/shows.js` is never touched per-artist.** `ARTIST_LINKS_BY_PROVIDER` is derived at runtime from `VERIFIED_TICKET_LINKS` in `out.js`; the artist appears in it automatically once promoted.
 
 **`functions/_route-metadata.js` is not required.** Artist routes derive title, description, H1, canonical, and breadcrumbs dynamically from `catalog.json` via `[[path]].js`. No entry is needed here for artist routes.
 
@@ -358,7 +358,7 @@ git diff --check
 
 6. **Batch size: 1 artist per Promote or Events PR.** Never promote two artists concurrently, and never add events for artist B in the same PR as work for artist A. Exception: the **Shell** phase may batch up to 3 shells in one automated PR (`tm-discovery-shell-pr.mjs`) — shells carry no CTAs and are noindex, so the blast radius is content-only.
 
-7. **`shows.js` and `signup.js` are derived — never hand-edit per artist.** `TICKETMASTER_ARTIST_AFFILIATE_LINKS` in `functions/api/shows.js` is built at module load from `VERIFIED_TICKET_LINKS` in `out.js`; the signup allowlist in `functions/api/signup.js` is loaded from `artists.json` at runtime. `validate-artist.mjs` (`npm run artist:check`) verifies the derived shows.js map for promoted artists.
+7. **`shows.js` and `signup.js` are derived — never hand-edit per artist.** `ARTIST_LINKS_BY_PROVIDER` in `functions/api/shows.js` is built at module load from `VERIFIED_TICKET_LINKS` in `out.js`; the signup allowlist in `functions/api/signup.js` is loaded from `artists.json` at runtime. `validate-artist.mjs` (`npm run artist:check`, accepts multiple slugs) verifies the derived shows.js map per artist-level provider for promoted artists.
 
 ---
 
@@ -367,7 +367,7 @@ git diff --check
 - `docs/ARTIST_SCALING_MAP.md` — index of existing tooling mapped to each phase (which command to run when)
 - `docs/ADDING_ARTISTS.md` — field-level templates, required fields, and example placeholder format
 - `docs/CONTENT_RULES.md` — full content and data rules
-- `docs/PROVIDER_DATA_POLICY.md` — Ticketmaster affiliate URL shapes; Impact Publisher Tag vs shortlink
+- `docs/PROVIDER_DATA_POLICY.md` — provider link rules (plain Ticketmaster links; Impact-wrapped SeatGeek/Vivid Seats)
 - `docs/ARCHITECTURE.md` — routing model and data bindings
 - `CLAUDE.md` § "Protected Areas" — files that must not be modified without explicit scope
 - `BACKLOG.md` — active priorities and explicit parking notes; check before starting any artist addition

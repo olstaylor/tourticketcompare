@@ -17,15 +17,17 @@ const PLACEHOLDER_URL_MARKERS = [
   "tbd"
 ];
 const PLACEHOLDER_HOST_REGEX = /(^|\.)example\.com$|(^|\.)example$|(^|\.)localhost$|^127\.0\.0\.1$/i;
-// Derived from the verified affiliate registry in out.js — do not hand-edit.
-// Promoting an artist (VERIFIED_TICKET_LINKS entry) makes them appear here.
-const TICKETMASTER_ARTIST_AFFILIATE_LINKS = Object.fromEntries(
-  Object.values(VERIFIED_TICKET_LINKS)
-    .filter((link) => link?.provider === "ticketmaster" && link?.verified === true && link?.redirectUrl)
-    .map((link) => [link.artistSlug, link.redirectUrl])
-);
+// Derived from the verified link registry in out.js — do not hand-edit.
+// Keyed provider → { artistSlug → redirectUrl }. Promoting an artist
+// (VERIFIED_TICKET_LINKS entry) makes them appear here.
+const ARTIST_LINKS_BY_PROVIDER = {};
+for (const link of Object.values(VERIFIED_TICKET_LINKS)) {
+  if (link?.verified !== true || !link?.redirectUrl || !link?.provider || !link?.artistSlug) continue;
+  if (!ARTIST_LINKS_BY_PROVIDER[link.provider]) ARTIST_LINKS_BY_PROVIDER[link.provider] = {};
+  ARTIST_LINKS_BY_PROVIDER[link.provider][link.artistSlug] = link.redirectUrl;
+}
 
-export { TICKETMASTER_ARTIST_AFFILIATE_LINKS };
+export { ARTIST_LINKS_BY_PROVIDER };
 
 function isValidDateISO(value) {
   if (typeof value !== "string") return false;
@@ -95,16 +97,23 @@ function mapEventsToShows(events) {
         seatgeek_url: event.seatgeek_url,
         vividseats_url: event.vividseats_url,
         ticketmaster_url: event.ticketmaster_url,
-        // Publishability state consumed by eventLinkPublishable in
-        // public/app.js — without it, hydrated show cards could not
-        // distinguish machine-approved links from needs-recheck links.
-        // The slim provider_links carries the legacy fallback flag so rows
-        // without an explicit verification_status stay publishable when
-        // provider_links.ticketmaster.verified is true.
+        // Publishability state consumed by eventLinkPublishable /
+        // providerEventPublishable in public/app.js — without it, hydrated
+        // show cards could not distinguish machine-approved links from
+        // needs-recheck links. The slim provider_links carries the legacy
+        // fallback flag (ticketmaster.verified) plus the per-provider
+        // provenance flags that let a SeatGeek / Vivid Seats CTA stand alone
+        // on a needs_recheck event.
         verification_status: event.verification_status,
         provider_links: {
           ticketmaster: {
             verified: event?.provider_links?.ticketmaster?.verified === true
+          },
+          seatgeek: {
+            verified: event?.provider_links?.seatgeek?.verified === true
+          },
+          "vivid-seats": {
+            verified: event?.provider_links?.["vivid-seats"]?.verified === true
           }
         },
         impact_program_id: event.impact_program_id,
@@ -436,10 +445,6 @@ function providerKey(provider) {
   return String(provider || "").toLowerCase().replace(/\s+/g, "");
 }
 
-function hasImpactCredentials(env) {
-  return Boolean(String(env?.IMPACT_ACCOUNT_SID || "").trim() && String(env?.IMPACT_AUTH_TOKEN || "").trim());
-}
-
 // Public SeatGeek CTA availability is tied to Impact affiliate-link creation,
 // not to SeatGeek API discovery credentials. SeatGeek API credentials are only
 // for debug/future proposal tooling and should not gate approved event URLs.
@@ -471,13 +476,69 @@ function validSeatGeekEventUrl(value) {
   }
 }
 
+function hasVividSeatsProviderConfig(env = {}) {
+  const hasBaseTrackingUrl = Boolean(String(env?.IMPACT_VIVIDSEATS_BASE_TRACKING_URL || "").trim());
+  const hasImpactApiConfig = Boolean(
+    String(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID || "").trim() &&
+    String(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN || "").trim() &&
+    String(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID || env?.IMPACT_VIVIDSEATS_PROGRAM_ID || "").trim()
+  );
+  return hasBaseTrackingUrl || hasImpactApiConfig;
+}
+
+function validVividSeatsEventUrl(value) {
+  if (typeof value !== "string") return null;
+  const trimmed = value.trim();
+  if (!trimmed || isLikelyPlaceholderUrl(trimmed)) return null;
+  try {
+    const parsed = new URL(trimmed);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (host !== "vividseats.com" && host !== "www.vividseats.com") return null;
+    if (!path || path === "/") return null;
+    if (/^\/(search|venues?|performers?|artists?|category|concerts?|sports?|theater|theatre)(?:\/|$)/i.test(path)) return null;
+    return /\/production\/\d+$/i.test(path) ? parsed.toString() : null;
+  } catch (err) {
+    return null;
+  }
+}
+
+// Per-provider event publishability. Keep in sync with
+// providerEventPublishable in functions/api/out.js, functions/[[path]].js
+// and public/app.js: a needs_recheck event may publish a SeatGeek CTA only
+// when the SeatGeek link carries its own verified provenance.
+const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
+
+function eventLinkPublishable(event) {
+  const status = String(event?.verification_status || "").trim().toLowerCase();
+  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  return event?.provider_links?.ticketmaster?.verified === true;
+}
+
+function providerEventPublishable(event, provider) {
+  if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
+  if (provider === "vivid-seats" && event?.provider_links?.["vivid-seats"]?.verified === true) return true;
+  return eventLinkPublishable(event);
+}
+
 function withResolvableProviderCtas(shows, env = {}) {
   const seatGeekConfigured = hasSeatGeekProviderConfig(env);
+  const vividSeatsConfigured = hasVividSeatsProviderConfig(env);
   return shows.map((show) => ({
     ...show,
     provider_ctas: {
       ...(show.provider_ctas && typeof show.provider_ctas === "object" ? show.provider_ctas : {}),
-      seatgeek: Boolean(seatGeekConfigured && validSeatGeekEventUrl(show.seatgeek_url))
+      seatgeek: Boolean(
+        seatGeekConfigured &&
+        providerEventPublishable(show, "seatgeek") &&
+        validSeatGeekEventUrl(show.seatgeek_url)
+      ),
+      vividseats: Boolean(
+        vividSeatsConfigured &&
+        providerEventPublishable(show, "vivid-seats") &&
+        validVividSeatsEventUrl(show.vividseats_url)
+      )
     }
   }));
 }
@@ -591,26 +652,12 @@ function buildProviderUrl(show, provider) {
   return null;
 }
 
-function getConfirmedTicketmasterArtistAffiliateUrl(show) {
-  const url = TICKETMASTER_ARTIST_AFFILIATE_LINKS[slugify(show?.artist_slug)];
-  return isUsableAffiliateUrl(url) ? url : null;
-}
-
-function isTicketmasterStaticAffiliateUrl(value) {
-  if (!isUsableAffiliateUrl(value)) return false;
-  try {
-    return new URL(value).hostname.toLowerCase() === "ticketmaster.evyy.net";
-  } catch (error) {
-    return false;
-  }
-}
-
 function buildAffiliateActionUrl(show, provider, deepLink) {
   const params = new URLSearchParams({
     showId: String(show?.id || ""),
     provider: String(provider || "")
   });
-  if (deepLink && !isTicketmasterStaticAffiliateUrl(deepLink) && String(providerKey(provider)) !== "ticketmaster") {
+  if (deepLink && String(providerKey(provider)) !== "ticketmaster") {
     params.set("deepLink", deepLink);
   }
   return `/api/out?${params.toString()}`;
@@ -618,13 +665,9 @@ function buildAffiliateActionUrl(show, provider, deepLink) {
 
 function decorateProviderResult(result, show, provider, env) {
   const key = providerKey(provider);
-  const directUrl = key === "ticketmaster"
-    ? getProviderDeepLink(show, provider, result?.url)
-    : getProviderDeepLink(show, provider, result?.url);
-  const ticketmasterProgramId = String(show?.ticketmaster_impact_program_id || env?.IMPACT_TICKETMASTER_PROGRAM_ID || "").trim();
+  const directUrl = getProviderDeepLink(show, provider, result?.url);
   const hasVerifiedTicketmasterEventUrl = key === "ticketmaster" && Boolean(getAffiliateUrl(show, provider));
-  const canUseImpact = key === "ticketmaster" && hasImpactCredentials(env) && Boolean(ticketmasterProgramId && directUrl);
-  const canUseSafeEventRedirect = hasVerifiedTicketmasterEventUrl || canUseImpact;
+  const canUseSafeEventRedirect = hasVerifiedTicketmasterEventUrl;
   const actionUrl = canUseSafeEventRedirect ? buildAffiliateActionUrl(show, provider, directUrl) : null;
   const baseStatus = result?.status || "unavailable";
   const isSeatGeekPriceSnapshot = key === "seatgeek" &&
@@ -1250,7 +1293,8 @@ export async function onRequestGet({ request, env }) {
         artistFeed,
         includePrices: false,
         providerAvailability: {
-          seatgeek: hasSeatGeekProviderConfig(env)
+          seatgeek: hasSeatGeekProviderConfig(env),
+          vividseats: hasVividSeatsProviderConfig(env)
         },
         pagination: {
           offset,
@@ -1287,7 +1331,8 @@ export async function onRequestGet({ request, env }) {
       artistFeed,
       includePrices: true,
       providerAvailability: {
-        seatgeek: hasSeatGeekProviderConfig(env)
+        seatgeek: hasSeatGeekProviderConfig(env),
+        vividseats: hasVividSeatsProviderConfig(env)
       },
       shows
     }),

@@ -17,7 +17,7 @@ const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robo
 // These headers must be set explicitly on every HTML Response returned by this function.
 const SECURITY_HEADERS = {
   "Content-Security-Policy":
-    "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://utt.impactcdn.com; connect-src 'self' https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+    "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
   "Referrer-Policy": "no-referrer",
   "X-Content-Type-Options": "nosniff",
   "X-Frame-Options": "DENY",
@@ -570,15 +570,37 @@ function providerVerificationNote(item) {
   return date ? `Provider link last checked: ${date}.` : "";
 }
 
-function renderProviderFallback(catalog, artist, surface) {
-  const links = ticketLinksForArtist(catalog, artist.slug);
+// Affiliate providers (SeatGeek, Vivid Seats) render before the plain,
+// unmonetized Ticketmaster link. Keep in sync with PROVIDER_DISPLAY_ORDER in
+// public/app.js.
+const PROVIDER_DISPLAY_ORDER = ["seatgeek", "vivid-seats", "ticketmaster"];
+const PROVIDER_DISPLAY_NAMES = { ticketmaster: "Ticketmaster", seatgeek: "SeatGeek", "vivid-seats": "Vivid Seats" };
+
+function providerDisplayRank(providerSlug) {
+  const rank = PROVIDER_DISPLAY_ORDER.indexOf(providerSlug);
+  return rank === -1 ? PROVIDER_DISPLAY_ORDER.length : rank;
+}
+
+function renderProviderFallback(catalog, artist, surface, providerAvailability = {}) {
+  // SeatGeek / Vivid Seats artist cards render only when the provider's
+  // Impact config is present server-side, so an unconfigured provider never
+  // shows a dead button. Plain Ticketmaster links have no config requirement.
+  const links = ticketLinksForArtist(catalog, artist.slug)
+    .filter((item) => {
+      const provider = slugify(item.provider);
+      if (provider === "seatgeek") return providerAvailability.seatgeek === true;
+      if (provider === "vivid-seats") return providerAvailability["vivid-seats"] === true;
+      return true;
+    })
+    .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)));
   if (!links.length) {
     return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">No provider artist page link is currently available for this artist. Ticket buttons for provider artist pages appear only after destination checks. Event-level links, where shown, come from ticket data sources and have not been confirmed as verified destinations.</p><p class="muted">These guides cover what to check before committing to a ticketing platform:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
   }
   const cards = links
     .map((item) => {
       const provider = slugify(item.provider);
-      const label = provider === "ticketmaster" ? "Open Ticketmaster artist page" : `Open ${item.provider} artist page`;
+      const displayName = PROVIDER_DISPLAY_NAMES[provider] || item.provider;
+      const label = `Open ${displayName} artist page`;
       const params = new URLSearchParams({
         artistSlug: artist.slug,
         provider,
@@ -586,7 +608,7 @@ function renderProviderFallback(catalog, artist, surface) {
         surface
       });
       const verificationNote = providerVerificationNote(item);
-      return `<article class="provider-card"><h3>${escapeHtml(item.provider)}</h3><p>Provider checkout controls final price, fees, and availability.</p>${anchor(
+      return `<article class="provider-card"><h3>${escapeHtml(displayName)}</h3><p>Provider checkout controls final price, fees, and availability.</p>${anchor(
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
@@ -638,9 +660,12 @@ function futureShowsForArtist(events, artistSlug, limit) {
       venue: String(ev.venue || "").trim(),
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
       seatgeek_url: String(ev.seatgeek_url || "").trim(),
+      vividseats_url: String(ev.vividseats_url || "").trim(),
       last_verified_at: String(ev.last_verified_at || "").trim(),
       verification_status: String(ev.verification_status || "").trim(),
-      publishable: eventLinkPublishable(ev)
+      publishable: eventLinkPublishable(ev),
+      seatgeekPublishable: providerEventPublishable(ev, "seatgeek"),
+      vividseatsPublishable: providerEventPublishable(ev, "vivid-seats")
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -684,6 +709,18 @@ function eventLinkPublishable(event) {
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
+// Per-provider event publishability. Ticketmaster follows the event-level
+// verification_status above. A SeatGeek event CTA may additionally publish on
+// a needs_recheck event when the SeatGeek link carries its own verified
+// provenance (provider_links.seatgeek.verified === true) — the recheck flag
+// tracks the Ticketmaster storefront URL, not the SeatGeek listing. Keep in
+// sync with providerEventPublishable in functions/api/out.js and
+// public/app.js.
+function providerEventPublishable(event, provider) {
+  if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
+  return eventLinkPublishable(event);
+}
+
 function safeShowTicketUrl(value) {
   const raw = String(value || "").trim();
   if (!raw) return null;
@@ -717,7 +754,36 @@ function safeSeatGeekTicketUrl(value) {
 }
 
 function seatGeekOutAvailable(show, seatGeekAvailable = false) {
-  return Boolean(seatGeekAvailable && safeSeatGeekTicketUrl(show?.seatgeek_url));
+  if (!seatGeekAvailable) return false;
+  const publishable = typeof show?.seatgeekPublishable === "boolean"
+    ? show.seatgeekPublishable
+    : providerEventPublishable(show, "seatgeek");
+  return Boolean(publishable && safeSeatGeekTicketUrl(show?.seatgeek_url));
+}
+
+function safeVividSeatsTicketUrl(value) {
+  const safeUrl = safeShowTicketUrl(value);
+  if (!safeUrl) return null;
+  try {
+    const parsed = new URL(safeUrl);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (host !== "vividseats.com" && host !== "www.vividseats.com") return null;
+    if (!path || path === "/") return null;
+    if (/^\/(search|venues?|performers?|artists?|category|concerts?|sports?|theater|theatre)(?:\/|$)/i.test(path)) return null;
+    return /\/production\/\d+$/i.test(path) ? safeUrl : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function vividSeatsOutAvailable(show, vividSeatsAvailable = false) {
+  if (!vividSeatsAvailable) return false;
+  const publishable = typeof show?.vividseatsPublishable === "boolean"
+    ? show.vividseatsPublishable
+    : providerEventPublishable(show, "vivid-seats");
+  return Boolean(publishable && safeVividSeatsTicketUrl(show?.vividseats_url));
 }
 
 function clean(value, max = 255) {
@@ -732,7 +798,15 @@ function isSeatGeekConfigured(env = {}) {
   return Boolean(impactSeatGeekBaseTrackingUrl || (impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId));
 }
 
-function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true) {
+function isVividSeatsConfigured(env = {}) {
+  const impactVividSeatsBaseTrackingUrl = clean(env?.IMPACT_VIVIDSEATS_BASE_TRACKING_URL, 2048);
+  const impactVividSeatsAccountSid = clean(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
+  const impactVividSeatsAuthToken = clean(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+  const impactVividSeatsProgramId = clean(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID || env?.IMPACT_VIVIDSEATS_PROGRAM_ID, 120);
+  return Boolean(impactVividSeatsBaseTrackingUrl || (impactVividSeatsAccountSid && impactVividSeatsAuthToken && impactVividSeatsProgramId));
+}
+
+function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false) {
   const date = formatShowDateServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
@@ -741,18 +815,32 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.</p>`;
-  } else if (validUrl && show.id && show.publishable) {
+  } else if (show.id) {
     // Provider price/fee/availability disclosure lives once in the show-board
     // intro instead of repeating on every card.
-    const ticketmasterCta = `${anchor("View tickets", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}`;
-
-    // SeatGeek CTA appears only when redirects are configured and /api/out can resolve the stored event-level SeatGeek URL.
-    // The SeatGeek note stays per-card (smoke-asserted resale caution); the generic provider disclosure lives in the board intro.
-    if (seatGeekOutAvailable(show, seatGeekAvailable)) {
-      const seatGeekCta = `${anchor("Check SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-secondary", 'target="_blank" rel="noopener"')}`;
-      ctaHtml = `<div class="cta-group">${ticketmasterCta}${seatGeekCta}</div><p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>`;
-    } else {
-      ctaHtml = ticketmasterCta;
+    // Affiliate providers (SeatGeek, then Vivid Seats) render first as the
+    // primary CTA; the verified Ticketmaster link renders as a plain,
+    // unmonetized CTA last. Any provider renders standalone when the others
+    // are unavailable. The SeatGeek/Vivid Seats notes stay per-card
+    // (smoke-asserted resale caution); the generic provider disclosure lives
+    // in the board intro.
+    const tmAvailable = Boolean(validUrl && show.publishable);
+    const sgAvailable = seatGeekOutAvailable(show, seatGeekAvailable);
+    const vsAvailable = vividSeatsOutAvailable(show, vividSeatsAvailable);
+    const outHref = (provider) => `/api/out?${new URLSearchParams({ showId: show.id, provider }).toString()}`;
+    const ctas = [];
+    if (sgAvailable) ctas.push({ provider: "seatgeek", primaryLabel: "View tickets on SeatGeek", secondaryLabel: "Check SeatGeek" });
+    if (vsAvailable) ctas.push({ provider: "vivid-seats", primaryLabel: "View tickets on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+    if (tmAvailable) ctas.push({ provider: "ticketmaster", primaryLabel: ctas.length ? "Check Ticketmaster" : "View tickets", secondaryLabel: "Check Ticketmaster" });
+    if (ctas.length) {
+      const buttons = ctas
+        .map((cta, index) => anchor(index === 0 ? cta.primaryLabel : cta.secondaryLabel, outHref(cta.provider), index === 0 ? "button button-primary" : "button button-secondary", 'target="_blank" rel="noopener"'))
+        .join("");
+      const notes = [
+        sgAvailable ? `<p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>` : "",
+        vsAvailable ? `<p class="disclosure-note">Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase.</p>` : ""
+      ].join("");
+      ctaHtml = ctas.length > 1 ? `<div class="cta-group">${buttons}</div>${notes}` : `${buttons}${notes}`;
     }
   }
 
@@ -771,9 +859,9 @@ function renderShowBoardEmptyStateHtml(artistName = "") {
   )}${anchor("Read ticket buying guide", "/guides", "button button-secondary")}</div></div>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "") {
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false) {
   const gridContent = shows.length
-    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist)).join("")
+    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable)).join("")
     : renderShowBoardEmptyStateHtml(artistName);
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card is one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
@@ -782,6 +870,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "artist") {
     const artist = route.artist;
     const seatGeekAvailable = isSeatGeekConfigured(env);
+    const vividSeatsAvailable = isVividSeatsConfigured(env);
     const relatedGuideSlugs = artist.related_guides || [];
     const relatedGuideLinks = relatedGuideSlugs
       .slice(0, 4)
@@ -817,10 +906,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )} ticket links and buying guidance</h1><p class="lead">Checked ticket links for ${escapeHtml(
       artist.name
-    )} dates, plus what to confirm about fees, seats, and resale before you buy.</p>${reviewNoticeHtml}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name)}${renderProviderFallback(
+    )} dates, plus what to confirm about fees, seats, and resale before you buy.</p>${reviewNoticeHtml}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
       catalog,
       artist,
-      "artist_hero"
+      "artist_hero",
+      { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable }
     )}${renderVerificationDisclosure(artist, shows)}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
@@ -905,7 +995,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/affiliate-disclosure") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="affiliateTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="affiliateTitle">Affiliate disclosure</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site. Some ticket links are affiliate links, which means we may earn a commission when you buy. You do not pay extra because of our affiliate relationship.</p><section class="nested-panel"><h2>What affiliate links mean</h2><ul class="check-list"><li>We link to ticket providers and may earn commission when you complete a purchase.</li><li>The commission does not increase your ticket price or fees.</li><li>We disclose which links are affiliate links so you know our relationship.</li><li>Affiliate relationships do not decide which links we show or which providers we recommend.</li></ul></section><section class="nested-panel"><h2>Why it does not weaken our verification</h2><p>Affiliate relationships do not control which links we show. We do not publish fake prices, invented dates, fictional venues, unverified providers, or rankings we cannot support just because we earn a commission. We only show ticket buttons when we can check the artist, event, and destination. If a link cannot be verified, it should not appear as a ticket option.</p></section><section class="nested-panel"><h2>How we handle different link types</h2><ul class="check-list"><li>Official sources: Artist-level pages on official ticketing sites (typically Ticketmaster).</li><li>Resale marketplaces: Verified platforms like SeatGeek and Vivid Seats where sellers list real tickets.</li><li>Affiliate links: Verified destination URLs that may generate commission when you buy.</li><li>Guidance: Buying guides and checklists are informational; we do not sell tickets directly.</li></ul></section><section class="nested-panel"><h2>What you confirm with the provider</h2><ul class="check-list"><li>Final ticket prices, fees, taxes, and delivery charges.</li><li>Seat location, view restrictions, and physical details.</li><li>Inventory and availability of your specific seats.</li><li>Refund, cancellation, transfer, and resale rules.</li><li>Payment security and checkout terms.</li></ul></section><section class="nested-panel"><h2>Before you complete a purchase</h2><p>Read the provider's terms and conditions. Confirm the event date, venue, seat information, final total, delivery method, refund policy, and transfer rules. These details come from the ticket provider, not from TourTicketCompare.</p></section><section class="nested-panel"><h2>How affiliate commissions support us</h2><p>When you click through an affiliate link and complete a purchase, the provider may pay us a commission. This commission helps us maintain the site and continue providing free buying guidance. It does not cost you any extra.</p></section><div class="action-row">${anchor(
+    )}<h1 id="affiliateTitle">Affiliate disclosure</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site. Some ticket links are affiliate links, which means we may earn a commission when you buy. You do not pay extra because of our affiliate relationship.</p><section class="nested-panel"><h2>What affiliate links mean</h2><ul class="check-list"><li>We link to ticket providers and may earn commission when you complete a purchase.</li><li>The commission does not increase your ticket price or fees.</li><li>We disclose which links are affiliate links so you know our relationship.</li><li>Affiliate relationships do not decide which links we show or which providers we recommend.</li></ul></section><section class="nested-panel"><h2>Why it does not weaken our verification</h2><p>Affiliate relationships do not control which links we show. We do not publish fake prices, invented dates, fictional venues, unverified providers, or rankings we cannot support just because we earn a commission. We only show ticket buttons when we can check the artist, event, and destination. If a link cannot be verified, it should not appear as a ticket option.</p></section><section class="nested-panel"><h2>How we handle different link types</h2><ul class="check-list"><li>Official sources: Artist-level and event pages on official ticketing sites (typically Ticketmaster). These are plain links — we have no Ticketmaster affiliate relationship and earn nothing when you use them.</li><li>Resale marketplaces: Verified platforms like SeatGeek and Vivid Seats where sellers list real tickets. These are affiliate links and may generate commission when you buy.</li><li>Guidance: Buying guides and checklists are informational; we do not sell tickets directly.</li></ul></section><section class="nested-panel"><h2>What you confirm with the provider</h2><ul class="check-list"><li>Final ticket prices, fees, taxes, and delivery charges.</li><li>Seat location, view restrictions, and physical details.</li><li>Inventory and availability of your specific seats.</li><li>Refund, cancellation, transfer, and resale rules.</li><li>Payment security and checkout terms.</li></ul></section><section class="nested-panel"><h2>Before you complete a purchase</h2><p>Read the provider's terms and conditions. Confirm the event date, venue, seat information, final total, delivery method, refund policy, and transfer rules. These details come from the ticket provider, not from TourTicketCompare.</p></section><section class="nested-panel"><h2>How affiliate commissions support us</h2><p>When you click through an affiliate link and complete a purchase, the provider may pay us a commission. This commission helps us maintain the site and continue providing free buying guidance. It does not cost you any extra.</p></section><div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"
@@ -1186,14 +1276,12 @@ async function renderInternalImpactTagTest(request, env, url) {
 <title>Impact Publisher Tag Test (internal) | TourTicketCompare</title>
 ${sgTagMeta}
 <link rel="stylesheet" href="/internal/impact-tag-test.css" />
-<script src="/impact.js"></script>
 </head>
 <body>
 <h1>Impact Publisher Tag Test (internal)</h1>
-<p>Internal-only route. Not indexable. Compares the Ticketmaster and SeatGeek Impact Publisher Tags on a single page.</p>
-<p><strong>Ticketmaster production tracking is the known-good baseline.</strong> This helper is not the source of truth for attribution and should not be used to decide that Ticketmaster production tracking is broken.</p>
+<p>Internal-only route. Not indexable. Exercises the SeatGeek Impact Publisher Tag. The Ticketmaster Publisher Tag was removed when the site left the Ticketmaster affiliate programme; the Ticketmaster links below are plain, untracked controls.</p>
 <p>A Publisher Tag may transform at page load, at click time, through query decoration, or in a way that is confirmed only by Impact dashboard reporting. Do not treat a no-change href snapshot after 2 seconds as a final attribution failure.</p>
-<p>Final SeatGeek pass/fail depends on the raw SeatGeek URL landing on the correct SeatGeek event page, the SeatGeek Impact account recording the click, the Ticketmaster Impact account not recording that SeatGeek click, and no double transformation or cross-account attribution. Keep <code>/api/out</code> controls as the fallback/reference path.</p>
+<p>Final SeatGeek pass/fail depends on the raw SeatGeek URL landing on the correct SeatGeek event page, the SeatGeek Impact account recording the click, and no double transformation. Keep <code>/api/out</code> controls as the fallback/reference path.</p>
 ${sgTagBanner}
 <p id="sgTagStatus" class="info-note">SeatGeek Publisher Tag status will appear after the helper script runs.</p>
 

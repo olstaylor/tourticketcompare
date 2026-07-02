@@ -7,8 +7,9 @@ import { slugify } from './lib/slugify.mjs';
 const SCORE_THRESHOLD = Number(process.env.TM_SHELL_SCORE_THRESHOLD || 70);
 const ARTIFACT_DIR = process.env.TM_DISCOVERY_ARTIFACT_DIR || 'artifacts/tm-discovery';
 // Shells are review_required + noindex with no CTAs, so batching is low risk.
-// Promote PRs remain strictly one artist each.
-const MAX_SHELLS_PER_RUN = Math.max(1, Number(process.env.TM_SHELL_MAX_PER_RUN || 3));
+// Promotes are batched too (up to 20 per PR via promote-artists-batch.mjs,
+// gated by a per-artist human spot-check checklist in the PR body).
+const MAX_SHELLS_PER_RUN = Math.max(1, Number(process.env.TM_SHELL_MAX_PER_RUN || 20));
 const LABEL = 'automation:tm-shell';
 
 async function readJson(file) { return JSON.parse(await fs.readFile(file, 'utf8')); }

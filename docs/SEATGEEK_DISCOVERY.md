@@ -5,10 +5,13 @@ that already carry a verified Ticketmaster event. It explains how verified
 `seatgeek_url` values are discovered from the SeatGeek API, scored, applied, and
 validated.
 
-> Scope guardrail: SeatGeek is **event-level only**. Artist-level SeatGeek links
-> and any SeatGeek price display remain parked (see `BACKLOG.md`). This tooling
-> never invents URLs, never scrapes, and only writes URLs that pass strict
-> event-URL validation identical to the runtime CTA gate.
+> Scope guardrail: this tooling covers **event-level** SeatGeek URLs only.
+> (Artist-level SeatGeek performer-page links exist since 2026-07-02 but are
+> managed through `VERIFIED_TICKET_LINKS` + the provider identity registry via
+> the batch onboarding tooling, not through this enrichment pipeline. SeatGeek
+> price display remains parked — see `BACKLOG.md`.) This tooling never invents
+> URLs, never scrapes, and only writes URLs that pass strict event-URL
+> validation identical to the runtime CTA gate.
 
 ## How a SeatGeek CTA reaches a show
 
@@ -131,7 +134,7 @@ renders).
 
 ## Non-goals
 
-- No artist-level SeatGeek links; no SeatGeek price display.
+- No artist-level SeatGeek links from this pipeline (they live in `VERIFIED_TICKET_LINKS` via batch onboarding); no SeatGeek price display.
 - No invented or scraped URLs; only API-discovered URLs that pass validation.
 - No changes to `/api/out` redirect logic, Impact handling, or CTA rendering.
 - The apply step is deliberate and human-run; CI is proposal-only.

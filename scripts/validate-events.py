@@ -156,6 +156,44 @@ def is_seatgeek_event_url(value: Any) -> tuple[bool, str]:
     return True, ""
 
 
+def is_vividseats_event_url(value: Any) -> tuple[bool, str]:
+    # Mirrors is_seatgeek_event_url for Vivid Seats production pages. The
+    # accepted shape is conservative (…/production/<numeric id>) and should be
+    # adjusted only alongside the first owner-verified vividseats_url data.
+    if value is None or (isinstance(value, str) and value.strip() == ""):
+        return True, ""
+    if not isinstance(value, str):
+        return False, "must be empty or a Vivid Seats event URL string"
+
+    raw = value.strip()
+    parsed = parse_url(raw)
+    if parsed is None:
+        return False, "must be a valid absolute URL"
+    if parsed.scheme.lower() != "https":
+        return False, "must use https"
+
+    host = (parsed.hostname or "").lower()
+    if host not in {"vividseats.com", "www.vividseats.com"}:
+        return False, "host must be vividseats.com or www.vividseats.com"
+
+    if is_placeholder_url(raw):
+        return False, "placeholder/example URL is not allowed"
+
+    path = unquote(parsed.path or "/").strip()
+    normalized_path = path.rstrip("/")
+    if normalized_path in {"", "/"}:
+        return False, "must not be the Vivid Seats homepage"
+
+    first_segment = normalized_path.split("/")[1].lower() if normalized_path.startswith("/") and len(normalized_path.split("/")) > 1 else ""
+    if first_segment in {"search", "venues", "venue", "performers", "performer", "artists", "artist", "category", "concerts", "concert", "sports", "sport", "theater", "theatre"}:
+        return False, "must be an event-specific Vivid Seats URL, not a generic search/artist/venue/category URL"
+
+    if not re.search(r"/production/\d+$", normalized_path, re.IGNORECASE):
+        return False, "must look like a Vivid Seats production URL ending in /production/<numeric id>"
+
+    return True, ""
+
+
 def provider_link_value(event: dict[str, Any], provider: str, field: str) -> Any:
     provider_links = event.get("provider_links")
     if not isinstance(provider_links, dict):
@@ -229,6 +267,29 @@ def run_self_test() -> int:
             "name": "provider_links wrong-host URL for known provider key",
             "mutate": lambda event: event["provider_links"]["seatgeek"].__setitem__("url", "https://www.vividseats.com/test-event-tickets/production/1234567"),
             "expect": "provider_links.seatgeek.url: host must be seatgeek.com or www.seatgeek.com",
+        },
+        {
+            "name": "generic vividseats top-level URL",
+            "mutate": lambda event: (
+                event.__setitem__("vividseats_url", "https://www.vividseats.com/search?q=test"),
+                event["provider_links"]["vivid-seats"].__setitem__("url", ""),
+                event["provider_links"]["vivid-seats"].__setitem__("verified", False),
+            ),
+            "expect": "vividseats_url: must be an event-specific Vivid Seats URL, not a generic search/artist/venue/category URL",
+        },
+        {
+            "name": "non-production vividseats top-level URL",
+            "mutate": lambda event: (
+                event.__setitem__("vividseats_url", "https://www.vividseats.com/test-event-tickets"),
+                event["provider_links"]["vivid-seats"].__setitem__("url", ""),
+                event["provider_links"]["vivid-seats"].__setitem__("verified", False),
+            ),
+            "expect": "vividseats_url: must look like a Vivid Seats production URL ending in /production/<numeric id>",
+        },
+        {
+            "name": "provider_links vivid-seats URL mismatch",
+            "mutate": lambda event: event["provider_links"]["vivid-seats"].__setitem__("url", "https://www.vividseats.com/other-event-tickets/production/7654321"),
+            "expect": "provider_links.vivid-seats.url: must match top-level vividseats_url when both are present",
         },
         {
             "name": "provider_links placeholder URL",
@@ -688,6 +749,29 @@ def main() -> int:
             errors.append(f"{prefix}.provider_links.seatgeek.verified: cannot be true when provider_links.seatgeek.url is empty and top-level seatgeek_url is used")
         if provider_seatgeek_url not in (None, "") and provider_seatgeek_verified is True and isinstance(seatgeek_url, str) and seatgeek_url.strip() and provider_seatgeek_url.strip() != seatgeek_url.strip():
             errors.append(f"{prefix}.provider_links.seatgeek.verified: cannot be true for a URL that differs from top-level seatgeek_url")
+
+        vividseats_url = event.get("vividseats_url")
+        vividseats_ok, vividseats_error = is_vividseats_event_url(vividseats_url)
+        if not vividseats_ok:
+            errors.append(f"{prefix}.vividseats_url: {vividseats_error}")
+
+        provider_vividseats_url = provider_link_value(event, "vivid-seats", "url")
+        if provider_vividseats_url not in (None, ""):
+            provider_ok, provider_error = is_vividseats_event_url(provider_vividseats_url)
+            if not provider_ok:
+                errors.append(f"{prefix}.provider_links.vivid-seats.url: {provider_error}")
+            top_level = vividseats_url.strip() if isinstance(vividseats_url, str) else ""
+            provider_level = provider_vividseats_url.strip() if isinstance(provider_vividseats_url, str) else ""
+            if top_level and provider_level and top_level != provider_level:
+                errors.append(f"{prefix}.provider_links.vivid-seats.url: must match top-level vividseats_url when both are present")
+            elif provider_level and not top_level:
+                errors.append(f"{prefix}.provider_links.vivid-seats.url: must also be present in top-level vividseats_url before public CTA use")
+
+        provider_vividseats_verified = provider_link_value(event, "vivid-seats", "verified")
+        if isinstance(vividseats_url, str) and vividseats_url.strip() and provider_vividseats_url in (None, "") and provider_vividseats_verified is True:
+            errors.append(f"{prefix}.provider_links.vivid-seats.verified: cannot be true when provider_links.vivid-seats.url is empty and top-level vividseats_url is used")
+        if provider_vividseats_url not in (None, "") and provider_vividseats_verified is True and isinstance(vividseats_url, str) and vividseats_url.strip() and provider_vividseats_url.strip() != vividseats_url.strip():
+            errors.append(f"{prefix}.provider_links.vivid-seats.verified: cannot be true for a URL that differs from top-level vividseats_url")
 
         provider_links = event.get("provider_links")
         event_last_verified_at = event.get("last_verified_at")

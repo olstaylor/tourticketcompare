@@ -20,7 +20,18 @@ VIVID_SEATS_API_KEY=your_key_here
 IMPACT_ACCOUNT_SID=your_account_sid_here
 IMPACT_AUTH_TOKEN=your_auth_token_here
 IMPACT_DEFAULT_PROGRAM_ID=your_default_program_id_here
-IMPACT_TICKETMASTER_PROGRAM_ID=your_ticketmaster_program_id_here
+# Ticketmaster has no Impact program (the site was removed from the
+# Ticketmaster affiliate programme); Ticketmaster links are plain redirects.
+# SeatGeek / Vivid Seats Impact config (either the pxf.io base tracking URL
+# or account SID + auth token + campaign/program id):
+# IMPACT_SEATGEEK_ACCOUNT_SID=your_seatgeek_account_sid_here
+# IMPACT_SEATGEEK_AUTH_TOKEN=your_seatgeek_auth_token_here
+# IMPACT_SEATGEEK_CAMPAIGN_ID=your_seatgeek_campaign_id_here
+# IMPACT_SEATGEEK_BASE_TRACKING_URL=https://seatgeek.pxf.io/your_code_here
+# IMPACT_VIVIDSEATS_ACCOUNT_SID=your_vividseats_account_sid_here
+# IMPACT_VIVIDSEATS_AUTH_TOKEN=your_vividseats_auth_token_here
+# IMPACT_VIVIDSEATS_CAMPAIGN_ID=your_vividseats_campaign_id_here
+# IMPACT_VIVIDSEATS_BASE_TRACKING_URL=https://vividseats.pxf.io/your_code_here
 PUBLIC_SITE_PHASE=pages_mvp_market_watch
 ENABLE_PUBLIC_TICKET_LISTINGS=false
 

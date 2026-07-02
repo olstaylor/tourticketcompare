@@ -119,7 +119,8 @@ for (const entry of entries) {
 
   // Types
   const { ticketmaster_attraction_id: tmId, ticketmaster_artist_url: tmUrl,
-          seatgeek_performer_id: sgId, sync_enabled: syncEnabled,
+          seatgeek_performer_id: sgId, seatgeek_artist_url: sgUrl,
+          sync_enabled: syncEnabled,
           last_synced_at: lastSynced, review_status: reviewStatus, notes } = entry;
 
   if (tmId !== null && (typeof tmId !== 'string' || !tmId.trim()))
@@ -127,7 +128,9 @@ for (const entry of entries) {
   if (tmUrl !== null && typeof tmUrl !== 'string')
     fail(`${tag}: ticketmaster_artist_url must be null or a string`);
   if (sgId !== null && !Number.isInteger(sgId))
-    fail(`${tag}: seatgeek_performer_id must be null or an integer (no SeatGeek URLs)`);
+    fail(`${tag}: seatgeek_performer_id must be null or an integer`);
+  if (sgUrl !== undefined && sgUrl !== null && typeof sgUrl !== 'string')
+    fail(`${tag}: seatgeek_artist_url must be null or a string`);
   if (typeof syncEnabled !== 'boolean')
     fail(`${tag}: sync_enabled must be a boolean`);
   if (lastSynced !== null && !/^\d{4}-\d{2}-\d{2}$/.test(String(lastSynced)))
@@ -137,10 +140,30 @@ for (const entry of entries) {
   if (notes !== null && typeof notes !== 'string')
     fail(`${tag}: notes must be null or a string`);
 
-  // No SeatGeek URLs anywhere in the entry until explicitly supported.
+  // The only SeatGeek URL supported in the registry is the API-captured
+  // seatgeek_artist_url; it must be https, live on seatgeek.com, and requires
+  // its performer id so the identity stays pinned to the verified record.
   for (const [key, value] of Object.entries(entry)) {
-    if (typeof value === 'string' && /seatgeek\.com/i.test(value))
-      fail(`${tag}: field "${key}" contains a seatgeek.com URL — SeatGeek URLs are not supported in the registry`);
+    if (key === 'seatgeek_artist_url') continue;
+    if (typeof value === 'string' && /seatgeek\.com\//i.test(value) && /https?:\/\//i.test(value))
+      fail(`${tag}: field "${key}" contains a seatgeek.com URL — only seatgeek_artist_url may hold one`);
+  }
+  if (typeof sgUrl === 'string' && sgUrl) {
+    let parsedSg = null;
+    try {
+      parsedSg = new URL(sgUrl);
+    } catch {
+      fail(`${tag}: seatgeek_artist_url is not a valid URL`);
+    }
+    if (parsedSg) {
+      if (parsedSg.protocol !== 'https:')
+        fail(`${tag}: seatgeek_artist_url must be https`);
+      const sgHost = parsedSg.hostname.toLowerCase();
+      if (sgHost !== 'seatgeek.com' && sgHost !== 'www.seatgeek.com')
+        fail(`${tag}: seatgeek_artist_url host "${parsedSg.hostname}" must be seatgeek.com`);
+    }
+    if (!Number.isInteger(sgId))
+      fail(`${tag}: seatgeek_artist_url requires a populated seatgeek_performer_id (identity must stay pinned to the verified performer record)`);
   }
 
   // TM URL must pass the existing host allowlist.

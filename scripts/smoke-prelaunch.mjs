@@ -27,11 +27,11 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site.";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://utt.impactcdn.com; connect-src 'self' https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
-const EXPECTED_OUT_VERSION = "seatgeek-impact-diagnostics-2026-05-13";
+const EXPECTED_OUT_VERSION = "tm-plain-redirects-2026-07-02";
 const SMOKE_TEST_NOW_ISO = "2026-05-14T12:00:00Z";
 const SMOKE_TEST_NOW_MS = Date.parse(SMOKE_TEST_NOW_ISO);
 assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO timestamp");
@@ -140,6 +140,15 @@ function safeSeatGeekEventUrl(value) {
   } catch {
     return null;
   }
+}
+
+// Mirrors providerEventPublishable in functions/api/out.js /
+// functions/[[path]].js / public/app.js for the SeatGeek lane.
+function seatGeekEventPublishable(event) {
+  if (event?.provider_links?.seatgeek?.verified === true) return true;
+  const status = String(event?.verification_status || "").trim().toLowerCase();
+  if (status) return status === "human_verified" || status === "machine_high_confidence";
+  return event?.provider_links?.ticketmaster?.verified === true;
 }
 
 function assertAbsent(haystack, terms, label) {
@@ -373,7 +382,6 @@ globalThis.caches = globalThis.caches || { default: new MemoryCache() };
 const publicUiFiles = [
   "public/index.html",
   "public/app.js",
-  "public/impact.js",
   "public/styles.css",
   "public/robots.txt",
   "public/data/artists.json",
@@ -386,7 +394,6 @@ const publicUiFiles = [
 const publicCopyFiles = [
   "public/index.html",
   "public/app.js",
-  "public/impact.js",
   "functions/[[path]].js",
   "public/data/catalog.json"
 ];
@@ -606,15 +613,16 @@ assert(
 );
 console.log("sitemap artist indexability filtering verified");
 
-for (const pathname of ["/app.js", "/impact.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/events.json", "/api/health"]) {
+for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/data/events.json", "/api/health"]) {
   const { response, nextCalled } = await routeResponse(pathname);
   assert(nextCalled === true, `${pathname} should pass through middleware unchanged`);
   assert(response.status === 404, `${pathname} smoke middleware next sentinel should return 404`);
 }
 
 const indexHtml = await read("public/index.html");
-assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags — Impact script must be loaded via /impact.js");
-assert(indexHtml.includes('src="/impact.js"'), "index.html must load Impact via <script src=\"/impact.js\">");
+assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags");
+assert(!indexHtml.includes("impact.js"), "index.html must not reference the removed Ticketmaster Impact Publisher Tag (/impact.js)");
+assert(!indexHtml.includes("impactcdn.com"), "index.html must not reference impactcdn.com — the Ticketmaster affiliate tag was removed");
 
 const routeRawEvidence = [];
 
@@ -622,12 +630,12 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   const { response, text, nextCalled } = await routeResponse(pathname);
   assert(response.status === 200, `${pathname} should return 200`);
 
-  // CSP: must be present on function-rendered HTML responses, allow Impact CDN, no unsafe-inline
+  // CSP: must be present on function-rendered HTML responses, same-origin only, no unsafe-inline
   const csp = response.headers.get("Content-Security-Policy");
   assert(csp !== null, `${pathname} function response must include Content-Security-Policy`);
   assert(csp === EXPECTED_CSP, `${pathname} CSP should match expected value, got: ${csp}`);
   assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
-  assert(csp.includes("https://utt.impactcdn.com"), `${pathname} CSP must allow https://utt.impactcdn.com`);
+  assert(!csp.includes("impactcdn.com"), `${pathname} CSP must not allow impactcdn.com — the Ticketmaster affiliate tag was removed`);
 
   // Canonical URL: tag must be present and point to the exact route
   const actualCanonical = extractCanonical(text);
@@ -823,8 +831,8 @@ const configuredShowsResponse = await showsModule.onRequestGet({
 const configuredShowsJson = await configuredShowsResponse.json();
 assert(configuredShowsJson.providerAvailability?.seatgeek === true, "/api/shows should expose only a safe true SeatGeek availability flag when the Impact API fallback is configured");
 assert(
-  configuredShowsJson.shows.every((show) => show.provider_ctas?.seatgeek === Boolean(safeSeatGeekEventUrl(show.seatgeek_url))),
-  "/api/shows should mark SeatGeek CTAs resolvable for every stored event-level SeatGeek URL when Impact API tracking is configured"
+  configuredShowsJson.shows.every((show) => show.provider_ctas?.seatgeek === Boolean(seatGeekEventPublishable(show) && safeSeatGeekEventUrl(show.seatgeek_url))),
+  "/api/shows should mark SeatGeek CTAs resolvable for every publishable stored event-level SeatGeek URL when Impact API tracking is configured"
 );
 const baseTrackingShowsResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
@@ -833,15 +841,28 @@ const baseTrackingShowsResponse = await showsModule.onRequestGet({
 const baseTrackingShowsJson = await baseTrackingShowsResponse.json();
 assert(baseTrackingShowsJson.providerAvailability?.seatgeek === true, "/api/shows should expose a safe true SeatGeek availability flag when the base tracking URL is configured");
 assert(
-  baseTrackingShowsJson.shows.every((show) => show.provider_ctas?.seatgeek === Boolean(safeSeatGeekEventUrl(show.seatgeek_url))),
-  "/api/shows should mark SeatGeek CTAs resolvable for every stored event-level SeatGeek URL when base tracking is configured"
+  baseTrackingShowsJson.shows.every((show) => show.provider_ctas?.seatgeek === Boolean(seatGeekEventPublishable(show) && safeSeatGeekEventUrl(show.seatgeek_url))),
+  "/api/shows should mark SeatGeek CTAs resolvable for every publishable stored event-level SeatGeek URL when base tracking is configured"
 );
 const serverMorganWithSeatGeek = await routeResponse("/artists/morgan-wallen", seatGeekBaseTrackingEnv);
 const expectedMorganSeatGeekCtas = baseTrackingShowsJson.shows.filter((show) => show.provider_ctas?.seatgeek === true).length;
-const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/Check SeatGeek/g) || []).length;
+const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/View tickets on SeatGeek/g) || []).length;
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "server-rendered SeatGeek CTA should target the controlled show through /api/out");
 assert(serverMorganWithSeatGeek.text.includes("SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase."), "server-rendered SeatGeek CTA should include conservative supporting copy");
+// CTA inversion: SeatGeek is the primary CTA and renders before the plain
+// (unmonetized) Ticketmaster secondary CTA inside the same cta-group.
+const controlledCardCtaGroup = serverMorganWithSeatGeek.text
+  .split("<div class=\"cta-group\">")
+  .find((chunk) => chunk.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`));
+assert(controlledCardCtaGroup, "controlled show card should render a cta-group when both providers are available");
+const sgIndexInGroup = controlledCardCtaGroup.indexOf("View tickets on SeatGeek");
+const tmIndexInGroup = controlledCardCtaGroup.indexOf("Check Ticketmaster");
+assert(sgIndexInGroup !== -1 && tmIndexInGroup !== -1 && sgIndexInGroup < tmIndexInGroup, "SeatGeek CTA must render before the Ticketmaster CTA on paired cards");
+const sgAnchorInGroup = controlledCardCtaGroup.slice(0, controlledCardCtaGroup.indexOf(">View tickets on SeatGeek</a>"));
+assert(sgAnchorInGroup.includes("button-primary"), "SeatGeek CTA must be the primary button on paired cards");
+const tmAnchorInGroup = controlledCardCtaGroup.slice(sgIndexInGroup, tmIndexInGroup);
+assert(tmAnchorInGroup.includes("button-secondary"), "Ticketmaster CTA must be the secondary button on paired cards");
 const invalidSeatGeekEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
   ? { ...event, seatgeek_url: "https://example.com/not-a-valid-seatgeek-event" }
   : event));
@@ -863,13 +884,14 @@ const invalidSeatGeekShowsResponse = await showsModule.onRequestGet({
 });
 const invalidSeatGeekShowsJson = await invalidSeatGeekShowsResponse.json();
 assert(
-  invalidSeatGeekShowsJson.shows.every((show) => show.provider_ctas?.seatgeek === (show.id !== CONTROLLED_SEATGEEK_SHOW_ID && Boolean(safeSeatGeekEventUrl(show.seatgeek_url)))),
+  invalidSeatGeekShowsJson.shows.every((show) => show.provider_ctas?.seatgeek === (show.id !== CONTROLLED_SEATGEEK_SHOW_ID && Boolean(seatGeekEventPublishable(show) && safeSeatGeekEventUrl(show.seatgeek_url)))),
   "hydrated SeatGeek CTAs should be unavailable only for event URLs that are not accepted by the redirect allowlist"
 );
 const invalidSeatGeekShow = invalidSeatGeekShowsJson.shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
 assert(invalidSeatGeekShow?.seatgeek_url?.includes("example.com"), "invalid test fixture should expose a SeatGeek URL that the hydrated allowlist rejects");
 const serverMorganWithoutSeatGeek = await routeResponse("/artists/morgan-wallen");
-assert(!serverMorganWithoutSeatGeek.text.includes("Check SeatGeek"), "server-rendered SeatGeek CTA should stay hidden without SeatGeek Impact config");
+assert(!serverMorganWithoutSeatGeek.text.includes("View tickets on SeatGeek"), "server-rendered SeatGeek CTA should stay hidden without SeatGeek Impact config");
+assert(!serverMorganWithoutSeatGeek.text.includes("provider=seatgeek"), "server-rendered pages should not link /api/out SeatGeek redirects without SeatGeek Impact config");
 const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
 assert(appJs.includes("/api/out?"), "artist show cards should route event CTAs through /api/out");
@@ -881,9 +903,10 @@ const seatGeekGateFunction = appJs.match(/function seatGeekOutAvailable\(show, o
 assert(seatGeekGateFunction, "client-side SeatGeek CTA gate should exist");
 assert(seatGeekGateFunction[0].includes("const hasValidSeatGeekEventUrl = Boolean(safeSeatGeekEventUrl(show?.seatgeek_url));"), "SeatGeek CTA gate should require a valid stored SeatGeek event URL before rendering");
 assert(seatGeekGateFunction[0].includes("if (!hasValidSeatGeekEventUrl) return false;"), "SeatGeek CTA gate should reject provider flags when SeatGeek URL validation fails");
+assert(seatGeekGateFunction[0].includes('if (!providerEventPublishable(show, "seatgeek")) return false;'), "SeatGeek CTA gate should require per-provider event publishability");
 assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;"), "SeatGeek CTA gate should require both the provider flag and a valid stored SeatGeek event URL");
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
-assert(appJs.includes("Check SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
+assert(appJs.includes("View tickets on SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
 assert(appJs.includes("SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase."), "hydration should preserve the safe SeatGeek supporting copy");
 assert(appJs.includes("No verified ticket link is available for this date."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
@@ -953,7 +976,45 @@ const recheckStatusEnv = {
 const recheckStatusPage = await routeResponse("/artists/morgan-wallen", recheckStatusEnv);
 assert(!recheckStatusPage.text.includes(TM_RECHECK_HIDDEN_COPY), "explicit needs_recheck must not render the Ticketmaster-hidden recheck copy");
 assert(!recheckStatusPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "explicit verification_status=needs_recheck must suppress the event's Ticketmaster CTA");
-assert(!recheckStatusPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "explicit verification_status=needs_recheck must suppress the event's SeatGeek CTA too (SeatGeek renders only beside a publishable Ticketmaster link)");
+assert(!recheckStatusPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "explicit verification_status=needs_recheck must suppress the event's SeatGeek CTA when the SeatGeek link has no verified provenance of its own");
+// The needs_recheck event must not resolve through /api/out for either provider.
+const recheckSgOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=seatgeek`, "GET", null, recheckStatusEnv);
+assert(recheckSgOut.status === 400, "needs_recheck event without SeatGeek provenance must not resolve a SeatGeek redirect");
+assert((await recheckSgOut.json()).status === "event_link_not_publishable", "needs_recheck SeatGeek redirect should fail with event_link_not_publishable");
+
+// 2b-ii. Standalone SeatGeek: a needs_recheck event whose SeatGeek link carries
+//        its own verified provenance (provider_links.seatgeek.verified) renders
+//        the SeatGeek CTA standalone — the suppressed Ticketmaster CTA stays
+//        hidden — and /api/out resolves SeatGeek but not Ticketmaster.
+const recheckSgVerifiedEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? {
+      ...event,
+      verification_status: "needs_recheck",
+      provider_links: {
+        ...event.provider_links,
+        seatgeek: { ...event.provider_links?.seatgeek, url: event.seatgeek_url, verified: true }
+      }
+    }
+  : event));
+const recheckSgVerifiedEnv = {
+  ...seatGeekBaseTrackingEnv,
+  ASSETS: {
+    async fetch(request) {
+      const url = new URL(request.url);
+      if (url.pathname === "/data/events.json") return new Response(recheckSgVerifiedEventsJson, { status: 200 });
+      return seatGeekBaseTrackingEnv.ASSETS.fetch(request);
+    }
+  }
+};
+const recheckSgVerifiedPage = await routeResponse("/artists/morgan-wallen", recheckSgVerifiedEnv);
+assert(recheckSgVerifiedPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "needs_recheck event with verified SeatGeek provenance must render the standalone SeatGeek CTA");
+assert(!recheckSgVerifiedPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "needs_recheck event with verified SeatGeek provenance must still suppress the Ticketmaster CTA");
+const standaloneSgOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=seatgeek`, "GET", null, recheckSgVerifiedEnv);
+assert(standaloneSgOut.status === 302, "needs_recheck event with verified SeatGeek provenance must resolve the SeatGeek redirect");
+assert(new URL(standaloneSgOut.headers.get("location")).searchParams.get("u") === CONTROLLED_SEATGEEK_URL, "standalone SeatGeek redirect must deep-link to the stored SeatGeek event URL");
+const standaloneTmOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=ticketmaster`, "GET", null, recheckSgVerifiedEnv);
+assert(standaloneTmOut.status === 400, "needs_recheck event must not resolve a Ticketmaster redirect even when the SeatGeek link is independently verified");
+assert((await standaloneTmOut.json()).status === "event_link_not_publishable", "needs_recheck Ticketmaster redirect should fail with event_link_not_publishable");
 
 // 2c. Behavioural guard: machine_high_confidence is CTA-publishable without
 //     the human-verified provider flag — the explicit status alone must keep
@@ -1138,7 +1199,42 @@ assert(outResponse.status === 302, "/api/out should redirect configured Ticketma
 assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "/api/out redirect responses should include the temporary production proof header");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek");
 assert(outResponse.status === 400, "SeatGeek redirect should fail safely without Impact tracking configured (IMPACT_SEATGEEK_PROGRAM_ID not set)");
+assert((await outResponse.json()).status === "provider_not_configured", "unconfigured artist-level SeatGeek should report provider_not_configured");
 assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "/api/out error responses should include the temporary production proof header");
+// Artist-level SeatGeek performer-page redirects are Impact-wrapped: base
+// tracking mode deep-links the exact verified performer URL, and an Impact
+// failure returns diagnostic JSON rather than an untracked redirect.
+const preArtistSgFetch = globalThis.fetch;
+try {
+  globalThis.fetch = async () => {
+    throw new Error("artist-level SeatGeek base tracking redirects should not call the Impact API");
+  };
+  outResponse = await out("/api/out?artistSlug=bruno-mars&provider=seatgeek&sourcePath=/artists/bruno-mars", "GET", null, {
+    ...env,
+    IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL
+  });
+  assert(outResponse.status === 302, "artist-level SeatGeek /api/out should redirect when base tracking is configured");
+  const artistSgLocation = new URL(outResponse.headers.get("location"));
+  assert(outResponse.headers.get("location").startsWith(CONTROLLED_SEATGEEK_BASE_TRACKING_URL), "artist-level SeatGeek redirect should start with the configured pxf.io base URL");
+  assert(artistSgLocation.searchParams.get("u") === "https://seatgeek.com/bruno-mars-tickets", "artist-level SeatGeek redirect should deep-link the exact verified performer-page URL");
+
+  globalThis.fetch = async () => new Response(JSON.stringify({ Message: "forbidden" }), {
+    status: 403,
+    headers: { "content-type": "application/json" }
+  });
+  outResponse = await out("/api/out?artistSlug=bruno-mars&provider=seatgeek", "GET", null, {
+    ...env,
+    IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
+    IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token",
+    IMPACT_SEATGEEK_PROGRAM_ID: "sg-program"
+  });
+  assert(outResponse.status === 400, "artist-level SeatGeek Impact failure should fail safely, not redirect untracked");
+  const artistSgFailure = await outResponse.json();
+  assert(artistSgFailure.status === "impact_program_not_accessible", "artist-level SeatGeek Impact 403 should report impact_program_not_accessible");
+  assert(artistSgFailure.provider === "seatgeek", "artist-level SeatGeek Impact diagnostics should include provider");
+} finally {
+  globalThis.fetch = preArtistSgFetch;
+}
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com");
 assert(outResponse.status === 400, "example.com destination should fail");
 outResponse = await out("/api/out?artistSlug=beyonce&provider=ticketmaster&deepLink=http%3A%2F%2Flocalhost%3A3000");
@@ -1177,12 +1273,23 @@ for (const showId of renderedTicketmasterShowIds) {
 }
 const originalFetch = globalThis.fetch;
 const renderedSeatGeekShowIds = [...serverMorganWithSeatGeek.text.matchAll(/showId=([^&"]+)&amp;provider=seatgeek/g)].map((match) => decodeURIComponent(match[1]));
-const renderedSeatGeekHrefs = [...serverMorganWithSeatGeek.text.matchAll(/href="([^"]*provider=seatgeek[^"]*)"/g)].map((match) => decodeHtmlEntities(match[1]));
+const allRenderedSeatGeekHrefs = [...serverMorganWithSeatGeek.text.matchAll(/href="([^"]*provider=seatgeek[^"]*)"/g)].map((match) => decodeHtmlEntities(match[1]));
+const renderedSeatGeekHrefs = allRenderedSeatGeekHrefs.filter((href) => href.includes("showId="));
+const renderedArtistSeatGeekHrefs = allRenderedSeatGeekHrefs.filter((href) => href.includes("artistSlug="));
 const seatGeekEligibleShowIds = new Set(baseTrackingShowsJson.shows.filter((show) => show.provider_ctas?.seatgeek === true).map((show) => show.id));
 const expectedRenderedSeatGeekShowIds = renderedTicketmasterShowIds.filter((showId) => seatGeekEligibleShowIds.has(showId));
 assert(renderedSeatGeekShowIds.length > 0, "regression check should find rendered SeatGeek CTA showIds for SeatGeek-eligible rendered events");
 assert(JSON.stringify([...renderedSeatGeekShowIds].sort()) === JSON.stringify([...expectedRenderedSeatGeekShowIds].sort()), "regression check should find exactly the SeatGeek-eligible rendered showIds and no extra SeatGeek CTAs");
-assert(renderedSeatGeekHrefs.length === renderedSeatGeekShowIds.length && renderedSeatGeekHrefs.every((href) => href.startsWith("/api/out?") && href.includes("provider=seatgeek")), "rendered SeatGeek CTAs must route through /api/out instead of direct SeatGeek links");
+assert(allRenderedSeatGeekHrefs.every((href) => href.startsWith("/api/out?") && href.includes("provider=seatgeek")), "rendered SeatGeek CTAs must route through /api/out instead of direct SeatGeek links");
+assert(renderedSeatGeekHrefs.length === renderedSeatGeekShowIds.length, "every event-level SeatGeek href must carry a showId");
+assert(renderedArtistSeatGeekHrefs.length === 1 && renderedArtistSeatGeekHrefs[0].includes("artistSlug=morgan-wallen"), "the artist-level SeatGeek performer-page CTA must render exactly once through /api/out when configured");
+// Provider panel: SeatGeek card renders before the Ticketmaster card when
+// configured, and not at all when unconfigured.
+const sgCardIdx = serverMorganWithSeatGeek.text.indexOf("Open SeatGeek artist page");
+const tmCardIdx = serverMorganWithSeatGeek.text.indexOf("Open Ticketmaster artist page");
+assert(sgCardIdx !== -1 && tmCardIdx !== -1 && sgCardIdx < tmCardIdx, "provider panel must show the SeatGeek artist card before the Ticketmaster artist card when configured");
+assert(!serverMorganWithoutSeatGeek.text.includes("Open SeatGeek artist page"), "provider panel must not show a SeatGeek artist card without SeatGeek Impact config");
+assert(serverMorganWithoutSeatGeek.text.includes("Open Ticketmaster artist page"), "provider panel must keep the plain Ticketmaster artist card without SeatGeek Impact config");
 try {
   globalThis.fetch = async () => {
     throw new Error("SeatGeek base tracking redirects should not call the Impact API");
@@ -1260,19 +1367,12 @@ outResponse = await out(
 assert(outResponse.status === 400, "HTTP SeatGeek event URL should not resolve through /api/out");
 const httpSeatGeekJson = await outResponse.json();
 assert(httpSeatGeekJson.status === "event_ticket_url_unavailable", "HTTP SeatGeek event URL should fail with event_ticket_url_unavailable");
-const impactTrackingUrl = "https://ticketmaster.evyy.net/c/123456/98765/101010";
+// Ticketmaster redirects are plain, unmonetized links: the site was removed
+// from the Ticketmaster affiliate programme, so no Impact API call may be
+// made for a Ticketmaster redirect even when legacy Impact env vars exist.
 try {
-  globalThis.fetch = async (request, options = {}) => {
-    const url = new URL(String(request.url || request));
-    assert(url.hostname === "api.impact.com", "Impact tracking links should call the server-side Impact API");
-    assert(url.searchParams.get("DeepLink") === verifiedMorganShow.ticketmaster_url, "Impact DeepLink should be the stored event-specific Ticketmaster URL");
-    assert(url.pathname.includes("/Mediapartners/tm-account/Programs/tm-program/TrackingLinks"), "Ticketmaster Impact request should use Ticketmaster credentials");
-    assert(!url.toString().includes("example.com"), "Impact request must not use request-supplied example.com deep links");
-    assert(options.headers?.Authorization === `Basic ${Buffer.from("tm-account:tm-token").toString("base64")}`, "Ticketmaster Impact request should use Ticketmaster basic auth");
-    return new Response(JSON.stringify({ TrackingURL: impactTrackingUrl }), {
-      status: 200,
-      headers: { "content-type": "application/json" }
-    });
+  globalThis.fetch = async () => {
+    throw new Error("Ticketmaster redirects must not call the Impact API");
   };
   outResponse = await out(
     `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster&deepLink=https%3A%2F%2Fexample.com`,
@@ -1280,49 +1380,15 @@ try {
     null,
     {
       ...env,
+      IMPACT_ACCOUNT_SID: "legacy-account",
+      IMPACT_AUTH_TOKEN: "legacy-token",
       IMPACT_TICKETMASTER_ACCOUNT_SID: "tm-account",
       IMPACT_TICKETMASTER_AUTH_TOKEN: "tm-token",
       IMPACT_TICKETMASTER_PROGRAM_ID: "tm-program"
     }
   );
-  assert(outResponse.status === 302, "Impact-enabled showId /api/out should still redirect");
-  assert(outResponse.headers.get("location") === impactTrackingUrl, "Impact-enabled showId /api/out should redirect to the returned TrackingURL");
-
-  globalThis.fetch = async () => new Response(JSON.stringify({ Message: "forbidden" }), {
-    status: 403,
-    headers: { "content-type": "application/json" }
-  });
-  outResponse = await out(
-    `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster`,
-    "GET",
-    null,
-    {
-      ...env,
-      IMPACT_ACCOUNT_SID: "test-account",
-      IMPACT_AUTH_TOKEN: "test-token",
-      IMPACT_TICKETMASTER_PROGRAM_ID: "test-program"
-    }
-  );
-  assert(outResponse.status === 302, "Impact failure should not block verified event redirects");
-  assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "Impact failure should fall back to the exact stored Ticketmaster event URL");
-
-  globalThis.fetch = async () => new Response(JSON.stringify({ TrackingURL: "http://localhost:3000/bad" }), {
-    status: 200,
-    headers: { "content-type": "application/json" }
-  });
-  outResponse = await out(
-    `/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster`,
-    "GET",
-    null,
-    {
-      ...env,
-      IMPACT_TICKETMASTER_ACCOUNT_SID: "tm-account",
-      IMPACT_TICKETMASTER_AUTH_TOKEN: "tm-token",
-      IMPACT_TICKETMASTER_PROGRAM_ID: "tm-program"
-    }
-  );
-  assert(outResponse.status === 302, "Unsafe Impact TrackingURL should not block verified event redirects");
-  assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "Unsafe Impact TrackingURL should fall back to the exact stored Ticketmaster event URL");
+  assert(outResponse.status === 302, "Ticketmaster showId /api/out should redirect");
+  assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "Ticketmaster showId /api/out should redirect to the exact stored event URL with no Impact wrapping");
 } finally {
   globalThis.fetch = originalFetch;
 }
@@ -1626,6 +1692,154 @@ try {
   globalThis.fetch = originalFetch;
 }
 
+// --- Vivid Seats wiring: dormant without Impact config + verified event URLs,
+//     Impact-wrapped (never a raw redirect) once configured. ---
+const CONTROLLED_VIVIDSEATS_URL = "https://www.vividseats.com/morgan-wallen-tickets--concerts-country-and-folk/production/5240001";
+const CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL = "https://vividseats.pxf.io/testcode";
+const vividSeatsEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? { ...event, vividseats_url: CONTROLLED_VIVIDSEATS_URL }
+  : event));
+function withVividSeatsEventsFixture(baseEnv) {
+  return {
+    ...baseEnv,
+    ASSETS: {
+      async fetch(request) {
+        const url = new URL(request.url);
+        if (url.pathname === "/data/events.json") return new Response(vividSeatsEventsJson, { status: 200 });
+        return baseEnv.ASSETS.fetch(request);
+      }
+    }
+  };
+}
+
+// 1. Dormancy: a stored vividseats_url alone (no Vivid Seats Impact config)
+//    must not surface anything.
+const vsDormantEnv = withVividSeatsEventsFixture(env);
+const vsDormantShowsResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
+  env: vsDormantEnv
+});
+const vsDormantShowsJson = await vsDormantShowsResponse.json();
+assert(vsDormantShowsJson.providerAvailability?.vividseats === false, "/api/shows should report vividseats availability false without Vivid Seats Impact config");
+assert(vsDormantShowsJson.shows.every((show) => show.provider_ctas?.vividseats === false), "/api/shows should mark every Vivid Seats CTA unresolvable without Vivid Seats Impact config");
+const vsDormantPage = await routeResponse("/artists/morgan-wallen", vsDormantEnv);
+assert(!vsDormantPage.text.includes("Vivid Seats sets prices"), "server-rendered Vivid Seats CTA copy should stay hidden without Vivid Seats Impact config");
+assert(!vsDormantPage.text.includes("provider=vivid-seats"), "server-rendered pages should not link /api/out Vivid Seats redirects without Vivid Seats Impact config");
+const vsDormantOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=vivid-seats`, "GET", null, vsDormantEnv);
+assert(vsDormantOut.status === 400, "Vivid Seats showId redirect should fail safely without Impact config");
+
+// 2. Configured (base tracking) + verified event URL: the CTA renders and the
+//    redirect is Impact-wrapped through the configured pxf.io base URL.
+const vsConfiguredEnv = withVividSeatsEventsFixture({
+  ...env,
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL
+});
+const vsConfiguredShowsResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
+  env: vsConfiguredEnv
+});
+const vsConfiguredShowsJson = await vsConfiguredShowsResponse.json();
+assert(vsConfiguredShowsJson.providerAvailability?.vividseats === true, "/api/shows should report vividseats availability true when the base tracking URL is configured");
+const vsControlledShow = vsConfiguredShowsJson.shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
+assert(vsControlledShow?.provider_ctas?.vividseats === true, "/api/shows should mark the controlled Vivid Seats CTA resolvable when configured");
+const vsConfiguredPage = await routeResponse("/artists/morgan-wallen", vsConfiguredEnv);
+assert(vsConfiguredPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`), "server-rendered Vivid Seats CTA should target the controlled show through /api/out when configured");
+assert(vsConfiguredPage.text.includes("View tickets on Vivid Seats"), "Vivid Seats should be the primary CTA when SeatGeek is not configured");
+assert(vsConfiguredPage.text.includes("Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase."), "server-rendered Vivid Seats CTA should include conservative supporting copy");
+try {
+  globalThis.fetch = async () => {
+    throw new Error("Vivid Seats base tracking redirects should not call the Impact API");
+  };
+  const vsBaseOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=vivid-seats`, "GET", null, vsConfiguredEnv);
+  assert(vsBaseOut.status === 302, "Vivid Seats base tracking URL should produce a 302 redirect");
+  const vsBaseLocation = new URL(vsBaseOut.headers.get("location"));
+  assert(vsBaseOut.headers.get("location").startsWith(CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL), "Vivid Seats base tracking redirect should start with the configured pxf.io base URL");
+  assert(vsBaseLocation.searchParams.get("u") === CONTROLLED_VIVIDSEATS_URL, "Vivid Seats base tracking redirect should deep-link to the exact stored Vivid Seats event URL");
+} finally {
+  globalThis.fetch = originalFetch;
+}
+
+// 3. Both affiliate providers configured: CTA order is SeatGeek (primary),
+//    Vivid Seats, then the plain Ticketmaster link.
+const vsAndSgEnv = withVividSeatsEventsFixture({
+  ...env,
+  IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL
+});
+const vsAndSgPage = await routeResponse("/artists/morgan-wallen", vsAndSgEnv);
+const vsAndSgGroup = vsAndSgPage.text
+  .split("<div class=\"cta-group\">")
+  .find((chunk) => chunk.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`));
+assert(vsAndSgGroup, "controlled show card should render a cta-group including the Vivid Seats CTA when both affiliate providers are configured");
+const sgIdx = vsAndSgGroup.indexOf("View tickets on SeatGeek");
+const vsIdx = vsAndSgGroup.indexOf("Check Vivid Seats");
+const tmIdx = vsAndSgGroup.indexOf("Check Ticketmaster");
+assert(sgIdx !== -1 && vsIdx !== -1 && tmIdx !== -1 && sgIdx < vsIdx && vsIdx < tmIdx, "CTA order must be SeatGeek, Vivid Seats, Ticketmaster");
+
+// 4. Impact API failure must return diagnostic JSON, never a raw redirect.
+const vsApiConfigEnv = withVividSeatsEventsFixture({
+  ...env,
+  IMPACT_VIVIDSEATS_ACCOUNT_SID: "vs-account",
+  IMPACT_VIVIDSEATS_AUTH_TOKEN: "vs-token",
+  IMPACT_VIVIDSEATS_CAMPAIGN_ID: "vs-campaign"
+});
+try {
+  let vividSeatsImpactCalled = false;
+  globalThis.fetch = async (request, options = {}) => {
+    const requestUrl = new URL(String(request.url || request));
+    vividSeatsImpactCalled = true;
+    assert(requestUrl.hostname === "api.impact.com", "Vivid Seats tracking should call Impact with the controlled event URL");
+    assert(requestUrl.pathname.includes("/Mediapartners/vs-account/Programs/vs-campaign/TrackingLinks"), "Vivid Seats Impact request should use the configured Vivid Seats account and campaign");
+    assert(requestUrl.searchParams.get("DeepLink") === CONTROLLED_VIVIDSEATS_URL, "Vivid Seats Impact DeepLink should be the controlled Vivid Seats event URL");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("vs-account:vs-token").toString("base64")}`, "Vivid Seats Impact request should use Vivid Seats basic auth");
+    return new Response(JSON.stringify({ Message: "forbidden" }), {
+      status: 403,
+      headers: { "content-type": "application/json" }
+    });
+  };
+  const vsFailureOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=vivid-seats`, "GET", null, vsApiConfigEnv);
+  assert(vividSeatsImpactCalled, "Vivid Seats configured path should call Impact tracking");
+  assert(vsFailureOut.status === 400, "Vivid Seats Impact failure should fail safely, not redirect");
+  const vsFailureJson = await vsFailureOut.json();
+  assert(vsFailureJson.status === "impact_program_not_accessible", "Vivid Seats Impact 403 failure should report impact_program_not_accessible");
+  assert(vsFailureJson.provider === "vivid-seats", "Vivid Seats Impact diagnostics should include provider");
+  assert(vsFailureJson.destinationHost === "www.vividseats.com", "Vivid Seats Impact diagnostics should include only the safe destination host");
+  assert(!JSON.stringify(vsFailureJson).includes("vs-token"), "Vivid Seats Impact diagnostics must not expose secrets");
+} finally {
+  globalThis.fetch = originalFetch;
+}
+
+// 5. A generic (non-production) Vivid Seats URL must never surface: CTA hidden
+//    and /api/out rejects it.
+const vsInvalidEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? { ...event, vividseats_url: "https://www.vividseats.com/morgan-wallen-tickets" }
+  : event));
+const vsInvalidEnv = {
+  ...env,
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL,
+  ASSETS: {
+    async fetch(request) {
+      const url = new URL(request.url);
+      if (url.pathname === "/data/events.json") return new Response(vsInvalidEventsJson, { status: 200 });
+      return env.ASSETS.fetch(request);
+    }
+  }
+};
+const vsInvalidPage = await routeResponse("/artists/morgan-wallen", vsInvalidEnv);
+assert(!vsInvalidPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`), "server-rendered Vivid Seats CTA should be hidden for a Vivid Seats URL that /api/out would reject");
+const vsInvalidOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=vivid-seats`, "GET", null, vsInvalidEnv);
+assert(vsInvalidOut.status === 400, "generic Vivid Seats URL should not resolve through /api/out");
+assert((await vsInvalidOut.json()).status === "event_ticket_url_unavailable", "generic Vivid Seats URL should fail with event_ticket_url_unavailable");
+
+// app.js must gate Vivid Seats CTAs the same way as SeatGeek.
+const vividSeatsGateFunction = appJs.match(/function vividSeatsOutAvailable\(show, options = \{\}\) \{[\s\S]*?\n\}/);
+assert(vividSeatsGateFunction, "client-side Vivid Seats CTA gate should exist");
+assert(vividSeatsGateFunction[0].includes('if (!providerEventPublishable(show, "vivid-seats")) return false;'), "Vivid Seats CTA gate should require per-provider event publishability");
+assert(vividSeatsGateFunction[0].includes("return show.provider_ctas.vividseats === true && hasValidVividSeatsEventUrl;"), "Vivid Seats CTA gate should require both the provider flag and a valid stored Vivid Seats event URL");
+assert(appJs.includes("safeVividSeatsEventUrl"), "hydrated artist show cards should validate Vivid Seats event URLs");
+assert(appJs.includes("providerAvailability?.vividseats"), "hydration should use the safe Vivid Seats availability flag from /api/shows");
+assert(!appJs.includes("https://vividseats.com") && !appJs.includes("https://www.vividseats.com"), "client-side app code must not hard-code direct Vivid Seats public CTA links");
+
 async function debugSeatgeek(pathname, envOverride = env) {
   return debugSeatgeekModule.onRequestGet({
     request: new Request(`https://tourticketcompare.com${pathname}`),
@@ -1723,7 +1937,7 @@ assert(outResponse.status === 302, "Ticketmaster redirect should still work");
 // Test 5: stored event-level SeatGeek URLs are allowed, but config alone must not create CTAs.
 assert(controlledSeatGeekShow.seatgeek_url === CONTROLLED_SEATGEEK_URL, "controlled SeatGeek event URL should remain available for the approved test show");
 assert(!String(nonSeatGeekShow.seatgeek_url || "").trim(), "non-eligible show should still have no SeatGeek URL");
-assert(!serverMorganWithoutSeatGeek.text.includes("Check SeatGeek"), "SeatGeek CTAs should remain hidden when SeatGeek affiliate config is absent even if an event URL exists");
+assert(!serverMorganWithoutSeatGeek.text.includes("View tickets on SeatGeek"), "SeatGeek CTAs should remain hidden when SeatGeek affiliate config is absent even if an event URL exists");
 
 console.log("SeatGeek visibility gating verified: event-level URL plus affiliate config required");
 

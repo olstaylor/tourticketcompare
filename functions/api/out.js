@@ -3,8 +3,8 @@ const EVENTS_JSON_PATH = "/data/events.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
 const IMPACT_PXF_TRACKING_HOSTS = ["pxf.io"];
 // Temporary production proof header for /api/out. Remove after verifying
-// SeatGeek event URL-first redirects are live.
-const OUT_VERSION_HEADER = "seatgeek-impact-diagnostics-2026-05-13";
+// plain (non-affiliate) Ticketmaster redirects are live.
+const OUT_VERSION_HEADER = "tm-plain-redirects-2026-07-02";
 
 const PROVIDERS = {
   ticketmaster: {
@@ -21,7 +21,7 @@ const PROVIDERS = {
       "ticketmaster.be",
       "ticketmaster.it"
     ],
-    trustedAffiliateHosts: ["ticketmaster.evyy.net"]
+    trustedAffiliateHosts: []
   },
   seatgeek: {
     name: "SeatGeek",
@@ -40,49 +40,49 @@ const VERIFIED_TICKET_LINKS = {
     artistSlug: "beyonce",
     provider: "ticketmaster",
     linkId: "tm-artist-beyonce",
-    redirectUrl: "https://ticketmaster.evyy.net/beyonce",
+    redirectUrl: "https://www.ticketmaster.com/beyonce-tickets/artist/894191",
     verified: true
   },
   "harry-styles:ticketmaster": {
     artistSlug: "harry-styles",
     provider: "ticketmaster",
     linkId: "tm-artist-harry-styles",
-    redirectUrl: "https://ticketmaster.evyy.net/vD4B5y",
+    redirectUrl: "https://www.ticketmaster.com/harry-styles-tickets/artist/2366444",
     verified: true
   },
   "bts:ticketmaster": {
     artistSlug: "bts",
     provider: "ticketmaster",
     linkId: "tm-artist-bts",
-    redirectUrl: "https://ticketmaster.evyy.net/OY9gkr",
+    redirectUrl: "https://www.ticketmaster.com/bts-tickets/artist/2110227",
     verified: true
   },
   "ariana-grande:ticketmaster": {
     artistSlug: "ariana-grande",
     provider: "ticketmaster",
     linkId: "tm-artist-ariana-grande",
-    redirectUrl: "https://ticketmaster.evyy.net/bkDx6b",
+    redirectUrl: "https://www.ticketmaster.com/ariana-grande-tickets/artist/1688071",
     verified: true
   },
   "bad-bunny:ticketmaster": {
     artistSlug: "bad-bunny",
     provider: "ticketmaster",
     linkId: "tm-artist-bad-bunny",
-    redirectUrl: "https://ticketmaster.evyy.net/zzeEWW",
+    redirectUrl: "https://www.ticketmaster.com/bad-bunny-tickets/artist/2317395",
     verified: true
   },
   "morgan-wallen:ticketmaster": {
     artistSlug: "morgan-wallen",
     provider: "ticketmaster",
     linkId: "tm-artist-morgan-wallen",
-    redirectUrl: "https://ticketmaster.evyy.net/morganwallenus",
+    redirectUrl: "https://www.ticketmaster.com/morgan-wallen-tickets/artist/2288122",
     verified: true
   },
   "jay-z:ticketmaster": {
     artistSlug: "jay-z",
     provider: "ticketmaster",
     linkId: "tm-artist-jay-z",
-    redirectUrl: "https://ticketmaster.evyy.net/5kM6W3",
+    redirectUrl: "https://www.ticketmaster.com/jayz-tickets/artist/781009",
     verified: true
   },
   "olivia-rodrigo:ticketmaster": {
@@ -146,6 +146,122 @@ const VERIFIED_TICKET_LINKS = {
     provider: "ticketmaster",
     linkId: "tm-artist-rosalia",
     redirectUrl: "https://www.ticketmaster.com/rosalia-tickets/artist/2453211",
+    verified: true
+  },
+  // Artist-level SeatGeek performer pages. URLs captured 2026-07-02 from the
+  // SeatGeek /2/performers/{id} API record for each artist's human-verified
+  // performer id in data/provider-identities.json (never constructed from
+  // names). Redirects are Impact-wrapped at click time.
+  "beyonce:seatgeek": {
+    artistSlug: "beyonce",
+    provider: "seatgeek",
+    linkId: "sg-artist-beyonce",
+    redirectUrl: "https://seatgeek.com/beyonce-tickets",
+    verified: true
+  },
+  "harry-styles:seatgeek": {
+    artistSlug: "harry-styles",
+    provider: "seatgeek",
+    linkId: "sg-artist-harry-styles",
+    redirectUrl: "https://seatgeek.com/harry-styles-tickets",
+    verified: true
+  },
+  "bts:seatgeek": {
+    artistSlug: "bts",
+    provider: "seatgeek",
+    linkId: "sg-artist-bts",
+    redirectUrl: "https://seatgeek.com/bts-tickets",
+    verified: true
+  },
+  "ariana-grande:seatgeek": {
+    artistSlug: "ariana-grande",
+    provider: "seatgeek",
+    linkId: "sg-artist-ariana-grande",
+    redirectUrl: "https://seatgeek.com/ariana-grande-tickets",
+    verified: true
+  },
+  "bad-bunny:seatgeek": {
+    artistSlug: "bad-bunny",
+    provider: "seatgeek",
+    linkId: "sg-artist-bad-bunny",
+    redirectUrl: "https://seatgeek.com/bad-bunny-tickets",
+    verified: true
+  },
+  "morgan-wallen:seatgeek": {
+    artistSlug: "morgan-wallen",
+    provider: "seatgeek",
+    linkId: "sg-artist-morgan-wallen",
+    redirectUrl: "https://seatgeek.com/morgan-wallen-tickets",
+    verified: true
+  },
+  "jay-z:seatgeek": {
+    artistSlug: "jay-z",
+    provider: "seatgeek",
+    linkId: "sg-artist-jay-z",
+    redirectUrl: "https://seatgeek.com/jay-z-tickets",
+    verified: true
+  },
+  "olivia-rodrigo:seatgeek": {
+    artistSlug: "olivia-rodrigo",
+    provider: "seatgeek",
+    linkId: "sg-artist-olivia-rodrigo",
+    redirectUrl: "https://seatgeek.com/olivia-rodrigo-tickets",
+    verified: true
+  },
+  "bruno-mars:seatgeek": {
+    artistSlug: "bruno-mars",
+    provider: "seatgeek",
+    linkId: "sg-artist-bruno-mars",
+    redirectUrl: "https://seatgeek.com/bruno-mars-tickets",
+    verified: true
+  },
+  "ed-sheeran:seatgeek": {
+    artistSlug: "ed-sheeran",
+    provider: "seatgeek",
+    linkId: "sg-artist-ed-sheeran",
+    redirectUrl: "https://seatgeek.com/ed-sheeran-tickets",
+    verified: true
+  },
+  "shakira:seatgeek": {
+    artistSlug: "shakira",
+    provider: "seatgeek",
+    linkId: "sg-artist-shakira",
+    redirectUrl: "https://seatgeek.com/shakira-tickets",
+    verified: true
+  },
+  "raye:seatgeek": {
+    artistSlug: "raye",
+    provider: "seatgeek",
+    linkId: "sg-artist-raye",
+    redirectUrl: "https://seatgeek.com/raye-tickets",
+    verified: true
+  },
+  "charli-xcx:seatgeek": {
+    artistSlug: "charli-xcx",
+    provider: "seatgeek",
+    linkId: "sg-artist-charli-xcx",
+    redirectUrl: "https://seatgeek.com/charli-xcx-tickets",
+    verified: true
+  },
+  "tate-mcrae:seatgeek": {
+    artistSlug: "tate-mcrae",
+    provider: "seatgeek",
+    linkId: "sg-artist-tate-mcrae",
+    redirectUrl: "https://seatgeek.com/tate-mcrae-tickets",
+    verified: true
+  },
+  "summer-walker:seatgeek": {
+    artistSlug: "summer-walker",
+    provider: "seatgeek",
+    linkId: "sg-artist-summer-walker",
+    redirectUrl: "https://seatgeek.com/summer-walker-tickets",
+    verified: true
+  },
+  "rosalia:seatgeek": {
+    artistSlug: "rosalia",
+    provider: "seatgeek",
+    linkId: "sg-artist-rosalia",
+    redirectUrl: "https://seatgeek.com/rosalia-tickets",
     verified: true
   }
 };
@@ -291,6 +407,19 @@ function eventLinkPublishable(event) {
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
+// Per-provider event publishability. Ticketmaster follows the event-level
+// verification_status above. A SeatGeek event CTA may additionally publish on
+// a needs_recheck event when the SeatGeek link carries its own verified
+// provenance (provider_links.seatgeek.verified === true) — the recheck flag
+// tracks the Ticketmaster storefront URL, not the SeatGeek listing. Keep in
+// sync with providerEventPublishable in functions/[[path]].js and
+// public/app.js.
+function providerEventPublishable(event, provider) {
+  if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
+  if (provider === "vivid-seats" && event?.provider_links?.["vivid-seats"]?.verified === true) return true;
+  return eventLinkPublishable(event);
+}
+
 function validateTicketmasterEventUrl(event, providerConfig) {
   const candidates = [event?.ticketmaster_url, event?.source_url];
   const eventId = clean(event?.ticketmaster_event_id, 255);
@@ -322,13 +451,30 @@ function validateSeatGeekEventUrl(seatGeekUrl, providerConfig) {
   return redirect;
 }
 
+// Vivid Seats event URLs follow the same policy: pre-approved in event data,
+// direct HTTPS vividseats.com production-page URLs only. The shape is
+// conservative — /…/production/<id> — and rejects search/venue/performer/
+// category pages and bare "…-tickets" root paths. Adjust only alongside the
+// first owner-verified vividseats_url data (a too-strict validator fails safe).
+function validateVividSeatsEventUrl(vividSeatsUrl, providerConfig) {
+  const redirect = validateConfiguredRedirect(providerConfig, vividSeatsUrl);
+  if (!redirect || redirect.protocol !== "https:") return null;
+  const host = redirect.hostname.toLowerCase();
+  if (host !== "vividseats.com" && host !== "www.vividseats.com") return null;
+  const path = decodeURIComponent(redirect.pathname || "/").replace(/\/+$/, "");
+  if (!path || path === "/") return null;
+  if (/^\/(search|venues?|performers?|artists?|category|concerts?|sports?|theater|theatre)(?:\/|$)/i.test(path)) return null;
+  if (!/\/production\/\d+$/i.test(path)) return null;
+  return redirect;
+}
+
 async function resolveShowLink(env, showId, provider) {
   const events = await loadEventsFromAssets(env);
   if (!events) return { ok: false, status: "event_data_unavailable", httpStatus: 503 };
 
   const event = events.find((candidate) => clean(candidate?.id, 255) === showId);
   if (!event) return { ok: false, status: "show_not_found" };
-  if (!eventLinkPublishable(event)) return { ok: false, status: "event_link_not_publishable" };
+  if (!providerEventPublishable(event, provider)) return { ok: false, status: "event_link_not_publishable" };
 
   if (provider === "ticketmaster") {
     const providerConfig = PROVIDERS.ticketmaster;
@@ -369,12 +515,42 @@ async function resolveShowLink(env, showId, provider) {
     };
   }
 
+  if (provider === "vivid-seats") {
+    const providerConfig = PROVIDERS["vivid-seats"];
+    const vividSeatsUrl = clean(event?.vividseats_url, 2048);
+    const redirect = validateVividSeatsEventUrl(vividSeatsUrl, providerConfig);
+    if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
+
+    return {
+      ok: true,
+      link: {
+        artistSlug: slugify(event.artist_slug),
+        provider: "vivid-seats",
+        linkId: clean(event.id, 255),
+        showId: clean(event.id, 255),
+        redirectUrl: redirect.toString(),
+        verified: true
+      },
+      redirect
+    };
+  }
+
   return { ok: false, status: "provider_not_configured" };
 }
 
 
-function hasSeatGeekBaseTrackingUrl(env = {}) {
-  return Boolean(clean(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL, 2048));
+const BASE_TRACKING_URL_ENV_VARS = {
+  seatgeek: "IMPACT_SEATGEEK_BASE_TRACKING_URL",
+  "vivid-seats": "IMPACT_VIVIDSEATS_BASE_TRACKING_URL"
+};
+
+function baseTrackingUrlFor(env = {}, provider) {
+  const envVar = BASE_TRACKING_URL_ENV_VARS[providerKey(provider)];
+  return envVar ? clean(env?.[envVar], 2048) : "";
+}
+
+function hasBaseTrackingUrl(env = {}, provider) {
+  return Boolean(baseTrackingUrlFor(env, provider));
 }
 
 function validateImpactPxfBaseTrackingUrl(value) {
@@ -401,14 +577,18 @@ function validateImpactPxfBaseTrackingUrl(value) {
   return { ok: true, url: parsed };
 }
 
-function buildSeatGeekBaseTrackingRedirect(env, destination) {
-  const configuredBase = clean(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL, 2048);
+// Wraps a pre-validated provider destination with the provider's configured
+// pxf.io base tracking URL. `validateDestination` re-validates the destination
+// with the caller's context (event-shape validator on the showId path;
+// validateConfiguredRedirect for hand-verified artist-level entries).
+function buildBaseTrackingRedirect(env, provider, destination, validateDestination) {
+  const configuredBase = baseTrackingUrlFor(env, provider);
   if (!configuredBase) return { ok: false, status: "impact_base_tracking_url_missing" };
 
   const base = validateImpactPxfBaseTrackingUrl(configuredBase);
   if (!base.ok) return base;
 
-  const destinationUrl = validateSeatGeekEventUrl(destination, PROVIDERS.seatgeek);
+  const destinationUrl = validateDestination(destination);
   if (!destinationUrl) {
     return { ok: false, status: "event_ticket_url_unavailable" };
   }
@@ -449,22 +629,46 @@ function impactConfig(env = {}, provider = "ticketmaster") {
     };
   }
 
-  const accountSid = clean(env?.IMPACT_TICKETMASTER_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
-  const authToken = clean(env?.IMPACT_TICKETMASTER_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
-  const programId = clean(env?.IMPACT_TICKETMASTER_PROGRAM_ID, 120);
+  if (normalizedProvider === "vivid-seats") {
+    // Mirrors the SeatGeek Impact configuration shape: CampaignId alias
+    // preferred, ProgramId kept as the backwards-compatible fallback.
+    const accountSid = clean(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
+    const authToken = clean(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+    const campaignId = clean(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID, 120);
+    const legacyProgramId = clean(env?.IMPACT_VIVIDSEATS_PROGRAM_ID, 120);
+    const programId = campaignId || legacyProgramId;
+    return {
+      accountSid,
+      authToken,
+      programId,
+      campaignId,
+      legacyProgramId,
+      programIdSource: campaignId ? "IMPACT_VIVIDSEATS_CAMPAIGN_ID" : legacyProgramId ? "IMPACT_VIVIDSEATS_PROGRAM_ID" : "",
+      apiBase,
+      provider: normalizedProvider,
+      hasCredentials: Boolean(accountSid && authToken),
+      hasProgramId: Boolean(programId),
+      hasCampaignId: Boolean(campaignId),
+      configured: Boolean(accountSid && authToken && programId)
+    };
+  }
+
+  // Ticketmaster has no Impact program (the site was removed from the
+  // Ticketmaster affiliate programme). Ticketmaster redirects are plain,
+  // unmonetized links and never call the Impact API.
   return {
-    accountSid,
-    authToken,
-    programId,
+    accountSid: "",
+    authToken: "",
+    programId: "",
     campaignId: "",
-    legacyProgramId: programId,
-    programIdSource: programId ? "IMPACT_TICKETMASTER_PROGRAM_ID" : "",
+    legacyProgramId: "",
+    programIdSource: "",
     apiBase,
     provider: normalizedProvider,
-    hasCredentials: Boolean(accountSid && authToken),
-    hasProgramId: Boolean(programId),
+    hasCredentials: false,
+    hasProgramId: false,
     hasCampaignId: false,
-    configured: Boolean(accountSid && authToken && programId)
+    configured: false
   };
 }
 
@@ -495,11 +699,13 @@ function safeImpactDiagnosticConfig(config) {
   };
 }
 
+const IMPACT_WRAPPED_PROVIDERS = new Set(["seatgeek", "vivid-seats"]);
+
 function impactRequestStatus(statusCode, provider = "ticketmaster") {
-  if (Number(statusCode) === 404 && providerKey(provider) === "seatgeek") {
+  if (Number(statusCode) === 404 && IMPACT_WRAPPED_PROVIDERS.has(providerKey(provider))) {
     return "impact_tracking_endpoint_not_found";
   }
-  if (Number(statusCode) === 403 && providerKey(provider) === "seatgeek") {
+  if (Number(statusCode) === 403 && IMPACT_WRAPPED_PROVIDERS.has(providerKey(provider))) {
     return "impact_program_not_accessible";
   }
   return "impact_request_failed";
@@ -774,11 +980,6 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
   }
 }
 
-async function createImpactTrackingUrl(env, deepLink, provider = "ticketmaster") {
-  const result = await createImpactTrackingUrlResult(env, deepLink, provider);
-  return result.ok ? result.trackingUrl : null;
-}
-
 async function readBody(request) {
   if (request.method !== "POST") return {};
   try {
@@ -851,11 +1052,11 @@ function impactFailureStatus(status) {
   return status || "impact_request_failed";
 }
 
-function seatGeekImpactFailurePayload(resolved, result, config) {
+function impactFailurePayload(provider, resolved, result, config) {
   const payload = {
     ok: false,
     status: impactFailureStatus(result.status),
-    provider: "seatgeek",
+    provider,
     hasDestination: true,
     destinationHost: resolved.redirect.hostname.toLowerCase(),
     impactConfigPresent: Boolean(config.configured),
@@ -894,41 +1095,47 @@ async function handleOut(request, env, mode) {
   if (!providerConfig) return json({ ok: false, status: "unknown_provider" }, 400);
 
   if (showId) {
-    // showId mode is intentionally controlled: resolve the stored event URL first,
-    // then optionally wrap it with Impact. Do not use user deep links or provider
-    // discovery/search fallbacks for an event click.
+    // showId mode is intentionally controlled: resolve the stored event URL
+    // first, then wrap it with Impact for affiliate providers (SeatGeek).
+    // Ticketmaster event redirects are plain, unmonetized links. Do not use
+    // user deep links or provider discovery/search fallbacks for an event click.
     const resolved = await resolveShowLink(env, showId, provider);
     if (!resolved.ok) {
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
     }
 
-    if (provider === "seatgeek") {
-      // SeatGeek showId redirects are event URL-first. The destination was read
-      // from event.seatgeek_url and validated as an HTTPS seatgeek.com URL by
-      // resolveShowLink before any Impact call. There is intentionally no
-      // SeatGeek API search or broad fallback in this path.
+    if (IMPACT_WRAPPED_PROVIDERS.has(provider)) {
+      // SeatGeek / Vivid Seats showId redirects are event URL-first. The
+      // destination was read from the stored event field and validated as a
+      // direct HTTPS provider URL by resolveShowLink before any Impact call.
+      // There is intentionally no provider API search or broad fallback in
+      // this path, and no raw-URL fallback: an Impact failure returns a
+      // diagnostic JSON, never an untracked redirect.
       const destination = resolved.redirect.toString();
-      const seatGeekImpactConfig = impactConfig(env, "seatgeek");
+      const providerImpactConfig = impactConfig(env, provider);
+      const validateEventDestination = provider === "seatgeek"
+        ? (value) => validateSeatGeekEventUrl(value, PROVIDERS.seatgeek)
+        : (value) => validateVividSeatsEventUrl(value, PROVIDERS["vivid-seats"]);
       let impactTrackingResult = null;
 
-      if (hasSeatGeekBaseTrackingUrl(env)) {
-        impactTrackingResult = buildSeatGeekBaseTrackingRedirect(env, destination);
+      if (hasBaseTrackingUrl(env, provider)) {
+        impactTrackingResult = buildBaseTrackingRedirect(env, provider, destination, validateEventDestination);
       } else {
-        impactTrackingResult = await createImpactTrackingUrlResult(env, destination, "seatgeek");
+        impactTrackingResult = await createImpactTrackingUrlResult(env, destination, provider);
       }
 
       if (!impactTrackingResult.ok) {
-        return json(seatGeekImpactFailurePayload(resolved, impactTrackingResult, seatGeekImpactConfig), 400);
+        return json(impactFailurePayload(provider, resolved, impactTrackingResult, providerImpactConfig), 400);
       }
 
       const outbound = safeUrl(impactTrackingResult.trackingUrl);
       if (!outbound) {
-        return json(seatGeekImpactFailurePayload(resolved, {
+        return json(impactFailurePayload(provider, resolved, {
           ok: false,
           status: "impact_tracking_url_failed_safety_check",
-          hasProgramId: seatGeekImpactConfig.hasProgramId,
-          impactConfigPresent: seatGeekImpactConfig.configured
-        }, seatGeekImpactConfig), 400);
+          hasProgramId: providerImpactConfig.hasProgramId,
+          impactConfigPresent: providerImpactConfig.configured
+        }, providerImpactConfig), 400);
       }
 
       await trackClick({
@@ -953,9 +1160,8 @@ async function handleOut(request, env, mode) {
       });
     }
 
-    const impactTrackingUrl = await createImpactTrackingUrl(env, resolved.redirect.toString(), provider);
-    const outboundUrl = impactTrackingUrl || resolved.redirect.toString();
-    const outbound = safeUrl(outboundUrl) || resolved.redirect;
+    // Ticketmaster: plain redirect to the verified event URL, no Impact call.
+    const outbound = resolved.redirect;
 
     await trackClick({
       request,
@@ -994,23 +1200,46 @@ async function handleOut(request, env, mode) {
   const redirect = validateConfiguredRedirect(providerConfig, link.redirectUrl);
   if (!redirect) return json({ ok: false, status: "configured_redirect_rejected" }, 400);
 
-  if (provider === "seatgeek") {
-    const impactCfg = impactConfig(env, "seatgeek");
-    if (!impactCfg.configured) {
+  let outbound = redirect;
+  if (IMPACT_WRAPPED_PROVIDERS.has(provider)) {
+    // Artist-level SeatGeek / Vivid Seats clicks are Impact-wrapped exactly
+    // like the event path; failures return diagnostic JSON, never an
+    // untracked redirect. Ticketmaster artist links stay plain, unmonetized
+    // redirects. The destination re-validation uses the artist-level rule
+    // (validateConfiguredRedirect) because the redirectUrl is a hand-verified
+    // performer-page constant, not an event URL.
+    const providerImpactConfig = impactConfig(env, provider);
+    if (!providerImpactConfig.configured && !hasBaseTrackingUrl(env, provider)) {
       return json({ ok: false, status: "provider_not_configured" }, 400);
+    }
+    const validateArtistDestination = (value) => validateConfiguredRedirect(providerConfig, value);
+    const impactTrackingResult = hasBaseTrackingUrl(env, provider)
+      ? buildBaseTrackingRedirect(env, provider, redirect.toString(), validateArtistDestination)
+      : await createImpactTrackingUrlResult(env, redirect.toString(), provider);
+    if (!impactTrackingResult.ok) {
+      return json(impactFailurePayload(provider, { redirect }, impactTrackingResult, providerImpactConfig), 400);
+    }
+    outbound = safeUrl(impactTrackingResult.trackingUrl);
+    if (!outbound) {
+      return json(impactFailurePayload(provider, { redirect }, {
+        ok: false,
+        status: "impact_tracking_url_failed_safety_check",
+        hasProgramId: providerImpactConfig.hasProgramId,
+        impactConfigPresent: providerImpactConfig.configured
+      }, providerImpactConfig), 400);
     }
   }
 
-  await trackClick({ request, env, link, sourcePath, destinationHost: redirect.hostname.toLowerCase() });
+  await trackClick({ request, env, link, sourcePath, destinationHost: outbound.hostname.toLowerCase() });
 
   if (mode === "redirect") {
-    return redirectResponse(redirect.toString(), 302);
+    return redirectResponse(outbound.toString(), 302);
   }
 
   return json({
     ok: true,
     status: "redirect_ready",
-    redirectUrl: redirect.toString(),
+    redirectUrl: outbound.toString(),
     provider,
     artistSlug
   });

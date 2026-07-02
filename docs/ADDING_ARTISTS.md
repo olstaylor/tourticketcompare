@@ -93,7 +93,7 @@ A new key must be added to the `VERIFIED_TICKET_LINKS` constant using the exact 
 
 ### `functions/api/shows.js` — derived, no manual edit
 
-`TICKETMASTER_ARTIST_AFFILIATE_LINKS` in `functions/api/shows.js` is derived at module load from `VERIFIED_TICKET_LINKS` in `functions/api/out.js` (verified Ticketmaster entries only). Adding the `out.js` entry at the Promote phase is sufficient — never hand-edit this map. See `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` § "Phase 3 — Promote" for the full file-change matrix.
+`ARTIST_LINKS_BY_PROVIDER` in `functions/api/shows.js` (keyed provider → { slug → url }) is derived at module load from `VERIFIED_TICKET_LINKS` in `functions/api/out.js`. Adding the `out.js` entries at the Promote phase is sufficient — never hand-edit this map. See `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` § "Phase 3 — Promote" for the full file-change matrix.
 
 ### `functions/api/signup.js` — derived, no manual edit
 

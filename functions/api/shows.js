@@ -467,13 +467,34 @@ function validSeatGeekEventUrl(value) {
   }
 }
 
+// Per-provider event publishability. Keep in sync with
+// providerEventPublishable in functions/api/out.js, functions/[[path]].js
+// and public/app.js: a needs_recheck event may publish a SeatGeek CTA only
+// when the SeatGeek link carries its own verified provenance.
+const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
+
+function eventLinkPublishable(event) {
+  const status = String(event?.verification_status || "").trim().toLowerCase();
+  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  return event?.provider_links?.ticketmaster?.verified === true;
+}
+
+function providerEventPublishable(event, provider) {
+  if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
+  return eventLinkPublishable(event);
+}
+
 function withResolvableProviderCtas(shows, env = {}) {
   const seatGeekConfigured = hasSeatGeekProviderConfig(env);
   return shows.map((show) => ({
     ...show,
     provider_ctas: {
       ...(show.provider_ctas && typeof show.provider_ctas === "object" ? show.provider_ctas : {}),
-      seatgeek: Boolean(seatGeekConfigured && validSeatGeekEventUrl(show.seatgeek_url))
+      seatgeek: Boolean(
+        seatGeekConfigured &&
+        providerEventPublishable(show, "seatgeek") &&
+        validSeatGeekEventUrl(show.seatgeek_url)
+      )
     }
   }));
 }

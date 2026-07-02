@@ -184,7 +184,7 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
     }
   }
   if (seatgeekSuppressed > 0) {
-    info.push(`${seatgeekSuppressed} event(s) store a seatgeek_url while the Ticketmaster link is not publishable — SeatGeek CTA correctly suppressed.`);
+    info.push(`${seatgeekSuppressed} event(s) store a seatgeek_url while the event is not publishable — the SeatGeek CTA renders standalone only when provider_links.seatgeek.verified is true, otherwise it stays suppressed.`);
   }
 
   return { errors, info, stats: { events: events.length, publishable, statusCounts, artistCtas: verifiedKeys.filter((k) => k.provider === "ticketmaster").length } };

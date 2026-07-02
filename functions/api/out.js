@@ -291,6 +291,18 @@ function eventLinkPublishable(event) {
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
+// Per-provider event publishability. Ticketmaster follows the event-level
+// verification_status above. A SeatGeek event CTA may additionally publish on
+// a needs_recheck event when the SeatGeek link carries its own verified
+// provenance (provider_links.seatgeek.verified === true) — the recheck flag
+// tracks the Ticketmaster storefront URL, not the SeatGeek listing. Keep in
+// sync with providerEventPublishable in functions/[[path]].js and
+// public/app.js.
+function providerEventPublishable(event, provider) {
+  if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
+  return eventLinkPublishable(event);
+}
+
 function validateTicketmasterEventUrl(event, providerConfig) {
   const candidates = [event?.ticketmaster_url, event?.source_url];
   const eventId = clean(event?.ticketmaster_event_id, 255);
@@ -328,7 +340,7 @@ async function resolveShowLink(env, showId, provider) {
 
   const event = events.find((candidate) => clean(candidate?.id, 255) === showId);
   if (!event) return { ok: false, status: "show_not_found" };
-  if (!eventLinkPublishable(event)) return { ok: false, status: "event_link_not_publishable" };
+  if (!providerEventPublishable(event, provider)) return { ok: false, status: "event_link_not_publishable" };
 
   if (provider === "ticketmaster") {
     const providerConfig = PROVIDERS.ticketmaster;

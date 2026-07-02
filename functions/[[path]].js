@@ -640,7 +640,8 @@ function futureShowsForArtist(events, artistSlug, limit) {
       seatgeek_url: String(ev.seatgeek_url || "").trim(),
       last_verified_at: String(ev.last_verified_at || "").trim(),
       verification_status: String(ev.verification_status || "").trim(),
-      publishable: eventLinkPublishable(ev)
+      publishable: eventLinkPublishable(ev),
+      seatgeekPublishable: providerEventPublishable(ev, "seatgeek")
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -684,6 +685,18 @@ function eventLinkPublishable(event) {
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
+// Per-provider event publishability. Ticketmaster follows the event-level
+// verification_status above. A SeatGeek event CTA may additionally publish on
+// a needs_recheck event when the SeatGeek link carries its own verified
+// provenance (provider_links.seatgeek.verified === true) — the recheck flag
+// tracks the Ticketmaster storefront URL, not the SeatGeek listing. Keep in
+// sync with providerEventPublishable in functions/api/out.js and
+// public/app.js.
+function providerEventPublishable(event, provider) {
+  if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
+  return eventLinkPublishable(event);
+}
+
 function safeShowTicketUrl(value) {
   const raw = String(value || "").trim();
   if (!raw) return null;
@@ -717,7 +730,11 @@ function safeSeatGeekTicketUrl(value) {
 }
 
 function seatGeekOutAvailable(show, seatGeekAvailable = false) {
-  return Boolean(seatGeekAvailable && safeSeatGeekTicketUrl(show?.seatgeek_url));
+  if (!seatGeekAvailable) return false;
+  const publishable = typeof show?.seatgeekPublishable === "boolean"
+    ? show.seatgeekPublishable
+    : providerEventPublishable(show, "seatgeek");
+  return Boolean(publishable && safeSeatGeekTicketUrl(show?.seatgeek_url));
 }
 
 function clean(value, max = 255) {
@@ -741,18 +758,25 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.</p>`;
-  } else if (validUrl && show.id && show.publishable) {
+  } else if (show.id) {
     // Provider price/fee/availability disclosure lives once in the show-board
     // intro instead of repeating on every card.
-    const ticketmasterCta = `${anchor("View tickets", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}`;
-
-    // SeatGeek CTA appears only when redirects are configured and /api/out can resolve the stored event-level SeatGeek URL.
+    // SeatGeek is the primary CTA (affiliate provider); the verified
+    // Ticketmaster link renders as a plain, unmonetized secondary CTA. Either
+    // renders standalone when the other is unavailable — a SeatGeek CTA no
+    // longer requires a publishable Ticketmaster URL on the same card.
     // The SeatGeek note stays per-card (smoke-asserted resale caution); the generic provider disclosure lives in the board intro.
-    if (seatGeekOutAvailable(show, seatGeekAvailable)) {
-      const seatGeekCta = `${anchor("Check SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-secondary", 'target="_blank" rel="noopener"')}`;
-      ctaHtml = `<div class="cta-group">${ticketmasterCta}${seatGeekCta}</div><p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>`;
-    } else {
-      ctaHtml = ticketmasterCta;
+    const tmAvailable = Boolean(validUrl && show.publishable);
+    const sgAvailable = seatGeekOutAvailable(show, seatGeekAvailable);
+    const seatGeekNote = `<p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>`;
+    if (sgAvailable && tmAvailable) {
+      const seatGeekCta = `${anchor("View tickets on SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}`;
+      const ticketmasterCta = `${anchor("Check Ticketmaster", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-secondary", 'target="_blank" rel="noopener"')}`;
+      ctaHtml = `<div class="cta-group">${seatGeekCta}${ticketmasterCta}</div>${seatGeekNote}`;
+    } else if (sgAvailable) {
+      ctaHtml = `${anchor("View tickets on SeatGeek", `/api/out?${new URLSearchParams({ showId: show.id, provider: "seatgeek" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}${seatGeekNote}`;
+    } else if (tmAvailable) {
+      ctaHtml = `${anchor("View tickets", `/api/out?${new URLSearchParams({ showId: show.id, provider: "ticketmaster" }).toString()}`, "button button-primary", 'target="_blank" rel="noopener"')}`;
     }
   }
 
@@ -905,7 +929,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/affiliate-disclosure") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="affiliateTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="affiliateTitle">Affiliate disclosure</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site. Some ticket links are affiliate links, which means we may earn a commission when you buy. You do not pay extra because of our affiliate relationship.</p><section class="nested-panel"><h2>What affiliate links mean</h2><ul class="check-list"><li>We link to ticket providers and may earn commission when you complete a purchase.</li><li>The commission does not increase your ticket price or fees.</li><li>We disclose which links are affiliate links so you know our relationship.</li><li>Affiliate relationships do not decide which links we show or which providers we recommend.</li></ul></section><section class="nested-panel"><h2>Why it does not weaken our verification</h2><p>Affiliate relationships do not control which links we show. We do not publish fake prices, invented dates, fictional venues, unverified providers, or rankings we cannot support just because we earn a commission. We only show ticket buttons when we can check the artist, event, and destination. If a link cannot be verified, it should not appear as a ticket option.</p></section><section class="nested-panel"><h2>How we handle different link types</h2><ul class="check-list"><li>Official sources: Artist-level pages on official ticketing sites (typically Ticketmaster).</li><li>Resale marketplaces: Verified platforms like SeatGeek and Vivid Seats where sellers list real tickets.</li><li>Affiliate links: Verified destination URLs that may generate commission when you buy.</li><li>Guidance: Buying guides and checklists are informational; we do not sell tickets directly.</li></ul></section><section class="nested-panel"><h2>What you confirm with the provider</h2><ul class="check-list"><li>Final ticket prices, fees, taxes, and delivery charges.</li><li>Seat location, view restrictions, and physical details.</li><li>Inventory and availability of your specific seats.</li><li>Refund, cancellation, transfer, and resale rules.</li><li>Payment security and checkout terms.</li></ul></section><section class="nested-panel"><h2>Before you complete a purchase</h2><p>Read the provider's terms and conditions. Confirm the event date, venue, seat information, final total, delivery method, refund policy, and transfer rules. These details come from the ticket provider, not from TourTicketCompare.</p></section><section class="nested-panel"><h2>How affiliate commissions support us</h2><p>When you click through an affiliate link and complete a purchase, the provider may pay us a commission. This commission helps us maintain the site and continue providing free buying guidance. It does not cost you any extra.</p></section><div class="action-row">${anchor(
+    )}<h1 id="affiliateTitle">Affiliate disclosure</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site. Some ticket links are affiliate links, which means we may earn a commission when you buy. You do not pay extra because of our affiliate relationship.</p><section class="nested-panel"><h2>What affiliate links mean</h2><ul class="check-list"><li>We link to ticket providers and may earn commission when you complete a purchase.</li><li>The commission does not increase your ticket price or fees.</li><li>We disclose which links are affiliate links so you know our relationship.</li><li>Affiliate relationships do not decide which links we show or which providers we recommend.</li></ul></section><section class="nested-panel"><h2>Why it does not weaken our verification</h2><p>Affiliate relationships do not control which links we show. We do not publish fake prices, invented dates, fictional venues, unverified providers, or rankings we cannot support just because we earn a commission. We only show ticket buttons when we can check the artist, event, and destination. If a link cannot be verified, it should not appear as a ticket option.</p></section><section class="nested-panel"><h2>How we handle different link types</h2><ul class="check-list"><li>Official sources: Artist-level and event pages on official ticketing sites (typically Ticketmaster). These are plain links — we have no Ticketmaster affiliate relationship and earn nothing when you use them.</li><li>Resale marketplaces: Verified platforms like SeatGeek and Vivid Seats where sellers list real tickets. These are affiliate links and may generate commission when you buy.</li><li>Guidance: Buying guides and checklists are informational; we do not sell tickets directly.</li></ul></section><section class="nested-panel"><h2>What you confirm with the provider</h2><ul class="check-list"><li>Final ticket prices, fees, taxes, and delivery charges.</li><li>Seat location, view restrictions, and physical details.</li><li>Inventory and availability of your specific seats.</li><li>Refund, cancellation, transfer, and resale rules.</li><li>Payment security and checkout terms.</li></ul></section><section class="nested-panel"><h2>Before you complete a purchase</h2><p>Read the provider's terms and conditions. Confirm the event date, venue, seat information, final total, delivery method, refund policy, and transfer rules. These details come from the ticket provider, not from TourTicketCompare.</p></section><section class="nested-panel"><h2>How affiliate commissions support us</h2><p>When you click through an affiliate link and complete a purchase, the provider may pay us a commission. This commission helps us maintain the site and continue providing free buying guidance. It does not cost you any extra.</p></section><div class="action-row">${anchor(
       "Find an artist",
       "/artists",
       "button button-primary"

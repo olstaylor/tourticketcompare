@@ -1187,6 +1187,18 @@ function eventLinkPublishable(event) {
   return Boolean(event && event.provider_links && event.provider_links.ticketmaster && event.provider_links.ticketmaster.verified === true);
 }
 
+// Per-provider event publishability. Ticketmaster follows the event-level
+// verification_status above. A SeatGeek event CTA may additionally publish on
+// a needs_recheck event when the SeatGeek link carries its own verified
+// provenance (provider_links.seatgeek.verified === true) — the recheck flag
+// tracks the Ticketmaster storefront URL, not the SeatGeek listing. Keep in
+// sync with providerEventPublishable in functions/[[path]].js and
+// functions/api/out.js.
+function providerEventPublishable(event, provider) {
+  if (provider === "seatgeek" && Boolean(event && event.provider_links && event.provider_links.seatgeek && event.provider_links.seatgeek.verified === true)) return true;
+  return eventLinkPublishable(event);
+}
+
 function safeVerifiedEventUrl(value) {
   const raw = String(value || "").trim();
   if (!raw) return null;
@@ -1223,6 +1235,7 @@ function safeSeatGeekEventUrl(value) {
 
 function seatGeekOutAvailable(show, options = {}) {
   if (!options.seatGeekAvailable) return false;
+  if (!providerEventPublishable(show, "seatgeek")) return false;
   const hasValidSeatGeekEventUrl = Boolean(safeSeatGeekEventUrl(show?.seatgeek_url));
   if (!hasValidSeatGeekEventUrl) return false;
   if (show?.provider_ctas && typeof show.provider_ctas === "object") {
@@ -1247,34 +1260,49 @@ function renderShowCard(show, options = {}) {
   } else if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
     const showId = String(show.id || "").trim();
-    if (ticketmasterUrl && showId && eventLinkPublishable(show)) {
-      const params = new URLSearchParams({ showId, provider: "ticketmaster" });
-      const cta = buttonLink("View tickets", `/api/out?${params.toString()}`, "primary");
-      cta.target = "_blank";
-      cta.rel = "noopener";
+    // SeatGeek is the primary CTA (affiliate provider); the verified
+    // Ticketmaster link renders as a plain, unmonetized secondary CTA. Either
+    // renders standalone when the other is unavailable — a SeatGeek CTA no
+    // longer requires a publishable Ticketmaster URL on the same card.
+    const tmAvailable = Boolean(ticketmasterUrl && showId && eventLinkPublishable(show));
+    const sgAvailable = Boolean(showId && seatGeekOutAvailable(show, options));
+    if (tmAvailable || sgAvailable) {
       if (eventVerifiedDate) {
         text(article, "p", `Event last checked: ${eventVerifiedDate}.`, "disclosure-note");
       }
       // The generic provider disclosure lives once in the show-board intro
       // instead of repeating on every card. The SeatGeek note stays per-card
       // (smoke-asserted resale caution).
-      if (seatGeekOutAvailable(show, options)) {
+      const buttons = [];
+      if (sgAvailable) {
         const seatGeekParams = new URLSearchParams({ showId, provider: "seatgeek" });
-        const seatGeekCta = buttonLink("Check SeatGeek", `/api/out?${seatGeekParams.toString()}`, "secondary");
+        const seatGeekCta = buttonLink("View tickets on SeatGeek", `/api/out?${seatGeekParams.toString()}`, "primary");
         seatGeekCta.target = "_blank";
         seatGeekCta.rel = "noopener";
+        buttons.push(seatGeekCta);
+      }
+      if (tmAvailable) {
+        const params = new URLSearchParams({ showId, provider: "ticketmaster" });
+        const cta = buttonLink(sgAvailable ? "Check Ticketmaster" : "View tickets", `/api/out?${params.toString()}`, sgAvailable ? "secondary" : "primary");
+        cta.target = "_blank";
+        cta.rel = "noopener";
+        buttons.push(cta);
+      }
+      if (buttons.length > 1) {
         const ctaGroup = document.createElement("div");
         ctaGroup.className = "cta-group";
-        ctaGroup.append(cta, seatGeekCta);
+        ctaGroup.append(...buttons);
         article.append(ctaGroup);
+      } else {
+        article.append(buttons[0]);
+      }
+      if (sgAvailable) {
         text(
           article,
           "p",
           "SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.",
           "disclosure-note"
         );
-      } else {
-        article.append(cta);
       }
     } else {
       text(article, "p", "No verified ticket link is available for this date.", "disclosure-note");

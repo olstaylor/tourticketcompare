@@ -51,15 +51,6 @@
           "destination_type": "artist_page",
           "display_name": "Ticketmaster Artist Page"
         }
-      },
-      "internal_notes": "Gold-standard artist page template. Includes comprehensive FAQ, multiple related guides, and full verification metadata. Use as reference for other artist pages.",
-      "page_optimization": {
-        "include_demand_section": true,
-        "include_checklist": true,
-        "include_faq": true,
-        "include_related_guides": true,
-        "include_empty_states": true,
-        "mobile_optimized": true
       }
     },
     {
@@ -305,13 +296,13 @@
       "image_alt": "Ed Sheeran artist ticket information",
       "factual_summary": "Ed Sheeran is an English singer-songwriter known for acoustic-led pop, with solo albums and collaborations that have reached audiences worldwide.",
       "why_demand_is_high": "His songs have a broad international audience, and his stadium shows tend to draw heavy interest wherever he plays.",
-      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
+      "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified.",
       "seo_title": "Ed Sheeran Ticket Links & Buying Guidance | TourTicketCompare",
       "meta_description": "Review Ed Sheeran ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
       "faq": [
         {
-          "question": "Why are Ed Sheeran ticket buttons not shown yet?",
-          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+          "question": "Does a verified link confirm current prices or availability?",
+          "answer": "No. Verified means the destination link was checked. Current prices, fees, and availability are confirmed by the ticket provider at checkout."
         },
         {
           "question": "Does TourTicketCompare publish live Ed Sheeran ticket prices?",
@@ -481,13 +472,13 @@
       "image_alt": "Summer Walker artist ticket information",
       "factual_summary": "Summer Walker is an American R&B singer-songwriter. Ticketmaster's artist record lists upcoming North American tour dates.",
       "why_demand_is_high": "She has a steady R&B following, and her tour dates are concentrated in major markets.",
-      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
+      "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified.",
       "seo_title": "Summer Walker Ticket Links & Buying Guidance | TourTicketCompare",
       "meta_description": "Review Summer Walker ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
       "faq": [
         {
-          "question": "Why are Summer Walker ticket buttons not shown yet?",
-          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+          "question": "Does a verified link confirm current prices or availability?",
+          "answer": "No. Verified means the destination link was checked. Current prices, fees, and availability are confirmed by the ticket provider at checkout."
         },
         {
           "question": "Does TourTicketCompare publish live Summer Walker ticket prices?",
@@ -518,13 +509,13 @@
       "image_alt": "ROSALÍA artist ticket information",
       "factual_summary": "ROSALÍA is a Spanish singer-songwriter from Barcelona known for blending flamenco with pop, urban, and electronic styles. Ticketmaster's artist record lists upcoming live dates.",
       "why_demand_is_high": "Her music has a broad international audience, and her live dates are concentrated in major markets.",
-      "ticket_buying_notes": "This artist page is under review. We do not show provider buttons until destination checks are complete, and event-specific links appear only after each date and ticket destination has been verified.",
+      "ticket_buying_notes": "Check current availability and final pricing directly on the ticket provider site. Event-specific links appear on this page only when the date and destination have been verified.",
       "seo_title": "ROSALÍA Ticket Links & Buying Guidance | TourTicketCompare",
       "meta_description": "Review ROSALÍA ticket-link status and buying guidance. No invented dates, prices, or unverified provider buttons.",
       "faq": [
         {
-          "question": "Why are ROSALÍA ticket buttons not shown yet?",
-          "answer": "This page is under review. We only show provider buttons after the destination has been checked and approved for publication."
+          "question": "Does a verified link confirm current prices or availability?",
+          "answer": "No. Verified means the destination link was checked. Current prices, fees, and availability are confirmed by the ticket provider at checkout."
         },
         {
           "question": "Does TourTicketCompare publish live ROSALÍA ticket prices?",

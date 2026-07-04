@@ -82,7 +82,16 @@ Implementation sequence (one PR each, in order):
 Populating registry IDs is a human verification task (one-time per artist) —
 see `docs/PROVIDER_SYNC.md` → "The provider identity registry".
 
-_(No active engineering priorities beyond the operational items above. The remaining `#174` Phase B and `#176` deletions are "only if it fits cleanly" judgment calls.)_
+### 6. Blank `tour_name`/`event_name` recurrence on automation-landed events (found 2026-07-04 read-only audit)
+
+The daily `tm-new-shows-pr.yml` automation (item 5, step 3) intentionally leaves `tour_name` blank on newly-discovered shows for human verification. A 2026-07-04 audit found **44 such events across 7 artists are already in the live, CTA-eligible `machine_high_confidence` state** (not `needs_recheck`) with both `tour_name` and `event_name` blank: ariana-grande 14, charli-xcx 11, harry-styles 9, rosalia 5, bts 2, summer-walker 2, jay-z 1. `charli-xcx` and `rosalia` in particular went from 0 documented events to 11 and 6 live events respectively without a status-doc update. See `PROJECT_STATUS.md` → Active risks for full detail.
+
+Needed:
+1. Owner-supplied real tour names for these 44+ events (never infer from URL slugs — `SAFE_PUBLISHING_RULES.md`), following the same process as the original #172 fixes (Olivia Rodrigo, Bruno Mars, Shakira, Ed Sheeran, Summer Walker).
+2. Investigate whether newly-discovered rows should default to `needs_recheck` (CTA-suppressed) rather than `machine_high_confidence` until a human fills in `tour_name` — the current behavior lets a blank-content event go live before the human review step the automation was designed to require.
+3. Already fixed in the audit pass (2026-07-04, small scoped edits, no data invented): `ed-sheeran`/`summer-walker`/`rosalia` `catalog.json` `ticket_buying_notes` and FAQ copy was still saying "we do not show provider buttons yet" directly beside their live buttons — corrected to the same copy already used by `olivia-rodrigo`/`bruno-mars`. Also removed two unused internal-only fields (`internal_notes`, `page_optimization`) that were shipping in the public `beyonce` catalog record, and deleted an orphaned diagnostic script (`scripts/check-route-html.mjs`, superseded by `scripts/verify-production-route-html.mjs`, unreferenced anywhere).
+
+_(Remaining `#174` Phase B and `#176` deletions are "only if it fits cleanly" judgment calls. Item 6 above is the only open engineering priority as of 2026-07-04.)_
 
 ## Recently completed
 

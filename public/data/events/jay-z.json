@@ -162,7 +162,7 @@
     "id": "tm-jay-z-2026-inglewood-vvg1iz_gncu5jv",
     "artist_slug": "jay-z",
     "artist_name": "JAY-Z",
-    "event_name": "",
+    "event_name": "JAY-Z30",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "SoFi Stadium",
@@ -174,15 +174,15 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-23-2026/event/0A0064C8CED8B734",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A0064C8CED8B734",
         "discovery_event_id": "vvG1IZ_GNCU5jV",
         "url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-23-2026/event/0A0064C8CED8B734",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-06",
         "availability_status": "not_checked"
       },
       "seatgeek": {

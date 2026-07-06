@@ -1098,7 +1098,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       .join("");
     return `<main id="mainContent"><section class="content-page comparison-hub" aria-labelledby="compareTitle">${renderBreadcrumbHtml(
       route
-    )}<section class="nested-panel"><h1 id="compareTitle">Compare Concert Ticket Prices</h1><p class="lead">Compare concert ticket prices across trusted ticket sites. Tour Ticket Compare helps fans find verified ticket options for major tours, compare available prices where possible, and check final fees before buying. Browse by artist, city, venue or date to find ticket links from trusted providers in one place.</p><div class="action-row">${anchor(
+    )}<section class="nested-panel"><h1 id="compareTitle">Compare Concert Ticket Prices</h1><p class="lead">Compare concert ticket prices across trusted ticket sites. Tour Ticket Compare helps fans find verified ticket options for major tours, open checked provider destinations and compare final checkout totals yourself on the provider sites, and check final fees before buying. Browse by artist, city, venue or date to find ticket links from trusted providers in one place.</p><div class="action-row">${anchor(
       "Browse concerts",
       "#current-events",
       "button button-primary"

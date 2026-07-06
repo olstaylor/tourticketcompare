@@ -1,6 +1,24 @@
 // Shared route metadata used by functions/[[path]].js (Pages Functions).
 // Edit here; do not duplicate in the consumer.
 
+// Canonical production host. Canonicals, og:url, JSON-LD, and sitemap/llms.txt
+// URLs must always reference the apex host — robots.txt already hardcodes it,
+// and a request on www must not emit www canonicals. Preview deploys
+// (*.pages.dev) and local dev keep their own origin so links stay
+// self-referencing.
+export const CANONICAL_HOST = "tourticketcompare.com";
+export const CANONICAL_ORIGIN = `https://${CANONICAL_HOST}`;
+
+export function canonicalOrigin(origin) {
+  try {
+    const host = new URL(origin).hostname.toLowerCase();
+    if (host === CANONICAL_HOST || host.endsWith(`.${CANONICAL_HOST}`)) return CANONICAL_ORIGIN;
+  } catch (error) {
+    // fall through to the request origin
+  }
+  return origin;
+}
+
 export const TRUST_ROUTES = {
   "/": {
     title: "Find Verified Ticket Options for Major Tours | TourTicketCompare",

@@ -1,4 +1,4 @@
-import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS } from "./_route-metadata.js";
+import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS, CANONICAL_HOST, canonicalOrigin } from "./_route-metadata.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -1067,6 +1067,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
+  origin = canonicalOrigin(origin);
   const canonicalUrl = `${origin}${route.path}`;
   const robots = route.indexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
@@ -1345,6 +1346,15 @@ function renderNotFoundHtml(html, pathname, origin) {
 export async function onRequest(context) {
   const { request, env, next } = context;
   const url = new URL(request.url);
+
+  // Safety net for www→apex host normalization; if a Cloudflare edge redirect
+  // rule exists it fires before this code is reached.
+  if (url.hostname === `www.${CANONICAL_HOST}`) {
+    const apexUrl = new URL(url);
+    apexUrl.hostname = CANONICAL_HOST;
+    return Response.redirect(apexUrl.toString(), 301);
+  }
+
   const pathname = normalizePath(url.pathname);
 
   if (RESERVED_PREFIXES.some((prefix) => pathname.startsWith(prefix)) || RESERVED_FILES.has(pathname)) return next();

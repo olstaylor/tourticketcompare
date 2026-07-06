@@ -47,7 +47,15 @@ The event-level SeatGeek discovery tooling is now operational and wired in:
 `seatgeek:self-test`, plus the `SeatGeek Discovery Proposal` dispatch workflow.
 Runbook: `docs/SEATGEEK_DISCOVERY.md`.
 
-Coverage as of 2026-06-16: **234/339 events** carry a stored `seatgeek_url`;
+Coverage as of 2026-07-06: **262/402 events** carry a stored `seatgeek_url`.
+A credentialed run on 2026-07-06 applied 28 event-level URLs (charli-xcx 11 —
+now full event coverage, ariana-grande 10, bts 3, summer-walker 2, rosalia 1,
+jay-z 1) after the owner confirmed verification of the underlying
+automation-landed events; the same run re-confirmed zero SeatGeek candidates
+for the 87 Ticketmaster-verified events still uncovered (European/non-US legs
+not listed on SeatGeek — structural). See
+`docs/SEATGEEK_CANDIDATES_PENDING_EVENT_REVIEW.md`. Earlier snapshot
+(2026-06-16): **234/339 events** carried a stored `seatgeek_url`;
 105 do not (`bad-bunny` has none; `summer-walker` is now partial — 6/10 added
 via PR #282; `ariana-grande`, `morgan-wallen`, `olivia-rodrigo`, `bruno-mars`,
 `shakira` are partial). Repeated proposal runs have already harvested the
@@ -82,7 +90,9 @@ Implementation sequence (one PR each, in order):
 Populating registry IDs is a human verification task (one-time per artist) —
 see `docs/PROVIDER_SYNC.md` → "The provider identity registry".
 
-### 6. Blank `tour_name`/`event_name` recurrence on automation-landed events (found 2026-07-04 read-only audit)
+### 6. Blank `tour_name`/`event_name` recurrence on automation-landed events (found 2026-07-04; titles backfilled 2026-07-06)
+
+**Update 2026-07-06 (owner-directed):** 62 of the 63 blank `tour_name` events and all 63 blank `event_name`s were populated from the Ticketmaster Discovery API listing titles (queried by stored `ticketmaster_discovery_event_id`, never inferred from URL slugs), cross-checked against official announcements (Live Nation/venue listings, published tour itineraries). Remaining open: (a) the JAY-Z Inglewood "JAY-Z30" anniversary one-off has no official tour name — needs an owner label (the Yankee Stadium rows use "JAY-Z Yankee Stadium 2026"); (b) sub-item 2 below (whether automation-landed rows should default to `needs_recheck` until titles are reviewed) is still an open process question. Original finding:
 
 The daily `tm-new-shows-pr.yml` automation (item 5, step 3) intentionally leaves `tour_name` blank on newly-discovered shows for human verification. A 2026-07-04 audit found **44 such events across 7 artists are already in the live, CTA-eligible `machine_high_confidence` state** (not `needs_recheck`) with both `tour_name` and `event_name` blank: ariana-grande 14, charli-xcx 11, harry-styles 9, rosalia 5, bts 2, summer-walker 2, jay-z 1. `charli-xcx` and `rosalia` in particular went from 0 documented events to 11 and 6 live events respectively without a status-doc update. See `PROJECT_STATUS.md` → Active risks for full detail.
 

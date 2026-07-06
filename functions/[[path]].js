@@ -295,14 +295,38 @@ function breadcrumbSchema(route, origin) {
 }
 
 function artistSchema(route, origin) {
-  const type = route.artist.slug === "bts" ? "MusicGroup" : "Person";
+  const type = route.artist.schema_type === "MusicGroup" || route.artist.slug === "bts" ? "MusicGroup" : "Person";
   return {
     "@type": type,
+    "@id": `${origin}${route.path}#artist`,
     name: route.artist.name,
     url: `${origin}${route.path}`,
     sameAs: route.artist.official_website ? [route.artist.official_website] : undefined,
     description: route.artist.factual_summary
   };
+}
+
+// MusicEvent nodes are emitted only for shows that pass the same publishable
+// gate as the visible show board (verified date + venue + artist; see
+// docs/CONTENT_RULES.md). Never emit offers, prices, or availability — the
+// ticket providers own those.
+function musicEventsSchema(route, origin, events) {
+  const artistId = `${origin}${route.path}#artist`;
+  return futureShowsForArtist(events, route.artist.slug, 6)
+    .filter((show) => show.publishable && show.dateTimeISO && show.venue && show.city)
+    .map((show) => ({
+      "@type": "MusicEvent",
+      name: show.event_name || `${route.artist.name} — ${show.city}`,
+      startDate: show.dateTimeISO,
+      eventStatus: "https://schema.org/EventScheduled",
+      location: {
+        "@type": "Place",
+        name: show.venue,
+        address: { "@type": "PostalAddress", addressLocality: show.city }
+      },
+      performer: { "@id": artistId },
+      url: `${origin}${route.path}`
+    }));
 }
 
 function guideClusterTitle(path) {
@@ -329,10 +353,13 @@ function articleSchema(route, origin) {
   };
 }
 
-function routeSchema(route, origin, guideContent = {}) {
+function routeSchema(route, origin, guideContent = {}, events = []) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
-  if (route.type === "artist") graph.push(artistSchema(route, origin), faqSchema(route));
+  if (route.type === "artist") {
+    graph.push(artistSchema(route, origin), faqSchema(route));
+    if (route.indexable) graph.push(...musicEventsSchema(route, origin, events));
+  }
   if (route.type === "guide") {
     graph.push(articleSchema(route, origin));
     const guideEntry = guideContent[route.path];
@@ -1168,7 +1195,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
-    `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent))}</script>`
+    `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events))}</script>`
   );
   next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
   if (route.path === "/") {

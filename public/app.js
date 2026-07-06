@@ -486,7 +486,7 @@ function buildVerificationDisclosurePanel(artist, shows = []) {
   [
     "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
     "We only show ticket destinations that pass our verification checks.",
-    "We do not display ticket prices or guarantee availability. Final prices, fees, and availability are confirmed by the provider before you pay.",
+    "We do not display ticket prices or guarantee availability. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.",
     "Some links may earn us a commission. That never changes which links we show."
   ].forEach((item) => {
     const li = document.createElement("li");
@@ -567,7 +567,7 @@ function renderProviderButtons(artist, surface) {
     const card = document.createElement("article");
     card.className = "provider-card";
     text(card, "h3", copy.name);
-    text(card, "p", "Provider checkout controls final price, fees, and availability.");
+    text(card, "p", "Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.");
     const params = new URLSearchParams({
       artistSlug: artist.slug,
       provider: providerSlug,
@@ -595,7 +595,7 @@ function renderProviderButtons(artist, surface) {
   text(
     panel,
     "p",
-    "Some links are affiliate links. This does not change your price. Final prices, fees, and availability are confirmed on the ticketing platform.",
+    "Some links are affiliate links. This does not change your price. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.",
     "disclosure-note"
   );
   return panel;
@@ -1000,7 +1000,7 @@ function renderTrustSection() {
   text(panel, "p", "TourTicketCompare is independent and unofficial. We do not sell tickets.");
   text(panel, "p", "We only show ticket destinations that pass our verification checks.");
   text(panel, "p", "Some links may earn us a commission. That never changes which links we show, or the price you pay.");
-  text(panel, "p", "Final prices, fees, and availability are confirmed by the provider.");
+  text(panel, "p", "Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.");
   const links = document.createElement("p");
   links.append(
     document.createTextNode("Learn more: "),
@@ -1683,7 +1683,7 @@ function renderArtist(artist) {
     "artistShowBoard",
     "Verified event links",
     "Each card is one checked event date and links to the ticket page for that exact show when one is available.",
-    "Coverage varies by artist and region. Final prices, fees, availability, and checkout terms are confirmed on the provider site."
+    "Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying."
   );
   section.append(showBoard);
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {

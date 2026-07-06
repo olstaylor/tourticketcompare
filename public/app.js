@@ -1020,11 +1020,11 @@ async function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Find verified ticket links for major tours", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Find checked ticket options for major tours", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
-    "Verified ticket links and buying guidance for major tours. Open the checked provider page for your date and confirm final prices, fees, and availability with the provider.",
+    "Compare ticket options safely before you buy. Open verified provider links and confirm final prices, fees, availability, seat details, and delivery terms on the ticket provider site.",
     "hero-subcopy"
   );
   text(

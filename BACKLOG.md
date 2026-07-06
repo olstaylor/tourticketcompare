@@ -47,7 +47,15 @@ The event-level SeatGeek discovery tooling is now operational and wired in:
 `seatgeek:self-test`, plus the `SeatGeek Discovery Proposal` dispatch workflow.
 Runbook: `docs/SEATGEEK_DISCOVERY.md`.
 
-Coverage as of 2026-06-16: **234/339 events** carry a stored `seatgeek_url`;
+Coverage as of 2026-07-06: **262/402 events** carry a stored `seatgeek_url`.
+A credentialed run on 2026-07-06 applied 28 event-level URLs (charli-xcx 11 —
+now full event coverage, ariana-grande 10, bts 3, summer-walker 2, rosalia 1,
+jay-z 1) after the owner confirmed verification of the underlying
+automation-landed events; the same run re-confirmed zero SeatGeek candidates
+for the 87 Ticketmaster-verified events still uncovered (European/non-US legs
+not listed on SeatGeek — structural). See
+`docs/SEATGEEK_CANDIDATES_PENDING_EVENT_REVIEW.md`. Earlier snapshot
+(2026-06-16): **234/339 events** carried a stored `seatgeek_url`;
 105 do not (`bad-bunny` has none; `summer-walker` is now partial — 6/10 added
 via PR #282; `ariana-grande`, `morgan-wallen`, `olivia-rodrigo`, `bruno-mars`,
 `shakira` are partial). Repeated proposal runs have already harvested the

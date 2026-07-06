@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-07-06T09:16:38.049Z
+Generated: 2026-07-06T10:32:34.111Z
 
 ## Run summary
 
@@ -9,15 +9,15 @@ Generated: 2026-07-06T09:16:38.049Z
 - SeatGeek client secret present: false
 - API access with client ID only: HTTP 200
 - Total events in data: 402
-- Ticketmaster-verified events: 265
-- Events already carrying a valid SeatGeek URL: 234
-- Ticketmaster-verified events already carrying a valid SeatGeek URL: 178
+- Ticketmaster-verified events: 293
+- Events already carrying a valid SeatGeek URL: 262
+- Ticketmaster-verified events already carrying a valid SeatGeek URL: 206
 - Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 87
-- Events selected/logged by this run: 87
-- Events checked by this run: 87
-- API calls made: 435
+- Events selected/logged by this run: 115
+- Events checked by this run: 115
+- API calls made: 575
 - Rate-limit responses: 0
-- URLs added: 0
+- URLs added: 28
 - Events skipped: 87
 - no_candidates_returned: 87
 - rate_limited_not_checked: 0
@@ -33,8 +33,8 @@ Generated: 2026-07-06T09:16:38.049Z
 
 ## Interpretation
 
-- `URLs added: 0` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 234 event(s) already carried valid SeatGeek URLs before this run, including 178 Ticketmaster-verified event(s).
+- `URLs added: 28` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
+- 262 event(s) already carried valid SeatGeek URLs before this run, including 206 Ticketmaster-verified event(s).
 - This run queried only the 87 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
@@ -42,7 +42,36 @@ Generated: 2026-07-06T09:16:38.049Z
 
 This section lists only URLs newly added by this run. Events that already had valid SeatGeek URLs were retained in event data and were not re-listed here.
 
-- None
+| showId | artist | date | city | SeatGeek URL |
+| --- | --- | --- | --- | --- |
+| tm-bts-2026-arlington-z7r9jz1a7ooui | BTS | 2026-08-16 | Arlington | https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-16-8-pm/concert/18009296 |
+| tm-bts-2026-toronto-1avzz_egkiiidcu | BTS | 2026-08-22 | Toronto | https://seatgeek.com/bts-tickets/toronto-canada-rogers-stadium-toronto-2026-08-22-8-pm/concert/18010334 |
+| tm-bts-2026-toronto-1avzz_egkicklrr | BTS | 2026-08-23 | Toronto | https://seatgeek.com/bts-tickets/toronto-canada-rogers-stadium-toronto-2026-08-23-8-pm/concert/18010336 |
+| tm-ariana-grande-2026-atlanta-vvg1zzbsncqoyp | Ariana Grande | 2026-07-06 | Atlanta | https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-06-8-pm/concert/17700803 |
+| tm-ariana-grande-2026-atlanta-vvg1zzbwpxij1b | Ariana Grande | 2026-07-09 | Atlanta | https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-09-8-pm/concert/17724144 |
+| tm-ariana-grande-2026-brooklyn-1ayzkg_gkds30nd | Ariana Grande | 2026-07-13 | Brooklyn | https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-13-8-pm/concert/17700819 |
+| tm-ariana-grande-2026-brooklyn-1ayzkg_gkdvkvnt | Ariana Grande | 2026-07-16 | Brooklyn | https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-16-8-pm/concert/17700783 |
+| tm-ariana-grande-2026-brooklyn-1ayzkgpfavfze27 | Ariana Grande | 2026-07-19 | Brooklyn | https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-19-8-pm/concert/17724146 |
+| tm-ariana-grande-2026-boston-vv1a8vn1agacw-67 | Ariana Grande | 2026-07-25 | Boston | https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-25-8-pm/concert/17724148 |
+| tm-ariana-grande-2026-montreal-1aszkg_gkdqixil | Ariana Grande | 2026-07-28 | Montreal | https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-28-8-pm/concert/17700815 |
+| tm-ariana-grande-2026-montreal-1aszkg_gkdrmecg | Ariana Grande | 2026-07-31 | Montreal | https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151 |
+| tm-ariana-grande-2026-chicago-vv1a7zkg_gkdqbxs4 | Ariana Grande | 2026-08-03 | Chicago | https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811 |
+| tm-ariana-grande-2026-chicago-vv1a7zkgpgkecew3e | Ariana Grande | 2026-08-06 | Chicago | https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381 |
+| tm-jay-z-2026-inglewood-vvg1iz_gncu5jv | JAY-Z | 2026-10-23 | Inglewood | https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-23-8-pm/concert/18296599 |
+| tm-charli-xcx-2026-philadelphia-17gzv0g6gp0_67j | Charli xcx | 2026-09-11 | Philadelphia | https://seatgeek.com/charli-xcx-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-09-11-8-pm/concert/18292509 |
+| tm-charli-xcx-2026-brooklyn-17gzv0g6g9lbbzt | Charli xcx | 2026-09-14 | Brooklyn | https://seatgeek.com/charli-xcx-tickets/brooklyn-new-york-barclays-center-2026-09-14-7-30-pm/concert/18292511 |
+| tm-charli-xcx-2026-brooklyn-17gzv0g6g9lhqy5 | Charli xcx | 2026-09-15 | Brooklyn | https://seatgeek.com/charli-xcx-tickets/brooklyn-new-york-barclays-center-2026-09-15-7-30-pm/concert/18292510 |
+| tm-charli-xcx-2026-toronto-177zv0g6gkluljm | Charli xcx | 2026-09-21 | Toronto | https://seatgeek.com/charli-xcx-tickets/toronto-canada-scotiabank-arena-2026-09-21-7-30-pm/concert/18292530 |
+| tm-charli-xcx-2026-boston-vvg17z_gpmbifj | Charli xcx | 2026-09-24 | Boston | https://seatgeek.com/charli-xcx-tickets/boston-massachusetts-td-garden-2026-09-24-8-pm/concert/18292514 |
+| tm-charli-xcx-2026-washington-17a8v0g6gknsol1 | Charli xcx | 2026-09-28 | Washington | https://seatgeek.com/charli-xcx-tickets/washington-district-of-columbia-capital-one-arena-2026-09-28-7-30-pm/concert/18292512 |
+| tm-charli-xcx-2026-atlanta-vvg1zz_g99-nfd | Charli xcx | 2026-10-06 | Atlanta | https://seatgeek.com/charli-xcx-tickets/atlanta-georgia-state-farm-arena-1-2026-10-06-8-pm/concert/18292513 |
+| tm-charli-xcx-2026-san-diego-vvg1iz_gpnxmrx | Charli xcx | 2026-10-14 | San Diego | https://seatgeek.com/charli-xcx-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-14-8-pm/concert/18292521 |
+| tm-charli-xcx-2026-inglewood-vvg10z_g9r7nph | Charli xcx | 2026-10-17 | Inglewood | https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-17-8-pm/concert/18292522 |
+| tm-charli-xcx-2026-inglewood-vvg10z_g9gehi7 | Charli xcx | 2026-10-18 | Inglewood | https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-18-8-pm/concert/18292523 |
+| tm-charli-xcx-2026-glendale-17k8v0g6g9pu_yt | Charli xcx | 2026-10-21 | Glendale | https://seatgeek.com/charli-xcx-tickets/glendale-arizona-desert-diamond-arena-2026-10-21-8-pm/concert/18292524 |
+| tm-rosalia-2026-oakland-g5vyzbumkyr1f | ROSALÍA | 2026-07-06 | Oakland | https://seatgeek.com/rosalia-tickets/oakland-california-oakland-arena-2026-07-06-8-30-pm/concert/17943520 |
+| tm-summer-walker-2026-bristow-17a8v0g6urtwfpk | Summer Walker | 2026-09-19 | Bristow | https://seatgeek.com/summer-walker-tickets/bristow-virginia-jiffy-lube-live-2026-09-19-5-pm/concert/18331559 |
+| tm-summer-walker-2026-chicago-vvg18z_uroiect | Summer Walker | 2026-10-16 | Chicago | https://seatgeek.com/summer-walker-tickets/chicago-illinois-credit-union-1-arena-at-uic-2026-10-16-7-30-pm/concert/18328041 |
 
 ## Events skipped
 

@@ -833,14 +833,14 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
         surface
       });
       const verificationNote = providerVerificationNote(item);
-      return `<article class="provider-card"><h3>${escapeHtml(displayName)}</h3><p>Provider checkout controls final price, fees, and availability.</p>${anchor(
+      return `<article class="provider-card"><h3>${escapeHtml(displayName)}</h3><p>Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p>${anchor(
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
-  return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">These links go to provider artist pages. Event-specific buttons appear only on verified show cards.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Some links are affiliate links. This does not change your price. Final prices, fees, and availability are confirmed on the ticketing platform.</p></section>`;
+  return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">These links go to provider artist pages. Event-specific buttons appear only on verified show cards.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Some links are affiliate links. This does not change your price. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p></section>`;
 }
 
 function formatVerificationDate(value) {
@@ -861,7 +861,7 @@ function renderVerificationDisclosure(artist, shows = []) {
   const lines = [
     "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
     "We only show ticket destinations that pass our verification checks.",
-    "We do not display ticket prices or guarantee availability. Final prices, fees, and availability are confirmed by the provider before you pay.",
+    "We do not display ticket prices or guarantee availability. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.",
     "Some links may earn us a commission. That never changes which links we show."
   ];
   const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
@@ -1088,7 +1088,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable)).join("")
     : renderShowBoardEmptyStateHtml(artistName);
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card is one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card is one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -1318,7 +1318,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "View all guides",
     "/guides",
     "button button-secondary"
-  )}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">Trust &amp; transparency</h2></div><div class="nested-panel"><p>TourTicketCompare is independent and unofficial. We do not sell tickets.</p><p>We only show ticket destinations that pass our verification checks.</p><p>Some links may earn us a commission. That never changes which links we show, or the price you pay.</p><p>Final prices, fees, and availability are confirmed by the provider.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
+  )}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">Trust &amp; transparency</h2></div><div class="nested-panel"><p>TourTicketCompare is independent and unofficial. We do not sell tickets.</p><p>We only show ticket destinations that pass our verification checks.</p><p>Some links may earn us a commission. That never changes which links we show, or the price you pay.</p><p>Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {

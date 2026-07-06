@@ -442,7 +442,6 @@ assertAbsent(
     "from £",
     "from $",
     "from €",
-    "MusicEvent",
     "ticketmaster.evyy.net",
     "https://seatgeek.pxf.io/cowboycarter",
     "seatgeek.pxf.io/cowboycarter",
@@ -450,6 +449,22 @@ assertAbsent(
     "General SeatGeek search"
   ],
   "public files"
+);
+// MusicEvent JSON-LD is allowed only inside the gated schema builder in
+// functions/[[path]].js, which must filter shows on the same publishable gate
+// as the visible show board before emitting nodes. Everywhere else the term
+// stays banned so unverified event schema cannot creep into client JS or data.
+const musicEventScanFiles = publicAffiliateUrlFiles.filter((file) => file !== "functions/[[path]].js");
+assertAbsent(
+  (await Promise.all(musicEventScanFiles.map((file) => read(file)))).join("\n"),
+  ["MusicEvent"],
+  "public files outside the gated schema builder"
+);
+assert(
+  /futureShowsForArtist\(events, route\.artist\.slug, 6\)\s*\.filter\(\(show\) => show\.publishable/.test(
+    await read("functions/[[path]].js")
+  ),
+  "[[path]].js MusicEvent schema must gate on show.publishable"
 );
 assert(!/innerHTML|insertAdjacentHTML|document\.write/.test(await read("public/app.js")), "app.js must avoid unsafe HTML injection");
 

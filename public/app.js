@@ -366,9 +366,9 @@ function artistCardStatus(artist, events) {
     return {
       pending: false,
       badgeClass: "status-badge",
-      badge: "Verified event links",
-      detail: "Event-specific ticket links available",
-      cardStatus: "Event-specific ticket links are available on this artist page.",
+      badge: "Checked ticket options",
+      detail: "Verified event ticket links available",
+      cardStatus: "Verified event ticket links are available on this artist page.",
       ctaLabel: "View ticket links",
       ctaVariant: "primary"
     };
@@ -378,9 +378,9 @@ function artistCardStatus(artist, events) {
     return {
       pending: false,
       badgeClass: "status-badge",
-      badge: "Verified artist page",
-      detail: "Provider artist page available",
-      cardStatus: "Provider artist page available. Event-specific links appear when verified.",
+      badge: "Artist-level provider page",
+      detail: "No event-specific ticket link verified yet",
+      cardStatus: "Artist-level provider page available. No event-specific ticket link verified yet.",
       ctaLabel: "View artist page",
       ctaVariant: "primary"
     };
@@ -1076,8 +1076,8 @@ function renderArtistStatusLegend() {
   legend.className = "artist-status-legend";
   legend.setAttribute("aria-label", "Artist card status legend");
   const items = [
-    ["status-badge", "Verified event links", "Event-specific ticket links available"],
-    ["status-badge", "Verified artist page", "Provider artist page available"],
+    ["status-badge", "Checked ticket options", "Verified event ticket links available"],
+    ["status-badge", "Artist-level provider page", "No event-specific ticket link verified yet"],
     ["status-badge status-badge-muted", "Buying guidance", "Event links added after review"]
   ];
   items.forEach(([badgeClass, badge, detail]) => {

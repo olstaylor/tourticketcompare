@@ -1076,12 +1076,12 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 }
 
 function renderShowBoardEmptyStateHtml(artistName = "") {
-  const safeName = escapeHtml(String(artistName || "").trim() || "these");
-  return `<div class="empty-state"><h3>No verified ${safeName} ticket links yet</h3><p class="muted">We're not listing any upcoming ${safeName} dates right now because we haven't verified an event-specific ticket destination. We'll only show ticket links when there's a confirmed source we can check.</p><div class="action-row">${anchor(
+  const safeName = escapeHtml(String(artistName || "").trim() || "these artists");
+  return `<div class="empty-state"><h3>No event-specific ticket links verified yet</h3><p class="muted">We are not publishing upcoming ${safeName} dates or event-specific ticket buttons until the ticket destination has been checked. If an artist-level provider page is available, you can use it below to check the provider directly.</p><p class="muted">TourTicketCompare does not publish unverified dates or fake prices. While you wait, use the buying guides to compare final checkout totals, fees, delivery terms, and resale protections safely.</p><div class="action-row">${anchor(
     "Browse artists with ticket links",
     "/artists",
     "button button-secondary"
-  )}${anchor("Read ticket buying guide", "/guides", "button button-secondary")}</div></div>`;
+  )}${anchor("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary")}</div></div>`;
 }
 
 function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false) {

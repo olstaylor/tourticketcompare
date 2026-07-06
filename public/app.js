@@ -1370,21 +1370,27 @@ function safeShowList(data) {
 }
 
 function renderShowBoardEmptyState(artistName = "") {
-  const name = String(artistName || "").trim() || "these";
+  const name = String(artistName || "").trim() || "these artists";
   const wrap = document.createElement("div");
   wrap.className = "empty-state";
-  text(wrap, "h3", `No verified ${name} ticket links yet`);
+  text(wrap, "h3", "No event-specific ticket links verified yet");
   text(
     wrap,
     "p",
-    `We're not listing any upcoming ${name} dates right now because we haven't verified an event-specific ticket destination. We'll only show ticket links when there's a confirmed source we can check.`,
+    `We are not publishing upcoming ${name} dates or event-specific ticket buttons until the ticket destination has been checked. If an artist-level provider page is available, you can use it below to check the provider directly.`,
+    "muted"
+  );
+  text(
+    wrap,
+    "p",
+    "TourTicketCompare does not publish unverified dates or fake prices. While you wait, use the buying guides to compare final checkout totals, fees, delivery terms, and resale protections safely.",
     "muted"
   );
   const actions = document.createElement("div");
   actions.className = "action-row";
   actions.append(
     buttonLink("Browse artists with ticket links", "/artists", "secondary"),
-    buttonLink("Read ticket buying guide", "/guides", "secondary")
+    buttonLink("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "secondary")
   );
   wrap.append(actions);
   return wrap;

@@ -1317,13 +1317,13 @@ function renderShowCard(show, options = {}) {
       // stay per-card (smoke-asserted resale caution).
       const ctaSpecs = [];
       if (sgAvailable) {
-        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "View tickets on SeatGeek", secondaryLabel: "Check SeatGeek" });
+        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "Check latest price on SeatGeek", secondaryLabel: "Check SeatGeek" });
       }
       if (vsAvailable) {
-        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "View tickets on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "Check latest price on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
       }
       if (tmAvailable) {
-        ctaSpecs.push({ provider: "ticketmaster", primaryLabel: ctaSpecs.length ? "Check Ticketmaster" : "View tickets", secondaryLabel: "Check Ticketmaster" });
+        ctaSpecs.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
       }
       const buttons = ctaSpecs.map((spec, index) => {
         const params = new URLSearchParams({ showId, provider: spec.provider });

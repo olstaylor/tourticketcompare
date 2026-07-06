@@ -1,4 +1,4 @@
-import { TRUST_ROUTES, GUIDE_ROUTES } from "./_route-metadata.js";
+import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -62,13 +62,16 @@ async function loadIndexableArtists(env) {
 
 export async function onRequestGet({ request, env }) {
   const requestUrl = new URL(request.url);
-  const origin = `${requestUrl.protocol}//${requestUrl.host}`;
-  const staticEntries = STATIC_INDEXABLE_PATHS.map((path) => ({
-    path,
-    lastmod: STATIC_LASTMOD,
-    changefreq: "monthly",
-    priority: path === "/" ? "1.0" : "0.6"
-  }));
+  const origin = canonicalOrigin(`${requestUrl.protocol}//${requestUrl.host}`);
+  const staticEntries = STATIC_INDEXABLE_PATHS.map((path) => {
+    const guideLastmod = GUIDE_ROUTES[path]?.lastmod;
+    return {
+      path,
+      lastmod: ISO_DATE.test(String(guideLastmod || "")) ? guideLastmod : STATIC_LASTMOD,
+      changefreq: "monthly",
+      priority: path === "/" ? "1.0" : "0.6"
+    };
+  });
   const artistEntries = (await loadIndexableArtists(env)).map(({ slug, lastmod }) => ({
     path: `/artists/${slug}`,
     lastmod,

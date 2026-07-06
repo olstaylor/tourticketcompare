@@ -1,4 +1,4 @@
-import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS } from "./_route-metadata.js";
+import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS, CANONICAL_HOST, canonicalOrigin } from "./_route-metadata.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -233,6 +233,40 @@ function artistFaqEntries(artist) {
   return custom.length ? custom : genericArtistFaq(artist.name);
 }
 
+// Guides author their FAQ as a visible "FAQ" section in guides-content.json:
+// bold questions followed by plain-paragraph answers. Parse that section so
+// the same content is exposed as FAQPage JSON-LD without keeping a second
+// copy that could drift from the rendered page.
+function guideFaqEntries(guideEntry) {
+  const sections = Array.isArray(guideEntry?.sections) ? guideEntry.sections : [];
+  const faqSection = sections.find((section) => /^faq\b/i.test(String(section?.title || "").trim()));
+  if (!faqSection) return [];
+  const entries = [];
+  let current = null;
+  for (const block of String(faqSection.content || "").split(/\n{2,}/)) {
+    const text = block.trim();
+    const question = text.match(/^\*\*(.+?)\*\*$/);
+    if (question) {
+      current = { question: question[1], answers: [] };
+      entries.push(current);
+    } else if (current && text) {
+      current.answers.push(text);
+    }
+  }
+  return entries.filter((entry) => entry.answers.length).map((entry) => [entry.question, entry.answers.join(" ")]);
+}
+
+function faqPageSchema(questions) {
+  return {
+    "@type": "FAQPage",
+    mainEntity: questions.map(([name, answer]) => ({
+      "@type": "Question",
+      name,
+      acceptedAnswer: { "@type": "Answer", text: answer }
+    }))
+  };
+}
+
 function faqSchema(route) {
   const questions =
     route.type === "artist"
@@ -244,14 +278,7 @@ function faqSchema(route) {
           ["Can final prices change?", "Yes. External ticketing sites set their own prices, fees, availability, and checkout terms."]
         ];
 
-  return {
-    "@type": "FAQPage",
-    mainEntity: questions.map(([name, answer]) => ({
-      "@type": "Question",
-      name,
-      acceptedAnswer: { "@type": "Answer", text: answer }
-    }))
-  };
+  return faqPageSchema(questions);
 }
 
 function breadcrumbSchema(route, origin) {
@@ -268,9 +295,10 @@ function breadcrumbSchema(route, origin) {
 }
 
 function artistSchema(route, origin) {
-  const type = route.artist.slug === "bts" ? "MusicGroup" : "Person";
+  const type = route.artist.schema_type === "MusicGroup" || route.artist.slug === "bts" ? "MusicGroup" : "Person";
   return {
     "@type": type,
+    "@id": `${origin}${route.path}#artist`,
     name: route.artist.name,
     url: `${origin}${route.path}`,
     sameAs: route.artist.official_website ? [route.artist.official_website] : undefined,
@@ -278,25 +306,73 @@ function artistSchema(route, origin) {
   };
 }
 
+// MusicEvent nodes are emitted only for shows that pass the same publishable
+// gate as the visible show board (verified date + venue + artist; see
+// docs/CONTENT_RULES.md). Never emit offers, prices, or availability — the
+// ticket providers own those.
+function musicEventsSchema(route, origin, events) {
+  const artistId = `${origin}${route.path}#artist`;
+  return futureShowsForArtist(events, route.artist.slug, 6)
+    .filter((show) => show.publishable && show.dateTimeISO && show.venue && show.city)
+    .map((show) => ({
+      "@type": "MusicEvent",
+      name: show.event_name || `${route.artist.name} — ${show.city}`,
+      startDate: show.dateTimeISO,
+      eventStatus: "https://schema.org/EventScheduled",
+      location: {
+        "@type": "Place",
+        name: show.venue,
+        address: { "@type": "PostalAddress", addressLocality: show.city }
+      },
+      performer: { "@id": artistId },
+      url: `${origin}${route.path}`
+    }));
+}
+
+function guideClusterTitle(path) {
+  const cluster = GUIDE_CLUSTERS.find((entry) => entry.slugs.includes(path));
+  return cluster ? cluster.title : undefined;
+}
+
 function articleSchema(route, origin) {
+  const organization = {
+    "@type": "Organization",
+    name: "TourTicketCompare",
+    url: `${origin}/`
+  };
   return {
     "@type": "Article",
     headline: route.title.replace(" | TourTicketCompare", ""),
     description: route.description,
     mainEntityOfPage: `${origin}${route.path}`,
-    publisher: {
-      "@type": "Organization",
-      name: "TourTicketCompare",
-      url: `${origin}/`
-    }
+    author: organization,
+    publisher: organization,
+    datePublished: route.datePublished || undefined,
+    dateModified: route.lastmod || route.datePublished || undefined,
+    articleSection: guideClusterTitle(route.path)
   };
 }
 
-function routeSchema(route, origin) {
+function routeSchema(route, origin, guideContent = {}, events = []) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
-  if (route.type === "artist") graph.push(artistSchema(route, origin), faqSchema(route));
-  if (route.type === "guide") graph.push(articleSchema(route, origin));
+  if (route.type === "artist") {
+    graph.push(artistSchema(route, origin), faqSchema(route));
+    if (route.indexable) graph.push(...musicEventsSchema(route, origin, events));
+  }
+  if (route.type === "guide") {
+    graph.push(articleSchema(route, origin));
+    const guideEntry = guideContent[route.path];
+    const faqEntries = guideFaqEntries(guideEntry);
+    if (faqEntries.length) graph.push(faqPageSchema(faqEntries));
+    // Emit authored HowTo structured data from guides-content.json. Authored
+    // Article objects are superseded by articleSchema above (avoid duplicates).
+    const authored = guideEntry?.schema;
+    if (authored && typeof authored === "object" && authored["@type"] === "HowTo") {
+      const { "@context": _context, ...howTo } = authored;
+      graph.push(howTo);
+    }
+  }
   if (route.faq) graph.push(faqSchema(route));
   return { "@context": "https://schema.org", "@graph": graph };
 }
@@ -1067,6 +1143,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
+  origin = canonicalOrigin(origin);
   const canonicalUrl = `${origin}${route.path}`;
   const robots = route.indexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
@@ -1113,8 +1190,12 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     `<link rel="canonical" href="${escapeAttr(canonicalUrl)}" />`
   );
   next = next.replace(
+    /<meta\s+property="og:type"\s+content="[^"]*"\s*\/?>/i,
+    `<meta property="og:type" content="${route.type === "guide" ? "article" : "website"}" />`
+  );
+  next = next.replace(
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
-    `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin))}</script>`
+    `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events))}</script>`
   );
   next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
   if (route.path === "/") {
@@ -1345,6 +1426,15 @@ function renderNotFoundHtml(html, pathname, origin) {
 export async function onRequest(context) {
   const { request, env, next } = context;
   const url = new URL(request.url);
+
+  // Safety net for www→apex host normalization; if a Cloudflare edge redirect
+  // rule exists it fires before this code is reached.
+  if (url.hostname === `www.${CANONICAL_HOST}`) {
+    const apexUrl = new URL(url);
+    apexUrl.hostname = CANONICAL_HOST;
+    return Response.redirect(apexUrl.toString(), 301);
+  }
+
   const pathname = normalizePath(url.pathname);
 
   if (RESERVED_PREFIXES.some((prefix) => pathname.startsWith(prefix)) || RESERVED_FILES.has(pathname)) return next();

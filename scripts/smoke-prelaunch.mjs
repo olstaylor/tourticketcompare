@@ -27,7 +27,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site.";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
@@ -636,6 +636,19 @@ for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt",
 
 const indexHtml = await read("public/index.html");
 assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags");
+// The Google tag (gtag.js) snippet is the only bare inline script; its CSP sha256 hash
+// must stay in sync with the snippet body or browsers will refuse to run it.
+{
+  const inlineScripts = [...indexHtml.matchAll(/<script>([\s\S]*?)<\/script>/g)];
+  assert(inlineScripts.length === 1, "index.html should contain exactly one bare inline script (the Google tag snippet)");
+  assert(inlineScripts[0][1].includes("gtag('config', 'G-Q7R1NQY8YH')"), "index.html inline script should be the Google tag snippet");
+  const { createHash } = await import("node:crypto");
+  const inlineHash = createHash("sha256").update(inlineScripts[0][1], "utf8").digest("base64");
+  assert(
+    EXPECTED_CSP.includes(`'sha256-${inlineHash}'`),
+    `CSP sha256 hash must match the inline Google tag snippet — expected 'sha256-${inlineHash}' in EXPECTED_CSP (update functions/[[path]].js, public/_headers, and EXPECTED_CSP together)`
+  );
+}
 assert(!indexHtml.includes("impact.js"), "index.html must not reference the removed Ticketmaster Impact Publisher Tag (/impact.js)");
 assert(!indexHtml.includes("impactcdn.com"), "index.html must not reference impactcdn.com — the Ticketmaster affiliate tag was removed");
 
@@ -651,6 +664,12 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   assert(csp === EXPECTED_CSP, `${pathname} CSP should match expected value, got: ${csp}`);
   assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
   assert(!csp.includes("impactcdn.com"), `${pathname} CSP must not allow impactcdn.com — the Ticketmaster affiliate tag was removed`);
+
+  // Google tag: every rendered page keeps the shell's gtag.js snippet
+  assert(
+    text.includes('src="https://www.googletagmanager.com/gtag/js?id=G-Q7R1NQY8YH"'),
+    `${pathname} should include the Google tag (gtag.js) loader from the shell <head>`
+  );
 
   // Canonical URL: tag must be present and point to the exact route
   const actualCanonical = extractCanonical(text);

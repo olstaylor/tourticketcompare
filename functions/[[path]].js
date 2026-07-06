@@ -1088,7 +1088,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable)).join("")
     : renderShowBoardEmptyStateHtml(artistName);
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card is one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Final prices, fees, availability, and checkout terms are confirmed on the provider site.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Checked ticket options</h2><p>Each card shows one checked event date. When an event-specific provider link is verified, use it to check the latest price, fees, availability, and ticket terms on the provider site.</p><p class="disclosure-note">Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {

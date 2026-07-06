@@ -83,105 +83,135 @@ export const GUIDE_ROUTES = {
     h1: "How to Compare Concert Ticket Prices Safely",
     description:
       "Compare concert ticket prices the right way: check the final checkout total after fees, match the exact show and seats, and confirm provider terms before you buy.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-17"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Why Ticket Prices Vary Between Sites | TourTicketCompare",
     h1: "Why do prices vary between ticket sites?",
     description:
       "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, delivery, and seller terms.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
     h1: "How do I avoid overpaying for concert tickets?",
     description:
       "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-17"
   },
   "/guides/when-is-the-best-time-to-buy-concert-tickets": {
     title: "When to Buy Concert Tickets | TourTicketCompare",
     h1: "When should I buy concert tickets?",
     description:
       "Learn how to choose when to buy concert tickets by weighing certainty, seat choice, group seating, budget, delivery timing, provider terms, and risk tolerance.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/primary-vs-resale-concert-tickets": {
     title: "Primary vs Resale Concert Tickets | TourTicketCompare",
     h1: "What is the difference between official tickets and resale?",
     description:
       "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/how-to-avoid-ticket-scams": {
     title: "How to Avoid Ticket Scams | TourTicketCompare",
     h1: "How do I avoid ticket scams and fake listings?",
     description:
       "Learn how to spot fraudulent ticket sellers, fake platforms, counterfeit tickets, and scam tactics. Use verified platforms and protect yourself at checkout.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-17"
   },
   "/guides/why-ticket-prices-change": {
     title: "Why Do Concert Ticket Prices Change? | TourTicketCompare",
     h1: "Why do concert ticket prices change?",
     description:
       "Learn why concert ticket totals can change because of onsale demand, provider pricing methods, resale seller decisions, fees, seat details, delivery, and terms.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/ticketmaster-vs-stubhub": {
     title: "Ticketmaster vs StubHub: How to Compare Safely | TourTicketCompare",
     h1: "How should I compare Ticketmaster and StubHub?",
     description:
       "Compare Ticketmaster and StubHub by checking event source, ticket type, final totals, delivery timing, and provider terms before checkout.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/seatgeek-promo-code-guide": {
     title: "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
     h1: "How should I verify a SeatGeek promo code safely?",
     description:
       "Learn how to verify SeatGeek promo-code claims safely by checking eligibility, final checkout totals, fees, and order terms on SeatGeek before purchase.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/concert-ticket-fees-explained": {
     title: "Concert Ticket Fees Explained | TourTicketCompare",
     h1: "What concert ticket fees should I check before buying?",
     description:
       "Understand common concert ticket fee categories and compare final checkout totals safely before you buy.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/ticket-delivery-and-transfer-timing": {
     title: "Ticket Delivery and Transfer Timing Guide | TourTicketCompare",
     h1: "How do ticket delivery and transfer timing affect risk?",
     description:
       "Learn how to check ticket delivery methods and transfer timing so checkout terms match your travel and event plans.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/how-resale-ticket-pricing-works": {
     title: "How Resale Ticket Pricing Works | TourTicketCompare",
     h1: "How does resale ticket pricing work?",
     description:
       "Understand resale ticket pricing by reviewing seller-set prices, fees, seat details, delivery timing, and provider terms before checkout.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/how-to-prepare-for-a-ticket-onsale": {
     title: "How to Prepare for a Concert Ticket Onsale | TourTicketCompare",
     h1: "How do I prepare for a concert ticket onsale?",
     description:
       "Practical pre-onsale and onsale-day routine for major concert tickets, covering presales, account setup, queues, listing checks, and what to do if you miss out.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/how-to-read-a-ticket-listing": {
     title: "How to Read a Concert Ticket Listing | TourTicketCompare",
     h1: "How do I read a concert ticket listing?",
     description:
       "Learn how to read concert ticket listings by checking section, row, seat, listing notes, ticket type, delivery method, and cross-checks before checkout.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   },
   "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
     title: "What to Do if a Concert Is Postponed or Cancelled | TourTicketCompare",
     h1: "What should I do if a concert is postponed or cancelled?",
     description:
       "Learn what to check if a concert is postponed, rescheduled, cancelled, or changed, including provider updates, refunds, transfers, resale rules, and ticket delivery.",
-    fullContent: true
+    fullContent: true,
+    datePublished: "2026-06-11",
+    lastmod: "2026-06-19"
   }
 };
 

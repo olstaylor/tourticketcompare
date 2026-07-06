@@ -1047,7 +1047,11 @@ async function renderHome() {
       target.scrollIntoView({ behavior: "smooth" });
     }
   });
-  actions.append(browseCta, buttonLink("Read buying guides", "/guides", "secondary"));
+  actions.append(
+    buttonLink("Compare concert ticket prices", "/compare-concert-ticket-prices", "primary"),
+    browseCta,
+    buttonLink("Read buying guides", "/guides", "secondary")
+  );
   copy.append(actions);
   hero.append(copy);
 

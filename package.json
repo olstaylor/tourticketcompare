@@ -34,6 +34,7 @@
     "artists:diagnose-ticketmaster": "node scripts/propose-artists.mjs --diagnose-ticketmaster",
     "artists:apply-preview": "node scripts/apply-artists.mjs",
     "guides:validate": "node scripts/validate-guide-routes.mjs",
+    "schema:validate": "node scripts/validate-route-schema.mjs",
     "providers:validate": "node scripts/validate-provider-structure.js",
     "validate:provider-allowlists": "node scripts/validate-provider-allowlists.mjs",
     "providers:identities:validate": "node scripts/validate-provider-identities.mjs",

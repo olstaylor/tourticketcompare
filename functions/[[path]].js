@@ -1054,9 +1054,9 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     const vsAvailable = vividSeatsOutAvailable(show, vividSeatsAvailable);
     const outHref = (provider) => `/api/out?${new URLSearchParams({ showId: show.id, provider }).toString()}`;
     const ctas = [];
-    if (sgAvailable) ctas.push({ provider: "seatgeek", primaryLabel: "View tickets on SeatGeek", secondaryLabel: "Check SeatGeek" });
-    if (vsAvailable) ctas.push({ provider: "vivid-seats", primaryLabel: "View tickets on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
-    if (tmAvailable) ctas.push({ provider: "ticketmaster", primaryLabel: ctas.length ? "Check Ticketmaster" : "View tickets", secondaryLabel: "Check Ticketmaster" });
+    if (sgAvailable) ctas.push({ provider: "seatgeek", primaryLabel: "Check latest price on SeatGeek", secondaryLabel: "Check SeatGeek" });
+    if (vsAvailable) ctas.push({ provider: "vivid-seats", primaryLabel: "Check latest price on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+    if (tmAvailable) ctas.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
     if (ctas.length) {
       const buttons = ctas
         .map((cta, index) => anchor(index === 0 ? cta.primaryLabel : cta.secondaryLabel, outHref(cta.provider), index === 0 ? "button button-primary" : "button button-secondary", 'target="_blank" rel="noopener"'))

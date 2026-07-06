@@ -164,6 +164,30 @@ if (duplicateSitemapPaths.length) {
   ok("sitemap.xml output contains no duplicate <loc> paths");
 }
 
+// 6. llms.txt generation must include every guide route. Drive functions/llms.txt.js
+// directly, mirroring the sitemap drift check above.
+const llmsModule = await import(pathToFileURL(path.join(root, "functions/llms.txt.js")));
+const llmsResponse = await llmsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/llms.txt"),
+  env: sitemapEnv
+});
+const llmsText = await llmsResponse.text();
+const llmsLinkPaths = new Set(
+  [...llmsText.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => {
+    try {
+      return new URL(match[1]).pathname;
+    } catch {
+      return match[1];
+    }
+  })
+);
+const guideRoutesMissingFromLlms = routeSlugs.filter((slug) => !llmsLinkPaths.has(slug));
+if (guideRoutesMissingFromLlms.length) {
+  fail(`llms.txt output missing guide route(s): ${guideRoutesMissingFromLlms.join(", ")}`);
+} else {
+  ok(`llms.txt output includes all ${routeSlugs.length} guide routes`);
+}
+
 if (failures.length) {
   console.error(`\n[validate-guide-routes] ${failures.length} check(s) failed:`);
   for (const message of failures) console.error(`  - ${message}`);

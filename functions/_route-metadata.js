@@ -29,7 +29,7 @@ export const TRUST_ROUTES = {
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices Across Trusted Sites | Tour Ticket Compare",
     description:
-      "Compare concert ticket prices across trusted ticket sites. Find verified ticket links for major tours, check availability by artist, city and date, and confirm final fees before buying.",
+      "Find checked ticket options for major tours, open verified provider destinations, and compare final prices, fees, availability, and ticket terms on provider sites before buying.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }]
   },

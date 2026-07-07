@@ -31,11 +31,5 @@
 /data/artists.json
   Cache-Control: public, max-age=3600
 
-/data/affiliate-routes.json
-  Cache-Control: public, max-age=3600
-
-/data/inventory-model.json
-  Cache-Control: public, max-age=3600
-
 /data/catalog.json
   Cache-Control: public, max-age=1800

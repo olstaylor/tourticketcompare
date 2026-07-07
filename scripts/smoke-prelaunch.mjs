@@ -387,8 +387,6 @@ const publicUiFiles = [
   "public/data/artists.json",
   "public/data/events.json",
   "public/data/events-index.json",
-  "public/data/affiliate-routes.json",
-  "public/data/inventory-model.json",
   "public/data/catalog.json"
 ];
 const publicCopyFiles = [

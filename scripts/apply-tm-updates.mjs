@@ -12,6 +12,8 @@
 //     ticketmaster_event_id is used only when it is Discovery-format):
 //       * date / time  (datetime_iso, timezone)
 //       * venue / city / country
+//       * official listing title (event_name, verbatim Discovery API `name` —
+//         owner-approved 2026-07-07; NOT tour_name, which stays human-gated)
 //       * canonical Ticketmaster URL (refreshed so the /event/<id> slug and the
 //         out.js event-id match stay correct when a date moves)
 //       * last_verified_at bump on touched events
@@ -318,6 +320,16 @@ function computeIntendedUpdates(event, remote) {
     changes.push({ field: 'country', from: clean(event.country), to: remoteCountry });
   }
 
+  // --- official listing title --------------------------------------------------
+  // Verbatim Discovery API event name for this exact event id — provider-sourced
+  // fact, same trust level as venue/date (owner-approved 2026-07-07). tour_name
+  // is never touched here (verification-gated, #172). Cosmetic case/punctuation
+  // differences do not count as a change.
+  const remoteName = clean(data?.name);
+  if (remoteName && normalizeText(remoteName) !== normalizeText(event.event_name)) {
+    changes.push({ field: 'event_name', from: clean(event.event_name), to: remoteName });
+  }
+
   // --- canonical URL refresh (keeps the out.js event-id match valid) ----------
   const refreshedUrl = safeTicketmasterUrl(data?.url, event.ticketmaster_event_id);
   if (refreshedUrl && refreshedUrl !== clean(event.ticketmaster_url)) {
@@ -512,6 +524,17 @@ function runSelfTest() {
   assert('a genuine venue rename IS a change',
     fieldsOf(ev({ venue: 'Old Hall' }), remote({ _embedded: { venues: [{ name: 'New Arena', city: { name: '' }, country: { name: '' } }] } })).includes('venue'));
 
+  // event_name: verbatim listing title sync; cosmetic differences do not count,
+  // tour_name is never produced by computeIntendedUpdates at all.
+  assert('missing event_name is filled from the API listing title',
+    fieldsOf(ev({ event_name: '' }), remote({ name: 'The Eternal Sunshine Tour' })).includes('event_name'));
+  assert('event_name case/punctuation is not a change',
+    !fieldsOf(ev({ event_name: 'BTS WORLD TOUR ARIRANG' }), remote({ name: 'Bts World Tour: Arirang' })).includes('event_name'));
+  assert('a genuine listing retitle IS an event_name change',
+    fieldsOf(ev({ event_name: 'Old Title' }), remote({ name: 'New Title' })).includes('event_name'));
+  assert('computeIntendedUpdates never emits tour_name',
+    !fieldsOf(ev({ event_name: '' }), remote({ name: 'Anything' })).includes('tour_name'));
+
   // timezone: only filled when missing, never rewritten.
   assert('present timezone is not rewritten',
     !fieldsOf(ev({ timezone: 'America/New_York' }), remote({ dates: { start: {}, timezone: 'America/Toronto' } })).includes('timezone'));
@@ -614,7 +637,11 @@ async function main() {
     reviewItems: reviewItems.length,
     errors: errors.length,
     blockedUpdateIds: blockedUpdateIds.length,
-    autoCommitSafe: updates.length > 0 && reviewItems.length === 0 && errors.length === 0 && blockedUpdateIds.length === 0
+    // Updates are only ever applied to events with zero review blockers (see
+    // the per-event branch above), so standing review items on OTHER events —
+    // e.g. the permanently-offsale rows — do not make the applied updates
+    // unsafe. Errors still veto: a run with failed fetches should not commit.
+    autoCommitSafe: updates.length > 0 && errors.length === 0
   };
 
   const report = {

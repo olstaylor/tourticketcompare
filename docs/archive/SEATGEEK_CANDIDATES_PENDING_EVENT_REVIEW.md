@@ -1,5 +1,7 @@
 # SeatGeek event-URL candidates awaiting event verification — RESOLVED 2026-07-06
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-07-07.)
+
 **Resolved:** the owner confirmed verification of the 28 underlying
 automation-landed events on 2026-07-06 (in-session). Their
 `provider_links.ticketmaster.verified` flags were set to `true`

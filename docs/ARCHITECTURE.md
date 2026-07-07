@@ -52,7 +52,6 @@ functions/            Cloudflare Pages Functions
     health.js         GET /api/health — binding presence check, never exposes secrets
     shows.js          GET /api/shows — event metadata + optional provider price scaffolding
     out.js            GET/POST /api/out — verified outbound redirect (affiliate-safe)
-    click.js          POST /api/click — legacy click event endpoint
     signup.js         POST /api/signup — email demand capture to D1
     analytics.js      POST /api/analytics — first-party event analytics to D1
     impact/
@@ -64,7 +63,6 @@ functions/            Cloudflare Pages Functions
 scripts/
   smoke-prelaunch.mjs           Pre-deploy smoke checks
   validate-events.py            Validates events.json against production rules
-  csv-to-events.py              Converts CSV input to events.json format
   partition-events.py           Partitions events by artist for events-index.json
   sync-events-data.py           Syncs event data files
 

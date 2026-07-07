@@ -1,19 +1,26 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) — and any other AI or human contributor — when working in this repository. It is the **single instruction source of truth**: stable rules, protected areas, and working style live here. Anything that changes week to week (data counts, artist states, active risks) lives **only** in `PROJECT_STATUS.md`.
+
+**Read in order at session start:** `CLAUDE.md` (this file) → `PROJECT_STATUS.md` → `BACKLOG.md`.
 
 ---
 
 ## Project Overview
 
-**TourTicketCompare** is an independent, unofficial fan-facing ticket research site for major live music tours. It provides verified ticket links, buying guidance, and artist watchlist pages for major tours.
+**TourTicketCompare** is an independent, unofficial fan-facing ticket research site for major live music tours. It provides verified ticket links, buying guidance, and artist watchlist pages.
 
-- **Live:** https://tourticketcompare.com and https://www.tourticketcompare.com
-- **Tech Stack:** Cloudflare Pages + Pages Functions (no build step; frontend is static HTML/CSS/JS)
-- **Source of Truth:** GitHub `main` branch (auto-deploys to production via Cloudflare Pages Git integration)
-- **Current Team:** Codex/Claude-assisted development
+- **Live:** https://tourticketcompare.com (www redirects to apex)
+- **Stack:** Cloudflare Pages + Pages Functions. No build step — `public/` is served as-is; `functions/` is bundled by Cloudflare Pages.
+- **Deploy:** GitHub `main` is the source of truth; merges auto-deploy to production via the Cloudflare Pages Git integration.
+- **Storage:** Cloudflare D1 (`DEMAND_DB`) for analytics, signups, rate caps, and price-snapshot cache.
 
----
+## Affiliate & Provider Model (2026-07)
+
+- **SeatGeek is the primary, monetized CTA** (Impact network, server-side only), artist-level **and** event-level. Artist-level destinations are performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for registry-verified performer ids — never constructed from names.
+- **Vivid Seats is wired but dormant** (second Impact provider). No CTAs render until the `IMPACT_VIVIDSEATS_*` secrets are set and verified `vividseats.com` destinations exist.
+- **Ticketmaster affiliate access is gone** (site removed from the programme, 2026-07). Ticketmaster links are plain, unmonetized verified redirects, rendered after the affiliate providers. **Never re-add** Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
+- **Price tracking:** SeatGeek price snapshots are **collected** on a 12-hour cron (`seatgeek-price-snapshots.yml` → D1 `provider_pricing_cache`), but price **display is parked** — it requires written SeatGeek permission and `SEATGEEK_PRICE_DISPLAY_ENABLED=true` (currently `false`). Never show prices, "cheapest" claims, or cross-provider comparison. See `docs/PROVIDER_DATA_POLICY.md`.
 
 ## Critical Product Rules
 
@@ -25,51 +32,51 @@ See [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) for the full non-negoti
 
 ```
 public/                    Static frontend (served as-is by Cloudflare Pages)
-  index.html              Shell HTML; title/meta/canonical replaced server-side per route
-  app.js                  Client-side JS (progressive enhancement)
-  styles.css
+  index.html              Shell HTML; title/meta/canonical replaced server-side per route.
+                          Carries an inlined data fallback written by scripts/sync-events-data.py
+                          — regenerate with `npm run events:sync`, never hand-edit.
+  app.js, ttc-home.js     Client-side JS (progressive enhancement)
+  styles.css, ttc-home.css
   data/
     artists.json          Artist records (slug, name, factual_summary, ticket links)
     catalog.json          Providers, ticket_links, tours
     events.json           Reviewed event records (Ticketmaster-sourced)
-    events/               Per-artist partitioned event files
+    events/               Per-artist partitioned event files (generated)
+    events-index.json     Generated index over the partitions
 
 functions/                Cloudflare Pages Functions (server-side routing + APIs)
   _middleware.js          Entry point; delegates API/static paths to context.next(),
                           sends all HTML routes to [[path]].js
-  [[path]].js             HTML routing logic: renders titles, meta, schemas, 404s
-  _route-metadata.js      Single source of truth for page metadata, guide routes,
-                          old guide redirects — edit here, not in [[path]].js
-  [named-shims].js        artists.js, guides.js, how-it-works.js, etc.
-                          Re-export from [[path]].js; inactive while _middleware.js exists
+  [[path]].js             HTML routing: titles, meta, schemas, redirects, 404s
+  _route-metadata.js      Single source of truth for page metadata and guide routes —
+                          edit here, not in [[path]].js
+  [named-shims].js        artists.js, guides.js, etc. Re-export from [[path]].js;
+                          inactive while _middleware.js exists (kept as documented fallback)
   api/
-    out.js                Verified affiliate redirect (GET/POST)
+    out.js                Verified affiliate redirect (SeatGeek/Vivid Seats Impact-wrapped;
+                          Ticketmaster plain). Contains VERIFIED_TICKET_LINKS. Protected.
     health.js             Runtime config status (no secrets exposed)
     shows.js              Event metadata by artistSlug
     analytics.js          D1-backed event analytics
     signup.js             Email demand capture to D1
-    click.js              Legacy click event tracking
-    impact/               Impact API integration helpers
+    debug-seatgeek.js     Internal diagnostic (kept deliberately)
+    impact/               Impact API diagnostics (health, products, tracking-links)
+  _provider-registry.js + api/_providers/  Parked scaffolding — do not build on
+                          without a scoped provider integration (see BACKLOG.md)
 
-scripts/
-  smoke-prelaunch.mjs     Pre-deploy smoke checks
-  validate-events.py      Validates events.json against production rules
-  csv-to-events.py        Converts CSV to events.json format
-  partition-events.py     Partitions events by artist for events-index.json
-  sync-events-data.py     Syncs event data files
+data/
+  provider-identities.json  Verified provider identity registry (TM attraction ids,
+                            SeatGeek performer ids) — human-verified entries only
 
-docs/
-  ARCHITECTURE.md         Detailed routing model, data bindings, deployment path
-  DEPLOYMENT.md           Local dev, production Pages deploy, CI guidance
-  CONTENT_RULES.md        What can and cannot be published
-  PROVIDER_DATA_POLICY.md Ticketmaster, SeatGeek, Vivid Seats, Impact affiliate policy
+scripts/                  Validation, discovery, and automation tooling (see CONTRIBUTING.md
+                          and docs/DEPLOYMENT.md for the command map)
+migrations/               D1 migrations (see migrations/README.md for applied state)
+docs/                     Reference docs; docs/archive/ is historical, not authoritative
 ```
-
----
 
 ## High-Level Architecture
 
-### Request Routing (Cloudflare Pages)
+### Request routing
 
 ```
 Request
@@ -81,119 +88,84 @@ Request
       └─ All other paths (HTML routes)           → [[path]].js onRequest
 ```
 
-### HTML Routing Logic
+All HTML route handling lives in `functions/[[path]].js`; page metadata lives in `functions/_route-metadata.js`. Unknown routes return 404 with noindex — no auto-generated pages. Full detail: `docs/ARCHITECTURE.md`.
 
-All HTML route handling lives in `functions/[[path]].js`. It:
-- Serves correct server-injected `<title>`, `<meta>`, canonical, JSON-LD schema
-- Renders full `<main>` content for each route (artist pages, guides, trust pages, 404s)
-- Handles legacy URL redirects (old guide slugs, root-level artist paths)
-- Returns 404 with noindex for unknown routes (no auto-generated pages)
+### Bindings (Cloudflare dashboard)
 
-**Critical:** `functions/_route-metadata.js` is the single source of truth for page metadata (titles, descriptions, H1s, breadcrumbs, guide slugs, old-guide redirects). Edit metadata there, not in `[[path]].js`.
+- `DEMAND_DB` (D1) — active; the only binding declared in `wrangler.toml`.
+- `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` — network-level Impact fallback (server-side only).
+- `IMPACT_SEATGEEK_*` — SeatGeek Impact program (server-side only). Active.
+- `IMPACT_VIVIDSEATS_*` — not yet set; Vivid Seats CTAs stay dormant until they are.
+- `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` — discovery tooling only, not `/api/out`.
+- The old `IMPACT_TICKETMASTER_*` secrets are unused — delete them from the dashboard if still present (owner task, tracked in `BACKLOG.md`).
 
-### Data Bindings (Cloudflare Pages)
+Impact credentials are never exposed client-side; they are used only in `functions/api/out.js`.
 
-| Binding | Type | ID | Status | Used for |
-|---------|------|----|---------|-----------| 
-| `DEMAND_DB` | D1 | `tourticketcompare-demand` | Active | Analytics, email signups, rate limiting |
-| `IMPACT_ACCOUNT_SID` | Secret | (Cloudflare) | Active | Impact network credentials (SeatGeek/Vivid Seats fallback; server-side only) |
-| `IMPACT_AUTH_TOKEN` | Secret | (Cloudflare) | Active | Impact network credentials (SeatGeek/Vivid Seats fallback; server-side only) |
-| `IMPACT_SEATGEEK_*` | Secret | (Cloudflare) | Active | SeatGeek Impact program (server-side only) |
-| `IMPACT_VIVIDSEATS_*` | Secret | (Cloudflare) | Pending owner setup | Vivid Seats Impact program (server-side only; CTAs stay dormant until set) |
+### Automation (scheduled GitHub Actions)
 
-**Ticketmaster has no affiliate bindings** — the site was removed from the Ticketmaster affiliate programme (2026-07). Ticketmaster links are plain, unmonetized redirects; the old `IMPACT_TICKETMASTER_*` secrets are unused and should be deleted from the Cloudflare dashboard. `wrangler.toml` declares `DEMAND_DB` only. Impact credentials are never exposed client-side; they're used only in `functions/api/out.js`.
+Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS.md`.
 
-### Named Route Shims
+- `daily-audit.yml` (03:00 UTC) — URL liveness + Ticketmaster Discovery diff into a rolling issue; verification-date-bump PRs.
+- `nightly-data-sync.yml` (03:30 UTC) — lossless factual refresh (date/time, venue, `event_name`, canonical TM URL) auto-committed to `main` per event; anything needing judgement goes to the rolling issue.
+- `tm-new-shows-pr.yml` (04:00 UTC) — new-show discovery PR; auto-merges once its in-run validation suite passes (owner-approved). `tour_name` stays blank for human review.
+- `seatgeek-discovery-proposal.yml` (dispatch) — proposal-only SeatGeek event-URL discovery.
+- `seatgeek-price-snapshots.yml` (every 12 h) — writes SeatGeek price snapshots to D1. Collection only; display stays off.
+- `prelaunch-validation.yml` (PRs) — validation suite incl. the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`.
+- `tm-data-refresh-pr.yml` (dispatch) — manual PR-based refresh of existing events.
 
-Files like `functions/artists.js`, `functions/guides.js`, etc. each contain:
+---
 
-```js
-export { onRequest } from "./[[path]].js";
+## Validation
+
+Run the relevant subset before every commit (full command list in [CONTRIBUTING.md](CONTRIBUTING.md)):
+
+```bash
+npm run test:mvp                                  # combined suite: events self-test,
+                                                  # provider validators, smoke tests
+python3 scripts/validate-events.py --for-production
+node scripts/validate-guide-routes.mjs            # if guides/routes touched
+npm run artist:check -- <slug>                    # if a specific artist touched
+npm run events:sync                               # required after any public/data/*.json edit
+node --check public/app.js 'functions/[[path]].js' functions/api/out.js
+git diff --check
 ```
 
-**While `_middleware.js` is active, these shims are never invoked.** Middleware intercepts all HTML routes and calls `[[path]].js` directly. If middleware is removed, the shims become the active handlers and delegate to `[[path]].js` — behaviour is preserved but the routing path changes.
-
-**Risk:** Editing a shim while middleware is active has no effect on production. This can mislead contributors.
-
----
-
-## Development Commands
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for local setup, validation commands, event data management, and deploy commands.
-
----
-
-## Known Risks & Parked Issues
-
-Review before starting work. **`PROJECT_STATUS.md` → "Active risks" is the live, detailed list — treat it as authoritative over this table**, which is a summary and has drifted before. (Issues **#171** Olivia Rodrigo verified links and **#175** onboarding runbook are **closed/delivered**; see `BACKLOG.md` → "Recently completed".)
-
-| Issue | Severity | Impact |
-|-------|----------|--------|
-| **Ed Sheeran events unverified** | Medium | `ed-sheeran` is indexed and in `VERIFIED_TICKET_LINKS`, but all 27 of its events are `needs_recheck` with blank `tour_name` and cleared `ticketmaster_url` (event CTAs suppressed — safe state). Needs human browser verification and a verified tour name. See `PROJECT_STATUS.md` → Active risks. |
-| **Olivia Rodrigo residual event verification** | Medium | Artist-level Ticketmaster verification is restored (issue #171 closed via PR #190). Remaining: **8 short-form events flagged `needs_recheck`** — human-checked 2026-06-10, all 404; CTAs stay suppressed until working storefront URLs exist. See `PROJECT_STATUS.md` → Active risks. |
-| **Data refresh (#174 Phase B)** | Medium | `scripts/sync-events-data.py` inlines fallback data into `public/index.html`. Phase A (data-refresh flow) is now documented in `docs/DEPLOYMENT.md`; the `stale-sync-guard` PR job catches the common failure mode. Phase B (build-time cache-bust / stronger hook) remains parked. Issue #174. |
-| **Raw HTML routing (production proof)** | Low–Medium (SEO) | Local proof passed 2026-05-19 on 17 representative routes; PR #184 added guide route / content / sitemap drift validation in CI. Production browser proof remains optional (issue #10). |
-| **Named route shims inactive** | Low | Editing `functions/artists.js` etc. has no effect while middleware is active. Edit `[[path]].js` instead. |
-| **Legacy deploy paths** | Low | Vercel deploy artefacts (`vercel.json`, root `api/`) and the standalone Worker builder (`scripts/build-standalone-worker.mjs`) were deleted in the #176 deletion pass (2026-06-19); only `archive/vercel-experimental/README.md` remains as a historical marker. Do not re-add Vercel-specific logic. |
-
-Do not action these without explicit scope (also tracked as "parked" in `BACKLOG.md`):
-- `archive/vercel-experimental/README.md` removal (#176 candidate #4 — left as a harmless historical marker; the Vercel pair and Worker builder were already deleted 2026-06-19)
-- Provider abstraction implementation (`functions/api/_providers/index.js`, `functions/_provider-registry.js`)
-- Tour-level pages, city pages, event landing pages
-- SeatGeek price display (parked; requires written SeatGeek permission)
-- Live price aggregation or "cheapest" / "guaranteed availability" claims
-
-Affiliate model (2026-07 pivot — owner-approved):
-- **Ticketmaster affiliate is gone.** Ticketmaster links are plain, unmonetized verified redirects, rendered after the affiliate providers. Never re-add Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
-- **SeatGeek is artist-level + event-level** and is the primary CTA. Artist-level entries are performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for the registry-verified performer id — never constructed from names.
-- **Vivid Seats is wired but dormant** until `IMPACT_VIVIDSEATS_*` secrets and verified `vividseats.com` destinations exist.
-- **New artists** are onboarded in batches (up to 20/PR) via `npm run artists:onboard:propose` → shells → `npm run artists:promote:batch` with a per-artist human browser spot-check checklist in the PR body. Never auto-published.
-
----
+Report results honestly: "checks passed" or the actual failures. Do not skip validation before summarising.
 
 ## Protected Areas
 
 Do not modify without explicit task scope:
 
-- **`functions/api/out.js`** — verified outbound redirect logic; contains `VERIFIED_TICKET_LINKS` (SeatGeek/Vivid Seats redirects are Impact-wrapped; Ticketmaster redirects are plain)
+- **`functions/api/out.js`** — verified outbound redirect logic; contains `VERIFIED_TICKET_LINKS`
 - **`functions/_middleware.js`** — entry point for all requests; a bug here breaks all HTML routes
 - **`functions/[[path]].js`** — all HTML routing; changes affect every public page
-- **`functions/_route-metadata.js`** — single source of truth for page titles, H1s, descriptions, breadcrumbs, guide slugs
-- **`public/data/events.json`, `artists.json`, `catalog.json`** — do not add, modify, or remove records without verified source
+- **`functions/_route-metadata.js`** — single source of truth for page metadata
+- **`public/data/events.json`, `artists.json`, `catalog.json`** — no records added, modified, or removed without a verified source
 - **`public/_routes.json`** — incorrect changes cause site-wide failures
-- **Impact credentials** (`IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`) and affiliate tracking logic
+- **Impact credentials and affiliate tracking logic** (including `functions/api/impact/`)
 - **Cloudflare dashboard settings** (routes, bindings, secrets)
 
----
+Note the named-shim trap: editing `functions/artists.js` etc. has **no effect** while `_middleware.js` is active — edit `[[path]].js` instead.
 
 ## Working Style
 
 - **Read only files relevant to the task.** Do not scan or rewrite the whole repo.
-- **Make small, isolated changes.** One task = one or a few related commits.
-- **Validate before committing.** Run the relevant checks from [CONTRIBUTING.md](CONTRIBUTING.md).
-- **Summarise after changes:** which files changed, what was changed, which checks passed, what was not touched.
-- **Before starting any session:** read this file, then `PROJECT_STATUS.md`, then `BACKLOG.md`. Those three files are the current source of truth for product state and active priorities — do not rely on `HANDOVER.md` or anything in `docs/archive/` (`CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `LIVE_PRODUCTION_VERIFICATION.md`, `REPO_BRIEFING.md`, etc.) as a source of priorities.
+- **Make small, isolated changes.** One task = one or a few related commits. One PR per artist for Promote/Events phases.
+- **Use plan mode / confirm scope first** for multi-step work, routing changes, schema changes, or anything touching protected files.
+- **Validate before committing**, then summarise: which files changed, what changed, which checks passed, what was not touched.
+- **Never invent data** — tours, dates, venues, prices, availability, providers, URLs. If a task seems to require inventing data or touching a protected file out of scope, stop and ask.
+- **Do not create new governance/status docs** unless explicitly asked; update the canonical ones (`docs/DOCS_MAINTENANCE.md` maps which file owns what).
+- Artist onboarding, provider changes, and event data changes follow their dedicated gated workflows — see the doc map below.
 
----
+## Live State & Priorities
+
+- **`PROJECT_STATUS.md`** — current data counts, per-artist states, bindings, and **Active risks**. Authoritative for "what is true right now". If it disagrees with the repo, the repo wins — fix the doc.
+- **`BACKLOG.md`** — prioritised active work and the parked list. Owner-managed: agents may correct facts (dated, flagged) but not reorder or re-scope priorities.
 
 ## Key Documentation
 
 Read in order: **`CLAUDE.md`** (this file) → **`PROJECT_STATUS.md`** → **`BACKLOG.md`**.
 
-Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ARTIST_SCALING_MAP.md](docs/ARTIST_SCALING_MAP.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md) (which files are canonical)
+Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) · [docs/PROVIDER_SYNC.md](docs/PROVIDER_SYNC.md) · [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)
 
-Not authoritative: `HANDOVER.md`, `AGENTS.md` — superseded pointer stubs; everything in `docs/archive/` (e.g. `CLEANUP_AUDIT.md`, `AUDIT_PARKING_LOT.md`, `SEO_ARCHITECTURE_AUDIT.md`, `REPO_BRIEFING.md`, `PROVIDER_ABSTRACTION_*.md`) — parked/historical, indexed in [docs/archive/INDEX.md](docs/archive/INDEX.md).
-
----
-
-## Safe Next Steps
-
-When starting a new task:
-
-1. Read this file, `PROJECT_STATUS.md`, and `BACKLOG.md` in that order.
-2. Pick the highest active priority from `BACKLOG.md` that matches the user's request.
-3. If modifying routes, page metadata, or HTML rendering, review `docs/ARCHITECTURE.md` § "Routing Model".
-4. If adding/modifying data files, review `docs/CONTENT_RULES.md` and `docs/PROVIDER_DATA_POLICY.md`.
-5. If touching `functions/api/out.js`, affiliate routing, or provider links, confirm the change is explicitly scoped — these are protected.
-6. Run the relevant validation checks before committing.
-7. Push to the feature branch; do not push to `main` unless explicitly asked.
+Not authoritative: `HANDOVER.md`, `AGENTS.md` (superseded pointer stubs) and everything in `docs/archive/` (historical, indexed in [docs/archive/INDEX.md](docs/archive/INDEX.md)). Do not act on archived findings without re-verifying against `PROJECT_STATUS.md` and `BACKLOG.md`.

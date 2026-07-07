@@ -21,8 +21,8 @@
 //      needs_recheck), events.json serialization, partition + fallback
 //      regeneration, and validate-with-rollback. No data logic is duplicated
 //      here.
-//   4. Runs the full validation suite, then opens a branch + PR (mirroring
-//      scripts/tm-discovery-shell-pr.mjs). With --auto-merge the PR is
+//   4. Runs the full validation suite, then opens a branch + PR.
+//      With --auto-merge the PR is
 //      squash-merged immediately (owner-approved 2026-07-07): validation
 //      already ran in-process on exactly this content, and bot-opened PRs do
 //      not trigger pull_request CI. A failed merge leaves the PR open for a

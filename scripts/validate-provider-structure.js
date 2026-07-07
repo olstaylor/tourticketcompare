@@ -172,7 +172,7 @@ async function validateEvents() {
 
     if (missingLinksCount > 0) {
       warning(
-        `${missingLinksCount} events missing provider_links. Run: node scripts/enrich-events-with-provider-links.js`
+        `${missingLinksCount} events missing provider_links — add the provider_links structure to those event records`
       );
     } else {
       info(`✓ All ${enrichedCount} events have provider_links`);

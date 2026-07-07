@@ -495,7 +495,7 @@ function mapEvent(artistSlug, artistName, tmEvent) {
     // step uses it to route the row into events.rejected.json.
     urlRejection,
     // Source country metadata kept for report.json auditing only; never
-    // written into events.csv (its schema is fixed by csv-to-events.py).
+    // written into events.csv (the candidate batch schema is fixed).
     countrySource: {
       raw: countryRaw,
       code: countryCode,

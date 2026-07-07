@@ -4737,7 +4737,7 @@
     "city": "Chicago",
     "country": "United States",
     "venue": "United Center",
-    "datetime_iso": "2026-08-03T20:00:00",
+    "datetime_iso": "2026-08-04T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced",
@@ -4747,13 +4747,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "04006319DDEA2CD5",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-07",
         "availability_status": "on_sale",
         "discovery_event_id": "vv1A7ZkG_GkdqBxS4"
       },
@@ -6501,8 +6501,8 @@
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
-    "city": "Milano",
+    "event_name": "Bad Bunny",
+    "city": "Milan",
     "country": "Italy",
     "venue": "Ippodromo SNAI La Maura",
     "datetime_iso": "2026-07-17T20:45:00",
@@ -6515,13 +6515,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
         "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-07",
         "availability_status": "on_sale",
         "discovery_event_id": "Z7r9jZ1A7xZ87"
       },
@@ -6554,8 +6554,8 @@
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
-    "city": "Milano",
+    "event_name": "Bad Bunny",
+    "city": "Milan",
     "country": "Italy",
     "venue": "Ippodromo SNAI La Maura",
     "datetime_iso": "2026-07-18T20:45:00",
@@ -6568,13 +6568,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
         "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-07",
         "availability_status": "on_sale",
         "discovery_event_id": "Z7r9jZ1A7xZ8A"
       },
@@ -6817,7 +6817,7 @@
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a706ep",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Wolf Alice",
     "city": "Hartford",
     "country": "United States Of America",
     "venue": "PeoplesBank Arena",
@@ -6829,7 +6829,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A706ep",
@@ -6869,7 +6869,7 @@
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Wolf Alice",
     "city": "Hartford",
     "country": "United States Of America",
     "venue": "PeoplesBank Arena",
@@ -6881,7 +6881,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A70677",
@@ -6921,7 +6921,7 @@
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Pittsburgh",
     "country": "United States Of America",
     "venue": "PPG Paints Arena",
@@ -6933,13 +6933,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-29-2026/event/1600649DD7C8F781",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1600649DD7C8F781",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-29-2026/event/1600649DD7C8F781",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvbZ_aGkM9w2rv"
       },
@@ -6974,7 +6974,7 @@
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Pittsburgh",
     "country": "United States Of America",
     "venue": "PPG Paints Arena",
@@ -6986,13 +6986,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-30-2026/event/1600649DD7CAF784",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1600649DD7CAF784",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-30-2026/event/1600649DD7CAF784",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvbZ_aGkM9wRr7"
       },
@@ -7027,7 +7027,7 @@
     "id": "tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Washington",
     "country": "United States Of America",
     "venue": "Capital One Arena",
@@ -7039,13 +7039,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-03-2026/event/150064943E892404",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "150064943E892404",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-03-2026/event/150064943E892404",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1kA8v0PdGACx387"
       },
@@ -7080,7 +7080,7 @@
     "id": "tm-olivia-rodrigo-2026-washington-1avfz_agkvqmncz",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Washington",
     "country": "United States Of America",
     "venue": "Capital One Arena",
@@ -7092,13 +7092,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-04-2026/event/1500649D1DBAAB40",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1500649D1DBAAB40",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-04-2026/event/1500649D1DBAAB40",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvfZ_aGkVqmncZ"
       },
@@ -7133,7 +7133,7 @@
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyed-b",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Charlotte",
     "country": "United States Of America",
     "venue": "Spectrum Center",
@@ -7145,13 +7145,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-07-2026/event/2D00649DB99FB858",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2D00649DB99FB858",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-07-2026/event/2D00649DB99FB858",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5eVZ_aUyED-b"
       },
@@ -7186,7 +7186,7 @@
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Charlotte",
     "country": "United States Of America",
     "venue": "Spectrum Center",
@@ -7198,13 +7198,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-08-2026/event/2D00649DB9A4B875",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2D00649DB9A4B875",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-08-2026/event/2D00649DB9A4B875",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5eVZ_aUyt5-g"
       },
@@ -7239,7 +7239,7 @@
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkyetuoa",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
@@ -7251,13 +7251,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-11-2026/event/0400649C02FF6809",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0400649C02FF6809",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-11-2026/event/0400649C02FF6809",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv178Z_aGkYeTUOa"
       },
@@ -7292,7 +7292,7 @@
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkmlebgy",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
@@ -7304,13 +7304,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-12-2026/event/0400649DEB9FA339",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0400649DEB9FA339",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-12-2026/event/0400649DEB9FA339",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv178Z_aGkMlEBGy"
       },
@@ -7345,7 +7345,7 @@
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agksbtqpc",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
@@ -7357,13 +7357,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-15-2026/event/0100649CD8A5A5AD",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100649CD8A5A5AD",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-15-2026/event/0100649CD8A5A5AD",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv177Z_aGkSbtQpc"
       },
@@ -7398,7 +7398,7 @@
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agkv-whjn",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
@@ -7410,13 +7410,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-17-2026/event/0100649D21F5B72A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100649D21F5B72A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-17-2026/event/0100649D21F5B72A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv177Z_aGkV-Whjn"
       },
@@ -7451,7 +7451,7 @@
     "id": "tm-olivia-rodrigo-2026-boston-vvg17z_13s_x9k",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
@@ -7463,13 +7463,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-18-2026/event/010064A4B36625C6",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "010064A4B36625C6",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-18-2026/event/010064A4B36625C6",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG17Z_13S_x9k"
       },
@@ -7504,7 +7504,7 @@
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmby4v9",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Montreal",
     "country": "Canada",
     "venue": "Centre Bell",
@@ -7516,13 +7516,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3100649B98C15057",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Ad7Z_aGkmbY4v9"
       },
@@ -7557,7 +7557,7 @@
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Montreal",
     "country": "Canada",
     "venue": "Centre Bell",
@@ -7569,13 +7569,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3100649B98C45059",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Ad7Z_aGkmbsAv_"
       },
@@ -7610,7 +7610,7 @@
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkmwmykb",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Toronto",
     "country": "Canada",
     "venue": "Scotiabank Arena",
@@ -7622,13 +7622,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-26-2026/event/1000649BBDBB94D8",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000649BBDBB94D8",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-26-2026/event/1000649BBDBB94D8",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvZZ_aGkmWmyKb"
       },
@@ -7663,7 +7663,7 @@
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkvcvogj",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Toronto",
     "country": "Canada",
     "venue": "Scotiabank Arena",
@@ -7675,13 +7675,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-27-2026/event/1000649D0E060D66",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000649D0E060D66",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-27-2026/event/1000649D0E060D66",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvZZ_aGkVCvOgJ"
       },
@@ -7716,7 +7716,7 @@
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtn2ij",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Columbus",
     "country": "United States Of America",
     "venue": "Schottenstein Center",
@@ -7728,13 +7728,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0500649DFF8CFA1C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17fZ_aGkMTN2Ij"
       },
@@ -7769,7 +7769,7 @@
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri-",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Columbus",
     "country": "United States Of America",
     "venue": "Schottenstein Center",
@@ -7781,13 +7781,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-30-2026/event/0500649DFF8EFA21",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0500649DFF8EFA21",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-30-2026/event/0500649DFF8EFA21",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17fZ_aGkMTNRI-"
       },
@@ -7822,7 +7822,7 @@
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Philadelphia",
     "country": "United States Of America",
     "venue": "Xfinity Mobile Arena",
@@ -7834,13 +7834,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-07-2026/event/3000649DC07F7DF5",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649DC07F7DF5",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-07-2026/event/3000649DC07F7DF5",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkMZLMMg"
       },
@@ -7875,7 +7875,7 @@
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzoemy",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Philadelphia",
     "country": "United States Of America",
     "venue": "Xfinity Mobile Arena",
@@ -7887,13 +7887,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-08-2026/event/3000649DC0827DF9",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649DC0827DF9",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-08-2026/event/3000649DC0827DF9",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkMZOEMy"
       },
@@ -7928,7 +7928,7 @@
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Atlanta",
     "country": "United States Of America",
     "venue": "State Farm Arena",
@@ -7940,13 +7940,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-11-2026/event/0E00649DBD3E870B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0E00649DBD3E870B",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-11-2026/event/0E00649DBD3E870B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1zZ_aUW2Ij5"
       },
@@ -7981,7 +7981,7 @@
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw8bjb",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Atlanta",
     "country": "United States Of America",
     "venue": "State Farm Arena",
@@ -7993,13 +7993,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-12-2026/event/0E00649DBD418718",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0E00649DBD418718",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-12-2026/event/0E00649DBD418718",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1zZ_aUW8bjb"
       },
@@ -8034,7 +8034,7 @@
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Orlando",
     "country": "United States Of America",
     "venue": "Kia Center",
@@ -8046,13 +8046,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-15-2026/event/2200649DA5425466",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2200649DA5425466",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-15-2026/event/2200649DA5425466",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AeFZ_aGkUP8PoJ"
       },
@@ -8087,7 +8087,7 @@
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Orlando",
     "country": "United States Of America",
     "venue": "Kia Center",
@@ -8099,13 +8099,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-16-2026/event/2200649DB24560D4",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2200649DB24560D4",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-16-2026/event/2200649DB24560D4",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AeFZ_aGkUwopdf"
       },
@@ -8140,7 +8140,7 @@
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Devon Again",
     "city": "Sunrise",
     "country": "United States Of America",
     "venue": "Amerant Bank Arena",
@@ -8152,7 +8152,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7067F",
@@ -8192,7 +8192,7 @@
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Devon Again",
     "city": "Sunrise",
     "country": "United States Of America",
     "venue": "Amerant Bank Arena",
@@ -8204,7 +8204,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7067o",
@@ -8244,7 +8244,7 @@
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Nashville",
     "country": "United States Of America",
     "venue": "Bridgestone Arena",
@@ -8256,13 +8256,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-23-2026/event/1B00649D0DA1A0A0",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1B00649D0DA1A0A0",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-23-2026/event/1B00649D0DA1A0A0",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5viZ_aVuIQeO"
       },
@@ -8297,7 +8297,7 @@
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Nashville",
     "country": "United States Of America",
     "venue": "Bridgestone Arena",
@@ -8309,13 +8309,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-24-2026/event/1B00649D0E9FA33C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1B00649D0E9FA33C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-24-2026/event/1B00649D0E9FA33C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5viZ_aVCEBGH"
       },
@@ -8350,11 +8350,11 @@
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Vancouver",
     "country": "Canada",
     "venue": "Rogers Arena",
-    "datetime_iso": "2026-12-02T03:00:00Z",
+    "datetime_iso": "2026-12-02T02:00:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1100649D82B16018",
     "ticketmaster_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-01-2026/event/1100649D82B16018",
@@ -8362,13 +8362,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-01-2026/event/1100649D82B16018",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1100649D82B16018",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-01-2026/event/1100649D82B16018",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Av7Z_aGkUeipZb"
       },
@@ -8403,11 +8403,11 @@
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Vancouver",
     "country": "Canada",
     "venue": "Rogers Arena",
-    "datetime_iso": "2026-12-03T03:00:00Z",
+    "datetime_iso": "2026-12-03T02:00:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1100649D82B46026",
     "ticketmaster_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-02-2026/event/1100649D82B46026",
@@ -8415,13 +8415,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-02-2026/event/1100649D82B46026",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1100649D82B46026",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-02-2026/event/1100649D82B46026",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Av7Z_aGkUeckZJ"
       },
@@ -8456,7 +8456,7 @@
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Seattle",
     "country": "United States Of America",
     "venue": "Climate Pledge Arena",
@@ -8468,13 +8468,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-07-2026/event/0F00649DD1062FF0",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0F00649DD1062FF0",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-07-2026/event/0F00649DD1062FF0",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1HZ_aMovxTY"
       },
@@ -8509,7 +8509,7 @@
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Seattle",
     "country": "United States Of America",
     "venue": "Climate Pledge Arena",
@@ -8521,13 +8521,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-08-2026/event/0F00649DE731624A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0F00649DE731624A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-08-2026/event/0F00649DE731624A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1HZ_aMEGpa1"
       },
@@ -8562,7 +8562,7 @@
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Oakland",
     "country": "United States Of America",
     "venue": "Oakland Arena",
@@ -8574,13 +8574,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-11-2026/event/1C00649DD84D193A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C00649DD84D193A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-11-2026/event/1C00649DD84D193A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_aMbKo0B"
       },
@@ -8615,7 +8615,7 @@
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Oakland",
     "country": "United States Of America",
     "venue": "Oakland Arena",
@@ -8627,13 +8627,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-12-2026/event/1C00649DD853194A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C00649DD853194A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-12-2026/event/1C00649DD853194A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_aMbfsP1"
       },
@@ -8668,7 +8668,7 @@
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Sacramento",
     "country": "United States Of America",
     "venue": "Golden 1 Center",
@@ -8680,13 +8680,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-15-2026/event/1C00649CABA73528",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C00649CABA73528",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-15-2026/event/1C00649CABA73528",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_awltSfI"
       },
@@ -8721,7 +8721,7 @@
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Sacramento",
     "country": "United States Of America",
     "venue": "Golden 1 Center",
@@ -8733,13 +8733,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-16-2026/event/1C00649CABAA3530",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C00649CABAA3530",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-16-2026/event/1C00649CABAA3530",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_awlnNfY"
       },
@@ -8774,7 +8774,7 @@
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Devon Again",
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "T-Mobile Arena",
@@ -8786,7 +8786,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A706kk",
@@ -8826,7 +8826,7 @@
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Devon Again",
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "T-Mobile Arena",
@@ -8838,7 +8838,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A706kF",
@@ -8878,7 +8878,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -8890,13 +8890,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-12-2027/event/0900649DE7C663B2",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE7C663B2",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-12-2027/event/0900649DE7C663B2",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMEsJCw"
       },
@@ -8931,7 +8931,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -8943,13 +8943,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-13-2027/event/0900649DE7FE6418",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE7FE6418",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-13-2027/event/0900649DE7FE6418",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMETJ8b"
       },
@@ -8984,7 +8984,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -8996,13 +8996,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-16-2027/event/0900649DE84C64CD",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE84C64CD",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-16-2027/event/0900649DE84C64CD",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMIKkKu"
       },
@@ -9037,7 +9037,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -9049,13 +9049,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-17-2027/event/0900649DE899654B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE899654B",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-17-2027/event/0900649DE899654B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMIJp45"
       },
@@ -9090,7 +9090,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -9102,13 +9102,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-20-2027/event/090064A4B79AF95E",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B79AF95E",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-20-2027/event/090064A4B79AF95E",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MJRPr"
       },
@@ -9143,7 +9143,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -9155,13 +9155,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-21-2027/event/090064A4B7A6F97C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7A6F97C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-21-2027/event/090064A4B7A6F97C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MtRPH"
       },
@@ -9196,7 +9196,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -9208,13 +9208,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-24-2027/event/090064A4B7B2F9A0",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7B2F9A0",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-24-2027/event/090064A4B7B2F9A0",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MiRJO"
       },
@@ -9249,7 +9249,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -9261,13 +9261,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-25-2027/event/090064A4B7BFF9BB",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7BFF9BB",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-25-2027/event/090064A4B7BFF9BB",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MRTJD"
       },
@@ -9302,7 +9302,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte-",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -9314,13 +9314,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-28-2027/event/090064A4B7CBF9E1",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7CBF9E1",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-28-2027/event/090064A4B7CBF9E1",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MwTE-"
       },
@@ -9355,7 +9355,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -9367,13 +9367,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-29-2027/event/090064A4B7E1FA1A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7E1FA1A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-29-2027/event/090064A4B7E1FA1A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MzLIQ"
       },
@@ -9408,7 +9408,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9420,13 +9420,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-11-2027/event/30006497FDD3D51D",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "30006497FDD3D51D",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-11-2027/event/30006497FDD3D51D",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AYZk39GkdWVWfq"
       },
@@ -9461,7 +9461,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9473,13 +9473,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-12-2027/event/3000649D1548C9A3",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D1548C9A3",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-12-2027/event/3000649D1548C9A3",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkV43GJN"
       },
@@ -9514,7 +9514,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9526,13 +9526,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-15-2027/event/3000649D1555C9AB",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D1555C9AB",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-15-2027/event/3000649D1555C9AB",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkV44jJl"
       },
@@ -9567,7 +9567,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9579,13 +9579,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-16-2027/event/3000649D155FC9B3",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D155FC9B3",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-16-2027/event/3000649D155FC9B3",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkV49HJS"
       },
@@ -9620,7 +9620,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9632,13 +9632,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-19-2027/event/3000649D3207D962",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D3207D962",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-19-2027/event/3000649D3207D962",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwvWPx"
       },
@@ -9673,7 +9673,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9685,13 +9685,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-20-2027/event/3000649D320FD968",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D320FD968",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-20-2027/event/3000649D320FD968",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwdWPI"
       },
@@ -9726,7 +9726,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9738,13 +9738,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-23-2027/event/3000649D3218D96C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D3218D96C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-23-2027/event/3000649D3218D96C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwkuPi"
       },
@@ -9779,7 +9779,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9791,13 +9791,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-24-2027/event/3000649D3220D972",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D3220D972",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-24-2027/event/3000649D3220D972",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwFuPw"
       },
@@ -9832,7 +9832,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9844,13 +9844,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-27-2027/event/3000649D322BD975",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D322BD975",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-27-2027/event/3000649D322BD975",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVw1WPg"
       },
@@ -9885,7 +9885,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -9897,13 +9897,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-28-2027/event/3000649D3235D97E",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D3235D97E",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-28-2027/event/3000649D3235D97E",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwuqPX"
       },
@@ -9938,7 +9938,7 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Amsterdam",
     "country": "Netherlands",
     "venue": "Ziggo Dome",
@@ -9950,13 +9950,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1272271842?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1272271842",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1272271842?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16vawas-e"
       },
@@ -9991,10 +9991,10 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo | Venue Premium Packages",
     "city": "Amsterdam",
     "country": "Netherlands",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-23T19:01:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1685500735",
@@ -10003,13 +10003,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1685500735?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1685500735",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1685500735?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16eeK73Fx"
       },
@@ -10044,7 +10044,7 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Amsterdam",
     "country": "Netherlands",
     "venue": "Ziggo Dome",
@@ -10056,13 +10056,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/184166589?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "184166589",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/184166589?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ1kk7AJpa"
       },
@@ -10097,10 +10097,10 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo | Venue Premium Packages",
     "city": "Amsterdam",
     "country": "Netherlands",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-24T19:01:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1326599942",
@@ -10109,13 +10109,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1326599942?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1326599942",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1326599942?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16vAOfwGx"
       },
@@ -10150,7 +10150,7 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Amsterdam",
     "country": "Netherlands",
     "venue": "Ziggo Dome",
@@ -10162,13 +10162,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1280221009?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1280221009",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1280221009?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16v1ZF-Za"
       },
@@ -10203,10 +10203,10 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo | Venue Premium Packages",
     "city": "Amsterdam",
     "country": "Netherlands",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-27T19:01:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1858815589",
@@ -10215,13 +10215,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1858815589?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1858815589",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1858815589?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ1krKo_rd"
       },
@@ -10256,7 +10256,7 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Amsterdam",
     "country": "Netherlands",
     "venue": "Ziggo Dome",
@@ -10268,13 +10268,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1650605337?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1650605337",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1650605337?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16v_8bAGM"
       },
@@ -10309,10 +10309,10 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo | Venue Premium Packages",
     "city": "Amsterdam",
     "country": "Netherlands",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-28T18:01:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "963929835",
@@ -10321,13 +10321,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/oliva-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/963929835?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "963929835",
         "url": "https://www.ticketmaster.nl/event/oliva-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/963929835?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16vb_GPZo"
       },
@@ -10362,7 +10362,7 @@
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Munich",
     "country": "Germany",
     "venue": "Olympiahalle",
@@ -10374,13 +10374,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/530317160?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "530317160",
         "url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/530317160?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZC2Z1kfYG9AO"
       },
@@ -10415,7 +10415,7 @@
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Munich",
     "country": "Germany",
     "venue": "Olympiahalle",
@@ -10427,13 +10427,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/1372657990?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1372657990",
         "url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/1372657990?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZC2Z16vuw_9J8"
       },
@@ -10468,7 +10468,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -10480,13 +10480,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-05-04-2027/event/3500649DB098427C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649DB098427C",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-05-04-2027/event/3500649DB098427C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkUYJ7aH"
       },
@@ -10521,7 +10521,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -10533,13 +10533,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-06-04-2027/event/3500649DB3304512",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649DB3304512",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-06-04-2027/event/3500649DB3304512",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkUSG7f3"
       },
@@ -10574,7 +10574,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusmfph",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -10586,13 +10586,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-08-04-2027/event/3500649DB3DD459B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649DB3DD459B",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-08-04-2027/event/3500649DB3DD459B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkUSMfph"
       },
@@ -10627,7 +10627,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkug10qr",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -10639,13 +10639,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-04-2027/event/3500649DB52A469E",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649DB52A469E",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-04-2027/event/3500649DB52A469E",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkUg10Qr"
       },
@@ -10680,7 +10680,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -10692,13 +10692,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-12-04-2027/event/3500649ED42F6096",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649ED42F6096",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-12-04-2027/event/3500649ED42F6096",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDf5Uep"
       },
@@ -10733,7 +10733,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -10745,13 +10745,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-14-04-2027/event/3500649ED8236514",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649ED8236514",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-14-04-2027/event/3500649ED8236514",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDbFUff"
       },
@@ -10786,7 +10786,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -10798,13 +10798,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-15-04-2027/event/3500649EDAC36683",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EDAC36683",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-15-04-2027/event/3500649EDAC36683",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDQYUQd"
       },
@@ -10839,7 +10839,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -10851,13 +10851,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-19-04-2027/event/3500649EDCB9682B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EDCB9682B",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-19-04-2027/event/3500649EDCB9682B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDjmpOl"
       },
@@ -10892,7 +10892,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -10904,13 +10904,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-20-04-2027/event/3500649EE68772AC",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EE68772AC",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-20-04-2027/event/3500649EE68772AC",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDJ-M1i"
       },
@@ -10945,7 +10945,7 @@
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Barcelona",
     "country": "Spain",
     "venue": "Palau Sant Jordi",
@@ -10957,13 +10957,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/515318918?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "515318918",
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/515318918?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZ2qZ1kf4Gb0b"
       },
@@ -10998,7 +10998,7 @@
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Barcelona",
     "country": "Spain",
     "venue": "Palau Sant Jordi",
@@ -11010,13 +11010,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/436032987?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "436032987",
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/436032987?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZ2qZ1k8UZwJ6"
       },
@@ -11051,7 +11051,7 @@
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Barcelona",
     "country": "Spain",
     "venue": "Palau Sant Jordi",
@@ -11063,13 +11063,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/2022065084?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2022065084",
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/2022065084?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZ2qZ16eZxvPe7"
       },
@@ -11104,7 +11104,7 @@
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Barcelona",
     "country": "Spain",
     "venue": "Palau Sant Jordi",
@@ -11116,13 +11116,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/408226519?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "408226519",
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/408226519?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZ2qZ1k8FFJf_"
       },
@@ -11157,7 +11157,7 @@
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Die Spitz",
     "city": "Greenwich",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -11169,7 +11169,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A70ff4",
@@ -11209,7 +11209,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -11221,13 +11221,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-05-2027/event/3500649EF88784A5",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EF88784A5",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-05-2027/event/3500649EF88784A5",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDz-z3P"
       },
@@ -11262,7 +11262,7 @@
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Die Spitz",
     "city": "Greenwich",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -11274,7 +11274,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A70fff",
@@ -11314,7 +11314,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -11326,13 +11326,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-10-05-2027/event/3500649EFB8486D2",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EFB8486D2",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-10-05-2027/event/3500649EFB8486D2",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDD-Fh3"
       },
@@ -12291,7 +12291,7 @@
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_x",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars",
     "city": "Milan",
     "country": "Italy",
     "venue": "San Siro Stadium",
@@ -12303,13 +12303,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_x",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OE_x",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_x",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z7r9jZ1A7OE_x"
       },
@@ -12343,7 +12343,7 @@
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_n",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars",
     "city": "Milan",
     "country": "Italy",
     "venue": "San Siro Stadium",
@@ -12355,13 +12355,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_N",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OE_N",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OE_N",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z7r9jZ1A7OE_N"
       },
@@ -12395,7 +12395,7 @@
     "id": "tm-bruno-mars-2026-london-1aegzbzgksgzoma",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - the Romantic Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "Wembley Stadium",
@@ -12407,13 +12407,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-18-07-2026/event/2300638CCCE11DC5",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2300638CCCE11DC5",
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-18-07-2026/event/2300638CCCE11DC5",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AeGZbzGkSGzoMA"
       },
@@ -12448,7 +12448,7 @@
     "id": "tm-bruno-mars-2026-london-1anzk8egkdftyue",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "Wembley Stadium",
@@ -12460,13 +12460,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-19-07-2026/event/23006427C8FF0D82",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "23006427C8FF0D82",
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-19-07-2026/event/23006427C8FF0D82",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1ANZk8EGkdFTYUe"
       },
@@ -12501,7 +12501,7 @@
     "id": "tm-bruno-mars-2026-london-1anzk8egkduy8wh",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "Wembley Stadium",
@@ -12513,13 +12513,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-22-07-2026/event/23006427F6C10F5B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "23006427F6C10F5B",
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-22-07-2026/event/23006427F6C10F5B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1ANZk8EGkdUY8Wh"
       },
@@ -12554,7 +12554,7 @@
     "id": "tm-bruno-mars-2026-london-1anzk8egkdmnywe",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "Wembley Stadium",
@@ -12566,13 +12566,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-24-07-2026/event/23006427F78F0F67",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "23006427F78F0F67",
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-24-07-2026/event/23006427F78F0F67",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1ANZk8EGkdMNYWE"
       },
@@ -12607,7 +12607,7 @@
     "id": "tm-bruno-mars-2026-london-1anzk8egkdzq8wy",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "Wembley Stadium",
@@ -12619,13 +12619,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-25-07-2026/event/23006427F8750F70",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "23006427F8750F70",
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-25-07-2026/event/23006427F8750F70",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1ANZk8EGkdzq8WY"
       },
@@ -12660,7 +12660,7 @@
     "id": "tm-bruno-mars-2026-london-1anzk8egkdbd8xc",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "Wembley Stadium",
@@ -12672,13 +12672,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-28-07-2026/event/23006427FA0D0F8E",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "23006427FA0D0F8E",
         "url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-28-07-2026/event/23006427FA0D0F8E",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1ANZk8EGkdBd8XC"
       },
@@ -12713,7 +12713,7 @@
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "East Rutherford",
     "country": "United States Of America",
     "venue": "MetLife Stadium",
@@ -12725,13 +12725,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-21-2026/event/0000639EE07FD3B7",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0000639EE07FD3B7",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-21-2026/event/0000639EE07FD3B7",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "k7vGFbyDOLWCM"
       },
@@ -12766,7 +12766,7 @@
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "East Rutherford",
     "country": "United States Of America",
     "venue": "MetLife Stadium",
@@ -12778,13 +12778,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-22-2026/event/0000639EE085D3BB",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0000639EE085D3BB",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-22-2026/event/0000639EE085D3BB",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "k7vGFbyDO-qCD"
       },
@@ -12819,7 +12819,7 @@
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydoxccx",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "East Rutherford",
     "country": "United States Of America",
     "venue": "MetLife Stadium",
@@ -12831,13 +12831,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-25-2026/event/0000639EE08AD3BE",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0000639EE08AD3BE",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-25-2026/event/0000639EE08AD3BE",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "k7vGFbyDOxcCX"
       },
@@ -12872,7 +12872,7 @@
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydonw2z",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "East Rutherford",
     "country": "United States Of America",
     "venue": "MetLife Stadium",
@@ -12884,13 +12884,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0000639EE08FD3C0",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "k7vGFbyDONW2Z"
       },
@@ -12925,7 +12925,7 @@
     "id": "tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Pittsburgh",
     "country": "United States Of America",
     "venue": "Acrisure Stadium",
@@ -12937,13 +12937,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-pittsburgh-pennsylvania-08-29-2026/event/1600639DBC7473C7",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1600639DBC7473C7",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-pittsburgh-pennsylvania-08-29-2026/event/1600639DBC7473C7",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvbZbyGkUHq626"
       },
@@ -12978,7 +12978,7 @@
     "id": "tm-bruno-mars-2026-philadelphia-vv1aezk8pgkdj_ywf",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Philadelphia",
     "country": "United States Of America",
     "venue": "Lincoln Financial Field",
@@ -12990,13 +12990,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-01-2026/event/02006425DC679C94",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "02006425DC679C94",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-01-2026/event/02006425DC679C94",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv1AeZk8PGkdj_ywf"
       },
@@ -13031,7 +13031,7 @@
     "id": "tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Philadelphia",
     "country": "United States Of America",
     "venue": "Lincoln Financial Field",
@@ -13043,13 +13043,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-02-2026/event/0200642CF18CAA24",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0200642CF18CAA24",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-02-2026/event/0200642CF18CAA24",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17FZ_eGkSsN1I0"
       },
@@ -13084,7 +13084,7 @@
     "id": "tm-bruno-mars-2026-foxborough-vv1a8vn0_ga221kn",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Foxborough",
     "country": "United States Of America",
     "venue": "Gillette Stadium",
@@ -13096,13 +13096,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-05-2026/event/010063919F3CA1A3",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "010063919F3CA1A3",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-05-2026/event/010063919F3CA1A3",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv1A8vN0_GA221kN"
       },
@@ -13137,7 +13137,7 @@
     "id": "tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Foxborough",
     "country": "United States Of America",
     "venue": "Gillette Stadium",
@@ -13149,13 +13149,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-06-2026/event/01006428E3C4CF98",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "01006428E3C4CF98",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-06-2026/event/01006428E3C4CF98",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv1AvZk8IGkdNsGXb"
       },
@@ -13190,7 +13190,7 @@
     "id": "tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Indianapolis",
     "country": "United States Of America",
     "venue": "Lucas Oil Stadium",
@@ -13202,13 +13202,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-indianapolis-indiana-09-09-2026/event/0500639AE335B59B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0500639AE335B59B",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-indianapolis-indiana-09-09-2026/event/0500639AE335B59B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17fZbyGklNuhph"
       },
@@ -13243,7 +13243,7 @@
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_e944pwc",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Tampa",
     "country": "United States Of America",
     "venue": "Raymond James Stadium",
@@ -13255,13 +13255,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-12-2026/event/0D006425D5556F4E",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006425D5556F4E",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-12-2026/event/0D006425D5556F4E",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1VZ_e944pWC"
       },
@@ -13296,7 +13296,7 @@
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_exa-kfw",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Tampa",
     "country": "United States Of America",
     "venue": "Raymond James Stadium",
@@ -13308,13 +13308,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-13-2026/event/0D00642885853532",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D00642885853532",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-13-2026/event/0D00642885853532",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1VZ_exA-Kfw"
       },
@@ -13349,7 +13349,7 @@
     "id": "tm-bruno-mars-2026-new-orleans-g5vizbye_a_hw",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "New Orleans",
     "country": "United States Of America",
     "venue": "Caesars Superdome",
@@ -13361,13 +13361,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-new-orleans-louisiana-09-16-2026/event/1B006390992596F2",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1B006390992596F2",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-new-orleans-louisiana-09-16-2026/event/1B006390992596F2",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5viZbye_a_hw"
       },
@@ -13402,7 +13402,7 @@
     "id": "tm-bruno-mars-2026-miami-vvg1vz_ekc64hs",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Miami",
     "country": "United States Of America",
     "venue": "Hard Rock Stadium",
@@ -13414,13 +13414,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-19-2026/event/0D0064218E1D56F3",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D0064218E1D56F3",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-19-2026/event/0D0064218E1D56F3",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1VZ_ekC64hS"
       },
@@ -13455,7 +13455,7 @@
     "id": "tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Miami",
     "country": "United States Of America",
     "venue": "Hard Rock Stadium",
@@ -13467,13 +13467,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-20-2026/event/0D0064287B1B2999",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D0064287B1B2999",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-20-2026/event/0D0064287B1B2999",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1VZ_e-DkwJ_"
       },
@@ -13508,7 +13508,7 @@
     "id": "tm-bruno-mars-2026-san-antonio-g5dizbyc__upm",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "San Antonio",
     "country": "United States Of America",
     "venue": "Alamodome",
@@ -13520,13 +13520,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-san-antonio-texas-09-23-2026/event/3A006393996765AE",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3A006393996765AE",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-san-antonio-texas-09-23-2026/event/3A006393996765AE",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5dIZbyC__Upm"
       },
@@ -13561,7 +13561,7 @@
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Colorado Springs",
     "country": "United States Of America",
     "venue": "Falcon Stadium",
@@ -13573,13 +13573,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O9_A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7O9_A",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O9_A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z7r9jZ1A7O9_A"
       },
@@ -13613,7 +13613,7 @@
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Colorado Springs",
     "country": "United States Of America",
     "venue": "Falcon Stadium",
@@ -13625,13 +13625,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox8I",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7Ox8I",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ox8I",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z7r9jZ1A7Ox8I"
       },
@@ -13665,7 +13665,7 @@
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "SoFi Stadium",
@@ -13677,13 +13677,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-09-30-2026/event/0A006451D6B8C1D4",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A006451D6B8C1D4",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-09-30-2026/event/0A006451D6B8C1D4",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1IZ_A6pmG6f"
       },
@@ -13718,7 +13718,7 @@
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "SoFi Stadium",
@@ -13730,13 +13730,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-02-2026/event/0A006396BA615BBE",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A006396BA615BBE",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-02-2026/event/0A006396BA615BBE",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1IZbyQBb4mX"
       },
@@ -13771,7 +13771,7 @@
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyhid9od",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "SoFi Stadium",
@@ -13783,13 +13783,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A006396E80D747B",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1IZbyhId9oD"
       },
@@ -13824,7 +13824,7 @@
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "SoFi Stadium",
@@ -13836,13 +13836,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A006426C23B4B2A",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1IZ_eheCVin"
       },
@@ -13877,7 +13877,7 @@
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "SoFi Stadium",
@@ -13889,13 +13889,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-07-2026/event/0A006426C2444B31",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A006426C2444B31",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-07-2026/event/0A006426C2444B31",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1IZ_eheo7is"
       },
@@ -13930,7 +13930,7 @@
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Santa Clara",
     "country": "United States Of America",
     "venue": "Levi's® Stadium",
@@ -13942,13 +13942,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-10-2026/event/1C006425BE5F932A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C006425BE5F932A",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-10-2026/event/1C006425BE5F932A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_epX9yGn"
       },
@@ -13983,7 +13983,7 @@
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Santa Clara",
     "country": "United States Of America",
     "venue": "Levi's® Stadium",
@@ -13995,13 +13995,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-11-2026/event/1C006429E6CFBAA2",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C006429E6CFBAA2",
         "url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-santa-clara-california-10-11-2026/event/1C006429E6CFBAA2",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_eEJSDnx"
       },
@@ -14036,7 +14036,7 @@
     "id": "tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Vancouver",
     "country": "Canada",
     "venue": "BC Place",
@@ -14048,13 +14048,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-14-2026/event/1100639781ED3F37",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1100639781ED3F37",
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-14-2026/event/1100639781ED3F37",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "16v7ZbyrvG7DKHM"
       },
@@ -14089,7 +14089,7 @@
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshvjex",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Vancouver",
     "country": "Canada",
     "venue": "BC Place",
@@ -14101,13 +14101,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-16-2026/event/1100642CDBD269FE",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1100642CDBD269FE",
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-16-2026/event/1100642CDBD269FE",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Av7Z_eGkShVJEX"
       },
@@ -14142,7 +14142,7 @@
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshmjia",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Vancouver",
     "country": "Canada",
     "venue": "BC Place",
@@ -14154,13 +14154,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1100642CDBDE6A05",
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Av7Z_eGkShMJIA"
       },
@@ -14195,7 +14195,7 @@
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkwimwwb",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Vancouver",
     "country": "Canada",
     "venue": "BC Place",
@@ -14207,13 +14207,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1100642F6CDF2F58",
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Av7Z_eGkWiMwWb"
       },
@@ -14248,7 +14248,7 @@
     "id": "tm-bruno-mars-2026-vancouver-1k78v0fjgacrkay",
     "artist_slug": "bruno-mars",
     "artist_name": "Bruno Mars",
-    "event_name": "",
+    "event_name": "Bruno Mars - The Romantic Tour",
     "city": "Vancouver",
     "country": "Canada",
     "venue": "BC Place",
@@ -14260,13 +14260,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-21-2026/event/110064526E793170",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "110064526E793170",
         "url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-21-2026/event/110064526E793170",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1k78v0fJGACrKAY"
       },
@@ -14884,11 +14884,11 @@
     "id": "tm-shakira-2026-boston-vv1avzkosgkdb5unc",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
-    "datetime_iso": "2026-07-10T23:30:00Z",
+    "datetime_iso": "2026-07-11T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "01006471D82F68CE",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
@@ -14896,7 +14896,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "01006471D82F68CE",
@@ -14937,11 +14937,11 @@
     "id": "tm-shakira-2026-boston-vv177z_6gkrmuczn",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
-    "datetime_iso": "2026-07-11T23:30:00Z",
+    "datetime_iso": "2026-07-12T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0100647BEED8EE23",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
@@ -14949,7 +14949,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100647BEED8EE23",
@@ -14990,11 +14990,11 @@
     "id": "tm-shakira-2026-newark-vv1aezkosgketdd_b",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Newark",
     "country": "United States Of America",
     "venue": "Prudential Center",
-    "datetime_iso": "2026-07-14T23:30:00Z",
+    "datetime_iso": "2026-07-15T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "02006473A90FB67A",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
@@ -15002,7 +15002,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "02006473A90FB67A",
@@ -15043,11 +15043,11 @@
     "id": "tm-shakira-2026-brooklyn-1ayzkosgkdghkeg",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
-    "datetime_iso": "2026-07-20T23:30:00Z",
+    "datetime_iso": "2026-07-21T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "30006471F56C69CC",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
@@ -15055,7 +15055,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "30006471F56C69CC",
@@ -15096,11 +15096,11 @@
     "id": "tm-shakira-2026-brooklyn-1adzz_6gktq1p0z",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
-    "datetime_iso": "2026-07-21T23:30:00Z",
+    "datetime_iso": "2026-07-22T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "3000647FDD296900",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
@@ -15108,7 +15108,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000647FDD296900",
@@ -15149,11 +15149,11 @@
     "id": "tm-shakira-2026-belmont-park-15dzz_619b3pj",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Belmont Park",
     "country": "United States Of America",
     "venue": "UBS Arena",
-    "datetime_iso": "2026-07-23T23:30:00Z",
+    "datetime_iso": "2026-07-24T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "3000647297612966",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
@@ -15161,7 +15161,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000647297612966",
@@ -15202,11 +15202,11 @@
     "id": "tm-shakira-2026-atlantic-city-vv17fz_6gkb5efrp",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Atlantic City",
     "country": "United States Of America",
     "venue": "Boardwalk Hall",
-    "datetime_iso": "2026-07-25T23:00:00Z",
+    "datetime_iso": "2026-07-26T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0200647E8B0947A5",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
@@ -15214,7 +15214,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0200647E8B0947A5",
@@ -15255,7 +15255,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1k7eo4av",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15267,7 +15267,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "127815141",
@@ -15308,7 +15308,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16vas39ay",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15320,7 +15320,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1273497170",
@@ -15361,7 +15361,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16vrkvz38",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15373,7 +15373,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1786040490",
@@ -15414,7 +15414,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16v_oqxoe",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15426,7 +15426,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1651762442",
@@ -15467,7 +15467,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16vowff-f",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15479,7 +15479,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1472508854",
@@ -15520,7 +15520,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1konkpax",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15532,7 +15532,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "823196262",
@@ -15573,7 +15573,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1kbi4uav",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15585,7 +15585,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "628576241",
@@ -15626,7 +15626,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16v4mzjas",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15638,7 +15638,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1577026271",
@@ -15679,7 +15679,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16v73axp9",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15691,7 +15691,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1112262957",
@@ -15732,7 +15732,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1koifuzg",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15744,7 +15744,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "828236035",
@@ -15785,7 +15785,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1koecouy",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15797,7 +15797,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "802391370",
@@ -15838,7 +15838,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16vfpafo8",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -15850,7 +15850,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1525248810",
@@ -16154,7 +16154,7 @@
     "id": "tm-ed-sheeran-2026-las-vegas-1700632f29ecabed",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "Allegiant Stadium",
@@ -16166,7 +16166,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-las-vegas-nevada-07-18-2026/event/1700632F29ECABED",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1700632F29ECABED",
@@ -16207,7 +16207,7 @@
     "id": "tm-ed-sheeran-2026-san-diego-0a006331da303659",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "San Diego",
     "country": "United States Of America",
     "venue": "Petco Park",
@@ -16219,7 +16219,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-san-diego-california-07-21-2026/event/0A006331DA303659",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A006331DA303659",
@@ -16260,7 +16260,7 @@
     "id": "tm-ed-sheeran-2026-santa-clara-1c006331c1a54d19",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Santa Clara",
     "country": "United States Of America",
     "venue": "Levi's® Stadium",
@@ -16272,7 +16272,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-santa-clara-california-07-25-2026/event/1C006331C1A54D19",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C006331C1A54D19",
@@ -16313,7 +16313,7 @@
     "id": "tm-ed-sheeran-2026-seattle-0f00632ea04f19df",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Seattle",
     "country": "United States Of America",
     "venue": "Lumen Field",
@@ -16325,7 +16325,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-seattle-washington-08-01-2026/event/0F00632EA04F19DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0F00632EA04F19DF",
@@ -16366,7 +16366,7 @@
     "id": "tm-ed-sheeran-2026-inglewood-0a006331dc273765",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "SoFi Stadium",
@@ -16378,7 +16378,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-inglewood-california-08-08-2026/event/0A006331DC273765",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0A006331DC273765",
@@ -16419,7 +16419,7 @@
     "id": "tm-ed-sheeran-2026-minneapolis-0600632e29196b3e",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Minneapolis",
     "country": "United States Of America",
     "venue": "U.S. Bank Stadium",
@@ -16431,7 +16431,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-minneapolis-minnesota-08-15-2026/event/0600632E29196B3E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0600632E29196B3E",
@@ -16472,7 +16472,7 @@
     "id": "tm-ed-sheeran-2026-toronto-1000632fe9bb4345",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Toronto",
     "country": "Canada",
     "venue": "Rogers Centre",
@@ -16484,7 +16484,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-20-2026/event/1000632FE9BB4345",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000632FE9BB4345",
@@ -16525,7 +16525,7 @@
     "id": "tm-ed-sheeran-2026-toronto-1000632fe9c34349",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Toronto",
     "country": "Canada",
     "venue": "Rogers Centre",
@@ -16537,7 +16537,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-21-2026/event/1000632FE9C34349",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000632FE9C34349",
@@ -16578,7 +16578,7 @@
     "id": "tm-ed-sheeran-2026-toronto-1000632fe9ca4361",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Toronto",
     "country": "Canada",
     "venue": "Rogers Centre",
@@ -16590,7 +16590,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ed-sheeran-loop-tour-toronto-ontario-08-22-2026/event/1000632FE9CA4361",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000632FE9CA4361",
@@ -16631,7 +16631,7 @@
     "id": "tm-ed-sheeran-2026-detroit-0800632ca3272367",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Detroit",
     "country": "United States Of America",
     "venue": "Ford Field",
@@ -16643,7 +16643,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-detroit-michigan-08-29-2026/event/0800632CA3272367",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0800632CA3272367",
@@ -16684,7 +16684,7 @@
     "id": "tm-ed-sheeran-2026-east-rutherford-00006331cc3a2a14",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "East Rutherford",
     "country": "United States Of America",
     "venue": "MetLife Stadium",
@@ -16696,7 +16696,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-east-rutherford-new-jersey-09-04-2026/event/00006331CC3A2A14",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "00006331CC3A2A14",
@@ -16737,7 +16737,7 @@
     "id": "tm-ed-sheeran-2026-east-rutherford-00006331cecb2b77",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "East Rutherford",
     "country": "United States Of America",
     "venue": "MetLife Stadium",
@@ -16749,7 +16749,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-east-rutherford-new-jersey-09-05-2026/event/00006331CECB2B77",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "00006331CECB2B77",
@@ -16790,7 +16790,7 @@
     "id": "tm-ed-sheeran-2026-philadelphia-02006331ed9c6125",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Philadelphia",
     "country": "United States Of America",
     "venue": "Lincoln Financial Field",
@@ -16802,7 +16802,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-philadelphia-pennsylvania-09-19-2026/event/02006331ED9C6125",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "02006331ED9C6125",
@@ -16843,7 +16843,7 @@
     "id": "tm-ed-sheeran-2026-foxborough-0100632fcae52e03",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Foxborough",
     "country": "United States Of America",
     "venue": "Gillette Stadium",
@@ -16855,7 +16855,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-25-2026/event/0100632FCAE52E03",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100632FCAE52E03",
@@ -16896,7 +16896,7 @@
     "id": "tm-ed-sheeran-2026-foxborough-01006331f67e74d9",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Foxborough",
     "country": "United States Of America",
     "venue": "Gillette Stadium",
@@ -16908,7 +16908,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-foxborough-massachusetts-09-26-2026/event/01006331F67E74D9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "01006331F67E74D9",
@@ -16949,7 +16949,7 @@
     "id": "tm-ed-sheeran-2026-atlanta-0e00632fc0572cc1",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Atlanta",
     "country": "United States Of America",
     "venue": "Mercedes-Benz Stadium",
@@ -16961,7 +16961,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-atlanta-georgia-10-03-2026/event/0E00632FC0572CC1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0E00632FC0572CC1",
@@ -17002,7 +17002,7 @@
     "id": "tm-ed-sheeran-2026-indianapolis-050063299afd15f3",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Indianapolis",
     "country": "United States Of America",
     "venue": "Lucas Oil Stadium",
@@ -17014,7 +17014,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-indianapolis-indiana-10-10-2026/event/050063299AFD15F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "050063299AFD15F3",
@@ -17055,7 +17055,7 @@
     "id": "tm-ed-sheeran-2026-charlotte-2d006331aac349eb",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Charlotte",
     "country": "United States Of America",
     "venue": "Bank of America Stadium",
@@ -17067,7 +17067,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-charlotte-north-carolina-10-17-2026/event/2D006331AAC349EB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2D006331AAC349EB",
@@ -17108,7 +17108,7 @@
     "id": "tm-ed-sheeran-2026-arlington-z7r9jz1a7jw",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran",
     "city": "Arlington",
     "country": "United States Of America",
     "venue": "AT&T Stadium",
@@ -17120,7 +17120,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7j-_w",
@@ -17160,7 +17160,7 @@
     "id": "tm-ed-sheeran-2026-hollywood-0d006331a7d91aff",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hard Rock Live",
@@ -17172,7 +17172,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-29-2026/event/0D006331A7D91AFF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331A7D91AFF",
@@ -17213,7 +17213,7 @@
     "id": "tm-ed-sheeran-2026-hollywood-0d006331f45e4089",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hard Rock Live",
@@ -17225,7 +17225,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-30-2026/event/0D006331F45E4089",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331F45E4089",
@@ -17266,7 +17266,7 @@
     "id": "tm-ed-sheeran-2026-tampa-0d006331d60a3a7a",
     "artist_slug": "ed-sheeran",
     "artist_name": "Ed Sheeran",
-    "event_name": "",
+    "event_name": "Ed Sheeran: LOOP Tour",
     "city": "Tampa",
     "country": "United States Of America",
     "venue": "Raymond James Stadium",
@@ -17278,7 +17278,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-tampa-florida-11-07-2026/event/0D006331D60A3A7A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331D60A3A7A",
@@ -17743,7 +17743,7 @@
     "id": "tm-summer-walker-2026-london-1agzk8mgkdnfpsx",
     "artist_slug": "summer-walker",
     "artist_name": "Summer Walker",
-    "event_name": "",
+    "event_name": "Summer Walker",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -17755,7 +17755,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "35006437EA516C62",
@@ -17796,7 +17796,7 @@
     "id": "tm-summer-walker-2026-london-1agzk8ugkeefegp",
     "artist_slug": "summer-walker",
     "artist_name": "Summer Walker",
-    "event_name": "",
+    "event_name": "Summer Walker",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -17808,7 +17808,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "35006436A7502325",
@@ -18538,7 +18538,7 @@
     "id": "tm-bts-2026-arlington-z7r9jz1a7ooui",
     "artist_slug": "bts",
     "artist_name": "BTS",
-    "event_name": "BTS WORLD TOUR 'ARIRANG' IN ARLINGTON",
+    "event_name": "BTS WORLD TOUR",
     "city": "Arlington",
     "country": "United States Of America",
     "venue": "AT&T Stadium",
@@ -18550,7 +18550,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -18558,7 +18558,7 @@
         "discovery_event_id": "Z7r9jZ1A7OOuI",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -18590,7 +18590,7 @@
     "id": "tm-bts-2026-arlington-z7r9jz1a7oout",
     "artist_slug": "bts",
     "artist_name": "BTS",
-    "event_name": "BTS WORLD TOUR 'ARIRANG' IN ARLINGTON",
+    "event_name": "BTS WORLD TOUR",
     "city": "Arlington",
     "country": "United States Of America",
     "venue": "AT&T Stadium",
@@ -18602,7 +18602,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -19544,7 +19544,7 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
-    "datetime_iso": "2026-08-04T01:00:00Z",
+    "datetime_iso": "2026-08-04T02:00:00Z",
     "tour_name": "The Eternal Sunshine Tour",
     "ticketmaster_event_id": "04006319DDEA2CD5",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
@@ -19552,7 +19552,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-07-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -19560,7 +19560,7 @@
         "discovery_event_id": "vv1A7ZkG_GkdqBxS4",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -19802,7 +19802,7 @@
     "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8v",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Solna",
     "country": "Sweden",
     "venue": "Strawberry Arena",
@@ -19814,7 +19814,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8v",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -19854,7 +19854,7 @@
     "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8e",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Solna",
     "country": "Sweden",
     "venue": "Strawberry Arena",
@@ -19866,7 +19866,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8e",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -19906,7 +19906,7 @@
     "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz87",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Milan",
     "country": "Italy",
     "venue": "Ippodromo Snai La Maura",
@@ -19918,7 +19918,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ87",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -19958,7 +19958,7 @@
     "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz8a",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Milan",
     "country": "Italy",
     "venue": "Ippodromo Snai La Maura",
@@ -19970,7 +19970,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -20010,7 +20010,7 @@
     "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Brussels",
     "country": "Belgium",
     "venue": "Stade Roi Boudoin - Brussels",
@@ -20022,7 +20022,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -21120,7 +21120,7 @@
     "id": "tm-summer-walker-2026-chicago-vvg18z_uroiect",
     "artist_slug": "summer-walker",
     "artist_name": "Summer Walker",
-    "event_name": "Summer Walker: Still Finally Over It Tour",
+    "event_name": "Summer Walker",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "Credit Union 1 Arena at UIC",
@@ -21132,7 +21132,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-07-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -21140,7 +21140,7 @@
         "discovery_event_id": "vvG18Z_urOiEcT",
         "url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {

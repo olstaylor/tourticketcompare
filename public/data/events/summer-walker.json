@@ -427,7 +427,7 @@
     "id": "tm-summer-walker-2026-london-1agzk8mgkdnfpsx",
     "artist_slug": "summer-walker",
     "artist_name": "Summer Walker",
-    "event_name": "",
+    "event_name": "Summer Walker",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -439,7 +439,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "35006437EA516C62",
@@ -480,7 +480,7 @@
     "id": "tm-summer-walker-2026-london-1agzk8ugkeefegp",
     "artist_slug": "summer-walker",
     "artist_name": "Summer Walker",
-    "event_name": "",
+    "event_name": "Summer Walker",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -492,7 +492,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "35006436A7502325",
@@ -638,7 +638,7 @@
     "id": "tm-summer-walker-2026-chicago-vvg18z_uroiect",
     "artist_slug": "summer-walker",
     "artist_name": "Summer Walker",
-    "event_name": "Summer Walker: Still Finally Over It Tour",
+    "event_name": "Summer Walker",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "Credit Union 1 Arena at UIC",
@@ -650,7 +650,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-07-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -658,7 +658,7 @@
         "discovery_event_id": "vvG18Z_urOiEcT",
         "url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {

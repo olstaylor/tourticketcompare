@@ -1082,8 +1082,8 @@
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
-    "city": "Milano",
+    "event_name": "Bad Bunny",
+    "city": "Milan",
     "country": "Italy",
     "venue": "Ippodromo SNAI La Maura",
     "datetime_iso": "2026-07-17T20:45:00",
@@ -1096,13 +1096,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
         "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-07",
         "availability_status": "on_sale",
         "discovery_event_id": "Z7r9jZ1A7xZ87"
       },
@@ -1135,8 +1135,8 @@
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
-    "city": "Milano",
+    "event_name": "Bad Bunny",
+    "city": "Milan",
     "country": "Italy",
     "venue": "Ippodromo SNAI La Maura",
     "datetime_iso": "2026-07-18T20:45:00",
@@ -1149,13 +1149,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
         "url": "https://shop.ticketmaster.it/partner/biglietti/bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-07",
         "availability_status": "on_sale",
         "discovery_event_id": "Z7r9jZ1A7xZ8A"
       },
@@ -1395,7 +1395,7 @@
     "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8v",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Solna",
     "country": "Sweden",
     "venue": "Strawberry Arena",
@@ -1407,7 +1407,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8v",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1447,7 +1447,7 @@
     "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8e",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Solna",
     "country": "Sweden",
     "venue": "Strawberry Arena",
@@ -1459,7 +1459,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8e",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1499,7 +1499,7 @@
     "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz87",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Milan",
     "country": "Italy",
     "venue": "Ippodromo Snai La Maura",
@@ -1511,7 +1511,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ87",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1551,7 +1551,7 @@
     "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz8a",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Milan",
     "country": "Italy",
     "venue": "Ippodromo Snai La Maura",
@@ -1563,7 +1563,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1603,7 +1603,7 @@
     "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
+    "event_name": "Bad Bunny",
     "city": "Brussels",
     "country": "Belgium",
     "venue": "Stade Roi Boudoin - Brussels",
@@ -1615,7 +1615,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

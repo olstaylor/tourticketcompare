@@ -1322,7 +1322,7 @@
     "city": "Chicago",
     "country": "United States",
     "venue": "United Center",
-    "datetime_iso": "2026-08-03T20:00:00",
+    "datetime_iso": "2026-08-04T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced",
@@ -1332,13 +1332,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "04006319DDEA2CD5",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-07",
         "availability_status": "on_sale",
         "discovery_event_id": "vv1A7ZkG_GkdqBxS4"
       },
@@ -2803,7 +2803,7 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
-    "datetime_iso": "2026-08-04T01:00:00Z",
+    "datetime_iso": "2026-08-04T02:00:00Z",
     "tour_name": "The Eternal Sunshine Tour",
     "ticketmaster_event_id": "04006319DDEA2CD5",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
@@ -2811,7 +2811,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-07-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2819,7 +2819,7 @@
         "discovery_event_id": "vv1A7ZkG_GkdqBxS4",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {

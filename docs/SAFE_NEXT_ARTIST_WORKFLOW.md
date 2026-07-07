@@ -356,15 +356,24 @@ git diff --check
 
 5. **`tour_name` confirmed from the event page, not the URL.** URL slugs like `artist-the-tour-name-city-venue` are evidence, not proof. Open the event page and read the displayed tour name.
 
-6. **Batch size: 1 artist per Promote or Events PR.** Never promote two artists concurrently, and never add events for artist B in the same PR as work for artist A. Exception: the **Shell** phase may batch up to 3 shells in one automated PR (`tm-discovery-shell-pr.mjs`) — shells carry no CTAs and are noindex, so the blast radius is content-only.
+6. **Batch size: 1 artist per Promote or Events PR** on this single-artist path. Never promote two artists concurrently, and never add events for artist B in the same PR as work for artist A. The batch onboarding path (`npm run artists:onboard:propose` → shells → `npm run artists:promote:batch`) may carry up to 20 artists per PR because it enforces a per-artist human browser spot-check checklist in the PR body — see "Batch onboarding" below.
 
 7. **`shows.js` and `signup.js` are derived — never hand-edit per artist.** `ARTIST_LINKS_BY_PROVIDER` in `functions/api/shows.js` is built at module load from `VERIFIED_TICKET_LINKS` in `out.js`; the signup allowlist in `functions/api/signup.js` is loaded from `artists.json` at runtime. `validate-artist.mjs` (`npm run artist:check`, accepts multiple slugs) verifies the derived shows.js map per artist-level provider for promoted artists.
 
 ---
 
+## Which tooling when (batch onboarding vs this doc)
+
+Two supported paths, both fully human-gated:
+
+- **Batch onboarding (preferred for roster growth):** `npm run artists:onboard:propose` builds an API-captured SeatGeek/Ticketmaster identity manifest for a supplied name list; after human review, shells are created and `npm run artists:promote:batch` (dry-run by default; `--write` to apply) promotes up to 20 artists per PR with a per-artist human browser spot-check checklist in the PR body. Identity URLs are always API-captured (registry-verified ids), never constructed from names.
+- **Single-artist path (this doc):** the phased Proposal → Shell → Promote → Events process below, using `npm run artist:promote -- --slug <slug>` (accepts `--url` with a browser-verified URL) and `npm run artists:apply-preview` for event batches.
+- **New events for existing artists** arrive via the scheduled discovery PR (`tm-new-shows-pr.yml`, see `docs/PROVIDER_SYNC.md`); SeatGeek event-URL enrichment via `docs/SEATGEEK_DISCOVERY.md`.
+
+Validation for any path: `npm run artist:check -- <slug>`, `npm run validate:artist-providers`, `npm run test:mvp`, plus `npm run events:sync` whenever `public/data/*.json` changes.
+
 ## Related documents
 
-- `docs/ARTIST_SCALING_MAP.md` — index of existing tooling mapped to each phase (which command to run when)
 - `docs/ADDING_ARTISTS.md` — field-level templates, required fields, and example placeholder format
 - `docs/CONTENT_RULES.md` — full content and data rules
 - `docs/PROVIDER_DATA_POLICY.md` — provider link rules (plain Ticketmaster links; Impact-wrapped SeatGeek/Vivid Seats)

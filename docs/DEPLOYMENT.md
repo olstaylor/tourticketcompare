@@ -22,7 +22,6 @@ Run syntax checks:
 ```bash
 node --check "functions/[[path]].js"
 node --check functions/api/shows.js
-node --check functions/api/click.js
 node --check functions/api/health.js
 node --check functions/sitemap.xml.js
 node --check public/app.js

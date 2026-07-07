@@ -1,5 +1,7 @@
 # Stale-File Audit (Issue #176)
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-07-07.)
+
 _Audit date: 2026-06-03. **Update 2026-06-19: candidates #1, #2, #3 deleted** (Vercel pair + standalone Worker builder + the `_route-metadata.js` comment) after owner authorisation; #4 and #5 left in place. `test:mvp` green post-deletion. The classification table below is retained as the audit record._
 
 Evidence-backed classification of legacy / inactive artefacts called out in `CLAUDE.md`

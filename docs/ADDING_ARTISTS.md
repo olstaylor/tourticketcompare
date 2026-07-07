@@ -342,7 +342,7 @@ Artist routes derive title, description, H1, canonical, and breadcrumbs dynamica
 
 ## Related Documents
 
-- `docs/ARTIST_SCALING_MAP.md` — index of existing tooling mapped to each phase (which command to run when)
+- `docs/SAFE_NEXT_ARTIST_WORKFLOW.md` § "Which tooling when" — batch onboarding vs the single-artist path
 - `docs/CONTENT_RULES.md` — full content and data rules
 - `docs/PROVIDER_DATA_POLICY.md` — provider feed, pricing, and affiliate policy
 - `docs/ARCHITECTURE.md` — routing model and data bindings

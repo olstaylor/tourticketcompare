@@ -10,21 +10,22 @@ Created 2026-06-11 (repo documentation cleanup). This doc explains which files a
 |---|---|---|
 | `CLAUDE.md` | Contributor/AI brief: protected areas, hard rules, working style | Protected areas, rules, or repo structure change |
 | `PROJECT_STATUS.md` | Current-state snapshot: data counts, per-artist table, bindings, active risks | Any data PR merges (artists, events, guides), bindings change, risks open/close. **Recount from `public/data/*.json` and `functions/api/out.js`; do not trust prior text.** |
-| `BACKLOG.md` | Prioritised work, each item tied to a GitHub issue | Issues open/close or change priority. Owner-managed — agents may correct facts (dated, flagged) but not reorder or re-scope priorities. Also read by `scripts/tm-discovery-shell-pr.mjs` for PR bodies — do not rename or move it. |
+| `BACKLOG.md` | Prioritised active work and the parked list | Work items open/close or change priority. Owner-managed — agents may correct facts (dated, flagged) but not reorder or re-scope priorities. |
 
 If these three disagree with the repo, the repo wins — fix the doc.
 
 ## Reference tier (authoritative for their topic, stable)
 
-- Root: `PROJECT_BRIEF.md` (product overview), `SAFE_PUBLISHING_RULES.md` (non-negotiable rules), `CONTRIBUTING.md` (setup/validation/PR checklist), `README.md` (quick start).
-- `docs/`: `ARCHITECTURE.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ADDING_ARTISTS.md`, `SAFE_NEXT_ARTIST_WORKFLOW.md`, `ARTIST_SCALING_MAP.md`, `ADDING_PROVIDERS.md`, `AI_AGENT_WORKFLOW.md`, `VALIDATION_CHECKLIST.md`, `SEATGEEK_DISCOVERY.md`, `PROVIDER_SYNC.md`, `GROWTH_PIPELINE.md`, `provider-candidate-pipeline.md`, `TM_DISCOVERY_AUTOMATION.md`, `STALE_FILE_AUDIT.md` (issue #176 evidence — current until #176 is actioned).
+- Root: `SAFE_PUBLISHING_RULES.md` (non-negotiable rules), `CONTRIBUTING.md` (setup/validation/PR checklist), `README.md` (public intro + quick start).
+- `docs/`: `ARCHITECTURE.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ADDING_ARTISTS.md`, `SAFE_NEXT_ARTIST_WORKFLOW.md`, `ADDING_PROVIDERS.md`, `SEATGEEK_DISCOVERY.md`, `PROVIDER_SYNC.md`.
+
+(Consolidated 2026-07-07: `PROJECT_BRIEF.md`, `AI_AGENT_WORKFLOW.md`, and `VALIDATION_CHECKLIST.md` were merged into `CLAUDE.md`/`README.md`/`CONTRIBUTING.md`; `ARTIST_SCALING_MAP.md` into `SAFE_NEXT_ARTIST_WORKFLOW.md`; `STALE_FILE_AUDIT.md`, `TM_DISCOVERY_AUTOMATION.md`, and `provider-candidate-pipeline.md` moved to `docs/archive/`; `GROWTH_PIPELINE.md` deleted with its tooling.)
 
 ## Generated / machine-read files — do not hand-edit or move
 
 | File | Written/read by | Note |
 |---|---|---|
 | `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md` | Written by `scripts/enrich-seatgeek-events.mjs` (`LOG_PATH` is hardcoded) | Regenerated on every enrichment run. Never archive or relocate the live copy; a historical snapshot sits in `docs/archive/`. |
-| `BACKLOG.md` | Read by `scripts/tm-discovery-shell-pr.mjs` | Content edits are fine; renaming/moving breaks the script. |
 | `public/index.html` (inlined data block) | Written by `scripts/sync-events-data.py` (`npm run events:sync`) | Not a doc, listed here because it looks hand-editable and is not. |
 
 ## Pointer stubs (keep at root, do not expand)
@@ -41,7 +42,7 @@ Archive a doc when it is a point-in-time audit/log/case study that no longer des
 3. Add an entry to `docs/archive/INDEX.md` (date, one-line reason, where the current truth lives).
 4. Fix any links that pointed at the old path (`grep -rn "<filename>" --include="*.md" .`).
 
-Delete (rather than archive) only obvious junk with no runtime, validation, workflow, or historical value. When unsure, keep the file and flag it for human review in the PR description. Code artefacts (e.g. `vercel.json`, `api/`, `scripts/build-standalone-worker.mjs`) are governed by `docs/STALE_FILE_AUDIT.md` / issue #176 — not by this doc.
+Delete (rather than archive) only obvious junk with no runtime, validation, workflow, or historical value. When unsure, keep the file and flag it for human review in the PR description. Code artefacts are out of scope for this doc — stale code needs its own evidence-backed audit and owner approval (precedent: `docs/archive/STALE_FILE_AUDIT.md` / issue #176, completed by the 2026-07-07 cleanup).
 
 ## Drift checks
 

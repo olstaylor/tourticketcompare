@@ -1,6 +1,6 @@
 # Safe Publishing Rules
 
-_Reviewed current: 2026-06-03._
+_Reviewed current: 2026-07-07._
 
 Non-negotiable rules for TourTicketCompare. Violating these compromises the site's integrity or affiliate agreements.
 
@@ -30,7 +30,9 @@ Artist pages may exist in `indexing_status: "review_required"` with no CTAs. Thi
 
 Pages become indexable and conversion-led only after completing the phase gates in [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md). Do not set `indexing_status: "indexable_with_substantial_content"` without human browser verification of the live ticket URL.
 
-**New artists and events are never auto-published.** Discovery tooling (Ticketmaster / SeatGeek) may only *propose* candidates for human review. Promotion to indexable, and any `VERIFIED_TICKET_LINKS` / `/api/out` entry, require a human to verify the live ticket URL in a browser and to follow the phase gates. New-artist onboarding is no longer parked (lifted 2026-06-10), but every artist must still pass these gates — start from a `review_required` shell per `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`.
+**New artists are never auto-published.** Discovery tooling may only *propose* new artists for human review. Promotion to indexable, and any `VERIFIED_TICKET_LINKS` / `/api/out` entry, require a human to verify the live ticket URL in a browser and to follow the phase gates. New-artist onboarding is no longer parked (lifted 2026-06-10), but every artist must still pass these gates — start from a `review_required` shell per `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`.
+
+**New events: one narrow auto-publish exception (owner-approved 2026-07-07).** The daily Ticketmaster new-show loop (`.github/workflows/tm-new-shows-pr.yml` → `scripts/sync-tm-events-write-pr.mjs --write-pr --auto-merge`) may squash-merge its own PR for **new shows of registry-verified, `sync_enabled` artists only**, and only after the full validation suite (apply-artists validate-with-rollback, `test:mvp`, `git diff --check`) has passed in the same job on exactly the proposed content. Everything else stays human-gated: withheld/risky rows are never written, `tour_name` is never inferred (#172), link publishability still classifies short-form/non-canonical URLs as `needs_recheck` (CTA-suppressed), and a failed merge leaves the PR open for a human — it is never forced. SeatGeek discovery remains propose-only.
 
 ## Price Display
 
@@ -68,14 +70,14 @@ Pages become indexable and conversion-led only after completing the phase gates 
 ## Discovery, Enrichment, and Rendering
 
 - SeatGeek is **artist-level and event-level** (artist-level unparked and shipped 2026-07-02). Artist-level destinations must be performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for a registry-verified performer id — never constructed from names. Any SeatGeek price display remains parked. Enrichment auto-apply is limited to high-confidence event-URL matches (logged); price snapshots write only to D1 and never enable display.
-- **Nightly authoritative field-sync** (`.github/workflows/nightly-data-sync.yml` → `scripts/apply-tm-updates.mjs`) may auto-commit **lossless factual updates to events that already exist in `events.json`** — date/time, venue/city, and the canonical Ticketmaster URL (refreshed so the `/event/<id>` slug and the `out.js` event-id match stay valid) — sourced directly from the Ticketmaster Discovery API for that exact event id. This is the only sanctioned auto-commit to `events.json`, and it is gated on `events:validate:prod` passing. It is **not** licence to auto-publish anything new or unverified: brand-new shows (discovery/proposal PR flow), event deletions (404/410), cancelled/postponed status (no safe local enum), and `tour_name` (verification-gated, issue #172) are **never auto-applied** — they are surfaced in the rolling `automation:data-sync` issue for human review.
+- **Nightly authoritative field-sync** (`.github/workflows/nightly-data-sync.yml` → `scripts/apply-tm-updates.mjs`) may auto-commit **lossless factual updates to events that already exist in `events.json`** — date/time, venue/city, the official listing title (`event_name`, verbatim Discovery API `name`; owner-approved 2026-07-07), and the canonical Ticketmaster URL (refreshed so the `/event/<id>` slug and the `out.js` event-id match stay valid) — sourced directly from the Ticketmaster Discovery API for that exact event id. This sanctioned auto-commit to `events.json` is gated on `events:validate:prod` and the smoke suite passing, and updates are only applied to events with zero review blockers of their own. It is **not** licence to auto-publish anything unverified: event deletions (404/410), cancelled/postponed status (no safe local enum), and `tour_name` (verification-gated, issue #172) are **never auto-applied** — they are surfaced in the rolling `automation:data-sync` issue for human review. Brand-new shows go through the discovery PR flow above (auto-merged only under its owner-approved exception).
 - Every non-root route must return route-specific H1, title, and canonical in raw HTML (SSR via `functions/[[path]].js`). Smoke tests assert this; production proof for issue #10 is a human curl/browser checklist.
 
 ## What AI Agents May Not Change Without an Explicit Scoped Issue
 
 - Protected code/data: `functions/api/out.js`, `functions/_middleware.js`, `functions/[[path]].js`, `functions/_route-metadata.js`, `public/_routes.json`, and records in `public/data/{artists,catalog,events}.json`.
 - Impact credentials and affiliate/CTA destination generation.
-- Agents must not invent data, scrape providers, auto-publish artists/events, or create new governance docs. Edit the canonical docs (`CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`) instead of adding parallel ones.
+- Agents must not invent data, scrape providers, auto-publish artists, or create new governance docs. Auto-publishing events is allowed only via the two sanctioned automation paths above (the validated new-show auto-merge and the nightly lossless field-sync) — never ad hoc. Edit the canonical docs (`CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`) instead of adding parallel ones.
 
 ## Dev and Placeholder Content
 

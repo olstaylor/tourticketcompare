@@ -140,7 +140,7 @@ def main() -> int:
                 "datetime_iso": norm(row.get("datetime_iso")),
             }
 
-            for k in ("tour_name", "timezone", "status"):
+            for k in ("event_name", "tour_name", "timezone", "status"):
                 v = optional(row.get(k))
                 if v is not None:
                     event[k] = v

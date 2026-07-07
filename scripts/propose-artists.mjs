@@ -34,6 +34,7 @@ const CSV_COLUMNS = [
   "venue",
   "datetime_iso",
   "timezone",
+  "event_name",
   "tour_name",
   "status",
   "ticketmaster_event_id",
@@ -472,6 +473,9 @@ function mapEvent(artistSlug, artistName, tmEvent) {
       venue: clean(venue?.name),
       datetime_iso: datetimeIso,
       timezone: clean(start.timeZone || tmEvent?.dates?.timezone),
+      // Verbatim official listing title from the Discovery API — a
+      // provider-sourced fact, same trust level as date/venue.
+      event_name: clean(tmEvent?.name, 512),
       tour_name: "", // Never inferred: Ticketmaster does not return a tour name.
       status: discoveryStatusToStatus(tmEvent?.dates?.status?.code),
       // Taken from the URL path, not tmEvent.id: /api/out requires this id to

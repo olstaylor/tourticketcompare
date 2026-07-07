@@ -5,7 +5,9 @@
 // Ticketmaster write-to-PR mode (provider-sync sequence step 3 —
 // docs/PROVIDER_SYNC.md). This is the explicitly-gated, PR-based write step
 // that sits on top of the dry-run recogniser. It NEVER writes to events.json
-// directly and NEVER commits to main:
+// directly and NEVER commits to main directly (with --auto-merge, main only
+// changes through a squash-merged PR whose content passed the full in-run
+// validation suite):
 //
 //   1. Reads the dry-run recogniser report (scripts/sync-ticketmaster-events.py
 //      --json) — either a pre-generated --report file, or by running the
@@ -19,8 +21,12 @@
 //      needs_recheck), events.json serialization, partition + fallback
 //      regeneration, and validate-with-rollback. No data logic is duplicated
 //      here.
-//   4. Runs the full validation suite, then opens a branch + PR for human
-//      review (mirroring scripts/tm-discovery-shell-pr.mjs).
+//   4. Runs the full validation suite, then opens a branch + PR (mirroring
+//      scripts/tm-discovery-shell-pr.mjs). With --auto-merge the PR is
+//      squash-merged immediately (owner-approved 2026-07-07): validation
+//      already ran in-process on exactly this content, and bot-opened PRs do
+//      not trigger pull_request CI. A failed merge leaves the PR open for a
+//      human — never forced.
 //
 // Default mode is PREVIEW: it emits the batch and runs apply-artists in
 // preview (no --write), touching no tracked data and creating no PR. Only
@@ -29,6 +35,8 @@
 // local commit).
 //
 // Safety properties (see SAFE_PUBLISHING_RULES.md / docs/PROVIDER_SYNC.md):
+//   - event_name is the verbatim Ticketmaster Discovery API listing title —
+//     provider-sourced fact, never constructed locally.
 //   - tour_name is never inferred (left blank for human verification, #172).
 //   - Only registry-eligible, sync_enabled, verified artists are processed
 //     (the recogniser enforces this; this script trusts its report).
@@ -69,6 +77,7 @@ const CSV_COLUMNS = [
   "venue",
   "datetime_iso",
   "timezone",
+  "event_name",
   "tour_name",
   "status",
   "ticketmaster_event_id",
@@ -115,8 +124,10 @@ function buildEventId(slug, datetimeIso, city, discoveryId) {
 }
 
 // Maps one recogniser report row (status code resolved already, storefront URL
-// resolved already) into a candidate CSV row object. tour_name is always blank
-// — never inferred from a URL slug (#172).
+// resolved already) into a candidate CSV row object. event_name is the official
+// Ticketmaster Discovery API listing title, carried verbatim (a provider-sourced
+// fact, same trust level as date/venue). tour_name is always blank — never
+// inferred from a URL slug or a listing title (#172); a human supplies it.
 function buildCsvRow(reportRow, slug, artistName) {
   const discoveryId = clean(reportRow.ticketmaster_discovery_event_id);
   return {
@@ -128,6 +139,7 @@ function buildCsvRow(reportRow, slug, artistName) {
     venue: clean(reportRow.venue),
     datetime_iso: clean(reportRow.datetime_iso),
     timezone: clean(reportRow.timezone),
+    event_name: clean(reportRow.event_name),
     tour_name: "",
     status: statusFromCode(reportRow.status_code),
     ticketmaster_event_id: clean(reportRow.ticketmaster_event_id),
@@ -297,7 +309,7 @@ async function githubApi(pathname, { method = "GET", body } = {}) {
 }
 
 function parseArgs(argv) {
-  const options = { report: "", artist: "", allApproved: false, outDir: "", writePr: false, noPr: false, selfTest: false, help: false };
+  const options = { report: "", artist: "", allApproved: false, outDir: "", writePr: false, noPr: false, autoMerge: false, selfTest: false, help: false };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     switch (arg) {
@@ -307,6 +319,7 @@ function parseArgs(argv) {
       case "--out-dir": options.outDir = clean(argv[(i += 1)]); break;
       case "--write-pr": options.writePr = true; break;
       case "--no-pr": options.noPr = true; break;
+      case "--auto-merge": options.autoMerge = true; break;
       case "--self-test": options.selfTest = true; break;
       case "-h":
       case "--help": options.help = true; break;
@@ -326,6 +339,10 @@ function usage() {
     "  --out-dir <dir>     where to write the candidate batch (default artifacts/tm-events/<date>)",
     "  --write-pr          apply events + commit + open PR (default is preview only)",
     "  --no-pr             with --write-pr: commit locally but do not open the GitHub PR",
+    "  --auto-merge        with --write-pr: squash-merge the PR immediately after opening it",
+    "                      (owner-approved 2026-07-07; safe because the full validation",
+    "                      suite ran in this process on exactly this content — on any",
+    "                      merge failure the PR is left open for a human instead)",
     "  --self-test         offline pure-function tests",
     "",
     "Default (no --write-pr) is preview: emits the batch and runs apply-artists",
@@ -339,7 +356,8 @@ function selfTest() {
   const checks = [];
   const assert = (label, pass) => checks.push({ label, pass: !!pass });
 
-  assert("CSV_COLUMNS matches the propose-artists schema length", CSV_COLUMNS.length === 17);
+  assert("CSV_COLUMNS matches the propose-artists schema length", CSV_COLUMNS.length === 18);
+  assert("CSV_COLUMNS carries the event_name column", CSV_COLUMNS.includes("event_name"));
   assert("slugify normalises accents and spaces", slugify("São Paulo") === "sao-paulo");
   assert("statusFromCode maps onsale", statusFromCode("onsale") === "on-sale");
   assert("statusFromCode is conservative for unknown", statusFromCode("") === "announced");
@@ -359,11 +377,14 @@ function selfTest() {
     venue: "The O2",
     city: "London",
     country: "United Kingdom",
+    event_name: "RAYE: This Tour May Contain New Music",
     status_code: "onsale",
     disposition: "proposed",
   };
   const csvRow = buildCsvRow(longRow, "raye", "RAYE");
   assert("buildCsvRow keeps every CSV column", CSV_COLUMNS.every((c) => c in csvRow));
+  assert("buildCsvRow carries the API listing title verbatim as event_name", csvRow.event_name === longRow.event_name);
+  assert("buildCsvRow blanks event_name when the API listing has none", buildCsvRow({ ...longRow, event_name: "" }, "raye", "RAYE").event_name === "");
   assert("buildCsvRow never infers tour_name", csvRow.tour_name === "");
   assert("buildCsvRow carries the resolved storefront url", csvRow.ticketmaster_url === longRow.ticketmaster_url);
   assert("buildCsvRow blanks marketplace columns", csvRow.seatgeek_url === "" && csvRow.vividseats_url === "");
@@ -536,22 +557,25 @@ async function main() {
     "## What this PR does",
     `- Adds ${proposedRows.length} recognised Ticketmaster event(s) for \`${slugs.join("`, `")}\` from the dry-run recogniser, applied through \`scripts/apply-artists.mjs\` (the canonical events writer).`,
     "- Link publishability is classified by apply-artists: canonical long-form storefront URLs become `machine_high_confidence` (CTAs render); short-form `/event/<id>` and any non-canonical URL become `needs_recheck` (URL preserved, CTA suppressed). See the apply-artists output for the per-row split.",
+    "- `event_name` is populated verbatim from the Ticketmaster Discovery API listing title (the same provider source as date/venue).",
     "",
     "## Withheld (not in this PR)",
     `- ${withheld.length} recognised event(s) were withheld for human review — see \`withheld-review.md\` in the batch artifact. They are NOT written here.`,
     "",
     "## Explicit non-changes",
-    "- `tour_name` is left blank on every new row — never inferred from a URL slug (#172). A human must verify the official tour name in a follow-up.",
+    "- `tour_name` is left blank on every new row — never inferred from a URL slug or listing title (#172). A human supplies the official tour name in a follow-up.",
     "- No changes to `functions/api/out.js`, `VERIFIED_TICKET_LINKS`, or affiliate logic.",
     "- No prices or availability claims.",
-    "- No auto-merge.",
+    options.autoMerge
+      ? "- Auto-merged after the in-run validation suite passed (owner-approved 2026-07-07). Withheld rows still require a human."
+      : "- No auto-merge.",
     "",
     "## Validation run before this PR",
     "- `apply-artists.mjs --write` (validate → partition → sync → validate, with rollback on failure)",
     "- `npm run test:mvp`",
     "- `git diff --check`",
     "",
-    "## Human review checklist",
+    "## Human review checklist" + (options.autoMerge ? " (post-merge spot check)" : ""),
     "- [ ] Each added event is a real, upcoming, correctly-attributed show.",
     "- [ ] `machine_high_confidence` rows resolve to a working storefront page in a browser.",
     "- [ ] Verify and add the official `tour_name` (or open a follow-up).",
@@ -567,6 +591,38 @@ async function main() {
   coverage.pr = { number: pr.number, url: pr.html_url };
   await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
   console.log(`\nCreated PR #${pr.number} for ${slugs.join(", ")}.`);
+
+  if (options.autoMerge) {
+    // Owner-approved narrow auto-publish exception (2026-07-07, see
+    // SAFE_PUBLISHING_RULES.md): new shows of registry-verified, sync-enabled
+    // artists may merge without a human once the full validation suite has
+    // passed in this same process on exactly this content. Bot-opened PRs do
+    // not trigger pull_request CI, so the in-run suite above IS the check.
+    // Withheld rows were never written; tour_name stays human-gated.
+    try {
+      await githubApi(`/repos/${owner}/${name}/pulls/${pr.number}/merge`, {
+        method: "PUT",
+        body: { merge_method: "squash", commit_title: `${prTitle} (#${pr.number})` },
+      });
+      coverage.pr.merged = true;
+      await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
+      console.log(`Auto-merged PR #${pr.number} (squash).`);
+      await githubApi(`/repos/${owner}/${name}/git/refs/heads/${branch}`, { method: "DELETE" }).catch((err) => {
+        console.warn(`Could not delete merged branch ${branch}: ${err.message}`);
+      });
+    } catch (err) {
+      // Fallback path: never force it. Leave the PR open for a human and say why.
+      coverage.pr.merged = false;
+      await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
+      console.warn(`Auto-merge of PR #${pr.number} failed: ${err.message}`);
+      await githubApi(`/repos/${owner}/${name}/issues/${pr.number}/comments`, {
+        method: "POST",
+        body: { body: `Auto-merge failed (\`${String(err.message || err).slice(0, 300)}\`). The in-run validation suite passed, but this PR now needs a human to resolve and merge it.` },
+      }).catch((commentErr) => {
+        console.warn(`Could not comment on PR #${pr.number}: ${commentErr.message}`);
+      });
+    }
+  }
   return 0;
 }
 

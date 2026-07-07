@@ -259,7 +259,10 @@ function buildEvent(row, verificationStatus = "needs_recheck") {
     id: clean(row.id),
     artist_slug: clean(row.artist_slug),
     artist_name: clean(row.artist_name),
-    event_name: "",
+    // Verbatim official listing title from the candidate row (sourced from the
+    // Ticketmaster Discovery API `name` field by the proposal tooling; blank
+    // when the batch predates the column). Never constructed locally.
+    event_name: clean(row.event_name),
     city: clean(row.city),
     country: clean(row.country),
     venue: clean(row.venue),
@@ -511,8 +514,16 @@ function runSelfTest() {
   assert("built event stores Discovery id top-level", event.ticketmaster_discovery_event_id === "vv1AAZkOVGkdF4IwR");
   assert("built event stores Discovery id in provider metadata", event.provider_links.ticketmaster.discovery_event_id === "vv1AAZkOVGkdF4IwR");
   assert("built event source_type is ticketmaster", event.source_type === "ticketmaster");
-  assert("built event never invents event_name", event.event_name === "");
+  assert("built event blanks event_name when the row has none", event.event_name === "");
+  assert(
+    "built event carries the row's API listing title verbatim as event_name",
+    buildEvent({ ...goodRow, event_name: "The Eternal Sunshine Tour" }).event_name === "The Eternal Sunshine Tour"
+  );
   assert("built event never invents tour_name", event.tour_name === "");
+  assert(
+    "built event never carries a row tour_name (human-gated, #172)",
+    buildEvent({ ...goodRow, tour_name: "Should Not Pass Through" }).tour_name === ""
+  );
   assert("built event keeps last_verified_at null", event.last_verified_at === null);
 
   const existing = [{ id: "dup-1" }, { id: "keep-1" }];

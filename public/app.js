@@ -267,6 +267,40 @@ function buttonLink(label, href, variant = "primary") {
   return link(label, href, `button button-${variant}`);
 }
 
+function showAnchorId(show) {
+  const id = slugify(show?.id);
+  return id ? `show-${id}` : "";
+}
+
+async function copyTextToClipboard(value) {
+  const textValue = String(value || "");
+  if (!textValue) return false;
+  if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+    await navigator.clipboard.writeText(textValue);
+    return true;
+  }
+  const textarea = document.createElement("textarea");
+  textarea.value = textValue;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+  document.body.append(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  textarea.remove();
+  return copied;
+}
+
+function renderCopyShowLinkAction(article) {
+  if (!article?.id) return null;
+  const action = document.createElement("button");
+  action.type = "button";
+  action.className = "text-link copy-show-link";
+  action.dataset.copyShowLink = article.id;
+  action.textContent = "Copy link to this date";
+  return action;
+}
+
 function createList(items, className) {
   const list = document.createElement("ul");
   if (className) list.className = className;
@@ -1292,12 +1326,16 @@ function vividSeatsOutAvailable(show, options = {}) {
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
+  const anchorId = showAnchorId(show);
+  if (anchorId) article.id = anchorId;
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
   text(article, "h3", show.event_name || show.artist_name || titleFallback);
   const date = formatShowDate(show.dateTimeISO);
   if (date) text(article, "p", date, "card-status");
   const location = showLocation(show);
   text(article, "p", location || "City and venue details are shown only when verified by the source.", "muted");
+  const copyAction = renderCopyShowLinkAction(article);
+  if (copyAction) article.append(copyAction);
 
   const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
   if (options.reviewGated) {
@@ -2426,5 +2464,24 @@ if (navToggle && navLinks) {
     closeNav();
   });
 }
+
+document.addEventListener("click", async (event) => {
+  const action = event.target?.closest?.("[data-copy-show-link]");
+  if (!action) return;
+  event.preventDefault();
+  const anchorId = String(action.getAttribute("data-copy-show-link") || "").trim();
+  if (!anchorId) return;
+  const showUrl = `${location.origin}${location.pathname}#${anchorId}`;
+  const originalLabel = action.textContent;
+  try {
+    await copyTextToClipboard(showUrl);
+    action.textContent = "Copied";
+  } catch (error) {
+    action.textContent = "Copy failed";
+  }
+  window.setTimeout(() => {
+    action.textContent = originalLabel || "Copy link to this date";
+  }, 1800);
+});
 
 render();

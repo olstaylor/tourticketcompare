@@ -206,7 +206,12 @@ function baseSchema(origin) {
       "@type": "WebSite",
       name: "TourTicketCompare",
       url: `${origin}/`,
-      description: "Independent ticket research for major live music tours with verified ticket links where available."
+      description: "Independent ticket research for major live music tours with verified ticket links where available.",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${origin}/?q={search_term_string}#search-widget`,
+        "query-input": "required name=search_term_string"
+      }
     }
   ];
 }

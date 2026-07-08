@@ -1,5 +1,7 @@
 # Provider Candidate Reporting Pipeline
 
+> **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added 2026-07-07.)
+
 `scripts/propose-provider-candidates.mjs` is a dry-run reporting tool for safe
 provider identity onboarding. It is designed to help review Ticketmaster
 attraction IDs before they are copied into `data/provider-identities.json` by a

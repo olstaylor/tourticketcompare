@@ -28,11 +28,11 @@
         "discovery_event_id": "G5vVZ_629N2Uz"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18131684,
+        "url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-10-3-30-am/concert/18131684",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -81,11 +81,11 @@
         "discovery_event_id": "G5vVZ_62_V8E5"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18131686,
+        "url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-11-8-pm/concert/18131686",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -134,11 +134,11 @@
         "discovery_event_id": "G5vVZ_62hqOtT"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18140262,
+        "url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-12-8-pm/concert/18140262",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -186,11 +186,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18296599,
+        "url": "https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-23-8-pm/concert/18296599",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

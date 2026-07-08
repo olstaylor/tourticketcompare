@@ -427,7 +427,7 @@
     "id": "tm-summer-walker-2026-london-1agzk8mgkdnfpsx",
     "artist_slug": "summer-walker",
     "artist_name": "Summer Walker",
-    "event_name": "",
+    "event_name": "Summer Walker",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -439,7 +439,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "35006437EA516C62",
@@ -480,7 +480,7 @@
     "id": "tm-summer-walker-2026-london-1agzk8ugkeefegp",
     "artist_slug": "summer-walker",
     "artist_name": "Summer Walker",
-    "event_name": "",
+    "event_name": "Summer Walker",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -492,7 +492,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "35006436A7502325",
@@ -593,7 +593,7 @@
     "tour_name": "Broccoli City 2026",
     "ticketmaster_event_id": "150064D7BFF48953",
     "ticketmaster_url": "https://www.ticketmaster.com/broccoli-city-2026-feat-summer-walker-bristow-virginia-09-19-2026/event/150064D7BFF48953",
-    "seatgeek_url": "https://seatgeek.com/summer-walker-tickets/bristow-virginia-jiffy-lube-live-2026-09-19-5-pm/concert/18331559",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/broccoli-city-2026-feat-summer-walker-bristow-virginia-09-19-2026/event/150064D7BFF48953",
@@ -613,7 +613,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -638,7 +638,7 @@
     "id": "tm-summer-walker-2026-chicago-vvg18z_uroiect",
     "artist_slug": "summer-walker",
     "artist_name": "Summer Walker",
-    "event_name": "Summer Walker: Still Finally Over It Tour",
+    "event_name": "Summer Walker",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "Credit Union 1 Arena at UIC",
@@ -650,7 +650,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-07-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -658,15 +658,15 @@
         "discovery_event_id": "vvG18Z_urOiEcT",
         "url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18328041,
+        "url": "https://seatgeek.com/summer-walker-tickets/chicago-illinois-credit-union-1-arena-at-uic-2026-10-16-7-30-pm/concert/18328041",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

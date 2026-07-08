@@ -6,7 +6,7 @@
 // nothing. With --write it performs the smallest safe apply: events only.
 //
 // It merges new candidate events into public/data/events.json (the
-// authoritative source of truth), never via data/events.csv. It never adds
+// authoritative source of truth). It never adds
 // artists or catalog links, never touches affiliate files, and never invents
 // event names, tour names, prices, availability, or marketing copy.
 
@@ -21,15 +21,10 @@ const EVENTS_JSON_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
 const EVENTS_INDEX_PATH = path.join(REPO_ROOT, "public", "data", "events-index.json");
 const EVENTS_PARTITION_DIR = path.join(REPO_ROOT, "public", "data", "events");
 const INDEX_HTML_PATH = path.join(REPO_ROOT, "public", "index.html");
-const EVENTS_CSV_PATH = path.join(REPO_ROOT, "data", "events.csv");
 
 const REQUIRED_FIELDS = ["id", "artist_slug", "artist_name", "city", "country", "venue", "datetime_iso"];
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const ALLOWED_STATUSES = new Set(["draft", "announced", "on-sale", "past"]);
-
-// Columns the existing events.json schema carries that the flat events.csv
-// schema cannot represent. Used to describe source-of-truth drift.
-const RICH_ONLY_FIELDS = ["event_name", "source_type", "source_url", "last_verified_at", "provider_links"];
 
 function usage() {
   return `Usage: node scripts/apply-artists.mjs --candidate <dir> [options]
@@ -259,7 +254,10 @@ function buildEvent(row, verificationStatus = "needs_recheck") {
     id: clean(row.id),
     artist_slug: clean(row.artist_slug),
     artist_name: clean(row.artist_name),
-    event_name: "",
+    // Verbatim official listing title from the candidate row (sourced from the
+    // Ticketmaster Discovery API `name` field by the proposal tooling; blank
+    // when the batch predates the column). Never constructed locally.
+    event_name: clean(row.event_name),
     city: clean(row.city),
     country: clean(row.country),
     venue: clean(row.venue),
@@ -364,16 +362,6 @@ function inspectProviderConvention(events) {
     if (tm.availability_status) availabilityValues.add(tm.availability_status);
   }
   return { total: events.length, withTm, verifiedCounts, availabilityValues: [...availabilityValues] };
-}
-
-function describeDrift(csvText) {
-  const { header, records } = csvToObjects(csvText);
-  return {
-    headerOnly: records.length === 0,
-    dataRows: records.length,
-    columnCount: header.length,
-    missingRichColumns: RICH_ONLY_FIELDS.filter((field) => !header.includes(field))
-  };
 }
 
 function line(label, value) {
@@ -511,8 +499,16 @@ function runSelfTest() {
   assert("built event stores Discovery id top-level", event.ticketmaster_discovery_event_id === "vv1AAZkOVGkdF4IwR");
   assert("built event stores Discovery id in provider metadata", event.provider_links.ticketmaster.discovery_event_id === "vv1AAZkOVGkdF4IwR");
   assert("built event source_type is ticketmaster", event.source_type === "ticketmaster");
-  assert("built event never invents event_name", event.event_name === "");
+  assert("built event blanks event_name when the row has none", event.event_name === "");
+  assert(
+    "built event carries the row's API listing title verbatim as event_name",
+    buildEvent({ ...goodRow, event_name: "The Eternal Sunshine Tour" }).event_name === "The Eternal Sunshine Tour"
+  );
   assert("built event never invents tour_name", event.tour_name === "");
+  assert(
+    "built event never carries a row tour_name (human-gated, #172)",
+    buildEvent({ ...goodRow, tour_name: "Should Not Pass Through" }).tour_name === ""
+  );
   assert("built event keeps last_verified_at null", event.last_verified_at === null);
 
   const existing = [{ id: "dup-1" }, { id: "keep-1" }];
@@ -606,10 +602,8 @@ async function main() {
   const { validRows, invalidRows, newRows, duplicateRows, semanticDuplicateGroups } = planMerge(existingEvents, candidateRows);
 
   const convention = inspectProviderConvention(existingEvents);
-  const drift = describeDrift(await fs.readFile(EVENTS_CSV_PATH, "utf8").catch(() => ""));
 
-  // Conditions that block a real --write run (the drift is handled by design,
-  // so it is a warning, not a blocker).
+  // Conditions that block a real --write run.
   const writeBlockers = [];
   if (report && clean(report.mode) !== "dry-run") writeBlockers.push("report.json mode is not 'dry-run'");
   if (invalidRows.length > 0) writeBlockers.push(`${invalidRows.length} invalid candidate row(s)`);
@@ -631,21 +625,6 @@ async function main() {
 
   out.push("SOURCE-OF-TRUTH CHECK");
   out.push(line("public/data/events.json:", `${existingEvents.length} events - AUTHORITATIVE live source (confirmed)`));
-  if (drift.headerOnly) {
-    out.push(line("data/events.csv:", `header-only (${drift.columnCount} columns, 0 data rows) - STALE`));
-    out.push("");
-    out.push("  >> SOURCE-OF-TRUTH DRIFT (warning, not a blocker)");
-    out.push(`     data/events.csv is header-only while events.json holds ${existingEvents.length} events.`);
-    if (drift.missingRichColumns.length > 0) {
-      out.push(`     The CSV schema is lossy: no column for ${drift.missingRichColumns.join(", ")}.`);
-    }
-    out.push("     This apply step merges into events.json directly and never runs");
-    out.push("     csv-to-events.py, so the stale CSV cannot corrupt live data.");
-    out.push("     Future cleanup: treat events.json as the single source of truth;");
-    out.push("     retire data/events.csv or regenerate it from events.json.");
-  } else {
-    out.push(line("data/events.csv:", `${drift.dataRows} data rows`));
-  }
   out.push("");
 
   out.push("CANDIDATE BATCH CONTENTS");

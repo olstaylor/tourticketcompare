@@ -263,7 +263,7 @@ async function main() {
   console.log(`  included: ${included.length}   excluded: ${excluded.length}`);
   for (const r of included) console.log(`  + ${r.slug}  (SG performer ${r.seatgeek.performer_id}, ${r.seatgeek.num_upcoming_events} upcoming${r.ticketmaster ? `; TM ${r.ticketmaster.attraction_id}` : '; no TM capture'})`);
   for (const r of excluded) console.log(`  - ${r.name}: ${r.exclusion}`);
-  console.log('\nNext: create shells for the included slugs (artists:tm-shell-pr or manual shell PR),');
+  console.log('\nNext: create shells for the included slugs (manual shell PR),');
   console.log('human-review the manifest, then run scripts/promote-artists-batch.mjs --manifest <path>.');
 }
 

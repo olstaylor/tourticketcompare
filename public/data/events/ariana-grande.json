@@ -654,11 +654,11 @@
         "discovery_event_id": "vvG1zZbsn2GsDo"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700805,
+        "url": "https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-08-8-pm/concert/17700805",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -707,11 +707,11 @@
         "discovery_event_id": "vvG1zZbwpXIJ1b"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724144,
+        "url": "https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-09-8-pm/concert/17724144",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -745,7 +745,7 @@
     "status": "announced",
     "ticketmaster_event_id": "30006319F0E94AA7",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-12-2026/event/30006319F0E94AA7",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-12-8-pm/concert/17700779",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-12-2026/event/30006319F0E94AA7",
@@ -764,7 +764,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -813,11 +813,11 @@
         "discovery_event_id": "1AYZkG_GkdS30nD"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700819,
+        "url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-13-8-pm/concert/17700819",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -866,11 +866,11 @@
         "discovery_event_id": "1AYZkG_GkdVkVnT"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700783,
+        "url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-16-8-pm/concert/17700783",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -919,11 +919,11 @@
         "discovery_event_id": "1AYZkG_GkdVEVlu"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700785,
+        "url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-18-8-pm/concert/17700785",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -972,11 +972,11 @@
         "discovery_event_id": "1aYZkGPFAvfZe27"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724146,
+        "url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-19-8-pm/concert/17724146",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1010,7 +1010,7 @@
     "status": "announced",
     "ticketmaster_event_id": "0100631AAEF23EE8",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-22-8-pm/concert/17700807",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
@@ -1029,7 +1029,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1063,7 +1063,7 @@
     "status": "announced",
     "ticketmaster_event_id": "0100631ACA626435",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-24-8-pm/concert/17700809",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
@@ -1082,7 +1082,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1131,11 +1131,11 @@
         "discovery_event_id": "vv1A8vN1aGACW-67"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724148,
+        "url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-25-8-pm/concert/17724148",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1184,11 +1184,11 @@
         "discovery_event_id": "1AsZkG_GkdqixiL"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700815,
+        "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-28-8-pm/concert/17700815",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1237,11 +1237,11 @@
         "discovery_event_id": "1AsZkG_GkdrCxiM"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700817,
+        "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-30-8-pm/concert/17700817",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1290,11 +1290,11 @@
         "discovery_event_id": "1AsZkG_GkdrMecG"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724151,
+        "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1322,7 +1322,7 @@
     "city": "Chicago",
     "country": "United States",
     "venue": "United Center",
-    "datetime_iso": "2026-08-03T20:00:00",
+    "datetime_iso": "2026-08-04T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced",
@@ -1332,22 +1332,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "04006319DDEA2CD5",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-07",
         "availability_status": "on_sale",
         "discovery_event_id": "vv1A7ZkG_GkdqBxS4"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700811,
+        "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1396,11 +1396,11 @@
         "discovery_event_id": "vv178ZbsGklLGK3v"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700813,
+        "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-05-8-pm/concert/17700813",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1449,11 +1449,11 @@
         "discovery_event_id": "vv1A7ZkGPGkecEw3E"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724381,
+        "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2399,11 +2399,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724144,
+        "url": "https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-09-8-pm/concert/17724144",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2452,11 +2452,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700819,
+        "url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-13-8-pm/concert/17700819",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2505,11 +2505,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700783,
+        "url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-16-8-pm/concert/17700783",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2558,11 +2558,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724146,
+        "url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-19-8-pm/concert/17724146",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2664,11 +2664,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724148,
+        "url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-25-8-pm/concert/17724148",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2717,11 +2717,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700815,
+        "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-28-8-pm/concert/17700815",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2770,11 +2770,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724151,
+        "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2803,7 +2803,7 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
-    "datetime_iso": "2026-08-04T01:00:00Z",
+    "datetime_iso": "2026-08-04T02:00:00Z",
     "tour_name": "The Eternal Sunshine Tour",
     "ticketmaster_event_id": "04006319DDEA2CD5",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
@@ -2811,7 +2811,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-07-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2819,15 +2819,15 @@
         "discovery_event_id": "vv1A7ZkG_GkdqBxS4",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17700811,
+        "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2876,11 +2876,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17724381,
+        "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

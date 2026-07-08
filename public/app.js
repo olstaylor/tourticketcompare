@@ -267,6 +267,40 @@ function buttonLink(label, href, variant = "primary") {
   return link(label, href, `button button-${variant}`);
 }
 
+function showAnchorId(show) {
+  const id = slugify(show?.id);
+  return id ? `show-${id}` : "";
+}
+
+async function copyTextToClipboard(value) {
+  const textValue = String(value || "");
+  if (!textValue) return false;
+  if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+    await navigator.clipboard.writeText(textValue);
+    return true;
+  }
+  const textarea = document.createElement("textarea");
+  textarea.value = textValue;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+  document.body.append(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  textarea.remove();
+  return copied;
+}
+
+function renderCopyShowLinkAction(article) {
+  if (!article?.id) return null;
+  const action = document.createElement("button");
+  action.type = "button";
+  action.className = "text-link copy-show-link";
+  action.dataset.copyShowLink = article.id;
+  action.textContent = "Copy link to this date";
+  return action;
+}
+
 function createList(items, className) {
   const list = document.createElement("ul");
   if (className) list.className = className;
@@ -366,9 +400,9 @@ function artistCardStatus(artist, events) {
     return {
       pending: false,
       badgeClass: "status-badge",
-      badge: "Verified event links",
-      detail: "Event-specific ticket links available",
-      cardStatus: "Event-specific ticket links are available on this artist page.",
+      badge: "Checked ticket options",
+      detail: "Verified event ticket links available",
+      cardStatus: "Verified event ticket links are available on this artist page.",
       ctaLabel: "View ticket links",
       ctaVariant: "primary"
     };
@@ -378,9 +412,9 @@ function artistCardStatus(artist, events) {
     return {
       pending: false,
       badgeClass: "status-badge",
-      badge: "Verified artist page",
-      detail: "Provider artist page available",
-      cardStatus: "Provider artist page available. Event-specific links appear when verified.",
+      badge: "Artist-level provider page",
+      detail: "No event-specific ticket link verified yet",
+      cardStatus: "Artist-level provider page available. No event-specific ticket link verified yet.",
       ctaLabel: "View artist page",
       ctaVariant: "primary"
     };
@@ -486,7 +520,7 @@ function buildVerificationDisclosurePanel(artist, shows = []) {
   [
     "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
     "We only show ticket destinations that pass our verification checks.",
-    "We do not display ticket prices or guarantee availability. Final prices, fees, and availability are confirmed by the provider before you pay.",
+    "We do not display ticket prices or guarantee availability. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.",
     "Some links may earn us a commission. That never changes which links we show."
   ].forEach((item) => {
     const li = document.createElement("li");
@@ -599,7 +633,7 @@ function renderProviderButtons(artist, surface) {
   text(
     panel,
     "p",
-    "Some links are affiliate links. This does not change your price. Final prices, fees, and availability are confirmed on the ticketing platform.",
+    "Some links are affiliate links. This does not change your price or which links we show. Providers control prices, availability, fees, delivery details, and checkout terms; confirm details on the provider site before buying.",
     "disclosure-note"
   );
   return panel;
@@ -759,11 +793,29 @@ function renderSearchResultItem(type, data) {
     const loc = [place, data.venue].filter(Boolean).join(" · ");
     nameEl.textContent = data.event_name || data.artist_name || "Verified show";
     desc.textContent = [dateStr, loc, data.tour_name].filter(Boolean).join(" — ");
-    const hasVerifiedLink = eventLinkPublishable(data) && Boolean(safeVerifiedEventUrl(data.ticketmaster_url));
-    if (hasVerifiedLink && data.id) {
-      const params = new URLSearchParams({ showId: data.id, provider: "ticketmaster" });
+    const showId = String(data.id || "").trim();
+    const eventCtaCandidates = [
+      {
+        provider: "seatgeek",
+        label: "Open verified SeatGeek event link",
+        available: providerEventPublishable(data, "seatgeek") && Boolean(safeSeatGeekEventUrl(data.seatgeek_url))
+      },
+      {
+        provider: "vivid-seats",
+        label: "Open verified Vivid Seats event link",
+        available: providerEventPublishable(data, "vivid-seats") && Boolean(safeVividSeatsEventUrl(data.vividseats_url))
+      },
+      {
+        provider: "ticketmaster",
+        label: "Open verified event link",
+        available: eventLinkPublishable(data) && Boolean(safeVerifiedEventUrl(data.ticketmaster_url))
+      }
+    ];
+    const eventCta = showId ? eventCtaCandidates.find((candidate) => candidate.available) : null;
+    if (eventCta) {
+      const params = new URLSearchParams({ showId, provider: eventCta.provider });
       ctaHref = `/api/out?${params.toString()}`;
-      ctaLabel = "Open verified event link";
+      ctaLabel = eventCta.label;
     } else {
       ctaHref = `/artists/${slugify(data.artist_slug || "")}`;
       ctaLabel = "Open artist guidance page";
@@ -1004,7 +1056,7 @@ function renderTrustSection() {
   text(panel, "p", "TourTicketCompare is independent and unofficial. We do not sell tickets.");
   text(panel, "p", "We only show ticket destinations that pass our verification checks.");
   text(panel, "p", "Some links may earn us a commission. That never changes which links we show, or the price you pay.");
-  text(panel, "p", "Final prices, fees, and availability are confirmed by the provider.");
+  text(panel, "p", "Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.");
   const links = document.createElement("p");
   links.append(
     document.createTextNode("Learn more: "),
@@ -1024,11 +1076,11 @@ async function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Find verified ticket links for major tours", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Find checked ticket options for major tours", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
-    "Verified ticket links and buying guidance for major tours. Open the checked provider page for your date and confirm final prices, fees, and availability with the provider.",
+    "Compare ticket options safely before you buy. Open verified provider links and confirm final prices, fees, availability, seat details, and delivery terms on the ticket provider site.",
     "hero-subcopy"
   );
   text(
@@ -1051,7 +1103,11 @@ async function renderHome() {
       target.scrollIntoView({ behavior: "smooth" });
     }
   });
-  actions.append(browseCta, buttonLink("Read buying guides", "/guides", "secondary"));
+  actions.append(
+    buttonLink("Compare concert ticket prices", "/compare-concert-ticket-prices", "primary"),
+    browseCta,
+    buttonLink("Read buying guides", "/guides", "secondary")
+  );
   copy.append(actions);
   hero.append(copy);
 
@@ -1080,8 +1136,8 @@ function renderArtistStatusLegend() {
   legend.className = "artist-status-legend";
   legend.setAttribute("aria-label", "Artist card status legend");
   const items = [
-    ["status-badge", "Verified event links", "Event-specific ticket links available"],
-    ["status-badge", "Verified artist page", "Provider artist page available"],
+    ["status-badge", "Checked ticket options", "Verified event ticket links available"],
+    ["status-badge", "Artist-level provider page", "No event-specific ticket link verified yet"],
     ["status-badge status-badge-muted", "Buying guidance", "Event links added after review"]
   ];
   items.forEach(([badgeClass, badge, detail]) => {
@@ -1292,12 +1348,16 @@ function vividSeatsOutAvailable(show, options = {}) {
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
+  const anchorId = showAnchorId(show);
+  if (anchorId) article.id = anchorId;
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
   text(article, "h3", show.event_name || show.artist_name || titleFallback);
   const date = formatShowDate(show.dateTimeISO);
   if (date) text(article, "p", date, "card-status");
   const location = showLocation(show);
   text(article, "p", location || "City and venue details are shown only when verified by the source.", "muted");
+  const copyAction = renderCopyShowLinkAction(article);
+  if (copyAction) article.append(copyAction);
 
   const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
   if (options.reviewGated) {
@@ -1321,13 +1381,13 @@ function renderShowCard(show, options = {}) {
       // stay per-card (smoke-asserted resale caution).
       const ctaSpecs = [];
       if (sgAvailable) {
-        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "View tickets on SeatGeek", secondaryLabel: "Check SeatGeek" });
+        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
       }
       if (vsAvailable) {
-        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "View tickets on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
       }
       if (tmAvailable) {
-        ctaSpecs.push({ provider: "ticketmaster", primaryLabel: ctaSpecs.length ? "Check Ticketmaster" : "View tickets", secondaryLabel: "Check Ticketmaster" });
+        ctaSpecs.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
       }
       const buttons = ctaSpecs.map((spec, index) => {
         const params = new URLSearchParams({ showId, provider: spec.provider });
@@ -1348,7 +1408,7 @@ function renderShowCard(show, options = {}) {
         text(
           article,
           "p",
-          "SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.",
+          "SeatGeek controls prices, fees, availability, and checkout terms for this link.",
           "disclosure-note"
         );
       }
@@ -1356,7 +1416,7 @@ function renderShowCard(show, options = {}) {
         text(
           article,
           "p",
-          "Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase.",
+          "Vivid Seats controls prices, fees, availability, and checkout terms for this link.",
           "disclosure-note"
         );
       }
@@ -1374,21 +1434,27 @@ function safeShowList(data) {
 }
 
 function renderShowBoardEmptyState(artistName = "") {
-  const name = String(artistName || "").trim() || "these";
+  const name = String(artistName || "").trim() || "these artists";
   const wrap = document.createElement("div");
   wrap.className = "empty-state";
-  text(wrap, "h3", `No verified ${name} ticket links yet`);
+  text(wrap, "h3", "No event-specific ticket links verified yet");
   text(
     wrap,
     "p",
-    `We're not listing any upcoming ${name} dates right now because we haven't verified an event-specific ticket destination. We'll only show ticket links when there's a confirmed source we can check.`,
+    `We are not publishing upcoming ${name} dates or event-specific ticket buttons until the ticket destination has been checked. If an artist-level provider page is available, you can use it below to check the provider directly.`,
+    "muted"
+  );
+  text(
+    wrap,
+    "p",
+    "TourTicketCompare does not publish unverified dates or fake prices. While you wait, use the buying guides to compare final checkout totals, fees, delivery terms, and resale protections safely.",
     "muted"
   );
   const actions = document.createElement("div");
   actions.className = "action-row";
   actions.append(
     buttonLink("Browse artists with ticket links", "/artists", "secondary"),
-    buttonLink("Read ticket buying guide", "/guides", "secondary")
+    buttonLink("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "secondary")
   );
   wrap.append(actions);
   return wrap;
@@ -1562,8 +1628,12 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
   resetButton.addEventListener("click", resetFilters);
 
   if (shows.length > 1) {
+    const filterIntro = document.createElement("div");
+    filterIntro.className = "show-filter-intro";
+    text(filterIntro, "h3", "Find your date");
+    text(filterIntro, "p", "Filter by city, country, venue, or tour, then open the checked event link that matches your plans.", "muted");
     bar.append(searchInput, ...(countrySelect ? [countrySelect] : []), ...(citySelect ? [citySelect] : []), sortSelect, resetButton);
-    grid.before(bar);
+    grid.before(filterIntro, bar);
   }
   grid.before(count);
   apply();
@@ -1687,9 +1757,8 @@ function renderArtist(artist) {
     "artistShowBoard",
     "Verified event links",
     "Each card is one checked event date and links to the ticket page for that exact show when one is available.",
-    "Coverage varies by artist and region. Final prices, fees, availability, and checkout terms are confirmed on the provider site."
+    "Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying."
   );
-  section.append(showBoard);
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
     try {
       return JSON.parse(card.getAttribute("data-show-json") || "{}");
@@ -1698,6 +1767,12 @@ function renderArtist(artist) {
     }
   });
   const verificationPanel = buildVerificationDisclosurePanel(artist, serverShows);
+  const providerPanel = renderProviderButtons(artist, "artist_page");
+  if (serverShows.length) {
+    section.append(verificationPanel, showBoard, providerPanel);
+  } else {
+    section.append(verificationPanel, providerPanel, showBoard);
+  }
 
   const summary = document.createElement("section");
   summary.className = "split-section";
@@ -1748,7 +1823,7 @@ function renderArtist(artist) {
   );
   guideLinks.append(guideGrid);
 
-  section.append(verificationPanel, summary, ...(demand ? [demand] : []), checklist, guideLinks, renderArtistFaq(artist));
+  section.append(summary, ...(demand ? [demand] : []), checklist, guideLinks, renderArtistFaq(artist));
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.
@@ -2420,5 +2495,24 @@ if (navToggle && navLinks) {
     closeNav();
   });
 }
+
+document.addEventListener("click", async (event) => {
+  const action = event.target?.closest?.("[data-copy-show-link]");
+  if (!action) return;
+  event.preventDefault();
+  const anchorId = String(action.getAttribute("data-copy-show-link") || "").trim();
+  if (!anchorId) return;
+  const showUrl = `${location.origin}${location.pathname}#${anchorId}`;
+  const originalLabel = action.textContent;
+  try {
+    await copyTextToClipboard(showUrl);
+    action.textContent = "Copied";
+  } catch (error) {
+    action.textContent = "Copy failed";
+  }
+  window.setTimeout(() => {
+    action.textContent = originalLabel || "Copy link to this date";
+  }, 1800);
+});
 
 render();

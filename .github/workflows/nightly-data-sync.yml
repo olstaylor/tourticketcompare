@@ -9,17 +9,18 @@ name: Nightly data sync
 # deletions, cancellations, tour names — is NOT auto-published; it is surfaced
 # in the rolling "automation:data-sync" issue / handled by the discovery PR flow.
 #
-# Scheduled trigger is currently disabled, so this workflow is manual-only.
-# If re-enabled, the historical cron ran 30 min after daily-audit.yml
-# (03:00 UTC) to avoid Ticketmaster rate-limit collisions.
+# The cron runs 30 min after daily-audit.yml (03:00 UTC) to avoid Ticketmaster
+# rate-limit collisions.
 
 on:
-  # Scheduled trigger temporarily disabled (manual-only) while CTA rendering
-  # safety and regression tests are hardened. An automated sync must never be
-  # able to hide working public CTAs. Re-enable the cron only after the
-  # provider-specific CTA regression guards are confirmed green.
-  #   schedule:
-  #     - cron: '30 3 * * *'
+  # Cron re-enabled 2026-07-07 (owner-approved) after the guard conditions were
+  # met: the CTA ↔ provider-state regression guard (validate-cta-provider-state,
+  # in test:mvp) landed and gates the commit below, and a clean manual dry-run
+  # was reviewed (0 errors; updates only computed for events with zero review
+  # blockers). Scheduled runs are NOT dry runs: lossless factual updates to
+  # already-tracked events auto-commit to main per SAFE_PUBLISHING_RULES.md.
+  schedule:
+    - cron: '30 3 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -98,7 +99,13 @@ jobs:
           const reviewItems = Number(report?.summary?.reviewItems ?? report?.reviewItems?.length ?? 0);
           const errors = Number(report?.summary?.errors ?? report?.errors?.length ?? 0);
           const blockedUpdates = Number(report?.summary?.blockedUpdateIds ?? report?.blockedUpdateIds?.length ?? 0);
-          const commitAllowed = updated > 0 && errors === 0 && blockedUpdates === 0 && reviewItems === 0;
+          // The sync script only applies updates to events with ZERO review
+          // blockers of their own (blocked events are skipped and listed in
+          // blockedUpdateIds). Standing review-only items on other events —
+          // e.g. permanently-offsale rows — are surfaced in the rolling issue
+          // but must not veto the clean events' lossless updates, otherwise
+          // the nightly sync can never commit. Errors still veto everything.
+          const commitAllowed = updated > 0 && errors === 0;
           console.log(`updated=${updated}`);
           console.log(`review_items=${reviewItems}`);
           console.log(`errors=${errors}`);
@@ -108,8 +115,9 @@ jobs:
           NODE
 
       # Validation and smoke tests gate the commit: if any check fails, nothing
-      # is committed or pushed. Any review item, blocked update, or error keeps
-      # commit_allowed=false and still allows the review issue/artifact steps.
+      # is committed or pushed. Any error keeps commit_allowed=false; review
+      # items and blocked updates never reach the diff (the script skips those
+      # events) and are surfaced by the review issue/artifact steps below.
       - name: Validate events (production rules)
         if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true'
         run: npm run events:validate:prod

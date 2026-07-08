@@ -65,8 +65,8 @@
 /* ---- monogram ---- */
 .ttc-mono { flex: none; display: grid; place-items: center; font-weight: 700; letter-spacing: -.02em; border-radius: 9px; }
 
-/* ============================================================ BETA NOTICE */
-.ttc-beta-notice {
+/* ============================================================ SITE NOTICE */
+.ttc-site-notice {
   position: relative;
   z-index: 31;
   padding: 8px 0;
@@ -75,7 +75,7 @@
   border-bottom: 1px solid color-mix(in oklab, var(--ttc-accent) 28%, var(--ttc-border));
   font-family: var(--ttc-font-ui);
 }
-.ttc-beta-notice__in {
+.ttc-site-notice__in {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +85,7 @@
   font-size: 13px;
   line-height: 1.35;
 }
-.ttc-beta-notice strong {
+.ttc-site-notice strong {
   flex: none;
   padding: 3px 8px;
   border-radius: 999px;
@@ -97,7 +97,7 @@
   letter-spacing: .08em;
   text-transform: uppercase;
 }
-.ttc-beta-notice a {
+.ttc-site-notice a {
   color: var(--ttc-accent-hover);
   font-weight: 800;
   text-decoration: underline;
@@ -291,7 +291,7 @@
 
 /* ============================================================ RESPONSIVE */
 @media (max-width: 920px) {
-  .ttc-beta-notice__in { align-items: flex-start; justify-content: flex-start; text-align: left; }
+  .ttc-site-notice__in { align-items: flex-start; justify-content: flex-start; text-align: left; }
   .ttc-hero__grid { grid-template-columns: 1fr; gap: 26px; }
   .ttc-hero__h1 { font-size: 38px; }
   .ttc-hd__in { position: relative; flex-wrap: wrap; }
@@ -319,8 +319,8 @@
   .ttc-table td[data-k]::before { content: attr(data-k); font-family: var(--ttc-font-mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ttc-faint); display: inline-block; width: 96px; }
 }
 @media (max-width: 620px) {
-  .ttc-beta-notice { padding: 7px 0; }
-  .ttc-beta-notice__in { flex-direction: column; gap: 5px; font-size: 12.5px; }
+  .ttc-site-notice { padding: 7px 0; }
+  .ttc-site-notice__in { flex-direction: column; gap: 5px; font-size: 12.5px; }
   .ttc-stats__in { grid-template-columns: 1fr; }
   .ttc-stat { border-right: none; border-bottom: 1px solid var(--ttc-border); }
 }

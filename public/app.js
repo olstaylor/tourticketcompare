@@ -1755,8 +1755,8 @@ function renderArtist(artist) {
   // Keep this intro in sync with renderShowBoardServerHtml in functions/[[path]].js.
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
-    "Verified event links",
-    "Each card is one checked event date and links to the ticket page for that exact show when one is available.",
+    "Checked ticket options",
+    "Each card shows one checked event date. When an event-specific provider link is verified, use it to check the latest price, fees, availability, and ticket terms on the provider site.",
     "Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying."
   );
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {

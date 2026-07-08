@@ -878,20 +878,20 @@ assert(
 );
 const serverMorganWithSeatGeek = await routeResponse("/artists/morgan-wallen", seatGeekBaseTrackingEnv);
 const expectedMorganSeatGeekCtas = baseTrackingShowsJson.shows.filter((show) => show.provider_ctas?.seatgeek === true).length;
-const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/Check latest price on SeatGeek/g) || []).length;
+const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/Check SeatGeek/g) || []).length;
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "server-rendered SeatGeek CTA should target the controlled show through /api/out");
-assert(serverMorganWithSeatGeek.text.includes("SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase."), "server-rendered SeatGeek CTA should include conservative supporting copy");
+assert(serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered SeatGeek CTA should include conservative supporting copy");
 // CTA inversion: SeatGeek is the primary CTA and renders before the plain
 // (unmonetized) Ticketmaster secondary CTA inside the same cta-group.
 const controlledCardCtaGroup = serverMorganWithSeatGeek.text
   .split("<div class=\"cta-group\">")
   .find((chunk) => chunk.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`));
 assert(controlledCardCtaGroup, "controlled show card should render a cta-group when both providers are available");
-const sgIndexInGroup = controlledCardCtaGroup.indexOf("Check latest price on SeatGeek");
+const sgIndexInGroup = controlledCardCtaGroup.indexOf("Check SeatGeek");
 const tmIndexInGroup = controlledCardCtaGroup.indexOf("Check Ticketmaster");
 assert(sgIndexInGroup !== -1 && tmIndexInGroup !== -1 && sgIndexInGroup < tmIndexInGroup, "SeatGeek CTA must render before the Ticketmaster CTA on paired cards");
-const sgAnchorInGroup = controlledCardCtaGroup.slice(0, controlledCardCtaGroup.indexOf(">Check latest price on SeatGeek</a>"));
+const sgAnchorInGroup = controlledCardCtaGroup.slice(0, controlledCardCtaGroup.indexOf(">Check SeatGeek</a>"));
 assert(sgAnchorInGroup.includes("button-primary"), "SeatGeek CTA must be the primary button on paired cards");
 const tmAnchorInGroup = controlledCardCtaGroup.slice(sgIndexInGroup, tmIndexInGroup);
 assert(tmAnchorInGroup.includes("button-secondary"), "Ticketmaster CTA must be the secondary button on paired cards");
@@ -922,7 +922,7 @@ assert(
 const invalidSeatGeekShow = invalidSeatGeekShowsJson.shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
 assert(invalidSeatGeekShow?.seatgeek_url?.includes("example.com"), "invalid test fixture should expose a SeatGeek URL that the hydrated allowlist rejects");
 const serverMorganWithoutSeatGeek = await routeResponse("/artists/morgan-wallen");
-assert(!serverMorganWithoutSeatGeek.text.includes("Check latest price on SeatGeek"), "server-rendered SeatGeek CTA should stay hidden without SeatGeek Impact config");
+assert(!serverMorganWithoutSeatGeek.text.includes("Check SeatGeek"), "server-rendered SeatGeek CTA should stay hidden without SeatGeek Impact config");
 assert(!serverMorganWithoutSeatGeek.text.includes("provider=seatgeek"), "server-rendered pages should not link /api/out SeatGeek redirects without SeatGeek Impact config");
 const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
@@ -938,8 +938,8 @@ assert(seatGeekGateFunction[0].includes("if (!hasValidSeatGeekEventUrl) return f
 assert(seatGeekGateFunction[0].includes('if (!providerEventPublishable(show, "seatgeek")) return false;'), "SeatGeek CTA gate should require per-provider event publishability");
 assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;"), "SeatGeek CTA gate should require both the provider flag and a valid stored SeatGeek event URL");
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
-assert(appJs.includes("Check latest price on SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
-assert(appJs.includes("SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase."), "hydration should preserve the safe SeatGeek supporting copy");
+assert(appJs.includes("Check SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
+assert(appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should preserve the safe SeatGeek supporting copy");
 assert(appJs.includes("No verified ticket link is available for this date."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
@@ -1776,8 +1776,8 @@ const vsControlledShow = vsConfiguredShowsJson.shows.find((show) => show.id === 
 assert(vsControlledShow?.provider_ctas?.vividseats === true, "/api/shows should mark the controlled Vivid Seats CTA resolvable when configured");
 const vsConfiguredPage = await routeResponse("/artists/morgan-wallen", vsConfiguredEnv);
 assert(vsConfiguredPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`), "server-rendered Vivid Seats CTA should target the controlled show through /api/out when configured");
-assert(vsConfiguredPage.text.includes("Check latest price on Vivid Seats"), "Vivid Seats should be the primary CTA when SeatGeek is not configured");
-assert(vsConfiguredPage.text.includes("Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase."), "server-rendered Vivid Seats CTA should include conservative supporting copy");
+assert(vsConfiguredPage.text.includes("Check Vivid Seats"), "Vivid Seats should be the primary CTA when SeatGeek is not configured");
+assert(vsConfiguredPage.text.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "server-rendered Vivid Seats CTA should include conservative supporting copy");
 try {
   globalThis.fetch = async () => {
     throw new Error("Vivid Seats base tracking redirects should not call the Impact API");
@@ -1803,7 +1803,7 @@ const vsAndSgGroup = vsAndSgPage.text
   .split("<div class=\"cta-group\">")
   .find((chunk) => chunk.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`));
 assert(vsAndSgGroup, "controlled show card should render a cta-group including the Vivid Seats CTA when both affiliate providers are configured");
-const sgIdx = vsAndSgGroup.indexOf("Check latest price on SeatGeek");
+const sgIdx = vsAndSgGroup.indexOf("Check SeatGeek");
 const vsIdx = vsAndSgGroup.indexOf("Check Vivid Seats");
 const tmIdx = vsAndSgGroup.indexOf("Check Ticketmaster");
 assert(sgIdx !== -1 && vsIdx !== -1 && tmIdx !== -1 && sgIdx < vsIdx && vsIdx < tmIdx, "CTA order must be SeatGeek, Vivid Seats, Ticketmaster");
@@ -1969,7 +1969,7 @@ assert(outResponse.status === 302, "Ticketmaster redirect should still work");
 // Test 5: stored event-level SeatGeek URLs are allowed, but config alone must not create CTAs.
 assert(controlledSeatGeekShow.seatgeek_url === CONTROLLED_SEATGEEK_URL, "controlled SeatGeek event URL should remain available for the approved test show");
 assert(!String(nonSeatGeekShow.seatgeek_url || "").trim(), "non-eligible show should still have no SeatGeek URL");
-assert(!serverMorganWithoutSeatGeek.text.includes("Check latest price on SeatGeek"), "SeatGeek CTAs should remain hidden when SeatGeek affiliate config is absent even if an event URL exists");
+assert(!serverMorganWithoutSeatGeek.text.includes("Check SeatGeek"), "SeatGeek CTAs should remain hidden when SeatGeek affiliate config is absent even if an event URL exists");
 
 console.log("SeatGeek visibility gating verified: event-level URL plus affiliate config required");
 

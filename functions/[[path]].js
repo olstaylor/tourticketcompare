@@ -833,14 +833,14 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
         surface
       });
       const verificationNote = providerVerificationNote(item);
-      return `<article class="provider-card"><h3>${escapeHtml(displayName)}</h3><p>Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p>${anchor(
+      return `<article class="provider-card"><h3>${escapeHtml(displayName)}</h3><p>Artist-level ticket page from this provider.</p>${anchor(
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
-  return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">These links go to provider artist pages. Event-specific buttons appear only on verified show cards.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Some links are affiliate links. This does not change your price. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p></section>`;
+  return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">These links go to provider artist pages. Event-specific buttons appear only on verified show cards.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Some links are affiliate links. This does not change your price or which links we show. Providers control prices, availability, fees, delivery details, and checkout terms; confirm details on the provider site before buying.</p></section>`;
 }
 
 function formatVerificationDate(value) {
@@ -1054,16 +1054,16 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     const vsAvailable = vividSeatsOutAvailable(show, vividSeatsAvailable);
     const outHref = (provider) => `/api/out?${new URLSearchParams({ showId: show.id, provider }).toString()}`;
     const ctas = [];
-    if (sgAvailable) ctas.push({ provider: "seatgeek", primaryLabel: "Check latest price on SeatGeek", secondaryLabel: "Check SeatGeek" });
-    if (vsAvailable) ctas.push({ provider: "vivid-seats", primaryLabel: "Check latest price on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+    if (sgAvailable) ctas.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
+    if (vsAvailable) ctas.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
     if (tmAvailable) ctas.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
     if (ctas.length) {
       const buttons = ctas
         .map((cta, index) => anchor(index === 0 ? cta.primaryLabel : cta.secondaryLabel, outHref(cta.provider), index === 0 ? "button button-primary" : "button button-secondary", 'target="_blank" rel="noopener"'))
         .join("");
       const notes = [
-        sgAvailable ? `<p class="disclosure-note">SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.</p>` : "",
-        vsAvailable ? `<p class="disclosure-note">Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase.</p>` : ""
+        sgAvailable ? `<p class="disclosure-note">SeatGeek controls prices, fees, availability, and checkout terms for this link.</p>` : "",
+        vsAvailable ? `<p class="disclosure-note">Vivid Seats controls prices, fees, availability, and checkout terms for this link.</p>` : ""
       ].join("");
       ctaHtml = ctas.length > 1 ? `<div class="cta-group">${buttons}</div>${notes}` : `${buttons}${notes}`;
     }
@@ -1088,7 +1088,10 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable)).join("")
     : renderShowBoardEmptyStateHtml(artistName);
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card is one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p></div><div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  const filterIntro = shows.length > 1
+    ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Filter by city, country, venue, or tour, then open the checked event link that matches your plans.</p></div>`
+    : "";
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Verified event links</h2><p>Each card is one checked event date and links to the ticket page for that exact show when one is available.</p><p class="disclosure-note">Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -1161,12 +1164,17 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )} ticket links and buying guidance</h1><p class="lead">Checked ticket links for ${escapeHtml(
       artist.name
-    )} dates, plus what to confirm about fees, seats, and resale before you buy.</p>${reviewNoticeHtml}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
+    )} dates, plus what to confirm about fees, seats, and resale before you buy.</p>${reviewNoticeHtml}${renderVerificationDisclosure(artist, shows)}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
       catalog,
       artist,
-      "artist_hero",
+      "artist_page",
       { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable }
-    )}${renderVerificationDisclosure(artist, shows)}<section class="split-section"><div><h2>About ${escapeHtml(
+    )}` : `${renderProviderFallback(
+      catalog,
+      artist,
+      "artist_page",
+      { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable }
+    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}`}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes

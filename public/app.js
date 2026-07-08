@@ -567,7 +567,7 @@ function renderProviderButtons(artist, surface) {
     const card = document.createElement("article");
     card.className = "provider-card";
     text(card, "h3", copy.name);
-    text(card, "p", "Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.");
+    text(card, "p", "Artist-level ticket page from this provider.");
     const params = new URLSearchParams({
       artistSlug: artist.slug,
       provider: providerSlug,
@@ -595,7 +595,7 @@ function renderProviderButtons(artist, surface) {
   text(
     panel,
     "p",
-    "Some links are affiliate links. This does not change your price. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.",
+    "Some links are affiliate links. This does not change your price or which links we show. Providers control prices, availability, fees, delivery details, and checkout terms; confirm details on the provider site before buying.",
     "disclosure-note"
   );
   return panel;
@@ -1321,10 +1321,10 @@ function renderShowCard(show, options = {}) {
       // stay per-card (smoke-asserted resale caution).
       const ctaSpecs = [];
       if (sgAvailable) {
-        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "Check latest price on SeatGeek", secondaryLabel: "Check SeatGeek" });
+        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
       }
       if (vsAvailable) {
-        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "Check latest price on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
       }
       if (tmAvailable) {
         ctaSpecs.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
@@ -1348,7 +1348,7 @@ function renderShowCard(show, options = {}) {
         text(
           article,
           "p",
-          "SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.",
+          "SeatGeek controls prices, fees, availability, and checkout terms for this link.",
           "disclosure-note"
         );
       }
@@ -1356,7 +1356,7 @@ function renderShowCard(show, options = {}) {
         text(
           article,
           "p",
-          "Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase.",
+          "Vivid Seats controls prices, fees, availability, and checkout terms for this link.",
           "disclosure-note"
         );
       }
@@ -1568,8 +1568,12 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
   resetButton.addEventListener("click", resetFilters);
 
   if (shows.length > 1) {
+    const filterIntro = document.createElement("div");
+    filterIntro.className = "show-filter-intro";
+    text(filterIntro, "h3", "Find your date");
+    text(filterIntro, "p", "Filter by city, country, venue, or tour, then open the checked event link that matches your plans.", "muted");
     bar.append(searchInput, ...(countrySelect ? [countrySelect] : []), ...(citySelect ? [citySelect] : []), sortSelect, resetButton);
-    grid.before(bar);
+    grid.before(filterIntro, bar);
   }
   grid.before(count);
   apply();
@@ -1695,7 +1699,6 @@ function renderArtist(artist) {
     "Each card is one checked event date and links to the ticket page for that exact show when one is available.",
     "Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying."
   );
-  section.append(showBoard);
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
     try {
       return JSON.parse(card.getAttribute("data-show-json") || "{}");
@@ -1704,6 +1707,12 @@ function renderArtist(artist) {
     }
   });
   const verificationPanel = buildVerificationDisclosurePanel(artist, serverShows);
+  const providerPanel = renderProviderButtons(artist, "artist_page");
+  if (serverShows.length) {
+    section.append(verificationPanel, showBoard, providerPanel);
+  } else {
+    section.append(verificationPanel, providerPanel, showBoard);
+  }
 
   const summary = document.createElement("section");
   summary.className = "split-section";
@@ -1754,7 +1763,7 @@ function renderArtist(artist) {
   );
   guideLinks.append(guideGrid);
 
-  section.append(verificationPanel, summary, ...(demand ? [demand] : []), checklist, guideLinks, renderArtistFaq(artist));
+  section.append(summary, ...(demand ? [demand] : []), checklist, guideLinks, renderArtistFaq(artist));
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.

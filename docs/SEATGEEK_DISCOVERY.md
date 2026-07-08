@@ -133,9 +133,11 @@ provenance. Per event it:
    Events whose `datetime_iso` is date-only (time TBA) or timezone-naive with
    no IANA `timezone` field are skipped as date-ambiguous.
 
-Selection per run: all `needs_recheck` events, all events holding an
-unverified `seatgeek_url` (provenance backfill), and verified provenance older
-than `--recheck-days`. `validate-cta-provider-state.mjs` hard-errors on any
+Selection per run — future events only (past shows render nowhere and
+SeatGeek delists them, so they are skipped, which also keeps the smoke suite's
+pinned Gainesville canary URL untouched): all `needs_recheck` events, all
+events holding an unverified `seatgeek_url` (provenance backfill), and
+verified provenance older than `--recheck-days`. `validate-cta-provider-state.mjs` hard-errors on any
 verified provenance whose CTA would not redirect.
 
 ## Nightly automation (`seatgeek-cta-sync.yml`)

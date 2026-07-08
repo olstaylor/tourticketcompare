@@ -70,6 +70,10 @@ const LOG_PATH = path.join(REPO_ROOT, "docs", "SEATGEEK_CTA_VERIFY_LOG.md");
 const SEATGEEK_EVENTS_ENDPOINT = "https://api.seatgeek.com/2/events";
 const INSTANT_TOLERANCE_MS = 3 * 60 * 60 * 1000; // shows on adjacent nights are ≥ ~21h apart
 const DISCOVERY_WINDOW_MS = 12 * 60 * 60 * 1000;
+// Only future events are maintained: past shows render nowhere on the site
+// and SeatGeek delists them after the night, so checking them is pure churn
+// (every past listing 404s and would be pointlessly cleared).
+const PAST_EVENT_GRACE_MS = 24 * 60 * 60 * 1000;
 const DEFAULT_RECHECK_DAYS = 3;
 const DEFAULT_REQUEST_DELAY_MS = 1000;
 const REQUEST_TIMEOUT_MS = 30000;
@@ -335,8 +339,9 @@ function daysSince(dateString, now = new Date()) {
   return (now.getTime() - then.getTime()) / 86400000;
 }
 
-// Selection policy: needs_recheck events, events holding an unverified
-// seatgeek_url (provenance backfill), and stale verified provenance.
+// Selection policy: FUTURE events only (see PAST_EVENT_GRACE_MS) among:
+// needs_recheck events, events holding an unverified seatgeek_url
+// (provenance backfill), and stale verified provenance.
 function selectEvents(events, registryBySlug, options, now = new Date()) {
   const selected = [];
   const skipped = [];
@@ -355,8 +360,13 @@ function selectEvents(events, registryBySlug, options, now = new Date()) {
       skipped.push({ event, reason: "artist has no verified registry seatgeek_performer_id" });
       continue;
     }
-    if (eventInstantMs(event) === null) {
-      skipped.push({ event, reason: "datetime_iso is timezone-ambiguous (naive with no IANA timezone field) — never guessed" });
+    const instant = eventInstantMs(event);
+    if (instant === null) {
+      skipped.push({ event, reason: "datetime_iso is date-only or timezone-ambiguous — never guessed" });
+      continue;
+    }
+    if (instant < now.getTime() - PAST_EVENT_GRACE_MS) {
+      skipped.push({ event, reason: "event is in the past — SeatGeek delists finished shows; nothing to maintain" });
       continue;
     }
     selected.push(event);
@@ -601,6 +611,7 @@ function selfTest() {
   const now = new Date("2026-07-07T12:00:00Z");
   const base = { artist_slug: "ok-artist", datetime_iso: "2026-09-01T00:00:00Z", city: "X" };
   const selection = selectEvents([
+    { ...base, id: "s0", verification_status: "needs_recheck", datetime_iso: "2026-05-15T22:30:00Z", seatgeek_url: "https://seatgeek.com/x/concert/9" },
     { ...base, id: "s1", verification_status: "needs_recheck" },
     { ...base, id: "s2", verification_status: "machine_high_confidence", seatgeek_url: "https://seatgeek.com/x/concert/1" },
     { ...base, id: "s3", verification_status: "machine_high_confidence", seatgeek_url: "https://seatgeek.com/x/concert/2", provider_links: { seatgeek: { verified: true, url: "https://seatgeek.com/x/concert/2", last_verified_at: "2026-07-06" } } },
@@ -615,8 +626,9 @@ function selfTest() {
   assert("fresh provenance not re-checked", !selectedIds.includes("s3"));
   assert("stale provenance re-checked", selectedIds.includes("s4"));
   assert("publishable event without URL not selected", !selectedIds.includes("s5"));
-  assert("ambiguous datetime skipped with reason", selection.skipped.some((row) => row.event.id === "s6" && row.reason.includes("timezone-ambiguous")));
+  assert("ambiguous datetime skipped with reason", selection.skipped.some((row) => row.event.id === "s6" && row.reason.includes("ambiguous")));
   assert("unregistered artist skipped with reason", selection.skipped.some((row) => row.event.id === "s7"));
+  assert("past event skipped, never touched", !selectedIds.includes("s0") && selection.skipped.some((row) => row.event.id === "s0" && row.reason.includes("past")));
 
   let failed = 0;
   for (const check of checks) {

@@ -55,6 +55,11 @@ function slugify(value) {
     .replace(/(^-|-$)/g, "");
 }
 
+function showAnchorId(show) {
+  const id = slugify(show?.id);
+  return id ? `show-${id}` : "";
+}
+
 async function loadCatalog(env) {
   try {
     const response = await env.ASSETS.fetch(new Request("https://assets.local/data/catalog.json"));
@@ -323,19 +328,22 @@ function musicEventsSchema(route, origin, events) {
   const artistId = `${origin}${route.path}#artist`;
   return futureShowsForArtist(events, route.artist.slug, 6)
     .filter((show) => show.publishable && show.dateTimeISO && show.venue && show.city)
-    .map((show) => ({
-      "@type": "MusicEvent",
-      name: show.event_name || `${route.artist.name} — ${show.city}`,
-      startDate: show.dateTimeISO,
-      eventStatus: "https://schema.org/EventScheduled",
-      location: {
-        "@type": "Place",
-        name: show.venue,
-        address: { "@type": "PostalAddress", addressLocality: show.city }
-      },
-      performer: { "@id": artistId },
-      url: `${origin}${route.path}`
-    }));
+    .map((show) => {
+      const anchorId = showAnchorId(show);
+      return {
+        "@type": "MusicEvent",
+        name: show.event_name || `${route.artist.name} — ${show.city}`,
+        startDate: show.dateTimeISO,
+        eventStatus: "https://schema.org/EventScheduled",
+        location: {
+          "@type": "Place",
+          name: show.venue,
+          address: { "@type": "PostalAddress", addressLocality: show.city }
+        },
+        performer: { "@id": artistId },
+        url: `${origin}${route.path}#${anchorId}`
+      };
+    });
 }
 
 function guideClusterTitle(path) {
@@ -1039,6 +1047,7 @@ function isVividSeatsConfigured(env = {}) {
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false) {
   const date = formatShowDateServer(show.dateTimeISO);
   const location = showLocationServer(show);
+  const anchorId = showAnchorId(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
   const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
   let ctaHtml = `<p class="disclosure-note">No verified ticket link is available for this date.</p>`;
@@ -1076,8 +1085,11 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 
   const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
   const eventVerifiedHtml = eventVerifiedDate ? `<p class="disclosure-note">Event last checked: ${escapeHtml(eventVerifiedDate)}.</p>` : "";
+  const copyLinkHtml = anchorId
+    ? `<a class="text-link copy-show-link" href="#${escapeAttr(anchorId)}" data-copy-show-link="${escapeAttr(anchorId)}">Copy link to this date</a>`
+    : "";
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
-  return `<article class="info-card show-card" data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || titleFallback)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${eventVerifiedHtml}${ctaHtml}</article>`;
+  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || titleFallback)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${copyLinkHtml}${eventVerifiedHtml}${ctaHtml}</article>`;
 }
 
 function renderShowBoardEmptyStateHtml(artistName = "") {

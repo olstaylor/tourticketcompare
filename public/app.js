@@ -267,6 +267,40 @@ function buttonLink(label, href, variant = "primary") {
   return link(label, href, `button button-${variant}`);
 }
 
+function showAnchorId(show) {
+  const id = slugify(show?.id);
+  return id ? `show-${id}` : "";
+}
+
+async function copyTextToClipboard(value) {
+  const textValue = String(value || "");
+  if (!textValue) return false;
+  if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+    await navigator.clipboard.writeText(textValue);
+    return true;
+  }
+  const textarea = document.createElement("textarea");
+  textarea.value = textValue;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+  document.body.append(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  textarea.remove();
+  return copied;
+}
+
+function renderCopyShowLinkAction(article) {
+  if (!article?.id) return null;
+  const action = document.createElement("button");
+  action.type = "button";
+  action.className = "text-link copy-show-link";
+  action.dataset.copyShowLink = article.id;
+  action.textContent = "Copy link to this date";
+  return action;
+}
+
 function createList(items, className) {
   const list = document.createElement("ul");
   if (className) list.className = className;
@@ -567,7 +601,7 @@ function renderProviderButtons(artist, surface) {
     const card = document.createElement("article");
     card.className = "provider-card";
     text(card, "h3", copy.name);
-    text(card, "p", "Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.");
+    text(card, "p", "Artist-level ticket page from this provider.");
     const params = new URLSearchParams({
       artistSlug: artist.slug,
       provider: providerSlug,
@@ -595,7 +629,7 @@ function renderProviderButtons(artist, surface) {
   text(
     panel,
     "p",
-    "Some links are affiliate links. This does not change your price. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.",
+    "Some links are affiliate links. This does not change your price or which links we show. Providers control prices, availability, fees, delivery details, and checkout terms; confirm details on the provider site before buying.",
     "disclosure-note"
   );
   return panel;
@@ -755,11 +789,29 @@ function renderSearchResultItem(type, data) {
     const loc = [place, data.venue].filter(Boolean).join(" · ");
     nameEl.textContent = data.event_name || data.artist_name || "Verified show";
     desc.textContent = [dateStr, loc, data.tour_name].filter(Boolean).join(" — ");
-    const hasVerifiedLink = eventLinkPublishable(data) && Boolean(safeVerifiedEventUrl(data.ticketmaster_url));
-    if (hasVerifiedLink && data.id) {
-      const params = new URLSearchParams({ showId: data.id, provider: "ticketmaster" });
+    const showId = String(data.id || "").trim();
+    const eventCtaCandidates = [
+      {
+        provider: "seatgeek",
+        label: "Open verified SeatGeek event link",
+        available: providerEventPublishable(data, "seatgeek") && Boolean(safeSeatGeekEventUrl(data.seatgeek_url))
+      },
+      {
+        provider: "vivid-seats",
+        label: "Open verified Vivid Seats event link",
+        available: providerEventPublishable(data, "vivid-seats") && Boolean(safeVividSeatsEventUrl(data.vividseats_url))
+      },
+      {
+        provider: "ticketmaster",
+        label: "Open verified event link",
+        available: eventLinkPublishable(data) && Boolean(safeVerifiedEventUrl(data.ticketmaster_url))
+      }
+    ];
+    const eventCta = showId ? eventCtaCandidates.find((candidate) => candidate.available) : null;
+    if (eventCta) {
+      const params = new URLSearchParams({ showId, provider: eventCta.provider });
       ctaHref = `/api/out?${params.toString()}`;
-      ctaLabel = "Open verified event link";
+      ctaLabel = eventCta.label;
     } else {
       ctaHref = `/artists/${slugify(data.artist_slug || "")}`;
       ctaLabel = "Open artist guidance page";
@@ -1292,12 +1344,16 @@ function vividSeatsOutAvailable(show, options = {}) {
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
+  const anchorId = showAnchorId(show);
+  if (anchorId) article.id = anchorId;
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
   text(article, "h3", show.event_name || show.artist_name || titleFallback);
   const date = formatShowDate(show.dateTimeISO);
   if (date) text(article, "p", date, "card-status");
   const location = showLocation(show);
   text(article, "p", location || "City and venue details are shown only when verified by the source.", "muted");
+  const copyAction = renderCopyShowLinkAction(article);
+  if (copyAction) article.append(copyAction);
 
   const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
   if (options.reviewGated) {
@@ -1321,10 +1377,10 @@ function renderShowCard(show, options = {}) {
       // stay per-card (smoke-asserted resale caution).
       const ctaSpecs = [];
       if (sgAvailable) {
-        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "Check latest price on SeatGeek", secondaryLabel: "Check SeatGeek" });
+        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
       }
       if (vsAvailable) {
-        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "Check latest price on Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
       }
       if (tmAvailable) {
         ctaSpecs.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
@@ -1348,7 +1404,7 @@ function renderShowCard(show, options = {}) {
         text(
           article,
           "p",
-          "SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase.",
+          "SeatGeek controls prices, fees, availability, and checkout terms for this link.",
           "disclosure-note"
         );
       }
@@ -1356,7 +1412,7 @@ function renderShowCard(show, options = {}) {
         text(
           article,
           "p",
-          "Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase.",
+          "Vivid Seats controls prices, fees, availability, and checkout terms for this link.",
           "disclosure-note"
         );
       }
@@ -1628,8 +1684,12 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
   });
 
   if (shows.length > 1) {
+    const filterIntro = document.createElement("div");
+    filterIntro.className = "show-filter-intro";
+    text(filterIntro, "h3", "Find your date");
+    text(filterIntro, "p", "Filter by city, country, venue, or tour, then open the checked event link that matches your plans.", "muted");
     bar.append(searchInput, ...(countrySelect ? [countrySelect] : []), ...(citySelect ? [citySelect] : []), sortSelect, resetButton, shareButton);
-    grid.before(bar);
+    grid.before(filterIntro, bar);
   }
   grid.before(count);
   refreshCityOptions();
@@ -1756,7 +1816,6 @@ function renderArtist(artist) {
     "Each card is one checked event date and links to the ticket page for that exact show when one is available.",
     "Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying."
   );
-  section.append(showBoard);
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
     try {
       return JSON.parse(card.getAttribute("data-show-json") || "{}");
@@ -1765,6 +1824,12 @@ function renderArtist(artist) {
     }
   });
   const verificationPanel = buildVerificationDisclosurePanel(artist, serverShows);
+  const providerPanel = renderProviderButtons(artist, "artist_page");
+  if (serverShows.length) {
+    section.append(verificationPanel, showBoard, providerPanel);
+  } else {
+    section.append(verificationPanel, providerPanel, showBoard);
+  }
 
   const summary = document.createElement("section");
   summary.className = "split-section";
@@ -1815,7 +1880,7 @@ function renderArtist(artist) {
   );
   guideLinks.append(guideGrid);
 
-  section.append(verificationPanel, summary, ...(demand ? [demand] : []), checklist, guideLinks, renderArtistFaq(artist));
+  section.append(summary, ...(demand ? [demand] : []), checklist, guideLinks, renderArtistFaq(artist));
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.
@@ -2487,5 +2552,24 @@ if (navToggle && navLinks) {
     closeNav();
   });
 }
+
+document.addEventListener("click", async (event) => {
+  const action = event.target?.closest?.("[data-copy-show-link]");
+  if (!action) return;
+  event.preventDefault();
+  const anchorId = String(action.getAttribute("data-copy-show-link") || "").trim();
+  if (!anchorId) return;
+  const showUrl = `${location.origin}${location.pathname}#${anchorId}`;
+  const originalLabel = action.textContent;
+  try {
+    await copyTextToClipboard(showUrl);
+    action.textContent = "Copied";
+  } catch (error) {
+    action.textContent = "Copy failed";
+  }
+  window.setTimeout(() => {
+    action.textContent = originalLabel || "Copy link to this date";
+  }, 1800);
+});
 
 render();

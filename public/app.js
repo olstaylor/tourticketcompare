@@ -3,15 +3,15 @@ let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] 
 const providerCopy = {
   ticketmaster: {
     name: "Ticketmaster",
-    label: "Open Ticketmaster artist page"
+    label: "Check provider"
   },
   seatgeek: {
     name: "SeatGeek",
-    label: "Open SeatGeek artist page"
+    label: "Check provider"
   },
   "vivid-seats": {
     name: "Vivid Seats",
-    label: "Open Vivid Seats artist page"
+    label: "Check provider"
   }
 };
 
@@ -566,7 +566,7 @@ function renderProviderButtons(artist, surface) {
   const panel = document.createElement("section");
   panel.className = "provider-panel";
   panel.setAttribute("aria-labelledby", "providerTitle");
-  text(panel, "h2", "Provider links").id = "providerTitle";
+  text(panel, "h2", links.length ? "Artist-level provider pages" : "Provider links").id = "providerTitle";
 
   if (!links.length) {
     text(panel, "p", "No provider artist page link is currently available for this artist. Ticket buttons for provider artist pages appear only after destination checks. Event-level links, where shown, come from ticket data sources and have not been confirmed as verified destinations.", "muted");
@@ -592,16 +592,20 @@ function renderProviderButtons(artist, surface) {
     return panel;
   }
 
-  text(panel, "p", "These links go to provider artist pages. Event-specific buttons appear only on verified show cards.", "muted");
+  text(panel, "p", "These are provider pages for the artist, not verified links for a specific date. Use them to check current provider listings, then confirm the final price, fees, availability, and delivery terms before buying.", "muted");
+  if (links.length === 1) {
+    text(panel, "p", "Only one artist-level provider page is currently verified, so this is not a full provider comparison.", "disclosure-note");
+  }
   const actions = document.createElement("div");
   actions.className = "provider-actions";
   links.forEach((item) => {
     const providerSlug = slugify(item.provider);
-    const copy = providerCopy[providerSlug] || { name: item.provider, label: `Open ${item.provider} artist page` };
+    const copy = providerCopy[providerSlug] || { name: item.provider, label: "Check provider" };
     const card = document.createElement("article");
     card.className = "provider-card";
+    text(card, "p", "Artist-level provider page", "eyebrow");
     text(card, "h3", copy.name);
-    text(card, "p", "Artist-level ticket page from this provider.");
+    text(card, "p", "Use this provider page to check current artist listings, then confirm final price, fees, availability, and delivery terms on the provider site.");
     const params = new URLSearchParams({
       artistSlug: artist.slug,
       provider: providerSlug,

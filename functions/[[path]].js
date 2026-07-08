@@ -838,7 +838,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
     .map((item) => {
       const provider = slugify(item.provider);
       const displayName = PROVIDER_DISPLAY_NAMES[provider] || item.provider;
-      const label = `Open ${displayName} artist page`;
+      const label = "Check provider";
       const params = new URLSearchParams({
         artistSlug: artist.slug,
         provider,
@@ -846,14 +846,15 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
         surface
       });
       const verificationNote = providerVerificationNote(item);
-      return `<article class="provider-card"><h3>${escapeHtml(displayName)}</h3><p>Artist-level ticket page from this provider.</p>${anchor(
+      return `<article class="provider-card"><p class="eyebrow">Artist-level provider page</p><h3>${escapeHtml(displayName)}</h3><p>Use this provider page to check current artist listings, then confirm final price, fees, availability, and delivery terms on the provider site.</p>${anchor(
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
-  return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">These links go to provider artist pages. Event-specific buttons appear only on verified show cards.</p><div class="provider-actions">${cards}</div><p class="disclosure-note">Some links are affiliate links. This does not change your price or which links we show. Providers control prices, availability, fees, delivery details, and checkout terms; confirm details on the provider site before buying.</p></section>`;
+  const singleProviderNote = links.length === 1 ? `<p class="disclosure-note">Only one artist-level provider page is currently verified, so this is not a full provider comparison.</p>` : "";
+  return `<section class="provider-panel"><h2>Artist-level provider pages</h2><p class="muted">These are provider pages for the artist, not verified links for a specific date. Use them to check current provider listings, then confirm the final price, fees, availability, and delivery terms before buying.</p>${singleProviderNote}<div class="provider-actions">${cards}</div><p class="disclosure-note">Some links are affiliate links. This does not change your price or which links we show. Providers control prices, availability, fees, delivery details, and checkout terms; confirm details on the provider site before buying.</p></section>`;
 }
 
 function formatVerificationDate(value) {

@@ -1324,11 +1324,11 @@ assert(renderedSeatGeekHrefs.length === renderedSeatGeekShowIds.length, "every e
 assert(renderedArtistSeatGeekHrefs.length === 1 && renderedArtistSeatGeekHrefs[0].includes("artistSlug=morgan-wallen"), "the artist-level SeatGeek performer-page CTA must render exactly once through /api/out when configured");
 // Provider panel: SeatGeek card renders before the Ticketmaster card when
 // configured, and not at all when unconfigured.
-const sgCardIdx = serverMorganWithSeatGeek.text.indexOf("Open SeatGeek artist page");
-const tmCardIdx = serverMorganWithSeatGeek.text.indexOf("Open Ticketmaster artist page");
+const sgCardIdx = serverMorganWithSeatGeek.text.indexOf("<h3>SeatGeek</h3>");
+const tmCardIdx = serverMorganWithSeatGeek.text.indexOf("<h3>Ticketmaster</h3>");
 assert(sgCardIdx !== -1 && tmCardIdx !== -1 && sgCardIdx < tmCardIdx, "provider panel must show the SeatGeek artist card before the Ticketmaster artist card when configured");
-assert(!serverMorganWithoutSeatGeek.text.includes("Open SeatGeek artist page"), "provider panel must not show a SeatGeek artist card without SeatGeek Impact config");
-assert(serverMorganWithoutSeatGeek.text.includes("Open Ticketmaster artist page"), "provider panel must keep the plain Ticketmaster artist card without SeatGeek Impact config");
+assert(!serverMorganWithoutSeatGeek.text.includes("<h3>SeatGeek</h3>"), "provider panel must not show a SeatGeek artist card without SeatGeek Impact config");
+assert(serverMorganWithoutSeatGeek.text.includes("<h3>Ticketmaster</h3>"), "provider panel must keep the plain Ticketmaster artist card without SeatGeek Impact config");
 try {
   globalThis.fetch = async () => {
     throw new Error("SeatGeek base tracking redirects should not call the Impact API");

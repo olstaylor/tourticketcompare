@@ -49,10 +49,16 @@ closed.
 | `npm run seatgeek:propose` | `propose-seatgeek-urls.mjs` | `reports/seatgeek-url-candidates.json` (gitignored) | Proposal-only review file; never mutates event data |
 | `npm run seatgeek:enrich` | `enrich-seatgeek-events.mjs` | audit log only (dry-run) | Dry-run; shows what would be applied |
 | `npm run seatgeek:enrich:apply` | `enrich-seatgeek-events.mjs --apply-high-confidence` | `events.json` + partitions + audit log | Applies high-confidence matches |
+| `npm run seatgeek:verify` | `verify-seatgeek-events.mjs` | audit log only (dry-run) | Identity-anchored verification preview |
+| `npm run seatgeek:verify:apply` | `verify-seatgeek-events.mjs --apply` | `events.json` + partitions + audit log | Writes `provider_links.seatgeek` verified provenance; self-heals wrong/stale URLs |
+| `npm run seatgeek:verify:self-test` | `verify-seatgeek-events.mjs --self-test` | nothing | Offline invariant tests, no API calls |
 
 Useful flags (both enrich + propose): `--artist <slug-or-name>`, `--limit <n>`,
 `--delay-ms <n>`, `--verbose`. Enrichment also supports `--max-api-calls`,
-`--resume-from-log`, `--resume-from <showId>`, and `--refresh`.
+`--resume-from-log`, `--resume-from <showId>`, and `--refresh`. Verification
+supports `--artist`, `--limit`, `--delay-ms`, `--max-api-calls`,
+`--recheck-days <n>` (re-verify provenance older than n days, default 3),
+`--json`, and `--log-path`.
 
 ## Registry performer-id scoping (provider-sync step 4)
 
@@ -97,6 +103,47 @@ Anything short of that is skipped (proposal: `needs_review` / `reject`) and left
 for human verification. The apply path only touches events that are
 Ticketmaster-verified and currently lack a valid `seatgeek_url`.
 
+## Verification & standalone SeatGeek CTAs (`verify-seatgeek-events.mjs`)
+
+The runtime gate `providerEventPublishable` lets a SeatGeek event CTA publish
+**standalone on a `needs_recheck` event** when the SeatGeek link carries its
+own verified provenance (`provider_links.seatgeek.verified === true`) — the
+recheck flag tracks the broken Ticketmaster storefront URL, not the SeatGeek
+listing. `scripts/verify-seatgeek-events.mjs` is the only writer of that
+provenance. Per event it:
+
+1. Confirms the stored `seatgeek_url` against the SeatGeek `/2/events/<id>` API
+   record: the registry-verified `seatgeek_performer_id` must appear on the
+   record, the UTC instants must match within ±3h (`datetime_utc` vs the
+   event's `datetime_iso`), the city must match (exact/metro), and the URL must
+   pass the event-URL shape validator. UTC-instant matching is what catches
+   wrong-night URL mix-ups between back-to-back shows at the same venue.
+2. When the stored URL fails (or none is stored), runs one discovery query
+   scoped to the performer id in a ±12h window around the event instant.
+   Exactly one qualifying candidate may be applied; zero or ambiguous results
+   are reported, never guessed.
+3. Self-heals in the safe direction only: failed stored URLs are corrected to
+   the single unambiguous match or cleared; previously-verified provenance the
+   API no longer confirms is un-verified and cleared. Events whose
+   `datetime_iso` is timezone-naive with no IANA `timezone` field are skipped
+   as date-ambiguous.
+
+Selection per run: all `needs_recheck` events, all events holding an
+unverified `seatgeek_url` (provenance backfill), and verified provenance older
+than `--recheck-days`. `validate-cta-provider-state.mjs` hard-errors on any
+verified provenance whose CTA would not redirect.
+
+## Nightly automation (`seatgeek-cta-sync.yml`)
+
+Since 2026-07-08 (owner-approved) `.github/workflows/seatgeek-cta-sync.yml`
+runs both halves nightly at 05:00 UTC — `seatgeek:enrich` in apply mode, then
+`seatgeek:verify:apply` — regenerates partitions and the inline fallback, runs
+the full validation suite in-job, and opens an auto-merged PR
+(`automation:seatgeek-cta` label) with both committed audit logs. This is the
+second narrow auto-publish exception in `SAFE_PUBLISHING_RULES.md`. Manual
+dispatch defaults to a safe preview; without `SEATGEEK_CLIENT_ID` the run
+no-ops. The manual workflow below remains valid for targeted runs.
+
 ## Recommended workflow
 
 1. **Propose / dispatch.** Run `npm run seatgeek:propose` locally, or trigger the
@@ -121,20 +168,20 @@ Ticketmaster-verified and currently lack a valid `seatgeek_url`.
 
 ## Current coverage snapshot
 
-As of the latest credentialed enrichment audit (2026-06-11), 180 of 329
-events carry a valid event-level `seatgeek_url`; 176 of 264 Ticketmaster-verified
-events carry one. Artists with full stored SeatGeek event coverage where matches
-exist: `bts`, `harry-styles`, `jay-z`. Partial stored coverage: `ariana-grande`,
-`bruno-mars`, `morgan-wallen`, `olivia-rodrigo`. No matches are stored yet for
-`bad-bunny`, `ed-sheeran`, or `shakira`. The latest apply run queried the 88
-Ticketmaster-verified events still missing a SeatGeek URL and the SeatGeek API
-returned no candidates for those event/date/city searches; absence of a SeatGeek
-match for a given show is expected and acceptable (the Ticketmaster CTA still
-renders).
+As of 2026-07-08, 262 of 402 events carry a stored event-level `seatgeek_url`
+(28 added in the 2026-07-06 enrichment). The ~87 uncovered Ticketmaster-verified
+events are predominantly European/non-US legs SeatGeek does not list — a
+structural gap, not an untried one; absence of a SeatGeek match for a given show
+is expected and acceptable (the Ticketmaster CTA still renders). Live counts
+belong in `PROJECT_STATUS.md`; the nightly sync keeps coverage current from
+here on.
 
 ## Non-goals
 
 - No artist-level SeatGeek links from this pipeline (they live in `VERIFIED_TICKET_LINKS` via batch onboarding); no SeatGeek price display.
 - No invented or scraped URLs; only API-discovered URLs that pass validation.
 - No changes to `/api/out` redirect logic, Impact handling, or CTA rendering.
-- The apply step is deliberate and human-run; CI is proposal-only.
+- Apply runs are either human-run or the sanctioned nightly
+  `seatgeek-cta-sync.yml` loop (owner-approved 2026-07-08, see
+  `SAFE_PUBLISHING_RULES.md`); the discovery-proposal workflow stays
+  proposal-only.

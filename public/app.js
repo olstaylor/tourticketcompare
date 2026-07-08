@@ -1422,21 +1422,49 @@ function renderShowFilterEmptyState(onReset) {
     "Try a different city, venue, or tour name, or clear the filters to see every verified date.",
     "muted"
   );
+  text(
+    wrap,
+    "p",
+    "You can also browse all artist pages or use the ticket buying guides to compare fees, delivery terms, and resale protections safely.",
+    "muted"
+  );
   const reset = document.createElement("button");
   reset.type = "button";
   reset.className = "show-filter-reset";
   reset.textContent = "Clear filters";
   reset.addEventListener("click", onReset);
-  wrap.append(reset);
+  const actions = document.createElement("div");
+  actions.className = "action-row";
+  actions.append(
+    reset,
+    buttonLink("Browse artists", "/artists", "secondary"),
+    buttonLink("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "secondary")
+  );
+  wrap.append(actions);
   return wrap;
 }
 
 // Filters only decide which verified shows render; every card still goes through
 // renderShowCard with unchanged options, so CTA eligibility is untouched.
 function setupShowBoardFilters(section, grid, shows, cardOptions) {
-  const state = { query: "", country: "", city: "", sort: "soonest" };
   const countries = uniqueShowValues(shows, "country");
   const cities = uniqueShowValues(shows, "city");
+  const initialParams = new URLSearchParams(window.location.search);
+  const initialCountry = String(initialParams.get("country") || "").trim();
+  const initialCity = String(initialParams.get("city") || "").trim();
+  const state = {
+    query: String(initialParams.get("showQuery") || "").trim(),
+    country: countries.includes(initialCountry) ? initialCountry : "",
+    city: cities.includes(initialCity) ? initialCity : "",
+    sort: "soonest"
+  };
+
+  if (state.country && state.city) {
+    const cityMatchesCountry = shows.some(
+      (show) => String(show?.country || "").trim() === state.country && String(show?.city || "").trim() === state.city
+    );
+    if (!cityMatchesCountry) state.city = "";
+  }
 
   const bar = document.createElement("div");
   bar.className = "show-filter-bar";
@@ -1465,13 +1493,14 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
   searchInput.className = "show-filter-input";
   searchInput.placeholder = "Search by city, venue, or tour";
   searchInput.setAttribute("aria-label", "Search verified shows by city, country, venue, event, or tour name");
+  searchInput.value = state.query;
 
   let countrySelect = null;
   if (countries.length > 1) {
     countrySelect = document.createElement("select");
     countrySelect.className = "show-filter-select";
     countrySelect.setAttribute("aria-label", "Filter by country");
-    setSelectOptions(countrySelect, countries, "All countries", "");
+    setSelectOptions(countrySelect, countries, "All countries", state.country);
   }
 
   let citySelect = null;
@@ -1479,7 +1508,7 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
     citySelect = document.createElement("select");
     citySelect.className = "show-filter-select";
     citySelect.setAttribute("aria-label", "Filter by city");
-    setSelectOptions(citySelect, cities, "All cities", "");
+    setSelectOptions(citySelect, cities, "All cities", state.city);
   }
 
   const sortSelect = document.createElement("select");
@@ -1497,6 +1526,11 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
   resetButton.className = "show-filter-reset";
   resetButton.textContent = "Clear filters";
 
+  const shareButton = document.createElement("button");
+  shareButton.type = "button";
+  shareButton.className = "show-filter-reset";
+  shareButton.textContent = "Copy filtered view";
+
   const refreshCityOptions = () => {
     if (!citySelect) return;
     const source = state.country
@@ -1507,7 +1541,18 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
     setSelectOptions(citySelect, values, "All cities", state.city);
   };
 
+  const updateUrl = () => {
+    const url = new URL(window.location.href);
+    [["showQuery", state.query], ["country", state.country], ["city", state.city]].forEach(([key, value]) => {
+      const clean = String(value || "").trim();
+      if (clean) url.searchParams.set(key, clean);
+      else url.searchParams.delete(key);
+    });
+    history.replaceState(history.state, "", `${url.pathname}${url.search}${url.hash}`);
+  };
+
   const apply = () => {
+    updateUrl();
     const terms = state.query.toLowerCase().split(/\s+/).filter(Boolean);
     const visible = shows
       .filter((show) => {
@@ -1566,12 +1611,28 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
     apply();
   });
   resetButton.addEventListener("click", resetFilters);
+  shareButton.addEventListener("click", async () => {
+    updateUrl();
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      shareButton.textContent = "Copied filtered view";
+      window.setTimeout(() => {
+        shareButton.textContent = "Copy filtered view";
+      }, 2000);
+    } catch (error) {
+      shareButton.textContent = "Copy failed";
+      window.setTimeout(() => {
+        shareButton.textContent = "Copy filtered view";
+      }, 2000);
+    }
+  });
 
   if (shows.length > 1) {
-    bar.append(searchInput, ...(countrySelect ? [countrySelect] : []), ...(citySelect ? [citySelect] : []), sortSelect, resetButton);
+    bar.append(searchInput, ...(countrySelect ? [countrySelect] : []), ...(citySelect ? [citySelect] : []), sortSelect, resetButton, shareButton);
     grid.before(bar);
   }
   grid.before(count);
+  refreshCityOptions();
   apply();
 }
 

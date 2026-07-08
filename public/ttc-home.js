@@ -246,6 +246,14 @@
       else if (ev.key === "Enter") { const r = res[active]; if (r) window.location.href = hrefFor(r); }
       else if (ev.key === "Escape") { open = false; render(); input.blur(); }
     });
+    wrap.setQuery = function (query, options) {
+      q = String(query || "");
+      input.value = q;
+      open = q.trim().length >= 2 || !!(options && options.open);
+      active = 0;
+      render();
+      if (options && options.focus) input.focus({ preventScroll: true });
+    };
     document.addEventListener("mousedown", (ev) => { if (!wrap.contains(ev.target)) { open = false; render(); } });
     return wrap;
   }
@@ -257,7 +265,7 @@
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Verified ticket options for <em>major tours.</em>' }),
       h("p", { class: "ttc-hero__sub" }, ["Human-checked links to official ticket pages, clear official-vs-resale guidance, and the checks to run before you pay. We don’t sell tickets and we never show live prices."]),
-      h("div", { class: "ttc-hero__searchwrap" }, [
+      h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(c => h("a", { class: "ttc-chip", href: "/artists" }, [c]))])
       ]),
@@ -453,6 +461,21 @@
     main.classList.add("ttc", "ttc-home");
     main.innerHTML = "";
     main.appendChild(frag([heroSection(DATA), statsSection(DATA), valueSection(DATA), tableSection(DATA), guidesSection(DATA), trustSection()]));
+
+    const query = new URLSearchParams(window.location.search).get("q");
+    if (query && query.trim().length >= 2) {
+      const searchWidget = document.getElementById("search-widget");
+      const homepageSearch = searchWidget ? searchWidget.querySelector(".ttc-search--lg") : null;
+      if (homepageSearch && typeof homepageSearch.setQuery === "function") {
+        homepageSearch.setQuery(query, { open: true, focus: window.location.hash === "#search-widget" });
+        if (window.location.hash === "#search-widget") {
+          window.setTimeout(() => {
+            searchWidget.scrollIntoView({ behavior: "smooth", block: "start" });
+          }, 0);
+        }
+      }
+    }
+
     const hs = document.getElementById("ttc-hd-search");
     if (hs) { hs.innerHTML = ""; hs.appendChild(buildSearch(DATA, "sm")); }
     const yr = document.getElementById("ttc-year"); if (yr) yr.textContent = new Date().getFullYear();

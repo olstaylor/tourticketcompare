@@ -260,14 +260,14 @@
 
   /* ============================================================ SECTIONS */
   function heroSection(DATA) {
-    const chips = DATA.artists.slice(0, 5).map(a => a.name);
+    const chips = DATA.artists.filter(artist => artist && artist.slug).slice(0, 5);
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Verified ticket options for <em>major tours.</em>' }),
       h("p", { class: "ttc-hero__sub" }, ["Human-checked links to official ticket pages, clear official-vs-resale guidance, and the checks to run before you pay. We don’t sell tickets and we never show live prices."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
-        h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(c => h("a", { class: "ttc-chip", href: "/artists" }, [c]))])
+        h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug }, [artist.name]))])
       ]),
       h("div", { class: "ttc-hero__trust" }, [
         h("div", {}, [svg("check"), document.createTextNode(" "), h("b", {}, ["Every link"]), document.createTextNode(" human-checked")]),

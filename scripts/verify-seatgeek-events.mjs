@@ -13,8 +13,9 @@
 //   1. If the event stores a seatgeek_url, confirm it against the SeatGeek
 //      /2/events/<id> API record: the registry performer id must appear on
 //      the record, the event instants must match (|Δ| ≤ 3h, UTC), the city
-//      must match (exact/metro), and the URL must pass the event-URL shape
-//      validator mirrored from functions/api/out.js.
+//      (exact/metro) and venue (containment/token overlap) must match, and
+//      the URL must pass the event-URL shape validator mirrored from
+//      functions/api/out.js.
 //   2. On success (--apply): write verified provenance —
 //      provider_links.seatgeek = { event_id, url, verified: true,
 //      last_verified_at, availability_status: "listed" }. This is the flag
@@ -25,19 +26,23 @@
 //      the verified performer id (performers.id=<pid> + a ±12h UTC window
 //      around the event instant). Exactly one qualifying candidate may be
 //      applied; zero or ambiguous candidates are reported, never guessed.
-//   4. Self-heal in the safe direction: a stored URL that fails verification
-//      is cleared (the CTA gate then suppresses it); previously-verified
-//      provenance whose API record disappears or stops matching is
-//      un-verified and cleared.
+//   4. Self-heal in the safe direction, on POSITIVE evidence only: a stored
+//      URL is cleared (and previously-verified provenance un-verified) only
+//      after a confirmed-gone id lookup (404/410) or a confirmed content
+//      mismatch, AND a successful (HTTP 2xx) discovery query found no
+//      qualifying replacement. Transient API failures (5xx/network/parse)
+//      leave the event untouched; auth/config failures (401/403) abort the
+//      whole run with exit 1 and no writes — an outage or expired client id
+//      must never mass-clear valid links.
 //
 // Safety properties:
 //   - Identity is anchored to the human-verified registry performer id;
 //     nothing is matched by artist-name text search.
 //   - Date matching compares UTC instants (SeatGeek datetime_utc vs the
-//     event's datetime_iso). Events whose datetime_iso is timezone-naive and
-//     that carry no IANA timezone field are SKIPPED as ambiguous — never
-//     guessed. This is what catches wrong-night URL mix-ups between
-//     back-to-back shows at the same venue.
+//     event's datetime_iso). Events whose datetime_iso is date-only (time
+//     TBA), or timezone-naive with no IANA timezone field, are SKIPPED as
+//     ambiguous — never guessed. This is what catches wrong-night URL
+//     mix-ups between back-to-back shows at the same venue.
 //   - Dry-run by default; --apply writes events.json + the per-artist
 //     partition files and refreshes the committed audit log. It never
 //     touches verification_status, ticketmaster_*, or any other provider.
@@ -128,11 +133,14 @@ function tzOffsetMs(timeZone, date) {
 }
 
 // Resolve an event's datetime_iso to a UTC instant (ms) or null when
-// ambiguous. Timezone-naive values are ONLY interpreted through the event's
-// own IANA timezone field; with no timezone they are skipped, never guessed.
+// ambiguous. Date-only values (time-TBA rows) are always ambiguous — treating
+// them as midnight would let a ±3h comparison clear a valid evening listing.
+// Timezone-naive values are ONLY interpreted through the event's own IANA
+// timezone field; with no timezone they are skipped, never guessed.
 function eventInstantMs(event) {
   const raw = clean(event?.datetime_iso, 100);
   if (!raw) return null;
+  if (!/T\d{2}:\d{2}/.test(raw)) return null;
   const hasZone = /(?:Z|[+-]\d{2}:\d{2})$/i.test(raw);
   if (hasZone) {
     const parsed = new Date(raw);
@@ -181,6 +189,39 @@ function cityMatches(eventCity, candidate) {
   return Boolean(candidateNorm && METRO_PAIRS.has(`${eventNorm}|${candidateNorm}`));
 }
 
+function textTokens(value) {
+  return normalizeText(value).split(" ").filter((token) => token.length > 1);
+}
+
+function diceSimilarity(a, b) {
+  const aTokens = new Set(textTokens(a));
+  const bTokens = new Set(textTokens(b));
+  if (!aTokens.size || !bTokens.size) return 0;
+  let overlap = 0;
+  for (const token of aTokens) {
+    if (bTokens.has(token)) overlap += 1;
+  }
+  return (2 * overlap) / (aTokens.size + bTokens.size);
+}
+
+function containsNormalized(haystack, needle) {
+  const h = ` ${normalizeText(haystack)} `;
+  const n = ` ${normalizeText(needle)} `;
+  return Boolean(n.trim()) && h.includes(n);
+}
+
+// Same-city, same-night, different-venue listings must not verify — venue is
+// a mandatory anchor alongside instant and city. Naming variance is absorbed
+// by normalization + containment/token overlap; a missing venue on either
+// side fails safe.
+function venueMatches(eventVenue, candidate) {
+  const local = clean(eventVenue, 180);
+  const remote = clean(candidate?.venue?.name, 180);
+  if (!local || !remote) return false;
+  if (containsNormalized(local, remote) || containsNormalized(remote, local)) return true;
+  return diceSimilarity(local, remote) >= 0.5;
+}
+
 function candidatePerformerIds(candidate) {
   return Array.isArray(candidate?.performers)
     ? candidate.performers.map((performer) => performer?.id).filter((id) => Number.isInteger(id))
@@ -206,6 +247,9 @@ function evaluateCandidate(event, candidate, performerId, eventInstant) {
   if (!cityMatches(event.city, candidate)) {
     reasons.push(`city mismatch: '${clean(event.city)}' vs '${clean(candidate?.venue?.city)}'`);
   }
+  if (!venueMatches(event.venue, candidate)) {
+    reasons.push(`venue mismatch: '${clean(event.venue)}' vs '${clean(candidate?.venue?.name)}'`);
+  }
   const status = clean(candidate?.status, 40).toLowerCase();
   if (status && status !== "normal") reasons.push(`SeatGeek status is '${status}'`);
   return { ok: reasons.length === 0, reasons, url, seatgeekId: candidate?.id ?? null };
@@ -215,8 +259,13 @@ function evaluateCandidate(event, candidate, performerId, eventInstant) {
 // Pure so the branch matrix is testable offline. Inputs:
 //   storedUrl        — the event's current seatgeek_url ("" if none)
 //   storedVerified   — provider_links.seatgeek.verified === true beforehand
-//   idCheck          — evaluateCandidate result for the stored-id lookup (or null)
-//   discovery        — { candidates: [evaluateCandidate-passing, distinct ids] } (or null if not run)
+//   idCheck          — evaluateCandidate result for the stored-id lookup (or null);
+//                      the caller passes it only for HTTP 2xx (evaluated) or a
+//                      confirmed-gone 404/410 — transient failures never reach here
+//   discovery        — { candidates: [evaluateCandidate-passing, distinct ids] };
+//                      null when not run OR when the query failed transiently, so
+//                      the clear/unverify branches are unreachable without a
+//                      successful zero-candidate query
 // Returns { action, url, seatgeekId, notes } where action is one of:
 //   verify | add | correct | clear | unverify | none | conflict
 function decideOutcome({ storedUrl, storedVerified, idCheck, discovery }) {
@@ -453,6 +502,7 @@ function renderLog(results, skipped, summary) {
     `- Provenance un-verified: ${summary.unverified}`,
     `- Conflicts (ambiguous, untouched): ${summary.conflicts}`,
     `- No qualifying listing: ${summary.no_candidates}`,
+    `- Transient API errors (untouched, retried next run): ${summary.api_errors}`,
     `- Stopped early: ${summary.stop_reason || "no"}`,
     "",
     "## Outcomes",
@@ -486,6 +536,8 @@ function selfTest() {
   // Instant resolution
   assert("zoned datetime parsed", eventInstantMs({ datetime_iso: "2026-12-21T03:00:00Z" }) === Date.parse("2026-12-21T03:00:00Z"));
   assert("naive datetime without timezone is ambiguous", eventInstantMs({ datetime_iso: "2026-07-06T20:00:00" }) === null);
+  assert("date-only datetime is ambiguous even with a timezone", eventInstantMs({ datetime_iso: "2026-07-06", timezone: "America/New_York" }) === null);
+  assert("date-only datetime without timezone is ambiguous", eventInstantMs({ datetime_iso: "2026-07-06" }) === null);
   assert(
     "naive datetime with IANA timezone resolves to venue-local instant",
     eventInstantMs({ datetime_iso: "2026-07-06T20:00:00", timezone: "America/New_York" }) === Date.parse("2026-07-07T00:00:00Z")
@@ -499,21 +551,27 @@ function selfTest() {
     id: 18211723,
     url: "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723",
     datetime_utc: "2026-12-21T03:00:00",
-    venue: { city: "Las Vegas", display_location: "Las Vegas, NV" },
+    venue: { name: "T-Mobile Arena", city: "Las Vegas", display_location: "Las Vegas, NV" },
     performers: [{ id: pid }]
   };
-  const dec19Row = { city: "Las Vegas" };
+  const dec19Row = { city: "Las Vegas", venue: "T-Mobile Arena" };
   const wrongNight = evaluateCandidate(dec19Row, dec20LocalListing, pid, Date.parse("2026-12-20T03:00:00Z"));
   assert("wrong-night stored URL rejected", !wrongNight.ok && wrongNight.reasons.some((reason) => reason.includes("different night")));
   const rightNight = evaluateCandidate(dec19Row, dec20LocalListing, pid, Date.parse("2026-12-21T03:00:00Z"));
   assert("right-night listing verifies", rightNight.ok);
   assert("performer mismatch rejected", !evaluateCandidate(dec19Row, dec20LocalListing, 999999, Date.parse("2026-12-21T03:00:00Z")).ok);
-  assert("city mismatch rejected", !evaluateCandidate({ city: "Reno" }, dec20LocalListing, pid, Date.parse("2026-12-21T03:00:00Z")).ok);
+  assert("city mismatch rejected", !evaluateCandidate({ ...dec19Row, city: "Reno" }, dec20LocalListing, pid, Date.parse("2026-12-21T03:00:00Z")).ok);
   assert(
     "metro city accepted",
-    evaluateCandidate({ city: "Inglewood" }, { ...dec20LocalListing, venue: { city: "Los Angeles", display_location: "Los Angeles, CA" } }, pid, Date.parse("2026-12-21T03:00:00Z")).ok
+    evaluateCandidate({ city: "Inglewood", venue: "Kia Forum" }, { ...dec20LocalListing, venue: { name: "Kia Forum", city: "Los Angeles", display_location: "Los Angeles, CA" } }, pid, Date.parse("2026-12-21T03:00:00Z")).ok
   );
   assert("cancelled status rejected", !evaluateCandidate(dec19Row, { ...dec20LocalListing, status: "cancelled" }, pid, Date.parse("2026-12-21T03:00:00Z")).ok);
+  // Same city + same night at a DIFFERENT venue must not verify.
+  const otherVenue = { ...dec20LocalListing, venue: { ...dec20LocalListing.venue, name: "Allegiant Stadium" } };
+  const venueMismatch = evaluateCandidate(dec19Row, otherVenue, pid, Date.parse("2026-12-21T03:00:00Z"));
+  assert("same-city different-venue rejected", !venueMismatch.ok && venueMismatch.reasons.some((reason) => reason.includes("venue mismatch")));
+  assert("missing local venue fails safe", !evaluateCandidate({ city: "Las Vegas", venue: "" }, dec20LocalListing, pid, Date.parse("2026-12-21T03:00:00Z")).ok);
+  assert("venue naming variance tolerated", venueMatches("Toyota Center - TX", { venue: { name: "Toyota Center" } }));
 
   // Decision matrix
   const good = { ok: true, reasons: [], url: dec20LocalListing.url, seatgeekId: 18211723 };
@@ -642,6 +700,25 @@ async function main() {
     const storedId = isValidSeatGeekEventUrl(storedUrl) ? seatGeekEventIdFromUrl(storedUrl) : null;
     const storedVerified = event?.provider_links?.seatgeek?.verified === true;
 
+    // Clearing/un-verifying requires POSITIVE evidence: a confirmed-gone id
+    // lookup (404/410) or a confirmed mismatch, plus a SUCCESSFUL (HTTP 2xx)
+    // discovery query with zero qualifying candidates. Any transient failure
+    // (5xx, network, parse) leaves the event untouched for the next run, and
+    // an auth/config failure (401/403) aborts the whole run — a provider
+    // outage or an expired client id must never mass-clear valid links.
+    const transientNote = (label, status) => {
+      results.push({
+        showId: event.id,
+        artist: event.artist_slug,
+        verification_status: event.verification_status,
+        action: "api_error",
+        seatgeekId: null,
+        url: "",
+        notes: [`${label} failed with HTTP ${status || "0"} — transient; nothing written, retried next run`],
+        applied: false
+      });
+    };
+
     let idCheck = null;
     if (storedId !== null) {
       const response = await pacedRequest(eventByIdUrl(storedId, clientId), options, runState);
@@ -649,9 +726,18 @@ async function main() {
         runState.stopReason = response.stopReason;
         break;
       }
-      idCheck = response.ok && response.payload
-        ? evaluateCandidate(event, response.payload, performerId, eventInstant)
-        : { ok: false, reasons: [`SeatGeek /events/${storedId} returned HTTP ${response.status} (listing gone or never existed)`], url: storedUrl, seatgeekId: storedId };
+      if (response.status === 401 || response.status === 403) {
+        runState.stopReason = "auth_or_config_error";
+        break;
+      }
+      if (response.ok && response.payload) {
+        idCheck = evaluateCandidate(event, response.payload, performerId, eventInstant);
+      } else if (response.status === 404 || response.status === 410) {
+        idCheck = { ok: false, reasons: [`SeatGeek /events/${storedId} returned HTTP ${response.status} (listing confirmed gone)`], url: storedUrl, seatgeekId: storedId };
+      } else {
+        transientNote(`SeatGeek /events/${storedId}`, response.status);
+        continue;
+      }
     }
 
     let discovery = null;
@@ -659,6 +745,10 @@ async function main() {
       const response = await pacedRequest(discoveryUrl(performerId, eventInstant, clientId), options, runState);
       if (response.stopped) {
         runState.stopReason = response.stopReason;
+        break;
+      }
+      if (response.status === 401 || response.status === 403) {
+        runState.stopReason = "auth_or_config_error";
         break;
       }
       if (response.ok && Array.isArray(response.payload?.events)) {
@@ -673,7 +763,10 @@ async function main() {
         }
         discovery = { candidates };
       } else {
-        discovery = { candidates: [] };
+        // Transient or malformed response: decideOutcome({discovery: null})
+        // returns "none" — no add, no clear, no unverify.
+        transientNote("SeatGeek discovery query", response.status);
+        continue;
       }
     }
 
@@ -693,10 +786,13 @@ async function main() {
     });
   }
 
-  if (options.apply && changedIds.size > 0) {
+  const authFailure = runState.stopReason === "auth_or_config_error";
+  if (options.apply && changedIds.size > 0 && !authFailure) {
     await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
     const partitionFiles = await syncPartitions(events, changedIds);
     console.error(`Wrote ${changedIds.size} event update(s) to events.json and ${partitionFiles.length} partition file(s). Run \`npm run events:update\` to refresh the inline fallback.`);
+  } else if (authFailure && changedIds.size > 0) {
+    console.error(`Auth/config failure mid-run — discarding ${changedIds.size} in-memory update(s); nothing written.`);
   }
 
   const count = (action) => results.filter((row) => row.action === action).length;
@@ -716,8 +812,9 @@ async function main() {
     unverified: count("unverify"),
     conflicts: count("conflict"),
     no_candidates: results.filter((row) => row.action === "none").length,
+    api_errors: count("api_error"),
     stop_reason: runState.stopReason,
-    wrote_events_json: options.apply && changedIds.size > 0
+    wrote_events_json: options.apply && changedIds.size > 0 && !authFailure
   };
 
   await fs.writeFile(options.logPath, renderLog(results, skipped, summary));
@@ -733,6 +830,10 @@ async function main() {
         console.log(`  ${row.showId} [${row.verification_status}] → ${row.action}${row.applied ? " (applied)" : ""}${row.url ? ` ${row.url}` : ""}${row.notes.length ? ` — ${row.notes.join("; ")}` : ""}`);
       }
     }
+  }
+  if (authFailure) {
+    console.error("SeatGeek API rejected the credentials (HTTP 401/403) — run aborted with no writes. Check SEATGEEK_CLIENT_ID.");
+    return 1;
   }
   return 0;
 }

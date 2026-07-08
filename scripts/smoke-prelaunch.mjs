@@ -7,7 +7,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/c
 const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Find verified ticket links for major tours"],
+  ["/", "Find checked ticket options for major tours"],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -387,8 +387,6 @@ const publicUiFiles = [
   "public/data/artists.json",
   "public/data/events.json",
   "public/data/events-index.json",
-  "public/data/affiliate-routes.json",
-  "public/data/inventory-model.json",
   "public/data/catalog.json"
 ];
 const publicCopyFiles = [
@@ -422,7 +420,7 @@ const publicAffiliateUrlFiles = [
 
 const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Find verified ticket links for major tours"),
+  joinedPublic.includes("Find checked ticket options for major tours"),
   "homepage public-facing copy should be present"
 );
 await assertPublicCopySafe(publicCopyFiles);
@@ -880,20 +878,20 @@ assert(
 );
 const serverMorganWithSeatGeek = await routeResponse("/artists/morgan-wallen", seatGeekBaseTrackingEnv);
 const expectedMorganSeatGeekCtas = baseTrackingShowsJson.shows.filter((show) => show.provider_ctas?.seatgeek === true).length;
-const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/View tickets on SeatGeek/g) || []).length;
+const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/Check SeatGeek/g) || []).length;
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "server-rendered SeatGeek CTA should target the controlled show through /api/out");
-assert(serverMorganWithSeatGeek.text.includes("SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase."), "server-rendered SeatGeek CTA should include conservative supporting copy");
+assert(serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered SeatGeek CTA should include conservative supporting copy");
 // CTA inversion: SeatGeek is the primary CTA and renders before the plain
 // (unmonetized) Ticketmaster secondary CTA inside the same cta-group.
 const controlledCardCtaGroup = serverMorganWithSeatGeek.text
   .split("<div class=\"cta-group\">")
   .find((chunk) => chunk.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`));
 assert(controlledCardCtaGroup, "controlled show card should render a cta-group when both providers are available");
-const sgIndexInGroup = controlledCardCtaGroup.indexOf("View tickets on SeatGeek");
+const sgIndexInGroup = controlledCardCtaGroup.indexOf("Check SeatGeek");
 const tmIndexInGroup = controlledCardCtaGroup.indexOf("Check Ticketmaster");
 assert(sgIndexInGroup !== -1 && tmIndexInGroup !== -1 && sgIndexInGroup < tmIndexInGroup, "SeatGeek CTA must render before the Ticketmaster CTA on paired cards");
-const sgAnchorInGroup = controlledCardCtaGroup.slice(0, controlledCardCtaGroup.indexOf(">View tickets on SeatGeek</a>"));
+const sgAnchorInGroup = controlledCardCtaGroup.slice(0, controlledCardCtaGroup.indexOf(">Check SeatGeek</a>"));
 assert(sgAnchorInGroup.includes("button-primary"), "SeatGeek CTA must be the primary button on paired cards");
 const tmAnchorInGroup = controlledCardCtaGroup.slice(sgIndexInGroup, tmIndexInGroup);
 assert(tmAnchorInGroup.includes("button-secondary"), "Ticketmaster CTA must be the secondary button on paired cards");
@@ -924,8 +922,15 @@ assert(
 const invalidSeatGeekShow = invalidSeatGeekShowsJson.shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
 assert(invalidSeatGeekShow?.seatgeek_url?.includes("example.com"), "invalid test fixture should expose a SeatGeek URL that the hydrated allowlist rejects");
 const serverMorganWithoutSeatGeek = await routeResponse("/artists/morgan-wallen");
-assert(!serverMorganWithoutSeatGeek.text.includes("View tickets on SeatGeek"), "server-rendered SeatGeek CTA should stay hidden without SeatGeek Impact config");
+assert(!serverMorganWithoutSeatGeek.text.includes("Check SeatGeek"), "server-rendered SeatGeek CTA should stay hidden without SeatGeek Impact config");
 assert(!serverMorganWithoutSeatGeek.text.includes("provider=seatgeek"), "server-rendered pages should not link /api/out SeatGeek redirects without SeatGeek Impact config");
+const ttcHomeJs = await read("public/ttc-home.js");
+assert(ttcHomeJs.includes('wrap.setQuery = function (query, options)'), "homepage search should expose a hydration query setter");
+assert(ttcHomeJs.includes('new URLSearchParams(window.location.search).get("q")'), "homepage hydration should read the q query parameter");
+assert(ttcHomeJs.includes('id: "search-widget"'), "hydrated homepage should preserve the #search-widget anchor target");
+assert(ttcHomeJs.includes('homepageSearch.setQuery(query, { open: true, focus: window.location.hash === "#search-widget" })'), "homepage q hydration should prefill and open the large search panel");
+assert(ttcHomeJs.includes('searchWidget.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage q hydration should scroll to the preserved search-widget anchor when requested");
+
 const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
 assert(appJs.includes("/api/out?"), "artist show cards should route event CTAs through /api/out");
@@ -940,8 +945,8 @@ assert(seatGeekGateFunction[0].includes("if (!hasValidSeatGeekEventUrl) return f
 assert(seatGeekGateFunction[0].includes('if (!providerEventPublishable(show, "seatgeek")) return false;'), "SeatGeek CTA gate should require per-provider event publishability");
 assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;"), "SeatGeek CTA gate should require both the provider flag and a valid stored SeatGeek event URL");
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
-assert(appJs.includes("View tickets on SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
-assert(appJs.includes("SeatGeek sets prices, fees, availability, and checkout terms. Confirm details on SeatGeek before purchase."), "hydration should preserve the safe SeatGeek supporting copy");
+assert(appJs.includes("Check SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
+assert(appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should preserve the safe SeatGeek supporting copy");
 assert(appJs.includes("No verified ticket link is available for this date."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
@@ -1778,8 +1783,8 @@ const vsControlledShow = vsConfiguredShowsJson.shows.find((show) => show.id === 
 assert(vsControlledShow?.provider_ctas?.vividseats === true, "/api/shows should mark the controlled Vivid Seats CTA resolvable when configured");
 const vsConfiguredPage = await routeResponse("/artists/morgan-wallen", vsConfiguredEnv);
 assert(vsConfiguredPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`), "server-rendered Vivid Seats CTA should target the controlled show through /api/out when configured");
-assert(vsConfiguredPage.text.includes("View tickets on Vivid Seats"), "Vivid Seats should be the primary CTA when SeatGeek is not configured");
-assert(vsConfiguredPage.text.includes("Vivid Seats sets prices, fees, availability, and checkout terms. Confirm details on Vivid Seats before purchase."), "server-rendered Vivid Seats CTA should include conservative supporting copy");
+assert(vsConfiguredPage.text.includes("Check Vivid Seats"), "Vivid Seats should be the primary CTA when SeatGeek is not configured");
+assert(vsConfiguredPage.text.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "server-rendered Vivid Seats CTA should include conservative supporting copy");
 try {
   globalThis.fetch = async () => {
     throw new Error("Vivid Seats base tracking redirects should not call the Impact API");
@@ -1805,7 +1810,7 @@ const vsAndSgGroup = vsAndSgPage.text
   .split("<div class=\"cta-group\">")
   .find((chunk) => chunk.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`));
 assert(vsAndSgGroup, "controlled show card should render a cta-group including the Vivid Seats CTA when both affiliate providers are configured");
-const sgIdx = vsAndSgGroup.indexOf("View tickets on SeatGeek");
+const sgIdx = vsAndSgGroup.indexOf("Check SeatGeek");
 const vsIdx = vsAndSgGroup.indexOf("Check Vivid Seats");
 const tmIdx = vsAndSgGroup.indexOf("Check Ticketmaster");
 assert(sgIdx !== -1 && vsIdx !== -1 && tmIdx !== -1 && sgIdx < vsIdx && vsIdx < tmIdx, "CTA order must be SeatGeek, Vivid Seats, Ticketmaster");
@@ -1971,7 +1976,7 @@ assert(outResponse.status === 302, "Ticketmaster redirect should still work");
 // Test 5: stored event-level SeatGeek URLs are allowed, but config alone must not create CTAs.
 assert(controlledSeatGeekShow.seatgeek_url === CONTROLLED_SEATGEEK_URL, "controlled SeatGeek event URL should remain available for the approved test show");
 assert(!String(nonSeatGeekShow.seatgeek_url || "").trim(), "non-eligible show should still have no SeatGeek URL");
-assert(!serverMorganWithoutSeatGeek.text.includes("View tickets on SeatGeek"), "SeatGeek CTAs should remain hidden when SeatGeek affiliate config is absent even if an event URL exists");
+assert(!serverMorganWithoutSeatGeek.text.includes("Check SeatGeek"), "SeatGeek CTAs should remain hidden when SeatGeek affiliate config is absent even if an event URL exists");
 
 console.log("SeatGeek visibility gating verified: event-level URL plus affiliate config required");
 
@@ -1984,7 +1989,7 @@ assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mar
 
 // Fully-verified artist (Morgan Wallen) must remain indexable and keep its event CTAs
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
-assert(serverMorganWithoutSeatGeek.text.includes(">View tickets</a>"), "/artists/morgan-wallen (indexable) must still show event CTA buttons with the 'View tickets' label");
+assert(serverMorganWithoutSeatGeek.text.includes(">Check Ticketmaster</a>"), "/artists/morgan-wallen (indexable) must still show event CTA buttons with the 'Check Ticketmaster' label");
 assert(/provider=ticketmaster"\s+target="_blank"\s+rel="noopener"/.test(serverMorganWithoutSeatGeek.text), "server-rendered verified event CTA should open in a new tab to match client behaviour");
 
 console.log("indexable artist verification passed for bruno-mars");
@@ -1996,12 +2001,13 @@ assert(/index,follow/.test(beyonceEmptyStatePage.text), "/artists/beyonce (index
 const beyonceShowBoardMatch = beyonceEmptyStatePage.text.match(/<section class="section-grid show-board"[\s\S]*?<\/section>/);
 assert(beyonceShowBoardMatch, "zero-event artist page must render the show board section");
 const beyonceShowBoard = beyonceShowBoardMatch[0];
-assert(beyonceShowBoard.includes("No verified Beyoncé ticket links yet"), "zero-event artist page must render the improved empty-state heading with the artist name");
-assert(beyonceShowBoard.includes("we haven't verified an event-specific ticket destination"), "zero-event empty state must explain why no ticket links are shown");
+assert(beyonceShowBoard.includes("No event-specific ticket links verified yet"), "zero-event artist page must render the improved empty-state heading");
+assert(beyonceShowBoard.includes("We are not publishing upcoming Beyoncé dates or event-specific ticket buttons until the ticket destination has been checked"), "zero-event empty state must explain why no ticket links are shown");
+assert(beyonceShowBoard.includes("TourTicketCompare does not publish unverified dates or fake prices"), "zero-event empty state must reinforce safe publishing standards");
 assert(!beyonceShowBoard.includes("No verified show dates are currently listed"), "zero-event empty state must not use the old generic copy");
 assert(!beyonceShowBoard.includes("View tickets") && !beyonceShowBoard.includes("/api/out"), "zero-event empty state must not include any ticket CTA");
 assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes("Browse artists with ticket links"), "zero-event empty state must link users to the artists index");
-assert(beyonceShowBoard.includes('href="/guides"') && beyonceShowBoard.includes("Read ticket buying guide"), "zero-event empty state must link users to the buying guides");
+assert(beyonceShowBoard.includes('href="/guides/how-to-compare-concert-ticket-prices"') && beyonceShowBoard.includes("Read ticket buying guide"), "zero-event empty state must link users to the ticket-price comparison guide");
 console.log("zero-event empty-state verification passed for beyonce");
 
 console.log("Cloudflare Pages MVP smoke checks passed");

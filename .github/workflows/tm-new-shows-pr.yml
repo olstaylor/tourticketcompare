@@ -3,18 +3,23 @@ name: Ticketmaster new shows PR
 # Scheduled new-show discovery loop (provider-sync step 3, write-to-PR mode).
 #
 # Each day this runs the Ticketmaster Discovery recogniser for every verified,
-# sync-enabled artist in data/provider-identities.json and opens ONE review PR
-# proposing newly-discovered shows. It is deliberately a discovery + human-gate
-# loop, not autonomous publishing:
+# sync-enabled artist in data/provider-identities.json, opens ONE PR proposing
+# newly-discovered shows, and (scheduled runs) auto-merges it once the in-run
+# validation suite has passed (owner-approved 2026-07-07 — the narrow
+# auto-publish exception in SAFE_PUBLISHING_RULES.md):
 #
-#   - scripts/sync-tm-events-write-pr.mjs never commits to main and never
-#     auto-merges; it lands proposed events on a branch + PR for human review.
+#   - scripts/sync-tm-events-write-pr.mjs never commits to main directly; the
+#     full validation suite (apply-artists validate-with-rollback, test:mvp)
+#     runs in-job on exactly the proposed content before the PR opens, and a
+#     failed auto-merge leaves the PR open for a human instead of forcing it.
 #   - The recogniser withholds events already in events.json, so only genuinely
 #     new shows are proposed; a quiet day produces no commit and no PR.
 #   - Risky rows (missing venue/date, non-allowlisted host, support-act/festival
-#     appearances, upsell packages) are withheld for human review, never written.
-#   - tour_name is left blank on every new row (never inferred from a URL slug,
-#     issue #172); the PR flags it as a required human follow-up.
+#     appearances, upsell packages) are withheld for human review, never written
+#     and never auto-merged.
+#   - event_name is the verbatim Ticketmaster Discovery API listing title;
+#     tour_name is left blank on every new row (never inferred from a URL slug
+#     or listing title, issue #172); the PR flags it as a human follow-up.
 #   - Without TICKETMASTER_API_KEY the recogniser no-ops safely (no rows, no PR).
 #
 # See docs/PROVIDER_SYNC.md and SAFE_PUBLISHING_RULES.md.
@@ -37,6 +42,10 @@ on:
           - preview
           - write-pr
         default: preview
+      auto_merge:
+        description: 'With write-pr: squash-merge the PR once the in-run validation suite has passed (scheduled runs always do this).'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -80,6 +89,7 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           INPUT_ARTIST: ${{ github.event.inputs.artist }}
           INPUT_MODE: ${{ github.event.inputs.mode }}
+          INPUT_AUTO_MERGE: ${{ github.event.inputs.auto_merge }}
         run: |
           set -euo pipefail
           ARGS=(--out-dir .tm-discovery)
@@ -88,10 +98,16 @@ jobs:
           else
             ARGS+=(--all-approved)
           fi
-          # Scheduled runs always open a review PR. Manual runs honour the mode
-          # input and default to a safe preview (no PR).
-          if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_MODE:-preview}" = "write-pr" ]; then
+          # Scheduled runs open the PR and auto-merge it once the in-run
+          # validation suite has passed (owner-approved 2026-07-07). Manual runs
+          # honour the mode/auto_merge inputs and default to a safe preview.
+          if [ "${EVENT_NAME}" = "schedule" ]; then
+            ARGS+=(--write-pr --auto-merge)
+          elif [ "${INPUT_MODE:-preview}" = "write-pr" ]; then
             ARGS+=(--write-pr)
+            if [ "${INPUT_AUTO_MERGE:-false}" = "true" ]; then
+              ARGS+=(--auto-merge)
+            fi
           fi
           echo "Running: node scripts/sync-tm-events-write-pr.mjs ${ARGS[*]}"
           node scripts/sync-tm-events-write-pr.mjs "${ARGS[@]}"

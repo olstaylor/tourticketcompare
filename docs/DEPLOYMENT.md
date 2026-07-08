@@ -22,7 +22,6 @@ Run syntax checks:
 ```bash
 node --check "functions/[[path]].js"
 node --check functions/api/shows.js
-node --check functions/api/click.js
 node --check functions/api/health.js
 node --check functions/sitemap.xml.js
 node --check public/app.js
@@ -191,9 +190,10 @@ A scheduled run also maintains a rolling **`automation:tm-discovery`** coverage 
 | **Daily data audit** (`daily-audit.yml`) | 03:00 UTC | Detect dead links and drift in **existing** events; bump verified dates for clean artists | Rolling `automation:daily-audit` issue + `automation/verified-dates-*` PR |
 | **TM new-shows PR** (`tm-new-shows-pr.yml`) | 04:00 UTC | Propose **new** shows/links for every verified artist + maintain the coverage heartbeat | `automation:tm-events` review PR + `automation:tm-discovery` issue |
 | **TM data refresh PR** (`tm-data-refresh-pr.yml`) | manual | Refresh **existing** events (genuine date/venue/city moves, canonical URL) and recover missing Discovery ids, as one review PR | `automation:tm-events` review PR + `automation:data-sync` issue |
-| **Nightly data sync** (`nightly-data-sync.yml`) | manual-only | Legacy direct-to-`main` field sync (gated); superseded for review use by the refresh-PR workflow | Direct `main` commit (gated) or `automation:data-sync` issue |
+| **Nightly data sync** (`nightly-data-sync.yml`) | 03:30 UTC (cron re-enabled 2026-07-07) | Lossless factual field sync of existing events, auto-committed to `main` per event under its commit gate | Direct `main` commit (gated) or `automation:data-sync` issue |
+| **SeatGeek CTA sync** (`seatgeek-cta-sync.yml`) | 05:00 UTC (added 2026-07-08) | Add missing event-level `seatgeek_url` values (high-confidence) and write identity-anchored `provider_links.seatgeek` verified provenance (standalone SeatGeek CTAs on `needs_recheck` events, wrong-night self-heal) | Auto-merged `automation:seatgeek-cta` PR + committed audit logs |
 
-In short: **new** links → the 04:00 new-shows PR; **drift in existing** links → the audit issue (detection) and the manual refresh-PR workflow (fix, reviewed); **link death** → the audit issue.
+In short: **new** links → the 04:00 new-shows PR; **drift in existing** links → the audit issue (detection), the 03:30 nightly field sync (lossless fixes), and the manual refresh-PR workflow (reviewed fixes); **SeatGeek CTAs** → the 05:00 SeatGeek CTA sync; **link death** → the audit issue.
 
 ### Discovery coverage heartbeat
 

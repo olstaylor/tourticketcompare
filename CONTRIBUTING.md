@@ -1,10 +1,6 @@
 # Contributing
 
-_Reviewed current: 2026-06-03._
-
 Practical guide for working on TourTicketCompare. Start by reading [CLAUDE.md](CLAUDE.md) → [PROJECT_STATUS.md](PROJECT_STATUS.md) → [BACKLOG.md](BACKLOG.md).
-
-For workflow guidance, see [docs/AI_AGENT_WORKFLOW.md](docs/AI_AGENT_WORKFLOW.md). For a quick validation checklist, see [docs/VALIDATION_CHECKLIST.md](docs/VALIDATION_CHECKLIST.md).
 
 ---
 
@@ -18,7 +14,7 @@ npm run dev          # Pages preview at http://localhost:3000
 
 ---
 
-## Validation (run before every commit)
+## Validation (run the relevant subset before every commit)
 
 ### Syntax checks
 
@@ -28,16 +24,7 @@ node --check 'functions/[[path]].js'
 node --check functions/api/out.js
 ```
 
-If you touched a named route shim, also check:
-
-```bash
-node --check functions/artists.js
-node --check functions/guides.js
-node --check functions/how-it-works.js
-node --check functions/editorial-policy.js
-node --check functions/affiliate-disclosure.js
-node --check functions/contact.js
-```
+If you modified a named route shim, `node --check` it too (`functions/artists.js`, `guides.js`, `how-it-works.js`, `editorial-policy.js`, `affiliate-disclosure.js`, `contact.js`).
 
 ### Event data
 
@@ -51,22 +38,29 @@ python3 scripts/validate-events.py --for-production
 node scripts/smoke-prelaunch.mjs
 ```
 
-### Whitespace / conflict markers
+### Combined suite
 
 ```bash
-git diff --check
+npm run test:mvp     # events self-test + provider validators + smoke suite
 ```
+
+### Hygiene
+
+- `git diff --check` — no trailing whitespace or conflict markers
+- No `console.log`, `TODO`, `FIXME` left in `functions/`
+- No credentials or `.env` content in the diff
 
 ---
 
 ## Event Data Management
 
+Events land via the Ticketmaster Discovery pipeline (`docs/PROVIDER_SYNC.md`) and per-artist batches (`npm run artists:apply-preview`). Manual data hygiene commands:
+
 ```bash
-npm run events:csv       # Convert CSV input to events.json
 npm run events:validate  # Validate events.json against production rules
 npm run events:partition # Partition events by artist
 npm run events:sync      # Sync event data and update public/index.html inline fallback
-npm run events:update    # Full pipeline: csv → validate → partition → sync
+npm run events:update    # validate → partition → sync
 ```
 
 `npm run events:sync` is required after any JSON edits to `public/data/`. The `stale-sync-guard` CI job fails the PR if `public/index.html` is out of sync with the data files.
@@ -108,17 +102,17 @@ Expected: `{ ok: true, runtime: "cloudflare-pages-functions", ... }`. Secrets mu
 ## Database (D1)
 
 ```bash
-npm run demand:migrate   # Run migrations on production D1
+npm run demand:migrate   # Run the base migration on production D1 (0001 only)
 npm run demand:export    # Export email_subscribers from production D1
 ```
+
+Later migrations are applied one-off with `wrangler d1 execute` — see [migrations/README.md](migrations/README.md) for the applied state.
 
 ---
 
 ## Adding a New Artist
 
-Follow the gated workflow in [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md). Field-level templates are in [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md). Do not add a new artist without completing Phase 1 (Proposal) human verification first.
-
-New-artist onboarding is unblocked as of 2026-06-10 (#171 closed; block lifted by owner direction). The phase gates above remain mandatory for every artist. See [BACKLOG.md](BACKLOG.md).
+Batch onboarding (preferred): `npm run artists:onboard:propose` → review the identity manifest → shells → `npm run artists:promote:batch` (≤20 artists/PR, per-artist human browser spot-check checklist in the PR body). Single-artist path and phase gates: [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md); field templates: [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md). Every artist requires human browser verification before promotion — never auto-publish.
 
 ---
 

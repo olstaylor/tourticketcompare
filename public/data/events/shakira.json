@@ -586,11 +586,11 @@
     "id": "tm-shakira-2026-boston-vv1avzkosgkdb5unc",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
-    "datetime_iso": "2026-07-10T23:30:00Z",
+    "datetime_iso": "2026-07-11T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "01006471D82F68CE",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
@@ -598,7 +598,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "01006471D82F68CE",
@@ -609,11 +609,11 @@
         "discovery_event_id": "vv1AvZkosGkdb5UNC"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18157398,
+        "url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-10-7-30-pm/concert/18157398",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -639,11 +639,11 @@
     "id": "tm-shakira-2026-boston-vv177z_6gkrmuczn",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
-    "datetime_iso": "2026-07-11T23:30:00Z",
+    "datetime_iso": "2026-07-12T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0100647BEED8EE23",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
@@ -651,7 +651,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100647BEED8EE23",
@@ -662,11 +662,11 @@
         "discovery_event_id": "vv177Z_6GkRmUCzN"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18225033,
+        "url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-11-7-30-pm/concert/18225033",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -692,11 +692,11 @@
     "id": "tm-shakira-2026-newark-vv1aezkosgketdd_b",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Newark",
     "country": "United States Of America",
     "venue": "Prudential Center",
-    "datetime_iso": "2026-07-14T23:30:00Z",
+    "datetime_iso": "2026-07-15T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "02006473A90FB67A",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
@@ -704,7 +704,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "02006473A90FB67A",
@@ -715,11 +715,11 @@
         "discovery_event_id": "vv1AeZkoSGketdD_B"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18157380,
+        "url": "https://seatgeek.com/shakira-tickets/newark-new-jersey-prudential-center-2026-07-14-7-30-pm/concert/18157380",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -745,11 +745,11 @@
     "id": "tm-shakira-2026-brooklyn-1ayzkosgkdghkeg",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
-    "datetime_iso": "2026-07-20T23:30:00Z",
+    "datetime_iso": "2026-07-21T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "30006471F56C69CC",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
@@ -757,7 +757,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "30006471F56C69CC",
@@ -768,11 +768,11 @@
         "discovery_event_id": "1AYZkosGkdghkEG"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18157379,
+        "url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-20-7-30-pm/concert/18157379",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -798,11 +798,11 @@
     "id": "tm-shakira-2026-brooklyn-1adzz_6gktq1p0z",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
-    "datetime_iso": "2026-07-21T23:30:00Z",
+    "datetime_iso": "2026-07-22T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "3000647FDD296900",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
@@ -810,7 +810,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000647FDD296900",
@@ -821,11 +821,11 @@
         "discovery_event_id": "1AdZZ_6GkTq1p0Z"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18225034,
+        "url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-21-7-30-pm/concert/18225034",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -851,11 +851,11 @@
     "id": "tm-shakira-2026-belmont-park-15dzz_619b3pj",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Belmont Park",
     "country": "United States Of America",
     "venue": "UBS Arena",
-    "datetime_iso": "2026-07-23T23:30:00Z",
+    "datetime_iso": "2026-07-24T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "3000647297612966",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
@@ -863,7 +863,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000647297612966",
@@ -874,11 +874,11 @@
         "discovery_event_id": "15dZZ_619b3PJ"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18157381,
+        "url": "https://seatgeek.com/shakira-tickets/elmont-new-york-ubs-arena-2026-07-23-7-30-pm/concert/18157381",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -904,11 +904,11 @@
     "id": "tm-shakira-2026-atlantic-city-vv17fz_6gkb5efrp",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN WORLD TOUR",
     "city": "Atlantic City",
     "country": "United States Of America",
     "venue": "Boardwalk Hall",
-    "datetime_iso": "2026-07-25T23:00:00Z",
+    "datetime_iso": "2026-07-26T00:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0200647E8B0947A5",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
@@ -916,7 +916,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0200647E8B0947A5",
@@ -927,11 +927,11 @@
         "discovery_event_id": "vv17FZ_6GkB5efrP"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18157403,
+        "url": "https://seatgeek.com/shakira-tickets/atlantic-city-new-jersey-boardwalk-hall-2026-07-25-7-30-pm/concert/18157403",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -957,7 +957,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1k7eo4av",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -969,7 +969,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "127815141",
@@ -1010,7 +1010,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16vas39ay",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1022,7 +1022,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1273497170",
@@ -1063,7 +1063,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16vrkvz38",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1075,7 +1075,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1786040490",
@@ -1116,7 +1116,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16v_oqxoe",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1128,7 +1128,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1651762442",
@@ -1169,7 +1169,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16vowff-f",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1181,7 +1181,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1472508854",
@@ -1222,7 +1222,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1konkpax",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1234,7 +1234,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "823196262",
@@ -1275,7 +1275,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1kbi4uav",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1287,7 +1287,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "628576241",
@@ -1328,7 +1328,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16v4mzjas",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1340,7 +1340,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1577026271",
@@ -1381,7 +1381,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16v73axp9",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1393,7 +1393,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1112262957",
@@ -1434,7 +1434,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1koifuzg",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1446,7 +1446,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "828236035",
@@ -1487,7 +1487,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz1koecouy",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1499,7 +1499,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "802391370",
@@ -1540,7 +1540,7 @@
     "id": "tm-shakira-2026-madrid-z698xz2qz16vfpafo8",
     "artist_slug": "shakira",
     "artist_name": "Shakira",
-    "event_name": "",
+    "event_name": "SHAKIRA - LAS MUJERES YA NO LLORAN - RESIDENCIA EUROPEA",
     "city": "Madrid",
     "country": "Spain",
     "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
@@ -1552,7 +1552,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": null,
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1525248810",
@@ -1588,5 +1588,57 @@
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfPaFO8",
     "verification_status": "needs_recheck"
+  },
+  {
+    "id": "tm-shakira-2026-madrid-z7r9jz1a7j7vi",
+    "artist_slug": "shakira",
+    "artist_name": "Shakira",
+    "event_name": "Shakira",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Shakira Stadium",
+    "datetime_iso": "2026-09-27T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7J7vI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7J7vI",
+        "discovery_event_id": "Z7r9jZ1A7J7vI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J7vI",
+    "status": "on-sale"
   }
 ]

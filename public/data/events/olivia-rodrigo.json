@@ -3,7 +3,7 @@
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a706ep",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Wolf Alice",
     "city": "Hartford",
     "country": "United States Of America",
     "venue": "PeoplesBank Arena",
@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A706ep",
@@ -26,11 +26,11 @@
         "discovery_event_id": "Z7r9jZ1A706ep"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211661,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-25-7-pm/concert/18211661",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -55,7 +55,7 @@
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Wolf Alice",
     "city": "Hartford",
     "country": "United States Of America",
     "venue": "PeoplesBank Arena",
@@ -67,7 +67,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A70677",
@@ -78,11 +78,11 @@
         "discovery_event_id": "Z7r9jZ1A70677"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211658,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-26-7-pm/concert/18211658",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -107,7 +107,7 @@
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Pittsburgh",
     "country": "United States Of America",
     "venue": "PPG Paints Arena",
@@ -119,22 +119,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-29-2026/event/1600649DD7C8F781",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1600649DD7C8F781",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-29-2026/event/1600649DD7C8F781",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvbZ_aGkM9w2rv"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211667,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-09-29-7-pm/concert/18211667",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -160,7 +160,7 @@
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Pittsburgh",
     "country": "United States Of America",
     "venue": "PPG Paints Arena",
@@ -172,22 +172,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-30-2026/event/1600649DD7CAF784",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1600649DD7CAF784",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-pittsburgh-pennsylvania-09-30-2026/event/1600649DD7CAF784",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvbZ_aGkM9wRr7"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211669,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-09-30-7-pm/concert/18211669",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -213,7 +213,7 @@
     "id": "tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Washington",
     "country": "United States Of America",
     "venue": "Capital One Arena",
@@ -225,22 +225,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-03-2026/event/150064943E892404",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "150064943E892404",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-03-2026/event/150064943E892404",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1kA8v0PdGACx387"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211668,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/washington-district-of-columbia-capital-one-arena-2026-10-03-7-pm/concert/18211668",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -266,7 +266,7 @@
     "id": "tm-olivia-rodrigo-2026-washington-1avfz_agkvqmncz",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Washington",
     "country": "United States Of America",
     "venue": "Capital One Arena",
@@ -278,22 +278,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-04-2026/event/1500649D1DBAAB40",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1500649D1DBAAB40",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-washington-district-of-columbia-10-04-2026/event/1500649D1DBAAB40",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvfZ_aGkVqmncZ"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211670,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/washington-district-of-columbia-capital-one-arena-2026-10-04-7-pm/concert/18211670",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -319,7 +319,7 @@
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyed-b",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Charlotte",
     "country": "United States Of America",
     "venue": "Spectrum Center",
@@ -331,22 +331,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-07-2026/event/2D00649DB99FB858",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2D00649DB99FB858",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-07-2026/event/2D00649DB99FB858",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5eVZ_aUyED-b"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211674,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-10-07-7-pm/concert/18211674",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -372,7 +372,7 @@
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Charlotte",
     "country": "United States Of America",
     "venue": "Spectrum Center",
@@ -384,22 +384,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-08-2026/event/2D00649DB9A4B875",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2D00649DB9A4B875",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-charlotte-north-carolina-10-08-2026/event/2D00649DB9A4B875",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5eVZ_aUyt5-g"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211678,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-10-08-7-pm/concert/18211678",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -425,7 +425,7 @@
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkyetuoa",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
@@ -437,22 +437,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-11-2026/event/0400649C02FF6809",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0400649C02FF6809",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-11-2026/event/0400649C02FF6809",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv178Z_aGkYeTUOa"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211679,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/chicago-illinois-united-center-2026-10-11-7-pm/concert/18211679",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -478,7 +478,7 @@
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkmlebgy",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
@@ -490,22 +490,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-12-2026/event/0400649DEB9FA339",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0400649DEB9FA339",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-12-2026/event/0400649DEB9FA339",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv178Z_aGkMlEBGy"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211680,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/chicago-illinois-united-center-2026-10-12-7-pm/concert/18211680",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -531,7 +531,7 @@
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agksbtqpc",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
@@ -543,22 +543,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-15-2026/event/0100649CD8A5A5AD",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100649CD8A5A5AD",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-15-2026/event/0100649CD8A5A5AD",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv177Z_aGkSbtQpc"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211681,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-15-7-pm/concert/18211681",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -584,7 +584,7 @@
     "id": "tm-olivia-rodrigo-2026-boston-vv177z_agkv-whjn",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
@@ -596,22 +596,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-17-2026/event/0100649D21F5B72A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100649D21F5B72A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-17-2026/event/0100649D21F5B72A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv177Z_aGkV-Whjn"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211686,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-17-7-pm/concert/18211686",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -637,7 +637,7 @@
     "id": "tm-olivia-rodrigo-2026-boston-vvg17z_13s_x9k",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Boston",
     "country": "United States Of America",
     "venue": "TD Garden",
@@ -649,22 +649,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-18-2026/event/010064A4B36625C6",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "010064A4B36625C6",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-boston-massachusetts-10-18-2026/event/010064A4B36625C6",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG17Z_13S_x9k"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18224681,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/boston-massachusetts-td-garden-2026-10-18-7-pm/concert/18224681",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -690,7 +690,7 @@
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmby4v9",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Montreal",
     "country": "Canada",
     "venue": "Centre Bell",
@@ -702,22 +702,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3100649B98C15057",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Ad7Z_aGkmbY4v9"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211732,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/montreal-canada-centre-bell-2026-10-21-7-pm/concert/18211732",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -743,7 +743,7 @@
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Montreal",
     "country": "Canada",
     "venue": "Centre Bell",
@@ -755,22 +755,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3100649B98C45059",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Ad7Z_aGkmbsAv_"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211735,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/montreal-canada-centre-bell-2026-10-22-7-pm/concert/18211735",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -796,7 +796,7 @@
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkmwmykb",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Toronto",
     "country": "Canada",
     "venue": "Scotiabank Arena",
@@ -808,22 +808,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-26-2026/event/1000649BBDBB94D8",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000649BBDBB94D8",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-26-2026/event/1000649BBDBB94D8",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvZZ_aGkmWmyKb"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211736,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/toronto-canada-scotiabank-arena-2026-10-26-7-pm/concert/18211736",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -849,7 +849,7 @@
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkvcvogj",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Toronto",
     "country": "Canada",
     "venue": "Scotiabank Arena",
@@ -861,22 +861,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-27-2026/event/1000649D0E060D66",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1000649D0E060D66",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-toronto-ontario-10-27-2026/event/1000649D0E060D66",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AvZZ_aGkVCvOgJ"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211738,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/toronto-canada-scotiabank-arena-2026-10-27-7-pm/concert/18211738",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -902,7 +902,7 @@
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtn2ij",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Columbus",
     "country": "United States Of America",
     "venue": "Schottenstein Center",
@@ -914,22 +914,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0500649DFF8CFA1C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17fZ_aGkMTN2Ij"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211687,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-29-7-pm/concert/18211687",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -955,7 +955,7 @@
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri-",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Columbus",
     "country": "United States Of America",
     "venue": "Schottenstein Center",
@@ -967,22 +967,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-30-2026/event/0500649DFF8EFA21",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0500649DFF8EFA21",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-30-2026/event/0500649DFF8EFA21",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17fZ_aGkMTNRI-"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211689,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2026-10-30-7-pm/concert/18211689",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1008,7 +1008,7 @@
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Philadelphia",
     "country": "United States Of America",
     "venue": "Xfinity Mobile Arena",
@@ -1020,22 +1020,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-07-2026/event/3000649DC07F7DF5",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649DC07F7DF5",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-07-2026/event/3000649DC07F7DF5",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkMZLMMg"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211690,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-07-7-pm/concert/18211690",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1061,7 +1061,7 @@
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzoemy",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Philadelphia",
     "country": "United States Of America",
     "venue": "Xfinity Mobile Arena",
@@ -1073,22 +1073,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-08-2026/event/3000649DC0827DF9",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649DC0827DF9",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-philadelphia-pennsylvania-11-08-2026/event/3000649DC0827DF9",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkMZOEMy"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211692,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-08-7-pm/concert/18211692",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1114,7 +1114,7 @@
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw2ij5",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Atlanta",
     "country": "United States Of America",
     "venue": "State Farm Arena",
@@ -1126,22 +1126,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-11-2026/event/0E00649DBD3E870B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0E00649DBD3E870B",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-11-2026/event/0E00649DBD3E870B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1zZ_aUW2Ij5"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211693,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-11-7-pm/concert/18211693",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1167,7 +1167,7 @@
     "id": "tm-olivia-rodrigo-2026-atlanta-vvg1zz_auw8bjb",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Atlanta",
     "country": "United States Of America",
     "venue": "State Farm Arena",
@@ -1179,22 +1179,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-12-2026/event/0E00649DBD418718",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0E00649DBD418718",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-12-2026/event/0E00649DBD418718",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1zZ_aUW8bjb"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211698,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-12-7-pm/concert/18211698",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1220,7 +1220,7 @@
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Orlando",
     "country": "United States Of America",
     "venue": "Kia Center",
@@ -1232,22 +1232,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-15-2026/event/2200649DA5425466",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2200649DA5425466",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-15-2026/event/2200649DA5425466",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AeFZ_aGkUP8PoJ"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211699,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/orlando-florida-kia-center-2026-11-15-7-pm/concert/18211699",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1273,7 +1273,7 @@
     "id": "tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Orlando",
     "country": "United States Of America",
     "venue": "Kia Center",
@@ -1285,22 +1285,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-16-2026/event/2200649DB24560D4",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2200649DB24560D4",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-orlando-florida-11-16-2026/event/2200649DB24560D4",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AeFZ_aGkUwopdf"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211700,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/orlando-florida-kia-center-2026-11-16-7-pm/concert/18211700",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1326,7 +1326,7 @@
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Devon Again",
     "city": "Sunrise",
     "country": "United States Of America",
     "venue": "Amerant Bank Arena",
@@ -1334,11 +1334,11 @@
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7067F",
     "ticketmaster_url": "",
-    "seatgeek_url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620",
+    "seatgeek_url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-19-7-pm/concert/18208621",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7067F",
@@ -1349,11 +1349,11 @@
         "discovery_event_id": "Z7r9jZ1A7067F"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18208621,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-19-7-pm/concert/18208621",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1378,7 +1378,7 @@
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Devon Again",
     "city": "Sunrise",
     "country": "United States Of America",
     "venue": "Amerant Bank Arena",
@@ -1390,7 +1390,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7067o",
@@ -1401,11 +1401,11 @@
         "discovery_event_id": "Z7r9jZ1A7067o"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18208620,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1430,7 +1430,7 @@
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Nashville",
     "country": "United States Of America",
     "venue": "Bridgestone Arena",
@@ -1442,22 +1442,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-23-2026/event/1B00649D0DA1A0A0",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1B00649D0DA1A0A0",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-23-2026/event/1B00649D0DA1A0A0",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5viZ_aVuIQeO"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211703,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-23-7-pm/concert/18211703",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1483,7 +1483,7 @@
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Nashville",
     "country": "United States Of America",
     "venue": "Bridgestone Arena",
@@ -1495,22 +1495,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-24-2026/event/1B00649D0E9FA33C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1B00649D0E9FA33C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-nashville-tennessee-11-24-2026/event/1B00649D0E9FA33C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5viZ_aVCEBGH"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211705,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-24-7-pm/concert/18211705",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1536,11 +1536,11 @@
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Vancouver",
     "country": "Canada",
     "venue": "Rogers Arena",
-    "datetime_iso": "2026-12-02T03:00:00Z",
+    "datetime_iso": "2026-12-02T02:00:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1100649D82B16018",
     "ticketmaster_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-01-2026/event/1100649D82B16018",
@@ -1548,22 +1548,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-01-2026/event/1100649D82B16018",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1100649D82B16018",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-01-2026/event/1100649D82B16018",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Av7Z_aGkUeipZb"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211742,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-01-7-pm/concert/18211742",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1589,11 +1589,11 @@
     "id": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Vancouver",
     "country": "Canada",
     "venue": "Rogers Arena",
-    "datetime_iso": "2026-12-03T03:00:00Z",
+    "datetime_iso": "2026-12-03T02:00:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1100649D82B46026",
     "ticketmaster_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-02-2026/event/1100649D82B46026",
@@ -1601,22 +1601,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-02-2026/event/1100649D82B46026",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1100649D82B46026",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-vancouver-british-columbia-12-02-2026/event/1100649D82B46026",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Av7Z_aGkUeckZJ"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211743,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-02-7-pm/concert/18211743",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1642,7 +1642,7 @@
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Seattle",
     "country": "United States Of America",
     "venue": "Climate Pledge Arena",
@@ -1654,22 +1654,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-07-2026/event/0F00649DD1062FF0",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0F00649DD1062FF0",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-07-2026/event/0F00649DD1062FF0",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1HZ_aMovxTY"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211710,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-07-7-pm/concert/18211710",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1695,7 +1695,7 @@
     "id": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Seattle",
     "country": "United States Of America",
     "venue": "Climate Pledge Arena",
@@ -1707,22 +1707,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-08-2026/event/0F00649DE731624A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0F00649DE731624A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-seattle-washington-12-08-2026/event/0F00649DE731624A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG1HZ_aMEGpa1"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211711,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-08-7-pm/concert/18211711",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1748,7 +1748,7 @@
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Oakland",
     "country": "United States Of America",
     "venue": "Oakland Arena",
@@ -1760,22 +1760,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-11-2026/event/1C00649DD84D193A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C00649DD84D193A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-11-2026/event/1C00649DD84D193A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_aMbKo0B"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211712,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-11-7-pm/concert/18211712",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1801,7 +1801,7 @@
     "id": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Oakland",
     "country": "United States Of America",
     "venue": "Oakland Arena",
@@ -1813,22 +1813,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-12-2026/event/1C00649DD853194A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C00649DD853194A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-oakland-california-12-12-2026/event/1C00649DD853194A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_aMbfsP1"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211714,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-12-7-pm/concert/18211714",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1854,7 +1854,7 @@
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Sacramento",
     "country": "United States Of America",
     "venue": "Golden 1 Center",
@@ -1866,22 +1866,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-15-2026/event/1C00649CABA73528",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C00649CABA73528",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-15-2026/event/1C00649CABA73528",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_awltSfI"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211717,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-15-7-pm/concert/18211717",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1907,7 +1907,7 @@
     "id": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Sacramento",
     "country": "United States Of America",
     "venue": "Golden 1 Center",
@@ -1919,22 +1919,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-16-2026/event/1C00649CABAA3530",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1C00649CABAA3530",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-sacramento-california-12-16-2026/event/1C00649CABAA3530",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "G5vYZ_awlnNfY"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211719,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-16-7-pm/concert/18211719",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1960,7 +1960,7 @@
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Devon Again",
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "T-Mobile Arena",
@@ -1968,11 +1968,11 @@
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "Z7r9jZ1A706kk",
     "ticketmaster_url": "",
-    "seatgeek_url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723",
+    "seatgeek_url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A706kk",
@@ -1983,11 +1983,11 @@
         "discovery_event_id": "Z7r9jZ1A706kk"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211722,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2012,7 +2012,7 @@
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Devon Again",
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "T-Mobile Arena",
@@ -2024,7 +2024,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A706kF",
@@ -2035,11 +2035,11 @@
         "discovery_event_id": "Z7r9jZ1A706kF"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211723,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2064,7 +2064,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2076,22 +2076,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-12-2027/event/0900649DE7C663B2",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE7C663B2",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-12-2027/event/0900649DE7C663B2",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMEsJCw"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211724,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-12-7-pm/concert/18211724",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2117,7 +2117,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2129,22 +2129,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-13-2027/event/0900649DE7FE6418",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE7FE6418",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-13-2027/event/0900649DE7FE6418",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMETJ8b"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211726,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-13-7-pm/concert/18211726",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2170,7 +2170,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2182,22 +2182,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-16-2027/event/0900649DE84C64CD",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE84C64CD",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-16-2027/event/0900649DE84C64CD",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMIKkKu"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18214730,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-16-7-pm/concert/18214730",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2223,7 +2223,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2235,22 +2235,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-17-2027/event/0900649DE899654B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE899654B",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-17-2027/event/0900649DE899654B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMIJp45"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211731,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-17-7-pm/concert/18211731",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2276,7 +2276,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2288,22 +2288,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-20-2027/event/090064A4B79AF95E",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B79AF95E",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-20-2027/event/090064A4B79AF95E",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MJRPr"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18224991,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-20-7-pm/concert/18224991",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2329,7 +2329,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2341,22 +2341,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-21-2027/event/090064A4B7A6F97C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7A6F97C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-21-2027/event/090064A4B7A6F97C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MtRPH"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18224990,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-21-7-pm/concert/18224990",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2382,7 +2382,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2394,22 +2394,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-24-2027/event/090064A4B7B2F9A0",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7B2F9A0",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-24-2027/event/090064A4B7B2F9A0",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MiRJO"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18225825,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-24-7-pm/concert/18225825",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2435,7 +2435,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2447,22 +2447,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-25-2027/event/090064A4B7BFF9BB",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7BFF9BB",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-25-2027/event/090064A4B7BFF9BB",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MRTJD"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18227093,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-25-7-pm/concert/18227093",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2488,7 +2488,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte-",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2500,22 +2500,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-28-2027/event/090064A4B7CBF9E1",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7CBF9E1",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-28-2027/event/090064A4B7CBF9E1",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MwTE-"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18230500,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-28-7-pm/concert/18230500",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2541,7 +2541,7 @@
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Intuit Dome",
@@ -2553,22 +2553,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-29-2027/event/090064A4B7E1FA1A",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7E1FA1A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-29-2027/event/090064A4B7E1FA1A",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MzLIQ"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18230501,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-29-7-pm/concert/18230501",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2594,7 +2594,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -2606,22 +2606,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-11-2027/event/30006497FDD3D51D",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "30006497FDD3D51D",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-11-2027/event/30006497FDD3D51D",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AYZk39GkdWVWfq"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211656,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-11-7-pm/concert/18211656",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2647,7 +2647,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -2659,22 +2659,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-12-2027/event/3000649D1548C9A3",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D1548C9A3",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-12-2027/event/3000649D1548C9A3",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkV43GJN"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211659,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-12-7-pm/concert/18211659",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2700,7 +2700,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -2712,22 +2712,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-15-2027/event/3000649D1555C9AB",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D1555C9AB",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-15-2027/event/3000649D1555C9AB",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkV44jJl"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211660,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-15-7-pm/concert/18211660",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2753,7 +2753,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -2765,22 +2765,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-16-2027/event/3000649D155FC9B3",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D155FC9B3",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-16-2027/event/3000649D155FC9B3",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkV49HJS"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18211657,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-16-7-pm/concert/18211657",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2806,7 +2806,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -2818,22 +2818,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-19-2027/event/3000649D3207D962",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D3207D962",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-19-2027/event/3000649D3207D962",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwvWPx"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18224685,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-19-7-pm/concert/18224685",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2859,7 +2859,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -2871,22 +2871,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-20-2027/event/3000649D320FD968",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D320FD968",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-20-2027/event/3000649D320FD968",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwdWPI"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18224992,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-20-7-pm/concert/18224992",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2912,7 +2912,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -2924,22 +2924,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-23-2027/event/3000649D3218D96C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D3218D96C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-23-2027/event/3000649D3218D96C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwkuPi"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18226585,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-23-7-pm/concert/18226585",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2965,7 +2965,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -2977,22 +2977,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-24-2027/event/3000649D3220D972",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D3220D972",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-24-2027/event/3000649D3220D972",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwFuPw"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18226587,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-24-7-pm/concert/18226587",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3018,7 +3018,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -3030,22 +3030,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-27-2027/event/3000649D322BD975",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D322BD975",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-27-2027/event/3000649D322BD975",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVw1WPg"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18227138,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-27-7-pm/concert/18227138",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3071,7 +3071,7 @@
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
@@ -3083,22 +3083,22 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-28-2027/event/3000649D3235D97E",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D3235D97E",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-28-2027/event/3000649D3235D97E",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwuqPX"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18229435,
+        "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-28-7-pm/concert/18229435",
+        "verified": true,
+        "last_verified_at": "2026-07-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3124,7 +3124,7 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Amsterdam",
     "country": "Netherlands",
     "venue": "Ziggo Dome",
@@ -3136,13 +3136,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1272271842?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1272271842",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1272271842?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16vawas-e"
       },
@@ -3177,10 +3177,10 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo | Venue Premium Packages",
     "city": "Amsterdam",
     "country": "Netherlands",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-23T19:01:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1685500735",
@@ -3189,13 +3189,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1685500735?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1685500735",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1685500735?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16eeK73Fx"
       },
@@ -3230,7 +3230,7 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Amsterdam",
     "country": "Netherlands",
     "venue": "Ziggo Dome",
@@ -3242,13 +3242,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/184166589?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "184166589",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/184166589?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ1kk7AJpa"
       },
@@ -3283,10 +3283,10 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo | Venue Premium Packages",
     "city": "Amsterdam",
     "country": "Netherlands",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-24T19:01:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1326599942",
@@ -3295,13 +3295,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1326599942?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1326599942",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1326599942?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16vAOfwGx"
       },
@@ -3336,7 +3336,7 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Amsterdam",
     "country": "Netherlands",
     "venue": "Ziggo Dome",
@@ -3348,13 +3348,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1280221009?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1280221009",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1280221009?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16v1ZF-Za"
       },
@@ -3389,10 +3389,10 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo | Venue Premium Packages",
     "city": "Amsterdam",
     "country": "Netherlands",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-27T19:01:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "1858815589",
@@ -3401,13 +3401,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1858815589?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1858815589",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1858815589?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ1krKo_rd"
       },
@@ -3442,7 +3442,7 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Amsterdam",
     "country": "Netherlands",
     "venue": "Ziggo Dome",
@@ -3454,13 +3454,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1650605337?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1650605337",
         "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-the-unraveled-tour-tickets/1650605337?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16v_8bAGM"
       },
@@ -3495,10 +3495,10 @@
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo | Venue Premium Packages",
     "city": "Amsterdam",
     "country": "Netherlands",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-28T18:01:00Z",
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "963929835",
@@ -3507,13 +3507,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/oliva-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/963929835?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "963929835",
         "url": "https://www.ticketmaster.nl/event/oliva-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/963929835?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZbpZ16vb_GPZo"
       },
@@ -3548,7 +3548,7 @@
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Munich",
     "country": "Germany",
     "venue": "Olympiahalle",
@@ -3560,13 +3560,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/530317160?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "530317160",
         "url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/530317160?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZC2Z1kfYG9AO"
       },
@@ -3601,7 +3601,7 @@
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Munich",
     "country": "Germany",
     "venue": "Olympiahalle",
@@ -3613,13 +3613,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/1372657990?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1372657990",
         "url": "https://www.ticketmaster.de/event/olivia-rodrigo-the-unraveled-tour-tickets/1372657990?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZC2Z16vuw_9J8"
       },
@@ -3654,7 +3654,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -3666,13 +3666,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-05-04-2027/event/3500649DB098427C",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649DB098427C",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-05-04-2027/event/3500649DB098427C",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkUYJ7aH"
       },
@@ -3707,7 +3707,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -3719,13 +3719,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-06-04-2027/event/3500649DB3304512",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649DB3304512",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-06-04-2027/event/3500649DB3304512",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkUSG7f3"
       },
@@ -3760,7 +3760,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkusmfph",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -3772,13 +3772,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-08-04-2027/event/3500649DB3DD459B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649DB3DD459B",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-08-04-2027/event/3500649DB3DD459B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkUSMfph"
       },
@@ -3813,7 +3813,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkug10qr",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -3825,13 +3825,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-04-2027/event/3500649DB52A469E",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649DB52A469E",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-04-2027/event/3500649DB52A469E",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkUg10Qr"
       },
@@ -3866,7 +3866,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -3878,13 +3878,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-12-04-2027/event/3500649ED42F6096",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649ED42F6096",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-12-04-2027/event/3500649ED42F6096",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDf5Uep"
       },
@@ -3919,7 +3919,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -3931,13 +3931,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-14-04-2027/event/3500649ED8236514",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649ED8236514",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-14-04-2027/event/3500649ED8236514",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDbFUff"
       },
@@ -3972,7 +3972,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -3984,13 +3984,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-15-04-2027/event/3500649EDAC36683",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EDAC36683",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-15-04-2027/event/3500649EDAC36683",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDQYUQd"
       },
@@ -4025,7 +4025,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -4037,13 +4037,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-19-04-2027/event/3500649EDCB9682B",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EDCB9682B",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-19-04-2027/event/3500649EDCB9682B",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDjmpOl"
       },
@@ -4078,7 +4078,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -4090,13 +4090,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-20-04-2027/event/3500649EE68772AC",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EE68772AC",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-20-04-2027/event/3500649EE68772AC",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDJ-M1i"
       },
@@ -4131,7 +4131,7 @@
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Barcelona",
     "country": "Spain",
     "venue": "Palau Sant Jordi",
@@ -4143,13 +4143,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/515318918?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "515318918",
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/515318918?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZ2qZ1kf4Gb0b"
       },
@@ -4184,7 +4184,7 @@
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Barcelona",
     "country": "Spain",
     "venue": "Palau Sant Jordi",
@@ -4196,13 +4196,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/436032987?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "436032987",
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/436032987?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZ2qZ1k8UZwJ6"
       },
@@ -4237,7 +4237,7 @@
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Barcelona",
     "country": "Spain",
     "venue": "Palau Sant Jordi",
@@ -4249,13 +4249,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/2022065084?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "2022065084",
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/2022065084?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZ2qZ16eZxvPe7"
       },
@@ -4290,7 +4290,7 @@
     "id": "tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "Barcelona",
     "country": "Spain",
     "venue": "Palau Sant Jordi",
@@ -4302,13 +4302,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/408226519?language=en-us",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "408226519",
         "url": "https://www.ticketmaster.es/event/olivia-rodrigo-the-unraveled-tour-tickets/408226519?language=en-us",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "Z698xZ2qZ1k8FFJf_"
       },
@@ -4343,7 +4343,7 @@
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Die Spitz",
     "city": "Greenwich",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -4355,7 +4355,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A70ff4",
@@ -4395,7 +4395,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -4407,13 +4407,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-05-2027/event/3500649EF88784A5",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EF88784A5",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-09-05-2027/event/3500649EF88784A5",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDz-z3P"
       },
@@ -4448,7 +4448,7 @@
     "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo w/ Die Spitz",
     "city": "Greenwich",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -4460,7 +4460,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A70fff",
@@ -4500,7 +4500,7 @@
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
-    "event_name": "",
+    "event_name": "Olivia Rodrigo: The Unraveled Tour",
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
@@ -4512,13 +4512,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-10-05-2027/event/3500649EFB8486D2",
-    "last_verified_at": "2026-05-20",
+    "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500649EFB8486D2",
         "url": "https://www.ticketmaster.co.uk/olivia-rodrigo-the-unraveled-tour-london-10-05-2027/event/3500649EFB8486D2",
         "verified": true,
-        "last_verified_at": "2026-05-20",
+        "last_verified_at": "2026-07-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdfZ_aGkDD-Fh3"
       },

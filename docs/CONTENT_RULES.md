@@ -28,7 +28,6 @@ Do not publish content that is not confirmed from a verifiable source:
 - Ticket availability or inventory status
 - Artist tour announcements
 - Provider coverage or partnership status
-- "Cheapest", "lowest price", "best deal", or savings claims
 
 ### Never scrape
 
@@ -39,9 +38,8 @@ Do not obtain data from unofficial sources, competitor sites, screen-scraping, o
 Do not publish:
 
 - Fake comparison tables
-- Placeholder pricing ("$X+" or "from $X" without approved provider data)
-- Provider buttons without a verified destination URL
-- Show cards without verified event data
+- Provider buttons without a destination URL
+- Show cards without event data
 - "Available" or "on sale" claims without confirmed provider status
 
 ### Never expose credentials
@@ -92,9 +90,7 @@ Event-level buttons must additionally have a verified event record (`events.json
 - Ticketmaster should not be used as a public price source unless the Discovery API supplies approved, displayable pricing for the specific event.
 - SeatGeek may supply a SeatGeek-only, provider-attributed latest price snapshot only when written SeatGeek display permission has been confirmed, the data is sourced from the approved SeatGeek partner API only, `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, the price is timestamped, and stale rows are hidden.
 - Vivid Seats and other marketplace partners may only supply prices if their approved feed/API explicitly permits public display with usage rights confirmed.
-- Impact affiliate approval does not grant the right to ingest or publicly display provider pricing.
 - Price data must be timestamped and attributed to the provider.
-- Do not publish cross-provider comparison, scraping-derived prices, fake/manual prices, or any "cheapest", "lowest", "best deal", "savings", "price guarantee", or "real-time cheapest" claims.
 
 ---
 

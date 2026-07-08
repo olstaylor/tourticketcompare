@@ -924,6 +924,13 @@ assert(invalidSeatGeekShow?.seatgeek_url?.includes("example.com"), "invalid test
 const serverMorganWithoutSeatGeek = await routeResponse("/artists/morgan-wallen");
 assert(!serverMorganWithoutSeatGeek.text.includes("Check latest price on SeatGeek"), "server-rendered SeatGeek CTA should stay hidden without SeatGeek Impact config");
 assert(!serverMorganWithoutSeatGeek.text.includes("provider=seatgeek"), "server-rendered pages should not link /api/out SeatGeek redirects without SeatGeek Impact config");
+const ttcHomeJs = await read("public/ttc-home.js");
+assert(ttcHomeJs.includes('wrap.setQuery = function (query, options)'), "homepage search should expose a hydration query setter");
+assert(ttcHomeJs.includes('new URLSearchParams(window.location.search).get("q")'), "homepage hydration should read the q query parameter");
+assert(ttcHomeJs.includes('id: "search-widget"'), "hydrated homepage should preserve the #search-widget anchor target");
+assert(ttcHomeJs.includes('homepageSearch.setQuery(query, { open: true, focus: window.location.hash === "#search-widget" })'), "homepage q hydration should prefill and open the large search panel");
+assert(ttcHomeJs.includes('searchWidget.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage q hydration should scroll to the preserved search-widget anchor when requested");
+
 const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
 assert(appJs.includes("/api/out?"), "artist show cards should route event CTAs through /api/out");

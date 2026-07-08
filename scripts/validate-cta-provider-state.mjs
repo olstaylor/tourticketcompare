@@ -32,11 +32,16 @@
 //      contract that status name promises: canonical long-form storefront URL
 //      (slug segment before /event/<id>), id present, full datetime, venue and
 //      city. (Machine approval must match its own definition.)
+//   5. Every event with provider_links.seatgeek.verified === true (the flag
+//      that lets a SeatGeek CTA publish standalone on a needs_recheck event)
+//      has a top-level seatgeek_url that /api/out can redirect (event-URL
+//      shape), a provider_links.seatgeek.url matching it exactly, and an
+//      ISO-dated last_verified_at. (Verified SeatGeek provenance must resolve.)
 //
 // Informational (reported, never fails): events that store a seatgeek_url while
-// the Ticketmaster link is not publishable (the SeatGeek CTA is correctly
-// suppressed — it only renders alongside a publishable Ticketmaster link), and
-// per-status / per-artist counts.
+// neither the Ticketmaster link nor verified SeatGeek provenance makes it
+// publishable (the SeatGeek CTA is correctly suppressed), events publishing a
+// SeatGeek-only CTA on verified provenance, and per-status / per-artist counts.
 //
 // Usage:
 //   node scripts/validate-cta-provider-state.mjs            (human report; exit 1 on drift)
@@ -90,6 +95,40 @@ function ticketmasterRedirectIssue(event, allowedHosts) {
   const id = clean(event?.ticketmaster_event_id).toLowerCase();
   if (!id) return "ticketmaster_event_id is empty";
   if (!url.toLowerCase().includes(id)) return "ticketmaster_url does not contain ticketmaster_event_id";
+  return "";
+}
+
+// The redirect-level invariant /api/out enforces for a SeatGeek event CTA
+// (mirrors validateSeatGeekEventUrl in functions/api/out.js). Returns "" when
+// ok, else a reason.
+function seatGeekUrlShapeIssue(url) {
+  if (!url) return "no seatgeek_url";
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return "seatgeek_url is not a valid URL";
+  }
+  if (parsed.protocol !== "https:") return "seatgeek_url is not https";
+  const host = parsed.hostname.toLowerCase();
+  if (host !== "seatgeek.com" && host !== "www.seatgeek.com") return `seatgeek_url host '${parsed.hostname}' is not seatgeek.com`;
+  const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+  if (!path || path === "/") return "seatgeek_url is the SeatGeek homepage";
+  if (/^\/(search|venues?|performers?|artists?|concert-tickets|tickets)(?:\/|$)/i.test(path)) return "seatgeek_url is a generic search/artist/venue URL";
+  if (!/\/(concert|sports|theater|theatre)\/\d+$/i.test(path)) return "seatgeek_url does not end in /<category>/<numeric id>";
+  return "";
+}
+
+// The verified-SeatGeek-provenance contract behind providerEventPublishable's
+// standalone SeatGeek path. Returns "" when ok, else a reason.
+function seatgeekVerifiedIssue(event) {
+  const link = event?.provider_links?.seatgeek;
+  if (link?.verified !== true) return "";
+  const topUrl = clean(event?.seatgeek_url);
+  const shapeIssue = seatGeekUrlShapeIssue(topUrl);
+  if (shapeIssue) return shapeIssue;
+  if (clean(link.url) !== topUrl) return "provider_links.seatgeek.url does not match top-level seatgeek_url";
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(clean(link.last_verified_at))) return "provider_links.seatgeek.last_verified_at is not an ISO date";
   return "";
 }
 
@@ -170,14 +209,17 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
     }
   }
 
-  // 3 + 4: event-level CTA eligibility derives from verification_status.
+  // 3 + 4 + 5: event-level CTA eligibility derives from verification_status
+  // (Ticketmaster path) or verified SeatGeek provenance (standalone path).
   const statusCounts = {};
   let publishable = 0;
   let seatgeekSuppressed = 0;
+  let seatgeekStandalone = 0;
   for (const event of events) {
     const status = clean(event?.verification_status) || "(absent)";
     statusCounts[status] = (statusCounts[status] || 0) + 1;
     const isPublishable = eventLinkPublishable(event);
+    const seatgeekVerified = event?.provider_links?.seatgeek?.verified === true;
     if (isPublishable) {
       publishable += 1;
       const redirectIssue = ticketmasterRedirectIssue(event, allowedHosts);
@@ -191,9 +233,19 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
         errors.push(`event "${clean(event?.id)}" is machine_high_confidence but breaks that contract: ${mhcIssue}`);
       }
     }
-    if (clean(event?.seatgeek_url) && !isPublishable) {
+    const sgIssue = seatgeekVerifiedIssue(event);
+    if (sgIssue) {
+      errors.push(`event "${clean(event?.id)}" has verified SeatGeek provenance but its CTA will not redirect: ${sgIssue}`);
+    }
+    if (seatgeekVerified && !isPublishable && !sgIssue) {
+      seatgeekStandalone += 1;
+    }
+    if (clean(event?.seatgeek_url) && !isPublishable && !seatgeekVerified) {
       seatgeekSuppressed += 1;
     }
+  }
+  if (seatgeekStandalone > 0) {
+    info.push(`${seatgeekStandalone} event(s) publish a standalone SeatGeek CTA on verified provenance (provider_links.seatgeek.verified) while the Ticketmaster link stays suppressed.`);
   }
   if (seatgeekSuppressed > 0) {
     info.push(`${seatgeekSuppressed} event(s) store a seatgeek_url while the event is not publishable — the SeatGeek CTA renders standalone only when provider_links.seatgeek.verified is true, otherwise it stays suppressed.`);
@@ -244,6 +296,18 @@ function selfTest() {
   assert("missing id fails redirect invariant", ticketmasterRedirectIssue({ ...goodEvent, ticketmaster_event_id: "" }, allowedHosts) !== "");
   assert("non-allowlisted host fails redirect invariant", ticketmasterRedirectIssue({ ...goodEvent, ticketmaster_url: "https://www.ticketmaster.com.mx/x/event/ABC123" }, allowedHosts) !== "");
 
+  const sgUrl = "https://seatgeek.com/raye-tickets/london-o2-2027-06-01-7-pm/concert/12345";
+  const sgVerifiedEvent = {
+    id: "e-sg-verified", verification_status: "needs_recheck", seatgeek_url: sgUrl,
+    provider_links: { seatgeek: { event_id: 12345, url: sgUrl, verified: true, last_verified_at: "2026-07-07", availability_status: "listed" } },
+  };
+  assert("unverified seatgeek provenance imposes no contract", seatgeekVerifiedIssue({ ...goodEvent, seatgeek_url: "" }) === "");
+  assert("clean verified seatgeek provenance passes", seatgeekVerifiedIssue(sgVerifiedEvent) === "");
+  assert("verified seatgeek without top-level url fails", seatgeekVerifiedIssue({ ...sgVerifiedEvent, seatgeek_url: "" }) !== "");
+  assert("verified seatgeek with performer-page url fails", seatgeekVerifiedIssue({ ...sgVerifiedEvent, seatgeek_url: "https://seatgeek.com/raye-tickets", provider_links: { seatgeek: { ...sgVerifiedEvent.provider_links.seatgeek, url: "https://seatgeek.com/raye-tickets" } } }) !== "");
+  assert("verified seatgeek with mismatched provider url fails", seatgeekVerifiedIssue({ ...sgVerifiedEvent, provider_links: { seatgeek: { ...sgVerifiedEvent.provider_links.seatgeek, url: "https://seatgeek.com/other/concert/999" } } }) !== "");
+  assert("verified seatgeek without dated provenance fails", seatgeekVerifiedIssue({ ...sgVerifiedEvent, provider_links: { seatgeek: { ...sgVerifiedEvent.provider_links.seatgeek, last_verified_at: null } } }) !== "");
+
   const registryBySlug = new Map([
     ["raye", { slug: "raye", review_status: "verified", ticketmaster_attraction_id: "K1" }],
     ["beyonce", { slug: "beyonce", review_status: "unverified", ticketmaster_attraction_id: "" }],
@@ -263,6 +327,8 @@ function selfTest() {
       { ...goodEvent, id: "e-pub-noid", ticketmaster_event_id: "" }, // publishable but won't redirect
       { ...goodEvent, id: "e-mhc-short", ticketmaster_url: "https://www.ticketmaster.com/event/ABC123" }, // mhc contract break
       { id: "e-sg", verification_status: "needs_recheck", seatgeek_url: "https://seatgeek.com/x/concert/1" }, // info only
+      { ...sgVerifiedEvent, id: "e-sg-ok" }, // standalone SeatGeek CTA, info only
+      { ...sgVerifiedEvent, id: "e-sg-broken", seatgeek_url: "", provider_links: { seatgeek: { ...sgVerifiedEvent.provider_links.seatgeek, url: "" } } }, // verified provenance that cannot redirect
     ],
     registryBySlug,
     verifiedKeys: [
@@ -278,7 +344,9 @@ function selfTest() {
   assert("unverified identity CTA flagged", dirtyEval.errors.some((e) => e.includes("beyonce") && e.includes("verified")));
   assert("withheld identity CTA flagged", dirtyEval.errors.some((e) => e.includes("banned") && e.includes("withheld")));
   assert("missing registry entry flagged", dirtyEval.errors.some((e) => e.includes("ghost")));
-  assert("suppressed seatgeek is info not error", dirtyEval.info.some((i) => i.includes("suppressed")) && !dirtyEval.errors.some((e) => e.includes("e-sg")));
+  assert("suppressed seatgeek is info not error", dirtyEval.info.some((i) => i.includes("suppressed")) && !dirtyEval.errors.some((e) => e.includes('"e-sg"')));
+  assert("standalone verified seatgeek is info not error", dirtyEval.info.some((i) => i.includes("standalone SeatGeek CTA")) && !dirtyEval.errors.some((e) => e.includes("e-sg-ok")));
+  assert("broken verified seatgeek provenance flagged", dirtyEval.errors.some((e) => e.includes("e-sg-broken") && e.includes("SeatGeek provenance")));
 
   let failed = 0;
   for (const c of checks) {

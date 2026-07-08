@@ -2,7 +2,11 @@
 // Generic automation PR opener (no-ops if a PR for the branch is already open).
 // Used by PR-only data workflows that have already committed + pushed a branch.
 //
-// Env: GITHUB_TOKEN, GITHUB_REPOSITORY, BRANCH, PR_TITLE, PR_BODY, PR_LABEL (optional), PR_BASE (default main).
+// Env: GITHUB_TOKEN, GITHUB_REPOSITORY, BRANCH, PR_TITLE, PR_BODY, PR_LABEL (optional), PR_BASE (default main),
+// PR_AUTO_MERGE (optional; "true" squash-merges the PR this call opens, once —
+// only for workflows whose in-run validation suite has already passed on
+// exactly the pushed content, mirroring sync-tm-events-write-pr.mjs; a failed
+// merge leaves the PR open for a human with an explanatory comment, never forced).
 // Degrades gracefully (prints a compare link, exits 0) when the Actions token
 // is not permitted to open PRs.
 
@@ -13,6 +17,7 @@ const title = process.env.PR_TITLE;
 const body = process.env.PR_BODY || "";
 const label = process.env.PR_LABEL || "";
 const base = process.env.PR_BASE || "main";
+const autoMerge = process.env.PR_AUTO_MERGE === "true";
 const owner = (repo || "").split("/")[0];
 
 if (!token || !repo || !branch || !title) {
@@ -61,3 +66,24 @@ if (label) {
   );
 }
 console.log(`Opened PR #${pr.number}: ${pr.html_url}`);
+
+if (autoMerge) {
+  // Only merges the PR opened by this same call — the caller's in-run
+  // validation suite has already passed on exactly this content. Never forced:
+  // any failure leaves the PR open for a human, with the reason as a comment.
+  try {
+    await gh("PUT", `/repos/${repo}/pulls/${pr.number}/merge`, {
+      merge_method: "squash",
+      commit_title: `${title} (#${pr.number})`,
+    });
+    console.log(`Auto-merged PR #${pr.number} (squash).`);
+    await gh("DELETE", `/repos/${repo}/git/refs/heads/${branch}`).catch((err) =>
+      console.warn(`Could not delete merged branch ${branch}: ${err.message}`)
+    );
+  } catch (err) {
+    console.warn(`Auto-merge of PR #${pr.number} failed: ${err.message}`);
+    await gh("POST", `/repos/${repo}/issues/${pr.number}/comments`, {
+      body: `Auto-merge failed (\`${String(err.message || err).slice(0, 300)}\`). The in-run validation suite passed, but this PR now needs a human to resolve and merge it.`,
+    }).catch((commentErr) => console.warn(`Could not comment on PR #${pr.number}: ${commentErr.message}`));
+  }
+}

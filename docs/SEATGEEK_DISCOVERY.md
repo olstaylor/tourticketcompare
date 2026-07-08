@@ -115,22 +115,29 @@ provenance. Per event it:
 1. Confirms the stored `seatgeek_url` against the SeatGeek `/2/events/<id>` API
    record: the registry-verified `seatgeek_performer_id` must appear on the
    record, the UTC instants must match within ±3h (`datetime_utc` vs the
-   event's `datetime_iso`), the city must match (exact/metro), and the URL must
-   pass the event-URL shape validator. UTC-instant matching is what catches
-   wrong-night URL mix-ups between back-to-back shows at the same venue.
+   event's `datetime_iso`), the city (exact/metro) and venue
+   (containment/token overlap) must match, and the URL must pass the
+   event-URL shape validator. UTC-instant matching is what catches wrong-night
+   URL mix-ups between back-to-back shows at the same venue; the venue anchor
+   is what separates same-city same-night listings at different venues.
 2. When the stored URL fails (or none is stored), runs one discovery query
    scoped to the performer id in a ±12h window around the event instant.
    Exactly one qualifying candidate may be applied; zero or ambiguous results
    are reported, never guessed.
-3. Self-heals in the safe direction only: failed stored URLs are corrected to
-   the single unambiguous match or cleared; previously-verified provenance the
-   API no longer confirms is un-verified and cleared. Events whose
-   `datetime_iso` is timezone-naive with no IANA `timezone` field are skipped
-   as date-ambiguous.
+3. Self-heals in the safe direction, on positive evidence only: a stored URL
+   is corrected or cleared (and prior provenance un-verified) solely after a
+   confirmed-gone id lookup (HTTP 404/410) or a confirmed content mismatch,
+   plus a successful (HTTP 2xx) zero-candidate discovery query. Transient API
+   failures (5xx/network/parse) leave the event untouched for the next run;
+   auth/config failures (401/403) abort the run with exit 1 and no writes.
+   Events whose `datetime_iso` is date-only (time TBA) or timezone-naive with
+   no IANA `timezone` field are skipped as date-ambiguous.
 
-Selection per run: all `needs_recheck` events, all events holding an
-unverified `seatgeek_url` (provenance backfill), and verified provenance older
-than `--recheck-days`. `validate-cta-provider-state.mjs` hard-errors on any
+Selection per run — future events only (past shows render nowhere and
+SeatGeek delists them, so they are skipped, which also keeps the smoke suite's
+pinned Gainesville canary URL untouched): all `needs_recheck` events, all
+events holding an unverified `seatgeek_url` (provenance backfill), and
+verified provenance older than `--recheck-days`. `validate-cta-provider-state.mjs` hard-errors on any
 verified provenance whose CTA would not redirect.
 
 ## Nightly automation (`seatgeek-cta-sync.yml`)

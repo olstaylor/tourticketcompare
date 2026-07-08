@@ -1086,7 +1086,7 @@
     "country": "United States",
     "city": "Chicago",
     "venue": "United Center",
-    "datetime_iso": "2026-08-03T20:00:00",
+    "datetime_iso": "2026-08-04T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced"
@@ -1492,7 +1492,7 @@
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
     "country": "Italy",
-    "city": "Milano",
+    "city": "Milan",
     "venue": "Ippodromo SNAI La Maura",
     "datetime_iso": "2026-07-17T20:45:00",
     "timezone": "Europe/Rome",
@@ -1504,7 +1504,7 @@
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
     "country": "Italy",
-    "city": "Milano",
+    "city": "Milan",
     "venue": "Ippodromo SNAI La Maura",
     "datetime_iso": "2026-07-18T20:45:00",
     "timezone": "Europe/Rome",
@@ -1910,7 +1910,7 @@
     "country": "Canada",
     "city": "Vancouver",
     "venue": "Rogers Arena",
-    "datetime_iso": "2026-12-02T03:00:00Z",
+    "datetime_iso": "2026-12-02T02:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
@@ -1922,7 +1922,7 @@
     "country": "Canada",
     "city": "Vancouver",
     "venue": "Rogers Arena",
-    "datetime_iso": "2026-12-03T03:00:00Z",
+    "datetime_iso": "2026-12-03T02:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
@@ -2279,7 +2279,7 @@
     "artist_name": "Olivia Rodrigo",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-23T19:01:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "The Unraveled Tour",
@@ -2303,7 +2303,7 @@
     "artist_name": "Olivia Rodrigo",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-24T19:01:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "The Unraveled Tour",
@@ -2327,7 +2327,7 @@
     "artist_name": "Olivia Rodrigo",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-27T19:01:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "The Unraveled Tour",
@@ -2351,7 +2351,7 @@
     "artist_name": "Olivia Rodrigo",
     "country": "Netherlands",
     "city": "Amsterdam",
-    "venue": "Vinyl Room - Ziggo Dome",
+    "venue": "Ziggo Dome Club",
     "datetime_iso": "2027-03-28T18:01:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "The Unraveled Tour",
@@ -3384,7 +3384,7 @@
     "country": "United States Of America",
     "city": "Boston",
     "venue": "TD Garden",
-    "datetime_iso": "2026-07-10T23:30:00Z",
+    "datetime_iso": "2026-07-11T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Las Mujeres Ya No Lloran",
     "status": "on-sale"
@@ -3396,7 +3396,7 @@
     "country": "United States Of America",
     "city": "Boston",
     "venue": "TD Garden",
-    "datetime_iso": "2026-07-11T23:30:00Z",
+    "datetime_iso": "2026-07-12T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Las Mujeres Ya No Lloran",
     "status": "on-sale"
@@ -3408,7 +3408,7 @@
     "country": "United States Of America",
     "city": "Newark",
     "venue": "Prudential Center",
-    "datetime_iso": "2026-07-14T23:30:00Z",
+    "datetime_iso": "2026-07-15T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Las Mujeres Ya No Lloran",
     "status": "on-sale"
@@ -3420,7 +3420,7 @@
     "country": "United States Of America",
     "city": "Brooklyn",
     "venue": "Barclays Center",
-    "datetime_iso": "2026-07-20T23:30:00Z",
+    "datetime_iso": "2026-07-21T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Las Mujeres Ya No Lloran",
     "status": "on-sale"
@@ -3432,7 +3432,7 @@
     "country": "United States Of America",
     "city": "Brooklyn",
     "venue": "Barclays Center",
-    "datetime_iso": "2026-07-21T23:30:00Z",
+    "datetime_iso": "2026-07-22T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Las Mujeres Ya No Lloran",
     "status": "on-sale"
@@ -3444,7 +3444,7 @@
     "country": "United States Of America",
     "city": "Belmont Park",
     "venue": "UBS Arena",
-    "datetime_iso": "2026-07-23T23:30:00Z",
+    "datetime_iso": "2026-07-24T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Las Mujeres Ya No Lloran",
     "status": "on-sale"
@@ -3456,7 +3456,7 @@
     "country": "United States Of America",
     "city": "Atlantic City",
     "venue": "Boardwalk Hall",
-    "datetime_iso": "2026-07-25T23:00:00Z",
+    "datetime_iso": "2026-07-26T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Las Mujeres Ya No Lloran",
     "status": "on-sale"
@@ -4432,7 +4432,7 @@
     "country": "United States Of America",
     "city": "Chicago",
     "venue": "United Center",
-    "datetime_iso": "2026-08-04T01:00:00Z",
+    "datetime_iso": "2026-08-04T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "on-sale"
@@ -4785,6 +4785,17 @@
     "datetime_iso": "2026-10-17T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Still Finally Over It",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-shakira-2026-madrid-z7r9jz1a7j7vi",
+    "artist_slug": "shakira",
+    "artist_name": "Shakira",
+    "country": "Spain",
+    "city": "Madrid",
+    "venue": "Shakira Stadium",
+    "datetime_iso": "2026-09-27T18:30:00Z",
+    "tour_name": "",
     "status": "on-sale"
   }
 ]

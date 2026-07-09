@@ -1,0 +1,156 @@
+name: Vivid Seats CTA sync
+
+# Nightly Vivid Seats event-link sync (owner-approved 2026-07-09 — the
+# fourth sanctioned auto-publish path in SAFE_PUBLISHING_RULES.md, the Vivid
+# Seats twin of seatgeek-cta-sync.yml). Keeps Vivid Seats event CTAs current
+# with no owner input:
+#
+#   scripts/sync-vividseats-events.mjs --apply — per registry-verified
+#   artist, fetches the Impact Marketplace Products catalog (exact-name
+#   query) and uses it as both the discovery set (adds/corrects missing or
+#   wrong-night URLs) and the verification oracle (writes
+#   provider_links.vivid-seats verified provenance; clears/un-verifies only
+#   on positive confirmed-gone evidence from a fully-paginated catalog).
+#   Zero/ambiguous matches are reported, never guessed.
+#
+# The full validation suite runs in-job on exactly the proposed content
+# before the PR opens; scheduled runs then auto-merge (squash) via
+# PR_AUTO_MERGE. A failed merge leaves the PR open for a human — never
+# forced. Manual dispatch defaults to a safe preview (no writes, no PR).
+#
+# SeatGeek links, Ticketmaster links, verification_status, tour_name,
+# out.js, and affiliate logic are never touched by this loop. Without
+# IMPACT_VIVIDSEATS_ACCOUNT_SID/IMPACT_VIVIDSEATS_AUTH_TOKEN the run no-ops
+# safely.
+#
+# Ship note: the nightly cron is intentionally commented out below. The
+# first apply run must be supervised (owner dispatches mode=preview, then
+# mode=apply auto_merge=false, spot-checks the PR, and merges it) before a
+# follow-up one-line PR enables the schedule — see docs/PROVIDER_SYNC.md.
+#
+# See docs/PROVIDER_SYNC.md and SAFE_PUBLISHING_RULES.md.
+
+on:
+  # 05:30 UTC — after the 05:00 seatgeek-cta-sync run so both loops don't
+  # race the same data files; a lost race only degrades to a non-auto-merged
+  # PR, never a broken write.
+  # schedule:
+  #   - cron: '30 5 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'preview = dry-run only (no writes, no PR). apply = write + open review PR.'
+        type: choice
+        options:
+          - preview
+          - apply
+        default: preview
+      auto_merge:
+        description: 'With apply: squash-merge the PR once the in-run validation suite has passed (scheduled runs always do this).'
+        type: boolean
+        default: false
+      artist:
+        description: 'Single artist slug (blank = all registry-verified artists).'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: vividseats-cta-sync
+  cancel-in-progress: false
+
+jobs:
+  vividseats-cta-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git identity
+        run: |
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+
+      - name: Sync Vivid Seats event links
+        env:
+          IMPACT_VIVIDSEATS_ACCOUNT_SID: ${{ secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
+          IMPACT_VIVIDSEATS_AUTH_TOKEN: ${{ secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_MODE: ${{ github.event.inputs.mode }}
+          INPUT_ARTIST: ${{ github.event.inputs.artist }}
+        run: |
+          set -euo pipefail
+          if [ -z "${IMPACT_VIVIDSEATS_ACCOUNT_SID:-}" ] || [ -z "${IMPACT_VIVIDSEATS_AUTH_TOKEN:-}" ]; then
+            echo "IMPACT_VIVIDSEATS_ACCOUNT_SID/IMPACT_VIVIDSEATS_AUTH_TOKEN not configured — safe no-op (no checks, no writes, no PR)."
+            exit 0
+          fi
+          SYNC_ARGS=(--max-api-calls 400 --delay-ms 1000)
+          if [ -n "${INPUT_ARTIST:-}" ]; then
+            SYNC_ARGS+=(--artist "${INPUT_ARTIST}")
+          fi
+          if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_MODE:-preview}" = "apply" ]; then
+            node scripts/sync-vividseats-events.mjs --apply "${SYNC_ARGS[@]}"
+            npm run events:partition
+            npm run events:sync
+          else
+            echo "PREVIEW — dry-run only, no writes."
+            node scripts/sync-vividseats-events.mjs "${SYNC_ARGS[@]}"
+          fi
+
+      - name: Validate
+        run: |
+          npm run events:validate:prod
+          npm run events:validate:partitions
+          npm run test:mvp
+          git diff --check
+
+      - name: Detect data changes
+        id: diff
+        run: |
+          if git diff --quiet -- public/data/events.json public/data/events public/data/events-index.json public/index.html; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open Vivid Seats CTA sync PR
+        if: steps.diff.outputs.changed == 'true' && (github.event_name == 'schedule' || github.event.inputs.mode == 'apply')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_AUTO_MERGE: ${{ github.event.inputs.auto_merge }}
+        run: |
+          set -euo pipefail
+          TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/vividseats-cta-sync-${TODAY}"
+          git checkout -B "$BRANCH"
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html docs/VIVIDSEATS_CTA_SYNC_LOG.md
+          git commit -m "automation: Vivid Seats CTA sync (${TODAY})"
+          git push -u origin "$BRANCH" --force-with-lease
+          if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_AUTO_MERGE:-false}" = "true" ]; then
+            AUTO_MERGE=true
+          else
+            AUTO_MERGE=false
+          fi
+          BRANCH="$BRANCH" \
+          PR_TITLE="Vivid Seats CTA sync (${TODAY})" \
+          PR_LABEL="automation:vividseats-cta" \
+          PR_AUTO_MERGE="$AUTO_MERGE" \
+          PR_BODY=$'## What this PR does\n- Fetches each registry-verified artist\'s Impact Marketplace Products catalog (exact-name query) and uses it as both the discovery set and the verification oracle for event-level `vividseats_url` values (`scripts/sync-vividseats-events.mjs`, audit log `docs/VIVIDSEATS_CTA_SYNC_LOG.md`).\n- Writes `provider_links.vivid-seats` verified provenance on a positive match. Self-heals in the safe direction: wrong-night or no-longer-confirmed URLs are corrected or cleared only on positive confirmed-gone evidence from a fully-paginated catalog — never guessed, never cleared on an incomplete catalog fetch.\n- Ambiguous matches are reported and left untouched.\n\n## Explicit non-changes\n- No `verification_status`, `ticketmaster_*`, `seatgeek_*`, or `tour_name` changes.\n- No changes to `functions/api/out.js`, `VERIFIED_TICKET_LINKS`, or affiliate logic. No prices.\n\n## Validation run before this PR\n- `events:validate:prod`, `events:validate:partitions`, `test:mvp` (includes the CTA ↔ provider-state guard), `git diff --check`.\n\n## Review checklist (post-merge spot check on auto-merged runs)\n- [ ] Spot-check a verified event: the Vivid Seats page matches artist, venue, and local date.\n- [ ] Check the audit log for corrected/cleared/conflict rows.\n' \
+          node scripts/open-automation-pr.mjs

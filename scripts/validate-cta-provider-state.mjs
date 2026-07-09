@@ -132,6 +132,41 @@ function seatgeekVerifiedIssue(event) {
   return "";
 }
 
+// The redirect-level invariant /api/out enforces for a Vivid Seats event CTA
+// (mirrors validateVividSeatsEventUrl in functions/api/out.js). Returns ""
+// when ok, else a reason.
+function vividSeatsUrlShapeIssue(url) {
+  if (!url) return "no vividseats_url";
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return "vividseats_url is not a valid URL";
+  }
+  if (parsed.protocol !== "https:") return "vividseats_url is not https";
+  const host = parsed.hostname.toLowerCase();
+  if (host !== "vividseats.com" && host !== "www.vividseats.com") return `vividseats_url host '${parsed.hostname}' is not vividseats.com`;
+  const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+  if (!path || path === "/") return "vividseats_url is the Vivid Seats homepage";
+  if (/^\/(search|venues?|performers?|artists?|category|concerts?|sports?|theater|theatre)(?:\/|$)/i.test(path)) return "vividseats_url is a generic search/artist/venue URL";
+  if (!/\/production\/\d+$/i.test(path)) return "vividseats_url does not end in /production/<numeric id>";
+  return "";
+}
+
+// The verified-Vivid-Seats-provenance contract behind providerEventPublishable's
+// standalone Vivid Seats path (mirrors seatgeekVerifiedIssue). Returns "" when
+// ok, else a reason.
+function vividseatsVerifiedIssue(event) {
+  const link = event?.provider_links?.["vivid-seats"];
+  if (link?.verified !== true) return "";
+  const topUrl = clean(event?.vividseats_url);
+  const shapeIssue = vividSeatsUrlShapeIssue(topUrl);
+  if (shapeIssue) return shapeIssue;
+  if (clean(link.url) !== topUrl) return "provider_links.vivid-seats.url does not match top-level vividseats_url";
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(clean(link.last_verified_at))) return "provider_links.vivid-seats.last_verified_at is not an ISO date";
+  return "";
+}
+
 // The full machine_high_confidence contract (mirrors classifyCandidateLink in
 // scripts/apply-artists.mjs). Returns "" when ok, else a reason.
 function machineHighConfidenceIssue(event, allowedHosts) {
@@ -215,6 +250,7 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
   let publishable = 0;
   let seatgeekSuppressed = 0;
   let seatgeekStandalone = 0;
+  let vividseatsStandalone = 0;
   for (const event of events) {
     const status = clean(event?.verification_status) || "(absent)";
     statusCounts[status] = (statusCounts[status] || 0) + 1;
@@ -243,12 +279,23 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
     if (clean(event?.seatgeek_url) && !isPublishable && !seatgeekVerified) {
       seatgeekSuppressed += 1;
     }
+    const vividseatsVerified = event?.provider_links?.["vivid-seats"]?.verified === true;
+    const vsIssue = vividseatsVerifiedIssue(event);
+    if (vsIssue) {
+      errors.push(`event "${clean(event?.id)}" has verified Vivid Seats provenance but its CTA will not redirect: ${vsIssue}`);
+    }
+    if (vividseatsVerified && !vsIssue) {
+      vividseatsStandalone += 1;
+    }
   }
   if (seatgeekStandalone > 0) {
     info.push(`${seatgeekStandalone} event(s) publish a standalone SeatGeek CTA on verified provenance (provider_links.seatgeek.verified) while the Ticketmaster link stays suppressed.`);
   }
   if (seatgeekSuppressed > 0) {
     info.push(`${seatgeekSuppressed} event(s) store a seatgeek_url while the event is not publishable — the SeatGeek CTA renders standalone only when provider_links.seatgeek.verified is true, otherwise it stays suppressed.`);
+  }
+  if (vividseatsStandalone > 0) {
+    info.push(`${vividseatsStandalone} event(s) publish a standalone Vivid Seats CTA on verified provenance (provider_links.vivid-seats.verified).`);
   }
 
   return { errors, info, stats: { events: events.length, publishable, statusCounts, artistCtas: verifiedKeys.filter((k) => k.provider === "ticketmaster").length } };
@@ -308,6 +355,18 @@ function selfTest() {
   assert("verified seatgeek with mismatched provider url fails", seatgeekVerifiedIssue({ ...sgVerifiedEvent, provider_links: { seatgeek: { ...sgVerifiedEvent.provider_links.seatgeek, url: "https://seatgeek.com/other/concert/999" } } }) !== "");
   assert("verified seatgeek without dated provenance fails", seatgeekVerifiedIssue({ ...sgVerifiedEvent, provider_links: { seatgeek: { ...sgVerifiedEvent.provider_links.seatgeek, last_verified_at: null } } }) !== "");
 
+  const vsUrl = "https://vividseats.com/raye-tickets-london-o2-6-1-2027--floor/production/98765";
+  const vsVerifiedEvent = {
+    id: "e-vs-verified", vividseats_url: vsUrl,
+    provider_links: { "vivid-seats": { event_id: 98765, url: vsUrl, verified: true, last_verified_at: "2026-07-09", availability_status: "listed" } },
+  };
+  assert("unverified vividseats provenance imposes no contract", vividseatsVerifiedIssue({ vividseats_url: "" }) === "");
+  assert("clean verified vividseats provenance passes", vividseatsVerifiedIssue(vsVerifiedEvent) === "");
+  assert("verified vividseats without top-level url fails", vividseatsVerifiedIssue({ ...vsVerifiedEvent, vividseats_url: "" }) !== "");
+  assert("verified vividseats with performer-page url fails", vividseatsVerifiedIssue({ ...vsVerifiedEvent, vividseats_url: "https://vividseats.com/raye-tickets", provider_links: { "vivid-seats": { ...vsVerifiedEvent.provider_links["vivid-seats"], url: "https://vividseats.com/raye-tickets" } } }) !== "");
+  assert("verified vividseats with mismatched provider url fails", vividseatsVerifiedIssue({ ...vsVerifiedEvent, provider_links: { "vivid-seats": { ...vsVerifiedEvent.provider_links["vivid-seats"], url: "https://vividseats.com/other/production/999" } } }) !== "");
+  assert("verified vividseats without dated provenance fails", vividseatsVerifiedIssue({ ...vsVerifiedEvent, provider_links: { "vivid-seats": { ...vsVerifiedEvent.provider_links["vivid-seats"], last_verified_at: null } } }) !== "");
+
   const registryBySlug = new Map([
     ["raye", { slug: "raye", review_status: "verified", ticketmaster_attraction_id: "K1" }],
     ["beyonce", { slug: "beyonce", review_status: "unverified", ticketmaster_attraction_id: "" }],
@@ -329,6 +388,8 @@ function selfTest() {
       { id: "e-sg", verification_status: "needs_recheck", seatgeek_url: "https://seatgeek.com/x/concert/1" }, // info only
       { ...sgVerifiedEvent, id: "e-sg-ok" }, // standalone SeatGeek CTA, info only
       { ...sgVerifiedEvent, id: "e-sg-broken", seatgeek_url: "", provider_links: { seatgeek: { ...sgVerifiedEvent.provider_links.seatgeek, url: "" } } }, // verified provenance that cannot redirect
+      { ...vsVerifiedEvent, id: "e-vs-ok" }, // standalone Vivid Seats CTA, info only
+      { ...vsVerifiedEvent, id: "e-vs-broken", vividseats_url: "", provider_links: { "vivid-seats": { ...vsVerifiedEvent.provider_links["vivid-seats"], url: "" } } }, // verified provenance that cannot redirect
     ],
     registryBySlug,
     verifiedKeys: [
@@ -347,6 +408,8 @@ function selfTest() {
   assert("suppressed seatgeek is info not error", dirtyEval.info.some((i) => i.includes("suppressed")) && !dirtyEval.errors.some((e) => e.includes('"e-sg"')));
   assert("standalone verified seatgeek is info not error", dirtyEval.info.some((i) => i.includes("standalone SeatGeek CTA")) && !dirtyEval.errors.some((e) => e.includes("e-sg-ok")));
   assert("broken verified seatgeek provenance flagged", dirtyEval.errors.some((e) => e.includes("e-sg-broken") && e.includes("SeatGeek provenance")));
+  assert("standalone verified vividseats is info not error", dirtyEval.info.some((i) => i.includes("standalone Vivid Seats CTA")) && !dirtyEval.errors.some((e) => e.includes("e-vs-ok")));
+  assert("broken verified vividseats provenance flagged", dirtyEval.errors.some((e) => e.includes("e-vs-broken") && e.includes("Vivid Seats provenance")));
 
   let failed = 0;
   for (const c of checks) {

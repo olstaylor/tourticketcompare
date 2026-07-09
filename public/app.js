@@ -174,6 +174,11 @@ const routeMeta = {
     description:
       "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site."
   },
+  "/compare-concert-ticket-prices": {
+    title: "Compare Concert Ticket Prices Across Trusted Sites | Tour Ticket Compare",
+    description:
+      "Find checked ticket options for major tours, open verified provider destinations, and compare final prices, fees, availability, and ticket terms on provider sites before buying."
+  },
   "/artists": {
     title: "Artists | TourTicketCompare",
     description:
@@ -2444,6 +2449,35 @@ function renderSimplePage(type) {
   main.replaceChildren(section);
 }
 
+function renderComparisonHub() {
+  setMeta(routeMeta["/compare-concert-ticket-prices"], false);
+  // This page is fully server-rendered by functions/[[path]].js; keep that
+  // HTML in place when it is present instead of re-rendering client-side.
+  if (document.getElementById("compareTitle")) return;
+  const section = document.createElement("section");
+  section.className = "content-page comparison-hub";
+  section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Compare Concert Ticket Prices" }]));
+  const panel = document.createElement("section");
+  panel.className = "nested-panel";
+  text(panel, "h1", "Compare Concert Ticket Prices");
+  text(
+    panel,
+    "p",
+    "Compare concert ticket prices across trusted ticket sites. Browse artist pages for checked event links, then confirm final prices, fees, availability, and ticket terms on the provider site before buying.",
+    "lead"
+  );
+  const actions = document.createElement("div");
+  actions.className = "action-row";
+  actions.append(
+    buttonLink("Browse artists", "/artists", "primary"),
+    buttonLink("Read buying guides", "/guides", "secondary"),
+    buttonLink("How it works", "/how-it-works", "secondary")
+  );
+  panel.append(actions);
+  section.append(panel);
+  main.replaceChildren(section);
+}
+
 function renderNotFound() {
   setMeta({ title: "Page Not Found | TourTicketCompare", description: "This TourTicketCompare page is not published." }, true);
   const section = document.createElement("section");
@@ -2515,6 +2549,7 @@ async function render() {
   else if (current.type === "artist") renderArtist(current.artist);
   else if (current.type === "guides") renderGuidesIndex();
   else if (current.type === "guide") renderGuide(current.guide);
+  else if (current.type === "compare-concert-ticket-prices") renderComparisonHub();
   else if (current.type === "how-it-works") renderHowItWorks();
   else if (["about", "contact", "editorial-policy", "affiliate-disclosure"].includes(current.type)) renderSimplePage(current.type);
   else renderNotFound();

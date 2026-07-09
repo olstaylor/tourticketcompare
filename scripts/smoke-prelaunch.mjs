@@ -947,6 +947,12 @@ assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === 
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
 assert(appJs.includes("Check SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
 assert(appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should preserve the safe SeatGeek supporting copy");
+assert(appJs.includes("SeatGeek price snapshot as of"), "hydration should include provider-attributed SeatGeek snapshot copy");
+assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
+assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price snapshot should hide expired data");
+assert(appJs.includes("new URLSearchParams({ showId: String(show.id), includePrices: \"true\" })"), "hydration should request prices only for the currently viewed individual show");
+assert(!appJs.includes("includePrices: String"), "hydration should not add includePrices to bulk artist show-list requests");
+assert(!appJs.match(/lowest\s+overall\s+price|cheapest/i), "hydration must not label SeatGeek snapshots as lowest overall or cheapest");
 assert(appJs.includes("No verified ticket link is available for this date."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 
@@ -1144,6 +1150,7 @@ const flagOffFreshSeatGeekResponse = await showsModule.onRequestGet({
 const flagOffFreshSeatGeekJson = await flagOffFreshSeatGeekResponse.json();
 const flagOffSeatGeekLane = seatGeekLaneFrom(flagOffFreshSeatGeekJson);
 assert(flagOffSeatGeekLane?.price === null && flagOffSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when SEATGEEK_PRICE_DISPLAY_ENABLED is false even if a fresh D1 row exists");
+assert(!JSON.stringify(flagOffFreshSeatGeekJson).includes("seatgeek_partner_api"), "SeatGeek source attribution should not appear when the display flag is disabled");
 
 const flagOnFreshSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
@@ -1160,6 +1167,7 @@ assert(flagOnFreshSeatGeekLane?.providerStatus === "ok" && flagOnFreshSeatGeekLa
 assert(flagOnFreshSeatGeekLane?.fetchedAt === freshSeatGeekPriceRow.verified_at, "SeatGeek price lane should use verified_at as its as-of timestamp");
 assert(flagOnFreshSeatGeekLane?.source === "seatgeek_partner_api", "SeatGeek price lane should expose only the approved source attribution");
 assert(flagOnFreshSeatGeekLane?.expiresAt === freshSeatGeekPriceRow.expires_at, "SeatGeek price lane should expose the snapshot expiry for freshness checks");
+assert(flagOnFreshSeatGeekLane?.note.includes("SeatGeek price snapshot"), "SeatGeek timestamp/source copy should appear only after a fresh approved D1 row passes the enabled API gate");
 
 const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),

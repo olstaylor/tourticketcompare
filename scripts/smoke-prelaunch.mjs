@@ -1207,7 +1207,8 @@ const flagOffFreshSeatGeekResponse = await showsModule.onRequestGet({
   env: {
     ...env,
     DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow]),
-    SEATGEEK_PRICE_DISPLAY_ENABLED: "false"
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "false",
+    VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false"
   }
 });
 const flagOffFreshSeatGeekJson = await flagOffFreshSeatGeekResponse.json();
@@ -1243,6 +1244,17 @@ const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
 });
 const flagOnStaleSeatGeekLane = seatGeekLaneFrom(await flagOnStaleSeatGeekResponse.json());
 assert(flagOnStaleSeatGeekLane?.price === null && flagOnStaleSeatGeekLane?.providerStatus === "unavailable", "stale SeatGeek D1 snapshots should be hidden and should not fall back to stale data");
+
+const missingSourceSeatGeekResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+  env: {
+    ...env,
+    DEMAND_DB: createProviderPricingDb([{ ...freshSeatGeekPriceRow, source: null }]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
+  }
+});
+const missingSourceSeatGeekLane = seatGeekLaneFrom(await missingSourceSeatGeekResponse.json());
+assert(missingSourceSeatGeekLane?.price === null && missingSourceSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when source attribution is missing or not the approved source");
 
 if (nonSeatGeekMorganShow) {
   const missingUrlRow = { ...freshSeatGeekPriceRow, event_id: nonSeatGeekMorganShow.id };

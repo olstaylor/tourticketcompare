@@ -14,7 +14,7 @@
     "ticketmaster_event_id": "1D006473D78CFDB8",
     "ticketmaster_url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
     "seatgeek_url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-10-3-30-am/concert/18131684",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-z-tickets-bronx-yankee-stadium-7-10-2026--concerts-rap-hip-hop/production/6802415",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
     "last_verified_at": "2026-05-07",
@@ -35,11 +35,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6802415,
+        "url": "https://www.vividseats.com/jay-z-tickets-bronx-yankee-stadium-7-10-2026--concerts-rap-hip-hop/production/6802415",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -67,7 +67,7 @@
     "ticketmaster_event_id": "1D006473D9D109CB",
     "ticketmaster_url": "https://www.ticketmaster.com/jayz-25-bronx-new-york-07-11-2026/event/1D006473D9D109CB",
     "seatgeek_url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-11-8-pm/concert/18131686",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-z-tickets-bronx-yankee-stadium-7-11-2026--concerts-rap-hip-hop/production/6802413",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-25-bronx-new-york-07-11-2026/event/1D006473D9D109CB",
     "last_verified_at": "2026-05-07",
@@ -88,11 +88,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6802413,
+        "url": "https://www.vividseats.com/jay-z-tickets-bronx-yankee-stadium-7-11-2026--concerts-rap-hip-hop/production/6802413",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -120,7 +120,7 @@
     "ticketmaster_event_id": "1D006473DB760A7F",
     "ticketmaster_url": "https://www.ticketmaster.com/jayz-extra-innings-bronx-new-york-07-12-2026/event/1D006473DB760A7F",
     "seatgeek_url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-12-8-pm/concert/18140262",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-z-tickets-bronx-yankee-stadium-7-12-2026/production/6824083",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-extra-innings-bronx-new-york-07-12-2026/event/1D006473DB760A7F",
     "last_verified_at": "2026-05-07",
@@ -141,11 +141,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6824083,
+        "url": "https://www.vividseats.com/jay-z-tickets-bronx-yankee-stadium-7-12-2026/production/6824083",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "0A0064C8CED8B734",
     "ticketmaster_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-23-2026/event/0A0064C8CED8B734",
     "seatgeek_url": "https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-23-8-pm/concert/18296599",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-23-2026--concerts-rap-hip-hop/production/7137531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-23-2026/event/0A0064C8CED8B734",
     "last_verified_at": "2026-07-06",
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7137531,
+        "url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-23-2026--concerts-rap-hip-hop/production/7137531",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

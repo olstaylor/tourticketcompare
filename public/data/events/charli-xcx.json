@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "300064C5A4647126",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-philadelphia-pennsylvania-09-11-2026/event/300064C5A4647126",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-09-11-8-pm/concert/18292509",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-philadelphia-xfinity-mobile-arena-9-11-2026--concerts-pop/production/7132044",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-philadelphia-pennsylvania-09-11-2026/event/300064C5A4647126",
     "last_verified_at": "2026-07-06",
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132044,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-philadelphia-xfinity-mobile-arena-9-11-2026--concerts-pop/production/7132044",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "300064C5DFEBAE3F",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-brooklyn-new-york-09-14-2026/event/300064C5DFEBAE3F",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/brooklyn-new-york-barclays-center-2026-09-14-7-30-pm/concert/18292511",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-brooklyn-barclays-center-9-14-2026--concerts-pop/production/7132046",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-brooklyn-new-york-09-14-2026/event/300064C5DFEBAE3F",
     "last_verified_at": "2026-07-06",
@@ -87,11 +87,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132046,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-brooklyn-barclays-center-9-14-2026--concerts-pop/production/7132046",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "300064C5DFF1AE4B",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-brooklyn-new-york-09-15-2026/event/300064C5DFF1AE4B",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/brooklyn-new-york-barclays-center-2026-09-15-7-30-pm/concert/18292510",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-brooklyn-barclays-center-9-15-2026--concerts-pop/production/7132048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-brooklyn-new-york-09-15-2026/event/300064C5DFF1AE4B",
     "last_verified_at": "2026-07-06",
@@ -140,11 +140,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132048,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-brooklyn-barclays-center-9-15-2026--concerts-pop/production/7132048",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "100064C4DF36B737",
     "ticketmaster_url": "https://www.ticketmaster.ca/charli-xcx-music-fashion-film-tour-toronto-ontario-09-21-2026/event/100064C4DF36B737",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/toronto-canada-scotiabank-arena-2026-09-21-7-30-pm/concert/18292530",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-toronto-scotiabank-arena-9-21-2026--concerts-pop/production/7132051",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/charli-xcx-music-fashion-film-tour-toronto-ontario-09-21-2026/event/100064C4DF36B737",
     "last_verified_at": "2026-07-06",
@@ -193,11 +193,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132051,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-toronto-scotiabank-arena-9-21-2026--concerts-pop/production/7132051",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "010064C5B7EAC51C",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-boston-massachusetts-09-24-2026/event/010064C5B7EAC51C",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/boston-massachusetts-td-garden-2026-09-24-8-pm/concert/18292514",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-boston-td-garden-9-24-2026--concerts-pop/production/7132053",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-boston-massachusetts-09-24-2026/event/010064C5B7EAC51C",
     "last_verified_at": "2026-07-06",
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132053,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-boston-td-garden-9-24-2026--concerts-pop/production/7132053",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "150064C4E3C51ACA",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-washington-district-of-columbia-09-28-2026/event/150064C4E3C51ACA",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/washington-district-of-columbia-capital-one-arena-2026-09-28-7-30-pm/concert/18292512",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-washington-capital-one-arena-9-28-2026--concerts-pop/production/7132055",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-washington-district-of-columbia-09-28-2026/event/150064C4E3C51ACA",
     "last_verified_at": "2026-07-06",
@@ -299,11 +299,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132055,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-washington-capital-one-arena-9-28-2026--concerts-pop/production/7132055",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "0E0064C5D7863203",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-atlanta-georgia-10-06-2026/event/0E0064C5D7863203",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/atlanta-georgia-state-farm-arena-1-2026-10-06-8-pm/concert/18292513",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-atlanta-state-farm-arena-10-6-2026--concerts-pop/production/7132059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-atlanta-georgia-10-06-2026/event/0E0064C5D7863203",
     "last_verified_at": "2026-07-06",
@@ -352,11 +352,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132059,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-atlanta-state-farm-arena-10-6-2026--concerts-pop/production/7132059",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "090064C5EF12A97C",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-17-8-pm/concert/18292522",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
     "last_verified_at": "2026-07-06",
@@ -458,11 +458,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132070,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "090064C5F509BA04",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-18-2026/event/090064C5F509BA04",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-18-8-pm/concert/18292523",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-18-2026--concerts-pop/production/7132072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-18-2026/event/090064C5F509BA04",
     "last_verified_at": "2026-07-06",
@@ -511,11 +511,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132072,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-18-2026--concerts-pop/production/7132072",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "190064C5D6359C3F",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
     "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/glendale-arizona-desert-diamond-arena-2026-10-21-8-pm/concert/18292524",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
     "last_verified_at": "2026-07-06",
@@ -564,11 +564,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7132074,
+        "url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

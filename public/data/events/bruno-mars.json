@@ -834,7 +834,7 @@
     "ticketmaster_event_id": "369958004",
     "ticketmaster_url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/369958004?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-madrid-riyadh-air-metropolitano-7-10-2026/production/6501654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/369958004?language=en-us",
     "last_verified_at": "2026-05-20",
@@ -854,11 +854,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501654,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-madrid-riyadh-air-metropolitano-7-10-2026/production/6501654",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -885,7 +885,7 @@
     "ticketmaster_event_id": "470744507",
     "ticketmaster_url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/470744507?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-madrid-riyadh-air-metropolitano-7-11-2026--concerts-pop/production/6522356",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/bruno-mars-the-romantic-tour-tickets/470744507?language=en-us",
     "last_verified_at": "2026-05-20",
@@ -905,11 +905,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6522356,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-madrid-riyadh-air-metropolitano-7-11-2026--concerts-pop/production/6522356",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1040,7 +1040,7 @@
     "ticketmaster_event_id": "2300638CCCE11DC5",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-18-07-2026/event/2300638CCCE11DC5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-18-2026/production/6501664",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-18-07-2026/event/2300638CCCE11DC5",
     "last_verified_at": "2026-07-07",
@@ -1061,11 +1061,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501664,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-18-2026/production/6501664",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1093,7 +1093,7 @@
     "ticketmaster_event_id": "23006427C8FF0D82",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-19-07-2026/event/23006427C8FF0D82",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-19-2026/production/6501666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-19-07-2026/event/23006427C8FF0D82",
     "last_verified_at": "2026-07-07",
@@ -1114,11 +1114,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501666,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-19-2026/production/6501666",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1146,7 +1146,7 @@
     "ticketmaster_event_id": "23006427F6C10F5B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-22-07-2026/event/23006427F6C10F5B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-22-2026--concerts-pop/production/6522407",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-22-07-2026/event/23006427F6C10F5B",
     "last_verified_at": "2026-07-07",
@@ -1167,11 +1167,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6522407,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-22-2026--concerts-pop/production/6522407",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1199,7 +1199,7 @@
     "ticketmaster_event_id": "23006427F78F0F67",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-24-07-2026/event/23006427F78F0F67",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-24-2026--concerts-pop/production/6522409",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-24-07-2026/event/23006427F78F0F67",
     "last_verified_at": "2026-07-07",
@@ -1220,11 +1220,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6522409,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-24-2026--concerts-pop/production/6522409",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1252,7 +1252,7 @@
     "ticketmaster_event_id": "23006427F8750F70",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-25-07-2026/event/23006427F8750F70",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-25-2026--concerts-pop/production/6522608",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-25-07-2026/event/23006427F8750F70",
     "last_verified_at": "2026-07-07",
@@ -1273,11 +1273,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6522608,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-25-2026--concerts-pop/production/6522608",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1305,7 +1305,7 @@
     "ticketmaster_event_id": "23006427FA0D0F8E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-28-07-2026/event/23006427FA0D0F8E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-28-2026--concerts-pop/production/6524076",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/bruno-mars-the-romantic-tour-london-28-07-2026/event/23006427FA0D0F8E",
     "last_verified_at": "2026-07-07",
@@ -1326,11 +1326,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6524076,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-london-wembley-stadium-7-28-2026--concerts-pop/production/6524076",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1464,7 +1464,7 @@
     "ticketmaster_event_id": "0000639EE08AD3BE",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-25-2026/event/0000639EE08AD3BE",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/east-rutherford-new-jersey-metlife-stadium-2026-08-25-7-pm/concert/18013033",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-east-rutherford-metlife-stadium-8-25-2026--concerts-pop/production/6524237",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-25-2026/event/0000639EE08AD3BE",
     "last_verified_at": "2026-07-07",
@@ -1485,11 +1485,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6524237,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-east-rutherford-metlife-stadium-8-25-2026--concerts-pop/production/6524237",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1517,7 +1517,7 @@
     "ticketmaster_event_id": "0000639EE08FD3C0",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/east-rutherford-new-jersey-metlife-stadium-2026-08-26-7-pm/concert/18013460",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-east-rutherford-metlife-stadium-8-26-2026--concerts-pop/production/6526776",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-east-rutherford-new-jersey-08-26-2026/event/0000639EE08FD3C0",
     "last_verified_at": "2026-07-07",
@@ -1538,11 +1538,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6526776,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-east-rutherford-metlife-stadium-8-26-2026--concerts-pop/production/6526776",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1570,7 +1570,7 @@
     "ticketmaster_event_id": "1600639DBC7473C7",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-pittsburgh-pennsylvania-08-29-2026/event/1600639DBC7473C7",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/pittsburgh-pennsylvania-acrisure-stadium-2026-08-29-7-pm/concert/18004659",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-pittsburgh-acrisure-stadium-8-29-2026/production/6501595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-pittsburgh-pennsylvania-08-29-2026/event/1600639DBC7473C7",
     "last_verified_at": "2026-07-07",
@@ -1591,11 +1591,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501595,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-pittsburgh-acrisure-stadium-8-29-2026/production/6501595",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1623,7 +1623,7 @@
     "ticketmaster_event_id": "02006425DC679C94",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-01-2026/event/02006425DC679C94",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-09-01-7-pm/concert/18004658",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-philadelphia-lincoln-financial-field-9-1-2026/production/6501604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-01-2026/event/02006425DC679C94",
     "last_verified_at": "2026-07-07",
@@ -1644,11 +1644,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501604,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-philadelphia-lincoln-financial-field-9-1-2026/production/6501604",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1676,7 +1676,7 @@
     "ticketmaster_event_id": "0200642CF18CAA24",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-02-2026/event/0200642CF18CAA24",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-09-02-7-pm/concert/18013349",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-philadelphia-lincoln-financial-field-9-2-2026--concerts-pop/production/6526771",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-philadelphia-pennsylvania-09-02-2026/event/0200642CF18CAA24",
     "last_verified_at": "2026-07-07",
@@ -1697,11 +1697,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6526771,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-philadelphia-lincoln-financial-field-9-2-2026--concerts-pop/production/6526771",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1729,7 +1729,7 @@
     "ticketmaster_event_id": "010063919F3CA1A3",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-05-2026/event/010063919F3CA1A3",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/foxborough-massachusetts-gillette-stadium-2026-09-05-7-pm/concert/18004666",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-foxborough-gillette-stadium-9-5-2026/production/6501606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-05-2026/event/010063919F3CA1A3",
     "last_verified_at": "2026-07-07",
@@ -1750,11 +1750,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501606,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-foxborough-gillette-stadium-9-5-2026/production/6501606",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1782,7 +1782,7 @@
     "ticketmaster_event_id": "01006428E3C4CF98",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-06-2026/event/01006428E3C4CF98",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/foxborough-massachusetts-gillette-stadium-2026-09-06-7-pm/concert/18013044",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-foxborough-gillette-stadium-9-6-2026--concerts-pop/production/6524244",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-foxborough-massachusetts-09-06-2026/event/01006428E3C4CF98",
     "last_verified_at": "2026-07-07",
@@ -1803,11 +1803,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6524244,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-foxborough-gillette-stadium-9-6-2026--concerts-pop/production/6524244",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1835,7 +1835,7 @@
     "ticketmaster_event_id": "0500639AE335B59B",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-indianapolis-indiana-09-09-2026/event/0500639AE335B59B",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/indianapolis-indiana-lucas-oil-stadium-2026-09-09-7-pm/concert/18004665",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-indianapolis-lucas-oil-stadium-9-9-2026/production/6501608",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-indianapolis-indiana-09-09-2026/event/0500639AE335B59B",
     "last_verified_at": "2026-07-07",
@@ -1856,11 +1856,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501608,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-indianapolis-lucas-oil-stadium-9-9-2026/production/6501608",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1888,7 +1888,7 @@
     "ticketmaster_event_id": "0D006425D5556F4E",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-12-2026/event/0D006425D5556F4E",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/tampa-florida-raymond-james-stadium-2026-09-12-7-pm/concert/18004669",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-tampa-raymond-james-stadium-9-12-2026/production/6501614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-12-2026/event/0D006425D5556F4E",
     "last_verified_at": "2026-07-07",
@@ -1909,11 +1909,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501614,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-tampa-raymond-james-stadium-9-12-2026/production/6501614",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1941,7 +1941,7 @@
     "ticketmaster_event_id": "0D00642885853532",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-13-2026/event/0D00642885853532",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/tampa-florida-raymond-james-stadium-2026-09-13-7-pm/concert/18013047",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-tampa-raymond-james-stadium-9-13-2026--concerts-pop/production/6524250",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-tampa-florida-09-13-2026/event/0D00642885853532",
     "last_verified_at": "2026-07-07",
@@ -1962,11 +1962,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6524250,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-tampa-raymond-james-stadium-9-13-2026--concerts-pop/production/6524250",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1994,7 +1994,7 @@
     "ticketmaster_event_id": "1B006390992596F2",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-new-orleans-louisiana-09-16-2026/event/1B006390992596F2",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/new-orleans-louisiana-caesars-superdome-2026-09-16-7-pm/concert/18004670",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-new-orleans-caesars-superdome-9-16-2026/production/6501616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-new-orleans-louisiana-09-16-2026/event/1B006390992596F2",
     "last_verified_at": "2026-07-07",
@@ -2015,11 +2015,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501616,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-new-orleans-caesars-superdome-9-16-2026/production/6501616",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2100,7 +2100,7 @@
     "ticketmaster_event_id": "0D0064287B1B2999",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-20-2026/event/0D0064287B1B2999",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/miami-gardens-florida-hard-rock-stadium-2026-09-20-7-pm/concert/18013024",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-miami-gardens-hard-rock-stadium-9-20-2026--concerts-pop/production/6524256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-miami-florida-09-20-2026/event/0D0064287B1B2999",
     "last_verified_at": "2026-07-07",
@@ -2121,11 +2121,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6524256,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-miami-gardens-hard-rock-stadium-9-20-2026--concerts-pop/production/6524256",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2153,7 +2153,7 @@
     "ticketmaster_event_id": "3A006393996765AE",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-san-antonio-texas-09-23-2026/event/3A006393996765AE",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/san-antonio-texas-alamodome-2026-09-23-7-pm/concert/18004675",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-san-antonio-alamodome-9-23-2026/production/6501626",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-san-antonio-texas-09-23-2026/event/3A006393996765AE",
     "last_verified_at": "2026-07-07",
@@ -2174,11 +2174,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501626,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-san-antonio-alamodome-9-23-2026/production/6501626",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2310,7 +2310,7 @@
     "ticketmaster_event_id": "0A006451D6B8C1D4",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-09-30-2026/event/0A006451D6B8C1D4",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-09-30-7-pm/concert/18107918",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-9-30-2026/production/6750848",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-09-30-2026/event/0A006451D6B8C1D4",
     "last_verified_at": "2026-07-07",
@@ -2331,11 +2331,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6750848,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-9-30-2026/production/6750848",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2363,7 +2363,7 @@
     "ticketmaster_event_id": "0A006396BA615BBE",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-02-2026/event/0A006396BA615BBE",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-02-7-pm/concert/18004678",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-2-2026/production/6501632",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-02-2026/event/0A006396BA615BBE",
     "last_verified_at": "2026-07-07",
@@ -2384,11 +2384,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501632,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-2-2026/production/6501632",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2416,7 +2416,7 @@
     "ticketmaster_event_id": "0A006396E80D747B",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-03-7-pm/concert/18004681",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-3-2026/production/6501634",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
     "last_verified_at": "2026-07-07",
@@ -2437,11 +2437,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501634,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-3-2026/production/6501634",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2469,7 +2469,7 @@
     "ticketmaster_event_id": "0A006426C23B4B2A",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-06-7-pm/concert/18013259",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-6-2026--concerts-pop/production/6526023",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
     "last_verified_at": "2026-07-07",
@@ -2490,11 +2490,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6526023,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-6-2026--concerts-pop/production/6526023",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2522,7 +2522,7 @@
     "ticketmaster_event_id": "0A006426C2444B31",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-07-2026/event/0A006426C2444B31",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-07-7-pm/concert/18013882",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-7-2026--concerts-pop/production/6526778",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-07-2026/event/0A006426C2444B31",
     "last_verified_at": "2026-07-07",
@@ -2543,11 +2543,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6526778,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-7-2026--concerts-pop/production/6526778",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2681,7 +2681,7 @@
     "ticketmaster_event_id": "1100639781ED3F37",
     "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-14-2026/event/1100639781ED3F37",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-14-7-pm/concert/18004687",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/production/6501668",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-14-2026/event/1100639781ED3F37",
     "last_verified_at": "2026-07-07",
@@ -2702,11 +2702,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6501668,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/production/6501668",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2734,7 +2734,7 @@
     "ticketmaster_event_id": "1100642CDBD269FE",
     "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-16-2026/event/1100642CDBD269FE",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-16-7-pm/concert/18013263",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-16-2026--concerts-pop/production/6525829",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-16-2026/event/1100642CDBD269FE",
     "last_verified_at": "2026-07-07",
@@ -2755,11 +2755,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6525829,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-16-2026--concerts-pop/production/6525829",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2787,7 +2787,7 @@
     "ticketmaster_event_id": "1100642CDBDE6A05",
     "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-17-7-pm/concert/18013350",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-17-2026--concerts-pop/production/6526792",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-17-2026/event/1100642CDBDE6A05",
     "last_verified_at": "2026-07-07",
@@ -2808,11 +2808,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6526792,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-17-2026--concerts-pop/production/6526792",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2840,7 +2840,7 @@
     "ticketmaster_event_id": "1100642F6CDF2F58",
     "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-20-7-pm/concert/18016784",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026--concerts-pop/production/6536764",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-20-2026/event/1100642F6CDF2F58",
     "last_verified_at": "2026-07-07",
@@ -2861,11 +2861,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6536764,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026--concerts-pop/production/6536764",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2893,7 +2893,7 @@
     "ticketmaster_event_id": "110064526E793170",
     "ticketmaster_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-21-2026/event/110064526E793170",
     "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-21-7-pm/concert/18107920",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-21-2026/production/6750960",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bruno-mars-the-romantic-tour-vancouver-british-columbia-10-21-2026/event/110064526E793170",
     "last_verified_at": "2026-07-07",
@@ -2914,11 +2914,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6750960,
+        "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-21-2026/production/6750960",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -510,8 +510,16 @@ function marketplaceProductsUrl(accountSid, artistName, page) {
   return `https://api.impact.com/Mediapartners/${encodeURIComponent(accountSid)}/Marketplace/Products?${params.toString()}`;
 }
 
-function basicAuthHeader(accountSid, authToken) {
-  return { Authorization: `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}` };
+// Impact's Mediapartners API defaults to XML; without an explicit Accept
+// header it returns HTTP 200 with an XML body, which fails JSON parsing
+// downstream. functions/api/impact/products.js (the existing internal
+// diagnostic for this same endpoint) sends the same header for the same
+// reason.
+function impactRequestHeaders(accountSid, authToken) {
+  return {
+    Accept: "application/json",
+    Authorization: `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
+  };
 }
 
 // Turn one Marketplace Products result row into a candidate. Rows without a
@@ -532,7 +540,7 @@ function toCandidate(item) {
 // callers must never treat an incomplete catalog's zero-match as
 // confirmed-gone evidence.
 async function fetchArtistCatalog(artistName, accountSid, authToken, options, runState) {
-  const headers = basicAuthHeader(accountSid, authToken);
+  const headers = impactRequestHeaders(accountSid, authToken);
   const candidates = [];
   let total = null;
   for (let page = 1; page <= MARKETPLACE_MAX_PAGES; page += 1) {

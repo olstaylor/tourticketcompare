@@ -1138,12 +1138,15 @@ const flagOffFreshSeatGeekResponse = await showsModule.onRequestGet({
   env: {
     ...env,
     DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow]),
-    SEATGEEK_PRICE_DISPLAY_ENABLED: "false"
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "false",
+    VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false"
   }
 });
 const flagOffFreshSeatGeekJson = await flagOffFreshSeatGeekResponse.json();
 const flagOffSeatGeekLane = seatGeekLaneFrom(flagOffFreshSeatGeekJson);
 assert(flagOffSeatGeekLane?.price === null && flagOffSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when SEATGEEK_PRICE_DISPLAY_ENABLED is false even if a fresh D1 row exists");
+const flagOffVividSeatsLane = flagOffFreshSeatGeekJson.shows[0].prices.find((lane) => lane.provider === "Vivid Seats");
+assert(flagOffVividSeatsLane?.price === null && flagOffVividSeatsLane?.providerStatus === "unavailable", "Vivid Seats price should stay hidden when VIVIDSEATS_PRICE_DISPLAY_ENABLED is false");
 
 const flagOnFreshSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
@@ -1171,6 +1174,17 @@ const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
 });
 const flagOnStaleSeatGeekLane = seatGeekLaneFrom(await flagOnStaleSeatGeekResponse.json());
 assert(flagOnStaleSeatGeekLane?.price === null && flagOnStaleSeatGeekLane?.providerStatus === "unavailable", "stale SeatGeek D1 snapshots should be hidden and should not fall back to stale data");
+
+const missingSourceSeatGeekResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+  env: {
+    ...env,
+    DEMAND_DB: createProviderPricingDb([{ ...freshSeatGeekPriceRow, source: null }]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
+  }
+});
+const missingSourceSeatGeekLane = seatGeekLaneFrom(await missingSourceSeatGeekResponse.json());
+assert(missingSourceSeatGeekLane?.price === null && missingSourceSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when source attribution is missing or not the approved source");
 
 if (nonSeatGeekMorganShow) {
   const missingUrlRow = { ...freshSeatGeekPriceRow, event_id: nonSeatGeekMorganShow.id };

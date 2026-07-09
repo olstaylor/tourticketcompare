@@ -37,12 +37,20 @@ Only plain `ticketmaster.com` (and allowlisted country-TLD) URLs pass `validateC
 
 **Role:** Primary affiliate provider (Impact network). Artist-level and event-level.
 
-**Current status (2026-07-02):** Live in production as the **primary CTA**. The Impact SeatGeek bindings (`IMPACT_SEATGEEK_ACCOUNT_SID`, `IMPACT_SEATGEEK_AUTH_TOKEN`, `IMPACT_SEATGEEK_PROGRAM_ID`/`_CAMPAIGN_ID`, optional `IMPACT_SEATGEEK_BASE_TRACKING_URL`) are present. Two lanes:
+**Current status (2026-07-09):** Live in production as the **primary CTA**. The Impact SeatGeek bindings (`IMPACT_SEATGEEK_ACCOUNT_SID`, `IMPACT_SEATGEEK_AUTH_TOKEN`, `IMPACT_SEATGEEK_PROGRAM_ID`/`_CAMPAIGN_ID`, optional `IMPACT_SEATGEEK_BASE_TRACKING_URL`) are present. Two lanes:
 
 1. **Event-level:** `/api/out?showId=<id>&provider=seatgeek` resolves the verified event-level `seatgeek_url`, validates it (HTTPS, host `seatgeek.com`, event path pattern `/(concert|sports|theater|theatre)/<id>`), wraps it in Impact tracking, and 302s. The "Check SeatGeek" CTA renders as the primary button on publishable event cards; it may render **standalone** (a publishable Ticketmaster URL is no longer required on the same card). On a `needs_recheck` event it renders only when the SeatGeek link carries its own verified provenance (`provider_links.seatgeek.verified === true`).
 2. **Artist-level:** `/api/out?artistSlug=<slug>&provider=seatgeek` resolves the `<slug>:seatgeek` entry in `VERIFIED_TICKET_LINKS`. Destinations are performer-page URLs **captured from the SeatGeek `/2/performers/{id}` API record for the registry-verified `seatgeek_performer_id`** (stored as `seatgeek_artist_url` in `data/provider-identities.json`) — never constructed from names, and browser-verified by the owner before merge. Artist-level clicks are Impact-wrapped exactly like the event lane.
 
 When the SeatGeek Impact config is absent, `/api/out` fails safely with `provider_not_configured` / `impact_missing_credentials` (JSON, not a redirect), and no SeatGeek CTA renders anywhere.
+
+**Approved public display rights (confirmed 2026-07-09):**
+- **Ticket links/CTAs:** approved for public display through verified SeatGeek destinations and server-side Impact wrapping.
+- **Lowest/listing price:** not approved for public display today. May be shown only after separate written SeatGeek display permission is stored/confirmed, `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, and the `/api/shows` cache/source/freshness gates pass.
+- **Fees/final checkout total:** not approved for public display from TourTicketCompare data. Users must confirm fees and final totals on SeatGeek.
+- **Inventory/availability counts:** not approved for public display today, even if an internal cache row contains `inventory_count`; do not say tickets are available, sold out, limited, or scarce from SeatGeek inventory data.
+- **Trend/history data:** not approved for public display today; do not publish price movement, demand, savings, or trend claims.
+- **Comparisons/rankings:** not approved. Do not compare SeatGeek against another provider or use "cheapest", "lowest", "best deal", "savings", ranking, or winner language unless separate written comparison rights are obtained.
 
 **Constraints:**
 - The destination host is `seatgeek.com` (the only allowlisted SeatGeek host). Generic search/venue URLs are rejected on the event lane; the artist lane accepts only the hand-verified performer-page constants in `VERIFIED_TICKET_LINKS`.
@@ -54,12 +62,21 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 **Role:** Second affiliate provider (Impact network, approved). Wired but dormant.
 
-**Current status (2026-07-02):** The full code path exists and mirrors SeatGeek — `impactConfig(env, "vivid-seats")` (`IMPACT_VIVIDSEATS_ACCOUNT_SID`/`_AUTH_TOKEN`/`_CAMPAIGN_ID` or `_PROGRAM_ID`, optional `IMPACT_VIVIDSEATS_BASE_TRACKING_URL`), event-level `vividseats_url` resolution (strict production-page shape `/production/<numeric id>` on host `vividseats.com`), artist-level `VERIFIED_TICKET_LINKS` support, and rendering slots ordered SeatGeek → Vivid Seats → Ticketmaster. **No CTAs render today**: no secrets are set and no verified `vividseats.com` destinations exist; `/api/out` rejects with `provider_not_configured`. Dormancy is smoke-asserted.
+**Current status (2026-07-09):** The full code path exists and mirrors SeatGeek — `impactConfig(env, "vivid-seats")` (`IMPACT_VIVIDSEATS_ACCOUNT_SID`/`_AUTH_TOKEN`/`_CAMPAIGN_ID` or `_PROGRAM_ID`, optional `IMPACT_VIVIDSEATS_BASE_TRACKING_URL`), event-level `vividseats_url` resolution (strict production-page shape `/production/<numeric id>` on host `vividseats.com`), artist-level `VERIFIED_TICKET_LINKS` support, and rendering slots ordered SeatGeek → Vivid Seats → Ticketmaster. **No CTAs render today**: no secrets are set and no verified `vividseats.com` destinations exist; `/api/out` rejects with `provider_not_configured`. Dormancy is smoke-asserted.
+
+**Approved public display rights (confirmed 2026-07-09):**
+- **Ticket links/CTAs:** approved only after `IMPACT_VIVIDSEATS_*` configuration exists and verified `vividseats.com` destinations are landed.
+- **Lowest/listing price:** not approved for public display today. The production flag `VIVIDSEATS_PRICE_DISPLAY_ENABLED` exists and must remain default-off; it may be enabled only after separate written Vivid Seats display permission is stored/confirmed and `/api/shows` has a fresh cached row with `source='vividseats_partner_api'`.
+- **Fees/final checkout total:** not approved for public display from TourTicketCompare data. Users must confirm fees and final totals on Vivid Seats.
+- **Inventory/availability counts:** not approved for public display today, even if an internal cache row contains `inventory_count`; do not say tickets are available, sold out, limited, or scarce from Vivid Seats inventory data.
+- **Trend/history data:** not approved for public display today; do not publish price movement, demand, savings, or trend claims.
+- **Comparisons/rankings:** not approved. Do not compare Vivid Seats against another provider or use "cheapest", "lowest", "best deal", "savings", ranking, or winner language unless separate written comparison rights are obtained.
 
 **To activate:**
 1. Add the `IMPACT_VIVIDSEATS_*` secrets (or a pxf.io base tracking URL) in the Cloudflare dashboard.
 2. Land verified `vividseats_url` event data and/or `<slug>:vivid-seats` artist entries — same verification gates as SeatGeek (API-captured or owner browser-verified URLs only; adjust the conservative URL validator in the same PR if real production URLs differ).
 3. Like SeatGeek, an Impact failure returns diagnostic JSON — never an untracked redirect.
+4. Keep `VIVIDSEATS_PRICE_DISPLAY_ENABLED=false` until separate written price-display rights exist.
 
 ---
 
@@ -80,7 +97,7 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 **Ticketmaster is an event-verification and link source, not a price source.** Do not present Ticketmaster data as a price or as a price comparison.
 
-**Catalog capability flags are inert metadata.** The `pricing_type`, `supports_pricing`, `price_aggregation`, and `real_time_inventory` fields in `public/data/catalog.json` describe what a provider's API *could* do — they do **not** mean prices are displayed. Public price display is gated solely by `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` / `SEATGEEK_PRICE_DISPLAY_ENABLED` (both OFF) and, for SeatGeek, the written-permission conditions above. Never read these flags as authorization to show prices.
+**Catalog capability flags are inert metadata.** The `pricing_type`, `supports_pricing`, `price_aggregation`, and `real_time_inventory` fields in `public/data/catalog.json` describe what a provider's API *could* do — they do **not** mean prices are displayed. Public price display is gated solely by `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` / `SEATGEEK_PRICE_DISPLAY_ENABLED` / `VIVIDSEATS_PRICE_DISPLAY_ENABLED` (all OFF by default) and, for SeatGeek, the written-permission conditions above. Never read these flags as authorization to show prices.
 
 **Impact credentials required for:**
 - `GET /api/impact/health` to return `ok: true`
@@ -100,8 +117,8 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 - `includePrices=true` requires a `showId` parameter. Bulk price fan-out to providers is not permitted.
 - `MOCK_MODE` and `ALLOW_MOCK_PRICES` must both be `false` in production. Mock prices must never be displayed to users.
 - `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` must be `true` and a valid `TICKETMASTER_API_KEY` must be configured for live Ticketmaster price lookups.
-- SeatGeek returns `status: unavailable` unless `SEATGEEK_PRICE_DISPLAY_ENABLED=true` and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='seatgeek'`, `source='seatgeek_partner_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
-- Vivid Seats returns `status: unavailable` in all non-mock scenarios because no approved live price feed is configured.
+- SeatGeek returns `status: unavailable` unless `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='seatgeek'`, `source='seatgeek_partner_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
+- Vivid Seats returns `status: unavailable` unless `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='vividseats'`, `source='vividseats_partner_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency. Because no Vivid Seats price-display rights are confirmed today, this flag must remain default-off.
 - Price results include `fetchedAt` timestamps. Do not display prices without showing or conveying freshness.
 
 ---

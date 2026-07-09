@@ -563,7 +563,19 @@ function getAffiliateUrl(show, provider) {
   return isUsableAffiliateUrl(trimmed) ? trimmed : null;
 }
 
-const SEATGEEK_APPROVED_PRICE_SOURCE = "seatgeek_partner_api";
+const APPROVED_PRICE_SOURCES = {
+  SeatGeek: "seatgeek_partner_api",
+  "Vivid Seats": "vividseats_partner_api"
+};
+const PRICE_DISPLAY_FLAGS = {
+  SeatGeek: "SEATGEEK_PRICE_DISPLAY_ENABLED",
+  "Vivid Seats": "VIVIDSEATS_PRICE_DISPLAY_ENABLED"
+};
+const PRICE_URL_VALIDATORS = {
+  SeatGeek: validSeatGeekEventUrl,
+  "Vivid Seats": validVividSeatsEventUrl
+};
+const SEATGEEK_APPROVED_PRICE_SOURCE = APPROVED_PRICE_SOURCES.SeatGeek;
 
 function getPricingDb(env) {
   const candidate = env?.DEMAND_DB || env?.DB;
@@ -582,20 +594,29 @@ function unavailableProviderPrice(provider, show, error = null) {
   };
 }
 
-async function fetchSeatGeekCachedPrice(show, env) {
-  if (!getEnvBoolean(env?.SEATGEEK_PRICE_DISPLAY_ENABLED, false)) {
-    return unavailableProviderPrice("SeatGeek", show);
+async function fetchProviderCachedPrice(show, env, provider) {
+  const flagName = PRICE_DISPLAY_FLAGS[provider];
+  const approvedSource = APPROVED_PRICE_SOURCES[provider];
+  const validateUrl = PRICE_URL_VALIDATORS[provider];
+  const providerDbKey = providerKey(provider);
+
+  if (!flagName || !approvedSource || typeof validateUrl !== "function") {
+    return unavailableProviderPrice(provider, show);
   }
 
-  if (!validSeatGeekEventUrl(show?.seatgeek_url)) {
-    return unavailableProviderPrice("SeatGeek", show);
+  if (!getEnvBoolean(env?.[flagName], false)) {
+    return unavailableProviderPrice(provider, show);
+  }
+
+  if (!validateUrl(show?.[`${providerDbKey}_url`])) {
+    return unavailableProviderPrice(provider, show);
   }
 
   const showId = String(show?.id || "").trim();
-  if (!showId) return unavailableProviderPrice("SeatGeek", show);
+  if (!showId) return unavailableProviderPrice(provider, show);
 
   const db = getPricingDb(env);
-  if (!db) return unavailableProviderPrice("SeatGeek", show);
+  if (!db) return unavailableProviderPrice(provider, show);
 
   try {
     const row = await db
@@ -607,43 +628,45 @@ async function fetchSeatGeekCachedPrice(show, env) {
            AND source = ?3
          LIMIT 1`
       )
-      .bind(showId, "seatgeek", SEATGEEK_APPROVED_PRICE_SOURCE)
+      .bind(showId, providerDbKey, approvedSource)
       .first();
 
-    if (!row || typeof row !== "object") return unavailableProviderPrice("SeatGeek", show);
+    if (!row || typeof row !== "object" || row.source !== approvedSource) return unavailableProviderPrice(provider, show);
 
     const lowPrice = Number(row.low_price);
-    if (!Number.isFinite(lowPrice) || lowPrice < 0) return unavailableProviderPrice("SeatGeek", show);
+    if (!Number.isFinite(lowPrice) || lowPrice < 0) return unavailableProviderPrice(provider, show);
 
     const currency = String(row.currency || "").trim();
-    if (!currency) return unavailableProviderPrice("SeatGeek", show);
+    if (!currency) return unavailableProviderPrice(provider, show);
 
     const verifiedAt = String(row.verified_at || "").trim();
     const verifiedAtMs = Date.parse(verifiedAt);
-    if (!Number.isFinite(verifiedAtMs)) return unavailableProviderPrice("SeatGeek", show);
+    if (!Number.isFinite(verifiedAtMs)) return unavailableProviderPrice(provider, show);
 
     const expiresAt = String(row.expires_at || "").trim();
     const expiresAtMs = Date.parse(expiresAt);
     if (!Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) {
-      return unavailableProviderPrice("SeatGeek", show);
+      return unavailableProviderPrice(provider, show);
     }
 
-    const inventoryCount = Number(row.inventory_count);
-
     return {
-      provider: "SeatGeek",
+      provider,
       price: lowPrice,
       currency,
-      url: buildProviderUrl(show, "SeatGeek"),
+      url: buildProviderUrl(show, provider),
       fetchedAt: verifiedAt,
       status: "ok",
-      source: SEATGEEK_APPROVED_PRICE_SOURCE,
+      source: approvedSource,
       expiresAt,
-      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null
+      inventoryCount: null
     };
   } catch (err) {
-    return unavailableProviderPrice("SeatGeek", show);
+    return unavailableProviderPrice(provider, show);
   }
+}
+
+function fetchSeatGeekCachedPrice(show, env) {
+  return fetchProviderCachedPrice(show, env, "SeatGeek");
 }
 
 function buildProviderUrl(show, provider) {
@@ -670,12 +693,12 @@ function decorateProviderResult(result, show, provider, env) {
   const canUseSafeEventRedirect = hasVerifiedTicketmasterEventUrl;
   const actionUrl = canUseSafeEventRedirect ? buildAffiliateActionUrl(show, provider, directUrl) : null;
   const baseStatus = result?.status || "unavailable";
-  const isSeatGeekPriceSnapshot = key === "seatgeek" &&
+  const isApprovedProviderPriceSnapshot =
     baseStatus === "ok" &&
-    result?.source === SEATGEEK_APPROVED_PRICE_SOURCE;
-  const status = isSeatGeekPriceSnapshot ? "ok" : canUseSafeEventRedirect ? "affiliate_ready" : "unavailable";
-  const note = isSeatGeekPriceSnapshot
-    ? "SeatGeek price snapshot is sourced from the approved SeatGeek partner API and requires freshness checks before display."
+    result?.source === APPROVED_PRICE_SOURCES[provider];
+  const status = isApprovedProviderPriceSnapshot ? "ok" : canUseSafeEventRedirect ? "affiliate_ready" : "unavailable";
+  const note = isApprovedProviderPriceSnapshot
+    ? `${provider} price snapshot is sourced from the approved ${provider} partner API and requires freshness checks before display.`
     : canUseSafeEventRedirect
       ? key === "ticketmaster"
         ? "Ticketmaster event link is verified and routed through a safe event-specific redirect."
@@ -767,8 +790,8 @@ function createLiveAdapter(provider, env) {
   return {
     provider,
     async fetchLowestPrice(show) {
-      if (provider === "SeatGeek") {
-        return fetchSeatGeekCachedPrice(show, env);
+      if (provider === "SeatGeek" || provider === "Vivid Seats") {
+        return fetchProviderCachedPrice(show, env, provider);
       }
 
       if (provider !== "Ticketmaster") {
@@ -983,7 +1006,8 @@ async function setDailyCount(cache, key, count, ttlSeconds) {
 
 async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfig) {
   const env = rateLimitConfig?.env || {};
-  const bypassProviderCache = adapter.provider === "SeatGeek" && getEnvBoolean(env?.SEATGEEK_PRICE_DISPLAY_ENABLED, false);
+  const displayFlagName = PRICE_DISPLAY_FLAGS[adapter.provider];
+  const bypassProviderCache = Boolean(displayFlagName && getEnvBoolean(env?.[displayFlagName], false));
   const cacheKey = buildCacheKey(show.id, adapter.provider);
   const cached = bypassProviderCache ? null : await cache.match(cacheKey);
   if (cached) {

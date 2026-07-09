@@ -29,7 +29,7 @@ function collectLinks(events) {
   for (const event of events) {
     const eventId = event?.id || event?.show_id || 'unknown-id';
 
-    for (const key of ['ticketmaster_url', 'seatgeek_url', 'source_url']) {
+    for (const key of ['ticketmaster_url', 'seatgeek_url', 'vividseats_url', 'source_url']) {
       const value = asUrl(event?.[key]);
       if (!value) continue;
       if (!found.has(value)) found.set(value, new Set());

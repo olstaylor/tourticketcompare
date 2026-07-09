@@ -65,6 +65,9 @@
     "seatgeek:prices:self-test": "node scripts/snapshot-seatgeek-prices.mjs --self-test",
     "seatgeek:prices:dry-run": "node scripts/snapshot-seatgeek-prices.mjs",
     "seatgeek:prices:apply": "node scripts/snapshot-seatgeek-prices.mjs --apply",
+    "vividseats:sync": "node scripts/sync-vividseats-events.mjs",
+    "vividseats:sync:apply": "node scripts/sync-vividseats-events.mjs --apply",
+    "vividseats:sync:self-test": "node scripts/sync-vividseats-events.mjs --self-test",
     "events:check-fallback-freshness": "node scripts/check-fallback-freshness.mjs",
     "audit:production-routes": "node scripts/verify-production-route-html.mjs"
   },

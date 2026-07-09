@@ -1,6 +1,6 @@
 # Provider Sync — Foundation and Future Workflow
 
-_Status: **Provider-sync sequence complete** (steps 1–5; see the table below). Recognition, write-to-PR, SeatGeek performer-id enrichment, and the CTA ↔ provider-state guard are all in place — every write path is PR-based and the runtime CTA gates are unchanged. Since 2026-07-07 (owner-approved) the scheduled new-show PR **auto-merges after its in-run validation suite passes**; everything else (new artists, withheld rows, `tour_name`, SeatGeek enrichment) stays human-gated.
+_Status: **Provider-sync sequence complete** (steps 1–5; see the table below). Recognition, write-to-PR, SeatGeek performer-id enrichment, and the CTA ↔ provider-state guard are all in place — every write path is PR-based and the runtime CTA gates are unchanged. Since 2026-07-07 (owner-approved) the scheduled new-show PR **auto-merges after its in-run validation suite passes**; everything else (new artists, withheld rows, `tour_name`, SeatGeek enrichment) stays human-gated. Since 2026-07-09 (owner-approved) `scripts/sync-vividseats-events.mjs` + `.github/workflows/vividseats-cta-sync.yml` add the Vivid Seats twin of the SeatGeek CTA sync loop — code is merged with the nightly cron commented out pending a supervised first apply run (see "Vivid Seats event-link sync" below).
 
 Earlier milestone — **Ticketmaster write-to-PR mode + SeatGeek performer-id dry-run live** (sequence steps 3–4). `scripts/sync-ticketmaster-events.py` performs a real TM Discovery lookup by verified attraction ID for sync-enabled artists and prints a dry-run report (it remains dry-run only and refuses to run without `--dry-run`). On top of it, `scripts/sync-tm-events-write-pr.mjs` turns the recogniser's PROPOSED rows into a candidate batch, drives the canonical events writer (`scripts/apply-artists.mjs`), and opens a branch + PR — it **never commits to `main` directly**, defaults to a no-write preview, and (at this milestone) never auto-merged; withheld rows are surfaced for review and never published. `scripts/propose-seatgeek-urls.mjs` now consumes the registry's `seatgeek_performer_id` to scope and confirm event-level SeatGeek URL proposals — still proposal-only/dry-run, event-level only, no prices._
 
@@ -251,6 +251,53 @@ node scripts/enrich-seatgeek-events.mjs --dry-run
 SeatGeek enrichment intentionally reuses the existing, operational `.mjs`
 tooling (`docs/SEATGEEK_DISCOVERY.md`) rather than introducing a parallel
 script; the registry adds the performer ID it will consume later.
+
+### Vivid Seats event-link sync (`scripts/sync-vividseats-events.mjs`)
+
+Vivid Seats has no per-event API — the anchor is the Impact Marketplace
+Products catalog (Program 12730, "Ticket Feed"), fetched per registry-verified
+artist with an exact-name `Query='<artist name>'`. That single fetch is
+simultaneously the discovery set (finds URLs for events missing one) and the
+verification oracle (a stored production id present-and-date/city/venue-
+matching in the catalog is verified; absent from a *fully-paginated* 2xx
+catalog is positive confirmed-gone evidence). Identity anchoring is weaker
+than SeatGeek's numeric performer id — Vivid Seats offers no such id in the
+registry, so the anchor is the registry's `review_status: "verified"` gate
+plus an exact artist-name match; artist names containing an apostrophe are
+skipped rather than guessing at SQL-escaping the Impact `Query` parameter.
+
+```bash
+# Dry-run report for all registry-verified artists
+node scripts/sync-vividseats-events.mjs                  # npm run vividseats:sync
+
+# Write mode (events.json + partitions + audit log)
+node scripts/sync-vividseats-events.mjs --apply           # npm run vividseats:sync:apply
+
+# Single artist, capped API calls
+node scripts/sync-vividseats-events.mjs --artist morgan-wallen --max-api-calls 5
+
+# Offline pure-function self-test (no network)
+node scripts/sync-vividseats-events.mjs --self-test        # npm run vividseats:sync:self-test
+```
+
+Without `IMPACT_VIVIDSEATS_ACCOUNT_SID`/`IMPACT_VIVIDSEATS_AUTH_TOKEN` the
+script exits 0 with no checks and no writes. A 401/403 aborts the whole run
+and discards any in-memory changes; 5xx/network/parse failures leave the
+affected events untouched for the next run. Only `vividseats_url` and
+`provider_links["vivid-seats"]` are ever written — never
+`verification_status`, `ticketmaster_*`, `seatgeek_*`, or `tour_name`.
+
+Scheduled invocation: `.github/workflows/vividseats-cta-sync.yml` mirrors
+`seatgeek-cta-sync.yml` step-for-step (dispatch inputs `mode`/`auto_merge`/
+`artist`, in-run validation suite, auto-merged PR on schedule). **The
+`schedule:` trigger ships commented out.** Rollout is supervised: the owner
+dispatches `mode=preview` to inspect the audit log, then `mode=apply
+auto_merge=false` to get a reviewable PR containing the first real
+`vividseats_url` data and spot-checks it before merging — this is the "first
+owner-verified `vividseats_url` data" sign-off both validators' comments
+reference. Only after that merge does a one-line follow-up PR uncomment the
+`cron: '30 5 * * *'` schedule (30 minutes after `seatgeek-cta-sync.yml`'s
+05:00 UTC run, so the two loops don't race the same data files).
 
 ---
 

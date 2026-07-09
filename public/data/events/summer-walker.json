@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "35006437EA516C62",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-1-2026/production/6598358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-01-08-2026/event/35006437EA516C62",
     "last_verified_at": "2026-07-07",
@@ -457,11 +457,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6598358,
+        "url": "https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-1-2026/production/6598358",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "35006436A7502325",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-2-2026--concerts-rb/production/6566289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
     "last_verified_at": "2026-07-07",
@@ -510,11 +510,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6566289,
+        "url": "https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-2-2026--concerts-rb/production/6566289",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -594,7 +594,7 @@
     "ticketmaster_event_id": "150064D7BFF48953",
     "ticketmaster_url": "https://www.ticketmaster.com/broccoli-city-2026-feat-summer-walker-bristow-virginia-09-19-2026/event/150064D7BFF48953",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/broccoli-city-festival-tickets-bristow-jiffy-lube-live-9-19-2026/production/7210953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/broccoli-city-2026-feat-summer-walker-bristow-virginia-09-19-2026/event/150064D7BFF48953",
     "last_verified_at": "2026-07-06",
@@ -616,11 +616,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7210953,
+        "url": "https://www.vividseats.com/broccoli-city-festival-tickets-bristow-jiffy-lube-live-9-19-2026/production/7210953",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -647,7 +647,7 @@
     "ticketmaster_event_id": "040064D7A0B27B7F",
     "ticketmaster_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
     "seatgeek_url": "https://seatgeek.com/summer-walker-tickets/chicago-illinois-credit-union-1-arena-at-uic-2026-10-16-7-30-pm/concert/18328041",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/summer-walker-tickets-chicago-credit-union-1-arena-at-uic-10-16-2026/production/7208420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
     "last_verified_at": "2026-07-07",
@@ -669,11 +669,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7208420,
+        "url": "https://www.vividseats.com/summer-walker-tickets-chicago-credit-union-1-arena-at-uic-10-16-2026/production/7208420",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

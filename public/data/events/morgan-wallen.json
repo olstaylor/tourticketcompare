@@ -634,7 +634,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7qtbA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbA",
     "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/baltimore-maryland-m-t-bank-stadium-2026-07-17-5-30-pm/concert/17846495",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-baltimore-mt-bank-stadium-7-17-2026--concerts-country-and-folk/production/6207854",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbA",
     "last_verified_at": "2026-05-07",
@@ -655,11 +655,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6207854,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-baltimore-mt-bank-stadium-7-17-2026--concerts-country-and-folk/production/6207854",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -687,7 +687,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7qtbk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbk",
     "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/baltimore-maryland-m-t-bank-stadium-2026-07-18-5-30-pm/concert/17872176",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-baltimore-mt-bank-stadium-7-18-2026--concerts-country-and-folk/production/6207856",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbk",
     "last_verified_at": "2026-05-07",
@@ -708,11 +708,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6207856,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-baltimore-mt-bank-stadium-7-18-2026--concerts-country-and-folk/production/6207856",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -740,7 +740,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7qtbs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbs",
     "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/ann-arbor-michigan-michigan-stadium-2026-07-24-5-30-pm/concert/17873138",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-ann-arbor-michigan-stadium-7-24-2026--concerts-country-and-folk/production/6207859",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbs",
     "last_verified_at": "2026-05-07",
@@ -761,11 +761,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6207859,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-ann-arbor-michigan-stadium-7-24-2026--concerts-country-and-folk/production/6207859",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -793,7 +793,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7qtbw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbw",
     "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/ann-arbor-michigan-michigan-stadium-2026-07-25-5-30-pm/concert/17873140",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-ann-arbor-michigan-stadium-7-25-2026--concerts-country-and-folk/production/6207863",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qtbw",
     "last_verified_at": "2026-06-10",
@@ -814,11 +814,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6207863,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-ann-arbor-michigan-stadium-7-25-2026--concerts-country-and-folk/production/6207863",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -846,7 +846,7 @@
     "ticketmaster_event_id": "0200635DC72EC234",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
     "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-07-31-5-30-pm/concert/17873142",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-philadelphia-lincoln-financial-field-7-31-2026--concerts-country-and-folk/production/6207820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
     "last_verified_at": "2026-05-07",
@@ -867,11 +867,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6207820,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-philadelphia-lincoln-financial-field-7-31-2026--concerts-country-and-folk/production/6207820",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -899,7 +899,7 @@
     "ticketmaster_event_id": "0200635DA084A7A9",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-08-01-2026/event/0200635DA084A7A9",
     "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-08-01-5-30-pm/concert/17873143",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-philadelphia-lincoln-financial-field-8-1-2026--concerts-country-and-folk/production/6207826",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-08-01-2026/event/0200635DA084A7A9",
     "last_verified_at": "2026-05-07",
@@ -920,11 +920,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6207826,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-philadelphia-lincoln-financial-field-8-1-2026--concerts-country-and-folk/production/6207826",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

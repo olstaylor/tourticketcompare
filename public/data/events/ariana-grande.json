@@ -640,7 +640,7 @@
     "ticketmaster_event_id": "0E00631A8F331ED1",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-08-2026/event/0E00631A8F331ED1",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-08-8-pm/concert/17700805",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-atlanta-state-farm-arena-7-8-2026--concerts-pop/production/5973672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-08-2026/event/0E00631A8F331ED1",
     "last_verified_at": "2026-05-07",
@@ -661,11 +661,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973672,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-atlanta-state-farm-arena-7-8-2026--concerts-pop/production/5973672",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -693,7 +693,7 @@
     "ticketmaster_event_id": "0E006325BEA26298",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-09-8-pm/concert/17724144",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-atlanta-state-farm-arena-7-9-2026--concerts-pop/production/5995575",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
     "last_verified_at": "2026-05-07",
@@ -714,11 +714,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995575,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-atlanta-state-farm-arena-7-9-2026--concerts-pop/production/5995575",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -746,7 +746,7 @@
     "ticketmaster_event_id": "30006319F0E94AA7",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-12-2026/event/30006319F0E94AA7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-12-2026--concerts-pop/production/5973675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-12-2026/event/30006319F0E94AA7",
     "last_verified_at": "2026-05-07",
@@ -767,11 +767,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973675,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-12-2026--concerts-pop/production/5973675",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -799,7 +799,7 @@
     "ticketmaster_event_id": "30006319F34A4ABB",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-13-8-pm/concert/17700819",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-13-2026--concerts-pop/production/5973679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
     "last_verified_at": "2026-05-07",
@@ -820,11 +820,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973679,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-13-2026--concerts-pop/production/5973679",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -852,7 +852,7 @@
     "ticketmaster_event_id": "30006319F41B4ABF",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-16-8-pm/concert/17700783",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-16-2026--concerts-pop/production/5973681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
     "last_verified_at": "2026-05-07",
@@ -873,11 +873,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973681,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-16-2026--concerts-pop/production/5973681",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -905,7 +905,7 @@
     "ticketmaster_event_id": "30006319F49F4ACD",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-18-2026/event/30006319F49F4ACD",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-18-8-pm/concert/17700785",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-18-2026--concerts-pop/production/5973683",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-18-2026/event/30006319F49F4ACD",
     "last_verified_at": "2026-05-07",
@@ -926,11 +926,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973683,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-18-2026--concerts-pop/production/5973683",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -958,7 +958,7 @@
     "ticketmaster_event_id": "30006325205054E3",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-19-8-pm/concert/17724146",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-19-2026--concerts-pop/production/5995611",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
     "last_verified_at": "2026-05-07",
@@ -979,11 +979,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995611,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-19-2026--concerts-pop/production/5995611",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1011,7 +1011,7 @@
     "ticketmaster_event_id": "0100631AAEF23EE8",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
     "last_verified_at": "2026-05-07",
@@ -1032,11 +1032,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973685,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1064,7 +1064,7 @@
     "ticketmaster_event_id": "0100631ACA626435",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-24-2026--concerts-pop/production/5973686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
     "last_verified_at": "2026-05-07",
@@ -1085,11 +1085,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973686,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-24-2026--concerts-pop/production/5973686",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1117,7 +1117,7 @@
     "ticketmaster_event_id": "010063289EF611C4",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-25-8-pm/concert/17724148",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-25-2026--concerts-pop/production/5995608",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
     "last_verified_at": "2026-05-07",
@@ -1138,11 +1138,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995608,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-25-2026--concerts-pop/production/5995608",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1170,7 +1170,7 @@
     "ticketmaster_event_id": "31006319DDB22B1F",
     "ticketmaster_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-28-8-pm/concert/17700815",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-28-2026--concerts-pop/production/5973694",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
     "last_verified_at": "2026-05-07",
@@ -1191,11 +1191,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973694,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-28-2026--concerts-pop/production/5973694",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1223,7 +1223,7 @@
     "ticketmaster_event_id": "31006319DE3A2B37",
     "ticketmaster_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-30-2026/event/31006319DE3A2B37",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-30-8-pm/concert/17700817",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-30-2026--concerts-pop/production/5973696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-30-2026/event/31006319DE3A2B37",
     "last_verified_at": "2026-05-07",
@@ -1244,11 +1244,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973696,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-30-2026--concerts-pop/production/5973696",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1276,7 +1276,7 @@
     "ticketmaster_event_id": "31006319DEDC2B4C",
     "ticketmaster_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
     "last_verified_at": "2026-05-07",
@@ -1297,11 +1297,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995665,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1329,7 +1329,7 @@
     "ticketmaster_event_id": "04006319DDEA2CD5",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
     "last_verified_at": "2026-07-07",
@@ -1350,11 +1350,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973688,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1382,7 +1382,7 @@
     "ticketmaster_event_id": "0400631ADF313481",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-05-2026/event/0400631ADF313481",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-05-8-pm/concert/17700813",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-5-2026--concerts-pop/production/5973690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-05-2026/event/0400631ADF313481",
     "last_verified_at": "2026-05-07",
@@ -1403,11 +1403,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973690,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-5-2026--concerts-pop/production/5973690",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1435,7 +1435,7 @@
     "ticketmaster_event_id": "04006325AD9F24A7",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
     "last_verified_at": "2026-05-07",
@@ -1456,11 +1456,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995835,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2384,7 +2384,7 @@
     "ticketmaster_event_id": "0E006325BEA26298",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-09-8-pm/concert/17724144",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-atlanta-state-farm-arena-7-9-2026--concerts-pop/production/5995575",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
     "last_verified_at": "2026-07-06",
@@ -2406,11 +2406,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995575,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-atlanta-state-farm-arena-7-9-2026--concerts-pop/production/5995575",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2437,7 +2437,7 @@
     "ticketmaster_event_id": "30006319F34A4ABB",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-13-8-pm/concert/17700819",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-13-2026--concerts-pop/production/5973679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
     "last_verified_at": "2026-07-06",
@@ -2459,11 +2459,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973679,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-13-2026--concerts-pop/production/5973679",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2490,7 +2490,7 @@
     "ticketmaster_event_id": "30006319F41B4ABF",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-16-8-pm/concert/17700783",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-16-2026--concerts-pop/production/5973681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
     "last_verified_at": "2026-07-06",
@@ -2512,11 +2512,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973681,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-16-2026--concerts-pop/production/5973681",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2543,7 +2543,7 @@
     "ticketmaster_event_id": "30006325205054E3",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-19-8-pm/concert/17724146",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-19-2026--concerts-pop/production/5995611",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
     "last_verified_at": "2026-07-06",
@@ -2565,11 +2565,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995611,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-19-2026--concerts-pop/production/5995611",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2596,7 +2596,7 @@
     "ticketmaster_event_id": "0100631AAEF23EE8",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
     "last_verified_at": null,
@@ -2618,11 +2618,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973685,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2649,7 +2649,7 @@
     "ticketmaster_event_id": "010063289EF611C4",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-25-8-pm/concert/17724148",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-25-2026--concerts-pop/production/5995608",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
     "last_verified_at": "2026-07-06",
@@ -2671,11 +2671,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995608,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-25-2026--concerts-pop/production/5995608",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2702,7 +2702,7 @@
     "ticketmaster_event_id": "31006319DDB22B1F",
     "ticketmaster_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-28-8-pm/concert/17700815",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-28-2026--concerts-pop/production/5973694",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
     "last_verified_at": "2026-07-06",
@@ -2724,11 +2724,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973694,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-28-2026--concerts-pop/production/5973694",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2755,7 +2755,7 @@
     "ticketmaster_event_id": "31006319DEDC2B4C",
     "ticketmaster_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
     "last_verified_at": "2026-07-06",
@@ -2777,11 +2777,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995665,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2808,7 +2808,7 @@
     "ticketmaster_event_id": "04006319DDEA2CD5",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
     "last_verified_at": "2026-07-07",
@@ -2830,11 +2830,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5973688,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2861,7 +2861,7 @@
     "ticketmaster_event_id": "04006325AD9F24A7",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
     "last_verified_at": "2026-07-06",
@@ -2883,11 +2883,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 5995835,
+        "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

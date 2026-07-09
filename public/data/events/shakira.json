@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "01006471D82F68CE",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-10-7-30-pm/concert/18157398",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-boston-td-garden-7-10-2026--concerts-pop/production/6856767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
     "last_verified_at": "2026-07-07",
@@ -616,11 +616,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6856767,
+        "url": "https://www.vividseats.com/shakira-tickets-boston-td-garden-7-10-2026--concerts-pop/production/6856767",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "0100647BEED8EE23",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-11-7-30-pm/concert/18225033",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-boston-td-garden-7-11-2026--concerts-pop/production/6999223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-11-2026/event/0100647BEED8EE23",
     "last_verified_at": "2026-07-07",
@@ -669,11 +669,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6999223,
+        "url": "https://www.vividseats.com/shakira-tickets-boston-td-garden-7-11-2026--concerts-pop/production/6999223",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "02006473A90FB67A",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/newark-new-jersey-prudential-center-2026-07-14-7-30-pm/concert/18157380",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-newark-prudential-center-7-14-2026--concerts-pop/production/6856751",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-newark-new-jersey-07-14-2026/event/02006473A90FB67A",
     "last_verified_at": "2026-07-07",
@@ -722,11 +722,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6856751,
+        "url": "https://www.vividseats.com/shakira-tickets-newark-prudential-center-7-14-2026--concerts-pop/production/6856751",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "30006471F56C69CC",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-20-7-30-pm/concert/18157379",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-brooklyn-barclays-center-7-20-2026--concerts-pop/production/6856715",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-20-2026/event/30006471F56C69CC",
     "last_verified_at": "2026-07-07",
@@ -775,11 +775,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6856715,
+        "url": "https://www.vividseats.com/shakira-tickets-brooklyn-barclays-center-7-20-2026--concerts-pop/production/6856715",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "3000647FDD296900",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-21-7-30-pm/concert/18225034",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-brooklyn-barclays-center-7-21-2026--concerts-pop/production/6999225",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-brooklyn-new-york-07-21-2026/event/3000647FDD296900",
     "last_verified_at": "2026-07-07",
@@ -828,11 +828,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6999225,
+        "url": "https://www.vividseats.com/shakira-tickets-brooklyn-barclays-center-7-21-2026--concerts-pop/production/6999225",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "3000647297612966",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/elmont-new-york-ubs-arena-2026-07-23-7-30-pm/concert/18157381",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-elmont-ubs-arena-7-23-2026--concerts-pop/production/6856699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-belmont-park-new-york-07-23-2026/event/3000647297612966",
     "last_verified_at": "2026-07-07",
@@ -881,11 +881,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6856699,
+        "url": "https://www.vividseats.com/shakira-tickets-elmont-ubs-arena-7-23-2026--concerts-pop/production/6856699",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "0200647E8B0947A5",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
     "seatgeek_url": "https://seatgeek.com/shakira-tickets/atlantic-city-new-jersey-boardwalk-hall-2026-07-25-7-30-pm/concert/18157403",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-atlantic-city-boardwalk-hall-7-25-2026--concerts-pop/production/6856679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
     "last_verified_at": "2026-07-07",
@@ -934,11 +934,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6856679,
+        "url": "https://www.vividseats.com/shakira-tickets-atlantic-city-boardwalk-hall-7-25-2026--concerts-pop/production/6856679",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "628576241",
     "ticketmaster_url": "",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-2-2026/production/6828118",
     "source_type": "ticketmaster",
     "source_url": "",
     "last_verified_at": "2026-07-07",
@@ -1305,11 +1305,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6828118,
+        "url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-2-2026/production/6828118",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1337,7 +1337,7 @@
     "ticketmaster_event_id": "1577026271",
     "ticketmaster_url": "",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-3-2026/production/6828120",
     "source_type": "ticketmaster",
     "source_url": "",
     "last_verified_at": "2026-07-07",
@@ -1358,11 +1358,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6828120,
+        "url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-3-2026/production/6828120",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1390,7 +1390,7 @@
     "ticketmaster_event_id": "1112262957",
     "ticketmaster_url": "",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-4-2026/production/6828116",
     "source_type": "ticketmaster",
     "source_url": "",
     "last_verified_at": "2026-07-07",
@@ -1411,11 +1411,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6828116,
+        "url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-4-2026/production/6828116",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1496,7 +1496,7 @@
     "ticketmaster_event_id": "802391370",
     "ticketmaster_url": "",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-10-2026/production/6837757",
     "source_type": "ticketmaster",
     "source_url": "",
     "last_verified_at": "2026-07-07",
@@ -1517,11 +1517,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6837757,
+        "url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-10-2026/production/6837757",
+        "verified": true,
+        "last_verified_at": "2026-07-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

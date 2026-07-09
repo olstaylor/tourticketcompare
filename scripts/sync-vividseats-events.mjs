@@ -511,7 +511,10 @@ function marketplaceProductsUrl(accountSid, artistName, page) {
 }
 
 function basicAuthHeader(accountSid, authToken) {
-  return { Authorization: `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}` };
+  return {
+    Accept: "application/json",
+    Authorization: `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
+  };
 }
 
 // Turn one Marketplace Products result row into a candidate. Rows without a
@@ -740,6 +743,7 @@ function selfTest() {
   })());
   assert("toCandidate rejects a row with no offers", toCandidate({ Name: "X", Offers: [] }) === null);
   assert("toCandidate rejects a non-numeric Sku", toCandidate({ Offers: [{ Sku: "abc", OriginalUrl: "https://vividseats.com/x/production/1" }] }) === null);
+  assert("Impact Marketplace requests ask for JSON", basicAuthHeader("sid", "token").Accept === "application/json");
 
   // Selection policy
   const registryBySlug = new Map([

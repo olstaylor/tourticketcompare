@@ -9,6 +9,7 @@ Numbered SQL files applied to the production D1 database `tourticketcompare-dema
 | `0003_provider_pricing_cache.sql` | `provider_pricing_cache` table (SeatGeek price snapshots) | Applied manually via `wrangler d1 execute` |
 | `0004_provider_pricing_cache_source.sql` | `source` column on the pricing cache | Applied manually via `wrangler d1 execute` |
 | `0005_daily_provider_calls.sql` | `daily_provider_calls` rate-cap table (used by `functions/api/shows.js`) | Applied manually via `wrangler d1 execute` (originally named `001_daily_provider_calls.sql`; renamed 2026-07-07 for consistent numbering) |
+| `0006_provider_pricing_history.sql` | `provider_pricing_history` immutable provider-attributed price observations | Pending manual application via `wrangler d1 execute` |
 
 Notes:
 

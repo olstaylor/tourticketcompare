@@ -564,6 +564,7 @@ function getAffiliateUrl(show, provider) {
 }
 
 const SEATGEEK_APPROVED_PRICE_SOURCE = "seatgeek_partner_api";
+const PRICE_TREND_LOOKBACK_DAYS = 14;
 
 function getPricingDb(env) {
   const candidate = env?.DEMAND_DB || env?.DB;
@@ -580,6 +581,56 @@ function unavailableProviderPrice(provider, show, error = null) {
     status: "unavailable",
     ...(error ? { error } : {})
   };
+}
+
+function buildUnknownPriceTrend() {
+  return {
+    direction: "unknown",
+    delta: null,
+    comparedToFetchedAt: null
+  };
+}
+
+function buildPriceTrend(latestRow, previousRow) {
+  const latestPrice = Number(latestRow?.low_price);
+  const previousPrice = Number(previousRow?.low_price);
+  const previousObservedAt = String(previousRow?.observed_at || "").trim();
+  if (!Number.isFinite(latestPrice) || !Number.isFinite(previousPrice) || !previousObservedAt) {
+    return buildUnknownPriceTrend();
+  }
+
+  const delta = Number((latestPrice - previousPrice).toFixed(2));
+  const direction = Math.abs(delta) < 0.01 ? "flat" : delta > 0 ? "up" : "down";
+  return {
+    direction,
+    delta,
+    comparedToFetchedAt: previousObservedAt
+  };
+}
+
+async function fetchProviderPriceTrend(db, showId, provider, source) {
+  try {
+    const since = new Date(Date.now() - PRICE_TREND_LOOKBACK_DAYS * 24 * 60 * 60 * 1000).toISOString();
+    const result = await db
+      .prepare(
+        `SELECT low_price, observed_at
+         FROM provider_pricing_history
+         WHERE event_id = ?1
+           AND provider = ?2
+           AND source = ?3
+           AND observed_at >= ?4
+         ORDER BY observed_at DESC
+         LIMIT 2`
+      )
+      .bind(showId, provider, source, since)
+      .all();
+
+    const rows = Array.isArray(result?.results) ? result.results : [];
+    if (rows.length < 2) return null;
+    return buildPriceTrend(rows[0], rows[1]);
+  } catch (err) {
+    return null;
+  }
 }
 
 async function fetchSeatGeekCachedPrice(show, env) {
@@ -629,6 +680,7 @@ async function fetchSeatGeekCachedPrice(show, env) {
     }
 
     const inventoryCount = Number(row.inventory_count);
+    const trend = await fetchProviderPriceTrend(db, showId, "seatgeek", SEATGEEK_APPROVED_PRICE_SOURCE);
 
     return {
       provider: "SeatGeek",
@@ -639,7 +691,8 @@ async function fetchSeatGeekCachedPrice(show, env) {
       status: "ok",
       source: SEATGEEK_APPROVED_PRICE_SOURCE,
       expiresAt,
-      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null
+      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null,
+      ...(trend ? { trend } : {})
     };
   } catch (err) {
     return unavailableProviderPrice("SeatGeek", show);
@@ -697,6 +750,7 @@ function decorateProviderResult(result, show, provider, env) {
     source: result?.source || null,
     expiresAt: result?.expiresAt || null,
     inventoryCount: Number.isFinite(Number(result?.inventoryCount)) ? Number(result.inventoryCount) : null,
+    ...(result?.trend ? { trend: result.trend } : {}),
     url: actionUrl,
     actionUrl,
     note
@@ -1107,6 +1161,7 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
         source: data.source || null,
         expiresAt: data.expiresAt || null,
         inventoryCount: Number.isFinite(Number(data.inventoryCount)) ? Number(data.inventoryCount) : null,
+        ...(data.trend ? { trend: data.trend } : {}),
         cacheState: "live"
       };
 

@@ -345,8 +345,9 @@ class MemoryCache {
   }
 }
 
-function createProviderPricingDb(rows) {
+function createProviderPricingDb(rows, historyRows = []) {
   const pricingRows = Array.isArray(rows) ? rows : [];
+  const pricingHistoryRows = Array.isArray(historyRows) ? historyRows : [];
   return {
     prepare(sql) {
       const text = String(sql || "");
@@ -363,6 +364,22 @@ function createProviderPricingDb(rows) {
                 ) || null;
               }
               return null;
+            },
+            async all() {
+              if (text.includes("provider_pricing_history")) {
+                const [eventId, provider, source, since] = values;
+                const results = pricingHistoryRows
+                  .filter((row) =>
+                    row.event_id === eventId &&
+                    row.provider === provider &&
+                    row.source === source &&
+                    String(row.observed_at || "") >= String(since || "")
+                  )
+                  .sort((a, b) => String(b.observed_at || "").localeCompare(String(a.observed_at || "")))
+                  .slice(0, 2);
+                return { results };
+              }
+              return { results: [] };
             },
             async run() {
               return { success: true };
@@ -1133,6 +1150,35 @@ const staleSeatGeekPriceRow = {
   ...freshSeatGeekPriceRow,
   expires_at: "2026-05-14T11:30:00Z"
 };
+const freshSeatGeekHistoryRows = [
+  {
+    event_id: CONTROLLED_SEATGEEK_SHOW_ID,
+    provider: "seatgeek",
+    low_price: 123.45,
+    currency: "USD",
+    inventory_count: 42,
+    observed_at: "2026-05-14T11:00:00Z",
+    source: "seatgeek_partner_api"
+  },
+  {
+    event_id: CONTROLLED_SEATGEEK_SHOW_ID,
+    provider: "seatgeek",
+    low_price: 150,
+    currency: "USD",
+    inventory_count: 45,
+    observed_at: "2026-05-13T11:00:00Z",
+    source: "seatgeek_partner_api"
+  },
+  {
+    event_id: CONTROLLED_SEATGEEK_SHOW_ID,
+    provider: "vivid-seats",
+    low_price: 25,
+    currency: "USD",
+    inventory_count: 99,
+    observed_at: "2026-05-14T11:30:00Z",
+    source: "vividseats_partner_api"
+  }
+];
 const flagOffFreshSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
   env: {
@@ -1145,11 +1191,12 @@ const flagOffFreshSeatGeekJson = await flagOffFreshSeatGeekResponse.json();
 const flagOffSeatGeekLane = seatGeekLaneFrom(flagOffFreshSeatGeekJson);
 assert(flagOffSeatGeekLane?.price === null && flagOffSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when SEATGEEK_PRICE_DISPLAY_ENABLED is false even if a fresh D1 row exists");
 
+globalThis.caches.default = new MemoryCache();
 const flagOnFreshSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
   env: {
     ...env,
-    DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow]),
+    DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow], freshSeatGeekHistoryRows),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
   }
 });
@@ -1160,6 +1207,9 @@ assert(flagOnFreshSeatGeekLane?.providerStatus === "ok" && flagOnFreshSeatGeekLa
 assert(flagOnFreshSeatGeekLane?.fetchedAt === freshSeatGeekPriceRow.verified_at, "SeatGeek price lane should use verified_at as its as-of timestamp");
 assert(flagOnFreshSeatGeekLane?.source === "seatgeek_partner_api", "SeatGeek price lane should expose only the approved source attribution");
 assert(flagOnFreshSeatGeekLane?.expiresAt === freshSeatGeekPriceRow.expires_at, "SeatGeek price lane should expose the snapshot expiry for freshness checks");
+assert(flagOnFreshSeatGeekLane?.trend?.direction === "down", "SeatGeek trend should compare only same-provider approved history rows");
+assert(flagOnFreshSeatGeekLane?.trend?.delta === -26.55, "SeatGeek trend should expose the latest low-price delta from same-provider history");
+assert(flagOnFreshSeatGeekLane?.trend?.comparedToFetchedAt === "2026-05-13T11:00:00Z", "SeatGeek trend should expose the same-provider comparison timestamp");
 
 const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),

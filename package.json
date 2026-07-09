@@ -69,7 +69,10 @@
     "vividseats:sync:apply": "node scripts/sync-vividseats-events.mjs --apply",
     "vividseats:sync:self-test": "node scripts/sync-vividseats-events.mjs --self-test",
     "events:check-fallback-freshness": "node scripts/check-fallback-freshness.mjs",
-    "audit:production-routes": "node scripts/verify-production-route-html.mjs"
+    "audit:production-routes": "node scripts/verify-production-route-html.mjs",
+    "vividseats:prices:self-test": "node scripts/snapshot-vividseats-prices.mjs --self-test",
+    "vividseats:prices:dry-run": "node scripts/snapshot-vividseats-prices.mjs",
+    "vividseats:prices:apply": "node scripts/snapshot-vividseats-prices.mjs --apply"
   },
   "devDependencies": {
     "wrangler": "^4.106.0"

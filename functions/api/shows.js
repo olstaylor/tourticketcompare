@@ -563,19 +563,8 @@ function getAffiliateUrl(show, provider) {
   return isUsableAffiliateUrl(trimmed) ? trimmed : null;
 }
 
-const APPROVED_PRICE_SOURCES = {
-  SeatGeek: "seatgeek_partner_api",
-  "Vivid Seats": "vividseats_partner_api"
-};
-const PRICE_DISPLAY_FLAGS = {
-  SeatGeek: "SEATGEEK_PRICE_DISPLAY_ENABLED",
-  "Vivid Seats": "VIVIDSEATS_PRICE_DISPLAY_ENABLED"
-};
-const PRICE_URL_VALIDATORS = {
-  SeatGeek: validSeatGeekEventUrl,
-  "Vivid Seats": validVividSeatsEventUrl
-};
-const SEATGEEK_APPROVED_PRICE_SOURCE = APPROVED_PRICE_SOURCES.SeatGeek;
+const SEATGEEK_APPROVED_PRICE_SOURCE = "seatgeek_partner_api";
+const VIVIDSEATS_APPROVED_PRICE_SOURCE = "vividseats_approved_feed";
 
 function getPricingDb(env) {
   const candidate = env?.DEMAND_DB || env?.DB;
@@ -594,18 +583,59 @@ function unavailableProviderPrice(provider, show, error = null) {
   };
 }
 
-async function fetchProviderCachedPrice(show, env, provider) {
-  const flagName = PRICE_DISPLAY_FLAGS[provider];
-  const approvedSource = APPROVED_PRICE_SOURCES[provider];
-  const validateUrl = PRICE_URL_VALIDATORS[provider];
-  const providerDbKey = providerKey(provider);
+function buildUnknownPriceTrend() {
+  return {
+    direction: "unknown",
+    delta: null,
+    comparedToFetchedAt: null
+  };
+}
 
-  if (!flagName || !approvedSource || typeof validateUrl !== "function") {
-    return unavailableProviderPrice(provider, show);
+function buildPriceTrend(latestRow, previousRow) {
+  const latestPrice = Number(latestRow?.low_price);
+  const previousPrice = Number(previousRow?.low_price);
+  const previousObservedAt = String(previousRow?.observed_at || "").trim();
+  if (!Number.isFinite(latestPrice) || !Number.isFinite(previousPrice) || !previousObservedAt) {
+    return buildUnknownPriceTrend();
   }
 
-  if (!getEnvBoolean(env?.[flagName], false)) {
-    return unavailableProviderPrice(provider, show);
+  const delta = Number((latestPrice - previousPrice).toFixed(2));
+  const direction = Math.abs(delta) < 0.01 ? "flat" : delta > 0 ? "up" : "down";
+  return {
+    direction,
+    delta,
+    comparedToFetchedAt: previousObservedAt
+  };
+}
+
+async function fetchProviderPriceTrend(db, showId, provider, source) {
+  try {
+    const since = new Date(Date.now() - PRICE_TREND_LOOKBACK_DAYS * 24 * 60 * 60 * 1000).toISOString();
+    const result = await db
+      .prepare(
+        `SELECT low_price, observed_at
+         FROM provider_pricing_history
+         WHERE event_id = ?1
+           AND provider = ?2
+           AND source = ?3
+           AND observed_at >= ?4
+         ORDER BY observed_at DESC
+         LIMIT 2`
+      )
+      .bind(showId, provider, source, since)
+      .all();
+
+    const rows = Array.isArray(result?.results) ? result.results : [];
+    if (rows.length < 2) return null;
+    return buildPriceTrend(rows[0], rows[1]);
+  } catch (err) {
+    return null;
+  }
+}
+
+async function fetchSeatGeekCachedPrice(show, env) {
+  if (!getEnvBoolean(env?.SEATGEEK_PRICE_DISPLAY_ENABLED, false)) {
+    return unavailableProviderPrice("SeatGeek", show);
   }
 
   if (!validateUrl(show?.[`${providerDbKey}_url`])) {
@@ -649,6 +679,9 @@ async function fetchProviderCachedPrice(show, env, provider) {
       return unavailableProviderPrice(provider, show);
     }
 
+    const inventoryCount = Number(row.inventory_count);
+    const trend = await fetchProviderPriceTrend(db, showId, "seatgeek", SEATGEEK_APPROVED_PRICE_SOURCE);
+
     return {
       provider,
       price: lowPrice,
@@ -658,15 +691,76 @@ async function fetchProviderCachedPrice(show, env, provider) {
       status: "ok",
       source: approvedSource,
       expiresAt,
-      inventoryCount: null
+      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null,
+      ...(trend ? { trend } : {})
     };
   } catch (err) {
     return unavailableProviderPrice(provider, show);
   }
 }
 
-function fetchSeatGeekCachedPrice(show, env) {
-  return fetchProviderCachedPrice(show, env, "SeatGeek");
+async function fetchVividSeatsCachedPrice(show, env) {
+  if (!getEnvBoolean(env?.VIVIDSEATS_PRICE_DISPLAY_ENABLED, false)) {
+    return unavailableProviderPrice("Vivid Seats", show);
+  }
+
+  if (!validVividSeatsEventUrl(show?.vividseats_url)) {
+    return unavailableProviderPrice("Vivid Seats", show);
+  }
+
+  const showId = String(show?.id || "").trim();
+  if (!showId) return unavailableProviderPrice("Vivid Seats", show);
+
+  const db = getPricingDb(env);
+  if (!db) return unavailableProviderPrice("Vivid Seats", show);
+
+  try {
+    const row = await db
+      .prepare(
+        `SELECT low_price, avg_price, high_price, currency, inventory_count, verified_at, expires_at, source
+         FROM provider_pricing_cache
+         WHERE event_id = ?1
+           AND provider = ?2
+           AND source = ?3
+         LIMIT 1`
+      )
+      .bind(showId, "vivid-seats", VIVIDSEATS_APPROVED_PRICE_SOURCE)
+      .first();
+
+    if (!row || typeof row !== "object") return unavailableProviderPrice("Vivid Seats", show);
+
+    const lowPrice = Number(row.low_price);
+    if (!Number.isFinite(lowPrice) || lowPrice < 0) return unavailableProviderPrice("Vivid Seats", show);
+
+    const currency = String(row.currency || "").trim();
+    if (!currency) return unavailableProviderPrice("Vivid Seats", show);
+
+    const verifiedAt = String(row.verified_at || "").trim();
+    const verifiedAtMs = Date.parse(verifiedAt);
+    if (!Number.isFinite(verifiedAtMs)) return unavailableProviderPrice("Vivid Seats", show);
+
+    const expiresAt = String(row.expires_at || "").trim();
+    const expiresAtMs = Date.parse(expiresAt);
+    if (!Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) {
+      return unavailableProviderPrice("Vivid Seats", show);
+    }
+
+    const inventoryCount = Number(row.inventory_count);
+
+    return {
+      provider: "Vivid Seats",
+      price: lowPrice,
+      currency,
+      url: buildProviderUrl(show, "Vivid Seats"),
+      fetchedAt: verifiedAt,
+      status: "ok",
+      source: VIVIDSEATS_APPROVED_PRICE_SOURCE,
+      expiresAt,
+      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null
+    };
+  } catch (err) {
+    return unavailableProviderPrice("Vivid Seats", show);
+  }
 }
 
 function buildProviderUrl(show, provider) {
@@ -720,6 +814,7 @@ function decorateProviderResult(result, show, provider, env) {
     source: result?.source || null,
     expiresAt: result?.expiresAt || null,
     inventoryCount: Number.isFinite(Number(result?.inventoryCount)) ? Number(result.inventoryCount) : null,
+    ...(result?.trend ? { trend: result.trend } : {}),
     url: actionUrl,
     actionUrl,
     note
@@ -792,6 +887,10 @@ function createLiveAdapter(provider, env) {
     async fetchLowestPrice(show) {
       if (provider === "SeatGeek" || provider === "Vivid Seats") {
         return fetchProviderCachedPrice(show, env, provider);
+      }
+
+      if (provider === "Vivid Seats") {
+        return fetchVividSeatsCachedPrice(show, env);
       }
 
       if (provider !== "Ticketmaster") {
@@ -1006,8 +1105,8 @@ async function setDailyCount(cache, key, count, ttlSeconds) {
 
 async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfig) {
   const env = rateLimitConfig?.env || {};
-  const displayFlagName = PRICE_DISPLAY_FLAGS[adapter.provider];
-  const bypassProviderCache = Boolean(displayFlagName && getEnvBoolean(env?.[displayFlagName], false));
+  const bypassProviderCache = (adapter.provider === "SeatGeek" && getEnvBoolean(env?.SEATGEEK_PRICE_DISPLAY_ENABLED, false))
+    || (adapter.provider === "Vivid Seats" && getEnvBoolean(env?.VIVIDSEATS_PRICE_DISPLAY_ENABLED, false));
   const cacheKey = buildCacheKey(show.id, adapter.provider);
   const cached = bypassProviderCache ? null : await cache.match(cacheKey);
   if (cached) {
@@ -1131,6 +1230,7 @@ async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfi
         source: data.source || null,
         expiresAt: data.expiresAt || null,
         inventoryCount: Number.isFinite(Number(data.inventoryCount)) ? Number(data.inventoryCount) : null,
+        ...(data.trend ? { trend: data.trend } : {}),
         cacheState: "live"
       };
 

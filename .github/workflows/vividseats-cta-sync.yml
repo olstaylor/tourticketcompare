@@ -90,6 +90,9 @@ jobs:
         env:
           IMPACT_VIVIDSEATS_ACCOUNT_SID: ${{ secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
           IMPACT_VIVIDSEATS_AUTH_TOKEN: ${{ secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
+          IMPACT_VIVIDSEATS_CAMPAIGN_ID: ${{ secrets.IMPACT_VIVIDSEATS_CAMPAIGN_ID }}
+          IMPACT_VIVIDSEATS_PROGRAM_ID: ${{ secrets.IMPACT_VIVIDSEATS_PROGRAM_ID }}
+          IMPACT_VIVIDSEATS_BASE_TRACKING_URL: ${{ secrets.IMPACT_VIVIDSEATS_BASE_TRACKING_URL }}
           EVENT_NAME: ${{ github.event_name }}
           INPUT_MODE: ${{ github.event.inputs.mode }}
           INPUT_ARTIST: ${{ github.event.inputs.artist }}

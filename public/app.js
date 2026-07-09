@@ -1350,6 +1350,69 @@ function vividSeatsOutAvailable(show, options = {}) {
   return hasValidVividSeatsEventUrl;
 }
 
+
+function isValidCurrencyCode(value) {
+  const code = String(value || "").trim().toUpperCase();
+  if (!/^[A-Z]{3}$/.test(code)) return false;
+  try {
+    new Intl.NumberFormat("en", { style: "currency", currency: code }).format(1);
+    return true;
+  } catch (error) {
+    return false;
+  }
+}
+
+function formatProviderPrice(value, currency) {
+  const amount = Number(value);
+  const code = String(currency || "").trim().toUpperCase();
+  if (!Number.isFinite(amount) || !isValidCurrencyCode(code)) return "";
+  try {
+    return new Intl.NumberFormat(undefined, { style: "currency", currency: code, maximumFractionDigits: amount % 1 === 0 ? 0 : 2 }).format(amount);
+  } catch (error) {
+    return "";
+  }
+}
+
+function formatSnapshotTime(value) {
+  const ms = Date.parse(String(value || ""));
+  if (!Number.isFinite(ms)) return "";
+  try {
+    return new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" }).format(new Date(ms));
+  } catch (error) {
+    return new Date(ms).toISOString();
+  }
+}
+
+function approvedSeatGeekPriceLane(show) {
+  if (!safeSeatGeekEventUrl(show?.seatgeek_url)) return null;
+  const lanes = Array.isArray(show?.prices) ? show.prices : [];
+  const lane = lanes.find((item) => String(item?.provider || "").toLowerCase() === "seatgeek");
+  if (!lane || lane.status !== "ok" || lane.providerStatus !== "ok") return null;
+  if (lane.source !== "seatgeek_partner_api") return null;
+  const price = Number(lane.price);
+  if (!Number.isFinite(price) || price < 0) return null;
+  const currency = String(lane.currency || "").trim().toUpperCase();
+  if (!isValidCurrencyCode(currency)) return null;
+  const fetchedAtMs = Date.parse(String(lane.fetchedAt || ""));
+  const expiresAtMs = Date.parse(String(lane.expiresAt || ""));
+  if (!Number.isFinite(fetchedAtMs) || !Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) return null;
+  return { price, currency, fetchedAt: lane.fetchedAt, expiresAt: lane.expiresAt };
+}
+
+function renderSeatGeekPriceSnapshot(show) {
+  const lane = approvedSeatGeekPriceLane(show);
+  if (!lane) return null;
+  const amount = formatProviderPrice(lane.price, lane.currency);
+  const asOf = formatSnapshotTime(lane.fetchedAt);
+  if (!amount || !asOf) return null;
+  const panel = document.createElement("div");
+  panel.className = "nested-panel seatgeek-price-snapshot";
+  text(panel, "p", amount, "card-status");
+  text(panel, "p", `SeatGeek price snapshot as of ${asOf}.`, "disclosure-note");
+  text(panel, "p", "Provider-attributed snapshot only. SeatGeek controls prices, fees, availability, and checkout terms; confirm the final total on SeatGeek before buying.", "muted");
+  return panel;
+}
+
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
@@ -1416,6 +1479,8 @@ function renderShowCard(show, options = {}) {
           "SeatGeek controls prices, fees, availability, and checkout terms for this link.",
           "disclosure-note"
         );
+        const priceSnapshot = renderSeatGeekPriceSnapshot(show);
+        if (priceSnapshot) article.append(priceSnapshot);
       }
       if (vsAvailable) {
         text(
@@ -1705,6 +1770,31 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
   apply();
 }
 
+
+async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
+  const hash = String(window.location.hash || "").replace(/^#/, "");
+  if (!hash) return;
+  const show = shows.find((candidate) => showAnchorId(candidate) === hash);
+  if (!show?.id || !seatGeekOutAvailable(show, cardOptions)) return;
+  try {
+    const params = new URLSearchParams({ showId: String(show.id), includePrices: "true" });
+    const response = await fetch(`/api/shows?${params.toString()}`, { headers: { Accept: "application/json" } });
+    if (!response.ok) return;
+    const data = await response.json();
+    const pricedShow = safeShowList(data).find((candidate) => String(candidate?.id || "") === String(show.id));
+    if (!approvedSeatGeekPriceLane(pricedShow)) return;
+    const currentCard = document.getElementById(hash);
+    if (!currentCard) return;
+    currentCard.replaceWith(renderShowCard(pricedShow, {
+      ...cardOptions,
+      seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek),
+      vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats)
+    }));
+  } catch (error) {
+    // Price snapshots are optional progressive enhancement; keep the verified CTA card unchanged.
+  }
+}
+
 async function hydrateShowBoard(section, filters = {}) {
   const grid = section.querySelector("[data-show-grid]");
   if (!grid) return;
@@ -1729,9 +1819,12 @@ async function hydrateShowBoard(section, filters = {}) {
     };
     if (filters.filterable) {
       setupShowBoardFilters(section, grid, shows, cardOptions);
+      await hydrateCurrentShowPriceSnapshot(shows, cardOptions);
+      window.addEventListener("hashchange", () => hydrateCurrentShowPriceSnapshot(shows, cardOptions));
       return;
     }
     grid.replaceChildren(...shows.slice(0, limit).map((show) => renderShowCard(show, cardOptions)));
+    await hydrateCurrentShowPriceSnapshot(shows.slice(0, limit), cardOptions);
   } catch (error) {
     grid.replaceChildren();
     text(

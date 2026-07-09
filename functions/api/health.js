@@ -22,7 +22,10 @@ export async function onRequestGet({ env }) {
     config: {
       mockMode: env?.MOCK_MODE === "true",
       allowMockPrices: env?.ALLOW_MOCK_PRICES === "true",
-      clickTrackingEnabled: env?.CLICK_TRACKING_ENABLED === "true"
+      clickTrackingEnabled: env?.CLICK_TRACKING_ENABLED === "true",
+      seatGeekPriceDisplayEnabled: env?.SEATGEEK_PRICE_DISPLAY_ENABLED === "true",
+      vividSeatsPriceDisplayEnabled: env?.VIVIDSEATS_PRICE_DISPLAY_ENABLED === "true",
+      ticketmasterDiscoveryPriceChecksEnabled: env?.TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED === "true"
     },
     bindings: {
       demandDb: hasBinding(env, "DEMAND_DB"),

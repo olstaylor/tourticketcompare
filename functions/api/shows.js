@@ -565,6 +565,16 @@ function getAffiliateUrl(show, provider) {
 
 const SEATGEEK_APPROVED_PRICE_SOURCE = "seatgeek_partner_api";
 const VIVIDSEATS_APPROVED_PRICE_SOURCE = "vividseats_approved_feed";
+// Approved provider price-snapshot sources keyed by public provider name.
+// decorateProviderResult only marks a lane "ok" when the cached row's source
+// matches the provider's approved source here.
+const APPROVED_PRICE_SOURCES = {
+  "SeatGeek": SEATGEEK_APPROVED_PRICE_SOURCE,
+  "Vivid Seats": VIVIDSEATS_APPROVED_PRICE_SOURCE
+};
+// How far back fetchProviderPriceTrend looks for the previous observation when
+// computing an internal (non-displayed) price trend from provider_pricing_history.
+const PRICE_TREND_LOOKBACK_DAYS = 30;
 
 function getPricingDb(env) {
   const candidate = env?.DEMAND_DB || env?.DB;
@@ -634,11 +644,15 @@ async function fetchProviderPriceTrend(db, showId, provider, source) {
 }
 
 async function fetchSeatGeekCachedPrice(show, env) {
+  const provider = "SeatGeek";
+  const providerDbKey = "seatgeek";
+  const approvedSource = SEATGEEK_APPROVED_PRICE_SOURCE;
+
   if (!getEnvBoolean(env?.SEATGEEK_PRICE_DISPLAY_ENABLED, false)) {
-    return unavailableProviderPrice("SeatGeek", show);
+    return unavailableProviderPrice(provider, show);
   }
 
-  if (!validateUrl(show?.[`${providerDbKey}_url`])) {
+  if (!validSeatGeekEventUrl(show?.seatgeek_url)) {
     return unavailableProviderPrice(provider, show);
   }
 
@@ -885,8 +899,8 @@ function createLiveAdapter(provider, env) {
   return {
     provider,
     async fetchLowestPrice(show) {
-      if (provider === "SeatGeek" || provider === "Vivid Seats") {
-        return fetchProviderCachedPrice(show, env, provider);
+      if (provider === "SeatGeek") {
+        return fetchSeatGeekCachedPrice(show, env);
       }
 
       if (provider === "Vivid Seats") {

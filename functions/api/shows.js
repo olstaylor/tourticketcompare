@@ -564,7 +564,7 @@ function getAffiliateUrl(show, provider) {
 }
 
 const SEATGEEK_APPROVED_PRICE_SOURCE = "seatgeek_partner_api";
-const PRICE_TREND_LOOKBACK_DAYS = 14;
+const VIVIDSEATS_APPROVED_PRICE_SOURCE = "vividseats_approved_feed";
 
 function getPricingDb(env) {
   const candidate = env?.DEMAND_DB || env?.DB;
@@ -699,6 +699,70 @@ async function fetchSeatGeekCachedPrice(show, env) {
   }
 }
 
+async function fetchVividSeatsCachedPrice(show, env) {
+  if (!getEnvBoolean(env?.VIVIDSEATS_PRICE_DISPLAY_ENABLED, false)) {
+    return unavailableProviderPrice("Vivid Seats", show);
+  }
+
+  if (!validVividSeatsEventUrl(show?.vividseats_url)) {
+    return unavailableProviderPrice("Vivid Seats", show);
+  }
+
+  const showId = String(show?.id || "").trim();
+  if (!showId) return unavailableProviderPrice("Vivid Seats", show);
+
+  const db = getPricingDb(env);
+  if (!db) return unavailableProviderPrice("Vivid Seats", show);
+
+  try {
+    const row = await db
+      .prepare(
+        `SELECT low_price, avg_price, high_price, currency, inventory_count, verified_at, expires_at, source
+         FROM provider_pricing_cache
+         WHERE event_id = ?1
+           AND provider = ?2
+           AND source = ?3
+         LIMIT 1`
+      )
+      .bind(showId, "vivid-seats", VIVIDSEATS_APPROVED_PRICE_SOURCE)
+      .first();
+
+    if (!row || typeof row !== "object") return unavailableProviderPrice("Vivid Seats", show);
+
+    const lowPrice = Number(row.low_price);
+    if (!Number.isFinite(lowPrice) || lowPrice < 0) return unavailableProviderPrice("Vivid Seats", show);
+
+    const currency = String(row.currency || "").trim();
+    if (!currency) return unavailableProviderPrice("Vivid Seats", show);
+
+    const verifiedAt = String(row.verified_at || "").trim();
+    const verifiedAtMs = Date.parse(verifiedAt);
+    if (!Number.isFinite(verifiedAtMs)) return unavailableProviderPrice("Vivid Seats", show);
+
+    const expiresAt = String(row.expires_at || "").trim();
+    const expiresAtMs = Date.parse(expiresAt);
+    if (!Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) {
+      return unavailableProviderPrice("Vivid Seats", show);
+    }
+
+    const inventoryCount = Number(row.inventory_count);
+
+    return {
+      provider: "Vivid Seats",
+      price: lowPrice,
+      currency,
+      url: buildProviderUrl(show, "Vivid Seats"),
+      fetchedAt: verifiedAt,
+      status: "ok",
+      source: VIVIDSEATS_APPROVED_PRICE_SOURCE,
+      expiresAt,
+      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null
+    };
+  } catch (err) {
+    return unavailableProviderPrice("Vivid Seats", show);
+  }
+}
+
 function buildProviderUrl(show, provider) {
   const affiliate = getAffiliateUrl(show, provider);
   if (affiliate) return affiliate;
@@ -823,6 +887,10 @@ function createLiveAdapter(provider, env) {
     async fetchLowestPrice(show) {
       if (provider === "SeatGeek") {
         return fetchSeatGeekCachedPrice(show, env);
+      }
+
+      if (provider === "Vivid Seats") {
+        return fetchVividSeatsCachedPrice(show, env);
       }
 
       if (provider !== "Ticketmaster") {
@@ -1037,7 +1105,8 @@ async function setDailyCount(cache, key, count, ttlSeconds) {
 
 async function getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfig) {
   const env = rateLimitConfig?.env || {};
-  const bypassProviderCache = adapter.provider === "SeatGeek" && getEnvBoolean(env?.SEATGEEK_PRICE_DISPLAY_ENABLED, false);
+  const bypassProviderCache = (adapter.provider === "SeatGeek" && getEnvBoolean(env?.SEATGEEK_PRICE_DISPLAY_ENABLED, false))
+    || (adapter.provider === "Vivid Seats" && getEnvBoolean(env?.VIVIDSEATS_PRICE_DISPLAY_ENABLED, false));
   const cacheKey = buildCacheKey(show.id, adapter.provider);
   const cached = bypassProviderCache ? null : await cache.match(cacheKey);
   if (cached) {

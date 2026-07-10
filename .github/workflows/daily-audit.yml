@@ -117,6 +117,11 @@ jobs:
             --tm-status .audit/tm-status.json \
             $DRY_RUN_FLAG
 
+      - name: Regenerate inline data fallback
+        # public/index.html inlines artists.json; without this the bump PR
+        # fails the stale-sync-guard check.
+        run: npm run events:sync
+
       - name: Check for changes
         id: diff
         run: |
@@ -136,7 +141,7 @@ jobs:
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
           git checkout -B "$BRANCH"
-          git add public/data/artists.json
+          git add public/data/artists.json public/index.html
           git commit -m "Bump last_verified_at for clean artists (${TODAY})"
           git push -u origin "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" TODAY="$TODAY" node scripts/open-daily-pr.mjs

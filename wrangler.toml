@@ -14,6 +14,7 @@ TICKETMASTER_EVENTS_TTL_MINUTES = "30"
 TICKETMASTER_ARTIST_EVENTS_LIMIT = "100"
 TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED = "false"
 SEATGEEK_PRICE_DISPLAY_ENABLED = "false"
+VIVIDSEATS_PRICE_DISPLAY_ENABLED = "false"
 TICKETMASTER_DISCOVERY_COUNTRY = ""
 
 # Optional D1 bindings for CLI-based deploys and local Pages dev.
@@ -23,3 +24,4 @@ TICKETMASTER_DISCOVERY_COUNTRY = ""
 binding = "DEMAND_DB"
 database_name = "tourticketcompare-demand"
 database_id = "19b314b8-10f1-4504-a3bc-963f7ecbe9f6"
+

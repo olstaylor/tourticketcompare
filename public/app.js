@@ -1383,6 +1383,12 @@ function formatSnapshotTime(value) {
   }
 }
 
+function isValidIsoDateTime(value) {
+  const input = String(value || "").trim();
+  if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/.test(input)) return false;
+  return Number.isFinite(Date.parse(input));
+}
+
 function approvedSeatGeekPriceLane(show) {
   if (!safeSeatGeekEventUrl(show?.seatgeek_url)) return null;
   const lanes = Array.isArray(show?.prices) ? show.prices : [];
@@ -1393,6 +1399,24 @@ function approvedSeatGeekPriceLane(show) {
   if (!Number.isFinite(price) || price < 0) return null;
   const currency = String(lane.currency || "").trim().toUpperCase();
   if (!isValidCurrencyCode(currency)) return null;
+  if (!isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt)) return null;
+  const fetchedAtMs = Date.parse(String(lane.fetchedAt || ""));
+  const expiresAtMs = Date.parse(String(lane.expiresAt || ""));
+  if (!Number.isFinite(fetchedAtMs) || !Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) return null;
+  return { price, currency, fetchedAt: lane.fetchedAt, expiresAt: lane.expiresAt };
+}
+
+function approvedVividSeatsPriceLane(show) {
+  if (!safeVividSeatsEventUrl(show?.vividseats_url)) return null;
+  const lanes = Array.isArray(show?.prices) ? show.prices : [];
+  const lane = lanes.find((item) => item?.provider === "Vivid Seats");
+  if (!lane || lane.status !== "ok" || lane.providerStatus !== "ok") return null;
+  if (lane.source !== "vividseats_approved_feed") return null;
+  const price = Number(lane.price);
+  if (!Number.isFinite(price) || price < 0) return null;
+  const currency = String(lane.currency || "").trim().toUpperCase();
+  if (!isValidCurrencyCode(currency)) return null;
+  if (!isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt)) return null;
   const fetchedAtMs = Date.parse(String(lane.fetchedAt || ""));
   const expiresAtMs = Date.parse(String(lane.expiresAt || ""));
   if (!Number.isFinite(fetchedAtMs) || !Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) return null;
@@ -1410,6 +1434,20 @@ function renderSeatGeekPriceSnapshot(show) {
   text(panel, "p", amount, "card-status");
   text(panel, "p", `SeatGeek price snapshot as of ${asOf}.`, "disclosure-note");
   text(panel, "p", "Provider-attributed snapshot only. SeatGeek controls prices, fees, availability, and checkout terms; confirm the final total on SeatGeek before buying.", "muted");
+  return panel;
+}
+
+function renderVividSeatsPriceSnapshot(show) {
+  const lane = approvedVividSeatsPriceLane(show);
+  if (!lane) return null;
+  const amount = formatProviderPrice(lane.price, lane.currency);
+  const asOf = formatSnapshotTime(lane.fetchedAt);
+  if (!amount || !asOf) return null;
+  const panel = document.createElement("div");
+  panel.className = "nested-panel vividseats-price-snapshot";
+  text(panel, "p", amount, "card-status");
+  text(panel, "p", `Vivid Seats price snapshot as of ${asOf}.`, "disclosure-note");
+  text(panel, "p", "Provider-attributed snapshot only. Vivid Seats controls prices, fees, availability, and checkout terms; confirm the final total on Vivid Seats before buying.", "muted");
   return panel;
 }
 
@@ -1489,6 +1527,8 @@ function renderShowCard(show, options = {}) {
           "Vivid Seats controls prices, fees, availability, and checkout terms for this link.",
           "disclosure-note"
         );
+        const priceSnapshot = renderVividSeatsPriceSnapshot(show);
+        if (priceSnapshot) article.append(priceSnapshot);
       }
     } else {
       text(article, "p", "No verified ticket link is available for this date.", "disclosure-note");
@@ -1775,14 +1815,14 @@ async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
   const hash = String(window.location.hash || "").replace(/^#/, "");
   if (!hash) return;
   const show = shows.find((candidate) => showAnchorId(candidate) === hash);
-  if (!show?.id || !seatGeekOutAvailable(show, cardOptions)) return;
+  if (!show?.id || (!seatGeekOutAvailable(show, cardOptions) && !vividSeatsOutAvailable(show, cardOptions))) return;
   try {
     const params = new URLSearchParams({ showId: String(show.id), includePrices: "true" });
     const response = await fetch(`/api/shows?${params.toString()}`, { headers: { Accept: "application/json" } });
     if (!response.ok) return;
     const data = await response.json();
     const pricedShow = safeShowList(data).find((candidate) => String(candidate?.id || "") === String(show.id));
-    if (!approvedSeatGeekPriceLane(pricedShow)) return;
+    if (!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)) return;
     const currentCard = document.getElementById(hash);
     if (!currentCard) return;
     currentCard.replaceWith(renderShowCard(pricedShow, {

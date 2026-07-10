@@ -984,6 +984,14 @@ assert(appJs.includes("SeatGeek controls prices, fees, availability, and checkou
 assert(appJs.includes("SeatGeek price snapshot as of"), "hydration should include provider-attributed SeatGeek snapshot copy");
 assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
 assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price snapshot should hide expired data");
+assert(appJs.includes("function approvedVividSeatsPriceLane(show)"), "hydration should include an approved Vivid Seats price lane helper");
+assert(appJs.includes("safeVividSeatsEventUrl(show?.vividseats_url)"), "hydrated Vivid Seats price snapshots should require a valid stored Vivid Seats event URL");
+assert(appJs.includes('item?.provider === "Vivid Seats"'), "hydrated Vivid Seats price snapshots should require the provider-attributed Vivid Seats lane");
+assert(appJs.includes("source !== \"vividseats_approved_feed\""), "hydrated Vivid Seats price snapshots should require the approved source attribution");
+assert(appJs.includes("isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt)"), "hydrated Vivid Seats price snapshots should require ISO timestamps before checking freshness");
+assert(appJs.includes("renderVividSeatsPriceSnapshot(show)"), "hydration should append Vivid Seats snapshots only through the approved render helper");
+assert(appJs.includes("Vivid Seats price snapshot as of"), "hydration should include provider-attributed Vivid Seats snapshot copy");
+assert(appJs.includes("!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)"), "current-card hydration should accept either an approved SeatGeek lane or an approved Vivid Seats lane");
 assert(appJs.includes("new URLSearchParams({ showId: String(show.id), includePrices: \"true\" })"), "hydration should request prices only for the currently viewed individual show");
 assert(!appJs.includes("includePrices: String"), "hydration should not add includePrices to bulk artist show-list requests");
 assert(!appJs.match(/lowest\s+overall\s+price|cheapest/i), "hydration must not label SeatGeek snapshots as lowest overall or cheapest");

@@ -41,7 +41,7 @@ Pages become indexable and conversion-led only after completing the phase gates 
 - Written SeatGeek and Vivid Seats agreements confirmed on 2026-07-10 permit provider price display across all public site surfaces, side-by-side price display, lower-listed-price and price-difference calculations, and history for the same verified event.
 - Ticketmaster price display from an approved provider feed requires `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true` and remains off by default.
 - SeatGeek comparison data is allowed only when it comes from the approved SeatGeek partner API, `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, and the snapshot is timestamped and unexpired.
-- Vivid Seats comparison data is allowed only when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, the cached row has `source='vividseats_approved_feed'`, and the snapshot is timestamped and unexpired.
+- Vivid Seats comparison data is allowed only when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, the cached row has `source='vividseats_impact_marketplace_api'`, and the snapshot is timestamped and unexpired.
 - A lower-price statement must say it is a provider-supplied listed-price snapshot for the same event. Fees, taxes, availability, delivery, and the final checkout total must remain clearly qualified.
 
 ## Provider Rights and Catalog Metadata

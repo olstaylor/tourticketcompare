@@ -1399,7 +1399,7 @@ function approvedVividSeatsPriceLane(show) {
   const lanes = Array.isArray(show?.prices) ? show.prices : [];
   const lane = lanes.find((item) => item?.provider === "Vivid Seats");
   if (!lane || lane.status !== "ok" || lane.providerStatus !== "ok") return null;
-  if (lane.source !== "vividseats_approved_feed") return null;
+  if (lane.source !== "vividseats_impact_marketplace_api") return null;
   const price = Number(lane.price);
   if (!Number.isFinite(price) || price < 0) return null;
   const currency = String(lane.currency || "").trim().toUpperCase();

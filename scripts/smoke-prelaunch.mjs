@@ -1004,6 +1004,12 @@ const TM_RECHECK_HIDDEN_COPY = "Ticketmaster link temporarily hidden while";
 //    silently no-op'd in tests while hiding ~256/272 CTAs in production. Guard at
 //    the source so the pattern cannot return unnoticed.
 const pathSource = await read("functions/[[path]].js");
+const conditionalPriceSnapshotCopy = "When provider-approved, timestamped price snapshots are available";
+const absoluteNoPriceCopy = "We do not display ticket prices or guarantee availability";
+assert(pathSource.includes(conditionalPriceSnapshotCopy), "server-rendered trust copy should describe provider-approved price snapshots conditionally");
+assert(appJs.includes(conditionalPriceSnapshotCopy), "hydrated trust copy should mirror the conditional provider-approved price snapshot wording");
+assert(!pathSource.includes(absoluteNoPriceCopy), "server-rendered trust copy must not say prices are never displayed when approved snapshot flags may be enabled");
+assert(!appJs.includes(absoluteNoPriceCopy), "hydrated trust copy must not say prices are never displayed when approved snapshot flags may be enabled");
 assert(!(await fileExists("public/data/tm-cta-suppression.json")), "renderer-facing Ticketmaster CTA suppression artifact must not exist; CTA suppression must come from reviewed provider/link fields only");
 for (const [label, src] of [["functions/[[path]].js", pathSource], ["public/app.js", appJs]]) {
   assert(!/tm-cta-suppression/i.test(src), `${label} must not load a transient Ticketmaster CTA suppression artifact`);

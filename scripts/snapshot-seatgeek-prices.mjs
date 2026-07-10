@@ -397,9 +397,16 @@ async function fetchJsonWithRetry(url, fetchImpl = globalThis.fetch, sleeper = s
     if (last.status === 429) {
       const retryAfter = Number.parseFloat(last.headers?.retryAfter);
       const reset = Number.parseFloat(last.headers?.ratelimitReset);
-      if (Number.isFinite(retryAfter) && retryAfter > 0) waitMs = Math.min((retryAfter + 1) * 1000, RATE_LIMIT_MAX_WAIT_MS);
-      else if (Number.isFinite(reset) && reset > 0) waitMs = Math.min((reset + 1) * 1000, RATE_LIMIT_MAX_WAIT_MS);
-      else waitMs = RATE_LIMIT_MAX_WAIT_MS;
+      if (Number.isFinite(retryAfter) && retryAfter > 0) {
+        waitMs = Math.min((retryAfter + 1) * 1000, RATE_LIMIT_MAX_WAIT_MS);
+      } else if (Number.isFinite(reset) && reset > 0) {
+        // Some providers send epoch seconds in the reset header rather than
+        // seconds-remaining; treat large values as an absolute timestamp.
+        const waitSec = reset > 1_000_000_000 ? reset - Date.now() / 1000 : reset;
+        waitMs = Math.min(Math.max(1, waitSec + 1) * 1000, RATE_LIMIT_MAX_WAIT_MS);
+      } else {
+        waitMs = RATE_LIMIT_MAX_WAIT_MS;
+      }
     }
     await sleeper(waitMs);
   }
@@ -579,9 +586,14 @@ function evaluateRematchCandidates(item, candidates) {
     const urlValidation = validateSeatGeekEventUrl(candidate?.url);
     if (!urlValidation.ok) continue;
     if (candidateLocalDate(candidate) !== item.localDate) continue;
-    const cityExact = normalizeText(event?.city) && normalizeText(event?.city) === normalizeText(candidate?.venue?.city);
+    const eventCity = normalizeText(event?.city);
+    const candidateCity = normalizeText(candidate?.venue?.city);
+    const cityExact = eventCity !== "" && eventCity === candidateCity;
     const venueSimilarity = diceSimilarity(event?.venue, candidate?.venue?.name);
-    if (!cityExact && venueSimilarity < 0.55) continue;
+    // When both cities are present but disagree (e.g. metro-area venues), a
+    // generic venue-name overlap is not enough — demand a near-exact venue.
+    const minVenueSimilarity = eventCity && candidateCity && !cityExact ? 0.8 : 0.55;
+    if (!cityExact && venueSimilarity < minVenueSimilarity) continue;
     accepted.push({
       seatgeek_event_id: urlValidation.eventId,
       proposed_seatgeek_url: urlValidation.url,
@@ -627,6 +639,12 @@ async function runRematch(notFoundItems, options, deps, summary) {
       apiUrl = buildRematchApiUrl(performerId, item.localDate, deps.env || process.env);
     } catch (error) {
       summary.error_details.push({ event_id: item.event?.id, reason: redact(error.message) });
+      proposals.push({
+        local_event_id: clean(item.event?.id, 255),
+        artist_slug: clean(item.event?.artist_slug, 255),
+        status: "url_build_failed",
+        detail: redact(error.message)
+      });
       continue;
     }
     const fetched = await (deps.fetchRematchCandidates
@@ -831,6 +849,20 @@ async function selfTest() {
   check(assert.equal, notFound.status, 404);
   check(assert.equal, fetches404, 1);
 
+  // An epoch-seconds reset header is converted to a relative wait instead of
+  // being multiplied straight into the 65s cap.
+  const epochWaits = [];
+  const epochResponses = [
+    { ok: false, status: 429, reset: String(Date.now() / 1000 + 2) },
+    { ok: true, status: 200, json: async () => ({}) }
+  ];
+  await fetchJsonWithRetry("https://api.seatgeek.com/2/events/1?client_id=x", async () => {
+    const next = epochResponses.shift();
+    return { ok: next.ok, status: next.status, headers: { get: (name) => (name === "ratelimit-reset" ? next.reset || "" : "") }, json: next.json };
+  }, async (ms) => epochWaits.push(ms));
+  check(assert.equal, epochWaits.length, 1);
+  check(assert.ok, epochWaits[0] >= 1000 && epochWaits[0] <= 10000, `epoch reset wait should be relative, got ${epochWaits[0]}`);
+
   // Dry-run ingestion: writer untouched, proposed rows carry the approved source.
   let writes = 0;
   const baseOptions = { apply: false, limit: null, eventId: "", freshnessHours: 6, delayMs: 0, database: DEFAULT_D1_DATABASE, remote: true, rematchPath: "" };
@@ -930,6 +962,13 @@ async function selfTest() {
     [{ title: "x", url: "https://seatgeek.com/performers/artist-one", datetime_local: "2026-06-01T19:00:00", venue: { name: "MSG", city: "New York" } }]
   );
   check(assert.equal, rejected.status, "no_candidate");
+
+  // Disagreeing cities with only a generic venue-name overlap must not match.
+  const crossCity = evaluateRematchCandidates(
+    { event: { ...event, city: "Boston", venue: "The Theater" }, localDate: "2026-06-01", seatgeekUrl: event.seatgeek_url, seatgeekEventId: "12345678" },
+    [{ title: "x", url: "https://seatgeek.com/x-tickets/chicago-2026-06-01/concert/555", datetime_local: "2026-06-01T19:00:00", venue: { name: "Theater", city: "Chicago" } }]
+  );
+  check(assert.equal, crossCity.status, "no_candidate");
 
   return { ok: true, tests: checks };
 }

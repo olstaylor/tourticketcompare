@@ -875,7 +875,7 @@ function renderVerificationDisclosure(artist, shows = []) {
   const lines = [
     "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
     "We only show ticket destinations that pass our verification checks.",
-    "We do not display ticket prices or guarantee availability. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.",
+    "When provider-approved, timestamped price snapshots are available, we label them by provider and still require users to confirm final totals on the provider site. Availability, fees, and delivery details can change quickly, and we do not guarantee availability.",
     "Some links may earn us a commission. That never changes which links we show."
   ];
   const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);

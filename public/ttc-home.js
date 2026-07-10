@@ -234,7 +234,7 @@
       panel.appendChild(body);
       panel.appendChild(h("div", { class: "ttc-search__foot" }, [
         h("span", {}, [pulse(), "Catalog updated " + DATA.updated_at]),
-        h("span", {}, ["No live prices — verified links only"])
+        h("span", {}, ["Provider snapshots shown only when approved"])
       ]));
     }
     input.addEventListener("input", () => { q = input.value; open = true; active = 0; render(); });
@@ -264,7 +264,7 @@
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Verified ticket options for <em>major tours.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["Human-checked links to official ticket pages, clear official-vs-resale guidance, and the checks to run before you pay. We don’t sell tickets and we never show live prices."]),
+      h("p", { class: "ttc-hero__sub" }, ["Human-checked links to official ticket pages, clear official-vs-resale guidance, and the checks to run before you pay. We don’t sell tickets or rank providers by live price."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug }, [artist.name]))])
@@ -272,7 +272,7 @@
       h("div", { class: "ttc-hero__trust" }, [
         h("div", {}, [svg("check"), document.createTextNode(" "), h("b", {}, ["Every link"]), document.createTextNode(" human-checked")]),
         h("div", {}, [pulse(), h("b", {}, ["Verified"]), document.createTextNode(" via " + (DATA.publicProviders.join(", ") || "checked providers"))]),
-        h("div", {}, [h("span", { class: "ttc-pulse ttc-pulse--accent" }, [h("i")]), document.createTextNode(" No live prices, ever")])
+        h("div", {}, [h("span", { class: "ttc-pulse ttc-pulse--accent" }, [h("i")]), document.createTextNode(" Approved snapshots only")])
       ])
     ]);
 
@@ -316,11 +316,11 @@
     const vp = [
       { ic: "check",  t: "Verified destinations only", b: "A ticket button appears only when a human has checked the provider page. If it hasn’t been checked, you see a watchlist state — never a dead-end link." },
       { ic: "search", t: "Official vs resale, explained", b: "Know exactly what you’re buying before you leave. Our guides break down primary tickets, resale, fees, delivery and transfer rules in plain language." },
-      { ic: "arrow",  t: "Confirm before you pay", b: "We never show live prices. We show you the checks to run at the provider’s checkout so the final total — fees included — holds no surprises." },
+      { ic: "arrow",  t: "Confirm before you pay", b: "Approved snapshots are provider-attributed and timestamped. Always compare the provider’s final checkout total — including fees — before you pay." },
     ];
     return h("section", { class: "ttc-sec" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["What this tool actually does"]), h("p", { class: "ttc-sec__desc" }, ["No marketplace, no checkout, no live price comparison. Three jobs, done transparently."])]),
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["What this tool actually does"]), h("p", { class: "ttc-sec__desc" }, ["No marketplace, no checkout, no unverified price comparison. Three jobs, done transparently."])]),
         h("a", { class: "ttc-sec__link", href: "/how-it-works" }, ["How it works ", svg("arrow")])
       ]),
       h("div", { class: "ttc-vp" }, vp.map((v, i) => h("div", { class: "ttc-vpcard" }, [
@@ -493,3 +493,4 @@
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
 })();
+

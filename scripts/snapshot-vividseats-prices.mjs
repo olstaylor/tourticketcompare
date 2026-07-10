@@ -240,12 +240,13 @@ async function selfTest() {
   const item = { localId: "event-1", productionId: "123", artistName: "RAYE", event: { artist_slug: "raye" } };
   const built = buildSnapshotRow(item, priced.price, now, 6);
   assert.equal(built.ok, true); assert.equal(built.row.source, APPROVED_SOURCE);
+  assert.doesNotMatch(buildUpsertSql([built.row]), /BEGIN TRANSACTION|COMMIT/);
   const dry = await runIngestion({ apply: false, limit: 1, eventId: "", freshnessHours: 6, database: DEFAULT_D1_DATABASE, remote: true }, {
     catalog: { events: [{ id: "event-1", artist_slug: "raye", vividseats_url: "https://www.vividseats.com/a-tickets/production/123" }], artistsBySlug: new Map([["raye", "RAYE"]]) },
     now, async fetchArtistCatalog() { return { ok: true, data: [{ CurrentPrice: 52, Currency: "USD", Offers: [{ Sku: "123" }] }] }; }
   });
   assert.equal(dry.proposed_rows.length, 1); assert.equal(dry.written, 0);
-  return { ok: true, tests: 12 };
+  return { ok: true, tests: 13 };
 }
 function printSummary(summary) {
   console.log(`Vivid Seats Impact price snapshot ${summary.mode} summary:`);

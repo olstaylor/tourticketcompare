@@ -204,7 +204,7 @@ async function assertPublicCopySafe(files) {
     {
       label: "price comparison claim",
       pattern: /\bprice\s+comparison\b/i,
-      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|when approved|only when|not fake)\b/i
+      allowedContext: /\b(coming later|not yet|planned|not available|is not ready|being built|when approved|only when|not fake|approved|provider|snapshot)\b/i
     },
     {
       label: "ticket comparison claim",

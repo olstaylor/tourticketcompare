@@ -139,4 +139,3 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 ## How to update this file
 
 Refresh when any of the following change: artist count, indexing status, event count, guide count, bindings, validation pipeline, daily automation, or the set of active issues. Recount from the data files (`python3 -c` over `public/data/*.json`) rather than trusting prior text — this file drifted once already. Reference `BACKLOG.md` for prioritised work — do not duplicate the priority list here. See `docs/DOCS_MAINTENANCE.md` for the canonical-file map.
-

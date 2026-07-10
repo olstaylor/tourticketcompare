@@ -760,6 +760,7 @@ async function fetchVividSeatsCachedPrice(show, env) {
     }
 
     const inventoryCount = Number(row.inventory_count);
+    const trend = await fetchProviderPriceTrend(db, showId, "vivid-seats", VIVIDSEATS_APPROVED_PRICE_SOURCE);
 
     return {
       provider: "Vivid Seats",
@@ -770,7 +771,8 @@ async function fetchVividSeatsCachedPrice(show, env) {
       status: "ok",
       source: VIVIDSEATS_APPROVED_PRICE_SOURCE,
       expiresAt,
-      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null
+      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null,
+      ...(trend ? { trend } : {})
     };
   } catch (err) {
     return unavailableProviderPrice("Vivid Seats", show);
@@ -1397,6 +1399,11 @@ export async function onRequestGet({ request, env }) {
   const showId = url ? String(url.searchParams.get("showId") || "").trim() : "";
   const includesShowId = Boolean(showId);
   const includePrices = includePricesParam === "true" || includesShowId;
+  const priceProvidersParam = url ? String(url.searchParams.get("priceProviders") || "").toLowerCase() : "";
+  // The comparison experience requests only approved cached marketplace lanes.
+  // This avoids unnecessary Ticketmaster price fan-out while preserving the
+  // existing single-show guard and all source/freshness checks.
+  const approvedMarketplacePricesOnly = priceProvidersParam === "approved-marketplaces";
   const offset = url ? parsePositiveInt(url.searchParams.get("offset"), 0) : 0;
   const requestedLimit = url ? parsePositiveInt(url.searchParams.get("limit"), DEFAULT_LIST_LIMIT) : DEFAULT_LIST_LIMIT;
   const limit = Math.min(MAX_LIST_LIMIT, Math.max(1, requestedLimit));
@@ -1451,10 +1458,14 @@ export async function onRequestGet({ request, env }) {
     );
   }
 
+  const priceAdapters = approvedMarketplacePricesOnly
+    ? providers.filter((adapter) => adapter.provider === "SeatGeek" || adapter.provider === "Vivid Seats")
+    : providers;
+
   const shows = await Promise.all(
     requestedShows.map(async (show) => {
       const prices = await Promise.all(
-        providers.map((adapter) => getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfig))
+        priceAdapters.map((adapter) => getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfig))
       );
       return { ...show, prices };
     })

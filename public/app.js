@@ -1230,6 +1230,34 @@ function formatShowDate(value) {
   });
 }
 
+// Date badge parts for the compact show card. Keep in sync with
+// showDatePartsServer in functions/[[path]].js.
+function showDateParts(value) {
+  if (!value) return null;
+  const parsed = new Date(value);
+  if (!Number.isFinite(parsed.getTime())) return null;
+  try {
+    return {
+      weekday: parsed.toLocaleDateString(undefined, { weekday: "short" }),
+      day: parsed.toLocaleDateString(undefined, { day: "numeric" }),
+      monthYear: parsed.toLocaleDateString(undefined, { month: "short", year: "numeric" })
+    };
+  } catch (error) {
+    return null;
+  }
+}
+
+function renderShowDateBadge(show) {
+  const parts = showDateParts(show.dateTimeISO);
+  if (!parts) return null;
+  const badge = document.createElement("div");
+  badge.className = "show-date-badge";
+  text(badge, "span", parts.weekday, "show-date-weekday");
+  text(badge, "span", parts.day, "show-date-day");
+  text(badge, "span", parts.monthYear, "show-date-monthyear");
+  return badge;
+}
+
 function showLocation(show) {
   return [show.city, show.venue]
     .map((value) => String(value || "").trim())
@@ -1411,18 +1439,27 @@ function approvedVividSeatsPriceLane(show) {
   return { price, currency, fetchedAt: lane.fetchedAt, expiresAt: lane.expiresAt };
 }
 
+// Compact provider-attributed price chip: provider name + listed snapshot
+// amount. Rendered only from approved, fresh, timestamped lanes.
+function renderPriceChip(providerName, amount, isLower = false) {
+  const chip = document.createElement("span");
+  chip.className = isLower ? "price-chip price-chip-lower" : "price-chip";
+  text(chip, "span", providerName, "price-chip-provider");
+  text(chip, "strong", amount, "price-chip-amount");
+  return chip;
+}
+
 function renderSeatGeekPriceSnapshot(show) {
   const lane = approvedSeatGeekPriceLane(show);
   if (!lane) return null;
   const amount = formatProviderPrice(lane.price, lane.currency);
   const asOf = formatSnapshotTime(lane.fetchedAt);
   if (!amount || !asOf) return null;
-  const panel = document.createElement("div");
-  panel.className = "nested-panel seatgeek-price-snapshot";
-  text(panel, "p", amount, "card-status");
-  text(panel, "p", `SeatGeek price snapshot as of ${asOf}.`, "disclosure-note");
-  text(panel, "p", "Provider-attributed snapshot only. SeatGeek controls prices, fees, availability, and checkout terms; confirm the final total on SeatGeek before buying.", "muted");
-  return panel;
+  const row = document.createElement("div");
+  row.className = "price-snapshot-row seatgeek-price-snapshot";
+  row.append(renderPriceChip("SeatGeek", amount));
+  text(row, "p", `SeatGeek price snapshot as of ${asOf}. Listed snapshot excludes fees; confirm the final total on SeatGeek before buying.`, "disclosure-note");
+  return row;
 }
 
 function renderVividSeatsPriceSnapshot(show) {
@@ -1431,12 +1468,11 @@ function renderVividSeatsPriceSnapshot(show) {
   const amount = formatProviderPrice(lane.price, lane.currency);
   const asOf = formatSnapshotTime(lane.fetchedAt);
   if (!amount || !asOf) return null;
-  const panel = document.createElement("div");
-  panel.className = "nested-panel vividseats-price-snapshot";
-  text(panel, "p", amount, "card-status");
-  text(panel, "p", `Vivid Seats price snapshot as of ${asOf}.`, "disclosure-note");
-  text(panel, "p", "Provider-attributed snapshot only. Vivid Seats controls prices, fees, availability, and checkout terms; confirm the final total on Vivid Seats before buying.", "muted");
-  return panel;
+  const row = document.createElement("div");
+  row.className = "price-snapshot-row vividseats-price-snapshot";
+  row.append(renderPriceChip("Vivid Seats", amount));
+  text(row, "p", `Vivid Seats price snapshot as of ${asOf}. Listed snapshot excludes fees; confirm the final total on Vivid Seats before buying.`, "disclosure-note");
+  return row;
 }
 
 function approvedProviderPriceComparison(show) {
@@ -1467,35 +1503,28 @@ function renderProviderPriceComparison(show) {
   const vividSeatsAsOf = formatSnapshotTime(comparison.vividSeats.fetchedAt);
   if (!seatGeekAmount || !vividSeatsAmount || !seatGeekAsOf || !vividSeatsAsOf) return null;
 
-  const panel = document.createElement("section");
-  panel.className = "nested-panel provider-price-comparison";
-  text(panel, "h4", "Provider price comparison");
-
-  const snapshots = document.createElement("ul");
-  snapshots.className = "check-list";
-  for (const line of [
-    `SeatGeek: ${seatGeekAmount} snapshot as of ${seatGeekAsOf}.`,
-    `Vivid Seats: ${vividSeatsAmount} snapshot as of ${vividSeatsAsOf}.`
-  ]) {
-    const item = document.createElement("li");
-    item.textContent = line;
-    snapshots.append(item);
-  }
-  panel.append(snapshots);
+  const row = document.createElement("div");
+  row.className = "price-snapshot-row provider-price-comparison";
+  const seatGeekLower = comparison.sameCurrency && comparison.lowerProvider === "SeatGeek";
+  const vividSeatsLower = comparison.sameCurrency && comparison.lowerProvider === "Vivid Seats";
+  row.append(
+    renderPriceChip("SeatGeek", seatGeekAmount, seatGeekLower),
+    renderPriceChip("Vivid Seats", vividSeatsAmount, vividSeatsLower)
+  );
 
   if (comparison.sameCurrency && comparison.lowerProvider && comparison.delta !== null) {
     const difference = formatProviderPrice(comparison.delta, comparison.seatGeek.currency);
     if (difference) {
-      text(panel, "p", `${comparison.lowerProvider} has the lower listed price snapshot by ${difference}.`, "card-status");
+      text(row, "p", `${comparison.lowerProvider} has the lower listed price snapshot by ${difference}.`, "price-compare-note");
     }
   } else if (comparison.sameCurrency) {
-    text(panel, "p", "Both providers show the same listed price snapshot.", "card-status");
+    text(row, "p", "Both providers show the same listed price snapshot.", "price-compare-note");
   } else {
-    text(panel, "p", "The snapshots use different currencies, so no price difference is calculated.", "card-status");
+    text(row, "p", "The snapshots use different currencies, so no price difference is calculated.", "price-compare-note");
   }
 
-  text(panel, "p", "These are provider-supplied snapshots for this exact event. Fees, taxes, availability, delivery, and checkout terms can change; confirm the final total before buying.", "disclosure-note");
-  return panel;
+  text(row, "p", `SeatGeek price snapshot as of ${seatGeekAsOf}; Vivid Seats price snapshot as of ${vividSeatsAsOf}. Listed snapshots exclude fees; confirm the final total on the provider site before buying.`, "disclosure-note");
+  return row;
 }
 
 function renderShowCard(show, options = {}) {
@@ -1503,20 +1532,37 @@ function renderShowCard(show, options = {}) {
   article.className = "info-card show-card";
   const anchorId = showAnchorId(show);
   if (anchorId) article.id = anchorId;
-  const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
-  text(article, "h3", show.event_name || show.artist_name || titleFallback);
-  const date = formatShowDate(show.dateTimeISO);
-  if (date) text(article, "p", date, "card-status");
-  const location = showLocation(show);
-  text(article, "p", location || "City and venue details are shown only when verified by the source.", "muted");
-  const copyAction = renderCopyShowLinkAction(article);
-  if (copyAction) article.append(copyAction);
 
-  const priceComparison = renderProviderPriceComparison(show);
-  if (priceComparison) article.append(priceComparison);
+  const dateBadge = renderShowDateBadge(show);
+  if (dateBadge) article.append(dateBadge);
+
+  const body = document.createElement("div");
+  body.className = "show-card-body";
+  article.append(body);
+
+  const location = showLocation(show);
+  const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
+  const eventName = String(show.event_name || "").trim();
+  if (options.locationTitle && location) {
+    // Artist boards: the city and venue are what differentiates each date, so
+    // they lead; the event name adds support acts / tour info when it says
+    // more than the artist name alone.
+    text(body, "h3", location, "show-card-title");
+    const artistName = String(options.artistName || show.artist_name || "").trim();
+    if (eventName && eventName.toLowerCase() !== artistName.toLowerCase()) {
+      text(body, "p", eventName, "show-card-sub muted");
+    }
+  } else {
+    text(body, "h3", eventName || show.artist_name || titleFallback, "show-card-title");
+    text(body, "p", location || "City and venue details are shown only when verified by the source.", "show-card-sub muted");
+  }
+  if (!dateBadge) {
+    const date = formatShowDate(show.dateTimeISO);
+    if (date) text(body, "p", date, "card-status");
+  }
 
   if (options.reviewGated) {
-    text(article, "p", "Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.", "disclosure-note");
+    text(body, "p", "Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.", "disclosure-note");
   } else if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
     const showId = String(show.id || "").trim();
@@ -1527,6 +1573,16 @@ function renderShowCard(show, options = {}) {
     const tmAvailable = Boolean(ticketmasterUrl && showId && eventLinkPublishable(show));
     const sgAvailable = Boolean(showId && seatGeekOutAvailable(show, options));
     const vsAvailable = Boolean(showId && vividSeatsOutAvailable(show, options));
+
+    // One compact price block per card: the approved side-by-side comparison
+    // when both fresh lanes exist, otherwise the single approved provider
+    // snapshot for an available CTA.
+    const priceBlock =
+      renderProviderPriceComparison(show) ||
+      (sgAvailable ? renderSeatGeekPriceSnapshot(show) : null) ||
+      (vsAvailable ? renderVividSeatsPriceSnapshot(show) : null);
+    if (priceBlock) body.append(priceBlock);
+
     if (tmAvailable || sgAvailable || vsAvailable) {
       // Provider price, fee, availability and affiliate disclosure lives once
       // in the show-board/trust copy instead of repeating on every card.
@@ -1551,24 +1607,19 @@ function renderShowCard(show, options = {}) {
         const ctaGroup = document.createElement("div");
         ctaGroup.className = "cta-group";
         ctaGroup.append(...buttons);
-        article.append(ctaGroup);
+        body.append(ctaGroup);
       } else {
-        article.append(buttons[0]);
-      }
-      if (sgAvailable) {
-        const priceSnapshot = renderSeatGeekPriceSnapshot(show);
-        if (priceSnapshot) article.append(priceSnapshot);
-      }
-      if (vsAvailable) {
-        const priceSnapshot = renderVividSeatsPriceSnapshot(show);
-        if (priceSnapshot) article.append(priceSnapshot);
+        body.append(buttons[0]);
       }
     } else {
-      text(article, "p", "No verified ticket link is available for this date.", "disclosure-note");
+      text(body, "p", "No verified ticket link is available for this date.", "disclosure-note");
     }
   } else if (show.artist_slug) {
-    article.append(link("Open artist page", `/artists/${slugify(show.artist_slug)}`, "text-link"));
+    body.append(link("Open artist page", `/artists/${slugify(show.artist_slug)}`, "text-link"));
   }
+
+  const copyAction = renderCopyShowLinkAction(article);
+  if (copyAction) body.append(copyAction);
   return article;
 }
 
@@ -1973,7 +2024,11 @@ async function hydrateShowBoard(section, filters = {}) {
       showEventCta: Boolean(filters.showEventCta) && !filters.reviewGated,
       reviewGated: Boolean(filters.reviewGated),
       seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek),
-      vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats)
+      vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats),
+      // Artist boards lead each card with city · venue; the artist name is
+      // already the page heading.
+      locationTitle: Boolean(filters.artistSlug),
+      artistName: String(filters.artistName || "")
     };
     if (filters.filterable) {
       setupShowBoardFilters(section, grid, shows, cardOptions);

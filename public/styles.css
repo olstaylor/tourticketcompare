@@ -1045,6 +1045,215 @@ summary {
   font-size: 0.93rem;
 }
 
+/* Compact show cards — artist show boards and hydrated price cards.
+   One scannable row per date: date badge, city · venue, approved price
+   snapshot chips when fresh, then compact provider CTAs. */
+
+.show-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 14px 16px;
+  padding: 16px 18px;
+  box-shadow: none;
+}
+
+.artist-page .show-card-grid {
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.show-card:target {
+  border-color: var(--green);
+  box-shadow: 0 0 0 2px var(--green-soft);
+}
+
+.show-date-badge {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 2px;
+  min-width: 66px;
+  padding: 8px 6px;
+  border: 1px solid color-mix(in oklab, var(--green) 18%, transparent);
+  border-radius: var(--radius-md);
+  color: var(--green);
+  background: var(--green-soft);
+}
+
+.show-date-weekday {
+  font-size: 0.68rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.show-date-day {
+  font-size: 1.45rem;
+  font-weight: 950;
+  line-height: 1.05;
+}
+
+.show-date-monthyear {
+  font-size: 0.72rem;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.show-card-body {
+  flex: 1 1 240px;
+  min-width: 0;
+  display: grid;
+  gap: 10px;
+  justify-items: start;
+}
+
+.show-card h3 {
+  font-size: 1.08rem;
+  line-height: 1.3;
+}
+
+.show-card .show-card-sub {
+  margin: -4px 0 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.show-card .cta-group {
+  width: 100%;
+  gap: 8px;
+}
+
+.show-card .cta-group .button {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.show-card .button {
+  min-height: 44px;
+  padding: 8px 20px;
+  font-size: 0.92rem;
+  font-weight: 850;
+}
+
+.show-card .copy-show-link {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--muted);
+}
+
+.show-card .copy-show-link:hover,
+.show-card .copy-show-link:focus-visible {
+  color: var(--accent-dark);
+}
+
+.show-card .disclosure-note {
+  font-size: 0.8rem;
+}
+
+/* Approved provider price snapshots — compact attributed chips */
+
+.price-snapshot-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.price-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: #fff;
+}
+
+.price-chip-provider {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 950;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.price-chip-amount {
+  font-size: 1.02rem;
+  font-weight: 950;
+  letter-spacing: -0.01em;
+}
+
+.price-chip-lower {
+  border-color: color-mix(in oklab, var(--green) 32%, transparent);
+  background: var(--green-soft);
+  color: var(--green);
+}
+
+.price-chip-lower .price-chip-provider {
+  color: var(--green);
+}
+
+.price-compare-note {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--green);
+  font-size: 0.88rem;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.price-snapshot-row .disclosure-note {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 0.78rem;
+}
+
+/* Calmer artist-page rhythm: lighter section furniture so the date list
+   is what draws the eye. */
+
+.show-filter-intro h3 {
+  font-size: 1.05rem;
+}
+
+.show-filter-intro p {
+  margin: 4px 0 0;
+  font-size: 0.92rem;
+}
+
+.artist-page .section-intro h2,
+.artist-page .provider-panel h2,
+.artist-page .nested-panel h2,
+.artist-page .split-section h2 {
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+}
+
+.artist-page .nested-panel {
+  gap: 12px;
+  padding: 22px 24px;
+}
+
+.artist-page .provider-card {
+  gap: 10px;
+  padding: 20px 22px;
+}
+
+.artist-page .provider-card .button {
+  min-height: 46px;
+  padding: 10px 22px;
+}
+
+@media (max-width: 620px) {
+  .show-card {
+    padding: 14px;
+  }
+
+  .show-date-badge {
+    min-width: 58px;
+  }
+}
+
 @media (max-width: 390px) {
   .page-shell {
     width: min(100% - 16px, 1180px);

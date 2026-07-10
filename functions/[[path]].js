@@ -932,6 +932,23 @@ function showLocationServer(show) {
   return [show.city, show.venue].filter((v) => String(v || "").trim()).join(" · ");
 }
 
+// Date badge parts for the compact show card. Keep in sync with
+// showDateParts in public/app.js.
+function showDatePartsServer(iso) {
+  if (!iso) return null;
+  const parsed = new Date(iso);
+  if (!Number.isFinite(parsed.getTime())) return null;
+  try {
+    return {
+      weekday: parsed.toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" }),
+      day: parsed.toLocaleDateString("en-US", { day: "numeric", timeZone: "UTC" }),
+      monthYear: parsed.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" })
+    };
+  } catch (error) {
+    return null;
+  }
+}
+
 // Explicit event-link publishability. CTAs may render only for events whose
 // verification_status is an allowed publish state ("human_verified" or
 // "machine_high_confidence"); "needs_recheck" suppresses CTAs even when a
@@ -1045,8 +1062,8 @@ function isVividSeatsConfigured(env = {}) {
   return Boolean(impactVividSeatsBaseTrackingUrl || (impactVividSeatsAccountSid && impactVividSeatsAuthToken && impactVividSeatsProgramId));
 }
 
-function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false) {
-  const date = formatShowDateServer(show.dateTimeISO);
+function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "") {
+  const dateParts = showDatePartsServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const anchorId = showAnchorId(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
@@ -1078,8 +1095,23 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const copyLinkHtml = anchorId
     ? `<a class="text-link copy-show-link" href="#${escapeAttr(anchorId)}" data-copy-show-link="${escapeAttr(anchorId)}">Copy link to this date</a>`
     : "";
+  // Compact card: date badge, then city · venue as the heading (the artist
+  // name is already the page heading). The event name renders as a sub-line
+  // only when it adds information beyond the artist name. Keep in sync with
+  // renderShowCard in public/app.js.
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
-  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || titleFallback)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${copyLinkHtml}${ctaHtml}</article>`;
+  const eventName = String(show.event_name || "").trim();
+  const title = location || eventName || titleFallback;
+  const subHtml =
+    location && eventName && eventName.toLowerCase() !== String(artistName || "").trim().toLowerCase()
+      ? `<p class="show-card-sub muted">${escapeHtml(eventName)}</p>`
+      : location
+        ? ""
+        : `<p class="show-card-sub muted">City and venue details are shown only when verified by the source.</p>`;
+  const badgeHtml = dateParts
+    ? `<div class="show-date-badge"><span class="show-date-weekday">${escapeHtml(dateParts.weekday)}</span><span class="show-date-day">${escapeHtml(dateParts.day)}</span><span class="show-date-monthyear">${escapeHtml(dateParts.monthYear)}</span></div>`
+    : "";
+  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${subHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
 }
 
 function renderShowBoardEmptyStateHtml(artistName = "") {
@@ -1093,7 +1125,7 @@ function renderShowBoardEmptyStateHtml(artistName = "") {
 
 function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false) {
   const gridContent = shows.length
-    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable)).join("")
+    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName)).join("")
     : renderShowBoardEmptyStateHtml(artistName);
   const filterIntro = shows.length > 1
     ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Filter by city, country, venue, or tour, then open the checked event link that matches your plans.</p></div>`

@@ -88,9 +88,10 @@ Event-level buttons must additionally have a verified event record (`events.json
 ## Price Data
 
 - Ticketmaster should not be used as a public price source unless the Discovery API supplies approved, displayable pricing for the specific event.
-- SeatGeek may supply a SeatGeek-only, provider-attributed latest price snapshot only when written SeatGeek display permission has been confirmed, the data is sourced from the approved SeatGeek partner API only, `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, the price is timestamped, and stale rows are hidden.
-- Vivid Seats and other marketplace partners may only supply prices if their approved feed/API explicitly permits public display with usage rights confirmed.
-- Price data must be timestamped and attributed to the provider.
+- SeatGeek may supply a provider-attributed snapshot only from the approved SeatGeek partner API when `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, and the snapshot is timestamped and fresh.
+- Vivid Seats may supply a provider-attributed snapshot only from its approved feed when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, the cached row has `source='vividseats_approved_feed'`, and the snapshot is timestamped and fresh.
+- Written agreements confirmed on 2026-07-10 permit SeatGeek and Vivid Seats snapshots to be displayed side by side for the same verified event, including lower-listed-price and difference calculations plus history.
+- Price data must be timestamped, attributed to the provider, tied to the exact event, and clearly distinguished from final checkout totals.
 
 ---
 
@@ -98,7 +99,7 @@ Event-level buttons must additionally have a verified event record (`events.json
 
 - Guide content should answer practical, search-intent questions fans have before buying tickets.
 - Guides may reference general market behaviour (e.g., "service fees typically add 20–30% to face value") if that is factual and widely documented.
-- Guides must not claim price comparisons, guaranteed savings, or live market data unless that data is actually available and displayed.
+- Guides may explain the approved SeatGeek/Vivid Seats comparison feature, but must not claim guaranteed savings, final checkout totals, availability, or data that is not actually displayed.
 
 ---
 

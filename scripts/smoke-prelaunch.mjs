@@ -42,7 +42,7 @@ Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
   ["/artists", "Ticket buttons appear only when the destination has been checked"],
   ["/guides", "Compare the final checkout total after fees"],
-  ["/compare-concert-ticket-prices", "We do not rank providers by live price"],
+  ["/compare-concert-ticket-prices", "We compare approved, timestamped provider snapshots for the same event only"],
   ["/how-it-works", "Affiliate links are handled safely"],
   ["/editorial-policy", "official artist, ticketing, and approved affiliate sources"],
   ["/affiliate-disclosure", "Affiliate relationships do not control which links we show"],
@@ -1002,6 +1002,10 @@ assert(appJs.includes("source !== \"vividseats_approved_feed\""), "hydrated Vivi
 assert(appJs.includes("isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt)"), "hydrated Vivid Seats price snapshots should require ISO timestamps before checking freshness");
 assert(appJs.includes("renderVividSeatsPriceSnapshot(show)"), "hydration should append Vivid Seats snapshots only through the approved render helper");
 assert(appJs.includes("Vivid Seats price snapshot as of"), "hydration should include provider-attributed Vivid Seats snapshot copy");
+assert(appJs.includes("function approvedProviderPriceComparison(show)"), "hydration should compare only approved SeatGeek and Vivid Seats lanes");
+assert(appJs.includes("has the lower listed price snapshot by"), "hydration should label a permitted lower-snapshot difference precisely");
+assert(appJs.includes('priceProviders: "approved-marketplaces"'), "comparison hydration should request only approved marketplace price lanes");
+assert(appJs.includes("function hydrateComparisonHubPriceSnapshots()"), "comparison hub should hydrate its exact-event price cards");
 assert(appJs.includes("!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)"), "current-card hydration should accept either an approved SeatGeek lane or an approved Vivid Seats lane");
 assert(appJs.includes("new URLSearchParams({ showId: String(show.id), includePrices: \"true\" })"), "hydration should request prices only for the currently viewed individual show");
 assert(!appJs.includes("includePrices: String"), "hydration should not add includePrices to bulk artist show-list requests");

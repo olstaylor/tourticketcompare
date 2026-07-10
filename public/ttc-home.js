@@ -9,7 +9,7 @@
    - A ticket button renders ONLY for a verified, publicly-enabled destination whose
      provider is also public_enabled. Disabled providers never surface as buttons.
    - No invented dates/venues: every date is read from events-index.json.
-   - No live prices, no "cheapest"/price-comparison claims anywhere.
+   - Provider comparisons render only from fresh, approved SeatGeek and Vivid Seats snapshots for the same verified event.
 */
 (function () {
   "use strict";
@@ -264,7 +264,7 @@
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Verified ticket options for <em>major tours.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["Human-checked links to official ticket pages, clear official-vs-resale guidance, and the checks to run before you pay. We don’t sell tickets or rank providers by live price."]),
+      h("p", { class: "ttc-hero__sub" }, ["Human-checked ticket links, clear official-vs-resale guidance, and fresh approved SeatGeek and Vivid Seats snapshots for the same event where both are available. We don’t sell tickets; confirm the final checkout total before you pay."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug }, [artist.name]))])
@@ -320,7 +320,7 @@
     ];
     return h("section", { class: "ttc-sec" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["What this tool actually does"]), h("p", { class: "ttc-sec__desc" }, ["No marketplace, no checkout, no unverified price comparison. Three jobs, done transparently."])]),
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["What this tool actually does"]), h("p", { class: "ttc-sec__desc" }, ["No marketplace, no checkout, no invented prices. We compare only fresh, approved provider snapshots for the same verified event."])]),
         h("a", { class: "ttc-sec__link", href: "/how-it-works" }, ["How it works ", svg("arrow")])
       ]),
       h("div", { class: "ttc-vp" }, vp.map((v, i) => h("div", { class: "ttc-vpcard" }, [

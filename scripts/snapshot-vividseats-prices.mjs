@@ -99,7 +99,7 @@ function selectEligibleEvents(events, artistsBySlug, options) {
     if (!productionId) { skipped.push({ event_id: localId, reason: "invalid_or_missing_vividseats_url" }); continue; }
     if (!artistName || artistName.includes("'")) { skipped.push({ event_id: localId, reason: "unusable_exact_artist_name" }); continue; }
     selected.push({ event, localId, artistName, productionId });
-    if (options.limit && selected.length >= options.limit) break;
+    if (options.limit != null && selected.length >= options.limit) break;
   }
   return { selected, skipped };
 }

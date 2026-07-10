@@ -1669,4 +1669,3 @@ export async function onRequest(context) {
   applySecurityHeaders(headers);
   return new Response(injected, { status: 200, headers });
 }
-

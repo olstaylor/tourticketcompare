@@ -1754,6 +1754,15 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
     history.replaceState(history.state, "", `${url.pathname}${url.search}${url.hash}`);
   };
 
+  let priceHydrationTimer = null;
+  const schedulePriceHydration = (visibleShows) => {
+    if (cardOptions.reviewGated) return;
+    if (priceHydrationTimer) window.clearTimeout(priceHydrationTimer);
+    priceHydrationTimer = window.setTimeout(() => {
+      hydrateShowBoardPriceSnapshots(visibleShows, cardOptions);
+    }, 250);
+  };
+
   const apply = () => {
     updateUrl();
     const terms = state.query.toLowerCase().split(/\s+/).filter(Boolean);
@@ -1778,6 +1787,7 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
       return;
     }
     grid.replaceChildren(...visible.map((show) => renderShowCard(show, cardOptions)));
+    schedulePriceHydration(visible);
   };
 
   function resetFilters() {
@@ -1850,7 +1860,11 @@ async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
   const show = shows.find((candidate) => showAnchorId(candidate) === hash);
   if (!show?.id || (!seatGeekOutAvailable(show, cardOptions) && !vividSeatsOutAvailable(show, cardOptions))) return;
   try {
-    const params = new URLSearchParams({ showId: String(show.id), includePrices: "true" });
+    const params = new URLSearchParams({
+      showId: String(show.id),
+      includePrices: "true",
+      priceProviders: "approved-marketplaces"
+    });
     const response = await fetch(`/api/shows?${params.toString()}`, { headers: { Accept: "application/json" } });
     if (!response.ok) return;
     const data = await response.json();
@@ -1866,6 +1880,44 @@ async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
   } catch (error) {
     // Price snapshots are optional progressive enhancement; keep the verified CTA card unchanged.
   }
+}
+
+async function hydrateShowBoardPriceSnapshots(shows, cardOptions) {
+  const candidates = shows
+    .filter((show) => {
+      if (!show?.id) return false;
+      return seatGeekOutAvailable(show, cardOptions) || vividSeatsOutAvailable(show, cardOptions);
+    })
+    .slice(0, 6);
+
+  await Promise.all(candidates.map(async (show) => {
+    const anchorId = showAnchorId(show);
+    if (!anchorId) return;
+
+    try {
+      const params = new URLSearchParams({
+        showId: String(show.id),
+        includePrices: "true",
+        priceProviders: "approved-marketplaces"
+      });
+      const response = await fetch(`/api/shows?${params.toString()}`, { headers: { Accept: "application/json" } });
+      if (!response.ok) return;
+      const data = await response.json();
+      const pricedShow = safeShowList(data).find((candidate) => String(candidate?.id || "") === String(show.id));
+      if (!pricedShow) return;
+      if (!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)) return;
+
+      const currentCard = document.getElementById(anchorId);
+      if (!currentCard) return;
+      currentCard.replaceWith(renderShowCard(pricedShow, {
+        ...cardOptions,
+        seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek),
+        vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats)
+      }));
+    } catch (error) {
+      // Retain the verified CTA-only card when optional price hydration fails.
+    }
+  }));
 }
 
 async function hydrateComparisonHubPriceSnapshots() {

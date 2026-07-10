@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-07-10 (event-level Vivid Seats activation and capability-doc refresh; 218 verified event destinations are live, artist-level Vivid remains unsupported, and the sync cron is still disabled pending owner enablement.)
+Last updated: 2026-07-10 (SeatGeek and Vivid Seats written display/comparison rights confirmed; the approved exact-event comparison rollout is enabled in the repository pending production environment verification.)
 
 ## Active priorities (in order)
 
@@ -10,7 +10,7 @@ All remaining active work is **operational** (owner + gated tooling), not engine
 
 1. **Post-deploy verification:** confirm `/api/out?artistSlug=<slug>&provider=ticketmaster` 302s plain and `provider=seatgeek` 302s to the Impact tracking URL; confirm no `utt.impactcdn.com` requests in devtools; browser-verify the 7 swapped plain Ticketmaster artist URLs and 16 SeatGeek performer-page URLs if not already done (lists in `data/provider-identities.json`).
 2. **Delete the unused `IMPACT_TICKETMASTER_*` secrets** in the Cloudflare dashboard (keep `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN`).
-3. **Vivid Seats operational follow-up (2026-07-10):** event-level activation is complete: PR #370 merged 218 verified `/production/<numeric id>` destinations and production CTAs are live. Three owner browser spot-checks succeeded. Remaining owner step: enable and monitor the commented `cron: '30 5 * * *'` schedule after reviewing the latest sync log. Artist-level Vivid Seats entries remain separate, unscoped work; price display remains default-off.
+3. **Vivid Seats operational follow-up (2026-07-10):** event-level activation is complete: PR #370 merged 218 verified `/production/<numeric id>` destinations and production CTAs are live. Three owner browser spot-checks succeeded. Written SeatGeek/Vivid rights now permit side-by-side snapshots, lower-price and difference calculations, and history for the same verified event. Remaining owner step: verify the Cloudflare production flags and fresh approved D1 rows, then enable and monitor the commented `cron: '30 5 * * *'` schedule after reviewing the latest sync log. Artist-level Vivid Seats entries remain separate scope.
 4. When the first SeatGeek-first events publish without Ticketmaster URLs, relax `validate-cta-provider-state.mjs` hard error #3 to "publishable ⇒ ≥1 resolvable provider URL" **in that same PR**.
 
 ### 2. Roster growth (2026/27 tours)
@@ -50,7 +50,7 @@ Intentionally not work until separately scoped and owner-approved. Unparking rem
 
 - **Tour / city / venue / event landing pages.** No verified data, no canonical/indexing strategy.
 - **Live price aggregation; "cheapest ticket" / "guaranteed availability" claims.** Requires approved provider feeds with explicit usage rights.
-- **Provider price display.** SeatGeek snapshots are collected to D1 on cron; Vivid Seats has a manual approved-feed ingestion and gated rendering lane. Both display flags remain default-off and require separate written provider permission. Cross-provider comparison remains parked.
+- **Provider expansion beyond SeatGeek and Vivid Seats.** Their approved exact-event comparison lane is active under the documented source, freshness, and attribution gates. Adding any further provider still requires a separate verified feed, explicit written usage rights, and scoped integration work.
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
 - **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.
 - **Internal Impact Publisher Tag diagnostic route (`/internal/impact-tag-test`) and `functions/api/debug-seatgeek.js`** — leave intact.

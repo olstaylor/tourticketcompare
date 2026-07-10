@@ -50,4 +50,3 @@ Hard rules: [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md). Reference docs
 - GitHub `main` is the source of truth; unknown routes 404 rather than generating thin pages.
 
 See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) for the full rules.
-

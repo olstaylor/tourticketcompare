@@ -20,7 +20,7 @@ Run `npm run artists:onboard:propose` with target artist names (US/EU major tour
 ### 3. Routine data hygiene (recurring)
 
 - **`needs_recheck` re-checks:** 42 events carry this state. Independently verified resale provenance keeps 9 SeatGeek and 6 Vivid Seats CTAs publishable; 27 rows have neither provider and remain fully CTA-suppressed. Re-check Ticketmaster storefront URLs periodically; never restore from the Discovery `url` field alone.
-- **Duplicate event rows (found 2026-07-08, agent — owner decision needed):** 10 Ariana Grande pairs remain duplicate rows of the same show (one legacy hex-id `human_verified` row + one Discovery-id `machine_high_confidence` row per show). Deletions are human-gated: pick the row to keep per pair (details in `PROJECT_STATUS.md` → Active risks). The earlier Bruno Mars wrong-night URL share was corrected by the SeatGeek sync; row dedup does not self-heal.
+- **Duplicate event rows — resolved 2026-07-10 (owner-approved dedup, agent-executed):** the 10 Ariana Grande legacy `human_verified` rows were deleted, keeping the automation-maintained Discovery-id row of each pair (identical canonical TM URL within each pair; no CTA or unique data lost — see `PROJECT_STATUS.md` → Active risks).
 - **JAY-Z Inglewood "JAY-Z30":** the one open title item — a standalone anniversary show with no official tour name; needs an owner label (the Yankee Stadium rows use "JAY-Z Yankee Stadium 2026").
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 

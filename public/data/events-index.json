@@ -912,18 +912,6 @@
     "status": "announced"
   },
   {
-    "id": "tm-ariana-grande-2026-atlanta-0e00631a8e691e65",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States",
-    "city": "Atlanta",
-    "venue": "State Farm Arena",
-    "datetime_iso": "2026-07-06T20:00:00",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
     "id": "tm-ariana-grande-2026-atlanta-0e00631a8f331ed1",
     "artist_slug": "ariana-grande",
     "artist_name": "Ariana Grande",
@@ -931,18 +919,6 @@
     "city": "Atlanta",
     "venue": "State Farm Arena",
     "datetime_iso": "2026-07-08T20:00:00",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
-    "id": "tm-ariana-grande-2026-atlanta-0e006325bea26298",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States",
-    "city": "Atlanta",
-    "venue": "State Farm Arena",
-    "datetime_iso": "2026-07-09T20:00:00",
     "timezone": "America/New_York",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced"
@@ -960,30 +936,6 @@
     "status": "announced"
   },
   {
-    "id": "tm-ariana-grande-2026-brooklyn-30006319f34a4abb",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States",
-    "city": "Brooklyn",
-    "venue": "Barclays Center",
-    "datetime_iso": "2026-07-13T20:00:00",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
-    "id": "tm-ariana-grande-2026-brooklyn-30006319f41b4abf",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States",
-    "city": "Brooklyn",
-    "venue": "Barclays Center",
-    "datetime_iso": "2026-07-16T20:00:00",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f49f4acd",
     "artist_slug": "ariana-grande",
     "artist_name": "Ariana Grande",
@@ -991,18 +943,6 @@
     "city": "Brooklyn",
     "venue": "Barclays Center",
     "datetime_iso": "2026-07-18T20:00:00",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
-    "id": "tm-ariana-grande-2026-brooklyn-30006325205054e3",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States",
-    "city": "Brooklyn",
-    "venue": "Barclays Center",
-    "datetime_iso": "2026-07-19T20:00:00",
     "timezone": "America/New_York",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced"
@@ -1032,30 +972,6 @@
     "status": "announced"
   },
   {
-    "id": "tm-ariana-grande-2026-boston-010063289ef611c4",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States",
-    "city": "Boston",
-    "venue": "TD Garden",
-    "datetime_iso": "2026-07-25T20:00:00",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
-    "id": "tm-ariana-grande-2026-montreal-31006319ddb22b1f",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "Canada",
-    "city": "Montreal",
-    "venue": "Centre Bell",
-    "datetime_iso": "2026-07-28T20:00:00",
-    "timezone": "America/Toronto",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
     "id": "tm-ariana-grande-2026-montreal-31006319de3a2b37",
     "artist_slug": "ariana-grande",
     "artist_name": "Ariana Grande",
@@ -1068,30 +984,6 @@
     "status": "announced"
   },
   {
-    "id": "tm-ariana-grande-2026-montreal-31006319dedc2b4c",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "Canada",
-    "city": "Montreal",
-    "venue": "Centre Bell",
-    "datetime_iso": "2026-07-31T20:00:00",
-    "timezone": "America/Toronto",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
-    "id": "tm-ariana-grande-2026-chicago-04006319ddea2cd5",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States",
-    "city": "Chicago",
-    "venue": "United Center",
-    "datetime_iso": "2026-08-04T02:00:00Z",
-    "timezone": "America/Chicago",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
     "id": "tm-ariana-grande-2026-chicago-0400631adf313481",
     "artist_slug": "ariana-grande",
     "artist_name": "Ariana Grande",
@@ -1099,18 +991,6 @@
     "city": "Chicago",
     "venue": "United Center",
     "datetime_iso": "2026-08-05T20:00:00",
-    "timezone": "America/Chicago",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "announced"
-  },
-  {
-    "id": "tm-ariana-grande-2026-chicago-04006325ad9f24a7",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States",
-    "city": "Chicago",
-    "venue": "United Center",
-    "datetime_iso": "2026-08-06T20:00:00",
     "timezone": "America/Chicago",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced"

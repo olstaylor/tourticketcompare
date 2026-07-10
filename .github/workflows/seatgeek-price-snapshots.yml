@@ -16,7 +16,8 @@ name: SeatGeek price snapshots
 
 on:
   schedule:
-    - cron: '17 */12 * * *'
+    # Six-hour snapshots must refresh more frequently than they expire.
+    - cron: '17 */4 * * *'
   workflow_dispatch:
     inputs:
       apply:
@@ -80,6 +81,7 @@ jobs:
           fi
 
       - name: Run SeatGeek price snapshot dry-run
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.apply != 'true'
         env:
           SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
           SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}

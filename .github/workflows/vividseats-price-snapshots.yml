@@ -78,7 +78,7 @@ jobs:
         if: steps.configured.outputs.configured == 'true'
         env:
           VIVIDSEATS_PRICE_FEED_URL: ${{ secrets.VIVIDSEATS_PRICE_FEED_URL }}
-          VIVIDSEATS_PRICE_FEED_TOKEN: ${{ secrets.VIVSEATS_PRICE_FEED_TOKEN }}
+          VIVIDSEATS_PRICE_FEED_TOKEN: ${{ secrets.VIVIDSEATS_PRICE_FEED_TOKEN }}
         run: |
           set -euo pipefail
           args=()
@@ -90,7 +90,7 @@ jobs:
         if: steps.configured.outputs.configured == 'true' && (github.event_name == 'schedule' || github.event.inputs.apply == 'true')
         env:
           VIVIDSEATS_PRICE_FEED_URL: ${{ secrets.VIVIDSEATS_PRICE_FEED_URL }}
-          VIVIDSEATS_PRICE_FEED_TOKEN: ${{ secrets.VIVSEATS_PRICE_FEED_TOKEN }}
+          VIVIDSEATS_PRICE_FEED_TOKEN: ${{ secrets.VIVIDSEATS_PRICE_FEED_TOKEN }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |

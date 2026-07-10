@@ -86,4 +86,3 @@ Pages become indexable and conversion-led only after completing the phase gates 
 - No internal or dev wording on public pages at deploy time.
 - No mock prices or mock events in production (`MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false` in Cloudflare dashboard).
 - No `localhost`, `example.com`, `replace-me`, `placeholder`, or `tbd` strings in any live configuration.
-

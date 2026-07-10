@@ -1006,6 +1006,8 @@ assert(appJs.includes("function approvedProviderPriceComparison(show)"), "hydrat
 assert(appJs.includes("has the lower listed price snapshot by"), "hydration should label a permitted lower-snapshot difference precisely");
 assert(appJs.includes('priceProviders: "approved-marketplaces"'), "comparison hydration should request only approved marketplace price lanes");
 assert(appJs.includes("function hydrateComparisonHubPriceSnapshots()"), "comparison hub should hydrate its exact-event price cards");
+assert(appJs.includes("function hydrateShowBoardPriceSnapshots(shows, cardOptions)"), "artist show boards should hydrate approved provider prices across the site");
+assert(appJs.includes("schedulePriceHydration(visible);"), "artist filters should debounce approved provider price hydration");
 assert(appJs.includes("!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)"), "current-card hydration should accept either an approved SeatGeek lane or an approved Vivid Seats lane");
 assert(appJs.includes("new URLSearchParams({ showId: String(show.id), includePrices: \"true\" })"), "hydration should request prices only for the currently viewed individual show");
 assert(!appJs.includes("includePrices: String"), "hydration should not add includePrices to bulk artist show-list requests");

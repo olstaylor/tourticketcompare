@@ -3,13 +3,14 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const publicRoutes = ["/", "/artists", "/guides", "/how-it-works", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
-const functionBackedStaticRoutes = ["/artists", "/guides", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
+const publicRoutes = ["/", "/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
+const functionBackedStaticRoutes = ["/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
   ["/", "Find checked ticket options for major tours"],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
+  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices"],
   ["/how-it-works", "How TourTicketCompare works"],
   ["/about", "About TourTicketCompare"],
   ["/contact", "Contact TourTicketCompare"],
@@ -20,6 +21,7 @@ const expectedTitle = new Map([
   ["/", "Find Verified Ticket Options for Major Tours | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
+  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices Across Trusted Sites | Tour Ticket Compare"],
   ["/how-it-works", "How TourTicketCompare Works"],
   ["/about", "About TourTicketCompare"],
   ["/contact", "Contact TourTicketCompare"],
@@ -40,6 +42,7 @@ Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
   ["/artists", "Ticket buttons appear only when the destination has been checked"],
   ["/guides", "Compare the final checkout total after fees"],
+  ["/compare-concert-ticket-prices", "We do not rank providers by live price"],
   ["/how-it-works", "Affiliate links are handled safely"],
   ["/editorial-policy", "official artist, ticketing, and approved affiliate sources"],
   ["/affiliate-disclosure", "Affiliate relationships do not control which links we show"],
@@ -751,7 +754,7 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   // H1: must match the route-specific expected value
   const h1 = extractH1(text);
   const artist = catalog.artists.find((a) => `/artists/${a.slug}` === pathname);
-  const expected = expectedH1.get(pathname) || `${artist?.name} ticket links and buying guidance`;
+  const expected = expectedH1.get(pathname) || `${artist?.name} tickets and tour dates`;
   assert(h1 === expected, `${pathname} should render route-specific H1 "${expected}", got "${h1}"`);
 
   // Title: must match the route-specific expected value
@@ -799,6 +802,7 @@ const jsonLdRoutes = [
   { pathname: "/", expectTypes: ["Organization", "WebSite"], noTypes: ["BreadcrumbList", "FAQPage", "Article"] },
   { pathname: "/artists", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article"] },
   { pathname: "/guides", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article"] },
+  { pathname: "/compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/how-it-works", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article"] },
   { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article"], noTypes: ["FAQPage", "Event", "Product", "Offer", "AggregateRating"] }
@@ -915,7 +919,8 @@ const expectedMorganSeatGeekCtas = baseTrackingShowsJson.shows.filter((show) => 
 const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/Check SeatGeek/g) || []).length;
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=seatgeek`), "server-rendered SeatGeek CTA should target the controlled show through /api/out");
-assert(serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered SeatGeek CTA should include conservative supporting copy");
+assert(serverMorganWithSeatGeek.text.includes("Provider buttons may include official and resale marketplaces. Providers control prices, fees, availability and delivery; confirm the final total and ticket terms before buying."), "server-rendered show board should include one concise provider-change disclosure");
+assert(!serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per SeatGeek link");
 // CTA inversion: SeatGeek is the primary CTA and renders before the plain
 // (unmonetized) Ticketmaster secondary CTA inside the same cta-group.
 const controlledCardCtaGroup = serverMorganWithSeatGeek.text
@@ -964,6 +969,9 @@ assert(ttcHomeJs.includes('new URLSearchParams(window.location.search).get("q")'
 assert(ttcHomeJs.includes('id: "search-widget"'), "hydrated homepage should preserve the #search-widget anchor target");
 assert(ttcHomeJs.includes('homepageSearch.setQuery(query, { open: true, focus: window.location.hash === "#search-widget" })'), "homepage q hydration should prefill and open the large search panel");
 assert(ttcHomeJs.includes('searchWidget.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage q hydration should scroll to the preserved search-widget anchor when requested");
+assert(ttcHomeJs.includes("Approved snapshots are provider-attributed and timestamped."), "homepage should describe gated provider-attributed snapshots accurately");
+assert(!ttcHomeJs.includes("never show live prices"), "homepage should not make an absolute no-price claim that contradicts approved snapshot support");
+assert(!ttcHomeJs.includes("No live prices, ever"), "homepage trust copy should not contradict approved snapshot support");
 
 const appJs = await read("public/app.js");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
@@ -980,7 +988,10 @@ assert(seatGeekGateFunction[0].includes('if (!providerEventPublishable(show, "se
 assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;"), "SeatGeek CTA gate should require both the provider flag and a valid stored SeatGeek event URL");
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
 assert(appJs.includes("Check SeatGeek"), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
-assert(appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should preserve the safe SeatGeek supporting copy");
+assert(appJs.includes("Provider buttons may include official and resale marketplaces. Providers control prices, fees, availability and delivery; confirm the final total and ticket terms before buying."), "hydration should preserve the concise show-board provider disclosure");
+assert(!appJs.includes("Event last checked:"), "hydration should rely on the consolidated verification panel instead of repeating check dates on every show card");
+assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
+assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
 assert(appJs.includes("SeatGeek price snapshot as of"), "hydration should include provider-attributed SeatGeek snapshot copy");
 assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
 assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price snapshot should hide expired data");
@@ -1012,12 +1023,16 @@ const TM_RECHECK_HIDDEN_COPY = "Ticketmaster link temporarily hidden while";
 //    silently no-op'd in tests while hiding ~256/272 CTAs in production. Guard at
 //    the source so the pattern cannot return unnoticed.
 const pathSource = await read("functions/[[path]].js");
-const conditionalPriceSnapshotCopy = "When provider-approved, timestamped price snapshots are available";
+const conciseTicketLinkCopy = "We verify ticket destinations before they appear. Providers set prices, fees, availability and delivery terms; some links may earn us a commission.";
 const absoluteNoPriceCopy = "We do not display ticket prices or guarantee availability";
-assert(pathSource.includes(conditionalPriceSnapshotCopy), "server-rendered trust copy should describe provider-approved price snapshots conditionally");
-assert(appJs.includes(conditionalPriceSnapshotCopy), "hydrated trust copy should mirror the conditional provider-approved price snapshot wording");
+assert(pathSource.includes(conciseTicketLinkCopy), "server-rendered trust copy should keep the concise ticket-link and provider-control disclosure");
+assert(appJs.includes(conciseTicketLinkCopy), "hydrated trust copy should mirror the concise ticket-link and provider-control disclosure");
 assert(!pathSource.includes(absoluteNoPriceCopy), "server-rendered trust copy must not say prices are never displayed when approved snapshot flags may be enabled");
 assert(!appJs.includes(absoluteNoPriceCopy), "hydrated trust copy must not say prices are never displayed when approved snapshot flags may be enabled");
+assert(pathSource.includes('providerEventPublishable(ev, "vivid-seats") && safeVividSeatsTicketUrl(ev.vividseats_url)'), "comparison-hub show counts should include independently verified Vivid Seats links");
+assert(pathSource.includes('providerEventPublishable(ev, "seatgeek") && safeSeatGeekTicketUrl(ev.seatgeek_url)'), "comparison-hub show counts should include independently verified SeatGeek links");
+assert(appJs.includes('vividSeatsAvailable = providerEventPublishable(event, "vivid-seats")'), "artist status cards should recognize independently verified Vivid Seats event links");
+assert(appJs.includes('seatGeekAvailable = providerEventPublishable(event, "seatgeek")'), "artist status cards should recognize independently verified SeatGeek event links");
 assert(!(await fileExists("public/data/tm-cta-suppression.json")), "renderer-facing Ticketmaster CTA suppression artifact must not exist; CTA suppression must come from reviewed provider/link fields only");
 for (const [label, src] of [["functions/[[path]].js", pathSource], ["public/app.js", appJs]]) {
   assert(!/tm-cta-suppression/i.test(src), `${label} must not load a transient Ticketmaster CTA suppression artifact`);
@@ -1914,13 +1929,28 @@ const CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL = "https://vividseats.pxf.io/testc
 const vividSeatsEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
   ? { ...event, vividseats_url: CONTROLLED_VIVIDSEATS_URL }
   : event));
-function withVividSeatsEventsFixture(baseEnv) {
+const vividSeatsRecheckEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? {
+      ...event,
+      verification_status: "needs_recheck",
+      vividseats_url: CONTROLLED_VIVIDSEATS_URL,
+      provider_links: {
+        ...(event.provider_links || {}),
+        "vivid-seats": {
+          ...(event.provider_links?.["vivid-seats"] || {}),
+          verified: true,
+          url: CONTROLLED_VIVIDSEATS_URL
+        }
+      }
+    }
+  : event));
+function withVividSeatsEventsFixture(baseEnv, eventsJson = vividSeatsEventsJson) {
   return {
     ...baseEnv,
     ASSETS: {
       async fetch(request) {
         const url = new URL(request.url);
-        if (url.pathname === "/data/events.json") return new Response(vividSeatsEventsJson, { status: 200 });
+        if (url.pathname === "/data/events.json") return new Response(eventsJson, { status: 200 });
         return baseEnv.ASSETS.fetch(request);
       }
     }
@@ -1960,7 +1990,26 @@ assert(vsControlledShow?.provider_ctas?.vividseats === true, "/api/shows should 
 const vsConfiguredPage = await routeResponse("/artists/morgan-wallen", vsConfiguredEnv);
 assert(vsConfiguredPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`), "server-rendered Vivid Seats CTA should target the controlled show through /api/out when configured");
 assert(vsConfiguredPage.text.includes("Check Vivid Seats"), "Vivid Seats should be the primary CTA when SeatGeek is not configured");
-assert(vsConfiguredPage.text.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "server-rendered Vivid Seats CTA should include conservative supporting copy");
+assert(vsConfiguredPage.text.includes("Provider buttons may include official and resale marketplaces. Providers control prices, fees, availability and delivery; confirm the final total and ticket terms before buying."), "server-rendered Vivid Seats CTA page should include the concise show-board provider disclosure");
+assert(!vsConfiguredPage.text.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per Vivid Seats link");
+
+const vsRecheckEnv = withVividSeatsEventsFixture(
+  {
+    ...env,
+    IMPACT_VIVIDSEATS_BASE_TRACKING_URL: CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL
+  },
+  vividSeatsRecheckEventsJson
+);
+const vsRecheckShowsResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen"),
+  env: vsRecheckEnv
+});
+const vsRecheckShowsJson = await vsRecheckShowsResponse.json();
+const vsRecheckShow = vsRecheckShowsJson.shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
+assert(vsRecheckShow?.provider_ctas?.vividseats === true, "needs_recheck event with verified Vivid Seats provenance should remain publishable through /api/shows");
+const vsRecheckPage = await routeResponse("/artists/morgan-wallen", vsRecheckEnv);
+assert(vsRecheckPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=vivid-seats`), "SSR should render a standalone Vivid Seats CTA when its needs_recheck event has verified provider provenance");
+assert(!vsRecheckPage.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "SSR should keep Ticketmaster suppressed for the independently verified Vivid Seats needs_recheck event");
 try {
   globalThis.fetch = async () => {
     throw new Error("Vivid Seats base tracking redirects should not call the Impact API");
@@ -2187,3 +2236,4 @@ assert(beyonceShowBoard.includes('href="/guides/how-to-compare-concert-ticket-pr
 console.log("zero-event empty-state verification passed for beyonce");
 
 console.log("Cloudflare Pages MVP smoke checks passed");
+

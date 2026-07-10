@@ -82,25 +82,19 @@ jobs:
             exit 1
           fi
 
-      # When an apply run follows (schedule or apply=true), keep this dry-run to a
-      # small smoke check: a full dry-run immediately followed by a full apply
-      # doubles the SeatGeek API load and rate-limits the apply pass (HTTP 429).
+      # Manual non-apply dispatch only: apply runs skip this step entirely so the
+      # SeatGeek API is not hit twice per run (a full dry-run immediately before
+      # a full apply rate-limited the apply pass with HTTP 429).
       - name: Run SeatGeek price snapshot dry-run
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.apply != 'true'
         env:
           SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
           SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
-          APPLY_WILL_RUN: ${{ github.event_name == 'schedule' || github.event.inputs.apply == 'true' }}
         run: |
           set -euo pipefail
-          args=()
-          if [ "${APPLY_WILL_RUN}" = "true" ]; then
-            args+=(--limit 5)
-          else
-            args+=(--rematch-proposals reports/seatgeek-price-rematch-proposals.json)
-            if [ -n "${SNAPSHOT_LIMIT}" ]; then
-              args+=(--limit "${SNAPSHOT_LIMIT}")
-            fi
+          args=(--rematch-proposals reports/seatgeek-price-rematch-proposals.json)
+          if [ -n "${SNAPSHOT_LIMIT}" ]; then
+            args+=(--limit "${SNAPSHOT_LIMIT}")
           fi
           if [ -n "${SNAPSHOT_EVENT_ID}" ]; then
             args+=(--event-id "${SNAPSHOT_EVENT_ID}")

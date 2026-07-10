@@ -387,16 +387,12 @@ function artistHasVerifiedEventLinks(events, artistSlug) {
   const slug = slugify(artistSlug);
   return (events || []).some((event) => {
     if (!event || slugify(event.artist_slug) !== slug) return false;
-    if (!eventLinkPublishable(event)) return false;
     const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
     if (!Number.isFinite(ts) || ts < now) return false;
-    const url = String(event.ticketmaster_url || "").trim();
-    if (!/^https:\/\//i.test(url)) return false;
-    try {
-      return new URL(url).hostname.includes(".");
-    } catch (error) {
-      return false;
-    }
+    const ticketmasterAvailable = eventLinkPublishable(event) && Boolean(safeVerifiedEventUrl(event.ticketmaster_url));
+    const seatGeekAvailable = providerEventPublishable(event, "seatgeek") && Boolean(safeSeatGeekEventUrl(event.seatgeek_url));
+    const vividSeatsAvailable = providerEventPublishable(event, "vivid-seats") && Boolean(safeVividSeatsEventUrl(event.vividseats_url));
+    return ticketmasterAvailable || seatGeekAvailable || vividSeatsAvailable;
   });
 }
 
@@ -495,11 +491,11 @@ function renderBreadcrumb(items) {
 }
 
 function artistPageHeading(artist) {
-  return `${artist.name} ticket links and buying guidance`;
+  return `${artist.name} tickets and tour dates`;
 }
 
 function artistPageIntro(artist) {
-  return `Checked ticket links for ${artist.name} dates, plus what to confirm about fees, seats, and resale before you buy.`;
+  return `Find upcoming ${artist.name} shows and open checked provider links for the date you want.`;
 }
 
 function formatVerificationDate(value) {
@@ -517,22 +513,15 @@ function formatVerificationDate(value) {
 function buildVerificationDisclosurePanel(artist, shows = []) {
   const panel = document.createElement("section");
   panel.className = "nested-panel verification-disclosure";
-  text(panel, "h2", "Verification and disclosure");
-  const summary = document.createElement("ul");
-  summary.className = "check-list";
+  text(panel, "h2", "How ticket links work");
   // Single consolidated trust block. Keep in sync with
   // renderVerificationDisclosure in functions/[[path]].js.
-  [
-    "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
-    "We only show ticket destinations that pass our verification checks.",
-    "When provider-approved, timestamped price snapshots are available, we label them by provider and still require users to confirm final totals on the provider site. Availability, fees, and delivery details can change quickly, and we do not guarantee availability.",
-    "Some links may earn us a commission. That never changes which links we show."
-  ].forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    summary.append(li);
-  });
-  panel.append(summary);
+  text(
+    panel,
+    "p",
+    "We verify ticket destinations before they appear. Providers set prices, fees, availability and delivery terms; some links may earn us a commission.",
+    "muted"
+  );
 
   const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
   if (artistVerifiedDate) {
@@ -610,7 +599,6 @@ function renderProviderButtons(artist, surface) {
     card.className = "provider-card";
     text(card, "p", "Artist-level provider page", "eyebrow");
     text(card, "h3", copy.name);
-    text(card, "p", "Use this provider page to check current artist listings, then confirm final price, fees, availability, and delivery terms on the provider site.");
     const params = new URLSearchParams({
       artistSlug: artist.slug,
       provider: providerSlug,
@@ -1465,7 +1453,6 @@ function renderShowCard(show, options = {}) {
   const copyAction = renderCopyShowLinkAction(article);
   if (copyAction) article.append(copyAction);
 
-  const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
   if (options.reviewGated) {
     text(article, "p", "Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.", "disclosure-note");
   } else if (options.showEventCta) {
@@ -1479,12 +1466,8 @@ function renderShowCard(show, options = {}) {
     const sgAvailable = Boolean(showId && seatGeekOutAvailable(show, options));
     const vsAvailable = Boolean(showId && vividSeatsOutAvailable(show, options));
     if (tmAvailable || sgAvailable || vsAvailable) {
-      if (eventVerifiedDate) {
-        text(article, "p", `Event last checked: ${eventVerifiedDate}.`, "disclosure-note");
-      }
-      // The generic provider disclosure lives once in the show-board intro
-      // instead of repeating on every card. The SeatGeek/Vivid Seats notes
-      // stay per-card (smoke-asserted resale caution).
+      // Provider price, fee, availability and affiliate disclosure lives once
+      // in the show-board/trust copy instead of repeating on every card.
       const ctaSpecs = [];
       if (sgAvailable) {
         ctaSpecs.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
@@ -1511,22 +1494,10 @@ function renderShowCard(show, options = {}) {
         article.append(buttons[0]);
       }
       if (sgAvailable) {
-        text(
-          article,
-          "p",
-          "SeatGeek controls prices, fees, availability, and checkout terms for this link.",
-          "disclosure-note"
-        );
         const priceSnapshot = renderSeatGeekPriceSnapshot(show);
         if (priceSnapshot) article.append(priceSnapshot);
       }
       if (vsAvailable) {
-        text(
-          article,
-          "p",
-          "Vivid Seats controls prices, fees, availability, and checkout terms for this link.",
-          "disclosure-note"
-        );
         const priceSnapshot = renderVividSeatsPriceSnapshot(show);
         if (priceSnapshot) article.append(priceSnapshot);
       }
@@ -1954,9 +1925,9 @@ function renderArtist(artist) {
   // Keep this intro in sync with renderShowBoardServerHtml in functions/[[path]].js.
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
-    "Checked ticket options",
-    "Each card shows one checked event date. When an event-specific provider link is verified, use it to check the latest price, fees, availability, and ticket terms on the provider site.",
-    "Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying."
+    "Upcoming shows",
+    "Choose a date, then open the checked provider links to compare current ticket options.",
+    "Provider buttons may include official and resale marketplaces. Providers control prices, fees, availability and delivery; confirm the final total and ticket terms before buying."
   );
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
     try {
@@ -1968,9 +1939,9 @@ function renderArtist(artist) {
   const verificationPanel = buildVerificationDisclosurePanel(artist, serverShows);
   const providerPanel = renderProviderButtons(artist, "artist_page");
   if (serverShows.length) {
-    section.append(verificationPanel, showBoard, providerPanel);
+    section.append(showBoard, providerPanel, verificationPanel);
   } else {
-    section.append(verificationPanel, providerPanel, showBoard);
+    section.append(providerPanel, showBoard, verificationPanel);
   }
 
   const summary = document.createElement("section");

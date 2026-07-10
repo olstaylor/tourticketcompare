@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-07-07 (repo + docs cleanup, owner-approved: dead files and retired tooling deleted, instruction docs consolidated — `CLAUDE.md` is the instruction source of truth, live state lives only in `PROJECT_STATUS.md`. Item 6 — blank `tour_name`/`event_name` on automation-landed events — closed the same day by the hands-off automation changes; see "Recently completed".)
+Last updated: 2026-07-10 (event-level Vivid Seats activation and capability-doc refresh; 218 verified event destinations are live, artist-level Vivid remains unsupported, and the sync cron is still disabled pending owner enablement.)
 
 ## Active priorities (in order)
 
@@ -10,7 +10,7 @@ All remaining active work is **operational** (owner + gated tooling), not engine
 
 1. **Post-deploy verification:** confirm `/api/out?artistSlug=<slug>&provider=ticketmaster` 302s plain and `provider=seatgeek` 302s to the Impact tracking URL; confirm no `utt.impactcdn.com` requests in devtools; browser-verify the 7 swapped plain Ticketmaster artist URLs and 16 SeatGeek performer-page URLs if not already done (lists in `data/provider-identities.json`).
 2. **Delete the unused `IMPACT_TICKETMASTER_*` secrets** in the Cloudflare dashboard (keep `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN`).
-3. **Vivid Seats activation (2026-07-09 update):** the first supervised event-level apply pass has run with Impact credentials present and verified `/production/<numeric id>` event URLs now exist. Remaining owner steps: (a) confirm the `IMPACT_VIVIDSEATS_ACCOUNT_SID`/`IMPACT_VIVIDSEATS_AUTH_TOKEN` plus campaign/program tracking binding are present in both Cloudflare Pages and GitHub Actions secrets; (b) spot-check several rows from `docs/VIVIDSEATS_CTA_SYNC_LOG.md` against the live Vivid Seats page for artist, venue, and local date before merging data; (c) once merged, land a one-line follow-up PR uncommenting the `cron: '30 5 * * *'` schedule. Artist-level Vivid Seats entries remain a separate, still-unscoped follow-up.
+3. **Vivid Seats operational follow-up (2026-07-10):** event-level activation is complete: PR #370 merged 218 verified `/production/<numeric id>` destinations and production CTAs are live. Three owner browser spot-checks succeeded. Remaining owner step: enable and monitor the commented `cron: '30 5 * * *'` schedule after reviewing the latest sync log. Artist-level Vivid Seats entries remain separate, unscoped work; price display remains default-off.
 4. When the first SeatGeek-first events publish without Ticketmaster URLs, relax `validate-cta-provider-state.mjs` hard error #3 to "publishable ⇒ ≥1 resolvable provider URL" **in that same PR**.
 
 ### 2. Roster growth (2026/27 tours)
@@ -19,8 +19,8 @@ Run `npm run artists:onboard:propose` with target artist names (US/EU major tour
 
 ### 3. Routine data hygiene (recurring)
 
-- **`needs_recheck` re-checks:** 41 events are CTA-suppressed (see `PROJECT_STATUS.md` per-artist table) — re-check periodically for working storefront URLs; never restore from the Discovery `url` field alone. _(Fact update 2026-07-08, agent: the SeatGeek half is now automated — the nightly `seatgeek-cta-sync.yml` writes verified SeatGeek provenance so listed events regain a SeatGeek CTA without a Ticketmaster restore. The Ticketmaster-restore half of this item is unchanged and stays human-gated.)_
-- **Duplicate event rows (found 2026-07-08, agent — owner decision needed):** 10 Ariana Grande pairs are duplicate rows of the same show (one legacy hex-id `human_verified` row + one Discovery-id `machine_high_confidence` row per show), plus 1 Bruno Mars Falcon Stadium pair sharing one SeatGeek URL across two nights. Deletions are human-gated: pick the row to keep per pair (details in `PROJECT_STATUS.md` → Active risks). The wrong-night SeatGeek URLs self-heal via the nightly sync; the row dedup does not.
+- **`needs_recheck` re-checks:** 42 events carry this state. Independently verified resale provenance keeps 9 SeatGeek and 6 Vivid Seats CTAs publishable; 27 rows have neither provider and remain fully CTA-suppressed. Re-check Ticketmaster storefront URLs periodically; never restore from the Discovery `url` field alone.
+- **Duplicate event rows (found 2026-07-08, agent — owner decision needed):** 10 Ariana Grande pairs remain duplicate rows of the same show (one legacy hex-id `human_verified` row + one Discovery-id `machine_high_confidence` row per show). Deletions are human-gated: pick the row to keep per pair (details in `PROJECT_STATUS.md` → Active risks). The earlier Bruno Mars wrong-night URL share was corrected by the SeatGeek sync; row dedup does not self-heal.
 - **JAY-Z Inglewood "JAY-Z30":** the one open title item — a standalone anniversary show with no official tour name; needs an owner label (the Yankee Stadium rows use "JAY-Z Yankee Stadium 2026").
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 
@@ -41,7 +41,7 @@ Closed on GitHub / done in the repo; kept as a short audit trail only. Details l
 - **Item 6 — blank `tour_name`/`event_name` on automation-landed events (closed 2026-07-07).** 62/63 blank `tour_name` and all 63 blank `event_name` values backfilled from Ticketmaster Discovery API listing titles (by stored Discovery event id, never URL slugs), cross-checked against official announcements. Process hole closed: discovery now lands `event_name` verbatim from the API; nightly sync keeps it fresh; `tour_name` stays human-gated (#172). Auto-titling was chosen over defaulting rows to `needs_recheck` (owner direction, minimal-input operation).
 - **Hands-off update automation (2026-07-07, owner-approved).** Daily new-show PR auto-merges after its in-run validation suite passes; nightly data-sync cron re-enabled with a per-event commit gate; `event_name` added to the lossless auto-sync field set. Narrow auto-publish exception documented in `SAFE_PUBLISHING_RULES.md`.
 - **SeatGeek event-level enrichment (2026-07-06).** 28 event-level `seatgeek_url` values applied (identity-confirmed via registry performer ids); coverage 262/402. Zero SeatGeek candidates re-confirmed for the 87 uncovered TM-verified events (European/non-US legs — structural gap, not untried).
-- **Affiliate pivot (2026-07-02).** Ticketmaster affiliate machinery removed (plain TM links remain, rendered after affiliate providers); SeatGeek promoted to primary CTA with 16 artist-level performer-page entries; Vivid Seats fully wired but dormant; batch onboarding tooling landed.
+- **Affiliate pivot (2026-07-02, Vivid event lane activated 2026-07-10).** Ticketmaster affiliate machinery removed (plain TM links remain, rendered after affiliate providers); SeatGeek promoted to primary CTA with 16 artist-level performer-page entries; Vivid Seats event-level CTAs activated with 218 verified destinations; batch onboarding tooling landed.
 - **Earlier closeouts:** slugify shared-helper consolidation (2026-06-17); ROSALÍA onboarding (2026-06-17); Summer Walker `tour_name` (2026-06-16); #176 stale-file deletions (2026-06-19, completed by the 2026-07-07 cleanup); #172 tour-name gaps (2026-06-12); #171 Olivia Rodrigo verified links (2026-05-27, PR #190); #175 onboarding runbook + validator (2026-06-01, PR #188).
 
 ## Explicitly parked
@@ -50,7 +50,7 @@ Intentionally not work until separately scoped and owner-approved. Unparking rem
 
 - **Tour / city / venue / event landing pages.** No verified data, no canonical/indexing strategy.
 - **Live price aggregation; "cheapest ticket" / "guaranteed availability" claims.** Requires approved provider feeds with explicit usage rights.
-- **SeatGeek price display.** Snapshots are collected to D1 on cron (intentional), but display requires written SeatGeek permission and `SEATGEEK_PRICE_DISPLAY_ENABLED=true`. Parked until both exist.
+- **Provider price display.** SeatGeek snapshots are collected to D1 on cron; Vivid Seats has a manual approved-feed ingestion and gated rendering lane. Both display flags remain default-off and require separate written provider permission. Cross-provider comparison remains parked.
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
 - **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.
 - **Internal Impact Publisher Tag diagnostic route (`/internal/impact-tag-test`) and `functions/api/debug-seatgeek.js`** — leave intact.

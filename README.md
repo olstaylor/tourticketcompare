@@ -8,11 +8,11 @@ Live at **[tourticketcompare.com](https://tourticketcompare.com)** (www redirect
 
 Helps fans find checked ticket links, understand buying risks, and read practical guidance before leaving for an external ticket provider.
 
-- Verified ticket links where available — SeatGeek (affiliate, primary), Ticketmaster (plain, unmonetized), Vivid Seats (wired, not yet live)
+- Verified ticket links where available — SeatGeek (affiliate, primary), Vivid Seats (affiliate, verified event-level links), Ticketmaster (plain, unmonetized)
 - Practical buying guides (fees, resale risk, timing, provider differences)
 - Artist watchlist pages for major tours
 
-**Not available by design:** live multi-provider price comparison, "cheapest price" or availability claims, public price display (parked pending provider permission).
+**Not currently available:** live multi-provider price comparison, "cheapest price", or availability claims. Provider-specific price snapshots remain disabled by default and require an approved source, explicit display rights, a runtime feature flag, and freshness checks.
 
 ## Tech stack
 
@@ -46,7 +46,7 @@ Hard rules: [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md). Reference docs
 
 - Never invent tours, dates, venues, prices, availability, or ticket inventory.
 - Never scrape ticket providers.
-- Never claim live price comparison; provider price display requires explicit written usage rights (currently parked).
+- Never claim live price comparison. Provider-specific snapshots require explicit written usage rights, an approved source, an enabled runtime flag, and fresh timestamped data.
 - GitHub `main` is the source of truth; unknown routes 404 rather than generating thin pages.
 
 See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) for the full rules.

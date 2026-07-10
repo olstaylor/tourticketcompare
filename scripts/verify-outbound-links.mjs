@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 
 const EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
@@ -16,6 +17,11 @@ const BROWSER_HEADERS = {
 // Even with a browser fingerprint, WAFs frequently return these to CI runners
 // for live pages. Treat them as "blocked" (inconclusive), not a dead link.
 const BLOCKED_STATUSES = new Set([401, 403, 429]);
+
+// A HEAD response is not authoritative for a storefront URL. Some providers
+// return 404/410 to HEAD from CI while the same URL succeeds in a browser GET.
+// Confirm every negative HEAD status with a small GET before classifying it.
+const HEAD_RETRY_STATUSES = new Set([404, 405, 410, 501, ...BLOCKED_STATUSES]);
 
 function asUrl(value) {
   if (typeof value !== 'string') return null;
@@ -49,22 +55,22 @@ function collectLinks(events) {
   return [...found.entries()].map(([url, refs]) => ({ url, refs: [...refs] }));
 }
 
-async function checkUrl(url, timeoutMs) {
+async function checkUrl(url, timeoutMs, fetchImpl = fetch) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
-    let response = await fetch(url, {
+    let response = await fetchImpl(url, {
       method: 'HEAD',
       redirect: 'follow',
       signal: controller.signal,
       headers: BROWSER_HEADERS
     });
 
-    // Some WAFs reject HEAD specifically (405/501) or challenge it (401/403/429);
-    // retry with a ranged GET, which browsers use and WAFs are more likely to allow.
-    if (response.status === 405 || response.status === 501 || BLOCKED_STATUSES.has(response.status)) {
-      response = await fetch(url, {
+    // HEAD is only a cheap first pass. Confirm 404/410 as well as explicit
+    // method/WAF responses with a ranged GET before declaring a link dead.
+    if (HEAD_RETRY_STATUSES.has(response.status)) {
+      response = await fetchImpl(url, {
         method: 'GET',
         redirect: 'follow',
         signal: controller.signal,
@@ -96,6 +102,48 @@ const jsonFlagIndex = argv.indexOf('--json');
 const jsonOutPath = jsonFlagIndex >= 0 ? (argv[jsonFlagIndex + 1] || null) : null;
 const emitJson = jsonFlagIndex >= 0;
 const timeoutMs = Number.parseInt(process.env.LINK_CHECK_TIMEOUT_MS || '12000', 10);
+
+if (args.has('--self-test')) {
+  const sequenceFetch = (statuses, calls) => async (_url, options = {}) => {
+    calls.push(options.method || 'GET');
+    const status = statuses.shift();
+    return new Response(null, { status });
+  };
+
+  const recoveredCalls = [];
+  const recovered = await checkUrl(
+    'https://www.vividseats.com/example/production/123',
+    1000,
+    sequenceFetch([404, 200], recoveredCalls)
+  );
+  assert.equal(recovered.ok, true);
+  assert.equal(recovered.blocked, false);
+  assert.deepEqual(recoveredCalls, ['HEAD', 'GET']);
+
+  const deadCalls = [];
+  const dead = await checkUrl(
+    'https://www.vividseats.com/example/production/456',
+    1000,
+    sequenceFetch([404, 404], deadCalls)
+  );
+  assert.equal(dead.ok, false);
+  assert.equal(dead.blocked, false);
+  assert.equal(dead.status, 404);
+  assert.deepEqual(deadCalls, ['HEAD', 'GET']);
+
+  const blockedCalls = [];
+  const blockedResult = await checkUrl(
+    'https://www.vividseats.com/example/production/789',
+    1000,
+    sequenceFetch([403, 403], blockedCalls)
+  );
+  assert.equal(blockedResult.ok, false);
+  assert.equal(blockedResult.blocked, true);
+  assert.deepEqual(blockedCalls, ['HEAD', 'GET']);
+
+  console.log('verify-outbound-links self-test passed');
+  process.exit(0);
+}
 
 const raw = await fs.readFile(EVENTS_PATH, 'utf8');
 const events = JSON.parse(raw);

@@ -18,9 +18,9 @@ This file provides guidance to Claude Code (claude.ai/code) — and any other AI
 ## Affiliate & Provider Model (2026-07)
 
 - **SeatGeek is the primary, monetized CTA** (Impact network, server-side only), artist-level **and** event-level. Artist-level destinations are performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for registry-verified performer ids — never constructed from names.
-- **Vivid Seats is wired but dormant** (second Impact provider). No CTAs render until the `IMPACT_VIVIDSEATS_*` secrets are set and verified `vividseats.com` destinations exist.
+- **Vivid Seats is live for verified event-level CTAs** (second Impact provider): 218 events have independently verified Vivid Seats provenance. Artist-level Vivid Seats entries are not configured. Runtime Impact configuration and a verified `/production/<numeric id>` destination remain mandatory.
 - **Ticketmaster affiliate access is gone** (site removed from the programme, 2026-07). Ticketmaster links are plain, unmonetized verified redirects, rendered after the affiliate providers. **Never re-add** Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
-- **Price tracking:** SeatGeek price snapshots are **collected** on a 12-hour cron (`seatgeek-price-snapshots.yml` → D1 `provider_pricing_cache`), but price **display is parked** — it requires written SeatGeek permission and `SEATGEEK_PRICE_DISPLAY_ENABLED=true` (currently `false`). Never show prices, "cheapest" claims, or cross-provider comparison. See `docs/PROVIDER_DATA_POLICY.md`.
+- **Price tracking:** SeatGeek snapshots are collected on a 12-hour cron. The client also supports a manually populated, approved-feed Vivid Seats snapshot lane. Both display paths are default-off and require explicit written display rights, an approved source, the provider feature flag, a verified event URL, and fresh timestamped cache data. Cross-provider comparison and "cheapest" claims remain prohibited. See `docs/PROVIDER_DATA_POLICY.md`.
 
 ## Critical Product Rules
 
@@ -95,7 +95,7 @@ All HTML route handling lives in `functions/[[path]].js`; page metadata lives in
 - `DEMAND_DB` (D1) — active; the only binding declared in `wrangler.toml`.
 - `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` — network-level Impact fallback (server-side only).
 - `IMPACT_SEATGEEK_*` — SeatGeek Impact program (server-side only). Active.
-- `IMPACT_VIVIDSEATS_*` — not yet set; Vivid Seats CTAs stay dormant until they are.
+- `IMPACT_VIVIDSEATS_*` — production event-level CTAs are live; confirm runtime state through `/api/health` and redirect tests rather than inferring secret presence from the repository. Artist-level Vivid Seats entries remain absent.
 - `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` — discovery tooling only, not `/api/out`.
 - The old `IMPACT_TICKETMASTER_*` secrets are unused — delete them from the dashboard if still present (owner task, tracked in `BACKLOG.md`).
 
@@ -110,6 +110,7 @@ Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS
 - `tm-new-shows-pr.yml` (04:00 UTC) — new-show discovery PR; auto-merges once its in-run validation suite passes (owner-approved). `tour_name` stays blank for human review.
 - `seatgeek-discovery-proposal.yml` (dispatch) — proposal-only SeatGeek event-URL discovery.
 - `seatgeek-price-snapshots.yml` (every 12 h) — writes SeatGeek price snapshots to D1. Collection only; display stays off.
+- `vividseats-cta-sync.yml` (manual dispatch) — verified event-level Vivid Seats link/provenance sync. Its nightly cron remains commented out pending owner enablement and monitoring.
 - `prelaunch-validation.yml` (PRs) — validation suite incl. the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`.
 - `tm-data-refresh-pr.yml` (dispatch) — manual PR-based refresh of existing events.
 

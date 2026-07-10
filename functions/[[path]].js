@@ -622,11 +622,17 @@ function publishableFutureShows(events, limit = 500) {
       venue: String(ev.venue || "").trim(),
       dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
-      publishable: eventLinkPublishable(ev)
+      seatgeek_url: String(ev.seatgeek_url || "").trim(),
+      vividseats_url: String(ev.vividseats_url || "").trim(),
+      publishable: Boolean(
+        (eventLinkPublishable(ev) && safeShowTicketUrl(ev.ticketmaster_url)) ||
+        (providerEventPublishable(ev, "seatgeek") && safeSeatGeekTicketUrl(ev.seatgeek_url)) ||
+        (providerEventPublishable(ev, "vivid-seats") && safeVividSeatsTicketUrl(ev.vividseats_url))
+      )
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= Date.now())
-    .filter((show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url))
+    .filter((show) => show.publishable)
     .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO))
     .slice(0, limit);
 }
@@ -638,15 +644,14 @@ function artistUpcomingCount(events, artistSlug) {
 function renderComparisonHubArtistCards(catalog, events = []) {
   const artists = (catalog.artists || [])
     .map((artist) => ({ ...artist, upcomingCount: artistUpcomingCount(events, artist.slug) }))
+    .filter((artist) => artist.upcomingCount > 0)
     .sort((a, b) => b.upcomingCount - a.upcomingCount || String(a.name).localeCompare(String(b.name)))
     .slice(0, 12);
   if (!artists.length) return `<p class="muted">Artist pages are being reviewed. Check back for verified ticket links and buying guidance.</p>`;
   return `<div class="artist-card-grid">${artists
     .map((artist) => {
-      const countText = artist.upcomingCount
-        ? `${artist.upcomingCount} upcoming verified ${artist.upcomingCount === 1 ? "event" : "events"}`
-        : "Ticket links and buying guidance";
-      return `<article class="artist-card"><h3>${escapeHtml(artist.name)}</h3><p class="card-status">${escapeHtml(countText)}</p><p class="muted">Compare available ticket options and confirm final prices and fees on the provider site.</p>${anchor("View tickets", `/artists/${artist.slug}`, "button button-primary")}</article>`;
+      const countText = `${artist.upcomingCount} upcoming ${artist.upcomingCount === 1 ? "show" : "shows"}`;
+      return `<article class="artist-card"><h3>${escapeHtml(artist.name)}</h3><p class="card-status">${escapeHtml(countText)}</p>${anchor("View shows", `/artists/${artist.slug}`, "button button-primary")}</article>`;
     })
     .join("")}</div>`;
 }
@@ -846,7 +851,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
         surface
       });
       const verificationNote = providerVerificationNote(item);
-      return `<article class="provider-card"><p class="eyebrow">Artist-level provider page</p><h3>${escapeHtml(displayName)}</h3><p>Use this provider page to check current artist listings, then confirm final price, fees, availability, and delivery terms on the provider site.</p>${anchor(
+      return `<article class="provider-card"><p class="eyebrow">Artist-level provider page</p><h3>${escapeHtml(displayName)}</h3>${anchor(
         label,
         `/api/out?${params.toString()}`,
         "button button-primary"
@@ -872,16 +877,10 @@ function formatVerificationDate(value) {
 function renderVerificationDisclosure(artist, shows = []) {
   // Single consolidated trust block for artist pages. Keep in sync with
   // buildVerificationDisclosurePanel in public/app.js.
-  const lines = [
-    "TourTicketCompare is independent and unofficial. We do not sell or resell tickets.",
-    "We only show ticket destinations that pass our verification checks.",
-    "When provider-approved, timestamped price snapshots are available, we label them by provider and still require users to confirm final totals on the provider site. Availability, fees, and delivery details can change quickly, and we do not guarantee availability.",
-    "Some links may earn us a commission. That never changes which links we show."
-  ];
   const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
   const eventDates = [...new Set(shows.map(show => formatVerificationDate(show.last_verified_at)).filter(Boolean))];
   const eventRange = eventDates.length ? (eventDates.length === 1 ? eventDates[0] : `${eventDates[0]} to ${eventDates[eventDates.length - 1]}`) : null;
-  return `<section class="nested-panel verification-disclosure"><h2>Verification and disclosure</h2><ul class="check-list">${lines.map(line => `<li>${escapeHtml(line)}</li>`).join("")}</ul>${
+  return `<section class="nested-panel verification-disclosure"><h2>How ticket links work</h2><p class="muted">We verify ticket destinations before they appear. Providers set prices, fees, availability and delivery terms; some links may earn us a commission.</p>${
     artistVerifiedDate ? `<p class="disclosure-note">Artist last checked: ${escapeHtml(artistVerifiedDate)}.</p>` : ""
   }${eventRange ? `<p class="disclosure-note">Event links last checked: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
 }
@@ -949,14 +948,15 @@ function eventLinkPublishable(event) {
 }
 
 // Per-provider event publishability. Ticketmaster follows the event-level
-// verification_status above. A SeatGeek event CTA may additionally publish on
-// a needs_recheck event when the SeatGeek link carries its own verified
-// provenance (provider_links.seatgeek.verified === true) — the recheck flag
-// tracks the Ticketmaster storefront URL, not the SeatGeek listing. Keep in
+// verification_status above. SeatGeek and Vivid Seats event CTAs may
+// additionally publish on a needs_recheck event when that provider link carries
+// its own verified provenance — the recheck flag tracks the Ticketmaster
+// storefront URL, not the independently verified marketplace listing. Keep in
 // sync with providerEventPublishable in functions/api/out.js and
 // public/app.js.
 function providerEventPublishable(event, provider) {
   if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
+  if (provider === "vivid-seats" && event?.provider_links?.["vivid-seats"]?.verified === true) return true;
   return eventLinkPublishable(event);
 }
 
@@ -1050,20 +1050,14 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const location = showLocationServer(show);
   const anchorId = showAnchorId(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
-  const eventVerifiedDate = formatVerificationDate(show.last_verified_at);
   let ctaHtml = `<p class="disclosure-note">No verified ticket link is available for this date.</p>`;
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.</p>`;
   } else if (show.id) {
-    // Provider price/fee/availability disclosure lives once in the show-board
-    // intro instead of repeating on every card.
-    // Affiliate providers (SeatGeek, then Vivid Seats) render first as the
-    // primary CTA; the verified Ticketmaster link renders as a plain,
-    // unmonetized CTA last. Any provider renders standalone when the others
-    // are unavailable. The SeatGeek/Vivid Seats notes stay per-card
-    // (smoke-asserted resale caution); the generic provider disclosure lives
-    // in the board intro.
+    // Provider price/fee/availability and affiliate disclosure lives once in
+    // the show-board/trust copy instead of repeating on every card. Affiliate
+    // providers render before the plain, unmonetized Ticketmaster CTA.
     const tmAvailable = Boolean(validUrl && show.publishable);
     const sgAvailable = seatGeekOutAvailable(show, seatGeekAvailable);
     const vsAvailable = vividSeatsOutAvailable(show, vividSeatsAvailable);
@@ -1076,21 +1070,16 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       const buttons = ctas
         .map((cta, index) => anchor(index === 0 ? cta.primaryLabel : cta.secondaryLabel, outHref(cta.provider), index === 0 ? "button button-primary" : "button button-secondary", 'target="_blank" rel="noopener"'))
         .join("");
-      const notes = [
-        sgAvailable ? `<p class="disclosure-note">SeatGeek controls prices, fees, availability, and checkout terms for this link.</p>` : "",
-        vsAvailable ? `<p class="disclosure-note">Vivid Seats controls prices, fees, availability, and checkout terms for this link.</p>` : ""
-      ].join("");
-      ctaHtml = ctas.length > 1 ? `<div class="cta-group">${buttons}</div>${notes}` : `${buttons}${notes}`;
+      ctaHtml = ctas.length > 1 ? `<div class="cta-group">${buttons}</div>` : buttons;
     }
   }
 
   const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
-  const eventVerifiedHtml = eventVerifiedDate ? `<p class="disclosure-note">Event last checked: ${escapeHtml(eventVerifiedDate)}.</p>` : "";
   const copyLinkHtml = anchorId
     ? `<a class="text-link copy-show-link" href="#${escapeAttr(anchorId)}" data-copy-show-link="${escapeAttr(anchorId)}">Copy link to this date</a>`
     : "";
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
-  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || titleFallback)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${copyLinkHtml}${eventVerifiedHtml}${ctaHtml}</article>`;
+  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}"><h3>${escapeHtml(show.event_name || titleFallback)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(location || "City and venue details are shown only when verified by the source.")}</p>${copyLinkHtml}${ctaHtml}</article>`;
 }
 
 function renderShowBoardEmptyStateHtml(artistName = "") {
@@ -1109,7 +1098,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   const filterIntro = shows.length > 1
     ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Filter by city, country, venue, or tour, then open the checked event link that matches your plans.</p></div>`
     : "";
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Checked ticket options</h2><p>Each card shows one checked event date. When an event-specific provider link is verified, use it to check the latest price, fees, availability, and ticket terms on the provider site.</p><p class="disclosure-note">Coverage varies by artist and region. Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming shows</h2><p>Choose a date, then open the checked provider links to compare current ticket options.</p><p class="disclosure-note">Provider buttons may include official and resale marketplaces. Providers control prices, fees, availability and delivery; confirm the final total and ticket terms before buying.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -1180,19 +1169,19 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="artistTitle">${escapeHtml(
       artist.name
-    )} ticket links and buying guidance</h1><p class="lead">Checked ticket links for ${escapeHtml(
+    )} tickets and tour dates</h1><p class="lead">Find upcoming ${escapeHtml(
       artist.name
-    )} dates, plus what to confirm about fees, seats, and resale before you buy.</p>${reviewNoticeHtml}${renderVerificationDisclosure(artist, shows)}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
+    )} shows and open checked provider links for the date you want.</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
       catalog,
       artist,
       "artist_page",
       { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable }
-    )}` : `${renderProviderFallback(
+    )}${renderVerificationDisclosure(artist, shows)}` : `${renderProviderFallback(
       catalog,
       artist,
       "artist_page",
       { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable }
-    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}`}<section class="split-section"><div><h2>About ${escapeHtml(
+    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderVerificationDisclosure(artist, shows)}`}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes

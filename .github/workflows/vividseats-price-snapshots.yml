@@ -1,8 +1,10 @@
 name: Vivid Seats price snapshots
 
-# Approved Vivid Seats price-feed ingestion for D1 provider_pricing_cache.
-# Scheduled runs apply only when the approved feed and Cloudflare D1 secrets are configured.
-# Missing secrets cause a safe successful no-op; no display, event, or CTA data is changed.
+# Owner-approved Vivid Seats price snapshots via the existing Impact
+# Marketplace Products API. The job reads the exact Vivid production already
+# verified in events.json, accepts only an unambiguous current price for that
+# exact production, and writes timestamped D1 cache rows. It never scrapes
+# Vivid Seats, changes events, or changes CTAs.
 
 on:
   schedule:
@@ -38,7 +40,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      VIVIDSEATS_PRICE_FEED_APPROVED: 'true'
       D1_DATABASE_NAME: ${{ github.event.inputs.database || 'tourticketcompare-demand' }}
       SNAPSHOT_LIMIT: ${{ github.event.inputs.limit || '' }}
       SNAPSHOT_EVENT_ID: ${{ github.event.inputs.event_id || '' }}
@@ -56,29 +57,37 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run Vivid Seats price snapshot self-test
+      - name: Run Vivid Seats Impact price snapshot self-test
         run: npm run vividseats:prices:self-test
 
-      - name: Check approved-feed and D1 configuration
+      - name: Check Impact and D1 configuration
         id: configured
         env:
-          VIVIDSEATS_PRICE_FEED_URL: ${{ secrets.VIVIDSEATS_PRICE_FEED_URL }}
+          IMPACT_VIVIDSEATS_ACCOUNT_SID: ${{ secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
+          IMPACT_VIVIDSEATS_AUTH_TOKEN: ${{ secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
+          IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID }}
+          IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           set -euo pipefail
-          if [ -n "${VIVIDSEATS_PRICE_FEED_URL}" ] && [ -n "${CLOUDFLARE_API_TOKEN}" ] && [ -n "${CLOUDFLARE_ACCOUNT_ID}" ]; then
+          ACCOUNT_SID="${IMPACT_VIVIDSEATS_ACCOUNT_SID:-${IMPACT_ACCOUNT_SID:-}}"
+          AUTH_TOKEN="${IMPACT_VIVIDSEATS_AUTH_TOKEN:-${IMPACT_AUTH_TOKEN:-}}"
+          if [ -n "${ACCOUNT_SID}" ] && [ -n "${AUTH_TOKEN}" ] && [ -n "${CLOUDFLARE_API_TOKEN}" ] && [ -n "${CLOUDFLARE_ACCOUNT_ID}" ]; then
             echo "configured=true" >> "$GITHUB_OUTPUT"
           else
             echo "configured=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::Approved Vivid Seats feed or Cloudflare D1 secrets are not configured; skipping snapshot ingestion safely."
+            echo "::notice::Impact Vivid Seats credentials or Cloudflare D1 secrets are not configured; skipping snapshot ingestion safely."
           fi
 
-      - name: Run Vivid Seats price snapshot dry-run
+      - name: Run Vivid Seats Impact price snapshot dry-run
         if: steps.configured.outputs.configured == 'true'
         env:
-          VIVIDSEATS_PRICE_FEED_URL: ${{ secrets.VIVIDSEATS_PRICE_FEED_URL }}
-          VIVIDSEATS_PRICE_FEED_TOKEN: ${{ secrets.VIVIDSEATS_PRICE_FEED_TOKEN }}
+          IMPACT_VIVIDSEATS_ACCOUNT_SID: ${{ secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
+          IMPACT_VIVIDSEATS_AUTH_TOKEN: ${{ secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
+          IMPACT_VIVIDSEATS_PROGRAM_ID: ${{ secrets.IMPACT_VIVIDSEATS_PROGRAM_ID }}
+          IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID }}
+          IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}
         run: |
           set -euo pipefail
           args=()
@@ -86,11 +95,14 @@ jobs:
           if [ -n "${SNAPSHOT_EVENT_ID}" ]; then args+=(--event-id "${SNAPSHOT_EVENT_ID}"); fi
           npm run vividseats:prices:dry-run -- "${args[@]}"
 
-      - name: Run Vivid Seats price snapshot apply
+      - name: Run Vivid Seats Impact price snapshot apply
         if: steps.configured.outputs.configured == 'true' && (github.event_name == 'schedule' || github.event.inputs.apply == 'true')
         env:
-          VIVIDSEATS_PRICE_FEED_URL: ${{ secrets.VIVIDSEATS_PRICE_FEED_URL }}
-          VIVIDSEATS_PRICE_FEED_TOKEN: ${{ secrets.VIVIDSEATS_PRICE_FEED_TOKEN }}
+          IMPACT_VIVIDSEATS_ACCOUNT_SID: ${{ secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
+          IMPACT_VIVIDSEATS_AUTH_TOKEN: ${{ secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
+          IMPACT_VIVIDSEATS_PROGRAM_ID: ${{ secrets.IMPACT_VIVIDSEATS_PROGRAM_ID }}
+          IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID }}
+          IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |

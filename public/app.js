@@ -1439,6 +1439,65 @@ function renderVividSeatsPriceSnapshot(show) {
   return panel;
 }
 
+function approvedProviderPriceComparison(show) {
+  const seatGeek = approvedSeatGeekPriceLane(show);
+  const vividSeats = approvedVividSeatsPriceLane(show);
+  if (!seatGeek || !vividSeats) return null;
+
+  const sameCurrency = seatGeek.currency === vividSeats.currency;
+  const delta = sameCurrency ? Number(Math.abs(seatGeek.price - vividSeats.price).toFixed(2)) : null;
+  const lowerProvider = sameCurrency
+    ? seatGeek.price < vividSeats.price
+      ? "SeatGeek"
+      : vividSeats.price < seatGeek.price
+        ? "Vivid Seats"
+        : null
+    : null;
+
+  return { seatGeek, vividSeats, sameCurrency, delta, lowerProvider };
+}
+
+function renderProviderPriceComparison(show) {
+  const comparison = approvedProviderPriceComparison(show);
+  if (!comparison) return null;
+
+  const seatGeekAmount = formatProviderPrice(comparison.seatGeek.price, comparison.seatGeek.currency);
+  const vividSeatsAmount = formatProviderPrice(comparison.vividSeats.price, comparison.vividSeats.currency);
+  const seatGeekAsOf = formatSnapshotTime(comparison.seatGeek.fetchedAt);
+  const vividSeatsAsOf = formatSnapshotTime(comparison.vividSeats.fetchedAt);
+  if (!seatGeekAmount || !vividSeatsAmount || !seatGeekAsOf || !vividSeatsAsOf) return null;
+
+  const panel = document.createElement("section");
+  panel.className = "nested-panel provider-price-comparison";
+  text(panel, "h4", "Provider price comparison");
+
+  const snapshots = document.createElement("ul");
+  snapshots.className = "check-list";
+  for (const line of [
+    `SeatGeek: ${seatGeekAmount} snapshot as of ${seatGeekAsOf}.`,
+    `Vivid Seats: ${vividSeatsAmount} snapshot as of ${vividSeatsAsOf}.`
+  ]) {
+    const item = document.createElement("li");
+    item.textContent = line;
+    snapshots.append(item);
+  }
+  panel.append(snapshots);
+
+  if (comparison.sameCurrency && comparison.lowerProvider && comparison.delta !== null) {
+    const difference = formatProviderPrice(comparison.delta, comparison.seatGeek.currency);
+    if (difference) {
+      text(panel, "p", `${comparison.lowerProvider} has the lower listed price snapshot by ${difference}.`, "card-status");
+    }
+  } else if (comparison.sameCurrency) {
+    text(panel, "p", "Both providers show the same listed price snapshot.", "card-status");
+  } else {
+    text(panel, "p", "The snapshots use different currencies, so no price difference is calculated.", "card-status");
+  }
+
+  text(panel, "p", "These are provider-supplied snapshots for this exact event. Fees, taxes, availability, delivery, and checkout terms can change; confirm the final total before buying.", "disclosure-note");
+  return panel;
+}
+
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
@@ -1452,6 +1511,9 @@ function renderShowCard(show, options = {}) {
   text(article, "p", location || "City and venue details are shown only when verified by the source.", "muted");
   const copyAction = renderCopyShowLinkAction(article);
   if (copyAction) article.append(copyAction);
+
+  const priceComparison = renderProviderPriceComparison(show);
+  if (priceComparison) article.append(priceComparison);
 
   if (options.reviewGated) {
     text(article, "p", "Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.", "disclosure-note");
@@ -1804,6 +1866,39 @@ async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
   } catch (error) {
     // Price snapshots are optional progressive enhancement; keep the verified CTA card unchanged.
   }
+}
+
+async function hydrateComparisonHubPriceSnapshots() {
+  const cards = Array.from(document.querySelectorAll("[data-comparison-show-id]")).slice(0, 6);
+  if (!cards.length) return;
+
+  await Promise.all(cards.map(async (card) => {
+    const showId = String(card.getAttribute("data-comparison-show-id") || "").trim();
+    if (!showId) return;
+
+    try {
+      const params = new URLSearchParams({
+        showId,
+        includePrices: "true",
+        priceProviders: "approved-marketplaces"
+      });
+      const response = await fetch(`/api/shows?${params.toString()}`, { headers: { Accept: "application/json" } });
+      if (!response.ok) return;
+      const data = await response.json();
+      const pricedShow = safeShowList(data).find((show) => String(show?.id || "") === showId);
+      if (!pricedShow) return;
+
+      const replacement = renderShowCard(pricedShow, {
+        showEventCta: true,
+        seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek),
+        vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats)
+      });
+      replacement.setAttribute("data-comparison-show-id", showId);
+      card.replaceWith(replacement);
+    } catch (error) {
+      // Keep the server-rendered checked event card if price hydration fails.
+    }
+  }));
 }
 
 async function hydrateShowBoard(section, filters = {}) {
@@ -2653,7 +2748,10 @@ async function render() {
   else if (current.type === "artist") renderArtist(current.artist);
   else if (current.type === "guides") renderGuidesIndex();
   else if (current.type === "guide") renderGuide(current.guide);
-  else if (current.type === "compare-concert-ticket-prices") renderComparisonHub();
+  else if (current.type === "compare-concert-ticket-prices") {
+    renderComparisonHub();
+    await hydrateComparisonHubPriceSnapshots();
+  }
   else if (current.type === "how-it-works") renderHowItWorks();
   else if (["about", "contact", "editorial-policy", "affiliate-disclosure"].includes(current.type)) renderSimplePage(current.type);
   else renderNotFound();

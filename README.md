@@ -12,7 +12,7 @@ Helps fans find checked ticket links, understand buying risks, and read practica
 - Practical buying guides (fees, resale risk, timing, provider differences)
 - Artist watchlist pages for major tours
 
-**Not currently available:** live multi-provider price comparison, "cheapest price", or availability claims. Provider-specific price snapshots remain disabled by default and require an approved source, explicit display rights, a runtime feature flag, and freshness checks.
+**Available now:** SeatGeek and Vivid Seats may be displayed side by side for the same verified event when both approved, timestamped snapshots are fresh. TourTicketCompare may identify the lower listed snapshot and price difference. Fees, taxes, availability, delivery, and the final checkout total remain provider-controlled and must be confirmed before buying.
 
 ## Tech stack
 

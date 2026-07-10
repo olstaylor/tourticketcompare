@@ -20,11 +20,11 @@ This file provides guidance to Claude Code (claude.ai/code) — and any other AI
 - **SeatGeek is the primary, monetized CTA** (Impact network, server-side only), artist-level **and** event-level. Artist-level destinations are performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for registry-verified performer ids — never constructed from names.
 - **Vivid Seats is live for verified event-level CTAs** (second Impact provider): 218 events have independently verified Vivid Seats provenance. Artist-level Vivid Seats entries are not configured. Runtime Impact configuration and a verified `/production/<numeric id>` destination remain mandatory.
 - **Ticketmaster affiliate access is gone** (site removed from the programme, 2026-07). Ticketmaster links are plain, unmonetized verified redirects, rendered after the affiliate providers. **Never re-add** Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
-- **Price tracking:** SeatGeek snapshots are collected on a 12-hour cron. The client also supports a manually populated, approved-feed Vivid Seats snapshot lane. Both display paths are default-off and require explicit written display rights, an approved source, the provider feature flag, a verified event URL, and fresh timestamped cache data. Cross-provider comparison and "cheapest" claims remain prohibited. See `docs/PROVIDER_DATA_POLICY.md`.
+- **Price comparison:** SeatGeek snapshots are collected on a 12-hour cron and the client supports a manually populated, approved-feed Vivid Seats snapshot lane. Written provider agreements confirmed on 2026-07-10 allow fresh, approved SeatGeek and Vivid Seats snapshots to be displayed side by side for the same verified event, including lower-snapshot and price-difference calculations plus history. Both lanes still require the provider feature flag, a verified event URL, an approved source, and fresh timestamped cache data. Fees, taxes, availability, delivery, and checkout totals remain provider-controlled. See `docs/PROVIDER_DATA_POLICY.md`.
 
 ## Critical Product Rules
 
-See [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) for the full non-negotiable list. In brief: never invent data, never scrape, never show fake CTAs or price comparison, never expose credentials client-side, never modify `/api/out` or affiliate logic without explicit scope.
+See [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) for the full non-negotiable list. In brief: never invent data, never scrape, never show fake CTAs or price comparisons, never expose credentials client-side, never modify `/api/out` or affiliate logic without explicit scope. Approved SeatGeek/Vivid comparisons remain gated by exact-event matching, source, and freshness checks.
 
 ---
 
@@ -109,7 +109,7 @@ Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS
 - `nightly-data-sync.yml` (03:30 UTC) — lossless factual refresh (date/time, venue, `event_name`, canonical TM URL) auto-committed to `main` per event; anything needing judgement goes to the rolling issue.
 - `tm-new-shows-pr.yml` (04:00 UTC) — new-show discovery PR; auto-merges once its in-run validation suite passes (owner-approved). `tour_name` stays blank for human review.
 - `seatgeek-discovery-proposal.yml` (dispatch) — proposal-only SeatGeek event-URL discovery.
-- `seatgeek-price-snapshots.yml` (every 12 h) — writes SeatGeek price snapshots to D1. Collection only; display stays off.
+- `seatgeek-price-snapshots.yml` (every 12 h) — writes approved SeatGeek price snapshots to D1 for the live comparison lane; stale or unverified rows remain hidden.
 - `vividseats-cta-sync.yml` (manual dispatch) — verified event-level Vivid Seats link/provenance sync. Its nightly cron remains commented out pending owner enablement and monitoring.
 - `prelaunch-validation.yml` (PRs) — validation suite incl. the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`.
 - `tm-data-refresh-pr.yml` (dispatch) — manual PR-based refresh of existing events.

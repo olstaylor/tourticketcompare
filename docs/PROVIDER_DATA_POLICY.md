@@ -6,7 +6,7 @@ This document defines how TourTicketCompare uses data from ticket providers, aff
 
 ## Safe Model
 
-> Verified ticket links first. Provider-specific price information only where an approved provider feed explicitly permits public display and usage rights are confirmed. Final prices, fees, availability, delivery terms, and checkout terms are always confirmed by the ticket provider.
+> Verified ticket links first. SeatGeek and Vivid Seats price snapshots may be displayed side by side, compared, and retained as history only when both approved feeds, exact-event mapping, feature flags, and freshness gates pass. Final prices, fees, availability, delivery terms, and checkout terms are always confirmed by the ticket provider.
 
 ---
 
@@ -46,15 +46,15 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 **Approved public display rights (confirmed 2026-07-09):**
 - **Ticket links/CTAs:** approved for public display through verified SeatGeek destinations and server-side Impact wrapping.
-- **Lowest/listing price:** not approved for public display today. May be shown only after separate written SeatGeek display permission is stored/confirmed, `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, and the `/api/shows` cache/source/freshness gates pass.
-- **Fees/final checkout total:** not approved for public display from TourTicketCompare data. Users must confirm fees and final totals on SeatGeek.
-- **Inventory/availability counts:** not approved for public display today, even if an internal cache row contains `inventory_count`; do not say tickets are available, sold out, limited, or scarce from SeatGeek inventory data.
-- **Trend/history data:** not approved for public display today; do not publish price movement, demand, savings, or trend claims.
-- **Comparisons/rankings:** not approved. Do not compare SeatGeek against another provider or use "cheapest", "lowest", "best deal", "savings", ranking, or winner language unless separate written comparison rights are obtained.
+- **Listed price:** approved for public display from the approved SeatGeek partner API when `SEATGEEK_PRICE_DISPLAY_ENABLED=true` and the `/api/shows` cache/source/freshness gates pass.
+- **Side-by-side comparisons:** approved for the same verified event with a fresh approved Vivid Seats snapshot. TourTicketCompare may identify the lower listed snapshot and the price difference.
+- **History:** approved for archival and historical display when the provider/source attribution and observation time remain attached.
+- **Fees/final checkout total:** not approved from TourTicketCompare data. Users must confirm fees and final totals on SeatGeek.
+- **Inventory/availability counts:** remain prohibited; do not say tickets are available, sold out, limited, or scarce from SeatGeek inventory data.
 
 **Constraints:**
 - The destination host is `seatgeek.com` (the only allowlisted SeatGeek host). Generic search/venue URLs are rejected on the event lane; the artist lane accepts only the hand-verified performer-page constants in `VERIFIED_TICKET_LINKS`.
-- **SeatGeek price snapshots are default-off and display-only.** SeatGeek price data may be used only as a SeatGeek-only, provider-attributed latest snapshot after written SeatGeek display permission has been confirmed, sourced from the approved SeatGeek partner API only, gated by `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, tied to an event with a valid verified `seatgeek_url`, loaded from a cached row with `source='seatgeek_partner_api'`, timestamped, and hidden when stale. Do not scrape, invent, manually enter, compare across providers, or make "cheapest", "lowest", "best deal", "savings", "price guarantee", or "real-time cheapest" claims.
+- **SeatGeek price snapshots are live only behind their source and freshness gate.** They must be sourced from the approved SeatGeek partner API, gated by `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, tied to an event with a valid verified `seatgeek_url`, loaded from a cached row with `source='seatgeek_partner_api'`, timestamped, and hidden when stale. Do not scrape, invent, or manually enter prices.
 
 ---
 
@@ -66,17 +66,17 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 **Approved public display rights (confirmed 2026-07-09):**
 - **Ticket links/CTAs:** approved and live for event records that pass the per-event provenance, URL-shape, runtime configuration, and redirect gates.
-- **Lowest/listing price:** not approved for public display today. The client supports a gated provider-attributed lane, but `VIVIDSEATS_PRICE_DISPLAY_ENABLED` must remain default-off. Enabling it additionally requires separate written display permission and a fresh cached row with `source='vividseats_approved_feed'`.
-- **Fees/final checkout total:** not approved for public display from TourTicketCompare data. Users must confirm fees and final totals on Vivid Seats.
-- **Inventory/availability counts:** not approved for public display today, even if an internal cache row contains `inventory_count`; do not say tickets are available, sold out, limited, or scarce from Vivid Seats inventory data.
-- **Trend/history data:** not approved for public display today; do not publish price movement, demand, savings, or trend claims.
-- **Comparisons/rankings:** not approved. Do not compare Vivid Seats against another provider or use "cheapest", "lowest", "best deal", "savings", ranking, or winner language unless separate written comparison rights are obtained.
+- **Listed price:** approved for public display from the approved Vivid Seats feed when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true` and the cache/source/freshness gates pass.
+- **Side-by-side comparisons:** approved for the same verified event with a fresh approved SeatGeek snapshot. TourTicketCompare may identify the lower listed snapshot and the price difference.
+- **History:** approved for archival and historical display when the provider/source attribution and observation time remain attached.
+- **Fees/final checkout total:** not approved from TourTicketCompare data. Users must confirm fees and final totals on Vivid Seats.
+- **Inventory/availability counts:** remain prohibited; do not say tickets are available, sold out, limited, or scarce from Vivid Seats inventory data.
 
 **Remaining operational work:**
 1. Keep the verified event data and runtime Impact configuration healthy; a tracking failure must continue to return diagnostic JSON, never an untracked redirect.
 2. Enable and monitor the commented `vividseats-cta-sync.yml` nightly cron only after owner approval.
 3. Treat artist-level Vivid Seats entries as separate scope.
-4. Keep `VIVIDSEATS_PRICE_DISPLAY_ENABLED=false` until separate written price-display rights exist.
+4. Keep the Vivid Seats source, exact-event, and freshness gates healthy; the display flag is enabled under the written 2026-07-10 agreement.
 
 ---
 
@@ -92,12 +92,12 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 - Affiliate redirects fail closed when Impact tracking credentials are missing or the API call fails; no untracked affiliate redirect is emitted
 
 **What Impact approval does NOT grant:**
-- Permission to ingest or publicly display provider pricing data
-- Permission to claim price comparison unless an approved feed explicitly supplies displayable pricing
+- Blanket permission to invent prices, omit attribution, or compare mismatched or stale events
+- Permission to present provider snapshot prices as final checkout totals
 
 **Ticketmaster is an event-verification and link source, not a price source.** Do not present Ticketmaster data as a price or as a price comparison.
 
-**Catalog capability flags are inert metadata.** The `pricing_type`, `supports_pricing`, `price_aggregation`, and `real_time_inventory` fields in `public/data/catalog.json` describe what a provider's API *could* do — they do **not** mean prices are displayed. Public price display is gated solely by `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` / `SEATGEEK_PRICE_DISPLAY_ENABLED` / `VIVIDSEATS_PRICE_DISPLAY_ENABLED` (all OFF by default) and, for SeatGeek, the written-permission conditions above. Never read these flags as authorization to show prices.
+**Catalog capability flags are inert metadata.** The `pricing_type`, `supports_pricing`, `price_aggregation`, and `real_time_inventory` fields in `public/data/catalog.json` describe what a provider's API *could* do — they do **not** substitute for runtime gates. SeatGeek and Vivid Seats display requires their enabled feature flags plus the approved source, verified event URL, exact-event mapping, timestamps, and unexpired cache rows.
 
 **Impact credentials required for:**
 - `GET /api/impact/health` to return `ok: true`
@@ -118,8 +118,8 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 - `MOCK_MODE` and `ALLOW_MOCK_PRICES` must both be `false` in production. Mock prices must never be displayed to users.
 - `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` must be `true` and a valid `TICKETMASTER_API_KEY` must be configured for live Ticketmaster price lookups.
 - SeatGeek returns `status: unavailable` unless `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='seatgeek'`, `source='seatgeek_partner_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
-- Vivid Seats returns `status: unavailable` unless `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='vividseats'`, `source='vividseats_approved_feed'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency. Because no Vivid Seats price-display rights are confirmed today, this flag must remain default-off.
-- Price results include `fetchedAt` timestamps. Do not display prices without showing or conveying freshness.
+- Vivid Seats returns `status: unavailable` unless `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='vividseats'`, `source='vividseats_approved_feed'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
+- Price results include `fetchedAt` timestamps. Do not display prices without showing or conveying freshness. A side-by-side comparison additionally requires two fresh approved provider lanes for the same local event ID; when currencies match, the UI may calculate and label the lower listed snapshot and absolute difference.
 
 ---
 

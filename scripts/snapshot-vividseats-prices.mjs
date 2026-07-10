@@ -18,7 +18,7 @@ const IMPACT_PROGRAM = "12730";
 const IMPACT_API_BASE = "https://api.impact.com";
 const DEFAULT_FRESHNESS_HOURS = 6;
 const DEFAULT_D1_DATABASE = "tourticketcompare-demand";
-const DEFAULT_LIMIT = 50;
+const DEFAULT_LIMIT = null;
 const REQUEST_TIMEOUT_MS = 30000;
 const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
@@ -43,7 +43,7 @@ snapshots. Default mode is dry-run; it never scrapes Vivid Seats.
 Options:
   --apply                 Write snapshots to remote D1
   --self-test             Run offline tests only
-  --limit <number>        Max eligible events (default: ${DEFAULT_LIMIT})
+  --limit <number>        Max eligible events (default: all event URLs)
   --event-id <id>         Process one local TourTicketCompare event ID
   --freshness-hours <n>   Snapshot expiry, 0 < n <= 24 (default: ${DEFAULT_FRESHNESS_HOURS})
   --database <name>       D1 database in apply mode
@@ -99,7 +99,7 @@ function selectEligibleEvents(events, artistsBySlug, options) {
     if (!productionId) { skipped.push({ event_id: localId, reason: "invalid_or_missing_vividseats_url" }); continue; }
     if (!artistName || artistName.includes("'")) { skipped.push({ event_id: localId, reason: "unusable_exact_artist_name" }); continue; }
     selected.push({ event, localId, artistName, productionId });
-    if (selected.length >= options.limit) break;
+    if (options.limit && selected.length >= options.limit) break;
   }
   return { selected, skipped };
 }

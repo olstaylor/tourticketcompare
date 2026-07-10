@@ -151,4 +151,3 @@ To add a new provider safely:
 5. Rebuild and deploy the standalone Worker if this is a production change.
 6. Run smoke checks and verify the new provider buttons appear only for the intended artists/events.
 7. Do not enable buttons for artists or events where the destination is not verified.
-

@@ -2236,4 +2236,3 @@ assert(beyonceShowBoard.includes('href="/guides/how-to-compare-concert-ticket-pr
 console.log("zero-event empty-state verification passed for beyonce");
 
 console.log("Cloudflare Pages MVP smoke checks passed");
-

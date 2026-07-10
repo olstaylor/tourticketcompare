@@ -564,7 +564,7 @@ function getAffiliateUrl(show, provider) {
 }
 
 const SEATGEEK_APPROVED_PRICE_SOURCE = "seatgeek_partner_api";
-const VIVIDSEATS_APPROVED_PRICE_SOURCE = "vividseats_approved_feed";
+const VIVIDSEATS_APPROVED_PRICE_SOURCE = "vividseats_impact_marketplace_api";
 // Approved provider price-snapshot sources keyed by public provider name.
 // decorateProviderResult only marks a lane "ok" when the cached row's source
 // matches the provider's approved source here.

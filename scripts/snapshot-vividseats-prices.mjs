@@ -11,132 +11,255 @@ const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
-const APPROVED_SOURCE = "vividseats_approved_feed";
+const ARTISTS_PATH = path.join(REPO_ROOT, "public", "data", "artists.json");
 const PROVIDER = "vivid-seats";
+const APPROVED_SOURCE = "vividseats_impact_marketplace_api";
+const IMPACT_PROGRAM = "12730";
+const IMPACT_API_BASE = "https://api.impact.com";
 const DEFAULT_FRESHNESS_HOURS = 6;
-const REQUEST_TIMEOUT_MS = 30000;
-const DEFAULT_DELAY_MS = 500;
-const DEFAULT_CURRENCY = "USD";
 const DEFAULT_D1_DATABASE = "tourticketcompare-demand";
+const DEFAULT_LIMIT = 50;
+const REQUEST_TIMEOUT_MS = 30000;
+const PAGE_SIZE = 100;
+const MAX_PAGES = 5;
 
-function usage() {
-  return `Usage: node scripts/snapshot-vividseats-prices.mjs [options]\n\nFetch Vivid Seats prices from an owner-approved feed/API with explicit public display rights and upsert latest provider_pricing_cache snapshots. Default mode is dry-run and never writes to D1. This script intentionally does not scrape Vivid Seats pages.\n\nOptions:\n  --apply              Write proposed snapshot rows to D1 with wrangler d1 execute\n  --self-test          Run local unit/self tests only; no network and no D1 writes\n  --limit <number>     Process at most this many eligible Vivid Seats events\n  --event-id <id>      Process only one local TourTicketCompare event ID\n  --freshness-hours <n>  Expires snapshots after n hours (default: ${DEFAULT_FRESHNESS_HOURS})\n  --delay-ms <number>  Delay before each approved-feed call (default: ${DEFAULT_DELAY_MS})\n  --database <name>    D1 database name for apply mode (default: ${DEFAULT_D1_DATABASE})\n  --local              Use local D1 in apply mode instead of remote D1\n  --json               Emit machine-readable summary JSON\n  -h, --help           Show this help\n\nEnvironment:\n  VIVIDSEATS_PRICE_FEED_APPROVED=true  Required acknowledgment that display rights are confirmed\n  VIVIDSEATS_PRICE_FEED_URL            Required approved feed/API endpoint template; may include {eventId}\n  VIVIDSEATS_PRICE_FEED_TOKEN          Optional bearer token for the approved feed/API\n  CLOUDFLARE_API_TOKEN                 Required by wrangler for remote --apply writes\n  CLOUDFLARE_ACCOUNT_ID                Required by wrangler for remote --apply writes\n`;
+function clean(value, max = 2000) { return String(value ?? "").trim().slice(0, max); }
+function numberOrNull(value) { const n = Number(value); return Number.isFinite(n) && n >= 0 ? n : null; }
+function integerOrNull(value) { const n = numberOrNull(value); return n == null ? null : Math.trunc(n); }
+function redact(value) {
+  let text = String(value ?? "");
+  for (const secret of [process.env.IMPACT_VIVIDSEATS_AUTH_TOKEN, process.env.IMPACT_AUTH_TOKEN, process.env.CLOUDFLARE_API_TOKEN]) {
+    if (secret) text = text.split(secret).join("[REDACTED]");
+  }
+  return text;
 }
+function usage() {
+  return `Usage: node scripts/snapshot-vividseats-prices.mjs [options]
 
-function clean(value, max = 500) { return String(value ?? "").trim().slice(0, max); }
-function finiteNumberOrNull(value) { if (value == null || value === "") return null; const n = Number(value); return Number.isFinite(n) ? n : null; }
-function integerOrNull(value) { const n = finiteNumberOrNull(value); return n == null || n < 0 ? null : Math.trunc(n); }
-function redact(value) { let text = String(value ?? ""); for (const secret of [process.env.VIVIDSEATS_PRICE_FEED_TOKEN, process.env.CLOUDFLARE_API_TOKEN]) if (secret) text = text.split(secret).join("[REDACTED]"); return text; }
+Reads the owner-approved Vivid Seats catalog exposed through the existing
+Impact Marketplace Products API and upserts timestamped Vivid Seats price
+snapshots. Default mode is dry-run; it never scrapes Vivid Seats.
 
+Options:
+  --apply                 Write snapshots to remote D1
+  --self-test             Run offline tests only
+  --limit <number>        Max eligible events (default: ${DEFAULT_LIMIT})
+  --event-id <id>         Process one local TourTicketCompare event ID
+  --freshness-hours <n>   Snapshot expiry, 0 < n <= 24 (default: ${DEFAULT_FRESHNESS_HOURS})
+  --database <name>       D1 database in apply mode
+  --local                 Use local D1 in apply mode
+  --json                  Emit JSON
+Environment:
+  IMPACT_VIVIDSEATS_ACCOUNT_SID / IMPACT_VIVIDSEATS_AUTH_TOKEN
+    (or legacy IMPACT_ACCOUNT_SID / IMPACT_AUTH_TOKEN)
+  IMPACT_VIVIDSEATS_PROGRAM_ID (optional; defaults to ${IMPACT_PROGRAM})
+  IMPACT_API_BASE_URL (optional; defaults to ${IMPACT_API_BASE})
+  CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID (remote --apply only)
+`;
+}
 function parseArgs(argv) {
-  const options = { apply: false, selfTest: false, limit: null, eventId: "", freshnessHours: DEFAULT_FRESHNESS_HOURS, delayMs: DEFAULT_DELAY_MS, database: DEFAULT_D1_DATABASE, remote: true, json: false, help: false };
+  const options = { apply: false, selfTest: false, limit: DEFAULT_LIMIT, eventId: "", freshnessHours: DEFAULT_FRESHNESS_HOURS, database: DEFAULT_D1_DATABASE, remote: true, json: false };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === "--apply") options.apply = true;
     else if (arg === "--self-test") options.selfTest = true;
-    else if (arg === "--json") options.json = true;
     else if (arg === "--local") options.remote = false;
-    else if (["--limit", "--event-id", "--freshness-hours", "--delay-ms", "--database"].includes(arg)) {
+    else if (arg === "--json") options.json = true;
+    else if (["--limit", "--event-id", "--freshness-hours", "--database"].includes(arg)) {
       const value = argv[++i];
       if (!value || value.startsWith("--")) throw new Error(`${arg} requires a value`);
-      if (arg === "--limit") { const n = Number.parseInt(value, 10); if (!Number.isFinite(n) || n < 1) throw new Error("--limit must be positive"); options.limit = n; }
+      if (arg === "--limit") { const n = Number.parseInt(value, 10); if (!Number.isInteger(n) || n < 1) throw new Error("--limit must be a positive integer"); options.limit = n; }
       if (arg === "--event-id") options.eventId = clean(value, 255);
-      if (arg === "--freshness-hours") { const n = Number.parseFloat(value); if (!Number.isFinite(n) || n <= 0 || n > 24) throw new Error("--freshness-hours must be > 0 and <= 24"); options.freshnessHours = n; }
-      if (arg === "--delay-ms") { const n = Number.parseInt(value, 10); if (!Number.isFinite(n) || n < 0) throw new Error("--delay-ms must be non-negative"); options.delayMs = n; }
+      if (arg === "--freshness-hours") { const n = Number(value); if (!Number.isFinite(n) || n <= 0 || n > 24) throw new Error("--freshness-hours must be > 0 and <= 24"); options.freshnessHours = n; }
       if (arg === "--database") options.database = clean(value, 255);
-    } else if (arg === "--help" || arg === "-h") options.help = true;
+    } else if (arg === "-h" || arg === "--help") return { ...options, help: true };
     else throw new Error(`Unknown option: ${arg}`);
   }
   return options;
 }
-
-function validateVividSeatsEventUrl(value) {
-  const raw = clean(value, 2048);
-  if (!raw) return { ok: false, reason: "missing Vivid Seats URL" };
-  try {
-    const parsed = new URL(raw);
-    const host = parsed.hostname.toLowerCase();
-    const pathPart = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
-    if (parsed.protocol !== "https:" || (host !== "vividseats.com" && host !== "www.vividseats.com")) return { ok: false, reason: "must be an https vividseats.com URL" };
-    if (!/\/production\/\d+$/i.test(pathPart)) return { ok: false, reason: "must be an event URL ending in /production/<id>" };
-    return { ok: true, eventId: pathPart.match(/\/production\/(\d+)$/i)[1], url: parsed.toString() };
-  } catch { return { ok: false, reason: "must be a valid absolute URL" }; }
+function vividProductionId(value) {
+  const match = clean(value, 2048).match(/^https:\/\/(?:www\.)?vividseats\.com\/[^?#]+\/production\/(\d+)\/?(?:[?#].*)?$/i);
+  return match ? match[1] : "";
 }
-
-async function readEvents(eventsPath = EVENTS_PATH) { const parsed = JSON.parse(await fs.readFile(eventsPath, "utf8")); if (!Array.isArray(parsed)) throw new Error("events.json must contain an array"); return parsed; }
-function selectEligibleEvents(events, options = {}) {
+async function readJson(file) { return JSON.parse(await fs.readFile(file, "utf8")); }
+async function readCatalog() {
+  const [events, artists] = await Promise.all([readJson(EVENTS_PATH), readJson(ARTISTS_PATH)]);
+  if (!Array.isArray(events) || !Array.isArray(artists)) throw new Error("events.json and artists.json must both be arrays");
+  const artistsBySlug = new Map(artists.map((artist) => [clean(artist?.slug, 255), clean(artist?.name || artist?.artist_name, 255)]));
+  return { events, artistsBySlug };
+}
+function selectEligibleEvents(events, artistsBySlug, options) {
   const selected = [], skipped = [];
-  for (const event of Array.isArray(events) ? events : []) {
-    const eventId = clean(event?.id, 255); if (options.eventId && eventId !== options.eventId) continue;
-    const validation = validateVividSeatsEventUrl(event?.vividseats_url);
-    if (!validation.ok) { skipped.push({ event_id: eventId || null, reason: "invalid_vividseats_url", detail: validation.reason }); continue; }
-    selected.push({ event, vividSeatsEventId: validation.eventId, vividSeatsUrl: validation.url });
-    if (options.limit && selected.length >= options.limit) break;
+  for (const event of events) {
+    const localId = clean(event?.id, 255);
+    if (options.eventId && localId !== options.eventId) continue;
+    const productionId = vividProductionId(event?.vividseats_url);
+    const artistName = clean(event?.artist_name || artistsBySlug.get(clean(event?.artist_slug, 255)), 255);
+    if (!localId) { skipped.push({ event_id: null, reason: "missing_local_event_id" }); continue; }
+    if (!productionId) { skipped.push({ event_id: localId, reason: "invalid_or_missing_vividseats_url" }); continue; }
+    if (!artistName || artistName.includes("'")) { skipped.push({ event_id: localId, reason: "unusable_exact_artist_name" }); continue; }
+    selected.push({ event, localId, artistName, productionId });
+    if (selected.length >= options.limit) break;
   }
-  return { scanned: Array.isArray(events) ? events.length : 0, selected, skipped };
+  return { selected, skipped };
 }
-
-function buildApprovedFeedUrl(vividSeatsEventId, env = process.env) {
-  if (String(env.VIVIDSEATS_PRICE_FEED_APPROVED || "").toLowerCase() !== "true") throw new Error("VIVIDSEATS_PRICE_FEED_APPROVED=true is required after explicit public display rights are confirmed");
-  const template = clean(env.VIVIDSEATS_PRICE_FEED_URL, 2048);
-  if (!template) throw new Error("VIVIDSEATS_PRICE_FEED_URL is required for the approved Vivid Seats feed/API");
-  const raw = template.includes("{eventId}") ? template.replaceAll("{eventId}", encodeURIComponent(vividSeatsEventId)) : `${template}${template.includes("?") ? "&" : "?"}eventId=${encodeURIComponent(vividSeatsEventId)}`;
-  return new URL(raw);
+function impactCredentials(env = process.env) {
+  const accountSid = clean(env.IMPACT_VIVIDSEATS_ACCOUNT_SID || env.IMPACT_ACCOUNT_SID, 255);
+  const authToken = clean(env.IMPACT_VIVIDSEATS_AUTH_TOKEN || env.IMPACT_AUTH_TOKEN, 2000);
+  if (!accountSid || !authToken) throw new Error("Impact Vivid Seats credentials are required (IMPACT_VIVIDSEATS_* or IMPACT_*)");
+  return { accountSid, authToken };
 }
-
-function currencyFromResponse(payload) { for (const c of [payload?.currency, payload?.currency_code, payload?.price?.currency]) { const v = clean(c, 12).toUpperCase(); if (/^[A-Z]{3}$/.test(v)) return v; } return DEFAULT_CURRENCY; }
-function buildSnapshotRow(event, payload, now = new Date(), freshnessHours = DEFAULT_FRESHNESS_HOURS) {
-  const localEventId = clean(event?.id, 255), artistSlug = clean(event?.artist_slug, 255); if (!localEventId) return { ok: false, reason: "missing_local_event_id" }; if (!artistSlug) return { ok: false, reason: "missing_artist_slug" };
-  const lowPrice = finiteNumberOrNull(payload?.low_price ?? payload?.lowest_price ?? payload?.min_price ?? payload?.price?.low);
-  if (lowPrice == null || lowPrice < 0) return { ok: false, reason: "missing_usable_low_price" };
-  const verifiedAt = now.toISOString();
-  return { ok: true, row: { id: `${PROVIDER}:${localEventId}`, artist_slug: artistSlug, event_id: localEventId, provider: PROVIDER, low_price: lowPrice, avg_price: finiteNumberOrNull(payload?.avg_price ?? payload?.average_price), high_price: finiteNumberOrNull(payload?.high_price ?? payload?.highest_price), currency: currencyFromResponse(payload), inventory_count: integerOrNull(payload?.inventory_count ?? payload?.listing_count), verified_at: verifiedAt, expires_at: new Date(now.getTime() + freshnessHours * 3600000).toISOString(), source: APPROVED_SOURCE } };
+function marketplaceProductsUrl({ accountSid, artistName, page, env = process.env }) {
+  const base = clean(env.IMPACT_API_BASE_URL || IMPACT_API_BASE, 2048).replace(/\/+$/, "");
+  const program = clean(env.IMPACT_VIVIDSEATS_PROGRAM_ID, 50) || IMPACT_PROGRAM;
+  const params = new URLSearchParams({ Program: program, Query: `Name='${artistName}'`, PageSize: String(PAGE_SIZE), Page: String(page) });
+  return `${base}/Mediapartners/${encodeURIComponent(accountSid)}/Marketplace/Products?${params.toString()}`;
 }
-
-async function fetchJson(url, env = process.env, fetchImpl = globalThis.fetch) {
-  const controller = new AbortController(); const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
-  try { const token = clean(env.VIVIDSEATS_PRICE_FEED_TOKEN, 2000); const res = await fetchImpl(url, { headers: { accept: "application/json", ...(token ? { authorization: `Bearer ${token}` } : {}), "user-agent": "TourTicketCompare Vivid Seats approved price feed ingestion" }, signal: controller.signal }); if (!res.ok) return { ok: false, status: res.status, reason: `approved Vivid Seats feed returned HTTP ${res.status}` }; return { ok: true, status: res.status, data: await res.json() }; }
-  catch (error) { return { ok: false, status: 0, reason: `approved Vivid Seats feed request failed: ${error?.message || error}` }; }
-  finally { clearTimeout(timeout); }
+function basicAuthHeader({ accountSid, authToken }) {
+  return { Accept: "application/json", Authorization: `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}` };
 }
-function sleep(ms) { return new Promise((resolve) => setTimeout(resolve, ms)); }
-function sqlLiteral(value) { if (value == null) return "NULL"; if (typeof value === "number") return Number.isFinite(value) ? String(value) : "NULL"; return `'${String(value).replaceAll("'", "''")}'`; }
-function buildUpsertSql(rows) { return ["-- Generated by scripts/snapshot-vividseats-prices.mjs", "-- No destructive deletes; latest snapshots are upserted by (event_id, provider).", "BEGIN TRANSACTION;", ...rows.map((row) => `INSERT INTO provider_pricing_cache (id, artist_slug, event_id, provider, low_price, avg_price, high_price, currency, inventory_count, verified_at, expires_at, source, updated_at)\nVALUES (${[row.id,row.artist_slug,row.event_id,row.provider,row.low_price,row.avg_price,row.high_price,row.currency,row.inventory_count,row.verified_at,row.expires_at,row.source].map(sqlLiteral).join(", ")}, CURRENT_TIMESTAMP)\nON CONFLICT(event_id, provider) DO UPDATE SET\n  artist_slug = excluded.artist_slug,\n  low_price = excluded.low_price,\n  avg_price = excluded.avg_price,\n  high_price = excluded.high_price,\n  currency = excluded.currency,\n  inventory_count = excluded.inventory_count,\n  verified_at = excluded.verified_at,\n  expires_at = excluded.expires_at,\n  source = excluded.source,\n  updated_at = CURRENT_TIMESTAMP;`), "COMMIT;", ""].join("\n"); }
-async function writeRowsToD1(rows, options) { if (!rows.length) return { written: 0 }; const dir = await fs.mkdtemp(path.join(os.tmpdir(), "vividseats-price-snapshot-")); const sqlPath = path.join(dir, "upsert-provider-pricing-cache.sql"); try { await fs.writeFile(sqlPath, buildUpsertSql(rows)); const args = ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", sqlPath]; const r = await execFileAsync("npx", args, { cwd: REPO_ROOT, maxBuffer: 1024 * 1024 * 10 }); return { written: rows.length, command: `npx ${args.join(" ")}`, stdout: redact(r.stdout), stderr: redact(r.stderr) }; } finally { await fs.rm(dir, { recursive: true, force: true }); } }
-function publicRow(row) { return { event_id: row.event_id, artist_slug: row.artist_slug, provider: row.provider, low_price: row.low_price, avg_price: row.avg_price, high_price: row.high_price, currency: row.currency, inventory_count: row.inventory_count, verified_at: row.verified_at, expires_at: row.expires_at, source: row.source }; }
-
-async function runIngestion(options, deps = {}) {
-  const selection = selectEligibleEvents(deps.events || await readEvents(deps.eventsPath || EVENTS_PATH), options);
-  const summary = { mode: options.apply ? "apply" : "dry-run", scanned: selection.scanned, eligible: selection.selected.length, fetched: 0, written: 0, skipped: selection.skipped.length, errors: 0, proposed_rows: [], skip_reasons: {}, error_details: [] };
-  for (const s of selection.skipped) summary.skip_reasons[s.reason] = (summary.skip_reasons[s.reason] || 0) + 1;
+async function requestJson(url, headers, fetchImpl = globalThis.fetch) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  try {
+    const response = await fetchImpl(url, { headers, signal: controller.signal });
+    if (!response.ok) return { ok: false, status: response.status, reason: `Impact Marketplace Products returned HTTP ${response.status}` };
+    const data = await response.json();
+    return { ok: true, status: response.status, data };
+  } catch (error) {
+    return { ok: false, status: 0, reason: `Impact Marketplace Products request failed: ${error?.message || error}` };
+  } finally { clearTimeout(timeout); }
+}
+function offerRows(item) {
+  const offers = Array.isArray(item?.Offers) ? item.Offers : [];
+  return offers.length ? offers : [item];
+}
+function candidateFromOffer(item, offer) {
+  const sku = clean(offer?.Sku ?? item?.Sku, 255);
+  const lowPrice = numberOrNull(offer?.CurrentPrice ?? item?.CurrentPrice ?? offer?.Price ?? item?.Price);
+  const currency = clean(offer?.Currency ?? item?.Currency, 12).toUpperCase();
+  if (!sku || lowPrice == null || !/^[A-Z]{3}$/.test(currency)) return null;
+  return { sku, lowPrice, currency, inventoryCount: integerOrNull(offer?.InventoryCount ?? item?.InventoryCount) };
+}
+function pricesForProduction(items, productionId) {
+  const matches = [];
+  for (const item of Array.isArray(items) ? items : []) {
+    for (const offer of offerRows(item)) {
+      const candidate = candidateFromOffer(item, offer);
+      if (candidate?.sku === productionId) matches.push(candidate);
+    }
+  }
+  if (!matches.length) return { ok: false, reason: "no_current_price_for_exact_vivid_production" };
+  const distinct = new Map(matches.map((match) => [`${match.currency}:${match.lowPrice}`, match]));
+  if (distinct.size !== 1) return { ok: false, reason: "ambiguous_current_price_for_exact_vivid_production" };
+  return { ok: true, price: [...distinct.values()][0] };
+}
+async function fetchArtistCatalog(artistName, env, fetchImpl) {
+  const credentials = impactCredentials(env);
+  const headers = basicAuthHeader(credentials);
   const rows = [];
-  for (const item of selection.selected) {
-    if (options.delayMs > 0 && summary.fetched > 0) await sleep(options.delayMs);
-    let url; try { url = buildApprovedFeedUrl(item.vividSeatsEventId, deps.env || process.env); } catch (error) { summary.errors++; summary.error_details.push({ event_id: item.event.id, reason: redact(error.message) }); continue; }
-    const fetched = await (deps.fetchVividSeatsPrice ? deps.fetchVividSeatsPrice(item.vividSeatsEventId, item.event, url) : fetchJson(url, deps.env || process.env, deps.fetchImpl));
-    if (!fetched.ok) { summary.skipped++; summary.skip_reasons.api_unavailable_or_error = (summary.skip_reasons.api_unavailable_or_error || 0) + 1; summary.error_details.push({ event_id: item.event.id, reason: redact(fetched.reason || `HTTP ${fetched.status || "unknown"}`) }); continue; }
-    summary.fetched++;
-    const built = buildSnapshotRow(item.event, fetched.data, deps.now || new Date(), options.freshnessHours);
-    if (!built.ok) { summary.skipped++; summary.skip_reasons[built.reason] = (summary.skip_reasons[built.reason] || 0) + 1; continue; }
-    rows.push(built.row); summary.proposed_rows.push(publicRow(built.row));
+  for (let page = 1; page <= MAX_PAGES; page += 1) {
+    const response = await requestJson(marketplaceProductsUrl({ accountSid: credentials.accountSid, artistName, page, env }), headers, fetchImpl);
+    if (!response.ok) return response;
+    const results = Array.isArray(response.data?.Results) ? response.data.Results : null;
+    if (!results) return { ok: false, status: response.status, reason: "Impact Marketplace Products response had no Results array" };
+    rows.push(...results);
+    const total = Number(response.data?.["@total"]);
+    if (results.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { ok: true, data: rows };
+  }
+  return { ok: false, status: 0, reason: "Impact Marketplace Products catalog exceeded the safe pagination cap" };
+}
+function buildSnapshotRow(item, price, now, freshnessHours) {
+  const eventId = clean(item?.localId, 255);
+  const artistSlug = clean(item?.event?.artist_slug, 255);
+  if (!eventId || !artistSlug) return { ok: false, reason: "missing_local_event_identity" };
+  const verifiedAt = now.toISOString();
+  return { ok: true, row: {
+    id: `${PROVIDER}:${eventId}`, artist_slug: artistSlug, event_id: eventId, provider: PROVIDER,
+    low_price: price.lowPrice, avg_price: null, high_price: null, currency: price.currency,
+    inventory_count: price.inventoryCount, verified_at: verifiedAt,
+    expires_at: new Date(now.getTime() + freshnessHours * 3600000).toISOString(), source: APPROVED_SOURCE
+  }};
+}
+function sqlLiteral(value) { if (value == null) return "NULL"; if (typeof value === "number") return Number.isFinite(value) ? String(value) : "NULL"; return `'${String(value).replaceAll("'", "''")}'`; }
+function buildUpsertSql(rows) {
+  return ["-- Generated by scripts/snapshot-vividseats-prices.mjs", "-- Upserts only; no destructive deletes.", "BEGIN TRANSACTION;",
+    ...rows.map((row) => `INSERT INTO provider_pricing_cache (id, artist_slug, event_id, provider, low_price, avg_price, high_price, currency, inventory_count, verified_at, expires_at, source, updated_at)
+VALUES (${[row.id,row.artist_slug,row.event_id,row.provider,row.low_price,row.avg_price,row.high_price,row.currency,row.inventory_count,row.verified_at,row.expires_at,row.source].map(sqlLiteral).join(", ")}, CURRENT_TIMESTAMP)
+ON CONFLICT(event_id, provider) DO UPDATE SET artist_slug=excluded.artist_slug, low_price=excluded.low_price, avg_price=excluded.avg_price, high_price=excluded.high_price, currency=excluded.currency, inventory_count=excluded.inventory_count, verified_at=excluded.verified_at, expires_at=excluded.expires_at, source=excluded.source, updated_at=CURRENT_TIMESTAMP;`),
+    "COMMIT;", ""].join("\n");
+}
+async function writeRowsToD1(rows, options) {
+  if (!rows.length) return { written: 0 };
+  const dir = await fs.mkdtemp(path.join(os.tmpdir(), "vividseats-impact-snapshot-"));
+  const sqlPath = path.join(dir, "upsert-provider-pricing-cache.sql");
+  try {
+    await fs.writeFile(sqlPath, buildUpsertSql(rows));
+    const args = ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", sqlPath];
+    const output = await execFileAsync("npx", args, { cwd: REPO_ROOT, maxBuffer: 10 * 1024 * 1024 });
+    return { written: rows.length, command: `npx ${args.join(" ")}`, stdout: redact(output.stdout), stderr: redact(output.stderr) };
+  } finally { await fs.rm(dir, { recursive: true, force: true }); }
+}
+function publicRow(row) { const { id, ...publicData } = row; return publicData; }
+async function runIngestion(options, deps = {}) {
+  const env = deps.env || process.env;
+  const catalog = deps.catalog || await readCatalog();
+  const selection = selectEligibleEvents(catalog.events, catalog.artistsBySlug, options);
+  const summary = { mode: options.apply ? "apply" : "dry-run", scanned: catalog.events.length, eligible: selection.selected.length, fetched: 0, written: 0, skipped: selection.skipped.length, errors: 0, proposed_rows: [], skip_reasons: {}, error_details: [] };
+  for (const skipped of selection.skipped) summary.skip_reasons[skipped.reason] = (summary.skip_reasons[skipped.reason] || 0) + 1;
+  const byArtist = new Map();
+  for (const item of selection.selected) { const entries = byArtist.get(item.artistName) || []; entries.push(item); byArtist.set(item.artistName, entries); }
+  const rows = [];
+  for (const [artistName, items] of byArtist) {
+    const fetched = deps.fetchArtistCatalog ? await deps.fetchArtistCatalog(artistName, env) : await fetchArtistCatalog(artistName, env, deps.fetchImpl);
+    if (!fetched.ok) {
+      for (const item of items) { summary.skipped++; summary.skip_reasons.api_unavailable_or_error = (summary.skip_reasons.api_unavailable_or_error || 0) + 1; summary.error_details.push({ event_id: item.localId, reason: redact(fetched.reason) }); }
+      continue;
+    }
+    summary.fetched += items.length;
+    for (const item of items) {
+      const priced = pricesForProduction(fetched.data, item.productionId);
+      if (!priced.ok) { summary.skipped++; summary.skip_reasons[priced.reason] = (summary.skip_reasons[priced.reason] || 0) + 1; continue; }
+      const built = buildSnapshotRow(item, priced.price, deps.now || new Date(), options.freshnessHours);
+      if (!built.ok) { summary.skipped++; summary.skip_reasons[built.reason] = (summary.skip_reasons[built.reason] || 0) + 1; continue; }
+      rows.push(built.row); summary.proposed_rows.push(publicRow(built.row));
+    }
   }
   if (options.apply) summary.written = (await (deps.writer ? deps.writer(rows, options) : writeRowsToD1(rows, options))).written || 0;
   return summary;
 }
-
 async function selfTest() {
-  assert.equal(validateVividSeatsEventUrl("https://www.vividseats.com/example-tickets/production/123456").ok, true);
-  assert.equal(validateVividSeatsEventUrl("https://www.vividseats.com/search?q=test").ok, false);
-  const now = new Date("2026-06-01T00:00:00Z");
-  const event = { id: "local-event-1", artist_slug: "artist-one", vividseats_url: "https://www.vividseats.com/example-tickets/production/123456" };
-  const built = buildSnapshotRow(event, { low_price: "44.50", average_price: 70, highest_price: 140, currency: "usd", inventory_count: 5 }, now, 6);
-  assert.equal(built.ok, true); assert.equal(built.row.provider, PROVIDER); assert.equal(built.row.source, APPROVED_SOURCE); assert.equal(built.row.currency, "USD");
-  assert.throws(() => buildApprovedFeedUrl("123", { VIVIDSEATS_PRICE_FEED_URL: "https://feed.example/{eventId}" }));
-  const dryRun = await runIngestion({ apply: false, limit: null, eventId: "", freshnessHours: 6, delayMs: 0, database: DEFAULT_D1_DATABASE, remote: true }, { events: [event], now, env: { VIVIDSEATS_PRICE_FEED_APPROVED: "true", VIVIDSEATS_PRICE_FEED_URL: "https://feed.example/events/{eventId}" }, async fetchVividSeatsPrice() { return { ok: true, data: { low_price: 55, listing_count: 3 } }; }, async writer() { throw new Error("dry run must not write"); } });
-  assert.equal(dryRun.fetched, 1); assert.equal(dryRun.written, 0); assert.equal(dryRun.proposed_rows[0].provider, PROVIDER);
-  return { ok: true, tests: 9 };
+  assert.equal(vividProductionId("https://www.vividseats.com/a-tickets/production/123"), "123");
+  assert.equal(vividProductionId("https://www.vividseats.com/search?q=x"), "");
+  const url = marketplaceProductsUrl({ accountSid: "sid", artistName: "RAYE", page: 1, env: {} });
+  assert.match(url, /Program=12730/); assert.match(url, /Name%3D%27RAYE%27/);
+  const priced = pricesForProduction([{ CurrentPrice: "52.50", Currency: "usd", Offers: [{ Sku: "123" }] }], "123");
+  assert.equal(priced.ok, true); assert.equal(priced.price.lowPrice, 52.5); assert.equal(priced.price.currency, "USD");
+  assert.equal(pricesForProduction([{ CurrentPrice: 1, Currency: "USD", Offers: [{ Sku: "123" }] }, { CurrentPrice: 2, Currency: "USD", Offers: [{ Sku: "123" }] }], "123").ok, false);
+  const now = new Date("2026-07-10T00:00:00Z");
+  const item = { localId: "event-1", productionId: "123", artistName: "RAYE", event: { artist_slug: "raye" } };
+  const built = buildSnapshotRow(item, priced.price, now, 6);
+  assert.equal(built.ok, true); assert.equal(built.row.source, APPROVED_SOURCE);
+  const dry = await runIngestion({ apply: false, limit: 1, eventId: "", freshnessHours: 6, database: DEFAULT_D1_DATABASE, remote: true }, {
+    catalog: { events: [{ id: "event-1", artist_slug: "raye", vividseats_url: "https://www.vividseats.com/a-tickets/production/123" }], artistsBySlug: new Map([["raye", "RAYE"]]) },
+    now, async fetchArtistCatalog() { return { ok: true, data: [{ CurrentPrice: 52, Currency: "USD", Offers: [{ Sku: "123" }] }] }; }
+  });
+  assert.equal(dry.proposed_rows.length, 1); assert.equal(dry.written, 0);
+  return { ok: true, tests: 12 };
 }
-function printSummary(s) { console.log(`Vivid Seats price snapshot ${s.mode} summary:`); for (const key of ["scanned", "eligible", "fetched", "written", "skipped", "errors"]) console.log(`- ${key}: ${s[key]}`); if (Object.keys(s.skip_reasons).length) console.log(`- skip reasons: ${JSON.stringify(s.skip_reasons)}`); for (const row of s.proposed_rows) console.log(JSON.stringify(row)); for (const detail of s.error_details.slice(0, 20)) console.log(JSON.stringify(detail)); }
-async function main() { const options = parseArgs(process.argv.slice(2)); if (options.help) return console.log(usage()); if (options.selfTest) { const r = await selfTest(); return console.log(`Vivid Seats price snapshot self-test passed (${r.tests} checks).`); } const summary = await runIngestion(options); if (options.json) console.log(JSON.stringify(summary, null, 2)); else printSummary(summary); }
+function printSummary(summary) {
+  console.log(`Vivid Seats Impact price snapshot ${summary.mode} summary:`);
+  for (const key of ["scanned", "eligible", "fetched", "written", "skipped", "errors"]) console.log(`- ${key}: ${summary[key]}`);
+  if (Object.keys(summary.skip_reasons).length) console.log(`- skip reasons: ${JSON.stringify(summary.skip_reasons)}`);
+  for (const row of summary.proposed_rows) console.log(JSON.stringify(row));
+  for (const error of summary.error_details.slice(0, 20)) console.log(JSON.stringify(error));
+}
+async function main() {
+  const options = parseArgs(process.argv.slice(2));
+  if (options.help) return console.log(usage());
+  if (options.selfTest) { const result = await selfTest(); return console.log(`Vivid Seats Impact price snapshot self-test passed (${result.tests} checks).`); }
+  const summary = await runIngestion(options);
+  if (options.json) console.log(JSON.stringify(summary, null, 2)); else printSummary(summary);
+}
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(redact(error.stack || error.message || error)); process.exitCode = 1; });
-export { APPROVED_SOURCE, buildApprovedFeedUrl, buildSnapshotRow, buildUpsertSql, runIngestion, selectEligibleEvents, validateVividSeatsEventUrl };
+export { APPROVED_SOURCE, buildSnapshotRow, buildUpsertSql, impactCredentials, marketplaceProductsUrl, pricesForProduction, runIngestion, selectEligibleEvents, vividProductionId };

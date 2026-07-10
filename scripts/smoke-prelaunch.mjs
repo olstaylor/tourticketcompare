@@ -998,7 +998,7 @@ assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price sna
 assert(appJs.includes("function approvedVividSeatsPriceLane(show)"), "hydration should include an approved Vivid Seats price lane helper");
 assert(appJs.includes("safeVividSeatsEventUrl(show?.vividseats_url)"), "hydrated Vivid Seats price snapshots should require a valid stored Vivid Seats event URL");
 assert(appJs.includes('item?.provider === "Vivid Seats"'), "hydrated Vivid Seats price snapshots should require the provider-attributed Vivid Seats lane");
-assert(appJs.includes("source !== \"vividseats_approved_feed\""), "hydrated Vivid Seats price snapshots should require the approved source attribution");
+assert(appJs.includes("source !== \"vividseats_impact_marketplace_api\""), "hydrated Vivid Seats price snapshots should require the approved source attribution");
 assert(appJs.includes("isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt)"), "hydrated Vivid Seats price snapshots should require ISO timestamps before checking freshness");
 assert(appJs.includes("renderVividSeatsPriceSnapshot(show)"), "hydration should append Vivid Seats snapshots only through the approved render helper");
 assert(appJs.includes("Vivid Seats price snapshot as of"), "hydration should include provider-attributed Vivid Seats snapshot copy");
@@ -1340,7 +1340,7 @@ const freshVividSeatsPriceRow = {
   inventory_count: 17,
   verified_at: "2026-05-14T11:05:00Z",
   expires_at: "2026-05-14T13:05:00Z",
-  source: "vividseats_approved_feed"
+  source: "vividseats_impact_marketplace_api"
 };
 const flagOffFreshVividSeatsResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
@@ -1361,7 +1361,7 @@ const flagOnFreshVividSeatsResponse = await showsModule.onRequestGet({
 });
 const flagOnVividSeatsLane = vividSeatsLaneFrom(await flagOnFreshVividSeatsResponse.json());
 assert(flagOnVividSeatsLane?.price === freshVividSeatsPriceRow.low_price, "Vivid Seats price should be returned from a fresh approved D1 latest snapshot when the feature flag is enabled");
-assert(flagOnVividSeatsLane?.providerStatus === "ok" && flagOnVividSeatsLane?.source === "vividseats_approved_feed", "fresh Vivid Seats snapshot should expose only the approved source attribution");
+assert(flagOnVividSeatsLane?.providerStatus === "ok" && flagOnVividSeatsLane?.source === "vividseats_impact_marketplace_api", "fresh Vivid Seats snapshot should expose only the approved source attribution");
 
 const staleVividSeatsResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),

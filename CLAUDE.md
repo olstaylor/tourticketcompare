@@ -170,4 +170,3 @@ Read in order: **`CLAUDE.md`** (this file) → **`PROJECT_STATUS.md`** → **`BA
 Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) · [docs/PROVIDER_SYNC.md](docs/PROVIDER_SYNC.md) · [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)
 
 Not authoritative: `HANDOVER.md`, `AGENTS.md` (superseded pointer stubs) and everything in `docs/archive/` (historical, indexed in [docs/archive/INDEX.md](docs/archive/INDEX.md)). Do not act on archived findings without re-verifying against `PROJECT_STATUS.md` and `BACKLOG.md`.
-

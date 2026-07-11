@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-07-10T08:30:58.807Z
+Generated: 2026-07-11T07:18:57.690Z
 
 ## Run summary
 
@@ -8,7 +8,7 @@ Generated: 2026-07-10T08:30:58.807Z
 - SeatGeek client ID present: true
 - SeatGeek client secret present: false
 - API access with client ID only: HTTP 200
-- Total events in data: 403
+- Total events in data: 404
 - Ticketmaster-verified events: 293
 - Events already carrying a valid SeatGeek URL: 259
 - Ticketmaster-verified events already carrying a valid SeatGeek URL: 202

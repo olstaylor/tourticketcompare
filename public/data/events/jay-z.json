@@ -210,5 +210,58 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_GNCU5jV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-z-2026-london-17u8v0g6cksbad4",
+    "artist_slug": "jay-z",
+    "artist_name": "JAY-Z",
+    "event_name": "JAY-Z - 30",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2026-09-04T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064E1B1E85ED5",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/jayz-30-london-04-09-2026/event/350064E1B1E85ED5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/jayz-30-london-04-09-2026/event/350064E1B1E85ED5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064E1B1E85ED5",
+        "discovery_event_id": "17u8v0G6CksBAD4",
+        "url": "https://www.ticketmaster.co.uk/jayz-30-london-04-09-2026/event/350064E1B1E85ED5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G6CksBAD4",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

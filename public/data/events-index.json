@@ -4797,5 +4797,17 @@
     "datetime_iso": "2026-09-27T18:30:00Z",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-z-2026-london-17u8v0g6cksbad4",
+    "artist_slug": "jay-z",
+    "artist_name": "JAY-Z",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "Tottenham Hotspur Stadium",
+    "datetime_iso": "2026-09-04T16:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

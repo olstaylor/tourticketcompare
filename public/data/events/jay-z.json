@@ -13,7 +13,7 @@
     "status": "announced",
     "ticketmaster_event_id": "1D006473D78CFDB8",
     "ticketmaster_url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
-    "seatgeek_url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-10-3-30-am/concert/18131684",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/jay-z-tickets-bronx-yankee-stadium-7-10-2026--concerts-rap-hip-hop/production/6802415",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8",
@@ -28,11 +28,11 @@
         "discovery_event_id": "G5vVZ_629N2Uz"
       },
       "seatgeek": {
-        "event_id": 18131684,
-        "url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-10-3-30-am/concert/18131684",
-        "verified": true,
-        "last_verified_at": "2026-07-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6802415,
@@ -84,7 +84,7 @@
         "event_id": 18131686,
         "url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-11-8-pm/concert/18131686",
         "verified": true,
-        "last_verified_at": "2026-07-08",
+        "last_verified_at": "2026-07-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -137,7 +137,7 @@
         "event_id": 18140262,
         "url": "https://seatgeek.com/jay-z-tickets/bronx-new-york-yankee-stadium-2026-07-12-8-pm/concert/18140262",
         "verified": true,
-        "last_verified_at": "2026-07-08",
+        "last_verified_at": "2026-07-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -189,7 +189,7 @@
         "event_id": 18296599,
         "url": "https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-23-8-pm/concert/18296599",
         "verified": true,
-        "last_verified_at": "2026-07-08",
+        "last_verified_at": "2026-07-11",
         "availability_status": "listed"
       },
       "vivid-seats": {

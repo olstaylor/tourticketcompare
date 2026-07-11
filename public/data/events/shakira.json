@@ -594,7 +594,7 @@
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "01006471D82F68CE",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
-    "seatgeek_url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-10-7-30-pm/concert/18157398",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-boston-td-garden-7-10-2026--concerts-pop/production/6856767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-boston-massachusetts-07-10-2026/event/01006471D82F68CE",
@@ -609,11 +609,11 @@
         "discovery_event_id": "vv1AvZkosGkdb5UNC"
       },
       "seatgeek": {
-        "event_id": 18157398,
-        "url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-10-7-30-pm/concert/18157398",
-        "verified": true,
-        "last_verified_at": "2026-07-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6856767,
@@ -665,7 +665,7 @@
         "event_id": 18225033,
         "url": "https://seatgeek.com/shakira-tickets/boston-massachusetts-td-garden-2026-07-11-7-30-pm/concert/18225033",
         "verified": true,
-        "last_verified_at": "2026-07-08",
+        "last_verified_at": "2026-07-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -718,7 +718,7 @@
         "event_id": 18157380,
         "url": "https://seatgeek.com/shakira-tickets/newark-new-jersey-prudential-center-2026-07-14-7-30-pm/concert/18157380",
         "verified": true,
-        "last_verified_at": "2026-07-08",
+        "last_verified_at": "2026-07-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -771,7 +771,7 @@
         "event_id": 18157379,
         "url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-20-7-30-pm/concert/18157379",
         "verified": true,
-        "last_verified_at": "2026-07-08",
+        "last_verified_at": "2026-07-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -824,7 +824,7 @@
         "event_id": 18225034,
         "url": "https://seatgeek.com/shakira-tickets/brooklyn-new-york-barclays-center-2026-07-21-7-30-pm/concert/18225034",
         "verified": true,
-        "last_verified_at": "2026-07-08",
+        "last_verified_at": "2026-07-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -877,7 +877,7 @@
         "event_id": 18157381,
         "url": "https://seatgeek.com/shakira-tickets/elmont-new-york-ubs-arena-2026-07-23-7-30-pm/concert/18157381",
         "verified": true,
-        "last_verified_at": "2026-07-08",
+        "last_verified_at": "2026-07-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -930,7 +930,7 @@
         "event_id": 18157403,
         "url": "https://seatgeek.com/shakira-tickets/atlantic-city-new-jersey-boardwalk-hall-2026-07-25-7-30-pm/concert/18157403",
         "verified": true,
-        "last_verified_at": "2026-07-08",
+        "last_verified_at": "2026-07-11",
         "availability_status": "listed"
       },
       "vivid-seats": {

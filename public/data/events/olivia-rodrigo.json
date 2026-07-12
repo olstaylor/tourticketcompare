@@ -4340,58 +4340,6 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8FFJf_"
   },
   {
-    "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "event_name": "Olivia Rodrigo w/ Die Spitz",
-    "city": "Greenwich",
-    "country": "United Kingdom",
-    "venue": "The O2",
-    "datetime_iso": "2027-05-09T16:00:00Z",
-    "tour_name": "The Unraveled Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A70ff4",
-    "ticketmaster_url": "",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "",
-    "last_verified_at": "2026-07-07",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A70ff4",
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
-        "discovery_event_id": "Z7r9jZ1A70ff4"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "status": "on-sale",
-    "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A70ff4"
-  },
-  {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
@@ -4443,58 +4391,6 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AdfZ_aGkDz-z3P"
-  },
-  {
-    "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "event_name": "Olivia Rodrigo w/ Die Spitz",
-    "city": "Greenwich",
-    "country": "United Kingdom",
-    "venue": "The O2",
-    "datetime_iso": "2027-05-10T16:00:00Z",
-    "tour_name": "The Unraveled Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A70fff",
-    "ticketmaster_url": "",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "",
-    "last_verified_at": "2026-07-07",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A70fff",
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
-        "discovery_event_id": "Z7r9jZ1A70fff"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "status": "on-sale",
-    "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A70fff"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3",

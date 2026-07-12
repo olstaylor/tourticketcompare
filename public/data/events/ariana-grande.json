@@ -2796,59 +2796,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-ariana-grande-2026-chicago-vv1a7zkg_gkdqbxs4",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Chicago",
-    "country": "United States Of America",
-    "venue": "United Center",
-    "datetime_iso": "2026-08-04T02:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "04006319DDEA2CD5",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "last_verified_at": "2026-07-07",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "04006319DDEA2CD5",
-        "discovery_event_id": "vv1A7ZkG_GkdqBxS4",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-        "verified": true,
-        "last_verified_at": "2026-07-07",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 17700811,
-        "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
-        "verified": true,
-        "last_verified_at": "2026-07-11",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 5973688,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
-        "verified": true,
-        "last_verified_at": "2026-07-09",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "vv1A7ZkG_GkdqBxS4",
-    "timezone": "America/Chicago",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-ariana-grande-2026-chicago-vv1a7zkgpgkecew3e",
     "artist_slug": "ariana-grande",
     "artist_name": "Ariana Grande",

@@ -950,7 +950,8 @@
         "url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/625835491",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZ8v"
       },
       "seatgeek": {
         "event_id": null,
@@ -974,7 +975,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8v"
   },
   {
     "id": "tm-bad-bunny-2026-stockholm-734104140",
@@ -1001,7 +1003,8 @@
         "url": "https://www.ticketmaster.se/event/bad-bunny-debi-tirar-mas-fotos-world-tour-biljetter/734104140",
         "verified": true,
         "last_verified_at": "2026-05-07",
-        "availability_status": "on_sale"
+        "availability_status": "on_sale",
+        "discovery_event_id": "Z7r9jZ1A7xZ8e"
       },
       "seatgeek": {
         "event_id": null,
@@ -1025,7 +1028,8 @@
         "availability_status": "not_checked"
       }
     },
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8e"
   },
   {
     "id": "tm-bad-bunny-2026-warsaw-1844913130",
@@ -1389,214 +1393,6 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7baxb",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8v",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny",
-    "city": "Solna",
-    "country": "Sweden",
-    "venue": "Strawberry Arena",
-    "datetime_iso": "2026-07-10T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZ8v",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8v",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8v",
-    "last_verified_at": "2026-07-07",
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZ8v",
-        "discovery_event_id": "Z7r9jZ1A7xZ8v",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8v",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8v",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8e",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny",
-    "city": "Solna",
-    "country": "Sweden",
-    "venue": "Strawberry Arena",
-    "datetime_iso": "2026-07-11T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZ8e",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8e",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8e",
-    "last_verified_at": "2026-07-07",
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZ8e",
-        "discovery_event_id": "Z7r9jZ1A7xZ8e",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8e",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8e",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz87",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny",
-    "city": "Milan",
-    "country": "Italy",
-    "venue": "Ippodromo Snai La Maura",
-    "datetime_iso": "2026-07-17T18:45:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZ87",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ87",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ87",
-    "last_verified_at": "2026-07-07",
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZ87",
-        "discovery_event_id": "Z7r9jZ1A7xZ87",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ87",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ87",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz8a",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny",
-    "city": "Milan",
-    "country": "Italy",
-    "venue": "Ippodromo Snai La Maura",
-    "datetime_iso": "2026-07-18T18:45:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZ8A",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8A",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8A",
-    "last_verified_at": "2026-07-07",
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZ8A",
-        "discovery_event_id": "Z7r9jZ1A7xZ8A",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZ8A",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8A",
     "status": "on-sale"
   },
   {

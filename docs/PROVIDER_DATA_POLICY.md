@@ -62,7 +62,7 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 **Role:** Second affiliate provider (Impact network, approved), live for verified event-level links.
 
-**Current status (2026-07-10):** Event-level Vivid Seats CTAs are live. The reviewed data set contains 218 `vividseats_url` destinations with matching `provider_links["vivid-seats"].verified === true` provenance and a strict `/production/<numeric id>` URL shape. Runtime Impact configuration remains mandatory; `/api/out` returns diagnostic JSON rather than an untracked redirect when configuration or tracking fails. Artist-level `VERIFIED_TICKET_LINKS` support exists in code, but no artist-level Vivid Seats entries are configured. The sync workflow is manual-dispatch-only until its commented nightly cron is explicitly enabled.
+**Current status (2026-07-10):** Event-level Vivid Seats CTAs are live. The reviewed data set contains 218 `vividseats_url` destinations with matching `provider_links["vivid-seats"].verified === true` provenance and a strict `/production/<numeric id>` URL shape. Runtime Impact configuration remains mandatory; `/api/out` returns diagnostic JSON rather than an untracked redirect when configuration or tracking fails. Artist-level `VERIFIED_TICKET_LINKS` support exists in code, but no artist-level Vivid Seats entries are configured. The sync workflow's nightly cron (05:30 UTC) was enabled on 2026-07-12 (owner-directed automation goal) after its supervised first apply run merged and was spot-checked.
 
 **Approved public display rights (confirmed 2026-07-09):**
 - **Ticket links/CTAs:** approved and live for event records that pass the per-event provenance, URL-shape, runtime configuration, and redirect gates.
@@ -74,7 +74,7 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 **Remaining operational work:**
 1. Keep the verified event data and runtime Impact configuration healthy; a tracking failure must continue to return diagnostic JSON, never an untracked redirect.
-2. Enable and monitor the commented `vividseats-cta-sync.yml` nightly cron only after owner approval.
+2. Monitor the `vividseats-cta-sync.yml` nightly cron (enabled 2026-07-12) via its auto-merge PRs and committed sync logs.
 3. Treat artist-level Vivid Seats entries as separate scope.
 4. Keep the Vivid Seats source, exact-event, and freshness gates healthy; the display flag is enabled under the written 2026-07-10 agreement.
 
@@ -114,11 +114,11 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 `GET /api/shows` supports an optional `includePrices=true` parameter, subject to these rules:
 
-- `includePrices=true` requires a `showId` parameter. Bulk price fan-out to providers is not permitted.
+- `includePrices=true` requires a `showId` parameter, **except** when `priceProviders=approved-marketplaces` is also set. Bulk price fan-out to provider APIs is not permitted in any mode; the approved-marketplaces exception (added 2026-07-12 so boards can show snapshots for every eligible show) is safe because those lanes are served exclusively from the D1 `provider_pricing_cache` written by the scheduled snapshot workflows — a list request performs a batched cache read and never calls an external provider API. Ticketmaster and any live-lookup lane remain single-`showId` only.
 - `MOCK_MODE` and `ALLOW_MOCK_PRICES` must both be `false` in production. Mock prices must never be displayed to users.
 - `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` must be `true` and a valid `TICKETMASTER_API_KEY` must be configured for live Ticketmaster price lookups.
 - SeatGeek returns `status: unavailable` unless `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='seatgeek'`, `source='seatgeek_partner_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
-- Vivid Seats returns `status: unavailable` unless `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='vividseats'`, `source='vividseats_impact_marketplace_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
+- Vivid Seats returns `status: unavailable` unless `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='vivid-seats'`, `source='vividseats_impact_marketplace_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
 - Price results include `fetchedAt` timestamps. Do not display prices without showing or conveying freshness. A side-by-side comparison additionally requires two fresh approved provider lanes for the same local event ID; when currencies match, the UI may calculate and label the lower listed snapshot and absolute difference.
 
 ---

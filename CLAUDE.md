@@ -111,7 +111,7 @@ Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS
 - `seatgeek-discovery-proposal.yml` (dispatch) — proposal-only SeatGeek event-URL discovery.
 - `seatgeek-price-snapshots.yml` (every 4 h) — writes approved SeatGeek price snapshots to D1; stale or unverified rows remain hidden.
 - `vividseats-price-snapshots.yml` (every 4 h) — writes approved Vivid Seats feed snapshots to D1 when its approved-feed and Cloudflare secrets are configured; missing secrets no-op safely.
-- `vividseats-cta-sync.yml` (manual dispatch) — verified event-level Vivid Seats link/provenance sync. Its nightly cron remains commented out pending owner enablement and monitoring.
+- `vividseats-cta-sync.yml` (05:30 UTC, cron enabled 2026-07-12 owner-directed) — verified event-level Vivid Seats link/provenance sync; auto-merges after its in-run validation suite, mirroring `seatgeek-cta-sync.yml`.
 - `prelaunch-validation.yml` (PRs) — validation suite incl. the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`.
 - `tm-data-refresh-pr.yml` (dispatch) — manual PR-based refresh of existing events.
 

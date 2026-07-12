@@ -11,7 +11,7 @@ const ROUTES = [
       canonical: 'https://tourticketcompare.com/',
       description:
         'Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site.',
-      h1: 'Find checked ticket options for major tours'
+      h1: 'Compare resale ticket prices for major tours'
     }
   },
   {

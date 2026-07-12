@@ -263,8 +263,8 @@
     const chips = DATA.artists.filter(artist => artist && artist.slug).slice(0, 5);
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
-      h("h1", { class: "ttc-hero__h1", html: 'Verified ticket options for <em>major tours.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["Human-checked ticket links, clear official-vs-resale guidance, and fresh approved SeatGeek and Vivid Seats snapshots for the same event where both are available. We don’t sell tickets; confirm the final checkout total before you pay."]),
+      h("h1", { class: "ttc-hero__h1", html: 'Compare resale ticket prices for <em>major tours.</em>' }),
+      h("p", { class: "ttc-hero__sub" }, ["SeatGeek and Vivid Seats prices side by side for the same show — free, and we don’t sell tickets. Confirm the final total at checkout."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug }, [artist.name]))])
@@ -290,7 +290,7 @@
     const feed = h("div", { class: "ttc-feed" }, [
       h("div", { class: "ttc-feed__hd" }, [h("span", { class: "t" }, [pulse(), "Upcoming dates we’re tracking"]), h("span", { class: "ttc-meta" }, [DATA.upcomingCount + " dates"])]),
       feedList,
-      h("div", { class: "ttc-feed__ft" }, [h("span", { class: "ttc-meta" }, ["Dates sourced from ticket providers. Confirm date, venue and final price on the provider page before you buy."])])
+      h("div", { class: "ttc-feed__ft" }, [h("span", { class: "ttc-meta" }, ["Dates come from ticket providers — confirm details and final price before you buy."])])
     ]);
 
     return h("section", { class: "ttc-hero" }, [h("div", { class: "ttc-wrap ttc-hero__grid" }, [left, feed])]);
@@ -314,14 +314,14 @@
 
   function valueSection() {
     const vp = [
-      { ic: "check",  t: "Verified destinations only", b: "A ticket button appears only when a human has checked the provider page. If it hasn’t been checked, you see a watchlist state — never a dead-end link." },
-      { ic: "search", t: "Official vs resale, explained", b: "Know exactly what you’re buying before you leave. Our guides break down primary tickets, resale, fees, delivery and transfer rules in plain language." },
-      { ic: "arrow",  t: "Confirm before you pay", b: "Approved snapshots are provider-attributed and timestamped. Always compare the provider’s final checkout total — including fees — before you pay." },
+      { ic: "search", t: "Find your show", b: "Search an artist and pick a date. Every date and link is checked by a human first." },
+      { ic: "check",  t: "Compare prices", b: "Fresh, approved SeatGeek and Vivid Seats price snapshots, side by side, for the same event." },
+      { ic: "arrow",  t: "Buy on the provider site", b: "Click through to checkout. Free to use — commissions never change the price you pay." },
     ];
     return h("section", { class: "ttc-sec" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["What this tool actually does"]), h("p", { class: "ttc-sec__desc" }, ["No marketplace, no checkout, no invented prices. We compare only fresh, approved provider snapshots for the same verified event."])]),
-        h("a", { class: "ttc-sec__link", href: "/how-it-works" }, ["How it works ", svg("arrow")])
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["How it works"]), h("p", { class: "ttc-sec__desc" }, ["Three steps — no marketplace, no invented prices."])]),
+        h("a", { class: "ttc-sec__link", href: "/how-it-works" }, ["Full details ", svg("arrow")])
       ]),
       h("div", { class: "ttc-vp" }, vp.map((v, i) => h("div", { class: "ttc-vpcard" }, [
         h("div", { class: "ttc-vpcard__n" }, ["0" + (i + 1)]),
@@ -403,7 +403,7 @@
 
     return h("section", { class: "ttc-sec ttc-sec--flush" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Coverage explorer"]), h("p", { class: "ttc-sec__desc" }, ["Every tracked artist and their verification status. Sort by name, genre, region or when we last checked. A ticket button appears only where the destination is verified."])]),
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Coverage explorer"]), h("p", { class: "ttc-sec__desc" }, ["Every tracked artist and when we last checked their links. Ticket buttons appear only for verified destinations."])]),
         h("a", { class: "ttc-sec__link", href: "/artists" }, ["All artists ", svg("arrow")])
       ]),
       card
@@ -414,7 +414,7 @@
     const list = DATA.guides.slice(0, 6);
     return h("section", { class: "ttc-sec ttc-sec--flush" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Buying guides"]), h("p", { class: "ttc-sec__desc" }, ["Practical, plain-language guidance for checking totals, understanding resale, and avoiding risky listings before you commit."])]),
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Buying guides"]), h("p", { class: "ttc-sec__desc" }, ["Fees, resale, timing, scams — plain-language answers before you buy."])]),
         h("a", { class: "ttc-sec__link", href: "/guides" }, ["All guides ", svg("arrow")])
       ]),
       h("div", { class: "ttc-guides" }, list.map(g => h("a", { class: "ttc-gcard", href: "/guides/" + g.slug }, [
@@ -429,7 +429,7 @@
     const items = [
       { h: "Independent & unofficial", p: "Not affiliated with any artist, venue, promoter or ticketing platform." },
       { h: "Affiliate links, same price", p: "Some outbound links earn us a commission. This never changes the price you pay." },
-      { h: "Providers set the terms", p: "External sites set their own prices, fees, availability and checkout rules." },
+      { h: "Providers set the terms", p: "Approved snapshots are provider-attributed and timestamped. External sites set their own prices, fees and checkout rules." },
     ];
     return h("section", { class: "ttc-sec ttc-sec--flush" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-trust" }, [h("div", { class: "ttc-trust__grid" }, [

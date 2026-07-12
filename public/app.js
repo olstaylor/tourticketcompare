@@ -563,11 +563,11 @@ function renderProviderButtons(artist, surface) {
   text(panel, "h2", links.length ? "Artist-level provider pages" : "Provider links").id = "providerTitle";
 
   if (!links.length) {
-    text(panel, "p", "No provider artist page link is currently available for this artist. Ticket buttons for provider artist pages appear only after destination checks. Event-level links, where shown, come from ticket data sources and have not been confirmed as verified destinations.", "muted");
+    text(panel, "p", "No artist-level provider page has been verified yet — buttons appear only after destination checks.", "muted");
     const guideNote = document.createElement("p");
     guideNote.className = "muted";
     guideNote.append(
-      document.createTextNode("These guides cover what to check before committing to a ticketing platform: "),
+      document.createTextNode("What to check before committing to a ticketing platform: "),
       link("avoiding overpaying", "/guides/how-to-avoid-overpaying-for-concert-tickets", "text-link"),
       document.createTextNode(", "),
       link("when to buy", "/guides/when-is-the-best-time-to-buy-concert-tickets", "text-link"),
@@ -586,7 +586,7 @@ function renderProviderButtons(artist, surface) {
     return panel;
   }
 
-  text(panel, "p", "These are provider pages for the artist, not verified links for a specific date. Use them to check current provider listings, then confirm the final price, fees, availability, and delivery terms before buying.", "muted");
+  text(panel, "p", "Provider pages for this artist — not date-specific links. Check current listings there and confirm the final total before buying.", "muted");
   if (links.length === 1) {
     text(panel, "p", "Only one artist-level provider page is currently verified, so this is not a full provider comparison.", "disclosure-note");
   }
@@ -626,7 +626,7 @@ function renderProviderButtons(artist, surface) {
   text(
     panel,
     "p",
-    "Some links are affiliate links. This does not change your price or which links we show. Providers control prices, availability, fees, delivery details, and checkout terms; confirm details on the provider site before buying.",
+    "Some links are affiliate links. This never changes your price or which links we show; providers set prices, fees, and delivery.",
     "disclosure-note"
   );
   return panel;
@@ -1017,14 +1017,14 @@ function renderWhatYouCanDo() {
   section.setAttribute("aria-labelledby", "whatYouCanDoTitle");
   const header = document.createElement("div");
   header.className = "section-intro";
-  text(header, "h2", "What you can do here").id = "whatYouCanDoTitle";
+  text(header, "h2", "How it works").id = "whatYouCanDoTitle";
   const grid = document.createElement("div");
   grid.className = "card-grid";
   // Keep in sync with the homepage template in functions/[[path]].js.
   [
-    ["Find your show", "Browse an artist's checked dates and filter by city, country, or venue to reach the right event page fast.", "/artists", "Browse artists"],
-    ["Understand fees and totals", "Service and delivery fees change the final total. Learn how to check what you will actually pay before checkout.", "/guides/how-to-compare-concert-ticket-prices", "Read the guide"],
-    ["Avoid risky listings", "Spot resale red flags, fake urgency, and scam patterns before you hand over payment details.", "/guides/how-to-avoid-ticket-scams", "Read the guide"]
+    ["1. Find your show", "Search an artist and pick a date. Every date and link is checked by a human first.", "/artists", "Browse artists"],
+    ["2. Compare prices", "Fresh, approved SeatGeek and Vivid Seats price snapshots, side by side, for the same event.", "/compare-concert-ticket-prices", "Compare ticket prices"],
+    ["3. Buy on the provider site", "Click through to checkout. Free to use — commissions never change the price you pay.", "/guides/how-to-compare-concert-ticket-prices", "Read the guide"]
   ].forEach(([title, body, href, ctaLabel]) => {
     const card = document.createElement("article");
     card.className = "info-card";
@@ -1046,10 +1046,8 @@ function renderTrustSection() {
   text(header, "h2", "Trust & transparency").id = "trustTitle";
   const panel = document.createElement("div");
   panel.className = "nested-panel";
-  text(panel, "p", "TourTicketCompare is independent and unofficial. We do not sell tickets.");
-  text(panel, "p", "We only show ticket destinations that pass our verification checks.");
-  text(panel, "p", "Some links may earn us a commission. That never changes which links we show, or the price you pay.");
-  text(panel, "p", "Prices, availability, fees, and delivery details can change quickly. Always confirm the final price and ticket terms on the provider site before buying.");
+  text(panel, "p", "TourTicketCompare is independent and unofficial. We do not sell tickets, and every destination passes verification checks before it appears.");
+  text(panel, "p", "Some links may earn us a commission — that never changes which links we show, or the price you pay. Confirm the final price and terms on the provider site.");
   const links = document.createElement("p");
   links.append(
     document.createTextNode("Learn more: "),
@@ -1069,17 +1067,17 @@ async function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Find checked ticket options for major tours", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Compare resale ticket prices for major tours", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
-    "Compare ticket options safely before you buy. Open verified provider links and confirm final prices, fees, availability, seat details, and delivery terms on the ticket provider site.",
+    "SeatGeek and Vivid Seats prices side by side for the same show — free, and we do not sell tickets. Confirm the final total at checkout.",
     "hero-subcopy"
   );
   text(
     copy,
     "p",
-    "Current checked event coverage is strongest in the United States, with selected UK, Europe, and Canada dates where verified links are available.",
+    "Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.",
     "disclosure-note"
   );
 
@@ -1111,7 +1109,7 @@ async function renderHome() {
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Featured artists").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Every artist page lists checked upcoming dates, with links to the exact event page where one is verified.");
+  text(artistHeader, "p", "Checked upcoming dates and verified event links for every artist we track.");
   const homeEvents = await loadEventsForSearch();
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
@@ -1458,7 +1456,7 @@ function renderSeatGeekPriceSnapshot(show) {
   const row = document.createElement("div");
   row.className = "price-snapshot-row seatgeek-price-snapshot";
   row.append(renderPriceChip("SeatGeek", amount));
-  text(row, "p", `SeatGeek price snapshot as of ${asOf}. Listed snapshot excludes fees; confirm the final total on SeatGeek before buying.`, "disclosure-note");
+  text(row, "p", `SeatGeek price snapshot as of ${asOf} — excludes fees; confirm the final total on SeatGeek.`, "disclosure-note");
   return row;
 }
 
@@ -1471,7 +1469,7 @@ function renderVividSeatsPriceSnapshot(show) {
   const row = document.createElement("div");
   row.className = "price-snapshot-row vividseats-price-snapshot";
   row.append(renderPriceChip("Vivid Seats", amount));
-  text(row, "p", `Vivid Seats price snapshot as of ${asOf}. Listed snapshot excludes fees; confirm the final total on Vivid Seats before buying.`, "disclosure-note");
+  text(row, "p", `Vivid Seats price snapshot as of ${asOf} — excludes fees; confirm the final total on Vivid Seats.`, "disclosure-note");
   return row;
 }
 
@@ -1523,7 +1521,7 @@ function renderProviderPriceComparison(show) {
     text(row, "p", "The snapshots use different currencies, so no price difference is calculated.", "price-compare-note");
   }
 
-  text(row, "p", `SeatGeek price snapshot as of ${seatGeekAsOf}; Vivid Seats price snapshot as of ${vividSeatsAsOf}. Listed snapshots exclude fees; confirm the final total on the provider site before buying.`, "disclosure-note");
+  text(row, "p", `SeatGeek price snapshot as of ${seatGeekAsOf}; Vivid Seats price snapshot as of ${vividSeatsAsOf}. Prices exclude fees — confirm the final total on the provider site.`, "disclosure-note");
   return row;
 }
 
@@ -1562,7 +1560,7 @@ function renderShowCard(show, options = {}) {
   }
 
   if (options.reviewGated) {
-    text(body, "p", "Ticket links for this artist are still being reviewed. We do not show buy buttons until the destination has been checked.", "disclosure-note");
+    text(body, "p", "Ticket links for this artist are still being reviewed. Buy buttons appear once the destination has been checked.", "disclosure-note");
   } else if (options.showEventCta) {
     const ticketmasterUrl = safeVerifiedEventUrl(show.ticketmaster_url);
     const showId = String(show.id || "").trim();
@@ -1642,13 +1640,7 @@ function renderShowBoardEmptyState(artistName = "") {
   text(
     wrap,
     "p",
-    `We are not publishing upcoming ${name} dates or event-specific ticket buttons until the ticket destination has been checked. If an artist-level provider page is available, you can use it below to check the provider directly.`,
-    "muted"
-  );
-  text(
-    wrap,
-    "p",
-    "TourTicketCompare does not publish unverified dates or fake prices. While you wait, use the buying guides to compare final checkout totals, fees, delivery terms, and resale protections safely.",
+    `We do not publish upcoming ${name} dates or ticket buttons until the destination has been checked — no unverified dates, no fake prices. Use an artist-level provider page on this page or the buying guides in the meantime.`,
     "muted"
   );
   const actions = document.createElement("div");
@@ -1681,12 +1673,6 @@ function renderShowFilterEmptyState(onReset) {
     wrap,
     "p",
     "Try a different city, venue, or tour name, or clear the filters to see every verified date.",
-    "muted"
-  );
-  text(
-    wrap,
-    "p",
-    "You can also browse all artist pages or use the ticket buying guides to compare fees, delivery terms, and resale protections safely.",
     "muted"
   );
   const reset = document.createElement("button");
@@ -2135,8 +2121,8 @@ function renderArtist(artist) {
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
     "Upcoming shows",
-    "Choose a date, then open the checked provider links to compare current ticket options.",
-    "Provider buttons may include official and resale marketplaces. Providers control prices, fees, availability and delivery; confirm the final total and ticket terms before buying."
+    "Pick a date, then compare the checked ticket options for that show.",
+    "Prices shown come directly from our partners, SeatGeek and Vivid Seats. Providers set final prices, fees, and availability — confirm the total at checkout."
   );
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
     try {
@@ -2173,15 +2159,13 @@ function renderArtist(artist) {
 
   const checklist = document.createElement("section");
   checklist.className = "nested-panel";
-  text(checklist, "h2", "Ticket buying checklist");
+  text(checklist, "h2", "Before you buy");
   checklist.append(
     createList(
       [
-        "Check the final price including fees before paying.",
-        "Check the seat location, section, row, and any view restrictions.",
-        "Check resale terms and buyer protections if the ticket is listed by a third party.",
-        "Check the delivery method and expected transfer timing.",
-        "Check refund, cancellation, and event-change terms on the provider site."
+        "Check the final price including all fees.",
+        "Check the seat location and any view restrictions.",
+        "Check delivery, refund, and resale terms on the provider site."
       ],
       "check-list"
     )

@@ -28,8 +28,10 @@ Withhold rules (a row failing any rule is WITHHELD for human review):
   city/country; missing or date-only datetime; URL host not in the existing
   functions/api/out.js Ticketmaster allowlist (parsed read-only — never
   expanded here); placeholder URL; likely travel/hotel/package/parking
-  listing; duplicate of an existing events.json row (by TM event id or
-  venue/city/date); duplicate venue/city/date within the fetched batch; event
+  listing; duplicate of an existing events.json row (by TM discovery or
+  storefront event id, or by venue + venue-local date — city is excluded
+  because sources disagree on it for the same venue); duplicate venue/date
+  within the fetched batch; event
   attraction list does not include the registry's verified attraction ID; the
   registry attraction is not the event's primary attraction (support-act and
   festival-lineup appearances are withheld).
@@ -57,6 +59,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_PATH = ROOT / "data" / "provider-identities.json"
@@ -261,6 +264,44 @@ def parse_event_datetime(tm_event):
     return local_date, False
 
 
+def venue_date_key(venue_name, local_date):
+    """Duplicate-detection key: normalized venue + venue-local date.
+
+    City is deliberately excluded — TM storefronts and the Discovery API
+    disagree on it for the same venue (Milano/Milan, Stockholm/Solna for
+    Strawberry Arena, Greenwich/London for The O2), which previously let
+    re-ingested events past the duplicate check. Both parts must be present
+    for a usable key; returns "" otherwise.
+    """
+    venue = re.sub(r"\s+", " ", str(venue_name or "").strip().lower())
+    date = str(local_date or "").strip()[:10]
+    if not venue or not date:
+        return ""
+    return f"{venue}|{date}"
+
+
+def event_local_date(datetime_iso, tz_name=""):
+    """Venue-local calendar date (YYYY-MM-DD) for an events.json row.
+
+    Naive datetimes are legacy rows that already store venue-local time, so
+    their date part is used as-is. UTC/offset datetimes are converted with the
+    row's IANA timezone when available; without one the UTC date is the best
+    available approximation (evening shows in the Americas can otherwise
+    slip past midnight UTC into the next date).
+    """
+    value = str(datetime_iso or "").strip()
+    if not value:
+        return ""
+    has_offset = value.endswith("Z") or bool(re.search(r"[+-]\d{2}:\d{2}$", value))
+    if has_offset and tz_name:
+        try:
+            parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+            return parsed.astimezone(ZoneInfo(tz_name)).strftime("%Y-%m-%d")
+        except (ValueError, KeyError, OSError):
+            pass
+    return value[:10]
+
+
 def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids,
                    existing_venue_keys, batch_venue_keys, now_iso):
     """Classify one TM Discovery event row. Returns a report row dict.
@@ -350,14 +391,21 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
             "registry attraction is not the event's primary attraction (support act / festival lineup appearance)"
         )
 
-    if event_id and event_id.upper() in existing_event_ids:
-        reasons.append("duplicate of an existing events.json row (same ticketmaster_discovery_event_id)")
-    venue_key = f"{venue_name.lower()}|{city.lower()}|{datetime_iso[:10]}"
-    if venue_name and city and datetime_iso:
+    duplicate_ids = {event_id.upper()} if event_id else set()
+    if storefront_event_id:
+        duplicate_ids.add(storefront_event_id.upper())
+    if duplicate_ids & existing_event_ids:
+        reasons.append("duplicate of an existing events.json row (same ticketmaster event id)")
+    # Discovery's localDate is the venue-local calendar date; fall back to
+    # deriving it from the datetime + event timezone for defensive coverage.
+    start_local_date = ((tm_event.get("dates") or {}).get("start") or {}).get("localDate") or ""
+    local_date = str(start_local_date).strip() or event_local_date(datetime_iso, timezone)
+    venue_key = venue_date_key(venue_name, local_date)
+    if venue_key:
         if venue_key in existing_venue_keys:
-            reasons.append("duplicate of an existing events.json row (same venue/city/date)")
+            reasons.append("duplicate of an existing events.json row (same venue/date)")
         elif venue_key in batch_venue_keys:
-            reasons.append("duplicate venue/city/date within this fetched batch")
+            reasons.append("duplicate venue/date within this fetched batch")
         else:
             batch_venue_keys.add(venue_key)
 
@@ -465,18 +513,20 @@ def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, b
     existing = events_by_slug.get(slug, [])
     existing_event_ids = set()
     for e in existing:
-        discovery_id = (e.get("ticketmaster_discovery_event_id") or "").strip()
-        legacy_id = (e.get("ticketmaster_event_id") or "").strip()
-        if discovery_id:
-            existing_event_ids.add(discovery_id.upper())
-        elif legacy_id:
-            # Backward-compatible fallback for rows created before the
-            # split-ID model; new rows should carry ticketmaster_discovery_event_id.
-            existing_event_ids.add(legacy_id.upper())
-    existing_venue_keys = {
-        f"{(e.get('venue') or '').strip().lower()}|{(e.get('city') or '').strip().lower()}|{(e.get('datetime_iso') or '')[:10]}"
-        for e in existing
-    }
+        # Index both id systems: rows created before the split-ID model carry
+        # only ticketmaster_event_id (a storefront id or intl URL slug), and a
+        # discovery id never equals a storefront id — indexing only one of
+        # them let Discovery re-ingest events that were already in the file.
+        for id_value in (e.get("ticketmaster_discovery_event_id"), e.get("ticketmaster_event_id")):
+            id_value = (id_value or "").strip()
+            if id_value:
+                existing_event_ids.add(id_value.upper())
+    existing_venue_keys = set()
+    for e in existing:
+        local_date = event_local_date(e.get("datetime_iso"), (e.get("timezone") or "").strip())
+        key = venue_date_key(e.get("venue"), local_date)
+        if key:
+            existing_venue_keys.add(key)
     batch_venue_keys = set()
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -688,14 +738,43 @@ def self_test():
     )
     check(
         "duplicate of existing events.json Discovery id withheld",
-        any("same ticketmaster_discovery_event_id" in r for r in classify(
+        any("same ticketmaster event id" in r for r in classify(
             make_event(), existing_ids={"VV001"}
         )["withheld_reasons"]),
     )
     check(
-        "duplicate existing venue/city/date withheld",
-        any("same venue/city/date" in r for r in classify(
-            make_event(id="VV002"), existing_keys={"the o2|london|2027-06-01"}
+        "duplicate of existing legacy storefront id withheld (pre-split-ID row)",
+        any("same ticketmaster event id" in r for r in classify(
+            make_event(
+                id="VVNEW",
+                url="https://www.ticketmaster.com/raye-london-06-01-2027/event/LEGACY123",
+            ),
+            existing_ids={"LEGACY123"},
+        )["withheld_reasons"]),
+    )
+    check(
+        "duplicate existing venue/date withheld",
+        any("same venue/date" in r for r in classify(
+            make_event(id="VV002"), existing_keys={"the o2|2027-06-01"}
+        )["withheld_reasons"]),
+    )
+    check(
+        "venue/date duplicate caught despite city naming variance",
+        any("same venue/date" in r for r in classify(
+            make_event(
+                id="VV004",
+                _embedded={
+                    "venues": [
+                        {
+                            "name": "The  O2",
+                            "city": {"name": "Greenwich"},
+                            "country": {"name": "United Kingdom"},
+                        }
+                    ],
+                    "attractions": [{"id": "K8vZ917Kvt7"}],
+                },
+            ),
+            existing_keys={"the o2|2027-06-01"},
         )["withheld_reasons"]),
     )
     batch = set()
@@ -703,6 +782,18 @@ def self_test():
     check(
         "duplicate within batch withheld",
         any("within this fetched batch" in r for r in classify(make_event(id="VV003"), batch=batch)["withheld_reasons"]),
+    )
+    check(
+        "event_local_date converts UTC datetime to venue-local date",
+        event_local_date("2026-08-04T02:00:00Z", "America/Chicago") == "2026-08-03",
+    )
+    check(
+        "event_local_date keeps naive legacy datetime date as-is",
+        event_local_date("2026-07-17T20:45:00", "Europe/Rome") == "2026-07-17",
+    )
+    check(
+        "event_local_date falls back to UTC date without a timezone",
+        event_local_date("2026-08-04T02:00:00Z", "") == "2026-08-04",
     )
 
     # Dry-run-only contract: the script source must expose no write path.

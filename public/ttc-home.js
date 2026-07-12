@@ -233,8 +233,7 @@
       });
       panel.appendChild(body);
       panel.appendChild(h("div", { class: "ttc-search__foot" }, [
-        h("span", {}, [pulse(), "Catalog updated " + DATA.updated_at]),
-        h("span", {}, ["Provider snapshots shown only when approved"])
+        h("span", {}, [pulse(), "Catalog updated " + DATA.updated_at])
       ]));
     }
     input.addEventListener("input", () => { q = input.value; open = true; active = 0; render(); });
@@ -264,7 +263,7 @@
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Compare resale ticket prices for <em>major tours.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["SeatGeek and Vivid Seats prices side by side for the same show — free, and we don’t sell tickets. Confirm the final total at checkout."]),
+      h("p", { class: "ttc-hero__sub" }, ["SeatGeek and Vivid Seats prices side by side for the same show — free, and we don’t sell tickets."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug }, [artist.name]))])
@@ -289,8 +288,7 @@
     ]);
     const feed = h("div", { class: "ttc-feed" }, [
       h("div", { class: "ttc-feed__hd" }, [h("span", { class: "t" }, [pulse(), "Upcoming dates we’re tracking"]), h("span", { class: "ttc-meta" }, [DATA.upcomingCount + " dates"])]),
-      feedList,
-      h("div", { class: "ttc-feed__ft" }, [h("span", { class: "ttc-meta" }, ["Dates come from ticket providers — confirm details and final price before you buy."])])
+      feedList
     ]);
 
     return h("section", { class: "ttc-hero" }, [h("div", { class: "ttc-wrap ttc-hero__grid" }, [left, feed])]);
@@ -428,7 +426,6 @@
   function trustSection() {
     const items = [
       { h: "Independent & unofficial", p: "Not affiliated with any artist, venue, promoter or ticketing platform." },
-      { h: "Affiliate links, same price", p: "Some outbound links earn us a commission. This never changes the price you pay." },
       { h: "Providers set the terms", p: "Approved snapshots are provider-attributed and timestamped. External sites set their own prices, fees and checkout rules." },
     ];
     return h("section", { class: "ttc-sec ttc-sec--flush" }, [h("div", { class: "ttc-wrap" }, [

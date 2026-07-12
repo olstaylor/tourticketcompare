@@ -586,7 +586,7 @@ function renderProviderButtons(artist, surface) {
     return panel;
   }
 
-  text(panel, "p", "Provider pages for this artist — not date-specific links. Check current listings there and confirm the final total before buying.", "muted");
+  text(panel, "p", "Provider pages for this artist — not date-specific links.", "muted");
   if (links.length === 1) {
     text(panel, "p", "Only one artist-level provider page is currently verified, so this is not a full provider comparison.", "disclosure-note");
   }
@@ -623,12 +623,6 @@ function renderProviderButtons(artist, surface) {
     actions.append(card);
   });
   panel.append(actions);
-  text(
-    panel,
-    "p",
-    "Some links are affiliate links. This never changes your price or which links we show; providers set prices, fees, and delivery.",
-    "disclosure-note"
-  );
   return panel;
 }
 
@@ -1047,7 +1041,6 @@ function renderTrustSection() {
   const panel = document.createElement("div");
   panel.className = "nested-panel";
   text(panel, "p", "TourTicketCompare is independent and unofficial. We do not sell tickets, and every destination passes verification checks before it appears.");
-  text(panel, "p", "Some links may earn us a commission — that never changes which links we show, or the price you pay. Confirm the final price and terms on the provider site.");
   const links = document.createElement("p");
   links.append(
     document.createTextNode("Learn more: "),
@@ -1071,7 +1064,7 @@ async function renderHome() {
   text(
     copy,
     "p",
-    "SeatGeek and Vivid Seats prices side by side for the same show — free, and we do not sell tickets. Confirm the final total at checkout.",
+    "SeatGeek and Vivid Seats prices side by side for the same show — free, and we do not sell tickets.",
     "hero-subcopy"
   );
   text(
@@ -1116,7 +1109,7 @@ async function renderHome() {
   catalog.artists.forEach((artist) => {
     grid.append(renderArtistCard(artist, homeEvents));
   });
-  artists.append(artistHeader, renderArtistStatusLegend(), grid);
+  artists.append(artistHeader, grid);
 
   main.replaceChildren(hero, resultsSection, renderWhatYouCanDo(), artists, renderGuidePreview(), renderTrustSection());
 }
@@ -1458,7 +1451,7 @@ function renderSeatGeekInlinePrice(show) {
   if (!amount || !asOf) return null;
   const note = document.createElement("p");
   note.className = "disclosure-note";
-  note.textContent = `SeatGeek price snapshot as of ${asOf} — excludes fees; confirm the final total on SeatGeek.`;
+  note.textContent = `SeatGeek price snapshot as of ${asOf} — excludes fees.`;
   return { chip: renderPriceChip("SeatGeek", amount), note };
 }
 
@@ -1471,7 +1464,7 @@ function renderVividSeatsPriceSnapshot(show) {
   const row = document.createElement("div");
   row.className = "price-snapshot-row vividseats-price-snapshot";
   row.append(renderPriceChip("Vivid Seats", amount));
-  text(row, "p", `Vivid Seats price snapshot as of ${asOf} — excludes fees; confirm the final total on Vivid Seats.`, "disclosure-note");
+  text(row, "p", `Vivid Seats price snapshot as of ${asOf} — excludes fees.`, "disclosure-note");
   return row;
 }
 
@@ -1523,7 +1516,7 @@ function renderProviderPriceComparison(show) {
     text(row, "p", "The snapshots use different currencies, so no price difference is calculated.", "price-compare-note");
   }
 
-  text(row, "p", `SeatGeek price snapshot as of ${seatGeekAsOf}; Vivid Seats price snapshot as of ${vividSeatsAsOf}. Prices exclude fees — confirm the final total on the provider site.`, "disclosure-note");
+  text(row, "p", `SeatGeek price snapshot as of ${seatGeekAsOf}; Vivid Seats price snapshot as of ${vividSeatsAsOf}. Prices exclude fees.`, "disclosure-note");
   return row;
 }
 
@@ -1641,23 +1634,42 @@ function safeShowList(data) {
   return Array.isArray(data?.shows) ? data.shows.filter((show) => show && typeof show === "object") : [];
 }
 
-function renderShowBoardEmptyState(artistName = "") {
-  const name = String(artistName || "").trim() || "these artists";
+// Zero-event board state. The primary CTA is the artist-level page of the
+// highest-ranked enabled provider (never an event-level ticket link — no
+// verified dates exist to sell). Keep in sync with
+// renderShowBoardEmptyStateHtml in functions/[[path]].js.
+function renderShowBoardEmptyState(artistName = "", artistSlug = "") {
+  const name = String(artistName || "").trim() || "artist";
   const wrap = document.createElement("div");
   wrap.className = "empty-state";
-  text(wrap, "h3", "No event-specific ticket links verified yet");
+  text(wrap, "h3", "No upcoming dates listed yet");
   text(
     wrap,
     "p",
-    `We do not publish upcoming ${name} dates or ticket buttons until the destination has been checked — no unverified dates, no fake prices. Use an artist-level provider page on this page or the buying guides in the meantime.`,
+    `We list upcoming ${name} dates once the ticket destination is verified — new dates appear here first.`,
     "muted"
   );
+  const providerLink = artistSlug
+    ? ticketLinksForArtist(artistSlug)
+        .filter((item) => providerEnabled(slugify(item.provider)))
+        .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)))[0]
+    : null;
   const actions = document.createElement("div");
   actions.className = "action-row";
-  actions.append(
-    buttonLink("Browse artists with ticket links", "/artists", "secondary"),
-    buttonLink("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "secondary")
-  );
+  if (providerLink) {
+    const providerSlug = slugify(providerLink.provider);
+    const providerName = (providerCopy[providerSlug] || {}).name || providerLink.provider;
+    const params = new URLSearchParams({
+      artistSlug,
+      provider: providerSlug,
+      sourcePath: window.location.pathname,
+      surface: "artist_page"
+    });
+    actions.append(buttonLink(`Check ${providerName} for updates`, `/api/out?${params.toString()}`, "primary"));
+  } else {
+    actions.append(buttonLink("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "secondary"));
+  }
+  actions.append(buttonLink("Browse artists", "/artists", "secondary"));
   wrap.append(actions);
   return wrap;
 }
@@ -2019,7 +2031,7 @@ async function hydrateShowBoard(section, filters = {}) {
     const data = await response.json();
     const shows = safeShowList(data);
     if (!shows.length) {
-      grid.replaceChildren(renderShowBoardEmptyState(filters.artistName));
+      grid.replaceChildren(renderShowBoardEmptyState(filters.artistName, filters.artistSlug));
       return;
     }
     const cardOptions = {
@@ -2131,7 +2143,7 @@ function renderArtist(artist) {
     "artistShowBoard",
     "Upcoming shows",
     "Pick a date, then compare the checked ticket options for that show.",
-    "Prices shown come directly from our partners, SeatGeek and Vivid Seats. Providers set final prices, fees, and availability — confirm the total at checkout."
+    "Some links earn us a commission — this never affects your price."
   );
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
     try {

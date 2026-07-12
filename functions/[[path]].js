@@ -1083,11 +1083,16 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     if (sgAvailable) ctas.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
     if (vsAvailable) ctas.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
     if (tmAvailable) ctas.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
-    if (ctas.length) {
+    if (ctas.length > 1) {
       const buttons = ctas
         .map((cta, index) => anchor(index === 0 ? cta.primaryLabel : cta.secondaryLabel, outHref(cta.provider), index === 0 ? "button button-primary" : "button button-secondary", 'target="_blank" rel="noopener"'))
         .join("");
-      ctaHtml = ctas.length > 1 ? `<div class="cta-group">${buttons}</div>` : buttons;
+      ctaHtml = `<div class="cta-group">${buttons}</div>`;
+    } else if (ctas.length === 1) {
+      // A single available provider gets one full-width "View Tickets"
+      // button — with nothing to compare, the "Check <Provider>" framing
+      // doesn't apply. Keep in sync with renderShowCard in public/app.js.
+      ctaHtml = anchor("View Tickets", outHref(ctas[0].provider), "button button-primary button-full", 'target="_blank" rel="noopener"');
     }
   }
 

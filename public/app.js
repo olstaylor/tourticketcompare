@@ -1940,42 +1940,62 @@ async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
   }
 }
 
-async function hydrateShowBoardPriceSnapshots(shows, cardOptions) {
-  const candidates = shows
-    .filter((show) => {
-      if (!show?.id) return false;
-      return seatGeekOutAvailable(show, cardOptions) || vividSeatsOutAvailable(show, cardOptions);
-    })
-    .slice(0, 6);
-
-  await Promise.all(candidates.map(async (show) => {
-    const anchorId = showAnchorId(show);
-    if (!anchorId) return;
-
-    try {
+// One approved-marketplaces bulk request per board (cache-only lanes served
+// from the D1 snapshot cache — no provider fan-out), memoized per artist so
+// filter/sort re-renders reuse the same priced payload instead of refetching.
+const approvedBoardPricePromises = new Map();
+function fetchApprovedBoardPrices(artistSlug, limit) {
+  const key = `${artistSlug || "*"}:${limit}`;
+  if (!approvedBoardPricePromises.has(key)) {
+    const task = (async () => {
       const params = new URLSearchParams({
-        showId: String(show.id),
         includePrices: "true",
-        priceProviders: "approved-marketplaces"
+        priceProviders: "approved-marketplaces",
+        limit: String(limit)
       });
+      if (artistSlug) params.set("artistSlug", artistSlug);
       const response = await fetch(`/api/shows?${params.toString()}`, { headers: { Accept: "application/json" } });
-      if (!response.ok) return;
-      const data = await response.json();
-      const pricedShow = safeShowList(data).find((candidate) => String(candidate?.id || "") === String(show.id));
-      if (!pricedShow) return;
-      if (!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)) return;
+      if (!response.ok) throw new Error("board_prices_unavailable");
+      return response.json();
+    })();
+    task.catch(() => approvedBoardPricePromises.delete(key));
+    approvedBoardPricePromises.set(key, task);
+  }
+  return approvedBoardPricePromises.get(key);
+}
+
+async function hydrateShowBoardPriceSnapshots(shows, cardOptions) {
+  const candidates = shows.filter((show) => {
+    if (!show?.id) return false;
+    return seatGeekOutAvailable(show, cardOptions) || vividSeatsOutAvailable(show, cardOptions);
+  });
+  if (!candidates.length) return;
+
+  try {
+    const artistSlug = String(cardOptions.artistSlug || "").trim();
+    const limit = artistSlug ? 500 : Math.min(500, Math.max(candidates.length, shows.length));
+    const data = await fetchApprovedBoardPrices(artistSlug, limit);
+    const pricedById = new Map(
+      safeShowList(data).map((candidate) => [String(candidate?.id || ""), candidate])
+    );
+    for (const show of candidates) {
+      const anchorId = showAnchorId(show);
+      if (!anchorId) continue;
+      const pricedShow = pricedById.get(String(show.id));
+      if (!pricedShow) continue;
+      if (!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)) continue;
 
       const currentCard = document.getElementById(anchorId);
-      if (!currentCard) return;
+      if (!currentCard) continue;
       currentCard.replaceWith(renderShowCard(pricedShow, {
         ...cardOptions,
         seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek),
         vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats)
       }));
-    } catch (error) {
-      // Retain the verified CTA-only card when optional price hydration fails.
     }
-  }));
+  } catch (error) {
+    // Retain the verified CTA-only cards when optional price hydration fails.
+  }
 }
 
 async function hydrateComparisonHubPriceSnapshots() {
@@ -2035,16 +2055,18 @@ async function hydrateShowBoard(section, filters = {}) {
       // Artist boards lead each card with city · venue; the artist name is
       // already the page heading.
       locationTitle: Boolean(filters.artistSlug),
-      artistName: String(filters.artistName || "")
+      artistName: String(filters.artistName || ""),
+      // Lets price hydration request one bulk approved-marketplaces payload
+      // for the whole board instead of per-card lookups.
+      artistSlug: String(filters.artistSlug || "")
     };
     if (filters.filterable) {
       setupShowBoardFilters(section, grid, shows, cardOptions);
-      await hydrateCurrentShowPriceSnapshot(shows, cardOptions);
       window.addEventListener("hashchange", () => hydrateCurrentShowPriceSnapshot(shows, cardOptions));
       return;
     }
     grid.replaceChildren(...shows.slice(0, limit).map((show) => renderShowCard(show, cardOptions)));
-    await hydrateCurrentShowPriceSnapshot(shows.slice(0, limit), cardOptions);
+    await hydrateShowBoardPriceSnapshots(shows.slice(0, limit), cardOptions);
   } catch (error) {
     grid.replaceChildren();
     text(

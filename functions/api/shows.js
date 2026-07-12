@@ -643,6 +643,40 @@ async function fetchProviderPriceTrend(db, showId, provider, source) {
   }
 }
 
+// Shared row → price-result validation for the approved cached marketplace
+// lanes. Returns null unless the D1 row carries the approved source, a finite
+// non-negative low price, a currency, a valid verified_at timestamp, and an
+// unexpired expires_at — the same freshness gate in single-show and bulk mode.
+function approvedCachedPriceFromRow(provider, approvedSource, show, row) {
+  if (!row || typeof row !== "object" || row.source !== approvedSource) return null;
+
+  const lowPrice = Number(row.low_price);
+  if (!Number.isFinite(lowPrice) || lowPrice < 0) return null;
+
+  const currency = String(row.currency || "").trim();
+  if (!currency) return null;
+
+  const verifiedAt = String(row.verified_at || "").trim();
+  if (!Number.isFinite(Date.parse(verifiedAt))) return null;
+
+  const expiresAt = String(row.expires_at || "").trim();
+  const expiresAtMs = Date.parse(expiresAt);
+  if (!Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) return null;
+
+  const inventoryCount = Number(row.inventory_count);
+  return {
+    provider,
+    price: lowPrice,
+    currency,
+    url: buildProviderUrl(show, provider),
+    fetchedAt: verifiedAt,
+    status: "ok",
+    source: approvedSource,
+    expiresAt,
+    inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null
+  };
+}
+
 async function fetchSeatGeekCachedPrice(show, env) {
   const provider = "SeatGeek";
   const providerDbKey = "seatgeek";
@@ -675,58 +709,34 @@ async function fetchSeatGeekCachedPrice(show, env) {
       .bind(showId, providerDbKey, approvedSource)
       .first();
 
-    if (!row || typeof row !== "object" || row.source !== approvedSource) return unavailableProviderPrice(provider, show);
+    const result = approvedCachedPriceFromRow(provider, approvedSource, show, row);
+    if (!result) return unavailableProviderPrice(provider, show);
 
-    const lowPrice = Number(row.low_price);
-    if (!Number.isFinite(lowPrice) || lowPrice < 0) return unavailableProviderPrice(provider, show);
-
-    const currency = String(row.currency || "").trim();
-    if (!currency) return unavailableProviderPrice(provider, show);
-
-    const verifiedAt = String(row.verified_at || "").trim();
-    const verifiedAtMs = Date.parse(verifiedAt);
-    if (!Number.isFinite(verifiedAtMs)) return unavailableProviderPrice(provider, show);
-
-    const expiresAt = String(row.expires_at || "").trim();
-    const expiresAtMs = Date.parse(expiresAt);
-    if (!Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) {
-      return unavailableProviderPrice(provider, show);
-    }
-
-    const inventoryCount = Number(row.inventory_count);
-    const trend = await fetchProviderPriceTrend(db, showId, "seatgeek", SEATGEEK_APPROVED_PRICE_SOURCE);
-
-    return {
-      provider,
-      price: lowPrice,
-      currency,
-      url: buildProviderUrl(show, provider),
-      fetchedAt: verifiedAt,
-      status: "ok",
-      source: approvedSource,
-      expiresAt,
-      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null,
-      ...(trend ? { trend } : {})
-    };
+    const trend = await fetchProviderPriceTrend(db, showId, providerDbKey, approvedSource);
+    return trend ? { ...result, trend } : result;
   } catch (err) {
     return unavailableProviderPrice(provider, show);
   }
 }
 
 async function fetchVividSeatsCachedPrice(show, env) {
+  const provider = "Vivid Seats";
+  const providerDbKey = "vivid-seats";
+  const approvedSource = VIVIDSEATS_APPROVED_PRICE_SOURCE;
+
   if (!getEnvBoolean(env?.VIVIDSEATS_PRICE_DISPLAY_ENABLED, false)) {
-    return unavailableProviderPrice("Vivid Seats", show);
+    return unavailableProviderPrice(provider, show);
   }
 
   if (!validVividSeatsEventUrl(show?.vividseats_url)) {
-    return unavailableProviderPrice("Vivid Seats", show);
+    return unavailableProviderPrice(provider, show);
   }
 
   const showId = String(show?.id || "").trim();
-  if (!showId) return unavailableProviderPrice("Vivid Seats", show);
+  if (!showId) return unavailableProviderPrice(provider, show);
 
   const db = getPricingDb(env);
-  if (!db) return unavailableProviderPrice("Vivid Seats", show);
+  if (!db) return unavailableProviderPrice(provider, show);
 
   try {
     const row = await db
@@ -738,45 +748,105 @@ async function fetchVividSeatsCachedPrice(show, env) {
            AND source = ?3
          LIMIT 1`
       )
-      .bind(showId, "vivid-seats", VIVIDSEATS_APPROVED_PRICE_SOURCE)
+      .bind(showId, providerDbKey, approvedSource)
       .first();
 
-    if (!row || typeof row !== "object") return unavailableProviderPrice("Vivid Seats", show);
+    const result = approvedCachedPriceFromRow(provider, approvedSource, show, row);
+    if (!result) return unavailableProviderPrice(provider, show);
 
-    const lowPrice = Number(row.low_price);
-    if (!Number.isFinite(lowPrice) || lowPrice < 0) return unavailableProviderPrice("Vivid Seats", show);
-
-    const currency = String(row.currency || "").trim();
-    if (!currency) return unavailableProviderPrice("Vivid Seats", show);
-
-    const verifiedAt = String(row.verified_at || "").trim();
-    const verifiedAtMs = Date.parse(verifiedAt);
-    if (!Number.isFinite(verifiedAtMs)) return unavailableProviderPrice("Vivid Seats", show);
-
-    const expiresAt = String(row.expires_at || "").trim();
-    const expiresAtMs = Date.parse(expiresAt);
-    if (!Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) {
-      return unavailableProviderPrice("Vivid Seats", show);
-    }
-
-    const inventoryCount = Number(row.inventory_count);
-    const trend = await fetchProviderPriceTrend(db, showId, "vivid-seats", VIVIDSEATS_APPROVED_PRICE_SOURCE);
-
-    return {
-      provider: "Vivid Seats",
-      price: lowPrice,
-      currency,
-      url: buildProviderUrl(show, "Vivid Seats"),
-      fetchedAt: verifiedAt,
-      status: "ok",
-      source: VIVIDSEATS_APPROVED_PRICE_SOURCE,
-      expiresAt,
-      inventoryCount: Number.isFinite(inventoryCount) && inventoryCount >= 0 ? inventoryCount : null,
-      ...(trend ? { trend } : {})
-    };
+    const trend = await fetchProviderPriceTrend(db, showId, providerDbKey, approvedSource);
+    return trend ? { ...result, trend } : result;
   } catch (err) {
-    return unavailableProviderPrice("Vivid Seats", show);
+    return unavailableProviderPrice(provider, show);
   }
+}
+
+// Approved cached marketplace lanes served in bulk. These read ONLY the D1
+// provider_pricing_cache written by the scheduled snapshot workflows — no
+// external provider request is ever made from this path, which is why bulk
+// (list-mode) pricing is permitted here while generic bulk price fan-out
+// remains rejected (see docs/PROVIDER_DATA_POLICY.md).
+const APPROVED_MARKETPLACE_PRICE_LANES = [
+  {
+    provider: "SeatGeek",
+    dbKey: "seatgeek",
+    approvedSource: SEATGEEK_APPROVED_PRICE_SOURCE,
+    displayFlagKey: "SEATGEEK_PRICE_DISPLAY_ENABLED",
+    hasDisplayableUrl: (show) => Boolean(validSeatGeekEventUrl(show?.seatgeek_url))
+  },
+  {
+    provider: "Vivid Seats",
+    dbKey: "vivid-seats",
+    approvedSource: VIVIDSEATS_APPROVED_PRICE_SOURCE,
+    displayFlagKey: "VIVIDSEATS_PRICE_DISPLAY_ENABLED",
+    hasDisplayableUrl: (show) => Boolean(validVividSeatsEventUrl(show?.vividseats_url))
+  }
+];
+// D1 bound-parameter budget per statement; chunking keeps a full artist board
+// to a handful of queries instead of two point reads per show.
+const PRICING_CACHE_BULK_CHUNK_SIZE = 50;
+
+async function fetchApprovedMarketplaceCachedRows(db, showIds) {
+  const rowsByKey = new Map();
+  for (let i = 0; i < showIds.length; i += PRICING_CACHE_BULK_CHUNK_SIZE) {
+    const chunk = showIds.slice(i, i + PRICING_CACHE_BULK_CHUNK_SIZE);
+    const placeholders = chunk.map((_, index) => `?${index + 1}`).join(", ");
+    const result = await db
+      .prepare(
+        `SELECT event_id, provider, low_price, avg_price, high_price, currency, inventory_count, verified_at, expires_at, source
+         FROM provider_pricing_cache
+         WHERE provider IN ('seatgeek', 'vivid-seats')
+           AND event_id IN (${placeholders})`
+      )
+      .bind(...chunk)
+      .all();
+    for (const row of Array.isArray(result?.results) ? result.results : []) {
+      if (!row || typeof row !== "object") continue;
+      rowsByKey.set(`${String(row.event_id)}:${String(row.provider)}`, row);
+    }
+  }
+  return rowsByKey;
+}
+
+// Attach the two approved cached marketplace price lanes to every show in the
+// list. Per-lane gates are identical to the single-show fetchers: display
+// flag, valid verified provider event URL, approved source, and unexpired
+// timestamped cache row. Trend lookups are intentionally skipped in bulk mode
+// (trend is internal-only and never rendered).
+async function attachApprovedMarketplacePrices(shows, env) {
+  const laneStates = APPROVED_MARKETPLACE_PRICE_LANES.map((lane) => ({
+    lane,
+    enabled: getEnvBoolean(env?.[lane.displayFlagKey], false)
+  }));
+  const db = getPricingDb(env);
+  let rowsByKey = new Map();
+  if (db && laneStates.some((state) => state.enabled)) {
+    const showIds = [...new Set(shows.map((show) => String(show?.id || "").trim()).filter(Boolean))];
+    if (showIds.length) {
+      try {
+        rowsByKey = await fetchApprovedMarketplaceCachedRows(db, showIds);
+      } catch (err) {
+        rowsByKey = new Map();
+      }
+    }
+  }
+
+  return shows.map((show) => {
+    const showId = String(show?.id || "").trim();
+    const prices = laneStates.map(({ lane, enabled }) => {
+      let result = null;
+      if (enabled && db && showId && lane.hasDisplayableUrl(show)) {
+        result = approvedCachedPriceFromRow(
+          lane.provider,
+          lane.approvedSource,
+          show,
+          rowsByKey.get(`${showId}:${lane.dbKey}`)
+        );
+      }
+      return decorateProviderResult(result || unavailableProviderPrice(lane.provider, show), show, lane.provider, env);
+    });
+    return { ...show, prices };
+  });
 }
 
 function buildProviderUrl(show, provider) {
@@ -1408,11 +1478,15 @@ export async function onRequestGet({ request, env }) {
   const requestedLimit = url ? parsePositiveInt(url.searchParams.get("limit"), DEFAULT_LIST_LIMIT) : DEFAULT_LIST_LIMIT;
   const limit = Math.min(MAX_LIST_LIMIT, Math.max(1, requestedLimit));
 
-  if (includePrices && !includesShowId) {
+  // Bulk pricing is allowed only for the approved cached marketplace lanes:
+  // they are served purely from the D1 snapshot cache, so a list request
+  // never fans out to any external provider API. Every other price request
+  // still requires a single showId.
+  if (includePrices && !includesShowId && !approvedMarketplacePricesOnly) {
     return new Response(
       JSON.stringify({
         error: "includePrices requires showId",
-        message: "Request provider prices with /api/shows?showId=<id>&includePrices=true to avoid bulk provider fan-out."
+        message: "Request provider prices with /api/shows?showId=<id>&includePrices=true, or add priceProviders=approved-marketplaces for cache-only bulk lanes."
       }),
       {
         status: 400,
@@ -1458,18 +1532,23 @@ export async function onRequestGet({ request, env }) {
     );
   }
 
-  const priceAdapters = approvedMarketplacePricesOnly
-    ? providers.filter((adapter) => adapter.provider === "SeatGeek" || adapter.provider === "Vivid Seats")
-    : providers;
-
-  const shows = await Promise.all(
-    requestedShows.map(async (show) => {
-      const prices = await Promise.all(
-        priceAdapters.map((adapter) => getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfig))
+  // Approved cached marketplace lanes resolve through the batched D1 read —
+  // never through provider adapters — whether the request targets a single
+  // show or a full board. Anything else keeps the per-show adapter path.
+  const shows = approvedMarketplacePricesOnly
+    ? await attachApprovedMarketplacePrices(requestedShows, env)
+    : await Promise.all(
+        requestedShows.map(async (show) => {
+          const prices = await Promise.all(
+            providers.map((adapter) => getProviderPrice(show, adapter, cache, ttlSeconds, rateLimitConfig))
+          );
+          return { ...show, prices };
+        })
       );
-      return { ...show, prices };
-    })
-  );
+
+  // Cached-lane responses stay short-lived so refreshed snapshots and expiry
+  // reach boards quickly; snapshots themselves expire after six hours.
+  const pricedResponseTtlSeconds = approvedMarketplacePricesOnly ? Math.min(ttlSeconds, 600) : ttlSeconds;
 
   return new Response(
     JSON.stringify({
@@ -1483,12 +1562,18 @@ export async function onRequestGet({ request, env }) {
         seatgeek: hasSeatGeekProviderConfig(env),
         vividseats: hasVividSeatsProviderConfig(env)
       },
+      pagination: {
+        offset,
+        limit,
+        total: filteredShows.length,
+        returned: shows.length
+      },
       shows
     }),
     {
       headers: {
         "Content-Type": "application/json",
-        "Cache-Control": `public, max-age=${ttlSeconds}`
+        "Cache-Control": `public, max-age=${pricedResponseTtlSeconds}`
       }
     }
   );

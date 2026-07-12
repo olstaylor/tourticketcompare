@@ -370,6 +370,15 @@ function createProviderPricingDb(rows, historyRows = []) {
               return null;
             },
             async all() {
+              if (text.includes("provider_pricing_cache")) {
+                // Batched approved-marketplaces read: bound values are local
+                // event ids; the provider filter is inlined in the SQL.
+                const results = pricingRows.filter((row) =>
+                  values.includes(row.event_id) &&
+                  (row.provider === "seatgeek" || row.provider === "vivid-seats")
+                );
+                return { results };
+              }
               if (text.includes("provider_pricing_history")) {
                 const [eventId, provider, source, since] = values;
                 const results = pricingHistoryRows
@@ -1010,7 +1019,11 @@ assert(appJs.includes("function hydrateShowBoardPriceSnapshots(shows, cardOption
 assert(appJs.includes("schedulePriceHydration(visible);"), "artist filters should debounce approved provider price hydration");
 assert(appJs.includes("!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)"), "current-card hydration should accept either an approved SeatGeek lane or an approved Vivid Seats lane");
 assert(appJs.includes("showId: String(show.id)") && appJs.includes('priceProviders: "approved-marketplaces"'), "price hydration should request only approved marketplace lanes for exact show IDs");
-assert(!appJs.includes("includePrices: String"), "hydration should not add includePrices to bulk artist show-list requests");
+const boardPriceFetch = appJs.match(/function fetchApprovedBoardPrices\(artistSlug, limit\) \{[\s\S]*?\n\}/);
+assert(boardPriceFetch, "board price hydration should fetch one memoized bulk payload per board instead of per-card fan-out");
+assert(boardPriceFetch[0].includes('priceProviders: "approved-marketplaces"'), "bulk board price requests must ask for the approved cached marketplace lanes only");
+const boardPriceHydration = appJs.match(/async function hydrateShowBoardPriceSnapshots\(shows, cardOptions\) \{[\s\S]*?\n\}/);
+assert(boardPriceHydration && !boardPriceHydration[0].includes(".slice(0, 6)"), "board price hydration must not cap approved snapshots to the first six cards");
 assert(!appJs.match(/lowest\s+overall\s+price|cheapest/i), "hydration must not label SeatGeek snapshots as lowest overall or cheapest");
 assert(appJs.includes("No verified ticket link is available for this date."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
@@ -1393,6 +1406,55 @@ const missingUrlVividSeatsResponse = await showsModule.onRequestGet({
 });
 const missingUrlVividSeatsLane = vividSeatsLaneFrom(await missingUrlVividSeatsResponse.json());
 assert(missingUrlVividSeatsLane?.price === null && missingUrlVividSeatsLane?.providerStatus === "unavailable", "Vivid Seats price should stay hidden without a verified vividseats_url on the event");
+
+// --- Bulk approved cached marketplace lanes: list-mode includePrices is
+// permitted only with priceProviders=approved-marketplaces because those
+// lanes read the D1 snapshot cache and never fan out to a provider API. ---
+const bulkApprovedResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
+  env: envWithEventsJson(vividSeatsPriceEventsJson, {
+    DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow, freshVividSeatsPriceRow]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
+    VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true"
+  })
+});
+assert(bulkApprovedResponse.status === 200, "bulk approved-marketplaces includePrices should return 200 without showId");
+const bulkApprovedJson = await bulkApprovedResponse.json();
+assert(bulkApprovedJson.shows.length > 1, "bulk approved-marketplaces pricing should return the whole artist board");
+for (const show of bulkApprovedJson.shows) {
+  const laneProviders = (show.prices || []).map((lane) => lane.provider).sort();
+  assert(JSON.stringify(laneProviders) === JSON.stringify(["SeatGeek", "Vivid Seats"]), "bulk approved-marketplaces lanes must contain only SeatGeek and Vivid Seats (no Ticketmaster fan-out lane)");
+}
+const bulkPricedShow = bulkApprovedJson.shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
+const bulkSeatGeekLane = bulkPricedShow?.prices.find((lane) => lane.provider === "SeatGeek");
+const bulkVividSeatsLane = bulkPricedShow?.prices.find((lane) => lane.provider === "Vivid Seats");
+assert(bulkSeatGeekLane?.price === freshSeatGeekPriceRow.low_price && bulkSeatGeekLane?.source === "seatgeek_partner_api" && bulkSeatGeekLane?.status === "ok", "bulk SeatGeek lane should serve the fresh approved D1 snapshot");
+assert(bulkVividSeatsLane?.price === freshVividSeatsPriceRow.low_price && bulkVividSeatsLane?.source === "vividseats_impact_marketplace_api" && bulkVividSeatsLane?.status === "ok", "bulk Vivid Seats lane should serve the fresh approved D1 snapshot");
+const bulkUnpricedShow = bulkApprovedJson.shows.find((show) => show.id !== CONTROLLED_SEATGEEK_SHOW_ID);
+assert(bulkUnpricedShow.prices.every((lane) => lane.price === null && lane.providerStatus === "unavailable"), "bulk lanes for shows without fresh approved rows must stay unavailable");
+
+const bulkFlagsOffResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
+  env: envWithEventsJson(vividSeatsPriceEventsJson, {
+    DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow, freshVividSeatsPriceRow]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "false",
+    VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false"
+  })
+});
+const bulkFlagsOffJson = await bulkFlagsOffResponse.json();
+assert(bulkFlagsOffJson.shows.every((show) => (show.prices || []).every((lane) => lane.price === null && lane.providerStatus === "unavailable")), "bulk approved-marketplaces lanes must stay hidden while the display flags are off");
+assert(!JSON.stringify(bulkFlagsOffJson).includes("seatgeek_partner_api") && !JSON.stringify(bulkFlagsOffJson).includes("vividseats_impact_marketplace_api"), "bulk responses must not leak approved source attributions while the display flags are off");
+
+const bulkStaleRowsResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
+  env: envWithEventsJson(vividSeatsPriceEventsJson, {
+    DEMAND_DB: createProviderPricingDb([staleSeatGeekPriceRow, { ...freshVividSeatsPriceRow, expires_at: "2026-05-14T11:30:00Z" }]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
+    VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true"
+  })
+});
+const bulkStaleRowsJson = await bulkStaleRowsResponse.json();
+assert(bulkStaleRowsJson.shows.every((show) => (show.prices || []).every((lane) => lane.price === null && lane.providerStatus === "unavailable")), "bulk approved-marketplaces lanes must hide expired snapshots");
 
 const healthResponse = await healthModule.onRequestGet({ env });
 const healthJson = await healthResponse.json();

@@ -40,6 +40,10 @@ Reads the owner-approved Vivid Seats catalog exposed through the existing
 Impact Marketplace Products API and upserts timestamped Vivid Seats price
 snapshots. Default mode is dry-run; it never scrapes Vivid Seats.
 
+Only future events whose Vivid Seats link carries verified provenance
+(provider_links["vivid-seats"].verified === true) are fetched — those are the
+only rows the runtime display gate can ever show.
+
 Options:
   --apply                 Write snapshots to remote D1
   --self-test             Run offline tests only
@@ -88,7 +92,17 @@ async function readCatalog() {
   const artistsBySlug = new Map(artists.map((artist) => [clean(artist?.slug, 255), clean(artist?.name || artist?.artist_name, 255)]));
   return { events, artistsBySlug };
 }
-function selectEligibleEvents(events, artistsBySlug, options) {
+// A past event's production is delisted and can never display a price, and an
+// unverified Vivid Seats link can never pass the runtime display gate — both
+// would only burn Impact API quota. Date-only prefix compare with a one-day
+// grace so venue-local "tonight" shows are never dropped early.
+function isPastEvent(event, now) {
+  const prefix = clean(event?.datetime_iso, 64).slice(0, 10);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(prefix)) return false;
+  const graceCutoff = new Date(now.getTime() - 24 * 3600000).toISOString().slice(0, 10);
+  return prefix < graceCutoff;
+}
+function selectEligibleEvents(events, artistsBySlug, options, now = new Date()) {
   const selected = [], skipped = [];
   for (const event of events) {
     const localId = clean(event?.id, 255);
@@ -97,6 +111,8 @@ function selectEligibleEvents(events, artistsBySlug, options) {
     const artistName = clean(event?.artist_name || artistsBySlug.get(clean(event?.artist_slug, 255)), 255);
     if (!localId) { skipped.push({ event_id: null, reason: "missing_local_event_id" }); continue; }
     if (!productionId) { skipped.push({ event_id: localId, reason: "invalid_or_missing_vividseats_url" }); continue; }
+    if (event?.provider_links?.["vivid-seats"]?.verified !== true) { skipped.push({ event_id: localId, reason: "vividseats_link_not_verified" }); continue; }
+    if (isPastEvent(event, now)) { skipped.push({ event_id: localId, reason: "past_event" }); continue; }
     if (!artistName || artistName.includes("'")) { skipped.push({ event_id: localId, reason: "unusable_exact_artist_name" }); continue; }
     selected.push({ event, localId, artistName, productionId });
     if (options.limit != null && selected.length >= options.limit) break;
@@ -204,7 +220,7 @@ function publicRow(row) { const { id, ...publicData } = row; return publicData; 
 async function runIngestion(options, deps = {}) {
   const env = deps.env || process.env;
   const catalog = deps.catalog || await readCatalog();
-  const selection = selectEligibleEvents(catalog.events, catalog.artistsBySlug, options);
+  const selection = selectEligibleEvents(catalog.events, catalog.artistsBySlug, options, deps.now || new Date());
   const summary = { mode: options.apply ? "apply" : "dry-run", scanned: catalog.events.length, eligible: selection.selected.length, fetched: 0, written: 0, skipped: selection.skipped.length, errors: 0, proposed_rows: [], skip_reasons: {}, error_details: [] };
   for (const skipped of selection.skipped) summary.skip_reasons[skipped.reason] = (summary.skip_reasons[skipped.reason] || 0) + 1;
   const byArtist = new Map();
@@ -241,12 +257,18 @@ async function selfTest() {
   const built = buildSnapshotRow(item, priced.price, now, 6);
   assert.equal(built.ok, true); assert.equal(built.row.source, APPROVED_SOURCE);
   assert.doesNotMatch(buildUpsertSql([built.row]), /BEGIN TRANSACTION|COMMIT/);
+  const verifiedFutureEvent = { id: "event-1", artist_slug: "raye", vividseats_url: "https://www.vividseats.com/a-tickets/production/123", datetime_iso: "2026-08-01T20:00:00", provider_links: { "vivid-seats": { verified: true } } };
+  const unverifiedEvent = { ...verifiedFutureEvent, id: "event-2", provider_links: {} };
+  const pastEvent = { ...verifiedFutureEvent, id: "event-3", datetime_iso: "2026-07-01T20:00:00" };
+  const gate = selectEligibleEvents([verifiedFutureEvent, unverifiedEvent, pastEvent], new Map([["raye", "RAYE"]]), {}, now);
+  assert.equal(gate.selected.length, 1); assert.equal(gate.selected[0].localId, "event-1");
+  assert.deepEqual(gate.skipped.map((entry) => entry.reason).sort(), ["past_event", "vividseats_link_not_verified"]);
   const dry = await runIngestion({ apply: false, limit: 1, eventId: "", freshnessHours: 6, database: DEFAULT_D1_DATABASE, remote: true }, {
-    catalog: { events: [{ id: "event-1", artist_slug: "raye", vividseats_url: "https://www.vividseats.com/a-tickets/production/123" }], artistsBySlug: new Map([["raye", "RAYE"]]) },
+    catalog: { events: [verifiedFutureEvent], artistsBySlug: new Map([["raye", "RAYE"]]) },
     now, async fetchArtistCatalog() { return { ok: true, data: [{ CurrentPrice: 52, Currency: "USD", Offers: [{ Sku: "123" }] }] }; }
   });
   assert.equal(dry.proposed_rows.length, 1); assert.equal(dry.written, 0);
-  return { ok: true, tests: 13 };
+  return { ok: true, tests: 16 };
 }
 function printSummary(summary) {
   console.log(`Vivid Seats Impact price snapshot ${summary.mode} summary:`);

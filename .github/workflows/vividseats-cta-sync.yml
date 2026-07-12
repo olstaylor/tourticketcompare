@@ -23,10 +23,11 @@ name: Vivid Seats CTA sync
 # IMPACT_VIVIDSEATS_ACCOUNT_SID/IMPACT_VIVIDSEATS_AUTH_TOKEN the run no-ops
 # safely.
 #
-# Ship note: the nightly cron is intentionally commented out below. The
-# first apply run must be supervised (owner dispatches mode=preview, then
-# mode=apply auto_merge=false, spot-checks the PR, and merges it) before a
-# follow-up one-line PR enables the schedule — see docs/PROVIDER_SYNC.md.
+# Ship note: the supervised first apply run completed (PR #370 merged 218
+# verified event destinations; owner browser spot-checks passed), so the
+# nightly cron is enabled per the owner's 2026-07-12 direction to keep
+# prices and links updated automatically for all shows — see
+# docs/PROVIDER_SYNC.md.
 #
 # See docs/PROVIDER_SYNC.md and SAFE_PUBLISHING_RULES.md.
 
@@ -34,8 +35,8 @@ on:
   # 05:30 UTC — after the 05:00 seatgeek-cta-sync run so both loops don't
   # race the same data files; a lost race only degrades to a non-auto-merged
   # PR, never a broken write.
-  # schedule:
-  #   - cron: '30 5 * * *'
+  schedule:
+    - cron: '30 5 * * *'
   workflow_dispatch:
     inputs:
       mode:

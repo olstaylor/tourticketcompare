@@ -2538,17 +2538,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "country": "United Kingdom",
-    "city": "Greenwich",
-    "venue": "The O2",
-    "datetime_iso": "2027-05-09T16:00:00Z",
-    "tour_name": "The Unraveled Tour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
@@ -2557,17 +2546,6 @@
     "venue": "The O2",
     "datetime_iso": "2027-05-09T17:00:00Z",
     "timezone": "Europe/London",
-    "tour_name": "The Unraveled Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "country": "United Kingdom",
-    "city": "Greenwich",
-    "venue": "The O2",
-    "datetime_iso": "2027-05-10T16:00:00Z",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
   },
@@ -4426,18 +4404,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-ariana-grande-2026-chicago-vv1a7zkg_gkdqbxs4",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Chicago",
-    "venue": "United Center",
-    "datetime_iso": "2026-08-04T02:00:00Z",
-    "timezone": "America/Chicago",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-ariana-grande-2026-chicago-vv1a7zkgpgkecew3e",
     "artist_slug": "ariana-grande",
     "artist_name": "Ariana Grande",
@@ -4479,50 +4445,6 @@
     "city": "Marseille",
     "venue": "Stade Velodrome",
     "datetime_iso": "2026-07-01T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8v",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Sweden",
-    "city": "Solna",
-    "venue": "Strawberry Arena",
-    "datetime_iso": "2026-07-10T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-solna-z7r9jz1a7xz8e",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Sweden",
-    "city": "Solna",
-    "venue": "Strawberry Arena",
-    "datetime_iso": "2026-07-11T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz87",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Italy",
-    "city": "Milan",
-    "venue": "Ippodromo Snai La Maura",
-    "datetime_iso": "2026-07-17T18:45:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-milan-z7r9jz1a7xz8a",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Italy",
-    "city": "Milan",
-    "venue": "Ippodromo Snai La Maura",
-    "datetime_iso": "2026-07-18T18:45:00Z",
     "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
     "status": "on-sale"
   },

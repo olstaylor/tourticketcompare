@@ -2218,9 +2218,12 @@ assert(/index,follow/.test(brunoMarsPage.text), "/artists/bruno-mars (indexable)
 assert(/\/api\/out\?artistSlug=bruno-mars/.test(brunoMarsPage.text), "/artists/bruno-mars must render artist-level /api/out CTA link");
 assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mars (indexable) must not show review-pending notice");
 
-// Fully-verified artist (Morgan Wallen) must remain indexable and keep its event CTAs
+// Fully-verified artist (Morgan Wallen) must remain indexable and keep its event CTAs.
+// With Ticketmaster as the only available provider, cards render the single
+// full-width "View Tickets" button instead of the multi-provider pair.
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
-assert(serverMorganWithoutSeatGeek.text.includes(">Check Ticketmaster</a>"), "/artists/morgan-wallen (indexable) must still show event CTA buttons with the 'Check Ticketmaster' label");
+assert(serverMorganWithoutSeatGeek.text.includes(">View Tickets</a>"), "/artists/morgan-wallen (indexable) must show the single-provider 'View Tickets' event CTA");
+assert(serverMorganWithoutSeatGeek.text.includes('class="button button-primary button-full"'), "single-provider event CTA must render full-width (button-full)");
 assert(/provider=ticketmaster"\s+target="_blank"\s+rel="noopener"/.test(serverMorganWithoutSeatGeek.text), "server-rendered verified event CTA should open in a new tab to match client behaviour");
 
 console.log("indexable artist verification passed for bruno-mars");

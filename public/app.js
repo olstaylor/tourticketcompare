@@ -1596,9 +1596,15 @@ function renderShowCard(show, options = {}) {
       if (tmAvailable) {
         ctaSpecs.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
       }
+      // A single available provider gets one full-width "View Tickets"
+      // button — with nothing to compare, the "Check <Provider>" framing
+      // doesn't apply. Keep in sync with renderShowCardServerHtml in
+      // functions/[[path]].js.
+      const singleCta = ctaSpecs.length === 1;
       const buttons = ctaSpecs.map((spec, index) => {
         const params = new URLSearchParams({ showId, provider: spec.provider });
-        const cta = buttonLink(index === 0 ? spec.primaryLabel : spec.secondaryLabel, `/api/out?${params.toString()}`, index === 0 ? "primary" : "secondary");
+        const label = singleCta ? "View Tickets" : index === 0 ? spec.primaryLabel : spec.secondaryLabel;
+        const cta = buttonLink(label, `/api/out?${params.toString()}`, index === 0 ? "primary" : "secondary");
         cta.target = "_blank";
         cta.rel = "noopener";
         return cta;
@@ -1609,6 +1615,7 @@ function renderShowCard(show, options = {}) {
         ctaGroup.append(...buttons);
         body.append(ctaGroup);
       } else {
+        buttons[0].classList.add("button-full");
         body.append(buttons[0]);
       }
     } else {

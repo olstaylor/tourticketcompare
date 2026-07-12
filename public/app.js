@@ -1447,17 +1447,19 @@ function renderPriceChip(providerName, amount, isLower = false) {
   return chip;
 }
 
-function renderSeatGeekPriceSnapshot(show) {
+// SeatGeek-only snapshots render inline beside the SeatGeek CTA (chip next to
+// the button, timestamped note under the button row) instead of as a separate
+// row. Same approved-lane gate: no fresh approved snapshot, nothing renders.
+function renderSeatGeekInlinePrice(show) {
   const lane = approvedSeatGeekPriceLane(show);
   if (!lane) return null;
   const amount = formatProviderPrice(lane.price, lane.currency);
   const asOf = formatSnapshotTime(lane.fetchedAt);
   if (!amount || !asOf) return null;
-  const row = document.createElement("div");
-  row.className = "price-snapshot-row seatgeek-price-snapshot";
-  row.append(renderPriceChip("SeatGeek", amount));
-  text(row, "p", `SeatGeek price snapshot as of ${asOf} — excludes fees; confirm the final total on SeatGeek.`, "disclosure-note");
-  return row;
+  const note = document.createElement("p");
+  note.className = "disclosure-note";
+  note.textContent = `SeatGeek price snapshot as of ${asOf} — excludes fees; confirm the final total on SeatGeek.`;
+  return { chip: renderPriceChip("SeatGeek", amount), note };
 }
 
 function renderVividSeatsPriceSnapshot(show) {
@@ -1574,11 +1576,13 @@ function renderShowCard(show, options = {}) {
 
     // One compact price block per card: the approved side-by-side comparison
     // when both fresh lanes exist, otherwise the single approved provider
-    // snapshot for an available CTA.
+    // snapshot for an available CTA. A SeatGeek-only snapshot renders inline
+    // beside the SeatGeek button below rather than as a row here.
+    const comparisonBlock = renderProviderPriceComparison(show);
+    const inlineSeatGeekPrice = !comparisonBlock && sgAvailable ? renderSeatGeekInlinePrice(show) : null;
     const priceBlock =
-      renderProviderPriceComparison(show) ||
-      (sgAvailable ? renderSeatGeekPriceSnapshot(show) : null) ||
-      (vsAvailable ? renderVividSeatsPriceSnapshot(show) : null);
+      comparisonBlock ||
+      (!inlineSeatGeekPrice && vsAvailable ? renderVividSeatsPriceSnapshot(show) : null);
     if (priceBlock) body.append(priceBlock);
 
     if (tmAvailable || sgAvailable || vsAvailable) {
@@ -1611,11 +1615,16 @@ function renderShowCard(show, options = {}) {
         const ctaGroup = document.createElement("div");
         ctaGroup.className = "cta-group";
         ctaGroup.append(...buttons);
+        // The SeatGeek CTA is always first when available, so the inline
+        // price chip sits directly beside its button.
+        if (inlineSeatGeekPrice) buttons[0].after(inlineSeatGeekPrice.chip);
         body.append(ctaGroup);
       } else {
         buttons[0].classList.add("button-full");
         body.append(buttons[0]);
+        if (inlineSeatGeekPrice) body.append(inlineSeatGeekPrice.chip);
       }
+      if (inlineSeatGeekPrice) body.append(inlineSeatGeekPrice.note);
     } else {
       text(body, "p", "No verified ticket link is available for this date.", "disclosure-note");
     }

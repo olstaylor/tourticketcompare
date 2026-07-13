@@ -6,6 +6,13 @@ name: Impact marketplace price snapshots
 # manual-only while its catalog has no numeric CurrentPrice.
 
 on:
+  # A change to the runtime/provider contract also bootstraps fresh rows on
+  # main, so a newly activated lane does not wait for the next cron tick.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/impact-marketplace-price-snapshots.yml'
+      - 'functions/_impact-marketplace-config.js'
   schedule:
     - cron: '17 */4 * * *'
   workflow_dispatch:
@@ -51,7 +58,7 @@ jobs:
         provider: ${{ fromJSON(github.event_name == 'workflow_dispatch' && format('["{0}"]', github.event.inputs.provider) || '["ticketnetwork","stubhub-international"]') }}
     env:
       PROVIDER: ${{ matrix.provider }}
-      APPLY: ${{ github.event_name == 'schedule' && 'true' || github.event.inputs.apply }}
+      APPLY: ${{ github.event_name != 'workflow_dispatch' && 'true' || github.event.inputs.apply }}
       LIMIT: ${{ github.event.inputs.limit || '' }}
       EVENT_ID: ${{ github.event.inputs.event_id || '' }}
       DATABASE: ${{ github.event.inputs.database || 'tourticketcompare-demand' }}
@@ -94,8 +101,8 @@ jobs:
           if [ "$APPLY" = "true" ]; then args+=(--apply); fi
           node scripts/snapshot-impact-marketplace-prices.mjs "${args[@]}" | tee "$RUNNER_TEMP/impact-price-summary.json"
 
-      - name: Require a healthy scheduled write
-        if: github.event_name == 'schedule'
+      - name: Require a healthy automated write
+        if: github.event_name != 'workflow_dispatch'
         run: |
           node --input-type=module - "$RUNNER_TEMP/impact-price-summary.json" <<'NODE'
           import fs from "node:fs";

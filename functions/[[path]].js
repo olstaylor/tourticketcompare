@@ -1816,7 +1816,10 @@ export async function onRequest(context) {
     const priceCandidates = futureShowsForArtist(events, route.artist.slug, 6);
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
-    renderEvents = events.map((event) => pricedById.get(String(event?.id || "")) || event);
+    renderEvents = events.map((event) => {
+      const priced = pricedById.get(String(event?.id || ""));
+      return priced ? { ...event, prices: Array.isArray(priced.prices) ? priced.prices : [] } : event;
+    });
   }
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
   const injected = injectRoute(html, route, url.origin, catalog, renderEvents, guideContent, env);

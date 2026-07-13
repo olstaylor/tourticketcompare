@@ -49,6 +49,13 @@ const guidePages = [
     serverRendered: true
   },
   {
+    slug: "seatgeek-vs-ticketmaster",
+    title: "SeatGeek vs Ticketmaster | TourTicketCompare",
+    description: "Compare SeatGeek and Ticketmaster by primary vs resale tickets, fees, Deal Score, delivery, buyer protections, and final checkout terms.",
+    h1: "SeatGeek vs Ticketmaster: which should you use?",
+    serverRendered: true
+  },
+  {
     slug: "how-to-avoid-overpaying-for-concert-tickets",
     title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
     description: "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
@@ -157,7 +164,8 @@ const guideClusters = [
       "how-to-avoid-overpaying-for-concert-tickets",
       "concert-ticket-fees-explained",
       "why-ticket-prices-change",
-      "ticketmaster-vs-seatgeek-vs-vivid-seats"
+      "ticketmaster-vs-seatgeek-vs-vivid-seats",
+      "seatgeek-vs-ticketmaster"
     ]
   },
   {

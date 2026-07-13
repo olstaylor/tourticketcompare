@@ -64,15 +64,20 @@ node scripts/smoke-prelaunch.mjs
 ### Combined suite
 
 ```bash
-npm run test:mvp     # events/link/Impact self-tests + provider validators
+npm run test:mvp     # docs + events/link/Impact self-tests + provider validators
                      # + CTA-provider-state guard + allowlists + smoke suite
 ```
 
-### Hygiene
+### Documentation and hygiene
+
+```bash
+npm run docs:check   # relative links, documented npm scripts, canonical file set
+```
 
 - `git diff --check` — no trailing whitespace or conflict markers
 - No `console.log`, `TODO`, `FIXME` left in `functions/`
 - No credentials or `.env` content in the diff
+- Update the existing canonical/topic document; do not add handover, archive, or parallel status files
 
 ---
 
@@ -146,6 +151,7 @@ Batch onboarding (preferred): `npm run artists:onboard:propose` → review the i
 - [ ] Event data validated (`npm run events:validate`) if `events.json` was touched
 - [ ] `npm run events:sync` run if any data files changed
 - [ ] Smoke tests pass (`node scripts/smoke-prelaunch.mjs`)
+- [ ] `npm run docs:check` passes
 - [ ] `git diff --check` clean
 - [ ] No invented data, placeholder CTAs, or dev wording in any public-facing file
 - [ ] Protected files unchanged unless this PR's explicit scope

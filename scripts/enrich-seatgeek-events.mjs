@@ -8,7 +8,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
 const EVENTS_PARTITIONS_DIR = path.join(REPO_ROOT, "public", "data", "events");
-const LOG_PATH = path.join(REPO_ROOT, "docs", "SEATGEEK_CTA_AUTO_ADD_LOG.md");
+const LOG_PATH = path.join(REPO_ROOT, "reports", "provider-sync", "seatgeek-cta-auto-add.md");
 const SEATGEEK_EVENTS_ENDPOINT = "https://api.seatgeek.com/2/events";
 const DEFAULT_PER_PAGE = 20;
 const HIGH_CONFIDENCE_MIN_SCORE = 78;
@@ -857,7 +857,7 @@ function printTextResults(results, summary) {
   if (summary.stopped_early) console.log(`Stopped early: ${summary.stop_reason}`);
   if (summary.next_resume_command) console.log(`Next resume command: ${summary.next_resume_command}`);
   console.log(`Skipped reasons: ${JSON.stringify(summary.skipped_reasons)}`);
-  console.log(`Audit log refreshed: docs/SEATGEEK_CTA_AUTO_ADD_LOG.md`);
+  console.log(`Audit log refreshed: reports/provider-sync/seatgeek-cta-auto-add.md`);
   if (summary.mode === "dry-run") console.log("Dry-run mode: public/data/events.json was not modified.\n");
 
   for (const result of results) {

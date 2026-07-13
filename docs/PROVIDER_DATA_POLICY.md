@@ -37,14 +37,14 @@ Only plain `ticketmaster.com` (and allowlisted country-TLD) URLs pass `validateC
 
 **Role:** Primary affiliate provider (Impact network). Artist-level and event-level.
 
-**Current status (2026-07-09):** Live in production as the **primary CTA**. The Impact SeatGeek bindings (`IMPACT_SEATGEEK_ACCOUNT_SID`, `IMPACT_SEATGEEK_AUTH_TOKEN`, `IMPACT_SEATGEEK_PROGRAM_ID`/`_CAMPAIGN_ID`, optional `IMPACT_SEATGEEK_BASE_TRACKING_URL`) are present. Two lanes:
+**Operational model:** SeatGeek is an approved affiliate provider at artist and event level.
 
-1. **Event-level:** `/api/out?showId=<id>&provider=seatgeek` resolves the verified event-level `seatgeek_url`, validates it (HTTPS, host `seatgeek.com`, event path pattern `/(concert|sports|theater|theatre)/<id>`), wraps it in Impact tracking, and 302s. The "Check SeatGeek" CTA renders as the primary button on publishable event cards; it may render **standalone** (a publishable Ticketmaster URL is no longer required on the same card). On a `needs_recheck` event it renders only when the SeatGeek link carries its own verified provenance (`provider_links.seatgeek.verified === true`).
-2. **Artist-level:** `/api/out?artistSlug=<slug>&provider=seatgeek` resolves the `<slug>:seatgeek` entry in `VERIFIED_TICKET_LINKS`. Destinations are performer-page URLs **captured from the SeatGeek `/2/performers/{id}` API record for the registry-verified `seatgeek_performer_id`** (stored as `seatgeek_artist_url` in `data/provider-identities.json`) — never constructed from names, and browser-verified by the owner before merge. Artist-level clicks are Impact-wrapped exactly like the event lane.
+1. **Event-level:** `/api/out?showId=<id>&provider=seatgeek` resolves a verified event URL, enforces the SeatGeek event-path/host rules, wraps it server-side through Impact, and redirects. On a `needs_recheck` event the SeatGeek CTA requires its own verified provenance.
+2. **Artist-level:** `/api/out?artistSlug=<slug>&provider=seatgeek` resolves a protected `VERIFIED_TICKET_LINKS` entry. The destination must be the performer-page URL captured from the SeatGeek API for the registry-verified performer ID and browser-verified before merge; never construct it from a name.
 
-When the SeatGeek Impact config is absent, `/api/out` fails safely with `provider_not_configured` / `impact_missing_credentials` (JSON, not a redirect), and no SeatGeek CTA renders anywhere.
+When runtime Impact configuration is absent or tracking generation fails, `/api/out` returns diagnostic JSON and no SeatGeek CTA renders. Current coverage and runtime activation are recorded in `PROJECT_STATUS.md`.
 
-**Approved public display rights (confirmed 2026-07-09):**
+**Approved public display rights:**
 - **Ticket links/CTAs:** approved for public display through verified SeatGeek destinations and server-side Impact wrapping.
 - **Listed price:** approved for public display from the approved SeatGeek partner API when `SEATGEEK_PRICE_DISPLAY_ENABLED=true` and the `/api/shows` cache/source/freshness gates pass.
 - **Side-by-side comparisons:** approved for the same verified event with a fresh approved Vivid Seats snapshot. TourTicketCompare may identify the lower listed snapshot and the price difference.
@@ -62,9 +62,9 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 **Role:** Second affiliate provider (Impact network, approved), live for verified event-level links.
 
-**Current status (2026-07-10):** Event-level Vivid Seats CTAs are live. The reviewed data set contains 218 `vividseats_url` destinations with matching `provider_links["vivid-seats"].verified === true` provenance and a strict `/production/<numeric id>` URL shape. Runtime Impact configuration remains mandatory; `/api/out` returns diagnostic JSON rather than an untracked redirect when configuration or tracking fails. Artist-level `VERIFIED_TICKET_LINKS` support exists in code, but no artist-level Vivid Seats entries are configured. The sync workflow's nightly cron (05:30 UTC) was enabled on 2026-07-12 (owner-directed automation goal) after its supervised first apply run merged and was spot-checked.
+**Operational model:** Vivid Seats is an approved event-level Impact provider. A CTA requires a strict `/production/<numeric id>` destination, matching `provider_links["vivid-seats"]` provenance, runtime configuration, and successful server-side tracking. Artist-level entries are separate scope. Current coverage and workflow state are recorded in `PROJECT_STATUS.md`.
 
-**Approved public display rights (confirmed 2026-07-09):**
+**Approved public display rights:**
 - **Ticket links/CTAs:** approved and live for event records that pass the per-event provenance, URL-shape, runtime configuration, and redirect gates.
 - **Listed price:** approved for public display from the approved Vivid Seats feed when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true` and the cache/source/freshness gates pass.
 - **Side-by-side comparisons:** approved for the same verified event with a fresh approved SeatGeek snapshot. TourTicketCompare may identify the lower listed snapshot and the price difference.
@@ -72,24 +72,20 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 - **Fees/final checkout total:** not approved from TourTicketCompare data. Users must confirm fees and final totals on Vivid Seats.
 - **Inventory/availability counts:** remain prohibited; do not say tickets are available, sold out, limited, or scarce from Vivid Seats inventory data.
 
-**Remaining operational work:**
-1. Keep the verified event data and runtime Impact configuration healthy; a tracking failure must continue to return diagnostic JSON, never an untracked redirect.
-2. Monitor the `vividseats-cta-sync.yml` nightly cron (enabled 2026-07-12) via its auto-merge PRs and committed sync logs.
-3. Treat artist-level Vivid Seats entries as separate scope.
-4. Keep the Vivid Seats source, exact-event, and freshness gates healthy; the display flag is enabled under the written 2026-07-10 agreement.
+**Operations:** keep event provenance, runtime Impact configuration, exact-event price source, and freshness gates healthy. Tracking failures must remain diagnostic/fail-closed. Treat artist-level Vivid Seats entries as separate scope.
 
 ---
 
 ## TicketNetwork, Ticket Liquidator, and StubHub International
 
-**Implementation status (2026-07-13): active.** These are three independent provider lanes over the shared Impact Catalogs integration. StubHub International is explicitly separate from StubHub US/Canada.
+These are three independent provider lanes over the shared Impact Catalogs integration. StubHub International is explicitly separate from StubHub US/Canada. Current activation, coverage, and feed constraints are recorded in `PROJECT_STATUS.md`.
 
 The implementation includes:
 
 - `scripts/sync-impact-marketplace-events.mjs`: catalog keyword lookup for registry-verified artists, followed by exact artist/campaign and event-field validation; a candidate is written only when artist, venue, city, and venue-local date agree unambiguously. It writes only the provider's top-level event URL plus `provider_links.<provider>` event ID, URL, verification date, and listing state. Incomplete catalogs never clear a stored link.
 - `/api/out`, `/api/shows`, SSR, and client rendering: provider-specific host allowlists, verified-provenance checks, server-side Impact wrapping, and separate public/display flags.
 - `scripts/snapshot-impact-marketplace-prices.mjs`: cache-only display writer fed by an exact stored provider event ID. Conflicting prices or currencies are skipped.
-- A manual event-sync workflow whose apply mode opens a review PR and never auto-merges. TicketNetwork and StubHub International exact-ID price snapshots refresh D1 every four hours; Ticket Liquidator remains manual-only and price-disabled while its feed lacks numeric prices.
+- A manual event-sync workflow whose apply mode opens a review PR and never auto-merges. The shared snapshot workflow schedules only provider lanes with approved numeric price data; non-numeric lanes remain manual and price-disabled.
 
 **Activation evidence and continuing runtime requirements:**
 
@@ -98,7 +94,7 @@ The implementation includes:
 3. Sample catalog event URLs and tracking redirects were browser-verified against artist, venue, city, and date. New or ambiguous matches remain withheld.
 4. The public lanes default on; an explicit provider `*_PUBLIC_ENABLED=false` remains the emergency kill switch. TicketNetwork and StubHub International price display default on behind exact-ID/source/freshness/cache gates. Ticket Liquidator price display defaults off while its feed lacks numeric `CurrentPrice`.
 
-**Verified 2026-07-13:** the provider programs and catalogs are accessible through the existing SeatGeek-scoped Impact publisher credentials: TicketNetwork campaign `2322` / catalog `896`, Ticket Liquidator campaign `2085` / catalog `1315`, and StubHub International campaign `24092` / catalog `17571`. Catalog tracking URLs are unwrapped only when their nested destination is a strict provider event URL. Ticket Liquidator event metadata is cross-checked against the matching TicketNetwork catalog record by shared external event ID because its own feed omits city; prices remain disabled because its feed supplies no numeric `CurrentPrice`. TicketNetwork and StubHub International price lanes use exact verified catalog event IDs and stay cache/freshness-gated.
+Campaign/catalog IDs and credential routing are server-side configuration and must not be copied into public or stable documentation. Verify them through the provider workflow and record only non-secret current activation in `PROJECT_STATUS.md`.
 
 No inventory/scarcity claim, final-price claim, scraping, generic search link, cross-provider event guess, or untracked affiliate fallback is permitted.
 
@@ -145,7 +141,7 @@ No inventory/scarcity claim, final-price claim, scraping, generic search link, c
 - Vivid Seats returns `status: unavailable` unless `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, `provider_links.vividseats.verified === true`, the verified provider URL matches the event's `vividseats_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='vivid-seats'`, `source='vividseats_impact_marketplace_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
 - TicketNetwork, Ticket Liquidator, and StubHub International return `status: unavailable` unless both the provider's public flag and price-display flag are true, matching verified provider provenance exists, the URL passes that provider's host/event-page checks, and the D1 row has the exact provider slug/source (`ticketnetwork_impact_marketplace_api`, `ticketliquidator_impact_marketplace_api`, or `stubhub_international_impact_marketplace_api`) with valid timestamps, expiry, price, and currency.
 - Price results include `fetchedAt` timestamps. Do not display prices without showing or conveying freshness. A side-by-side comparison additionally requires two fresh approved provider lanes for the same local event ID; when currencies match, the UI may calculate and label the lower listed snapshot and absolute difference.
-- `.github/workflows/seatgeek-price-snapshots.yml` and `.github/workflows/vividseats-price-snapshots.yml` run every four hours for their approved lanes. `.github/workflows/impact-marketplace-price-snapshots.yml` is manual-only for the three new providers until supervised activation. Summaries must make zero-row, partial, stale, configuration, provider, and write failures explicit. A failed fetch or unusable observation is skipped; it must not overwrite an existing fresh row.
+- Dedicated SeatGeek/Vivid Seats snapshot workflows and the shared Impact marketplace snapshot workflow are the only approved writers for their enabled lanes. The shared workflow schedules only approved numeric-price providers and keeps other lanes manual/display-disabled. Summaries must make zero-row, partial, stale, configuration, provider, and write failures explicit. A failed fetch or unusable observation is skipped; it must not overwrite an existing fresh row.
 
 ---
 
@@ -168,4 +164,4 @@ Any provider URL containing these patterns must not appear as a public CTA.
 
 ## Provider Scope
 
-The active scoped provider set is SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International. Do not add another provider, revive the parked provider-abstraction scaffolding, create a parallel cache schema, or infer approval across related brands without a separately approved integration backed by verified destinations and explicit usage rights.
+The currently activated provider set is recorded in `PROJECT_STATUS.md`. Do not add another provider, revive the parked provider-abstraction scaffolding, create a parallel cache schema, or infer approval across related brands without a separately approved integration backed by verified destinations and explicit usage rights.

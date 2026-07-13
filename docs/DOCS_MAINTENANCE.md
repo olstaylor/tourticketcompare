@@ -1,69 +1,62 @@
-# Documentation Maintenance & Canonical Files
+# Documentation maintenance
 
-Created 2026-06-11 (repo documentation cleanup). This doc explains which files are canonical, which are reference, which are generated, and how to archive a doc. It exists because the status docs drifted badly once (2026-06-03 → 2026-06-11: 5 new artists and 57 new events landed while `PROJECT_STATUS.md` still described the old state).
+TourTicketCompare keeps a small, explicit documentation set. The repository and runtime code are authoritative; documentation must be corrected in the same pull request whenever behaviour changes.
 
----
+## Canonical reading order
 
-## Canonical files (source of truth — read in this order)
-
-| File | Role | Update when |
+| File | Owns | Update when |
 |---|---|---|
-| `CLAUDE.md` | Contributor/AI brief: protected areas, hard rules, working style | Protected areas, rules, or repo structure change |
-| `PROJECT_STATUS.md` | Current-state snapshot: data counts, per-artist table, bindings, active risks | Any data PR merges (artists, events, guides), bindings change, risks open/close. **Recount from `public/data/*.json` and `functions/api/out.js`; do not trust prior text.** |
-| `BACKLOG.md` | Prioritised active work and the parked list | Work items open/close or change priority. Owner-managed — agents may correct facts (dated, flagged) but not reorder or re-scope priorities. |
+| `CLAUDE.md` | Stable contributor rules, protected areas, architecture summary, automation map | A durable rule, protected area, binding, workflow, or repository structure changes |
+| `PROJECT_STATUS.md` | Current production/data state, counts, rollout status, active risks | Data, configuration, provider activation, or operational risk changes |
+| `BACKLOG.md` | Priorities and explicit parking decisions | Work opens, closes, changes priority, or is deliberately parked |
 
-If these three disagree with the repo, the repo wins — fix the doc.
+If these files disagree with the repository, the repository wins. Recount and correct the documentation; do not copy a stale number forward.
 
-## Reference tier (authoritative for their topic, stable)
+## Stable reference documents
 
-- Root: `SAFE_PUBLISHING_RULES.md` (non-negotiable rules), `CONTRIBUTING.md` (setup/validation/PR checklist), `README.md` (public intro + quick start).
-- `docs/`: `ARCHITECTURE.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ADDING_ARTISTS.md`, `SAFE_NEXT_ARTIST_WORKFLOW.md`, `ADDING_PROVIDERS.md`, `SEATGEEK_DISCOVERY.md`, `PROVIDER_SYNC.md`.
+- Root: `README.md`, `CONTRIBUTING.md`, `SAFE_PUBLISHING_RULES.md`, `AGENTS.md`.
+- `docs/`: `ARCHITECTURE.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ADDING_ARTISTS.md`, `SAFE_NEXT_ARTIST_WORKFLOW.md`, `ADDING_PROVIDERS.md`, `PROVIDER_SYNC.md`, and `SEATGEEK_DISCOVERY.md`.
+- `migrations/README.md` owns the applied D1 migration ledger.
 
-(Consolidated 2026-07-07: `PROJECT_BRIEF.md`, `AI_AGENT_WORKFLOW.md`, and `VALIDATION_CHECKLIST.md` were merged into `CLAUDE.md`/`README.md`/`CONTRIBUTING.md`; `ARTIST_SCALING_MAP.md` into `SAFE_NEXT_ARTIST_WORKFLOW.md`; `STALE_FILE_AUDIT.md`, `TM_DISCOVERY_AUTOMATION.md`, and `provider-candidate-pipeline.md` moved to `docs/archive/`; `GROWTH_PIPELINE.md` deleted with its tooling.)
+Stable reference docs should describe contracts and procedures, not volatile counts, workflow run numbers, or point-in-time rollout claims. Link to `PROJECT_STATUS.md` for current values.
 
-## Generated / machine-read files — do not hand-edit or move
+## Generated operational reports
 
-| File | Written/read by | Note |
-|---|---|---|
-| `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md` | Written by `scripts/enrich-seatgeek-events.mjs` (`LOG_PATH` is hardcoded) | Regenerated on every enrichment run. Never archive or relocate the live copy; a historical snapshot sits in `docs/archive/`. |
-| `docs/SEATGEEK_CTA_VERIFY_LOG.md` | Written by `scripts/verify-seatgeek-events.mjs` | Regenerated on every verification run (nightly `seatgeek-cta-sync.yml`). |
-| `docs/VIVIDSEATS_CTA_SYNC_LOG.md` | Written by `scripts/sync-vividseats-events.mjs` | Regenerated on every Vivid Seats CTA sync run (nightly `vividseats-cta-sync.yml`). |
-| `public/index.html` (inlined data block) | Written by `scripts/sync-events-data.py` (`npm run events:sync`) | Not a doc, listed here because it looks hand-editable and is not. |
+Provider sync audit output is generated under `reports/provider-sync/`. The scripts and workflows own those files; do not hand-edit them. They are evidence from the latest run, not documentation or current-state authority.
 
-## Pointer stubs (keep at root, do not expand)
+`public/index.html` also contains a generated inline data fallback. Regenerate it with `npm run events:sync` after any `public/data/*.json` change.
 
-- `HANDOVER.md`, `AGENTS.md` — superseded; each is a short ARCHIVED notice pointing at the canonical reading order. `AGENTS.md` stays because it is a standard agent entrypoint filename.
+## Lifecycle policy
 
-## Archive policy (`docs/archive/`)
+- Update an existing canonical or topic document instead of adding a parallel briefing, handover, audit, or status file.
+- Delete superseded or one-off documentation once its durable facts have been merged into the correct current document.
+- Use git history, pull requests, and closed issues for historical context. Do not create or restore `docs/archive/`.
+- Keep `AGENTS.md` as the short repository-discovery entrypoint. Do not add `HANDOVER.md`; the canonical reading order replaces it.
+- Before deleting or moving a file, search scripts, workflows, runtime code, and Markdown links for references.
 
-Archive a doc when it is a point-in-time audit/log/case study that no longer describes current state but has historical value. Never archive generated files (above) or anything referenced by scripts, workflows, or runtime code — grep first.
+## Automated checks
 
-1. `git mv <doc> docs/archive/` (git history preserves the original path).
-2. Prepend the standard banner directly under the title:
-   > **ARCHIVED — historical reference only.** Not a source of current priorities or current state. See `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`. (Banner added YYYY-MM-DD.)
-3. Add an entry to `docs/archive/INDEX.md` (date, one-line reason, where the current truth lives).
-4. Fix any links that pointed at the old path (`grep -rn "<filename>" --include="*.md" .`).
-
-Delete (rather than archive) only obvious junk with no runtime, validation, workflow, or historical value. When unsure, keep the file and flag it for human review in the PR description. Code artefacts are out of scope for this doc — stale code needs its own evidence-backed audit and owner approval (precedent: `docs/archive/STALE_FILE_AUDIT.md` / issue #176, completed by the 2026-07-07 cleanup).
-
-## Drift checks
-
-When updating `PROJECT_STATUS.md`, verify counts directly, e.g.:
+Run:
 
 ```bash
-python3 - <<'EOF'
-import json
-arts = json.load(open('public/data/artists.json'))   # top-level JSON array
-evs = json.load(open('public/data/events.json'))     # top-level JSON array
-print(len(arts), 'artists;', len(evs), 'events;',
-      sum(1 for e in evs if e.get('seatgeek_url')), 'with seatgeek_url;',
-      sum(1 for e in evs if not (e.get('tour_name') or '').strip()), 'blank tour_name;',
-      sum(1 for e in evs if e.get('verification_status') == 'needs_recheck'), 'needs_recheck')
-for p in ('seatgeek', 'vivid-seats', 'ticketnetwork', 'ticket-liquidator', 'stubhub-international'):
-    n = sum(1 for e in evs if ((e.get('provider_links') or {}).get(p) or {}).get('verified'))
-    print(p, 'verified provenance:', n)
-EOF
-grep -c '"[a-z0-9-]*:ticketmaster"' functions/api/out.js   # VERIFIED_TICKET_LINKS entries
+npm run docs:check
 ```
 
-And confirm every relative `.md` link in the canonical/reference docs resolves to an existing file.
+The check fails when:
+
+- a relative Markdown link is broken;
+- a documented `npm run` command is missing from `package.json`;
+- a required canonical document is missing; or
+- retired `HANDOVER.md` / `docs/archive/` paths are reintroduced.
+
+`npm run test:mvp` includes this check so documentation drift blocks CI.
+
+## Current-state refresh checklist
+
+When updating `PROJECT_STATUS.md`:
+
+1. Recount directly from `public/data/*.json`, `data/provider-identities.json`, and `functions/api/out.js`.
+2. Confirm workflow schedules from `.github/workflows/`, not from older prose.
+3. Confirm runtime configuration through `/api/health` or the relevant fail-closed endpoint without exposing secret values.
+4. Move completed work to the short completed section in `BACKLOG.md`; keep implementation history in git.
+5. Run `npm run docs:check` and the relevant repository validation.

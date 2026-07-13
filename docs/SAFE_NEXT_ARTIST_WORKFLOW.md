@@ -2,7 +2,7 @@
 
 **Scope:** Adding one new artist to TourTicketCompare without compromising data integrity, CTA accuracy, or SEO safety.
 
-**Status note:** New-artist onboarding is **unparked** as of 2026-06-10 (owner direction; see `BACKLOG.md` → "Recently unparked"). This document is the mandatory process for every new artist — all phase gates, human browser verification, and validators still apply. Onboarding should still be its own scoped task; do not fold an artist addition into an unrelated change.
+New-artist onboarding is supported only through this gated process. Every phase, human browser verification, and validator still applies. Keep onboarding as its own scoped task; do not fold an artist addition into an unrelated change.
 
 See also `docs/ADDING_ARTISTS.md` for field-level templates and the example placeholder format.
 
@@ -122,7 +122,7 @@ The `indexing_status` promotion and the `out.js` entry must land in the **same P
 - [ ] Promote PR merged and deployed
 - [ ] `GET /api/out?artistSlug=<slug>&provider=ticketmaster` returns 302 (manual curl or smoke check)
 - [ ] CTA button appears on the artist page; href in page source is `/api/out?...`, not a raw affiliate URL
-- [ ] `npm run artist:check -- <slug>` exits 0 (PASS — no FAIL). For a Promote with **0 events** (artist-level CTA only), a single benign WARN is expected — "indexed artist has 0 events" (audit finding U2) — the same WARN beyonce/raye/charli-xcx/tate-mcrae produce; the provider-wiring lines must all be ✓
+- [ ] `npm run artist:check -- <slug>` exits 0 (PASS—no FAIL). For a Promote with **0 events** (artist-level CTA only), the single "indexed artist has 0 events" warning is expected; the provider-wiring lines must all pass.
 - [ ] `npm run providers:identities:validate` passes (the new registry entry is valid and `sync_enabled` gating is satisfied)
 - [ ] `npm run test:mvp` passes (includes the `validate:cta-provider-state` guard — will FAIL without the `provider-identities.json` entry)
 
@@ -376,7 +376,7 @@ Validation for any path: `npm run artist:check -- <slug>`, `npm run validate:art
 
 - `docs/ADDING_ARTISTS.md` — field-level templates, required fields, and example placeholder format
 - `docs/CONTENT_RULES.md` — full content and data rules
-- `docs/PROVIDER_DATA_POLICY.md` — provider link rules (plain Ticketmaster links; Impact-wrapped SeatGeek/Vivid Seats)
+- `docs/PROVIDER_DATA_POLICY.md` — provider link, provenance, affiliate, and price-source rules
 - `docs/ARCHITECTURE.md` — routing model and data bindings
 - `CLAUDE.md` § "Protected Areas" — files that must not be modified without explicit scope
 - `BACKLOG.md` — active priorities and explicit parking notes; check before starting any artist addition

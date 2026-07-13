@@ -2513,7 +2513,8 @@ function renderSimplePage(type) {
   // Trust pages are fully rendered by the function route. Keep that current
   // copy in place on initial load; the client renderer remains a fallback for
   // an un-injected static shell.
-  if (document.getElementById(serverRenderedTitleIds[type])) return;
+  const serverRenderedTitleId = serverRenderedTitleIds[type];
+  if (serverRenderedTitleId && document.getElementById(serverRenderedTitleId)) return;
   const section = document.createElement("section");
   section.className = "content-page";
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: routeMeta[`/${type}`].title.replace(" | TourTicketCompare", "") }]));

@@ -1,6 +1,6 @@
 # TourTicketCompare Content Rules
 
-_Reviewed current: 2026-06-03._
+_Reviewed current: 2026-07-13._
 
 Rules for what can and cannot be published on TourTicketCompare. These apply to all human and AI contributors. For provider/price-display rights and the inert-catalog-metadata rule, see `SAFE_PUBLISHING_RULES.md` and `docs/PROVIDER_DATA_POLICY.md`.
 
@@ -90,6 +90,7 @@ Event-level buttons must additionally have a verified event record (`events.json
 - Ticketmaster should not be used as a public price source unless the Discovery API supplies approved, displayable pricing for the specific event.
 - SeatGeek may supply a provider-attributed snapshot only from the approved SeatGeek partner API when `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, and the snapshot is timestamped and fresh.
 - Vivid Seats may supply a provider-attributed snapshot only from its approved feed when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, the cached row has `source='vividseats_impact_marketplace_api'`, and the snapshot is timestamped and fresh.
+- TicketNetwork and StubHub International may supply provider-attributed listed-price snapshots only from their approved Impact catalogs under the same gate pattern (`TICKETNETWORK_PRICE_DISPLAY_ENABLED` / `STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED`, exact provider-level event verification, approved source, timestamped fresh cache row). Ticket Liquidator price display stays disabled while its catalog supplies no numeric `CurrentPrice` (`TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED` must not be enabled until it does).
 - Written agreements confirmed on 2026-07-10 permit SeatGeek and Vivid Seats snapshots to be displayed side by side for the same verified event, including lower-listed-price and difference calculations plus history.
 - Price data must be timestamped, attributed to the provider, tied to the exact event, and clearly distinguished from final checkout totals.
 

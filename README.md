@@ -8,11 +8,11 @@ Live at **[tourticketcompare.com](https://tourticketcompare.com)** (www redirect
 
 Helps fans find checked ticket links, understand buying risks, and read practical guidance before leaving for an external ticket provider.
 
-- Verified ticket links where available — SeatGeek (affiliate, primary), Vivid Seats (affiliate, verified event-level links), Ticketmaster (plain, unmonetized)
+- Verified ticket links where available — SeatGeek (affiliate, primary), Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International (affiliate, verified event-level links), Ticketmaster (plain, unmonetized)
 - Practical buying guides (fees, resale risk, timing, provider differences)
 - Artist watchlist pages for major tours
 
-**Available now:** SeatGeek and Vivid Seats may be displayed side by side for the same verified event when both approved, timestamped snapshots are fresh. TourTicketCompare may identify the lower listed snapshot and price difference. Fees, taxes, availability, delivery, and the final checkout total remain provider-controlled and must be confirmed before buying.
+**Available now:** Approved, timestamped provider price snapshots (SeatGeek, Vivid Seats, TicketNetwork, StubHub International) may be displayed side by side for the same verified event while fresh, including the lower listed snapshot and price difference. Fees, taxes, availability, delivery, and the final checkout total remain provider-controlled and must be confirmed before buying.
 
 ## Tech stack
 

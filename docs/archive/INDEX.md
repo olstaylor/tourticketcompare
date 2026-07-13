@@ -83,7 +83,7 @@ Exploratory analysis; archived to avoid cluttering active docs.
 | "Why weren't we using provider abstraction?" | Scaffolding only; not implemented | PROVIDER_ABSTRACTION_*.md |
 | "How were artist pages built?" | Old system; see current workflow instead | ARTIST_PAGE_*.md |
 | "Was Olivia Rodrigo issue resolved?" | Yes (PR #190); see PROJECT_STATUS.md | OLIVIA_RODRIGO_LINK_REVIEW.md |
-| "Can we add SeatGeek CTAs now?" | Yes — SeatGeek is the **primary CTA, artist-level and event-level** (2026-07-02 pivot). Price display remains parked. See PROJECT_STATUS.md and `docs/SEATGEEK_DISCOVERY.md` | SEATGEEK_CTA_AUTO_ADD_LOG.md (historical) |
+| "Can we add SeatGeek CTAs now?" | Yes — SeatGeek is the **primary CTA, artist-level and event-level** (2026-07-02 pivot); approved price snapshots are also live (2026-07-10 agreements). See PROJECT_STATUS.md and `docs/SEATGEEK_DISCOVERY.md` | SEATGEEK_CTA_AUTO_ADD_LOG.md (historical) |
 
 ---
 

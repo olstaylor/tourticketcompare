@@ -6,6 +6,8 @@ const PROVIDERS = {
     urlField: "ticketnetwork_url",
     linkKey: "ticketnetwork",
     priceSource: "ticketnetwork_impact_marketplace_api",
+    defaultProgramId: "2322",
+    defaultCatalogId: "896",
     allowedHosts: ["ticketnetwork.com"]
   },
   "ticket-liquidator": {
@@ -15,6 +17,8 @@ const PROVIDERS = {
     urlField: "ticketliquidator_url",
     linkKey: "ticket-liquidator",
     priceSource: "ticketliquidator_impact_marketplace_api",
+    defaultProgramId: "2085",
+    defaultCatalogId: "1315",
     allowedHosts: ["ticketliquidator.com"]
   },
   "stubhub-international": {
@@ -24,6 +28,8 @@ const PROVIDERS = {
     urlField: "stubhub_international_url",
     linkKey: "stubhub-international",
     priceSource: "stubhub_international_impact_marketplace_api",
+    defaultProgramId: "24092",
+    defaultCatalogId: "17571",
     allowedHosts: [
       "stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es",
       "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk",
@@ -68,29 +74,49 @@ function normalizeProviderUrl(config, value) {
 
 function impactCredentials(config, env = process.env) {
   if (!config) throw new Error("Unknown Impact marketplace provider");
-  const accountSid = clean(env[`${config.envPrefix}_ACCOUNT_SID`] || env.IMPACT_ACCOUNT_SID, 255);
-  const authToken = clean(env[`${config.envPrefix}_AUTH_TOKEN`] || env.IMPACT_AUTH_TOKEN, 2000);
+  const proxyUrl = clean(env.IMPACT_CATALOG_PROXY_URL, 2048);
+  const accountSid = clean(
+    env[`${config.envPrefix}_ACCOUNT_SID`] || env.IMPACT_SEATGEEK_ACCOUNT_SID || env.IMPACT_ACCOUNT_SID,
+    255
+  );
+  const authToken = clean(
+    env[`${config.envPrefix}_AUTH_TOKEN`] || env.IMPACT_SEATGEEK_AUTH_TOKEN || env.IMPACT_AUTH_TOKEN,
+    2000
+  );
   const programId = clean(
-    env[`${config.envPrefix}_CAMPAIGN_ID`] || env[`${config.envPrefix}_PROGRAM_ID`],
+    env[`${config.envPrefix}_CAMPAIGN_ID`] || env[`${config.envPrefix}_PROGRAM_ID`] || config.defaultProgramId,
     120
   );
-  const catalogId = clean(env[`${config.envPrefix}_CATALOG_ID`], 120);
-  if (!accountSid || !authToken || !programId) {
-    throw new Error(`${config.envPrefix}_ACCOUNT_SID, _AUTH_TOKEN and _CAMPAIGN_ID (or _PROGRAM_ID) are required`);
+  const catalogId = clean(env[`${config.envPrefix}_CATALOG_ID`] || config.defaultCatalogId, 120);
+  if ((!accountSid || !authToken) && !proxyUrl) {
+    throw new Error(`${config.envPrefix} credentials, IMPACT_SEATGEEK credentials, or IMPACT_CATALOG_PROXY_URL are required`);
   }
-  return { accountSid, authToken, programId, catalogId };
+  if (!programId || !catalogId) throw new Error(`${config.envPrefix} campaign and catalog IDs are required`);
+  return { accountSid, authToken, programId, catalogId, proxyUrl };
 }
 
 function catalogItemsUrl(config, artistName, page, env = process.env, pageSize = 100) {
-  const { accountSid, catalogId } = impactCredentials(config, env);
+  const { accountSid, catalogId, programId, proxyUrl } = impactCredentials(config, env);
+  const apiVersion = /^\d{1,2}$/.test(clean(env.IMPACT_CATALOG_API_VERSION, 2))
+    ? clean(env.IMPACT_CATALOG_API_VERSION, 2)
+    : "16";
+  if (proxyUrl) {
+    const endpoint = new URL(proxyUrl);
+    endpoint.searchParams.set("credentialSet", clean(env.IMPACT_CATALOG_CREDENTIAL_SET || "seatgeek", 40));
+    endpoint.searchParams.set("version", apiVersion);
+    endpoint.searchParams.set("q", clean(artistName, 200));
+    endpoint.searchParams.set("catalogId", catalogId);
+    endpoint.searchParams.set("campaignId", programId);
+    endpoint.searchParams.set("pageSize", String(pageSize));
+    endpoint.searchParams.set("page", String(page));
+    return endpoint.toString();
+  }
   const base = clean(env.IMPACT_API_BASE_URL || "https://api.impact.com").replace(/\/+$/, "");
   const params = new URLSearchParams({
     Keyword: clean(artistName, 200),
     PageSize: String(pageSize),
     Page: String(page),
-    IrVersion: /^\d{1,2}$/.test(clean(env.IMPACT_CATALOG_API_VERSION, 2))
-      ? clean(env.IMPACT_CATALOG_API_VERSION, 2)
-      : "16"
+    IrVersion: apiVersion
   });
   const resource = catalogId
     ? `Catalogs/${encodeURIComponent(catalogId)}/Items`
@@ -100,11 +126,26 @@ function catalogItemsUrl(config, artistName, page, env = process.env, pageSize =
 
 function catalogItems(payload) {
   if (Array.isArray(payload)) return payload;
-  for (const key of ["Items", "Results", "CatalogItems", "Products"]) {
+  for (const key of ["Items", "Results", "CatalogItems", "Products", "products"]) {
     if (Array.isArray(payload?.[key])) return payload[key];
   }
   if (payload && typeof payload === "object" && (payload.CatalogItemId || payload.CatalogId)) return [payload];
   return null;
+}
+
+function providerProductUrl(config, value) {
+  const raw = clean(value);
+  const direct = normalizeProviderUrl(config, raw);
+  if (direct) return direct;
+  try {
+    const tracking = new URL(raw);
+    if (tracking.protocol !== "https:") return "";
+    for (const key of ["u", "url", "redirect"]) {
+      const nested = normalizeProviderUrl(config, tracking.searchParams.get(key));
+      if (nested) return nested;
+    }
+  } catch {}
+  return "";
 }
 
 function catalogItemMatchesProgram(item, programId) {
@@ -124,18 +165,21 @@ function productCandidates(config, item, programId = "") {
     const originalUrl = clean(
       offer?.OriginalUrl || offer?.Url || offer?.URL || item?.OriginalUrl || item?.Url || item?.URL
     );
-    const normalizedUrl = normalizeProviderUrl(config, originalUrl);
+    const normalizedUrl = providerProductUrl(config, originalUrl);
     const externalId = clean(
       offer?.Sku || offer?.SKU || item?.Sku || item?.SKU || item?.CatalogItemId || item?.Id,
       255
     );
     if (!normalizedUrl || !externalId) continue;
-    const price = Number(offer?.CurrentPrice ?? item?.CurrentPrice ?? offer?.Price ?? item?.Price);
-    const inventory = Number(offer?.InventoryCount ?? item?.InventoryCount);
+    const rawPrice = offer?.CurrentPrice ?? item?.CurrentPrice ?? offer?.Price ?? item?.Price;
+    const rawInventory = offer?.InventoryCount ?? item?.InventoryCount;
+    const price = rawPrice == null || clean(rawPrice, 80) === "" ? Number.NaN : Number(rawPrice);
+    const inventory = rawInventory == null || clean(rawInventory, 80) === "" ? Number.NaN : Number(rawInventory);
     const currency = clean(offer?.Currency || item?.Currency, 12).toUpperCase();
     const searchableText = [
       item?.Name, item?.Description, item?.Manufacturer, item?.Category, item?.SubCategory,
       item?.ParentName, item?.Text1, item?.Text2, item?.Text3, item?.Mpn,
+      item?.LaunchDate, item?.ExpirationDate, item?.EstimatedShipDate,
       ...(Array.isArray(item?.Bullets) ? item.Bullets : []),
       ...(Array.isArray(item?.Labels) ? item.Labels : []),
       offer?.Name, offer?.Description, decodeURIComponent(new URL(normalizedUrl).pathname)
@@ -161,6 +205,7 @@ export {
   hostnameAllowed,
   impactCredentials,
   normalizeProviderUrl,
+  providerProductUrl,
   productCandidates,
   providerConfig
 };

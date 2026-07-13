@@ -469,12 +469,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107092100",
+        "url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-1-8-2026/event/107092100",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk8MGkdnfpsx",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "stubhub_international_url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-1-8-2026/event/107092100"
   },
   {
     "id": "tm-summer-walker-2026-london-1agzk8ugkeefegp",
@@ -522,12 +530,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107083245",
+        "url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-2-8-2026/event/107083245",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk8UGkeEfeGP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "stubhub_international_url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-2-8-2026/event/107083245"
   },
   {
     "id": "tm-summer-walker-2026-houston-z7r9jz1a7oixf",
@@ -628,11 +644,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8080726",
+        "url": "https://www.ticketnetwork.com/en/p/8080726",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8080726",
+        "url": "https://www.ticketliquidator.com/tickets/8080726/Broccoli-City-Festival-tickets-Sat-Sep-19-2026-Jiffy-Lube-Live",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6urTWFPK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8080726",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8080726/Broccoli-City-Festival-tickets-Sat-Sep-19-2026-Jiffy-Lube-Live"
   },
   {
     "id": "tm-summer-walker-2026-chicago-vvg18z_uroiect",

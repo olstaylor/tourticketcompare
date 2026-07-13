@@ -404,10 +404,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676858",
+        "url": "https://www.ticketnetwork.com/en/p/7676858",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676858",
+        "url": "https://www.ticketliquidator.com/tickets/7676858/BTS-tickets-Sat-Aug-1-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073218",
+        "url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-1-2026/event/107073218",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "k7vGF_eElChcR"
+    "ticketmaster_discovery_event_id": "k7vGF_eElChcR",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676858",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676858/BTS-tickets-Sat-Aug-1-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-1-2026/event/107073218"
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429ed30bceb",
@@ -457,10 +481,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676859",
+        "url": "https://www.ticketnetwork.com/en/p/7676859",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676859",
+        "url": "https://www.ticketliquidator.com/tickets/7676859/BTS-tickets-Sun-Aug-2-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107075185",
+        "url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-2-2026/event/107075185",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "k7vGF_eEcG5Sl"
+    "ticketmaster_discovery_event_id": "k7vGF_eEcG5Sl",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676859",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676859/BTS-tickets-Sun-Aug-2-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-2-2026/event/107075185"
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cbd7ab56b",
@@ -510,10 +558,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676861",
+        "url": "https://www.ticketnetwork.com/en/p/7676861",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676861",
+        "url": "https://www.ticketliquidator.com/tickets/7676861/BTS-tickets-Wed-Aug-5-2026-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073220",
+        "url": "https://www.stubhub.ie/bts-foxborough-tickets-8-5-2026/event/107073220",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv177Z_eGkwWrl4l"
+    "ticketmaster_discovery_event_id": "vv177Z_eGkwWrl4l",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676861",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676861/BTS-tickets-Wed-Aug-5-2026-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-foxborough-tickets-8-5-2026/event/107073220"
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cc24ebb04",
@@ -563,10 +635,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676862",
+        "url": "https://www.ticketnetwork.com/en/p/7676862",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676862",
+        "url": "https://www.ticketliquidator.com/tickets/7676862/BTS-tickets-Thu-Aug-6-2026-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107074141",
+        "url": "https://www.stubhub.ie/bts-foxborough-tickets-8-6-2026/event/107074141",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv177Z_eGkSeKli7"
+    "ticketmaster_discovery_event_id": "vv177Z_eGkSeKli7",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676862",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676862/BTS-tickets-Thu-Aug-6-2026-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-foxborough-tickets-8-6-2026/event/107074141"
   },
   {
     "id": "tm-bts-2026-chicago-0400642acbbd5d44",
@@ -616,10 +712,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676868",
+        "url": "https://www.ticketnetwork.com/en/p/7676868",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676868",
+        "url": "https://www.ticketliquidator.com/tickets/7676868/BTS-tickets-Thu-Aug-27-2026-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073221",
+        "url": "https://www.stubhub.ie/bts-chicago-tickets-8-27-2026/event/107073221",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv178Z_eGkl5R4g7"
+    "ticketmaster_discovery_event_id": "vv178Z_eGkl5R4g7",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676868",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676868/BTS-tickets-Thu-Aug-27-2026-Soldier-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-chicago-tickets-8-27-2026/event/107073221"
   },
   {
     "id": "tm-bts-2026-chicago-0400642acc7e5d9b",
@@ -669,10 +789,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676869",
+        "url": "https://www.ticketnetwork.com/en/p/7676869",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676869",
+        "url": "https://www.ticketliquidator.com/tickets/7676869/BTS-tickets-Fri-Aug-28-2026-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073222",
+        "url": "https://www.stubhub.ie/bts-chicago-tickets-8-28-2026/event/107073222",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv178Z_eGklGLPUh"
+    "ticketmaster_discovery_event_id": "vv178Z_eGklGLPUh",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676869",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676869/BTS-tickets-Fri-Aug-28-2026-Soldier-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-chicago-tickets-8-28-2026/event/107073222"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429ab3c5ef1",
@@ -722,10 +866,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676870",
+        "url": "https://www.ticketnetwork.com/en/p/7676870",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676870",
+        "url": "https://www.ticketliquidator.com/tickets/7676870/BTS-tickets-Tue-Sep-1-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107075187",
+        "url": "https://www.stubhub.ie/bts-inglewood-tickets-9-1-2026/event/107075187",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1IZ_eJl2ADs"
+    "ticketmaster_discovery_event_id": "vvG1IZ_eJl2ADs",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676870",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676870/BTS-tickets-Tue-Sep-1-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-1-2026/event/107075187"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b1b363a4",
@@ -775,10 +943,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676871",
+        "url": "https://www.ticketnetwork.com/en/p/7676871",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676871",
+        "url": "https://www.ticketliquidator.com/tickets/7676871/BTS-tickets-Wed-Sep-2-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073219",
+        "url": "https://www.stubhub.ie/bts-inglewood-tickets-9-2-2026/event/107073219",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1IZ_eJsiUC0"
+    "ticketmaster_discovery_event_id": "vvG1IZ_eJsiUC0",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676871",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676871/BTS-tickets-Wed-Sep-2-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-2-2026/event/107073219"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b2cb6418",
@@ -828,10 +1020,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676872",
+        "url": "https://www.ticketnetwork.com/en/p/7676872",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676872",
+        "url": "https://www.ticketliquidator.com/tickets/7676872/BTS-tickets-Sat-Sep-5-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107075188",
+        "url": "https://www.stubhub.ie/bts-inglewood-tickets-9-5-2026/event/107075188",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1IZ_eJwwU8b"
+    "ticketmaster_discovery_event_id": "vvG1IZ_eJwwU8b",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676872",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676872/BTS-tickets-Sat-Sep-5-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-5-2026/event/107075188"
   },
   {
     "id": "tm-bts-2026-inglewood-0a006429b353645f",
@@ -881,10 +1097,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676873",
+        "url": "https://www.ticketnetwork.com/en/p/7676873",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676873",
+        "url": "https://www.ticketliquidator.com/tickets/7676873/BTS-tickets-Sun-Sep-6-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107075189",
+        "url": "https://www.stubhub.ie/bts-inglewood-tickets-9-6-2026/event/107075189",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1IZ_eJSfUoL"
+    "ticketmaster_discovery_event_id": "vvG1IZ_eJSfUoL",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676873",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676873/BTS-tickets-Sun-Sep-6-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bts-inglewood-tickets-9-6-2026/event/107075189"
   },
   {
     "id": "tm-bts-2026-madrid-z698xz2qz16ezdbsgk",

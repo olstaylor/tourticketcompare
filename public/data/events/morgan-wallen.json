@@ -667,10 +667,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7529806",
+        "url": "https://www.ticketnetwork.com/en/p/7529806",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7529806",
+        "url": "https://www.ticketliquidator.com/tickets/7529806/Morgan-Wallen-tickets-Fri-Jul-17-2026-MT-Bank-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbI"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbI",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529806",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529806/Morgan-Wallen-tickets-Fri-Jul-17-2026-MT-Bank-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtbk",
@@ -720,10 +736,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7529807",
+        "url": "https://www.ticketnetwork.com/en/p/7529807",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7529807",
+        "url": "https://www.ticketliquidator.com/tickets/7529807/Morgan-Wallen-tickets-Sat-Jul-18-2026-MT-Bank-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ_"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ_",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529807",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529807/Morgan-Wallen-tickets-Sat-Jul-18-2026-MT-Bank-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs",
@@ -773,10 +805,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7529808",
+        "url": "https://www.ticketnetwork.com/en/p/7529808",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7529808",
+        "url": "https://www.ticketliquidator.com/tickets/7529808/Morgan-Wallen-tickets-Fri-Jul-24-2026-Michigan-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbs"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbs",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529808",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529808/Morgan-Wallen-tickets-Fri-Jul-24-2026-Michigan-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbf",
@@ -826,10 +874,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7529809",
+        "url": "https://www.ticketnetwork.com/en/p/7529809",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7529809",
+        "url": "https://www.ticketliquidator.com/tickets/7529809/Morgan-Wallen-tickets-Sat-Jul-25-2026-Michigan-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbw",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529809",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529809/Morgan-Wallen-tickets-Sat-Jul-25-2026-Michigan-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635dc72ec234",
@@ -879,10 +943,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7529810",
+        "url": "https://www.ticketnetwork.com/en/p/7529810",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7529810",
+        "url": "https://www.ticketliquidator.com/tickets/7529810/Morgan-Wallen-tickets-Fri-Jul-31-2026-Lincoln-Financial-Field",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107004331",
+        "url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-7-31-2026/event/107004331",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv17FZbgGkM65iFV"
+    "ticketmaster_discovery_event_id": "vv17FZbgGkM65iFV",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529810",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529810/Morgan-Wallen-tickets-Fri-Jul-31-2026-Lincoln-Financial-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-7-31-2026/event/107004331"
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635da084a7a9",
@@ -932,9 +1020,33 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7529811",
+        "url": "https://www.ticketnetwork.com/en/p/7529811",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7529811",
+        "url": "https://www.ticketliquidator.com/tickets/7529811/Morgan-Wallen-tickets-Sat-Aug-1-2026-Lincoln-Financial-Field",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107007147",
+        "url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-8-1-2026/event/107007147",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv17FZbgGkUO-1rt"
+    "ticketmaster_discovery_event_id": "vv17FZbgGkUO-1rt",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529811",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529811/Morgan-Wallen-tickets-Sat-Aug-1-2026-Lincoln-Financial-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-8-1-2026/event/107007147"
   }
 ]

@@ -46,11 +46,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034397",
+        "url": "https://www.ticketnetwork.com/en/p/8034397",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034397",
+        "url": "https://www.ticketliquidator.com/tickets/8034397/Charli-XCX-tickets-Fri-Sep-11-2026-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258880",
+        "url": "https://www.stubhub.ie/charli-xcx-philadelphia-tickets-9-11-2026/event/107258880",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G6Gp0_67J",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034397",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034397/Charli-XCX-tickets-Fri-Sep-11-2026-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-philadelphia-tickets-9-11-2026/event/107258880"
   },
   {
     "id": "tm-charli-xcx-2026-brooklyn-17gzv0g6g9lbbzt",
@@ -99,11 +123,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034398",
+        "url": "https://www.ticketnetwork.com/en/p/8034398",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034398",
+        "url": "https://www.ticketliquidator.com/tickets/8034398/Charli-XCX-tickets-Mon-Sep-14-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107325080",
+        "url": "https://www.stubhub.ie/charli-xcx-brooklyn-tickets-9-14-2026/event/107325080",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G6G9LBBzT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034398",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034398/Charli-XCX-tickets-Mon-Sep-14-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-brooklyn-tickets-9-14-2026/event/107325080"
   },
   {
     "id": "tm-charli-xcx-2026-brooklyn-17gzv0g6g9lhqy5",
@@ -152,11 +200,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034399",
+        "url": "https://www.ticketnetwork.com/en/p/8034399",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034399",
+        "url": "https://www.ticketliquidator.com/tickets/8034399/Charli-XCX-tickets-Tue-Sep-15-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258881",
+        "url": "https://www.stubhub.ie/charli-xcx-brooklyn-tickets-9-15-2026/event/107258881",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G6G9LHQy5",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034399",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034399/Charli-XCX-tickets-Tue-Sep-15-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-brooklyn-tickets-9-15-2026/event/107258881"
   },
   {
     "id": "tm-charli-xcx-2026-toronto-177zv0g6gkluljm",
@@ -258,11 +330,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034400",
+        "url": "https://www.ticketnetwork.com/en/p/8034400",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034400",
+        "url": "https://www.ticketliquidator.com/tickets/8034400/Charli-XCX-tickets-Thu-Sep-24-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258882",
+        "url": "https://www.stubhub.ie/charli-xcx-boston-tickets-9-24-2026/event/107258882",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GpMBifj",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034400",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034400/Charli-XCX-tickets-Thu-Sep-24-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-boston-tickets-9-24-2026/event/107258882"
   },
   {
     "id": "tm-charli-xcx-2026-washington-17a8v0g6gknsol1",
@@ -311,11 +407,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034401",
+        "url": "https://www.ticketnetwork.com/en/p/8034401",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034401",
+        "url": "https://www.ticketliquidator.com/tickets/8034401/Charli-XCX-tickets-Mon-Sep-28-2026-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107325081",
+        "url": "https://www.stubhub.ie/charli-xcx-washington-tickets-9-28-2026/event/107325081",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GKNsol1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034401",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034401/Charli-XCX-tickets-Mon-Sep-28-2026-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-washington-tickets-9-28-2026/event/107325081"
   },
   {
     "id": "tm-charli-xcx-2026-atlanta-vvg1zz_g99-nfd",
@@ -364,11 +484,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034402",
+        "url": "https://www.ticketnetwork.com/en/p/8034402",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034402",
+        "url": "https://www.ticketliquidator.com/tickets/8034402/Charli-XCX-tickets-Tue-Oct-6-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107325082",
+        "url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_G99-NFd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034402",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034402/Charli-XCX-tickets-Tue-Oct-6-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082"
   },
   {
     "id": "tm-charli-xcx-2026-san-diego-vvg1iz_gpnxmrx",
@@ -417,11 +561,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034403",
+        "url": "https://www.ticketnetwork.com/en/p/8034403",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034403",
+        "url": "https://www.ticketliquidator.com/tickets/8034403/Charli-XCX-tickets-Wed-Oct-14-2026-Viejas-Arena-At-Aztec-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GpNXMrX",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034403",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034403/Charli-XCX-tickets-Wed-Oct-14-2026-Viejas-Arena-At-Aztec-Bowl"
   },
   {
     "id": "tm-charli-xcx-2026-inglewood-vvg10z_g9r7nph",
@@ -470,11 +630,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034404",
+        "url": "https://www.ticketnetwork.com/en/p/8034404",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034404",
+        "url": "https://www.ticketliquidator.com/tickets/8034404/Charli-XCX-tickets-Sat-Oct-17-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107325084",
+        "url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-17-2026/event/107325084",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_G9R7nPH",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034404",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034404/Charli-XCX-tickets-Sat-Oct-17-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-17-2026/event/107325084"
   },
   {
     "id": "tm-charli-xcx-2026-inglewood-vvg10z_g9gehi7",
@@ -523,11 +707,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034405",
+        "url": "https://www.ticketnetwork.com/en/p/8034405",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034405",
+        "url": "https://www.ticketliquidator.com/tickets/8034405/Charli-XCX-tickets-Sun-Oct-18-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258883",
+        "url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-18-2026/event/107258883",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_G9gehI7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034405",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034405/Charli-XCX-tickets-Sun-Oct-18-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-18-2026/event/107258883"
   },
   {
     "id": "tm-charli-xcx-2026-glendale-17k8v0g6g9pu_yt",
@@ -576,10 +784,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8034406",
+        "url": "https://www.ticketnetwork.com/en/p/8034406",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034406",
+        "url": "https://www.ticketliquidator.com/tickets/8034406/Charli-XCX-tickets-Wed-Oct-21-2026-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107325085",
+        "url": "https://www.stubhub.ie/charli-xcx-glendale-tickets-10-21-2026/event/107325085",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G6G9pu_YT",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034406",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034406/Charli-XCX-tickets-Wed-Oct-21-2026-Desert-Diamond-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-glendale-tickets-10-21-2026/event/107325085"
   }
 ]

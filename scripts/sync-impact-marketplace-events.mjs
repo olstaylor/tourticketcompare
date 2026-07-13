@@ -146,7 +146,7 @@ function eventLocalDate(event) {
 
 function dateMatches(text, date) {
   if (!date) return false;
-  const normalized = ` ${normalizeText(text)} `;
+  const normalized = ` ${normalizeText(String(text || "").replace(/(\d)T(?=\d)/gi, "$1 "))} `;
   const monthNames = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
   const short = monthNames[date.month - 1].slice(0, 3);
   const full = monthNames[date.month - 1];
@@ -200,7 +200,9 @@ function applyOutcome(event, config, outcome, today) {
 
 async function fetchCatalog(config, artistName, options, state, env = process.env, fetchImpl = globalThis.fetch) {
   const { accountSid, authToken, programId } = impactCredentials(config, env);
-  const authorization = `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`;
+  const authorization = accountSid && authToken
+    ? `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
+    : "";
   const candidates = [];
   for (let page = 1; page <= MAX_PAGES; page += 1) {
     if (options.maxApiCalls != null && state.apiCalls >= options.maxApiCalls) return { candidates, complete: false, stopReason: "api_call_limit" };
@@ -210,7 +212,10 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
     let response;
     try {
-      response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), { headers: { Accept: "application/json", Authorization: authorization }, signal: controller.signal });
+      response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
+        headers: { Accept: "application/json", ...(authorization ? { Authorization: authorization } : {}) },
+        signal: controller.signal
+      });
     } catch (error) {
       return { candidates, complete: false, stopReason: `request_failed:${clean(error?.message, 120)}` };
     } finally { clearTimeout(timeout); }
@@ -221,10 +226,20 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     const items = catalogItems(payload);
     if (!items) return { candidates, complete: false, stopReason: "missing_items" };
     for (const item of items) candidates.push(...productCandidates(config, item, programId));
-    const total = Number(payload?.["@total"] ?? payload?.Total);
+    const total = Number(payload?.["@total"] ?? payload?.Total ?? payload?.total);
     if (items.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { candidates, complete: true, stopReason: "" };
   }
   return { candidates, complete: false, stopReason: "pagination_cap" };
+}
+
+function enrichTicketLiquidatorCandidates(candidates, ticketNetworkCandidates) {
+  const referenceById = new Map(ticketNetworkCandidates.map((candidate) => [candidate.externalId, candidate]));
+  return candidates.map((candidate) => {
+    const reference = referenceById.get(candidate.externalId);
+    return reference
+      ? { ...candidate, searchableText: `${candidate.searchableText} ${reference.searchableText}`.trim() }
+      : candidate;
+  });
 }
 
 function selectEvents(events, registry, artists, options, now = new Date()) {
@@ -246,7 +261,9 @@ function selectEvents(events, registry, artists, options, now = new Date()) {
 async function run(options, deps = {}) {
   const config = providerConfig(options.provider);
   if (!config) throw new Error(`--provider must be one of: ${Object.keys(PROVIDERS).join(", ")}`);
-  const [events, artists, registry] = deps.data || await Promise.all([EVENTS_PATH, ARTISTS_PATH, REGISTRY_PATH].map(async (file) => JSON.parse(await fs.readFile(file, "utf8"))));
+  const [events, artists, registryPayload] = deps.data || await Promise.all([EVENTS_PATH, ARTISTS_PATH, REGISTRY_PATH].map(async (file) => JSON.parse(await fs.readFile(file, "utf8"))));
+  const registry = Array.isArray(registryPayload) ? registryPayload : registryPayload?.artists;
+  if (!Array.isArray(registry)) throw new Error("Provider identity registry has no artists array");
   const selected = selectEvents(events, registry, artists, options, deps.now || new Date());
   const state = { apiCalls: 0 };
   const results = [];
@@ -258,8 +275,23 @@ async function run(options, deps = {}) {
   }
   let authFailure = false;
   for (const [artistName, artistEvents] of byArtist) {
-    const catalog = deps.fetchCatalog ? await deps.fetchCatalog(config, artistName, options, state) : await fetchCatalog(config, artistName, options, state, deps.env, deps.fetchImpl);
+    let catalog = deps.fetchCatalog ? await deps.fetchCatalog(config, artistName, options, state) : await fetchCatalog(config, artistName, options, state, deps.env, deps.fetchImpl);
     if (catalog.authFailure) { authFailure = true; break; }
+    if (config.slug === "ticket-liquidator" && catalog.complete) {
+      const referenceConfig = providerConfig("ticketnetwork");
+      const reference = deps.fetchCatalog
+        ? await deps.fetchCatalog(referenceConfig, artistName, options, state)
+        : await fetchCatalog(referenceConfig, artistName, options, state, deps.env, deps.fetchImpl);
+      if (reference.authFailure) { authFailure = true; break; }
+      if (!reference.complete) {
+        catalog = { ...catalog, complete: false, stopReason: `reference_${reference.stopReason || "incomplete"}` };
+      } else {
+        catalog = {
+          ...catalog,
+          candidates: enrichTicketLiquidatorCandidates(catalog.candidates, reference.candidates)
+        };
+      }
+    }
     for (const event of artistEvents) {
       const link = event?.provider_links?.[config.linkKey] || {};
       const storedUrl = normalizeProviderUrl(config, event?.[config.urlField]);
@@ -294,15 +326,33 @@ async function selfTest() {
   assert.equal(candidate.externalId, "tn-1");
   assert.equal(productCandidates(config, catalogItem, "wrong-program").length, 0);
   const searchUrl = catalogItemsUrl(config, "RAYE", 1, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123" });
-  assert.match(searchUrl, /\/Catalogs\/ItemSearch\?/);
+  assert.match(searchUrl, /\/Catalogs\/896\/Items\?/);
   assert.equal(new URL(searchUrl).searchParams.get("IrVersion"), "16");
   assert.match(catalogItemsUrl(config, "RAYE", 1, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123", IMPACT_TICKETNETWORK_CATALOG_ID: "456" }), /\/Catalogs\/456\/Items\?/);
   assert.equal(catalogItems({ Items: [catalogItem] })[0].CatalogItemId, "tn-1");
   assert.equal(normalizeProviderUrl(config, "https://ticketnetwork.com/"), "");
   assert.equal(normalizeProviderUrl(config, "https://evil.example/tickets/1"), "");
+  const liveTrackingItem = {
+    ...catalogItem,
+    CampaignId: "2322",
+    Url: "https://ticketnetwork.lusg.net/c/3977745/132208/2322?prodsku=tn-1&u=https%3A%2F%2Fwww.ticketnetwork.com%2Fen%2Fp%2Ftn-1"
+  };
+  assert.equal(productCandidates(config, liveTrackingItem, "2322")[0].normalizedUrl, "https://www.ticketnetwork.com/en/p/tn-1");
+  assert.equal(productCandidates(config, { ...liveTrackingItem, Url: "https://tracking.example/click?u=https%3A%2F%2Fevil.example%2Ftickets%2F1" }, "2322").length, 0);
+  const proxySearchUrl = catalogItemsUrl(config, "RAYE", 2, { IMPACT_CATALOG_PROXY_URL: "https://tourticketcompare.com/api/impact/products" });
+  assert.equal(new URL(proxySearchUrl).searchParams.get("credentialSet"), "seatgeek");
+  assert.equal(new URL(proxySearchUrl).searchParams.get("catalogId"), "896");
+  assert.equal(new URL(proxySearchUrl).searchParams.get("campaignId"), "2322");
+  assert.equal(new URL(proxySearchUrl).searchParams.get("page"), "2");
   const event = { id: "e1", artist_slug: "raye", datetime_iso: "2027-07-09T19:00:00", timezone: "Europe/London", city: "London", venue: "O2 Arena", provider_links: {} };
+  assert.equal(dateMatches("2027-07-09T20:00:00+01:00", { year: 2027, month: 7, day: 9 }), true);
   assert.equal(evaluateCandidate(event, "RAYE", candidate).ok, true);
   assert.equal(evaluateCandidate({ ...event, city: "Manchester" }, "RAYE", candidate).ok, false);
+  const enrichedTl = enrichTicketLiquidatorCandidates(
+    [{ externalId: "same-1", normalizedUrl: "https://ticketliquidator.com/tickets/same-1/raye-o2", searchableText: "RAYE O2 Arena 2027-07-09" }],
+    [{ externalId: "same-1", normalizedUrl: "https://ticketnetwork.com/tickets/same-1", searchableText: "RAYE O2 Arena London 2027-07-09" }]
+  );
+  assert.equal(evaluateCandidate(event, "RAYE", enrichedTl[0]).ok, true);
   assert.equal(decideOutcome({ storedUrl: "", storedVerified: false, storedCandidate: null, passing: [candidate], catalogComplete: true }).action, "add");
   assert.equal(decideOutcome({ storedUrl: "https://ticketnetwork.com/tickets/x/1", storedVerified: true, storedCandidate: null, passing: [], catalogComplete: false }).action, "none");
   const changed = applyOutcome(event, config, { action: "add", candidate: { ...candidate, url: candidate.normalizedUrl } }, "2026-07-13");
@@ -316,7 +366,7 @@ async function selfTest() {
   });
   assert.equal(dry.added, 1);
   assert.equal(dry.changed, 0);
-  return 18;
+  return 27;
 }
 
 async function main() {
@@ -330,4 +380,4 @@ async function main() {
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error?.stack || error); process.exitCode = 1; });
 
-export { applyOutcome, dateMatches, decideOutcome, evaluateCandidate, eventLocalDate, parseArgs, run, selectEvents };
+export { applyOutcome, dateMatches, decideOutcome, enrichTicketLiquidatorCandidates, evaluateCandidate, eventLocalDate, parseArgs, run, selectEvents };

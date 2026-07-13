@@ -498,7 +498,7 @@ function validateVividSeatsEventUrl(vividSeatsUrl, providerConfig) {
   return redirect;
 }
 
-// Impact Marketplace Products integrations use provider-specific host
+// Impact Catalogs integrations use provider-specific host
 // allowlists plus stored verified provenance. Their storefront path shapes can
 // vary by market, so reject only bare/generic pages here; the sync script is
 // responsible for exact artist/date/city/venue matching before the URL is
@@ -616,6 +616,12 @@ const IMPACT_PROVIDER_ENV_PREFIXES = {
   "stubhub-international": "IMPACT_STUBHUB_INTERNATIONAL"
 };
 
+const IMPACT_PROVIDER_DEFAULT_PROGRAM_IDS = {
+  ticketnetwork: "2322",
+  "ticket-liquidator": "2085",
+  "stubhub-international": "24092"
+};
+
 function baseTrackingUrlFor(env = {}, provider) {
   const envVar = BASE_TRACKING_URL_ENV_VARS[providerKey(provider)];
   return envVar ? clean(env?.[envVar], 2048) : "";
@@ -727,14 +733,20 @@ function impactConfig(env = {}, provider = "ticketmaster") {
 
   const envPrefix = IMPACT_PROVIDER_ENV_PREFIXES[normalizedProvider];
   if (envPrefix) {
-    const accountSid = clean(env?.[`${envPrefix}_ACCOUNT_SID`] || env?.IMPACT_ACCOUNT_SID, 255);
-    const authToken = clean(env?.[`${envPrefix}_AUTH_TOKEN`] || env?.IMPACT_AUTH_TOKEN, 255);
-    const campaignId = clean(env?.[`${envPrefix}_CAMPAIGN_ID`], 120);
+    const accountSid = clean(env?.[`${envPrefix}_ACCOUNT_SID`] || env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
+    const authToken = clean(env?.[`${envPrefix}_AUTH_TOKEN`] || env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+    const configuredCampaignId = clean(env?.[`${envPrefix}_CAMPAIGN_ID`], 120);
     const legacyProgramId = clean(env?.[`${envPrefix}_PROGRAM_ID`], 120);
-    const programId = campaignId || legacyProgramId;
+    const defaultProgramId = clean(IMPACT_PROVIDER_DEFAULT_PROGRAM_IDS[normalizedProvider], 120);
+    const campaignId = configuredCampaignId || defaultProgramId;
+    const programId = configuredCampaignId || legacyProgramId || defaultProgramId;
     return {
       accountSid, authToken, programId, campaignId, legacyProgramId,
-      programIdSource: campaignId ? `${envPrefix}_CAMPAIGN_ID` : legacyProgramId ? `${envPrefix}_PROGRAM_ID` : "",
+      programIdSource: configuredCampaignId
+        ? `${envPrefix}_CAMPAIGN_ID`
+        : legacyProgramId
+          ? `${envPrefix}_PROGRAM_ID`
+          : "impact_catalog_campaign",
       apiBase, provider: normalizedProvider,
       hasCredentials: Boolean(accountSid && authToken),
       hasProgramId: Boolean(programId),

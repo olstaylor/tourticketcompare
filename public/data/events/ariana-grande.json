@@ -832,10 +832,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373445",
+        "url": "https://www.ticketnetwork.com/en/p/7373445",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373445",
+        "url": "https://www.ticketliquidator.com/tickets/7373445/Ariana-Grande-tickets-Mon-Jul-13-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106917202",
+        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-13-2026/event/106917202",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AYZkG_GkdS30nD"
+    "ticketmaster_discovery_event_id": "1AYZkG_GkdS30nD",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373445",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373445/Ariana-Grande-tickets-Mon-Jul-13-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-13-2026/event/106917202"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f41b4abf",
@@ -885,10 +909,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373446",
+        "url": "https://www.ticketnetwork.com/en/p/7373446",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373446",
+        "url": "https://www.ticketliquidator.com/tickets/7373446/Ariana-Grande-tickets-Thu-Jul-16-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106916444",
+        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-16-2026/event/106916444",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AYZkG_GkdVkVnT"
+    "ticketmaster_discovery_event_id": "1AYZkG_GkdVkVnT",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373446",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373446/Ariana-Grande-tickets-Thu-Jul-16-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-16-2026/event/106916444"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f49f4acd",
@@ -938,10 +986,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373447",
+        "url": "https://www.ticketnetwork.com/en/p/7373447",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373447",
+        "url": "https://www.ticketliquidator.com/tickets/7373447/Ariana-Grande-tickets-Sat-Jul-18-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106917203",
+        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-18-2026/event/106917203",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AYZkG_GkdVEVlu"
+    "ticketmaster_discovery_event_id": "1AYZkG_GkdVEVlu",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373447",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373447/Ariana-Grande-tickets-Sat-Jul-18-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-18-2026/event/106917203"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006325205054e3",
@@ -991,10 +1063,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7397328",
+        "url": "https://www.ticketnetwork.com/en/p/7397328",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7397328",
+        "url": "https://www.ticketliquidator.com/tickets/7397328/Ariana-Grande-tickets-Sun-Jul-19-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106944083",
+        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-19-2026/event/106944083",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1aYZkGPFAvfZe27"
+    "ticketmaster_discovery_event_id": "1aYZkGPFAvfZe27",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397328",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397328/Ariana-Grande-tickets-Sun-Jul-19-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-19-2026/event/106944083"
   },
   {
     "id": "tm-ariana-grande-2026-boston-0100631aaef23ee8",
@@ -1150,10 +1246,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7397405",
+        "url": "https://www.ticketnetwork.com/en/p/7397405",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7397405",
+        "url": "https://www.ticketliquidator.com/tickets/7397405/Ariana-Grande-tickets-Sat-Jul-25-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106939189",
+        "url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv1A8vN1aGACW-67"
+    "ticketmaster_discovery_event_id": "vv1A8vN1aGACW-67",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397405",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397405/Ariana-Grande-tickets-Sat-Jul-25-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319ddb22b1f",
@@ -1203,10 +1323,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373457",
+        "url": "https://www.ticketnetwork.com/en/p/7373457",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373457",
+        "url": "https://www.ticketliquidator.com/tickets/7373457/Ariana-Grande-tickets-Tue-Jul-28-2026-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AsZkG_GkdqixiL"
+    "ticketmaster_discovery_event_id": "1AsZkG_GkdqixiL",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373457",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373457/Ariana-Grande-tickets-Tue-Jul-28-2026-Centre-Bell"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319de3a2b37",
@@ -1256,10 +1392,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373458",
+        "url": "https://www.ticketnetwork.com/en/p/7373458",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373458",
+        "url": "https://www.ticketliquidator.com/tickets/7373458/Ariana-Grande-tickets-Thu-Jul-30-2026-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AsZkG_GkdrCxiM"
+    "ticketmaster_discovery_event_id": "1AsZkG_GkdrCxiM",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373458",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373458/Ariana-Grande-tickets-Thu-Jul-30-2026-Centre-Bell"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319dedc2b4c",
@@ -1309,10 +1461,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7397426",
+        "url": "https://www.ticketnetwork.com/en/p/7397426",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7397426",
+        "url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AsZkG_GkdrMecG"
+    "ticketmaster_discovery_event_id": "1AsZkG_GkdrMecG",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397426",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006319ddea2cd5",
@@ -1362,10 +1530,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373451",
+        "url": "https://www.ticketnetwork.com/en/p/7373451",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373451",
+        "url": "https://www.ticketliquidator.com/tickets/7373451/Ariana-Grande-tickets-Mon-Aug-3-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106916438",
+        "url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-3-2026/event/106916438",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv1A7ZkG_GkdqBxS4"
+    "ticketmaster_discovery_event_id": "vv1A7ZkG_GkdqBxS4",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373451",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373451/Ariana-Grande-tickets-Mon-Aug-3-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-3-2026/event/106916438"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-0400631adf313481",
@@ -1415,10 +1607,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373452",
+        "url": "https://www.ticketnetwork.com/en/p/7373452",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373452",
+        "url": "https://www.ticketliquidator.com/tickets/7373452/Ariana-Grande-tickets-Wed-Aug-5-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106917201",
+        "url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-5-2026/event/106917201",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv178ZbsGklLGK3v"
+    "ticketmaster_discovery_event_id": "vv178ZbsGklLGK3v",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373452",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373452/Ariana-Grande-tickets-Wed-Aug-5-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-5-2026/event/106917201"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006325ad9f24a7",
@@ -1468,10 +1684,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7397549",
+        "url": "https://www.ticketnetwork.com/en/p/7397549",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7397549",
+        "url": "https://www.ticketliquidator.com/tickets/7397549/Ariana-Grande-tickets-Thu-Aug-6-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106946081",
+        "url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-6-2026/event/106946081",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv1A7ZkGPGkecEw3E"
+    "ticketmaster_discovery_event_id": "vv1A7ZkGPGkecEw3E",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397549",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397549/Ariana-Grande-tickets-Thu-Aug-6-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-6-2026/event/106946081"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c8ea13055",
@@ -1521,10 +1761,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106917205",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-15-8-2026/event/106917205",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AdfZbsGkwCIKv4"
+    "ticketmaster_discovery_event_id": "1AdfZbsGkwCIKv4",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-15-8-2026/event/106917205"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c937630fa",
@@ -1574,10 +1822,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106916445",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-16-8-2026/event/106916445",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AdfZbsGkwKqNdB"
+    "ticketmaster_discovery_event_id": "1AdfZbsGkwKqNdB",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-16-8-2026/event/106916445"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c950d310b",
@@ -1627,10 +1883,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106916446",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-19-8-2026/event/106916446",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AdfZbsGkw4dK75"
+    "ticketmaster_discovery_event_id": "1AdfZbsGkw4dK75",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-19-8-2026/event/106916446"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c97193144",
@@ -1680,10 +1944,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106917206",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-20-8-2026/event/106917206",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AdfZbsGkw9kKA7"
+    "ticketmaster_discovery_event_id": "1AdfZbsGkw9kKA7",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-20-8-2026/event/106917206"
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c98a031b3",
@@ -1733,10 +2005,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106916447",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-23-8-2026/event/106916447",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AdfZbsGkwbIdkS"
+    "ticketmaster_discovery_event_id": "1AdfZbsGkwbIdkS",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-23-8-2026/event/106916447"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4e94ebb",
@@ -1786,10 +2066,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106955082",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-24-8-2026/event/106955082",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AgZkG0GkdVBfBD"
+    "ticketmaster_discovery_event_id": "1AgZkG0GkdVBfBD",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-24-8-2026/event/106955082"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4fe4f2a",
@@ -1839,10 +2127,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106955083",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-27-8-2026/event/106955083",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AgZkG0GkdVT0Hn"
+    "ticketmaster_discovery_event_id": "1AgZkG0GkdVT0Hn",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-27-8-2026/event/106955083"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f5075024",
@@ -1892,10 +2188,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106954080",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-28-8-2026/event/106954080",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AgZkG0GkdgvgZ0"
+    "ticketmaster_discovery_event_id": "1AgZkG0GkdgvgZ0",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-28-8-2026/event/106954080"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f4f54ef7",
@@ -1945,10 +2249,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106955086",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-31-8-2026/event/106955086",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AgZkG0GkdVWfDM"
+    "ticketmaster_discovery_event_id": "1AgZkG0GkdVWfDM",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-31-8-2026/event/106955086"
   },
   {
     "id": "tm-ariana-grande-2026-london-35006324f50f50d8",
@@ -1998,10 +2310,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106954086",
+        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-1-9-2026/event/106954086",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AgZkG0Gkdgdgdb"
+    "ticketmaster_discovery_event_id": "1AgZkG0Gkdgdgdb",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-1-9-2026/event/106954086"
   },
   {
     "id": "tm-ariana-grande-2026-inglewood-vv1aazkgpgkdk3kim",
@@ -2471,11 +2791,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373445",
+        "url": "https://www.ticketnetwork.com/en/p/7373445",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373445",
+        "url": "https://www.ticketliquidator.com/tickets/7373445/Ariana-Grande-tickets-Mon-Jul-13-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106917202",
+        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-13-2026/event/106917202",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZkG_GkdS30nD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373445",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373445/Ariana-Grande-tickets-Mon-Jul-13-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-13-2026/event/106917202"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-1ayzkg_gkdvkvnt",
@@ -2524,11 +2868,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373446",
+        "url": "https://www.ticketnetwork.com/en/p/7373446",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373446",
+        "url": "https://www.ticketliquidator.com/tickets/7373446/Ariana-Grande-tickets-Thu-Jul-16-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106916444",
+        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-16-2026/event/106916444",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZkG_GkdVkVnT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373446",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373446/Ariana-Grande-tickets-Thu-Jul-16-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-16-2026/event/106916444"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-1ayzkgpfavfze27",
@@ -2577,11 +2945,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7397328",
+        "url": "https://www.ticketnetwork.com/en/p/7397328",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7397328",
+        "url": "https://www.ticketliquidator.com/tickets/7397328/Ariana-Grande-tickets-Sun-Jul-19-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106944083",
+        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-19-2026/event/106944083",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aYZkGPFAvfZe27",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397328",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397328/Ariana-Grande-tickets-Sun-Jul-19-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-19-2026/event/106944083"
   },
   {
     "id": "tm-ariana-grande-2026-boston-vv177zbsgknmhndi",
@@ -2683,11 +3075,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7397405",
+        "url": "https://www.ticketnetwork.com/en/p/7397405",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7397405",
+        "url": "https://www.ticketliquidator.com/tickets/7397405/Ariana-Grande-tickets-Sat-Jul-25-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106939189",
+        "url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vN1aGACW-67",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397405",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397405/Ariana-Grande-tickets-Sat-Jul-25-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-1aszkg_gkdqixil",
@@ -2736,11 +3152,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373457",
+        "url": "https://www.ticketnetwork.com/en/p/7373457",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7373457",
+        "url": "https://www.ticketliquidator.com/tickets/7373457/Ariana-Grande-tickets-Tue-Jul-28-2026-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkG_GkdqixiL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373457",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373457/Ariana-Grande-tickets-Tue-Jul-28-2026-Centre-Bell"
   },
   {
     "id": "tm-ariana-grande-2026-montreal-1aszkg_gkdrmecg",
@@ -2789,11 +3221,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7397426",
+        "url": "https://www.ticketnetwork.com/en/p/7397426",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7397426",
+        "url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkG_GkdrMecG",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397426",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell"
   },
   {
     "id": "tm-ariana-grande-2026-chicago-vv1a7zkgpgkecew3e",
@@ -2842,10 +3290,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7397549",
+        "url": "https://www.ticketnetwork.com/en/p/7397549",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7397549",
+        "url": "https://www.ticketliquidator.com/tickets/7397549/Ariana-Grande-tickets-Thu-Aug-6-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106946081",
+        "url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-6-2026/event/106946081",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkGPGkecEw3E",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397549",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397549/Ariana-Grande-tickets-Thu-Aug-6-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-6-2026/event/106946081"
   }
 ]

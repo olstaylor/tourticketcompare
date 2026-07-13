@@ -308,12 +308,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418583",
+        "url": "https://www.ticketnetwork.com/en/p/7418583",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418583",
+        "url": "https://www.ticketliquidator.com/tickets/7418583/Ed-Sheeran-tickets-Sat-Jul-18-2026-Allegiant-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106953315",
+        "url": "https://www.stubhub.ie/ed-sheeran-las-vegas-tickets-7-18-2026/event/106953315",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZbwGkHtD1Rc",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418583",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418583/Ed-Sheeran-tickets-Sat-Jul-18-2026-Allegiant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-las-vegas-tickets-7-18-2026/event/106953315"
   },
   {
     "id": "tm-ed-sheeran-2026-san-diego-0a006331da303659",
@@ -361,12 +385,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418584",
+        "url": "https://www.ticketnetwork.com/en/p/7418584",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418584",
+        "url": "https://www.ticketliquidator.com/tickets/7418584/Ed-Sheeran-tickets-Tue-Jul-21-2026-Petco-Park",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954170",
+        "url": "https://www.stubhub.ie/ed-sheeran-san-diego-tickets-7-21-2026/event/106954170",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbS6QGd__",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418584",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418584/Ed-Sheeran-tickets-Tue-Jul-21-2026-Petco-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-san-diego-tickets-7-21-2026/event/106954170"
   },
   {
     "id": "tm-ed-sheeran-2026-santa-clara-1c006331c1a54d19",
@@ -414,12 +462,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418585",
+        "url": "https://www.ticketnetwork.com/en/p/7418585",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418585",
+        "url": "https://www.ticketliquidator.com/tickets/7418585/Ed-Sheeran-tickets-Sat-Jul-25-2026-Levis-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954171",
+        "url": "https://www.stubhub.ie/ed-sheeran-santa-clara-tickets-7-25-2026/event/106954171",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS6vtfV_",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418585",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418585/Ed-Sheeran-tickets-Sat-Jul-25-2026-Levis-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-santa-clara-tickets-7-25-2026/event/106954171"
   },
   {
     "id": "tm-ed-sheeran-2026-seattle-0f00632ea04f19df",
@@ -467,12 +539,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418586",
+        "url": "https://www.ticketnetwork.com/en/p/7418586",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418586",
+        "url": "https://www.ticketliquidator.com/tickets/7418586/Ed-Sheeran-tickets-Sat-Aug-1-2026-Lumen-Field",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954172",
+        "url": "https://www.stubhub.ie/ed-sheeran-seattle-tickets-8-1-2026/event/106954172",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbwBOKsEL",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418586",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418586/Ed-Sheeran-tickets-Sat-Aug-1-2026-Lumen-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-seattle-tickets-8-1-2026/event/106954172"
   },
   {
     "id": "tm-ed-sheeran-2026-inglewood-0a006331dc273765",
@@ -520,12 +616,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418587",
+        "url": "https://www.ticketnetwork.com/en/p/7418587",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418587",
+        "url": "https://www.ticketliquidator.com/tickets/7418587/Ed-Sheeran-tickets-Sat-Aug-8-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954173",
+        "url": "https://www.stubhub.ie/ed-sheeran-inglewood-tickets-8-8-2026/event/106954173",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbS6jaSqP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418587",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418587/Ed-Sheeran-tickets-Sat-Aug-8-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-inglewood-tickets-8-8-2026/event/106954173"
   },
   {
     "id": "tm-ed-sheeran-2026-minneapolis-0600632e29196b3e",
@@ -573,12 +693,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106954174",
+        "url": "https://www.stubhub.ie/ed-sheeran-minneapolis-tickets-8-15-2026/event/106954174",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZbwGkztkpiX",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-minneapolis-tickets-8-15-2026/event/106954174"
   },
   {
     "id": "tm-ed-sheeran-2026-toronto-1000632fe9bb4345",
@@ -785,12 +913,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418589",
+        "url": "https://www.ticketnetwork.com/en/p/7418589",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418589",
+        "url": "https://www.ticketliquidator.com/tickets/7418589/Ed-Sheeran-tickets-Sat-Aug-29-2026-Ford-Field",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957092",
+        "url": "https://www.stubhub.ie/ed-sheeran-detroit-tickets-8-29-2026/event/106957092",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZbwGkwNawuE",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418589",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418589/Ed-Sheeran-tickets-Sat-Aug-29-2026-Ford-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-detroit-tickets-8-29-2026/event/106957092"
   },
   {
     "id": "tm-ed-sheeran-2026-east-rutherford-00006331cc3a2a14",
@@ -838,12 +990,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418590",
+        "url": "https://www.ticketnetwork.com/en/p/7418590",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418590",
+        "url": "https://www.ticketliquidator.com/tickets/7418590/Ed-Sheeran-tickets-Fri-Sep-4-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957096",
+        "url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-4-2026/event/106957096",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGFbS6GCxIf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418590",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418590/Ed-Sheeran-tickets-Fri-Sep-4-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-4-2026/event/106957096"
   },
   {
     "id": "tm-ed-sheeran-2026-east-rutherford-00006331cecb2b77",
@@ -891,12 +1067,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418591",
+        "url": "https://www.ticketnetwork.com/en/p/7418591",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418591",
+        "url": "https://www.ticketliquidator.com/tickets/7418591/Ed-Sheeran-tickets-Sat-Sep-5-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954181",
+        "url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-5-2026/event/106954181",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGFbS6CwwcM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418591",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418591/Ed-Sheeran-tickets-Sat-Sep-5-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-east-rutherford-tickets-9-5-2026/event/106954181"
   },
   {
     "id": "tm-ed-sheeran-2026-philadelphia-02006331ed9c6125",
@@ -944,12 +1144,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418592",
+        "url": "https://www.ticketnetwork.com/en/p/7418592",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418592",
+        "url": "https://www.ticketliquidator.com/tickets/7418592/Ed-Sheeran-tickets-Sat-Sep-19-2026-Lincoln-Financial-Field",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957097",
+        "url": "https://www.stubhub.ie/ed-sheeran-philadelphia-tickets-9-19-2026/event/106957097",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkGsGkdcEk7P",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418592",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418592/Ed-Sheeran-tickets-Sat-Sep-19-2026-Lincoln-Financial-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-philadelphia-tickets-9-19-2026/event/106957097"
   },
   {
     "id": "tm-ed-sheeran-2026-foxborough-0100632fcae52e03",
@@ -997,12 +1221,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418593",
+        "url": "https://www.ticketnetwork.com/en/p/7418593",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418593",
+        "url": "https://www.ticketliquidator.com/tickets/7418593/Ed-Sheeran-tickets-Fri-Sep-25-2026-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957098",
+        "url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-25-2026/event/106957098",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177ZbwGkT1y3zd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418593",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418593/Ed-Sheeran-tickets-Fri-Sep-25-2026-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-25-2026/event/106957098"
   },
   {
     "id": "tm-ed-sheeran-2026-foxborough-01006331f67e74d9",
@@ -1050,12 +1298,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418594",
+        "url": "https://www.ticketnetwork.com/en/p/7418594",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418594",
+        "url": "https://www.ticketliquidator.com/tickets/7418594/Ed-Sheeran-tickets-Sat-Sep-26-2026-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957100",
+        "url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-26-2026/event/106957100",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkGsGkdULEK_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418594",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418594/Ed-Sheeran-tickets-Sat-Sep-26-2026-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-foxborough-tickets-9-26-2026/event/106957100"
   },
   {
     "id": "tm-ed-sheeran-2026-atlanta-0e00632fc0572cc1",
@@ -1103,12 +1375,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418596",
+        "url": "https://www.ticketnetwork.com/en/p/7418596",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418596",
+        "url": "https://www.ticketliquidator.com/tickets/7418596/Ed-Sheeran-tickets-Sat-Oct-3-2026-Mercedes-Benz-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954186",
+        "url": "https://www.stubhub.ie/ed-sheeran-atlanta-tickets-10-3-2026/event/106954186",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbwTZ4wSv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418596",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418596/Ed-Sheeran-tickets-Sat-Oct-3-2026-Mercedes-Benz-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-atlanta-tickets-10-3-2026/event/106954186"
   },
   {
     "id": "tm-ed-sheeran-2026-indianapolis-050063299afd15f3",
@@ -1156,12 +1452,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418597",
+        "url": "https://www.ticketnetwork.com/en/p/7418597",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418597",
+        "url": "https://www.ticketliquidator.com/tickets/7418597/Ed-Sheeran-tickets-Sat-Oct-10-2026-Lucas-Oil-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957102",
+        "url": "https://www.stubhub.ie/ed-sheeran-indianapolis-tickets-10-10-2026/event/106957102",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vN1_GA1To9S",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418597",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418597/Ed-Sheeran-tickets-Sat-Oct-10-2026-Lucas-Oil-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-indianapolis-tickets-10-10-2026/event/106957102"
   },
   {
     "id": "tm-ed-sheeran-2026-charlotte-2d006331aac349eb",
@@ -1209,12 +1529,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418598",
+        "url": "https://www.ticketnetwork.com/en/p/7418598",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418598",
+        "url": "https://www.ticketliquidator.com/tickets/7418598/Ed-Sheeran-tickets-Sat-Oct-17-2026-Bank-Of-America-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957103",
+        "url": "https://www.stubhub.ie/ed-sheeran-charlotte-tickets-10-17-2026/event/106957103",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZbSknYVEl",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418598",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418598/Ed-Sheeran-tickets-Sat-Oct-17-2026-Bank-Of-America-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-charlotte-tickets-10-17-2026/event/106957103"
   },
   {
     "id": "tm-ed-sheeran-2026-arlington-z7r9jz1a7jw",
@@ -1314,12 +1658,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418599",
+        "url": "https://www.ticketnetwork.com/en/p/7418599",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418599",
+        "url": "https://www.ticketliquidator.com/tickets/7418599/Ed-Sheeran-tickets-Thu-Oct-29-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957104",
+        "url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-29-2026/event/106957104",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbSkEUolT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418599",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418599/Ed-Sheeran-tickets-Thu-Oct-29-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-29-2026/event/106957104"
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331f45e4089",
@@ -1367,12 +1735,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418600",
+        "url": "https://www.ticketnetwork.com/en/p/7418600",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418600",
+        "url": "https://www.ticketliquidator.com/tickets/7418600/Ed-Sheeran-tickets-Fri-Oct-30-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957105",
+        "url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-30-2026/event/106957105",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS6V90ea",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418600",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418600/Ed-Sheeran-tickets-Fri-Oct-30-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-30-2026/event/106957105"
   },
   {
     "id": "tm-ed-sheeran-2026-tampa-0d006331d60a3a7a",
@@ -1420,11 +1812,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418601",
+        "url": "https://www.ticketnetwork.com/en/p/7418601",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7418601",
+        "url": "https://www.ticketliquidator.com/tickets/7418601/Ed-Sheeran-tickets-Sat-Nov-7-2026-Raymond-James-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106957108",
+        "url": "https://www.stubhub.ie/ed-sheeran-tampa-tickets-11-7-2026/event/106957108",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS6peNtB",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418601",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418601/Ed-Sheeran-tickets-Sat-Nov-7-2026-Raymond-James-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-tampa-tickets-11-7-2026/event/106957108"
   }
 ]

@@ -6,9 +6,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   PROVIDERS,
+  catalogItems,
+  catalogItemsUrl,
   clean,
   impactCredentials,
-  marketplaceProductsUrl,
   normalizeProviderUrl,
   productCandidates,
   providerConfig
@@ -28,7 +29,7 @@ function usage() {
   return `Usage: node scripts/sync-impact-marketplace-events.mjs --provider <${Object.keys(PROVIDERS).join("|")}> [options]
 
 Dry-run is the default. This script never invents a provider URL: it writes only
-one unambiguous Impact Marketplace Products match whose artist, venue, city and
+one unambiguous Impact Catalogs match whose artist, venue, city and
 venue-local date all agree with an existing event.
 
 Options:
@@ -198,10 +199,10 @@ function applyOutcome(event, config, outcome, today) {
 }
 
 async function fetchCatalog(config, artistName, options, state, env = process.env, fetchImpl = globalThis.fetch) {
-  const { accountSid, authToken } = impactCredentials(config, env);
+  const { accountSid, authToken, programId } = impactCredentials(config, env);
   const authorization = `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`;
   const candidates = [];
-  for (let page = 1; page <= MAX_PAGES; page += 1) {
+  for (let page = 0; page < MAX_PAGES; page += 1) {
     if (options.maxApiCalls != null && state.apiCalls >= options.maxApiCalls) return { candidates, complete: false, stopReason: "api_call_limit" };
     if (options.delayMs) await new Promise((resolve) => setTimeout(resolve, options.delayMs));
     state.apiCalls += 1;
@@ -209,7 +210,7 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
     let response;
     try {
-      response = await fetchImpl(marketplaceProductsUrl(config, artistName, page, env, PAGE_SIZE), { headers: { Accept: "application/json", Authorization: authorization }, signal: controller.signal });
+      response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), { headers: { Accept: "application/json", Authorization: authorization }, signal: controller.signal });
     } catch (error) {
       return { candidates, complete: false, stopReason: `request_failed:${clean(error?.message, 120)}` };
     } finally { clearTimeout(timeout); }
@@ -217,10 +218,11 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     if (!response.ok) return { candidates, complete: false, stopReason: `http_${response.status}` };
     let payload;
     try { payload = await response.json(); } catch { return { candidates, complete: false, stopReason: "invalid_json" }; }
-    if (!Array.isArray(payload?.Results)) return { candidates, complete: false, stopReason: "missing_results" };
-    for (const item of payload.Results) candidates.push(...productCandidates(config, item));
+    const items = catalogItems(payload);
+    if (!items) return { candidates, complete: false, stopReason: "missing_items" };
+    for (const item of items) candidates.push(...productCandidates(config, item, programId));
     const total = Number(payload?.["@total"] ?? payload?.Total);
-    if (payload.Results.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { candidates, complete: true, stopReason: "" };
+    if (items.length < PAGE_SIZE || (Number.isFinite(total) && (page + 1) * PAGE_SIZE >= total)) return { candidates, complete: true, stopReason: "" };
   }
   return { candidates, complete: false, stopReason: "pagination_cap" };
 }
@@ -287,8 +289,13 @@ async function run(options, deps = {}) {
 
 async function selfTest() {
   const config = providerConfig("ticketnetwork");
-  const candidate = productCandidates(config, { Name: "RAYE", Description: "RAYE at O2 Arena, London on 9 July 2027", Offers: [{ Sku: "tn-1", OriginalUrl: "https://www.ticketnetwork.com/tickets/raye-london-o2-arena-7-9-2027/tn-1", CurrentPrice: "55", Currency: "GBP" }] })[0];
+  const catalogItem = { CampaignId: "123", CatalogItemId: "tn-1", Name: "RAYE", Description: "RAYE at O2 Arena, London on 9 July 2027", Url: "https://www.ticketnetwork.com/tickets/raye-london-o2-arena-7-9-2027/tn-1", CurrentPrice: "55", Currency: "GBP" };
+  const candidate = productCandidates(config, catalogItem, "123")[0];
   assert.equal(candidate.externalId, "tn-1");
+  assert.equal(productCandidates(config, catalogItem, "wrong-program").length, 0);
+  assert.match(catalogItemsUrl(config, "RAYE", 0, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123" }), /\/Catalogs\/ItemSearch\?/);
+  assert.match(catalogItemsUrl(config, "RAYE", 0, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123", IMPACT_TICKETNETWORK_CATALOG_ID: "456" }), /\/Catalogs\/456\/Items\?/);
+  assert.equal(catalogItems({ Items: [catalogItem] })[0].CatalogItemId, "tn-1");
   assert.equal(normalizeProviderUrl(config, "https://ticketnetwork.com/"), "");
   assert.equal(normalizeProviderUrl(config, "https://evil.example/tickets/1"), "");
   const event = { id: "e1", artist_slug: "raye", datetime_iso: "2027-07-09T19:00:00", timezone: "Europe/London", city: "London", venue: "O2 Arena", provider_links: {} };
@@ -307,13 +314,13 @@ async function selfTest() {
   });
   assert.equal(dry.added, 1);
   assert.equal(dry.changed, 0);
-  return 13;
+  return 17;
 }
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   if (options.help) return console.log(usage());
-  if (options.selfTest) return console.log(`Impact marketplace provider sync self-test passed (${await selfTest()} checks).`);
+  if (options.selfTest) return console.log(`Impact catalog provider sync self-test passed (${await selfTest()} checks).`);
   if (!options.provider) throw new Error("--provider is required");
   const summary = await run(options);
   console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.selected} selected, ${summary.changed} changed, ${summary.added} added, ${summary.verified} verified, ${summary.corrected} corrected, ${summary.cleared} cleared, ${summary.unverified} unverified, ${summary.conflicts} conflicts.`);

@@ -82,18 +82,18 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 ## TicketNetwork, Ticket Liquidator, and StubHub International
 
-**Implementation status (2026-07-13): built, default-off, not approved for public display yet.** These are three independent provider lanes over the shared Impact Marketplace Products integration. StubHub International is explicitly separate from StubHub US/Canada.
+**Implementation status (2026-07-13): built, default-off, not approved for public display yet.** These are three independent provider lanes over the shared Impact Catalogs integration. StubHub International is explicitly separate from StubHub US/Canada.
 
 The implementation includes:
 
-- `scripts/sync-impact-marketplace-events.mjs`: exact-name catalog lookup for registry-verified artists; a candidate is written only when artist, venue, city, and venue-local date agree unambiguously. It writes only the provider's top-level event URL plus `provider_links.<provider>` event ID, URL, verification date, and listing state. Incomplete catalogs never clear a stored link.
+- `scripts/sync-impact-marketplace-events.mjs`: catalog keyword lookup for registry-verified artists, followed by exact artist/campaign and event-field validation; a candidate is written only when artist, venue, city, and venue-local date agree unambiguously. It writes only the provider's top-level event URL plus `provider_links.<provider>` event ID, URL, verification date, and listing state. Incomplete catalogs never clear a stored link.
 - `/api/out`, `/api/shows`, SSR, and client rendering: provider-specific host allowlists, verified-provenance checks, server-side Impact wrapping, and separate public/display flags.
 - `scripts/snapshot-impact-marketplace-prices.mjs`: cache-only display writer fed by an exact stored provider event ID. Conflicting prices or currencies are skipped.
 - Manual-only workflows for event synchronization and price snapshots. There is no schedule or auto-merge before a supervised provider-specific catalog proof.
 
 **Activation requirements for each provider:**
 
-1. The Impact account must show an approved provider program/campaign and Marketplace Products scope. A 401/403 or a catalog from a different program is a hard stop.
+1. The Impact account must show an approved provider program/campaign and Catalogs scope. A 401/403 or a catalog from a different program is a hard stop.
 2. Written rights must confirm event-link, listed-price, comparison/history, and disclosure use. Impact membership alone does not imply those rights.
 3. Sample catalog event URLs and tracking redirects must be browser-verified against the provider and market.
 4. Keep `TICKETNETWORK_PUBLIC_ENABLED`, `TICKETLIQUIDATOR_PUBLIC_ENABLED`, and `STUBHUB_INTERNATIONAL_PUBLIC_ENABLED` false until the matching provider passes 1–3. Price display has a second independent flag and must remain false until the exact-ID snapshot proof and price rights pass.

@@ -796,6 +796,7 @@
         "IMPACT_TICKETNETWORK_ACCOUNT_SID",
         "IMPACT_TICKETNETWORK_AUTH_TOKEN",
         "IMPACT_TICKETNETWORK_CAMPAIGN_ID",
+        "IMPACT_TICKETNETWORK_CATALOG_ID",
         "IMPACT_TICKETNETWORK_BASE_TRACKING_URL",
         "TICKETNETWORK_PUBLIC_ENABLED",
         "TICKETNETWORK_PRICE_DISPLAY_ENABLED"
@@ -806,7 +807,7 @@
       ],
       "trusted_affiliate_hosts": [],
       "api_config": {
-        "type": "impact_marketplace_products",
+        "type": "impact_catalog_items",
         "base_url": "https://api.impact.com/",
         "rate_limit_per_second": 1,
         "supports_event_search": true,
@@ -836,6 +837,7 @@
         "IMPACT_TICKETLIQUIDATOR_ACCOUNT_SID",
         "IMPACT_TICKETLIQUIDATOR_AUTH_TOKEN",
         "IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID",
+        "IMPACT_TICKETLIQUIDATOR_CATALOG_ID",
         "IMPACT_TICKETLIQUIDATOR_BASE_TRACKING_URL",
         "TICKETLIQUIDATOR_PUBLIC_ENABLED",
         "TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED"
@@ -846,7 +848,7 @@
       ],
       "trusted_affiliate_hosts": [],
       "api_config": {
-        "type": "impact_marketplace_products",
+        "type": "impact_catalog_items",
         "base_url": "https://api.impact.com/",
         "rate_limit_per_second": 1,
         "supports_event_search": true,
@@ -876,6 +878,7 @@
         "IMPACT_STUBHUB_INTERNATIONAL_ACCOUNT_SID",
         "IMPACT_STUBHUB_INTERNATIONAL_AUTH_TOKEN",
         "IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID",
+        "IMPACT_STUBHUB_INTERNATIONAL_CATALOG_ID",
         "IMPACT_STUBHUB_INTERNATIONAL_BASE_TRACKING_URL",
         "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED",
         "STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED"
@@ -893,7 +896,7 @@
       ],
       "trusted_affiliate_hosts": [],
       "api_config": {
-        "type": "impact_marketplace_products",
+        "type": "impact_catalog_items",
         "base_url": "https://api.impact.com/",
         "rate_limit_per_second": 1,
         "supports_event_search": true,

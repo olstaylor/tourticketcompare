@@ -301,7 +301,7 @@ reference. Only after that merge does a one-line follow-up PR uncomment the
 
 ### TicketNetwork, Ticket Liquidator, and StubHub International
 
-These providers share one fail-closed Impact Marketplace Products ingestion
+These providers share one fail-closed Impact Catalogs ingestion
 contract while retaining independent provider slugs, hosts, credentials,
 public flags, price flags, provenance, and D1 sources:
 
@@ -324,8 +324,10 @@ node scripts/snapshot-impact-marketplace-prices.mjs --provider ticketnetwork --j
 
 `scripts/lib/impact-marketplace-providers.mjs` owns the provider configuration
 and URL normalization. `scripts/sync-impact-marketplace-events.mjs` fetches a
-maximum of five 100-row pages per registry-verified artist using the exact-name
-Impact query. A row passes only when the artist, venue, city, and venue-local
+maximum of five 100-row pages per registry-verified artist using Impact's
+`/Catalogs/ItemSearch` endpoint (or `/Catalogs/{CatalogId}/Items` when the
+optional provider catalog ID is configured). Results are isolated to the
+provider's configured campaign ID. A row passes only when the artist, venue, city, and venue-local
 date all match; zero or multiple candidates never write. A stored link is
 cleared/unverified only after a complete successful catalog fetch provides
 positive not-listed evidence. Authentication failures abort, and incomplete

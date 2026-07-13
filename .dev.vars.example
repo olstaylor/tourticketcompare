@@ -38,23 +38,29 @@ IMPACT_DEFAULT_PROGRAM_ID=your_default_program_id_here
 # IMPACT_VIVIDSEATS_AUTH_TOKEN=your_vividseats_auth_token_here
 # IMPACT_VIVIDSEATS_CAMPAIGN_ID=your_vividseats_campaign_id_here
 # IMPACT_VIVIDSEATS_BASE_TRACKING_URL=https://vividseats.pxf.io/your_code_here
-# Impact Marketplace Products provider config. Keep the public/display flags
+# Impact Catalogs provider config. Catalog IDs are optional; when omitted the
+# integration searches all available catalogs and isolates rows by campaign ID.
+# Keep the public/display flags
 # false until catalog access, program identity, tracking, and event matches are
 # verified in the relevant Impact account.
 # IMPACT_TICKETNETWORK_ACCOUNT_SID=your_ticketnetwork_account_sid_here
 # IMPACT_TICKETNETWORK_AUTH_TOKEN=your_ticketnetwork_auth_token_here
 # IMPACT_TICKETNETWORK_CAMPAIGN_ID=your_ticketnetwork_campaign_id_here
+# IMPACT_TICKETNETWORK_CATALOG_ID=your_ticketnetwork_catalog_id_here
 # IMPACT_TICKETNETWORK_BASE_TRACKING_URL=https://ticketnetwork.pxf.io/your_code_here
 # IMPACT_TICKETLIQUIDATOR_ACCOUNT_SID=your_ticketliquidator_account_sid_here
 # IMPACT_TICKETLIQUIDATOR_AUTH_TOKEN=your_ticketliquidator_auth_token_here
 # IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID=your_ticketliquidator_campaign_id_here
+# IMPACT_TICKETLIQUIDATOR_CATALOG_ID=your_ticketliquidator_catalog_id_here
 # IMPACT_TICKETLIQUIDATOR_BASE_TRACKING_URL=https://ticketliquidator.pxf.io/your_code_here
 # IMPACT_STUBHUB_INTERNATIONAL_ACCOUNT_SID=your_stubhub_international_account_sid_here
 # IMPACT_STUBHUB_INTERNATIONAL_AUTH_TOKEN=your_stubhub_international_auth_token_here
 # IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID=your_stubhub_international_campaign_id_here
+# IMPACT_STUBHUB_INTERNATIONAL_CATALOG_ID=your_stubhub_international_catalog_id_here
 # IMPACT_STUBHUB_INTERNATIONAL_BASE_TRACKING_URL=https://stubhubinternational.pxf.io/your_code_here
 PUBLIC_SITE_PHASE=pages_mvp_market_watch
 ENABLE_PUBLIC_TICKET_LISTINGS=false
 
 # D1 binding, configured in wrangler.toml / Cloudflare Pages dashboard rather than as text:
 # DEMAND_DB=tourticketcompare-demand
+

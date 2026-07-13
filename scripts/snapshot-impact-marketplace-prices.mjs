@@ -9,9 +9,10 @@ import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import {
   PROVIDERS,
+  catalogItems,
+  catalogItemsUrl,
   clean,
   impactCredentials,
-  marketplaceProductsUrl,
   productCandidates,
   providerConfig
 } from "./lib/impact-marketplace-providers.mjs";
@@ -64,17 +65,18 @@ function selectEligible(events, artists, config, options, now = new Date()) {
 }
 
 async function fetchArtistCatalog(config, artistName, env = process.env, fetchImpl = globalThis.fetch) {
-  const { accountSid, authToken } = impactCredentials(config, env);
+  const { accountSid, authToken, programId } = impactCredentials(config, env);
   const authorization = `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`;
   const candidates = [];
-  for (let page = 1; page <= MAX_PAGES; page += 1) {
-    const response = await fetchImpl(marketplaceProductsUrl(config, artistName, page, env, PAGE_SIZE), { headers: { Accept: "application/json", Authorization: authorization } });
-    if (!response.ok) return { ok: false, reason: `Impact Marketplace Products returned HTTP ${response.status}` };
+  for (let page = 0; page < MAX_PAGES; page += 1) {
+    const response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), { headers: { Accept: "application/json", Authorization: authorization } });
+    if (!response.ok) return { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
     const payload = await response.json();
-    if (!Array.isArray(payload?.Results)) return { ok: false, reason: "Impact response had no Results array" };
-    for (const item of payload.Results) candidates.push(...productCandidates(config, item));
+    const items = catalogItems(payload);
+    if (!items) return { ok: false, reason: "Impact response had no Items array" };
+    for (const item of items) candidates.push(...productCandidates(config, item, programId));
     const total = Number(payload?.["@total"] ?? payload?.Total);
-    if (payload.Results.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { ok: true, candidates };
+    if (items.length < PAGE_SIZE || (Number.isFinite(total) && (page + 1) * PAGE_SIZE >= total)) return { ok: true, candidates };
   }
   return { ok: false, reason: "Impact catalog exceeded pagination cap" };
 }
@@ -175,7 +177,7 @@ async function selfTest() {
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   if (options.help) return console.log(`Usage: node scripts/snapshot-impact-marketplace-prices.mjs --provider <${Object.keys(PROVIDERS).join("|")}> [--apply] [--json]`);
-  if (options.selfTest) return console.log(`Impact marketplace price snapshot self-test passed (${await selfTest()} checks).`);
+  if (options.selfTest) return console.log(`Impact catalog price snapshot self-test passed (${await selfTest()} checks).`);
   if (!options.provider) throw new Error("--provider is required");
   const summary = await run(options);
   console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.eligible} eligible, ${summary.usable} usable, ${summary.written} written, ${summary.failed} failed.`);

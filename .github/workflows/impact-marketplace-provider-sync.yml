@@ -45,14 +45,17 @@ jobs:
       IMPACT_TICKETNETWORK_ACCOUNT_SID: ${{ secrets.IMPACT_TICKETNETWORK_ACCOUNT_SID }}
       IMPACT_TICKETNETWORK_AUTH_TOKEN: ${{ secrets.IMPACT_TICKETNETWORK_AUTH_TOKEN }}
       IMPACT_TICKETNETWORK_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETNETWORK_CAMPAIGN_ID }}
+      IMPACT_TICKETNETWORK_CATALOG_ID: ${{ secrets.IMPACT_TICKETNETWORK_CATALOG_ID }}
       IMPACT_TICKETNETWORK_PROGRAM_ID: ${{ secrets.IMPACT_TICKETNETWORK_PROGRAM_ID }}
       IMPACT_TICKETLIQUIDATOR_ACCOUNT_SID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_ACCOUNT_SID }}
       IMPACT_TICKETLIQUIDATOR_AUTH_TOKEN: ${{ secrets.IMPACT_TICKETLIQUIDATOR_AUTH_TOKEN }}
       IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID }}
+      IMPACT_TICKETLIQUIDATOR_CATALOG_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_CATALOG_ID }}
       IMPACT_TICKETLIQUIDATOR_PROGRAM_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_PROGRAM_ID }}
       IMPACT_STUBHUB_INTERNATIONAL_ACCOUNT_SID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_ACCOUNT_SID }}
       IMPACT_STUBHUB_INTERNATIONAL_AUTH_TOKEN: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_AUTH_TOKEN }}
       IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID }}
+      IMPACT_STUBHUB_INTERNATIONAL_CATALOG_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_CATALOG_ID }}
       IMPACT_STUBHUB_INTERNATIONAL_PROGRAM_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_PROGRAM_ID }}
 
     steps:
@@ -118,6 +121,5 @@ jobs:
           PR_TITLE="${PROVIDER} Impact catalog sync (${TODAY})" \
           PR_LABEL="automation:provider-sync" \
           PR_AUTO_MERGE=false \
-          PR_BODY=$'## What this PR does\n- Uses the approved provider program in Impact Marketplace Products.\n- Adds or corrects only one unambiguous match whose artist, venue, city, and venue-local date agree.\n- Records provider-specific event ID, URL, verification date, and listing state.\n\n## Safety\n- No guessing or scraping.\n- Incomplete catalogs never clear links.\n- Ambiguous matches stay unchanged.\n- Manual review is required; auto-merge is disabled.\n' \
+          PR_BODY=$'## What this PR does\n- Uses the approved provider program in the Impact Catalogs API.\n- Adds or corrects only one unambiguous match whose artist, venue, city, and venue-local date agree.\n- Records provider-specific event ID, URL, verification date, and listing state.\n\n## Safety\n- No guessing or scraping.\n- Incomplete catalogs never clear links.\n- Ambiguous matches stay unchanged.\n- Manual review is required; auto-merge is disabled.\n' \
           node scripts/open-automation-pr.mjs
-

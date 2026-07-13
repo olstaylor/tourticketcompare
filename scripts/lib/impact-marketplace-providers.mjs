@@ -74,29 +74,48 @@ function impactCredentials(config, env = process.env) {
     env[`${config.envPrefix}_CAMPAIGN_ID`] || env[`${config.envPrefix}_PROGRAM_ID`],
     120
   );
+  const catalogId = clean(env[`${config.envPrefix}_CATALOG_ID`], 120);
   if (!accountSid || !authToken || !programId) {
     throw new Error(`${config.envPrefix}_ACCOUNT_SID, _AUTH_TOKEN and _CAMPAIGN_ID (or _PROGRAM_ID) are required`);
   }
-  return { accountSid, authToken, programId };
+  return { accountSid, authToken, programId, catalogId };
 }
 
-function marketplaceProductsUrl(config, artistName, page, env = process.env, pageSize = 100) {
-  const { accountSid, programId } = impactCredentials(config, env);
+function catalogItemsUrl(config, artistName, page, env = process.env, pageSize = 100) {
+  const { accountSid, catalogId } = impactCredentials(config, env);
   const base = clean(env.IMPACT_API_BASE_URL || "https://api.impact.com").replace(/\/+$/, "");
   const params = new URLSearchParams({
-    Program: programId,
-    Query: `Name='${artistName}'`,
+    Keyword: clean(artistName, 200),
     PageSize: String(pageSize),
     Page: String(page)
   });
-  return `${base}/Mediapartners/${encodeURIComponent(accountSid)}/Marketplace/Products?${params.toString()}`;
+  const resource = catalogId
+    ? `Catalogs/${encodeURIComponent(catalogId)}/Items`
+    : "Catalogs/ItemSearch";
+  return `${base}/Mediapartners/${encodeURIComponent(accountSid)}/${resource}?${params.toString()}`;
+}
+
+function catalogItems(payload) {
+  if (Array.isArray(payload)) return payload;
+  for (const key of ["Items", "Results", "CatalogItems", "Products"]) {
+    if (Array.isArray(payload?.[key])) return payload[key];
+  }
+  if (payload && typeof payload === "object" && (payload.CatalogItemId || payload.CatalogId)) return [payload];
+  return null;
+}
+
+function catalogItemMatchesProgram(item, programId) {
+  const expected = clean(programId, 120);
+  const actual = clean(item?.CampaignId || item?.ProgramId, 120);
+  return Boolean(expected && actual && expected === actual);
 }
 
 function offerRows(item) {
   return Array.isArray(item?.Offers) && item.Offers.length ? item.Offers : [item];
 }
 
-function productCandidates(config, item) {
+function productCandidates(config, item, programId = "") {
+  if (programId && !catalogItemMatchesProgram(item, programId)) return [];
   const candidates = [];
   for (const offer of offerRows(item)) {
     const originalUrl = clean(
@@ -112,7 +131,10 @@ function productCandidates(config, item) {
     const inventory = Number(offer?.InventoryCount ?? item?.InventoryCount);
     const currency = clean(offer?.Currency || item?.Currency, 12).toUpperCase();
     const searchableText = [
-      item?.Name, item?.Description, item?.Manufacturer, item?.Category,
+      item?.Name, item?.Description, item?.Manufacturer, item?.Category, item?.SubCategory,
+      item?.ParentName, item?.Text1, item?.Text2, item?.Text3, item?.Mpn,
+      ...(Array.isArray(item?.Bullets) ? item.Bullets : []),
+      ...(Array.isArray(item?.Labels) ? item.Labels : []),
       offer?.Name, offer?.Description, decodeURIComponent(new URL(normalizedUrl).pathname)
     ].map((value) => clean(value, 1000)).filter(Boolean).join(" ");
     candidates.push({
@@ -129,10 +151,12 @@ function productCandidates(config, item) {
 
 export {
   PROVIDERS,
+  catalogItemMatchesProgram,
+  catalogItems,
+  catalogItemsUrl,
   clean,
   hostnameAllowed,
   impactCredentials,
-  marketplaceProductsUrl,
   normalizeProviderUrl,
   productCandidates,
   providerConfig

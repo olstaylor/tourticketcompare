@@ -96,7 +96,7 @@ All HTML route handling lives in `functions/[[path]].js`; page metadata lives in
 - `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` — network-level Impact fallback (server-side only).
 - `IMPACT_SEATGEEK_*` — SeatGeek Impact program (server-side only). Active.
 - `IMPACT_VIVIDSEATS_*` — production event-level CTAs are live; confirm runtime state through `/api/health` and redirect tests rather than inferring secret presence from the repository. Artist-level Vivid Seats entries remain absent.
-- `IMPACT_TICKETNETWORK_*`, `IMPACT_TICKETLIQUIDATOR_*`, `IMPACT_STUBHUB_INTERNATIONAL_*` — provider-specific Marketplace Products and tracking credentials. Their runtime and price lanes are implemented but default-off; never enable a public/display flag until that provider's program, catalog scope, usage rights, tracking redirect, and sample matches are verified.
+- `IMPACT_TICKETNETWORK_*`, `IMPACT_TICKETLIQUIDATOR_*`, `IMPACT_STUBHUB_INTERNATIONAL_*` — provider-specific Impact Catalogs and tracking credentials. Their runtime and price lanes are implemented but default-off; never enable a public/display flag until that provider's program, catalog scope, usage rights, tracking redirect, and sample matches are verified.
 - `TICKETNETWORK_PUBLIC_ENABLED`, `TICKETLIQUIDATOR_PUBLIC_ENABLED`, `STUBHUB_INTERNATIONAL_PUBLIC_ENABLED` — independent public CTA gates; default false. Matching `*_PRICE_DISPLAY_ENABLED` flags are separate and default false.
 - `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` — discovery tooling only, not `/api/out`.
 - The old `IMPACT_TICKETMASTER_*` secrets are unused — delete them from the dashboard if still present (owner task, tracked in `BACKLOG.md`).

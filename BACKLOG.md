@@ -15,9 +15,9 @@ All remaining active work is **operational** (owner + gated tooling), not engine
 
 ### 2. Impact provider activation — TicketNetwork, Ticket Liquidator, StubHub International
 
-The shared engineering path is implemented: Impact Marketplace Products event ingestion, provider-specific verified provenance, allowlisted `/api/out` redirects, SSR/client CTAs, cache-only D1 price snapshots, health diagnostics, validators, and manual workflows. Owner operations remain before public activation, independently for each provider:
+The shared engineering path is implemented: Impact Catalogs event ingestion, provider-specific verified provenance, allowlisted `/api/out` redirects, SSR/client CTAs, cache-only D1 price snapshots, health diagnostics, validators, and manual workflows. Owner operations remain before public activation, independently for each provider:
 
-1. Confirm the exact Impact program/campaign identity and that Marketplace Products scope returns its catalog (the current production credential probe returns HTTP 403 and is not evidence of approval).
+1. Confirm the exact Impact program/campaign identity and that the Catalogs API returns its catalog. The earlier `/Marketplace/Products` HTTP 403 came from the wrong API surface and is not evidence about Catalogs access.
 2. Confirm written rights for event links, listed-price display, comparison/history use, and the required affiliate disclosure.
 3. Configure the provider-specific `IMPACT_<PROVIDER>_*` secrets and approved base tracking URL, run the manual event-sync workflow in preview, then apply to a review PR and browser-check sample events across markets.
 4. Run the price workflow in dry-run and confirm exact external-ID matches, source/currency/timestamps, and non-zero usable rows before any D1 write.

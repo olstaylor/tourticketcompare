@@ -2,6 +2,8 @@
 
 Last updated: 2026-07-13. The existing four-hour price-snapshot architecture is active and should be preserved: the workflows write approved SeatGeek and Vivid Seats observations to D1, and `/api/shows` serves them through a batched cache-only lane with source, provider-level verification, feature-flag, and expiry gates. Production `/api/health` confirms both display flags, D1, and both affiliate-provider configurations are present. The latest inspected Vivid Seats price run (#23) fetched and wrote all 208 eligible events; the production API subsequently exposed 204 fresh rows for 205 eligible current events because one newly synced JAY-Z event landed after that price run. The latest inspected SeatGeek price run (#100) sent both client ID and secret and received HTTP 200 for all 197 eligible events, but every pricing-stat field was null and zero usable rows were written; SeatGeek pricing-stat entitlement is the remaining blocker (see Active risks). Earlier update history lives in git (`git log -- PROJECT_STATUS.md`), not in this header.
 
+The source now also contains a fail-closed, manual-only Ticketmaster/SeatGeek event-page lowest-price lane based on approval text supplied by the owner on 2026-07-13. It is **not production-verified or scheduled**: migration `0008_authorized_event_page_pricing.sql` must be applied, then a supervised paired 10-show run must prove exact URLs/prices/timestamps and encounter no CAPTCHA/login/block response. The writer uses existing catalog URLs only, stores no page content, enforces one retrieval per canonical provider event ID per rolling 24 hours through D1, rejects duplicate local mappings to the same provider event, prefers a fresh SeatGeek API row, and stops on missing catalog coverage or provider barriers.
+
 This file is the current-state snapshot — the **only** place live state (counts, per-artist status, active risks) is recorded. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. `docs/DOCS_MAINTENANCE.md` explains which files are canonical and how to keep this one fresh. Everything in `docs/archive/` is historical and should not be treated as current guidance unless referenced from here or `BACKLOG.md`.
 
 ## Runtime and architecture
@@ -94,6 +96,8 @@ Run before committing data, content, or rendering changes:
 
 These are the live risks. Detailed task scope and ordering live in `BACKLOG.md`.
 
+- **Authorized Ticketmaster/SeatGeek page-price lane awaits supervised activation.** Code, migration, provider plugins, source-URL gates and offline tests exist, but no live request has been made and no recurring schedule is enabled. Apply migration `0008`, dispatch the manual workflow with `paired_only=true`, `limit=10`, `apply=true`, verify all 20 expected provider rows, and stop on any CAPTCHA/login/403/429 response. A full-catalog run is expected to fail closed while current events lack one of the two verified provider pages; do not weaken that report or discover unrelated pages.
+
 - **New Impact provider lanes are active; event ingestion remains supervised.** TicketNetwork campaign `2322` / catalog `896`, Ticket Liquidator `2085` / `1315`, and StubHub International `24092` / `17571` were verified through the existing SeatGeek-scoped Impact account. The release includes campaign-isolated provenance, allowlisted tracked redirects, SSR/client CTAs, cache-only D1 snapshots, health diagnostics, and manual event preview/apply workflows. TicketNetwork and StubHub International refresh six-hour price snapshots every four hours. Explicit false flags remain emergency kill switches. Ticket Liquidator prices stay disabled while its catalog has no numeric `CurrentPrice`; StubHub International remains separate from StubHub US/Canada.
 
 - **Affiliate-pivot owner follow-ups.** Event-level Vivid Seats activation is complete and three owner spot-checks succeeded. The Vivid CTA and price crons are enabled and the inspected price run wrote every eligible row. Remaining work: confirm the existing Ticketmaster/SeatGeek redirect checks, delete unused `IMPACT_TICKETMASTER_*` secrets, and monitor scheduled price summaries for partial or zero-row runs. Artist-level Vivid Seats remains separate scope. The 2026-07-10 liveness audit's Vivid HEAD 404s are not sufficient evidence of dead links; the verifier requires GET confirmation.
@@ -114,8 +118,8 @@ These are the live risks. Detailed task scope and ordering live in `BACKLOG.md`.
 The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, and `CLAUDE.md`. Highlights:
 
 - Never invent tours, dates, venues, prices, availability, providers, inventory, or ticket links.
-- Never scrape ticket providers.
-- Never claim live price comparison unless approved provider feeds support it.
+- Never perform unapproved provider scraping; the sole direct-page exception is the authorized, catalog-scoped Ticketmaster/SeatGeek lowest-price writer.
+- Never claim live price comparison unless approved cache rows pass exact-source, URL, timestamp and expiry gates.
 - Never expose Impact or any other secret client-side.
 - CTAs only when the artist/event is reviewed, the provider destination has the required verification/provenance, and the URL, runtime configuration, and `/api/out` gates pass.
 
@@ -132,10 +136,12 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 - First-party analytics and signup writes through `DEMAND_DB`.
 - Provider sync uses validated PR workflows: Ticketmaster new-show, lossless field sync, SeatGeek CTA sync, and (since 2026-07-12) Vivid Seats CTA sync may auto-merge only within their sanctioned gates. Runtime CTA gates and `/api/out` remain fail-closed.
 - Approved price snapshots for every eligible show: `/api/shows` serves a bulk `priceProviders=approved-marketplaces` lane (cache-only batched D1 read — never a provider call), and both SSR and client rendering use those cached rows. Display remains gated per provider by the Cloudflare feature flags, approved source, exact provider-level event verification, valid timestamps, and expiry.
+- Manual-only authorized Ticketmaster/SeatGeek page-price tooling is implemented and fail-closed pending migration and supervised live verification; it is not yet a production/scheduled capability.
 
 ## What is not supported
 
 - Live multi-provider price aggregation; "cheapest" / "guaranteed availability" claims. The approved SeatGeek/Vivid lanes are provider snapshots rather than live checkout totals; both public display flags are enabled, but each lane remains fail-closed unless its exact-event, source, timestamp, and expiry gates pass.
+- Scheduled or unsupervised Ticketmaster/SeatGeek event-page retrieval before the first paired 10-show verification is reviewed.
 - Tour, city, venue, or event landing pages.
 - Artist-level Vivid Seats CTAs. Event-level Vivid Seats CTAs are supported and live.
 - Ticket Liquidator listed-price snapshots while its Impact catalog omits numeric `CurrentPrice`. StubHub US/Canada is not part of the StubHub International integration.

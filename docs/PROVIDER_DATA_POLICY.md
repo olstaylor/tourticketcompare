@@ -8,6 +8,17 @@ This document defines how TourTicketCompare uses data from ticket providers, aff
 
 > Verified ticket links first. Approved provider price snapshots may be displayed and retained only when the provider's rights, exact-event mapping, feature flags, source, and freshness gates all pass. Final prices, fees, availability, delivery terms, and checkout terms are always confirmed by the ticket provider.
 
+## Authorization audit references
+
+The repository owner supplied the complete approval text in Codex task `019f5c0a-13c6-7c61-83b2-6885185a2b3c` on 2026-07-13; the original correspondence remains retained by the owner.
+
+| Provider | Sender identified in supplied approval | Approved scope recorded here |
+|---|---|---|
+| Ticketmaster | Ticketmaster Partnerships Team | Lowest publicly visible price from unauthenticated public event pages; price, currency, event URL and retrieval time only; Ticketmaster attribution and official event link; subject-to-availability/fees/change qualification; no broader collection or redistribution. |
+| SeatGeek | SeatGeek Partnerships Team | Lowest publicly visible price from public event pages only where equivalent API pricing is unavailable; price, currency, event URL and retrieval time only; SeatGeek attribution and approved affiliate event link; no personal, seating-map or substantial page content; TourTicketCompare only. |
+
+Both approvals cap retrieval at no more than once per event every 24 hours. `provider_page_retrievals` records the canonical provider event ID and is the durable minimal-field ledger enforcing that limit across local catalog aliases, manual runs and workflow runs.
+
 ---
 
 ## Ticketmaster
@@ -18,10 +29,15 @@ This document defines how TourTicketCompare uses data from ticket providers, aff
 - Verifying that an event exists (via Ticketmaster Discovery API, with `TICKETMASTER_API_KEY`)
 - Providing artist-level and event-level ticket links (via `/api/out` using verified plain, unmonetized Ticketmaster destinations)
 - Populating event show cards with date, venue, and city information
+- Retrieving and displaying the lowest publicly visible price from an already verified, unauthenticated `ticketmaster.com` event page through `scripts/snapshot-authorized-page-prices.mjs`
 
-**What Ticketmaster data cannot be used for:**
-- Public price display, unless `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true` and the price data is confirmed displayable
-- "Lowest price from Ticketmaster" or equivalent claims unless live, timestamped, approved price data is shown
+**Ticketmaster page-price restrictions:**
+- At most one retrieval per canonical Ticketmaster event ID in any rolling 24-hour window, enforced before the request from the durable retrieval ledger; duplicate local mappings are rejected rather than fetched twice
+- Store only lowest price, currency, exact event URL and retrieval timestamp; never page HTML, inventory, other price tiers, customer/account or seating-map data
+- `source='ticketmaster_authorized_event_page'`, exact verified `source_url`, `TICKETMASTER_PRICE_DISPLAY_ENABLED=true`, finite positive price, timestamp and expiry are mandatory for display
+- Label pricing as subject to availability, fees and change; link to the official Ticketmaster event page for verification and purchase
+- CAPTCHA, login wall, 403/429 block or unrelated redirect is a hard stop, never a signal to bypass controls
+- Live mode reads each provider origin's `robots.txt` once on demand through the same conservative pacer and fails closed when the exact event path is disallowed or the policy cannot be verified
 
 **Affiliate status: none (plain links only).**
 The site was removed from the Ticketmaster affiliate programme. All Ticketmaster links — artist-level entries in `/api/out` (`VERIFIED_TICKET_LINKS`) and event-level `ticketmaster_url` redirects — are plain, unmonetized `https://www.ticketmaster.com/...` URLs. There is no Impact Publisher Tag (`public/impact.js` was removed), no `ticketmaster.evyy.net` shortlinks, and `/api/out` never calls the Impact API for a Ticketmaster redirect.
@@ -47,6 +63,7 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 **Approved public display rights (confirmed 2026-07-09):**
 - **Ticket links/CTAs:** approved for public display through verified SeatGeek destinations and server-side Impact wrapping.
 - **Listed price:** approved for public display from the approved SeatGeek partner API when `SEATGEEK_PRICE_DISPLAY_ENABLED=true` and the `/api/shows` cache/source/freshness gates pass.
+- **Authorized page fallback:** where equivalent API pricing is unavailable, the lowest publicly visible price may be retrieved from the already verified public SeatGeek event page no more than once every 24 hours. The row uses `source='seatgeek_authorized_event_page'`; only price, currency, URL and retrieval time are retained.
 - **Side-by-side comparisons:** approved for the same verified event with a fresh approved Vivid Seats snapshot. TourTicketCompare may identify the lower listed snapshot and the price difference.
 - **History:** approved for archival and historical display when the provider/source attribution and observation time remain attached.
 - **Fees/final checkout total:** not approved from TourTicketCompare data. Users must confirm fees and final totals on SeatGeek.
@@ -54,7 +71,8 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 **Constraints:**
 - The destination host is `seatgeek.com` (the only allowlisted SeatGeek host). Generic search/venue URLs are rejected on the event lane; the artist lane accepts only the hand-verified performer-page constants in `VERIFIED_TICKET_LINKS`.
-- **SeatGeek price snapshots are live only behind their source and freshness gate.** They must be sourced from the approved SeatGeek partner API, gated by `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, tied to an event with a valid verified `seatgeek_url`, loaded from a cached row with `source='seatgeek_partner_api'`, timestamped, and hidden when stale. Do not scrape, invent, or manually enter prices.
+- **SeatGeek price snapshots are live only behind their source and freshness gate.** They must be sourced from the approved partner API or authorized page fallback, gated by `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, tied to exact verified SeatGeek provenance, timestamped, and hidden when stale. Page retrieval is prohibited when a fresh usable partner-API row already exists and must stop on CAPTCHA, login wall, 403/429 block or unrelated redirect.
+- Authorized page fallback also requires the exact event path to pass the current `robots.txt` policy; an unavailable or disallowing policy is a hard stop.
 
 ---
 
@@ -119,7 +137,7 @@ No inventory/scarcity claim, final-price claim, scraping, generic search link, c
 - Blanket permission to invent prices, omit attribution, or compare mismatched or stale events
 - Permission to present provider snapshot prices as final checkout totals
 
-**Ticketmaster is an event-verification and link source, not a price source.** Do not present Ticketmaster data as a price or as a price comparison.
+**Ticketmaster affiliate status does not grant price rights.** The narrow page-price permission comes from the separately recorded Partnerships Team approval above and does not revive affiliate tracking.
 
 **Catalog capability flags are inert metadata.** The `pricing_type`, `supports_pricing`, `price_aggregation`, and `real_time_inventory` fields in `public/data/catalog.json` describe what a provider's API *could* do — they do **not** substitute for runtime gates. Every provider display requires its enabled feature flags plus the approved source, verified event URL, exact-event mapping, timestamps, and unexpired cache rows.
 
@@ -138,14 +156,14 @@ No inventory/scarcity claim, final-price claim, scraping, generic search link, c
 
 `GET /api/shows` supports an optional `includePrices=true` parameter, subject to these rules:
 
-- `includePrices=true` requires a `showId` parameter, **except** when `priceProviders=approved-marketplaces` is also set. Bulk price fan-out to provider APIs is not permitted in any mode; the approved-marketplaces exception (added 2026-07-12 so boards can show snapshots for every eligible show) is safe because those lanes are served exclusively from the D1 `provider_pricing_cache` written by the scheduled snapshot workflows — a list request performs a batched cache read and never calls an external provider API. Ticketmaster and any live-lookup lane remain single-`showId` only.
+- `includePrices=true` requires a `showId` parameter, **except** when `priceProviders=approved-marketplaces` is also set. That compatibility name now means all approved cache-only lanes, including authorized Ticketmaster page snapshots. A list request performs a batched D1 read and never calls a provider page or API.
 - `MOCK_MODE` and `ALLOW_MOCK_PRICES` must both be `false` in production. Mock prices must never be displayed to users.
-- `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` must be `true` and a valid `TICKETMASTER_API_KEY` must be configured for live Ticketmaster price lookups.
-- SeatGeek returns `status: unavailable` unless `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, `provider_links.seatgeek.verified === true`, the verified provider URL matches the event's `seatgeek_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='seatgeek'`, `source='seatgeek_partner_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
+- Ticketmaster returns `status: unavailable` unless `TICKETMASTER_PRICE_DISPLAY_ENABLED=true`, the event link is publishable, and a fresh row exists with `provider='ticketmaster'`, `source='ticketmaster_authorized_event_page'`, exact matching `source_url`, valid timestamp, unexpired `expires_at`, finite positive `low_price`, and currency.
+- SeatGeek returns `status: unavailable` unless `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, `provider_links.seatgeek.verified === true`, and a fresh row exists with source `seatgeek_partner_api` or `seatgeek_authorized_event_page`. A page-derived row additionally requires exact `source_url` equality with the verified catalog URL.
 - Vivid Seats returns `status: unavailable` unless `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, `provider_links.vividseats.verified === true`, the verified provider URL matches the event's `vividseats_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='vivid-seats'`, `source='vividseats_impact_marketplace_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
 - TicketNetwork, Ticket Liquidator, and StubHub International return `status: unavailable` unless both the provider's public flag and price-display flag are true, matching verified provider provenance exists, the URL passes that provider's host/event-page checks, and the D1 row has the exact provider slug/source (`ticketnetwork_impact_marketplace_api`, `ticketliquidator_impact_marketplace_api`, or `stubhub_international_impact_marketplace_api`) with valid timestamps, expiry, price, and currency.
 - Price results include `fetchedAt` timestamps. Do not display prices without showing or conveying freshness. A side-by-side comparison additionally requires two fresh approved provider lanes for the same local event ID; when currencies match, the UI may calculate and label the lower listed snapshot and absolute difference.
-- `.github/workflows/seatgeek-price-snapshots.yml` and `.github/workflows/vividseats-price-snapshots.yml` run every four hours for their approved lanes. `.github/workflows/impact-marketplace-price-snapshots.yml` is manual-only for the three new providers until supervised activation. Summaries must make zero-row, partial, stale, configuration, provider, and write failures explicit. A failed fetch or unusable observation is skipped; it must not overwrite an existing fresh row.
+- `.github/workflows/authorized-page-price-snapshots.yml` is manual-only until the supervised 10-show run is reviewed. Live mode requires D1 writes so every attempt is durably rate-capped; preview mode makes no provider requests. Existing API/feed workflows keep their current schedules. Page pricing that is unavailable or unverifiable writes a null current cache row so an old page-derived price is not displayed.
 
 ---
 
@@ -168,4 +186,4 @@ Any provider URL containing these patterns must not appear as a public CTA.
 
 ## Provider Scope
 
-The active scoped provider set is SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International. Do not add another provider, revive the parked provider-abstraction scaffolding, create a parallel cache schema, or infer approval across related brands without a separately approved integration backed by verified destinations and explicit usage rights.
+The active scoped provider set is Ticketmaster, SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International. Ticketmaster and SeatGeek are registered in the provider-plugin structure for their authorized page-price lane; no other provider is covered. Do not create a parallel cache schema or infer approval across related brands without separately verified rights.

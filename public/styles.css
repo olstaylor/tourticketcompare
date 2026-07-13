@@ -1177,6 +1177,17 @@ summary {
   background: #fff;
 }
 
+a.price-chip {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.price-chip:hover,
+a.price-chip:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in oklab, var(--accent) 18%, transparent);
+}
+
 .price-chip-provider {
   color: var(--muted);
   font-size: 0.72rem;

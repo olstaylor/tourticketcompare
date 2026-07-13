@@ -907,6 +907,7 @@ function futureShowsForArtist(events, artistSlug, limit) {
       last_verified_at: String(ev.last_verified_at || "").trim(),
       verification_status: String(ev.verification_status || "").trim(),
       provider_links: ev.provider_links && typeof ev.provider_links === "object" ? ev.provider_links : {},
+      prices: Array.isArray(ev.prices) ? ev.prices : [],
       publishable: eventLinkPublishable(ev),
       seatgeekPublishable: providerEventPublishable(ev, "seatgeek"),
       vividseatsPublishable: providerEventPublishable(ev, "vivid-seats")

@@ -95,7 +95,6 @@ Once Phase 1 is documented and reviewed:
 | **TicketNetwork** | ✅ Active via Impact | SeatGeek-scoped Impact campaign `2322`, catalog `896`; verified event links, tracked redirects, CTAs, and exact-ID D1 snapshots. |
 | **Ticket Liquidator** | ✅ Active via Impact | SeatGeek-scoped Impact campaign `2085`, catalog `1315`; verified event links, tracked redirects, and CTAs. Its catalog currently has no numeric `CurrentPrice`, so the independent price-display flag remains off. |
 | **StubHub International** | ✅ Active via Impact | SeatGeek-scoped Impact campaign `24092`, catalog `17571`; verified event links, tracked redirects, CTAs, and exact-ID D1 snapshots. |
-| **StubHub International** | 🔌 Implemented, inactive | International business only (not StubHub US/Canada). Allowlisted country storefronts, shared Impact lane, and separate flags. Public activation waits for provider-specific catalog/tracking proof and rights review. |
 | **StubHub US/Canada, Viagogo** | ⏸️ Not started | Separate providers and separate scope; do not infer approval from StubHub International. |
 
 ---

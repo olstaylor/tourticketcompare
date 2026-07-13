@@ -29,7 +29,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260713b";
+const APP_ASSET_VERSION = "20260713c";
 const TTC_HOME_ASSET_VERSION = "20260713b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -846,7 +846,8 @@ const jsonLdRoutes = [
   { pathname: "/compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/how-it-works", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article"] },
   { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
-  { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] }
+  { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage", "HowTo"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] },
+  { pathname: "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating", "HowTo"] }
 ];
 for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
   const { text } = await routeResponse(pathname);
@@ -875,8 +876,36 @@ const seoGuideArticle = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] =
 assert(seoGuideArticle?.dateModified === "2026-07-13", "guide Article schema should expose the current modification date");
 assert(Array.isArray(seoGuideArticle?.citation) && seoGuideArticle.citation.length >= 4, "guide Article schema should cite its visible primary sources");
 assert(seoGuideArticle?.author?.url === "https://tourticketcompare.com/about", "guide Article schema author should resolve to the About page");
+assert(seoGuideArticle?.author?.["@id"] === "https://tourticketcompare.com/about#editorial-team", "guide Article schema should give the editorial byline its own stable @id");
+assert(seoGuideArticle?.author?.["@id"] !== "https://tourticketcompare.com/#organization", "guide Article author @id must not collide with the publisher Organization @id");
+assert(seoGuideArticle?.author?.parentOrganization?.["@id"] === "https://tourticketcompare.com/#organization", "guide editorial-team schema should reference the publisher as its parent organization");
 const seoOrganization = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Organization");
 assert(seoOrganization?.["@id"] === "https://tourticketcompare.com/#organization", "Organization schema should expose a stable @id");
+const seoGuideHowTo = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "HowTo");
+assert(
+  JSON.stringify((seoGuideHowTo?.step || []).map((step) => step?.name)) === JSON.stringify([
+    "Confirm the exact show",
+    "Use timestamped snapshots as a shortlist",
+    "Compare like-for-like ticket details",
+    "Check the final amount payable",
+    "Identify primary and resale tickets",
+    "Compare delivery and buyer protections"
+  ]),
+  "guide HowTo schema steps should match the six visible numbered sections"
+);
+assert(seoGuide.text.includes("This guide is reviewed against the primary provider and regulator sources listed below."), "sourced guides should explain that their visible primary sources were reviewed");
+
+const unsourcedGuide = await routeResponse("/guides/how-to-avoid-ticket-scams");
+assert(!unsourcedGuide.text.includes("reviewed against the primary provider and regulator sources"), "unsourced guides must not claim review against unlisted primary sources");
+assert(unsourcedGuide.text.includes("This guide follows our documented verification and corrections process."), "unsourced guides should use neutral editorial-process provenance copy");
+
+const providerComparisonGuide = await routeResponse("/guides/ticketmaster-vs-seatgeek-vs-vivid-seats");
+assert(providerComparisonGuide.text.includes("Comparison tools and loyalty features"), "provider comparison guide should cover the distinctive features used in the target AI Overview");
+assert(providerComparisonGuide.text.includes("Is SeatGeek better than Ticketmaster?"), "provider comparison guide should answer the matching high-intent provider question directly");
+assert(providerComparisonGuide.text.includes("What is the most trusted concert ticket site?"), "provider comparison guide should answer the matching trust question without an unsupported ranking");
+const providerComparisonLd = extractJsonLd(providerComparisonGuide.text);
+const providerComparisonArticle = providerComparisonLd?.["@graph"]?.find((node) => node?.["@type"] === "Article");
+assert(Array.isArray(providerComparisonArticle?.citation) && providerComparisonArticle.citation.length >= 8, "provider comparison Article schema should cite all visible regulator and provider sources");
 
 const unknownArtist = await routeResponse("/artists/not-a-real-artist");
 assert(unknownArtist.response.status === 404, "unknown artist route should return 404");
@@ -1031,6 +1060,10 @@ assert(!ttcHomeJs.includes("never show live prices"), "homepage should not make 
 assert(!ttcHomeJs.includes("No live prices, ever"), "homepage trust copy should not contradict approved snapshot support");
 
 const appJs = await read("public/app.js");
+assert(appJs.includes('if (document.getElementById("pageTitle")) return;'), "client hydration should preserve the authoritative server-rendered How it works page");
+assert(appJs.includes('about: "aboutTitle"') && appJs.includes('"editorial-policy": "editorialTitle"') && appJs.includes('"affiliate-disclosure": "affiliateTitle"'), "client hydration should preserve authoritative server-rendered trust pages");
+assert(appJs.includes("Compare approved, timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event"), "client trust-page fallbacks should describe approved snapshot comparisons accurately");
+assert(!appJs.includes("Compare prices across providers or claim one site is cheaper."), "client trust-page fallbacks must not restore the stale no-comparison claim");
 assert(appJs.includes("showEventCta"), "artist show cards should support event-specific CTAs");
 assert(appJs.includes("/api/out?"), "artist show cards should route event CTAs through /api/out");
 assert(appJs.includes("showId"), "artist show card CTAs should include showId");

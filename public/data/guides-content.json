@@ -318,7 +318,7 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.\n\nThere is no provider that is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. TourTicketCompare can shorten that process with approved, timestamped SeatGeek and Vivid Seats snapshots for the same verified event, but the provider page remains the source for current inventory and the final amount payable."
+        "content": "Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.\n\nThere is no provider that is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. TourTicketCompare can shorten that process with approved, timestamped SeatGeek and Vivid Seats snapshots for the same verified event, but the provider page remains the source for current inventory and the final amount payable. For the narrower two-platform decision, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)."
       },
       {
         "type": "section",
@@ -413,6 +413,109 @@
         "name": "Vivid Seats Rewards",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards",
+        "lastChecked": "2026-07-13"
+      }
+    ]
+  },
+  "/guides/seatgeek-vs-ticketmaster": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "SeatGeek and Ticketmaster can both sell valid tickets, but they are not interchangeable. Ticketmaster is the primary ticketing provider for many events and also displays labelled resale inventory. SeatGeek is a primary ticketing provider for some partners and a secondary marketplace where fans and other sellers can list eligible tickets. The right starting point depends on who the artist, venue, team, or promoter names for the exact event.\n\nFor an official onsale, begin with the authorised primary seller. For resale, compare the exact ticket, seat, quantity, complete current total, delivery timing, and protection terms. Neither platform is automatically cheaper or better for every event."
+      },
+      {
+        "type": "section",
+        "title": "SeatGeek vs Ticketmaster at a glance",
+        "content": "| Question | Ticketmaster | SeatGeek |\n|---|---|---|\n| Typical role | Primary seller for many events, plus labelled resale inventory | Primary seller for some partners, plus a secondary marketplace |\n| Who sets the price? | Event organiser for primary tickets; reseller for resale tickets | Primary partner or marketplace seller, depending on the listing |\n| Value tool | Listing labels, seat map, and event-specific ticket categories | Deal Score evaluates SeatGeek listings using price, location, historical data, and available inventory |\n| Best first check | Is Ticketmaster named as the official seller for this event? | Is the listing primary or resale, and is SeatGeek named by the event partner? |\n| Final decision | Exact ticket, current total, delivery, and terms | Exact ticket, current total, delivery, and terms |\n\nThese are typical roles, not universal rules. Read the listing label and the official event source before deciding."
+      },
+      {
+        "type": "section",
+        "title": "Primary tickets and resale tickets explain most differences",
+        "content": "Primary inventory comes through a channel authorised by the event organiser. Resale inventory appears after an original purchase and is priced by the seller under the marketplace's rules. Ticketmaster's current help content says its resale tickets are clearly labelled and can be listed above or below face value. SeatGeek's explanation of the secondary market says it is both the primary platform for some leagues and venues and a marketplace for resold tickets.\n\nA Ticketmaster primary ticket and a SeatGeek resale ticket are different products even when the artist, date, and venue match. Ticket source, seat details, delivery timing, and seller-set pricing can all create a gap."
+      },
+      {
+        "type": "section",
+        "title": "Fees and the final amount payable",
+        "content": "US rules require mandatory live-event ticket fees to be included in the upfront total, while taxes, shipping, and optional extras may still be treated separately. Ticketmaster and SeatGeek each publish current explanations of their price and fee displays. Rules and displays can differ outside the United States.\n\nCompare the same ticket quantity and currency, then check the current order summary on both platforms. Include taxes, delivery choices, optional add-ons, and currency conversion where applicable. A lower first number is not evidence of a lower final total."
+      },
+      {
+        "type": "section",
+        "title": "Why SeatGeek can have tickets when Ticketmaster does not",
+        "content": "SeatGeek can show tickets after Ticketmaster primary inventory is unavailable because the SeatGeek listing may come from the secondary market. A fan or other eligible seller may list a ticket that was bought earlier, including a ticket delivered through another provider. SeatGeek may also be the primary ticketing partner for a different team, venue, or event.\n\nThe reverse can happen too: Ticketmaster may have primary or resale inventory that is not listed on SeatGeek. Availability on one platform does not prove that the other platform is broken, and it does not prove that the visible tickets are equivalent."
+      },
+      {
+        "type": "section",
+        "title": "What SeatGeek Deal Score does",
+        "content": "SeatGeek says Deal Score evaluates listings using factors such as historical prices, row location, expected sightline, quantity, seat type, and other available tickets. It can help compare SeatGeek listings with one another. It is not a cross-platform price guarantee and does not prove that a SeatGeek ticket is cheaper than Ticketmaster's current option.\n\nUse Deal Score as one research signal, then match the section, row, quantity, ticket type, view notes, delivery method, and final amount payable across the two platforms."
+      },
+      {
+        "type": "section",
+        "title": "Is SeatGeek legit like Ticketmaster?",
+        "content": "SeatGeek is a ticketing platform and marketplace with published buyer-protection terms. Ticketmaster is a ticketing platform that handles primary and resale inventory under event-specific rules. A legitimate platform does not make every listing equivalent or right for every buyer.\n\nUse the exact official domains, avoid off-platform payment, confirm how the ticket will be delivered, and read the current protection, cancellation, postponement, transfer, and refund terms for the order. TourTicketCompare does not administer either platform's orders or guarantees."
+      },
+      {
+        "type": "section",
+        "title": "Which should you use?",
+        "content": "- **For an official onsale:** use the seller named by the artist, venue, team, or promoter. That may be Ticketmaster, SeatGeek, or another authorised provider.\n- **When primary inventory is unavailable:** compare clearly labelled resale inventory on established marketplaces, including the exact seat, current total, delivery, and protection terms.\n- **When both show tickets:** first identify primary versus resale, then match quantity, section, row, view notes, ticket type, and delivery before comparing totals.\n- **When details do not match:** do not call the lower number a saving. Record the difference and choose the option whose complete terms fit your needs.\n\nFor a wider marketplace comparison, see [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)."
+      },
+      {
+        "type": "section",
+        "title": "A like-for-like comparison routine",
+        "content": "- Confirm the artist, local date, venue, city, and event name.\n- Identify whether each listing is primary, premium, official resale, or marketplace resale.\n- Match ticket quantity, section, row, seat range, view notes, and ticket type.\n- Check delivery method and expected transfer timing.\n- Compare the current complete totals in the same currency.\n- Read the current buyer-protection, cancellation, postponement, refund, and transfer terms.\n- Buy only through the provider's official checkout."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Why is SeatGeek less expensive than Ticketmaster?**\n\nIt is not always less expensive. A lower SeatGeek listing may be seller-set resale inventory, a different seat, a different ticket type, or a different point in time. Ticketmaster may be showing primary, premium, or resale inventory. Compare the exact ticket and current complete total.\n\n**Is SeatGeek legit like Ticketmaster?**\n\nSeatGeek and Ticketmaster are established ticketing platforms with published terms, but they can play different roles for the same event. Use the official domain, check the listing type and delivery method, and read the current order-protection terms before buying.\n\n**How does SeatGeek have tickets but not Ticketmaster?**\n\nSeatGeek may show secondary-market tickets listed by eligible sellers after Ticketmaster primary inventory is unavailable. SeatGeek can also be the primary partner for some events. Inventory and ticket source vary by event.\n\n**Is SeatGeek better than Ticketmaster?**\n\nNeither is better for every event. Start with the official seller for an onsale. If comparing resale, use the exact ticket, complete current total, delivery timing, and protection terms rather than the provider name alone.\n\n**Which has lower fees, SeatGeek or Ticketmaster?**\n\nThere is no event-independent answer. Fees and other charges depend on the event, ticket, location, and optional choices. Compare the current order summaries for like-for-like tickets.\n\n**What is the most trusted concert ticket site?**\n\nFor primary tickets, start with the seller named by the artist, venue, team, or promoter. For resale, use an established marketplace and read its current protection and delivery terms. No one site is official for every event.\n\n**Does Deal Score prove SeatGeek is cheaper?**\n\nNo. Deal Score evaluates value among SeatGeek listings using SeatGeek's data. It is not a cross-platform price guarantee.\n\n**Does TourTicketCompare rank SeatGeek and Ticketmaster?**\n\nNo. TourTicketCompare explains their roles and helps users compare exact-event information. It does not declare either platform universally better or cheaper."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
+        "publisher": "US Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+        "lastChecked": "2026-07-13"
+      },
+      {
+        "name": "How are ticket prices and fees determined?",
+        "publisher": "Ticketmaster Help",
+        "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
+        "lastChecked": "2026-07-13"
+      },
+      {
+        "name": "Third-Party Resale Tickets: Everything You Need to Know",
+        "publisher": "Ticketmaster Help",
+        "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
+        "lastChecked": "2026-07-13"
+      },
+      {
+        "name": "How do I sell tickets?",
+        "publisher": "Ticketmaster Help",
+        "url": "https://help.ticketmaster.com/hc/en-us/articles/9672915828881-How-do-I-sell-tickets",
+        "lastChecked": "2026-07-13"
+      },
+      {
+        "name": "Does SeatGeek charge a fee to buy tickets?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360036685293-Does-SeatGeek-charge-a-fee-to-buy-tickets",
+        "lastChecked": "2026-07-13"
+      },
+      {
+        "name": "What is the secondary ticket market?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360012945394-What-is-the-secondary-ticket-market-",
+        "lastChecked": "2026-07-13"
+      },
+      {
+        "name": "Can I trust tickets sold on SeatGeek?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360007200174-Can-I-trust-tickets-sold-on-SeatGeek",
+        "lastChecked": "2026-07-13"
+      },
+      {
+        "name": "What is Deal Score?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360007200954-What-is-Deal-Score",
         "lastChecked": "2026-07-13"
       }
     ]

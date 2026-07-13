@@ -33,7 +33,9 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Submit Vivid normalized observations
+      - name: Run unchanged legacy Vivid Impact snapshot writer
+        run: npm run vividseats:prices:apply
+      - name: Submit normalized Vivid observations from the same approved API lane
         run: node scripts/pricing/vivid-normalized.mjs
       - name: Check legacy-to-normalized parity
         run: node scripts/pricing/check-vivid-parity.mjs

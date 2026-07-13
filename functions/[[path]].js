@@ -827,7 +827,10 @@ function safeGuideSourceUrl(value) {
 
 function renderGuideProvenance(route) {
   const published = formatVerificationDate(route.datePublished);
-  const updated = formatVerificationDate(route.lastmod || route.datePublished);
+  const updated =
+    route.lastmod && route.lastmod !== route.datePublished
+      ? formatVerificationDate(route.lastmod)
+      : null;
   const dates = [
     published ? `Published ${published}` : "",
     updated ? `Updated ${updated}` : ""

@@ -1,5 +1,6 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS, CANONICAL_HOST, canonicalOrigin } from "./_route-metadata.js";
 import { attachApprovedMarketplacePrices } from "./api/shows.js";
+import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -367,7 +368,6 @@ function guideClusterTitle(path) {
 
 function articleSchema(route, origin, guideEntry = {}) {
   const organizationId = `${origin}/#organization`;
-  const editorialTeamId = `${origin}/about#editorial-team`;
   const citations = (Array.isArray(guideEntry?.sources) ? guideEntry.sources : [])
     .map((source) => safeGuideSourceUrl(source?.url))
     .filter(Boolean);
@@ -381,10 +381,9 @@ function articleSchema(route, origin, guideEntry = {}) {
     image: `${origin}/og-image.png`,
     author: {
       "@type": "Organization",
-      "@id": editorialTeamId,
+      "@id": organizationId,
       name: "TourTicketCompare editorial team",
-      url: `${origin}/about`,
-      parentOrganization: { "@id": organizationId }
+      url: `${origin}/about`
     },
     publisher: { "@id": organizationId },
     isPartOf: { "@id": `${origin}/#website` },
@@ -840,7 +839,7 @@ function safeGuideSourceUrl(value) {
   }
 }
 
-function renderGuideProvenance(route, sources = []) {
+function renderGuideProvenance(route) {
   const published = formatVerificationDate(route.datePublished);
   const updated =
     route.lastmod && route.lastmod !== route.datePublished
@@ -850,15 +849,11 @@ function renderGuideProvenance(route, sources = []) {
     published ? `Published ${published}` : "",
     updated ? `Updated ${updated}` : ""
   ].filter(Boolean);
-  const hasVisibleSources = Array.isArray(sources) && sources.length > 0;
-  const reviewCopy = hasVisibleSources
-    ? "This guide is reviewed against the primary provider and regulator sources listed below."
-    : "This guide follows our documented verification and corrections process.";
   return `<div class="guide-provenance"><p>By ${anchor(
     "TourTicketCompare editorial team",
     "/about",
     "text-link"
-  )}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">${escapeHtml(reviewCopy)} See the ${anchor(
+  )}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">Our guides are reviewed against primary provider and regulator sources. See the ${anchor(
     "editorial policy",
     "/editorial-policy",
     "text-link"
@@ -1193,12 +1188,7 @@ function safeImpactMarketplaceTicketUrl(value, provider) {
 }
 
 function isImpactMarketplaceConfigured(env = {}, provider) {
-  if (!provider || String(env?.[provider.publicFlag] || "").toLowerCase() !== "true") return false;
-  const base = clean(env?.[`${provider.envPrefix}_BASE_TRACKING_URL`], 2048);
-  const sid = clean(env?.[`${provider.envPrefix}_ACCOUNT_SID`] || env?.IMPACT_ACCOUNT_SID, 255);
-  const token = clean(env?.[`${provider.envPrefix}_AUTH_TOKEN`] || env?.IMPACT_AUTH_TOKEN, 255);
-  const program = clean(env?.[`${provider.envPrefix}_CAMPAIGN_ID`] || env?.[`${provider.envPrefix}_PROGRAM_ID`], 120);
-  return Boolean(base || (sid && token && program));
+  return Boolean(provider && impactMarketplaceRuntimeConfig(env, provider.slug)?.configured);
 }
 
 function approvedServerPriceLane(show, provider) {
@@ -1516,7 +1506,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${renderGuideProvenance(route, guideContent[route.path]?.sources)}${contentHtml}${renderGuideSources(
+    )}</p>${renderGuideProvenance(route)}${contentHtml}${renderGuideSources(
       guideContent[route.path]?.sources
     )}${artistBrowseHtml}<div class="action-row">${anchor(
       "Compare concert ticket prices",

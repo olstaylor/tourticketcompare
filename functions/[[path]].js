@@ -367,6 +367,7 @@ function guideClusterTitle(path) {
 
 function articleSchema(route, origin, guideEntry = {}) {
   const organizationId = `${origin}/#organization`;
+  const editorialTeamId = `${origin}/about#editorial-team`;
   const citations = (Array.isArray(guideEntry?.sources) ? guideEntry.sources : [])
     .map((source) => safeGuideSourceUrl(source?.url))
     .filter(Boolean);
@@ -380,9 +381,10 @@ function articleSchema(route, origin, guideEntry = {}) {
     image: `${origin}/og-image.png`,
     author: {
       "@type": "Organization",
-      "@id": organizationId,
+      "@id": editorialTeamId,
       name: "TourTicketCompare editorial team",
-      url: `${origin}/about`
+      url: `${origin}/about`,
+      parentOrganization: { "@id": organizationId }
     },
     publisher: { "@id": organizationId },
     isPartOf: { "@id": `${origin}/#website` },
@@ -825,7 +827,7 @@ function safeGuideSourceUrl(value) {
   }
 }
 
-function renderGuideProvenance(route) {
+function renderGuideProvenance(route, sources = []) {
   const published = formatVerificationDate(route.datePublished);
   const updated =
     route.lastmod && route.lastmod !== route.datePublished
@@ -835,11 +837,15 @@ function renderGuideProvenance(route) {
     published ? `Published ${published}` : "",
     updated ? `Updated ${updated}` : ""
   ].filter(Boolean);
+  const hasVisibleSources = Array.isArray(sources) && sources.length > 0;
+  const reviewCopy = hasVisibleSources
+    ? "This guide is reviewed against the primary provider and regulator sources listed below."
+    : "This guide follows our documented verification and corrections process.";
   return `<div class="guide-provenance"><p>By ${anchor(
     "TourTicketCompare editorial team",
     "/about",
     "text-link"
-  )}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">Our guides are reviewed against primary provider and regulator sources. See the ${anchor(
+  )}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">${escapeHtml(reviewCopy)} See the ${anchor(
     "editorial policy",
     "/editorial-policy",
     "text-link"
@@ -1440,7 +1446,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${renderGuideProvenance(route)}${contentHtml}${renderGuideSources(
+    )}</p>${renderGuideProvenance(route, guideContent[route.path]?.sources)}${contentHtml}${renderGuideSources(
       guideContent[route.path]?.sources
     )}${artistBrowseHtml}<div class="action-row">${anchor(
       "Compare concert ticket prices",

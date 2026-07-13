@@ -55,7 +55,7 @@
       "@context": "https://schema.org",
       "@type": "HowTo",
       "name": "How to Compare Concert Ticket Prices Safely",
-      "description": "A step-by-step guide to manually comparing concert ticket options by checking final checkout totals, event details, fees, delivery, and provider terms.",
+      "description": "A step-by-step guide to comparing concert ticket options using verified event details, timestamped price snapshots, like-for-like ticket checks, final totals, and provider terms.",
       "step": [
         {
           "@type": "HowToStep",
@@ -64,23 +64,28 @@
         },
         {
           "@type": "HowToStep",
-          "name": "Record provider details for each option",
-          "text": "Write down the provider page URL, ticket type, seat details, first displayed price, final checkout total, delivery method, and key terms for each option."
+          "name": "Use timestamped snapshots as a shortlist",
+          "text": "Check the snapshot timestamp and provider attribution, then use current approved snapshots only as a shortlist before opening both provider pages."
         },
         {
           "@type": "HowToStep",
-          "name": "Compare final checkout totals",
-          "text": "Use the provider's final checkout total after fees, taxes, delivery charges, and currency conversion where shown — not the first-displayed price."
+          "name": "Compare like-for-like ticket details",
+          "text": "Match ticket category, section, row, seat range, quantity, view restrictions, and delivery method before treating a price difference as a like-for-like comparison."
         },
         {
           "@type": "HowToStep",
-          "name": "Review delivery, refunds, and event terms",
-          "text": "Confirm delivery timing, refund terms, transfer rules, resale rules, cancellation terms, and postponement terms on the provider site."
+          "name": "Check the final amount payable",
+          "text": "Confirm the provider's final order total for the exact quantity, including applicable taxes, delivery, currency conversion, and optional extras you select."
         },
         {
           "@type": "HowToStep",
-          "name": "Use checked links then confirm with the provider",
-          "text": "Use TourTicketCompare artist pages and checked event links where available, then confirm current price, availability, fees, and checkout terms with the provider before buying."
+          "name": "Identify primary and resale tickets",
+          "text": "Read the listing label and terms to distinguish primary, official resale, marketplace resale, premium, and package inventory."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Compare delivery and buyer protections",
+          "text": "Confirm delivery timing and read the current buyer-protection, refund, transfer, cancellation, and postponement terms on the provider site."
         }
       ]
     },
@@ -332,6 +337,11 @@
       },
       {
         "type": "section",
+        "title": "Comparison tools and loyalty features",
+        "content": "The platforms also provide different research or loyalty features, but those features do not replace a like-for-like price and seat check.\n\n- **Ticketmaster** labels resale inventory and may offer Face Value Exchange for eligible events. Event organisers decide which inventory and resale options are available.\n- **SeatGeek Deal Score** rates the value of a listing on SeatGeek using factors such as historical prices, row location, expected sightline, quantity, seat type, and other available tickets. It is a SeatGeek tool, not proof that the listing is cheaper than another provider's current option.\n- **Vivid Seats Rewards** is an app-based loyalty program. Its current help page says purchases earn stamps and ten stamps can produce a Reward Credit based on the average eligible value of those tickets, excluding taxes, fees, and processing costs. Credits and benefits are governed by current program terms and may expire.\n\nTreat these as differences in the shopping experience. The exact event, ticket, complete current total, delivery timing, and order terms still decide whether an option fits your needs."
+      },
+      {
+        "type": "section",
         "title": "What TourTicketCompare compares",
         "content": "TourTicketCompare compares only approved, provider-supplied listed-price snapshots attached to the same verified event. Each lane must pass provider-level verification, approved-source, timestamp, and expiry gates. When both SeatGeek and Vivid Seats snapshots are current and use the same currency, the site can show the lower listed snapshot and the difference.\n\nThe comparison does not claim equivalent seats, live inventory, final checkout totals, or guaranteed availability. Fees may be excluded from a snapshot even when a provider's own shopping experience displays them up front, so the provider page must be checked before buying."
       },
@@ -353,7 +363,7 @@
       {
         "type": "section",
         "title": "FAQ",
-        "content": "**Is Ticketmaster always cheaper than SeatGeek or Vivid Seats?**\n\nNo. Ticket type, seller, demand, seat location, quantity, and timing can all change the result. Compare the exact listing and current total for your event.\n\n**Are SeatGeek and Vivid Seats resale sites?**\n\nBoth operate ticket marketplaces. SeatGeek also supplies primary ticketing for some partners. Check the listing label because the ticket source can vary by event.\n\n**Does TourTicketCompare rank the three providers?**\n\nNo. It can compare approved SeatGeek and Vivid Seats listed-price snapshots for the same verified event, but it does not declare a provider universally superior or lowest-priced.\n\n**Do the prices include fees?**\n\nProvider pages currently use upfront or all-in displays for mandatory fees in the US, subject to taxes, shipping, and optional extras. A TourTicketCompare snapshot may exclude fees and is labelled accordingly. Confirm the final order total on the provider site.\n\n**How do the order-protection terms differ?**\n\nThat depends on the protection you need and the current terms for the order. Read each provider's protection terms and exclusions directly before purchasing."
+        "content": "**Is Ticketmaster always cheaper than SeatGeek or Vivid Seats?**\n\nNo. Ticket type, seller, demand, seat location, quantity, and timing can all change the result. Compare the exact listing and current total for your event.\n\n**Is SeatGeek better than Ticketmaster?**\n\nNeither is better for every event. Ticketmaster is often the official primary seller, while SeatGeek may be a primary ticketing partner or a resale marketplace depending on the event. Compare the listing type, seat, complete total, delivery, and terms for the exact show.\n\n**Is Ticketmaster better than Vivid Seats?**\n\nThey usually serve different roles. Ticketmaster is often the first stop for an official onsale, while Vivid Seats is a resale marketplace. If primary inventory is unavailable or does not fit your needs, compare current resale listings without assuming either provider is universally better.\n\n**Which is more reliable, SeatGeek or Vivid Seats?**\n\nBoth publish order-protection terms, but reliability cannot be reduced to one brand-level answer. Check the exact listing, delivery timing, transfer method, and the current protection terms and exclusions for the order.\n\n**What is the most trusted concert ticket site?**\n\nFor primary tickets, start with the seller named by the artist, venue, or promoter for that event. For resale, use an established marketplace and read its current buyer-protection and delivery terms. No single site is the official or best choice for every concert.\n\n**Are SeatGeek and Vivid Seats resale sites?**\n\nBoth operate ticket marketplaces. SeatGeek also supplies primary ticketing for some partners. Check the listing label because the ticket source can vary by event.\n\n**Does TourTicketCompare rank the three providers?**\n\nNo. It can compare approved SeatGeek and Vivid Seats listed-price snapshots for the same verified event, but it does not declare a provider universally superior or lowest-priced.\n\n**Do the prices include fees?**\n\nProvider pages currently use upfront or all-in displays for mandatory fees in the US, subject to taxes, shipping, and optional extras. A TourTicketCompare snapshot may exclude fees and is labelled accordingly. Confirm the final order total on the provider site.\n\n**How do the order-protection terms differ?**\n\nThat depends on the protection you need and the current terms for the order. Read each provider's protection terms and exclusions directly before purchasing."
       }
     ],
     "sources": [
@@ -388,9 +398,21 @@
         "lastChecked": "2026-07-13"
       },
       {
-        "name": "Vivid Seats order-protection terms",
+      "name": "Vivid Seats order-protection terms",
         "publisher": "Vivid Seats",
         "url": "https://www.vividseats.com/guarantee",
+        "lastChecked": "2026-07-13"
+      },
+      {
+        "name": "What is Deal Score?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/360007200954-What-is-Deal-Score",
+        "lastChecked": "2026-07-13"
+      },
+      {
+        "name": "Vivid Seats Rewards",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards",
         "lastChecked": "2026-07-13"
       }
     ]

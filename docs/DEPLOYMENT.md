@@ -141,7 +141,7 @@ Required GitHub Actions configuration:
 | `IMPACT_VIVIDSEATS_*` | Repository → Settings → Secrets and variables → Actions → Secrets | Dispatch **Vivid Seats price snapshots** with `apply=true`; configuration must pass and the summary should report non-zero eligible/fetched/usable/written counts. |
 | `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` | Repository → Settings → Secrets and variables → Actions → Secrets | Required for the remote D1 write and post-run cache audit. |
 
-A successful apply run reports `eligible`, `fetched`, `usable`, `written`, `skipped`, `stale`, and `failed`, with `failed: 0` and no `zero_row_reason`. Confirm safely in production by checking the workflow's D1 cache audit, then request `/api/shows?artist=<slug>&includePrices=true&priceProviders=approved-marketplaces` for a representative verified artist. A displayed lane must have the expected provider/source, a `fetchedAt` timestamp, and an unexpired row. Never paste secrets or raw affiliate credentials into logs or browser requests.
+A successful apply run reports `eligible`, `fetched`, `usable`, `written`, `skipped`, `stale`, and `failed`, with `failed: 0` and no `zero_row_reason`. Confirm safely in production by checking the workflow's D1 cache audit, then request `/api/shows?artistSlug=<slug>&includePrices=true&priceProviders=approved-marketplaces` for a representative verified artist. A displayed lane must have the expected provider/source, a `fetchedAt` timestamp, and an unexpired row. Never paste secrets or raw affiliate credentials into logs or browser requests.
 
 ---
 

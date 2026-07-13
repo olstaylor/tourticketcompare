@@ -12,8 +12,26 @@ const providerCopy = {
   "vivid-seats": {
     name: "Vivid Seats",
     label: "Check provider"
+  },
+  ticketnetwork: {
+    name: "TicketNetwork",
+    label: "Check provider"
+  },
+  "ticket-liquidator": {
+    name: "Ticket Liquidator",
+    label: "Check provider"
+  },
+  "stubhub-international": {
+    name: "StubHub International",
+    label: "Check provider"
   }
 };
+
+const IMPACT_MARKETPLACE_PROVIDERS = [
+  { slug: "ticketnetwork", name: "TicketNetwork", urlField: "ticketnetwork_url", allowedHosts: ["ticketnetwork.com"], priceSource: "ticketnetwork_impact_marketplace_api" },
+  { slug: "ticket-liquidator", name: "Ticket Liquidator", urlField: "ticketliquidator_url", allowedHosts: ["ticketliquidator.com"], priceSource: "ticketliquidator_impact_marketplace_api" },
+  { slug: "stubhub-international", name: "StubHub International", urlField: "stubhub_international_url", allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"], priceSource: "stubhub_international_impact_marketplace_api" }
+];
 
 const guidePages = [
   {
@@ -392,7 +410,12 @@ function artistHasVerifiedEventLinks(events, artistSlug) {
     const ticketmasterAvailable = eventLinkPublishable(event) && Boolean(safeVerifiedEventUrl(event.ticketmaster_url));
     const seatGeekAvailable = providerEventPublishable(event, "seatgeek") && Boolean(safeSeatGeekEventUrl(event.seatgeek_url));
     const vividSeatsAvailable = providerEventPublishable(event, "vivid-seats") && Boolean(safeVividSeatsEventUrl(event.vividseats_url));
-    return ticketmasterAvailable || seatGeekAvailable || vividSeatsAvailable;
+    const impactMarketplaceAvailable = IMPACT_MARKETPLACE_PROVIDERS.some((provider) =>
+      providerEnabled(provider.slug) &&
+      providerEventPublishable(event, provider.slug) &&
+      Boolean(safeImpactMarketplaceEventUrl(event?.[provider.urlField], provider))
+    );
+    return ticketmasterAvailable || seatGeekAvailable || vividSeatsAvailable || impactMarketplaceAvailable;
   });
 }
 
@@ -546,7 +569,7 @@ function providerVerificationNote(item) {
 // Affiliate providers (SeatGeek, Vivid Seats) render before the plain,
 // unmonetized Ticketmaster link. Keep in sync with PROVIDER_DISPLAY_ORDER in
 // functions/[[path]].js.
-const PROVIDER_DISPLAY_ORDER = ["seatgeek", "vivid-seats", "ticketmaster"];
+const PROVIDER_DISPLAY_ORDER = ["seatgeek", "vivid-seats", ...IMPACT_MARKETPLACE_PROVIDERS.map((provider) => provider.slug), "ticketmaster"];
 
 function providerDisplayRank(providerSlug) {
   const rank = PROVIDER_DISPLAY_ORDER.indexOf(providerSlug);
@@ -1279,8 +1302,10 @@ function eventLinkPublishable(event) {
 // sync with providerEventPublishable in functions/[[path]].js and
 // functions/api/out.js.
 function providerEventPublishable(event, provider) {
-  if (provider === "seatgeek" && Boolean(event && event.provider_links && event.provider_links.seatgeek && event.provider_links.seatgeek.verified === true)) return true;
-  if (provider === "vivid-seats" && Boolean(event && event.provider_links && event.provider_links["vivid-seats"] && event.provider_links["vivid-seats"].verified === true)) return true;
+  if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) {
+    return Boolean(event && event.provider_links && event.provider_links[provider] && event.provider_links[provider].verified === true);
+  }
+  if (provider !== "ticketmaster" && Boolean(event && event.provider_links && event.provider_links[provider] && event.provider_links[provider].verified === true)) return true;
   return eventLinkPublishable(event);
 }
 
@@ -1355,6 +1380,31 @@ function vividSeatsOutAvailable(show, options = {}) {
     return show.provider_ctas.vividseats === true && hasValidVividSeatsEventUrl;
   }
   return hasValidVividSeatsEventUrl;
+}
+
+function safeImpactMarketplaceEventUrl(value, provider) {
+  const safeUrl = safeVerifiedEventUrl(value);
+  if (!safeUrl || !provider) return null;
+  try {
+    const parsed = new URL(safeUrl);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    if (!provider.allowedHosts.some((allowed) => host === allowed || host.endsWith(`.${allowed}`))) return null;
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (!path || path === "/" || /^\/(search|home|about|help|support|faq|contact|terms|privacy)(?:\/|$)/i.test(path)) return null;
+    return safeUrl;
+  } catch (error) { return null; }
+}
+
+function impactMarketplaceOutAvailable(show, provider, options = {}) {
+  if (!provider || !options.impactMarketplaceAvailability?.[provider.slug]) return false;
+  if (!providerEventPublishable(show, provider.slug)) return false;
+  const validUrl = Boolean(safeImpactMarketplaceEventUrl(show?.[provider.urlField], provider));
+  if (!validUrl) return false;
+  if (show?.provider_ctas && typeof show.provider_ctas === "object") {
+    return show.provider_ctas[provider.slug] === true;
+  }
+  return true;
 }
 
 
@@ -1432,6 +1482,26 @@ function approvedVividSeatsPriceLane(show) {
   return { price, currency, fetchedAt: lane.fetchedAt, expiresAt: lane.expiresAt };
 }
 
+function approvedImpactMarketplacePriceLane(show, provider) {
+  if (!provider || show?.provider_links?.[provider.slug]?.verified !== true) return null;
+  if (!safeImpactMarketplaceEventUrl(show?.[provider.urlField], provider)) return null;
+  const lane = (Array.isArray(show?.prices) ? show.prices : []).find((item) => item?.provider === provider.name);
+  if (!lane || lane.status !== "ok" || lane.providerStatus !== "ok" || lane.source !== provider.priceSource) return null;
+  const price = Number(lane.price);
+  const currency = String(lane.currency || "").trim().toUpperCase();
+  if (!Number.isFinite(price) || price < 0 || !isValidCurrencyCode(currency)) return null;
+  if (!isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt) || Date.parse(lane.expiresAt) <= Date.now()) return null;
+  return { price, currency, fetchedAt: lane.fetchedAt, expiresAt: lane.expiresAt };
+}
+
+function hasApprovedMarketplacePrice(show) {
+  return Boolean(
+    approvedSeatGeekPriceLane(show) ||
+    approvedVividSeatsPriceLane(show) ||
+    IMPACT_MARKETPLACE_PROVIDERS.some((provider) => approvedImpactMarketplacePriceLane(show, provider))
+  );
+}
+
 // Compact provider-attributed price chip: provider name + listed snapshot
 // amount. Rendered only from approved, fresh, timestamped lanes.
 function renderPriceChip(providerName, amount, isLower = false) {
@@ -1468,6 +1538,24 @@ function renderVividSeatsPriceSnapshot(show) {
   row.append(renderPriceChip("Vivid Seats", amount));
   text(row, "p", `Vivid Seats price snapshot as of ${asOf} — excludes fees.`, "disclosure-note");
   return row;
+}
+
+function renderImpactMarketplacePriceSnapshots(show, options = {}) {
+  const rows = [];
+  for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
+    if (!impactMarketplaceOutAvailable(show, provider, options)) continue;
+    const lane = approvedImpactMarketplacePriceLane(show, provider);
+    if (!lane) continue;
+    const amount = formatProviderPrice(lane.price, lane.currency);
+    const asOf = formatSnapshotTime(lane.fetchedAt);
+    if (!amount || !asOf) continue;
+    const row = document.createElement("div");
+    row.className = "price-snapshot-row";
+    row.append(renderPriceChip(provider.name, amount));
+    text(row, "p", `${provider.name} price snapshot as of ${asOf} — excludes fees.`, "disclosure-note");
+    rows.push(row);
+  }
+  return rows;
 }
 
 function approvedProviderPriceComparison(show) {
@@ -1568,6 +1656,7 @@ function renderShowCard(show, options = {}) {
     const tmAvailable = Boolean(ticketmasterUrl && showId && eventLinkPublishable(show));
     const sgAvailable = Boolean(showId && seatGeekOutAvailable(show, options));
     const vsAvailable = Boolean(showId && vividSeatsOutAvailable(show, options));
+    const impactMarketplaceAvailable = IMPACT_MARKETPLACE_PROVIDERS.filter((provider) => showId && impactMarketplaceOutAvailable(show, provider, options));
 
     // One compact price block per card: the approved side-by-side comparison
     // when both fresh lanes exist, otherwise the single approved provider
@@ -1578,12 +1667,14 @@ function renderShowCard(show, options = {}) {
     const priceBlock =
       comparisonBlock ||
       (!inlineSeatGeekPrice && vsAvailable ? renderVividSeatsPriceSnapshot(show) : null);
+    const additionalPriceRows = renderImpactMarketplacePriceSnapshots(show, options);
     if (priceBlock) body.append(priceBlock);
-    else if (sgAvailable || vsAvailable) {
+    if (additionalPriceRows.length) body.append(...additionalPriceRows);
+    if (!priceBlock && additionalPriceRows.length === 0 && (sgAvailable || vsAvailable || impactMarketplaceAvailable.length)) {
       text(body, "p", "No current price snapshot — check the provider for availability and the final total.", "disclosure-note price-unavailable-note");
     }
 
-    if (tmAvailable || sgAvailable || vsAvailable) {
+    if (tmAvailable || sgAvailable || vsAvailable || impactMarketplaceAvailable.length) {
       // Provider price, fee, availability and affiliate disclosure lives once
       // in the show-board/trust copy instead of repeating on every card.
       const ctaSpecs = [];
@@ -1592,6 +1683,9 @@ function renderShowCard(show, options = {}) {
       }
       if (vsAvailable) {
         ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+      }
+      for (const provider of impactMarketplaceAvailable) {
+        ctaSpecs.push({ provider: provider.slug, primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
       }
       if (tmAvailable) {
         ctaSpecs.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
@@ -1928,7 +2022,7 @@ async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
   const hash = String(window.location.hash || "").replace(/^#/, "");
   if (!hash) return;
   const show = shows.find((candidate) => showAnchorId(candidate) === hash);
-  if (!show?.id || (!seatGeekOutAvailable(show, cardOptions) && !vividSeatsOutAvailable(show, cardOptions))) return;
+  if (!show?.id || (!seatGeekOutAvailable(show, cardOptions) && !vividSeatsOutAvailable(show, cardOptions) && !IMPACT_MARKETPLACE_PROVIDERS.some((provider) => impactMarketplaceOutAvailable(show, provider, cardOptions)))) return;
   try {
     const params = new URLSearchParams({
       showId: String(show.id),
@@ -1939,13 +2033,14 @@ async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
     if (!response.ok) return;
     const data = await response.json();
     const pricedShow = safeShowList(data).find((candidate) => String(candidate?.id || "") === String(show.id));
-    if (!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)) return;
+    if (!hasApprovedMarketplacePrice(pricedShow)) return;
     const currentCard = document.getElementById(hash);
     if (!currentCard) return;
     currentCard.replaceWith(renderShowCard(pricedShow, {
       ...cardOptions,
       seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek),
-      vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats)
+      vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats),
+      impactMarketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, Boolean(data?.providerAvailability?.[provider.slug])]))
     }));
   } catch (error) {
     // Price snapshots are optional progressive enhancement; keep the verified CTA card unchanged.
@@ -1979,7 +2074,7 @@ function fetchApprovedBoardPrices(artistSlug, limit) {
 async function hydrateShowBoardPriceSnapshots(shows, cardOptions) {
   const candidates = shows.filter((show) => {
     if (!show?.id) return false;
-    return seatGeekOutAvailable(show, cardOptions) || vividSeatsOutAvailable(show, cardOptions);
+    return seatGeekOutAvailable(show, cardOptions) || vividSeatsOutAvailable(show, cardOptions) || IMPACT_MARKETPLACE_PROVIDERS.some((provider) => impactMarketplaceOutAvailable(show, provider, cardOptions));
   });
   if (!candidates.length) return;
 
@@ -1995,14 +2090,15 @@ async function hydrateShowBoardPriceSnapshots(shows, cardOptions) {
       if (!anchorId) continue;
       const pricedShow = pricedById.get(String(show.id));
       if (!pricedShow) continue;
-      if (!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)) continue;
+      if (!hasApprovedMarketplacePrice(pricedShow)) continue;
 
       const currentCard = document.getElementById(anchorId);
       if (!currentCard) continue;
       currentCard.replaceWith(renderShowCard(pricedShow, {
         ...cardOptions,
         seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek),
-        vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats)
+        vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats),
+        impactMarketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, Boolean(data?.providerAvailability?.[provider.slug])]))
       }));
     }
   } catch (error) {
@@ -2033,7 +2129,8 @@ async function hydrateComparisonHubPriceSnapshots() {
       const replacement = renderShowCard(pricedShow, {
         showEventCta: true,
         seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek),
-        vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats)
+        vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats),
+        impactMarketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, Boolean(data?.providerAvailability?.[provider.slug])]))
       });
       replacement.setAttribute("data-comparison-show-id", showId);
       card.replaceWith(replacement);
@@ -2064,6 +2161,7 @@ async function hydrateShowBoard(section, filters = {}) {
       reviewGated: Boolean(filters.reviewGated),
       seatGeekAvailable: Boolean(data?.providerAvailability?.seatgeek),
       vividSeatsAvailable: Boolean(data?.providerAvailability?.vividseats),
+      impactMarketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, Boolean(data?.providerAvailability?.[provider.slug])])),
       // Artist boards lead each card with city · venue; the artist name is
       // already the page heading.
       locationTitle: Boolean(filters.artistSlug),

@@ -1,0 +1,125 @@
+name: Impact marketplace provider sync
+
+# Manual-only activation lane for TicketNetwork, Ticket Liquidator, and StubHub
+# International. Preview is the default. Apply writes only unambiguous exact
+# event matches, validates the resulting data, and opens a review PR. No
+# schedule or auto-merge is permitted until each provider's Impact catalog and
+# tracking contract have been verified by the owner.
+
+on:
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: Provider to sync
+        type: choice
+        options: [ticketnetwork, ticket-liquidator, stubhub-international]
+        required: true
+      mode:
+        description: Preview makes no changes; apply opens a review PR
+        type: choice
+        options: [preview, apply]
+        default: preview
+      artist:
+        description: Optional artist slug (blank means every registry-verified artist)
+        type: string
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: impact-marketplace-provider-sync-${{ github.event.inputs.provider }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PROVIDER: ${{ github.event.inputs.provider }}
+      MODE: ${{ github.event.inputs.mode }}
+      ARTIST: ${{ github.event.inputs.artist }}
+      IMPACT_TICKETNETWORK_ACCOUNT_SID: ${{ secrets.IMPACT_TICKETNETWORK_ACCOUNT_SID }}
+      IMPACT_TICKETNETWORK_AUTH_TOKEN: ${{ secrets.IMPACT_TICKETNETWORK_AUTH_TOKEN }}
+      IMPACT_TICKETNETWORK_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETNETWORK_CAMPAIGN_ID }}
+      IMPACT_TICKETNETWORK_CATALOG_ID: ${{ secrets.IMPACT_TICKETNETWORK_CATALOG_ID }}
+      IMPACT_TICKETNETWORK_PROGRAM_ID: ${{ secrets.IMPACT_TICKETNETWORK_PROGRAM_ID }}
+      IMPACT_TICKETLIQUIDATOR_ACCOUNT_SID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_ACCOUNT_SID }}
+      IMPACT_TICKETLIQUIDATOR_AUTH_TOKEN: ${{ secrets.IMPACT_TICKETLIQUIDATOR_AUTH_TOKEN }}
+      IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID }}
+      IMPACT_TICKETLIQUIDATOR_CATALOG_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_CATALOG_ID }}
+      IMPACT_TICKETLIQUIDATOR_PROGRAM_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_PROGRAM_ID }}
+      IMPACT_STUBHUB_INTERNATIONAL_ACCOUNT_SID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_ACCOUNT_SID }}
+      IMPACT_STUBHUB_INTERNATIONAL_AUTH_TOKEN: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_AUTH_TOKEN }}
+      IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID }}
+      IMPACT_STUBHUB_INTERNATIONAL_CATALOG_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_CATALOG_ID }}
+      IMPACT_STUBHUB_INTERNATIONAL_PROGRAM_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_PROGRAM_ID }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run offline ingestion contract tests
+        run: npm run impact-providers:sync:self-test
+
+      - name: Sync provider event links
+        run: |
+          set -euo pipefail
+          args=(--provider "$PROVIDER" --max-api-calls 400 --delay-ms 1000)
+          if [ -n "$ARTIST" ]; then args+=(--artist "$ARTIST"); fi
+          if [ "$MODE" = "apply" ]; then
+            node scripts/sync-impact-marketplace-events.mjs --apply "${args[@]}"
+            npm run events:partition
+            npm run events:sync
+          else
+            node scripts/sync-impact-marketplace-events.mjs "${args[@]}"
+          fi
+
+      - name: Validate proposed state
+        run: |
+          npm run events:validate:prod
+          npm run events:validate:partitions
+          npm run test:mvp
+          git diff --check
+
+      - name: Detect event changes
+        id: diff
+        run: |
+          if git diff --quiet -- public/data/events.json public/data/events public/data/events-index.json public/index.html; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open review PR
+        if: github.event.inputs.mode == 'apply' && steps.diff.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          TODAY=$(date -u +%Y-%m-%d)
+          BRANCH="automation/${PROVIDER}-impact-sync-${TODAY}"
+          git checkout -B "$BRANCH"
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html
+          git commit -m "automation: ${PROVIDER} Impact catalog sync (${TODAY})"
+          git push -u origin "$BRANCH" --force-with-lease
+          BRANCH="$BRANCH" \
+          PR_TITLE="${PROVIDER} Impact catalog sync (${TODAY})" \
+          PR_LABEL="automation:provider-sync" \
+          PR_AUTO_MERGE=false \
+          PR_BODY=$'## What this PR does\n- Uses the approved provider program in the Impact Catalogs API.\n- Adds or corrects only one unambiguous match whose artist, venue, city, and venue-local date agree.\n- Records provider-specific event ID, URL, verification date, and listing state.\n\n## Safety\n- No guessing or scraping.\n- Incomplete catalogs never clear links.\n- Ambiguous matches stay unchanged.\n- Manual review is required; auto-merge is disabled.\n' \
+          node scripts/open-automation-pr.mjs

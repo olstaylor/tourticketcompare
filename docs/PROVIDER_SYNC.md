@@ -299,6 +299,53 @@ reference. Only after that merge does a one-line follow-up PR uncomment the
 `cron: '30 5 * * *'` schedule (30 minutes after `seatgeek-cta-sync.yml`'s
 05:00 UTC run, so the two loops don't race the same data files).
 
+### TicketNetwork, Ticket Liquidator, and StubHub International
+
+These providers share one fail-closed Impact Catalogs ingestion
+contract while retaining independent provider slugs, hosts, credentials,
+public flags, price flags, provenance, and D1 sources:
+
+```bash
+# Offline tests (no network)
+npm run impact-providers:sync:self-test
+npm run impact-providers:prices:self-test
+
+# Read-only catalog preview
+node scripts/sync-impact-marketplace-events.mjs --provider ticketnetwork
+node scripts/sync-impact-marketplace-events.mjs --provider ticket-liquidator
+node scripts/sync-impact-marketplace-events.mjs --provider stubhub-international
+
+# Apply only after the provider-specific Impact program/catalog is approved
+node scripts/sync-impact-marketplace-events.mjs --provider ticketnetwork --apply
+
+# Exact external-ID price preview; --apply writes timestamped D1 upserts
+node scripts/snapshot-impact-marketplace-prices.mjs --provider ticketnetwork --json
+```
+
+`scripts/lib/impact-marketplace-providers.mjs` owns the provider configuration
+and URL normalization. `scripts/sync-impact-marketplace-events.mjs` fetches a
+maximum of five 100-row pages per registry-verified artist using Impact's
+`/Catalogs/ItemSearch` endpoint (or `/Catalogs/{CatalogId}/Items` when the
+optional provider catalog ID is configured). Results are isolated to the
+provider's configured campaign ID. A row passes only when the artist, venue, city, and venue-local
+date all match; zero or multiple candidates never write. A stored link is
+cleared/unverified only after a complete successful catalog fetch provides
+positive not-listed evidence. Authentication failures abort, and incomplete
+catalogs preserve all stored links.
+
+`.github/workflows/impact-marketplace-provider-sync.yml` is manual-only and
+defaults to preview. Apply mode regenerates partitions/fallback data, runs the
+full validation suite, and opens a review PR with auto-merge disabled.
+`.github/workflows/impact-marketplace-price-snapshots.yml` is also manual-only;
+it reads the exact verified provider event ID and skips conflicting or missing
+price/currency observations. Do not add schedules until the provider-specific
+catalog, tracking redirect, rights, and sample event/price checks in
+`docs/PROVIDER_DATA_POLICY.md` are complete.
+
+StubHub International is not StubHub US/Canada. Its allowlist contains only the
+documented international storefront domains, and approval must not be inferred
+between the two businesses.
+
 ---
 
 ## Implementation sequence
@@ -327,6 +374,8 @@ npm run providers:sync:tm:self-test
 npm run providers:sync:tm:write-pr:self-test
 npm run seatgeek:self-test
 npm run validate:cta-provider-state:self-test
+npm run impact-providers:sync:self-test
+npm run impact-providers:prices:self-test
 python3 scripts/sync-ticketmaster-events.py --all-approved --dry-run
 python3 -m py_compile scripts/sync-ticketmaster-events.py
 node --check scripts/sync-tm-events-write-pr.mjs

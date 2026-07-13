@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-07-13 (production display flags and Vivid Seats snapshot writes verified; SeatGeek pricing-stat entitlement remains the operational blocker.)
+Last updated: 2026-07-13 (TicketNetwork, Ticket Liquidator, and StubHub International implementation added behind manual, default-off Impact activation gates.)
 
 ## Active priorities (in order)
 
@@ -13,22 +13,34 @@ All remaining active work is **operational** (owner + gated tooling), not engine
 3. **Price snapshot operations (verified 2026-07-13):** both Cloudflare display flags are enabled. The latest inspected Vivid Seats price run fetched and wrote all 208 eligible rows; continue monitoring its scheduled summaries. SeatGeek has both Actions credentials and fetches every eligible event with HTTP 200, but all pricing statistics remain null. Owner action: have SeatGeek enable pricing-stat access for the existing API client, dispatch the SeatGeek workflow in apply mode, and confirm non-zero `usable`/`written` counts plus fresh D1 rows. Artist-level Vivid Seats entries remain separate scope.
 4. When the first SeatGeek-first events publish without Ticketmaster URLs, relax `validate-cta-provider-state.mjs` hard error #3 to "publishable ⇒ ≥1 resolvable provider URL" **in that same PR**.
 
-### 2. Roster growth (2026/27 tours)
+### 2. Impact provider activation — TicketNetwork, Ticket Liquidator, StubHub International
+
+The shared engineering path is implemented: Impact Catalogs event ingestion, provider-specific verified provenance, allowlisted `/api/out` redirects, SSR/client CTAs, cache-only D1 price snapshots, health diagnostics, validators, and manual workflows. Owner operations remain before public activation, independently for each provider:
+
+1. Confirm the exact Impact program/campaign identity and that the Catalogs API returns its catalog. The earlier `/Marketplace/Products` HTTP 403 came from the wrong API surface and is not evidence about Catalogs access.
+2. Confirm written rights for event links, listed-price display, comparison/history use, and the required affiliate disclosure.
+3. Configure the provider-specific `IMPACT_<PROVIDER>_*` secrets and approved base tracking URL, run the manual event-sync workflow in preview, then apply to a review PR and browser-check sample events across markets.
+4. Run the price workflow in dry-run and confirm exact external-ID matches, source/currency/timestamps, and non-zero usable rows before any D1 write.
+5. Only after those checks, set the provider's catalog `public_enabled` state and `*_PUBLIC_ENABLED` flag together; enable `*_PRICE_DISPLAY_ENABLED` separately after price-rights and snapshot proof. Keep all gates false on any ambiguity or provider/API failure.
+
+Scheduled automation and auto-merge remain prohibited until a supervised provider-specific run is reviewed. StubHub International is separate from StubHub US/Canada.
+
+### 3. Roster growth (2026/27 tours)
 
 Run `npm run artists:onboard:propose` with target artist names (US/EU major tours), create shells, human-review the manifest, then `npm run artists:promote:batch --write` (≤20/PR, per-artist human browser spot-check checklist in the PR body). Event enrichment follows via the existing `seatgeek:propose` / `seatgeek:enrich` and TM new-show pipelines. Never auto-publish.
 
-### 3. Routine data hygiene (recurring)
+### 4. Routine data hygiene (recurring)
 
 - **`needs_recheck` re-checks:** 36 events carry this state. Independently verified resale provenance keeps 9 SeatGeek and 6 Vivid Seats CTAs publishable; 21 rows have neither provider and remain fully CTA-suppressed. Re-check Ticketmaster storefront URLs periodically; never restore from the Discovery `url` field alone.
 - **Duplicate event rows (found 2026-07-08, agent — owner decision needed):** 9 Ariana Grande pairs remain duplicate rows of the same show (one legacy hex-id `human_verified` row + one Discovery-id `machine_high_confidence` row per show). Deletions are human-gated: pick the row to keep per pair (details in `PROJECT_STATUS.md` → Active risks). The earlier Bruno Mars wrong-night URL share was corrected by the SeatGeek sync; row dedup does not self-heal.
 - **Blank tour labels:** JAY-Z Inglewood "JAY-Z30", JAY-Z London "JAY-Z - 30", and the withheld Shakira Madrid "Shakira Stadium" row need owner-supplied `tour_name` values; never infer them from URL slugs. The Yankee Stadium JAY-Z rows use "JAY-Z Yankee Stadium 2026".
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 
-### 4. #174 Phase B — data-refresh hardening (judgment call)
+### 5. #174 Phase B — data-refresh hardening (judgment call)
 
 Phase A (documented flow + `stale-sync-guard` CI job) is done. Phase B is an optional build-time cache-bust or stronger pre-commit hook — only adopt if it fits the Cloudflare Pages build cleanly; do not ship a brittle cache-bust.
 
-### 5. #10 — Production raw HTML verification (only if still needed)
+### 6. #10 — Production raw HTML verification (only if still needed)
 
 Local proof passed on 17 representative routes (2026-05-19); PR #184's guide drift validation runs on every PR. Non-blocking unless a fresh production browser check finds a real mismatch. Remaining deliverable: a human-run `curl` checklist over production routes (see the #10 issue comment).
 
@@ -50,7 +62,7 @@ Intentionally not work until separately scoped and owner-approved. Unparking rem
 
 - **Tour / city / venue / event landing pages.** No verified data, no canonical/indexing strategy.
 - **Live price aggregation; "cheapest ticket" / "guaranteed availability" claims.** The approved SeatGeek/Vivid implementation is a time-stamped snapshot comparison, not live inventory or a checkout-total guarantee.
-- **Provider expansion beyond SeatGeek and Vivid Seats.** Their approved exact-event comparison lane is active under the documented source, freshness, and attribution gates. Adding any further provider still requires a separate verified feed, explicit written usage rights, and scoped integration work.
+- **Provider expansion beyond SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International.** Adding any further provider still requires a separate verified feed, explicit written usage rights, and scoped integration work. The three new Impact lanes remain inactive until priority 2's provider-specific proof is complete.
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
 - **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.
 - **Internal Impact Publisher Tag diagnostic route (`/internal/impact-tag-test`) and `functions/api/debug-seatgeek.js`** — leave intact.

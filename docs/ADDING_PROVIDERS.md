@@ -14,7 +14,10 @@ Safe integration path for new ticket/affiliate providers. Do not add providers o
 4. **Affiliate program is active** — Provider must accept Impact or direct CPA partnerships
 5. **Disclosure requirements are documented** — Clear rules for "Affiliate" or "Sponsored" labels
 
-If any condition is unmet, do not start integration. Create an issue instead.
+If any condition is unmet, do not activate the provider publicly. An explicitly
+scoped implementation may be built behind default-off flags so credentials and
+the feed can be tested safely, but it must remain manual-only and fail closed
+until every prerequisite is evidenced.
 
 ---
 
@@ -74,7 +77,7 @@ Once Phase 1 is documented and reviewed:
 
 ### Phase 3: Launch
 
-1. Set `public_enabled: true` in `catalog.json`
+1. Set `public_enabled: true` in `catalog.json` and the provider-specific Cloudflare public flag after the provider passes its activation proof
 2. Run validation tests (see Phase 1, step 5)
 3. Smoke test in staging/production
 4. Monitor for 7 days (click volume, error rates, user feedback)
@@ -86,10 +89,13 @@ Once Phase 1 is documented and reviewed:
 
 | Provider | Status | Notes |
 |----------|--------|-------|
-| **SeatGeek** | ✅ Live (artist + event level) | Primary affiliate CTA via Impact. Artist-level performer-page entries (API-captured URLs) and event-level `seatgeek_url` CTAs, all through `/api/out`. Price display remains parked. |
+| **SeatGeek** | ✅ Live (artist + event level) | Primary affiliate CTA via Impact. Artist-level performer-page entries (API-captured URLs) and event-level `seatgeek_url` CTAs, all through `/api/out`. Price snapshots remain source/freshness gated. |
 | **Ticketmaster** | ✅ Live (plain links) | Official event source and verified destination; **no affiliate relationship** (removed from the programme 2026-07). Links are plain, unmonetized redirects rendered after the affiliate providers. |
-| **Vivid Seats** | 🔌 Wired, dormant | Approved on Impact; full code path mirrors SeatGeek. Buttons stay hidden until `IMPACT_VIVIDSEATS_*` secrets and verified `vividseats.com` destinations exist. |
-| **StubHub, Viagogo** | ⏸️ Not started | No active priority; do not add without explicit scope |
+| **Vivid Seats** | ✅ Live (event level) | Approved Impact catalog lane with verified `/production/<id>` destinations and gated price snapshots. |
+| **TicketNetwork** | 🔌 Implemented, inactive | Shared Impact Catalogs ingestion, verified event provenance, redirect, CTA, and D1 snapshot lane. `TICKETNETWORK_PUBLIC_ENABLED` and price display stay false until provider-specific catalog/tracking proof and rights review pass. |
+| **Ticket Liquidator** | 🔌 Implemented, inactive | Same shared Impact lane. `TICKETLIQUIDATOR_PUBLIC_ENABLED` and price display stay false until provider-specific catalog/tracking proof and rights review pass. |
+| **StubHub International** | 🔌 Implemented, inactive | International business only (not StubHub US/Canada). Allowlisted country storefronts, shared Impact lane, and separate flags. Public activation waits for provider-specific catalog/tracking proof and rights review. |
+| **StubHub US/Canada, Viagogo** | ⏸️ Not started | Separate providers and separate scope; do not infer approval from StubHub International. |
 
 ---
 

@@ -96,10 +96,12 @@ All HTML route handling lives in `functions/[[path]].js`; page metadata lives in
 - `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` — network-level Impact fallback (server-side only).
 - `IMPACT_SEATGEEK_*` — SeatGeek Impact program (server-side only). Active.
 - `IMPACT_VIVIDSEATS_*` — production event-level CTAs are live; confirm runtime state through `/api/health` and redirect tests rather than inferring secret presence from the repository. Artist-level Vivid Seats entries remain absent.
+- `IMPACT_TICKETNETWORK_*`, `IMPACT_TICKETLIQUIDATOR_*`, `IMPACT_STUBHUB_INTERNATIONAL_*` — provider-specific Impact Catalogs and tracking credentials. Their runtime and price lanes are implemented but default-off; never enable a public/display flag until that provider's program, catalog scope, usage rights, tracking redirect, and sample matches are verified.
+- `TICKETNETWORK_PUBLIC_ENABLED`, `TICKETLIQUIDATOR_PUBLIC_ENABLED`, `STUBHUB_INTERNATIONAL_PUBLIC_ENABLED` — independent public CTA gates; default false. Matching `*_PRICE_DISPLAY_ENABLED` flags are separate and default false.
 - `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` — discovery tooling only, not `/api/out`.
 - The old `IMPACT_TICKETMASTER_*` secrets are unused — delete them from the dashboard if still present (owner task, tracked in `BACKLOG.md`).
 
-Impact credentials are never exposed client-side; they are used only in `functions/api/out.js`.
+Impact credentials are never exposed client-side; they are used only by server functions and controlled provider-sync/snapshot tooling.
 
 ### Automation (scheduled GitHub Actions)
 
@@ -112,6 +114,8 @@ Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS
 - `seatgeek-price-snapshots.yml` (every 4 h) — writes approved SeatGeek price snapshots to D1; stale or unverified rows remain hidden.
 - `vividseats-price-snapshots.yml` (every 4 h) — writes approved Vivid Seats feed snapshots to D1 when its approved-feed and Cloudflare secrets are configured; missing secrets no-op safely.
 - `vividseats-cta-sync.yml` (05:30 UTC, cron enabled 2026-07-12 owner-directed) — verified event-level Vivid Seats link/provenance sync; auto-merges after its in-run validation suite, mirroring `seatgeek-cta-sync.yml`.
+- `impact-marketplace-provider-sync.yml` (manual only) — preview/apply lane for TicketNetwork, Ticket Liquidator, and StubHub International; apply opens a review PR and never auto-merges.
+- `impact-marketplace-price-snapshots.yml` (manual only) — exact provider-event-ID snapshot dry run/apply for those three providers; no schedule before supervised activation.
 - `prelaunch-validation.yml` (PRs) — validation suite incl. the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`.
 - `tm-data-refresh-pr.yml` (dispatch) — manual PR-based refresh of existing events.
 
@@ -127,6 +131,8 @@ npm run test:mvp                                  # combined suite: events self-
 python3 scripts/validate-events.py --for-production
 node scripts/validate-guide-routes.mjs            # if guides/routes touched
 npm run artist:check -- <slug>                    # if a specific artist touched
+npm run impact-providers:sync:self-test            # shared Impact catalog matcher
+npm run impact-providers:prices:self-test          # exact-ID snapshot writer
 npm run events:sync                               # required after any public/data/*.json edit
 node --check public/app.js 'functions/[[path]].js' functions/api/out.js
 git diff --check

@@ -32,6 +32,32 @@ const PROVIDERS = {
     name: "Vivid Seats",
     allowedDestinationHosts: ["vividseats.com"],
     trustedAffiliateHosts: []
+  },
+  ticketnetwork: {
+    name: "TicketNetwork",
+    allowedDestinationHosts: ["ticketnetwork.com"],
+    trustedAffiliateHosts: [],
+    urlField: "ticketnetwork_url",
+    publicEnabledEnv: "TICKETNETWORK_PUBLIC_ENABLED"
+  },
+  "ticket-liquidator": {
+    name: "Ticket Liquidator",
+    allowedDestinationHosts: ["ticketliquidator.com"],
+    trustedAffiliateHosts: [],
+    urlField: "ticketliquidator_url",
+    publicEnabledEnv: "TICKETLIQUIDATOR_PUBLIC_ENABLED"
+  },
+  "stubhub-international": {
+    name: "StubHub International",
+    allowedDestinationHosts: [
+      "stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es",
+      "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk",
+      "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz",
+      "stubhub.be", "stubhub.co.at"
+    ],
+    trustedAffiliateHosts: [],
+    urlField: "stubhub_international_url",
+    publicEnabledEnv: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED"
   }
 };
 
@@ -305,6 +331,8 @@ function slugify(value) {
 function providerKey(value) {
   const key = slugify(value);
   if (key === "vividseats") return "vivid-seats";
+  if (key === "ticketliquidator") return "ticket-liquidator";
+  if (key === "stubhubinternational") return "stubhub-international";
   return key;
 }
 
@@ -415,8 +443,10 @@ function eventLinkPublishable(event) {
 // sync with providerEventPublishable in functions/[[path]].js and
 // public/app.js.
 function providerEventPublishable(event, provider) {
-  if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
-  if (provider === "vivid-seats" && event?.provider_links?.["vivid-seats"]?.verified === true) return true;
+  if (["ticketnetwork", "ticket-liquidator", "stubhub-international"].includes(provider)) {
+    return event?.provider_links?.[provider]?.verified === true;
+  }
+  if (provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true) return true;
   return eventLinkPublishable(event);
 }
 
@@ -465,6 +495,20 @@ function validateVividSeatsEventUrl(vividSeatsUrl, providerConfig) {
   if (!path || path === "/") return null;
   if (/^\/(search|venues?|performers?|artists?|category|concerts?|sports?|theater|theatre)(?:\/|$)/i.test(path)) return null;
   if (!/\/production\/\d+$/i.test(path)) return null;
+  return redirect;
+}
+
+// Impact Marketplace Products integrations use provider-specific host
+// allowlists plus stored verified provenance. Their storefront path shapes can
+// vary by market, so reject only bare/generic pages here; the sync script is
+// responsible for exact artist/date/city/venue matching before the URL is
+// written to event data.
+function validateImpactMarketplaceEventUrl(value, providerConfig) {
+  const redirect = validateConfiguredRedirect(providerConfig, value);
+  if (!redirect || redirect.protocol !== "https:") return null;
+  const path = decodeURIComponent(redirect.pathname || "/").replace(/\/+$/, "");
+  if (!path || path === "/") return null;
+  if (/^\/(search|home|about|help|support|faq|contact|terms|privacy)(?:\/|$)/i.test(path)) return null;
   return redirect;
 }
 
@@ -535,13 +579,41 @@ async function resolveShowLink(env, showId, provider) {
     };
   }
 
+  const impactMarketplaceConfig = PROVIDERS[provider];
+  if (impactMarketplaceConfig?.urlField) {
+    const storedUrl = clean(event?.[impactMarketplaceConfig.urlField], 2048);
+    const redirect = validateImpactMarketplaceEventUrl(storedUrl, impactMarketplaceConfig);
+    if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
+    return {
+      ok: true,
+      link: {
+        artistSlug: slugify(event.artist_slug),
+        provider,
+        linkId: clean(event.id, 255),
+        showId: clean(event.id, 255),
+        redirectUrl: redirect.toString(),
+        verified: true
+      },
+      redirect
+    };
+  }
+
   return { ok: false, status: "provider_not_configured" };
 }
 
 
 const BASE_TRACKING_URL_ENV_VARS = {
   seatgeek: "IMPACT_SEATGEEK_BASE_TRACKING_URL",
-  "vivid-seats": "IMPACT_VIVIDSEATS_BASE_TRACKING_URL"
+  "vivid-seats": "IMPACT_VIVIDSEATS_BASE_TRACKING_URL",
+  ticketnetwork: "IMPACT_TICKETNETWORK_BASE_TRACKING_URL",
+  "ticket-liquidator": "IMPACT_TICKETLIQUIDATOR_BASE_TRACKING_URL",
+  "stubhub-international": "IMPACT_STUBHUB_INTERNATIONAL_BASE_TRACKING_URL"
+};
+
+const IMPACT_PROVIDER_ENV_PREFIXES = {
+  ticketnetwork: "IMPACT_TICKETNETWORK",
+  "ticket-liquidator": "IMPACT_TICKETLIQUIDATOR",
+  "stubhub-international": "IMPACT_STUBHUB_INTERNATIONAL"
 };
 
 function baseTrackingUrlFor(env = {}, provider) {
@@ -653,6 +725,24 @@ function impactConfig(env = {}, provider = "ticketmaster") {
     };
   }
 
+  const envPrefix = IMPACT_PROVIDER_ENV_PREFIXES[normalizedProvider];
+  if (envPrefix) {
+    const accountSid = clean(env?.[`${envPrefix}_ACCOUNT_SID`] || env?.IMPACT_ACCOUNT_SID, 255);
+    const authToken = clean(env?.[`${envPrefix}_AUTH_TOKEN`] || env?.IMPACT_AUTH_TOKEN, 255);
+    const campaignId = clean(env?.[`${envPrefix}_CAMPAIGN_ID`], 120);
+    const legacyProgramId = clean(env?.[`${envPrefix}_PROGRAM_ID`], 120);
+    const programId = campaignId || legacyProgramId;
+    return {
+      accountSid, authToken, programId, campaignId, legacyProgramId,
+      programIdSource: campaignId ? `${envPrefix}_CAMPAIGN_ID` : legacyProgramId ? `${envPrefix}_PROGRAM_ID` : "",
+      apiBase, provider: normalizedProvider,
+      hasCredentials: Boolean(accountSid && authToken),
+      hasProgramId: Boolean(programId),
+      hasCampaignId: Boolean(campaignId),
+      configured: Boolean(accountSid && authToken && programId)
+    };
+  }
+
   // Ticketmaster has no Impact program (the site was removed from the
   // Ticketmaster affiliate programme). Ticketmaster redirects are plain,
   // unmonetized links and never call the Impact API.
@@ -699,7 +789,9 @@ function safeImpactDiagnosticConfig(config) {
   };
 }
 
-const IMPACT_WRAPPED_PROVIDERS = new Set(["seatgeek", "vivid-seats"]);
+const IMPACT_WRAPPED_PROVIDERS = new Set([
+  "seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"
+]);
 
 function impactRequestStatus(statusCode, provider = "ticketmaster") {
   if (Number(statusCode) === 404 && IMPACT_WRAPPED_PROVIDERS.has(providerKey(provider))) {
@@ -825,7 +917,9 @@ async function inspectImpactProgram(env, provider = "seatgeek") {
         contractStatus: clean(payload?.ContractStatus, 60),
         allowsDeeplinking: String(payload?.AllowsDeeplinking || "").toLowerCase() === "true",
         trackingLinkPresent: Boolean(clean(payload?.TrackingLink, 2048)),
-        deeplinkDomainsIncludeDestinationHost: domainList.some((domain) => String(domain).toLowerCase() === "seatgeek.com")
+        deeplinkDomainsIncludeDestinationHost: domainList.some((domain) =>
+          hostnameAllowed(String(domain).toLowerCase(), PROVIDERS[providerKey(provider)]?.allowedDestinationHosts || [])
+        )
       },
       impactResponseFieldNames: safeFieldNames(payload)
     };
@@ -1093,6 +1187,9 @@ async function handleOut(request, env, mode) {
 
   const providerConfig = PROVIDERS[provider];
   if (!providerConfig) return json({ ok: false, status: "unknown_provider" }, 400);
+  if (providerConfig.publicEnabledEnv && String(env?.[providerConfig.publicEnabledEnv] || "").toLowerCase() !== "true") {
+    return json({ ok: false, status: "provider_not_configured" }, 400);
+  }
 
   if (showId) {
     // showId mode is intentionally controlled: resolve the stored event URL
@@ -1115,7 +1212,9 @@ async function handleOut(request, env, mode) {
       const providerImpactConfig = impactConfig(env, provider);
       const validateEventDestination = provider === "seatgeek"
         ? (value) => validateSeatGeekEventUrl(value, PROVIDERS.seatgeek)
-        : (value) => validateVividSeatsEventUrl(value, PROVIDERS["vivid-seats"]);
+        : provider === "vivid-seats"
+          ? (value) => validateVividSeatsEventUrl(value, PROVIDERS["vivid-seats"])
+          : (value) => validateImpactMarketplaceEventUrl(value, providerConfig);
       let impactTrackingResult = null;
 
       if (hasBaseTrackingUrl(env, provider)) {

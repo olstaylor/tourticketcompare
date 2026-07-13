@@ -9,7 +9,7 @@
     "deploy": "wrangler pages deploy public",
     "deploy:pages": "wrangler pages deploy public",
     "deploy:pages:safe": "npm run test:mvp && wrangler pages deploy public",
-    "test:mvp": "npm run events:validate:self-test && npm run audit:links:self-test && npm run validate:artist-providers && npm run validate:cta-provider-state && node scripts/smoke-prelaunch.mjs",
+    "test:mvp": "npm run events:validate:self-test && npm run audit:links:self-test && npm run impact-providers:sync:self-test && npm run impact-providers:prices:self-test && npm run validate:artist-providers && npm run validate:cta-provider-state && npm run validate:provider-allowlists && node scripts/smoke-prelaunch.mjs",
     "validate:artist-providers": "node scripts/validate-artist-provider-claims.mjs",
     "validate:cta-provider-state": "node scripts/validate-cta-provider-state.mjs",
     "validate:cta-provider-state:self-test": "node scripts/validate-cta-provider-state.mjs --self-test",
@@ -73,7 +73,11 @@
     "audit:production-routes": "node scripts/verify-production-route-html.mjs",
     "vividseats:prices:self-test": "node scripts/snapshot-vividseats-prices.mjs --self-test",
     "vividseats:prices:dry-run": "node scripts/snapshot-vividseats-prices.mjs",
-    "vividseats:prices:apply": "node scripts/snapshot-vividseats-prices.mjs --apply"
+    "vividseats:prices:apply": "node scripts/snapshot-vividseats-prices.mjs --apply",
+    "impact-providers:sync": "node scripts/sync-impact-marketplace-events.mjs",
+    "impact-providers:sync:self-test": "node scripts/sync-impact-marketplace-events.mjs --self-test",
+    "impact-providers:prices": "node scripts/snapshot-impact-marketplace-prices.mjs",
+    "impact-providers:prices:self-test": "node scripts/snapshot-impact-marketplace-prices.mjs --self-test"
   },
   "devDependencies": {
     "wrangler": "^4.106.0"

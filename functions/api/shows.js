@@ -8,6 +8,28 @@ const DEFAULT_LIST_LIMIT = 200;
 const MAX_LIST_LIMIT = 500;
 const DEFAULT_TICKETMASTER_DISCOVERY_BASE = "https://app.ticketmaster.com/discovery/v2";
 const DEFAULT_TICKETMASTER_ARTIST_EVENTS_LIMIT = 100;
+const IMPACT_MARKETPLACE_PROVIDERS = [
+  {
+    slug: "ticketnetwork", name: "TicketNetwork", envPrefix: "IMPACT_TICKETNETWORK",
+    urlField: "ticketnetwork_url", allowedHosts: ["ticketnetwork.com"],
+    priceSource: "ticketnetwork_impact_marketplace_api", displayFlagKey: "TICKETNETWORK_PRICE_DISPLAY_ENABLED",
+    publicFlagKey: "TICKETNETWORK_PUBLIC_ENABLED"
+  },
+  {
+    slug: "ticket-liquidator", name: "Ticket Liquidator", envPrefix: "IMPACT_TICKETLIQUIDATOR",
+    urlField: "ticketliquidator_url", allowedHosts: ["ticketliquidator.com"],
+    priceSource: "ticketliquidator_impact_marketplace_api", displayFlagKey: "TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED",
+    publicFlagKey: "TICKETLIQUIDATOR_PUBLIC_ENABLED"
+  },
+  {
+    slug: "stubhub-international", name: "StubHub International", envPrefix: "IMPACT_STUBHUB_INTERNATIONAL",
+    urlField: "stubhub_international_url",
+    allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"],
+    priceSource: "stubhub_international_impact_marketplace_api", displayFlagKey: "STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED",
+    publicFlagKey: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED"
+  }
+];
+const IMPACT_MARKETPLACE_BY_SLUG = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, provider]));
 const PLACEHOLDER_URL_MARKERS = [
   "example.com",
   "your-affiliate-link",
@@ -96,6 +118,9 @@ function mapEventsToShows(events) {
         ticketmaster_event_id: event.ticketmaster_event_id,
         seatgeek_url: event.seatgeek_url,
         vividseats_url: event.vividseats_url,
+        ticketnetwork_url: event.ticketnetwork_url,
+        ticketliquidator_url: event.ticketliquidator_url,
+        stubhub_international_url: event.stubhub_international_url,
         ticketmaster_url: event.ticketmaster_url,
         // Publishability state consumed by eventLinkPublishable /
         // providerEventPublishable in public/app.js — without it, hydrated
@@ -114,6 +139,15 @@ function mapEventsToShows(events) {
           },
           "vivid-seats": {
             verified: event?.provider_links?.["vivid-seats"]?.verified === true
+          },
+          ticketnetwork: {
+            verified: event?.provider_links?.ticketnetwork?.verified === true
+          },
+          "ticket-liquidator": {
+            verified: event?.provider_links?.["ticket-liquidator"]?.verified === true
+          },
+          "stubhub-international": {
+            verified: event?.provider_links?.["stubhub-international"]?.verified === true
           }
         },
         impact_program_id: event.impact_program_id,
@@ -442,7 +476,37 @@ function isUsableAffiliateUrl(rawUrl) {
 }
 
 function providerKey(provider) {
-  return String(provider || "").toLowerCase().replace(/\s+/g, "");
+  const compact = String(provider || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+  if (compact === "vividseats") return "vivid-seats";
+  if (compact === "ticketliquidator") return "ticket-liquidator";
+  if (compact === "stubhubinternational") return "stubhub-international";
+  return compact;
+}
+
+function hasImpactMarketplaceProviderConfig(env = {}, provider) {
+  const config = typeof provider === "string" ? IMPACT_MARKETPLACE_BY_SLUG[providerKey(provider)] : provider;
+  if (!config || String(env?.[config.publicFlagKey] || "").toLowerCase() !== "true") return false;
+  const baseTracking = Boolean(String(env?.[`${config.envPrefix}_BASE_TRACKING_URL`] || "").trim());
+  const apiConfig = Boolean(
+    String(env?.[`${config.envPrefix}_ACCOUNT_SID`] || env?.IMPACT_ACCOUNT_SID || "").trim() &&
+    String(env?.[`${config.envPrefix}_AUTH_TOKEN`] || env?.IMPACT_AUTH_TOKEN || "").trim() &&
+    String(env?.[`${config.envPrefix}_CAMPAIGN_ID`] || env?.[`${config.envPrefix}_PROGRAM_ID`] || "").trim()
+  );
+  return baseTracking || apiConfig;
+}
+
+function validImpactMarketplaceEventUrl(value, provider) {
+  const config = typeof provider === "string" ? IMPACT_MARKETPLACE_BY_SLUG[providerKey(provider)] : provider;
+  if (!config || typeof value !== "string" || isLikelyPlaceholderUrl(value)) return null;
+  try {
+    const parsed = new URL(value.trim());
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    if (!config.allowedHosts.some((allowed) => host === allowed || host.endsWith(`.${allowed}`))) return null;
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (!path || path === "/" || /^\/(search|home|about|help|support|faq|contact|terms|privacy)(?:\/|$)/i.test(path)) return null;
+    return parsed.toString();
+  } catch { return null; }
 }
 
 // Public SeatGeek CTA availability is tied to Impact affiliate-link creation,
@@ -517,8 +581,10 @@ function eventLinkPublishable(event) {
 }
 
 function providerEventPublishable(event, provider) {
-  if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
-  if (provider === "vivid-seats" && event?.provider_links?.["vivid-seats"]?.verified === true) return true;
+  if (IMPACT_MARKETPLACE_BY_SLUG[provider]) {
+    return event?.provider_links?.[provider]?.verified === true;
+  }
+  if (provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true) return true;
   return eventLinkPublishable(event);
 }
 
@@ -528,9 +594,7 @@ function providerEventPublishable(event, provider) {
 // provenance. An event-level verification status must never revive a cached
 // row after the provider match itself is revoked.
 function providerPriceEventVerified(event, provider) {
-  if (provider === "seatgeek") return event?.provider_links?.seatgeek?.verified === true;
-  if (provider === "vivid-seats") return event?.provider_links?.["vivid-seats"]?.verified === true;
-  return false;
+  return provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true;
 }
 
 function withResolvableProviderCtas(shows, env = {}) {
@@ -549,7 +613,12 @@ function withResolvableProviderCtas(shows, env = {}) {
         vividSeatsConfigured &&
         providerEventPublishable(show, "vivid-seats") &&
         validVividSeatsEventUrl(show.vividseats_url)
-      )
+      ),
+      ...Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, Boolean(
+        hasImpactMarketplaceProviderConfig(env, provider) &&
+        providerEventPublishable(show, provider.slug) &&
+        validImpactMarketplaceEventUrl(show?.[provider.urlField], provider)
+      )]))
     }
   }));
 }
@@ -564,7 +633,7 @@ function getAffiliateUrl(show, provider) {
   if (!show) return null;
   const key = providerKey(provider);
   const fromLinks = show.links && typeof show.links === "object" ? show.links[key] : null;
-  const fromFields = show[`${key}_url`];
+  const fromFields = show[IMPACT_MARKETPLACE_BY_SLUG[key]?.urlField || `${key}_url`];
   const value = typeof fromLinks === "string" && fromLinks.trim().length
     ? fromLinks
     : fromFields;
@@ -581,7 +650,8 @@ const VIVIDSEATS_APPROVED_PRICE_SOURCE = "vividseats_impact_marketplace_api";
 // matches the provider's approved source here.
 const APPROVED_PRICE_SOURCES = {
   "SeatGeek": SEATGEEK_APPROVED_PRICE_SOURCE,
-  "Vivid Seats": VIVIDSEATS_APPROVED_PRICE_SOURCE
+  "Vivid Seats": VIVIDSEATS_APPROVED_PRICE_SOURCE,
+  ...Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.name, provider.priceSource]))
 };
 // How far back fetchProviderPriceTrend looks for the previous observation when
 // computing an internal (non-displayed) price trend from provider_pricing_history.
@@ -659,8 +729,8 @@ async function fetchProviderPriceTrend(db, showId, provider, source) {
 // non-negative low price, a currency, a valid verified_at timestamp, and an
 // unexpired expires_at — the same freshness gate in single-show and bulk mode.
 function approvedCachedPriceFromRow(provider, approvedSource, show, row) {
-  const providerKey = provider === "SeatGeek" ? "seatgeek" : provider === "Vivid Seats" ? "vivid-seats" : "";
-  if (!providerPriceEventVerified(show, providerKey)) return null;
+  const normalizedProvider = providerKey(provider);
+  if (!providerPriceEventVerified(show, normalizedProvider)) return null;
   if (!row || typeof row !== "object" || row.source !== approvedSource) return null;
 
   const lowPrice = Number(row.low_price);
@@ -805,7 +875,17 @@ const APPROVED_MARKETPLACE_PRICE_LANES = [
     hasDisplayableUrl: (show) => Boolean(
       providerPriceEventVerified(show, "vivid-seats") && validVividSeatsEventUrl(show?.vividseats_url)
     )
-  }
+  },
+  ...IMPACT_MARKETPLACE_PROVIDERS.map((config) => ({
+    provider: config.name,
+    dbKey: config.slug,
+    approvedSource: config.priceSource,
+    displayFlagKey: config.displayFlagKey,
+    publicFlagKey: config.publicFlagKey,
+    hasDisplayableUrl: (show) => Boolean(
+      providerPriceEventVerified(show, config.slug) && validImpactMarketplaceEventUrl(show?.[config.urlField], config)
+    )
+  }))
 ];
 // D1 bound-parameter budget per statement; chunking keeps a full artist board
 // to a handful of queries instead of two point reads per show.
@@ -820,7 +900,7 @@ async function fetchApprovedMarketplaceCachedRows(db, showIds) {
       .prepare(
         `SELECT event_id, provider, low_price, avg_price, high_price, currency, inventory_count, verified_at, expires_at, source
          FROM provider_pricing_cache
-         WHERE provider IN ('seatgeek', 'vivid-seats')
+         WHERE provider IN ('seatgeek', 'vivid-seats', 'ticketnetwork', 'ticket-liquidator', 'stubhub-international')
            AND event_id IN (${placeholders})`
       )
       .bind(...chunk)
@@ -841,7 +921,8 @@ async function fetchApprovedMarketplaceCachedRows(db, showIds) {
 export async function attachApprovedMarketplacePrices(shows, env) {
   const laneStates = APPROVED_MARKETPLACE_PRICE_LANES.map((lane) => ({
     lane,
-    enabled: getEnvBoolean(env?.[lane.displayFlagKey], false)
+    enabled: getEnvBoolean(env?.[lane.displayFlagKey], false) &&
+      (!lane.publicFlagKey || getEnvBoolean(env?.[lane.publicFlagKey], false))
   }));
   const db = getPricingDb(env);
   let rowsByKey = new Map();
@@ -895,7 +976,14 @@ function decorateProviderResult(result, show, provider, env) {
   const key = providerKey(provider);
   const directUrl = getProviderDeepLink(show, provider, result?.url);
   const hasVerifiedTicketmasterEventUrl = key === "ticketmaster" && Boolean(getAffiliateUrl(show, provider));
-  const canUseSafeEventRedirect = hasVerifiedTicketmasterEventUrl;
+  const marketplaceConfig = IMPACT_MARKETPLACE_BY_SLUG[key];
+  const hasVerifiedMarketplaceEventUrl = Boolean(
+    marketplaceConfig &&
+    hasImpactMarketplaceProviderConfig(env, marketplaceConfig) &&
+    providerEventPublishable(show, key) &&
+    validImpactMarketplaceEventUrl(show?.[marketplaceConfig.urlField], marketplaceConfig)
+  );
+  const canUseSafeEventRedirect = hasVerifiedTicketmasterEventUrl || hasVerifiedMarketplaceEventUrl;
   const actionUrl = canUseSafeEventRedirect ? buildAffiliateActionUrl(show, provider, directUrl) : null;
   const baseStatus = result?.status || "unavailable";
   const isApprovedProviderPriceSnapshot =
@@ -1004,6 +1092,30 @@ function createLiveAdapter(provider, env) {
         return fetchVividSeatsCachedPrice(show, env);
       }
 
+      const marketplaceConfig = IMPACT_MARKETPLACE_BY_SLUG[providerKey(provider)];
+      if (marketplaceConfig) {
+        if (!getEnvBoolean(env?.[marketplaceConfig.publicFlagKey], false) ||
+            !getEnvBoolean(env?.[marketplaceConfig.displayFlagKey], false)) {
+          return unavailableProviderPrice(provider, show);
+        }
+        const db = getPricingDb(env);
+        const showId = String(show?.id || "").trim();
+        if (!db || !showId || !providerPriceEventVerified(show, marketplaceConfig.slug) ||
+            !validImpactMarketplaceEventUrl(show?.[marketplaceConfig.urlField], marketplaceConfig)) {
+          return unavailableProviderPrice(provider, show);
+        }
+        try {
+          const row = await db.prepare(
+            `SELECT low_price, avg_price, high_price, currency, inventory_count, verified_at, expires_at, source
+             FROM provider_pricing_cache
+             WHERE event_id = ?1 AND provider = ?2 AND source = ?3 LIMIT 1`
+          ).bind(showId, marketplaceConfig.slug, marketplaceConfig.priceSource).first();
+          return approvedCachedPriceFromRow(provider, marketplaceConfig.priceSource, show, row) || unavailableProviderPrice(provider, show);
+        } catch (error) {
+          return unavailableProviderPrice(provider, show);
+        }
+      }
+
       if (provider !== "Ticketmaster") {
         return unavailableProviderPrice(provider, show);
       }
@@ -1083,7 +1195,7 @@ function createLiveAdapter(provider, env) {
 }
 
 function createProviders(mockMode, allowMockPrices, env) {
-  return ["Ticketmaster", "SeatGeek", "Vivid Seats"].map((name) =>
+  return ["Ticketmaster", "SeatGeek", "Vivid Seats", ...IMPACT_MARKETPLACE_PROVIDERS.map((provider) => provider.name)].map((name) =>
     mockMode ? createMockAdapter(name, { allowMockPrices }) : createLiveAdapter(name, env)
   );
 }
@@ -1538,7 +1650,8 @@ export async function onRequestGet({ request, env }) {
         includePrices: false,
         providerAvailability: {
           seatgeek: hasSeatGeekProviderConfig(env),
-          vividseats: hasVividSeatsProviderConfig(env)
+          vividseats: hasVividSeatsProviderConfig(env),
+          ...Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, hasImpactMarketplaceProviderConfig(env, provider)]))
         },
         pagination: {
           offset,
@@ -1585,7 +1698,8 @@ export async function onRequestGet({ request, env }) {
       includePrices: true,
       providerAvailability: {
         seatgeek: hasSeatGeekProviderConfig(env),
-        vividseats: hasVividSeatsProviderConfig(env)
+        vividseats: hasVividSeatsProviderConfig(env),
+        ...Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, hasImpactMarketplaceProviderConfig(env, provider)]))
       },
       pagination: {
         offset,

@@ -47,7 +47,21 @@ PROVIDER_URL_HOSTS = {
     },
     "seatgeek": {"seatgeek.com", "www.seatgeek.com"},
     "vividseats": {"vividseats.com", "www.vividseats.com"},
+    "ticketnetwork": {"ticketnetwork.com"},
+    "ticket-liquidator": {"ticketliquidator.com"},
+    "stubhub-international": {
+        "stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr",
+        "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl",
+        "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr",
+        "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be",
+        "stubhub.co.at",
+    },
 }
+IMPACT_MARKETPLACE_EVENT_PROVIDERS = (
+    ("ticketnetwork", "ticketnetwork_url", "ticketnetwork"),
+    ("ticket-liquidator", "ticketliquidator_url", "ticket-liquidator"),
+    ("stubhub-international", "stubhub_international_url", "stubhub-international"),
+)
 PLACEHOLDER_PATTERNS = tuple(re.compile(pattern, re.IGNORECASE) for pattern in (
     r"(?:^|[/?#=&._-])tbd(?:$|[/?#=&._-])",
 ))
@@ -191,6 +205,40 @@ def is_vividseats_event_url(value: Any) -> tuple[bool, str]:
     if not re.search(r"/production/\d+$", normalized_path, re.IGNORECASE):
         return False, "must look like a Vivid Seats production URL ending in /production/<numeric id>"
 
+    return True, ""
+
+
+def is_impact_marketplace_event_url(value: Any, provider: str) -> tuple[bool, str]:
+    """Validate event-level URLs sourced from an approved Impact catalog.
+
+    These providers do not expose one stable numeric URL pattern across every
+    international storefront, so the invariant is deliberately provider-host
+    and event-page oriented: HTTPS, allowlisted host, non-placeholder, and not
+    a homepage or known generic/support path. Exact event identity is carried
+    separately in provider_links.<provider>.event_id.
+    """
+    if value is None or (isinstance(value, str) and value.strip() == ""):
+        return True, ""
+    if not isinstance(value, str):
+        return False, "must be empty or an event URL string"
+
+    raw = value.strip()
+    parsed = parse_url(raw)
+    if parsed is None:
+        return False, "must be a valid absolute URL"
+    if parsed.scheme.lower() != "https":
+        return False, "must use https"
+    if not host_allowed_for_provider(parsed.hostname or "", provider):
+        allowed = ", ".join(sorted(PROVIDER_URL_HOSTS[provider]))
+        return False, f"host '{parsed.hostname or ''}' is not allowed (allowed: {allowed})"
+    if is_placeholder_url(raw):
+        return False, "placeholder/example URL is not allowed"
+
+    path = unquote(parsed.path or "/").strip().rstrip("/")
+    if path in {"", "/"}:
+        return False, "must not be the provider homepage"
+    if re.match(r"^/(search|home|about|help|support|faq|contact|terms|privacy)(?:/|$)", path, re.IGNORECASE):
+        return False, "must be an event-specific URL, not a generic/support URL"
     return True, ""
 
 
@@ -703,13 +751,23 @@ def main() -> int:
             elif "/" not in tz.strip():
                 errors.append(f"{prefix}.timezone: expected IANA-like value (e.g., Europe/London), got '{tz}'")
 
-        for url_field in ("ticketmaster_url", "seatgeek_url", "vividseats_url"):
+        provider_url_fields = (
+            "ticketmaster_url", "seatgeek_url", "vividseats_url",
+            *(field for _, field, _ in IMPACT_MARKETPLACE_EVENT_PROVIDERS),
+        )
+        for url_field in provider_url_fields:
             if not is_http_url(event.get(url_field)):
                 errors.append(f"{prefix}.{url_field}: must be http(s) URL or empty")
             elif args.reject_placeholder_urls and is_placeholder_url(event.get(url_field)):
                 errors.append(f"{prefix}.{url_field}: placeholder/example URL is not allowed")
 
-        for provider, url_field in (("ticketmaster", "ticketmaster_url"), ("seatgeek", "seatgeek_url"), ("vividseats", "vividseats_url")):
+        provider_field_pairs = (
+            ("ticketmaster", "ticketmaster_url"),
+            ("seatgeek", "seatgeek_url"),
+            ("vividseats", "vividseats_url"),
+            *((provider, field) for provider, field, _ in IMPACT_MARKETPLACE_EVENT_PROVIDERS),
+        )
+        for provider, url_field in provider_field_pairs:
             value = event.get(url_field)
             if not isinstance(value, str) or not value.strip():
                 continue
@@ -773,6 +831,42 @@ def main() -> int:
         if provider_vividseats_url not in (None, "") and provider_vividseats_verified is True and isinstance(vividseats_url, str) and vividseats_url.strip() and provider_vividseats_url.strip() != vividseats_url.strip():
             errors.append(f"{prefix}.provider_links.vivid-seats.verified: cannot be true for a URL that differs from top-level vividseats_url")
 
+        for provider, url_field, link_key in IMPACT_MARKETPLACE_EVENT_PROVIDERS:
+            top_value = event.get(url_field)
+            top_ok, top_error = is_impact_marketplace_event_url(top_value, provider)
+            if not top_ok:
+                errors.append(f"{prefix}.{url_field}: {top_error}")
+
+            link_value = provider_link_value(event, link_key, "url")
+            link_verified = provider_link_value(event, link_key, "verified")
+            if link_value not in (None, ""):
+                link_ok, link_error = is_impact_marketplace_event_url(link_value, provider)
+                if not link_ok:
+                    errors.append(f"{prefix}.provider_links.{link_key}.url: {link_error}")
+                top_url = top_value.strip() if isinstance(top_value, str) else ""
+                provider_url = link_value.strip() if isinstance(link_value, str) else ""
+                if top_url and provider_url and top_url != provider_url:
+                    errors.append(
+                        f"{prefix}.provider_links.{link_key}.url: must match top-level {url_field} when both are present"
+                    )
+                elif provider_url and not top_url:
+                    errors.append(
+                        f"{prefix}.provider_links.{link_key}.url: must also be present in top-level {url_field} before public CTA use"
+                    )
+            if link_verified is True:
+                if not isinstance(top_value, str) or not top_value.strip():
+                    errors.append(
+                        f"{prefix}.provider_links.{link_key}.verified: cannot be true when top-level {url_field} is empty"
+                    )
+                if not isinstance(link_value, str) or not link_value.strip():
+                    errors.append(
+                        f"{prefix}.provider_links.{link_key}.verified: requires a non-empty provider URL"
+                    )
+                if not provider_link_value(event, link_key, "event_id"):
+                    errors.append(
+                        f"{prefix}.provider_links.{link_key}.verified: requires a provider event_id"
+                    )
+
         provider_links = event.get("provider_links")
         event_last_verified_at = event.get("last_verified_at")
         if event_last_verified_at is not None:
@@ -812,7 +906,9 @@ def main() -> int:
                 if is_placeholder_url(provider_url):
                     errors.append(f"{link_prefix}: placeholder/example URL is not allowed")
 
-                normalized_provider_key = str(provider_key).strip().lower().replace("-", "")
+                normalized_provider_key = str(provider_key).strip().lower()
+                if normalized_provider_key == "vivid-seats":
+                    normalized_provider_key = "vividseats"
                 known_provider = normalized_provider_key in PROVIDER_URL_HOSTS
                 if known_provider and not host_allowed_for_provider(parsed_provider_url.hostname or "", normalized_provider_key):
                     allowed = ", ".join(sorted(PROVIDER_URL_HOSTS[normalized_provider_key]))

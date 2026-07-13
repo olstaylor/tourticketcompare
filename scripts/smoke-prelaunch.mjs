@@ -1100,7 +1100,8 @@ assert(appJs.includes('priceProviders: "approved-marketplaces"'), "comparison hy
 assert(appJs.includes("function hydrateComparisonHubPriceSnapshots()"), "comparison hub should hydrate its exact-event price cards");
 assert(appJs.includes("function hydrateShowBoardPriceSnapshots(shows, cardOptions)"), "artist show boards should hydrate approved provider prices across the site");
 assert(appJs.includes("schedulePriceHydration(visible);"), "artist filters should debounce approved provider price hydration");
-assert(appJs.includes("!approvedSeatGeekPriceLane(pricedShow) && !approvedVividSeatsPriceLane(pricedShow)"), "current-card hydration should accept either an approved SeatGeek lane or an approved Vivid Seats lane");
+assert(appJs.includes("function hasApprovedMarketplacePrice(show)"), "current-card hydration should use the approved marketplace lane gate");
+assert(appJs.includes("!hasApprovedMarketplacePrice(pricedShow)"), "current-card hydration should accept any approved marketplace snapshot lane");
 assert(appJs.includes("showId: String(show.id)") && appJs.includes('priceProviders: "approved-marketplaces"'), "price hydration should request only approved marketplace lanes for exact show IDs");
 const boardPriceFetch = appJs.match(/function fetchApprovedBoardPrices\(artistSlug, limit\) \{[\s\S]*?\n\}/);
 assert(boardPriceFetch, "board price hydration should fetch one memoized bulk payload per board instead of per-card fan-out");
@@ -1573,7 +1574,10 @@ const bulkApprovedJson = await bulkApprovedResponse.json();
 assert(bulkApprovedJson.shows.length > 1, "bulk approved-marketplaces pricing should return the whole artist board");
 for (const show of bulkApprovedJson.shows) {
   const laneProviders = (show.prices || []).map((lane) => lane.provider).sort();
-  assert(JSON.stringify(laneProviders) === JSON.stringify(["SeatGeek", "Vivid Seats"]), "bulk approved-marketplaces lanes must contain only SeatGeek and Vivid Seats (no Ticketmaster fan-out lane)");
+  assert(
+    JSON.stringify(laneProviders) === JSON.stringify(["SeatGeek", "StubHub International", "Ticket Liquidator", "TicketNetwork", "Vivid Seats"]),
+    "bulk approved-marketplaces lanes must contain only cache-backed marketplace lanes (no Ticketmaster fan-out lane)"
+  );
 }
 const bulkPricedShow = bulkApprovedJson.shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
 const bulkSeatGeekLane = bulkPricedShow?.prices.find((lane) => lane.provider === "SeatGeek");
@@ -1671,6 +1675,45 @@ outResponse = await out("/api/out?artistSlug=beyonce&provider=seatgeek");
 assert(outResponse.status === 400, "SeatGeek redirect should fail safely without Impact tracking configured (IMPACT_SEATGEEK_PROGRAM_ID not set)");
 assert((await outResponse.json()).status === "provider_not_configured", "unconfigured artist-level SeatGeek should report provider_not_configured");
 assert(outResponse.headers.get("X-TTC-Out-Version") === EXPECTED_OUT_VERSION, "/api/out error responses should include the temporary production proof header");
+
+const ticketNetworkUrl = "https://www.ticketnetwork.com/performers/morgan-wallen-tickets/events/12345";
+const ticketNetworkEvent = {
+  ...events.find((event) => event.id === verifiedMorganShow.id),
+  id: "smoke-ticketnetwork-event",
+  ticketnetwork_url: ticketNetworkUrl,
+  provider_links: {
+    ...(events.find((event) => event.id === verifiedMorganShow.id)?.provider_links || {}),
+    ticketnetwork: {
+      event_id: "TN-12345",
+      url: ticketNetworkUrl,
+      verified: true,
+      last_verified_at: "2026-07-13",
+      availability_status: "listed"
+    }
+  }
+};
+const ticketNetworkAssets = JSON.stringify([ticketNetworkEvent]);
+const ticketNetworkBaseEnv = envWithEventsJson(ticketNetworkAssets, {
+  IMPACT_TICKETNETWORK_BASE_TRACKING_URL: "https://ticketnetwork.pxf.io/smoke"
+});
+outResponse = await out("/api/out?showId=smoke-ticketnetwork-event&provider=ticketnetwork", "GET", null, ticketNetworkBaseEnv);
+assert(outResponse.status === 400 && (await outResponse.json()).status === "provider_not_configured", "TicketNetwork must stay unavailable while its public flag is false");
+outResponse = await out("/api/out?showId=smoke-ticketnetwork-event&provider=ticketnetwork", "GET", null, {
+  ...ticketNetworkBaseEnv,
+  TICKETNETWORK_PUBLIC_ENABLED: "true"
+});
+assert(outResponse.status === 302, "TicketNetwork should redirect a verified event when its public and Impact tracking gates pass");
+const ticketNetworkLocation = new URL(outResponse.headers.get("location"));
+assert(ticketNetworkLocation.searchParams.get("u") === ticketNetworkUrl, "TicketNetwork tracking should preserve the exact verified event URL");
+const unverifiedTicketNetworkEvent = {
+  ...ticketNetworkEvent,
+  provider_links: { ...ticketNetworkEvent.provider_links, ticketnetwork: { ...ticketNetworkEvent.provider_links.ticketnetwork, verified: false } }
+};
+outResponse = await out("/api/out?showId=smoke-ticketnetwork-event&provider=ticketnetwork", "GET", null, envWithEventsJson(JSON.stringify([unverifiedTicketNetworkEvent]), {
+  IMPACT_TICKETNETWORK_BASE_TRACKING_URL: "https://ticketnetwork.pxf.io/smoke",
+  TICKETNETWORK_PUBLIC_ENABLED: "true"
+}));
+assert(outResponse.status === 400 && (await outResponse.json()).status === "event_link_not_publishable", "TicketNetwork must require provider-specific verified provenance even on an otherwise publishable event");
 // Artist-level SeatGeek performer-page redirects are Impact-wrapped: base
 // tracking mode deep-links the exact verified performer URL, and an Impact
 // failure returns diagnostic JSON rather than an untracked redirect.

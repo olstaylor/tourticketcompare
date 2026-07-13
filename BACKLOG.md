@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-07-13 (TicketNetwork, Ticket Liquidator, and StubHub International implementation added behind manual, default-off Impact activation gates.)
+Last updated: 2026-07-13 (TicketNetwork, Ticket Liquidator, and StubHub International activated from their verified Impact catalogs.)
 
 ## Active priorities (in order)
 
@@ -13,17 +13,15 @@ All remaining active work is **operational** (owner + gated tooling), not engine
 3. **Price snapshot operations (verified 2026-07-13):** both Cloudflare display flags are enabled. The latest inspected Vivid Seats price run fetched and wrote all 208 eligible rows; continue monitoring its scheduled summaries. SeatGeek has both Actions credentials and fetches every eligible event with HTTP 200, but all pricing statistics remain null. Owner action: have SeatGeek enable pricing-stat access for the existing API client, dispatch the SeatGeek workflow in apply mode, and confirm non-zero `usable`/`written` counts plus fresh D1 rows. Artist-level Vivid Seats entries remain separate scope.
 4. When the first SeatGeek-first events publish without Ticketmaster URLs, relax `validate-cta-provider-state.mjs` hard error #3 to "publishable ⇒ ≥1 resolvable provider URL" **in that same PR**.
 
-### 2. Impact provider activation — TicketNetwork, Ticket Liquidator, StubHub International
+### 2. Impact provider operations — TicketNetwork, Ticket Liquidator, StubHub International
 
-The shared engineering path is implemented: Impact Catalogs event ingestion, provider-specific verified provenance, allowlisted `/api/out` redirects, SSR/client CTAs, cache-only D1 price snapshots, health diagnostics, validators, and manual workflows. Owner operations remain before public activation, independently for each provider:
+Public activation completed on 2026-07-13 using the existing SeatGeek-scoped Impact credentials and the verified provider campaigns/catalogs. Continuing operations are:
 
-1. Confirm the exact Impact program/campaign identity and that the Catalogs API returns its catalog. The earlier `/Marketplace/Products` HTTP 403 came from the wrong API surface and is not evidence about Catalogs access.
-2. Confirm written rights for event links, listed-price display, comparison/history use, and the required affiliate disclosure.
-3. Configure the provider-specific `IMPACT_<PROVIDER>_*` secrets and approved base tracking URL, run the manual event-sync workflow in preview, then apply to a review PR and browser-check sample events across markets.
-4. Run the price workflow in dry-run and confirm exact external-ID matches, source/currency/timestamps, and non-zero usable rows before any D1 write.
-5. Only after those checks, set the provider's catalog `public_enabled` state and `*_PUBLIC_ENABLED` flag together; enable `*_PRICE_DISPLAY_ENABLED` separately after price-rights and snapshot proof. Keep all gates false on any ambiguity or provider/API failure.
+1. Run the manual event-sync workflow in preview before apply; review its PR and browser-check new sample destinations across markets.
+2. Monitor the four-hour TicketNetwork and StubHub International exact-ID price snapshot schedule. Ticket Liquidator must stay price-disabled until its catalog supplies numeric `CurrentPrice`.
+3. Monitor catalog/campaign access and tracking. Set the matching public flag explicitly to `false` on a provider/API mismatch or redirect failure.
 
-Scheduled automation and auto-merge remain prohibited until a supervised provider-specific run is reviewed. StubHub International is separate from StubHub US/Canada.
+Provider event-sync scheduling and auto-merge remain off pending a separate operational decision. StubHub International is separate from StubHub US/Canada.
 
 ### 3. Roster growth (2026/27 tours)
 
@@ -62,7 +60,7 @@ Intentionally not work until separately scoped and owner-approved. Unparking rem
 
 - **Tour / city / venue / event landing pages.** No verified data, no canonical/indexing strategy.
 - **Live price aggregation; "cheapest ticket" / "guaranteed availability" claims.** The approved SeatGeek/Vivid implementation is a time-stamped snapshot comparison, not live inventory or a checkout-total guarantee.
-- **Provider expansion beyond SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International.** Adding any further provider still requires a separate verified feed, explicit written usage rights, and scoped integration work. The three new Impact lanes remain inactive until priority 2's provider-specific proof is complete.
+- **Provider expansion beyond SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International.** Adding any further provider still requires a separate verified feed, explicit written usage rights, and scoped integration work.
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
 - **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.
 - **Internal Impact Publisher Tag diagnostic route (`/internal/impact-tag-test`) and `functions/api/debug-seatgeek.js`** — leave intact.

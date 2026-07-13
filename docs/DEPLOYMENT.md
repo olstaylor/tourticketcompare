@@ -132,6 +132,23 @@ Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploy
 
 The SeatGeek and Vivid Seats snapshot workflows run every four hours and write only approved, exact-event observations to `provider_pricing_cache`. Public requests read this D1 cache in one batch; they never fan out to provider APIs.
 
+The separately authorized Ticketmaster/SeatGeek event-page fallback is manual-only in
+`.github/workflows/authorized-page-price-snapshots.yml`. Before its first live run:
+
+1. Apply `migrations/0008_authorized_event_page_pricing.sql` to the same D1 database.
+2. Run the workflow with `apply=false`, `paired_only=true`, `limit=10`; preview performs no provider requests.
+3. Run once with `apply=true` and the same sample. The script paces each domain by four seconds,
+   checks the durable 24-hour ledger by canonical provider event ID before every request, rejects duplicate catalog mappings, stores no HTML, and stops on
+   CAPTCHA, login wall, 403/429 block, unrelated redirect, or missing full-catalog coverage.
+4. Confirm 20 fresh rows (10 events × two providers) with finite positive lowest prices, currency,
+   exact verified `source_url`, current timestamps, and no out-of-catalog event ids.
+5. Do not add a cron until the owner reviews this evidence. Any eventual cadence must remain no
+   more frequent than daily; the D1 ledger is still mandatory because manual and delayed runs overlap.
+
+SeatGeek page retrieval is skipped whenever a fresh usable `seatgeek_partner_api` cache row exists.
+Ticketmaster page rows use `source='ticketmaster_authorized_event_page'`; SeatGeek fallback rows use
+`source='seatgeek_authorized_event_page'`. `/api/shows` never retrieves a provider page.
+
 Required GitHub Actions configuration:
 
 | Setting | Where configured | Verification |

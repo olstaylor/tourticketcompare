@@ -29,9 +29,9 @@ Do not publish content that is not confirmed from a verifiable source:
 - Artist tour announcements
 - Provider coverage or partnership status
 
-### Never scrape
+### Never perform unapproved scraping
 
-Do not obtain data from unofficial sources, competitor sites, screen-scraping, or automated crawls of ticketing platforms.
+Do not obtain data from unofficial sources, competitor sites, or automated crawls of ticketing platforms without explicit written provider approval. The only current direct-page exception is the catalog-scoped Ticketmaster/SeatGeek lowest-price snapshot writer documented in `docs/PROVIDER_DATA_POLICY.md`; it is restricted to the exact approved fields and never stores page content.
 
 ### Never fake
 
@@ -87,8 +87,8 @@ Event-level buttons must additionally have a verified event record (`events.json
 
 ## Price Data
 
-- Ticketmaster should not be used as a public price source unless the Discovery API supplies approved, displayable pricing for the specific event.
-- SeatGeek may supply a provider-attributed snapshot only from the approved SeatGeek partner API when `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, and the snapshot is timestamped and fresh.
+- Ticketmaster may supply a provider-attributed lowest-price snapshot only through the authorized event-page writer, for a verified unauthenticated catalog event URL, when `TICKETMASTER_PRICE_DISPLAY_ENABLED=true` and the exact-source/timestamp/expiry gates pass.
+- SeatGeek may supply a provider-attributed snapshot from the approved SeatGeek partner API or, where equivalent API pricing is unavailable, its authorized event-page writer. `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, verified provider provenance, exact source URL for page-derived rows, approved source and freshness remain mandatory.
 - Vivid Seats may supply a provider-attributed snapshot only from its approved feed when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, the cached row has `source='vividseats_impact_marketplace_api'`, and the snapshot is timestamped and fresh.
 - TicketNetwork and StubHub International may supply provider-attributed listed-price snapshots only from their approved Impact catalogs under the same gate pattern (`TICKETNETWORK_PRICE_DISPLAY_ENABLED` / `STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED`, exact provider-level event verification, approved source, timestamped fresh cache row). Ticket Liquidator price display stays disabled while its catalog supplies no numeric `CurrentPrice` (`TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED` must not be enabled until it does).
 - Written agreements confirmed on 2026-07-10 permit SeatGeek and Vivid Seats snapshots to be displayed side by side for the same verified event, including lower-listed-price and difference calculations plus history.

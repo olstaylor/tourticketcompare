@@ -9,7 +9,7 @@
    - A ticket button renders ONLY for a verified, publicly-enabled destination whose
      provider is also public_enabled. Disabled providers never surface as buttons.
    - No invented dates/venues: every date is read from events-index.json.
-   - Provider comparisons render only from fresh, approved SeatGeek and Vivid Seats snapshots for the same verified event.
+   - Provider prices render only from fresh, approved Ticketmaster and marketplace snapshots for the same verified event.
 */
 (function () {
   "use strict";
@@ -285,7 +285,7 @@
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Find your tour date. <em>Compare ticket options.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["See available SeatGeek and Vivid Seats price snapshots for the same show. Confirm final prices, fees and availability on the provider site."]),
+      h("p", { class: "ttc-hero__sub" }, ["See available Ticketmaster and approved marketplace price snapshots for the same show. Confirm final prices, fees and availability on the provider site."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug }, [artist.name]))])
@@ -318,7 +318,7 @@
   function valueSection() {
     const vp = [
       { ic: "search", t: "Find your show", b: "Search an artist and pick the verified date that matches your plans." },
-      { ic: "check",  t: "Compare snapshots", b: "See available SeatGeek and Vivid Seats price snapshots for the same event." },
+      { ic: "check",  t: "Compare snapshots", b: "See available Ticketmaster and approved marketplace price snapshots for the same event." },
       { ic: "arrow",  t: "Confirm and buy", b: "Open the provider site to confirm the final price, fees, availability and ticket details." },
     ];
     return h("section", { class: "ttc-sec" }, [h("div", { class: "ttc-wrap" }, [

@@ -29,6 +29,7 @@ export async function onRequestGet({ env }) {
       allowMockPrices: env?.ALLOW_MOCK_PRICES === "true",
       clickTrackingEnabled: env?.CLICK_TRACKING_ENABLED === "true",
       seatGeekPriceDisplayEnabled: env?.SEATGEEK_PRICE_DISPLAY_ENABLED === "true",
+      ticketmasterPriceDisplayEnabled: env?.TICKETMASTER_PRICE_DISPLAY_ENABLED === "true",
       vividSeatsPriceDisplayEnabled: env?.VIVIDSEATS_PRICE_DISPLAY_ENABLED === "true",
       ticketNetworkPublicEnabled: ticketNetwork.publicEnabled,
       ticketNetworkPriceDisplayEnabled: ticketNetwork.priceDisplayEnabled,

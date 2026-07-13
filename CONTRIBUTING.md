@@ -61,6 +61,23 @@ npm run impact-providers:prices:self-test     # exact-ID snapshot writer
 node scripts/smoke-prelaunch.mjs
 ```
 
+### Authorized Ticketmaster/SeatGeek page-price lane
+
+```bash
+npm run page-prices:self-test # offline parsers, pacing, stop conditions and runtime cache gates
+npm run page-prices:preview   # catalog scope only; no provider requests or D1 writes
+npm run page-prices:apply     # live retrieval + durable 24-hour ledger + D1 cache/history writes
+```
+
+Live mode is intentionally inseparable from a durable write: every retrieval attempt must be
+recorded to enforce the providers' once-per-event-per-24-hours limit. Apply migration `0008`
+before D1 mode. For a fully local persistent log, add
+`--sqlite .local/authorized-page-prices.sqlite`; the path must remain inside the repository
+and the script initializes the approved schema without Wrangler or Cloudflare. Use
+`.github/workflows/authorized-page-price-snapshots.yml` for the supervised paired
+10-show pass; it is manual-only until the owner reviews that run. Never run the script with
+ad-hoc URLs or modified pacing, and stop on its CAPTCHA/login/block or coverage failure.
+
 ### Combined suite
 
 ```bash
@@ -146,6 +163,7 @@ Batch onboarding (preferred): `npm run artists:onboard:propose` → review the i
 - [ ] Event data validated (`npm run events:validate`) if `events.json` was touched
 - [ ] `npm run events:sync` run if any data files changed
 - [ ] Smoke tests pass (`node scripts/smoke-prelaunch.mjs`)
+- [ ] `npm run page-prices:self-test` passes if provider pricing, cache gates, workflows, or policy changed
 - [ ] `git diff --check` clean
 - [ ] No invented data, placeholder CTAs, or dev wording in any public-facing file
 - [ ] Protected files unchanged unless this PR's explicit scope

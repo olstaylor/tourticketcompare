@@ -1,0 +1,100 @@
+name: Impact marketplace price snapshots
+
+# Manual-only until provider-specific Impact catalog access and sample price
+# provenance have been verified. Reads exact provider event IDs already stored
+# by the event sync and writes only unambiguous, timestamped D1 snapshots.
+
+on:
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: Provider to snapshot
+        type: choice
+        options: [ticketnetwork, ticket-liquidator, stubhub-international]
+        required: true
+      apply:
+        description: Write to remote D1 (false is a read-only dry run)
+        type: boolean
+        default: false
+      limit:
+        description: Optional maximum eligible events
+        type: string
+        required: false
+        default: ''
+      event_id:
+        description: Optional single local event ID
+        type: string
+        required: false
+        default: ''
+      database:
+        description: D1 database name
+        type: string
+        default: tourticketcompare-demand
+
+permissions:
+  contents: read
+
+concurrency:
+  group: impact-marketplace-price-snapshots-${{ github.event.inputs.provider }}
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PROVIDER: ${{ github.event.inputs.provider }}
+      APPLY: ${{ github.event.inputs.apply }}
+      LIMIT: ${{ github.event.inputs.limit }}
+      EVENT_ID: ${{ github.event.inputs.event_id }}
+      DATABASE: ${{ github.event.inputs.database }}
+      IMPACT_TICKETNETWORK_ACCOUNT_SID: ${{ secrets.IMPACT_TICKETNETWORK_ACCOUNT_SID }}
+      IMPACT_TICKETNETWORK_AUTH_TOKEN: ${{ secrets.IMPACT_TICKETNETWORK_AUTH_TOKEN }}
+      IMPACT_TICKETNETWORK_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETNETWORK_CAMPAIGN_ID }}
+      IMPACT_TICKETNETWORK_PROGRAM_ID: ${{ secrets.IMPACT_TICKETNETWORK_PROGRAM_ID }}
+      IMPACT_TICKETLIQUIDATOR_ACCOUNT_SID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_ACCOUNT_SID }}
+      IMPACT_TICKETLIQUIDATOR_AUTH_TOKEN: ${{ secrets.IMPACT_TICKETLIQUIDATOR_AUTH_TOKEN }}
+      IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID }}
+      IMPACT_TICKETLIQUIDATOR_PROGRAM_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_PROGRAM_ID }}
+      IMPACT_STUBHUB_INTERNATIONAL_ACCOUNT_SID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_ACCOUNT_SID }}
+      IMPACT_STUBHUB_INTERNATIONAL_AUTH_TOKEN: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_AUTH_TOKEN }}
+      IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID }}
+      IMPACT_STUBHUB_INTERNATIONAL_PROGRAM_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_PROGRAM_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run impact-providers:prices:self-test
+
+      - name: Snapshot exact verified event prices
+        run: |
+          set -euo pipefail
+          args=(--provider "$PROVIDER" --database "$DATABASE" --json)
+          if [ -n "$LIMIT" ]; then args+=(--limit "$LIMIT"); fi
+          if [ -n "$EVENT_ID" ]; then args+=(--event-id "$EVENT_ID"); fi
+          if [ "$APPLY" = "true" ]; then args+=(--apply); fi
+          node scripts/snapshot-impact-marketplace-prices.mjs "${args[@]}" | tee "$RUNNER_TEMP/impact-price-summary.json"
+
+      - name: Publish run summary
+        if: always()
+        run: |
+          node --input-type=module - "$RUNNER_TEMP/impact-price-summary.json" <<'NODE'
+          import fs from "node:fs";
+          const file = process.argv[2];
+          if (!fs.existsSync(file)) process.exit(0);
+          const s = JSON.parse(fs.readFileSync(file, "utf8"));
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## ${s.provider} price snapshots\n\n| Eligible | Fetched | Usable | Written | Failed |\n| ---: | ---: | ---: | ---: | ---: |\n| ${s.eligible} | ${s.fetched} | ${s.usable} | ${s.written} | ${s.failed} |\n\nZero-row reason: ${s.zero_row_reason || "—"}\n`);
+          NODE
+
+      - name: Confirm source data and redirects were not changed
+        if: always()
+        run: |
+          git diff --exit-code -- public/data/events.json
+          git diff --exit-code -- functions/api/out.js
+

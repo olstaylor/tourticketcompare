@@ -786,50 +786,131 @@
       }
     },
     {
-      "slug": "stubhub",
-      "name": "StubHub",
+      "slug": "ticketnetwork",
+      "name": "TicketNetwork",
       "provider_type": "marketplace",
       "public_enabled": false,
       "requires_verified_destination": true,
-      "credential_type": "oauth",
+      "credential_type": "impact",
       "credential_fields": [
-        "STUBHUB_CLIENT_ID",
-        "STUBHUB_CLIENT_SECRET"
+        "IMPACT_TICKETNETWORK_ACCOUNT_SID",
+        "IMPACT_TICKETNETWORK_AUTH_TOKEN",
+        "IMPACT_TICKETNETWORK_CAMPAIGN_ID",
+        "IMPACT_TICKETNETWORK_BASE_TRACKING_URL",
+        "TICKETNETWORK_PUBLIC_ENABLED",
+        "TICKETNETWORK_PRICE_DISPLAY_ENABLED"
       ],
-      "geographic_coverage": [
-        "US",
-        "CA",
-        "UK",
-        "AU",
-        "DE",
-        "FR"
-      ],
+      "geographic_coverage": [],
       "allowed_destination_hosts": [
-        "stubhub.com"
+        "ticketnetwork.com"
       ],
       "trusted_affiliate_hosts": [],
       "api_config": {
-        "type": "rest",
-        "base_url": "https://api.stubhub.com/",
-        "rate_limit_per_second": 3,
+        "type": "impact_marketplace_products",
+        "base_url": "https://api.impact.com/",
+        "rate_limit_per_second": 1,
         "supports_event_search": true,
         "supports_inventory_fetch": true,
         "supports_pricing": true,
-        "pricing_type": "live_fetch"
+        "pricing_type": "verified_catalog_snapshot"
+      },
+      "features": {
+        "primary_ticket_sales": false,
+        "resale_platform": true,
+        "international_coverage": false,
+        "real_time_inventory": false,
+        "price_aggregation": true
+      },
+      "affiliate_disclosure": "This link directs to TicketNetwork and may be an affiliate link.",
+      "terms_accepted_at": null,
+      "activation_note": "Runtime and Impact catalog ingestion are implemented fail-closed. Keep public flags false until the approved Impact program ID, catalog access, tracking route, and sample event matches have been verified."
+    },
+    {
+      "slug": "ticket-liquidator",
+      "name": "Ticket Liquidator",
+      "provider_type": "marketplace",
+      "public_enabled": false,
+      "requires_verified_destination": true,
+      "credential_type": "impact",
+      "credential_fields": [
+        "IMPACT_TICKETLIQUIDATOR_ACCOUNT_SID",
+        "IMPACT_TICKETLIQUIDATOR_AUTH_TOKEN",
+        "IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID",
+        "IMPACT_TICKETLIQUIDATOR_BASE_TRACKING_URL",
+        "TICKETLIQUIDATOR_PUBLIC_ENABLED",
+        "TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED"
+      ],
+      "geographic_coverage": [],
+      "allowed_destination_hosts": [
+        "ticketliquidator.com"
+      ],
+      "trusted_affiliate_hosts": [],
+      "api_config": {
+        "type": "impact_marketplace_products",
+        "base_url": "https://api.impact.com/",
+        "rate_limit_per_second": 1,
+        "supports_event_search": true,
+        "supports_inventory_fetch": true,
+        "supports_pricing": true,
+        "pricing_type": "verified_catalog_snapshot"
+      },
+      "features": {
+        "primary_ticket_sales": false,
+        "resale_platform": true,
+        "international_coverage": false,
+        "real_time_inventory": false,
+        "price_aggregation": true
+      },
+      "affiliate_disclosure": "This link directs to Ticket Liquidator and may be an affiliate link.",
+      "terms_accepted_at": null,
+      "activation_note": "Runtime and Impact catalog ingestion are implemented fail-closed. Keep public flags false until the approved Impact program ID, catalog access, tracking route, and sample event matches have been verified."
+    },
+    {
+      "slug": "stubhub-international",
+      "name": "StubHub International",
+      "provider_type": "marketplace",
+      "public_enabled": false,
+      "requires_verified_destination": true,
+      "credential_type": "impact",
+      "credential_fields": [
+        "IMPACT_STUBHUB_INTERNATIONAL_ACCOUNT_SID",
+        "IMPACT_STUBHUB_INTERNATIONAL_AUTH_TOKEN",
+        "IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID",
+        "IMPACT_STUBHUB_INTERNATIONAL_BASE_TRACKING_URL",
+        "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED",
+        "STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED"
+      ],
+      "geographic_coverage": [
+        "UK", "IE", "DE", "FR", "ES", "IT", "PT", "PL", "SE", "DK",
+        "FI", "GR", "NL", "LU", "CZ", "BE", "AT"
+      ],
+      "allowed_destination_hosts": [
+        "stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr",
+        "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl",
+        "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr",
+        "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be",
+        "stubhub.co.at"
+      ],
+      "trusted_affiliate_hosts": [],
+      "api_config": {
+        "type": "impact_marketplace_products",
+        "base_url": "https://api.impact.com/",
+        "rate_limit_per_second": 1,
+        "supports_event_search": true,
+        "supports_inventory_fetch": true,
+        "supports_pricing": true,
+        "pricing_type": "verified_catalog_snapshot"
       },
       "features": {
         "primary_ticket_sales": false,
         "resale_platform": true,
         "international_coverage": true,
-        "real_time_inventory": true,
+        "real_time_inventory": false,
         "price_aggregation": true
       },
-      "affiliate_disclosure": "This link directs to StubHub.",
+      "affiliate_disclosure": "This link directs to StubHub International and may be an affiliate link.",
       "terms_accepted_at": null,
-      "contact": {
-        "api_email": "api-support@stubhub.com",
-        "business_email": "partnerships@stubhub.com"
-      }
+      "activation_note": "This is StubHub International, not the separate US/Canada StubHub business. Runtime and Impact catalog ingestion are implemented fail-closed; keep public flags false until the approved Impact program ID, catalog access, tracking route, and sample event matches have been verified."
     }
   ],
   "ticket_links": [

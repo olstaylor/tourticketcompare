@@ -459,14 +459,23 @@ function renderBreadcrumbHtml(route) {
     .join("")}</ol></nav>`;
 }
 
-function artistHasVerifiedEventLinks(events, artistSlug) {
-  return futureShowsForArtist(events, artistSlug, 6).some(
-    (show) => show.id && show.publishable && safeShowTicketUrl(show.ticketmaster_url)
-  );
+function artistHasVerifiedEventLinks(catalog, events, artistSlug) {
+  return futureShowsForArtist(events, artistSlug, 6).some((show) => Boolean(
+    show.id && (
+      (show.publishable && safeShowTicketUrl(show.ticketmaster_url)) ||
+      (show.seatgeekPublishable && safeSeatGeekTicketUrl(show.seatgeek_url)) ||
+      (show.vividseatsPublishable && safeVividSeatsTicketUrl(show.vividseats_url)) ||
+      IMPACT_MARKETPLACE_PROVIDERS.some((provider) =>
+        (catalog?.providers || []).some((entry) => entry?.slug === provider.slug && entry?.public_enabled === true) &&
+        show.impactMarketplacePublishable?.[provider.slug] &&
+        safeImpactMarketplaceTicketUrl(show?.[provider.urlField], provider)
+      )
+    )
+  ));
 }
 
 function artistCardStatus(catalog, artist, events) {
-  if (artistHasVerifiedEventLinks(events, artist.slug)) {
+  if (artistHasVerifiedEventLinks(catalog, events, artist.slug)) {
     return {
       pending: false,
       badgeClass: "status-badge",
@@ -648,10 +657,14 @@ function publishableFutureShows(events, limit = 500) {
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
       seatgeek_url: String(ev.seatgeek_url || "").trim(),
       vividseats_url: String(ev.vividseats_url || "").trim(),
+      ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),
+      ticketliquidator_url: String(ev.ticketliquidator_url || "").trim(),
+      stubhub_international_url: String(ev.stubhub_international_url || "").trim(),
       publishable: Boolean(
         (eventLinkPublishable(ev) && safeShowTicketUrl(ev.ticketmaster_url)) ||
         (providerEventPublishable(ev, "seatgeek") && safeSeatGeekTicketUrl(ev.seatgeek_url)) ||
-        (providerEventPublishable(ev, "vivid-seats") && safeVividSeatsTicketUrl(ev.vividseats_url))
+        (providerEventPublishable(ev, "vivid-seats") && safeVividSeatsTicketUrl(ev.vividseats_url)) ||
+        IMPACT_MARKETPLACE_PROVIDERS.some((provider) => providerEventPublishable(ev, provider.slug) && safeImpactMarketplaceTicketUrl(ev?.[provider.urlField], provider))
       )
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
@@ -889,11 +902,17 @@ function providerVerificationNote(item) {
   return date ? `Provider link last checked: ${date}.` : "";
 }
 
-// Affiliate providers (SeatGeek, Vivid Seats) render before the plain,
+const IMPACT_MARKETPLACE_PROVIDERS = [
+  { slug: "ticketnetwork", name: "TicketNetwork", envPrefix: "IMPACT_TICKETNETWORK", urlField: "ticketnetwork_url", allowedHosts: ["ticketnetwork.com"], priceSource: "ticketnetwork_impact_marketplace_api", publicFlag: "TICKETNETWORK_PUBLIC_ENABLED" },
+  { slug: "ticket-liquidator", name: "Ticket Liquidator", envPrefix: "IMPACT_TICKETLIQUIDATOR", urlField: "ticketliquidator_url", allowedHosts: ["ticketliquidator.com"], priceSource: "ticketliquidator_impact_marketplace_api", publicFlag: "TICKETLIQUIDATOR_PUBLIC_ENABLED" },
+  { slug: "stubhub-international", name: "StubHub International", envPrefix: "IMPACT_STUBHUB_INTERNATIONAL", urlField: "stubhub_international_url", allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"], priceSource: "stubhub_international_impact_marketplace_api", publicFlag: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED" }
+];
+
+// Affiliate providers render before the plain,
 // unmonetized Ticketmaster link. Keep in sync with PROVIDER_DISPLAY_ORDER in
 // public/app.js.
-const PROVIDER_DISPLAY_ORDER = ["seatgeek", "vivid-seats", "ticketmaster"];
-const PROVIDER_DISPLAY_NAMES = { ticketmaster: "Ticketmaster", seatgeek: "SeatGeek", "vivid-seats": "Vivid Seats" };
+const PROVIDER_DISPLAY_ORDER = ["seatgeek", "vivid-seats", ...IMPACT_MARKETPLACE_PROVIDERS.map((provider) => provider.slug), "ticketmaster"];
+const PROVIDER_DISPLAY_NAMES = { ticketmaster: "Ticketmaster", seatgeek: "SeatGeek", "vivid-seats": "Vivid Seats", ...Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, provider.name])) };
 
 function providerDisplayRank(providerSlug) {
   const rank = PROVIDER_DISPLAY_ORDER.indexOf(providerSlug);
@@ -909,6 +928,7 @@ function availableArtistProviderLinks(catalog, artist, providerAvailability = {}
       const provider = slugify(item.provider);
       if (provider === "seatgeek") return providerAvailability.seatgeek === true;
       if (provider === "vivid-seats") return providerAvailability["vivid-seats"] === true;
+      if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) return providerAvailability[provider] === true;
       return true;
     })
     .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)));
@@ -979,13 +999,19 @@ function futureShowsForArtist(events, artistSlug, limit) {
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
       seatgeek_url: String(ev.seatgeek_url || "").trim(),
       vividseats_url: String(ev.vividseats_url || "").trim(),
+      ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),
+      ticketliquidator_url: String(ev.ticketliquidator_url || "").trim(),
+      stubhub_international_url: String(ev.stubhub_international_url || "").trim(),
       last_verified_at: String(ev.last_verified_at || "").trim(),
       verification_status: String(ev.verification_status || "").trim(),
       provider_links: ev.provider_links && typeof ev.provider_links === "object" ? ev.provider_links : {},
       prices: Array.isArray(ev.prices) ? ev.prices : [],
       publishable: eventLinkPublishable(ev),
       seatgeekPublishable: providerEventPublishable(ev, "seatgeek"),
-      vividseatsPublishable: providerEventPublishable(ev, "vivid-seats")
+      vividseatsPublishable: providerEventPublishable(ev, "vivid-seats"),
+      impactMarketplacePublishable: Object.fromEntries(
+        IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, providerEventPublishable(ev, provider.slug)])
+      )
     }))
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
@@ -1054,8 +1080,10 @@ function eventLinkPublishable(event) {
 // sync with providerEventPublishable in functions/api/out.js and
 // public/app.js.
 function providerEventPublishable(event, provider) {
-  if (provider === "seatgeek" && event?.provider_links?.seatgeek?.verified === true) return true;
-  if (provider === "vivid-seats" && event?.provider_links?.["vivid-seats"]?.verified === true) return true;
+  if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) {
+    return event?.provider_links?.[provider]?.verified === true;
+  }
+  if (provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true) return true;
   return eventLinkPublishable(event);
 }
 
@@ -1144,14 +1172,37 @@ function isVividSeatsConfigured(env = {}) {
   return Boolean(impactVividSeatsBaseTrackingUrl || (impactVividSeatsAccountSid && impactVividSeatsAuthToken && impactVividSeatsProgramId));
 }
 
+function safeImpactMarketplaceTicketUrl(value, provider) {
+  const safeUrl = safeShowTicketUrl(value);
+  if (!safeUrl || !provider) return null;
+  try {
+    const parsed = new URL(safeUrl);
+    if (parsed.protocol !== "https:") return null;
+    const host = parsed.hostname.toLowerCase();
+    if (!provider.allowedHosts.some((allowed) => host === allowed || host.endsWith(`.${allowed}`))) return null;
+    const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+    if (!path || path === "/" || /^\/(search|home|about|help|support|faq|contact|terms|privacy)(?:\/|$)/i.test(path)) return null;
+    return safeUrl;
+  } catch { return null; }
+}
+
+function isImpactMarketplaceConfigured(env = {}, provider) {
+  if (!provider || String(env?.[provider.publicFlag] || "").toLowerCase() !== "true") return false;
+  const base = clean(env?.[`${provider.envPrefix}_BASE_TRACKING_URL`], 2048);
+  const sid = clean(env?.[`${provider.envPrefix}_ACCOUNT_SID`] || env?.IMPACT_ACCOUNT_SID, 255);
+  const token = clean(env?.[`${provider.envPrefix}_AUTH_TOKEN`] || env?.IMPACT_AUTH_TOKEN, 255);
+  const program = clean(env?.[`${provider.envPrefix}_CAMPAIGN_ID`] || env?.[`${provider.envPrefix}_PROGRAM_ID`], 120);
+  return Boolean(base || (sid && token && program));
+}
+
 function approvedServerPriceLane(show, provider) {
-  const isSeatGeek = provider === "SeatGeek";
-  const providerVerified = isSeatGeek
-    ? show?.provider_links?.seatgeek?.verified === true
-    : show?.provider_links?.["vivid-seats"]?.verified === true;
+  const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((item) => item.name === provider);
+  const providerSlug = provider === "SeatGeek" ? "seatgeek" : provider === "Vivid Seats" ? "vivid-seats" : marketplace?.slug;
+  const providerVerified = Boolean(providerSlug && show?.provider_links?.[providerSlug]?.verified === true);
   if (!providerVerified) return null;
 
-  const approvedSource = isSeatGeek ? "seatgeek_partner_api" : "vividseats_impact_marketplace_api";
+  const approvedSource = provider === "SeatGeek" ? "seatgeek_partner_api" : provider === "Vivid Seats" ? "vividseats_impact_marketplace_api" : marketplace?.priceSource;
+  if (!approvedSource) return null;
   const lane = (Array.isArray(show?.prices) ? show.prices : []).find((item) => item?.provider === provider);
   if (!lane || lane.status !== "ok" || lane.providerStatus !== "ok" || lane.source !== approvedSource) return null;
   const price = Number(lane.price);
@@ -1230,7 +1281,19 @@ function renderServerPriceSnapshot(show, seatGeekAvailable, vividSeatsAvailable)
   return `<div class="price-snapshot-row ${seatGeek ? "seatgeek-price-snapshot" : "vividseats-price-snapshot"}">${renderServerPriceChip(provider, amount)}<p class="disclosure-note">${escapeHtml(provider)} price snapshot as of ${escapeHtml(asOf)} — excludes fees.</p></div>`;
 }
 
-function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "") {
+function renderAdditionalServerPriceSnapshots(show, availability = {}) {
+  return IMPACT_MARKETPLACE_PROVIDERS.map((provider) => {
+    if (!availability[provider.slug] || !safeImpactMarketplaceTicketUrl(show?.[provider.urlField], provider)) return "";
+    const lane = approvedServerPriceLane(show, provider.name);
+    if (!lane) return "";
+    const amount = formatServerPrice(lane.price, lane.currency);
+    const asOf = formatServerSnapshotTime(lane.fetchedAt);
+    if (!amount || !asOf) return "";
+    return `<div class="price-snapshot-row">${renderServerPriceChip(provider.name, amount)}<p class="disclosure-note">${escapeHtml(provider.name)} price snapshot as of ${escapeHtml(asOf)} — excludes fees.</p></div>`;
+  }).join("");
+}
+
+function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const anchorId = showAnchorId(show);
@@ -1250,6 +1313,12 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     const ctas = [];
     if (sgAvailable) ctas.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
     if (vsAvailable) ctas.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+    for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
+      const publishable = show?.impactMarketplacePublishable?.[provider.slug] ?? providerEventPublishable(show, provider.slug);
+      if (marketplaceAvailability[provider.slug] && publishable && safeImpactMarketplaceTicketUrl(show?.[provider.urlField], provider)) {
+        ctas.push({ provider: provider.slug, primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
+      }
+    }
     if (tmAvailable) ctas.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
     if (ctas.length > 1) {
       const buttons = ctas
@@ -1264,7 +1333,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     }
   }
 
-  const priceHtml = isIndexableArtist ? renderServerPriceSnapshot(show, seatGeekOutAvailable(show, seatGeekAvailable), vividSeatsOutAvailable(show, vividSeatsAvailable)) : "";
+  const priceHtml = isIndexableArtist ? `${renderServerPriceSnapshot(show, seatGeekOutAvailable(show, seatGeekAvailable), vividSeatsOutAvailable(show, vividSeatsAvailable))}${renderAdditionalServerPriceSnapshots(show, marketplaceAvailability)}` : "";
   const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
   const copyLinkHtml = anchorId
     ? `<a class="text-link copy-show-link" href="#${escapeAttr(anchorId)}" data-copy-show-link="${escapeAttr(anchorId)}">Copy link to this date</a>`
@@ -1304,9 +1373,9 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null) {
   )}</div></div>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null) {
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}) {
   const gridContent = shows.length
-    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName)).join("")
+    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability)).join("")
     : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta);
   const filterIntro = shows.length > 1
     ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Filter by city, venue, or tour to jump to your date.</p></div>`
@@ -1349,6 +1418,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const artist = route.artist;
     const seatGeekAvailable = isSeatGeekConfigured(env);
     const vividSeatsAvailable = isVividSeatsConfigured(env);
+    const marketplaceAvailability = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]));
     const relatedGuideSlugs = artist.related_guides || [];
     const relatedGuideLinks = relatedGuideSlugs
       .slice(0, 4)
@@ -1378,7 +1448,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const artistFaqHtml = artistFaqEntries(artist)
       .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
       .join("");
-    const providerAvailability = { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable };
+    const providerAvailability = { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable, ...marketplaceAvailability };
     const primaryProviderLink = availableArtistProviderLinks(catalog, artist, providerAvailability)[0] || null;
     const emptyStateProviderCta = primaryProviderLink
       ? {
@@ -1397,17 +1467,17 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )} tickets and tour dates</h1><p class="lead">Find upcoming ${escapeHtml(
       artist.name
-    )} shows, pick a date, and compare available ticket options.</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
+    )} shows, pick a date, and compare available ticket options.</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, null, marketplaceAvailability)}${renderProviderFallback(
       catalog,
       artist,
       "artist_page",
-      { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable }
+      providerAvailability
     )}${renderVerificationDisclosure(artist, shows)}` : `${renderProviderFallback(
       catalog,
       artist,
       "artist_page",
-      { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable }
-    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, emptyStateProviderCta)}${renderVerificationDisclosure(artist, shows)}`}<section class="split-section"><div><h2>About ${escapeHtml(
+      providerAvailability
+    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, emptyStateProviderCta, marketplaceAvailability)}${renderVerificationDisclosure(artist, shows)}`}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes

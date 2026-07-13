@@ -57,6 +57,18 @@ const REPO_ROOT = path.resolve(__dirname, "..");
 const EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
 const REGISTRY_PATH = path.join(REPO_ROOT, "data", "provider-identities.json");
 const OUT_JS_PATH = path.join(REPO_ROOT, "functions", "api", "out.js");
+const IMPACT_MARKETPLACE_PROVIDERS = [
+  { slug: "ticketnetwork", name: "TicketNetwork", urlField: "ticketnetwork_url", allowedHosts: ["ticketnetwork.com"] },
+  { slug: "ticket-liquidator", name: "Ticket Liquidator", urlField: "ticketliquidator_url", allowedHosts: ["ticketliquidator.com"] },
+  {
+    slug: "stubhub-international", name: "StubHub International", urlField: "stubhub_international_url",
+    allowedHosts: [
+      "stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it",
+      "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr",
+      "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at",
+    ],
+  },
+];
 
 // ─── Pure helpers (covered by --self-test) ──────────────────────────────────
 
@@ -167,6 +179,40 @@ function vividseatsVerifiedIssue(event) {
   return "";
 }
 
+function impactMarketplaceUrlShapeIssue(url, provider) {
+  if (!url) return `no ${provider.urlField}`;
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return `${provider.urlField} is not a valid URL`;
+  }
+  if (parsed.protocol !== "https:") return `${provider.urlField} is not https`;
+  if (!hostAllowed(parsed.hostname, provider.allowedHosts)) {
+    return `${provider.urlField} host '${parsed.hostname}' is not allowlisted for ${provider.name}`;
+  }
+  const path = decodeURIComponent(parsed.pathname || "/").replace(/\/+$/, "");
+  if (!path || path === "/") return `${provider.urlField} is the provider homepage`;
+  if (/^\/(search|home|about|help|support|faq|contact|terms|privacy)(?:\/|$)/i.test(path)) {
+    return `${provider.urlField} is a generic/support URL`;
+  }
+  return "";
+}
+
+function impactMarketplaceVerifiedIssue(event, provider) {
+  const link = event?.provider_links?.[provider.slug];
+  if (link?.verified !== true) return "";
+  const topUrl = clean(event?.[provider.urlField]);
+  const shapeIssue = impactMarketplaceUrlShapeIssue(topUrl, provider);
+  if (shapeIssue) return shapeIssue;
+  if (clean(link.url) !== topUrl) return `provider_links.${provider.slug}.url does not match top-level ${provider.urlField}`;
+  if (!clean(link.event_id)) return `provider_links.${provider.slug}.event_id is empty`;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(clean(link.last_verified_at))) {
+    return `provider_links.${provider.slug}.last_verified_at is not an ISO date`;
+  }
+  return "";
+}
+
 // The full machine_high_confidence contract (mirrors classifyCandidateLink in
 // scripts/apply-artists.mjs). Returns "" when ok, else a reason.
 function machineHighConfidenceIssue(event, allowedHosts) {
@@ -251,6 +297,7 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
   let seatgeekSuppressed = 0;
   let seatgeekStandalone = 0;
   let vividseatsStandalone = 0;
+  const impactMarketplaceStandalone = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, 0]));
   for (const event of events) {
     const status = clean(event?.verification_status) || "(absent)";
     statusCounts[status] = (statusCounts[status] || 0) + 1;
@@ -287,6 +334,15 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
     if (vividseatsVerified && !vsIssue) {
       vividseatsStandalone += 1;
     }
+    for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
+      const isVerified = event?.provider_links?.[provider.slug]?.verified === true;
+      const issue = impactMarketplaceVerifiedIssue(event, provider);
+      if (issue) {
+        errors.push(`event "${clean(event?.id)}" has verified ${provider.name} provenance but its CTA will not redirect: ${issue}`);
+      } else if (isVerified) {
+        impactMarketplaceStandalone[provider.slug] += 1;
+      }
+    }
   }
   if (seatgeekStandalone > 0) {
     info.push(`${seatgeekStandalone} event(s) publish a standalone SeatGeek CTA on verified provenance (provider_links.seatgeek.verified) while the Ticketmaster link stays suppressed.`);
@@ -296,6 +352,10 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
   }
   if (vividseatsStandalone > 0) {
     info.push(`${vividseatsStandalone} event(s) publish a standalone Vivid Seats CTA on verified provenance (provider_links.vivid-seats.verified).`);
+  }
+  for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
+    const count = impactMarketplaceStandalone[provider.slug];
+    if (count > 0) info.push(`${count} event(s) publish a standalone ${provider.name} CTA on verified Impact catalog provenance.`);
   }
 
   return { errors, info, stats: { events: events.length, publishable, statusCounts, artistCtas: verifiedKeys.filter((k) => k.provider === "ticketmaster").length } };
@@ -367,6 +427,16 @@ function selfTest() {
   assert("verified vividseats with mismatched provider url fails", vividseatsVerifiedIssue({ ...vsVerifiedEvent, provider_links: { "vivid-seats": { ...vsVerifiedEvent.provider_links["vivid-seats"], url: "https://vividseats.com/other/production/999" } } }) !== "");
   assert("verified vividseats without dated provenance fails", vividseatsVerifiedIssue({ ...vsVerifiedEvent, provider_links: { "vivid-seats": { ...vsVerifiedEvent.provider_links["vivid-seats"], last_verified_at: null } } }) !== "");
 
+  const tnProvider = IMPACT_MARKETPLACE_PROVIDERS[0];
+  const tnUrl = "https://www.ticketnetwork.com/performers/raye-tickets/events/12345";
+  const tnVerifiedEvent = {
+    id: "e-tn-verified", ticketnetwork_url: tnUrl,
+    provider_links: { ticketnetwork: { event_id: "TN-12345", url: tnUrl, verified: true, last_verified_at: "2026-07-13" } },
+  };
+  assert("clean verified TicketNetwork provenance passes", impactMarketplaceVerifiedIssue(tnVerifiedEvent, tnProvider) === "");
+  assert("verified TicketNetwork homepage fails", impactMarketplaceVerifiedIssue({ ...tnVerifiedEvent, ticketnetwork_url: "https://www.ticketnetwork.com/", provider_links: { ticketnetwork: { ...tnVerifiedEvent.provider_links.ticketnetwork, url: "https://www.ticketnetwork.com/" } } }, tnProvider) !== "");
+  assert("verified TicketNetwork missing event id fails", impactMarketplaceVerifiedIssue({ ...tnVerifiedEvent, provider_links: { ticketnetwork: { ...tnVerifiedEvent.provider_links.ticketnetwork, event_id: "" } } }, tnProvider) !== "");
+
   const registryBySlug = new Map([
     ["raye", { slug: "raye", review_status: "verified", ticketmaster_attraction_id: "K1" }],
     ["beyonce", { slug: "beyonce", review_status: "unverified", ticketmaster_attraction_id: "" }],
@@ -390,6 +460,8 @@ function selfTest() {
       { ...sgVerifiedEvent, id: "e-sg-broken", seatgeek_url: "", provider_links: { seatgeek: { ...sgVerifiedEvent.provider_links.seatgeek, url: "" } } }, // verified provenance that cannot redirect
       { ...vsVerifiedEvent, id: "e-vs-ok" }, // standalone Vivid Seats CTA, info only
       { ...vsVerifiedEvent, id: "e-vs-broken", vividseats_url: "", provider_links: { "vivid-seats": { ...vsVerifiedEvent.provider_links["vivid-seats"], url: "" } } }, // verified provenance that cannot redirect
+      { ...tnVerifiedEvent, id: "e-tn-ok" }, // standalone TicketNetwork CTA, info only
+      { ...tnVerifiedEvent, id: "e-tn-broken", ticketnetwork_url: "", provider_links: { ticketnetwork: { ...tnVerifiedEvent.provider_links.ticketnetwork, url: "" } } },
     ],
     registryBySlug,
     verifiedKeys: [
@@ -410,6 +482,8 @@ function selfTest() {
   assert("broken verified seatgeek provenance flagged", dirtyEval.errors.some((e) => e.includes("e-sg-broken") && e.includes("SeatGeek provenance")));
   assert("standalone verified vividseats is info not error", dirtyEval.info.some((i) => i.includes("standalone Vivid Seats CTA")) && !dirtyEval.errors.some((e) => e.includes("e-vs-ok")));
   assert("broken verified vividseats provenance flagged", dirtyEval.errors.some((e) => e.includes("e-vs-broken") && e.includes("Vivid Seats provenance")));
+  assert("standalone verified TicketNetwork is info not error", dirtyEval.info.some((i) => i.includes("TicketNetwork CTA")) && !dirtyEval.errors.some((e) => e.includes("e-tn-ok")));
+  assert("broken verified TicketNetwork provenance flagged", dirtyEval.errors.some((e) => e.includes("e-tn-broken") && e.includes("TicketNetwork provenance")));
 
   let failed = 0;
   for (const c of checks) {

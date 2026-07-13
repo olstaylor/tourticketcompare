@@ -28,7 +28,7 @@ const expectedTitle = new Map([
   ["/editorial-policy", "Editorial Policy | TourTicketCompare"],
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
-const homepageDescription = "Find your tour date, compare available SeatGeek and Vivid Seats price snapshots, then confirm final prices, fees, and availability on the provider site.";
+const homepageDescription = "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -454,6 +454,35 @@ assert(
   joinedPublic.includes("Find your tour date. Compare ticket options."),
   "homepage public-facing copy should be present"
 );
+const clientApp = await read("public/app.js");
+const clientIndexHtml = await read("public/index.html");
+const expectedClientMetadata = [
+  "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
+  homepageDescription,
+  "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats",
+  "Compare timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider.",
+  "How to Compare Concert Ticket Prices | TourTicketCompare",
+  "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare"
+];
+for (const value of expectedClientMetadata) {
+  assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
+}
+assert(
+  clientIndexHtml.includes("<title>Compare Concert Ticket Prices &amp; Find Tour Dates | TourTicketCompare</title>"),
+  "public/index.html fallback title should match the homepage metadata source of truth"
+);
+assert(
+  clientIndexHtml.includes(`content="${homepageDescription}"`),
+  "public/index.html fallback description should match the homepage metadata source of truth"
+);
+for (const staleTitle of [
+  "Find Tour Dates and Compare Ticket Prices | TourTicketCompare",
+  "Compare Concert Ticket Prices Across Trusted Sites | Tour Ticket Compare",
+  "How to Compare Concert Ticket Prices Safely | TourTicketCompare",
+  "Why Ticket Prices Vary Between Sites | TourTicketCompare"
+]) {
+  assert(!clientApp.includes(staleTitle), `public/app.js should not restore stale title "${staleTitle}" after hydration`);
+}
 await assertPublicCopySafe(publicCopyFiles);
 await assertPublicCopyRegressionGuardrails(publicCopyRegressionFiles);
 await assertGuideCopyGuardrails(guideCopyFiles);

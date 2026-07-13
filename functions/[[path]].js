@@ -557,7 +557,8 @@ const GUIDE_CLUSTERS = [
       "/guides/how-to-avoid-overpaying-for-concert-tickets",
       "/guides/concert-ticket-fees-explained",
       "/guides/why-ticket-prices-change",
-      "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats"
+      "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
+      "/guides/seatgeek-vs-ticketmaster"
     ]
   },
   {

@@ -25,10 +25,9 @@ npx wrangler d1 execute tourticketcompare-demand --remote --file migrations/0008
 
 ## Vivid dual-write procedure
 
-1. Manually dispatch the unchanged `Vivid Seats price snapshots` workflow with `apply=true`; confirm legacy rows update.
-2. Manually dispatch `Vivid normalized dual-write verification`.
-3. Confirm its Impact request succeeds, ingestion accepts observations, and `check-vivid-parity.mjs` exits zero.
-4. Manually verify the displayed Vivid amount and existing `/api/out` affiliate redirect.
-5. Keep both legacy workflow and legacy read path enabled. A later, owner-approved PR may enable normalized Vivid reads only after repeat successful runs.
+1. Manually dispatch `Vivid normalized dual-write verification`. It invokes the existing `snapshot-vividseats-prices.mjs --apply` legacy writer unchanged, then submits normalized observations.
+2. Confirm legacy rows updated, the adapter Impact request succeeds, ingestion accepts observations, and `check-vivid-parity.mjs` exits zero.
+3. Manually verify the displayed Vivid amount and existing `/api/out` affiliate redirect.
+4. Keep both the scheduled legacy workflow and legacy read path enabled. A later, owner-approved PR may enable normalized Vivid reads only after repeat successful runs.
 
 Do not disable `vividseats-price-snapshots.yml` in this rollout. The explicit owner step before any future disablement is to review successful manual dual-write/parity evidence plus production UI and outbound-link verification.

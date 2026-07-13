@@ -29,6 +29,8 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
+const APP_ASSET_VERSION = "20260713b";
+const TTC_HOME_ASSET_VERSION = "20260713b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -1231,6 +1233,19 @@ const shellHtml = await read("public/index.html");
 const appScriptRef = shellHtml.match(/<script\s+src="\/app\.js[^"]*"/);
 assert(appScriptRef, "index.html must load /app.js");
 assert(/\/app\.js\?v=/.test(appScriptRef[0]), "index.html must load app.js with a ?v= cache-busting version so app.js-only fixes reach returning visitors without waiting for cache expiry");
+assert(
+  appScriptRef[0].includes(`/app.js?v=${APP_ASSET_VERSION}`),
+  "index.html must bump the app.js version whenever client metadata or hydration behavior changes"
+);
+assert(
+  shellHtml.includes(`/ttc-home.css?v=${TTC_HOME_ASSET_VERSION}`),
+  "index.html must version the homepage stylesheet so the current renderer and styles deploy together"
+);
+const cacheBustedHome = await routeResponse("/");
+assert(
+  cacheBustedHome.text.includes(`/ttc-home.js?v=${TTC_HOME_ASSET_VERSION}`),
+  "server-rendered homepage must version ttc-home.js so stale cached hydration cannot replace current search content"
+);
 
 const bulkPriceResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?includePrices=true"),

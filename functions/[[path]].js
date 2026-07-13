@@ -1625,7 +1625,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // mount with the full redesigned homepage. Same-origin, so it satisfies the
     // existing CSP (script-src 'self'). The chrome stylesheet (ttc-home.css) is
     // loaded site-wide from the shell <head>; only this script is homepage-scoped.
-    next = next.replace("</body>", '<script src="/ttc-home.js" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260713b" defer></script></body>');
   }
   return next;
 }

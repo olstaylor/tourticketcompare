@@ -338,7 +338,10 @@ function parseWranglerRows(stdout) {
 async function runSqlite(sqlitePath, sql, { json = false } = {}) {
   const args = ["-bail"];
   if (json) args.push("-json");
-  args.push(sqlitePath, sql);
+  // A write batch intentionally starts with SQL comments. The explicit option
+  // terminator prevents sqlite3 from interpreting a leading "-- ..." comment
+  // argument as another CLI flag.
+  args.push("--", sqlitePath, sql);
   const result = await execFileAsync("sqlite3", args, {
     cwd: REPO_ROOT,
     maxBuffer: 10 * 1024 * 1024

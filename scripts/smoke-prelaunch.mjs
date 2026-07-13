@@ -557,6 +557,9 @@ assert(Array.isArray(catalog.artists) && catalog.artists.length === artistSlugs.
 for (const slug of artistSlugs) {
   assert(catalog.artists.some((artist) => artist.slug === slug), `catalog missing artist ${slug}`);
 }
+const harryStylesArtist = catalog.artists.find((artist) => artist.slug === "harry-styles");
+assert(harryStylesArtist?.seo_title === "Harry Styles Tickets & Tour Dates | TourTicketCompare", "Harry Styles metadata should target the observed tickets-and-tour-dates search intent");
+assert(harryStylesArtist?.meta_description?.includes("available price snapshots"), "Harry Styles search copy should explain the page's distinctive comparison value");
 
 const routesManifest = await readJson("public/_routes.json");
 assert(routesManifest.version === 1, "_routes.json should use Cloudflare Pages routes schema version 1");
@@ -1078,6 +1081,9 @@ assert(boardPriceHydration && !boardPriceHydration[0].includes(".slice(0, 6)"), 
 assert(!appJs.match(/lowest\s+overall\s+price|cheapest/i), "hydration must not label SeatGeek snapshots as lowest overall or cheapest");
 assert(appJs.includes("No verified ticket link is available for this date."), "event cards should have a safe unavailable state");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
+assert(appJs.includes('text(relatedGuides, "h2", "Related guides")'), "artist hydration should preserve the server-rendered related-guide cluster");
+assert(appJs.includes('link("Compare concert ticket prices", "/compare-concert-ticket-prices", "mini-link")'), "artist hydration should preserve a descriptive internal link to the comparison hub");
+assert(appJs.includes('link("Affiliate disclosure", "/affiliate-disclosure", "mini-link")'), "artist hydration should preserve the server-rendered trust link set");
 
 // --- Regression guard: transient Ticketmaster sync/recheck state must never
 // suppress public CTAs (production regression 2026-06-03). A data-sync or audit

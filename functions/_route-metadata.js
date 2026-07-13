@@ -103,6 +103,15 @@ export const GUIDE_ROUTES = {
     datePublished: "2026-06-11",
     lastmod: "2026-07-13"
   },
+  "/guides/seatgeek-vs-ticketmaster": {
+    title: "SeatGeek vs Ticketmaster | TourTicketCompare",
+    h1: "SeatGeek vs Ticketmaster: which should you use?",
+    description:
+      "Compare SeatGeek and Ticketmaster by primary vs resale tickets, fees, Deal Score, delivery, buyer protections, and final checkout terms.",
+    fullContent: true,
+    datePublished: "2026-07-13",
+    lastmod: "2026-07-13"
+  },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
     h1: "How do I avoid overpaying for concert tickets?",

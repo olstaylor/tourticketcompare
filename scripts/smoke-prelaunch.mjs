@@ -29,7 +29,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260713d";
+const APP_ASSET_VERSION = "20260713e";
 const TTC_HOME_ASSET_VERSION = "20260713b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -464,7 +464,9 @@ const expectedClientMetadata = [
   "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats",
   "Compare timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider.",
   "How to Compare Concert Ticket Prices | TourTicketCompare",
-  "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare"
+  "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
+  "SeatGeek vs Ticketmaster | TourTicketCompare",
+  "Compare SeatGeek and Ticketmaster by primary vs resale tickets, fees, Deal Score, delivery, buyer protections, and final checkout terms."
 ];
 for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
@@ -649,6 +651,10 @@ async function sitemapLocs(envOverride = env) {
 }
 
 const sitemapLocations = await sitemapLocs();
+assert(
+  sitemapLocations.includes("https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster"),
+  "/sitemap.xml should include the focused SeatGeek vs Ticketmaster guide"
+);
 const indexableArtistSlugs = artists
   .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
   .map((artist) => normalizeSlug(artist?.slug))
@@ -849,7 +855,8 @@ const jsonLdRoutes = [
   { pathname: "/compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/how-it-works", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article"] },
   { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
-  { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] }
+  { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] },
+  { pathname: "/guides/seatgeek-vs-ticketmaster", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] }
 ];
 for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
   const { text } = await routeResponse(pathname);
@@ -880,6 +887,29 @@ assert(Array.isArray(seoGuideArticle?.citation) && seoGuideArticle.citation.leng
 assert(seoGuideArticle?.author?.url === "https://tourticketcompare.com/about", "guide Article schema author should resolve to the About page");
 const seoOrganization = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Organization");
 assert(seoOrganization?.["@id"] === "https://tourticketcompare.com/#organization", "Organization schema should expose a stable @id");
+
+const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
+assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
+assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");
+assert(extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster | TourTicketCompare", "focused guide should expose exact pairwise title metadata");
+assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: which should you use?", "focused guide should expose the pairwise decision H1");
+for (const expectedCopy of [
+  "SeatGeek vs Ticketmaster at a glance",
+  "Why SeatGeek can have tickets when Ticketmaster does not",
+  "Why is SeatGeek less expensive than Ticketmaster?",
+  "Is SeatGeek legit like Ticketmaster?",
+  "How does SeatGeek have tickets but not Ticketmaster?",
+  "What is the most trusted concert ticket site?"
+]) {
+  assert(pairwiseGuide.text.includes(expectedCopy), `focused guide should cover AI-answer intent: ${expectedCopy}`);
+}
+assert(pairwiseGuide.text.includes("<h2>Sources</h2>"), "focused guide should expose visible primary sources");
+const pairwiseLd = extractJsonLd(pairwiseGuide.text);
+const pairwiseArticle = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] === "Article");
+const pairwiseFaq = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] === "FAQPage");
+assert(Array.isArray(pairwiseArticle?.citation) && pairwiseArticle.citation.length === 8, "focused guide Article schema should cite all eight visible primary sources");
+assert(pairwiseArticle?.articleSection === "Compare prices and fees", "focused guide should join the comparison topic cluster");
+assert(Array.isArray(pairwiseFaq?.mainEntity) && pairwiseFaq.mainEntity.length === 8, "focused guide FAQ schema should mirror all eight visible answers");
 
 const unknownArtist = await routeResponse("/artists/not-a-real-artist");
 assert(unknownArtist.response.status === 404, "unknown artist route should return 404");

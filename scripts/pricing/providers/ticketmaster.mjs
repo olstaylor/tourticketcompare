@@ -2,6 +2,7 @@ import { normalizeObservation, toMinor } from "../core.mjs";
 
 const MONEY = /(?:from\s*)?([£$€])\s*([0-9][0-9,]*(?:\.\d{2})?)/ig;
 const SOLD_OUT = /sold\s*out|no\s*tickets\s*available/i;
+const BLOCKED = /access denied|unusual traffic|verify you are human|captcha/i;
 const CURRENCY = { "$": "USD", "£": "GBP", "€": "EUR" };
 
 export function extractTicketmasterPrice(text, event) {

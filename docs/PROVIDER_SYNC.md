@@ -301,9 +301,10 @@ reference. Only after that merge does a one-line follow-up PR uncomment the
 
 ### TicketNetwork, Ticket Liquidator, and StubHub International
 
-These providers share one fail-closed Impact Catalogs ingestion
-contract while retaining independent provider slugs, hosts, credentials,
-public flags, price flags, provenance, and D1 sources:
+These providers share one fail-closed Impact Catalogs ingestion contract while
+retaining independent provider slugs, hosts, public flags, price flags,
+provenance, and D1 sources. Provider-specific credentials are optional
+overrides; production uses the verified SeatGeek-scoped Impact fallback:
 
 ```bash
 # Offline tests (no network)
@@ -315,7 +316,7 @@ node scripts/sync-impact-marketplace-events.mjs --provider ticketnetwork
 node scripts/sync-impact-marketplace-events.mjs --provider ticket-liquidator
 node scripts/sync-impact-marketplace-events.mjs --provider stubhub-international
 
-# Apply only after the provider-specific Impact program/catalog is approved
+# Apply writes only reviewed, unambiguous provider matches
 node scripts/sync-impact-marketplace-events.mjs --provider ticketnetwork --apply
 
 # Exact external-ID price preview; --apply writes timestamped D1 upserts
@@ -327,7 +328,7 @@ and URL normalization. `scripts/sync-impact-marketplace-events.mjs` fetches a
 maximum of five 100-row pages per registry-verified artist using Impact's
 `/Catalogs/ItemSearch` endpoint (or `/Catalogs/{CatalogId}/Items` when the
 optional provider catalog ID is configured). Catalog requests explicitly set
-`IrVersion=15` and use the documented 1-based pagination instead of depending
+`IrVersion=16` and use the documented 1-based pagination instead of depending
 on the account-level API version. Results are isolated to the
 provider's configured campaign ID. A row passes only when the artist, venue, city, and venue-local
 date all match; zero or multiple candidates never write. A stored link is
@@ -338,11 +339,12 @@ catalogs preserve all stored links.
 `.github/workflows/impact-marketplace-provider-sync.yml` is manual-only and
 defaults to preview. Apply mode regenerates partitions/fallback data, runs the
 full validation suite, and opens a review PR with auto-merge disabled.
-`.github/workflows/impact-marketplace-price-snapshots.yml` is also manual-only;
-it reads the exact verified provider event ID and skips conflicting or missing
-price/currency observations. Do not add schedules until the provider-specific
-catalog, tracking redirect, rights, and sample event/price checks in
-`docs/PROVIDER_DATA_POLICY.md` are complete.
+`.github/workflows/impact-marketplace-price-snapshots.yml` reads the exact
+verified provider event ID and skips conflicting or missing price/currency
+observations. TicketNetwork and StubHub International refresh their six-hour
+D1 snapshots every four hours after the 2026-07-13 catalog and exact-ID proof.
+Ticket Liquidator remains manual-only and price-disabled until its catalog
+supplies numeric `CurrentPrice` values.
 
 StubHub International is not StubHub US/Canada. Its allowlist contains only the
 documented international storefront domains, and approval must not be inferred

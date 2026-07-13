@@ -1216,6 +1216,11 @@ summary {
   font-size: 0.78rem;
 }
 
+.price-unavailable-note {
+  margin: 0;
+  color: var(--muted);
+}
+
 /* Calmer artist-page rhythm: lighter section furniture so the date list
    is what draws the eye. */
 
@@ -1257,6 +1262,21 @@ summary {
 
   .show-date-badge {
     min-width: 58px;
+  }
+
+  .show-card-body {
+    justify-items: stretch;
+  }
+
+  .price-chip {
+    flex: 1 1 100%;
+    justify-content: space-between;
+  }
+
+  .show-card .copy-show-link {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
   }
 }
 

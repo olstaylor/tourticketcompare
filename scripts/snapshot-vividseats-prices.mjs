@@ -24,7 +24,11 @@ const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
 
 function clean(value, max = 2000) { return String(value ?? "").trim().slice(0, max); }
-function numberOrNull(value) { const n = Number(value); return Number.isFinite(n) && n >= 0 ? n : null; }
+function numberOrNull(value) {
+  if (value === null || value === undefined || (typeof value === "string" && !value.trim())) return null;
+  const n = Number(value);
+  return Number.isFinite(n) && n >= 0 ? n : null;
+}
 function integerOrNull(value) { const n = numberOrNull(value); return n == null ? null : Math.trunc(n); }
 function redact(value) {
   let text = String(value ?? "");
@@ -221,7 +225,21 @@ async function runIngestion(options, deps = {}) {
   const env = deps.env || process.env;
   const catalog = deps.catalog || await readCatalog();
   const selection = selectEligibleEvents(catalog.events, catalog.artistsBySlug, options, deps.now || new Date());
-  const summary = { mode: options.apply ? "apply" : "dry-run", scanned: catalog.events.length, eligible: selection.selected.length, fetched: 0, written: 0, skipped: selection.skipped.length, errors: 0, proposed_rows: [], skip_reasons: {}, error_details: [] };
+  const summary = {
+    mode: options.apply ? "apply" : "dry-run",
+    scanned: catalog.events.length,
+    eligible: selection.selected.length,
+    fetched: 0,
+    usable: 0,
+    written: 0,
+    skipped: selection.skipped.length,
+    stale: 0,
+    failed: 0,
+    errors: 0,
+    proposed_rows: [],
+    skip_reasons: {},
+    error_details: []
+  };
   for (const skipped of selection.skipped) summary.skip_reasons[skipped.reason] = (summary.skip_reasons[skipped.reason] || 0) + 1;
   const byArtist = new Map();
   for (const item of selection.selected) { const entries = byArtist.get(item.artistName) || []; entries.push(item); byArtist.set(item.artistName, entries); }
@@ -229,7 +247,13 @@ async function runIngestion(options, deps = {}) {
   for (const [artistName, items] of byArtist) {
     const fetched = deps.fetchArtistCatalog ? await deps.fetchArtistCatalog(artistName, env) : await fetchArtistCatalog(artistName, env, deps.fetchImpl);
     if (!fetched.ok) {
-      for (const item of items) { summary.skipped++; summary.skip_reasons.api_unavailable_or_error = (summary.skip_reasons.api_unavailable_or_error || 0) + 1; summary.error_details.push({ event_id: item.localId, reason: redact(fetched.reason) }); }
+      for (const item of items) {
+        summary.skipped++;
+        summary.failed++;
+        summary.errors++;
+        summary.skip_reasons.api_unavailable_or_error = (summary.skip_reasons.api_unavailable_or_error || 0) + 1;
+        summary.error_details.push({ event_id: item.localId, reason: redact(fetched.reason) });
+      }
       continue;
     }
     summary.fetched += items.length;
@@ -237,11 +261,23 @@ async function runIngestion(options, deps = {}) {
       const priced = pricesForProduction(fetched.data, item.productionId);
       if (!priced.ok) { summary.skipped++; summary.skip_reasons[priced.reason] = (summary.skip_reasons[priced.reason] || 0) + 1; continue; }
       const built = buildSnapshotRow(item, priced.price, deps.now || new Date(), options.freshnessHours);
-      if (!built.ok) { summary.skipped++; summary.skip_reasons[built.reason] = (summary.skip_reasons[built.reason] || 0) + 1; continue; }
+      if (!built.ok) {
+        summary.skipped++;
+        summary.failed++;
+        summary.errors++;
+        summary.skip_reasons[built.reason] = (summary.skip_reasons[built.reason] || 0) + 1;
+        summary.error_details.push({ event_id: item.localId, reason: built.reason });
+        continue;
+      }
       rows.push(built.row); summary.proposed_rows.push(publicRow(built.row));
     }
   }
+  summary.usable = rows.length;
   if (options.apply) summary.written = (await (deps.writer ? deps.writer(rows, options) : writeRowsToD1(rows, options))).written || 0;
+  if (summary.eligible === 0) summary.zero_row_reason = "no_eligible_verified_events";
+  else if (summary.usable === 0 && summary.fetched === 0 && summary.failed > 0) summary.zero_row_reason = "provider_fetch_failed";
+  else if (summary.usable === 0) summary.zero_row_reason = "no_usable_current_prices";
+  else if (options.apply && summary.written === 0) summary.zero_row_reason = "d1_write_returned_zero";
   return summary;
 }
 async function selfTest() {
@@ -251,6 +287,7 @@ async function selfTest() {
   assert.match(url, /Program=12730/); assert.match(url, /Name%3D%27RAYE%27/);
   const priced = pricesForProduction([{ CurrentPrice: "52.50", Currency: "usd", Offers: [{ Sku: "123" }] }], "123");
   assert.equal(priced.ok, true); assert.equal(priced.price.lowPrice, 52.5); assert.equal(priced.price.currency, "USD");
+  assert.equal(pricesForProduction([{ CurrentPrice: "", Currency: "USD", Offers: [{ Sku: "123" }] }], "123").ok, false);
   assert.equal(pricesForProduction([{ CurrentPrice: 1, Currency: "USD", Offers: [{ Sku: "123" }] }, { CurrentPrice: 2, Currency: "USD", Offers: [{ Sku: "123" }] }], "123").ok, false);
   const now = new Date("2026-07-10T00:00:00Z");
   const item = { localId: "event-1", productionId: "123", artistName: "RAYE", event: { artist_slug: "raye" } };
@@ -268,11 +305,18 @@ async function selfTest() {
     now, async fetchArtistCatalog() { return { ok: true, data: [{ CurrentPrice: 52, Currency: "USD", Offers: [{ Sku: "123" }] }] }; }
   });
   assert.equal(dry.proposed_rows.length, 1); assert.equal(dry.written, 0);
-  return { ok: true, tests: 16 };
+  assert.equal(dry.usable, 1); assert.equal(dry.failed, 0); assert.equal(dry.stale, 0); assert.equal(dry.zero_row_reason, undefined);
+  const failed = await runIngestion({ apply: false, limit: 1, eventId: "", freshnessHours: 6, database: DEFAULT_D1_DATABASE, remote: true }, {
+    catalog: { events: [verifiedFutureEvent], artistsBySlug: new Map([["raye", "RAYE"]]) },
+    now, async fetchArtistCatalog() { return { ok: false, reason: "temporary API failure" }; }
+  });
+  assert.equal(failed.failed, 1); assert.equal(failed.errors, 1); assert.equal(failed.zero_row_reason, "provider_fetch_failed");
+  return { ok: true, tests: 24 };
 }
 function printSummary(summary) {
   console.log(`Vivid Seats Impact price snapshot ${summary.mode} summary:`);
-  for (const key of ["scanned", "eligible", "fetched", "written", "skipped", "errors"]) console.log(`- ${key}: ${summary[key]}`);
+  for (const key of ["scanned", "eligible", "fetched", "usable", "written", "skipped", "stale", "failed", "errors"]) console.log(`- ${key}: ${summary[key]}`);
+  if (summary.zero_row_reason) console.log(`- zero-row reason: ${summary.zero_row_reason}`);
   if (Object.keys(summary.skip_reasons).length) console.log(`- skip reasons: ${JSON.stringify(summary.skip_reasons)}`);
   for (const row of summary.proposed_rows) console.log(JSON.stringify(row));
   for (const error of summary.error_details.slice(0, 20)) console.log(JSON.stringify(error));
@@ -283,6 +327,7 @@ async function main() {
   if (options.selfTest) { const result = await selfTest(); return console.log(`Vivid Seats Impact price snapshot self-test passed (${result.tests} checks).`); }
   const summary = await runIngestion(options);
   if (options.json) console.log(JSON.stringify(summary, null, 2)); else printSummary(summary);
+  if (summary.failed > 0 || (options.apply && summary.eligible > 0 && summary.usable === 0)) process.exitCode = 1;
 }
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(redact(error.stack || error.message || error)); process.exitCode = 1; });
 export { APPROVED_SOURCE, buildSnapshotRow, buildUpsertSql, impactCredentials, marketplaceProductsUrl, pricesForProduction, runIngestion, selectEligibleEvents, vividProductionId };

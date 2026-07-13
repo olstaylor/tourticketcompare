@@ -61,7 +61,6 @@ jobs:
         run: npm run vividseats:prices:self-test
 
       - name: Check Impact and D1 configuration
-        id: configured
         env:
           IMPACT_VIVIDSEATS_ACCOUNT_SID: ${{ secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
           IMPACT_VIVIDSEATS_AUTH_TOKEN: ${{ secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
@@ -73,15 +72,26 @@ jobs:
           set -euo pipefail
           ACCOUNT_SID="${IMPACT_VIVIDSEATS_ACCOUNT_SID:-${IMPACT_ACCOUNT_SID:-}}"
           AUTH_TOKEN="${IMPACT_VIVIDSEATS_AUTH_TOKEN:-${IMPACT_AUTH_TOKEN:-}}"
-          if [ -n "${ACCOUNT_SID}" ] && [ -n "${AUTH_TOKEN}" ] && [ -n "${CLOUDFLARE_API_TOKEN}" ] && [ -n "${CLOUDFLARE_ACCOUNT_ID}" ]; then
-            echo "configured=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "configured=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::Impact Vivid Seats credentials or Cloudflare D1 secrets are not configured; skipping snapshot ingestion safely."
+          missing=0
+          if [ -z "${ACCOUNT_SID}" ] || [ -z "${AUTH_TOKEN}" ]; then
+            echo "::error::Impact Vivid Seats credentials are required."
+            missing=1
+          fi
+          if [ -z "${CLOUDFLARE_API_TOKEN}" ] || [ -z "${CLOUDFLARE_ACCOUNT_ID}" ]; then
+            echo "::error::Cloudflare D1 credentials are required."
+            missing=1
+          fi
+          if [ "${missing}" -ne 0 ]; then
+            {
+              echo "## Vivid Seats price snapshots"
+              echo
+              echo "Configuration incomplete. No provider requests or D1 writes were attempted."
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
           fi
 
       - name: Run Vivid Seats Impact price snapshot dry-run
-        if: steps.configured.outputs.configured == 'true' && github.event_name == 'workflow_dispatch' && github.event.inputs.apply != 'true'
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.apply != 'true'
         env:
           IMPACT_VIVIDSEATS_ACCOUNT_SID: ${{ secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
           IMPACT_VIVIDSEATS_AUTH_TOKEN: ${{ secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
@@ -93,10 +103,10 @@ jobs:
           args=()
           if [ -n "${SNAPSHOT_LIMIT}" ]; then args+=(--limit "${SNAPSHOT_LIMIT}"); fi
           if [ -n "${SNAPSHOT_EVENT_ID}" ]; then args+=(--event-id "${SNAPSHOT_EVENT_ID}"); fi
-          npm run vividseats:prices:dry-run -- "${args[@]}"
+          node scripts/snapshot-vividseats-prices.mjs --json "${args[@]}" | tee "$RUNNER_TEMP/vividseats-price-summary.json"
 
       - name: Run Vivid Seats Impact price snapshot apply
-        if: steps.configured.outputs.configured == 'true' && (github.event_name == 'schedule' || github.event.inputs.apply == 'true')
+        if: github.event_name == 'schedule' || github.event.inputs.apply == 'true'
         env:
           IMPACT_VIVIDSEATS_ACCOUNT_SID: ${{ secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
           IMPACT_VIVIDSEATS_AUTH_TOKEN: ${{ secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
@@ -110,9 +120,42 @@ jobs:
           args=(--database "${D1_DATABASE_NAME}")
           if [ -n "${SNAPSHOT_LIMIT}" ]; then args+=(--limit "${SNAPSHOT_LIMIT}"); fi
           if [ -n "${SNAPSHOT_EVENT_ID}" ]; then args+=(--event-id "${SNAPSHOT_EVENT_ID}"); fi
-          npm run vividseats:prices:apply -- "${args[@]}"
+          node scripts/snapshot-vividseats-prices.mjs --apply --json "${args[@]}" | tee "$RUNNER_TEMP/vividseats-price-summary.json"
+
+      - name: Publish Vivid Seats snapshot run summary
+        if: always()
+        run: |
+          node --input-type=module - "$RUNNER_TEMP/vividseats-price-summary.json" <<'NODE'
+          import fs from "node:fs";
+          const file = process.argv[2];
+          if (!fs.existsSync(file)) process.exit(0);
+          const summary = JSON.parse(fs.readFileSync(file, "utf8"));
+          const metrics = ["eligible", "fetched", "usable", "written", "skipped", "stale", "failed"];
+          const rows = metrics.map((key) => `| ${key} | ${summary[key] ?? 0} |`).join("\n");
+          const reason = summary.zero_row_reason || "—";
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Vivid Seats price snapshots\n\n| Metric | Count |\n| --- | ---: |\n${rows}\n\n**Zero-row reason:** ${reason}\n`);
+          if (summary.failed > 0) console.log(`::warning::${summary.failed} Vivid Seats observations failed.`);
+          if (summary.zero_row_reason) console.log(`::notice::Vivid Seats zero-row reason: ${summary.zero_row_reason}`);
+          NODE
+
+      - name: Audit Vivid Seats cache freshness
+        if: always() && (github.event_name == 'schedule' || github.event.inputs.apply == 'true')
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          npx wrangler d1 execute "${D1_DATABASE_NAME}" --remote --json --command "SELECT COUNT(*) AS total, SUM(CASE WHEN datetime(expires_at) > datetime('now') THEN 1 ELSE 0 END) AS fresh, SUM(CASE WHEN datetime(expires_at) <= datetime('now') THEN 1 ELSE 0 END) AS stale FROM provider_pricing_cache WHERE provider = 'vivid-seats' AND source = 'vividseats_impact_marketplace_api';" > "$RUNNER_TEMP/vividseats-cache-audit.json"
+          node --input-type=module - "$RUNNER_TEMP/vividseats-cache-audit.json" <<'NODE'
+          import fs from "node:fs";
+          const payload = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+          const root = Array.isArray(payload) ? payload[0] : payload;
+          const row = root?.results?.[0] || {};
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n### D1 cache after run\n\n| Fresh | Stale | Total |\n| ---: | ---: | ---: |\n| ${row.fresh ?? 0} | ${row.stale ?? 0} | ${row.total ?? 0} |\n`);
+          NODE
 
       - name: Confirm protected files/data were not modified
+        if: always()
         run: |
           set -euo pipefail
           git diff --exit-code -- functions/api/out.js

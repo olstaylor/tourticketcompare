@@ -1,4 +1,5 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS, CANONICAL_HOST, canonicalOrigin } from "./_route-metadata.js";
+import { attachApprovedMarketplacePrices } from "./api/shows.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -905,6 +906,7 @@ function futureShowsForArtist(events, artistSlug, limit) {
       vividseats_url: String(ev.vividseats_url || "").trim(),
       last_verified_at: String(ev.last_verified_at || "").trim(),
       verification_status: String(ev.verification_status || "").trim(),
+      provider_links: ev.provider_links && typeof ev.provider_links === "object" ? ev.provider_links : {},
       publishable: eventLinkPublishable(ev),
       seatgeekPublishable: providerEventPublishable(ev, "seatgeek"),
       vividseatsPublishable: providerEventPublishable(ev, "vivid-seats")
@@ -1066,6 +1068,92 @@ function isVividSeatsConfigured(env = {}) {
   return Boolean(impactVividSeatsBaseTrackingUrl || (impactVividSeatsAccountSid && impactVividSeatsAuthToken && impactVividSeatsProgramId));
 }
 
+function approvedServerPriceLane(show, provider) {
+  const isSeatGeek = provider === "SeatGeek";
+  const providerVerified = isSeatGeek
+    ? show?.provider_links?.seatgeek?.verified === true
+    : show?.provider_links?.["vivid-seats"]?.verified === true;
+  if (!providerVerified) return null;
+
+  const approvedSource = isSeatGeek ? "seatgeek_partner_api" : "vividseats_impact_marketplace_api";
+  const lane = (Array.isArray(show?.prices) ? show.prices : []).find((item) => item?.provider === provider);
+  if (!lane || lane.status !== "ok" || lane.providerStatus !== "ok" || lane.source !== approvedSource) return null;
+  const price = Number(lane.price);
+  const currency = String(lane.currency || "").trim().toUpperCase();
+  const fetchedAt = String(lane.fetchedAt || "").trim();
+  const expiresAt = String(lane.expiresAt || "").trim();
+  if (!Number.isFinite(price) || price < 0 || !/^[A-Z]{3}$/.test(currency)) return null;
+  if (!Number.isFinite(Date.parse(fetchedAt)) || !Number.isFinite(Date.parse(expiresAt)) || Date.parse(expiresAt) <= Date.now()) return null;
+  return { price, currency, fetchedAt };
+}
+
+function formatServerPrice(value, currency) {
+  try {
+    return new Intl.NumberFormat("en", {
+      style: "currency",
+      currency,
+      maximumFractionDigits: Number(value) % 1 === 0 ? 0 : 2
+    }).format(value);
+  } catch (error) {
+    return "";
+  }
+}
+
+function formatServerSnapshotTime(value) {
+  try {
+    return `${new Intl.DateTimeFormat("en-GB", {
+      dateStyle: "medium",
+      timeStyle: "short",
+      timeZone: "UTC"
+    }).format(new Date(value))} UTC`;
+  } catch (error) {
+    return "";
+  }
+}
+
+function renderServerPriceChip(provider, amount, isLower = false) {
+  return `<span class="price-chip${isLower ? " price-chip-lower" : ""}"><span class="price-chip-provider">${escapeHtml(provider)}</span><strong class="price-chip-amount">${escapeHtml(amount)}</strong></span>`;
+}
+
+function renderServerPriceSnapshot(show, seatGeekAvailable, vividSeatsAvailable) {
+  const seatGeek = seatGeekAvailable ? approvedServerPriceLane(show, "SeatGeek") : null;
+  const vividSeats = vividSeatsAvailable ? approvedServerPriceLane(show, "Vivid Seats") : null;
+  if (!seatGeek && !vividSeats) {
+    return seatGeekAvailable || vividSeatsAvailable
+      ? `<p class="disclosure-note price-unavailable-note">No current price snapshot — check the provider for availability and the final total.</p>`
+      : "";
+  }
+
+  const seatGeekAmount = seatGeek ? formatServerPrice(seatGeek.price, seatGeek.currency) : "";
+  const vividSeatsAmount = vividSeats ? formatServerPrice(vividSeats.price, vividSeats.currency) : "";
+  const seatGeekAsOf = seatGeek ? formatServerSnapshotTime(seatGeek.fetchedAt) : "";
+  const vividSeatsAsOf = vividSeats ? formatServerSnapshotTime(vividSeats.fetchedAt) : "";
+  if (seatGeek && vividSeats && seatGeekAmount && vividSeatsAmount && seatGeekAsOf && vividSeatsAsOf) {
+    const sameCurrency = seatGeek.currency === vividSeats.currency;
+    const lowerProvider = sameCurrency
+      ? seatGeek.price < vividSeats.price
+        ? "SeatGeek"
+        : vividSeats.price < seatGeek.price
+          ? "Vivid Seats"
+          : ""
+      : "";
+    const delta = sameCurrency ? Number(Math.abs(seatGeek.price - vividSeats.price).toFixed(2)) : null;
+    const comparisonCopy = lowerProvider && delta !== null
+      ? `${lowerProvider} has the lower listed price snapshot by ${formatServerPrice(delta, seatGeek.currency)}.`
+      : sameCurrency
+        ? "Both providers show the same listed price snapshot."
+        : "The snapshots use different currencies, so no price difference is calculated.";
+    return `<div class="price-snapshot-row provider-price-comparison">${renderServerPriceChip("SeatGeek", seatGeekAmount, lowerProvider === "SeatGeek")}${renderServerPriceChip("Vivid Seats", vividSeatsAmount, lowerProvider === "Vivid Seats")}<p class="price-compare-note">${escapeHtml(comparisonCopy)}</p><p class="disclosure-note">SeatGeek price snapshot as of ${escapeHtml(seatGeekAsOf)}; Vivid Seats price snapshot as of ${escapeHtml(vividSeatsAsOf)}. Prices exclude fees.</p></div>`;
+  }
+
+  const provider = seatGeek ? "SeatGeek" : "Vivid Seats";
+  const lane = seatGeek || vividSeats;
+  const amount = seatGeek ? seatGeekAmount : vividSeatsAmount;
+  const asOf = seatGeek ? seatGeekAsOf : vividSeatsAsOf;
+  if (!lane || !amount || !asOf) return "";
+  return `<div class="price-snapshot-row ${seatGeek ? "seatgeek-price-snapshot" : "vividseats-price-snapshot"}">${renderServerPriceChip(provider, amount)}<p class="disclosure-note">${escapeHtml(provider)} price snapshot as of ${escapeHtml(asOf)} — excludes fees.</p></div>`;
+}
+
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "") {
   const dateParts = showDatePartsServer(show.dateTimeISO);
   const location = showLocationServer(show);
@@ -1100,6 +1188,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     }
   }
 
+  const priceHtml = isIndexableArtist ? renderServerPriceSnapshot(show, seatGeekOutAvailable(show, seatGeekAvailable), vividSeatsOutAvailable(show, vividSeatsAvailable)) : "";
   const showJson = escapeAttr(JSON.stringify({ last_verified_at: show.last_verified_at || "" }));
   const copyLinkHtml = anchorId
     ? `<a class="text-link copy-show-link" href="#${escapeAttr(anchorId)}" data-copy-show-link="${escapeAttr(anchorId)}">Copy link to this date</a>`
@@ -1120,7 +1209,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const badgeHtml = dateParts
     ? `<div class="show-date-badge"><span class="show-date-weekday">${escapeHtml(dateParts.weekday)}</span><span class="show-date-day">${escapeHtml(dateParts.day)}</span><span class="show-date-monthyear">${escapeHtml(dateParts.monthYear)}</span></div>`
     : "";
-  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${subHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
+  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${subHtml}${priceHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
 }
 
 // Zero-event board state. The primary CTA is the artist-level page of the
@@ -1146,7 +1235,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   const filterIntro = shows.length > 1
     ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Filter by city, venue, or tour to jump to your date.</p></div>`
     : "";
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming shows</h2><p>Pick a date, then compare the checked ticket options for that show.</p><p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming shows</h2><p>Pick a date, compare available price snapshots, then confirm final prices and fees on the provider site.</p><p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -1232,7 +1321,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )} tickets and tour dates</h1><p class="lead">Find upcoming ${escapeHtml(
       artist.name
-    )} shows and open checked provider links for the date you want.</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
+    )} shows, pick a date, and compare available ticket options.</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable)}${renderProviderFallback(
       catalog,
       artist,
       "artist_page",
@@ -1383,11 +1472,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Contact", "/contact", "button button-secondary")}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Compare resale ticket prices for major tours</h1><p class="hero-subcopy">SeatGeek and Vivid Seats prices side by side for the same show — free, and we do not sell tickets.</p><p class="disclosure-note">Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Search by artist, city, country, venue, or tour" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
+  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find your tour date. Compare ticket options.</h1><p class="hero-subcopy">See available SeatGeek and Vivid Seats price snapshots for the same show. Confirm final prices, fees, and availability on the provider site.</p><p class="disclosure-note">Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Search by artist, city, country, venue, or tour" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
     "Compare concert ticket prices",
     "/compare-concert-ticket-prices",
     "button button-primary"
-  )}${anchor("Browse artists", "#featured-artists", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search reviewed artists, events, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid"><article class="info-card"><h3>1. Find your show</h3><p>Search an artist and pick a date. Every date and link is checked by a human first.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>2. Compare prices</h3><p>Fresh, approved SeatGeek and Vivid Seats price snapshots, side by side, for the same event.</p>${anchor("Compare ticket prices", "/compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>3. Buy on the provider site</h3><p>Click through to checkout. Free to use — commissions never change the price you pay.</p>${anchor("Read the guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Checked upcoming dates and verified event links for every artist we track.</p></div>${renderArtistLinks(
+  )}${anchor("Browse artists", "#featured-artists", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search reviewed artists, events, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid"><article class="info-card"><h3>1. Find your show</h3><p>Search an artist and pick the verified date that matches your plans.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>2. Compare snapshots</h3><p>See available SeatGeek and Vivid Seats price snapshots for the same event.</p>${anchor("Compare ticket prices", "/compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>3. Confirm and buy</h3><p>Open the provider site to confirm the final price, fees, availability, and ticket details.</p>${anchor("Read the guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Checked upcoming dates and verified event links for every artist we track.</p></div>${renderArtistLinks(
     catalog,
     events
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
@@ -1722,8 +1811,15 @@ export async function onRequest(context) {
   const catalog = await loadCatalog(env);
   const needsEvents = route.type === "artist" || route.type === "comparison-hub" || route.path === "/artists" || route.path === "/";
   const events = needsEvents ? await loadEvents(env) : [];
+  let renderEvents = events;
+  if (route.type === "artist" && events.length) {
+    const priceCandidates = futureShowsForArtist(events, route.artist.slug, 6);
+    const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
+    const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
+    renderEvents = events.map((event) => pricedById.get(String(event?.id || "")) || event);
+  }
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
-  const injected = injectRoute(html, route, url.origin, catalog, events, guideContent, env);
+  const injected = injectRoute(html, route, url.origin, catalog, renderEvents, guideContent, env);
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", "public, max-age=300");

@@ -522,6 +522,17 @@ function providerEventPublishable(event, provider) {
   return eventLinkPublishable(event);
 }
 
+// Price snapshots are stricter than general event-link publishability. A
+// cached marketplace price belongs to one exact provider event, so it may be
+// shown only while that provider link still carries explicit verified
+// provenance. An event-level verification status must never revive a cached
+// row after the provider match itself is revoked.
+function providerPriceEventVerified(event, provider) {
+  if (provider === "seatgeek") return event?.provider_links?.seatgeek?.verified === true;
+  if (provider === "vivid-seats") return event?.provider_links?.["vivid-seats"]?.verified === true;
+  return false;
+}
+
 function withResolvableProviderCtas(shows, env = {}) {
   const seatGeekConfigured = hasSeatGeekProviderConfig(env);
   const vividSeatsConfigured = hasVividSeatsProviderConfig(env);
@@ -648,6 +659,8 @@ async function fetchProviderPriceTrend(db, showId, provider, source) {
 // non-negative low price, a currency, a valid verified_at timestamp, and an
 // unexpired expires_at — the same freshness gate in single-show and bulk mode.
 function approvedCachedPriceFromRow(provider, approvedSource, show, row) {
+  const providerKey = provider === "SeatGeek" ? "seatgeek" : provider === "Vivid Seats" ? "vivid-seats" : "";
+  if (!providerPriceEventVerified(show, providerKey)) return null;
   if (!row || typeof row !== "object" || row.source !== approvedSource) return null;
 
   const lowPrice = Number(row.low_price);
@@ -687,6 +700,10 @@ async function fetchSeatGeekCachedPrice(show, env) {
   }
 
   if (!validSeatGeekEventUrl(show?.seatgeek_url)) {
+    return unavailableProviderPrice(provider, show);
+  }
+
+  if (!providerPriceEventVerified(show, "seatgeek")) {
     return unavailableProviderPrice(provider, show);
   }
 
@@ -732,6 +749,10 @@ async function fetchVividSeatsCachedPrice(show, env) {
     return unavailableProviderPrice(provider, show);
   }
 
+  if (!providerPriceEventVerified(show, "vivid-seats")) {
+    return unavailableProviderPrice(provider, show);
+  }
+
   const showId = String(show?.id || "").trim();
   if (!showId) return unavailableProviderPrice(provider, show);
 
@@ -772,14 +793,18 @@ const APPROVED_MARKETPLACE_PRICE_LANES = [
     dbKey: "seatgeek",
     approvedSource: SEATGEEK_APPROVED_PRICE_SOURCE,
     displayFlagKey: "SEATGEEK_PRICE_DISPLAY_ENABLED",
-    hasDisplayableUrl: (show) => Boolean(validSeatGeekEventUrl(show?.seatgeek_url))
+    hasDisplayableUrl: (show) => Boolean(
+      providerPriceEventVerified(show, "seatgeek") && validSeatGeekEventUrl(show?.seatgeek_url)
+    )
   },
   {
     provider: "Vivid Seats",
     dbKey: "vivid-seats",
     approvedSource: VIVIDSEATS_APPROVED_PRICE_SOURCE,
     displayFlagKey: "VIVIDSEATS_PRICE_DISPLAY_ENABLED",
-    hasDisplayableUrl: (show) => Boolean(validVividSeatsEventUrl(show?.vividseats_url))
+    hasDisplayableUrl: (show) => Boolean(
+      providerPriceEventVerified(show, "vivid-seats") && validVividSeatsEventUrl(show?.vividseats_url)
+    )
   }
 ];
 // D1 bound-parameter budget per statement; chunking keeps a full artist board
@@ -813,7 +838,7 @@ async function fetchApprovedMarketplaceCachedRows(db, showIds) {
 // flag, valid verified provider event URL, approved source, and unexpired
 // timestamped cache row. Trend lookups are intentionally skipped in bulk mode
 // (trend is internal-only and never rendered).
-async function attachApprovedMarketplacePrices(shows, env) {
+export async function attachApprovedMarketplacePrices(shows, env) {
   const laneStates = APPROVED_MARKETPLACE_PRICE_LANES.map((lane) => ({
     lane,
     enabled: getEnvBoolean(env?.[lane.displayFlagKey], false)

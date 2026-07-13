@@ -114,7 +114,7 @@ These must be configured in the Cloudflare Pages dashboard for the project to fu
 | Secret | `IMPACT_ACCOUNT_SID` | From Cloudflare Worker environment (do not store in repo) |
 | Secret | `IMPACT_AUTH_TOKEN` | From Cloudflare Worker environment (do not store in repo) |
 | Secret | `IMPACT_SEATGEEK_*` | SeatGeek Impact program (account SID / auth token / program or campaign id, optional base tracking URL) |
-| Secret | `IMPACT_VIVIDSEATS_*` | Vivid Seats Impact program — not yet set; CTAs stay dormant until it is |
+| Secret | `IMPACT_VIVIDSEATS_*` | Vivid Seats Impact program (account SID / auth token / program or campaign id, optional base tracking URL) |
 
 `IMPACT_TICKETMASTER_*` secrets are no longer read by any code (Ticketmaster affiliate ended 2026-07) — delete them from the dashboard after verifying the pivot deploy.
 
@@ -125,6 +125,23 @@ Environment variables (set in dashboard or `wrangler.toml [vars]` for CLI deploy
 | `MOCK_MODE` | `false` |
 | `ALLOW_MOCK_PRICES` | `false` |
 | `CLICK_TRACKING_ENABLED` | `true` |
+| `SEATGEEK_PRICE_DISPLAY_ENABLED` | `true` |
+| `VIVIDSEATS_PRICE_DISPLAY_ENABLED` | `true` |
+
+### Price snapshot operations
+
+The SeatGeek and Vivid Seats snapshot workflows run every four hours and write only approved, exact-event observations to `provider_pricing_cache`. Public requests read this D1 cache in one batch; they never fan out to provider APIs.
+
+Required GitHub Actions configuration:
+
+| Setting | Where configured | Verification |
+|---|---|---|
+| `SEATGEEK_CLIENT_ID` | Repository → Settings → Secrets and variables → Actions → Secrets | Dispatch **SeatGeek price snapshots** with `apply=true`; the configuration step must report the client ID as present. |
+| `SEATGEEK_CLIENT_SECRET` | Repository → Settings → Secrets and variables → Actions → Secrets | The same run must report the client secret as present. If all fetched events still have null pricing statistics, request pricing-stat entitlement from SeatGeek; rotating or exposing the secret is not a code fix. |
+| `IMPACT_VIVIDSEATS_*` | Repository → Settings → Secrets and variables → Actions → Secrets | Dispatch **Vivid Seats price snapshots** with `apply=true`; configuration must pass and the summary should report non-zero eligible/fetched/usable/written counts. |
+| `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` | Repository → Settings → Secrets and variables → Actions → Secrets | Required for the remote D1 write and post-run cache audit. |
+
+A successful apply run reports `eligible`, `fetched`, `usable`, `written`, `skipped`, `stale`, and `failed`, with `failed: 0` and no `zero_row_reason`. Confirm safely in production by checking the workflow's D1 cache audit, then request `/api/shows?artist=<slug>&includePrices=true&priceProviders=approved-marketplaces` for a representative verified artist. A displayed lane must have the expected provider/source, a `fetchedAt` timestamp, and an unexpired row. Never paste secrets or raw affiliate credentials into logs or browser requests.
 
 ---
 
@@ -192,6 +209,9 @@ A scheduled run also maintains a rolling **`automation:tm-discovery`** coverage 
 | **TM data refresh PR** (`tm-data-refresh-pr.yml`) | manual | Refresh **existing** events (genuine date/venue/city moves, canonical URL) and recover missing Discovery ids, as one review PR | `automation:tm-events` review PR + `automation:data-sync` issue |
 | **Nightly data sync** (`nightly-data-sync.yml`) | 03:30 UTC (cron re-enabled 2026-07-07) | Lossless factual field sync of existing events, auto-committed to `main` per event under its commit gate | Direct `main` commit (gated) or `automation:data-sync` issue |
 | **SeatGeek CTA sync** (`seatgeek-cta-sync.yml`) | 05:00 UTC (added 2026-07-08) | Add missing event-level `seatgeek_url` values (high-confidence) and write identity-anchored `provider_links.seatgeek` verified provenance (standalone SeatGeek CTAs on `needs_recheck` events, wrong-night self-heal) | Auto-merged `automation:seatgeek-cta` PR + committed audit logs |
+| **Vivid Seats CTA sync** (`vividseats-cta-sync.yml`) | 05:30 UTC | Maintain verified event-level Vivid Seats destinations | Auto-merged `automation:vividseats-cta` PR + committed audit log |
+| **SeatGeek price snapshots** (`seatgeek-price-snapshots.yml`) | Every 4 hours | Fetch approved exact-event SeatGeek statistics and write fresh cache rows | Run summary + D1 cache audit; fails blocked/failed zero-row runs |
+| **Vivid Seats price snapshots** (`vividseats-price-snapshots.yml`) | Every 4 hours | Fetch approved exact-event Vivid Seats statistics and write fresh cache rows | Run summary + D1 cache audit; fails blocked/failed zero-row runs |
 
 In short: **new** links → the 04:00 new-shows PR; **drift in existing** links → the audit issue (detection), the 03:30 nightly field sync (lossless fixes), and the manual refresh-PR workflow (reviewed fixes); **SeatGeek CTAs** → the 05:00 SeatGeek CTA sync; **link death** → the audit issue.
 
@@ -214,7 +234,7 @@ Restoring a CTA-suppressed (`needs_recheck`) event is deliberately **not** autom
 
 ## Nightly data sync operational state
 
-`.github/workflows/nightly-data-sync.yml` is currently **manual-only**. Its historical `schedule` cron (`30 3 * * *`) remains commented out, so no nightly run happens until a maintainer deliberately re-enables that event. The workflow can still be launched from **Actions → Nightly data sync → Run workflow**.
+`.github/workflows/nightly-data-sync.yml` runs at **03:30 UTC** and on `workflow_dispatch`. Manual runs default to `dry_run: true`; scheduled runs retain the workflow's validated commit gate.
 
 ### Safe manual dry-run
 
@@ -255,9 +275,9 @@ The workflow commits directly to `main` only when all of these are true:
 
 Any review item, blocked update, script error, validation failure, smoke-test failure, missing report, dry-run input, or lack of an `events.json` diff blocks the commit/push. Non-dry-run runs also invoke `scripts/report-tm-sync-review.mjs`, which updates or creates the rolling `automation:data-sync` issue when review findings need human attention.
 
-### Evidence required before re-enabling cron
+### Scheduled-state evidence to monitor
 
-Do not uncomment the schedule until there is clean evidence from recent manual runs that:
+Keep the schedule enabled only while recent runs continue to show that:
 
 - `TICKETMASTER_API_KEY` is present in Actions secrets and the report is not skipped;
 - the dry-run checks a non-zero number of tracked events;

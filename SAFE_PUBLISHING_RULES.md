@@ -49,7 +49,8 @@ Pages become indexable and conversion-led only after completing the phase gates 
 - **Ticketmaster is an official event-verification and link source only — not a reliable price source.** Do not present Ticketmaster data as a price comparison.
 - Marketplace partners may display pricing only where an approved feed/API explicitly permits public display. SeatGeek and Vivid Seats may also be compared under the exact-event, source, freshness, and qualification gates above.
 - **Impact affiliate approval grants link/commission rights only — it never implies price-display rights.** Do not infer the right to show prices from affiliate enrolment.
-- Capability fields in `public/data/catalog.json` (`pricing_type`, `supports_pricing`, `price_aggregation`, `real_time_inventory`) are **inert metadata**. SeatGeek and Vivid Seats comparison display is gated by their enabled feature flags plus provider-specific source, exact-event, and freshness conditions; Ticketmaster display remains off.
+- Capability fields in `public/data/catalog.json` (`pricing_type`, `supports_pricing`, `price_aggregation`, `real_time_inventory`) are **inert metadata**. SeatGeek and Vivid Seats comparison display is gated by their enabled feature flags plus provider-specific source, exact provider-level event verification, valid timestamps, and unexpired cache rows; Ticketmaster display remains off.
+- The four-hour SeatGeek and Vivid Seats workflows are the only approved price writers. A run must expose eligible, fetched, usable, written, skipped, stale, and failed counts plus an explicit reason when zero rows are written. Failed observations must never replace an existing fresh row.
 
 ## Affiliate and Redirect Rules
 

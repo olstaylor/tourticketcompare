@@ -323,6 +323,13 @@
   .ttc-site-notice__in { flex-direction: column; gap: 5px; font-size: 12.5px; }
   .ttc-stats__in { grid-template-columns: 1fr; }
   .ttc-stat { border-right: none; border-bottom: 1px solid var(--ttc-border); }
+  .ttc-search__bar { padding-left: 12px; }
+  .ttc-search__go { min-width: 76px; padding: 0 12px; }
+  .ttc-search__tabs { flex-wrap: wrap; }
+  .ttc-search__hint { flex-basis: 100%; margin-left: 0; padding: 3px 6px 0; }
+  .ttc-search__panel { max-height: min(70vh, 520px); overflow-y: auto; }
+  .ttc-hero__trust { gap: 10px 14px; }
+  .ttc-hero__trust > div { white-space: normal; }
 }
 
 /* ============================================================

@@ -82,21 +82,21 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 
 ## TicketNetwork, Ticket Liquidator, and StubHub International
 
-**Implementation status (2026-07-13): built, default-off, not approved for public display yet.** These are three independent provider lanes over the shared Impact Catalogs integration. StubHub International is explicitly separate from StubHub US/Canada.
+**Implementation status (2026-07-13): active.** These are three independent provider lanes over the shared Impact Catalogs integration. StubHub International is explicitly separate from StubHub US/Canada.
 
 The implementation includes:
 
 - `scripts/sync-impact-marketplace-events.mjs`: catalog keyword lookup for registry-verified artists, followed by exact artist/campaign and event-field validation; a candidate is written only when artist, venue, city, and venue-local date agree unambiguously. It writes only the provider's top-level event URL plus `provider_links.<provider>` event ID, URL, verification date, and listing state. Incomplete catalogs never clear a stored link.
 - `/api/out`, `/api/shows`, SSR, and client rendering: provider-specific host allowlists, verified-provenance checks, server-side Impact wrapping, and separate public/display flags.
 - `scripts/snapshot-impact-marketplace-prices.mjs`: cache-only display writer fed by an exact stored provider event ID. Conflicting prices or currencies are skipped.
-- Manual-only workflows for event synchronization and price snapshots. There is no schedule or auto-merge before a supervised provider-specific catalog proof.
+- A manual event-sync workflow whose apply mode opens a review PR and never auto-merges. TicketNetwork and StubHub International exact-ID price snapshots refresh D1 every four hours; Ticket Liquidator remains manual-only and price-disabled while its feed lacks numeric prices.
 
-**Activation requirements for each provider:**
+**Activation evidence and continuing runtime requirements:**
 
-1. The Impact account must show an approved provider program/campaign and Catalogs scope. A 401/403 or a catalog from a different program is a hard stop.
-2. Written rights must confirm event-link, listed-price, comparison/history, and disclosure use. Impact membership alone does not imply those rights.
-3. Sample catalog event URLs and tracking redirects must be browser-verified against the provider and market.
-4. Keep `TICKETNETWORK_PUBLIC_ENABLED`, `TICKETLIQUIDATOR_PUBLIC_ENABLED`, and `STUBHUB_INTERNATIONAL_PUBLIC_ENABLED` false until the matching provider passes 1–3. Price display has a second independent flag and must remain false until the exact-ID snapshot proof and price rights pass.
+1. The verified SeatGeek-scoped Impact account exposes the exact provider campaign and catalog. A later 401/403 or campaign mismatch is a hard stop for ingestion.
+2. Event links and any displayed listed-price snapshot must originate from the approved catalog feed and retain the required affiliate/provider disclosure. Catalog membership does not permit invented inventory, fees, or checkout-total claims.
+3. Sample catalog event URLs and tracking redirects were browser-verified against artist, venue, city, and date. New or ambiguous matches remain withheld.
+4. The public lanes default on; an explicit provider `*_PUBLIC_ENABLED=false` remains the emergency kill switch. TicketNetwork and StubHub International price display default on behind exact-ID/source/freshness/cache gates. Ticket Liquidator price display defaults off while its feed lacks numeric `CurrentPrice`.
 
 **Verified 2026-07-13:** the provider programs and catalogs are accessible through the existing SeatGeek-scoped Impact publisher credentials: TicketNetwork campaign `2322` / catalog `896`, Ticket Liquidator campaign `2085` / catalog `1315`, and StubHub International campaign `24092` / catalog `17571`. Catalog tracking URLs are unwrapped only when their nested destination is a strict provider event URL. Ticket Liquidator event metadata is cross-checked against the matching TicketNetwork catalog record by shared external event ID because its own feed omits city; prices remain disabled because its feed supplies no numeric `CurrentPrice`. TicketNetwork and StubHub International price lanes use exact verified catalog event IDs and stay cache/freshness-gated.
 
@@ -168,4 +168,4 @@ Any provider URL containing these patterns must not appear as a public CTA.
 
 ## Provider Scope
 
-The scoped provider set is SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International. The last three remain non-public pending the activation evidence above. Do not add another provider, revive the parked provider-abstraction scaffolding, create a parallel cache schema, or infer approval across related brands without a separately approved integration backed by verified destinations and explicit usage rights.
+The active scoped provider set is SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International. Do not add another provider, revive the parked provider-abstraction scaffolding, create a parallel cache schema, or infer approval across related brands without a separately approved integration backed by verified destinations and explicit usage rights.

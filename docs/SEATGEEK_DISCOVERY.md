@@ -5,15 +5,7 @@ that already carry a verified Ticketmaster event. It explains how verified
 `seatgeek_url` values are discovered from the SeatGeek API, scored, applied, and
 validated.
 
-> Scope guardrail: this tooling covers **event-level** SeatGeek URLs only.
-> (Artist-level SeatGeek performer-page links exist since 2026-07-02 but are
-> managed through `VERIFIED_TICKET_LINKS` + the provider identity registry via
-> the batch onboarding tooling, not through this enrichment pipeline. SeatGeek
-> price snapshots are likewise separate — they run through
-> `seatgeek-price-snapshots.yml`, see `docs/PROVIDER_DATA_POLICY.md`.) This
-> tooling never invents
-> URLs, never scrapes, and only writes URLs that pass strict event-URL
-> validation identical to the runtime CTA gate.
+> Scope guardrail: this tooling covers event-level SeatGeek URLs only. Artist-level SeatGeek performer pages are managed through `VERIFIED_TICKET_LINKS`, the provider identity registry, and the gated onboarding tooling—not this pipeline. Price snapshots are a separate approved/cache-gated lane described in `PROVIDER_DATA_POLICY.md`. This tooling never invents URLs, never scrapes, and only writes URLs that pass event-URL validation identical to the runtime CTA gate.
 
 ## How a SeatGeek CTA reaches a show
 
@@ -25,8 +17,7 @@ validated.
 3. SeatGeek redirects are configured in production (`isSeatGeekConfigured(env)`),
    so `/api/out?showId=<id>&provider=seatgeek` resolves via Impact tracking.
 
-If any of these is false, the show renders its Ticketmaster CTA only. There is
-no fallback that fabricates a SeatGeek link.
+If any of these is false, the SeatGeek CTA is suppressed; another independently eligible provider may still render. There is no fallback that fabricates a SeatGeek link.
 
 ## Credentials
 
@@ -49,10 +40,10 @@ closed.
 |---|---|---|---|
 | `npm run seatgeek:self-test` | `propose-seatgeek-urls.mjs --self-test` | nothing | CI/local smoke test of scoring + safety, no API calls |
 | `npm run seatgeek:propose` | `propose-seatgeek-urls.mjs` | `reports/seatgeek-url-candidates.json` (gitignored) | Proposal-only review file; never mutates event data |
-| `npm run seatgeek:enrich` | `enrich-seatgeek-events.mjs` | audit log only (dry-run) | Dry-run; shows what would be applied |
-| `npm run seatgeek:enrich:apply` | `enrich-seatgeek-events.mjs --apply-high-confidence` | `events.json` + partitions + audit log | Applies high-confidence matches |
-| `npm run seatgeek:verify` | `verify-seatgeek-events.mjs` | audit log only (dry-run) | Identity-anchored verification preview |
-| `npm run seatgeek:verify:apply` | `verify-seatgeek-events.mjs --apply` | `events.json` + partitions + audit log | Writes `provider_links.seatgeek` verified provenance; self-heals wrong/stale URLs |
+| `npm run seatgeek:enrich` | `enrich-seatgeek-events.mjs` | report only (dry-run) | Dry-run; shows what would be applied |
+| `npm run seatgeek:enrich:apply` | `enrich-seatgeek-events.mjs --apply-high-confidence` | `events.json` + partitions + report | Applies high-confidence matches |
+| `npm run seatgeek:verify` | `verify-seatgeek-events.mjs` | report only (dry-run) | Identity-anchored verification preview |
+| `npm run seatgeek:verify:apply` | `verify-seatgeek-events.mjs --apply` | `events.json` + partitions + report | Writes `provider_links.seatgeek` verified provenance; self-heals wrong/stale URLs |
 | `npm run seatgeek:verify:self-test` | `verify-seatgeek-events.mjs --self-test` | nothing | Offline invariant tests, no API calls |
 
 Useful flags (both enrich + propose): `--artist <slug-or-name>`, `--limit <n>`,
@@ -76,15 +67,9 @@ When an artist has a `seatgeek_performer_id` in
   equals the verified registry id clears the mandatory performer-similarity
   gate even when SeatGeek styles the performer name differently.
 
-This **never** relaxes the other mandatory gates (valid event-level URL, exact
-local date, city). It is event-level only — the performer id scopes a search for
-*events*, it never proposes a performer/artist page URL. All 16 registry
-entries carry a human-verified `seatgeek_performer_id` today, so id-scoped
-search is the normal path; an artist with a `null` performer id would fall back
-to name search until a human verifies and populates the id (one-time, per
-`docs/PROVIDER_SYNC.md`). The proposal report's
-`summary.registry_performer_id` block records how many artists carry a verified
-id, how many events were scoped by id, and how many candidates were id-confirmed.
+This **never** relaxes the other mandatory gates (valid event-level URL, exact local date, city). It is event-level only—the performer ID scopes a search for events and never proposes an artist page.
+
+Verified registry performer IDs take the identity-scoped path. A missing or unverified performer ID falls back to the documented name search until a human verifies the identity. The proposal report records how many artists/events were ID-scoped and ID-confirmed. Current registry counts belong in `PROJECT_STATUS.md`.
 
 This step remains **proposal-only/dry-run**: it never writes `events.json`.
 
@@ -149,7 +134,7 @@ Since 2026-07-08 (owner-approved) `.github/workflows/seatgeek-cta-sync.yml`
 runs both halves nightly at 05:00 UTC — `seatgeek:enrich` in apply mode, then
 `seatgeek:verify:apply` — regenerates partitions and the inline fallback, runs
 the full validation suite in-job, and opens an auto-merged PR
-(`automation:seatgeek-cta` label) with both committed audit logs. This is the
+(`automation:seatgeek-cta` label) with both committed reports. This is the
 second narrow auto-publish exception in `SAFE_PUBLISHING_RULES.md`. Manual
 dispatch defaults to a safe preview; without `SEATGEEK_CLIENT_ID` the run
 no-ops. The manual workflow below remains valid for targeted runs.
@@ -165,7 +150,7 @@ no-ops. The manual workflow below remains valid for targeted runs.
 3. **Apply.** With credentials present, run `npm run seatgeek:enrich:apply`
    (optionally `--artist <slug>`). This writes `seatgeek_url` for high-confidence
    matches into `public/data/events.json`, syncs the per-artist partitions, and
-   refreshes `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md`.
+   refreshes `reports/provider-sync/seatgeek-cta-auto-add.md`.
 4. **Sync + validate.** Run:
    ```
    npm run events:sync
@@ -173,22 +158,16 @@ no-ops. The manual workflow below remains valid for targeted runs.
    node scripts/validate-partitions.mjs
    node scripts/smoke-prelaunch.mjs
    ```
-5. **PR.** Open a PR with the data diff and the audit log for human review. Do
+5. **PR.** Open a PR with the data diff and the report for human review. Do
    not push event-data changes to `main` directly.
 
-## Current coverage snapshot
+## Coverage
 
-As of 2026-07-13, 256 of 397 events carry a stored event-level `seatgeek_url`
-and 203 carry verified SeatGeek provenance. The uncovered Ticketmaster-verified
-events are predominantly European/non-US legs SeatGeek does not list — a
-structural gap, not an untried one; absence of a SeatGeek match for a given show
-is expected and acceptable (the Ticketmaster CTA still renders). Live counts
-belong in `PROJECT_STATUS.md`; the nightly sync keeps coverage current from
-here on.
+Coverage changes whenever provider sync runs. Recount from `public/data/events.json` and record current values only in `PROJECT_STATUS.md`. A missing SeatGeek match is expected for some markets and is not itself a sync failure.
 
 ## Non-goals
 
-- No artist-level SeatGeek links from this pipeline (they live in `VERIFIED_TICKET_LINKS` via batch onboarding); no price handling (snapshots run through `seatgeek-price-snapshots.yml`).
+- No artist-level SeatGeek links or price-cache writes from this pipeline; those are separate gated systems.
 - No invented or scraped URLs; only API-discovered URLs that pass validation.
 - No changes to `/api/out` redirect logic, Impact handling, or CTA rendering.
 - Apply runs are either human-run or the sanctioned nightly

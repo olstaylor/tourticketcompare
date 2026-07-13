@@ -1,7 +1,5 @@
 # TourTicketCompare Content Rules
 
-_Reviewed current: 2026-07-13._
-
 Rules for what can and cannot be published on TourTicketCompare. These apply to all human and AI contributors. For provider/price-display rights and the inert-catalog-metadata rule, see `SAFE_PUBLISHING_RULES.md` and `docs/PROVIDER_DATA_POLICY.md`.
 
 ---
@@ -62,7 +60,7 @@ A ticket button (CTA) may appear only when **all three conditions** are met:
 
 Artist-level buttons (pointing to a provider's artist page) are acceptable when the above conditions are met.
 
-Event-level buttons must additionally have a verified event record (`events.json`) with a `ticketmaster_event_id` or equivalent confirmed destination.
+Event-level buttons must additionally have a reviewed local event ID, the provider's exact event identity/destination, and matching provider provenance. One provider's verification never authorizes another provider lane.
 
 ---
 
@@ -87,12 +85,11 @@ Event-level buttons must additionally have a verified event record (`events.json
 
 ## Price Data
 
-- Ticketmaster should not be used as a public price source unless the Discovery API supplies approved, displayable pricing for the specific event.
-- SeatGeek may supply a provider-attributed snapshot only from the approved SeatGeek partner API when `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, and the snapshot is timestamped and fresh.
-- Vivid Seats may supply a provider-attributed snapshot only from its approved feed when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, the cached row has `source='vividseats_impact_marketplace_api'`, and the snapshot is timestamped and fresh.
-- TicketNetwork and StubHub International may supply provider-attributed listed-price snapshots only from their approved Impact catalogs under the same gate pattern (`TICKETNETWORK_PRICE_DISPLAY_ENABLED` / `STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED`, exact provider-level event verification, approved source, timestamped fresh cache row). Ticket Liquidator price display stays disabled while its catalog supplies no numeric `CurrentPrice` (`TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED` must not be enabled until it does).
-- Written agreements confirmed on 2026-07-10 permit SeatGeek and Vivid Seats snapshots to be displayed side by side for the same verified event, including lower-listed-price and difference calculations plus history.
-- Price data must be timestamped, attributed to the provider, tied to the exact event, and clearly distinguished from final checkout totals.
+- A provider-attributed listed-price snapshot may be published only when the provider has explicit display rights and the lane passes its public/price flags, approved source, exact-event provenance, matching verified URL, timestamp, currency, and freshness checks.
+- Do not publish scraped, invented, manually entered, stale, mismatched, availability, or inventory data.
+- Comparisons require eligible snapshots for the same local event and currency. Label them as provider-supplied listed-price snapshots, never live inventory or final totals.
+- Fees, taxes, delivery, availability, and checkout totals must be confirmed on the provider.
+- Provider-specific sources and restrictions are authoritative in `docs/PROVIDER_DATA_POLICY.md`; current activation belongs in `PROJECT_STATUS.md`.
 
 ---
 
@@ -100,7 +97,7 @@ Event-level buttons must additionally have a verified event record (`events.json
 
 - Guide content should answer practical, search-intent questions fans have before buying tickets.
 - Guides may reference general market behaviour (e.g., "service fees typically add 20–30% to face value") if that is factual and widely documented.
-- Guides may explain the approved SeatGeek/Vivid Seats comparison feature, but must not claim guaranteed savings, final checkout totals, availability, or data that is not actually displayed.
+- Guides may explain the approved snapshot comparison feature, but must not claim guaranteed savings, final checkout totals, availability, or data that is not actually displayed.
 
 ---
 

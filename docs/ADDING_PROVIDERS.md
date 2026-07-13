@@ -11,7 +11,7 @@ Safe integration path for new ticket/affiliate providers. Do not add providers o
 1. **Task is in BACKLOG.md** — Explicitly listed as an active priority
 2. **Data source is verified** — Official API, partnership, or affiliate feed (not scraped)
 3. **Rights are confirmed** — Permission to display pricing, links, or event data
-4. **Affiliate program is active** — Provider must accept Impact or direct CPA partnerships
+4. **Commercial/link model is documented** — Impact, direct partnership, or an explicitly non-affiliate plain-link lane
 5. **Disclosure requirements are documented** — Clear rules for "Affiliate" or "Sponsored" labels
 
 If any condition is unmet, do not activate the provider publicly. An explicitly
@@ -44,14 +44,14 @@ Before writing code or data:
    - Impact account setup: impact.com program ID, auth token, publisher tag
 
 4. **Allowed CTA behaviour**
-   - When does "Buy tickets" button appear? (always, only if on-sale, only if inventory > 0?)
+   - When may the CTA appear? Define URL, provenance, source, runtime configuration, freshness, and fail-closed gates without inferring inventory.
    - Fallback: if provider data is stale or unavailable, what happens? (hide button, show watchlist, show generic ticket link?)
    - Empty state: if no events are available for an artist, what page state do users see?
 
 5. **Validation tests**
    - Smoke test: verify affiliate redirect works (`/api/out?artistSlug=...&provider=...` → correct URL)
    - Link validity: spot-check that generated URLs resolve and go to correct provider page
-   - Price accuracy: if displaying prices, verify they match provider page (within 1 hour)
+   - Price integrity: if displaying prices, verify approved source, exact-event identity, currency, observation time, expiry, and cache-only rendering
    - CTA logic: button only appears when conditions above are met
 
 ### Phase 2: Data Integration
@@ -85,24 +85,16 @@ Once Phase 1 is documented and reviewed:
 
 ---
 
-## Current Provider Status
+## Current provider status
 
-| Provider | Status | Notes |
-|----------|--------|-------|
-| **SeatGeek** | ✅ Live (artist + event level) | Primary affiliate CTA via Impact. Artist-level performer-page entries (API-captured URLs) and event-level `seatgeek_url` CTAs, all through `/api/out`. Price snapshots remain source/freshness gated. |
-| **Ticketmaster** | ✅ Live (plain links) | Official event source and verified destination; **no affiliate relationship** (removed from the programme 2026-07). Links are plain, unmonetized redirects rendered after the affiliate providers. |
-| **Vivid Seats** | ✅ Live (event level) | Approved Impact catalog lane with verified `/production/<id>` destinations and gated price snapshots. |
-| **TicketNetwork** | ✅ Active via Impact | SeatGeek-scoped Impact campaign `2322`, catalog `896`; verified event links, tracked redirects, CTAs, and exact-ID D1 snapshots. |
-| **Ticket Liquidator** | ✅ Active via Impact | SeatGeek-scoped Impact campaign `2085`, catalog `1315`; verified event links, tracked redirects, and CTAs. Its catalog currently has no numeric `CurrentPrice`, so the independent price-display flag remains off. |
-| **StubHub International** | ✅ Active via Impact | SeatGeek-scoped Impact campaign `24092`, catalog `17571`; verified event links, tracked redirects, CTAs, and exact-ID D1 snapshots. |
-| **StubHub US/Canada, Viagogo** | ⏸️ Not started | Separate providers and separate scope; do not infer approval from StubHub International. |
+The active provider roster, rollout state, and current constraints change over time and are recorded only in [PROJECT_STATUS.md](../PROJECT_STATUS.md). Durable provider-specific rights, sources, URL shapes, and price gates live in [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md).
 
----
+Do not copy campaign IDs, coverage counts, or point-in-time activation claims into this runbook.
 
 ## Example: Ticketmaster Integration (Live, plain links)
 
 **Source:** Official Ticketmaster artist pages + event discovery API
-**Rights:** None needed — plain, unmonetized links to verified destinations (the Impact affiliate programme membership ended 2026-07)
+**Rights model:** Plain, unmonetized links to verified destinations; no affiliate or price-display rights are inferred
 **Disclosure:** Affiliate-disclosure page states Ticketmaster links earn nothing
 **CTA behaviour:** Verified Ticketmaster links render after the affiliate providers ("Check Ticketmaster" beside a SeatGeek CTA, "View tickets" standalone)
 **Fallback:** Redirect straight to the verified stored URL; no tracking involved

@@ -1,210 +1,146 @@
-# TourTicketCompare Architecture
+# TourTicketCompare architecture
 
-This document describes the repo architecture as confirmed by reading the source and live evidence. Live production state is confirmed via `/api/health` (first confirmed 2026-05-11; structure re-verified against the repo 2026-07-13). Live counts and binding state belong in `PROJECT_STATUS.md`, not here.
+TourTicketCompare is a static-first Cloudflare Pages application with Pages Functions for routing and APIs. This document describes durable repository contracts; current counts, provider rollout state, and live risks belong in [PROJECT_STATUS.md](../PROJECT_STATUS.md).
 
----
+## Runtime
 
-## Runtime Overview
+| Layer | Responsibility |
+|---|---|
+| `public/` | Static HTML shell, client JavaScript, CSS, and public JSON data |
+| `functions/` | Cloudflare Pages middleware, server-rendered route adaptation, APIs, redirects, and sitemap |
+| Cloudflare Pages | Production hosting and Git-integrated deployment |
+| Cloudflare D1 (`DEMAND_DB`) | Signups, analytics, rate caps, provider pricing cache, and pricing history |
 
-| Layer | What it is | Status |
-|---|---|---|
-| `public/` | Static frontend assets (HTML, CSS, JS, data) | Confirmed |
-| `functions/` | Cloudflare Pages Functions (server-side routing + APIs) | Confirmed |
-| Cloudflare Pages | **Production runtime** — serves `tourticketcompare.com` and `www.tourticketcompare.com` | Confirmed live 2026-05-11 |
-| Standalone Worker | `tourticketcompare-live` — legacy; no longer serving production custom domains | Superseded 2026-05-11 |
-| Vercel | Never production; deploy artefacts removed from the repo (#176) | Not in use |
+Cloudflare Pages + Pages Functions is the only production path. Vercel and the former standalone Worker are not deployment targets; do not reintroduce either without an explicit architecture decision.
 
-**Canonical deployment model (issue #176): Cloudflare Pages + Pages Functions is the only production deployment path.** The Vercel deploy artefacts (`vercel.json`, root `api/`) and the standalone Worker builder (`scripts/build-standalone-worker.mjs`) were removed from the repo in the #176 deletion pass (2026-06-19); only `archive/vercel-experimental/README.md` remains as a historical marker. Do not add Vercel- or Worker-specific logic. D1 bindings are limited to `DEMAND_DB` (no `RATE_LIMIT_DB`, no `CLICKS_DB`).
+## Repository map (key paths)
 
-**Production deploy path:** Changes to `functions/` or `public/` merged to `main` deploy to production automatically via the Cloudflare Pages Git integration (`npm run deploy:pages` exists for emergencies only). No Worker rebuild is required for normal production changes.
-
----
-
-## Confirmed Repo Structure
-
-```
-public/               Static assets served directly by Cloudflare Pages
-  index.html          Shell HTML for all routes (meta, title, canonical replaced server-side);
-                      carries an inlined data fallback written by scripts/sync-events-data.py
-  app.js              Client-side JS (progressive enhancement only)
-  ttc-home.js         Homepage client-side JS
-  styles.css, ttc-home.css
-  404.html, _headers, _routes.json, favicon.svg, og-image.png, robots.txt
-  assets/, fonts/, internal/
+```text
+public/
+  index.html                 Shared HTML shell and generated inline data fallback
+  app.js                     Progressive-enhancement client
   data/
-    artists.json      Artist records (slug, name, factual_summary, ticket links)
-    catalog.json      Providers, ticket_links, tours
-    fallback-catalog.json  Client-side fallback if /data/catalog.json fails to load
-    provider-configs.json  Per-provider display/cache/safety configuration
-    events.json       Reviewed event records
-    events/           Per-artist partitioned event files (generated)
-    events-index.json Generated index over the partitions
-    guides-content.json    Guide page content (topic guides)
+    artists.json             Artist records and indexing state
+    catalog.json             Provider metadata, artist links, and tours
+    fallback-catalog.json    Client fallback if catalog loading fails
+    provider-configs.json    Provider display/cache/safety configuration
+    guides-content.json      Guide content keyed by route
+    events.json              Reviewed event records
+    events/                  Generated per-artist partitions
+    events-index.json        Generated partition index
 
-functions/            Cloudflare Pages Functions
-  _middleware.js      Runs for all requests; delegates HTML routes to [[path]].js
-  _route-metadata.js  Shared page metadata (TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS)
-                      — imported by [[path]].js
-  [[path]].js         Catch-all: ALL HTML routing logic, schema injection, 404 handling
-  _impact-marketplace-config.js  Shared config for the Impact marketplace providers
-                      (TicketNetwork, Ticket Liquidator, StubHub International)
-  _provider-registry.js  Parked provider-abstraction scaffolding — do not build on
-  artists.js          Re-exports onRequest from [[path]].js (fallback if middleware removed)
-  guides.js           Re-exports onRequest from [[path]].js
-  how-it-works.js     Re-exports onRequest from [[path]].js
-  editorial-policy.js Re-exports onRequest from [[path]].js
-  affiliate-disclosure.js Re-exports onRequest from [[path]].js
-  contact.js          Re-exports onRequest from [[path]].js
-  sitemap.xml.js      Generates sitemap
-  llms.txt.js         Generates /llms.txt
+functions/
+  _middleware.js             Entry point for requests
+  [[path]].js                Active HTML router and server rendering
+  _route-metadata.js         Route titles, descriptions, H1s, and guide registry
+  _impact-marketplace-config.js  Shared marketplace provider configuration
+  sitemap.xml.js / llms.txt.js  Generated discovery endpoints
+  [named route shims]        Fallback re-exports from [[path]].js
   api/
-    health.js         GET /api/health — binding presence check, never exposes secrets
-    shows.js          GET /api/shows — event metadata + approved cache-only price snapshots
-    out.js            GET/POST /api/out — verified outbound redirect (affiliate-safe)
-    signup.js         POST /api/signup — email demand capture to D1
-    analytics.js      POST /api/analytics — first-party event analytics to D1
-    debug-seatgeek.js Internal diagnostic (kept deliberately)
-    _providers/       Parked provider-abstraction scaffolding — do not build on
-    impact/
-      _utils.js       Shared Impact API helpers
-      health.js       GET /api/impact/health — credential presence check
-      catalogs.js     GET /api/impact/catalogs — Impact catalog diagnostics
-      products.js     GET /api/impact/products — Impact product feed
-      tracking-links.js POST /api/impact/tracking-links — generate Impact tracking URLs
+    out.js                   Fail-closed outbound redirect and provider policy
+    shows.js                 Event API and cache-only price responses
+    health.js                Runtime/config presence without secret values
+    impact/                  Server-side Impact helpers and diagnostics
 
 data/
-  provider-identities.json  Verified provider identity registry (human-verified only)
+  provider-identities.json   Human-verified provider identity registry
 
-scripts/              Validation, discovery, snapshot, and automation tooling — the
-                      command map lives in CONTRIBUTING.md and package.json; do not
-                      duplicate the full listing here
-
-docs/                 Reference docs (see CLAUDE.md § Key Documentation);
-                      docs/archive/ is historical, indexed in docs/archive/INDEX.md
-
-migrations/           Numbered D1 migrations — applied state recorded in
-                      migrations/README.md
+scripts/                     Validation, sync, reporting, and automation tools
+.github/workflows/           Scheduled and manual automation
+reports/provider-sync/       Latest generated provider-sync audit output
+docs/                        Stable policies and runbooks
+migrations/                  Ordered D1 migrations and applied-state ledger
 ```
 
----
+## Request routing
 
-## Routing Model
-
-### Request flow (Cloudflare Pages)
-
-```
-Request
-  → _routes.json: routes /* through Functions (excludes /_assets/* and /favicon.ico)
-  → _middleware.js
-      ├─ API path (/api/*, /data/*)        → context.next() → specific API handler
-      ├─ Known static file (/app.js, etc.) → context.next() → served from assets
-      ├─ Any file extension (.*)           → context.next() → served from assets
-      └─ All other paths                  → [[path]].js onRequest (HTML rendering)
+```text
+request
+  → public/_routes.json
+  → functions/_middleware.js
+      ├─ /api/* and known assets → context.next()
+      ├─ file-extension paths    → static asset handling
+      └─ HTML routes            → functions/[[path]].js
 ```
 
-### HTML routing logic (all in `[[path]].js`)
+`functions/[[path]].js` handles the home page, trust pages, guide routes, artist routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry. Update metadata there rather than duplicating it in the router.
 
-| Pattern | Behaviour |
-|---|---|
-| `/` | Homepage |
-| `/artists`, `/guides`, `/how-it-works`, etc. | Static trust pages (title/meta/content injected into `index.html`) |
-| `/guides/[known-slug]` | Guide page (rendered with article schema) |
-| `/guides/[old-slug]` | 301 redirect to canonical guide slug |
-| `/artists/[known-slug]` | Artist page (loaded from catalog.json) |
-| `/artists/[known-slug]/tickets` | 301 redirect to `/artists/[slug]` |
-| `/artists/[known-slug]/[tour-slug]` | Tour page (only if verified tour record exists) |
-| `/[artist-slug]-tickets[-city]` | 301 redirect to `/artists/[slug]` (legacy URLs) |
-| `/[artist-slug]` | 301 redirect to `/artists/[slug]` (legacy root-level URLs) |
-| Unknown path with no file extension | 404 (noindex; HTML shell injected) |
-| Unknown path with file extension | Passed through to assets |
+The named route shims (`functions/artists.js`, `guides.js`, and peers) only re-export `onRequest` from `[[path]].js`. While middleware is active, editing a shim does not change live routing.
 
-### Named route shims
+Unknown non-file routes return a real noindex 404. The site must not generate thin pages for unknown artists, tours, cities, or venues.
 
-`functions/artists.js` and similar files each contain exactly:
+## Data and rendering flow
 
-```js
-export { onRequest } from "./[[path]].js";
-```
+1. Reviewed source records live in `public/data/artists.json`, `catalog.json`, and `events.json`.
+2. `npm run events:partition` creates per-artist event files and `events-index.json`.
+3. `npm run events:sync` refreshes partitions and the inline fallback in `public/index.html`.
+4. Server rendering and `/api/shows` read the reviewed data and apply the same provider publishability rules.
+5. `public/app.js` progressively enhances the server-rendered page; it must not loosen server-side URL, provenance, or price gates.
 
-**Behaviour:**
-- While `_middleware.js` is in place, middleware intercepts HTML routes and calls `[[path]].js` directly. The named shims are **never invoked** for those routes because middleware returns a full Response without calling `context.next()`.
-- If `_middleware.js` is removed, the named shims become the active handlers for their specific routes and will delegate to `[[path]].js` — behaviour is preserved but the routing path changes.
-- **Risk:** Editing a named shim has no effect on the live site while middleware is in place. This can mislead contributors into thinking they have edited the active handler.
+The `stale-sync-guard` workflow check prevents public JSON and the inline fallback from drifting.
 
----
+## Provider and redirect contract
 
-## Production Deploy Architecture
+All public ticket clicks route through `/api/out`.
 
-Production is served by Cloudflare Pages Functions. The deploy path is:
+- Ticketmaster destinations are verified plain redirects with no affiliate wrapping.
+- Affiliate providers require a provider-specific allowlisted URL, publishable provenance, runtime public configuration, and successful server-side tracking generation.
+- Artist-level destinations come from protected constants and verified identity records.
+- Event-level destinations come from reviewed event data and provider-specific provenance.
+- Any missing or invalid condition suppresses the CTA or returns diagnostic JSON. There is no untracked affiliate fallback.
 
-```
-git push origin main
-  → Cloudflare Pages Git integration (if active) → automatic Pages deploy
-  OR
-npm run deploy:pages → manual Pages deploy
-```
+`functions/api/out.js`, the provider identity registry, server rendering, `/api/shows`, and `public/app.js` must preserve equivalent provider eligibility semantics. Validators and smoke tests guard this parity.
 
-`env.ASSETS` is provided by Cloudflare Pages at runtime and resolves requests for static files from `public/`. Data files (`/data/catalog.json`, etc.) are served the same way.
+Provider-specific rights, sources, URL shapes, and current lanes are documented in [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md).
 
-**`npm run deploy:pages` is the production deploy command.** Both `npm run deploy` and `npm run deploy:pages` run `wrangler pages deploy public` — they are identical and both update production.
+## Price snapshots
 
-### Legacy: Standalone Worker (removed)
+Public page requests never fan out to marketplace APIs. Approved writers put exact-event, provider-attributed observations into D1. `/api/shows` reads that cache in batches and returns a lane only when all of these pass:
 
-The standalone Worker builder (`scripts/build-standalone-worker.mjs`) was removed from the repo in the #176 deletion pass (2026-06-19). It had bundled `public/` assets and `functions/` routing into a single self-contained Worker `.js` file for the superseded `tourticketcompare-live` Worker, and was never part of the Pages production deploy path. If a Worker rollback is ever needed again, rebuild the bundler from git history rather than re-adding it speculatively.
+- provider public and price-display flags;
+- verified provider event provenance and a matching allowlisted destination;
+- the approved provider/source identifier;
+- finite price and currency values;
+- observation and expiry timestamps; and
+- an unexpired cache row for the same local event.
 
----
+Comparisons require at least two eligible snapshots for the same event and currency. They are listed-price observations, not availability or final checkout totals.
 
-## Data Bindings
+## Bindings and secrets
 
-| Binding | Name | Status | Notes |
-|---|---|---|---|
-| `DEMAND_DB` | `tourticketcompare-demand` | Active | Real database ID in wrangler.toml; stores email_subscribers, artist_interests, analytics_events, rate_limits, and the provider pricing cache/history tables (see `migrations/README.md`) |
+`wrangler.toml` declares the `DEMAND_DB` binding and non-secret development defaults. Production secrets and environment-specific flags are configured in Cloudflare Pages and GitHub Actions.
 
-`wrangler.toml` currently declares `DEMAND_DB` only. Earlier placeholder `RATE_LIMIT_DB` and `CLICKS_DB` blocks have been removed and are no longer present in the file.
+Credential groups include:
 
-Secret bindings (Impact affiliate credentials per provider, SeatGeek API discovery credentials, and the per-provider `*_PUBLIC_ENABLED` / `*_PRICE_DISPLAY_ENABLED` flags) are configured in the Cloudflare dashboard, never in the repo. The authoritative binding list and current runtime state live in `CLAUDE.md` § Bindings and `PROJECT_STATUS.md`; confirm live state through `/api/health` rather than inferring it from the repository.
+- network-level and provider-specific Impact credentials;
+- SeatGeek discovery/price API credentials;
+- Ticketmaster Discovery API credentials for automation; and
+- Cloudflare credentials for scheduled D1 writes.
 
----
+Secrets are server-side only. `/api/health` may report presence/absence but must never emit values. The obsolete Ticketmaster Impact credentials are not read by code.
 
-## Known Architectural Notes
+## Deployment
 
-### 1. Route metadata shared module
+Merges to `main` deploy through the Cloudflare Pages Git integration. `npm run deploy:pages:safe` is the emergency/manual path and runs the validation suite before `wrangler pages deploy public`.
 
-`functions/_route-metadata.js` exports `TRUST_ROUTES`, `GUIDE_ROUTES`, and `OLD_GUIDE_REDIRECTS`. This is the single source of truth for page titles, descriptions, H1s, breadcrumbs, and guide redirect mappings used by `functions/[[path]].js`.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for the operator runbook.
 
-**When updating page metadata:** edit `functions/_route-metadata.js` only. Do not add copies in `[[path]].js`.
+## Protected architectural areas
 
-### 2. Routing precedence risks
+Changes to these files require explicit scope and proportionate validation:
 
-`_routes.json` routes `/*` through functions. This means:
+- `functions/_middleware.js`
+- `functions/[[path]].js`
+- `functions/_route-metadata.js`
+- `functions/api/out.js`
+- `functions/api/shows.js` price/eligibility gates
+- `public/_routes.json`
+- reviewed records under `public/data/`
+- Impact/provider credentials and tracking logic
 
-- Any uncaught exception in a Pages Function returns a blank or error response rather than falling back to the static `public/` file.
-- If `_middleware.js` throws, all HTML routes fail.
-- Adding a new file to `functions/` with a matching route name could silently shadow or double-handle a route.
+## Documentation boundaries
 
-### 3. Named shim fragility
-
-The named shims provide a safety net if middleware is removed, but are otherwise unused. A contributor editing `functions/artists.js` expecting to affect artist route behaviour would see no change while `_middleware.js` is active.
-
-### 4. Vercel path
-
-`vercel.json` and the root `api/` Vercel-style handlers were removed from the repo in the #176 deletion pass (2026-06-19). Vercel is not a production target. Do not re-add Vercel deploy config or root `api/**/*.mjs` handlers unless a deliberate architecture decision reintroduces Vercel.
-
-### 5. D1 bindings
-
-`wrangler.toml` declares only `DEMAND_DB` (real database ID). The earlier placeholder `RATE_LIMIT_DB` and `CLICKS_DB` blocks have been removed; do not re-add them without a real D1 ID, since placeholder values would break local Pages dev and any CLI deploys that read `wrangler.toml`.
-
----
-
-## What Requires Manual Cloudflare Verification
-
-| Item | Status |
-|---|---|
-| Custom domains route to Cloudflare Pages (not Worker) | Confirmed live 2026-05-11 |
-| Pages bindings: `DEMAND_DB`, `IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN` | Confirmed via `/api/health` 2026-05-11 |
-| `MOCK_MODE` and `ALLOW_MOCK_PRICES` are `false` | Confirmed via `/api/health` 2026-05-11 |
-| `www.tourticketcompare.com` → 301 → apex | Confirmed via Cloudflare Redirect Rule 2026-05-11 |
-| GitHub→Pages Git integration active | Confirmed — merges to `main` auto-deploy to production (standing behaviour; see `CLAUDE.md` § Project Overview) |
-| `IMPACT_DEFAULT_PROGRAM_ID` configured | **Not required** — confirmed 2026-05-12. |
-| `IMPACT_TICKETMASTER_PROGRAM_ID` | **Removed from code 2026-07-02** — the site left the Ticketmaster affiliate programme; Ticketmaster redirects are plain. Delete the unused secret from the dashboard. SeatGeek uses `IMPACT_SEATGEEK_*`; Vivid Seats (`IMPACT_VIVIDSEATS_*`) is live for event-level CTAs (activated 2026-07-10). |
-| TicketNetwork / Ticket Liquidator / StubHub International lanes | **Active since 2026-07-13** — verified through the SeatGeek-scoped Impact account (pinned campaigns `2322`, `2085`, `24092`) with optional per-provider overrides and independent `*_PUBLIC_ENABLED` kill switches. See `CLAUDE.md` § Bindings and `PROJECT_STATUS.md` for current state. |
+- Stable contracts and structure: this file, `CLAUDE.md`, and topic runbooks.
+- Current counts, runtime state, and risks: `PROJECT_STATUS.md` only.
+- Priorities and parked work: `BACKLOG.md` only.
+- Historical implementation details: git history, pull requests, and issues.

@@ -1,52 +1,58 @@
 # TourTicketCompare
 
-Independent, unofficial fan-facing ticket research site for major live music tours.
+Independent, unofficial ticket research for major live music tours.
 
-Live at **[tourticketcompare.com](https://tourticketcompare.com)** (www redirects to apex).
+Live at **[tourticketcompare.com](https://tourticketcompare.com)** (`www` redirects to the apex domain).
 
-## What it does
+## What the site does
 
-Helps fans find checked ticket links, understand buying risks, and read practical guidance before leaving for an external ticket provider.
+TourTicketCompare helps fans find checked ticket destinations, understand buying risks, and read practical guidance before leaving for an external provider.
 
-- Verified ticket links where available — SeatGeek (affiliate, primary), Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International (affiliate, verified event-level links), Ticketmaster (plain, unmonetized)
-- Practical buying guides (fees, resale risk, timing, provider differences)
+- Verified artist- and event-level ticket links where the required provider checks pass
+- Provider-attributed listed-price snapshots for approved, exact-matched events
+- Buying guides covering fees, resale risk, timing, and provider differences
 - Artist watchlist pages for major tours
 
-**Available now:** Approved, timestamped provider price snapshots (SeatGeek, Vivid Seats, TicketNetwork, StubHub International) may be displayed side by side for the same verified event while fresh, including the lower listed snapshot and price difference. Fees, taxes, availability, delivery, and the final checkout total remain provider-controlled and must be confirmed before buying.
+Ticketmaster is a plain, unmonetized event/link source. Approved affiliate lanes currently include SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International; availability varies by event and each lane fails closed when its URL, provenance, runtime configuration, or source checks do not pass. See [Provider Data Policy](docs/PROVIDER_DATA_POLICY.md) for the durable rules and [Project Status](PROJECT_STATUS.md) for the current rollout state.
+
+Displayed prices are timestamped provider-supplied listed-price snapshots, not live inventory or final checkout totals. Fees, taxes, availability, delivery, and totals must be confirmed with the provider.
 
 ## Tech stack
 
-- **Frontend:** static HTML/CSS/JS in `public/` (no build step)
-- **Server-side routing + APIs:** Cloudflare Pages Functions in `functions/`
-- **Storage:** Cloudflare D1 (`DEMAND_DB`)
-- **Deploy:** merges to GitHub `main` auto-deploy to Cloudflare Pages production via Git integration
+- **Frontend:** static HTML/CSS/JavaScript in `public/` (no compilation step)
+- **Routing and APIs:** Cloudflare Pages Functions in `functions/`
+- **Storage:** Cloudflare D1 via the `DEMAND_DB` binding
+- **Deployment:** merges to GitHub `main` deploy through Cloudflare Pages Git integration
 
 ## Quick start
 
 ```bash
 npm install
-npm run dev        # Pages preview at http://localhost:3000 (health: /api/health)
+npm run dev        # http://localhost:3000; health: /api/health
+npm run test:mvp   # documentation, data/provider, and smoke validation
 ```
 
-Validation, event-data commands, and the PR checklist are in [CONTRIBUTING.md](CONTRIBUTING.md).
+Setup details, targeted checks, event-data commands, and the PR checklist are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Project docs
-
-Start with these three, in order — they are the source of truth:
+## Documentation map
 
 | Document | Purpose |
 |---|---|
-| [CLAUDE.md](CLAUDE.md) | Contributor/AI brief: rules, protected areas, architecture, working style |
-| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Current state snapshot: data counts, per-artist status, active risks |
-| [BACKLOG.md](BACKLOG.md) | Active prioritised work and the parked list |
+| [CLAUDE.md](CLAUDE.md) | Stable contributor rules, protected areas, architecture, and working style |
+| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Current data counts, production state, and active risks |
+| [BACKLOG.md](BACKLOG.md) | Prioritised work and explicit parking decisions |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Local setup, validation, and change checklist |
+| [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) | Non-negotiable data, CTA, price, and automation rules |
+| [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md) | Documentation ownership, lifecycle, and drift checks |
 
-Hard rules: [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md). Reference docs (architecture, deployment, content rules, provider policy, onboarding workflows) are indexed in [CLAUDE.md](CLAUDE.md) § Key Documentation. Historical material lives in [`docs/archive/`](docs/archive/INDEX.md) and is not authoritative.
+Topic runbooks and policies are linked from [CLAUDE.md](CLAUDE.md#key-documentation). Superseded decisions and documents belong in git history, not in a parallel archive directory.
 
-## Key rules
+## Core integrity rules
 
-- Never invent tours, dates, venues, prices, availability, or ticket inventory.
+- Never invent tours, dates, venues, prices, availability, providers, or inventory.
 - Never scrape ticket providers.
-- Never claim live price comparison. Provider-specific snapshots require explicit written usage rights, an approved source, an enabled runtime flag, and fresh timestamped data.
-- GitHub `main` is the source of truth; unknown routes 404 rather than generating thin pages.
+- Never expose credentials or raw affiliate tracking in public assets.
+- Never claim live or final-price comparison; every displayed lane must satisfy its approved source, exact-event, timestamp, and freshness gates.
+- GitHub `main` is the source of truth, and unknown routes return a real 404 instead of a generated thin page.
 
-See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) for the full rules.
+See [Content Rules](docs/CONTENT_RULES.md) and [Provider Data Policy](docs/PROVIDER_DATA_POLICY.md) for the complete rules.

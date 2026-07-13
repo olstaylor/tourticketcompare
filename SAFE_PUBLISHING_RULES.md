@@ -1,7 +1,5 @@
 # Safe Publishing Rules
 
-_Reviewed current: 2026-07-10._
-
 Non-negotiable rules for TourTicketCompare. Violating these compromises the site's integrity or affiliate agreements.
 
 See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) for full detail and provider-specific policy.
@@ -18,7 +16,7 @@ See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLIC
 
 An artist-level "Buy tickets" button may appear only when the artist exists in `public/data/catalog.json`, the provider destination is present in `VERIFIED_TICKET_LINKS`, and the configured redirect passes the provider allowlist and placeholder checks.
 
-An event-level button additionally requires a reviewed event record, a provider-specific destination with publishable verification/provenance, strict provider URL validation, and the required runtime provider configuration. Independently verified SeatGeek or Vivid Seats provenance may publish that marketplace CTA on a `needs_recheck` row while Ticketmaster remains suppressed.
+An event-level button additionally requires a reviewed event record, a provider-specific destination with publishable verification/provenance, strict provider URL validation, and the required runtime provider configuration. Any independently verified marketplace lane may publish on a `needs_recheck` row only when that provider's own provenance and redirect gates pass; Ticketmaster remains suppressed until its row verification recovers.
 
 If any applicable condition is unmet, show the watchlist / empty state. No placeholder or dead-end links as real CTAs.
 
@@ -37,28 +35,27 @@ Pages become indexable and conversion-led only after completing the phase gates 
 ## Price Display
 
 - Do not say "sold out" or "available" based on unverified inventory data.
-- Do not publish scraping-derived prices, fake/manual prices, a comparison for mismatched events, or a comparison with a stale or missing provider lane.
-- Written SeatGeek and Vivid Seats agreements confirmed on 2026-07-10 permit provider price display across all public site surfaces, side-by-side price display, lower-listed-price and price-difference calculations, and history for the same verified event.
-- Ticketmaster price display from an approved provider feed requires `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true` and remains off by default.
-- SeatGeek comparison data is allowed only when it comes from the approved SeatGeek partner API, `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, and the snapshot is timestamped and unexpired.
-- Vivid Seats comparison data is allowed only when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, the cached row has `source='vividseats_impact_marketplace_api'`, and the snapshot is timestamped and unexpired.
-- A lower-price statement must say it is a provider-supplied listed-price snapshot for the same event. Fees, taxes, availability, delivery, and the final checkout total must remain clearly qualified.
+- Do not publish scraped, invented, manually entered, stale, or mismatched prices.
+- A provider lane may display a listed-price snapshot only when explicit display rights, the approved source, exact-event provenance, a matching verified URL, provider flags, currency, observation time, and expiry all pass.
+- Comparisons require eligible snapshots for the same local event and currency. Any lower-price statement must call them provider-supplied listed-price snapshots.
+- Fees, taxes, availability, delivery, and final checkout totals remain provider-controlled and must be clearly qualified.
+- Ticketmaster remains a verification/link source, not a public comparison lane, unless a separately approved source and feature gate are explicitly activated.
 
 ## Provider Rights and Catalog Metadata
 
-- **Ticketmaster is an official event-verification and link source only — not a reliable price source.** Do not present Ticketmaster data as a price comparison.
-- Marketplace partners may display pricing only where an approved feed/API explicitly permits public display. SeatGeek and Vivid Seats may also be compared under the exact-event, source, freshness, and qualification gates above.
-- **Impact affiliate approval grants link/commission rights only — it never implies price-display rights.** Do not infer the right to show prices from affiliate enrolment.
-- Capability fields in `public/data/catalog.json` (`pricing_type`, `supports_pricing`, `price_aggregation`, `real_time_inventory`) are **inert metadata**. SeatGeek and Vivid Seats comparison display is gated by their enabled feature flags plus provider-specific source, exact provider-level event verification, valid timestamps, and unexpired cache rows; Ticketmaster display remains off.
-- The four-hour SeatGeek and Vivid Seats workflows are the only approved price writers. A run must expose eligible, fetched, usable, written, skipped, stale, and failed counts plus an explicit reason when zero rows are written. Failed observations must never replace an existing fresh row.
+- Affiliate approval grants link/commission rights only; it never implies price-display, event-data, or comparison rights.
+- Marketplace pricing is allowed only where an approved feed/API explicitly permits it. Provider-specific evidence and sources live in `docs/PROVIDER_DATA_POLICY.md`.
+- Capability fields in `public/data/catalog.json` are inert metadata. They never substitute for runtime flags, rights, source, exact-event verification, timestamps, or cache freshness.
+- Approved snapshot writers are the dedicated provider workflows and the shared Impact marketplace workflow for explicitly enabled numeric-price lanes. A run must expose eligible, fetched, usable, written, skipped, stale, and failed outcomes plus an explicit zero-row reason.
+- Failed or unusable observations must never replace an existing fresh row.
 
 ## Affiliate and Redirect Rules
 
 - All ticket outbound links must route through `/api/out` — no raw affiliate URLs in HTML or data files.
 - `functions/api/out.js` and `VERIFIED_TICKET_LINKS` are protected. Do not modify without explicit scope.
-- Impact credentials (`IMPACT_ACCOUNT_SID`, `IMPACT_AUTH_TOKEN`, `IMPACT_SEATGEEK_*`, `IMPACT_VIVIDSEATS_*`) are server-side only. Never expose in public assets, API responses, or client-side code.
+- Impact credentials (network-level and provider-specific) are server-side only. Never expose them in public assets, API responses, client-side code, logs, or documentation.
 - **Ticketmaster links carry no affiliate tracking** (the site left the Ticketmaster affiliate programme, 2026-07): they are plain redirects to the verified stored destination. Never re-add Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
-- SeatGeek / Vivid Seats redirects are Impact-wrapped; if the Impact call fails, `/api/out` returns a diagnostic JSON — never an untracked redirect and never a made-up destination.
+- Every affiliate-provider redirect is server-side tracked and provider-allowlisted. If configuration, validation, or tracking fails, `/api/out` returns diagnostic JSON—never an untracked redirect or a made-up destination.
 
 ## Schema and SEO
 
@@ -73,7 +70,8 @@ Pages become indexable and conversion-led only after completing the phase gates 
 ## Discovery, Enrichment, and Rendering
 
 - SeatGeek is **artist-level and event-level** (artist-level unparked and shipped 2026-07-02). Artist-level destinations must be performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for a registry-verified performer id — never constructed from names. Event-level enrichment auto-apply is limited to high-confidence matches (logged); event-level verification provenance is written only by `scripts/verify-seatgeek-events.mjs`. Fresh approved snapshots may feed the comparison lane only under the price-display rules above.
-- **Vivid Seats is live at event level; artist-level entries are not configured.** `scripts/sync-vividseats-events.mjs` is the only writer of event-level `vividseats_url` / `provider_links.vivid-seats` data: it queries the Impact Marketplace Products catalog by exact registry-verified artist name and uses it as both the discovery set and verification oracle (positive match only — clears/un-verifies require a fully-paginated catalog confirming the stored id is gone, never an incomplete fetch). Its sanctioned `--apply` path may write through a validated PR, but the workflow remains manual-dispatch-only until the commented nightly cron is explicitly enabled.
+- **Vivid Seats is live at event level; artist-level entries are not configured.** `scripts/sync-vividseats-events.mjs` is the only writer of event-level `vividseats_url` / `provider_links.vivid-seats` data: it queries the Impact Marketplace Products catalog by exact registry-verified artist name and uses it as both the discovery set and verification oracle (positive match only—clears/un-verifies require a fully paginated catalog confirming the stored ID is gone, never an incomplete fetch). Its sanctioned scheduled/apply path writes only through a validated automation PR.
+- **Shared Impact marketplace event sync** for TicketNetwork, Ticket Liquidator, and StubHub International is manual/reviewed. It may write only campaign-isolated, unambiguous exact-event matches through `.github/workflows/impact-marketplace-provider-sync.yml`; it never auto-merges and never infers approval between StubHub International and StubHub US/Canada.
 - **Nightly authoritative field-sync** (`.github/workflows/nightly-data-sync.yml` → `scripts/apply-tm-updates.mjs`) may auto-commit **lossless factual updates to events that already exist in `events.json`** — date/time, venue/city, the official listing title (`event_name`, verbatim Discovery API `name`; owner-approved 2026-07-07), and the canonical Ticketmaster URL (refreshed so the `/event/<id>` slug and the `out.js` event-id match stay valid) — sourced directly from the Ticketmaster Discovery API for that exact event id. This sanctioned auto-commit to `events.json` is gated on `events:validate:prod` and the smoke suite passing, and updates are only applied to events with zero review blockers of their own. It is **not** licence to auto-publish anything unverified: event deletions (404/410), cancelled/postponed status (no safe local enum), and `tour_name` (verification-gated, issue #172) are **never auto-applied** — they are surfaced in the rolling `automation:data-sync` issue for human review. Brand-new shows go through the discovery PR flow above (auto-merged only under its owner-approved exception).
 - Every non-root route must return route-specific H1, title, and canonical in raw HTML (SSR via `functions/[[path]].js`). Smoke tests assert this; production proof for issue #10 is a human curl/browser checklist.
 

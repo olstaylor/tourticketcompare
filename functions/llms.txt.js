@@ -63,14 +63,23 @@ export async function onRequestGet({ request, env }) {
 
   const body = `# TourTicketCompare
 
-> Independent, unofficial ticket research for major live music tours. We publish verified ticket links and practical buying guidance — we do not sell tickets, display prices, rank providers, or claim availability. Final prices, fees, and availability are always confirmed on the ticket provider's site.
+> Independent, unofficial ticket research for major live music tours. We publish verified ticket links, reviewed event details, and timestamped provider-supplied listed-price snapshots when approved data passes exact-event, source, and freshness checks. We do not sell tickets or claim live inventory, guaranteed availability, or final checkout totals.
 
 Key facts:
 
 - TourTicketCompare is independent and unofficial; it is not affiliated with any artist or ticket provider.
 - Ticket links are published only after the destination has been verified; unverified links are hidden.
-- Event details (date, venue, city) appear only for reviewed, verified event records.
-- Some outbound links may earn a commission; this never changes which links are shown.
+- Event details (date, venue, city) appear only for reviewed event records.
+- SeatGeek and Vivid Seats listed-price snapshots appear only for the same verified event when approved provider data is fresh and correctly attributed.
+- When both approved snapshots are current and use the same currency, TourTicketCompare can identify the lower listed snapshot and the difference. Snapshots are not final checkout totals and may exclude fees.
+- Some outbound links may earn a commission; this never changes the verification gates or the price shown by the provider.
+
+## Comparison methodology
+
+- [Compare concert ticket prices](${origin}/compare-concert-ticket-prices): Browse exact-event comparisons and the checks to make before buying.
+- [How TourTicketCompare works](${origin}/how-it-works): Read the verification, source, and freshness rules.
+- [Editorial policy](${origin}/editorial-policy): See what the site publishes, withholds, and corrects.
+- [Affiliate disclosure](${origin}/affiliate-disclosure): Understand which links may earn commission and why that does not alter the verification standard.
 
 ## Buying guides
 

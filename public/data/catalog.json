@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-06-10",
+  "updated_at": "2026-07-13",
   "strategy": "Cloudflare Pages stadium tour market watch catalog with factual artist content and verified provider buttons only.",
   "artists": [
     {
@@ -29,8 +29,8 @@
           "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
         },
         {
-          "question": "Why don't you show prices here?",
-          "answer": "Prices change constantly and are controlled by ticket platforms, not this site. Final prices include fees, taxes, and delivery costs that vary by seat and timing. Always confirm the final total on the provider site before paying."
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
         },
         {
           "question": "Is TourTicketCompare official?",
@@ -321,7 +321,7 @@
         },
         {
           "question": "Does a verified link confirm current prices or availability?",
-          "answer": "No. Verified means the destination link was checked. Current prices, fees, and availability are confirmed by the ticket provider at checkout."
+          "answer": "No. Verified means the destination link passed the site's checks. A separate timestamped price snapshot may appear when approved provider data is fresh, but current prices, fees, inventory, and availability are confirmed by the provider."
         },
         {
           "question": "What should I compare if I am checking more than one provider page?",
@@ -371,7 +371,7 @@
         },
         {
           "question": "Does TourTicketCompare publish live Bruno Mars ticket prices?",
-          "answer": "No. This site provides checked destination links and guidance. Current prices, fees, and availability are shown and confirmed by the ticket provider."
+          "answer": "Not as live inventory or a checkout quote. This page may show an approved, timestamped listed-price snapshot for an exact verified event when the provider data passes source and freshness checks. Confirm current price, fees, availability, and terms on the provider site."
         },
         {
           "question": "What is the safest way to compare Bruno Mars ticket options?",
@@ -413,11 +413,11 @@
       "faq": [
         {
           "question": "Does a verified link confirm current prices or availability?",
-          "answer": "No. Verified means the destination link was checked. Current prices, fees, and availability are confirmed by the ticket provider at checkout."
+          "answer": "No. Verified means the destination link passed the site's checks. A separate timestamped price snapshot may appear when approved provider data is fresh, but current prices, fees, inventory, and availability are confirmed by the provider."
         },
         {
           "question": "Does TourTicketCompare publish live Ed Sheeran ticket prices?",
-          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+          "answer": "Not as live inventory or a checkout quote. This page may show an approved, timestamped listed-price snapshot for an exact verified event when the provider data passes source and freshness checks. Confirm current price, fees, availability, and terms on the provider site."
         },
         {
           "question": "How should I check Ed Sheeran ticket options safely?",
@@ -451,8 +451,8 @@
           "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
         },
         {
-          "question": "Why don't you show prices here?",
-          "answer": "Prices change constantly and are controlled by ticket platforms, not this site. Final prices include fees, taxes, and delivery costs that vary by seat and timing. Always confirm the final total on the provider site before paying."
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
         },
         {
           "question": "Is TourTicketCompare official?",
@@ -486,8 +486,8 @@
           "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
         },
         {
-          "question": "Why don't you show prices here?",
-          "answer": "Prices change constantly and are controlled by ticket platforms, not this site. Final prices include fees, taxes, and delivery costs that vary by seat and timing. Always confirm the final total on the provider site before paying."
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
         },
         {
           "question": "Is TourTicketCompare official?",
@@ -521,8 +521,8 @@
           "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
         },
         {
-          "question": "Why don't you show prices here?",
-          "answer": "Prices change constantly and are controlled by ticket platforms, not this site. Final prices include fees, taxes, and delivery costs that vary by seat and timing. Always confirm the final total on the provider site before paying."
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
         },
         {
           "question": "Is TourTicketCompare official?",
@@ -556,8 +556,8 @@
           "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
         },
         {
-          "question": "Why don't you show prices here?",
-          "answer": "Prices change constantly and are controlled by ticket platforms, not this site. Final prices include fees, taxes, and delivery costs that vary by seat and timing. Always confirm the final total on the provider site before paying."
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
         },
         {
           "question": "Is TourTicketCompare official?",
@@ -589,11 +589,11 @@
       "faq": [
         {
           "question": "Does a verified link confirm current prices or availability?",
-          "answer": "No. Verified means the destination link was checked. Current prices, fees, and availability are confirmed by the ticket provider at checkout."
+          "answer": "No. Verified means the destination link passed the site's checks. A separate timestamped price snapshot may appear when approved provider data is fresh, but current prices, fees, inventory, and availability are confirmed by the provider."
         },
         {
           "question": "Does TourTicketCompare publish live Summer Walker ticket prices?",
-          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+          "answer": "Not as live inventory or a checkout quote. This page may show an approved, timestamped listed-price snapshot for an exact verified event when the provider data passes source and freshness checks. Confirm current price, fees, availability, and terms on the provider site."
         },
         {
           "question": "How should I check Summer Walker ticket options safely?",
@@ -626,11 +626,11 @@
       "faq": [
         {
           "question": "Does a verified link confirm current prices or availability?",
-          "answer": "No. Verified means the destination link was checked. Current prices, fees, and availability are confirmed by the ticket provider at checkout."
+          "answer": "No. Verified means the destination link passed the site's checks. A separate timestamped price snapshot may appear when approved provider data is fresh, but current prices, fees, inventory, and availability are confirmed by the provider."
         },
         {
           "question": "Does TourTicketCompare publish live ROSALÍA ticket prices?",
-          "answer": "No. This site does not publish live ticket prices, inventory claims, or provider comparisons. Confirm current details on the ticketing platform before purchase."
+          "answer": "Not as live inventory or a checkout quote. This page may show an approved, timestamped listed-price snapshot for an exact verified event when the provider data passes source and freshness checks. Confirm current price, fees, availability, and terms on the provider site."
         },
         {
           "question": "How should I check ROSALÍA ticket options safely?",

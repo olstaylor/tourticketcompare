@@ -21,15 +21,15 @@ export function canonicalOrigin(origin) {
 
 export const TRUST_ROUTES = {
   "/": {
-    title: "Find Tour Dates and Compare Ticket Prices | TourTicketCompare",
+    title: "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
     description:
-      "Find a tour date, compare available SeatGeek and Vivid Seats price snapshots, and confirm final prices, fees, and availability on the provider site.",
+      "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.",
     indexable: true
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices Across Trusted Sites | Tour Ticket Compare",
+    title: "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats",
     description:
-      "Find checked ticket options for major tours, open verified provider destinations, and compare final prices, fees, availability, and ticket terms on provider sites before buying.",
+      "Compare timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }]
   },
@@ -86,22 +86,22 @@ export const TRUST_ROUTES = {
 
 export const GUIDE_ROUTES = {
   "/guides/how-to-compare-concert-ticket-prices": {
-    title: "How to Compare Concert Ticket Prices Safely | TourTicketCompare",
+    title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     h1: "How to Compare Concert Ticket Prices Safely",
     description:
-      "Compare concert ticket prices the right way: check the final checkout total after fees, match the exact show and seats, and confirm provider terms before you buy.",
+      "Compare concert ticket prices using exact-event, ticket-type, seat, fee, delivery, and buyer-protection checks, with timestamped provider snapshots as a starting point.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-17"
+    lastmod: "2026-07-13"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-    title: "Why Ticket Prices Vary Between Sites | TourTicketCompare",
-    h1: "Why do prices vary between ticket sites?",
+    title: "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
+    h1: "Ticketmaster vs SeatGeek vs Vivid Seats: key differences",
     description:
-      "Understand why concert ticket prices can vary between ticket sites because of fees, inventory type, demand, seat location, delivery, and seller terms.",
+      "Compare Ticketmaster, SeatGeek, and Vivid Seats by ticket type, listed prices, fees, seat details, delivery, and buyer protections before choosing where to buy.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-07-13"
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",

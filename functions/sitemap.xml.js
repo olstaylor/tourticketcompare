@@ -29,7 +29,7 @@ const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 // Stable freshness date for static/guide routes. These pages change rarely, so
 // stamping them with "today" on every request is a noisy/false signal to crawlers.
 // Bump this when the static page content or guides are meaningfully revised.
-const STATIC_LASTMOD = "2026-06-03";
+const STATIC_LASTMOD = "2026-07-13";
 
 async function loadIndexableArtists(env) {
   try {

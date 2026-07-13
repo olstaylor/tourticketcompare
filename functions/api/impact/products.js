@@ -1,20 +1,31 @@
-import { basicAuthHeader, clean, impactConfig, json, missingCredentialsPayload } from "./_utils.js";
+import {
+  basicAuthHeader,
+  clean,
+  impactCatalogApiVersion,
+  impactConfig,
+  impactCredentialSet,
+  json,
+  missingCredentialsPayload,
+  readImpactResponse
+} from "./_utils.js";
 
 export async function onRequestGet({ request, env }) {
-  const config = impactConfig(env);
-  if (!config.configured) return json(missingCredentialsPayload("impact-catalog-items"));
-
   const url = new URL(request.url);
+  const credentialSet = impactCredentialSet(url.searchParams.get("credentialSet"));
+  const config = impactConfig(env, credentialSet);
+  if (!config.configured) return json(missingCredentialsPayload("impact-catalog-items", credentialSet));
+
   const params = new URLSearchParams();
   const query = clean(url.searchParams.get("q") || url.searchParams.get("Keyword"), 120);
   const campaignId = clean(url.searchParams.get("campaignId") || url.searchParams.get("CampaignId"), 120);
   const catalogId = clean(url.searchParams.get("catalogId") || url.searchParams.get("CatalogId"), 120);
   const page = Number.parseInt(url.searchParams.get("Page") || url.searchParams.get("page") || "1", 10);
   const pageSize = Number.parseInt(url.searchParams.get("PageSize") || url.searchParams.get("pageSize") || "20", 10);
+  const apiVersion = impactCatalogApiVersion(env, url.searchParams.get("version") || url.searchParams.get("IrVersion"));
   if (query) params.set("Keyword", query);
   params.set("Page", String(Number.isFinite(page) && page >= 1 ? page : 1));
   params.set("PageSize", String(Math.max(1, Math.min(200, Number.isFinite(pageSize) ? pageSize : 20))));
-  params.set("IrVersion", /^\d{1,2}$/.test(clean(env.IMPACT_CATALOG_API_VERSION, 2)) ? clean(env.IMPACT_CATALOG_API_VERSION, 2) : "15");
+  params.set("IrVersion", apiVersion);
 
   const resource = catalogId
     ? `Catalogs/${encodeURIComponent(catalogId)}/Items`
@@ -29,20 +40,21 @@ export async function onRequestGet({ request, env }) {
         Authorization: basicAuthHeader(config)
       }
     });
-    let payload = null;
-    try {
-      payload = await response.json();
-    } catch (error) {
-      payload = null;
-    }
+    const { payload, diagnostic } = await readImpactResponse(response, config);
     if (!response.ok) {
       return json({
         ok: false,
-        status: response.status === 403 ? "missing_scope_or_approval" : "request_rejected",
+        status: response.status === 401
+          ? "invalid_credentials"
+          : response.status === 403
+            ? "missing_scope_or_approval"
+            : "request_rejected",
         source: "impact-catalog-items",
+        credentialSet,
+        requestedVersion: apiVersion,
         httpStatus: response.status,
         message: "impact.com rejected the Catalogs request.",
-        error: payload?.Message || payload?.message || null
+        ...diagnostic
       }, response.status === 401 || response.status === 403 ? 403 : 502);
     }
     const allProducts = Array.isArray(payload)
@@ -61,6 +73,9 @@ export async function onRequestGet({ request, env }) {
       ok: true,
       status: "connected",
       source: "impact-catalog-items",
+      credentialSet,
+      requestedVersion: apiVersion,
+      upstreamVersion: diagnostic.upstreamVersion,
       httpStatus: response.status,
       resource: catalogId ? "catalog-items" : "catalog-item-search",
       catalogId: catalogId || null,

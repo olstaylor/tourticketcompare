@@ -90,7 +90,7 @@ function catalogItemsUrl(config, artistName, page, env = process.env, pageSize =
     Page: String(page),
     IrVersion: /^\d{1,2}$/.test(clean(env.IMPACT_CATALOG_API_VERSION, 2))
       ? clean(env.IMPACT_CATALOG_API_VERSION, 2)
-      : "15"
+      : "16"
   });
   const resource = catalogId
     ? `Catalogs/${encodeURIComponent(catalogId)}/Items`

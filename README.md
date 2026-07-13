@@ -29,9 +29,11 @@ npm run dev        # Pages preview at http://localhost:3000 (health: /api/health
 npm run page-prices:preview
 # Supervised only after migration and review:
 npm run page-prices:apply -- --paired-only --limit 10
+# Or append to a project-local SQLite log without Wrangler:
+npm run page-prices:apply -- --paired-only --limit 10 --sqlite .local/authorized-page-prices.sqlite
 ```
 
-Preview mode performs no provider requests or D1 writes. Live page mode uses a durable rolling 24-hour reservation per event/provider, checks each provider origin's `robots.txt` once on demand, and stops on a disallow, unverifiable robots policy, CAPTCHA, login wall, 403/429 block, or unrelated redirect.
+Preview mode performs no provider requests or writes. Live page mode writes either D1 or the requested project-local SQLite log, uses a durable rolling 24-hour reservation per event/provider, checks each provider origin's `robots.txt` once on demand, and stops on a disallow, unverifiable robots policy, CAPTCHA, login wall, 403/429 block, or unrelated redirect.
 
 Validation, event-data commands, and the PR checklist are in [CONTRIBUTING.md](CONTRIBUTING.md).
 

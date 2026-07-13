@@ -23,6 +23,7 @@ const MAX_ATTEMPTS = 3;
 const MAX_ROBOTS_BYTES = 512 * 1024;
 const USER_AGENT = "TourTicketCompare/1.0 (+https://tourticketcompare.com; authorized lowest-price snapshot)";
 const ROBOTS_AGENT = "tourticketcompare";
+const INITIALIZED_SQLITE_PATHS = new Set();
 
 class ProviderStopError extends Error {
   constructor(provider, reason, eventId) {
@@ -51,6 +52,7 @@ function usage() {
     `  --delay-ms <n>          Per-domain delay; minimum ${MINIMUM_DELAY_MS}, default ${DEFAULT_DELAY_MS}\n` +
     `  --database <name>       D1 database (default ${DEFAULT_DATABASE})\n` +
     `  --local                 Use local D1 instead of remote D1\n` +
+    `  --sqlite <path>         Append to a project-local SQLite log without Wrangler\n` +
     `  --json                  Print machine-readable summary JSON\n` +
     `  -h, --help              Show help\n\n` +
     `Live retrievals require --apply because every attempt must be recorded durably to enforce the written once-per-event-per-24-hours limit. No credentials, cookies, login, checkout, seating-map, or page-content storage is used.`;
@@ -67,6 +69,7 @@ function parseArgs(argv) {
     delayMs: DEFAULT_DELAY_MS,
     database: DEFAULT_DATABASE,
     remote: true,
+    sqlitePath: "",
     json: false,
     help: false
   };
@@ -98,6 +101,15 @@ function parseArgs(argv) {
     } else if (arg === "--database") {
       options.database = clean(argv[++i], 255);
       if (!options.database) throw new Error("--database requires a name");
+    } else if (arg === "--sqlite") {
+      const value = clean(argv[++i], 1024);
+      if (!value) throw new Error("--sqlite requires a project-relative path");
+      const resolved = path.resolve(REPO_ROOT, value);
+      if (resolved !== REPO_ROOT && !resolved.startsWith(`${REPO_ROOT}${path.sep}`)) {
+        throw new Error("--sqlite must stay inside the project working directory");
+      }
+      if (resolved === REPO_ROOT) throw new Error("--sqlite must name a file");
+      options.sqlitePath = resolved;
     } else {
       throw new Error(`Unknown option: ${arg}`);
     }
@@ -323,14 +335,65 @@ function parseWranglerRows(stdout) {
   return roots.flatMap((root) => Array.isArray(root?.results) ? root.results : []);
 }
 
-async function loadDurableRetrievalState(options) {
-  const query = `SELECT event_id, provider, MAX(retrieved_at) AS retrieved_at FROM provider_page_retrievals GROUP BY event_id, provider;`;
+async function runSqlite(sqlitePath, sql, { json = false } = {}) {
+  const args = ["-bail"];
+  if (json) args.push("-json");
+  args.push(sqlitePath, sql);
+  const result = await execFileAsync("sqlite3", args, {
+    cwd: REPO_ROOT,
+    maxBuffer: 10 * 1024 * 1024
+  });
+  if (!json || !String(result.stdout || "").trim()) return [];
+  const parsed = JSON.parse(result.stdout);
+  return Array.isArray(parsed) ? parsed : [];
+}
+
+async function ensureSqliteStorage(options) {
+  const sqlitePath = options.sqlitePath;
+  if (!sqlitePath || INITIALIZED_SQLITE_PATHS.has(sqlitePath)) return;
+  await fs.mkdir(path.dirname(sqlitePath), { recursive: true });
+  let exists = true;
+  try {
+    await fs.access(sqlitePath);
+  } catch {
+    exists = false;
+  }
+  if (!exists) {
+    const [bootstrap, authorized] = await Promise.all([
+      fs.readFile(path.join(REPO_ROOT, "migrations", "0007_bootstrap_provider_pricing_schema.sql"), "utf8"),
+      fs.readFile(path.join(REPO_ROOT, "migrations", "0008_authorized_event_page_pricing.sql"), "utf8")
+    ]);
+    await runSqlite(sqlitePath, `BEGIN IMMEDIATE;\n${bootstrap}\n${authorized}\nCOMMIT;`);
+  }
+  try {
+    await runSqlite(
+      sqlitePath,
+      "SELECT source_url FROM provider_pricing_cache LIMIT 0; " +
+        "SELECT source_url FROM provider_pricing_history LIMIT 0; " +
+        "SELECT retrieved_at FROM provider_page_retrievals LIMIT 0;"
+    );
+  } catch (error) {
+    throw new Error(`Local SQLite log is missing migration 0008 schema: ${error.message}`);
+  }
+  INITIALIZED_SQLITE_PATHS.add(sqlitePath);
+}
+
+async function queryRows(options, query) {
+  if (options.sqlitePath) {
+    await ensureSqliteStorage(options);
+    return runSqlite(options.sqlitePath, query, { json: true });
+  }
   const result = await execFileAsync("npx", wranglerArgs(options, ["--json", "--command", query]), {
     cwd: REPO_ROOT,
     maxBuffer: 10 * 1024 * 1024
   });
+  return parseWranglerRows(result.stdout);
+}
+
+async function loadDurableRetrievalState(options) {
+  const query = `SELECT event_id, provider, MAX(retrieved_at) AS retrieved_at FROM provider_page_retrievals GROUP BY event_id, provider;`;
   const state = new Map();
-  for (const row of parseWranglerRows(result.stdout)) {
+  for (const row of await queryRows(options, query)) {
     state.set(`${clean(row?.event_id, 255)}:${clean(row?.provider, 80)}`, clean(row?.retrieved_at, 80));
   }
   return state;
@@ -338,12 +401,8 @@ async function loadDurableRetrievalState(options) {
 
 async function loadFreshSeatGeekApiRows(options, now = new Date()) {
   const query = `SELECT event_id, low_price, currency, verified_at, expires_at FROM provider_pricing_cache WHERE provider = 'seatgeek' AND source = 'seatgeek_partner_api';`;
-  const result = await execFileAsync("npx", wranglerArgs(options, ["--json", "--command", query]), {
-    cwd: REPO_ROOT,
-    maxBuffer: 10 * 1024 * 1024
-  });
   const fresh = new Set();
-  for (const row of parseWranglerRows(result.stdout)) {
+  for (const row of await queryRows(options, query)) {
     if (Number.isFinite(Number(row?.low_price)) && Number(row.low_price) > 0 &&
         /^[A-Z]{3}$/.test(clean(row?.currency, 8).toUpperCase()) &&
         Date.parse(row?.expires_at) > now.getTime()) {
@@ -355,6 +414,11 @@ async function loadFreshSeatGeekApiRows(options, now = new Date()) {
 
 async function writeObservations(rows, options) {
   if (!rows.length) return { written: 0 };
+  if (options.sqlitePath) {
+    await ensureSqliteStorage(options);
+    await runSqlite(options.sqlitePath, buildWriteSql(rows));
+    return { written: rows.length };
+  }
   const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), "authorized-page-prices-"));
   const sqlPath = path.join(tempDir, "authorized-page-prices.sql");
   try {
@@ -370,6 +434,11 @@ async function writeObservations(rows, options) {
 }
 
 async function reserveRetrieval(row, options) {
+  if (options.sqlitePath) {
+    await ensureSqliteStorage(options);
+    const rows = await runSqlite(options.sqlitePath, buildReservationSql(row), { json: true });
+    return rows.some((item) => Number(item?.reserved) === 1);
+  }
   const result = await execFileAsync("npx", wranglerArgs(options, ["--json", "--command", buildReservationSql(row)]), {
     cwd: REPO_ROOT,
     maxBuffer: 10 * 1024 * 1024
@@ -538,6 +607,7 @@ async function run(options, deps = {}) {
     rows: [],
     failures: []
   };
+  if (options.sqlitePath) summary.log_file = path.relative(REPO_ROOT, options.sqlitePath);
 
   if (!options.apply) return summary;
   if (selection.coverageFailures.length && !options.pairedOnly) {
@@ -622,6 +692,9 @@ async function selfTest() {
     provider_links: { ticketmaster: { verified: true }, seatgeek: { verified: true } }
   };
   const options = { ...parseArgs([]), apply: true, pairedOnly: true, delayMs: MINIMUM_DELAY_MS };
+  const sqliteOptions = parseArgs(["--sqlite", ".local/authorized-page-prices.sqlite"]);
+  check(assert.equal, sqliteOptions.sqlitePath, path.join(REPO_ROOT, ".local", "authorized-page-prices.sqlite"));
+  check(assert.throws, () => parseArgs(["--sqlite", "../outside.sqlite"]), /inside the project/);
   const selected = selectCatalogTargets([event, { ...event, id: "past", datetime_iso: "2026-01-01T00:00:00Z" }], options, "2026-07-13");
   check(assert.equal, selected.selectedEventCount, 1);
   check(assert.equal, selected.targets.length, 2);

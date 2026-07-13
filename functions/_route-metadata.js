@@ -21,9 +21,9 @@ export function canonicalOrigin(origin) {
 
 export const TRUST_ROUTES = {
   "/": {
-    title: "Find Verified Ticket Options for Major Tours | TourTicketCompare",
+    title: "Find Tour Dates and Compare Ticket Prices | TourTicketCompare",
     description:
-      "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site.",
+      "Find a tour date, compare available SeatGeek and Vivid Seats price snapshots, and confirm final prices, fees, and availability on the provider site.",
     indexable: true
   },
   "/compare-concert-ticket-prices": {

@@ -117,9 +117,10 @@ When the SeatGeek Impact config is absent, `/api/out` fails safely with `provide
 - `includePrices=true` requires a `showId` parameter, **except** when `priceProviders=approved-marketplaces` is also set. Bulk price fan-out to provider APIs is not permitted in any mode; the approved-marketplaces exception (added 2026-07-12 so boards can show snapshots for every eligible show) is safe because those lanes are served exclusively from the D1 `provider_pricing_cache` written by the scheduled snapshot workflows — a list request performs a batched cache read and never calls an external provider API. Ticketmaster and any live-lookup lane remain single-`showId` only.
 - `MOCK_MODE` and `ALLOW_MOCK_PRICES` must both be `false` in production. Mock prices must never be displayed to users.
 - `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED` must be `true` and a valid `TICKETMASTER_API_KEY` must be configured for live Ticketmaster price lookups.
-- SeatGeek returns `status: unavailable` unless `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='seatgeek'`, `source='seatgeek_partner_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
-- Vivid Seats returns `status: unavailable` unless `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='vivid-seats'`, `source='vividseats_impact_marketplace_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
+- SeatGeek returns `status: unavailable` unless `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, `provider_links.seatgeek.verified === true`, the verified provider URL matches the event's `seatgeek_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='seatgeek'`, `source='seatgeek_partner_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
+- Vivid Seats returns `status: unavailable` unless `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, `provider_links.vividseats.verified === true`, the verified provider URL matches the event's `vividseats_url`, and a fresh D1 `provider_pricing_cache` row exists for the local event ID with `provider='vivid-seats'`, `source='vividseats_impact_marketplace_api'`, a valid timestamp, an unexpired `expires_at`, a finite non-negative `low_price`, and a currency.
 - Price results include `fetchedAt` timestamps. Do not display prices without showing or conveying freshness. A side-by-side comparison additionally requires two fresh approved provider lanes for the same local event ID; when currencies match, the UI may calculate and label the lower listed snapshot and absolute difference.
+- `.github/workflows/seatgeek-price-snapshots.yml` and `.github/workflows/vividseats-price-snapshots.yml` run every four hours and are the only approved writers for these lanes. Their summaries must make zero-row, partial, stale, configuration, provider, and write failures explicit. A failed fetch or unusable observation is skipped; it must not overwrite an existing fresh row.
 
 ---
 
@@ -140,14 +141,6 @@ Any provider URL containing these patterns must not appear as a public CTA.
 
 ---
 
-## Adding a New Provider
+## Provider Scope
 
-To add a new provider safely:
-
-1. Confirm the provider has a verified destination URL (not a placeholder).
-2. Add the provider's allowlisted destination hosts to `PROVIDERS` in `functions/api/out.js`.
-3. Add the verified artist or event link to `VERIFIED_TICKET_LINKS` in `out.js` (for artist-level links) or to the event record in `events.json` (for event-level links).
-4. Confirm affiliate handling (Impact or direct) is configured server-side.
-5. Rebuild and deploy the standalone Worker if this is a production change.
-6. Run smoke checks and verify the new provider buttons appear only for the intended artists/events.
-7. Do not enable buttons for artists or events where the destination is not verified.
+This product-stabilisation scope is limited to the existing SeatGeek and Vivid Seats lanes. Do not add another provider, revive the parked provider-abstraction scaffolding, create a parallel price writer, or introduce a new cache schema without a separately approved integration backed by verified destinations and explicit usage rights.

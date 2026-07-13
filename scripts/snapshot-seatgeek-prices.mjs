@@ -694,8 +694,11 @@ async function runIngestion(options, deps = {}) {
     scanned: selection.scanned,
     eligible: selection.selected.length,
     fetched: 0,
+    usable: 0,
     written: 0,
     skipped: selection.skipped.length,
+    stale: 0,
+    failed: 0,
     errors: 0,
     proposed_rows: [],
     skip_reasons: {},
@@ -726,6 +729,8 @@ async function runIngestion(options, deps = {}) {
     try {
       apiUrl = buildSeatGeekApiUrl(item.seatgeekEventId, env);
     } catch (error) {
+      addSkip("url_build_failed");
+      summary.failed += 1;
       summary.errors += 1;
       summary.error_details.push({ event_id: item.event.id, reason: redact(error.message) });
       continue;
@@ -740,8 +745,12 @@ async function runIngestion(options, deps = {}) {
         notFoundItems.push(item);
       } else if (fetched.status === 429) {
         addSkip("seatgeek_rate_limited");
+        summary.failed += 1;
+        summary.errors += 1;
       } else {
         addSkip("api_unavailable_or_error");
+        summary.failed += 1;
+        summary.errors += 1;
       }
       summary.error_details.push({ event_id: item.event.id, reason: redact(fetched.reason || `HTTP ${fetched.status || "unknown"}`) });
       continue;
@@ -758,6 +767,8 @@ async function runIngestion(options, deps = {}) {
     summary.proposed_rows.push(publicRow(built.row));
   }
 
+  summary.usable = rows.length;
+
   summary.stats_diagnostics = statsDiagnostics;
   const warning = pricingStatsWarning(statsDiagnostics);
   if (warning) summary.pricing_stats_warning = warning;
@@ -771,6 +782,12 @@ async function runIngestion(options, deps = {}) {
     summary.written = writeResult.written || 0;
     if (writeResult.command) summary.write_command = redact(writeResult.command);
   }
+
+  if (summary.eligible === 0) summary.zero_row_reason = "no_eligible_verified_events";
+  else if (warning && summary.usable === 0) summary.zero_row_reason = "pricing_stats_unavailable";
+  else if (summary.usable === 0 && summary.fetched === 0 && summary.failed > 0) summary.zero_row_reason = "provider_fetch_failed";
+  else if (summary.usable === 0) summary.zero_row_reason = "no_usable_current_prices";
+  else if (options.apply && summary.written === 0) summary.zero_row_reason = "d1_write_returned_zero";
 
   return summary;
 }
@@ -880,7 +897,10 @@ async function selfTest() {
     }
   });
   check(assert.equal, dryRun.fetched, 1);
+  check(assert.equal, dryRun.usable, 1);
   check(assert.equal, dryRun.written, 0);
+  check(assert.equal, dryRun.stale, 0);
+  check(assert.equal, dryRun.failed, 0);
   check(assert.equal, writes, 0);
   check(assert.equal, dryRun.proposed_rows[0].source, APPROVED_SOURCE);
   check(assert.equal, dryRun.pricing_stats_warning, undefined);
@@ -903,6 +923,8 @@ async function selfTest() {
     }
   });
   check(assert.equal, nullRun.skip_reasons.missing_usable_lowest_price, 5);
+  check(assert.equal, nullRun.usable, 0);
+  check(assert.equal, nullRun.zero_row_reason, "pricing_stats_unavailable");
   check(assert.match, nullRun.pricing_stats_warning, /SEATGEEK_CLIENT_SECRET was NOT set/);
   const nullRunWithSecret = await runIngestion(baseOptions, {
     events: nullStatsEvents,
@@ -914,6 +936,19 @@ async function selfTest() {
     }
   });
   check(assert.match, nullRunWithSecret.pricing_stats_warning, /pricing-stats entitlement/);
+
+  const failedRun = await runIngestion(baseOptions, {
+    events: [event],
+    now,
+    asOfDate,
+    env: { SEATGEEK_CLIENT_ID: "test-client" },
+    async fetchSeatGeekEvent() {
+      return { ok: false, status: 503, reason: "SeatGeek API returned HTTP 503" };
+    }
+  });
+  check(assert.equal, failedRun.failed, 1);
+  check(assert.equal, failedRun.errors, 1);
+  check(assert.equal, failedRun.zero_row_reason, "provider_fetch_failed");
 
   // A 404 on an eligible event is classified as seatgeek_event_not_found and
   // produces a proposal-only re-match keyed by verified performer id + date.
@@ -979,9 +1014,13 @@ function printSummary(summary) {
   console.log(`- scanned: ${summary.scanned}`);
   console.log(`- eligible: ${summary.eligible}`);
   console.log(`- fetched: ${summary.fetched}`);
+  console.log(`- usable: ${summary.usable}`);
   console.log(`- written: ${summary.written}`);
   console.log(`- skipped: ${summary.skipped}`);
+  console.log(`- stale: ${summary.stale}`);
+  console.log(`- failed: ${summary.failed}`);
   console.log(`- errors: ${summary.errors}`);
+  if (summary.zero_row_reason) console.log(`- zero-row reason: ${summary.zero_row_reason}`);
   if (Object.keys(summary.skip_reasons).length) console.log(`- skip reasons: ${JSON.stringify(summary.skip_reasons)}`);
   if (summary.stats_diagnostics) {
     console.log(`- stats diagnostics: ${JSON.stringify(summary.stats_diagnostics)}`);
@@ -1016,6 +1055,11 @@ async function main() {
   const summary = await runIngestion(options);
   if (options.json) console.log(JSON.stringify(summary, null, 2));
   else printSummary(summary);
+  const hardFailure =
+    summary.failed > 0 ||
+    (summary.eligible > 0 && summary.usable === 0 && summary.zero_row_reason === "pricing_stats_unavailable") ||
+    (options.apply && summary.eligible > 0 && summary.usable === 0);
+  if (hardFailure) process.exitCode = 1;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

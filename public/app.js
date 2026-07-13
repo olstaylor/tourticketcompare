@@ -170,9 +170,9 @@ const guideClusters = [
 
 const routeMeta = {
   "/": {
-    title: "Find Verified Ticket Options for Major Tours | TourTicketCompare",
+    title: "Find Tour Dates and Compare Ticket Prices | TourTicketCompare",
     description:
-      "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site."
+      "Find a tour date, compare available SeatGeek and Vivid Seats price snapshots, and confirm final prices, fees, and availability on the provider site."
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices Across Trusted Sites | Tour Ticket Compare",
@@ -495,7 +495,7 @@ function artistPageHeading(artist) {
 }
 
 function artistPageIntro(artist) {
-  return `Find upcoming ${artist.name} shows and open checked provider links for the date you want.`;
+  return `Find upcoming ${artist.name} shows, pick a date, and compare available ticket options.`;
 }
 
 function formatVerificationDate(value) {
@@ -1016,9 +1016,9 @@ function renderWhatYouCanDo() {
   grid.className = "card-grid";
   // Keep in sync with the homepage template in functions/[[path]].js.
   [
-    ["1. Find your show", "Search an artist and pick a date. Every date and link is checked by a human first.", "/artists", "Browse artists"],
-    ["2. Compare prices", "Fresh, approved SeatGeek and Vivid Seats price snapshots, side by side, for the same event.", "/compare-concert-ticket-prices", "Compare ticket prices"],
-    ["3. Buy on the provider site", "Click through to checkout. Free to use — commissions never change the price you pay.", "/guides/how-to-compare-concert-ticket-prices", "Read the guide"]
+    ["1. Find your show", "Search an artist and pick the verified date that matches your plans.", "/artists", "Browse artists"],
+    ["2. Compare snapshots", "See available SeatGeek and Vivid Seats price snapshots for the same event.", "/compare-concert-ticket-prices", "Compare ticket prices"],
+    ["3. Confirm and buy", "Open the provider site to confirm the final price, fees, availability, and ticket details.", "/guides/how-to-compare-concert-ticket-prices", "Read the guide"]
   ].forEach(([title, body, href, ctaLabel]) => {
     const card = document.createElement("article");
     card.className = "info-card";
@@ -1060,11 +1060,11 @@ async function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Compare resale ticket prices for major tours", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Find your tour date. Compare ticket options.", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
-    "SeatGeek and Vivid Seats prices side by side for the same show — free, and we do not sell tickets.",
+    "See available SeatGeek and Vivid Seats price snapshots for the same show. Confirm final prices, fees, and availability on the provider site.",
     "hero-subcopy"
   );
   text(
@@ -1397,6 +1397,7 @@ function isValidIsoDateTime(value) {
 }
 
 function approvedSeatGeekPriceLane(show) {
+  if (show?.provider_links?.seatgeek?.verified !== true) return null;
   if (!safeSeatGeekEventUrl(show?.seatgeek_url)) return null;
   const lanes = Array.isArray(show?.prices) ? show.prices : [];
   const lane = lanes.find((item) => String(item?.provider || "").toLowerCase() === "seatgeek");
@@ -1414,6 +1415,7 @@ function approvedSeatGeekPriceLane(show) {
 }
 
 function approvedVividSeatsPriceLane(show) {
+  if (show?.provider_links?.["vivid-seats"]?.verified !== true) return null;
   if (!safeVividSeatsEventUrl(show?.vividseats_url)) return null;
   const lanes = Array.isArray(show?.prices) ? show.prices : [];
   const lane = lanes.find((item) => item?.provider === "Vivid Seats");
@@ -1577,6 +1579,9 @@ function renderShowCard(show, options = {}) {
       comparisonBlock ||
       (!inlineSeatGeekPrice && vsAvailable ? renderVividSeatsPriceSnapshot(show) : null);
     if (priceBlock) body.append(priceBlock);
+    else if (sgAvailable || vsAvailable) {
+      text(body, "p", "No current price snapshot — check the provider for availability and the final total.", "disclosure-note price-unavailable-note");
+    }
 
     if (tmAvailable || sgAvailable || vsAvailable) {
       // Provider price, fee, availability and affiliate disclosure lives once
@@ -2164,7 +2169,7 @@ function renderArtist(artist) {
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
     "Upcoming shows",
-    "Pick a date, then compare the checked ticket options for that show.",
+    "Pick a date, compare available price snapshots, then confirm final prices and fees on the provider site.",
     "Some links earn us a commission — this never affects your price."
   );
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {

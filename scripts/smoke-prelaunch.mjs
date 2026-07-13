@@ -7,7 +7,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/compare-concert-ticket-price
 const functionBackedStaticRoutes = ["/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Compare resale ticket prices for major tours"],
+  ["/", "Find your tour date. Compare ticket options."],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices"],
@@ -18,7 +18,7 @@ const expectedH1 = new Map([
   ["/affiliate-disclosure", "Affiliate disclosure"]
 ]);
 const expectedTitle = new Map([
-  ["/", "Find Verified Ticket Options for Major Tours | TourTicketCompare"],
+  ["/", "Find Tour Dates and Compare Ticket Prices | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices Across Trusted Sites | Tour Ticket Compare"],
@@ -28,7 +28,7 @@ const expectedTitle = new Map([
   ["/editorial-policy", "Editorial Policy | TourTicketCompare"],
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
-const homepageDescription = "Find checked ticket links for major tours, read practical buying guidance, and confirm final prices and fees on the ticket provider site.";
+const homepageDescription = "Find your tour date, compare available SeatGeek and Vivid Seats price snapshots, then confirm final prices, fees, and availability on the provider site.";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -450,7 +450,7 @@ const publicAffiliateUrlFiles = [
 
 const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Compare resale ticket prices for major tours"),
+  joinedPublic.includes("Find your tour date. Compare ticket options."),
   "homepage public-facing copy should be present"
 );
 await assertPublicCopySafe(publicCopyFiles);
@@ -979,6 +979,11 @@ assert(ttcHomeJs.includes('id: "search-widget"'), "hydrated homepage should pres
 assert(ttcHomeJs.includes('homepageSearch.setQuery(query, { open: true, focus: window.location.hash === "#search-widget" })'), "homepage q hydration should prefill and open the large search panel");
 assert(ttcHomeJs.includes('searchWidget.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage q hydration should scroll to the preserved search-widget anchor when requested");
 assert(ttcHomeJs.includes("Approved snapshots are provider-attributed and timestamped."), "homepage should describe gated provider-attributed snapshots accurately");
+assert(ttcHomeJs.includes("Find your tour date."), "homepage should lead with finding a tour date");
+assert(ttcHomeJs.includes("Confirm final prices, fees and availability on the provider site."), "homepage should tell fans where final prices and fees are confirmed");
+assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
+assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");
+assert(ttcHomeJs.includes('role: "combobox"') && ttcHomeJs.includes('"aria-activedescendant"'), "homepage search should expose combobox state for keyboard and assistive-technology users");
 assert(!ttcHomeJs.includes("never show live prices"), "homepage should not make an absolute no-price claim that contradicts approved snapshot support");
 assert(!ttcHomeJs.includes("No live prices, ever"), "homepage trust copy should not contradict approved snapshot support");
 
@@ -1002,6 +1007,7 @@ assert(!appJs.includes("Event last checked:"), "hydration should rely on the con
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
 assert(appJs.includes("SeatGeek price snapshot as of"), "hydration should include provider-attributed SeatGeek snapshot copy");
+assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
 assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
 assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price snapshot should hide expired data");
 assert(appJs.includes("function approvedVividSeatsPriceLane(show)"), "hydration should include an approved Vivid Seats price lane helper");
@@ -1011,6 +1017,7 @@ assert(appJs.includes("source !== \"vividseats_impact_marketplace_api\""), "hydr
 assert(appJs.includes("isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt)"), "hydrated Vivid Seats price snapshots should require ISO timestamps before checking freshness");
 assert(appJs.includes("renderVividSeatsPriceSnapshot(show)"), "hydration should append Vivid Seats snapshots only through the approved render helper");
 assert(appJs.includes("Vivid Seats price snapshot as of"), "hydration should include provider-attributed Vivid Seats snapshot copy");
+assert(appJs.includes('show?.provider_links?.["vivid-seats"]?.verified !== true'), "hydrated Vivid Seats price snapshots should require explicit provider verification");
 assert(appJs.includes("function approvedProviderPriceComparison(show)"), "hydration should compare only approved SeatGeek and Vivid Seats lanes");
 assert(appJs.includes("has the lower listed price snapshot by"), "hydration should label a permitted lower-snapshot difference precisely");
 assert(appJs.includes('priceProviders: "approved-marketplaces"'), "comparison hydration should request only approved marketplace price lanes");
@@ -1205,6 +1212,15 @@ function seatGeekLaneFrom(showPricesJson) {
   return showPricesJson.shows[0].prices.find((lane) => lane.provider === "SeatGeek");
 }
 
+const seatGeekPriceEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? {
+      ...event,
+      provider_links: {
+        ...(event.provider_links || {}),
+        seatgeek: { ...(event.provider_links?.seatgeek || {}), url: event.seatgeek_url, verified: true }
+      }
+    }
+  : event));
 const freshSeatGeekPriceRow = {
   event_id: CONTROLLED_SEATGEEK_SHOW_ID,
   provider: "seatgeek",
@@ -1252,12 +1268,11 @@ const freshSeatGeekHistoryRows = [
 ];
 const flagOffFreshSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: {
-    ...env,
+  env: envWithEventsJson(seatGeekPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow]),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "false",
     VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false"
-  }
+  })
 });
 const flagOffFreshSeatGeekJson = await flagOffFreshSeatGeekResponse.json();
 const flagOffSeatGeekLane = seatGeekLaneFrom(flagOffFreshSeatGeekJson);
@@ -1267,11 +1282,10 @@ assert(!JSON.stringify(flagOffFreshSeatGeekJson).includes("seatgeek_partner_api"
 globalThis.caches.default = new MemoryCache();
 const flagOnFreshSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: {
-    ...env,
+  env: envWithEventsJson(seatGeekPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow], freshSeatGeekHistoryRows),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
-  }
+  })
 });
 const flagOnFreshSeatGeekJson = await flagOnFreshSeatGeekResponse.json();
 const flagOnFreshSeatGeekLane = seatGeekLaneFrom(flagOnFreshSeatGeekJson);
@@ -1284,22 +1298,20 @@ assert(flagOnFreshSeatGeekLane?.note.includes("SeatGeek price snapshot"), "SeatG
 
 const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: {
-    ...env,
+  env: envWithEventsJson(seatGeekPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([staleSeatGeekPriceRow]),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
-  }
+  })
 });
 const flagOnStaleSeatGeekLane = seatGeekLaneFrom(await flagOnStaleSeatGeekResponse.json());
 assert(flagOnStaleSeatGeekLane?.price === null && flagOnStaleSeatGeekLane?.providerStatus === "unavailable", "stale SeatGeek D1 snapshots should be hidden and should not fall back to stale data");
 
 const missingSourceSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: {
-    ...env,
+  env: envWithEventsJson(seatGeekPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([{ ...freshSeatGeekPriceRow, source: null }]),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
-  }
+  })
 });
 const missingSourceSeatGeekLane = seatGeekLaneFrom(await missingSourceSeatGeekResponse.json());
 assert(missingSourceSeatGeekLane?.price === null && missingSourceSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when source attribution is missing or not the approved source");
@@ -1329,6 +1341,25 @@ const malformedUrlSeatGeekResponse = await showsModule.onRequestGet({
 const malformedUrlSeatGeekLane = seatGeekLaneFrom(await malformedUrlSeatGeekResponse.json());
 assert(malformedUrlSeatGeekLane?.price === null && malformedUrlSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when the stored SeatGeek URL is malformed or rejected");
 
+const unverifiedSeatGeekPriceEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? {
+      ...event,
+      provider_links: {
+        ...(event.provider_links || {}),
+        seatgeek: { ...(event.provider_links?.seatgeek || {}), verified: false }
+      }
+    }
+  : event));
+const unverifiedSeatGeekPriceResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+  env: envWithEventsJson(unverifiedSeatGeekPriceEventsJson, {
+    DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
+  })
+});
+const unverifiedSeatGeekPriceLane = seatGeekLaneFrom(await unverifiedSeatGeekPriceResponse.json());
+assert(unverifiedSeatGeekPriceLane?.price === null && unverifiedSeatGeekPriceLane?.providerStatus === "unavailable", "SeatGeek cache rows must stay hidden after exact provider verification is revoked");
+
 function vividSeatsLaneFrom(showPricesJson) {
   return showPricesJson.shows[0].prices.find((lane) => lane.provider === "Vivid Seats");
 }
@@ -1339,6 +1370,17 @@ const vividSeatsPriceEventsJson = JSON.stringify(events.map((event) => event.id 
       vividseats_url: CONTROLLED_VIVIDSEATS_PRICE_URL,
       provider_links: {
         ...(event.provider_links || {}),
+        "vivid-seats": { verified: true }
+      }
+    }
+  : event));
+const approvedPriceEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? {
+      ...event,
+      vividseats_url: CONTROLLED_VIVIDSEATS_PRICE_URL,
+      provider_links: {
+        ...(event.provider_links || {}),
+        seatgeek: { ...(event.provider_links?.seatgeek || {}), url: event.seatgeek_url, verified: true },
         "vivid-seats": { verified: true }
       }
     }
@@ -1357,7 +1399,7 @@ const freshVividSeatsPriceRow = {
 };
 const flagOffFreshVividSeatsResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: envWithEventsJson(vividSeatsPriceEventsJson, {
+  env: envWithEventsJson(approvedPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([freshVividSeatsPriceRow]),
     VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false"
   })
@@ -1407,12 +1449,31 @@ const missingUrlVividSeatsResponse = await showsModule.onRequestGet({
 const missingUrlVividSeatsLane = vividSeatsLaneFrom(await missingUrlVividSeatsResponse.json());
 assert(missingUrlVividSeatsLane?.price === null && missingUrlVividSeatsLane?.providerStatus === "unavailable", "Vivid Seats price should stay hidden without a verified vividseats_url on the event");
 
+const unverifiedVividSeatsEventsJson = JSON.stringify(JSON.parse(vividSeatsPriceEventsJson).map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? {
+      ...event,
+      provider_links: {
+        ...(event.provider_links || {}),
+        "vivid-seats": { ...(event.provider_links?.["vivid-seats"] || {}), verified: false }
+      }
+    }
+  : event));
+const unverifiedVividSeatsResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+  env: envWithEventsJson(unverifiedVividSeatsEventsJson, {
+    DEMAND_DB: createProviderPricingDb([freshVividSeatsPriceRow]),
+    VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true"
+  })
+});
+const unverifiedVividSeatsLane = vividSeatsLaneFrom(await unverifiedVividSeatsResponse.json());
+assert(unverifiedVividSeatsLane?.price === null && unverifiedVividSeatsLane?.providerStatus === "unavailable", "Vivid Seats cache rows must stay hidden after exact provider verification is revoked");
+
 // --- Bulk approved cached marketplace lanes: list-mode includePrices is
 // permitted only with priceProviders=approved-marketplaces because those
 // lanes read the D1 snapshot cache and never fan out to a provider API. ---
 const bulkApprovedResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
-  env: envWithEventsJson(vividSeatsPriceEventsJson, {
+  env: envWithEventsJson(approvedPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow, freshVividSeatsPriceRow]),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
     VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true"
@@ -1432,6 +1493,28 @@ assert(bulkSeatGeekLane?.price === freshSeatGeekPriceRow.low_price && bulkSeatGe
 assert(bulkVividSeatsLane?.price === freshVividSeatsPriceRow.low_price && bulkVividSeatsLane?.source === "vividseats_impact_marketplace_api" && bulkVividSeatsLane?.status === "ok", "bulk Vivid Seats lane should serve the fresh approved D1 snapshot");
 const bulkUnpricedShow = bulkApprovedJson.shows.find((show) => show.id !== CONTROLLED_SEATGEEK_SHOW_ID);
 assert(bulkUnpricedShow.prices.every((lane) => lane.price === null && lane.providerStatus === "unavailable"), "bulk lanes for shows without fresh approved rows must stay unavailable");
+
+const bulkUnverifiedResponse = await showsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
+  env: envWithEventsJson(unverifiedVividSeatsEventsJson, {
+    DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow, freshVividSeatsPriceRow]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
+    VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true"
+  })
+});
+const bulkUnverifiedShow = (await bulkUnverifiedResponse.json()).shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
+assert(bulkUnverifiedShow.prices.find((lane) => lane.provider === "Vivid Seats")?.price === null, "bulk cached Vivid Seats prices must require exact provider verification");
+
+const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWithEventsJson(approvedPriceEventsJson, {
+  DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow, freshVividSeatsPriceRow]),
+  SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
+  VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true",
+  IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
+}));
+assert(serverPricedMorgan.text.includes("provider-price-comparison"), "server-rendered artist cards should include the same approved cached comparison content before client hydration");
+assert(serverPricedMorgan.text.includes("SeatGeek price snapshot as of") && serverPricedMorgan.text.includes("Vivid Seats price snapshot as of"), "server-rendered comparisons should retain provider attribution and timestamps");
+assert(serverPricedMorgan.text.includes("Prices exclude fees."), "server-rendered comparisons should keep the concise fees disclaimer");
 
 const bulkFlagsOffResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),

@@ -14,6 +14,8 @@
 (function () {
   "use strict";
 
+  let searchInstance = 0;
+
   /* ---------- DOM helper ---------- */
   function h(tag, attrs, children) {
     const e = document.createElement(tag);
@@ -174,12 +176,22 @@
     DATA.guides.forEach(g => index.push({ type: "guide", label: g.title, sub: g.category + " guide", ref: g }));
 
     let q = "", open = false, active = 0, filter = "all";
-    const input = h("input", { class: "ttc-search__input", type: "text", placeholder: size === "sm" ? "Quick search…" : "Search artist, city, venue or guide", "aria-label": "Search" });
+    const resultsId = `ttc-search-results-${++searchInstance}`;
+    const input = h("input", {
+      class: "ttc-search__input",
+      type: "text",
+      placeholder: size === "sm" ? "Quick search…" : "Search artist, city, venue or guide",
+      "aria-label": "Search",
+      role: "combobox",
+      "aria-autocomplete": "list",
+      "aria-controls": resultsId,
+      "aria-expanded": "false"
+    });
     const panel = h("div", { class: "ttc-search__panel" });
     const bar = h("div", { class: "ttc-search__bar" }, [
       h("span", { class: "ttc-search__ico" }, [svg("search")]),
       input,
-      h("button", { class: "ttc-search__go", type: "button", onclick: () => { window.location.href = "/artists"; } }, ["Search"])
+      h("button", { class: "ttc-search__go", type: "button", onclick: () => { const item = results()[active]; window.location.href = item ? hrefFor(item) : "/artists"; } }, ["Search"])
     ]);
     const wrap = h("div", { class: "ttc-search ttc-search--" + size }, [bar, panel]);
 
@@ -187,21 +199,29 @@
       const term = q.trim().toLowerCase();
       let pool = index.filter(r => filter === "all" || r.type === filter);
       if (!term) return pool.filter(r => r.type !== "guide").slice(0, 6);
-      return pool.map(r => {
+      const ranked = pool.map(r => {
         const hay = (r.label + " " + r.sub).toLowerCase();
         let s = -1;
         if (hay.startsWith(term)) s = 0; else if (r.label.toLowerCase().includes(term)) s = 1; else if (hay.includes(term)) s = 2;
         return { r, s };
       }).filter(x => x.s >= 0).sort((a, b) => a.s - b.s).slice(0, 8).map(x => x.r);
+      return ["artist", "event", "guide"].flatMap(type => ranked.filter(item => item.type === type));
     }
     function hrefFor(item) {
-      if (item.type === "artist") return "/" + item.ref.slug;
-      if (item.type === "event") return "/" + item.ref.artist_slug;
+      if (item.type === "artist") return "/artists/" + item.ref.slug;
+      if (item.type === "event") {
+        const eventAnchor = String(item.ref.id || "").toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+        return "/artists/" + item.ref.artist_slug + (eventAnchor ? "#show-" + eventAnchor : "");
+      }
       return "/guides/" + item.ref.slug;
     }
     function render() {
       panel.classList.toggle("is-open", open);
-      if (!open) return;
+      input.setAttribute("aria-expanded", String(open));
+      if (!open) {
+        input.removeAttribute("aria-activedescendant");
+        return;
+      }
       const res = results();
       const tabs = [["all","All"],["artist","Artists"],["event","Dates"],["guide","Guides"]];
       panel.innerHTML = "";
@@ -209,7 +229,7 @@
         ...tabs.map(([k, lbl]) => h("button", { class: "ttc-search__tab" + (filter === k ? " is-on" : ""), type: "button", onmousedown: (ev) => { ev.preventDefault(); filter = k; active = 0; render(); } }, [lbl])),
         h("span", { class: "ttc-search__hint" }, [q ? res.length + " matches" : "Popular right now"])
       ]));
-      const body = h("div", { class: "ttc-search__results" });
+      const body = h("div", { id: resultsId, class: "ttc-search__results", role: "listbox", "aria-label": "Search suggestions" });
       if (!res.length) body.appendChild(h("div", { class: "ttc-search__empty" }, ["No checked matches for “" + q + "”. Try an artist or city."]));
       const groups = { artist: "Artists", event: "Upcoming dates", guide: "Buying guides" };
       let idx = -1;
@@ -224,7 +244,7 @@
           const tail = item.type === "artist"
             ? (item.ref.verified ? h("span", { class: "ttc-pill ttc-pill--good" }, [svg("check"), "Verified"]) : h("span", { class: "ttc-pill ttc-pill--muted" }, ["Watching"]))
             : h("span", { class: "ttc-meta" }, [item.type === "event" ? regionCode(item.ref.country) : "Guide"]);
-          body.appendChild(h("a", { class: "ttc-row" + (my === active ? " is-active" : ""), href: hrefFor(item), onmouseenter: () => { active = my; [...body.querySelectorAll(".ttc-row")].forEach((r, i) => r.classList.toggle("is-active", i === my)); } }, [
+          body.appendChild(h("a", { id: `${resultsId}-option-${my}`, role: "option", "aria-selected": String(my === active), class: "ttc-row" + (my === active ? " is-active" : ""), href: hrefFor(item), onmouseenter: () => { active = my; [...body.querySelectorAll(".ttc-row")].forEach((r, i) => { const selected = i === my; r.classList.toggle("is-active", selected); r.setAttribute("aria-selected", String(selected)); }); input.setAttribute("aria-activedescendant", `${resultsId}-option-${my}`); } }, [
             lead,
             h("span", { class: "ttc-row__body" }, [h("span", { class: "ttc-row__label" }, [item.label]), h("span", { class: "ttc-row__sub" }, [item.sub])]),
             h("span", { class: "ttc-row__tail" }, [tail])
@@ -232,6 +252,8 @@
         });
       });
       panel.appendChild(body);
+      if (res.length && active >= 0) input.setAttribute("aria-activedescendant", `${resultsId}-option-${Math.min(active, res.length - 1)}`);
+      else input.removeAttribute("aria-activedescendant");
       panel.appendChild(h("div", { class: "ttc-search__foot" }, [
         h("span", {}, [pulse(), "Catalog updated " + DATA.updated_at])
       ]));
@@ -262,16 +284,15 @@
     const chips = DATA.artists.filter(artist => artist && artist.slug).slice(0, 5);
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
-      h("h1", { class: "ttc-hero__h1", html: 'Compare resale ticket prices for <em>major tours.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["SeatGeek and Vivid Seats prices side by side for the same show — free, and we don’t sell tickets."]),
+      h("h1", { class: "ttc-hero__h1", html: 'Find your tour date. <em>Compare ticket options.</em>' }),
+      h("p", { class: "ttc-hero__sub" }, ["See available SeatGeek and Vivid Seats price snapshots for the same show. Confirm final prices, fees and availability on the provider site."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug }, [artist.name]))])
       ]),
       h("div", { class: "ttc-hero__trust" }, [
-        h("div", {}, [svg("check"), document.createTextNode(" "), h("b", {}, ["Every link"]), document.createTextNode(" human-checked")]),
-        h("div", {}, [pulse(), h("b", {}, ["Verified"]), document.createTextNode(" via " + (DATA.publicProviders.join(", ") || "checked providers"))]),
-        h("div", {}, [h("span", { class: "ttc-pulse ttc-pulse--accent" }, [h("i")]), document.createTextNode(" Approved snapshots only")])
+        h("div", {}, [svg("check"), document.createTextNode(" "), h("b", {}, ["Verified event links"])]),
+        h("div", {}, [h("span", { class: "ttc-pulse ttc-pulse--accent" }, [h("i")]), document.createTextNode(" Timestamped provider snapshots")])
       ])
     ]);
 
@@ -294,27 +315,11 @@
     return h("section", { class: "ttc-hero" }, [h("div", { class: "ttc-wrap ttc-hero__grid" }, [left, feed])]);
   }
 
-  function statsSection(DATA) {
-    const verifiedCount = DATA.artists.filter(a => a.verified).length;
-    const cells = [
-      { n: String(verifiedCount), l: "Artists with verified pages" },
-      { n: DATA.publicProviders.join(" · ") || "—", sm: true, l: "Verified ticket source" },
-      { n: String(DATA.upcomingCount), l: "Upcoming dates tracked" },
-      { n: prettyDateFull(DATA.updated_at), sm: true, l: "Catalog last updated", live: true },
-    ];
-    return h("section", { class: "ttc-stats" }, [
-      h("div", { class: "ttc-wrap ttc-stats__in" }, cells.map(c => h("div", { class: "ttc-stat" }, [
-        h("div", { class: "ttc-stat__n" + (c.sm ? " sm" : "") }, [c.n]),
-        h("div", { class: "ttc-stat__l" }, c.live ? [pulse(), document.createTextNode(" " + c.l)] : [c.l])
-      ])))
-    ]);
-  }
-
   function valueSection() {
     const vp = [
-      { ic: "search", t: "Find your show", b: "Search an artist and pick a date. Every date and link is checked by a human first." },
-      { ic: "check",  t: "Compare prices", b: "Fresh, approved SeatGeek and Vivid Seats price snapshots, side by side, for the same event." },
-      { ic: "arrow",  t: "Buy on the provider site", b: "Click through to checkout. Free to use — commissions never change the price you pay." },
+      { ic: "search", t: "Find your show", b: "Search an artist and pick the verified date that matches your plans." },
+      { ic: "check",  t: "Compare snapshots", b: "See available SeatGeek and Vivid Seats price snapshots for the same event." },
+      { ic: "arrow",  t: "Confirm and buy", b: "Open the provider site to confirm the final price, fees, availability and ticket details." },
     ];
     return h("section", { class: "ttc-sec" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
@@ -433,7 +438,7 @@
         h("div", {}, [
           h("span", { class: "ttc-eyebrow ttc-eyebrow--onbrand" }, ["Trust & transparency"]),
           h("h2", {}, ["Built to be checked, not just clicked."]),
-          h("p", {}, ["Every link is reviewed by a human before it appears. We tell you exactly what we are and how we make money."]),
+          h("p", {}, ["Event links must pass verification checks before they appear. We explain how snapshots, outbound links and commissions work."]),
           h("div", { class: "ttc-trust__links" }, [
             h("a", { href: "/how-it-works" }, ["How we work"]),
             h("a", { href: "/affiliate-disclosure" }, ["Affiliate disclosure"]),
@@ -457,7 +462,7 @@
     // until the redesign takes over.
     main.classList.add("ttc", "ttc-home");
     main.innerHTML = "";
-    main.appendChild(frag([heroSection(DATA), statsSection(DATA), valueSection(DATA), tableSection(DATA), guidesSection(DATA), trustSection()]));
+    main.appendChild(frag([heroSection(DATA), valueSection(DATA), tableSection(DATA), guidesSection(DATA), trustSection()]));
 
     const query = new URLSearchParams(window.location.search).get("q");
     if (query && query.trim().length >= 2) {

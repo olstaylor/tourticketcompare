@@ -1212,6 +1212,15 @@ function seatGeekLaneFrom(showPricesJson) {
   return showPricesJson.shows[0].prices.find((lane) => lane.provider === "SeatGeek");
 }
 
+const seatGeekPriceEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? {
+      ...event,
+      provider_links: {
+        ...(event.provider_links || {}),
+        seatgeek: { ...(event.provider_links?.seatgeek || {}), url: event.seatgeek_url, verified: true }
+      }
+    }
+  : event));
 const freshSeatGeekPriceRow = {
   event_id: CONTROLLED_SEATGEEK_SHOW_ID,
   provider: "seatgeek",
@@ -1259,12 +1268,11 @@ const freshSeatGeekHistoryRows = [
 ];
 const flagOffFreshSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: {
-    ...env,
+  env: envWithEventsJson(seatGeekPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow]),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "false",
     VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false"
-  }
+  })
 });
 const flagOffFreshSeatGeekJson = await flagOffFreshSeatGeekResponse.json();
 const flagOffSeatGeekLane = seatGeekLaneFrom(flagOffFreshSeatGeekJson);
@@ -1274,11 +1282,10 @@ assert(!JSON.stringify(flagOffFreshSeatGeekJson).includes("seatgeek_partner_api"
 globalThis.caches.default = new MemoryCache();
 const flagOnFreshSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: {
-    ...env,
+  env: envWithEventsJson(seatGeekPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow], freshSeatGeekHistoryRows),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
-  }
+  })
 });
 const flagOnFreshSeatGeekJson = await flagOnFreshSeatGeekResponse.json();
 const flagOnFreshSeatGeekLane = seatGeekLaneFrom(flagOnFreshSeatGeekJson);
@@ -1291,22 +1298,20 @@ assert(flagOnFreshSeatGeekLane?.note.includes("SeatGeek price snapshot"), "SeatG
 
 const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: {
-    ...env,
+  env: envWithEventsJson(seatGeekPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([staleSeatGeekPriceRow]),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
-  }
+  })
 });
 const flagOnStaleSeatGeekLane = seatGeekLaneFrom(await flagOnStaleSeatGeekResponse.json());
 assert(flagOnStaleSeatGeekLane?.price === null && flagOnStaleSeatGeekLane?.providerStatus === "unavailable", "stale SeatGeek D1 snapshots should be hidden and should not fall back to stale data");
 
 const missingSourceSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: {
-    ...env,
+  env: envWithEventsJson(seatGeekPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([{ ...freshSeatGeekPriceRow, source: null }]),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
-  }
+  })
 });
 const missingSourceSeatGeekLane = seatGeekLaneFrom(await missingSourceSeatGeekResponse.json());
 assert(missingSourceSeatGeekLane?.price === null && missingSourceSeatGeekLane?.providerStatus === "unavailable", "SeatGeek price should stay hidden when source attribution is missing or not the approved source");

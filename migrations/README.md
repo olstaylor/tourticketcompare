@@ -10,10 +10,12 @@ Numbered SQL files applied to the production D1 database `tourticketcompare-dema
 | `0004_provider_pricing_cache_source.sql` | `source` column on the pricing cache | Applied manually via `wrangler d1 execute` |
 | `0005_daily_provider_calls.sql` | `daily_provider_calls` rate-cap table (used by `functions/api/shows.js`) | Applied manually via `wrangler d1 execute` (originally named `001_daily_provider_calls.sql`; renamed 2026-07-07 for consistent numbering) |
 | `0006_provider_pricing_history.sql` | `provider_pricing_history` immutable provider-attributed price observations | Pending manual application via `wrangler d1 execute` |
+| `0007_bootstrap_provider_pricing_schema.sql` | Idempotent bootstrap of the shared pricing cache/history tables | Pending manual application via `wrangler d1 execute` |
+| `0008_authorized_event_page_pricing.sql` | Adds exact source URLs and the 24-hour Ticketmaster/SeatGeek page-retrieval ledger | Pending manual application via `wrangler d1 execute` |
 
 Notes:
 
 - `npm run demand:migrate` runs **only** `0001_demand.sql`. Later migrations were applied
   one-off with `wrangler d1 execute tourticketcompare-demand --remote --file migrations/<file>`.
-- All migrations above are already applied in production. New migrations should take the
-  next `NNNN_` number and be applied the same way, then recorded here.
+- Rows marked pending have not been proven applied in production. New migrations should
+  take the next `NNNN_` number and be applied the same way, then recorded here.

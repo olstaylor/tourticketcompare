@@ -11,7 +11,7 @@ See [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) and [docs/PROVIDER_DATA_POLIC
 ## Data Integrity
 
 - **Never invent** tours, artists, events, dates, venues, prices, availability, providers, or partner relationships.
-- **Never scrape** ticket providers or unofficial sources.
+- **Never scrape without explicit written provider approval.** The sole current exception is `scripts/snapshot-authorized-page-prices.mjs`, limited to verified Ticketmaster and SeatGeek event pages already stored in the catalog. It may retain only the lowest visible price, currency, exact event URL and retrieval timestamp; it must not store page content, other price tiers, inventory, seating-map or personal data.
 - Accepted verification sources: official artist/venue websites, verified social accounts, Ticketmaster artist pages, Billboard/Pollstar/Variety. Wikipedia alone is not sufficient; AI-generated data is not a source.
 
 ## Ticket CTAs
@@ -39,18 +39,18 @@ Pages become indexable and conversion-led only after completing the phase gates 
 - Do not say "sold out" or "available" based on unverified inventory data.
 - Do not publish scraping-derived prices, fake/manual prices, a comparison for mismatched events, or a comparison with a stale or missing provider lane.
 - Written SeatGeek and Vivid Seats agreements confirmed on 2026-07-10 permit provider price display across all public site surfaces, side-by-side price display, lower-listed-price and price-difference calculations, and history for the same verified event.
-- Ticketmaster price display from an approved provider feed requires `TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED=true` and remains off by default.
-- SeatGeek comparison data is allowed only when it comes from the approved SeatGeek partner API, `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `seatgeek_url`, the cached row has `source='seatgeek_partner_api'`, and the snapshot is timestamped and unexpired.
+- Ticketmaster comparison data is allowed only from a verified catalog event page retrieved by the authorized page writer, with `TICKETMASTER_PRICE_DISPLAY_ENABLED=true`, `source='ticketmaster_authorized_event_page'`, an exact matching `source_url`, and a timestamped unexpired cache row.
+- SeatGeek comparison data is allowed from the approved SeatGeek partner API or, when equivalent API pricing is unavailable, the authorized event-page writer. It still requires `SEATGEEK_PRICE_DISPLAY_ENABLED=true`, exact verified SeatGeek provenance, source `seatgeek_partner_api` or `seatgeek_authorized_event_page`, and a timestamped unexpired cache row whose page-derived `source_url` exactly matches the catalog event URL.
 - Vivid Seats comparison data is allowed only when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true`, the event has a valid verified `vividseats_url`, the cached row has `source='vividseats_impact_marketplace_api'`, and the snapshot is timestamped and unexpired.
 - A lower-price statement must say it is a provider-supplied listed-price snapshot for the same event. Fees, taxes, availability, delivery, and the final checkout total must remain clearly qualified.
 
 ## Provider Rights and Catalog Metadata
 
-- **Ticketmaster is an official event-verification and link source only — not a reliable price source.** Do not present Ticketmaster data as a price comparison.
+- **Ticketmaster page prices are a narrow written exception, not a general data right.** Only the lowest publicly visible price from a verified unauthenticated event page may enter the approved cache; label it as subject to availability, fees and change and link users to the official event page.
 - Marketplace partners may display pricing only where an approved feed/API explicitly permits public display. SeatGeek and Vivid Seats may also be compared under the exact-event, source, freshness, and qualification gates above.
 - **Impact affiliate approval grants link/commission rights only — it never implies price-display rights.** Do not infer the right to show prices from affiliate enrolment.
 - Capability fields in `public/data/catalog.json` (`pricing_type`, `supports_pricing`, `price_aggregation`, `real_time_inventory`) are **inert metadata**. SeatGeek and Vivid Seats comparison display is gated by their enabled feature flags plus provider-specific source, exact provider-level event verification, valid timestamps, and unexpired cache rows; Ticketmaster display remains off.
-- The four-hour SeatGeek and Vivid Seats workflows are the only approved price writers. A run must expose eligible, fetched, usable, written, skipped, stale, and failed counts plus an explicit reason when zero rows are written. Failed observations must never replace an existing fresh row.
+- The existing API/feed workflows and the manual-only authorized Ticketmaster/SeatGeek page workflow are the approved price writers. Direct-page retrieval must never occur without a durable 24-hour ledger check, must pace a domain by at least a few seconds, and must stop on CAPTCHA, login wall, 403/429 blocking, or catalog coverage failure. An unavailable page observation clears the current page-derived cache price rather than guessing.
 
 ## Affiliate and Redirect Rules
 
@@ -81,7 +81,7 @@ Pages become indexable and conversion-led only after completing the phase gates 
 
 - Protected code/data: `functions/api/out.js`, `functions/_middleware.js`, `functions/[[path]].js`, `functions/_route-metadata.js`, `public/_routes.json`, and records in `public/data/{artists,catalog,events}.json`.
 - Impact credentials and affiliate/CTA destination generation.
-- Agents must not invent data, scrape providers, auto-publish artists, or create new governance docs. Auto-publishing events is allowed only via the four sanctioned automation paths above (the validated new-show auto-merge, the nightly lossless field-sync, the nightly SeatGeek CTA sync, and the nightly Vivid Seats CTA sync) — never ad hoc. Edit the canonical docs (`CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`) instead of adding parallel ones.
+- Agents must not invent data, perform unapproved provider scraping, auto-publish artists, or create new governance docs. The authorized Ticketmaster/SeatGeek page writer is not permission for ad-hoc requests or any other provider/page/field. Auto-publishing events is allowed only via the four sanctioned automation paths above — never ad hoc. Edit the canonical docs (`CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`) instead of adding parallel ones.
 
 ## Dev and Placeholder Content
 

@@ -1,66 +1,21 @@
 /**
- * Provider API Stubs
+ * Provider plugin registry
  *
  * Modular provider-specific implementations.
  * Each provider exports:
  * - validateEventLink(event, destination)
- * - getPricing(env, eventId) [stub until enabled]
- * - getHealth(env) [stub until enabled]
+ * - getPricing(env, eventId)
+ * - getHealth(env)
  *
- * Allows future implementation of provider APIs without restructuring
- * the main request flow.
+ * Ticketmaster and SeatGeek expose strict authorized event-page parsers used
+ * only by the offline snapshot writer. User-facing requests read D1 cache rows
+ * in shows.js and never retrieve provider pages.
  */
 
-import { ProviderRegistry } from "../_provider-registry.js";
+import { ticketmasterProvider } from "./ticketmaster.js";
+import { seatgeekProvider } from "./seatgeek.js";
 
-/**
- * Stub: Ticketmaster provider handler
- * Currently delegates to existing out.js logic
- */
-export const ticketmasterProvider = {
-  slug: "ticketmaster",
-  validateEventLink: (event, destination) => {
-    // Validate that event.ticketmaster_url matches destination
-    if (!event?.ticketmaster_url || !destination) return false;
-    try {
-      const eventUrl = new URL(event.ticketmaster_url);
-      const destUrl = new URL(destination);
-      return eventUrl.hostname === destUrl.hostname;
-    } catch {
-      return false;
-    }
-  },
-  getPricing: async (env, eventId) => {
-    // TODO: Implement Ticketmaster Search API pricing fetch
-    // For now, return null (no pricing display)
-    return null;
-  },
-  getHealth: async (env) => {
-    // TODO: Implement Ticketmaster API health check
-    return { status: "not_checked" };
-  }
-};
-
-/**
- * Stub: SeatGeek provider handler
- * Ready for future API integration
- */
-export const seatgeekProvider = {
-  slug: "seatgeek",
-  validateEventLink: (event, destination) => {
-    // TODO: Implement SeatGeek event matching
-    // Requires SeatGeek event ID in events.json
-    return false; // Not yet integrated
-  },
-  getPricing: async (env, eventId) => {
-    // TODO: Implement SeatGeek API pricing fetch
-    return null;
-  },
-  getHealth: async (env) => {
-    // TODO: Implement SeatGeek API health check
-    return { status: "not_configured" };
-  }
-};
+export { ticketmasterProvider, seatgeekProvider };
 
 /**
  * Stub: Vivid Seats provider handler

@@ -190,12 +190,12 @@ const routeMeta = {
   "/": {
     title: "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
     description:
-      "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider."
+      "Compare available, timestamped Ticketmaster and approved marketplace listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider."
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats",
+    title: "Compare Concert Ticket Prices | Ticketmaster & Marketplaces",
     description:
-      "Compare timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider."
+      "Review timestamped Ticketmaster and approved marketplace listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -1040,7 +1040,7 @@ function renderWhatYouCanDo() {
   // Keep in sync with the homepage template in functions/[[path]].js.
   [
     ["1. Find your show", "Search an artist and pick the verified date that matches your plans.", "/artists", "Browse artists"],
-    ["2. Compare snapshots", "See available SeatGeek and Vivid Seats price snapshots for the same event.", "/compare-concert-ticket-prices", "Compare ticket prices"],
+    ["2. Compare snapshots", "See available Ticketmaster and approved marketplace price snapshots for the same event.", "/compare-concert-ticket-prices", "Compare ticket prices"],
     ["3. Confirm and buy", "Open the provider site to confirm the final price, fees, availability, and ticket details.", "/guides/how-to-compare-concert-ticket-prices", "Read the guide"]
   ].forEach(([title, body, href, ctaLabel]) => {
     const card = document.createElement("article");
@@ -1087,7 +1087,7 @@ async function renderHome() {
   text(
     copy,
     "p",
-    "See available SeatGeek and Vivid Seats price snapshots for the same show. Confirm final prices, fees, and availability on the provider site.",
+    "See available Ticketmaster and approved marketplace price snapshots for the same show. Confirm final prices, fees, and availability on the provider site.",
     "hero-subcopy"
   );
   text(
@@ -1326,6 +1326,37 @@ function safeVerifiedEventUrl(value) {
   }
 }
 
+function safeTicketmasterEventUrl(value) {
+  const safeUrl = safeVerifiedEventUrl(value);
+  if (!safeUrl) return null;
+  try {
+    const parsed = new URL(safeUrl);
+    const host = parsed.hostname.toLowerCase();
+    if (parsed.protocol !== "https:") return null;
+    if (host !== "ticketmaster.com" && host !== "www.ticketmaster.com") return null;
+    return /\/event\//i.test(decodeURIComponent(parsed.pathname || "")) ? safeUrl : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function sameAuthorizedEventUrl(left, right) {
+  try {
+    const a = new URL(left);
+    const b = new URL(right);
+    const normalizePath = (value) => decodeURIComponent(value || "/").replace(/\/+$/, "") || "/";
+    return a.protocol === b.protocol &&
+      a.hostname.toLowerCase() === b.hostname.toLowerCase() &&
+      normalizePath(a.pathname) === normalizePath(b.pathname);
+  } catch (error) {
+    return false;
+  }
+}
+
+function ticketmasterOutAvailable(show) {
+  return Boolean(show?.id && eventLinkPublishable(show) && safeTicketmasterEventUrl(show?.ticketmaster_url));
+}
+
 function safeSeatGeekEventUrl(value) {
   const safeUrl = safeVerifiedEventUrl(value);
   if (!safeUrl) return null;
@@ -1446,22 +1477,41 @@ function isValidIsoDateTime(value) {
   return Number.isFinite(Date.parse(input));
 }
 
+function approvedTicketmasterPriceLane(show) {
+  const eventUrl = safeTicketmasterEventUrl(show?.ticketmaster_url);
+  if (!eventLinkPublishable(show) || !eventUrl) return null;
+  const lane = (Array.isArray(show?.prices) ? show.prices : []).find((item) => item?.provider === "Ticketmaster");
+  if (!lane || lane.status !== "ok" || lane.providerStatus !== "ok") return null;
+  if (lane.source !== "ticketmaster_authorized_event_page") return null;
+  const sourceUrl = safeTicketmasterEventUrl(lane.sourceUrl);
+  if (!sourceUrl || !sameAuthorizedEventUrl(sourceUrl, eventUrl)) return null;
+  const price = Number(lane.price);
+  const currency = String(lane.currency || "").trim().toUpperCase();
+  if (!Number.isFinite(price) || price <= 0 || !isValidCurrencyCode(currency)) return null;
+  if (!isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt) || Date.parse(lane.expiresAt) <= Date.now()) return null;
+  return { price, currency, fetchedAt: lane.fetchedAt, expiresAt: lane.expiresAt, sourceUrl };
+}
+
 function approvedSeatGeekPriceLane(show) {
-  if (show?.provider_links?.seatgeek?.verified !== true) return null;
-  if (!safeSeatGeekEventUrl(show?.seatgeek_url)) return null;
+  const eventUrl = safeSeatGeekEventUrl(show?.seatgeek_url);
+  if (show?.provider_links?.seatgeek?.verified !== true || !eventUrl) return null;
   const lanes = Array.isArray(show?.prices) ? show.prices : [];
   const lane = lanes.find((item) => String(item?.provider || "").toLowerCase() === "seatgeek");
   if (!lane || lane.status !== "ok" || lane.providerStatus !== "ok") return null;
-  if (lane.source !== "seatgeek_partner_api") return null;
+  if (lane.source !== "seatgeek_partner_api" && lane.source !== "seatgeek_authorized_event_page") return null;
+  if (lane.source === "seatgeek_authorized_event_page") {
+    const sourceUrl = safeSeatGeekEventUrl(lane.sourceUrl);
+    if (!sourceUrl || !sameAuthorizedEventUrl(sourceUrl, eventUrl)) return null;
+  }
   const price = Number(lane.price);
-  if (!Number.isFinite(price) || price < 0) return null;
+  if (!Number.isFinite(price) || (lane.source === "seatgeek_authorized_event_page" ? price <= 0 : price < 0)) return null;
   const currency = String(lane.currency || "").trim().toUpperCase();
   if (!isValidCurrencyCode(currency)) return null;
   if (!isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt)) return null;
   const fetchedAtMs = Date.parse(String(lane.fetchedAt || ""));
   const expiresAtMs = Date.parse(String(lane.expiresAt || ""));
   if (!Number.isFinite(fetchedAtMs) || !Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) return null;
-  return { price, currency, fetchedAt: lane.fetchedAt, expiresAt: lane.expiresAt };
+  return { price, currency, fetchedAt: lane.fetchedAt, expiresAt: lane.expiresAt, source: lane.source };
 }
 
 function approvedVividSeatsPriceLane(show) {
@@ -1496,17 +1546,38 @@ function approvedImpactMarketplacePriceLane(show, provider) {
 
 function hasApprovedMarketplacePrice(show) {
   return Boolean(
+    approvedTicketmasterPriceLane(show) ||
     approvedSeatGeekPriceLane(show) ||
     approvedVividSeatsPriceLane(show) ||
     IMPACT_MARKETPLACE_PROVIDERS.some((provider) => approvedImpactMarketplacePriceLane(show, provider))
   );
 }
 
+function renderTicketmasterPriceSnapshot(show) {
+  const lane = approvedTicketmasterPriceLane(show);
+  if (!lane) return null;
+  const amount = formatProviderPrice(lane.price, lane.currency);
+  const asOf = formatSnapshotTime(lane.fetchedAt);
+  if (!amount || !asOf) return null;
+  const row = document.createElement("div");
+  row.className = "price-snapshot-row ticketmaster-price-snapshot";
+  const href = `/api/out?${new URLSearchParams({ showId: String(show.id), provider: "ticketmaster" }).toString()}`;
+  row.append(renderPriceChip("Ticketmaster", amount, false, href));
+  text(row, "p", `Ticketmaster price snapshot as of ${asOf} — subject to availability, fees and change.`, "disclosure-note");
+  return row;
+}
+
 // Compact provider-attributed price chip: provider name + listed snapshot
 // amount. Rendered only from approved, fresh, timestamped lanes.
-function renderPriceChip(providerName, amount, isLower = false) {
-  const chip = document.createElement("span");
+function renderPriceChip(providerName, amount, isLower = false, href = "") {
+  const chip = document.createElement(href ? "a" : "span");
   chip.className = isLower ? "price-chip price-chip-lower" : "price-chip";
+  if (href) {
+    chip.href = href;
+    chip.target = "_blank";
+    chip.rel = "noopener";
+    chip.setAttribute("aria-label", `${providerName} ${amount} — open provider event page`);
+  }
   text(chip, "span", providerName, "price-chip-provider");
   text(chip, "strong", amount, "price-chip-amount");
   return chip;
@@ -1524,7 +1595,10 @@ function renderSeatGeekInlinePrice(show) {
   const note = document.createElement("p");
   note.className = "disclosure-note";
   note.textContent = `SeatGeek price snapshot as of ${asOf} — excludes fees.`;
-  return { chip: renderPriceChip("SeatGeek", amount), note };
+  const href = lane.source === "seatgeek_authorized_event_page"
+    ? `/api/out?${new URLSearchParams({ showId: String(show.id), provider: "seatgeek" }).toString()}`
+    : "";
+  return { chip: renderPriceChip("SeatGeek", amount, false, href), note };
 }
 
 function renderVividSeatsPriceSnapshot(show) {
@@ -1591,7 +1665,14 @@ function renderProviderPriceComparison(show) {
   const seatGeekLower = comparison.sameCurrency && comparison.lowerProvider === "SeatGeek";
   const vividSeatsLower = comparison.sameCurrency && comparison.lowerProvider === "Vivid Seats";
   row.append(
-    renderPriceChip("SeatGeek", seatGeekAmount, seatGeekLower),
+    renderPriceChip(
+      "SeatGeek",
+      seatGeekAmount,
+      seatGeekLower,
+      comparison.seatGeek.source === "seatgeek_authorized_event_page"
+        ? `/api/out?${new URLSearchParams({ showId: String(show.id), provider: "seatgeek" }).toString()}`
+        : ""
+    ),
     renderPriceChip("Vivid Seats", vividSeatsAmount, vividSeatsLower)
   );
 
@@ -1653,7 +1734,7 @@ function renderShowCard(show, options = {}) {
     // primary CTA; the verified Ticketmaster link renders as a plain,
     // unmonetized CTA last. Any provider renders standalone when the others
     // are unavailable.
-    const tmAvailable = Boolean(ticketmasterUrl && showId && eventLinkPublishable(show));
+    const tmAvailable = Boolean(ticketmasterUrl && showId && ticketmasterOutAvailable(show));
     const sgAvailable = Boolean(showId && seatGeekOutAvailable(show, options));
     const vsAvailable = Boolean(showId && vividSeatsOutAvailable(show, options));
     const impactMarketplaceAvailable = IMPACT_MARKETPLACE_PROVIDERS.filter((provider) => showId && impactMarketplaceOutAvailable(show, provider, options));
@@ -1667,7 +1748,10 @@ function renderShowCard(show, options = {}) {
     const priceBlock =
       comparisonBlock ||
       (!inlineSeatGeekPrice && vsAvailable ? renderVividSeatsPriceSnapshot(show) : null);
-    const additionalPriceRows = renderImpactMarketplacePriceSnapshots(show, options);
+    const additionalPriceRows = [
+      ...(tmAvailable ? [renderTicketmasterPriceSnapshot(show)].filter(Boolean) : []),
+      ...renderImpactMarketplacePriceSnapshots(show, options)
+    ];
     if (priceBlock) body.append(priceBlock);
     if (additionalPriceRows.length) body.append(...additionalPriceRows);
     if (!priceBlock && additionalPriceRows.length === 0 && (sgAvailable || vsAvailable || impactMarketplaceAvailable.length)) {
@@ -2022,7 +2106,7 @@ async function hydrateCurrentShowPriceSnapshot(shows, cardOptions) {
   const hash = String(window.location.hash || "").replace(/^#/, "");
   if (!hash) return;
   const show = shows.find((candidate) => showAnchorId(candidate) === hash);
-  if (!show?.id || (!seatGeekOutAvailable(show, cardOptions) && !vividSeatsOutAvailable(show, cardOptions) && !IMPACT_MARKETPLACE_PROVIDERS.some((provider) => impactMarketplaceOutAvailable(show, provider, cardOptions)))) return;
+  if (!show?.id || (!ticketmasterOutAvailable(show) && !seatGeekOutAvailable(show, cardOptions) && !vividSeatsOutAvailable(show, cardOptions) && !IMPACT_MARKETPLACE_PROVIDERS.some((provider) => impactMarketplaceOutAvailable(show, provider, cardOptions)))) return;
   try {
     const params = new URLSearchParams({
       showId: String(show.id),
@@ -2074,7 +2158,7 @@ function fetchApprovedBoardPrices(artistSlug, limit) {
 async function hydrateShowBoardPriceSnapshots(shows, cardOptions) {
   const candidates = shows.filter((show) => {
     if (!show?.id) return false;
-    return seatGeekOutAvailable(show, cardOptions) || vividSeatsOutAvailable(show, cardOptions) || IMPACT_MARKETPLACE_PROVIDERS.some((provider) => impactMarketplaceOutAvailable(show, provider, cardOptions));
+    return ticketmasterOutAvailable(show) || seatGeekOutAvailable(show, cardOptions) || vividSeatsOutAvailable(show, cardOptions) || IMPACT_MARKETPLACE_PROVIDERS.some((provider) => impactMarketplaceOutAvailable(show, provider, cardOptions));
   });
   if (!candidates.length) return;
 
@@ -2513,7 +2597,7 @@ function renderHowItWorks() {
   text(
     section,
     "p",
-    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options, compare approved SeatGeek and Vivid Seats price snapshots for the same event, and use practical buying guidance. We do not sell tickets and only link out to destinations we have checked.",
+    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options, review approved Ticketmaster and marketplace price snapshots for the same event, and use practical buying guidance. We do not sell tickets and only link out to destinations we have checked.",
     "lead"
   );
 
@@ -2525,7 +2609,7 @@ function renderHowItWorks() {
       "Organises verified ticket links from official providers like Ticketmaster.",
       "Shows checked event-specific links only when the destination can be verified.",
       "Provides practical buying guidance on comparing totals, understanding fees, and confirming terms.",
-      "Compares approved, timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event when both provider lanes pass source and freshness checks.",
+      "Shows approved, timestamped Ticketmaster and marketplace listed-price snapshots for the same verified event when each provider lane passes source and freshness checks.",
       "Displays a clear empty state when no verified ticket link exists for an event."
     ], "check-list")
   );
@@ -2788,7 +2872,7 @@ function renderSimplePage(type) {
         [
           "Collect verified ticket links for major artists so you have a reliable starting point.",
           "Show event-specific ticket links only when the artist, date, venue, and destination have been checked.",
-          "Compare approved, timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event when both lanes pass source and freshness checks.",
+          "Show approved, timestamped Ticketmaster and marketplace listed-price snapshots for the same verified event when each lane passes source and freshness checks.",
           "Publish plain buying guides on fees, resale, delivery timing, and what to confirm before checkout."
         ],
         "check-list"
@@ -2845,7 +2929,7 @@ function renderSimplePage(type) {
           "Artist watchlist pages for major tours, with factual artist summaries drawn from confirmed public sources.",
           "Verified provider destinations, such as artist-level links to official ticketing sites.",
           "Event-specific ticket links where the event date, venue, and destination have been checked.",
-          "Fresh, provider-attributed SeatGeek and Vivid Seats price snapshots for the same verified event, including a lower-snapshot comparison only when both lanes pass their source and freshness gates.",
+          "Fresh, provider-attributed Ticketmaster and marketplace price snapshots for the same verified event, including a lower-snapshot comparison only for compatible lanes that pass their source and freshness gates.",
           "Practical buying guides on fees, resale, delivery timing, and what to confirm before checkout."
         ],
         "check-list"
@@ -2871,7 +2955,7 @@ function renderSimplePage(type) {
           "Ticket prices, availability, or inventory status we cannot confirm from an approved source.",
           "Provider partnership or coverage claims we cannot confirm.",
           "Fake comparison tables, placeholder pricing, or a comparison that lacks fresh approved snapshots for both providers.",
-          "Listings obtained by scraping ticket providers or other sites.",
+          "Listings or prices obtained through unapproved automated collection.",
           "Savings, discount, or value claims we cannot support with approved provider data.",
           "Event schema on pages without verified event-level data."
         ],

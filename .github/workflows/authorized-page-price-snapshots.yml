@@ -1,0 +1,142 @@
+name: Authorized Ticketmaster and SeatGeek page prices
+
+# Manual-only until the first supervised 10-show run is reviewed. Enabling a
+# recurring schedule is a separate owner decision after verification. Every
+# live attempt is recorded in D1 before the workflow can be run again within
+# 24 hours for the same local event/provider pair.
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: 'Retrieve authorized public event pages and write D1. False is preview-only and makes no provider requests.'
+        type: boolean
+        default: false
+      provider:
+        description: 'Provider scope; all runs both Ticketmaster and SeatGeek.'
+        type: choice
+        options: [all, ticketmaster, seatgeek]
+        default: all
+      paired_only:
+        description: 'Target only catalog shows with verified pages on both providers (use for the supervised 10-show sample).'
+        type: boolean
+        default: true
+      limit:
+        description: 'Optional maximum catalog shows (use 10 for verification).'
+        type: string
+        default: '10'
+      event_id:
+        description: 'Optional single local event ID.'
+        type: string
+        default: ''
+      database:
+        description: 'D1 database name.'
+        type: string
+        default: 'tourticketcompare-demand'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: authorized-page-price-snapshots
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      D1_DATABASE_NAME: ${{ github.event.inputs.database || 'tourticketcompare-demand' }}
+      SNAPSHOT_PROVIDER: ${{ github.event.inputs.provider || 'all' }}
+      SNAPSHOT_LIMIT: ${{ github.event.inputs.limit || '' }}
+      SNAPSHOT_EVENT_ID: ${{ github.event.inputs.event_id || '' }}
+      SNAPSHOT_PAIRED_ONLY: ${{ github.event.inputs.paired_only || 'false' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run offline authorization, parser, pacing and runtime tests
+        run: npm run page-prices:self-test
+
+      - name: Require D1 configuration for a live run
+        if: github.event.inputs.apply == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          test -n "${CLOUDFLARE_API_TOKEN}" || { echo "::error::CLOUDFLARE_API_TOKEN is required."; exit 1; }
+          test -n "${CLOUDFLARE_ACCOUNT_ID}" || { echo "::error::CLOUDFLARE_ACCOUNT_ID is required."; exit 1; }
+
+      - name: Confirm authorized page-pricing schema is applied
+        if: github.event.inputs.apply == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          npx wrangler d1 execute "${D1_DATABASE_NAME}" --remote --json --command "SELECT source_url FROM provider_pricing_cache LIMIT 0; SELECT retrieved_at FROM provider_page_retrievals LIMIT 0;" > /dev/null
+
+      - name: Preview catalog scope (no provider requests)
+        if: github.event.inputs.apply != 'true'
+        run: |
+          set -euo pipefail
+          args=(--json)
+          if [ "${SNAPSHOT_PROVIDER}" != "all" ]; then args+=(--provider "${SNAPSHOT_PROVIDER}"); fi
+          if [ -n "${SNAPSHOT_LIMIT}" ]; then args+=(--limit "${SNAPSHOT_LIMIT}"); fi
+          if [ -n "${SNAPSHOT_EVENT_ID}" ]; then args+=(--event-id "${SNAPSHOT_EVENT_ID}"); fi
+          if [ "${SNAPSHOT_PAIRED_ONLY}" = "true" ]; then args+=(--paired-only); fi
+          node scripts/snapshot-authorized-page-prices.mjs "${args[@]}" | tee "$RUNNER_TEMP/authorized-page-price-summary.json"
+
+      - name: Retrieve pages and write authorized lowest-price observations
+        if: github.event.inputs.apply == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          args=(--apply --json --database "${D1_DATABASE_NAME}" --delay-ms 4000)
+          if [ "${SNAPSHOT_PROVIDER}" != "all" ]; then args+=(--provider "${SNAPSHOT_PROVIDER}"); fi
+          if [ -n "${SNAPSHOT_LIMIT}" ]; then args+=(--limit "${SNAPSHOT_LIMIT}"); fi
+          if [ -n "${SNAPSHOT_EVENT_ID}" ]; then args+=(--event-id "${SNAPSHOT_EVENT_ID}"); fi
+          if [ "${SNAPSHOT_PAIRED_ONLY}" = "true" ]; then args+=(--paired-only); fi
+          node scripts/snapshot-authorized-page-prices.mjs "${args[@]}" | tee "$RUNNER_TEMP/authorized-page-price-summary.json"
+
+      - name: Publish run summary
+        if: always()
+        run: |
+          node --input-type=module - "$RUNNER_TEMP/authorized-page-price-summary.json" <<'NODE'
+          import fs from "node:fs";
+          const file = process.argv[2];
+          if (!fs.existsSync(file)) process.exit(0);
+          const summary = JSON.parse(fs.readFileSync(file, "utf8"));
+          const metrics = ["scanned", "selected_events", "eligible_rows", "fetched", "usable", "unavailable", "skipped_24h", "api_satisfied", "written", "failed"];
+          const rows = metrics.map((key) => `| ${key} | ${summary[key] ?? 0} |`).join("\n");
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+            `## Authorized Ticketmaster/SeatGeek page prices\n\n| Metric | Count |\n| --- | ---: |\n${rows}\n\n` +
+            `**Coverage failures:** ${summary.coverage_failures?.length ?? 0}\n\n` +
+            `**Stopped:** ${summary.stopped ? `yes — ${summary.stop_reason}` : "no"}\n`);
+          NODE
+
+      - name: Audit current authorized cache rows
+        if: always() && github.event.inputs.apply == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx wrangler d1 execute "${D1_DATABASE_NAME}" --remote --json --command "SELECT provider, COUNT(*) AS total, SUM(CASE WHEN low_price IS NOT NULL AND datetime(expires_at) > datetime('now') THEN 1 ELSE 0 END) AS fresh FROM provider_pricing_cache WHERE source IN ('ticketmaster_authorized_event_page','seatgeek_authorized_event_page') GROUP BY provider;"
+
+      - name: Confirm event and checkout code were not modified by the run
+        if: always()
+        run: |
+          git diff --exit-code -- public/data/events.json functions/api/out.js

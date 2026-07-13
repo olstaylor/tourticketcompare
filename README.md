@@ -26,7 +26,12 @@ Helps fans find checked ticket links, understand buying risks, and read practica
 ```bash
 npm install
 npm run dev        # Pages preview at http://localhost:3000 (health: /api/health)
+npm run page-prices:preview
+# Supervised only after migration and review:
+npm run page-prices:apply -- --paired-only --limit 10
 ```
+
+Preview mode performs no provider requests or D1 writes. Live page mode uses a durable rolling 24-hour reservation per event/provider, checks each provider origin's `robots.txt` once on demand, and stops on a disallow, unverifiable robots policy, CAPTCHA, login wall, 403/429 block, or unrelated redirect.
 
 Validation, event-data commands, and the PR checklist are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -45,7 +50,7 @@ Hard rules: [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md). Reference docs
 ## Key rules
 
 - Never invent tours, dates, venues, prices, availability, or ticket inventory.
-- Never scrape ticket providers.
+- Never perform unapproved provider scraping. The only direct-page exception is the provider-authorized, catalog-scoped Ticketmaster/SeatGeek lowest-price snapshot workflow documented in `docs/PROVIDER_DATA_POLICY.md`; it stores no page content and enforces a 24-hour per-event/provider retrieval interval.
 - Never claim live price comparison. Provider-specific snapshots require explicit written usage rights, an approved source, an enabled runtime flag, and fresh timestamped data.
 - GitHub `main` is the source of truth; unknown routes 404 rather than generating thin pages.
 

@@ -96,8 +96,8 @@ All HTML route handling lives in `functions/[[path]].js`; page metadata lives in
 - `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` — network-level Impact fallback (server-side only).
 - `IMPACT_SEATGEEK_*` — SeatGeek Impact program (server-side only). Active.
 - `IMPACT_VIVIDSEATS_*` — production event-level CTAs are live; confirm runtime state through `/api/health` and redirect tests rather than inferring secret presence from the repository. Artist-level Vivid Seats entries remain absent.
-- `IMPACT_TICKETNETWORK_*`, `IMPACT_TICKETLIQUIDATOR_*`, `IMPACT_STUBHUB_INTERNATIONAL_*` — provider-specific Impact Catalogs and tracking credentials. Their runtime and price lanes are implemented but default-off; never enable a public/display flag until that provider's program, catalog scope, usage rights, tracking redirect, and sample matches are verified.
-- `TICKETNETWORK_PUBLIC_ENABLED`, `TICKETLIQUIDATOR_PUBLIC_ENABLED`, `STUBHUB_INTERNATIONAL_PUBLIC_ENABLED` — independent public CTA gates; default false. Matching `*_PRICE_DISPLAY_ENABLED` flags are separate and default false.
+- `IMPACT_TICKETNETWORK_*`, `IMPACT_TICKETLIQUIDATOR_*`, `IMPACT_STUBHUB_INTERNATIONAL_*` — optional provider-specific overrides. Production uses the verified `IMPACT_SEATGEEK_ACCOUNT_SID` / `IMPACT_SEATGEEK_AUTH_TOKEN` fallback with pinned campaigns `2322`, `2085`, and `24092` when these overrides are absent.
+- `TICKETNETWORK_PUBLIC_ENABLED`, `TICKETLIQUIDATOR_PUBLIC_ENABLED`, `STUBHUB_INTERNATIONAL_PUBLIC_ENABLED` — independent emergency kill switches. The three verified CTA lanes default on after the 2026-07-13 activation; an explicit `false` disables one. TicketNetwork and StubHub International price display also default on but remain exact-event/source/freshness/cache gated. Ticket Liquidator price display defaults off because its catalog has no numeric `CurrentPrice`.
 - `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` — discovery tooling only, not `/api/out`.
 - The old `IMPACT_TICKETMASTER_*` secrets are unused — delete them from the dashboard if still present (owner task, tracked in `BACKLOG.md`).
 

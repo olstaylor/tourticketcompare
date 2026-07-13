@@ -1,10 +1,13 @@
 name: Impact marketplace price snapshots
 
-# Manual-only until provider-specific Impact catalog access and sample price
-# provenance have been verified. Reads exact provider event IDs already stored
-# by the event sync and writes only unambiguous, timestamped D1 snapshots.
+# Reads exact provider event IDs already stored by the event sync and writes
+# only unambiguous, timestamped D1 snapshots. The verified TicketNetwork and
+# StubHub International lanes refresh every four hours; Ticket Liquidator is
+# manual-only while its catalog has no numeric CurrentPrice.
 
 on:
+  schedule:
+    - cron: '17 */4 * * *'
   workflow_dispatch:
     inputs:
       provider:
@@ -35,19 +38,23 @@ permissions:
   contents: read
 
 concurrency:
-  group: impact-marketplace-price-snapshots-${{ github.event.inputs.provider }}
+  group: impact-marketplace-price-snapshots-${{ github.event_name == 'workflow_dispatch' && github.event.inputs.provider || 'scheduled' }}
   cancel-in-progress: false
 
 jobs:
   snapshot:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        provider: ${{ fromJSON(github.event_name == 'workflow_dispatch' && format('["{0}"]', github.event.inputs.provider) || '["ticketnetwork","stubhub-international"]') }}
     env:
-      PROVIDER: ${{ github.event.inputs.provider }}
-      APPLY: ${{ github.event.inputs.apply }}
-      LIMIT: ${{ github.event.inputs.limit }}
-      EVENT_ID: ${{ github.event.inputs.event_id }}
-      DATABASE: ${{ github.event.inputs.database }}
+      PROVIDER: ${{ matrix.provider }}
+      APPLY: ${{ github.event_name == 'schedule' && 'true' || github.event.inputs.apply }}
+      LIMIT: ${{ github.event.inputs.limit || '' }}
+      EVENT_ID: ${{ github.event.inputs.event_id || '' }}
+      DATABASE: ${{ github.event.inputs.database || 'tourticketcompare-demand' }}
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       IMPACT_CATALOG_CREDENTIAL_SET: seatgeek
       IMPACT_CATALOG_API_VERSION: '16'
@@ -86,6 +93,17 @@ jobs:
           if [ -n "$EVENT_ID" ]; then args+=(--event-id "$EVENT_ID"); fi
           if [ "$APPLY" = "true" ]; then args+=(--apply); fi
           node scripts/snapshot-impact-marketplace-prices.mjs "${args[@]}" | tee "$RUNNER_TEMP/impact-price-summary.json"
+
+      - name: Require a healthy scheduled write
+        if: github.event_name == 'schedule'
+        run: |
+          node --input-type=module - "$RUNNER_TEMP/impact-price-summary.json" <<'NODE'
+          import fs from "node:fs";
+          const summary = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+          if (summary.usable < 1 || summary.written < 1 || summary.failed > 0) {
+            throw new Error(`Unhealthy ${summary.provider} snapshot: usable=${summary.usable}, written=${summary.written}, failed=${summary.failed}`);
+          }
+          NODE
 
       - name: Publish run summary
         if: always()

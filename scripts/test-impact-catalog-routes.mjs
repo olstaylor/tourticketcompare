@@ -3,6 +3,7 @@ import { onRequestGet as impactCatalogs } from "../functions/api/impact/catalogs
 import { onRequestGet as impactHealth } from "../functions/api/impact/health.js";
 import { onRequestGet as impactProducts } from "../functions/api/impact/products.js";
 import { impactConfig as outboundImpactConfig } from "../functions/api/out.js";
+import { impactMarketplaceRuntimeConfig } from "../functions/_impact-marketplace-config.js";
 
 const missingEnv = {};
 const healthResponse = await impactHealth({ env: missingEnv });
@@ -38,6 +39,20 @@ for (const [provider, programId] of [
   assert.equal(config.programId, programId);
   assert.equal(config.programIdSource, "impact_catalog_campaign");
 }
+
+for (const [provider, priceDisplayEnabled] of [
+  ["ticketnetwork", true],
+  ["ticket-liquidator", false],
+  ["stubhub-international", true]
+]) {
+  const runtime = impactMarketplaceRuntimeConfig(outboundEnv, provider);
+  assert.equal(runtime.publicEnabled, true);
+  assert.equal(runtime.priceDisplayEnabled, priceDisplayEnabled);
+  assert.equal(runtime.trackingConfigured, true);
+  assert.equal(runtime.accountSid, "sg-account");
+}
+assert.equal(impactMarketplaceRuntimeConfig({ TICKETNETWORK_PUBLIC_ENABLED: "false" }, "ticketnetwork").publicEnabled, false);
+assert.equal(impactMarketplaceRuntimeConfig({ TICKETNETWORK_PRICE_DISPLAY_ENABLED: "false" }, "ticketnetwork").priceDisplayEnabled, false);
 
 const originalFetch = globalThis.fetch;
 let probeUrl = "";

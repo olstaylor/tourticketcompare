@@ -749,7 +749,7 @@
       "slug": "vivid-seats",
       "name": "Vivid Seats",
       "provider_type": "marketplace",
-      "public_enabled": false,
+      "public_enabled": true,
       "requires_verified_destination": true,
       "credential_type": "api_key",
       "credential_fields": [
@@ -789,7 +789,7 @@
       "slug": "ticketnetwork",
       "name": "TicketNetwork",
       "provider_type": "marketplace",
-      "public_enabled": false,
+      "public_enabled": true,
       "requires_verified_destination": true,
       "credential_type": "impact",
       "credential_fields": [
@@ -824,13 +824,13 @@
       },
       "affiliate_disclosure": "This link directs to TicketNetwork and may be an affiliate link.",
       "terms_accepted_at": null,
-      "activation_note": "Runtime and Impact catalog ingestion are implemented fail-closed. Keep public flags false until the approved Impact program ID, catalog access, tracking route, and sample event matches have been verified."
+      "activation_note": "Activated 2026-07-13 with SeatGeek-scoped Impact campaign 2322 / catalog 896, verified event destinations, tracked redirects, and exact-ID price snapshots. An explicit false runtime flag remains the emergency kill switch."
     },
     {
       "slug": "ticket-liquidator",
       "name": "Ticket Liquidator",
       "provider_type": "marketplace",
-      "public_enabled": false,
+      "public_enabled": true,
       "requires_verified_destination": true,
       "credential_type": "impact",
       "credential_fields": [
@@ -865,13 +865,13 @@
       },
       "affiliate_disclosure": "This link directs to Ticket Liquidator and may be an affiliate link.",
       "terms_accepted_at": null,
-      "activation_note": "Runtime and Impact catalog ingestion are implemented fail-closed. Keep public flags false until the approved Impact program ID, catalog access, tracking route, and sample event matches have been verified."
+      "activation_note": "Activated 2026-07-13 with SeatGeek-scoped Impact campaign 2085 / catalog 1315, verified event destinations, and tracked redirects. Price display remains disabled because CurrentPrice is empty in the catalog."
     },
     {
       "slug": "stubhub-international",
       "name": "StubHub International",
       "provider_type": "marketplace",
-      "public_enabled": false,
+      "public_enabled": true,
       "requires_verified_destination": true,
       "credential_type": "impact",
       "credential_fields": [
@@ -913,7 +913,7 @@
       },
       "affiliate_disclosure": "This link directs to StubHub International and may be an affiliate link.",
       "terms_accepted_at": null,
-      "activation_note": "This is StubHub International, not the separate US/Canada StubHub business. Runtime and Impact catalog ingestion are implemented fail-closed; keep public flags false until the approved Impact program ID, catalog access, tracking route, and sample event matches have been verified."
+      "activation_note": "Activated 2026-07-13 with SeatGeek-scoped Impact campaign 24092 / catalog 17571, verified international event destinations, tracked redirects, and exact-ID price snapshots. This is not StubHub US/Canada."
     }
   ],
   "ticket_links": [

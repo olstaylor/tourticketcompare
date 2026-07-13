@@ -1,4 +1,8 @@
 import { VERIFIED_TICKET_LINKS } from "./out.js";
+import {
+  impactMarketplacePriceDisplayEnabled,
+  impactMarketplaceRuntimeConfig
+} from "../_impact-marketplace-config.js";
 
 const EVENTS_JSON_PATH = "/data/events.json";
 const ARTISTS_JSON_PATH = "/data/artists.json";
@@ -485,14 +489,7 @@ function providerKey(provider) {
 
 function hasImpactMarketplaceProviderConfig(env = {}, provider) {
   const config = typeof provider === "string" ? IMPACT_MARKETPLACE_BY_SLUG[providerKey(provider)] : provider;
-  if (!config || String(env?.[config.publicFlagKey] || "").toLowerCase() !== "true") return false;
-  const baseTracking = Boolean(String(env?.[`${config.envPrefix}_BASE_TRACKING_URL`] || "").trim());
-  const apiConfig = Boolean(
-    String(env?.[`${config.envPrefix}_ACCOUNT_SID`] || env?.IMPACT_ACCOUNT_SID || "").trim() &&
-    String(env?.[`${config.envPrefix}_AUTH_TOKEN`] || env?.IMPACT_AUTH_TOKEN || "").trim() &&
-    String(env?.[`${config.envPrefix}_CAMPAIGN_ID`] || env?.[`${config.envPrefix}_PROGRAM_ID`] || "").trim()
-  );
-  return baseTracking || apiConfig;
+  return Boolean(config && impactMarketplaceRuntimeConfig(env, config.slug)?.configured);
 }
 
 function validImpactMarketplaceEventUrl(value, provider) {
@@ -879,6 +876,7 @@ const APPROVED_MARKETPLACE_PRICE_LANES = [
   ...IMPACT_MARKETPLACE_PROVIDERS.map((config) => ({
     provider: config.name,
     dbKey: config.slug,
+    runtimeProvider: config.slug,
     approvedSource: config.priceSource,
     displayFlagKey: config.displayFlagKey,
     publicFlagKey: config.publicFlagKey,
@@ -921,8 +919,10 @@ async function fetchApprovedMarketplaceCachedRows(db, showIds) {
 export async function attachApprovedMarketplacePrices(shows, env) {
   const laneStates = APPROVED_MARKETPLACE_PRICE_LANES.map((lane) => ({
     lane,
-    enabled: getEnvBoolean(env?.[lane.displayFlagKey], false) &&
-      (!lane.publicFlagKey || getEnvBoolean(env?.[lane.publicFlagKey], false))
+    enabled: lane.runtimeProvider
+      ? impactMarketplacePriceDisplayEnabled(env, lane.runtimeProvider)
+      : getEnvBoolean(env?.[lane.displayFlagKey], false) &&
+        (!lane.publicFlagKey || getEnvBoolean(env?.[lane.publicFlagKey], false))
   }));
   const db = getPricingDb(env);
   let rowsByKey = new Map();
@@ -1094,8 +1094,7 @@ function createLiveAdapter(provider, env) {
 
       const marketplaceConfig = IMPACT_MARKETPLACE_BY_SLUG[providerKey(provider)];
       if (marketplaceConfig) {
-        if (!getEnvBoolean(env?.[marketplaceConfig.publicFlagKey], false) ||
-            !getEnvBoolean(env?.[marketplaceConfig.displayFlagKey], false)) {
+        if (!impactMarketplacePriceDisplayEnabled(env, marketplaceConfig.slug)) {
           return unavailableProviderPrice(provider, show);
         }
         const db = getPricingDb(env);

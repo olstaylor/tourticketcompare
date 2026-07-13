@@ -1,3 +1,5 @@
+import { impactMarketplacePublicEnabled } from "../_impact-marketplace-config.js";
+
 const PLACEHOLDER_URL_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1/i;
 const EVENTS_JSON_PATH = "/data/events.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
@@ -1199,7 +1201,7 @@ async function handleOut(request, env, mode) {
 
   const providerConfig = PROVIDERS[provider];
   if (!providerConfig) return json({ ok: false, status: "unknown_provider" }, 400);
-  if (providerConfig.publicEnabledEnv && String(env?.[providerConfig.publicEnabledEnv] || "").toLowerCase() !== "true") {
+  if (providerConfig.publicEnabledEnv && !impactMarketplacePublicEnabled(env, provider)) {
     return json({ ok: false, status: "provider_not_configured" }, 400);
   }
 

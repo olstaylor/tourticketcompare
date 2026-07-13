@@ -9,11 +9,7 @@ function json(payload, status = 200) {
   return new Response(JSON.stringify(payload), { status, headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" } });
 }
 function db(env) { return env?.DEMAND_DB && typeof env.DEMAND_DB.prepare === "function" ? env.DEMAND_DB : null; }
-function stableId(value) {
-  let hash = 2166136261;
-  for (const char of value) { hash ^= char.charCodeAt(0); hash = Math.imul(hash, 16777619); }
-  return "obs_" + (hash >>> 0).toString(16);
-}
+function stableId(value) { return encodeURIComponent(value); }
 function normalizeObservation(input) {
   const eventId = String(input?.eventId || "").trim();
   const provider = String(input?.provider || "").toLowerCase();

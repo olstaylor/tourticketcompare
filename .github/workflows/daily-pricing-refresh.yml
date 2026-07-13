@@ -1,0 +1,45 @@
+name: Daily normalized pricing refresh
+
+on:
+  schedule:
+    - cron: '13 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-normalized-pricing-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PRICING_INGEST_URL: ${{ secrets.PRICING_INGEST_URL }}
+      PRICING_INGEST_TOKEN: ${{ secrets.PRICING_INGEST_TOKEN }}
+      SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+      SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
+      PRICING_BROWSER_CONCURRENCY: '3'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Install Chromium only
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Refresh Ticketmaster and SeatGeek prices
+        run: node scripts/pricing/refresh.mjs
+      - name: Upload failed browser diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pricing-refresh-diagnostics-${{ github.run_id }}
+          path: .pricing-diagnostics
+          if-no-files-found: ignore
+          retention-days: 7

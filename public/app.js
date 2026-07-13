@@ -2404,6 +2404,10 @@ function renderGuideFaq(guide) {
 
 function renderHowItWorks() {
   setMeta(routeMeta["/how-it-works"], false);
+  // The function route is the authoritative trust copy. Preserve it on initial
+  // load so hydration cannot replace current snapshot and verification claims
+  // with an older client fallback.
+  if (document.getElementById("pageTitle")) return;
   const section = document.createElement("section");
   section.className = "content-page";
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "How it works" }]));
@@ -2411,7 +2415,7 @@ function renderHowItWorks() {
   text(
     section,
     "p",
-    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options and buying guidance. We do not sell tickets, do not compare live prices, and only link out to destinations we have checked.",
+    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options, compare approved SeatGeek and Vivid Seats price snapshots for the same event, and use practical buying guidance. We do not sell tickets and only link out to destinations we have checked.",
     "lead"
   );
 
@@ -2423,6 +2427,7 @@ function renderHowItWorks() {
       "Organises verified ticket links from official providers like Ticketmaster.",
       "Shows checked event-specific links only when the destination can be verified.",
       "Provides practical buying guidance on comparing totals, understanding fees, and confirming terms.",
+      "Compares approved, timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event when both provider lanes pass source and freshness checks.",
       "Displays a clear empty state when no verified ticket link exists for an event."
     ], "check-list")
   );
@@ -2433,7 +2438,7 @@ function renderHowItWorks() {
   whatWeDont.append(
     createList([
       "Sell tickets directly.",
-      "Compare prices across providers or claim one site is cheaper.",
+      "Compare prices without a fresh, approved snapshot for the same verified event.",
       "Display prices without verified, timestamped provider data.",
       "Send users to generic artist pages when no event-specific link is verified.",
       "Scrape unofficial sources or publish unverified tour dates."
@@ -2499,6 +2504,16 @@ function renderGeneralFaq() {
 
 function renderSimplePage(type) {
   setMeta(routeMeta[`/${type}`], false);
+  const serverRenderedTitleIds = {
+    about: "aboutTitle",
+    contact: "contactTitle",
+    "editorial-policy": "editorialTitle",
+    "affiliate-disclosure": "affiliateTitle"
+  };
+  // Trust pages are fully rendered by the function route. Keep that current
+  // copy in place on initial load; the client renderer remains a fallback for
+  // an un-injected static shell.
+  if (document.getElementById(serverRenderedTitleIds[type])) return;
   const section = document.createElement("section");
   section.className = "content-page";
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: routeMeta[`/${type}`].title.replace(" | TourTicketCompare", "") }]));
@@ -2542,9 +2557,8 @@ function renderSimplePage(type) {
     sources.append(
       createList(
         [
-          "Official sources: Artist-level pages on official ticketing sites (typically Ticketmaster).",
-          "Resale marketplaces: Verified platforms like SeatGeek and Vivid Seats where sellers list real tickets.",
-          "Affiliate links: Verified destination URLs that may generate commission when you buy.",
+          "Official sources: Artist-level and event pages on official ticketing sites (typically Ticketmaster). These are plain links — we have no Ticketmaster affiliate relationship and earn nothing when you use them.",
+          "Resale marketplaces: Verified platforms like SeatGeek and Vivid Seats. These links may be affiliate links and may generate commission when you buy.",
           "Guidance: Buying guides and checklists are informational; we do not sell tickets directly."
         ],
         "check-list"
@@ -2675,6 +2689,7 @@ function renderSimplePage(type) {
         [
           "Collect verified ticket links for major artists so you have a reliable starting point.",
           "Show event-specific ticket links only when the artist, date, venue, and destination have been checked.",
+          "Compare approved, timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event when both lanes pass source and freshness checks.",
           "Publish plain buying guides on fees, resale, delivery timing, and what to confirm before checkout."
         ],
         "check-list"
@@ -2688,7 +2703,8 @@ function renderSimplePage(type) {
       createList(
         [
           "Sell or resell tickets.",
-          "Compare prices across providers or claim one site is cheaper.",
+          "Present snapshots as live inventory, promises of availability, or final checkout totals.",
+          "Rank a provider as universally lower-priced or better.",
           "Invent tour dates, venues, prices, or availability."
         ],
         "check-list"
@@ -2730,6 +2746,7 @@ function renderSimplePage(type) {
           "Artist watchlist pages for major tours, with factual artist summaries drawn from confirmed public sources.",
           "Verified provider destinations, such as artist-level links to official ticketing sites.",
           "Event-specific ticket links where the event date, venue, and destination have been checked.",
+          "Fresh, provider-attributed SeatGeek and Vivid Seats price snapshots for the same verified event, including a lower-snapshot comparison only when both lanes pass their source and freshness gates.",
           "Practical buying guides on fees, resale, delivery timing, and what to confirm before checkout."
         ],
         "check-list"
@@ -2754,7 +2771,7 @@ function renderSimplePage(type) {
           "Invented tour dates, venues, or cities.",
           "Ticket prices, availability, or inventory status we cannot confirm from an approved source.",
           "Provider partnership or coverage claims we cannot confirm.",
-          "Fake comparison tables or placeholder pricing.",
+          "Fake comparison tables, placeholder pricing, or a comparison that lacks fresh approved snapshots for both providers.",
           "Listings obtained by scraping ticket providers or other sites.",
           "Savings, discount, or value claims we cannot support with approved provider data.",
           "Event schema on pages without verified event-level data."

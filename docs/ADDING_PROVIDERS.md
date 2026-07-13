@@ -92,8 +92,9 @@ Once Phase 1 is documented and reviewed:
 | **SeatGeek** | ✅ Live (artist + event level) | Primary affiliate CTA via Impact. Artist-level performer-page entries (API-captured URLs) and event-level `seatgeek_url` CTAs, all through `/api/out`. Price snapshots remain source/freshness gated. |
 | **Ticketmaster** | ✅ Live (plain links) | Official event source and verified destination; **no affiliate relationship** (removed from the programme 2026-07). Links are plain, unmonetized redirects rendered after the affiliate providers. |
 | **Vivid Seats** | ✅ Live (event level) | Approved Impact catalog lane with verified `/production/<id>` destinations and gated price snapshots. |
-| **TicketNetwork** | 🔌 Implemented, inactive | Shared Impact Catalogs ingestion, verified event provenance, redirect, CTA, and D1 snapshot lane. `TICKETNETWORK_PUBLIC_ENABLED` and price display stay false until provider-specific catalog/tracking proof and rights review pass. |
-| **Ticket Liquidator** | 🔌 Implemented, inactive | Same shared Impact lane. `TICKETLIQUIDATOR_PUBLIC_ENABLED` and price display stay false until provider-specific catalog/tracking proof and rights review pass. |
+| **TicketNetwork** | ✅ Active via Impact | SeatGeek-scoped Impact campaign `2322`, catalog `896`; verified event links, tracked redirects, CTAs, and exact-ID D1 snapshots. |
+| **Ticket Liquidator** | ✅ Active via Impact | SeatGeek-scoped Impact campaign `2085`, catalog `1315`; verified event links, tracked redirects, and CTAs. Its catalog currently has no numeric `CurrentPrice`, so the independent price-display flag remains off. |
+| **StubHub International** | ✅ Active via Impact | SeatGeek-scoped Impact campaign `24092`, catalog `17571`; verified event links, tracked redirects, CTAs, and exact-ID D1 snapshots. |
 | **StubHub International** | 🔌 Implemented, inactive | International business only (not StubHub US/Canada). Allowlisted country storefronts, shared Impact lane, and separate flags. Public activation waits for provider-specific catalog/tracking proof and rights review. |
 | **StubHub US/Canada, Viagogo** | ⏸️ Not started | Separate providers and separate scope; do not infer approval from StubHub International. |
 

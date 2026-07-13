@@ -1073,12 +1073,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668656",
+        "url": "https://www.ticketnetwork.com/en/p/7668656",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668656",
+        "url": "https://www.ticketliquidator.com/tickets/7668656/Bruno-Mars-tickets-Sat-Jul-18-2026-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071082",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-18-7-2026/event/107071082",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AeGZbzGkSGzoMA"
+    "ticketmaster_discovery_event_id": "1AeGZbzGkSGzoMA",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668656",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668656/Bruno-Mars-tickets-Sat-Jul-18-2026-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-18-7-2026/event/107071082"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdftyue",
@@ -1126,12 +1150,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668657",
+        "url": "https://www.ticketnetwork.com/en/p/7668657",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668657",
+        "url": "https://www.ticketliquidator.com/tickets/7668657/Bruno-Mars-tickets-Sun-Jul-19-2026-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071083",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-19-7-2026/event/107071083",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1ANZk8EGkdFTYUe"
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdFTYUe",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668657",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668657/Bruno-Mars-tickets-Sun-Jul-19-2026-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-19-7-2026/event/107071083"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkduy8wh",
@@ -1179,12 +1227,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7678569",
+        "url": "https://www.ticketnetwork.com/en/p/7678569",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7678569",
+        "url": "https://www.ticketliquidator.com/tickets/7678569/Bruno-Mars-tickets-Wed-Jul-22-2026-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076201",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-22-7-2026/event/107076201",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1ANZk8EGkdUY8Wh"
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdUY8Wh",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7678569",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7678569/Bruno-Mars-tickets-Wed-Jul-22-2026-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-22-7-2026/event/107076201"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdmnywe",
@@ -1232,12 +1304,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7678656",
+        "url": "https://www.ticketnetwork.com/en/p/7678656",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7678656",
+        "url": "https://www.ticketliquidator.com/tickets/7678656/Bruno-Mars-tickets-Fri-Jul-24-2026-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076202",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-24-7-2026/event/107076202",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1ANZk8EGkdMNYWE"
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdMNYWE",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7678656",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7678656/Bruno-Mars-tickets-Fri-Jul-24-2026-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-24-7-2026/event/107076202"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdzq8wy",
@@ -1285,12 +1381,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7678826",
+        "url": "https://www.ticketnetwork.com/en/p/7678826",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7678826",
+        "url": "https://www.ticketliquidator.com/tickets/7678826/Bruno-Mars-tickets-Sat-Jul-25-2026-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076203",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-25-7-2026/event/107076203",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1ANZk8EGkdzq8WY"
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdzq8WY",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7678826",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7678826/Bruno-Mars-tickets-Sat-Jul-25-2026-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-25-7-2026/event/107076203"
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdbd8xc",
@@ -1338,12 +1458,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7680597",
+        "url": "https://www.ticketnetwork.com/en/p/7680597",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7680597",
+        "url": "https://www.ticketliquidator.com/tickets/7680597/Bruno-Mars-tickets-Tue-Jul-28-2026-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073286",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-28-7-2026/event/107073286",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1ANZk8EGkdBd8XC"
+    "ticketmaster_discovery_event_id": "1ANZk8EGkdBd8XC",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7680597",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680597/Bruno-Mars-tickets-Tue-Jul-28-2026-Wembley-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-28-7-2026/event/107073286"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm",
@@ -1391,12 +1535,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668632",
+        "url": "https://www.ticketnetwork.com/en/p/7668632",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668632",
+        "url": "https://www.ticketliquidator.com/tickets/7668632/Bruno-Mars-tickets-Fri-Aug-21-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071100",
+        "url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-21-2026/event/107071100",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "k7vGFbyDOLWCM"
+    "ticketmaster_discovery_event_id": "k7vGFbyDOLWCM",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668632",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668632/Bruno-Mars-tickets-Fri-Aug-21-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-21-2026/event/107071100"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd",
@@ -1444,12 +1612,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668633",
+        "url": "https://www.ticketnetwork.com/en/p/7668633",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668633",
+        "url": "https://www.ticketliquidator.com/tickets/7668633/Bruno-Mars-tickets-Sat-Aug-22-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107066186",
+        "url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-22-2026/event/107066186",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "k7vGFbyDO-qCD"
+    "ticketmaster_discovery_event_id": "k7vGFbyDO-qCD",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668633",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668633/Bruno-Mars-tickets-Sat-Aug-22-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-22-2026/event/107066186"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydoxccx",
@@ -1497,12 +1689,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7679355",
+        "url": "https://www.ticketnetwork.com/en/p/7679355",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7679355",
+        "url": "https://www.ticketliquidator.com/tickets/7679355/Bruno-Mars-tickets-Tue-Aug-25-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073306",
+        "url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-25-2026/event/107073306",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "k7vGFbyDOxcCX"
+    "ticketmaster_discovery_event_id": "k7vGFbyDOxcCX",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679355",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679355/Bruno-Mars-tickets-Tue-Aug-25-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-25-2026/event/107073306"
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydonw2z",
@@ -1550,12 +1766,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7680330",
+        "url": "https://www.ticketnetwork.com/en/p/7680330",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7680330",
+        "url": "https://www.ticketliquidator.com/tickets/7680330/Bruno-Mars-tickets-Wed-Aug-26-2026-MetLife-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107077122",
+        "url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-26-2026/event/107077122",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "k7vGFbyDONW2Z"
+    "ticketmaster_discovery_event_id": "k7vGFbyDONW2Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7680330",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680330/Bruno-Mars-tickets-Wed-Aug-26-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-26-2026/event/107077122"
   },
   {
     "id": "tm-bruno-mars-2026-pittsburgh-1avbzbygkuhq626",
@@ -1603,12 +1843,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668634",
+        "url": "https://www.ticketnetwork.com/en/p/7668634",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668634",
+        "url": "https://www.ticketliquidator.com/tickets/7668634/Bruno-Mars-tickets-Sat-Aug-29-2026-Acrisure-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107068178",
+        "url": "https://www.stubhub.ie/bruno-mars-pittsburgh-tickets-8-29-2026/event/107068178",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AvbZbyGkUHq626"
+    "ticketmaster_discovery_event_id": "1AvbZbyGkUHq626",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668634",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668634/Bruno-Mars-tickets-Sat-Aug-29-2026-Acrisure-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-pittsburgh-tickets-8-29-2026/event/107068178"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv1aezk8pgkdj_ywf",
@@ -1656,12 +1920,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668635",
+        "url": "https://www.ticketnetwork.com/en/p/7668635",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668635",
+        "url": "https://www.ticketliquidator.com/tickets/7668635/Bruno-Mars-tickets-Tue-Sep-1-2026-Lincoln-Financial-Field",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071102",
+        "url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-1-2026/event/107071102",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv1AeZk8PGkdj_ywf"
+    "ticketmaster_discovery_event_id": "vv1AeZk8PGkdj_ywf",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668635",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668635/Bruno-Mars-tickets-Tue-Sep-1-2026-Lincoln-Financial-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-1-2026/event/107071102"
   },
   {
     "id": "tm-bruno-mars-2026-philadelphia-vv17fz_egkssn1i0",
@@ -1709,12 +1997,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7680369",
+        "url": "https://www.ticketnetwork.com/en/p/7680369",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7680369",
+        "url": "https://www.ticketliquidator.com/tickets/7680369/Bruno-Mars-tickets-Wed-Sep-2-2026-Lincoln-Financial-Field",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107077123",
+        "url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-2-2026/event/107077123",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv17FZ_eGkSsN1I0"
+    "ticketmaster_discovery_event_id": "vv17FZ_eGkSsN1I0",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7680369",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680369/Bruno-Mars-tickets-Wed-Sep-2-2026-Lincoln-Financial-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-philadelphia-tickets-9-2-2026/event/107077123"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1a8vn0_ga221kn",
@@ -1762,12 +2074,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668636",
+        "url": "https://www.ticketnetwork.com/en/p/7668636",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668636",
+        "url": "https://www.ticketliquidator.com/tickets/7668636/Bruno-Mars-tickets-Sat-Sep-5-2026-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071104",
+        "url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-5-2026/event/107071104",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv1A8vN0_GA221kN"
+    "ticketmaster_discovery_event_id": "vv1A8vN0_GA221kN",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668636",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668636/Bruno-Mars-tickets-Sat-Sep-5-2026-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-5-2026/event/107071104"
   },
   {
     "id": "tm-bruno-mars-2026-foxborough-vv1avzk8igkdnsgxb",
@@ -1815,12 +2151,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7679360",
+        "url": "https://www.ticketnetwork.com/en/p/7679360",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7679360",
+        "url": "https://www.ticketliquidator.com/tickets/7679360/Bruno-Mars-tickets-Sun-Sep-6-2026-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107077124",
+        "url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-6-2026/event/107077124",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv1AvZk8IGkdNsGXb"
+    "ticketmaster_discovery_event_id": "vv1AvZk8IGkdNsGXb",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679360",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679360/Bruno-Mars-tickets-Sun-Sep-6-2026-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-foxborough-tickets-9-6-2026/event/107077124"
   },
   {
     "id": "tm-bruno-mars-2026-indianapolis-vv17fzbygklnuhph",
@@ -1868,12 +2228,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668637",
+        "url": "https://www.ticketnetwork.com/en/p/7668637",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668637",
+        "url": "https://www.ticketliquidator.com/tickets/7668637/Bruno-Mars-tickets-Wed-Sep-9-2026-Lucas-Oil-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071106",
+        "url": "https://www.stubhub.ie/bruno-mars-indianapolis-tickets-9-9-2026/event/107071106",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv17fZbyGklNuhph"
+    "ticketmaster_discovery_event_id": "vv17fZbyGklNuhph",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668637",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668637/Bruno-Mars-tickets-Wed-Sep-9-2026-Lucas-Oil-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-indianapolis-tickets-9-9-2026/event/107071106"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_e944pwc",
@@ -1921,12 +2305,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107068179",
+        "url": "https://www.stubhub.ie/bruno-mars-tampa-tickets-9-12-2026/event/107068179",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1VZ_e944pWC"
+    "ticketmaster_discovery_event_id": "vvG1VZ_e944pWC",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tampa-tickets-9-12-2026/event/107068179"
   },
   {
     "id": "tm-bruno-mars-2026-tampa-vvg1vz_exa-kfw",
@@ -1974,12 +2366,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107074190",
+        "url": "https://www.stubhub.ie/bruno-mars-tampa-tickets-9-13-2026/event/107074190",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1VZ_exA-Kfw"
+    "ticketmaster_discovery_event_id": "vvG1VZ_exA-Kfw",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tampa-tickets-9-13-2026/event/107074190"
   },
   {
     "id": "tm-bruno-mars-2026-new-orleans-g5vizbye_a_hw",
@@ -2027,12 +2427,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668639",
+        "url": "https://www.ticketnetwork.com/en/p/7668639",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668639",
+        "url": "https://www.ticketliquidator.com/tickets/7668639/Bruno-Mars-tickets-Wed-Sep-16-2026-Caesars-Superdome",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071107",
+        "url": "https://www.stubhub.ie/bruno-mars-new-orleans-tickets-9-16-2026/event/107071107",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "G5viZbye_a_hw"
+    "ticketmaster_discovery_event_id": "G5viZbye_a_hw",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668639",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668639/Bruno-Mars-tickets-Wed-Sep-16-2026-Caesars-Superdome",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-new-orleans-tickets-9-16-2026/event/107071107"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_ekc64hs",
@@ -2080,12 +2504,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668640",
+        "url": "https://www.ticketnetwork.com/en/p/7668640",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668640",
+        "url": "https://www.ticketliquidator.com/tickets/7668640/Bruno-Mars-tickets-Sat-Sep-19-2026-Hard-Rock-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071105",
+        "url": "https://www.stubhub.ie/bruno-mars-miami-gardens-tickets-9-19-2026/event/107071105",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1VZ_ekC64hS"
+    "ticketmaster_discovery_event_id": "vvG1VZ_ekC64hS",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668640",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668640/Bruno-Mars-tickets-Sat-Sep-19-2026-Hard-Rock-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-miami-gardens-tickets-9-19-2026/event/107071105"
   },
   {
     "id": "tm-bruno-mars-2026-miami-vvg1vz_e-dkwj_",
@@ -2133,12 +2581,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7679362",
+        "url": "https://www.ticketnetwork.com/en/p/7679362",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7679362",
+        "url": "https://www.ticketliquidator.com/tickets/7679362/Bruno-Mars-tickets-Sun-Sep-20-2026-Hard-Rock-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107077121",
+        "url": "https://www.stubhub.ie/bruno-mars-miami-gardens-tickets-9-20-2026/event/107077121",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1VZ_e-DkwJ_"
+    "ticketmaster_discovery_event_id": "vvG1VZ_e-DkwJ_",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679362",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679362/Bruno-Mars-tickets-Sun-Sep-20-2026-Hard-Rock-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-miami-gardens-tickets-9-20-2026/event/107077121"
   },
   {
     "id": "tm-bruno-mars-2026-san-antonio-g5dizbyc__upm",
@@ -2186,12 +2658,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668641",
+        "url": "https://www.ticketnetwork.com/en/p/7668641",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668641",
+        "url": "https://www.ticketliquidator.com/tickets/7668641/Bruno-Mars-tickets-Wed-Sep-23-2026-Alamodome",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071103",
+        "url": "https://www.stubhub.ie/bruno-mars-san-antonio-tickets-9-23-2026/event/107071103",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Chicago",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "G5dIZbyC__Upm"
+    "ticketmaster_discovery_event_id": "G5dIZbyC__Upm",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668641",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668641/Bruno-Mars-tickets-Wed-Sep-23-2026-Alamodome",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-san-antonio-tickets-9-23-2026/event/107071103"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7o9_a",
@@ -2343,12 +2839,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7783960",
+        "url": "https://www.ticketnetwork.com/en/p/7783960",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7783960",
+        "url": "https://www.ticketliquidator.com/tickets/7783960/Bruno-Mars-tickets-Wed-Sep-30-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133085",
+        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-9-30-2026/event/107133085",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1IZ_A6pmG6f"
+    "ticketmaster_discovery_event_id": "vvG1IZ_A6pmG6f",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7783960",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7783960/Bruno-Mars-tickets-Wed-Sep-30-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-9-30-2026/event/107133085"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx",
@@ -2396,12 +2916,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668643",
+        "url": "https://www.ticketnetwork.com/en/p/7668643",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668643",
+        "url": "https://www.ticketliquidator.com/tickets/7668643/Bruno-Mars-tickets-Fri-Oct-2-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107068177",
+        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-2-2026/event/107068177",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1IZbyQBb4mX"
+    "ticketmaster_discovery_event_id": "vvG1IZbyQBb4mX",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668643",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668643/Bruno-Mars-tickets-Fri-Oct-2-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-2-2026/event/107068177"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyhid9od",
@@ -2449,12 +2993,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668644",
+        "url": "https://www.ticketnetwork.com/en/p/7668644",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668644",
+        "url": "https://www.ticketliquidator.com/tickets/7668644/Bruno-Mars-tickets-Sat-Oct-3-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071099",
+        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-3-2026/event/107071099",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1IZbyhId9oD"
+    "ticketmaster_discovery_event_id": "vvG1IZbyhId9oD",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668644",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668644/Bruno-Mars-tickets-Sat-Oct-3-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-3-2026/event/107071099"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin",
@@ -2502,12 +3070,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7679806",
+        "url": "https://www.ticketnetwork.com/en/p/7679806",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7679806",
+        "url": "https://www.ticketliquidator.com/tickets/7679806/Bruno-Mars-tickets-Tue-Oct-6-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073304",
+        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-6-2026/event/107073304",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1IZ_eheCVin"
+    "ticketmaster_discovery_event_id": "vvG1IZ_eheCVin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679806",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679806/Bruno-Mars-tickets-Tue-Oct-6-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-6-2026/event/107073304"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is",
@@ -2555,12 +3147,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7680331",
+        "url": "https://www.ticketnetwork.com/en/p/7680331",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7680331",
+        "url": "https://www.ticketliquidator.com/tickets/7680331/Bruno-Mars-tickets-Wed-Oct-7-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073305",
+        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vvG1IZ_eheo7is"
+    "ticketmaster_discovery_event_id": "vvG1IZ_eheo7is",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7680331",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680331/Bruno-Mars-tickets-Wed-Oct-7-2026-SoFi-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",
@@ -2608,12 +3224,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668645",
+        "url": "https://www.ticketnetwork.com/en/p/7668645",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668645",
+        "url": "https://www.ticketliquidator.com/tickets/7668645/Bruno-Mars-tickets-Sat-Oct-10-2026-Levis-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071101",
+        "url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-10-2026/event/107071101",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "G5vYZ_epX9yGn"
+    "ticketmaster_discovery_event_id": "G5vYZ_epX9yGn",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668645",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668645/Bruno-Mars-tickets-Sat-Oct-10-2026-Levis-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-10-2026/event/107071101"
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx",
@@ -2661,12 +3301,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7679802",
+        "url": "https://www.ticketnetwork.com/en/p/7679802",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7679802",
+        "url": "https://www.ticketliquidator.com/tickets/7679802/Bruno-Mars-tickets-Sun-Oct-11-2026-Levis-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107074188",
+        "url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-11-2026/event/107074188",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "G5vYZ_eEJSDnx"
+    "ticketmaster_discovery_event_id": "G5vYZ_eEJSDnx",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679802",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679802/Bruno-Mars-tickets-Sun-Oct-11-2026-Levis-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-11-2026/event/107074188"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm",
@@ -2714,12 +3378,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7668648",
+        "url": "https://www.ticketnetwork.com/en/p/7668648",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7668648",
+        "url": "https://www.ticketliquidator.com/tickets/7668648/Bruno-Mars-tickets-Wed-Oct-14-2026-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107071108",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/event/107071108",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "16v7ZbyrvG7DKHM"
+    "ticketmaster_discovery_event_id": "16v7ZbyrvG7DKHM",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668648",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668648/Bruno-Mars-tickets-Wed-Oct-14-2026-BC-Place-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/event/107071108"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshvjex",
@@ -2767,12 +3455,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7679800",
+        "url": "https://www.ticketnetwork.com/en/p/7679800",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7679800",
+        "url": "https://www.ticketliquidator.com/tickets/7679800/Bruno-Mars-tickets-Fri-Oct-16-2026-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107073303",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-16-2026/event/107073303",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1Av7Z_eGkShVJEX"
+    "ticketmaster_discovery_event_id": "1Av7Z_eGkShVJEX",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679800",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679800/Bruno-Mars-tickets-Fri-Oct-16-2026-BC-Place-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-16-2026/event/107073303"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkshmjia",
@@ -2820,12 +3532,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7680333",
+        "url": "https://www.ticketnetwork.com/en/p/7680333",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7680333",
+        "url": "https://www.ticketliquidator.com/tickets/7680333/Bruno-Mars-tickets-Sat-Oct-17-2026-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107074187",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-17-2026/event/107074187",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1Av7Z_eGkShMJIA"
+    "ticketmaster_discovery_event_id": "1Av7Z_eGkShMJIA",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7680333",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680333/Bruno-Mars-tickets-Sat-Oct-17-2026-BC-Place-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-17-2026/event/107074187"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1av7z_egkwimwwb",
@@ -2873,12 +3609,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7686673",
+        "url": "https://www.ticketnetwork.com/en/p/7686673",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7686673",
+        "url": "https://www.ticketliquidator.com/tickets/7686673/Bruno-Mars-tickets-Tue-Oct-20-2026-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107085077",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026/event/107085077",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1Av7Z_eGkWiMwWb"
+    "ticketmaster_discovery_event_id": "1Av7Z_eGkWiMwWb",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7686673",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7686673/Bruno-Mars-tickets-Tue-Oct-20-2026-BC-Place-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026/event/107085077"
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-1k78v0fjgacrkay",
@@ -2926,11 +3686,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7791089",
+        "url": "https://www.ticketnetwork.com/en/p/7791089",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7791089",
+        "url": "https://www.ticketliquidator.com/tickets/7791089/Bruno-Mars-tickets-Wed-Oct-21-2026-BC-Place-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133086",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-21-2026/event/107133086",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1k78v0fJGACrKAY"
+    "ticketmaster_discovery_event_id": "1k78v0fJGACrKAY",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7791089",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7791089/Bruno-Mars-tickets-Wed-Oct-21-2026-BC-Place-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-vancouver-bc-place-stadium-10-21-2026/event/107133086"
   }
 ]

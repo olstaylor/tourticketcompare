@@ -42,6 +42,9 @@ jobs:
       PROVIDER: ${{ github.event.inputs.provider }}
       MODE: ${{ github.event.inputs.mode }}
       ARTIST: ${{ github.event.inputs.artist }}
+      IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
+      IMPACT_CATALOG_CREDENTIAL_SET: seatgeek
+      IMPACT_CATALOG_API_VERSION: '16'
       IMPACT_TICKETNETWORK_ACCOUNT_SID: ${{ secrets.IMPACT_TICKETNETWORK_ACCOUNT_SID }}
       IMPACT_TICKETNETWORK_AUTH_TOKEN: ${{ secrets.IMPACT_TICKETNETWORK_AUTH_TOKEN }}
       IMPACT_TICKETNETWORK_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETNETWORK_CAMPAIGN_ID }}

@@ -66,16 +66,20 @@ function selectEligible(events, artists, config, options, now = new Date()) {
 
 async function fetchArtistCatalog(config, artistName, env = process.env, fetchImpl = globalThis.fetch) {
   const { accountSid, authToken, programId } = impactCredentials(config, env);
-  const authorization = `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`;
+  const authorization = accountSid && authToken
+    ? `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
+    : "";
   const candidates = [];
   for (let page = 1; page <= MAX_PAGES; page += 1) {
-    const response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), { headers: { Accept: "application/json", Authorization: authorization } });
+    const response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
+      headers: { Accept: "application/json", ...(authorization ? { Authorization: authorization } : {}) }
+    });
     if (!response.ok) return { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
     const payload = await response.json();
     const items = catalogItems(payload);
     if (!items) return { ok: false, reason: "Impact response had no Items array" };
     for (const item of items) candidates.push(...productCandidates(config, item, programId));
-    const total = Number(payload?.["@total"] ?? payload?.Total);
+    const total = Number(payload?.["@total"] ?? payload?.Total ?? payload?.total);
     if (items.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { ok: true, candidates };
   }
   return { ok: false, reason: "Impact catalog exceeded pagination cap" };
@@ -134,19 +138,23 @@ async function run(options, deps = {}) {
   const [events, artists] = deps.data || await Promise.all([EVENTS_PATH, ARTISTS_PATH].map(async (file) => JSON.parse(await fs.readFile(file, "utf8"))));
   const now = deps.now || new Date();
   const selected = selectEligible(events, artists, config, options, now);
-  const groups = new Map();
-  for (const item of selected) { const rows = groups.get(item.artistName) || []; rows.push(item); groups.set(item.artistName, rows); }
   const rows = [];
   const errors = [];
   let fetched = 0;
-  for (const [artistName, items] of groups) {
-    const catalog = deps.fetchArtistCatalog ? await deps.fetchArtistCatalog(config, artistName) : await fetchArtistCatalog(config, artistName, deps.env, deps.fetchImpl);
-    if (!catalog.ok) { errors.push(...items.map((item) => ({ event_id: item.id, reason: catalog.reason }))); continue; }
-    fetched += items.length;
-    for (const item of items) {
-      const price = exactPrice(catalog.candidates, item.externalId);
-      if (price) rows.push(buildRow(config, item, price, now, options.freshnessHours));
+  for (const item of selected) {
+    // Query by the already-verified provider event ID, not by artist name.
+    // This keeps every cache row tied to one exact catalog record and avoids
+    // broad artist-keyword pagination (for example, "Harry Styles").
+    const catalog = deps.fetchArtistCatalog
+      ? await deps.fetchArtistCatalog(config, item.externalId)
+      : await fetchArtistCatalog(config, item.externalId, deps.env, deps.fetchImpl);
+    if (!catalog.ok) {
+      errors.push({ event_id: item.id, reason: catalog.reason });
+      continue;
     }
+    fetched += 1;
+    const price = exactPrice(catalog.candidates, item.externalId);
+    if (price) rows.push(buildRow(config, item, price, now, options.freshnessHours));
   }
   const written = options.apply ? await (deps.writer ? deps.writer(rows, options) : writeRows(rows, options)) : 0;
   return {

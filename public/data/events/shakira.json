@@ -734,12 +734,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7846959",
+        "url": "https://www.ticketnetwork.com/en/p/7846959",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7846959",
+        "url": "https://www.ticketliquidator.com/tickets/7846959/Shakira-tickets-Tue-Jul-14-2026-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154198",
+        "url": "https://www.stubhub.ie/shakira-newark-tickets-7-14-2026/event/107154198",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vv1AeZkoSGketdD_B",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7846959",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7846959/Shakira-tickets-Tue-Jul-14-2026-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/shakira-newark-tickets-7-14-2026/event/107154198"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1ayzkosgkdghkeg",
@@ -787,12 +811,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7846960",
+        "url": "https://www.ticketnetwork.com/en/p/7846960",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7846960",
+        "url": "https://www.ticketliquidator.com/tickets/7846960/Shakira-tickets-Mon-Jul-20-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154199",
+        "url": "https://www.stubhub.ie/shakira-brooklyn-tickets-7-20-2026/event/107154199",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "1AYZkosGkdghkEG",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7846960",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7846960/Shakira-tickets-Mon-Jul-20-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/shakira-brooklyn-tickets-7-20-2026/event/107154199"
   },
   {
     "id": "tm-shakira-2026-brooklyn-1adzz_6gktq1p0z",
@@ -840,12 +888,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7939498",
+        "url": "https://www.ticketnetwork.com/en/p/7939498",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7939498",
+        "url": "https://www.ticketliquidator.com/tickets/7939498/Shakira-tickets-Tue-Jul-21-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107167159",
+        "url": "https://www.stubhub.ie/shakira-brooklyn-tickets-7-21-2026/event/107167159",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "1AdZZ_6GkTq1p0Z",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7939498",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7939498/Shakira-tickets-Tue-Jul-21-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/shakira-brooklyn-tickets-7-21-2026/event/107167159"
   },
   {
     "id": "tm-shakira-2026-belmont-park-15dzz_619b3pj",
@@ -946,12 +1018,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7846962",
+        "url": "https://www.ticketnetwork.com/en/p/7846962",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7846962",
+        "url": "https://www.ticketliquidator.com/tickets/7846962/Shakira-tickets-Sat-Jul-25-2026-Boardwalk-Hall-Arena-Boardwalk-Hall",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107153374",
+        "url": "https://www.stubhub.ie/shakira-atlantic-city-tickets-7-25-2026/event/107153374",
+        "verified": true,
+        "last_verified_at": "2026-07-13",
+        "availability_status": "listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vv17FZ_6GkB5efrP",
-    "verification_status": "machine_high_confidence"
+    "verification_status": "machine_high_confidence",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7846962",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7846962/Shakira-tickets-Sat-Jul-25-2026-Boardwalk-Hall-Arena-Boardwalk-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/shakira-atlantic-city-tickets-7-25-2026/event/107153374"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1k7eo4av",

@@ -98,6 +98,8 @@ The implementation includes:
 3. Sample catalog event URLs and tracking redirects must be browser-verified against the provider and market.
 4. Keep `TICKETNETWORK_PUBLIC_ENABLED`, `TICKETLIQUIDATOR_PUBLIC_ENABLED`, and `STUBHUB_INTERNATIONAL_PUBLIC_ENABLED` false until the matching provider passes 1–3. Price display has a second independent flag and must remain false until the exact-ID snapshot proof and price rights pass.
 
+**Verified 2026-07-13:** the provider programs and catalogs are accessible through the existing SeatGeek-scoped Impact publisher credentials: TicketNetwork campaign `2322` / catalog `896`, Ticket Liquidator campaign `2085` / catalog `1315`, and StubHub International campaign `24092` / catalog `17571`. Catalog tracking URLs are unwrapped only when their nested destination is a strict provider event URL. Ticket Liquidator event metadata is cross-checked against the matching TicketNetwork catalog record by shared external event ID because its own feed omits city; prices remain disabled because its feed supplies no numeric `CurrentPrice`. TicketNetwork and StubHub International price lanes use exact verified catalog event IDs and stay cache/freshness-gated.
+
 No inventory/scarcity claim, final-price claim, scraping, generic search link, cross-provider event guess, or untracked affiliate fallback is permitted.
 
 ---

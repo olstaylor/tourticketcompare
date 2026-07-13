@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { onRequestGet as impactCatalogs } from "../functions/api/impact/catalogs.js";
 import { onRequestGet as impactHealth } from "../functions/api/impact/health.js";
 import { onRequestGet as impactProducts } from "../functions/api/impact/products.js";
+import { impactConfig as outboundImpactConfig } from "../functions/api/out.js";
 
 const missingEnv = {};
 const healthResponse = await impactHealth({ env: missingEnv });
@@ -21,6 +22,22 @@ const missingProducts = await impactProducts({
   env: missingEnv
 });
 assert.equal((await missingProducts.json()).status, "missing_credentials");
+
+const outboundEnv = {
+  IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
+  IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token"
+};
+for (const [provider, programId] of [
+  ["ticketnetwork", "2322"],
+  ["ticket-liquidator", "2085"],
+  ["stubhub-international", "24092"]
+]) {
+  const config = outboundImpactConfig(outboundEnv, provider);
+  assert.equal(config.configured, true);
+  assert.equal(config.accountSid, "sg-account");
+  assert.equal(config.programId, programId);
+  assert.equal(config.programIdSource, "impact_catalog_campaign");
+}
 
 const originalFetch = globalThis.fetch;
 let probeUrl = "";

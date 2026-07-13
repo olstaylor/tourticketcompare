@@ -202,16 +202,29 @@ async function routeForPath(pathname, env) {
 }
 
 function baseSchema(origin) {
+  const organizationId = `${origin}/#organization`;
+  const websiteId = `${origin}/#website`;
   return [
     {
       "@type": "Organization",
+      "@id": organizationId,
       name: "TourTicketCompare",
-      url: `${origin}/`
+      url: `${origin}/`,
+      description: "Independent ticket research for major live music tours with verified links and approved, timestamped provider price snapshots where available.",
+      logo: {
+        "@type": "ImageObject",
+        url: `${origin}/og-image.png`,
+        width: 1200,
+        height: 630
+      }
     },
     {
       "@type": "WebSite",
+      "@id": websiteId,
       name: "TourTicketCompare",
       url: `${origin}/`,
+      publisher: { "@id": organizationId },
+      inLanguage: "en",
       description: "Independent ticket research for major live music tours with verified ticket links where available.",
       potentialAction: {
         "@type": "SearchAction",
@@ -233,8 +246,8 @@ function genericArtistFaq(artistName) {
       "No. TourTicketCompare does not sell tickets directly. We link to external ticketing platforms when a destination is verified."
     ],
     [
-      "Are prices shown here?",
-      "No. Prices should appear only when live provider data is verified and timestamped. Final prices and fees are controlled by the ticket platform."
+      "Are ticket prices shown here?",
+      "A timestamped listed-price snapshot may appear when approved provider data for the exact event passes verification and freshness checks. It is not live inventory or a final checkout total; confirm the current price, fees, availability, and terms with the provider."
     ]
   ];
 }
@@ -352,22 +365,32 @@ function guideClusterTitle(path) {
   return cluster ? cluster.title : undefined;
 }
 
-function articleSchema(route, origin) {
-  const organization = {
-    "@type": "Organization",
-    name: "TourTicketCompare",
-    url: `${origin}/`
-  };
+function articleSchema(route, origin, guideEntry = {}) {
+  const organizationId = `${origin}/#organization`;
+  const citations = (Array.isArray(guideEntry?.sources) ? guideEntry.sources : [])
+    .map((source) => safeGuideSourceUrl(source?.url))
+    .filter(Boolean);
   return {
     "@type": "Article",
+    "@id": `${origin}${route.path}#article`,
     headline: route.title.replace(" | TourTicketCompare", ""),
     description: route.description,
     mainEntityOfPage: `${origin}${route.path}`,
-    author: organization,
-    publisher: organization,
+    url: `${origin}${route.path}`,
+    image: `${origin}/og-image.png`,
+    author: {
+      "@type": "Organization",
+      "@id": organizationId,
+      name: "TourTicketCompare editorial team",
+      url: `${origin}/about`
+    },
+    publisher: { "@id": organizationId },
+    isPartOf: { "@id": `${origin}/#website` },
+    inLanguage: "en",
     datePublished: route.datePublished || undefined,
     dateModified: route.lastmod || route.datePublished || undefined,
-    articleSection: guideClusterTitle(route.path)
+    articleSection: guideClusterTitle(route.path),
+    citation: citations.length ? citations : undefined
   };
 }
 
@@ -379,8 +402,8 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     if (route.indexable) graph.push(...musicEventsSchema(route, origin, events));
   }
   if (route.type === "guide") {
-    graph.push(articleSchema(route, origin));
     const guideEntry = guideContent[route.path];
+    graph.push(articleSchema(route, origin, guideEntry));
     const faqEntries = guideFaqEntries(guideEntry);
     if (faqEntries.length) graph.push(faqPageSchema(faqEntries));
     // Emit authored HowTo structured data from guides-content.json. Authored
@@ -789,6 +812,55 @@ function markdownToHtml(text) {
       return `<p>${inlineMarkdownToHtml(para)}</p>`;
     })
     .join("");
+}
+
+function safeGuideSourceUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return null;
+  try {
+    const parsed = new URL(raw);
+    return parsed.protocol === "https:" ? parsed.toString() : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function renderGuideProvenance(route) {
+  const published = formatVerificationDate(route.datePublished);
+  const updated = formatVerificationDate(route.lastmod || route.datePublished);
+  const dates = [
+    published ? `Published ${published}` : "",
+    updated ? `Updated ${updated}` : ""
+  ].filter(Boolean);
+  return `<div class="guide-provenance"><p>By ${anchor(
+    "TourTicketCompare editorial team",
+    "/about",
+    "text-link"
+  )}${dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""}</p><p class="disclosure-note">Our guides are reviewed against primary provider and regulator sources. See the ${anchor(
+    "editorial policy",
+    "/editorial-policy",
+    "text-link"
+  )} for the verification and corrections process.</p></div>`;
+}
+
+function renderGuideSources(sources) {
+  if (!Array.isArray(sources) || !sources.length) return "";
+  const items = sources
+    .map((source) => {
+      const url = safeGuideSourceUrl(source?.url);
+      const name = String(source?.name || "").trim();
+      if (!url || !name) return "";
+      const publisher = String(source?.publisher || "").trim();
+      const checked = formatVerificationDate(source?.lastChecked);
+      const details = [publisher, checked ? `checked ${checked}` : ""].filter(Boolean).join(" · ");
+      return `<li><a class="text-link" href="${escapeAttr(url)}" target="_blank" rel="noopener">${escapeHtml(
+        name
+      )}</a>${details ? ` <span class="muted">(${escapeHtml(details)})</span>` : ""}</li>`;
+    })
+    .filter(Boolean)
+    .join("");
+  if (!items) return "";
+  return `<section class="nested-panel guide-sources"><h2>Sources</h2><p>Primary sources used to check time-sensitive provider and fee claims in this guide:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
 function renderFullGuideContent(sections) {
@@ -1365,7 +1437,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${contentHtml}${artistBrowseHtml}<div class="action-row">${anchor(
+    )}</p>${renderGuideProvenance(route)}${contentHtml}${renderGuideSources(
+      guideContent[route.path]?.sources
+    )}${artistBrowseHtml}<div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -1448,7 +1522,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/about") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="aboutTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="aboutTitle">About TourTicketCompare</h1><p class="lead">TourTicketCompare is an independent, unofficial site that helps fans research tickets for major live music tours.</p><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Collect verified ticket links for major artists so you have a reliable starting point.</li><li>Show event-specific ticket links only when the artist, date, venue, and destination have been checked.</li><li>Publish plain buying guides on fees, resale, delivery timing, and what to confirm before checkout.</li></ul></section><section class="nested-panel"><h2>What we do not do</h2><ul class="check-list"><li>Sell or resell tickets.</li><li>Compare prices across providers or claim one site is cheaper.</li><li>Invent tour dates, venues, prices, or availability.</li></ul></section><section class="nested-panel"><h2>Why affiliate links do not change our standards</h2><p>Some links are affiliate links, so we may earn a commission when you buy. That never decides which links we show. A link only appears once its destination has been checked, whether or not it earns us anything.</p></section><div class="action-row">${anchor(
+    )}<h1 id="aboutTitle">About TourTicketCompare</h1><p class="lead">TourTicketCompare is an independent, unofficial site that helps fans research tickets for major live music tours.</p><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Collect verified ticket links for major artists so you have a reliable starting point.</li><li>Show event-specific ticket links only when the artist, date, venue, and destination have been checked.</li><li>Compare approved, timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event when both lanes pass source and freshness checks.</li><li>Publish plain buying guides on fees, resale, delivery timing, and what to confirm before checkout.</li></ul></section><section class="nested-panel"><h2>What we do not do</h2><ul class="check-list"><li>Sell or resell tickets.</li><li>Present snapshots as live inventory, guaranteed availability, or final checkout totals.</li><li>Rank a provider as universally lower-priced or better.</li><li>Invent tour dates, venues, prices, or availability.</li></ul></section><section class="nested-panel"><h2>Why affiliate links do not change our standards</h2><p>Some links are affiliate links, so we may earn a commission when you buy. That never decides which links we show. A link only appears once its destination has been checked, whether or not it earns us anything.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"

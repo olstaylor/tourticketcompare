@@ -18,10 +18,10 @@ const expectedH1 = new Map([
   ["/affiliate-disclosure", "Affiliate disclosure"]
 ]);
 const expectedTitle = new Map([
-  ["/", "Find Tour Dates and Compare Ticket Prices | TourTicketCompare"],
+  ["/", "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
-  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices Across Trusted Sites | Tour Ticket Compare"],
+  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats"],
   ["/how-it-works", "How TourTicketCompare Works"],
   ["/about", "About TourTicketCompare"],
   ["/contact", "Contact TourTicketCompare"],
@@ -417,7 +417,8 @@ const publicUiFiles = [
   "public/data/artists.json",
   "public/data/events.json",
   "public/data/events-index.json",
-  "public/data/catalog.json"
+  "public/data/catalog.json",
+  "public/data/guides-content.json"
 ];
 const publicCopyFiles = [
   "public/index.html",
@@ -814,7 +815,7 @@ const jsonLdRoutes = [
   { pathname: "/compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/how-it-works", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article"] },
   { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
-  { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article"], noTypes: ["FAQPage", "Event", "Product", "Offer", "AggregateRating"] }
+  { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] }
 ];
 for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
   const { text } = await routeResponse(pathname);
@@ -834,6 +835,17 @@ for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
     assert(!types.includes(t), `${pathname} JSON-LD must not include forbidden @type "${t}"`);
   }
 }
+
+const seoGuide = await routeResponse("/guides/how-to-compare-concert-ticket-prices");
+assert(seoGuide.text.includes("TourTicketCompare editorial team"), "guide raw HTML should expose a visible editorial byline");
+assert(seoGuide.text.includes("<h2>Sources</h2>"), "guide raw HTML should expose primary sources");
+const seoGuideLd = extractJsonLd(seoGuide.text);
+const seoGuideArticle = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Article");
+assert(seoGuideArticle?.dateModified === "2026-07-13", "guide Article schema should expose the current modification date");
+assert(Array.isArray(seoGuideArticle?.citation) && seoGuideArticle.citation.length >= 4, "guide Article schema should cite its visible primary sources");
+assert(seoGuideArticle?.author?.url === "https://tourticketcompare.com/about", "guide Article schema author should resolve to the About page");
+const seoOrganization = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Organization");
+assert(seoOrganization?.["@id"] === "https://tourticketcompare.com/#organization", "Organization schema should expose a stable @id");
 
 const unknownArtist = await routeResponse("/artists/not-a-real-artist");
 assert(unknownArtist.response.status === 404, "unknown artist route should return 404");

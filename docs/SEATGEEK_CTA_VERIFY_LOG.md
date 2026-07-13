@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-07-12T07:35:50.470Z
+Generated: 2026-07-13T08:24:57.663Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 30 (needs_recheck: 30, provenance backfill: 0, stale re-check: 9)
+- Events selected: 24 (needs_recheck: 24, provenance backfill: 0, stale re-check: 9)
 - Events skipped before API checks: 67
-- API calls made: 30
+- API calls made: 24
 - Verified provenance written: 9
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 0
-- No qualifying listing: 21
+- No qualifying listing: 15
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -32,8 +32,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o | olivia-rodrigo | verify (applied) | 18208620 | https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620 | - |
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk | olivia-rodrigo | verify (applied) | 18211722 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722 | - |
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | olivia-rodrigo | verify (applied) | 18211723 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723 | - |
-| tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70ff4 | olivia-rodrigo | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-olivia-rodrigo-2027-greenwich-z7r9jz1a70fff | olivia-rodrigo | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-shakira-2026-madrid-z698xz2qz1k7eo4av | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-shakira-2026-madrid-z698xz2qz16vas39ay | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-shakira-2026-madrid-z698xz2qz16vrkvz38 | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -47,13 +45,9 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-shakira-2026-madrid-z698xz2qz1koecouy | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-shakira-2026-madrid-z698xz2qz16vfpafo8 | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-ed-sheeran-2026-arlington-z7r9jz1a7jw | ed-sheeran | verify (applied) | 17729039 | https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039 | - |
-| tm-bts-2026-munich-z698xzc2z1konbaqf | bts | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-bts-2026-munich-z698xzc2z1kfj7mgy | bts | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-bts-2026-arlington-z7r9jz1a7ooui | bts | verify (applied) | 17975621 | https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-15-8-pm/concert/17975621 | - |
 | tm-bts-2026-arlington-z7r9jz1a7oout | bts | verify (applied) | 18009296 | https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-16-8-pm/concert/18009296 | - |
-| tm-bad-bunny-2026-solna-z7r9jz1a7xz8e | bad-bunny | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-bad-bunny-2026-milan-z7r9jz1a7xz87 | bad-bunny | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-bad-bunny-2026-milan-z7r9jz1a7xz8a | bad-bunny | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo | bad-bunny | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-shakira-2026-madrid-z7r9jz1a7j7vi | shakira | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 
@@ -116,6 +110,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-summer-walker-2026-vancouver-1f78v0uvf8z7g576 | summer-walker | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bts-2026-madrid-z698xz2qz16ezdbsgk | bts | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bts-2026-madrid-z698xz2qz16ez94-rv | bts | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-bts-2026-munich-z698xzc2z1konbaqf | bts | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-ariana-grande-2026-sunrise-z7r9jz1a7qoav | ariana-grande | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-ariana-grande-2026-sunrise-z7r9jz1a7qoaz | ariana-grande | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-ariana-grande-2026-sunrise-z7r9jz1a7j6op | ariana-grande | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -124,7 +119,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzc9 | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzcb | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bad-bunny-2026-marseille-z7r9jz1a7baxb | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
-| tm-bad-bunny-2026-solna-z7r9jz1a7xz8v | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-summer-walker-2026-houston-z7r9jz1a7oixf | summer-walker | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-rosalia-2026-houston-z7r9jz1a7oz43 | rosalia | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-rosalia-2026-oakland-g5vyzbumkyr1f | rosalia | event is in the past — SeatGeek delists finished shows; nothing to maintain |

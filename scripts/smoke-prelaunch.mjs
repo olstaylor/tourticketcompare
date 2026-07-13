@@ -1374,6 +1374,17 @@ const vividSeatsPriceEventsJson = JSON.stringify(events.map((event) => event.id 
       }
     }
   : event));
+const approvedPriceEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+  ? {
+      ...event,
+      vividseats_url: CONTROLLED_VIVIDSEATS_PRICE_URL,
+      provider_links: {
+        ...(event.provider_links || {}),
+        seatgeek: { ...(event.provider_links?.seatgeek || {}), url: event.seatgeek_url, verified: true },
+        "vivid-seats": { verified: true }
+      }
+    }
+  : event));
 const freshVividSeatsPriceRow = {
   event_id: CONTROLLED_SEATGEEK_SHOW_ID,
   provider: "vivid-seats",
@@ -1388,7 +1399,7 @@ const freshVividSeatsPriceRow = {
 };
 const flagOffFreshVividSeatsResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
-  env: envWithEventsJson(vividSeatsPriceEventsJson, {
+  env: envWithEventsJson(approvedPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([freshVividSeatsPriceRow]),
     VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false"
   })
@@ -1462,7 +1473,7 @@ assert(unverifiedVividSeatsLane?.price === null && unverifiedVividSeatsLane?.pro
 // lanes read the D1 snapshot cache and never fan out to a provider API. ---
 const bulkApprovedResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
-  env: envWithEventsJson(vividSeatsPriceEventsJson, {
+  env: envWithEventsJson(approvedPriceEventsJson, {
     DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow, freshVividSeatsPriceRow]),
     SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
     VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true"
@@ -1494,7 +1505,7 @@ const bulkUnverifiedResponse = await showsModule.onRequestGet({
 const bulkUnverifiedShow = (await bulkUnverifiedResponse.json()).shows.find((show) => show.id === CONTROLLED_SEATGEEK_SHOW_ID);
 assert(bulkUnverifiedShow.prices.find((lane) => lane.provider === "Vivid Seats")?.price === null, "bulk cached Vivid Seats prices must require exact provider verification");
 
-const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWithEventsJson(vividSeatsPriceEventsJson, {
+const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWithEventsJson(approvedPriceEventsJson, {
   DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow, freshVividSeatsPriceRow]),
   SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
   VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true",

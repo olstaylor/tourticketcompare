@@ -2317,22 +2317,48 @@ function renderArtist(artist) {
     )
   );
 
-  const guideLinks = document.createElement("section");
-  guideLinks.className = "nested-panel";
-  text(guideLinks, "h2", "Useful links");
-  const guideGrid = document.createElement("div");
-  guideGrid.className = "mini-link-grid";
-  guideGrid.append(
-    link("All artists", "/artists", "mini-link"),
-    link("How to compare ticket prices", "/guides/how-to-compare-concert-ticket-prices", "mini-link"),
-    link("How to avoid overpaying", "/guides/how-to-avoid-overpaying-for-concert-tickets", "mini-link"),
-    link("How to avoid ticket scams", "/guides/how-to-avoid-ticket-scams", "mini-link"),
-    link("All buying guides", "/guides", "mini-link"),
-    link("How it works", "/how-it-works", "mini-link")
-  );
-  guideLinks.append(guideGrid);
+  let relatedGuides = null;
+  const relatedGuidePages = (Array.isArray(artist.related_guides) ? artist.related_guides : [])
+    .slice(0, 4)
+    .map((slug) => guidePages.find((guide) => guide.slug === slug))
+    .filter(Boolean);
+  if (relatedGuidePages.length) {
+    relatedGuides = document.createElement("section");
+    relatedGuides.className = "nested-panel";
+    text(relatedGuides, "h2", "Related guides");
+    text(relatedGuides, "p", "Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:");
+    const relatedList = document.createElement("ul");
+    relatedList.className = "guide-link-list";
+    relatedGuidePages.forEach((guide) => {
+      const item = document.createElement("li");
+      item.append(link(guide.h1, `/guides/${guide.slug}`));
+      relatedList.append(item);
+    });
+    relatedGuides.append(relatedList);
+  }
 
-  section.append(summary, ...(demand ? [demand] : []), checklist, guideLinks, renderArtistFaq(artist));
+  const usefulLinks = document.createElement("section");
+  usefulLinks.className = "nested-panel";
+  text(usefulLinks, "h2", "Useful links");
+  const usefulGrid = document.createElement("div");
+  usefulGrid.className = "mini-link-grid";
+  usefulGrid.append(
+    link("Compare concert ticket prices", "/compare-concert-ticket-prices", "mini-link"),
+    link("All artists", "/artists", "mini-link"),
+    link("Ticket buying guides", "/guides", "mini-link"),
+    link("How it works", "/how-it-works", "mini-link"),
+    link("Affiliate disclosure", "/affiliate-disclosure", "mini-link")
+  );
+  usefulLinks.append(usefulGrid);
+
+  section.append(
+    summary,
+    ...(demand ? [demand] : []),
+    checklist,
+    ...(relatedGuides ? [relatedGuides] : []),
+    usefulLinks,
+    renderArtistFaq(artist)
+  );
 
   // Transplant server-rendered show cards so users see real content immediately
   // rather than a loading state while the hydration fetch is in-flight.

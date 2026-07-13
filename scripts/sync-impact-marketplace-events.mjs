@@ -295,7 +295,7 @@ async function selfTest() {
   assert.equal(productCandidates(config, catalogItem, "wrong-program").length, 0);
   const searchUrl = catalogItemsUrl(config, "RAYE", 1, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123" });
   assert.match(searchUrl, /\/Catalogs\/ItemSearch\?/);
-  assert.equal(new URL(searchUrl).searchParams.get("IrVersion"), "15");
+  assert.equal(new URL(searchUrl).searchParams.get("IrVersion"), "16");
   assert.match(catalogItemsUrl(config, "RAYE", 1, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123", IMPACT_TICKETNETWORK_CATALOG_ID: "456" }), /\/Catalogs\/456\/Items\?/);
   assert.equal(catalogItems({ Items: [catalogItem] })[0].CatalogItemId, "tn-1");
   assert.equal(normalizeProviderUrl(config, "https://ticketnetwork.com/"), "");

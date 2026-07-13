@@ -122,8 +122,8 @@ No inventory/scarcity claim, final-price claim, scraping, generic search link, c
 **Catalog capability flags are inert metadata.** The `pricing_type`, `supports_pricing`, `price_aggregation`, and `real_time_inventory` fields in `public/data/catalog.json` describe what a provider's API *could* do — they do **not** substitute for runtime gates. Every provider display requires its enabled feature flags plus the approved source, verified event URL, exact-event mapping, timestamps, and unexpired cache rows.
 
 **Impact credentials required for:**
-- `GET /api/impact/health` to return `ok: true`
-- `GET /api/impact/products` to return product feed data
+- `GET /api/impact/health` to report credential presence (it does not claim live Catalogs access without a probe)
+- `GET /api/impact/catalogs` and `GET /api/impact/products` to return Catalogs API data; both default to current API v16 and can safely probe the provider-specific SeatGeek credentials with `credentialSet=seatgeek`
 - `POST /api/impact/tracking-links` to generate tracking URLs
 
 **Missing credentials behaviour:**

@@ -9,7 +9,9 @@ validated.
 > (Artist-level SeatGeek performer-page links exist since 2026-07-02 but are
 > managed through `VERIFIED_TICKET_LINKS` + the provider identity registry via
 > the batch onboarding tooling, not through this enrichment pipeline. SeatGeek
-> price display remains parked — see `BACKLOG.md`.) This tooling never invents
+> price snapshots are likewise separate — they run through
+> `seatgeek-price-snapshots.yml`, see `docs/PROVIDER_DATA_POLICY.md`.) This
+> tooling never invents
 > URLs, never scrapes, and only writes URLs that pass strict event-URL
 > validation identical to the runtime CTA gate.
 
@@ -76,10 +78,11 @@ When an artist has a `seatgeek_performer_id` in
 
 This **never** relaxes the other mandatory gates (valid event-level URL, exact
 local date, city). It is event-level only — the performer id scopes a search for
-*events*, it never proposes a performer/artist page URL. Artists with a `null`
-performer id (all of them today) are searched by name exactly as before, so the
-behaviour is unchanged until a human verifies and populates a performer id
-(one-time, per `docs/PROVIDER_SYNC.md`). The proposal report's
+*events*, it never proposes a performer/artist page URL. All 16 registry
+entries carry a human-verified `seatgeek_performer_id` today, so id-scoped
+search is the normal path; an artist with a `null` performer id would fall back
+to name search until a human verifies and populates the id (one-time, per
+`docs/PROVIDER_SYNC.md`). The proposal report's
 `summary.registry_performer_id` block records how many artists carry a verified
 id, how many events were scoped by id, and how many candidates were id-confirmed.
 
@@ -175,8 +178,8 @@ no-ops. The manual workflow below remains valid for targeted runs.
 
 ## Current coverage snapshot
 
-As of 2026-07-08, 262 of 402 events carry a stored event-level `seatgeek_url`
-(28 added in the 2026-07-06 enrichment). The ~87 uncovered Ticketmaster-verified
+As of 2026-07-13, 256 of 397 events carry a stored event-level `seatgeek_url`
+and 203 carry verified SeatGeek provenance. The uncovered Ticketmaster-verified
 events are predominantly European/non-US legs SeatGeek does not list — a
 structural gap, not an untried one; absence of a SeatGeek match for a given show
 is expected and acceptable (the Ticketmaster CTA still renders). Live counts
@@ -185,7 +188,7 @@ here on.
 
 ## Non-goals
 
-- No artist-level SeatGeek links from this pipeline (they live in `VERIFIED_TICKET_LINKS` via batch onboarding); no SeatGeek price display.
+- No artist-level SeatGeek links from this pipeline (they live in `VERIFIED_TICKET_LINKS` via batch onboarding); no price handling (snapshots run through `seatgeek-price-snapshots.yml`).
 - No invented or scraped URLs; only API-discovered URLs that pass validation.
 - No changes to `/api/out` redirect logic, Impact handling, or CTA rendering.
 - Apply runs are either human-run or the sanctioned nightly

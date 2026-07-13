@@ -212,6 +212,10 @@ A scheduled run also maintains a rolling **`automation:tm-discovery`** coverage 
 | **Vivid Seats CTA sync** (`vividseats-cta-sync.yml`) | 05:30 UTC | Maintain verified event-level Vivid Seats destinations | Auto-merged `automation:vividseats-cta` PR + committed audit log |
 | **SeatGeek price snapshots** (`seatgeek-price-snapshots.yml`) | Every 4 hours | Fetch approved exact-event SeatGeek statistics and write fresh cache rows | Run summary + D1 cache audit; fails blocked/failed zero-row runs |
 | **Vivid Seats price snapshots** (`vividseats-price-snapshots.yml`) | Every 4 hours | Fetch approved exact-event Vivid Seats statistics and write fresh cache rows | Run summary + D1 cache audit; fails blocked/failed zero-row runs |
+| **SeatGeek discovery proposal** (`seatgeek-discovery-proposal.yml`) | manual | Proposal-only SeatGeek event-URL discovery; never edits event data | Review JSON uploaded as a run artifact |
+| **Impact marketplace provider sync** (`impact-marketplace-provider-sync.yml`) | manual | Preview/apply event-link sync for TicketNetwork, Ticket Liquidator, StubHub International; apply opens a review PR, never auto-merges | Review PR |
+| **Impact marketplace price snapshots** (`impact-marketplace-price-snapshots.yml`) | Every 4 hours (TicketNetwork + StubHub International; Ticket Liquidator stays price-disabled) | Exact provider-event-ID listed-price snapshots to D1 | Run summary + D1 cache audit |
+| **Bootstrap provider pricing D1 schema** (`bootstrap-provider-pricing-schema.yml`) | manual | Idempotent creation of missing pricing cache/history tables (`migrations/0007_bootstrap_provider_pricing_schema.sql`) | Run log |
 
 In short: **new** links → the 04:00 new-shows PR; **drift in existing** links → the audit issue (detection), the 03:30 nightly field sync (lossless fixes), and the manual refresh-PR workflow (reviewed fixes); **SeatGeek CTAs** → the 05:00 SeatGeek CTA sync; **link death** → the audit issue.
 

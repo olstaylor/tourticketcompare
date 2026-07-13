@@ -26,6 +26,8 @@ If these three disagree with the repo, the repo wins — fix the doc.
 | File | Written/read by | Note |
 |---|---|---|
 | `docs/SEATGEEK_CTA_AUTO_ADD_LOG.md` | Written by `scripts/enrich-seatgeek-events.mjs` (`LOG_PATH` is hardcoded) | Regenerated on every enrichment run. Never archive or relocate the live copy; a historical snapshot sits in `docs/archive/`. |
+| `docs/SEATGEEK_CTA_VERIFY_LOG.md` | Written by `scripts/verify-seatgeek-events.mjs` | Regenerated on every verification run (nightly `seatgeek-cta-sync.yml`). |
+| `docs/VIVIDSEATS_CTA_SYNC_LOG.md` | Written by `scripts/sync-vividseats-events.mjs` | Regenerated on every Vivid Seats CTA sync run (nightly `vividseats-cta-sync.yml`). |
 | `public/index.html` (inlined data block) | Written by `scripts/sync-events-data.py` (`npm run events:sync`) | Not a doc, listed here because it looks hand-editable and is not. |
 
 ## Pointer stubs (keep at root, do not expand)
@@ -51,12 +53,15 @@ When updating `PROJECT_STATUS.md`, verify counts directly, e.g.:
 ```bash
 python3 - <<'EOF'
 import json
-arts = json.load(open('public/data/artists.json'))['artists']
-evs = json.load(open('public/data/events.json'))['events']
+arts = json.load(open('public/data/artists.json'))   # top-level JSON array
+evs = json.load(open('public/data/events.json'))     # top-level JSON array
 print(len(arts), 'artists;', len(evs), 'events;',
       sum(1 for e in evs if e.get('seatgeek_url')), 'with seatgeek_url;',
       sum(1 for e in evs if not (e.get('tour_name') or '').strip()), 'blank tour_name;',
       sum(1 for e in evs if e.get('verification_status') == 'needs_recheck'), 'needs_recheck')
+for p in ('seatgeek', 'vivid-seats', 'ticketnetwork', 'ticket-liquidator', 'stubhub-international'):
+    n = sum(1 for e in evs if ((e.get('provider_links') or {}).get(p) or {}).get('verified'))
+    print(p, 'verified provenance:', n)
 EOF
 grep -c '"[a-z0-9-]*:ticketmaster"' functions/api/out.js   # VERIFIED_TICKET_LINKS entries
 ```

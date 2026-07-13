@@ -20,7 +20,8 @@ This file provides guidance to Claude Code (claude.ai/code) — and any other AI
 - **SeatGeek is the primary, monetized CTA** (Impact network, server-side only), artist-level **and** event-level. Artist-level destinations are performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for registry-verified performer ids — never constructed from names.
 - **Vivid Seats is live for verified event-level CTAs** (second Impact provider): 218 events have independently verified Vivid Seats provenance. Artist-level Vivid Seats entries are not configured. Runtime Impact configuration and a verified `/production/<numeric id>` destination remain mandatory.
 - **Ticketmaster affiliate access is gone** (site removed from the programme, 2026-07). Ticketmaster links are plain, unmonetized verified redirects, rendered after the affiliate providers. **Never re-add** Impact wrapping, the Publisher Tag, or `evyy.net` shortlinks for Ticketmaster.
-- **Price comparison:** SeatGeek and Vivid Seats snapshots are collected on four-hour workflows so their six-hour cache rows refresh before expiry. Written provider agreements confirmed on 2026-07-10 allow fresh, approved SeatGeek and Vivid Seats snapshots to be displayed side by side for the same verified event, including lower-snapshot and price-difference calculations plus history. Both lanes still require the provider feature flag, a verified event URL, an approved source, and fresh timestamped cache data. Fees, taxes, availability, delivery, and checkout totals remain provider-controlled. See `docs/PROVIDER_DATA_POLICY.md`.
+- **TicketNetwork, Ticket Liquidator, and StubHub International are live for verified event-level CTAs** (activated 2026-07-13) through the SeatGeek-scoped Impact account with campaign-isolated provenance and independent kill switches. StubHub International is separate from StubHub US/Canada.
+- **Price comparison:** SeatGeek, Vivid Seats, TicketNetwork, and StubHub International snapshots are collected on four-hour workflows so their six-hour cache rows refresh before expiry. Written provider agreements confirmed on 2026-07-10 allow fresh, approved SeatGeek and Vivid Seats snapshots to be displayed side by side for the same verified event, including lower-snapshot and price-difference calculations plus history. Every lane still requires the provider feature flag, a verified event URL, an approved source, and fresh timestamped cache data; Ticket Liquidator price display stays off while its catalog has no numeric `CurrentPrice`. Fees, taxes, availability, delivery, and checkout totals remain provider-controlled. See `docs/PROVIDER_DATA_POLICY.md`.
 
 ## Critical Product Rules
 
@@ -40,6 +41,9 @@ public/                    Static frontend (served as-is by Cloudflare Pages)
   data/
     artists.json          Artist records (slug, name, factual_summary, ticket links)
     catalog.json          Providers, ticket_links, tours
+    fallback-catalog.json Client-side fallback if catalog.json fails to load
+    provider-configs.json Per-provider display/cache/safety configuration
+    guides-content.json   Guide page content (topic guides)
     events.json           Reviewed event records (Ticketmaster-sourced)
     events/               Per-artist partitioned event files (generated)
     events-index.json     Generated index over the partitions
@@ -50,17 +54,21 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
   [[path]].js             HTML routing: titles, meta, schemas, redirects, 404s
   _route-metadata.js      Single source of truth for page metadata and guide routes —
                           edit here, not in [[path]].js
+  _impact-marketplace-config.js  Shared config for the TicketNetwork / Ticket Liquidator /
+                          StubHub International lanes
   [named-shims].js        artists.js, guides.js, etc. Re-export from [[path]].js;
                           inactive while _middleware.js exists (kept as documented fallback)
+  sitemap.xml.js, llms.txt.js  Generated sitemap and /llms.txt
   api/
-    out.js                Verified affiliate redirect (SeatGeek/Vivid Seats Impact-wrapped;
+    out.js                Verified affiliate redirect (SeatGeek/Vivid Seats/TicketNetwork/
+                          Ticket Liquidator/StubHub International Impact-wrapped;
                           Ticketmaster plain). Contains VERIFIED_TICKET_LINKS. Protected.
     health.js             Runtime config status (no secrets exposed)
     shows.js              Event metadata by artistSlug
     analytics.js          D1-backed event analytics
     signup.js             Email demand capture to D1
     debug-seatgeek.js     Internal diagnostic (kept deliberately)
-    impact/               Impact API diagnostics (health, products, tracking-links)
+    impact/               Impact API diagnostics (health, catalogs, products, tracking-links)
   _provider-registry.js + api/_providers/  Parked scaffolding — do not build on
                           without a scoped provider integration (see BACKLOG.md)
 
@@ -115,7 +123,8 @@ Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS
 - `vividseats-price-snapshots.yml` (every 4 h) — writes approved Vivid Seats feed snapshots to D1 when its approved-feed and Cloudflare secrets are configured; missing secrets no-op safely.
 - `vividseats-cta-sync.yml` (05:30 UTC, cron enabled 2026-07-12 owner-directed) — verified event-level Vivid Seats link/provenance sync; auto-merges after its in-run validation suite, mirroring `seatgeek-cta-sync.yml`.
 - `impact-marketplace-provider-sync.yml` (manual only) — preview/apply lane for TicketNetwork, Ticket Liquidator, and StubHub International; apply opens a review PR and never auto-merges.
-- `impact-marketplace-price-snapshots.yml` (manual only) — exact provider-event-ID snapshot dry run/apply for those three providers; no schedule before supervised activation.
+- `impact-marketplace-price-snapshots.yml` (every 4 h, plus a push-triggered bootstrap when its workflow/provider-config files change on `main`, plus dispatch) — exact provider-event-ID snapshots for the verified TicketNetwork and StubHub International lanes; Ticket Liquidator stays manual/price-disabled while its catalog has no numeric `CurrentPrice`.
+- `bootstrap-provider-pricing-schema.yml` (manual only) — idempotent creation of missing D1 pricing cache/history tables (`migrations/0007_bootstrap_provider_pricing_schema.sql`).
 - `prelaunch-validation.yml` (PRs) — validation suite incl. the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`.
 - `tm-data-refresh-pr.yml` (dispatch) — manual PR-based refresh of existing events.
 

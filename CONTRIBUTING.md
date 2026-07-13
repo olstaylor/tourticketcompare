@@ -30,6 +30,29 @@ If you modified a named route shim, `node --check` it too (`functions/artists.js
 
 ```bash
 python3 scripts/validate-events.py --for-production
+node scripts/validate-partitions.mjs          # if partitions touched
+```
+
+### Route / provider / artist validators (run the ones relevant to your change)
+
+```bash
+node scripts/validate-guide-routes.mjs        # guides or route metadata touched
+npm run artist:check -- <slug>                # a specific artist touched
+npm run validate:artist-providers             # artists.json vs VERIFIED_TICKET_LINKS drift
+npm run validate:cta-provider-state           # CTA ↔ provider-state guard
+npm run validate:provider-allowlists          # provider host allowlists
+npm run providers:identities:validate         # data/provider-identities.json registry
+npm run schema:validate                       # route schema markup
+```
+
+### Tooling self-tests (before changing the matching/snapshot scripts)
+
+```bash
+npm run seatgeek:self-test                    # SeatGeek discovery scoring/safety
+npm run seatgeek:verify:self-test             # SeatGeek verification invariants
+npm run vividseats:sync:self-test             # Vivid Seats CTA sync
+npm run impact-providers:sync:self-test       # shared Impact catalog matcher
+npm run impact-providers:prices:self-test     # exact-ID snapshot writer
 ```
 
 ### Smoke tests
@@ -41,7 +64,8 @@ node scripts/smoke-prelaunch.mjs
 ### Combined suite
 
 ```bash
-npm run test:mvp     # events self-test + provider validators + smoke suite
+npm run test:mvp     # events/link/Impact self-tests + provider validators
+                     # + CTA-provider-state guard + allowlists + smoke suite
 ```
 
 ### Hygiene

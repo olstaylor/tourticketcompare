@@ -9,11 +9,12 @@ export async function onRequestGet({ request, env }) {
   const query = clean(url.searchParams.get("q") || url.searchParams.get("Keyword"), 120);
   const campaignId = clean(url.searchParams.get("campaignId") || url.searchParams.get("CampaignId"), 120);
   const catalogId = clean(url.searchParams.get("catalogId") || url.searchParams.get("CatalogId"), 120);
-  const page = Number.parseInt(url.searchParams.get("Page") || url.searchParams.get("page") || "0", 10);
+  const page = Number.parseInt(url.searchParams.get("Page") || url.searchParams.get("page") || "1", 10);
   const pageSize = Number.parseInt(url.searchParams.get("PageSize") || url.searchParams.get("pageSize") || "20", 10);
   if (query) params.set("Keyword", query);
-  params.set("Page", String(Number.isFinite(page) && page >= 0 ? page : 0));
+  params.set("Page", String(Number.isFinite(page) && page >= 1 ? page : 1));
   params.set("PageSize", String(Math.max(1, Math.min(200, Number.isFinite(pageSize) ? pageSize : 20))));
+  params.set("IrVersion", /^\d{1,2}$/.test(clean(env.IMPACT_CATALOG_API_VERSION, 2)) ? clean(env.IMPACT_CATALOG_API_VERSION, 2) : "15");
 
   const resource = catalogId
     ? `Catalogs/${encodeURIComponent(catalogId)}/Items`

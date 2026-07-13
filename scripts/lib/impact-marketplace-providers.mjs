@@ -87,7 +87,10 @@ function catalogItemsUrl(config, artistName, page, env = process.env, pageSize =
   const params = new URLSearchParams({
     Keyword: clean(artistName, 200),
     PageSize: String(pageSize),
-    Page: String(page)
+    Page: String(page),
+    IrVersion: /^\d{1,2}$/.test(clean(env.IMPACT_CATALOG_API_VERSION, 2))
+      ? clean(env.IMPACT_CATALOG_API_VERSION, 2)
+      : "15"
   });
   const resource = catalogId
     ? `Catalogs/${encodeURIComponent(catalogId)}/Items`

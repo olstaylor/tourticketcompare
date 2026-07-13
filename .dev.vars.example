@@ -40,6 +40,8 @@ IMPACT_DEFAULT_PROGRAM_ID=your_default_program_id_here
 # IMPACT_VIVIDSEATS_BASE_TRACKING_URL=https://vividseats.pxf.io/your_code_here
 # Impact Catalogs provider config. Catalog IDs are optional; when omitted the
 # integration searches all available catalogs and isolates rows by campaign ID.
+# Catalog requests default to the documented v15 API.
+# IMPACT_CATALOG_API_VERSION=15
 # Keep the public/display flags
 # false until catalog access, program identity, tracking, and event matches are
 # verified in the relevant Impact account.
@@ -63,4 +65,3 @@ ENABLE_PUBLIC_TICKET_LISTINGS=false
 
 # D1 binding, configured in wrangler.toml / Cloudflare Pages dashboard rather than as text:
 # DEMAND_DB=tourticketcompare-demand
-

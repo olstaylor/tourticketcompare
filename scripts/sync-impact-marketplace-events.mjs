@@ -202,7 +202,7 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
   const { accountSid, authToken, programId } = impactCredentials(config, env);
   const authorization = `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`;
   const candidates = [];
-  for (let page = 0; page < MAX_PAGES; page += 1) {
+  for (let page = 1; page <= MAX_PAGES; page += 1) {
     if (options.maxApiCalls != null && state.apiCalls >= options.maxApiCalls) return { candidates, complete: false, stopReason: "api_call_limit" };
     if (options.delayMs) await new Promise((resolve) => setTimeout(resolve, options.delayMs));
     state.apiCalls += 1;
@@ -222,7 +222,7 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     if (!items) return { candidates, complete: false, stopReason: "missing_items" };
     for (const item of items) candidates.push(...productCandidates(config, item, programId));
     const total = Number(payload?.["@total"] ?? payload?.Total);
-    if (items.length < PAGE_SIZE || (Number.isFinite(total) && (page + 1) * PAGE_SIZE >= total)) return { candidates, complete: true, stopReason: "" };
+    if (items.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { candidates, complete: true, stopReason: "" };
   }
   return { candidates, complete: false, stopReason: "pagination_cap" };
 }
@@ -293,8 +293,10 @@ async function selfTest() {
   const candidate = productCandidates(config, catalogItem, "123")[0];
   assert.equal(candidate.externalId, "tn-1");
   assert.equal(productCandidates(config, catalogItem, "wrong-program").length, 0);
-  assert.match(catalogItemsUrl(config, "RAYE", 0, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123" }), /\/Catalogs\/ItemSearch\?/);
-  assert.match(catalogItemsUrl(config, "RAYE", 0, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123", IMPACT_TICKETNETWORK_CATALOG_ID: "456" }), /\/Catalogs\/456\/Items\?/);
+  const searchUrl = catalogItemsUrl(config, "RAYE", 1, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123" });
+  assert.match(searchUrl, /\/Catalogs\/ItemSearch\?/);
+  assert.equal(new URL(searchUrl).searchParams.get("IrVersion"), "15");
+  assert.match(catalogItemsUrl(config, "RAYE", 1, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123", IMPACT_TICKETNETWORK_CATALOG_ID: "456" }), /\/Catalogs\/456\/Items\?/);
   assert.equal(catalogItems({ Items: [catalogItem] })[0].CatalogItemId, "tn-1");
   assert.equal(normalizeProviderUrl(config, "https://ticketnetwork.com/"), "");
   assert.equal(normalizeProviderUrl(config, "https://evil.example/tickets/1"), "");
@@ -314,7 +316,7 @@ async function selfTest() {
   });
   assert.equal(dry.added, 1);
   assert.equal(dry.changed, 0);
-  return 17;
+  return 18;
 }
 
 async function main() {

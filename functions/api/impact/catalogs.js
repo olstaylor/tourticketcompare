@@ -30,11 +30,12 @@ export async function onRequestGet({ request, env }) {
 
   const url = new URL(request.url);
   const query = clean(url.searchParams.get("q"), 120).toLowerCase();
-  const page = Number.parseInt(url.searchParams.get("Page") || url.searchParams.get("page") || "0", 10);
+  const page = Number.parseInt(url.searchParams.get("Page") || url.searchParams.get("page") || "1", 10);
   const pageSize = Number.parseInt(url.searchParams.get("PageSize") || url.searchParams.get("pageSize") || "100", 10);
   const params = new URLSearchParams({
-    Page: String(Number.isFinite(page) && page >= 0 ? page : 0),
-    PageSize: String(Math.max(1, Math.min(200, Number.isFinite(pageSize) ? pageSize : 100)))
+    Page: String(Number.isFinite(page) && page >= 1 ? page : 1),
+    PageSize: String(Math.max(1, Math.min(200, Number.isFinite(pageSize) ? pageSize : 100))),
+    IrVersion: /^\d{1,2}$/.test(clean(env.IMPACT_CATALOG_API_VERSION, 2)) ? clean(env.IMPACT_CATALOG_API_VERSION, 2) : "15"
   });
   const endpoint = `${config.apiBase}/Mediapartners/${encodeURIComponent(config.accountSid)}/Catalogs?${params.toString()}`;
 

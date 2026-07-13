@@ -326,7 +326,9 @@ node scripts/snapshot-impact-marketplace-prices.mjs --provider ticketnetwork --j
 and URL normalization. `scripts/sync-impact-marketplace-events.mjs` fetches a
 maximum of five 100-row pages per registry-verified artist using Impact's
 `/Catalogs/ItemSearch` endpoint (or `/Catalogs/{CatalogId}/Items` when the
-optional provider catalog ID is configured). Results are isolated to the
+optional provider catalog ID is configured). Catalog requests explicitly set
+`IrVersion=15` and use the documented 1-based pagination instead of depending
+on the account-level API version. Results are isolated to the
 provider's configured campaign ID. A row passes only when the artist, venue, city, and venue-local
 date all match; zero or multiple candidates never write. A stored link is
 cleared/unverified only after a complete successful catalog fetch provides

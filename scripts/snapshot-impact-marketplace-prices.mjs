@@ -68,7 +68,7 @@ async function fetchArtistCatalog(config, artistName, env = process.env, fetchIm
   const { accountSid, authToken, programId } = impactCredentials(config, env);
   const authorization = `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`;
   const candidates = [];
-  for (let page = 0; page < MAX_PAGES; page += 1) {
+  for (let page = 1; page <= MAX_PAGES; page += 1) {
     const response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), { headers: { Accept: "application/json", Authorization: authorization } });
     if (!response.ok) return { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
     const payload = await response.json();
@@ -76,7 +76,7 @@ async function fetchArtistCatalog(config, artistName, env = process.env, fetchIm
     if (!items) return { ok: false, reason: "Impact response had no Items array" };
     for (const item of items) candidates.push(...productCandidates(config, item, programId));
     const total = Number(payload?.["@total"] ?? payload?.Total);
-    if (items.length < PAGE_SIZE || (Number.isFinite(total) && (page + 1) * PAGE_SIZE >= total)) return { ok: true, candidates };
+    if (items.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { ok: true, candidates };
   }
   return { ok: false, reason: "Impact catalog exceeded pagination cap" };
 }

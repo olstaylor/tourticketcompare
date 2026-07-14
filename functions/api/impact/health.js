@@ -7,7 +7,11 @@ export async function onRequestGet({ env }) {
   return json({
     generatedAt: new Date().toISOString(),
     ok: true,
-    status: productSearchConfigured ? "configured" : "missing_credentials",
+    // Presence of credentials is not evidence that the Impact account has the
+    // required Catalogs or TrackingLinks permissions. Live verification happens
+    // through the dedicated read-only API routes, so this endpoint must not
+    // overstate readiness.
+    status: productSearchConfigured ? "credentials_configured_unverified" : "missing_credentials",
     source: "impact-publisher",
     readiness,
     credentialSets: {
@@ -17,6 +21,8 @@ export async function onRequestGet({ env }) {
     productSearchConfigured,
     productSearchAccessVerified: false,
     productSearchReady: false,
-    trackingLinkCreateReady: readiness.configured
+    trackingLinkAccessVerified: false,
+    trackingLinkCreateReady: false,
+    trackingLinkReady: false
   });
 }

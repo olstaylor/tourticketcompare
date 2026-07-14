@@ -29,7 +29,8 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260714f";
+const APP_ASSET_VERSION = "20260714g";
+const STYLES_ASSET_VERSION = "20260714b";
 const TTC_HOME_ASSET_VERSION = "20260713b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -1293,6 +1294,16 @@ assert(/\/app\.js\?v=/.test(appScriptRef[0]), "index.html must load app.js with 
 assert(
   appScriptRef[0].includes(`/app.js?v=${APP_ASSET_VERSION}`),
   "index.html must bump the app.js version whenever client metadata or hydration behavior changes"
+);
+// The main stylesheet carries card/layout styles that must deploy together with
+// the markup that uses them. Without a version bump, returning visitors and the
+// CDN keep the stale styles.css and render new markup unstyled.
+const stylesLinkRef = shellHtml.match(/<link\s+rel="stylesheet"\s+href="\/styles\.css[^"]*"/);
+assert(stylesLinkRef, "index.html must load /styles.css");
+assert(/\/styles\.css\?v=/.test(stylesLinkRef[0]), "index.html must load styles.css with a ?v= cache-busting version so CSS changes reach returning visitors without waiting for cache expiry");
+assert(
+  stylesLinkRef[0].includes(`/styles.css?v=${STYLES_ASSET_VERSION}`),
+  "index.html must bump the styles.css version whenever styles.css changes, or new markup renders against stale cached CSS"
 );
 assert(
   shellHtml.includes(`/ttc-home.css?v=${TTC_HOME_ASSET_VERSION}`),

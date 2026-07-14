@@ -29,7 +29,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260714d";
+const APP_ASSET_VERSION = "20260714e";
 const TTC_HOME_ASSET_VERSION = "20260713b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -1112,6 +1112,8 @@ assert(appJs.includes("function hydrateComparisonHubPriceSnapshots()"), "compari
 assert(appJs.includes("function hydrateShowBoardPriceSnapshots(shows, cardOptions)"), "artist show boards should hydrate approved provider prices across the site");
 assert(!appJs.includes("Checked ticket links are temporarily unavailable"), "show boards must not replace verified ticket access with a generic API-failure message");
 assert(appJs.includes("const fallbackShows = sortEventsForSearch(await loadEventsForSearch())"), "show boards must render public event-feed fallback cards when /api/shows is unavailable");
+assert(!(await read("functions/[[path]].js")).includes("futureShowsForArtist(events, artist.slug, 6)"), "artist pages must not cap server-rendered upcoming shows at six");
+assert(appJs.includes("fetchShowBoardData(params, Boolean(filters.artistSlug))"), "artist boards must page through every available API result");
 assert(appJs.includes("schedulePriceHydration(visible);"), "artist filters should debounce approved provider price hydration");
 assert(appJs.includes("function hasApprovedMarketplacePrice(show)"), "current-card hydration should use the approved marketplace lane gate");
 assert(appJs.includes("!hasApprovedMarketplacePrice(pricedShow)"), "current-card hydration should accept any approved marketplace snapshot lane");

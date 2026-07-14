@@ -981,7 +981,7 @@ function renderVerificationDisclosure(artist, shows = []) {
   }${eventRange ? `<p class="disclosure-note">Event links last checked: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
 }
 
-function futureShowsForArtist(events, artistSlug, limit) {
+function futureShowsForArtist(events, artistSlug, limit = Infinity) {
   const now = Date.now();
   const slug = slugify(artistSlug);
   return events
@@ -1450,7 +1450,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
     const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
-    const shows = futureShowsForArtist(events, artist.slug, 6);
+    const shows = futureShowsForArtist(events, artist.slug);
     const reviewNoticeHtml = isIndexableArtist
       ? ""
       : `<section class="nested-panel review-notice"><p class="disclosure-note">This artist page is currently under review. Event details are shown for reference while ticket links are checked.</p></section>`;

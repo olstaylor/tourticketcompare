@@ -29,7 +29,7 @@ export const TRUST_ROUTES = {
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats",
     description:
-      "Compare timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider.",
+      "Use this ticket comparison site to compare concert and event ticket prices with timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event, then confirm fees, availability, seats, and final totals with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }]
   },

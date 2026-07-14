@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-07-13 (TicketNetwork, Ticket Liquidator, and StubHub International activated from their verified Impact catalogs.)
+Last updated: 2026-07-14 (pruned stale/over-cautious items; venue landing pages and guide internal-linking shipped).
 
 ## Active priorities (in order)
 
@@ -34,17 +34,12 @@ Run `npm run artists:onboard:propose` with target artist names (US/EU major tour
 - **Blank tour labels:** JAY-Z Inglewood "JAY-Z30", JAY-Z London "JAY-Z - 30", and the withheld Shakira Madrid "Shakira Stadium" row need owner-supplied `tour_name` values; never infer them from URL slugs. The Yankee Stadium JAY-Z rows use "JAY-Z Yankee Stadium 2026".
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 
-### 5. #174 Phase B — data-refresh hardening (judgment call)
-
-Phase A (documented flow + `stale-sync-guard` CI job) is done. Phase B is an optional build-time cache-bust or stronger pre-commit hook — only adopt if it fits the Cloudflare Pages build cleanly; do not ship a brittle cache-bust.
-
-### 6. #10 — Production raw HTML verification (only if still needed)
-
-Local proof passed on 17 representative routes (2026-05-19); PR #184's guide drift validation runs on every PR. Non-blocking unless a fresh production browser check finds a real mismatch. Remaining deliverable: a human-run `curl` checklist over production routes (see the #10 issue comment).
-
 ## Recently completed
 
 Closed on GitHub / done in the repo; kept as a short audit trail only. Details live in git history and `PROJECT_STATUS.md`.
+
+- **Venue landing pages (2026-07-14).** New `/venues` index + `/venues/<slug>` pages, a server-rendered aggregation layer over verified `events.json` (`functions/_venues.js`, shared with the sitemap). No invented data and no provider/CTA logic — venue pages group upcoming tracked shows by artist and link to the artist pages where verified CTAs/prices live. Indexability gated at ≥2 upcoming shows (single-show venues `noindex`); slug merges inconsistent country labels for one physical venue; header/footer nav updated; `MusicVenue`/`CollectionPage` structured data + breadcrumbs; sitemap and smoke coverage added.
+- **Guide internal-linking (2026-07-14).** Curated "Related guides" cross-link section added to all 17 topic guides (guide-to-guide internal links ~24 → 74) and the event-price comparison guide placed in a themed `/guides` cluster.
 
 - **Documentation lifecycle cleanup (2026-07-13).** Updated the stable docs for the active multi-provider site, removed `HANDOVER.md` and the stale `docs/archive/` tree, moved generated provider audit logs to `reports/provider-sync/`, and added `npm run docs:check` to CI so broken links, missing commands, and retired doc paths cannot silently return.
 - **SeatGeek CTA sync automation (2026-07-08, owner-approved).** Nightly `seatgeek-cta-sync.yml` (05:00 UTC): SeatGeek URL enrichment auto-apply + new `scripts/verify-seatgeek-events.mjs` identity-anchored verification writing `provider_links.seatgeek` verified provenance (standalone SeatGeek CTAs on `needs_recheck` events; wrong-night URL self-heal; safe-direction clearing). Auto-merge PR after in-run validation — third narrow auto-publish exception in `SAFE_PUBLISHING_RULES.md`. New hard error in `validate-cta-provider-state.mjs` guards the provenance contract.
@@ -59,12 +54,10 @@ Closed on GitHub / done in the repo; kept as a short audit trail only. Details l
 
 Intentionally not work until separately scoped and owner-approved. Unparking removes the scope freeze, not the verification rules.
 
-- **Tour / city / venue / event landing pages.** No verified data, no canonical/indexing strategy.
+- **Tour / city / event landing pages.** No verified data, no canonical/indexing strategy. (Venue landing pages are now implemented — see "Recently completed".)
 - **Live inventory aggregation; "cheapest ticket" / "guaranteed availability" claims.** Approved provider lanes are timestamped listed-price snapshots, not live inventory or checkout-total guarantees.
 - **Provider expansion beyond SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International.** Adding any further provider still requires a separate verified feed, explicit written usage rights, and scoped integration work.
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
-- **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.
-- **Internal Impact Publisher Tag diagnostic route (`/internal/impact-tag-test`) and `functions/api/debug-seatgeek.js`** — leave intact.
 
 ## How to update this file
 

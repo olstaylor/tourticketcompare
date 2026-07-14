@@ -120,7 +120,8 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 
 - Homepage, the `/compare-concert-ticket-prices` comparison hub, and trust/legal pages.
 - Artist index plus all 16 indexable artist pages above (3 of them — beyonce, raye, tate-mcrae — currently have no event records and render artist-level CTAs only).
-- 16 guide pages with server-rendered content.
+- **Venue landing pages** (`/venues` index + `/venues/<slug>`): a server-rendered aggregation layer derived purely from verified `events.json` records (`functions/_venues.js`, shared with the sitemap). Each venue page lists the upcoming tracked shows at that venue grouped by artist and links out to the artist pages, where the verified provider CTAs and price snapshots live — the venue layer invents no data and has no provider/CTA logic of its own. Slug is `slugify("<venue> <city>")` so inconsistent country labels for one physical venue merge. Venues with ≥2 upcoming shows are indexable and in the sitemap; single-show venues render but stay `noindex`; unknown slugs 404. Cross-linked from the header and footer nav.
+- 16 guide pages with server-rendered content, each carrying a curated "Related guides" cross-link section.
 - Verified SeatGeek CTAs, **artist-level and event-level**, as the primary CTA — routed through `/api/out` with Impact tracking (base tracking URL or API mint). Artist-level entries are performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for registry-verified performer ids. Currently 256/397 events carry a stored `seatgeek_url` and 203 carry verified SeatGeek provenance; enrichment + identity-anchored verification run nightly via `seatgeek-cta-sync.yml` (first run merged 2026-07-08, PR #356; see Daily automation), including the standalone SeatGeek CTA path for `needs_recheck` events (9 live today); see `docs/SEATGEEK_DISCOVERY.md`.
 - Verified plain Ticketmaster links (artist- and event-level) — unmonetized, rendered after the affiliate providers and labeled "Check Ticketmaster". No Impact wrapping, no Publisher Tag, no evyy.net shortlinks.
 - Verified Vivid Seats CTAs at event level: 218 verified destinations are live and Impact-wrapped. Six `needs_recheck` rows retain standalone Vivid coverage through provider-specific provenance. Artist-level Vivid Seats entries remain unsupported; the sync workflow runs nightly at 05:30 UTC.
@@ -133,7 +134,7 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 ## What is not supported
 
 - Live inventory aggregation and "cheapest" / "guaranteed availability" claims. Approved lanes are provider-listed snapshots rather than live checkout totals; each remains fail closed unless its rights, URL, exact-event, source, timestamp, and expiry gates pass.
-- Tour, city, venue, or event landing pages.
+- Tour, city, or event landing pages. (Venue landing pages **are** now supported — see "What is supported today".)
 - Artist-level Vivid Seats CTAs. Event-level Vivid Seats CTAs are supported and live.
 - Ticket Liquidator listed-price snapshots while its Impact catalog omits numeric `CurrentPrice`. StubHub US/Canada is not part of the StubHub International integration.
 - Ticketmaster affiliate/tracking of any kind (the site is no longer in the Ticketmaster affiliate programme).

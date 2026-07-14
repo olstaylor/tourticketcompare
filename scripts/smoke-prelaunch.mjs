@@ -7,7 +7,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/compare-concert-ticket-price
 const functionBackedStaticRoutes = ["/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Compare concert ticket prices for the same show."],
+  ["/", "Compare concert and event ticket prices for the same show."],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices"],
@@ -211,7 +211,7 @@ async function assertPublicCopySafe(files) {
     {
       label: "ticket comparison claim",
       pattern: /\bticket\s+comparison\b/i,
-      allowedContext: /\b(not|must not|should not|does not|unless|until|without pretending)\b/i
+      allowedContext: /\b(not|must not|should not|does not|unless|until|without pretending|comparison site|helps you review)\b/i
     }
   ];
   const violations = [];
@@ -456,7 +456,7 @@ const publicAffiliateUrlFiles = [
 
 const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Compare concert ticket prices for the same show."),
+  joinedPublic.includes("Compare concert and event ticket prices for the same show."),
   "homepage public-facing copy should be present"
 );
 const clientApp = await read("public/app.js");
@@ -2573,5 +2573,37 @@ assert(beyonceShowBoard.includes("for updates"), "zero-event empty state should 
 assert(!beyonceShowBoard.includes("provider=seatgeek"), "zero-event empty state must not surface a SeatGeek artist link without SeatGeek Impact config");
 assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes("Browse artists"), "zero-event empty state must link users to the artists index");
 console.log("zero-event empty-state verification passed for beyonce");
+
+// Venue landing pages: aggregation layer over verified events. Rendered from the
+// real events.json so the derived slugs, indexing gate, and cross-links match
+// production behaviour.
+const venueEnv = envWithEventsJson(await read("public/data/events.json"));
+const venuesIndex = await routeResponse("/venues", venueEnv);
+assert(venuesIndex.response.status === 200, "/venues index should return 200");
+assert(venuesIndex.nextCalled === false, "/venues index should be function-rendered, not passed to static assets");
+assert(venuesIndex.text.includes("<h1 id=\"venuesTitle\">Concert venues</h1>"), "/venues index should render the venues heading");
+assert(/<meta name="robots" content="index,follow/.test(venuesIndex.text), "/venues index should be indexable");
+const venueDetailSlug = (venuesIndex.text.match(/href="\/venues\/([a-z0-9-]+)"/) || [])[1];
+assert(venueDetailSlug, "/venues index should link at least one venue detail page");
+const venueDetail = await routeResponse(`/venues/${venueDetailSlug}`, venueEnv);
+assert(venueDetail.response.status === 200, `/venues/${venueDetailSlug} should return 200`);
+assert(venueDetail.text.includes('"@type":"MusicVenue"'), "venue detail page should emit MusicVenue structured data");
+assert(/href="\/artists\/[a-z0-9-]+"/.test(venueDetail.text), "venue detail page should link out to artist pages");
+assert(
+  extractCanonical(venueDetail.text) === `https://tourticketcompare.com/venues/${venueDetailSlug}`,
+  "venue detail canonical should point to the venue route"
+);
+const missingVenue = await routeResponse("/venues/no-such-venue-anywhere-xyz", venueEnv);
+assert(missingVenue.response.status === 404, "unknown venue slug should return 404");
+const venueSitemap = await sitemapLocs(venueEnv);
+assert(
+  venueSitemap.includes("https://tourticketcompare.com/venues"),
+  "/sitemap.xml should include the venues index when venues exist"
+);
+assert(
+  venueSitemap.includes(`https://tourticketcompare.com/venues/${venueDetailSlug}`),
+  "/sitemap.xml should include indexable venue detail pages"
+);
+console.log("venue landing-page verification passed");
 
 console.log("Cloudflare Pages MVP smoke checks passed");

@@ -2354,8 +2354,8 @@ assert(sgIdx !== -1 && vsIdx !== -1 && tmIdx !== -1 && sgIdx < vsIdx && vsIdx < 
 // 4. Impact API failure must return diagnostic JSON, never a raw redirect.
 const vsApiConfigEnv = withVividSeatsEventsFixture({
   ...env,
-  IMPACT_VIVIDSEATS_ACCOUNT_SID: "vs-account",
-  IMPACT_VIVIDSEATS_AUTH_TOKEN: "vs-token",
+  IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
+  IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token",
   IMPACT_VIVIDSEATS_CAMPAIGN_ID: "vs-campaign"
 });
 try {
@@ -2364,9 +2364,9 @@ try {
     const requestUrl = new URL(String(request.url || request));
     vividSeatsImpactCalled = true;
     assert(requestUrl.hostname === "api.impact.com", "Vivid Seats tracking should call Impact with the controlled event URL");
-    assert(requestUrl.pathname.includes("/Mediapartners/vs-account/Programs/vs-campaign/TrackingLinks"), "Vivid Seats Impact request should use the configured Vivid Seats account and campaign");
+    assert(requestUrl.pathname.includes("/Mediapartners/sg-account/Programs/vs-campaign/TrackingLinks"), "Vivid Seats Impact request should use the approved SeatGeek publisher account and the Vivid Seats campaign");
     assert(requestUrl.searchParams.get("DeepLink") === CONTROLLED_VIVIDSEATS_URL, "Vivid Seats Impact DeepLink should be the controlled Vivid Seats event URL");
-    assert(options.headers?.Authorization === `Basic ${Buffer.from("vs-account:vs-token").toString("base64")}`, "Vivid Seats Impact request should use Vivid Seats basic auth");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("sg-account:sg-token").toString("base64")}`, "Vivid Seats Impact request should use approved SeatGeek publisher basic auth");
     return new Response(JSON.stringify({ Message: "forbidden" }), {
       status: 403,
       headers: { "content-type": "application/json" }

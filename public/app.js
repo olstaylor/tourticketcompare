@@ -586,6 +586,7 @@ function providerDisplayRank(providerSlug) {
 
 function renderProviderButtons(artist, surface) {
   const links = ticketLinksForArtist(artist.slug)
+    .filter((item) => Boolean(safeVerifiedEventUrl(item?.url)))
     .filter((item) => providerEnabled(slugify(item.provider)))
     .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)));
   const panel = document.createElement("section");
@@ -630,14 +631,7 @@ function renderProviderButtons(artist, surface) {
     card.className = "provider-card";
     text(card, "p", "Artist-level provider page", "eyebrow");
     text(card, "h3", copy.name);
-    const params = new URLSearchParams({
-      artistSlug: artist.slug,
-      provider: providerSlug,
-      sourcePath: window.location.pathname,
-      surface
-    });
-    if (item.tour_slug) params.set("tourSlug", item.tour_slug);
-    const cta = buttonLink(copy.label, `/api/out?${params.toString()}`, "primary");
+    const cta = buttonLink(copy.label, safeVerifiedEventUrl(item.url), "primary");
     cta.addEventListener("click", () => {
       sendAnalytics("provider_click", {
         artistSlug: artist.slug,

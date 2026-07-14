@@ -95,7 +95,7 @@ Request
       └─ All other paths (HTML routes)           → [[path]].js onRequest
 ```
 
-All HTML route handling lives in `functions/[[path]].js`; page metadata lives in `functions/_route-metadata.js`. Unknown routes return 404 with noindex — no auto-generated pages. Full detail: `docs/ARCHITECTURE.md`.
+All HTML route handling lives in `functions/[[path]].js`, including the comparison hub, trust pages, guides, and dynamic artist routes; page metadata lives in `functions/_route-metadata.js`. Unknown routes return 404 with noindex — no auto-generated pages. Full detail: `docs/ARCHITECTURE.md`.
 
 ### Bindings (Cloudflare dashboard)
 

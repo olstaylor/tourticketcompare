@@ -2526,7 +2526,7 @@ console.log("SeatGeek visibility gating verified: event-level URL plus affiliate
 const brunoMarsPage = await routeResponse("/artists/bruno-mars");
 assert(brunoMarsPage.response.status === 200, "/artists/bruno-mars must return 200");
 assert(/index,follow/.test(brunoMarsPage.text), "/artists/bruno-mars (indexable) must render index,follow robots meta");
-assert(/\/api\/out\?artistSlug=bruno-mars/.test(brunoMarsPage.text), "/artists/bruno-mars must render artist-level /api/out CTA link");
+assert(brunoMarsPage.text.includes('href="https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801"'), "/artists/bruno-mars must render its verified direct artist-level ticket destination");
 assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mars (indexable) must not show review-pending notice");
 
 // Fully-verified artist (Morgan Wallen) must remain indexable and keep its event CTAs.
@@ -2535,7 +2535,7 @@ assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mar
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
 assert(serverMorganWithoutSeatGeek.text.includes(">View Tickets</a>"), "/artists/morgan-wallen (indexable) must show the single-provider 'View Tickets' event CTA");
 assert(serverMorganWithoutSeatGeek.text.includes('class="button button-primary button-full"'), "single-provider event CTA must render full-width (button-full)");
-assert(/provider=ticketmaster"\s+target="_blank"\s+rel="noopener"/.test(serverMorganWithoutSeatGeek.text), "server-rendered verified event CTA should open in a new tab to match client behaviour");
+assert(/href="https:\/\/www\.ticketmaster\.com\/[^"]+"\s+target="_blank"\s+rel="noopener"/.test(serverMorganWithoutSeatGeek.text), "server-rendered verified event CTA should use a direct destination and open in a new tab");
 
 console.log("indexable artist verification passed for bruno-mars");
 

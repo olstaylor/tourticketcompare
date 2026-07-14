@@ -1302,3 +1302,216 @@ summary {
     padding-inline: 12px;
   }
 }
+
+
+/* ============================================================
+   CARD UX CLEANUP
+   Keep cards compact and scannable: identity, useful signal, then action.
+   This applies to server-rendered and hydrated cards alike.
+   ============================================================ */
+.artist-card-grid,
+.show-card-grid {
+  gap: 16px;
+}
+
+.artist-card-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.artist-card,
+.show-card {
+  padding: 20px;
+  gap: 12px;
+}
+
+.artist-card {
+  grid-template-rows: auto auto auto 1fr auto;
+  min-height: 238px;
+}
+
+.artist-card h3,
+.show-card-title {
+  font-size: clamp(1.12rem, 1.7vw, 1.42rem);
+  line-height: 1.12;
+}
+
+.artist-card > .muted {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.42;
+  font-size: 0.9rem;
+}
+
+.artist-status-row {
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.artist-status-row .status-badge,
+.artist-status-row .status-badge-muted {
+  padding: 5px 9px;
+  font-size: 0.68rem;
+  letter-spacing: 0.045em;
+}
+
+.artist-status-row .status-chip-detail {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 650;
+}
+
+.artist-card .card-status {
+  align-self: end;
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.artist-card .button,
+.show-card .button {
+  min-height: 44px;
+  margin-top: 2px;
+  padding: 10px 16px;
+  font-size: 0.86rem;
+}
+
+.show-card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.show-card {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  align-items: start;
+  gap: 16px;
+}
+
+.show-card-body {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.show-date-badge {
+  width: 64px;
+  min-height: 74px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 1px;
+  padding: 8px 5px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--green-soft);
+  color: var(--green);
+  text-align: center;
+}
+
+.show-date-weekday,
+.show-date-monthyear {
+  font-size: 0.64rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.show-date-day {
+  font-size: 1.55rem;
+  font-weight: 950;
+  letter-spacing: -0.06em;
+  line-height: 1.05;
+}
+
+.show-card-sub {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.84rem;
+}
+
+.show-card .price-snapshot-row,
+.show-card .price-compare-row {
+  margin: 2px 0 0;
+  padding: 8px 10px;
+  border-radius: var(--radius-md);
+  background: rgba(33, 64, 52, 0.06);
+}
+
+.show-card .price-snapshot-row .disclosure-note,
+.show-card .price-compare-row .disclosure-note,
+.show-card .price-compare-note {
+  margin-top: 3px;
+  font-size: 0.7rem;
+  line-height: 1.3;
+}
+
+.show-card .cta-group {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.show-card .cta-group .button {
+  min-width: 0;
+  width: 100%;
+}
+
+.show-card .disclosure-note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+.show-card .copy-show-link {
+  width: fit-content;
+  font-size: 0.76rem;
+}
+
+@media (max-width: 1040px) {
+  .artist-card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .artist-card-grid,
+  .show-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .artist-card-grid,
+  .show-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .artist-card,
+  .show-card {
+    padding: 18px;
+  }
+
+  .show-card {
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 13px;
+  }
+
+  .show-date-badge {
+    width: 58px;
+  }
+
+  .show-card .cta-group {
+    grid-template-columns: 1fr;
+  }
+}
+\n

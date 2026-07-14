@@ -42,7 +42,7 @@ const SMOKE_TEST_NOW_MS = Date.parse(SMOKE_TEST_NOW_ISO);
 assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO timestamp");
 Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
-  ["/artists", "Ticket buttons appear only when the destination has been checked"],
+  ["/artists", "Find an artist, then open the checked ticket options and upcoming dates we can verify."],
   ["/guides", "Compare the final checkout total after fees"],
   ["/compare-concert-ticket-prices", "We compare approved, timestamped provider snapshots for the same event only"],
   ["/how-it-works", "Affiliate links are handled safely"],

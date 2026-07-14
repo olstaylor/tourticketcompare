@@ -16,6 +16,20 @@ const PUBLIC_HTML_ROUTES = new Set([
 const RESERVED_PREFIXES = ["/api/", "/data/"];
 const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/sitemap.xml"]);
 
+// Keep the highest-value editorial guide routable even if an edge deploy briefly
+// serves stale route metadata. This fallback mirrors _route-metadata.js and
+// prevents Googlebot/Search Console from seeing a transient 404/noindex response.
+const EVENT_PRICE_GUIDE_PATH = "/guides/how-to-compare-event-ticket-prices";
+const EVENT_PRICE_GUIDE_FALLBACK = {
+  title: "How to Compare Event Ticket Prices | TourTicketCompare",
+  h1: "How to Compare Event Ticket Prices",
+  description:
+    "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, delivery, and final checkout total.",
+  fullContent: true,
+  datePublished: "2026-07-14",
+  lastmod: "2026-07-14"
+};
+
 // _headers applies to static-asset responses only, not to function-generated responses.
 // These headers must be set explicitly on every HTML Response returned by this function.
 const SECURITY_HEADERS = {
@@ -124,15 +138,16 @@ async function routeForPath(pathname, env) {
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
   if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
   if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
-  if (GUIDE_ROUTES[path]) {
+  const guide = GUIDE_ROUTES[path] || (path === EVENT_PRICE_GUIDE_PATH ? EVENT_PRICE_GUIDE_FALLBACK : null);
+  if (guide) {
     return {
       type: "guide",
       path,
       indexable: true,
-      ...GUIDE_ROUTES[path],
+      ...guide,
       breadcrumb: [
         { name: "Guides", path: "/guides" },
-        { name: GUIDE_ROUTES[path].title.replace(" | TourTicketCompare", ""), path }
+        { name: guide.title.replace(" | TourTicketCompare", ""), path }
       ]
     };
   }

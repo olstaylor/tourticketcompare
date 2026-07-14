@@ -18,7 +18,7 @@ See also `docs/ADDING_ARTISTS.md` for field-level templates and the example plac
 | 4 | First `indexing_status`? | Always `review_required`. Promote to `indexable_with_substantial_content` only when `out.js` entry is confirmed — both must land in the same PR |
 | 5 | Files that change per phase? | See Section A |
 | 6 | Validation commands in order? | See Section E |
-| 7 | What must remain human-reviewed? | Browser URL confirmation; tour name from event page; affiliate programme membership |
+| 7 | What must remain human-reviewed? | Browser URL confirmation for each provider destination; tour name from event page; rights and commercial/link model |
 | 8 | Safest first batch size? | Shell phase: up to 20 shells per automated PR (no CTAs, noindex; `TM_SHELL_MAX_PER_RUN`). Promote: up to 20 artists per PR via `npm run artists:promote:batch` — every artist gets a browser spot-check tick row in the PR-body checklist, and merge is blocked until all rows are ticked (single-artist `npm run artist:promote` still works) |
 | 9 | Exact Claude prompt to propose (not implement) the next artist? | See Section B |
 
@@ -53,7 +53,7 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 - [ ] Touring activity confirmed from an accepted verification source (URL and date recorded)
 - [ ] Ticketmaster artist page URL identified and opened in a browser — artist is present on TM
 - [ ] Destination hostname is in `PROVIDERS.ticketmaster.allowedDestinationHosts` in `functions/api/out.js`
-- [ ] Affiliate programme membership confirmed for Ticketmaster (Impact or direct)
+- [ ] Ticketmaster artist URL is browser-verified as a plain, unmonetized destination; if SeatGeek is included, its performer page is captured from the registry-verified SeatGeek performer ID and its approved affiliate configuration is confirmed
 - [ ] Factual summary drafted from confirmed public sources — no invented biographical claims
 - [ ] `BACKLOG.md` does not park this specific artist
 - [ ] No other artist-addition PR is open or in progress
@@ -105,7 +105,7 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 
 | File | What changes |
 |------|-------------|
-| `public/data/artists.json` | Update: `indexable_with_substantial_content`, `verified_provider_count: 1`, `verified_providers: ["ticketmaster"]`, `last_verified_at: <today>` |
+| `public/data/artists.json` | Update: `indexable_with_substantial_content`; for the preferred batch path, set `verified_provider_count: 2`, `verified_providers: ["ticketmaster", "seatgeek"]`, and `last_verified_at: <today>` |
 | `public/data/catalog.json` | Update `ticket_links[]` entry: `verified: true`, `public_enabled: true`, `affiliate_enabled: true`, `last_checked_at: <today>` |
 | `functions/api/out.js` | **PROTECTED** — add `"<slug>:ticketmaster"` entry to `VERIFIED_TICKET_LINKS` only after browser confirmation. Plain `https://www.ticketmaster.com/...` URL is acceptable; no pre-minted Impact shortlink required |
 | `data/provider-identities.json` | Add a `review_status: "verified"` entry for the slug with the same browser-confirmed `ticketmaster_artist_url`, the `ticketmaster_attraction_id`, and `sync_enabled: true`. **Required** — the `validate:cta-provider-state` guard (run by `test:mvp`) FAILs any artist CTA not backed by a verified registry identity. The promote scaffold does **not** generate this; add it by hand. |
@@ -356,7 +356,7 @@ git diff --check
 
 5. **`tour_name` confirmed from the event page, not the URL.** URL slugs like `artist-the-tour-name-city-venue` are evidence, not proof. Open the event page and read the displayed tour name.
 
-6. **Batch size: 1 artist per Promote or Events PR** on this single-artist path. Never promote two artists concurrently, and never add events for artist B in the same PR as work for artist A. The batch onboarding path (`npm run artists:onboard:propose` → shells → `npm run artists:promote:batch`) may carry up to 20 artists per PR because it enforces a per-artist human browser spot-check checklist in the PR body — see "Batch onboarding" below.
+6. **Batch size: 1 artist per Promote or Events PR** on this single-artist path. Never promote two artists concurrently, and never add events for artist B in the same PR as work for artist A. The batch onboarding path (`npm run artists:onboard:propose` → shells → `npm run artists:promote:batch`) is preferred for roster growth. It captures SeatGeek performer IDs/URLs and Ticketmaster attraction IDs/URLs from the APIs, requires human browser spot-checks for every destination, and may carry up to 20 artists per PR because it enforces a per-artist checklist in the PR body — see "Batch onboarding" below.
 
 7. **`shows.js` and `signup.js` are derived — never hand-edit per artist.** `ARTIST_LINKS_BY_PROVIDER` in `functions/api/shows.js` is built at module load from `VERIFIED_TICKET_LINKS` in `out.js`; the signup allowlist in `functions/api/signup.js` is loaded from `artists.json` at runtime. `validate-artist.mjs` (`npm run artist:check`, accepts multiple slugs) verifies the derived shows.js map per artist-level provider for promoted artists.
 
@@ -366,7 +366,7 @@ git diff --check
 
 Two supported paths, both fully human-gated:
 
-- **Batch onboarding (preferred for roster growth):** `npm run artists:onboard:propose` builds an API-captured SeatGeek/Ticketmaster identity manifest for a supplied name list; after human review, shells are created and `npm run artists:promote:batch` (dry-run by default; `--write` to apply) promotes up to 20 artists per PR with a per-artist human browser spot-check checklist in the PR body. Identity URLs are always API-captured (registry-verified ids), never constructed from names.
+- **Batch onboarding (preferred for roster growth):** `npm run artists:onboard:propose` builds an API-captured SeatGeek/Ticketmaster identity manifest for a supplied name list; after human review, shells are created and `npm run artists:promote:batch` (dry-run by default; `--write` to apply) promotes up to 20 artists per PR with a per-artist human browser spot-check checklist in the PR body. Identity URLs are always API-captured (registry-verified IDs), never constructed from names. The batch writer publishes SeatGeek artist links and adds the plain Ticketmaster link when a verified Ticketmaster destination is present; Vivid Seats is not an artist-level onboarding provider.
 - **Single-artist path (this doc):** the phased Proposal → Shell → Promote → Events process below, using `npm run artist:promote -- --slug <slug>` (accepts `--url` with a browser-verified URL) and `npm run artists:apply-preview` for event batches.
 - **New events for existing artists** arrive via the scheduled discovery PR (`tm-new-shows-pr.yml`, see `docs/PROVIDER_SYNC.md`); SeatGeek event-URL enrichment via `docs/SEATGEEK_DISCOVERY.md`.
 

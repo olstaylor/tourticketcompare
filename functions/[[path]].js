@@ -1281,27 +1281,41 @@ function safeShowTicketUrl(value) {
 }
 
 function eventTicketHref(show, provider) {
+  const showId = show?.id ? String(show.id) : "";
+  if (!showId) return null;
   if (provider === "ticketmaster") {
-    return show?.id ? `/api/out?${new URLSearchParams({ showId: show.id, provider }).toString()}` : null;
+    return `/api/out?${new URLSearchParams({ showId, provider }).toString()}`;
   }
-  if (provider === "seatgeek") return safeSeatGeekTicketUrl(show?.seatgeek_url);
-  if (provider === "vivid-seats") return safeVividSeatsTicketUrl(show?.vividseats_url);
-  const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
-  if (marketplace) return safeImpactMarketplaceTicketUrl(show?.[marketplace.urlField], marketplace);
-  return null;
+  // Monetized providers route through /api/out so the click is Impact-tracked
+  // server-side (no raw affiliate URLs in the page). Only emit the tracked link
+  // when a valid stored destination exists, so the CTA stays suppressed exactly
+  // as before — out.js re-resolves the stored URL and Impact-wraps it.
+  let hasDestination = false;
+  if (provider === "seatgeek") {
+    hasDestination = Boolean(safeSeatGeekTicketUrl(show?.seatgeek_url));
+  } else if (provider === "vivid-seats") {
+    hasDestination = Boolean(safeVividSeatsTicketUrl(show?.vividseats_url));
+  } else {
+    const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
+    if (marketplace) hasDestination = Boolean(safeImpactMarketplaceTicketUrl(show?.[marketplace.urlField], marketplace));
+  }
+  if (!hasDestination) return null;
+  return `/api/out?${new URLSearchParams({ showId, provider }).toString()}`;
 }
 
 function artistProviderHref(artist, item, surface) {
   const provider = slugify(item?.provider);
-  if (provider === "ticketmaster") {
-    return `/api/out?${new URLSearchParams({
-      artistSlug: artist.slug,
-      provider,
-      sourcePath: `/artists/${artist.slug}`,
-      surface
-    }).toString()}`;
-  }
-  return safeShowTicketUrl(item?.url);
+  // Ticketmaster stays a plain /api/out redirect; monetized artist links route
+  // through /api/out too so the click is Impact-tracked server-side. Only emit a
+  // link when a verified destination exists — out.js resolves the tracked
+  // performer-page URL from VERIFIED_TICKET_LINKS.
+  if (provider !== "ticketmaster" && !safeShowTicketUrl(item?.url)) return null;
+  return `/api/out?${new URLSearchParams({
+    artistSlug: artist.slug,
+    provider,
+    sourcePath: `/artists/${artist.slug}`,
+    surface
+  }).toString()}`;
 }
 
 function safeSeatGeekTicketUrl(value) {

@@ -1983,7 +1983,7 @@ export async function onRequest(context) {
   const injected = injectRoute(html, route, url.origin, catalog, renderEvents, guideContent, env);
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
-  headers.set("Cache-Control", "public, max-age=300");
+  headers.set("Cache-Control", "no-cache, max-age=0, must-revalidate");
   applySecurityHeaders(headers);
   return new Response(injected, { status: 200, headers });
 }

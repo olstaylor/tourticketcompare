@@ -923,7 +923,7 @@ function providerDisplayRank(providerSlug) {
 // shows a dead button. Plain Ticketmaster links have no config requirement.
 function availableArtistProviderLinks(catalog, artist, providerAvailability = {}) {
   return ticketLinksForArtist(catalog, artist.slug)
-    .filter((item) => Boolean(safeShowTicketUrl(item?.url)))
+    .filter((item) => slugify(item.provider) === "ticketmaster" || Boolean(safeShowTicketUrl(item?.url)))
     .filter((item) => {
       const provider = slugify(item.provider);
       if (provider === "seatgeek") return providerAvailability.seatgeek === true;
@@ -944,7 +944,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
       const provider = slugify(item.provider);
       const displayName = PROVIDER_DISPLAY_NAMES[provider] || item.provider;
       const label = "Check provider";
-      const destination = safeShowTicketUrl(item.url);
+      const destination = artistProviderHref(artist, item, surface);
       const verificationNote = providerVerificationNote(item);
       return `<article class="provider-card"><p class="eyebrow">Artist-level provider page</p><h3>${escapeHtml(displayName)}</h3>${anchor(
         label,
@@ -1098,13 +1098,28 @@ function safeShowTicketUrl(value) {
   }
 }
 
-function directEventTicketUrl(show, provider) {
+function eventTicketHref(show, provider) {
+  if (provider === "ticketmaster") {
+    return show?.id ? `/api/out?${new URLSearchParams({ showId: show.id, provider }).toString()}` : null;
+  }
   if (provider === "seatgeek") return safeSeatGeekTicketUrl(show?.seatgeek_url);
   if (provider === "vivid-seats") return safeVividSeatsTicketUrl(show?.vividseats_url);
   const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
   if (marketplace) return safeImpactMarketplaceTicketUrl(show?.[marketplace.urlField], marketplace);
-  if (provider === "ticketmaster") return safeShowTicketUrl(show?.ticketmaster_url);
   return null;
+}
+
+function artistProviderHref(artist, item, surface) {
+  const provider = slugify(item?.provider);
+  if (provider === "ticketmaster") {
+    return `/api/out?${new URLSearchParams({
+      artistSlug: artist.slug,
+      provider,
+      sourcePath: `/artists/${artist.slug}`,
+      surface
+    }).toString()}`;
+  }
+  return safeShowTicketUrl(item?.url);
 }
 
 function safeSeatGeekTicketUrl(value) {
@@ -1310,16 +1325,16 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     const sgAvailable = seatGeekOutAvailable(show, seatGeekAvailable);
     const vsAvailable = vividSeatsOutAvailable(show, vividSeatsAvailable);
     const ctas = [];
-    if (sgAvailable) ctas.push({ provider: "seatgeek", href: directEventTicketUrl(show, "seatgeek"), primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
-    if (vsAvailable) ctas.push({ provider: "vivid-seats", href: directEventTicketUrl(show, "vivid-seats"), primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+    if (sgAvailable) ctas.push({ provider: "seatgeek", href: eventTicketHref(show, "seatgeek"), primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
+    if (vsAvailable) ctas.push({ provider: "vivid-seats", href: eventTicketHref(show, "vivid-seats"), primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
     for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
       const publishable = show?.impactMarketplacePublishable?.[provider.slug] ?? providerEventPublishable(show, provider.slug);
-      const href = directEventTicketUrl(show, provider.slug);
+      const href = eventTicketHref(show, provider.slug);
       if (marketplaceAvailability[provider.slug] && publishable && href) {
         ctas.push({ provider: provider.slug, href, primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
       }
     }
-    if (tmAvailable) ctas.push({ provider: "ticketmaster", href: directEventTicketUrl(show, "ticketmaster"), primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
+    if (tmAvailable) ctas.push({ provider: "ticketmaster", href: eventTicketHref(show, "ticketmaster"), primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
     if (ctas.length > 1) {
       const buttons = ctas
         .map((cta, index) => anchor(index === 0 ? cta.primaryLabel : cta.secondaryLabel, cta.href, index === 0 ? "button button-primary" : "button button-secondary", 'target="_blank" rel="noopener"'))
@@ -1453,7 +1468,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const emptyStateProviderCta = primaryProviderLink
       ? {
           name: PROVIDER_DISPLAY_NAMES[slugify(primaryProviderLink.provider)] || primaryProviderLink.provider,
-          href: safeShowTicketUrl(primaryProviderLink.url)
+          href: artistProviderHref(artist, primaryProviderLink, "artist_page")
         }
       : null;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(

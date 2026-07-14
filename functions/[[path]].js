@@ -923,6 +923,7 @@ function providerDisplayRank(providerSlug) {
 // shows a dead button. Plain Ticketmaster links have no config requirement.
 function availableArtistProviderLinks(catalog, artist, providerAvailability = {}) {
   return ticketLinksForArtist(catalog, artist.slug)
+    .filter((item) => Boolean(safeShowTicketUrl(item?.url)))
     .filter((item) => {
       const provider = slugify(item.provider);
       if (provider === "seatgeek") return providerAvailability.seatgeek === true;
@@ -943,17 +944,13 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
       const provider = slugify(item.provider);
       const displayName = PROVIDER_DISPLAY_NAMES[provider] || item.provider;
       const label = "Check provider";
-      const params = new URLSearchParams({
-        artistSlug: artist.slug,
-        provider,
-        sourcePath: `/artists/${artist.slug}`,
-        surface
-      });
+      const destination = safeShowTicketUrl(item.url);
       const verificationNote = providerVerificationNote(item);
       return `<article class="provider-card"><p class="eyebrow">Artist-level provider page</p><h3>${escapeHtml(displayName)}</h3>${anchor(
         label,
-        `/api/out?${params.toString()}`,
-        "button button-primary"
+        destination,
+        "button button-primary",
+        'target="_blank" rel="noopener"'
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
@@ -1099,6 +1096,15 @@ function safeShowTicketUrl(value) {
   } catch (error) {
     return null;
   }
+}
+
+function directEventTicketUrl(show, provider) {
+  if (provider === "seatgeek") return safeSeatGeekTicketUrl(show?.seatgeek_url);
+  if (provider === "vivid-seats") return safeVividSeatsTicketUrl(show?.vividseats_url);
+  const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
+  if (marketplace) return safeImpactMarketplaceTicketUrl(show?.[marketplace.urlField], marketplace);
+  if (provider === "ticketmaster") return safeShowTicketUrl(show?.ticketmaster_url);
+  return null;
 }
 
 function safeSeatGeekTicketUrl(value) {
@@ -1303,27 +1309,27 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     const tmAvailable = Boolean(validUrl && show.publishable);
     const sgAvailable = seatGeekOutAvailable(show, seatGeekAvailable);
     const vsAvailable = vividSeatsOutAvailable(show, vividSeatsAvailable);
-    const outHref = (provider) => `/api/out?${new URLSearchParams({ showId: show.id, provider }).toString()}`;
     const ctas = [];
-    if (sgAvailable) ctas.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
-    if (vsAvailable) ctas.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+    if (sgAvailable) ctas.push({ provider: "seatgeek", href: directEventTicketUrl(show, "seatgeek"), primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
+    if (vsAvailable) ctas.push({ provider: "vivid-seats", href: directEventTicketUrl(show, "vivid-seats"), primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
     for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
       const publishable = show?.impactMarketplacePublishable?.[provider.slug] ?? providerEventPublishable(show, provider.slug);
-      if (marketplaceAvailability[provider.slug] && publishable && safeImpactMarketplaceTicketUrl(show?.[provider.urlField], provider)) {
-        ctas.push({ provider: provider.slug, primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
+      const href = directEventTicketUrl(show, provider.slug);
+      if (marketplaceAvailability[provider.slug] && publishable && href) {
+        ctas.push({ provider: provider.slug, href, primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
       }
     }
-    if (tmAvailable) ctas.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
+    if (tmAvailable) ctas.push({ provider: "ticketmaster", href: directEventTicketUrl(show, "ticketmaster"), primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
     if (ctas.length > 1) {
       const buttons = ctas
-        .map((cta, index) => anchor(index === 0 ? cta.primaryLabel : cta.secondaryLabel, outHref(cta.provider), index === 0 ? "button button-primary" : "button button-secondary", 'target="_blank" rel="noopener"'))
+        .map((cta, index) => anchor(index === 0 ? cta.primaryLabel : cta.secondaryLabel, cta.href, index === 0 ? "button button-primary" : "button button-secondary", 'target="_blank" rel="noopener"'))
         .join("");
       ctaHtml = `<div class="cta-group">${buttons}</div>`;
     } else if (ctas.length === 1) {
       // A single available provider gets one full-width "View Tickets"
       // button — with nothing to compare, the "Check <Provider>" framing
       // doesn't apply. Keep in sync with renderShowCard in public/app.js.
-      ctaHtml = anchor("View Tickets", outHref(ctas[0].provider), "button button-primary button-full", 'target="_blank" rel="noopener"');
+      ctaHtml = anchor("View Tickets", ctas[0].href, "button button-primary button-full", 'target="_blank" rel="noopener"');
     }
   }
 
@@ -1447,12 +1453,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const emptyStateProviderCta = primaryProviderLink
       ? {
           name: PROVIDER_DISPLAY_NAMES[slugify(primaryProviderLink.provider)] || primaryProviderLink.provider,
-          href: `/api/out?${new URLSearchParams({
-            artistSlug: artist.slug,
-            provider: slugify(primaryProviderLink.provider),
-            sourcePath: `/artists/${artist.slug}`,
-            surface: "artist_page"
-          }).toString()}`
+          href: safeShowTicketUrl(primaryProviderLink.url)
         }
       : null;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
@@ -1684,6 +1685,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog))}</script>`
   );
   next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
+  next = next.replace("</body>", '<script src="/impact-publisher-tag.js?v=20260714a" defer></script></body>');
   if (route.path === "/") {
     // Homepage-only progressive enhancement: ttc-home.js hydrates the #ttc-main
     // mount with the full redesigned homepage. Same-origin, so it satisfies the

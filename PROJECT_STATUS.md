@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-07-13. The cache-only price architecture is active: dedicated SeatGeek/Vivid Seats workflows and the shared Impact marketplace workflow write approved exact-event observations to D1, and `/api/shows` serves only lanes whose provider, URL, provenance, source, feature-flag, timestamp, and expiry gates pass. Vivid Seats, TicketNetwork, and StubHub International have active numeric-price lanes; Ticket Liquidator remains price-disabled because its catalog has no numeric `CurrentPrice`. SeatGeek requests succeed but return null pricing statistics, so entitlement remains the blocker (see Active risks). Earlier update history lives in git (`git log -- PROJECT_STATUS.md`).
+Last updated: 2026-07-14. The cache-only price architecture is active: dedicated SeatGeek/Vivid Seats workflows and the shared Impact marketplace workflow write approved exact-event observations to D1, and `/api/shows` serves only lanes whose provider, URL, provenance, source, feature-flag, timestamp, and expiry gates pass. Vivid Seats, TicketNetwork, and StubHub International have active numeric-price lanes; Ticket Liquidator remains price-disabled because its catalog has no numeric `CurrentPrice`. SeatGeek requests succeed but return null pricing statistics, so entitlement remains the blocker (see Active risks). Earlier update history lives in git (`git log -- PROJECT_STATUS.md`).
 
 This file is the current-state snapshot—the **only** place live state (counts, per-artist status, active risks) is recorded. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. `docs/DOCS_MAINTENANCE.md` explains ownership and drift checks. Superseded material lives in git history, not in parallel archive or handover documents.
 
@@ -17,7 +17,7 @@ This file is the current-state snapshot—the **only** place live state (counts,
 
 ## Current data
 
-Verified by direct inspection of `public/data/` and `functions/api/out.js` on 2026-07-13:
+Verified by direct inspection of `public/data/` and `functions/api/out.js` on 2026-07-14:
 
 - `public/data/artists.json`: **16 records — all 16 `indexable_with_substantial_content`**, all with `verified_providers: ["ticketmaster","seatgeek"]` (only 3 of the 16 — beyonce, raye, tate-mcrae — carry 0 events and render artist-level CTAs only; `charli-xcx` and `rosalia` now have live events, see table below).
 - `public/data/catalog.json`: 16 artist records; 0 tour records; **32 ticket_links rows** (16 ticketmaster + 16 seatgeek artist pages); `providers.seatgeek.public_enabled: true`.

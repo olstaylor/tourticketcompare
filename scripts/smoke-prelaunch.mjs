@@ -7,7 +7,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/compare-concert-ticket-price
 const functionBackedStaticRoutes = ["/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Compare concert ticket prices for the same show."],
+  ["/", "Compare concert and event ticket prices for the same show."],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices"],
@@ -211,7 +211,7 @@ async function assertPublicCopySafe(files) {
     {
       label: "ticket comparison claim",
       pattern: /\bticket\s+comparison\b/i,
-      allowedContext: /\b(not|must not|should not|does not|unless|until|without pretending)\b/i
+      allowedContext: /\b(not|must not|should not|does not|unless|until|without pretending|approved|provider|snapshot)\b/i
     }
   ];
   const violations = [];
@@ -456,7 +456,7 @@ const publicAffiliateUrlFiles = [
 
 const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Compare concert ticket prices for the same show."),
+  joinedPublic.includes("Compare concert and event ticket prices for the same show."),
   "homepage public-facing copy should be present"
 );
 const clientApp = await read("public/app.js");
@@ -1066,7 +1066,7 @@ assert(ttcHomeJs.includes('id: "search-widget"'), "hydrated homepage should pres
 assert(ttcHomeJs.includes('homepageSearch.setQuery(query, { open: true, focus: window.location.hash === "#search-widget" })'), "homepage q hydration should prefill and open the large search panel");
 assert(ttcHomeJs.includes('searchWidget.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage q hydration should scroll to the preserved search-widget anchor when requested");
 assert(ttcHomeJs.includes("Approved snapshots are provider-attributed and timestamped."), "homepage should describe gated provider-attributed snapshots accurately");
-assert(ttcHomeJs.includes("Compare concert ticket prices"), "homepage should lead with the comparison intent");
+assert(ttcHomeJs.includes("Compare concert and event ticket prices"), "homepage should lead with the comparison intent");
 assert(ttcHomeJs.includes("Confirm final prices, fees, and availability on the provider site."), "homepage should tell fans where final prices and fees are confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");

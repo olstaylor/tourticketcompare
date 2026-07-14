@@ -23,8 +23,8 @@ Verified by direct inspection of `public/data/` and `functions/api/out.js` on 20
 - `public/data/catalog.json`: 16 artist records; 0 tour records; **32 ticket_links rows** (16 ticketmaster + 16 seatgeek artist pages); `providers.seatgeek.public_enabled: true`.
 - `public/data/events.json`: **397 events**; 256 carry stored SeatGeek event URLs and 203 carry verified SeatGeek provenance; 218 carry verified Vivid Seats event URLs/provenance. **36 are `needs_recheck`**: 9 retain a standalone SeatGeek CTA, 6 retain a standalone Vivid Seats CTA, and 21 have neither independently verified resale provider and remain fully CTA-suppressed.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
-- `public/data/guides-content.json`: **16 guide content entries** (topic guides; not per-artist).
-- `functions/_route-metadata.js`: **16 guide routes** plus trust/static route metadata.
+- `public/data/guides-content.json`: **17 guide content entries** (topic guides; not per-artist).
+- `functions/_route-metadata.js`: **17 guide routes** plus trust/static route metadata.
 - `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **32 artist-level entries** — one plain `<slug>:ticketmaster` and one Impact-wrapped `<slug>:seatgeek` per indexable artist. There are no artist-level Vivid Seats entries; live event-level Vivid redirects resolve from verified event data.
 - `data/provider-identities.json`: all 16 entries verified with `ticketmaster_attraction_id`, `ticketmaster_artist_url`, `seatgeek_performer_id`, and `seatgeek_artist_url`.
 
@@ -120,7 +120,7 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 
 - Homepage, the `/compare-concert-ticket-prices` comparison hub, and trust/legal pages.
 - Artist index plus all 16 indexable artist pages above (3 of them — beyonce, raye, tate-mcrae — currently have no event records and render artist-level CTAs only).
-- 16 guide pages with server-rendered content.
+- 17 guide pages with server-rendered content.
 - Verified SeatGeek CTAs, **artist-level and event-level**, as the primary CTA — routed through `/api/out` with Impact tracking (base tracking URL or API mint). Artist-level entries are performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for registry-verified performer ids. Currently 256/397 events carry a stored `seatgeek_url` and 203 carry verified SeatGeek provenance; enrichment + identity-anchored verification run nightly via `seatgeek-cta-sync.yml` (first run merged 2026-07-08, PR #356; see Daily automation), including the standalone SeatGeek CTA path for `needs_recheck` events (9 live today); see `docs/SEATGEEK_DISCOVERY.md`.
 - Verified plain Ticketmaster links (artist- and event-level) — unmonetized, rendered after the affiliate providers and labeled "Check Ticketmaster". No Impact wrapping, no Publisher Tag, no evyy.net shortlinks.
 - Verified Vivid Seats CTAs at event level: 218 verified destinations are live and Impact-wrapped. Six `needs_recheck` rows retain standalone Vivid coverage through provider-specific provenance. Artist-level Vivid Seats entries remain unsupported; the sync workflow runs nightly at 05:30 UTC.

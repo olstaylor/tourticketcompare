@@ -284,8 +284,8 @@
     const chips = DATA.artists.filter(artist => artist && artist.slug).slice(0, 5);
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
-      h("h1", { class: "ttc-hero__h1", html: 'Compare concert ticket prices <em>for the same show.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["Compare concert ticket prices using available SeatGeek and Vivid Seats snapshots for the same show. Confirm final prices, fees, and availability on the provider site."]),
+      h("h1", { class: "ttc-hero__h1", html: 'Compare concert and event ticket prices <em>for the same show.</em>' }),
+      h("p", { class: "ttc-hero__sub" }, ["Compare concert and event ticket prices using available SeatGeek and Vivid Seats snapshots for the same show. Confirm final prices, fees, and availability on the provider site."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug }, [artist.name]))])

@@ -1827,7 +1827,11 @@ assert(renderedEventSeatGeekHrefs.length > 0, "regression check should find dire
 assert(renderedEventSeatGeekHrefs.every((href) => expectedRenderedSeatGeekHrefs.includes(href)), "rendered SeatGeek CTAs must use only verified direct event destinations");
 assert(renderedEventSeatGeekHrefs.length <= expectedRenderedSeatGeekHrefs.length, "rendered SeatGeek CTA count must not exceed the verified event set");
 assert(allRenderedSeatGeekHrefs.every((href) => href.startsWith("https://") && !href.includes("/api/out")), "rendered SeatGeek CTAs must be direct links for Publisher Tag transformation");
-assert(!serverMorganWithSeatGeek.text.includes("/api/out?showId="), "public show cards must not route normal ticket actions through /api/out");
+const renderedOutHrefs = [...serverMorganWithSeatGeek.text.matchAll(/href="([^"]+)"/g)]
+  .map((match) => decodeHtmlEntities(match[1]))
+  .filter((href) => href.startsWith("/api/out?"));
+assert(renderedOutHrefs.length > 0, "Ticketmaster CTAs should retain the safe /api/out redirect");
+assert(renderedOutHrefs.every((href) => new URL(href, "https://tourticketcompare.com").searchParams.get("provider") === "ticketmaster"), "only Ticketmaster CTAs may use /api/out; monetised providers must remain direct for Publisher Tag transformation");
 const renderedSeatGeekShowIds = seatGeekEligibleShows.map((show) => show.id);
 
 // Provider panel: SeatGeek card renders before the Ticketmaster card when

@@ -805,28 +805,29 @@ function renderSearchResultItem(type, data) {
     const loc = [place, data.venue].filter(Boolean).join(" · ");
     nameEl.textContent = data.event_name || data.artist_name || "Verified show";
     desc.textContent = [dateStr, loc, data.tour_name].filter(Boolean).join(" — ");
-    const showId = String(data.id || "").trim();
     const eventCtaCandidates = [
       {
         provider: "seatgeek",
         label: "Open verified SeatGeek event link",
+        href: directEventTicketUrl(data, "seatgeek"),
         available: providerEventPublishable(data, "seatgeek") && Boolean(safeSeatGeekEventUrl(data.seatgeek_url))
       },
       {
         provider: "vivid-seats",
         label: "Open verified Vivid Seats event link",
+        href: directEventTicketUrl(data, "vivid-seats"),
         available: providerEventPublishable(data, "vivid-seats") && Boolean(safeVividSeatsEventUrl(data.vividseats_url))
       },
       {
         provider: "ticketmaster",
         label: "Open verified event link",
+        href: directEventTicketUrl(data, "ticketmaster"),
         available: eventLinkPublishable(data) && Boolean(safeVerifiedEventUrl(data.ticketmaster_url))
       }
     ];
-    const eventCta = showId ? eventCtaCandidates.find((candidate) => candidate.available) : null;
+    const eventCta = eventCtaCandidates.find((candidate) => candidate.available);
     if (eventCta) {
-      const params = new URLSearchParams({ showId, provider: eventCta.provider });
-      ctaHref = `/api/out?${params.toString()}`;
+      ctaHref = eventCta.href;
       ctaLabel = eventCta.label;
     } else {
       ctaHref = `/artists/${slugify(data.artist_slug || "")}`;

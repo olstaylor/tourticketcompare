@@ -75,21 +75,17 @@ function normalizeProviderUrl(config, value) {
 function impactCredentials(config, env = process.env) {
   if (!config) throw new Error("Unknown Impact marketplace provider");
   const proxyUrl = clean(env.IMPACT_CATALOG_PROXY_URL, 2048);
-  const accountSid = clean(
-    env[`${config.envPrefix}_ACCOUNT_SID`] || env.IMPACT_SEATGEEK_ACCOUNT_SID || env.IMPACT_ACCOUNT_SID,
-    255
-  );
-  const authToken = clean(
-    env[`${config.envPrefix}_AUTH_TOKEN`] || env.IMPACT_SEATGEEK_AUTH_TOKEN || env.IMPACT_AUTH_TOKEN,
-    2000
-  );
+  // All active catalog access uses the approved SeatGeek publisher account.
+  // Provider-specific and retired generic credentials are intentionally ignored.
+  const accountSid = clean(env.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
+  const authToken = clean(env.IMPACT_SEATGEEK_AUTH_TOKEN, 2000);
   const programId = clean(
     env[`${config.envPrefix}_CAMPAIGN_ID`] || env[`${config.envPrefix}_PROGRAM_ID`] || config.defaultProgramId,
     120
   );
   const catalogId = clean(env[`${config.envPrefix}_CATALOG_ID`] || config.defaultCatalogId, 120);
   if ((!accountSid || !authToken) && !proxyUrl) {
-    throw new Error(`${config.envPrefix} credentials, IMPACT_SEATGEEK credentials, or IMPACT_CATALOG_PROXY_URL are required`);
+    throw new Error(`IMPACT_SEATGEEK credentials or IMPACT_CATALOG_PROXY_URL are required`);
   }
   if (!programId || !catalogId) throw new Error(`${config.envPrefix} campaign and catalog IDs are required`);
   return { accountSid, authToken, programId, catalogId, proxyUrl };

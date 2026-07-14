@@ -1810,24 +1810,25 @@ const sourceUrlFallbackEnv = {
 outResponse = await out(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&provider=ticketmaster`, "GET", null, sourceUrlFallbackEnv);
 assert(outResponse.status === 302, "showId /api/out should use a verified Ticketmaster source_url fallback when ticketmaster_url is missing");
 assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "source_url fallback should keep the exact verified Ticketmaster event URL");
-const renderedTicketmasterShowIds = [...serverMorganWithoutSeatGeek.text.matchAll(/showId=([^&"]+)&amp;provider=ticketmaster/g)].map((match) => decodeURIComponent(match[1]));
-assert(renderedTicketmasterShowIds.length > 0, "regression check should find rendered Morgan Wallen Ticketmaster CTA showIds");
-for (const showId of renderedTicketmasterShowIds) {
-  outResponse = await out(`/api/out?showId=${encodeURIComponent(showId)}&provider=ticketmaster`);
-  assert(outResponse.status === 302, `rendered Morgan Wallen Ticketmaster CTA for ${showId} should resolve through /api/out`);
-}
+const renderedTicketmasterHrefs = [...serverMorganWithoutSeatGeek.text.matchAll(/href="([^"]+)"/g)]
+  .map((match) => decodeHtmlEntities(match[1]))
+  .filter((href) => href.includes("ticketmaster.com"));
+assert(renderedTicketmasterHrefs.length > 0, "regression check should find rendered Morgan Wallen Ticketmaster destinations");
+assert(renderedTicketmasterHrefs.every((href) => href.startsWith("https://") && !href.includes("/api/out")), "rendered Ticketmaster CTAs must use direct verified destinations");
+
 const originalFetch = globalThis.fetch;
-const renderedSeatGeekShowIds = [...serverMorganWithSeatGeek.text.matchAll(/showId=([^&"]+)&amp;provider=seatgeek/g)].map((match) => decodeURIComponent(match[1]));
-const allRenderedSeatGeekHrefs = [...serverMorganWithSeatGeek.text.matchAll(/href="([^"]*provider=seatgeek[^"]*)"/g)].map((match) => decodeHtmlEntities(match[1]));
-const renderedSeatGeekHrefs = allRenderedSeatGeekHrefs.filter((href) => href.includes("showId="));
-const renderedArtistSeatGeekHrefs = allRenderedSeatGeekHrefs.filter((href) => href.includes("artistSlug="));
-const seatGeekEligibleShowIds = new Set(baseTrackingShowsJson.shows.filter((show) => show.provider_ctas?.seatgeek === true).map((show) => show.id));
-const expectedRenderedSeatGeekShowIds = renderedTicketmasterShowIds.filter((showId) => seatGeekEligibleShowIds.has(showId));
-assert(renderedSeatGeekShowIds.length > 0, "regression check should find rendered SeatGeek CTA showIds for SeatGeek-eligible rendered events");
-assert(JSON.stringify([...renderedSeatGeekShowIds].sort()) === JSON.stringify([...expectedRenderedSeatGeekShowIds].sort()), "regression check should find exactly the SeatGeek-eligible rendered showIds and no extra SeatGeek CTAs");
-assert(allRenderedSeatGeekHrefs.every((href) => href.startsWith("/api/out?") && href.includes("provider=seatgeek")), "rendered SeatGeek CTAs must route through /api/out instead of direct SeatGeek links");
-assert(renderedSeatGeekHrefs.length === renderedSeatGeekShowIds.length, "every event-level SeatGeek href must carry a showId");
-assert(renderedArtistSeatGeekHrefs.length === 1 && renderedArtistSeatGeekHrefs[0].includes("artistSlug=morgan-wallen"), "the artist-level SeatGeek performer-page CTA must render exactly once through /api/out when configured");
+const allRenderedSeatGeekHrefs = [...serverMorganWithSeatGeek.text.matchAll(/href="([^"]+)"/g)]
+  .map((match) => decodeHtmlEntities(match[1]))
+  .filter((href) => href.includes("seatgeek.com"));
+const seatGeekEligibleShows = baseTrackingShowsJson.shows.filter((show) => show.provider_ctas?.seatgeek === true);
+const expectedRenderedSeatGeekHrefs = seatGeekEligibleShows.map((show) => show.seatgeek_url);
+const renderedEventSeatGeekHrefs = allRenderedSeatGeekHrefs.filter((href) => expectedRenderedSeatGeekHrefs.includes(href));
+assert(renderedEventSeatGeekHrefs.length > 0, "regression check should find direct SeatGeek CTA destinations for SeatGeek-eligible events");
+assert(JSON.stringify([...renderedEventSeatGeekHrefs].sort()) === JSON.stringify([...expectedRenderedSeatGeekHrefs].sort()), "rendered SeatGeek CTAs must match the verified direct event destinations exactly");
+assert(allRenderedSeatGeekHrefs.every((href) => href.startsWith("https://") && !href.includes("/api/out")), "rendered SeatGeek CTAs must be direct links for Publisher Tag transformation");
+assert(!serverMorganWithSeatGeek.text.includes("/api/out?showId="), "public show cards must not route normal ticket actions through /api/out");
+const renderedSeatGeekShowIds = seatGeekEligibleShows.map((show) => show.id);
+
 // Provider panel: SeatGeek card renders before the Ticketmaster card when
 // configured, and not at all when unconfigured.
 const sgCardIdx = serverMorganWithSeatGeek.text.indexOf("<h3>SeatGeek</h3>");

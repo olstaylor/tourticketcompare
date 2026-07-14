@@ -745,6 +745,7 @@ function renderComparisonTrustPanel(events = []) {
 
 function comparisonHubFaqEntries() {
   return [
+    ["What is a ticket comparison site?", "A ticket comparison site helps you review options from ticket providers for the same event. TourTicketCompare provides checked links and, where approved data is available, timestamped listed-price snapshots; confirm the current seats, fees, availability and final total on the provider site."],
     ["What is the best way to compare concert ticket prices?", "Start with the exact artist, city, venue and date, then compare the final checkout total on trusted ticket sites. Check seat location, ticket type, delivery timing, restrictions and all service fees before buying."],
     ["Why are concert ticket prices different on each site?", "Prices can differ because sellers, seat locations, demand, availability, timing before the event, service fees and primary versus resale inventory are not the same on every ticket site."],
     ["Do resale ticket prices include fees?", "Sometimes fees are included early and sometimes they appear later in checkout. Always review the final provider checkout total, including service, delivery, tax and handling fees, before paying."],

@@ -20,12 +20,10 @@ export function impactCredentialSet(value) {
 
 export function impactConfig(env = {}, credentialSet = "shared") {
   const selectedCredentialSet = impactCredentialSet(credentialSet);
-  const accountSid = String(selectedCredentialSet === "seatgeek"
-    ? env.IMPACT_SEATGEEK_ACCOUNT_SID || ""
-    : env.IMPACT_ACCOUNT_SID || "").trim();
-  const authToken = String(selectedCredentialSet === "seatgeek"
-    ? env.IMPACT_SEATGEEK_AUTH_TOKEN || ""
-    : env.IMPACT_AUTH_TOKEN || "").trim();
+  // "shared" remains a backwards-compatible API label, but every active
+  // Impact request uses the approved SeatGeek publisher account.
+  const accountSid = String(env.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim();
+  const authToken = String(env.IMPACT_SEATGEEK_AUTH_TOKEN || "").trim();
   const apiBase = String(env.IMPACT_API_BASE_URL || DEFAULT_IMPACT_API_BASE).replace(/\/+$/, "");
   return {
     accountSid,
@@ -54,9 +52,7 @@ export function missingCredentialsPayload(feature, credentialSet = "shared") {
     status: "missing_credentials",
     source: feature,
     credentialSet: selectedCredentialSet,
-    message: selectedCredentialSet === "seatgeek"
-      ? "Set IMPACT_SEATGEEK_ACCOUNT_SID and IMPACT_SEATGEEK_AUTH_TOKEN in Cloudflare Pages to test the SeatGeek impact.com account."
-      : "Set IMPACT_ACCOUNT_SID and IMPACT_AUTH_TOKEN in Cloudflare Pages to enable this server-side impact.com endpoint."
+    message: "Set IMPACT_SEATGEEK_ACCOUNT_SID and IMPACT_SEATGEEK_AUTH_TOKEN in Cloudflare Pages to enable this server-side impact.com endpoint."
   };
 }
 

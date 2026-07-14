@@ -46,16 +46,11 @@ export function impactMarketplaceRuntimeConfig(env = {}, provider) {
   const definition = PROVIDERS[slug];
   if (!definition) return null;
 
-  const accountSid = clean(
-    env?.[`${definition.envPrefix}_ACCOUNT_SID`] ||
-    env?.IMPACT_SEATGEEK_ACCOUNT_SID ||
-    env?.IMPACT_ACCOUNT_SID
-  );
-  const authToken = clean(
-    env?.[`${definition.envPrefix}_AUTH_TOKEN`] ||
-    env?.IMPACT_SEATGEEK_AUTH_TOKEN ||
-    env?.IMPACT_AUTH_TOKEN
-  );
+  // All active marketplace programs run through the approved SeatGeek
+  // publisher account. Provider-specific and retired Ticketmaster credentials
+  // are deliberately ignored.
+  const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID);
+  const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN);
   const programId = clean(
     env?.[`${definition.envPrefix}_CAMPAIGN_ID`] ||
     env?.[`${definition.envPrefix}_PROGRAM_ID`] ||

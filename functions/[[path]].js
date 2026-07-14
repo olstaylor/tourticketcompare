@@ -534,15 +534,12 @@ function renderArtistLinks(catalog, events = []) {
     .map((artist) => {
       const status = artistCardStatus(catalog, artist, events);
       const showSummary = status.pending ? null : upcomingVerifiedShowSummary(events, artist.slug);
-      const descriptionHtml = artist.short_description
-        ? `<p class="muted">${escapeHtml(artist.short_description)}</p>`
-        : "";
       return `<article class="${status.pending ? "artist-card is-pending" : "artist-card"}"><h3>${escapeHtml(
         artist.name
-      )}</h3>${descriptionHtml}<div class="artist-status-row"><p class="${status.badgeClass}">${escapeHtml(
+      )}</h3><div class="artist-status-row"><p class="${status.badgeClass}">${escapeHtml(
         status.badge
-      )}</p><p class="status-chip-detail">${escapeHtml(status.detail)}</p></div><p class="card-status">${escapeHtml(
-        showSummary || status.cardStatus
+      )}</p></div><p class="card-status">${escapeHtml(
+        showSummary || status.detail
       )}</p>${anchor(status.ctaLabel, `/artists/${artist.slug}`, status.ctaClass)}</article>`;
     })
     .join("")}</div>`;
@@ -1160,16 +1157,16 @@ function clean(value, max = 255) {
 
 function isSeatGeekConfigured(env = {}) {
   const impactSeatGeekBaseTrackingUrl = clean(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL, 2048);
-  const impactSeatGeekAccountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
-  const impactSeatGeekAuthToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+  const impactSeatGeekAccountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
+  const impactSeatGeekAuthToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
   const impactSeatGeekProgramId = clean(env?.IMPACT_SEATGEEK_CAMPAIGN_ID || env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
   return Boolean(impactSeatGeekBaseTrackingUrl || (impactSeatGeekAccountSid && impactSeatGeekAuthToken && impactSeatGeekProgramId));
 }
 
 function isVividSeatsConfigured(env = {}) {
   const impactVividSeatsBaseTrackingUrl = clean(env?.IMPACT_VIVIDSEATS_BASE_TRACKING_URL, 2048);
-  const impactVividSeatsAccountSid = clean(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
-  const impactVividSeatsAuthToken = clean(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+  const impactVividSeatsAccountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
+  const impactVividSeatsAuthToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
   const impactVividSeatsProgramId = clean(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID || env?.IMPACT_VIVIDSEATS_PROGRAM_ID, 120);
   return Boolean(impactVividSeatsBaseTrackingUrl || (impactVividSeatsAccountSid && impactVividSeatsAuthToken && impactVividSeatsProgramId));
 }
@@ -1523,7 +1520,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/artists") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="artistsTitle">Artist watchlist</h1><p>Find major artists, see whether checked ticket links are available, and use the buying guidance before you leave for a ticket provider.</p><p>A listed artist does not mean current tickets, prices, venues, or availability are confirmed. Ticket buttons appear only when the destination has been checked.</p><p class="disclosure-note">Coverage varies by artist and region. This is not a complete global tour listing; we only show event links where the artist, date, venue, and ticket destination can be checked.</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
+    )}<h1 id="artistsTitle">Artist watchlist</h1><p class="lead">Find an artist, then open the checked ticket options and upcoming dates we can verify.</p><p class="disclosure-note">Coverage varies by artist and region. We publish ticket links only after the artist, date, venue, and destination have been checked.</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
       catalog,
       events
     )}</section></main>`;

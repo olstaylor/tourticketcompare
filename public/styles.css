@@ -1325,8 +1325,8 @@ summary {
 }
 
 .artist-card {
-  grid-template-rows: auto auto auto 1fr auto;
-  min-height: 238px;
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 0;
 }
 
 .artist-card h3,

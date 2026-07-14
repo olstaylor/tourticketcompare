@@ -53,8 +53,9 @@ export async function onRequestGet({ env }) {
       impactStubHubInternationalConfigured: stubHubInternational.trackingConfigured,
       seatGeekClientId: hasBinding(env, "SEATGEEK_CLIENT_ID"),
       seatGeekClientSecret: hasBinding(env, "SEATGEEK_CLIENT_SECRET"),
-      legacyImpactAccountSid: hasBinding(env, "IMPACT_ACCOUNT_SID"),
-      legacyImpactAuthToken: hasBinding(env, "IMPACT_AUTH_TOKEN")
+      retiredTicketmasterImpactCredentialsIgnored: Boolean(
+        hasBinding(env, "IMPACT_ACCOUNT_SID") || hasBinding(env, "IMPACT_AUTH_TOKEN")
+      )
     }
   });
 }

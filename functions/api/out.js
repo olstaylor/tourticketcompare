@@ -683,13 +683,11 @@ function impactConfig(env = {}, provider = "ticketmaster") {
   const apiBase = clean(env?.IMPACT_API_BASE_URL || DEFAULT_IMPACT_API_BASE, 2048).replace(/\/+$/, "");
 
   if (normalizedProvider === "seatgeek") {
-    // Impact's publisher API calls the create-tracking-link path parameter
-    // ProgramId, while the joined-program listing and related endpoints expose
-    // the same identifier as CampaignId. Prefer the explicit CampaignId alias
-    // for SeatGeek, but keep IMPACT_SEATGEEK_PROGRAM_ID as a backwards-
-    // compatible fallback for the current Cloudflare Pages configuration.
-    const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
-    const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+    // The SeatGeek publisher account is the sole approved Impact credential
+    // set for every active affiliate provider. Never fall back to the retired
+    // Ticketmaster IMPACT_* pair.
+    const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
+    const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
     const campaignId = clean(env?.IMPACT_SEATGEEK_CAMPAIGN_ID, 120);
     const legacyProgramId = clean(env?.IMPACT_SEATGEEK_PROGRAM_ID, 120);
     const programId = campaignId || legacyProgramId;
@@ -710,10 +708,9 @@ function impactConfig(env = {}, provider = "ticketmaster") {
   }
 
   if (normalizedProvider === "vivid-seats") {
-    // Mirrors the SeatGeek Impact configuration shape: CampaignId alias
-    // preferred, ProgramId kept as the backwards-compatible fallback.
-    const accountSid = clean(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
-    const authToken = clean(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+    // Vivid Seats uses the same approved SeatGeek publisher credentials.
+    const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
+    const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
     const campaignId = clean(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID, 120);
     const legacyProgramId = clean(env?.IMPACT_VIVIDSEATS_PROGRAM_ID, 120);
     const programId = campaignId || legacyProgramId;
@@ -735,8 +732,8 @@ function impactConfig(env = {}, provider = "ticketmaster") {
 
   const envPrefix = IMPACT_PROVIDER_ENV_PREFIXES[normalizedProvider];
   if (envPrefix) {
-    const accountSid = clean(env?.[`${envPrefix}_ACCOUNT_SID`] || env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID, 255);
-    const authToken = clean(env?.[`${envPrefix}_AUTH_TOKEN`] || env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN, 255);
+    const accountSid = clean(env?.IMPACT_SEATGEEK_ACCOUNT_SID, 255);
+    const authToken = clean(env?.IMPACT_SEATGEEK_AUTH_TOKEN, 255);
     const configuredCampaignId = clean(env?.[`${envPrefix}_CAMPAIGN_ID`], 120);
     const legacyProgramId = clean(env?.[`${envPrefix}_PROGRAM_ID`], 120);
     const defaultProgramId = clean(IMPACT_PROVIDER_DEFAULT_PROGRAM_IDS[normalizedProvider], 120);

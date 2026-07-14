@@ -512,8 +512,8 @@ function validImpactMarketplaceEventUrl(value, provider) {
 function hasSeatGeekProviderConfig(env = {}) {
   const hasBaseTrackingUrl = Boolean(String(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL || "").trim());
   const hasImpactApiConfig = Boolean(
-    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID || "").trim() &&
-    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || "").trim() &&
     String(env?.IMPACT_SEATGEEK_CAMPAIGN_ID || env?.IMPACT_SEATGEEK_PROGRAM_ID || "").trim()
   );
   return hasBaseTrackingUrl || hasImpactApiConfig;
@@ -540,8 +540,8 @@ function validSeatGeekEventUrl(value) {
 function hasVividSeatsProviderConfig(env = {}) {
   const hasBaseTrackingUrl = Boolean(String(env?.IMPACT_VIVIDSEATS_BASE_TRACKING_URL || "").trim());
   const hasImpactApiConfig = Boolean(
-    String(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID || "").trim() &&
-    String(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || "").trim() &&
     String(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID || env?.IMPACT_VIVIDSEATS_PROGRAM_ID || "").trim()
   );
   return hasBaseTrackingUrl || hasImpactApiConfig;

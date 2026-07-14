@@ -42,7 +42,7 @@ const SMOKE_TEST_NOW_MS = Date.parse(SMOKE_TEST_NOW_ISO);
 assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO timestamp");
 Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
-  ["/artists", "Ticket buttons appear only when the destination has been checked"],
+  ["/artists", "Find an artist, then open the checked ticket options and upcoming dates we can verify."],
   ["/guides", "Compare the final checkout total after fees"],
   ["/compare-concert-ticket-prices", "We compare approved, timestamped provider snapshots for the same event only"],
   ["/how-it-works", "Affiliate links are handled safely"],
@@ -2033,25 +2033,25 @@ try {
       IMPACT_AUTH_TOKEN: "legacy-token"
     }
   );
-  assert(outResponse.status === 400, "SeatGeek should fail safely when the SeatGeek Impact program ID is missing");
+  assert(outResponse.status === 400, "SeatGeek should fail safely when its approved credentials are missing");
   const missingSeatGeekProgramJson = await outResponse.json();
-  assert(missingSeatGeekProgramJson.status === "impact_missing_program_id", "SeatGeek should report impact_missing_program_id when only shared Impact credentials are present");
+  assert(missingSeatGeekProgramJson.status === "impact_missing_credentials", "SeatGeek should ignore retired Ticketmaster credentials");
   assert(missingSeatGeekProgramJson.hasProgramId === false, "missing SeatGeek program diagnostics should show hasProgramId false");
 
-  const sharedSeatGeekImpactEnv = {
+  const approvedSeatGeekImpactEnv = {
     ...env,
-    IMPACT_ACCOUNT_SID: "shared-account",
-    IMPACT_AUTH_TOKEN: "shared-token",
+    IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
+    IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token",
     IMPACT_SEATGEEK_PROGRAM_ID: "sg-program"
   };
-  let sharedSeatGeekImpactCalled = false;
+  let approvedSeatGeekImpactCalled = false;
   globalThis.fetch = async (request, options = {}) => {
     const requestUrl = new URL(String(request.url || request));
-    sharedSeatGeekImpactCalled = true;
-    assert(requestUrl.hostname === "api.impact.com", "SeatGeek shared Impact credentials should still call Impact");
-    assert(requestUrl.pathname.includes("/Mediapartners/shared-account/Programs/sg-program/TrackingLinks"), "SeatGeek shared Impact request should use the shared account and SeatGeek program");
-    assert(requestUrl.searchParams.get("DeepLink") === CONTROLLED_SEATGEEK_URL, "SeatGeek shared Impact DeepLink should be the controlled SeatGeek event URL");
-    assert(options.headers?.Authorization === `Basic ${Buffer.from("shared-account:shared-token").toString("base64")}`, "SeatGeek shared Impact request should use shared basic auth");
+    approvedSeatGeekImpactCalled = true;
+    assert(requestUrl.hostname === "api.impact.com", "SeatGeek approved SeatGeek credentials should still call Impact");
+    assert(requestUrl.pathname.includes("/Mediapartners/sg-account/Programs/sg-program/TrackingLinks"), "SeatGeek approved SeatGeek request should use the SeatGeek account and SeatGeek program");
+    assert(requestUrl.searchParams.get("DeepLink") === CONTROLLED_SEATGEEK_URL, "SeatGeek approved SeatGeek DeepLink should be the controlled SeatGeek event URL");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("sg-account:sg-token").toString("base64")}`, "SeatGeek approved SeatGeek request should use SeatGeek basic auth");
     return new Response(JSON.stringify({ TrackingURL: seatGeekTrackingUrl }), {
       status: 200,
       headers: { "content-type": "application/json" }
@@ -2061,16 +2061,16 @@ try {
     `/api/out?showId=${encodeURIComponent(controlledSeatGeekShow.id)}&provider=seatgeek`,
     "GET",
     null,
-    sharedSeatGeekImpactEnv
+    approvedSeatGeekImpactEnv
   );
-  assert(sharedSeatGeekImpactCalled, "SeatGeek should call Impact when shared credentials and SeatGeek program ID are configured");
-  assert(outResponse.status === 302, "SeatGeek should redirect when shared Impact credentials and SeatGeek program ID succeed");
-  assert(outResponse.headers.get("location") === seatGeekTrackingUrl, "SeatGeek shared Impact success should redirect to the tracking URL");
+  assert(approvedSeatGeekImpactCalled, "SeatGeek should call Impact when approved SeatGeek credentials and SeatGeek program ID are configured");
+  assert(outResponse.status === 302, "SeatGeek should redirect when approved SeatGeek credentials and SeatGeek program ID succeed");
+  assert(outResponse.headers.get("location") === seatGeekTrackingUrl, "SeatGeek approved SeatGeek success should redirect to the tracking URL");
 
   const campaignIdSeatGeekImpactEnv = {
     ...env,
-    IMPACT_ACCOUNT_SID: "shared-account",
-    IMPACT_AUTH_TOKEN: "shared-token",
+    IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
+    IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token",
     IMPACT_SEATGEEK_PROGRAM_ID: "legacy-sg-program",
     IMPACT_SEATGEEK_CAMPAIGN_ID: "campaign-sg-program"
   };
@@ -2078,9 +2078,9 @@ try {
   globalThis.fetch = async (request, options = {}) => {
     const requestUrl = new URL(String(request.url || request));
     campaignIdSeatGeekImpactCalled = true;
-    assert(requestUrl.pathname.includes("/Mediapartners/shared-account/Programs/campaign-sg-program/TrackingLinks"), "SeatGeek CampaignId env var should take precedence over legacy ProgramId env var");
+    assert(requestUrl.pathname.includes("/Mediapartners/sg-account/Programs/campaign-sg-program/TrackingLinks"), "SeatGeek CampaignId env var should take precedence over legacy ProgramId env var");
     assert(!requestUrl.pathname.includes("legacy-sg-program"), "SeatGeek CampaignId precedence should not use the legacy ProgramId when both are present");
-    assert(options.headers?.Authorization === `Basic ${Buffer.from("shared-account:shared-token").toString("base64")}`, "SeatGeek CampaignId precedence should preserve shared basic auth");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("sg-account:sg-token").toString("base64")}`, "SeatGeek CampaignId precedence should preserve SeatGeek basic auth");
     return new Response(JSON.stringify({ TrackingURL: seatGeekTrackingUrl }), {
       status: 200,
       headers: { "content-type": "application/json" }
@@ -2354,8 +2354,8 @@ assert(sgIdx !== -1 && vsIdx !== -1 && tmIdx !== -1 && sgIdx < vsIdx && vsIdx < 
 // 4. Impact API failure must return diagnostic JSON, never a raw redirect.
 const vsApiConfigEnv = withVividSeatsEventsFixture({
   ...env,
-  IMPACT_VIVIDSEATS_ACCOUNT_SID: "vs-account",
-  IMPACT_VIVIDSEATS_AUTH_TOKEN: "vs-token",
+  IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
+  IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token",
   IMPACT_VIVIDSEATS_CAMPAIGN_ID: "vs-campaign"
 });
 try {
@@ -2364,9 +2364,9 @@ try {
     const requestUrl = new URL(String(request.url || request));
     vividSeatsImpactCalled = true;
     assert(requestUrl.hostname === "api.impact.com", "Vivid Seats tracking should call Impact with the controlled event URL");
-    assert(requestUrl.pathname.includes("/Mediapartners/vs-account/Programs/vs-campaign/TrackingLinks"), "Vivid Seats Impact request should use the configured Vivid Seats account and campaign");
+    assert(requestUrl.pathname.includes("/Mediapartners/sg-account/Programs/vs-campaign/TrackingLinks"), "Vivid Seats Impact request should use the approved SeatGeek publisher account and the Vivid Seats campaign");
     assert(requestUrl.searchParams.get("DeepLink") === CONTROLLED_VIVIDSEATS_URL, "Vivid Seats Impact DeepLink should be the controlled Vivid Seats event URL");
-    assert(options.headers?.Authorization === `Basic ${Buffer.from("vs-account:vs-token").toString("base64")}`, "Vivid Seats Impact request should use Vivid Seats basic auth");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("sg-account:sg-token").toString("base64")}`, "Vivid Seats Impact request should use approved SeatGeek publisher basic auth");
     return new Response(JSON.stringify({ Message: "forbidden" }), {
       status: 403,
       headers: { "content-type": "application/json" }

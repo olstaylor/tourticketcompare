@@ -1700,7 +1700,6 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog))}</script>`
   );
   next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
-  next = next.replace("</body>", '<script src="/impact-publisher-tag.js?v=20260714a" defer></script></body>');
   if (route.path === "/") {
     // Homepage-only progressive enhancement: ttc-home.js hydrates the #ttc-main
     // mount with the full redesigned homepage. Same-origin, so it satisfies the

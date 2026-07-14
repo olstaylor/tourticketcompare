@@ -1200,16 +1200,12 @@ function renderArtistCard(artist, events = []) {
   const status = artistCardStatus(artist, events);
   article.className = status.pending ? "artist-card is-pending" : "artist-card";
   text(article, "h3", artist.name);
-  if (artist.short_description) {
-    text(article, "p", artist.short_description, "muted");
-  }
   const statusRow = document.createElement("div");
   statusRow.className = "artist-status-row";
   text(statusRow, "p", status.badge, status.badgeClass);
-  text(statusRow, "p", status.detail, "status-chip-detail");
   article.append(statusRow);
   const showSummary = status.pending ? null : upcomingVerifiedShowSummary(events, artist.slug);
-  text(article, "p", showSummary || status.cardStatus, "card-status");
+  text(article, "p", showSummary || status.detail, "card-status");
   article.append(buttonLink(status.ctaLabel, `/artists/${artist.slug}`, status.ctaVariant));
   return article;
 }
@@ -2226,17 +2222,13 @@ async function renderArtistsIndex() {
   text(
     section,
     "p",
-    "Find major artists, see whether checked ticket links are available, and use the buying guidance before you leave for a ticket provider."
+    "Find an artist, then open the checked ticket options and upcoming dates we can verify.",
+    "lead"
   );
   text(
     section,
     "p",
-    "A listed artist does not mean current tickets, prices, venues, or availability are confirmed. Ticket buttons appear only when the destination has been checked."
-  );
-  text(
-    section,
-    "p",
-    "Coverage varies by artist and region. This is not a complete global tour listing; we only show event links where the artist, date, venue, and ticket destination can be checked.",
+    "Coverage varies by artist and region. We publish ticket links only after the artist, date, venue, and destination have been checked.",
     "disclosure-note"
   );
   const events = await loadEventsForSearch();

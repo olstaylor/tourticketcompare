@@ -245,7 +245,7 @@ export async function onRequestGet({ request, env }) {
     affiliate_tracking_capable: impactCfg.configured && candidates.matched ? true : false,
     next_steps: [
       !sgConfig.configured ? "Set SEATGEEK_CLIENT_ID and SEATGEEK_CLIENT_SECRET" : null,
-      !impactCfg.configured ? "Set IMPACT_ACCOUNT_SID, IMPACT_AUTH_TOKEN, and IMPACT_SEATGEEK_CAMPAIGN_ID for affiliate tracking (IMPACT_SEATGEEK_PROGRAM_ID remains supported as a legacy fallback, with optional SeatGeek-specific account/token overrides)" : null,
+      !impactCfg.configured ? "Set IMPACT_SEATGEEK_ACCOUNT_SID, IMPACT_SEATGEEK_AUTH_TOKEN, and IMPACT_SEATGEEK_CAMPAIGN_ID for affiliate tracking (IMPACT_SEATGEEK_PROGRAM_ID remains supported as a legacy campaign-id fallback)" : null,
       candidates.matched
         ? `SeatGeek URL ready: ${candidates.matched.url}`
         : "No confident SeatGeek match found"

@@ -884,14 +884,41 @@
         "STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED"
       ],
       "geographic_coverage": [
-        "UK", "IE", "DE", "FR", "ES", "IT", "PT", "PL", "SE", "DK",
-        "FI", "GR", "NL", "LU", "CZ", "BE", "AT"
+        "UK",
+        "IE",
+        "DE",
+        "FR",
+        "ES",
+        "IT",
+        "PT",
+        "PL",
+        "SE",
+        "DK",
+        "FI",
+        "GR",
+        "NL",
+        "LU",
+        "CZ",
+        "BE",
+        "AT"
       ],
       "allowed_destination_hosts": [
-        "stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr",
-        "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl",
-        "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr",
-        "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be",
+        "stubhub.co.uk",
+        "stubhub.ie",
+        "stubhub.de",
+        "stubhub.fr",
+        "stubhub.es",
+        "stubhub.it",
+        "stubhub.pt",
+        "stubhub.pl",
+        "stubhub.se",
+        "stubhub.dk",
+        "stubhub.fi",
+        "stubhub.gr",
+        "stubhub.nl",
+        "stubhub.lu",
+        "stubhub.cz",
+        "stubhub.be",
         "stubhub.co.at"
       ],
       "trusted_affiliate_hosts": [],
@@ -941,7 +968,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-04-30",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/harry-styles-tickets/artist/2366444"
     },
     {
       "link_id": "tm-artist-bts",
@@ -954,7 +982,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-04-30",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/bts-tickets/artist/2110227"
     },
     {
       "link_id": "tm-artist-ariana-grande",
@@ -967,7 +996,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-04-30",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/ariana-grande-tickets/artist/1688071"
     },
     {
       "link_id": "tm-artist-bad-bunny",
@@ -980,7 +1010,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-04-30",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/bad-bunny-tickets/artist/2317395"
     },
     {
       "link_id": "tm-artist-morgan-wallen",
@@ -993,7 +1024,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-04-30",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/morgan-wallen-tickets/artist/2288122"
     },
     {
       "link_id": "tm-artist-jay-z",
@@ -1006,7 +1038,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-04-30",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/jayz-tickets/artist/781009"
     },
     {
       "link_id": "tm-artist-olivia-rodrigo",
@@ -1019,7 +1052,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-05-27",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/artist/2836194"
     },
     {
       "link_id": "tm-artist-bruno-mars",
@@ -1032,7 +1066,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-05-28",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801"
     },
     {
       "link_id": "tm-artist-ed-sheeran",
@@ -1045,7 +1080,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-06-11",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/ed-sheeran-tickets/artist/1560779"
     },
     {
       "link_id": "tm-artist-shakira",
@@ -1058,7 +1094,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-06-10",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/shakira-tickets/artist/779049"
     },
     {
       "link_id": "tm-artist-raye",
@@ -1071,7 +1108,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-06-10",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/raye-tickets/artist/2065089"
     },
     {
       "link_id": "tm-artist-charli-xcx",
@@ -1084,7 +1122,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-06-11",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/charli-xcx-tickets/artist/1638380"
     },
     {
       "link_id": "tm-artist-tate-mcrae",
@@ -1097,7 +1136,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-06-10",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/tate-mcrae-tickets/artist/2720246"
     },
     {
       "link_id": "tm-artist-summer-walker",
@@ -1111,7 +1151,8 @@
       "market": "global",
       "last_checked_at": "2026-06-11",
       "disclosure_required": true,
-      "ticketmaster_attraction_id": "K8vZ9179b17"
+      "ticketmaster_attraction_id": "K8vZ9179b17",
+      "url": "https://www.ticketmaster.com/summer-walker-tickets/artist/2537562"
     },
     {
       "link_id": "tm-artist-rosalia",
@@ -1125,7 +1166,8 @@
       "market": "global",
       "last_checked_at": "2026-06-17",
       "disclosure_required": true,
-      "ticketmaster_attraction_id": "K8vZ917pJy7"
+      "ticketmaster_attraction_id": "K8vZ917pJy7",
+      "url": "https://www.ticketmaster.com/rosalia-tickets/artist/2453211"
     },
     {
       "link_id": "sg-artist-beyonce",
@@ -1138,7 +1180,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/beyonce-tickets"
     },
     {
       "link_id": "sg-artist-harry-styles",
@@ -1151,7 +1194,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/harry-styles-tickets"
     },
     {
       "link_id": "sg-artist-bts",
@@ -1164,7 +1208,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/bts-tickets"
     },
     {
       "link_id": "sg-artist-ariana-grande",
@@ -1177,7 +1222,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/ariana-grande-tickets"
     },
     {
       "link_id": "sg-artist-bad-bunny",
@@ -1190,7 +1236,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/bad-bunny-tickets"
     },
     {
       "link_id": "sg-artist-morgan-wallen",
@@ -1203,7 +1250,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/morgan-wallen-tickets"
     },
     {
       "link_id": "sg-artist-jay-z",
@@ -1216,7 +1264,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/jay-z-tickets"
     },
     {
       "link_id": "sg-artist-olivia-rodrigo",
@@ -1229,7 +1278,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/olivia-rodrigo-tickets"
     },
     {
       "link_id": "sg-artist-bruno-mars",
@@ -1242,7 +1292,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/bruno-mars-tickets"
     },
     {
       "link_id": "sg-artist-ed-sheeran",
@@ -1255,7 +1306,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/ed-sheeran-tickets"
     },
     {
       "link_id": "sg-artist-shakira",
@@ -1268,7 +1320,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/shakira-tickets"
     },
     {
       "link_id": "sg-artist-raye",
@@ -1281,7 +1334,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/raye-tickets"
     },
     {
       "link_id": "sg-artist-charli-xcx",
@@ -1294,7 +1348,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/charli-xcx-tickets"
     },
     {
       "link_id": "sg-artist-tate-mcrae",
@@ -1307,7 +1362,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/tate-mcrae-tickets"
     },
     {
       "link_id": "sg-artist-summer-walker",
@@ -1320,7 +1376,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/summer-walker-tickets"
     },
     {
       "link_id": "sg-artist-rosalia",
@@ -1333,7 +1390,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-02",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/rosalia-tickets"
     }
   ],
   "safety_rules": [

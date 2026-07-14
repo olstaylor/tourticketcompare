@@ -584,8 +584,24 @@ function providerDisplayRank(providerSlug) {
   return rank === -1 ? PROVIDER_DISPLAY_ORDER.length : rank;
 }
 
+function artistProviderHref(artist, item, surface) {
+  const provider = slugify(item?.provider);
+  if (provider === "ticketmaster") {
+    const params = new URLSearchParams({
+      artistSlug: artist.slug,
+      provider,
+      sourcePath: `/artists/${artist.slug}`,
+      surface
+    });
+    if (item?.tour_slug) params.set("tourSlug", item.tour_slug);
+    return `/api/out?${params.toString()}`;
+  }
+  return safeVerifiedEventUrl(item?.url);
+}
+
 function renderProviderButtons(artist, surface) {
   const links = ticketLinksForArtist(artist.slug)
+    .filter((item) => slugify(item.provider) === "ticketmaster" || Boolean(safeVerifiedEventUrl(item?.url)))
     .filter((item) => providerEnabled(slugify(item.provider)))
     .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)));
   const panel = document.createElement("section");
@@ -630,14 +646,7 @@ function renderProviderButtons(artist, surface) {
     card.className = "provider-card";
     text(card, "p", "Artist-level provider page", "eyebrow");
     text(card, "h3", copy.name);
-    const params = new URLSearchParams({
-      artistSlug: artist.slug,
-      provider: providerSlug,
-      sourcePath: window.location.pathname,
-      surface
-    });
-    if (item.tour_slug) params.set("tourSlug", item.tour_slug);
-    const cta = buttonLink(copy.label, `/api/out?${params.toString()}`, "primary");
+    const cta = buttonLink(copy.label, artistProviderHref(artist, item, surface), "primary");
     cta.addEventListener("click", () => {
       sendAnalytics("provider_click", {
         artistSlug: artist.slug,
@@ -811,28 +820,29 @@ function renderSearchResultItem(type, data) {
     const loc = [place, data.venue].filter(Boolean).join(" · ");
     nameEl.textContent = data.event_name || data.artist_name || "Verified show";
     desc.textContent = [dateStr, loc, data.tour_name].filter(Boolean).join(" — ");
-    const showId = String(data.id || "").trim();
     const eventCtaCandidates = [
       {
         provider: "seatgeek",
         label: "Open verified SeatGeek event link",
+        href: eventTicketHref(data, "seatgeek"),
         available: providerEventPublishable(data, "seatgeek") && Boolean(safeSeatGeekEventUrl(data.seatgeek_url))
       },
       {
         provider: "vivid-seats",
         label: "Open verified Vivid Seats event link",
+        href: eventTicketHref(data, "vivid-seats"),
         available: providerEventPublishable(data, "vivid-seats") && Boolean(safeVividSeatsEventUrl(data.vividseats_url))
       },
       {
         provider: "ticketmaster",
         label: "Open verified event link",
+        href: eventTicketHref(data, "ticketmaster"),
         available: eventLinkPublishable(data) && Boolean(safeVerifiedEventUrl(data.ticketmaster_url))
       }
     ];
-    const eventCta = showId ? eventCtaCandidates.find((candidate) => candidate.available) : null;
+    const eventCta = eventCtaCandidates.find((candidate) => candidate.available);
     if (eventCta) {
-      const params = new URLSearchParams({ showId, provider: eventCta.provider });
-      ctaHref = `/api/out?${params.toString()}`;
+      ctaHref = eventCta.href;
       ctaLabel = eventCta.label;
     } else {
       ctaHref = `/artists/${slugify(data.artist_slug || "")}`;
@@ -1330,6 +1340,18 @@ function safeVerifiedEventUrl(value) {
   }
 }
 
+function eventTicketHref(show, provider) {
+  if (provider === "ticketmaster") {
+    const showId = String(show?.id || "").trim();
+    return showId ? `/api/out?${new URLSearchParams({ showId, provider }).toString()}` : null;
+  }
+  if (provider === "seatgeek") return safeSeatGeekEventUrl(show?.seatgeek_url);
+  if (provider === "vivid-seats") return safeVividSeatsEventUrl(show?.vividseats_url);
+  const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
+  if (marketplace) return safeImpactMarketplaceEventUrl(show?.[marketplace.urlField], marketplace);
+  return null;
+}
+
 function safeSeatGeekEventUrl(value) {
   const safeUrl = safeVerifiedEventUrl(value);
   if (!safeUrl) return null;
@@ -1683,16 +1705,16 @@ function renderShowCard(show, options = {}) {
       // in the show-board/trust copy instead of repeating on every card.
       const ctaSpecs = [];
       if (sgAvailable) {
-        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
+        ctaSpecs.push({ provider: "seatgeek", href: directEventTicketUrl(show, "seatgeek"), primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
       }
       if (vsAvailable) {
-        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+        ctaSpecs.push({ provider: "vivid-seats", href: directEventTicketUrl(show, "vivid-seats"), primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
       }
       for (const provider of impactMarketplaceAvailable) {
-        ctaSpecs.push({ provider: provider.slug, primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
+        ctaSpecs.push({ provider: provider.slug, href: directEventTicketUrl(show, provider.slug), primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
       }
       if (tmAvailable) {
-        ctaSpecs.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
+        ctaSpecs.push({ provider: "ticketmaster", href: directEventTicketUrl(show, "ticketmaster"), primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
       }
       // A single available provider gets one full-width "View Tickets"
       // button — with nothing to compare, the "Check <Provider>" framing
@@ -1700,9 +1722,8 @@ function renderShowCard(show, options = {}) {
       // functions/[[path]].js.
       const singleCta = ctaSpecs.length === 1;
       const buttons = ctaSpecs.map((spec, index) => {
-        const params = new URLSearchParams({ showId, provider: spec.provider });
         const label = singleCta ? "View Tickets" : index === 0 ? spec.primaryLabel : spec.secondaryLabel;
-        const cta = buttonLink(label, `/api/out?${params.toString()}`, index === 0 ? "primary" : "secondary");
+        const cta = buttonLink(label, spec.href, index === 0 ? "primary" : "secondary");
         cta.target = "_blank";
         cta.rel = "noopener";
         return cta;

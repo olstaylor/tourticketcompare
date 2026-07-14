@@ -63,7 +63,7 @@ request
       └─ HTML routes            → functions/[[path]].js
 ```
 
-`functions/[[path]].js` handles the home page, trust pages, guide routes, artist routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry. Update metadata there rather than duplicating it in the router.
+`functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, artist routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry. Update metadata there rather than duplicating it in the router.
 
 The named route shims (`functions/artists.js`, `guides.js`, and peers) only re-export `onRequest` from `[[path]].js`. While middleware is active, editing a shim does not change live routing.
 

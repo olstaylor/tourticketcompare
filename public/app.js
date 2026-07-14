@@ -1541,60 +1541,53 @@ function hasApprovedMarketplacePrice(show) {
   );
 }
 
-// Compact provider-attributed price chip: provider name + listed snapshot
-// amount. Rendered only from approved, fresh, timestamped lanes.
-function renderPriceChip(providerName, amount, isLower = false) {
-  const chip = document.createElement("span");
-  chip.className = isLower ? "price-chip price-chip-lower" : "price-chip";
-  text(chip, "span", providerName, "price-chip-provider");
-  text(chip, "strong", amount, "price-chip-amount");
-  return chip;
+// One CTA button per available provider. The provider name sits on the left;
+// the right side carries the approved, fresh listed-price snapshot when one
+// exists (the price is the button) or "Check prices" when it doesn't. Keep in
+// sync with renderProviderCtaButtonHtml in functions/[[path]].js.
+function renderProviderCtaButton(name, href, amount, isLower = false) {
+  const cta = document.createElement("a");
+  cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}${isLower ? " provider-cta-lower" : ""}`;
+  cta.href = href;
+  cta.target = "_blank";
+  cta.rel = "noopener";
+  text(cta, "span", name, "provider-cta-name");
+  text(cta, "span", amount || "Check prices", `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
+  return cta;
 }
 
-// SeatGeek-only snapshots render inline beside the SeatGeek CTA (chip next to
-// the button, timestamped note under the button row) instead of as a separate
-// row. Same approved-lane gate: no fresh approved snapshot, nothing renders.
-function renderSeatGeekInlinePrice(show) {
-  const lane = approvedSeatGeekPriceLane(show);
-  if (!lane) return null;
-  const amount = formatProviderPrice(lane.price, lane.currency);
-  const asOf = formatSnapshotTime(lane.fetchedAt);
-  if (!amount || !asOf) return null;
-  const note = document.createElement("p");
-  note.className = "disclosure-note";
-  note.textContent = `SeatGeek price snapshot as of ${asOf} — excludes fees.`;
-  return { chip: renderPriceChip("SeatGeek", amount), note };
-}
-
-function renderVividSeatsPriceSnapshot(show) {
-  const lane = approvedVividSeatsPriceLane(show);
-  if (!lane) return null;
-  const amount = formatProviderPrice(lane.price, lane.currency);
-  const asOf = formatSnapshotTime(lane.fetchedAt);
-  if (!amount || !asOf) return null;
-  const row = document.createElement("div");
-  row.className = "price-snapshot-row vividseats-price-snapshot";
-  row.append(renderPriceChip("Vivid Seats", amount));
-  text(row, "p", `Vivid Seats price snapshot as of ${asOf} — excludes fees.`, "disclosure-note");
-  return row;
-}
-
-function renderImpactMarketplacePriceSnapshots(show, options = {}) {
-  const rows = [];
-  for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
-    if (!impactMarketplaceOutAvailable(show, provider, options)) continue;
-    const lane = approvedImpactMarketplacePriceLane(show, provider);
-    if (!lane) continue;
-    const amount = formatProviderPrice(lane.price, lane.currency);
-    const asOf = formatSnapshotTime(lane.fetchedAt);
-    if (!amount || !asOf) continue;
-    const row = document.createElement("div");
-    row.className = "price-snapshot-row";
-    row.append(renderPriceChip(provider.name, amount));
-    text(row, "p", `${provider.name} price snapshot as of ${asOf} — excludes fees.`, "disclosure-note");
-    rows.push(row);
+// Required snapshot disclosures for every price shown on a button, rendered
+// once beneath the button group. When SeatGeek and Vivid Seats both have
+// approved lanes the side-by-side lower-price comparison note is preserved.
+function renderShowCardPriceNotes(ctaSpecs, comparison) {
+  const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
+  if (!priced.length) return null;
+  const wrap = document.createElement("div");
+  wrap.className = "provider-cta-notes";
+  const handled = new Set();
+  if (comparison) {
+    const seatGeek = ctaSpecs.find((spec) => spec.provider === "seatgeek");
+    const vividSeats = ctaSpecs.find((spec) => spec.provider === "vivid-seats");
+    if (comparison.sameCurrency && comparison.lowerProvider && comparison.delta !== null) {
+      const difference = formatProviderPrice(comparison.delta, comparison.seatGeek.currency);
+      if (difference) text(wrap, "p", `${comparison.lowerProvider} has the lower listed price snapshot by ${difference}.`, "price-compare-note");
+    } else if (comparison.sameCurrency) {
+      text(wrap, "p", "Both providers show the same listed price snapshot.", "price-compare-note");
+    } else {
+      text(wrap, "p", "The snapshots use different currencies, so no price difference is calculated.", "price-compare-note");
+    }
+    text(wrap, "p", `SeatGeek price snapshot as of ${seatGeek.priceAsOf}; Vivid Seats price snapshot as of ${vividSeats.priceAsOf}. Prices exclude fees.`, "disclosure-note");
+    handled.add("seatgeek");
+    handled.add("vivid-seats");
   }
-  return rows;
+  // Condensed per-provider snapshots: one short "Provider · timestamp" line
+  // each, with a single shared fees disclosure instead of repeating it per row.
+  const perProvider = priced.filter((spec) => !handled.has(spec.provider));
+  for (const spec of perProvider) {
+    text(wrap, "p", `${spec.name} · ${spec.priceAsOf}`, "disclosure-note snapshot-line");
+  }
+  if (perProvider.length) text(wrap, "p", "Provider-listed price snapshots — exclude fees.", "disclosure-note snapshot-fees");
+  return wrap;
 }
 
 function approvedProviderPriceComparison(show) {
@@ -1613,40 +1606,6 @@ function approvedProviderPriceComparison(show) {
     : null;
 
   return { seatGeek, vividSeats, sameCurrency, delta, lowerProvider };
-}
-
-function renderProviderPriceComparison(show) {
-  const comparison = approvedProviderPriceComparison(show);
-  if (!comparison) return null;
-
-  const seatGeekAmount = formatProviderPrice(comparison.seatGeek.price, comparison.seatGeek.currency);
-  const vividSeatsAmount = formatProviderPrice(comparison.vividSeats.price, comparison.vividSeats.currency);
-  const seatGeekAsOf = formatSnapshotTime(comparison.seatGeek.fetchedAt);
-  const vividSeatsAsOf = formatSnapshotTime(comparison.vividSeats.fetchedAt);
-  if (!seatGeekAmount || !vividSeatsAmount || !seatGeekAsOf || !vividSeatsAsOf) return null;
-
-  const row = document.createElement("div");
-  row.className = "price-snapshot-row provider-price-comparison";
-  const seatGeekLower = comparison.sameCurrency && comparison.lowerProvider === "SeatGeek";
-  const vividSeatsLower = comparison.sameCurrency && comparison.lowerProvider === "Vivid Seats";
-  row.append(
-    renderPriceChip("SeatGeek", seatGeekAmount, seatGeekLower),
-    renderPriceChip("Vivid Seats", vividSeatsAmount, vividSeatsLower)
-  );
-
-  if (comparison.sameCurrency && comparison.lowerProvider && comparison.delta !== null) {
-    const difference = formatProviderPrice(comparison.delta, comparison.seatGeek.currency);
-    if (difference) {
-      text(row, "p", `${comparison.lowerProvider} has the lower listed price snapshot by ${difference}.`, "price-compare-note");
-    }
-  } else if (comparison.sameCurrency) {
-    text(row, "p", "Both providers show the same listed price snapshot.", "price-compare-note");
-  } else {
-    text(row, "p", "The snapshots use different currencies, so no price difference is calculated.", "price-compare-note");
-  }
-
-  text(row, "p", `SeatGeek price snapshot as of ${seatGeekAsOf}; Vivid Seats price snapshot as of ${vividSeatsAsOf}. Prices exclude fees.`, "disclosure-note");
-  return row;
 }
 
 function renderShowCard(show, options = {}) {
@@ -1697,64 +1656,55 @@ function renderShowCard(show, options = {}) {
     const vsAvailable = Boolean(showId && vividSeatsOutAvailable(show, options));
     const impactMarketplaceAvailable = IMPACT_MARKETPLACE_PROVIDERS.filter((provider) => showId && impactMarketplaceOutAvailable(show, provider, options));
 
-    // One compact price block per card: the approved side-by-side comparison
-    // when both fresh lanes exist, otherwise the single approved provider
-    // snapshot for an available CTA. A SeatGeek-only snapshot renders inline
-    // beside the SeatGeek button below rather than as a row here.
-    const comparisonBlock = renderProviderPriceComparison(show);
-    const inlineSeatGeekPrice = !comparisonBlock && sgAvailable ? renderSeatGeekInlinePrice(show) : null;
-    const priceBlock =
-      comparisonBlock ||
-      (!inlineSeatGeekPrice && vsAvailable ? renderVividSeatsPriceSnapshot(show) : null);
-    const additionalPriceRows = renderImpactMarketplacePriceSnapshots(show, options);
-    if (priceBlock) body.append(priceBlock);
-    if (additionalPriceRows.length) body.append(...additionalPriceRows);
-    if (!priceBlock && additionalPriceRows.length === 0 && (sgAvailable || vsAvailable || impactMarketplaceAvailable.length)) {
-      text(body, "p", "No current price snapshot — check the provider for availability and the final total.", "disclosure-note price-unavailable-note");
+    // One button per available provider. SeatGeek (primary affiliate) leads,
+    // then Vivid Seats, the Impact marketplace lanes, and the plain
+    // Ticketmaster verification link last. A provider with an approved, fresh
+    // price lane shows the listed snapshot amount on its own button (the price
+    // is the CTA); the rest read "Check prices". Snapshot disclosures render
+    // once beneath the buttons. Keep in sync with renderShowCardServerHtml in
+    // functions/[[path]].js.
+    const ctaSpecs = [];
+    if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: approvedSeatGeekPriceLane(show) });
+    if (vsAvailable) ctaSpecs.push({ provider: "vivid-seats", name: "Vivid Seats", href: eventTicketHref(show, "vivid-seats"), lane: approvedVividSeatsPriceLane(show) });
+    for (const provider of impactMarketplaceAvailable) {
+      ctaSpecs.push({ provider: provider.slug, name: provider.name, href: eventTicketHref(show, provider.slug), lane: approvedImpactMarketplacePriceLane(show, provider) });
     }
+    if (tmAvailable) ctaSpecs.push({ provider: "ticketmaster", name: "Ticketmaster", href: eventTicketHref(show, "ticketmaster"), lane: null });
 
-    if (tmAvailable || sgAvailable || vsAvailable || impactMarketplaceAvailable.length) {
-      // Provider price, fee, availability and affiliate disclosure lives once
-      // in the show-board/trust copy instead of repeating on every card.
-      const ctaSpecs = [];
-      if (sgAvailable) {
-        ctaSpecs.push({ provider: "seatgeek", href: eventTicketHref(show, "seatgeek"), primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
+    if (ctaSpecs.length) {
+      // Normalise each approved lane into a display amount + timestamp; a lane
+      // that can't be formatted falls back to an unpriced "Check prices" button.
+      for (const spec of ctaSpecs) {
+        if (!spec.lane) continue;
+        const amount = formatProviderPrice(spec.lane.price, spec.lane.currency);
+        const asOf = formatSnapshotTime(spec.lane.fetchedAt);
+        if (amount && asOf) {
+          spec.priceAmount = amount;
+          spec.priceAsOf = asOf;
+        } else {
+          spec.lane = null;
+        }
       }
-      if (vsAvailable) {
-        ctaSpecs.push({ provider: "vivid-seats", href: eventTicketHref(show, "vivid-seats"), primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+      // Lower-price highlight only when SeatGeek and Vivid Seats are both priced.
+      const seatGeekSpec = ctaSpecs.find((spec) => spec.provider === "seatgeek");
+      const vividSeatsSpec = ctaSpecs.find((spec) => spec.provider === "vivid-seats");
+      const comparison = seatGeekSpec?.priceAmount && vividSeatsSpec?.priceAmount ? approvedProviderPriceComparison(show) : null;
+
+      const ctaGroup = document.createElement("div");
+      ctaGroup.className = "provider-cta-group";
+      for (const spec of ctaSpecs) {
+        const isLower = Boolean(
+          comparison &&
+            comparison.lowerProvider &&
+            ((spec.provider === "seatgeek" && comparison.lowerProvider === "SeatGeek") ||
+              (spec.provider === "vivid-seats" && comparison.lowerProvider === "Vivid Seats"))
+        );
+        ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", isLower));
       }
-      for (const provider of impactMarketplaceAvailable) {
-        ctaSpecs.push({ provider: provider.slug, href: eventTicketHref(show, provider.slug), primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
-      }
-      if (tmAvailable) {
-        ctaSpecs.push({ provider: "ticketmaster", href: eventTicketHref(show, "ticketmaster"), primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
-      }
-      // A single available provider gets one full-width "View Tickets"
-      // button — with nothing to compare, the "Check <Provider>" framing
-      // doesn't apply. Keep in sync with renderShowCardServerHtml in
-      // functions/[[path]].js.
-      const singleCta = ctaSpecs.length === 1;
-      const buttons = ctaSpecs.map((spec, index) => {
-        const label = singleCta ? "View Tickets" : index === 0 ? spec.primaryLabel : spec.secondaryLabel;
-        const cta = buttonLink(label, spec.href, index === 0 ? "primary" : "secondary");
-        cta.target = "_blank";
-        cta.rel = "noopener";
-        return cta;
-      });
-      if (buttons.length > 1) {
-        const ctaGroup = document.createElement("div");
-        ctaGroup.className = "cta-group";
-        ctaGroup.append(...buttons);
-        // The SeatGeek CTA is always first when available, so the inline
-        // price chip sits directly beside its button.
-        if (inlineSeatGeekPrice) buttons[0].after(inlineSeatGeekPrice.chip);
-        body.append(ctaGroup);
-      } else {
-        buttons[0].classList.add("button-full");
-        body.append(buttons[0]);
-        if (inlineSeatGeekPrice) body.append(inlineSeatGeekPrice.chip);
-      }
-      if (inlineSeatGeekPrice) body.append(inlineSeatGeekPrice.note);
+      body.append(ctaGroup);
+
+      const notes = renderShowCardPriceNotes(ctaSpecs, comparison);
+      if (notes) body.append(notes);
     } else {
       text(body, "p", "No verified ticket link is available for this date.", "disclosure-note");
     }

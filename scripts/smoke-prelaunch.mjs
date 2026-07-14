@@ -753,6 +753,10 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
   assert(csp.includes("https://utt.impactcdn.com"), `${pathname} CSP must allow the account Publisher Tag loader`);
   assert(text.includes('/impact-publisher-tag.js?v=20260714a'), `${pathname} must load the account Publisher Tag loader`);
+  assert(
+    response.headers.get("Cache-Control") === "no-cache, max-age=0, must-revalidate",
+    `${pathname} must revalidate rendered HTML so new client asset versions reach returning visitors immediately`
+  );
 
   // Google tag: every rendered page keeps the shell's gtag.js snippet
   assert(

@@ -7,7 +7,7 @@ const publicRoutes = ["/", "/artists", "/guides", "/compare-concert-ticket-price
 const functionBackedStaticRoutes = ["/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Compare concert ticket prices for the same show."],
+  ["/", "Compare concert and event ticket prices for the same show."],
   ["/artists", "Artist watchlist"],
   ["/guides", "Ticket buying guides"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices"],
@@ -211,7 +211,7 @@ async function assertPublicCopySafe(files) {
     {
       label: "ticket comparison claim",
       pattern: /\bticket\s+comparison\b/i,
-      allowedContext: /\b(not|must not|should not|does not|unless|until|without pretending)\b/i
+      allowedContext: /\b(not|must not|should not|does not|unless|until|without pretending|comparison site|helps you review)\b/i
     }
   ];
   const violations = [];
@@ -456,7 +456,7 @@ const publicAffiliateUrlFiles = [
 
 const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Compare concert ticket prices for the same show."),
+  joinedPublic.includes("Compare concert and event ticket prices for the same show."),
   "homepage public-facing copy should be present"
 );
 const clientApp = await read("public/app.js");

@@ -118,7 +118,7 @@ The full rules are in `docs/CONTENT_RULES.md`, `docs/PROVIDER_DATA_POLICY.md`, a
 
 ## What is supported today
 
-- Homepage and trust/legal pages.
+- Homepage, the `/compare-concert-ticket-prices` comparison hub, and trust/legal pages.
 - Artist index plus all 16 indexable artist pages above (3 of them — beyonce, raye, tate-mcrae — currently have no event records and render artist-level CTAs only).
 - 16 guide pages with server-rendered content.
 - Verified SeatGeek CTAs, **artist-level and event-level**, as the primary CTA — routed through `/api/out` with Impact tracking (base tracking URL or API mint). Artist-level entries are performer-page URLs captured from the SeatGeek `/2/performers/{id}` API for registry-verified performer ids. Currently 256/397 events carry a stored `seatgeek_url` and 203 carry verified SeatGeek provenance; enrichment + identity-anchored verification run nightly via `seatgeek-cta-sync.yml` (first run merged 2026-07-08, PR #356; see Daily automation), including the standalone SeatGeek CTA path for `needs_recheck` events (9 live today); see `docs/SEATGEEK_DISCOVERY.md`.

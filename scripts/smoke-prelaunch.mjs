@@ -1731,12 +1731,12 @@ outResponse = await out("/api/out?showId=smoke-ticketnetwork-event&provider=tick
 });
 assert(outResponse.status === 400 && (await outResponse.json()).status === "provider_not_configured", "an explicit false flag must remain a TicketNetwork kill switch");
 const ticketNetworkPage = await routeResponse("/artists/morgan-wallen", ticketNetworkBaseEnv);
-assert(ticketNetworkPage.text.includes("showId=smoke-ticketnetwork-event&amp;provider=ticketnetwork"), "SSR should render the activated TicketNetwork event CTA without a dashboard flag");
+assert(ticketNetworkPage.text.includes(ticketNetworkUrl), "SSR should render the activated TicketNetwork event CTA without a dashboard flag");
 const disabledTicketNetworkPage = await routeResponse("/artists/morgan-wallen", {
   ...ticketNetworkBaseEnv,
   TICKETNETWORK_PUBLIC_ENABLED: "false"
 });
-assert(!disabledTicketNetworkPage.text.includes("showId=smoke-ticketnetwork-event&amp;provider=ticketnetwork"), "SSR must honor the explicit TicketNetwork kill switch");
+assert(!disabledTicketNetworkPage.text.includes(ticketNetworkUrl), "SSR must honor the explicit TicketNetwork kill switch");
 const unverifiedTicketNetworkEvent = {
   ...ticketNetworkEvent,
   provider_links: { ...ticketNetworkEvent.provider_links, ticketnetwork: { ...ticketNetworkEvent.provider_links.ticketnetwork, verified: false } }

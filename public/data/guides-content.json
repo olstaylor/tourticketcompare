@@ -41,6 +41,20 @@
         "content": "**What is the best way to compare event ticket prices?**\n\nMatch the exact event and comparable ticket details first, then compare the final checkout totals and terms on the provider sites.\n\n**Does the cheapest listed ticket mean it is the best deal?**\n\nNo. It may have a different seat, ticket type, delivery timeline, or fee treatment.\n\n**Can a comparison site guarantee the price or availability?**\n\nNo. Prices, inventory, fees, and terms can change on the provider site. Use a comparison as a shortlist and confirm before paying."
       }
     ],
+    "sources": [
+      {
+        "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
+        "publisher": "US Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+        "lastChecked": "2026-07-14"
+      },
+      {
+        "name": "All In Prices",
+        "publisher": "Ticketmaster",
+        "url": "https://www.ticketmaster.com/welcome/all-in",
+        "lastChecked": "2026-07-14"
+      }
+    ],
     "schema": {
       "@context": "https://schema.org",
       "@type": "HowTo",

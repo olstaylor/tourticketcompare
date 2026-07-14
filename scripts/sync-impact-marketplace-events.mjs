@@ -325,10 +325,10 @@ async function selfTest() {
   const candidate = productCandidates(config, catalogItem, "123")[0];
   assert.equal(candidate.externalId, "tn-1");
   assert.equal(productCandidates(config, catalogItem, "wrong-program").length, 0);
-  const searchUrl = catalogItemsUrl(config, "RAYE", 1, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123" });
+  const searchUrl = catalogItemsUrl(config, "RAYE", 1, { IMPACT_SEATGEEK_ACCOUNT_SID: "sid", IMPACT_SEATGEEK_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123" });
   assert.match(searchUrl, /\/Catalogs\/896\/Items\?/);
   assert.equal(new URL(searchUrl).searchParams.get("IrVersion"), "16");
-  assert.match(catalogItemsUrl(config, "RAYE", 1, { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123", IMPACT_TICKETNETWORK_CATALOG_ID: "456" }), /\/Catalogs\/456\/Items\?/);
+  assert.match(catalogItemsUrl(config, "RAYE", 1, { IMPACT_SEATGEEK_ACCOUNT_SID: "sid", IMPACT_SEATGEEK_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123", IMPACT_TICKETNETWORK_CATALOG_ID: "456" }), /\/Catalogs\/456\/Items\?/);
   assert.equal(catalogItems({ Items: [catalogItem] })[0].CatalogItemId, "tn-1");
   assert.equal(normalizeProviderUrl(config, "https://ticketnetwork.com/"), "");
   assert.equal(normalizeProviderUrl(config, "https://evil.example/tickets/1"), "");

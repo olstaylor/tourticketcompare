@@ -2203,13 +2203,37 @@ async function hydrateShowBoard(section, filters = {}) {
     grid.replaceChildren(...shows.slice(0, limit).map((show) => renderShowCard(show, cardOptions)));
     await hydrateShowBoardPriceSnapshots(shows.slice(0, limit), cardOptions);
   } catch (error) {
-    grid.replaceChildren();
-    text(
-      grid,
-      "p",
-      "Checked ticket links are temporarily unavailable. You can still browse artist pages and buying guides.",
-      "muted empty-state"
-    );
+    // The show API adds provider availability and optional live price data, but
+    // a transient API failure must never erase already-published ticket access.
+    // Fall back to the public event feed and retain the same verified CTA gates.
+    const now = Date.now();
+    const artistSlug = slugify(filters.artistSlug || "");
+    const fallbackShows = sortEventsForSearch(await loadEventsForSearch())
+      .filter((show) => {
+        if (!show || (artistSlug && slugify(show.artist_slug) !== artistSlug)) return false;
+        const eventTime = Date.parse(show.datetime_iso || show.dateTimeISO || "");
+        return Number.isFinite(eventTime) && eventTime >= now && eventLinkPublishable(show);
+      })
+      .slice(0, limit);
+    if (!fallbackShows.length) {
+      grid.replaceChildren(renderShowBoardEmptyState(filters.artistName, filters.artistSlug));
+      return;
+    }
+
+    const fallbackCardOptions = {
+      showEventCta: Boolean(filters.showEventCta) && !filters.reviewGated,
+      reviewGated: Boolean(filters.reviewGated),
+      seatGeekAvailable: providerEnabled("seatgeek"),
+      vividSeatsAvailable: providerEnabled("vivid-seats"),
+      impactMarketplaceAvailability: Object.fromEntries(
+        IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, providerEnabled(provider.slug)])
+      ),
+      locationTitle: Boolean(filters.artistSlug),
+      artistName: String(filters.artistName || ""),
+      artistSlug: String(filters.artistSlug || "")
+    };
+    grid.replaceChildren(...fallbackShows.map((show) => renderShowCard(show, fallbackCardOptions)));
+    await hydrateShowBoardPriceSnapshots(fallbackShows, fallbackCardOptions);
   }
 }
 

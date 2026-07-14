@@ -1325,8 +1325,9 @@ summary {
 }
 
 .artist-card {
-  grid-template-rows: auto auto auto 1fr auto;
-  min-height: 238px;
+  grid-template-rows: none;
+  min-height: 0;
+  align-content: start;
 }
 
 .artist-card h3,
@@ -1366,7 +1367,7 @@ summary {
 }
 
 .artist-card .card-status {
-  align-self: end;
+  align-self: auto;
   margin: 0;
   color: var(--ink-soft);
   font-size: 0.82rem;

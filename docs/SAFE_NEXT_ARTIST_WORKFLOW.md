@@ -14,7 +14,7 @@ See also `docs/ADDING_ARTISTS.md` for field-level templates and the example plac
 |---|----------|--------|
 | 1 | Minimum evidence for a shell (no events, no CTAs)? | Confirmed name + slug, confirmed touring from an accepted source, brief factual summary from confirmed public record |
 | 2 | Minimum evidence for event cards? | Verified `ticketmaster_event_id` from TM Discovery API or official TM event page — not inferred from URL slug |
-| 3 | Minimum evidence for CTAs? | Exact TM artist URL opened in a browser and confirmed live; entry added to `VERIFIED_TICKET_LINKS` in `out.js` |
+| 3 | Minimum evidence for CTAs? | Every destination used by the chosen path is API-captured, opened in a browser, and backed by the matching `VERIFIED_TICKET_LINKS` and provider-identity entries; the preferred batch path verifies SeatGeek plus Ticketmaster when available |
 | 4 | First `indexing_status`? | Always `review_required`. Promote to `indexable_with_substantial_content` only when `out.js` entry is confirmed — both must land in the same PR |
 | 5 | Files that change per phase? | See Section A |
 | 6 | Validation commands in order? | See Section E |
@@ -45,15 +45,16 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 **Deliverables:**
 - Completed proposal template (Section B) with all fields filled
 - Accepted verification source URL for touring activity noted and dated
-- Ticketmaster artist page URL identified (not yet added to any file)
+- API-captured provider identity URLs identified (SeatGeek performer page for the preferred batch path, plus Ticketmaster artist page when available); none are added to production files yet
 
 **Gate 1 checklist — human must confirm all before Phase 2:**
 
 - [ ] Artist name and slug are unambiguous, URL-safe, unique among existing slugs in `artists.json`
 - [ ] Touring activity confirmed from an accepted verification source (URL and date recorded)
-- [ ] Ticketmaster artist page URL identified and opened in a browser — artist is present on TM
-- [ ] Destination hostname is in `PROVIDERS.ticketmaster.allowedDestinationHosts` in `functions/api/out.js`
-- [ ] Ticketmaster artist URL is browser-verified as a plain, unmonetized destination; if SeatGeek is included, its performer page is captured from the registry-verified SeatGeek performer ID and its approved affiliate configuration is confirmed
+- [ ] Every proposed provider identity is API-captured and unambiguous (SeatGeek performer ID and, when present, Ticketmaster attraction ID)
+- [ ] Each destination hostname is in the corresponding provider allowlist in `functions/api/out.js`
+- [ ] Ticketmaster URL, when present, is opened in a browser as a plain, unmonetized destination
+- [ ] SeatGeek performer page, when present, is opened in a browser and its approved affiliate configuration is confirmed
 - [ ] Factual summary drafted from confirmed public sources — no invented biographical claims
 - [ ] `BACKLOG.md` does not park this specific artist
 - [ ] No other artist-addition PR is open or in progress
@@ -86,8 +87,8 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 - [ ] `https://tourticketcompare.com/artists/<slug>` renders a watchlist empty state — no broken CTAs, no placeholder copy
 - [ ] `npm run artist:check -- <slug>` exits 0 (WARN expected for `review_required` with no verified providers)
 - [ ] No other page broken — spot-check homepage, `/artists` index, one existing artist page
-- [ ] Ticketmaster artist URL re-confirmed live in a browser on the day Phase 3 begins
-- [ ] Exact URL for `VERIFIED_TICKET_LINKS` noted
+- [ ] Every provider destination used by the planned promotion is re-confirmed live in a browser on the day Phase 3 begins
+- [ ] Exact provider URLs and identity IDs for every planned `VERIFIED_TICKET_LINKS` entry are recorded
 
 ---
 
@@ -105,15 +106,15 @@ Each gate is a human checkpoint. No phase may begin until the preceding gate is 
 
 | File | What changes |
 |------|-------------|
-| `public/data/artists.json` | Update: `indexable_with_substantial_content`; for the preferred batch path, set `verified_provider_count: 2`, `verified_providers: ["ticketmaster", "seatgeek"]`, and `last_verified_at: <today>` |
-| `public/data/catalog.json` | Update `ticket_links[]` entry: `verified: true`, `public_enabled: true`, `affiliate_enabled: true`, `last_checked_at: <today>` |
-| `functions/api/out.js` | **PROTECTED** — add `"<slug>:ticketmaster"` entry to `VERIFIED_TICKET_LINKS` only after browser confirmation. Plain `https://www.ticketmaster.com/...` URL is acceptable; no pre-minted Impact shortlink required |
-| `data/provider-identities.json` | Add a `review_status: "verified"` entry for the slug with the same browser-confirmed `ticketmaster_artist_url`, the `ticketmaster_attraction_id`, and `sync_enabled: true`. **Required** — the `validate:cta-provider-state` guard (run by `test:mvp`) FAILs any artist CTA not backed by a verified registry identity. The promote scaffold does **not** generate this; add it by hand. |
+| `public/data/artists.json` | Update to `indexable_with_substantial_content`; preferred batch promotion records every verified artist-level provider (normally `ticketmaster` + `seatgeek`), while the single-artist fallback records only the provider it actually verified |
+| `public/data/catalog.json` | Mark each promoted provider `ticket_links[]` row `verified: true`, `public_enabled: true`, and `last_checked_at: <today>`; use the existing schema's `affiliate_enabled` flag consistently with that provider's link model |
+| `functions/api/out.js` | **PROTECTED** — add one `VERIFIED_TICKET_LINKS` entry per promoted provider only after browser confirmation. Ticketmaster remains a plain stored URL; SeatGeek uses the approved runtime tracking path |
+| `data/provider-identities.json` | Add a `review_status: "verified"` entry for the slug with the API-captured provider IDs/URLs used by the chosen path and `sync_enabled: true`. **Required** — the `validate:cta-provider-state` guard (run by `test:mvp`) fails any artist CTA not backed by a verified registry identity. The single-artist scaffold does not generate this; the batch writer does. |
 | `public/index.html` | Regenerated by `npm run events:sync` |
 
-`functions/api/shows.js` needs no edit — its affiliate map is derived from the new `out.js` entry automatically.
+`functions/api/shows.js` needs no edit — its artist link map is derived from the new `out.js` entries automatically.
 
-**Scaffold:** `npm run artist:promote -- --slug <slug>` generates the `artists.json`, `catalog.json`, and `out.js` edits (dry-run by default; `--write` applies them and runs `events:sync`). It does **not** touch `data/provider-identities.json` — add that verified registry entry by hand (see the row above), or `test:mvp` will FAIL on the CTA ↔ provider-state guard. The Ticketmaster URL is sourced from the Discovery API (`ticketmasterArtistUrl` in `artifacts/tm-discovery/candidates.json`), never constructed from the artist name — the storefront id differs from the Discovery id. If the artifact is unavailable (e.g. the slug is already in `artists.json`, so a fresh discovery run skips it as `already_in_artists`), fetch the canonical URL from the Discovery **attractions** endpoint for the stored attraction id and pass it via `--url <verified-url>`. The script warns if your URL disagrees with the API-captured one, and refuses if neither is available. It validates the URL shape and hostname but does **not** check the page is live — the browser pre-condition above remains mandatory, the same day, before running with `--write`.
+**Tooling paths:** The preferred path is `npm run artists:onboard:propose` followed by `npm run artists:promote:batch` (dry-run by default; `--write` to apply). It consumes API-captured SeatGeek/Ticketmaster identity data, writes the provider registry and artist-level links together, and emits a per-artist browser spot-check checklist. The single-artist `npm run artist:promote -- --slug <slug>` scaffold remains a limited Ticketmaster-only fallback: it generates only the plain Ticketmaster artist link and does **not** update `data/provider-identities.json`, so the registry entry must be added and validated separately before publishing. Never construct a provider URL from an artist name; the scripts use API-captured URLs, and a browser check is still mandatory before `--write`.
 
 The `indexing_status` promotion and the `out.js` entry must land in the **same PR**. Never set `indexable_with_substantial_content` without a corresponding `VERIFIED_TICKET_LINKS` entry.
 

@@ -1526,7 +1526,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Compare event ticket prices",
       "/guides/how-to-compare-event-ticket-prices",
       "button button-primary"
-    )}${anchor(\n      "Compare event ticket prices",\n      "/guides/how-to-compare-event-ticket-prices",\n      "button button-primary"\n    )}${anchor(
+    )}${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"

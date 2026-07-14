@@ -1101,11 +1101,11 @@ async function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Find your tour date. Compare ticket options.", "hero-title").id = "heroTitle";
+  text(copy, "h1", "Compare concert and event ticket prices for the same show.", "hero-title").id = "heroTitle";
   text(
     copy,
     "p",
-    "See available SeatGeek and Vivid Seats price snapshots for the same show. Confirm final prices, fees, and availability on the provider site.",
+    "Compare concert and event ticket prices using available SeatGeek and Vivid Seats snapshots for the same show. Confirm final prices, fees, and availability on the provider site.",
     "hero-subcopy"
   );
   text(

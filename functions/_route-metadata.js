@@ -85,6 +85,15 @@ export const TRUST_ROUTES = {
 };
 
 export const GUIDE_ROUTES = {
+  "/guides/how-to-compare-event-ticket-prices": {
+    title: "How to Compare Event Ticket Prices | TourTicketCompare",
+    h1: "How to Compare Event Ticket Prices",
+    description:
+      "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, delivery, and final checkout total.",
+    fullContent: true,
+    datePublished: "2026-07-14",
+    lastmod: "2026-07-14"
+  },
   "/guides/how-to-compare-concert-ticket-prices": {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     h1: "How to Compare Concert Ticket Prices Safely",

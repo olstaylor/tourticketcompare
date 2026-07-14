@@ -6,6 +6,7 @@
   --bg: #fbfaf8;
   --paper: #ffffff;
   --ink: #1c1a16;
+  --ink-soft: #46413a;
   --muted: #6c665c;
   --line: #ece7dd;
   --line-strong: #ddd5c6;
@@ -30,6 +31,26 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .button:hover,
+  .button:focus-visible {
+    transform: none;
+  }
 }
 
 body {

@@ -2049,9 +2049,9 @@ try {
     const requestUrl = new URL(String(request.url || request));
     approvedSeatGeekImpactCalled = true;
     assert(requestUrl.hostname === "api.impact.com", "SeatGeek approved SeatGeek credentials should still call Impact");
-    assert(requestUrl.pathname.includes("/Mediapartners/shared-account/Programs/sg-program/TrackingLinks"), "SeatGeek approved SeatGeek request should use the SeatGeek account and SeatGeek program");
+    assert(requestUrl.pathname.includes("/Mediapartners/sg-account/Programs/sg-program/TrackingLinks"), "SeatGeek approved SeatGeek request should use the SeatGeek account and SeatGeek program");
     assert(requestUrl.searchParams.get("DeepLink") === CONTROLLED_SEATGEEK_URL, "SeatGeek approved SeatGeek DeepLink should be the controlled SeatGeek event URL");
-    assert(options.headers?.Authorization === `Basic ${Buffer.from("shared-account:shared-token").toString("base64")}`, "SeatGeek approved SeatGeek request should use SeatGeek basic auth");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("sg-account:sg-token").toString("base64")}`, "SeatGeek approved SeatGeek request should use SeatGeek basic auth");
     return new Response(JSON.stringify({ TrackingURL: seatGeekTrackingUrl }), {
       status: 200,
       headers: { "content-type": "application/json" }
@@ -2078,9 +2078,9 @@ try {
   globalThis.fetch = async (request, options = {}) => {
     const requestUrl = new URL(String(request.url || request));
     campaignIdSeatGeekImpactCalled = true;
-    assert(requestUrl.pathname.includes("/Mediapartners/shared-account/Programs/campaign-sg-program/TrackingLinks"), "SeatGeek CampaignId env var should take precedence over legacy ProgramId env var");
+    assert(requestUrl.pathname.includes("/Mediapartners/sg-account/Programs/campaign-sg-program/TrackingLinks"), "SeatGeek CampaignId env var should take precedence over legacy ProgramId env var");
     assert(!requestUrl.pathname.includes("legacy-sg-program"), "SeatGeek CampaignId precedence should not use the legacy ProgramId when both are present");
-    assert(options.headers?.Authorization === `Basic ${Buffer.from("shared-account:shared-token").toString("base64")}`, "SeatGeek CampaignId precedence should preserve SeatGeek basic auth");
+    assert(options.headers?.Authorization === `Basic ${Buffer.from("sg-account:sg-token").toString("base64")}`, "SeatGeek CampaignId precedence should preserve SeatGeek basic auth");
     return new Response(JSON.stringify({ TrackingURL: seatGeekTrackingUrl }), {
       status: 200,
       headers: { "content-type": "application/json" }

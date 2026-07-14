@@ -584,9 +584,24 @@ function providerDisplayRank(providerSlug) {
   return rank === -1 ? PROVIDER_DISPLAY_ORDER.length : rank;
 }
 
+function artistProviderHref(artist, item, surface) {
+  const provider = slugify(item?.provider);
+  if (provider === "ticketmaster") {
+    const params = new URLSearchParams({
+      artistSlug: artist.slug,
+      provider,
+      sourcePath: `/artists/${artist.slug}`,
+      surface
+    });
+    if (item?.tour_slug) params.set("tourSlug", item.tour_slug);
+    return `/api/out?${params.toString()}`;
+  }
+  return safeVerifiedEventUrl(item?.url);
+}
+
 function renderProviderButtons(artist, surface) {
   const links = ticketLinksForArtist(artist.slug)
-    .filter((item) => Boolean(safeVerifiedEventUrl(item?.url)))
+    .filter((item) => slugify(item.provider) === "ticketmaster" || Boolean(safeVerifiedEventUrl(item?.url)))
     .filter((item) => providerEnabled(slugify(item.provider)))
     .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)));
   const panel = document.createElement("section");
@@ -631,7 +646,7 @@ function renderProviderButtons(artist, surface) {
     card.className = "provider-card";
     text(card, "p", "Artist-level provider page", "eyebrow");
     text(card, "h3", copy.name);
-    const cta = buttonLink(copy.label, safeVerifiedEventUrl(item.url), "primary");
+    const cta = buttonLink(copy.label, artistProviderHref(artist, item, surface), "primary");
     cta.addEventListener("click", () => {
       sendAnalytics("provider_click", {
         artistSlug: artist.slug,
@@ -809,19 +824,19 @@ function renderSearchResultItem(type, data) {
       {
         provider: "seatgeek",
         label: "Open verified SeatGeek event link",
-        href: directEventTicketUrl(data, "seatgeek"),
+        href: eventTicketHref(data, "seatgeek"),
         available: providerEventPublishable(data, "seatgeek") && Boolean(safeSeatGeekEventUrl(data.seatgeek_url))
       },
       {
         provider: "vivid-seats",
         label: "Open verified Vivid Seats event link",
-        href: directEventTicketUrl(data, "vivid-seats"),
+        href: eventTicketHref(data, "vivid-seats"),
         available: providerEventPublishable(data, "vivid-seats") && Boolean(safeVividSeatsEventUrl(data.vividseats_url))
       },
       {
         provider: "ticketmaster",
         label: "Open verified event link",
-        href: directEventTicketUrl(data, "ticketmaster"),
+        href: eventTicketHref(data, "ticketmaster"),
         available: eventLinkPublishable(data) && Boolean(safeVerifiedEventUrl(data.ticketmaster_url))
       }
     ];
@@ -1325,12 +1340,15 @@ function safeVerifiedEventUrl(value) {
   }
 }
 
-function directEventTicketUrl(show, provider) {
+function eventTicketHref(show, provider) {
+  if (provider === "ticketmaster") {
+    const showId = String(show?.id || "").trim();
+    return showId ? `/api/out?${new URLSearchParams({ showId, provider }).toString()}` : null;
+  }
   if (provider === "seatgeek") return safeSeatGeekEventUrl(show?.seatgeek_url);
   if (provider === "vivid-seats") return safeVividSeatsEventUrl(show?.vividseats_url);
   const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
   if (marketplace) return safeImpactMarketplaceEventUrl(show?.[marketplace.urlField], marketplace);
-  if (provider === "ticketmaster") return safeVerifiedEventUrl(show?.ticketmaster_url);
   return null;
 }
 

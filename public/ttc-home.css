@@ -373,3 +373,22 @@
 /* misc */
 .ttc-sec--flush { padding-top: 0; }
 .ttc-eyebrow--onbrand { color: color-mix(in oklab, var(--ttc-brand-ink) 70%, transparent); }
+
+/* ============================================================
+   Reduced-motion — honour the OS "reduce motion" preference
+   (WCAG 2.3.3). Neutralise the looping verified pulse and the
+   hover/press micro-motions; instant state changes still apply.
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  .ttc *,
+  .ttc *::before,
+  .ttc *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .ttc-pulse::after { animation: none; }
+  .ttc-gcard:hover { transform: none; }
+  .ttc-search__go:active { transform: none; }
+}

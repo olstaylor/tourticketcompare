@@ -12,6 +12,13 @@ assert.equal(healthResponse.status, 200);
 assert.equal(healthJson.productSearchReady, false);
 assert.equal(healthJson.productSearchAccessVerified, false);
 
+const retiredTicketmasterHealth = await impactHealth({
+  env: { IMPACT_ACCOUNT_SID: "retired-account", IMPACT_AUTH_TOKEN: "retired-token" }
+});
+const retiredTicketmasterJson = await retiredTicketmasterHealth.json();
+assert.equal(retiredTicketmasterJson.readiness.configured, false);
+assert.equal(retiredTicketmasterJson.productSearchConfigured, false);
+
 const missingCatalogs = await impactCatalogs({
   request: new Request("https://tourticketcompare.com/api/impact/catalogs?q=ticket"),
   env: missingEnv

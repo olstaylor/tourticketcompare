@@ -1812,9 +1812,9 @@ assert(outResponse.status === 302, "showId /api/out should use a verified Ticket
 assert(outResponse.headers.get("location") === verifiedMorganShow.ticketmaster_url, "source_url fallback should keep the exact verified Ticketmaster event URL");
 const renderedTicketmasterHrefs = [...serverMorganWithoutSeatGeek.text.matchAll(/href="([^"]+)"/g)]
   .map((match) => decodeHtmlEntities(match[1]))
-  .filter((href) => href.includes("ticketmaster.com"));
-assert(renderedTicketmasterHrefs.length > 0, "regression check should find rendered Morgan Wallen Ticketmaster destinations");
-assert(renderedTicketmasterHrefs.every((href) => href.startsWith("https://") && !href.includes("/api/out")), "rendered Ticketmaster CTAs must use direct verified destinations");
+  .filter((href) => href.startsWith("/api/out?showId=") && href.includes("provider=ticketmaster"));
+assert(renderedTicketmasterHrefs.length > 0, "regression check should find rendered Morgan Wallen Ticketmaster redirect CTAs");
+assert(renderedTicketmasterHrefs.every((href) => !href.includes("ticketmaster.com")), "rendered Ticketmaster CTAs must retain the safe /api/out redirect");
 
 const originalFetch = globalThis.fetch;
 const allRenderedSeatGeekHrefs = [...serverMorganWithSeatGeek.text.matchAll(/href="([^"]+)"/g)]

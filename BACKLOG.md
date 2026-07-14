@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-07-13 (TicketNetwork, Ticket Liquidator, and StubHub International activated from their verified Impact catalogs.)
+Last updated: 2026-07-14 (pruned stale/over-cautious items; venue landing pages and guide internal-linking shipped).
 
 ## Active priorities (in order)
 
@@ -34,14 +34,6 @@ Run `npm run artists:onboard:propose` with target artist names (US/EU major tour
 - **Blank tour labels:** JAY-Z Inglewood "JAY-Z30", JAY-Z London "JAY-Z - 30", and the withheld Shakira Madrid "Shakira Stadium" row need owner-supplied `tour_name` values; never infer them from URL slugs. The Yankee Stadium JAY-Z rows use "JAY-Z Yankee Stadium 2026".
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 
-### 5. #174 Phase B — data-refresh hardening (judgment call)
-
-Phase A (documented flow + `stale-sync-guard` CI job) is done. Phase B is an optional build-time cache-bust or stronger pre-commit hook — only adopt if it fits the Cloudflare Pages build cleanly; do not ship a brittle cache-bust.
-
-### 6. #10 — Production raw HTML verification (only if still needed)
-
-Local proof passed on 17 representative routes (2026-05-19); PR #184's guide drift validation runs on every PR. Non-blocking unless a fresh production browser check finds a real mismatch. Remaining deliverable: a human-run `curl` checklist over production routes (see the #10 issue comment).
-
 ## Recently completed
 
 Closed on GitHub / done in the repo; kept as a short audit trail only. Details live in git history and `PROJECT_STATUS.md`.
@@ -66,8 +58,6 @@ Intentionally not work until separately scoped and owner-approved. Unparking rem
 - **Live inventory aggregation; "cheapest ticket" / "guaranteed availability" claims.** Approved provider lanes are timestamped listed-price snapshots, not live inventory or checkout-total guarantees.
 - **Provider expansion beyond SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International.** Adding any further provider still requires a separate verified feed, explicit written usage rights, and scoped integration work.
 - **Provider abstraction implementation.** `functions/api/_providers/index.js` and `functions/_provider-registry.js` are scaffolding; do not build on them without a real provider integration scoped first.
-- **Broad refactors of `scripts/smoke-prelaunch.mjs`** or other validation scripts.
-- **Internal Impact Publisher Tag diagnostic route (`/internal/impact-tag-test`) and `functions/api/debug-seatgeek.js`** — leave intact.
 
 ## How to update this file
 

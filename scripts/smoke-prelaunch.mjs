@@ -420,13 +420,15 @@ const publicUiFiles = [
   "public/data/events.json",
   "public/data/events-index.json",
   "public/data/catalog.json",
-  "public/data/guides-content.json"
+  "public/data/guides-content.json",
+  "public/ttc-home.js"
 ];
 const publicCopyFiles = [
   "public/index.html",
   "public/app.js",
   "functions/[[path]].js",
-  "public/data/catalog.json"
+  "public/data/catalog.json",
+  "public/ttc-home.js"
 ];
 const guideCopyFiles = [
   "public/data/guides-content.json",
@@ -439,7 +441,8 @@ const publicCopyRegressionFiles = [
   "functions/[[path]].js",
   "functions/_route-metadata.js",
   "public/data/guides-content.json",
-  "public/data/catalog.json"
+  "public/data/catalog.json",
+  "public/ttc-home.js"
 ];
 const publicAffiliateUrlFiles = [
   ...new Set(

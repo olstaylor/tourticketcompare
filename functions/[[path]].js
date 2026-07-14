@@ -565,6 +565,7 @@ const GUIDE_CLUSTERS = [
     title: "Compare prices and fees",
     intro: "Compare final checkout totals, fees, and provider terms before you decide.",
     slugs: [
+      "/guides/how-to-compare-event-ticket-prices",
       "/guides/how-to-compare-concert-ticket-prices",
       "/guides/how-to-avoid-overpaying-for-concert-tickets",
       "/guides/concert-ticket-fees-explained",

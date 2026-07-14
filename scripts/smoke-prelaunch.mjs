@@ -420,13 +420,15 @@ const publicUiFiles = [
   "public/data/events.json",
   "public/data/events-index.json",
   "public/data/catalog.json",
-  "public/data/guides-content.json"
+  "public/data/guides-content.json",
+  "public/ttc-home.js"
 ];
 const publicCopyFiles = [
   "public/index.html",
   "public/app.js",
   "functions/[[path]].js",
-  "public/data/catalog.json"
+  "public/data/catalog.json",
+  "public/ttc-home.js"
 ];
 const guideCopyFiles = [
   "public/data/guides-content.json",
@@ -439,7 +441,8 @@ const publicCopyRegressionFiles = [
   "functions/[[path]].js",
   "functions/_route-metadata.js",
   "public/data/guides-content.json",
-  "public/data/catalog.json"
+  "public/data/catalog.json",
+  "public/ttc-home.js"
 ];
 const publicAffiliateUrlFiles = [
   ...new Set(
@@ -1064,7 +1067,7 @@ assert(ttcHomeJs.includes('homepageSearch.setQuery(query, { open: true, focus: w
 assert(ttcHomeJs.includes('searchWidget.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage q hydration should scroll to the preserved search-widget anchor when requested");
 assert(ttcHomeJs.includes("Approved snapshots are provider-attributed and timestamped."), "homepage should describe gated provider-attributed snapshots accurately");
 assert(ttcHomeJs.includes("Compare concert ticket prices"), "homepage should lead with the comparison intent");
-assert(ttcHomeJs.includes("Confirm final prices, fees and availability on the provider site."), "homepage should tell fans where final prices and fees are confirmed");
+assert(ttcHomeJs.includes("Confirm final prices, fees, and availability on the provider site."), "homepage should tell fans where final prices and fees are confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");
 assert(ttcHomeJs.includes('role: "combobox"') && ttcHomeJs.includes('"aria-activedescendant"'), "homepage search should expose combobox state for keyboard and assistive-technology users");

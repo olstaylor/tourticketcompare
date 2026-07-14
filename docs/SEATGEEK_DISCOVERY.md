@@ -135,7 +135,7 @@ runs both halves nightly at 05:00 UTC — `seatgeek:enrich` in apply mode, then
 `seatgeek:verify:apply` — regenerates partitions and the inline fallback, runs
 the full validation suite in-job, and opens an auto-merged PR
 (`automation:seatgeek-cta` label) with both committed reports. This is the
-second narrow auto-publish exception in `SAFE_PUBLISHING_RULES.md`. Manual
+third narrow auto-publish exception in `SAFE_PUBLISHING_RULES.md`. Manual
 dispatch defaults to a safe preview; without `SEATGEEK_CLIENT_ID` the run
 no-ops. The manual workflow below remains valid for targeted runs.
 

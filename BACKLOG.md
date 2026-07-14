@@ -8,10 +8,9 @@ All remaining active work is **operational** (owner + gated tooling), not engine
 
 ### 1. Affiliate-pivot owner follow-ups (2026-07-02)
 
-1. **Post-deploy verification:** confirm `/api/out?artistSlug=<slug>&provider=ticketmaster` 302s plain and `provider=seatgeek` 302s to the Impact tracking URL; confirm no `utt.impactcdn.com` requests in devtools; browser-verify the 7 swapped plain Ticketmaster artist URLs and 16 SeatGeek performer-page URLs if not already done (lists in `data/provider-identities.json`).
+1. **SeatGeek price-stat entitlement (live blocker):** both Cloudflare display flags are enabled and the Vivid Seats price run writes all eligible rows (continue monitoring its scheduled summaries). SeatGeek has both Actions credentials and fetches every eligible event with HTTP 200, but all pricing statistics remain null. Owner action: have SeatGeek enable pricing-stat access for the existing API client, dispatch the SeatGeek workflow in apply mode, and confirm non-zero `usable`/`written` counts plus fresh D1 rows. Artist-level Vivid Seats entries remain separate scope.
 2. **Delete the unused `IMPACT_TICKETMASTER_*` secrets** in the Cloudflare dashboard (keep `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN`).
-3. **Price snapshot operations (verified 2026-07-13):** both Cloudflare display flags are enabled. The latest inspected Vivid Seats price run fetched and wrote all 208 eligible rows; continue monitoring its scheduled summaries. SeatGeek has both Actions credentials and fetches every eligible event with HTTP 200, but all pricing statistics remain null. Owner action: have SeatGeek enable pricing-stat access for the existing API client, dispatch the SeatGeek workflow in apply mode, and confirm non-zero `usable`/`written` counts plus fresh D1 rows. Artist-level Vivid Seats entries remain separate scope.
-4. When the first SeatGeek-first events publish without Ticketmaster URLs, relax `validate-cta-provider-state.mjs` hard error #3 to "publishable ⇒ ≥1 resolvable provider URL" **in that same PR**.
+3. When the first SeatGeek-first events publish without Ticketmaster URLs, relax `validate-cta-provider-state.mjs` hard error #3 to "publishable ⇒ ≥1 resolvable provider URL" **in that same PR**.
 
 ### 2. Impact provider operations — TicketNetwork, Ticket Liquidator, StubHub International
 

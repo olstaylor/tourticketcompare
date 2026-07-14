@@ -1330,6 +1330,15 @@ function safeVerifiedEventUrl(value) {
   }
 }
 
+function directEventTicketUrl(show, provider) {
+  if (provider === "seatgeek") return safeSeatGeekEventUrl(show?.seatgeek_url);
+  if (provider === "vivid-seats") return safeVividSeatsEventUrl(show?.vividseats_url);
+  const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
+  if (marketplace) return safeImpactMarketplaceEventUrl(show?.[marketplace.urlField], marketplace);
+  if (provider === "ticketmaster") return safeVerifiedEventUrl(show?.ticketmaster_url);
+  return null;
+}
+
 function safeSeatGeekEventUrl(value) {
   const safeUrl = safeVerifiedEventUrl(value);
   if (!safeUrl) return null;
@@ -1683,16 +1692,16 @@ function renderShowCard(show, options = {}) {
       // in the show-board/trust copy instead of repeating on every card.
       const ctaSpecs = [];
       if (sgAvailable) {
-        ctaSpecs.push({ provider: "seatgeek", primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
+        ctaSpecs.push({ provider: "seatgeek", href: directEventTicketUrl(show, "seatgeek"), primaryLabel: "Check SeatGeek", secondaryLabel: "Check SeatGeek" });
       }
       if (vsAvailable) {
-        ctaSpecs.push({ provider: "vivid-seats", primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
+        ctaSpecs.push({ provider: "vivid-seats", href: directEventTicketUrl(show, "vivid-seats"), primaryLabel: "Check Vivid Seats", secondaryLabel: "Check Vivid Seats" });
       }
       for (const provider of impactMarketplaceAvailable) {
-        ctaSpecs.push({ provider: provider.slug, primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
+        ctaSpecs.push({ provider: provider.slug, href: directEventTicketUrl(show, provider.slug), primaryLabel: `Check ${provider.name}`, secondaryLabel: `Check ${provider.name}` });
       }
       if (tmAvailable) {
-        ctaSpecs.push({ provider: "ticketmaster", primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
+        ctaSpecs.push({ provider: "ticketmaster", href: directEventTicketUrl(show, "ticketmaster"), primaryLabel: "Check Ticketmaster", secondaryLabel: "Check Ticketmaster" });
       }
       // A single available provider gets one full-width "View Tickets"
       // button — with nothing to compare, the "Check <Provider>" framing
@@ -1700,9 +1709,8 @@ function renderShowCard(show, options = {}) {
       // functions/[[path]].js.
       const singleCta = ctaSpecs.length === 1;
       const buttons = ctaSpecs.map((spec, index) => {
-        const params = new URLSearchParams({ showId, provider: spec.provider });
         const label = singleCta ? "View Tickets" : index === 0 ? spec.primaryLabel : spec.secondaryLabel;
-        const cta = buttonLink(label, `/api/out?${params.toString()}`, index === 0 ? "primary" : "secondary");
+        const cta = buttonLink(label, spec.href, index === 0 ? "primary" : "secondary");
         cta.target = "_blank";
         cta.rel = "noopener";
         return cta;

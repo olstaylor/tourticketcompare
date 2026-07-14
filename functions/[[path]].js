@@ -1522,7 +1522,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route.description
     )}</p>${renderGuideProvenance(route)}${contentHtml}${renderGuideSources(
       guideContent[route.path]?.sources
-    )}${artistBrowseHtml}<div class="action-row">${anchor(
+    )}${artistBrowseHtml}<div class="action-row">${anchor(\n      "Compare event ticket prices",\n      "/guides/how-to-compare-event-ticket-prices",\n      "button button-primary"\n    )}${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"

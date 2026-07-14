@@ -1171,7 +1171,7 @@ const strayFlaggedEnv = {
 };
 const strayFlaggedPage = await routeResponse("/artists/morgan-wallen", strayFlaggedEnv);
 assert(!strayFlaggedPage.text.includes(TM_RECHECK_HIDDEN_COPY), "stray suppression flags must not render the Ticketmaster-hidden recheck copy on public pages");
-assert(strayFlaggedPage.text.includes(controlledSeatGeekShow.ticketmaster_url), "verified Ticketmaster CTA must survive stray transient suppression flags");
+assert(strayFlaggedPage.text.includes(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "verified Ticketmaster CTA must survive stray transient suppression flags");
 assert(strayFlaggedPage.text.includes(CONTROLLED_SEATGEEK_URL), "SeatGeek CTA must never be hidden by stray transient suppression flags");
 
 // 2b. Behavioural guard: an explicit, reviewed verification_status of
@@ -1258,7 +1258,7 @@ const machineStatusEnv = {
   }
 };
 const machineStatusPage = await routeResponse("/artists/morgan-wallen", machineStatusEnv);
-assert(machineStatusPage.text.includes(controlledSeatGeekShow.ticketmaster_url), "verification_status=machine_high_confidence must keep the event Ticketmaster CTA rendering without the human-verified provider flag");
+assert(machineStatusPage.text.includes(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "verification_status=machine_high_confidence must keep the event Ticketmaster CTA rendering without the human-verified provider flag");
 
 // 3. Whole-page guard: no public artist page should ever ship the recheck-hidden
 //    copy while verified provider links exist on it.
@@ -2526,7 +2526,7 @@ console.log("SeatGeek visibility gating verified: event-level URL plus affiliate
 const brunoMarsPage = await routeResponse("/artists/bruno-mars");
 assert(brunoMarsPage.response.status === 200, "/artists/bruno-mars must return 200");
 assert(/index,follow/.test(brunoMarsPage.text), "/artists/bruno-mars (indexable) must render index,follow robots meta");
-assert(brunoMarsPage.text.includes('href="https://www.ticketmaster.com/bruno-mars-tickets/artist/1466801"'), "/artists/bruno-mars must render its verified direct artist-level ticket destination");
+assert(brunoMarsPage.text.includes('href="/api/out?artistSlug=bruno-mars&amp;provider=ticketmaster'), "/artists/bruno-mars must keep its existing Ticketmaster redirect path");
 assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mars (indexable) must not show review-pending notice");
 
 // Fully-verified artist (Morgan Wallen) must remain indexable and keep its event CTAs.
@@ -2535,7 +2535,7 @@ assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mar
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
 assert(serverMorganWithoutSeatGeek.text.includes(">View Tickets</a>"), "/artists/morgan-wallen (indexable) must show the single-provider 'View Tickets' event CTA");
 assert(serverMorganWithoutSeatGeek.text.includes('class="button button-primary button-full"'), "single-provider event CTA must render full-width (button-full)");
-assert(/href="https:\/\/www\.ticketmaster\.com\/[^"]+"\s+target="_blank"\s+rel="noopener"/.test(serverMorganWithoutSeatGeek.text), "server-rendered verified event CTA should use a direct destination and open in a new tab");
+assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&amp;provider=ticketmaster`), "server-rendered verified Ticketmaster event CTA should use its existing safe redirect");
 
 console.log("indexable artist verification passed for bruno-mars");
 

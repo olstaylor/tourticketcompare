@@ -678,6 +678,31 @@ function renderVenueLinks(venues) {
     .join("")}</div>`;
 }
 
+// Indexable venues an artist has upcoming shows at, for the artist -> venue
+// backlinks that complete the venue<->artist internal-linking loop.
+function artistIndexableVenues(events, artistSlug) {
+  const slug = slugify(artistSlug);
+  return deriveVenues(events).filter((venue) => venue.indexable && venue.artistSlugs.includes(slug));
+}
+
+function renderArtistVenuesHtml(events, artist) {
+  const venues = artistIndexableVenues(events, artist.slug);
+  if (!venues.length) return "";
+  const items = venues
+    .slice(0, 12)
+    .map((venue) => {
+      const location = venueLocationLabel(venue);
+      return `<li>${anchor(
+        `${venue.venue}${location ? ` — ${location}` : ""}`,
+        `/venues/${venue.slug}`
+      )}</li>`;
+    })
+    .join("");
+  return `<section class="nested-panel"><h2>Venues on this run</h2><p>See other upcoming shows we track at the venues ${escapeHtml(
+    artist.name
+  )} is playing:</p><ul class="guide-link-list">${items}</ul></section>`;
+}
+
 function renderVenueShowGroups(venue) {
   return venueShowsByArtist(venue)
     .map((group) => {
@@ -1607,6 +1632,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
     const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
+    const artistVenuesHtml = renderArtistVenuesHtml(events, artist);
     const shows = futureShowsForArtist(events, artist.slug);
     const reviewNoticeHtml = isIndexableArtist
       ? ""
@@ -1648,7 +1674,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes
-    )}</p></div></section>${demandHtml}<section class="nested-panel"><h2>Before you buy</h2><ul class="check-list"><li>Check the final price including all fees.</li><li>Check the seat location and any view restrictions.</li><li>Check delivery, refund, and resale terms on the provider site.</li></ul></section>${relatedGuidesHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+    )}</p></div></section>${demandHtml}<section class="nested-panel"><h2>Before you buy</h2><ul class="check-list"><li>Check the final price including all fees.</li><li>Check the seat location and any view restrictions.</li><li>Check delivery, refund, and resale terms on the provider site.</li></ul></section>${artistVenuesHtml}${relatedGuidesHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "mini-link"

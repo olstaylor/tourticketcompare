@@ -31,6 +31,34 @@ const missingProducts = await impactProducts({
 });
 assert.equal((await missingProducts.json()).status, "missing_credentials");
 
+const originalProductFetch = globalThis.fetch;
+try {
+  globalThis.fetch = async () => new Response(JSON.stringify({
+    Items: [{
+      CatalogItemId: "item-1",
+      CatalogId: "catalog-1",
+      CampaignId: "2322",
+      Name: "Example event",
+      Description: "Example listing",
+      Url: "https://tracking.example/c/publisher-account/2322?u=https%3A%2F%2Fwww.ticketnetwork.com%2Fen%2Fp%2Ftn-1%3Faffiliate%3Dpublisher-account",
+      CurrentPrice: "84.00",
+      Currency: "USD",
+      InternalPublisherToken: "publisher-token"
+    }]
+  }), { status: 200, headers: { "content-type": "application/json" } });
+  const safeProductsResponse = await impactProducts({
+    request: new Request("https://tourticketcompare.com/api/impact/products?credentialSet=seatgeek&q=example"),
+    env: { IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" }
+  });
+  const safeProducts = await safeProductsResponse.json();
+  assert.equal(safeProductsResponse.status, 200);
+  assert.equal(safeProducts.products.length, 1);
+  assert.equal(safeProducts.products[0].OriginalUrl, "https://www.ticketnetwork.com/en/p/tn-1");
+  assert.doesNotMatch(JSON.stringify(safeProducts), /publisher-account|publisher-token|tracking\.example/);
+} finally {
+  globalThis.fetch = originalProductFetch;
+}
+
 const outboundEnv = {
   IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
   IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token"

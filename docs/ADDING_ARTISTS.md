@@ -1,10 +1,10 @@
 # Adding Artists to TourTicketCompare
 
-Strict manual template and validation checklist for adding one new artist record.
+Field-level template and validation checklist for adding artists. The preferred roster-growth path is the API-captured batch workflow; this document also covers the single-artist fallback.
 
 **This is a protected process.** Do not add an artist without completing every step below. Do not skip evidence requirements. Do not add placeholder data.
 
-**Before starting:** Complete the proposal and human-verification gates in `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`. That document defines the Proposal → Shell → Promote → Events phases, the gate checklists between them, and the AI proposal prompt. The field-level templates and example format below apply once a proposal has cleared Gate 1.
+**Before starting:** Complete the proposal and human-verification gates in `docs/SAFE_NEXT_ARTIST_WORKFLOW.md`. That document defines the Proposal → Shell → Promote → Events phases, the gate checklists between them, and the AI proposal prompt. The field-level templates and example format below apply once a proposal has cleared Gate 1. For multiple artists, use `npm run artists:onboard:propose` → `npm run artists:promote:batch`; do not hand-copy identity URLs.
 
 ---
 

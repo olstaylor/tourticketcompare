@@ -1164,14 +1164,9 @@ summary {
   line-height: 1.45;
 }
 
-.show-card .cta-group {
-  width: 100%;
-  gap: 8px;
-}
-
-.show-card .cta-group .button {
-  flex: 0 1 auto;
-  min-width: 0;
+.show-card .provider-cta {
+  min-height: 46px;
+  padding: 9px 18px;
 }
 
 .show-card .button {
@@ -1196,27 +1191,41 @@ summary {
   font-size: 0.8rem;
 }
 
-/* Approved provider price snapshots — compact attributed chips */
+/* One CTA button per provider. A provider with an approved, fresh price lane
+   shows the listed snapshot amount on the right (the price is the button); the
+   rest read "Check prices". Required snapshot disclosures render once below in
+   .provider-cta-notes. */
 
-.price-snapshot-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+.provider-cta-group {
+  display: grid;
   gap: 8px;
   width: 100%;
 }
 
-.price-chip {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 8px;
-  padding: 6px 14px;
+.provider-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 52px;
+  padding: 10px 20px;
   border: 1px solid var(--line-strong);
   border-radius: 999px;
   background: #fff;
+  text-decoration: none;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease;
 }
 
-.price-chip-provider {
+.provider-cta:hover,
+.provider-cta:focus-visible {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+}
+
+.provider-cta-name {
   color: var(--muted);
   font-size: 0.72rem;
   font-weight: 950;
@@ -1224,24 +1233,39 @@ summary {
   text-transform: uppercase;
 }
 
-.price-chip-amount {
-  font-size: 1.02rem;
+.provider-cta-value {
   font-weight: 950;
   letter-spacing: -0.01em;
+  white-space: nowrap;
 }
 
-.price-chip-lower {
-  border-color: color-mix(in oklab, var(--green) 32%, transparent);
+.provider-cta-price {
+  font-size: 1.02rem;
+}
+
+.provider-cta-check {
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  color: var(--accent-dark);
+}
+
+.provider-cta-lower {
+  border-color: color-mix(in oklab, var(--green) 40%, transparent);
   background: var(--green-soft);
+}
+
+.provider-cta-lower .provider-cta-name,
+.provider-cta-lower .provider-cta-price {
   color: var(--green);
 }
 
-.price-chip-lower .price-chip-provider {
-  color: var(--green);
+.provider-cta-notes {
+  display: grid;
+  gap: 3px;
+  width: 100%;
 }
 
 .price-compare-note {
-  flex-basis: 100%;
   margin: 0;
   color: var(--green);
   font-size: 0.88rem;
@@ -1249,14 +1273,20 @@ summary {
   line-height: 1.4;
 }
 
-.price-snapshot-row .disclosure-note {
-  flex-basis: 100%;
+.provider-cta-notes .disclosure-note {
   margin: 0;
   font-size: 0.78rem;
 }
 
-.price-unavailable-note {
-  margin: 0;
+/* Condensed snapshot rows: tight and muted, one provider + timestamp each; the
+   shared fees note sits just under them. Timestamps must stay fully visible, so
+   they wrap rather than truncate. */
+.provider-cta-notes .snapshot-line {
+  color: var(--muted);
+}
+
+.provider-cta-notes .snapshot-fees {
+  margin-top: 2px;
   color: var(--muted);
 }
 
@@ -1305,11 +1335,6 @@ summary {
 
   .show-card-body {
     justify-items: stretch;
-  }
-
-  .price-chip {
-    flex: 1 1 100%;
-    justify-content: space-between;
   }
 
   .show-card .copy-show-link {
@@ -1477,32 +1502,22 @@ summary {
   font-size: 0.84rem;
 }
 
-.show-card .price-snapshot-row,
-.show-card .price-compare-row {
+.show-card .provider-cta-notes {
   margin: 2px 0 0;
   padding: 8px 10px;
   border-radius: var(--radius-md);
   background: rgba(33, 64, 52, 0.06);
 }
 
-.show-card .price-snapshot-row .disclosure-note,
-.show-card .price-compare-row .disclosure-note,
-.show-card .price-compare-note {
-  margin-top: 3px;
+.show-card .provider-cta-notes .disclosure-note,
+.show-card .provider-cta-notes .price-compare-note {
+  margin: 0;
   font-size: 0.7rem;
   line-height: 1.3;
 }
 
-.show-card .cta-group {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
+.show-card .provider-cta-group {
   margin-top: 2px;
-}
-
-.show-card .cta-group .button {
-  min-width: 0;
-  width: 100%;
 }
 
 .show-card .disclosure-note {
@@ -1549,8 +1564,5 @@ summary {
     width: 58px;
   }
 
-  .show-card .cta-group {
-    grid-template-columns: 1fr;
-  }
 }
 \n

@@ -1,9 +1,8 @@
 import { impactReadiness, json } from "./_utils.js";
 
 export async function onRequestGet({ env }) {
-  const readiness = impactReadiness(env, "shared");
-  const seatgeekReadiness = impactReadiness(env, "seatgeek");
-  const productSearchConfigured = readiness.configured || seatgeekReadiness.configured;
+  const readiness = impactReadiness(env, "seatgeek");
+  const productSearchConfigured = readiness.configured;
   return json({
     generatedAt: new Date().toISOString(),
     ok: true,
@@ -15,8 +14,7 @@ export async function onRequestGet({ env }) {
     source: "impact-publisher",
     readiness,
     credentialSets: {
-      shared: readiness,
-      seatgeek: seatgeekReadiness
+      seatgeek: readiness
     },
     productSearchConfigured,
     productSearchAccessVerified: false,

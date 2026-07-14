@@ -708,6 +708,24 @@ h3 {
   text-decoration: underline;
 }
 
+.venue-show-list {
+  display: grid;
+  gap: 4px;
+  margin: 12px 0 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.venue-show-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.5;
+}
+
+.venue-show-list li:last-child {
+  border-bottom: 0;
+}
+
 details {
   padding: 14px 0;
   border-top: 1px solid var(--line);

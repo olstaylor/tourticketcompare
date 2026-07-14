@@ -1,4 +1,5 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
+import { deriveVenues } from "./_venues.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -30,6 +31,16 @@ const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 // stamping them with "today" on every request is a noisy/false signal to crawlers.
 // Bump this when the static page content or guides are meaningfully revised.
 const STATIC_LASTMOD = "2026-07-13";
+
+async function loadIndexableVenues(env) {
+  try {
+    const events = await loadJsonAsset(env, "/data/events.json");
+    if (!Array.isArray(events)) return [];
+    return deriveVenues(events).filter((venue) => venue.indexable);
+  } catch (error) {
+    return [];
+  }
+}
 
 async function loadIndexableArtists(env) {
   try {
@@ -78,7 +89,18 @@ export async function onRequestGet({ request, env }) {
     changefreq: "weekly",
     priority: "0.8"
   }));
-  const entries = staticEntries.concat(artistEntries);
+  const indexableVenues = await loadIndexableVenues(env);
+  const venueEntries = indexableVenues.length
+    ? [{ path: "/venues", lastmod: STATIC_LASTMOD, changefreq: "weekly", priority: "0.6" }].concat(
+        indexableVenues.map((venue) => ({
+          path: `/venues/${venue.slug}`,
+          lastmod: STATIC_LASTMOD,
+          changefreq: "weekly",
+          priority: "0.6"
+        }))
+      )
+    : [];
+  const entries = staticEntries.concat(artistEntries, venueEntries);
 
   const urlsXml = entries
     .map((entry) => {

@@ -1,6 +1,7 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS, CANONICAL_HOST, canonicalOrigin } from "./_route-metadata.js";
 import { attachApprovedMarketplacePrices } from "./api/shows.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
+import { deriveVenues, findVenue } from "./_venues.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -148,6 +149,39 @@ async function routeForPath(pathname, env) {
       breadcrumb: [
         { name: "Guides", path: "/guides" },
         { name: guide.title.replace(" | TourTicketCompare", ""), path }
+      ]
+    };
+  }
+
+  if (path === "/venues" || path.startsWith("/venues/")) {
+    const venueEvents = await loadEvents(env);
+    if (path === "/venues") {
+      const venues = deriveVenues(venueEvents).filter((venue) => venue.indexable);
+      return {
+        type: "venues-index",
+        path,
+        indexable: true,
+        title: "Concert Venues | Upcoming Tour Dates by Venue | TourTicketCompare",
+        description:
+          "Browse concert venues and the upcoming tracked tour dates at each, with links to verified artist ticket pages and approved price snapshots where available.",
+        venues,
+        breadcrumb: [{ name: "Venues", path: "/venues" }]
+      };
+    }
+    const venueMatch = path.match(/^\/venues\/([a-z0-9-]+)$/);
+    if (!venueMatch) return null;
+    const venue = findVenue(venueEvents, venueMatch[1]);
+    if (!venue) return null;
+    return {
+      type: "venue",
+      path,
+      indexable: venue.indexable,
+      title: `${venue.venue} Concerts & Tickets${venue.city ? ` in ${venue.city}` : ""} | TourTicketCompare`,
+      description: venueMetaDescription(venue),
+      venue,
+      breadcrumb: [
+        { name: "Venues", path: "/venues" },
+        { name: venue.venue, path }
       ]
     };
   }
@@ -442,6 +476,39 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     graph.push(faqPageSchema(comparisonHubFaqEntries()));
     graph.push(...comparisonHubItemListSchema(route, origin, catalog, events));
   }
+  if (route.type === "venues-index") {
+    graph.push({
+      "@type": "CollectionPage",
+      "@id": `${origin}${route.path}#webpage`,
+      url: `${origin}${route.path}`,
+      name: route.title,
+      description: route.description,
+      isPartOf: { "@type": "WebSite", url: `${origin}/`, name: "TourTicketCompare" }
+    });
+  }
+  if (route.type === "venue" && route.venue) {
+    const venue = route.venue;
+    graph.push({
+      "@type": "MusicVenue",
+      "@id": `${origin}${route.path}#venue`,
+      name: venue.venue,
+      url: `${origin}${route.path}`,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: venue.city || undefined,
+        addressCountry: venue.country || undefined
+      }
+    });
+    graph.push({
+      "@type": "CollectionPage",
+      "@id": `${origin}${route.path}#webpage`,
+      url: `${origin}${route.path}`,
+      name: route.title,
+      description: route.description,
+      about: { "@id": `${origin}${route.path}#venue` },
+      isPartOf: { "@type": "WebSite", url: `${origin}/`, name: "TourTicketCompare" }
+    });
+  }
   if (route.faq) graph.push(faqSchema(route));
   return { "@context": "https://schema.org", "@graph": graph };
 }
@@ -558,6 +625,79 @@ function renderArtistLinks(catalog, events = []) {
       )}</p>${anchor(status.ctaLabel, `/artists/${artist.slug}`, status.ctaClass)}</article>`;
     })
     .join("")}</div>`;
+}
+
+function venueLocationLabel(venue) {
+  return [venue.city, venue.country].filter((part) => String(part || "").trim()).join(", ");
+}
+
+function venueShowCountLabel(count) {
+  return `${count} upcoming ${count === 1 ? "show" : "shows"}`;
+}
+
+function venueArtistCountLabel(count) {
+  return `${count} ${count === 1 ? "artist" : "artists"}`;
+}
+
+function venueMetaDescription(venue) {
+  const location = venueLocationLabel(venue);
+  return `Find upcoming shows at ${venue.venue}${location ? ` in ${location}` : ""}. ${venueShowCountLabel(
+    venue.showCount
+  )} we track across ${venueArtistCountLabel(
+    venue.artistSlugs.length
+  )}, with links to verified artist ticket pages and approved price snapshots where available.`;
+}
+
+// Group a venue's upcoming shows by artist, preserving first-show chronological order.
+function venueShowsByArtist(venue) {
+  const order = [];
+  const byArtist = new Map();
+  for (const show of venue.shows) {
+    if (!byArtist.has(show.artist_slug)) {
+      byArtist.set(show.artist_slug, { slug: show.artist_slug, name: show.artist_name || show.artist_slug, shows: [] });
+      order.push(show.artist_slug);
+    }
+    byArtist.get(show.artist_slug).shows.push(show);
+  }
+  return order.map((slug) => byArtist.get(slug));
+}
+
+function renderVenueLinks(venues) {
+  if (!venues.length) {
+    return `<p class="muted">No venues with multiple upcoming tracked dates are listed yet. New venues appear here as tour dates are verified.</p>`;
+  }
+  return `<div class="artist-card-grid">${venues
+    .map((venue) => {
+      const location = venueLocationLabel(venue);
+      return `<article class="artist-card"><h3>${escapeHtml(venue.venue)}</h3>${
+        location ? `<p class="card-status">${escapeHtml(location)}</p>` : ""
+      }<p class="card-status">${escapeHtml(
+        `${venueShowCountLabel(venue.showCount)} · ${venueArtistCountLabel(venue.artistSlugs.length)}`
+      )}</p>${anchor("View upcoming shows", `/venues/${venue.slug}`, "button button-secondary")}</article>`;
+    })
+    .join("")}</div>`;
+}
+
+function renderVenueShowGroups(venue) {
+  return venueShowsByArtist(venue)
+    .map((group) => {
+      const items = group.shows
+        .map((show) => {
+          const date = formatShowDateServer(show.datetime_iso);
+          const label = show.event_name && show.event_name !== group.name ? ` — ${escapeHtml(show.event_name)}` : "";
+          return `<li>${date ? `<strong>${escapeHtml(date)}</strong>` : ""}${label}</li>`;
+        })
+        .join("");
+      return `<article class="nested-panel"><h3>${anchor(
+        `${group.name} at ${venue.venue}`,
+        `/artists/${group.slug}`
+      )}</h3><ul class="venue-show-list">${items}</ul>${anchor(
+        `View all ${group.name} dates and ticket options`,
+        `/artists/${group.slug}`,
+        "text-link"
+      )}</article>`;
+    })
+    .join("");
 }
 
 const GUIDE_CLUSTERS = [
@@ -1552,6 +1692,49 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "/affiliate-disclosure",
       "button button-secondary"
     )}</div></section></main>`;
+  }
+
+  if (route.type === "venues-index") {
+    const venues = Array.isArray(route.venues) ? route.venues : [];
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="venuesTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="venuesTitle">Concert venues</h1><p class="lead">Browse the concert venues where we track multiple upcoming tour dates. Open a venue to see its upcoming shows, then follow the artist link for verified ticket options and any approved price snapshots.</p><p class="disclosure-note">Coverage varies by venue and region. Venues appear here once we track two or more upcoming dates at them.</p><section class="section-grid"><div class="section-intro"><h2>Venues with upcoming shows</h2><p>${escapeHtml(
+      `${venues.length} ${venues.length === 1 ? "venue" : "venues"} with multiple upcoming tracked dates.`
+    )}</p></div>${renderVenueLinks(venues)}</section><div class="action-row">${anchor(
+      "Browse artists",
+      "/artists",
+      "button button-secondary"
+    )}${anchor("Compare concert ticket prices", "/compare-concert-ticket-prices", "button button-secondary")}${anchor(
+      "Read buying guides",
+      "/guides",
+      "button button-secondary"
+    )}</div></section></main>`;
+  }
+
+  if (route.type === "venue") {
+    const venue = route.venue;
+    const location = venueLocationLabel(venue);
+    return `<main id="mainContent"><section class="content-page venue-page" aria-labelledby="venueTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="venueTitle">${escapeHtml(venue.venue)} concerts and upcoming shows</h1><p class="lead">${escapeHtml(
+      `We track ${venueShowCountLabel(venue.showCount)} at ${venue.venue}${location ? ` in ${location}` : ""} across ${venueArtistCountLabel(
+        venue.artistSlugs.length
+      )}.`
+    )} Pick a date, open the artist page, and compare available ticket options.</p><p class="disclosure-note">Ticket links, availability, and any price snapshots live on each artist's page. Confirm final prices and fees on the provider site.</p><section class="section-grid"><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
+      venue.venue
+    )}</h2><p>Dates are grouped by artist and listed earliest first.</p></div>${renderVenueShowGroups(
+      venue
+    )}</section><section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
+      venue.venue
+    )}</h2><ul class="check-list"><li>Open the artist page above to see verified ticket links and any approved, timestamped price snapshots for your date.</li><li>Match the exact date, then confirm the seat or section, ticket type, and final total on the provider site.</li><li>Check delivery timing and transfer rules so your tickets arrive before the show.</li><li>Review refund, resale, and cancellation terms before you pay.</li></ul><div class="action-row">${anchor(
+      "How to compare concert ticket prices",
+      "/guides/how-to-compare-concert-ticket-prices",
+      "button button-secondary"
+    )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "button button-secondary")}${anchor(
+      "All venues",
+      "/venues",
+      "button button-secondary"
+    )}</div></section></section></main>`;
   }
 
   if (route.path === "/artists") {

@@ -160,7 +160,8 @@ jobs:
           const reason = summary.zero_row_reason || "—";
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## SeatGeek price snapshots\n\n| Metric | Count |\n| --- | ---: |\n${rows}\n\n**Zero-row reason:** ${reason}\n`);
           if (summary.failed > 0) console.log(`::warning::${summary.failed} SeatGeek observations failed.`);
-          if (summary.zero_row_reason) console.log(`::notice::SeatGeek zero-row reason: ${summary.zero_row_reason}`);
+          if (summary.zero_row_reason === "pricing_stats_unavailable") console.log("::warning::SeatGeek pricing-stats entitlement unavailable — 0 usable rows. Known owner-tracked blocker (see PROJECT_STATUS.md); job is not failed but requires SeatGeek partner support to resolve.");
+          else if (summary.zero_row_reason) console.log(`::notice::SeatGeek zero-row reason: ${summary.zero_row_reason}`);
           NODE
 
       - name: Audit SeatGeek cache freshness

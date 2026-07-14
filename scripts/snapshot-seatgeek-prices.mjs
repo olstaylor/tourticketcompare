@@ -950,6 +950,19 @@ async function selfTest() {
   check(assert.equal, failedRun.errors, 1);
   check(assert.equal, failedRun.zero_row_reason, "provider_fetch_failed");
 
+  // Exit-code policy: genuine failures and unexplained empty apply runs fail the
+  // job; the diagnosed entitlement gap is surfaced but treated as non-fatal so
+  // scheduled runs do not go red every four hours for an external blocker.
+  check(assert.equal, isHardFailure(dryRun, baseOptions), false);
+  check(assert.equal, isHardFailure(failedRun, baseOptions), true);
+  check(assert.equal, isHardFailure(nullRunWithSecret, { apply: true }), false);
+  check(assert.equal, isHardFailure(nullRun, { apply: true }), false);
+  check(
+    assert.equal,
+    isHardFailure({ failed: 0, eligible: 5, usable: 0, zero_row_reason: "no_usable_current_prices" }, { apply: true }),
+    true
+  );
+
   // A 404 on an eligible event is classified as seatgeek_event_not_found and
   // produces a proposal-only re-match keyed by verified performer id + date.
   const rematchRun = await runIngestion(baseOptions, {
@@ -1041,6 +1054,26 @@ function printSummary(summary) {
   }
 }
 
+// Decide whether a completed run should exit non-zero. Genuine operational
+// failures (provider fetch/build/write errors surfaced via summary.failed, or an
+// apply run that produced no usable rows for an unexplained reason) fail the job
+// so they are noticed and actioned.
+//
+// The one deliberate exception is the SeatGeek pricing-stats entitlement gap:
+// the account's API client returns HTTP 200 for every eligible event with all
+// price-stat fields null, so zero usable rows can be built no matter how often
+// the workflow runs. That is an external, owner-tracked blocker (see
+// PROJECT_STATUS.md "Active risks"), already surfaced loudly via the run
+// summary, the pricing-stats warning, and a workflow annotation. Hard-failing on
+// it only turns every scheduled run red — alert fatigue that masks genuinely new
+// failures — so an entitlement-blocked run is treated as non-fatal.
+function isHardFailure(summary, options = {}) {
+  if (summary.failed > 0) return true;
+  if (summary.zero_row_reason === "pricing_stats_unavailable") return false;
+  if (options.apply && summary.eligible > 0 && summary.usable === 0) return true;
+  return false;
+}
+
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   if (options.help) {
@@ -1055,11 +1088,7 @@ async function main() {
   const summary = await runIngestion(options);
   if (options.json) console.log(JSON.stringify(summary, null, 2));
   else printSummary(summary);
-  const hardFailure =
-    summary.failed > 0 ||
-    (summary.eligible > 0 && summary.usable === 0 && summary.zero_row_reason === "pricing_stats_unavailable") ||
-    (options.apply && summary.eligible > 0 && summary.usable === 0);
-  if (hardFailure) process.exitCode = 1;
+  if (isHardFailure(summary, options)) process.exitCode = 1;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
@@ -1077,6 +1106,7 @@ export {
   buildUpsertSql,
   evaluateRematchCandidates,
   fetchJsonWithRetry,
+  isHardFailure,
   loadPerformerIdMap,
   runIngestion,
   selectEligibleEvents,

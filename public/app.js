@@ -2165,6 +2165,35 @@ async function hydrateComparisonHubPriceSnapshots() {
   }));
 }
 
+async function fetchShowBoardData(params, fetchAllArtistPages = false) {
+  const requestPage = async (pageParams) => {
+    const response = await fetch(`/api/shows?${pageParams.toString()}`, { headers: { Accept: "application/json" } });
+    if (!response.ok) throw new Error("shows_unavailable");
+    return response.json();
+  };
+
+  const firstPage = await requestPage(params);
+  const firstShows = safeShowList(firstPage);
+  const total = Number(firstPage?.pagination?.total);
+  if (!fetchAllArtistPages || !Number.isFinite(total) || total <= firstShows.length) return firstPage;
+
+  const allShows = [...firstShows];
+  while (allShows.length < total) {
+    const pageParams = new URLSearchParams(params);
+    pageParams.set("offset", String(allShows.length));
+    const page = await requestPage(pageParams);
+    const pageShows = safeShowList(page);
+    if (!pageShows.length) break;
+    allShows.push(...pageShows);
+  }
+
+  return {
+    ...firstPage,
+    shows: allShows,
+    pagination: { ...(firstPage.pagination || {}), total, returned: allShows.length }
+  };
+}
+
 async function hydrateShowBoard(section, filters = {}) {
   const grid = section.querySelector("[data-show-grid]");
   if (!grid) return;
@@ -2173,9 +2202,7 @@ async function hydrateShowBoard(section, filters = {}) {
   if (filters.artistSlug) params.set("artistSlug", filters.artistSlug);
 
   try {
-    const response = await fetch(`/api/shows?${params.toString()}`, { headers: { Accept: "application/json" } });
-    if (!response.ok) throw new Error("shows_unavailable");
-    const data = await response.json();
+    const data = await fetchShowBoardData(params, Boolean(filters.artistSlug));
     const shows = safeShowList(data);
     if (!shows.length) {
       grid.replaceChildren(renderShowBoardEmptyState(filters.artistName, filters.artistSlug));
@@ -2213,9 +2240,9 @@ async function hydrateShowBoard(section, filters = {}) {
         if (!show || (artistSlug && slugify(show.artist_slug) !== artistSlug)) return false;
         const eventTime = Date.parse(show.datetime_iso || show.dateTimeISO || "");
         return Number.isFinite(eventTime) && eventTime >= now && eventLinkPublishable(show);
-      })
-      .slice(0, limit);
-    if (!fallbackShows.length) {
+      });
+    const displayedFallbackShows = artistSlug ? fallbackShows : fallbackShows.slice(0, limit);
+    if (!displayedFallbackShows.length) {
       grid.replaceChildren(renderShowBoardEmptyState(filters.artistName, filters.artistSlug));
       return;
     }
@@ -2232,8 +2259,8 @@ async function hydrateShowBoard(section, filters = {}) {
       artistName: String(filters.artistName || ""),
       artistSlug: String(filters.artistSlug || "")
     };
-    grid.replaceChildren(...fallbackShows.map((show) => renderShowCard(show, fallbackCardOptions)));
-    await hydrateShowBoardPriceSnapshots(fallbackShows, fallbackCardOptions);
+    grid.replaceChildren(...displayedFallbackShows.map((show) => renderShowCard(show, fallbackCardOptions)));
+    await hydrateShowBoardPriceSnapshots(displayedFallbackShows, fallbackCardOptions);
   }
 }
 
@@ -2417,8 +2444,8 @@ function renderArtist(artist) {
   main.replaceChildren(section);
   hydrateShowBoard(showBoard, {
     artistSlug: artist.slug,
-    // 500 is the /api/shows MAX_LIST_LIMIT — well above any artist's event count,
-    // so every verified upcoming date is fetched instead of silently truncating.
+    // The API pages at 500 records; fetchShowBoardData follows every artist
+    // page so all published upcoming dates remain visible.
     limit: 500,
     filterable: true,
     showEventCta: !isReviewRequired,

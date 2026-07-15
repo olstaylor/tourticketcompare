@@ -51,7 +51,7 @@ function summarizeProviders(entries) {
     const provider = entry.provider || "other";
     summary[provider] ||= { checked: 0, failures: 0, blocked: 0, redirects: 0 };
     summary[provider].checked += 1;
-    if (entry.error || (entry.status != null && entry.status >= 400)) summary[provider].failures += 1;
+    if (!entry.blocked && (entry.error || (entry.status != null && entry.status >= 400))) summary[provider].failures += 1;
     if (entry.blocked) summary[provider].blocked += 1;
     if (entry.redirected) summary[provider].redirects += 1;
   }
@@ -245,6 +245,7 @@ for (const item of links) {
   if (redirected && failOnRedirect) {
     failureEntries.push({
       url: item.url,
+      provider: providerForUrl(item.url),
       status: result.status,
       error: `unexpected redirect to ${result.finalUrl}`,
       refs: item.refs,

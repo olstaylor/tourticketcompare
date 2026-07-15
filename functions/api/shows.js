@@ -349,6 +349,31 @@ function buildTicketmasterArtistEventsCacheKey(artistSlug, artistName, countryCo
   )}&limit=${encodeURIComponent(String(limit))}`;
 }
 
+function buildTicketmasterArtistEventsStaleCacheKey(artistSlug, artistName, countryCode, limit) {
+  return `https://cache.local/tm-discovery/stale-events?artistSlug=${encodeURIComponent(
+    artistSlug
+  )}&artist=${encodeURIComponent(artistName)}&country=${encodeURIComponent(
+    countryCode || ""
+  )}&limit=${encodeURIComponent(String(limit))}`;
+}
+
+async function readTicketmasterArtistEventsCache(cache, cacheKey, cacheState, error = null) {
+  try {
+    const cached = await cache?.match?.(cacheKey);
+    if (!cached) return null;
+    const data = await cached.json();
+    if (!Array.isArray(data?.shows)) return null;
+    return {
+      shows: data.shows,
+      cacheState,
+      fetchedAt: data?.fetchedAt || null,
+      error
+    };
+  } catch (err) {
+    return null;
+  }
+}
+
 async function fetchTicketmasterArtistEvents(options) {
   const {
     env,
@@ -357,7 +382,8 @@ async function fetchTicketmasterArtistEvents(options) {
     artistName,
     countryCode,
     limit,
-    ttlSeconds
+    ttlSeconds,
+    staleTtlSeconds
   } = options || {};
 
   // Ticketmaster credentials are supplied as a Cloudflare Pages secret at runtime.
@@ -373,28 +399,11 @@ async function fetchTicketmasterArtistEvents(options) {
   }
 
   const cacheKey = buildTicketmasterArtistEventsCacheKey(normalizedSlug, normalizedName, countryCode, limit);
-  // Pages Functions can reject synthetic cache keys; discovery must stay live
-  // rather than fail the whole artist response when its optional cache is unavailable.
-  let cached = null;
-  try {
-    cached = await cache?.match?.(cacheKey);
-  } catch (err) {
-    cached = null;
-  }
-  if (cached) {
-    try {
-      const data = await cached.json();
-      const shows = Array.isArray(data?.shows) ? data.shows : [];
-      return {
-        shows,
-        cacheState: "cached",
-        fetchedAt: data?.fetchedAt || null,
-        error: null
-      };
-    } catch (err) {
-      // Fall through to refetch.
-    }
-  }
+  const staleCacheKey = buildTicketmasterArtistEventsStaleCacheKey(normalizedSlug, normalizedName, countryCode, limit);
+  // A fresh cache avoids repeat API calls. A separate longer-lived key retains
+  // the last verified response for graceful degradation during 429s/outages.
+  const cachedResult = await readTicketmasterArtistEventsCache(cache, cacheKey, "cached");
+  if (cachedResult) return cachedResult;
 
   const inflightKey = `tm-events:${normalizedSlug}:${countryCode || "all"}:${limit}`;
   const existingInFlight = IN_FLIGHT_ARTIST_DISCOVERY_REQUESTS.get(inflightKey);
@@ -403,6 +412,11 @@ async function fetchTicketmasterArtistEvents(options) {
   }
 
   const requestTask = (async () => {
+    const withStaleFallback = async (cacheState, error) => {
+      const staleResult = await readTicketmasterArtistEventsCache(cache, staleCacheKey, "stale", error);
+      return staleResult || { shows: [], cacheState, error };
+    };
+
     const baseUrl = String(env?.TICKETMASTER_DISCOVERY_BASE_URL || DEFAULT_TICKETMASTER_DISCOVERY_BASE).replace(/\/+$/, "");
     const params = new URLSearchParams();
     params.set("apikey", apiKey);
@@ -426,11 +440,7 @@ async function fetchTicketmasterArtistEvents(options) {
       });
       if (!res.ok) {
         if (res.status === 429) {
-          return {
-            shows: [],
-            cacheState: "rate_limited",
-            error: "ticketmaster_discovery_rate_limited"
-          };
+          return withStaleFallback("rate_limited", "ticketmaster_discovery_rate_limited");
         }
         throw new Error(`ticketmaster_discovery_http_${res.status}`);
       }
@@ -458,6 +468,13 @@ async function fetchTicketmasterArtistEvents(options) {
       });
       try {
         await cache?.put?.(cacheKey, response.clone());
+        const staleResponse = new Response(JSON.stringify(responsePayload), {
+          headers: {
+            "Content-Type": "application/json",
+            "Cache-Control": `public, max-age=${Math.max(3600, staleTtlSeconds || 36 * 60 * 60)}`
+          }
+        });
+        await cache?.put?.(staleCacheKey, staleResponse);
       } catch (err) {
         // Caching is an optimization; return the freshly fetched discovery data.
       }
@@ -469,11 +486,10 @@ async function fetchTicketmasterArtistEvents(options) {
         error: null
       };
     } catch (err) {
-      return {
-        shows: [],
-        cacheState: "error",
-        error: err && err.message ? err.message : "ticketmaster_discovery_error"
-      };
+      return withStaleFallback(
+        "error",
+        err && err.message ? err.message : "ticketmaster_discovery_error"
+      );
     }
   })();
 
@@ -1612,6 +1628,12 @@ export async function onRequestGet({ request, env }) {
   const ttlSeconds = ttlMinutes * 60;
   const ticketmasterEventsTtlMinutes = Math.max(5, getEnvNumber(env.TICKETMASTER_EVENTS_TTL_MINUTES, 30));
   const ticketmasterEventsTtlSeconds = ticketmasterEventsTtlMinutes * 60;
+  const ticketmasterArtistStaleTtlHours = Math.max(1, getEnvNumber(env.TICKETMASTER_ARTIST_STALE_TTL_HOURS, 36));
+  const ticketmasterArtistStaleTtlSeconds = ticketmasterArtistStaleTtlHours * 60 * 60;
+  // Normal site traffic reads the scheduled, persisted catalogue. Live artist
+  // discovery is an opt-in operations path and remains off unless explicitly
+  // enabled in the runtime environment.
+  const liveArtistDiscoveryEnabled = getEnvBoolean(env.TICKETMASTER_LIVE_ARTIST_DISCOVERY_ENABLED, false);
   const ticketmasterArtistEventsLimit = Math.max(
     1,
     Math.min(200, parsePositiveInt(env.TICKETMASTER_ARTIST_EVENTS_LIMIT, DEFAULT_TICKETMASTER_ARTIST_EVENTS_LIMIT))
@@ -1639,15 +1661,15 @@ export async function onRequestGet({ request, env }) {
   const discoveryCountry = String(env.TICKETMASTER_DISCOVERY_COUNTRY || "").trim();
   let sourceShows = allShows;
   let artistFeed = {
-    enabled: ticketmasterDiscoveryEnabled,
+    enabled: ticketmasterDiscoveryEnabled && liveArtistDiscoveryEnabled,
     used: false,
-    cacheState: "local",
-    source: "local",
+    cacheState: "catalog",
+    source: "scheduled-catalog",
     count: 0,
     error: null
   };
 
-  if (ticketmasterDiscoveryEnabled && artistSlugParam) {
+  if (ticketmasterDiscoveryEnabled && liveArtistDiscoveryEnabled && forceTicketmasterArtist && artistSlugParam) {
     // Discovery enriches local data; existing shows must not prevent newly
     // announced API dates from reaching the artist page.
     try {
@@ -1660,7 +1682,8 @@ export async function onRequestGet({ request, env }) {
         artistName,
         countryCode: discoveryCountry,
         limit: ticketmasterArtistEventsLimit,
-        ttlSeconds: ticketmasterEventsTtlSeconds
+        ttlSeconds: ticketmasterEventsTtlSeconds,
+        staleTtlSeconds: ticketmasterArtistStaleTtlSeconds
       });
 
       const fetchedShows = Array.isArray(discoveryResult.shows) ? discoveryResult.shows : [];

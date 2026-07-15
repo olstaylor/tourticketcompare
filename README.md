@@ -22,6 +22,8 @@ Displayed prices are timestamped provider-supplied listed-price snapshots, not l
 - **Frontend:** static HTML/CSS/JavaScript in `public/` (no compilation step)
 - **Routing and APIs:** Cloudflare Pages Functions in `functions/`
 - **Storage:** Cloudflare D1 via the `DEMAND_DB` binding
+- **Ticketmaster freshness:** a daily, PR-gated discovery job updates the persisted catalogue; visitor requests never fan out to Ticketmaster.
+- **Operational live lookup:** disabled by default. Set `TICKETMASTER_LIVE_ARTIST_DISCOVERY_ENABLED=true` only for controlled diagnostics, then request `liveArtist=true`; it is short-cached and serves the last verified result for up to 36 hours if Ticketmaster is rate-limited or unavailable.
 - **Deployment:** merges to GitHub `main` deploy through Cloudflare Pages Git integration
 
 ## Quick start

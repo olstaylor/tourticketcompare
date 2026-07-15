@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-07-14T07:17:26.309Z
+Generated: 2026-07-15T07:22:22.560Z
 
 ## Run summary
 
@@ -10,9 +10,9 @@ Generated: 2026-07-14T07:17:26.309Z
 - API access with client ID only: HTTP 200
 - Total events in data: 397
 - Ticketmaster-verified events: 292
-- Events already carrying a valid SeatGeek URL: 256
-- Ticketmaster-verified events already carrying a valid SeatGeek URL: 200
-- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 92
+- Events already carrying a valid SeatGeek URL: 254
+- Ticketmaster-verified events already carrying a valid SeatGeek URL: 198
+- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 94
 - Events selected/logged by this run: 31
 - Events checked by this run: 30
 - API calls made: 150
@@ -22,8 +22,8 @@ Generated: 2026-07-14T07:17:26.309Z
 - no_candidates_returned: 30
 - rate_limited_not_checked: 0
 - Stopped early: api_call_limit_reached
-- Next resume showId: tm-bad-bunny-2026-arnhem-2018685385
-- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-bad-bunny-2026-arnhem-2018685385'
+- Next resume showId: tm-bad-bunny-2026-arnhem-1578299680
+- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-bad-bunny-2026-arnhem-1578299680'
 - Accepted venue mismatches: 0
 - Conflicts found: 0
 
@@ -35,8 +35,8 @@ Generated: 2026-07-14T07:17:26.309Z
 ## Interpretation
 
 - `URLs added: 0` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 256 event(s) already carried valid SeatGeek URLs before this run, including 200 Ticketmaster-verified event(s).
-- This run queried only the 92 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
+- 254 event(s) already carried valid SeatGeek URLs before this run, including 198 Ticketmaster-verified event(s).
+- This run queried only the 94 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
 ## URLs added
@@ -54,6 +54,7 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-morgan-wallen-2026-indianapolis-0500635ddc2db013 | Morgan Wallen | 2026-05-08 | Indianapolis | no_candidates_returned | - |
 | tm-morgan-wallen-2026-indianapolis-0500635ddc56b025 | Morgan Wallen | 2026-05-09 | Indianapolis | no_candidates_returned | - |
 | tm-ariana-grande-2026-brooklyn-30006319f0e94aa7 | Ariana Grande | 2026-07-12 | Brooklyn | no_candidates_returned | - |
+| tm-ariana-grande-2026-brooklyn-30006319f34a4abb | Ariana Grande | 2026-07-13 | Brooklyn | no_candidates_returned | - |
 | tm-ariana-grande-2026-boston-0100631aaef23ee8 | Ariana Grande | 2026-07-22 | Boston | no_candidates_returned | - |
 | tm-ariana-grande-2026-boston-0100631aca626435 | Ariana Grande | 2026-07-24 | Boston | no_candidates_returned | - |
 | tm-ariana-grande-2026-london-3500631c8ea13055 | Ariana Grande | 2026-08-15 | London | no_candidates_returned | - |
@@ -80,8 +81,7 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-bad-bunny-2026-madrid-1566404077 | Bad Bunny | 2026-06-15 | Madrid | no_candidates_returned | - |
 | tm-bad-bunny-2026-d-sseldorf-1604365108 | Bad Bunny | 2026-06-20 | Düsseldorf | no_candidates_returned | - |
 | tm-bad-bunny-2026-d-sseldorf-653946928 | Bad Bunny | 2026-06-21 | Düsseldorf | no_candidates_returned | - |
-| tm-bad-bunny-2026-arnhem-1578299680 | Bad Bunny | 2026-06-23 | Arnhem | no_candidates_returned | - |
-| tm-bad-bunny-2026-arnhem-2018685385 | Bad Bunny | 2026-06-24 | Arnhem | api_call_limit_not_checked | - |
+| tm-bad-bunny-2026-arnhem-1578299680 | Bad Bunny | 2026-06-23 | Arnhem | api_call_limit_not_checked | - |
 
 ## Accepted venue mismatches
 

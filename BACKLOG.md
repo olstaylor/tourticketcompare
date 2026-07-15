@@ -30,13 +30,15 @@ Run `npm run artists:onboard:propose` with target artist names (US/EU major tour
 ### 4. Routine data hygiene (recurring)
 
 - **`needs_recheck` re-checks:** 36 events carry this state. Independently verified resale provenance keeps 9 SeatGeek and 6 Vivid Seats CTAs publishable; 21 rows have neither provider and remain fully CTA-suppressed. Re-check Ticketmaster storefront URLs periodically; never restore from the Discovery `url` field alone.
-- **Duplicate event rows (found 2026-07-08, agent — owner decision needed):** 9 Ariana Grande pairs remain duplicate rows of the same show (one legacy hex-id `human_verified` row + one Discovery-id `machine_high_confidence` row per show). Deletions are human-gated: pick the row to keep per pair (details in `PROJECT_STATUS.md` → Active risks). The earlier Bruno Mars wrong-night URL share was corrected by the SeatGeek sync; row dedup does not self-heal.
+- **Duplicate event rows — resolved 2026-07-15 (owner-approved).** All 13 duplicated Ariana Grande shows were deduped (the `machine_high_confidence` Discovery-id copies deleted, `human_verified` originals kept). See "Recently completed" and `PROJECT_STATUS.md` → Active risks.
 - **Blank tour labels:** JAY-Z Inglewood "JAY-Z30", JAY-Z London "JAY-Z - 30", and the withheld Shakira Madrid "Shakira Stadium" row need owner-supplied `tour_name` values; never infer them from URL slugs. The Yankee Stadium JAY-Z rows use "JAY-Z Yankee Stadium 2026".
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 
 ## Recently completed
 
 Closed on GitHub / done in the repo; kept as a short audit trail only. Details live in git history and `PROJECT_STATUS.md`.
+
+- **Ariana Grande duplicate-row dedup (2026-07-15, owner-approved).** A recount found 13 (not 9) duplicated shows — each an existing `human_verified` hex-id row plus a `machine_high_confidence` Discovery-id row sharing the same `discovery_event_id`/`ticketmaster_event_id`/URL, created when new-show discovery re-added an existing show under a Discovery-id-suffixed `id`. Deleted the 13 Discovery-id copies (verified lossless — no unique SeatGeek/Vivid coverage), kept the originals; site total 397→384 events, Ariana 54→41. Full validation suite green.
 
 - **Venue landing pages (2026-07-14).** New `/venues` index + `/venues/<slug>` pages, a server-rendered aggregation layer over verified `events.json` (`functions/_venues.js`, shared with the sitemap). No invented data and no provider/CTA logic — venue pages group upcoming tracked shows by artist and link to the artist pages where verified CTAs/prices live. Indexability gated at ≥2 upcoming shows (single-show venues `noindex`); slug merges inconsistent country labels for one physical venue; header/footer nav updated; `MusicVenue`/`CollectionPage` structured data + breadcrumbs; sitemap and smoke coverage added.
 - **Guide internal-linking (2026-07-14).** Curated "Related guides" cross-link section added to all 17 topic guides (guide-to-guide internal links ~24 → 74) and the event-price comparison guide placed in a themed `/guides` cluster.

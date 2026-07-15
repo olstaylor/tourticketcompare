@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-07-13",
+  "updated_at": "2026-07-15",
   "strategy": "Cloudflare Pages stadium tour market watch catalog with factual artist content and verified provider buttons only.",
   "artists": [
     {
@@ -635,6 +635,146 @@
         {
           "question": "How should I check ROSALÍA ticket options safely?",
           "answer": "Confirm the artist, date, venue, fees, delivery method, and refund or transfer terms on the ticket provider site before checkout."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "sabrina-carpenter",
+      "name": "Sabrina Carpenter",
+      "short_description": "American singer, songwriter, and actress.",
+      "country": "United States",
+      "image_alt": "Sabrina Carpenter artist ticket information",
+      "factual_summary": "Sabrina Carpenter is an American singer, songwriter, and actress who established a pop music career after early work as an actress. Her 2024 album Short n' Sweet, and singles including \"Espresso\" and \"Please Please Please,\" brought her wide commercial success and large-scale headline shows.",
+      "ticket_buying_notes": "Use the checked dates listed on this page where available, and the verified provider links to confirm current availability directly with the platform.",
+      "seo_title": "Sabrina Carpenter Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified Sabrina Carpenter ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
+      "faq": [
+        {
+          "question": "Where can I find Sabrina Carpenter tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "lady-gaga",
+      "name": "Lady Gaga",
+      "short_description": "American singer, songwriter, and actress.",
+      "country": "United States",
+      "image_alt": "Lady Gaga artist ticket information",
+      "factual_summary": "Lady Gaga is an American singer, songwriter, and actress known for reinventing her pop sound and for theatrical live performances. Her catalogue spans from her 2008 debut The Fame through later albums including Born This Way, Chromatica, and Mayhem.",
+      "ticket_buying_notes": "Use the checked dates listed on this page where available, and the verified provider links to confirm current availability directly with the platform.",
+      "seo_title": "Lady Gaga Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified Lady Gaga ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
+      "faq": [
+        {
+          "question": "Where can I find Lady Gaga tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "post-malone",
+      "name": "Post Malone",
+      "short_description": "American singer, rapper, and songwriter.",
+      "country": "United States",
+      "image_alt": "Post Malone artist ticket information",
+      "factual_summary": "Post Malone is an American singer, rapper, and songwriter whose music blends hip-hop, pop, and rock influences. His releases include Stoney, beerbongs & bentleys, and Hollywood's Bleeding, and he has since explored country-leaning material.",
+      "ticket_buying_notes": "Use the checked dates listed on this page where available, and the verified provider links to confirm current availability directly with the platform.",
+      "seo_title": "Post Malone Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified Post Malone ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
+      "faq": [
+        {
+          "question": "Where can I find Post Malone tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "zach-bryan",
+      "name": "Zach Bryan",
+      "short_description": "American country and Americana singer-songwriter.",
+      "country": "United States",
+      "image_alt": "Zach Bryan artist ticket information",
+      "factual_summary": "Zach Bryan is an American country and Americana singer-songwriter known for a raw, folk-influenced style. His breakout single \"Something in the Orange\" and his self-titled 2023 album expanded his audience to arena and stadium-scale live shows.",
+      "ticket_buying_notes": "Use the checked dates listed on this page where available, and the verified provider links to confirm current availability directly with the platform.",
+      "seo_title": "Zach Bryan Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified Zach Bryan ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
+      "faq": [
+        {
+          "question": "Where can I find Zach Bryan tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
         }
       ],
       "related_guides": [
@@ -1392,6 +1532,58 @@
       "last_checked_at": "2026-07-02",
       "disclosure_required": true,
       "url": "https://seatgeek.com/rosalia-tickets"
+    },
+    {
+      "link_id": "tm-artist-sabrina-carpenter",
+      "artist_slug": "sabrina-carpenter",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-lady-gaga",
+      "artist_slug": "lady-gaga",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-post-malone",
+      "artist_slug": "post-malone",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-zach-bryan",
+      "artist_slug": "zach-bryan",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
     }
   ],
   "safety_rules": [

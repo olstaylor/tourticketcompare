@@ -1636,48 +1636,31 @@ export async function onRequestGet({ request, env }) {
   };
 
   if (ticketmasterDiscoveryEnabled && artistSlugParam) {
-    const hasLocalArtistShows = allShows.some((show) => slugify(show.artist_slug) === artistSlugParam);
-    const shouldUseDiscovery = forceTicketmasterArtist || !hasLocalArtistShows;
-    if (shouldUseDiscovery) {
-      const artists = await loadArtistsFromAssets(env);
-      const artistName = resolveArtistName(artistSlugParam, artists, allShows);
-      const discoveryResult = await fetchTicketmasterArtistEvents({
-        env,
-        cache,
-        artistSlug: artistSlugParam,
-        artistName,
-        countryCode: discoveryCountry,
-        limit: ticketmasterArtistEventsLimit,
-        ttlSeconds: ticketmasterEventsTtlSeconds
-      });
+    // Discovery enriches local data; existing shows must not prevent newly
+    // announced API dates from reaching the artist page.
+    const artists = await loadArtistsFromAssets(env);
+    const artistName = resolveArtistName(artistSlugParam, artists, allShows);
+    const discoveryResult = await fetchTicketmasterArtistEvents({
+      env,
+      cache,
+      artistSlug: artistSlugParam,
+      artistName,
+      countryCode: discoveryCountry,
+      limit: ticketmasterArtistEventsLimit,
+      ttlSeconds: ticketmasterEventsTtlSeconds
+    });
 
-      const fetchedShows = Array.isArray(discoveryResult.shows) ? discoveryResult.shows : [];
-      artistFeed = {
-        enabled: true,
-        used: true,
-        cacheState: discoveryResult.cacheState || "error",
-        source: "ticketmaster-discovery",
-        count: fetchedShows.length,
-        error: discoveryResult.error || null
-      };
+    const fetchedShows = Array.isArray(discoveryResult.shows) ? discoveryResult.shows : [];
+    artistFeed = {
+      enabled: true,
+      used: true,
+      cacheState: discoveryResult.cacheState || "error",
+      source: "ticketmaster-discovery",
+      count: fetchedShows.length,
+      error: discoveryResult.error || null
+    };
 
-      if (forceTicketmasterArtist) {
-        sourceShows = allShows
-          .filter((show) => slugify(show.artist_slug) !== artistSlugParam)
-          .concat(fetchedShows);
-      } else if (fetchedShows.length > 0) {
-        sourceShows = allShows.concat(fetchedShows);
-      }
-    } else {
-      artistFeed = {
-        enabled: true,
-        used: false,
-        cacheState: "local",
-        source: "local",
-        count: 0,
-        error: null
-      };
-    }
+    sourceShows = mergeShows(allShows, fetchedShows);
   }
 
   const filteredShows = url ? filterShows(sourceShows, url.searchParams) : sourceShows;

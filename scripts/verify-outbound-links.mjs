@@ -30,6 +30,34 @@ function asUrl(value) {
   return trimmed;
 }
 
+function providerForUrl(value) {
+  try {
+    const host = new URL(value).hostname.toLowerCase().replace(/^www\./, "");
+    if (host.includes("ticketmaster.")) return "ticketmaster";
+    if (host.includes("seatgeek.")) return "seatgeek";
+    if (host.includes("vividseats.")) return "vivid-seats";
+    if (host.includes("ticketnetwork.")) return "ticketnetwork";
+    if (host.includes("ticketliquidator.")) return "ticket-liquidator";
+    if (host.includes("stubhub.")) return "stubhub-international";
+    return "other";
+  } catch {
+    return "other";
+  }
+}
+
+function summarizeProviders(entries) {
+  const summary = {};
+  for (const entry of entries) {
+    const provider = entry.provider || "other";
+    summary[provider] ||= { checked: 0, failures: 0, blocked: 0, redirects: 0 };
+    summary[provider].checked += 1;
+    if (!entry.blocked && (entry.error || (entry.status != null && entry.status >= 400))) summary[provider].failures += 1;
+    if (entry.blocked) summary[provider].blocked += 1;
+    if (entry.redirected) summary[provider].redirects += 1;
+  }
+  return summary;
+}
+
 function collectLinks(events) {
   const found = new Map();
   for (const event of events) {
@@ -180,7 +208,9 @@ for (const item of links) {
   if (result.blocked) {
     blockedEntries.push({
       url: item.url,
+      provider: providerForUrl(item.url),
       status: result.status,
+      blocked: true,
       refs: item.refs,
       eventIds,
       artistSlugs
@@ -192,6 +222,7 @@ for (const item of links) {
   if (!result.ok) {
     failureEntries.push({
       url: item.url,
+      provider: providerForUrl(item.url),
       status: result.status,
       error: result.error || null,
       refs: item.refs,
@@ -204,9 +235,9 @@ for (const item of links) {
 
   const redirected = Boolean(result.finalUrl && result.finalUrl !== item.url);
   if (redirected) {
-    redirectEntries.push({ url: item.url, finalUrl: result.finalUrl, status: result.status, refs: item.refs });
+    redirectEntries.push({ url: item.url, provider: providerForUrl(item.url), finalUrl: result.finalUrl, status: result.status, refs: item.refs });
   }
-  passEntries.push({ url: item.url, status: result.status, redirected, finalUrl: result.finalUrl || null, eventIds, artistSlugs });
+  passEntries.push({ url: item.url, provider: providerForUrl(item.url), status: result.status, redirected, finalUrl: result.finalUrl || null, eventIds, artistSlugs });
 
   const marker = redirected ? 'REDIRECT' : 'OK';
   console.log(`${marker} ${result.status} ${item.url}`);
@@ -214,6 +245,7 @@ for (const item of links) {
   if (redirected && failOnRedirect) {
     failureEntries.push({
       url: item.url,
+      provider: providerForUrl(item.url),
       status: result.status,
       error: `unexpected redirect to ${result.finalUrl}`,
       refs: item.refs,
@@ -227,6 +259,11 @@ for (const item of links) {
 const failures = failureEntries.length;
 const redirects = redirectEntries.length;
 const blocked = blockedEntries.length;
+const providerSummary = summarizeProviders([
+  ...passEntries,
+  ...failureEntries,
+  ...blockedEntries
+]);
 
 console.log(`\nSummary: ${links.length} checked, ${failures} failures, ${blocked} blocked (anti-bot), ${redirects} redirects.`);
 
@@ -237,7 +274,8 @@ if (emitJson) {
     failures: failureEntries,
     blocked: blockedEntries,
     passes: passEntries,
-    redirects: redirectEntries
+    redirects: redirectEntries,
+    provider_summary: providerSummary
   };
   if (jsonOutPath) {
     await fs.writeFile(jsonOutPath, JSON.stringify(summary, null, 2));

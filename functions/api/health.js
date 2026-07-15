@@ -14,16 +14,52 @@ function hasBinding(env, name) {
   return Boolean(env && Object.prototype.hasOwnProperty.call(env, name));
 }
 
+async function loadOperationalSummary(env) {
+  const assets = env?.ASSETS;
+  if (!assets || typeof assets.fetch !== "function") return { status: "unavailable" };
+  try {
+    const load = async (path) => {
+      const response = await assets.fetch(new Request(`https://assets.local${path}`));
+      if (!response.ok) throw new Error(`asset ${path} returned ${response.status}`);
+      return response.json();
+    };
+    const [artists, events] = await Promise.all([load("/data/artists.json"), load("/data/events.json")]);
+    const rows = Array.isArray(events) ? events : [];
+    const providerFields = {
+      seatgeek: ["seatgeek_url", "seatgeek"],
+      vividseats: ["vividseats_url", "vivid-seats"],
+      ticketnetwork: ["ticketnetwork_url", "ticketnetwork"],
+      ticketliquidator: ["ticketliquidator_url", "ticket-liquidator"],
+      stubhub_international: ["stubhub_international_url", "stubhub-international"]
+    };
+    const providerEventUrlCoverage = Object.fromEntries(Object.entries(providerFields).map(([provider, [field, provenanceKey]]) => [
+      provider,
+      rows.filter((event) => Boolean(event?.[field] || event?.provider_links?.[provenanceKey]?.url)).length
+    ]));
+    return {
+      status: "ok",
+      artists: Array.isArray(artists) ? artists.length : 0,
+      events: rows.length,
+      needsRecheck: rows.filter((event) => event?.verification_status === "needs_recheck").length,
+      providerEventUrlCoverage
+    };
+  } catch {
+    return { status: "unavailable" };
+  }
+}
+
 export async function onRequestGet({ env }) {
   const ticketNetwork = impactMarketplaceRuntimeConfig(env, "ticketnetwork");
   const ticketLiquidator = impactMarketplaceRuntimeConfig(env, "ticket-liquidator");
   const stubHubInternational = impactMarketplaceRuntimeConfig(env, "stubhub-international");
+  const operational = await loadOperationalSummary(env);
   return json({
     ok: true,
     service: "tourticketcompare",
     runtime: "cloudflare-pages-functions",
     status: "ok",
     timestamp: new Date().toISOString(),
+    operational,
     config: {
       mockMode: env?.MOCK_MODE === "true",
       allowMockPrices: env?.ALLOW_MOCK_PRICES === "true",

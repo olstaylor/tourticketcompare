@@ -27,6 +27,8 @@ Provider event-sync scheduling and auto-merge remain off pending a separate oper
 
 Run `npm run artists:onboard:propose` with target artist names (US/EU major tours), create shells, human-review the manifest, then `npm run artists:promote:batch --write` (≤20/PR, per-artist human browser spot-check checklist in the PR body). Event enrichment follows via the existing `seatgeek:propose` / `seatgeek:enrich` and TM new-show pipelines. Never auto-publish.
 
+_In flight (2026-07-15): first Tier-1 batch — 4 shells added (PR #465); Post Malone + Zach Bryan promoted (PR #466); Sabrina Carpenter + Lady Gaga held as `review_required` shells pending live dates. Next candidates: Sabrina/Gaga promote once dates land, then Tier 2 (The Weeknd, Coldplay — SeatGeek-first, international-domain caveat) and Tier 3 (Jelly Roll, Journey, Tame Impala)._
+
 ### 4. Routine data hygiene (recurring)
 
 - **`needs_recheck` re-checks:** 13 events carry this state after the owner's 2026-07-15 browser recheck (bts 4, bad-bunny 1, olivia-rodrigo 6, ed-sheeran 2). Verified resale provenance keeps 9 SeatGeek CTAs publishable; 4 rows have neither provider and remain fully CTA-suppressed. Re-check Ticketmaster storefront URLs periodically; never restore from the Discovery `url` field alone.

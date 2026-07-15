@@ -105,7 +105,7 @@ node scripts/sync-impact-marketplace-events.mjs --provider ticketnetwork --apply
 node scripts/snapshot-impact-marketplace-prices.mjs --provider ticketnetwork --json
 ```
 
-The event-link workflow is manual/reviewed. Catalog results are campaign-isolated and write only unambiguous artist + venue + city + venue-local-date matches. Provider-specific credentials may override an explicitly approved fallback credential set.
+The event-link workflow runs nightly in three serialized provider lanes after the Ticketmaster, SeatGeek, and Vivid Seats jobs. Catalog results are campaign-isolated and write only unambiguous artist + venue + city + venue-local-date matches. Scheduled changes auto-merge only after the full validation suite passes; manual dispatch remains preview-first and manual apply remains review-only. Provider-specific credentials may override an explicitly approved fallback credential set.
 
 The snapshot workflow reads the exact stored provider event ID. It skips missing/conflicting price or currency observations. Only providers with approved numeric feed data and enabled schedules write D1; other provider lanes remain manual and price-disabled. Check workflow YAML and `PROJECT_STATUS.md` for current activation rather than copying campaign IDs or schedules here.
 

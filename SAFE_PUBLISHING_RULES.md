@@ -79,7 +79,7 @@ Pages become indexable and conversion-led only after completing the phase gates 
 
 - Protected code/data: `functions/api/out.js`, `functions/_middleware.js`, `functions/[[path]].js`, `functions/_route-metadata.js`, `public/_routes.json`, and records in `public/data/{artists,catalog,events}.json`.
 - Impact credentials and affiliate/CTA destination generation.
-- Agents must not invent data, scrape providers, auto-publish artists, or create new governance docs. Auto-publishing events is allowed only via the five sanctioned automation paths above (the validated new-show auto-merge, the nightly lossless field-sync, the nightly SeatGeek CTA sync, and the nightly Vivid Seats CTA sync) — never ad hoc. Edit the canonical docs (`CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`) instead of adding parallel ones.
+- Agents must not invent data, scrape providers, auto-publish artists, or create new governance docs. Auto-publishing events is allowed only via the five sanctioned automation paths above (the validated new-show auto-merge, the nightly lossless field-sync, the nightly SeatGeek CTA sync, the nightly Vivid Seats CTA sync, and the nightly shared Impact marketplace link sync) — never ad hoc. Edit the canonical docs (`CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md`) instead of adding parallel ones.
 
 ## Dev and Placeholder Content
 

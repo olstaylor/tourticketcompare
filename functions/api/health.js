@@ -25,13 +25,16 @@ async function loadOperationalSummary(env) {
     };
     const [artists, events] = await Promise.all([load("/data/artists.json"), load("/data/events.json")]);
     const rows = Array.isArray(events) ? events : [];
-    const providerNames = ["seatgeek", "vividseats", "ticketnetwork", "ticketliquidator", "stubhub_international"];
-    const providerEventUrlCoverage = Object.fromEntries(providerNames.map((provider) => [
+    const providerFields = {
+      seatgeek: ["seatgeek_url", "seatgeek"],
+      vividseats: ["vividseats_url", "vivid-seats"],
+      ticketnetwork: ["ticketnetwork_url", "ticketnetwork"],
+      ticketliquidator: ["ticketliquidator_url", "ticket-liquidator"],
+      stubhub_international: ["stubhub_international_url", "stubhub-international"]
+    };
+    const providerEventUrlCoverage = Object.fromEntries(Object.entries(providerFields).map(([provider, [field, provenanceKey]]) => [
       provider,
-      rows.filter((event) => {
-        const key = provider === "stubhub_international" ? "stubhub-international" : provider === "vividseats" ? "vivid-seats" : provider;
-        return Boolean(event?.[`${key}_url`] || event?.provider_links?.[key]?.url);
-      }).length
+      rows.filter((event) => Boolean(event?.[field] || event?.provider_links?.[provenanceKey]?.url)).length
     ]));
     return {
       status: "ok",

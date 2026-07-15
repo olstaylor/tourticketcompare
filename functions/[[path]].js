@@ -387,16 +387,25 @@ function artistSchema(route, origin) {
 // MusicEvent nodes are emitted only for shows that pass the same publishable
 // gate as the visible show board (verified date + venue + artist; see
 // docs/CONTENT_RULES.md). Never emit offers, prices, or availability — the
-// ticket providers own those.
+// ticket providers own those, and validate-route-schema.mjs fails the build if
+// any of those words appear on a node. `description` and `image` are composed
+// only from already-verified facts (name/venue/city/date) and the site's own
+// representative image, so they add Search Console coverage without inventing
+// data. `organizer` and `endDate` stay omitted: we hold no verified promoter or
+// event end time, and fabricating either would violate the never-invent rule.
 function musicEventsSchema(route, origin, events) {
   const artistId = `${origin}${route.path}#artist`;
   return futureShowsForArtist(events, route.artist.slug, 6)
     .filter((show) => show.publishable && show.dateTimeISO && show.venue && show.city)
     .map((show) => {
       const anchorId = showAnchorId(show);
+      const displayDate = formatShowDateServer(show.dateTimeISO);
+      const description = `${route.artist.name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`;
       return {
         "@type": "MusicEvent",
         name: show.event_name || `${route.artist.name} — ${show.city}`,
+        description,
+        image: `${origin}/og-image.png`,
         startDate: show.dateTimeISO,
         eventStatus: "https://schema.org/EventScheduled",
         location: {

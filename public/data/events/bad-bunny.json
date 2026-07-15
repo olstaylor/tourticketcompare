@@ -1362,5 +1362,57 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7baxb",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "Bad Bunny",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Stade Roi Boudoin - Brussels",
+    "datetime_iso": "2026-07-21T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZuo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZuo",
+        "discovery_event_id": "Z7r9jZ1A7xZuo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZuo",
+    "status": "on-sale"
   }
 ]

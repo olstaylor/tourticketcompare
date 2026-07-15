@@ -24351,5 +24351,1164 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-4-9-2026/event/107449231"
+  },
+  {
+    "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
+    "artist_slug": "bad-bunny",
+    "artist_name": "Bad Bunny",
+    "event_name": "Bad Bunny",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Stade Roi Boudoin - Brussels",
+    "datetime_iso": "2026-07-21T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZuo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZuo",
+        "discovery_event_id": "Z7r9jZ1A7xZuo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZuo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-shakira-2026-madrid-z7r9jz1a7j7vi",
+    "artist_slug": "shakira",
+    "artist_name": "Shakira",
+    "event_name": "Shakira",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Shakira Stadium",
+    "datetime_iso": "2026-09-27T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7J7vI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7J7vI",
+        "discovery_event_id": "Z7r9jZ1A7J7vI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J7vI",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-kansas-city-vv17bz_dgkhumcmx",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Kauffman Stadium",
+    "datetime_iso": "2026-07-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600643F36DEDBBE",
+    "ticketmaster_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-kansas-city-missouri-07-15-2026/event/0600643F36DEDBBE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-kansas-city-missouri-07-15-2026/event/0600643F36DEDBBE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600643F36DEDBBE",
+        "discovery_event_id": "vv17bZ_dGkHUMcmX",
+        "url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-kansas-city-missouri-07-15-2026/event/0600643F36DEDBBE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_dGkHUMcmX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-ames-vv17bz_dgkbv6aim",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Ames",
+    "country": "United States Of America",
+    "venue": "ISU Cyclones - MidAmerican Energy Field at Jack Trice Stadium",
+    "datetime_iso": "2026-07-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600643E811C5B37",
+    "ticketmaster_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-ames-iowa-07-17-2026/event/0600643E811C5B37",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-ames-iowa-07-17-2026/event/0600643E811C5B37",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600643E811C5B37",
+        "discovery_event_id": "vv17bZ_dGkBv6AiM",
+        "url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-ames-iowa-07-17-2026/event/0600643E811C5B37",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_dGkBv6AiM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-edmonton-1av7z_dgkdhlsdx",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2026-07-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100643EFCAF10E2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-24-2026/event/1100643EFCAF10E2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-24-2026/event/1100643EFCAF10E2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100643EFCAF10E2",
+        "discovery_event_id": "1Av7Z_dGkDHlsdx",
+        "url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-24-2026/event/1100643EFCAF10E2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_dGkDHlsdx",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-edmonton-1aozkodgkd2xd4i",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2026-07-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006443CF8BB568",
+    "ticketmaster_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-25-2026/event/11006443CF8BB568",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-25-2026/event/11006443CF8BB568",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006443CF8BB568",
+        "discovery_event_id": "1AoZkodGkd2xD4I",
+        "url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-25-2026/event/11006443CF8BB568",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkodGkd2xD4I",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-salt-lake-city-g5vzz_dbvwfnk",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Rice-Eccles Stadium",
+    "datetime_iso": "2026-07-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00643EB4F48A93",
+    "ticketmaster_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-salt-lake-city-utah-07-28-2026/event/1E00643EB4F48A93",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-salt-lake-city-utah-07-28-2026/event/1E00643EB4F48A93",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00643EB4F48A93",
+        "discovery_event_id": "G5vzZ_dBVWFnK",
+        "url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-salt-lake-city-utah-07-28-2026/event/1E00643EB4F48A93",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_dBVWFnK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-eugene-vvg1hzbz5kbt3x",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "Eugene",
+    "country": "United States Of America",
+    "venue": "Autzen Stadium",
+    "datetime_iso": "2026-07-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006382D3EA94A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-eugene-oregon-07-25-2026/event/0F006382D3EA94A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-eugene-oregon-07-25-2026/event/0F006382D3EA94A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006382D3EA94A2",
+        "discovery_event_id": "vvG1HZbz5KBt3x",
+        "url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-eugene-oregon-07-25-2026/event/0F006382D3EA94A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZbz5KBt3x",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-san-diego-vvg1izbuhfiera",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Snapdragon Stadium",
+    "datetime_iso": "2026-08-01T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006366C8A27BC9",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-san-diego-california-07-31-2026/event/0A006366C8A27BC9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-san-diego-california-07-31-2026/event/0A006366C8A27BC9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006366C8A27BC9",
+        "discovery_event_id": "vvG1IZbUhFIERa",
+        "url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-san-diego-california-07-31-2026/event/0A006366C8A27BC9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZbUhFIERa",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-san-diego-vvg1izbunnre2z",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Snapdragon Stadium",
+    "datetime_iso": "2026-08-02T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00636AAABE73C0",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-san-diego-california-08-01-2026/event/0A00636AAABE73C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-san-diego-california-08-01-2026/event/0A00636AAABE73C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00636AAABE73C0",
+        "discovery_event_id": "vvG1IZbUnnRE2Z",
+        "url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-san-diego-california-08-01-2026/event/0A00636AAABE73C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZbUnnRE2Z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-salt-lake-city-g5vzzbm2nlqmp",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Rice-Eccles Stadium",
+    "datetime_iso": "2026-08-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006373EAADADD6",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-salt-lake-city-utah-08-07-2026/event/1E006373EAADADD6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-salt-lake-city-utah-08-07-2026/event/1E006373EAADADD6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006373EAADADD6",
+        "discovery_event_id": "G5vzZbM2nlQMp",
+        "url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-salt-lake-city-utah-08-07-2026/event/1E006373EAADADD6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZbM2nlQMp",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-denver-g5vzzbm515_rn",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Empower Field At Mile High",
+    "datetime_iso": "2026-08-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006372CA2D9BE3",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-denver-colorado-08-13-2026/event/1E006372CA2D9BE3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-denver-colorado-08-13-2026/event/1E006372CA2D9BE3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006372CA2D9BE3",
+        "discovery_event_id": "G5vzZbM515_RN",
+        "url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-denver-colorado-08-13-2026/event/1E006372CA2D9BE3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZbM515_RN",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-denver-g5vzzbm51uyri",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Empower Field At Mile High",
+    "datetime_iso": "2026-08-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006372CA379BE8",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-denver-colorado-08-14-2026/event/1E006372CA379BE8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-denver-colorado-08-14-2026/event/1E006372CA379BE8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006372CA379BE8",
+        "discovery_event_id": "G5vzZbM51uyRI",
+        "url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-denver-colorado-08-14-2026/event/1E006372CA379BE8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZbM51uyRI",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2026-08-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7r4vU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7r4vU",
+        "discovery_event_id": "Z7r9jZ1A7r4vU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vU",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "State Farm Stadium",
+    "datetime_iso": "2026-09-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7r4vt",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vt",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vt",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7r4vt",
+        "discovery_event_id": "Z7r9jZ1A7r4vt",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vt",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vt",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-dover-z7r9jz1a7r4vz",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan w/ Kings of Leon",
+    "city": "Dover",
+    "country": "United States Of America",
+    "venue": "The Woodlands at Dover Motor Speedway",
+    "datetime_iso": "2026-09-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7r4vz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7r4vz",
+        "discovery_event_id": "Z7r9jZ1A7r4vz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vz",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-dover-z7r9jz1a7r4vj",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan w/ Alabama Shakes",
+    "city": "Dover",
+    "country": "United States Of America",
+    "venue": "The Woodlands at Dover Motor Speedway",
+    "datetime_iso": "2026-09-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7r4vJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7r4vJ",
+        "discovery_event_id": "Z7r9jZ1A7r4vJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4vJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vJ",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-toronto-1a8zkcegkegri4f",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2026-09-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006382B5BE8548",
+    "ticketmaster_url": "https://www.ticketmaster.ca/zach-bryan-with-heaven-on-tour-toronto-ontario-09-21-2026/event/10006382B5BE8548",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/zach-bryan-with-heaven-on-tour-toronto-ontario-09-21-2026/event/10006382B5BE8548",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006382B5BE8548",
+        "discovery_event_id": "1A8ZkCeGkegRI4F",
+        "url": "https://www.ticketmaster.ca/zach-bryan-with-heaven-on-tour-toronto-ontario-09-21-2026/event/10006382B5BE8548",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkCeGkegRI4F",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-toronto-1a8zkcegkeuxbbr",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2026-09-22T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006382B689861E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/zach-bryan-with-heaven-on-tour-toronto-ontario-09-22-2026/event/10006382B689861E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/zach-bryan-with-heaven-on-tour-toronto-ontario-09-22-2026/event/10006382B689861E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006382B689861E",
+        "discovery_event_id": "1A8ZkCeGkeUxbbr",
+        "url": "https://www.ticketmaster.ca/zach-bryan-with-heaven-on-tour-toronto-ontario-09-22-2026/event/10006382B689861E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkCeGkeUxbbr",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-foxborough-vv1avzkupgkeoeq1t",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2026-10-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006365A09DA2A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-foxborough-massachusetts-10-02-2026/event/01006365A09DA2A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-foxborough-massachusetts-10-02-2026/event/01006365A09DA2A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006365A09DA2A9",
+        "discovery_event_id": "vv1AvZkuPGkeOEQ1t",
+        "url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-foxborough-massachusetts-10-02-2026/event/01006365A09DA2A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkuPGkeOEQ1t",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-foxborough-vv16vzkuso6za26afg",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan - With Heaven On Tour",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2026-10-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006373807E687B",
+    "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-foxborough-massachusetts-10-03-2026/event/01006373807E687B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-foxborough-massachusetts-10-03-2026/event/01006373807E687B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006373807E687B",
+        "discovery_event_id": "vv16vZkuSO6ZA26aFG",
+        "url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-foxborough-massachusetts-10-03-2026/event/01006373807E687B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16vZkuSO6ZA26aFG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev",
+    "artist_slug": "zach-bryan",
+    "artist_name": "Zach Bryan",
+    "event_name": "Zach Bryan w/ Gregory Alan Isakov",
+    "city": "Auburn University",
+    "country": "United States Of America",
+    "venue": "Jordan Hare Stadium",
+    "datetime_iso": "2026-10-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7r4ev",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4ev",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4ev",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7r4ev",
+        "discovery_event_id": "Z7r9jZ1A7r4ev",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7r4ev",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4ev",
+    "status": "on-sale"
   }
 ]

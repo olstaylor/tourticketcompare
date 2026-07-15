@@ -1649,29 +1649,40 @@ export async function onRequestGet({ request, env }) {
   if (ticketmasterDiscoveryEnabled && artistSlugParam) {
     // Discovery enriches local data; existing shows must not prevent newly
     // announced API dates from reaching the artist page.
-    const artists = await loadArtistsFromAssets(env);
-    const artistName = resolveArtistName(artistSlugParam, artists, allShows);
-    const discoveryResult = await fetchTicketmasterArtistEvents({
-      env,
-      cache,
-      artistSlug: artistSlugParam,
-      artistName,
-      countryCode: discoveryCountry,
-      limit: ticketmasterArtistEventsLimit,
-      ttlSeconds: ticketmasterEventsTtlSeconds
-    });
+    try {
+      const artists = await loadArtistsFromAssets(env);
+      const artistName = resolveArtistName(artistSlugParam, artists, allShows);
+      const discoveryResult = await fetchTicketmasterArtistEvents({
+        env,
+        cache,
+        artistSlug: artistSlugParam,
+        artistName,
+        countryCode: discoveryCountry,
+        limit: ticketmasterArtistEventsLimit,
+        ttlSeconds: ticketmasterEventsTtlSeconds
+      });
 
-    const fetchedShows = Array.isArray(discoveryResult.shows) ? discoveryResult.shows : [];
-    artistFeed = {
-      enabled: true,
-      used: true,
-      cacheState: discoveryResult.cacheState || "error",
-      source: "ticketmaster-discovery",
-      count: fetchedShows.length,
-      error: discoveryResult.error || null
-    };
+      const fetchedShows = Array.isArray(discoveryResult.shows) ? discoveryResult.shows : [];
+      artistFeed = {
+        enabled: true,
+        used: true,
+        cacheState: discoveryResult.cacheState || "error",
+        source: "ticketmaster-discovery",
+        count: fetchedShows.length,
+        error: discoveryResult.error || null
+      };
 
-    sourceShows = mergeShows(allShows, fetchedShows);
+      sourceShows = mergeShows(allShows, fetchedShows);
+    } catch (err) {
+      artistFeed = {
+        enabled: true,
+        used: true,
+        cacheState: "error",
+        source: "ticketmaster-discovery",
+        count: 0,
+        error: "ticketmaster_discovery_runtime_" + String(err?.message || "error").slice(0, 120)
+      };
+    }
   }
 
   const filteredShows = url ? filterShows(sourceShows, url.searchParams) : sourceShows;

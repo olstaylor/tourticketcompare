@@ -4227,42 +4227,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-ariana-grande-2026-inglewood-vv1aazkgpgkdk3kim",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Inglewood",
-    "venue": "Kia Forum",
-    "datetime_iso": "2026-06-21T03:00:00Z",
-    "timezone": "America/Los_Angeles",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-austin-g5dizbsmjb32h",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Austin",
-    "venue": "Moody Center ATX",
-    "datetime_iso": "2026-06-25T01:00:00Z",
-    "timezone": "America/Chicago",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-austin-g5dizbsmlzx8y",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Austin",
-    "venue": "Moody Center ATX",
-    "datetime_iso": "2026-06-28T01:00:00Z",
-    "timezone": "America/Chicago",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-ariana-grande-2026-sunrise-z7r9jz1a7qoav",
     "artist_slug": "ariana-grande",
     "artist_name": "Ariana Grande",
@@ -4296,148 +4260,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-ariana-grande-2026-atlanta-vvg1zzbsncqoyp",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Atlanta",
-    "venue": "State Farm Arena",
-    "datetime_iso": "2026-07-07T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-atlanta-vvg1zzbwpxij1b",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Atlanta",
-    "venue": "State Farm Arena",
-    "datetime_iso": "2026-07-10T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-brooklyn-1ayzkg_gkds30nd",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Brooklyn",
-    "venue": "Barclays Center",
-    "datetime_iso": "2026-07-14T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-brooklyn-1ayzkg_gkdvkvnt",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Brooklyn",
-    "venue": "Barclays Center",
-    "datetime_iso": "2026-07-17T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-brooklyn-1ayzkgpfavfze27",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Brooklyn",
-    "venue": "Barclays Center",
-    "datetime_iso": "2026-07-20T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-boston-vv177zbsgknmhndi",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Boston",
-    "venue": "TD Garden",
-    "datetime_iso": "2026-07-23T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-boston-vv1a8vn1agacw-67",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Boston",
-    "venue": "TD Garden",
-    "datetime_iso": "2026-07-26T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-montreal-1aszkg_gkdqixil",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "Canada",
-    "city": "Montreal",
-    "venue": "Centre Bell",
-    "datetime_iso": "2026-07-29T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-montreal-1aszkg_gkdrmecg",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "Canada",
-    "city": "Montreal",
-    "venue": "Centre Bell",
-    "datetime_iso": "2026-08-01T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-chicago-vv1a7zkgpgkecew3e",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "country": "United States Of America",
-    "city": "Chicago",
-    "venue": "United Center",
-    "datetime_iso": "2026-08-07T01:00:00Z",
-    "timezone": "America/Chicago",
-    "tour_name": "The Eternal Sunshine Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzc9",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Germany",
-    "city": "Dusseldorf",
-    "venue": "Merkur Spiel Arena",
-    "datetime_iso": "2026-06-20T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzcb",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Germany",
-    "city": "Dusseldorf",
-    "venue": "Merkur Spiel Arena",
-    "datetime_iso": "2026-06-21T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-bad-bunny-2026-marseille-z7r9jz1a7baxb",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
@@ -4445,17 +4267,6 @@
     "city": "Marseille",
     "venue": "Stade Velodrome",
     "datetime_iso": "2026-07-01T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Belgium",
-    "city": "Brussels",
-    "venue": "Stade Roi Boudoin - Brussels",
-    "datetime_iso": "2026-07-21T22:00:00Z",
     "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
     "status": "on-sale"
   },
@@ -4707,17 +4518,6 @@
     "datetime_iso": "2026-10-17T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Still Finally Over It",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-shakira-2026-madrid-z7r9jz1a7j7vi",
-    "artist_slug": "shakira",
-    "artist_name": "Shakira",
-    "country": "Spain",
-    "city": "Madrid",
-    "venue": "Shakira Stadium",
-    "datetime_iso": "2026-09-27T18:30:00Z",
-    "tour_name": "",
     "status": "on-sale"
   },
   {

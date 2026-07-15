@@ -14,9 +14,16 @@ name: SeatGeek price snapshots
 # - It does not deploy, call /api/out, mutate event data, or run destructive D1 SQL.
 
 on:
-  schedule:
-    # Six-hour snapshots must refresh more frequently than they expire.
-    - cron: '17 */4 * * *'
+  # Scheduled runs are DISABLED (2026-07-15, owner-directed). SeatGeek does not
+  # expose event pricing statistics via the API for this client — every
+  # eligible event returns HTTP 200 with null lowest/average/highest price, so
+  # no usable snapshot can ever be built and the four-hourly job only produced
+  # zero-row runs. This is a permanent provider-API limitation, not a pending
+  # entitlement, so the cron is removed rather than left running red. Manual
+  # workflow_dispatch is retained purely as a reversible escape hatch if
+  # SeatGeek ever ships pricing-stat access; re-enable the schedule then.
+  # schedule:
+  #   - cron: '17 */4 * * *'
   workflow_dispatch:
     inputs:
       apply:

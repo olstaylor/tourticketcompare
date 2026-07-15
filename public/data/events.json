@@ -18786,19 +18786,19 @@
     "datetime_iso": "2026-09-18T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "127815141",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "127815141",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1k7EO4Av"
       },
       "seatgeek": {
@@ -18826,7 +18826,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k7EO4Av",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vas39ay",
@@ -18839,19 +18839,19 @@
     "datetime_iso": "2026-09-19T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1273497170",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1273497170",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16vaS39AY"
       },
       "seatgeek": {
@@ -18879,7 +18879,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaS39AY",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vrkvz38",
@@ -18892,19 +18892,19 @@
     "datetime_iso": "2026-09-20T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1786040490",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1786040490",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16vrkvZ38"
       },
       "seatgeek": {
@@ -18932,7 +18932,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vrkvZ38",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v_oqxoe",
@@ -18945,19 +18945,19 @@
     "datetime_iso": "2026-09-25T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1651762442",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1651762442",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16v_oqxoe"
       },
       "seatgeek": {
@@ -18985,7 +18985,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_oqxoe",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vowff-f",
@@ -18998,19 +18998,19 @@
     "datetime_iso": "2026-09-26T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1472508854",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1472508854",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16vowfF-f"
       },
       "seatgeek": {
@@ -19038,7 +19038,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vowfF-f",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1konkpax",
@@ -19051,19 +19051,19 @@
     "datetime_iso": "2026-09-27T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "823196262",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "823196262",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1kONkpax"
       },
       "seatgeek": {
@@ -19091,7 +19091,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kONkpax",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1kbi4uav",
@@ -19104,19 +19104,19 @@
     "datetime_iso": "2026-10-02T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "628576241",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-2-2026/production/6828118",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "628576241",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1kbI4Uav"
       },
       "seatgeek": {
@@ -19144,7 +19144,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kbI4Uav",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v4mzjas",
@@ -19157,19 +19157,19 @@
     "datetime_iso": "2026-10-03T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1577026271",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-3-2026/production/6828120",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1577026271",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16v4MZJas"
       },
       "seatgeek": {
@@ -19197,7 +19197,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4MZJas",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v73axp9",
@@ -19210,19 +19210,19 @@
     "datetime_iso": "2026-10-04T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1112262957",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-4-2026/production/6828116",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1112262957",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16v73axP9"
       },
       "seatgeek": {
@@ -19250,7 +19250,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v73axP9",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koifuzg",
@@ -19263,19 +19263,19 @@
     "datetime_iso": "2026-10-09T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "828236035",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "828236035",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1kOIFUZg"
       },
       "seatgeek": {
@@ -19303,7 +19303,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOIFUZg",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koecouy",
@@ -19316,19 +19316,19 @@
     "datetime_iso": "2026-10-10T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "802391370",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-10-2026/production/6837757",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "802391370",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1kOeCouY"
       },
       "seatgeek": {
@@ -19356,7 +19356,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOeCouY",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vfpafo8",
@@ -19369,19 +19369,19 @@
     "datetime_iso": "2026-10-11T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1525248810",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1525248810",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16vfPaFO8"
       },
       "seatgeek": {
@@ -19409,7 +19409,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfPaFO8",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ed-sheeran-2026-glendale-z7r9jz1a7jm",
@@ -22289,21 +22289,21 @@
     "datetime_iso": "2026-06-26T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-madrid-tickets",
         "discovery_event_id": "Z698xZ2qZ16eZdbSGK",
-        "url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -22342,21 +22342,21 @@
     "datetime_iso": "2026-06-27T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-madrid-tickets",
         "discovery_event_id": "Z698xZ2qZ16eZ94-rv",
-        "url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -22401,15 +22401,15 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-munich-tickets",
         "discovery_event_id": "Z698xZC2Z1koNbaqf",
         "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale"
       },
       "seatgeek": {
         "event_id": null,
@@ -22454,15 +22454,15 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-munich-tickets",
         "discovery_event_id": "Z698xZC2Z1kFJ7MGy",
         "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale"
       },
       "seatgeek": {
         "event_id": null,
@@ -22501,21 +22501,21 @@
     "datetime_iso": "2026-08-16T01:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "Z7r9jZ1A7OOuI",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-15-8-pm/concert/17975621",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+    "source_url": "",
     "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OOuI",
         "discovery_event_id": "Z7r9jZ1A7OOuI",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
-        "verified": true,
-        "last_verified_at": "2026-07-07",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": 17975621,
@@ -22553,21 +22553,21 @@
     "datetime_iso": "2026-08-17T01:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "Z7r9jZ1A7OOut",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-16-8-pm/concert/18009296",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+    "source_url": "",
     "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OOut",
         "discovery_event_id": "Z7r9jZ1A7OOut",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": 18009296,
@@ -22701,165 +22701,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-ariana-grande-2026-inglewood-vv1aazkgpgkdk3kim",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Inglewood",
-    "country": "United States Of America",
-    "venue": "Kia Forum",
-    "datetime_iso": "2026-06-21T03:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "09006325C6486B2E",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-20-2026/event/09006325C6486B2E",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-20-2026/event/09006325C6486B2E",
-    "last_verified_at": null,
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "09006325C6486B2E",
-        "discovery_event_id": "vv1AaZkGPGkdk3kim",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-inglewood-california-06-20-2026/event/09006325C6486B2E",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "vv1AaZkGPGkdk3kim",
-    "timezone": "America/Los_Angeles",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-austin-g5dizbsmjb32h",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Austin",
-    "country": "United States Of America",
-    "venue": "Moody Center ATX",
-    "datetime_iso": "2026-06-25T01:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "3A00631B9CE923DB",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-24-2026/event/3A00631B9CE923DB",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-24-2026/event/3A00631B9CE923DB",
-    "last_verified_at": null,
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "3A00631B9CE923DB",
-        "discovery_event_id": "G5dIZbsmjB32h",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-24-2026/event/3A00631B9CE923DB",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "G5dIZbsmjB32h",
-    "timezone": "America/Chicago",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-austin-g5dizbsmlzx8y",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Austin",
-    "country": "United States Of America",
-    "venue": "Moody Center ATX",
-    "datetime_iso": "2026-06-28T01:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "3A00631B9F022430",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-27-2026/event/3A00631B9F022430",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-27-2026/event/3A00631B9F022430",
-    "last_verified_at": null,
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "3A00631B9F022430",
-        "discovery_event_id": "G5dIZbsmLZx8Y",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-austin-texas-06-27-2026/event/3A00631B9F022430",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "G5dIZbsmLZx8Y",
-    "timezone": "America/Chicago",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-ariana-grande-2026-sunrise-z7r9jz1a7qoav",
     "artist_slug": "ariana-grande",
     "artist_name": "Ariana Grande",
@@ -22876,14 +22717,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Qoav",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7Qoav",
         "discovery_event_id": "Z7r9jZ1A7Qoav",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Qoav",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -22928,14 +22769,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7QoaZ",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7QoaZ",
         "discovery_event_id": "Z7r9jZ1A7QoaZ",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7QoaZ",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -22980,14 +22821,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j6Op",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7j6Op",
         "discovery_event_id": "Z7r9jZ1A7j6Op",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j6Op",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -23016,792 +22857,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-ariana-grande-2026-atlanta-vvg1zzbsncqoyp",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Atlanta",
-    "country": "United States Of America",
-    "venue": "State Farm Arena",
-    "datetime_iso": "2026-07-07T00:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "0E00631A8E691E65",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-06-2026/event/0E00631A8E691E65",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-06-8-pm/concert/17700803",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-06-2026/event/0E00631A8E691E65",
-    "last_verified_at": "2026-07-06",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "0E00631A8E691E65",
-        "discovery_event_id": "vvG1zZbsnCQoyP",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-06-2026/event/0E00631A8E691E65",
-        "verified": true,
-        "last_verified_at": "2026-07-06",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "vvG1zZbsnCQoyP",
-    "timezone": "America/New_York",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-atlanta-vvg1zzbwpxij1b",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Atlanta",
-    "country": "United States Of America",
-    "venue": "State Farm Arena",
-    "datetime_iso": "2026-07-10T00:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "0E006325BEA26298",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-09-8-pm/concert/17724144",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-atlanta-state-farm-arena-7-9-2026--concerts-pop/production/5995575",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
-    "last_verified_at": "2026-07-06",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "0E006325BEA26298",
-        "discovery_event_id": "vvG1zZbwpXIJ1b",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-atlanta-georgia-07-09-2026/event/0E006325BEA26298",
-        "verified": true,
-        "last_verified_at": "2026-07-06",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 17724144,
-        "url": "https://seatgeek.com/ariana-grande-tickets/atlanta-georgia-state-farm-arena-1-2026-07-09-8-pm/concert/17724144",
-        "verified": true,
-        "last_verified_at": "2026-07-08",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 5995575,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-atlanta-state-farm-arena-7-9-2026--concerts-pop/production/5995575",
-        "verified": true,
-        "last_verified_at": "2026-07-09",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "vvG1zZbwpXIJ1b",
-    "timezone": "America/New_York",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-brooklyn-1ayzkg_gkds30nd",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Brooklyn",
-    "country": "United States Of America",
-    "venue": "Barclays Center",
-    "datetime_iso": "2026-07-14T00:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "30006319F34A4ABB",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
-    "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-13-2026--concerts-pop/production/5973679",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
-    "last_verified_at": "2026-07-06",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "30006319F34A4ABB",
-        "discovery_event_id": "1AYZkG_GkdS30nD",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-13-2026/event/30006319F34A4ABB",
-        "verified": true,
-        "last_verified_at": "2026-07-06",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
-      },
-      "vivid-seats": {
-        "event_id": 5973679,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-13-2026--concerts-pop/production/5973679",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticketnetwork": {
-        "event_id": "7373445",
-        "url": "https://www.ticketnetwork.com/en/p/7373445",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "ticket-liquidator": {
-        "event_id": "7373445",
-        "url": "https://www.ticketliquidator.com/tickets/7373445/Ariana-Grande-tickets-Mon-Jul-13-2026-Barclays-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub-international": {
-        "event_id": "106917202",
-        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-13-2026/event/106917202",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "1AYZkG_GkdS30nD",
-    "timezone": "America/New_York",
-    "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373445",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373445/Ariana-Grande-tickets-Mon-Jul-13-2026-Barclays-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-13-2026/event/106917202"
-  },
-  {
-    "id": "tm-ariana-grande-2026-brooklyn-1ayzkg_gkdvkvnt",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Brooklyn",
-    "country": "United States Of America",
-    "venue": "Barclays Center",
-    "datetime_iso": "2026-07-17T00:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "30006319F41B4ABF",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-16-8-pm/concert/17700783",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-16-2026--concerts-pop/production/5973681",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
-    "last_verified_at": "2026-07-06",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "30006319F41B4ABF",
-        "discovery_event_id": "1AYZkG_GkdVkVnT",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-16-2026/event/30006319F41B4ABF",
-        "verified": true,
-        "last_verified_at": "2026-07-06",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 17700783,
-        "url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-16-8-pm/concert/17700783",
-        "verified": true,
-        "last_verified_at": "2026-07-14",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 5973681,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-16-2026--concerts-pop/production/5973681",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticketnetwork": {
-        "event_id": "7373446",
-        "url": "https://www.ticketnetwork.com/en/p/7373446",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "ticket-liquidator": {
-        "event_id": "7373446",
-        "url": "https://www.ticketliquidator.com/tickets/7373446/Ariana-Grande-tickets-Thu-Jul-16-2026-Barclays-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub-international": {
-        "event_id": "106916444",
-        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-16-2026/event/106916444",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "1AYZkG_GkdVkVnT",
-    "timezone": "America/New_York",
-    "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373446",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373446/Ariana-Grande-tickets-Thu-Jul-16-2026-Barclays-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-16-2026/event/106916444"
-  },
-  {
-    "id": "tm-ariana-grande-2026-brooklyn-1ayzkgpfavfze27",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Brooklyn",
-    "country": "United States Of America",
-    "venue": "Barclays Center",
-    "datetime_iso": "2026-07-20T00:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "30006325205054E3",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-19-8-pm/concert/17724146",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-19-2026--concerts-pop/production/5995611",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
-    "last_verified_at": "2026-07-06",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "30006325205054E3",
-        "discovery_event_id": "1aYZkGPFAvfZe27",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-19-2026/event/30006325205054E3",
-        "verified": true,
-        "last_verified_at": "2026-07-06",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 17724146,
-        "url": "https://seatgeek.com/ariana-grande-tickets/brooklyn-new-york-barclays-center-2026-07-19-8-pm/concert/17724146",
-        "verified": true,
-        "last_verified_at": "2026-07-14",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 5995611,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-19-2026--concerts-pop/production/5995611",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticketnetwork": {
-        "event_id": "7397328",
-        "url": "https://www.ticketnetwork.com/en/p/7397328",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "ticket-liquidator": {
-        "event_id": "7397328",
-        "url": "https://www.ticketliquidator.com/tickets/7397328/Ariana-Grande-tickets-Sun-Jul-19-2026-Barclays-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub-international": {
-        "event_id": "106944083",
-        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-19-2026/event/106944083",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "1aYZkGPFAvfZe27",
-    "timezone": "America/New_York",
-    "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397328",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397328/Ariana-Grande-tickets-Sun-Jul-19-2026-Barclays-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-19-2026/event/106944083"
-  },
-  {
-    "id": "tm-ariana-grande-2026-boston-vv177zbsgknmhndi",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Boston",
-    "country": "United States Of America",
-    "venue": "TD Garden",
-    "datetime_iso": "2026-07-23T00:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "0100631AAEF23EE8",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
-    "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
-    "last_verified_at": null,
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "0100631AAEF23EE8",
-        "discovery_event_id": "vv177ZbsGknmHNDI",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": 5973685,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "vv177ZbsGknmHNDI",
-    "timezone": "America/New_York",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-ariana-grande-2026-boston-vv1a8vn1agacw-67",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Boston",
-    "country": "United States Of America",
-    "venue": "TD Garden",
-    "datetime_iso": "2026-07-26T00:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "010063289EF611C4",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-25-8-pm/concert/17724148",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-25-2026--concerts-pop/production/5995608",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
-    "last_verified_at": "2026-07-06",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "010063289EF611C4",
-        "discovery_event_id": "vv1A8vN1aGACW-67",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
-        "verified": true,
-        "last_verified_at": "2026-07-06",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 17724148,
-        "url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-25-8-pm/concert/17724148",
-        "verified": true,
-        "last_verified_at": "2026-07-14",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 5995608,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-25-2026--concerts-pop/production/5995608",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticketnetwork": {
-        "event_id": "7397405",
-        "url": "https://www.ticketnetwork.com/en/p/7397405",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "ticket-liquidator": {
-        "event_id": "7397405",
-        "url": "https://www.ticketliquidator.com/tickets/7397405/Ariana-Grande-tickets-Sat-Jul-25-2026-TD-Garden",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub-international": {
-        "event_id": "106939189",
-        "url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "vv1A8vN1aGACW-67",
-    "timezone": "America/New_York",
-    "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397405",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397405/Ariana-Grande-tickets-Sat-Jul-25-2026-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189"
-  },
-  {
-    "id": "tm-ariana-grande-2026-montreal-1aszkg_gkdqixil",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Montreal",
-    "country": "Canada",
-    "venue": "Centre Bell",
-    "datetime_iso": "2026-07-29T00:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "31006319DDB22B1F",
-    "ticketmaster_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-28-8-pm/concert/17700815",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-28-2026--concerts-pop/production/5973694",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
-    "last_verified_at": "2026-07-06",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "31006319DDB22B1F",
-        "discovery_event_id": "1AsZkG_GkdqixiL",
-        "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-28-2026/event/31006319DDB22B1F",
-        "verified": true,
-        "last_verified_at": "2026-07-06",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 17700815,
-        "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-28-8-pm/concert/17700815",
-        "verified": true,
-        "last_verified_at": "2026-07-14",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 5973694,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-28-2026--concerts-pop/production/5973694",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticketnetwork": {
-        "event_id": "7373457",
-        "url": "https://www.ticketnetwork.com/en/p/7373457",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "ticket-liquidator": {
-        "event_id": "7373457",
-        "url": "https://www.ticketliquidator.com/tickets/7373457/Ariana-Grande-tickets-Tue-Jul-28-2026-Centre-Bell",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "1AsZkG_GkdqixiL",
-    "timezone": "America/New_York",
-    "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373457",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373457/Ariana-Grande-tickets-Tue-Jul-28-2026-Centre-Bell"
-  },
-  {
-    "id": "tm-ariana-grande-2026-montreal-1aszkg_gkdrmecg",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Montreal",
-    "country": "Canada",
-    "venue": "Centre Bell",
-    "datetime_iso": "2026-08-01T00:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "31006319DEDC2B4C",
-    "ticketmaster_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
-    "last_verified_at": "2026-07-06",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "31006319DEDC2B4C",
-        "discovery_event_id": "1AsZkG_GkdrMecG",
-        "url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
-        "verified": true,
-        "last_verified_at": "2026-07-06",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 17724151,
-        "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151",
-        "verified": true,
-        "last_verified_at": "2026-07-14",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 5995665,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticketnetwork": {
-        "event_id": "7397426",
-        "url": "https://www.ticketnetwork.com/en/p/7397426",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "ticket-liquidator": {
-        "event_id": "7397426",
-        "url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "1AsZkG_GkdrMecG",
-    "timezone": "America/New_York",
-    "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397426",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell"
-  },
-  {
-    "id": "tm-ariana-grande-2026-chicago-vv1a7zkgpgkecew3e",
-    "artist_slug": "ariana-grande",
-    "artist_name": "Ariana Grande",
-    "event_name": "Ariana Grande - The Eternal Sunshine Tour",
-    "city": "Chicago",
-    "country": "United States Of America",
-    "venue": "United Center",
-    "datetime_iso": "2026-08-07T01:00:00Z",
-    "tour_name": "The Eternal Sunshine Tour",
-    "ticketmaster_event_id": "04006325AD9F24A7",
-    "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
-    "last_verified_at": "2026-07-06",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "04006325AD9F24A7",
-        "discovery_event_id": "vv1A7ZkGPGkecEw3E",
-        "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
-        "verified": true,
-        "last_verified_at": "2026-07-06",
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 17724381,
-        "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381",
-        "verified": true,
-        "last_verified_at": "2026-07-14",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 5995835,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticketnetwork": {
-        "event_id": "7397549",
-        "url": "https://www.ticketnetwork.com/en/p/7397549",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "ticket-liquidator": {
-        "event_id": "7397549",
-        "url": "https://www.ticketliquidator.com/tickets/7397549/Ariana-Grande-tickets-Thu-Aug-6-2026-United-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      },
-      "stubhub-international": {
-        "event_id": "106946081",
-        "url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-6-2026/event/106946081",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "vv1A7ZkGPGkecEw3E",
-    "timezone": "America/Chicago",
-    "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397549",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397549/Ariana-Grande-tickets-Thu-Aug-6-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-6-2026/event/106946081"
-  },
-  {
-    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzc9",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
-    "city": "Dusseldorf",
-    "country": "Germany",
-    "venue": "Merkur Spiel Arena",
-    "datetime_iso": "2026-06-20T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZC9",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZC9",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZC9",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZC9",
-        "discovery_event_id": "Z7r9jZ1A7xZC9",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZC9",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZC9",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzcb",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
-    "city": "Dusseldorf",
-    "country": "Germany",
-    "venue": "Merkur Spiel Arena",
-    "datetime_iso": "2026-06-21T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZCb",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZCb",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZCb",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZCb",
-        "discovery_event_id": "Z7r9jZ1A7xZCb",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZCb",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZCb",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-bad-bunny-2026-marseille-z7r9jz1a7baxb",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
@@ -23812,21 +22867,21 @@
     "datetime_iso": "2026-07-01T18:00:00Z",
     "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7baxb",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7baxb",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7baxb",
+    "source_url": "",
     "last_verified_at": null,
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7baxb",
         "discovery_event_id": "Z7r9jZ1A7baxb",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7baxb",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -23851,58 +22906,6 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7baxb",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny",
-    "city": "Brussels",
-    "country": "Belgium",
-    "venue": "Stade Roi Boudoin - Brussels",
-    "datetime_iso": "2026-07-21T22:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZuo",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
-    "last_verified_at": "2026-07-07",
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZuo",
-        "discovery_event_id": "Z7r9jZ1A7xZuo",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZuo",
     "status": "on-sale"
   },
   {
@@ -24814,14 +23817,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIxF",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OIxF",
         "discovery_event_id": "Z7r9jZ1A7OIxF",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIxF",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -24919,14 +23922,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OZ43",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OZ43",
         "discovery_event_id": "Z7r9jZ1A7OZ43",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OZ43",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -25286,58 +24289,6 @@
     },
     "ticketmaster_discovery_event_id": "vvG18Z_urOiEcT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-shakira-2026-madrid-z7r9jz1a7j7vi",
-    "artist_slug": "shakira",
-    "artist_name": "Shakira",
-    "event_name": "Shakira",
-    "city": "Madrid",
-    "country": "Spain",
-    "venue": "Shakira Stadium",
-    "datetime_iso": "2026-09-27T18:30:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "Z7r9jZ1A7J7vI",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7J7vI",
-        "discovery_event_id": "Z7r9jZ1A7J7vI",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J7vI",
     "status": "on-sale"
   },
   {

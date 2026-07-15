@@ -18,6 +18,17 @@ SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 URL_RE = re.compile(r"^https?://", re.IGNORECASE)
 ALLOWED_STATUSES = {"draft", "announced", "on-sale", "past"}
 
+# Event ids the owner has reviewed and accepted as legitimately blank tour_name
+# (one-off / non-tour dates whose official listing has no tour label). These are
+# excluded from the blank-tour_name content warning. Never add an id here to
+# silence a genuinely missing label — only owner-confirmed intentional blanks.
+OWNER_ACCEPTED_BLANK_TOUR_NAME_IDS = {
+    # JAY-Z one-off 2026 shows — official listings are "JAY-Z30" / "JAY-Z - 30"
+    # with no tour name; owner-accepted 2026-07-15.
+    "tm-jay-z-2026-inglewood-vvg1iz_gncu5jv",
+    "tm-jay-z-2026-london-17u8v0g6cksbad4",
+}
+
 # Explicit event-link publishability states. human_verified and
 # machine_high_confidence allow CTAs/redirects; needs_recheck suppresses them.
 # Runtime gates: eventLinkPublishable in functions/[[path]].js, public/app.js,
@@ -699,7 +710,11 @@ def main() -> int:
             if "tour_name" in event:
                 tour_name_value = event.get("tour_name")
                 tour_name_blank = not (isinstance(tour_name_value, str) and tour_name_value.strip())
-                if tour_name_blank and slug_value in indexed_artist_slugs:
+                if (
+                    tour_name_blank
+                    and slug_value in indexed_artist_slugs
+                    and id_label not in OWNER_ACCEPTED_BLANK_TOUR_NAME_IDS
+                ):
                     blank_tour_name_by_slug.setdefault(slug_value, []).append(id_label)
             if slug_value not in artist_names:
                 errors.append(

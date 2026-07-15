@@ -69,14 +69,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OZ43",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OZ43",
         "discovery_event_id": "Z7r9jZ1A7OZ43",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OZ43",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {

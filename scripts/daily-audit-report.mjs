@@ -149,7 +149,8 @@ function buildBody(links, tm) {
   const linkFailing = (links?.failures?.length || 0) > 0;
   const tmMissing = (tm?.totals?.missing || 0) > 0;
   const tmChanged = (tm?.totals?.changed || 0) > 0;
-  const hasFindings = linkFailing || tmMissing || tmChanged;
+  const tmErrors = (tm?.totals?.errors || 0) > 0;
+  const hasFindings = linkFailing || tmMissing || tmChanged || tmErrors;
 
   const status = hasFindings ? '🔴 **Findings**' : '🟢 **All clean**';
   let body = `<!-- daily-audit-report -->\n`;

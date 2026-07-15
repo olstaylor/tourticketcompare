@@ -4531,5 +4531,65 @@
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-kansas-city-vv17bz_dgkhumcmx",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "country": "United States Of America",
+    "city": "Kansas City",
+    "venue": "Kauffman Stadium",
+    "datetime_iso": "2026-07-16T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-ames-vv17bz_dgkbv6aim",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "country": "United States Of America",
+    "city": "Ames",
+    "venue": "ISU Cyclones - MidAmerican Energy Field at Jack Trice Stadium",
+    "datetime_iso": "2026-07-18T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-edmonton-1av7z_dgkdhlsdx",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "country": "Canada",
+    "city": "Edmonton",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2026-07-25T01:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-edmonton-1aozkodgkd2xd4i",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "country": "Canada",
+    "city": "Edmonton",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2026-07-26T01:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-salt-lake-city-g5vzz_dbvwfnk",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "country": "United States Of America",
+    "city": "Salt Lake City",
+    "venue": "Rice-Eccles Stadium",
+    "datetime_iso": "2026-07-29T01:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

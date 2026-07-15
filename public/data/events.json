@@ -24351,5 +24351,270 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-4-9-2026/event/107449231"
+  },
+  {
+    "id": "tm-post-malone-2026-kansas-city-vv17bz_dgkhumcmx",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Kauffman Stadium",
+    "datetime_iso": "2026-07-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600643F36DEDBBE",
+    "ticketmaster_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-kansas-city-missouri-07-15-2026/event/0600643F36DEDBBE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-kansas-city-missouri-07-15-2026/event/0600643F36DEDBBE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600643F36DEDBBE",
+        "discovery_event_id": "vv17bZ_dGkHUMcmX",
+        "url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-kansas-city-missouri-07-15-2026/event/0600643F36DEDBBE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_dGkHUMcmX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-ames-vv17bz_dgkbv6aim",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Ames",
+    "country": "United States Of America",
+    "venue": "ISU Cyclones - MidAmerican Energy Field at Jack Trice Stadium",
+    "datetime_iso": "2026-07-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600643E811C5B37",
+    "ticketmaster_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-ames-iowa-07-17-2026/event/0600643E811C5B37",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-ames-iowa-07-17-2026/event/0600643E811C5B37",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600643E811C5B37",
+        "discovery_event_id": "vv17bZ_dGkBv6AiM",
+        "url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-ames-iowa-07-17-2026/event/0600643E811C5B37",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_dGkBv6AiM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-edmonton-1av7z_dgkdhlsdx",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2026-07-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100643EFCAF10E2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-24-2026/event/1100643EFCAF10E2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-24-2026/event/1100643EFCAF10E2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100643EFCAF10E2",
+        "discovery_event_id": "1Av7Z_dGkDHlsdx",
+        "url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-24-2026/event/1100643EFCAF10E2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_dGkDHlsdx",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-edmonton-1aozkodgkd2xd4i",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Commonwealth Stadium / Stade du Commonwealth",
+    "datetime_iso": "2026-07-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006443CF8BB568",
+    "ticketmaster_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-25-2026/event/11006443CF8BB568",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-25-2026/event/11006443CF8BB568",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006443CF8BB568",
+        "discovery_event_id": "1AoZkodGkd2xD4I",
+        "url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-25-2026/event/11006443CF8BB568",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkodGkd2xD4I",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-post-malone-2026-salt-lake-city-g5vzz_dbvwfnk",
+    "artist_slug": "post-malone",
+    "artist_name": "Post Malone",
+    "event_name": "Post Malone Presents: The BIG ASS Stadium Tour Part 2",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "Rice-Eccles Stadium",
+    "datetime_iso": "2026-07-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00643EB4F48A93",
+    "ticketmaster_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-salt-lake-city-utah-07-28-2026/event/1E00643EB4F48A93",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-salt-lake-city-utah-07-28-2026/event/1E00643EB4F48A93",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00643EB4F48A93",
+        "discovery_event_id": "G5vzZ_dBVWFnK",
+        "url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-salt-lake-city-utah-07-28-2026/event/1E00643EB4F48A93",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_dBVWFnK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

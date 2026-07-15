@@ -1,12 +1,19 @@
 name: Impact marketplace provider sync
 
-# Manual-only activation lane for TicketNetwork, Ticket Liquidator, and StubHub
-# International. Preview is the default. Apply writes only unambiguous exact
-# event matches, validates the resulting data, and opens a review PR. No
-# schedule or auto-merge is permitted until each provider's Impact catalog and
-# tracking contract have been verified by the owner.
+# Nightly event-link enrichment for TicketNetwork, Ticket Liquidator, and
+# StubHub International. The owner confirmed all three Impact catalog credential
+# sets and tracking contracts on 2026-07-15. Scheduled runs apply only
+# unambiguous exact-event matches, validate the exact diff, open one provider PR,
+# and auto-merge only after every validation gate passes. Manual dispatch remains
+# preview-first. No pricing data is required or written by this workflow.
 
 on:
+  schedule:
+    # Run after Ticketmaster (04:00), SeatGeek (05:00), and Vivid Seats (05:30).
+    # A shared concurrency group queues overruns rather than racing data files.
+    - cron: '0 6 * * *'   # TicketNetwork
+    - cron: '30 6 * * *'  # Ticket Liquidator
+    - cron: '0 7 * * *'   # StubHub International
   workflow_dispatch:
     inputs:
       provider:
@@ -31,7 +38,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: impact-marketplace-provider-sync-${{ github.event.inputs.provider }}
+  group: impact-marketplace-provider-sync
   cancel-in-progress: false
 
 jobs:
@@ -39,9 +46,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
-      PROVIDER: ${{ github.event.inputs.provider }}
-      MODE: ${{ github.event.inputs.mode }}
-      ARTIST: ${{ github.event.inputs.artist }}
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       IMPACT_CATALOG_CREDENTIAL_SET: seatgeek
       IMPACT_CATALOG_API_VERSION: '16'
@@ -73,10 +77,45 @@ jobs:
 
       - run: npm ci
 
+      - name: Resolve scheduled or manual run configuration
+        id: config
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_PROVIDER: ${{ github.event.inputs.provider }}
+          INPUT_MODE: ${{ github.event.inputs.mode }}
+          INPUT_ARTIST: ${{ github.event.inputs.artist }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            case "$SCHEDULE" in
+              '0 6 * * *') PROVIDER=ticketnetwork ;;
+              '30 6 * * *') PROVIDER=ticket-liquidator ;;
+              '0 7 * * *') PROVIDER=stubhub-international ;;
+              *) echo "Unknown schedule: $SCHEDULE" >&2; exit 1 ;;
+            esac
+            MODE=apply
+            ARTIST=''
+            AUTO_MERGE=true
+          else
+            PROVIDER="$INPUT_PROVIDER"
+            MODE="${INPUT_MODE:-preview}"
+            ARTIST="$INPUT_ARTIST"
+            AUTO_MERGE=false
+          fi
+          echo "provider=$PROVIDER" >> "$GITHUB_OUTPUT"
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "artist=$ARTIST" >> "$GITHUB_OUTPUT"
+          echo "auto_merge=$AUTO_MERGE" >> "$GITHUB_OUTPUT"
+
       - name: Run offline ingestion contract tests
         run: npm run impact-providers:sync:self-test
 
       - name: Sync provider event links
+        env:
+          PROVIDER: ${{ steps.config.outputs.provider }}
+          MODE: ${{ steps.config.outputs.mode }}
+          ARTIST: ${{ steps.config.outputs.artist }}
         run: |
           set -euo pipefail
           args=(--provider "$PROVIDER" --max-api-calls 400 --delay-ms 1000)
@@ -105,9 +144,11 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Open review PR
-        if: github.event.inputs.mode == 'apply' && steps.diff.outputs.changed == 'true'
+      - name: Open validated provider PR
+        if: steps.config.outputs.mode == 'apply' && steps.diff.outputs.changed == 'true'
         env:
+          PROVIDER: ${{ steps.config.outputs.provider }}
+          PR_AUTO_MERGE: ${{ steps.config.outputs.auto_merge }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
@@ -123,6 +164,7 @@ jobs:
           BRANCH="$BRANCH" \
           PR_TITLE="${PROVIDER} Impact catalog sync (${TODAY})" \
           PR_LABEL="automation:provider-sync" \
-          PR_AUTO_MERGE=false \
-          PR_BODY=$'## What this PR does\n- Uses the approved provider program in the Impact Catalogs API.\n- Adds or corrects only one unambiguous match whose artist, venue, city, and venue-local date agree.\n- Records provider-specific event ID, URL, verification date, and listing state.\n\n## Safety\n- No guessing or scraping.\n- Incomplete catalogs never clear links.\n- Ambiguous matches stay unchanged.\n- Manual review is required; auto-merge is disabled.\n' \
+          PR_AUTO_MERGE="$PR_AUTO_MERGE" \
+          PR_BODY=
+## What this PR does\n- Uses the owner-confirmed provider program in the Impact Catalogs API.\n- Adds or corrects only one unambiguous match whose artist, venue, city, and venue-local date agree.\n- Records provider-specific event ID, URL, verification date, and listing state.\n\n## Safety\n- No guessing, scraping, prices, or availability claims.\n- Incomplete catalogs never clear links.\n- Ambiguous matches stay unchanged.\n- Scheduled runs auto-merge only after the full in-job validation suite passes; manual apply runs remain review-only.\n' \
           node scripts/open-automation-pr.mjs

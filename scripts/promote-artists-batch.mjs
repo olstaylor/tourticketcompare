@@ -177,13 +177,18 @@ export function applyPlans(plans, { artists, catalog, outSource, registry }) {
       public_enabled: true,
       market: 'us',
       last_checked_at: today,
-      disclosure_required: true
+      disclosure_required: true,
+      // url is required: availableArtistProviderLinks (functions/[[path]].js) and
+      // renderProviderButtons (public/app.js) drop any non-Ticketmaster row without
+      // a valid url, so an omitted url silently suppresses the SeatGeek artist CTA.
+      url: sgUrl
     });
     if (tmUrl && plan.tmTicketLink) {
       plan.tmTicketLink.verified = true;
       plan.tmTicketLink.public_enabled = true;
       plan.tmTicketLink.affiliate_enabled = true;
       plan.tmTicketLink.last_checked_at = today;
+      plan.tmTicketLink.url = tmUrl;
     }
 
     const entries = [];
@@ -305,7 +310,9 @@ function selfTest() {
   ok('out.js gains both keys', applied.outSource.includes('"new-artist:seatgeek"') && applied.outSource.includes('"new-artist:ticketmaster"'));
   ok('artists.json record is promoted', ctx.artists[0].indexing_status === 'indexable_with_substantial_content' && ctx.artists[0].verified_provider_count === 2);
   ok('catalog gains the sg-artist row', ctx.catalog.ticket_links.some((tl) => tl.link_id === 'sg-artist-new-artist' && tl.verified === true));
+  ok('sg-artist row carries the seatgeek url (required to render the CTA)', ctx.catalog.ticket_links.find((tl) => tl.link_id === 'sg-artist-new-artist')?.url === 'https://seatgeek.com/new-artist-tickets');
   ok('tm shell row is flipped', ctx.catalog.ticket_links[0].verified === true);
+  ok('tm shell row gains the ticketmaster url', ctx.catalog.ticket_links[0].url === 'https://www.ticketmaster.com/new-artist-tickets/artist/99');
   ok('registry entry is created verified with both anchors', ctx.registry.artists[0]?.review_status === 'verified' && ctx.registry.artists[0]?.seatgeek_performer_id === 42 && ctx.registry.artists[0]?.ticketmaster_attraction_id === 'K8vZTEST');
 
   const md = checklistMarkdown([evalRes.plan], 'artifacts/onboarding/batch-test.json', '2026-07-02');

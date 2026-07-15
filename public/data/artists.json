@@ -190,5 +190,41 @@
       "seatgeek"
     ],
     "last_verified_at": "2026-06-18"
+  },
+  {
+    "slug": "sabrina-carpenter",
+    "name": "Sabrina Carpenter",
+    "short_description": "American singer, songwriter, and actress.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
+  },
+  {
+    "slug": "lady-gaga",
+    "name": "Lady Gaga",
+    "short_description": "American singer, songwriter, and actress.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
+  },
+  {
+    "slug": "post-malone",
+    "name": "Post Malone",
+    "short_description": "American singer, rapper, and songwriter.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
+  },
+  {
+    "slug": "zach-bryan",
+    "name": "Zach Bryan",
+    "short_description": "American country and Americana singer-songwriter.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
   }
 ]

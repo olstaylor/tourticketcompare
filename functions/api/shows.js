@@ -372,7 +372,14 @@ async function fetchTicketmasterArtistEvents(options) {
   }
 
   const cacheKey = buildTicketmasterArtistEventsCacheKey(normalizedSlug, normalizedName, countryCode, limit);
-  const cached = await cache.match(cacheKey);
+  // Pages Functions can reject synthetic cache keys; discovery must stay live
+  // rather than fail the whole artist response when its optional cache is unavailable.
+  let cached = null;
+  try {
+    cached = await cache?.match?.(cacheKey);
+  } catch (err) {
+    cached = null;
+  }
   if (cached) {
     try {
       const data = await cached.json();
@@ -448,7 +455,11 @@ async function fetchTicketmasterArtistEvents(options) {
           "Cache-Control": `public, max-age=${Math.max(60, ttlSeconds || 1800)}`
         }
       });
-      await cache.put(cacheKey, response);
+      try {
+        await cache?.put?.(cacheKey, response.clone());
+      } catch (err) {
+        // Caching is an optimization; return the freshly fetched discovery data.
+      }
 
       return {
         shows,

@@ -165,7 +165,5 @@ jobs:
           PR_TITLE="${PROVIDER} Impact catalog sync (${TODAY})" \
           PR_LABEL="automation:provider-sync" \
           PR_AUTO_MERGE="$PR_AUTO_MERGE" \
-          PR_BODY=\n- Adds or corrects only one unambiguous match whose artist, venue, city, and venue-local date agree.\n- Records provider-specific event ID, URL, verification date, and listing state.\n\n## Safety\n- No guessing, scraping, prices, or availability claims.\n- Incomplete catalogs never clear links.\n- Ambiguous matches stay unchanged.\n- Scheduled runs auto-merge only after the full in-job validation suite passes; manual apply runs remain review-only.\n' \
-          node scripts/open-automation-pr.mjs
-## What this PR does\n- Uses the owner-confirmed provider program in the Impact Catalogs API.\n- Adds or corrects only one unambiguous match whose artist, venue, city, and venue-local date agree.\n- Records provider-specific event ID, URL, verification date, and listing state.\n\n## Safety\n- No guessing, scraping, prices, or availability claims.\n- Incomplete catalogs never clear links.\n- Ambiguous matches stay unchanged.\n- Scheduled runs auto-merge only after the full in-job validation suite passes; manual apply runs remain review-only.\n' \
+          PR_BODY="Adds or corrects only unambiguous exact-event links from the owner-confirmed Impact catalog. No guessing, scraping, prices, or availability claims. Incomplete catalogs preserve existing links. Scheduled auto-merge occurs only after the full in-job validation suite passes; manual apply runs remain review-only." \
           node scripts/open-automation-pr.mjs

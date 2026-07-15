@@ -134,26 +134,11 @@ function mapEventsToShows(events) {
         // provenance flags that let a SeatGeek / Vivid Seats CTA stand alone
         // on a needs_recheck event.
         verification_status: event.verification_status,
-        provider_links: {
-          ticketmaster: {
-            verified: event?.provider_links?.ticketmaster?.verified === true
-          },
-          seatgeek: {
-            verified: event?.provider_links?.seatgeek?.verified === true
-          },
-          "vivid-seats": {
-            verified: event?.provider_links?.["vivid-seats"]?.verified === true
-          },
-          ticketnetwork: {
-            verified: event?.provider_links?.ticketnetwork?.verified === true
-          },
-          "ticket-liquidator": {
-            verified: event?.provider_links?.["ticket-liquidator"]?.verified === true
-          },
-          "stubhub-international": {
-            verified: event?.provider_links?.["stubhub-international"]?.verified === true
-          }
-        },
+        // Keep the complete provider payload available to the client. Older
+        // versions reduced this to verified booleans, which silently dropped
+        // event-level URLs returned by provider sync jobs.
+        provider_links: normalizeProviderLinks(event.provider_links),
+        links: normalizeProviderUrls(event),
         impact_program_id: event.impact_program_id,
         impact_deep_link: event.impact_deep_link,
         ticketmaster_impact_program_id: event.ticketmaster_impact_program_id,
@@ -257,8 +242,103 @@ function mapTicketmasterEventToShow(event, artistSlug, artistName) {
     ticketmaster_event_id: tmEventId,
     seatgeek_url: null,
     vividseats_url: null,
-    ticketmaster_url: eventUrl
+    ticketmaster_url: eventUrl,
+    verification_status: eventUrl ? "machine_high_confidence" : "needs_recheck",
+    provider_links: {
+      ticketmaster: {
+        event_id: tmEventId,
+        url: eventUrl,
+        verified: Boolean(eventUrl),
+        availability_status: mapTicketmasterStatus(event?.dates?.status?.code)
+      }
+    },
+    links: eventUrl ? { ticketmaster: eventUrl } : {}
   };
+}
+
+const PROVIDER_URL_FIELDS = {
+  ticketmaster: "ticketmaster_url",
+  seatgeek: "seatgeek_url",
+  "vivid-seats": "vividseats_url",
+  ticketnetwork: "ticketnetwork_url",
+  "ticket-liquidator": "ticketliquidator_url",
+  "stubhub-international": "stubhub_international_url"
+};
+
+function normalizeProviderLinks(rawLinks) {
+  const result = {};
+  if (!rawLinks || typeof rawLinks !== "object") return result;
+  for (const [rawProvider, rawMeta] of Object.entries(rawLinks)) {
+    const provider = providerKey(rawProvider);
+    if (!provider) continue;
+    const meta = rawMeta && typeof rawMeta === "object" ? { ...rawMeta } : {};
+    const url = typeof meta.url === "string" && meta.url.trim() ? meta.url.trim() : null;
+    result[provider] = {
+      ...meta,
+      ...(url ? { url } : {}),
+      verified: meta.verified === true
+    };
+  }
+  return result;
+}
+
+function normalizeProviderUrls(event) {
+  const links = {};
+  for (const [provider, field] of Object.entries(PROVIDER_URL_FIELDS)) {
+    const direct = typeof event?.[field] === "string" ? event[field].trim() : "";
+    const nested = typeof event?.provider_links?.[provider]?.url === "string"
+      ? event.provider_links[provider].url.trim()
+      : "";
+    const url = direct || nested;
+    if (url) links[provider] = url;
+  }
+  // Provider sync data has historically used `stubhub`; expose it under the
+  // public provider slug without discarding the original metadata.
+  const legacyStubhub = typeof event?.provider_links?.stubhub?.url === "string"
+    ? event.provider_links.stubhub.url.trim()
+    : "";
+  if (!links["stubhub-international"] && legacyStubhub) links["stubhub-international"] = legacyStubhub;
+  return links;
+}
+
+function showIdentity(show) {
+  const tmId = String(show?.ticketmaster_event_id || "").trim().toLowerCase();
+  if (tmId) return `ticketmaster:${tmId}`;
+  const date = String(show?.dateTimeISO || "").trim().toLowerCase();
+  const venue = normalizeQueryValue(show?.venue);
+  const city = normalizeQueryValue(show?.city);
+  return `${slugify(show?.artist_slug)}:${date}:${venue}:${city}`;
+}
+
+function mergeShows(localShows, discoveredShows) {
+  const merged = new Map();
+  for (const show of [...localShows, ...discoveredShows]) {
+    const key = showIdentity(show);
+    const previous = merged.get(key);
+    if (!previous) {
+      merged.set(key, show);
+      continue;
+    }
+    const providerLinks = { ...(previous.provider_links || {}), ...(show.provider_links || {}) };
+    const links = { ...(previous.links || {}), ...(show.links || {}) };
+    for (const [provider, meta] of Object.entries(show.provider_links || {})) {
+      providerLinks[provider] = { ...(previous.provider_links?.[provider] || {}), ...meta };
+    }
+    merged.set(key, {
+      ...previous,
+      ...show,
+      provider_links: providerLinks,
+      links,
+      // Local event records carry the stronger editorial verification state;
+      // discovery must not downgrade it while adding a new provider URL.
+      verification_status: previous.verification_status || show.verification_status,
+      image_url: previous.image_url || show.image_url,
+      venue: previous.venue || show.venue,
+      city: previous.city || show.city,
+      country: previous.country || show.country
+    });
+  }
+  return [...merged.values()].sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO));
 }
 
 function buildTicketmasterArtistEventsCacheKey(artistSlug, artistName, countryCode, limit) {
@@ -512,8 +592,8 @@ function validImpactMarketplaceEventUrl(value, provider) {
 function hasSeatGeekProviderConfig(env = {}) {
   const hasBaseTrackingUrl = Boolean(String(env?.IMPACT_SEATGEEK_BASE_TRACKING_URL || "").trim());
   const hasImpactApiConfig = Boolean(
-    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim() &&
-    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID || "").trim() &&
+    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN || "").trim() &&
     String(env?.IMPACT_SEATGEEK_CAMPAIGN_ID || env?.IMPACT_SEATGEEK_PROGRAM_ID || "").trim()
   );
   return hasBaseTrackingUrl || hasImpactApiConfig;
@@ -540,8 +620,8 @@ function validSeatGeekEventUrl(value) {
 function hasVividSeatsProviderConfig(env = {}) {
   const hasBaseTrackingUrl = Boolean(String(env?.IMPACT_VIVIDSEATS_BASE_TRACKING_URL || "").trim());
   const hasImpactApiConfig = Boolean(
-    String(env?.IMPACT_SEATGEEK_ACCOUNT_SID || "").trim() &&
-    String(env?.IMPACT_SEATGEEK_AUTH_TOKEN || "").trim() &&
+    String(env?.IMPACT_VIVIDSEATS_ACCOUNT_SID || env?.IMPACT_ACCOUNT_SID || "").trim() &&
+    String(env?.IMPACT_VIVIDSEATS_AUTH_TOKEN || env?.IMPACT_AUTH_TOKEN || "").trim() &&
     String(env?.IMPACT_VIVIDSEATS_CAMPAIGN_ID || env?.IMPACT_VIVIDSEATS_PROGRAM_ID || "").trim()
   );
   return hasBaseTrackingUrl || hasImpactApiConfig;

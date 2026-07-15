@@ -15,6 +15,45 @@ function clean(value, max = 255) {
   return String(value || "").trim().slice(0, max);
 }
 
+const SAFE_METADATA_KEYS = new Set([
+  "routeType", "artistSlug", "guideSlug", "tourSlug", "provider", "linkId",
+  "eventId", "showId", "status", "reason", "currency", "hasPrice",
+  "comparisonProviders", "result"
+]);
+
+function sanitizeMetadata(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return {};
+  const output = {};
+  for (const [key, raw] of Object.entries(value)) {
+    if (!SAFE_METADATA_KEYS.has(key)) continue;
+    if (typeof raw === "boolean" || typeof raw === "number") {
+      output[key] = raw;
+      continue;
+    }
+    if (typeof raw !== "string") continue;
+    const cleaned = raw.trim().slice(0, 160);
+    if (!cleaned || /(?:https?:|www\\.|\\.com\\b|\\.net\\b|\\.org\\b)/i.test(cleaned)) continue;
+    output[key] = cleaned;
+  }
+  return output;
+}
+
+function safePath(value) {
+  try {
+    return new URL(String(value || "/"), "https://tourticketcompare.local").pathname.slice(0, 255) || "/";
+  } catch {
+    return "/";
+  }
+}
+
+function safeReferrer(value) {
+  try {
+    return value ? new URL(String(value)).origin.slice(0, 255) : null;
+  } catch {
+    return null;
+  }
+}
+
 function getDemandDb(env) {
   const candidate = env?.DEMAND_DB;
   return candidate && typeof candidate.prepare === "function" ? candidate : null;
@@ -49,13 +88,13 @@ export async function onRequestPost({ request, env }) {
   const eventName = clean(payload?.eventName, 80);
   if (!ALLOWED_EVENTS.has(eventName)) return json({ ok: false, status: "invalid_event" }, 400);
 
-  const metadata = payload?.metadata && typeof payload.metadata === "object" ? payload.metadata : {};
+  const metadata = sanitizeMetadata(payload?.metadata);
   const now = new Date().toISOString();
-  const sourcePath = clean(payload?.sourcePath, 255) || "/";
+  const sourcePath = safePath(payload?.sourcePath);
   const artistSlug = clean(payload?.artistSlug, 80) || null;
   const email = clean(payload?.email, 254).toLowerCase() || null;
   const requestKey = await hashRequestKey(request);
-  const referrer = clean(request.headers.get("referer"), 512) || null;
+  const referrer = safeReferrer(request.headers.get("referer"));
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;
   const metadataJson = JSON.stringify(metadata).slice(0, 2048);
   const provider = clean(payload?.provider || metadata.provider, 80) || null;

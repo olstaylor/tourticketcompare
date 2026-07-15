@@ -1137,21 +1137,21 @@
     "datetime_iso": "2026-06-26T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-madrid-tickets",
         "discovery_event_id": "Z698xZ2qZ16eZdbSGK",
-        "url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -1190,21 +1190,21 @@
     "datetime_iso": "2026-06-27T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-madrid-tickets",
         "discovery_event_id": "Z698xZ2qZ16eZ94-rv",
-        "url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -1249,15 +1249,15 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-munich-tickets",
         "discovery_event_id": "Z698xZC2Z1koNbaqf",
         "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale"
       },
       "seatgeek": {
         "event_id": null,
@@ -1302,15 +1302,15 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-munich-tickets",
         "discovery_event_id": "Z698xZC2Z1kFJ7MGy",
         "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale"
       },
       "seatgeek": {
         "event_id": null,
@@ -1349,21 +1349,21 @@
     "datetime_iso": "2026-08-16T01:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "Z7r9jZ1A7OOuI",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-15-8-pm/concert/17975621",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+    "source_url": "",
     "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OOuI",
         "discovery_event_id": "Z7r9jZ1A7OOuI",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
-        "verified": true,
-        "last_verified_at": "2026-07-07",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": 17975621,
@@ -1401,21 +1401,21 @@
     "datetime_iso": "2026-08-17T01:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "Z7r9jZ1A7OOut",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-16-8-pm/concert/18009296",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+    "source_url": "",
     "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OOut",
         "discovery_event_id": "Z7r9jZ1A7OOut",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": 18009296,

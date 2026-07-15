@@ -18786,19 +18786,19 @@
     "datetime_iso": "2026-09-18T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "127815141",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "127815141",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/127815141?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1k7EO4Av"
       },
       "seatgeek": {
@@ -18826,7 +18826,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k7EO4Av",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vas39ay",
@@ -18839,19 +18839,19 @@
     "datetime_iso": "2026-09-19T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1273497170",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1273497170",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1273497170?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16vaS39AY"
       },
       "seatgeek": {
@@ -18879,7 +18879,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaS39AY",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vrkvz38",
@@ -18892,19 +18892,19 @@
     "datetime_iso": "2026-09-20T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1786040490",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1786040490",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1786040490?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16vrkvZ38"
       },
       "seatgeek": {
@@ -18932,7 +18932,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vrkvZ38",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v_oqxoe",
@@ -18945,19 +18945,19 @@
     "datetime_iso": "2026-09-25T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1651762442",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1651762442",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1651762442?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16v_oqxoe"
       },
       "seatgeek": {
@@ -18985,7 +18985,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v_oqxoe",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vowff-f",
@@ -18998,19 +18998,19 @@
     "datetime_iso": "2026-09-26T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1472508854",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1472508854",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1472508854?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16vowfF-f"
       },
       "seatgeek": {
@@ -19038,7 +19038,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vowfF-f",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1konkpax",
@@ -19051,19 +19051,19 @@
     "datetime_iso": "2026-09-27T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "823196262",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "823196262",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/823196262?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1kONkpax"
       },
       "seatgeek": {
@@ -19091,7 +19091,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kONkpax",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1kbi4uav",
@@ -19104,19 +19104,19 @@
     "datetime_iso": "2026-10-02T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "628576241",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-2-2026/production/6828118",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "628576241",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/628576241?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1kbI4Uav"
       },
       "seatgeek": {
@@ -19144,7 +19144,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kbI4Uav",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v4mzjas",
@@ -19157,19 +19157,19 @@
     "datetime_iso": "2026-10-03T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1577026271",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-3-2026/production/6828120",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1577026271",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1577026271?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16v4MZJas"
       },
       "seatgeek": {
@@ -19197,7 +19197,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4MZJas",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16v73axp9",
@@ -19210,19 +19210,19 @@
     "datetime_iso": "2026-10-04T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1112262957",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-4-2026/production/6828116",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1112262957",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16v73axP9"
       },
       "seatgeek": {
@@ -19250,7 +19250,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v73axP9",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koifuzg",
@@ -19263,19 +19263,19 @@
     "datetime_iso": "2026-10-09T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "828236035",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "828236035",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/828236035?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1kOIFUZg"
       },
       "seatgeek": {
@@ -19303,7 +19303,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOIFUZg",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1koecouy",
@@ -19316,19 +19316,19 @@
     "datetime_iso": "2026-10-10T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "802391370",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-10-2026/production/6837757",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "802391370",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/802391370?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ1kOeCouY"
       },
       "seatgeek": {
@@ -19356,7 +19356,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kOeCouY",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz16vfpafo8",
@@ -19369,19 +19369,19 @@
     "datetime_iso": "2026-10-11T18:30:00Z",
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "1525248810",
-    "ticketmaster_url": "",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "",
+    "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
     "last_verified_at": "2026-07-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1525248810",
         "url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1525248810?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck",
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale",
         "discovery_event_id": "Z698xZ2qZ16vfPaFO8"
       },
       "seatgeek": {
@@ -19409,7 +19409,7 @@
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfPaFO8",
-    "verification_status": "needs_recheck"
+    "verification_status": "human_verified"
   },
   {
     "id": "tm-ed-sheeran-2026-glendale-z7r9jz1a7jm",
@@ -22289,21 +22289,21 @@
     "datetime_iso": "2026-06-26T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-madrid-tickets",
         "discovery_event_id": "Z698xZ2qZ16eZdbSGK",
-        "url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2003633313?language=en-us",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -22342,21 +22342,21 @@
     "datetime_iso": "2026-06-27T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
-    "ticketmaster_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+    "source_url": "",
     "last_verified_at": null,
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-madrid-tickets",
         "discovery_event_id": "Z698xZ2qZ16eZ94-rv",
-        "url": "https://www.ticketmaster.es/event/bts-world-tour-arirang-in-madrid-tickets/2017561781?language=en-us",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -22401,15 +22401,15 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-munich-tickets",
         "discovery_event_id": "Z698xZC2Z1koNbaqf",
         "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale"
       },
       "seatgeek": {
         "event_id": null,
@@ -22454,15 +22454,15 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "bts-world-tour-arirang-in-munich-tickets",
         "discovery_event_id": "Z698xZC2Z1kFJ7MGy",
         "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "verified": true,
+        "last_verified_at": "2026-07-15",
+        "availability_status": "on_sale"
       },
       "seatgeek": {
         "event_id": null,
@@ -22501,21 +22501,21 @@
     "datetime_iso": "2026-08-16T01:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "Z7r9jZ1A7OOuI",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-15-8-pm/concert/17975621",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
+    "source_url": "",
     "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OOuI",
         "discovery_event_id": "Z7r9jZ1A7OOuI",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOuI",
-        "verified": true,
-        "last_verified_at": "2026-07-07",
-        "availability_status": "not_checked"
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": 17975621,
@@ -22553,21 +22553,21 @@
     "datetime_iso": "2026-08-17T01:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "Z7r9jZ1A7OOut",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-16-8-pm/concert/18009296",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+    "source_url": "",
     "last_verified_at": "2026-07-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OOut",
         "discovery_event_id": "Z7r9jZ1A7OOut",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOut",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": 18009296,
@@ -22717,14 +22717,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Qoav",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7Qoav",
         "discovery_event_id": "Z7r9jZ1A7Qoav",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Qoav",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -22769,14 +22769,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7QoaZ",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7QoaZ",
         "discovery_event_id": "Z7r9jZ1A7QoaZ",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7QoaZ",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -22821,14 +22821,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j6Op",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7j6Op",
         "discovery_event_id": "Z7r9jZ1A7j6Op",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7j6Op",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -22857,110 +22857,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzc9",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
-    "city": "Dusseldorf",
-    "country": "Germany",
-    "venue": "Merkur Spiel Arena",
-    "datetime_iso": "2026-06-20T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZC9",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZC9",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZC9",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZC9",
-        "discovery_event_id": "Z7r9jZ1A7xZC9",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZC9",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZC9",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzcb",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny - DeBÍ TiRAR MáS FOToS World Tour",
-    "city": "Dusseldorf",
-    "country": "Germany",
-    "venue": "Merkur Spiel Arena",
-    "datetime_iso": "2026-06-21T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZCb",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZCb",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZCb",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZCb",
-        "discovery_event_id": "Z7r9jZ1A7xZCb",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZCb",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZCb",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-bad-bunny-2026-marseille-z7r9jz1a7baxb",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
@@ -22971,21 +22867,21 @@
     "datetime_iso": "2026-07-01T18:00:00Z",
     "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7baxb",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7baxb",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7baxb",
+    "source_url": "",
     "last_verified_at": null,
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7baxb",
         "discovery_event_id": "Z7r9jZ1A7baxb",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7baxb",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -23010,58 +22906,6 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7baxb",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "event_name": "Bad Bunny",
-    "city": "Brussels",
-    "country": "Belgium",
-    "venue": "Stade Roi Boudoin - Brussels",
-    "datetime_iso": "2026-07-21T22:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "ticketmaster_event_id": "Z7r9jZ1A7xZuo",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
-    "last_verified_at": "2026-07-07",
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7xZuo",
-        "discovery_event_id": "Z7r9jZ1A7xZuo",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZuo",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZuo",
     "status": "on-sale"
   },
   {
@@ -23973,14 +23817,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIxF",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OIxF",
         "discovery_event_id": "Z7r9jZ1A7OIxF",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OIxF",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -24078,14 +23922,14 @@
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OZ43",
     "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
         "event_id": "Z7r9jZ1A7OZ43",
         "discovery_event_id": "Z7r9jZ1A7OZ43",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OZ43",
-        "verified": false,
-        "last_verified_at": null,
+        "verified": true,
+        "last_verified_at": "2026-07-15",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -24445,58 +24289,6 @@
     },
     "ticketmaster_discovery_event_id": "vvG18Z_urOiEcT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-shakira-2026-madrid-z7r9jz1a7j7vi",
-    "artist_slug": "shakira",
-    "artist_name": "Shakira",
-    "event_name": "Shakira",
-    "city": "Madrid",
-    "country": "Spain",
-    "venue": "Shakira Stadium",
-    "datetime_iso": "2026-09-27T18:30:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "Z7r9jZ1A7J7vI",
-    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "Z7r9jZ1A7J7vI",
-        "discovery_event_id": "Z7r9jZ1A7J7vI",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7J7vI",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7J7vI",
     "status": "on-sale"
   },
   {

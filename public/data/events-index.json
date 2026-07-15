@@ -4260,28 +4260,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzc9",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Germany",
-    "city": "Dusseldorf",
-    "venue": "Merkur Spiel Arena",
-    "datetime_iso": "2026-06-20T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-dusseldorf-z7r9jz1a7xzcb",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Germany",
-    "city": "Dusseldorf",
-    "venue": "Merkur Spiel Arena",
-    "datetime_iso": "2026-06-21T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-bad-bunny-2026-marseille-z7r9jz1a7baxb",
     "artist_slug": "bad-bunny",
     "artist_name": "Bad Bunny",
@@ -4289,17 +4267,6 @@
     "city": "Marseille",
     "venue": "Stade Velodrome",
     "datetime_iso": "2026-07-01T18:00:00Z",
-    "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo",
-    "artist_slug": "bad-bunny",
-    "artist_name": "Bad Bunny",
-    "country": "Belgium",
-    "city": "Brussels",
-    "venue": "Stade Roi Boudoin - Brussels",
-    "datetime_iso": "2026-07-21T22:00:00Z",
     "tour_name": "DeBÍ TiRAR MáS FOToS World Tour",
     "status": "on-sale"
   },
@@ -4551,17 +4518,6 @@
     "datetime_iso": "2026-10-17T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Still Finally Over It",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-shakira-2026-madrid-z7r9jz1a7j7vi",
-    "artist_slug": "shakira",
-    "artist_name": "Shakira",
-    "country": "Spain",
-    "city": "Madrid",
-    "venue": "Shakira Stadium",
-    "datetime_iso": "2026-09-27T18:30:00Z",
-    "tour_name": "",
     "status": "on-sale"
   },
   {

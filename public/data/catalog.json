@@ -1095,7 +1095,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-04-30",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/beyonce-tickets/artist/894191"
     },
     {
       "link_id": "tm-artist-harry-styles",
@@ -1570,7 +1571,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-07-15",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/post-malone-tickets/artist/2119390"
     },
     {
       "link_id": "tm-artist-zach-bryan",
@@ -1583,7 +1585,8 @@
       "public_enabled": true,
       "market": "global",
       "last_checked_at": "2026-07-15",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/zach-bryan-tickets/artist/2811359"
     },
     {
       "link_id": "sg-artist-post-malone",
@@ -1596,7 +1599,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-15",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/post-malone-tickets"
     },
     {
       "link_id": "sg-artist-zach-bryan",
@@ -1609,7 +1613,8 @@
       "public_enabled": true,
       "market": "us",
       "last_checked_at": "2026-07-15",
-      "disclosure_required": true
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/zach-bryan-tickets"
     }
   ],
   "safety_rules": [

@@ -193,7 +193,7 @@
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Batch-promoted 2026-07-15: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+      "notes": "Batch-promoted 2026-07-15: SeatGeek performer id + URL and Ticketmaster attraction id + URL captured verbatim from the /2/performers and Discovery attractions APIs (exact-name match). Ticketmaster destination opened and confirmed to the correct artist 2026-07-15; SeatGeek performer URL is API-verbatim (automated fetch WAF-blocked) and owner-approved to keep sync enabled. Validators pass (validate:cta-provider-state, providers:identities:validate)."
     },
     {
       "slug": "zach-bryan",
@@ -204,7 +204,7 @@
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Batch-promoted 2026-07-15: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+      "notes": "Batch-promoted 2026-07-15: SeatGeek performer id + URL and Ticketmaster attraction id + URL captured verbatim from the /2/performers and Discovery attractions APIs (exact-name match). Ticketmaster destination opened and confirmed to the correct artist 2026-07-15; SeatGeek performer URL is API-verbatim (automated fetch WAF-blocked) and owner-approved to keep sync enabled. Validators pass (validate:cta-provider-state, providers:identities:validate)."
     }
   ]
 }

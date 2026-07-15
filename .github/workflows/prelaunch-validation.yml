@@ -3,6 +3,9 @@ name: Prelaunch Validation
 on:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   test-mvp:
     runs-on: ubuntu-latest
@@ -30,6 +33,12 @@ jobs:
 
       - name: Run canonical prelaunch validation
         run: npm run test:mvp
+
+      - name: Check JavaScript syntax
+        run: node --check public/app.js 'functions/[[path]].js' functions/api/out.js
+
+      - name: Check patch whitespace
+        run: git diff --check
 
   stale-sync-guard:
     runs-on: ubuntu-latest

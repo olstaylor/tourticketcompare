@@ -291,6 +291,34 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-rosalia",
     redirectUrl: "https://seatgeek.com/rosalia-tickets",
     verified: true
+  },
+  "post-malone:ticketmaster": {
+    artistSlug: "post-malone",
+    provider: "ticketmaster",
+    linkId: "tm-artist-post-malone",
+    redirectUrl: "https://www.ticketmaster.com/post-malone-tickets/artist/2119390",
+    verified: true
+  },
+  "post-malone:seatgeek": {
+    artistSlug: "post-malone",
+    provider: "seatgeek",
+    linkId: "sg-artist-post-malone",
+    redirectUrl: "https://seatgeek.com/post-malone-tickets",
+    verified: true
+  },
+  "zach-bryan:ticketmaster": {
+    artistSlug: "zach-bryan",
+    provider: "ticketmaster",
+    linkId: "tm-artist-zach-bryan",
+    redirectUrl: "https://www.ticketmaster.com/zach-bryan-tickets/artist/2811359",
+    verified: true
+  },
+  "zach-bryan:seatgeek": {
+    artistSlug: "zach-bryan",
+    provider: "seatgeek",
+    linkId: "sg-artist-zach-bryan",
+    redirectUrl: "https://seatgeek.com/zach-bryan-tickets",
+    verified: true
   }
 };
 

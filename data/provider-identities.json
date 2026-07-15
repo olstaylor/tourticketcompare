@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-02",
+  "updated_at": "2026-07-15",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -183,6 +183,28 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Ticketmaster artist page opened in a browser by owner and confirmed 2026-06-17 (Promote PR); canonical artist URL captured from the Ticketmaster Discovery attractions endpoint for attraction K8vZ917pJy7 (storefront id 2453211 differs from the Discovery id, so sourced from the API rather than name-built). SeatGeek performer id 705166 verified 2026-06-20 via the SeatGeek /2/performers API: exact-name primary performer \"Rosalia\" on the canonical SeatGeek performer page; tribute/dance-party/parking same-name collisions excluded. SeatGeek artist URL captured 2026-07-02 from the /2/performers/{id} API record for this verified performer id (artist-level SeatGeek CTAs enabled)."
+    },
+    {
+      "slug": "post-malone",
+      "ticketmaster_attraction_id": "K8vZ917KjPf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/post-malone-tickets/artist/2119390",
+      "seatgeek_performer_id": 356214,
+      "seatgeek_artist_url": "https://seatgeek.com/post-malone-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-15: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "zach-bryan",
+      "ticketmaster_attraction_id": "K8vZ917_NoV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/zach-bryan-tickets/artist/2811359",
+      "seatgeek_performer_id": 794528,
+      "seatgeek_artist_url": "https://seatgeek.com/zach-bryan-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-15: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
     }
   ]
 }

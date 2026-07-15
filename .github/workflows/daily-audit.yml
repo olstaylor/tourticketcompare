@@ -136,7 +136,10 @@ jobs:
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
           git checkout -B "$BRANCH"
-          git add public/data/artists.json
+          # Keep the inlined public/index.html fallback in sync with the bumped
+          # artists.json so the PR never trips the stale-sync-guard.
+          python3 scripts/sync-events-data.py
+          git add public/data/artists.json public/index.html
           git commit -m "Bump last_verified_at for clean artists (${TODAY})"
           git push -u origin "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" TODAY="$TODAY" node scripts/open-daily-pr.mjs

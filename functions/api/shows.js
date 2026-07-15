@@ -360,7 +360,8 @@ async function fetchTicketmasterArtistEvents(options) {
     ttlSeconds
   } = options || {};
 
-  // Ticketmaster credentials are supplied as a Cloudflare Pages secret at runtime.\n  const apiKey = String(env?.TICKETMASTER_API_KEY || "").trim();
+  // Ticketmaster credentials are supplied as a Cloudflare Pages secret at runtime.
+  const apiKey = String(env?.TICKETMASTER_API_KEY || "").trim();
   if (!apiKey) {
     return { shows: [], cacheState: "disabled", error: "missing_ticketmaster_api_key" };
   }

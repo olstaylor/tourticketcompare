@@ -14,16 +14,49 @@ function hasBinding(env, name) {
   return Boolean(env && Object.prototype.hasOwnProperty.call(env, name));
 }
 
+async function loadOperationalSummary(env) {
+  const assets = env?.ASSETS;
+  if (!assets || typeof assets.fetch !== "function") return { status: "unavailable" };
+  try {
+    const load = async (path) => {
+      const response = await assets.fetch(new Request(`https://assets.local${path}`));
+      if (!response.ok) throw new Error(`asset ${path} returned ${response.status}`);
+      return response.json();
+    };
+    const [artists, events] = await Promise.all([load("/data/artists.json"), load("/data/events.json")]);
+    const rows = Array.isArray(events) ? events : [];
+    const providerNames = ["seatgeek", "vividseats", "ticketnetwork", "ticketliquidator", "stubhub_international"];
+    const providerEventUrlCoverage = Object.fromEntries(providerNames.map((provider) => [
+      provider,
+      rows.filter((event) => {
+        const key = provider === "stubhub_international" ? "stubhub-international" : provider === "vividseats" ? "vivid-seats" : provider;
+        return Boolean(event?.[`${key}_url`] || event?.provider_links?.[key]?.url);
+      }).length
+    ]));
+    return {
+      status: "ok",
+      artists: Array.isArray(artists) ? artists.length : 0,
+      events: rows.length,
+      needsRecheck: rows.filter((event) => event?.verification_status === "needs_recheck").length,
+      providerEventUrlCoverage
+    };
+  } catch {
+    return { status: "unavailable" };
+  }
+}
+
 export async function onRequestGet({ env }) {
   const ticketNetwork = impactMarketplaceRuntimeConfig(env, "ticketnetwork");
   const ticketLiquidator = impactMarketplaceRuntimeConfig(env, "ticket-liquidator");
   const stubHubInternational = impactMarketplaceRuntimeConfig(env, "stubhub-international");
+  const operational = await loadOperationalSummary(env);
   return json({
     ok: true,
     service: "tourticketcompare",
     runtime: "cloudflare-pages-functions",
     status: "ok",
     timestamp: new Date().toISOString(),
+    operational,
     config: {
       mockMode: env?.MOCK_MODE === "true",
       allowMockPrices: env?.ALLOW_MOCK_PRICES === "true",

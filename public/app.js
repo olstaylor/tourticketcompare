@@ -1552,9 +1552,9 @@ function hasApprovedMarketplacePrice(show) {
 // the right side carries the approved, fresh listed-price snapshot when one
 // exists (the price is the button) or "Check prices" when it doesn't. Keep in
 // sync with renderProviderCtaButtonHtml in functions/[[path]].js.
-function renderProviderCtaButton(name, href, amount, isLower = false, analytics = {}) {
+function renderProviderCtaButton(name, href, amount, analytics = {}) {
   const cta = document.createElement("a");
-  cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}${isLower ? " provider-cta-lower" : ""}`;
+  cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}`;
   cta.href = href;
   cta.target = "_blank";
   cta.rel = "noopener";
@@ -1565,104 +1565,22 @@ function renderProviderCtaButton(name, href, amount, isLower = false, analytics 
   cta.dataset.ctaShowId = analytics.showId || "";
   cta.dataset.ctaPriceSnapshot = amount ? "present" : "absent";
   cta.dataset.ctaLocation = analytics.ctaLocation || "event_card";
-  const nameCell = text(cta, "span", name, "provider-cta-name");
-  if (isLower) text(nameCell, "span", "Lowest listed snapshot", "provider-cta-lowtag");
+  text(cta, "span", name, "provider-cta-name");
   text(cta, "span", amount || "Check prices", `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
   return cta;
 }
 
-// Splits normalized CTA specs into priced snapshots and CTA-only providers, and
-// orders the priced group transparently: currency code, then listed snapshot
-// price ascending. CTA-only providers keep the fixed provider display order and
-// are never mixed into the priced snapshot ordering. Keep in sync with
-// splitAndSortCtaSpecs in functions/[[path]].js.
-function splitAndSortCtaSpecs(ctaSpecs) {
-  const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.lane);
-  const unpriced = ctaSpecs.filter((spec) => !(spec.priceAmount && spec.lane));
-  priced.sort((a, b) =>
-    a.lane.currency === b.lane.currency
-      ? a.lane.price - b.lane.price
-      : a.lane.currency < b.lane.currency ? -1 : 1
-  );
-  return { priced, unpriced };
-}
-
-// The single lowest-priced snapshot among those currently displayed — only when
-// at least two priced lanes share one currency and the lowest is unique. This
-// is a claim about the displayed timestamped snapshots for this exact event,
-// never about live inventory or fees-inclusive totals. Keep in sync with
-// lowestDisplayedSnapshotSpec in functions/[[path]].js.
-function lowestDisplayedSnapshotSpec(pricedSpecs) {
-  if (pricedSpecs.length < 2) return null;
-  const currencies = new Set(pricedSpecs.map((spec) => spec.lane.currency));
-  if (currencies.size !== 1) return null;
-  let lowest = pricedSpecs[0];
-  for (const spec of pricedSpecs) {
-    if (spec.lane.price < lowest.lane.price) lowest = spec;
-  }
-  const ties = pricedSpecs.filter((spec) => spec.lane.price === lowest.lane.price);
-  return ties.length === 1 ? lowest : null;
-}
-
 // Required snapshot disclosures for every price shown on a button, rendered
-// once beneath the button group. Provider names appear here only from actual
-// approved, fresh lanes. The SeatGeek/Vivid Seats side-by-side comparison
-// branch is retained but inert today: SeatGeek is CTA-only (its API supplies
-// no numeric pricing stats), so no SeatGeek lane ever passes the gates.
-function renderShowCardPriceNotes(ctaSpecs, comparison) {
+// once beneath the unified provider list. Provider names and capture times
+// appear only for actual approved, fresh lanes.
+function renderShowCardPriceNotes(ctaSpecs) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) return null;
   const wrap = document.createElement("div");
   wrap.className = "provider-cta-notes";
-  const handled = new Set();
-  if (comparison) {
-    const seatGeek = ctaSpecs.find((spec) => spec.provider === "seatgeek");
-    const vividSeats = ctaSpecs.find((spec) => spec.provider === "vivid-seats");
-    if (comparison.sameCurrency && comparison.lowerProvider && comparison.delta !== null) {
-      const difference = formatProviderPrice(comparison.delta, comparison.seatGeek.currency);
-      if (difference) text(wrap, "p", `${comparison.lowerProvider} has the lower listed price snapshot by ${difference}.`, "price-compare-note");
-    } else if (comparison.sameCurrency) {
-      text(wrap, "p", "Both providers show the same listed price snapshot.", "price-compare-note");
-    } else {
-      text(wrap, "p", "The snapshots use different currencies, so no price difference is calculated.", "price-compare-note");
-    }
-    text(wrap, "p", `SeatGeek price snapshot as of ${seatGeek.priceAsOf}; Vivid Seats price snapshot as of ${vividSeats.priceAsOf}. Prices exclude fees.`, "disclosure-note");
-    handled.add("seatgeek");
-    handled.add("vivid-seats");
-  }
-  // Condensed per-provider snapshots: one short "Provider · timestamp" line
-  // each, with a single shared fees disclosure instead of repeating it per row.
-  const perProvider = priced.filter((spec) => !handled.has(spec.provider));
-  for (const spec of perProvider) {
-    text(wrap, "p", `${spec.name} · ${spec.priceAsOf}`, "disclosure-note snapshot-line");
-  }
-  const lowest = lowestDisplayedSnapshotSpec(priced);
-  if (lowest && !handled.has(lowest.provider)) {
-    text(wrap, "p", `${lowest.name} shows the lowest listed-price snapshot currently displayed for this event.`, "price-compare-note");
-  }
-  if (priced.length > 1) {
-    text(wrap, "p", "Snapshots are ordered lowest listed price first within each currency.", "disclosure-note snapshot-sort");
-  }
-  if (perProvider.length) text(wrap, "p", "Timestamped provider-listed price snapshots — not live inventory or availability, and prices exclude fees. Confirm the final total, fees, and availability at provider checkout.", "disclosure-note snapshot-fees");
+  const snapshotTimes = priced.map((spec) => `${spec.name} ${spec.priceAsOf}`).join(" · ");
+  text(wrap, "p", `Listed-price snapshots, not live availability. ${snapshotTimes}. Prices may change and may exclude fees.`, "disclosure-note");
   return wrap;
-}
-
-function approvedProviderPriceComparison(show) {
-  const seatGeek = approvedSeatGeekPriceLane(show);
-  const vividSeats = approvedVividSeatsPriceLane(show);
-  if (!seatGeek || !vividSeats) return null;
-
-  const sameCurrency = seatGeek.currency === vividSeats.currency;
-  const delta = sameCurrency ? Number(Math.abs(seatGeek.price - vividSeats.price).toFixed(2)) : null;
-  const lowerProvider = sameCurrency
-    ? seatGeek.price < vividSeats.price
-      ? "SeatGeek"
-      : vividSeats.price < seatGeek.price
-        ? "Vivid Seats"
-        : null
-    : null;
-
-  return { seatGeek, vividSeats, sameCurrency, delta, lowerProvider };
 }
 
 function renderShowCard(show, options = {}) {
@@ -1746,51 +1664,22 @@ function renderShowCard(show, options = {}) {
           spec.lane = null;
         }
       }
-      // Lower-price highlight only when SeatGeek and Vivid Seats are both
-      // priced — currently never, since SeatGeek has no numeric snapshot lane.
-      const seatGeekSpec = ctaSpecs.find((spec) => spec.provider === "seatgeek");
-      const vividSeatsSpec = ctaSpecs.find((spec) => spec.provider === "vivid-seats");
-      const comparison = seatGeekSpec?.priceAmount && vividSeatsSpec?.priceAmount ? approvedProviderPriceComparison(show) : null;
-
-      // Priced snapshots render first, sorted lowest listed price first within
-      // each currency and labelled as timestamped snapshots; CTA-only providers
-      // (no approved fresh numeric snapshot) render in a separate labelled group
-      // so they are never presented as priced snapshot rows. Only the unique
-      // lowest displayed snapshot in a single shared currency is highlighted.
-      // Keep in sync with renderShowCardServerHtml in functions/[[path]].js.
+      // Keep every provider in one fixed-order list. A fresh approved snapshot
+      // replaces "Check prices" with the amount, without moving the provider or
+      // splitting the card into separate priced and unpriced sections.
       const analyticsBase = {
         artistSlug: String(options.artistSlug || show.artist_slug || "").trim(),
         showId: String(show.id || "").trim(),
         ctaLocation: options.ctaLocation || "event_card"
       };
-      const primary = ctaSpecs.find((spec) => spec.provider === "seatgeek");
-      const secondary = ctaSpecs.filter((spec) => spec !== primary);
-      const { priced, unpriced } = splitAndSortCtaSpecs(secondary);
-      const lowestSpec = lowestDisplayedSnapshotSpec(priced);
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
-      const appendSpecs = (specs) => {
-        for (const spec of specs) {
-          ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", spec === lowestSpec, { ...analyticsBase, provider: spec.provider }));
-        }
-      };
-      if (primary) {
-        text(ctaGroup, "p", "Primary provider", "provider-cta-group-label");
-        appendSpecs([primary]);
-      }
-      if (priced.length) {
-        text(ctaGroup, "p", "Listed-price snapshots — timestamped, not live availability", "provider-cta-group-label");
-        appendSpecs(priced);
-        if (unpriced.length) {
-          text(ctaGroup, "p", "More providers — no current price snapshot", "provider-cta-group-label provider-cta-group-label-secondary");
-          appendSpecs(unpriced);
-        }
-      } else if (!primary) {
-        appendSpecs(unpriced);
+      for (const spec of ctaSpecs) {
+        ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }));
       }
       body.append(ctaGroup);
 
-      const notes = renderShowCardPriceNotes(ctaSpecs, comparison);
+      const notes = renderShowCardPriceNotes(ctaSpecs);
       if (notes) body.append(notes);
     } else {
       text(body, "p", "No verified ticket link is available for this date.", "disclosure-note");

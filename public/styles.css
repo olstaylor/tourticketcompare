@@ -1249,56 +1249,11 @@ summary {
   color: var(--accent-dark);
 }
 
-.provider-cta-lower {
-  border-color: color-mix(in oklab, var(--green) 40%, transparent);
-  background: var(--green-soft);
-}
-
-.provider-cta-lower .provider-cta-name,
-.provider-cta-lower .provider-cta-price {
-  color: var(--green);
-}
-
-/* Sub-group labels inside the CTA stack: priced snapshots first, then
-   CTA-only providers with no current snapshot. */
-.provider-cta-group-label {
-  margin: 2px 0 -2px;
-  color: var(--muted);
-  font-size: 0.7rem;
-  font-weight: 900;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.provider-cta-group-label-secondary {
-  margin-top: 8px;
-}
-
-/* "Lowest listed snapshot" tag on the single lowest displayed same-currency
-   snapshot for the event. */
-.provider-cta-lowtag {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 2px 8px;
-  border-radius: 999px;
-  background: color-mix(in oklab, var(--green) 14%, #fff);
-  color: var(--green);
-  font-size: 0.62rem;
-  font-weight: 950;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
 /* Multi-night run line: "Show X of Y at this venue". */
 .show-card-run {
   margin: -2px 0 2px;
   font-size: 0.8rem;
   font-weight: 800;
-}
-
-.provider-cta-notes .snapshot-sort {
-  color: var(--muted);
 }
 
 /* Zero-event watchlist signup. */
@@ -1655,4 +1610,66 @@ summary {
   }
 
 }
-\n
+
+/* One calm provider list per show card. Priced and unpriced providers keep the
+   same fixed order and visual treatment; only the right-hand value changes. */
+.show-card .provider-cta-group {
+  gap: 0;
+  overflow: hidden;
+  margin-top: 2px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+}
+
+.show-card .provider-cta {
+  min-height: 42px;
+  padding: 9px 12px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.show-card .provider-cta:last-child {
+  border-bottom: 0;
+}
+
+.show-card .provider-cta:hover,
+.show-card .provider-cta:focus-visible {
+  transform: none;
+  background: var(--green-soft);
+}
+
+.show-card .provider-cta-name {
+  color: var(--ink-soft);
+  font-size: 0.86rem;
+  font-weight: 750;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.show-card .provider-cta-value {
+  font-size: 0.92rem;
+  font-weight: 850;
+  letter-spacing: 0;
+}
+
+.show-card .provider-cta-check {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.show-card .provider-cta-notes {
+  margin: 4px 0 0;
+  padding: 0;
+  background: transparent;
+}
+
+.show-card .provider-cta-notes .disclosure-note {
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}

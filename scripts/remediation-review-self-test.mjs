@@ -28,10 +28,12 @@ assert.doesNotMatch(server, /data-watchlist-signup=.*?method=/);
 assert.match(client, /dataset\.signupSubmitting === "true"/);
 assert.match(client, /submitButton\.disabled = true/);
 
-// Price snapshots are provider-agnostic only within the numeric snapshot
-// section; SeatGeek remains an explicitly unpriced primary CTA.
-assert.match(server, /const primary = ctaSpecs\.find\(\(spec\) => spec\.provider === "seatgeek"\)/);
-assert.match(client, /const primary = ctaSpecs\.find\(\(spec\) => spec\.provider === "seatgeek"\)/);
+// Every checked provider stays in the fixed provider order. A fresh numeric
+// snapshot changes only the right-hand value; it does not split or reorder rows.
+assert.match(server, /const buttonsHtml = ctaSpecs/);
+assert.match(client, /for \(const spec of ctaSpecs\)/);
+assert.doesNotMatch(server, /More providers — no current price snapshot/);
+assert.doesNotMatch(client, /More providers — no current price snapshot/);
 assert.match(server, /Current provider price snapshots/);
 assert.doesNotMatch(server, /Current provider price comparisons/);
 assert.doesNotMatch(server, /data-watchlist-signup="\$\{escapeAttr\(artistSlug\)\}"/);

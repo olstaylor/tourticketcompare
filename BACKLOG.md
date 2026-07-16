@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-07-14 (pruned stale/over-cautious items; venue landing pages and guide internal-linking shipped).
+Last updated: 2026-07-16 (agent, factual corrections only: Impact marketplace event-sync is now scheduled with auto-merge per PR #480; Post Malone/Zach Bryan events landed via PR #472; `needs_recheck` recounted to 20).
 
 ## Active priorities (in order)
 
@@ -17,21 +17,21 @@ All remaining active work is **operational** (owner + gated tooling), not engine
 
 Public activation completed on 2026-07-13 using the existing SeatGeek-scoped Impact credentials and the verified provider campaigns/catalogs. Continuing operations are:
 
-1. Run the manual event-sync workflow in preview before apply; review its PR and browser-check new sample destinations across markets.
+1. Monitor the nightly scheduled event-sync runs (06:00/06:30/07:00 UTC) via their auto-merged PRs and `reports/provider-sync/`; for manual dispatch, run preview before apply, review its PR, and browser-check new sample destinations across markets.
 2. Monitor the four-hour TicketNetwork and StubHub International exact-ID price snapshot schedule. Ticket Liquidator must stay price-disabled until its catalog supplies numeric `CurrentPrice`.
 3. Monitor catalog/campaign access and tracking. Set the matching public flag explicitly to `false` on a provider/API mismatch or redirect failure.
 
-Provider event-sync scheduling and auto-merge remain off pending a separate operational decision. StubHub International is separate from StubHub US/Canada.
+_[Corrected 2026-07-16, agent]_ Provider event-sync scheduling and auto-merge are **no longer off**: PR #480 (2026-07-15, owner-approved) scheduled all three lanes nightly with post-validation auto-merge; manual dispatch remains preview-first with review-only apply. StubHub International is separate from StubHub US/Canada.
 
 ### 3. Roster growth (2026/27 tours)
 
 Run `npm run artists:onboard:propose` with target artist names (US/EU major tours), create shells, human-review the manifest, then `npm run artists:promote:batch --write` (≤20/PR, per-artist human browser spot-check checklist in the PR body). Event enrichment follows via the existing `seatgeek:propose` / `seatgeek:enrich` and TM new-show pipelines. Never auto-publish.
 
-_In flight (2026-07-15): first Tier-1 batch — 4 shells added (PR #465); Post Malone + Zach Bryan promoted (PR #466); Sabrina Carpenter + Lady Gaga held as `review_required` shells pending live dates. Next candidates: Sabrina/Gaga promote once dates land, then Tier 2 (The Weeknd, Coldplay — SeatGeek-first, international-domain caveat) and Tier 3 (Jelly Roll, Journey, Tame Impala)._
+_In flight (2026-07-15, updated 2026-07-16): first Tier-1 batch — 4 shells added (PR #465); Post Malone + Zach Bryan promoted (PR #466) and their event records landed via the discovery batch PR #472 (post-malone 5, zach-bryan 15; `tour_name` blank pending human verification, 378 recognised rows withheld for review in the batch artifact); Sabrina Carpenter + Lady Gaga held as `review_required` shells pending live dates. Next candidates: Sabrina/Gaga promote once dates land, then Tier 2 (The Weeknd, Coldplay — SeatGeek-first, international-domain caveat) and Tier 3 (Jelly Roll, Journey, Tame Impala)._
 
 ### 4. Routine data hygiene (recurring)
 
-- **`needs_recheck` re-checks:** 13 events carry this state after the owner's 2026-07-15 browser recheck (bts 4, bad-bunny 1, olivia-rodrigo 6, ed-sheeran 2). Verified resale provenance keeps 9 SeatGeek CTAs publishable; 4 rows have neither provider and remain fully CTA-suppressed. Re-check Ticketmaster storefront URLs periodically; never restore from the Discovery `url` field alone.
+- **`needs_recheck` re-checks:** 20 events carry this state as of 2026-07-16 (olivia-rodrigo 6, zach-bryan 5, bts 4, bad-bunny 2, ed-sheeran 2, shakira 1) — the owner's 2026-07-15 recheck left 13, then discovery PR #472 added 5 zach-bryan short-form-URL rows and re-added the deleted shakira "Shakira Stadium" and bad-bunny Brussels rows (see `PROJECT_STATUS.md` Active risks). Verified resale provenance keeps 13 SeatGeek CTAs publishable; 7 rows have no resale provider and remain fully CTA-suppressed. Re-check Ticketmaster storefront URLs periodically; never restore from the Discovery `url` field alone.
 - **Blank tour labels:** JAY-Z Inglewood "JAY-Z30" and JAY-Z London "JAY-Z - 30" have blank `tour_name` and are owner-accepted as-is (2026-07-15); the validator's non-blocking warning for them is expected. The Yankee Stadium JAY-Z rows use "JAY-Z Yankee Stadium 2026". Never infer tour names from URL slugs.
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 

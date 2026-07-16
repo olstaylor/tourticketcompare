@@ -107,6 +107,7 @@ All HTML route handling lives in `functions/[[path]].js`, including the comparis
 - Confirm current activation through `/api/health`, fail-closed redirect tests, workflow YAML, and `PROJECT_STATUS.md`; do not infer it from secret names in the repository.
 
 - `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` — controlled discovery/snapshot tooling only, not `/api/out`.
+- `TICKETMASTER_API_KEY` — Pages runtime secret (configured 2026-07-15) used only by the opt-in live artist-discovery path in `/api/shows`; normal traffic reads the persisted catalogue, and live discovery additionally requires `TICKETMASTER_LIVE_ARTIST_DISCOVERY_ENABLED` (default off). The same key powers the scheduled GitHub Actions discovery/audit workflows.
 - The old `IMPACT_TICKETMASTER_*` secrets are unused — delete them from the dashboard if still present (owner task, tracked in `BACKLOG.md`).
 
 Impact credentials are never exposed client-side; they are used only by server functions and controlled provider-sync/snapshot tooling.
@@ -122,7 +123,7 @@ Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS
 - `seatgeek-cta-sync.yml` (scheduled + dispatch) — high-confidence SeatGeek event-link enrichment and identity-anchored provenance verification under the sanctioned auto-merge gates.
 - `vividseats-cta-sync.yml` (scheduled + dispatch) — catalog-backed Vivid Seats event-link/provenance sync under the sanctioned auto-merge gates.
 - `seatgeek-price-snapshots.yml` / `vividseats-price-snapshots.yml` — approved exact-event D1 snapshot writers; stale or unverified rows remain hidden.
-- `impact-marketplace-provider-sync.yml` (manual only) — preview/apply event-link lane for TicketNetwork, Ticket Liquidator, and StubHub International; apply opens a review PR and never auto-merges.
+- `impact-marketplace-provider-sync.yml` (scheduled nightly since PR #480 — TicketNetwork 06:00, Ticket Liquidator 06:30, StubHub International 07:00 UTC, serialized) — scheduled runs apply unambiguous exact-event links and auto-merge after the in-job validation suite; manual dispatch is preview-first, and a manual apply opens a review PR that never auto-merges.
 - `impact-marketplace-price-snapshots.yml` — scheduled exact-ID D1 snapshots for approved numeric-price lanes, plus dispatch/bootstrap; non-numeric lanes remain manual/display-disabled.
 - `bootstrap-provider-pricing-schema.yml` (manual only) — idempotent cache/history schema bootstrap tracked by `migrations/README.md`.
 

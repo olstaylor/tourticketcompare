@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7715489",
+        "url": "https://www.ticketliquidator.com/tickets/7715489/Post-Malone-tickets-Wed-Jul-15-2026-Kauffman-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_dGkHUMcmX",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715489"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715489",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7715489/Post-Malone-tickets-Wed-Jul-15-2026-Kauffman-Stadium"
   },
   {
     "id": "tm-post-malone-2026-ames-vv17bz_dgkbv6aim",
@@ -281,11 +289,19 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7715501",
+        "url": "https://www.ticketliquidator.com/tickets/7715501/Post-Malone-tickets-Tue-Jul-28-2026-Rice-Eccles-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_dBVWFnK",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715501"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715501",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7715501/Post-Malone-tickets-Tue-Jul-28-2026-Rice-Eccles-Stadium"
   }
 ]

@@ -657,14 +657,13 @@ function renderProviderButtons(artist, surface) {
     text(card, "p", "Artist-level provider page", "eyebrow");
     text(card, "h3", copy.name);
     const cta = buttonLink(copy.label, artistProviderHref(artist, item, surface), "primary");
-    cta.addEventListener("click", () => {
-      sendAnalytics("provider_click", {
-        artistSlug: artist.slug,
-        provider: providerSlug,
-        linkId: item.link_id || "",
-        surface
-      });
-    });
+    // The delegated provider_click listener reads these dimensions; no
+    // per-button listener needed.
+    cta.dataset.ctaProvider = providerSlug;
+    cta.dataset.ctaArtist = artist.slug;
+    cta.dataset.ctaPriceSnapshot = "absent";
+    cta.dataset.ctaLocation = "artist_provider_panel";
+    if (item.link_id) cta.dataset.ctaLinkId = item.link_id;
     card.append(cta);
     const verificationNote = providerVerificationNote(item);
     if (verificationNote) {
@@ -1553,15 +1552,56 @@ function hasApprovedMarketplacePrice(show) {
 // the right side carries the approved, fresh listed-price snapshot when one
 // exists (the price is the button) or "Check prices" when it doesn't. Keep in
 // sync with renderProviderCtaButtonHtml in functions/[[path]].js.
-function renderProviderCtaButton(name, href, amount, isLower = false) {
+function renderProviderCtaButton(name, href, amount, isLower = false, analytics = {}) {
   const cta = document.createElement("a");
   cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}${isLower ? " provider-cta-lower" : ""}`;
   cta.href = href;
   cta.target = "_blank";
   cta.rel = "noopener";
-  text(cta, "span", name, "provider-cta-name");
+  // Analytics dimensions for the delegated provider_click listener: artist,
+  // event, provider, snapshot present/absent, and CTA location.
+  cta.dataset.ctaProvider = analytics.provider || slugify(name);
+  cta.dataset.ctaArtist = analytics.artistSlug || "";
+  cta.dataset.ctaShowId = analytics.showId || "";
+  cta.dataset.ctaPriceSnapshot = amount ? "present" : "absent";
+  cta.dataset.ctaLocation = analytics.ctaLocation || "event_card";
+  const nameCell = text(cta, "span", name, "provider-cta-name");
+  if (isLower) text(nameCell, "span", "Lowest listed snapshot", "provider-cta-lowtag");
   text(cta, "span", amount || "Check prices", `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
   return cta;
+}
+
+// Splits normalized CTA specs into priced snapshots and CTA-only providers, and
+// orders the priced group transparently: currency code, then listed snapshot
+// price ascending. CTA-only providers keep the fixed provider display order and
+// are never mixed into the priced snapshot ordering. Keep in sync with
+// splitAndSortCtaSpecs in functions/[[path]].js.
+function splitAndSortCtaSpecs(ctaSpecs) {
+  const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.lane);
+  const unpriced = ctaSpecs.filter((spec) => !(spec.priceAmount && spec.lane));
+  priced.sort((a, b) =>
+    a.lane.currency === b.lane.currency
+      ? a.lane.price - b.lane.price
+      : a.lane.currency < b.lane.currency ? -1 : 1
+  );
+  return { priced, unpriced };
+}
+
+// The single lowest-priced snapshot among those currently displayed — only when
+// at least two priced lanes share one currency and the lowest is unique. This
+// is a claim about the displayed timestamped snapshots for this exact event,
+// never about live inventory or fees-inclusive totals. Keep in sync with
+// lowestDisplayedSnapshotSpec in functions/[[path]].js.
+function lowestDisplayedSnapshotSpec(pricedSpecs) {
+  if (pricedSpecs.length < 2) return null;
+  const currencies = new Set(pricedSpecs.map((spec) => spec.lane.currency));
+  if (currencies.size !== 1) return null;
+  let lowest = pricedSpecs[0];
+  for (const spec of pricedSpecs) {
+    if (spec.lane.price < lowest.lane.price) lowest = spec;
+  }
+  const ties = pricedSpecs.filter((spec) => spec.lane.price === lowest.lane.price);
+  return ties.length === 1 ? lowest : null;
 }
 
 // Required snapshot disclosures for every price shown on a button, rendered
@@ -1596,7 +1636,14 @@ function renderShowCardPriceNotes(ctaSpecs, comparison) {
   for (const spec of perProvider) {
     text(wrap, "p", `${spec.name} · ${spec.priceAsOf}`, "disclosure-note snapshot-line");
   }
-  if (perProvider.length) text(wrap, "p", "Provider-listed price snapshots — exclude fees.", "disclosure-note snapshot-fees");
+  const lowest = lowestDisplayedSnapshotSpec(priced);
+  if (lowest && !handled.has(lowest.provider)) {
+    text(wrap, "p", `${lowest.name} shows the lowest listed-price snapshot currently displayed for this event.`, "price-compare-note");
+  }
+  if (priced.length > 1) {
+    text(wrap, "p", "Snapshots are ordered lowest listed price first within each currency.", "disclosure-note snapshot-sort");
+  }
+  if (perProvider.length) text(wrap, "p", "Timestamped provider-listed price snapshots — not live inventory or availability, and prices exclude fees. Confirm the final total, fees, and availability at provider checkout.", "disclosure-note snapshot-fees");
   return wrap;
 }
 
@@ -1646,6 +1693,10 @@ function renderShowCard(show, options = {}) {
   } else {
     text(body, "h3", eventName || show.artist_name || titleFallback, "show-card-title");
     text(body, "p", location || "City and venue details are shown only when verified by the source.", "show-card-sub muted");
+  }
+  const venueRun = options.venueRuns?.[String(show.id || "")];
+  if (venueRun) {
+    text(body, "p", `Show ${venueRun.position} of ${venueRun.total} at this venue`, "show-card-run muted");
   }
   if (!dateBadge) {
     const date = formatShowDate(show.dateTimeISO);
@@ -1701,16 +1752,35 @@ function renderShowCard(show, options = {}) {
       const vividSeatsSpec = ctaSpecs.find((spec) => spec.provider === "vivid-seats");
       const comparison = seatGeekSpec?.priceAmount && vividSeatsSpec?.priceAmount ? approvedProviderPriceComparison(show) : null;
 
+      // Priced snapshots render first, sorted lowest listed price first within
+      // each currency and labelled as timestamped snapshots; CTA-only providers
+      // (no approved fresh numeric snapshot) render in a separate labelled group
+      // so they are never presented as priced snapshot rows. Only the unique
+      // lowest displayed snapshot in a single shared currency is highlighted.
+      // Keep in sync with renderShowCardServerHtml in functions/[[path]].js.
+      const analyticsBase = {
+        artistSlug: String(options.artistSlug || show.artist_slug || "").trim(),
+        showId: String(show.id || "").trim(),
+        ctaLocation: options.ctaLocation || "event_card"
+      };
+      const { priced, unpriced } = splitAndSortCtaSpecs(ctaSpecs);
+      const lowestSpec = lowestDisplayedSnapshotSpec(priced);
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
-      for (const spec of ctaSpecs) {
-        const isLower = Boolean(
-          comparison &&
-            comparison.lowerProvider &&
-            ((spec.provider === "seatgeek" && comparison.lowerProvider === "SeatGeek") ||
-              (spec.provider === "vivid-seats" && comparison.lowerProvider === "Vivid Seats"))
-        );
-        ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", isLower));
+      const appendSpecs = (specs) => {
+        for (const spec of specs) {
+          ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", spec === lowestSpec, { ...analyticsBase, provider: spec.provider }));
+        }
+      };
+      if (priced.length) {
+        text(ctaGroup, "p", "Listed-price snapshots — timestamped, not live availability", "provider-cta-group-label");
+        appendSpecs(priced);
+        if (unpriced.length) {
+          text(ctaGroup, "p", "More providers — no current price snapshot", "provider-cta-group-label provider-cta-group-label-secondary");
+          appendSpecs(unpriced);
+        }
+      } else {
+        appendSpecs(ctaSpecs);
       }
       body.append(ctaGroup);
 
@@ -1752,6 +1822,46 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "") {
         .filter((item) => providerEnabled(slugify(item.provider)))
         .sort((a, b) => providerDisplayRank(slugify(a.provider)) - providerDisplayRank(slugify(b.provider)))[0]
     : null;
+  // Watchlist signup instead of empty ticket buttons; posts to /api/signup via
+  // the delegated submit handler below. Keep in sync with
+  // renderShowBoardEmptyStateHtml in functions/[[path]].js.
+  if (artistSlug) {
+    const form = document.createElement("form");
+    form.className = "watchlist-signup";
+    form.dataset.watchlistSignup = artistSlug;
+    text(form, "h4", `Join the ${name} watchlist`);
+    text(form, "p", `Leave an email and we'll let you know when verified ${name} dates and checked ticket links are listed.`, "muted");
+    const row = document.createElement("div");
+    row.className = "watchlist-signup-row";
+    const label = document.createElement("label");
+    label.className = "sr-only";
+    label.setAttribute("for", `watchlist-email-${artistSlug}`);
+    label.textContent = "Email address";
+    const email = document.createElement("input");
+    email.type = "email";
+    email.id = `watchlist-email-${artistSlug}`;
+    email.name = "email";
+    email.required = true;
+    email.placeholder = "Your email address";
+    email.autocomplete = "email";
+    const honeypot = document.createElement("input");
+    honeypot.className = "hp-field";
+    honeypot.type = "text";
+    honeypot.name = "website";
+    honeypot.tabIndex = -1;
+    honeypot.autocomplete = "off";
+    honeypot.setAttribute("aria-hidden", "true");
+    const submit = document.createElement("button");
+    submit.className = "button button-primary";
+    submit.type = "submit";
+    submit.textContent = "Notify me";
+    row.append(email, honeypot, submit);
+    form.append(label, row);
+    const status = text(form, "p", "", "disclosure-note");
+    status.setAttribute("data-signup-status", "");
+    status.setAttribute("aria-live", "polite");
+    wrap.append(form);
+  }
   const actions = document.createElement("div");
   actions.className = "action-row";
   if (providerLink) {
@@ -1763,13 +1873,45 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "") {
       sourcePath: window.location.pathname,
       surface: "artist_page"
     });
-    actions.append(buttonLink(`Check ${providerName} for updates`, `/api/out?${params.toString()}`, "primary"));
+    const providerCta = buttonLink(`Check ${providerName} for updates`, `/api/out?${params.toString()}`, "primary");
+    providerCta.dataset.ctaProvider = providerSlug;
+    providerCta.dataset.ctaArtist = artistSlug;
+    providerCta.dataset.ctaPriceSnapshot = "absent";
+    providerCta.dataset.ctaLocation = "empty_state";
+    actions.append(providerCta);
   } else {
     actions.append(buttonLink("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "secondary"));
   }
   actions.append(buttonLink("Browse artists", "/artists", "secondary"));
   wrap.append(actions);
   return wrap;
+}
+
+// Multi-night runs: shows sharing a venue and city on an artist board get a
+// "Show X of Y at this venue" line so multi-night stands are distinguishable.
+// Derived purely from the verified rows already being rendered — no event fact
+// is inferred. Keep in sync with venueRunIndex in functions/[[path]].js.
+function venueRunIndex(shows) {
+  const groups = new Map();
+  const sorted = [...shows]
+    .filter((show) => show?.id)
+    .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso || "") - Date.parse(b.dateTimeISO || b.datetime_iso || ""));
+  for (const show of sorted) {
+    const venue = String(show.venue || "").trim().toLowerCase();
+    const city = String(show.city || "").trim().toLowerCase();
+    if (!venue || !city) continue;
+    const key = `${venue}|${city}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(String(show.id));
+  }
+  const index = {};
+  for (const ids of groups.values()) {
+    if (ids.length < 2) continue;
+    ids.forEach((id, position) => {
+      index[id] = { position: position + 1, total: ids.length };
+    });
+  }
+  return index;
 }
 
 function showFilterHaystack(show) {
@@ -2194,7 +2336,9 @@ async function hydrateShowBoard(section, filters = {}) {
       artistName: String(filters.artistName || ""),
       // Lets price hydration request one bulk approved-marketplaces payload
       // for the whole board instead of per-card lookups.
-      artistSlug: String(filters.artistSlug || "")
+      artistSlug: String(filters.artistSlug || ""),
+      // Full-board multi-night numbering stays stable across filter re-renders.
+      venueRuns: filters.artistSlug ? venueRunIndex(shows) : {}
     };
     if (filters.filterable) {
       setupShowBoardFilters(section, grid, shows, cardOptions);
@@ -2231,7 +2375,8 @@ async function hydrateShowBoard(section, filters = {}) {
       ),
       locationTitle: Boolean(filters.artistSlug),
       artistName: String(filters.artistName || ""),
-      artistSlug: String(filters.artistSlug || "")
+      artistSlug: String(filters.artistSlug || ""),
+      venueRuns: filters.artistSlug ? venueRunIndex(displayedFallbackShows) : {}
     };
     grid.replaceChildren(...displayedFallbackShows.map((show) => renderShowCard(show, fallbackCardOptions)));
     await hydrateShowBoardPriceSnapshots(displayedFallbackShows, fallbackCardOptions);
@@ -3157,6 +3302,64 @@ document.addEventListener("click", async (event) => {
   window.setTimeout(() => {
     action.textContent = originalLabel || "Copy link to this date";
   }, 1800);
+});
+
+// Delegated provider-CTA click analytics. Covers server-rendered and hydrated
+// CTAs alike via the data-cta-* attributes: artist, event, provider, snapshot
+// present/absent, and CTA location. Never blocks or rewrites the navigation.
+document.addEventListener("click", (event) => {
+  const cta = event.target?.closest?.("a[data-cta-provider]");
+  if (!cta) return;
+  const provider = String(cta.dataset.ctaProvider || "").trim();
+  if (!provider) return;
+  const showId = String(cta.dataset.ctaShowId || "").trim();
+  sendAnalytics("provider_click", {
+    provider,
+    artistSlug: String(cta.dataset.ctaArtist || "").trim(),
+    showId,
+    priceSnapshot: cta.dataset.ctaPriceSnapshot === "present" ? "present" : "absent",
+    ctaLocation: String(cta.dataset.ctaLocation || "").trim(),
+    linkId: showId ? `${showId}:${provider}` : String(cta.dataset.ctaLinkId || "").trim()
+  });
+});
+
+// Delegated watchlist signup for the zero-event board state (server-rendered
+// and hydrated forms). Posts to the existing gated /api/signup endpoint.
+document.addEventListener("submit", async (event) => {
+  const form = event.target?.closest?.("form[data-watchlist-signup]");
+  if (!form) return;
+  event.preventDefault();
+  const status = form.querySelector("[data-signup-status]");
+  const emailInput = form.querySelector('input[name="email"]');
+  const email = String(emailInput?.value || "").trim();
+  const setStatus = (message) => {
+    if (status) status.textContent = message;
+  };
+  if (!email) {
+    setStatus("Enter an email address to join the watchlist.");
+    return;
+  }
+  setStatus("Adding you to the watchlist…");
+  try {
+    const response = await fetch("/api/signup", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email,
+        website: String(form.querySelector('input[name="website"]')?.value || ""),
+        artistSlug: String(form.dataset.watchlistSignup || "").trim(),
+        sourcePath: window.location.pathname
+      })
+    });
+    if (response.ok) {
+      setStatus("You're on the watchlist — we'll email you when verified dates are listed.");
+      if (emailInput) emailInput.value = "";
+    } else {
+      setStatus("That didn't work — check the email address and try again.");
+    }
+  } catch (error) {
+    setStatus("That didn't work — please try again.");
+  }
 });
 
 render();

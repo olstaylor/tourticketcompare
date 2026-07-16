@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7715489",
+        "url": "https://www.ticketnetwork.com/en/p/7715489",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_dGkHUMcmX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715489"
   },
   {
     "id": "tm-post-malone-2026-ames-vv17bz_dgkbv6aim",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7715528",
+        "url": "https://www.ticketnetwork.com/en/p/7715528",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_dGkBv6AiM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715528"
   },
   {
     "id": "tm-post-malone-2026-edmonton-1av7z_dgkdhlsdx",
@@ -258,10 +274,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7715501",
+        "url": "https://www.ticketnetwork.com/en/p/7715501",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_dBVWFnK",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715501"
   }
 ]

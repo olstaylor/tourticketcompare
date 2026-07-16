@@ -180,9 +180,10 @@ async function routeForPath(pathname, env) {
       title: `${venue.venue} Concerts & Tickets${venue.city ? ` in ${venue.city}` : ""} | TourTicketCompare`,
       description: venueMetaDescription(venue),
       venue,
+      events: venueEvents,
       indexableArtistSlugs: artistsMeta
-        .filter((artist) => artist.indexing_status === "indexable_with_substantial_content")
-        .map((artist) => slugify(artist.slug)),
+        .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+        .map((artist) => slugify(artist?.slug)),
       breadcrumb: [
         { name: "Venues", path: "/venues" },
         { name: venue.venue, path }
@@ -717,6 +718,7 @@ function renderArtistVenuesHtml(events, artist) {
 }
 
 function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}) {
+  const venueRuns = venueRunIndex(venue.shows);
   const eventsById = new Map(
     (Array.isArray(events) ? events : [])
       .filter((event) => event && event.id)
@@ -735,7 +737,9 @@ function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Se
                 indexableArtistSlugs.has(group.slug),
                 vividSeatsAvailable,
                 group.name,
-                marketplaceAvailability
+                marketplaceAvailability,
+                group.slug,
+                venueRuns
               )
             : "";
         })
@@ -921,7 +925,7 @@ function renderComparisonHubCityLinks(events = []) {
 function renderComparisonHubEventCards(events = []) {
   const shows = publishableFutureShows(events, 6);
   if (!shows.length) return "";
-  return `<section id="current-events" class="nested-panel"><h2>Current provider price comparisons</h2><p>For each exact show, we load available approved provider price snapshots. When fresh snapshots for the same event share a currency, we can identify the lower listed snapshot and show the difference; confirm fees, tax, availability, delivery, and the final total on the provider site.</p><div class="card-grid show-card-grid">${shows
+  return `<section id="current-events" class="nested-panel"><h2>Current provider price snapshots</h2><p>For each exact show, we load available approved provider price snapshots. Event cards may identify the lower displayed snapshot only when multiple current numeric lanes for that event share a currency; confirm fees, tax, availability, delivery, and the final total on the provider site.</p><div class="card-grid show-card-grid">${shows
     .map((show) => {
       const date = formatShowDateServer(show.dateTimeISO);
       const title = show.event_name || [show.artist_name, show.city].filter(Boolean).join(" – ") || "Upcoming concert";
@@ -1159,7 +1163,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
         label,
         destination,
         "button button-primary",
-        `target="_blank" rel="noopener" data-cta-provider="${escapeAttr(provider)}" data-cta-artist="${escapeAttr(artist.slug)}" data-cta-price-snapshot="absent" data-cta-location="artist_provider_panel"`
+        `target="_blank" rel="noopener" data-cta-provider="${escapeAttr(provider)}" data-cta-artist="${escapeAttr(artist.slug)}" data-cta-price-snapshot="absent" data-cta-location="artist_provider_panel"${item.link_id ? ` data-cta-link-id="${escapeAttr(item.link_id)}"` : ""}`
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
@@ -1583,7 +1587,11 @@ function venueRunIndex(shows) {
   const groups = new Map();
   const sorted = [...shows]
     .filter((show) => show?.id)
-    .sort((a, b) => Date.parse(a.dateTimeISO || "") - Date.parse(b.dateTimeISO || ""));
+    .sort((a, b) => {
+      const ta = Date.parse(a.dateTimeISO || "");
+      const tb = Date.parse(b.dateTimeISO || "");
+      return (Number.isFinite(ta) ? ta : 0) - (Number.isFinite(tb) ? tb : 0);
+    });
   for (const show of sorted) {
     const venue = String(show.venue || "").trim().toLowerCase();
     const city = String(show.city || "").trim().toLowerCase();
@@ -1623,7 +1631,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     const sgAvailable = seatGeekOutAvailable(show, seatGeekAvailable);
     const vsAvailable = vividSeatsOutAvailable(show, vividSeatsAvailable);
     const ctaSpecs = [];
-    if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: approvedServerPriceLane(show, "SeatGeek") });
+      if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: null });
     if (vsAvailable) ctaSpecs.push({ provider: "vivid-seats", name: "Vivid Seats", href: eventTicketHref(show, "vivid-seats"), lane: approvedServerPriceLane(show, "Vivid Seats") });
     for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
       const publishable = show?.impactMarketplacePublishable?.[provider.slug] ?? providerEventPublishable(show, provider.slug);
@@ -1652,20 +1660,25 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       // so they are never presented as priced snapshot rows. Only the unique
       // lowest displayed snapshot in a single shared currency is highlighted.
       const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: "event_card" };
-      const { priced, unpriced } = splitAndSortCtaSpecs(ctaSpecs);
+      const primary = ctaSpecs.find((spec) => spec.provider === "seatgeek");
+      const secondary = ctaSpecs.filter((spec) => spec !== primary);
+      const { priced, unpriced } = splitAndSortCtaSpecs(secondary);
       const lowestSpec = lowestDisplayedSnapshotSpec(priced);
       const renderSpecs = (specs) => specs
         .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", spec === lowestSpec, { ...analyticsBase, provider: spec.provider }))
         .join("");
       let buttonsHtml;
+      const primaryHtml = primary
+        ? `<p class="provider-cta-group-label">Primary provider</p>${renderSpecs([primary])}`
+        : "";
       if (priced.length) {
         const pricedLabel = `<p class="provider-cta-group-label">Listed-price snapshots — timestamped, not live availability</p>`;
         const unpricedLabel = unpriced.length
           ? `<p class="provider-cta-group-label provider-cta-group-label-secondary">More providers — no current price snapshot</p>`
           : "";
-        buttonsHtml = `${pricedLabel}${renderSpecs(priced)}${unpricedLabel}${renderSpecs(unpriced)}`;
+        buttonsHtml = `${primaryHtml}${pricedLabel}${renderSpecs(priced)}${unpricedLabel}${renderSpecs(unpriced)}`;
       } else {
-        buttonsHtml = renderSpecs(ctaSpecs);
+        buttonsHtml = `${primaryHtml}${renderSpecs(unpriced)}`;
       }
       ctaHtml = `<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs)}`;
     }
@@ -1709,7 +1722,7 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, arti
   // the delegated submit handler in public/app.js. Keep in sync with
   // renderShowBoardEmptyState in public/app.js.
   const signupHtml = artistSlug
-    ? `<form class="watchlist-signup" data-watchlist-signup="${escapeAttr(artistSlug)}"><h4>Join the ${safeName} watchlist</h4><p class="muted">Leave an email and we'll let you know when verified ${safeName} dates and checked ticket links are listed.</p><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
+    ? `<form class="watchlist-signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Join the ${safeName} watchlist</h4><p class="muted">Leave an email and we'll let you know when verified ${safeName} dates and checked ticket links are listed.</p><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="button" disabled>Enable JavaScript to join</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
     : "";
   return `<div class="empty-state"><h3>No upcoming dates listed yet</h3><p class="muted">We list upcoming ${safeName} dates once the ticket destination is verified — new dates appear here first.</p>${signupHtml}<div class="action-row">${primaryCta}${anchor(
     "Browse artists",
@@ -2355,10 +2368,15 @@ export async function onRequest(context) {
 
   const catalog = await loadCatalog(env);
   const needsEvents = route.type === "artist" || route.type === "venue" || route.type === "comparison-hub" || route.path === "/artists" || route.path === "/";
-  const events = needsEvents ? await loadEvents(env) : [];
+  const events = route.events || (needsEvents ? await loadEvents(env) : []);
   let renderEvents = events;
-  if (route.type === "artist" && events.length) {
-    const priceCandidates = futureShowsForArtist(events, route.artist.slug, 6);
+  if ((route.type === "artist" || route.type === "venue") && events.length) {
+    const priceCandidates = route.type === "artist"
+      ? futureShowsForArtist(events, route.artist.slug, 6)
+      : events
+        .filter((event) => route.venue?.shows?.some((show) => String(show?.id || "") === String(event?.id || "")))
+        .map((event) => futureShowsForArtist([event], event.artist_slug, 1)[0])
+        .filter(Boolean);
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
     renderEvents = events.map((event) => {

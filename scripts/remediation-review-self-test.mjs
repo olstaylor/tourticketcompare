@@ -1,0 +1,45 @@
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import { sanitizeMetadata } from "../functions/api/analytics.js";
+
+const analytics = await readFile("functions/api/analytics.js", "utf8");
+const server = await readFile("functions/[[path]].js", "utf8");
+const client = await readFile("public/app.js", "utf8");
+const shell = await readFile("public/index.html", "utf8");
+const smoke = await readFile("scripts/smoke-prelaunch.mjs", "utf8");
+const route = await readFile("functions/[[path]].js", "utf8");
+
+const metadata = sanitizeMetadata({
+  priceSnapshot: "present",
+  ctaLocation: "event_card",
+  rawUrl: "https://provider.example/listing",
+  destinationPath: "/api/out?showId=secret",
+  oversized: "x".repeat(500)
+});
+assert.deepEqual(metadata, { priceSnapshot: "present", ctaLocation: "event_card" });
+assert.match(analytics, /"priceSnapshot"/);
+assert.match(analytics, /"ctaLocation"/);
+
+// A no-JavaScript browser must see a disabled, non-submitting shell. The
+// client upgrades it to POST-via-fetch only after JavaScript is running.
+assert.match(server, /data-watchlist-shell=/);
+assert.match(server, /type="button" disabled>Enable JavaScript to join/);
+assert.doesNotMatch(server, /data-watchlist-signup=.*?method=/);
+assert.match(client, /dataset\.signupSubmitting === "true"/);
+assert.match(client, /submitButton\.disabled = true/);
+
+// Price snapshots are provider-agnostic only within the numeric snapshot
+// section; SeatGeek remains an explicitly unpriced primary CTA.
+assert.match(server, /const primary = ctaSpecs\.find\(\(spec\) => spec\.provider === "seatgeek"\)/);
+assert.match(client, /const primary = ctaSpecs\.find\(\(spec\) => spec\.provider === "seatgeek"\)/);
+assert.match(server, /Current provider price snapshots/);
+assert.doesNotMatch(server, /Current provider price comparisons/);
+assert.doesNotMatch(server, /data-watchlist-signup="\$\{escapeAttr\(artistSlug\)\}"/);
+
+const appVersion = shell.match(/\/app\.js\?v=([0-9a-z]+)/)?.[1];
+const smokeVersion = smoke.match(/const APP_ASSET_VERSION = "([0-9a-z]+)"/)?.[1];
+assert.equal(appVersion, smokeVersion);
+assert.equal(shell.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20260716a");
+assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20260716a");
+
+console.log("remediation review self-test passed (analytics, privacy, CTA ordering, watchlist, and asset invariants).");

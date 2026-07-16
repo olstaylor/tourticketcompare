@@ -18,10 +18,10 @@ function clean(value, max = 255) {
 const SAFE_METADATA_KEYS = new Set([
   "routeType", "artistSlug", "guideSlug", "tourSlug", "provider", "linkId",
   "eventId", "showId", "status", "reason", "currency", "hasPrice",
-  "comparisonProviders", "result"
+  "comparisonProviders", "result", "priceSnapshot", "ctaLocation"
 ]);
 
-function sanitizeMetadata(value) {
+export function sanitizeMetadata(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return {};
   const output = {};
   for (const [key, raw] of Object.entries(value)) {

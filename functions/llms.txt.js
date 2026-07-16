@@ -71,7 +71,7 @@ Key facts:
 - Ticket links are published only after the destination has been verified; unverified links are hidden.
 - Event details (date, venue, city) appear only for reviewed event records.
 - Provider listed-price snapshots appear only for the same verified event when approved provider data is fresh and correctly attributed. Not every linked provider supplies price snapshots; a provider can carry a verified ticket link without any displayed price.
-- When approved snapshots for the same event are current and use the same currency, TourTicketCompare can identify the lower listed snapshot and the difference. Snapshots are not final checkout totals and may exclude fees.
+- When multiple approved numeric snapshots for the same event are current and use the same currency, an event card may identify the lower displayed listed snapshot and the difference. Providers without numeric snapshots are not included in that comparison. Snapshots are not final checkout totals and may exclude fees.
 - Some outbound links may earn a commission; this never changes the verification gates or the price shown by the provider.
 
 ## Comparison methodology

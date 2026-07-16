@@ -1725,7 +1725,7 @@ function renderShowCard(show, options = {}) {
     // once beneath the buttons. Keep in sync with renderShowCardServerHtml in
     // functions/[[path]].js.
     const ctaSpecs = [];
-    if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: approvedSeatGeekPriceLane(show) });
+    if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: null });
     if (vsAvailable) ctaSpecs.push({ provider: "vivid-seats", name: "Vivid Seats", href: eventTicketHref(show, "vivid-seats"), lane: approvedVividSeatsPriceLane(show) });
     for (const provider of impactMarketplaceAvailable) {
       ctaSpecs.push({ provider: provider.slug, name: provider.name, href: eventTicketHref(show, provider.slug), lane: approvedImpactMarketplacePriceLane(show, provider) });
@@ -1763,7 +1763,9 @@ function renderShowCard(show, options = {}) {
         showId: String(show.id || "").trim(),
         ctaLocation: options.ctaLocation || "event_card"
       };
-      const { priced, unpriced } = splitAndSortCtaSpecs(ctaSpecs);
+      const primary = ctaSpecs.find((spec) => spec.provider === "seatgeek");
+      const secondary = ctaSpecs.filter((spec) => spec !== primary);
+      const { priced, unpriced } = splitAndSortCtaSpecs(secondary);
       const lowestSpec = lowestDisplayedSnapshotSpec(priced);
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
@@ -1772,6 +1774,10 @@ function renderShowCard(show, options = {}) {
           ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", spec === lowestSpec, { ...analyticsBase, provider: spec.provider }));
         }
       };
+      if (primary) {
+        text(ctaGroup, "p", "Primary provider", "provider-cta-group-label");
+        appendSpecs([primary]);
+      }
       if (priced.length) {
         text(ctaGroup, "p", "Listed-price snapshots — timestamped, not live availability", "provider-cta-group-label");
         appendSpecs(priced);
@@ -1779,8 +1785,8 @@ function renderShowCard(show, options = {}) {
           text(ctaGroup, "p", "More providers — no current price snapshot", "provider-cta-group-label provider-cta-group-label-secondary");
           appendSpecs(unpriced);
         }
-      } else {
-        appendSpecs(ctaSpecs);
+      } else if (!primary) {
+        appendSpecs(unpriced);
       }
       body.append(ctaGroup);
 
@@ -1828,7 +1834,7 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "") {
   if (artistSlug) {
     const form = document.createElement("form");
     form.className = "watchlist-signup";
-    form.dataset.watchlistSignup = artistSlug;
+    form.dataset.watchlistShell = artistSlug;
     text(form, "h4", `Join the ${name} watchlist`);
     text(form, "p", `Leave an email and we'll let you know when verified ${name} dates and checked ticket links are listed.`, "muted");
     const row = document.createElement("div");
@@ -1853,8 +1859,9 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "") {
     honeypot.setAttribute("aria-hidden", "true");
     const submit = document.createElement("button");
     submit.className = "button button-primary";
-    submit.type = "submit";
-    submit.textContent = "Notify me";
+    submit.type = "button";
+    submit.disabled = true;
+    submit.textContent = "Enable JavaScript to join";
     row.append(email, honeypot, submit);
     form.append(label, row);
     const status = text(form, "p", "", "disclosure-note");
@@ -1895,7 +1902,11 @@ function venueRunIndex(shows) {
   const groups = new Map();
   const sorted = [...shows]
     .filter((show) => show?.id)
-    .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso || "") - Date.parse(b.dateTimeISO || b.datetime_iso || ""));
+    .sort((a, b) => {
+      const ta = Date.parse(a.dateTimeISO || a.datetime_iso || "");
+      const tb = Date.parse(b.dateTimeISO || b.datetime_iso || "");
+      return (Number.isFinite(ta) ? ta : 0) - (Number.isFinite(tb) ? tb : 0);
+    });
   for (const show of sorted) {
     const venue = String(show.venue || "").trim().toLowerCase();
     const city = String(show.city || "").trim().toLowerCase();
@@ -3329,6 +3340,7 @@ document.addEventListener("submit", async (event) => {
   const form = event.target?.closest?.("form[data-watchlist-signup]");
   if (!form) return;
   event.preventDefault();
+  if (form.dataset.signupSubmitting === "true") return;
   const status = form.querySelector("[data-signup-status]");
   const emailInput = form.querySelector('input[name="email"]');
   const email = String(emailInput?.value || "").trim();
@@ -3340,6 +3352,9 @@ document.addEventListener("submit", async (event) => {
     return;
   }
   setStatus("Adding you to the watchlist…");
+  form.dataset.signupSubmitting = "true";
+  const submitButton = form.querySelector('button[type="submit"]');
+  if (submitButton) submitButton.disabled = true;
   try {
     const response = await fetch("/api/signup", {
       method: "POST",
@@ -3356,10 +3371,26 @@ document.addEventListener("submit", async (event) => {
       if (emailInput) emailInput.value = "";
     } else {
       setStatus("That didn't work — check the email address and try again.");
+      delete form.dataset.signupSubmitting;
+      if (submitButton) submitButton.disabled = false;
     }
   } catch (error) {
     setStatus("That didn't work — please try again.");
+    delete form.dataset.signupSubmitting;
+    if (submitButton) submitButton.disabled = false;
   }
 });
 
-render();
+function activateWatchlistForms() {
+  document.querySelectorAll("form[data-watchlist-shell]").forEach((form) => {
+    const artistSlug = String(form.dataset.watchlistShell || "").trim();
+    const button = form.querySelector('button[type="button"]');
+    if (!artistSlug || !button) return;
+    form.dataset.watchlistSignup = artistSlug;
+    button.type = "submit";
+    button.disabled = false;
+    button.textContent = "Notify me";
+  });
+}
+
+render().then(activateWatchlistForms);

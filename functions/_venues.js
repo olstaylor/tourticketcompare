@@ -2,9 +2,9 @@
 // (sitemap.xml.js) so the two cannot drift. Venue pages are an aggregation layer
 // over already-verified event records in public/data/events.json — they invent no
 // data. Each venue page lists the upcoming shows we already track at that venue and
-// links out to the artist pages, where the verified provider CTAs and price
-// snapshots live. No provider/publishable logic lives here on purpose: the artist
-// page remains the single source of truth for ticket-link state.
+// links out to the artist pages, where the full event context remains available.
+// The HTML router may also render the existing event CTA component on venue pages;
+// provider/publishability logic stays there and is not duplicated in this module.
 
 export function slugify(value) {
   return String(value || "")

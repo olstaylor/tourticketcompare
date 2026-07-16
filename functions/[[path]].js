@@ -172,6 +172,7 @@ async function routeForPath(pathname, env) {
     if (!venueMatch) return null;
     const venue = findVenue(venueEvents, venueMatch[1]);
     if (!venue) return null;
+    const artistsMeta = await loadArtistsMeta(env);
     return {
       type: "venue",
       path,
@@ -179,6 +180,9 @@ async function routeForPath(pathname, env) {
       title: `${venue.venue} Concerts & Tickets${venue.city ? ` in ${venue.city}` : ""} | TourTicketCompare`,
       description: venueMetaDescription(venue),
       venue,
+      indexableArtistSlugs: artistsMeta
+        .filter((artist) => artist.indexing_status === "indexable_with_substantial_content")
+        .map((artist) => slugify(artist.slug)),
       breadcrumb: [
         { name: "Venues", path: "/venues" },
         { name: venue.venue, path }
@@ -712,20 +716,34 @@ function renderArtistVenuesHtml(events, artist) {
   )} is playing:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
-function renderVenueShowGroups(venue) {
+function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}) {
+  const eventsById = new Map(
+    (Array.isArray(events) ? events : [])
+      .filter((event) => event && event.id)
+      .map((event) => [String(event.id), event])
+  );
   return venueShowsByArtist(venue)
     .map((group) => {
-      const items = group.shows
+      const cards = group.shows
         .map((show) => {
-          const date = formatShowDateServer(show.datetime_iso);
-          const label = show.event_name && show.event_name !== group.name ? ` — ${escapeHtml(show.event_name)}` : "";
-          return `<li>${date ? `<strong>${escapeHtml(date)}</strong>` : ""}${label}</li>`;
+          const sourceEvent = eventsById.get(show.id);
+          const fullShow = sourceEvent ? futureShowsForArtist([sourceEvent], group.slug, 1)[0] : null;
+          return fullShow
+            ? renderShowCardServerHtml(
+                fullShow,
+                seatGeekAvailable,
+                indexableArtistSlugs.has(group.slug),
+                vividSeatsAvailable,
+                group.name,
+                marketplaceAvailability
+              )
+            : "";
         })
         .join("");
       return `<article class="nested-panel"><h3>${anchor(
         `${group.name} at ${venue.venue}`,
         `/artists/${group.slug}`
-      )}</h3><ul class="venue-show-list">${items}</ul>${anchor(
+      )}</h3><div class="card-grid show-card-grid venue-show-cards">${cards}</div>${anchor(
         `View all ${group.name} dates and ticket options`,
         `/artists/${group.slug}`,
         "text-link"
@@ -1792,19 +1810,27 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "venue") {
     const venue = route.venue;
     const location = venueLocationLabel(venue);
+    const seatGeekAvailable = isSeatGeekConfigured(env);
+    const vividSeatsAvailable = isVividSeatsConfigured(env);
+    const marketplaceAvailability = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]));
     return `<main id="mainContent"><section class="content-page venue-page" aria-labelledby="venueTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="venueTitle">${escapeHtml(venue.venue)} concerts and upcoming shows</h1><p class="lead">${escapeHtml(
       `We track ${venueShowCountLabel(venue.showCount)} at ${venue.venue}${location ? ` in ${location}` : ""} across ${venueArtistCountLabel(
         venue.artistSlugs.length
       )}.`
-    )} Pick a date, open the artist page, and compare available ticket options.</p><p class="disclosure-note">Ticket links, availability, and any price snapshots live on each artist's page. Confirm final prices and fees on the provider site.</p><section class="section-grid"><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
+    )} Pick a date and open a checked provider option for that show.</p><p class="disclosure-note">Ticket links and any approved price snapshots are shown only when their existing event-level verification and runtime gates pass. Confirm final prices and fees on the provider site.</p><section class="section-grid"><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
       venue.venue
     )}</h2><p>Dates are grouped by artist and listed earliest first.</p></div>${renderVenueShowGroups(
-      venue
+      venue,
+      events,
+      new Set(route.indexableArtistSlugs || []),
+      seatGeekAvailable,
+      vividSeatsAvailable,
+      marketplaceAvailability
     )}</section><section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
       venue.venue
-    )}</h2><ul class="check-list"><li>Open the artist page above to see verified ticket links and any approved, timestamped price snapshots for your date.</li><li>Match the exact date, then confirm the seat or section, ticket type, and final total on the provider site.</li><li>Check delivery timing and transfer rules so your tickets arrive before the show.</li><li>Review refund, resale, and cancellation terms before you pay.</li></ul><div class="action-row">${anchor(
+    )}</h2><ul class="check-list"><li>Use the checked provider buttons above for your exact date, or open the artist page for the full event view and any approved, timestamped price snapshots.</li><li>Match the exact date, then confirm the seat or section, ticket type, and final total on the provider site.</li><li>Check delivery timing and transfer rules so your tickets arrive before the show.</li><li>Review refund, resale, and cancellation terms before you pay.</li></ul><div class="action-row">${anchor(
       "How to compare concert ticket prices",
       "/guides/how-to-compare-concert-ticket-prices",
       "button button-secondary"
@@ -2249,7 +2275,7 @@ export async function onRequest(context) {
   }
 
   const catalog = await loadCatalog(env);
-  const needsEvents = route.type === "artist" || route.type === "comparison-hub" || route.path === "/artists" || route.path === "/";
+  const needsEvents = route.type === "artist" || route.type === "venue" || route.type === "comparison-hub" || route.path === "/artists" || route.path === "/";
   const events = needsEvents ? await loadEvents(env) : [];
   let renderEvents = events;
   if (route.type === "artist" && events.length) {

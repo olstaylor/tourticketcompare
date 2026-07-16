@@ -2638,6 +2638,7 @@ const venueDetail = await routeResponse(`/venues/${venueDetailSlug}`, venueEnv);
 assert(venueDetail.response.status === 200, `/venues/${venueDetailSlug} should return 200`);
 assert(venueDetail.text.includes('"@type":"MusicVenue"'), "venue detail page should emit MusicVenue structured data");
 assert(/href="\/artists\/[a-z0-9-]+"/.test(venueDetail.text), "venue detail page should link out to artist pages");
+assert(/href="\/api\/out\?showId=[^\"]+&amp;provider=/.test(venueDetail.text), "venue detail page should surface a gated event-level provider CTA");
 assert(
   extractCanonical(venueDetail.text) === `https://tourticketcompare.com/venues/${venueDetailSlug}`,
   "venue detail canonical should point to the venue route"

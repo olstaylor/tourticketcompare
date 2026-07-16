@@ -1259,6 +1259,96 @@ summary {
   color: var(--green);
 }
 
+/* Sub-group labels inside the CTA stack: priced snapshots first, then
+   CTA-only providers with no current snapshot. */
+.provider-cta-group-label {
+  margin: 2px 0 -2px;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.provider-cta-group-label-secondary {
+  margin-top: 8px;
+}
+
+/* "Lowest listed snapshot" tag on the single lowest displayed same-currency
+   snapshot for the event. */
+.provider-cta-lowtag {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--green) 14%, #fff);
+  color: var(--green);
+  font-size: 0.62rem;
+  font-weight: 950;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Multi-night run line: "Show X of Y at this venue". */
+.show-card-run {
+  margin: -2px 0 2px;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.provider-cta-notes .snapshot-sort {
+  color: var(--muted);
+}
+
+/* Zero-event watchlist signup. */
+.watchlist-signup {
+  margin: 14px 0 4px;
+  padding: 14px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  background: #fff;
+  text-align: left;
+}
+
+.watchlist-signup h4 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.watchlist-signup p {
+  margin: 0 0 10px;
+  font-size: 0.88rem;
+}
+
+.watchlist-signup-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.watchlist-signup-row input[type="email"] {
+  flex: 1 1 220px;
+  min-width: 0;
+  padding: 10px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font: inherit;
+}
+
+.watchlist-signup .hp-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.watchlist-signup [data-signup-status] {
+  margin: 8px 0 0;
+  min-height: 1em;
+}
+
 .provider-cta-notes {
   display: grid;
   gap: 3px;

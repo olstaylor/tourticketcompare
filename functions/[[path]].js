@@ -1141,7 +1141,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
         label,
         destination,
         "button button-primary",
-        'target="_blank" rel="noopener"'
+        `target="_blank" rel="noopener" data-cta-provider="${escapeAttr(provider)}" data-cta-artist="${escapeAttr(artist.slug)}" data-cta-price-snapshot="absent" data-cta-location="artist_provider_panel"`
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
@@ -1460,12 +1460,49 @@ function formatServerSnapshotTime(value) {
 
 // One CTA button per provider: provider name on the left, the approved fresh
 // listed-price snapshot on the right when one exists (the price is the button),
-// otherwise "Check prices". Keep in sync with renderProviderCtaButton in
-// public/app.js.
-function renderProviderCtaButtonHtml(name, href, amount, isLower = false) {
+// otherwise "Check prices". The data-cta-* attributes feed the delegated
+// provider_click analytics listener in public/app.js (artist, event, provider,
+// snapshot present/absent, CTA location). Keep in sync with
+// renderProviderCtaButton in public/app.js.
+function renderProviderCtaButtonHtml(name, href, amount, isLower = false, analytics = {}) {
   const value = amount || "Check prices";
   const valueClass = amount ? "provider-cta-value provider-cta-price" : "provider-cta-value provider-cta-check";
-  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${isLower ? " provider-cta-lower" : ""}" href="${escapeAttr(href)}" target="_blank" rel="noopener"><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
+  const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(analytics.ctaLocation || "event_card")}"`;
+  const lowestTag = isLower ? `<span class="provider-cta-lowtag">Lowest listed snapshot</span>` : "";
+  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${isLower ? " provider-cta-lower" : ""}" href="${escapeAttr(href)}" target="_blank" rel="noopener"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}${lowestTag}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
+}
+
+// Splits normalized CTA specs into priced snapshots and CTA-only providers, and
+// orders the priced group transparently: currency code, then listed snapshot
+// price ascending. CTA-only providers keep the fixed provider display order and
+// are never mixed into the priced snapshot ordering. Keep in sync with
+// splitAndSortCtaSpecs in public/app.js.
+function splitAndSortCtaSpecs(ctaSpecs) {
+  const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.lane);
+  const unpriced = ctaSpecs.filter((spec) => !(spec.priceAmount && spec.lane));
+  priced.sort((a, b) =>
+    a.lane.currency === b.lane.currency
+      ? a.lane.price - b.lane.price
+      : a.lane.currency < b.lane.currency ? -1 : 1
+  );
+  return { priced, unpriced };
+}
+
+// The single lowest-priced snapshot among those currently displayed — only when
+// at least two priced lanes share one currency and the lowest is unique. This
+// is a claim about the displayed timestamped snapshots for this exact event,
+// never about live inventory or fees-inclusive totals. Keep in sync with
+// lowestDisplayedSnapshotSpec in public/app.js.
+function lowestDisplayedSnapshotSpec(pricedSpecs) {
+  if (pricedSpecs.length < 2) return null;
+  const currencies = new Set(pricedSpecs.map((spec) => spec.lane.currency));
+  if (currencies.size !== 1) return null;
+  let lowest = pricedSpecs[0];
+  for (const spec of pricedSpecs) {
+    if (spec.lane.price < lowest.lane.price) lowest = spec;
+  }
+  const ties = pricedSpecs.filter((spec) => spec.lane.price === lowest.lane.price);
+  return ties.length === 1 ? lowest : null;
 }
 
 // Required snapshot disclosures for every price shown on a button, rendered
@@ -1509,24 +1546,45 @@ function renderServerPriceNotes(ctaSpecs) {
   for (const spec of perProvider) {
     notes.push(`<p class="disclosure-note snapshot-line">${escapeHtml(spec.name)} · ${escapeHtml(spec.priceAsOf)}</p>`);
   }
-  if (perProvider.length) notes.push(`<p class="disclosure-note snapshot-fees">Provider-listed price snapshots — exclude fees.</p>`);
+  const lowest = lowestDisplayedSnapshotSpec(priced);
+  if (lowest && !handled.has(lowest.provider)) {
+    notes.push(`<p class="price-compare-note">${escapeHtml(lowest.name)} shows the lowest listed-price snapshot currently displayed for this event.</p>`);
+  }
+  if (priced.length > 1) {
+    notes.push(`<p class="disclosure-note snapshot-sort">Snapshots are ordered lowest listed price first within each currency.</p>`);
+  }
+  if (perProvider.length) notes.push(`<p class="disclosure-note snapshot-fees">Timestamped provider-listed price snapshots — not live inventory or availability, and prices exclude fees. Confirm the final total, fees, and availability at provider checkout.</p>`);
   return `<div class="provider-cta-notes">${notes.join("")}</div>`;
 }
 
-// SeatGeek/Vivid Seats lower-price highlight for the button borders. Returns
-// "SeatGeek", "Vivid Seats", or "" when both aren't priced in one currency.
-// Inert today: SeatGeek has no numeric snapshot lane, so nothing highlights.
-function lowerServerPriceProvider(ctaSpecs) {
-  const seatGeek = ctaSpecs.find((spec) => spec.provider === "seatgeek");
-  const vividSeats = ctaSpecs.find((spec) => spec.provider === "vivid-seats");
-  if (!seatGeek?.priceAmount || !vividSeats?.priceAmount) return "";
-  const sgLane = seatGeek.lane;
-  const vsLane = vividSeats.lane;
-  if (sgLane.currency !== vsLane.currency) return "";
-  return sgLane.price < vsLane.price ? "SeatGeek" : vsLane.price < sgLane.price ? "Vivid Seats" : "";
+// Multi-night runs: shows sharing a venue and city on an artist board get a
+// "Show X of Y at this venue" line so multi-night stands are distinguishable.
+// Derived purely from the verified rows already being rendered — no event fact
+// is inferred. Keep in sync with venueRunIndex in public/app.js.
+function venueRunIndex(shows) {
+  const groups = new Map();
+  const sorted = [...shows]
+    .filter((show) => show?.id)
+    .sort((a, b) => Date.parse(a.dateTimeISO || "") - Date.parse(b.dateTimeISO || ""));
+  for (const show of sorted) {
+    const venue = String(show.venue || "").trim().toLowerCase();
+    const city = String(show.city || "").trim().toLowerCase();
+    if (!venue || !city) continue;
+    const key = `${venue}|${city}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(String(show.id));
+  }
+  const index = {};
+  for (const ids of groups.values()) {
+    if (ids.length < 2) continue;
+    ids.forEach((id, position) => {
+      index[id] = { position: position + 1, total: ids.length };
+    });
+  }
+  return index;
 }
 
-function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}) {
+function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO);
   const location = showLocationServer(show);
   const anchorId = showAnchorId(show);
@@ -1570,15 +1628,27 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
           spec.lane = null;
         }
       }
-      const lowerProvider = lowerServerPriceProvider(ctaSpecs);
-      const buttonsHtml = ctaSpecs
-        .map((spec) => {
-          const isLower =
-            (spec.provider === "seatgeek" && lowerProvider === "SeatGeek") ||
-            (spec.provider === "vivid-seats" && lowerProvider === "Vivid Seats");
-          return renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", isLower);
-        })
+      // Priced snapshots render first, sorted lowest listed price first within
+      // each currency and labelled as timestamped snapshots; CTA-only providers
+      // (no approved fresh numeric snapshot) render in a separate labelled group
+      // so they are never presented as priced snapshot rows. Only the unique
+      // lowest displayed snapshot in a single shared currency is highlighted.
+      const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: "event_card" };
+      const { priced, unpriced } = splitAndSortCtaSpecs(ctaSpecs);
+      const lowestSpec = lowestDisplayedSnapshotSpec(priced);
+      const renderSpecs = (specs) => specs
+        .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", spec === lowestSpec, { ...analyticsBase, provider: spec.provider }))
         .join("");
+      let buttonsHtml;
+      if (priced.length) {
+        const pricedLabel = `<p class="provider-cta-group-label">Listed-price snapshots — timestamped, not live availability</p>`;
+        const unpricedLabel = unpriced.length
+          ? `<p class="provider-cta-group-label provider-cta-group-label-secondary">More providers — no current price snapshot</p>`
+          : "";
+        buttonsHtml = `${pricedLabel}${renderSpecs(priced)}${unpricedLabel}${renderSpecs(unpriced)}`;
+      } else {
+        buttonsHtml = renderSpecs(ctaSpecs);
+      }
       ctaHtml = `<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs)}`;
     }
   }
@@ -1603,29 +1673,38 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const badgeHtml = dateParts
     ? `<div class="show-date-badge"><span class="show-date-weekday">${escapeHtml(dateParts.weekday)}</span><span class="show-date-day">${escapeHtml(dateParts.day)}</span><span class="show-date-monthyear">${escapeHtml(dateParts.monthYear)}</span></div>`
     : "";
-  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${subHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
+  const run = venueRuns[String(show.id || "")];
+  const runHtml = run ? `<p class="show-card-run muted">Show ${run.position} of ${run.total} at this venue</p>` : "";
+  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
 }
 
 // Zero-event board state. The primary CTA is the artist-level page of the
 // highest-ranked available provider (never an event-level ticket link — no
 // verified dates exist to sell). Falls back to the buying guide when no
 // artist-level provider link is verified.
-function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null) {
+function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, artistSlug = "") {
   const safeName = escapeHtml(String(artistName || "").trim() || "artist");
   const primaryCta = providerCta
-    ? anchor(`Check ${escapeHtml(providerCta.name)} for updates`, providerCta.href, "button button-primary")
+    ? anchor(`Check ${escapeHtml(providerCta.name)} for updates`, providerCta.href, "button button-primary", `data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
     : anchor("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary");
-  return `<div class="empty-state"><h3>No upcoming dates listed yet</h3><p class="muted">We list upcoming ${safeName} dates once the ticket destination is verified — new dates appear here first.</p><div class="action-row">${primaryCta}${anchor(
+  // Watchlist signup instead of empty ticket buttons; posts to /api/signup via
+  // the delegated submit handler in public/app.js. Keep in sync with
+  // renderShowBoardEmptyState in public/app.js.
+  const signupHtml = artistSlug
+    ? `<form class="watchlist-signup" data-watchlist-signup="${escapeAttr(artistSlug)}"><h4>Join the ${safeName} watchlist</h4><p class="muted">Leave an email and we'll let you know when verified ${safeName} dates and checked ticket links are listed.</p><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
+    : "";
+  return `<div class="empty-state"><h3>No upcoming dates listed yet</h3><p class="muted">We list upcoming ${safeName} dates once the ticket destination is verified — new dates appear here first.</p>${signupHtml}<div class="action-row">${primaryCta}${anchor(
     "Browse artists",
     "/artists",
     "button button-secondary"
   )}</div></div>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}) {
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}, artistSlug = "") {
+  const venueRuns = venueRunIndex(shows);
   const gridContent = shows.length
-    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability)).join("")
-    : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta);
+    ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability, artistSlug, venueRuns)).join("")
+    : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta, artistSlug);
   const filterIntro = shows.length > 1
     ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Filter by city, venue, or tour to jump to your date.</p></div>`
     : "";
@@ -1712,7 +1791,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )} tickets and tour dates</h1><p class="lead">Find upcoming ${escapeHtml(
       artist.name
-    )} shows, pick a date, and compare available ticket options.</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, null, marketplaceAvailability)}${renderProviderFallback(
+    )} shows, pick a date, and compare available ticket options.</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, null, marketplaceAvailability, artist.slug)}${renderProviderFallback(
       catalog,
       artist,
       "artist_page",
@@ -1722,7 +1801,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist,
       "artist_page",
       providerAvailability
-    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, emptyStateProviderCta, marketplaceAvailability)}${renderVerificationDisclosure(artist, shows)}`}<section class="split-section"><div><h2>About ${escapeHtml(
+    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, emptyStateProviderCta, marketplaceAvailability, artist.slug)}${renderVerificationDisclosure(artist, shows)}`}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes

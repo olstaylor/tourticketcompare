@@ -30,6 +30,32 @@
   }
   const frag = (kids) => { const f = document.createDocumentFragment(); kids.forEach(k => k && f.appendChild(k)); return f; };
 
+  /* ---------- analytics (approved contract — functions/api/analytics.js) ----------
+     Only allowed event names and SAFE_METADATA_KEYS; sendBeacon survives the
+     navigation that immediately follows every tracked interaction. */
+  function track(eventName, metadata) {
+    if (!navigator.sendBeacon) return;
+    try {
+      navigator.sendBeacon("/api/analytics", JSON.stringify({
+        eventName,
+        sourcePath: window.location.pathname,
+        artistSlug: (metadata && metadata.artistSlug) || "",
+        metadata: metadata || {}
+      }));
+    } catch (err) {}
+  }
+
+  /* ---------- event deep links ----------
+     Mirrors showAnchorId()/slugify() in app.js so homepage event links land on
+     the matching #show-<id> card on the artist page (no redirect hop). */
+  function eventAnchor(id) {
+    return String(id || "").toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+  }
+  function eventHref(e) {
+    const anchor = eventAnchor(e.id);
+    return "/artists/" + e.artist_slug + (anchor ? "#show-" + anchor : "");
+  }
+
   /* ---------- icons ---------- */
   const ICON = {
     search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>',
@@ -191,30 +217,39 @@
     const bar = h("div", { class: "ttc-search__bar" }, [
       h("span", { class: "ttc-search__ico" }, [svg("search")]),
       input,
-      h("button", { class: "ttc-search__go", type: "button", onclick: () => { const item = results()[active]; window.location.href = item ? hrefFor(item) : "/artists"; } }, ["Search"])
+      h("button", { class: "ttc-search__go", type: "button", onclick: () => { const item = results()[active]; if (item) go(item); else window.location.href = "/artists"; } }, ["Search"])
     ]);
     const wrap = h("div", { class: "ttc-search ttc-search--" + size }, [bar, panel]);
 
+    // Fold diacritics so "beyonce" matches "Beyoncé" and "rosalia" matches "ROSALÍA".
+    const fold = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     function results() {
-      const term = q.trim().toLowerCase();
+      const term = fold(q.trim());
       let pool = index.filter(r => filter === "all" || r.type === filter);
       if (!term) return pool.filter(r => r.type !== "guide").slice(0, 6);
       const ranked = pool.map(r => {
-        const hay = (r.label + " " + r.sub).toLowerCase();
+        const hay = fold(r.label + " " + r.sub);
         let s = -1;
-        if (hay.startsWith(term)) s = 0; else if (r.label.toLowerCase().includes(term)) s = 1; else if (hay.includes(term)) s = 2;
+        if (hay.startsWith(term)) s = 0; else if (fold(r.label).includes(term)) s = 1; else if (hay.includes(term)) s = 2;
         return { r, s };
       }).filter(x => x.s >= 0).sort((a, b) => a.s - b.s).slice(0, 8).map(x => x.r);
       return ["artist", "event", "guide"].flatMap(type => ranked.filter(item => item.type === type));
     }
     function hrefFor(item) {
       if (item.type === "artist") return "/artists/" + item.ref.slug;
-      if (item.type === "event") {
-        const eventAnchor = String(item.ref.id || "").toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-        return "/artists/" + item.ref.artist_slug + (eventAnchor ? "#show-" + eventAnchor : "");
-      }
+      if (item.type === "event") return eventHref(item.ref);
       return "/guides/" + item.ref.slug;
     }
+    function trackSelect(item) {
+      if (item.type !== "artist" && item.type !== "event") return;
+      track("artist_interest", {
+        result: size === "sm" ? "header_search_select" : "home_search_select",
+        routeType: item.type,
+        artistSlug: item.type === "artist" ? item.ref.slug : item.ref.artist_slug,
+        showId: item.type === "event" ? String(item.ref.id || "") : ""
+      });
+    }
+    function go(item) { trackSelect(item); window.location.href = hrefFor(item); }
     function render() {
       panel.classList.toggle("is-open", open);
       input.setAttribute("aria-expanded", String(open));
@@ -227,10 +262,14 @@
       panel.innerHTML = "";
       panel.appendChild(h("div", { class: "ttc-search__tabs" }, [
         ...tabs.map(([k, lbl]) => h("button", { class: "ttc-search__tab" + (filter === k ? " is-on" : ""), type: "button", onmousedown: (ev) => { ev.preventDefault(); filter = k; active = 0; render(); } }, [lbl])),
-        h("span", { class: "ttc-search__hint" }, [q ? res.length + " matches" : "Popular right now"])
+        h("span", { class: "ttc-search__hint" }, [q ? res.length + " matches" : "Tracked artists & dates"])
       ]));
       const body = h("div", { id: resultsId, class: "ttc-search__results", role: "listbox", "aria-label": "Search suggestions" });
-      if (!res.length) body.appendChild(h("div", { class: "ttc-search__empty" }, ["No checked matches for “" + q + "”. Try an artist or city."]));
+      if (!res.length) body.appendChild(h("div", { class: "ttc-search__empty" }, [
+        "No checked matches for “" + q + "”. Try an artist or city, or ",
+        h("a", { href: "/artists" }, ["browse all tracked artists"]),
+        "."
+      ]));
       const groups = { artist: "Artists", event: "Upcoming dates", guide: "Buying guides" };
       let idx = -1;
       ["artist","event","guide"].forEach(type => {
@@ -244,7 +283,7 @@
           const tail = item.type === "artist"
             ? (item.ref.verified ? h("span", { class: "ttc-pill ttc-pill--good" }, [svg("check"), "Verified"]) : h("span", { class: "ttc-pill ttc-pill--muted" }, ["Watching"]))
             : h("span", { class: "ttc-meta" }, [item.type === "event" ? regionCode(item.ref.country) : "Guide"]);
-          body.appendChild(h("a", { id: `${resultsId}-option-${my}`, role: "option", "aria-selected": String(my === active), class: "ttc-row" + (my === active ? " is-active" : ""), href: hrefFor(item), onmouseenter: () => { active = my; [...body.querySelectorAll(".ttc-row")].forEach((r, i) => { const selected = i === my; r.classList.toggle("is-active", selected); r.setAttribute("aria-selected", String(selected)); }); input.setAttribute("aria-activedescendant", `${resultsId}-option-${my}`); } }, [
+          body.appendChild(h("a", { id: `${resultsId}-option-${my}`, role: "option", "aria-selected": String(my === active), class: "ttc-row" + (my === active ? " is-active" : ""), href: hrefFor(item), onclick: () => trackSelect(item), onmouseenter: () => { active = my; [...body.querySelectorAll(".ttc-row")].forEach((r, i) => { const selected = i === my; r.classList.toggle("is-active", selected); r.setAttribute("aria-selected", String(selected)); }); input.setAttribute("aria-activedescendant", `${resultsId}-option-${my}`); } }, [
             lead,
             h("span", { class: "ttc-row__body" }, [h("span", { class: "ttc-row__label" }, [item.label]), h("span", { class: "ttc-row__sub" }, [item.sub])]),
             h("span", { class: "ttc-row__tail" }, [tail])
@@ -255,7 +294,8 @@
       if (res.length && active >= 0) input.setAttribute("aria-activedescendant", `${resultsId}-option-${Math.min(active, res.length - 1)}`);
       else input.removeAttribute("aria-activedescendant");
       panel.appendChild(h("div", { class: "ttc-search__foot" }, [
-        h("span", {}, [pulse(), "Catalog updated " + DATA.updated_at])
+        h("span", {}, [pulse(), "Links checked · catalog updated " + DATA.updated_at]),
+        h("span", {}, ["Final fees on the provider"])
       ]));
     }
     input.addEventListener("input", () => { q = input.value; open = true; active = 0; render(); });
@@ -264,7 +304,7 @@
       const res = results();
       if (ev.key === "ArrowDown") { ev.preventDefault(); active = Math.min(active + 1, res.length - 1); open = true; render(); }
       else if (ev.key === "ArrowUp") { ev.preventDefault(); active = Math.max(active - 1, 0); render(); }
-      else if (ev.key === "Enter") { const r = res[active]; if (r) window.location.href = hrefFor(r); }
+      else if (ev.key === "Enter") { const r = res[active]; if (r) go(r); else if (q.trim()) window.location.href = "/artists"; }
       else if (ev.key === "Escape") { open = false; render(); input.blur(); }
     });
     wrap.setQuery = function (query, options) {
@@ -285,20 +325,24 @@
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Compare concert ticket prices <em>for the same show.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["Compare concert ticket prices using available provider price snapshots for the same show. Confirm final prices, fees, and availability on the provider site."]),
+      h("p", { class: "ttc-hero__sub" }, ["Search an artist, city, or venue, then pick a checked date and compare timestamped listed-price snapshots where available. Confirm final prices, fees, and availability on the provider site."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
-        h("div", { class: "ttc-hero__chips" }, [h("span", { class: "lab" }, ["Popular"]), ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug }, [artist.name]))])
+        h("div", { class: "ttc-hero__chips" }, [
+          h("span", { class: "lab" }, ["Browse artists"]),
+          ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug, onclick: () => track("artist_interest", { result: "home_hero_chip", routeType: "artist", artistSlug: artist.slug }) }, [artist.name])),
+          h("a", { class: "ttc-chip", href: "/artists" }, ["All artists"])
+        ])
       ]),
       h("div", { class: "ttc-hero__trust" }, [
-        h("div", {}, [svg("check"), document.createTextNode(" "), h("b", {}, ["Verified event links"])]),
-        h("div", {}, [h("span", { class: "ttc-pulse ttc-pulse--accent" }, [h("i")]), document.createTextNode(" Timestamped provider snapshots")])
+        h("div", {}, [svg("check"), document.createTextNode(" "), h("b", {}, ["Event links checked"])]),
+        h("div", {}, [h("span", { class: "ttc-pulse ttc-pulse--accent" }, [h("i")]), document.createTextNode(" Snapshots timestamped where available")])
       ])
     ]);
 
     const feedRows = DATA.feedEvents.map(e => {
       const p = dateParts(e.datetime_iso);
-      return h("a", { class: "ttc-evrow", href: "/" + e.artist_slug }, [
+      return h("a", { class: "ttc-evrow", href: eventHref(e), onclick: () => track("artist_interest", { result: "home_feed_event", routeType: "event", artistSlug: e.artist_slug, showId: String(e.id || "") }) }, [
         h("span", { class: "ttc-evrow__date" }, [h("span", { class: "d" }, [String(p.day)]), h("span", { class: "m" }, [p.mon])]),
         h("span", { class: "ttc-evrow__body" }, [h("span", { class: "ttc-evrow__a" }, [e.artist_name]), h("span", { class: "ttc-evrow__v" }, [e.venue + ", " + e.city])]),
         h("span", { class: "ttc-pill ttc-pill--info" }, [regionTone(e.country)])
@@ -309,7 +353,8 @@
     ]);
     const feed = h("div", { class: "ttc-feed" }, [
       h("div", { class: "ttc-feed__hd" }, [h("span", { class: "t" }, [pulse(), "Upcoming dates we’re tracking"]), h("span", { class: "ttc-meta" }, [DATA.upcomingCount + " dates"])]),
-      feedList
+      feedList,
+      h("div", { class: "ttc-feed__ft" }, [h("span", { class: "ttc-meta" }, ["Event links checked · final price, fees & availability on the provider"])])
     ]);
 
     return h("section", { class: "ttc-hero" }, [h("div", { class: "ttc-wrap ttc-hero__grid" }, [left, feed])]);
@@ -362,8 +407,8 @@
           : h("span", { class: "ttc-pill ttc-pill--muted" }, ["Watching"])]),
         h("td", { "data-k": "Last check" }, [h("span", { class: "ttc-meta" }, [a.last_checked ? prettyChecked(a.last_checked) : "—"])]),
         h("td", { class: "ttc-tcell-act", "data-k": "" }, [a.verified
-          ? h("a", { class: "ttc-tbtn", href: "/" + a.slug }, ["Ticket options ", svg("arrow")])
-          : h("a", { class: "ttc-tbtn ttc-tbtn--ghost", href: "/" + a.slug }, ["View page"])])
+          ? h("a", { class: "ttc-tbtn", href: "/artists/" + a.slug, onclick: () => track("artist_interest", { result: "home_table_artist", routeType: "artist", artistSlug: a.slug }) }, ["Ticket options ", svg("arrow")])
+          : h("a", { class: "ttc-tbtn ttc-tbtn--ghost", href: "/artists/" + a.slug }, ["View page"])])
       ]));
     }
     function eventRows() {
@@ -372,7 +417,7 @@
         h("td", { "data-k": "Venue", class: "ttc-ev-venue" }, [e.venue]),
         h("td", { "data-k": "Date" }, [h("span", { class: "ttc-meta" }, [prettyDate(e.datetime_iso)])]),
         h("td", { "data-k": "Region" }, [h("span", { class: "ttc-pill ttc-pill--info" }, [regionCode(e.country)])]),
-        h("td", { class: "ttc-tcell-act", "data-k": "" }, [h("a", { class: "ttc-tbtn", href: "/" + e.artist_slug }, ["Artist page ", svg("arrow")])])
+        h("td", { class: "ttc-tcell-act", "data-k": "" }, [h("a", { class: "ttc-tbtn", href: eventHref(e), onclick: () => track("artist_interest", { result: "home_table_event", routeType: "event", artistSlug: e.artist_slug, showId: String(e.id || "") }) }, ["View event ", svg("arrow")])])
       ]));
     }
     function render() {

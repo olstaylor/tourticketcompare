@@ -1495,40 +1495,9 @@ function renderProviderCtaButtonHtml(name, href, amount, isLower = false) {
 function renderServerPriceNotes(ctaSpecs) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) return "";
-  const seatGeek = ctaSpecs.find((spec) => spec.provider === "seatgeek");
-  const vividSeats = ctaSpecs.find((spec) => spec.provider === "vivid-seats");
-  const notes = [];
-  const handled = new Set();
-  if (seatGeek?.priceAmount && vividSeats?.priceAmount) {
-    const sgLane = seatGeek.lane;
-    const vsLane = vividSeats.lane;
-    const sameCurrency = sgLane.currency === vsLane.currency;
-    const lowerProvider = sameCurrency
-      ? sgLane.price < vsLane.price
-        ? "SeatGeek"
-        : vsLane.price < sgLane.price
-          ? "Vivid Seats"
-          : ""
-      : "";
-    const delta = sameCurrency ? Number(Math.abs(sgLane.price - vsLane.price).toFixed(2)) : null;
-    const comparisonCopy = lowerProvider && delta !== null
-      ? `${lowerProvider} has the lower listed price snapshot by ${formatServerPrice(delta, sgLane.currency)}.`
-      : sameCurrency
-        ? "Both providers show the same listed price snapshot."
-        : "The snapshots use different currencies, so no price difference is calculated.";
-    notes.push(`<p class="price-compare-note">${escapeHtml(comparisonCopy)}</p>`);
-    notes.push(`<p class="disclosure-note">SeatGeek price snapshot as of ${escapeHtml(seatGeek.priceAsOf)}; Vivid Seats price snapshot as of ${escapeHtml(vividSeats.priceAsOf)}. Prices exclude fees.</p>`);
-    handled.add("seatgeek");
-    handled.add("vivid-seats");
-  }
-  // Condensed per-provider snapshots: one short "Provider · timestamp" line
-  // each, with a single shared fees disclosure instead of repeating it per row.
-  const perProvider = priced.filter((spec) => !handled.has(spec.provider));
-  for (const spec of perProvider) {
-    notes.push(`<p class="disclosure-note snapshot-line">${escapeHtml(spec.name)} · ${escapeHtml(spec.priceAsOf)}</p>`);
-  }
-  if (perProvider.length) notes.push(`<p class="disclosure-note snapshot-fees">Provider-listed price snapshots — exclude fees.</p>`);
-  return `<div class="provider-cta-notes">${notes.join("")}</div>`;
+  const snapshotTimes = priced.map((spec) => `${spec.name} ${spec.priceAsOf}`).join(" · ");
+  const note = `Listed-price snapshots, not live availability. ${snapshotTimes}. Prices may change and may exclude fees.`;
+  return `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(note)}</p></div>`;
 }
 
 // SeatGeek/Vivid Seats lower-price highlight for the button borders. Returns

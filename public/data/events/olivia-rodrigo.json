@@ -5842,6 +5842,13 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8127307",
+        "url": "https://www.ticketliquidator.com/tickets/8127307/Olivia-Rodrigo-tickets-Thu-May-6-2027-Palau-Sant-Jordi",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "timezone": "Europe/Madrid",
@@ -5849,7 +5856,8 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8FFJf_",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-6-5-2027/event/107165538",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127307"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127307",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127307/Olivia-Rodrigo-tickets-Thu-May-6-2027-Palau-Sant-Jordi"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",

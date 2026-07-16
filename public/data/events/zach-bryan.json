@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7606288",
+        "url": "https://www.ticketliquidator.com/tickets/7606288/Zach-Bryan-tickets-Sat-Jul-25-2026-Autzen-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbz5KBt3x",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7606288"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7606288",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7606288/Zach-Bryan-tickets-Sat-Jul-25-2026-Autzen-Stadium"
   },
   {
     "id": "tm-zach-bryan-2026-san-diego-vvg1izbuhfiera",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583736",
+        "url": "https://www.ticketliquidator.com/tickets/7583736/Zach-Bryan-tickets-Fri-Jul-31-2026-Snapdragon-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbUhFIERa",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583736"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583736",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583736/Zach-Bryan-tickets-Fri-Jul-31-2026-Snapdragon-Stadium"
   },
   {
     "id": "tm-zach-bryan-2026-san-diego-vvg1izbunnre2z",
@@ -175,12 +191,20 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583737",
+        "url": "https://www.ticketliquidator.com/tickets/7583737/Zach-Bryan-tickets-Sat-Aug-1-2026-Snapdragon-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbUnnRE2Z",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583737"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583737",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583737/Zach-Bryan-tickets-Sat-Aug-1-2026-Snapdragon-Stadium"
   },
   {
     "id": "tm-zach-bryan-2026-salt-lake-city-g5vzzbm2nlqmp",
@@ -236,12 +260,20 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583738",
+        "url": "https://www.ticketliquidator.com/tickets/7583738/Zach-Bryan-tickets-Fri-Aug-7-2026-Rice-Eccles-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbM2nlQMp",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583738"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583738",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583738/Zach-Bryan-tickets-Fri-Aug-7-2026-Rice-Eccles-Stadium"
   },
   {
     "id": "tm-zach-bryan-2026-denver-g5vzzbm515_rn",
@@ -297,12 +329,20 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583739",
+        "url": "https://www.ticketliquidator.com/tickets/7583739/Zach-Bryan-tickets-Thu-Aug-13-2026-Empower-Field-At-Mile-High",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbM515_RN",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583739"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583739",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583739/Zach-Bryan-tickets-Thu-Aug-13-2026-Empower-Field-At-Mile-High"
   },
   {
     "id": "tm-zach-bryan-2026-denver-g5vzzbm51uyri",
@@ -358,12 +398,20 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583740",
+        "url": "https://www.ticketliquidator.com/tickets/7583740/Zach-Bryan-tickets-Fri-Aug-14-2026-Empower-Field-At-Mile-High",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbM51uyRI",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583740"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583740",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583740/Zach-Bryan-tickets-Fri-Aug-14-2026-Empower-Field-At-Mile-High"
   },
   {
     "id": "tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu",
@@ -733,12 +781,20 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583746",
+        "url": "https://www.ticketliquidator.com/tickets/7583746/Zach-Bryan-tickets-Fri-Oct-2-2026-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkuPGkeOEQ1t",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583746"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583746",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583746/Zach-Bryan-tickets-Fri-Oct-2-2026-Gillette-Stadium"
   },
   {
     "id": "tm-zach-bryan-2026-foxborough-vv16vzkuso6za26afg",
@@ -794,12 +850,20 @@
         "verified": true,
         "last_verified_at": "2026-07-16",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583747",
+        "url": "https://www.ticketliquidator.com/tickets/7583747/Zach-Bryan-tickets-Sat-Oct-3-2026-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16vZkuSO6ZA26aFG",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583747"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583747",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583747/Zach-Bryan-tickets-Sat-Oct-3-2026-Gillette-Stadium"
   },
   {
     "id": "tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev",

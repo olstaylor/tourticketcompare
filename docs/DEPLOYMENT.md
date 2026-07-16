@@ -88,7 +88,7 @@ Missing credentials must cause a safe no-op or explicit failure, never guessed d
 
 Scheduled snapshot workflows write approved exact-event observations to `provider_pricing_cache`; public traffic reads only D1.
 
-- SeatGeek and Vivid Seats have dedicated snapshot workflows.
+- Vivid Seats has a dedicated scheduled snapshot workflow. The SeatGeek snapshot workflow is dispatch-only and produces no usable rows: SeatGeek's API returns null pricing statistics for this client (permanent limitation — SeatGeek is a CTA-only provider; see `PROJECT_STATUS.md`).
 - `impact-marketplace-price-snapshots.yml` schedules only providers whose feed has an approved numeric-price lane; providers without numeric price data remain manual and display-disabled.
 - `bootstrap-provider-pricing-schema.yml` is the manual idempotent schema bootstrap for the cache/history tables; its migration is tracked in `migrations/README.md`.
 - A run summary must make `eligible`, `fetched`, `usable`, `written`, `skipped`, `stale`, and `failed` outcomes explicit.

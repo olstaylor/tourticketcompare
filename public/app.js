@@ -198,12 +198,12 @@ const routeMeta = {
   "/": {
     title: "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
     description:
-      "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider."
+      "Compare available, timestamped provider listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider."
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats",
+    title: "Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Compare timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider."
+      "Compare available, timestamped provider listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -1068,7 +1068,7 @@ function renderWhatYouCanDo() {
   // Keep in sync with the homepage template in functions/[[path]].js.
   [
     ["1. Find your show", "Search an artist and pick the verified date that matches your plans.", "/artists", "Browse artists"],
-    ["2. Compare snapshots", "See available SeatGeek and Vivid Seats price snapshots for the same event.", "/compare-concert-ticket-prices", "Compare ticket prices"],
+    ["2. Compare snapshots", "See available provider price snapshots for the same event.", "/compare-concert-ticket-prices", "Compare ticket prices"],
     ["3. Confirm and buy", "Open the provider site to confirm the final price, fees, availability, and ticket details.", "/guides/how-to-compare-concert-ticket-prices", "Read the guide"]
   ].forEach(([title, body, href, ctaLabel]) => {
     const card = document.createElement("article");
@@ -1115,7 +1115,7 @@ async function renderHome() {
   text(
     copy,
     "p",
-    "Compare concert and event ticket prices using available SeatGeek and Vivid Seats snapshots for the same show. Confirm final prices, fees, and availability on the provider site.",
+    "Compare concert and event ticket prices using available provider price snapshots for the same show. Confirm final prices, fees, and availability on the provider site.",
     "hero-subcopy"
   );
   text(
@@ -1565,8 +1565,10 @@ function renderProviderCtaButton(name, href, amount, isLower = false) {
 }
 
 // Required snapshot disclosures for every price shown on a button, rendered
-// once beneath the button group. When SeatGeek and Vivid Seats both have
-// approved lanes the side-by-side lower-price comparison note is preserved.
+// once beneath the button group. Provider names appear here only from actual
+// approved, fresh lanes. The SeatGeek/Vivid Seats side-by-side comparison
+// branch is retained but inert today: SeatGeek is CTA-only (its API supplies
+// no numeric pricing stats), so no SeatGeek lane ever passes the gates.
 function renderShowCardPriceNotes(ctaSpecs, comparison) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) return null;
@@ -1693,7 +1695,8 @@ function renderShowCard(show, options = {}) {
           spec.lane = null;
         }
       }
-      // Lower-price highlight only when SeatGeek and Vivid Seats are both priced.
+      // Lower-price highlight only when SeatGeek and Vivid Seats are both
+      // priced — currently never, since SeatGeek has no numeric snapshot lane.
       const seatGeekSpec = ctaSpecs.find((spec) => spec.provider === "seatgeek");
       const vividSeatsSpec = ctaSpecs.find((spec) => spec.provider === "vivid-seats");
       const comparison = seatGeekSpec?.priceAmount && vividSeatsSpec?.priceAmount ? approvedProviderPriceComparison(show) : null;
@@ -2590,7 +2593,7 @@ function renderHowItWorks() {
   text(
     section,
     "p",
-    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options, compare approved SeatGeek and Vivid Seats price snapshots for the same event, and use practical buying guidance. We do not sell tickets and only link out to destinations we have checked.",
+    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options, compare available provider price snapshots for the same event, and use practical buying guidance. We do not sell tickets and only link out to destinations we have checked.",
     "lead"
   );
 
@@ -2602,7 +2605,7 @@ function renderHowItWorks() {
       "Organises verified ticket links from official providers like Ticketmaster.",
       "Shows checked event-specific links only when the destination can be verified.",
       "Provides practical buying guidance on comparing totals, understanding fees, and confirming terms.",
-      "Compares approved, timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event when both provider lanes pass source and freshness checks.",
+      "Compares approved, timestamped provider listed-price snapshots for the same verified event when the provider lanes pass source and freshness checks.",
       "Displays a clear empty state when no verified ticket link exists for an event."
     ], "check-list")
   );
@@ -2865,7 +2868,7 @@ function renderSimplePage(type) {
         [
           "Collect verified ticket links for major artists so you have a reliable starting point.",
           "Show event-specific ticket links only when the artist, date, venue, and destination have been checked.",
-          "Compare approved, timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event when both lanes pass source and freshness checks.",
+          "Compare approved, timestamped provider listed-price snapshots for the same verified event when the lanes pass source and freshness checks.",
           "Publish plain buying guides on fees, resale, delivery timing, and what to confirm before checkout."
         ],
         "check-list"
@@ -2922,7 +2925,7 @@ function renderSimplePage(type) {
           "Artist watchlist pages for major tours, with factual artist summaries drawn from confirmed public sources.",
           "Verified provider destinations, such as artist-level links to official ticketing sites.",
           "Event-specific ticket links where the event date, venue, and destination have been checked.",
-          "Fresh, provider-attributed SeatGeek and Vivid Seats price snapshots for the same verified event, including a lower-snapshot comparison only when both lanes pass their source and freshness gates.",
+          "Fresh, provider-attributed listed-price snapshots for the same verified event, including a lower-snapshot comparison only when the lanes pass their source and freshness gates.",
           "Practical buying guides on fees, resale, delivery timing, and what to confirm before checkout."
         ],
         "check-list"

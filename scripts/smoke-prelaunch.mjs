@@ -21,14 +21,14 @@ const expectedTitle = new Map([
   ["/", "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
-  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats"],
+  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
   ["/about", "About TourTicketCompare"],
   ["/contact", "Contact TourTicketCompare"],
   ["/editorial-policy", "Editorial Policy | TourTicketCompare"],
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
-const homepageDescription = "Compare available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
+const homepageDescription = "Compare available, timestamped provider listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
 const APP_ASSET_VERSION = "20260714f";
 const TTC_HOME_ASSET_VERSION = "20260713b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
@@ -268,6 +268,41 @@ async function assertPublicCopyRegressionGuardrails(files) {
   await assertLineRulesAbsent(files, rules, "public copy regression guardrails");
 }
 
+// SeatGeek is a CTA-only provider: its API returns null pricing statistics for
+// this client (owner-confirmed 2026-07-15), so it has no numeric price-snapshot
+// lane and public copy must not claim SeatGeek price snapshots. This guard is
+// keyed off the snapshot workflow: if seatgeek-price-snapshots.yml ever regains
+// a schedule trigger (the lane's reactivation switch), the guard stands down.
+// Dynamic per-lane disclosures ("SeatGeek price snapshot as of <timestamp>")
+// are exempt: they render only from actual approved, fresh lane data.
+async function assertNoStaticSeatGeekPriceClaims(files) {
+  const snapshotWorkflow = await read(".github/workflows/seatgeek-price-snapshots.yml");
+  const seatGeekSnapshotLaneScheduled = /^\s*schedule:\s*$/m.test(snapshotWorkflow);
+  if (seatGeekSnapshotLaneScheduled) return;
+
+  const rules = [
+    {
+      label: "hard-coded SeatGeek/Vivid Seats snapshot-pair claim",
+      pattern: /\bSeatGeek\s+(?:and|&|\+)\s+Vivid\s+Seats\b[^.\n]{0,120}\bsnapshots?\b/i
+    },
+    {
+      label: "SeatGeek-vs-Vivid price-comparison title claim",
+      pattern: /\bSeatGeek\s+vs\.?\s+Vivid\s+Seats\b/i,
+      allowedContext: /Ticketmaster\s+vs\.?\s+SeatGeek\s+vs\.?\s+Vivid\s+Seats/i
+    },
+    {
+      label: "static SeatGeek price-snapshot claim",
+      pattern: /\b(?:timestamped|approved|available|fresh)\s+SeatGeek\b[^.\n]{0,120}\bsnapshots?\b/i
+    },
+    {
+      label: "plural SeatGeek price-snapshots claim",
+      pattern: /\bSeatGeek\s+(?:listed-price|price)\s+snapshots\b/i
+    }
+  ];
+
+  await assertLineRulesAbsent(files, rules, "static SeatGeek price-claim guard (SeatGeek has no numeric snapshot lane)");
+}
+
 async function assertGuideCopyGuardrails(files) {
   const rules = [
     { label: "currency price example", pattern: /[£$€]\s*\d/i },
@@ -469,8 +504,8 @@ const clientIndexHtml = await read("public/index.html");
 const expectedClientMetadata = [
   "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
   homepageDescription,
-  "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats",
-  "Compare timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider.",
+  "Compare Concert Ticket Prices | TourTicketCompare",
+  "Compare available, timestamped provider listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider.",
   "How to Compare Concert Ticket Prices | TourTicketCompare",
   "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
   "SeatGeek vs Ticketmaster | TourTicketCompare",
@@ -497,6 +532,7 @@ for (const staleTitle of [
 }
 await assertPublicCopySafe(publicCopyFiles);
 await assertPublicCopyRegressionGuardrails(publicCopyRegressionFiles);
+await assertNoStaticSeatGeekPriceClaims([...publicCopyRegressionFiles, "functions/llms.txt.js"]);
 await assertGuideCopyGuardrails(guideCopyFiles);
 await assertNoRawPublicAffiliateUrls(publicAffiliateUrlFiles);
 assertAbsent(

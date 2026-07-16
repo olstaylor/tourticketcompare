@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0600643F36DEDBBE",
     "ticketmaster_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-kansas-city-missouri-07-15-2026/event/0600643F36DEDBBE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/post-malone-tickets-kansas-city-kauffman-stadium-7-15-2026--concerts-country-and-folk/production/6608383",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-kansas-city-missouri-07-15-2026/event/0600643F36DEDBBE",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6608383,
+        "url": "https://www.vividseats.com/post-malone-tickets-kansas-city-kauffman-stadium-7-15-2026--concerts-country-and-folk/production/6608383",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0600643E811C5B37",
     "ticketmaster_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-ames-iowa-07-17-2026/event/0600643E811C5B37",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/post-malone-tickets-ames-midamerican-energy-field-at-jack-trice-stadium-7-17-2026/production/6608299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-ames-iowa-07-17-2026/event/0600643E811C5B37",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6608299,
+        "url": "https://www.vividseats.com/post-malone-tickets-ames-midamerican-energy-field-at-jack-trice-stadium-7-17-2026/production/6608299",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "1E00643EB4F48A93",
     "ticketmaster_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-salt-lake-city-utah-07-28-2026/event/1E00643EB4F48A93",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/post-malone-tickets-salt-lake-city-rice-eccles-stadium-7-28-2026/production/6608297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/post-malone-presents-the-big-ass-salt-lake-city-utah-07-28-2026/event/1E00643EB4F48A93",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6608297,
+        "url": "https://www.vividseats.com/post-malone-tickets-salt-lake-city-rice-eccles-stadium-7-28-2026/production/6608297",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

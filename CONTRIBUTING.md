@@ -43,6 +43,8 @@ npm run validate:cta-provider-state           # CTA ↔ provider-state guard
 npm run validate:provider-allowlists          # provider host allowlists
 npm run providers:identities:validate         # data/provider-identities.json registry
 npm run schema:validate                       # route schema markup
+npm run validate:internal-links               # internal links / canonicals / robots / sitemap regression check (in test:mvp)
+npm run audit:internal-links                  # full internal-link & indexability report to reports/internal-links/
 ```
 
 ### Tooling self-tests (before changing the matching/snapshot scripts)

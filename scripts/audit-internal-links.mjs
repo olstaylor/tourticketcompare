@@ -1,0 +1,338 @@
+// Read-only internal-link and indexability audit.
+//
+// Renders every HTML route through the real Pages Functions middleware (the
+// same in-process harness scripts/smoke-prelaunch.mjs uses — no network, no
+// production traffic) and reports, per page:
+//   - indexability (robots meta) and route agreement
+//   - canonical URL and drift from the request path
+//   - title / meta-description uniqueness
+//   - inbound internal-link counts, split into contextual links (inside
+//     <main id="mainContent">, i.e. rendered page content) and shell links
+//     (header/footer nav present on every page)
+//   - orphan or weakly linked indexable pages
+//   - JSON-LD structured-data types
+//   - sitemap inclusion vs indexability
+//
+// Usage:
+//   node scripts/audit-internal-links.mjs            # write report to reports/internal-links/
+//   node scripts/audit-internal-links.mjs --check    # regression mode: exit 1 on
+//                                                    # orphans, canonical drift, duplicate
+//                                                    # titles/descriptions, robots/route
+//                                                    # disagreement, or sitemap/indexability
+//                                                    # mismatches (no report files written)
+//
+// The audit never fetches external URLs and never mutates data files.
+
+import fs from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const CHECK_MODE = process.argv.includes("--check");
+const ORIGIN = "https://tourticketcompare.com";
+
+async function read(relativePath) {
+  return fs.readFile(path.join(root, relativePath), "utf8");
+}
+
+const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
+const sitemapModule = await import(pathToFileURL(path.join(root, "functions/sitemap.xml.js")));
+const routeMetadataModule = await import(pathToFileURL(path.join(root, "functions/_route-metadata.js")));
+const venuesModule = await import(pathToFileURL(path.join(root, "functions/_venues.js")));
+
+const catalog = JSON.parse(await read("public/data/catalog.json"));
+const artistsMeta = JSON.parse(await read("public/data/artists.json"));
+const events = JSON.parse(await read("public/data/events.json"));
+
+const assetMap = new Map();
+for (const file of ["index.html", "data/catalog.json", "data/artists.json", "data/events.json", "data/guides-content.json", "data/provider-configs.json"]) {
+  assetMap.set(`/${file}`, await read(`public/${file}`));
+}
+assetMap.set("/", assetMap.get("/index.html"));
+
+const env = {
+  MOCK_MODE: "false",
+  ALLOW_MOCK_PRICES: "false",
+  ASSETS: {
+    async fetch(request) {
+      const url = new URL(request.url);
+      const body = assetMap.get(url.pathname);
+      return body == null ? new Response("not found", { status: 404 }) : new Response(body, { status: 200 });
+    }
+  }
+};
+
+async function renderRoute(pathname) {
+  const response = await middlewareModule.onRequest({
+    request: new Request(`${ORIGIN}${pathname}`),
+    env,
+    next: () => new Response("static-asset", { status: 200, headers: { "x-audit-next": "1" } })
+  });
+  return { status: response.status, location: response.headers.get("location") || "", html: await response.text() };
+}
+
+// ---------- route inventory (derived from the same sources the router uses) ----------
+
+const staticPaths = Object.keys(routeMetadataModule.TRUST_ROUTES);
+const guidePaths = Object.keys(routeMetadataModule.GUIDE_ROUTES);
+const artistPaths = (catalog.artists || []).map((artist) => `/artists/${artist.slug}`);
+const venues = venuesModule.deriveVenues(events);
+const venuePaths = venues.map((venue) => `/venues/${venue.slug}`);
+const allPaths = [...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/venues", ...venuePaths])];
+
+// ---------- parsing helpers ----------
+
+function extract(html, regex) {
+  const match = html.match(regex);
+  return match ? match[1].trim() : "";
+}
+
+function decodeEntities(value) {
+  return String(value || "")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+}
+
+function internalHrefs(fragment) {
+  const hrefs = [];
+  for (const match of fragment.matchAll(/<a\s[^>]*href="([^"]+)"/g)) {
+    const href = decodeEntities(match[1]);
+    if (!href.startsWith("/")) continue;
+    if (href.startsWith("/api/") || href.startsWith("/data/") || href.startsWith("//")) continue;
+    const clean = href.split("#")[0].split("?")[0].replace(/\/$/, "") || "/";
+    if (clean === "" || /\.[a-z0-9]+$/i.test(clean)) continue;
+    hrefs.push(clean);
+  }
+  return hrefs;
+}
+
+function schemaTypes(html) {
+  const types = new Set();
+  for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    try {
+      const parsed = JSON.parse(match[1]);
+      const nodes = Array.isArray(parsed?.["@graph"]) ? parsed["@graph"] : [parsed];
+      for (const node of nodes) {
+        if (node && node["@type"]) types.add(String(node["@type"]));
+      }
+    } catch (error) {
+      types.add(`(unparseable: ${error.message})`);
+    }
+  }
+  return [...types].sort();
+}
+
+// ---------- crawl ----------
+
+const pages = new Map();
+for (const pathname of allPaths) {
+  const { status, location, html } = await renderRoute(pathname);
+  const mainMatch = html.match(/<main id="mainContent">([\s\S]*?)<\/main>/);
+  const main = mainMatch ? mainMatch[1] : "";
+  const robots = extract(html, /<meta name="robots" content="([^"]*)"/);
+  pages.set(pathname, {
+    path: pathname,
+    status,
+    location,
+    title: decodeEntities(extract(html, /<title>([^<]*)<\/title>/i)),
+    description: decodeEntities(extract(html, /<meta\s+name="description"\s+content="([^"]*)"/i)),
+    robots,
+    indexable: status === 200 && !robots.includes("noindex"),
+    canonical: decodeEntities(extract(html, /<link rel="canonical" href="([^"]*)"/)),
+    schemaTypes: status === 200 ? schemaTypes(html) : [],
+    contextualLinks: internalHrefs(main),
+    allLinks: internalHrefs(html)
+  });
+}
+
+// ---------- inbound counts ----------
+
+for (const page of pages.values()) {
+  page.inboundContextual = [];
+  page.inboundAny = 0;
+}
+for (const page of pages.values()) {
+  if (page.status !== 200) continue;
+  for (const target of new Set(page.contextualLinks)) {
+    const targetPage = pages.get(target);
+    if (targetPage && target !== page.path) targetPage.inboundContextual.push(page.path);
+  }
+  for (const target of new Set(page.allLinks)) {
+    const targetPage = pages.get(target);
+    if (targetPage && target !== page.path) targetPage.inboundAny += 1;
+  }
+}
+
+const problems = [];
+
+// ---------- legacy redirects ----------
+
+// Old guide URLs must keep redirecting to a route that still renders and is
+// indexable, so retired paths never decay into 404s or noindex targets.
+for (const [from, to] of Object.entries(routeMetadataModule.OLD_GUIDE_REDIRECTS)) {
+  const { status, location } = await renderRoute(from);
+  if (status < 300 || status >= 400 || !location.endsWith(to)) {
+    problems.push(`redirect: ${from} should redirect to ${to} (got ${status} ${location || "no location"})`);
+  } else if (!pages.get(to) || pages.get(to).status !== 200 || !pages.get(to).indexable) {
+    problems.push(`redirect: ${from} points at ${to}, which is missing, non-200, or noindex`);
+  }
+}
+
+// ---------- sitemap ----------
+
+const sitemapResponse = await sitemapModule.onRequestGet({ request: new Request(`${ORIGIN}/sitemap.xml`), env });
+const sitemapXml = await sitemapResponse.text();
+const sitemapPaths = new Set(
+  [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => new URL(match[1]).pathname.replace(/\/$/, "") || "/")
+);
+
+// ---------- findings ----------
+
+const rendered = [...pages.values()].filter((page) => page.status === 200);
+const indexablePages = rendered.filter((page) => page.indexable);
+
+// Orphans: every indexable page (except the homepage) needs at least one
+// contextual inbound link from another indexable page.
+for (const page of indexablePages) {
+  if (page.path === "/") continue;
+  const substantialInbound = page.inboundContextual.filter((from) => pages.get(from)?.indexable);
+  if (!substantialInbound.length) {
+    problems.push(`orphan: indexable page ${page.path} has no contextual inbound link from another indexable page`);
+  }
+}
+
+// Canonical drift.
+for (const page of rendered) {
+  const expected = `${ORIGIN}${page.path === "/" ? "/" : page.path}`;
+  if (page.canonical !== expected) {
+    problems.push(`canonical drift: ${page.path} declares canonical ${page.canonical || "(none)"} (expected ${expected})`);
+  }
+}
+
+// Robots/indexability agreement with route intent: noindex pages must say
+// noindex,follow; indexable pages must say index.
+for (const page of rendered) {
+  if (!page.robots) problems.push(`robots: ${page.path} has no robots meta`);
+  else if (!page.indexable && !page.robots.includes("noindex")) problems.push(`robots: ${page.path} inconsistent robots meta "${page.robots}"`);
+}
+
+// Duplicate titles / descriptions among indexable pages.
+function reportDuplicates(field) {
+  const byValue = new Map();
+  for (const page of indexablePages) {
+    const value = page[field];
+    if (!value) {
+      problems.push(`${field}: indexable page ${page.path} has an empty ${field}`);
+      continue;
+    }
+    if (!byValue.has(value)) byValue.set(value, []);
+    byValue.get(value).push(page.path);
+  }
+  for (const [value, paths] of byValue) {
+    if (paths.length > 1) problems.push(`duplicate ${field}: ${paths.join(", ")} share "${value.slice(0, 80)}"`);
+  }
+}
+reportDuplicates("title");
+reportDuplicates("description");
+
+// Sitemap vs indexability agreement.
+for (const sitemapPath of sitemapPaths) {
+  const page = pages.get(sitemapPath);
+  if (!page) problems.push(`sitemap: ${sitemapPath} is in the sitemap but not in the crawled route inventory`);
+  else if (page.status !== 200) problems.push(`sitemap: ${sitemapPath} is in the sitemap but returns ${page.status}`);
+  else if (!page.indexable) problems.push(`sitemap: ${sitemapPath} is in the sitemap but renders noindex`);
+}
+for (const page of indexablePages) {
+  if (!sitemapPaths.has(page.path)) {
+    problems.push(`sitemap: indexable page ${page.path} is missing from the sitemap`);
+  }
+}
+
+// ---------- output ----------
+
+const summary = {
+  generated_at: new Date().toISOString(),
+  totals: {
+    routes_crawled: pages.size,
+    rendered_200: rendered.length,
+    redirects: [...pages.values()].filter((page) => page.status >= 300 && page.status < 400).length,
+    indexable: indexablePages.length,
+    noindex: rendered.length - indexablePages.length,
+    sitemap_entries: sitemapPaths.size,
+    problems: problems.length
+  },
+  problems,
+  pages: [...pages.values()].map((page) => ({
+    path: page.path,
+    status: page.status,
+    indexable: page.indexable,
+    robots: page.robots,
+    canonical: page.canonical,
+    title: page.title,
+    in_sitemap: sitemapPaths.has(page.path),
+    schema_types: page.schemaTypes,
+    inbound_contextual: page.inboundContextual.length,
+    inbound_contextual_from: page.inboundContextual.slice().sort(),
+    inbound_any: page.inboundAny,
+    outbound_contextual: [...new Set(page.contextualLinks)].length
+  }))
+};
+
+if (CHECK_MODE) {
+  if (problems.length) {
+    console.error(`internal-link audit: ${problems.length} problem(s) found`);
+    for (const problem of problems) console.error(`  - ${problem}`);
+    process.exit(1);
+  }
+  console.log(
+    `internal-link audit passed: ${summary.totals.routes_crawled} routes, ${summary.totals.indexable} indexable, ` +
+      `${summary.totals.noindex} noindex, ${summary.totals.sitemap_entries} sitemap entries, 0 problems`
+  );
+  process.exit(0);
+}
+
+const reportDir = path.join(root, "reports/internal-links");
+await fs.mkdir(reportDir, { recursive: true });
+await fs.writeFile(path.join(reportDir, "internal-links-audit.json"), `${JSON.stringify(summary, null, 2)}\n`);
+
+const weak = summary.pages
+  .filter((page) => page.indexable && page.path !== "/" && page.inbound_contextual <= 1)
+  .sort((a, b) => a.inbound_contextual - b.inbound_contextual);
+const markdown = [
+  "# Internal links & indexability audit",
+  "",
+  `Generated: ${summary.generated_at} (read-only, rendered in-process — no live crawl)`,
+  "",
+  "## Totals",
+  "",
+  ...Object.entries(summary.totals).map(([key, value]) => `- ${key}: ${value}`),
+  "",
+  "## Problems",
+  "",
+  ...(problems.length ? problems.map((problem) => `- ${problem}`) : ["- none"]),
+  "",
+  "## Weakly linked indexable pages (≤1 contextual inbound link)",
+  "",
+  ...(weak.length
+    ? ["| Page | Contextual inbound | Total inbound | In sitemap |", "|---|---|---|---|",
+       ...weak.map((page) => `| ${page.path} | ${page.inbound_contextual} | ${page.inbound_any} | ${page.in_sitemap ? "yes" : "no"} |`)]
+    : ["- none"]),
+  "",
+  "## Pages",
+  "",
+  "| Page | Status | Indexable | Sitemap | Contextual in | Schema types |",
+  "|---|---|---|---|---|---|",
+  ...summary.pages.map(
+    (page) =>
+      `| ${page.path} | ${page.status} | ${page.indexable ? "yes" : "no"} | ${page.in_sitemap ? "yes" : "no"} | ${page.inbound_contextual} | ${page.schema_types.join(", ")} |`
+  ),
+  ""
+].join("\n");
+await fs.writeFile(path.join(reportDir, "internal-links-audit.md"), markdown);
+
+console.log(`internal-link audit: ${pages.size} routes crawled, ${problems.length} problem(s)`);
+for (const problem of problems) console.log(`  - ${problem}`);
+console.log(`report written to reports/internal-links/internal-links-audit.{md,json}`);

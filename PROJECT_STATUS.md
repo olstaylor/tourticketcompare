@@ -66,6 +66,7 @@ Run before committing data, content, or rendering changes:
 - `node scripts/validate-guide-routes.mjs` — guide route / content / sitemap drift validation (PR #184).
 - `node scripts/validate-artist-provider-claims.mjs` — artist metadata vs `VERIFIED_TICKET_LINKS` drift guard (PR #185).
 - `node scripts/validate-cta-provider-state.mjs` (`npm run validate:cta-provider-state`, in `test:mvp`) — read-only CTA ↔ provider-state guard: artist CTAs backed by a verified registry identity, no withheld identity publishing, every publishable event resolvable through `/api/out`, every `machine_high_confidence` row meeting its canonical contract, and every verified provider provenance row carrying a matching redirect-valid provider URL.
+- `npm run validate:internal-links` (`node scripts/audit-internal-links.mjs --check`, in `test:mvp`) — read-only in-process crawl of every HTML route: fails on orphaned indexable pages, canonical drift, robots/indexability disagreement, duplicate titles/descriptions, broken legacy guide redirects, and sitemap/indexability mismatches. `npm run audit:internal-links` writes the full page-by-page report to `reports/internal-links/`.
 - `npm run seatgeek:verify:self-test` — offline invariant tests for the SeatGeek verification script (instant matching, wrong-night rejection, decision matrix, write shape). Run before changing `scripts/verify-seatgeek-events.mjs`.
 - `npm run artist:check -- <slug>` — per-artist readiness validator: checks `artists.json`, `catalog.json`, `events.json`, partition files, `VERIFIED_TICKET_LINKS` in `out.js`, and the `shows.js` affiliate map (PR #188; since 2026-06-11 the shows.js map is derived from out.js and the signup allowlist from artists.json — neither is hand-edited per artist).
 - `node scripts/smoke-prelaunch.mjs` — route/CTA/copy smoke checks.
@@ -74,7 +75,7 @@ Run before committing data, content, or rendering changes:
 - `node --check public/app.js`, `node --check 'functions/[[path]].js'`, `node --check functions/api/out.js` — syntax.
 - `git diff --check` — whitespace and conflict markers.
 
-`npm run test:mvp` runs documentation validation, the events/outbound-link self-tests, provider validators, CTA-provider-state guard, and smoke suite together.
+`npm run test:mvp` runs documentation validation, the events/outbound-link self-tests, provider validators, CTA-provider-state guard, internal-link/indexability regression check, and smoke suite together.
 
 ## Daily automation
 

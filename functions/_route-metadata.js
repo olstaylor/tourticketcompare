@@ -23,13 +23,13 @@ export const TRUST_ROUTES = {
   "/": {
     title: "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
     description:
-      "Compare concert and event ticket prices with available, timestamped SeatGeek and Vivid Seats listed-price snapshots for verified events, find tour dates, and confirm fees and availability with the provider.",
+      "Compare concert and event ticket prices with available, timestamped provider listed-price snapshots for verified events, find tour dates, and confirm fees and availability with the provider.",
     indexable: true
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices | SeatGeek vs Vivid Seats",
+    title: "Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Use this ticket comparison site to compare concert and event ticket prices with timestamped SeatGeek and Vivid Seats listed-price snapshots for the same verified event, then confirm fees, availability, seats, and final totals with the provider.",
+      "Use this ticket comparison site to compare concert and event ticket prices with available, timestamped provider listed-price snapshots for the same verified event, then confirm fees, availability, seats, and final totals with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }]
   },

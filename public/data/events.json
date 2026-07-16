@@ -13877,13 +13877,21 @@
         "verified": true,
         "last_verified_at": "2026-07-13",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8127307",
+        "url": "https://www.ticketnetwork.com/en/p/8127307",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8FFJf_",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-6-5-2027/event/107165538"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-6-5-2027/event/107165538",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8127307"
   },
   {
     "id": "tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p",
@@ -24503,11 +24511,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7715489",
+        "url": "https://www.ticketnetwork.com/en/p/7715489",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_dGkHUMcmX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715489"
   },
   {
     "id": "tm-post-malone-2026-ames-vv17bz_dgkbv6aim",
@@ -24556,11 +24572,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7715528",
+        "url": "https://www.ticketnetwork.com/en/p/7715528",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_dGkBv6AiM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715528"
   },
   {
     "id": "tm-post-malone-2026-edmonton-1av7z_dgkdhlsdx",
@@ -24715,11 +24739,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7715501",
+        "url": "https://www.ticketnetwork.com/en/p/7715501",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_dBVWFnK",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7715501"
   },
   {
     "id": "tm-zach-bryan-2026-eugene-vvg1hzbz5kbt3x",
@@ -24768,11 +24800,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7606288",
+        "url": "https://www.ticketnetwork.com/en/p/7606288",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbz5KBt3x",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7606288"
   },
   {
     "id": "tm-zach-bryan-2026-san-diego-vvg1izbuhfiera",
@@ -24821,11 +24861,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583736",
+        "url": "https://www.ticketnetwork.com/en/p/7583736",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbUhFIERa",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583736"
   },
   {
     "id": "tm-zach-bryan-2026-san-diego-vvg1izbunnre2z",
@@ -24874,11 +24922,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583737",
+        "url": "https://www.ticketnetwork.com/en/p/7583737",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbUnnRE2Z",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583737"
   },
   {
     "id": "tm-zach-bryan-2026-salt-lake-city-g5vzzbm2nlqmp",
@@ -24927,11 +24983,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583738",
+        "url": "https://www.ticketnetwork.com/en/p/7583738",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbM2nlQMp",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583738"
   },
   {
     "id": "tm-zach-bryan-2026-denver-g5vzzbm515_rn",
@@ -24980,11 +25044,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583739",
+        "url": "https://www.ticketnetwork.com/en/p/7583739",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbM515_RN",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583739"
   },
   {
     "id": "tm-zach-bryan-2026-denver-g5vzzbm51uyri",
@@ -25033,11 +25105,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583740",
+        "url": "https://www.ticketnetwork.com/en/p/7583740",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbM51uyRI",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583740"
   },
   {
     "id": "tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu",
@@ -25400,11 +25480,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583746",
+        "url": "https://www.ticketnetwork.com/en/p/7583746",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkuPGkeOEQ1t",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583746"
   },
   {
     "id": "tm-zach-bryan-2026-foxborough-vv16vzkuso6za26afg",
@@ -25453,11 +25541,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583747",
+        "url": "https://www.ticketnetwork.com/en/p/7583747",
+        "verified": true,
+        "last_verified_at": "2026-07-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16vZkuSO6ZA26aFG",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583747"
   },
   {
     "id": "tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev",

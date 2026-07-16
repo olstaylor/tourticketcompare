@@ -1574,29 +1574,8 @@ function renderShowCardPriceNotes(ctaSpecs, comparison) {
   if (!priced.length) return null;
   const wrap = document.createElement("div");
   wrap.className = "provider-cta-notes";
-  const handled = new Set();
-  if (comparison) {
-    const seatGeek = ctaSpecs.find((spec) => spec.provider === "seatgeek");
-    const vividSeats = ctaSpecs.find((spec) => spec.provider === "vivid-seats");
-    if (comparison.sameCurrency && comparison.lowerProvider && comparison.delta !== null) {
-      const difference = formatProviderPrice(comparison.delta, comparison.seatGeek.currency);
-      if (difference) text(wrap, "p", `${comparison.lowerProvider} has the lower listed price snapshot by ${difference}.`, "price-compare-note");
-    } else if (comparison.sameCurrency) {
-      text(wrap, "p", "Both providers show the same listed price snapshot.", "price-compare-note");
-    } else {
-      text(wrap, "p", "The snapshots use different currencies, so no price difference is calculated.", "price-compare-note");
-    }
-    text(wrap, "p", `SeatGeek price snapshot as of ${seatGeek.priceAsOf}; Vivid Seats price snapshot as of ${vividSeats.priceAsOf}. Prices exclude fees.`, "disclosure-note");
-    handled.add("seatgeek");
-    handled.add("vivid-seats");
-  }
-  // Condensed per-provider snapshots: one short "Provider · timestamp" line
-  // each, with a single shared fees disclosure instead of repeating it per row.
-  const perProvider = priced.filter((spec) => !handled.has(spec.provider));
-  for (const spec of perProvider) {
-    text(wrap, "p", `${spec.name} · ${spec.priceAsOf}`, "disclosure-note snapshot-line");
-  }
-  if (perProvider.length) text(wrap, "p", "Provider-listed price snapshots — exclude fees.", "disclosure-note snapshot-fees");
+  const snapshotTimes = priced.map((spec) => `${spec.name} ${spec.priceAsOf}`).join(" · ");
+  text(wrap, "p", `Listed-price snapshots, not live availability. ${snapshotTimes}. Prices may change and may exclude fees.`, "disclosure-note");
   return wrap;
 }
 

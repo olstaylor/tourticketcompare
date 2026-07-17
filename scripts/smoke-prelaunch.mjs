@@ -29,7 +29,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare available, timestamped provider listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260716b";
+const APP_ASSET_VERSION = "20260716c";
 const TTC_HOME_ASSET_VERSION = "20260716a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -273,8 +273,8 @@ async function assertPublicCopyRegressionGuardrails(files) {
 // lane and public copy must not claim SeatGeek price snapshots. This guard is
 // keyed off the snapshot workflow: if seatgeek-price-snapshots.yml ever regains
 // a schedule trigger (the lane's reactivation switch), the guard stands down.
-// Dynamic per-lane disclosures ("SeatGeek price snapshot as of <timestamp>")
-// are exempt: they render only from actual approved, fresh lane data.
+// The unified dynamic disclosure is exempt: it renders provider names and
+// timestamps only from actual approved, fresh lane data.
 async function assertNoStaticSeatGeekPriceClaims(files) {
   const snapshotWorkflow = await read(".github/workflows/seatgeek-price-snapshots.yml");
   const seatGeekSnapshotLaneScheduled = /^\s*schedule:\s*$/m.test(snapshotWorkflow);
@@ -1133,7 +1133,7 @@ assert(appJs.includes("Some links earn us a commission — this never affects yo
 assert(!appJs.includes("Event last checked:"), "hydration should rely on the consolidated verification panel instead of repeating check dates on every show card");
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
-assert(appJs.includes("SeatGeek price snapshot as of"), "hydration should include provider-attributed SeatGeek snapshot copy");
+assert(appJs.includes("Listed-price snapshots, not live availability."), "hydration should include the unified listed-price snapshot disclosure");
 assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
 assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
 assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price snapshot should hide expired data");
@@ -1143,10 +1143,9 @@ assert(appJs.includes('item?.provider === "Vivid Seats"'), "hydrated Vivid Seats
 assert(appJs.includes("source !== \"vividseats_impact_marketplace_api\""), "hydrated Vivid Seats price snapshots should require the approved source attribution");
 assert(appJs.includes("isValidIsoDateTime(lane.fetchedAt) || !isValidIsoDateTime(lane.expiresAt)"), "hydrated Vivid Seats price snapshots should require ISO timestamps before checking freshness");
 assert(appJs.includes("lane: approvedVividSeatsPriceLane(show)"), "hydration should attach Vivid Seats snapshots only through the approved lane helper");
-assert(appJs.includes("Vivid Seats price snapshot as of"), "hydration should include provider-attributed Vivid Seats snapshot copy");
+assert(appJs.includes("snapshotTimes"), "hydration should include provider capture times in the unified snapshot disclosure");
 assert(appJs.includes('show?.provider_links?.["vivid-seats"]?.verified !== true'), "hydrated Vivid Seats price snapshots should require explicit provider verification");
-assert(appJs.includes("function approvedProviderPriceComparison(show)"), "hydration should compare only approved SeatGeek and Vivid Seats lanes");
-assert(appJs.includes("has the lower listed price snapshot by"), "hydration should label a permitted lower-snapshot difference precisely");
+assert(!appJs.includes("More providers — no current price snapshot"), "hydration should keep priced and unpriced providers in one list");
 assert(appJs.includes('priceProviders: "approved-marketplaces"'), "comparison hydration should request only approved marketplace price lanes");
 assert(appJs.includes("function hydrateComparisonHubPriceSnapshots()"), "comparison hub should hydrate its exact-event price cards");
 assert(appJs.includes("function hydrateShowBoardPriceSnapshots(shows, cardOptions)"), "artist show boards should hydrate approved provider prices across the site");
@@ -1664,9 +1663,9 @@ const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWith
   IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,
   IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
 }));
-assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes("Vivid Seats ·"), "server-rendered artist cards should show eligible secondary-provider snapshots before client hydration");
+assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes("Listed-price snapshots, not live availability."), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
 assert(!serverPricedMorgan.text.includes("SeatGeek price snapshot as of"), "SeatGeek must remain CTA-only in server-rendered cards");
-assert(serverPricedMorgan.text.includes("prices exclude fees"), "server-rendered snapshots should keep the fees disclaimer");
+assert(serverPricedMorgan.text.includes("may exclude fees"), "server-rendered snapshots should keep the fees disclaimer");
 
 const bulkFlagsOffResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),

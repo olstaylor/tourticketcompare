@@ -925,18 +925,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106916444",
-        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-16-2026/event/106916444",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AYZkG_GkdVkVnT",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-16-2026/event/106916444"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f49f4acd",

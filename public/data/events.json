@@ -5158,11 +5158,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7373446",
-        "url": "https://www.ticketnetwork.com/en/p/7373446",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7373446",
@@ -5181,7 +5181,7 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AYZkG_GkdVkVnT",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373446",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373446/Ariana-Grande-tickets-Thu-Jul-16-2026-Barclays-Center",
     "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-16-2026/event/106916444"
   },

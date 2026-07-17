@@ -1,8 +1,22 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-07-16 (agent: full recount from source files after PRs #472–#484 merged. PR #472 added 22 events — post-malone 5, zach-bryan 15, plus 1 shakira and 1 bad-bunny `needs_recheck` row that re-added shows deleted in the 2026-07-15 dedup — taking events 380→402 and `needs_recheck` 13→20. PRs #473–#479 reworked `/api/shows`: normal traffic now reads the persisted catalogue and live Ticketmaster artist discovery is an opt-in runtime flag (`TICKETMASTER_LIVE_ARTIST_DISCOVERY_ENABLED`, default off) backed by the `TICKETMASTER_API_KEY` Pages secret. PR #480 scheduled the Impact marketplace event-link sync nightly with auto-merge, owner-approved. The 2026-07-16 scheduled CTA syncs (#482 SeatGeek, #483 Vivid Seats, #484 TicketNetwork) auto-merged.) The roster remains 20 artists — 18 indexable + 2 `review_required` shells (sabrina-carpenter, lady-gaga, held pending live dates). The cache-only price architecture is active: dedicated Vivid Seats and shared Impact marketplace workflows write approved exact-event observations to D1, and `/api/shows` serves only lanes whose provider, URL, provenance, source, feature-flag, timestamp, and expiry gates pass. Vivid Seats, TicketNetwork, and StubHub International have active numeric-price lanes; Ticket Liquidator remains price-disabled because its catalog has no numeric `CurrentPrice`. SeatGeek carries no numeric-price lane: its API returns null pricing statistics for this client and (owner-confirmed 2026-07-15) never will, so SeatGeek price snapshots are permanently disabled — not a pending entitlement (see Active risks). Earlier update history lives in git (`git log -- PROJECT_STATUS.md`).
+Last updated: 2026-07-17 (recount after the 2026-07-17 SeatGeek CTA sync and gated TicketNetwork, Ticket Liquidator, and StubHub International catalog syncs #496–#500. Current event data: 402 events — 284 human_verified, 98 machine_high_confidence, 20 needs_recheck; verified provider links: SeatGeek 197, Vivid Seats 222, TicketNetwork 197, Ticket Liquidator 166, StubHub International 206.)
 
 This file is the current-state snapshot—the **only** place live state (counts, per-artist status, active risks) is recorded. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. `docs/DOCS_MAINTENANCE.md` explains ownership and drift checks. Superseded material lives in git history, not in parallel archive or handover documents.
+
+## Revenue leakage and data-risk review (2026-07-17)
+
+The latest daily audit and automation reviews were reconciled against the provider-sync results. Three stale monetised destinations for Ariana Grande — Brooklyn/Barclays Center, 16 July 2026 — were safely suppressed by the owner-approved exact-event catalog lanes in PRs #497, #499, and #500. Ten audit 404s remain owner-review items because the current provider catalog state still says `listed`; an automated HEAD result alone does not meet the safe-direction rule for clearing or correcting a destination.
+
+- **Confirmed dead / safely suppressed:** 3 Ariana Grande 16 July marketplace destinations, removed by the gated provider catalog syncs.
+- **Missing human verification:** 10 remaining 404 marketplace destinations (Ariana Grande 13 July; Bad Bunny Warsaw; Shakira Newark; Post Malone Kansas City). Their current catalog state conflicts with liveness, so they remain published pending exact provider/event confirmation.
+- **WAF or bot-blocked but not proven dead:** 637 URLs returned 401/403/429. Existing destinations were preserved.
+- **Verified mismatch:** 3 Ariana Grande Ticketmaster reschedules (Brooklyn 12 July → 14 July; Boston 22 July → 23 July; Boston 24 July → 26 July). These remain review-only; no date or status was auto-edited.
+- **Transient upstream failure:** 0 in the nightly Ticketmaster sync and 0 in the daily Discovery diff.
+- **Tooling defect:** none confirmed. The daily audit checked 1,433 URLs, the nightly sync checked 354 events, and new-show coverage checked all 18 indexed artists. The zero-write outcomes were gate-protected, not partial-run writes.
+- **Stale issue/documentation:** issue #457 was stale relative to provider sync PRs #497/#499/#500 and has been reconciled; issue #459 now contains the compact priority owner checklist. No new governance document was created.
+
+Price/snapshot lanes remain cache- and provenance-gated. SeatGeek remains CTA-only with no numeric-price snapshot lane; Ticket Liquidator remains price-disabled for numeric prices. No snapshot or link-enrichment finding authorizes a Ticketmaster URL change.
 
 ## Runtime and architecture
 

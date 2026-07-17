@@ -1500,7 +1500,7 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
 function renderServerPriceNotes(ctaSpecs) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) return "";
-  const snapshotTimes = priced.map((spec) => `${spec.name} ${spec.priceAsOf}`).join(" · ");
+  const snapshotTimes = priced.map((spec) => `${spec.name} (${spec.priceAsOf})`).join(" · ");
   const note = `Listed-price snapshots, not live availability. ${snapshotTimes}. Prices may change and may exclude fees.`;
   return `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(note)}</p></div>`;
 }

@@ -1578,7 +1578,7 @@ function renderShowCardPriceNotes(ctaSpecs) {
   if (!priced.length) return null;
   const wrap = document.createElement("div");
   wrap.className = "provider-cta-notes";
-  const snapshotTimes = priced.map((spec) => `${spec.name} ${spec.priceAsOf}`).join(" · ");
+  const snapshotTimes = priced.map((spec) => `${spec.name} (${spec.priceAsOf})`).join(" · ");
   text(wrap, "p", `Listed-price snapshots, not live availability. ${snapshotTimes}. Prices may change and may exclude fees.`, "disclosure-note");
   return wrap;
 }

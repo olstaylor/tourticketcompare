@@ -1642,6 +1642,10 @@ summary {
   background: var(--green-soft);
 }
 
+.show-card .provider-cta:focus-visible {
+  outline-offset: -3px;
+}
+
 .show-card .provider-cta-name {
   color: var(--ink-soft);
   font-size: 0.86rem;

@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-07-16T07:30:01.497Z
+Generated: 2026-07-17T07:25:56.299Z
 
 ## Run summary
 
@@ -10,7 +10,7 @@ Generated: 2026-07-16T07:30:01.497Z
 - API access with client ID only: HTTP 200
 - Total events in data: 402
 - Ticketmaster-verified events: 301
-- Events already carrying a valid SeatGeek URL: 246
+- Events already carrying a valid SeatGeek URL: 250
 - Ticketmaster-verified events already carrying a valid SeatGeek URL: 189
 - Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 112
 - Events selected/logged by this run: 31
@@ -35,7 +35,7 @@ Generated: 2026-07-16T07:30:01.497Z
 ## Interpretation
 
 - `URLs added: 0` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 246 event(s) already carried valid SeatGeek URLs before this run, including 189 Ticketmaster-verified event(s).
+- 250 event(s) already carried valid SeatGeek URLs before this run, including 189 Ticketmaster-verified event(s).
 - This run queried only the 112 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 

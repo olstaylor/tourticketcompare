@@ -669,11 +669,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7529806",
-        "url": "https://www.ticketnetwork.com/en/p/7529806",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7529806",
@@ -685,7 +685,7 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbI",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529806",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529806/Morgan-Wallen-tickets-Fri-Jul-17-2026-MT-Bank-Stadium"
   },
   {
@@ -7719,11 +7719,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7145857",
-        "url": "https://www.ticketnetwork.com/en/p/7145857",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7145857",
@@ -7735,7 +7735,7 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ87",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7145857",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7145857/Bad-Bunny-tickets-Fri-Jul-17-2026-Ippodromo-Snai-La-Maura"
   },
   {

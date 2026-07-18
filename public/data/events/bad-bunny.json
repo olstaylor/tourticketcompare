@@ -1155,17 +1155,17 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7145857",
-        "url": "https://www.ticketliquidator.com/tickets/7145857/Bad-Bunny-tickets-Fri-Jul-17-2026-Ippodromo-Snai-La-Maura",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ87",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7145857/Bad-Bunny-tickets-Fri-Jul-17-2026-Ippodromo-Snai-La-Maura"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html",

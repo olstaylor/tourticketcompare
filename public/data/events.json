@@ -745,17 +745,17 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7529807",
-        "url": "https://www.ticketliquidator.com/tickets/7529807/Morgan-Wallen-tickets-Sat-Jul-18-2026-MT-Bank-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ_",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529807/Morgan-Wallen-tickets-Sat-Jul-18-2026-MT-Bank-Stadium"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs",
@@ -7795,17 +7795,17 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7145858",
-        "url": "https://www.ticketliquidator.com/tickets/7145858/Bad-Bunny-tickets-Sat-Jul-18-2026-Ippodromo-Snai-La-Maura",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZ8A",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7145858/Bad-Bunny-tickets-Sat-Jul-18-2026-Ippodromo-Snai-La-Maura"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-bad-bunny-2026-brussels-1117180915",
@@ -15106,11 +15106,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668656",
-        "url": "https://www.ticketliquidator.com/tickets/7668656/Bruno-Mars-tickets-Sat-Jul-18-2026-Wembley-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107071082",
@@ -15125,7 +15125,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AeGZbzGkSGzoMA",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668656/Bruno-Mars-tickets-Sat-Jul-18-2026-Wembley-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-18-7-2026/event/107071082"
   },
   {

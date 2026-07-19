@@ -745,17 +745,17 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7529807",
-        "url": "https://www.ticketliquidator.com/tickets/7529807/Morgan-Wallen-tickets-Sat-Jul-18-2026-MT-Bank-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qYJ_",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529807/Morgan-Wallen-tickets-Sat-Jul-18-2026-MT-Bank-Stadium"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs",

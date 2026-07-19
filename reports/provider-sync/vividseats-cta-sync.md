@@ -1,6 +1,6 @@
 # Vivid Seats CTA sync log
 
-Generated: 2026-07-16T07:34:32.781Z
+Generated: 2026-07-19T07:38:14.139Z
 
 Written by `scripts/sync-vividseats-events.mjs`. Identity anchor: an
 exact-name Impact Marketplace Products query for a registry-verified
@@ -10,16 +10,16 @@ timezone) against the Vivid Seats production slug date.
 ## Run summary
 
 - Mode: apply
-- Events selected: 254
-- Events skipped before API checks: 148
+- Events selected: 249
+- Events skipped before API checks: 153
 - API calls made: 14
-- Verified provenance written: 195
-- URLs added: 13
+- Verified provenance written: 204
+- URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 0
-- No qualifying listing: 46
+- No qualifying listing: 45
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -27,7 +27,6 @@ timezone) against the Vivid Seats production slug date.
 
 | showId | artist | action | Vivid Seats id | url | notes |
 | --- | --- | --- | --- | --- | --- |
-| tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtba2 | morgan-wallen | verify (applied) | 6207854 | https://www.vividseats.com/morgan-wallen-tickets-baltimore-mt-bank-stadium-7-17-2026--concerts-country-and-folk/production/6207854 | - |
 | tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtbk | morgan-wallen | verify (applied) | 6207856 | https://www.vividseats.com/morgan-wallen-tickets-baltimore-mt-bank-stadium-7-18-2026--concerts-country-and-folk/production/6207856 | - |
 | tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs | morgan-wallen | verify (applied) | 6207859 | https://www.vividseats.com/morgan-wallen-tickets-ann-arbor-michigan-stadium-7-24-2026--concerts-country-and-folk/production/6207859 | - |
 | tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbf | morgan-wallen | verify (applied) | 6207863 | https://www.vividseats.com/morgan-wallen-tickets-ann-arbor-michigan-stadium-7-25-2026--concerts-country-and-folk/production/6207863 | - |
@@ -75,7 +74,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-bts-2026-inglewood-0a006429b353645f | bts | verify (applied) | 6517139 | https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-6-2026--concerts-k-pop/production/6517139 | - |
 | tm-bts-2026-toronto-1avzz_egkiiidcu | bts | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-bts-2026-toronto-1avzz_egkicklrr | bts | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-ariana-grande-2026-brooklyn-30006319f41b4abf | ariana-grande | verify (applied) | 5973681 | https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-16-2026--concerts-pop/production/5973681 | - |
 | tm-ariana-grande-2026-brooklyn-30006319f49f4acd | ariana-grande | verify (applied) | 5973683 | https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-18-2026--concerts-pop/production/5973683 | - |
 | tm-ariana-grande-2026-brooklyn-30006325205054e3 | ariana-grande | verify (applied) | 5995611 | https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-19-2026--concerts-pop/production/5995611 | - |
 | tm-ariana-grande-2026-boston-0100631aaef23ee8 | ariana-grande | verify (applied) | 5973685 | https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685 | - |
@@ -97,7 +95,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-ariana-grande-2026-london-35006324f5075024 | ariana-grande | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-ariana-grande-2026-london-35006324f4f54ef7 | ariana-grande | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-ariana-grande-2026-london-35006324f50f50d8 | ariana-grande | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html | bad-bunny | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-18-luglio-2026-ippodromo-snai-la-maura-milano-13408.html | bad-bunny | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-bad-bunny-2026-brussels-1117180915 | bad-bunny | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv | olivia-rodrigo | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -266,21 +263,19 @@ timezone) against the Vivid Seats production slug date.
 | tm-charli-xcx-2026-inglewood-vvg10z_g9r7nph | charli-xcx | verify (applied) | 7132070 | https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070 | - |
 | tm-charli-xcx-2026-inglewood-vvg10z_g9gehi7 | charli-xcx | verify (applied) | 7132072 | https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-18-2026--concerts-pop/production/7132072 | - |
 | tm-charli-xcx-2026-glendale-17k8v0g6g9pu_yt | charli-xcx | verify (applied) | 7132074 | https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074 | - |
-| tm-post-malone-2026-kansas-city-vv17bz_dgkhumcmx | post-malone | add (applied) | 6608383 | https://www.vividseats.com/post-malone-tickets-kansas-city-kauffman-stadium-7-15-2026--concerts-country-and-folk/production/6608383 | - |
-| tm-post-malone-2026-ames-vv17bz_dgkbv6aim | post-malone | add (applied) | 6608299 | https://www.vividseats.com/post-malone-tickets-ames-midamerican-energy-field-at-jack-trice-stadium-7-17-2026/production/6608299 | - |
 | tm-post-malone-2026-edmonton-1av7z_dgkdhlsdx | post-malone | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-post-malone-2026-edmonton-1aozkodgkd2xd4i | post-malone | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-post-malone-2026-salt-lake-city-g5vzz_dbvwfnk | post-malone | add (applied) | 6608297 | https://www.vividseats.com/post-malone-tickets-salt-lake-city-rice-eccles-stadium-7-28-2026/production/6608297 | - |
-| tm-zach-bryan-2026-eugene-vvg1hzbz5kbt3x | zach-bryan | add (applied) | 6379980 | https://www.vividseats.com/zach-bryan-tickets-eugene-autzen-stadium-7-25-2026--concerts-country-and-folk/production/6379980 | - |
-| tm-zach-bryan-2026-san-diego-vvg1izbuhfiera | zach-bryan | add (applied) | 6339024 | https://www.vividseats.com/zach-bryan-tickets-san-diego-snapdragon-stadium-7-31-2026--concerts-country-and-folk/production/6339024 | - |
-| tm-zach-bryan-2026-san-diego-vvg1izbunnre2z | zach-bryan | add (applied) | 6338929 | https://www.vividseats.com/zach-bryan-tickets-san-diego-snapdragon-stadium-8-1-2026--concerts-country-and-folk/production/6338929 | - |
-| tm-zach-bryan-2026-salt-lake-city-g5vzzbm2nlqmp | zach-bryan | add (applied) | 6338937 | https://www.vividseats.com/zach-bryan-tickets-salt-lake-city-rice-eccles-stadium-8-7-2026--concerts-country-and-folk/production/6338937 | - |
-| tm-zach-bryan-2026-denver-g5vzzbm515_rn | zach-bryan | add (applied) | 6338939 | https://www.vividseats.com/zach-bryan-tickets-denver-empower-field-at-mile-high-8-13-2026--concerts-country-and-folk/production/6338939 | - |
-| tm-zach-bryan-2026-denver-g5vzzbm51uyri | zach-bryan | add (applied) | 6338945 | https://www.vividseats.com/zach-bryan-tickets-denver-empower-field-at-mile-high-8-14-2026--concerts-country-and-folk/production/6338945 | - |
-| tm-zach-bryan-2026-toronto-1a8zkcegkegri4f | zach-bryan | add (applied) | 6379736 | https://www.vividseats.com/zach-bryan-tickets-toronto-rogers-centre-9-21-2026--concerts-country-and-folk/production/6379736 | - |
-| tm-zach-bryan-2026-toronto-1a8zkcegkeuxbbr | zach-bryan | add (applied) | 6379970 | https://www.vividseats.com/zach-bryan-tickets-toronto-rogers-centre-9-22-2026--concerts-country-and-folk/production/6379970 | - |
-| tm-zach-bryan-2026-foxborough-vv1avzkupgkeoeq1t | zach-bryan | add (applied) | 6338949 | https://www.vividseats.com/zach-bryan-tickets-foxborough-gillette-stadium-10-2-2026--concerts-country-and-folk/production/6338949 | - |
-| tm-zach-bryan-2026-foxborough-vv16vzkuso6za26afg | zach-bryan | add (applied) | 6338957 | https://www.vividseats.com/zach-bryan-tickets-foxborough-gillette-stadium-10-3-2026--concerts-country-and-folk/production/6338957 | - |
+| tm-post-malone-2026-salt-lake-city-g5vzz_dbvwfnk | post-malone | verify (applied) | 6608297 | https://www.vividseats.com/post-malone-tickets-salt-lake-city-rice-eccles-stadium-7-28-2026/production/6608297 | - |
+| tm-zach-bryan-2026-eugene-vvg1hzbz5kbt3x | zach-bryan | verify (applied) | 6379980 | https://www.vividseats.com/zach-bryan-tickets-eugene-autzen-stadium-7-25-2026--concerts-country-and-folk/production/6379980 | - |
+| tm-zach-bryan-2026-san-diego-vvg1izbuhfiera | zach-bryan | verify (applied) | 6339024 | https://www.vividseats.com/zach-bryan-tickets-san-diego-snapdragon-stadium-7-31-2026--concerts-country-and-folk/production/6339024 | - |
+| tm-zach-bryan-2026-san-diego-vvg1izbunnre2z | zach-bryan | verify (applied) | 6338929 | https://www.vividseats.com/zach-bryan-tickets-san-diego-snapdragon-stadium-8-1-2026--concerts-country-and-folk/production/6338929 | - |
+| tm-zach-bryan-2026-salt-lake-city-g5vzzbm2nlqmp | zach-bryan | verify (applied) | 6338937 | https://www.vividseats.com/zach-bryan-tickets-salt-lake-city-rice-eccles-stadium-8-7-2026--concerts-country-and-folk/production/6338937 | - |
+| tm-zach-bryan-2026-denver-g5vzzbm515_rn | zach-bryan | verify (applied) | 6338939 | https://www.vividseats.com/zach-bryan-tickets-denver-empower-field-at-mile-high-8-13-2026--concerts-country-and-folk/production/6338939 | - |
+| tm-zach-bryan-2026-denver-g5vzzbm51uyri | zach-bryan | verify (applied) | 6338945 | https://www.vividseats.com/zach-bryan-tickets-denver-empower-field-at-mile-high-8-14-2026--concerts-country-and-folk/production/6338945 | - |
+| tm-zach-bryan-2026-toronto-1a8zkcegkegri4f | zach-bryan | verify (applied) | 6379736 | https://www.vividseats.com/zach-bryan-tickets-toronto-rogers-centre-9-21-2026--concerts-country-and-folk/production/6379736 | - |
+| tm-zach-bryan-2026-toronto-1a8zkcegkeuxbbr | zach-bryan | verify (applied) | 6379970 | https://www.vividseats.com/zach-bryan-tickets-toronto-rogers-centre-9-22-2026--concerts-country-and-folk/production/6379970 | - |
+| tm-zach-bryan-2026-foxborough-vv1avzkupgkeoeq1t | zach-bryan | verify (applied) | 6338949 | https://www.vividseats.com/zach-bryan-tickets-foxborough-gillette-stadium-10-2-2026--concerts-country-and-folk/production/6338949 | - |
+| tm-zach-bryan-2026-foxborough-vv16vzkuso6za26afg | zach-bryan | verify (applied) | 6338957 | https://www.vividseats.com/zach-bryan-tickets-foxborough-gillette-stadium-10-3-2026--concerts-country-and-folk/production/6338957 | - |
 
 ## Skipped before API checks
 
@@ -298,6 +293,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-morgan-wallen-2026-chicago-z7r9jz1a7qtba | morgan-wallen | event is in the past — nothing to maintain |
 | tm-morgan-wallen-2026-clemson-z7r9jz1a7qtbd | morgan-wallen | event is in the past — nothing to maintain |
 | tm-morgan-wallen-2026-clemson-z7r9jz1a7qtb7 | morgan-wallen | event is in the past — nothing to maintain |
+| tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtba2 | morgan-wallen | event is in the past — nothing to maintain |
 | tm-bts-2026-stanford-1c006429c95ea2b8 | bts | event is in the past — nothing to maintain |
 | tm-bts-2026-stanford-1c006429c9dda300 | bts | event is in the past — nothing to maintain |
 | tm-bts-2026-stanford-1c006435858268ec | bts | event is in the past — nothing to maintain |
@@ -321,6 +317,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-ariana-grande-2026-atlanta-0e006325bea26298 | ariana-grande | event is in the past — nothing to maintain |
 | tm-ariana-grande-2026-brooklyn-30006319f0e94aa7 | ariana-grande | event is in the past — nothing to maintain |
 | tm-ariana-grande-2026-brooklyn-30006319f34a4abb | ariana-grande | event is in the past — nothing to maintain |
+| tm-ariana-grande-2026-brooklyn-30006319f41b4abf | ariana-grande | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-barcelona-653666176 | bad-bunny | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-barcelona-1116290311 | bad-bunny | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-madrid-417009905 | bad-bunny | event is in the past — nothing to maintain |
@@ -342,6 +339,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-bad-bunny-2026-stockholm-625835491 | bad-bunny | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-stockholm-734104140 | bad-bunny | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-warsaw-1844913130 | bad-bunny | event is in the past — nothing to maintain |
+| tm-bad-bunny-2026-milano-bad-bunny-debi-tirar-mas-fotos-world-tour-17-luglio-2026-ippodromo-snai-la-maura-milano-13382.html | bad-bunny | event is in the past — nothing to maintain |
 | tm-jay-z-2026-bronx-1d006473d78cfdb8 | jay-z | event is in the past — nothing to maintain |
 | tm-jay-z-2026-bronx-1d006473d9d109cb | jay-z | event is in the past — nothing to maintain |
 | tm-jay-z-2026-bronx-1d006473db760a7f | jay-z | event is in the past — nothing to maintain |
@@ -429,6 +427,8 @@ timezone) against the Vivid Seats production slug date.
 | tm-rosalia-2026-oakland-g5vyzbumkyr1f | rosalia | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo | bad-bunny | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
 | tm-shakira-2026-madrid-z7r9jz1a7j7vi | shakira | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
+| tm-post-malone-2026-kansas-city-vv17bz_dgkhumcmx | post-malone | event is in the past — nothing to maintain |
+| tm-post-malone-2026-ames-vv17bz_dgkbv6aim | post-malone | event is in the past — nothing to maintain |
 | tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu | zach-bryan | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
 | tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt | zach-bryan | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
 | tm-zach-bryan-2026-dover-z7r9jz1a7r4vz | zach-bryan | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |

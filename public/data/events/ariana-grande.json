@@ -1002,18 +1002,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106917203",
-        "url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-18-2026/event/106917203",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AYZkG_GkdVEVlu",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373447",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373447/Ariana-Grande-tickets-Sat-Jul-18-2026-Barclays-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-brooklyn-tickets-7-18-2026/event/106917203"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006325205054e3",

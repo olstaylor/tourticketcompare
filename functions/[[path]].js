@@ -1163,7 +1163,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
         label,
         destination,
         "button button-primary",
-        `target="_blank" rel="noopener" data-cta-provider="${escapeAttr(provider)}" data-cta-artist="${escapeAttr(artist.slug)}" data-cta-price-snapshot="absent" data-cta-location="artist_provider_panel"${item.link_id ? ` data-cta-link-id="${escapeAttr(item.link_id)}"` : ""}`
+        `target="_blank" rel="${escapeAttr(outboundCtaRel(destination) || "noopener")}" data-cta-provider="${escapeAttr(provider)}" data-cta-artist="${escapeAttr(artist.slug)}" data-cta-price-snapshot="absent" data-cta-location="artist_provider_panel"${item.link_id ? ` data-cta-link-id="${escapeAttr(item.link_id)}"` : ""}`
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
@@ -1309,6 +1309,18 @@ function safeShowTicketUrl(value) {
   } catch (error) {
     return null;
   }
+}
+
+// /api/out is a tracked redirect endpoint, not indexable content: every CTA
+// pointing at it is rel="nofollow" so crawlers don't spend budget on the
+// redirect hop, and monetized providers additionally declare rel="sponsored".
+// Ticketmaster stays plain and unmonetized, so it is nofollow-only. Keep in
+// sync with outboundCtaRel in public/app.js.
+function outboundCtaRel(href) {
+  const raw = String(href || "");
+  if (!raw.startsWith("/api/out?")) return null;
+  const provider = new URLSearchParams(raw.slice(raw.indexOf("?") + 1)).get("provider") || "";
+  return provider === "ticketmaster" ? "noopener nofollow" : "noopener nofollow sponsored";
 }
 
 function eventTicketHref(show, provider) {
@@ -1490,7 +1502,7 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const value = amount || "Check prices";
   const valueClass = amount ? "provider-cta-value provider-cta-price" : "provider-cta-value provider-cta-check";
   const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(analytics.ctaLocation || "event_card")}"`;
-  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}" href="${escapeAttr(href)}" target="_blank" rel="noopener"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
+  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}" href="${escapeAttr(href)}" target="_blank" rel="${escapeAttr(outboundCtaRel(href) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
 }
 
 // Required snapshot disclosures for every price shown on a button, rendered
@@ -1623,7 +1635,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, artistSlug = "") {
   const safeName = escapeHtml(String(artistName || "").trim() || "artist");
   const primaryCta = providerCta
-    ? anchor(`Check ${escapeHtml(providerCta.name)} for updates`, providerCta.href, "button button-primary", `data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
+    ? anchor(`Check ${escapeHtml(providerCta.name)} for updates`, providerCta.href, "button button-primary", `rel="${escapeAttr(outboundCtaRel(providerCta.href) || "noopener")}" data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
     : anchor("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary");
   // Watchlist signup instead of empty ticket buttons; posts to /api/signup via
   // the delegated submit handler in public/app.js. Keep in sync with

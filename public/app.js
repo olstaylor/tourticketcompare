@@ -285,12 +285,26 @@ function guideText(parent, tagName, value, className) {
   return element;
 }
 
+// /api/out is a tracked redirect endpoint, not indexable content: every CTA
+// pointing at it is rel="nofollow" so crawlers don't spend budget on the
+// redirect hop, and monetized providers additionally declare rel="sponsored".
+// Ticketmaster stays plain and unmonetized, so it is nofollow-only. Keep in
+// sync with outboundCtaRel in functions/[[path]].js.
+function outboundCtaRel(href) {
+  const raw = String(href || "");
+  if (!raw.startsWith("/api/out?")) return null;
+  const provider = new URLSearchParams(raw.slice(raw.indexOf("?") + 1)).get("provider") || "";
+  return provider === "ticketmaster" ? "noopener nofollow" : "noopener nofollow sponsored";
+}
+
 function link(label, href, className) {
   const element = document.createElement("a");
   element.href = href;
   element.textContent = label;
   if (className) element.className = className;
   if (/^https?:\/\//i.test(href)) element.rel = "noopener";
+  const outboundRel = outboundCtaRel(href);
+  if (outboundRel) element.rel = outboundRel;
   return element;
 }
 
@@ -1557,7 +1571,7 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
   cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}`;
   cta.href = href;
   cta.target = "_blank";
-  cta.rel = "noopener";
+  cta.rel = outboundCtaRel(href) || "noopener";
   // Analytics dimensions for the delegated provider_click listener: artist,
   // event, provider, snapshot present/absent, and CTA location.
   cta.dataset.ctaProvider = analytics.provider || slugify(name);

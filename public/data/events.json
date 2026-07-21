@@ -18569,11 +18569,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107154199",
-        "url": "https://www.stubhub.ie/shakira-brooklyn-tickets-7-20-2026/event/107154199",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -18582,7 +18582,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/shakira-brooklyn-tickets-7-20-2026/event/107154199"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-shakira-2026-brooklyn-1adzz_6gktq1p0z",

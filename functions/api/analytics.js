@@ -1,5 +1,5 @@
 const MAX_BODY_SIZE = 8 * 1024;
-const ALLOWED_EVENTS = new Set(["page_view", "email_signup", "artist_interest", "outbound_click", "provider_click"]);
+const ALLOWED_EVENTS = new Set(["page_view", "email_signup", "artist_interest", "outbound_click", "provider_click", "web_vitals"]);
 
 function json(payload, status = 200) {
   return new Response(JSON.stringify(payload), {
@@ -18,7 +18,8 @@ function clean(value, max = 255) {
 const SAFE_METADATA_KEYS = new Set([
   "routeType", "artistSlug", "guideSlug", "tourSlug", "provider", "linkId",
   "eventId", "showId", "status", "reason", "currency", "hasPrice",
-  "comparisonProviders", "result", "priceSnapshot", "ctaLocation"
+  "comparisonProviders", "result", "priceSnapshot", "ctaLocation",
+  "lcp", "inp", "cls", "navigationType"
 ]);
 
 export function sanitizeMetadata(value) {
@@ -26,8 +27,12 @@ export function sanitizeMetadata(value) {
   const output = {};
   for (const [key, raw] of Object.entries(value)) {
     if (!SAFE_METADATA_KEYS.has(key)) continue;
-    if (typeof raw === "boolean" || typeof raw === "number") {
+    if (typeof raw === "boolean") {
       output[key] = raw;
+      continue;
+    }
+    if (typeof raw === "number") {
+      if (Number.isFinite(raw)) output[key] = raw;
       continue;
     }
     if (typeof raw !== "string") continue;

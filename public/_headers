@@ -10,6 +10,9 @@
 /app.js
   Cache-Control: public, max-age=3600
 
+/web-vitals.js
+  Cache-Control: public, max-age=3600
+
 /styles.css
   Cache-Control: public, max-age=3600
 

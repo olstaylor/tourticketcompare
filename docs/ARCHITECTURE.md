@@ -34,6 +34,7 @@ functions/
   [[path]].js                Active HTML router and server rendering
   _route-metadata.js         Route titles, descriptions, H1s, and guide registry
   _impact-marketplace-config.js  Shared marketplace provider configuration
+  _venues.js                 Venue aggregation derived from events.json (shared with sitemap)
   sitemap.xml.js / llms.txt.js  Generated discovery endpoints
   [named route shims]        Fallback re-exports from [[path]].js
   api/
@@ -48,6 +49,7 @@ data/
 scripts/                     Validation, sync, reporting, and automation tools
 .github/workflows/           Scheduled and manual automation
 reports/provider-sync/       Latest generated provider-sync audit output
+reports/status-history/      Dated frozen status narratives moved out of PROJECT_STATUS.md
 docs/                        Stable policies and runbooks
 migrations/                  Ordered D1 migrations and applied-state ledger
 ```
@@ -63,11 +65,15 @@ request
       └─ HTML routes            → functions/[[path]].js
 ```
 
-`functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, artist routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry. Update metadata there rather than duplicating it in the router.
+`functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, artist routes, venue routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry. Update metadata there rather than duplicating it in the router.
 
 The named route shims (`functions/artists.js`, `guides.js`, and peers) only re-export `onRequest` from `[[path]].js`. While middleware is active, editing a shim does not change live routing.
 
 Unknown non-file routes return a real noindex 404. The site must not generate thin pages for unknown artists, tours, cities, or venues.
+
+## Venue aggregation layer
+
+Venue landing pages (`/venues` index + `/venues/<slug>`) are a server-rendered aggregation derived purely from verified `events.json` records (`functions/_venues.js`, shared with the sitemap). Each venue page lists the upcoming tracked shows at that venue grouped by artist and links out to the artist pages, where the verified provider CTAs and price snapshots live — the venue layer invents no data and has no provider/CTA logic of its own. The slug is `slugify("<venue> <city>")` so inconsistent country labels for one physical venue merge. Venues with ≥2 upcoming shows are indexable and in the sitemap; single-show venues render but stay `noindex`; unknown slugs 404. The pages are cross-linked from the header and footer nav. Current venue counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
 
 ## Data and rendering flow
 
@@ -88,6 +94,10 @@ All public ticket clicks route through `/api/out`.
 - Artist-level destinations come from protected constants and verified identity records.
 - Event-level destinations come from reviewed event data and provider-specific provenance.
 - Any missing or invalid condition suppresses the CTA or returns diagnostic JSON. There is no untracked affiliate fallback.
+
+Event CTAs publish independently per provider: the Ticketmaster link follows the row's verification status, while an affiliate provider link may still publish on a `needs_recheck` row when that provider link carries its own verified provenance. The shared rule is `providerEventPublishable`, implemented in parallel in `functions/api/out.js`, `functions/[[path]].js`, `public/app.js`, and `functions/api/shows.js`; the smoke suite guards SSR/API parity.
+
+Client and server CTA builders (`artistProviderHref`/`eventTicketHref` in `public/app.js` and `functions/[[path]].js`) emit `/api/out?...&provider=<slug>`, which `out.js` resolves and Impact-wraps server-side. The account Impact Publisher Tag (`public/impact-publisher-tag.js`, UTT `P-A3977745`) loads site-wide for **impression** tracking only (`impactStat("trackImpression")`); it does not transform links, so click attribution never depends on client-side rewriting or Impact dashboard auto-link configuration. Do not switch monetized CTAs to raw/direct destinations.
 
 `functions/api/out.js`, the provider identity registry, server rendering, `/api/shows`, and `public/app.js` must preserve equivalent provider eligibility semantics. Validators and smoke tests guard this parity.
 

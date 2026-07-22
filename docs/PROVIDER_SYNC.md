@@ -49,9 +49,20 @@ npm run providers:sync:tm:dry-run
 npm run providers:sync:tm:write-pr:self-test
 ```
 
-The scheduled new-show workflow uses verified attraction IDs and `sync_enabled` artists. Its writer applies only proposed rows through the canonical event writer, regenerates derived data, validates the exact proposed content, and opens a pull request. Its sanctioned auto-merge is limited by [SAFE_PUBLISHING_RULES.md](../SAFE_PUBLISHING_RULES.md). Withheld rows are reported, not published.
+The scheduled new-show workflow (`tm-new-shows-pr.yml`) uses verified attraction IDs and `sync_enabled` artists. Its writer (`scripts/sync-tm-events-write-pr.mjs`) applies only proposed rows through the canonical event writer, regenerates derived data, validates the exact proposed content, and opens one pull request (`automation:tm-events` label); it never commits to `main` directly. The recogniser withholds events already in `events.json`, so a quiet day produces no commit and no PR; `event_name` is populated verbatim from the Discovery API listing title and `tour_name` is left blank for human verification. Its sanctioned auto-merge is limited by [SAFE_PUBLISHING_RULES.md](../SAFE_PUBLISHING_RULES.md); a failed merge leaves the PR open for a human. Manual `workflow_dispatch` defaults to a safe preview (no PR), accepts an optional single-artist `artist` input, and only auto-merges when the `auto_merge` input is set. Without `TICKETMASTER_API_KEY` the recogniser no-ops safely. Withheld rows are reported, not published.
 
-The nightly field-sync updates only lossless factual fields on existing events when the Discovery identity is exact and the row has no review blockers. Deletions, actionable status changes, and `tour_name` remain review items.
+The nightly field-sync (`nightly-data-sync.yml`, via `scripts/apply-tm-updates.mjs`) updates only lossless factual fields on existing events — date/time, venue/city, the official listing title `event_name`, and the refreshed canonical TM URL — pulled per event id from the Discovery API when the Discovery identity is exact and that row has no review blockers of its own. It then regenerates the inline fallback and partitions. Manual runs default to `dry_run: true`; a dry-run writes `.audit/tm-sync.json` as an uploaded artifact and cannot commit or push. The auto-commit is blocked by any error, missing report, dry-run input, validation failure, smoke-test failure, or absent `events.json` diff; review items and blocked updates on other events go to the rolling `automation:data-sync` issue (via `scripts/report-tm-sync-review.mjs`) without vetoing the clean updates. Deletions (404/410), cancelled/postponed status, new shows, and `tour_name` are never auto-applied. Without `TICKETMASTER_API_KEY` the run writes a skipped report and no-ops safely.
+
+## Daily Ticketmaster audit
+
+`daily-audit.yml` performs, in order:
+
+1. URL liveness via `scripts/verify-outbound-links.mjs`.
+2. A Ticketmaster Discovery diff via `scripts/audit-tm-events.mjs` (requires `TICKETMASTER_API_KEY`; skipped safely if absent).
+3. Reporting via `scripts/daily-audit-report.mjs` into a single rolling GitHub issue (`automation:daily-audit`).
+4. Verification-date bumps via `scripts/bump-verified-dates.mjs`, opening a PR for human review. A TM-skip/failure guard prevents date bumps when TM data is unavailable, and the conservative blocked-link guard holds date bumps while liveness results are WAF/bot-blocked (401/403/429) — blocked is not proof of life or death.
+
+The Discovery API is keyed by the **Discovery event id** (`ticketmaster_discovery_event_id` / `provider_links.ticketmaster.discovery_event_id`), NOT the consumer-website `/event/<id>` code stored in `ticketmaster_event_id` (16-char hex) or the international numeric storefront id. Events lacking a Discovery-format id are reported as **`unresolvable`** — surfaced for backfill, never counted as missing. `scripts/backfill-discovery-ids.mjs` (`npm run audit:backfill-discovery-ids`; dry-run by default, `--apply` to write) recovers Discovery ids from the verified per-artist attraction feed by venue-local-date + city match, writing only on unambiguous API matches. Date/venue/status comparison is timezone-aware and only flags actionable status transitions (cancelled/postponed/rescheduled).
 
 ## SeatGeek event URLs
 

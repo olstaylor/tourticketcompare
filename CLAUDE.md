@@ -78,6 +78,8 @@ scripts/                  Validation, discovery, and automation tooling (see CON
                           and docs/DEPLOYMENT.md for the command map)
 migrations/               D1 migrations (see migrations/README.md for applied state)
 reports/provider-sync/     Generated latest-run provider audit reports
+reports/status-history/    Dated frozen narratives moved out of PROJECT_STATUS.md
+                          (see docs/DOCS_MAINTENANCE.md)
 docs/                     Stable reference policies and runbooks
 ```
 

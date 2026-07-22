@@ -1062,8 +1062,8 @@ function printSummary(summary) {
 // The one deliberate exception is the SeatGeek pricing-stats entitlement gap:
 // the account's API client returns HTTP 200 for every eligible event with all
 // price-stat fields null, so zero usable rows can be built no matter how often
-// the workflow runs. That is an external, owner-tracked blocker (see
-// PROJECT_STATUS.md "Active risks"), already surfaced loudly via the run
+// the workflow runs. That is a permanent external limitation (see
+// PROJECT_STATUS.md "What is not supported"), already surfaced loudly via the run
 // summary, the pricing-stats warning, and a workflow annotation. Hard-failing on
 // it only turns every scheduled run red — alert fatigue that masks genuinely new
 // failures — so an entitlement-blocked run is treated as non-fatal.

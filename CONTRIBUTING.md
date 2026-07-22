@@ -33,17 +33,34 @@ python3 scripts/validate-events.py --for-production
 node scripts/validate-partitions.mjs          # if partitions touched
 ```
 
+`validate-events.py --for-production` hard-errors on a missing `tour_name` key and warns on a blank `tour_name` for indexed artists.
+
 ### Route / provider / artist validators (run the ones relevant to your change)
 
 ```bash
 node scripts/validate-guide-routes.mjs        # guides or route metadata touched
-npm run artist:check -- <slug>                # a specific artist touched
+npm run artist:check -- <slug>                # a specific artist touched — checks artists.json,
+                                              #   catalog.json, events.json, partitions,
+                                              #   VERIFIED_TICKET_LINKS in out.js, and the shows.js
+                                              #   affiliate map (derived from out.js; the signup
+                                              #   allowlist derives from artists.json — neither is
+                                              #   hand-edited per artist)
 npm run validate:artist-providers             # artists.json vs VERIFIED_TICKET_LINKS drift
-npm run validate:cta-provider-state           # CTA ↔ provider-state guard
+npm run validate:cta-provider-state           # CTA ↔ provider-state guard (read-only):
+                                              #   artist CTAs backed by a verified registry identity,
+                                              #   no withheld identity publishing, every publishable
+                                              #   event resolvable through /api/out, every
+                                              #   machine_high_confidence row meeting its canonical
+                                              #   contract, and every verified provider provenance row
+                                              #   carrying a matching redirect-valid provider URL
 npm run validate:provider-allowlists          # provider host allowlists
 npm run providers:identities:validate         # data/provider-identities.json registry
 npm run schema:validate                       # route schema markup
-npm run validate:internal-links               # internal links / canonicals / robots / sitemap regression check (in test:mvp)
+npm run validate:internal-links               # read-only in-process crawl of every HTML route —
+                                              #   fails on orphaned indexable pages, canonical drift,
+                                              #   robots/indexability disagreement, duplicate
+                                              #   titles/descriptions, broken legacy guide redirects,
+                                              #   and sitemap/indexability mismatches (in test:mvp)
 npm run audit:internal-links                  # full internal-link & indexability report to reports/internal-links/
 ```
 

@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-07-15",
+  "updated_at": "2026-07-22",
   "strategy": "Cloudflare Pages stadium tour market watch catalog with factual artist content and verified provider buttons only.",
   "artists": [
     {
@@ -762,6 +762,146 @@
       "faq": [
         {
           "question": "Where can I find Zach Bryan tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "the-weeknd",
+      "name": "The Weeknd",
+      "short_description": "Canadian singer, songwriter, and record producer.",
+      "country": "Canada",
+      "image_alt": "The Weeknd artist ticket information",
+      "factual_summary": "The Weeknd is the stage name of Abel Tesfaye, a Canadian singer, songwriter, and record producer. Albums including After Hours and Dawn FM, with singles such as “Blinding Lights” and “Save Your Tears”, brought him global commercial success and large-scale stadium shows.",
+      "ticket_buying_notes": "Use the checked dates listed on this page where available, and the verified provider links to confirm current availability directly with the platform.",
+      "seo_title": "The Weeknd Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified The Weeknd ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
+      "faq": [
+        {
+          "question": "Where can I find The Weeknd tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "coldplay",
+      "name": "Coldplay",
+      "short_description": "British rock band fronted by Chris Martin.",
+      "country": "United Kingdom",
+      "image_alt": "Coldplay artist ticket information",
+      "factual_summary": "Coldplay are a British rock band formed in London in 1997 and fronted by singer Chris Martin. Albums including Parachutes, A Rush of Blood to the Head, and Music of the Spheres brought the band decades of global commercial success and extensive stadium touring.",
+      "ticket_buying_notes": "Use the checked dates listed on this page where available, and the verified provider links to confirm current availability directly with the platform.",
+      "seo_title": "Coldplay Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified Coldplay ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
+      "faq": [
+        {
+          "question": "Where can I find Coldplay tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "jelly-roll",
+      "name": "Jelly Roll",
+      "short_description": "American singer and songwriter from Nashville.",
+      "country": "United States",
+      "image_alt": "Jelly Roll artist ticket information",
+      "factual_summary": "Jelly Roll is the stage name of Jason DeFord, an American singer and songwriter from Nashville whose music moved from rap toward a country and rock sound. Albums including Whitsitt Chapel and Beautifully Broken, with singles such as “Need a Favor”, brought him mainstream country success and arena headline tours.",
+      "ticket_buying_notes": "Use the checked dates listed on this page where available, and the verified provider links to confirm current availability directly with the platform.",
+      "seo_title": "Jelly Roll Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified Jelly Roll ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
+      "faq": [
+        {
+          "question": "Where can I find Jelly Roll tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "tame-impala",
+      "name": "Tame Impala",
+      "short_description": "Australian psychedelic music project led by Kevin Parker.",
+      "country": "Australia",
+      "image_alt": "Tame Impala artist ticket information",
+      "factual_summary": "Tame Impala is the psychedelic music project of Australian multi-instrumentalist Kevin Parker, who writes and records the music and performs live with a touring band. Albums including Currents and The Slow Rush brought the project international commercial success, festival headline slots, and arena shows.",
+      "ticket_buying_notes": "Use the checked dates listed on this page where available, and the verified provider links to confirm current availability directly with the platform.",
+      "seo_title": "Tame Impala Tickets | Verified Ticket Options & Buying Guidance",
+      "meta_description": "Find verified Tame Impala ticket links and tour information. No invented dates, fake prices, or unverified provider buttons. Check ticketing platforms directly.",
+      "faq": [
+        {
+          "question": "Where can I find Tame Impala tour dates?",
           "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
         },
         {
@@ -1615,6 +1755,58 @@
       "last_checked_at": "2026-07-15",
       "disclosure_required": true,
       "url": "https://seatgeek.com/zach-bryan-tickets"
+    },
+    {
+      "link_id": "tm-artist-the-weeknd",
+      "artist_slug": "the-weeknd",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-coldplay",
+      "artist_slug": "coldplay",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-jelly-roll",
+      "artist_slug": "jelly-roll",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-tame-impala",
+      "artist_slug": "tame-impala",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
     }
   ],
   "safety_rules": [

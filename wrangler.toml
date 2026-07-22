@@ -23,10 +23,10 @@ STUBHUB_INTERNATIONAL_PUBLIC_ENABLED = "true"
 STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED = "true"
 TICKETMASTER_DISCOVERY_COUNTRY = ""
 # Schema-offers exception (SAFE_PUBLISHING_RULES.md, owner-approved 2026-07-22).
-# Pilot scope: remove SCHEMA_OFFERS_PILOT_SLUGS (comma-separated) to go
-# site-wide; set SCHEMA_OFFERS_ENABLED = "false" to stop emitting at origin.
+# Site-wide since the harry-styles pilot was verified live (2026-07-22). To
+# re-scope, set SCHEMA_OFFERS_PILOT_SLUGS (comma-separated slugs); set
+# SCHEMA_OFFERS_ENABLED = "false" to stop emitting at origin.
 SCHEMA_OFFERS_ENABLED = "true"
-SCHEMA_OFFERS_PILOT_SLUGS = "harry-styles"
 
 # Optional D1 bindings for CLI-based deploys and local Pages dev.
 # Configure these in the Cloudflare dashboard for Git-connected Pages deploys.

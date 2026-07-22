@@ -25,6 +25,12 @@
 //   --output <path>       Manifest path (default artifacts/onboarding/batch-<date>.json)
 //   --limit <n>           Max candidates to process (default 20)
 //   --delay-ms <n>        Delay between API requests (default 350)
+//   --allow-existing-shells  Permit re-capture for slugs that exist in
+//                            artists.json as unpromoted review_required shells
+//                            (manifests live in gitignored artifacts/, so the
+//                            capture is lost between the Shell and Promote
+//                            phases whenever the working environment is
+//                            recycled). Promoted/indexable slugs stay excluded.
 //   --self-test           Offline checks only; no API calls
 //
 // Environment:
@@ -71,6 +77,7 @@ function parseArgs(argv) {
     else if (a === '--output') args.output = argv[++i];
     else if (a === '--limit') args.limit = Math.max(1, Number(argv[++i]) || 20);
     else if (a === '--delay-ms') args.delayMs = Math.max(0, Number(argv[++i]) || 350);
+    else if (a === '--allow-existing-shells') args.allowExistingShells = true;
     else if (a === '--self-test') args.selfTest = true;
     else if (a === '-h' || a === '--help') args.help = true;
     else throw new Error(`Unknown argument: ${a}`);
@@ -136,6 +143,23 @@ async function lookupTicketmasterAttraction(name, apiKey) {
   };
 }
 
+// Slugs a manifest row may not target. By default every existing slug is
+// blocked (the classic pre-shell propose run). With allowExistingShells, an
+// unpromoted review_required shell (no verified providers) may be re-captured
+// — the same state promote-artists-batch.mjs requires — so a lost manifest
+// can be regenerated between the Shell and Promote phases.
+function blockedSlugSet(artists, allowExistingShells) {
+  const blocked = new Set();
+  for (const a of artists) {
+    const slug = slugify(a?.slug);
+    if (!slug) continue;
+    const unpromotedShell = a?.indexing_status === 'review_required'
+      && (!Array.isArray(a?.verified_providers) || a.verified_providers.length === 0);
+    if (!allowExistingShells || !unpromotedShell) blocked.add(slug);
+  }
+  return blocked;
+}
+
 function buildRow(name, existingSlugs, sg, tm) {
   if (COLLISION_PATTERN.test(name)) {
     return { name, exclusion: 'name matches the collision pattern (tribute/parking/etc.) — never onboard automatically' };
@@ -176,6 +200,13 @@ function selfTest() {
   ok('collision pattern catches tribute acts', COLLISION_PATTERN.test('The Ultimate Bruno Mars Tribute'));
   ok('collision pattern catches parking listings', COLLISION_PATTERN.test('PARKING: Morgan Wallen'));
   ok('collision pattern leaves real names alone', !COLLISION_PATTERN.test('Morgan Wallen'));
+
+  const shellFixtures = [
+    { slug: 'promoted-artist', indexing_status: 'indexable_with_substantial_content', verified_providers: ['ticketmaster', 'seatgeek'] },
+    { slug: 'shell-artist', indexing_status: 'review_required', verified_providers: [] }
+  ];
+  ok('default blocks every existing slug', blockedSlugSet(shellFixtures, false).has('shell-artist') && blockedSlugSet(shellFixtures, false).has('promoted-artist'));
+  ok('--allow-existing-shells unblocks unpromoted review_required shells only', !blockedSlugSet(shellFixtures, true).has('shell-artist') && blockedSlugSet(shellFixtures, true).has('promoted-artist'));
 
   const existing = new Set(['bruno-mars']);
   const sgMatch = { match: { performer_id: 1, api_name: 'New Artist', url: 'https://seatgeek.com/new-artist-tickets', num_upcoming_events: 5, score: 0.7 }, candidates: [] };
@@ -220,7 +251,7 @@ async function main() {
   const credentials = { clientId, clientSecret };
 
   const artists = JSON.parse(await fs.readFile(ARTISTS_PATH, 'utf8'));
-  const existingSlugs = new Set(artists.map((a) => slugify(a?.slug)).filter(Boolean));
+  const existingSlugs = blockedSlugSet(artists, Boolean(args.allowExistingShells));
 
   const rows = [];
   for (const name of names) {

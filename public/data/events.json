@@ -18639,11 +18639,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7939498",
-        "url": "https://www.ticketliquidator.com/tickets/7939498/Shakira-tickets-Tue-Jul-21-2026-Barclays-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107167159",
@@ -18658,7 +18658,7 @@
     "ticketmaster_discovery_event_id": "1AdZZ_6GkTq1p0Z",
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7939498/Shakira-tickets-Tue-Jul-21-2026-Barclays-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/shakira-brooklyn-tickets-7-21-2026/event/107167159"
   },
   {

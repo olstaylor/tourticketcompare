@@ -36,3 +36,12 @@
 
 /data/catalog.json
   Cache-Control: public, max-age=1800
+
+/data/*
+  X-Robots-Tag: noindex, nofollow
+
+/internal/*
+  X-Robots-Tag: noindex, nofollow
+
+/og-image.png
+  Cache-Control: public, max-age=604800

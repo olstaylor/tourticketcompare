@@ -53,6 +53,8 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
   [[path]].js             HTML routing: titles, meta, schemas, redirects, 404s
   _route-metadata.js      Single source of truth for page metadata and guide routes —
                           edit here, not in [[path]].js
+  _cities.js              City aggregation derived from reviewed events (shared with
+                          sitemap/llms.txt; substantial-content indexing gate)
   _impact-marketplace-config.js  Shared config for the TicketNetwork / Ticket Liquidator /
                           StubHub International lanes
   [named-shims].js        artists.js, guides.js, etc. Re-export from [[path]].js;
@@ -97,7 +99,7 @@ Request
       └─ All other paths (HTML routes)           → [[path]].js onRequest
 ```
 
-All HTML route handling lives in `functions/[[path]].js`, including the comparison hub, trust pages, guides, and dynamic artist routes; page metadata lives in `functions/_route-metadata.js`. Unknown routes return 404 with noindex — no auto-generated pages. Full detail: `docs/ARCHITECTURE.md`.
+All HTML route handling lives in `functions/[[path]].js`, including the comparison hub, trust pages, guides, and dynamic artist, city, and venue routes; fixed/guide metadata lives in `functions/_route-metadata.js`, while data-derived location metadata comes from the shared aggregation records. Unknown routes return 404 with noindex — no speculative pages. Full detail: `docs/ARCHITECTURE.md`.
 
 ### Bindings (Cloudflare dashboard)
 

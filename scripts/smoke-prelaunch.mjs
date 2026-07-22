@@ -3,12 +3,13 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const publicRoutes = ["/", "/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
-const functionBackedStaticRoutes = ["/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
-const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
+const publicRoutes = ["/", "/artists", "/cities", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
+const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
+const functionBackedWildcardRoutes = ["/artists/*", "/cities/*", "/guides/*"];
 const expectedH1 = new Map([
   ["/", "Compare concert and event ticket prices for the same show."],
   ["/artists", "Artist watchlist"],
+  ["/cities", "Concerts by city"],
   ["/guides", "Ticket buying guides"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices"],
   ["/how-it-works", "How TourTicketCompare works"],
@@ -21,6 +22,7 @@ const expectedH1 = new Map([
 const expectedTitle = new Map([
   ["/", "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
+  ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
@@ -50,6 +52,7 @@ assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO
 Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
   ["/artists", "Find an artist, then open the checked ticket options and upcoming dates we can verify."],
+  ["/cities", "at least four upcoming reviewed shows across at least two artists"],
   ["/guides", "Compare the final checkout total after fees"],
   ["/compare-concert-ticket-prices", "We compare approved, timestamped provider snapshots for the same event only"],
   ["/how-it-works", "Affiliate links are handled safely"],
@@ -2628,6 +2631,34 @@ assert(!beyonceShowBoard.includes("provider=seatgeek"), "zero-event empty state 
 assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes("Browse artists"), "zero-event empty state must link users to the artists index");
 console.log("zero-event empty-state verification passed for beyonce");
 
+// City landing pages: substantial aggregation over reviewed event records.
+const cityEnv = envWithEventsJson(await read("public/data/events.json"));
+const citiesIndex = await routeResponse("/cities", cityEnv);
+assert(citiesIndex.response.status === 200, "/cities index should return 200");
+assert(citiesIndex.nextCalled === false, "/cities index should be function-rendered, not passed to static assets");
+assert(citiesIndex.text.includes("<h1 id=\"citiesTitle\">Concerts by city</h1>"), "/cities index should render the cities heading");
+assert(/<meta name="robots" content="index,follow/.test(citiesIndex.text), "/cities index should be indexable");
+const cityDetailSlug = (citiesIndex.text.match(/href="\/cities\/([a-z0-9-]+)"/) || [])[1];
+assert(cityDetailSlug, "/cities index should link at least one substantial city detail page");
+const cityDetail = await routeResponse(`/cities/${cityDetailSlug}`, cityEnv);
+assert(cityDetail.response.status === 200, `/cities/${cityDetailSlug} should return 200`);
+assert(cityDetail.text.includes('"@type":"Place"'), "city detail page should emit Place structured data");
+assert(cityDetail.text.includes('"@type":"FAQPage"'), "city detail page should emit FAQPage structured data matching visible answers");
+assert(/href="\/artists\/[a-z0-9-]+#show-/.test(cityDetail.text), "city detail page should deep-link to artist show cards");
+assert(
+  extractCanonical(cityDetail.text) === `https://tourticketcompare.com/cities/${cityDetailSlug}`,
+  "city detail canonical should point to the city route"
+);
+const missingCity = await routeResponse("/cities/no-such-city-anywhere-xyz", cityEnv);
+assert(missingCity.response.status === 404, "unknown city slug should return 404");
+const citySitemap = await sitemapLocs(cityEnv);
+assert(citySitemap.includes("https://tourticketcompare.com/cities"), "/sitemap.xml should include the cities index when substantial cities exist");
+assert(
+  citySitemap.includes(`https://tourticketcompare.com/cities/${cityDetailSlug}`),
+  "/sitemap.xml should include substantial city detail pages"
+);
+console.log("city landing-page verification passed");
+
 // Venue landing pages: aggregation layer over verified events. Rendered from the
 // real events.json so the derived slugs, indexing gate, and cross-links match
 // production behaviour.
@@ -2636,12 +2667,15 @@ const venuesIndex = await routeResponse("/venues", venueEnv);
 assert(venuesIndex.response.status === 200, "/venues index should return 200");
 assert(venuesIndex.nextCalled === false, "/venues index should be function-rendered, not passed to static assets");
 assert(venuesIndex.text.includes("<h1 id=\"venuesTitle\">Concert venues</h1>"), "/venues index should render the venues heading");
+assert(venuesIndex.text.includes("at least three reviewed upcoming shows across at least two artists"), "/venues should explain its substantial-content threshold");
 assert(/<meta name="robots" content="index,follow/.test(venuesIndex.text), "/venues index should be indexable");
 const venueDetailSlug = (venuesIndex.text.match(/href="\/venues\/([a-z0-9-]+)"/) || [])[1];
 assert(venueDetailSlug, "/venues index should link at least one venue detail page");
 const venueDetail = await routeResponse(`/venues/${venueDetailSlug}`, venueEnv);
 assert(venueDetail.response.status === 200, `/venues/${venueDetailSlug} should return 200`);
 assert(venueDetail.text.includes('"@type":"MusicVenue"'), "venue detail page should emit MusicVenue structured data");
+assert(venueDetail.text.includes('"@type":"FAQPage"'), "venue detail page should emit FAQPage structured data matching visible answers");
+assert(venueDetail.text.includes("Maintained by the TourTicketCompare editorial team."), "venue detail page should show editorial provenance");
 assert(/href="\/artists\/[a-z0-9-]+"/.test(venueDetail.text), "venue detail page should link out to artist pages");
 assert(/href="\/api\/out\?showId=[^\"]+&amp;provider=/.test(venueDetail.text), "venue detail page should surface a gated event-level provider CTA");
 assert(

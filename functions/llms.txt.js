@@ -1,4 +1,6 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
+import { deriveCities } from "./_cities.js";
+import { deriveVenues } from "./_venues.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -40,6 +42,19 @@ async function loadIndexableArtists(env) {
   }
 }
 
+async function loadIndexableLocations(env) {
+  try {
+    const events = await loadJsonAsset(env, "/data/events.json");
+    if (!Array.isArray(events)) return { cities: [], venues: [] };
+    return {
+      cities: deriveCities(events).filter((city) => city.indexable),
+      venues: deriveVenues(events).filter((venue) => venue.indexable)
+    };
+  } catch (error) {
+    return { cities: [], venues: [] };
+  }
+}
+
 function linkLine(origin, path, name, description) {
   const suffix = description ? `: ${description}` : "";
   return `- [${name}](${origin}${path})${suffix}`;
@@ -53,9 +68,32 @@ export async function onRequestGet({ request, env }) {
     linkLine(origin, path, guide.h1 || guide.title, guide.description)
   );
 
-  const artistLines = (await loadIndexableArtists(env)).map((artist) =>
+  const [artists, locations] = await Promise.all([loadIndexableArtists(env), loadIndexableLocations(env)]);
+  const artistLines = artists.map((artist) =>
     linkLine(origin, `/artists/${artist.slug}`, artist.name, artist.description)
   );
+  const cityLines = [
+    linkLine(origin, "/cities", "Concerts by city", "Browse substantial city pages built from reviewed upcoming tour dates."),
+    ...locations.cities.map((city) =>
+      linkLine(
+        origin,
+        `/cities/${city.slug}`,
+        `Concerts in ${city.city}, ${city.country}`,
+        `${city.showCount} upcoming tracked shows across ${city.artistCount} artists and ${city.venueCount} venues.`
+      )
+    )
+  ];
+  const venueLines = [
+    linkLine(origin, "/venues", "Concert venues", "Browse venues with multiple upcoming tracked tour dates."),
+    ...locations.venues.map((venue) =>
+      linkLine(
+        origin,
+        `/venues/${venue.slug}`,
+        `${venue.venue} concerts in ${venue.city}`,
+        `${venue.showCount} upcoming tracked shows across ${venue.artistSlugs.length} artists.`
+      )
+    )
+  ];
 
   const trustLines = Object.entries(TRUST_ROUTES)
     .filter(([path, route]) => path !== "/" && route.indexable)
@@ -88,6 +126,14 @@ ${guideLines.join("\n")}
 ## Artist pages
 
 ${artistLines.join("\n")}
+
+## Concerts by city
+
+${cityLines.join("\n")}
+
+## Concert venues
+
+${venueLines.join("\n")}
 
 ## About the site
 

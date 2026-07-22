@@ -180,13 +180,14 @@ function expectedMusicEventCount(artistSlug) {
   }
 }
 
-// 5. Guide without a FAQ section must not emit FAQPage.
+// 5. Promo-code guide FAQ schema must mirror its newly authored visible FAQ.
 {
   const pathname = "/guides/seatgeek-promo-code-guide";
   const graph = extractGraph(await (await render(pathname)).text(), pathname);
   if (graph) {
-    if (types(graph).includes("FAQPage")) fail(`${pathname}: unexpected FAQPage (guide has no FAQ section)`);
-    else ok(`${pathname} emits no FAQPage (no FAQ section in content)`);
+    const faq = graph.find((node) => node?.["@type"] === "FAQPage");
+    if (!faq || faq.mainEntity?.length !== 4) fail(`${pathname}: expected FAQPage with 4 authored questions`);
+    else ok(`${pathname} emits FAQPage with 4 authored questions`);
   }
 }
 

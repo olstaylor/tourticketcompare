@@ -39,10 +39,12 @@ const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_
 const sitemapModule = await import(pathToFileURL(path.join(root, "functions/sitemap.xml.js")));
 const routeMetadataModule = await import(pathToFileURL(path.join(root, "functions/_route-metadata.js")));
 const venuesModule = await import(pathToFileURL(path.join(root, "functions/_venues.js")));
+const citiesModule = await import(pathToFileURL(path.join(root, "functions/_cities.js")));
 
 const catalog = JSON.parse(await read("public/data/catalog.json"));
 const artistsMeta = JSON.parse(await read("public/data/artists.json"));
 const events = JSON.parse(await read("public/data/events.json"));
+const guideContent = JSON.parse(await read("public/data/guides-content.json"));
 const robotsTxt = await read("public/robots.txt");
 const staticHeaders = await read("public/_headers");
 
@@ -78,9 +80,11 @@ async function renderRoute(pathname) {
 const staticPaths = Object.keys(routeMetadataModule.TRUST_ROUTES);
 const guidePaths = Object.keys(routeMetadataModule.GUIDE_ROUTES);
 const artistPaths = (catalog.artists || []).map((artist) => `/artists/${artist.slug}`);
+const cities = citiesModule.deriveCities(events);
+const cityPaths = cities.map((city) => `/cities/${city.slug}`);
 const venues = venuesModule.deriveVenues(events);
 const venuePaths = venues.map((venue) => `/venues/${venue.slug}`);
-const allPaths = [...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/venues", ...venuePaths])];
+const allPaths = [...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", ...venuePaths])];
 
 // ---------- parsing helpers ----------
 
@@ -127,6 +131,14 @@ function schemaTypes(html) {
   return [...types].sort();
 }
 
+function visibleWordCount(html) {
+  return decodeEntities(String(html || "").replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " "))
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(" ")
+    .filter(Boolean).length;
+}
+
 // ---------- crawl ----------
 
 const pages = new Map();
@@ -159,6 +171,8 @@ for (const pathname of allPaths) {
     twitterImageAlt: decodeEntities(extract(html, /<meta\s+name="twitter:image:alt"\s+content="([^"]*)"/i)),
     twitterCard: decodeEntities(extract(html, /<meta\s+name="twitter:card"\s+content="([^"]*)"/i)),
     schemaTypes: status === 200 ? schemaTypes(html) : [],
+    mainHtml: main,
+    mainWordCount: visibleWordCount(main),
     contextualLinks: internalHrefs(main),
     allLinks: internalHrefs(html)
   });
@@ -286,6 +300,122 @@ function reportDuplicates(field) {
 reportDuplicates("title");
 reportDuplicates("description");
 
+// City pages are generated from changing event data, so validate the complete
+// set rather than relying on a single representative smoke route. These checks
+// enforce useful, evidence-backed location pages and prevent a future data
+// change from silently creating thin, doorway-like sitemap entries.
+for (const city of cities) {
+  const path = `/cities/${city.slug}`;
+  const page = pages.get(path);
+  const expectedIndexable = city.showCount >= 4 && city.artistCount >= 2;
+  if (city.indexable !== expectedIndexable) {
+    problems.push(`city quality: ${path} indexability does not match the 4-show / 2-artist threshold`);
+  }
+  if (!page || page.status !== 200) {
+    problems.push(`city quality: ${path} did not render successfully`);
+    continue;
+  }
+  if (page.indexable !== expectedIndexable) {
+    problems.push(`city quality: ${path} robots state does not match its substantial-content threshold`);
+  }
+  if (!expectedIndexable) continue;
+  const mainText = decodeEntities(page.mainHtml);
+
+  const requiredCopy = [
+    "Maintained by the TourTicketCompare editorial team.",
+    "Short answer:",
+    `Which artists have upcoming concerts in ${city.city}?`,
+    `Upcoming concerts in ${city.city}`,
+    `How to compare tickets for a ${city.city} concert`,
+    `${city.city} concert FAQ`
+  ];
+  for (const marker of requiredCopy) {
+    if (!mainText.includes(marker)) problems.push(`city quality: ${path} is missing "${marker}"`);
+  }
+  const renderedDates = [...page.mainHtml.matchAll(/<time\s+datetime=/g)].length;
+  if (renderedDates < city.showCount) {
+    problems.push(`city quality: ${path} renders ${renderedDates} dated listings for ${city.showCount} source shows`);
+  }
+  const faqAnswers = [...page.mainHtml.matchAll(/<details>/g)].length;
+  if (faqAnswers < 6) problems.push(`city quality: ${path} renders only ${faqAnswers} visible FAQ answers`);
+  for (const type of ["Place", "CollectionPage", "FAQPage"]) {
+    if (!page.schemaTypes.includes(type)) problems.push(`city quality: ${path} is missing ${type} structured data`);
+  }
+  if (page.mainWordCount < 350) {
+    problems.push(`city quality: ${path} has only ${page.mainWordCount} visible words; investigate missing useful sections`);
+  }
+}
+
+const cityIndexPage = pages.get("/cities");
+if (!cityIndexPage?.mainHtml.includes("What makes a city page useful?")) {
+  problems.push("city quality: /cities is missing its visible inclusion-method explanation");
+}
+
+for (const venue of venues) {
+  const path = `/venues/${venue.slug}`;
+  const page = pages.get(path);
+  const expectedIndexable = venue.showCount >= 3 && venue.artistSlugs.length >= 2;
+  if (venue.indexable !== expectedIndexable) {
+    problems.push(`venue quality: ${path} indexability does not match the 3-show / 2-artist threshold`);
+  }
+  if (!page || page.status !== 200) {
+    problems.push(`venue quality: ${path} did not render successfully`);
+    continue;
+  }
+  if (page.indexable !== expectedIndexable) {
+    problems.push(`venue quality: ${path} robots state does not match its substantial-content threshold`);
+  }
+  if (!expectedIndexable) continue;
+  const mainText = decodeEntities(page.mainHtml);
+
+  for (const marker of [
+    "Maintained by the TourTicketCompare editorial team.",
+    "Short answer:",
+    `Upcoming shows at ${venue.venue}`,
+    `Getting tickets at ${venue.venue}`,
+    `${venue.venue} concert FAQ`
+  ]) {
+    if (!mainText.includes(marker)) problems.push(`venue quality: ${path} is missing "${marker}"`);
+  }
+  const faqAnswers = [...page.mainHtml.matchAll(/<details>/g)].length;
+  if (faqAnswers < 6) problems.push(`venue quality: ${path} renders only ${faqAnswers} visible FAQ answers`);
+  for (const type of ["MusicVenue", "CollectionPage", "FAQPage"]) {
+    if (!page.schemaTypes.includes(type)) problems.push(`venue quality: ${path} is missing ${type} structured data`);
+  }
+  if (page.mainWordCount < 450) {
+    problems.push(`venue quality: ${path} has only ${page.mainWordCount} visible words; investigate missing useful sections`);
+  }
+}
+
+const venueIndexPage = pages.get("/venues");
+if (!venueIndexPage?.mainHtml.includes("Why the coverage threshold matters")) {
+  problems.push("venue quality: /venues is missing its visible inclusion-method explanation");
+}
+
+// Long-form guides must retain meaningful depth, visible authorship/review
+// information, visible primary-source citations, and answer-oriented FAQ
+// markup. This is a completeness guard, not a claim that word count ranks.
+for (const path of guidePaths) {
+  const page = pages.get(path);
+  const entry = guideContent[path];
+  if (!page || !entry) {
+    problems.push(`guide quality: ${path} is missing its rendered page or authored content`);
+    continue;
+  }
+  const sources = Array.isArray(entry.sources) ? entry.sources : [];
+  if (sources.length < 2) problems.push(`guide quality: ${path} has fewer than two reviewed primary sources`);
+  for (const source of sources) {
+    if (!source?.name || !source?.publisher || !/^https:\/\//.test(source?.url || "") || !/^\d{4}-\d{2}-\d{2}$/.test(source?.lastChecked || "")) {
+      problems.push(`guide quality: ${path} has an incomplete or non-HTTPS source record`);
+    }
+  }
+  if (!page.mainHtml.includes('class="guide-provenance"')) problems.push(`guide quality: ${path} is missing visible editorial provenance`);
+  if (!page.mainHtml.includes('class="nested-panel guide-sources"')) problems.push(`guide quality: ${path} is missing its visible source list`);
+  if (!page.schemaTypes.includes("Article")) problems.push(`guide quality: ${path} is missing Article structured data`);
+  if (!page.schemaTypes.includes("FAQPage")) problems.push(`guide quality: ${path} is missing FAQPage structured data`);
+  if (page.mainWordCount < 700) problems.push(`guide quality: ${path} has only ${page.mainWordCount} visible words; investigate missing authored sections`);
+}
+
 // Sitemap vs indexability agreement.
 for (const sitemapPath of sitemapPaths) {
   const page = pages.get(sitemapPath);
@@ -321,6 +451,7 @@ const summary = {
     canonical: page.canonical,
     title: page.title,
     description: page.description,
+    main_word_count: page.mainWordCount,
     in_sitemap: sitemapPaths.has(page.path),
     schema_types: page.schemaTypes,
     inbound_contextual: page.inboundContextual.length,
@@ -372,11 +503,11 @@ const markdown = [
   "",
   "## Pages",
   "",
-  "| Page | Status | Indexable | Sitemap | Contextual in | Schema types |",
-  "|---|---|---|---|---|---|",
+  "| Page | Status | Indexable | Sitemap | Words | Contextual in | Schema types |",
+  "|---|---|---|---|---|---|---|",
   ...summary.pages.map(
     (page) =>
-      `| ${page.path} | ${page.status} | ${page.indexable ? "yes" : "no"} | ${page.in_sitemap ? "yes" : "no"} | ${page.inbound_contextual} | ${page.schema_types.join(", ")} |`
+      `| ${page.path} | ${page.status} | ${page.indexable ? "yes" : "no"} | ${page.in_sitemap ? "yes" : "no"} | ${page.main_word_count} | ${page.inbound_contextual} | ${page.schema_types.join(", ")} |`
   ),
   ""
 ].join("\n");

@@ -34,6 +34,7 @@ functions/
   [[path]].js                Active HTML router and server rendering
   _route-metadata.js         Route titles, descriptions, H1s, and guide registry
   _impact-marketplace-config.js  Shared marketplace provider configuration
+  _cities.js                 City aggregation derived from events.json (shared with sitemap/llms.txt)
   _venues.js                 Venue aggregation derived from events.json (shared with sitemap)
   sitemap.xml.js / llms.txt.js  Generated discovery endpoints
   [named route shims]        Fallback re-exports from [[path]].js
@@ -65,15 +66,19 @@ request
       └─ HTML routes            → functions/[[path]].js
 ```
 
-`functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, artist routes, venue routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry. Update metadata there rather than duplicating it in the router.
+`functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, artist routes, city routes, venue routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry for fixed and guide routes; data-derived city and venue metadata is composed in the router from the shared aggregation records.
 
 The named route shims (`functions/artists.js`, `guides.js`, and peers) only re-export `onRequest` from `[[path]].js`. While middleware is active, editing a shim does not change live routing.
 
-Unknown non-file routes return a real noindex 404. The site must not generate thin pages for unknown artists, tours, cities, or venues.
+Unknown non-file routes return a real noindex 404. Known city and venue aggregations may render below their indexing threshold with `noindex`; the site must not generate pages for unknown artists, tours, cities, or venues.
+
+## City aggregation layer
+
+City landing pages (`/cities` index + `/cities/<city-country>`) are a server-rendered aggregation derived purely from reviewed upcoming `events.json` records (`functions/_cities.js`, shared with the sitemap, `llms.txt`, and internal-link audit). Country aliases such as `United States Of America` normalize before grouping so one city does not split into duplicate canonical pages. A city is indexable only with at least four upcoming tracked shows across at least two artists; thinner known cities render `noindex`, and unknown slugs 404. City pages include a data-derived direct answer, artist/date/venue-specific coverage, editorial provenance, grouped schedules, buying guidance, and visible FAQs. They deep-link to the matching artist show card and indexable venue pages, and emit `Place`, `CollectionPage`, `ItemList`, breadcrumb, and FAQ structured data that mirrors visible content without duplicating event offers or inventing location facts. Current city counts live in `PROJECT_STATUS.md` and change with `events.json` and the calendar.
 
 ## Venue aggregation layer
 
-Venue landing pages (`/venues` index + `/venues/<slug>`) are a server-rendered aggregation derived purely from verified `events.json` records (`functions/_venues.js`, shared with the sitemap). Each venue page lists the upcoming tracked shows at that venue grouped by artist and links out to the artist pages, where the verified provider CTAs and price snapshots live — the venue layer invents no data and has no provider/CTA logic of its own. The slug is `slugify("<venue> <city>")` so inconsistent country labels for one physical venue merge. Venues with ≥2 upcoming shows are indexable and in the sitemap; single-show venues render but stay `noindex`; unknown slugs 404. The pages are cross-linked from the header and footer nav. Current venue counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
+Venue landing pages (`/venues` index + `/venues/<slug>`) are a server-rendered aggregation derived purely from reviewed `events.json` records (`functions/_venues.js`, shared with the sitemap, `llms.txt`, and internal-link audit). Each qualifying page provides a direct answer, artist/date coverage, editorial provenance, event cards grouped by artist, buying guidance, and visible FAQs grounded in the same records. The artist pages remain the source of verified provider CTAs and price snapshots — the venue aggregation invents no data or provider state. The slug is `slugify("<venue> <city>")` so inconsistent country labels for one physical venue merge. Venues with ≥3 upcoming shows across ≥2 artists are indexable and in the sitemap; thinner known venues render `noindex`; unknown slugs 404. Current venue counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
 
 ## Data and rendering flow
 

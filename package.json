@@ -47,6 +47,8 @@
     "providers:parity": "node scripts/report-provider-parity.mjs",
     "test:providers": "npm run providers:validate",
     "data:stats": "node scripts/report-data-stats.mjs",
+    "report:funnel": "node scripts/report-analytics-funnel.mjs",
+    "report:funnel:self-test": "node scripts/report-analytics-funnel.mjs --self-test",
     "audit:links": "node scripts/verify-outbound-links.mjs",
     "audit:links:self-test": "node scripts/verify-outbound-links.mjs --self-test",
     "audit:tm-events": "node scripts/audit-tm-events.mjs",

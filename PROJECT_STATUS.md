@@ -109,6 +109,7 @@ See `CLAUDE.md` → Critical Product Rules, [SAFE_PUBLISHING_RULES.md](SAFE_PUBL
 ## What is supported today
 
 - Homepage, the `/compare-concert-ticket-prices` comparison hub, and trust/legal pages.
+- **Currency converter page** (`/currency-converter`, added 2026-07-22): server-rendered trust route hydrated by `public/app.js` from the new cache-backed `/api/rates` endpoint (European Central Bank daily reference rates via Frankfurter — public data, no credentials, edge-cached 6h). Fail-closed: if the upstream payload is missing or malformed the endpoint returns 503 and the converter stays disabled with an unavailable message; no rates are invented and provider prices are never converted or restated.
 - Artist index plus all 20 indexable artist pages above (5 of them — beyonce, raye, tate-mcrae, jelly-roll, tame-impala — currently have no event records and render artist-level CTAs only), plus 4 `review_required` shells (sabrina-carpenter, lady-gaga, the-weeknd, coldplay) that render `noindex` with no CTA and accept watchlist signups.
 - **Venue landing pages** (`/venues` index + `/venues/<slug>`), a server-rendered aggregation layer derived purely from verified `events.json` records with no provider/CTA logic of its own (architecture: `docs/ARCHITECTURE.md`). As of the 2026-07-16 recount: 77 venues carry ≥1 upcoming tracked show, of which 53 are indexable (≥2 upcoming shows); counts move with `events.json` and the calendar.
 - 17 guide pages with server-rendered content, each carrying a curated "Related guides" cross-link section.

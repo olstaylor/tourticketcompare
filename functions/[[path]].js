@@ -8,6 +8,7 @@ const PUBLIC_HTML_ROUTES = new Set([
   "/compare-concert-ticket-prices",
   "/guides",
   "/how-it-works",
+  "/currency-converter",
   "/affiliate-disclosure",
   "/editorial-policy",
   "/about",
@@ -1753,7 +1754,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "How it works",
       "/how-it-works",
       "button button-secondary"
-    )}${anchor("Affiliate disclosure", "/affiliate-disclosure", "button button-secondary")}${anchor("Ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary")}</div></section><section id="current-events" class="nested-panel"><h2>Browse concerts and tours</h2><p>Use artist and tour pages as a hub for checked links and event-specific buying guidance.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
+    )}${anchor("Affiliate disclosure", "/affiliate-disclosure", "button button-secondary")}${anchor("Ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary")}${anchor(
+      "Currency converter",
+      "/currency-converter",
+      "button button-secondary"
+    )}</div></section><section id="current-events" class="nested-panel"><h2>Browse concerts and tours</h2><p>Use artist and tour pages as a hub for checked links and event-specific buying guidance.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
       .filter((tour) => tour && tour.verified === true && tour.artist_slug && tour.slug)
       .slice(0, 6)
       .map((tour) => anchor(tour.tour_name || "Tour ticket options", `/artists/${tour.artist_slug}/${tour.slug}`, "mini-link"))
@@ -1934,7 +1939,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Start with the decision in front of you: matching an exact listing, checking the final total, choosing primary or resale, timing a purchase, or verifying provider terms.</p><section class="nested-panel"><h2>Use a guide, then return to the show</h2><p>Guides explain how to make a decision; artist pages help you apply it to a checked date and provider destination. If you already know the artist or venue, begin there instead of comparing generic ticket-site claims.</p><div class="action-row">${anchor("Browse artists", "/artists", "button button-primary")}${anchor("Browse venues", "/venues", "button button-secondary")}</div></section><section class="nested-panel"><h2>Essential checks before checkout</h2><ul class="check-list"><li>Match the artist, local date, venue, quantity, ticket type, and seat details.</li><li>Compare the final checkout total after fees for that exact ticket, not only the first displayed price.</li><li>Review delivery, refund, transfer, and resale terms before paying.</li><li>Use official sources or established marketplaces; avoid unmatched listings and social-media sellers.</li></ul></section>${renderGuideClusters()}<div class="action-row">${anchor(
+    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Start with the decision in front of you: matching an exact listing, checking the final total, choosing primary or resale, timing a purchase, or verifying provider terms.</p><section class="nested-panel"><h2>Use a guide, then return to the show</h2><p>Guides explain how to make a decision; artist pages help you apply it to a checked date and provider destination. If you already know the artist or venue, begin there instead of comparing generic ticket-site claims.</p><div class="action-row">${anchor("Browse artists", "/artists", "button button-primary")}${anchor("Browse venues", "/venues", "button button-secondary")}</div></section><section class="nested-panel"><h2>Essential checks before checkout</h2><ul class="check-list"><li>Match the artist, local date, venue, quantity, ticket type, and seat details.</li><li>Compare the final checkout total after fees for that exact ticket, not only the first displayed price.</li><li>Review delivery, refund, transfer, and resale terms before paying.</li><li>Use official sources or established marketplaces; avoid unmatched listings and social-media sellers.</li><li>Buying a show priced in another currency? Estimate the cost with the ${anchor(
+      "currency converter",
+      "/currency-converter",
+      "text-link"
+    )}, then confirm the charge currency at checkout.</li></ul></section>${renderGuideClusters()}<div class="action-row">${anchor(
       "Compare checked concert events",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -1955,6 +1964,23 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor(
       "Affiliate disclosure",
       "/affiliate-disclosure",
+      "button button-secondary"
+    )}</div></section></main>`;
+  }
+
+  if (route.path === "/currency-converter") {
+    // Server-rendered shell for the converter. Controls stay disabled until
+    // public/app.js loads rates from /api/rates (ECB reference rates, cached,
+    // fail-closed) — no rates are ever rendered or invented server-side.
+    return `<main id="mainContent"><section class="content-page currency-converter-page" aria-labelledby="converterTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="converterTitle">Currency converter</h1><p class="lead">Convert a ticket budget between currencies before you buy. Ticket prices and price snapshots are shown in the provider's own currency, so a quick conversion helps you compare a listing against your real budget.</p><section class="nested-panel currency-converter-panel"><h2>Convert an amount</h2><form class="currency-converter-form" data-currency-converter novalidate><div class="currency-converter-grid"><div class="currency-converter-field"><label for="converterAmount">Amount</label><input type="text" id="converterAmount" inputmode="decimal" autocomplete="off" spellcheck="false" value="100" data-converter-amount /></div><div class="currency-converter-field"><label for="converterFrom">From</label><select id="converterFrom" data-converter-from disabled><option>Loading&#8230;</option></select></div><button class="currency-converter-swap" type="button" data-converter-swap aria-label="Swap the from and to currencies" disabled>&#8645;</button><div class="currency-converter-field"><label for="converterTo">To</label><select id="converterTo" data-converter-to disabled><option>Loading&#8230;</option></select></div></div><p class="currency-converter-result" data-converter-result aria-live="polite">Enable JavaScript to load current reference rates.</p><p class="disclosure-note" data-converter-meta>Rates are European Central Bank daily reference rates, updated each working day. They are indicative mid-market rates — not a live FX quote and not the rate your card issuer or the ticket provider applies.</p></form><noscript><p class="disclosure-note">The converter needs JavaScript to load current reference rates. Without it, check the current rate with your bank or card issuer before comparing a listing in another currency.</p></noscript></section><section class="nested-panel"><h2>Why ticket prices appear in different currencies</h2><p>Providers price each event in the currency of the event's market: United States shows in US dollars, United Kingdom shows in pounds, most European shows in euros, and Canadian shows in Canadian dollars. Any price snapshots we display keep the provider's own currency for that reason — we never convert or restate a provider's price.</p></section><section class="nested-panel"><h2>Before you pay in another currency</h2><ul class="check-list"><li>Check which currency the provider charges at checkout — it may differ from the currency shown while browsing.</li><li>If checkout offers to charge you in your home currency instead (dynamic currency conversion), compare carefully: that convenience rate is often worse than your card issuer's rate.</li><li>Ask your bank or card issuer about foreign-transaction fees; they apply on top of any exchange rate.</li><li>Treat converted amounts as a guide only — the exact rate applied is set by your card issuer or payment provider on the day the charge settles.</li></ul></section><div class="action-row">${anchor(
+      "Compare concert ticket prices",
+      "/compare-concert-ticket-prices",
+      "button button-primary"
+    )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "button button-secondary")}${anchor(
+      "How it works",
+      "/how-it-works",
       "button button-secondary"
     )}</div></section></main>`;
   }

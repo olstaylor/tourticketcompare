@@ -521,6 +521,11 @@ function getRoute() {
   // correct in both the found and not-found cases.
   if (parts[0] === "venues") return { type: "server-rendered" };
 
+  // The currency converter page is fully rendered by functions/[[path]].js;
+  // initCurrencyConverter() hydrates the form in place, so preserve the
+  // server HTML instead of falling through to the client-side 404.
+  if (parts.length === 1 && parts[0] === "currency-converter") return { type: "server-rendered" };
+
   return { type: "not-found" };
 }
 
@@ -3284,6 +3289,136 @@ document.addEventListener("submit", async (event) => {
   }
 });
 
+// Hydrates the server-rendered currency converter on /currency-converter.
+// Rates come only from /api/rates (ECB daily reference rates, cached edge-side,
+// fail-closed): if the endpoint fails or returns malformed data, the controls
+// stay disabled and an unavailable message is shown — no fallback rates.
+async function initCurrencyConverter() {
+  const form = document.querySelector("form[data-currency-converter]");
+  if (!form) return;
+  const amountInput = form.querySelector("[data-converter-amount]");
+  const fromSelect = form.querySelector("[data-converter-from]");
+  const toSelect = form.querySelector("[data-converter-to]");
+  const swapButton = form.querySelector("[data-converter-swap]");
+  const resultLine = form.querySelector("[data-converter-result]");
+  const metaLine = form.querySelector("[data-converter-meta]");
+  if (!amountInput || !fromSelect || !toSelect || !resultLine) return;
+
+  const setResult = (message) => {
+    resultLine.textContent = message;
+  };
+  setResult("Loading current reference rates…");
+
+  let payload = null;
+  try {
+    const response = await fetch("/api/rates", { headers: { Accept: "application/json" } });
+    if (response.ok) payload = await response.json();
+  } catch (error) {
+    payload = null;
+  }
+
+  const rawRates = payload?.ok === true && payload.rates && typeof payload.rates === "object" ? payload.rates : null;
+  const rateDate = /^\d{4}-\d{2}-\d{2}$/.test(String(payload?.date || "")) ? String(payload.date) : "";
+  const rates = {};
+  for (const [code, value] of Object.entries(rawRates || {})) {
+    const normalized = String(code || "").trim().toUpperCase();
+    const rate = Number(value);
+    if (!Number.isFinite(rate) || rate <= 0 || !isValidCurrencyCode(normalized)) continue;
+    rates[normalized] = rate;
+  }
+  const codes = Object.keys(rates).sort();
+  if (codes.length < 2 || !rateDate) {
+    setResult("Current reference rates are unavailable right now. Try again later — and always confirm the charge currency and final total at provider checkout.");
+    return;
+  }
+
+  let displayNames = null;
+  try {
+    displayNames = new Intl.DisplayNames(undefined, { type: "currency" });
+  } catch (error) {
+    displayNames = null;
+  }
+  const optionLabel = (code) => {
+    let name = "";
+    try {
+      name = displayNames ? String(displayNames.of(code) || "") : "";
+    } catch (error) {
+      name = "";
+    }
+    return name && name !== code ? `${code} — ${name}` : code;
+  };
+  for (const select of [fromSelect, toSelect]) {
+    select.textContent = "";
+    for (const code of codes) {
+      const option = document.createElement("option");
+      option.value = code;
+      option.textContent = optionLabel(code);
+      select.append(option);
+    }
+    select.disabled = false;
+  }
+
+  const storageKey = "ttcCurrencyConverter";
+  let stored = {};
+  try {
+    stored = JSON.parse(window.localStorage.getItem(storageKey) || "{}") || {};
+  } catch (error) {
+    stored = {};
+  }
+  const params = new URLSearchParams(window.location.search);
+  const pick = (value, fallback) => {
+    const code = String(value || "").trim().toUpperCase();
+    return codes.includes(code) ? code : fallback;
+  };
+  const defaultFrom = codes.includes("USD") ? "USD" : codes[0];
+  fromSelect.value = pick(params.get("from"), pick(stored.from, defaultFrom));
+  const defaultTo = codes.includes("GBP") && fromSelect.value !== "GBP" ? "GBP" : codes.find((code) => code !== fromSelect.value) || codes[0];
+  toSelect.value = pick(params.get("to"), pick(stored.to, defaultTo));
+  const paramAmount = Number(String(params.get("amount") || "").replace(/,/g, ""));
+  if (Number.isFinite(paramAmount) && paramAmount > 0) amountInput.value = String(paramAmount);
+
+  const update = () => {
+    const from = fromSelect.value;
+    const to = toSelect.value;
+    const amount = Number(String(amountInput.value || "").trim().replace(/,/g, ""));
+    try {
+      window.localStorage.setItem(storageKey, JSON.stringify({ from, to }));
+    } catch (error) {
+      // Storage unavailable (private mode) — selection just won't persist.
+    }
+    const unitRate = rates[to] / rates[from];
+    if (metaLine) {
+      metaLine.textContent = `1 ${from} = ${unitRate.toFixed(4)} ${to} · European Central Bank daily reference rates for ${rateDate}. Indicative mid-market rates only — your card issuer or the provider sets the actual rate and any fees.`;
+    }
+    if (!Number.isFinite(amount) || amount < 0) {
+      setResult("Enter an amount to convert.");
+      return;
+    }
+    const converted = amount * unitRate;
+    if (!Number.isFinite(converted)) {
+      setResult("Enter an amount to convert.");
+      return;
+    }
+    const fromLabel = formatProviderPrice(amount, from) || `${amount} ${from}`;
+    const toLabel = formatProviderPrice(converted, to) || `${converted.toFixed(2)} ${to}`;
+    setResult(`${fromLabel} ≈ ${toLabel}`);
+  };
+
+  amountInput.addEventListener("input", update);
+  fromSelect.addEventListener("change", update);
+  toSelect.addEventListener("change", update);
+  if (swapButton) {
+    swapButton.disabled = false;
+    swapButton.addEventListener("click", () => {
+      const from = fromSelect.value;
+      fromSelect.value = toSelect.value;
+      toSelect.value = from;
+      update();
+    });
+  }
+  update();
+}
+
 function activateWatchlistForms() {
   document.querySelectorAll("form[data-watchlist-shell]").forEach((form) => {
     const artistSlug = String(form.dataset.watchlistShell || "").trim();
@@ -3296,4 +3431,7 @@ function activateWatchlistForms() {
   });
 }
 
-render().then(activateWatchlistForms);
+render().then(() => {
+  activateWatchlistForms();
+  initCurrencyConverter();
+});

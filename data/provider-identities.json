@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-15",
+  "updated_at": "2026-07-22",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -205,6 +205,28 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Batch-promoted 2026-07-15: SeatGeek performer id + URL and Ticketmaster attraction id + URL captured verbatim from the /2/performers and Discovery attractions APIs (exact-name match). Ticketmaster destination opened and confirmed to the correct artist 2026-07-15; SeatGeek performer URL is API-verbatim (automated fetch WAF-blocked) and owner-approved to keep sync enabled. Validators pass (validate:cta-provider-state, providers:identities:validate)."
+    },
+    {
+      "slug": "jelly-roll",
+      "ticketmaster_attraction_id": "K8vZ9174y8V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/jelly-roll-tickets/artist/2131374",
+      "seatgeek_performer_id": 25461,
+      "seatgeek_artist_url": "https://seatgeek.com/jelly-roll-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "tame-impala",
+      "ticketmaster_attraction_id": "K8vZ917uFU7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/tame-impala-tickets/artist/1446562",
+      "seatgeek_performer_id": 6284,
+      "seatgeek_artist_url": "https://seatgeek.com/tame-impala-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
     }
   ]
 }

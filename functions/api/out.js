@@ -319,6 +319,34 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-zach-bryan",
     redirectUrl: "https://seatgeek.com/zach-bryan-tickets",
     verified: true
+  },
+  "jelly-roll:ticketmaster": {
+    artistSlug: "jelly-roll",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jelly-roll",
+    redirectUrl: "https://www.ticketmaster.com/jelly-roll-tickets/artist/2131374",
+    verified: true
+  },
+  "jelly-roll:seatgeek": {
+    artistSlug: "jelly-roll",
+    provider: "seatgeek",
+    linkId: "sg-artist-jelly-roll",
+    redirectUrl: "https://seatgeek.com/jelly-roll-tickets",
+    verified: true
+  },
+  "tame-impala:ticketmaster": {
+    artistSlug: "tame-impala",
+    provider: "ticketmaster",
+    linkId: "tm-artist-tame-impala",
+    redirectUrl: "https://www.ticketmaster.com/tame-impala-tickets/artist/1446562",
+    verified: true
+  },
+  "tame-impala:seatgeek": {
+    artistSlug: "tame-impala",
+    provider: "seatgeek",
+    linkId: "sg-artist-tame-impala",
+    redirectUrl: "https://seatgeek.com/tame-impala-tickets",
+    verified: true
   }
 };
 

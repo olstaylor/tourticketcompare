@@ -1788,12 +1788,13 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
-      "disclosure_required": true
+      "last_checked_at": "2026-07-22",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/jelly-roll-tickets/artist/2131374"
     },
     {
       "link_id": "tm-artist-tame-impala",
@@ -1801,12 +1802,41 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
-      "disclosure_required": true
+      "last_checked_at": "2026-07-22",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/tame-impala-tickets/artist/1446562"
+    },
+    {
+      "link_id": "sg-artist-jelly-roll",
+      "artist_slug": "jelly-roll",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-07-22",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/jelly-roll-tickets"
+    },
+    {
+      "link_id": "sg-artist-tame-impala",
+      "artist_slug": "tame-impala",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-07-22",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/tame-impala-tickets"
     }
   ],
   "safety_rules": [

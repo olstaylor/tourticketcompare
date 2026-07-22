@@ -1,6 +1,6 @@
 # TourTicketCompare Backlog
 
-Last updated: 2026-07-22 (agent: added the price-alert design proposal under "Proposed — design only"; no priority changes).
+Last updated: 2026-07-22 (agent: added the price-alert design proposal under "Proposed — design only", then extended it with production demand data, the empty-`provider_pricing_history` finding, and a phased rollout with a demand gate; no priority changes).
 
 ## Active priorities (in order)
 
@@ -58,6 +58,15 @@ Closed on GitHub / done in the repo; kept as a short audit trail only. Details l
 ### Price-alert feature design proposal (2026-07-22, agent-authored)
 
 A user-facing "track this price" feature: a visitor subscribes to a tracked event, confirms by email (double opt-in), and receives an email when a fresh provider price snapshot crosses their threshold or drops materially. **Design only — no code exists.** Building it requires owner sign-off on the open decisions at the end, plus explicit scope for the protected files it touches.
+
+**Verdict and rollout (added 2026-07-22 after checking production data):** do not build the email stack yet — demand is not there. Instead follow the phased rollout in §7, whose only immediate action is starting `provider_pricing_history` writes (§7 Phase 0), because history cannot be backfilled.
+
+**Production D1 evidence (read-only queries, 2026-07-22):**
+
+- `email_subscribers`: **8 rows total since 2026-04-30, 1 in the last 30 days**; 2 `artist_interests`. The email audience is single-digit — the ESP/compliance/deliverability cost is fixed while the benefit scales with subscribers.
+- Outbound clicks are healthy (~7.1k `outbound_click` events since 2026-05-01) — the affiliate click engine, not email, is where value currently accrues; the alert thesis (emails drive high-intent return clicks) is sound but premature at this audience size.
+- `provider_pricing_cache` is healthy: ~200 fresh rows per lane (vivid-seats 228 events / 198 fresh, stubhub-international 212 / 198, ticketnetwork 205 / 182 at query time).
+- **`provider_pricing_history` (migration 0006) is completely empty.** The snapshot writers only upsert `provider_pricing_cache`; nothing has ever appended history. Both the drop-alert logic (§3) and any on-site price-history display have no data behind them today, and lost weeks are unrecoverable.
 
 **Hard constraints honoured by this design:**
 
@@ -135,6 +144,16 @@ Per active `confirmed` subscription:
 6. **Mass-send blast radius:** mitigated by the healthy-write gate, dry-run-default dispatch, the idempotency table, per-recipient caps, and the per-run hard cap — all five are load-bearing and none may be dropped during implementation.
 7. **SeatGeek asymmetry confusion:** users on SeatGeek-CTA-only events may expect price alerts that can never exist. The entry-point gating (control renders only where a price badge renders) is the mitigation; copy must not promise alerts site-wide.
 8. **D1 PII growth:** emails become linked to behavioural data (which events, which thresholds). Keep the notification log price-only, no click tracking beyond the existing `/api/out` analytics.
+
+#### 7. Phased rollout with a demand gate (recommended path)
+
+Each phase is separately scoped work; only Phase 0 is recommended for immediate action. The gate between Phases 1 and 2 is the worth-it decision — everything email-related stays unbuilt until it passes.
+
+- **Phase 0 — start recording history (do now, cheap):** extend the three snapshot writers (`snapshot-vividseats-prices.mjs`, `snapshot-impact-marketplace-prices.mjs` lanes) to append each usable observation to `provider_pricing_history` in the same run that upserts the cache. Small scoped change to existing sanctioned tooling; no new public surface, no email, no schema change (the 0006 table already exists, empty). This starts the unrecoverable data clock for everything below.
+- **Phase 1 — on-site price history + demand instrument (no email):** once a few weeks of history exists, render per-event price history (same display-eligibility gates as the price badge, snapshot framing, per-provider only — no cross-provider ranking). Alongside it, a "Want an email when this price drops?" button that only records interest through the existing signup/capture mechanics (`analytics_events` + `email_subscribers` as `capture_only`) — **nothing is ever sent**. This delivers most of the fan value at near-zero compliance cost and measures real alert demand.
+- **Demand gate (owner decision):** a concrete threshold — suggested **100–200 distinct alert-interest signups within a quarter**. Below it: keep Phase 1, skip the email stack entirely, revisit as traffic grows. Above it: a warm, self-selected launch cohort exists and Phase 2 is justified.
+- **Phase 2 — email prerequisites (only past the gate):** owner confirms per-programme email-redistribution rights (risk #2); ESP selection and DNS (SPF/DKIM/DMARC on a dedicated sending subdomain, risk #1); GDPR/PECR erasure path and retention policy (risk #3); then build the `0008` migration, double-opt-in flow, and unsubscribe infrastructure per §§1–2.
+- **Phase 3 — soft launch:** enable the dispatch job (§3) for the Phase-1 interest cohort only, with the per-run hard cap and dry-run-default dispatch live from day one. Watch complaint/bounce rates for several weeks (complaint rate must stay well under 0.1%); only then open subscription to all eligible events. All five blast-radius mitigations (risk #6) remain load-bearing throughout.
 
 ## Explicitly parked
 

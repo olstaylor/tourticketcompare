@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /data/
 Disallow: /internal/
-Disallow: /api/out
 Sitemap: https://tourticketcompare.com/sitemap.xml

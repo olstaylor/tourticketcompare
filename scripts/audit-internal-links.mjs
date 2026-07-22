@@ -43,6 +43,8 @@ const venuesModule = await import(pathToFileURL(path.join(root, "functions/_venu
 const catalog = JSON.parse(await read("public/data/catalog.json"));
 const artistsMeta = JSON.parse(await read("public/data/artists.json"));
 const events = JSON.parse(await read("public/data/events.json"));
+const robotsTxt = await read("public/robots.txt");
+const staticHeaders = await read("public/_headers");
 
 const assetMap = new Map();
 for (const file of ["index.html", "data/catalog.json", "data/artists.json", "data/events.json", "data/guides-content.json", "data/provider-configs.json"]) {
@@ -133,15 +135,29 @@ for (const pathname of allPaths) {
   const mainMatch = html.match(/<main id="mainContent">([\s\S]*?)<\/main>/);
   const main = mainMatch ? mainMatch[1] : "";
   const robots = extract(html, /<meta name="robots" content="([^"]*)"/);
+  const title = decodeEntities(extract(html, /<title>([^<]*)<\/title>/i));
+  const description = decodeEntities(extract(html, /<meta\s+name="description"\s+content="([^"]*)"/i));
+  const canonical = decodeEntities(extract(html, /<link rel="canonical" href="([^"]*)"/));
   pages.set(pathname, {
     path: pathname,
     status,
     location,
-    title: decodeEntities(extract(html, /<title>([^<]*)<\/title>/i)),
-    description: decodeEntities(extract(html, /<meta\s+name="description"\s+content="([^"]*)"/i)),
+    title,
+    description,
     robots,
     indexable: status === 200 && !robots.includes("noindex"),
-    canonical: decodeEntities(extract(html, /<link rel="canonical" href="([^"]*)"/)),
+    canonical,
+    ogTitle: decodeEntities(extract(html, /<meta\s+property="og:title"\s+content="([^"]*)"/i)),
+    ogDescription: decodeEntities(extract(html, /<meta\s+property="og:description"\s+content="([^"]*)"/i)),
+    ogUrl: decodeEntities(extract(html, /<meta\s+property="og:url"\s+content="([^"]*)"/i)),
+    ogImage: decodeEntities(extract(html, /<meta\s+property="og:image"\s+content="([^"]*)"/i)),
+    ogImageType: decodeEntities(extract(html, /<meta\s+property="og:image:type"\s+content="([^"]*)"/i)),
+    ogImageAlt: decodeEntities(extract(html, /<meta\s+property="og:image:alt"\s+content="([^"]*)"/i)),
+    twitterTitle: decodeEntities(extract(html, /<meta\s+name="twitter:title"\s+content="([^"]*)"/i)),
+    twitterDescription: decodeEntities(extract(html, /<meta\s+name="twitter:description"\s+content="([^"]*)"/i)),
+    twitterImage: decodeEntities(extract(html, /<meta\s+name="twitter:image"\s+content="([^"]*)"/i)),
+    twitterImageAlt: decodeEntities(extract(html, /<meta\s+name="twitter:image:alt"\s+content="([^"]*)"/i)),
+    twitterCard: decodeEntities(extract(html, /<meta\s+name="twitter:card"\s+content="([^"]*)"/i)),
     schemaTypes: status === 200 ? schemaTypes(html) : [],
     contextualLinks: internalHrefs(main),
     allLinks: internalHrefs(html)
@@ -167,6 +183,21 @@ for (const page of pages.values()) {
 }
 
 const problems = [];
+
+// Keep crawlable HTML open while excluding machine endpoints and raw data
+// assets that duplicate information already presented on indexable pages.
+for (const prefix of ["/api/", "/data/", "/internal/"]) {
+  if (!robotsTxt.includes(`Disallow: ${prefix}`)) problems.push(`robots.txt: missing Disallow for ${prefix}`);
+}
+if (!robotsTxt.includes(`Sitemap: ${ORIGIN}/sitemap.xml`)) {
+  problems.push("robots.txt: missing the canonical sitemap URL");
+}
+for (const prefix of ["/data/*", "/internal/*"]) {
+  const block = staticHeaders.match(new RegExp(`(?:^|\\n)${prefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\n([\\s\\S]*?)(?=\\n\\S|$)`, "m"))?.[1] || "";
+  if (!/X-Robots-Tag:\s*noindex,\s*nofollow/i.test(block)) {
+    problems.push(`_headers: ${prefix} is missing X-Robots-Tag: noindex, nofollow`);
+  }
+}
 
 // ---------- legacy redirects ----------
 
@@ -210,6 +241,23 @@ for (const page of rendered) {
   if (page.canonical !== expected) {
     problems.push(`canonical drift: ${page.path} declares canonical ${page.canonical || "(none)"} (expected ${expected})`);
   }
+}
+
+// Social metadata must mirror each route's search metadata. This catches
+// regressions on routes outside the smaller smoke-test sample (notably guides
+// and venue pages) and keeps shared-card previews complete and self-referencing.
+for (const page of rendered) {
+  if (page.ogTitle !== page.title) problems.push(`social: ${page.path} og:title does not match its title`);
+  if (page.ogDescription !== page.description) problems.push(`social: ${page.path} og:description does not match its description`);
+  if (page.ogUrl !== page.canonical) problems.push(`social: ${page.path} og:url does not match its canonical`);
+  if (page.ogImage !== `${ORIGIN}/og-image.png`) problems.push(`social: ${page.path} has a missing or unexpected og:image`);
+  if (page.ogImageType !== "image/png") problems.push(`social: ${page.path} og:image:type should be image/png`);
+  if (!page.ogImageAlt) problems.push(`social: ${page.path} is missing og:image:alt`);
+  if (page.twitterTitle !== page.title) problems.push(`social: ${page.path} twitter:title does not match its title`);
+  if (page.twitterDescription !== page.description) problems.push(`social: ${page.path} twitter:description does not match its description`);
+  if (page.twitterImage !== page.ogImage) problems.push(`social: ${page.path} twitter:image does not match og:image`);
+  if (page.twitterImageAlt !== page.ogImageAlt) problems.push(`social: ${page.path} twitter:image:alt does not match og:image:alt`);
+  if (page.twitterCard !== "summary_large_image") problems.push(`social: ${page.path} twitter:card should be summary_large_image`);
 }
 
 // Robots/indexability agreement with route intent: noindex pages must say
@@ -272,6 +320,7 @@ const summary = {
     robots: page.robots,
     canonical: page.canonical,
     title: page.title,
+    description: page.description,
     in_sitemap: sitemapPaths.has(page.path),
     schema_types: page.schemaTypes,
     inbound_contextual: page.inboundContextual.length,

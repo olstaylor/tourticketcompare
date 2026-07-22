@@ -33,5 +33,15 @@ export async function onRequest(context) {
     return context.next();
   }
 
+  // Keep one crawlable URL per HTML route. The renderer normalizes the path
+  // used for routing and metadata, but without this redirect both slash and
+  // non-slash forms can still return 200 responses. Preserve the query string
+  // for legitimate search/filter links while avoiding redirects for the root.
+  if (url.pathname !== "/" && url.pathname.endsWith("/")) {
+    const canonicalUrl = new URL(url);
+    canonicalUrl.pathname = pathname;
+    return Response.redirect(canonicalUrl.toString(), 301);
+  }
+
   return renderRouteHtml(context);
 }

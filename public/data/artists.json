@@ -232,5 +232,41 @@
       "seatgeek"
     ],
     "last_verified_at": "2026-07-15"
+  },
+  {
+    "slug": "the-weeknd",
+    "name": "The Weeknd",
+    "short_description": "Canadian singer, songwriter, and record producer.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
+  },
+  {
+    "slug": "coldplay",
+    "name": "Coldplay",
+    "short_description": "British rock band fronted by Chris Martin.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
+  },
+  {
+    "slug": "jelly-roll",
+    "name": "Jelly Roll",
+    "short_description": "American singer and songwriter from Nashville.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
+  },
+  {
+    "slug": "tame-impala",
+    "name": "Tame Impala",
+    "short_description": "Australian psychedelic music project led by Kevin Parker.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
+    "last_verified_at": null
   }
 ]

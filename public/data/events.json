@@ -18646,11 +18646,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107167159",
-        "url": "https://www.stubhub.ie/shakira-brooklyn-tickets-7-21-2026/event/107167159",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -18659,7 +18659,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/shakira-brooklyn-tickets-7-21-2026/event/107167159"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-shakira-2026-belmont-park-15dzz_619b3pj",
@@ -19829,11 +19829,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954170",
-        "url": "https://www.stubhub.ie/ed-sheeran-san-diego-tickets-7-21-2026/event/106954170",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbS6QGd__",
@@ -19842,7 +19842,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418584",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418584/Ed-Sheeran-tickets-Tue-Jul-21-2026-Petco-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-san-diego-tickets-7-21-2026/event/106954170"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-santa-clara-1c006331c1a54d19",

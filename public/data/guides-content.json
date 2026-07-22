@@ -93,17 +93,17 @@
     "sections": [
       {
         "type": "intro",
-        "content": "A useful concert-ticket comparison starts with one rule: compare the same event and a genuinely comparable ticket. A price gap can come from a different date, seat, ticket type, seller, delivery method, tax treatment, or optional extra — not a better deal.\n\nIn the United States, the FTC's live-event fee rule requires mandatory fees to be included in the upfront total, although taxes, shipping, and optional add-ons may still be shown separately. Rules and provider displays vary by country, so always confirm the amount payable and the exact ticket terms before you buy.\n\nTourTicketCompare can show approved, timestamped provider listed-price snapshots for the same verified event when the provider data passes exact-event, source, and freshness checks. Use the [ticket comparison site](/compare-concert-ticket-prices) to see the comparison method and currently published event snapshots. Treat those snapshots as a research starting point, not live inventory or a final checkout quote."
+        "content": "The quickest way to make a bad comparison is to start with a provider name. Start with the concert you actually want: the artist, local date and venue. Then match the ticket itself. A price difference can reflect a different night, section, ticket type, seller, delivery method, tax treatment or optional extra — not a better deal.\n\nIn the United States, the FTC's live-event fee rule requires mandatory fees to be included in the upfront total, although taxes, shipping and optional add-ons may still be shown separately. Rules and provider displays vary by country, so confirm the amount payable and the exact ticket terms before you buy.\n\nTourTicketCompare can show approved, timestamped provider listed-price snapshots for the same verified event when the data passes exact-event, source and freshness checks. Use the [comparison hub](/compare-concert-ticket-prices) to understand the method, or go straight to an [artist page](/artists) to choose a checked date. A snapshot is a shortlist, not live inventory or a final checkout quote."
       },
       {
         "type": "section",
-        "title": "1. Confirm it is the exact same show",
-        "content": "Before comparing a price, match these fields on every page:\n\n- **Artist and event name** — watch for tribute acts, festivals, and similarly named events\n- **Local date and start time** — multi-night runs are easy to confuse\n- **Venue and city** — nearby venues can have similar names\n- **Ticket quantity** — a per-ticket figure is not the same as an order total\n- **Ticket type** — primary, official resale, marketplace resale, VIP, accessible, standing, or seated\n- **Section, row, and view notes** — where the provider shows them\n\nIf any of those fields differ, record the difference instead of treating the lower number as a saving."
+        "title": "1. Start with the concert, not the provider",
+        "content": "Use an [artist page](/artists) to find the checked date you mean, then match these fields on every provider page:\n\n- **Artist and event name** — watch for tribute acts, festivals and similarly named events\n- **Local date and start time** — multi-night runs are easy to confuse\n- **Venue and city** — nearby venues can have similar names\n- **Ticket quantity** — a per-ticket figure is not the same as an order total\n- **Ticket type** — primary, official resale, marketplace resale, VIP, accessible, standing or seated\n- **Section, row and view notes** — where the provider shows them\n\nIf any field differs, you have found another option, not a like-for-like saving."
       },
       {
         "type": "section",
-        "title": "2. Use timestamped snapshots as a shortlist",
-        "content": "A TourTicketCompare price snapshot is provider-supplied listed-price data attached to a verified event. The page shows when the snapshot was captured and hides it after its freshness window expires. When both approved providers have current snapshots in the same currency, the site can identify the lower listed snapshot and calculate the difference.\n\nThat comparison does **not** prove that the tickets are equivalent seats, that inventory is still available, or that the lower snapshot will remain lower at checkout. Open both provider pages and check the exact listings before deciding."
+        "title": "2. Use snapshots to decide where to look next",
+        "content": "A TourTicketCompare snapshot is provider-supplied listed-price data attached to one verified event. It shows when it was captured and disappears after its freshness window. When two approved snapshots for that event are current and use the same currency, the site can identify the lower listed snapshot and the difference.\n\nUse that signal to decide which provider pages deserve a closer look. It does **not** establish equivalent seats, current inventory or the lower checkout total. Open the exact listings before choosing."
       },
       {
         "type": "section",
@@ -112,8 +112,8 @@
       },
       {
         "type": "section",
-        "title": "4. Check the final amount payable",
-        "content": "Mandatory fee display has improved on US ticket sites, but the amount payable can still depend on taxes, delivery choices, currency conversion, insurance, parking, or other optional extras. Provider rules also differ outside the US.\n\nBefore payment, confirm:\n\n- The total for the exact quantity you selected\n- Taxes and any government charges\n- Delivery or shipping charges\n- Optional add-ons you chose\n- The currency and any card conversion cost\n- Whether the displayed figure is per ticket or for the whole order\n\nUse the final provider order summary as the purchase decision. A TourTicketCompare snapshot is never a promise of that final amount."
+        "title": "4. Make the decision at the order summary",
+        "content": "Mandatory fee display has improved on US ticket sites, but the amount payable can still depend on taxes, delivery choices, currency conversion, insurance, parking or other optional extras. Provider rules also differ outside the US.\n\nAt the order summary, confirm:\n\n- The total for the exact quantity you selected\n- Taxes and any government charges\n- Delivery or shipping charges\n- Optional add-ons you chose\n- The currency and any card conversion cost\n- Whether the displayed figure is per ticket or for the whole order\n\nUse this total, alongside the ticket and delivery terms, to make the decision. A snapshot is never a promise of that amount."
       },
       {
         "type": "section",
@@ -148,7 +148,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "Keep comparing with these related guides:\n\n- [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)\n- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)\n- [How to avoid overpaying for concert tickets](/guides/how-to-avoid-overpaying-for-concert-tickets)"
+        "content": "Use the next guide for the decision that remains, then return to the exact event:\n\n- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [How to read a concert ticket listing](/guides/how-to-read-a-ticket-listing)\n- [Browse checked artist pages](/artists)"
       }
     ],
     "schema": {
@@ -761,7 +761,7 @@
     "sections": [
       {
         "type": "intro",
-        "content": "When you search for a concert ticket, you are usually looking at one of three things, even if the page does not spell it out: a primary ticket, an official resale, or a marketplace resale. They can sit side by side on the same screen, but they are not the same purchase. Which one you are buying decides who set the price, how the ticket reaches you, and whose terms apply if anything changes.\n\nThis guide explains the differences plainly, without pretending any one type is always cheaper, safer, or the right call. The aim is to know what you are looking at before you pay."
+        "content": "Primary, official resale and marketplace resale can appear beside each other for the same concert, but they answer different buying needs. The useful question is not which label is universally better; it is whether the exact ticket, total, delivery timing and provider terms fit your plans.\n\nStart by finding the right date on an [artist page](/artists). Then identify the ticket type before comparing its price. That tells you who set the listing price, how the ticket should reach you and whose terms apply if the event changes."
       },
       {
         "type": "section",
@@ -796,12 +796,12 @@
       {
         "type": "section",
         "title": "So which should you pick?",
-        "content": "**Start with primary or official resale** when the platform is the named official source and the seats, total, delivery, and terms suit you — it is the natural first place to look.\n\n**Move to marketplace resale** when official options are gone or do not fit, and only after the extra checks: knowing it is seller-set, seeing clear seat, delivery, and transfer detail, and being comfortable with the total.\n\nEither way, the last steps are the same — confirm the final total, check the seat section, and read the refund, cancellation, delivery, and transfer terms before you commit."
+        "content": "**Start with primary or official resale** when it is the named official path and the exact seats, total, delivery and terms work for you. It gives you a clear reference point for the show you want.\n\n**Consider marketplace resale** when the official path does not fit your needs, only after checking that the listing is seller-set, the seat and transfer detail are clear, and the total still works once every required charge is shown.\n\nNeither route removes the final checks: confirm the date and venue, ticket type, seat section, final total, delivery timing, and refund, cancellation and transfer terms before committing."
       },
       {
         "type": "section",
         "title": "Related guides",
-        "content": "Keep comparing with these related guides:\n\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [How to avoid ticket scams and fake listings](/guides/how-to-avoid-ticket-scams)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)"
+        "content": "Continue with the detail that changes your decision:\n\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [How to read a concert ticket listing](/guides/how-to-read-a-ticket-listing)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)\n- [Browse checked artist pages](/artists)"
       }
     ]
   },
@@ -842,7 +842,7 @@
     "sections": [
       {
         "type": "intro",
-        "content": "With concert tickets, the first price you see is often not the amount you pay at checkout. Several fees can be added before the order is done, and the types and amounts differ from one provider and event to the next.\n\nThis guide runs through the fees you are likely to meet, why the headline price and the final total can differ, and how to compare options fairly. TourTicketCompare does not sell tickets or set fees: each provider decides those, and the final total should always be confirmed on the provider site before you pay."
+        "content": "A lower displayed price is useful only if it leads to a lower total for the same ticket. Fees, tax, delivery choices, currency conversion and extras can change that answer at checkout — so a fee comparison should end at the order summary, not a search result.\n\nUse this guide when you have two plausible options for the same concert. First match the event and ticket; then bring both choices as far as the order summary and compare the required charges. TourTicketCompare does not set fees or final totals: each provider does, and the provider checkout is the decision point."
       },
       {
         "type": "section",
@@ -856,8 +856,8 @@
       },
       {
         "type": "section",
-        "title": "How to compare fees fairly",
-        "content": "To compare options fairly, compare the final checkout total for genuinely equivalent tickets, not the first displayed price.\n\n- Confirm you are comparing the same event, date, venue, section, ticket type, and quantity.\n- Progress each option to the order summary so every fee is visible before you compare.\n- Check the delivery method on each option, since a lower total may rely on a delivery method that does not suit your timing.\n- Re-check totals close to the time you buy, because fees and availability can change.\n\nTourTicketCompare does not claim that any provider is cheaper or more expensive, and it does not compare live prices for you. The comparison is a manual check you make on the provider sites. For a step-by-step routine, see [how to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)."
+        "title": "How to compare the total fairly",
+        "content": "Compare the final checkout total for genuinely equivalent tickets, not the first displayed price.\n\n- Confirm the artist, local date, venue, section, ticket type and quantity match.\n- Bring each option to the order summary so required charges are visible before you compare.\n- Check delivery timing alongside the total: the lowest total may rely on a method that does not suit your plans.\n- Treat optional extras separately so you know whether they changed the result.\n\nIf you are still only looking at a generic provider page, return to the [artist index](/artists) and choose the event first. TourTicketCompare never claims one provider is always cheaper; a current listed-price snapshot can help shortlist pages, while the comparison itself happens at provider checkout."
       },
       {
         "type": "section",
@@ -872,7 +872,7 @@
       {
         "type": "section",
         "title": "Next steps",
-        "content": "Understanding fees is one part of a careful buying decision. These guides cover the rest:\n- [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices) gives a full comparison routine.\n- [Why concert ticket prices change](/guides/why-ticket-prices-change) explains why totals can move over time.\n- [How to avoid overpaying for concert tickets](/guides/how-to-avoid-overpaying-for-concert-tickets) covers practical checks before you commit.\n- [Why prices vary between ticket sites](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats) explains how fees and inventory can differ between platforms."
+        "content": "Choose the next step based on the remaining decision:\n- [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices) for the full like-for-like routine.\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets) when the ticket type is different.\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) when a lower total comes with a later transfer.\n- [Browse checked artist pages](/artists) when you are ready to apply the checks to a specific show."
       },
       {
         "type": "section",

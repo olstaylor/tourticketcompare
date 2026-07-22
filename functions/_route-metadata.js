@@ -29,7 +29,7 @@ export const TRUST_ROUTES = {
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Use this ticket comparison site to compare concert and event ticket prices with available, timestamped provider listed-price snapshots for the same verified event, then confirm fees, availability, seats, and final totals with the provider.",
+      "Find a checked concert event, compare available timestamped provider listed-price snapshots for that same show, then confirm seats, fees, availability, and the final total with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }]
   },
@@ -43,7 +43,7 @@ export const TRUST_ROUTES = {
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
     description:
-      "Essential guides for comparing ticket prices, checking official vs. resale, deciding when to buy, and confirming final terms before checkout.",
+      "Practical concert-ticket guides for matching listings, checking final totals, choosing primary or resale, timing a purchase, and confirming provider terms before checkout.",
     indexable: true,
     breadcrumb: [{ name: "Guides", path: "/guides" }]
   },
@@ -98,10 +98,10 @@ export const GUIDE_ROUTES = {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     h1: "How to Compare Concert Ticket Prices Safely",
     description:
-      "Compare concert ticket prices using exact-event, ticket-type, seat, fee, delivery, and buyer-protection checks, with timestamped provider snapshots as a starting point.",
+      "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final provider total and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-07-13"
+    lastmod: "2026-07-22"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
@@ -143,10 +143,10 @@ export const GUIDE_ROUTES = {
     title: "Primary vs Resale Concert Tickets | TourTicketCompare",
     h1: "What is the difference between official tickets and resale?",
     description:
-      "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks.",
+      "Decide between primary and resale concert tickets by weighing ticket type, seat choice, final total, transfer timing, provider terms, and certainty.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-07-22"
   },
   "/guides/how-to-avoid-ticket-scams": {
     title: "How to Avoid Ticket Scams | TourTicketCompare",
@@ -188,10 +188,10 @@ export const GUIDE_ROUTES = {
     title: "Concert Ticket Fees Explained | TourTicketCompare",
     h1: "What concert ticket fees should I check before buying?",
     description:
-      "Understand common concert ticket fee categories and compare final checkout totals safely before you buy.",
+      "Know which concert-ticket charges to compare, how to read the order summary, and when a lower displayed price is not the lower final total.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-07-22"
   },
   "/guides/ticket-delivery-and-transfer-timing": {
     title: "Ticket Delivery and Transfer Timing Guide | TourTicketCompare",

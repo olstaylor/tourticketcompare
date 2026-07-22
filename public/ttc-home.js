@@ -325,7 +325,7 @@
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Compare concert ticket prices <em>for the same show.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["Search an artist, city, or venue, then pick a checked date and compare timestamped listed-price snapshots where available. Confirm final prices, fees, and availability on the provider site."]),
+      h("p", { class: "ttc-hero__sub" }, ["Search an artist, city, or venue. Choose a checked event, then use current provider listed-price snapshots where available to shortlist options. Confirm final prices, fees, and availability on the provider site."]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [
@@ -363,12 +363,12 @@
   function valueSection() {
     const vp = [
       { ic: "search", t: "Find your show", b: "Search an artist and pick the verified date that matches your plans." },
-      { ic: "check",  t: "Compare snapshots", b: "See available provider price snapshots for the same event." },
+      { ic: "check",  t: "Shortlist provider options", b: "Compare available, timestamped listed-price snapshots for that same event." },
       { ic: "arrow",  t: "Confirm and buy", b: "Open the provider site to confirm the final price, fees, availability and ticket details." },
     ];
     return h("section", { class: "ttc-sec" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["How it works"]), h("p", { class: "ttc-sec__desc" }, ["Three steps — no marketplace, no invented prices."])]),
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["How it works"]), h("p", { class: "ttc-sec__desc" }, ["Three practical steps from a checked event to a provider checkout."])]),
         h("a", { class: "ttc-sec__link", href: "/how-it-works" }, ["Full details ", svg("arrow")])
       ]),
       h("div", { class: "ttc-vp" }, vp.map((v, i) => h("div", { class: "ttc-vpcard" }, [
@@ -462,7 +462,7 @@
     const list = DATA.guides.slice(0, 6);
     return h("section", { class: "ttc-sec ttc-sec--flush" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Buying guides"]), h("p", { class: "ttc-sec__desc" }, ["Fees, resale, timing, scams — plain-language answers before you buy."])]),
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Buying guides"]), h("p", { class: "ttc-sec__desc" }, ["Practical decisions: matching a listing, checking final totals, choosing primary or resale, and timing a purchase."])]),
         h("a", { class: "ttc-sec__link", href: "/guides" }, ["All guides ", svg("arrow")])
       ]),
       h("div", { class: "ttc-guides" }, list.map(g => h("a", { class: "ttc-gcard", href: "/guides/" + g.slug }, [

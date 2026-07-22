@@ -39,8 +39,8 @@ function mostFrequent(values) {
 }
 
 // Build the full set of venues that have at least one upcoming tracked show.
-// `indexable` is true only for venues with two or more upcoming shows so single-show
-// venues (which would largely duplicate the artist page) stay out of the index.
+// Indexing requires enough breadth to answer venue-level intent rather than
+// duplicating a single artist page: at least three shows across two artists.
 export function deriveVenues(events, options = {}) {
   const now = Number.isFinite(options.now) ? options.now : Date.now();
   const groups = new Map();
@@ -70,6 +70,7 @@ export function deriveVenues(events, options = {}) {
       event_name: String(event.event_name || "").trim(),
       tour_name: String(event.tour_name || "").trim(),
       datetime_iso: iso,
+      last_verified_at: String(event.last_verified_at || "").trim(),
       ts
     });
   }
@@ -86,7 +87,12 @@ export function deriveVenues(events, options = {}) {
       shows,
       artistSlugs,
       showCount: shows.length,
-      indexable: shows.length >= 2
+      lastmod: shows
+        .map((show) => show.last_verified_at)
+        .filter((value) => /^\d{4}-\d{2}-\d{2}$/.test(value))
+        .sort()
+        .at(-1) || "",
+      indexable: shows.length >= 3 && artistSlugs.length >= 2
     });
   }
 

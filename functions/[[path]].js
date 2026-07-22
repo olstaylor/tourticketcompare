@@ -2,6 +2,7 @@ import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS, CANONICAL_HOST, canoni
 import { attachApprovedMarketplacePrices } from "./api/shows.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 import { deriveVenues, findVenue } from "./_venues.js";
+import { deriveCities, findCity } from "./_cities.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -154,6 +155,45 @@ async function routeForPath(pathname, env) {
     };
   }
 
+  if (path === "/cities" || path.startsWith("/cities/")) {
+    const cityEvents = await loadEvents(env);
+    if (path === "/cities") {
+      const cities = deriveCities(cityEvents).filter((city) => city.indexable);
+      return {
+        type: "cities-index",
+        path,
+        indexable: true,
+        title: "Concerts by City | Upcoming Tour Dates | TourTicketCompare",
+        description:
+          "Browse cities with multiple upcoming tracked concerts across major artists, then open a city to match the artist, venue, date, and checked ticket options.",
+        cities,
+        breadcrumb: [{ name: "Cities", path: "/cities" }]
+      };
+    }
+    const cityMatch = path.match(/^\/cities\/([a-z0-9-]+)$/);
+    if (!cityMatch) return null;
+    const city = findCity(cityEvents, cityMatch[1]);
+    if (!city) return null;
+    const artistsMeta = await loadArtistsMeta(env);
+    const yearLabel = cityYearLabel(city);
+    return {
+      type: "city",
+      path,
+      indexable: city.indexable,
+      title: `Concerts in ${city.city}${yearLabel ? ` ${yearLabel}` : ""} | Upcoming Shows & Tickets`,
+      description: `See ${city.showCount} reviewed upcoming concerts in ${city.city}, ${city.country}${yearLabel ? ` for ${yearLabel}` : ""}, across ${cityArtistCountLabel(city.artistCount)} and ${cityVenueCountLabel(city.venueCount)}. Compare dates, venues, and checked ticket options.`,
+      city,
+      events: cityEvents,
+      indexableArtistSlugs: artistsMeta
+        .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+        .map((artist) => slugify(artist?.slug)),
+      breadcrumb: [
+        { name: "Cities", path: "/cities" },
+        { name: `${city.city}, ${city.country}`, path }
+      ]
+    };
+  }
+
   if (path === "/venues" || path.startsWith("/venues/")) {
     const venueEvents = await loadEvents(env);
     if (path === "/venues") {
@@ -178,7 +218,7 @@ async function routeForPath(pathname, env) {
       type: "venue",
       path,
       indexable: venue.indexable,
-      title: `${venue.venue} Concerts & Tickets${venue.city ? ` in ${venue.city}` : ""} | TourTicketCompare`,
+      title: `${venue.venue} Concerts${venue.city ? ` in ${venue.city}` : ""} | Tickets`,
       description: venueMetaDescription(venue),
       venue,
       events: venueEvents,
@@ -265,8 +305,17 @@ function baseSchema(origin) {
       "@type": "Organization",
       "@id": organizationId,
       name: "TourTicketCompare",
+      alternateName: "Tour Ticket Compare",
       url: `${origin}/`,
       description: "Independent ticket research for major live music tours with verified links and approved, timestamped provider price snapshots where available.",
+      email: "hello@tourticketcompare.com",
+      publishingPrinciples: `${origin}/editorial-policy`,
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "editorial corrections and site feedback",
+        email: "hello@tourticketcompare.com",
+        url: `${origin}/contact`
+      },
       logo: {
         "@type": "ImageObject",
         url: `${origin}/og-image.png`,
@@ -278,6 +327,7 @@ function baseSchema(origin) {
       "@type": "WebSite",
       "@id": websiteId,
       name: "TourTicketCompare",
+      alternateName: "Tour Ticket Compare",
       url: `${origin}/`,
       publisher: { "@id": organizationId },
       inLanguage: "en",
@@ -363,6 +413,41 @@ function faqSchema(route) {
         ];
 
   return faqPageSchema(questions);
+}
+
+function cityFaqEntries(city) {
+  const next = city.shows[0];
+  const venues = [...new Set(city.shows.map((show) => show.venue))];
+  return [
+    [
+      `What concerts does TourTicketCompare track in ${city.city}?`,
+      `This page currently groups ${city.showCount} upcoming tracked concerts in ${city.city}, ${city.country}, across ${city.artistCount} artists and ${city.venueCount} venues. Coverage changes as reviewed dates pass or new dates are verified.`
+    ],
+    [
+      `What is the next concert TourTicketCompare tracks in ${city.city}?`,
+      next
+        ? `The next currently tracked date is ${next.artist_name || next.artist_slug} at ${next.venue} on ${formatShowDateServer(next.datetime_iso)}. Check the artist page and provider before travelling because schedules and ticket details can change.`
+        : "No upcoming reviewed date is currently available."
+    ],
+    [
+      `Which ${city.city} venues are included?`,
+      `The current page includes reviewed dates at ${venues.join(", ")}. It is selective coverage, not a complete directory of every concert venue in the city.`
+    ],
+    [
+      `Does TourTicketCompare sell concert tickets in ${city.city}?`,
+      "No. TourTicketCompare does not sell tickets. It links to external providers only when the event and destination pass the relevant verification checks."
+    ],
+    [
+      "Are the displayed price snapshots final checkout prices?",
+      "No. Any displayed figure is a timestamped provider listed-price snapshot for a verified event, not live inventory or a final checkout total. Confirm the current ticket, fees, delivery, availability, and terms with the provider."
+    ],
+    [
+      `How current is this ${city.city} concert page?`,
+      city.lastmod
+        ? `The most recently checked event record on this page was verified ${formatVerificationDate(city.lastmod)}. Individual dates can have different verification dates, and expired dates are removed automatically.`
+        : "Each date is tied to a reviewed event record, and expired dates are removed automatically."
+    ]
+  ];
 }
 
 function breadcrumbSchema(route, origin) {
@@ -553,14 +638,93 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     graph.push(faqPageSchema(comparisonHubFaqEntries()));
     graph.push(...comparisonHubItemListSchema(route, origin, catalog, events));
   }
-  if (route.type === "venues-index") {
+  if (route.type === "cities-index") {
+    const cities = route.cities || [];
+    const dateModified = cities.map((city) => city.lastmod).filter(Boolean).sort().at(-1);
     graph.push({
       "@type": "CollectionPage",
       "@id": `${origin}${route.path}#webpage`,
       url: `${origin}${route.path}`,
       name: route.title,
       description: route.description,
-      isPartOf: { "@type": "WebSite", url: `${origin}/`, name: "TourTicketCompare" }
+      inLanguage: "en",
+      dateModified: dateModified || undefined,
+      publisher: { "@id": `${origin}/#organization` },
+      isPartOf: { "@id": `${origin}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: cities.length,
+        itemListOrder: "https://schema.org/ItemListOrderDescending",
+        itemListElement: cities.map((city, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: `${city.city}, ${city.country}`,
+          url: `${origin}/cities/${city.slug}`
+        }))
+      }
+    });
+  }
+  if (route.type === "city" && route.city) {
+    const city = route.city;
+    graph.push({
+      "@type": "Place",
+      "@id": `${origin}${route.path}#place`,
+      name: `${city.city}, ${city.country}`,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: city.city,
+        addressCountry: city.country
+      }
+    });
+    graph.push({
+      "@type": "CollectionPage",
+      "@id": `${origin}${route.path}#webpage`,
+      url: `${origin}${route.path}`,
+      name: route.title,
+      description: route.description,
+      inLanguage: "en",
+      dateModified: city.lastmod || undefined,
+      publisher: { "@id": `${origin}/#organization` },
+      about: { "@id": `${origin}${route.path}#place` },
+      isPartOf: { "@id": `${origin}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: city.shows.length,
+        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        itemListElement: city.shows.slice(0, 50).map((show, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: `${show.artist_name || show.artist_slug} at ${show.venue} — ${formatShowDateServer(show.datetime_iso)}`,
+          url: `${origin}/artists/${show.artist_slug}#${showAnchorId(show)}`
+        }))
+      }
+    });
+    graph.push(faqPageSchema(cityFaqEntries(city)));
+  }
+  if (route.type === "venues-index") {
+    const venues = route.venues || [];
+    const dateModified = venues.map((venue) => venue.lastmod).filter(Boolean).sort().at(-1);
+    graph.push({
+      "@type": "CollectionPage",
+      "@id": `${origin}${route.path}#webpage`,
+      url: `${origin}${route.path}`,
+      name: route.title,
+      description: route.description,
+      inLanguage: "en",
+      dateModified: dateModified || undefined,
+      publisher: { "@id": `${origin}/#organization` },
+      isPartOf: { "@id": `${origin}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: venues.length,
+        itemListOrder: "https://schema.org/ItemListOrderDescending",
+        itemListElement: venues.map((venue, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: `${venue.venue}, ${venue.city}`,
+          url: `${origin}/venues/${venue.slug}`
+        }))
+      }
     });
   }
   if (route.type === "venue" && route.venue) {
@@ -582,9 +746,24 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       url: `${origin}${route.path}`,
       name: route.title,
       description: route.description,
+      inLanguage: "en",
+      dateModified: venue.lastmod || undefined,
+      publisher: { "@id": `${origin}/#organization` },
       about: { "@id": `${origin}${route.path}#venue` },
-      isPartOf: { "@type": "WebSite", url: `${origin}/`, name: "TourTicketCompare" }
+      isPartOf: { "@id": `${origin}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: venue.shows.length,
+        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        itemListElement: venue.shows.map((show, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: `${show.artist_name || show.artist_slug} — ${formatShowDateServer(show.datetime_iso)}`,
+          url: `${origin}/artists/${show.artist_slug}#${showAnchorId(show)}`
+        }))
+      }
     });
+    graph.push(faqPageSchema(venueFaqEntries(venue)));
   }
   if (route.faq) graph.push(faqSchema(route));
   return { "@context": "https://schema.org", "@graph": graph };
@@ -704,6 +883,174 @@ function renderArtistLinks(catalog, events = []) {
     .join("")}</div>`;
 }
 
+function cityShowCountLabel(count) {
+  return `${count} upcoming ${count === 1 ? "show" : "shows"}`;
+}
+
+function cityArtistCountLabel(count) {
+  return `${count} ${count === 1 ? "artist" : "artists"}`;
+}
+
+function cityVenueCountLabel(count) {
+  return `${count} ${count === 1 ? "venue" : "venues"}`;
+}
+
+function cityYearLabel(city) {
+  const years = [...new Set((city?.shows || [])
+    .map((show) => new Date(show.datetime_iso).getUTCFullYear())
+    .filter(Number.isFinite))].sort((a, b) => a - b);
+  if (!years.length) return "";
+  return years.length === 1 ? String(years[0]) : `${years[0]}–${years.at(-1)}`;
+}
+
+function cityDateRangeLabel(city) {
+  const first = city?.shows?.[0];
+  const last = city?.shows?.at(-1);
+  const firstLabel = formatShowDateServer(first?.datetime_iso);
+  const lastLabel = formatShowDateServer(last?.datetime_iso);
+  if (!firstLabel) return "";
+  return lastLabel && lastLabel !== firstLabel ? `${firstLabel} to ${lastLabel}` : firstLabel;
+}
+
+function cityArtistsWithCounts(city) {
+  const artists = new Map();
+  for (const show of city?.shows || []) {
+    if (!artists.has(show.artist_slug)) {
+      artists.set(show.artist_slug, {
+        slug: show.artist_slug,
+        name: show.artist_name || show.artist_slug,
+        shows: []
+      });
+    }
+    artists.get(show.artist_slug).shows.push(show);
+  }
+  return [...artists.values()].sort(
+    (a, b) => b.shows.length - a.shows.length || a.name.localeCompare(b.name)
+  );
+}
+
+function renderCityAnswerSummary(city) {
+  const next = city.shows[0];
+  const range = cityDateRangeLabel(city);
+  const checked = formatVerificationDate(city.lastmod);
+  return `<section class="nested-panel" aria-labelledby="cityAnswerTitle"><h2 id="cityAnswerTitle">At a glance: upcoming concerts in ${escapeHtml(
+    city.city
+  )}</h2><p><strong>Short answer:</strong> TourTicketCompare currently tracks ${escapeHtml(
+    cityShowCountLabel(city.showCount)
+  )} in ${escapeHtml(city.city)}, covering ${escapeHtml(cityArtistCountLabel(city.artistCount))} at ${escapeHtml(
+    cityVenueCountLabel(city.venueCount)
+  )}. The list contains reviewed tour dates rather than every event taking place in the city.</p><div class="card-grid"><article class="info-card"><h3>Next tracked show</h3><p>${next ? `${escapeHtml(
+    formatShowDateServer(next.datetime_iso)
+  )}: ${anchor(next.artist_name || next.artist_slug, `/artists/${next.artist_slug}#${showAnchorId(next)}`)} at ${escapeHtml(next.venue)}.` : "No upcoming reviewed date is available."}</p></article><article class="info-card"><h3>Tracked date range</h3><p>${escapeHtml(
+    range || "Dates are shown in the schedule below."
+  )}</p></article><article class="info-card"><h3>Coverage</h3><p>${escapeHtml(
+    `${city.artistCount} ${city.artistCount === 1 ? "artist" : "artists"}, ${city.venueCount} ${city.venueCount === 1 ? "venue" : "venues"}, ${city.showCount} ${city.showCount === 1 ? "date" : "dates"}.`
+  )}</p></article><article class="info-card"><h3>Verification recency</h3><p>${checked ? `The most recently checked event record on this page was verified ${escapeHtml(checked)}.` : "Each date remains subject to the event-level verification shown on its artist page."}</p></article></div></section>`;
+}
+
+function renderCityArtistCoverage(city, indexableArtistSlugs = new Set()) {
+  const items = cityArtistsWithCounts(city)
+    .map((artist) => {
+      const next = artist.shows[0];
+      const label = `${artist.shows.length} upcoming ${artist.shows.length === 1 ? "date" : "dates"}; next tracked ${formatShowDateServer(
+        next.datetime_iso
+      )} at ${next.venue}`;
+      const name = indexableArtistSlugs.has(artist.slug)
+        ? anchor(artist.name, `/artists/${artist.slug}`)
+        : escapeHtml(artist.name);
+      return `<li><strong>${name}</strong> — ${escapeHtml(label)}.</li>`;
+    })
+    .join("");
+  return `<section class="nested-panel"><h2>Which artists have upcoming concerts in ${escapeHtml(
+    city.city
+  )}?</h2><p>These artists have reviewed dates in the current ${escapeHtml(city.city)} coverage:</p><ul class="guide-link-list">${items}</ul></section>`;
+}
+
+function renderCityLinks(cities) {
+  if (!cities.length) {
+    return `<p class="muted">No city currently meets the substantial-coverage threshold. Cities appear here once multiple artists have verified upcoming dates.</p>`;
+  }
+  return `<div class="artist-card-grid">${cities
+    .map((city) => `<article class="artist-card"><h3>${escapeHtml(city.city)}</h3><p class="card-status">${escapeHtml(
+      city.country
+    )}</p><p class="card-status">${escapeHtml(
+      `${cityShowCountLabel(city.showCount)} · ${cityArtistCountLabel(city.artistCount)} · ${cityVenueCountLabel(city.venueCount)}`
+    )}</p>${anchor(`View concerts in ${city.city}`, `/cities/${city.slug}`, "button button-secondary")}</article>`)
+    .join("")}</div>`;
+}
+
+function renderCityProvenance(city) {
+  const checked = formatVerificationDate(city.lastmod);
+  return `<section class="guide-provenance" aria-label="Editorial and data information"><p><strong>Maintained by the TourTicketCompare editorial team.</strong>${
+    checked ? ` The most recently checked event record on this page was verified ${escapeHtml(checked)}.` : ""
+  }</p><p>Every listing comes from a reviewed upcoming event record. Expired dates are removed automatically, country aliases are normalized, and this page does not claim to cover every concert in ${escapeHtml(
+    city.city
+  )}. Read our ${anchor("editorial policy", "/editorial-policy")} and ${anchor(
+    "how the site works",
+    "/how-it-works"
+  )}, or ${anchor("report an incorrect date", "/contact")}.</p></section>`;
+}
+
+function artistIndexableCities(events, artistSlug) {
+  const target = slugify(artistSlug);
+  return deriveCities(events).filter((city) => city.indexable && city.artistSlugs.includes(target));
+}
+
+function renderArtistCitiesHtml(events, artist) {
+  const cities = artistIndexableCities(events, artist.slug);
+  if (!cities.length) return "";
+  const items = cities
+    .slice(0, 30)
+    .map((city) => `<li>${anchor(`${city.city}, ${city.country}`, `/cities/${city.slug}`)}</li>`)
+    .join("");
+  return `<section class="nested-panel"><h2>Cities on this run</h2><p>Browse other upcoming concerts we track in the cities ${escapeHtml(
+    artist.name
+  )} is visiting:</p><ul class="guide-link-list">${items}</ul></section>`;
+}
+
+function cityShowsByVenue(city) {
+  const order = [];
+  const byVenue = new Map();
+  for (const show of city.shows) {
+    if (!byVenue.has(show.venue_slug)) {
+      byVenue.set(show.venue_slug, { slug: show.venue_slug, name: show.venue, shows: [] });
+      order.push(show.venue_slug);
+    }
+    byVenue.get(show.venue_slug).shows.push(show);
+  }
+  return order.map((slug) => byVenue.get(slug));
+}
+
+function renderCityShowGroups(city, indexableArtistSlugs = new Set(), indexableVenueSlugs = new Set()) {
+  return cityShowsByVenue(city)
+    .map((group) => {
+      const venueHeading = indexableVenueSlugs.has(group.slug)
+        ? anchor(group.name, `/venues/${group.slug}`)
+        : escapeHtml(group.name);
+      const items = group.shows
+        .map((show) => {
+          const date = formatShowDateServer(show.datetime_iso) || "Date shown on the artist page";
+          const artistLabel = show.artist_name || show.artist_slug;
+          const artist = indexableArtistSlugs.has(show.artist_slug)
+            ? anchor(artistLabel, `/artists/${show.artist_slug}#${showAnchorId(show)}`)
+            : escapeHtml(artistLabel);
+          const eventLabel = show.event_name || show.tour_name;
+          return `<li><time datetime="${escapeAttr(show.datetime_iso)}">${escapeHtml(date)}</time> — ${artist}${
+            eventLabel ? ` <span class="muted">(${escapeHtml(eventLabel)})</span>` : ""
+          }</li>`;
+        })
+        .join("");
+      return `<article class="nested-panel"><h3>${venueHeading}</h3><ul class="guide-link-list">${items}</ul></article>`;
+    })
+    .join("");
+}
+
+function cityForVenue(events, venue) {
+  return deriveCities(events).find(
+    (city) => city.indexable && city.city === venue.city && city.venueSlugs.includes(venue.slug)
+  ) || null;
+}
+
 function venueLocationLabel(venue) {
   return [venue.city, venue.country].filter((part) => String(part || "").trim()).join(", ");
 }
@@ -716,13 +1063,74 @@ function venueArtistCountLabel(count) {
   return `${count} ${count === 1 ? "artist" : "artists"}`;
 }
 
+function venueFaqEntries(venue) {
+  const next = venue.shows[0];
+  return [
+    [
+      `What upcoming concerts does TourTicketCompare track at ${venue.venue}?`,
+      `This page currently groups ${venue.showCount} upcoming reviewed shows at ${venue.venue} across ${venue.artistSlugs.length} artists. It is selective TourTicketCompare coverage, not the venue's complete calendar.`
+    ],
+    [
+      `What is the next concert TourTicketCompare tracks at ${venue.venue}?`,
+      next
+        ? `The next currently tracked date is ${next.artist_name || next.artist_slug} on ${formatShowDateServer(next.datetime_iso)}. Confirm the schedule with the artist and ticket provider before travelling.`
+        : "No upcoming reviewed date is currently available."
+    ],
+    [
+      `Does TourTicketCompare sell tickets for ${venue.venue}?`,
+      "No. TourTicketCompare does not sell tickets. It links to external providers only when the event and destination pass the relevant verification checks."
+    ],
+    [
+      `How should I compare tickets for a show at ${venue.venue}?`,
+      "Match the artist, local date, ticket type, quantity, section or standing area, view notes, and delivery method. Compare the final checkout total after fees for that exact ticket."
+    ],
+    [
+      "Are the displayed price snapshots final checkout prices?",
+      "No. Any displayed figure is a timestamped provider listed-price snapshot for a verified event, not live inventory or a final checkout total. Confirm current prices, fees, availability, and terms with the provider."
+    ],
+    [
+      `How current is this ${venue.venue} concert page?`,
+      venue.lastmod
+        ? `The most recently checked event record on this page was verified ${formatVerificationDate(venue.lastmod)}. Individual events can have different verification dates, and expired dates are removed automatically.`
+        : "Each date is tied to a reviewed event record, and expired dates are removed automatically."
+    ]
+  ];
+}
+
+function renderVenueAnswerSummary(venue, indexableArtistSlugs = new Set()) {
+  const next = venue.shows[0];
+  const range = cityDateRangeLabel(venue);
+  const artists = venueShowsByArtist(venue)
+    .map((artist) => indexableArtistSlugs.has(artist.slug) ? anchor(artist.name, `/artists/${artist.slug}`) : escapeHtml(artist.name))
+    .join(", ");
+  return `<section class="nested-panel" aria-labelledby="venueAnswerTitle"><h2 id="venueAnswerTitle">At a glance: upcoming shows at ${escapeHtml(
+    venue.venue
+  )}</h2><p><strong>Short answer:</strong> TourTicketCompare currently tracks ${escapeHtml(
+    venueShowCountLabel(venue.showCount)
+  )} at ${escapeHtml(venue.venue)} across ${escapeHtml(venueArtistCountLabel(venue.artistSlugs.length))}. This is a reviewed subset rather than the venue's complete event calendar.</p><div class="card-grid"><article class="info-card"><h3>Next tracked show</h3><p>${next ? `${escapeHtml(
+    formatShowDateServer(next.datetime_iso)
+  )}: ${escapeHtml(next.artist_name || next.artist_slug)}.` : "No upcoming reviewed date is available."}</p></article><article class="info-card"><h3>Tracked date range</h3><p>${escapeHtml(
+    range || "Dates are shown in the schedule below."
+  )}</p></article><article class="info-card"><h3>Artists in this coverage</h3><p>${artists}</p></article><article class="info-card"><h3>Verification recency</h3><p>${venue.lastmod ? `The latest event record was checked ${escapeHtml(
+    formatVerificationDate(venue.lastmod)
+  )}.` : "Each event carries its own verification record."}</p></article></div></section>`;
+}
+
+function renderVenueProvenance(venue) {
+  return `<section class="guide-provenance" aria-label="Editorial and data information"><p><strong>Maintained by the TourTicketCompare editorial team.</strong>${
+    venue.lastmod ? ` The most recently checked event record on this page was verified ${escapeHtml(formatVerificationDate(venue.lastmod))}.` : ""
+  }</p><p>Every listing comes from a reviewed upcoming event record, and expired dates are removed automatically. This page does not claim to reproduce ${escapeHtml(
+    venue.venue
+  )}'s complete calendar. Read our ${anchor("editorial policy", "/editorial-policy")}, see ${anchor(
+    "how the site works",
+    "/how-it-works"
+  )}, or ${anchor("report an incorrect event", "/contact")}.</p></section>`;
+}
+
 function venueMetaDescription(venue) {
-  const location = venueLocationLabel(venue);
-  return `Find upcoming shows at ${venue.venue}${location ? ` in ${location}` : ""}. ${venueShowCountLabel(
-    venue.showCount
-  )} we track across ${venueArtistCountLabel(
+  return `See ${venueShowCountLabel(venue.showCount)} at ${venue.venue}${venue.city ? ` in ${venue.city}` : ""} across ${venueArtistCountLabel(
     venue.artistSlugs.length
-  )}, with links to verified artist ticket pages and approved price snapshots where available.`;
+  )}. Match the exact date, review checked ticket options, and confirm current prices and fees with the provider.`;
 }
 
 // Group a venue's upcoming shows by artist, preserving first-show chronological order.
@@ -741,7 +1149,7 @@ function venueShowsByArtist(venue) {
 
 function renderVenueLinks(venues) {
   if (!venues.length) {
-    return `<p class="muted">No venues with multiple upcoming tracked dates are listed yet. New venues appear here as tour dates are verified.</p>`;
+    return `<p class="muted">No venue currently has at least three upcoming tracked dates across two artists. New venues appear here as tour dates are verified.</p>`;
   }
   return `<div class="artist-card-grid">${venues
     .map((venue) => {
@@ -968,20 +1376,10 @@ function renderComparisonHubArtistCards(catalog, events = []) {
 }
 
 function renderComparisonHubCityLinks(events = []) {
-  const preferred = ["London", "Manchester", "Birmingham", "Liverpool", "Glasgow", "Cardiff", "Brighton", "Dublin"];
-  const publishable = publishableFutureShows(events);
-  const counts = new Map();
-  for (const show of publishable) {
-    const city = preferred.find((name) => name.toLowerCase() === show.city.toLowerCase());
-    if (city) counts.set(city, (counts.get(city) || 0) + 1);
-  }
-  const cities = preferred.filter((city) => counts.has(city)).concat(preferred.filter((city) => !counts.has(city))).slice(0, 8);
+  const cities = deriveCities(events).filter((city) => city.indexable).slice(0, 8);
+  if (!cities.length) return `<p class="muted">City pages appear once multiple artists have enough reviewed upcoming dates.</p>`;
   return `<div class="mini-link-grid">${cities
-    .map((city) => {
-      const count = counts.get(city) || 0;
-      const label = count ? `${city} concerts (${count})` : `${city} concerts`;
-      return anchor(label, `/?q=${encodeURIComponent(city)}#search-widget`, "mini-link");
-    })
+    .map((city) => anchor(`${city.city} concerts (${city.showCount})`, `/cities/${city.slug}`, "mini-link"))
     .join("")}</div>`;
 }
 
@@ -1006,7 +1404,7 @@ function latestHubVerificationDate(events = []) {
 }
 
 function renderComparisonIntentCards() {
-  return `<section class="nested-panel"><h2>Start with what you know</h2><div class="card-grid"><article class="info-card"><h3>I know the artist</h3><p>Open the artist page first. You can review checked dates, provider buttons where available, and notes on what to confirm before checkout.</p>${anchor("Browse artist pages", "#compare-by-artist", "text-link")}</article><article class="info-card"><h3>I know the city</h3><p>Use a city shortcut to search matching concerts, venues and guides, then narrow by date and artist.</p>${anchor("Search city shortcuts", "#compare-by-city", "text-link")}</article><article class="info-card"><h3>I know the date or venue</h3><p>Search the site for the venue or date, then confirm the exact event details on the ticket provider before buying.</p>${anchor("Browse checked events", "#current-events", "text-link")}</article></div></section>`;
+  return `<section class="nested-panel"><h2>Start with what you know</h2><div class="card-grid"><article class="info-card"><h3>I know the artist</h3><p>Open the artist page first. You can review checked dates, provider buttons where available, and notes on what to confirm before checkout.</p>${anchor("Browse artist pages", "#compare-by-artist", "text-link")}</article><article class="info-card"><h3>I know the city</h3><p>Open a city page to match upcoming concerts by artist, venue, and date before comparing ticket options.</p>${anchor("Browse concert cities", "#compare-by-city", "text-link")}</article><article class="info-card"><h3>I know the date or venue</h3><p>Search the site for the venue or date, then confirm the exact event details on the ticket provider before buying.</p>${anchor("Browse checked events", "#current-events", "text-link")}</article></div></section>`;
 }
 
 function renderProviderChecklistSection() {
@@ -1746,7 +2144,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Browse artists", "#compare-by-artist", "button button-secondary")}</div><p class="disclosure-note">We compare approved, timestamped provider snapshots for the same event only. A snapshot is a starting point, not a seat-for-seat comparison or a final checkout quote; providers control prices, fees, availability, restrictions and delivery terms.</p></section>${renderComparisonIntentCards()}<section id="compare-by-artist" class="nested-panel"><h2>Start with an artist page</h2><p>Choose an artist to find the date you mean, review checked provider options where available, and move to the exact event before comparing anything.</p>${renderComparisonHubArtistCards(
       catalog,
       events
-    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city</h2><p>Use a city shortcut when location comes first, then match the artist, venue and date on the artist page before opening provider links.</p>${renderComparisonHubCityLinks(
+    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city</h2><p>Use a city page when location comes first, then match the artist, venue, and date before opening checked provider links.</p>${renderComparisonHubCityLinks(
       events
     )}</section>${renderProviderChecklistSection()}<section class="nested-panel"><h2>How concert ticket prices vary</h2><div class="card-grid"><article class="info-card"><h3>Seller and ticket type</h3><p>Primary tickets, resale listings and provider marketplace rules can all affect what you see.</p></article><article class="info-card"><h3>Seat location and demand</h3><p>Section, row, view, proximity to the stage and demand for a specific date can change the final total.</p></article><article class="info-card"><h3>Availability and timing</h3><p>Listings may change as onsales, extra releases, transfers and resale supply shift before the event.</p></article><article class="info-card"><h3>Service fees</h3><p>Compare the final checkout total after service, delivery, tax and handling fees, not only the first displayed price.</p></article></div></section>${renderComparisonTrustPanel(
       events
@@ -1758,7 +2156,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Currency converter",
       "/currency-converter",
       "button button-secondary"
-    )}</div></section><section id="current-events" class="nested-panel"><h2>Browse concerts and tours</h2><p>Use artist and tour pages as a hub for checked links and event-specific buying guidance.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
+    )}</div></section><section id="current-events" class="nested-panel"><h2>Browse concerts and tours</h2><p>Use artist and tour pages as a hub for checked links and event-specific buying guidance.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse cities", "/cities", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
       .filter((tour) => tour && tour.verified === true && tour.artist_slug && tour.slug)
       .slice(0, 6)
       .map((tour) => anchor(tour.tour_name || "Tour ticket options", `/artists/${tour.artist_slug}/${tour.slug}`, "mini-link"))
@@ -1788,6 +2186,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
     const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
+    const artistCitiesHtml = renderArtistCitiesHtml(events, artist);
     const artistVenuesHtml = renderArtistVenuesHtml(events, artist);
     const shows = futureShowsForArtist(events, artist.slug);
     const reviewNoticeHtml = isIndexableArtist
@@ -1830,7 +2229,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes
-    )}</p></div></section>${demandHtml}<section class="nested-panel"><h2>Before you buy</h2><ul class="check-list"><li>Check the final price including all fees.</li><li>Check the seat location and any view restrictions.</li><li>Check delivery, refund, and resale terms on the provider site.</li></ul></section>${artistVenuesHtml}${relatedGuidesHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+    )}</p></div></section>${demandHtml}<section class="nested-panel"><h2>Before you buy</h2><ul class="check-list"><li>Check the final price including all fees.</li><li>Check the seat location and any view restrictions.</li><li>Check delivery, refund, and resale terms on the provider site.</li></ul></section>${artistCitiesHtml}${artistVenuesHtml}${relatedGuidesHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "mini-link"
@@ -1876,17 +2275,88 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}</div></section></main>`;
   }
 
+  if (route.type === "cities-index") {
+    const cities = Array.isArray(route.cities) ? route.cities : [];
+    const leadingCity = cities[0];
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="citiesTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="citiesTitle">Concerts by city</h1><p class="lead">Start with where you want to go. Each city guide brings together reviewed upcoming tour dates, artists, and venues so you can identify the exact show before comparing checked ticket options.</p><section class="nested-panel"><h2>Where does TourTicketCompare track upcoming concerts?</h2><p><strong>Short answer:</strong> ${escapeHtml(
+      `${cities.length} ${cities.length === 1 ? "city currently has" : "cities currently have"} enough reviewed upcoming dates to appear in this index.`
+    )}${leadingCity ? ` The broadest current coverage is ${anchor(leadingCity.city, `/cities/${leadingCity.slug}`)} with ${escapeHtml(cityShowCountLabel(leadingCity.showCount))}.` : ""}</p><p>Coverage is selective rather than a complete events calendar. City pages update as reviewed dates are added or pass, so use the provider linked from the artist page to confirm the latest schedule and ticket terms.</p></section><section class="nested-panel"><h2>What makes a city page useful?</h2><div class="card-grid"><article class="info-card"><h3>Enough distinct coverage</h3><p>A city must have at least four upcoming reviewed shows across at least two artists before it can be indexed.</p></article><article class="info-card"><h3>Event-level facts</h3><p>Every listed date comes from the same reviewed event records used on artist and venue pages; city or venue facts are never invented to fill a page.</p></article><article class="info-card"><h3>A route to the exact show</h3><p>Each city schedule links to the relevant artist event card, where checked provider destinations and eligible price snapshots appear.</p></article></div></section><section class="section-grid"><div class="section-intro"><h2>Cities with upcoming concerts</h2><p>${escapeHtml(
+      `${cities.length} ${cities.length === 1 ? "city" : "cities"} currently meet the coverage threshold.`
+    )}</p></div>${renderCityLinks(cities)}</section><section class="nested-panel"><h2>Before choosing a concert ticket</h2><p>A city and date narrow the search, but they do not make two tickets equivalent. Match the ticket type, quantity, section or standing area, view notes, delivery method, and final checkout total before deciding.</p><div class="mini-link-grid">${anchor(
+      "How to compare concert ticket prices",
+      "/guides/how-to-compare-concert-ticket-prices",
+      "mini-link"
+    )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "mini-link")}${anchor(
+      "How to read a ticket listing",
+      "/guides/how-to-read-a-ticket-listing",
+      "mini-link"
+    )}</div></section><div class="action-row">${anchor(
+      "Browse artists",
+      "/artists",
+      "button button-secondary"
+    )}${anchor("Browse venues", "/venues", "button button-secondary")}${anchor(
+      "Compare concert ticket prices",
+      "/compare-concert-ticket-prices",
+      "button button-secondary"
+    )}</div></section></main>`;
+  }
+
+  if (route.type === "city") {
+    const city = route.city;
+    const yearLabel = cityYearLabel(city);
+    const indexableArtistSlugs = new Set(route.indexableArtistSlugs || []);
+    const indexableVenueSlugs = new Set(
+      deriveVenues(events).filter((venue) => venue.indexable).map((venue) => venue.slug)
+    );
+    const faqHtml = cityFaqEntries(city)
+      .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
+      .join("");
+    return `<main id="mainContent"><section class="content-page city-page" aria-labelledby="cityTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="cityTitle">Concerts in ${escapeHtml(city.city)}${yearLabel ? `: ${escapeHtml(yearLabel)} dates and venues` : ""}</h1><p class="lead">Use this reviewed city guide to find an upcoming show by artist, venue, and date before you compare ticket options. We currently track ${escapeHtml(
+      `${cityShowCountLabel(city.showCount)} in ${city.city}, ${city.country}, across ${cityArtistCountLabel(
+        city.artistCount
+      )} and ${cityVenueCountLabel(city.venueCount)}.`
+    )}</p><p class="disclosure-note">This is a selective list of reviewed tour dates, not a complete city events calendar. Ticket links and price snapshots appear only when their existing event-level verification and freshness gates pass.</p>${renderCityProvenance(
+      city
+    )}${renderCityAnswerSummary(
+      city
+    )}${renderCityArtistCoverage(city, indexableArtistSlugs)}<section class="section-grid"><div class="section-intro"><h2>Upcoming concerts in ${escapeHtml(
+      city.city
+    )}${yearLabel ? ` for ${escapeHtml(yearLabel)}` : ""}</h2><p>Shows are grouped by venue and listed in chronological order. Follow an artist link to the matching event card and checked provider options.</p></div>${renderCityShowGroups(
+      city,
+      indexableArtistSlugs,
+      indexableVenueSlugs
+    )}</section><section class="nested-panel"><h2>How to compare tickets for a ${escapeHtml(
+      city.city
+    )} concert</h2><ol class="check-list"><li>Choose the exact artist, venue, and local date above.</li><li>Open the artist page and compare only provider snapshots attached to that same verified event.</li><li>On the provider site, match the ticket type, quantity, section or standing area, and delivery method.</li><li>Confirm the current final total, fees, availability, restrictions, and refund terms before paying.</li></ol><div class="action-row">${anchor(
+      "How to compare concert ticket prices",
+      "/guides/how-to-compare-concert-ticket-prices",
+      "button button-secondary"
+    )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "button button-secondary")}${anchor(
+      "All cities",
+      "/cities",
+      "button button-secondary"
+    )}</div></section><section class="nested-panel faq-panel"><h2>${escapeHtml(
+      city.city
+    )} concert FAQ</h2>${faqHtml}</section></section></main>`;
+  }
+
   if (route.type === "venues-index") {
     const venues = Array.isArray(route.venues) ? route.venues : [];
     return `<main id="mainContent"><section class="content-page" aria-labelledby="venuesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="venuesTitle">Concert venues</h1><p class="lead">Browse the concert venues where we track multiple upcoming tour dates. Open a venue to see its upcoming shows, then follow the artist link for verified ticket options and any approved price snapshots.</p><p class="disclosure-note">Coverage varies by venue and region. Venues appear here once we track two or more upcoming dates at them.</p><section class="section-grid"><div class="section-intro"><h2>Venues with upcoming shows</h2><p>${escapeHtml(
-      `${venues.length} ${venues.length === 1 ? "venue" : "venues"} with multiple upcoming tracked dates.`
+    )}<h1 id="venuesTitle">Concert venues</h1><p class="lead">Browse venues with enough reviewed coverage to compare upcoming dates across multiple artists. Open a venue to identify the exact show, then follow its artist page to checked ticket options and any approved price snapshots.</p><section class="nested-panel"><h2>Which concert venues are included?</h2><p><strong>Short answer:</strong> ${escapeHtml(
+      `${venues.length} ${venues.length === 1 ? "venue currently has" : "venues currently have"} at least three reviewed upcoming shows across at least two artists.`
+    )} This is selective TourTicketCompare coverage, not a complete venue directory or a reproduction of each venue's calendar.</p></section><section class="nested-panel"><h2>Why the coverage threshold matters</h2><p>A venue page is indexed only when it can help someone compare more than one artist's schedule at that location. Every date comes from the same reviewed event records used on the artist page; expired dates are removed automatically, and no venue facts are invented to fill a page.</p></section><section class="section-grid"><div class="section-intro"><h2>Venues with upcoming shows</h2><p>${escapeHtml(
+      `${venues.length} ${venues.length === 1 ? "venue" : "venues"} currently meet the coverage threshold.`
     )}</p></div>${renderVenueLinks(venues)}</section><div class="action-row">${anchor(
       "Browse artists",
       "/artists",
       "button button-secondary"
-    )}${anchor("Compare concert ticket prices", "/compare-concert-ticket-prices", "button button-secondary")}${anchor(
+    )}${anchor("Browse cities", "/cities", "button button-secondary")}${anchor("Compare concert ticket prices", "/compare-concert-ticket-prices", "button button-secondary")}${anchor(
       "Read buying guides",
       "/guides",
       "button button-secondary"
@@ -1896,21 +2366,28 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "venue") {
     const venue = route.venue;
     const location = venueLocationLabel(venue);
+    const cityPage = cityForVenue(events, venue);
     const seatGeekAvailable = isSeatGeekConfigured(env);
     const vividSeatsAvailable = isVividSeatsConfigured(env);
     const marketplaceAvailability = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]));
+    const indexableArtistSlugs = new Set(route.indexableArtistSlugs || []);
+    const faqHtml = venueFaqEntries(venue)
+      .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
+      .join("");
     return `<main id="mainContent"><section class="content-page venue-page" aria-labelledby="venueTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="venueTitle">${escapeHtml(venue.venue)} concerts and upcoming shows</h1><p class="lead">${escapeHtml(
       `We track ${venueShowCountLabel(venue.showCount)} at ${venue.venue}${location ? ` in ${location}` : ""} across ${venueArtistCountLabel(
         venue.artistSlugs.length
       )}.`
-    )} Pick a date and open a checked provider option for that show.</p><p class="disclosure-note">Ticket links and any approved price snapshots are shown only when their existing event-level verification and runtime gates pass. Confirm final prices and fees on the provider site.</p><section class="section-grid"><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
+    )} Pick a date and open a checked provider option for that show.</p><p class="disclosure-note">Ticket links and any approved price snapshots are shown only when their existing event-level verification and runtime gates pass. Confirm final prices and fees on the provider site.</p>${renderVenueProvenance(
+      venue
+    )}${renderVenueAnswerSummary(venue, indexableArtistSlugs)}<section class="section-grid"><div class="section-intro"><h2>Upcoming shows at ${escapeHtml(
       venue.venue
-    )}</h2><p>Dates are grouped by artist and listed earliest first.</p></div>${renderVenueShowGroups(
+    )}</h2><p>Dates are grouped by artist and listed earliest first. Use the exact event card to review checked destinations and any eligible, timestamped price snapshots.</p></div>${renderVenueShowGroups(
       venue,
       events,
-      new Set(route.indexableArtistSlugs || []),
+      indexableArtistSlugs,
       seatGeekAvailable,
       vividSeatsAvailable,
       marketplaceAvailability
@@ -1920,11 +2397,13 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "How to compare concert ticket prices",
       "/guides/how-to-compare-concert-ticket-prices",
       "button button-secondary"
-    )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "button button-secondary")}${anchor(
+    )}${cityPage ? anchor(`More concerts in ${cityPage.city}`, `/cities/${cityPage.slug}`, "button button-secondary") : ""}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "button button-secondary")}${anchor(
       "All venues",
       "/venues",
       "button button-secondary"
-    )}</div></section></section></main>`;
+    )}</div></section><section class="nested-panel faq-panel"><h2>${escapeHtml(
+      venue.venue
+    )} concert FAQ</h2>${faqHtml}</section></section></main>`;
   }
 
   if (route.path === "/artists") {
@@ -2049,7 +2528,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "Compare concert ticket prices",
     "/compare-concert-ticket-prices",
     "button button-primary"
-  )}${anchor("Browse artists", "#featured-artists", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search reviewed artists, events, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid"><article class="info-card"><h3>1. Find your show</h3><p>Search an artist and pick the verified date that matches your plans.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>2. Compare snapshots</h3><p>See available provider price snapshots for the same event.</p>${anchor("Compare ticket prices", "/compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>3. Confirm and buy</h3><p>Open the provider site to confirm the final price, fees, availability, and ticket details.</p>${anchor("Read the guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Checked upcoming dates and verified event links for every artist we track. Prefer to plan around a location? ${anchor("Browse venues with multiple upcoming shows", "/venues", "text-link")}.</p></div>${renderArtistLinks(
+  )}${anchor("Browse artists", "#featured-artists", "button button-secondary")}${anchor("Browse concert cities", "/cities", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search reviewed artists, events, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid"><article class="info-card"><h3>1. Find your show</h3><p>Search an artist and pick the verified date that matches your plans.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>2. Compare snapshots</h3><p>See available provider price snapshots for the same event.</p>${anchor("Compare ticket prices", "/compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>3. Confirm and buy</h3><p>Open the provider site to confirm the final price, fees, availability, and ticket details.</p>${anchor("Read the guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Checked upcoming dates and verified event links for every artist we track. Prefer to plan around a location? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
     catalog,
     events
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
@@ -2382,7 +2861,7 @@ export async function onRequest(context) {
   }
 
   const catalog = await loadCatalog(env);
-  const needsEvents = route.type === "artist" || route.type === "venue" || route.type === "comparison-hub" || route.path === "/artists" || route.path === "/";
+  const needsEvents = route.type === "artist" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.path === "/artists" || route.path === "/";
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
   let renderEvents = events;
   if ((route.type === "artist" || route.type === "venue") && events.length) {

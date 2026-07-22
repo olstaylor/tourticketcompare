@@ -1,5 +1,6 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
 import { deriveVenues } from "./_venues.js";
+import { deriveCities } from "./_cities.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -37,6 +38,16 @@ async function loadIndexableVenues(env) {
     const events = await loadJsonAsset(env, "/data/events.json");
     if (!Array.isArray(events)) return [];
     return deriveVenues(events).filter((venue) => venue.indexable);
+  } catch (error) {
+    return [];
+  }
+}
+
+async function loadIndexableCities(env) {
+  try {
+    const events = await loadJsonAsset(env, "/data/events.json");
+    if (!Array.isArray(events)) return [];
+    return deriveCities(events).filter((city) => city.indexable);
   } catch (error) {
     return [];
   }
@@ -89,18 +100,33 @@ export async function onRequestGet({ request, env }) {
     changefreq: "weekly",
     priority: "0.8"
   }));
-  const indexableVenues = await loadIndexableVenues(env);
+  const [indexableCities, indexableVenues] = await Promise.all([
+    loadIndexableCities(env),
+    loadIndexableVenues(env)
+  ]);
+  const cityLastmod = indexableCities.map((city) => city.lastmod).filter((value) => ISO_DATE.test(value)).sort().at(-1) || STATIC_LASTMOD;
+  const cityEntries = indexableCities.length
+    ? [{ path: "/cities", lastmod: cityLastmod, changefreq: "weekly", priority: "0.7" }].concat(
+        indexableCities.map((city) => ({
+          path: `/cities/${city.slug}`,
+          lastmod: ISO_DATE.test(city.lastmod) ? city.lastmod : STATIC_LASTMOD,
+          changefreq: "weekly",
+          priority: "0.7"
+        }))
+      )
+    : [];
+  const venueLastmod = indexableVenues.map((venue) => venue.lastmod).filter((value) => ISO_DATE.test(value)).sort().at(-1) || STATIC_LASTMOD;
   const venueEntries = indexableVenues.length
-    ? [{ path: "/venues", lastmod: STATIC_LASTMOD, changefreq: "weekly", priority: "0.6" }].concat(
+    ? [{ path: "/venues", lastmod: venueLastmod, changefreq: "weekly", priority: "0.6" }].concat(
         indexableVenues.map((venue) => ({
           path: `/venues/${venue.slug}`,
-          lastmod: STATIC_LASTMOD,
+          lastmod: ISO_DATE.test(venue.lastmod) ? venue.lastmod : STATIC_LASTMOD,
           changefreq: "weekly",
           priority: "0.6"
         }))
       )
     : [];
-  const entries = staticEntries.concat(artistEntries, venueEntries);
+  const entries = staticEntries.concat(artistEntries, cityEntries, venueEntries);
 
   const urlsXml = entries
     .map((entry) => {

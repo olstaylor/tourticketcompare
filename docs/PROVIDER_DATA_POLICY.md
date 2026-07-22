@@ -67,6 +67,7 @@ When runtime Impact configuration is absent or tracking generation fails, `/api/
 **Approved public display rights:**
 - **Ticket links/CTAs:** approved and live for event records that pass the per-event provenance, URL-shape, runtime configuration, and redirect gates.
 - **Listed price:** approved for public display from the approved Vivid Seats feed when `VIVIDSEATS_PRICE_DISPLAY_ENABLED=true` and the cache/source/freshness gates pass.
+- **Machine-readable redistribution (JSON-LD `offers`):** owner-confirmed with the programme 2026-07-22. A schema.org Offer may mirror the visible snapshot under the schema-offers exception in `SAFE_PUBLISHING_RULES.md` (flag-gated, badge-mirroring, `priceValidUntil` = the row's `expires_at`, no availability).
 - **Side-by-side comparisons:** approved for the same verified event with another fresh approved provider snapshot. TourTicketCompare may identify the lower listed snapshot and the price difference. (SeatGeek cannot be the other lane — it has no numeric snapshot lane.)
 - **History:** approved for archival and historical display when the provider/source attribution and observation time remain attached.
 - **Fees/final checkout total:** not approved from TourTicketCompare data. Users must confirm fees and final totals on Vivid Seats.
@@ -93,6 +94,7 @@ The implementation includes:
 2. Event links and any displayed listed-price snapshot must originate from the approved catalog feed and retain the required affiliate/provider disclosure. Catalog membership does not permit invented inventory, fees, or checkout-total claims.
 3. Sample catalog event URLs and tracking redirects were browser-verified against artist, venue, city, and date. New or ambiguous matches remain withheld.
 4. The public lanes default on; an explicit provider `*_PUBLIC_ENABLED=false` remains the emergency kill switch. TicketNetwork and StubHub International price display default on behind exact-ID/source/freshness/cache gates. Ticket Liquidator price display defaults off while its feed lacks numeric `CurrentPrice`.
+5. **Machine-readable redistribution (JSON-LD `offers`):** owner-confirmed 2026-07-22 for **TicketNetwork and StubHub International only** — schema.org Offers may mirror their visible snapshots under the schema-offers exception in `SAFE_PUBLISHING_RULES.md` (flag-gated, badge-mirroring, `priceValidUntil` = the row's `expires_at`, no availability). Ticket Liquidator is excluded (no numeric price lane, display off), and confirmation is never inferred between StubHub International and StubHub US/Canada.
 
 Campaign/catalog IDs and credential routing are server-side configuration and must not be copied into public or stable documentation. Verify them through the provider workflow and record only non-secret current activation in `PROJECT_STATUS.md`.
 

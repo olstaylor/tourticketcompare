@@ -391,21 +391,27 @@ function artistSchema(route, origin) {
 
 // MusicEvent nodes are emitted only for shows that pass the same publishable
 // gate as the visible show board (verified date + venue + artist; see
-// docs/CONTENT_RULES.md). Never emit offers, prices, or availability — the
-// ticket providers own those, and validate-route-schema.mjs fails the build if
-// any of those words appear on a node. `description` and `image` are composed
-// only from already-verified facts (name/venue/city/date) and the site's own
-// representative image, so they add Search Console coverage without inventing
-// data. `organizer` and `endDate` stay omitted: we hold no verified promoter or
-// event end time, and fabricating either would violate the never-invent rule.
-function musicEventsSchema(route, origin, events) {
+// docs/CONTENT_RULES.md). Offers, prices, and availability stay off every node
+// by default — validate-route-schema.mjs fails the build if they appear — with
+// one owner-approved exception (2026-07-22, SAFE_PUBLISHING_RULES.md): behind
+// SCHEMA_OFFERS_ENABLED, an `offers` array may mirror the visible price badge
+// for the redistribution-approved lanes in SCHEMA_OFFERS_APPROVED_PROVIDERS
+// (see musicEventOffersSchema below). Availability is never emitted under any
+// flag. `description` and `image` are composed only from already-verified
+// facts (name/venue/city/date) and the site's own representative image, so
+// they add Search Console coverage without inventing data. `organizer` and
+// `endDate` stay omitted: we hold no verified promoter or event end time, and
+// fabricating either would violate the never-invent rule.
+function musicEventsSchema(route, origin, events, env = {}) {
   const artistId = `${origin}${route.path}#artist`;
+  const offersEnabled = schemaOffersEnabledForArtist(env, route.artist.slug);
   return futureShowsForArtist(events, route.artist.slug, 6)
     .filter((show) => show.publishable && show.dateTimeISO && show.venue && show.city)
     .map((show) => {
       const anchorId = showAnchorId(show);
       const displayDate = formatShowDateServer(show.dateTimeISO);
       const description = `${route.artist.name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`;
+      const offers = offersEnabled ? musicEventOffersSchema(show, origin, env) : [];
       return {
         "@type": "MusicEvent",
         name: show.event_name || `${route.artist.name} — ${show.city}`,
@@ -419,9 +425,65 @@ function musicEventsSchema(route, origin, events) {
           address: { "@type": "PostalAddress", addressLocality: show.city }
         },
         performer: { "@id": artistId },
-        url: `${origin}${route.path}#${anchorId}`
+        url: `${origin}${route.path}#${anchorId}`,
+        ...(offers.length ? { offers } : {})
       };
     });
+}
+
+// Schema offers are opt-in per environment (default off) and optionally scoped
+// to a pilot artist list, so rollout and rollback are dashboard flag flips —
+// the next render simply omits the nodes. Indexed copies age out under their
+// own priceValidUntil; there is no revocation mechanism beyond recrawl.
+function schemaOffersEnabledForArtist(env, artistSlug) {
+  if (String(env?.SCHEMA_OFFERS_ENABLED || "").trim().toLowerCase() !== "true") return false;
+  const pilotSlugs = String(env?.SCHEMA_OFFERS_PILOT_SLUGS || "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
+  return pilotSlugs.length === 0 || pilotSlugs.includes(String(artistSlug || ""));
+}
+
+// An Offer node may exist only when the same gate chain that renders the
+// visible price badge on the provider CTA button passes on the same render:
+// provider configured, event-level provenance publishable, tracked /api/out
+// destination, approvedServerPriceLane (approved source, fresh unexpired
+// cache row, finite price, ISO currency), and the badge formatting checks.
+// Each Offer carries only price, priceCurrency, priceValidUntil (the snapshot
+// row's expires_at — the machine-readable claim expires with the same row
+// that hides the visible price), and the tracked /api/out URL. Availability
+// and inventory are never emitted. Keep the gate chain in sync with
+// renderShowCardServerHtml.
+function musicEventOffersSchema(show, origin, env) {
+  const laneSpecs = [];
+  if (
+    SCHEMA_OFFERS_APPROVED_PROVIDERS.includes("vivid-seats") &&
+    vividSeatsOutAvailable(show, isVividSeatsConfigured(env))
+  ) {
+    laneSpecs.push({ slug: "vivid-seats", name: "Vivid Seats" });
+  }
+  for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
+    if (!SCHEMA_OFFERS_APPROVED_PROVIDERS.includes(provider.slug)) continue;
+    const publishable = show?.impactMarketplacePublishable?.[provider.slug] ?? providerEventPublishable(show, provider.slug);
+    if (isImpactMarketplaceConfigured(env, provider) && publishable) {
+      laneSpecs.push({ slug: provider.slug, name: provider.name });
+    }
+  }
+  const offers = [];
+  for (const spec of laneSpecs) {
+    const href = eventTicketHref(show, spec.slug);
+    const lane = href ? approvedServerPriceLane(show, spec.name) : null;
+    if (!lane) continue;
+    if (!formatServerPrice(lane.price, lane.currency) || !formatServerSnapshotTime(lane.fetchedAt)) continue;
+    offers.push({
+      "@type": "Offer",
+      price: lane.price,
+      priceCurrency: lane.currency,
+      priceValidUntil: lane.expiresAt,
+      url: `${origin}${href}`
+    });
+  }
+  return offers;
 }
 
 function guideClusterTitle(path) {
@@ -458,12 +520,12 @@ function articleSchema(route, origin, guideEntry = {}) {
   };
 }
 
-function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}) {
+function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}, env = {}) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
   if (route.type === "artist") {
     graph.push(artistSchema(route, origin), faqSchema(route));
-    if (route.indexable) graph.push(...musicEventsSchema(route, origin, events));
+    if (route.indexable) graph.push(...musicEventsSchema(route, origin, events, env));
   }
   if (route.type === "guide") {
     const guideEntry = guideContent[route.path];
@@ -1120,6 +1182,14 @@ const IMPACT_MARKETPLACE_PROVIDERS = [
   { slug: "stubhub-international", name: "StubHub International", envPrefix: "IMPACT_STUBHUB_INTERNATIONAL", urlField: "stubhub_international_url", allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"], priceSource: "stubhub_international_impact_marketplace_api", publicFlag: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED" }
 ];
 
+// Owner-approved lanes for machine-readable price redistribution in JSON-LD
+// Offer nodes (confirmed with each programme 2026-07-22; see
+// SAFE_PUBLISHING_RULES.md and docs/PROVIDER_DATA_POLICY.md).
+// validate-route-schema.mjs imports this list: a provider absent here can
+// never emit an Offer node, whatever the runtime flags say. Ticketmaster,
+// SeatGeek, and Ticket Liquidator are deliberately excluded.
+export const SCHEMA_OFFERS_APPROVED_PROVIDERS = Object.freeze(["vivid-seats", "ticketnetwork", "stubhub-international"]);
+
 // Affiliate providers render before the plain,
 // unmonetized Ticketmaster link. Keep in sync with PROVIDER_DISPLAY_ORDER in
 // public/app.js.
@@ -1465,7 +1535,7 @@ function approvedServerPriceLane(show, provider) {
   const expiresAt = String(lane.expiresAt || "").trim();
   if (!Number.isFinite(price) || price < 0 || !/^[A-Z]{3}$/.test(currency)) return null;
   if (!Number.isFinite(Date.parse(fetchedAt)) || !Number.isFinite(Date.parse(expiresAt)) || Date.parse(expiresAt) <= Date.now()) return null;
-  return { price, currency, fetchedAt };
+  return { price, currency, fetchedAt, expiresAt };
 }
 
 function formatServerPrice(value, currency) {
@@ -2016,7 +2086,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
-    `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog))}</script>`
+    `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
   );
   next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
   if (route.path === "/") {

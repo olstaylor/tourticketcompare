@@ -84,6 +84,10 @@ Automation may require:
 
 Missing credentials must cause a safe no-op or explicit failure, never guessed data or an untracked redirect.
 
+### Repository write capability
+
+Direct-to-`main` capability exists in exactly one workflow: `nightly-data-sync.yml`, and only for its gated lossless factual updates (see [PROVIDER_SYNC.md](PROVIDER_SYNC.md)). The price-snapshot workflows (`impact-marketplace-price-snapshots.yml`, `vividseats-price-snapshots.yml`) write only to D1, never to the repository. Auto-merge-capable workflows: `tm-new-shows-pr.yml`, `seatgeek-cta-sync.yml`, `vividseats-cta-sync.yml`, and — scheduled runs only — `impact-marketplace-provider-sync.yml`; each only after its in-run validation suite passes, and a failed merge leaves the PR open for a human. Every other workflow is report-only or opens a review-only PR that never auto-merges. Widening any of these capabilities is an owner decision, not a maintenance change.
+
 ## Provider snapshot operations
 
 Scheduled snapshot workflows write approved exact-event observations to `provider_pricing_cache`; public traffic reads only D1.

@@ -934,7 +934,10 @@ assert(seoGuide.text.includes("TourTicketCompare editorial team"), "guide raw HT
 assert(seoGuide.text.includes("<h2>Sources</h2>"), "guide raw HTML should expose primary sources");
 const seoGuideLd = extractJsonLd(seoGuide.text);
 const seoGuideArticle = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Article");
-assert(seoGuideArticle?.dateModified === "2026-07-13", "guide Article schema should expose the current modification date");
+assert(
+  seoGuideArticle?.dateModified === routeMetadataModule.GUIDE_ROUTES["/guides/how-to-compare-concert-ticket-prices"]?.lastmod,
+  "guide Article schema should expose the current modification date"
+);
 assert(Array.isArray(seoGuideArticle?.citation) && seoGuideArticle.citation.length >= 4, "guide Article schema should cite its visible primary sources");
 assert(seoGuideArticle?.author?.url === "https://tourticketcompare.com/about", "guide Article schema author should resolve to the About page");
 const seoOrganization = seoGuideLd?.["@graph"]?.find((node) => node?.["@type"] === "Organization");

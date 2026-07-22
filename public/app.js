@@ -37,7 +37,7 @@ const guidePages = [
   {
     slug: "how-to-compare-concert-ticket-prices",
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
-    description: "Compare concert ticket prices using exact-event, ticket-type, seat, fee, delivery, and buyer-protection checks, with timestamped provider snapshots as a starting point.",
+    description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final provider total and terms.",
     h1: "How to Compare Concert Ticket Prices Safely",
     serverRendered: true
   },
@@ -72,7 +72,7 @@ const guidePages = [
   {
     slug: "primary-vs-resale-concert-tickets",
     title: "Primary vs Resale Concert Tickets | TourTicketCompare",
-    description: "Understand official tickets vs resale tickets, including fees, seat details, transfer timing, seller terms, protections, and checkout checks.",
+    description: "Decide between primary and resale concert tickets by weighing ticket type, seat choice, final total, transfer timing, provider terms, and certainty.",
     h1: "What is the difference between official tickets and resale?",
     serverRendered: true
   },
@@ -107,7 +107,7 @@ const guidePages = [
   {
     slug: "concert-ticket-fees-explained",
     title: "Concert Ticket Fees Explained | TourTicketCompare",
-    description: "Understand common concert ticket fee categories and compare final checkout totals safely before you buy.",
+    description: "Know which concert-ticket charges to compare, how to read the order summary, and when a lower displayed price is not the lower final total.",
     h1: "What concert ticket fees should I check before buying?",
     serverRendered: true
   },

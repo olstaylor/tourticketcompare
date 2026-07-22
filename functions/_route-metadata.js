@@ -55,6 +55,13 @@ export const TRUST_ROUTES = {
     faq: true,
     breadcrumb: [{ name: "How it works", path: "/how-it-works" }]
   },
+  "/currency-converter": {
+    title: "Currency Converter for Concert Tickets | TourTicketCompare",
+    description:
+      "Convert a ticket budget between currencies using daily European Central Bank reference rates, then confirm the checkout currency, final total, and card fees with the provider.",
+    indexable: true,
+    breadcrumb: [{ name: "Currency converter", path: "/currency-converter" }]
+  },
   "/about": {
     title: "About TourTicketCompare",
     description:

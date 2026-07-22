@@ -3,8 +3,8 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const publicRoutes = ["/", "/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
-const functionBackedStaticRoutes = ["/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
+const publicRoutes = ["/", "/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
+const functionBackedStaticRoutes = ["/artists", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/guides/*"];
 const expectedH1 = new Map([
   ["/", "Compare concert and event ticket prices for the same show."],
@@ -12,6 +12,7 @@ const expectedH1 = new Map([
   ["/guides", "Ticket buying guides"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices"],
   ["/how-it-works", "How TourTicketCompare works"],
+  ["/currency-converter", "Currency converter"],
   ["/about", "About TourTicketCompare"],
   ["/contact", "Contact TourTicketCompare"],
   ["/editorial-policy", "Editorial policy"],
@@ -23,13 +24,14 @@ const expectedTitle = new Map([
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
+  ["/currency-converter", "Currency Converter for Concert Tickets | TourTicketCompare"],
   ["/about", "About TourTicketCompare"],
   ["/contact", "Contact TourTicketCompare"],
   ["/editorial-policy", "Editorial Policy | TourTicketCompare"],
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare available, timestamped provider listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260716c";
+const APP_ASSET_VERSION = "20260722b";
 const TTC_HOME_ASSET_VERSION = "20260716a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -51,6 +53,7 @@ const routeMarkers = new Map([
   ["/guides", "Compare the final checkout total after fees"],
   ["/compare-concert-ticket-prices", "We compare approved, timestamped provider snapshots for the same event only"],
   ["/how-it-works", "Affiliate links are handled safely"],
+  ["/currency-converter", "European Central Bank daily reference rates"],
   ["/editorial-policy", "official artist, ticketing, and approved affiliate sources"],
   ["/affiliate-disclosure", "Affiliate relationships do not control which links we show"],
   ["/about", "Why affiliate links do not change our standards"],

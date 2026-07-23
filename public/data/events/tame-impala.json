@@ -159,12 +159,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735035",
+        "url": "https://www.ticketliquidator.com/tickets/7735035/Tame-Impala-tickets-Tue-Jul-28-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk8YGkdXncl3",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735035"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735035",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735035/Tame-Impala-tickets-Tue-Jul-28-2026-TD-Garden"
   },
   {
     "id": "tm-tame-impala-2026-boston-vv1avzko7gkd9ltgz",
@@ -220,12 +228,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735036",
+        "url": "https://www.ticketliquidator.com/tickets/7735036/Tame-Impala-tickets-Wed-Jul-29-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZko7Gkd9lTgz",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735036"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735036",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735036/Tame-Impala-tickets-Wed-Jul-29-2026-TD-Garden"
   },
   {
     "id": "tm-tame-impala-2026-charlotte-g5evz_dq4fyz7",
@@ -281,12 +297,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735037",
+        "url": "https://www.ticketliquidator.com/tickets/7735037/Tame-Impala-tickets-Sat-Aug-1-2026-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_dQ4fyz7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735037"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735037",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735037/Tame-Impala-tickets-Sat-Aug-1-2026-Spectrum-Center"
   },
   {
     "id": "tm-tame-impala-2026-charlotte-g5evz_7stecj-",
@@ -342,12 +366,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7745563",
+        "url": "https://www.ticketliquidator.com/tickets/7745563/Tame-Impala-tickets-Sun-Aug-2-2026-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_7SteCJ-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745563"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745563",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745563/Tame-Impala-tickets-Sun-Aug-2-2026-Spectrum-Center"
   },
   {
     "id": "tm-tame-impala-2026-nashville-g5viz_7ksioai",
@@ -403,12 +435,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735038",
+        "url": "https://www.ticketliquidator.com/tickets/7735038/Tame-Impala-tickets-Tue-Aug-4-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_7KSIoAI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735038"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735038",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735038/Tame-Impala-tickets-Tue-Aug-4-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-tame-impala-2026-nashville-g5viz_7s7cobq",
@@ -464,12 +504,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7745597",
+        "url": "https://www.ticketliquidator.com/tickets/7745597/Tame-Impala-tickets-Wed-Aug-5-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_7S7cOBQ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745597"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745597",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745597/Tame-Impala-tickets-Wed-Aug-5-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-tame-impala-2026-columbus-vv1aazk8ugkebkhue",
@@ -525,12 +573,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735039",
+        "url": "https://www.ticketliquidator.com/tickets/7735039/Tame-Impala-tickets-Tue-Aug-25-2026-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk8UGkeBKhuE",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735039"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735039",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735039/Tame-Impala-tickets-Tue-Aug-25-2026-Nationwide-Arena"
   },
   {
     "id": "tm-tame-impala-2026-minneapolis-z7r9jz1a7-f_m",
@@ -638,12 +694,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735041",
+        "url": "https://www.ticketliquidator.com/tickets/7735041/Tame-Impala-tickets-Tue-Sep-1-2026-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_d6OS55N",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735041"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735041",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735041/Tame-Impala-tickets-Tue-Sep-1-2026-Climate-Pledge-Arena"
   },
   {
     "id": "tm-tame-impala-2026-seattle-vvg1hz_d6ov55i",
@@ -699,12 +763,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7745893",
+        "url": "https://www.ticketliquidator.com/tickets/7745893/Tame-Impala-tickets-Wed-Sep-2-2026-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_d6OV55I",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745893"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745893",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745893/Tame-Impala-tickets-Wed-Sep-2-2026-Climate-Pledge-Arena"
   },
   {
     "id": "tm-tame-impala-2026-vancouver-1aozkoegkd-fy4x",
@@ -760,12 +832,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735042",
+        "url": "https://www.ticketliquidator.com/tickets/7735042/Tame-Impala-tickets-Sat-Sep-5-2026-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkoeGkd-Fy4X",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735042"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735042",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735042/Tame-Impala-tickets-Sat-Sep-5-2026-Rogers-Arena"
   },
   {
     "id": "tm-tame-impala-2026-vancouver-1aozkoegkdlltoy",
@@ -821,12 +901,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7745868",
+        "url": "https://www.ticketliquidator.com/tickets/7745868/Tame-Impala-tickets-Sun-Sep-6-2026-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkoeGkdLLtoY",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745868"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745868",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745868/Tame-Impala-tickets-Sun-Sep-6-2026-Rogers-Arena"
   },
   {
     "id": "tm-tame-impala-2026-portland-vvg1hz_dmh0iyk",
@@ -882,12 +970,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735043",
+        "url": "https://www.ticketliquidator.com/tickets/7735043/Tame-Impala-tickets-Tue-Sep-8-2026-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_dmH0IYK",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735043"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735043",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735043/Tame-Impala-tickets-Tue-Sep-8-2026-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-tame-impala-2026-denver-g5vzz_dkexywp",
@@ -943,12 +1039,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735044",
+        "url": "https://www.ticketliquidator.com/tickets/7735044/Tame-Impala-tickets-Fri-Sep-11-2026-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_dKEXyWP",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735044"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735044",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735044/Tame-Impala-tickets-Fri-Sep-11-2026-Ball-Arena"
   },
   {
     "id": "tm-tame-impala-2026-phoenix-1a_zk8ggkdiaazn",
@@ -1004,12 +1108,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735045",
+        "url": "https://www.ticketliquidator.com/tickets/7735045/Tame-Impala-tickets-Mon-Sep-14-2026-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk8gGkdiaaZn",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735045"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735045",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735045/Tame-Impala-tickets-Mon-Sep-14-2026-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-tame-impala-2026-dallas-vvg1yz_dkfcyvg",
@@ -1065,12 +1177,20 @@
         "verified": true,
         "last_verified_at": "2026-07-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7735046",
+        "url": "https://www.ticketliquidator.com/tickets/7735046/Tame-Impala-tickets-Thu-Sep-17-2026-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_dKFcyvg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735046"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735046",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735046/Tame-Impala-tickets-Thu-Sep-17-2026-American-Airlines-Center"
   },
   {
     "id": "tm-tame-impala-2026-houston-z7r9jz1a7-f_z",

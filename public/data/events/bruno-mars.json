@@ -1229,11 +1229,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7678569",
-        "url": "https://www.ticketnetwork.com/en/p/7678569",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7678569",
@@ -1254,7 +1254,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1ANZk8EGkdUY8Wh",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7678569",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7678569/Bruno-Mars-tickets-Wed-Jul-22-2026-Wembley-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-22-7-2026/event/107076201"
   },

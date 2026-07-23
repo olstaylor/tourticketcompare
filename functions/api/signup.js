@@ -86,8 +86,16 @@ async function applyRateLimit(db, key, now) {
   return Number(row?.count || 0) <= RATE_LIMIT_MAX;
 }
 
-async function insertAnalytics(db, eventName, row) {
+async function insertAnalytics(db, eventName, row, metadata = null) {
   try {
+    let metadataJson = "{}";
+    if (metadata && typeof metadata === "object") {
+      try {
+        metadataJson = JSON.stringify(metadata);
+      } catch (error) {
+        metadataJson = "{}";
+      }
+    }
     await db
       .prepare(
         `INSERT INTO analytics_events (
@@ -103,7 +111,7 @@ async function insertAnalytics(db, eventName, row) {
         row.requestKey || null,
         row.referrer || null,
         row.userAgent || null,
-        "{}"
+        metadataJson
       )
       .run();
   } catch (error) {
@@ -192,7 +200,19 @@ export async function onRequestPost({ request, env }) {
       .run();
   }
 
-  await insertAnalytics(db, artistSlug ? "artist_interest" : "email_signup", row);
+  // Price-drop demand instrument (Phase 1): the "register interest" control
+  // posts intent=price_alert. It reuses this same capture path — the subscriber
+  // row stays capture_only and NOTHING is ever emailed. The distinct analytics
+  // event (with the event id in metadata) is what lets the owner gauge whether
+  // the alert email stack is worth building.
+  const isPriceAlertInterest = clean(payload?.intent, 40).toLowerCase() === "price_alert";
+  const rawEventId = clean(payload?.eventId, 120);
+  const eventId = /^[a-z0-9-]{1,120}$/i.test(rawEventId) ? rawEventId : null;
+  const analyticsEventName = isPriceAlertInterest
+    ? "price_alert_interest"
+    : (artistSlug ? "artist_interest" : "email_signup");
+  const analyticsMetadata = isPriceAlertInterest ? { intent: "price_alert", event_id: eventId } : null;
+  await insertAnalytics(db, analyticsEventName, row, analyticsMetadata);
 
   return json({
     ok: true,

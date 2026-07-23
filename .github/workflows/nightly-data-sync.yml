@@ -128,6 +128,9 @@ jobs:
           npm run events:sync
           npm run events:partition
           npm run events:validate:partitions
+          # Self-heal PROJECT_STATUS.md counts so this direct-to-main commit
+          # never drifts the status doc (warning-first check can't block auto-merge).
+          node scripts/validate-status-counts.mjs --write
 
       - name: Run smoke tests before push
         if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true'
@@ -139,7 +142,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
-          git add public/data/events.json public/data/events public/index.html
+          git add public/data/events.json public/data/events public/index.html PROJECT_STATUS.md
           git commit -m "Nightly data sync: refresh tracked event dates/venues (${TODAY})"
           git push origin HEAD:main
 

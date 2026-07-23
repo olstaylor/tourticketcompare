@@ -59,13 +59,13 @@ The check fails when:
 - a required canonical document is missing; or
 - retired `HANDOVER.md` / `docs/archive/` paths are reintroduced.
 
-`npm run test:mvp` includes this check so documentation drift blocks CI.
+`npm run test:mvp` includes this check so documentation drift blocks CI. It also runs `npm run status:validate` (`scripts/validate-status-counts.mjs`), which recounts the deterministic `PROJECT_STATUS.md` figures from source. That check is **warning-only** today — it reports drift without failing CI, because the auto-merging sync lanes must not be blocked — and those lanes self-heal the counts via `--write` in the same commit. Flip it to `--strict` in `test:mvp` once the self-heal path is proven to keep it green.
 
 ## Current-state refresh checklist
 
 When updating `PROJECT_STATUS.md`:
 
-1. Recount directly from `public/data/*.json`, `data/provider-identities.json`, and `functions/api/out.js`.
+1. Recount directly from `public/data/*.json`, `data/provider-identities.json`, and `functions/api/out.js`. `npm run status:validate` does this recount for the deterministic "Current data" figures and the per-artist table and reports any divergence; `npm run status:validate:write` rewrites those numbers in place. City/venue indexable counts are date-derived (`functions/_cities.js` gates on `ts < now`) and are not machine-enforced — refresh them by hand.
 2. Confirm workflow schedules from `.github/workflows/`, not from older prose.
 3. Confirm runtime configuration through `/api/health` or the relevant fail-closed endpoint without exposing secret values.
 4. Move completed work to the short completed section in `BACKLOG.md`; keep implementation history in git.

@@ -524,6 +524,10 @@ async function main() {
   // ---- Write path -----------------------------------------------------------
   console.log("\nWRITE MODE — applying candidate batch via apply-artists.mjs --write:\n");
   run("node", [...applyArgs, "--write"]);
+  // Self-heal PROJECT_STATUS.md counts from the freshly-written events so the
+  // status doc rides along in this commit (before test:mvp, which then sees
+  // matching counts). Keeps the auto-merged new-shows PR from drifting the doc.
+  run("node", ["scripts/validate-status-counts.mjs", "--write"]);
   run("npm", ["run", "test:mvp"]);
   run("git", ["diff", "--check"]);
 
@@ -539,6 +543,7 @@ async function main() {
     "public/data/events-index.json",
     "public/data/events",
     "public/index.html",
+    "PROJECT_STATUS.md",
   ]);
   run("git", ["commit", "-m", `automation: add ${proposedRows.length} verified Ticketmaster event(s) for ${slugs.join(", ")}`]);
 

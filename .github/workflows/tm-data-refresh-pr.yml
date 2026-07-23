@@ -73,6 +73,7 @@ jobs:
             node scripts/apply-tm-updates.mjs --json .audit/tm-refresh.json
             npm run events:partition
             npm run events:sync
+            node scripts/validate-status-counts.mjs --write
           else
             echo "DRY RUN — previewing changes only, no writes."
             node scripts/backfill-discovery-ids.mjs
@@ -104,7 +105,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           BRANCH="automation/data-refresh-${TODAY}"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events-index.json public/data/events public/index.html
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md
           git commit -m "automation: refresh existing TM event data (${TODAY})"
           git push -u origin "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \

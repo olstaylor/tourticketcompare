@@ -25750,5 +25750,1114 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4ev",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-jelly-roll-2026-colorado-springs-z7r9jz1a7xfou",
+    "artist_slug": "jelly-roll",
+    "artist_name": "Jelly Roll",
+    "event_name": "Jelly Roll w/ Justin Moore",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Weidner Field",
+    "datetime_iso": "2026-07-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xFoU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFoU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFoU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xFoU",
+        "discovery_event_id": "Z7r9jZ1A7xFoU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFoU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xFoU",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-toronto-1a8zk8ygkeelgsk",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-07-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006430A77CCCC6",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-toronto-ontario-07-25-2026/event/10006430A77CCCC6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-toronto-ontario-07-25-2026/event/10006430A77CCCC6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006430A77CCCC6",
+        "discovery_event_id": "1A8Zk8YGkeELGSk",
+        "url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-toronto-ontario-07-25-2026/event/10006430A77CCCC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk8YGkeELGSk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-toronto-168zk8uopzackd28",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-07-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006436816D52EF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-toronto-ontario-07-26-2026/event/10006436816D52EF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-toronto-ontario-07-26-2026/event/10006436816D52EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006436816D52EF",
+        "discovery_event_id": "168Zk8UOpZACkd28",
+        "url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-toronto-ontario-07-26-2026/event/10006436816D52EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "168Zk8UOpZACkd28",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-boston-vv1avzk8ygkdxncl3",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2026-07-28T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006430FEAADAD2",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-boston-massachusetts-07-28-2026/event/01006430FEAADAD2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-boston-massachusetts-07-28-2026/event/01006430FEAADAD2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006430FEAADAD2",
+        "discovery_event_id": "vv1AvZk8YGkdXncl3",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-boston-massachusetts-07-28-2026/event/01006430FEAADAD2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk8YGkdXncl3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-boston-vv1avzko7gkd9ltgz",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2026-07-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006444D7AFFD78",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-boston-massachusetts-07-29-2026/event/01006444D7AFFD78",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-boston-massachusetts-07-29-2026/event/01006444D7AFFD78",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006444D7AFFD78",
+        "discovery_event_id": "vv1AvZko7Gkd9lTgz",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-boston-massachusetts-07-29-2026/event/01006444D7AFFD78",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZko7Gkd9lTgz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-charlotte-g5evz_dq4fyz7",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2026-08-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00643695539E04",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-charlotte-north-carolina-08-01-2026/event/2D00643695539E04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-charlotte-north-carolina-08-01-2026/event/2D00643695539E04",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00643695539E04",
+        "discovery_event_id": "G5eVZ_dQ4fyz7",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-charlotte-north-carolina-08-01-2026/event/2D00643695539E04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_dQ4fyz7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-charlotte-g5evz_7stecj-",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2026-08-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00644CE908E9A1",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-charlotte-north-carolina-08-02-2026/event/2D00644CE908E9A1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-charlotte-north-carolina-08-02-2026/event/2D00644CE908E9A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00644CE908E9A1",
+        "discovery_event_id": "G5eVZ_7SteCJ-",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-charlotte-north-carolina-08-02-2026/event/2D00644CE908E9A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_7SteCJ-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-nashville-g5viz_7ksioai",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-08-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006444F3A11168",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-nashville-tennessee-08-04-2026/event/1B006444F3A11168",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-nashville-tennessee-08-04-2026/event/1B006444F3A11168",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006444F3A11168",
+        "discovery_event_id": "G5viZ_7KSIoAI",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-nashville-tennessee-08-04-2026/event/1B006444F3A11168",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_7KSIoAI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-nashville-g5viz_7s7cobq",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-08-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00644CC4B60E9A",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-nashville-tennessee-08-05-2026/event/1B00644CC4B60E9A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-nashville-tennessee-08-05-2026/event/1B00644CC4B60E9A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00644CC4B60E9A",
+        "discovery_event_id": "G5viZ_7S7cOBQ",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-nashville-tennessee-08-05-2026/event/1B00644CC4B60E9A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_7S7cOBQ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-columbus-vv1aazk8ugkebkhue",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2026-08-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006436BA4DB367",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-columbus-ohio-08-25-2026/event/05006436BA4DB367",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-columbus-ohio-08-25-2026/event/05006436BA4DB367",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006436BA4DB367",
+        "discovery_event_id": "vv1AAZk8UGkeBKhuE",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-columbus-ohio-08-25-2026/event/05006436BA4DB367",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk8UGkeBKhuE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-minneapolis-z7r9jz1a7-f_m",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala w/ Dominic Fike",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2026-08-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-F_M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-F_M",
+        "discovery_event_id": "Z7r9jZ1A7-F_M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_M",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-seattle-vvg1hz_d6os55n",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-09-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006431E0CCB2E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-seattle-washington-09-01-2026/event/0F006431E0CCB2E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-seattle-washington-09-01-2026/event/0F006431E0CCB2E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006431E0CCB2E3",
+        "discovery_event_id": "vvG1HZ_d6OS55N",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-seattle-washington-09-01-2026/event/0F006431E0CCB2E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_d6OS55N",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-seattle-vvg1hz_d6ov55i",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-09-03T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006431E0D0B2E8",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-seattle-washington-09-02-2026/event/0F006431E0D0B2E8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-seattle-washington-09-02-2026/event/0F006431E0D0B2E8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006431E0D0B2E8",
+        "discovery_event_id": "vvG1HZ_d6OV55I",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-seattle-washington-09-02-2026/event/0F006431E0D0B2E8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_d6OV55I",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-vancouver-1aozkoegkd-fy4x",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-09-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006442E123957E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-vancouver-british-columbia-09-05-2026/event/11006442E123957E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-vancouver-british-columbia-09-05-2026/event/11006442E123957E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006442E123957E",
+        "discovery_event_id": "1AoZkoeGkd-Fy4X",
+        "url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-vancouver-british-columbia-09-05-2026/event/11006442E123957E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkoeGkd-Fy4X",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-vancouver-1aozkoegkdlltoy",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-09-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006442DF7E9470",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-vancouver-british-columbia-09-06-2026/event/11006442DF7E9470",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-vancouver-british-columbia-09-06-2026/event/11006442DF7E9470",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006442DF7E9470",
+        "discovery_event_id": "1AoZkoeGkdLLtoY",
+        "url": "https://www.ticketmaster.ca/tame-impala-the-deadbeat-tour-vancouver-british-columbia-09-06-2026/event/11006442DF7E9470",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkoeGkdLLtoY",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-portland-vvg1hz_dmh0iyk",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2026-09-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00643BBC928C13",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-portland-oregon-09-08-2026/event/0F00643BBC928C13",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-portland-oregon-09-08-2026/event/0F00643BBC928C13",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00643BBC928C13",
+        "discovery_event_id": "vvG1HZ_dmH0IYK",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-portland-oregon-09-08-2026/event/0F00643BBC928C13",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_dmH0IYK",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-denver-g5vzz_dkexywp",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-09-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006434E7FB9F65",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-denver-colorado-09-11-2026/event/1E006434E7FB9F65",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-denver-colorado-09-11-2026/event/1E006434E7FB9F65",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006434E7FB9F65",
+        "discovery_event_id": "G5vzZ_dKEXyWP",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-denver-colorado-09-11-2026/event/1E006434E7FB9F65",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_dKEXyWP",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-phoenix-1a_zk8ggkdiaazn",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-09-15T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006435EC24902A",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-phoenix-arizona-09-14-2026/event/19006435EC24902A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-phoenix-arizona-09-14-2026/event/19006435EC24902A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006435EC24902A",
+        "discovery_event_id": "1A_Zk8gGkdiaaZn",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-phoenix-arizona-09-14-2026/event/19006435EC24902A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zk8gGkdiaaZn",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-dallas-vvg1yz_dkfcyvg",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-09-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006434C8B79075",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-dallas-texas-09-17-2026/event/0C006434C8B79075",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-dallas-texas-09-17-2026/event/0C006434C8B79075",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006434C8B79075",
+        "discovery_event_id": "vvG1YZ_dKFcyvg",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-dallas-texas-09-17-2026/event/0C006434C8B79075",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_dKFcyvg",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-houston-z7r9jz1a7-f_z",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala w/ Dominic Fike",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-09-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-F_z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-F_z",
+        "discovery_event_id": "Z7r9jZ1A7-F_z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-F_z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_z",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tame-impala-2026-houston-z7r9jz1a7-a4m",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-09-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-a4M",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-a4M",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-a4M",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-a4M",
+        "discovery_event_id": "Z7r9jZ1A7-a4M",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-a4M",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-a4M",
+    "status": "on-sale"
   }
 ]

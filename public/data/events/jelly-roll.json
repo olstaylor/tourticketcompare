@@ -1,0 +1,54 @@
+[
+  {
+    "id": "tm-jelly-roll-2026-colorado-springs-z7r9jz1a7xfou",
+    "artist_slug": "jelly-roll",
+    "artist_name": "Jelly Roll",
+    "event_name": "Jelly Roll w/ Justin Moore",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Weidner Field",
+    "datetime_iso": "2026-07-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xFoU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFoU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFoU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xFoU",
+        "discovery_event_id": "Z7r9jZ1A7xFoU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFoU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xFoU",
+    "status": "on-sale"
+  }
+]

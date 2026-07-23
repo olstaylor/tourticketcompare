@@ -15253,11 +15253,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7678569",
-        "url": "https://www.ticketnetwork.com/en/p/7678569",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7678569",
@@ -15278,7 +15278,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1ANZk8EGkdUY8Wh",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7678569",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7678569/Bruno-Mars-tickets-Wed-Jul-22-2026-Wembley-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-22-7-2026/event/107076201"
   },
@@ -25956,11 +25956,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735035",
+        "url": "https://www.ticketnetwork.com/en/p/7735035",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk8YGkdXncl3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735035"
   },
   {
     "id": "tm-tame-impala-2026-boston-vv1avzko7gkd9ltgz",
@@ -26009,11 +26017,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735036",
+        "url": "https://www.ticketnetwork.com/en/p/7735036",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZko7Gkd9lTgz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735036"
   },
   {
     "id": "tm-tame-impala-2026-charlotte-g5evz_dq4fyz7",
@@ -26062,11 +26078,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735037",
+        "url": "https://www.ticketnetwork.com/en/p/7735037",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_dQ4fyz7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735037"
   },
   {
     "id": "tm-tame-impala-2026-charlotte-g5evz_7stecj-",
@@ -26115,11 +26139,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7745563",
+        "url": "https://www.ticketnetwork.com/en/p/7745563",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_7SteCJ-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745563"
   },
   {
     "id": "tm-tame-impala-2026-nashville-g5viz_7ksioai",
@@ -26168,11 +26200,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735038",
+        "url": "https://www.ticketnetwork.com/en/p/7735038",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_7KSIoAI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735038"
   },
   {
     "id": "tm-tame-impala-2026-nashville-g5viz_7s7cobq",
@@ -26221,11 +26261,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7745597",
+        "url": "https://www.ticketnetwork.com/en/p/7745597",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_7S7cOBQ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745597"
   },
   {
     "id": "tm-tame-impala-2026-columbus-vv1aazk8ugkebkhue",
@@ -26274,11 +26322,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735039",
+        "url": "https://www.ticketnetwork.com/en/p/7735039",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk8UGkeBKhuE",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735039"
   },
   {
     "id": "tm-tame-impala-2026-minneapolis-z7r9jz1a7-f_m",
@@ -26379,11 +26435,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735041",
+        "url": "https://www.ticketnetwork.com/en/p/7735041",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_d6OS55N",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735041"
   },
   {
     "id": "tm-tame-impala-2026-seattle-vvg1hz_d6ov55i",
@@ -26432,11 +26496,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7745893",
+        "url": "https://www.ticketnetwork.com/en/p/7745893",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_d6OV55I",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745893"
   },
   {
     "id": "tm-tame-impala-2026-vancouver-1aozkoegkd-fy4x",
@@ -26485,11 +26557,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735042",
+        "url": "https://www.ticketnetwork.com/en/p/7735042",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkoeGkd-Fy4X",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735042"
   },
   {
     "id": "tm-tame-impala-2026-vancouver-1aozkoegkdlltoy",
@@ -26538,11 +26618,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7745868",
+        "url": "https://www.ticketnetwork.com/en/p/7745868",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkoeGkdLLtoY",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745868"
   },
   {
     "id": "tm-tame-impala-2026-portland-vvg1hz_dmh0iyk",
@@ -26591,11 +26679,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735043",
+        "url": "https://www.ticketnetwork.com/en/p/7735043",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_dmH0IYK",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735043"
   },
   {
     "id": "tm-tame-impala-2026-denver-g5vzz_dkexywp",
@@ -26644,11 +26740,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735044",
+        "url": "https://www.ticketnetwork.com/en/p/7735044",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_dKEXyWP",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735044"
   },
   {
     "id": "tm-tame-impala-2026-phoenix-1a_zk8ggkdiaazn",
@@ -26697,11 +26801,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735045",
+        "url": "https://www.ticketnetwork.com/en/p/7735045",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk8gGkdiaaZn",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735045"
   },
   {
     "id": "tm-tame-impala-2026-dallas-vvg1yz_dkfcyvg",
@@ -26750,11 +26862,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735046",
+        "url": "https://www.ticketnetwork.com/en/p/7735046",
+        "verified": true,
+        "last_verified_at": "2026-07-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_dKFcyvg",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735046"
   },
   {
     "id": "tm-tame-impala-2026-houston-z7r9jz1a7-f_z",

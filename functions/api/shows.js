@@ -61,7 +61,7 @@ function isValidDateISO(value) {
   return Number.isFinite(ms);
 }
 
-async function loadEventsFromAssets(env) {
+export async function loadEventsFromAssets(env) {
   const assets = env?.ASSETS;
   if (!assets || typeof assets.fetch !== "function") return [];
 
@@ -91,7 +91,7 @@ async function loadArtistsFromAssets(env) {
   }
 }
 
-function mapEventsToShows(events) {
+export function mapEventsToShows(events) {
   if (!Array.isArray(events)) return [];
 
   const now = Date.now();
@@ -962,7 +962,7 @@ async function fetchVividSeatsCachedPrice(show, env) {
 // external provider request is ever made from this path, which is why bulk
 // (list-mode) pricing is permitted here while generic bulk price fan-out
 // remains rejected (see docs/PROVIDER_DATA_POLICY.md).
-const APPROVED_MARKETPLACE_PRICE_LANES = [
+export const APPROVED_MARKETPLACE_PRICE_LANES = [
   {
     provider: "SeatGeek",
     dbKey: "seatgeek",

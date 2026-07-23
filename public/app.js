@@ -1602,6 +1602,162 @@ function renderShowCardPriceNotes(ctaSpecs) {
   return wrap;
 }
 
+// Inline SVG sparkline for one provider's snapshot series. Points are drawn in
+// observation order; y is scaled to the provider's own min/max so the line
+// reads as that provider's trend alone — never a cross-provider comparison.
+function renderPriceHistorySparkline(points, currency) {
+  const series = Array.isArray(points) ? points.filter((point) => Number.isFinite(Number(point?.price))) : [];
+  if (series.length < 2) return null;
+  const width = 260;
+  const height = 56;
+  const padX = 4;
+  const padY = 6;
+  const prices = series.map((point) => Number(point.price));
+  const min = Math.min(...prices);
+  const max = Math.max(...prices);
+  const span = max - min;
+  const stepX = series.length > 1 ? (width - padX * 2) / (series.length - 1) : 0;
+  const yFor = (price) => {
+    if (span <= 0) return height / 2;
+    return padY + (height - padY * 2) * (1 - (price - min) / span);
+  };
+  const coords = series.map((point, index) => [padX + stepX * index, yFor(Number(point.price))]);
+  const NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("class", "price-history-spark");
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("preserveAspectRatio", "none");
+  svg.setAttribute("role", "img");
+  const low = formatProviderPrice(min, currency);
+  const high = formatProviderPrice(max, currency);
+  svg.setAttribute("aria-label", `Listed-price snapshots between ${low || min} and ${high || max} across ${series.length} observations.`);
+  const polyline = document.createElementNS(NS, "polyline");
+  polyline.setAttribute("class", "price-history-spark-line");
+  polyline.setAttribute("fill", "none");
+  polyline.setAttribute("points", coords.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(" "));
+  svg.append(polyline);
+  const [lastX, lastY] = coords[coords.length - 1];
+  const dot = document.createElementNS(NS, "circle");
+  dot.setAttribute("class", "price-history-spark-dot");
+  dot.setAttribute("cx", lastX.toFixed(1));
+  dot.setAttribute("cy", lastY.toFixed(1));
+  dot.setAttribute("r", "2.5");
+  svg.append(dot);
+  return svg;
+}
+
+// "Register interest" form for the price-drop demand instrument (Phase 1). It
+// posts to the existing gated /api/signup endpoint with intent=price_alert;
+// NOTHING is ever emailed — this only records demand (capture_only) so the
+// owner can decide whether the alert email stack is worth building.
+function renderPriceAlertInterest(artistSlug, eventId) {
+  const slug = String(artistSlug || "").trim();
+  const id = String(eventId || "").trim();
+  if (!slug || !id) return null;
+  const form = document.createElement("form");
+  form.className = "price-alert-interest";
+  form.dataset.priceAlertInterest = slug;
+  form.dataset.eventId = id;
+  text(form, "p", "Want an email if this price drops? We don't send price emails yet — leave an address to register interest and help us decide whether to build alerts.", "muted");
+  const row = document.createElement("div");
+  row.className = "price-alert-interest-row";
+  const inputId = `price-alert-email-${slugify(id)}`;
+  const label = document.createElement("label");
+  label.className = "sr-only";
+  label.setAttribute("for", inputId);
+  label.textContent = "Email address";
+  const email = document.createElement("input");
+  email.type = "email";
+  email.id = inputId;
+  email.name = "email";
+  email.required = true;
+  email.placeholder = "Your email address";
+  email.autocomplete = "email";
+  const honeypot = document.createElement("input");
+  honeypot.className = "hp-field";
+  honeypot.type = "text";
+  honeypot.name = "website";
+  honeypot.tabIndex = -1;
+  honeypot.autocomplete = "off";
+  honeypot.setAttribute("aria-hidden", "true");
+  const submit = document.createElement("button");
+  submit.className = "button button-secondary";
+  submit.type = "submit";
+  submit.textContent = "Register interest";
+  row.append(email, honeypot, submit);
+  form.append(label, row);
+  const status = text(form, "p", "", "disclosure-note");
+  status.setAttribute("data-alert-interest-status", "");
+  status.setAttribute("aria-live", "polite");
+  return form;
+}
+
+// Collapsed toggle + lazy-loaded panel for on-site per-event price history.
+// Rendered only on cards that already show at least one approved price badge;
+// the panel fetches /api/price-history on first open (progressive enhancement)
+// so board payloads stay light.
+function renderPriceHistoryPanel(show, options = {}) {
+  const showId = String(show?.id || "").trim();
+  if (!showId) return null;
+  const wrap = document.createElement("div");
+  wrap.className = "price-history";
+  wrap.dataset.priceHistory = showId;
+  wrap.dataset.priceHistoryArtist = String(options.artistSlug || show.artist_slug || "").trim();
+  const panelId = `price-history-panel-${slugify(showId)}`;
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "price-history-toggle";
+  toggle.dataset.priceHistoryToggle = "";
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.setAttribute("aria-controls", panelId);
+  toggle.textContent = "Show price snapshot history";
+  const panel = document.createElement("div");
+  panel.className = "price-history-panel";
+  panel.id = panelId;
+  panel.dataset.priceHistoryPanel = "";
+  panel.hidden = true;
+  wrap.append(toggle, panel);
+  return wrap;
+}
+
+// Renders a fetched price-history payload into an opened panel: one independent
+// series per provider (never merged or ranked), snapshot framing, then the
+// demand-instrument interest form.
+function renderPriceHistoryContent(panel, wrap, data) {
+  panel.replaceChildren();
+  const providers = Array.isArray(data?.providers) ? data.providers : [];
+  const rendered = [];
+  for (const series of providers) {
+    const points = Array.isArray(series?.points) ? series.points : [];
+    if (points.length < 2) continue;
+    const block = document.createElement("div");
+    block.className = "price-history-provider";
+    text(block, "h5", String(series.provider || "").trim() || "Provider", "price-history-provider-name");
+    const spark = renderPriceHistorySparkline(points, series.currency);
+    if (spark) block.append(spark);
+    const first = points[0];
+    const last = points[points.length - 1];
+    const latest = formatProviderPrice(last.price, series.currency);
+    const firstAsOf = formatSnapshotTime(first.observedAt);
+    const lastAsOf = formatSnapshotTime(last.observedAt);
+    const caption = latest && firstAsOf && lastAsOf
+      ? `${points.length} listed-price snapshots · ${firstAsOf} – ${lastAsOf}. Most recent: ${latest}.`
+      : `${points.length} listed-price snapshots.`;
+    text(block, "p", caption, "price-history-caption muted");
+    panel.append(block);
+    rendered.push(series);
+  }
+
+  if (!rendered.length) {
+    text(panel, "p", "Not enough snapshots have been recorded yet to show a history for this event.", "disclosure-note");
+  } else {
+    text(panel, "p", String(data?.framing || "Provider-supplied listed-price snapshots, not live inventory, availability, or final checkout totals."), "disclosure-note");
+  }
+
+  const interest = renderPriceAlertInterest(wrap?.dataset?.priceHistoryArtist, wrap?.dataset?.priceHistory);
+  if (interest) panel.append(interest);
+}
+
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
@@ -1700,6 +1856,14 @@ function renderShowCard(show, options = {}) {
 
       const notes = renderShowCardPriceNotes(ctaSpecs);
       if (notes) body.append(notes);
+
+      // On-site per-event price history (Phase 1): only where an approved price
+      // badge already renders. Same display-eligibility gate as the badge,
+      // per-provider only, snapshot-framed. Lazily fetched on open.
+      if (hasApprovedMarketplacePrice(show)) {
+        const historyPanel = renderPriceHistoryPanel(show, options);
+        if (historyPanel) body.append(historyPanel);
+      }
     } else {
       text(body, "p", "No verified ticket link is available for this date.", "disclosure-note");
     }
@@ -3285,6 +3449,96 @@ document.addEventListener("submit", async (event) => {
   } catch (error) {
     setStatus("That didn't work — please try again.");
     delete form.dataset.signupSubmitting;
+    if (submitButton) submitButton.disabled = false;
+  }
+});
+
+// Delegated toggle for the on-site price-history panel. The series is fetched
+// once, on first open (progressive enhancement); the read-only endpoint applies
+// the same display-eligibility gate as the price badge.
+document.addEventListener("click", async (event) => {
+  const toggle = event.target?.closest?.("[data-price-history-toggle]");
+  if (!toggle) return;
+  const wrap = toggle.closest("[data-price-history]");
+  if (!wrap) return;
+  const panel = wrap.querySelector("[data-price-history-panel]");
+  if (!panel) return;
+  const expanded = toggle.getAttribute("aria-expanded") === "true";
+  if (expanded) {
+    toggle.setAttribute("aria-expanded", "false");
+    panel.hidden = true;
+    toggle.textContent = "Show price snapshot history";
+    return;
+  }
+  toggle.setAttribute("aria-expanded", "true");
+  panel.hidden = false;
+  toggle.textContent = "Hide price snapshot history";
+  if (wrap.dataset.priceHistoryLoaded === "true") return;
+  wrap.dataset.priceHistoryLoaded = "true";
+  panel.replaceChildren();
+  text(panel, "p", "Loading recent snapshots…", "disclosure-note");
+  const showId = String(wrap.dataset.priceHistory || "").trim();
+  try {
+    const response = await fetch(`/api/price-history?showId=${encodeURIComponent(showId)}`, { headers: { Accept: "application/json" } });
+    if (!response.ok) throw new Error("history_unavailable");
+    const data = await response.json();
+    renderPriceHistoryContent(panel, wrap, data);
+  } catch (error) {
+    panel.replaceChildren();
+    text(panel, "p", "Price snapshot history isn't available right now.", "disclosure-note");
+    wrap.dataset.priceHistoryLoaded = "";
+  }
+});
+
+// Delegated submit for the price-drop demand instrument. Records interest via
+// the existing gated /api/signup endpoint (intent=price_alert); no email is
+// ever sent — this only gauges demand.
+document.addEventListener("submit", async (event) => {
+  const form = event.target?.closest?.("form[data-price-alert-interest]");
+  if (!form) return;
+  event.preventDefault();
+  if (form.dataset.submitting === "true") return;
+  const status = form.querySelector("[data-alert-interest-status]");
+  const emailInput = form.querySelector('input[name="email"]');
+  const email = String(emailInput?.value || "").trim();
+  const honeypot = String(form.querySelector('input[name="website"]')?.value || "").trim();
+  const setStatus = (message) => {
+    if (status) status.textContent = message;
+  };
+  if (honeypot) return;
+  if (!email) {
+    setStatus("Enter an email address to register interest.");
+    return;
+  }
+  setStatus("Recording your interest…");
+  form.dataset.submitting = "true";
+  const submitButton = form.querySelector('button[type="submit"]');
+  if (submitButton) submitButton.disabled = true;
+  try {
+    const response = await fetch("/api/signup", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email,
+        website: honeypot,
+        artistSlug: String(form.dataset.priceAlertInterest || "").trim(),
+        eventId: String(form.dataset.eventId || "").trim(),
+        intent: "price_alert",
+        sourcePath: window.location.pathname
+      })
+    });
+    const data = await response.json().catch(() => null);
+    if (response.ok && data?.ok) {
+      setStatus("Thanks — interest noted. We're not sending price emails yet; this just helps us gauge demand.");
+      if (emailInput) emailInput.value = "";
+    } else {
+      setStatus("We couldn't record that just now — please try again later.");
+      delete form.dataset.submitting;
+      if (submitButton) submitButton.disabled = false;
+    }
+  } catch (error) {
+    setStatus("We couldn't record that just now — please try again later.");
+    delete form.dataset.submitting;
     if (submitButton) submitButton.disabled = false;
   }
 });

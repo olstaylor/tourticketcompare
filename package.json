@@ -76,6 +76,7 @@
     "vividseats:sync:self-test": "node scripts/sync-vividseats-events.mjs --self-test",
     "events:check-fallback-freshness": "node scripts/check-fallback-freshness.mjs",
     "audit:production-routes": "node scripts/verify-production-route-html.mjs",
+    "audit:production-routes:self-test": "node scripts/verify-production-route-html.mjs --self-test",
     "vividseats:prices:self-test": "node scripts/snapshot-vividseats-prices.mjs --self-test",
     "vividseats:prices:dry-run": "node scripts/snapshot-vividseats-prices.mjs",
     "vividseats:prices:apply": "node scripts/snapshot-vividseats-prices.mjs --apply",

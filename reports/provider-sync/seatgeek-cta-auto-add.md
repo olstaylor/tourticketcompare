@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-07-23T07:41:06.065Z
+Generated: 2026-07-24T07:39:32.788Z
 
 ## Run summary
 
@@ -10,16 +10,16 @@ Generated: 2026-07-23T07:41:06.065Z
 - API access with client ID only: HTTP 200
 - Total events in data: 423
 - Ticketmaster-verified events: 301
-- Events already carrying a valid SeatGeek URL: 248
-- Ticketmaster-verified events already carrying a valid SeatGeek URL: 187
-- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 114
+- Events already carrying a valid SeatGeek URL: 253
+- Ticketmaster-verified events already carrying a valid SeatGeek URL: 188
+- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 113
 - Events selected/logged by this run: 31
 - Events checked by this run: 30
 - API calls made: 150
 - Rate-limit responses: 0
-- URLs added: 0
-- Events skipped: 31
-- no_candidates_returned: 30
+- URLs added: 1
+- Events skipped: 30
+- no_candidates_returned: 29
 - rate_limited_not_checked: 0
 - Stopped early: api_call_limit_reached
 - Next resume showId: tm-bad-bunny-2026-d-sseldorf-1604365108
@@ -29,21 +29,23 @@ Generated: 2026-07-23T07:41:06.065Z
 
 ## Skipped reasons
 
-- no_candidates_returned: 30
+- no_candidates_returned: 29
 - api_call_limit_not_checked: 1
 
 ## Interpretation
 
-- `URLs added: 0` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 248 event(s) already carried valid SeatGeek URLs before this run, including 187 Ticketmaster-verified event(s).
-- This run queried only the 114 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
+- `URLs added: 1` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
+- 253 event(s) already carried valid SeatGeek URLs before this run, including 188 Ticketmaster-verified event(s).
+- This run queried only the 113 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
 ## URLs added
 
 This section lists only URLs newly added by this run. Events that already had valid SeatGeek URLs were retained in event data and were not re-listed here.
 
-- None
+| showId | artist | date | city | SeatGeek URL |
+| --- | --- | --- | --- | --- |
+| tm-ariana-grande-2026-boston-0100631aca626435 | Ariana Grande | 2026-07-26 | Boston | https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-26-8-pm/concert/17700809 |
 
 ## Events skipped
 
@@ -57,8 +59,7 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-ariana-grande-2026-brooklyn-30006319f34a4abb | Ariana Grande | 2026-07-13 | Brooklyn | no_candidates_returned | - |
 | tm-ariana-grande-2026-brooklyn-30006319f41b4abf | Ariana Grande | 2026-07-16 | Brooklyn | no_candidates_returned | - |
 | tm-ariana-grande-2026-brooklyn-30006325205054e3 | Ariana Grande | 2026-07-19 | Brooklyn | no_candidates_returned | - |
-| tm-ariana-grande-2026-boston-0100631aaef23ee8 | Ariana Grande | 2026-07-22 | Boston | no_candidates_returned | - |
-| tm-ariana-grande-2026-boston-0100631aca626435 | Ariana Grande | 2026-07-24 | Boston | no_candidates_returned | - |
+| tm-ariana-grande-2026-boston-0100631aaef23ee8 | Ariana Grande | 2026-07-23 | Boston | no_candidates_returned | - |
 | tm-ariana-grande-2026-london-3500631c8ea13055 | Ariana Grande | 2026-08-15 | London | no_candidates_returned | - |
 | tm-ariana-grande-2026-london-3500631c937630fa | Ariana Grande | 2026-08-16 | London | no_candidates_returned | - |
 | tm-ariana-grande-2026-london-3500631c950d310b | Ariana Grande | 2026-08-19 | London | no_candidates_returned | - |

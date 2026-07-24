@@ -1159,7 +1159,7 @@
     "status": "announced",
     "ticketmaster_event_id": "0100631ACA626435",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-26-8-pm/concert/17700809",
     "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-24-2026--concerts-pop/production/5973686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
@@ -1174,11 +1174,11 @@
         "discovery_event_id": "vv177ZbsGkl1bJ8g"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 17700809,
+        "url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-26-8-pm/concert/17700809",
+        "verified": true,
+        "last_verified_at": "2026-07-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 5973686,

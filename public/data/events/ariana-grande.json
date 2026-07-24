@@ -1140,10 +1140,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373449",
+        "url": "https://www.ticketnetwork.com/en/p/7373449",
+        "verified": true,
+        "last_verified_at": "2026-07-24",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv177ZbsGknmHNDI"
+    "ticketmaster_discovery_event_id": "vv177ZbsGknmHNDI",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373449"
   },
   {
     "id": "tm-ariana-grande-2026-boston-0100631aca626435",
@@ -1193,10 +1201,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7373450",
+        "url": "https://www.ticketnetwork.com/en/p/7373450",
+        "verified": true,
+        "last_verified_at": "2026-07-24",
+        "availability_status": "listed"
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "vv177ZbsGkl1bJ8g"
+    "ticketmaster_discovery_event_id": "vv177ZbsGkl1bJ8g",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373450"
   },
   {
     "id": "tm-ariana-grande-2026-boston-010063289ef611c4",

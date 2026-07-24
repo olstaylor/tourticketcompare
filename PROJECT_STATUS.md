@@ -22,7 +22,7 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 
 - `public/data/artists.json`: **24 records — 20 `indexable_with_substantial_content` + 4 `review_required` shells** (sabrina-carpenter, lady-gaga, the-weeknd, coldplay). The 20 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 4 shells carry `verified_providers: []` and render no CTA. 3 of the 20 indexable — beyonce, raye, tate-mcrae — carry 0 events and render artist-level CTAs only; jelly-roll and tame-impala now carry event records (1 and 20 respectively).
 - `public/data/catalog.json`: 24 artist records; 0 tour records; **44 ticket_links rows** (24 ticketmaster + 20 seatgeek artist pages; 40 `verified` + `public_enabled`, plus 4 unverified/hidden shell ticketmaster rows for the `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
-- `public/data/events.json`: **423 events** — 284 `human_verified`, 115 `machine_high_confidence`, 24 `needs_recheck`. Verified event-level provider provenance: SeatGeek 200 (252 rows carry a stored `seatgeek_url`), Vivid Seats 239, TicketNetwork 203, Ticket Liquidator 172, StubHub International 209. Of the 24 `needs_recheck` rows: 17 retain a standalone SeatGeek CTA, 0 retain a standalone Vivid Seats CTA, and 7 have no independently verified resale provider and remain fully CTA-suppressed.
+- `public/data/events.json`: **423 events** — 284 `human_verified`, 115 `machine_high_confidence`, 24 `needs_recheck`. Verified event-level provider provenance: SeatGeek 201 (253 rows carry a stored `seatgeek_url`), Vivid Seats 239, TicketNetwork 205, Ticket Liquidator 172, StubHub International 209. Of the 24 `needs_recheck` rows: 17 retain a standalone SeatGeek CTA, 0 retain a standalone Vivid Seats CTA, and 7 have no independently verified resale provider and remain fully CTA-suppressed.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
 - `public/data/guides-content.json`: **17 guide content entries** (topic guides; not per-artist).
 - `functions/_route-metadata.js`: **17 guide routes** plus trust/static route metadata.
@@ -39,7 +39,7 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 | beyonce | 2026-06-19 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | harry-styles | 2026-04-30 | 39 | 30 | 30 | 0 | Together, Together | — |
 | bts | 2026-04-30 | 25 | 21 | 14 | **4** | BTS WORLD TOUR 'ARIRANG' | Recheck rows: Madrid 6/26 & 6/27 (no-link), Arlington 8/16 & 8/17 (standalone SeatGeek CTA). |
-| ariana-grande | 2026-04-30 | 41 | 22 | 10 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
+| ariana-grande | 2026-04-30 | 41 | 23 | 11 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
 | bad-bunny | 2026-04-30 | 26 | 0 | 0 | **2** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
 | morgan-wallen | 2026-04-30 | 18 | 16 | 6 | 0 | Still the Problem Tour | — |
 | jay-z | 2026-04-30 | 5 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | The Inglewood SoFi (`event_name` "JAY-Z30") and London Tottenham Hotspur Stadium (`event_name` "JAY-Z - 30") rows have blank `tour_name` values and need owner labels. |

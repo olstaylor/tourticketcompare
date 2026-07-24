@@ -40,6 +40,7 @@ const sitemapModule = await import(pathToFileURL(path.join(root, "functions/site
 const routeMetadataModule = await import(pathToFileURL(path.join(root, "functions/_route-metadata.js")));
 const venuesModule = await import(pathToFileURL(path.join(root, "functions/_venues.js")));
 const citiesModule = await import(pathToFileURL(path.join(root, "functions/_cities.js")));
+const artistCitiesModule = await import(pathToFileURL(path.join(root, "functions/_artist-cities.js")));
 
 const catalog = JSON.parse(await read("public/data/catalog.json"));
 const artistsMeta = JSON.parse(await read("public/data/artists.json"));
@@ -84,7 +85,13 @@ const cities = citiesModule.deriveCities(events);
 const cityPaths = cities.map((city) => `/cities/${city.slug}`);
 const venues = venuesModule.deriveVenues(events);
 const venuePaths = venues.map((venue) => `/venues/${venue.slug}`);
-const allPaths = [...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", ...venuePaths])];
+const indexableArtistSlugs = artistsMeta
+  .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+  .map((artist) => String(artist?.slug || "").trim())
+  .filter(Boolean);
+const artistCityEntries = artistCitiesModule.deriveIndexableArtistCities(events, indexableArtistSlugs);
+const artistCityPaths = artistCityEntries.map((entry) => entry.path);
+const allPaths = [...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", ...venuePaths, ...artistCityPaths])];
 
 // ---------- parsing helpers ----------
 
@@ -390,6 +397,45 @@ for (const venue of venues) {
 const venueIndexPage = pages.get("/venues");
 if (!venueIndexPage?.mainHtml.includes("Why the coverage threshold matters")) {
   problems.push("venue quality: /venues is missing its visible inclusion-method explanation");
+}
+
+// Artist-city landing pages are generated from changing event data, so validate
+// the complete qualifying set rather than a single representative route. These
+// guards enforce useful, event-specific local pages and stop a future data
+// change from silently creating thin token-swapped or doorway entries.
+for (const entry of artistCityEntries) {
+  const page = pages.get(entry.path);
+  if (!page || page.status !== 200) {
+    problems.push(`artist-city quality: ${entry.path} did not render successfully`);
+    continue;
+  }
+  if (!page.indexable) {
+    problems.push(`artist-city quality: ${entry.path} is a qualifying page but renders noindex`);
+  }
+  const mainText = decodeEntities(page.mainHtml);
+  const requiredCopy = [
+    "Tickets in",
+    "At a glance:",
+    "Short answer:",
+    "How to buy",
+    "ticket FAQ",
+    // A crawl path back to the artist hub is mandatory on every artist-city page.
+    `href="/artists/${entry.artistSlug}"`
+  ];
+  for (const marker of requiredCopy) {
+    if (!(mainText.includes(marker) || page.mainHtml.includes(marker))) {
+      problems.push(`artist-city quality: ${entry.path} is missing "${marker}"`);
+    }
+  }
+  const renderedDates = [...page.mainHtml.matchAll(/<div class="show-date-badge">/g)].length;
+  if (renderedDates < 1) {
+    problems.push(`artist-city quality: ${entry.path} renders no dated show cards`);
+  }
+  const faqAnswers = [...page.mainHtml.matchAll(/<details>/g)].length;
+  if (faqAnswers < 6) problems.push(`artist-city quality: ${entry.path} renders only ${faqAnswers} visible FAQ answers`);
+  for (const type of ["Place", "CollectionPage", "FAQPage"]) {
+    if (!page.schemaTypes.includes(type)) problems.push(`artist-city quality: ${entry.path} is missing ${type} structured data`);
+  }
 }
 
 // Long-form guides must retain meaningful depth, visible authorship/review

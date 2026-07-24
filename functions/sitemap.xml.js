@@ -1,6 +1,7 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
 import { deriveVenues } from "./_venues.js";
 import { deriveCities } from "./_cities.js";
+import { deriveIndexableArtistCities } from "./_artist-cities.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -53,6 +54,16 @@ async function loadIndexableCities(env) {
   }
 }
 
+async function loadIndexableArtistCities(env, indexableArtistSlugs) {
+  try {
+    const events = await loadJsonAsset(env, "/data/events.json");
+    if (!Array.isArray(events)) return [];
+    return deriveIndexableArtistCities(events, indexableArtistSlugs);
+  } catch (error) {
+    return [];
+  }
+}
+
 async function loadIndexableArtists(env) {
   try {
     const [catalog, artistsMeta] = await Promise.all([
@@ -94,12 +105,23 @@ export async function onRequestGet({ request, env }) {
       priority: path === "/" ? "1.0" : "0.6"
     };
   });
-  const artistEntries = (await loadIndexableArtists(env)).map(({ slug, lastmod }) => ({
+  const indexableArtists = await loadIndexableArtists(env);
+  const artistEntries = indexableArtists.map(({ slug, lastmod }) => ({
     path: `/artists/${slug}`,
     lastmod,
     changefreq: "weekly",
     priority: "0.8"
   }));
+  // Artist-city landing pages, gated on the same derivation the router uses so
+  // only combinations with qualifying upcoming inventory ever enter the sitemap.
+  const artistCityEntries = (await loadIndexableArtistCities(env, indexableArtists.map((artist) => artist.slug))).map(
+    ({ path, lastmod }) => ({
+      path,
+      lastmod: ISO_DATE.test(String(lastmod || "")) ? lastmod : STATIC_LASTMOD,
+      changefreq: "weekly",
+      priority: "0.7"
+    })
+  );
   const [indexableCities, indexableVenues] = await Promise.all([
     loadIndexableCities(env),
     loadIndexableVenues(env)
@@ -126,7 +148,7 @@ export async function onRequestGet({ request, env }) {
         }))
       )
     : [];
-  const entries = staticEntries.concat(artistEntries, cityEntries, venueEntries);
+  const entries = staticEntries.concat(artistEntries, artistCityEntries, cityEntries, venueEntries);
 
   const urlsXml = entries
     .map((entry) => {

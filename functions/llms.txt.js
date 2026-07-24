@@ -1,6 +1,7 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
 import { deriveCities } from "./_cities.js";
 import { deriveVenues } from "./_venues.js";
+import { deriveIndexableArtistCities } from "./_artist-cities.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -42,16 +43,17 @@ async function loadIndexableArtists(env) {
   }
 }
 
-async function loadIndexableLocations(env) {
+async function loadIndexableLocations(env, indexableArtistSlugs = []) {
   try {
     const events = await loadJsonAsset(env, "/data/events.json");
-    if (!Array.isArray(events)) return { cities: [], venues: [] };
+    if (!Array.isArray(events)) return { cities: [], venues: [], artistCities: [] };
     return {
       cities: deriveCities(events).filter((city) => city.indexable),
-      venues: deriveVenues(events).filter((venue) => venue.indexable)
+      venues: deriveVenues(events).filter((venue) => venue.indexable),
+      artistCities: deriveIndexableArtistCities(events, indexableArtistSlugs)
     };
   } catch (error) {
-    return { cities: [], venues: [] };
+    return { cities: [], venues: [], artistCities: [] };
   }
 }
 
@@ -68,9 +70,19 @@ export async function onRequestGet({ request, env }) {
     linkLine(origin, path, guide.h1 || guide.title, guide.description)
   );
 
-  const [artists, locations] = await Promise.all([loadIndexableArtists(env), loadIndexableLocations(env)]);
+  const artists = await loadIndexableArtists(env);
+  const locations = await loadIndexableLocations(env, artists.map((artist) => artist.slug));
   const artistLines = artists.map((artist) =>
     linkLine(origin, `/artists/${artist.slug}`, artist.name, artist.description)
+  );
+  const artistNameBySlug = new Map(artists.map((artist) => [artist.slug, artist.name]));
+  const artistCityLines = locations.artistCities.map((entry) =>
+    linkLine(
+      origin,
+      entry.path,
+      `${artistNameBySlug.get(entry.artistSlug) || entry.artistSlug} tickets in ${entry.label}`,
+      `${entry.showCount} upcoming tracked ${entry.showCount === 1 ? "date" : "dates"} across ${entry.venueCount} ${entry.venueCount === 1 ? "venue" : "venues"}.`
+    )
   );
   const cityLines = [
     linkLine(origin, "/cities", "Concerts by city", "Browse substantial city pages built from reviewed upcoming tour dates."),
@@ -134,6 +146,10 @@ ${cityLines.join("\n")}
 ## Concert venues
 
 ${venueLines.join("\n")}
+
+## Artist tickets by city
+
+${artistCityLines.length ? artistCityLines.join("\n") : "- No qualifying artist-city pages are currently active."}
 
 ## About the site
 

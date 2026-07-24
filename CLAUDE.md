@@ -55,6 +55,9 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
                           edit here, not in [[path]].js
   _cities.js              City aggregation derived from reviewed events (shared with
                           sitemap/llms.txt; substantial-content indexing gate)
+  _artist-cities.js       Artist-city aggregation for /artists/<artist>/tickets/<city>
+                          landing pages (shared with sitemap/llms.txt/internal-link
+                          audit; router owns the redirect/404 expiry lifecycle)
   _impact-marketplace-config.js  Shared config for the TicketNetwork / Ticket Liquidator /
                           StubHub International lanes
   [named-shims].js        artists.js, guides.js, etc. Re-export from [[path]].js;

@@ -506,6 +506,12 @@ function getRoute() {
     if (!artist) return { type: "not-found" };
     if (parts.length === 2) return { type: "artist", artist };
     if (parts.length === 3 && parts[2] === "tickets") return { type: "client-redirect", to: `/artists/${artist.slug}` };
+    // Artist-city landing pages (/artists/<artist>/tickets/<city>) are fully
+    // rendered by the function route and have no client renderer, so preserve
+    // the server HTML (like /cities and /venues) instead of falling through to
+    // the client-side 404. The server already returns a real 404 or 301 for
+    // non-qualifying combinations, so preserving its output is correct.
+    if (parts.length === 4 && parts[2] === "tickets") return { type: "server-rendered" };
     if (parts.length === 3) {
       const tour = (catalog.tours || []).find((candidate) => candidate.artist_slug === artist.slug && candidate.slug === parts[2]);
       return tour ? { type: "tour", artist, tour } : { type: "not-found" };

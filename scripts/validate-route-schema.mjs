@@ -284,6 +284,51 @@ function expectedMusicEventCount(artistSlug) {
   else ok("no indexable venue available to check (skipped)");
 }
 
+// 6c. Artist-city pages: apex head, self-canonical, Place + CollectionPage +
+// FAQPage, and MusicEvent nodes for exactly the publishable shows in the city's
+// listing — never offers/price/availability in the default environment. Every
+// qualifying page is checked so a data change cannot silently break the gate.
+{
+  const { deriveIndexableArtistCities, findArtistCity } = await import(pathToFileURL(path.join(root, "functions/_artist-cities.js")));
+  const artistsMeta = JSON.parse(await fs.readFile(path.join(root, "public/data/artists.json"), "utf8"));
+  const indexableSlugs = artistsMeta
+    .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+    .map((artist) => artist.slug);
+  const entries = deriveIndexableArtistCities(events, indexableSlugs);
+
+  let checked = 0;
+  for (const entry of entries) {
+    const html = await (await render(entry.path)).text();
+    assertApexHead(html, entry.path);
+    const graph = extractGraph(html, entry.path);
+    if (!graph) continue;
+    const t = types(graph);
+    for (const required of ["Place", "CollectionPage", "FAQPage", "BreadcrumbList"]) {
+      if (!t.includes(required)) fail(`${entry.path}: missing ${required} structured data`);
+    }
+    // Expected publishable MusicEvent count comes straight from the module's own
+    // derivation, so this check fails if the schema builder ever drifts from the
+    // publishable gate used to render the visible board.
+    const artistCity = findArtistCity(events, entry.artistSlug, entry.slug);
+    const expected = artistCity ? artistCity.publishableCount : 0;
+    const musicEvents = graph.filter((node) => node["@type"] === "MusicEvent");
+    if (musicEvents.length !== expected) {
+      fail(`${entry.path}: ${musicEvents.length} MusicEvent node(s), expected ${expected} from the publishable listing`);
+    }
+    for (const node of musicEvents) {
+      const raw = JSON.stringify(node).toLowerCase();
+      if (raw.includes("offer") || raw.includes("price") || raw.includes("availability")) {
+        fail(`${entry.path}: MusicEvent node carries offers/price/availability in the default environment`);
+      }
+      if (!node.name || !node.startDate || !node.location?.name || !node.location?.address?.addressLocality) {
+        fail(`${entry.path}: MusicEvent node missing name/startDate/venue/city`);
+      }
+    }
+    checked += 1;
+  }
+  ok(`${checked} artist-city page(s) checked; MusicEvent nodes match the publishable listing and carry no offers`);
+}
+
 // 7. Schema-offers exception scenarios (owner-approved 2026-07-22). Real
 // artist routes are re-rendered with fixture flags and a stub D1
 // provider_pricing_cache so both directions of the narrower rule are

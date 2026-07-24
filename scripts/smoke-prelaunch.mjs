@@ -473,6 +473,7 @@ const publicCopyFiles = [
   "public/index.html",
   "public/app.js",
   "functions/[[path]].js",
+  "functions/_artist-content.js",
   "public/data/catalog.json",
   "public/ttc-home.js"
 ];
@@ -485,6 +486,7 @@ const publicCopyRegressionFiles = [
   "public/index.html",
   "public/app.js",
   "functions/[[path]].js",
+  "functions/_artist-content.js",
   "functions/_route-metadata.js",
   "public/data/guides-content.json",
   "public/data/catalog.json",
@@ -1178,6 +1180,28 @@ assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artis
 assert(appJs.includes('text(relatedGuides, "h2", "Related guides")'), "artist hydration should preserve the server-rendered related-guide cluster");
 assert(appJs.includes('link("Compare concert ticket prices", "/compare-concert-ticket-prices", "mini-link")'), "artist hydration should preserve a descriptive internal link to the comparison hub");
 assert(appJs.includes('link("Affiliate disclosure", "/affiliate-disclosure", "mini-link")'), "artist hydration should preserve the server-rendered trust link set");
+
+// --- Artist SEO content architecture (functions/_artist-content.js) ---------
+// The derived, data-driven content block (search intro, tour summaries,
+// tickets-by-city/venue links, buying guide, pricing explanation) is
+// server-rendered once and transplanted on hydration; assert both sides.
+const SHARED_ARTIST_INTRO_PHRASE = "tour dates, compare available ticket options from checked providers, and use practical buying guidance before you book.";
+assert(
+  (await read("functions/_artist-content.js")).includes(SHARED_ARTIST_INTRO_PHRASE),
+  "artist content module should carry the shared search-focused intro phrase"
+);
+assert(appJs.includes(SHARED_ARTIST_INTRO_PHRASE), "app.js artistPageIntro must stay in sync with the shared search-focused intro phrase");
+assert(
+  (await read("functions/[[path]].js")).includes("artistSearchIntro(artist)"),
+  "server artist page should render the shared search-focused intro from the content module"
+);
+assert(appJs.includes('main.querySelector("[data-artist-extra-content]")'), "artist hydration must transplant the server-rendered SEO content container unchanged");
+for (const [label, page] of [["with SeatGeek", serverMorganWithSeatGeek.text], ["without SeatGeek", serverMorganWithoutSeatGeek.text]]) {
+  assert(page.includes("data-artist-extra-content"), `server-rendered artist page (${label}) should include the derived SEO content container`);
+  assert(page.includes("How to buy Morgan Wallen tickets"), `server-rendered artist page (${label}) should include the ticket-buying guide`);
+  assert(page.includes("How ticket prices are shown here"), `server-rendered artist page (${label}) should include the pricing explanation with safe fallback`);
+  assert(page.includes("tours and dates"), `server-rendered artist page (${label}) should include data-derived tour summaries`);
+}
 
 // --- Regression guard: transient Ticketmaster sync/recheck state must never
 // suppress public CTAs (production regression 2026-06-03). A data-sync or audit

@@ -111,6 +111,7 @@ jobs:
             node scripts/sync-vividseats-events.mjs --apply "${SYNC_ARGS[@]}"
             npm run events:partition
             npm run events:sync
+            node scripts/validate-status-counts.mjs --write
           else
             echo "PREVIEW — dry-run only, no writes."
             node scripts/sync-vividseats-events.mjs "${SYNC_ARGS[@]}"
@@ -144,7 +145,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           BRANCH="automation/vividseats-cta-sync-${TODAY}"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events-index.json public/data/events public/index.html reports/provider-sync/vividseats-cta-sync.md
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md reports/provider-sync/vividseats-cta-sync.md
           git commit -m "automation: Vivid Seats CTA sync (${TODAY})"
           git push -u origin "$BRANCH" --force-with-lease
           if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_AUTO_MERGE:-false}" = "true" ]; then

@@ -107,6 +107,7 @@ jobs:
             node scripts/verify-seatgeek-events.mjs --apply "${VERIFY_ARGS[@]}"
             npm run events:partition
             npm run events:sync
+            node scripts/validate-status-counts.mjs --write
           else
             echo "PREVIEW — dry-run only, no writes."
             node scripts/enrich-seatgeek-events.mjs --max-api-calls 150 --delay-ms 1000
@@ -141,7 +142,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           BRANCH="automation/seatgeek-cta-sync-${TODAY}"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events-index.json public/data/events public/index.html reports/provider-sync/seatgeek-cta-auto-add.md reports/provider-sync/seatgeek-cta-verify.md
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md reports/provider-sync/seatgeek-cta-auto-add.md reports/provider-sync/seatgeek-cta-verify.md
           git commit -m "automation: SeatGeek CTA enrichment + verification (${TODAY})"
           git push -u origin "$BRANCH" --force-with-lease
           if [ "${EVENT_NAME}" = "schedule" ] || [ "${INPUT_AUTO_MERGE:-false}" = "true" ]; then

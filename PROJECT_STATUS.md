@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-07-23 (event recount from source: **423 events — 284 `human_verified` / 115 `machine_high_confidence` / 24 `needs_recheck`**, up from 402/98/20 as new-show discovery landed jelly-roll and tame-impala event records; provider-provenance and per-artist counts refreshed accordingly — see Current data. 2026-07-22: city landing-page aggregation added and then tightened after a people-first quality review: 52 known cities, 13 indexable under the ≥4 upcoming shows / ≥2 artists gate; jelly-roll + tame-impala batch-promoted to `indexable_with_substantial_content` — 20 indexable / 4 shells).
+Last updated: 2026-07-23 (full recount from source data — the nightly sync lanes had added event/provenance rows since the 2026-07-22 edit without refreshing this file: events 402→423, `needs_recheck` 20→24, and provider provenance/per-artist figures moved with them; jelly-roll and tame-impala now carry event records. Corrected figures below. New `scripts/validate-status-counts.mjs` now recounts these against source and self-heals them in the sync lanes; city/venue counts remain date-derived and are not machine-enforced. 2026-07-22: city landing-page aggregation added and tightened to 52 known cities / 13 indexable under the ≥4 upcoming shows / ≥2 artists gate; jelly-roll + tame-impala batch-promoted — 20 indexable / 4 shells).
 
 This file is the current-state snapshot—the **only** place live state (counts, per-artist status, active risks) is recorded. Use `BACKLOG.md` for prioritised work and `CLAUDE.md` for protected areas, hard product rules, and validation. `docs/DOCS_MAINTENANCE.md` explains ownership and drift checks. Superseded material lives in git history and dated frozen narratives under `reports/status-history/` — never in parallel archive or handover documents.
 
@@ -18,7 +18,7 @@ This file is the current-state snapshot—the **only** place live state (counts,
 
 ## Current data
 
-Verified by direct inspection of `public/data/`, `data/provider-identities.json`, and `functions/api/out.js` on 2026-07-22 (`npm run data:stats` + direct recount):
+Verified by direct inspection of `public/data/`, `data/provider-identities.json`, and `functions/api/out.js` on 2026-07-23 (`npm run data:stats` + `npm run status:validate`, which recounts these figures from source):
 
 - `public/data/artists.json`: **24 records — 20 `indexable_with_substantial_content` + 4 `review_required` shells** (sabrina-carpenter, lady-gaga, the-weeknd, coldplay). The 20 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 4 shells carry `verified_providers: []` and render no CTA. 3 of the 20 indexable — beyonce, raye, tate-mcrae — carry 0 events and render artist-level CTAs only; jelly-roll and tame-impala now carry event records (1 and 20 respectively).
 - `public/data/catalog.json`: 24 artist records; 0 tour records; **44 ticket_links rows** (24 ticketmaster + 20 seatgeek artist pages; 40 `verified` + `public_enabled`, plus 4 unverified/hidden shell ticketmaster rows for the `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
@@ -32,14 +32,14 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 
 ### Per-artist status
 
-20 of the 24 artists are `indexable_with_substantial_content` with `verified_providers: ["ticketmaster","seatgeek"]` and both `<slug>:ticketmaster` and `<slug>:seatgeek` entries in `VERIFIED_TICKET_LINKS`; the remaining 4 (sabrina-carpenter, lady-gaga, the-weeknd, coldplay) are `review_required` shells with no CTA (last four rows below). "SG verified" = events carrying `provider_links.seatgeek.verified === true`. Event counts recounted from `events.json` 2026-07-22; `last_verified_at` values come from `artists.json` and are not all current. Notes describe current state only; dated change history lives in git history and `reports/status-history/`.
+20 of the 24 artists are `indexable_with_substantial_content` with `verified_providers: ["ticketmaster","seatgeek"]` and both `<slug>:ticketmaster` and `<slug>:seatgeek` entries in `VERIFIED_TICKET_LINKS`; the remaining 4 (sabrina-carpenter, lady-gaga, the-weeknd, coldplay) are `review_required` shells with no CTA (last four rows below). "SG verified" = events carrying `provider_links.seatgeek.verified === true`. Event counts recounted from `events.json` 2026-07-23; `last_verified_at` values come from `artists.json` and are not all current. Notes describe current state only; dated change history lives in git history and `reports/status-history/`.
 
 | Slug | `last_verified_at` | Events | With `seatgeek_url` | SG verified | `needs_recheck` | Tour name | Notes |
 |---|---|---|---|---|---|---|---|
 | beyonce | 2026-06-19 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | harry-styles | 2026-04-30 | 39 | 30 | 30 | 0 | Together, Together | — |
 | bts | 2026-04-30 | 25 | 21 | 14 | **4** | BTS WORLD TOUR 'ARIRANG' | Recheck rows: Madrid 6/26 & 6/27 (no-link), Arlington 8/16 & 8/17 (standalone SeatGeek CTA). |
-| ariana-grande | 2026-04-30 | 41 | 24 | 12 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
+| ariana-grande | 2026-04-30 | 41 | 22 | 10 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
 | bad-bunny | 2026-04-30 | 26 | 0 | 0 | **2** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
 | morgan-wallen | 2026-04-30 | 18 | 16 | 6 | 0 | Still the Problem Tour | — |
 | jay-z | 2026-04-30 | 5 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | The Inglewood SoFi (`event_name` "JAY-Z30") and London Tottenham Hotspur Stadium (`event_name` "JAY-Z - 30") rows have blank `tour_name` values and need owner labels. |
@@ -101,7 +101,7 @@ These are the live risks. Detailed task scope and ordering live in `BACKLOG.md`.
 
 - **Ticketmaster storefront rechecks — 24 `needs_recheck` rows** (olivia-rodrigo 6, zach-bryan 5, bts 4, tame-impala 3, bad-bunny 2, ed-sheeran 2, shakira 1, jelly-roll 1; per-row detail in the table above). The Discovery API resolving an id is not sufficient evidence to restore a storefront URL; restores require an owner browser check. Provider-specific resale provenance is independent (17 rows publish SeatGeek, 7 show the safe no-link state). The jelly-roll and tame-impala rows are newly discovered post-promotion events — the SeatGeek lane verified and publishes them while the TM storefront awaits its first recheck.
 
-- **Current-state counts still require a deliberate recount.** `npm run docs:check` protects canonical paths, relative links, and documented commands, but it cannot prove data counts or production flags. Any provider, event, artist, guide, workflow, or runtime-config change must refresh this file from source data and `/api/health`.
+- **Current-state counts still require a deliberate recount.** `npm run docs:check` protects canonical paths, relative links, and documented commands, but it cannot prove data counts or production flags. `npm run status:validate` (`scripts/validate-status-counts.mjs`) now recounts the deterministic "Current data" figures and the per-artist table from source — currently **warning-only** (it reports drift but does not fail CI) and self-heals inside the auto-merging sync lanes via `--write`. City/venue indexable counts stay date-derived and are not machine-enforced. Any provider, event, artist, guide, workflow, or runtime-config change must still refresh this file from source data and `/api/health`.
 
 ## Product guardrails
 
@@ -140,4 +140,4 @@ See `CLAUDE.md` → Critical Product Rules, [SAFE_PUBLISHING_RULES.md](SAFE_PUBL
 
 ## How to update this file
 
-Refresh when any of the following change: artist count, indexing status, event count, guide count, bindings, validation pipeline, daily automation, or the set of active issues. Recount from the data files (`python3 -c` over `public/data/*.json`) rather than trusting prior text — this file drifted once already. When a risk resolves or a dated review concludes, distill any live residue here (or into `BACKLOG.md`), then move the narrative to a dated file under `reports/status-history/` or delete it to git history — keep this file current-state only. Reference `BACKLOG.md` for prioritised work — do not duplicate the priority list here. See `docs/DOCS_MAINTENANCE.md` for the canonical-file map.
+Refresh when any of the following change: artist count, indexing status, event count, guide count, bindings, validation pipeline, daily automation, or the set of active issues. Recount from the data files rather than trusting prior text — this file has drifted more than once. `npm run status:validate` recounts the deterministic figures from source and lists any divergence; `npm run status:validate:write` (`--write`) rewrites the enforced numbers and the per-artist table columns in place. Only the "Current data" bullets and the per-artist table numeric columns are machine-enforced; city/venue counts are date-derived and must be refreshed by hand. When a risk resolves or a dated review concludes, distill any live residue here (or into `BACKLOG.md`), then move the narrative to a dated file under `reports/status-history/` or delete it to git history — keep this file current-state only. Reference `BACKLOG.md` for prioritised work — do not duplicate the priority list here. See `docs/DOCS_MAINTENANCE.md` for the canonical-file map.

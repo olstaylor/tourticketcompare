@@ -124,6 +124,7 @@ jobs:
             node scripts/sync-impact-marketplace-events.mjs --apply "${args[@]}"
             npm run events:partition
             npm run events:sync
+            node scripts/validate-status-counts.mjs --write
           else
             node scripts/sync-impact-marketplace-events.mjs "${args[@]}"
           fi
@@ -158,7 +159,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           BRANCH="automation/${PROVIDER}-impact-sync-${TODAY}"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events-index.json public/data/events public/index.html
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md
           git commit -m "automation: ${PROVIDER} Impact catalog sync (${TODAY})"
           git push -u origin "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \

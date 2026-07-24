@@ -20,11 +20,18 @@ assert.deepEqual(metadata, { priceSnapshot: "present", ctaLocation: "event_card"
 assert.match(analytics, /"priceSnapshot"/);
 assert.match(analytics, /"ctaLocation"/);
 
-// A no-JavaScript browser must see a disabled, non-submitting shell. The
-// client upgrades it to POST-via-fetch only after JavaScript is running.
+// A no-JavaScript browser must get a working, safe native form: it POSTs to
+// /api/signup (never a GET that would leak the email into the artist-page URL),
+// carries hidden artistSlug/sourcePath, and has an enabled submit button. With
+// JavaScript, the client intercepts the submit via the data-watchlist-shell
+// hook and posts JSON for inline status instead.
 assert.match(server, /data-watchlist-shell=/);
-assert.match(server, /type="button" disabled>Enable JavaScript to join/);
-assert.doesNotMatch(server, /data-watchlist-signup=.*?method=/);
+assert.match(server, /<form class="watchlist-signup" method="post" action="\/api\/signup"/);
+assert.match(server, /<input type="hidden" name="sourcePath"/);
+assert.match(server, /type="submit">Notify me<\/button>/);
+assert.doesNotMatch(server, /Enable JavaScript to join/);
+assert.match(client, /form\.method = "post"/);
+assert.match(client, /form\.action = "\/api\/signup"/);
 assert.match(client, /dataset\.signupSubmitting === "true"/);
 assert.match(client, /submitButton\.disabled = true/);
 

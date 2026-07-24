@@ -119,41 +119,101 @@ async function insertAnalytics(db, eventName, row, metadata = null) {
   }
 }
 
+// A no-JS watchlist submit is a native <form> POST (form-encoded), not the
+// fetch(JSON) path public/app.js uses. Anything that is not JSON is treated as
+// a form post and answered with a small HTML confirmation page (Post/Redirect/
+// Get-style landing) instead of a JSON body, so the browser shows a readable
+// result rather than raw JSON.
+function wantsHtmlResponse(request) {
+  return !String(request.headers.get("content-type") || "").toLowerCase().includes("application/json");
+}
+
+// Restrict the "back" link to a same-origin site path so a crafted sourcePath
+// can never turn the confirmation page into an open redirect surface.
+function safeBackHref(value) {
+  const raw = clean(value, 255);
+  return /^\/[A-Za-z0-9/_-]*$/.test(raw) ? raw : "/artists";
+}
+
+const HTML_MESSAGES = {
+  subscribed: "You're on the watchlist. We'll email you when verified dates and checked ticket links are listed.",
+  already_subscribed: "You're already on the watchlist — we'll be in touch when verified dates are listed.",
+  invalid_email: "That email address didn't look right. Please go back and try again.",
+  invalid_form: "We couldn't read that submission. Please go back and try again.",
+  invalid_artist: "We couldn't match that artist. Please go back and try again.",
+  artist_validation_unavailable: "Signups are briefly unavailable. Please try again shortly.",
+  rate_limited: "Too many signups from this connection just now. Please try again in a few minutes.",
+  spam_detected: "That submission looked automated and was not saved.",
+  payload_too_large: "That submission was too large to process.",
+  storage_unavailable: "Signups are briefly unavailable. Please try again shortly."
+};
+
+function htmlResponse(result, status, backHref = "/artists") {
+  const heading = result.ok ? "You're on the watchlist" : "Signup not completed";
+  const message = HTML_MESSAGES[result.status] || "Something went wrong. Please go back and try again.";
+  const body = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" /><title>${heading} | TourTicketCompare</title><link rel="stylesheet" href="/styles.css" /></head><body><main id="mainContent"><section class="content-page"><h1>${heading}</h1><p class="lead">${message}</p><div class="action-row"><a class="button button-primary" href="${backHref}">Back to the artist page</a><a class="button button-secondary" href="/artists">Browse artists</a></div></section></main></body></html>`;
+  return new Response(body, {
+    status,
+    headers: {
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "no-store",
+      "X-Robots-Tag": "noindex"
+    }
+  });
+}
+
 export async function onRequestPost({ request, env }) {
+  const asHtml = wantsHtmlResponse(request);
+  // Populated from the submitted sourcePath once parsed; only used by the HTML
+  // (no-JS) branch for its "back" link.
+  let backHref = "/artists";
+  const respond = (result, status) =>
+    asHtml ? htmlResponse(result, status, backHref) : json(result, status);
+
   const db = getDemandDb(env);
-  if (!db) return json({ ok: false, status: "storage_unavailable" }, 503);
+  if (!db) return respond({ ok: false, status: "storage_unavailable" }, 503);
 
   const contentLength = Number(request.headers.get("content-length") || "0");
   if (Number.isFinite(contentLength) && contentLength > MAX_BODY_SIZE) {
-    return json({ ok: false, status: "payload_too_large" }, 413);
+    return respond({ ok: false, status: "payload_too_large" }, 413);
   }
 
   let payload = null;
-  try {
-    payload = await request.json();
-  } catch (error) {
-    return json({ ok: false, status: "invalid_json" }, 400);
+  if (asHtml) {
+    try {
+      const form = await request.formData();
+      payload = Object.fromEntries(Array.from(form.entries()).map(([key, value]) => [key, String(value)]));
+    } catch (error) {
+      return respond({ ok: false, status: "invalid_form" }, 400);
+    }
+  } else {
+    try {
+      payload = await request.json();
+    } catch (error) {
+      return respond({ ok: false, status: "invalid_json" }, 400);
+    }
   }
+  backHref = safeBackHref(payload?.sourcePath);
 
-  if (clean(payload?.website, 120)) return json({ ok: false, status: "spam_detected" }, 400);
+  if (clean(payload?.website, 120)) return respond({ ok: false, status: "spam_detected" }, 400);
 
   const email = normalizeEmail(payload?.email);
-  if (!isValidEmail(email)) return json({ ok: false, status: "invalid_email" }, 400);
+  if (!isValidEmail(email)) return respond({ ok: false, status: "invalid_email" }, 400);
 
   const artistSlug = clean(payload?.artistSlug, 80).toLowerCase();
   if (artistSlug) {
     const artistSlugs = await loadArtistSlugs(env);
     // Fail closed: if the allowlist cannot be loaded, reject artist-tagged
     // signups rather than letting unknown slugs into artist_interests.
-    if (!artistSlugs) return json({ ok: false, status: "artist_validation_unavailable" }, 503);
-    if (!artistSlugs.has(artistSlug)) return json({ ok: false, status: "invalid_artist" }, 400);
+    if (!artistSlugs) return respond({ ok: false, status: "artist_validation_unavailable" }, 503);
+    if (!artistSlugs.has(artistSlug)) return respond({ ok: false, status: "invalid_artist" }, 400);
   }
 
   const now = new Date();
   const createdAt = now.toISOString();
   const requestKey = await hashRequestKey(request);
   const allowed = await applyRateLimit(db, requestKey, now);
-  if (!allowed) return json({ ok: false, status: "rate_limited" }, 429);
+  if (!allowed) return respond({ ok: false, status: "rate_limited" }, 429);
 
   const row = {
     email,
@@ -214,10 +274,13 @@ export async function onRequestPost({ request, env }) {
   const analyticsMetadata = isPriceAlertInterest ? { intent: "price_alert", event_id: eventId } : null;
   await insertAnalytics(db, analyticsEventName, row, analyticsMetadata);
 
-  return json({
-    ok: true,
-    status: existing ? "already_subscribed" : "subscribed",
-    email,
-    artistSlug: artistSlug || null
-  });
+  return respond(
+    {
+      ok: true,
+      status: existing ? "already_subscribed" : "subscribed",
+      email,
+      artistSlug: artistSlug || null
+    },
+    200
+  );
 }

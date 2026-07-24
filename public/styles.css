@@ -529,6 +529,30 @@ h3 {
   background: rgba(255, 253, 247, 0.76);
 }
 
+.recent-shows {
+  margin: 18px 0;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.recent-shows h4 {
+  margin: 0 0 6px;
+}
+
+.recent-shows-list {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+}
+
+.recent-shows-list time {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
 .show-filter-bar {
   display: flex;
   flex-wrap: wrap;

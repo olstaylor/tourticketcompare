@@ -2,7 +2,7 @@ import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS, CANONICAL_HOST, canoni
 import { attachApprovedMarketplacePrices } from "./api/shows.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 import { deriveVenues, findVenue } from "./_venues.js";
-import { deriveCities, findCity } from "./_cities.js";
+import { deriveCities, findCity, normalizeCountry } from "./_cities.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -488,33 +488,80 @@ function artistSchema(route, origin) {
 // they add Search Console coverage without inventing data. `organizer` and
 // `endDate` stay omitted: we hold no verified promoter or event end time, and
 // fabricating either would violate the never-invent rule.
+// Shared MusicEvent node builder for the artist, venue, and city @graphs. Every
+// field is composed from already-verified facts (name/venue/city/country/date)
+// plus the site's own representative image; addressCountry is included only
+// when the source record carries it. `offers` is always the output of the
+// flag-gated musicEventOffersSchema (empty by default) so the never-emit-price
+// invariant holds identically on every page type. `performer` is a reference to
+// the page's Person/MusicGroup node on artist pages and an inline
+// Person/MusicGroup on venue/city pages, which aggregate multiple artists.
+function musicEventNode(show, origin, { displayName, performer, offers = [] }) {
+  const name = displayName || show.artist_name || show.artist_slug;
+  const displayDate = formatShowDateServer(show.dateTimeISO);
+  const address = { "@type": "PostalAddress", addressLocality: show.city };
+  if (show.country) address.addressCountry = show.country;
+  return {
+    "@type": "MusicEvent",
+    name: show.event_name || `${name} — ${show.city}`,
+    description: `${name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`,
+    image: `${origin}/og-image.png`,
+    startDate: show.dateTimeISO,
+    eventStatus: "https://schema.org/EventScheduled",
+    location: { "@type": "Place", name: show.venue, address },
+    performer,
+    url: `${origin}/artists/${show.artist_slug}#${showAnchorId(show)}`,
+    ...(offers.length ? { offers } : {})
+  };
+}
+
+// Mirror of artistSchema's Person/MusicGroup selection so venue/city inline
+// performers carry the same type the artist page uses.
+function performerTypeForArtist(catalog, artistSlug) {
+  const slug = slugify(artistSlug);
+  const record = (catalog?.artists || []).find((artist) => slugify(artist?.slug) === slug);
+  return record?.schema_type === "MusicGroup" || slug === "bts" ? "MusicGroup" : "Person";
+}
+
 function musicEventsSchema(route, origin, events, env = {}) {
   const artistId = `${origin}${route.path}#artist`;
   const offersEnabled = schemaOffersEnabledForArtist(env, route.artist.slug);
   return futureShowsForArtist(events, route.artist.slug, 6)
     .filter((show) => show.publishable && show.dateTimeISO && show.venue && show.city)
-    .map((show) => {
-      const anchorId = showAnchorId(show);
-      const displayDate = formatShowDateServer(show.dateTimeISO);
-      const description = `${route.artist.name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`;
-      const offers = offersEnabled ? musicEventOffersSchema(show, origin, env) : [];
-      return {
-        "@type": "MusicEvent",
-        name: show.event_name || `${route.artist.name} — ${show.city}`,
-        description,
-        image: `${origin}/og-image.png`,
-        startDate: show.dateTimeISO,
-        eventStatus: "https://schema.org/EventScheduled",
-        location: {
-          "@type": "Place",
-          name: show.venue,
-          address: { "@type": "PostalAddress", addressLocality: show.city }
-        },
+    .map((show) =>
+      musicEventNode(show, origin, {
+        displayName: route.artist.name,
         performer: { "@id": artistId },
-        url: `${origin}${route.path}#${anchorId}`,
-        ...(offers.length ? { offers } : {})
-      };
-    });
+        offers: offersEnabled ? musicEventOffersSchema(show, origin, env) : []
+      })
+    );
+}
+
+// MusicEvent nodes for the venue/city @graph. These pages already render an
+// upcoming-shows listing (ItemList + visible show groups); this emits the
+// matching Event structured data for exactly the publishable verified shows in
+// that listing, keyed back to each show's original events.json record so the
+// same publishable gate, offers gate, and provider provenance apply as on the
+// artist board. The listing shows are aggregated (stripped of verification and
+// provider fields), so each is re-enriched from the source event by id.
+function musicEventsSchemaForListing(listingShows, events, origin, catalog, env, fallbackCountry = "") {
+  const eventsById = new Map((events || []).map((ev) => [String(ev.id || "").trim(), ev]));
+  const nodes = [];
+  for (const listShow of (listingShows || []).slice(0, 50)) {
+    const ev = eventsById.get(String(listShow?.id || "").trim());
+    if (!ev) continue;
+    const show = enrichEventAsShow(ev);
+    if (!(show.publishable && show.dateTimeISO && show.venue && show.city && show.artist_slug)) continue;
+    if (!show.country && fallbackCountry) show.country = normalizeCountry(fallbackCountry);
+    const performer = {
+      "@type": performerTypeForArtist(catalog, show.artist_slug),
+      name: show.artist_name || show.artist_slug,
+      url: `${origin}/artists/${show.artist_slug}`
+    };
+    const offers = schemaOffersEnabledForArtist(env, show.artist_slug) ? musicEventOffersSchema(show, origin, env) : [];
+    nodes.push(musicEventNode(show, origin, { displayName: show.artist_name, performer, offers }));
+  }
+  return nodes;
 }
 
 // Schema offers are opt-in per environment (default off) and optionally scoped
@@ -700,6 +747,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       }
     });
     graph.push(faqPageSchema(cityFaqEntries(city)));
+    if (route.indexable) graph.push(...musicEventsSchemaForListing(city.shows, events, origin, catalog, env, city.country));
   }
   if (route.type === "venues-index") {
     const venues = route.venues || [];
@@ -764,6 +812,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       }
     });
     graph.push(faqPageSchema(venueFaqEntries(venue)));
+    if (route.indexable) graph.push(...musicEventsSchemaForListing(venue.shows, events, origin, catalog, env, venue.country));
   }
   if (route.faq) graph.push(faqSchema(route));
   return { "@context": "https://schema.org", "@graph": graph };
@@ -1663,37 +1712,65 @@ function renderVerificationDisclosure(artist, shows = []) {
   }${eventRange ? `<p class="disclosure-note">Event links last checked: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
 }
 
+// Normalise a raw events.json record into the enriched "show" shape used by
+// the show board and the MusicEvent schema builders. Carrying artist_slug,
+// artist_name, and country here lets the city/venue schema paths (which
+// aggregate across artists and hold location facts at the page level) reuse
+// the identical publishable/offers gate as the artist board.
+function enrichEventAsShow(ev) {
+  return {
+    id: String(ev.id || "").trim(),
+    artist_slug: slugify(ev.artist_slug),
+    artist_name: String(ev.artist_name || "").trim(),
+    event_name: String(ev.event_name || ev.name || "").trim(),
+    dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
+    city: String(ev.city || "").trim(),
+    country: normalizeCountry(ev.country),
+    venue: String(ev.venue || "").trim(),
+    ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
+    seatgeek_url: String(ev.seatgeek_url || "").trim(),
+    vividseats_url: String(ev.vividseats_url || "").trim(),
+    ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),
+    ticketliquidator_url: String(ev.ticketliquidator_url || "").trim(),
+    stubhub_international_url: String(ev.stubhub_international_url || "").trim(),
+    last_verified_at: String(ev.last_verified_at || "").trim(),
+    verification_status: String(ev.verification_status || "").trim(),
+    provider_links: ev.provider_links && typeof ev.provider_links === "object" ? ev.provider_links : {},
+    prices: Array.isArray(ev.prices) ? ev.prices : [],
+    publishable: eventLinkPublishable(ev),
+    seatgeekPublishable: providerEventPublishable(ev, "seatgeek"),
+    vividseatsPublishable: providerEventPublishable(ev, "vivid-seats"),
+    impactMarketplacePublishable: Object.fromEntries(
+      IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, providerEventPublishable(ev, provider.slug)])
+    )
+  };
+}
+
 function futureShowsForArtist(events, artistSlug, limit = Infinity) {
   const now = Date.now();
   const slug = slugify(artistSlug);
   return events
     .filter((ev) => ev && typeof ev === "object" && slugify(ev.artist_slug) === slug)
-    .map((ev) => ({
-      id: String(ev.id || "").trim(),
-      event_name: String(ev.event_name || ev.name || "").trim(),
-      dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
-      city: String(ev.city || "").trim(),
-      venue: String(ev.venue || "").trim(),
-      ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
-      seatgeek_url: String(ev.seatgeek_url || "").trim(),
-      vividseats_url: String(ev.vividseats_url || "").trim(),
-      ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),
-      ticketliquidator_url: String(ev.ticketliquidator_url || "").trim(),
-      stubhub_international_url: String(ev.stubhub_international_url || "").trim(),
-      last_verified_at: String(ev.last_verified_at || "").trim(),
-      verification_status: String(ev.verification_status || "").trim(),
-      provider_links: ev.provider_links && typeof ev.provider_links === "object" ? ev.provider_links : {},
-      prices: Array.isArray(ev.prices) ? ev.prices : [],
-      publishable: eventLinkPublishable(ev),
-      seatgeekPublishable: providerEventPublishable(ev, "seatgeek"),
-      vividseatsPublishable: providerEventPublishable(ev, "vivid-seats"),
-      impactMarketplacePublishable: Object.fromEntries(
-        IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, providerEventPublishable(ev, provider.slug)])
-      )
-    }))
+    .map(enrichEventAsShow)
     .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
     .filter((show) => Date.parse(show.dateTimeISO) >= now)
     .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO))
+    .slice(0, limit);
+}
+
+// Recent past shows for an artist, most-recent first. Used by the empty-state
+// board so a page with no confirmed upcoming date still surfaces the artist's
+// last verified tour footprint (factual venue/city/date only — no CTAs or
+// prices). Same publishable gate as the upcoming board; expired dates only.
+function recentPastShowsForArtist(events, artistSlug, limit = 3) {
+  const now = Date.now();
+  const slug = slugify(artistSlug);
+  return events
+    .filter((ev) => ev && typeof ev === "object" && slugify(ev.artist_slug) === slug)
+    .map(enrichEventAsShow)
+    .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
+    .filter((show) => Date.parse(show.dateTimeISO) < now && show.publishable && show.venue && show.city)
+    .sort((a, b) => Date.parse(b.dateTimeISO) - Date.parse(a.dateTimeISO))
     .slice(0, limit);
 }
 
@@ -2101,29 +2178,49 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
 // highest-ranked available provider (never an event-level ticket link — no
 // verified dates exist to sell). Falls back to the buying guide when no
 // artist-level provider link is verified.
-function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, artistSlug = "") {
+// Factual "recent shows" list for the empty board: the artist's last verified
+// dates (already passed) shown as a reference point when no upcoming date is
+// confirmed. No CTAs, links, or prices — availability is never implied for an
+// expired date. Keep in sync with renderRecentShowsList in public/app.js.
+function renderRecentShowsHtml(safeName, pastShows) {
+  if (!Array.isArray(pastShows) || !pastShows.length) return "";
+  const items = pastShows
+    .map((show) => {
+      const label = formatShowDateServer(show.dateTimeISO) || "Recent date";
+      const place = [show.venue, show.city].filter(Boolean).map((part) => escapeHtml(part)).join(", ");
+      return `<li><time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(label)}</time>${place ? ` — ${place}` : ""}</li>`;
+    })
+    .join("");
+  return `<div class="recent-shows"><h4>Recent ${safeName} shows</h4><p class="muted">These ${safeName} dates have already taken place. They are shown as a reference while we verify any newly announced run.</p><ul class="recent-shows-list">${items}</ul></div>`;
+}
+
+// The signup form posts to /api/signup and works without JavaScript: the button
+// is a real submit and the form carries method/action plus hidden fields, so a
+// no-JS submit sends a native form POST that /api/signup answers with an HTML
+// confirmation. With JavaScript, public/app.js intercepts the submit (via the
+// data-watchlist-shell hook) and posts JSON for inline status instead. Keep in
+// sync with renderShowBoardEmptyState in public/app.js.
+function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, artistSlug = "", pastShows = []) {
   const safeName = escapeHtml(String(artistName || "").trim() || "artist");
   const primaryCta = providerCta
     ? anchor(`Check ${escapeHtml(providerCta.name)} for updates`, providerCta.href, "button button-primary", `rel="${escapeAttr(outboundCtaRel(providerCta.href) || "noopener")}" data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
     : anchor("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary");
-  // Watchlist signup instead of empty ticket buttons; posts to /api/signup via
-  // the delegated submit handler in public/app.js. Keep in sync with
-  // renderShowBoardEmptyState in public/app.js.
+  const recentHtml = renderRecentShowsHtml(safeName, pastShows);
   const signupHtml = artistSlug
-    ? `<form class="watchlist-signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Join the ${safeName} watchlist</h4><p class="muted">Leave an email and we'll let you know when verified ${safeName} dates and checked ticket links are listed.</p><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="button" disabled>Enable JavaScript to join</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
+    ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Join the ${safeName} watchlist</h4><p class="muted">Leave an email and we'll let you know when verified ${safeName} dates and checked ticket links are listed.</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
     : "";
-  return `<div class="empty-state"><h3>No upcoming dates listed yet</h3><p class="muted">We list upcoming ${safeName} dates once the ticket destination is verified — new dates appear here first.</p>${signupHtml}<div class="action-row">${primaryCta}${anchor(
+  return `<div class="empty-state"><h3>No upcoming dates listed yet</h3><p class="muted">We list upcoming ${safeName} dates once the ticket destination is verified — new dates appear here first.</p>${recentHtml}${signupHtml}<div class="action-row">${primaryCta}${anchor(
     "Browse artists",
     "/artists",
     "button button-secondary"
   )}</div></div>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}, artistSlug = "") {
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}, artistSlug = "", pastShows = []) {
   const venueRuns = venueRunIndex(shows);
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability, artistSlug, venueRuns)).join("")
-    : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta, artistSlug);
+    : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta, artistSlug, pastShows);
   const filterIntro = shows.length > 1
     ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Filter by city, venue, or tour to jump to your date.</p></div>`
     : "";
@@ -2209,6 +2306,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
           href: artistProviderHref(artist, primaryProviderLink, "artist_page")
         }
       : null;
+    // Only computed for the empty board: the artist's last verified dates give
+    // the zero-upcoming state real, factual content instead of a bare form.
+    const pastShows = shows.length ? [] : recentPastShowsForArtist(events, artist.slug, 3);
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="artistTitle">${escapeHtml(
@@ -2225,7 +2325,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist,
       "artist_page",
       providerAvailability
-    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, emptyStateProviderCta, marketplaceAvailability, artist.slug)}${renderVerificationDisclosure(artist, shows)}`}<section class="split-section"><div><h2>About ${escapeHtml(
+    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, emptyStateProviderCta, marketplaceAvailability, artist.slug, pastShows)}${renderVerificationDisclosure(artist, shows)}`}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes

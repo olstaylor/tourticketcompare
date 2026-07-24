@@ -232,6 +232,58 @@ function expectedMusicEventCount(artistSlug) {
   ok(`${checked} artist page(s) checked; ${totalEvents} MusicEvent node(s) all match the publishable gate`);
 }
 
+// 6b. Venue and city pages: MusicEvent nodes for exactly the publishable shows
+// in the page's listing, each carrying the required fields and an inline
+// Person/MusicGroup performer, and — like artist pages — never offers, price,
+// or availability in the default environment.
+{
+  const { deriveCities } = await import(pathToFileURL(path.join(root, "functions/_cities.js")));
+  const { deriveVenues } = await import(pathToFileURL(path.join(root, "functions/_venues.js")));
+  const eventsById = new Map(events.map((event) => [String(event?.id || "").trim(), event]));
+
+  function expectedListingCount(listingShows) {
+    let count = 0;
+    for (const show of (listingShows || []).slice(0, 50)) {
+      const event = eventsById.get(String(show?.id || "").trim());
+      if (!event) continue;
+      if (eventPublishable(event) && String(event.venue || "").trim() && String(event.city || "").trim()) count += 1;
+    }
+    return count;
+  }
+
+  async function checkListing(pathname, listing) {
+    const html = await (await render(pathname)).text();
+    assertApexHead(html, pathname);
+    const graph = extractGraph(html, pathname);
+    if (!graph) return;
+    const musicEvents = graph.filter((node) => node["@type"] === "MusicEvent");
+    const expected = expectedListingCount(listing.shows);
+    if (musicEvents.length !== expected) {
+      fail(`${pathname}: ${musicEvents.length} MusicEvent node(s), expected ${expected} from the publishable listing`);
+    }
+    for (const node of musicEvents) {
+      const raw = JSON.stringify(node).toLowerCase();
+      if (raw.includes("offer") || raw.includes("price") || raw.includes("availability")) {
+        fail(`${pathname}: MusicEvent node carries offers/price/availability in the default environment`);
+      }
+      if (!node.name || !node.startDate || !node.location?.name || !node.location?.address?.addressLocality) {
+        fail(`${pathname}: MusicEvent node missing name/startDate/venue/city`);
+      }
+      if (!node.performer?.name || !["Person", "MusicGroup"].includes(node.performer?.["@type"])) {
+        fail(`${pathname}: MusicEvent performer missing name or Person/MusicGroup type`);
+      }
+    }
+    ok(`${pathname}: ${musicEvents.length} MusicEvent node(s) match the publishable listing`);
+  }
+
+  const city = deriveCities(events).find((entry) => entry.indexable);
+  const venue = deriveVenues(events).find((entry) => entry.indexable);
+  if (city) await checkListing(`/cities/${city.slug}`, city);
+  else ok("no indexable city available to check (skipped)");
+  if (venue) await checkListing(`/venues/${venue.slug}`, venue);
+  else ok("no indexable venue available to check (skipped)");
+}
+
 // 7. Schema-offers exception scenarios (owner-approved 2026-07-22). Real
 // artist routes are re-rendered with fixture flags and a stub D1
 // provider_pricing_cache so both directions of the narrower rule are

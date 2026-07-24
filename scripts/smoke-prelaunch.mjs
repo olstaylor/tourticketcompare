@@ -33,7 +33,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare available, timestamped provider listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260722b";
+const APP_ASSET_VERSION = "20260724a";
 const TTC_HOME_ASSET_VERSION = "20260716a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";

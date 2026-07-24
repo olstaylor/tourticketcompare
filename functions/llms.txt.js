@@ -2,6 +2,7 @@ import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.j
 import { deriveCities } from "./_cities.js";
 import { deriveVenues } from "./_venues.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
+import { artistHasUpcomingShow } from "./_artist-indexability.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -18,17 +19,22 @@ async function loadJsonAsset(env, pathname) {
 
 async function loadIndexableArtists(env) {
   try {
-    const [catalog, artistsMeta] = await Promise.all([
+    const [catalog, artistsMeta, events] = await Promise.all([
       loadJsonAsset(env, "/data/catalog.json"),
-      loadJsonAsset(env, "/data/artists.json")
+      loadJsonAsset(env, "/data/artists.json"),
+      loadJsonAsset(env, "/data/events.json")
     ]);
     if (!Array.isArray(catalog?.artists) || !Array.isArray(artistsMeta)) return [];
+    const eventRecords = Array.isArray(events) ? events : [];
 
+    // Same dynamic gate as the router/sitemap: only surface an editorially-
+    // indexable artist to answer engines while it has an upcoming show, so
+    // llms.txt never points AI crawlers at a noindex empty-board page.
     const indexableSlugs = new Set(
       artistsMeta
         .filter((artist) => artist?.indexing_status === INDEXABLE_ARTIST_STATUS)
         .map((artist) => String(artist?.slug || "").trim())
-        .filter(Boolean)
+        .filter((slug) => slug && artistHasUpcomingShow(eventRecords, slug))
     );
 
     return catalog.artists

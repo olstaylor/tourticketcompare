@@ -5,6 +5,7 @@ import { deriveVenues, findVenue } from "./_venues.js";
 import { deriveCities, findCity, normalizeCountry } from "./_cities.js";
 import { deriveArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { buildArtistContentModel, artistSearchIntro, artistPricingExplanation } from "./_artist-content.js";
+import { artistPageIndexable } from "./_artist-indexability.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -241,10 +242,16 @@ async function routeForPath(pathname, env) {
     if (!artist) return null;
     const artistMetaRecord = artistsMeta.find(m => slugify(m.slug) === artistMatch[1]) || {};
     const enrichedArtist = { ...artist, indexing_status: artistMetaRecord.indexing_status || "" };
+    // Indexability is dynamic: an editorially-indexable artist page is only
+    // index,follow while it currently has an upcoming show. With zero upcoming
+    // dates the board is empty (no dates, no ticket links), so the page
+    // downgrades to noindex,follow and leaves the sitemap until a new verified
+    // date lands. Shared with sitemap.xml.js so robots meta and sitemap agree.
+    const artistEvents = await loadEvents(env);
     return {
       type: "artist",
       path,
-      indexable: enrichedArtist.indexing_status === "indexable_with_substantial_content",
+      indexable: artistPageIndexable(enrichedArtist.indexing_status, artistEvents, artist.slug),
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
       description:
         artist.meta_description ||

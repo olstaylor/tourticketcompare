@@ -709,14 +709,29 @@ assert(
   sitemapLocations.includes("https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster"),
   "/sitemap.xml should include the focused SeatGeek vs Ticketmaster guide"
 );
-const indexableArtistSlugs = artists
+// Artist-page indexability is dynamic: editorially-indexable AND has an
+// upcoming show. Derive the expected sitemap set from the same shared gate the
+// router and sitemap use, so this assertion stays honest as tour dates pass.
+const { artistHasUpcomingShow } = await import(pathToFileURL(path.join(root, "functions/_artist-indexability.js")));
+const editoriallyIndexableSlugs = artists
   .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
   .map((artist) => normalizeSlug(artist?.slug))
   .filter(Boolean);
+const indexableArtistSlugs = editoriallyIndexableSlugs.filter((slug) => artistHasUpcomingShow(events, slug));
+const emptyBoardArtistSlugs = editoriallyIndexableSlugs.filter((slug) => !artistHasUpcomingShow(events, slug));
 for (const slug of indexableArtistSlugs) {
   assert(
     sitemapLocations.includes(`https://tourticketcompare.com/artists/${slug}`),
-    `/sitemap.xml should include currently indexable artist ${slug}`
+    `/sitemap.xml should include indexable artist with upcoming shows ${slug}`
+  );
+}
+// Editorially-indexable artists whose board is currently empty (tour ended, or
+// no dates verified yet) must NOT be advertised in the sitemap — they render
+// noindex,follow until a new date lands.
+for (const slug of emptyBoardArtistSlugs) {
+  assert(
+    !sitemapLocations.includes(`https://tourticketcompare.com/artists/${slug}`),
+    `/sitemap.xml must exclude editorially-indexable artist ${slug} while it has zero upcoming shows`
   );
 }
 
@@ -2638,10 +2653,13 @@ assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURICom
 
 console.log("indexable artist verification passed for bruno-mars");
 
-// Indexable artist with zero verified upcoming events (Beyoncé) must render the improved empty state
+// Editorially-indexable artist with zero upcoming events (Beyoncé) must render
+// the full empty state for users/crawlers but downgrade to noindex,follow: a
+// "tickets and tour dates" page with no dates and no ticket links is thin, so
+// it stays crawlable and re-indexes automatically once a date is verified.
 const beyonceEmptyStatePage = await routeResponse("/artists/beyonce");
 assert(beyonceEmptyStatePage.response.status === 200, "/artists/beyonce must return 200");
-assert(/index,follow/.test(beyonceEmptyStatePage.text), "/artists/beyonce (indexable) must render index,follow robots meta");
+assert(/<meta name="robots" content="noindex,follow"/.test(beyonceEmptyStatePage.text), "/artists/beyonce (zero upcoming shows) must render noindex,follow robots meta");
 const beyonceShowBoardMatch = beyonceEmptyStatePage.text.match(/<section class="section-grid show-board"[\s\S]*?<\/section>/);
 assert(beyonceShowBoardMatch, "zero-event artist page must render the show board section");
 const beyonceShowBoard = beyonceShowBoardMatch[0];

@@ -1889,11 +1889,61 @@ function safeShowList(data) {
   return Array.isArray(data?.shows) ? data.shows.filter((show) => show && typeof show === "object") : [];
 }
 
+// Recent (already-passed) verified dates for an artist, most recent first.
+// Same publishable gate as the upcoming board; expired dates only. Keep in
+// sync with recentPastShowsForArtist in functions/[[path]].js.
+function recentPastShowsForArtist(events, artistSlug, limit = 3) {
+  const now = Date.now();
+  const slug = slugify(artistSlug);
+  return (Array.isArray(events) ? events : [])
+    .filter((ev) => ev && typeof ev === "object" && slugify(ev.artist_slug) === slug)
+    .map((ev) => ({
+      id: String(ev.id || "").trim(),
+      dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
+      city: String(ev.city || "").trim(),
+      venue: String(ev.venue || "").trim(),
+      publishable: eventLinkPublishable(ev)
+    }))
+    .filter((show) => show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
+    .filter((show) => Date.parse(show.dateTimeISO) < now && show.publishable && show.venue && show.city)
+    .sort((a, b) => Date.parse(b.dateTimeISO) - Date.parse(a.dateTimeISO))
+    .slice(0, limit);
+}
+
+// Factual "recent shows" list for the empty board — passed dates only, no CTAs
+// or prices. Keep in sync with renderRecentShowsHtml in functions/[[path]].js.
+function renderRecentShowsList(name, pastShows) {
+  if (!Array.isArray(pastShows) || !pastShows.length) return null;
+  const block = document.createElement("div");
+  block.className = "recent-shows";
+  text(block, "h4", `Recent ${name} shows`);
+  text(
+    block,
+    "p",
+    `These ${name} dates have already taken place. They are shown as a reference while we verify any newly announced run.`,
+    "muted"
+  );
+  const list = document.createElement("ul");
+  list.className = "recent-shows-list";
+  for (const show of pastShows) {
+    const item = document.createElement("li");
+    const time = document.createElement("time");
+    time.setAttribute("datetime", show.dateTimeISO || "");
+    time.textContent = formatShowDate(show.dateTimeISO) || "Recent date";
+    item.append(time);
+    const place = [show.venue, show.city].filter(Boolean).join(", ");
+    if (place) item.append(document.createTextNode(` — ${place}`));
+    list.append(item);
+  }
+  block.append(list);
+  return block;
+}
+
 // Zero-event board state. The primary CTA is the artist-level page of the
 // highest-ranked enabled provider (never an event-level ticket link — no
 // verified dates exist to sell). Keep in sync with
 // renderShowBoardEmptyStateHtml in functions/[[path]].js.
-function renderShowBoardEmptyState(artistName = "", artistSlug = "") {
+function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows = []) {
   const name = String(artistName || "").trim() || "artist";
   const wrap = document.createElement("div");
   wrap.className = "empty-state";
@@ -1904,6 +1954,8 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "") {
     `We list upcoming ${name} dates once the ticket destination is verified — new dates appear here first.`,
     "muted"
   );
+  const recent = renderRecentShowsList(name, pastShows);
+  if (recent) wrap.append(recent);
   const providerLink = artistSlug
     ? ticketLinksForArtist(artistSlug)
         .filter((item) => providerEnabled(slugify(item.provider)))
@@ -1915,9 +1967,23 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "") {
   if (artistSlug) {
     const form = document.createElement("form");
     form.className = "watchlist-signup";
+    // Works without JS: native form POST to /api/signup (which answers with an
+    // HTML confirmation). With JS, the delegated submit handler intercepts and
+    // posts JSON for inline status instead. Keep in sync with
+    // renderShowBoardEmptyStateHtml in functions/[[path]].js.
+    form.method = "post";
+    form.action = "/api/signup";
     form.dataset.watchlistShell = artistSlug;
     text(form, "h4", `Join the ${name} watchlist`);
     text(form, "p", `Leave an email and we'll let you know when verified ${name} dates and checked ticket links are listed.`, "muted");
+    const hiddenArtist = document.createElement("input");
+    hiddenArtist.type = "hidden";
+    hiddenArtist.name = "artistSlug";
+    hiddenArtist.value = artistSlug;
+    const hiddenSource = document.createElement("input");
+    hiddenSource.type = "hidden";
+    hiddenSource.name = "sourcePath";
+    hiddenSource.value = window.location.pathname;
     const row = document.createElement("div");
     row.className = "watchlist-signup-row";
     const label = document.createElement("label");
@@ -1940,11 +2006,10 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "") {
     honeypot.setAttribute("aria-hidden", "true");
     const submit = document.createElement("button");
     submit.className = "button button-primary";
-    submit.type = "button";
-    submit.disabled = true;
-    submit.textContent = "Enable JavaScript to join";
+    submit.type = "submit";
+    submit.textContent = "Notify me";
     row.append(email, honeypot, submit);
-    form.append(label, row);
+    form.append(label, hiddenArtist, hiddenSource, row);
     const status = text(form, "p", "", "disclosure-note");
     status.setAttribute("data-signup-status", "");
     status.setAttribute("aria-live", "polite");
@@ -2402,6 +2467,21 @@ async function fetchShowBoardData(params, fetchAllArtistPages = false) {
   };
 }
 
+// Empty board state enriched with the artist's recent (passed) dates. The
+// per-artist partition keeps this a small, cache-friendly fetch; any failure
+// falls back to the plain empty state.
+async function buildEmptyBoardState(filters) {
+  let pastShows = [];
+  if (filters.artistSlug) {
+    try {
+      pastShows = recentPastShowsForArtist(await loadArtistPartition(filters.artistSlug), filters.artistSlug, 3);
+    } catch (error) {
+      pastShows = [];
+    }
+  }
+  return renderShowBoardEmptyState(filters.artistName, filters.artistSlug, pastShows);
+}
+
 async function hydrateShowBoard(section, filters = {}) {
   const grid = section.querySelector("[data-show-grid]");
   if (!grid) return;
@@ -2413,7 +2493,7 @@ async function hydrateShowBoard(section, filters = {}) {
     const data = await fetchShowBoardData(params, Boolean(filters.artistSlug));
     const shows = safeShowList(data);
     if (!shows.length) {
-      grid.replaceChildren(renderShowBoardEmptyState(filters.artistName, filters.artistSlug));
+      grid.replaceChildren(await buildEmptyBoardState(filters));
       return;
     }
     const cardOptions = {
@@ -2453,7 +2533,7 @@ async function hydrateShowBoard(section, filters = {}) {
       });
     const displayedFallbackShows = artistSlug ? fallbackShows : fallbackShows.slice(0, limit);
     if (!displayedFallbackShows.length) {
-      grid.replaceChildren(renderShowBoardEmptyState(filters.artistName, filters.artistSlug));
+      grid.replaceChildren(await buildEmptyBoardState(filters));
       return;
     }
 
@@ -3685,12 +3765,18 @@ async function initCurrencyConverter() {
 function activateWatchlistForms() {
   document.querySelectorAll("form[data-watchlist-shell]").forEach((form) => {
     const artistSlug = String(form.dataset.watchlistShell || "").trim();
-    const button = form.querySelector('button[type="button"]');
-    if (!artistSlug || !button) return;
+    if (!artistSlug) return;
+    // Marks the form for the delegated JS submit handler (which intercepts and
+    // posts JSON). Without JS this never runs and the form posts natively to
+    // /api/signup. Legacy server markup may still carry a disabled type="button"
+    // button; normalise it to an enabled submit here.
     form.dataset.watchlistSignup = artistSlug;
-    button.type = "submit";
-    button.disabled = false;
-    button.textContent = "Notify me";
+    const button = form.querySelector("button");
+    if (button) {
+      button.type = "submit";
+      button.disabled = false;
+      if (/enable javascript/i.test(button.textContent || "")) button.textContent = "Notify me";
+    }
   });
 }
 

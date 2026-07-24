@@ -561,8 +561,11 @@ function artistPageHeading(artist) {
   return `${artist.name} tickets and tour dates`;
 }
 
+// Keep this search-focused intro in sync with artistSearchIntro() in
+// functions/_artist-content.js. The smoke suite asserts both files carry the
+// shared invariant phrase so the server render and hydration cannot drift.
 function artistPageIntro(artist) {
-  return `Find upcoming ${artist.name} shows, pick a date, and compare available ticket options.`;
+  return `Find upcoming ${artist.name} tour dates, compare available ticket options from checked providers, and use practical buying guidance before you book.`;
 }
 
 function formatVerificationDate(value) {
@@ -2704,6 +2707,13 @@ function renderArtist(artist) {
     relatedGuides.append(relatedList);
   }
 
+  // The derived, data-driven content block (tour summaries, tickets-by-city and
+  // venue links, buying guide, pricing explanation) is server-rendered inside a
+  // single [data-artist-extra-content] container by functions/[[path]].js. We
+  // transplant that node unchanged rather than rebuilding it here, so the
+  // hydrated page keeps exact parity with the server-rendered SEO content.
+  const extraContent = main.querySelector("[data-artist-extra-content]");
+
   const usefulLinks = document.createElement("section");
   usefulLinks.className = "nested-panel";
   text(usefulLinks, "h2", "Useful links");
@@ -2722,6 +2732,7 @@ function renderArtist(artist) {
     summary,
     ...(demand ? [demand] : []),
     checklist,
+    ...(extraContent ? [extraContent] : []),
     ...(relatedGuides ? [relatedGuides] : []),
     usefulLinks,
     renderArtistFaq(artist)

@@ -3,6 +3,7 @@ import { attachApprovedMarketplacePrices } from "./api/shows.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 import { deriveVenues, findVenue } from "./_venues.js";
 import { deriveCities, findCity, normalizeCountry } from "./_cities.js";
+import { buildArtistContentModel, artistSearchIntro } from "./_artist-content.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -1237,6 +1238,68 @@ function renderArtistVenuesHtml(events, artist) {
   )} is playing:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
+// Data-derived upcoming-tour summaries. Each card is composed only from the
+// verified tour name / city / date carried on publishable event records (see
+// deriveTourSummaries in _artist-content.js); nothing is invented.
+function renderArtistTourSummariesHtml(tours, artist) {
+  if (!Array.isArray(tours) || !tours.length) return "";
+  const cards = tours
+    .map((tour) => {
+      const start = formatShowDateServer(tour.startISO);
+      const end = formatShowDateServer(tour.endISO);
+      const range = start && end && start !== end ? `${start} – ${end}` : start || end || "";
+      const showLabel = `${tour.showCount} upcoming ${tour.showCount === 1 ? "date" : "dates"}`;
+      const cityLabel = tour.cityCount
+        ? ` across ${tour.cityCount} ${tour.cityCount === 1 ? "city" : "cities"}`
+        : "";
+      const citiesLine = tour.sampleCities.length
+        ? `<p class="muted">Cities include ${escapeHtml(tour.sampleCities.join(", "))}${
+            tour.cityCount > tour.sampleCities.length ? ", and more" : ""
+          }.</p>`
+        : "";
+      return `<article class="info-card"><h3>${escapeHtml(tour.name)}</h3><p>${escapeHtml(
+        `${showLabel}${cityLabel}.`
+      )}</p>${range ? `<p class="muted">${escapeHtml(range)}</p>` : ""}${citiesLine}</article>`;
+    })
+    .join("");
+  return `<section class="nested-panel"><h2>${escapeHtml(
+    artist.name
+  )} tours and dates</h2><p>These are the tracked tours behind the upcoming ${escapeHtml(
+    artist.name
+  )} dates above. Follow a date on the show board to reach checked provider options.</p><div class="card-grid">${cards}</div></section>`;
+}
+
+// Practical ticket-buying guide, from artistBuyingGuide in _artist-content.js.
+function renderArtistBuyingGuideHtml(guide, artist) {
+  const steps = guide.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("");
+  return `<section class="nested-panel"><h2>How to buy ${escapeHtml(
+    artist.name
+  )} tickets</h2><p>${escapeHtml(guide.intro)}</p><ol class="check-list">${steps}</ol></section>`;
+}
+
+// Pricing explanation with a safe fallback, from artistPricingExplanation.
+function renderArtistPricingHtml(pricing) {
+  const points = pricing.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("");
+  return `<section class="nested-panel"><h2>How ticket prices are shown here</h2><p>${escapeHtml(
+    pricing.intro
+  )}</p><ul class="check-list">${points}</ul></section>`;
+}
+
+// The derived, data-driven artist content block. It is wrapped in a single
+// [data-artist-extra-content] container so public/app.js can transplant the
+// server-rendered markup unchanged during hydration (guaranteeing parity)
+// instead of rebuilding it client-side.
+function renderArtistExtraContentHtml(model, events, artist) {
+  const inner = [
+    renderArtistTourSummariesHtml(model.tours, artist),
+    renderArtistCitiesHtml(events, artist),
+    renderArtistVenuesHtml(events, artist),
+    renderArtistBuyingGuideHtml(model.buyingGuide, artist),
+    renderArtistPricingHtml(model.pricing)
+  ].join("");
+  return `<div data-artist-extra-content>${inner}</div>`;
+}
+
 function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}) {
   const venueRuns = venueRunIndex(venue.shows);
   const eventsById = new Map(
@@ -1723,6 +1786,7 @@ function enrichEventAsShow(ev) {
     artist_slug: slugify(ev.artist_slug),
     artist_name: String(ev.artist_name || "").trim(),
     event_name: String(ev.event_name || ev.name || "").trim(),
+    tour_name: String(ev.tour_name || "").trim(),
     dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
     city: String(ev.city || "").trim(),
     country: normalizeCountry(ev.country),
@@ -2283,9 +2347,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
     const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
-    const artistCitiesHtml = renderArtistCitiesHtml(events, artist);
-    const artistVenuesHtml = renderArtistVenuesHtml(events, artist);
     const shows = futureShowsForArtist(events, artist.slug);
+    // Derived, data-driven content model (search intro, tour summaries, buying
+    // guide, pricing explanation) built once from the same verified event data.
+    const contentModel = buildArtistContentModel(artist, shows);
+    const artistExtraContentHtml = renderArtistExtraContentHtml(contentModel, events, artist);
     const reviewNoticeHtml = isIndexableArtist
       ? ""
       : `<section class="nested-panel review-notice"><p class="disclosure-note">This artist page is currently under review. Event details are shown for reference while ticket links are checked.</p></section>`;
@@ -2313,9 +2379,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="artistTitle">${escapeHtml(
       artist.name
-    )} tickets and tour dates</h1><p class="lead">Find upcoming ${escapeHtml(
-      artist.name
-    )} shows, pick a date, and compare available ticket options.</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, null, marketplaceAvailability, artist.slug)}${renderProviderFallback(
+    )} tickets and tour dates</h1><p class="lead">${escapeHtml(
+      artistSearchIntro(artist)
+    )}</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, null, marketplaceAvailability, artist.slug)}${renderProviderFallback(
       catalog,
       artist,
       "artist_page",
@@ -2329,7 +2395,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
       artist.ticket_buying_notes
-    )}</p></div></section>${demandHtml}<section class="nested-panel"><h2>Before you buy</h2><ul class="check-list"><li>Check the final price including all fees.</li><li>Check the seat location and any view restrictions.</li><li>Check delivery, refund, and resale terms on the provider site.</li></ul></section>${artistCitiesHtml}${artistVenuesHtml}${relatedGuidesHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+    )}</p></div></section>${demandHtml}<section class="nested-panel"><h2>Before you buy</h2><ul class="check-list"><li>Check the final price including all fees.</li><li>Check the seat location and any view restrictions.</li><li>Check delivery, refund, and resale terms on the provider site.</li></ul></section>${artistExtraContentHtml}${relatedGuidesHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "mini-link"

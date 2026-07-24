@@ -56,8 +56,8 @@ PROVIDER_URL_HOSTS = {
         "ticketmaster.be",
         "ticketmaster.it",
     },
-    "seatgeek": {"seatgeek.com", "www.seatgeek.com"},
-    "vividseats": {"vividseats.com", "www.vividseats.com"},
+    "seatgeek": {"seatgeek.com"},
+    "vividseats": {"vividseats.com"},
     "ticketnetwork": {"ticketnetwork.com"},
     "ticket-liquidator": {"ticketliquidator.com"},
     "stubhub-international": {

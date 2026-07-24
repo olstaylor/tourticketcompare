@@ -33,7 +33,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare available, timestamped provider listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260724a";
+const APP_ASSET_VERSION = "20260724b";
 const TTC_HOME_ASSET_VERSION = "20260716a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -474,6 +474,7 @@ const publicCopyFiles = [
   "public/app.js",
   "functions/[[path]].js",
   "functions/_artist-content.js",
+  "functions/_artist-cities.js",
   "public/data/catalog.json",
   "public/ttc-home.js"
 ];
@@ -487,6 +488,7 @@ const publicCopyRegressionFiles = [
   "public/app.js",
   "functions/[[path]].js",
   "functions/_artist-content.js",
+  "functions/_artist-cities.js",
   "functions/_route-metadata.js",
   "public/data/guides-content.json",
   "public/data/catalog.json",
@@ -2718,5 +2720,95 @@ assert(
   "/sitemap.xml should include indexable venue detail pages"
 );
 console.log("venue landing-page verification passed");
+
+// Artist-city landing pages: /artists/<artist>/tickets/<city>. Server-rendered
+// aggregation over one artist's reviewed upcoming shows in one city, gated on
+// the same derivation the sitemap and internal-link audit use.
+const artistCityEnv = envWithEventsJson(await read("public/data/events.json"));
+const artistCitiesModule = await import(pathToFileURL(path.join(root, "functions/_artist-cities.js")));
+const smokeIndexableArtistSlugs = artists
+  .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
+  .map((artist) => normalizeSlug(artist?.slug))
+  .filter(Boolean);
+const smokeArtistCityEntries = artistCitiesModule.deriveIndexableArtistCities(
+  JSON.parse(await read("public/data/events.json")),
+  smokeIndexableArtistSlugs
+);
+assert(smokeArtistCityEntries.length > 0, "current data should produce qualifying artist-city pages");
+// Prefer a multi-show, multi-venue combination when available so the assertions
+// exercise the richest path; otherwise the first qualifying entry.
+const smokeArtistCity =
+  smokeArtistCityEntries.find((entry) => entry.venueCount >= 2 && entry.showCount >= 2) ||
+  smokeArtistCityEntries.find((entry) => entry.showCount >= 2) ||
+  smokeArtistCityEntries[0];
+const artistCityPath = smokeArtistCity.path;
+const artistCityPage = await routeResponse(artistCityPath, artistCityEnv);
+assert(artistCityPage.response.status === 200, `${artistCityPath} should return 200`);
+assert(artistCityPage.nextCalled === false, `${artistCityPath} should be function-rendered, not passed to static assets`);
+assert(/<meta name="robots" content="index,follow/.test(artistCityPage.text), `${artistCityPath} should be indexable`);
+assert(
+  extractCanonical(artistCityPage.text) === `https://tourticketcompare.com${artistCityPath}`,
+  "artist-city canonical should be self-referencing"
+);
+assert(/<h1[^>]*>[^<]*Tickets in /.test(artistCityPage.text), "artist-city page should render the '[Artist] Tickets in [City]' H1");
+assert(extractTitle(artistCityPage.text).endsWith("| Compare Prices"), "artist-city title should follow the '| Compare Prices' pattern");
+assert(artistCityPage.text.includes('"@type":"Place"'), "artist-city page should emit Place structured data");
+assert(artistCityPage.text.includes('"@type":"CollectionPage"'), "artist-city page should emit CollectionPage structured data");
+assert(artistCityPage.text.includes('"@type":"FAQPage"'), "artist-city page should emit FAQPage structured data matching visible answers");
+assert(artistCityPage.text.includes('"@type":"MusicEvent"'), "artist-city page should emit MusicEvent structured data for its publishable shows");
+// The visible show board and gated schema must never leak an Offer/price node
+// or a "cheapest" claim on these pages.
+const artistCityLd = extractJsonLd(artistCityPage.text);
+assert(artistCityLd, "artist-city JSON-LD must parse");
+const artistCityTypes = artistCityLd["@graph"].map((node) => node["@type"]);
+for (const forbidden of ["Offer", "Product", "AggregateRating", "Review"]) {
+  assert(!artistCityTypes.includes(forbidden), `artist-city JSON-LD must not include forbidden @type "${forbidden}"`);
+}
+assert(!/"@type":"Offer"/.test(artistCityPage.text), "artist-city page must not emit Offer nodes in the default environment");
+assert(/href="\/artists\/[a-z0-9-]+"/.test(artistCityPage.text), "artist-city page should link back to the main artist page");
+assert(/href="\/api\/out\?showId=[^\"]+&amp;provider=/.test(artistCityPage.text), "artist-city page should surface the gated event-level provider CTA (affiliate tracking preserved)");
+assert(artistCityPage.text.includes("How to buy"), "artist-city page should include a local ticket-buying guide");
+assert([...artistCityPage.text.matchAll(/<details>/g)].length >= 6, "artist-city page should render visible artist-city FAQs");
+
+// Unknown artist-city slug for a real, indexable artist must 404 (no soft 404,
+// no doorway page for arbitrary cities).
+const unknownArtistCity = await routeResponse(`/artists/${smokeArtistCity.artistSlug}/tickets/no-such-city-anywhere-xyz`, artistCityEnv);
+assert(unknownArtistCity.response.status === 404, "unknown artist-city slug should return 404");
+
+// A real-but-inactive combination (a city the artist has played, but with no
+// qualifying upcoming show) selectively 301s to the artist hub instead of
+// leaving a misleading empty page.
+const footprintOnly = [...artistCitiesModule.artistCityFootprint(JSON.parse(await read("public/data/events.json")), smokeArtistCity.artistSlug)]
+  .filter((slug) => !smokeArtistCityEntries.some((entry) => entry.artistSlug === smokeArtistCity.artistSlug && entry.slug === slug));
+if (footprintOnly.length) {
+  const expiredCombo = await routeResponse(`/artists/${smokeArtistCity.artistSlug}/tickets/${footprintOnly[0]}`, artistCityEnv);
+  assert(expiredCombo.response.status === 301, "an inactive but real artist-city combination should 301, not 404 or soft-404");
+  assert(
+    (expiredCombo.response.headers.get("location") || "").endsWith(`/artists/${smokeArtistCity.artistSlug}`),
+    "an inactive artist-city combination should redirect to the artist hub"
+  );
+  console.log("artist-city expired-combination redirect verified");
+}
+
+// Sitemap gating: qualifying artist-city pages are included; the sitemap never
+// carries a non-qualifying combination.
+const artistCitySitemap = await sitemapLocs(artistCityEnv);
+assert(
+  artistCitySitemap.includes(`https://tourticketcompare.com${artistCityPath}`),
+  "/sitemap.xml should include qualifying artist-city pages"
+);
+for (const slug of footprintOnly) {
+  assert(
+    !artistCitySitemap.includes(`https://tourticketcompare.com/artists/${smokeArtistCity.artistSlug}/tickets/${slug}`),
+    "/sitemap.xml must exclude inactive artist-city combinations"
+  );
+}
+// The main artist page must link to its active artist-city pages (crawl path).
+const artistHubPage = await routeResponse(`/artists/${smokeArtistCity.artistSlug}`, artistCityEnv);
+assert(
+  artistHubPage.text.includes(`href="/artists/${smokeArtistCity.artistSlug}/tickets/${smokeArtistCity.slug}`),
+  "main artist page should link to its active artist-city pages"
+);
+console.log("artist-city landing-page verification passed");
 
 console.log("Cloudflare Pages MVP smoke checks passed");

@@ -1,9 +1,20 @@
 # Phase 2 — Artist-page SEO handoff
 
+> **Status: Phase 2 implemented.** Artist-city landing pages
+> (`/artists/<artist>/tickets/<city>`) are live via `functions/_artist-cities.js`
+> and the `artist-city` route in `functions/[[path]].js`, with sitemap/`llms.txt`
+> inclusion, publishable-gated structured data, a redirect/404 expiry lifecycle,
+> and tests in `scripts/artist-cities.test.mjs`, `scripts/smoke-prelaunch.mjs`,
+> `scripts/audit-internal-links.mjs`, and `scripts/validate-route-schema.mjs`.
+> See `docs/ARCHITECTURE.md` (“Artist-city aggregation layer”) for the shipped
+> design. The sections below are retained as the original Phase 1→2 handoff
+> context; Phase 3 candidates (editorial differentiation, content seeding,
+> measurement) remain open.
+
 This document is the handoff after **Phase 1** of the artist-page SEO project.
 Phase 1 improved the existing main artist pages and introduced a reusable,
-typed, data-driven content architecture. Phase 2 is **not started** — this file
-records what remains, the constraints that carry over, and where the seams are.
+typed, data-driven content architecture. Phase 2 is now implemented — this file
+records what remained, the constraints that carry over, and where the seams are.
 
 Read `CLAUDE.md` → `PROJECT_STATUS.md` → `BACKLOG.md` before starting Phase 2.
 Nothing here overrides the product guardrails in `SAFE_PUBLISHING_RULES.md`,

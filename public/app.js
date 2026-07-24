@@ -513,13 +513,14 @@ function getRoute() {
     if (guide) return { type: "guide", guide };
   }
 
-  // Venue landing pages (/venues and /venues/<slug>) are fully rendered by the
-  // function route (functions/[[path]].js) and have no client renderer. Treat
-  // them as server-authoritative so the client preserves the server HTML
-  // instead of falling through to the client-side 404. The server already
-  // returns a real 404 for unknown venue slugs, so preserving its output is
-  // correct in both the found and not-found cases.
-  if (parts[0] === "venues") return { type: "server-rendered" };
+  // City and venue landing pages (/cities, /cities/<slug>, /venues,
+  // /venues/<slug>) are fully rendered by the function route
+  // (functions/[[path]].js) and have no client renderer. Treat them as
+  // server-authoritative so the client preserves the server HTML instead of
+  // falling through to the client-side 404. The server already returns a real
+  // 404 for unknown slugs, so preserving its output is correct in both the
+  // found and not-found cases.
+  if (parts[0] === "cities" || parts[0] === "venues") return { type: "server-rendered" };
 
   // The currency converter page is fully rendered by functions/[[path]].js;
   // initCurrencyConverter() hydrates the form in place, so preserve the

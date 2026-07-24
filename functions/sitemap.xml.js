@@ -2,6 +2,7 @@ import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.j
 import { deriveVenues } from "./_venues.js";
 import { deriveCities } from "./_cities.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
+import { artistHasUpcomingShow } from "./_artist-indexability.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -66,19 +67,26 @@ async function loadIndexableArtistCities(env, indexableArtistSlugs) {
 
 async function loadIndexableArtists(env) {
   try {
-    const [catalog, artistsMeta] = await Promise.all([
+    const [catalog, artistsMeta, events] = await Promise.all([
       loadJsonAsset(env, "/data/catalog.json"),
-      loadJsonAsset(env, "/data/artists.json")
+      loadJsonAsset(env, "/data/artists.json"),
+      loadJsonAsset(env, "/data/events.json")
     ]);
 
     if (!Array.isArray(catalog?.artists) || !Array.isArray(artistsMeta)) return [];
+    const eventRecords = Array.isArray(events) ? events : [];
 
     // Map slug -> last_verified_at so each artist URL gets a real freshness date.
+    // Editorially-indexable status is necessary but not sufficient: the page
+    // must also have an upcoming show right now, matching the dynamic robots
+    // gate the router applies (functions/_artist-indexability.js). An artist
+    // whose tour has ended drops out of the sitemap until a new date is
+    // verified, so the sitemap never advertises an empty-board artist page.
     const verifiedBySlug = new Map(
       artistsMeta
         .filter((artist) => artist?.indexing_status === INDEXABLE_ARTIST_STATUS)
         .map((artist) => [String(artist?.slug || "").trim(), String(artist?.last_verified_at || "").trim()])
-        .filter(([slug]) => slug)
+        .filter(([slug]) => slug && artistHasUpcomingShow(eventRecords, slug))
     );
 
     return catalog.artists

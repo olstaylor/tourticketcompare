@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-07-24T07:39:57.297Z
+Generated: 2026-07-25T07:25:59.313Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,10 +9,10 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 20 (needs_recheck: 19, provenance backfill: 0, stale re-check: 18)
+- Events selected: 19 (needs_recheck: 19, provenance backfill: 0, stale re-check: 17)
 - Events skipped before API checks: 69
-- API calls made: 20
-- Verified provenance written: 18
+- API calls made: 19
+- Verified provenance written: 17
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
@@ -26,7 +26,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 
 | showId | artist | action | SeatGeek id | url | notes |
 | --- | --- | --- | --- | --- | --- |
-| tm-ariana-grande-2026-boston-0100631aca626435 | ariana-grande | verify (applied) | 17700809 | https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-26-8-pm/concert/17700809 | - |
 | tm-olivia-rodrigo-2026-hartford-z7r9jz1a706ep | olivia-rodrigo | verify (applied) | 18211661 | https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-25-7-pm/concert/18211661 | - |
 | tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677 | olivia-rodrigo | verify (applied) | 18211658 | https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-26-7-pm/concert/18211658 | - |
 | tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f | olivia-rodrigo | verify (applied) | 18208621 | https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-19-7-pm/concert/18208621 | - |

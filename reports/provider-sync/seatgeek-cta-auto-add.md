@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-07-24T07:39:32.788Z
+Generated: 2026-07-25T07:25:37.748Z
 
 ## Run summary
 
@@ -17,24 +17,24 @@ Generated: 2026-07-24T07:39:32.788Z
 - Events checked by this run: 30
 - API calls made: 150
 - Rate-limit responses: 0
-- URLs added: 1
-- Events skipped: 30
-- no_candidates_returned: 29
+- URLs added: 0
+- Events skipped: 31
+- no_candidates_returned: 30
 - rate_limited_not_checked: 0
 - Stopped early: api_call_limit_reached
-- Next resume showId: tm-bad-bunny-2026-d-sseldorf-1604365108
-- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-bad-bunny-2026-d-sseldorf-1604365108'
+- Next resume showId: tm-bad-bunny-2026-d-sseldorf-653946928
+- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-bad-bunny-2026-d-sseldorf-653946928'
 - Accepted venue mismatches: 0
 - Conflicts found: 0
 
 ## Skipped reasons
 
-- no_candidates_returned: 29
+- no_candidates_returned: 30
 - api_call_limit_not_checked: 1
 
 ## Interpretation
 
-- `URLs added: 1` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
+- `URLs added: 0` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
 - 253 event(s) already carried valid SeatGeek URLs before this run, including 188 Ticketmaster-verified event(s).
 - This run queried only the 113 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
@@ -43,9 +43,7 @@ Generated: 2026-07-24T07:39:32.788Z
 
 This section lists only URLs newly added by this run. Events that already had valid SeatGeek URLs were retained in event data and were not re-listed here.
 
-| showId | artist | date | city | SeatGeek URL |
-| --- | --- | --- | --- | --- |
-| tm-ariana-grande-2026-boston-0100631aca626435 | Ariana Grande | 2026-07-26 | Boston | https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-26-8-pm/concert/17700809 |
+- None
 
 ## Events skipped
 
@@ -82,7 +80,8 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-bad-bunny-2026-madrid-2035589996 | Bad Bunny | 2026-06-11 | Madrid | no_candidates_returned | - |
 | tm-bad-bunny-2026-madrid-1378879656 | Bad Bunny | 2026-06-14 | Madrid | no_candidates_returned | - |
 | tm-bad-bunny-2026-madrid-1566404077 | Bad Bunny | 2026-06-15 | Madrid | no_candidates_returned | - |
-| tm-bad-bunny-2026-d-sseldorf-1604365108 | Bad Bunny | 2026-06-20 | Düsseldorf | api_call_limit_not_checked | - |
+| tm-bad-bunny-2026-d-sseldorf-1604365108 | Bad Bunny | 2026-06-20 | Düsseldorf | no_candidates_returned | - |
+| tm-bad-bunny-2026-d-sseldorf-653946928 | Bad Bunny | 2026-06-21 | Düsseldorf | api_call_limit_not_checked | - |
 
 ## Accepted venue mismatches
 

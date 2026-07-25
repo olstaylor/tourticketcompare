@@ -1176,7 +1176,7 @@
     "ticketmaster_event_id": "0100631ACA626435",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-26-8-pm/concert/17700809",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-24-2026--concerts-pop/production/5973686",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
     "last_verified_at": "2026-05-07",
@@ -1197,11 +1197,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 5973686,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-24-2026--concerts-pop/production/5973686",
-        "verified": true,
-        "last_verified_at": "2026-07-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1277,7 +1277,7 @@
         "event_id": 5995608,
         "url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-25-2026--concerts-pop/production/5995608",
         "verified": true,
-        "last_verified_at": "2026-07-22",
+        "last_verified_at": "2026-07-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1354,7 +1354,7 @@
         "event_id": 5973694,
         "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-28-2026--concerts-pop/production/5973694",
         "verified": true,
-        "last_verified_at": "2026-07-22",
+        "last_verified_at": "2026-07-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1423,7 +1423,7 @@
         "event_id": 5973696,
         "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-30-2026--concerts-pop/production/5973696",
         "verified": true,
-        "last_verified_at": "2026-07-22",
+        "last_verified_at": "2026-07-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1492,7 +1492,7 @@
         "event_id": 5995665,
         "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665",
         "verified": true,
-        "last_verified_at": "2026-07-22",
+        "last_verified_at": "2026-07-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1561,7 +1561,7 @@
         "event_id": 5973688,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
         "verified": true,
-        "last_verified_at": "2026-07-22",
+        "last_verified_at": "2026-07-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1638,7 +1638,7 @@
         "event_id": 5973690,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-5-2026--concerts-pop/production/5973690",
         "verified": true,
-        "last_verified_at": "2026-07-22",
+        "last_verified_at": "2026-07-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1715,7 +1715,7 @@
         "event_id": 5995835,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
         "verified": true,
-        "last_verified_at": "2026-07-22",
+        "last_verified_at": "2026-07-25",
         "availability_status": "listed"
       },
       "stubhub": {

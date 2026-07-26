@@ -876,11 +876,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7529809",
-        "url": "https://www.ticketnetwork.com/en/p/7529809",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7529809",
@@ -892,7 +892,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbw",
     "verification_status": "human_verified",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529809",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529809/Morgan-Wallen-tickets-Sat-Jul-25-2026-Michigan-Stadium"
   },
   {
@@ -15447,11 +15447,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7678826",
-        "url": "https://www.ticketnetwork.com/en/p/7678826",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7678826",
@@ -15472,7 +15472,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1ANZk8EGkdzq8WY",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7678826",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7678826/Bruno-Mars-tickets-Sat-Jul-25-2026-Wembley-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-25-7-2026/event/107076203"
   },
@@ -18802,11 +18802,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7846962",
-        "url": "https://www.ticketnetwork.com/en/p/7846962",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7846962",
@@ -18827,7 +18827,7 @@
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "vv17FZ_6GkB5efrP",
     "verification_status": "machine_high_confidence",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7846962",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7846962/Shakira-tickets-Sat-Jul-25-2026-Boardwalk-Hall-Arena-Boardwalk-Hall",
     "stubhub_international_url": "https://www.stubhub.ie/shakira-atlantic-city-tickets-7-25-2026/event/107153374"
   },

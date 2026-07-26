@@ -876,11 +876,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7529809",
-        "url": "https://www.ticketnetwork.com/en/p/7529809",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7529809",
@@ -892,7 +892,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qtbw",
     "verification_status": "human_verified",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529809",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529809/Morgan-Wallen-tickets-Sat-Jul-25-2026-Michigan-Stadium"
   },
   {

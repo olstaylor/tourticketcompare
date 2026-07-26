@@ -14,7 +14,7 @@ on:
       - '.github/workflows/impact-marketplace-price-snapshots.yml'
       - 'functions/_impact-marketplace-config.js'
   schedule:
-    - cron: '17 */4 * * *'
+    - cron: '17 */8 * * *'
   workflow_dispatch:
     inputs:
       provider:
@@ -51,13 +51,13 @@ concurrency:
 jobs:
   snapshot:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-    strategy:
-      fail-fast: false
-      matrix:
-        provider: ${{ fromJSON(github.event_name == 'workflow_dispatch' && format('["{0}"]', github.event.inputs.provider) || '["ticketnetwork","stubhub-international"]') }}
+    # A healthy leg finishes in ~2-3 min; the fast-fail request timeout in the
+    # snapshot script keeps a stalled provider from ever approaching this cap.
+    timeout-minutes: 10
     env:
-      PROVIDER: ${{ matrix.provider }}
+      # Both scheduled lanes run sequentially in one job so checkout, npm ci and
+      # the self-test are paid once per run instead of once per provider.
+      PROVIDERS_TO_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.provider || 'ticketnetwork stubhub-international' }}
       APPLY: ${{ github.event_name != 'workflow_dispatch' && 'true' || github.event.inputs.apply }}
       LIMIT: ${{ github.event.inputs.limit || '' }}
       EVENT_ID: ${{ github.event.inputs.event_id || '' }}
@@ -94,33 +94,51 @@ jobs:
 
       - name: Snapshot exact verified event prices
         run: |
-          set -euo pipefail
-          args=(--provider "$PROVIDER" --database "$DATABASE" --json)
-          if [ -n "$LIMIT" ]; then args+=(--limit "$LIMIT"); fi
-          if [ -n "$EVENT_ID" ]; then args+=(--event-id "$EVENT_ID"); fi
-          if [ "$APPLY" = "true" ]; then args+=(--apply); fi
-          node scripts/snapshot-impact-marketplace-prices.mjs "${args[@]}" | tee "$RUNNER_TEMP/impact-price-summary.json"
+          set -uo pipefail
+          status=0
+          for PROVIDER in $PROVIDERS_TO_RUN; do
+            echo "::group::Snapshot ${PROVIDER}"
+            args=(--provider "$PROVIDER" --database "$DATABASE" --json)
+            if [ -n "$LIMIT" ]; then args+=(--limit "$LIMIT"); fi
+            if [ -n "$EVENT_ID" ]; then args+=(--event-id "$EVENT_ID"); fi
+            if [ "$APPLY" = "true" ]; then args+=(--apply); fi
+            # fail-fast:false parity — run every lane, remember any failure.
+            node scripts/snapshot-impact-marketplace-prices.mjs "${args[@]}" | tee "$RUNNER_TEMP/impact-price-${PROVIDER}.json" || status=1
+            echo "::endgroup::"
+          done
+          exit $status
 
       - name: Require a healthy automated write
         if: github.event_name != 'workflow_dispatch'
         run: |
-          node --input-type=module - "$RUNNER_TEMP/impact-price-summary.json" <<'NODE'
+          node --input-type=module - "$RUNNER_TEMP" <<'NODE'
           import fs from "node:fs";
-          const summary = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
-          if (summary.usable < 1 || summary.written < 1 || summary.failed > 0) {
-            throw new Error(`Unhealthy ${summary.provider} snapshot: usable=${summary.usable}, written=${summary.written}, failed=${summary.failed}`);
+          import path from "node:path";
+          const dir = process.argv[2];
+          const files = fs.readdirSync(dir).filter((f) => f.startsWith("impact-price-") && f.endsWith(".json"));
+          if (!files.length) throw new Error("No snapshot summaries were produced");
+          for (const file of files) {
+            const summary = JSON.parse(fs.readFileSync(path.join(dir, file), "utf8"));
+            if (summary.usable < 1 || summary.written < 1 || summary.failed > 0) {
+              throw new Error(`Unhealthy ${summary.provider} snapshot: usable=${summary.usable}, written=${summary.written}, failed=${summary.failed}`);
+            }
           }
           NODE
 
       - name: Publish run summary
         if: always()
         run: |
-          node --input-type=module - "$RUNNER_TEMP/impact-price-summary.json" <<'NODE'
+          node --input-type=module - "$RUNNER_TEMP" <<'NODE'
           import fs from "node:fs";
-          const file = process.argv[2];
-          if (!fs.existsSync(file)) process.exit(0);
-          const s = JSON.parse(fs.readFileSync(file, "utf8"));
-          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## ${s.provider} price snapshots\n\n| Eligible | Fetched | Usable | Written | Failed |\n| ---: | ---: | ---: | ---: | ---: |\n| ${s.eligible} | ${s.fetched} | ${s.usable} | ${s.written} | ${s.failed} |\n\nZero-row reason: ${s.zero_row_reason || "—"}\n`);
+          import path from "node:path";
+          const dir = process.argv[2];
+          if (!fs.existsSync(dir)) process.exit(0);
+          const files = fs.readdirSync(dir).filter((f) => f.startsWith("impact-price-") && f.endsWith(".json"));
+          for (const file of files) {
+            let s;
+            try { s = JSON.parse(fs.readFileSync(path.join(dir, file), "utf8")); } catch { continue; }
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## ${s.provider} price snapshots\n\n| Eligible | Fetched | Usable | Written | Failed |\n| ---: | ---: | ---: | ---: | ---: |\n| ${s.eligible} | ${s.fetched} | ${s.usable} | ${s.written} | ${s.failed} |\n\nZero-row reason: ${s.zero_row_reason || "—"}\n`);
+          }
           NODE
 
       - name: Confirm source data and redirects were not changed

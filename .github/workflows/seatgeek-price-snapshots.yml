@@ -53,7 +53,7 @@ concurrency:
 jobs:
   snapshot:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     env:
       SEATGEEK_PRICE_DISPLAY_ENABLED: 'false'
       D1_DATABASE_NAME: ${{ github.event.inputs.database || 'tourticketcompare-demand' }}

@@ -984,7 +984,7 @@
     "tour_name": "Las Mujeres Ya No Lloran",
     "ticketmaster_event_id": "0200647E8B0947A5",
     "ticketmaster_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
-    "seatgeek_url": "https://seatgeek.com/shakira-tickets/atlantic-city-new-jersey-boardwalk-hall-2026-07-25-7-30-pm/concert/18157403",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/shakira-tickets-atlantic-city-boardwalk-hall-7-25-2026--concerts-pop/production/6856679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/shakira-las-mujeres-ya-no-lloran-atlantic-city-new-jersey-07-25-2026/event/0200647E8B0947A5",
@@ -999,11 +999,11 @@
         "discovery_event_id": "vv17FZ_6GkB5efrP"
       },
       "seatgeek": {
-        "event_id": 18157403,
-        "url": "https://seatgeek.com/shakira-tickets/atlantic-city-new-jersey-boardwalk-hall-2026-07-25-7-30-pm/concert/18157403",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6856679,

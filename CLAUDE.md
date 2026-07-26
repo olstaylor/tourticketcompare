@@ -55,9 +55,17 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
                           edit here, not in [[path]].js
   _cities.js              City aggregation derived from reviewed events (shared with
                           sitemap/llms.txt; substantial-content indexing gate)
+  _venues.js              Venue aggregation derived from reviewed events (shared with
+                          sitemap/internal-link audit; substantial-content indexing gate)
   _artist-cities.js       Artist-city aggregation for /artists/<artist>/tickets/<city>
                           landing pages (shared with sitemap/llms.txt/internal-link
                           audit; router owns the redirect/404 expiry lifecycle)
+  _artist-content.js      Pure, data-derived editorial content model for artist pages
+                          (intro, tour summaries, buying guide, pricing explanation);
+                          returns plain data only — no HTML, no secrets
+  _artist-indexability.js Shared indexability gate: an editorially-indexable artist page
+                          is index,follow + in the sitemap only while it has ≥1 upcoming
+                          show; empty boards self-heal to noindex (mirrors _cities/_venues)
   _impact-marketplace-config.js  Shared config for the TicketNetwork / Ticket Liquidator /
                           StubHub International lanes
   [named-shims].js        artists.js, guides.js, etc. Re-export from [[path]].js;
@@ -69,7 +77,12 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
     health.js             Runtime config status (no secrets exposed)
     shows.js              Event metadata by artistSlug
     analytics.js          D1-backed event analytics
-    signup.js             Email demand capture to D1
+    signup.js             Email/interest demand capture to D1 (incl. intent=price_alert;
+                          nothing is ever emailed — demand signal only)
+    price-history.js      Read-only per-event listed-price snapshot history; applies the
+                          exact badge display-eligibility gate, per-provider only
+    rates.js              Cache-backed ECB daily reference rates (via Frankfurter) for the
+                          /currency-converter page; fail-closed 503, provider prices never converted
     debug-seatgeek.js     Internal diagnostic (kept deliberately)
     impact/               Impact API diagnostics (health, catalogs, products, tracking-links)
   _provider-registry.js + api/_providers/  Parked scaffolding — do not build on
@@ -104,7 +117,9 @@ Request
 
 All HTML route handling lives in `functions/[[path]].js`, including the comparison hub, trust pages, guides, and dynamic artist, city, and venue routes; fixed/guide metadata lives in `functions/_route-metadata.js`, while data-derived location metadata comes from the shared aggregation records. Unknown routes return 404 with noindex — no speculative pages. Full detail: `docs/ARCHITECTURE.md`.
 
-### Bindings (Cloudflare dashboard)
+### Bindings & configuration
+
+Non-secret configuration (feature flags such as `SCHEMA_OFFERS_ENABLED`, and other `[vars]`) is **repo-managed in `wrangler.toml`** — edit it there, in scope. Only Secrets (credentials, API keys) live in the Cloudflare dashboard. Do not assume a flag is a dashboard setting.
 
 - `DEMAND_DB` (D1) — active; the only binding declared in `wrangler.toml`.
 - `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` — network-level Impact fallback (server-side only).
@@ -148,6 +163,8 @@ npm run docs:check                                # links, command references, d
 npm run test:mvp                                  # docs + events/provider validators + smoke
 python3 scripts/validate-events.py --for-production
 node scripts/validate-guide-routes.mjs            # if guides/routes touched
+npm run schema:validate                           # if routes/schema/MusicEvent offers touched
+npm run status:validate                           # recount PROJECT_STATUS.md figures from source
 npm run artist:check -- <slug>                    # if a specific artist touched
 npm run impact-providers:sync:self-test            # shared Impact catalog matcher
 npm run impact-providers:prices:self-test          # exact-ID snapshot writer

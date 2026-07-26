@@ -5549,18 +5549,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106939189",
-        "url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv1A8vN1aGACW-67",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397405",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397405/Ariana-Grande-tickets-Sat-Jul-25-2026-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319ddb22b1f",
@@ -15461,11 +15461,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107076203",
-        "url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-25-7-2026/event/107076203",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "Europe/London",
@@ -15474,7 +15474,7 @@
     "ticketmaster_discovery_event_id": "1ANZk8EGkdzq8WY",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-25-7-2026/event/107076203"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdbd8xc",
@@ -18816,11 +18816,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107153374",
-        "url": "https://www.stubhub.ie/shakira-atlantic-city-tickets-7-25-2026/event/107153374",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -18829,7 +18829,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/shakira-atlantic-city-tickets-7-25-2026/event/107153374"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-shakira-2026-madrid-z698xz2qz1k7eo4av",
@@ -19946,11 +19946,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954171",
-        "url": "https://www.stubhub.ie/ed-sheeran-santa-clara-tickets-7-25-2026/event/106954171",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS6vtfV_",
@@ -19959,7 +19959,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418585",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418585/Ed-Sheeran-tickets-Sat-Jul-25-2026-Levis-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-santa-clara-tickets-7-25-2026/event/106954171"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-seattle-0f00632ea04f19df",

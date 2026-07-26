@@ -1397,11 +1397,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107076203",
-        "url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-25-7-2026/event/107076203",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "Europe/London",
@@ -1410,7 +1410,7 @@
     "ticketmaster_discovery_event_id": "1ANZk8EGkdzq8WY",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-25-7-2026/event/107076203"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-london-1anzk8egkdbd8xc",

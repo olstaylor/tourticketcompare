@@ -1302,18 +1302,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106939189",
-        "url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv1A8vN1aGACW-67",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397405",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397405/Ariana-Grande-tickets-Sat-Jul-25-2026-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-25-2026/event/106939189"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319ddb22b1f",

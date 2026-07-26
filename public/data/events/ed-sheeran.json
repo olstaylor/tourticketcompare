@@ -478,11 +478,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954171",
-        "url": "https://www.stubhub.ie/ed-sheeran-santa-clara-tickets-7-25-2026/event/106954171",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS6vtfV_",
@@ -491,7 +491,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418585",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418585/Ed-Sheeran-tickets-Sat-Jul-25-2026-Levis-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-santa-clara-tickets-7-25-2026/event/106954171"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-seattle-0f00632ea04f19df",

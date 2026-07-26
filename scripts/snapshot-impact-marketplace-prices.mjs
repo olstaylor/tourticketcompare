@@ -24,6 +24,29 @@ const ARTISTS_PATH = path.join(ROOT, "public", "data", "artists.json");
 const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
 const DEFAULT_FRESHNESS_HOURS = 6;
+// A stalled Impact request used to hang the whole job until the workflow
+// timeout (up to an hour of billed Actions minutes). Bound every request and
+// retry transient failures a couple of times so a slow catalog fails in
+// seconds, not minutes.
+const REQUEST_TIMEOUT_MS = 15000;
+const MAX_ATTEMPTS = 3;
+
+async function fetchWithTimeout(url, init = {}, fetchImpl = globalThis.fetch) {
+  let lastError;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+    try {
+      return await fetchImpl(url, { ...init, signal: controller.signal });
+    } catch (error) {
+      lastError = error?.name === "AbortError" ? new Error(`request timed out after ${REQUEST_TIMEOUT_MS}ms`) : error;
+      if (attempt < MAX_ATTEMPTS) await new Promise((resolve) => setTimeout(resolve, 500 * attempt));
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  throw lastError;
+}
 
 function parseArgs(argv) {
   const options = { provider: "", apply: false, selfTest: false, limit: null, eventId: "", freshnessHours: DEFAULT_FRESHNESS_HOURS, database: "tourticketcompare-demand", remote: true, json: false };
@@ -70,19 +93,25 @@ async function fetchArtistCatalog(config, artistName, env = process.env, fetchIm
     ? `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
     : "";
   const candidates = [];
-  for (let page = 1; page <= MAX_PAGES; page += 1) {
-    const response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
-      headers: { Accept: "application/json", ...(authorization ? { Authorization: authorization } : {}) }
-    });
-    if (!response.ok) return { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
-    const payload = await response.json();
-    const items = catalogItems(payload);
-    if (!items) return { ok: false, reason: "Impact response had no Items array" };
-    for (const item of items) candidates.push(...productCandidates(config, item, programId));
-    const total = Number(payload?.["@total"] ?? payload?.Total ?? payload?.total);
-    if (items.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { ok: true, candidates };
+  try {
+    for (let page = 1; page <= MAX_PAGES; page += 1) {
+      const response = await fetchWithTimeout(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
+        headers: { Accept: "application/json", ...(authorization ? { Authorization: authorization } : {}) }
+      }, fetchImpl);
+      if (!response.ok) return { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
+      const payload = await response.json();
+      const items = catalogItems(payload);
+      if (!items) return { ok: false, reason: "Impact response had no Items array" };
+      for (const item of items) candidates.push(...productCandidates(config, item, programId));
+      const total = Number(payload?.["@total"] ?? payload?.Total ?? payload?.total);
+      if (items.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { ok: true, candidates };
+    }
+    return { ok: false, reason: "Impact catalog exceeded pagination cap" };
+  } catch (error) {
+    // Turn a network/timeout failure into a counted per-event error so the run
+    // finishes fast and the health gate still fails on failed > 0.
+    return { ok: false, reason: `Impact catalog request failed: ${error?.message || error}` };
   }
-  return { ok: false, reason: "Impact catalog exceeded pagination cap" };
 }
 
 function exactPrice(candidates, externalId) {

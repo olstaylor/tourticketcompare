@@ -1252,7 +1252,7 @@
     "status": "announced",
     "ticketmaster_event_id": "010063289EF611C4",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-25-8-pm/concert/17724148",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-25-2026--concerts-pop/production/5995608",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-25-2026/event/010063289EF611C4",
@@ -1267,11 +1267,11 @@
         "discovery_event_id": "vv1A8vN1aGACW-67"
       },
       "seatgeek": {
-        "event_id": 17724148,
-        "url": "https://seatgeek.com/ariana-grande-tickets/boston-massachusetts-td-garden-2026-07-25-8-pm/concert/17724148",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 5995608,
@@ -1347,7 +1347,7 @@
         "event_id": 17700815,
         "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-28-8-pm/concert/17700815",
         "verified": true,
-        "last_verified_at": "2026-07-23",
+        "last_verified_at": "2026-07-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1416,7 +1416,7 @@
         "event_id": 17700817,
         "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-30-8-pm/concert/17700817",
         "verified": true,
-        "last_verified_at": "2026-07-23",
+        "last_verified_at": "2026-07-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1485,7 +1485,7 @@
         "event_id": 17724151,
         "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151",
         "verified": true,
-        "last_verified_at": "2026-07-23",
+        "last_verified_at": "2026-07-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1554,7 +1554,7 @@
         "event_id": 17700811,
         "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
         "verified": true,
-        "last_verified_at": "2026-07-23",
+        "last_verified_at": "2026-07-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1631,7 +1631,7 @@
         "event_id": 17700813,
         "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-05-8-pm/concert/17700813",
         "verified": true,
-        "last_verified_at": "2026-07-23",
+        "last_verified_at": "2026-07-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1708,7 +1708,7 @@
         "event_id": 17724381,
         "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381",
         "verified": true,
-        "last_verified_at": "2026-07-23",
+        "last_verified_at": "2026-07-26",
         "availability_status": "listed"
       },
       "vivid-seats": {

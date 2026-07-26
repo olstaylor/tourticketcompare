@@ -36,8 +36,19 @@ export const ticketmasterProvider = {
     return null;
   },
   getHealth: async (env) => {
-    // TODO: Implement Ticketmaster API health check
-    return { status: "not_checked" };
+    // Config-presence check only: report whether the Ticketmaster runtime key
+    // and the opt-in live-discovery flag are wired, without making any external
+    // call or exposing secret values (mirrors the /api/health binding pattern).
+    const apiKeyConfigured = Boolean(
+      env && Object.prototype.hasOwnProperty.call(env, "TICKETMASTER_API_KEY")
+    );
+    const liveArtistDiscoveryEnabled =
+      env?.TICKETMASTER_LIVE_ARTIST_DISCOVERY_ENABLED === "true";
+    return {
+      status: apiKeyConfigured ? "configured" : "not_configured",
+      apiKeyConfigured,
+      liveArtistDiscoveryEnabled
+    };
   }
 };
 

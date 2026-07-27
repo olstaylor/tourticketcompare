@@ -75,6 +75,19 @@ const DEFAULT_REQUEST_DELAY_MS = 1000;
 const REQUEST_TIMEOUT_MS = 30000;
 const RATE_LIMIT_RETRY_MS = 65000;
 const RATE_LIMIT_MAX_RETRIES = 2;
+// Transport-level failures (curl timeout / connection reset — no HTTP status)
+// are retried with linear backoff. If they still fail they degrade to a soft
+// api_error the caller skips, never a crash that fails the whole scheduled run.
+const NETWORK_RETRY_MS = 3000;
+const NETWORK_MAX_RETRIES = 2;
+// Wall-clock budget for the run's network activity. The scheduled
+// vividseats-cta-sync job sets timeout-minutes: 20; under a broad Impact
+// outage each artist's catalog fetch costs ~90s (curl timeouts + backoff), so
+// with enough timing-out artists the job budget would be exhausted and the
+// process killed before the graceful soft-exit writes the audit log. Past this
+// budget we stop issuing requests and fall through to a clean exit. Overridable
+// with --max-runtime-ms (0 disables).
+const DEFAULT_MAX_RUNTIME_MS = 12 * 60 * 1000;
 
 // ─── Pure helpers (covered by --self-test) ──────────────────────────────────
 
@@ -479,19 +492,48 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// Run one request, retrying transport-level failures (curl timeout / reset,
+// which reject rather than returning an HTTP status) with linear backoff.
+// After the retries are exhausted, resolve to a status-0 response so the
+// caller's existing api_error path handles it — no unhandled rejection, no
+// crashed run. Never invents a catalog: status 0 is not ok, so nothing is
+// cleared or un-verified on it. Every real curl attempt (including retries) is
+// counted against runState.apiCalls, and retries stop once --max-api-calls is
+// reached, so a transport outage cannot burst past the configured cap.
+async function requestWithNetworkRetry(url, headers, options, runState) {
+  let lastError = null;
+  for (let attempt = 0; attempt <= NETWORK_MAX_RETRIES; attempt += 1) {
+    if (attempt > 0) {
+      if (options.maxApiCalls !== null && runState.apiCalls >= options.maxApiCalls) break;
+      runState.networkRetries += 1;
+      await sleep(NETWORK_RETRY_MS * attempt);
+    }
+    runState.apiCalls += 1;
+    try {
+      return await httpsJson(url, headers);
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  runState.lastNetworkError = clean(lastError?.message || String(lastError), 300);
+  return { status: 0, ok: false, payload: null };
+}
+
 async function pacedRequest(url, headers, options, runState) {
   if (options.maxApiCalls !== null && runState.apiCalls >= options.maxApiCalls) {
     return { stopped: true, stopReason: "api_call_limit_reached" };
   }
+  if (options.maxRuntimeMs !== null && Date.now() - runState.startedAt >= options.maxRuntimeMs) {
+    return { stopped: true, stopReason: "deadline_exceeded" };
+  }
   if (options.delayMs > 0) await sleep(options.delayMs);
-  runState.apiCalls += 1;
-  let response = await httpsJson(url, headers);
+  let response = await requestWithNetworkRetry(url, headers, options, runState);
   let retries = 0;
   while (response.status === 429 && retries < RATE_LIMIT_MAX_RETRIES) {
     retries += 1;
     runState.rateLimitResponses += 1;
     await sleep(RATE_LIMIT_RETRY_MS * retries);
-    response = await httpsJson(url, headers);
+    response = await requestWithNetworkRetry(url, headers, options, runState);
   }
   if (response.status === 429) {
     runState.rateLimitResponses += 1;
@@ -792,6 +834,7 @@ function parseArgs(argv) {
     limit: null,
     delayMs: DEFAULT_REQUEST_DELAY_MS,
     maxApiCalls: null,
+    maxRuntimeMs: DEFAULT_MAX_RUNTIME_MS,
     recheckDays: DEFAULT_RECHECK_DAYS,
     json: false,
     logPath: LOG_PATH,
@@ -811,6 +854,7 @@ function parseArgs(argv) {
     else if (arg === "--limit") options.limit = Math.max(1, Number.parseInt(next(), 10) || 1);
     else if (arg === "--delay-ms") options.delayMs = Math.max(0, Number.parseInt(next(), 10) || 0);
     else if (arg === "--max-api-calls") options.maxApiCalls = Math.max(1, Number.parseInt(next(), 10) || 1);
+    else if (arg === "--max-runtime-ms") { const v = Math.max(0, Number.parseInt(next(), 10) || 0); options.maxRuntimeMs = v === 0 ? null : v; }
     else if (arg === "--recheck-days") options.recheckDays = Math.max(0, Number.parseInt(next(), 10) || 0);
     else if (arg === "--json") options.json = true;
     else if (arg === "--log-path") options.logPath = path.resolve(REPO_ROOT, next());
@@ -846,7 +890,7 @@ async function main() {
   const now = new Date();
   const today = isoDate(now);
   const { selected, skipped } = selectEvents(events, registryBySlug, artistNameBySlug, options, now);
-  const runState = { apiCalls: 0, rateLimitResponses: 0, stopReason: "" };
+  const runState = { apiCalls: 0, rateLimitResponses: 0, networkRetries: 0, startedAt: Date.now(), stopReason: "" };
   const results = [];
   const changedIds = new Set();
 
@@ -866,7 +910,7 @@ async function main() {
       runState.stopReason = "auth_or_config_error";
       break;
     }
-    if (catalog.stopReason === "api_call_limit_reached" || catalog.stopReason === "rate_limited") {
+    if (catalog.stopReason === "api_call_limit_reached" || catalog.stopReason === "rate_limited" || catalog.stopReason === "deadline_exceeded") {
       runState.stopReason = catalog.stopReason;
       break;
     }
@@ -878,7 +922,7 @@ async function main() {
           action: "api_error",
           sku: null,
           url: "",
-          notes: [`Vivid Seats Marketplace Products query for '${artistName}' failed with HTTP ${catalog.apiErrorStatus || 0} — transient; nothing written, retried next run`],
+          notes: [`Vivid Seats Marketplace Products query for '${artistName}' failed (${catalog.apiErrorStatus ? `HTTP ${catalog.apiErrorStatus}` : `network/timeout after ${NETWORK_MAX_RETRIES + 1} attempts`}) — transient; nothing written, retried next run`],
           applied: false
         });
       }
@@ -954,6 +998,7 @@ async function main() {
     preskipped: skipped.length,
     api_calls: runState.apiCalls,
     rate_limit_responses: runState.rateLimitResponses,
+    network_retries: runState.networkRetries,
     verified: count("verify"),
     added: count("add"),
     corrected: count("correct"),

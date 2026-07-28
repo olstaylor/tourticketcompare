@@ -312,26 +312,38 @@ def parse_tombstones(data):
     candidate whose id OR venue/date matches a tombstone is withheld, so an
     owner-deleted row that Ticketmaster still lists is never re-proposed.
     """
-    entries = (data or {}).get("deleted_events") or []
+    def as_str(value):
+        # Ignore structurally malformed (non-string) fields rather than crash on
+        # .strip(): a bad registry edit (e.g. a numeric artist_slug) must fail
+        # open, never abort the scheduled discovery run.
+        return value.strip() if isinstance(value, str) else ""
+
+    entries = data.get("deleted_events") if isinstance(data, dict) else None
+    if not isinstance(entries, list):
+        entries = []
     by_slug = {}
     for entry in entries:
         if not isinstance(entry, dict):
             continue
-        slug = (entry.get("artist_slug") or "").strip()
-        if not slug:
+        try:
+            slug = as_str(entry.get("artist_slug"))
+            if not slug:
+                continue
+            bucket = by_slug.setdefault(slug, {"ids": set(), "venue_keys": set()})
+            for id_value in (entry.get("ticketmaster_discovery_event_id"),
+                             entry.get("ticketmaster_event_id")):
+                id_value = as_str(id_value)
+                if id_value:
+                    bucket["ids"].add(id_value.upper())
+            local_date = as_str(entry.get("local_date")) or event_local_date(
+                entry.get("datetime_iso"), as_str(entry.get("timezone"))
+            )
+            key = venue_date_key(entry.get("venue"), local_date)
+            if key:
+                bucket["venue_keys"].add(key)
+        except Exception:
+            # A single malformed entry is skipped, never fatal (fail-open).
             continue
-        bucket = by_slug.setdefault(slug, {"ids": set(), "venue_keys": set()})
-        for id_value in (entry.get("ticketmaster_discovery_event_id"),
-                         entry.get("ticketmaster_event_id")):
-            id_value = (id_value or "").strip()
-            if id_value:
-                bucket["ids"].add(id_value.upper())
-        local_date = (entry.get("local_date") or "").strip() or event_local_date(
-            entry.get("datetime_iso"), (entry.get("timezone") or "").strip()
-        )
-        key = venue_date_key(entry.get("venue"), local_date)
-        if key:
-            bucket["venue_keys"].add(key)
     return {
         slug: {"ids": frozenset(b["ids"]), "venue_keys": frozenset(b["venue_keys"])}
         for slug, b in by_slug.items()
@@ -347,10 +359,9 @@ def load_tombstones(path=TOMBSTONES_PATH):
     if not path.exists():
         return {}
     try:
-        data = load_json(path)
-    except (ValueError, OSError):
+        return parse_tombstones(load_json(path))
+    except Exception:
         return {}
-    return parse_tombstones(data)
 
 
 def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids,
@@ -880,6 +891,24 @@ def self_test():
     check(
         "parse_tombstones ignores entries without an artist_slug",
         list(parsed.keys()) == ["raye"],
+    )
+    malformed = parse_tombstones({"deleted_events": [
+        {"artist_slug": 123, "ticketmaster_event_id": "SHOULDSKIP"},
+        {"artist_slug": "raye", "ticketmaster_discovery_event_id": 999,
+         "venue": "The O2", "local_date": "2027-06-01"},
+    ]})
+    check(
+        "parse_tombstones skips a non-string artist_slug without crashing (fail-open)",
+        list(malformed.keys()) == ["raye"],
+    )
+    check(
+        "parse_tombstones ignores a non-string id field (no crash, no bogus match)",
+        malformed["raye"]["ids"] == frozenset()
+        and malformed["raye"]["venue_keys"] == frozenset({"the o2|2027-06-01"}),
+    )
+    check(
+        "parse_tombstones tolerates a non-dict top-level registry (fail-open)",
+        parse_tombstones([{"artist_slug": "raye"}]) == {} and parse_tombstones("nope") == {},
     )
     check(
         "load_tombstones fails open (empty dict) on a missing registry file",

@@ -3,20 +3,48 @@
 
 // Canonical production host. Canonicals, og:url, JSON-LD, and sitemap/llms.txt
 // URLs must always reference the apex host — robots.txt already hardcodes it,
-// and a request on www must not emit www canonicals. Preview deploys
-// (*.pages.dev) and local dev keep their own origin so links stay
-// self-referencing.
+// and a request on www must not emit www canonicals.
+//
+// Cloudflare serves the *production* deployment on <project>.pages.dev
+// permanently, so that host is not a throwaway preview: left alone it is a
+// fully crawlable duplicate of the live site that self-canonicalises away from
+// the apex. Every non-local host therefore emits apex canonicals (below) and
+// noindex robots meta (see isIndexableOrigin). Only local dev keeps its own
+// origin, so links stay clickable off-network.
 export const CANONICAL_HOST = "tourticketcompare.com";
 export const CANONICAL_ORIGIN = `https://${CANONICAL_HOST}`;
 
-export function canonicalOrigin(origin) {
+const LOCAL_HOSTNAMES = new Set(["localhost", "127.0.0.1", "0.0.0.0", "[::1]", "::1"]);
+
+function hostnameOf(origin) {
   try {
-    const host = new URL(origin).hostname.toLowerCase();
-    if (host === CANONICAL_HOST || host.endsWith(`.${CANONICAL_HOST}`)) return CANONICAL_ORIGIN;
+    return new URL(origin).hostname.toLowerCase();
   } catch (error) {
-    // fall through to the request origin
+    return "";
   }
-  return origin;
+}
+
+export function isLocalOrigin(origin) {
+  const host = hostnameOf(origin);
+  return Boolean(host) && (LOCAL_HOSTNAMES.has(host) || host.endsWith(".local"));
+}
+
+export function isCanonicalOrigin(origin) {
+  const host = hostnameOf(origin);
+  return host === CANONICAL_HOST || host.endsWith(`.${CANONICAL_HOST}`);
+}
+
+// Only the production host (and local dev) may serve indexable HTML. Any other
+// host — *.pages.dev above all — is a duplicate and must be noindex so search
+// engines drop it. Note this is deliberately *not* a robots.txt disallow:
+// blocking the crawl would hide the noindex and strand already-indexed copies.
+export function isIndexableOrigin(origin) {
+  return isCanonicalOrigin(origin) || isLocalOrigin(origin);
+}
+
+export function canonicalOrigin(origin) {
+  if (isLocalOrigin(origin)) return origin;
+  return CANONICAL_ORIGIN;
 }
 
 export const TRUST_ROUTES = {

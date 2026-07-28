@@ -1,4 +1,5 @@
 import { impactMarketplacePublicEnabled } from "../_impact-marketplace-config.js";
+import { isLikelyBot } from "../_bot-detection.js";
 
 const PLACEHOLDER_URL_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1/i;
 const EVENTS_JSON_PATH = "/data/events.json";
@@ -1153,6 +1154,10 @@ async function readBody(request) {
 async function trackClick({ request, env, link, sourcePath, destinationHost }) {
   const db = getDemandDb(env);
   if (!db) return;
+  // Self-identifying crawlers follow every affiliate link on the page, which
+  // inflated outbound_click far above real demand. Skip the analytics write for
+  // them; the redirect itself is untouched and still resolves normally.
+  if (isLikelyBot(request.headers.get("user-agent"))) return;
   const now = new Date().toISOString();
   const metadata = JSON.stringify({
     provider: link.provider,

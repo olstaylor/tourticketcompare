@@ -58,8 +58,8 @@ const guidePages = [
   {
     slug: "seatgeek-vs-ticketmaster",
     title: "SeatGeek vs Ticketmaster | TourTicketCompare",
-    description: "Compare SeatGeek and Ticketmaster by primary vs resale tickets, fees, Deal Score, delivery, buyer protections, and final checkout terms.",
-    h1: "SeatGeek vs Ticketmaster: which should you use?",
+    description: "Is SeatGeek cheaper or better than Ticketmaster? Compare primary and resale tickets, fees, Deal Score, delivery, and buyer protections before buying.",
+    h1: "SeatGeek vs Ticketmaster: which is cheaper or better?",
     serverRendered: true
   },
   {

@@ -511,6 +511,10 @@ assert(
 );
 const clientApp = await read("public/app.js");
 const clientIndexHtml = await read("public/index.html");
+assert(
+  !clientIndexHtml.includes('"@type": "SearchAction"') && !clientIndexHtml.includes("search_term_string"),
+  "index.html must not advertise the retired sitelinks SearchAction or create a crawlable template-query URL"
+);
 const expectedClientMetadata = [
   "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
   homepageDescription,
@@ -839,6 +843,10 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   assert(
     actualCanonical === `https://tourticketcompare.com${pathname}`,
     `${pathname} canonical should be "https://tourticketcompare.com${pathname}", got "${actualCanonical}"`
+  );
+  assert(
+    !text.includes('"@type":"SearchAction"') && !text.includes("search_term_string"),
+    `${pathname} must not advertise the retired sitelinks SearchAction or create a crawlable template-query URL`
   );
 
   assert(nextCalled === false, `${pathname} should be rendered by Pages Functions middleware, not passed to static assets`);

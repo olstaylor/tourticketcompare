@@ -396,12 +396,7 @@ function baseSchema(origin) {
       url: `${origin}/`,
       publisher: { "@id": organizationId },
       inLanguage: "en",
-      description: "Independent ticket research for major live music tours with verified ticket links where available.",
-      potentialAction: {
-        "@type": "SearchAction",
-        target: `${origin}/?q={search_term_string}#search-widget`,
-        "query-input": "required name=search_term_string"
-      }
+      description: "Independent ticket research for major live music tours with verified ticket links where available."
     }
   ];
 }

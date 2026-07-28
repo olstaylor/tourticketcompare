@@ -16,7 +16,13 @@ const PROVIDER = "vivid-seats";
 const APPROVED_SOURCE = "vividseats_impact_marketplace_api";
 const IMPACT_PROGRAM = "12730";
 const IMPACT_API_BASE = "https://api.impact.com";
-const DEFAULT_FRESHNESS_HOURS = 6;
+// Snapshot expiry window. Must stay strictly larger than the scheduled
+// snapshot cron interval or prices blink out between runs: the display gate
+// hides any row past expires_at. The scheduled writer runs every 8h
+// (vividseats-price-snapshots.yml), so 10h keeps a 2h overlap — the same
+// safety margin the original 4h-cron / 6h-expiry pairing had before the cron
+// was widened to save Actions minutes.
+const DEFAULT_FRESHNESS_HOURS = 10;
 const DEFAULT_D1_DATABASE = "tourticketcompare-demand";
 const DEFAULT_LIMIT = null;
 const REQUEST_TIMEOUT_MS = 30000;

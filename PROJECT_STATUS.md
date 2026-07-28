@@ -83,6 +83,7 @@ Current schedule and write-capability state (all times UTC). Behavioral contract
 | `vividseats-price-snapshots.yml` | every 4h (`47 */4`) + dispatch | Exact-event D1 snapshots. D1 only. |
 | `seatgeek-price-snapshots.yml` | **dispatch-only** (schedule removed 2026-07-15) | Inert escape hatch — SeatGeek's API returns null pricing stats (see What is not supported). |
 | `bootstrap-provider-pricing-schema.yml`, `tm-data-refresh-pr.yml`, `seatgeek-discovery-proposal.yml` | dispatch-only | Manual; never auto-merge. |
+| `indexnow-ping.yml` | pushes to `main` touching indexable-route data/code + dispatch | Derives the sitemap from the merged commit, waits for the Cloudflare deploy to serve that URL set, then submits it to IndexNow (Bing/Yandex-class engines). Writes nothing to the repo or D1; dispatch defaults to preview. Google does not participate in IndexNow. |
 | `prelaunch-validation.yml` | PRs | Validation suite incl. the `stale-sync-guard` (fails PRs whose `public/index.html` fallback is stale vs `public/data/*.json`). |
 
 Missing credentials make every scheduled lane no-op safely (no rows, no PR); auth/config failures in the SeatGeek lane abort with no writes.

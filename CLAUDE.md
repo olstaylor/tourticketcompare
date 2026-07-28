@@ -149,6 +149,7 @@ Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS
 - `impact-marketplace-price-snapshots.yml` — scheduled exact-ID D1 snapshots for approved numeric-price lanes, plus dispatch/bootstrap; non-numeric lanes remain manual/display-disabled.
 - `bootstrap-provider-pricing-schema.yml` (manual only) — idempotent cache/history schema bootstrap tracked by `migrations/README.md`.
 
+- `indexnow-ping.yml` (pushes to `main` that change indexable-route data/code, plus dispatch) — waits for the Cloudflare deploy, then submits the live sitemap URL list to IndexNow. Writes nothing to the repo or D1.
 - `prelaunch-validation.yml` (PRs) — validation suite incl. the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`.
 - `tm-data-refresh-pr.yml` (dispatch) — manual PR-based refresh of existing events.
 

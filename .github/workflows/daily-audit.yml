@@ -128,20 +128,33 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Push branch and open daily PR
+      - name: Regenerate inline fallback for bumped artists
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          # Keep the inlined public/index.html fallback in sync with the bumped
+          # artists.json so the direct-to-main commit never drifts the fallback
+          # (this replaces the stale-sync-guard the old PR flow relied on).
+          python3 scripts/sync-events-data.py
+
+      # Validation gates the commit: if any check fails, nothing is pushed.
+      # last_verified_at is bumped ONLY for artists whose URL liveness + TM
+      # Discovery diff came back clean, so this is a lossless freshness-timestamp
+      # write — committed straight to main under the same in-job-validation model
+      # as the nightly field-sync (SAFE_PUBLISHING_RULES.md, owner-approved
+      # 2026-07-28). The old daily human-review PR flow is retired: no
+      # automation/verified-dates-* branch or PR is opened.
+      - name: Validate before commit
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          npm run test:mvp
+          git diff --check
+
+      - name: Commit and push to main
         if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TODAY=$(date -u +%Y-%m-%d)
-          BRANCH="automation/verified-dates-${TODAY}"
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
-          git checkout -B "$BRANCH"
-          # Keep the inlined public/index.html fallback in sync with the bumped
-          # artists.json so the PR never trips the stale-sync-guard.
-          python3 scripts/sync-events-data.py
           git add public/data/artists.json public/index.html
           git commit -m "Bump last_verified_at for clean artists (${TODAY})"
-          git push -u origin "$BRANCH" --force-with-lease
-          BRANCH="$BRANCH" TODAY="$TODAY" node scripts/open-daily-pr.mjs
+          git push origin HEAD:main

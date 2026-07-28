@@ -64,7 +64,9 @@ Never place credentials in browser URLs, command output, issue text, or screensh
 
 `indexnow-ping.yml` submits the live sitemap's URL list to [IndexNow](https://www.indexnow.org) (Bing/Yandex-class engines, which also feed ChatGPT search and Copilot) so newly verified shows are announced instead of waiting for a scheduled recrawl. It fires on pushes to `main` that touch the data or code determining which routes are indexable — including the auto-merged sync lanes — and on manual dispatch (preview by default).
 
-The job derives the sitemap from the merged commit by running the real `functions/sitemap.xml.js` against a filesystem-backed assets stub, then polls production until it serves that URL set before submitting, so a ping fired straight after a merge does not submit the pre-deploy list. Convergence is best-effort: on timeout it still submits whatever production currently serves and logs the missing URLs, because submitting a live URL list is never harmful and the next data change pings again.
+The job snapshots production's sitemap, derives the expected sitemap from the merged commit (running the real `functions/sitemap.xml.js` against a filesystem-backed assets stub), polls production until it serves that sitemap, then submits **only the URLs that changed** — new URLs, or ones whose `lastmod` moved. Entries are compared as `loc` + `lastmod`, so a freshness-only change such as a `last_verified_at` bump is detected even though the URL set is identical.
+
+Every fallback is toward the safe, boring outcome. If the delta cannot be isolated — the deploy was already live when the job started, the wait timed out, or production could not be read — it submits the full live URL list instead, which is always valid. It never submits a URL production does not currently serve, and the submission retries with backoff before failing.
 
 It publishes nothing and changes no data. Google does not participate in IndexNow — it is not a substitute for Search Console coverage.
 

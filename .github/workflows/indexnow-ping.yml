@@ -6,9 +6,10 @@ name: IndexNow ping
 #
 # Fires on pushes to main that change the indexable URL set — which includes the
 # auto-merged provider/discovery sync lanes, so newly verified shows are
-# announced the same night they land. The job derives the sitemap from the
-# merged commit, waits for the Cloudflare Pages deploy to serve that URL set,
-# then submits.
+# announced the same night they land. The job snapshots production's sitemap,
+# waits for the Cloudflare Pages deploy of this commit to land, then submits
+# only the URLs that actually changed. If the delta cannot be isolated it falls
+# back to the full live list, which is always valid.
 #
 # Read-only with respect to the repo and D1: it publishes nothing, changes no
 # data, and submits only URLs the live sitemap already advertises.
@@ -52,7 +53,7 @@ concurrency:
 jobs:
   ping:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -62,10 +63,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
 
-      - name: Install dependencies
-        run: npm ci
+      # No `npm ci`: the ping and its self-test import only Node built-ins and
+      # local functions/ modules, so installing 91 packages would add runtime
+      # and a failure mode for nothing.
 
       - name: Run IndexNow self-test
         run: npm run indexnow:ping:self-test

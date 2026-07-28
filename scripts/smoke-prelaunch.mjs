@@ -523,7 +523,7 @@ const expectedClientMetadata = [
   "How to Compare Concert Ticket Prices | TourTicketCompare",
   "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
   "SeatGeek vs Ticketmaster | TourTicketCompare",
-  "Compare SeatGeek and Ticketmaster by primary vs resale tickets, fees, Deal Score, delivery, buyer protections, and final checkout terms."
+  "Is SeatGeek cheaper or better than Ticketmaster? Compare primary and resale tickets, fees, Deal Score, delivery, and buyer protections before buying."
 ];
 for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
@@ -980,11 +980,13 @@ const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
 assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");
 assert(extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster | TourTicketCompare", "focused guide should expose exact pairwise title metadata");
-assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: which should you use?", "focused guide should expose the pairwise decision H1");
+assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: which is cheaper or better?", "focused guide should expose the pairwise decision H1");
 for (const expectedCopy of [
+  "Short answer:",
   "SeatGeek vs Ticketmaster at a glance",
-  "Why SeatGeek can have tickets when Ticketmaster does not",
-  "Why is SeatGeek less expensive than Ticketmaster?",
+  "Is SeatGeek cheaper than Ticketmaster?",
+  "Why does SeatGeek have tickets when Ticketmaster does not?",
+  "Why is SeatGeek sometimes cheaper than Ticketmaster?",
   "Is SeatGeek legit like Ticketmaster?",
   "How does SeatGeek have tickets but not Ticketmaster?",
   "What is the most trusted concert ticket site?"
@@ -997,7 +999,23 @@ const pairwiseArticle = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] =
 const pairwiseFaq = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] === "FAQPage");
 assert(Array.isArray(pairwiseArticle?.citation) && pairwiseArticle.citation.length === 8, "focused guide Article schema should cite all eight visible primary sources");
 assert(pairwiseArticle?.articleSection === "Compare prices and fees", "focused guide should join the comparison topic cluster");
+assert(pairwiseArticle?.dateModified === "2026-07-28", "focused guide Article schema should expose the SEO review date");
 assert(Array.isArray(pairwiseFaq?.mainEntity) && pairwiseFaq.mainEntity.length === 8, "focused guide FAQ schema should mirror all eight visible answers");
+
+const comparisonHub = await routeResponse("/compare-concert-ticket-prices");
+assert(
+  comparisonHub.text.includes('href="/guides/seatgeek-vs-ticketmaster"'),
+  "comparison hub should link directly to the focused SeatGeek vs Ticketmaster guide"
+);
+
+const homepageSeo = await routeResponse("/");
+const pairwiseHomepageLink = homepageSeo.text.indexOf('href="/guides/seatgeek-vs-ticketmaster"');
+const threeWayHomepageLink = homepageSeo.text.indexOf('href="/guides/ticketmaster-vs-seatgeek-vs-vivid-seats"');
+assert(pairwiseHomepageLink >= 0, "homepage should link to the focused SeatGeek vs Ticketmaster guide");
+assert(
+  pairwiseHomepageLink < threeWayHomepageLink,
+  "homepage should prioritize the focused pairwise guide before the broader three-provider guide"
+);
 
 const unknownArtist = await routeResponse("/artists/not-a-real-artist");
 assert(unknownArtist.response.status === 404, "unknown artist route should return 404");

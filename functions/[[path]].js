@@ -984,10 +984,10 @@ function artistCardStatus(catalog, artist, events) {
     return {
       pending: false,
       badgeClass: "status-badge",
-      badge: "Checked ticket options",
-      detail: "Verified event ticket links available",
-      cardStatus: "Verified event ticket links are available on this artist page.",
-      ctaLabel: "View ticket links",
+      badge: "Dates listed",
+      detail: "Ticket links for individual dates",
+      cardStatus: "Ticket links are live for individual dates on this page.",
+      ctaLabel: "View dates",
       ctaClass: "button button-primary"
     };
   }
@@ -995,9 +995,9 @@ function artistCardStatus(catalog, artist, events) {
     return {
       pending: false,
       badgeClass: "status-badge",
-      badge: "Artist-level provider page",
-      detail: "No event-specific ticket link verified yet",
-      cardStatus: "Artist-level provider page available. No event-specific ticket link verified yet.",
+      badge: "No dates yet",
+      detail: "Links to the artist's page on each provider",
+      cardStatus: "No dates listed yet — the links go to this artist's page on each provider.",
       ctaLabel: "View artist page",
       ctaClass: "button button-primary"
     };
@@ -1005,9 +1005,9 @@ function artistCardStatus(catalog, artist, events) {
   return {
     pending: true,
     badgeClass: "status-badge status-badge-muted",
-    badge: "Buying guidance",
-    detail: "Event links added after review",
-    cardStatus: "No verified ticket destination is currently published for this artist.",
+    badge: "Being checked",
+    detail: "Links appear once we've checked them",
+    cardStatus: "We haven't published a ticket link for this artist yet.",
     ctaLabel: "View artist page",
     ctaClass: "button button-secondary"
   };
@@ -1030,7 +1030,7 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
   if (!shows.length) return null;
   const next = formatCardDate(shows[0].dateTimeISO);
   if (!next) return null;
-  return `Next verified date: ${next} · ${shows.length} upcoming ${shows.length === 1 ? "date" : "dates"}`;
+  return `Next date: ${next} · ${shows.length} upcoming ${shows.length === 1 ? "date" : "dates"}`;
 }
 
 function renderArtistLinks(catalog, events = []) {
@@ -1169,7 +1169,7 @@ function renderArtistCitiesHtml(events, artist) {
     .slice(0, 30)
     .map((city) => `<li>${anchor(`${city.city}, ${city.country}`, `/cities/${city.slug}`)}</li>`)
     .join("");
-  return `<section class="nested-panel"><h2>Cities on this run</h2><p>Browse other upcoming concerts we track in the cities ${escapeHtml(
+  return `<section class="nested-panel"><h2>Cities on this run</h2><p>Who else is playing the cities ${escapeHtml(
     artist.name
   )} is visiting:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
@@ -1349,7 +1349,7 @@ function renderArtistVenuesHtml(events, artist) {
       )}</li>`;
     })
     .join("");
-  return `<section class="nested-panel"><h2>Venues on this run</h2><p>See other upcoming shows we track at the venues ${escapeHtml(
+  return `<section class="nested-panel"><h2>Venues on this run</h2><p>What else is on at the venues ${escapeHtml(
     artist.name
   )} is playing:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
@@ -1380,9 +1380,7 @@ function renderArtistTourSummariesHtml(tours, artist) {
     .join("");
   return `<section class="nested-panel"><h2>${escapeHtml(
     artist.name
-  )} tours and dates</h2><p>These are the tracked tours behind the upcoming ${escapeHtml(
-    artist.name
-  )} dates above. Follow a date on the show board to reach checked provider options.</p><div class="card-grid">${cards}</div></section>`;
+  )} tours and dates</h2><p>The runs behind the dates listed above. Pick a date up there to get to the ticket links for it.</p><div class="card-grid">${cards}</div></section>`;
 }
 
 // Practical ticket-buying guide, from artistBuyingGuide in _artist-content.js.
@@ -1421,9 +1419,7 @@ function renderArtistTicketCitiesHtml(events, artist) {
     .join("");
   return `<section class="nested-panel"><h2>${escapeHtml(
     artist.name
-  )} tickets by city</h2><p>Jump straight to a local ${escapeHtml(
-    artist.name
-  )} page for the exact dates, venues, and checked ticket options in each city:</p><ul class="guide-link-list">${items}</ul></section>`;
+  )} tickets by city</h2><p>Go straight to a city for the dates, venues, and ticket links there:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
 // The derived, data-driven artist content block. It is wrapped in a single
@@ -1713,9 +1709,9 @@ function renderGuideClusters() {
 
 function renderArtistStatusLegendHtml() {
   const items = [
-    ["status-badge", "Checked ticket options", "Verified event ticket links available"],
-    ["status-badge", "Artist-level provider page", "No event-specific ticket link verified yet"],
-    ["status-badge status-badge-muted", "Buying guidance", "Event links added after review"]
+    ["status-badge", "Dates listed", "Ticket links for individual dates"],
+    ["status-badge", "No dates yet", "Links to the artist's page on each provider"],
+    ["status-badge status-badge-muted", "Being checked", "Links appear once we've checked them"]
   ];
   return `<div class="artist-status-legend" aria-label="Artist card status legend">${items
     .map(
@@ -1807,7 +1803,7 @@ function renderComparisonHubCityLinks(events = []) {
 function renderComparisonHubEventCards(events = []) {
   const shows = publishableFutureShows(events, 6);
   if (!shows.length) return "";
-  return `<section id="current-events" class="nested-panel"><h2>Current provider price snapshots</h2><p>For each exact show, we load available approved provider price snapshots. Event cards may identify the lower displayed snapshot only when multiple current numeric lanes for that event share a currency; confirm fees, tax, availability, delivery, and the final total on the provider site.</p><div class="card-grid show-card-grid">${shows
+  return `<section id="current-events" class="nested-panel"><h2>Prices on upcoming shows</h2><p>For each show below, we load whatever current prices we have from the ticket sites. Where two or more sites quote the same show in the same currency, we'll point out the lower one — but that's a listed price, not your final total. Fees, tax, delivery, and availability are settled at the provider's checkout.</p><div class="card-grid show-card-grid">${shows
     .map((show) => {
       const date = formatShowDateServer(show.dateTimeISO);
       const title = show.event_name || [show.artist_name, show.city].filter(Boolean).join(" – ") || "Upcoming concert";
@@ -1825,16 +1821,16 @@ function latestHubVerificationDate(events = []) {
 }
 
 function renderComparisonIntentCards() {
-  return `<section class="nested-panel"><h2>Start with what you know</h2><div class="card-grid"><article class="info-card"><h3>I know the artist</h3><p>Open the artist page first. You can review checked dates, provider buttons where available, and notes on what to confirm before checkout.</p>${anchor("Browse artist pages", "#compare-by-artist", "text-link")}</article><article class="info-card"><h3>I know the city</h3><p>Open a city page to match upcoming concerts by artist, venue, and date before comparing ticket options.</p>${anchor("Browse concert cities", "#compare-by-city", "text-link")}</article><article class="info-card"><h3>I know the date or venue</h3><p>Search the site for the venue or date, then confirm the exact event details on the ticket provider before buying.</p>${anchor("Browse checked events", "#current-events", "text-link")}</article></div></section>`;
+  return `<section class="nested-panel"><h2>Start with what you know</h2><div class="card-grid"><article class="info-card"><h3>I know the artist</h3><p>Go to their page for the dates, the ticket links, and what to watch for before you pay.</p>${anchor("Browse artist pages", "#compare-by-artist", "text-link")}</article><article class="info-card"><h3>I know the city</h3><p>Open the city to see who's playing there, at which venue, and when.</p>${anchor("Browse concert cities", "#compare-by-city", "text-link")}</article><article class="info-card"><h3>I know the date or venue</h3><p>Search for the venue or date, then double-check the event details on the provider before buying.</p>${anchor("Browse upcoming shows", "#current-events", "text-link")}</article></div></section>`;
 }
 
 function renderProviderChecklistSection() {
-  return `<section class="nested-panel"><h2>What to compare before you buy</h2><p>Prices can look similar until checkout. Use this checklist on every provider page before choosing a ticket.</p><div class="card-grid"><article class="info-card"><h3>1. Match the exact show</h3><p>Artist, city, venue, local date and event name should match the concert you intend to attend.</p></article><article class="info-card"><h3>2. Compare the final total</h3><p>Review the full checkout total after service, delivery, tax and handling fees appear.</p></article><article class="info-card"><h3>3. Check the seat details</h3><p>Confirm section, row, seat numbers, standing area, accessible seating notes and any restricted-view warnings.</p></article><article class="info-card"><h3>4. Read delivery terms</h3><p>Check mobile transfer timing, delayed delivery, ID requirements and whether tickets can be transferred before travel.</p></article><article class="info-card"><h3>5. Review resale protections</h3><p>If the listing is resale, read the marketplace guarantee, refund rules and what happens if the event changes.</p></article><article class="info-card"><h3>6. Re-check before payment</h3><p>Availability and totals can change. Confirm all details again on the final provider checkout screen.</p></article></div></section>`;
+  return `<section class="nested-panel"><h2>What to check before you buy</h2><p>Two listings can look identical right up until the payment screen. Run through this on every site.</p><div class="card-grid"><article class="info-card"><h3>1. Is it the same show?</h3><p>Artist, city, venue, local date and event name — all of it has to match the gig you mean.</p></article><article class="info-card"><h3>2. What's the total?</h3><p>Get to the checkout screen where service, delivery, tax and handling fees are all showing.</p></article><article class="info-card"><h3>3. Where's the seat?</h3><p>Section, row, seat number or standing area — and any restricted-view or accessibility notes.</p></article><article class="info-card"><h3>4. When do the tickets arrive?</h3><p>Check transfer timing, delayed delivery, ID requirements, and whether you can pass them on.</p></article><article class="info-card"><h3>5. What if something goes wrong?</h3><p>On resale, read the guarantee and refund rules, and what happens if the event moves.</p></article><article class="info-card"><h3>6. Look again before you pay</h3><p>Totals and availability shift. Give the final screen one more read before you commit.</p></article></div></section>`;
 }
 
 function renderComparisonTrustPanel(events = []) {
   const lastChecked = latestHubVerificationDate(events);
-  return `<section class="nested-panel verification-disclosure"><h2>What TourTicketCompare verifies</h2><ul class="check-list"><li>We organise artist pages and event links only from data already reviewed by the site.</li><li>We do not invent prices, venues, dates, inventory or provider relationships.</li><li>We hide ticket buttons when a destination is not verified enough to publish.</li><li>Ticket providers control final prices, fees, seat details, availability and delivery terms.</li></ul>${lastChecked ? `<p class="disclosure-note">Latest event-link check represented in the current data: ${escapeHtml(lastChecked)}.</p>` : ""}</section>`;
+  return `<section class="nested-panel verification-disclosure"><h2>What we actually check</h2><ul class="check-list"><li>Every date and link on the site comes from a record someone has reviewed.</li><li>We don't make up prices, venues, dates, availability, or relationships with providers.</li><li>If we can't stand behind where a link goes, we hide the button rather than guess.</li><li>Final prices, fees, seat details, availability and delivery are the provider's call, not ours.</li></ul>${lastChecked ? `<p class="disclosure-note">Most recent link check in the current data: ${escapeHtml(lastChecked)}.</p>` : ""}</section>`;
 }
 
 function comparisonHubFaqEntries() {
@@ -2040,7 +2036,7 @@ function availableArtistProviderLinks(catalog, artist, providerAvailability = {}
 function renderProviderFallback(catalog, artist, surface, providerAvailability = {}) {
   const links = availableArtistProviderLinks(catalog, artist, providerAvailability);
   if (!links.length) {
-    return `<section class="provider-panel"><h2>Provider links</h2><p class="muted">No artist-level provider page has been verified yet — buttons appear only after destination checks.</p><p class="muted">What to check before committing to a ticketing platform:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
+    return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">We haven't got a checked provider page for this artist yet — buttons only go up once we've followed the link ourselves.</p><p class="muted">Worth reading before you pick a ticket site:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
   }
   const cards = links
     .map((item) => {
@@ -2049,7 +2045,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
       const label = "Check provider";
       const destination = artistProviderHref(artist, item, surface);
       const verificationNote = providerVerificationNote(item);
-      return `<article class="provider-card"><p class="eyebrow">Artist-level provider page</p><h3>${escapeHtml(displayName)}</h3>${anchor(
+      return `<article class="provider-card"><p class="eyebrow">Artist page</p><h3>${escapeHtml(displayName)}</h3>${anchor(
         label,
         destination,
         "button button-primary",
@@ -2057,8 +2053,8 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
-  const singleProviderNote = links.length === 1 ? `<p class="disclosure-note">Only one artist-level provider page is currently verified, so this is not a full provider comparison.</p>` : "";
-  return `<section class="provider-panel"><h2>Artist-level provider pages</h2><p class="muted">Provider pages for this artist — not date-specific links.</p>${singleProviderNote}<div class="provider-actions">${cards}</div></section>`;
+  const singleProviderNote = links.length === 1 ? `<p class="disclosure-note">We've only got one checked provider page for this artist so far, so there's nothing to compare it against yet.</p>` : "";
+  return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">These go to the artist's page on each ticket site, not to a specific date.</p>${singleProviderNote}<div class="provider-actions">${cards}</div></section>`;
 }
 
 function formatVerificationDate(value) {
@@ -2079,7 +2075,7 @@ function renderVerificationDisclosure(artist, shows = []) {
   const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
   const eventDates = [...new Set(shows.map(show => formatVerificationDate(show.last_verified_at)).filter(Boolean))];
   const eventRange = eventDates.length ? (eventDates.length === 1 ? eventDates[0] : `${eventDates[0]} to ${eventDates[eventDates.length - 1]}`) : null;
-  return `<section class="nested-panel verification-disclosure"><h2>How ticket links work</h2><p class="muted">We verify ticket destinations before they appear. Providers set prices, fees, availability and delivery terms; some links may earn us a commission.</p>${
+  return `<section class="nested-panel verification-disclosure"><h2>How these links work</h2><p class="muted">We follow every ticket link before it goes up. Prices, fees, availability and delivery are the provider's, not ours — and some links earn us a commission.</p>${
     artistVerifiedDate ? `<p class="disclosure-note">Artist last checked: ${escapeHtml(artistVerifiedDate)}.</p>` : ""
   }${eventRange ? `<p class="disclosure-note">Event links last checked: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
 }
@@ -2564,7 +2560,7 @@ function renderRecentShowsHtml(safeName, pastShows) {
       return `<li><time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(label)}</time>${place ? ` — ${place}` : ""}</li>`;
     })
     .join("");
-  return `<div class="recent-shows"><h4>Recent ${safeName} shows</h4><p class="muted">These ${safeName} dates have already taken place. They are shown as a reference while we verify any newly announced run.</p><ul class="recent-shows-list">${items}</ul></div>`;
+  return `<div class="recent-shows"><h4>Recent ${safeName} shows</h4><p class="muted">These dates have already been and gone — they're here for reference while we check any newly announced run.</p><ul class="recent-shows-list">${items}</ul></div>`;
 }
 
 // The signup form posts to /api/signup and works without JavaScript: the button
@@ -2580,9 +2576,9 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, arti
     : anchor("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary");
   const recentHtml = renderRecentShowsHtml(safeName, pastShows);
   const signupHtml = artistSlug
-    ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Join the ${safeName} watchlist</h4><p class="muted">Leave an email and we'll let you know when verified ${safeName} dates and checked ticket links are listed.</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
+    ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Get told when ${safeName} dates land</h4><p class="muted">Leave your email and we'll let you know as soon as we've got confirmed ${safeName} dates and ticket links up.</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
     : "";
-  return `<div class="empty-state"><h3>No upcoming dates listed yet</h3><p class="muted">We list upcoming ${safeName} dates once the ticket destination is verified — new dates appear here first.</p>${recentHtml}${signupHtml}<div class="action-row">${primaryCta}${anchor(
+  return `<div class="empty-state"><h3>No upcoming dates yet</h3><p class="muted">Nothing confirmed for ${safeName} right now. New dates show up here as soon as we've checked where the tickets lead.</p>${recentHtml}${signupHtml}<div class="action-row">${primaryCta}${anchor(
     "Browse artists",
     "/artists",
     "button button-secondary"
@@ -2597,7 +2593,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   const filterIntro = shows.length > 1
     ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Filter by city, venue, or tour to jump to your date.</p></div>`
     : "";
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming shows</h2><p>Pick a date, compare available price snapshots, then confirm final prices and fees on the provider site.</p><p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming shows</h2><p>Pick your date, compare the prices we have, then check the fees and final total on the provider's site.</p><p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -2607,18 +2603,18 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       .join("");
     return `<main id="mainContent"><section class="content-page comparison-hub" aria-labelledby="compareTitle">${renderBreadcrumbHtml(
       route
-    )}<section class="nested-panel"><h1 id="compareTitle">Compare Concert Ticket Prices</h1><p class="lead">Start with a checked concert event, not a generic provider matchup. Where current approved provider listed-price snapshots exist for that same show, use them to shortlist options; then open the provider pages to compare the exact listing, final fees, delivery and checkout terms.</p><div class="action-row">${anchor(
+    )}<section class="nested-panel"><h1 id="compareTitle">Compare concert ticket prices</h1><p class="lead">Start with the show you actually want to see, not a generic "site A vs site B" argument. Where we have current prices for that exact show, use them to narrow things down — then open the providers and compare the real listing, fees, and delivery terms.</p><div class="action-row">${anchor(
       "Browse checked events",
       "#current-events",
       "button button-primary"
-    )}${anchor("Browse artists", "#compare-by-artist", "button button-secondary")}</div><p class="disclosure-note">We compare approved, timestamped provider snapshots for the same event only. A snapshot is a starting point, not a seat-for-seat comparison or a final checkout quote; providers control prices, fees, availability, restrictions and delivery terms.</p></section>${renderComparisonIntentCards()}<section id="compare-by-artist" class="nested-panel"><h2>Start with an artist page</h2><p>Choose an artist to find the date you mean, review checked provider options where available, and move to the exact event before comparing anything.</p>${renderComparisonHubArtistCards(
+    )}${anchor("Browse artists", "#compare-by-artist", "button button-secondary")}</div><p class="disclosure-note">We only compare prices captured for the same event, each with the time it was taken. Treat them as a starting point rather than a seat-for-seat match or a final quote — the provider sets the price, fees, availability and delivery terms.</p></section>${renderComparisonIntentCards()}<section id="compare-by-artist" class="nested-panel"><h2>Start with an artist</h2><p>Open an artist to find the date you mean. Compare at the level of a single show — that's the only comparison that tells you anything.</p>${renderComparisonHubArtistCards(
       catalog,
       events
-    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city</h2><p>Use a city page when location comes first, then match the artist, venue, and date before opening checked provider links.</p>${renderComparisonHubCityLinks(
+    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city</h2><p>If the city matters more than the act, start here — then narrow down to the artist, venue, and date.</p>${renderComparisonHubCityLinks(
       events
-    )}</section>${renderProviderChecklistSection()}<section class="nested-panel"><h2>How concert ticket prices vary</h2><div class="card-grid"><article class="info-card"><h3>Seller and ticket type</h3><p>Primary tickets, resale listings and provider marketplace rules can all affect what you see.</p></article><article class="info-card"><h3>Seat location and demand</h3><p>Section, row, view, proximity to the stage and demand for a specific date can change the final total.</p></article><article class="info-card"><h3>Availability and timing</h3><p>Listings may change as onsales, extra releases, transfers and resale supply shift before the event.</p></article><article class="info-card"><h3>Service fees</h3><p>Compare the final checkout total after service, delivery, tax and handling fees, not only the first displayed price.</p></article></div></section>${renderComparisonTrustPanel(
+    )}</section>${renderProviderChecklistSection()}<section class="nested-panel"><h2>Why the same show costs different amounts</h2><div class="card-grid"><article class="info-card"><h3>Who's selling it</h3><p>A ticket straight from the box office and a resale listing are different products with different rules.</p></article><article class="info-card"><h3>Where you're sitting</h3><p>Section, row, sightline and how close you are to the stage all move the number.</p></article><article class="info-card"><h3>When you look</h3><p>Onsales, extra releases and resale supply all shift in the weeks before a show.</p></article><article class="info-card"><h3>Fees</h3><p>The first number you see is rarely the last. Service, delivery, tax and handling get added later.</p></article></div></section>${renderComparisonTrustPanel(
       events
-    )}<section class="nested-panel"><h2>Ticket sites and sources</h2><p>TourTicketCompare organises checked ticket destinations and practical buying guidance. Use these links as a starting point, then compare trusted providers and confirm final prices, fees, seat restrictions, delivery details, refund rules and event terms before purchasing.</p><p class="disclosure-note">Some outbound links may be affiliate links. We do not sell tickets directly, guarantee availability, or promise that any provider has a lower total.</p><div class="action-row">${anchor(
+    )}<section class="nested-panel"><h2>Ticket sites and sources</h2><p>What we do is collect checked ticket links and explain how to read them. Use them as a starting point, then confirm the price, fees, seat restrictions, delivery, refunds and event terms on the provider before you pay.</p><p class="disclosure-note">Some outbound links are affiliate links. We don't sell tickets, can't guarantee availability, and won't tell you one provider is always cheaper.</p><div class="action-row">${anchor(
       "How it works",
       "/how-it-works",
       "button button-secondary"
@@ -2630,7 +2626,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Currency converter",
       "/currency-converter",
       "button button-secondary"
-    )}</div></section><section id="current-events" class="nested-panel"><h2>Browse concerts and tours</h2><p>Use artist and tour pages as a hub for checked links and event-specific buying guidance.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse cities", "/cities", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
+    )}</div></section><section id="current-events" class="nested-panel"><h2>Browse concerts and tours</h2><p>Artist and tour pages are where the checked links and per-show guidance live.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse cities", "/cities", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
       .filter((tour) => tour && tour.verified === true && tour.artist_slug && tour.slug)
       .slice(0, 6)
       .map((tour) => anchor(tour.tour_name || "Tour ticket options", `/artists/${tour.artist_slug}/${tour.slug}`, "mini-link"))
@@ -2657,7 +2653,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       .filter(Boolean)
       .join("");
     const relatedGuidesHtml = relatedGuideLinks
-      ? `<section class="nested-panel"><h2>Related guides</h2><p>Learn how to compare prices, understand ticket types, spot scams, and make smart timing decisions:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
+      ? `<section class="nested-panel"><h2>Related guides</h2><p>How to compare prices, tell primary from resale, spot a scam, and pick your moment:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
     const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
     const shows = futureShowsForArtist(events, artist.slug);
@@ -2668,12 +2664,6 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     const reviewNoticeHtml = isIndexableArtist
       ? ""
       : `<section class="nested-panel review-notice"><p class="disclosure-note">This artist page is currently under review. Event details are shown for reference while ticket links are checked.</p></section>`;
-    const demandHtml =
-      typeof artist.why_demand_is_high === "string" && artist.why_demand_is_high.trim()
-        ? `<section class="nested-panel"><h2>Why demand may be high</h2><p>${escapeHtml(
-            artist.why_demand_is_high
-          )}</p></section>`
-        : "";
     const artistFaqHtml = artistFaqEntries(artist)
       .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
       .join("");
@@ -2706,9 +2696,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       providerAvailability
     )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, emptyStateProviderCta, marketplaceAvailability, artist.slug, pastShows)}${renderVerificationDisclosure(artist, shows)}`}<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
-    )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>Ticket link status</h2><p>${escapeHtml(
+    )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>About these links</h2><p>${escapeHtml(
       artist.ticket_buying_notes
-    )}</p></div></section>${demandHtml}<section class="nested-panel"><h2>Before you buy</h2><ul class="check-list"><li>Check the final price including all fees.</li><li>Check the seat location and any view restrictions.</li><li>Check delivery, refund, and resale terms on the provider site.</li></ul></section>${artistExtraContentHtml}${relatedGuidesHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+    )}</p></div></section><section class="nested-panel"><h2>Before you buy</h2><ul class="check-list"><li>Check the price you actually pay, once fees are added.</li><li>Check where the seat is, and whether the view is restricted.</li><li>Check the provider's delivery, refund, and resale terms.</li></ul></section>${artistExtraContentHtml}${relatedGuidesHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "mini-link"
@@ -2946,7 +2936,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/artists") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="artistsTitle">Artist watchlist</h1><p class="lead">Find an artist, then open the checked ticket options and upcoming dates we can verify.</p><p class="disclosure-note">Coverage varies by artist and region. We publish ticket links only after the artist, date, venue, and destination have been checked.</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
+    )}<h1 id="artistsTitle">Artists we track</h1><p class="lead">Pick an artist to see their upcoming dates and where to buy for each one.</p><p class="disclosure-note">Coverage varies by artist and region. A ticket link only goes up once we've checked the artist, date, venue, and where the link lands.</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
       catalog,
       events
     )}</section></main>`;
@@ -2955,11 +2945,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/guides") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="guidesTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Start with the decision in front of you: matching an exact listing, checking the final total, choosing primary or resale, timing a purchase, or verifying provider terms.</p><section class="nested-panel"><h2>Use a guide, then return to the show</h2><p>Guides explain how to make a decision; artist pages help you apply it to a checked date and provider destination. If you already know the artist or venue, begin there instead of comparing generic ticket-site claims.</p><div class="action-row">${anchor("Browse artists", "/artists", "button button-primary")}${anchor("Browse venues", "/venues", "button button-secondary")}</div></section><section class="nested-panel"><h2>Essential checks before checkout</h2><ul class="check-list"><li>Match the artist, local date, venue, quantity, ticket type, and seat details.</li><li>Compare the final checkout total after fees for that exact ticket, not only the first displayed price.</li><li>Review delivery, refund, transfer, and resale terms before paying.</li><li>Use official sources or established marketplaces; avoid unmatched listings and social-media sellers.</li><li>Buying a show priced in another currency? Estimate the cost with the ${anchor(
+    )}<h1 id="guidesTitle">Ticket buying guides</h1><p>Start with whatever you're stuck on: reading a listing, working out the real total, primary or resale, when to buy, or what the small print means.</p><section class="nested-panel"><h2>Read a guide, then go back to the show</h2><p>Guides tell you how to decide. Artist pages are where you apply it to an actual date. If you already know who you're going to see, start there.</p><div class="action-row">${anchor("Browse artists", "/artists", "button button-primary")}${anchor("Browse venues", "/venues", "button button-secondary")}</div></section><section class="nested-panel"><h2>The short version</h2><ul class="check-list"><li>Check the artist, local date, venue, quantity, ticket type, and seat details all match.</li><li>Compare the total at checkout for that exact ticket, not the price on the search card.</li><li>Read the delivery, refund, transfer, and resale terms before you pay.</li><li>Stick to official sources or established marketplaces. Avoid social-media sellers.</li><li>Show priced in another currency? Get a rough figure from the ${anchor(
       "currency converter",
       "/currency-converter",
       "text-link"
-    )}, then confirm the charge currency at checkout.</li></ul></section>${renderGuideClusters()}<div class="action-row">${anchor(
+    )}, then check which currency you're actually charged in at checkout.</li></ul></section>${renderGuideClusters()}<div class="action-row">${anchor(
       "Compare checked concert events",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -2973,7 +2963,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/how-it-works") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="pageTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="pageTitle">How TourTicketCompare works</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options, compare available provider price snapshots for the same event, and use practical buying guidance. We do not sell tickets and only link out to destinations we have checked.</p><section class="nested-panel"><h2>What TourTicketCompare does</h2><ul class="check-list"><li>Organises verified ticket links from official providers like Ticketmaster.</li><li>Shows checked event-specific links only when the destination can be verified.</li><li>Provides practical buying guidance on comparing totals, understanding fees, and confirming terms.</li><li>Displays a clear empty state when no verified ticket link exists for an event.</li></ul></section><section class="nested-panel"><h2>What TourTicketCompare does not do</h2><ul class="check-list"><li>Sell tickets directly.</li><li>Compare prices without a fresh, approved snapshot for the same verified event.</li><li>Display prices without verified, timestamped provider data.</li><li>Send users to generic artist pages when no event-specific link is verified.</li><li>Scrape unofficial sources or publish unverified tour dates.</li></ul></section><section class="nested-panel"><h2>How ticket links are handled</h2><p>Ticket buttons on event cards link to external ticketing platforms. Some links may be affiliate links, which means we may earn a commission if you purchase through them at no extra cost to you.</p><p class="disclosure-note">Affiliate relationships do not control which links we show. Affiliate links are handled safely and we only publish ticket buttons when the destination can be verified.</p></section><section class="nested-panel"><h2>What you should confirm on the ticket provider site</h2><ul class="check-list"><li>Final price including all fees and taxes.</li><li>Exact seat or standing area location.</li><li>Delivery method and timing (instant, email transfer, shipped).</li><li>Refund, resale, and cancellation terms.</li><li>Event date, venue, and artist name match your intended show.</li></ul></section><section class="nested-panel"><h2>What we verify before showing a link</h2><p>We check that the event card artist, date, and venue match verified source data. We validate each ticket link destination before showing a button. We do not show event cards or ticket links until the information can be checked.</p></section><section class="nested-panel faq-panel"><h2>FAQ</h2><details><summary>Is TourTicketCompare official?</summary><p>No. TourTicketCompare is independent and unofficial.</p></details><details><summary>Does the site sell tickets directly?</summary><p>No. Ticket buying happens on the external provider site.</p></details><details><summary>Why are some ticket buttons missing?</summary><p>Ticket buttons are hidden until the destination can be verified.</p></details><details><summary>Can final prices change?</summary><p>Yes. External ticketing sites set their own prices, fees, availability, and checkout terms.</p></details></section><div class="action-row">${anchor(
+    )}<h1 id="pageTitle">How TourTicketCompare works</h1><p class="lead">We're an independent site that helps you find tour dates, see what the ticket sites are charging for the same show, and work out what to check before you pay. We don't sell tickets, and we only link somewhere once we've followed the link ourselves.</p><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Collect ticket links for major tours, including plain links to official sellers like Ticketmaster.</li><li>Put up a link for a specific date only when we can confirm where it goes.</li><li>Explain how to compare totals, read fees, and check the terms before you commit.</li><li>Say plainly when we've got nothing for a show, instead of padding the page.</li></ul></section><section class="nested-panel"><h2>What we don't do</h2><ul class="check-list"><li>Sell you a ticket.</li><li>Compare prices unless we have current ones for the same confirmed event.</li><li>Show a price without knowing which provider it came from and when.</li><li>Dump you on a generic artist page when you asked about one date.</li><li>Scrape other sites, or publish a tour date we can't confirm.</li></ul></section><section class="nested-panel"><h2>About the links</h2><p>Ticket buttons take you to an external ticketing site. Some of them are affiliate links, so we may earn a commission if you buy — it doesn't cost you anything extra.</p><p class="disclosure-note">That commission doesn't decide which links appear. A button only goes up when we can confirm where it lands, paid or not.</p></section><section class="nested-panel"><h2>What to check on the provider's site</h2><ul class="check-list"><li>The final price, with every fee and tax showing.</li><li>Exactly where the seat or standing area is.</li><li>How and when the tickets reach you — instant, transfer, or posted.</li><li>The refund, resale, and cancellation terms.</li><li>That the date, venue, and artist are the show you meant.</li></ul></section><section class="nested-panel"><h2>What we check first</h2><p>We match the artist, date, and venue on each card against the source data, and we follow the ticket link before showing a button for it. If we can't do both, the card and the link stay off the page.</p></section><section class="nested-panel faq-panel"><h2>FAQ</h2><details><summary>Is TourTicketCompare official?</summary><p>No — we're independent, and not connected to any artist, venue, promoter, or ticket seller.</p></details><details><summary>Can I buy tickets here?</summary><p>No. You buy on the ticket site itself; we just point you to it.</p></details><details><summary>Why does one show have buttons and another doesn't?</summary><p>Because we haven't been able to confirm where that link goes yet. We'd rather show nothing than send you somewhere wrong.</p></details><details><summary>Will the price change?</summary><p>It can. The ticket site sets its own prices, fees, availability and terms, and they move.</p></details></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -3004,7 +2994,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/affiliate-disclosure") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="affiliateTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="affiliateTitle">Affiliate disclosure</h1><p class="lead">TourTicketCompare is an independent, unofficial ticket research site. Some ticket links are affiliate links, which means we may earn a commission when you buy. You do not pay extra because of our affiliate relationship.</p><section class="nested-panel"><h2>What affiliate links mean</h2><ul class="check-list"><li>We link to ticket providers and may earn commission when you complete a purchase.</li><li>The commission does not increase your ticket price or fees.</li><li>We disclose which links are affiliate links so you know our relationship.</li><li>Affiliate relationships do not decide which links we show or which providers we recommend.</li></ul></section><section class="nested-panel"><h2>Why it does not weaken our verification</h2><p>Affiliate relationships do not control which links we show. We do not publish fake prices, invented dates, fictional venues, unverified providers, or rankings we cannot support just because we earn a commission. We only show ticket buttons when we can check the artist, event, and destination. If a link cannot be verified, it should not appear as a ticket option.</p></section><section class="nested-panel"><h2>How we handle different link types</h2><ul class="check-list"><li>Official sources: Artist-level and event pages on official ticketing sites (typically Ticketmaster). These are plain links — we have no Ticketmaster affiliate relationship and earn nothing when you use them.</li><li>Resale marketplaces: Verified platforms like SeatGeek and Vivid Seats where sellers list real tickets. These are affiliate links and may generate commission when you buy.</li><li>Guidance: Buying guides and checklists are informational; we do not sell tickets directly.</li></ul></section><section class="nested-panel"><h2>What you confirm with the provider</h2><ul class="check-list"><li>Final ticket prices, fees, taxes, and delivery charges.</li><li>Seat location, view restrictions, and physical details.</li><li>Inventory and availability of your specific seats.</li><li>Refund, cancellation, transfer, and resale rules.</li><li>Payment security and checkout terms.</li></ul></section><section class="nested-panel"><h2>Before you complete a purchase</h2><p>Read the provider's terms and conditions. Confirm the event date, venue, seat information, final total, delivery method, refund policy, and transfer rules. These details come from the ticket provider, not from TourTicketCompare.</p></section><section class="nested-panel"><h2>How affiliate commissions support us</h2><p>When you click through an affiliate link and complete a purchase, the provider may pay us a commission. This commission helps us maintain the site and continue providing free buying guidance. It does not cost you any extra.</p></section><div class="action-row">${anchor(
+    )}<h1 id="affiliateTitle">Affiliate disclosure</h1><p class="lead">Some of the ticket links here earn us a commission if you buy through them. You don't pay a penny more for it. Here's exactly how that works.</p><section class="nested-panel"><h2>The short version</h2><ul class="check-list"><li>We link to ticket sites, and some of those links pay us if you buy.</li><li>It doesn't add anything to your price or your fees.</li><li>We say on this page which links are affiliate links and which aren't.</li><li>Whether a link pays us has nothing to do with whether we show it.</li></ul></section><section class="nested-panel"><h2>Why that doesn't change what we publish</h2><p>We don't put up fake prices, made-up dates, venues that don't exist, or a ranking we can't back — not for a commission, not for anything. A ticket button appears when we can confirm the artist, the event, and where the link goes. If we can't confirm it, it doesn't go up.</p></section><section class="nested-panel"><h2>Which links pay us</h2><ul class="check-list"><li><strong>Official sellers</strong> — artist and event pages on official ticketing sites, usually Ticketmaster. Plain links. We're not in their affiliate programme and earn nothing from these.</li><li><strong>Resale marketplaces</strong> — sites like SeatGeek and Vivid Seats, where sellers list tickets. These are affiliate links and may pay us a commission.</li><li><strong>Guides</strong> — just writing. Nothing to buy.</li></ul></section><section class="nested-panel"><h2>What only the provider can tell you</h2><ul class="check-list"><li>The final price, with fees, taxes, and delivery.</li><li>Where the seat is and whether the view is restricted.</li><li>Whether those exact seats are still available.</li><li>Refund, cancellation, transfer, and resale rules.</li><li>How the payment and checkout are handled.</li></ul></section><section class="nested-panel"><h2>Before you pay</h2><p>Read the provider's terms. Check the date, venue, seat details, final total, delivery method, refund policy, and transfer rules. All of that comes from them, not from us — we can point you at the page, but we can't see your basket.</p></section><section class="nested-panel"><h2>Where the money goes</h2><p>Commission is what keeps the site running and the guides free. It's the only way we make money here.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -3014,19 +3004,19 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/contact") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="contactTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="contactTitle">Contact TourTicketCompare</h1><p class="lead">Use this page to report broken links, incorrect event details, provider-link issues, or general feedback about TourTicketCompare.</p><section class="nested-panel"><h2>Where to contact us</h2><p>For quick public updates or messages, contact ${anchor(
-      "@RenaissanceWT",
-      "https://x.com/RenaissanceWT",
-      "text-link"
-    )} or ${anchor(
-      "@CowboyCarterWT",
-      "https://x.com/CowboyCarterWT",
-      "text-link"
-    )} on X. You can also email ${anchor(
+    )}<h1 id="contactTitle">Contact us</h1><p class="lead">Spotted a broken link or a date that looks wrong? Tell us and we'll fix it.</p><section class="nested-panel"><h2>How to reach us</h2><p>Email ${anchor(
       "hello@tourticketcompare.com",
       "mailto:hello@tourticketcompare.com",
       "text-link"
-    )}.</p></section><section class="nested-panel"><h2>Useful reasons to get in touch</h2><ul class="check-list"><li>A ticket button is broken or opens the wrong destination.</li><li>An event date, venue, city, or artist detail appears incorrect.</li><li>A provider link works differently than expected.</li><li>You have general feedback about the site, guides, or artist pages.</li></ul></section><section class="nested-panel"><h2>What to include</h2><p>Please include the artist name, event date, venue or city, the page URL, the ticket link if relevant, and a short explanation of what looks wrong.</p></section><section class="nested-panel"><h2>What we cannot handle</h2><p>TourTicketCompare does not sell tickets and cannot help with ticket orders, refunds, transfers, delivery problems, payment issues, or provider account access. For those issues, contact the ticket provider shown at checkout.</p></section><div class="action-row">${anchor(
+    )} — that's the quickest way to reach a person. We're also on X as ${anchor(
+      "@RenaissanceWT",
+      "https://x.com/RenaissanceWT",
+      "text-link"
+    )} and ${anchor(
+      "@CowboyCarterWT",
+      "https://x.com/CowboyCarterWT",
+      "text-link"
+    )}.</p></section><section class="nested-panel"><h2>Worth getting in touch about</h2><ul class="check-list"><li>A ticket button is broken, or drops you somewhere unexpected.</li><li>A date, venue, city, or artist detail looks wrong.</li><li>A provider link behaves oddly.</li><li>Anything about the site, the guides, or an artist page you'd change.</li></ul></section><section class="nested-panel"><h2>What helps us fix it faster</h2><p>Send the artist, the date, the venue or city, the page you were on, the ticket link if there was one, and a line on what looked wrong. That's usually enough for us to reproduce it.</p></section><section class="nested-panel"><h2>What we can't help with</h2><p>We don't sell tickets, so we can't do anything about an order, a refund, a transfer, a delivery that hasn't turned up, a payment problem, or an account you're locked out of. Those all have to go to the ticket site you bought from — the one on your confirmation email.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -3036,7 +3026,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/about") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="aboutTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="aboutTitle">About TourTicketCompare</h1><p class="lead">TourTicketCompare is an independent, unofficial site that helps fans research tickets for major live music tours.</p><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Collect verified ticket links for major artists so you have a reliable starting point.</li><li>Show event-specific ticket links only when the artist, date, venue, and destination have been checked.</li><li>Compare approved, timestamped provider listed-price snapshots for the same verified event when the lanes pass source and freshness checks.</li><li>Publish plain buying guides on fees, resale, delivery timing, and what to confirm before checkout.</li></ul></section><section class="nested-panel"><h2>What we do not do</h2><ul class="check-list"><li>Sell or resell tickets.</li><li>Present snapshots as live inventory, guaranteed availability, or final checkout totals.</li><li>Rank a provider as universally lower-priced or better.</li><li>Invent tour dates, venues, prices, or availability.</li></ul></section><section class="nested-panel"><h2>Why affiliate links do not change our standards</h2><p>Some links are affiliate links, so we may earn a commission when you buy. That never decides which links we show. A link only appears once its destination has been checked, whether or not it earns us anything.</p></section><div class="action-row">${anchor(
+    )}<h1 id="aboutTitle">About TourTicketCompare</h1><p class="lead">We're an independent site for working out where to buy tickets to a big tour — and what you'll actually pay.</p><section class="nested-panel"><h2>What we do</h2><ul class="check-list"><li>Pull together ticket links for major artists so you're not opening ten tabs.</li><li>Only publish a link for a specific date once we've checked the artist, date, venue, and where it goes.</li><li>Show the prices we have from each ticket site for that same show, with the time we got them.</li><li>Write plain guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>What we don't do</h2><ul class="check-list"><li>Sell or resell tickets.</li><li>Pretend a price we captured earlier is live stock or your final total.</li><li>Crown one ticket site as always the better buy, because it never works out that way.</li><li>Make up tour dates, venues, prices, or availability.</li></ul></section><section class="nested-panel"><h2>About the affiliate links</h2><p>Some links earn us a commission when you buy. That's how the site pays for itself — and it has no say in what we publish. A link goes up once we've checked where it lands, whether or not it makes us anything.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -3046,11 +3036,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/editorial-policy") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="editorialTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">TourTicketCompare publishes artist and ticket-link information only when the source can be checked. These are the editorial rules we follow before anything appears on the site.</p><section class="nested-panel"><h2>What we publish</h2><ul class="check-list"><li>Artist watchlist pages for major tours, with factual artist summaries drawn from confirmed public sources.</li><li>Verified provider destinations, such as artist-level links to official ticketing sites.</li><li>Event-specific ticket links where the event date, venue, and destination have been checked.</li><li>Fresh, provider-attributed listed-price snapshots for the same verified event, including a lower-snapshot comparison only when the lanes pass their source and freshness gates.</li><li>Practical buying guides on fees, resale, delivery timing, and what to confirm before checkout.</li></ul></section><section class="nested-panel"><h2>What we verify before showing ticket links</h2><p>A ticket button appears only when the artist is a known, verified artist, the destination is a configured verified link, and the link passes our outbound safety checks. Event-specific buttons additionally require a verified event record with a confirmed date, venue, and artist. We use official artist, ticketing, and approved affiliate sources where available, and we show a clear empty state when no verified link exists.</p></section><section class="nested-panel"><h2>What we do not publish</h2><ul class="check-list"><li>Invented tour dates, venues, or cities.</li><li>Ticket prices, availability, or inventory status we cannot confirm from an approved source.</li><li>Provider partnership or coverage claims we cannot confirm.</li><li>Fake comparison tables, placeholder pricing, or a comparison that lacks fresh approved snapshots for both providers.</li><li>Listings obtained by scraping ticket providers or other sites.</li><li>Savings, discount, or value claims we cannot support with approved provider data.</li><li>Event schema on pages without verified event-level data.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a ticket button is broken, opens the wrong destination, or an event detail looks incorrect, please report it through our ${anchor(
+    )}<h1 id="editorialTitle">Editorial policy</h1><p class="lead">Nothing goes on this site unless we can check where it came from. These are the rules we hold ourselves to.</p><section class="nested-panel"><h2>What we publish</h2><ul class="check-list"><li>Artist pages for major tours, with summaries drawn from confirmed public sources.</li><li>Links to artist pages on official ticketing sites, once we've followed them.</li><li>Links for a specific date, where we've checked the date, the venue, and where the link lands.</li><li>Current prices from ticket sites for that same show, each labelled with the provider and the time we captured it — and we'll only call one lower when we have fresh figures for both.</li><li>Guides on fees, resale, delivery timing, and what to look at before you pay.</li></ul></section><section class="nested-panel"><h2>What has to be true before a button appears</h2><p>The artist has to be one we've verified, the destination has to be a link we've configured and checked, and the link has to pass our outbound safety checks. For a specific date, we also need an event record with a confirmed date, venue, and artist. Where we have none of that, you get an honest empty state instead of a button.</p></section><section class="nested-panel"><h2>What we won't publish</h2><ul class="check-list"><li>Tour dates, venues, or cities we've made up.</li><li>Prices or availability we can't trace to an approved source.</li><li>Claims about partnerships or coverage we can't back up.</li><li>Fake comparison tables, placeholder prices, or a "cheaper" claim with only one side's figures.</li><li>Anything scraped off a ticket site or a competitor.</li><li>Savings or discount claims we can't evidence.</li><li>Event schema on a page with no confirmed event data behind it.</li></ul></section><section class="nested-panel"><h2>Corrections and broken links</h2><p>If a button's broken, sends you somewhere wrong, or a detail looks off, tell us on the ${anchor(
       "contact page",
       "/contact",
       "text-link"
-    )}. When we find a link that is outdated or can no longer be verified, we update or remove it rather than leave it live.</p></section><div class="action-row">${anchor(
+    )}. When a link goes stale or we can't verify it any more, we fix it or pull it down — we don't leave it sitting there.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -3061,18 +3051,18 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Contact", "/contact", "button button-secondary")}</div></section></main>`;
   }
 
-  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Compare concert and event ticket prices for the same show.</h1><p class="hero-subcopy">Compare concert and event ticket prices using available provider price snapshots for the same show. Confirm final prices, fees, and availability on the provider site.</p><p class="disclosure-note">Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Search by artist, city, country, venue, or tour" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
+  return `<main id="mainContent"><div id="ttc-main"><section class="hero-panel" aria-labelledby="heroTitle"><div class="hero-copy-block"><h1 class="hero-title" id="heroTitle">Find your show, then compare the ticket sites that have it.</h1><p class="hero-subcopy">Search an artist, pick your date, and see the prices we have from each ticket site. Then head over to the provider to check the fees and buy.</p><p class="disclosure-note">Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><form class="hero-search-form" role="search" aria-label="Search artists, events, and guides"><label class="sr-only" for="site-search">Search by artist, city, country, venue, or tour</label><input class="hero-search-input" type="search" id="site-search" name="q" placeholder="Search by artist, city, country, venue, or tour" aria-label="Search by artist, city, country, venue, or tour" autocomplete="off" spellcheck="false" enterkeyhint="search" /><button class="button button-primary hero-search-submit" type="submit">Search</button></form><div class="action-row">${anchor(
     "Compare concert ticket prices",
     "/compare-concert-ticket-prices",
     "button button-primary"
-  )}${anchor("Browse artists", "#featured-artists", "button button-secondary")}${anchor("Browse concert cities", "/cities", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search reviewed artists, events, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid"><article class="info-card"><h3>1. Find your show</h3><p>Search an artist and pick the verified date that matches your plans.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>2. Compare snapshots</h3><p>See available provider price snapshots for the same event.</p>${anchor("Compare ticket prices", "/compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>3. Confirm and buy</h3><p>Open the provider site to confirm the final price, fees, availability, and ticket details.</p>${anchor("Read the guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Featured artists</h2><p>Checked upcoming dates and verified event links for every artist we track. Prefer to plan around a location? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
+  )}${anchor("Browse artists", "#featured-artists", "button button-secondary")}${anchor("Browse concert cities", "/cities", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search across artists, shows, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid"><article class="info-card"><h3>1. Find your show</h3><p>Search an artist and pick the date you want to go to.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>2. Compare the sites</h3><p>See the prices we have from each ticket site for that exact show.</p>${anchor("Compare ticket prices", "/compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>3. Buy on the provider's site</h3><p>Head over to check the fees, the final total, and what you're actually getting.</p>${anchor("Read the guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Upcoming dates and ticket links for every artist on the site. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
     catalog,
     events
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
     "View all guides",
     "/guides",
     "button button-secondary"
-  )}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">Trust &amp; transparency</h2></div><div class="nested-panel"><p>TourTicketCompare is independent and unofficial. We do not sell tickets, and every destination passes verification checks before it appears.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
+  )}</div></section><section class="section-grid trust-section" aria-labelledby="trustTitle"><div class="section-intro"><h2 id="trustTitle">How we stay honest</h2></div><div class="nested-panel"><p>We're independent and unofficial, and we don't sell tickets. Every link is checked before it goes up, and if we can't check it, we don't show it.</p><p>Learn more: ${anchor("How we work", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div></section></div></main>`;
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {

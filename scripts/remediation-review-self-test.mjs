@@ -41,7 +41,10 @@ assert.match(server, /const buttonsHtml = ctaSpecs/);
 assert.match(client, /for \(const spec of ctaSpecs\)/);
 assert.doesNotMatch(server, /More providers — no current price snapshot/);
 assert.doesNotMatch(client, /More providers — no current price snapshot/);
-assert.match(server, /Current provider price snapshots/);
+// The hub's price section must keep snapshot framing (a captured listed price),
+// never a live-comparison claim.
+assert.match(server, /<h2>Prices on upcoming shows<\/h2>/);
+assert.match(server, /that's a listed price, not your final total/);
 assert.doesNotMatch(server, /Current provider price comparisons/);
 assert.doesNotMatch(server, /data-watchlist-signup="\$\{escapeAttr\(artistSlug\)\}"/);
 

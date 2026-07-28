@@ -23,14 +23,14 @@ const baseUrlRaw = process.env.PRODUCTION_BASE_URL || DEFAULT_BASE_URL;
 // <h1> each route renders. Every path listed here must also exist in
 // TRUST_ROUTES (asserted by --self-test).
 const ROUTE_H1 = {
-  '/': 'Compare concert and event ticket prices for the same show.',
-  '/artists': 'Artist watchlist',
+  '/': 'Find your show, then compare the ticket sites that have it.',
+  '/artists': 'Artists we track',
   '/guides': 'Ticket buying guides',
   '/how-it-works': 'How TourTicketCompare works',
   '/editorial-policy': 'Editorial policy',
   '/affiliate-disclosure': 'Affiliate disclosure',
   '/about': 'About TourTicketCompare',
-  '/contact': 'Contact TourTicketCompare'
+  '/contact': 'Contact us'
 };
 
 function canonicalForPath(path) {

@@ -23,7 +23,13 @@ const EVENTS_PATH = path.join(ROOT, "public", "data", "events.json");
 const ARTISTS_PATH = path.join(ROOT, "public", "data", "artists.json");
 const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
-const DEFAULT_FRESHNESS_HOURS = 6;
+// Snapshot expiry window. Must stay strictly larger than the scheduled
+// snapshot cron interval or prices blink out between runs: the display gate
+// hides any row past expires_at. The scheduled writer runs every 8h
+// (impact-marketplace-price-snapshots.yml), so 10h keeps a 2h overlap — the
+// same safety margin the original 4h-cron / 6h-expiry pairing had before the
+// cron was widened to save Actions minutes.
+const DEFAULT_FRESHNESS_HOURS = 10;
 // A stalled Impact request used to hang the whole job until the workflow
 // timeout (up to an hour of billed Actions minutes). Bound every request and
 // retry transient failures a couple of times so a slow catalog fails in

@@ -1793,7 +1793,9 @@ export async function onRequestGet({ request, env }) {
       );
 
   // Cached-lane responses stay short-lived so refreshed snapshots and expiry
-  // reach boards quickly; snapshots themselves expire after six hours.
+  // reach boards quickly; snapshots themselves expire after their writer's
+  // configured freshness window (see DEFAULT_FRESHNESS_HOURS in the snapshot
+  // scripts), which is kept wider than the snapshot cron interval.
   const pricedResponseTtlSeconds = approvedMarketplacePricesOnly ? Math.min(ttlSeconds, 600) : ttlSeconds;
 
   return new Response(

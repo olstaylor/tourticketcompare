@@ -1721,7 +1721,16 @@ function renderArtistStatusLegendHtml() {
 }
 
 function renderHomepageGuideLinks() {
-  return `<div class="card-grid guide-grid">${Object.entries(GUIDE_ROUTES)
+  const priorityPaths = [
+    "/guides/seatgeek-vs-ticketmaster",
+    "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
+    "/guides/how-to-compare-concert-ticket-prices"
+  ];
+  const prioritizedGuides = [
+    ...priorityPaths.map((path) => [path, GUIDE_ROUTES[path]]).filter(([, guide]) => Boolean(guide)),
+    ...Object.entries(GUIDE_ROUTES).filter(([path]) => !priorityPaths.includes(path))
+  ];
+  return `<div class="card-grid guide-grid">${prioritizedGuides
     .slice(0, 6)
     .map(
       ([path, guide]) =>
@@ -2607,6 +2616,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "/how-it-works",
       "button button-secondary"
     )}${anchor("Affiliate disclosure", "/affiliate-disclosure", "button button-secondary")}${anchor("Ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary")}${anchor(
+      "SeatGeek vs Ticketmaster",
+      "/guides/seatgeek-vs-ticketmaster",
+      "button button-secondary"
+    )}${anchor(
       "Currency converter",
       "/currency-converter",
       "button button-secondary"

@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-07-27T08:41:07.782Z
+Generated: 2026-07-28T09:18:02.728Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,14 +9,14 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 20 (needs_recheck: 19, provenance backfill: 1, stale re-check: 17)
+- Events selected: 19 (needs_recheck: 19, provenance backfill: 0, stale re-check: 17)
 - Events skipped before API checks: 71
-- API calls made: 21
+- API calls made: 19
 - Verified provenance written: 17
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 1
+- Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 0
 - No qualifying listing: 2
 - Transient API errors (untouched, retried next run): 0
@@ -26,7 +26,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 
 | showId | artist | action | SeatGeek id | url | notes |
 | --- | --- | --- | --- | --- | --- |
-| tm-ariana-grande-2026-boston-0100631aca626435 | ariana-grande | unverify (applied) | - | - | stored URL failed: SeatGeek /events/17700809 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-olivia-rodrigo-2026-hartford-z7r9jz1a706ep | olivia-rodrigo | verify (applied) | 18211661 | https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-25-7-pm/concert/18211661 | - |
 | tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677 | olivia-rodrigo | verify (applied) | 18211658 | https://seatgeek.com/olivia-rodrigo-tickets/hartford-connecticut-peoplesbank-arena-2026-09-26-7-pm/concert/18211658 | - |
 | tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f | olivia-rodrigo | verify (applied) | 18208621 | https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-19-7-pm/concert/18208621 | - |

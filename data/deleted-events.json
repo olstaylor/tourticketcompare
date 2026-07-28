@@ -1,0 +1,15 @@
+{
+  "_comment": "Tombstone registry for deliberately-removed events. When an owner deletes a row from public/data/events.json that Ticketmaster still lists (e.g. a de-duplicated or dead-storefront copy), add it here so the 04:00 new-show recogniser (scripts/sync-ticketmaster-events.py) does not re-propose it. Entries only ever WITHHOLD a re-discovered show — they can never publish one. See docs/PROVIDER_SYNC.md. Match is by either Ticketmaster id OR venue/date, mirroring the live dedup keys.",
+  "_schema": {
+    "artist_slug": "required — the artist the deleted event belonged to",
+    "ticketmaster_discovery_event_id": "optional — Discovery API id of the deleted row (matched case-insensitively)",
+    "ticketmaster_event_id": "optional — storefront id / intl URL slug of the deleted row (matched case-insensitively)",
+    "venue": "optional (with a date) — venue name of the deleted row",
+    "datetime_iso": "optional — the deleted row's datetime_iso; used with timezone to derive the venue-local date for the venue/date key",
+    "timezone": "optional — IANA timezone of the deleted row (improves venue-local date accuracy)",
+    "local_date": "optional — YYYY-MM-DD venue-local date; overrides datetime_iso/timezone derivation when present",
+    "reason": "recommended — human note on why the row was removed",
+    "deleted_at": "recommended — ISO date the row was tombstoned"
+  },
+  "deleted_events": []
+}

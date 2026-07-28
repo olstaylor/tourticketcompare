@@ -138,7 +138,7 @@ Impact credentials are never exposed client-side; they are used only by server f
 
 Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS.md`.
 
-- `daily-audit.yml` (03:00 UTC) — URL liveness + Ticketmaster Discovery diff into a rolling issue; verification-date-bump PRs.
+- `daily-audit.yml` (03:00 UTC) — URL liveness + Ticketmaster Discovery diff into a rolling issue; auto-commits verification-date bumps (`last_verified_at` for clean artists) directly to `main` after in-job validation (owner-approved 2026-07-28; the old human-review PR flow is retired).
 - `nightly-data-sync.yml` (03:30 UTC) — lossless factual refresh (date/time, venue, `event_name`, canonical TM URL) auto-committed to `main` per event; anything needing judgement goes to the rolling issue.
 - `tm-new-shows-pr.yml` (04:00 UTC) — new-show discovery PR; auto-merges once its in-run validation suite passes (owner-approved). `tour_name` stays blank for human review.
 - `seatgeek-discovery-proposal.yml` (dispatch) — proposal-only SeatGeek event-URL discovery.

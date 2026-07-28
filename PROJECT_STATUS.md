@@ -73,7 +73,7 @@ Current schedule and write-capability state (all times UTC). Behavioral contract
 
 | Workflow | Schedule | On-schedule outcome |
 |---|---|---|
-| `daily-audit.yml` | 03:00 + dispatch | URL liveness + Discovery diff into the rolling `automation:daily-audit` issue; verification-date-bump PR for human review. |
+| `daily-audit.yml` | 03:00 + dispatch | URL liveness + Discovery diff into the rolling `automation:daily-audit` issue; gated **auto-commit to `main`** of `last_verified_at` bumps for clean artists (owner-approved 2026-07-28; former human-review PR retired). |
 | `nightly-data-sync.yml` | 03:30 (cron re-enabled 2026-07-07, owner-approved) + dispatch | Gated **auto-commit to `main`** of lossless factual updates only; review items to the rolling `automation:data-sync` issue. Dispatch defaults to `dry_run: true`. |
 | `tm-new-shows-pr.yml` | 04:00 + dispatch | One new-show PR (`automation:tm-events`); **auto-merges after in-run validation** (owner-approved 2026-07-07). Dispatch defaults to preview. |
 | `seatgeek-cta-sync.yml` | 05:00 (since 2026-07-08, owner-approved) + dispatch | SeatGeek enrichment + identity-anchored verification PR; **auto-merges after in-run validation**. Dispatch defaults to preview. |

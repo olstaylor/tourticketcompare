@@ -60,6 +60,24 @@ Confirm:
 
 Never place credentials in browser URLs, command output, issue text, or screenshots.
 
+## Search-engine notification (IndexNow)
+
+`indexnow-ping.yml` submits the live sitemap's URL list to [IndexNow](https://www.indexnow.org) (Bing/Yandex-class engines, which also feed ChatGPT search and Copilot) so newly verified shows are announced instead of waiting for a scheduled recrawl. It fires on pushes to `main` that touch the data or code determining which routes are indexable — including the auto-merged sync lanes — and on manual dispatch (preview by default).
+
+The job snapshots production's sitemap, derives the expected sitemap from the merged commit (running the real `functions/sitemap.xml.js` against a filesystem-backed assets stub), polls production until it serves that sitemap, then submits **only the URLs that changed** — new URLs, or ones whose `lastmod` moved. Entries are compared as `loc` + `lastmod`, so a freshness-only change such as a `last_verified_at` bump is detected even though the URL set is identical.
+
+Every fallback is toward the safe, boring outcome. If the delta cannot be isolated — the deploy was already live when the job started, the wait timed out, or production could not be read — it submits the full live URL list instead, which is always valid. It never submits a URL production does not currently serve, and the submission retries with backoff before failing.
+
+It publishes nothing and changes no data. Google does not participate in IndexNow — it is not a substitute for Search Console coverage.
+
+```bash
+npm run indexnow:ping:self-test           # offline checks, no network
+npm run indexnow:ping -- --dry-run        # list what would be submitted
+npm run indexnow:ping -- --await-deploy   # wait for the deploy, then submit
+```
+
+Submission requires `public/9ffca7bd48067983c70d2ce6601728d3.txt` to be served at the apex; the script verifies this first and refuses to ping if it is missing.
+
 ## Cloudflare Pages configuration
 
 Production requires:
@@ -86,7 +104,7 @@ Missing credentials must cause a safe no-op or explicit failure, never guessed d
 
 ### Repository write capability
 
-Direct-to-`main` capability exists in exactly one workflow: `nightly-data-sync.yml`, and only for its gated lossless factual updates (see [PROVIDER_SYNC.md](PROVIDER_SYNC.md)). The price-snapshot workflows (`impact-marketplace-price-snapshots.yml`, `vividseats-price-snapshots.yml`) write only to D1, never to the repository. Auto-merge-capable workflows: `tm-new-shows-pr.yml`, `seatgeek-cta-sync.yml`, `vividseats-cta-sync.yml`, and — scheduled runs only — `impact-marketplace-provider-sync.yml`; each only after its in-run validation suite passes, and a failed merge leaves the PR open for a human. Every other workflow is report-only or opens a review-only PR that never auto-merges. Widening any of these capabilities is an owner decision, not a maintenance change.
+Direct-to-`main` capability exists in exactly two workflows, each narrowly gated: `nightly-data-sync.yml`, for its lossless factual updates only (see [PROVIDER_SYNC.md](PROVIDER_SYNC.md)); and `daily-audit.yml`, for `last_verified_at` verification-date bumps on clean artists only, after its in-job validation (owner-approved 2026-07-28, replacing the former human-review PR flow). The price-snapshot workflows (`impact-marketplace-price-snapshots.yml`, `vividseats-price-snapshots.yml`) write only to D1, never to the repository. Auto-merge-capable workflows: `tm-new-shows-pr.yml`, `seatgeek-cta-sync.yml`, `vividseats-cta-sync.yml`, and — scheduled runs only — `impact-marketplace-provider-sync.yml`; each only after its in-run validation suite passes, and a failed merge leaves the PR open for a human. `indexnow-ping.yml` writes to neither the repository nor D1 — it only submits already-public sitemap URLs to an external endpoint, and asserts a clean working tree at the end. Every other workflow is report-only or opens a review-only PR that never auto-merges. Widening any of these capabilities is an owner decision, not a maintenance change.
 
 ## Provider snapshot operations
 

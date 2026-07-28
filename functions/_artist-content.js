@@ -68,7 +68,7 @@
  */
 export function artistSearchIntro(artist) {
   const name = String(artist?.name || "").trim() || "this artist";
-  return `Find upcoming ${name} tour dates, compare available ticket options from checked providers, and use practical buying guidance before you book.`;
+  return `Every upcoming ${name} date we've confirmed, with the ticket links we've checked and what to look at before you pay.`;
 }
 
 /**
@@ -121,13 +121,13 @@ export function deriveTourSummaries(shows) {
 export function artistBuyingGuide(artist) {
   const name = String(artist?.name || "").trim() || "this artist";
   return {
-    intro: `A short checklist for buying ${name} tickets with confidence. TourTicketCompare does not sell tickets — it links to destinations we have checked, then you complete the purchase on the provider site.`,
+    intro: `A quick run-through before you buy ${name} tickets. We don't sell them — we point you at links we've checked, and you buy on the provider's site.`,
     steps: [
-      "Confirm the exact date, city, and venue you want from the upcoming shows above.",
-      "Open a checked provider link for that show and match the section or standing area to your budget.",
-      "Compare the full checkout total — face value plus service, delivery, and tax fees — not just the first figure shown.",
-      "Check delivery timing and transfer rules so the tickets reach you before the event.",
-      "Review refund, resale, and cancellation terms on the provider site before you pay."
+      "Pick the exact date, city, and venue you want from the list above.",
+      "Open a link for that show and find a section or standing area that fits your budget.",
+      "Get to the checkout total — face value plus service, delivery, and tax — not the first number you see.",
+      "Check when the tickets arrive and whether they can be transferred, so they reach you in time.",
+      "Read the refund, resale, and cancellation terms before you pay."
     ]
   };
 }
@@ -142,12 +142,12 @@ export function artistBuyingGuide(artist) {
 export function artistPricingExplanation() {
   return {
     intro:
-      "When an approved provider shares a current listed-price snapshot for one of these exact shows, we show it beside that provider's link. Here is what that figure means — and what it does not.",
+      "When a ticket site gives us a current listed price for one of these exact shows, we show it next to their link. Worth knowing what that number is.",
     points: [
-      "A snapshot is a timestamped listed price from one provider for that specific event, not live inventory or a final checkout total.",
-      "A figure appears only when the provider data is approved, matched to the exact event, and still fresh; otherwise the link shows with no price rather than a stale or invented number.",
-      "Each provider's snapshot stands on its own, with its own timestamp — we do not rank providers or claim any single one is lower.",
-      "Fees, taxes, delivery, and availability are set by the provider and confirmed at their checkout, so always verify the final total there."
+      "It is a snapshot: one ticket site's listed price for that one show, captured at the time shown. Not live stock, and not your final total.",
+      "A price only appears if it came from an approved source, matched that exact show, and is still recent. Otherwise you get the link with no price rather than a stale guess.",
+      "Each site's price stands on its own, with its own timestamp. We do not rank the sites or claim any one of them is lower.",
+      "Fees, taxes, delivery, and whether the seats still exist are all settled at the provider's checkout. Check the total there."
     ]
   };
 }

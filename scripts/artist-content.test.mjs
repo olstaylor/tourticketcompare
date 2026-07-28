@@ -29,7 +29,7 @@ function assertCopySafe(text, label) {
 const intro = artistSearchIntro({ name: "Harry Styles" });
 assert(intro.includes("Harry Styles"), "intro should include the artist name");
 assert(
-  intro.includes("tour dates, compare available ticket options from checked providers, and use practical buying guidance before you book."),
+  intro.includes("date we've confirmed, with the ticket links we've checked and what to look at before you pay."),
   "intro should carry the shared invariant phrase (kept in sync with public/app.js)"
 );
 assert(artistSearchIntro({}).includes("this artist"), "intro should degrade gracefully with no name");

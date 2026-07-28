@@ -7,15 +7,15 @@ const publicRoutes = ["/", "/artists", "/cities", "/guides", "/compare-concert-t
 const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/cities/*", "/guides/*"];
 const expectedH1 = new Map([
-  ["/", "Compare concert and event ticket prices for the same show."],
-  ["/artists", "Artist watchlist"],
+  ["/", "Find your show, then compare the ticket sites that have it."],
+  ["/artists", "Artists we track"],
   ["/cities", "Concerts by city"],
   ["/guides", "Ticket buying guides"],
-  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices"],
+  ["/compare-concert-ticket-prices", "Compare concert ticket prices"],
   ["/how-it-works", "How TourTicketCompare works"],
   ["/currency-converter", "Currency converter"],
   ["/about", "About TourTicketCompare"],
-  ["/contact", "Contact TourTicketCompare"],
+  ["/contact", "Contact us"],
   ["/editorial-policy", "Editorial policy"],
   ["/affiliate-disclosure", "Affiliate disclosure"]
 ]);
@@ -51,15 +51,15 @@ const SMOKE_TEST_NOW_MS = Date.parse(SMOKE_TEST_NOW_ISO);
 assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO timestamp");
 Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
-  ["/artists", "Find an artist, then open the checked ticket options and upcoming dates we can verify."],
+  ["/artists", "Pick an artist to see their upcoming dates and where to buy for each one."],
   ["/cities", "at least four upcoming reviewed shows across at least two artists"],
-  ["/guides", "Compare the final checkout total after fees"],
-  ["/compare-concert-ticket-prices", "We compare approved, timestamped provider snapshots for the same event only"],
-  ["/how-it-works", "Affiliate links are handled safely"],
+  ["/guides", "Compare the total at checkout for that exact ticket"],
+  ["/compare-concert-ticket-prices", "We only compare prices captured for the same event, each with the time it was taken"],
+  ["/how-it-works", "A button only goes up when we can confirm where it lands"],
   ["/currency-converter", "European Central Bank daily reference rates"],
-  ["/editorial-policy", "official artist, ticketing, and approved affiliate sources"],
-  ["/affiliate-disclosure", "Affiliate relationships do not control which links we show"],
-  ["/about", "Why affiliate links do not change our standards"],
+  ["/editorial-policy", "the link has to pass our outbound safety checks"],
+  ["/affiliate-disclosure", "Whether a link pays us has nothing to do with whether we show it"],
+  ["/about", "it has no say in what we publish"],
   ["/contact", "hello@tourticketcompare.com"]
 ]);
 
@@ -506,7 +506,7 @@ const publicAffiliateUrlFiles = [
 
 const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Compare concert and event ticket prices for the same show."),
+  joinedPublic.includes("Find your show, then compare the ticket sites that have it."),
   "homepage public-facing copy should be present"
 );
 const clientApp = await read("public/app.js");
@@ -1228,7 +1228,7 @@ assert(appJs.includes('link("Affiliate disclosure", "/affiliate-disclosure", "mi
 // The derived, data-driven content block (search intro, tour summaries,
 // tickets-by-city/venue links, buying guide, pricing explanation) is
 // server-rendered once and transplanted on hydration; assert both sides.
-const SHARED_ARTIST_INTRO_PHRASE = "tour dates, compare available ticket options from checked providers, and use practical buying guidance before you book.";
+const SHARED_ARTIST_INTRO_PHRASE = "date we've confirmed, with the ticket links we've checked and what to look at before you pay.";
 assert(
   (await read("functions/_artist-content.js")).includes(SHARED_ARTIST_INTRO_PHRASE),
   "artist content module should carry the shared search-focused intro phrase"
@@ -1260,7 +1260,7 @@ const TM_RECHECK_HIDDEN_COPY = "Ticketmaster link temporarily hidden while";
 //    silently no-op'd in tests while hiding ~256/272 CTAs in production. Guard at
 //    the source so the pattern cannot return unnoticed.
 const pathSource = await read("functions/[[path]].js");
-const conciseTicketLinkCopy = "We verify ticket destinations before they appear. Providers set prices, fees, availability and delivery terms; some links may earn us a commission.";
+const conciseTicketLinkCopy = "We follow every ticket link before it goes up. Prices, fees, availability and delivery are the provider's, not ours — and some links earn us a commission.";
 const absoluteNoPriceCopy = "We do not display ticket prices or guarantee availability";
 assert(pathSource.includes(conciseTicketLinkCopy), "server-rendered trust copy should keep the concise ticket-link and provider-control disclosure");
 assert(appJs.includes(conciseTicketLinkCopy), "hydrated trust copy should mirror the concise ticket-link and provider-control disclosure");
@@ -2689,8 +2689,8 @@ assert(/<meta name="robots" content="noindex,follow"/.test(beyonceEmptyStatePage
 const beyonceShowBoardMatch = beyonceEmptyStatePage.text.match(/<section class="section-grid show-board"[\s\S]*?<\/section>/);
 assert(beyonceShowBoardMatch, "zero-event artist page must render the show board section");
 const beyonceShowBoard = beyonceShowBoardMatch[0];
-assert(beyonceShowBoard.includes("No upcoming dates listed yet"), "zero-event artist page must render the empty-state heading");
-assert(beyonceShowBoard.includes("We list upcoming Beyoncé dates once the ticket destination is verified"), "zero-event empty state must explain the verification gate");
+assert(beyonceShowBoard.includes("No upcoming dates yet"), "zero-event artist page must render the empty-state heading");
+assert(beyonceShowBoard.includes("New dates show up here as soon as we've checked where the tickets lead"), "zero-event empty state must explain the verification gate");
 assert(!beyonceShowBoard.includes("No verified show dates are currently listed"), "zero-event empty state must not use the old generic copy");
 // The empty state may link the artist-level provider page ("Check <Provider>
 // for updates") but must never render an event-level ticket CTA — there are

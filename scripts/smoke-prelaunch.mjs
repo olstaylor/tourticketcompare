@@ -681,10 +681,10 @@ function envWithEventsJson(eventsJson, overrides = {}) {
   };
 }
 
-async function routeResponse(pathname, envOverride = env) {
+async function routeResponse(pathname, envOverride = env, origin = "https://tourticketcompare.com") {
   let nextCalled = false;
   const response = await middlewareModule.onRequest({
-    request: new Request(`https://tourticketcompare.com${pathname}`),
+    request: new Request(`${origin}${pathname}`),
     env: envOverride,
     next: () => {
       nextCalled = true;
@@ -2854,5 +2854,38 @@ assert(
   "main artist page should link to its active artist-city pages"
 );
 console.log("artist-city landing-page verification passed");
+
+// Non-canonical-host indexability: Cloudflare serves the production deployment
+// on <project>.pages.dev permanently, so that host is a crawlable duplicate of
+// the live site. It must never emit an indexable page or a self-referencing
+// canonical, or it competes with the apex for the same queries.
+{
+  const indexablePath = "/guides/seatgeek-vs-ticketmaster";
+  const apex = await routeResponse(indexablePath);
+  assert(
+    /<meta\s+name="robots"\s+content="index,follow[^"]*"/i.test(apex.text),
+    "apex host should still serve index,follow on an indexable route"
+  );
+
+  for (const previewOrigin of [
+    "https://tourticketcompare.pages.dev",
+    "https://a1b2c3.tourticketcompare.pages.dev"
+  ]) {
+    const preview = await routeResponse(indexablePath, env, previewOrigin);
+    assert(
+      /<meta\s+name="robots"\s+content="noindex/i.test(preview.text),
+      `${previewOrigin} must serve noindex on an otherwise-indexable route`
+    );
+    assert(
+      preview.text.includes(`<link rel="canonical" href="https://tourticketcompare.com${indexablePath}" />`),
+      `${previewOrigin} must canonicalise to the apex, never to itself`
+    );
+    assert(
+      !preview.text.includes(`href="${previewOrigin}`),
+      `${previewOrigin} must not emit self-referencing absolute URLs`
+    );
+  }
+  console.log("non-canonical host noindex + apex canonical verified");
+}
 
 console.log("Cloudflare Pages MVP smoke checks passed");

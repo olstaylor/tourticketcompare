@@ -365,9 +365,41 @@ function createList(items, className) {
   return list;
 }
 
+// Acquisition context for this document load. The Referer header on a beacon
+// POST is always our own page, so the external source has to come from the
+// client. Only the origin is kept (never the full referring URL or query), and
+// only third-party origins count — same-site navigation is not acquisition.
+const ACQUISITION = (() => {
+  let referrer = "";
+  try {
+    const raw = document.referrer || "";
+    if (raw) {
+      const url = new URL(raw);
+      if (url.hostname && url.hostname !== window.location.hostname) referrer = url.origin;
+    }
+  } catch (error) {}
+  let params = null;
+  try {
+    params = new URLSearchParams(window.location.search || "");
+  } catch (error) {}
+  const pick = (key) => String(params?.get(key) || "").trim().slice(0, 80);
+  return {
+    referrer,
+    utmSource: pick("utm_source"),
+    utmMedium: pick("utm_medium"),
+    utmCampaign: pick("utm_campaign")
+  };
+})();
+
+// document.referrer does not change across SPA route changes, so only the first
+// page_view of a document load is treated as the session entry. Reporting it on
+// every in-session navigation would multiply one visit into several.
+let acquisitionReported = false;
+
 function sendAnalytics(eventName, metadata = {}) {
   if (!navigator.sendBeacon) return;
   try {
+    const enriched = { ...metadata };
     const payload = {
       eventName,
       sourcePath: window.location.pathname,
@@ -376,8 +408,16 @@ function sendAnalytics(eventName, metadata = {}) {
       tourSlug: metadata.tourSlug || "",
       destinationHost: metadata.destinationHost || "",
       linkId: metadata.linkId || "",
-      metadata
+      metadata: enriched
     };
+    if (eventName === "page_view" && !acquisitionReported) {
+      acquisitionReported = true;
+      enriched.entry = true;
+      if (ACQUISITION.referrer) payload.referrer = ACQUISITION.referrer;
+      if (ACQUISITION.utmSource) enriched.utmSource = ACQUISITION.utmSource;
+      if (ACQUISITION.utmMedium) enriched.utmMedium = ACQUISITION.utmMedium;
+      if (ACQUISITION.utmCampaign) enriched.utmCampaign = ACQUISITION.utmCampaign;
+    }
     navigator.sendBeacon("/api/analytics", JSON.stringify(payload));
   } catch (error) {}
 }

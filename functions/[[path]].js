@@ -1,4 +1,11 @@
-import { TRUST_ROUTES, GUIDE_ROUTES, OLD_GUIDE_REDIRECTS, CANONICAL_HOST, canonicalOrigin } from "./_route-metadata.js";
+import {
+  TRUST_ROUTES,
+  GUIDE_ROUTES,
+  OLD_GUIDE_REDIRECTS,
+  CANONICAL_HOST,
+  canonicalOrigin,
+  isIndexableOrigin
+} from "./_route-metadata.js";
 import { attachApprovedMarketplacePrices } from "./api/shows.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 import { deriveVenues, findVenue } from "./_venues.js";
@@ -3069,9 +3076,14 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
+  // A route is indexable only when the *request* host is allowed to be indexed.
+  // Non-canonical hosts (notably <project>.pages.dev, which serves production)
+  // always emit noindex so they cannot compete with the apex.
+  const hostIndexable = isIndexableOrigin(origin);
   origin = canonicalOrigin(origin);
   const canonicalUrl = `${origin}${route.path}`;
-  const robots = route.indexable ? "index,follow,max-image-preview:large" : "noindex,follow";
+  const robots =
+    route.indexable && hostIndexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
   next = next.replace(/<title>[^<]*<\/title>/i, `<title>${escapeAttr(route.title)}</title>`);
   next = next.replace(

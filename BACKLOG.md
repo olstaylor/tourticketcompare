@@ -37,6 +37,7 @@ _[Updated 2026-07-22, agent — promote]_ **jelly-roll and tame-impala batch-pro
 
 - **`needs_recheck` re-checks:** 20 events carry this state as of 2026-07-16 (olivia-rodrigo 6, zach-bryan 5, bts 4, bad-bunny 2, ed-sheeran 2, shakira 1) — the owner's 2026-07-15 recheck left 13, then discovery PR #472 added 5 zach-bryan short-form-URL rows and re-added the deleted shakira "Shakira Stadium" and bad-bunny Brussels rows (see `PROJECT_STATUS.md` Active risks). Verified resale provenance keeps 13 SeatGeek CTAs publishable; 7 rows have no resale provider and remain fully CTA-suppressed. Re-check Ticketmaster storefront URLs periodically; never restore from the Discovery `url` field alone.
 - **Blank tour labels:** JAY-Z Inglewood "JAY-Z30" and JAY-Z London "JAY-Z - 30" have blank `tour_name` and are owner-accepted as-is (2026-07-15); the validator's non-blocking warning for them is expected. The Yankee Stadium JAY-Z rows use "JAY-Z Yankee Stadium 2026". Never infer tour names from URL slugs.
+- **Tombstone dedup deletions:** when you delete a row from `events.json` that Ticketmaster still lists (a duplicate or dead-storefront copy), add its ids and/or venue/date to `data/deleted-events.json` in the same change so the 04:00 recogniser does not re-propose it (see `docs/PROVIDER_SYNC.md`). The registry only ever withholds; leaving an entry out just reverts to the old re-add behaviour.
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.
 
 ## Recently completed

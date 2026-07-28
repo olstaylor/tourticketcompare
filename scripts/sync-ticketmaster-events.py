@@ -65,6 +65,7 @@ ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_PATH = ROOT / "data" / "provider-identities.json"
 ARTISTS_PATH = ROOT / "public" / "data" / "artists.json"
 EVENTS_PATH = ROOT / "public" / "data" / "events.json"
+TOMBSTONES_PATH = ROOT / "data" / "deleted-events.json"
 OUT_JS_PATH = ROOT / "functions" / "api" / "out.js"
 
 DEFAULT_DISCOVERY_BASE = "https://app.ticketmaster.com/discovery/v2"
@@ -302,8 +303,70 @@ def event_local_date(datetime_iso, tz_name=""):
     return value[:10]
 
 
+def parse_tombstones(data):
+    """Turn a loaded tombstone registry into per-slug dedup sets (pure; no I/O).
+
+    Returns {slug: {"ids": frozenset(...), "venue_keys": frozenset(...)}}, where
+    ids/venue_keys mirror exactly how existing events.json rows are indexed for
+    dedup (uppercased Ticketmaster ids; normalized venue|local-date keys). A
+    candidate whose id OR venue/date matches a tombstone is withheld, so an
+    owner-deleted row that Ticketmaster still lists is never re-proposed.
+    """
+    def as_str(value):
+        # Ignore structurally malformed (non-string) fields rather than crash on
+        # .strip(): a bad registry edit (e.g. a numeric artist_slug) must fail
+        # open, never abort the scheduled discovery run.
+        return value.strip() if isinstance(value, str) else ""
+
+    entries = data.get("deleted_events") if isinstance(data, dict) else None
+    if not isinstance(entries, list):
+        entries = []
+    by_slug = {}
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        try:
+            slug = as_str(entry.get("artist_slug"))
+            if not slug:
+                continue
+            bucket = by_slug.setdefault(slug, {"ids": set(), "venue_keys": set()})
+            for id_value in (entry.get("ticketmaster_discovery_event_id"),
+                             entry.get("ticketmaster_event_id")):
+                id_value = as_str(id_value)
+                if id_value:
+                    bucket["ids"].add(id_value.upper())
+            local_date = as_str(entry.get("local_date")) or event_local_date(
+                entry.get("datetime_iso"), as_str(entry.get("timezone"))
+            )
+            key = venue_date_key(entry.get("venue"), local_date)
+            if key:
+                bucket["venue_keys"].add(key)
+        except Exception:
+            # A single malformed entry is skipped, never fatal (fail-open).
+            continue
+    return {
+        slug: {"ids": frozenset(b["ids"]), "venue_keys": frozenset(b["venue_keys"])}
+        for slug, b in by_slug.items()
+    }
+
+
+def load_tombstones(path=TOMBSTONES_PATH):
+    """Load the tombstone registry (data/deleted-events.json) into per-slug sets.
+
+    Fails open on a missing/malformed file: an empty registry simply means
+    nothing extra is withheld — it can never widen what gets proposed.
+    """
+    if not path.exists():
+        return {}
+    try:
+        return parse_tombstones(load_json(path))
+    except Exception:
+        return {}
+
+
 def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids,
-                   existing_venue_keys, batch_venue_keys, now_iso):
+                   existing_venue_keys, batch_venue_keys, now_iso,
+                   tombstoned_event_ids=frozenset(), tombstoned_venue_keys=frozenset()):
     """Classify one TM Discovery event row. Returns a report row dict.
 
     Pure function: no I/O, no network. A row with any withhold reason is
@@ -396,6 +459,8 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         duplicate_ids.add(storefront_event_id.upper())
     if duplicate_ids & existing_event_ids:
         reasons.append("duplicate of an existing events.json row (same ticketmaster event id)")
+    elif duplicate_ids & tombstoned_event_ids:
+        reasons.append("matches a tombstoned (owner-deleted) events.json row (same ticketmaster event id) — not re-proposed")
     # Discovery's localDate is the venue-local calendar date; fall back to
     # deriving it from the datetime + event timezone for defensive coverage.
     start_local_date = ((tm_event.get("dates") or {}).get("start") or {}).get("localDate") or ""
@@ -404,6 +469,8 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     if venue_key:
         if venue_key in existing_venue_keys:
             reasons.append("duplicate of an existing events.json row (same venue/date)")
+        elif venue_key in tombstoned_venue_keys:
+            reasons.append("matches a tombstoned (owner-deleted) events.json row (same venue/date) — not re-proposed")
         elif venue_key in batch_venue_keys:
             reasons.append("duplicate venue/date within this fetched batch")
         else:
@@ -473,8 +540,13 @@ def fetch_discovery_events(api_key, base, attraction_id, timeout_ms):
 # ─── Reporting ───────────────────────────────────────────────────────────────
 
 
-def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, base, timeout_ms):
+def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, base, timeout_ms,
+                        tombstones_by_slug=None):
     slug = entry["slug"]
+    tombstones_by_slug = tombstones_by_slug or {}
+    tombstone = tombstones_by_slug.get(slug, {})
+    tombstoned_event_ids = tombstone.get("ids", frozenset())
+    tombstoned_venue_keys = tombstone.get("venue_keys", frozenset())
     ok, reasons = eligibility(entry, artist)
     report = {
         "artist_slug": slug,
@@ -483,6 +555,7 @@ def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, b
         "attraction_id": entry.get("ticketmaster_attraction_id"),
         "ticketmaster_artist_url": entry.get("ticketmaster_artist_url"),
         "existing_events_in_repo": len(events_by_slug.get(slug, [])),
+        "tombstones_in_repo": len(tombstoned_event_ids) + len(tombstoned_venue_keys),
         "live_lookup": "skipped",
         "recognised": 0,
         "proposed": 0,
@@ -539,6 +612,8 @@ def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, b
             existing_venue_keys=existing_venue_keys,
             batch_venue_keys=batch_venue_keys,
             now_iso=now_iso,
+            tombstoned_event_ids=tombstoned_event_ids,
+            tombstoned_venue_keys=tombstoned_venue_keys,
         )
         report["rows"].append(row)
 
@@ -554,6 +629,8 @@ def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, b
 def print_human_report(report):
     print(f"[{report['artist_slug']}] attraction_id={report['attraction_id']}")
     print(f"  existing events in events.json: {report['existing_events_in_repo']}")
+    if report.get("tombstones_in_repo"):
+        print(f"  tombstoned (owner-deleted) keys guarded: {report['tombstones_in_repo']}")
     if not report["eligible"]:
         print("  NOT ELIGIBLE for sync:")
         for reason in report["eligibility_blockers"]:
@@ -642,7 +719,8 @@ def self_test():
         event.update(overrides)
         return event
 
-    def classify(event, batch=None, existing_ids=None, existing_keys=None):
+    def classify(event, batch=None, existing_ids=None, existing_keys=None,
+                 tomb_ids=None, tomb_keys=None):
         return classify_event(
             event,
             attraction_id="K8vZ917Kvt7",
@@ -651,6 +729,8 @@ def self_test():
             existing_venue_keys=existing_keys or set(),
             batch_venue_keys=batch if batch is not None else set(),
             now_iso="2026-06-10T00:00:00Z",
+            tombstoned_event_ids=frozenset(tomb_ids or ()),
+            tombstoned_venue_keys=frozenset(tomb_keys or ()),
         )
 
     check("clean future event is proposed", classify(make_event())["disposition"] == "proposed")
@@ -784,6 +864,57 @@ def self_test():
         any("within this fetched batch" in r for r in classify(make_event(id="VV003"), batch=batch)["withheld_reasons"]),
     )
     check(
+        "tombstoned (owner-deleted) event id withheld — not re-proposed",
+        any("tombstoned" in r and "same ticketmaster event id" in r
+            for r in classify(make_event(), tomb_ids={"VV001"})["withheld_reasons"]),
+    )
+    check(
+        "tombstoned (owner-deleted) venue/date withheld — not re-proposed",
+        any("tombstoned" in r and "same venue/date" in r
+            for r in classify(make_event(id="VV005"), tomb_keys={"the o2|2027-06-01"})["withheld_reasons"]),
+    )
+    check(
+        "unrelated tombstone does not over-withhold a clean event",
+        classify(make_event(), tomb_ids={"OTHER999"}, tomb_keys={"somewhere else|2099-01-01"})["disposition"] == "proposed",
+    )
+    parsed = parse_tombstones({"deleted_events": [
+        {"artist_slug": "raye", "ticketmaster_discovery_event_id": "vv001",
+         "venue": "The  O2", "local_date": "2027-06-01"},
+        {"artist_slug": "raye", "ticketmaster_event_id": "LEGACY123"},
+        {"no_slug": True},
+    ]})
+    check(
+        "parse_tombstones indexes ids uppercased and normalizes venue/date keys",
+        parsed.get("raye", {}).get("ids") == frozenset({"VV001", "LEGACY123"})
+        and parsed.get("raye", {}).get("venue_keys") == frozenset({"the o2|2027-06-01"}),
+    )
+    check(
+        "parse_tombstones ignores entries without an artist_slug",
+        list(parsed.keys()) == ["raye"],
+    )
+    malformed = parse_tombstones({"deleted_events": [
+        {"artist_slug": 123, "ticketmaster_event_id": "SHOULDSKIP"},
+        {"artist_slug": "raye", "ticketmaster_discovery_event_id": 999,
+         "venue": "The O2", "local_date": "2027-06-01"},
+    ]})
+    check(
+        "parse_tombstones skips a non-string artist_slug without crashing (fail-open)",
+        list(malformed.keys()) == ["raye"],
+    )
+    check(
+        "parse_tombstones ignores a non-string id field (no crash, no bogus match)",
+        malformed["raye"]["ids"] == frozenset()
+        and malformed["raye"]["venue_keys"] == frozenset({"the o2|2027-06-01"}),
+    )
+    check(
+        "parse_tombstones tolerates a non-dict top-level registry (fail-open)",
+        parse_tombstones([{"artist_slug": "raye"}]) == {} and parse_tombstones("nope") == {},
+    )
+    check(
+        "load_tombstones fails open (empty dict) on a missing registry file",
+        load_tombstones(ROOT / "data" / "does-not-exist-deleted-events.json") == {},
+    )
+    check(
         "event_local_date converts UTC datetime to venue-local date",
         event_local_date("2026-08-04T02:00:00Z", "America/Chicago") == "2026-08-03",
     )
@@ -849,6 +980,7 @@ def main():
     events_by_slug = {}
     for event in load_json(EVENTS_PATH):
         events_by_slug.setdefault(event.get("artist_slug"), []).append(event)
+    tombstones_by_slug = load_tombstones()
 
     allowed_hosts = ticketmaster_allowed_hosts(OUT_JS_PATH.read_text(encoding="utf-8"))
     if not allowed_hosts:
@@ -875,7 +1007,8 @@ def main():
             )
 
     reports = [
-        build_artist_report(entry, artists.get(entry["slug"]), events_by_slug, allowed_hosts, api_key, base, timeout_ms)
+        build_artist_report(entry, artists.get(entry["slug"]), events_by_slug, allowed_hosts, api_key, base, timeout_ms,
+                            tombstones_by_slug=tombstones_by_slug)
         for entry in entries
     ]
 

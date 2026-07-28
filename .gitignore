@@ -14,3 +14,7 @@ candidates/
 # Audit artifacts (generated during CI runs, uploaded separately)
 .audit/
 artifacts/
+
+# Python bytecode caches (from scripts/ tooling and its --self-test runs)
+__pycache__/
+*.pyc

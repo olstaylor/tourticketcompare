@@ -1,6 +1,6 @@
 # Internal links & indexability audit
 
-Generated: 2026-07-29T09:49:51.944Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-07-29T10:07:36.504Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 

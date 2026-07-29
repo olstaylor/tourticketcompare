@@ -1511,8 +1511,11 @@ function artistCityDescription(artist, artistCity) {
   const wherePart = venueLabel ? ` at ${venueLabel}` : "";
   const whenPart = range ? ` (${range})` : "";
   const tail = "then check dates and provider terms before you buy.";
-  // Venue names and date ranges are the unbounded parts, so drop them in that
-  // order until the sentence fits rather than letting the tag overflow.
+  // Fallback ladder: both clauses, then venue only, then date range only, then
+  // neither. The venue is the distinguishing local fact on an artist-city page
+  // (same reasoning as keeping the city on a venue page), so it outranks the
+  // range when only one clause fits; a long multi-venue list overflows both of
+  // the first two candidates anyway and falls through to the range.
   return fitMetaDescription(
     `${lead}${wherePart}${whenPart}, ${tail}`,
     `${lead}${wherePart}, ${tail}`,

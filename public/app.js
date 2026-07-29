@@ -206,12 +206,12 @@ const routeMeta = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare concert ticket prices using timestamped provider snapshots for verified events, find tour dates, then confirm fees and availability with the provider."
+      "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider."
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Find a checked concert event, compare timestamped provider price snapshots for that same show, then confirm seats, fees, and the final total with the provider."
+      "Find a checked concert event, compare timestamped provider listed-price snapshots for the same show, then confirm fees and the final total with the provider."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",

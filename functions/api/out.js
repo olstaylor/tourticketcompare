@@ -348,6 +348,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-tame-impala",
     redirectUrl: "https://seatgeek.com/tame-impala-tickets",
     verified: true
+  },
+  "gracie-abrams:ticketmaster": {
+    artistSlug: "gracie-abrams",
+    provider: "ticketmaster",
+    linkId: "tm-artist-gracie-abrams",
+    redirectUrl: "https://www.ticketmaster.com/gracie-abrams-tickets/artist/2763148",
+    verified: true
+  },
+  "gracie-abrams:seatgeek": {
+    artistSlug: "gracie-abrams",
+    provider: "seatgeek",
+    linkId: "sg-artist-gracie-abrams",
+    redirectUrl: "https://seatgeek.com/gracie-abrams-tickets",
+    verified: true
+  },
+  "niall-horan:ticketmaster": {
+    artistSlug: "niall-horan",
+    provider: "ticketmaster",
+    linkId: "tm-artist-niall-horan",
+    redirectUrl: "https://www.ticketmaster.com/niall-horan-tickets/artist/2297125",
+    verified: true
+  },
+  "niall-horan:seatgeek": {
+    artistSlug: "niall-horan",
+    provider: "seatgeek",
+    linkId: "sg-artist-niall-horan",
+    redirectUrl: "https://seatgeek.com/niall-horan-tickets",
+    verified: true
+  },
+  "doja-cat:ticketmaster": {
+    artistSlug: "doja-cat",
+    provider: "ticketmaster",
+    linkId: "tm-artist-doja-cat",
+    redirectUrl: "https://www.ticketmaster.com/doja-cat-tickets/artist/2062205",
+    verified: true
+  },
+  "doja-cat:seatgeek": {
+    artistSlug: "doja-cat",
+    provider: "seatgeek",
+    linkId: "sg-artist-doja-cat",
+    redirectUrl: "https://seatgeek.com/doja-cat-tickets",
+    verified: true
+  },
+  "sombr:ticketmaster": {
+    artistSlug: "sombr",
+    provider: "ticketmaster",
+    linkId: "tm-artist-sombr",
+    redirectUrl: "https://www.ticketmaster.com/sombr-tickets/artist/3144534",
+    verified: true
+  },
+  "sombr:seatgeek": {
+    artistSlug: "sombr",
+    provider: "seatgeek",
+    linkId: "sg-artist-sombr",
+    redirectUrl: "https://seatgeek.com/sombr-tickets",
+    verified: true
+  },
+  "latto:ticketmaster": {
+    artistSlug: "latto",
+    provider: "ticketmaster",
+    linkId: "tm-artist-latto",
+    redirectUrl: "https://www.ticketmaster.com/latto-tickets/artist/2842518",
+    verified: true
+  },
+  "latto:seatgeek": {
+    artistSlug: "latto",
+    provider: "seatgeek",
+    linkId: "sg-artist-latto",
+    redirectUrl: "https://seatgeek.com/latto-tickets",
+    verified: true
+  },
+  "john-summit:ticketmaster": {
+    artistSlug: "john-summit",
+    provider: "ticketmaster",
+    linkId: "tm-artist-john-summit",
+    redirectUrl: "https://www.ticketmaster.com/john-summit-tickets/artist/2730221",
+    verified: true
+  },
+  "john-summit:seatgeek": {
+    artistSlug: "john-summit",
+    provider: "seatgeek",
+    linkId: "sg-artist-john-summit",
+    redirectUrl: "https://seatgeek.com/john-summit-tickets",
+    verified: true
   }
 };
 

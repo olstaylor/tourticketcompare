@@ -294,6 +294,40 @@ async function checkArtist(slug, { artists, catalog, events, vtlKeys, showsArtis
 
   report.info(`events.json: ${eventCount} event(s) for ${slug}`);
 
+  // Meta-description claims vs actual event data.
+  //
+  // catalog.json meta_description is static — nothing generates or refreshes
+  // it (the router uses artist.meta_description verbatim), so the copy is set
+  // once at Shell time and then silently outlives the state it described. The
+  // roster follows a convention: zero-event artists say "updated as new shows
+  // are confirmed", artists with events say "available price snapshots".
+  //
+  // The first check is the load-bearing one: a price-snapshot claim on an
+  // artist with no events promises pricing that structurally cannot exist,
+  // which is the kind of implied-data claim SAFE_PUBLISHING_RULES.md forbids.
+  // The second is cosmetic drift in the safe direction and is only reported as
+  // info. Matching is deliberately loose (case-insensitive substrings, not
+  // pinned sentences) so ordinary copy edits do not silently stop the check
+  // matching, the way the pinned status-counts anchor did.
+  const metaDescription = String(
+    (catalog?.artists || []).find(a => a?.slug === slug)?.meta_description || ''
+  ).toLowerCase();
+  if (metaDescription) {
+    const claimsPrices = metaDescription.includes('price snapshot');
+    const claimsNoShowsYet = metaDescription.includes('as new shows are confirmed');
+    if (eventCount === 0 && claimsPrices) {
+      report.warn(
+        'meta_description advertises price snapshots but the artist has 0 events — ' +
+        'no snapshot can exist without an event, so the page promises data it cannot show'
+      );
+    } else if (eventCount > 0 && claimsNoShowsYet) {
+      report.info(
+        `meta_description still uses the zero-event copy but ${slug} now has ${eventCount} event(s) — ` +
+        'consider refreshing it to the wording used by the rest of the roster (nothing updates this automatically)'
+      );
+    }
+  }
+
   // Partition file
   const partPath = path.join(PATHS.eventsDir, `${slug}.json`);
   let partitionEvents = null;

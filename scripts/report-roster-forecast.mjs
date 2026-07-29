@@ -141,29 +141,43 @@ const TICKETMASTER_STOREFRONT_DOMAINS = [
 ];
 
 /**
- * Keep an attraction URL only when Ticketmaster itself supplied a plain public
- * storefront page. This matters concretely here: the `url` embedded in
- * Discovery *event* responses comes back Impact-wrapped for this account
+ * Resolve an attraction URL to a plain public Ticketmaster storefront page.
+ * This matters concretely here: Discovery returns `url` values that are
+ * sometimes already Impact affiliate links
  * (`https://ticketmaster.evyy.net/c/...?u=<real url>`), and re-introducing
  * evyy.net shortlinks for Ticketmaster is explicitly forbidden — Ticketmaster
  * is a plain, unmonetized verification source (CLAUDE.md → Affiliate & Provider
- * Model). Anything not on the storefront allowlist is dropped rather than
+ * Model). The wrapper is stripped and only its destination kept; anything whose
+ * final destination is not on the storefront allowlist is dropped rather than
  * unwrapped, so no affiliate URL can ever reach a report or the onboarding
  * pipeline. The canonical clean URL comes from /discovery/v2/attractions/{id}.
  */
 export function ticketmasterStorefrontUrl(rawUrl) {
-  const raw = clean(rawUrl);
-  if (!raw) return "";
-  let parsed;
-  try {
-    parsed = new URL(raw);
-  } catch {
-    return "";
+  let current = clean(rawUrl);
+  if (!current) return "";
+  for (let depth = 0; depth < 4; depth += 1) {
+    let parsed;
+    try {
+      parsed = new URL(current);
+    } catch {
+      return "";
+    }
+    // Unwrap Impact affiliate links to the plain destination they carry. This
+    // strips affiliate tracking rather than adding it — the wrapper is what
+    // must never survive, and Discovery returns it inconsistently for the same
+    // attraction. Mirrors resolveTicketmasterUrl() in propose-artists.mjs.
+    if (/(^|\.)evyy\.net$/i.test(parsed.hostname)) {
+      const target = clean(parsed.searchParams.get("u"));
+      if (!target) return "";
+      current = target;
+      continue;
+    }
+    if (parsed.protocol !== "https:") return "";
+    const host = parsed.hostname.toLowerCase();
+    const allowed = TICKETMASTER_STOREFRONT_DOMAINS.some((d) => host === d || host.endsWith(`.${d}`));
+    return allowed ? parsed.toString() : "";
   }
-  if (parsed.protocol !== "https:") return "";
-  const host = parsed.hostname.toLowerCase();
-  const allowed = TICKETMASTER_STOREFRONT_DOMAINS.some((d) => host === d || host.endsWith(`.${d}`));
-  return allowed ? parsed.toString() : "";
+  return "";
 }
 
 // ─── CLI ────────────────────────────────────────────────────────────────────
@@ -782,10 +796,24 @@ function runSelfTest() {
   // events endpoint returns evyy.net-wrapped attraction urls for this account,
   // and Ticketmaster must stay plain and unmonetized.
   assert(
-    "evyy.net affiliate wrapper is rejected outright, never unwrapped",
+    "evyy.net wrapper is stripped to the plain storefront destination",
     ticketmasterStorefrontUrl(
       "https://ticketmaster.evyy.net/c/6059518/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Flady-a-tickets%2Fartist%2F1173672"
-    ) === ""
+    ) === "https://www.ticketmaster.com/lady-a-tickets/artist/1173672"
+  );
+  assert(
+    "unwrapped result never keeps the affiliate host",
+    !ticketmasterStorefrontUrl(
+      "https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com%2Fx"
+    ).includes("evyy")
+  );
+  assert(
+    "wrapper pointing off-allowlist is dropped, not followed",
+    ticketmasterStorefrontUrl("https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.axs.com%2Fevents%2F1") === ""
+  );
+  assert(
+    "wrapper with no destination param is dropped",
+    ticketmasterStorefrontUrl("https://ticketmaster.evyy.net/c/1/2/3") === ""
   );
   assert(
     "plain ticketmaster storefront url is kept",
@@ -813,8 +841,14 @@ function runSelfTest() {
   assert("attraction scale signal read", attraction.upcomingTotal === 41);
   assert("attraction genre read", attraction.genre === "Country");
   assert("attraction url kept when clean", attraction.ticketmasterUrl !== "");
-  const wrapped = readAttractionRecord({ url: "https://ticketmaster.evyy.net/c/1/2/3", upcomingEvents: { _total: 20 } });
-  assert("attraction url dropped when affiliate-wrapped", wrapped.ticketmasterUrl === "");
+  const wrapped = readAttractionRecord({
+    url: "https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com%2Ftyla-tickets%2Fartist%2F1",
+    upcomingEvents: { _total: 20 }
+  });
+  assert(
+    "wrapped attraction url is stored as the plain destination",
+    wrapped.ticketmasterUrl === "https://www.ticketmaster.com/tyla-tickets/artist/1"
+  );
   assert("missing upcomingEvents scores zero", readAttractionRecord({}).upcomingTotal === 0);
 
   const md = renderReport({

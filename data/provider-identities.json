@@ -237,7 +237,7 @@
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
     },
     {
       "slug": "niall-horan",
@@ -248,7 +248,7 @@
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
     },
     {
       "slug": "doja-cat",
@@ -259,7 +259,7 @@
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
     },
     {
       "slug": "sombr",
@@ -270,7 +270,7 @@
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
     },
     {
       "slug": "latto",
@@ -281,7 +281,7 @@
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
     },
     {
       "slug": "john-summit",
@@ -292,7 +292,7 @@
       "sync_enabled": true,
       "last_synced_at": null,
       "review_status": "verified",
-      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
     }
   ]
 }

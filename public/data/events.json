@@ -25962,7 +25962,7 @@
     "ticketmaster_event_id": "01006430FEAADAD2",
     "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-boston-massachusetts-07-28-2026/event/01006430FEAADAD2",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-boston-td-garden-7-28-2026--concerts-rock/production/6652581",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-boston-massachusetts-07-28-2026/event/01006430FEAADAD2",
     "last_verified_at": null,
@@ -25984,11 +25984,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6652581,
-        "url": "https://www.vividseats.com/tame-impala-tickets-boston-td-garden-7-28-2026--concerts-rock/production/6652581",
-        "verified": true,
-        "last_verified_at": "2026-07-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -26064,7 +26064,7 @@
         "event_id": 6652585,
         "url": "https://www.vividseats.com/tame-impala-tickets-boston-td-garden-7-29-2026--concerts-rock/production/6652585",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26141,7 +26141,7 @@
         "event_id": 6652591,
         "url": "https://www.vividseats.com/tame-impala-tickets-charlotte-spectrum-center-8-1-2026--concerts-rock/production/6652591",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26218,7 +26218,7 @@
         "event_id": 6678490,
         "url": "https://www.vividseats.com/tame-impala-tickets-charlotte-spectrum-center-8-2-2026--concerts-rock/production/6678490",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26295,7 +26295,7 @@
         "event_id": 6652593,
         "url": "https://www.vividseats.com/tame-impala-tickets-nashville-bridgestone-arena-8-4-2026--concerts-rock/production/6652593",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26364,7 +26364,7 @@
         "event_id": 6678526,
         "url": "https://www.vividseats.com/tame-impala-tickets-nashville-bridgestone-arena-8-5-2026--concerts-rock/production/6678526",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26433,7 +26433,7 @@
         "event_id": 6652597,
         "url": "https://www.vividseats.com/tame-impala-tickets-columbus-nationwide-arena-8-25-2026--concerts-rock/production/6652597",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26554,7 +26554,7 @@
         "event_id": 6652599,
         "url": "https://www.vividseats.com/tame-impala-tickets-seattle-climate-pledge-arena-9-1-2026--concerts-rock/production/6652599",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26631,7 +26631,7 @@
         "event_id": 6678965,
         "url": "https://www.vividseats.com/tame-impala-tickets-seattle-climate-pledge-arena-9-2-2026--concerts-rock/production/6678965",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26708,7 +26708,7 @@
         "event_id": 6652623,
         "url": "https://www.vividseats.com/tame-impala-tickets-vancouver-rogers-arena-9-5-2026--concerts-rock/production/6652623",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26785,7 +26785,7 @@
         "event_id": 6679025,
         "url": "https://www.vividseats.com/tame-impala-tickets-vancouver-rogers-arena-9-6-2026/production/6679025",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26862,7 +26862,7 @@
         "event_id": 6652601,
         "url": "https://www.vividseats.com/tame-impala-tickets-portland-moda-center-9-8-2026--concerts-rock/production/6652601",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -26939,7 +26939,7 @@
         "event_id": 6652607,
         "url": "https://www.vividseats.com/tame-impala-tickets-denver-ball-arena-9-11-2026--concerts-rock/production/6652607",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -27016,7 +27016,7 @@
         "event_id": 6652609,
         "url": "https://www.vividseats.com/tame-impala-tickets-phoenix-mortgage-matchup-center-9-14-2026--concerts-rock/production/6652609",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -27093,7 +27093,7 @@
         "event_id": 6652605,
         "url": "https://www.vividseats.com/tame-impala-tickets-dallas-american-airlines-center---tx-9-17-2026/production/6652605",
         "verified": true,
-        "last_verified_at": "2026-07-26",
+        "last_verified_at": "2026-07-29",
         "availability_status": "listed"
       },
       "stubhub": {

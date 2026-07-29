@@ -1474,11 +1474,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107073286",
-        "url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-28-7-2026/event/107073286",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "Europe/London",
@@ -1487,7 +1487,7 @@
     "ticketmaster_discovery_event_id": "1ANZk8EGkdBd8XC",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-london-wembley-stadium-28-7-2026/event/107073286"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydolwcm",

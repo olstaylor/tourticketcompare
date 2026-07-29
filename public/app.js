@@ -489,10 +489,33 @@ function artistHasVerifiedEventLinks(events, artistSlug) {
   });
 }
 
+// Does the artist have at least one upcoming (future-dated) reviewed show?
+// Mirrors artistHasUpcomingShow in functions/_artist-indexability.js — the same
+// gate that decides whether /artists/<slug> is indexable at all. Publishability
+// is deliberately not required: a future date still renders a real card.
+function artistHasUpcomingShow(events, artistSlug) {
+  const now = Date.now();
+  const slug = slugify(artistSlug);
+  return (events || []).some((event) => {
+    if (!event || slugify(event.artist_slug) !== slug) return false;
+    const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
+    return Number.isFinite(ts) && ts >= now;
+  });
+}
+
+// Card state for an artist tile. `dateless` comes from the shared indexability
+// gate, so a card never promises dates the page it links to does not have: an
+// empty board is a real destination (bio, recent dates, watchlist signup) but
+// not a "tickets and tour dates" answer, so the card says so before the click.
+// Keep in sync with artistCardStatus in functions/[[path]].js.
 function artistCardStatus(artist, events) {
-  if (artistHasVerifiedEventLinks(events, artist.slug)) {
+  const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
+  const hasArtistLinks = activeProviders.length > 0;
+  const hasUpcoming = artistHasUpcomingShow(events, artist.slug);
+  if (hasUpcoming && artistHasVerifiedEventLinks(events, artist.slug)) {
     return {
       pending: false,
+      dateless: false,
       badgeClass: "status-badge",
       badge: "Dates listed",
       detail: "Ticket links for individual dates",
@@ -501,27 +524,54 @@ function artistCardStatus(artist, events) {
       ctaVariant: "primary"
     };
   }
-  const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
-  if (activeProviders.length > 0) {
+  if (!hasArtistLinks) {
+    return {
+      pending: true,
+      dateless: !hasUpcoming,
+      badgeClass: "status-badge status-badge-muted",
+      badge: "Being checked",
+      detail: "Links appear once we've checked them",
+      cardStatus: "We haven't published a ticket link for this artist yet.",
+      ctaLabel: "View artist page",
+      ctaVariant: "secondary"
+    };
+  }
+  if (hasUpcoming) {
     return {
       pending: false,
+      dateless: false,
       badgeClass: "status-badge",
-      badge: "No dates yet",
+      badge: "Dates listed",
       detail: "Links to the artist's page on each provider",
-      cardStatus: "No dates listed yet — the links go to this artist's page on each provider.",
-      ctaLabel: "View artist page",
+      cardStatus: "Dates are listed; the links go to this artist's page on each provider.",
+      ctaLabel: "View dates",
       ctaVariant: "primary"
     };
   }
   return {
-    pending: true,
+    pending: false,
+    dateless: true,
     badgeClass: "status-badge status-badge-muted",
-    badge: "Being checked",
-    detail: "Links appear once we've checked them",
-    cardStatus: "We haven't published a ticket link for this artist yet.",
-    ctaLabel: "View artist page",
+    badge: "No dates yet",
+    detail: "No announced dates — get an alert when they land",
+    cardStatus: "No dates listed yet — the links go to this artist's page on each provider.",
+    ctaLabel: "Get date alerts",
     ctaVariant: "secondary"
   };
+}
+
+// Artists with upcoming dates first, then empty boards, then unverified shells.
+// Keep in sync with artistCardTier in functions/[[path]].js.
+function artistCardTier(status) {
+  if (status.pending) return 2;
+  return status.dateless ? 1 : 0;
+}
+
+// Stable-sorted copy of the artist list in card-tier order.
+function artistsByCardTier(artists, events) {
+  return (artists || [])
+    .map((artist) => ({ artist, status: artistCardStatus(artist, events) }))
+    .sort((a, b) => artistCardTier(a.status) - artistCardTier(b.status));
 }
 
 function getRoute() {
@@ -1229,12 +1279,16 @@ async function renderHome() {
   const artistHeader = document.createElement("div");
   artistHeader.className = "section-intro";
   text(artistHeader, "h2", "Artists we track").id = "homeArtistsTitle";
-  text(artistHeader, "p", "Upcoming dates and ticket links for every artist on the site.");
+  text(
+    artistHeader,
+    "p",
+    "Upcoming dates and ticket links for every artist on the site. Artists with announced dates come first; the ones marked “No dates yet” have a page and an alert signup, but nothing on sale."
+  );
   const homeEvents = await loadEventsForSearch();
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
-  catalog.artists.forEach((artist) => {
-    grid.append(renderArtistCard(artist, homeEvents));
+  artistsByCardTier(catalog.artists, homeEvents).forEach(({ artist, status }) => {
+    grid.append(renderArtistCard(artist, homeEvents, status));
   });
   artists.append(artistHeader, grid);
 
@@ -1246,9 +1300,10 @@ function renderArtistStatusLegend() {
   const legend = document.createElement("div");
   legend.className = "artist-status-legend";
   legend.setAttribute("aria-label", "Artist card status legend");
+  // Keep in sync with renderArtistStatusLegendHtml in functions/[[path]].js.
   const items = [
-    ["status-badge", "Dates listed", "Ticket links for individual dates"],
-    ["status-badge", "No dates yet", "Links to the artist's page on each provider"],
+    ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
+    ["status-badge status-badge-muted", "No dates yet", "No announced dates — artist page and alerts only"],
     ["status-badge status-badge-muted", "Being checked", "Links appear once we've checked them"]
   ];
   items.forEach(([badgeClass, badge, detail]) => {
@@ -1291,10 +1346,11 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
   return `Next date: ${next} · ${upcoming.length} upcoming ${upcoming.length === 1 ? "date" : "dates"}`;
 }
 
-function renderArtistCard(artist, events = []) {
+function renderArtistCard(artist, events = [], status = artistCardStatus(artist, events)) {
   const article = document.createElement("article");
-  const status = artistCardStatus(artist, events);
-  article.className = status.pending ? "artist-card is-pending" : "artist-card";
+  article.className = ["artist-card", status.pending ? "is-pending" : "", status.dateless ? "is-dateless" : ""]
+    .filter(Boolean)
+    .join(" ");
   text(article, "h3", artist.name);
   const statusRow = document.createElement("div");
   statusRow.className = "artist-status-row";
@@ -2638,7 +2694,7 @@ async function renderArtistsIndex() {
   text(
     section,
     "p",
-    "Pick an artist to see their upcoming dates and where to buy for each one.",
+    "Pick an artist to see their upcoming dates and where to buy for each one. Artists with announced dates are listed first; the ones marked “No dates yet” have a page and an alert signup, but nothing on sale.",
     "lead"
   );
   text(
@@ -2650,7 +2706,9 @@ async function renderArtistsIndex() {
   const events = await loadEventsForSearch();
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
-  catalog.artists.forEach((artist) => grid.append(renderArtistCard(artist, events)));
+  artistsByCardTier(catalog.artists, events).forEach(({ artist, status }) =>
+    grid.append(renderArtistCard(artist, events, status))
+  );
   section.append(renderArtistStatusLegend(), grid);
   main.replaceChildren(section);
 }

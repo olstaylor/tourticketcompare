@@ -13,7 +13,7 @@ import { deriveVenues, findVenue } from "./_venues.js";
 import { deriveCities, findCity, normalizeCountry } from "./_cities.js";
 import { deriveArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { buildArtistContentModel, artistSearchIntro, artistPricingExplanation } from "./_artist-content.js";
-import { artistPageIndexable } from "./_artist-indexability.js";
+import { artistPageIndexable, artistHasUpcomingShow } from "./_artist-indexability.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
   "/artists",
@@ -1003,10 +1003,20 @@ function artistHasVerifiedEventLinks(catalog, events, artistSlug) {
   ));
 }
 
+// Card state for an artist tile. The `dateless` flag is derived from the *same*
+// gate that decides whether the artist page is indexable at all
+// (functions/_artist-indexability.js), so a card can never promise dates that
+// the page it links to does not have. An empty board is a real destination —
+// bio, recent dates, and a watchlist signup — but it is not a "tickets and tour
+// dates" answer, so the card says so before the click and the tile is sorted
+// and styled as secondary. Keep in sync with artistCardStatus in public/app.js.
 function artistCardStatus(catalog, artist, events) {
-  if (artistHasVerifiedEventLinks(catalog, events, artist.slug)) {
+  const hasArtistLinks = ticketLinksForArtist(catalog, artist.slug).length > 0;
+  const hasUpcoming = artistHasUpcomingShow(events, artist.slug);
+  if (hasUpcoming && artistHasVerifiedEventLinks(catalog, events, artist.slug)) {
     return {
       pending: false,
+      dateless: false,
       badgeClass: "status-badge",
       badge: "Dates listed",
       detail: "Ticket links for individual dates",
@@ -1015,24 +1025,40 @@ function artistCardStatus(catalog, artist, events) {
       ctaClass: "button button-primary"
     };
   }
-  if (ticketLinksForArtist(catalog, artist.slug).length > 0) {
+  if (!hasArtistLinks) {
+    return {
+      pending: true,
+      dateless: !hasUpcoming,
+      badgeClass: "status-badge status-badge-muted",
+      badge: "Being checked",
+      detail: "Links appear once we've checked them",
+      cardStatus: "We haven't published a ticket link for this artist yet.",
+      ctaLabel: "View artist page",
+      ctaClass: "button button-secondary"
+    };
+  }
+  // Dates are on the page, but no individual date has a publishable ticket link
+  // yet — the artist-level provider links are what the page can offer.
+  if (hasUpcoming) {
     return {
       pending: false,
+      dateless: false,
       badgeClass: "status-badge",
-      badge: "No dates yet",
+      badge: "Dates listed",
       detail: "Links to the artist's page on each provider",
-      cardStatus: "No dates listed yet — the links go to this artist's page on each provider.",
-      ctaLabel: "View artist page",
+      cardStatus: "Dates are listed; the links go to this artist's page on each provider.",
+      ctaLabel: "View dates",
       ctaClass: "button button-primary"
     };
   }
   return {
-    pending: true,
+    pending: false,
+    dateless: true,
     badgeClass: "status-badge status-badge-muted",
-    badge: "Being checked",
-    detail: "Links appear once we've checked them",
-    cardStatus: "We haven't published a ticket link for this artist yet.",
-    ctaLabel: "View artist page",
+    badge: "No dates yet",
+    detail: "No announced dates — get an alert when they land",
+    cardStatus: "No dates listed yet — the links go to this artist's page on each provider.",
+    ctaLabel: "Get date alerts",
     ctaClass: "button button-secondary"
   };
 }
@@ -1057,12 +1083,35 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
   return `Next date: ${next} · ${shows.length} upcoming ${shows.length === 1 ? "date" : "dates"}`;
 }
 
+// Grid tier: artists with upcoming dates first, then empty boards, then
+// unverified shells. Two reasons, both deliberate:
+//   1. Visitors — the first thing on the grid is an artist who actually has
+//      dates to buy for, instead of a tile that dead-ends on "No upcoming
+//      dates yet".
+//   2. Crawling — empty-board pages are noindex (see _artist-indexability.js),
+//      so keeping them below the indexable tiles puts the homepage's most
+//      prominent internal links on the pages search engines can actually keep.
+//      The links stay followed: those pages are noindex,follow and their own
+//      internal links still pass equity on.
+function artistCardTier(status) {
+  if (status.pending) return 2;
+  return status.dateless ? 1 : 0;
+}
+
 function renderArtistLinks(catalog, events = []) {
-  return `<div class="artist-card-grid">${(catalog.artists || [])
-    .map((artist) => {
-      const status = artistCardStatus(catalog, artist, events);
+  const cards = (catalog.artists || []).map((artist) => ({
+    artist,
+    status: artistCardStatus(catalog, artist, events)
+  }));
+  // Array#sort is stable, so catalog order is preserved inside each tier.
+  cards.sort((a, b) => artistCardTier(a.status) - artistCardTier(b.status));
+  return `<div class="artist-card-grid">${cards
+    .map(({ artist, status }) => {
       const showSummary = status.pending ? null : upcomingVerifiedShowSummary(events, artist.slug);
-      return `<article class="${status.pending ? "artist-card is-pending" : "artist-card"}"><h3>${escapeHtml(
+      const cardClass = ["artist-card", status.pending ? "is-pending" : "", status.dateless ? "is-dateless" : ""]
+        .filter(Boolean)
+        .join(" ");
+      return `<article class="${cardClass}"><h3>${escapeHtml(
         artist.name
       )}</h3><div class="artist-status-row"><p class="${status.badgeClass}">${escapeHtml(
         status.badge
@@ -1765,10 +1814,11 @@ function renderGuideClusters() {
   return clusterSections + moreSection;
 }
 
+// Keep in sync with renderArtistStatusLegend in public/app.js.
 function renderArtistStatusLegendHtml() {
   const items = [
-    ["status-badge", "Dates listed", "Ticket links for individual dates"],
-    ["status-badge", "No dates yet", "Links to the artist's page on each provider"],
+    ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
+    ["status-badge status-badge-muted", "No dates yet", "No announced dates — artist page and alerts only"],
     ["status-badge status-badge-muted", "Being checked", "Links appear once we've checked them"]
   ];
   return `<div class="artist-status-legend" aria-label="Artist card status legend">${items
@@ -2994,7 +3044,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.path === "/artists") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="artistsTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="artistsTitle">Artists we track</h1><p class="lead">Pick an artist to see their upcoming dates and where to buy for each one.</p><p class="disclosure-note">Coverage varies by artist and region. A ticket link only goes up once we've checked the artist, date, venue, and where the link lands.</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
+    )}<h1 id="artistsTitle">Artists we track</h1><p class="lead">Pick an artist to see their upcoming dates and where to buy for each one. Artists with announced dates are listed first; the ones marked <strong>No dates yet</strong> have a page and an alert signup, but nothing on sale.</p><p class="disclosure-note">Coverage varies by artist and region. A ticket link only goes up once we've checked the artist, date, venue, and where the link lands.</p>${renderArtistStatusLegendHtml()}${renderArtistLinks(
       catalog,
       events
     )}</section></main>`;
@@ -3113,7 +3163,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "Compare concert ticket prices",
     "/compare-concert-ticket-prices",
     "button button-primary"
-  )}${anchor("Browse artists", "#featured-artists", "button button-secondary")}${anchor("Browse concert cities", "/cities", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search across artists, shows, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid"><article class="info-card"><h3>1. Find your show</h3><p>Search an artist and pick the date you want to go to.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>2. Compare the sites</h3><p>See the prices we have from each ticket site for that exact show.</p>${anchor("Compare ticket prices", "/compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>3. Buy on the provider's site</h3><p>Head over to check the fees, the final total, and what you're actually getting.</p>${anchor("Read the guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Upcoming dates and ticket links for every artist on the site. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
+  )}${anchor("Browse artists", "#featured-artists", "button button-secondary")}${anchor("Browse concert cities", "/cities", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search across artists, shows, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid"><article class="info-card"><h3>1. Find your show</h3><p>Search an artist and pick the date you want to go to.</p>${anchor("Browse artists", "/artists", "text-link")}</article><article class="info-card"><h3>2. Compare the sites</h3><p>See the prices we have from each ticket site for that exact show.</p>${anchor("Compare ticket prices", "/compare-concert-ticket-prices", "text-link")}</article><article class="info-card"><h3>3. Buy on the provider's site</h3><p>Head over to check the fees, the final total, and what you're actually getting.</p>${anchor("Read the guide", "/guides/how-to-compare-concert-ticket-prices", "text-link")}</article></div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Upcoming dates and ticket links for every artist on the site. Artists with announced dates come first; the ones marked <strong>No dates yet</strong> have a page and an alert signup, but nothing on sale. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
     catalog,
     events
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(
@@ -3189,7 +3239,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // mount with the full redesigned homepage. Same-origin, so it satisfies the
     // existing CSP (script-src 'self'). The chrome stylesheet (ttc-home.css) is
     // loaded site-wide from the shell <head>; only this script is homepage-scoped.
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260716a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260729b" defer></script></body>');
   }
   return next;
 }

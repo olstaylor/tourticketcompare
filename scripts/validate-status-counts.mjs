@@ -176,7 +176,11 @@ const SCALAR_ASSERTIONS = [
     keys: ["artists.total", "artists.indexable", "artists.shells"],
     re: /\*\*(\d+) records — (\d+) `indexable_with_substantial_content` \+ (\d+) `review_required` shells/,
   },
-  { keys: ["artists.indexable_zero_events"], re: /(\d+) of the 20 indexable — beyonce, raye, tate-mcrae/ },
+  // Neither the indexable total nor the slug list is pinned here: both move
+  // whenever the roster grows or a promoted artist's events land, and pinning
+  // them silently broke this anchor when the 2026-07-29 batch took the
+  // indexable count from 20 to 26. Only the zero-event figure is captured.
+  { keys: ["artists.indexable_zero_events"], re: /(\d+) of the \d+ indexable carry 0 events/ },
   {
     keys: ["catalog.artists", "catalog.tours", "catalog.ticket_links"],
     re: /(\d+) artist records; (\d+) tour records; \*\*(\d+) ticket_links rows\*\*/,

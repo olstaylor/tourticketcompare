@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-29",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -227,6 +227,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Batch-promoted 2026-07-22: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "gracie-abrams",
+      "ticketmaster_attraction_id": "K8vZ917_vc7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/gracie-abrams-tickets/artist/2763148",
+      "seatgeek_performer_id": 786104,
+      "seatgeek_artist_url": "https://seatgeek.com/gracie-abrams-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
+    },
+    {
+      "slug": "niall-horan",
+      "ticketmaster_attraction_id": "K8vZ9174OHV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/niall-horan-tickets/artist/2297125",
+      "seatgeek_performer_id": 165432,
+      "seatgeek_artist_url": "https://seatgeek.com/niall-horan-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
+    },
+    {
+      "slug": "doja-cat",
+      "ticketmaster_attraction_id": "K8vZ9173TJf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/doja-cat-tickets/artist/2062205",
+      "seatgeek_performer_id": 297762,
+      "seatgeek_artist_url": "https://seatgeek.com/doja-cat-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
+    },
+    {
+      "slug": "sombr",
+      "ticketmaster_attraction_id": "K8vZ917ji4V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/sombr-tickets/artist/3144534",
+      "seatgeek_performer_id": 1955379,
+      "seatgeek_artist_url": "https://seatgeek.com/sombr-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
+    },
+    {
+      "slug": "latto",
+      "ticketmaster_attraction_id": "K8vZ917_glV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/latto-tickets/artist/2842518",
+      "seatgeek_performer_id": 757036,
+      "seatgeek_artist_url": "https://seatgeek.com/latto-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
+    },
+    {
+      "slug": "john-summit",
+      "ticketmaster_attraction_id": "K8vZ917_pO7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/john-summit-tickets/artist/2730221",
+      "seatgeek_performer_id": 783794,
+      "seatgeek_artist_url": "https://seatgeek.com/john-summit-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
     }
   ]
 }

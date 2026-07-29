@@ -37,14 +37,14 @@ const guidePages = [
   {
     slug: "how-to-compare-event-ticket-prices",
     title: "How to Compare Event Ticket Prices | TourTicketCompare",
-    description: "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, delivery, and final checkout total.",
+    description: "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, and final checkout total.",
     h1: "How to Compare Event Ticket Prices",
     serverRendered: true
   },
   {
     slug: "how-to-compare-concert-ticket-prices",
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
-    description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final provider total and terms.",
+    description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
     h1: "How to Compare Concert Ticket Prices Safely",
     serverRendered: true
   },
@@ -64,7 +64,7 @@ const guidePages = [
   },
   {
     slug: "how-to-avoid-overpaying-for-concert-tickets",
-    title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
+    title: "Avoid Overpaying for Concert Tickets | TourTicketCompare",
     description: "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
     h1: "How do I avoid overpaying for concert tickets?",
     serverRendered: true
@@ -99,7 +99,7 @@ const guidePages = [
   },
   {
     slug: "ticketmaster-vs-stubhub",
-    title: "Ticketmaster vs StubHub: How to Compare Safely | TourTicketCompare",
+    title: "Ticketmaster vs StubHub: Compare Safely | TourTicketCompare",
     description: "Compare Ticketmaster and StubHub by checking event source, ticket type, final totals, delivery timing, and provider terms before checkout.",
     h1: "How should I compare Ticketmaster and StubHub?",
     serverRendered: true
@@ -120,7 +120,7 @@ const guidePages = [
   },
   {
     slug: "ticket-delivery-and-transfer-timing",
-    title: "Ticket Delivery and Transfer Timing Guide | TourTicketCompare",
+    title: "Ticket Delivery & Transfer Timing | TourTicketCompare",
     description: "Learn how to check ticket delivery methods and transfer timing so checkout terms match your travel and event plans.",
     h1: "How do ticket delivery and transfer timing affect risk?",
     serverRendered: true
@@ -134,7 +134,7 @@ const guidePages = [
   },
   {
     slug: "how-to-prepare-for-a-ticket-onsale",
-    title: "How to Prepare for a Concert Ticket Onsale | TourTicketCompare",
+    title: "How to Prepare for a Concert Onsale | TourTicketCompare",
     description: "Practical pre-onsale and onsale-day routine for major concert tickets, covering presales, account setup, queues, listing checks, and what to do if you miss out.",
     h1: "How do I prepare for a concert ticket onsale?",
     serverRendered: true
@@ -148,8 +148,8 @@ const guidePages = [
   },
   {
     slug: "what-to-do-if-a-concert-is-postponed-or-cancelled",
-    title: "What to Do if a Concert Is Postponed or Cancelled | TourTicketCompare",
-    description: "Learn what to check if a concert is postponed, rescheduled, cancelled, or changed, including provider updates, refunds, transfers, resale rules, and ticket delivery.",
+    title: "Concert Postponed or Cancelled | TourTicketCompare",
+    description: "Learn what to check if a concert is postponed, rescheduled, or cancelled, including provider updates, refunds, transfers, resale rules, and ticket delivery.",
     h1: "What should I do if a concert is postponed or cancelled?",
     serverRendered: true
   }
@@ -204,14 +204,14 @@ const guideClusters = [
 
 const routeMeta = {
   "/": {
-    title: "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
+    title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare available, timestamped provider listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider."
+      "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider."
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Compare available, timestamped provider listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider."
+      "Find a checked concert event, compare timestamped provider listed-price snapshots for the same show, then confirm fees and the final total with the provider."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -221,7 +221,7 @@ const routeMeta = {
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
     description:
-      "Essential guides for comparing ticket prices, checking official vs. resale, deciding when to buy, and confirming final terms before checkout."
+      "Practical concert-ticket guides on matching listings, checking final totals, choosing primary or resale, timing a purchase, and confirming provider terms."
   },
   "/how-it-works": {
     title: "How TourTicketCompare Works",

@@ -20,7 +20,7 @@ const expectedH1 = new Map([
   ["/affiliate-disclosure", "Affiliate disclosure"]
 ]);
 const expectedTitle = new Map([
-  ["/", "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare"],
+  ["/", "Compare Concert Tickets & Tour Dates | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
@@ -32,8 +32,8 @@ const expectedTitle = new Map([
   ["/editorial-policy", "Editorial Policy | TourTicketCompare"],
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
-const homepageDescription = "Compare available, timestamped provider listed-price snapshots for verified concert events, find tour dates, and confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260724b";
+const homepageDescription = "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.";
+const APP_ASSET_VERSION = "20260729a";
 const TTC_HOME_ASSET_VERSION = "20260716a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -516,10 +516,10 @@ assert(
   "index.html must not advertise the retired sitelinks SearchAction or create a crawlable template-query URL"
 );
 const expectedClientMetadata = [
-  "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
+  "Compare Concert Tickets & Tour Dates | TourTicketCompare",
   homepageDescription,
   "Compare Concert Ticket Prices | TourTicketCompare",
-  "Compare available, timestamped provider listed-price snapshots for the same verified concert event, then confirm fees, availability, seats, and final totals with the provider.",
+  "Find a checked concert event, compare timestamped provider listed-price snapshots for the same show, then confirm fees and the final total with the provider.",
   "How to Compare Concert Ticket Prices | TourTicketCompare",
   "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
   "SeatGeek vs Ticketmaster | TourTicketCompare",
@@ -529,7 +529,7 @@ for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
 }
 assert(
-  clientIndexHtml.includes("<title>Compare Concert Ticket Prices &amp; Find Tour Dates | TourTicketCompare</title>"),
+  clientIndexHtml.includes("<title>Compare Concert Tickets &amp; Tour Dates | TourTicketCompare</title>"),
   "public/index.html fallback title should match the homepage metadata source of truth"
 );
 assert(
@@ -537,6 +537,7 @@ assert(
   "public/index.html fallback description should match the homepage metadata source of truth"
 );
 for (const staleTitle of [
+  "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
   "Find Tour Dates and Compare Ticket Prices | TourTicketCompare",
   "Compare Concert Ticket Prices Across Trusted Sites | Tour Ticket Compare",
   "How to Compare Concert Ticket Prices Safely | TourTicketCompare",

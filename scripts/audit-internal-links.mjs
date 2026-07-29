@@ -5,7 +5,7 @@
 // production traffic) and reports, per page:
 //   - indexability (robots meta) and route agreement
 //   - canonical URL and drift from the request path
-//   - title / meta-description uniqueness
+//   - title / meta-description uniqueness and SERP length budgets
 //   - inbound internal-link counts, split into contextual links (inside
 //     <main id="mainContent">, i.e. rendered page content) and shell links
 //     (header/footer nav present on every page)
@@ -17,9 +17,10 @@
 //   node scripts/audit-internal-links.mjs            # write report to reports/internal-links/
 //   node scripts/audit-internal-links.mjs --check    # regression mode: exit 1 on
 //                                                    # orphans, canonical drift, duplicate
-//                                                    # titles/descriptions, robots/route
-//                                                    # disagreement, or sitemap/indexability
-//                                                    # mismatches (no report files written)
+//                                                    # or over-length titles/descriptions,
+//                                                    # robots/route disagreement, or
+//                                                    # sitemap/indexability mismatches
+//                                                    # (no report files written)
 //
 // The audit never fetches external URLs and never mutates data files.
 
@@ -306,6 +307,24 @@ function reportDuplicates(field) {
 }
 reportDuplicates("title");
 reportDuplicates("description");
+
+// SERP display budgets. Google truncates a title link at roughly 60 characters
+// and a meta description at roughly 155-160, so anything longer is written but
+// never read. Fixed metadata lives in functions/_route-metadata.js; city,
+// venue, and artist-city metadata is generated from event data, so this check
+// is what stops a future long venue name or wide date range from silently
+// reintroducing an overflowing tag.
+const { TITLE_LENGTH_LIMIT, META_DESCRIPTION_LENGTH_LIMIT } = routeMetadataModule;
+for (const page of indexablePages) {
+  if (page.title.length > TITLE_LENGTH_LIMIT) {
+    problems.push(`title length: ${page.path} title is ${page.title.length} chars (budget ${TITLE_LENGTH_LIMIT}) — "${page.title}"`);
+  }
+  if (page.description.length > META_DESCRIPTION_LENGTH_LIMIT) {
+    problems.push(
+      `description length: ${page.path} meta description is ${page.description.length} chars (budget ${META_DESCRIPTION_LENGTH_LIMIT})`
+    );
+  }
+}
 
 // City pages are generated from changing event data, so validate the complete
 // set rather than relying on a single representative smoke route. These checks

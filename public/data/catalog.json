@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-29",
   "strategy": "Cloudflare Pages stadium tour market watch catalog with factual artist content and verified provider buttons only.",
   "artists": [
     {
@@ -890,6 +890,216 @@
       "faq": [
         {
           "question": "Where can I find Tame Impala tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "gracie-abrams",
+      "name": "Gracie Abrams",
+      "short_description": "American singer-songwriter.",
+      "country": "United States",
+      "image_alt": "Gracie Abrams artist ticket information",
+      "factual_summary": "Gracie Abrams is an American singer-songwriter. Her studio albums Good Riddance (2023) and The Secret of Us (2024) followed a series of EPs, and she has toured internationally as a headliner and as a support act on stadium tours.",
+      "ticket_buying_notes": "These links go to the Gracie Abrams page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Gracie Abrams Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Gracie Abrams tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Gracie Abrams tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "niall-horan",
+      "name": "Niall Horan",
+      "short_description": "Irish singer-songwriter and former One Direction member.",
+      "country": "Ireland",
+      "image_alt": "Niall Horan artist ticket information",
+      "factual_summary": "Niall Horan is an Irish singer-songwriter who first became known as a member of One Direction. His solo studio albums include Flicker, Heartbreak Weather and The Show, and he has headlined arena tours across Europe, North America and Australia.",
+      "ticket_buying_notes": "These links go to the Niall Horan page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Niall Horan Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Niall Horan tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Niall Horan tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "doja-cat",
+      "name": "Doja Cat",
+      "short_description": "American rapper, singer, and songwriter.",
+      "country": "United States",
+      "image_alt": "Doja Cat artist ticket information",
+      "factual_summary": "Doja Cat is an American rapper, singer and songwriter. Her albums include Hot Pink, Planet Her and Scarlet, with singles such as “Say So” and “Kiss Me More”, and she has headlined arena tours and appeared at major international festivals.",
+      "ticket_buying_notes": "These links go to the Doja Cat page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Doja Cat Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Doja Cat tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Doja Cat tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "sombr",
+      "name": "Sombr",
+      "short_description": "American singer-songwriter.",
+      "country": "United States",
+      "image_alt": "Sombr artist ticket information",
+      "factual_summary": "Sombr is an American singer-songwriter whose releases have drawn a large streaming audience, leading to headline club and theatre touring across North America and Europe.",
+      "ticket_buying_notes": "These links go to the Sombr page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Sombr Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Sombr tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Sombr tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "latto",
+      "name": "Latto",
+      "short_description": "American rapper from Atlanta, Georgia.",
+      "country": "United States",
+      "image_alt": "Latto artist ticket information",
+      "factual_summary": "Latto is an American rapper from Atlanta, Georgia. Her studio albums include 777 and Sugar Honey Iced Tea, with singles such as “Big Energy”, and she has toured as a headliner and appeared on major festival bills.",
+      "ticket_buying_notes": "These links go to the Latto page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Latto Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Latto tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Latto tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "How do I know if a ticket link is real?",
+          "answer": "We only show buttons that link directly to ticket provider or verified resale platforms. If a button is hidden, we have not yet verified that destination. Hover over the link to see the full URL before clicking."
+        },
+        {
+          "question": "What ticket prices can I see here?",
+          "answer": "When approved provider data for an exact verified event passes source and freshness checks, this page may show a timestamped listed-price snapshot. It is not live inventory or a final checkout total and may exclude fees. Confirm current price, fees, availability, and terms on the provider site."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. We link to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "john-summit",
+      "name": "John Summit",
+      "short_description": "American DJ and record producer.",
+      "country": "United States",
+      "image_alt": "John Summit artist ticket information",
+      "factual_summary": "John Summit is an American DJ and record producer working in house and tech house. He performs at clubs, arenas and electronic music festivals internationally, and founded the Experts Only label.",
+      "ticket_buying_notes": "These links go to the John Summit page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "John Summit Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "John Summit tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find John Summit tour dates?",
           "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
         },
         {
@@ -1825,6 +2035,84 @@
       "last_checked_at": "2026-07-22",
       "disclosure_required": true,
       "url": "https://seatgeek.com/tame-impala-tickets"
+    },
+    {
+      "link_id": "tm-artist-gracie-abrams",
+      "artist_slug": "gracie-abrams",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-niall-horan",
+      "artist_slug": "niall-horan",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-doja-cat",
+      "artist_slug": "doja-cat",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-sombr",
+      "artist_slug": "sombr",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-latto",
+      "artist_slug": "latto",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
+    },
+    {
+      "link_id": "tm-artist-john-summit",
+      "artist_slug": "john-summit",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": false,
+      "verified": false,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": null,
+      "disclosure_required": true
     }
   ],
   "safety_rules": [

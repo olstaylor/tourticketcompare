@@ -123,9 +123,58 @@ async function lookupSeatGeekPerformer(name, credentials) {
   };
 }
 
+// Ticketmaster storefront hosts, mirroring the allowlist in
+// functions/api/out.js and scripts/promote-artists-batch.mjs. Never widen this
+// to a generic ticketmaster.* pattern.
+const TICKETMASTER_STOREFRONT_DOMAINS = [
+  'ticketmaster.com',
+  'ticketmaster.ca',
+  'ticketmaster.co.uk',
+  'ticketmaster.es',
+  'ticketmaster.de',
+  'ticketmaster.nl',
+  'ticketmaster.se',
+  'ticketmaster.pl',
+  'ticketmaster.be',
+  'ticketmaster.it'
+];
+
+// Discovery returns attraction `url` values that are sometimes already Impact
+// affiliate links (host ticketmaster.evyy.net) wrapping the real destination in
+// a `u=` param — for the same attraction it varies between calls. The registry
+// must hold the plain storefront URL only; affiliate wrapping happens at
+// runtime in /api/out, and Ticketmaster is an unmonetized link source anyway.
+// Mirrors resolveTicketmasterUrl() in scripts/propose-artists.mjs.
+export function resolveTicketmasterArtistUrl(value) {
+  let current = String(value ?? '').trim();
+  if (!current) return null;
+  for (let depth = 0; depth < 4; depth += 1) {
+    let parsed;
+    try {
+      parsed = new URL(current);
+    } catch {
+      return null;
+    }
+    if (/(^|\.)evyy\.net$/i.test(parsed.hostname)) {
+      const target = String(parsed.searchParams.get('u') || '').trim();
+      if (!target) return null;
+      current = target;
+      continue;
+    }
+    if (parsed.protocol !== 'https:') return null;
+    const host = parsed.hostname.toLowerCase();
+    const allowed = TICKETMASTER_STOREFRONT_DOMAINS.some((d) => host === d || host.endsWith(`.${d}`));
+    return allowed ? parsed.toString() : null;
+  }
+  return null;
+}
+
 // Ticketmaster Discovery attraction lookup: exact normalized-name match only;
-// the Discovery record's own url is captured verbatim (storefront ids differ
-// from Discovery ids, so hand-building URLs is forbidden).
+// the Discovery record's own url is captured (storefront ids differ from
+// Discovery ids, so hand-building URLs is forbidden) after any affiliate
+// wrapper is stripped and the destination host is checked against the
+// storefront allowlist. A wrapped or off-allowlist destination yields no
+// capture rather than a URL the promote step would reject.
 async function lookupTicketmasterAttraction(name, apiKey) {
   const params = new URLSearchParams({ keyword: name, size: '10', apikey: apiKey });
   const data = await fetchJson(`https://app.ticketmaster.com/discovery/v2/attractions.json?${params.toString()}`);
@@ -133,7 +182,7 @@ async function lookupTicketmasterAttraction(name, apiKey) {
   const exact = attractions.filter((a) => exactNameMatch(name, a?.name) && !COLLISION_PATTERN.test(String(a?.name || '')));
   if (!exact.length) return null;
   const a = exact[0];
-  const url = typeof a?.url === 'string' && /^https:\/\//i.test(a.url) ? a.url : null;
+  const url = resolveTicketmasterArtistUrl(a?.url);
   if (!a?.id || !url) return null;
   return {
     attraction_id: a.id,
@@ -200,6 +249,36 @@ function selfTest() {
   ok('collision pattern catches tribute acts', COLLISION_PATTERN.test('The Ultimate Bruno Mars Tribute'));
   ok('collision pattern catches parking listings', COLLISION_PATTERN.test('PARKING: Morgan Wallen'));
   ok('collision pattern leaves real names alone', !COLLISION_PATTERN.test('Morgan Wallen'));
+
+  // Discovery returns attraction urls affiliate-wrapped for this account, and
+  // inconsistently so — the same attraction can come back clean on one call and
+  // wrapped on the next. Before this guard the wrapper was captured verbatim,
+  // and promote-artists-batch.mjs then rejected the row on its host allowlist,
+  // blocking the artist with a confusing "ticketmaster url" reason.
+  ok(
+    'affiliate-wrapped attraction url is unwrapped to the plain storefront page',
+    resolveTicketmasterArtistUrl(
+      'https://ticketmaster.evyy.net/c/6059518/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Ftyla-tickets%2Fartist%2F2918912'
+    ) === 'https://www.ticketmaster.com/tyla-tickets/artist/2918912'
+  );
+  ok(
+    'unwrapped url never retains the affiliate host',
+    !String(resolveTicketmasterArtistUrl('https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com%2Fx')).includes('evyy')
+  );
+  ok(
+    'clean storefront url is kept verbatim',
+    resolveTicketmasterArtistUrl('https://www.ticketmaster.com/doja-cat-tickets/artist/2062205') ===
+      'https://www.ticketmaster.com/doja-cat-tickets/artist/2062205'
+  );
+  ok(
+    'wrapper pointing at a non-ticketmaster destination is dropped',
+    resolveTicketmasterArtistUrl('https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.axs.com%2Fx') === null
+  );
+  ok('wrapper without a destination param is dropped', resolveTicketmasterArtistUrl('https://ticketmaster.evyy.net/c/1/2/3') === null);
+  ok('non-allowlisted regional storefront is dropped', resolveTicketmasterArtistUrl('https://www.ticketmaster.com.mx/artist/1') === null);
+  ok('host merely containing ticketmaster is dropped', resolveTicketmasterArtistUrl('https://ticketmaster.evil.com/x') === null);
+  ok('http is dropped', resolveTicketmasterArtistUrl('http://www.ticketmaster.com/artist/1') === null);
+  ok('empty url is dropped', resolveTicketmasterArtistUrl('') === null);
 
   const shellFixtures = [
     { slug: 'promoted-artist', indexing_status: 'indexable_with_substantial_content', verified_providers: ['ticketmaster', 'seatgeek'] },

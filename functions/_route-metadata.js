@@ -47,17 +47,27 @@ export function canonicalOrigin(origin) {
   return CANONICAL_ORIGIN;
 }
 
+// Search-result display budgets. Google truncates a SERP title at roughly 60
+// characters and a meta description at roughly 155-160, so every title below
+// stays within TITLE_LENGTH_LIMIT and every description within
+// META_DESCRIPTION_LENGTH_LIMIT.
+// Generated metadata in functions/[[path]].js is fitted to the same budgets,
+// and scripts/audit-internal-links.mjs --check fails the build on any route
+// that exceeds them.
+export const TITLE_LENGTH_LIMIT = 60;
+export const META_DESCRIPTION_LENGTH_LIMIT = 160;
+
 export const TRUST_ROUTES = {
   "/": {
-    title: "Compare Concert Ticket Prices & Find Tour Dates | TourTicketCompare",
+    title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare concert and event ticket prices with available, timestamped provider listed-price snapshots for verified events, find tour dates, and confirm fees and availability with the provider.",
+      "Compare concert ticket prices using timestamped provider snapshots for verified events, find tour dates, then confirm fees and availability with the provider.",
     indexable: true
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices | TourTicketCompare",
     description:
-      "Find a checked concert event, compare available timestamped provider listed-price snapshots for that same show, then confirm seats, fees, availability, and the final total with the provider.",
+      "Find a checked concert event, compare timestamped provider price snapshots for that same show, then confirm seats, fees, and the final total with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }]
   },
@@ -71,7 +81,7 @@ export const TRUST_ROUTES = {
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
     description:
-      "Practical concert-ticket guides for matching listings, checking final totals, choosing primary or resale, timing a purchase, and confirming provider terms before checkout.",
+      "Practical concert-ticket guides on matching listings, checking final totals, choosing primary or resale, timing a purchase, and confirming provider terms.",
     indexable: true,
     breadcrumb: [{ name: "Guides", path: "/guides" }]
   },
@@ -86,7 +96,7 @@ export const TRUST_ROUTES = {
   "/currency-converter": {
     title: "Currency Converter for Concert Tickets | TourTicketCompare",
     description:
-      "Convert a ticket budget between currencies using daily European Central Bank reference rates, then confirm the checkout currency, final total, and card fees with the provider.",
+      "Convert a ticket budget between currencies using European Central Bank reference rates, then confirm the checkout currency and card fees with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Currency converter", path: "/currency-converter" }]
   },
@@ -124,7 +134,7 @@ export const GUIDE_ROUTES = {
     title: "How to Compare Event Ticket Prices | TourTicketCompare",
     h1: "How to Compare Event Ticket Prices",
     description:
-      "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, delivery, and final checkout total.",
+      "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, and final checkout total.",
     fullContent: true,
     datePublished: "2026-07-14",
     lastmod: "2026-07-14"
@@ -133,7 +143,7 @@ export const GUIDE_ROUTES = {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     h1: "How to Compare Concert Ticket Prices Safely",
     description:
-      "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final provider total and terms.",
+      "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
     lastmod: "2026-07-22"
@@ -157,7 +167,7 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-07-28"
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
-    title: "How to Avoid Overpaying for Concert Tickets | TourTicketCompare",
+    title: "Avoid Overpaying for Concert Tickets | TourTicketCompare",
     h1: "How do I avoid overpaying for concert tickets?",
     description:
       "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
@@ -202,7 +212,7 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-06-19"
   },
   "/guides/ticketmaster-vs-stubhub": {
-    title: "Ticketmaster vs StubHub: How to Compare Safely | TourTicketCompare",
+    title: "Ticketmaster vs StubHub: Compare Safely | TourTicketCompare",
     h1: "How should I compare Ticketmaster and StubHub?",
     description:
       "Compare Ticketmaster and StubHub by checking event source, ticket type, final totals, delivery timing, and provider terms before checkout.",
@@ -229,7 +239,7 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-07-22"
   },
   "/guides/ticket-delivery-and-transfer-timing": {
-    title: "Ticket Delivery and Transfer Timing Guide | TourTicketCompare",
+    title: "Ticket Delivery & Transfer Timing | TourTicketCompare",
     h1: "How do ticket delivery and transfer timing affect risk?",
     description:
       "Learn how to check ticket delivery methods and transfer timing so checkout terms match your travel and event plans.",
@@ -247,7 +257,7 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-06-19"
   },
   "/guides/how-to-prepare-for-a-ticket-onsale": {
-    title: "How to Prepare for a Concert Ticket Onsale | TourTicketCompare",
+    title: "How to Prepare for a Concert Onsale | TourTicketCompare",
     h1: "How do I prepare for a concert ticket onsale?",
     description:
       "Practical pre-onsale and onsale-day routine for major concert tickets, covering presales, account setup, queues, listing checks, and what to do if you miss out.",
@@ -265,10 +275,10 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-06-19"
   },
   "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
-    title: "What to Do if a Concert Is Postponed or Cancelled | TourTicketCompare",
+    title: "Concert Postponed or Cancelled | TourTicketCompare",
     h1: "What should I do if a concert is postponed or cancelled?",
     description:
-      "Learn what to check if a concert is postponed, rescheduled, cancelled, or changed, including provider updates, refunds, transfers, resale rules, and ticket delivery.",
+      "Learn what to check if a concert is postponed, rescheduled, or cancelled, including provider updates, refunds, transfers, resale rules, and ticket delivery.",
     fullContent: true,
     datePublished: "2026-06-11",
     lastmod: "2026-06-19"

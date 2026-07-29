@@ -3,6 +3,7 @@ import {
   GUIDE_ROUTES,
   OLD_GUIDE_REDIRECTS,
   CANONICAL_HOST,
+  META_DESCRIPTION_LENGTH_LIMIT,
   canonicalOrigin,
   isIndexableOrigin
 } from "./_route-metadata.js";
@@ -37,7 +38,7 @@ const EVENT_PRICE_GUIDE_FALLBACK = {
   title: "How to Compare Event Ticket Prices | TourTicketCompare",
   h1: "How to Compare Event Ticket Prices",
   description:
-    "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, delivery, and final checkout total.",
+    "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, and final checkout total.",
   fullContent: true,
   datePublished: "2026-07-14",
   lastmod: "2026-07-14"
@@ -82,6 +83,29 @@ function slugify(value) {
     .trim()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
+}
+
+// Meta descriptions for city, venue, and artist-city pages are composed from
+// event data whose length is not bounded (venue lists, long venue names, date
+// ranges), so a single template overflows Google's ~155-160 character display
+// budget on the busiest pages. Each generator instead offers several phrasings
+// from most to least detailed and takes the first that fits: an optional clause
+// is dropped rather than a sentence being cut mid-word. The word-boundary clamp
+// is a last-resort guard so an outlier record can never emit an overlong tag.
+function clampMetaDescription(value) {
+  const text = String(value || "").trim();
+  if (text.length <= META_DESCRIPTION_LENGTH_LIMIT) return text;
+  const cut = text.slice(0, META_DESCRIPTION_LENGTH_LIMIT);
+  const lastSpace = cut.lastIndexOf(" ");
+  return `${(lastSpace > 40 ? cut.slice(0, lastSpace) : cut).replace(/[\s.,;:—–-]+$/, "")}.`;
+}
+
+function fitMetaDescription(...candidates) {
+  const usable = candidates.map((candidate) => String(candidate || "").trim()).filter(Boolean);
+  for (const candidate of usable) {
+    if (candidate.length <= META_DESCRIPTION_LENGTH_LIMIT) return candidate;
+  }
+  return clampMetaDescription(usable.at(-1) || "");
 }
 
 function showAnchorId(show) {
@@ -191,7 +215,7 @@ async function routeForPath(pathname, env) {
       path,
       indexable: city.indexable,
       title: `Concerts in ${city.city}${yearLabel ? ` ${yearLabel}` : ""} | Upcoming Shows & Tickets`,
-      description: `See ${city.showCount} reviewed upcoming concerts in ${city.city}, ${city.country}${yearLabel ? ` for ${yearLabel}` : ""}, across ${cityArtistCountLabel(city.artistCount)} and ${cityVenueCountLabel(city.venueCount)}. Compare dates, venues, and checked ticket options.`,
+      description: cityMetaDescription(city, yearLabel),
       city,
       events: cityEvents,
       indexableArtistSlugs: artistsMeta
@@ -212,7 +236,7 @@ async function routeForPath(pathname, env) {
         type: "venues-index",
         path,
         indexable: true,
-        title: "Concert Venues | Upcoming Tour Dates by Venue | TourTicketCompare",
+        title: "Concert Venues & Upcoming Tour Dates | TourTicketCompare",
         description:
           "Browse concert venues and the upcoming tracked tour dates at each, with links to verified artist ticket pages and approved price snapshots where available.",
         venues,
@@ -1069,6 +1093,18 @@ function cityYearLabel(city) {
   return years.length === 1 ? String(years[0]) : `${years[0]}–${years.at(-1)}`;
 }
 
+function cityMetaDescription(city, yearLabel) {
+  const lead = `${city.showCount} reviewed upcoming concerts in ${city.city}, ${city.country}`;
+  const year = yearLabel ? ` for ${yearLabel}` : "";
+  const spread = `${cityArtistCountLabel(city.artistCount)} and ${cityVenueCountLabel(city.venueCount)}`;
+  return fitMetaDescription(
+    `See ${lead}${year}, across ${spread}. Compare dates, venues, and checked ticket options.`,
+    `See ${lead}, across ${spread}. Compare dates, venues, and checked ticket options.`,
+    `See ${lead}${year}. Compare dates, venues, and checked ticket options.`,
+    `See ${lead}. Compare dates and checked ticket options.`
+  );
+}
+
 function cityDateRangeLabel(city) {
   const first = city?.shows?.[0];
   const last = city?.shows?.at(-1);
@@ -1294,9 +1330,19 @@ function renderVenueProvenance(venue) {
 }
 
 function venueMetaDescription(venue) {
-  return `See ${venueShowCountLabel(venue.showCount)} at ${venue.venue}${venue.city ? ` in ${venue.city}` : ""} across ${venueArtistCountLabel(
-    venue.artistSlugs.length
-  )}. Match the exact date, review checked ticket options, and confirm current prices and fees with the provider.`;
+  const lead = `See ${venueShowCountLabel(venue.showCount)} at ${venue.venue}`;
+  const city = venue.city ? ` in ${venue.city}` : "";
+  const artists = ` across ${venueArtistCountLabel(venue.artistSlugs.length)}`;
+  const tail = "Match the exact date, review checked ticket options, then confirm prices and fees with the provider.";
+  // The city is the more useful qualifier on a venue page, so the artist count
+  // is the first clause dropped when the full sentence does not fit.
+  return fitMetaDescription(
+    `${lead}${city}${artists}. ${tail}`,
+    `${lead}${city}. ${tail}`,
+    `${lead}${artists}. ${tail}`,
+    `${lead}. ${tail}`,
+    `${lead}. Match the exact date, then confirm prices and fees with the provider.`
+  );
 }
 
 // Group a venue's upcoming shows by artist, preserving first-show chronological order.
@@ -1461,9 +1507,18 @@ function artistCityDescription(artist, artistCity) {
   const count = cityShowCountLabel(artistCity.showCount);
   const range = cityDateRangeLabel(artistCity);
   const venueLabel = artistCityVenueLabel(artistCity);
+  const lead = `Compare tickets for ${artist.name} in ${artistCity.label}. View ${count}`;
   const wherePart = venueLabel ? ` at ${venueLabel}` : "";
   const whenPart = range ? ` (${range})` : "";
-  return `Compare tickets for ${artist.name} in ${artistCity.label}. View ${count}${wherePart}${whenPart}, and check availability from verified ticket marketplaces.`;
+  const tail = "then check dates and provider terms before you buy.";
+  // Venue names and date ranges are the unbounded parts, so drop them in that
+  // order until the sentence fits rather than letting the tag overflow.
+  return fitMetaDescription(
+    `${lead}${wherePart}${whenPart}, ${tail}`,
+    `${lead}${wherePart}, ${tail}`,
+    `${lead}${whenPart}, ${tail}`,
+    `${lead}, ${tail}`
+  );
 }
 
 function artistCityIntroSentence(artist, artistCity) {

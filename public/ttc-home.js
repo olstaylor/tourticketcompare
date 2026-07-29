@@ -148,6 +148,13 @@
     const countryBySlug = {};
     (events || []).forEach(e => { if (!countryBySlug[e.artist_slug] && e.country) countryBySlug[e.artist_slug] = e.country; });
 
+    // Upcoming dates per artist. An artist with zero of them has an empty board:
+    // the page is real (bio, recent dates, alert signup) but it is noindex and
+    // has nothing on sale, so the homepage flags it before the click instead of
+    // sending people — and its most prominent internal links — into a dead end.
+    const upcomingByArtist = {};
+    upcoming.forEach(e => { upcomingByArtist[e.artist_slug] = (upcomingByArtist[e.artist_slug] || 0) + 1; });
+
     const artists = (catalog.artists || []).map(a => {
       const link = linkByArtist[a.slug];
       const prov = link ? providerBySlug[link.provider] : null;
@@ -162,6 +169,7 @@
         provider: verified ? prov.name : null,
         destination_type: link ? link.destination_type : null,
         last_checked: link ? link.last_checked_at : null,
+        upcoming: upcomingByArtist[a.slug] || 0,
       };
     });
 
@@ -321,7 +329,12 @@
 
   /* ============================================================ SECTIONS */
   function heroSection(DATA) {
-    const chips = DATA.artists.filter(artist => artist && artist.slug).slice(0, 5);
+    // Hero chips are the most prominent links on the site — spend them on
+    // artists who actually have dates. Only if none do (an entirely empty
+    // roster) do we fall back to the plain catalog order.
+    const linkable = DATA.artists.filter(artist => artist && artist.slug);
+    const withDates = linkable.filter(artist => artist.upcoming > 0);
+    const chips = (withDates.length ? withDates : linkable).slice(0, 5);
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
       h("h1", { class: "ttc-hero__h1", html: 'Compare concert ticket prices <em>for the same show.</em>' }),
@@ -381,7 +394,10 @@
   }
 
   function tableSection(DATA) {
-    let tab = "artist", sort = { key: "name", dir: 1 };
+    // Default the artist tab to most-dates-first: a verified ticket link is not
+    // the same promise as an available show, and rows with no upcoming dates
+    // lead to an empty board, so they sort to the bottom and say so in-row.
+    let tab = "artist", sort = { key: "dates", dir: 1 };
     const card = h("div", { class: "ttc-tablecard" });
     const emptyRow = (cols, msg) => h("tr", {}, [h("td", { colspan: cols, class: "ttc-table__empty" }, [msg])]);
 
@@ -391,24 +407,30 @@
         if (sort.key === "name") { av = a.name; bv = b.name; }
         else if (sort.key === "genre") { av = a.genres[0] || "~"; bv = b.genres[0] || "~"; }
         else if (sort.key === "region") { av = a.country || "~"; bv = b.country || "~"; }
+        else if (sort.key === "dates") { av = -a.upcoming; bv = -b.upcoming; }
         else if (sort.key === "verified") { av = a.verified ? 0 : 1; bv = b.verified ? 0 : 1; }
         else { av = a.last_checked || ""; bv = b.last_checked || ""; }
-        return (av < bv ? -1 : av > bv ? 1 : 0) * sort.dir;
+        const primary = av < bv ? -1 : av > bv ? 1 : 0;
+        // Tie-break alphabetically so equally-ranked rows have a stable order.
+        return (primary || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0)) * sort.dir;
       });
-      return arr.map(a => h("tr", {}, [
+      return arr.map(a => h("tr", { class: a.upcoming ? "" : "is-dateless" }, [
         h("td", { "data-k": "Artist" }, [h("span", { class: "ttc-tcell-artist" }, [
           monogram(a.name, 30),
           h("span", {}, [h("span", { class: "nm" }, [a.name]), h("br"), h("span", { class: "gn" }, [a.short.length > 44 ? a.short.slice(0, 44) + "…" : (a.short || "—")])])
         ])]),
         h("td", { "data-k": "Genre" }, [h("span", { class: "ttc-region" }, [a.genres.join(" · ") || "—"])]),
         h("td", { "data-k": "Region" }, [h("span", { class: "ttc-region" }, [regionCode(a.country)])]),
+        h("td", { "data-k": "Dates" }, [a.upcoming
+          ? h("span", { class: "ttc-pill ttc-pill--info" }, [a.upcoming + (a.upcoming === 1 ? " date" : " dates")])
+          : h("span", { class: "ttc-pill ttc-pill--muted" }, ["No dates yet"])]),
         h("td", { "data-k": "Verified" }, [a.verified
           ? h("span", { class: "ttc-pill ttc-pill--good" }, [svg("check"), a.provider])
           : h("span", { class: "ttc-pill ttc-pill--muted" }, ["Watching"])]),
         h("td", { "data-k": "Last check" }, [h("span", { class: "ttc-meta" }, [a.last_checked ? prettyChecked(a.last_checked) : "—"])]),
-        h("td", { class: "ttc-tcell-act", "data-k": "" }, [a.verified
+        h("td", { class: "ttc-tcell-act", "data-k": "" }, [a.verified && a.upcoming
           ? h("a", { class: "ttc-tbtn", href: "/artists/" + a.slug, onclick: () => track("artist_interest", { result: "home_table_artist", routeType: "artist", artistSlug: a.slug }) }, ["Ticket options ", svg("arrow")])
-          : h("a", { class: "ttc-tbtn ttc-tbtn--ghost", href: "/artists/" + a.slug }, ["View page"])])
+          : h("a", { class: "ttc-tbtn ttc-tbtn--ghost", href: "/artists/" + a.slug }, [a.verified ? "Get date alerts" : "View page"])])
       ]));
     }
     function eventRows() {
@@ -424,13 +446,13 @@
       card.innerHTML = "";
       const tabs = [["artist", "Artists", DATA.artists.length], ["event", "Upcoming dates", DATA.eventRows.length]];
       card.appendChild(h("div", { class: "ttc-tabs" }, [
-        ...tabs.map(([k, lbl, c]) => h("button", { class: "ttc-tabs__t" + (tab === k ? " is-on" : ""), type: "button", onclick: () => { tab = k; sort = { key: tab === "artist" ? "name" : "date", dir: 1 }; render(); } }, [lbl, h("span", { class: "c" }, [String(c)])])),
+        ...tabs.map(([k, lbl, c]) => h("button", { class: "ttc-tabs__t" + (tab === k ? " is-on" : ""), type: "button", onclick: () => { tab = k; sort = { key: tab === "artist" ? "dates" : "date", dir: 1 }; render(); } }, [lbl, h("span", { class: "c" }, [String(c)])])),
         h("div", { class: "ttc-tabs__r" }, [h("span", { class: "ttc-meta" }, [pulse(), document.createTextNode(" updated " + DATA.updated_at)])])
       ]));
       const table = h("table", { class: "ttc-table" });
       const thead = h("thead");
       if (tab === "artist") {
-        const cols = [["name", "Artist"], ["genre", "Genre"], ["region", "Region"], ["verified", "Verified"], ["last", "Last check"], [null, "Action", true]];
+        const cols = [["name", "Artist"], ["genre", "Genre"], ["region", "Region"], ["dates", "Dates"], ["verified", "Verified"], ["last", "Last check"], [null, "Action", true]];
         thead.appendChild(h("tr", {}, cols.map(([key, lbl, right]) => {
           const th = h("th", { class: right ? "right" : "" }, [lbl]);
           if (key) { th.appendChild(h("span", { class: "car" }, [sort.key === key ? (sort.dir < 0 ? "↓" : "↑") : "↕"])); th.addEventListener("click", () => { sort = { key, dir: sort.key === key ? -sort.dir : 1 }; render(); }); }
@@ -438,7 +460,7 @@
         })));
         table.appendChild(thead);
         const rows = artistRows();
-        table.appendChild(h("tbody", {}, rows.length ? rows : [emptyRow(6, "No artists to show yet.")]));
+        table.appendChild(h("tbody", {}, rows.length ? rows : [emptyRow(7, "No artists to show yet.")]));
       } else {
         thead.appendChild(h("tr", {}, [["Event"],["Venue"],["Date"],["Region"],["Action",true]].map(([lbl, right]) => h("th", { class: right ? "right" : "" }, [lbl]))));
         table.appendChild(thead);
@@ -451,7 +473,7 @@
 
     return h("section", { class: "ttc-sec ttc-sec--flush" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Coverage explorer"]), h("p", { class: "ttc-sec__desc" }, ["Every tracked artist and when we last checked their links. Ticket buttons appear only for verified destinations."])]),
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Coverage explorer"]), h("p", { class: "ttc-sec__desc" }, ["Every tracked artist and when we last checked their links. Artists with announced dates are listed first; “No dates yet” means the page is up and taking alert signups, but nothing is on sale. Ticket buttons appear only for verified destinations."])]),
         h("a", { class: "ttc-sec__link", href: "/artists" }, ["All artists ", svg("arrow")])
       ]),
       card

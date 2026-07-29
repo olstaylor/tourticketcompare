@@ -243,6 +243,10 @@
 .ttc-table tbody tr:last-child td { border-bottom: none; }
 .ttc-table tbody tr { transition: background .12s; }
 .ttc-table tbody tr:hover { background: color-mix(in oklab, var(--ttc-brand) 4%, transparent); }
+/* Empty-board rows (no upcoming dates): the destination is a real page with an
+   alert signup, but it has nothing on sale — read it as clearly secondary
+   before the click. */
+.ttc-table tbody tr.is-dateless .ttc-tcell-artist .nm { color: var(--ttc-muted); font-weight: 600; }
 .ttc-tcell-artist { display: flex; align-items: center; gap: 11px; }
 .ttc-tcell-artist .nm { font-weight: 700; white-space: nowrap; }
 .ttc-tcell-artist > span:last-child { min-width: 0; }
@@ -313,7 +317,7 @@
   .ttc-stat:nth-child(2) { border-right: none; }
   .ttc-stat:nth-child(1), .ttc-stat:nth-child(2) { border-bottom: 1px solid var(--ttc-border); }
   /* Reflow the coverage table into stacked cards for the whole sub-920 range.
-     Below this width the 6-column table overflows .ttc-tablecard (overflow:
+     Below this width the 7-column table overflows .ttc-tablecard (overflow:
      hidden) and clips the action button — the card layout avoids that. */
   .ttc-table thead { display: none; }
   .ttc-table tbody td { display: block; padding: 4px 16px; border: none; }

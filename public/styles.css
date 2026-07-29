@@ -431,6 +431,19 @@ h3 {
   box-shadow: none;
 }
 
+/* Empty board: the artist page exists (bio, recent dates, alert signup) but has
+   no upcoming dates, so the tile reads as clearly secondary before the click
+   rather than promising a show list it cannot deliver. */
+.artist-card.is-dateless {
+  border-color: var(--line-strong);
+  background: rgba(255, 253, 247, 0.6);
+  box-shadow: none;
+}
+
+.artist-card.is-dateless h3 {
+  color: var(--ink-soft);
+}
+
 .info-card h3,
 .artist-card h3,
 .provider-card h3 {

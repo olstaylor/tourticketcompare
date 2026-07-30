@@ -886,10 +886,10 @@ function expandedQueries(query) {
 
 function searchableEventDate(event) {
   const iso = event.datetime_iso || event.dateTimeISO || "";
-  const parsed = new Date(iso);
-  if (!Number.isFinite(parsed.getTime())) return "";
+  const parts = venueDateParts(iso, event.timezone);
+  if (!parts) return "";
   try {
-    return parsed.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: showTimeZone(iso, event.timezone) });
+    return parts.date.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: parts.timeZone });
   } catch (error) {
     return "";
   }
@@ -1317,11 +1317,10 @@ function renderArtistStatusLegend() {
 }
 
 function formatCardDate(iso, timezone) {
-  if (!iso) return null;
-  const parsed = new Date(iso);
-  if (!Number.isFinite(parsed.getTime())) return null;
+  const parts = venueDateParts(iso, timezone);
+  if (!parts) return null;
   try {
-    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: showTimeZone(iso, timezone) });
+    return parts.date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: parts.timeZone });
   } catch (error) {
     return null;
   }
@@ -1388,55 +1387,60 @@ function renderShowBoardShell(id, title, body, note) {
   return section;
 }
 
-// Which zone a show's date should be read in. Keep in sync with showTimeZone
-// in functions/[[path]].js — see the full rationale there.
+// Resolve a stored datetime to the venue's wall clock. Keep in sync with
+// venueDateParts in functions/[[path]].js — see the full rationale there.
 //
-// A venue-local wall-time string ("2026-07-10T20:00:00") already spells out the
-// venue's date and must be rendered in UTC so the text survives unchanged. A
-// true instant ("2026-10-24T03:00:00Z") must be resolved against the event's
-// own zone: rendering it in UTC shows the next calendar day for an evening show
-// in the Americas. These client formatters previously passed no timeZone at
-// all, so hydration re-rendered every date in the VIEWER's zone — a third
-// answer again, and one that changed depending on who was looking.
-//
-// Instants with no timezone fall back to UTC; the fallback never guesses.
-function showTimeZone(value, timezone) {
-  if (!/(?:Z|[+-]\d{2}:?\d{2})$/.test(String(value || "").trim())) return "UTC";
-  const tz = String(timezone || "").trim();
-  if (!tz) return "UTC";
-  try {
-    new Intl.DateTimeFormat("en-US", { timeZone: tz });
-    return tz;
-  } catch (error) {
-    return "UTC";
+// Three shapes: naive wall time, wall time with an explicit offset (instant
+// preserved for sorting, clock still written literally), and a bare instant
+// that needs `timezone` to recover the venue's day. These client formatters
+// previously passed no timeZone at all, so hydration re-rendered every date in
+// the VIEWER's zone — a different answer again, varying by who was looking.
+function venueDateParts(iso, timezone) {
+  const raw = String(iso || "").trim();
+  if (!raw) return null;
+  if (/Z$/.test(raw)) {
+    const instant = new Date(raw);
+    if (!Number.isFinite(instant.getTime())) return null;
+    const tz = String(timezone || "").trim();
+    if (tz) {
+      try {
+        new Intl.DateTimeFormat("en-US", { timeZone: tz });
+        return { date: instant, timeZone: tz };
+      } catch (error) {
+        // fall through to UTC
+      }
+    }
+    return { date: instant, timeZone: "UTC" };
   }
+  const wall = raw.replace(/[+-]\d{2}:?\d{2}$/, "");
+  const asUtc = new Date(`${wall}Z`);
+  if (!Number.isFinite(asUtc.getTime())) return null;
+  return { date: asUtc, timeZone: "UTC" };
 }
 
 function formatShowDate(value, timezone) {
-  if (!value) return "";
-  const parsed = new Date(value);
-  if (!Number.isFinite(parsed.getTime())) return "";
-  return parsed.toLocaleDateString("en-US", {
+  const parts = venueDateParts(value, timezone);
+  if (!parts) return "";
+  return parts.date.toLocaleDateString("en-US", {
     weekday: "short",
     month: "short",
     day: "numeric",
     year: "numeric",
-    timeZone: showTimeZone(value, timezone)
+    timeZone: parts.timeZone
   });
 }
 
 // Date badge parts for the compact show card. Keep in sync with
 // showDatePartsServer in functions/[[path]].js.
 function showDateParts(value, timezone) {
-  if (!value) return null;
-  const parsed = new Date(value);
-  if (!Number.isFinite(parsed.getTime())) return null;
-  const timeZone = showTimeZone(value, timezone);
+  const parts = venueDateParts(value, timezone);
+  if (!parts) return null;
+  const { date, timeZone } = parts;
   try {
     return {
-      weekday: parsed.toLocaleDateString("en-US", { weekday: "short", timeZone }),
-      day: parsed.toLocaleDateString("en-US", { day: "numeric", timeZone }),
-      monthYear: parsed.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone })
+      weekday: date.toLocaleDateString("en-US", { weekday: "short", timeZone }),
+      day: date.toLocaleDateString("en-US", { day: "numeric", timeZone }),
+      monthYear: date.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone })
     };
   } catch (error) {
     return null;

@@ -26082,11 +26082,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7735036",
-        "url": "https://www.ticketliquidator.com/tickets/7735036/Tame-Impala-tickets-Wed-Jul-29-2026-TD-Garden",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107102474",
@@ -26100,7 +26100,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735036/Tame-Impala-tickets-Wed-Jul-29-2026-TD-Garden",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-boston-tickets-7-29-2026/event/107102474"
   },
   {

@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0800633A24604FE8",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-detroit-michigan-10-01-2026/event/0800633A24604FE8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-detroit-little-caesars-arena-10-1-2026--concerts-rap-hip-hop/production/6091534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-detroit-michigan-10-01-2026/event/0800633A24604FE8",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091534,
+        "url": "https://www.vividseats.com/doja-cat-tickets-detroit-little-caesars-arena-10-1-2026--concerts-rap-hip-hop/production/6091534",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -81,7 +81,7 @@
     "ticketmaster_event_id": "0400633AB95340B3",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-chicago-illinois-10-03-2026/event/0400633AB95340B3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-chicago-united-center-10-3-2026--concerts-rap-hip-hop/production/6091533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-chicago-illinois-10-03-2026/event/0400633AB95340B3",
     "last_verified_at": null,
@@ -103,11 +103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091533,
+        "url": "https://www.vividseats.com/doja-cat-tickets-chicago-united-center-10-3-2026--concerts-rap-hip-hop/production/6091533",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -150,7 +150,7 @@
     "ticketmaster_event_id": "0600633A9C4B4C17",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-minneapolis-minnesota-10-04-2026/event/0600633A9C4B4C17",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-minneapolis-target-center-10-4-2026--concerts-rap-hip-hop/production/6091535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-minneapolis-minnesota-10-04-2026/event/0600633A9C4B4C17",
     "last_verified_at": null,
@@ -172,11 +172,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091535,
+        "url": "https://www.vividseats.com/doja-cat-tickets-minneapolis-target-center-10-4-2026--concerts-rap-hip-hop/production/6091535",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -211,7 +211,7 @@
     "ticketmaster_event_id": "0600633CA3FC307A",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-kansas-city-missouri-10-06-2026/event/0600633CA3FC307A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-kansas-city-t-mobile-center-10-6-2026--concerts-rap-hip-hop/production/6091541",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-kansas-city-missouri-10-06-2026/event/0600633CA3FC307A",
     "last_verified_at": null,
@@ -233,11 +233,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091541,
+        "url": "https://www.vividseats.com/doja-cat-tickets-kansas-city-t-mobile-center-10-6-2026--concerts-rap-hip-hop/production/6091541",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -272,7 +272,7 @@
     "ticketmaster_event_id": "1E006339C882416A",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-denver-colorado-10-08-2026/event/1E006339C882416A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-denver-ball-arena-10-8-2026--concerts-rap-hip-hop/production/6091542",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-denver-colorado-10-08-2026/event/1E006339C882416A",
     "last_verified_at": null,
@@ -294,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091542,
+        "url": "https://www.vividseats.com/doja-cat-tickets-denver-ball-arena-10-8-2026--concerts-rap-hip-hop/production/6091542",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -394,7 +394,7 @@
     "ticketmaster_event_id": "11006339E0CE8339",
     "ticketmaster_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-vancouver-british-columbia-10-13-2026/event/11006339E0CE8339",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-vancouver-rogers-arena-10-13-2026--concerts-rap-hip-hop/production/6091614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-vancouver-british-columbia-10-13-2026/event/11006339E0CE8339",
     "last_verified_at": null,
@@ -416,11 +416,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091614,
+        "url": "https://www.vividseats.com/doja-cat-tickets-vancouver-rogers-arena-10-13-2026--concerts-rap-hip-hop/production/6091614",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -463,7 +463,7 @@
     "ticketmaster_event_id": "0F00633ADD435829",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-seattle-washington-10-15-2026/event/0F00633ADD435829",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-seattle-climate-pledge-arena-10-15-2026--concerts-rap-hip-hop/production/6091545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-seattle-washington-10-15-2026/event/0F00633ADD435829",
     "last_verified_at": null,
@@ -485,11 +485,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091545,
+        "url": "https://www.vividseats.com/doja-cat-tickets-seattle-climate-pledge-arena-10-15-2026--concerts-rap-hip-hop/production/6091545",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -532,7 +532,7 @@
     "ticketmaster_event_id": "0F00633A89A82A33",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-portland-oregon-10-17-2026/event/0F00633A89A82A33",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-portland-moda-center-10-17-2026--concerts-rap-hip-hop/production/6091546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-portland-oregon-10-17-2026/event/0F00633A89A82A33",
     "last_verified_at": null,
@@ -554,11 +554,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091546,
+        "url": "https://www.vividseats.com/doja-cat-tickets-portland-moda-center-10-17-2026--concerts-rap-hip-hop/production/6091546",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -593,7 +593,7 @@
     "ticketmaster_event_id": "1C0063390D157FFD",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-san-francisco-chase-center-10-19-2026--concerts-rap-hip-hop/production/6091547",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
     "last_verified_at": null,
@@ -615,11 +615,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091547,
+        "url": "https://www.vividseats.com/doja-cat-tickets-san-francisco-chase-center-10-19-2026--concerts-rap-hip-hop/production/6091547",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -662,7 +662,7 @@
     "ticketmaster_event_id": "1C00633AA65F408A",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-sacramento-california-10-20-2026/event/1C00633AA65F408A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-sacramento-golden-1-center-10-20-2026--concerts-rap-hip-hop/production/6091548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-sacramento-california-10-20-2026/event/1C00633AA65F408A",
     "last_verified_at": null,
@@ -684,11 +684,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091548,
+        "url": "https://www.vividseats.com/doja-cat-tickets-sacramento-golden-1-center-10-20-2026--concerts-rap-hip-hop/production/6091548",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -731,7 +731,7 @@
     "ticketmaster_event_id": "0900633A1B2389F9",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-inglewood-california-10-22-2026/event/0900633A1B2389F9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-inglewood-kia-forum-10-22-2026--concerts-rap-hip-hop/production/6091549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-inglewood-california-10-22-2026/event/0900633A1B2389F9",
     "last_verified_at": null,
@@ -753,11 +753,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091549,
+        "url": "https://www.vividseats.com/doja-cat-tickets-inglewood-kia-forum-10-22-2026--concerts-rap-hip-hop/production/6091549",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -930,7 +930,7 @@
     "ticketmaster_event_id": "3A00633ACFDC7883",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-austin-texas-11-03-2026/event/3A00633ACFDC7883",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-austin-moody-center-atx-11-3-2026--concerts-rap-hip-hop/production/6091696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-austin-texas-11-03-2026/event/3A00633ACFDC7883",
     "last_verified_at": null,
@@ -952,11 +952,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091696,
+        "url": "https://www.vividseats.com/doja-cat-tickets-austin-moody-center-atx-11-3-2026--concerts-rap-hip-hop/production/6091696",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -999,7 +999,7 @@
     "ticketmaster_event_id": "0C00633A5DE60F3B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-dallas-texas-11-04-2026/event/0C00633A5DE60F3B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-dallas-american-airlines-center---tx-11-4-2026--concerts-rap-hip-hop/production/6091560",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-dallas-texas-11-04-2026/event/0C00633A5DE60F3B",
     "last_verified_at": null,
@@ -1021,11 +1021,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091560,
+        "url": "https://www.vividseats.com/doja-cat-tickets-dallas-american-airlines-center---tx-11-4-2026--concerts-rap-hip-hop/production/6091560",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1068,7 +1068,7 @@
     "ticketmaster_event_id": "3A006338F42E6A55",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-antonio-texas-11-06-2026/event/3A006338F42E6A55",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-san-antonio-frost-bank-center-11-6-2026--concerts-rap-hip-hop/production/6091562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-antonio-texas-11-06-2026/event/3A006338F42E6A55",
     "last_verified_at": null,
@@ -1090,11 +1090,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091562,
+        "url": "https://www.vividseats.com/doja-cat-tickets-san-antonio-frost-bank-center-11-6-2026--concerts-rap-hip-hop/production/6091562",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1189,7 +1189,7 @@
     "ticketmaster_event_id": "0D006339140D4C8B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-miami-florida-11-11-2026/event/0D006339140D4C8B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-miami-kaseya-center-11-11-2026--concerts-rap-hip-hop/production/6091566",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-miami-florida-11-11-2026/event/0D006339140D4C8B",
     "last_verified_at": null,
@@ -1211,11 +1211,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091566,
+        "url": "https://www.vividseats.com/doja-cat-tickets-miami-kaseya-center-11-11-2026--concerts-rap-hip-hop/production/6091566",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1258,7 +1258,7 @@
     "ticketmaster_event_id": "0D00633AEE974980",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-tampa-florida-11-13-2026/event/0D00633AEE974980",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-tampa-benchmark-international-arena-11-13-2026--concerts-rap-hip-hop/production/6091568",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-tampa-florida-11-13-2026/event/0D00633AEE974980",
     "last_verified_at": null,
@@ -1280,11 +1280,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091568,
+        "url": "https://www.vividseats.com/doja-cat-tickets-tampa-benchmark-international-arena-11-13-2026--concerts-rap-hip-hop/production/6091568",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1327,7 +1327,7 @@
     "ticketmaster_event_id": "2200633AE37E3BA9",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-orlando-florida-11-14-2026/event/2200633AE37E3BA9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-orlando-kia-center-11-14-2026--concerts-rap-hip-hop/production/6091570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-orlando-florida-11-14-2026/event/2200633AE37E3BA9",
     "last_verified_at": null,
@@ -1349,11 +1349,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091570,
+        "url": "https://www.vividseats.com/doja-cat-tickets-orlando-kia-center-11-14-2026--concerts-rap-hip-hop/production/6091570",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1396,7 +1396,7 @@
     "ticketmaster_event_id": "0E00633AC24B633B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
     "last_verified_at": null,
@@ -1418,11 +1418,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091572,
+        "url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1465,7 +1465,7 @@
     "ticketmaster_event_id": "2D006339EEEC97F4",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-charlotte-north-carolina-11-18-2026/event/2D006339EEEC97F4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-charlotte-spectrum-center-11-18-2026--concerts-rap-hip-hop/production/6091576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-charlotte-north-carolina-11-18-2026/event/2D006339EEEC97F4",
     "last_verified_at": null,
@@ -1487,11 +1487,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091576,
+        "url": "https://www.vividseats.com/doja-cat-tickets-charlotte-spectrum-center-11-18-2026--concerts-rap-hip-hop/production/6091576",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1534,7 +1534,7 @@
     "ticketmaster_event_id": "1500633A88BC22BE",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-baltimore-maryland-11-20-2026/event/1500633A88BC22BE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-baltimore-maryland-11-20-2026/event/1500633A88BC22BE",
     "last_verified_at": null,
@@ -1556,11 +1556,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091577,
+        "url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1595,7 +1595,7 @@
     "ticketmaster_event_id": "15006339E5D65BD6",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-washington-district-of-columbia-11-21-2026/event/15006339E5D65BD6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-washington-capital-one-arena-11-21-2026--concerts-rap-hip-hop/production/6091579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-washington-district-of-columbia-11-21-2026/event/15006339E5D65BD6",
     "last_verified_at": null,
@@ -1617,11 +1617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091579,
+        "url": "https://www.vividseats.com/doja-cat-tickets-washington-capital-one-arena-11-21-2026--concerts-rap-hip-hop/production/6091579",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1664,7 +1664,7 @@
     "ticketmaster_event_id": "0100633917079EE3",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-boston-massachusetts-11-23-2026/event/0100633917079EE3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-boston-td-garden-11-23-2026--concerts-rap-hip-hop/production/6091580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-boston-massachusetts-11-23-2026/event/0100633917079EE3",
     "last_verified_at": null,
@@ -1686,11 +1686,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091580,
+        "url": "https://www.vividseats.com/doja-cat-tickets-boston-td-garden-11-23-2026--concerts-rap-hip-hop/production/6091580",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1733,7 +1733,7 @@
     "ticketmaster_event_id": "100063398CD0266D",
     "ticketmaster_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-toronto-ontario-11-25-2026/event/100063398CD0266D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-toronto-scotiabank-arena-11-25-2026--concerts-rap-hip-hop/production/6091757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-toronto-ontario-11-25-2026/event/100063398CD0266D",
     "last_verified_at": null,
@@ -1755,11 +1755,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091757,
+        "url": "https://www.vividseats.com/doja-cat-tickets-toronto-scotiabank-arena-11-25-2026--concerts-rap-hip-hop/production/6091757",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1847,7 +1847,7 @@
     "ticketmaster_event_id": "3000633AC3E34D89",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-philadelphia-pennsylvania-11-29-2026/event/3000633AC3E34D89",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-philadelphia-xfinity-mobile-arena-11-29-2026--concerts-rap-hip-hop/production/6091581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-philadelphia-pennsylvania-11-29-2026/event/3000633AC3E34D89",
     "last_verified_at": null,
@@ -1869,11 +1869,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091581,
+        "url": "https://www.vividseats.com/doja-cat-tickets-philadelphia-xfinity-mobile-arena-11-29-2026--concerts-rap-hip-hop/production/6091581",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1916,7 +1916,7 @@
     "ticketmaster_event_id": "3B00633A23FD3029",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-new-york-new-york-12-01-2026/event/3B00633A23FD3029",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-new-york-madison-square-garden-12-1-2026--concerts-rap-hip-hop/production/6091583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-new-york-new-york-12-01-2026/event/3B00633A23FD3029",
     "last_verified_at": null,
@@ -1938,11 +1938,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091583,
+        "url": "https://www.vividseats.com/doja-cat-tickets-new-york-madison-square-garden-12-1-2026--concerts-rap-hip-hop/production/6091583",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

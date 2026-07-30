@@ -27249,7 +27249,7 @@
     "ticketmaster_event_id": "350064E896B5A263",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/jayz-30-london-05-09-2026/event/350064E896B5A263",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-z-tickets-london-tottenham-hotspur-stadium-9-5-2026--concerts-rap-hip-hop/production/7349810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jayz-30-london-05-09-2026/event/350064E896B5A263",
     "last_verified_at": null,
@@ -27271,11 +27271,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7349810,
+        "url": "https://www.vividseats.com/jay-z-tickets-london-tottenham-hotspur-stadium-9-5-2026--concerts-rap-hip-hop/production/7349810",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27310,7 +27310,7 @@
     "ticketmaster_event_id": "0A0064C8E971D777",
     "ticketmaster_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-24-2026--concerts-rap-hip-hop/production/7348557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
     "last_verified_at": null,
@@ -27332,11 +27332,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7348557,
+        "url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-24-2026--concerts-rap-hip-hop/production/7348557",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27379,7 +27379,7 @@
     "ticketmaster_event_id": "1E0064B2E736C3FD",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-2-2026--concerts-alternative/production/7091509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
     "last_verified_at": null,
@@ -27401,11 +27401,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091509,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-2-2026--concerts-alternative/production/7091509",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27448,7 +27448,7 @@
     "ticketmaster_event_id": "1E0064BAFCFA70CC",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-3-2026--concerts-alternative/production/7091517",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
     "last_verified_at": null,
@@ -27470,11 +27470,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091517,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-3-2026--concerts-alternative/production/7091517",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27517,7 +27517,7 @@
     "ticketmaster_event_id": "1C0064ADBB8886FE",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-6-2026--concerts-alternative/production/7091523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
     "last_verified_at": null,
@@ -27539,11 +27539,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091523,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-6-2026--concerts-alternative/production/7091523",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27586,7 +27586,7 @@
     "ticketmaster_event_id": "1C0064BB9D932123",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-7-2026--concerts-alternative/production/7091527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
     "last_verified_at": null,
@@ -27608,11 +27608,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091527,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-7-2026--concerts-alternative/production/7091527",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27655,7 +27655,7 @@
     "ticketmaster_event_id": "190064B3F3DEA73D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-9-2026--concerts-alternative/production/7091529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
     "last_verified_at": null,
@@ -27677,11 +27677,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091529,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-9-2026--concerts-alternative/production/7091529",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27724,7 +27724,7 @@
     "ticketmaster_event_id": "190064B4125FDEF3",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-10-2026--concerts-alternative/production/7091531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
     "last_verified_at": null,
@@ -27746,11 +27746,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091531,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-10-2026--concerts-alternative/production/7091531",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27793,7 +27793,7 @@
     "ticketmaster_event_id": "090064B49319A5BE",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-14-2026--concerts-alternative/production/7091533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
     "last_verified_at": null,
@@ -27815,11 +27815,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091533,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-14-2026--concerts-alternative/production/7091533",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27862,7 +27862,7 @@
     "ticketmaster_event_id": "090064BBE484EE0D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-18-2026--concerts-alternative/production/7091535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
     "last_verified_at": null,
@@ -27884,11 +27884,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091535,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-18-2026--concerts-alternative/production/7091535",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -27931,7 +27931,7 @@
     "ticketmaster_event_id": "090064BBE48FEE25",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-19-2026--concerts-alternative/production/7091539",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
     "last_verified_at": null,
@@ -27953,11 +27953,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091539,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-19-2026--concerts-alternative/production/7091539",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28000,7 +28000,7 @@
     "ticketmaster_event_id": "090064BBE49DEE4D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-20-2026--concerts-alternative/production/7091543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
     "last_verified_at": null,
@@ -28022,11 +28022,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091543,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-20-2026--concerts-alternative/production/7091543",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28069,7 +28069,7 @@
     "ticketmaster_event_id": "0F0064AEAA9AA408",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-26-2027--concerts-alternative/production/7091546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
     "last_verified_at": null,
@@ -28091,11 +28091,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091546,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-26-2027--concerts-alternative/production/7091546",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28138,7 +28138,7 @@
     "ticketmaster_event_id": "0F0064BBF94F49AA",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-27-2027--concerts-alternative/production/7091550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
     "last_verified_at": null,
@@ -28160,11 +28160,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091550,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-27-2027--concerts-alternative/production/7091550",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28207,7 +28207,7 @@
     "ticketmaster_event_id": "0F0064BBF95C49C8",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-29-2027--concerts-alternative/production/7091554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
     "last_verified_at": null,
@@ -28229,11 +28229,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091554,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-29-2027--concerts-alternative/production/7091554",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28276,7 +28276,7 @@
     "ticketmaster_event_id": "0F0064AEB974BB75",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-1-31-2027--concerts-alternative/production/7091557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
     "last_verified_at": null,
@@ -28298,11 +28298,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091557,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-1-31-2027--concerts-alternative/production/7091557",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28345,7 +28345,7 @@
     "ticketmaster_event_id": "0F0064AEB977BB7B",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-2-1-2027--concerts-alternative/production/7091559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
     "last_verified_at": null,
@@ -28367,11 +28367,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091559,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-2-1-2027--concerts-alternative/production/7091559",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28414,7 +28414,7 @@
     "ticketmaster_event_id": "040064970383E8B6",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-11-2027--concerts-alternative/production/7091486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
     "last_verified_at": null,
@@ -28436,11 +28436,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091486,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-11-2027--concerts-alternative/production/7091486",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28483,7 +28483,7 @@
     "ticketmaster_event_id": "040064BBFB87B15B",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-12-2027--concerts-alternative/production/7091483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
     "last_verified_at": null,
@@ -28505,11 +28505,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091483,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-12-2027--concerts-alternative/production/7091483",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28552,7 +28552,7 @@
     "ticketmaster_event_id": "1B0064B2A09F92BD",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-14-2027--concerts-alternative/production/7091489",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
     "last_verified_at": null,
@@ -28574,11 +28574,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091489,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-14-2027--concerts-alternative/production/7091489",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28621,7 +28621,7 @@
     "ticketmaster_event_id": "1B0064BBCCD04785",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-15-2027--concerts-alternative/production/7091493",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
     "last_verified_at": null,
@@ -28643,11 +28643,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091493,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-15-2027--concerts-alternative/production/7091493",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28690,7 +28690,7 @@
     "ticketmaster_event_id": "100064ACDD6154D0",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-18-2027--concerts-alternative/production/7091562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
     "last_verified_at": null,
@@ -28712,11 +28712,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091562,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-18-2027--concerts-alternative/production/7091562",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28743,7 +28743,7 @@
     "ticketmaster_event_id": "100064BB0E66D7F6",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-19-2027--concerts-alternative/production/7091567",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
     "last_verified_at": null,
@@ -28765,11 +28765,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091567,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-19-2027--concerts-alternative/production/7091567",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28796,7 +28796,7 @@
     "ticketmaster_event_id": "0E0064BA9D9E8164",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-23-2027--concerts-alternative/production/7091569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
     "last_verified_at": null,
@@ -28818,11 +28818,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091569,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-23-2027--concerts-alternative/production/7091569",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28865,7 +28865,7 @@
     "ticketmaster_event_id": "0E0064BA9DA2816C",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-24-2027--concerts-alternative/production/7091571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
     "last_verified_at": null,
@@ -28887,11 +28887,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091571,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-24-2027--concerts-alternative/production/7091571",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -28934,7 +28934,7 @@
     "ticketmaster_event_id": "2D00649BA4C9FC8D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-26-2027--concerts-alternative/production/7091573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
     "last_verified_at": null,
@@ -28956,11 +28956,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091573,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-26-2027--concerts-alternative/production/7091573",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29003,7 +29003,7 @@
     "ticketmaster_event_id": "2D0064BBF9018C34",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-27-2027--concerts-alternative/production/7091579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
     "last_verified_at": null,
@@ -29025,11 +29025,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091579,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-27-2027--concerts-alternative/production/7091579",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29072,7 +29072,7 @@
     "ticketmaster_event_id": "0100649CA566E8DF",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-1-2027--concerts-alternative/production/7091585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
     "last_verified_at": null,
@@ -29094,11 +29094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091585,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-1-2027--concerts-alternative/production/7091585",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29141,7 +29141,7 @@
     "ticketmaster_event_id": "010064BBCD30F3BA",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-2-2027--concerts-alternative/production/7091587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
     "last_verified_at": null,
@@ -29163,11 +29163,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091587,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-2-2027--concerts-alternative/production/7091587",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29210,7 +29210,7 @@
     "ticketmaster_event_id": "1500649CD409C9DA",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-4-2027--concerts-alternative/production/7091591",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
     "last_verified_at": null,
@@ -29232,11 +29232,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091591,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-4-2027--concerts-alternative/production/7091591",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29279,7 +29279,7 @@
     "ticketmaster_event_id": "150064BBD570B9A2",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-05-2027/event/150064BBD570B9A2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-5-2027--concerts-alternative/production/7091593",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-05-2027/event/150064BBD570B9A2",
     "last_verified_at": null,
@@ -29301,11 +29301,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091593,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-5-2027--concerts-alternative/production/7091593",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29348,7 +29348,7 @@
     "ticketmaster_event_id": "310064BA7C90328C",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-08-2027/event/310064BA7C90328C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-8-2027--concerts-alternative/production/7091595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-08-2027/event/310064BA7C90328C",
     "last_verified_at": null,
@@ -29370,11 +29370,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091595,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-8-2027--concerts-alternative/production/7091595",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29409,7 +29409,7 @@
     "ticketmaster_event_id": "310064BA7C943293",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-9-2027--concerts-alternative/production/7091597",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293",
     "last_verified_at": null,
@@ -29431,11 +29431,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091597,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-9-2027--concerts-alternative/production/7091597",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29470,7 +29470,7 @@
     "ticketmaster_event_id": "300064B5AF355E3B",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-12-2027/event/300064B5AF355E3B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-12-2027--concerts-alternative/production/7091601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-12-2027/event/300064B5AF355E3B",
     "last_verified_at": null,
@@ -29492,11 +29492,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091601,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-12-2027--concerts-alternative/production/7091601",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29539,7 +29539,7 @@
     "ticketmaster_event_id": "300064B5AF375E3D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-13-2027/event/300064B5AF375E3D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-13-2027--concerts-alternative/production/7091603",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-13-2027/event/300064B5AF375E3D",
     "last_verified_at": null,
@@ -29561,11 +29561,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091603,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-13-2027--concerts-alternative/production/7091603",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29608,7 +29608,7 @@
     "ticketmaster_event_id": "300064ACE4E97EDD",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-16-2027/event/300064ACE4E97EDD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-16-2027--concerts-alternative/production/7091609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-16-2027/event/300064ACE4E97EDD",
     "last_verified_at": null,
@@ -29630,11 +29630,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091609,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-16-2027--concerts-alternative/production/7091609",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29677,7 +29677,7 @@
     "ticketmaster_event_id": "300064BB023ED800",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-17-2027/event/300064BB023ED800",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-17-2027--concerts-alternative/production/7091611",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-17-2027/event/300064BB023ED800",
     "last_verified_at": null,
@@ -29699,11 +29699,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091611,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-17-2027--concerts-alternative/production/7091611",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29746,7 +29746,7 @@
     "ticketmaster_event_id": "300064BB024DD80D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-19-2027/event/300064BB024DD80D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-19-2027--concerts-alternative/production/7091613",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-19-2027/event/300064BB024DD80D",
     "last_verified_at": null,
@@ -29768,11 +29768,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091613,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-19-2027--concerts-alternative/production/7091613",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29815,7 +29815,7 @@
     "ticketmaster_event_id": "300064BB0261D81E",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-20-2027/event/300064BB0261D81E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-20-2027--concerts-alternative/production/7091615",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-20-2027/event/300064BB0261D81E",
     "last_verified_at": null,
@@ -29837,11 +29837,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091615,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-20-2027--concerts-alternative/production/7091615",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -29990,7 +29990,7 @@
     "ticketmaster_event_id": "370064BBD8963014",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-22-04-2027/event/370064BBD8963014",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-22-2027--concerts-alternative/production/7091736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-22-04-2027/event/370064BBD8963014",
     "last_verified_at": null,
@@ -30012,11 +30012,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091736,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-22-2027--concerts-alternative/production/7091736",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30059,7 +30059,7 @@
     "ticketmaster_event_id": "370064C199D13F1F",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-24-04-2027/event/370064C199D13F1F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-24-2027--concerts-alternative/production/7091740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-24-04-2027/event/370064C199D13F1F",
     "last_verified_at": null,
@@ -30081,11 +30081,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091740,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-24-2027--concerts-alternative/production/7091740",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30128,7 +30128,7 @@
     "ticketmaster_event_id": "370064C1A51F4B4B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-25-04-2027/event/370064C1A51F4B4B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-25-2027--concerts-alternative/production/7091742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-25-04-2027/event/370064C1A51F4B4B",
     "last_verified_at": null,
@@ -30150,11 +30150,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091742,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-25-2027--concerts-alternative/production/7091742",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30197,7 +30197,7 @@
     "ticketmaster_event_id": "350064BCA96E67D7",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-30-04-2027/event/350064BCA96E67D7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-4-30-2027--concerts-alternative/production/7095586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-30-04-2027/event/350064BCA96E67D7",
     "last_verified_at": null,
@@ -30219,11 +30219,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095586,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-4-30-2027--concerts-alternative/production/7095586",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30258,7 +30258,7 @@
     "ticketmaster_event_id": "350064BCAC1D69DB",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-01-05-2027/event/350064BCAC1D69DB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-1-2027--concerts-alternative/production/7095588",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-01-05-2027/event/350064BCAC1D69DB",
     "last_verified_at": null,
@@ -30280,11 +30280,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095588,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-1-2027--concerts-alternative/production/7095588",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30319,7 +30319,7 @@
     "ticketmaster_event_id": "350064BCAD616B0A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-03-05-2027/event/350064BCAD616B0A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-3-2027--concerts-alternative/production/7095590",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-03-05-2027/event/350064BCAD616B0A",
     "last_verified_at": null,
@@ -30341,11 +30341,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095590,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-3-2027--concerts-alternative/production/7095590",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30380,7 +30380,7 @@
     "ticketmaster_event_id": "350064BCAE5F6C4B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-04-05-2027/event/350064BCAE5F6C4B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-4-2027--concerts-alternative/production/7095592",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-04-05-2027/event/350064BCAE5F6C4B",
     "last_verified_at": null,
@@ -30402,11 +30402,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095592,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-4-2027--concerts-alternative/production/7095592",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30648,7 +30648,7 @@
     "ticketmaster_event_id": "1897596244",
     "ticketmaster_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1897596244?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-berlin-uber-arena-5-12-2027--concerts-alternative/production/7095636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1897596244?language=en-us",
     "last_verified_at": null,
@@ -30670,11 +30670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095636,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-berlin-uber-arena-5-12-2027--concerts-alternative/production/7095636",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30717,7 +30717,7 @@
     "ticketmaster_event_id": "1227215596",
     "ticketmaster_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1227215596?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-berlin-uber-arena-5-13-2027--concerts-alternative/production/7095638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1227215596?language=en-us",
     "last_verified_at": null,
@@ -30739,11 +30739,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095638,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-berlin-uber-arena-5-13-2027--concerts-alternative/production/7095638",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30855,7 +30855,7 @@
     "ticketmaster_event_id": "1971168181",
     "ticketmaster_url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1971168181?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-barcelona-palau-sant-jordi-5-28-2027--concerts-alternative/production/7095654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1971168181?language=en-us",
     "last_verified_at": null,
@@ -30877,11 +30877,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095654,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-barcelona-palau-sant-jordi-5-28-2027--concerts-alternative/production/7095654",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30924,7 +30924,7 @@
     "ticketmaster_event_id": "23006479EFE010B5",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-birmingham-22-09-2026/event/23006479EFE010B5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-birmingham-utilita-arena-birmingham-9-22-2026/production/6829693",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-birmingham-22-09-2026/event/23006479EFE010B5",
     "last_verified_at": null,
@@ -30946,11 +30946,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6829693,
+        "url": "https://www.vividseats.com/niall-horan-tickets-birmingham-utilita-arena-birmingham-9-22-2026/production/6829693",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -30993,7 +30993,7 @@
     "ticketmaster_event_id": "1F006479A7E35188",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-newcastle-upon-tyne-23-09-2026/event/1F006479A7E35188",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-newcastle-upon-tyne-utilita-arena-newcastle-9-23-2026/production/6829695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-newcastle-upon-tyne-23-09-2026/event/1F006479A7E35188",
     "last_verified_at": null,
@@ -31015,11 +31015,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6829695,
+        "url": "https://www.vividseats.com/niall-horan-tickets-newcastle-upon-tyne-utilita-arena-newcastle-9-23-2026/production/6829695",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -31054,7 +31054,7 @@
     "ticketmaster_event_id": "37006478DA9D3554",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-manchester-25-09-2026/event/37006478DA9D3554",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-manchester-co-op-live-9-25-2026/production/6829882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-manchester-25-09-2026/event/37006478DA9D3554",
     "last_verified_at": null,
@@ -31076,11 +31076,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6829882,
+        "url": "https://www.vividseats.com/niall-horan-tickets-manchester-co-op-live-9-25-2026/production/6829882",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -31123,7 +31123,7 @@
     "ticketmaster_event_id": "36006478B08B6D70",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-glasgow-28-09-2026/event/36006478B08B6D70",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-glasgow-ovo-hydro-9-28-2026/production/6829878",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-glasgow-28-09-2026/event/36006478B08B6D70",
     "last_verified_at": null,
@@ -31145,11 +31145,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6829878,
+        "url": "https://www.vividseats.com/niall-horan-tickets-glasgow-ovo-hydro-9-28-2026/production/6829878",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -31192,7 +31192,7 @@
     "ticketmaster_event_id": "35006478976A5120",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-sheffield-29-09-2026/event/35006478976A5120",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-sheffield-utilita-arena-sheffield-9-29-2026/production/6829886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-sheffield-29-09-2026/event/35006478976A5120",
     "last_verified_at": null,
@@ -31214,11 +31214,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6829886,
+        "url": "https://www.vividseats.com/niall-horan-tickets-sheffield-utilita-arena-sheffield-9-29-2026/production/6829886",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -31261,7 +31261,7 @@
     "ticketmaster_event_id": "35006479D397919F",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-london-02-10-2026/event/35006479D397919F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-london-the-o2---london-10-2-2026/production/6829888",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-london-02-10-2026/event/35006479D397919F",
     "last_verified_at": null,
@@ -31283,11 +31283,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6829888,
+        "url": "https://www.vividseats.com/niall-horan-tickets-london-the-o2---london-10-2-2026/production/6829888",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -31322,7 +31322,7 @@
     "ticketmaster_event_id": "35006479F4E8C0EC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-london-03-10-2026/event/35006479F4E8C0EC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-london-the-o2---london-10-3-2026/production/6855566",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/niall-horan-dinner-party-live-on-london-03-10-2026/event/35006479F4E8C0EC",
     "last_verified_at": null,
@@ -31344,11 +31344,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6855566,
+        "url": "https://www.vividseats.com/niall-horan-tickets-london-the-o2---london-10-3-2026/production/6855566",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -31383,7 +31383,7 @@
     "ticketmaster_event_id": "1564356658",
     "ticketmaster_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-logen-seat-tickets/1564356658?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-hamburg-barclays-arena---hamburg-10-7-2026--concerts-pop/production/6832659",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-logen-seat-tickets/1564356658?language=en-us",
     "last_verified_at": null,
@@ -31405,11 +31405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6832659,
+        "url": "https://www.vividseats.com/niall-horan-tickets-hamburg-barclays-arena---hamburg-10-7-2026--concerts-pop/production/6832659",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -31582,7 +31582,7 @@
     "ticketmaster_event_id": "1161699413",
     "ticketmaster_url": "https://www.ticketmaster.es/event/niall-horan-dinner-party-live-on-tour-tickets/1161699413?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-barcelona-palau-sant-jordi-10-25-2026--concerts-pop/production/6832670",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/niall-horan-dinner-party-live-on-tour-tickets/1161699413?language=en-us",
     "last_verified_at": null,
@@ -31604,11 +31604,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6832670,
+        "url": "https://www.vividseats.com/niall-horan-tickets-barcelona-palau-sant-jordi-10-25-2026--concerts-pop/production/6832670",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -31984,7 +31984,7 @@
     "ticketmaster_event_id": "080064A7B4549CE9",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-detroit-michigan-03-19-2027/event/080064A7B4549CE9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-detroit-little-caesars-arena-3-19-2027/production/7017219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-detroit-michigan-03-19-2027/event/080064A7B4549CE9",
     "last_verified_at": null,
@@ -32006,11 +32006,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017219,
+        "url": "https://www.vividseats.com/niall-horan-tickets-detroit-little-caesars-arena-3-19-2027/production/7017219",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32053,7 +32053,7 @@
     "ticketmaster_event_id": "050064A897A0C11D",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-columbus-ohio-03-20-2027/event/050064A897A0C11D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-columbus-nationwide-arena-3-20-2027/production/7017191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-columbus-ohio-03-20-2027/event/050064A897A0C11D",
     "last_verified_at": null,
@@ -32075,11 +32075,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017191,
+        "url": "https://www.vividseats.com/niall-horan-tickets-columbus-nationwide-arena-3-20-2027/production/7017191",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32114,7 +32114,7 @@
     "ticketmaster_event_id": "040064A7DFC05998",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-chicago-illinois-03-23-2027/event/040064A7DFC05998",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-chicago-united-center-3-23-2027/production/7017215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-chicago-illinois-03-23-2027/event/040064A7DFC05998",
     "last_verified_at": null,
@@ -32136,11 +32136,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017215,
+        "url": "https://www.vividseats.com/niall-horan-tickets-chicago-united-center-3-23-2027/production/7017215",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32183,7 +32183,7 @@
     "ticketmaster_event_id": "050064A6E98F9E81",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-indianapolis-indiana-03-26-2027/event/050064A6E98F9E81",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-indianapolis-gainbridge-fieldhouse-3-26-2027/production/7017203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-indianapolis-indiana-03-26-2027/event/050064A6E98F9E81",
     "last_verified_at": null,
@@ -32205,11 +32205,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017203,
+        "url": "https://www.vividseats.com/niall-horan-tickets-indianapolis-gainbridge-fieldhouse-3-26-2027/production/7017203",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32297,7 +32297,7 @@
     "ticketmaster_event_id": "100064A6CA091FAD",
     "ticketmaster_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-toronto-ontario-03-30-2027/event/100064A6CA091FAD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-toronto-scotiabank-arena-3-30-2027/production/7017201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-toronto-ontario-03-30-2027/event/100064A6CA091FAD",
     "last_verified_at": null,
@@ -32319,11 +32319,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017201,
+        "url": "https://www.vividseats.com/niall-horan-tickets-toronto-scotiabank-arena-3-30-2027/production/7017201",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32350,7 +32350,7 @@
     "ticketmaster_event_id": "310064A7A90C7934",
     "ticketmaster_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-montreal-bell-centre-4-2-2027--concerts-pop/production/7017243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934",
     "last_verified_at": null,
@@ -32372,11 +32372,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017243,
+        "url": "https://www.vividseats.com/niall-horan-tickets-montreal-bell-centre-4-2-2027--concerts-pop/production/7017243",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32411,7 +32411,7 @@
     "ticketmaster_event_id": "300064A6D66AE78A",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-brooklyn-new-york-04-04-2027/event/300064A6D66AE78A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-brooklyn-barclays-center-4-4-2027/production/7017205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-brooklyn-new-york-04-04-2027/event/300064A6D66AE78A",
     "last_verified_at": null,
@@ -32433,11 +32433,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017205,
+        "url": "https://www.vividseats.com/niall-horan-tickets-brooklyn-barclays-center-4-4-2027/production/7017205",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32480,7 +32480,7 @@
     "ticketmaster_event_id": "150064A7C83AECF4",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-baltimore-maryland-04-08-2027/event/150064A7C83AECF4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-baltimore-cfg-bank-arena-4-8-2027/production/7017207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-baltimore-maryland-04-08-2027/event/150064A7C83AECF4",
     "last_verified_at": null,
@@ -32502,11 +32502,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017207,
+        "url": "https://www.vividseats.com/niall-horan-tickets-baltimore-cfg-bank-arena-4-8-2027/production/7017207",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32541,7 +32541,7 @@
     "ticketmaster_event_id": "010064A6BEEBCCB9",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-boston-massachusetts-04-12-2027/event/010064A6BEEBCCB9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-boston-td-garden-4-12-2027/production/7017199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-boston-massachusetts-04-12-2027/event/010064A6BEEBCCB9",
     "last_verified_at": null,
@@ -32563,11 +32563,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017199,
+        "url": "https://www.vividseats.com/niall-horan-tickets-boston-td-garden-4-12-2027/production/7017199",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32610,7 +32610,7 @@
     "ticketmaster_event_id": "2D0064A79090FAC5",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-raleigh-north-carolina-04-15-2027/event/2D0064A79090FAC5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-raleigh-lenovo-center-4-15-2027--concerts-pop/production/7017239",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-raleigh-north-carolina-04-15-2027/event/2D0064A79090FAC5",
     "last_verified_at": null,
@@ -32632,11 +32632,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017239,
+        "url": "https://www.vividseats.com/niall-horan-tickets-raleigh-lenovo-center-4-15-2027--concerts-pop/production/7017239",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32671,7 +32671,7 @@
     "ticketmaster_event_id": "220064A886282E36",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-orlando-florida-04-17-2027/event/220064A886282E36",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-orlando-kia-center-4-17-2027--concerts-pop/production/7017237",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-orlando-florida-04-17-2027/event/220064A886282E36",
     "last_verified_at": null,
@@ -32693,11 +32693,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017237,
+        "url": "https://www.vividseats.com/niall-horan-tickets-orlando-kia-center-4-17-2027--concerts-pop/production/7017237",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32740,7 +32740,7 @@
     "ticketmaster_event_id": "0E0064A6D18B6EFF",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-atlanta-georgia-04-28-2027/event/0E0064A6D18B6EFF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-atlanta-state-farm-arena-4-28-2027/production/7017229",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-atlanta-georgia-04-28-2027/event/0E0064A6D18B6EFF",
     "last_verified_at": null,
@@ -32762,11 +32762,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017229,
+        "url": "https://www.vividseats.com/niall-horan-tickets-atlanta-state-farm-arena-4-28-2027/production/7017229",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32809,7 +32809,7 @@
     "ticketmaster_event_id": "1B0064A893B6A823",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-new-orleans-louisiana-04-29-2027/event/1B0064A893B6A823",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-new-orleans-smoothie-king-center-4-29-2027/production/7017193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-new-orleans-louisiana-04-29-2027/event/1B0064A893B6A823",
     "last_verified_at": null,
@@ -32831,11 +32831,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017193,
+        "url": "https://www.vividseats.com/niall-horan-tickets-new-orleans-smoothie-king-center-4-29-2027/production/7017193",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32930,7 +32930,7 @@
     "ticketmaster_event_id": "0C0064A78A72709E",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-fort-worth-texas-05-02-2027/event/0C0064A78A72709E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-fort-worth-dickies-arena-5-2-2027/production/7017217",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-fort-worth-texas-05-02-2027/event/0C0064A78A72709E",
     "last_verified_at": null,
@@ -32952,11 +32952,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017217,
+        "url": "https://www.vividseats.com/niall-horan-tickets-fort-worth-dickies-arena-5-2-2027/production/7017217",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -32999,7 +32999,7 @@
     "ticketmaster_event_id": "3A0064A7E5175AFD",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-austin-texas-05-14-2027/event/3A0064A7E5175AFD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-austin-moody-center-atx-5-14-2027--concerts-pop/production/7017231",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-austin-texas-05-14-2027/event/3A0064A7E5175AFD",
     "last_verified_at": null,
@@ -33021,11 +33021,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017231,
+        "url": "https://www.vividseats.com/niall-horan-tickets-austin-moody-center-atx-5-14-2027--concerts-pop/production/7017231",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33068,7 +33068,7 @@
     "ticketmaster_event_id": "1E0064A7F3960B36",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-denver-colorado-05-16-2027/event/1E0064A7F3960B36",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-denver-ball-arena-5-16-2027/production/7017223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-denver-colorado-05-16-2027/event/1E0064A7F3960B36",
     "last_verified_at": null,
@@ -33090,11 +33090,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017223,
+        "url": "https://www.vividseats.com/niall-horan-tickets-denver-ball-arena-5-16-2027/production/7017223",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33190,7 +33190,7 @@
     "ticketmaster_event_id": "190064A78D814E6F",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-phoenix-arizona-05-20-2027/event/190064A78D814E6F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-phoenix-mortgage-matchup-center-5-20-2027/production/7017195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-phoenix-arizona-05-20-2027/event/190064A78D814E6F",
     "last_verified_at": null,
@@ -33212,11 +33212,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017195,
+        "url": "https://www.vividseats.com/niall-horan-tickets-phoenix-mortgage-matchup-center-5-20-2027/production/7017195",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33259,7 +33259,7 @@
     "ticketmaster_event_id": "090064A700F6CCC2",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-inglewood-california-05-22-2027/event/090064A700F6CCC2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-inglewood-kia-forum-5-22-2027--concerts-pop/production/7017187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-inglewood-california-05-22-2027/event/090064A700F6CCC2",
     "last_verified_at": null,
@@ -33281,11 +33281,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017187,
+        "url": "https://www.vividseats.com/niall-horan-tickets-inglewood-kia-forum-5-22-2027--concerts-pop/production/7017187",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33328,7 +33328,7 @@
     "ticketmaster_event_id": "1C0064A5CBFECD20",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-san-francisco-california-05-25-2027/event/1C0064A5CBFECD20",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-san-francisco-chase-center-5-25-2027--concerts-pop/production/7017185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-san-francisco-california-05-25-2027/event/1C0064A5CBFECD20",
     "last_verified_at": null,
@@ -33350,11 +33350,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017185,
+        "url": "https://www.vividseats.com/niall-horan-tickets-san-francisco-chase-center-5-25-2027--concerts-pop/production/7017185",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33397,7 +33397,7 @@
     "ticketmaster_event_id": "0F0064A6DAB644A1",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-seattle-washington-05-27-2027/event/0F0064A6DAB644A1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-seattle-climate-pledge-arena-5-27-2027--concerts-pop/production/7017183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-seattle-washington-05-27-2027/event/0F0064A6DAB644A1",
     "last_verified_at": null,
@@ -33419,11 +33419,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017183,
+        "url": "https://www.vividseats.com/niall-horan-tickets-seattle-climate-pledge-arena-5-27-2027--concerts-pop/production/7017183",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33535,7 +33535,7 @@
     "ticketmaster_event_id": "0800633A24604FE8",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-detroit-michigan-10-01-2026/event/0800633A24604FE8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-detroit-little-caesars-arena-10-1-2026--concerts-rap-hip-hop/production/6091534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-detroit-michigan-10-01-2026/event/0800633A24604FE8",
     "last_verified_at": null,
@@ -33557,11 +33557,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091534,
+        "url": "https://www.vividseats.com/doja-cat-tickets-detroit-little-caesars-arena-10-1-2026--concerts-rap-hip-hop/production/6091534",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33604,7 +33604,7 @@
     "ticketmaster_event_id": "0400633AB95340B3",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-chicago-illinois-10-03-2026/event/0400633AB95340B3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-chicago-united-center-10-3-2026--concerts-rap-hip-hop/production/6091533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-chicago-illinois-10-03-2026/event/0400633AB95340B3",
     "last_verified_at": null,
@@ -33626,11 +33626,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091533,
+        "url": "https://www.vividseats.com/doja-cat-tickets-chicago-united-center-10-3-2026--concerts-rap-hip-hop/production/6091533",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33673,7 +33673,7 @@
     "ticketmaster_event_id": "0600633A9C4B4C17",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-minneapolis-minnesota-10-04-2026/event/0600633A9C4B4C17",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-minneapolis-target-center-10-4-2026--concerts-rap-hip-hop/production/6091535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-minneapolis-minnesota-10-04-2026/event/0600633A9C4B4C17",
     "last_verified_at": null,
@@ -33695,11 +33695,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091535,
+        "url": "https://www.vividseats.com/doja-cat-tickets-minneapolis-target-center-10-4-2026--concerts-rap-hip-hop/production/6091535",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33734,7 +33734,7 @@
     "ticketmaster_event_id": "0600633CA3FC307A",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-kansas-city-missouri-10-06-2026/event/0600633CA3FC307A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-kansas-city-t-mobile-center-10-6-2026--concerts-rap-hip-hop/production/6091541",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-kansas-city-missouri-10-06-2026/event/0600633CA3FC307A",
     "last_verified_at": null,
@@ -33756,11 +33756,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091541,
+        "url": "https://www.vividseats.com/doja-cat-tickets-kansas-city-t-mobile-center-10-6-2026--concerts-rap-hip-hop/production/6091541",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33795,7 +33795,7 @@
     "ticketmaster_event_id": "1E006339C882416A",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-denver-colorado-10-08-2026/event/1E006339C882416A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-denver-ball-arena-10-8-2026--concerts-rap-hip-hop/production/6091542",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-denver-colorado-10-08-2026/event/1E006339C882416A",
     "last_verified_at": null,
@@ -33817,11 +33817,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091542,
+        "url": "https://www.vividseats.com/doja-cat-tickets-denver-ball-arena-10-8-2026--concerts-rap-hip-hop/production/6091542",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33917,7 +33917,7 @@
     "ticketmaster_event_id": "11006339E0CE8339",
     "ticketmaster_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-vancouver-british-columbia-10-13-2026/event/11006339E0CE8339",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-vancouver-rogers-arena-10-13-2026--concerts-rap-hip-hop/production/6091614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-vancouver-british-columbia-10-13-2026/event/11006339E0CE8339",
     "last_verified_at": null,
@@ -33939,11 +33939,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091614,
+        "url": "https://www.vividseats.com/doja-cat-tickets-vancouver-rogers-arena-10-13-2026--concerts-rap-hip-hop/production/6091614",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -33986,7 +33986,7 @@
     "ticketmaster_event_id": "0F00633ADD435829",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-seattle-washington-10-15-2026/event/0F00633ADD435829",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-seattle-climate-pledge-arena-10-15-2026--concerts-rap-hip-hop/production/6091545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-seattle-washington-10-15-2026/event/0F00633ADD435829",
     "last_verified_at": null,
@@ -34008,11 +34008,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091545,
+        "url": "https://www.vividseats.com/doja-cat-tickets-seattle-climate-pledge-arena-10-15-2026--concerts-rap-hip-hop/production/6091545",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34055,7 +34055,7 @@
     "ticketmaster_event_id": "0F00633A89A82A33",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-portland-oregon-10-17-2026/event/0F00633A89A82A33",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-portland-moda-center-10-17-2026--concerts-rap-hip-hop/production/6091546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-portland-oregon-10-17-2026/event/0F00633A89A82A33",
     "last_verified_at": null,
@@ -34077,11 +34077,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091546,
+        "url": "https://www.vividseats.com/doja-cat-tickets-portland-moda-center-10-17-2026--concerts-rap-hip-hop/production/6091546",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34116,7 +34116,7 @@
     "ticketmaster_event_id": "1C0063390D157FFD",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-san-francisco-chase-center-10-19-2026--concerts-rap-hip-hop/production/6091547",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
     "last_verified_at": null,
@@ -34138,11 +34138,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091547,
+        "url": "https://www.vividseats.com/doja-cat-tickets-san-francisco-chase-center-10-19-2026--concerts-rap-hip-hop/production/6091547",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34185,7 +34185,7 @@
     "ticketmaster_event_id": "1C00633AA65F408A",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-sacramento-california-10-20-2026/event/1C00633AA65F408A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-sacramento-golden-1-center-10-20-2026--concerts-rap-hip-hop/production/6091548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-sacramento-california-10-20-2026/event/1C00633AA65F408A",
     "last_verified_at": null,
@@ -34207,11 +34207,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091548,
+        "url": "https://www.vividseats.com/doja-cat-tickets-sacramento-golden-1-center-10-20-2026--concerts-rap-hip-hop/production/6091548",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34254,7 +34254,7 @@
     "ticketmaster_event_id": "0900633A1B2389F9",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-inglewood-california-10-22-2026/event/0900633A1B2389F9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-inglewood-kia-forum-10-22-2026--concerts-rap-hip-hop/production/6091549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-inglewood-california-10-22-2026/event/0900633A1B2389F9",
     "last_verified_at": null,
@@ -34276,11 +34276,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091549,
+        "url": "https://www.vividseats.com/doja-cat-tickets-inglewood-kia-forum-10-22-2026--concerts-rap-hip-hop/production/6091549",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34453,7 +34453,7 @@
     "ticketmaster_event_id": "3A00633ACFDC7883",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-austin-texas-11-03-2026/event/3A00633ACFDC7883",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-austin-moody-center-atx-11-3-2026--concerts-rap-hip-hop/production/6091696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-austin-texas-11-03-2026/event/3A00633ACFDC7883",
     "last_verified_at": null,
@@ -34475,11 +34475,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091696,
+        "url": "https://www.vividseats.com/doja-cat-tickets-austin-moody-center-atx-11-3-2026--concerts-rap-hip-hop/production/6091696",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34522,7 +34522,7 @@
     "ticketmaster_event_id": "0C00633A5DE60F3B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-dallas-texas-11-04-2026/event/0C00633A5DE60F3B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-dallas-american-airlines-center---tx-11-4-2026--concerts-rap-hip-hop/production/6091560",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-dallas-texas-11-04-2026/event/0C00633A5DE60F3B",
     "last_verified_at": null,
@@ -34544,11 +34544,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091560,
+        "url": "https://www.vividseats.com/doja-cat-tickets-dallas-american-airlines-center---tx-11-4-2026--concerts-rap-hip-hop/production/6091560",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34591,7 +34591,7 @@
     "ticketmaster_event_id": "3A006338F42E6A55",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-antonio-texas-11-06-2026/event/3A006338F42E6A55",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-san-antonio-frost-bank-center-11-6-2026--concerts-rap-hip-hop/production/6091562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-antonio-texas-11-06-2026/event/3A006338F42E6A55",
     "last_verified_at": null,
@@ -34613,11 +34613,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091562,
+        "url": "https://www.vividseats.com/doja-cat-tickets-san-antonio-frost-bank-center-11-6-2026--concerts-rap-hip-hop/production/6091562",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34712,7 +34712,7 @@
     "ticketmaster_event_id": "0D006339140D4C8B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-miami-florida-11-11-2026/event/0D006339140D4C8B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-miami-kaseya-center-11-11-2026--concerts-rap-hip-hop/production/6091566",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-miami-florida-11-11-2026/event/0D006339140D4C8B",
     "last_verified_at": null,
@@ -34734,11 +34734,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091566,
+        "url": "https://www.vividseats.com/doja-cat-tickets-miami-kaseya-center-11-11-2026--concerts-rap-hip-hop/production/6091566",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34781,7 +34781,7 @@
     "ticketmaster_event_id": "0D00633AEE974980",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-tampa-florida-11-13-2026/event/0D00633AEE974980",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-tampa-benchmark-international-arena-11-13-2026--concerts-rap-hip-hop/production/6091568",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-tampa-florida-11-13-2026/event/0D00633AEE974980",
     "last_verified_at": null,
@@ -34803,11 +34803,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091568,
+        "url": "https://www.vividseats.com/doja-cat-tickets-tampa-benchmark-international-arena-11-13-2026--concerts-rap-hip-hop/production/6091568",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34850,7 +34850,7 @@
     "ticketmaster_event_id": "2200633AE37E3BA9",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-orlando-florida-11-14-2026/event/2200633AE37E3BA9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-orlando-kia-center-11-14-2026--concerts-rap-hip-hop/production/6091570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-orlando-florida-11-14-2026/event/2200633AE37E3BA9",
     "last_verified_at": null,
@@ -34872,11 +34872,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091570,
+        "url": "https://www.vividseats.com/doja-cat-tickets-orlando-kia-center-11-14-2026--concerts-rap-hip-hop/production/6091570",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34919,7 +34919,7 @@
     "ticketmaster_event_id": "0E00633AC24B633B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
     "last_verified_at": null,
@@ -34941,11 +34941,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091572,
+        "url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -34988,7 +34988,7 @@
     "ticketmaster_event_id": "2D006339EEEC97F4",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-charlotte-north-carolina-11-18-2026/event/2D006339EEEC97F4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-charlotte-spectrum-center-11-18-2026--concerts-rap-hip-hop/production/6091576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-charlotte-north-carolina-11-18-2026/event/2D006339EEEC97F4",
     "last_verified_at": null,
@@ -35010,11 +35010,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091576,
+        "url": "https://www.vividseats.com/doja-cat-tickets-charlotte-spectrum-center-11-18-2026--concerts-rap-hip-hop/production/6091576",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35057,7 +35057,7 @@
     "ticketmaster_event_id": "1500633A88BC22BE",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-baltimore-maryland-11-20-2026/event/1500633A88BC22BE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-baltimore-maryland-11-20-2026/event/1500633A88BC22BE",
     "last_verified_at": null,
@@ -35079,11 +35079,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091577,
+        "url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35118,7 +35118,7 @@
     "ticketmaster_event_id": "15006339E5D65BD6",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-washington-district-of-columbia-11-21-2026/event/15006339E5D65BD6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-washington-capital-one-arena-11-21-2026--concerts-rap-hip-hop/production/6091579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-washington-district-of-columbia-11-21-2026/event/15006339E5D65BD6",
     "last_verified_at": null,
@@ -35140,11 +35140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091579,
+        "url": "https://www.vividseats.com/doja-cat-tickets-washington-capital-one-arena-11-21-2026--concerts-rap-hip-hop/production/6091579",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35187,7 +35187,7 @@
     "ticketmaster_event_id": "0100633917079EE3",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-boston-massachusetts-11-23-2026/event/0100633917079EE3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-boston-td-garden-11-23-2026--concerts-rap-hip-hop/production/6091580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-boston-massachusetts-11-23-2026/event/0100633917079EE3",
     "last_verified_at": null,
@@ -35209,11 +35209,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091580,
+        "url": "https://www.vividseats.com/doja-cat-tickets-boston-td-garden-11-23-2026--concerts-rap-hip-hop/production/6091580",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35256,7 +35256,7 @@
     "ticketmaster_event_id": "100063398CD0266D",
     "ticketmaster_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-toronto-ontario-11-25-2026/event/100063398CD0266D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-toronto-scotiabank-arena-11-25-2026--concerts-rap-hip-hop/production/6091757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-toronto-ontario-11-25-2026/event/100063398CD0266D",
     "last_verified_at": null,
@@ -35278,11 +35278,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091757,
+        "url": "https://www.vividseats.com/doja-cat-tickets-toronto-scotiabank-arena-11-25-2026--concerts-rap-hip-hop/production/6091757",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35370,7 +35370,7 @@
     "ticketmaster_event_id": "3000633AC3E34D89",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-philadelphia-pennsylvania-11-29-2026/event/3000633AC3E34D89",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-philadelphia-xfinity-mobile-arena-11-29-2026--concerts-rap-hip-hop/production/6091581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-philadelphia-pennsylvania-11-29-2026/event/3000633AC3E34D89",
     "last_verified_at": null,
@@ -35392,11 +35392,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091581,
+        "url": "https://www.vividseats.com/doja-cat-tickets-philadelphia-xfinity-mobile-arena-11-29-2026--concerts-rap-hip-hop/production/6091581",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35439,7 +35439,7 @@
     "ticketmaster_event_id": "3B00633A23FD3029",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-new-york-new-york-12-01-2026/event/3B00633A23FD3029",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-new-york-madison-square-garden-12-1-2026--concerts-rap-hip-hop/production/6091583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-new-york-new-york-12-01-2026/event/3B00633A23FD3029",
     "last_verified_at": null,
@@ -35461,11 +35461,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091583,
+        "url": "https://www.vividseats.com/doja-cat-tickets-new-york-madison-square-garden-12-1-2026--concerts-rap-hip-hop/production/6091583",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35508,7 +35508,7 @@
     "ticketmaster_event_id": "11006489C3A98ECA",
     "ticketmaster_url": "https://www.ticketmaster.ca/sombr-you-are-the-reason-tour-vancouver-british-columbia-09-29-2026/event/11006489C3A98ECA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-vancouver-rogers-arena-9-29-2026--concerts-alternative/production/6897831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sombr-you-are-the-reason-tour-vancouver-british-columbia-09-29-2026/event/11006489C3A98ECA",
     "last_verified_at": null,
@@ -35530,11 +35530,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897831,
+        "url": "https://www.vividseats.com/sombr-tickets-vancouver-rogers-arena-9-29-2026--concerts-alternative/production/6897831",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35577,7 +35577,7 @@
     "ticketmaster_event_id": "0F006489CEB0AA1E",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-seattle-washington-10-01-2026/event/0F006489CEB0AA1E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-seattle-climate-pledge-arena-10-1-2026--concerts-alternative/production/6897839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-seattle-washington-10-01-2026/event/0F006489CEB0AA1E",
     "last_verified_at": null,
@@ -35599,11 +35599,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897839,
+        "url": "https://www.vividseats.com/sombr-tickets-seattle-climate-pledge-arena-10-1-2026--concerts-alternative/production/6897839",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35646,7 +35646,7 @@
     "ticketmaster_event_id": "0F006487E6A7BFB6",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-portland-oregon-10-02-2026/event/0F006487E6A7BFB6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-portland-moda-center-10-2-2026--concerts-alternative/production/6897843",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-portland-oregon-10-02-2026/event/0F006487E6A7BFB6",
     "last_verified_at": null,
@@ -35668,11 +35668,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897843,
+        "url": "https://www.vividseats.com/sombr-tickets-portland-moda-center-10-2-2026--concerts-alternative/production/6897843",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35715,7 +35715,7 @@
     "ticketmaster_event_id": "1C006487EC3CA626",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-sacramento-california-10-06-2026/event/1C006487EC3CA626",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-sacramento-golden-1-center-10-6-2026--concerts-alternative/production/6897845",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-sacramento-california-10-06-2026/event/1C006487EC3CA626",
     "last_verified_at": null,
@@ -35737,11 +35737,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897845,
+        "url": "https://www.vividseats.com/sombr-tickets-sacramento-golden-1-center-10-6-2026--concerts-alternative/production/6897845",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35837,7 +35837,7 @@
     "ticketmaster_event_id": "090064891741C9C1",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-anaheim-california-10-09-2026/event/090064891741C9C1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-anaheim-honda-center-10-9-2026--concerts-alternative/production/6897853",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-anaheim-california-10-09-2026/event/090064891741C9C1",
     "last_verified_at": null,
@@ -35859,11 +35859,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897853,
+        "url": "https://www.vividseats.com/sombr-tickets-anaheim-honda-center-10-9-2026--concerts-alternative/production/6897853",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -35906,7 +35906,7 @@
     "ticketmaster_event_id": "09006489037C8590",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-inglewood-california-10-10-2026/event/09006489037C8590",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-inglewood-kia-forum-10-10-2026--concerts-alternative/production/6897857",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-inglewood-california-10-10-2026/event/09006489037C8590",
     "last_verified_at": null,
@@ -35928,11 +35928,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897857,
+        "url": "https://www.vividseats.com/sombr-tickets-inglewood-kia-forum-10-10-2026--concerts-alternative/production/6897857",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36183,7 +36183,7 @@
     "ticketmaster_event_id": "0C006488CB1AC234",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-dallas-texas-10-18-2026/event/0C006488CB1AC234",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-dallas-american-airlines-center---tx-10-18-2026--concerts-alternative/production/6897883",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-dallas-texas-10-18-2026/event/0C006488CB1AC234",
     "last_verified_at": null,
@@ -36205,11 +36205,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897883,
+        "url": "https://www.vividseats.com/sombr-tickets-dallas-american-airlines-center---tx-10-18-2026--concerts-alternative/production/6897883",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36252,7 +36252,7 @@
     "ticketmaster_event_id": "3A006489F72D8914",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-austin-texas-10-20-2026/event/3A006489F72D8914",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-austin-moody-center-atx-10-20-2026--concerts-alternative/production/6897885",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-austin-texas-10-20-2026/event/3A006489F72D8914",
     "last_verified_at": null,
@@ -36274,11 +36274,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897885,
+        "url": "https://www.vividseats.com/sombr-tickets-austin-moody-center-atx-10-20-2026--concerts-alternative/production/6897885",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36321,7 +36321,7 @@
     "ticketmaster_event_id": "0E006488A7A4A5DF",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-atlanta-georgia-10-22-2026/event/0E006488A7A4A5DF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-atlanta-state-farm-arena-10-22-2026--concerts-alternative/production/6897895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-atlanta-georgia-10-22-2026/event/0E006488A7A4A5DF",
     "last_verified_at": null,
@@ -36343,11 +36343,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897895,
+        "url": "https://www.vividseats.com/sombr-tickets-atlanta-state-farm-arena-10-22-2026--concerts-alternative/production/6897895",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36442,7 +36442,7 @@
     "ticketmaster_event_id": "2200648A8ADC2C92",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-orlando-florida-10-25-2026/event/2200648A8ADC2C92",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-orlando-kia-center-10-25-2026--concerts-alternative/production/6897905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-orlando-florida-10-25-2026/event/2200648A8ADC2C92",
     "last_verified_at": null,
@@ -36464,11 +36464,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897905,
+        "url": "https://www.vividseats.com/sombr-tickets-orlando-kia-center-10-25-2026--concerts-alternative/production/6897905",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36511,7 +36511,7 @@
     "ticketmaster_event_id": "2D006488C26A706A",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-charlotte-north-carolina-10-27-2026/event/2D006488C26A706A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-charlotte-spectrum-center-10-27-2026--concerts-alternative/production/6897916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-charlotte-north-carolina-10-27-2026/event/2D006488C26A706A",
     "last_verified_at": null,
@@ -36533,11 +36533,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897916,
+        "url": "https://www.vividseats.com/sombr-tickets-charlotte-spectrum-center-10-27-2026--concerts-alternative/production/6897916",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36572,7 +36572,7 @@
     "ticketmaster_event_id": "1B006489894AA690",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-nashville-tennessee-10-28-2026/event/1B006489894AA690",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-nashville-bridgestone-arena-10-28-2026--concerts-alternative/production/6897932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-nashville-tennessee-10-28-2026/event/1B006489894AA690",
     "last_verified_at": null,
@@ -36594,11 +36594,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897932,
+        "url": "https://www.vividseats.com/sombr-tickets-nashville-bridgestone-arena-10-28-2026--concerts-alternative/production/6897932",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36686,7 +36686,7 @@
     "ticketmaster_event_id": "0600648988F67FDC",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-kansas-city-missouri-10-31-2026/event/0600648988F67FDC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-kansas-city-t-mobile-center-10-31-2026--concerts-alternative/production/6897945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-kansas-city-missouri-10-31-2026/event/0600648988F67FDC",
     "last_verified_at": null,
@@ -36708,11 +36708,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897945,
+        "url": "https://www.vividseats.com/sombr-tickets-kansas-city-t-mobile-center-10-31-2026--concerts-alternative/production/6897945",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36747,7 +36747,7 @@
     "ticketmaster_event_id": "06006489AC06E087",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-minneapolis-minnesota-11-01-2026/event/06006489AC06E087",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-minneapolis-target-center-11-1-2026--concerts-alternative/production/6897954",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-minneapolis-minnesota-11-01-2026/event/06006489AC06E087",
     "last_verified_at": null,
@@ -36769,11 +36769,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897954,
+        "url": "https://www.vividseats.com/sombr-tickets-minneapolis-target-center-11-1-2026--concerts-alternative/production/6897954",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36808,7 +36808,7 @@
     "ticketmaster_event_id": "07006488DF476E7D",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-milwaukee-fiserv-forum-11-3-2026--concerts-alternative/production/6897964",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D",
     "last_verified_at": null,
@@ -36830,11 +36830,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897964,
+        "url": "https://www.vividseats.com/sombr-tickets-milwaukee-fiserv-forum-11-3-2026--concerts-alternative/production/6897964",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36869,7 +36869,7 @@
     "ticketmaster_event_id": "04006487CFF2C118",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-chicago-illinois-11-04-2026/event/04006487CFF2C118",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-chicago-united-center-11-4-2026--concerts-alternative/production/6897970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-chicago-illinois-11-04-2026/event/04006487CFF2C118",
     "last_verified_at": null,
@@ -36891,11 +36891,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897970,
+        "url": "https://www.vividseats.com/sombr-tickets-chicago-united-center-11-4-2026--concerts-alternative/production/6897970",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36938,7 +36938,7 @@
     "ticketmaster_event_id": "05006489958259FC",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-indianapolis-indiana-11-06-2026/event/05006489958259FC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-indianapolis-gainbridge-fieldhouse-11-6-2026--concerts-alternative/production/6897982",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-indianapolis-indiana-11-06-2026/event/05006489958259FC",
     "last_verified_at": null,
@@ -36960,11 +36960,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897982,
+        "url": "https://www.vividseats.com/sombr-tickets-indianapolis-gainbridge-fieldhouse-11-6-2026--concerts-alternative/production/6897982",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -36999,7 +36999,7 @@
     "ticketmaster_event_id": "08006488B52E6AC0",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-detroit-michigan-11-07-2026/event/08006488B52E6AC0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-detroit-little-caesars-arena-11-7-2026--concerts-alternative/production/6897986",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-detroit-michigan-11-07-2026/event/08006488B52E6AC0",
     "last_verified_at": null,
@@ -37021,11 +37021,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897986,
+        "url": "https://www.vividseats.com/sombr-tickets-detroit-little-caesars-arena-11-7-2026--concerts-alternative/production/6897986",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37060,7 +37060,7 @@
     "ticketmaster_event_id": "050064898B1143E1",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-columbus-ohio-11-08-2026/event/050064898B1143E1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-columbus-nationwide-arena-11-8-2026--concerts-alternative/production/6897990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-columbus-ohio-11-08-2026/event/050064898B1143E1",
     "last_verified_at": null,
@@ -37082,11 +37082,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897990,
+        "url": "https://www.vividseats.com/sombr-tickets-columbus-nationwide-arena-11-8-2026--concerts-alternative/production/6897990",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37121,7 +37121,7 @@
     "ticketmaster_event_id": "15006481D02EB8E8",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-washington-district-of-columbia-11-10-2026/event/15006481D02EB8E8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-washington-capital-one-arena-11-10-2026--concerts-alternative/production/6897996",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-washington-district-of-columbia-11-10-2026/event/15006481D02EB8E8",
     "last_verified_at": null,
@@ -37143,11 +37143,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6897996,
+        "url": "https://www.vividseats.com/sombr-tickets-washington-capital-one-arena-11-10-2026--concerts-alternative/production/6897996",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37190,7 +37190,7 @@
     "ticketmaster_event_id": "160064888B1E4D69",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-pittsburgh-ppg-paints-arena-11-12-2026--concerts-alternative/production/6898000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
     "last_verified_at": null,
@@ -37212,11 +37212,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6898000,
+        "url": "https://www.vividseats.com/sombr-tickets-pittsburgh-ppg-paints-arena-11-12-2026--concerts-alternative/production/6898000",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37303,7 +37303,7 @@
     "ticketmaster_event_id": "0000648913B1C282",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-buffalo-new-york-11-14-2026/event/0000648913B1C282",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-buffalo-keybank-center-11-14-2026--concerts-alternative/production/6898016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-buffalo-new-york-11-14-2026/event/0000648913B1C282",
     "last_verified_at": null,
@@ -37325,11 +37325,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6898016,
+        "url": "https://www.vividseats.com/sombr-tickets-buffalo-keybank-center-11-14-2026--concerts-alternative/production/6898016",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37372,7 +37372,7 @@
     "ticketmaster_event_id": "10006487F42AC66B",
     "ticketmaster_url": "https://www.ticketmaster.ca/sombr-you-are-the-reason-tour-toronto-ontario-11-16-2026/event/10006487F42AC66B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-toronto-scotiabank-arena-11-16-2026--concerts-alternative/production/6898024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sombr-you-are-the-reason-tour-toronto-ontario-11-16-2026/event/10006487F42AC66B",
     "last_verified_at": null,
@@ -37394,11 +37394,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6898024,
+        "url": "https://www.vividseats.com/sombr-tickets-toronto-scotiabank-arena-11-16-2026--concerts-alternative/production/6898024",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37425,7 +37425,7 @@
     "ticketmaster_event_id": "01006487C88D39E2",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-boston-massachusetts-11-18-2026/event/01006487C88D39E2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-boston-td-garden-11-18-2026--concerts-alternative/production/6898034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-boston-massachusetts-11-18-2026/event/01006487C88D39E2",
     "last_verified_at": null,
@@ -37447,11 +37447,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6898034,
+        "url": "https://www.vividseats.com/sombr-tickets-boston-td-garden-11-18-2026--concerts-alternative/production/6898034",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37494,7 +37494,7 @@
     "ticketmaster_event_id": "300064898BE02142",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-philadelphia-pennsylvania-11-19-2026/event/300064898BE02142",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-philadelphia-xfinity-mobile-arena-11-19-2026--concerts-alternative/production/6898038",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-philadelphia-pennsylvania-11-19-2026/event/300064898BE02142",
     "last_verified_at": null,
@@ -37516,11 +37516,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6898038,
+        "url": "https://www.vividseats.com/sombr-tickets-philadelphia-xfinity-mobile-arena-11-19-2026--concerts-alternative/production/6898038",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37563,7 +37563,7 @@
     "ticketmaster_event_id": "02006488DB7EED88",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-newark-new-jersey-11-21-2026/event/02006488DB7EED88",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-newark-prudential-center-11-21-2026--concerts-alternative/production/6898048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-newark-new-jersey-11-21-2026/event/02006488DB7EED88",
     "last_verified_at": null,
@@ -37585,11 +37585,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6898048,
+        "url": "https://www.vividseats.com/sombr-tickets-newark-prudential-center-11-21-2026--concerts-alternative/production/6898048",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37632,7 +37632,7 @@
     "ticketmaster_event_id": "3B00648AD4475021",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-23-2026/event/3B00648AD4475021",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-23-2026/production/6898010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-23-2026/event/3B00648AD4475021",
     "last_verified_at": null,
@@ -37654,11 +37654,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6898010,
+        "url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-23-2026/production/6898010",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37701,7 +37701,7 @@
     "ticketmaster_event_id": "3B00648AD4525028",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-24-2026/event/3B00648AD4525028",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-24-2026/production/6902538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-24-2026/event/3B00648AD4525028",
     "last_verified_at": null,
@@ -37723,11 +37723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6902538,
+        "url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-24-2026/production/6902538",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37935,7 +37935,7 @@
     "ticketmaster_event_id": "100064B3D5123522",
     "ticketmaster_url": "https://www.ticketmaster.ca/john-summit-ctrl-escape-arena-tour-hamilton-ontario-10-24-2026/event/100064B3D5123522",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-hamilton-td-coliseum-10-24-2026--concerts-dance-electronica/production/7058763",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/john-summit-ctrl-escape-arena-tour-hamilton-ontario-10-24-2026/event/100064B3D5123522",
     "last_verified_at": null,
@@ -37957,11 +37957,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058763,
+        "url": "https://www.vividseats.com/john-summit-tickets-hamilton-td-coliseum-10-24-2026--concerts-dance-electronica/production/7058763",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -37988,7 +37988,7 @@
     "ticketmaster_event_id": "100064B3A9BBACE6",
     "ticketmaster_url": "https://www.ticketmaster.ca/john-summit-ctrl-escape-arena-tour-toronto-ontario-10-25-2026/event/100064B3A9BBACE6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-toronto-scotiabank-arena-10-25-2026--concerts-dance-electronica/production/7058767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/john-summit-ctrl-escape-arena-tour-toronto-ontario-10-25-2026/event/100064B3A9BBACE6",
     "last_verified_at": null,
@@ -38010,11 +38010,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058767,
+        "url": "https://www.vividseats.com/john-summit-tickets-toronto-scotiabank-arena-10-25-2026--concerts-dance-electronica/production/7058767",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38041,7 +38041,7 @@
     "ticketmaster_event_id": "010064B2AC06B8C3",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-boston-massachusetts-10-29-2026/event/010064B2AC06B8C3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-boston-td-garden-10-29-2026--concerts-dance-electronica/production/7058770",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-boston-massachusetts-10-29-2026/event/010064B2AC06B8C3",
     "last_verified_at": null,
@@ -38063,11 +38063,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058770,
+        "url": "https://www.vividseats.com/john-summit-tickets-boston-td-garden-10-29-2026--concerts-dance-electronica/production/7058770",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38110,7 +38110,7 @@
     "ticketmaster_event_id": "020064B2C916ABB2",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-university-park-pennsylvania-10-30-2026/event/020064B2C916ABB2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-university-park-bryce-jordan-center-10-30-2026--concerts-dance-electronica/production/7058772",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-university-park-pennsylvania-10-30-2026/event/020064B2C916ABB2",
     "last_verified_at": null,
@@ -38132,11 +38132,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058772,
+        "url": "https://www.vividseats.com/john-summit-tickets-university-park-bryce-jordan-center-10-30-2026--concerts-dance-electronica/production/7058772",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38171,7 +38171,7 @@
     "ticketmaster_event_id": "1500645AF59A3A74",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-washington-district-of-columbia-10-31-2026/event/1500645AF59A3A74",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-washington-capital-one-arena-10-31-2026--concerts-dance-electronica/production/7058776",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-washington-district-of-columbia-10-31-2026/event/1500645AF59A3A74",
     "last_verified_at": null,
@@ -38193,11 +38193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058776,
+        "url": "https://www.vividseats.com/john-summit-tickets-washington-capital-one-arena-10-31-2026--concerts-dance-electronica/production/7058776",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38292,7 +38292,7 @@
     "ticketmaster_event_id": "3A0064B3DA33FD80",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-austin-texas-11-06-2026/event/3A0064B3DA33FD80",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-austin-moody-center-atx-11-6-2026--concerts-dance-electronica/production/7058788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-austin-texas-11-06-2026/event/3A0064B3DA33FD80",
     "last_verified_at": null,
@@ -38314,11 +38314,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058788,
+        "url": "https://www.vividseats.com/john-summit-tickets-austin-moody-center-atx-11-6-2026--concerts-dance-electronica/production/7058788",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38361,7 +38361,7 @@
     "ticketmaster_event_id": "0C0064B3CF15B693",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-07-2026/event/0C0064B3CF15B693",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-7-2026--concerts-dance-electronica/production/7058790",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-07-2026/event/0C0064B3CF15B693",
     "last_verified_at": null,
@@ -38383,11 +38383,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058790,
+        "url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-7-2026--concerts-dance-electronica/production/7058790",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38430,7 +38430,7 @@
     "ticketmaster_event_id": "0C0064B49E2D86C5",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-08-2026/event/0C0064B49E2D86C5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-8-2026/production/7096323",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-fort-worth-texas-11-08-2026/event/0C0064B49E2D86C5",
     "last_verified_at": null,
@@ -38452,11 +38452,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7096323,
+        "url": "https://www.vividseats.com/john-summit-tickets-fort-worth-dickies-arena-11-8-2026/production/7096323",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38499,7 +38499,7 @@
     "ticketmaster_event_id": "050064B3F56A8E85",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-columbus-ohio-11-13-2026/event/050064B3F56A8E85",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-columbus-value-city-arena-at-schottenstein-center-11-13-2026--concerts-dance-electronica/production/7058794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-columbus-ohio-11-13-2026/event/050064B3F56A8E85",
     "last_verified_at": null,
@@ -38521,11 +38521,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058794,
+        "url": "https://www.vividseats.com/john-summit-tickets-columbus-value-city-arena-at-schottenstein-center-11-13-2026--concerts-dance-electronica/production/7058794",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38560,7 +38560,7 @@
     "ticketmaster_event_id": "2D0064B3DA953D82",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-charlotte-north-carolina-11-14-2026/event/2D0064B3DA953D82",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-charlotte-spectrum-center-11-14-2026--concerts-dance-electronica/production/7058798",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-charlotte-north-carolina-11-14-2026/event/2D0064B3DA953D82",
     "last_verified_at": null,
@@ -38582,11 +38582,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058798,
+        "url": "https://www.vividseats.com/john-summit-tickets-charlotte-spectrum-center-11-14-2026--concerts-dance-electronica/production/7058798",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38629,7 +38629,7 @@
     "ticketmaster_event_id": "0E0064B3C4C2EDAC",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-atlanta-georgia-11-15-2026/event/0E0064B3C4C2EDAC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-atlanta-state-farm-arena-11-15-2026--concerts-dance-electronica/production/7058802",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-atlanta-georgia-11-15-2026/event/0E0064B3C4C2EDAC",
     "last_verified_at": null,
@@ -38651,11 +38651,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058802,
+        "url": "https://www.vividseats.com/john-summit-tickets-atlanta-state-farm-arena-11-15-2026--concerts-dance-electronica/production/7058802",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38698,7 +38698,7 @@
     "ticketmaster_event_id": "0D0064B2B883819E",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-miami-florida-11-20-2026/event/0D0064B2B883819E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-miami-kaseya-center-11-20-2026--concerts-dance-electronica/production/7058806",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-miami-florida-11-20-2026/event/0D0064B2B883819E",
     "last_verified_at": null,
@@ -38720,11 +38720,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058806,
+        "url": "https://www.vividseats.com/john-summit-tickets-miami-kaseya-center-11-20-2026--concerts-dance-electronica/production/7058806",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38767,7 +38767,7 @@
     "ticketmaster_event_id": "0D0064B3A9E1800A",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-miami-florida-11-21-2026/event/0D0064B3A9E1800A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-miami-kaseya-center-11-21-2026--concerts-dance-electronica/production/7058812",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-miami-florida-11-21-2026/event/0D0064B3A9E1800A",
     "last_verified_at": null,
@@ -38789,11 +38789,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058812,
+        "url": "https://www.vividseats.com/john-summit-tickets-miami-kaseya-center-11-21-2026--concerts-dance-electronica/production/7058812",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38836,7 +38836,7 @@
     "ticketmaster_event_id": "040064B3E1EAB73E",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-chicago-illinois-11-24-2026/event/040064B3E1EAB73E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-chicago-united-center-11-24-2026--concerts-dance-electronica/production/7058753",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-chicago-illinois-11-24-2026/event/040064B3E1EAB73E",
     "last_verified_at": null,
@@ -38858,11 +38858,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058753,
+        "url": "https://www.vividseats.com/john-summit-tickets-chicago-united-center-11-24-2026--concerts-dance-electronica/production/7058753",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -38905,7 +38905,7 @@
     "ticketmaster_event_id": "040064B3E1EEB741",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-chicago-illinois-11-25-2026/event/040064B3E1EEB741",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-chicago-united-center-11-25-2026--concerts-dance-electronica/production/7058757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-chicago-illinois-11-25-2026/event/040064B3E1EEB741",
     "last_verified_at": null,
@@ -38927,11 +38927,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058757,
+        "url": "https://www.vividseats.com/john-summit-tickets-chicago-united-center-11-25-2026--concerts-dance-electronica/production/7058757",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -39027,7 +39027,7 @@
     "ticketmaster_event_id": "300064B2D1E05179",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-brooklyn-new-york-11-28-2026/event/300064B2D1E05179",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-brooklyn-barclays-center-11-28-2026--concerts-dance-electronica/production/7058818",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-brooklyn-new-york-11-28-2026/event/300064B2D1E05179",
     "last_verified_at": null,
@@ -39049,11 +39049,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058818,
+        "url": "https://www.vividseats.com/john-summit-tickets-brooklyn-barclays-center-11-28-2026--concerts-dance-electronica/production/7058818",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -39096,7 +39096,7 @@
     "ticketmaster_event_id": "1C0064B3BCEE6B02",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-oakland-california-12-04-2026/event/1C0064B3BCEE6B02",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-oakland-oakland-arena-12-4-2026--concerts-dance-electronica/production/7058822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-oakland-california-12-04-2026/event/1C0064B3BCEE6B02",
     "last_verified_at": null,
@@ -39118,11 +39118,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7058822,
+        "url": "https://www.vividseats.com/john-summit-tickets-oakland-oakland-arena-12-4-2026--concerts-dance-electronica/production/7058822",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -39165,7 +39165,7 @@
     "ticketmaster_event_id": "1C0064B5CF2D42E3",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-oakland-california-12-05-2026/event/1C0064B5CF2D42E3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/john-summit-tickets-oakland-oakland-arena-12-5-2026/production/7096757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-oakland-california-12-05-2026/event/1C0064B5CF2D42E3",
     "last_verified_at": null,
@@ -39187,11 +39187,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7096757,
+        "url": "https://www.vividseats.com/john-summit-tickets-oakland-oakland-arena-12-5-2026/production/7096757",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

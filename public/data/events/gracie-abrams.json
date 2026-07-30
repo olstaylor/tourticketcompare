@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1E0064B2E736C3FD",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-2-2026--concerts-alternative/production/7091509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091509,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-2-2026--concerts-alternative/production/7091509",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -81,7 +81,7 @@
     "ticketmaster_event_id": "1E0064BAFCFA70CC",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-3-2026--concerts-alternative/production/7091517",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
     "last_verified_at": null,
@@ -103,11 +103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091517,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-3-2026--concerts-alternative/production/7091517",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -150,7 +150,7 @@
     "ticketmaster_event_id": "1C0064ADBB8886FE",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-6-2026--concerts-alternative/production/7091523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
     "last_verified_at": null,
@@ -172,11 +172,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091523,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-6-2026--concerts-alternative/production/7091523",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -219,7 +219,7 @@
     "ticketmaster_event_id": "1C0064BB9D932123",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-7-2026--concerts-alternative/production/7091527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
     "last_verified_at": null,
@@ -241,11 +241,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091527,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-7-2026--concerts-alternative/production/7091527",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -288,7 +288,7 @@
     "ticketmaster_event_id": "190064B3F3DEA73D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-9-2026--concerts-alternative/production/7091529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
     "last_verified_at": null,
@@ -310,11 +310,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091529,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-9-2026--concerts-alternative/production/7091529",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -357,7 +357,7 @@
     "ticketmaster_event_id": "190064B4125FDEF3",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-10-2026--concerts-alternative/production/7091531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
     "last_verified_at": null,
@@ -379,11 +379,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091531,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-10-2026--concerts-alternative/production/7091531",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -426,7 +426,7 @@
     "ticketmaster_event_id": "090064B49319A5BE",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-14-2026--concerts-alternative/production/7091533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
     "last_verified_at": null,
@@ -448,11 +448,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091533,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-14-2026--concerts-alternative/production/7091533",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -495,7 +495,7 @@
     "ticketmaster_event_id": "090064BBE484EE0D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-18-2026--concerts-alternative/production/7091535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
     "last_verified_at": null,
@@ -517,11 +517,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091535,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-18-2026--concerts-alternative/production/7091535",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -564,7 +564,7 @@
     "ticketmaster_event_id": "090064BBE48FEE25",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-19-2026--concerts-alternative/production/7091539",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
     "last_verified_at": null,
@@ -586,11 +586,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091539,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-19-2026--concerts-alternative/production/7091539",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -633,7 +633,7 @@
     "ticketmaster_event_id": "090064BBE49DEE4D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-20-2026--concerts-alternative/production/7091543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
     "last_verified_at": null,
@@ -655,11 +655,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091543,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-20-2026--concerts-alternative/production/7091543",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -702,7 +702,7 @@
     "ticketmaster_event_id": "0F0064AEAA9AA408",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-26-2027--concerts-alternative/production/7091546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
     "last_verified_at": null,
@@ -724,11 +724,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091546,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-26-2027--concerts-alternative/production/7091546",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -771,7 +771,7 @@
     "ticketmaster_event_id": "0F0064BBF94F49AA",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-27-2027--concerts-alternative/production/7091550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
     "last_verified_at": null,
@@ -793,11 +793,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091550,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-27-2027--concerts-alternative/production/7091550",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -840,7 +840,7 @@
     "ticketmaster_event_id": "0F0064BBF95C49C8",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-29-2027--concerts-alternative/production/7091554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
     "last_verified_at": null,
@@ -862,11 +862,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091554,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-29-2027--concerts-alternative/production/7091554",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -909,7 +909,7 @@
     "ticketmaster_event_id": "0F0064AEB974BB75",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-1-31-2027--concerts-alternative/production/7091557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
     "last_verified_at": null,
@@ -931,11 +931,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091557,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-1-31-2027--concerts-alternative/production/7091557",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -978,7 +978,7 @@
     "ticketmaster_event_id": "0F0064AEB977BB7B",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-2-1-2027--concerts-alternative/production/7091559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
     "last_verified_at": null,
@@ -1000,11 +1000,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091559,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-2-1-2027--concerts-alternative/production/7091559",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1047,7 +1047,7 @@
     "ticketmaster_event_id": "040064970383E8B6",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-11-2027--concerts-alternative/production/7091486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
     "last_verified_at": null,
@@ -1069,11 +1069,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091486,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-11-2027--concerts-alternative/production/7091486",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1116,7 +1116,7 @@
     "ticketmaster_event_id": "040064BBFB87B15B",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-12-2027--concerts-alternative/production/7091483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
     "last_verified_at": null,
@@ -1138,11 +1138,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091483,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-12-2027--concerts-alternative/production/7091483",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1185,7 +1185,7 @@
     "ticketmaster_event_id": "1B0064B2A09F92BD",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-14-2027--concerts-alternative/production/7091489",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
     "last_verified_at": null,
@@ -1207,11 +1207,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091489,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-14-2027--concerts-alternative/production/7091489",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1254,7 +1254,7 @@
     "ticketmaster_event_id": "1B0064BBCCD04785",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-15-2027--concerts-alternative/production/7091493",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
     "last_verified_at": null,
@@ -1276,11 +1276,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091493,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-15-2027--concerts-alternative/production/7091493",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1323,7 +1323,7 @@
     "ticketmaster_event_id": "100064ACDD6154D0",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-18-2027--concerts-alternative/production/7091562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
     "last_verified_at": null,
@@ -1345,11 +1345,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091562,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-18-2027--concerts-alternative/production/7091562",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1376,7 +1376,7 @@
     "ticketmaster_event_id": "100064BB0E66D7F6",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-19-2027--concerts-alternative/production/7091567",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
     "last_verified_at": null,
@@ -1398,11 +1398,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091567,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-19-2027--concerts-alternative/production/7091567",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1429,7 +1429,7 @@
     "ticketmaster_event_id": "0E0064BA9D9E8164",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-23-2027--concerts-alternative/production/7091569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
     "last_verified_at": null,
@@ -1451,11 +1451,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091569,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-23-2027--concerts-alternative/production/7091569",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1498,7 +1498,7 @@
     "ticketmaster_event_id": "0E0064BA9DA2816C",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-24-2027--concerts-alternative/production/7091571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
     "last_verified_at": null,
@@ -1520,11 +1520,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091571,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-24-2027--concerts-alternative/production/7091571",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1567,7 +1567,7 @@
     "ticketmaster_event_id": "2D00649BA4C9FC8D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-26-2027--concerts-alternative/production/7091573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
     "last_verified_at": null,
@@ -1589,11 +1589,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091573,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-26-2027--concerts-alternative/production/7091573",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1636,7 +1636,7 @@
     "ticketmaster_event_id": "2D0064BBF9018C34",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-27-2027--concerts-alternative/production/7091579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
     "last_verified_at": null,
@@ -1658,11 +1658,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091579,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-27-2027--concerts-alternative/production/7091579",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1705,7 +1705,7 @@
     "ticketmaster_event_id": "0100649CA566E8DF",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-1-2027--concerts-alternative/production/7091585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
     "last_verified_at": null,
@@ -1727,11 +1727,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091585,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-1-2027--concerts-alternative/production/7091585",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1774,7 +1774,7 @@
     "ticketmaster_event_id": "010064BBCD30F3BA",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-2-2027--concerts-alternative/production/7091587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
     "last_verified_at": null,
@@ -1796,11 +1796,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091587,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-2-2027--concerts-alternative/production/7091587",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1843,7 +1843,7 @@
     "ticketmaster_event_id": "1500649CD409C9DA",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-4-2027--concerts-alternative/production/7091591",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
     "last_verified_at": null,
@@ -1865,11 +1865,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091591,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-4-2027--concerts-alternative/production/7091591",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1912,7 +1912,7 @@
     "ticketmaster_event_id": "150064BBD570B9A2",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-05-2027/event/150064BBD570B9A2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-5-2027--concerts-alternative/production/7091593",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-05-2027/event/150064BBD570B9A2",
     "last_verified_at": null,
@@ -1934,11 +1934,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091593,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-5-2027--concerts-alternative/production/7091593",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1981,7 +1981,7 @@
     "ticketmaster_event_id": "310064BA7C90328C",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-08-2027/event/310064BA7C90328C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-8-2027--concerts-alternative/production/7091595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-08-2027/event/310064BA7C90328C",
     "last_verified_at": null,
@@ -2003,11 +2003,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091595,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-8-2027--concerts-alternative/production/7091595",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2042,7 +2042,7 @@
     "ticketmaster_event_id": "310064BA7C943293",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-9-2027--concerts-alternative/production/7091597",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293",
     "last_verified_at": null,
@@ -2064,11 +2064,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091597,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-9-2027--concerts-alternative/production/7091597",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2103,7 +2103,7 @@
     "ticketmaster_event_id": "300064B5AF355E3B",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-12-2027/event/300064B5AF355E3B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-12-2027--concerts-alternative/production/7091601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-12-2027/event/300064B5AF355E3B",
     "last_verified_at": null,
@@ -2125,11 +2125,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091601,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-12-2027--concerts-alternative/production/7091601",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2172,7 +2172,7 @@
     "ticketmaster_event_id": "300064B5AF375E3D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-13-2027/event/300064B5AF375E3D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-13-2027--concerts-alternative/production/7091603",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-13-2027/event/300064B5AF375E3D",
     "last_verified_at": null,
@@ -2194,11 +2194,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091603,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-13-2027--concerts-alternative/production/7091603",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2241,7 +2241,7 @@
     "ticketmaster_event_id": "300064ACE4E97EDD",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-16-2027/event/300064ACE4E97EDD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-16-2027--concerts-alternative/production/7091609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-16-2027/event/300064ACE4E97EDD",
     "last_verified_at": null,
@@ -2263,11 +2263,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091609,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-16-2027--concerts-alternative/production/7091609",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2310,7 +2310,7 @@
     "ticketmaster_event_id": "300064BB023ED800",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-17-2027/event/300064BB023ED800",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-17-2027--concerts-alternative/production/7091611",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-17-2027/event/300064BB023ED800",
     "last_verified_at": null,
@@ -2332,11 +2332,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091611,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-17-2027--concerts-alternative/production/7091611",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2379,7 +2379,7 @@
     "ticketmaster_event_id": "300064BB024DD80D",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-19-2027/event/300064BB024DD80D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-19-2027--concerts-alternative/production/7091613",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-19-2027/event/300064BB024DD80D",
     "last_verified_at": null,
@@ -2401,11 +2401,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091613,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-19-2027--concerts-alternative/production/7091613",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2448,7 +2448,7 @@
     "ticketmaster_event_id": "300064BB0261D81E",
     "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-20-2027/event/300064BB0261D81E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-20-2027--concerts-alternative/production/7091615",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-20-2027/event/300064BB0261D81E",
     "last_verified_at": null,
@@ -2470,11 +2470,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091615,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-20-2027--concerts-alternative/production/7091615",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2623,7 +2623,7 @@
     "ticketmaster_event_id": "370064BBD8963014",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-22-04-2027/event/370064BBD8963014",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-22-2027--concerts-alternative/production/7091736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-22-04-2027/event/370064BBD8963014",
     "last_verified_at": null,
@@ -2645,11 +2645,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091736,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-22-2027--concerts-alternative/production/7091736",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2692,7 +2692,7 @@
     "ticketmaster_event_id": "370064C199D13F1F",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-24-04-2027/event/370064C199D13F1F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-24-2027--concerts-alternative/production/7091740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-24-04-2027/event/370064C199D13F1F",
     "last_verified_at": null,
@@ -2714,11 +2714,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091740,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-24-2027--concerts-alternative/production/7091740",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2761,7 +2761,7 @@
     "ticketmaster_event_id": "370064C1A51F4B4B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-25-04-2027/event/370064C1A51F4B4B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-25-2027--concerts-alternative/production/7091742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-25-04-2027/event/370064C1A51F4B4B",
     "last_verified_at": null,
@@ -2783,11 +2783,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7091742,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-manchester-co-op-live-4-25-2027--concerts-alternative/production/7091742",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2830,7 +2830,7 @@
     "ticketmaster_event_id": "350064BCA96E67D7",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-30-04-2027/event/350064BCA96E67D7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-4-30-2027--concerts-alternative/production/7095586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-30-04-2027/event/350064BCA96E67D7",
     "last_verified_at": null,
@@ -2852,11 +2852,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095586,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-4-30-2027--concerts-alternative/production/7095586",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2891,7 +2891,7 @@
     "ticketmaster_event_id": "350064BCAC1D69DB",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-01-05-2027/event/350064BCAC1D69DB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-1-2027--concerts-alternative/production/7095588",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-01-05-2027/event/350064BCAC1D69DB",
     "last_verified_at": null,
@@ -2913,11 +2913,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095588,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-1-2027--concerts-alternative/production/7095588",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2952,7 +2952,7 @@
     "ticketmaster_event_id": "350064BCAD616B0A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-03-05-2027/event/350064BCAD616B0A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-3-2027--concerts-alternative/production/7095590",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-03-05-2027/event/350064BCAD616B0A",
     "last_verified_at": null,
@@ -2974,11 +2974,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095590,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-3-2027--concerts-alternative/production/7095590",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3013,7 +3013,7 @@
     "ticketmaster_event_id": "350064BCAE5F6C4B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-04-05-2027/event/350064BCAE5F6C4B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-4-2027--concerts-alternative/production/7095592",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-04-05-2027/event/350064BCAE5F6C4B",
     "last_verified_at": null,
@@ -3035,11 +3035,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095592,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-london-the-o2---london-5-4-2027--concerts-alternative/production/7095592",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3281,7 +3281,7 @@
     "ticketmaster_event_id": "1897596244",
     "ticketmaster_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1897596244?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-berlin-uber-arena-5-12-2027--concerts-alternative/production/7095636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1897596244?language=en-us",
     "last_verified_at": null,
@@ -3303,11 +3303,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095636,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-berlin-uber-arena-5-12-2027--concerts-alternative/production/7095636",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3350,7 +3350,7 @@
     "ticketmaster_event_id": "1227215596",
     "ticketmaster_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1227215596?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-berlin-uber-arena-5-13-2027--concerts-alternative/production/7095638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1227215596?language=en-us",
     "last_verified_at": null,
@@ -3372,11 +3372,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095638,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-berlin-uber-arena-5-13-2027--concerts-alternative/production/7095638",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3488,7 +3488,7 @@
     "ticketmaster_event_id": "1971168181",
     "ticketmaster_url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1971168181?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-barcelona-palau-sant-jordi-5-28-2027--concerts-alternative/production/7095654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1971168181?language=en-us",
     "last_verified_at": null,
@@ -3510,11 +3510,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095654,
+        "url": "https://www.vividseats.com/gracie-abrams-tickets-barcelona-palau-sant-jordi-5-28-2027--concerts-alternative/production/7095654",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

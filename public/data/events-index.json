@@ -1134,7 +1134,7 @@
     "country": "United Kingdom",
     "city": "London",
     "venue": "The O2",
-    "datetime_iso": "2026-08-16T18:00:00",
+    "datetime_iso": "2026-08-16T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced"
@@ -1170,7 +1170,7 @@
     "country": "United Kingdom",
     "city": "London",
     "venue": "The O2",
-    "datetime_iso": "2026-08-23T18:00:00",
+    "datetime_iso": "2026-08-23T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced"
@@ -1218,7 +1218,7 @@
     "country": "United Kingdom",
     "city": "London",
     "venue": "The O2",
-    "datetime_iso": "2026-08-31T18:00:00",
+    "datetime_iso": "2026-08-31T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced"

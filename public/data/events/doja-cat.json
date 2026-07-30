@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202112",
+        "url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZbSGkI0b7TI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457598"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457598",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112"
   },
   {
     "id": "tm-doja-cat-2026-chicago-vv178zbsgknyfves",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969165",
+        "url": "https://www.stubhub.ie/doja-cat-chicago-tickets-10-3-2026/event/106969165",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178ZbSGknyfVeS",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457602"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457602",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-chicago-tickets-10-3-2026/event/106969165"
   },
   {
     "id": "tm-doja-cat-2026-minneapolis-vv17bzbsgknj3vy9",
@@ -297,12 +313,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954736",
+        "url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbSEFO0An",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457608"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457608",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736"
   },
   {
     "id": "tm-doja-cat-2026-west-valley-city-g5vzzbslbgavf",
@@ -411,12 +435,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969173",
+        "url": "https://www.stubhub.ie/doja-cat-tickets-vancouver-rogers-arena-10-13-2026/event/106969173",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkGyGkdOSIGy",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457660"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457660",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tickets-vancouver-rogers-arena-10-13-2026/event/106969173"
   },
   {
     "id": "tm-doja-cat-2026-seattle-vvg1hzbslq8got",
@@ -472,12 +504,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969172",
+        "url": "https://www.stubhub.ie/doja-cat-seattle-tickets-10-15-2026/event/106969172",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbSlq8gOt",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457615"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457615",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-seattle-tickets-10-15-2026/event/106969172"
   },
   {
     "id": "tm-doja-cat-2026-portland-vvg1hzbsnaneis",
@@ -594,12 +634,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106972097",
+        "url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS0uA9TW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457622"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457622",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097"
   },
   {
     "id": "tm-doja-cat-2026-sacramento-g5vyzbsnj9ve1",
@@ -655,12 +703,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969171",
+        "url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbSnJ9Ve1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457626"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457626",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171"
   },
   {
     "id": "tm-doja-cat-2026-inglewood-vv170zbsgkihfzey",
@@ -716,12 +772,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106972098",
+        "url": "https://www.stubhub.ie/doja-cat-inglewood-tickets-10-22-2026/event/106972098",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170ZbSGkIhFzEy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457628"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457628",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-inglewood-tickets-10-22-2026/event/106972098"
   },
   {
     "id": "tm-doja-cat-2026-san-diego-vvg1izbsi8_kno",
@@ -838,12 +902,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202113",
+        "url": "https://www.stubhub.ie/doja-cat-phoenix-tickets-10-29-2026/event/107202113",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0ZbSGknh-N_Z",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457632"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457632",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-phoenix-tickets-10-29-2026/event/107202113"
   },
   {
     "id": "tm-doja-cat-2026-austin-g5dizbsl2m6xd",
@@ -899,12 +971,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106972102",
+        "url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbSl2M6xd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457635"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457635",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102"
   },
   {
     "id": "tm-doja-cat-2026-dallas-vvg1yzbstqyohd",
@@ -960,12 +1040,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969177",
+        "url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZbStqyOHD",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457636"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457636",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177"
   },
   {
     "id": "tm-doja-cat-2026-san-antonio-g5dizbsnv5jt4",
@@ -1021,12 +1109,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954711",
+        "url": "https://www.stubhub.ie/doja-cat-san-antonio-tickets-11-6-2026/event/106954711",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbSNV5Jt4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457638"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457638",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-antonio-tickets-11-6-2026/event/106954711"
   },
   {
     "id": "tm-doja-cat-2026-houston-z7r9jz1a7js4g",
@@ -1134,12 +1230,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969169",
+        "url": "https://www.stubhub.ie/doja-cat-miami-tickets-11-11-2026/event/106969169",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS0fdfw5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457643"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457643",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-miami-tickets-11-11-2026/event/106969169"
   },
   {
     "id": "tm-doja-cat-2026-tampa-vvg1vzbslmpvjz",
@@ -1195,12 +1299,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969175",
+        "url": "https://www.stubhub.ie/doja-cat-tampa-tickets-11-13-2026/event/106969175",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbSlmPVJZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457644"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457644",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tampa-tickets-11-13-2026/event/106969175"
   },
   {
     "id": "tm-doja-cat-2026-orlando-1aefzbsgklnlnmt",
@@ -1256,12 +1368,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969170",
+        "url": "https://www.stubhub.ie/doja-cat-orlando-tickets-11-14-2026/event/106969170",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZbSGklNLNmt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457645"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457645",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-orlando-tickets-11-14-2026/event/106969170"
   },
   {
     "id": "tm-doja-cat-2026-atlanta-vvg1zzbsle3ugd",
@@ -1317,12 +1437,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202114",
+        "url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbSle3UGD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457487"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457487",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114"
   },
   {
     "id": "tm-doja-cat-2026-charlotte-g5evzbsemdalv",
@@ -1378,12 +1506,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202115",
+        "url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZbSEmDaLV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457650"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457650",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115"
   },
   {
     "id": "tm-doja-cat-2026-baltimore-1avfzbsgknfre1x",
@@ -1500,12 +1636,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969162",
+        "url": "https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkGyGkdPgPRp",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457653"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457653",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162"
   },
   {
     "id": "tm-doja-cat-2026-boston-vv1f7zbs09vyzd227",
@@ -1561,12 +1705,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969161",
+        "url": "https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F7ZbS09vyZd227",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457655"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457655",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161"
   },
   {
     "id": "tm-doja-cat-2026-toronto-1k7zvncbgagve_c",
@@ -1736,12 +1888,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106972096",
+        "url": "https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZbSGkldzVUa",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457657"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457657",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096"
   },
   {
     "id": "tm-doja-cat-2026-new-york-g5dizbsintkzt",
@@ -1797,11 +1957,19 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969160",
+        "url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZbSINTKZt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457486"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457486",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160"
   }
 ]

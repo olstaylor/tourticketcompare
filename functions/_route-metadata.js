@@ -57,6 +57,62 @@ export function canonicalOrigin(origin) {
 export const TITLE_LENGTH_LIMIT = 60;
 export const META_DESCRIPTION_LENGTH_LIMIT = 160;
 
+/**
+ * Pick the first candidate title that fits the SERP budget.
+ *
+ * Generated city and artist-city titles interpolate place names and date
+ * ranges from event data, so their length is not knowable in advance. The
+ * internal-link audit fails the build on an over-budget title, which is the
+ * right guard but has no way to shorten one: on 2026-07-30 three routes went
+ * over at once (Philadelphia and Indianapolis at 61 chars once their year
+ * label spanned two years, and "Casalecchio di Reno (Bologna)" at 69), which
+ * failed `npm run test:mvp` inside tm-new-shows-pr.yml and discarded a PR
+ * carrying ~183 newly discovered events. Because discovery re-runs nightly
+ * against the same data, that deadlocks all event ingestion until a human
+ * intervenes.
+ *
+ * Callers pass candidates from most to least complete. The first that fits
+ * wins, so titles already within budget are returned byte-identical and no
+ * existing page's title changes. The last candidate is hard-truncated as a
+ * final guarantee, because no fallback list can anticipate every place name.
+ *
+ * @param {Array<string>} candidates  Most complete first.
+ * @param {number} [limit]
+ * @returns {string}
+ */
+export function fitTitleToBudget(candidates, limit = TITLE_LENGTH_LIMIT) {
+  const options = (Array.isArray(candidates) ? candidates : [candidates])
+    .map((value) => String(value ?? "").trim())
+    .filter(Boolean);
+  if (options.length === 0) return "";
+  for (const option of options) {
+    if (option.length <= limit) return option;
+  }
+  // Every candidate overflows: truncate the shortest on a word boundary where
+  // one exists, so the result reads as a clipped phrase rather than a cut word.
+  const shortest = options.reduce((a, b) => (b.length < a.length ? b : a));
+  const clipped = shortest.slice(0, limit);
+  const lastSpace = clipped.lastIndexOf(" ");
+  return (lastSpace > limit * 0.6 ? clipped.slice(0, lastSpace) : clipped).trimEnd();
+}
+
+/**
+ * Strip a trailing parenthetical qualifier from a place label
+ * ("Casalecchio di Reno (Bologna)" → "Casalecchio di Reno"). Ticketmaster
+ * supplies these province/metro hints inside the city name itself, so they are
+ * the first thing to drop when a generated title overflows — the remaining
+ * name is still the real city, never an invented one. Returns the input
+ * unchanged when there is no parenthetical or nothing would be left.
+ *
+ * @param {string} label
+ * @returns {string}
+ */
+export function withoutParentheticalQualifier(label) {
+  const raw = String(label ?? "").trim();
+  const stripped = raw.replace(/\s*\([^()]*\)\s*$/, "").trim();
+  return stripped || raw;
+}
+
 export const TRUST_ROUTES = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",

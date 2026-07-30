@@ -5,7 +5,9 @@ import {
   CANONICAL_HOST,
   META_DESCRIPTION_LENGTH_LIMIT,
   canonicalOrigin,
-  isIndexableOrigin
+  isIndexableOrigin,
+  fitTitleToBudget,
+  withoutParentheticalQualifier
 } from "./_route-metadata.js";
 import { attachApprovedMarketplacePrices } from "./api/shows.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
@@ -214,7 +216,14 @@ async function routeForPath(pathname, env) {
       type: "city",
       path,
       indexable: city.indexable,
-      title: `Concerts in ${city.city}${yearLabel ? ` ${yearLabel}` : ""} | Upcoming Shows & Tickets`,
+      // Shed the year label, then the long suffix, before truncating. The
+      // city name itself is never dropped — it is what the page is about.
+      title: fitTitleToBudget([
+        `Concerts in ${city.city}${yearLabel ? ` ${yearLabel}` : ""} | Upcoming Shows & Tickets`,
+        `Concerts in ${city.city} | Upcoming Shows & Tickets`,
+        `Concerts in ${city.city} | Tickets`,
+        `Concerts in ${city.city}`
+      ]),
       description: cityMetaDescription(city, yearLabel),
       city,
       events: cityEvents,
@@ -1548,8 +1557,18 @@ function artistCityVenueLabel(artistCity) {
   return `${venues[0]}, ${venues[1]}, and other venues`;
 }
 
+// The label carries ", Country" only when the city name is ambiguous across
+// countries, so that suffix is kept ahead of the "| Compare Prices" tail — a
+// disambiguating country matters more to a searcher than the tail does.
 function artistCityTitle(artist, artistCity) {
-  return `${artist.name} Tickets in ${artistCity.label} | Compare Prices`;
+  const label = artistCity.label;
+  const shortLabel = withoutParentheticalQualifier(label);
+  return fitTitleToBudget([
+    `${artist.name} Tickets in ${label} | Compare Prices`,
+    `${artist.name} Tickets in ${shortLabel} | Compare Prices`,
+    `${artist.name} Tickets in ${shortLabel} | Tickets`,
+    `${artist.name} Tickets in ${shortLabel}`
+  ]);
 }
 
 function artistCityDescription(artist, artistCity) {

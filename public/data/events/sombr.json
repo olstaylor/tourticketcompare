@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874821",
+        "url": "https://www.ticketnetwork.com/en/p/7874821",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk3aGkddnbD1",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874821"
   },
   {
     "id": "tm-sombr-2026-seattle-vvg1hz_feci1ir",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874826",
+        "url": "https://www.ticketnetwork.com/en/p/7874826",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FECi1Ir",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874826"
   },
   {
     "id": "tm-sombr-2026-portland-vvg1hz_fljtdxu",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874848",
+        "url": "https://www.ticketnetwork.com/en/p/7874848",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FLJtDXU",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874848"
   },
   {
     "id": "tm-sombr-2026-sacramento-g5vyz_fli21bj",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874849",
+        "url": "https://www.ticketnetwork.com/en/p/7874849",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_FLi21bJ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874849"
   },
   {
     "id": "tm-sombr-2026-san-jose-g5vyz_fljzy-y",
@@ -311,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874852",
+        "url": "https://www.ticketnetwork.com/en/p/7874852",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1Fe8v0xoqvZ7u1ue",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874852"
   },
   {
     "id": "tm-sombr-2026-inglewood-vv16azk3azmzauak1v",
@@ -364,11 +404,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874853",
+        "url": "https://www.ticketnetwork.com/en/p/7874853",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZk3aZMZAuak1v",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874853"
   },
   {
     "id": "tm-sombr-2026-san-diego-z7r9jz1a7x8gw",
@@ -625,11 +673,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874863",
+        "url": "https://www.ticketnetwork.com/en/p/7874863",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_FN5kiFV",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874863"
   },
   {
     "id": "tm-sombr-2026-austin-g5diz_fem5b0f",
@@ -678,11 +734,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874865",
+        "url": "https://www.ticketnetwork.com/en/p/7874865",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_FEM5b0f",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874865"
   },
   {
     "id": "tm-sombr-2026-atlanta-vvg1zz_fxet19l",
@@ -731,11 +795,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874866",
+        "url": "https://www.ticketnetwork.com/en/p/7874866",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FxEt19L",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874866"
   },
   {
     "id": "tm-sombr-2026-sunrise-z7r9jz1a7x8vw",
@@ -836,11 +908,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874868",
+        "url": "https://www.ticketnetwork.com/en/p/7874868",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGkn1Mew3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874868"
   },
   {
     "id": "tm-sombr-2026-charlotte-g5evz_fneqevn",
@@ -889,11 +969,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874869",
+        "url": "https://www.ticketnetwork.com/en/p/7874869",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FNeQEvn",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874869"
   },
   {
     "id": "tm-sombr-2026-nashville-g5viz_fja3nq8",
@@ -942,11 +1030,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874870",
+        "url": "https://www.ticketnetwork.com/en/p/7874870",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_FJa3nQ8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874870"
   },
   {
     "id": "tm-sombr-2026-saint-louis-vv1akzk3fgkey5tam",
@@ -1048,11 +1144,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874872",
+        "url": "https://www.ticketnetwork.com/en/p/7874872",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_FJFG7WETj",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874872"
   },
   {
     "id": "tm-sombr-2026-minneapolis-vv1akzk3agkeivme6",
@@ -1101,11 +1205,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874873",
+        "url": "https://www.ticketnetwork.com/en/p/7874873",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk3aGkeivme6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874873"
   },
   {
     "id": "tm-sombr-2026-milwaukee-vv1a6zk3fgkdlouyw",
@@ -1154,11 +1266,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874874",
+        "url": "https://www.ticketnetwork.com/en/p/7874874",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk3FGkdLoUyW",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874874"
   },
   {
     "id": "tm-sombr-2026-chicago-vv1a7zk36gkd2hi7b",
@@ -1207,11 +1327,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874875",
+        "url": "https://www.ticketnetwork.com/en/p/7874875",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk36Gkd2Hi7b",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874875"
   },
   {
     "id": "tm-sombr-2026-indianapolis-vv1aazk3apba_ze8u",
@@ -1260,11 +1388,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874876",
+        "url": "https://www.ticketnetwork.com/en/p/7874876",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1aAZk3aPba_Ze8u",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874876"
   },
   {
     "id": "tm-sombr-2026-detroit-vv1afzk3fgkeg5jlz",
@@ -1313,11 +1449,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874877",
+        "url": "https://www.ticketnetwork.com/en/p/7874877",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk3FGkeg5JlZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874877"
   },
   {
     "id": "tm-sombr-2026-columbus-vv1kv8v0xbga57f2-",
@@ -1366,11 +1510,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874878",
+        "url": "https://www.ticketnetwork.com/en/p/7874878",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8v0xbGA57f2-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874878"
   },
   {
     "id": "tm-sombr-2026-washington-1a4zk3vgkd85lni",
@@ -1419,11 +1571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874879",
+        "url": "https://www.ticketnetwork.com/en/p/7874879",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk3vGkd85lNI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874879"
   },
   {
     "id": "tm-sombr-2026-pittsburgh-1kaov0xfga560gt",
@@ -1472,11 +1632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874880",
+        "url": "https://www.ticketnetwork.com/en/p/7874880",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOv0xFGA560gt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874880"
   },
   {
     "id": "tm-sombr-2026-cleveland-z7r9jz1a7xav7",
@@ -1577,11 +1745,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874882",
+        "url": "https://www.ticketnetwork.com/en/p/7874882",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_F0KG7ij1e",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874882"
   },
   {
     "id": "tm-sombr-2026-toronto-1a8zk36gkdv1i_l",
@@ -1683,11 +1859,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874884",
+        "url": "https://www.ticketnetwork.com/en/p/7874884",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk36GkdFNKEx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874884"
   },
   {
     "id": "tm-sombr-2026-philadelphia-1kgzv0xbga5zeae",
@@ -1736,11 +1920,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874885",
+        "url": "https://www.ticketnetwork.com/en/p/7874885",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZv0xbGA5zeAe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874885"
   },
   {
     "id": "tm-sombr-2026-newark-vv1aezk3fgkdhlmuf",
@@ -1789,11 +1981,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874886",
+        "url": "https://www.ticketnetwork.com/en/p/7874886",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk3FGkdhLmUF",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874886"
   },
   {
     "id": "tm-sombr-2026-new-york-g5diz_flfogz-",
@@ -1842,11 +2042,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874887",
+        "url": "https://www.ticketnetwork.com/en/p/7874887",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_FlfogZ-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874887"
   },
   {
     "id": "tm-sombr-2026-new-york-g5diz_flffpzi",
@@ -1895,10 +2103,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877722",
+        "url": "https://www.ticketnetwork.com/en/p/7877722",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_FlffPZI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877722"
   }
 ]

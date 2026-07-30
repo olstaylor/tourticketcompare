@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7830189",
+        "url": "https://www.ticketnetwork.com/en/p/7830189",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkoyGkdRzveg",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830189"
   },
   {
     "id": "tm-niall-horan-2026-newcastle-upon-tyne-g5vhz_6jezgkf",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831760",
+        "url": "https://www.ticketnetwork.com/en/p/7831760",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_6JEzgkF",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831760"
   },
   {
     "id": "tm-niall-horan-2026-manchester-1amzkozgkdqek4f",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831769",
+        "url": "https://www.ticketnetwork.com/en/p/7831769",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkozGkdQEK4f",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831769"
   },
   {
     "id": "tm-niall-horan-2026-glasgow-1auzkozgkeyxugy",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831767",
+        "url": "https://www.ticketnetwork.com/en/p/7831767",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkozGkeYxUgY",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831767"
   },
   {
     "id": "tm-niall-horan-2026-sheffield-16gzkozpuza5kedv",
@@ -258,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831763",
+        "url": "https://www.ticketnetwork.com/en/p/7831763",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16gZkozPUZA5kedv",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831763"
   },
   {
     "id": "tm-niall-horan-2026-london-1agzkoygkdkpykl",
@@ -470,11 +510,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831765",
+        "url": "https://www.ticketnetwork.com/en/p/7831765",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1A9foCb",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831765"
   },
   {
     "id": "tm-niall-horan-2026-amsterdam-z698xzbpz16vxbu8jy",
@@ -523,11 +571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831766",
+        "url": "https://www.ticketnetwork.com/en/p/7831766",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vxbu8jy",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831766"
   },
   {
     "id": "tm-niall-horan-2026-barcelona-z698xz2qz16va-q_8k",
@@ -576,11 +632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843958",
+        "url": "https://www.ticketnetwork.com/en/p/7843958",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vA-Q_8K",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843958"
   },
   {
     "id": "tm-niall-horan-2026-assago-zg9rmiynyzedfa",
@@ -735,11 +799,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831764",
+        "url": "https://www.ticketnetwork.com/en/p/7831764",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kaaofap",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831764"
   },
   {
     "id": "tm-niall-horan-2026-krakow-z698xzqpz1kq7zp--",
@@ -946,11 +1018,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954156",
+        "url": "https://www.ticketnetwork.com/en/p/7954156",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_1rV4aSt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954156"
   },
   {
     "id": "tm-niall-horan-2027-columbus-vvg1fz_1x9ig7q",
@@ -999,11 +1079,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954157",
+        "url": "https://www.ticketnetwork.com/en/p/7954157",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1x9IG7q",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954157"
   },
   {
     "id": "tm-niall-horan-2027-chicago-vvg18z_1llyajb",
@@ -1052,11 +1140,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954198",
+        "url": "https://www.ticketnetwork.com/en/p/7954198",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1LLYAJb",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954198"
   },
   {
     "id": "tm-niall-horan-2027-indianapolis-vvg1fz_1htnybv",
@@ -1105,11 +1201,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954200",
+        "url": "https://www.ticketnetwork.com/en/p/7954200",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1htNyBv",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954200"
   },
   {
     "id": "tm-niall-horan-2027-saint-louis-vvg1bz_1qy32om",
@@ -1264,11 +1368,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954209",
+        "url": "https://www.ticketnetwork.com/en/p/7954209",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G61rtd60V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954209"
   },
   {
     "id": "tm-niall-horan-2027-brooklyn-17gzv0g61hpqmr1",
@@ -1317,11 +1429,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954210",
+        "url": "https://www.ticketnetwork.com/en/p/7954210",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61hpQmr1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954210"
   },
   {
     "id": "tm-niall-horan-2027-baltimore-17a8v0g61lfcmsv",
@@ -1370,11 +1490,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954211",
+        "url": "https://www.ticketnetwork.com/en/p/7954211",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61LFCmSV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954211"
   },
   {
     "id": "tm-niall-horan-2027-boston-vvg17z_1qxbhwy",
@@ -1423,11 +1551,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954213",
+        "url": "https://www.ticketnetwork.com/en/p/7954213",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1QXBHwy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954213"
   },
   {
     "id": "tm-niall-horan-2027-raleigh-g5evz_1r802la",
@@ -1476,11 +1612,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954215",
+        "url": "https://www.ticketnetwork.com/en/p/7954215",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1r802lA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954215"
   },
   {
     "id": "tm-niall-horan-2027-orlando-17fov0g61xk1ezu",
@@ -1529,11 +1673,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954325",
+        "url": "https://www.ticketnetwork.com/en/p/7954325",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61xk1ezU",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954325"
   },
   {
     "id": "tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt",
@@ -1582,11 +1734,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954216",
+        "url": "https://www.ticketnetwork.com/en/p/7954216",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1hoxUDT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954216"
   },
   {
     "id": "tm-niall-horan-2027-new-orleans-g5viz_1xkcnon",
@@ -1635,11 +1795,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954217",
+        "url": "https://www.ticketnetwork.com/en/p/7954217",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1xKcnON",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954217"
   },
   {
     "id": "tm-niall-horan-2027-houston-z7r9jz1a709uy",
@@ -1740,11 +1908,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954219",
+        "url": "https://www.ticketnetwork.com/en/p/7954219",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1r1jEer",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954219"
   },
   {
     "id": "tm-niall-horan-2027-austin-g5diz_1lpaglw",
@@ -1793,11 +1969,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954220",
+        "url": "https://www.ticketnetwork.com/en/p/7954220",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1LPAglW",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954220"
   },
   {
     "id": "tm-niall-horan-2027-denver-g5vzz_1lspoiu",
@@ -1846,11 +2030,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954221",
+        "url": "https://www.ticketnetwork.com/en/p/7954221",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1LSPOiU",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954221"
   },
   {
     "id": "tm-niall-horan-2027-west-valley-city-g5vzz_1xafaiw",
@@ -1952,11 +2144,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954224",
+        "url": "https://www.ticketnetwork.com/en/p/7954224",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61ruOfyR",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954224"
   },
   {
     "id": "tm-niall-horan-2027-inglewood-vvg10z_1jzwise",
@@ -2005,11 +2205,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954226",
+        "url": "https://www.ticketnetwork.com/en/p/7954226",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1jZWiSe",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954226"
   },
   {
     "id": "tm-niall-horan-2027-san-francisco-g5vyz_195tivo",
@@ -2058,11 +2266,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954234",
+        "url": "https://www.ticketnetwork.com/en/p/7954234",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_195TiVO",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954234"
   },
   {
     "id": "tm-niall-horan-2027-seattle-vvg1hz_1hqc03-",
@@ -2111,11 +2327,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954237",
+        "url": "https://www.ticketnetwork.com/en/p/7954237",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1hQc03-",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954237"
   },
   {
     "id": "tm-niall-horan-2027-vancouver-1778v0g61qodyye",
@@ -2164,10 +2388,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954249",
+        "url": "https://www.ticketnetwork.com/en/p/7954249",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G61QOdyye",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954249"
   }
 ]

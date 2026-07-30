@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002235",
+        "url": "https://www.ticketnetwork.com/en/p/8002235",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_55Eui2W",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002235"
   },
   {
     "id": "tm-gracie-abrams-2026-denver-g5vzz_5lhxedg",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002236",
+        "url": "https://www.ticketnetwork.com/en/p/8002236",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_5lHXEdG",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002236"
   },
   {
     "id": "tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002237",
+        "url": "https://www.ticketnetwork.com/en/p/8002237",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1UDxFhX",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002237"
   },
   {
     "id": "tm-gracie-abrams-2026-oakland-g5vyz_5mq0w7n",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002238",
+        "url": "https://www.ticketnetwork.com/en/p/8002238",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5mq0w7N",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002238"
   },
   {
     "id": "tm-gracie-abrams-2026-glendale-17k8v0g652smnjw",
@@ -258,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002239",
+        "url": "https://www.ticketnetwork.com/en/p/8002239",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G652SMnjW",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002239"
   },
   {
     "id": "tm-gracie-abrams-2026-glendale-17k8v0g65839wds",
@@ -311,11 +351,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002240",
+        "url": "https://www.ticketnetwork.com/en/p/8002240",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G65839WDS",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002240"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_53kkqpx",
@@ -364,11 +412,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002241",
+        "url": "https://www.ticketnetwork.com/en/p/8002241",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_53KkQpX",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002241"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0-czu",
@@ -417,11 +473,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002242",
+        "url": "https://www.ticketnetwork.com/en/p/8002242",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5R0-Czu",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002242"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0nxzp",
@@ -470,11 +534,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002243",
+        "url": "https://www.ticketnetwork.com/en/p/8002243",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5R0NXzP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002243"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0eryu",
@@ -523,11 +595,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002244",
+        "url": "https://www.ticketnetwork.com/en/p/8002244",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5R0Eryu",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002244"
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f",
@@ -576,11 +656,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002270",
+        "url": "https://www.ticketnetwork.com/en/p/8002270",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1BnJn8F",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002270"
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5rykvjn",
@@ -629,11 +717,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002271",
+        "url": "https://www.ticketnetwork.com/en/p/8002271",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5RyKVJn",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002271"
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5ry97ef",
@@ -682,11 +778,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002272",
+        "url": "https://www.ticketnetwork.com/en/p/8002272",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5Ry97EF",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002272"
   },
   {
     "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byq5cg",
@@ -735,11 +839,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002273",
+        "url": "https://www.ticketnetwork.com/en/p/8002273",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1Byq5cg",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002273"
   },
   {
     "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byqdcd",
@@ -788,11 +900,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002274",
+        "url": "https://www.ticketnetwork.com/en/p/8002274",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1ByqDcD",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002274"
   },
   {
     "id": "tm-gracie-abrams-2027-chicago-vv1fvzv0pycdz72ag6",
@@ -841,11 +961,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002275",
+        "url": "https://www.ticketnetwork.com/en/p/8002275",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FvZv0PYCdZ72aG6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002275"
   },
   {
     "id": "tm-gracie-abrams-2027-chicago-vvg18z_5rd-dah",
@@ -894,11 +1022,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002276",
+        "url": "https://www.ticketnetwork.com/en/p/8002276",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_5RD-DAh",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002276"
   },
   {
     "id": "tm-gracie-abrams-2027-nashville-g5viz_51oey1w",
@@ -947,11 +1083,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002277",
+        "url": "https://www.ticketnetwork.com/en/p/8002277",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_51OEy1W",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002277"
   },
   {
     "id": "tm-gracie-abrams-2027-nashville-g5viz_5rgv7ra",
@@ -1000,11 +1144,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002278",
+        "url": "https://www.ticketnetwork.com/en/p/8002278",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_5RGV7rA",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002278"
   },
   {
     "id": "tm-gracie-abrams-2027-toronto-177zv0g61sqb4k8",
@@ -1159,11 +1311,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002281",
+        "url": "https://www.ticketnetwork.com/en/p/8002281",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_5nqEIA0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002281"
   },
   {
     "id": "tm-gracie-abrams-2027-atlanta-vvg1zz_5nqiiai",
@@ -1212,11 +1372,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002282",
+        "url": "https://www.ticketnetwork.com/en/p/8002282",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_5nqIIAi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002282"
   },
   {
     "id": "tm-gracie-abrams-2027-charlotte-g5evz_am0wlwu",
@@ -1265,11 +1433,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002283",
+        "url": "https://www.ticketnetwork.com/en/p/8002283",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_am0wLwu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002283"
   },
   {
     "id": "tm-gracie-abrams-2027-charlotte-g5evz_5ryzbyv",
@@ -1318,11 +1494,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002284",
+        "url": "https://www.ticketnetwork.com/en/p/8002284",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_5RyZbYV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002284"
   },
   {
     "id": "tm-gracie-abrams-2027-boston-vv177z_agkwp_mnl",
@@ -1371,11 +1555,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002285",
+        "url": "https://www.ticketnetwork.com/en/p/8002285",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_aGkwP_mNL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002285"
   },
   {
     "id": "tm-gracie-abrams-2027-boston-vvg17z_5rug2cb",
@@ -1424,11 +1616,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002286",
+        "url": "https://www.ticketnetwork.com/en/p/8002286",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_5RuG2CB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002286"
   },
   {
     "id": "tm-gracie-abrams-2027-washington-1avfz_agksfejeq",
@@ -1477,11 +1677,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002287",
+        "url": "https://www.ticketnetwork.com/en/p/8002287",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_aGkSfejEQ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002287"
   },
   {
     "id": "tm-gracie-abrams-2027-washington-17a8v0g65r4j5jx",
@@ -1530,11 +1738,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002288",
+        "url": "https://www.ticketnetwork.com/en/p/8002288",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G65R4j5Jx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002288"
   },
   {
     "id": "tm-gracie-abrams-2027-montreal-17g8v0g65th0d1g",
@@ -1583,11 +1799,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002289",
+        "url": "https://www.ticketnetwork.com/en/p/8002289",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65tH0d1G",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002289"
   },
   {
     "id": "tm-gracie-abrams-2027-montreal-17g8v0g65thpd1k",
@@ -1636,11 +1860,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002290",
+        "url": "https://www.ticketnetwork.com/en/p/8002290",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65tHPd1K",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002290"
   },
   {
     "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65pru4zd",
@@ -1689,11 +1921,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002291",
+        "url": "https://www.ticketnetwork.com/en/p/8002291",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65pRu4zD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002291"
   },
   {
     "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65prugzw",
@@ -1742,11 +1982,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002292",
+        "url": "https://www.ticketnetwork.com/en/p/8002292",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65pRugzW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002292"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g61s0b9dq",
@@ -1795,11 +2043,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002293",
+        "url": "https://www.ticketnetwork.com/en/p/8002293",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61S0B9Dq",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002293"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65ie2coz",
@@ -1848,11 +2104,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002294",
+        "url": "https://www.ticketnetwork.com/en/p/8002294",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65ie2cOZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002294"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iekqou",
@@ -1901,11 +2165,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002295",
+        "url": "https://www.ticketnetwork.com/en/p/8002295",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65ieKqOu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002295"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iebqor",
@@ -1954,11 +2226,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002296",
+        "url": "https://www.ticketnetwork.com/en/p/8002296",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65iebqOr",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002296"
   },
   {
     "id": "tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b",
@@ -2113,11 +2393,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002339",
+        "url": "https://www.ticketnetwork.com/en/p/8002339",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G65RbPNZf",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002339"
   },
   {
     "id": "tm-gracie-abrams-2027-manchester-17uyv0g6gk_vkhl",
@@ -2166,11 +2454,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018170",
+        "url": "https://www.ticketnetwork.com/en/p/8018170",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G6Gk_VKHL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018170"
   },
   {
     "id": "tm-gracie-abrams-2027-manchester-17uyv0g6gkp6vc5",
@@ -2219,11 +2515,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018184",
+        "url": "https://www.ticketnetwork.com/en/p/8018184",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G6GkP6Vc5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018184"
   },
   {
     "id": "tm-gracie-abrams-2027-london-17u8v0g65wthjl9",
@@ -2484,11 +2788,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018171",
+        "url": "https://www.ticketnetwork.com/en/p/8018171",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vpdAfZK",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018171"
   },
   {
     "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16v00_azt",
@@ -2537,11 +2849,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018172",
+        "url": "https://www.ticketnetwork.com/en/p/8018172",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v00_AZt",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018172"
   },
   {
     "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16v0oan4g",
@@ -2590,11 +2910,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018173",
+        "url": "https://www.ticketnetwork.com/en/p/8018173",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0oaN4g",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018173"
   },
   {
     "id": "tm-gracie-abrams-2027-berlin-z698xzc2z16vx9ppa7",
@@ -2643,11 +2971,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018174",
+        "url": "https://www.ticketnetwork.com/en/p/8018174",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vx9ppa7",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018174"
   },
   {
     "id": "tm-gracie-abrams-2027-berlin-z698xzc2z16vfef4pp",
@@ -2696,11 +3032,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018175",
+        "url": "https://www.ticketnetwork.com/en/p/8018175",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vFEF4pp",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018175"
   },
   {
     "id": "tm-gracie-abrams-2027-barcelona-z698xz2qz16vav0xgz",
@@ -2749,11 +3093,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018168",
+        "url": "https://www.ticketnetwork.com/en/p/8018168",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaV0xGZ",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018168"
   },
   {
     "id": "tm-gracie-abrams-2027-barcelona-z698xz2qz16vpsaikv",
@@ -2802,10 +3154,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018169",
+        "url": "https://www.ticketnetwork.com/en/p/8018169",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPsAIkv",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018169"
   }
 ]

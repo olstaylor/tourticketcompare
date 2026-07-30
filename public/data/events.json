@@ -31931,7 +31931,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A704vb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A704vb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-17-7-30-pm/concert/18235523",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A704vb",
@@ -31947,11 +31947,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18235523,
+        "url": "https://seatgeek.com/niall-horan-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-17-7-30-pm/concert/18235523",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -32877,7 +32877,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A709uy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uy",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/houston-texas-toyota-center-2027-05-01-7-30-pm/concert/18235544",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uy",
@@ -32893,11 +32893,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18235544,
+        "url": "https://seatgeek.com/niall-horan-tickets/houston-texas-toyota-center-2027-05-01-7-30-pm/concert/18235544",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -34659,7 +34659,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7jS4g",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4g",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4g",
@@ -34675,11 +34675,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769336,
+        "url": "https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -35974,7 +35974,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7x8Gw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8Gw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/san-diego-california-pechanga-arena-san-diego-2026-10-13-7-pm/concert/18175618",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8Gw",
@@ -35990,11 +35990,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175618,
+        "url": "https://seatgeek.com/sombr-tickets/san-diego-california-pechanga-arena-san-diego-2026-10-13-7-pm/concert/18175618",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -36026,7 +36026,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7x8GY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8GY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/glendale-arizona-desert-diamond-arena-2026-10-14-7-pm/concert/18175621",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8GY",
@@ -36042,11 +36042,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175621,
+        "url": "https://seatgeek.com/sombr-tickets/glendale-arizona-desert-diamond-arena-2026-10-14-7-pm/concert/18175621",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -36078,7 +36078,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7x8Av",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8Av",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-16-7-pm/concert/18175623",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8Av",
@@ -36094,11 +36094,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175623,
+        "url": "https://seatgeek.com/sombr-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-16-7-pm/concert/18175623",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -36130,7 +36130,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7x8Ae",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8Ae",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/houston-texas-toyota-center-2026-10-17-7-pm/concert/18175625",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8Ae",
@@ -36146,11 +36146,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18175625,
+        "url": "https://seatgeek.com/sombr-tickets/houston-texas-toyota-center-2026-10-17-7-pm/concert/18175625",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -36389,7 +36389,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7x8vw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8vw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/sunrise-florida-amerant-bank-arena-2026-10-24-7-pm/concert/18164919",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x8vw",
@@ -36405,11 +36405,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18164919,
+        "url": "https://seatgeek.com/sombr-tickets/sunrise-florida-amerant-bank-arena-2026-10-24-7-pm/concert/18164919",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -37250,7 +37250,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7xav7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xav7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xav7",
@@ -37266,11 +37266,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18157641,
+        "url": "https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -37769,7 +37769,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZo4o",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZo4o",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-summit-tickets/chicago-illinois-radius-chicago-2026-07-30-10-pm/concert/18407089",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZo4o",
@@ -37785,11 +37785,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18407089,
+        "url": "https://seatgeek.com/john-summit-tickets/chicago-illinois-radius-chicago-2026-07-30-10-pm/concert/18407089",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -37821,7 +37821,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70IJb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IJb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-summit-tickets/champaign-illinois-state-farm-center-2026-10-01-7-pm/concert/18257239",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IJb",
@@ -37837,11 +37837,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18257239,
+        "url": "https://seatgeek.com/john-summit-tickets/champaign-illinois-state-farm-center-2026-10-01-7-pm/concert/18257239",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -38239,7 +38239,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70t74",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70t74",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70t74",
@@ -38255,11 +38255,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18257241,
+        "url": "https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

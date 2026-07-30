@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-07-30T07:41:37.514Z
+Generated: 2026-07-30T22:12:24.824Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 19 (needs_recheck: 19, provenance backfill: 0, stale re-check: 17)
+- Events selected: 47 (needs_recheck: 47, provenance backfill: 0, stale re-check: 29)
 - Events skipped before API checks: 71
-- API calls made: 19
+- API calls made: 47
 - Verified provenance written: 17
-- URLs added: 0
+- URLs added: 12
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 0
-- No qualifying listing: 2
+- No qualifying listing: 18
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -45,6 +45,34 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-tame-impala-2026-minneapolis-z7r9jz1a7-f_m | tame-impala | verify (applied) | 18070208 | https://seatgeek.com/tame-impala-tickets/minneapolis-minnesota-target-center-2026-08-28-7-pm/concert/18070208 | - |
 | tm-tame-impala-2026-houston-z7r9jz1a7-f_z | tame-impala | verify (applied) | 18070199 | https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-19-7-pm/concert/18070199 | - |
 | tm-tame-impala-2026-houston-z7r9jz1a7-a4m | tame-impala | verify (applied) | 18080351 | https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-20-7-pm/concert/18080351 | - |
+| tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k4vofa4 | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2027-amsterdam-z698xzbpz16vpdafzk | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2027-amsterdam-z698xzbpz16v00_azt | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2027-amsterdam-z698xzbpz16v0oan4g | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2027-berlin-z698xzc2z16vx9ppa7 | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2027-berlin-z698xzc2z16vfef4pp | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2027-barcelona-z698xz2qz16vav0xgz | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-gracie-abrams-2027-barcelona-z698xz2qz16vpsaikv | gracie-abrams | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-niall-horan-2026-hamburg-z698xzc2z16v40up_b | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-niall-horan-2026-amsterdam-z698xzbpz1a9focb | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-niall-horan-2026-amsterdam-z698xzbpz16vxbu8jy | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-niall-horan-2026-barcelona-z698xz2qz16va-q_8k | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-niall-horan-2026-munich-z698xzc2z1kaaofap | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-niall-horan-2026-krakow-z698xzqpz1kq7zp-- | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-niall-horan-2026-merksem-antwerpen-z698xzg2z1k1kb9e_ | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-niall-horan-2027-saint-paul-z7r9jz1a704vb | niall-horan | add (applied) | 18235523 | https://seatgeek.com/niall-horan-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-17-7-30-pm/concert/18235523 | - |
+| tm-niall-horan-2027-houston-z7r9jz1a709uy | niall-horan | add (applied) | 18235544 | https://seatgeek.com/niall-horan-tickets/houston-texas-toyota-center-2027-05-01-7-30-pm/concert/18235544 | - |
+| tm-doja-cat-2026-houston-z7r9jz1a7js4g | doja-cat | add (applied) | 17769336 | https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336 | - |
+| tm-sombr-2026-san-diego-z7r9jz1a7x8gw | sombr | add (applied) | 18175618 | https://seatgeek.com/sombr-tickets/san-diego-california-pechanga-arena-san-diego-2026-10-13-7-pm/concert/18175618 | - |
+| tm-sombr-2026-glendale-z7r9jz1a7x8gy | sombr | add (applied) | 18175621 | https://seatgeek.com/sombr-tickets/glendale-arizona-desert-diamond-arena-2026-10-14-7-pm/concert/18175621 | - |
+| tm-sombr-2026-oklahoma-city-z7r9jz1a7x8av | sombr | add (applied) | 18175623 | https://seatgeek.com/sombr-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-16-7-pm/concert/18175623 | - |
+| tm-sombr-2026-houston-z7r9jz1a7x8ae | sombr | add (applied) | 18175625 | https://seatgeek.com/sombr-tickets/houston-texas-toyota-center-2026-10-17-7-pm/concert/18175625 | - |
+| tm-sombr-2026-sunrise-z7r9jz1a7x8vw | sombr | add (applied) | 18164919 | https://seatgeek.com/sombr-tickets/sunrise-florida-amerant-bank-arena-2026-10-24-7-pm/concert/18164919 | - |
+| tm-sombr-2026-cleveland-z7r9jz1a7xav7 | sombr | add (applied) | 18157641 | https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641 | - |
+| tm-john-summit-2026-chicago-z7r9jz1aazo4o | john-summit | add (applied) | 18407089 | https://seatgeek.com/john-summit-tickets/chicago-illinois-radius-chicago-2026-07-30-10-pm/concert/18407089 | - |
+| tm-john-summit-2026-champaign-z7r9jz1a70ijb | john-summit | add (applied) | 18257239 | https://seatgeek.com/john-summit-tickets/champaign-illinois-state-farm-center-2026-10-01-7-pm/concert/18257239 | - |
+| tm-john-summit-2026-houston-z7r9jz1a70t74 | john-summit | add (applied) | 18257241 | https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241 | - |
 
 ## Skipped before API checks
 

@@ -47,6 +47,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874821",
+        "url": "https://www.ticketnetwork.com/en/p/7874821",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107155463",
         "url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463",
@@ -58,6 +65,7 @@
     "ticketmaster_discovery_event_id": "1AoZk3aGkddnbD1",
     "timezone": "America/Vancouver",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874821",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463"
   },
   {
@@ -108,6 +116,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874826",
+        "url": "https://www.ticketnetwork.com/en/p/7874826",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107158168",
         "url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168",
@@ -119,6 +134,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_FECi1Ir",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874826",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168"
   },
   {
@@ -169,6 +185,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874848",
+        "url": "https://www.ticketnetwork.com/en/p/7874848",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107155465",
         "url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465",
@@ -180,6 +203,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_FLJtDXU",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874848",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465"
   },
   {
@@ -230,6 +254,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874849",
+        "url": "https://www.ticketnetwork.com/en/p/7874849",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107158169",
         "url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169",
@@ -241,6 +272,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_FLi21bJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874849",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169"
   },
   {
@@ -344,6 +376,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874852",
+        "url": "https://www.ticketnetwork.com/en/p/7874852",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107155467",
         "url": "https://www.stubhub.ie/sombr-anaheim-tickets-10-9-2026/event/107155467",
@@ -355,6 +394,7 @@
     "ticketmaster_discovery_event_id": "vv1Fe8v0xoqvZ7u1ue",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874852",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-anaheim-tickets-10-9-2026/event/107155467"
   },
   {
@@ -405,6 +445,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874853",
+        "url": "https://www.ticketnetwork.com/en/p/7874853",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107155468",
         "url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468",
@@ -416,6 +463,7 @@
     "ticketmaster_discovery_event_id": "vv16aZk3aZMZAuak1v",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874853",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468"
   },
   {
@@ -674,6 +722,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874863",
+        "url": "https://www.ticketnetwork.com/en/p/7874863",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107155471",
         "url": "https://www.stubhub.ie/sombr-dallas-tickets-10-18-2026/event/107155471",
@@ -685,6 +740,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_FN5kiFV",
     "timezone": "America/Chicago",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874863",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-dallas-tickets-10-18-2026/event/107155471"
   },
   {
@@ -735,6 +791,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874865",
+        "url": "https://www.ticketnetwork.com/en/p/7874865",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107155472",
         "url": "https://www.stubhub.ie/sombr-austin-tickets-10-20-2026/event/107155472",
@@ -746,6 +809,7 @@
     "ticketmaster_discovery_event_id": "G5dIZ_FEM5b0f",
     "timezone": "America/Chicago",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874865",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-austin-tickets-10-20-2026/event/107155472"
   },
   {
@@ -796,6 +860,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874866",
+        "url": "https://www.ticketnetwork.com/en/p/7874866",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107155494",
         "url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494",
@@ -807,6 +878,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_FxEt19L",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874866",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494"
   },
   {
@@ -909,6 +981,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874868",
+        "url": "https://www.ticketnetwork.com/en/p/7874868",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107154726",
         "url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726",
@@ -920,6 +999,7 @@
     "ticketmaster_discovery_event_id": "1AeFZ_FGkn1Mew3",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874868",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726"
   },
   {
@@ -969,11 +1049,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874869",
+        "url": "https://www.ticketnetwork.com/en/p/7874869",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FNeQEvn",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874869"
   },
   {
     "id": "tm-sombr-2026-nashville-g5viz_fja3nq8",
@@ -1022,11 +1110,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874870",
+        "url": "https://www.ticketnetwork.com/en/p/7874870",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_FJa3nQ8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874870"
   },
   {
     "id": "tm-sombr-2026-saint-louis-vv1akzk3fgkey5tam",
@@ -1128,11 +1224,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874872",
+        "url": "https://www.ticketnetwork.com/en/p/7874872",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_FJFG7WETj",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874872"
   },
   {
     "id": "tm-sombr-2026-minneapolis-vv1akzk3agkeivme6",
@@ -1181,11 +1285,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874873",
+        "url": "https://www.ticketnetwork.com/en/p/7874873",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk3aGkeivme6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874873"
   },
   {
     "id": "tm-sombr-2026-milwaukee-vv1a6zk3fgkdlouyw",
@@ -1234,11 +1346,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874874",
+        "url": "https://www.ticketnetwork.com/en/p/7874874",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk3FGkdLoUyW",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874874"
   },
   {
     "id": "tm-sombr-2026-chicago-vv1a7zk36gkd2hi7b",
@@ -1288,6 +1408,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874875",
+        "url": "https://www.ticketnetwork.com/en/p/7874875",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107154727",
         "url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727",
@@ -1299,6 +1426,7 @@
     "ticketmaster_discovery_event_id": "vv1A7Zk36Gkd2Hi7b",
     "timezone": "America/Chicago",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874875",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727"
   },
   {
@@ -1348,11 +1476,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874876",
+        "url": "https://www.ticketnetwork.com/en/p/7874876",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1aAZk3aPba_Ze8u",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874876"
   },
   {
     "id": "tm-sombr-2026-detroit-vv1afzk3fgkeg5jlz",
@@ -1401,11 +1537,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874877",
+        "url": "https://www.ticketnetwork.com/en/p/7874877",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk3FGkeg5JlZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874877"
   },
   {
     "id": "tm-sombr-2026-columbus-vv1kv8v0xbga57f2-",
@@ -1454,11 +1598,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874878",
+        "url": "https://www.ticketnetwork.com/en/p/7874878",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8v0xbGA57f2-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874878"
   },
   {
     "id": "tm-sombr-2026-washington-1a4zk3vgkd85lni",
@@ -1508,6 +1660,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874879",
+        "url": "https://www.ticketnetwork.com/en/p/7874879",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107154729",
         "url": "https://www.stubhub.ie/sombr-washington-tickets-11-10-2026/event/107154729",
@@ -1519,6 +1678,7 @@
     "ticketmaster_discovery_event_id": "1A4Zk3vGkd85lNI",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874879",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-washington-tickets-11-10-2026/event/107154729"
   },
   {
@@ -1568,11 +1728,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874880",
+        "url": "https://www.ticketnetwork.com/en/p/7874880",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOv0xFGA560gt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874880"
   },
   {
     "id": "tm-sombr-2026-cleveland-z7r9jz1a7xav7",
@@ -1674,6 +1842,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874882",
+        "url": "https://www.ticketnetwork.com/en/p/7874882",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107154730",
         "url": "https://www.stubhub.ie/sombr-buffalo-tickets-11-14-2026/event/107154730",
@@ -1685,6 +1860,7 @@
     "ticketmaster_discovery_event_id": "k7v17_F0KG7ij1e",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874882",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-buffalo-tickets-11-14-2026/event/107154730"
   },
   {
@@ -1788,6 +1964,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874884",
+        "url": "https://www.ticketnetwork.com/en/p/7874884",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107154733",
         "url": "https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733",
@@ -1799,6 +1982,7 @@
     "ticketmaster_discovery_event_id": "vv1AvZk36GkdFNKEx",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874884",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733"
   },
   {
@@ -1849,6 +2033,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874885",
+        "url": "https://www.ticketnetwork.com/en/p/7874885",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107154735",
         "url": "https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735",
@@ -1860,6 +2051,7 @@
     "ticketmaster_discovery_event_id": "1kGZv0xbGA5zeAe",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874885",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735"
   },
   {
@@ -1910,6 +2102,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874886",
+        "url": "https://www.ticketnetwork.com/en/p/7874886",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107155495",
         "url": "https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495",
@@ -1921,6 +2120,7 @@
     "ticketmaster_discovery_event_id": "vv1AeZk3FGkdhLmUF",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874886",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495"
   },
   {
@@ -1971,6 +2171,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7874887",
+        "url": "https://www.ticketnetwork.com/en/p/7874887",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107154738",
         "url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738",
@@ -1982,6 +2189,7 @@
     "ticketmaster_discovery_event_id": "G5diZ_FlfogZ-",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874887",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738"
   },
   {
@@ -2032,6 +2240,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7877722",
+        "url": "https://www.ticketnetwork.com/en/p/7877722",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107160120",
         "url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120",
@@ -2043,6 +2258,7 @@
     "ticketmaster_discovery_event_id": "G5diZ_FlffPZI",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877722",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120"
   }
 ]

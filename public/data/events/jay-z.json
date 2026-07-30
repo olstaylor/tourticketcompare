@@ -405,6 +405,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "8164947",
+        "url": "https://www.ticketnetwork.com/en/p/8164947",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107460143",
         "url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
@@ -416,6 +423,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_GNtjqqM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164947",
     "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143"
   }
 ]

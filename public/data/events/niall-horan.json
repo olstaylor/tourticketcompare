@@ -47,6 +47,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7830189",
+        "url": "https://www.ticketnetwork.com/en/p/7830189",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107154077",
         "url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077",
@@ -58,6 +65,7 @@
     "ticketmaster_discovery_event_id": "1ANZkoyGkdRzveg",
     "timezone": "Europe/London",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830189",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077"
   },
   {
@@ -107,11 +115,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831760",
+        "url": "https://www.ticketnetwork.com/en/p/7831760",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_6JEzgkF",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831760"
   },
   {
     "id": "tm-niall-horan-2026-manchester-1amzkozgkdqek4f",
@@ -161,6 +177,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7831769",
+        "url": "https://www.ticketnetwork.com/en/p/7831769",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107153108",
         "url": "https://www.stubhub.ie/niall-horan-tickets-manchester-co-op-live-25-9-2026/event/107153108",
@@ -172,6 +195,7 @@
     "ticketmaster_discovery_event_id": "1AMZkozGkdQEK4f",
     "timezone": "Europe/London",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831769",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-manchester-co-op-live-25-9-2026/event/107153108"
   },
   {
@@ -222,6 +246,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7831767",
+        "url": "https://www.ticketnetwork.com/en/p/7831767",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107154079",
         "url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079",
@@ -233,6 +264,7 @@
     "ticketmaster_discovery_event_id": "1AUZkozGkeYxUgY",
     "timezone": "Europe/London",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831767",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079"
   },
   {
@@ -283,6 +315,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7831763",
+        "url": "https://www.ticketnetwork.com/en/p/7831763",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107153109",
         "url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109",
@@ -294,6 +333,7 @@
     "ticketmaster_discovery_event_id": "16gZkozPUZA5kedv",
     "timezone": "Europe/London",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831763",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109"
   },
   {
@@ -527,6 +567,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7831765",
+        "url": "https://www.ticketnetwork.com/en/p/7831765",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107146205",
         "url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205",
@@ -538,6 +585,7 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1A9foCb",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831765",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205"
   },
   {
@@ -588,6 +636,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7831766",
+        "url": "https://www.ticketnetwork.com/en/p/7831766",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107146206",
         "url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-16-10-2026/event/107146206",
@@ -599,6 +654,7 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vxbu8jy",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831766",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-16-10-2026/event/107146206"
   },
   {
@@ -649,6 +705,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7843958",
+        "url": "https://www.ticketnetwork.com/en/p/7843958",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107148171",
         "url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171",
@@ -660,6 +723,7 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vA-Q_8K",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843958",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171"
   },
   {
@@ -816,6 +880,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7831764",
+        "url": "https://www.ticketnetwork.com/en/p/7831764",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107148177",
         "url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177",
@@ -827,6 +898,7 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kaaofap",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831764",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177"
   },
   {
@@ -1035,6 +1107,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954156",
+        "url": "https://www.ticketnetwork.com/en/p/7954156",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107165599",
         "url": "https://www.stubhub.ie/niall-horan-detroit-tickets-3-19-2027/event/107165599",
@@ -1046,6 +1125,7 @@
     "ticketmaster_discovery_event_id": "vvG1OZ_1rV4aSt",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954156",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-detroit-tickets-3-19-2027/event/107165599"
   },
   {
@@ -1095,11 +1175,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954157",
+        "url": "https://www.ticketnetwork.com/en/p/7954157",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1x9IG7q",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954157"
   },
   {
     "id": "tm-niall-horan-2027-chicago-vvg18z_1llyajb",
@@ -1149,6 +1237,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954198",
+        "url": "https://www.ticketnetwork.com/en/p/7954198",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107166117",
         "url": "https://www.stubhub.ie/niall-horan-chicago-tickets-3-23-2027/event/107166117",
@@ -1160,6 +1255,7 @@
     "ticketmaster_discovery_event_id": "vvG18Z_1LLYAJb",
     "timezone": "America/Chicago",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954198",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-chicago-tickets-3-23-2027/event/107166117"
   },
   {
@@ -1209,11 +1305,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954200",
+        "url": "https://www.ticketnetwork.com/en/p/7954200",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1htNyBv",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954200"
   },
   {
     "id": "tm-niall-horan-2027-saint-louis-vvg1bz_1qy32om",
@@ -1368,11 +1472,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954209",
+        "url": "https://www.ticketnetwork.com/en/p/7954209",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G61rtd60V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954209"
   },
   {
     "id": "tm-niall-horan-2027-brooklyn-17gzv0g61hpqmr1",
@@ -1422,6 +1534,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954210",
+        "url": "https://www.ticketnetwork.com/en/p/7954210",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107162727",
         "url": "https://www.stubhub.ie/niall-horan-brooklyn-tickets-4-4-2027/event/107162727",
@@ -1433,6 +1552,7 @@
     "ticketmaster_discovery_event_id": "17GZv0G61hpQmr1",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954210",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-brooklyn-tickets-4-4-2027/event/107162727"
   },
   {
@@ -1482,11 +1602,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954211",
+        "url": "https://www.ticketnetwork.com/en/p/7954211",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61LFCmSV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954211"
   },
   {
     "id": "tm-niall-horan-2027-boston-vvg17z_1qxbhwy",
@@ -1536,6 +1664,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954213",
+        "url": "https://www.ticketnetwork.com/en/p/7954213",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107165601",
         "url": "https://www.stubhub.ie/niall-horan-boston-tickets-4-12-2027/event/107165601",
@@ -1547,6 +1682,7 @@
     "ticketmaster_discovery_event_id": "vvG17Z_1QXBHwy",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954213",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-boston-tickets-4-12-2027/event/107165601"
   },
   {
@@ -1596,11 +1732,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954215",
+        "url": "https://www.ticketnetwork.com/en/p/7954215",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1r802lA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954215"
   },
   {
     "id": "tm-niall-horan-2027-orlando-17fov0g61xk1ezu",
@@ -1650,6 +1794,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954325",
+        "url": "https://www.ticketnetwork.com/en/p/7954325",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107165602",
         "url": "https://www.stubhub.ie/niall-horan-orlando-tickets-4-17-2027/event/107165602",
@@ -1661,6 +1812,7 @@
     "ticketmaster_discovery_event_id": "17FOv0G61xk1ezU",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954325",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-orlando-tickets-4-17-2027/event/107165602"
   },
   {
@@ -1711,6 +1863,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954216",
+        "url": "https://www.ticketnetwork.com/en/p/7954216",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107165603",
         "url": "https://www.stubhub.ie/niall-horan-atlanta-tickets-4-28-2027/event/107165603",
@@ -1722,6 +1881,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_1hoxUDT",
     "timezone": "America/New_York",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954216",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-atlanta-tickets-4-28-2027/event/107165603"
   },
   {
@@ -1772,6 +1932,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954217",
+        "url": "https://www.ticketnetwork.com/en/p/7954217",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107162728",
         "url": "https://www.stubhub.ie/niall-horan-new-orleans-tickets-4-29-2027/event/107162728",
@@ -1783,6 +1950,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_1xKcnON",
     "timezone": "America/Chicago",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954217",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-new-orleans-tickets-4-29-2027/event/107162728"
   },
   {
@@ -1885,6 +2053,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954219",
+        "url": "https://www.ticketnetwork.com/en/p/7954219",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107166118",
         "url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118",
@@ -1896,6 +2071,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_1r1jEer",
     "timezone": "America/Chicago",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954219",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118"
   },
   {
@@ -1946,6 +2122,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954220",
+        "url": "https://www.ticketnetwork.com/en/p/7954220",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107166124",
         "url": "https://www.stubhub.ie/niall-horan-austin-tickets-5-14-2027/event/107166124",
@@ -1957,6 +2140,7 @@
     "ticketmaster_discovery_event_id": "G5dIZ_1LPAglW",
     "timezone": "America/Chicago",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954220",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-austin-tickets-5-14-2027/event/107166124"
   },
   {
@@ -2007,6 +2191,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954221",
+        "url": "https://www.ticketnetwork.com/en/p/7954221",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107162733",
         "url": "https://www.stubhub.ie/niall-horan-denver-tickets-5-16-2027/event/107162733",
@@ -2018,6 +2209,7 @@
     "ticketmaster_discovery_event_id": "G5vzZ_1LSPOiU",
     "timezone": "America/Denver",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954221",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-denver-tickets-5-16-2027/event/107162733"
   },
   {
@@ -2121,6 +2313,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954224",
+        "url": "https://www.ticketnetwork.com/en/p/7954224",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107166121",
         "url": "https://www.stubhub.ie/niall-horan-phoenix-tickets-5-20-2027/event/107166121",
@@ -2132,6 +2331,7 @@
     "ticketmaster_discovery_event_id": "17k8v0G61ruOfyR",
     "timezone": "America/Phoenix",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954224",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-phoenix-tickets-5-20-2027/event/107166121"
   },
   {
@@ -2182,6 +2382,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954226",
+        "url": "https://www.ticketnetwork.com/en/p/7954226",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107170309",
         "url": "https://www.stubhub.ie/niall-horan-inglewood-tickets-5-22-2027/event/107170309",
@@ -2193,6 +2400,7 @@
     "ticketmaster_discovery_event_id": "vvG10Z_1jZWiSe",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954226",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-inglewood-tickets-5-22-2027/event/107170309"
   },
   {
@@ -2243,6 +2451,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954234",
+        "url": "https://www.ticketnetwork.com/en/p/7954234",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107166120",
         "url": "https://www.stubhub.ie/niall-horan-san-francisco-tickets-5-25-2027/event/107166120",
@@ -2254,6 +2469,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_195TiVO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954234",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-san-francisco-tickets-5-25-2027/event/107166120"
   },
   {
@@ -2304,6 +2520,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954237",
+        "url": "https://www.ticketnetwork.com/en/p/7954237",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107162731",
         "url": "https://www.stubhub.ie/niall-horan-seattle-tickets-5-27-2027/event/107162731",
@@ -2315,6 +2538,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_1hQc03-",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954237",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-seattle-tickets-5-27-2027/event/107162731"
   },
   {
@@ -2365,6 +2589,13 @@
         "last_verified_at": null,
         "availability_status": "not_checked"
       },
+      "ticketnetwork": {
+        "event_id": "7954249",
+        "url": "https://www.ticketnetwork.com/en/p/7954249",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
       "stubhub-international": {
         "event_id": "107165604",
         "url": "https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604",
@@ -2376,6 +2607,7 @@
     "ticketmaster_discovery_event_id": "1778v0G61QOdyye",
     "timezone": "America/Vancouver",
     "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954249",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604"
   }
 ]

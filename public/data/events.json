@@ -27283,11 +27283,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107460111",
+        "url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-5-9-2026/event/107460111",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G6CxpcQaN",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-5-9-2026/event/107460111"
   },
   {
     "id": "tm-jay-z-2026-inglewood-vvg1iz_gntjqqm",
@@ -27336,11 +27344,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8164947",
+        "url": "https://www.ticketnetwork.com/en/p/8164947",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107460143",
+        "url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GNtjqqM",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164947",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143"
   },
   {
     "id": "tm-gracie-abrams-2026-denver-g5vzz_55eui2w",
@@ -27389,11 +27413,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002235",
+        "url": "https://www.ticketnetwork.com/en/p/8002235",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198457",
+        "url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-2-2026/event/107198457",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_55Eui2W",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002235",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-2-2026/event/107198457"
   },
   {
     "id": "tm-gracie-abrams-2026-denver-g5vzz_5lhxedg",
@@ -27442,11 +27482,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002236",
+        "url": "https://www.ticketnetwork.com/en/p/8002236",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198458",
+        "url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-3-2026/event/107198458",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_5lHXEdG",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002236",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-3-2026/event/107198458"
   },
   {
     "id": "tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx",
@@ -27495,11 +27551,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002237",
+        "url": "https://www.ticketnetwork.com/en/p/8002237",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198459",
+        "url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-6-2026/event/107198459",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1UDxFhX",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002237",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-6-2026/event/107198459"
   },
   {
     "id": "tm-gracie-abrams-2026-oakland-g5vyz_5mq0w7n",
@@ -27548,11 +27620,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002238",
+        "url": "https://www.ticketnetwork.com/en/p/8002238",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198460",
+        "url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-7-2026/event/107198460",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5mq0w7N",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002238",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-7-2026/event/107198460"
   },
   {
     "id": "tm-gracie-abrams-2026-glendale-17k8v0g652smnjw",
@@ -27601,11 +27689,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002239",
+        "url": "https://www.ticketnetwork.com/en/p/8002239",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198461",
+        "url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-9-2026/event/107198461",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G652SMnjW",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002239",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-9-2026/event/107198461"
   },
   {
     "id": "tm-gracie-abrams-2026-glendale-17k8v0g65839wds",
@@ -27654,11 +27758,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002240",
+        "url": "https://www.ticketnetwork.com/en/p/8002240",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198462",
+        "url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-10-2026/event/107198462",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G65839WDS",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002240",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-10-2026/event/107198462"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_53kkqpx",
@@ -27707,11 +27827,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002241",
+        "url": "https://www.ticketnetwork.com/en/p/8002241",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107248077",
+        "url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-14-2026/event/107248077",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_53KkQpX",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002241",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-14-2026/event/107248077"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0-czu",
@@ -27760,11 +27896,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002242",
+        "url": "https://www.ticketnetwork.com/en/p/8002242",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198463",
+        "url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-18-2026/event/107198463",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5R0-Czu",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002242",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-18-2026/event/107198463"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0nxzp",
@@ -27813,11 +27965,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002243",
+        "url": "https://www.ticketnetwork.com/en/p/8002243",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198464",
+        "url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-19-2026/event/107198464",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5R0NXzP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002243",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-19-2026/event/107198464"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0eryu",
@@ -27866,11 +28034,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002244",
+        "url": "https://www.ticketnetwork.com/en/p/8002244",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198465",
+        "url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-20-2026/event/107198465",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5R0Eryu",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002244",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-20-2026/event/107198465"
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f",
@@ -27919,11 +28103,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002270",
+        "url": "https://www.ticketnetwork.com/en/p/8002270",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198466",
+        "url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-26-2027/event/107198466",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1BnJn8F",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002270",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-26-2027/event/107198466"
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5rykvjn",
@@ -27972,11 +28172,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002271",
+        "url": "https://www.ticketnetwork.com/en/p/8002271",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198467",
+        "url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-27-2027/event/107198467",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5RyKVJn",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002271",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-27-2027/event/107198467"
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5ry97ef",
@@ -28025,11 +28241,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002272",
+        "url": "https://www.ticketnetwork.com/en/p/8002272",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198468",
+        "url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-29-2027/event/107198468",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5Ry97EF",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002272",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-29-2027/event/107198468"
   },
   {
     "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byq5cg",
@@ -28078,11 +28310,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002273",
+        "url": "https://www.ticketnetwork.com/en/p/8002273",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107248078",
+        "url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-1-31-2027/event/107248078",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1Byq5cg",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002273",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-1-31-2027/event/107248078"
   },
   {
     "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byqdcd",
@@ -28131,11 +28379,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002274",
+        "url": "https://www.ticketnetwork.com/en/p/8002274",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107248079",
+        "url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-2-1-2027/event/107248079",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1ByqDcD",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002274",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-2-1-2027/event/107248079"
   },
   {
     "id": "tm-gracie-abrams-2027-chicago-vv1fvzv0pycdz72ag6",
@@ -28184,11 +28448,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002275",
+        "url": "https://www.ticketnetwork.com/en/p/8002275",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107248080",
+        "url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-11-2027/event/107248080",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FvZv0PYCdZ72aG6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002275",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-11-2027/event/107248080"
   },
   {
     "id": "tm-gracie-abrams-2027-chicago-vvg18z_5rd-dah",
@@ -28237,11 +28517,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002276",
+        "url": "https://www.ticketnetwork.com/en/p/8002276",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107248081",
+        "url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-12-2027/event/107248081",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_5RD-DAh",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002276",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-12-2027/event/107248081"
   },
   {
     "id": "tm-gracie-abrams-2027-nashville-g5viz_51oey1w",
@@ -28290,11 +28586,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002277",
+        "url": "https://www.ticketnetwork.com/en/p/8002277",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198471",
+        "url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-14-2027/event/107198471",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_51OEy1W",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002277",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-14-2027/event/107198471"
   },
   {
     "id": "tm-gracie-abrams-2027-nashville-g5viz_5rgv7ra",
@@ -28343,11 +28655,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002278",
+        "url": "https://www.ticketnetwork.com/en/p/8002278",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198472",
+        "url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-15-2027/event/107198472",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_5RGV7rA",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002278",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-15-2027/event/107198472"
   },
   {
     "id": "tm-gracie-abrams-2027-toronto-177zv0g61sqb4k8",
@@ -28502,11 +28830,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002281",
+        "url": "https://www.ticketnetwork.com/en/p/8002281",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198473",
+        "url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-23-2027/event/107198473",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_5nqEIA0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002281",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-23-2027/event/107198473"
   },
   {
     "id": "tm-gracie-abrams-2027-atlanta-vvg1zz_5nqiiai",
@@ -28555,11 +28899,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002282",
+        "url": "https://www.ticketnetwork.com/en/p/8002282",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198474",
+        "url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-24-2027/event/107198474",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_5nqIIAi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002282",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-24-2027/event/107198474"
   },
   {
     "id": "tm-gracie-abrams-2027-charlotte-g5evz_am0wlwu",
@@ -28608,11 +28968,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002283",
+        "url": "https://www.ticketnetwork.com/en/p/8002283",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107249077",
+        "url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-26-2027/event/107249077",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_am0wLwu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002283",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-26-2027/event/107249077"
   },
   {
     "id": "tm-gracie-abrams-2027-charlotte-g5evz_5ryzbyv",
@@ -28661,11 +29037,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002284",
+        "url": "https://www.ticketnetwork.com/en/p/8002284",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198477",
+        "url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-27-2027/event/107198477",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_5RyZbYV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002284",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-27-2027/event/107198477"
   },
   {
     "id": "tm-gracie-abrams-2027-boston-vv177z_agkwp_mnl",
@@ -28714,11 +29106,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002285",
+        "url": "https://www.ticketnetwork.com/en/p/8002285",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198480",
+        "url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-1-2027/event/107198480",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_aGkwP_mNL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002285",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-1-2027/event/107198480"
   },
   {
     "id": "tm-gracie-abrams-2027-boston-vvg17z_5rug2cb",
@@ -28767,11 +29175,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002286",
+        "url": "https://www.ticketnetwork.com/en/p/8002286",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198481",
+        "url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-2-2027/event/107198481",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_5RuG2CB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002286",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-2-2027/event/107198481"
   },
   {
     "id": "tm-gracie-abrams-2027-washington-1avfz_agksfejeq",
@@ -28820,11 +29244,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002287",
+        "url": "https://www.ticketnetwork.com/en/p/8002287",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198483",
+        "url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-4-2027/event/107198483",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_aGkSfejEQ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002287",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-4-2027/event/107198483"
   },
   {
     "id": "tm-gracie-abrams-2027-washington-17a8v0g65r4j5jx",
@@ -28873,11 +29313,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002288",
+        "url": "https://www.ticketnetwork.com/en/p/8002288",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198484",
+        "url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-5-2027/event/107198484",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G65R4j5Jx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002288",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-5-2027/event/107198484"
   },
   {
     "id": "tm-gracie-abrams-2027-montreal-17g8v0g65th0d1g",
@@ -28926,11 +29382,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002289",
+        "url": "https://www.ticketnetwork.com/en/p/8002289",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65tH0d1G",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002289"
   },
   {
     "id": "tm-gracie-abrams-2027-montreal-17g8v0g65thpd1k",
@@ -28979,11 +29443,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002290",
+        "url": "https://www.ticketnetwork.com/en/p/8002290",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65tHPd1K",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002290"
   },
   {
     "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65pru4zd",
@@ -29032,11 +29504,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002291",
+        "url": "https://www.ticketnetwork.com/en/p/8002291",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198482",
+        "url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-12-2027/event/107198482",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65pRu4zD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002291",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-12-2027/event/107198482"
   },
   {
     "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65prugzw",
@@ -29085,11 +29573,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002292",
+        "url": "https://www.ticketnetwork.com/en/p/8002292",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198479",
+        "url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-13-2027/event/107198479",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65pRugzW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002292",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-13-2027/event/107198479"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g61s0b9dq",
@@ -29138,11 +29642,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002293",
+        "url": "https://www.ticketnetwork.com/en/p/8002293",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107249078",
+        "url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-16-2027/event/107249078",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61S0B9Dq",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002293",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-16-2027/event/107249078"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65ie2coz",
@@ -29191,11 +29711,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002294",
+        "url": "https://www.ticketnetwork.com/en/p/8002294",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198478",
+        "url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-17-2027/event/107198478",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65ie2cOZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002294",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-17-2027/event/107198478"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iekqou",
@@ -29244,11 +29780,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002295",
+        "url": "https://www.ticketnetwork.com/en/p/8002295",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198476",
+        "url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-19-2027/event/107198476",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65ieKqOu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002295",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-19-2027/event/107198476"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iebqor",
@@ -29297,11 +29849,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002296",
+        "url": "https://www.ticketnetwork.com/en/p/8002296",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198475",
+        "url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-20-2027/event/107198475",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65iebqOr",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002296",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-20-2027/event/107198475"
   },
   {
     "id": "tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b",
@@ -29456,11 +30024,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8002339",
+        "url": "https://www.ticketnetwork.com/en/p/8002339",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107255078",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-22-4-2027/event/107255078",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G65RbPNZf",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002339",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-22-4-2027/event/107255078"
   },
   {
     "id": "tm-gracie-abrams-2027-manchester-17uyv0g6gk_vkhl",
@@ -29509,11 +30093,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018170",
+        "url": "https://www.ticketnetwork.com/en/p/8018170",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107288081",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-24-4-2027/event/107288081",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G6Gk_VKHL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018170",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-24-4-2027/event/107288081"
   },
   {
     "id": "tm-gracie-abrams-2027-manchester-17uyv0g6gkp6vc5",
@@ -29562,11 +30162,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018184",
+        "url": "https://www.ticketnetwork.com/en/p/8018184",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107288082",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-25-4-2027/event/107288082",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G6GkP6Vc5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018184",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-25-4-2027/event/107288082"
   },
   {
     "id": "tm-gracie-abrams-2027-london-17u8v0g65wthjl9",
@@ -29615,11 +30231,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107255080",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-30-4-2027/event/107255080",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G65wthJL9",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-30-4-2027/event/107255080"
   },
   {
     "id": "tm-gracie-abrams-2027-london-17u8v0g65wi6peh",
@@ -29668,11 +30292,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107198540",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-1-5-2027/event/107198540",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G65wi6pEh",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-1-5-2027/event/107198540"
   },
   {
     "id": "tm-gracie-abrams-2027-london-17u8v0g65wcbpi1",
@@ -29721,11 +30353,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107198541",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-3-5-2027/event/107198541",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G65wcbpi1",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-3-5-2027/event/107198541"
   },
   {
     "id": "tm-gracie-abrams-2027-london-17u8v0g65wm9us5",
@@ -29774,11 +30414,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107255081",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-4-5-2027/event/107255081",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G65wm9Us5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-4-5-2027/event/107255081"
   },
   {
     "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16vpdafzk",
@@ -29827,11 +30475,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018171",
+        "url": "https://www.ticketnetwork.com/en/p/8018171",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107244080",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-7-5-2027/event/107244080",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vpdAfZK",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018171",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-7-5-2027/event/107244080"
   },
   {
     "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16v00_azt",
@@ -29880,11 +30544,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018172",
+        "url": "https://www.ticketnetwork.com/en/p/8018172",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107244081",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-8-5-2027/event/107244081",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v00_AZt",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018172",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-8-5-2027/event/107244081"
   },
   {
     "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16v0oan4g",
@@ -29933,11 +30613,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018173",
+        "url": "https://www.ticketnetwork.com/en/p/8018173",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107244082",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-10-5-2027/event/107244082",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0oaN4g",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018173",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-10-5-2027/event/107244082"
   },
   {
     "id": "tm-gracie-abrams-2027-berlin-z698xzc2z16vx9ppa7",
@@ -29986,11 +30682,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018174",
+        "url": "https://www.ticketnetwork.com/en/p/8018174",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107244077",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-12-5-2027/event/107244077",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vx9ppa7",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018174",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-12-5-2027/event/107244077"
   },
   {
     "id": "tm-gracie-abrams-2027-berlin-z698xzc2z16vfef4pp",
@@ -30039,11 +30751,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018175",
+        "url": "https://www.ticketnetwork.com/en/p/8018175",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198415",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-13-5-2027/event/107198415",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vFEF4pp",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018175",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-13-5-2027/event/107198415"
   },
   {
     "id": "tm-gracie-abrams-2027-barcelona-z698xz2qz16vav0xgz",
@@ -30092,11 +30820,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018168",
+        "url": "https://www.ticketnetwork.com/en/p/8018168",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198414",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-27-5-2027/event/107198414",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaV0xGZ",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018168",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-27-5-2027/event/107198414"
   },
   {
     "id": "tm-gracie-abrams-2027-barcelona-z698xz2qz16vpsaikv",
@@ -30145,11 +30889,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018169",
+        "url": "https://www.ticketnetwork.com/en/p/8018169",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107242082",
+        "url": "https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-28-5-2027/event/107242082",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPsAIkv",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018169",
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-28-5-2027/event/107242082"
   },
   {
     "id": "tm-niall-horan-2026-birmingham-1anzkoygkdrzveg",
@@ -30198,11 +30958,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7830189",
+        "url": "https://www.ticketnetwork.com/en/p/7830189",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154077",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkoyGkdRzveg",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830189",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077"
   },
   {
     "id": "tm-niall-horan-2026-newcastle-upon-tyne-g5vhz_6jezgkf",
@@ -30251,11 +31027,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831760",
+        "url": "https://www.ticketnetwork.com/en/p/7831760",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_6JEzgkF",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831760"
   },
   {
     "id": "tm-niall-horan-2026-manchester-1amzkozgkdqek4f",
@@ -30304,11 +31088,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831769",
+        "url": "https://www.ticketnetwork.com/en/p/7831769",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107153108",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-manchester-co-op-live-25-9-2026/event/107153108",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkozGkdQEK4f",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831769",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-manchester-co-op-live-25-9-2026/event/107153108"
   },
   {
     "id": "tm-niall-horan-2026-glasgow-1auzkozgkeyxugy",
@@ -30357,11 +31157,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831767",
+        "url": "https://www.ticketnetwork.com/en/p/7831767",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154079",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkozGkeYxUgY",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831767",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079"
   },
   {
     "id": "tm-niall-horan-2026-sheffield-16gzkozpuza5kedv",
@@ -30410,11 +31226,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831763",
+        "url": "https://www.ticketnetwork.com/en/p/7831763",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107153109",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16gZkozPUZA5kedv",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831763",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109"
   },
   {
     "id": "tm-niall-horan-2026-london-1agzkoygkdkpykl",
@@ -30463,11 +31295,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154080",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-london-the-o2-arena-2-10-2026/event/107154080",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkoyGkdKPykL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-london-the-o2-arena-2-10-2026/event/107154080"
   },
   {
     "id": "tm-niall-horan-2026-london-1agzkoygkdvbgdi",
@@ -30516,11 +31356,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107152255",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-london-the-o2-arena-3-10-2026/event/107152255",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkoyGkdVBGdi",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-london-the-o2-arena-3-10-2026/event/107152255"
   },
   {
     "id": "tm-niall-horan-2026-hamburg-z698xzc2z16v40up_b",
@@ -30569,11 +31417,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107148173",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v40up_b",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173"
   },
   {
     "id": "tm-niall-horan-2026-amsterdam-z698xzbpz1a9focb",
@@ -30622,11 +31478,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831765",
+        "url": "https://www.ticketnetwork.com/en/p/7831765",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107146205",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1A9foCb",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831765",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205"
   },
   {
     "id": "tm-niall-horan-2026-amsterdam-z698xzbpz16vxbu8jy",
@@ -30675,11 +31547,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831766",
+        "url": "https://www.ticketnetwork.com/en/p/7831766",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107146206",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-16-10-2026/event/107146206",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vxbu8jy",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831766",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-16-10-2026/event/107146206"
   },
   {
     "id": "tm-niall-horan-2026-barcelona-z698xz2qz16va-q_8k",
@@ -30728,11 +31616,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7843958",
+        "url": "https://www.ticketnetwork.com/en/p/7843958",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107148171",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vA-Q_8K",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843958",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171"
   },
   {
     "id": "tm-niall-horan-2026-assago-zg9rmiynyzedfa",
@@ -30887,11 +31791,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831764",
+        "url": "https://www.ticketnetwork.com/en/p/7831764",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107148177",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kaaofap",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831764",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177"
   },
   {
     "id": "tm-niall-horan-2026-krakow-z698xzqpz1kq7zp--",
@@ -31098,11 +32018,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954156",
+        "url": "https://www.ticketnetwork.com/en/p/7954156",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165599",
+        "url": "https://www.stubhub.ie/niall-horan-detroit-tickets-3-19-2027/event/107165599",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_1rV4aSt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954156",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-detroit-tickets-3-19-2027/event/107165599"
   },
   {
     "id": "tm-niall-horan-2027-columbus-vvg1fz_1x9ig7q",
@@ -31151,11 +32087,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954157",
+        "url": "https://www.ticketnetwork.com/en/p/7954157",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1x9IG7q",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954157"
   },
   {
     "id": "tm-niall-horan-2027-chicago-vvg18z_1llyajb",
@@ -31204,11 +32148,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954198",
+        "url": "https://www.ticketnetwork.com/en/p/7954198",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107166117",
+        "url": "https://www.stubhub.ie/niall-horan-chicago-tickets-3-23-2027/event/107166117",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1LLYAJb",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954198",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-chicago-tickets-3-23-2027/event/107166117"
   },
   {
     "id": "tm-niall-horan-2027-indianapolis-vvg1fz_1htnybv",
@@ -31257,11 +32217,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954200",
+        "url": "https://www.ticketnetwork.com/en/p/7954200",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1htNyBv",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954200"
   },
   {
     "id": "tm-niall-horan-2027-saint-louis-vvg1bz_1qy32om",
@@ -31416,11 +32384,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954209",
+        "url": "https://www.ticketnetwork.com/en/p/7954209",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G61rtd60V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954209"
   },
   {
     "id": "tm-niall-horan-2027-brooklyn-17gzv0g61hpqmr1",
@@ -31469,11 +32445,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954210",
+        "url": "https://www.ticketnetwork.com/en/p/7954210",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162727",
+        "url": "https://www.stubhub.ie/niall-horan-brooklyn-tickets-4-4-2027/event/107162727",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61hpQmr1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954210",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-brooklyn-tickets-4-4-2027/event/107162727"
   },
   {
     "id": "tm-niall-horan-2027-baltimore-17a8v0g61lfcmsv",
@@ -31522,11 +32514,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954211",
+        "url": "https://www.ticketnetwork.com/en/p/7954211",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61LFCmSV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954211"
   },
   {
     "id": "tm-niall-horan-2027-boston-vvg17z_1qxbhwy",
@@ -31575,11 +32575,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954213",
+        "url": "https://www.ticketnetwork.com/en/p/7954213",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165601",
+        "url": "https://www.stubhub.ie/niall-horan-boston-tickets-4-12-2027/event/107165601",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1QXBHwy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954213",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-boston-tickets-4-12-2027/event/107165601"
   },
   {
     "id": "tm-niall-horan-2027-raleigh-g5evz_1r802la",
@@ -31628,11 +32644,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954215",
+        "url": "https://www.ticketnetwork.com/en/p/7954215",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1r802lA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954215"
   },
   {
     "id": "tm-niall-horan-2027-orlando-17fov0g61xk1ezu",
@@ -31681,11 +32705,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954325",
+        "url": "https://www.ticketnetwork.com/en/p/7954325",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165602",
+        "url": "https://www.stubhub.ie/niall-horan-orlando-tickets-4-17-2027/event/107165602",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61xk1ezU",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954325",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-orlando-tickets-4-17-2027/event/107165602"
   },
   {
     "id": "tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt",
@@ -31734,11 +32774,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954216",
+        "url": "https://www.ticketnetwork.com/en/p/7954216",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165603",
+        "url": "https://www.stubhub.ie/niall-horan-atlanta-tickets-4-28-2027/event/107165603",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1hoxUDT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954216",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-atlanta-tickets-4-28-2027/event/107165603"
   },
   {
     "id": "tm-niall-horan-2027-new-orleans-g5viz_1xkcnon",
@@ -31787,11 +32843,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954217",
+        "url": "https://www.ticketnetwork.com/en/p/7954217",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162728",
+        "url": "https://www.stubhub.ie/niall-horan-new-orleans-tickets-4-29-2027/event/107162728",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1xKcnON",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954217",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-new-orleans-tickets-4-29-2027/event/107162728"
   },
   {
     "id": "tm-niall-horan-2027-houston-z7r9jz1a709uy",
@@ -31892,11 +32964,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954219",
+        "url": "https://www.ticketnetwork.com/en/p/7954219",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107166118",
+        "url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1r1jEer",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954219",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118"
   },
   {
     "id": "tm-niall-horan-2027-austin-g5diz_1lpaglw",
@@ -31945,11 +33033,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954220",
+        "url": "https://www.ticketnetwork.com/en/p/7954220",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107166124",
+        "url": "https://www.stubhub.ie/niall-horan-austin-tickets-5-14-2027/event/107166124",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1LPAglW",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954220",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-austin-tickets-5-14-2027/event/107166124"
   },
   {
     "id": "tm-niall-horan-2027-denver-g5vzz_1lspoiu",
@@ -31998,11 +33102,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954221",
+        "url": "https://www.ticketnetwork.com/en/p/7954221",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162733",
+        "url": "https://www.stubhub.ie/niall-horan-denver-tickets-5-16-2027/event/107162733",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1LSPOiU",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954221",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-denver-tickets-5-16-2027/event/107162733"
   },
   {
     "id": "tm-niall-horan-2027-west-valley-city-g5vzz_1xafaiw",
@@ -32104,11 +33224,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954224",
+        "url": "https://www.ticketnetwork.com/en/p/7954224",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107166121",
+        "url": "https://www.stubhub.ie/niall-horan-phoenix-tickets-5-20-2027/event/107166121",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61ruOfyR",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954224",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-phoenix-tickets-5-20-2027/event/107166121"
   },
   {
     "id": "tm-niall-horan-2027-inglewood-vvg10z_1jzwise",
@@ -32157,11 +33293,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954226",
+        "url": "https://www.ticketnetwork.com/en/p/7954226",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107170309",
+        "url": "https://www.stubhub.ie/niall-horan-inglewood-tickets-5-22-2027/event/107170309",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1jZWiSe",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954226",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-inglewood-tickets-5-22-2027/event/107170309"
   },
   {
     "id": "tm-niall-horan-2027-san-francisco-g5vyz_195tivo",
@@ -32210,11 +33362,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954234",
+        "url": "https://www.ticketnetwork.com/en/p/7954234",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107166120",
+        "url": "https://www.stubhub.ie/niall-horan-san-francisco-tickets-5-25-2027/event/107166120",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_195TiVO",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954234",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-san-francisco-tickets-5-25-2027/event/107166120"
   },
   {
     "id": "tm-niall-horan-2027-seattle-vvg1hz_1hqc03-",
@@ -32263,11 +33431,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954237",
+        "url": "https://www.ticketnetwork.com/en/p/7954237",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162731",
+        "url": "https://www.stubhub.ie/niall-horan-seattle-tickets-5-27-2027/event/107162731",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1hQc03-",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954237",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-seattle-tickets-5-27-2027/event/107162731"
   },
   {
     "id": "tm-niall-horan-2027-vancouver-1778v0g61qodyye",
@@ -32316,11 +33500,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954249",
+        "url": "https://www.ticketnetwork.com/en/p/7954249",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165604",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G61QOdyye",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954249",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604"
   },
   {
     "id": "tm-doja-cat-2026-detroit-vv17ozbsgki0b7ti",
@@ -32369,11 +33569,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457598",
+        "url": "https://www.ticketnetwork.com/en/p/7457598",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202112",
+        "url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZbSGkI0b7TI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457598",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112"
   },
   {
     "id": "tm-doja-cat-2026-chicago-vv178zbsgknyfves",
@@ -32422,11 +33638,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457602",
+        "url": "https://www.ticketnetwork.com/en/p/7457602",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969165",
+        "url": "https://www.stubhub.ie/doja-cat-chicago-tickets-10-3-2026/event/106969165",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178ZbSGknyfVeS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457602",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-chicago-tickets-10-3-2026/event/106969165"
   },
   {
     "id": "tm-doja-cat-2026-minneapolis-vv17bzbsgknj3vy9",
@@ -32475,11 +33707,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457605",
+        "url": "https://www.ticketnetwork.com/en/p/7457605",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZbSGknj3VY9",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457605"
   },
   {
     "id": "tm-doja-cat-2026-kansas-city-vv17bzbsgkwntdvb",
@@ -32528,11 +33768,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457607",
+        "url": "https://www.ticketnetwork.com/en/p/7457607",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZbSGkwNTdvB",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457607"
   },
   {
     "id": "tm-doja-cat-2026-denver-g5vzzbsefo0an",
@@ -32581,11 +33829,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457608",
+        "url": "https://www.ticketnetwork.com/en/p/7457608",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954736",
+        "url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbSEFO0An",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457608",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736"
   },
   {
     "id": "tm-doja-cat-2026-west-valley-city-g5vzzbslbgavf",
@@ -32687,11 +33951,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457660",
+        "url": "https://www.ticketnetwork.com/en/p/7457660",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969173",
+        "url": "https://www.stubhub.ie/doja-cat-tickets-vancouver-rogers-arena-10-13-2026/event/106969173",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkGyGkdOSIGy",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457660",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tickets-vancouver-rogers-arena-10-13-2026/event/106969173"
   },
   {
     "id": "tm-doja-cat-2026-seattle-vvg1hzbslq8got",
@@ -32740,11 +34020,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457615",
+        "url": "https://www.ticketnetwork.com/en/p/7457615",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969172",
+        "url": "https://www.stubhub.ie/doja-cat-seattle-tickets-10-15-2026/event/106969172",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbSlq8gOt",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457615",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-seattle-tickets-10-15-2026/event/106969172"
   },
   {
     "id": "tm-doja-cat-2026-portland-vvg1hzbsnaneis",
@@ -32793,11 +34089,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457620",
+        "url": "https://www.ticketnetwork.com/en/p/7457620",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbSnaneIS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457620"
   },
   {
     "id": "tm-doja-cat-2026-san-francisco-g5vyzbs0ua9tw",
@@ -32846,11 +34150,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457622",
+        "url": "https://www.ticketnetwork.com/en/p/7457622",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106972097",
+        "url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS0uA9TW",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457622",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097"
   },
   {
     "id": "tm-doja-cat-2026-sacramento-g5vyzbsnj9ve1",
@@ -32899,11 +34219,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457626",
+        "url": "https://www.ticketnetwork.com/en/p/7457626",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969171",
+        "url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbSnJ9Ve1",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457626",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171"
   },
   {
     "id": "tm-doja-cat-2026-inglewood-vv170zbsgkihfzey",
@@ -32952,11 +34288,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457628",
+        "url": "https://www.ticketnetwork.com/en/p/7457628",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106972098",
+        "url": "https://www.stubhub.ie/doja-cat-inglewood-tickets-10-22-2026/event/106972098",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170ZbSGkIhFzEy",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457628",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-inglewood-tickets-10-22-2026/event/106972098"
   },
   {
     "id": "tm-doja-cat-2026-san-diego-vvg1izbsi8_kno",
@@ -33005,11 +34357,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457630",
+        "url": "https://www.ticketnetwork.com/en/p/7457630",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbSi8_kno",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457630"
   },
   {
     "id": "tm-doja-cat-2026-phoenix-1av0zbsgknh-n_z",
@@ -33058,11 +34418,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457632",
+        "url": "https://www.ticketnetwork.com/en/p/7457632",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202113",
+        "url": "https://www.stubhub.ie/doja-cat-phoenix-tickets-10-29-2026/event/107202113",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0ZbSGknh-N_Z",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457632",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-phoenix-tickets-10-29-2026/event/107202113"
   },
   {
     "id": "tm-doja-cat-2026-austin-g5dizbsl2m6xd",
@@ -33111,11 +34487,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457635",
+        "url": "https://www.ticketnetwork.com/en/p/7457635",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106972102",
+        "url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbSl2M6xd",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457635",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102"
   },
   {
     "id": "tm-doja-cat-2026-dallas-vvg1yzbstqyohd",
@@ -33164,11 +34556,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457636",
+        "url": "https://www.ticketnetwork.com/en/p/7457636",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969177",
+        "url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZbStqyOHD",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457636",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177"
   },
   {
     "id": "tm-doja-cat-2026-san-antonio-g5dizbsnv5jt4",
@@ -33217,11 +34625,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457638",
+        "url": "https://www.ticketnetwork.com/en/p/7457638",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954711",
+        "url": "https://www.stubhub.ie/doja-cat-san-antonio-tickets-11-6-2026/event/106954711",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbSNV5Jt4",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457638",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-antonio-tickets-11-6-2026/event/106954711"
   },
   {
     "id": "tm-doja-cat-2026-houston-z7r9jz1a7js4g",
@@ -33322,11 +34746,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457643",
+        "url": "https://www.ticketnetwork.com/en/p/7457643",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969169",
+        "url": "https://www.stubhub.ie/doja-cat-miami-tickets-11-11-2026/event/106969169",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS0fdfw5",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457643",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-miami-tickets-11-11-2026/event/106969169"
   },
   {
     "id": "tm-doja-cat-2026-tampa-vvg1vzbslmpvjz",
@@ -33375,11 +34815,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457644",
+        "url": "https://www.ticketnetwork.com/en/p/7457644",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969175",
+        "url": "https://www.stubhub.ie/doja-cat-tampa-tickets-11-13-2026/event/106969175",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbSlmPVJZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457644",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tampa-tickets-11-13-2026/event/106969175"
   },
   {
     "id": "tm-doja-cat-2026-orlando-1aefzbsgklnlnmt",
@@ -33428,11 +34884,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457645",
+        "url": "https://www.ticketnetwork.com/en/p/7457645",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969170",
+        "url": "https://www.stubhub.ie/doja-cat-orlando-tickets-11-14-2026/event/106969170",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZbSGklNLNmt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457645",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-orlando-tickets-11-14-2026/event/106969170"
   },
   {
     "id": "tm-doja-cat-2026-atlanta-vvg1zzbsle3ugd",
@@ -33481,11 +34953,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457487",
+        "url": "https://www.ticketnetwork.com/en/p/7457487",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202114",
+        "url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbSle3UGD",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457487",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114"
   },
   {
     "id": "tm-doja-cat-2026-charlotte-g5evzbsemdalv",
@@ -33534,11 +35022,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457650",
+        "url": "https://www.ticketnetwork.com/en/p/7457650",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107202115",
+        "url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZbSEmDaLV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457650",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115"
   },
   {
     "id": "tm-doja-cat-2026-baltimore-1avfzbsgknfre1x",
@@ -33587,11 +35091,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457652",
+        "url": "https://www.ticketnetwork.com/en/p/7457652",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZbSGknFRe1X",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457652"
   },
   {
     "id": "tm-doja-cat-2026-washington-1a4zkgygkdpgprp",
@@ -33640,11 +35152,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457653",
+        "url": "https://www.ticketnetwork.com/en/p/7457653",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969162",
+        "url": "https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkGyGkdPgPRp",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457653",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162"
   },
   {
     "id": "tm-doja-cat-2026-boston-vv1f7zbs09vyzd227",
@@ -33693,11 +35221,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457655",
+        "url": "https://www.ticketnetwork.com/en/p/7457655",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969161",
+        "url": "https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F7ZbS09vyZd227",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457655",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161"
   },
   {
     "id": "tm-doja-cat-2026-toronto-1k7zvncbgagve_c",
@@ -33799,11 +35343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457664",
+        "url": "https://www.ticketnetwork.com/en/p/7457664",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkGyGkeMVJJT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457664"
   },
   {
     "id": "tm-doja-cat-2026-philadelphia-1adzzbsgkldzvua",
@@ -33852,11 +35404,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457657",
+        "url": "https://www.ticketnetwork.com/en/p/7457657",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106972096",
+        "url": "https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZbSGkldzVUa",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457657",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096"
   },
   {
     "id": "tm-doja-cat-2026-new-york-g5dizbsintkzt",
@@ -33905,11 +35473,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457486",
+        "url": "https://www.ticketnetwork.com/en/p/7457486",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106969160",
+        "url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZbSINTKZt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457486",
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160"
   },
   {
     "id": "tm-sombr-2026-vancouver-1aozk3agkddnbd1",
@@ -33958,11 +35542,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874821",
+        "url": "https://www.ticketnetwork.com/en/p/7874821",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155463",
+        "url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk3aGkddnbD1",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874821",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463"
   },
   {
     "id": "tm-sombr-2026-seattle-vvg1hz_feci1ir",
@@ -34011,11 +35611,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874826",
+        "url": "https://www.ticketnetwork.com/en/p/7874826",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158168",
+        "url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FECi1Ir",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874826",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168"
   },
   {
     "id": "tm-sombr-2026-portland-vvg1hz_fljtdxu",
@@ -34064,11 +35680,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874848",
+        "url": "https://www.ticketnetwork.com/en/p/7874848",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155465",
+        "url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FLJtDXU",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874848",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465"
   },
   {
     "id": "tm-sombr-2026-sacramento-g5vyz_fli21bj",
@@ -34117,11 +35749,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874849",
+        "url": "https://www.ticketnetwork.com/en/p/7874849",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158169",
+        "url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_FLi21bJ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874849",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169"
   },
   {
     "id": "tm-sombr-2026-san-jose-g5vyz_fljzy-y",
@@ -34223,11 +35871,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874852",
+        "url": "https://www.ticketnetwork.com/en/p/7874852",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155467",
+        "url": "https://www.stubhub.ie/sombr-anaheim-tickets-10-9-2026/event/107155467",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1Fe8v0xoqvZ7u1ue",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874852",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-anaheim-tickets-10-9-2026/event/107155467"
   },
   {
     "id": "tm-sombr-2026-inglewood-vv16azk3azmzauak1v",
@@ -34276,11 +35940,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874853",
+        "url": "https://www.ticketnetwork.com/en/p/7874853",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155468",
+        "url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZk3aZMZAuak1v",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874853",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468"
   },
   {
     "id": "tm-sombr-2026-san-diego-z7r9jz1a7x8gw",
@@ -34537,11 +36217,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874863",
+        "url": "https://www.ticketnetwork.com/en/p/7874863",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155471",
+        "url": "https://www.stubhub.ie/sombr-dallas-tickets-10-18-2026/event/107155471",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_FN5kiFV",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874863",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-dallas-tickets-10-18-2026/event/107155471"
   },
   {
     "id": "tm-sombr-2026-austin-g5diz_fem5b0f",
@@ -34590,11 +36286,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874865",
+        "url": "https://www.ticketnetwork.com/en/p/7874865",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155472",
+        "url": "https://www.stubhub.ie/sombr-austin-tickets-10-20-2026/event/107155472",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_FEM5b0f",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874865",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-austin-tickets-10-20-2026/event/107155472"
   },
   {
     "id": "tm-sombr-2026-atlanta-vvg1zz_fxet19l",
@@ -34643,11 +36355,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874866",
+        "url": "https://www.ticketnetwork.com/en/p/7874866",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155494",
+        "url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FxEt19L",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874866",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494"
   },
   {
     "id": "tm-sombr-2026-sunrise-z7r9jz1a7x8vw",
@@ -34748,11 +36476,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874868",
+        "url": "https://www.ticketnetwork.com/en/p/7874868",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154726",
+        "url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGkn1Mew3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874868",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726"
   },
   {
     "id": "tm-sombr-2026-charlotte-g5evz_fneqevn",
@@ -34801,11 +36545,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874869",
+        "url": "https://www.ticketnetwork.com/en/p/7874869",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FNeQEvn",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874869"
   },
   {
     "id": "tm-sombr-2026-nashville-g5viz_fja3nq8",
@@ -34854,11 +36606,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874870",
+        "url": "https://www.ticketnetwork.com/en/p/7874870",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_FJa3nQ8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874870"
   },
   {
     "id": "tm-sombr-2026-saint-louis-vv1akzk3fgkey5tam",
@@ -34960,11 +36720,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874872",
+        "url": "https://www.ticketnetwork.com/en/p/7874872",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_FJFG7WETj",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874872"
   },
   {
     "id": "tm-sombr-2026-minneapolis-vv1akzk3agkeivme6",
@@ -35013,11 +36781,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874873",
+        "url": "https://www.ticketnetwork.com/en/p/7874873",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk3aGkeivme6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874873"
   },
   {
     "id": "tm-sombr-2026-milwaukee-vv1a6zk3fgkdlouyw",
@@ -35066,11 +36842,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874874",
+        "url": "https://www.ticketnetwork.com/en/p/7874874",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk3FGkdLoUyW",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874874"
   },
   {
     "id": "tm-sombr-2026-chicago-vv1a7zk36gkd2hi7b",
@@ -35119,11 +36903,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874875",
+        "url": "https://www.ticketnetwork.com/en/p/7874875",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154727",
+        "url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk36Gkd2Hi7b",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874875",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727"
   },
   {
     "id": "tm-sombr-2026-indianapolis-vv1aazk3apba_ze8u",
@@ -35172,11 +36972,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874876",
+        "url": "https://www.ticketnetwork.com/en/p/7874876",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1aAZk3aPba_Ze8u",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874876"
   },
   {
     "id": "tm-sombr-2026-detroit-vv1afzk3fgkeg5jlz",
@@ -35225,11 +37033,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874877",
+        "url": "https://www.ticketnetwork.com/en/p/7874877",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk3FGkeg5JlZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874877"
   },
   {
     "id": "tm-sombr-2026-columbus-vv1kv8v0xbga57f2-",
@@ -35278,11 +37094,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874878",
+        "url": "https://www.ticketnetwork.com/en/p/7874878",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8v0xbGA57f2-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874878"
   },
   {
     "id": "tm-sombr-2026-washington-1a4zk3vgkd85lni",
@@ -35331,11 +37155,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874879",
+        "url": "https://www.ticketnetwork.com/en/p/7874879",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154729",
+        "url": "https://www.stubhub.ie/sombr-washington-tickets-11-10-2026/event/107154729",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk3vGkd85lNI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874879",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-washington-tickets-11-10-2026/event/107154729"
   },
   {
     "id": "tm-sombr-2026-pittsburgh-1kaov0xfga560gt",
@@ -35384,11 +37224,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874880",
+        "url": "https://www.ticketnetwork.com/en/p/7874880",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOv0xFGA560gt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874880"
   },
   {
     "id": "tm-sombr-2026-cleveland-z7r9jz1a7xav7",
@@ -35489,11 +37337,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874882",
+        "url": "https://www.ticketnetwork.com/en/p/7874882",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154730",
+        "url": "https://www.stubhub.ie/sombr-buffalo-tickets-11-14-2026/event/107154730",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_F0KG7ij1e",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874882",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-buffalo-tickets-11-14-2026/event/107154730"
   },
   {
     "id": "tm-sombr-2026-toronto-1a8zk36gkdv1i_l",
@@ -35595,11 +37459,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874884",
+        "url": "https://www.ticketnetwork.com/en/p/7874884",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154733",
+        "url": "https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk36GkdFNKEx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874884",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733"
   },
   {
     "id": "tm-sombr-2026-philadelphia-1kgzv0xbga5zeae",
@@ -35648,11 +37528,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874885",
+        "url": "https://www.ticketnetwork.com/en/p/7874885",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154735",
+        "url": "https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZv0xbGA5zeAe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874885",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735"
   },
   {
     "id": "tm-sombr-2026-newark-vv1aezk3fgkdhlmuf",
@@ -35701,11 +37597,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874886",
+        "url": "https://www.ticketnetwork.com/en/p/7874886",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155495",
+        "url": "https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk3FGkdhLmUF",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874886",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495"
   },
   {
     "id": "tm-sombr-2026-new-york-g5diz_flfogz-",
@@ -35754,11 +37666,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874887",
+        "url": "https://www.ticketnetwork.com/en/p/7874887",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154738",
+        "url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_FlfogZ-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874887",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738"
   },
   {
     "id": "tm-sombr-2026-new-york-g5diz_flffpzi",
@@ -35807,11 +37735,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877722",
+        "url": "https://www.ticketnetwork.com/en/p/7877722",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107160120",
+        "url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_FlffPZI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877722",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120"
   },
   {
     "id": "tm-john-summit-2026-chicago-z7r9jz1aazo4o",
@@ -35964,11 +37908,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982969",
+        "url": "https://www.ticketnetwork.com/en/p/7982969",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G652QqbLC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982969"
   },
   {
     "id": "tm-john-summit-2026-hamilton-177zv0g65247nfx",
@@ -36123,11 +38075,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982946",
+        "url": "https://www.ticketnetwork.com/en/p/7982946",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189133",
+        "url": "https://www.stubhub.ie/john-summit-boston-tickets-10-29-2026/event/107189133",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_51ivlNd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982946",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-boston-tickets-10-29-2026/event/107189133"
   },
   {
     "id": "tm-john-summit-2026-university-park-vvg1fz_55aanmw",
@@ -36176,11 +38144,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982947",
+        "url": "https://www.ticketnetwork.com/en/p/7982947",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_55aAnmw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982947"
   },
   {
     "id": "tm-john-summit-2026-washington-1avfz_agklgjntv",
@@ -36229,11 +38205,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982948",
+        "url": "https://www.ticketnetwork.com/en/p/7982948",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189134",
+        "url": "https://www.stubhub.ie/john-summit-washington-tickets-10-31-2026/event/107189134",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_AGklgJNtV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982948",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-washington-tickets-10-31-2026/event/107189134"
   },
   {
     "id": "tm-john-summit-2026-houston-z7r9jz1a70t74",
@@ -36334,11 +38326,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982953",
+        "url": "https://www.ticketnetwork.com/en/p/7982953",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107185232",
+        "url": "https://www.stubhub.ie/john-summit-austin-tickets-11-6-2026/event/107185232",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_52QGTUZ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982953",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-austin-tickets-11-6-2026/event/107185232"
   },
   {
     "id": "tm-john-summit-2026-fort-worth-vvg1yz_522ahqk",
@@ -36387,11 +38395,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982955",
+        "url": "https://www.ticketnetwork.com/en/p/7982955",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107185233",
+        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_522AhQK",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982955",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233"
   },
   {
     "id": "tm-john-summit-2026-fort-worth-vvg1yz_53r5bha",
@@ -36440,11 +38464,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8005641",
+        "url": "https://www.ticketnetwork.com/en/p/8005641",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107289082",
+        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_53r5bhA",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005641",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082"
   },
   {
     "id": "tm-john-summit-2026-columbus-vvg1fz_52gqiba",
@@ -36493,11 +38533,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982957",
+        "url": "https://www.ticketnetwork.com/en/p/7982957",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_52gQIBA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982957"
   },
   {
     "id": "tm-john-summit-2026-charlotte-g5evz_52qpkue",
@@ -36546,11 +38594,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982959",
+        "url": "https://www.ticketnetwork.com/en/p/7982959",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189135",
+        "url": "https://www.stubhub.ie/john-summit-charlotte-tickets-11-14-2026/event/107189135",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_52QPKUe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982959",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-charlotte-tickets-11-14-2026/event/107189135"
   },
   {
     "id": "tm-john-summit-2026-atlanta-vvg1zz_527ymui",
@@ -36599,11 +38663,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982960",
+        "url": "https://www.ticketnetwork.com/en/p/7982960",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107185234",
+        "url": "https://www.stubhub.ie/john-summit-atlanta-tickets-11-15-2026/event/107185234",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_527YmUi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982960",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-atlanta-tickets-11-15-2026/event/107185234"
   },
   {
     "id": "tm-john-summit-2026-miami-vvg1vz_51zozkr",
@@ -36652,11 +38732,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982963",
+        "url": "https://www.ticketnetwork.com/en/p/7982963",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189137",
+        "url": "https://www.stubhub.ie/john-summit-miami-tickets-11-20-2026/event/107189137",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_51zOzkr",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982963",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-miami-tickets-11-20-2026/event/107189137"
   },
   {
     "id": "tm-john-summit-2026-miami-vvg1vz_5ctzbz1",
@@ -36705,11 +38801,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982964",
+        "url": "https://www.ticketnetwork.com/en/p/7982964",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189136",
+        "url": "https://www.stubhub.ie/john-summit-miami-tickets-11-21-2026/event/107189136",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_5CtzbZ1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982964",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-miami-tickets-11-21-2026/event/107189136"
   },
   {
     "id": "tm-john-summit-2026-chicago-vvg18z_52-bljx",
@@ -36758,11 +38870,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982944",
+        "url": "https://www.ticketnetwork.com/en/p/7982944",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189138",
+        "url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-24-2026/event/107189138",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_52-BljX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982944",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-24-2026/event/107189138"
   },
   {
     "id": "tm-john-summit-2026-chicago-vvg18z_52-dlqv",
@@ -36811,11 +38939,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982965",
+        "url": "https://www.ticketnetwork.com/en/p/7982965",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189139",
+        "url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-25-2026/event/107189139",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_52-Dlqv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982965",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-25-2026/event/107189139"
   },
   {
     "id": "tm-john-summit-2026-philadelphia-vvg1fz_5ctejox",
@@ -36917,11 +39061,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982967",
+        "url": "https://www.ticketnetwork.com/en/p/7982967",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189140",
+        "url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-28-2026/event/107189140",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G655ozAAy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982967",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-28-2026/event/107189140"
   },
   {
     "id": "tm-john-summit-2026-oakland-g5vyz_5chdjie",
@@ -36970,11 +39130,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982968",
+        "url": "https://www.ticketnetwork.com/en/p/7982968",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189141",
+        "url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5CHDJie",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982968",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141"
   },
   {
     "id": "tm-john-summit-2026-oakland-g5vyz_5925f5n",
@@ -37023,10 +39199,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8005513",
+        "url": "https://www.ticketnetwork.com/en/p/8005513",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107289083",
+        "url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5925f5N",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005513",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083"
   }
 ]

@@ -150,11 +150,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982969",
+        "url": "https://www.ticketnetwork.com/en/p/7982969",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G652QqbLC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982969"
   },
   {
     "id": "tm-john-summit-2026-hamilton-177zv0g65247nfx",
@@ -309,11 +317,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982946",
+        "url": "https://www.ticketnetwork.com/en/p/7982946",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189133",
+        "url": "https://www.stubhub.ie/john-summit-boston-tickets-10-29-2026/event/107189133",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_51ivlNd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982946",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-boston-tickets-10-29-2026/event/107189133"
   },
   {
     "id": "tm-john-summit-2026-university-park-vvg1fz_55aanmw",
@@ -362,11 +386,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982947",
+        "url": "https://www.ticketnetwork.com/en/p/7982947",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_55aAnmw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982947"
   },
   {
     "id": "tm-john-summit-2026-washington-1avfz_agklgjntv",
@@ -415,11 +447,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982948",
+        "url": "https://www.ticketnetwork.com/en/p/7982948",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189134",
+        "url": "https://www.stubhub.ie/john-summit-washington-tickets-10-31-2026/event/107189134",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_AGklgJNtV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982948",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-washington-tickets-10-31-2026/event/107189134"
   },
   {
     "id": "tm-john-summit-2026-houston-z7r9jz1a70t74",
@@ -520,11 +568,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982953",
+        "url": "https://www.ticketnetwork.com/en/p/7982953",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107185232",
+        "url": "https://www.stubhub.ie/john-summit-austin-tickets-11-6-2026/event/107185232",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_52QGTUZ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982953",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-austin-tickets-11-6-2026/event/107185232"
   },
   {
     "id": "tm-john-summit-2026-fort-worth-vvg1yz_522ahqk",
@@ -573,11 +637,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982955",
+        "url": "https://www.ticketnetwork.com/en/p/7982955",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107185233",
+        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_522AhQK",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982955",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-7-2026/event/107185233"
   },
   {
     "id": "tm-john-summit-2026-fort-worth-vvg1yz_53r5bha",
@@ -626,11 +706,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8005641",
+        "url": "https://www.ticketnetwork.com/en/p/8005641",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107289082",
+        "url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_53r5bhA",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005641",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-fort-worth-tickets-11-8-2026/event/107289082"
   },
   {
     "id": "tm-john-summit-2026-columbus-vvg1fz_52gqiba",
@@ -679,11 +775,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982957",
+        "url": "https://www.ticketnetwork.com/en/p/7982957",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_52gQIBA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982957"
   },
   {
     "id": "tm-john-summit-2026-charlotte-g5evz_52qpkue",
@@ -732,11 +836,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982959",
+        "url": "https://www.ticketnetwork.com/en/p/7982959",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189135",
+        "url": "https://www.stubhub.ie/john-summit-charlotte-tickets-11-14-2026/event/107189135",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_52QPKUe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982959",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-charlotte-tickets-11-14-2026/event/107189135"
   },
   {
     "id": "tm-john-summit-2026-atlanta-vvg1zz_527ymui",
@@ -785,11 +905,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982960",
+        "url": "https://www.ticketnetwork.com/en/p/7982960",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107185234",
+        "url": "https://www.stubhub.ie/john-summit-atlanta-tickets-11-15-2026/event/107185234",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_527YmUi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982960",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-atlanta-tickets-11-15-2026/event/107185234"
   },
   {
     "id": "tm-john-summit-2026-miami-vvg1vz_51zozkr",
@@ -838,11 +974,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982963",
+        "url": "https://www.ticketnetwork.com/en/p/7982963",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189137",
+        "url": "https://www.stubhub.ie/john-summit-miami-tickets-11-20-2026/event/107189137",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_51zOzkr",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982963",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-miami-tickets-11-20-2026/event/107189137"
   },
   {
     "id": "tm-john-summit-2026-miami-vvg1vz_5ctzbz1",
@@ -891,11 +1043,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982964",
+        "url": "https://www.ticketnetwork.com/en/p/7982964",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189136",
+        "url": "https://www.stubhub.ie/john-summit-miami-tickets-11-21-2026/event/107189136",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_5CtzbZ1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982964",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-miami-tickets-11-21-2026/event/107189136"
   },
   {
     "id": "tm-john-summit-2026-chicago-vvg18z_52-bljx",
@@ -944,11 +1112,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982944",
+        "url": "https://www.ticketnetwork.com/en/p/7982944",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189138",
+        "url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-24-2026/event/107189138",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_52-BljX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982944",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-24-2026/event/107189138"
   },
   {
     "id": "tm-john-summit-2026-chicago-vvg18z_52-dlqv",
@@ -997,11 +1181,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982965",
+        "url": "https://www.ticketnetwork.com/en/p/7982965",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189139",
+        "url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-25-2026/event/107189139",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_52-Dlqv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982965",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-25-2026/event/107189139"
   },
   {
     "id": "tm-john-summit-2026-philadelphia-vvg1fz_5ctejox",
@@ -1103,11 +1303,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982967",
+        "url": "https://www.ticketnetwork.com/en/p/7982967",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189140",
+        "url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-28-2026/event/107189140",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G655ozAAy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982967",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-28-2026/event/107189140"
   },
   {
     "id": "tm-john-summit-2026-oakland-g5vyz_5chdjie",
@@ -1156,11 +1372,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982968",
+        "url": "https://www.ticketnetwork.com/en/p/7982968",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189141",
+        "url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5CHDJie",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982968",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141"
   },
   {
     "id": "tm-john-summit-2026-oakland-g5vyz_5925f5n",
@@ -1209,10 +1441,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8005513",
+        "url": "https://www.ticketnetwork.com/en/p/8005513",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107289083",
+        "url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5925f5N",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005513",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083"
   }
 ]

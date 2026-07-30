@@ -889,7 +889,7 @@ function searchableEventDate(event) {
   const parsed = new Date(iso);
   if (!Number.isFinite(parsed.getTime())) return "";
   try {
-    return parsed.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+    return parsed.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: showTimeZone(iso, event.timezone) });
   } catch (error) {
     return "";
   }
@@ -951,7 +951,7 @@ function renderSearchResultItem(type, data) {
     ctaHref = `/artists/${data.slug}`;
   } else if (type === "event") {
     const isoField = data.datetime_iso || data.dateTimeISO || "";
-    const dateStr = formatShowDate(isoField) || "";
+    const dateStr = formatShowDate(isoField, data.timezone) || "";
     const place = [data.city, data.country].filter(Boolean).join(", ");
     const loc = [place, data.venue].filter(Boolean).join(" · ");
     nameEl.textContent = data.event_name || data.artist_name || "Verified show";
@@ -1316,12 +1316,12 @@ function renderArtistStatusLegend() {
   return legend;
 }
 
-function formatCardDate(iso) {
+function formatCardDate(iso, timezone) {
   if (!iso) return null;
   const parsed = new Date(iso);
   if (!Number.isFinite(parsed.getTime())) return null;
   try {
-    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: showTimeZone(iso, timezone) });
   } catch (error) {
     return null;
   }
@@ -1341,7 +1341,7 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
     })
     .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso) - Date.parse(b.dateTimeISO || b.datetime_iso));
   if (!upcoming.length) return null;
-  const next = formatCardDate(upcoming[0].dateTimeISO || upcoming[0].datetime_iso);
+  const next = formatCardDate(upcoming[0].dateTimeISO || upcoming[0].datetime_iso, upcoming[0].timezone);
   if (!next) return null;
   return `Next date: ${next} · ${upcoming.length} upcoming ${upcoming.length === 1 ? "date" : "dates"}`;
 }
@@ -1388,29 +1388,55 @@ function renderShowBoardShell(id, title, body, note) {
   return section;
 }
 
-function formatShowDate(value) {
+// Which zone a show's date should be read in. Keep in sync with showTimeZone
+// in functions/[[path]].js — see the full rationale there.
+//
+// A venue-local wall-time string ("2026-07-10T20:00:00") already spells out the
+// venue's date and must be rendered in UTC so the text survives unchanged. A
+// true instant ("2026-10-24T03:00:00Z") must be resolved against the event's
+// own zone: rendering it in UTC shows the next calendar day for an evening show
+// in the Americas. These client formatters previously passed no timeZone at
+// all, so hydration re-rendered every date in the VIEWER's zone — a third
+// answer again, and one that changed depending on who was looking.
+//
+// Instants with no timezone fall back to UTC; the fallback never guesses.
+function showTimeZone(value, timezone) {
+  if (!/(?:Z|[+-]\d{2}:?\d{2})$/.test(String(value || "").trim())) return "UTC";
+  const tz = String(timezone || "").trim();
+  if (!tz) return "UTC";
+  try {
+    new Intl.DateTimeFormat("en-US", { timeZone: tz });
+    return tz;
+  } catch (error) {
+    return "UTC";
+  }
+}
+
+function formatShowDate(value, timezone) {
   if (!value) return "";
   const parsed = new Date(value);
   if (!Number.isFinite(parsed.getTime())) return "";
-  return parsed.toLocaleDateString(undefined, {
+  return parsed.toLocaleDateString("en-US", {
     weekday: "short",
     month: "short",
     day: "numeric",
-    year: "numeric"
+    year: "numeric",
+    timeZone: showTimeZone(value, timezone)
   });
 }
 
 // Date badge parts for the compact show card. Keep in sync with
 // showDatePartsServer in functions/[[path]].js.
-function showDateParts(value) {
+function showDateParts(value, timezone) {
   if (!value) return null;
   const parsed = new Date(value);
   if (!Number.isFinite(parsed.getTime())) return null;
+  const timeZone = showTimeZone(value, timezone);
   try {
     return {
-      weekday: parsed.toLocaleDateString(undefined, { weekday: "short" }),
-      day: parsed.toLocaleDateString(undefined, { day: "numeric" }),
-      monthYear: parsed.toLocaleDateString(undefined, { month: "short", year: "numeric" })
+      weekday: parsed.toLocaleDateString("en-US", { weekday: "short", timeZone }),
+      day: parsed.toLocaleDateString("en-US", { day: "numeric", timeZone }),
+      monthYear: parsed.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone })
     };
   } catch (error) {
     return null;
@@ -1418,7 +1444,7 @@ function showDateParts(value) {
 }
 
 function renderShowDateBadge(show) {
-  const parts = showDateParts(show.dateTimeISO);
+  const parts = showDateParts(show.dateTimeISO, show.timezone);
   if (!parts) return null;
   const badge = document.createElement("div");
   badge.className = "show-date-badge";
@@ -1906,7 +1932,7 @@ function renderShowCard(show, options = {}) {
     text(body, "p", `Show ${venueRun.position} of ${venueRun.total} at this venue`, "show-card-run muted");
   }
   if (!dateBadge) {
-    const date = formatShowDate(show.dateTimeISO);
+    const date = formatShowDate(show.dateTimeISO, show.timezone);
     if (date) text(body, "p", date, "card-status");
   }
 
@@ -2034,7 +2060,7 @@ function renderRecentShowsList(name, pastShows) {
     const item = document.createElement("li");
     const time = document.createElement("time");
     time.setAttribute("datetime", show.dateTimeISO || "");
-    time.textContent = formatShowDate(show.dateTimeISO) || "Recent date";
+    time.textContent = formatShowDate(show.dateTimeISO, show.timezone) || "Recent date";
     item.append(time);
     const place = [show.venue, show.city].filter(Boolean).join(", ");
     if (place) item.append(document.createTextNode(` — ${place}`));

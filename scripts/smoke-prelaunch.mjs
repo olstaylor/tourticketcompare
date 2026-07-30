@@ -33,7 +33,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260729b";
+const APP_ASSET_VERSION = "20260730a";
 const TTC_HOME_ASSET_VERSION = "20260729b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -1387,6 +1387,39 @@ const machineStatusEnv = {
 };
 const machineStatusPage = await routeResponse("/artists/morgan-wallen", machineStatusEnv);
 assert(machineStatusPage.text.includes(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "verification_status=machine_high_confidence must keep the event Ticketmaster CTA rendering without the human-verified provider flag");
+
+// 2d. Venue-local date rendering. datetime_iso carries two shapes and they are
+//     not interchangeable: a naive wall-time string already spells out the
+//     venue's date, while a Z-suffixed instant does not. Rendering an instant in
+//     UTC shows the following calendar day for any evening show west of
+//     Greenwich. Regression 2026-07-30: /artists/jay-z advertised
+//     "Sat 24 Oct 2026" for a SoFi Stadium show that happens Fri 23 Oct, and 164
+//     of 423 live events were a day late.
+const dateRenderCases = [
+  { iso: "2026-10-24T03:00:00Z", timezone: "America/Los_Angeles", day: "23", monthYear: "Oct 2026", weekday: "Fri", label: "US evening instant resolves to the venue's day" },
+  { iso: "2026-09-05T16:00:00Z", timezone: "Europe/London", day: "5", monthYear: "Sep 2026", weekday: "Sat", label: "UK instant is unchanged (BST is UTC+1)" },
+  { iso: "2026-05-15T17:30:00", timezone: "America/New_York", day: "15", monthYear: "May 2026", weekday: "Fri", label: "naive wall time is never re-interpreted against a zone" },
+  { iso: "2026-10-24T03:00:00Z", timezone: "", day: "24", monthYear: "Oct 2026", weekday: "Sat", label: "instant with no timezone falls back to UTC rather than guessing" },
+  { iso: "2026-10-24T03:00:00Z", timezone: "Not/AZone", day: "24", monthYear: "Oct 2026", weekday: "Sat", label: "unparseable timezone falls back to UTC instead of throwing" }
+];
+for (const testCase of dateRenderCases) {
+  const datedEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
+    ? { ...event, datetime_iso: testCase.iso, timezone: testCase.timezone }
+    : event));
+  const datedEnv = {
+    ...seatGeekBaseTrackingEnv,
+    ASSETS: {
+      async fetch(request) {
+        const url = new URL(request.url);
+        if (url.pathname === "/data/events.json") return new Response(datedEventsJson, { status: 200 });
+        return seatGeekBaseTrackingEnv.ASSETS.fetch(request);
+      }
+    }
+  };
+  const datedPage = await routeResponse("/artists/morgan-wallen", datedEnv);
+  const badge = `<span class="show-date-weekday">${testCase.weekday}</span><span class="show-date-day">${testCase.day}</span><span class="show-date-monthyear">${testCase.monthYear}</span>`;
+  assert(datedPage.text.includes(badge), `${testCase.label} (expected badge ${testCase.weekday} ${testCase.day} ${testCase.monthYear} for ${testCase.iso} / ${testCase.timezone || "no timezone"})`);
+}
 
 // 3. Whole-page guard: no public artist page should ever ship the recheck-hidden
 //    copy while verified provider links exist on it.

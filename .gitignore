@@ -15,6 +15,11 @@ candidates/
 .audit/
 artifacts/
 
+# Ticketmaster new-shows discovery output (candidate batch, coverage heartbeat
+# and withheld-review report). Regenerated on every recogniser run and uploaded
+# as an Actions artifact by tm-new-shows-pr.yml — never committed.
+.tm-discovery/
+
 # Python bytecode caches (from scripts/ tooling and its --self-test runs)
 __pycache__/
 *.pyc

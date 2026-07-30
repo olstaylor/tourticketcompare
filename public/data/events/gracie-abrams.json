@@ -1,0 +1,2811 @@
+[
+  {
+    "id": "tm-gracie-abrams-2026-denver-g5vzz_55eui2w",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-12-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064B2E736C3FD",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064B2E736C3FD",
+        "discovery_event_id": "G5vzZ_55Eui2W",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_55Eui2W",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2026-denver-g5vzz_5lhxedg",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-12-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064BAFCFA70CC",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064BAFCFA70CC",
+        "discovery_event_id": "G5vzZ_5lHXEdG",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_5lHXEdG",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2026-12-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064ADBB8886FE",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064ADBB8886FE",
+        "discovery_event_id": "G5vYZ_1UDxFhX",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1UDxFhX",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2026-oakland-g5vyz_5mq0w7n",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2026-12-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064BB9D932123",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064BB9D932123",
+        "discovery_event_id": "G5vYZ_5mq0w7N",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_5mq0w7N",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2026-glendale-17k8v0g652smnjw",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2026-12-10T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064B3F3DEA73D",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064B3F3DEA73D",
+        "discovery_event_id": "17k8v0G652SMnjW",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G652SMnjW",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2026-glendale-17k8v0g65839wds",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2026-12-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064B4125FDEF3",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064B4125FDEF3",
+        "discovery_event_id": "17k8v0G65839WDS",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G65839WDS",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2026-inglewood-vvg10z_53kkqpx",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-12-15T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064B49319A5BE",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064B49319A5BE",
+        "discovery_event_id": "vvG10Z_53KkQpX",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_53KkQpX",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0-czu",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-12-19T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064BBE484EE0D",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064BBE484EE0D",
+        "discovery_event_id": "vvG10Z_5R0-Czu",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_5R0-Czu",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0nxzp",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-12-20T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064BBE48FEE25",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064BBE48FEE25",
+        "discovery_event_id": "vvG10Z_5R0NXzP",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_5R0NXzP",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0eryu",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-12-21T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064BBE49DEE4D",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064BBE49DEE4D",
+        "discovery_event_id": "vvG10Z_5R0Eryu",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_5R0Eryu",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-01-27T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064AEAA9AA408",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064AEAA9AA408",
+        "discovery_event_id": "vvG1HZ_1BnJn8F",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_1BnJn8F",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5rykvjn",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-01-28T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064BBF94F49AA",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064BBF94F49AA",
+        "discovery_event_id": "vvG1HZ_5RyKVJn",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_5RyKVJn",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5ry97ef",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-01-30T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064BBF95C49C8",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064BBF95C49C8",
+        "discovery_event_id": "vvG1HZ_5Ry97EF",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_5Ry97EF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byq5cg",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-02-01T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064AEB974BB75",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064AEB974BB75",
+        "discovery_event_id": "vvG1HZ_1Byq5cg",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_1Byq5cg",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byqdcd",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-02-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064AEB977BB7B",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064AEB977BB7B",
+        "discovery_event_id": "vvG1HZ_1ByqDcD",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_1ByqDcD",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-chicago-vv1fvzv0pycdz72ag6",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-02-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064970383E8B6",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064970383E8B6",
+        "discovery_event_id": "vv1FvZv0PYCdZ72aG6",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FvZv0PYCdZ72aG6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-chicago-vvg18z_5rd-dah",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-02-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064BBFB87B15B",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064BBFB87B15B",
+        "discovery_event_id": "vvG18Z_5RD-DAh",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_5RD-DAh",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-nashville-g5viz_51oey1w",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-02-15T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064B2A09F92BD",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064B2A09F92BD",
+        "discovery_event_id": "G5viZ_51OEy1W",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_51OEy1W",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-nashville-g5viz_5rgv7ra",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-02-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064BBCCD04785",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064BBCCD04785",
+        "discovery_event_id": "G5viZ_5RGV7rA",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_5RGV7rA",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-toronto-177zv0g61sqb4k8",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-02-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064ACDD6154D0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064ACDD6154D0",
+        "discovery_event_id": "177Zv0G61Sqb4K8",
+        "url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G61Sqb4K8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-toronto-177zv0g65ic_clu",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-02-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064BB0E66D7F6",
+    "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064BB0E66D7F6",
+        "discovery_event_id": "177Zv0G65iC_cLU",
+        "url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G65iC_cLU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-atlanta-vvg1zz_5nqeia0",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-02-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064BA9D9E8164",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064BA9D9E8164",
+        "discovery_event_id": "vvG1zZ_5nqEIA0",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_5nqEIA0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-atlanta-vvg1zz_5nqiiai",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-02-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064BA9DA2816C",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064BA9DA2816C",
+        "discovery_event_id": "vvG1zZ_5nqIIAi",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_5nqIIAi",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-charlotte-g5evz_am0wlwu",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-02-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00649BA4C9FC8D",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00649BA4C9FC8D",
+        "discovery_event_id": "G5eVZ_am0wLwu",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_am0wLwu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-charlotte-g5evz_5ryzbyv",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-02-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064BBF9018C34",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064BBF9018C34",
+        "discovery_event_id": "G5eVZ_5RyZbYV",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_5RyZbYV",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-boston-vv177z_agkwp_mnl",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-03-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100649CA566E8DF",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100649CA566E8DF",
+        "discovery_event_id": "vv177Z_aGkwP_mNL",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_aGkwP_mNL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-boston-vvg17z_5rug2cb",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-03-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064BBCD30F3BA",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064BBCD30F3BA",
+        "discovery_event_id": "vvG17Z_5RuG2CB",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_5RuG2CB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-washington-1avfz_agksfejeq",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2027-03-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500649CD409C9DA",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500649CD409C9DA",
+        "discovery_event_id": "1AvfZ_aGkSfejEQ",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_aGkSfejEQ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-washington-17a8v0g65r4j5jx",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2027-03-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064BBD570B9A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-05-2027/event/150064BBD570B9A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-05-2027/event/150064BBD570B9A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064BBD570B9A2",
+        "discovery_event_id": "17A8v0G65R4j5Jx",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-05-2027/event/150064BBD570B9A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G65R4j5Jx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-montreal-17g8v0g65th0d1g",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2027-03-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064BA7C90328C",
+    "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-08-2027/event/310064BA7C90328C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-08-2027/event/310064BA7C90328C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064BA7C90328C",
+        "discovery_event_id": "17G8v0G65tH0d1G",
+        "url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-08-2027/event/310064BA7C90328C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G65tH0d1G",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-montreal-17g8v0g65thpd1k",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2027-03-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064BA7C943293",
+    "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064BA7C943293",
+        "discovery_event_id": "17G8v0G65tHPd1K",
+        "url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G65tHPd1K",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65pru4zd",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2027-03-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064B5AF355E3B",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-12-2027/event/300064B5AF355E3B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-12-2027/event/300064B5AF355E3B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064B5AF355E3B",
+        "discovery_event_id": "17GZv0G65pRu4zD",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-12-2027/event/300064B5AF355E3B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G65pRu4zD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65prugzw",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064B5AF375E3D",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-13-2027/event/300064B5AF375E3D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-13-2027/event/300064B5AF375E3D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064B5AF375E3D",
+        "discovery_event_id": "17GZv0G65pRugzW",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-13-2027/event/300064B5AF375E3D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G65pRugzW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g61s0b9dq",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-03-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064ACE4E97EDD",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-16-2027/event/300064ACE4E97EDD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-16-2027/event/300064ACE4E97EDD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064ACE4E97EDD",
+        "discovery_event_id": "17GZv0G61S0B9Dq",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-16-2027/event/300064ACE4E97EDD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G61S0B9Dq",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65ie2coz",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-03-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064BB023ED800",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-17-2027/event/300064BB023ED800",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-17-2027/event/300064BB023ED800",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064BB023ED800",
+        "discovery_event_id": "17GZv0G65ie2cOZ",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-17-2027/event/300064BB023ED800",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G65ie2cOZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iekqou",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-03-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064BB024DD80D",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-19-2027/event/300064BB024DD80D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-19-2027/event/300064BB024DD80D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064BB024DD80D",
+        "discovery_event_id": "17GZv0G65ieKqOu",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-19-2027/event/300064BB024DD80D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G65ieKqOu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iebqor",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour presented by Capital One",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064BB0261D81E",
+    "ticketmaster_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-20-2027/event/300064BB0261D81E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-20-2027/event/300064BB0261D81E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064BB0261D81E",
+        "discovery_event_id": "17GZv0G65iebqOr",
+        "url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-20-2027/event/300064BB0261D81E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G65iebqOr",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "AFAS Dome",
+    "datetime_iso": "2027-04-15T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/gracie-abrams-the-look-at-my-life-tour-tickets/656488658",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/gracie-abrams-the-look-at-my-life-tour-tickets/656488658",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+        "discovery_event_id": "Z698xZG2Z1k_p3F_b",
+        "url": "https://www.ticketmaster.be/event/gracie-abrams-the-look-at-my-life-tour-tickets/656488658",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1k_p3F_b",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k4vofa4",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "AFAS Dome",
+    "datetime_iso": "2027-04-16T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/gracie-abrams-the-look-at-my-life-tour-tickets/574814255",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/gracie-abrams-the-look-at-my-life-tour-tickets/574814255",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+        "discovery_event_id": "Z698xZG2Z1k4VOfa4",
+        "url": "https://www.ticketmaster.be/event/gracie-abrams-the-look-at-my-life-tour-tickets/574814255",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1k4VOfa4",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-manchester-17uyv0g65rbpnzf",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-22T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064BBD8963014",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-22-04-2027/event/370064BBD8963014",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-22-04-2027/event/370064BBD8963014",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064BBD8963014",
+        "discovery_event_id": "17uYv0G65RbPNZf",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-22-04-2027/event/370064BBD8963014",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G65RbPNZf",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-manchester-17uyv0g6gk_vkhl",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-24T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064C199D13F1F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-24-04-2027/event/370064C199D13F1F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-24-04-2027/event/370064C199D13F1F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064C199D13F1F",
+        "discovery_event_id": "17uYv0G6Gk_VKHL",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-24-04-2027/event/370064C199D13F1F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G6Gk_VKHL",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-manchester-17uyv0g6gkp6vc5",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-04-25T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064C1A51F4B4B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-25-04-2027/event/370064C1A51F4B4B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-25-04-2027/event/370064C1A51F4B4B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064C1A51F4B4B",
+        "discovery_event_id": "17uYv0G6GkP6Vc5",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-manchester-25-04-2027/event/370064C1A51F4B4B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G6GkP6Vc5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-london-17u8v0g65wthjl9",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-30T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064BCA96E67D7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-30-04-2027/event/350064BCA96E67D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-30-04-2027/event/350064BCA96E67D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064BCA96E67D7",
+        "discovery_event_id": "17u8v0G65wthJL9",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-30-04-2027/event/350064BCA96E67D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G65wthJL9",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-london-17u8v0g65wi6peh",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-01T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064BCAC1D69DB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-01-05-2027/event/350064BCAC1D69DB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-01-05-2027/event/350064BCAC1D69DB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064BCAC1D69DB",
+        "discovery_event_id": "17u8v0G65wi6pEh",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-01-05-2027/event/350064BCAC1D69DB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G65wi6pEh",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-london-17u8v0g65wcbpi1",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-03T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064BCAD616B0A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-03-05-2027/event/350064BCAD616B0A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-03-05-2027/event/350064BCAD616B0A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064BCAD616B0A",
+        "discovery_event_id": "17u8v0G65wcbpi1",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-03-05-2027/event/350064BCAD616B0A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G65wcbpi1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-london-17u8v0g65wm9us5",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-04T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064BCAE5F6C4B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-04-05-2027/event/350064BCAE5F6C4B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-04-05-2027/event/350064BCAE5F6C4B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064BCAE5F6C4B",
+        "discovery_event_id": "17u8v0G65wm9Us5",
+        "url": "https://www.ticketmaster.co.uk/gracie-abrams-the-look-at-my-london-04-05-2027/event/350064BCAE5F6C4B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G65wm9Us5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16vpdafzk",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/gracie-abrams-the-look-at-my-life-tour-tickets/1583154013?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/gracie-abrams-the-look-at-my-life-tour-tickets/1583154013?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+        "discovery_event_id": "Z698xZbpZ16vpdAfZK",
+        "url": "https://www.ticketmaster.nl/event/gracie-abrams-the-look-at-my-life-tour-tickets/1583154013?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vpdAfZK",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16v00_azt",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/gracie-abrams-the-look-at-my-life-tour-tickets/1924645029?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/gracie-abrams-the-look-at-my-life-tour-tickets/1924645029?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+        "discovery_event_id": "Z698xZbpZ16v00_AZt",
+        "url": "https://www.ticketmaster.nl/event/gracie-abrams-the-look-at-my-life-tour-tickets/1924645029?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v00_AZt",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16v0oan4g",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/gracie-abrams-the-look-at-my-life-tour-tickets/1911263575?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/gracie-abrams-the-look-at-my-life-tour-tickets/1911263575?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+        "discovery_event_id": "Z698xZbpZ16v0oaN4g",
+        "url": "https://www.ticketmaster.nl/event/gracie-abrams-the-look-at-my-life-tour-tickets/1911263575?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v0oaN4g",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-berlin-z698xzc2z16vx9ppa7",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Arena",
+    "datetime_iso": "2027-05-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1897596244?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1897596244?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+        "discovery_event_id": "Z698xZC2Z16vx9ppa7",
+        "url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1897596244?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vx9ppa7",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-berlin-z698xzc2z16vfef4pp",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Arena",
+    "datetime_iso": "2027-05-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1227215596?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1227215596?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+        "discovery_event_id": "Z698xZC2Z16vFEF4pp",
+        "url": "https://www.ticketmaster.de/event/gracie-abrams-the-look-at-my-life-tour-tickets/1227215596?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vFEF4pp",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-barcelona-z698xz2qz16vav0xgz",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Palau Sant Jordi",
+    "datetime_iso": "2027-05-27T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1274922300?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1274922300?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+        "discovery_event_id": "Z698xZ2qZ16vaV0xGZ",
+        "url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1274922300?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaV0xGZ",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-gracie-abrams-2027-barcelona-z698xz2qz16vpsaikv",
+    "artist_slug": "gracie-abrams",
+    "artist_name": "Gracie Abrams",
+    "event_name": "Gracie Abrams: The Look at My Life Tour",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Palau Sant Jordi",
+    "datetime_iso": "2027-05-28T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1971168181?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1971168181?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "gracie-abrams-the-look-at-my-life-tour-tickets",
+        "discovery_event_id": "Z698xZ2qZ16vPsAIkv",
+        "url": "https://www.ticketmaster.es/event/gracie-abrams-the-look-at-my-life-tour-tickets/1971168181?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPsAIkv",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  }
+]

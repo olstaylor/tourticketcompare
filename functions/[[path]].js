@@ -526,7 +526,7 @@ function cityFaqEntries(city) {
     [
       `What is the next concert TourTicketCompare tracks in ${city.city}?`,
       next
-        ? `The next currently tracked date is ${next.artist_name || next.artist_slug} at ${next.venue} on ${formatShowDateServer(next.datetime_iso)}. Check the artist page and provider before travelling because schedules and ticket details can change.`
+        ? `The next currently tracked date is ${next.artist_name || next.artist_slug} at ${next.venue} on ${formatShowDateServer(next.datetime_iso, next.timezone)}. Check the artist page and provider before travelling because schedules and ticket details can change.`
         : "No upcoming reviewed date is currently available."
     ],
     [
@@ -598,7 +598,7 @@ function artistSchema(route, origin) {
 // Person/MusicGroup on venue/city pages, which aggregate multiple artists.
 function musicEventNode(show, origin, { displayName, performer, offers = [] }) {
   const name = displayName || show.artist_name || show.artist_slug;
-  const displayDate = formatShowDateServer(show.dateTimeISO);
+  const displayDate = formatShowDateServer(show.dateTimeISO, show.timezone);
   const address = { "@type": "PostalAddress", addressLocality: show.city };
   if (show.country) address.addressCountry = show.country;
   return {
@@ -841,7 +841,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
         itemListElement: city.shows.slice(0, 50).map((show, index) => ({
           "@type": "ListItem",
           position: index + 1,
-          name: `${show.artist_name || show.artist_slug} at ${show.venue} — ${formatShowDateServer(show.datetime_iso)}`,
+          name: `${show.artist_name || show.artist_slug} at ${show.venue} — ${formatShowDateServer(show.datetime_iso, show.timezone)}`,
           url: `${origin}/artists/${show.artist_slug}#${showAnchorId(show)}`
         }))
       }
@@ -882,7 +882,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
         itemListElement: artistCity.shows.slice(0, 50).map((show, index) => ({
           "@type": "ListItem",
           position: index + 1,
-          name: `${artist.name} at ${show.venue} — ${formatShowDateServer(show.datetime_iso)}`,
+          name: `${artist.name} at ${show.venue} — ${formatShowDateServer(show.datetime_iso, show.timezone)}`,
           url: `${origin}/artists/${artist.slug}#${showAnchorId(show)}`
         }))
       }
@@ -956,7 +956,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
         itemListElement: venue.shows.map((show, index) => ({
           "@type": "ListItem",
           position: index + 1,
-          name: `${show.artist_name || show.artist_slug} — ${formatShowDateServer(show.datetime_iso)}`,
+          name: `${show.artist_name || show.artist_slug} — ${formatShowDateServer(show.datetime_iso, show.timezone)}`,
           url: `${origin}/artists/${show.artist_slug}#${showAnchorId(show)}`
         }))
       }
@@ -1072,12 +1072,12 @@ function artistCardStatus(catalog, artist, events) {
   };
 }
 
-function formatCardDate(iso) {
+function formatCardDate(iso, timezone) {
   if (!iso) return null;
   const parsed = new Date(iso);
   if (!Number.isFinite(parsed.getTime())) return null;
   try {
-    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: showTimeZone(iso, timezone) });
   } catch (error) {
     return null;
   }
@@ -1087,7 +1087,7 @@ function formatCardDate(iso) {
 function upcomingVerifiedShowSummary(events, artistSlug) {
   const shows = futureShowsForArtist(events, artistSlug, 500).filter((show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url));
   if (!shows.length) return null;
-  const next = formatCardDate(shows[0].dateTimeISO);
+  const next = formatCardDate(shows[0].dateTimeISO, shows[0].timezone);
   if (!next) return null;
   return `Next date: ${next} · ${shows.length} upcoming ${shows.length === 1 ? "date" : "dates"}`;
 }
@@ -1166,8 +1166,8 @@ function cityMetaDescription(city, yearLabel) {
 function cityDateRangeLabel(city) {
   const first = city?.shows?.[0];
   const last = city?.shows?.at(-1);
-  const firstLabel = formatShowDateServer(first?.datetime_iso);
-  const lastLabel = formatShowDateServer(last?.datetime_iso);
+  const firstLabel = formatShowDateServer(first?.datetime_iso, first?.timezone);
+  const lastLabel = formatShowDateServer(last?.datetime_iso, last?.timezone);
   if (!firstLabel) return "";
   return lastLabel && lastLabel !== firstLabel ? `${firstLabel} to ${lastLabel}` : firstLabel;
 }
@@ -1200,7 +1200,7 @@ function renderCityAnswerSummary(city) {
   )} in ${escapeHtml(city.city)}, covering ${escapeHtml(cityArtistCountLabel(city.artistCount))} at ${escapeHtml(
     cityVenueCountLabel(city.venueCount)
   )}. The list contains reviewed tour dates rather than every event taking place in the city.</p><div class="card-grid"><article class="info-card"><h3>Next tracked show</h3><p>${next ? `${escapeHtml(
-    formatShowDateServer(next.datetime_iso)
+    formatShowDateServer(next.datetime_iso, next.timezone)
   )}: ${anchor(next.artist_name || next.artist_slug, `/artists/${next.artist_slug}#${showAnchorId(next)}`)} at ${escapeHtml(next.venue)}.` : "No upcoming reviewed date is available."}</p></article><article class="info-card"><h3>Tracked date range</h3><p>${escapeHtml(
     range || "Dates are shown in the schedule below."
   )}</p></article><article class="info-card"><h3>Coverage</h3><p>${escapeHtml(
@@ -1213,7 +1213,8 @@ function renderCityArtistCoverage(city, indexableArtistSlugs = new Set()) {
     .map((artist) => {
       const next = artist.shows[0];
       const label = `${artist.shows.length} upcoming ${artist.shows.length === 1 ? "date" : "dates"}; next tracked ${formatShowDateServer(
-        next.datetime_iso
+        next.datetime_iso,
+        next.timezone
       )} at ${next.venue}`;
       const name = indexableArtistSlugs.has(artist.slug)
         ? anchor(artist.name, `/artists/${artist.slug}`)
@@ -1289,7 +1290,7 @@ function renderCityShowGroups(city, indexableArtistSlugs = new Set(), indexableV
         : escapeHtml(group.name);
       const items = group.shows
         .map((show) => {
-          const date = formatShowDateServer(show.datetime_iso) || "Date shown on the artist page";
+          const date = formatShowDateServer(show.datetime_iso, show.timezone) || "Date shown on the artist page";
           const artistLabel = show.artist_name || show.artist_slug;
           const artist = indexableArtistSlugs.has(show.artist_slug)
             ? anchor(artistLabel, `/artists/${show.artist_slug}#${showAnchorId(show)}`)
@@ -1333,7 +1334,7 @@ function venueFaqEntries(venue) {
     [
       `What is the next concert TourTicketCompare tracks at ${venue.venue}?`,
       next
-        ? `The next currently tracked date is ${next.artist_name || next.artist_slug} on ${formatShowDateServer(next.datetime_iso)}. Confirm the schedule with the artist and ticket provider before travelling.`
+        ? `The next currently tracked date is ${next.artist_name || next.artist_slug} on ${formatShowDateServer(next.datetime_iso, next.timezone)}. Confirm the schedule with the artist and ticket provider before travelling.`
         : "No upcoming reviewed date is currently available."
     ],
     [
@@ -1368,7 +1369,7 @@ function renderVenueAnswerSummary(venue, indexableArtistSlugs = new Set()) {
   )}</h2><p><strong>Short answer:</strong> TourTicketCompare currently tracks ${escapeHtml(
     venueShowCountLabel(venue.showCount)
   )} at ${escapeHtml(venue.venue)} across ${escapeHtml(venueArtistCountLabel(venue.artistSlugs.length))}. This is a reviewed subset rather than the venue's complete event calendar.</p><div class="card-grid"><article class="info-card"><h3>Next tracked show</h3><p>${next ? `${escapeHtml(
-    formatShowDateServer(next.datetime_iso)
+    formatShowDateServer(next.datetime_iso, next.timezone)
   )}: ${escapeHtml(next.artist_name || next.artist_slug)}.` : "No upcoming reviewed date is available."}</p></article><article class="info-card"><h3>Tracked date range</h3><p>${escapeHtml(
     range || "Dates are shown in the schedule below."
   )}</p></article><article class="info-card"><h3>Artists in this coverage</h3><p>${artists}</p></article><article class="info-card"><h3>Verification recency</h3><p>${venue.lastmod ? `The latest event record was checked ${escapeHtml(
@@ -1465,8 +1466,8 @@ function renderArtistTourSummariesHtml(tours, artist) {
   if (!Array.isArray(tours) || !tours.length) return "";
   const cards = tours
     .map((tour) => {
-      const start = formatShowDateServer(tour.startISO);
-      const end = formatShowDateServer(tour.endISO);
+      const start = formatShowDateServer(tour.startISO, tour.startTimezone);
+      const end = formatShowDateServer(tour.endISO, tour.endTimezone);
       const range = start && end && start !== end ? `${start} – ${end}` : start || end || "";
       const showLabel = `${tour.showCount} upcoming ${tour.showCount === 1 ? "date" : "dates"}`;
       const cityLabel = tour.cityCount
@@ -1622,7 +1623,7 @@ function artistCityFaqEntries(artist, artistCity) {
     [
       `What is the next ${artist.name} date in ${artistCity.city}?`,
       next
-        ? `The next currently tracked date is ${formatShowDateServer(next.datetime_iso)} at ${next.venue}. Confirm the schedule and ticket details with the provider before travelling, because they can change.`
+        ? `The next currently tracked date is ${formatShowDateServer(next.datetime_iso, next.timezone)} at ${next.venue}. Confirm the schedule and ticket details with the provider before travelling, because they can change.`
         : "No upcoming reviewed date is currently available."
     ],
     [
@@ -1664,7 +1665,7 @@ function renderArtistCityAnswerSummary(artist, artistCity) {
   )}, across ${escapeHtml(cityVenueCountLabel(artistCity.venueCount))}.${escapeHtml(
     runNote
   )}</p><div class="card-grid"><article class="info-card"><h3>Next tracked date</h3><p>${next ? `${escapeHtml(
-    formatShowDateServer(next.datetime_iso)
+    formatShowDateServer(next.datetime_iso, next.timezone)
   )} at ${escapeHtml(next.venue)}.` : "No upcoming reviewed date is available."}</p></article><article class="info-card"><h3>Tracked date range</h3><p>${escapeHtml(
     range || "Shown in the schedule below."
   )}</p></article><article class="info-card"><h3>Venues</h3><p>${escapeHtml(
@@ -1932,7 +1933,7 @@ function renderComparisonHubEventCards(events = []) {
   if (!shows.length) return "";
   return `<section id="current-events" class="nested-panel"><h2>Prices on upcoming shows</h2><p>For each show below, we load whatever current prices we have from the ticket sites. Where two or more sites quote the same show in the same currency, we'll point out the lower one — but that's a listed price, not your final total. Fees, tax, delivery, and availability are settled at the provider's checkout.</p><div class="card-grid show-card-grid">${shows
     .map((show) => {
-      const date = formatShowDateServer(show.dateTimeISO);
+      const date = formatShowDateServer(show.dateTimeISO, show.timezone);
       const title = show.event_name || [show.artist_name, show.city].filter(Boolean).join(" – ") || "Upcoming concert";
       return `<article class="info-card" data-comparison-show-id="${escapeAttr(show.id)}"><h3>${escapeHtml(title)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(showLocationServer(show) || "Venue details shown when verified.")}</p><p class="disclosure-note">Loading approved provider price snapshots…</p>${anchor("View artist ticket options", `/artists/${show.artist_slug}`, "text-link")}</article>`;
     })
@@ -2220,6 +2221,10 @@ function enrichEventAsShow(ev) {
     event_name: String(ev.event_name || ev.name || "").trim(),
     tour_name: String(ev.tour_name || "").trim(),
     dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
+    // Required to render dateTimeISO at the venue rather than in UTC — see
+    // showTimeZone. Dropping it here is what silently sent every Z-suffixed
+    // date back to the UTC fallback.
+    timezone: String(ev.timezone || "").trim(),
     city: String(ev.city || "").trim(),
     country: normalizeCountry(ev.country),
     venue: String(ev.venue || "").trim(),
@@ -2270,7 +2275,39 @@ function recentPastShowsForArtist(events, artistSlug, limit = 3) {
     .slice(0, limit);
 }
 
-function formatShowDateServer(iso) {
+// Which zone a show's date should be read in. Keep in sync with showTimeZone
+// in public/app.js.
+//
+// Two shapes live in datetime_iso and they are NOT interchangeable:
+//
+//   "2026-07-10T20:00:00"   venue-local wall time. The text already spells out
+//                           the date the venue means, so formatting it in UTC
+//                           returns that date unchanged. Applying a zone here
+//                           would be wrong — it would re-interpret 20:00 as UTC
+//                           and shift it.
+//   "2026-10-24T03:00:00Z"  a true instant. Rendering this in UTC shows the UTC
+//                           calendar day, which for an evening show in the
+//                           Americas is the FOLLOWING day. This is the bug that
+//                           made /artists/jay-z advertise "Sat 24 Oct 2026" for
+//                           a SoFi Stadium show that happens Fri 23 Oct.
+//
+// So: resolve instants against the event's own timezone, and leave wall-time
+// strings alone. Rows carrying an instant but no timezone (47 of 544 at the
+// time of writing) keep the previous UTC behaviour — the fallback never guesses
+// a zone from city or country.
+function showTimeZone(iso, timezone) {
+  if (!/(?:Z|[+-]\d{2}:?\d{2})$/.test(String(iso || "").trim())) return "UTC";
+  const tz = String(timezone || "").trim();
+  if (!tz) return "UTC";
+  try {
+    new Intl.DateTimeFormat("en-US", { timeZone: tz });
+    return tz;
+  } catch (error) {
+    return "UTC";
+  }
+}
+
+function formatShowDateServer(iso, timezone) {
   if (!iso) return "";
   const parsed = new Date(iso);
   if (!Number.isFinite(parsed.getTime())) return "";
@@ -2280,7 +2317,7 @@ function formatShowDateServer(iso) {
       month: "short",
       day: "numeric",
       year: "numeric",
-      timeZone: "UTC"
+      timeZone: showTimeZone(iso, timezone)
     });
   } catch (error) {
     return "";
@@ -2293,15 +2330,16 @@ function showLocationServer(show) {
 
 // Date badge parts for the compact show card. Keep in sync with
 // showDateParts in public/app.js.
-function showDatePartsServer(iso) {
+function showDatePartsServer(iso, timezone) {
   if (!iso) return null;
   const parsed = new Date(iso);
   if (!Number.isFinite(parsed.getTime())) return null;
+  const timeZone = showTimeZone(iso, timezone);
   try {
     return {
-      weekday: parsed.toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" }),
-      day: parsed.toLocaleDateString("en-US", { day: "numeric", timeZone: "UTC" }),
-      monthYear: parsed.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" })
+      weekday: parsed.toLocaleDateString("en-US", { weekday: "short", timeZone }),
+      day: parsed.toLocaleDateString("en-US", { day: "numeric", timeZone }),
+      monthYear: parsed.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone })
     };
   } catch (error) {
     return null;
@@ -2591,7 +2629,7 @@ function venueRunIndex(shows) {
 }
 
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}) {
-  const dateParts = showDatePartsServer(show.dateTimeISO);
+  const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
   const location = showLocationServer(show);
   const anchorId = showAnchorId(show);
   const validUrl = safeShowTicketUrl(show.ticketmaster_url);
@@ -2682,7 +2720,7 @@ function renderRecentShowsHtml(safeName, pastShows) {
   if (!Array.isArray(pastShows) || !pastShows.length) return "";
   const items = pastShows
     .map((show) => {
-      const label = formatShowDateServer(show.dateTimeISO) || "Recent date";
+      const label = formatShowDateServer(show.dateTimeISO, show.timezone) || "Recent date";
       const place = [show.venue, show.city].filter(Boolean).map((part) => escapeHtml(part)).join(", ");
       return `<li><time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(label)}</time>${place ? ` — ${place}` : ""}</li>`;
     })

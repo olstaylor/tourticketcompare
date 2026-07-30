@@ -11,6 +11,7 @@ import {
   PROVIDERS,
   catalogItems,
   catalogItemsUrl,
+  catalogRequestHeaders,
   clean,
   impactCredentials,
   productCandidates,
@@ -94,15 +95,13 @@ function selectEligible(events, artists, config, options, now = new Date()) {
 }
 
 async function fetchArtistCatalog(config, artistName, env = process.env, fetchImpl = globalThis.fetch) {
-  const { accountSid, authToken, programId } = impactCredentials(config, env);
-  const authorization = accountSid && authToken
-    ? `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
-    : "";
+  const { programId } = impactCredentials(config, env);
+  const headers = catalogRequestHeaders(config, env);
   const candidates = [];
   try {
     for (let page = 1; page <= MAX_PAGES; page += 1) {
       const response = await fetchWithTimeout(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
-        headers: { Accept: "application/json", ...(authorization ? { Authorization: authorization } : {}) }
+        headers
       }, fetchImpl);
       if (!response.ok) return { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
       const payload = await response.json();

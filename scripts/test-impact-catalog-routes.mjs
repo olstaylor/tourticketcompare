@@ -5,28 +5,68 @@ import { onRequestGet as impactProducts } from "../functions/api/impact/products
 import { impactConfig as outboundImpactConfig } from "../functions/api/out.js";
 import { impactMarketplaceRuntimeConfig } from "../functions/_impact-marketplace-config.js";
 
-const missingEnv = {};
-const healthResponse = await impactHealth({ env: missingEnv });
+// Every /api/impact/* route is gated on the shared diagnostics bearer token.
+// These helpers keep the existing behavioural assertions focused on catalog
+// behaviour; the gate itself is asserted separately below.
+const DIAGNOSTICS_TOKEN = "impact-diagnostics-self-test-token";
+const authorized = (url, init = {}) =>
+  new Request(url, { ...init, headers: { ...(init.headers || {}), Authorization: `Bearer ${DIAGNOSTICS_TOKEN}` } });
+const withToken = (env = {}) => ({ ...env, IMPACT_DIAGNOSTICS_TOKEN: DIAGNOSTICS_TOKEN });
+
+// The gate fails closed: no configured token, a wrong token, and a missing
+// header all answer 404 without reaching the Impact credentials.
+const healthUrl = "https://tourticketcompare.com/api/impact/health";
+for (const [label, request, env] of [
+  ["no token configured", authorized(healthUrl), {}],
+  ["wrong token, same length", new Request(healthUrl, { headers: { Authorization: `Bearer ${"x".repeat(DIAGNOSTICS_TOKEN.length)}` } }), withToken()],
+  ["wrong token, different length", new Request(healthUrl, { headers: { Authorization: "Bearer short" } }), withToken()],
+  ["no header", new Request(healthUrl), withToken()],
+  ["empty bearer", new Request(healthUrl, { headers: { Authorization: "Bearer " } }), withToken()]
+]) {
+  const denied = await impactHealth({ request, env });
+  assert.equal(denied.status, 404, `/api/impact/health should 404: ${label}`);
+  assert.equal((await denied.json()).status, "not_found");
+}
+const deniedProducts = await impactProducts({
+  request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
+  env: withToken({ IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" })
+});
+assert.equal(deniedProducts.status, 404, "/api/impact/products must not serve catalog data without the token");
+const deniedCatalogs = await impactCatalogs({
+  request: new Request("https://tourticketcompare.com/api/impact/catalogs?q=ticket"),
+  env: withToken({ IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" })
+});
+assert.equal(deniedCatalogs.status, 404, "/api/impact/catalogs must not serve catalog data without the token");
+// The x-ttc-impact-token header is accepted as an alternative to Bearer.
+const headerTokenHealth = await impactHealth({
+  request: new Request(healthUrl, { headers: { "x-ttc-impact-token": DIAGNOSTICS_TOKEN } }),
+  env: withToken()
+});
+assert.equal(headerTokenHealth.status, 200, "x-ttc-impact-token should authorize the diagnostics routes");
+
+const missingEnv = withToken();
+const healthResponse = await impactHealth({ request: authorized(healthUrl), env: missingEnv });
 const healthJson = await healthResponse.json();
 assert.equal(healthResponse.status, 200);
 assert.equal(healthJson.productSearchReady, false);
 assert.equal(healthJson.productSearchAccessVerified, false);
 
 const retiredTicketmasterHealth = await impactHealth({
-  env: { IMPACT_ACCOUNT_SID: "retired-account", IMPACT_AUTH_TOKEN: "retired-token" }
+  request: authorized(healthUrl),
+  env: withToken({ IMPACT_ACCOUNT_SID: "retired-account", IMPACT_AUTH_TOKEN: "retired-token" })
 });
 const retiredTicketmasterJson = await retiredTicketmasterHealth.json();
 assert.equal(retiredTicketmasterJson.readiness.configured, false);
 assert.equal(retiredTicketmasterJson.productSearchConfigured, false);
 
 const missingCatalogs = await impactCatalogs({
-  request: new Request("https://tourticketcompare.com/api/impact/catalogs?q=ticket"),
+  request: authorized("https://tourticketcompare.com/api/impact/catalogs?q=ticket"),
   env: missingEnv
 });
 assert.equal((await missingCatalogs.json()).status, "missing_credentials");
 
 const missingProducts = await impactProducts({
-  request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
+  request: authorized("https://tourticketcompare.com/api/impact/products?q=ticket"),
   env: missingEnv
 });
 assert.equal((await missingProducts.json()).status, "missing_credentials");
@@ -47,8 +87,8 @@ try {
     }]
   }), { status: 200, headers: { "content-type": "application/json" } });
   const safeProductsResponse = await impactProducts({
-    request: new Request("https://tourticketcompare.com/api/impact/products?credentialSet=seatgeek&q=example"),
-    env: { IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" }
+    request: authorized("https://tourticketcompare.com/api/impact/products?credentialSet=seatgeek&q=example"),
+    env: withToken({ IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" })
   });
   const safeProducts = await safeProductsResponse.json();
   assert.equal(safeProductsResponse.status, 200);
@@ -104,13 +144,13 @@ try {
     });
   };
   const deniedResponse = await impactCatalogs({
-    request: new Request("https://tourticketcompare.com/api/impact/catalogs?credentialSet=seatgeek&version=15"),
-    env: {
+    request: authorized("https://tourticketcompare.com/api/impact/catalogs?credentialSet=seatgeek&version=15"),
+    env: withToken({
       IMPACT_ACCOUNT_SID: "shared-account",
       IMPACT_AUTH_TOKEN: "shared-token",
       IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
       IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token"
-    }
+    })
   });
   const denied = await deniedResponse.json();
   assert.equal(deniedResponse.status, 403);
@@ -139,8 +179,8 @@ try {
     });
   };
   const connectedResponse = await impactCatalogs({
-    request: new Request("https://tourticketcompare.com/api/impact/catalogs?credentialSet=seatgeek&q=ticketnetwork"),
-    env: { IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" }
+    request: authorized("https://tourticketcompare.com/api/impact/catalogs?credentialSet=seatgeek&q=ticketnetwork"),
+    env: withToken({ IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" })
   });
   const connected = await connectedResponse.json();
   assert.equal(connectedResponse.status, 200);
@@ -154,4 +194,4 @@ try {
   globalThis.fetch = originalFetch;
 }
 
-console.log("Impact Catalogs route self-test passed (credential selection, v16 default, redaction).\n");
+console.log("Impact Catalogs route self-test passed (auth gate, credential selection, v16 default, redaction).\n");

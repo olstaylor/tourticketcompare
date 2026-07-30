@@ -1,6 +1,8 @@
-import { impactReadiness, json } from "./_utils.js";
+import { impactDiagnosticsAuthorized, impactReadiness, json, unauthorizedPayload } from "./_utils.js";
 
-export async function onRequestGet({ env }) {
+export async function onRequestGet({ request, env }) {
+  if (!impactDiagnosticsAuthorized(request, env)) return unauthorizedPayload();
+
   const readiness = impactReadiness(env, "seatgeek");
   const productSearchConfigured = readiness.configured;
   return json({

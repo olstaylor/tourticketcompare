@@ -455,6 +455,11 @@ function redirectResponse(destination, status = 302) {
     status,
     headers: {
       Location: destination,
+      // Affiliate destinations are minted per click (Impact tracking URLs carry
+      // click-level identifiers), so this redirect must never be reused for a
+      // later visitor by a browser or an intermediary cache. Matches the
+      // no-store already set on the JSON responses from json().
+      "Cache-Control": "no-store",
       "X-TTC-Out-Version": OUT_VERSION_HEADER
     }
   });

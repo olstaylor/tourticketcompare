@@ -126,8 +126,14 @@ No inventory/scarcity claim, final-price claim, scraping, generic search link, c
 - `GET /api/impact/catalogs` and `GET /api/impact/products` to return Catalogs API data; both default to current API v16 and can safely probe the provider-specific SeatGeek credentials with `credentialSet=seatgeek`
 - `POST /api/impact/tracking-links` to generate tracking URLs
 
+**`/api/impact/*` is operator-only and token-gated.** These routes spend the site's Impact publisher credentials on the caller's behalf: the catalog readers proxy provider price and inventory data outside every display gate, and `tracking-links` performs a real write against the Impact account. All four require the shared bearer token — `Authorization: Bearer <token>` or an `x-ttc-impact-token` header — matched against the `IMPACT_DIAGNOSTICS_TOKEN` Pages secret. They fail closed:
+
+- An absent or wrong token returns `404 {"status":"not_found"}`, the same answer an unrouted path gives, so the routes do not advertise themselves.
+- An **unset** `IMPACT_DIAGNOSTICS_TOKEN` keeps them closed. A missing secret must never mean "open to everyone".
+- The scheduled provider-sync and price-snapshot workflows reach `/api/impact/products` through `IMPACT_CATALOG_PROXY_URL`; they authenticate with the `IMPACT_CATALOG_PROXY_TOKEN` GitHub secret, which must hold the same value as `IMPACT_DIAGNOSTICS_TOKEN`. If the two drift, catalog reads return 404 and the sync reports a failed run rather than writing anything.
+
 **Missing credentials behaviour:**
-- `/api/impact/*` returns a safe `missing_credentials` response
+- `/api/impact/*` returns a safe `missing_credentials` response to an authorized caller (an unauthorized one gets the 404 above)
 - `/api/out` returns diagnostic JSON for Impact affiliate providers when tracking is unavailable; it never emits an untracked affiliate redirect. The three new providers additionally return `provider_not_configured` unless their provider-specific public flag is true. Plain Ticketmaster links remain direct because Ticketmaster is not an affiliate provider.
 
 ---

@@ -4,9 +4,11 @@ import {
   impactCatalogApiVersion,
   impactConfig,
   impactCredentialSet,
+  impactDiagnosticsAuthorized,
   json,
   missingCredentialsPayload,
-  readImpactResponse
+  readImpactResponse,
+  unauthorizedPayload
 } from "./_utils.js";
 
 const PRODUCT_TEXT_FIELDS = [
@@ -58,6 +60,8 @@ function safeProduct(product) {
 }
 
 export async function onRequestGet({ request, env }) {
+  if (!impactDiagnosticsAuthorized(request, env)) return unauthorizedPayload();
+
   const url = new URL(request.url);
   const credentialSet = impactCredentialSet(url.searchParams.get("credentialSet"));
   const config = impactConfig(env, credentialSet);

@@ -47,6 +47,9 @@ jobs:
     timeout-minutes: 15
     env:
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
+      # /api/impact/products is authenticated; this must match the
+      # IMPACT_DIAGNOSTICS_TOKEN secret set on the Cloudflare Pages runtime.
+      IMPACT_CATALOG_PROXY_TOKEN: ${{ secrets.IMPACT_CATALOG_PROXY_TOKEN }}
       IMPACT_CATALOG_CREDENTIAL_SET: seatgeek
       IMPACT_CATALOG_API_VERSION: '16'
       IMPACT_TICKETNETWORK_ACCOUNT_SID: ${{ secrets.IMPACT_TICKETNETWORK_ACCOUNT_SID }}

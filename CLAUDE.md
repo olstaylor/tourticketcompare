@@ -125,6 +125,7 @@ Non-secret configuration (feature flags such as `SCHEMA_OFFERS_ENABLED`, and oth
 - `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` — network-level Impact fallback (server-side only).
 - `IMPACT_SEATGEEK_*` / `IMPACT_VIVIDSEATS_*` — provider-specific Impact credentials for their approved lanes.
 - `IMPACT_TICKETNETWORK_*`, `IMPACT_TICKETLIQUIDATOR_*`, `IMPACT_STUBHUB_INTERNATIONAL_*` — optional provider-specific overrides; any approved fallback and campaign/catalog IDs are server-side configuration.
+- `IMPACT_DIAGNOSTICS_TOKEN` — required bearer token for every `/api/impact/*` route. Those routes spend the publisher credentials on the caller's behalf (catalog reads proxy provider price/inventory data; `tracking-links` writes to the Impact account), so they fail closed: an absent, wrong, or unconfigured token returns 404. The scheduled catalog-proxy workflows send the same value as the `IMPACT_CATALOG_PROXY_TOKEN` GitHub secret — the two must match or catalog reads 404.
 - Provider `*_PUBLIC_ENABLED` and `*_PRICE_DISPLAY_ENABLED` flags — independent kill switches. A flag never substitutes for provider rights, exact-event provenance, approved source, URL validation, or freshness.
 - Confirm current activation through `/api/health`, fail-closed redirect tests, workflow YAML, and `PROJECT_STATUS.md`; do not infer it from secret names in the repository.
 

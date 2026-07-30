@@ -1824,21 +1824,58 @@ assert(fallbackHealthJson.bindings.impactTicketNetworkConfigured === true, "Tick
 assert(fallbackHealthJson.bindings.impactTicketLiquidatorConfigured === true, "Ticket Liquidator health should recognize the verified SeatGeek-scoped credential fallback");
 assert(fallbackHealthJson.bindings.impactStubHubInternationalConfigured === true, "StubHub International health should recognize the verified SeatGeek-scoped credential fallback");
 
-const impactHealth = await impactHealthModule.onRequestGet({ env });
+// /api/impact/* spends the site's Impact publisher credentials — the catalog
+// routes proxy provider price/inventory data and tracking-links writes to the
+// account — so all of them must be unreachable without the shared diagnostics
+// token, and must stay closed when the token is not configured at all.
+const IMPACT_DIAGNOSTICS_TOKEN = "impact-diagnostics-smoke-token";
+const impactAuthorizedEnv = { ...env, IMPACT_DIAGNOSTICS_TOKEN };
+const impactAuthHeader = { Authorization: `Bearer ${IMPACT_DIAGNOSTICS_TOKEN}` };
+const trackingLinkBody = JSON.stringify({ confirmCreate: true, programId: "123" });
+
+const unauthenticatedHealth = await impactHealthModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/impact/health"),
+  env: impactAuthorizedEnv
+});
+assert(unauthenticatedHealth.status === 404, "/api/impact/health must 404 without the diagnostics token");
+const unconfiguredHealth = await impactHealthModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/impact/health", { headers: impactAuthHeader }),
+  env
+});
+assert(unconfiguredHealth.status === 404, "/api/impact/health must stay closed when no diagnostics token is configured");
+const unauthenticatedProducts = await impactProductsModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
+  env: impactAuthorizedEnv
+});
+assert(unauthenticatedProducts.status === 404, "/api/impact/products must 404 without the diagnostics token");
+const unauthenticatedTracking = await impactTrackingModule.onRequestPost({
+  request: new Request("https://tourticketcompare.com/api/impact/tracking-links", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: trackingLinkBody
+  }),
+  env: impactAuthorizedEnv
+});
+assert(unauthenticatedTracking.status === 404, "/api/impact/tracking-links must 404 without the diagnostics token — it writes to the Impact account");
+
+const impactHealth = await impactHealthModule.onRequestGet({
+  request: new Request("https://tourticketcompare.com/api/impact/health", { headers: impactAuthHeader }),
+  env: impactAuthorizedEnv
+});
 assert(impactHealth.status === 200, "/api/impact/health should fail safely without credentials");
 const impactProducts = await impactProductsModule.onRequestGet({
-  request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
-  env
+  request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket", { headers: impactAuthHeader }),
+  env: impactAuthorizedEnv
 });
 const impactProductsJson = await impactProducts.json();
 assert(impactProducts.status === 200 && impactProductsJson.status === "missing_credentials", "/api/impact/products should fail safely without credentials");
 const impactTracking = await impactTrackingModule.onRequestPost({
   request: new Request("https://tourticketcompare.com/api/impact/tracking-links", {
     method: "POST",
-    headers: { "content-type": "application/json" },
-    body: JSON.stringify({ confirmCreate: true, programId: "123" })
+    headers: { "content-type": "application/json", ...impactAuthHeader },
+    body: trackingLinkBody
   }),
-  env
+  env: impactAuthorizedEnv
 });
 const impactTrackingJson = await impactTracking.json();
 assert(impactTracking.status === 200 && impactTrackingJson.status === "missing_credentials", "/api/impact/tracking-links should fail safely without credentials");

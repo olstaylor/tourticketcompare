@@ -13,6 +13,45 @@ export function json(payload, status = 200) {
   });
 }
 
+// Every /api/impact/* route spends the site's Impact publisher credentials on
+// behalf of the caller: the catalog readers proxy provider price and inventory
+// data, and tracking-links performs a real write against the account. They are
+// operator diagnostics plus the catalog proxy used by the scheduled provider
+// sync — never a public surface — so all four fail closed behind a shared
+// bearer token. With IMPACT_DIAGNOSTICS_TOKEN unset the routes stay off; that
+// is deliberate, because an unset secret must not mean "open to everyone".
+const IMPACT_DIAGNOSTICS_TOKEN_HEADER = "x-ttc-impact-token";
+
+// Length is compared first (as in the internal tag-test route in
+// functions/[[path]].js); the remaining comparison is constant time so a wrong
+// token cannot be recovered byte by byte from response timing.
+function tokenMatches(provided, expected) {
+  const a = String(provided || "");
+  const b = String(expected || "");
+  if (!a || !b || a.length !== b.length) return false;
+  let mismatch = 0;
+  for (let i = 0; i < a.length; i++) mismatch |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return mismatch === 0;
+}
+
+export function impactDiagnosticsAuthorized(request, env = {}) {
+  const expected = clean(env?.IMPACT_DIAGNOSTICS_TOKEN, 400);
+  if (!expected) return false;
+  const authorization = clean(request?.headers?.get?.("authorization"), 500);
+  const bearer = /^Bearer\s+(\S+)$/i.exec(authorization);
+  const provided = bearer
+    ? bearer[1]
+    : clean(request?.headers?.get?.(IMPACT_DIAGNOSTICS_TOKEN_HEADER), 400);
+  return tokenMatches(provided, expected);
+}
+
+// Answer an unauthorized caller exactly as an unrouted path would, so these
+// endpoints do not advertise their own existence. Mirrors the internal
+// impact-tag-test route, which falls through to the standard 404.
+export function unauthorizedPayload() {
+  return json({ ok: false, status: "not_found" }, 404);
+}
+
 export function impactCredentialSet(value) {
   const requested = clean(value, 40).toLowerCase();
   return IMPACT_CREDENTIAL_SETS.has(requested) ? requested : "shared";

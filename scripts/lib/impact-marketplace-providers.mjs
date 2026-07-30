@@ -120,6 +120,27 @@ function catalogItemsUrl(config, artistName, page, env = process.env, pageSize =
   return `${base}/Mediapartners/${encodeURIComponent(accountSid)}/${resource}?${params.toString()}`;
 }
 
+// Request headers for a catalog read. Direct Impact API calls authenticate with
+// the publisher Basic credentials; proxied calls go through
+// /api/impact/products, which holds those credentials server-side and now
+// requires the shared bearer token (IMPACT_CATALOG_PROXY_TOKEN here,
+// IMPACT_DIAGNOSTICS_TOKEN on the Pages runtime). Proxy mode never forwards the
+// Basic header — the proxy would ignore it, and the token is the credential
+// that route checks.
+function catalogRequestHeaders(config, env = process.env) {
+  const { accountSid, authToken, proxyUrl } = impactCredentials(config, env);
+  const headers = { Accept: "application/json" };
+  if (proxyUrl) {
+    const proxyToken = clean(env.IMPACT_CATALOG_PROXY_TOKEN, 400);
+    if (proxyToken) headers.Authorization = `Bearer ${proxyToken}`;
+    return headers;
+  }
+  if (accountSid && authToken) {
+    headers.Authorization = `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`;
+  }
+  return headers;
+}
+
 function catalogItems(payload) {
   if (Array.isArray(payload)) return payload;
   for (const key of ["Items", "Results", "CatalogItems", "Products", "products"]) {
@@ -197,6 +218,7 @@ export {
   catalogItemMatchesProgram,
   catalogItems,
   catalogItemsUrl,
+  catalogRequestHeaders,
   clean,
   hostnameAllowed,
   impactCredentials,

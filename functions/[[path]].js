@@ -9,7 +9,7 @@ import {
   fitTitleToBudget,
   withoutParentheticalQualifier
 } from "./_route-metadata.js";
-import { attachApprovedMarketplacePrices } from "./api/shows.js";
+import { attachApprovedMarketplacePrices, MIN_PLAUSIBLE_LISTED_PRICE } from "./api/shows.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 import { deriveVenues, findVenue } from "./_venues.js";
 import { deriveCities, findCity, normalizeCountry } from "./_cities.js";
@@ -77,6 +77,18 @@ function escapeAttr(value) {
 
 function escapeHtml(value) {
   return escapeAttr(value).replace(/'/g, "&#39;");
+}
+
+// String.prototype.replace expands $&, $`, $' and $$ inside a *string*
+// replacement argument. escapeAttr/escapeHtml emit entities that start with
+// "&", so any "$" in source data sitting directly before an escaped character
+// ("$'" -> "$&#39;", "$&" -> "$&amp;") produces a literal "$&" in the
+// replacement, which splices the entire matched block back into the output and
+// corrupts the page. event_name and tour_name are auto-committed nightly from
+// Ticketmaster Discovery, so this input is not review-gated. A function
+// replacement is never pattern-expanded — use this for every injection below.
+function replaceWithLiteral(html, pattern, replacement) {
+  return html.replace(pattern, () => replacement);
 }
 
 function slugify(value) {
@@ -1723,7 +1735,6 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
 }
 
 function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Set(), seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {}) {
-  const venueRuns = venueRunIndex(venue.shows);
   const eventsById = new Map(
     (Array.isArray(events) ? events : [])
       .filter((event) => event && event.id)
@@ -1731,23 +1742,33 @@ function renderVenueShowGroups(venue, events = [], indexableArtistSlugs = new Se
   );
   return venueShowsByArtist(venue)
     .map((group) => {
-      const cards = group.shows
+      // Re-enrich from the source event records first: the aggregated rows from
+      // _venues.js carry neither venue/city nor dateTimeISO, so venueRunIndex
+      // must run on the enriched shows to see anything at all. Scope it to this
+      // artist's shows — "Show X of Y at this venue" describes one artist's
+      // multi-night run, and a venue page aggregates several artists at the same
+      // venue, which would otherwise be counted as a single run. Mirrors
+      // public/app.js, which only builds venueRuns for an artist-filtered board.
+      const fullShows = group.shows
         .map((show) => {
           const sourceEvent = eventsById.get(show.id);
-          const fullShow = sourceEvent ? futureShowsForArtist([sourceEvent], group.slug, 1)[0] : null;
-          return fullShow
-            ? renderShowCardServerHtml(
-                fullShow,
-                seatGeekAvailable,
-                indexableArtistSlugs.has(group.slug),
-                vividSeatsAvailable,
-                group.name,
-                marketplaceAvailability,
-                group.slug,
-                venueRuns
-              )
-            : "";
+          return sourceEvent ? futureShowsForArtist([sourceEvent], group.slug, 1)[0] : null;
         })
+        .filter(Boolean);
+      const venueRuns = venueRunIndex(fullShows);
+      const cards = fullShows
+        .map((fullShow) =>
+          renderShowCardServerHtml(
+            fullShow,
+            seatGeekAvailable,
+            indexableArtistSlugs.has(group.slug),
+            vividSeatsAvailable,
+            group.name,
+            marketplaceAvailability,
+            group.slug,
+            venueRuns
+          )
+        )
         .join("");
       return `<article class="nested-panel"><h3>${anchor(
         `${group.name} at ${venue.venue}`,
@@ -2505,7 +2526,13 @@ function approvedServerPriceLane(show, provider) {
   const currency = String(lane.currency || "").trim().toUpperCase();
   const fetchedAt = String(lane.fetchedAt || "").trim();
   const expiresAt = String(lane.expiresAt || "").trim();
-  if (!Number.isFinite(price) || price < 0 || !/^[A-Z]{3}$/.test(currency)) return null;
+  // Same sanity floor as approvedCachedPriceFromRow in functions/api/shows.js:
+  // a listed price below it is a provider catalog artefact (booking fee, parking
+  // or merch SKU, placeholder), not a ticket price. shows.js applies the floor
+  // when it builds show.prices, so this is the second line of the same gate —
+  // but it is the only gate on the server-rendered badge and the JSON-LD Offer
+  // nodes, so it must not be laxer than the one it mirrors.
+  if (!Number.isFinite(price) || price < MIN_PLAUSIBLE_LISTED_PRICE || !/^[A-Z]{3}$/.test(currency)) return null;
   if (!Number.isFinite(Date.parse(fetchedAt)) || !Number.isFinite(Date.parse(expiresAt)) || Date.parse(expiresAt) <= Date.now()) return null;
   return { price, currency, fetchedAt, expiresAt };
 }
@@ -2568,8 +2595,8 @@ function venueRunIndex(shows) {
   const sorted = [...shows]
     .filter((show) => show?.id)
     .sort((a, b) => {
-      const ta = Date.parse(a.dateTimeISO || "");
-      const tb = Date.parse(b.dateTimeISO || "");
+      const ta = Date.parse(a.dateTimeISO || a.datetime_iso || "");
+      const tb = Date.parse(b.dateTimeISO || b.datetime_iso || "");
       return (Number.isFinite(ta) ? ta : 0) - (Number.isFinite(tb) ? tb : 0);
     });
   for (const show of sorted) {
@@ -3202,57 +3229,69 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   const robots =
     route.indexable && hostIndexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
-  next = next.replace(/<title>[^<]*<\/title>/i, `<title>${escapeAttr(route.title)}</title>`);
-  next = next.replace(
+  next = replaceWithLiteral(next, /<title>[^<]*<\/title>/i, `<title>${escapeAttr(route.title)}</title>`);
+  next = replaceWithLiteral(
+    next,
     /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
     `<meta name="description" content="${escapeAttr(route.description)}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<meta\s+name="robots"\s+content="[^"]*"\s*\/?>/i,
     `<meta name="robots" content="${robots}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/i,
     `<meta property="og:title" content="${escapeAttr(route.title)}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/i,
     `<meta property="og:description" content="${escapeAttr(route.description)}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i,
     `<meta property="og:url" content="${escapeAttr(canonicalUrl)}" />`
   );
   const ogImageUrl = `${origin}/og-image.png`;
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i,
     `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/i,
     `<meta name="twitter:image" content="${escapeAttr(ogImageUrl)}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/i,
     `<meta name="twitter:title" content="${escapeAttr(route.title)}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/i,
     `<meta name="twitter:description" content="${escapeAttr(route.description)}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i,
     `<link rel="canonical" href="${escapeAttr(canonicalUrl)}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<meta\s+property="og:type"\s+content="[^"]*"\s*\/?>/i,
     `<meta property="og:type" content="${route.type === "guide" ? "article" : "website"}" />`
   );
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
     `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
   );
-  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
+  next = replaceWithLiteral(next, /<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
   if (route.path === "/") {
     // Homepage-only progressive enhancement: ttc-home.js hydrates the #ttc-main
     // mount with the full redesigned homepage. Same-origin, so it satisfies the
@@ -3467,7 +3506,8 @@ function renderNotFoundHtml(html, pathname, origin) {
     indexable: false
   };
   let next = injectRoute(html, route, origin, { artists: [], ticket_links: [], providers: [] });
-  next = next.replace(
+  next = replaceWithLiteral(
+    next,
     /<main\s+id="mainContent">[\s\S]*?<\/main>/i,
     `<main id="mainContent"><section class="content-page" aria-labelledby="notFoundTitle"><h1 id="notFoundTitle">Page not found</h1><p>We could not find that page. Use the artist index, buying guides, or homepage to find current public pages.</p><div class="action-row">${anchor(
       "Compare concert ticket prices",

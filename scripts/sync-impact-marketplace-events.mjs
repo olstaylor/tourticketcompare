@@ -8,6 +8,7 @@ import {
   PROVIDERS,
   catalogItems,
   catalogItemsUrl,
+  catalogRequestHeaders,
   clean,
   impactCredentials,
   normalizeProviderUrl,
@@ -199,10 +200,8 @@ function applyOutcome(event, config, outcome, today) {
 }
 
 async function fetchCatalog(config, artistName, options, state, env = process.env, fetchImpl = globalThis.fetch) {
-  const { accountSid, authToken, programId } = impactCredentials(config, env);
-  const authorization = accountSid && authToken
-    ? `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
-    : "";
+  const { programId } = impactCredentials(config, env);
+  const headers = catalogRequestHeaders(config, env);
   const candidates = [];
   for (let page = 1; page <= MAX_PAGES; page += 1) {
     if (options.maxApiCalls != null && state.apiCalls >= options.maxApiCalls) return { candidates, complete: false, stopReason: "api_call_limit" };
@@ -213,7 +212,7 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     let response;
     try {
       response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
-        headers: { Accept: "application/json", ...(authorization ? { Authorization: authorization } : {}) },
+        headers,
         signal: controller.signal
       });
     } catch (error) {
@@ -344,6 +343,20 @@ async function selfTest() {
   assert.equal(new URL(proxySearchUrl).searchParams.get("catalogId"), "896");
   assert.equal(new URL(proxySearchUrl).searchParams.get("campaignId"), "2322");
   assert.equal(new URL(proxySearchUrl).searchParams.get("page"), "2");
+  // /api/impact/products is token-gated, so a proxied run must present the
+  // bearer token and must not fall back to the publisher Basic header (the
+  // proxy holds those credentials itself and checks the token instead).
+  const proxyEnv = { IMPACT_CATALOG_PROXY_URL: "https://tourticketcompare.com/api/impact/products", IMPACT_CATALOG_PROXY_TOKEN: "proxy-token" };
+  assert.equal(catalogRequestHeaders(config, proxyEnv).Authorization, "Bearer proxy-token");
+  assert.equal(
+    catalogRequestHeaders(config, { ...proxyEnv, IMPACT_SEATGEEK_ACCOUNT_SID: "sid", IMPACT_SEATGEEK_AUTH_TOKEN: "token" }).Authorization,
+    "Bearer proxy-token"
+  );
+  assert.equal(catalogRequestHeaders(config, { ...proxyEnv, IMPACT_CATALOG_PROXY_TOKEN: "" }).Authorization, undefined);
+  assert.match(
+    catalogRequestHeaders(config, { IMPACT_SEATGEEK_ACCOUNT_SID: "sid", IMPACT_SEATGEEK_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "123" }).Authorization,
+    /^Basic /
+  );
   const event = { id: "e1", artist_slug: "raye", datetime_iso: "2027-07-09T19:00:00", timezone: "Europe/London", city: "London", venue: "O2 Arena", provider_links: {} };
   assert.equal(dateMatches("2027-07-09T20:00:00+01:00", { year: 2027, month: 7, day: 9 }), true);
   assert.equal(evaluateCandidate(event, "RAYE", candidate).ok, true);
@@ -366,7 +379,7 @@ async function selfTest() {
   });
   assert.equal(dry.added, 1);
   assert.equal(dry.changed, 0);
-  return 27;
+  return 31;
 }
 
 async function main() {

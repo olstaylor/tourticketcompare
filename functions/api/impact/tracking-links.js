@@ -1,4 +1,12 @@
-import { basicAuthHeader, clean, impactConfig, json, missingCredentialsPayload } from "./_utils.js";
+import {
+  basicAuthHeader,
+  clean,
+  impactConfig,
+  impactDiagnosticsAuthorized,
+  json,
+  missingCredentialsPayload,
+  unauthorizedPayload
+} from "./_utils.js";
 
 async function readJson(request) {
   try {
@@ -21,6 +29,8 @@ function validDeepLink(value) {
 }
 
 export async function onRequestPost({ request, env }) {
+  if (!impactDiagnosticsAuthorized(request, env)) return unauthorizedPayload();
+
   const config = impactConfig(env);
   if (!config.configured) return json(missingCredentialsPayload("impact-tracking-links"));
 

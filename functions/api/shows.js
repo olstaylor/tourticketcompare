@@ -750,6 +750,25 @@ function getAffiliateUrl(show, provider) {
 
 const SEATGEEK_APPROVED_PRICE_SOURCE = "seatgeek_partner_api";
 const VIVIDSEATS_APPROVED_PRICE_SOURCE = "vividseats_impact_marketplace_api";
+// Fail-closed sanity floor on a displayed listed price. The gate previously
+// accepted any finite low_price >= 0, so a provider catalog artefact — a
+// booking-fee row, a parking or merch SKU, a placeholder — published as if it
+// were a ticket price. It surfaced live as a $3.80 StubHub International badge
+// on JAY-Z at Tottenham Hotspur Stadium, sat next to a $211.82 Vivid Seats
+// badge on the same card, and held at exactly 3.80 for 32 consecutive
+// snapshots over 8 days while Vivid Seats moved 200.49 -> 211.82.
+//
+// This suppresses; it never substitutes a value. No listed price for a seat at
+// a major-tour concert is plausibly under this floor, so a row below it is
+// evidence the lane matched something that is not a ticket. Deliberately
+// conservative: of the 29 StubHub International badges live when this was
+// added, it withholds exactly one (3.80) and leaves a median of 100.75 and a
+// maximum of 558.00 untouched.
+//
+// Applied to the numeric low_price without conversion. Every approved numeric
+// lane reports USD today; a lane reporting a minor unit or a much weaker
+// currency would need a per-currency floor before it could be trusted here.
+export const MIN_PLAUSIBLE_LISTED_PRICE = 10;
 // Approved provider price-snapshot sources keyed by public provider name.
 // decorateProviderResult only marks a lane "ok" when the cached row's source
 // matches the provider's approved source here.
@@ -831,15 +850,16 @@ async function fetchProviderPriceTrend(db, showId, provider, source) {
 
 // Shared row → price-result validation for the approved cached marketplace
 // lanes. Returns null unless the D1 row carries the approved source, a finite
-// non-negative low price, a currency, a valid verified_at timestamp, and an
-// unexpired expires_at — the same freshness gate in single-show and bulk mode.
+// low price at or above MIN_PLAUSIBLE_LISTED_PRICE, a currency, a valid
+// verified_at timestamp, and an unexpired expires_at — the same freshness gate
+// in single-show and bulk mode.
 function approvedCachedPriceFromRow(provider, approvedSource, show, row) {
   const normalizedProvider = providerKey(provider);
   if (!providerPriceEventVerified(show, normalizedProvider)) return null;
   if (!row || typeof row !== "object" || row.source !== approvedSource) return null;
 
   const lowPrice = Number(row.low_price);
-  if (!Number.isFinite(lowPrice) || lowPrice < 0) return null;
+  if (!Number.isFinite(lowPrice) || lowPrice < MIN_PLAUSIBLE_LISTED_PRICE) return null;
 
   const currency = String(row.currency || "").trim();
   if (!currency) return null;

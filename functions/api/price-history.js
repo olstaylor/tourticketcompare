@@ -2,7 +2,8 @@ import {
   loadEventsFromAssets,
   mapEventsToShows,
   attachApprovedMarketplacePrices,
-  APPROVED_MARKETPLACE_PRICE_LANES
+  APPROVED_MARKETPLACE_PRICE_LANES,
+  MIN_PLAUSIBLE_LISTED_PRICE
 } from "./shows.js";
 
 // On-site per-event price history (Phase 1). Read-only consumer of the
@@ -60,7 +61,7 @@ function displayableLane(priceLane) {
   if (!priceLane || priceLane.status !== "ok" || priceLane.providerStatus !== "ok") return null;
   if (typeof priceLane.source !== "string" || !priceLane.source) return null;
   const price = Number(priceLane.price);
-  if (!Number.isFinite(price) || price < 0) return null;
+  if (!Number.isFinite(price) || price < MIN_PLAUSIBLE_LISTED_PRICE) return null;
   const currency = String(priceLane.currency || "").trim().toUpperCase();
   if (!/^[A-Z]{3}$/.test(currency)) return null;
   const expiresAtMs = Date.parse(String(priceLane.expiresAt || ""));
@@ -89,7 +90,11 @@ async function fetchProviderSeries(db, eventId, dbKey, source, currency) {
   for (const row of rows) {
     const price = Number(row?.low_price);
     const observedAt = String(row?.observed_at || "").trim();
-    if (!Number.isFinite(price) || price < 0) continue;
+    // Same fail-closed sanity floor as the live badge. History is immutable and
+    // already carries pre-fix implausible rows (the JAY-Z / Tottenham StubHub
+    // International lane is 3.80 for every observation since 2026-07-22), so
+    // the floor has to be applied on read as well as on write.
+    if (!Number.isFinite(price) || price < MIN_PLAUSIBLE_LISTED_PRICE) continue;
     if (!Number.isFinite(Date.parse(observedAt))) continue;
     points.push({ price: Number(price.toFixed(2)), observedAt });
   }

@@ -120,8 +120,21 @@ async function fetchArtistCatalog(config, artistName, env = process.env, fetchIm
   }
 }
 
+// Write-side twin of MIN_PLAUSIBLE_LISTED_PRICE in functions/api/shows.js. The
+// display gate is the load-bearing one — it fails closed on rows already in
+// D1 — but without this the writer keeps refreshing implausible rows every
+// eight hours and the cache accumulates data no page can ever show. Keep the
+// two values in step; the reasoning is documented at the shows.js definition.
+const MIN_PLAUSIBLE_LISTED_PRICE = 10;
+
 function exactPrice(candidates, externalId) {
-  const matches = candidates.filter((candidate) => candidate.externalId === externalId && candidate.price != null && candidate.currency);
+  const matches = candidates.filter(
+    (candidate) =>
+      candidate.externalId === externalId &&
+      candidate.price != null &&
+      candidate.price >= MIN_PLAUSIBLE_LISTED_PRICE &&
+      candidate.currency
+  );
   const distinct = new Map(matches.map((candidate) => [`${candidate.currency}:${candidate.price}`, candidate]));
   if (distinct.size !== 1) return null;
   return [...distinct.values()][0];
@@ -211,6 +224,16 @@ async function selfTest() {
   assert.equal(selectEligible(events, [], config, { eventId: "", limit: null }, new Date("2026-07-13T00:00:00Z")).length, 1);
   assert.equal(exactPrice([candidate], "tl-1")?.price, 60);
   assert.equal(exactPrice([{ ...candidate, price: 60 }, { ...candidate, price: 61 }], "tl-1"), null);
+  // Sanity floor: a catalog row below MIN_PLAUSIBLE_LISTED_PRICE is a fee /
+  // parking / placeholder artefact, not a ticket price. 3.80 is the real
+  // StubHub International value that reached production on the JAY-Z
+  // Tottenham Hotspur Stadium event.
+  assert.equal(exactPrice([{ ...candidate, price: 3.8 }], "tl-1"), null);
+  assert.equal(exactPrice([{ ...candidate, price: 0 }], "tl-1"), null);
+  assert.equal(exactPrice([{ ...candidate, price: MIN_PLAUSIBLE_LISTED_PRICE }], "tl-1")?.price, MIN_PLAUSIBLE_LISTED_PRICE);
+  // A rejected low row must not silently promote a different-priced sibling
+  // into the "exactly one distinct price" slot.
+  assert.equal(exactPrice([{ ...candidate, price: 3.8 }, { ...candidate, price: 60 }], "tl-1")?.price, 60);
   const summary = await run({ provider: "ticket-liquidator", apply: false, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
     data: [events, []], now: new Date("2026-07-13T00:00:00Z"),
     async fetchArtistCatalog() { return { ok: true, candidates: [candidate] }; }
@@ -222,7 +245,7 @@ async function selfTest() {
   assert.match(sql, /INSERT OR IGNORE INTO provider_pricing_history/);
   assert.match(sql, new RegExp(`'${config.slug}:e1:2026-07-13T00:00:00\\.000Z'`));
   assert.doesNotMatch(sql, /(DELETE|UPDATE)[^;]*provider_pricing_history/i);
-  return 9;
+  return 14;
 }
 
 async function main() {

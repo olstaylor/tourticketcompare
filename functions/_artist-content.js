@@ -32,6 +32,9 @@
  * @property {number} cityCount     Number of distinct cities on the tour.
  * @property {string} startISO      Earliest upcoming show datetime (ISO).
  * @property {string} endISO        Latest upcoming show datetime (ISO).
+ * @property {string} startTimezone IANA zone of the earliest show, for rendering
+ *                                  startISO at the venue rather than in UTC.
+ * @property {string} endTimezone   IANA zone of the latest show.
  * @property {string[]} sampleCities Up to four distinct cities, in date order.
  */
 
@@ -86,7 +89,7 @@ export function deriveTourSummaries(shows) {
     const iso = String(show.dateTimeISO || "").trim();
     if (!name || !iso || !Number.isFinite(Date.parse(iso))) continue;
     if (!groups.has(name)) groups.set(name, []);
-    groups.get(name).push({ city: String(show.city || "").trim(), iso });
+    groups.get(name).push({ city: String(show.city || "").trim(), iso, timezone: String(show.timezone || "").trim() });
   }
 
   const summaries = [];
@@ -102,6 +105,8 @@ export function deriveTourSummaries(shows) {
       cityCount: cities.length,
       startISO: entries[0].iso,
       endISO: entries[entries.length - 1].iso,
+      startTimezone: entries[0].timezone,
+      endTimezone: entries[entries.length - 1].timezone,
       sampleCities: cities.slice(0, 4)
     });
   }

@@ -208,12 +208,39 @@ def resolve_ticketmaster_url(raw_url):
 
 
 def storefront_event_id_from_url(parsed_url):
+    """Identifying storefront id from a Ticketmaster event URL.
+
+    Two storefront URL shapes exist and the id sits in a different place:
+
+      North America  /jayz-30-bronx-new-york-07-10-2026/event/1D006473D78CFDB8
+                     -> the segment after /event/ IS the id.
+      International  /event/gracie-abrams-the-look-at-my-life-tour-tickets/656488658
+                     (ticketmaster.de/.nl/.es/.be/...) -> the segment after
+                     /event/ is an event-NAME slug shared by every date on the
+                     tour; the identifying id is the trailing number.
+
+    Taking the segment after /event/ unconditionally gave all nine Gracie Abrams
+    continental-European dates the same id, and all six Niall Horan ones. Since
+    showIdentity/mergeShows key on ticketmaster_event_id, those distinct dates
+    collapsed into a single show.
+    """
     if not parsed_url:
         return ""
     path_parts = [urllib.parse.unquote(part) for part in (parsed_url.path or "").split("/") if part]
     for idx, part in enumerate(path_parts[:-1]):
-        if part.lower() == "event" and path_parts[idx + 1].strip():
-            return path_parts[idx + 1].strip()
+        if part.lower() != "event":
+            continue
+        candidate = path_parts[idx + 1].strip()
+        if not candidate:
+            continue
+        # A non-numeric segment followed by a purely numeric one is the
+        # international <slug>/<numeric-id> shape. North American ids are
+        # alphanumeric and carry no trailing numeric segment.
+        if not candidate.isdigit() and idx + 2 < len(path_parts):
+            trailing = path_parts[idx + 2].strip()
+            if trailing.isdigit():
+                return trailing
+        return candidate
     return ""
 
 
@@ -773,6 +800,35 @@ def self_test():
         and wrapped_ok["resolved_url_host"] == "www.ticketmaster.com"
         and wrapped_ok["url_resolution_status"] == "wrapper_resolved"
         and wrapped_ok["ticketmaster_event_id"] == "VV001",
+    )
+    # International storefronts put the identifying id in the LAST path segment:
+    # /event/<event-name-slug>/<numeric-id>. Taking the segment after /event/
+    # gave every date on a tour the same id (9 Gracie Abrams + 6 Niall Horan
+    # rows collided), and showIdentity/mergeShows then collapsed them into one
+    # show. Regression 2026-07-30.
+    def _sid(u):
+        return storefront_event_id_from_url(urllib.parse.urlparse(u))
+
+    check(
+        "north american /<slug>/event/<ID> keeps the segment after /event/",
+        _sid("https://www.ticketmaster.com/jayz-30-bronx-07-10-2026/event/1D006473D78CFDB8") == "1D006473D78CFDB8",
+    )
+    check(
+        "international /event/<slug>/<numeric-id> uses the trailing number",
+        _sid("https://www.ticketmaster.nl/event/niall-horan-dinner-party-live-on-tour-tickets/17511398") == "17511398",
+    )
+    check(
+        "two dates sharing an international slug get distinct ids",
+        _sid("https://www.ticketmaster.be/event/gracie-abrams-the-look-at-my-life-tour-tickets/656488658")
+        != _sid("https://www.ticketmaster.be/event/gracie-abrams-the-look-at-my-life-tour-tickets/574814255"),
+    )
+    check(
+        "short-form /event/<ID> with no trailing segment is unchanged",
+        _sid("https://www.ticketmaster.com/event/1D006473D78CFDB8") == "1D006473D78CFDB8",
+    )
+    check(
+        "a trailing NON-numeric segment never displaces the id",
+        _sid("https://www.ticketmaster.com/event/1D006473D78CFDB8/tickets") == "1D006473D78CFDB8",
     )
     check(
         "affiliate wrapper with no u= destination withheld",

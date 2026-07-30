@@ -72,12 +72,31 @@ function buildBody(coverage, indexedSlugs) {
   const skipped = (coverage.artists || []).filter((a) => a.status === "skipped");
   const proposed = (coverage.artists || []).filter((a) => a.status === "proposed");
   const noNew = (coverage.artists || []).filter((a) => a.status === "no-new");
-  const hasProblem = uncovered.length > 0 || skipped.length > 0;
+  let hasProblem = uncovered.length > 0 || skipped.length > 0;
 
   const t = coverage.totals || {};
-  const status = hasProblem
-    ? `🔴 **${uncovered.length + skipped.length} artist(s) not covered**`
-    : `🟢 **All ${indexedSlugs.length} indexed artists checked**`;
+
+  // A write-pr run that recognised new shows but produced no PR discarded them.
+  // The job fails AFTER coverage.json is written (the in-run validation suite
+  // runs on the proposed content), so coverage looks perfectly healthy and the
+  // heartbeat reported 🟢 while the batch evaporated. That is exactly what
+  // happened on 2026-07-30: 183 newly discovered events — including a JAY-Z
+  // London date already on sale — were discarded by a title-budget failure, the
+  // issue stayed green, and nobody noticed until a visitor asked why the show
+  // was missing. Coverage alone cannot see this; delivery has to be checked too.
+  //
+  // Only meaningful for write-pr runs: a preview run is SUPPOSED to propose
+  // rows and write nothing. (The local --no-pr escape hatch also reports
+  // mode "write-pr" with no PR, but the workflow never uses it.)
+  const proposedEvents = Number(t.proposed_events) || 0;
+  const undelivered = coverage.mode === "write-pr" && proposedEvents > 0 && !coverage.pr;
+  hasProblem = hasProblem || undelivered;
+
+  const status = undelivered
+    ? `🔴 **${proposedEvents} proposed event(s) were not delivered**`
+    : hasProblem
+      ? `🔴 **${uncovered.length + skipped.length} artist(s) not covered**`
+      : `🟢 **All ${indexedSlugs.length} indexed artists checked**`;
 
   let body = `<!-- tm-discovery-coverage -->\n`;
   body += `**Last run:** \`${coverage.generated_at || generated}\` (mode: \`${coverage.mode || "?"}\`)\n`;
@@ -86,8 +105,10 @@ function buildBody(coverage, indexedSlugs) {
 
   if (coverage.pr) {
     body += `**Proposed-events PR:** [#${coverage.pr.number}](${coverage.pr.url})\n\n`;
-  } else if ((t.proposed_events || 0) > 0) {
-    body += `**Proposed events:** ${t.proposed_events} (see the open \`automation:tm-events\` PR)\n\n`;
+  } else if (undelivered) {
+    body += `**Proposed events:** ${proposedEvents} — **no PR was opened, so these were discarded.** The run recognised them and then failed before delivery; check the latest [Ticketmaster new shows PR run](../actions/workflows/tm-new-shows-pr.yml). They will be re-proposed on the next run only if the underlying failure is fixed.\n\n`;
+  } else if (proposedEvents > 0) {
+    body += `**Proposed events:** ${proposedEvents} (see the open \`automation:tm-events\` PR)\n\n`;
   }
 
   body += `- ✅ Checked with new shows: **${proposed.length}**\n`;
@@ -170,6 +191,41 @@ function runSelfTest() {
 
   const none = buildBody(null, roster);
   assert("missing coverage is a problem", none.hasProblem === true && none.body.includes("No coverage produced"));
+
+  // Delivery check. Regression 2026-07-30: a write-pr run recognised 183 new
+  // events, failed the in-run validation suite AFTER writing coverage.json, and
+  // discarded the batch — while this issue reported all artists checked, green.
+  const fullRoster = [
+    { slug: "a", status: "proposed", proposed: 183, withheld: 0 },
+    { slug: "b", status: "no-new", proposed: 0, withheld: 0 },
+    { slug: "c", status: "no-new", proposed: 0, withheld: 0 },
+  ];
+  const undelivered = buildBody(
+    { generated_at: "t", mode: "write-pr", totals: { proposed_events: 183, withheld_events: 0 }, artists: fullRoster, pr: null },
+    roster
+  );
+  assert("write-pr run that proposed events but opened no PR is a problem", undelivered.hasProblem === true);
+  assert("undelivered status names the discarded count", undelivered.body.includes("183 proposed event(s) were not delivered"));
+  assert("undelivered body does not claim an open PR exists", !undelivered.body.includes("see the open"));
+  assert("undelivered body says they were discarded", undelivered.body.includes("no PR was opened, so these were discarded"));
+
+  // A preview run is SUPPOSED to propose rows and write nothing.
+  const preview = buildBody(
+    { generated_at: "t", mode: "preview", totals: { proposed_events: 183, withheld_events: 0 }, artists: fullRoster, pr: null },
+    roster
+  );
+  assert("preview run proposing rows with no PR is not a problem", preview.hasProblem === false);
+
+  // A quiet write-pr day proposes nothing and correctly opens no PR.
+  const quiet = buildBody(
+    { generated_at: "t", mode: "write-pr", totals: { proposed_events: 0, withheld_events: 375 }, artists: [
+      { slug: "a", status: "no-new", proposed: 0, withheld: 125 },
+      { slug: "b", status: "no-new", proposed: 0, withheld: 125 },
+      { slug: "c", status: "no-new", proposed: 0, withheld: 125 },
+    ], pr: null },
+    roster
+  );
+  assert("quiet write-pr day with no proposals and no PR stays green", quiet.hasProblem === false);
 
   let failed = 0;
   for (const c of checks) {

@@ -263,13 +263,29 @@ def provider_link_value(event: dict[str, Any], provider: str, field: str) -> Any
     return provider_data.get(field)
 
 def extract_ticketmaster_event_path_id(url: str) -> str | None:
+    """Identifying storefront id from a Ticketmaster event URL.
+
+    Mirrors storefront_event_id_from_url in scripts/sync-ticketmaster-events.py
+    — keep the two in step. North American URLs are /<slug>/event/<ID>;
+    international storefronts are /event/<event-name-slug>/<numeric-id>, where
+    the slug is shared by every date on the tour and only the trailing number
+    identifies the event.
+    """
     parsed = parse_url(url)
     if parsed is None:
         return None
     segments = [segment for segment in (parsed.path or "").split("/") if segment]
     for idx, segment in enumerate(segments[:-1]):
-        if segment.lower() == "event":
-            return unquote(segments[idx + 1]).strip() or None
+        if segment.lower() != "event":
+            continue
+        candidate = unquote(segments[idx + 1]).strip()
+        if not candidate:
+            continue
+        if not candidate.isdigit() and idx + 2 < len(segments):
+            trailing = unquote(segments[idx + 2]).strip()
+            if trailing.isdigit():
+                return trailing
+        return candidate
     return None
 
 

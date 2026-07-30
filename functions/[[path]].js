@@ -1073,11 +1073,10 @@ function artistCardStatus(catalog, artist, events) {
 }
 
 function formatCardDate(iso, timezone) {
-  if (!iso) return null;
-  const parsed = new Date(iso);
-  if (!Number.isFinite(parsed.getTime())) return null;
+  const parts = venueDateParts(iso, timezone);
+  if (!parts) return null;
   try {
-    return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: showTimeZone(iso, timezone) });
+    return parts.date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: parts.timeZone });
   } catch (error) {
     return null;
   }
@@ -2222,7 +2221,7 @@ function enrichEventAsShow(ev) {
     tour_name: String(ev.tour_name || "").trim(),
     dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
     // Required to render dateTimeISO at the venue rather than in UTC — see
-    // showTimeZone. Dropping it here is what silently sent every Z-suffixed
+    // venueDateParts. Dropping it here is what silently sent every Z-suffixed
     // date back to the UTC fallback.
     timezone: String(ev.timezone || "").trim(),
     city: String(ev.city || "").trim(),
@@ -2275,49 +2274,62 @@ function recentPastShowsForArtist(events, artistSlug, limit = 3) {
     .slice(0, limit);
 }
 
-// Which zone a show's date should be read in. Keep in sync with showTimeZone
-// in public/app.js.
+// Resolve a stored datetime to the venue's wall clock. Keep in sync with
+// venueDateParts in public/app.js.
 //
-// Two shapes live in datetime_iso and they are NOT interchangeable:
+// datetime_iso carries three shapes and each needs different handling:
 //
-//   "2026-07-10T20:00:00"   venue-local wall time. The text already spells out
-//                           the date the venue means, so formatting it in UTC
-//                           returns that date unchanged. Applying a zone here
-//                           would be wrong — it would re-interpret 20:00 as UTC
-//                           and shift it.
-//   "2026-10-24T03:00:00Z"  a true instant. Rendering this in UTC shows the UTC
-//                           calendar day, which for an evening show in the
-//                           Americas is the FOLLOWING day. This is the bug that
-//                           made /artists/jay-z advertise "Sat 24 Oct 2026" for
-//                           a SoFi Stadium show that happens Fri 23 Oct.
+//   "2026-07-10T20:00:00"        naive venue-local wall time. The venue's clock
+//                                is written literally in the text.
+//   "2026-11-19T19:00:00-05:00"  venue-local wall time WITH the offset, so the
+//                                exact instant is preserved for sorting and the
+//                                upcoming-show filter. The clock is still
+//                                written literally in the text.
+//   "2026-10-24T03:00:00Z"       a bare instant. The venue's clock is NOT in the
+//                                text and can only be recovered from `timezone`.
+//                                Rendering it in UTC shows the following day for
+//                                any evening show west of Greenwich — the bug
+//                                that had /artists/jay-z advertising
+//                                "Sat 24 Oct 2026" for a Friday 23 Oct show.
 //
-// So: resolve instants against the event's own timezone, and leave wall-time
-// strings alone. Rows carrying an instant but no timezone (47 of 544 at the
-// time of writing) keep the previous UTC behaviour — the fallback never guesses
-// a zone from city or country.
-function showTimeZone(iso, timezone) {
-  if (!/(?:Z|[+-]\d{2}:?\d{2})$/.test(String(iso || "").trim())) return "UTC";
-  const tz = String(timezone || "").trim();
-  if (!tz) return "UTC";
-  try {
-    new Intl.DateTimeFormat("en-US", { timeZone: tz });
-    return tz;
-  } catch (error) {
-    return "UTC";
+// Returns the Date to format and the zone to format it in, such that the result
+// is always the venue's own calendar date. For the first two shapes the wall
+// time is re-read as UTC so formatting in UTC returns it byte-for-byte; only a
+// bare instant consults `timezone`, falling back to UTC when it is absent or
+// unparseable. The fallback never guesses a zone from city or country.
+function venueDateParts(iso, timezone) {
+  const raw = String(iso || "").trim();
+  if (!raw) return null;
+  if (/Z$/.test(raw)) {
+    const instant = new Date(raw);
+    if (!Number.isFinite(instant.getTime())) return null;
+    const tz = String(timezone || "").trim();
+    if (tz) {
+      try {
+        new Intl.DateTimeFormat("en-US", { timeZone: tz });
+        return { date: instant, timeZone: tz };
+      } catch (error) {
+        // fall through to UTC
+      }
+    }
+    return { date: instant, timeZone: "UTC" };
   }
+  const wall = raw.replace(/[+-]\d{2}:?\d{2}$/, "");
+  const asUtc = new Date(`${wall}Z`);
+  if (!Number.isFinite(asUtc.getTime())) return null;
+  return { date: asUtc, timeZone: "UTC" };
 }
 
 function formatShowDateServer(iso, timezone) {
-  if (!iso) return "";
-  const parsed = new Date(iso);
-  if (!Number.isFinite(parsed.getTime())) return "";
+  const parts = venueDateParts(iso, timezone);
+  if (!parts) return "";
   try {
-    return parsed.toLocaleDateString("en-US", {
+    return parts.date.toLocaleDateString("en-US", {
       weekday: "short",
       month: "short",
       day: "numeric",
       year: "numeric",
-      timeZone: showTimeZone(iso, timezone)
+      timeZone: parts.timeZone
     });
   } catch (error) {
     return "";
@@ -2331,15 +2343,14 @@ function showLocationServer(show) {
 // Date badge parts for the compact show card. Keep in sync with
 // showDateParts in public/app.js.
 function showDatePartsServer(iso, timezone) {
-  if (!iso) return null;
-  const parsed = new Date(iso);
-  if (!Number.isFinite(parsed.getTime())) return null;
-  const timeZone = showTimeZone(iso, timezone);
+  const parts = venueDateParts(iso, timezone);
+  if (!parts) return null;
+  const { date, timeZone } = parts;
   try {
     return {
-      weekday: parsed.toLocaleDateString("en-US", { weekday: "short", timeZone }),
-      day: parsed.toLocaleDateString("en-US", { day: "numeric", timeZone }),
-      monthYear: parsed.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone })
+      weekday: date.toLocaleDateString("en-US", { weekday: "short", timeZone }),
+      day: date.toLocaleDateString("en-US", { day: "numeric", timeZone }),
+      monthYear: date.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone })
     };
   } catch (error) {
     return null;

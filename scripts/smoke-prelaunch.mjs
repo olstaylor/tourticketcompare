@@ -1397,6 +1397,13 @@ assert(machineStatusPage.text.includes(`/api/out?showId=${encodeURIComponent(CON
 //     of 423 live events were a day late.
 const dateRenderCases = [
   { iso: "2026-10-24T03:00:00Z", timezone: "America/Los_Angeles", day: "23", monthYear: "Oct 2026", weekday: "Fri", label: "US evening instant resolves to the venue's day" },
+  // Wall time WITH an explicit offset: the venue's clock is written literally in
+  // the text, so it renders as written while Date.parse still yields the exact
+  // instant. This is the shape the 47 timezone-less rows were migrated to — a
+  // naive string would have been reverted by the nightly sync, and a bare Z
+  // instant cannot recover the venue's day without a timezone.
+  { iso: "2026-11-19T19:00:00-05:00", timezone: "", day: "19", monthYear: "Nov 2026", weekday: "Thu", label: "offset-bearing wall time renders as written, with no timezone field" },
+  { iso: "2026-11-19T19:00:00-05:00", timezone: "America/New_York", day: "19", monthYear: "Nov 2026", weekday: "Thu", label: "offset-bearing wall time agrees with its own timezone field" },
   { iso: "2026-09-05T16:00:00Z", timezone: "Europe/London", day: "5", monthYear: "Sep 2026", weekday: "Sat", label: "UK instant is unchanged (BST is UTC+1)" },
   { iso: "2026-05-15T17:30:00", timezone: "America/New_York", day: "15", monthYear: "May 2026", weekday: "Fri", label: "naive wall time is never re-interpreted against a zone" },
   { iso: "2026-10-24T03:00:00Z", timezone: "", day: "24", monthYear: "Oct 2026", weekday: "Sat", label: "instant with no timezone falls back to UTC rather than guessing" },

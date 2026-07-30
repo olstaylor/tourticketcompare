@@ -120,6 +120,8 @@ export function mapEventsToShows(events) {
         seatgeek_event_id: event.seatgeek_event_id,
         vividseats_event_id: event.vividseats_event_id,
         ticketmaster_event_id: event.ticketmaster_event_id,
+        // Merge identity for the opt-in live-discovery path — see showIdentity.
+        ticketmaster_discovery_event_id: event.ticketmaster_discovery_event_id,
         seatgeek_url: event.seatgeek_url,
         vividseats_url: event.vividseats_url,
         ticketnetwork_url: event.ticketnetwork_url,
@@ -239,7 +241,11 @@ function mapTicketmasterEventToShow(event, artistSlug, artistName) {
     status: mapTicketmasterStatus(event?.dates?.status?.code),
     seatgeek_event_id: null,
     vividseats_event_id: null,
+    // Discovery returns its OWN id here, not the storefront id. Persisted rows
+    // key on the storefront id, so carry the Discovery id explicitly and let
+    // showIdentity match on it.
     ticketmaster_event_id: tmEventId,
+    ticketmaster_discovery_event_id: tmEventId,
     seatgeek_url: null,
     vividseats_url: null,
     ticketmaster_url: eventUrl,
@@ -301,7 +307,20 @@ function normalizeProviderUrls(event) {
   return links;
 }
 
+// Stable key for de-duplicating a persisted show against the same show
+// returned by the live Discovery lookup (opt-in, default off).
+//
+// These two sources name events in different ID namespaces: a persisted row
+// carries the public STOREFRONT id (1D006473D78CFDB8, or the trailing number of
+// an international /event/<slug>/<id> URL), while mapTicketmasterEventToShow
+// carries Discovery's own id (Z698xZ2qZ16eZdbSGK). Keying on
+// ticketmaster_event_id alone therefore failed to merge 506 of the 560
+// persisted rows that carry both ids, returning the same concert twice.
+// Prefer the Discovery id, which both models now populate, and keep the
+// storefront id as the fallback for rows that predate it.
 function showIdentity(show) {
+  const discoveryId = String(show?.ticketmaster_discovery_event_id || "").trim().toLowerCase();
+  if (discoveryId) return `ticketmaster-discovery:${discoveryId}`;
   const tmId = String(show?.ticketmaster_event_id || "").trim().toLowerCase();
   if (tmId) return `ticketmaster:${tmId}`;
   const date = String(show?.dateTimeISO || "").trim().toLowerCase();

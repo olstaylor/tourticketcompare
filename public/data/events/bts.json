@@ -1136,7 +1136,7 @@
     "venue": "Estadio Riyadh Air Metropolitano",
     "datetime_iso": "2026-06-26T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
-    "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
+    "ticketmaster_event_id": "2003633313",
     "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
@@ -1146,7 +1146,7 @@
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "bts-world-tour-arirang-in-madrid-tickets",
+        "event_id": "2003633313",
         "discovery_event_id": "Z698xZ2qZ16eZdbSGK",
         "url": null,
         "verified": false,
@@ -1189,7 +1189,7 @@
     "venue": "Estadio Riyadh Air Metropolitano",
     "datetime_iso": "2026-06-27T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
-    "ticketmaster_event_id": "bts-world-tour-arirang-in-madrid-tickets",
+    "ticketmaster_event_id": "2017561781",
     "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "",
@@ -1199,7 +1199,7 @@
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "bts-world-tour-arirang-in-madrid-tickets",
+        "event_id": "2017561781",
         "discovery_event_id": "Z698xZ2qZ16eZ94-rv",
         "url": null,
         "verified": false,
@@ -1242,7 +1242,7 @@
     "venue": "Allianz Arena",
     "datetime_iso": "2026-07-11T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
-    "ticketmaster_event_id": "bts-world-tour-arirang-in-munich-tickets",
+    "ticketmaster_event_id": "463609754",
     "ticketmaster_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bts---bangtan-boys-tickets-munich-allianz-arena-7-11-2026--concerts-k-pop/production/6517275",
@@ -1252,7 +1252,7 @@
     "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "bts-world-tour-arirang-in-munich-tickets",
+        "event_id": "463609754",
         "discovery_event_id": "Z698xZC2Z1koNbaqf",
         "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/463609754?language=en-us",
         "verified": true,
@@ -1295,7 +1295,7 @@
     "venue": "Allianz Arena",
     "datetime_iso": "2026-07-12T18:00:00Z",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
-    "ticketmaster_event_id": "bts-world-tour-arirang-in-munich-tickets",
+    "ticketmaster_event_id": "226137339",
     "ticketmaster_url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bts---bangtan-boys-tickets-munich-allianz-arena-7-12-2026--concerts-k-pop/production/6517281",
@@ -1305,7 +1305,7 @@
     "verification_status": "human_verified",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "bts-world-tour-arirang-in-munich-tickets",
+        "event_id": "226137339",
         "discovery_event_id": "Z698xZC2Z1kFJ7MGy",
         "url": "https://www.ticketmaster.de/event/bts-world-tour-arirang-in-munich-tickets/226137339?language=en-us",
         "verified": true,
@@ -1346,7 +1346,7 @@
     "city": "Arlington",
     "country": "United States Of America",
     "venue": "AT&T Stadium",
-    "datetime_iso": "2026-08-16T01:00:00Z",
+    "datetime_iso": "2026-08-15T20:00:00-05:00",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "Z7r9jZ1A7OOuI",
     "ticketmaster_url": "",
@@ -1398,7 +1398,7 @@
     "city": "Arlington",
     "country": "United States Of America",
     "venue": "AT&T Stadium",
-    "datetime_iso": "2026-08-17T01:00:00Z",
+    "datetime_iso": "2026-08-16T20:00:00-05:00",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "ticketmaster_event_id": "Z7r9jZ1A7OOut",
     "ticketmaster_url": "",

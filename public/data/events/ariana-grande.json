@@ -1822,7 +1822,7 @@
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
-    "datetime_iso": "2026-08-16T18:00:00",
+    "datetime_iso": "2026-08-16T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced",
@@ -1832,13 +1832,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-16-08-2026/event/3500631C937630FA",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-30",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500631C937630FA",
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-16-08-2026/event/3500631C937630FA",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-30",
         "availability_status": "on_sale",
         "discovery_event_id": "1AdfZbsGkwKqNdB"
       },
@@ -2005,7 +2005,7 @@
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
-    "datetime_iso": "2026-08-23T18:00:00",
+    "datetime_iso": "2026-08-23T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced",
@@ -2015,13 +2015,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-23-08-2026/event/3500631C98A031B3",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-30",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3500631C98A031B3",
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-23-08-2026/event/3500631C98A031B3",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-30",
         "availability_status": "on_sale",
         "discovery_event_id": "1AdfZbsGkwbIdkS"
       },
@@ -2249,7 +2249,7 @@
     "city": "London",
     "country": "United Kingdom",
     "venue": "The O2",
-    "datetime_iso": "2026-08-31T18:00:00",
+    "datetime_iso": "2026-08-31T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced",
@@ -2259,13 +2259,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-31-08-2026/event/35006324F4F54EF7",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-07-30",
     "provider_links": {
       "ticketmaster": {
         "event_id": "35006324F4F54EF7",
         "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-31-08-2026/event/35006324F4F54EF7",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-07-30",
         "availability_status": "on_sale",
         "discovery_event_id": "1AgZkG0GkdVWfDM"
       },

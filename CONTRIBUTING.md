@@ -72,6 +72,7 @@ npm run seatgeek:verify:self-test             # SeatGeek verification invariants
 npm run vividseats:sync:self-test             # Vivid Seats CTA sync
 npm run impact-providers:sync:self-test       # shared Impact catalog matcher
 npm run impact-providers:prices:self-test     # exact-ID snapshot writer
+npm run prices:history:prune:self-test        # history retention statement shape
 ```
 
 ### Smoke tests

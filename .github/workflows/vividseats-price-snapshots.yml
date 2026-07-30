@@ -5,10 +5,17 @@ name: Vivid Seats price snapshots
 # verified in events.json, accepts only an unambiguous current price for that
 # exact production, and writes timestamped D1 cache rows. It never scrapes
 # Vivid Seats, changes events, or changes CTAs.
+#
+# Cadence rationale (2026-07-30): measured against provider_pricing_history,
+# Vivid listed prices drift ~2.3%/hour, so widening the cron makes visitors
+# see staler prices rather than skipping redundant writes. Two hours puts the
+# average displayed price ~1h behind the provider. Actions minutes are not the
+# budget (this repo is public, so standard runners are free); the cost is one
+# Impact catalog request per verified event, ~215 per scheduled run.
 
 on:
   schedule:
-    - cron: '47 */8 * * *'
+    - cron: '47 */2 * * *'
   workflow_dispatch:
     inputs:
       apply:
@@ -59,6 +66,9 @@ jobs:
 
       - name: Run Vivid Seats Impact price snapshot self-test
         run: npm run vividseats:prices:self-test
+
+      - name: Run provider pricing history prune self-test
+        run: npm run prices:history:prune:self-test
 
       - name: Check Impact and D1 configuration
         env:
@@ -136,6 +146,24 @@ jobs:
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Vivid Seats price snapshots\n\n| Metric | Count |\n| --- | ---: |\n${rows}\n\n**Zero-row reason:** ${reason}\n`);
           if (summary.failed > 0) console.log(`::warning::${summary.failed} Vivid Seats observations failed.`);
           if (summary.zero_row_reason) console.log(`::notice::Vivid Seats zero-row reason: ${summary.zero_row_reason}`);
+          NODE
+
+      # Bounded retention for the append-only history table, on apply runs
+      # only. Provider-scoped so it seeks the composite index; idempotent, so
+      # after the first pass there is normally nothing older than the window.
+      - name: Prune Vivid Seats history rows past the retention window
+        if: github.event_name == 'schedule' || github.event.inputs.apply == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          node scripts/prune-provider-pricing-history.mjs --provider vivid-seats --database "${D1_DATABASE_NAME}" --apply --json \
+            | tee "$RUNNER_TEMP/vividseats-history-prune.json"
+          node --input-type=module - "$RUNNER_TEMP/vividseats-history-prune.json" <<'NODE'
+          import fs from "node:fs";
+          const s = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n### History retention\n\n| Days | Prunable | Deleted |\n| ---: | ---: | ---: |\n| ${s.retention_days} | ${s.prunable} | ${s.deleted} |\n`);
           NODE
 
       - name: Audit Vivid Seats cache freshness

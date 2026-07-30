@@ -2,8 +2,17 @@ name: Impact marketplace price snapshots
 
 # Reads exact provider event IDs already stored by the event sync and writes
 # only unambiguous, timestamped D1 snapshots. The verified TicketNetwork and
-# StubHub International lanes refresh every four hours; Ticket Liquidator is
+# StubHub International lanes refresh every two hours; Ticket Liquidator is
 # manual-only while its catalog has no numeric CurrentPrice.
+#
+# Cadence rationale (2026-07-30): measured against provider_pricing_history,
+# listed prices drift ~2.3%/hour, so the per-snapshot change rate scales with
+# the interval rather than flattening — a widened cron shows visitors staler
+# prices, it does not skip redundant writes. A two-hour cron puts the average
+# displayed price ~1h behind the provider. Actions minutes are not the budget
+# here (this repo is public, so standard runners are free); the Impact request
+# volume is: one catalog request per verified event, ~400 per scheduled run
+# across the two lanes.
 
 on:
   # A change to the runtime/provider contract also bootstraps fresh rows on
@@ -14,7 +23,7 @@ on:
       - '.github/workflows/impact-marketplace-price-snapshots.yml'
       - 'functions/_impact-marketplace-config.js'
   schedule:
-    - cron: '17 */8 * * *'
+    - cron: '17 */2 * * *'
   workflow_dispatch:
     inputs:
       provider:
@@ -91,6 +100,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run impact-providers:prices:self-test
+      - run: npm run prices:history:prune:self-test
 
       - name: Snapshot exact verified event prices
         run: |
@@ -123,6 +133,32 @@ jobs:
               throw new Error(`Unhealthy ${summary.provider} snapshot: usable=${summary.usable}, written=${summary.written}, failed=${summary.failed}`);
             }
           }
+          NODE
+
+      # Bounded retention for the append-only history table. Scoped per
+      # provider so it seeks the composite index, and only ever on scheduled
+      # apply runs — a preview dispatch must not delete anything. Idempotent:
+      # after the first pass there is normally nothing older than the window.
+      - name: Prune history rows past the retention window
+        if: github.event_name != 'workflow_dispatch'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -uo pipefail
+          for PROVIDER in $PROVIDERS_TO_RUN; do
+            node scripts/prune-provider-pricing-history.mjs --provider "$PROVIDER" --database "$DATABASE" --apply --json \
+              | tee "$RUNNER_TEMP/history-prune-${PROVIDER}.json"
+          done
+          node --input-type=module - "$RUNNER_TEMP" <<'NODE'
+          import fs from "node:fs";
+          import path from "node:path";
+          const dir = process.argv[2];
+          const files = fs.readdirSync(dir).filter((f) => f.startsWith("history-prune-") && f.endsWith(".json"));
+          if (!files.length) process.exit(0);
+          const rows = files.map((file) => JSON.parse(fs.readFileSync(path.join(dir, file), "utf8")))
+            .map((s) => `| ${s.provider} | ${s.retention_days} | ${s.prunable} | ${s.deleted} |`).join("\n");
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## History retention\n\n| Provider | Days | Prunable | Deleted |\n| --- | ---: | ---: | ---: |\n${rows}\n`);
           NODE
 
       - name: Publish run summary

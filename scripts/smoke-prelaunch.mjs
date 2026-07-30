@@ -1531,6 +1531,40 @@ const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
 const flagOnStaleSeatGeekLane = seatGeekLaneFrom(await flagOnStaleSeatGeekResponse.json());
 assert(flagOnStaleSeatGeekLane?.price === null && flagOnStaleSeatGeekLane?.providerStatus === "unavailable", "stale SeatGeek D1 snapshots should be hidden and should not fall back to stale data");
 
+// Sanity floor. A fresh, approved, correctly-sourced row is still withheld
+// when its low_price is too low to be a real ticket listing. 3.80 is the value
+// that reached production on the JAY-Z Tottenham Hotspur Stadium event via the
+// StubHub International lane, displayed beside a $211.82 Vivid Seats badge.
+for (const implausible of [3.8, 0]) {
+  const implausibleResponse = await showsModule.onRequestGet({
+    request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+    env: envWithEventsJson(seatGeekPriceEventsJson, {
+      DEMAND_DB: createProviderPricingDb([{ ...freshSeatGeekPriceRow, low_price: implausible }]),
+      SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
+    })
+  });
+  const implausibleJson = await implausibleResponse.json();
+  const implausibleLane = seatGeekLaneFrom(implausibleJson);
+  assert(implausibleLane?.price === null && implausibleLane?.providerStatus === "unavailable", `an implausible listed price (${implausible}) must be withheld even from a fresh approved snapshot`);
+  // Only assert non-leakage for the distinctive value; "0" is a substring of
+  // timestamps, ids and counts throughout the payload.
+  if (implausible === 3.8) {
+    assert(!JSON.stringify(implausibleJson).includes("3.8"), "a withheld implausible price must not leak into the response payload");
+  }
+  globalThis.caches.default = new MemoryCache();
+}
+// The floor is a floor, not a band: the boundary value still publishes.
+const atFloorResponse = await showsModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
+  env: envWithEventsJson(seatGeekPriceEventsJson, {
+    DEMAND_DB: createProviderPricingDb([{ ...freshSeatGeekPriceRow, low_price: showsModule.MIN_PLAUSIBLE_LISTED_PRICE }]),
+    SEATGEEK_PRICE_DISPLAY_ENABLED: "true"
+  })
+});
+const atFloorLane = seatGeekLaneFrom(await atFloorResponse.json());
+assert(atFloorLane?.price === showsModule.MIN_PLAUSIBLE_LISTED_PRICE && atFloorLane?.providerStatus === "ok", "a price exactly at the sanity floor should still publish");
+globalThis.caches.default = new MemoryCache();
+
 const missingSourceSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
   env: envWithEventsJson(seatGeekPriceEventsJson, {

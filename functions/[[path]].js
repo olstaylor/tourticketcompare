@@ -2280,7 +2280,7 @@ function renderVerificationDisclosure(artist, shows = []) {
     "text-link"
   )}, independent and unofficial — we are not affiliated with ${escapeHtml(
     artist.name
-  )}, any promoter, or any ticket site.</p>${checkedLine}<p><strong>What we verify:</strong> that each date comes from a reviewed source record with a date, venue and city, and that every ticket button we publish resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button.</p><p><strong>What we don't verify:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p><p class="disclosure-note">Some outbound links earn us a commission, which never changes what you pay — see our ${anchor(
+  )}, any promoter, or any ticket site.</p>${checkedLine}<p><strong>What we verify:</strong> that each date comes from a reviewed source record with a date, venue and city, and that every button on a date card resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button. The artist-level buttons under &ldquo;Where to buy&rdquo; are checked too, but they land on the artist's page on a ticket site rather than on one date.</p><p><strong>What we don't verify:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p><p class="disclosure-note">Some outbound links earn us a commission, which never changes what you pay — see our ${anchor(
     "affiliate disclosure",
     "/affiliate-disclosure",
     "text-link"
@@ -2450,10 +2450,14 @@ function showLocalTimeServer(iso, timezone) {
   const parts = venueDateParts(iso, timezone);
   if (!parts) return "";
   try {
-    const hour = Number(parts.date.toLocaleString("en-US", { hour: "numeric", hour12: false, timeZone: parts.timeZone }));
+    // hourCycle is pinned to h23 because en-US with hour12:false defaults to
+    // h24 in some ICU builds, which renders midnight as "24" — and the Workers
+    // ICU build need not match Node's. Both 0 and 24 are treated as midnight so
+    // a date-only record can never slip through and print "12:00 AM local".
+    const hour = Number(parts.date.toLocaleString("en-US", { hour: "numeric", hourCycle: "h23", timeZone: parts.timeZone }));
     const minute = Number(parts.date.toLocaleString("en-US", { minute: "numeric", timeZone: parts.timeZone }));
     if (!Number.isFinite(hour) || !Number.isFinite(minute)) return "";
-    if (hour === 0 && minute === 0) return "";
+    if ((hour === 0 || hour === 24) && minute === 0) return "";
     return parts.date.toLocaleTimeString("en-US", {
       hour: "numeric",
       minute: "2-digit",

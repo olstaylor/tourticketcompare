@@ -35,7 +35,12 @@ const SAFE_METADATA_KEYS = new Set([
   "eventId", "showId", "status", "reason", "currency", "hasPrice",
   "comparisonProviders", "result", "priceSnapshot", "ctaLocation",
   "lcp", "inp", "cls", "navigationType",
-  "utmSource", "utmMedium", "utmCampaign", "entry"
+  "utmSource", "utmMedium", "utmCampaign", "entry",
+  // Artist show-board engagement (show_filter / event_expand). Without these
+  // the events record only an artist slug and measure nothing. "city" and
+  // "country" are the selected filter values, which come from our own event
+  // data, not free text — the raw search query is deliberately never sent.
+  "control", "hasQuery", "city", "country", "sort", "visibleCount", "totalCount", "panel"
 ]);
 
 export function sanitizeMetadata(value) {

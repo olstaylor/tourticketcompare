@@ -1447,10 +1447,13 @@ function showLocalTime(value, timezone) {
   const parts = venueDateParts(value, timezone);
   if (!parts) return "";
   try {
-    const hour = Number(parts.date.toLocaleString("en-US", { hour: "numeric", hour12: false, timeZone: parts.timeZone }));
+    // hourCycle pinned to h23: en-US with hour12:false defaults to h24 in some
+    // ICU builds, rendering midnight as "24", and browser ICU varies. Both 0
+    // and 24 count as midnight. Keep in sync with showLocalTimeServer.
+    const hour = Number(parts.date.toLocaleString("en-US", { hour: "numeric", hourCycle: "h23", timeZone: parts.timeZone }));
     const minute = Number(parts.date.toLocaleString("en-US", { minute: "numeric", timeZone: parts.timeZone }));
     if (!Number.isFinite(hour) || !Number.isFinite(minute)) return "";
-    if (hour === 0 && minute === 0) return "";
+    if ((hour === 0 || hour === 24) && minute === 0) return "";
     return parts.date.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: parts.timeZone });
   } catch (error) {
     return "";
@@ -2889,14 +2892,30 @@ async function renderArtistsIndex() {
 
 function renderArtist(artist) {
   const isReviewRequired = artist.indexing_status !== "indexable_with_substantial_content";
+  // The server picks the description from the board: an empty board gets one
+  // that does not promise dates the page does not have. Read that decision off
+  // the server-rendered DOM (still in place at this point) rather than
+  // recomputing it, so hydration cannot put the authored, date-promising
+  // description back on a page with no dates — including og:/twitter:.
+  const hasServerDates = main.querySelectorAll("article.show-card[data-show-json]").length > 0;
+  const serverDescription = document.querySelector('meta[name="description"]')?.getAttribute("content") || "";
+  // Artist-page indexability is dynamic (functions/_artist-indexability.js):
+  // editorially indexable AND at least one upcoming show. setMeta previously
+  // keyed robots on the editorial status alone, so hydration rewrote the
+  // server's noindex,follow back to index,follow on every empty board — undoing
+  // the gate for any crawler that runs the page script. Mirror the server's
+  // decision instead of re-deriving half of it.
+  const shouldNoindex = isReviewRequired || !hasServerDates;
   setMeta(
     {
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
-      description:
-        artist.meta_description ||
-        `Check ${artist.name} ticket options through verified provider links, with practical buying guidance and clear transparency.`
+      description: hasServerDates
+        ? artist.meta_description ||
+          `Check ${artist.name} ticket options through verified provider links, with practical buying guidance and clear transparency.`
+        : serverDescription ||
+          `No verified upcoming ${artist.name} dates are listed right now. See what we check before a date is published, and get told when new ones land.`
     },
-    isReviewRequired
+    shouldNoindex
   );
 
   const section = document.createElement("section");

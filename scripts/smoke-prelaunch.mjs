@@ -2936,10 +2936,36 @@ assert(/class="show-card-meta">[\s\S]*?Canada/.test(runBoard.html), "the card me
 assert(/\d{1,2}:\d{2}\s?(AM|PM) local/.test(runBoard.html), "the card meta line should include the venue-local start time when the source has one");
 
 // A date-only source record must not be given an invented midnight start time.
-const midnightBoard = await renderSyntheticArtistBoard([
-  syntheticShow({ id: "syn-midnight-1", city: "Boston", venue: "TD Garden", iso: futureIso(70, 0), timezone: "UTC" })
-]);
-assert(!midnightBoard.html.includes("12:00 AM local"), "a midnight (date-only) record must not print an invented start time");
+// Checked in several zones because the midnight guard reads a locale-formatted
+// hour, and en-US with hour12:false renders midnight as "24" under an h24 hour
+// cycle — which the Workers ICU build may use even where Node's does not.
+for (const timezone of ["UTC", "America/New_York", "Europe/London", "Asia/Tokyo"]) {
+  const midnightBoard = await renderSyntheticArtistBoard([
+    syntheticShow({ id: "syn-midnight-1", city: "Boston", venue: "TD Garden", iso: futureIso(70, 0), timezone })
+  ]);
+  assert(
+    !midnightBoard.html.includes("12:00 AM local"),
+    `a midnight (date-only) record must not print an invented start time (${timezone})`
+  );
+}
+// Both hour-cycle spellings of midnight must be treated as "no time recorded".
+for (const [hourCycle, label] of [["h23", "0"], ["h24", "24"]]) {
+  const midnightHour = Number(
+    new Date("2026-12-03T00:00:00Z").toLocaleString("en-US", { hour: "numeric", hourCycle, timeZone: "UTC" })
+  );
+  assert(
+    midnightHour === 0 || midnightHour === 24,
+    `midnight under ${hourCycle} should read as 0 or 24 (got ${midnightHour}, expected around ${label})`
+  );
+}
+assert(
+  pathSource.includes('hourCycle: "h23"') && pathSource.includes("hour === 0 || hour === 24"),
+  "the server midnight guard should pin the hour cycle and accept both spellings of midnight"
+);
+assert(
+  appJs.includes('hourCycle: "h23"') && appJs.includes("hour === 0 || hour === 24"),
+  "the client midnight guard should mirror the server's"
+);
 
 // (4) Weak provider coverage: partial link coverage is stated, not hidden, and
 // the dates with no checked link stay listed with no button.
@@ -3040,6 +3066,50 @@ assert(
   manyBoard.html.includes("no separate human editorial review date"),
   "the provenance block should distinguish automated checks from human review"
 );
+// Artist-level provider buttons land on the artist's page, not on one date, so
+// neither the provenance block nor the shared help may claim otherwise.
+assert(
+  manyBoard.html.includes("every button on a date card resolves to that exact event"),
+  "the provenance block should scope the exact-event claim to date-card buttons"
+);
+assert(
+  !/every ticket button we publish resolves to that exact event/.test(manyBoard.html),
+  "the provenance block must not claim artist-level buttons resolve to a specific date"
+);
+assert(
+  manyBoard.html.includes("they open the artist&#39;s page on a ticket site, not a specific date"),
+  "the shared help should describe where artist-level provider buttons land"
+);
+
+// The client must not restore the authored, date-promising description on a
+// board with no dates — that would undo the empty-board metadata for any
+// crawler or preview consumer that executes the page script.
+assert(
+  appJs.includes("const hasServerDates = main.querySelectorAll"),
+  "artist hydration should read the server's board state before rewriting metadata"
+);
+const renderArtistSource = appJs.match(/function renderArtist\(artist\) \{[\s\S]*?\n  \);/);
+assert(renderArtistSource, "renderArtist should still call setMeta");
+assert(
+  renderArtistSource[0].includes("hasServerDates"),
+  "artist hydration's setMeta call must branch on whether the server rendered any dates"
+);
+assert(
+  renderArtistSource[0].includes("No verified upcoming"),
+  "artist hydration must keep an empty-board description that does not promise dates"
+);
+// Same class of drift, and worse: artist-page indexability is dynamic
+// (editorially indexable AND >=1 upcoming show), but setMeta used to receive
+// only the editorial status, so hydration rewrote the server's noindex,follow
+// to index,follow on every empty board.
+assert(
+  appJs.includes("const shouldNoindex = isReviewRequired || !hasServerDates;"),
+  "artist hydration must derive robots from the board state, not the editorial status alone"
+);
+assert(
+  !/setMeta\(\s*\{[\s\S]*?\},\s*isReviewRequired\s*\)/.test(appJs),
+  "artist hydration must not pass the editorial status straight to setMeta as the noindex flag"
+);
 
 // (8) Mobile rendering of the comparison UI: the styles that keep the date
 // cards, fact strip, and provider buttons usable on a narrow screen.
@@ -3065,6 +3135,28 @@ console.log("artist-page comparison UX verified: many / one / multi-night / weak
 const analyticsSource = await read("functions/api/analytics.js");
 assert(analyticsSource.includes('"show_filter"'), "analytics should accept the date-filter engagement event");
 assert(analyticsSource.includes('"event_expand"'), "analytics should accept the event-expansion engagement event");
+// An allowlisted event name is only half the contract: sanitizeMetadata drops
+// any key not in SAFE_METADATA_KEYS, so without these the rows would record an
+// artist slug and nothing the events were added to measure.
+const { sanitizeMetadata } = await import(pathToFileURL(path.join(root, "functions/api/analytics.js")));
+const filterMetadata = sanitizeMetadata({
+  artistSlug: "olivia-rodrigo",
+  control: "city",
+  hasQuery: "yes",
+  city: "London",
+  country: "United Kingdom",
+  sort: "soonest",
+  visibleCount: 11,
+  totalCount: 84
+});
+for (const key of ["control", "hasQuery", "city", "country", "sort", "visibleCount", "totalCount"]) {
+  assert(key in filterMetadata, `show_filter metadata key "${key}" must survive sanitizeMetadata`);
+}
+assert(filterMetadata.visibleCount === 11 && filterMetadata.totalCount === 84, "filter result counts must survive as numbers");
+const expandMetadata = sanitizeMetadata({ artistSlug: "olivia-rodrigo", showId: "tm-x", panel: "price_history" });
+assert(expandMetadata.panel === "price_history", "event_expand must record which panel was opened");
+// The raw search string is deliberately never sent, so it can never be stored.
+assert(!appJs.includes("query: state.query"), "the raw filter query must not be sent to analytics");
 assert(appJs.includes('sendAnalytics("show_filter"'), "date filter use should report to the existing analytics endpoint");
 assert(appJs.includes('sendAnalytics("event_expand"'), "opening a date's price-history panel should report as an expansion");
 assert(

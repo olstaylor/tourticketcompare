@@ -55,14 +55,13 @@ function show(overrides = {}) {
     id: overrides.id || `show-${Math.random().toString(36).slice(2)}`,
     publishable: true,
     ctaProviderCount: 1,
-    hasPriceSnapshot: false,
     ...overrides
   };
 }
 
 // --- Large board: many dates, several countries, multi-night runs -----------
 const bigBoard = [
-  show({ id: "a1", city: "London", country: "United Kingdom", venue: "The O2", dateTimeISO: "2026-09-01T19:00:00Z", ctaProviderCount: 3, hasPriceSnapshot: true }),
+  show({ id: "a1", city: "London", country: "United Kingdom", venue: "The O2", dateTimeISO: "2026-09-01T19:00:00Z", ctaProviderCount: 3 }),
   show({ id: "a2", city: "London", country: "United Kingdom", venue: "The O2", dateTimeISO: "2026-09-02T19:00:00Z", ctaProviderCount: 3 }),
   show({ id: "a3", city: "London", country: "United Kingdom", venue: "The O2", dateTimeISO: "2026-09-03T19:00:00Z", ctaProviderCount: 2 }),
   show({ id: "a4", city: "Paris", country: "France", venue: "Accor Arena", dateTimeISO: "2026-09-10T19:00:00Z", ctaProviderCount: 1 }),
@@ -80,7 +79,10 @@ assert(bigStatus.multiNightRuns.length === 1 && bigStatus.multiNightRuns[0].coun
 assert(bigStatus.multiNightShowCount === 3, "multi-night show count should total the run");
 assert(bigStatus.showsWithCta === 5 && bigStatus.showsWithoutCta === 0, "every annotated show has a CTA here");
 assert(bigStatus.providerCoverageVaries === true, "1..3 providers per date is uneven coverage");
-assert(bigStatus.snapshotShowCount === 1, "snapshot count should follow the annotation");
+// Deliberately no board-wide snapshot count: the server prices only the first
+// few shows of a board, so any count derived here would be a truncated sample
+// stated as a fact while the client hydrates snapshots across the whole board.
+assert(!("snapshotShowCount" in bigStatus), "board status must not expose a snapshot count derived from a partial price sample");
 
 const bigIntro = artistSearchIntro({ name: "Harry Styles" }, bigStatus, options);
 assert(bigIntro.includes("5 upcoming Harry Styles dates"), "intro should state the tracked count");
@@ -179,6 +181,14 @@ const help = artistTicketHelp();
 assert(help.points.length >= 3, "the shared help component should list the safe points once");
 assert(help.points.some((point) => /snapshot/i.test(point)), "help should use snapshot framing");
 assert(help.points.some((point) => /Fees/i.test(point)), "help should tell the reader where fees land");
+assert(
+  help.points.some((point) => /Where to buy/i.test(point) && /not a specific date/i.test(point)),
+  "help must distinguish date-card buttons from artist-level provider buttons"
+);
+assert(
+  !/Each button opens one ticket site's page for that exact date/.test(help.intro),
+  "help must not claim every button lands on the exact date — the artist-level buttons do not"
+);
 assertCopySafe(help.intro, "help intro");
 help.points.forEach((point) => assertCopySafe(point, "help point"));
 // The component is universal by design: it takes no arguments and cannot be

@@ -28,7 +28,6 @@
  * @property {string} [timezone]    IANA zone of the venue.
  * @property {boolean} [publishable] Whether the event passes the publishable gate.
  * @property {number} [ctaProviderCount] Providers whose CTA actually renders on this card.
- * @property {boolean} [hasPriceSnapshot] Whether an approved, fresh listed-price snapshot renders.
  */
 
 /**
@@ -67,7 +66,14 @@
  * @property {number} showsWithoutCta
  * @property {boolean} providerCoverageVaries True when the per-date provider count is not uniform.
  * @property {number} maxProviderCount
- * @property {number} snapshotShowCount Shows carrying an approved, fresh listed-price snapshot.
+ *
+ * Deliberately absent: a count of dates carrying a listed-price snapshot. The
+ * server attaches cached price rows to only the first few upcoming shows of a
+ * board (see the price-candidate cap in functions/[[path]].js), so any
+ * board-wide snapshot count derived here would be a truncated sample presented
+ * as a fact — and the client then hydrates snapshots across the whole board, so
+ * the page would visibly contradict its own summary. Snapshots are disclosed
+ * per date, on the button that carries one, where the count is always right.
  */
 
 const EMPTY_STATUS = /** @type {ArtistBoardStatus} */ ({
@@ -84,8 +90,7 @@ const EMPTY_STATUS = /** @type {ArtistBoardStatus} */ ({
   showsWithCta: 0,
   showsWithoutCta: 0,
   providerCoverageVaries: false,
-  maxProviderCount: 0,
-  snapshotShowCount: 0
+  maxProviderCount: 0
 });
 
 function cleanString(value) {
@@ -117,7 +122,6 @@ export function deriveArtistBoardStatus(shows) {
   const venues = [];
   const runCounts = new Map();
   let showsWithCta = 0;
-  let snapshotShowCount = 0;
   let maxProviderCount = 0;
   let minProviderCount = Infinity;
 
@@ -134,7 +138,6 @@ export function deriveArtistBoardStatus(shows) {
     }
     const providerCount = Number.isFinite(show.ctaProviderCount) ? Number(show.ctaProviderCount) : 0;
     if (providerCount > 0) showsWithCta += 1;
-    if (show.hasPriceSnapshot === true) snapshotShowCount += 1;
     maxProviderCount = Math.max(maxProviderCount, providerCount);
     minProviderCount = Math.min(minProviderCount, providerCount);
   }
@@ -170,8 +173,7 @@ export function deriveArtistBoardStatus(shows) {
     showsWithCta,
     showsWithoutCta: ordered.length - showsWithCta,
     providerCoverageVaries: minProviderCount !== maxProviderCount,
-    maxProviderCount,
-    snapshotShowCount
+    maxProviderCount
   };
 }
 
@@ -250,12 +252,6 @@ export function artistSearchIntro(artist, status, options = {}) {
     sentences.push(`Every date has at least one checked ticket link, though how many ticket sites cover a date varies.`);
   }
 
-  if (status.snapshotShowCount > 0) {
-    sentences.push(
-      `${status.snapshotShowCount} ${status.snapshotShowCount === 1 ? "date carries" : "dates carry"} a timestamped listed price from a ticket site.`
-    );
-  }
-
   return sentences.slice(0, 3).join(" ");
 }
 
@@ -292,9 +288,6 @@ export function artistStatusFacts(status, options = {}) {
           ? "This date"
           : `All ${status.showCount} dates`
   });
-  if (status.snapshotShowCount > 0) {
-    facts.push({ label: "Listed-price snapshots", value: `${status.snapshotShowCount} of ${status.showCount} dates` });
-  }
   return facts;
 }
 
@@ -353,12 +346,13 @@ export function deriveTourSummaries(shows) {
 export function artistTicketHelp() {
   return {
     intro:
-      "We don't sell tickets. Each button opens one ticket site's page for that exact date, and you buy there.",
+      "We don't sell tickets. You buy on the ticket site the button opens.",
     points: [
+      "A button on a date card opens that ticket site's page for that exact date. The buttons under \"Where to buy\" are different: they open the artist's page on a ticket site, not a specific date.",
       "A price on a button is a snapshot: one site's listed price for that one date, captured at the time shown next to it. Not live stock, and not your final total.",
       "Each site's price stands alone, with its own timestamp. We don't rank the sites or claim one is lower.",
       "Fees, delivery and tax are added at the provider's checkout — compare the total there, not the first number you see.",
-      "A button only appears once we've followed the link to that exact event. Where we haven't, the date is listed with no button rather than a guess."
+      "A date-card button only appears once we've followed the link to that exact event. Where we haven't, the date is listed with no button rather than a guess."
     ]
   };
 }

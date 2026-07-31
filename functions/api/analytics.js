@@ -2,7 +2,19 @@ import { CANONICAL_HOST } from "../_route-metadata.js";
 import { isLikelyBot } from "../_bot-detection.js";
 
 const MAX_BODY_SIZE = 8 * 1024;
-const ALLOWED_EVENTS = new Set(["page_view", "email_signup", "artist_interest", "outbound_click", "provider_click", "web_vitals"]);
+// show_filter and event_expand are engagement signals from the artist show
+// board (date filtering, opening a date's price-history panel). They are not
+// outbound clicks and never duplicate provider_click / outbound_click.
+const ALLOWED_EVENTS = new Set([
+  "page_view",
+  "email_signup",
+  "artist_interest",
+  "outbound_click",
+  "provider_click",
+  "show_filter",
+  "event_expand",
+  "web_vitals"
+]);
 
 function json(payload, status = 200) {
   return new Response(JSON.stringify(payload), {
@@ -23,7 +35,12 @@ const SAFE_METADATA_KEYS = new Set([
   "eventId", "showId", "status", "reason", "currency", "hasPrice",
   "comparisonProviders", "result", "priceSnapshot", "ctaLocation",
   "lcp", "inp", "cls", "navigationType",
-  "utmSource", "utmMedium", "utmCampaign", "entry"
+  "utmSource", "utmMedium", "utmCampaign", "entry",
+  // Artist show-board engagement (show_filter / event_expand). Without these
+  // the events record only an artist slug and measure nothing. "city" and
+  // "country" are the selected filter values, which come from our own event
+  // data, not free text — the raw search query is deliberately never sent.
+  "control", "hasQuery", "city", "country", "sort", "visibleCount", "totalCount", "panel"
 ]);
 
 export function sanitizeMetadata(value) {

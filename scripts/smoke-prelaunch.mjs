@@ -1229,25 +1229,41 @@ assert(appJs.includes('link("Compare concert ticket prices", "/compare-concert-t
 assert(appJs.includes('link("Affiliate disclosure", "/affiliate-disclosure", "mini-link")'), "artist hydration should preserve the server-rendered trust link set");
 
 // --- Artist SEO content architecture (functions/_artist-content.js) ---------
-// The derived, data-driven content block (search intro, tour summaries,
-// tickets-by-city/venue links, buying guide, pricing explanation) is
-// server-rendered once and transplanted on hydration; assert both sides.
-const SHARED_ARTIST_INTRO_PHRASE = "date we've confirmed, with the ticket links we've checked and what to look at before you pay.";
+// Artist-page editorial copy (the data-grounded lead + fact strip, the one
+// shared price/link help component, the provenance block, and the FAQ) is
+// derived once on the server from the annotated board and transplanted on
+// hydration. Reimplementing that copy client-side is what let the two versions
+// drift, so the hydration path must transplant every block, not rebuild it.
+const artistPathSource = await read("functions/[[path]].js");
+for (const hook of ["[data-artist-lead]", "[data-artist-ticket-help]", "[data-artist-trust]", "[data-artist-faq]", "[data-artist-extra-content]"]) {
+  assert(appJs.includes(`transplantServerNode("${hook}")`) || appJs.includes(`main.querySelector("${hook}")`),
+    `artist hydration must transplant the server-rendered ${hook} block`);
+}
+assert(!appJs.includes("function artistPageIntro("), "the artist lead must be derived server-side only, not duplicated in client copy");
+assert(!appJs.includes("function buildVerificationDisclosurePanel("), "the artist provenance block must be derived server-side only");
+assert(!appJs.match(/text\(checklist, "h2", "Before you buy"\)/), "the artist 'Before you buy' checklist should be consolidated into the shared help component");
 assert(
-  (await read("functions/_artist-content.js")).includes(SHARED_ARTIST_INTRO_PHRASE),
-  "artist content module should carry the shared search-focused intro phrase"
+  (await read("functions/_artist-content.js")).includes("export function artistTicketHelp("),
+  "artist content module should expose the one shared ticket/price help component"
 );
-assert(appJs.includes(SHARED_ARTIST_INTRO_PHRASE), "app.js artistPageIntro must stay in sync with the shared search-focused intro phrase");
 assert(
-  (await read("functions/[[path]].js")).includes("artistSearchIntro(artist)"),
-  "server artist page should render the shared search-focused intro from the content module"
+  artistPathSource.includes("artistBoardModel(route, events, env)"),
+  "server artist page should build its board + content model once per request"
 );
-assert(appJs.includes('main.querySelector("[data-artist-extra-content]")'), "artist hydration must transplant the server-rendered SEO content container unchanged");
 for (const [label, page] of [["with SeatGeek", serverMorganWithSeatGeek.text], ["without SeatGeek", serverMorganWithoutSeatGeek.text]]) {
   assert(page.includes("data-artist-extra-content"), `server-rendered artist page (${label}) should include the derived SEO content container`);
-  assert(page.includes("How to buy Morgan Wallen tickets"), `server-rendered artist page (${label}) should include the ticket-buying guide`);
-  assert(page.includes("How ticket prices are shown here"), `server-rendered artist page (${label}) should include the pricing explanation with safe fallback`);
+  assert(page.includes("data-artist-lead"), `server-rendered artist page (${label}) should include the derived lead block`);
+  assert(page.includes("data-artist-facts"), `server-rendered artist page (${label}) should include the board fact strip`);
+  assert(page.includes("How prices and links work here"), `server-rendered artist page (${label}) should include the shared price/link help component`);
   assert(page.includes("tours and dates"), `server-rendered artist page (${label}) should include data-derived tour summaries`);
+  // The three overlapping generic blocks this replaced must not come back.
+  assert(!page.includes("How to buy Morgan Wallen tickets"), `server-rendered artist page (${label}) should not restate a per-artist buying guide`);
+  assert(!page.includes("How ticket prices are shown here"), `server-rendered artist page (${label}) should not carry a second pricing explanation`);
+  assert(!page.includes("<h2>Before you buy</h2>"), `server-rendered artist page (${label}) should not carry a third generic checklist`);
+  // Interchangeable copy: the lead must count this page's own data.
+  const lead = page.match(/<p class="lead">([^<]*)<\/p>/);
+  assert(lead, `server-rendered artist page (${label}) should render a lead paragraph`);
+  assert(/\d/.test(lead[1]), `artist page lead (${label}) should be data-grounded, not interchangeable prose`);
 }
 
 // --- Regression guard: transient Ticketmaster sync/recheck state must never
@@ -1264,10 +1280,22 @@ const TM_RECHECK_HIDDEN_COPY = "Ticketmaster link temporarily hidden while";
 //    silently no-op'd in tests while hiding ~256/272 CTAs in production. Guard at
 //    the source so the pattern cannot return unnoticed.
 const pathSource = await read("functions/[[path]].js");
-const conciseTicketLinkCopy = "We follow every ticket link before it goes up. Prices, fees, availability and delivery are the provider's, not ours — and some links earn us a commission.";
+// The artist provenance block is server-rendered once and transplanted on
+// hydration, so the substance is asserted against the server source only: what
+// is verified, what is not, and that some links pay a commission.
 const absoluteNoPriceCopy = "We do not display ticket prices or guarantee availability";
-assert(pathSource.includes(conciseTicketLinkCopy), "server-rendered trust copy should keep the concise ticket-link and provider-control disclosure");
-assert(appJs.includes(conciseTicketLinkCopy), "hydrated trust copy should mirror the concise ticket-link and provider-control disclosure");
+assert(
+  pathSource.includes("<strong>What we verify:</strong>") && pathSource.includes("<strong>What we don't verify:</strong>"),
+  "server-rendered trust copy should state both what is and is not verified"
+);
+assert(
+  pathSource.includes("Some outbound links earn us a commission, which never changes what you pay"),
+  "server-rendered trust copy should keep the affiliate-commission disclosure"
+);
+assert(
+  pathSource.includes("prices, fees, seat locations, delivery, availability"),
+  "server-rendered trust copy should keep the provider-control disclosure"
+);
 assert(!pathSource.includes(absoluteNoPriceCopy), "server-rendered trust copy must not say prices are never displayed when approved snapshot flags may be enabled");
 assert(!appJs.includes(absoluteNoPriceCopy), "hydrated trust copy must not say prices are never displayed when approved snapshot flags may be enabled");
 assert(pathSource.includes('providerEventPublishable(ev, "vivid-seats") && safeVividSeatsTicketUrl(ev.vividseats_url)'), "comparison-hub show counts should include independently verified Vivid Seats links");
@@ -2767,9 +2795,34 @@ assert(/<meta name="robots" content="noindex,follow"/.test(beyonceEmptyStatePage
 const beyonceShowBoardMatch = beyonceEmptyStatePage.text.match(/<section class="section-grid show-board"[\s\S]*?<\/section>/);
 assert(beyonceShowBoardMatch, "zero-event artist page must render the show board section");
 const beyonceShowBoard = beyonceShowBoardMatch[0];
-assert(beyonceShowBoard.includes("No upcoming dates yet"), "zero-event artist page must render the empty-state heading");
-assert(beyonceShowBoard.includes("New dates show up here as soon as we've checked where the tickets lead"), "zero-event empty state must explain the verification gate");
+assert(beyonceShowBoard.includes("No upcoming dates listed"), "zero-event artist page must render the empty-state heading");
+assert(
+  beyonceShowBoard.includes("followed the ticket link to that exact event, it appears on this page"),
+  "zero-event empty state must explain what happens when a date is verified"
+);
 assert(!beyonceShowBoard.includes("No verified show dates are currently listed"), "zero-event empty state must not use the old generic copy");
+// An empty page must not imply an announcement is coming, and must not turn
+// into a generic ticket-buying course.
+assert(
+  beyonceShowBoard.includes("t say whether more are coming"),
+  "zero-event empty state must not imply a tour announcement is imminent"
+);
+assert(
+  !/coming soon|stay tuned|announced soon|any day now/i.test(beyonceEmptyStatePage.text),
+  "zero-event artist page must not hint that dates are about to be announced"
+);
+assert(
+  !beyonceEmptyStatePage.text.includes("How prices and links work here"),
+  "zero-event artist page must not carry the price/fee help component — there is nothing to compare"
+);
+assert(
+  beyonceEmptyStatePage.text.includes("data-watchlist-shell"),
+  "zero-event artist page must offer the watchlist signup"
+);
+assert(
+  /<meta name="description" content="No verified upcoming Beyonc[^"]*dates are listed right now/.test(beyonceEmptyStatePage.text),
+  "zero-event artist page description must not promise dates the page does not have"
+);
 // The empty state may link the artist-level provider page ("Check <Provider>
 // for updates") but must never render an event-level ticket CTA — there are
 // no verified dates to sell.
@@ -2778,6 +2831,343 @@ assert(beyonceShowBoard.includes("for updates"), "zero-event empty state should 
 assert(!beyonceShowBoard.includes("provider=seatgeek"), "zero-event empty state must not surface a SeatGeek artist link without SeatGeek Impact config");
 assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes("Browse artists"), "zero-event empty state must link users to the artists index");
 console.log("zero-event empty-state verification passed for beyonce");
+
+// --- Artist-page comparison UX (synthetic boards) ---------------------------
+// The shapes below are the artist pages the site actually has: a large
+// multi-country board, a single date, a multi-night stand at one venue, and a
+// board where only some dates have a checked link. They are rendered from
+// synthetic events for an existing indexable artist so the assertions describe
+// the page structure rather than whichever tour happens to be on sale today.
+function syntheticShow({ id, city, venue, country = "United States", iso, timezone = "America/New_York", verified = true, tour = "Synthetic Run" }) {
+  const eventId = id.toUpperCase();
+  return {
+    id,
+    artist_slug: "bruno-mars",
+    artist_name: "Bruno Mars",
+    event_name: `Bruno Mars in ${city}`,
+    tour_name: tour,
+    city,
+    country,
+    venue,
+    datetime_iso: iso,
+    timezone,
+    ticketmaster_event_id: eventId,
+    ticketmaster_url: `https://www.ticketmaster.com/bruno-mars-${city.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/event/${eventId}`,
+    seatgeek_url: "",
+    vividseats_url: "",
+    source_type: "ticketmaster",
+    verification_status: verified ? "human_verified" : "needs_recheck",
+    last_verified_at: "2026-07-20",
+    provider_links: {
+      ticketmaster: { event_id: eventId, url: "", verified, last_verified_at: "2026-07-20", availability_status: "listed" }
+    }
+  };
+}
+
+function futureIso(daysFromNow, hourUtc = 23) {
+  const date = new Date(Date.now() + daysFromNow * 24 * 60 * 60 * 1000);
+  date.setUTCHours(hourUtc, 0, 0, 0);
+  return date.toISOString();
+}
+
+async function renderSyntheticArtistBoard(shows) {
+  const { text: html } = await routeResponse("/artists/bruno-mars", envWithEventsJson(JSON.stringify(shows)));
+  return { html, cards: (html.match(/<article class="info-card show-card/g) || []).length };
+}
+
+// (1) Many events, several cities and countries, with multi-night runs.
+const manyShows = [
+  syntheticShow({ id: "syn-many-1", city: "New York", venue: "Madison Square Garden", iso: futureIso(30) }),
+  syntheticShow({ id: "syn-many-2", city: "New York", venue: "Madison Square Garden", iso: futureIso(31) }),
+  syntheticShow({ id: "syn-many-3", city: "New York", venue: "Madison Square Garden", iso: futureIso(32) }),
+  syntheticShow({ id: "syn-many-4", city: "Chicago", venue: "United Center", iso: futureIso(45), timezone: "America/Chicago" }),
+  syntheticShow({ id: "syn-many-5", city: "Los Angeles", venue: "Kia Forum", iso: futureIso(60), timezone: "America/Los_Angeles" }),
+  syntheticShow({ id: "syn-many-6", city: "London", venue: "The O2", country: "United Kingdom", iso: futureIso(90), timezone: "Europe/London" }),
+  syntheticShow({ id: "syn-many-7", city: "Paris", venue: "Accor Arena", country: "France", iso: futureIso(95), timezone: "Europe/Paris" }),
+  syntheticShow({ id: "syn-many-8", city: "Berlin", venue: "Uber Arena", country: "Germany", iso: futureIso(120), timezone: "Europe/Berlin" }),
+  syntheticShow({ id: "syn-many-9", city: "Madrid", venue: "Movistar Arena", country: "Spain", iso: futureIso(150), timezone: "Europe/Madrid" })
+];
+const manyBoard = await renderSyntheticArtistBoard(manyShows);
+assert(manyBoard.cards === manyShows.length, "a large artist board should render every upcoming date server-side");
+assert(manyBoard.html.includes("9 upcoming Bruno Mars dates"), "a large board's lead should count its own dates");
+assert(manyBoard.html.includes("7 cities") && manyBoard.html.includes("5 countries"), "a large board's lead should state its geographic spread");
+assert(manyBoard.html.includes("data-artist-facts"), "a large board should render the fact strip above the dates");
+// Search/filter affordances appear only when the number of dates warrants them,
+// and the month jump list works with JavaScript off.
+assert(manyBoard.html.includes('class="show-board-jump"'), "a long board should render a no-JS month jump list");
+const firstJumpAnchor = manyBoard.html.match(/<nav class="show-board-jump"[\s\S]*?href="#(show-[a-z0-9-]+)"/);
+assert(firstJumpAnchor, "the month jump list should link to a show anchor");
+assert(manyBoard.html.includes(`id="${firstJumpAnchor[1]}"`), "every month jump target must exist on the page");
+// Dates come before generic help in the source order.
+assert(
+  manyBoard.html.indexOf('class="section-grid show-board"') < manyBoard.html.indexOf("How prices and links work here"),
+  "dates and provider options must precede the generic price/fee help"
+);
+assert(
+  manyBoard.html.indexOf("How prices and links work here") < manyBoard.html.indexOf("About Bruno Mars"),
+  "the compact price/fee help should precede the supporting editorial content"
+);
+
+// (2) One event: no filter furniture, no plural-count copy.
+const oneBoard = await renderSyntheticArtistBoard([
+  syntheticShow({ id: "syn-one-1", city: "Nashville", venue: "Bridgestone Arena", iso: futureIso(40), timezone: "America/Chicago" })
+]);
+assert(oneBoard.cards === 1, "a single-date board should render exactly one card");
+assert(oneBoard.html.includes("One upcoming Bruno Mars date is verified"), "a single-date lead should read as one date");
+assert(!oneBoard.html.includes('class="show-filter-intro"'), "a single-date board should not offer filter controls");
+assert(!oneBoard.html.includes('class="show-board-jump"'), "a single-date board should not offer a month jump list");
+assert(!/All 1 dates/.test(oneBoard.html), "a single-date board must not render pluralised counts");
+
+// (3) Multi-night run at one venue: the differing date must be prominent.
+const runBoard = await renderSyntheticArtistBoard([
+  syntheticShow({ id: "syn-run-1", city: "Toronto", venue: "Rogers Stadium", country: "Canada", iso: futureIso(50), timezone: "America/Toronto" }),
+  syntheticShow({ id: "syn-run-2", city: "Toronto", venue: "Rogers Stadium", country: "Canada", iso: futureIso(51), timezone: "America/Toronto" })
+]);
+assert(runBoard.html.includes("Night 1 of 2") && runBoard.html.includes("Night 2 of 2"), "multi-night runs should number each night");
+assert(runBoard.html.includes('class="show-run-chip"'), "the night number should render as a visible chip, not a muted aside");
+assert(
+  (runBoard.html.match(/this card is /g) || []).length === 2,
+  "each night in a run should restate its own full date so the cards cannot be confused"
+);
+assert(runBoard.html.includes("nights at Rogers Stadium"), "a single multi-night run should be called out in the lead");
+// Every card carries the facts that identify one date apart from another.
+assert((runBoard.html.match(/class="show-card-meta"/g) || []).length === 2, "each date card should carry a meta line");
+assert(/class="show-card-meta">[\s\S]*?Canada/.test(runBoard.html), "the card meta line should include the country");
+assert(/\d{1,2}:\d{2}\s?(AM|PM) local/.test(runBoard.html), "the card meta line should include the venue-local start time when the source has one");
+
+// A date-only source record must not be given an invented midnight start time.
+// Checked in several zones because the midnight guard reads a locale-formatted
+// hour, and en-US with hour12:false renders midnight as "24" under an h24 hour
+// cycle — which the Workers ICU build may use even where Node's does not.
+for (const timezone of ["UTC", "America/New_York", "Europe/London", "Asia/Tokyo"]) {
+  const midnightBoard = await renderSyntheticArtistBoard([
+    syntheticShow({ id: "syn-midnight-1", city: "Boston", venue: "TD Garden", iso: futureIso(70, 0), timezone })
+  ]);
+  assert(
+    !midnightBoard.html.includes("12:00 AM local"),
+    `a midnight (date-only) record must not print an invented start time (${timezone})`
+  );
+}
+// Both hour-cycle spellings of midnight must be treated as "no time recorded".
+for (const [hourCycle, label] of [["h23", "0"], ["h24", "24"]]) {
+  const midnightHour = Number(
+    new Date("2026-12-03T00:00:00Z").toLocaleString("en-US", { hour: "numeric", hourCycle, timeZone: "UTC" })
+  );
+  assert(
+    midnightHour === 0 || midnightHour === 24,
+    `midnight under ${hourCycle} should read as 0 or 24 (got ${midnightHour}, expected around ${label})`
+  );
+}
+assert(
+  pathSource.includes('hourCycle: "h23"') && pathSource.includes("hour === 0 || hour === 24"),
+  "the server midnight guard should pin the hour cycle and accept both spellings of midnight"
+);
+assert(
+  appJs.includes('hourCycle: "h23"') && appJs.includes("hour === 0 || hour === 24"),
+  "the client midnight guard should mirror the server's"
+);
+
+// (4) Weak provider coverage: partial link coverage is stated, not hidden, and
+// the dates with no checked link stay listed with no button.
+const weakBoard = await renderSyntheticArtistBoard([
+  syntheticShow({ id: "syn-weak-1", city: "Denver", venue: "Ball Arena", iso: futureIso(35), timezone: "America/Denver" }),
+  syntheticShow({ id: "syn-weak-2", city: "Seattle", venue: "Climate Pledge Arena", iso: futureIso(38), timezone: "America/Los_Angeles", verified: false }),
+  syntheticShow({ id: "syn-weak-3", city: "Portland", venue: "Moda Center", iso: futureIso(41), timezone: "America/Los_Angeles", verified: false })
+]);
+assert(weakBoard.html.includes("1 of the 3 have a checked ticket link"), "partial provider coverage must be stated in the lead");
+assert(weakBoard.html.includes("1 of 3 dates"), "the fact strip should quantify partial link coverage");
+assert(
+  (weakBoard.html.match(/No verified ticket link is available for this date/g) || []).length === 2,
+  "dates without a checked link must render the safe no-link state"
+);
+assert(
+  weakBoard.html.includes("It stays listed so the date itself is still visible"),
+  "the no-link state should explain why the date is still shown"
+);
+
+// (5) No fabricated price or ranking claims on any of these boards, and no
+// implication that the site sees the whole market.
+for (const [label, page] of [
+  ["many", manyBoard.html],
+  ["one", oneBoard.html],
+  ["run", runBoard.html],
+  ["weak", weakBoard.html],
+  ["empty", beyonceEmptyStatePage.text]
+]) {
+  const body = (page.match(/<main id="mainContent">[\s\S]*?<\/main>/) || [""])[0];
+  for (const rule of [
+    /\bcheapest\b/i,
+    /\blowest price\b/i,
+    /\bbest price\b/i,
+    /\bevery ticket site\b/i,
+    /\ball available tickets\b/i,
+    /\bwhole market\b/i,
+    /\bguaranteed\b/i,
+    /\bselling out\b/i,
+    /\bdemand is\b/i,
+    /\bunforgettable\b/i,
+    /\bsecure your seats\b/i,
+    /\bprices can vary depending on\b/i,
+    /\bnavigating the ticket market\b/i
+  ]) {
+    assert(!rule.test(body), `artist page (${label}) must not contain banned copy ${rule}`);
+  }
+  // A price may only ever appear beside a provider button, never in prose.
+  assert(!/\bfrom (only )?[£$€]\s?\d/i.test(body), `artist page (${label}) must not advertise a "from" price`);
+}
+
+// (6) Canonical, robots, and structured data must all describe the same board.
+assert(
+  extractCanonical(manyBoard.html) === "https://tourticketcompare.com/artists/bruno-mars",
+  "an artist page must keep the bare artist canonical"
+);
+assert(/<meta name="robots" content="index,follow/.test(manyBoard.html), "an artist page with upcoming dates should be indexable");
+assert(/<meta name="robots" content="noindex,follow/.test(beyonceEmptyStatePage.text), "an empty artist board must stay noindex,follow");
+const manyGraph = JSON.parse(manyBoard.html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+const manyMusicEvents = manyGraph["@graph"].filter((node) => node["@type"] === "MusicEvent");
+assert(manyMusicEvents.length > 0, "an indexable artist page should emit MusicEvent structured data");
+for (const node of manyMusicEvents) {
+  const nodeAnchor = String(node.url || "").split("#")[1] || "";
+  assert(nodeAnchor && manyBoard.html.includes(`id="${nodeAnchor}"`), `MusicEvent ${node.name} must correspond to a visible show card`);
+  assert(manyBoard.html.includes(node.location?.name || " "), `MusicEvent ${node.name} venue must be visible on the page`);
+}
+const manyFaqNode = manyGraph["@graph"].find((node) => node["@type"] === "FAQPage");
+assert(manyFaqNode, "an artist page should emit FAQPage structured data for its visible FAQ");
+for (const question of manyFaqNode.mainEntity) {
+  assert(
+    manyBoard.html.includes(`<summary>${question.name.replace(/&/g, "&amp;")}</summary>`),
+    `FAQ question "${question.name}" must be visible on the page`
+  );
+}
+assert(
+  manyFaqNode.mainEntity[0].acceptedAnswer.text.includes("9 upcoming dates"),
+  "the FAQ's lead answer should be derived from the same board as the page"
+);
+const emptyGraph = JSON.parse(beyonceEmptyStatePage.text.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+assert(
+  !emptyGraph["@graph"].some((node) => node["@type"] === "MusicEvent"),
+  "an artist page with no verified dates must emit no MusicEvent structured data"
+);
+
+// (7) Editorial provenance: what we check, what we don't, and who publishes it.
+for (const [label, page] of [["many", manyBoard.html], ["empty", beyonceEmptyStatePage.text]]) {
+  assert(page.includes("data-artist-trust"), `artist page (${label}) should carry the provenance block`);
+  assert(page.includes("<strong>Data checked:</strong>"), `artist page (${label}) provenance should state when the data was checked`);
+  assert(page.includes("<strong>What we verify:</strong>"), `artist page (${label}) provenance should state what is verified`);
+  assert(page.includes("<strong>What we don't verify:</strong>"), `artist page (${label}) provenance should state what is not verified`);
+  assert(page.includes('href="/affiliate-disclosure"'), `artist page (${label}) provenance should link the affiliate disclosure`);
+  assert(page.includes('href="/contact"'), `artist page (${label}) provenance should link a corrections route`);
+  assert(page.includes("TourTicketCompare editorial team"), `artist page (${label}) should name its publisher`);
+  // Automated verification must never be presented as a human editorial review.
+  assert(!/reviewed by (a|our) (human|editor)/i.test(page), `artist page (${label}) must not claim a human review it cannot evidence`);
+  assert(!/Page reviewed:/i.test(page), `artist page (${label}) must not print a human review timestamp`);
+}
+assert(
+  manyBoard.html.includes("no separate human editorial review date"),
+  "the provenance block should distinguish automated checks from human review"
+);
+// Artist-level provider buttons land on the artist's page, not on one date, so
+// neither the provenance block nor the shared help may claim otherwise.
+assert(
+  manyBoard.html.includes("every button on a date card resolves to that exact event"),
+  "the provenance block should scope the exact-event claim to date-card buttons"
+);
+assert(
+  !/every ticket button we publish resolves to that exact event/.test(manyBoard.html),
+  "the provenance block must not claim artist-level buttons resolve to a specific date"
+);
+assert(
+  manyBoard.html.includes("they open the artist&#39;s page on a ticket site, not a specific date"),
+  "the shared help should describe where artist-level provider buttons land"
+);
+
+// The client must not restore the authored, date-promising description on a
+// board with no dates — that would undo the empty-board metadata for any
+// crawler or preview consumer that executes the page script.
+assert(
+  appJs.includes("const hasServerDates = main.querySelectorAll"),
+  "artist hydration should read the server's board state before rewriting metadata"
+);
+const renderArtistSource = appJs.match(/function renderArtist\(artist\) \{[\s\S]*?\n  \);/);
+assert(renderArtistSource, "renderArtist should still call setMeta");
+assert(
+  renderArtistSource[0].includes("hasServerDates"),
+  "artist hydration's setMeta call must branch on whether the server rendered any dates"
+);
+assert(
+  renderArtistSource[0].includes("No verified upcoming"),
+  "artist hydration must keep an empty-board description that does not promise dates"
+);
+// Same class of drift, and worse: artist-page indexability is dynamic
+// (editorially indexable AND >=1 upcoming show), but setMeta used to receive
+// only the editorial status, so hydration rewrote the server's noindex,follow
+// to index,follow on every empty board.
+assert(
+  appJs.includes("const shouldNoindex = isReviewRequired || !hasServerDates;"),
+  "artist hydration must derive robots from the board state, not the editorial status alone"
+);
+assert(
+  !/setMeta\(\s*\{[\s\S]*?\},\s*isReviewRequired\s*\)/.test(appJs),
+  "artist hydration must not pass the editorial status straight to setMeta as the noindex flag"
+);
+
+// (8) Mobile rendering of the comparison UI: the styles that keep the date
+// cards, fact strip, and provider buttons usable on a narrow screen.
+const artistStylesCss = await read("public/styles.css");
+const narrowBlocks = [...artistStylesCss.matchAll(/@media \(max-width: 6\d\dpx\) \{[\s\S]*?\n\}\n/g)].map((match) => match[0]);
+assert(narrowBlocks.length, "styles.css should carry a narrow-screen block for the show board");
+const narrowBlock = [narrowBlocks.find((block) => block.includes(".artist-fact-strip")) || ""];
+assert(narrowBlock[0].includes(".artist-fact-strip"), "the fact strip should reflow on narrow screens");
+assert(narrowBlocks.some((block) => block.includes(".show-card-body")), "show cards should go full-width on narrow screens");
+assert(artistStylesCss.includes(".provider-cta-group {"), "provider buttons should be laid out as their own group");
+assert(artistStylesCss.includes(".show-board-jump-list"), "the month jump list should be styled as a wrapping row");
+assert(
+  narrowBlock[0].includes("min-height: 40px") || narrowBlock[0].includes("min-height: 44px"),
+  "narrow-screen tap targets should meet a minimum height"
+);
+
+console.log("artist-page comparison UX verified: many / one / multi-night / weak-coverage / empty");
+
+// --- Artist-board engagement analytics --------------------------------------
+// Date filtering and opening a date's detail panel are measured through the
+// existing first-party analytics endpoint, and neither duplicates the
+// outbound-click counting that provider_click / /api/out already do.
+const analyticsSource = await read("functions/api/analytics.js");
+assert(analyticsSource.includes('"show_filter"'), "analytics should accept the date-filter engagement event");
+assert(analyticsSource.includes('"event_expand"'), "analytics should accept the event-expansion engagement event");
+// An allowlisted event name is only half the contract: sanitizeMetadata drops
+// any key not in SAFE_METADATA_KEYS, so without these the rows would record an
+// artist slug and nothing the events were added to measure.
+const { sanitizeMetadata } = await import(pathToFileURL(path.join(root, "functions/api/analytics.js")));
+const filterMetadata = sanitizeMetadata({
+  artistSlug: "olivia-rodrigo",
+  control: "city",
+  hasQuery: "yes",
+  city: "London",
+  country: "United Kingdom",
+  sort: "soonest",
+  visibleCount: 11,
+  totalCount: 84
+});
+for (const key of ["control", "hasQuery", "city", "country", "sort", "visibleCount", "totalCount"]) {
+  assert(key in filterMetadata, `show_filter metadata key "${key}" must survive sanitizeMetadata`);
+}
+assert(filterMetadata.visibleCount === 11 && filterMetadata.totalCount === 84, "filter result counts must survive as numbers");
+const expandMetadata = sanitizeMetadata({ artistSlug: "olivia-rodrigo", showId: "tm-x", panel: "price_history" });
+assert(expandMetadata.panel === "price_history", "event_expand must record which panel was opened");
+// The raw search string is deliberately never sent, so it can never be stored.
+assert(!appJs.includes("query: state.query"), "the raw filter query must not be sent to analytics");
+assert(appJs.includes('sendAnalytics("show_filter"'), "date filter use should report to the existing analytics endpoint");
+assert(appJs.includes('sendAnalytics("event_expand"'), "opening a date's price-history panel should report as an expansion");
+assert(
+  (appJs.match(/sendAnalytics\("provider_click"/g) || []).length === 1,
+  "provider CTA clicks must be counted exactly once, by the single delegated listener"
+);
+assert(
+  !appJs.includes('sendAnalytics("outbound_click"'),
+  "outbound clicks stay server-side in /api/out — the client must not double-count them"
+);
+console.log("artist-board engagement analytics verified: filter + expansion, no duplicate outbound counting");
 
 // City landing pages: substantial aggregation over reviewed event records.
 const cityEnv = envWithEventsJson(await read("public/data/events.json"));

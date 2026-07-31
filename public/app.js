@@ -786,11 +786,14 @@ function artistPageHeading(artist) {
   return `${artist.name} tickets and tour dates`;
 }
 
-// Keep this search-focused intro in sync with artistSearchIntro() in
-// functions/_artist-content.js. The smoke suite asserts both files carry the
-// shared invariant phrase so the server render and hydration cannot drift.
-function artistPageIntro(artist) {
-  return `Every upcoming ${artist.name} date we've confirmed, with the ticket links we've checked and what to look at before you pay.`;
+// Artist-page editorial copy — the lead, the fact strip, the shared price/link
+// help, the provenance block and the FAQ — is derived once on the server from
+// functions/_artist-content.js and transplanted here rather than rebuilt.
+// Reimplementing it in two languages is what let the two versions drift; there
+// is no client navigation on this route, so the server markup for this exact
+// artist is always in the document when hydration runs.
+function transplantServerNode(selector) {
+  return main.querySelector(selector);
 }
 
 function formatVerificationDate(value) {
@@ -803,34 +806,6 @@ function formatVerificationDate(value) {
   } catch (error) {
     return null;
   }
-}
-
-function buildVerificationDisclosurePanel(artist, shows = []) {
-  const panel = document.createElement("section");
-  panel.className = "nested-panel verification-disclosure";
-  text(panel, "h2", "How these links work");
-  // Single consolidated trust block. Keep in sync with
-  // renderVerificationDisclosure in functions/[[path]].js.
-  text(
-    panel,
-    "p",
-    "We follow every ticket link before it goes up. Prices, fees, availability and delivery are the provider's, not ours — and some links earn us a commission.",
-    "muted"
-  );
-
-  const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
-  if (artistVerifiedDate) {
-    text(panel, "p", `Artist last checked: ${artistVerifiedDate}.`, "disclosure-note");
-  }
-
-  const eventDates = shows.map((show) => formatVerificationDate(show.last_verified_at)).filter(Boolean);
-  if (eventDates.length) {
-    const uniqueDates = [...new Set(eventDates)];
-    const label = uniqueDates.length === 1 ? uniqueDates[0] : `${uniqueDates[0]} to ${uniqueDates[uniqueDates.length - 1]}`;
-    text(panel, "p", `Event links last checked: ${label}.`, "disclosure-note");
-  }
-
-  return panel;
 }
 
 function providerVerificationNote(item) {
@@ -1594,6 +1569,53 @@ function showLocation(show) {
     .join(" · ");
 }
 
+// Start time at the venue. A row whose venue-local time lands exactly on
+// midnight is a date-only record, so no time is printed rather than inventing
+// "12:00 AM". Keep in sync with showLocalTimeServer in functions/[[path]].js.
+function showLocalTime(value, timezone) {
+  const parts = venueDateParts(value, timezone);
+  if (!parts) return "";
+  try {
+    // hourCycle pinned to h23: en-US with hour12:false defaults to h24 in some
+    // ICU builds, rendering midnight as "24", and browser ICU varies. Both 0
+    // and 24 count as midnight. Keep in sync with showLocalTimeServer.
+    const hour = Number(parts.date.toLocaleString("en-US", { hour: "numeric", hourCycle: "h23", timeZone: parts.timeZone }));
+    const minute = Number(parts.date.toLocaleString("en-US", { minute: "numeric", timeZone: parts.timeZone }));
+    if (!Number.isFinite(hour) || !Number.isFinite(minute)) return "";
+    if ((hour === 0 || hour === 24) && minute === 0) return "";
+    return parts.date.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: parts.timeZone });
+  } catch (error) {
+    return "";
+  }
+}
+
+// The show-card meta line: full date, venue-local start time, and country —
+// the facts that separate one date from another. Each part renders only when
+// the source record carries it. Keep in sync with the metaHtml block in
+// renderShowCardServerHtml in functions/[[path]].js.
+function renderShowCardMeta(show) {
+  const parts = [];
+  const fullDate = formatShowDate(show.dateTimeISO, show.timezone);
+  if (fullDate) {
+    const time = document.createElement("time");
+    time.setAttribute("datetime", String(show.dateTimeISO || ""));
+    time.textContent = fullDate;
+    parts.push(time);
+  }
+  const localTime = showLocalTime(show.dateTimeISO, show.timezone);
+  if (localTime) parts.push(document.createTextNode(`${localTime} local`));
+  const country = String(show.country || "").trim();
+  if (country) parts.push(document.createTextNode(country));
+  if (!parts.length) return null;
+  const line = document.createElement("p");
+  line.className = "show-card-meta";
+  parts.forEach((part, index) => {
+    if (index) line.append(document.createTextNode(" · "));
+    line.append(part);
+  });
+  return line;
+}
+
 // Explicit event-link publishability. CTAs may render only for events whose
 // verification_status is an allowed publish state ("human_verified" or
 // "machine_high_confidence"); "needs_recheck" suppresses CTAs even when a
@@ -2057,21 +2079,33 @@ function renderShowCard(show, options = {}) {
     // they lead; the event name adds support acts / tour info when it says
     // more than the artist name alone.
     text(body, "h3", location, "show-card-title");
+    const meta = renderShowCardMeta(show);
+    if (meta) body.append(meta);
     const artistName = String(options.artistName || show.artist_name || "").trim();
     if (eventName && eventName.toLowerCase() !== artistName.toLowerCase()) {
       text(body, "p", eventName, "show-card-sub muted");
     }
   } else {
     text(body, "h3", eventName || show.artist_name || titleFallback, "show-card-title");
+    const meta = renderShowCardMeta(show);
+    if (meta) body.append(meta);
     text(body, "p", location || "City and venue details are shown only when verified by the source.", "show-card-sub muted");
   }
+  // Multi-night stands: the date is the only thing separating these cards, so
+  // the night number is a visible chip beside the date rather than a muted
+  // aside. Keep in sync with runHtml in renderShowCardServerHtml.
   const venueRun = options.venueRuns?.[String(show.id || "")];
   if (venueRun) {
-    text(body, "p", `Show ${venueRun.position} of ${venueRun.total} at this venue`, "show-card-run muted");
-  }
-  if (!dateBadge) {
-    const date = formatShowDate(show.dateTimeISO, show.timezone);
-    if (date) text(body, "p", date, "card-status");
+    article.classList.add("show-card-run-night");
+    const runLine = document.createElement("p");
+    runLine.className = "show-card-run";
+    const chip = document.createElement("span");
+    chip.className = "show-run-chip";
+    chip.textContent = `Night ${venueRun.position} of ${venueRun.total}`;
+    runLine.append(chip, document.createTextNode(" at this venue"));
+    const runDate = formatShowDate(show.dateTimeISO, show.timezone);
+    if (runDate) runLine.append(document.createTextNode(` — this card is ${runDate}`));
+    body.append(runLine);
   }
 
   if (options.reviewGated) {
@@ -2125,12 +2159,22 @@ function renderShowCard(show, options = {}) {
         showId: String(show.id || "").trim(),
         ctaLocation: options.ctaLocation || "event_card"
       };
+      // One labelled group, so the row of provider buttons reads as the action
+      // it is. The buttons are the only outbound links on the card — there is
+      // no second "compare" link to double-count a click through.
+      const ctaLabel = document.createElement("p");
+      ctaLabel.className = "provider-cta-label";
+      ctaLabel.append(document.createTextNode("Compare ticket options for this date"));
+      const ctaContext = document.createElement("span");
+      ctaContext.className = "sr-only";
+      ctaContext.textContent = ` at ${location || "this show"}`;
+      ctaLabel.append(ctaContext);
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
       for (const spec of ctaSpecs) {
         ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }));
       }
-      body.append(ctaGroup);
+      body.append(ctaLabel, ctaGroup);
 
       const notes = renderShowCardPriceNotes(ctaSpecs);
       if (notes) body.append(notes);
@@ -2143,7 +2187,12 @@ function renderShowCard(show, options = {}) {
         if (historyPanel) body.append(historyPanel);
       }
     } else {
-      text(body, "p", "No verified ticket link is available for this date.", "disclosure-note");
+      text(
+        body,
+        "p",
+        "No verified ticket link is available for this date. It stays listed so the date itself is still visible.",
+        "disclosure-note"
+      );
     }
   } else if (show.artist_slug) {
     body.append(link("Open artist page", `/artists/${slugify(show.artist_slug)}`, "text-link"));
@@ -2216,11 +2265,18 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
   const name = String(artistName || "").trim() || "artist";
   const wrap = document.createElement("div");
   wrap.className = "empty-state";
-  text(wrap, "h3", "No upcoming dates yet");
+  text(wrap, "h3", "No upcoming dates listed");
   text(
     wrap,
     "p",
-    `Nothing confirmed for ${name} right now. New dates show up here as soon as we've checked where the tickets lead.`,
+    Array.isArray(pastShows) && pastShows.length
+      ? `We have no verified upcoming ${name} dates on file. The most recent dates we tracked have already taken place, and we can't say whether more are coming.`
+      : `We have no verified upcoming ${name} dates on file, and we can't say whether more are coming.`
+  );
+  text(
+    wrap,
+    "p",
+    "When a date is confirmed by our source and we've followed the ticket link to that exact event, it appears on this page with the ticket sites that cover it.",
     "muted"
   );
   const recent = renderRecentShowsList(name, pastShows);
@@ -2244,7 +2300,7 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     form.action = "/api/signup";
     form.dataset.watchlistShell = artistSlug;
     text(form, "h4", `Get told when ${name} dates land`);
-    text(form, "p", `Leave your email and we'll let you know as soon as we've got confirmed ${name} dates and ticket links up.`, "muted");
+    text(form, "p", `Leave your email and we'll email you once we've published confirmed ${name} dates with checked ticket links. Nothing else.`, "muted");
     const hiddenArtist = document.createElement("input");
     hiddenArtist.type = "hidden";
     hiddenArtist.name = "artistSlug";
@@ -2295,7 +2351,9 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
       sourcePath: window.location.pathname,
       surface: "artist_page"
     });
-    const providerCta = buttonLink(`Check ${providerName} for updates`, withCtaLocation(`/api/out?${params.toString()}`, "empty_state"), "primary");
+    // Secondary: on an empty board the signup is the primary action, and the
+    // artist-level provider page is a "check for yourself" fallback.
+    const providerCta = buttonLink(`Check ${providerName} for updates`, withCtaLocation(`/api/out?${params.toString()}`, "empty_state"), "secondary");
     providerCta.dataset.ctaProvider = providerSlug;
     providerCta.dataset.ctaArtist = artistSlug;
     providerCta.dataset.ctaPriceSnapshot = "absent";
@@ -2338,6 +2396,56 @@ function venueRunIndex(shows) {
     });
   }
   return index;
+}
+
+// A month-by-month jump list for long boards. The server renders the same list
+// so it works with JavaScript off; here it is rebuilt whenever filtering
+// changes which cards exist, so every entry always targets a card on the page.
+// Keep in sync with monthJumpEntries / renderShowBoardJumpHtml in
+// functions/[[path]].js.
+const SHOW_BOARD_JUMP_THRESHOLD = 8;
+
+function monthJumpEntries(shows) {
+  const months = new Map();
+  for (const show of Array.isArray(shows) ? shows : []) {
+    const parts = venueDateParts(show?.dateTimeISO, show?.timezone);
+    const anchorId = showAnchorId(show);
+    if (!parts || !anchorId) continue;
+    let label = "";
+    try {
+      label = parts.date.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: parts.timeZone });
+    } catch (error) {
+      continue;
+    }
+    if (!label) continue;
+    if (!months.has(label)) months.set(label, { label, anchorId, count: 0 });
+    months.get(label).count += 1;
+  }
+  return [...months.values()];
+}
+
+function renderShowBoardJump(shows) {
+  if (!Array.isArray(shows) || shows.length < SHOW_BOARD_JUMP_THRESHOLD) return null;
+  const months = monthJumpEntries(shows);
+  if (months.length < 2) return null;
+  const nav = document.createElement("nav");
+  nav.className = "show-board-jump";
+  nav.setAttribute("aria-label", "Jump to a month");
+  text(nav, "p", "Jump to:", "muted");
+  const list = document.createElement("ul");
+  list.className = "show-board-jump-list";
+  months.forEach((month) => {
+    const item = document.createElement("li");
+    const anchor = link(month.label, `#${month.anchorId}`, "mini-link");
+    const count = document.createElement("span");
+    count.className = "muted";
+    count.textContent = ` (${month.count})`;
+    anchor.append(count);
+    item.append(anchor);
+    list.append(item);
+  });
+  nav.append(list);
+  return nav;
 }
 
 function showFilterHaystack(show) {
@@ -2494,7 +2602,43 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
     }, 250);
   };
 
-  const apply = () => {
+  // The jump nav is rebuilt from the currently visible cards, so a filtered
+  // board never offers a month anchor that no longer exists on the page.
+  let jumpNav = null;
+  const refreshJumpNav = (visibleShows) => {
+    const next = renderShowBoardJump(visibleShows);
+    if (jumpNav && !next) {
+      jumpNav.remove();
+      jumpNav = null;
+      return;
+    }
+    if (!next) return;
+    if (jumpNav) jumpNav.replaceWith(next);
+    else grid.before(next);
+    jumpNav = next;
+  };
+
+  // Filter-use analytics. Debounced so a typed query reports once, and it
+  // reports which control was used and how many dates survived — never the
+  // query text itself.
+  let filterAnalyticsTimer = null;
+  const reportFilterUse = (control, visibleCount) => {
+    if (filterAnalyticsTimer) window.clearTimeout(filterAnalyticsTimer);
+    filterAnalyticsTimer = window.setTimeout(() => {
+      sendAnalytics("show_filter", {
+        artistSlug: String(cardOptions.artistSlug || ""),
+        control,
+        hasQuery: state.query ? "yes" : "no",
+        country: state.country,
+        city: state.city,
+        sort: state.sort,
+        visibleCount,
+        totalCount: shows.length
+      });
+    }, 600);
+  };
+
+  const apply = (control = "") => {
     updateUrl();
     const terms = state.query.toLowerCase().split(/\s+/).filter(Boolean);
     const visible = shows
@@ -2513,10 +2657,13 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
       });
     const datesLabel = cardOptions.reviewGated ? "listed dates" : "verified dates";
     count.textContent = `Showing ${visible.length} of ${shows.length} ${datesLabel}`;
+    if (control) reportFilterUse(control, visible.length);
     if (!visible.length) {
+      refreshJumpNav([]);
       grid.replaceChildren(renderShowFilterEmptyState(resetFilters));
       return;
     }
+    refreshJumpNav(visible);
     grid.replaceChildren(...visible.map((show) => renderShowCard(show, cardOptions)));
     schedulePriceHydration(visible);
   };
@@ -2530,29 +2677,29 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
     if (countrySelect) countrySelect.value = "";
     sortSelect.value = "soonest";
     refreshCityOptions();
-    apply();
+    apply("reset");
   }
 
   searchInput.addEventListener("input", () => {
     state.query = searchInput.value.trim();
-    apply();
+    apply("search");
   });
   if (countrySelect) {
     countrySelect.addEventListener("change", () => {
       state.country = countrySelect.value;
       refreshCityOptions();
-      apply();
+      apply("country");
     });
   }
   if (citySelect) {
     citySelect.addEventListener("change", () => {
       state.city = citySelect.value;
-      apply();
+      apply("city");
     });
   }
   sortSelect.addEventListener("change", () => {
     state.sort = sortSelect.value;
-    apply();
+    apply("sort");
   });
   resetButton.addEventListener("click", resetFilters);
   shareButton.addEventListener("click", async () => {
@@ -2575,7 +2722,7 @@ function setupShowBoardFilters(section, grid, shows, cardOptions) {
     const filterIntro = document.createElement("div");
     filterIntro.className = "show-filter-intro";
     text(filterIntro, "h3", "Find your date");
-    text(filterIntro, "p", "Filter by city, country, venue, or tour, then open the checked event link that matches your plans.", "muted");
+    text(filterIntro, "p", "Jump to a month below, or search and filter by city, country, venue, or tour.", "muted");
     bar.append(searchInput, ...(countrySelect ? [countrySelect] : []), ...(citySelect ? [citySelect] : []), sortSelect, resetButton, shareButton);
     grid.before(filterIntro, bar);
   }
@@ -2879,35 +3026,51 @@ async function renderArtistsIndex() {
 
 function renderArtist(artist) {
   const isReviewRequired = artist.indexing_status !== "indexable_with_substantial_content";
+  // The server picks the description from the board: an empty board gets one
+  // that does not promise dates the page does not have. Read that decision off
+  // the server-rendered DOM (still in place at this point) rather than
+  // recomputing it, so hydration cannot put the authored, date-promising
+  // description back on a page with no dates — including og:/twitter:.
+  const hasServerDates = main.querySelectorAll("article.show-card[data-show-json]").length > 0;
+  const serverDescription = document.querySelector('meta[name="description"]')?.getAttribute("content") || "";
+  // Artist-page indexability is dynamic (functions/_artist-indexability.js):
+  // editorially indexable AND at least one upcoming show. setMeta previously
+  // keyed robots on the editorial status alone, so hydration rewrote the
+  // server's noindex,follow back to index,follow on every empty board — undoing
+  // the gate for any crawler that runs the page script. Mirror the server's
+  // decision instead of re-deriving half of it.
+  const shouldNoindex = isReviewRequired || !hasServerDates;
   setMeta(
     {
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
-      description:
-        artist.meta_description ||
-        `Check ${artist.name} ticket options through verified provider links, with practical buying guidance and clear transparency.`
+      description: hasServerDates
+        ? artist.meta_description ||
+          `Check ${artist.name} ticket options through verified provider links, with practical buying guidance and clear transparency.`
+        : serverDescription ||
+          `No verified upcoming ${artist.name} dates are listed right now. See what we check before a date is published, and get told when new ones land.`
     },
-    isReviewRequired
+    shouldNoindex
   );
 
   const section = document.createElement("section");
   section.className = "content-page artist-page";
   section.setAttribute("aria-labelledby", "artistTitle");
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Artists", href: "/artists" }, { label: artist.name }]));
-  text(section, "h1", artistPageHeading(artist)).id = "artistTitle";
-  text(section, "p", artistPageIntro(artist), "lead");
+  // The lead block (heading, data-grounded intro, fact strip) is derived from
+  // the board on the server; transplant it rather than recomputing copy the
+  // client cannot derive without the same annotated show data.
+  const serverLead = transplantServerNode("[data-artist-lead]");
+  if (serverLead) {
+    section.append(serverLead);
+  } else {
+    text(section, "h1", artistPageHeading(artist)).id = "artistTitle";
+  }
   if (isReviewRequired) {
     const reviewNotice = document.createElement("section");
     reviewNotice.className = "nested-panel review-notice";
     text(reviewNotice, "p", "We're still checking this artist's ticket links. The dates are here for reference in the meantime.", "disclosure-note");
     section.append(reviewNotice);
   }
-  // Keep this intro in sync with renderShowBoardServerHtml in functions/[[path]].js.
-  const showBoard = renderShowBoardShell(
-    "artistShowBoard",
-    "Upcoming shows",
-    "Pick your date, compare the prices we have, then check the fees and final total on the provider's site.",
-    "Some links earn us a commission — this never affects your price."
-  );
   const serverShows = Array.from(main.querySelectorAll("article.show-card[data-show-json]")).map((card) => {
     try {
       return JSON.parse(card.getAttribute("data-show-json") || "{}");
@@ -2915,12 +3078,27 @@ function renderArtist(artist) {
       return {};
     }
   });
-  const verificationPanel = buildVerificationDisclosurePanel(artist, serverShows);
+  // Keep this intro in sync with renderShowBoardServerHtml in functions/[[path]].js.
+  const showBoard = renderShowBoardShell(
+    "artistShowBoard",
+    serverShows.length ? "Upcoming dates" : "Upcoming shows",
+    serverShows.length
+      ? "Each date below comes from a reviewed source record. Pick yours, then compare the ticket sites that cover it."
+      : "Dates appear here once a source record confirms them and we've followed the ticket link.",
+    "Some links earn us a commission — this never affects your price."
+  );
+  // Shared price/link help and the provenance block are both server-rendered
+  // once from the shared content model; transplant, never rebuild.
+  const ticketHelp = transplantServerNode("[data-artist-ticket-help]");
+  const verificationPanel = transplantServerNode("[data-artist-trust]");
   const providerPanel = renderProviderButtons(artist, "artist_page");
+  // Dates and provider options first; help and provenance after them. An empty
+  // board leads with the artist-level providers because there is no date to
+  // pick, and carries no help component at all.
   if (serverShows.length) {
-    section.append(showBoard, providerPanel, verificationPanel);
+    section.append(showBoard, providerPanel, ...(ticketHelp ? [ticketHelp] : []), ...(verificationPanel ? [verificationPanel] : []));
   } else {
-    section.append(providerPanel, showBoard, verificationPanel);
+    section.append(providerPanel, showBoard, ...(verificationPanel ? [verificationPanel] : []));
   }
 
   const summary = document.createElement("section");
@@ -2932,20 +3110,6 @@ function renderArtist(artist) {
   text(right, "h2", "About these links");
   text(right, "p", artist.ticket_buying_notes);
   summary.append(left, right);
-
-  const checklist = document.createElement("section");
-  checklist.className = "nested-panel";
-  text(checklist, "h2", "Before you buy");
-  checklist.append(
-    createList(
-      [
-        "Check the price you actually pay, once fees are added.",
-        "Check where the seat is, and whether the view is restricted.",
-        "Check the provider's delivery, refund, and resale terms."
-      ],
-      "check-list"
-    )
-  );
 
   let relatedGuides = null;
   const relatedGuidePages = (Array.isArray(artist.related_guides) ? artist.related_guides : [])
@@ -2967,12 +3131,12 @@ function renderArtist(artist) {
     relatedGuides.append(relatedList);
   }
 
-  // The derived, data-driven content block (tour summaries, tickets-by-city and
-  // venue links, buying guide, pricing explanation) is server-rendered inside a
-  // single [data-artist-extra-content] container by functions/[[path]].js. We
+  // The derived, data-driven content block (tour summaries and the consolidated
+  // location links) is server-rendered inside a single
+  // [data-artist-extra-content] container by functions/[[path]].js. We
   // transplant that node unchanged rather than rebuilding it here, so the
   // hydrated page keeps exact parity with the server-rendered SEO content.
-  const extraContent = main.querySelector("[data-artist-extra-content]");
+  const extraContent = transplantServerNode("[data-artist-extra-content]");
 
   const usefulLinks = document.createElement("section");
   usefulLinks.className = "nested-panel";
@@ -2988,13 +3152,16 @@ function renderArtist(artist) {
   );
   usefulLinks.append(usefulGrid);
 
+  // The FAQ is data-grounded (its first answer counts this page's own dates)
+  // and is also the FAQPage JSON-LD source, so it is transplanted from the
+  // server render rather than rebuilt from a second copy of the questions.
+  const serverFaq = transplantServerNode("[data-artist-faq]");
   section.append(
     summary,
-    checklist,
     ...(extraContent ? [extraContent] : []),
     ...(relatedGuides ? [relatedGuides] : []),
     usefulLinks,
-    renderArtistFaq(artist)
+    ...(serverFaq ? [serverFaq] : [renderArtistFaq(artist)])
   );
 
   // Transplant server-rendered show cards so users see real content immediately
@@ -4001,6 +4168,13 @@ document.addEventListener("click", async (event) => {
   toggle.setAttribute("aria-expanded", "true");
   panel.hidden = false;
   toggle.textContent = "Hide price snapshot history";
+  // Event expansion: the only in-card disclosure on the board, so this is the
+  // "did the user open a date's detail" signal. Reported once per open.
+  sendAnalytics("event_expand", {
+    artistSlug: String(wrap.dataset.priceHistoryArtist || "").trim(),
+    showId: String(wrap.dataset.priceHistory || "").trim(),
+    panel: "price_history"
+  });
   if (wrap.dataset.priceHistoryLoaded === "true") return;
   wrap.dataset.priceHistoryLoaded = "true";
   panel.replaceChildren();

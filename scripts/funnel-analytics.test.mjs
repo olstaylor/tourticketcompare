@@ -864,7 +864,15 @@ await test("a view is never attributed to an artist the catalogue does not have"
 await test("no analytics endpoint exposes stored data over GET", async () => {
   const analyticsSource = await readFile(new URL("../functions/api/analytics.js", import.meta.url), "utf8");
   assert.ok(!/export\s+(async\s+)?function\s+onRequestGet/.test(analyticsSource), "/api/analytics must stay write-only");
-  assert.ok(!/SELECT/i.test(analyticsSource), "/api/analytics must not read rows back");
+  // Look for SQL, not for the word. Comments legitimately use "selected" in
+  // prose; what must never appear is a statement that reads rows back out.
+  const code = analyticsSource
+    .replace(/\/\*[\s\S]*?\*\//g, "")
+    .split("\n")
+    .filter((line) => !line.trim().startsWith("//"))
+    .join("\n");
+  assert.ok(!/\bSELECT\b[\s\S]{0,200}?\bFROM\b/i.test(code), "/api/analytics must not read rows back");
+  assert.ok(!/\.(first|all|raw)\s*\(/.test(code), "/api/analytics must not use a D1 read method");
 });
 
 await test("every funnel report query is read-only and free of personal columns", async () => {

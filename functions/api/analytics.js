@@ -23,9 +23,12 @@ const MAX_BODY_SIZE = 8 * 1024;
 // No client has ever posted this event, so rejecting it loses no data; rows
 // already in the table were all written by /api/out and stay comparable.
 //
-// The remaining events are denominators (views) or the non-authoritative
-// `provider_click`. Forging those can only depress a rate, never inflate the
-// click count, so they stay open. See docs/COMMERCIAL_FUNNEL.md.
+// The remaining events are denominators (views), engagement signals, or the
+// non-authoritative `provider_click`. Forging those can only depress a rate,
+// never inflate the click count, so they stay open. show_filter and
+// event_expand are artist show-board engagement (date filtering, opening a
+// date's price-history panel); they are not outbound clicks and never
+// duplicate provider_click / outbound_click. See docs/COMMERCIAL_FUNNEL.md.
 const ALLOWED_EVENTS = new Set([
   "page_view",
   "artist_view",
@@ -34,6 +37,8 @@ const ALLOWED_EVENTS = new Set([
   "email_signup",
   "artist_interest",
   "provider_click",
+  "show_filter",
+  "event_expand",
   "web_vitals"
 ]);
 
@@ -60,7 +65,12 @@ const SAFE_METADATA_KEYS = new Set([
   // Commercial funnel additions. All are low-cardinality labels or counts —
   // never free text, never an identifier of a person.
   "pageType", "ctaProviders", "ctaCount", "upcomingShows", "position",
-  "isAffiliate", "deviceCategory", "acquisitionSource", "outcome"
+  "isAffiliate", "deviceCategory", "acquisitionSource", "outcome",
+  // Artist show-board engagement (show_filter / event_expand). Without these
+  // the events record only an artist slug and measure nothing. "city" and
+  // "country" are the selected filter values, which come from our own event
+  // data, not free text — the raw search query is deliberately never sent.
+  "control", "hasQuery", "city", "country", "sort", "visibleCount", "totalCount", "panel"
 ]);
 
 export function sanitizeMetadata(value) {

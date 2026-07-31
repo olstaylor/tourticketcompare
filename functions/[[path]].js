@@ -14,7 +14,7 @@ import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js"
 import { deriveVenues, findVenue } from "./_venues.js";
 import { deriveCities, findCity, normalizeCountry } from "./_cities.js";
 import { deriveArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
-import { buildArtistContentModel, artistSearchIntro, artistPricingExplanation } from "./_artist-content.js";
+import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow } from "./_artist-indexability.js";
 
 const PUBLIC_HTML_ROUTES = new Set([
@@ -288,14 +288,20 @@ async function routeForPath(pathname, env) {
     // downgrades to noindex,follow and leaves the sitemap until a new verified
     // date lands. Shared with sitemap.xml.js so robots meta and sitemap agree.
     const artistEvents = await loadEvents(env);
+    const hasUpcoming = artistHasUpcomingShow(artistEvents, artist.slug);
     return {
       type: "artist",
       path,
       indexable: artistPageIndexable(enrichedArtist.indexing_status, artistEvents, artist.slug),
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
-      description:
-        artist.meta_description ||
-        `Check ${artist.name} watchlist notes and verified ticket links where available, with practical buying guidance and transparent sourcing.`,
+      // The authored description promises dates, which is right while the board
+      // has them. An empty board (always noindex,follow) gets a description that
+      // matches what the page actually says, so a shared or cached snippet never
+      // promises dates that are not there.
+      description: hasUpcoming
+        ? artist.meta_description ||
+          `Every upcoming ${artist.name} date we've verified, with the ticket links we've checked for each one.`
+        : `No verified upcoming ${artist.name} dates are listed right now. See what we check before a date is published, and get told when new ones land.`,
       artist: enrichedArtist,
       breadcrumb: [
         { name: "Artists", path: "/artists" },
@@ -441,30 +447,13 @@ function baseSchema(origin) {
   ];
 }
 
-function genericArtistFaq(artistName) {
-  return [
-    [
-      `Does this page list ${artistName} tour dates?`,
-      "No. This page does not publish tour dates unless event details have been verified. Use the verified ticket link, when available, to check current platform information."
-    ],
-    [
-      `Does TourTicketCompare sell ${artistName} tickets?`,
-      "No. TourTicketCompare does not sell tickets directly. We link to external ticketing platforms when a destination is verified."
-    ],
-    [
-      "Are ticket prices shown here?",
-      "A timestamped listed-price snapshot may appear when approved provider data for the exact event passes verification and freshness checks. It is not live inventory or a final checkout total; confirm the current price, fees, availability, and terms with the provider."
-    ]
-  ];
-}
-
-function artistFaqEntries(artist) {
-  const custom = Array.isArray(artist.faq)
-    ? artist.faq
-        .filter((entry) => entry && typeof entry === "object" && entry.question && entry.answer)
-        .map((entry) => [String(entry.question), String(entry.answer)])
-    : [];
-  return custom.length ? custom : genericArtistFaq(artist.name);
+// Artist FAQ entries come from the shared content model (see
+// artistFaqEntries in _artist-content.js): one data-grounded answer about this
+// page's own dates, then the artist's authored questions minus the ones the
+// visible page now answers directly. The visible <details> list and the
+// FAQPage JSON-LD both read this, so they cannot drift.
+function artistFaqEntriesForRoute(route, events, env) {
+  return artistBoardModel(route, events, env).content.faq;
 }
 
 // Guides author their FAQ as a visible "FAQ" section in guides-content.json:
@@ -502,17 +491,12 @@ function faqPageSchema(questions) {
 }
 
 function faqSchema(route) {
-  const questions =
-    route.type === "artist"
-      ? artistFaqEntries(route.artist)
-      : [
-          ["Is TourTicketCompare official?", "No. TourTicketCompare is independent and unofficial."],
-          ["Does the site sell tickets directly?", "No. Ticket buying happens on the external provider site."],
-          ["Why are some ticket buttons missing?", "Ticket buttons are hidden until the destination can be verified."],
-          ["Can final prices change?", "Yes. External ticketing sites set their own prices, fees, availability, and checkout terms."]
-        ];
-
-  return faqPageSchema(questions);
+  return faqPageSchema([
+    ["Is TourTicketCompare official?", "No. TourTicketCompare is independent and unofficial."],
+    ["Does the site sell tickets directly?", "No. Ticket buying happens on the external provider site."],
+    ["Why are some ticket buttons missing?", "Ticket buttons are hidden until the destination can be verified."],
+    ["Can final prices change?", "Yes. External ticketing sites set their own prices, fees, availability, and checkout terms."]
+  ]);
 }
 
 function cityFaqEntries(city) {
@@ -757,7 +741,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
   if (route.type === "artist") {
-    graph.push(artistSchema(route, origin), faqSchema(route));
+    graph.push(artistSchema(route, origin), faqPageSchema(artistFaqEntriesForRoute(route, events, env)));
     if (route.indexable) graph.push(...musicEventsSchema(route, origin, events, env));
   }
   if (route.type === "guide") {
@@ -1259,13 +1243,10 @@ function artistIndexableCities(events, artistSlug) {
 function renderArtistCitiesHtml(events, artist) {
   const cities = artistIndexableCities(events, artist.slug);
   if (!cities.length) return "";
-  const items = cities
+  return cities
     .slice(0, 30)
     .map((city) => `<li>${anchor(`${city.city}, ${city.country}`, `/cities/${city.slug}`)}</li>`)
     .join("");
-  return `<section class="nested-panel"><h2>Cities on this run</h2><p>Who else is playing the cities ${escapeHtml(
-    artist.name
-  )} is visiting:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
 function cityShowsByVenue(city) {
@@ -1443,7 +1424,7 @@ function artistIndexableVenues(events, artistSlug) {
 function renderArtistVenuesHtml(events, artist) {
   const venues = artistIndexableVenues(events, artist.slug);
   if (!venues.length) return "";
-  const items = venues
+  return venues
     .slice(0, 30)
     .map((venue) => {
       const location = venueLocationLabel(venue);
@@ -1453,9 +1434,6 @@ function renderArtistVenuesHtml(events, artist) {
       )}</li>`;
     })
     .join("");
-  return `<section class="nested-panel"><h2>Venues on this run</h2><p>What else is on at the venues ${escapeHtml(
-    artist.name
-  )} is playing:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
 // Data-derived upcoming-tour summaries. Each card is composed only from the
@@ -1487,19 +1465,73 @@ function renderArtistTourSummariesHtml(tours, artist) {
   )} tours and dates</h2><p>The runs behind the dates listed above. Pick a date up there to get to the ticket links for it.</p><div class="card-grid">${cards}</div></section>`;
 }
 
-// Practical ticket-buying guide, from artistBuyingGuide in _artist-content.js.
-function renderArtistBuyingGuideHtml(guide, artist) {
-  const steps = guide.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("");
-  return `<section class="nested-panel"><h2>How to buy ${escapeHtml(
-    artist.name
-  )} tickets</h2><p>${escapeHtml(guide.intro)}</p><ol class="check-list">${steps}</ol></section>`;
+// The artist page's board + derived content, computed once per request. The
+// FAQ (which is also the FAQPage JSON-LD source) and the visible page are both
+// built from this, so the schema can never describe a board the reader isn't
+// looking at. Keyed on the route object, which is created per request.
+const ARTIST_BOARD_MODELS = new WeakMap();
+
+function artistBoardModel(route, events, env) {
+  const cached = ARTIST_BOARD_MODELS.get(route);
+  if (cached) return cached;
+  const artist = route.artist;
+  const availability = {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability: Object.fromEntries(
+      IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
+    )
+  };
+  const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
+  // Annotate each show with what its card will actually offer, using the same
+  // CTA and price gates the card renderer uses. The intro's coverage counts are
+  // therefore a description of the buttons on this page, not an estimate.
+  const shows = futureShowsForArtist(events, artist.slug).map((show) => {
+    const specs = isIndexableArtist ? serverShowCtaSpecs(show, availability) : [];
+    return {
+      ...show,
+      ctaProviderCount: specs.length,
+      hasPriceSnapshot: specs.some((spec) => spec.priceAmount && spec.priceAsOf)
+    };
+  });
+  // Only computed for the empty board: the artist's last verified dates give
+  // the zero-upcoming state real, factual content instead of a bare form.
+  const pastShows = shows.length ? [] : recentPastShowsForArtist(events, artist.slug, 3);
+  const model = {
+    shows,
+    pastShows,
+    content: buildArtistContentModel(artist, shows, {
+      formatDate: (iso, timezone) => formatShowDateServer(iso, timezone),
+      formatShortDate: (iso, timezone) => formatShortDateServer(iso, timezone),
+      pastShowCount: pastShows.length
+    })
+  };
+  ARTIST_BOARD_MODELS.set(route, model);
+  return model;
 }
 
-// Pricing explanation with a safe fallback, from artistPricingExplanation.
-function renderArtistPricingHtml(pricing) {
-  const points = pricing.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("");
-  return `<section class="nested-panel"><h2>How ticket prices are shown here</h2><p>${escapeHtml(
-    pricing.intro
+// The fact strip under the lead: the countable state of this board, above the
+// fold, before any prose. Values come straight from artistStatusFacts.
+function renderArtistStatusFactsHtml(facts) {
+  if (!Array.isArray(facts) || !facts.length) return "";
+  const items = facts
+    .map(
+      (fact) =>
+        `<div class="artist-fact"><dt>${escapeHtml(fact.label)}</dt><dd>${escapeHtml(fact.value)}</dd></div>`
+    )
+    .join("");
+  return `<dl class="artist-fact-strip" data-artist-facts>${items}</dl>`;
+}
+
+// The one shared help component (artistTicketHelp in _artist-content.js). It
+// replaced three overlapping blocks of the same generic advice that used to sit
+// on every artist page ("Before you buy", "How to buy <artist> tickets", "How
+// ticket prices are shown here"). Universal information lives here once; page
+// copy is reserved for what is specific to this artist's dates.
+function renderArtistTicketHelpHtml(help) {
+  const points = help.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("");
+  return `<section class="nested-panel artist-ticket-help" data-artist-ticket-help><h2>How prices and links work here</h2><p>${escapeHtml(
+    help.intro
   )}</p><ul class="check-list">${points}</ul></section>`;
 }
 
@@ -1511,7 +1543,7 @@ function renderArtistTicketCitiesHtml(events, artist) {
   if (artist?.indexing_status !== "indexable_with_substantial_content") return "";
   const cities = deriveArtistCities(events, artist.slug).filter((city) => city.hasPublishable);
   if (!cities.length) return "";
-  const items = cities
+  return cities
     .slice(0, 40)
     .map((city) => {
       const count = cityShowCountLabel(city.showCount);
@@ -1521,9 +1553,42 @@ function renderArtistTicketCitiesHtml(events, artist) {
       )} — ${escapeHtml(count)}</li>`;
     })
     .join("");
-  return `<section class="nested-panel"><h2>${escapeHtml(
-    artist.name
-  )} tickets by city</h2><p>Go straight to a city for the dates, venues, and ticket links there:</p><ul class="guide-link-list">${items}</ul></section>`;
+}
+
+// One place for every location link an artist page carries, instead of the
+// three separate keyword-headed panels it used to render ("... tickets by
+// city", "Cities on this run", "Venues on this run"). Each list is still gated
+// on current tracked events — a city or venue link only appears while that page
+// has upcoming shows on it — so these remain the artist page's crawl paths to
+// the location layer, just consolidated into one block low on the page.
+function renderArtistLocationLinksHtml(events, artist) {
+  const groups = [
+    {
+      heading: `Dates by city`,
+      note: "Straight to one city's dates, venues, and ticket links.",
+      items: renderArtistTicketCitiesHtml(events, artist)
+    },
+    {
+      heading: "Cities on this run",
+      note: `Who else is playing the cities ${artist.name} is visiting.`,
+      items: renderArtistCitiesHtml(events, artist)
+    },
+    {
+      heading: "Venues on this run",
+      note: `What else is on at the venues ${artist.name} is playing.`,
+      items: renderArtistVenuesHtml(events, artist)
+    }
+  ].filter((group) => group.items);
+  if (!groups.length) return "";
+  const blocks = groups
+    .map(
+      (group) =>
+        `<div class="artist-location-group"><h3>${escapeHtml(group.heading)}</h3><p class="muted">${escapeHtml(
+          group.note
+        )}</p><ul class="guide-link-list">${group.items}</ul></div>`
+    )
+    .join("");
+  return `<section class="nested-panel artist-location-links"><h2>Where these dates are</h2>${blocks}</section>`;
 }
 
 // The derived, data-driven artist content block. It is wrapped in a single
@@ -1533,11 +1598,7 @@ function renderArtistTicketCitiesHtml(events, artist) {
 function renderArtistExtraContentHtml(model, events, artist) {
   const inner = [
     renderArtistTourSummariesHtml(model.tours, artist),
-    renderArtistTicketCitiesHtml(events, artist),
-    renderArtistCitiesHtml(events, artist),
-    renderArtistVenuesHtml(events, artist),
-    renderArtistBuyingGuideHtml(model.buyingGuide, artist),
-    renderArtistPricingHtml(model.pricing)
+    renderArtistLocationLinksHtml(events, artist)
   ].join("");
   return `<div data-artist-extra-content>${inner}</div>`;
 }
@@ -2196,15 +2257,38 @@ function formatVerificationDate(value) {
   }
 }
 
+// The artist page's editorial provenance block, matching the pattern the city,
+// venue, and guide pages already use. The dates it prints come from the
+// automated verification lanes, and it says so: the repository holds no
+// human-review timestamp for an artist page, so none is claimed here.
 function renderVerificationDisclosure(artist, shows = []) {
-  // Single consolidated trust block for artist pages. Keep in sync with
-  // buildVerificationDisclosurePanel in public/app.js.
   const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
   const eventDates = [...new Set(shows.map(show => formatVerificationDate(show.last_verified_at)).filter(Boolean))];
   const eventRange = eventDates.length ? (eventDates.length === 1 ? eventDates[0] : `${eventDates[0]} to ${eventDates[eventDates.length - 1]}`) : null;
-  return `<section class="nested-panel verification-disclosure"><h2>How these links work</h2><p class="muted">We follow every ticket link before it goes up. Prices, fees, availability and delivery are the provider's, not ours — and some links earn us a commission.</p>${
-    artistVerifiedDate ? `<p class="disclosure-note">Artist last checked: ${escapeHtml(artistVerifiedDate)}.</p>` : ""
-  }${eventRange ? `<p class="disclosure-note">Event links last checked: ${escapeHtml(eventRange)}.</p>` : ""}</section>`;
+  const checkedParts = [
+    artistVerifiedDate ? `artist links ${escapeHtml(artistVerifiedDate)}` : "",
+    eventRange ? `event records ${escapeHtml(eventRange)}` : ""
+  ].filter(Boolean);
+  const checkedLine = checkedParts.length
+    ? `<p><strong>Data checked:</strong> ${checkedParts.join(
+        ", "
+      )}. Those are the most recent dates our automated link and source checks recorded against this page's records; the checks themselves run daily. This page has no separate human editorial review date, and we don't print one we haven't done.</p>`
+    : `<p><strong>Data checked:</strong> our automated link and source checks run daily, and none has recorded a date against this page's records yet. This page has no separate human editorial review date, and we don't print one we haven't done.</p>`;
+  return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How we check this page</h2><p>Published by the ${anchor(
+    "TourTicketCompare editorial team",
+    "/about",
+    "text-link"
+  )}, independent and unofficial — we are not affiliated with ${escapeHtml(
+    artist.name
+  )}, any promoter, or any ticket site.</p>${checkedLine}<p><strong>What we verify:</strong> that each date comes from a reviewed source record with a date, venue and city, and that every ticket button we publish resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button.</p><p><strong>What we don't verify:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p><p class="disclosure-note">Some outbound links earn us a commission, which never changes what you pay — see our ${anchor(
+    "affiliate disclosure",
+    "/affiliate-disclosure",
+    "text-link"
+  )} and ${anchor("editorial policy", "/editorial-policy", "text-link")}. Spotted a wrong date or a broken link? ${anchor(
+    "Tell us and we'll fix it",
+    "/contact",
+    "text-link"
+  )}.</p></section>`;
 }
 
 // Normalise a raw events.json record into the enriched "show" shape used by
@@ -2338,6 +2422,46 @@ function formatShowDateServer(iso, timezone) {
 
 function showLocationServer(show) {
   return [show.city, show.venue].filter((v) => String(v || "").trim()).join(" · ");
+}
+
+// Weekday-free date for prose (a run range in the page intro), where the full
+// "Fri, Sep 25, 2026" form reads as noise.
+function formatShortDateServer(iso, timezone) {
+  const parts = venueDateParts(iso, timezone);
+  if (!parts) return "";
+  try {
+    return parts.date.toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+      timeZone: parts.timeZone
+    });
+  } catch (error) {
+    return "";
+  }
+}
+
+// Doors/stage time at the venue, for the show-card meta line. Only rendered
+// when the source record carries a real clock time: a row whose venue-local
+// time lands exactly on midnight is a date-only record, and printing "12:00 AM"
+// for it would invent a start time the source never gave us.
+// Keep in sync with showLocalTime in public/app.js.
+function showLocalTimeServer(iso, timezone) {
+  const parts = venueDateParts(iso, timezone);
+  if (!parts) return "";
+  try {
+    const hour = Number(parts.date.toLocaleString("en-US", { hour: "numeric", hour12: false, timeZone: parts.timeZone }));
+    const minute = Number(parts.date.toLocaleString("en-US", { minute: "numeric", timeZone: parts.timeZone }));
+    if (!Number.isFinite(hour) || !Number.isFinite(minute)) return "";
+    if (hour === 0 && minute === 0) return "";
+    return parts.date.toLocaleTimeString("en-US", {
+      hour: "numeric",
+      minute: "2-digit",
+      timeZone: parts.timeZone
+    });
+  } catch (error) {
+    return "";
+  }
 }
 
 // Date badge parts for the compact show card. Keep in sync with
@@ -2639,50 +2763,57 @@ function venueRunIndex(shows) {
   return index;
 }
 
+// The providers whose button actually renders for one show, in display order,
+// each with its approved fresh listed-price snapshot resolved (or null).
+// SeatGeek (primary affiliate) leads, then Vivid Seats, the Impact marketplace
+// lanes, and the plain Ticketmaster verification link last. This is the single
+// place the server decides what a card offers, so the card markup and the
+// board-level coverage facts in the page intro can never disagree.
+// Keep in sync with the ctaSpecs block in renderShowCard in public/app.js.
+function serverShowCtaSpecs(show, { seatGeekAvailable = false, vividSeatsAvailable = false, marketplaceAvailability = {} } = {}) {
+  if (!show?.id) return [];
+  const specs = [];
+  if (seatGeekOutAvailable(show, seatGeekAvailable)) {
+    specs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: null });
+  }
+  if (vividSeatsOutAvailable(show, vividSeatsAvailable)) {
+    specs.push({ provider: "vivid-seats", name: "Vivid Seats", href: eventTicketHref(show, "vivid-seats"), lane: approvedServerPriceLane(show, "Vivid Seats") });
+  }
+  for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
+    const publishable = show?.impactMarketplacePublishable?.[provider.slug] ?? providerEventPublishable(show, provider.slug);
+    const href = eventTicketHref(show, provider.slug);
+    if (marketplaceAvailability[provider.slug] && publishable && href) {
+      specs.push({ provider: provider.slug, name: provider.name, href, lane: approvedServerPriceLane(show, provider.name) });
+    }
+  }
+  if (safeShowTicketUrl(show.ticketmaster_url) && show.publishable) {
+    specs.push({ provider: "ticketmaster", name: "Ticketmaster", href: eventTicketHref(show, "ticketmaster"), lane: null });
+  }
+  for (const spec of specs) {
+    if (!spec.lane) continue;
+    const amount = formatServerPrice(spec.lane.price, spec.lane.currency);
+    const asOf = formatServerSnapshotTime(spec.lane.fetchedAt);
+    if (amount && asOf) {
+      spec.priceAmount = amount;
+      spec.priceAsOf = asOf;
+    } else {
+      spec.lane = null;
+    }
+  }
+  return specs;
+}
+
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
   const location = showLocationServer(show);
   const anchorId = showAnchorId(show);
-  const validUrl = safeShowTicketUrl(show.ticketmaster_url);
-  let ctaHtml = `<p class="disclosure-note">No verified ticket link is available for this date.</p>`;
+  let ctaHtml = `<p class="disclosure-note">No verified ticket link is available for this date. It stays listed so the date itself is still visible.</p>`;
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. Buy buttons appear once the destination has been checked.</p>`;
   } else if (show.id) {
-    // One button per available provider. SeatGeek (primary affiliate) leads,
-    // then Vivid Seats, the Impact marketplace lanes, and the plain
-    // Ticketmaster verification link last. A provider with an approved, fresh
-    // price lane shows the listed snapshot amount on its own button (the price
-    // is the CTA); the rest read "Check prices". Snapshot disclosures render
-    // once beneath the buttons. Keep in sync with renderShowCard in
-    // public/app.js.
-    const tmAvailable = Boolean(validUrl && show.publishable);
-    const sgAvailable = seatGeekOutAvailable(show, seatGeekAvailable);
-    const vsAvailable = vividSeatsOutAvailable(show, vividSeatsAvailable);
-    const ctaSpecs = [];
-      if (sgAvailable) ctaSpecs.push({ provider: "seatgeek", name: "SeatGeek", href: eventTicketHref(show, "seatgeek"), lane: null });
-    if (vsAvailable) ctaSpecs.push({ provider: "vivid-seats", name: "Vivid Seats", href: eventTicketHref(show, "vivid-seats"), lane: approvedServerPriceLane(show, "Vivid Seats") });
-    for (const provider of IMPACT_MARKETPLACE_PROVIDERS) {
-      const publishable = show?.impactMarketplacePublishable?.[provider.slug] ?? providerEventPublishable(show, provider.slug);
-      const href = eventTicketHref(show, provider.slug);
-      if (marketplaceAvailability[provider.slug] && publishable && href) {
-        ctaSpecs.push({ provider: provider.slug, name: provider.name, href, lane: approvedServerPriceLane(show, provider.name) });
-      }
-    }
-    if (tmAvailable) ctaSpecs.push({ provider: "ticketmaster", name: "Ticketmaster", href: eventTicketHref(show, "ticketmaster"), lane: null });
-
+    const ctaSpecs = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability });
     if (ctaSpecs.length) {
-      for (const spec of ctaSpecs) {
-        if (!spec.lane) continue;
-        const amount = formatServerPrice(spec.lane.price, spec.lane.currency);
-        const asOf = formatServerSnapshotTime(spec.lane.fetchedAt);
-        if (amount && asOf) {
-          spec.priceAmount = amount;
-          spec.priceAsOf = asOf;
-        } else {
-          spec.lane = null;
-        }
-      }
       // Keep every provider in one fixed-order list. A fresh approved snapshot
       // replaces "Check prices" with the amount, without moving the provider or
       // splitting the card into separate priced and unpriced sections.
@@ -2690,7 +2821,13 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       const buttonsHtml = ctaSpecs
         .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }))
         .join("");
-      ctaHtml = `<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs)}`;
+      // One labelled group, so the row of provider buttons reads as the action
+      // it is. The buttons are the only outbound links on the card — there is
+      // no second "compare" link to double-count a click through.
+      const ctaLabel = `<p class="provider-cta-label">Compare ticket options for this date<span class="sr-only"> at ${escapeHtml(
+        location || "this show"
+      )}</span></p>`;
+      ctaHtml = `${ctaLabel}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs)}`;
     }
   }
 
@@ -2714,9 +2851,27 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   const badgeHtml = dateParts
     ? `<div class="show-date-badge"><span class="show-date-weekday">${escapeHtml(dateParts.weekday)}</span><span class="show-date-day">${escapeHtml(dateParts.day)}</span><span class="show-date-monthyear">${escapeHtml(dateParts.monthYear)}</span></div>`
     : "";
+  // Meta line: the facts that identify one date apart from any other, in the
+  // order a buyer checks them. Each part renders only when the source record
+  // carries it, so nothing here is inferred.
+  const fullDate = formatShowDateServer(show.dateTimeISO, show.timezone);
+  const localTime = showLocalTimeServer(show.dateTimeISO, show.timezone);
+  const metaParts = [
+    fullDate ? `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(fullDate)}</time>` : "",
+    localTime ? `${escapeHtml(localTime)} local` : "",
+    show.country ? escapeHtml(show.country) : ""
+  ].filter(Boolean);
+  const metaHtml = metaParts.length ? `<p class="show-card-meta">${metaParts.join(" · ")}</p>` : "";
+  // Multi-night stands: the date is the only thing separating these cards, so
+  // the night number is a visible chip beside the date rather than a muted
+  // aside. Derived purely from the verified rows already on the board.
   const run = venueRuns[String(show.id || "")];
-  const runHtml = run ? `<p class="show-card-run muted">Show ${run.position} of ${run.total} at this venue</p>` : "";
-  return `<article class="info-card show-card"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
+  const runHtml = run
+    ? `<p class="show-card-run"><span class="show-run-chip">Night ${run.position} of ${run.total}</span> at this venue${
+        fullDate ? ` — this card is ${escapeHtml(fullDate)}` : ""
+      }</p>`
+    : "";
+  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
 }
 
 // Zero-event board state. The primary CTA is the artist-level page of the
@@ -2745,31 +2900,84 @@ function renderRecentShowsHtml(safeName, pastShows) {
 // confirmation. With JavaScript, public/app.js intercepts the submit (via the
 // data-watchlist-shell hook) and posts JSON for inline status instead. Keep in
 // sync with renderShowBoardEmptyState in public/app.js.
-function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, artistSlug = "", pastShows = []) {
+function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, artistSlug = "", pastShows = [], emptyCopy = null) {
   const safeName = escapeHtml(String(artistName || "").trim() || "artist");
+  const copy = emptyCopy || {
+    heading: "No upcoming dates listed",
+    body: `We have no verified upcoming ${String(artistName || "").trim() || "artist"} dates on file, and we can't say whether more are coming.`,
+    next: "When a date is confirmed by our source and we've followed the ticket link to that exact event, it appears on this page with the ticket sites that cover it."
+  };
+  // The artist-level provider page is the only outbound option here: there are
+  // no verified dates, so there is nothing event-level to link to.
   const primaryCta = providerCta
-    ? anchor(`Check ${escapeHtml(providerCta.name)} for updates`, providerCta.href, "button button-primary", `rel="${escapeAttr(outboundCtaRel(providerCta.href) || "noopener")}" data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
+    ? anchor(`Check ${escapeHtml(providerCta.name)} for updates`, providerCta.href, "button button-secondary", `rel="${escapeAttr(outboundCtaRel(providerCta.href) || "noopener")}" data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
     : anchor("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary");
   const recentHtml = renderRecentShowsHtml(safeName, pastShows);
   const signupHtml = artistSlug
-    ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Get told when ${safeName} dates land</h4><p class="muted">Leave your email and we'll let you know as soon as we've got confirmed ${safeName} dates and ticket links up.</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
+    ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Get told when ${safeName} dates land</h4><p class="muted">Leave your email and we'll email you once we've published confirmed ${safeName} dates with checked ticket links. Nothing else.</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
     : "";
-  return `<div class="empty-state"><h3>No upcoming dates yet</h3><p class="muted">Nothing confirmed for ${safeName} right now. New dates show up here as soon as we've checked where the tickets lead.</p>${recentHtml}${signupHtml}<div class="action-row">${primaryCta}${anchor(
+  return `<div class="empty-state"><h3>${escapeHtml(copy.heading)}</h3><p>${escapeHtml(copy.body)}</p><p class="muted">${escapeHtml(
+    copy.next
+  )}</p>${recentHtml}${signupHtml}<div class="action-row">${primaryCta}${anchor(
     "Browse artists",
     "/artists",
     "button button-secondary"
   )}</div></div>`;
 }
 
-function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}, artistSlug = "", pastShows = []) {
+// A month-by-month jump list for boards long enough that scrolling is the
+// wrong tool. Each entry targets the anchor of the first card in that month,
+// so it works with JavaScript off — the client filter bar in public/app.js is
+// the enhancement on top, not the only way to navigate.
+// Keep in sync with monthJumpEntries in public/app.js.
+function monthJumpEntries(shows) {
+  const months = new Map();
+  for (const show of Array.isArray(shows) ? shows : []) {
+    const parts = venueDateParts(show?.dateTimeISO, show?.timezone);
+    const anchorId = showAnchorId(show);
+    if (!parts || !anchorId) continue;
+    let label = "";
+    try {
+      label = parts.date.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: parts.timeZone });
+    } catch (error) {
+      continue;
+    }
+    if (!label) continue;
+    if (!months.has(label)) months.set(label, { label, anchorId, count: 0 });
+    months.get(label).count += 1;
+  }
+  return [...months.values()];
+}
+
+const SHOW_BOARD_JUMP_THRESHOLD = 8;
+
+function renderShowBoardJumpHtml(shows) {
+  if (!Array.isArray(shows) || shows.length < SHOW_BOARD_JUMP_THRESHOLD) return "";
+  const months = monthJumpEntries(shows);
+  if (months.length < 2) return "";
+  const links = months
+    .map(
+      (month) =>
+        `<li><a class="mini-link" href="#${escapeAttr(month.anchorId)}">${escapeHtml(month.label)}<span class="muted"> (${month.count})</span></a></li>`
+    )
+    .join("");
+  return `<nav class="show-board-jump" aria-label="Jump to a month"><p class="muted">Jump to:</p><ul class="show-board-jump-list">${links}</ul></nav>`;
+}
+
+function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexableArtist = true, artistName = "", vividSeatsAvailable = false, emptyStateProviderCta = null, marketplaceAvailability = {}, artistSlug = "", pastShows = [], emptyCopy = null) {
   const venueRuns = venueRunIndex(shows);
   const gridContent = shows.length
     ? shows.map(show => renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability, artistSlug, venueRuns)).join("")
-    : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta, artistSlug, pastShows);
+    : renderShowBoardEmptyStateHtml(artistName, emptyStateProviderCta, artistSlug, pastShows, emptyCopy);
   const filterIntro = shows.length > 1
-    ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Filter by city, venue, or tour to jump to your date.</p></div>`
+    ? `<div class="show-filter-intro"><h3>Find your date</h3><p class="muted">Jump to a month below, or use the search and city filters to narrow the list.</p></div>${renderShowBoardJumpHtml(shows)}`
     : "";
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming shows</h2><p>Pick your date, compare the prices we have, then check the fees and final total on the provider's site.</p><p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  const boardIntro = shows.length
+    ? `<p>Each date below comes from a reviewed source record. Pick yours, then compare the ticket sites that cover it.</p>`
+    : `<p>Dates appear here once a source record confirms them and we've followed the ticket link.</p>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">${
+    shows.length ? "Upcoming dates" : "Upcoming shows"
+  }</h2>${boardIntro}<p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -2832,15 +3040,12 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       ? `<section class="nested-panel"><h2>Related guides</h2><p>How to compare prices, tell primary from resale, spot a scam, and pick your moment:</p><ul class="guide-link-list">${relatedGuideLinks}</ul></section>`
       : "";
     const isIndexableArtist = artist.indexing_status === "indexable_with_substantial_content";
-    const shows = futureShowsForArtist(events, artist.slug);
-    // Derived, data-driven content model (search intro, tour summaries, buying
-    // guide, pricing explanation) built once from the same verified event data.
-    const contentModel = buildArtistContentModel(artist, shows);
+    const { shows, content: contentModel, pastShows } = artistBoardModel(route, events, env);
     const artistExtraContentHtml = renderArtistExtraContentHtml(contentModel, events, artist);
     const reviewNoticeHtml = isIndexableArtist
       ? ""
       : `<section class="nested-panel review-notice"><p class="disclosure-note">This artist page is currently under review. Event details are shown for reference while ticket links are checked.</p></section>`;
-    const artistFaqHtml = artistFaqEntries(artist)
+    const artistFaqHtml = contentModel.faq
       .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
       .join("");
     const providerAvailability = { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable, ...marketplaceAvailability };
@@ -2851,30 +3056,42 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
           href: artistProviderHref(artist, primaryProviderLink, "artist_page")
         }
       : null;
-    // Only computed for the empty board: the artist's last verified dates give
-    // the zero-upcoming state real, factual content instead of a bare form.
-    const pastShows = shows.length ? [] : recentPastShowsForArtist(events, artist.slug, 3);
-    return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
-      route
-    )}<h1 id="artistTitle">${escapeHtml(
+    // Lead block: heading, the data-grounded intro, and the fact strip. Wrapped
+    // for hydration transplant so the client never recomputes this copy.
+    const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       artist.name
-    )} tickets and tour dates</h1><p class="lead">${escapeHtml(
-      artistSearchIntro(artist)
-    )}</p>${reviewNoticeHtml}${shows.length ? `${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, null, marketplaceAvailability, artist.slug)}${renderProviderFallback(
-      catalog,
-      artist,
-      "artist_page",
-      providerAvailability
-    )}${renderVerificationDisclosure(artist, shows)}` : `${renderProviderFallback(
-      catalog,
-      artist,
-      "artist_page",
-      providerAvailability
-    )}${renderShowBoardServerHtml(shows, seatGeekAvailable, isIndexableArtist, artist.name, vividSeatsAvailable, emptyStateProviderCta, marketplaceAvailability, artist.slug, pastShows)}${renderVerificationDisclosure(artist, shows)}`}<section class="split-section"><div><h2>About ${escapeHtml(
+    )} tickets and tour dates</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${renderArtistStatusFactsHtml(
+      contentModel.facts
+    )}</div>`;
+    const showBoardHtml = renderShowBoardServerHtml(
+      shows,
+      seatGeekAvailable,
+      isIndexableArtist,
+      artist.name,
+      vividSeatsAvailable,
+      shows.length ? null : emptyStateProviderCta,
+      marketplaceAvailability,
+      artist.slug,
+      pastShows,
+      contentModel.emptyBoard
+    );
+    const providerPanelHtml = renderProviderFallback(catalog, artist, "artist_page", providerAvailability);
+    const trustHtml = renderVerificationDisclosure(artist, shows);
+    // Page order: dates and provider options first, then the compact shared
+    // price/fee help, then provenance, and only then supporting editorial. An
+    // empty board skips the help component entirely — there is nothing to
+    // compare, and a page with no dates is not the place for a buying course.
+    const commercialHtml = shows.length
+      ? `${showBoardHtml}${providerPanelHtml}${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
+      : `${providerPanelHtml}${showBoardHtml}${trustHtml}`;
+    const supportingHtml = `<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>About these links</h2><p>${escapeHtml(
       artist.ticket_buying_notes
-    )}</p></div></section><section class="nested-panel"><h2>Before you buy</h2><ul class="check-list"><li>Check the price you actually pay, once fees are added.</li><li>Check where the seat is, and whether the view is restricted.</li><li>Check the provider's delivery, refund, and resale terms.</li></ul></section>${artistExtraContentHtml}${relatedGuidesHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+    )}</p></div></section>${artistExtraContentHtml}${relatedGuidesHtml}`;
+    return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
+      route
+    )}${leadHtml}${reviewNoticeHtml}${commercialHtml}${supportingHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "mini-link"
@@ -2886,7 +3103,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Affiliate disclosure",
       "/affiliate-disclosure",
       "mini-link"
-    )}</div></section><section class="nested-panel faq-panel"><h2>${escapeHtml(
+    )}</div></section><section class="nested-panel faq-panel" data-artist-faq><h2>${escapeHtml(
       artist.name
     )} ticket FAQ</h2>${artistFaqHtml}</section></section></main>`;
   }
@@ -2930,8 +3147,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       null,
       marketplaceAvailability,
       artist.slug
-    )}${renderArtistCityLocalGuide(artist, artistCity)}${renderArtistPricingHtml(
-      artistPricingExplanation()
+    )}${renderArtistCityLocalGuide(artist, artistCity)}${renderArtistTicketHelpHtml(
+      artistTicketHelp()
     )}${relatedLinksHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
       `/artists/${artist.slug}`,

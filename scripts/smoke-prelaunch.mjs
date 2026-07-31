@@ -3126,6 +3126,37 @@ assert(
   "narrow-screen tap targets should meet a minimum height"
 );
 
+// Horizontal-overflow guards. `main` is a grid, so a grid item's automatic
+// minimum size is its min-content: one wide thing inside a section makes the
+// whole page scroll sideways. The empty artist board hit this through the
+// watchlist email input, whose intrinsic width comes from the `size` attribute
+// it does not set (defaulting to 20 characters) and which neither flex-basis
+// nor min-width affects.
+assert(
+  /main > \*\s*\{[^}]*min-width:\s*0/.test(artistStylesCss),
+  "main's grid items must be allowed to shrink below their min-content width"
+);
+assert(
+  /\.watchlist-signup-row input\[type="email"\]\s*\{[^}]*\bwidth:\s*0/.test(artistStylesCss),
+  "the watchlist email input must not contribute its default size=20 intrinsic width to the page"
+);
+
+// The page shell must not carry an inline <style> block: the Content Security
+// Policy this site sends is `style-src 'self'`, which refuses inline styles
+// outright, so such a block is dead weight that never applies and logs a
+// violation on every page load.
+assert(!/<style[\s>]/i.test(shellHtml), "public/index.html must not carry an inline <style> block — style-src 'self' blocks it");
+assert(
+  !/\sstyle="/i.test(shellHtml),
+  "public/index.html must not carry inline style attributes — style-src 'self' blocks them"
+);
+const cspStyleSrc = (await read("functions/[[path]].js")).match(/"style-src ([^"]*)"/);
+assert(cspStyleSrc, "the CSP should still declare a style-src directive");
+assert(
+  !cspStyleSrc[1].includes("unsafe-inline"),
+  "style-src must not be relaxed to unsafe-inline; remove inline styles instead"
+);
+
 console.log("artist-page comparison UX verified: many / one / multi-night / weak-coverage / empty");
 
 // --- Artist-board engagement analytics --------------------------------------

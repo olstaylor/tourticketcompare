@@ -1,5 +1,19 @@
 # Indexable-surface baseline — 2026-07-30
 
+> **Correction (2026-07-31).** The provider-coverage figures in §2 and §3 below
+> were computed with a destination test that looked only at each row's own
+> `verification_status`. That was wrong: the renderer also publishes a CTA for a
+> `needs_recheck` row carrying an independently verified marketplace destination
+> (`providerEventPublishable` in `functions/[[path]].js`), which is most of
+> Arlington, Houston and Sunrise. The claim that six indexable location pages
+> "cannot lead anywhere" is therefore incorrect — on the corrected test it is
+> **one venue page** (AFAS Dome Antwerp, which has no verified link from any
+> provider) and **no city pages**. The route-count, traffic, internal-link and
+> decay figures are unaffected. Corrected in the same PR that introduced the
+> policy; see `docs/ROUTE_INDEXABILITY_POLICY.md` § City and § Publishable is
+> not the same as schema-eligible. The rest of this file is left as measured so
+> the original reasoning stays auditable.
+
 Frozen pre-change measurement taken before the route-usefulness policy in
 [docs/ROUTE_INDEXABILITY_POLICY.md](../../docs/ROUTE_INDEXABILITY_POLICY.md) was
 implemented. Everything below is derived from the repository's own shared gate

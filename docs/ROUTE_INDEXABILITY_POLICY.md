@@ -61,10 +61,17 @@ verified date lands.
 | Distinct artists | ≥ 2 | A single-artist city page *is* the artist page filtered by city |
 | Shows with a publishable ticket destination | ≥ 1 | A page titled "concerts in X" that can lead nowhere cannot serve its own purpose |
 
-The destination requirement is the part this policy added. Two city pages were
-indexed while every event on them was CTA-suppressed; they were also the only
-two indexable city pages emitting no `MusicEvent` structured data, because the
-schema gate had already reached the right answer the robots gate had not.
+The destination requirement is the part this policy added. "Can lead somewhere"
+means what the renderer means by it: a row whose own verification status is
+publishable, **or** one carrying an independently verified marketplace
+destination with a stored URL. That second case is not marginal — Arlington,
+Houston and Sunrise consist entirely of `needs_recheck` rows with verified
+SeatGeek links, and every one renders a working CTA. Testing the row status
+alone would have de-indexed those pages while their buttons still worked.
+
+On current data the requirement excludes **one venue page** (AFAS Dome,
+Antwerp: three upcoming shows, no verified link from any provider) and no city
+pages.
 
 A city page must stay explicit that coverage is selective — it is not a local
 concert calendar. That disclosure is visible on the page, not only in the FAQ.
@@ -115,6 +122,23 @@ option, so it does not make the page more useful than the artist page.
 
 **Recovery is automatic.** The moment a second date in that city is verified,
 the page flips to `index,follow` and re-enters the sitemap on the next deploy.
+
+### Publishable is not the same as schema-eligible
+
+This distinction applies to all three location route types.
+
+`MusicEvent` nodes are emitted only for events that clear the *row-status* gate,
+which this policy does not change. So an indexable location page may carry fewer
+`MusicEvent` nodes than it has shows, or none at all — an Arlington or Houston
+page renders working SeatGeek CTAs on rows that are still awaiting a Ticketmaster
+storefront recheck, and those rows produce no `MusicEvent`.
+
+That is intended. Visible content may exceed structured data; the rule that
+matters runs the other way — never emit schema for content the page does not
+show. The two counts are named separately in the derivations
+(`publishableCount` for indexability, `schemaEventCount` for schema) so they
+cannot be conflated again, and `scripts/validate-route-schema.mjs` checks
+against the latter.
 
 ---
 
@@ -211,14 +235,25 @@ Every route type here is derived from dated events, so the indexable surface
 shrinks daily on its own. Failing CI on that would fail every nightly data
 commit. The monitor separates the two cases per route type:
 
-- **Inventory decay / growth** — the rendered route count moves with the
-  indexable count, leaving the indexable *share* of that type roughly where it
-  was. Reported, never failed.
-- **Structural change** — the indexable share of a type moves by more than 15
-  percentage points, meaning routes that still render changed indexability.
-  That is a code or policy change. It **fails** `--check` until the baseline is
-  deliberately re-anchored. Types with fewer than 8 rendered routes are exempt,
-  because one route dominates their percentage.
+The clock's contribution is **measured, not inferred**: the same gates are run
+twice over identical event data, once at the stored baseline's timestamp and
+once at now. Every difference between those two runs is calendar expiry and
+nothing else; what remains is the residual.
+
+- **Inventory decay / growth** — explained entirely by the calendar. Reported,
+  never failed.
+- **Structural change** — indexable routes lost beyond what the calendar
+  accounts for, past a tolerance of `max(3, 10% of the type's baseline)`. A
+  code, gate, or data change. It **fails** `--check` until the baseline is
+  deliberately re-anchored.
+- **Unexplained growth** — more indexable routes than the calendar accounts for.
+  Warns only: an artist batch or a large discovery run legitimately does this.
+
+Indexable *share* is deliberately not used as the signal. An artist route
+renders whether or not it is indexable, so ordinary expiry moves the numerator
+alone — the artist bucket falls 18/40 → 8/40 over 90 days on current data, which
+a share rule would read as a 25-point "structural" regression caused by nothing
+but the clock advancing.
 
 A total swing of ≥ 25% that every per-type check classified as decay emits a
 non-blocking `::warning::` annotation rather than a failure — a tour ending can
@@ -237,11 +272,18 @@ the record that the change was deliberate.
 ### Traffic data
 
 Per-route views and provider clicks live in D1 and need Cloudflare credentials
-the audit does not have and must never embed. Export them to
-`reports/analytics/route-traffic.json` as
-`{ "generated_at": "<iso>", "routes": { "/path": { "views": n, "provider_clicks": n } } }`
-and the audit picks them up. Without that file it reports the traffic sections
-as unavailable rather than inventing numbers.
+the audit does not have and must never embed. Produce the export with:
+
+```bash
+npm run report:funnel -- --route-traffic reports/analytics/route-traffic.json
+```
+
+That mode groups `analytics_events` by `source_path` — the only grouping that
+can answer "which routes earn views and clicks", since every other grouping in
+the funnel report is by artist, provider, or CTA location — and writes
+`{ "generated_at": "<iso>", "routes": { "/path": { "views": n, "provider_clicks": n, "outbound_clicks": n } } }`.
+The audit picks that file up automatically. Without it, the traffic sections
+report as unavailable rather than inventing numbers.
 
 ---
 

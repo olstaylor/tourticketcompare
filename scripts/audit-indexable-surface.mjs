@@ -35,24 +35,39 @@
 // would mean failing every nightly data commit. The distinction this script
 // draws instead:
 //
-//   inventory decay      routes disappear because their shows are in the past.
-//                        The *rendered* route count falls with the indexable
-//                        count, so the indexable share of each type stays put.
-//                        Reported, never failed.
-//   structural change    the indexable share of a type moves — routes that
-//                        still have current inventory changed indexability.
-//                        That is a code or policy change, and it fails --check
-//                        unless the baseline is deliberately re-anchored.
+// The clock's contribution is measured, not inferred. The same gates are run
+// twice over identical event data — once at the stored baseline's timestamp,
+// once at now — so every difference between those two runs is calendar expiry
+// and nothing else. What is left over is the residual:
+//
+//   inventory decay      explained entirely by the calendar. Reported, never failed.
+//   structural change    indexable routes lost beyond what the calendar accounts
+//                        for. A code, gate, or data change; fails --check unless
+//                        the baseline is deliberately re-anchored.
+//   unexplained growth   more indexable routes than the calendar accounts for.
+//                        Warns only — an artist batch or a large discovery run
+//                        legitimately does this.
+//
+// Indexable *share* is deliberately not used: an artist route renders whether or
+// not it is indexable, so expiry moves the numerator alone and would read as
+// structural (18/30 -> 8/30 over 90 days on the committed data) purely from the
+// clock advancing.
 //
 // § Analytics
 //
-// Per-route views and provider clicks live in D1 (`page_view` /
-// `outbound_click`), which needs Cloudflare credentials this script does not
-// have and must never embed. Export them with `npm run report:funnel` (or a
-// direct wrangler query) into reports/analytics/route-traffic.json shaped as
-// { "generated_at": "<iso>", "routes": { "/path": { "views": n, "provider_clicks": n } } }
-// and this script picks it up automatically. Without that file it reports the
-// traffic sections as unavailable rather than inventing numbers.
+// Per-route views and provider clicks live in D1, which needs Cloudflare
+// credentials this script does not have and must never embed. Export them with:
+//
+//   npm run report:funnel -- --route-traffic reports/analytics/route-traffic.json
+//
+// That mode groups `analytics_events` by `source_path` (the only grouping that
+// can answer "which routes earn views and clicks" — every other grouping in
+// that report is by artist, provider, or CTA location) and writes:
+//   { "generated_at": "<iso>",
+//     "routes": { "/path": { "views": n, "provider_clicks": n, "outbound_clicks": n } } }
+//
+// This script picks that file up automatically. Without it the traffic sections
+// report as unavailable rather than inventing numbers.
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -70,14 +85,6 @@ const WRITE_BASELINE = argv.includes("--write-baseline");
 const SELF_TEST = argv.includes("--self-test");
 const WARN_DAYS = Number(argv[argv.indexOf("--warn-days") + 1]) > 0 ? Number(argv[argv.indexOf("--warn-days") + 1]) : 14;
 
-// Structural-change tolerance. The indexable share of a route type may drift a
-// little as inventory turns over unevenly (a city dropping from 5 shows to 3
-// crosses a gate while its route still renders), so the band is wide enough to
-// absorb that and narrow enough to catch a gate being changed or bypassed.
-const SHARE_TOLERANCE_POINTS = 15;
-// Types with very few routes swing wildly in percentage terms, so a share
-// change is only meaningful once a type has this many rendered routes.
-const MIN_ROUTES_FOR_SHARE_CHECK = 8;
 
 const DAY_MS = 86400000;
 
@@ -131,31 +138,64 @@ export function titlePattern(title, tokens = []) {
 /**
  * Classify a change in a route type's indexable count.
  *
- * Inventory decay moves `rendered` and `indexable` together, leaving the
- * indexable share roughly where it was. A structural change moves the share:
- * routes that still exist changed indexability. Types below
- * MIN_ROUTES_FOR_SHARE_CHECK are exempt because a single route dominates the
- * percentage.
+ * Indexable *share* is not a usable signal for this. An artist route renders
+ * whether or not it is indexable, so when an artist's last date passes the
+ * route stays in the denominator and only the numerator falls — ordinary
+ * calendar expiry moves the share exactly the way a broken gate would. On the
+ * committed data the artist bucket drops 18/30 → 8/30 over 90 days, which a
+ * share rule reads as a 33-point "structural" change and fails CI for nothing
+ * but the clock advancing.
  *
- * @param {{rendered: number, indexable: number}} before
- * @param {{rendered: number, indexable: number}} after
- * @param {{tolerancePoints?: number, minRoutes?: number}} [options]
- * @returns {{ kind: "unchanged"|"inventory-decay"|"inventory-growth"|"structural", sharePointsDelta: number, indexableDelta: number }}
+ * So the clock is measured instead of inferred. The caller re-runs the same
+ * gates twice over *identical* event data — once at the baseline's timestamp,
+ * once at now — and passes the result as `atBaselineInstant`. Because the data
+ * is held constant across those two evaluations, every difference between them
+ * is calendar expiry and nothing else:
+ *
+ *   clockDelta = after − atBaselineInstant   (pure calendar effect)
+ *   residual   = atBaselineInstant − before  (everything the clock cannot explain:
+ *                                             code changes, gate changes, data edits)
+ *
+ * Only the residual can indicate a regression. It is judged asymmetrically:
+ * losing routes the clock does not account for is the SEO regression worth
+ * blocking on, while gaining them is at worst worth a look (a new artist batch
+ * or a big discovery run does exactly that legitimately).
+ *
+ * @param {{rendered: number, indexable: number}} before             Stored baseline totals.
+ * @param {{rendered: number, indexable: number}} after              Totals now.
+ * @param {{rendered: number, indexable: number}} [atBaselineInstant] Same gates, same data, baseline timestamp.
+ * @param {{minDrop?: number, dropFraction?: number}} [options]
+ * @returns {{ kind: "unchanged"|"inventory-decay"|"inventory-growth"|"structural"|"unexplained-growth",
+ *             indexableDelta: number, clockDelta: number, residual: number, tolerance: number }}
  */
-export function classifyChange(before, after, options = {}) {
-  const tolerance = options.tolerancePoints ?? SHARE_TOLERANCE_POINTS;
-  const minRoutes = options.minRoutes ?? MIN_ROUTES_FOR_SHARE_CHECK;
+export function classifyChange(before, after, atBaselineInstant = null, options = {}) {
   const indexableDelta = after.indexable - before.indexable;
-  const shareBefore = before.rendered ? (before.indexable / before.rendered) * 100 : 0;
-  const shareAfter = after.rendered ? (after.indexable / after.rendered) * 100 : 0;
-  const sharePointsDelta = Number((shareAfter - shareBefore).toFixed(1));
+  // Without a clock-controlled evaluation there is nothing to attribute the
+  // change to, so report movement without ever calling it structural.
+  const reference = atBaselineInstant || before;
+  const clockDelta = after.indexable - reference.indexable;
+  const residual = reference.indexable - before.indexable;
 
-  const bothSmall = before.rendered < minRoutes && after.rendered < minRoutes;
-  if (!bothSmall && Math.abs(sharePointsDelta) > tolerance) {
-    return { kind: "structural", sharePointsDelta, indexableDelta };
+  // Absolute floor so a tiny route type cannot trip on a single route, plus a
+  // proportional term so large types are not held to an absolute count.
+  const minDrop = options.minDrop ?? 3;
+  const dropFraction = options.dropFraction ?? 0.1;
+  const tolerance = Math.max(minDrop, Math.ceil(before.indexable * dropFraction));
+
+  if (residual < -tolerance) {
+    return { kind: "structural", indexableDelta, clockDelta, residual, tolerance };
   }
-  if (indexableDelta === 0) return { kind: "unchanged", sharePointsDelta, indexableDelta };
-  return { kind: indexableDelta < 0 ? "inventory-decay" : "inventory-growth", sharePointsDelta, indexableDelta };
+  if (residual > tolerance) {
+    return { kind: "unexplained-growth", indexableDelta, clockDelta, residual, tolerance };
+  }
+  if (indexableDelta === 0) return { kind: "unchanged", indexableDelta, clockDelta, residual, tolerance };
+  return {
+    kind: indexableDelta < 0 ? "inventory-decay" : "inventory-growth",
+    indexableDelta,
+    clockDelta,
+    residual,
+    tolerance
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -206,35 +246,75 @@ if (SELF_TEST) {
     "a title with no substituted values is returned unchanged"
   );
 
-  // Pure inventory decay: half the routes expired, share unchanged -> not structural.
+  // The case that must never fail CI: artist routes always render, so calendar
+  // expiry moves the numerator only. Re-running the gates at the baseline
+  // instant on the same data reproduces the baseline, so the whole drop is
+  // clock. This is the exact 18/30 -> 8/30 shape flagged in review.
   assert(
-    classifyChange({ rendered: 200, indexable: 100 }, { rendered: 100, indexable: 50 }).kind === "inventory-decay",
+    classifyChange(
+      { rendered: 30, indexable: 18 },
+      { rendered: 30, indexable: 8 },
+      { rendered: 30, indexable: 18 }
+    ).kind === "inventory-decay",
+    "calendar expiry on always-rendered routes is decay, not a structural regression"
+  );
+  // Proportional shrinkage where routes disappear entirely is also decay.
+  assert(
+    classifyChange({ rendered: 200, indexable: 100 }, { rendered: 100, indexable: 50 }, { rendered: 200, indexable: 100 })
+      .kind === "inventory-decay",
     "proportional shrinkage is inventory decay, not a regression"
   );
-  // A gate change: routes still render, far fewer are indexable -> structural.
+  // A gate change: evaluated at the baseline instant on current data, the
+  // surface no longer reproduces the baseline -> the clock cannot explain it.
   assert(
-    classifyChange({ rendered: 200, indexable: 180 }, { rendered: 200, indexable: 20 }).kind === "structural",
-    "a collapse in indexable share is structural"
+    classifyChange(
+      { rendered: 200, indexable: 180 },
+      { rendered: 200, indexable: 20 },
+      { rendered: 200, indexable: 20 }
+    ).kind === "structural",
+    "a drop the clock cannot account for is structural"
   );
-  // An accidentally loosened gate is caught in the other direction too.
+  // Growth the clock cannot explain warns rather than failing: a new artist
+  // batch or a large discovery run does exactly this, legitimately.
   assert(
-    classifyChange({ rendered: 200, indexable: 20 }, { rendered: 200, indexable: 180 }).kind === "structural",
-    "a jump in indexable share is structural"
+    classifyChange(
+      { rendered: 200, indexable: 20 },
+      { rendered: 200, indexable: 180 },
+      { rendered: 200, indexable: 180 }
+    ).kind === "unexplained-growth",
+    "unexplained growth is reported, not treated as a regression"
   );
-  // Small types are exempt from the share rule.
+  // A tiny type cannot trip on one route.
   assert(
-    classifyChange({ rendered: 3, indexable: 3 }, { rendered: 3, indexable: 2 }).kind === "inventory-decay",
-    "a tiny route type is not judged on percentage share"
+    classifyChange({ rendered: 3, indexable: 3 }, { rendered: 3, indexable: 2 }, { rendered: 3, indexable: 2 }).kind ===
+      "inventory-decay",
+    "a single route in a tiny type is inside the absolute floor"
   );
   assert(
-    classifyChange({ rendered: 100, indexable: 50 }, { rendered: 100, indexable: 50 }).kind === "unchanged",
+    classifyChange({ rendered: 100, indexable: 50 }, { rendered: 100, indexable: 50 }, { rendered: 100, indexable: 50 })
+      .kind === "unchanged",
     "no movement is reported as unchanged"
   );
-  // Within-tolerance drift from uneven turnover stays non-structural.
+  // Data edits within tolerance (a few events landing or being corrected) are
+  // not structural either.
   assert(
-    classifyChange({ rendered: 100, indexable: 50 }, { rendered: 95, indexable: 45 }).kind === "inventory-decay",
-    "small share drift from uneven turnover is still decay"
+    classifyChange({ rendered: 100, indexable: 50 }, { rendered: 95, indexable: 45 }, { rendered: 100, indexable: 48 })
+      .kind === "inventory-decay",
+    "a small residual from ordinary data edits stays non-structural"
   );
+  // With no clock-controlled reference the classifier must not invent one.
+  assert(
+    classifyChange({ rendered: 30, indexable: 18 }, { rendered: 30, indexable: 8 }).kind === "inventory-decay",
+    "without a baseline-instant evaluation, movement is reported but never called structural"
+  );
+  {
+    const decayed = classifyChange(
+      { rendered: 30, indexable: 18 },
+      { rendered: 30, indexable: 8 },
+      { rendered: 30, indexable: 18 }
+    );
+    assert(decayed.clockDelta === -10 && decayed.residual === 0, "clock and residual components are reported separately");
+  }
 
   console.log(`indexable-surface self-test: ${passed} assertions passed`);
   process.exit(0);
@@ -315,6 +395,44 @@ const editoriallyIndexableSlugs = artistsMeta
 const cities = citiesModule.deriveCities(events, { now });
 const venues = venuesModule.deriveVenues(events, { now });
 const artistCities = artistCitiesModule.deriveRenderedArtistCities(events, editoriallyIndexableSlugs, { now });
+
+/**
+ * Re-run every dynamic gate over the current event data at an arbitrary
+ * instant, and return the indexable route paths plus per-type rendered counts.
+ *
+ * Holding the data constant and moving only the timestamp is what lets the
+ * audit measure the calendar's contribution instead of guessing at it — used
+ * both for the baseline-instant comparison (classifyChange) and for the
+ * "about to lose indexability" horizon, where a thresholded route can fall
+ * below its gate long before its own last show expires.
+ */
+function gateSurfaceAt(ts) {
+  const indexable = new Set();
+  const rendered = { artist: 0, city: 0, venue: 0, "artist-city": 0 };
+
+  for (const artist of catalog.artists || []) {
+    const slug = String(artist?.slug || "").trim();
+    if (!slug) continue;
+    rendered.artist += 1; // an artist route renders whether or not it is indexable
+    const meta = artistsMeta.find((record) => String(record?.slug || "").trim() === slug) || {};
+    if (artistIndexabilityModule.artistPageIndexable(meta.indexing_status, events, slug, ts)) {
+      indexable.add(`/artists/${slug}`);
+    }
+  }
+  for (const city of citiesModule.deriveCities(events, { now: ts })) {
+    rendered.city += 1;
+    if (city.indexable) indexable.add(`/cities/${city.slug}`);
+  }
+  for (const venue of venuesModule.deriveVenues(events, { now: ts })) {
+    rendered.venue += 1;
+    if (venue.indexable) indexable.add(`/venues/${venue.slug}`);
+  }
+  for (const entry of artistCitiesModule.deriveRenderedArtistCities(events, editoriallyIndexableSlugs, { now: ts })) {
+    rendered["artist-city"] += 1;
+    if (entry.indexable) indexable.add(entry.path);
+  }
+  return { indexable, rendered };
+}
 
 // Per-route facts the report needs but a rendered page cannot cheaply give back:
 // the counted evidence each gate decided on.
@@ -468,17 +586,28 @@ for (const page of rendered) {
   for (const reason of reasons) bucket.set(reason, (bucket.get(reason) || 0) + 1);
 }
 
-// Routes about to lose indexability: their last future show falls inside the
-// horizon, so nothing new landing means the page drops out.
+// Routes about to lose indexability. Re-running the real gates at the horizon
+// is the only way to catch this: a thresholded route can fall below its gate
+// long before its own last show expires. A five-show city page whose two
+// August dates pass drops under the four-show gate while its final date is
+// still months away, and a "last show < horizon" test would miss it entirely.
 const horizon = now + WARN_DAYS * DAY_MS;
+const surfaceAtHorizon = gateSurfaceAt(horizon);
 const expiringSoon = indexablePages
-  .filter((page) => page.futureTimestamps.length && Math.max(...page.futureTimestamps) < horizon)
-  .map((page) => ({
-    path: page.path,
-    type: page.type,
-    last_show: new Date(Math.max(...page.futureTimestamps)).toISOString().slice(0, 10),
-    days_left: Math.max(0, Math.round((Math.max(...page.futureTimestamps) - now) / DAY_MS))
-  }))
+  .filter((page) => page.futureTimestamps.length && !surfaceAtHorizon.indexable.has(page.path))
+  .map((page) => {
+    const lastShow = Math.max(...page.futureTimestamps);
+    const stillHasShows = lastShow >= horizon;
+    return {
+      path: page.path,
+      type: page.type,
+      last_show: new Date(lastShow).toISOString().slice(0, 10),
+      days_left: Math.max(0, Math.round((lastShow - now) / DAY_MS)),
+      // Distinguishes the two ways a route leaves the index: it runs out of
+      // dates, or it keeps dates but drops under a count threshold.
+      reason: stillHasShows ? "falls_below_threshold" : "runs_out_of_shows"
+    };
+  })
   .sort((a, b) => a.days_left - b.days_left || a.path.localeCompare(b.path));
 
 // Indexable routes nothing links to. An unlinked indexable page is a page
@@ -560,18 +689,42 @@ const currentTotals = Object.fromEntries(
 const baseline = await readJsonIfPresent(BASELINE_PATH);
 const structuralChanges = [];
 const changeRows = [];
+// Non-blocking observations. Collected here and in the total-swing check below.
+const warnings = [];
 if (baseline?.totals) {
+  // Re-run the same gates over today's data at the baseline's own timestamp.
+  // Data held constant, clock moved: the gap between this and `now` is the
+  // calendar's contribution, and whatever is left over is not the clock's doing.
+  const baselineTs = Date.parse(String(baseline.generated_at || ""));
+  const atBaseline = Number.isFinite(baselineTs) ? gateSurfaceAt(baselineTs) : null;
+  const atBaselineTotals = new Map();
+  if (atBaseline) {
+    for (const [type, renderedCount] of Object.entries(atBaseline.rendered)) {
+      const indexableCount = [...atBaseline.indexable].filter((p) => routeType(p) === type).length;
+      atBaselineTotals.set(type, { rendered: renderedCount, indexable: indexableCount });
+    }
+  }
+
   const types = [...new Set([...Object.keys(baseline.totals), ...Object.keys(currentTotals)])];
   for (const type of types.sort((a, b) => ROUTE_TYPE_ORDER.indexOf(a) - ROUTE_TYPE_ORDER.indexOf(b))) {
     const before = baseline.totals[type] || { rendered: 0, indexable: 0 };
     const after = currentTotals[type] || { rendered: 0, indexable: 0 };
-    const change = classifyChange(before, after);
-    changeRows.push({ type, before, after, ...change });
+    // Static, guide, index and home routes carry no date dependence, so the
+    // clock cannot move them and `after` is its own baseline-instant value.
+    const reference = atBaselineTotals.get(type) || (atBaseline ? after : null);
+    const change = classifyChange(before, after, reference);
+    changeRows.push({ type, before, after, at_baseline_instant: reference, ...change });
     if (change.kind === "structural") {
       structuralChanges.push(
-        `${type}: indexable share moved ${change.sharePointsDelta > 0 ? "+" : ""}${change.sharePointsDelta} points ` +
-          `(${before.indexable}/${before.rendered} -> ${after.indexable}/${after.rendered}); ` +
-          `routes that still render changed indexability`
+        `${type}: ${Math.abs(change.residual)} indexable route(s) lost that the calendar does not account for ` +
+          `(baseline ${before.indexable}, same gates re-run at the baseline timestamp on current data give ` +
+          `${reference?.indexable}, tolerance ${change.tolerance}). This is a code, gate, or data change, not expiry.`
+      );
+    }
+    if (change.kind === "unexplained-growth") {
+      warnings.push(
+        `${type}: ${change.residual} more indexable route(s) than the baseline, beyond what the calendar explains ` +
+          `(tolerance ${change.tolerance}). Expected after an artist batch or a large discovery run.`
       );
     }
   }
@@ -596,7 +749,6 @@ const baselineIndexable = baseline?.totals
 // warning, never a failure: it is exactly the "routine event-expiry update"
 // case the policy says must not break CI.
 const TOTAL_SWING_WARN_PERCENT = 25;
-const warnings = [];
 if (baselineIndexable) {
   const swing = ((totalIndexable - baselineIndexable) / baselineIndexable) * 100;
   if (Math.abs(swing) >= TOTAL_SWING_WARN_PERCENT) {
@@ -685,11 +837,15 @@ function markdown() {
   lines.push("", `## Losing indexability within ${WARN_DAYS} days`, "");
   if (!expiringSoon.length) lines.push("- none");
   else {
-    lines.push("| Route | Type | Last tracked show | Days left |", "|---|---|---|---|");
+    lines.push("| Route | Type | Last tracked show | Days left | Why |", "|---|---|---|---|---|");
     for (const entry of expiringSoon.slice(0, 40)) {
-      lines.push(`| ${entry.path} | ${entry.type} | ${entry.last_show} | ${entry.days_left} |`);
+      lines.push(`| ${entry.path} | ${entry.type} | ${entry.last_show} | ${entry.days_left} | ${entry.reason} |`);
     }
-    if (expiringSoon.length > 40) lines.push(`| … | | | ${expiringSoon.length - 40} more |`);
+    if (expiringSoon.length > 40) lines.push(`| … | | | | ${expiringSoon.length - 40} more |`);
+    lines.push(
+      "",
+      "`runs_out_of_shows` = the route's last tracked date passes. `falls_below_threshold` = the route keeps future dates but drops under a count gate, which is why this section re-runs the real gates at the horizon rather than looking at the last show date."
+    );
   }
   lines.push("", "## Indexable routes with zero internal links", "");
   lines.push(...(orphanIndexable.length ? orphanIndexable.map((entry) => `- ${entry}`) : ["- none"]));
@@ -726,16 +882,21 @@ function markdown() {
     lines.push("- no stored baseline; run `npm run audit:indexable-surface:baseline` to anchor one");
   } else {
     lines.push(`Baseline generated ${summary.baseline_comparison.baseline_generated_at || "(unknown)"}.`, "");
-    lines.push("| Type | Baseline | Now | Indexable delta | Share delta | Classification |", "|---|---|---|---|---|---|");
+    lines.push(
+      "| Type | Baseline | Same gates @ baseline date | Now | Clock | Residual | Classification |",
+      "|---|---|---|---|---|---|---|"
+    );
     for (const row of changeRows) {
       lines.push(
-        `| ${row.type} | ${row.before.indexable}/${row.before.rendered} | ${row.after.indexable}/${row.after.rendered} | ` +
-          `${row.indexableDelta >= 0 ? "+" : ""}${row.indexableDelta} | ${row.sharePointsDelta >= 0 ? "+" : ""}${row.sharePointsDelta}pp | ${row.kind} |`
+        `| ${row.type} | ${row.before.indexable}/${row.before.rendered} | ` +
+          `${row.at_baseline_instant ? `${row.at_baseline_instant.indexable}/${row.at_baseline_instant.rendered}` : "n/a"} | ` +
+          `${row.after.indexable}/${row.after.rendered} | ${row.clockDelta >= 0 ? "+" : ""}${row.clockDelta} | ` +
+          `${row.residual >= 0 ? "+" : ""}${row.residual} (tol ${row.tolerance}) | ${row.kind} |`
       );
     }
     lines.push(
       "",
-      "`inventory-decay` / `inventory-growth` are expected: dated shows pass and new ones land, moving rendered and indexable counts together. `structural` means routes that still render changed indexability, which is a code or policy change."
+      "**Clock** is what the calendar alone accounts for: the same gates re-run over the same event data at the baseline's timestamp versus now. **Residual** is everything left over — a code, gate, or data change. `inventory-decay` / `inventory-growth` are expected. `structural` (residual loss beyond tolerance) fails `--check`; `unexplained-growth` only warns, because an artist batch or a big discovery run produces it legitimately."
     );
   }
   lines.push("", "## Warnings (non-blocking)", "");

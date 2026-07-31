@@ -2940,8 +2940,15 @@ assert(unknownArtistCity.response.status === 404, "unknown artist-city slug shou
 // A real-but-inactive combination (a city the artist has played, but with no
 // qualifying upcoming show) selectively 301s to the artist hub instead of
 // leaving a misleading empty page.
+// Compared against the *rendered* set, not the indexable set: a single-date
+// combination renders 200 (noindex,follow) and must not be mistaken for an
+// inactive one that redirects.
+const smokeRenderedArtistCities = artistCitiesModule.deriveRenderedArtistCities(
+  JSON.parse(await read("public/data/events.json")),
+  smokeIndexableArtistSlugs
+);
 const footprintOnly = [...artistCitiesModule.artistCityFootprint(JSON.parse(await read("public/data/events.json")), smokeArtistCity.artistSlug)]
-  .filter((slug) => !smokeArtistCityEntries.some((entry) => entry.artistSlug === smokeArtistCity.artistSlug && entry.slug === slug));
+  .filter((slug) => !smokeRenderedArtistCities.some((entry) => entry.artistSlug === smokeArtistCity.artistSlug && entry.slug === slug));
 if (footprintOnly.length) {
   const expiredCombo = await routeResponse(`/artists/${smokeArtistCity.artistSlug}/tickets/${footprintOnly[0]}`, artistCityEnv);
   assert(expiredCombo.response.status === 301, "an inactive but real artist-city combination should 301, not 404 or soft-404");

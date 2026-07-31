@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T12:52:34.137Z",
+  "generated_at": "2026-07-31T13:11:53.766Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -31,22 +31,22 @@
     },
     "city": {
       "rendered": 81,
-      "indexable": 35
+      "indexable": 37
     },
     "venue": {
       "rendered": 109,
-      "indexable": 41
+      "indexable": 44
     },
     "artist-city": {
-      "rendered": 210,
-      "indexable": 82
+      "rendered": 238,
+      "indexable": 92
     }
   },
   "overall": {
-    "rendered": 469,
-    "indexable": 205,
-    "noindex": 264,
-    "baseline_indexable": 205
+    "rendered": 497,
+    "indexable": 220,
+    "noindex": 277,
+    "baseline_indexable": 220
   },
   "exclusion_reasons": {
     "artist": {
@@ -56,15 +56,15 @@
     "city": {
       "below_show_threshold": 43,
       "below_artist_threshold": 31,
-      "no_publishable_destination": 15
+      "no_publishable_destination": 3
     },
     "venue": {
       "below_show_threshold": 60,
       "below_artist_threshold": 56,
-      "no_publishable_destination": 18
+      "no_publishable_destination": 4
     },
     "artist-city": {
-      "below_show_threshold": 128
+      "below_show_threshold": 146
     }
   },
   "expiring_within_warn_days": [
@@ -72,55 +72,78 @@
       "path": "/artists/morgan-wallen",
       "type": "artist",
       "last_show": "2026-08-01",
-      "days_left": 1
+      "days_left": 1,
+      "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/morgan-wallen/tickets/philadelphia-united-states",
       "type": "artist-city",
       "last_show": "2026-08-01",
-      "days_left": 1
+      "days_left": 1,
+      "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/bts/tickets/east-rutherford-united-states",
       "type": "artist-city",
       "last_show": "2026-08-03",
-      "days_left": 2
+      "days_left": 2,
+      "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/summer-walker/tickets/london-united-kingdom",
       "type": "artist-city",
       "last_show": "2026-08-02",
-      "days_left": 2
+      "days_left": 2,
+      "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/tame-impala/tickets/charlotte-united-states",
       "type": "artist-city",
       "last_show": "2026-08-02",
-      "days_left": 2
+      "days_left": 2,
+      "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/zach-bryan/tickets/san-diego-united-states",
       "type": "artist-city",
       "last_show": "2026-08-02",
-      "days_left": 2
+      "days_left": 2,
+      "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/tame-impala/tickets/nashville-united-states",
       "type": "artist-city",
       "last_show": "2026-08-06",
-      "days_left": 5
+      "days_left": 5,
+      "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/ariana-grande/tickets/chicago-united-states",
       "type": "artist-city",
       "last_show": "2026-08-06",
-      "days_left": 6
+      "days_left": 6,
+      "reason": "runs_out_of_shows"
     },
     {
       "path": "/artists/bts/tickets/foxborough-united-states",
       "type": "artist-city",
       "last_show": "2026-08-07",
-      "days_left": 6
+      "days_left": 6,
+      "reason": "runs_out_of_shows"
+    },
+    {
+      "path": "/artists/zach-bryan/tickets/denver-united-states",
+      "type": "artist-city",
+      "last_show": "2026-08-15",
+      "days_left": 14,
+      "reason": "falls_below_threshold"
+    },
+    {
+      "path": "/cities/san-diego-united-states",
+      "type": "city",
+      "last_show": "2026-10-28",
+      "days_left": 89,
+      "reason": "falls_below_threshold"
     }
   ],
   "orphan_indexable": [],
@@ -129,23 +152,23 @@
   "title_patterns": [
     {
       "pattern": "{} Tickets in {} | Compare Prices",
-      "count": 82,
-      "share_of_indexable": 40
+      "count": 92,
+      "share_of_indexable": 41.8
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
-      "count": 41,
+      "count": 44,
       "share_of_indexable": 20
     },
     {
       "pattern": "Concerts in {} | Upcoming Shows & Tickets",
-      "count": 35,
-      "share_of_indexable": 17.1
+      "count": 37,
+      "share_of_indexable": 16.8
     },
     {
       "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
       "count": 18,
-      "share_of_indexable": 8.8
+      "share_of_indexable": 8.2
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
@@ -298,7 +321,7 @@
     "note": "no export at reports/analytics/route-traffic.json"
   },
   "baseline_comparison": {
-    "baseline_generated_at": "2026-07-31T12:38:28.546Z",
+    "baseline_generated_at": "2026-07-31T13:08:05.792Z",
     "changes": [
       {
         "type": "home",
@@ -310,9 +333,15 @@
           "rendered": 1,
           "indexable": 1
         },
+        "at_baseline_instant": {
+          "rendered": 1,
+          "indexable": 1
+        },
         "kind": "unchanged",
-        "sharePointsDelta": 0,
-        "indexableDelta": 0
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 3
       },
       {
         "type": "index",
@@ -324,9 +353,15 @@
           "rendered": 4,
           "indexable": 4
         },
+        "at_baseline_instant": {
+          "rendered": 4,
+          "indexable": 4
+        },
         "kind": "unchanged",
-        "sharePointsDelta": 0,
-        "indexableDelta": 0
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 3
       },
       {
         "type": "static",
@@ -338,9 +373,15 @@
           "rendered": 7,
           "indexable": 7
         },
+        "at_baseline_instant": {
+          "rendered": 7,
+          "indexable": 7
+        },
         "kind": "unchanged",
-        "sharePointsDelta": 0,
-        "indexableDelta": 0
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 3
       },
       {
         "type": "guide",
@@ -352,65 +393,95 @@
           "rendered": 17,
           "indexable": 17
         },
+        "at_baseline_instant": {
+          "rendered": 17,
+          "indexable": 17
+        },
         "kind": "unchanged",
-        "sharePointsDelta": 0,
-        "indexableDelta": 0
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 3
       },
       {
         "type": "artist",
         "before": {
-          "rendered": 30,
+          "rendered": 40,
           "indexable": 18
         },
         "after": {
           "rendered": 40,
           "indexable": 18
         },
+        "at_baseline_instant": {
+          "rendered": 40,
+          "indexable": 18
+        },
         "kind": "unchanged",
-        "sharePointsDelta": -15,
-        "indexableDelta": 0
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 3
       },
       {
         "type": "city",
         "before": {
           "rendered": 81,
-          "indexable": 35
+          "indexable": 37
         },
         "after": {
           "rendered": 81,
-          "indexable": 35
+          "indexable": 37
+        },
+        "at_baseline_instant": {
+          "rendered": 81,
+          "indexable": 37
         },
         "kind": "unchanged",
-        "sharePointsDelta": 0,
-        "indexableDelta": 0
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 4
       },
       {
         "type": "venue",
         "before": {
           "rendered": 109,
-          "indexable": 41
+          "indexable": 44
         },
         "after": {
           "rendered": 109,
-          "indexable": 41
+          "indexable": 44
+        },
+        "at_baseline_instant": {
+          "rendered": 109,
+          "indexable": 44
         },
         "kind": "unchanged",
-        "sharePointsDelta": 0,
-        "indexableDelta": 0
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 5
       },
       {
         "type": "artist-city",
         "before": {
-          "rendered": 210,
-          "indexable": 82
+          "rendered": 238,
+          "indexable": 92
         },
         "after": {
-          "rendered": 210,
-          "indexable": 82
+          "rendered": 238,
+          "indexable": 92
+        },
+        "at_baseline_instant": {
+          "rendered": 238,
+          "indexable": 92
         },
         "kind": "unchanged",
-        "sharePointsDelta": 0,
-        "indexableDelta": 0
+        "indexableDelta": 0,
+        "clockDelta": 0,
+        "residual": 0,
+        "tolerance": 10
       }
     ]
   },

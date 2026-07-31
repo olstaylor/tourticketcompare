@@ -1,5 +1,5 @@
 import { venueSlug } from "./_venues.js";
-import { cityGate, eventPublishable } from "./_route-indexability.js";
+import { cityGate, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Shared city derivation used by the HTML router, sitemap, llms.txt, and
 // internal-link audit. City pages aggregate only upcoming records already
@@ -73,6 +73,7 @@ export function deriveCities(events, options = {}) {
       datetime_iso: iso,
       last_verified_at: String(event.last_verified_at || "").trim(),
       publishable: eventPublishable(event),
+      statusPublishable: eventStatusPublishable(event),
       ts
     });
   }
@@ -83,6 +84,9 @@ export function deriveCities(events, options = {}) {
     const artistSlugs = [...new Set(shows.map((show) => show.artist_slug))];
     const venueSlugs = [...new Set(shows.map((show) => show.venue_slug))];
     const publishableCount = shows.filter((show) => show.publishable).length;
+    // Shows that also clear the row-status gate, i.e. the ones that get a
+    // MusicEvent node. Distinct from publishableCount by design.
+    const schemaEventCount = shows.filter((show) => show.statusPublishable).length;
     const record = {
       ...group,
       shows,
@@ -92,6 +96,7 @@ export function deriveCities(events, options = {}) {
       artistCount: artistSlugs.length,
       venueCount: venueSlugs.length,
       publishableCount,
+      schemaEventCount,
       hasPublishable: publishableCount >= 1,
       lastmod: latestVerifiedDate(shows)
     };

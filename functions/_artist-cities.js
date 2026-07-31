@@ -27,7 +27,7 @@
 
 import { slugify, normalizeCountry, citySlug } from "./_cities.js";
 import { venueSlug } from "./_venues.js";
-import { artistCityGate, eventPublishable } from "./_route-indexability.js";
+import { artistCityGate, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Providers, in a stable display order, that carry a verified stored link on an
 // event. Data-backed only: a provider appears when its provider_links entry is
@@ -128,6 +128,7 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       last_verified_at: String(event.last_verified_at || "").trim(),
       artist_name: String(event.artist_name || "").trim(),
       publishable: eventPublishable(event),
+      statusPublishable: eventStatusPublishable(event),
       providers: verifiedProvidersForEvent(event)
     });
   }
@@ -157,6 +158,11 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       .sort()
       .at(-1) || "";
     const publishableCount = shows.filter((show) => show.publishable).length;
+    // The subset that also clears the row-status gate — i.e. exactly the shows
+    // that receive a MusicEvent node. Kept distinct from publishableCount so
+    // the indexability question and the schema question cannot be conflated
+    // (see eventStatusPublishable in _route-indexability.js).
+    const schemaEventCount = shows.filter((show) => show.statusPublishable).length;
     const ambiguous = (nameCounts.get(group.city) || 0) > 1;
     const record = {
       artistSlug: target,
@@ -170,6 +176,7 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       showCount: shows.length,
       venueCount: venueSlugs.length,
       publishableCount,
+      schemaEventCount,
       hasPublishable: publishableCount >= 1,
       multiNightSameVenue: venueSlugs.length === 1 && shows.length > 1,
       providers,
@@ -236,7 +243,7 @@ export function artistCityFootprint(events, artistSlug) {
  * @param {any[]} events
  * @param {Iterable<string>} indexableArtistSlugs
  * @param {{ now?: number }} [options]
- * @returns {Array<{ artistSlug: string, slug: string, city: string, country: string, label: string, path: string, lastmod: string, showCount: number, venueCount: number, publishableCount: number, indexable: boolean, exclusionReasons: string[] }>}
+ * @returns {Array<{ artistSlug: string, slug: string, city: string, country: string, label: string, path: string, lastmod: string, showCount: number, venueCount: number, publishableCount: number, schemaEventCount: number, indexable: boolean, exclusionReasons: string[] }>}
  */
 export function deriveRenderedArtistCities(events, indexableArtistSlugs, options = {}) {
   const indexable = new Set([...(indexableArtistSlugs || [])].map((slug) => slugify(slug)).filter(Boolean));
@@ -255,6 +262,7 @@ export function deriveRenderedArtistCities(events, indexableArtistSlugs, options
         showCount: city.showCount,
         venueCount: city.venueCount,
         publishableCount: city.publishableCount,
+        schemaEventCount: city.schemaEventCount,
         indexable: city.indexable,
         exclusionReasons: city.exclusionReasons
       });

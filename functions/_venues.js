@@ -1,4 +1,4 @@
-import { venueGate, eventPublishable } from "./_route-indexability.js";
+import { venueGate, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Shared venue derivation used by the HTML router ([[path]].js) and the sitemap
 // (sitemap.xml.js) so the two cannot drift. Venue pages are an aggregation layer
@@ -75,6 +75,7 @@ export function deriveVenues(events, options = {}) {
       datetime_iso: iso,
       last_verified_at: String(event.last_verified_at || "").trim(),
       publishable: eventPublishable(event),
+      statusPublishable: eventStatusPublishable(event),
       ts
     });
   }
@@ -84,6 +85,9 @@ export function deriveVenues(events, options = {}) {
     const shows = group.shows.sort((a, b) => a.ts - b.ts);
     const artistSlugs = [...new Set(shows.map((s) => s.artist_slug))];
     const publishableCount = shows.filter((show) => show.publishable).length;
+    // Shows that also clear the row-status gate, i.e. the ones that get a
+    // MusicEvent node. Distinct from publishableCount by design.
+    const schemaEventCount = shows.filter((show) => show.statusPublishable).length;
     const record = {
       slug: group.slug,
       venue: mostFrequent(group.venueLabels),
@@ -94,6 +98,7 @@ export function deriveVenues(events, options = {}) {
       showCount: shows.length,
       artistCount: artistSlugs.length,
       publishableCount,
+      schemaEventCount,
       hasPublishable: publishableCount >= 1,
       lastmod: shows
         .map((show) => show.last_verified_at)

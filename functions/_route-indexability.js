@@ -53,19 +53,67 @@ export const ARTIST_CITY_MIN_SHOWS = 2;
 // Event publishability
 // ---------------------------------------------------------------------------
 
-// Mirrors eventLinkPublishable() in functions/[[path]].js and the equivalent
-// gate in functions/api/out.js and public/app.js. A route whose upcoming shows
-// are all CTA-suppressed can list dates but cannot lead anywhere, so it cannot
-// serve the comparison purpose its title promises.
+// A route whose upcoming shows are all CTA-suppressed can list dates but cannot
+// lead anywhere, so it cannot serve the comparison purpose its title promises.
+// "Can lead anywhere" must mean exactly what the renderer means by it.
+//
+// This mirrors providerEventPublishable() in functions/[[path]].js (and the
+// equivalent gate in functions/api/out.js and public/app.js), which publishes a
+// CTA when EITHER of two independent things holds:
+//
+//   1. the row's own verification status is publishable — this governs the
+//      Ticketmaster link; or
+//   2. any non-Ticketmaster provider link carries its own verified provenance —
+//      the standalone resale CTA, which publishes on a `needs_recheck` row
+//      precisely because that provider verified the destination independently
+//      of the Ticketmaster storefront recheck.
+//
+// Case 2 is not an edge case in this data: every upcoming show in Arlington,
+// Houston and Sunrise is `needs_recheck` with a verified SeatGeek link, and all
+// of them render a live SeatGeek CTA. Testing only the row status would call
+// those pages dead ends and de-index them while their buttons still work.
 const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
 
 /**
- * Does this reviewed event currently carry a publishable ticket destination?
+ * Does this reviewed event currently carry at least one publishable ticket
+ * destination, from any provider?
  *
  * @param {any} event Raw events.json record.
  * @returns {boolean}
  */
 export function eventPublishable(event) {
+  const links = event?.provider_links && typeof event.provider_links === "object" ? event.provider_links : {};
+  // A standalone verified resale destination is enough on its own — but only
+  // when it actually has a stored URL to send the visitor to. `verified: true`
+  // with no `url` is provenance without a destination, and the renderer's
+  // safe-URL check would drop the button, so counting it would claim a
+  // reachable page that has no reachable link.
+  for (const [provider, link] of Object.entries(links)) {
+    if (provider === "ticketmaster") continue;
+    if (link?.verified === true && String(link?.url || "").trim()) return true;
+  }
+  return eventStatusPublishable(event);
+}
+
+/**
+ * The narrower, row-status gate: does this event's *own* verification status
+ * make it publishable? Mirrors eventLinkPublishable() in functions/[[path]].js,
+ * which is what governs the Ticketmaster link and — importantly — which events
+ * get a `MusicEvent` node in the JSON-LD graph.
+ *
+ * This is deliberately NOT the same question as eventPublishable(). A
+ * `needs_recheck` row with a verified SeatGeek destination renders a working
+ * CTA (so its page can lead somewhere, and is worth indexing) while remaining
+ * outside the MusicEvent contract (whose gate this PR does not change). Callers
+ * must be explicit about which of the two they mean:
+ *
+ *   eventPublishable()       -> "can this page lead anywhere?"  (indexability)
+ *   eventStatusPublishable() -> "does this event get a MusicEvent node?" (schema)
+ *
+ * @param {any} event Raw events.json record.
+ * @returns {boolean}
+ */
+export function eventStatusPublishable(event) {
   const status = String(event?.verification_status || "").trim().toLowerCase();
   if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
   return event?.provider_links?.ticketmaster?.verified === true;

@@ -20,6 +20,7 @@ import {
   ARTIST_CITY_MIN_SHOWS,
   EXCLUSION_REASONS,
   eventPublishable,
+  eventStatusPublishable,
   cityGate,
   venueGate,
   artistCityGate
@@ -63,13 +64,65 @@ function ev(overrides = {}) {
 {
   assert(eventPublishable(ev()) === true, "human_verified is publishable");
   assert(eventPublishable(ev({ verification_status: "machine_high_confidence" })) === true, "machine_high_confidence is publishable");
-  assert(eventPublishable(ev({ verification_status: "needs_recheck" })) === false, "needs_recheck is not publishable");
+  assert(
+    eventPublishable(ev({ verification_status: "needs_recheck", provider_links: {} })) === false,
+    "needs_recheck with no verified link at all is not publishable"
+  );
   assert(
     eventPublishable({ provider_links: { ticketmaster: { verified: true } } }) === true,
     "a statusless record falls back to the verified Ticketmaster link"
   );
   assert(eventPublishable({ provider_links: {} }) === false, "a statusless record with no verified link is not publishable");
   assert(eventPublishable(null) === false, "a missing record is not publishable");
+}
+
+// --- Standalone marketplace destinations on needs_recheck rows --------------
+// This is the shape that dominates the real data: Arlington, Houston and
+// Sunrise are entirely needs_recheck rows carrying verified SeatGeek links, and
+// every one of them renders a working SeatGeek CTA. A destination test that
+// looked only at the row status would call those pages dead ends.
+{
+  const standalone = ev({
+    verification_status: "needs_recheck",
+    provider_links: {
+      ticketmaster: { verified: false, url: "https://www.ticketmaster.com/event/ABC" },
+      seatgeek: { verified: true, url: "https://seatgeek.com/artist-one-tickets/leeds" }
+    }
+  });
+  assert(eventPublishable(standalone) === true, "a needs_recheck row with a verified SeatGeek destination can lead somewhere");
+  assert(
+    eventStatusPublishable(standalone) === false,
+    "...but it stays outside the row-status gate that governs MusicEvent emission"
+  );
+
+  // Provenance without a destination is not a destination: the renderer's
+  // safe-URL check would drop the button, so counting it would promise a
+  // reachable page with no reachable link.
+  const noUrl = ev({
+    verification_status: "needs_recheck",
+    provider_links: { seatgeek: { verified: true, url: "" } }
+  });
+  assert(eventPublishable(noUrl) === false, "verified: true with no stored URL is not a publishable destination");
+
+  // A verified Ticketmaster link alone never rescues a needs_recheck row — the
+  // recheck flag is precisely a statement about that storefront URL.
+  const tmOnly = ev({
+    verification_status: "needs_recheck",
+    provider_links: { ticketmaster: { verified: true, url: "https://www.ticketmaster.com/event/ABC" } }
+  });
+  assert(eventPublishable(tmOnly) === false, "a verified Ticketmaster link does not override needs_recheck");
+
+  // Any approved marketplace lane counts, not just SeatGeek.
+  for (const provider of ["vivid-seats", "ticketnetwork", "stubhub-international"]) {
+    const row = ev({
+      verification_status: "needs_recheck",
+      provider_links: { [provider]: { verified: true, url: "https://example.com/event/1" } }
+    });
+    assert(eventPublishable(row) === true, `a verified ${provider} destination counts as publishable`);
+  }
+
+  // A fully verified row is publishable under both gates.
+  assert(eventStatusPublishable(ev()) === true, "human_verified passes the row-status gate too");
 }
 
 // --- Gate units -----------------------------------------------------------

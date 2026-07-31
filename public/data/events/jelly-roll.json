@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7xFoU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFoU",
-    "seatgeek_url": "https://seatgeek.com/jelly-roll-tickets/colorado-springs-colorado-weidner-field-2026-07-30-5-30-pm/concert/18086606",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFoU",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18086606,
-        "url": "https://seatgeek.com/jelly-roll-tickets/colorado-springs-colorado-weidner-field-2026-07-30-5-30-pm/concert/18086606",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

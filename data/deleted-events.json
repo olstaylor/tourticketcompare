@@ -11,5 +11,16 @@
     "reason": "recommended — human note on why the row was removed",
     "deleted_at": "recommended — ISO date the row was tombstoned"
   },
-  "deleted_events": []
+  "deleted_events": [
+    {
+      "artist_slug": "shakira",
+      "ticketmaster_discovery_event_id": "Z7r9jZ1A7J7vI",
+      "ticketmaster_event_id": "Z7r9jZ1A7J7vI",
+      "venue": "Shakira Stadium",
+      "datetime_iso": "2026-09-27T20:30:00+02:00",
+      "local_date": "2026-09-27",
+      "reason": "Duplicate of the human-verified Madrid residency event on the same date (Ticketmaster Spain storefront id 823196262); owner-reviewed 2026-07-30.",
+      "deleted_at": "2026-07-30"
+    }
+  ]
 }

@@ -1,8 +1,13 @@
 import { venueSlug } from "./_venues.js";
+import { cityGate, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Shared city derivation used by the HTML router, sitemap, llms.txt, and
 // internal-link audit. City pages aggregate only upcoming records already
 // present in public/data/events.json; no location or event facts are inferred.
+//
+// The indexability decision itself lives in functions/_route-indexability.js
+// (shared with the venue and artist-city derivations); this module supplies the
+// counted evidence it needs.
 
 export function slugify(value) {
   return String(value || "")
@@ -38,7 +43,8 @@ function latestVerifiedDate(shows) {
 }
 
 // A city is indexable only when it has enough distinct, useful coverage to be
-// more than a duplicate of one artist or venue page.
+// more than a duplicate of one artist or venue page, and when at least one of
+// its upcoming shows can actually lead somewhere (see cityGate).
 export function deriveCities(events, options = {}) {
   const now = Number.isFinite(options.now) ? options.now : Date.now();
   const groups = new Map();
@@ -66,6 +72,8 @@ export function deriveCities(events, options = {}) {
       venue_slug: venueSlug(venue, city),
       datetime_iso: iso,
       last_verified_at: String(event.last_verified_at || "").trim(),
+      publishable: eventPublishable(event),
+      statusPublishable: eventStatusPublishable(event),
       ts
     });
   }
@@ -75,7 +83,11 @@ export function deriveCities(events, options = {}) {
     const shows = group.shows.sort((a, b) => a.ts - b.ts || a.id.localeCompare(b.id));
     const artistSlugs = [...new Set(shows.map((show) => show.artist_slug))];
     const venueSlugs = [...new Set(shows.map((show) => show.venue_slug))];
-    cities.push({
+    const publishableCount = shows.filter((show) => show.publishable).length;
+    // Shows that also clear the row-status gate, i.e. the ones that get a
+    // MusicEvent node. Distinct from publishableCount by design.
+    const schemaEventCount = shows.filter((show) => show.statusPublishable).length;
+    const record = {
       ...group,
       shows,
       artistSlugs,
@@ -83,9 +95,13 @@ export function deriveCities(events, options = {}) {
       showCount: shows.length,
       artistCount: artistSlugs.length,
       venueCount: venueSlugs.length,
-      lastmod: latestVerifiedDate(shows),
-      indexable: shows.length >= 4 && artistSlugs.length >= 2
-    });
+      publishableCount,
+      schemaEventCount,
+      hasPublishable: publishableCount >= 1,
+      lastmod: latestVerifiedDate(shows)
+    };
+    const gate = cityGate(record);
+    cities.push({ ...record, indexable: gate.indexable, exclusionReasons: gate.reasons });
   }
 
   cities.sort((a, b) => b.showCount - a.showCount || a.city.localeCompare(b.city) || a.slug.localeCompare(b.slug));

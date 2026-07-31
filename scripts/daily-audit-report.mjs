@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 
 const ROLLING_ISSUE_LABEL = 'automation:daily-audit';
@@ -22,12 +23,13 @@ const tmPath = arg('--tm');
 const repo = arg('--repo') || process.env.GITHUB_REPOSITORY;
 const token = process.env.GITHUB_TOKEN;
 const dryRun = argv.includes('--dry-run');
+const selfTest = argv.includes('--self-test');
 
-if (!repo) {
+if (!selfTest && !repo) {
   console.error('ERROR: --repo or GITHUB_REPOSITORY required.');
   process.exit(2);
 }
-if (!token && !dryRun) {
+if (!selfTest && !token && !dryRun) {
   console.error('ERROR: GITHUB_TOKEN required (or use --dry-run).');
   process.exit(2);
 }
@@ -48,14 +50,41 @@ function formatTimestamp(iso) {
   return iso ? `\`${iso}\`` : '_no timestamp_';
 }
 
+function isActionable(item) {
+  return item?.actionable !== false && item?.reviewScope !== 'expired';
+}
+
+function linkFindings(links) {
+  const failures = Array.isArray(links?.failures) ? links.failures : [];
+  const expiredFailures = Array.isArray(links?.expired_failures) ? links.expired_failures : [];
+  return {
+    current: failures.filter(isActionable),
+    historical: [...failures.filter((item) => !isActionable(item)), ...expiredFailures]
+  };
+}
+
+function tmFindings(tm) {
+  const current = { missing: [], changed: [], errors: [] };
+  const historical = { missing: [], changed: [], errors: [] };
+  for (const artist of Array.isArray(tm?.artists) ? tm.artists : []) {
+    for (const kind of Object.keys(current)) {
+      for (const item of Array.isArray(artist?.[kind]) ? artist[kind] : []) {
+        (isActionable(item) ? current : historical)[kind].push({ ...item, artistSlug: artist.slug });
+      }
+    }
+  }
+  return { current, historical };
+}
+
 function renderLinks(links) {
   if (!links) return '_Link audit did not run._\n';
-  const { checked, failures = [], redirects = [], blocked = [], checked_at } = links;
+  const { checked, redirects = [], blocked = [], checked_at } = links;
+  const { current: failures, historical: historicalFailures } = linkFindings(links);
   let out = `Checked ${checked} URL(s) at ${formatTimestamp(checked_at)}.\n\n`;
   if (failures.length === 0) {
-    out += '✅ No failing URLs.\n';
+    out += '✅ No current failing URLs.\n';
   } else {
-    out += `❌ ${failures.length} failing URL(s):\n\n`;
+    out += `❌ ${failures.length} current failing URL(s):\n\n`;
     out += '| Status | URL | Artist | Events |\n';
     out += '|---|---|---|---|\n';
     for (const f of failures.slice(0, MAX_FAILURE_ROWS)) {
@@ -66,6 +95,9 @@ function renderLinks(links) {
     if (failures.length > MAX_FAILURE_ROWS) {
       out += `\n_… ${failures.length - MAX_FAILURE_ROWS} more failing URL(s) omitted. See the \`links.json\` artefact on the [workflow run](../actions/workflows/daily-audit.yml) for the full list._\n`;
     }
+  }
+  if (historicalFailures.length > 0) {
+    out += `\nℹ️ ${historicalFailures.length} failure(s) relate exclusively to past events. They are omitted from this action list; the complete evidence remains in the \`links.json\` workflow artefact.\n`;
   }
   if (blocked.length > 0) {
     out += `\n🔒 ${blocked.length} URL(s) returned 401/403/429 (anti-bot/WAF block, **not** confirmed dead — not counted as failures).\n`;
@@ -88,17 +120,19 @@ function renderProviderActions(links) {
       ? 'Review confirmed failures and suppress only after provider/event verification.'
       : counts.blocked
         ? 'Monitor; WAF response is inconclusive and is not a dead-link finding.'
+        : counts.expiredFailures
+          ? 'No current action; historical failures remain in the artifact.'
         : 'No action required.';
-    return `| ${provider} | ${counts.checked || 0} | ${counts.failures || 0} | ${counts.blocked || 0} | ${counts.redirects || 0} | ${action} |\n`;
+    return `| ${provider} | ${counts.checked || 0} | ${counts.failures || 0} | ${counts.expiredFailures || 0} | ${counts.blocked || 0} | ${counts.redirects || 0} | ${action} |\n`;
   });
   if (!rows.length) return '_No provider URLs were checked._\n';
-  return '| Provider | Checked | Confirmed failures | WAF-blocked | Redirects | Operator action |\n|---|---:|---:|---:|---:|---|\n' + rows.join('');
+  return '| Provider | Checked | Current failures | Historical failures | WAF-blocked | Redirects | Operator action |\n|---|---:|---:|---:|---:|---:|---|\n' + rows.join('');
 }
 
 function renderTmActions(tm) {
   if (!tm) return '_TM action summary unavailable; inspect the workflow artifact._\n';
-  const artists = Array.isArray(tm.artists) ? tm.artists : [];
-  const changed = artists.flatMap((artist) => Array.isArray(artist.changed) ? artist.changed : []);
+  const { current } = tmFindings(tm);
+  const changed = current.changed;
   const statusCounts = {};
   for (const item of changed) {
     for (const diff of Array.isArray(item.diffs) ? item.diffs : []) {
@@ -114,49 +148,61 @@ function renderTmActions(tm) {
 function renderTm(tm) {
   if (!tm) return '_TM Discovery diff did not run._\n';
   const { totals = {}, artists = [], checked_at } = tm;
+  const findings = tmFindings(tm);
+  const currentTotals = Object.fromEntries(Object.entries(findings.current).map(([kind, items]) => [kind, items.length]));
+  const historicalTotals = Object.fromEntries(Object.entries(findings.historical).map(([kind, items]) => [kind, items.length]));
+  const historicalTotal = Object.values(historicalTotals).reduce((sum, count) => sum + count, 0);
   let out = `Checked ${totals.checked || 0} TM event ID(s) at ${formatTimestamp(checked_at)}.\n\n`;
-  out += `- ❌ Missing on TM (404/410): **${totals.missing || 0}**\n`;
-  out += `- ⚠️ Changed (date/venue/status): **${totals.changed || 0}**\n`;
-  out += `- 🔁 Transient errors: **${totals.errors || 0}**\n`;
+  out += `- ❌ Current missing on TM (404/410): **${currentTotals.missing}**\n`;
+  out += `- ⚠️ Current changed (date/venue/status): **${currentTotals.changed}**\n`;
+  out += `- 🔁 Current transient errors: **${currentTotals.errors}**\n`;
   out += `- ⏭️ Unresolvable id (website/international code — not checked, **not** a failure): **${totals.unresolvable || 0}**\n\n`;
   for (const artist of artists) {
-    if (!artist.missing.length && !artist.changed.length && !artist.errors.length) continue;
+    const missing = (artist.missing || []).filter(isActionable);
+    const changed = (artist.changed || []).filter(isActionable);
+    const errors = (artist.errors || []).filter(isActionable);
+    if (!missing.length && !changed.length && !errors.length) continue;
     out += `### ${artist.slug}\n\n`;
-    if (artist.missing.length) {
+    if (missing.length) {
       out += `**Missing events (TM returned 404/410):**\n`;
-      for (const m of artist.missing) {
+      for (const m of missing) {
         out += `- \`${m.id}\` (${m.city || '—'}, ${m.datetime_iso || '—'}) — TM ID \`${m.ticketmaster_event_id}\`\n`;
       }
       out += '\n';
     }
-    if (artist.changed.length) {
+    if (changed.length) {
       out += `**Changed events (local vs TM):**\n`;
-      for (const c of artist.changed) {
+      for (const c of changed) {
         const diffSummary = c.diffs.map((d) => `\`${d.field}\`: \`${d.local}\` → \`${d.remote}\``).join('; ');
         out += `- \`${c.id}\` — ${diffSummary}\n`;
       }
       out += '\n';
     }
-    if (artist.errors.length) {
-      out += `**Transient errors (likely retry next run):** ${artist.errors.length}\n\n`;
+    if (errors.length) {
+      out += `**Transient errors (likely retry next run):** ${errors.length}\n\n`;
     }
+  }
+  if (historicalTotal > 0) {
+    out += `### Historical findings\n\n`;
+    out += `ℹ️ ${historicalTotals.missing} missing, ${historicalTotals.changed} changed, and ${historicalTotals.errors} error finding(s) relate exclusively to past events. They are omitted from this action list; the complete evidence remains in the \`tm.json\` workflow artefact.\n\n`;
   }
   return out;
 }
 
 function buildBody(links, tm) {
   const generated = new Date().toISOString();
-  const linkFailing = (links?.failures?.length || 0) > 0;
-  const tmMissing = (tm?.totals?.missing || 0) > 0;
-  const tmChanged = (tm?.totals?.changed || 0) > 0;
-  const tmErrors = (tm?.totals?.errors || 0) > 0;
+  const linkFailing = linkFindings(links).current.length > 0;
+  const currentTm = tmFindings(tm).current;
+  const tmMissing = currentTm.missing.length > 0;
+  const tmChanged = currentTm.changed.length > 0;
+  const tmErrors = currentTm.errors.length > 0;
   const hasFindings = linkFailing || tmMissing || tmChanged || tmErrors;
 
-  const status = hasFindings ? '🔴 **Findings**' : '🟢 **All clean**';
+  const status = hasFindings ? '🔴 **Current findings**' : '🟢 **No current findings**';
   let body = `<!-- daily-audit-report -->\n`;
   body += `**Last run:** \`${generated}\`\n`;
   body += `**Status:** ${status}\n\n`;
-  body += `> This issue is updated automatically by [`.concat('.github/workflows/daily-audit.yml').concat('](../actions/workflows/daily-audit.yml). Close it manually only when you want a fresh issue next run.\n\n');
+  body += `> This issue is updated automatically by [`.concat('.github/workflows/daily-audit.yml').concat('](../actions/workflows/daily-audit.yml). It closes automatically when no current finding remains; historical evidence stays in the workflow artifacts and closed issue history.\n\n');
   body += `## 1. URL liveness\n\n${renderLinks(links)}\n`;
   body += `## 2. TM Discovery diff\n\n${renderTm(tm)}\n`;
   body += `## 3. Operator action summary\n\n${renderProviderActions(links)}\n${renderTmActions(tm)}\n`;
@@ -168,6 +214,54 @@ function buildBody(links, tm) {
   }
 
   return { body, hasFindings };
+}
+
+function runSelfTest() {
+  const links = {
+    checked: 3,
+    checked_at: '2026-07-30T12:00:00Z',
+    failures: [
+      { url: 'https://current.example', actionable: true, eventIds: ['future'] }
+    ],
+    expired_failures: [
+      { url: 'https://historical.example', actionable: false, reviewScope: 'expired', eventIds: ['past'] }
+    ],
+    blocked: [],
+    redirects: [],
+    provider_summary: {
+      ticketmaster: { checked: 3, failures: 1, expiredFailures: 1, blocked: 0, redirects: 0 }
+    }
+  };
+  const tm = {
+    checked_at: '2026-07-30T12:00:00Z',
+    totals: { checked: 2, missing: 2, changed: 0, errors: 0, unresolvable: 0 },
+    artists: [{
+      slug: 'artist',
+      missing: [
+        { id: 'future', ticketmaster_event_id: 'future-id', datetime_iso: '2026-08-01', actionable: true },
+        { id: 'past', ticketmaster_event_id: 'past-id', datetime_iso: '2026-07-01', actionable: false }
+      ],
+      changed: [],
+      errors: []
+    }]
+  };
+  const current = buildBody(links, tm);
+  assert.equal(current.hasFindings, true);
+  assert.match(current.body, /Current findings/);
+  assert.match(current.body, /current\.example/);
+  assert.doesNotMatch(current.body, /historical\.example/);
+  assert.match(current.body, /`future`/);
+  assert.doesNotMatch(current.body, /`past` \(/);
+  assert.match(current.body, /relate exclusively to past events/);
+
+  links.failures[0].actionable = false;
+  links.failures[0].reviewScope = 'expired';
+  tm.artists[0].missing[0].actionable = false;
+  const historicalOnly = buildBody(links, tm);
+  assert.equal(historicalOnly.hasFindings, false);
+  assert.match(historicalOnly.body, /No current findings/);
+
+  console.log('daily-audit-report self-test passed');
 }
 
 async function gh(method, path, payload) {
@@ -207,8 +301,17 @@ async function main() {
 
   const existing = await findRollingIssue();
   if (existing) {
-    console.log(`Updating issue #${existing.number}.`);
-    await gh('PATCH', `/repos/${repo}/issues/${existing.number}`, { body });
+    if (hasFindings) {
+      console.log(`Updating issue #${existing.number}.`);
+      await gh('PATCH', `/repos/${repo}/issues/${existing.number}`, { body });
+    } else {
+      console.log(`Closing resolved issue #${existing.number}.`);
+      await gh('PATCH', `/repos/${repo}/issues/${existing.number}`, {
+        body,
+        state: 'closed',
+        state_reason: 'completed'
+      });
+    }
   } else if (hasFindings) {
     console.log('Creating new rolling issue.');
     await gh('POST', `/repos/${repo}/issues`, {
@@ -221,7 +324,16 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error('daily-audit-report failed:', err);
-  process.exit(1);
-});
+if (selfTest) {
+  try {
+    runSelfTest();
+  } catch (err) {
+    console.error('daily-audit-report self-test failed:', err);
+    process.exit(1);
+  }
+} else {
+  main().catch((err) => {
+    console.error('daily-audit-report failed:', err);
+    process.exit(1);
+  });
+}

@@ -306,11 +306,17 @@ function expectedMusicEventCount(artistSlug) {
     for (const required of ["Place", "CollectionPage", "FAQPage", "BreadcrumbList"]) {
       if (!t.includes(required)) fail(`${entry.path}: missing ${required} structured data`);
     }
-    // Expected publishable MusicEvent count comes straight from the module's own
-    // derivation, so this check fails if the schema builder ever drifts from the
-    // publishable gate used to render the visible board.
+    // Expected MusicEvent count comes straight from the module's own derivation,
+    // so this check fails if the schema builder ever drifts from it.
+    //
+    // Note this is `schemaEventCount`, NOT `publishableCount`. The two answer
+    // different questions and diverge on a `needs_recheck` row carrying an
+    // independently verified marketplace destination: that row renders a working
+    // CTA (so it counts toward indexability) while staying outside the
+    // MusicEvent contract, whose gate is the row's own verification status.
+    // See eventStatusPublishable() in functions/_route-indexability.js.
     const artistCity = findArtistCity(events, entry.artistSlug, entry.slug);
-    const expected = artistCity ? artistCity.publishableCount : 0;
+    const expected = artistCity ? artistCity.schemaEventCount : 0;
     const musicEvents = graph.filter((node) => node["@type"] === "MusicEvent");
     if (musicEvents.length !== expected) {
       fail(`${entry.path}: ${musicEvents.length} MusicEvent node(s), expected ${expected} from the publishable listing`);

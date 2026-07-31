@@ -44,6 +44,9 @@ Options:
   --database <name>    D1 database name (default: ${DEFAULT_D1_DATABASE})
   --local              Query local D1 instead of remote D1
   --json               Emit machine-readable summary JSON
+  --route-traffic <f>  Also write per-route views/provider clicks to <f>, in the
+                       shape scripts/audit-indexable-surface.mjs consumes
+                       (conventionally reports/analytics/route-traffic.json)
   --self-test          Run local unit/self tests only; no network and no D1 access
   -h, --help           Show this help
 
@@ -62,7 +65,8 @@ function parseArgs(argv) {
     database: DEFAULT_D1_DATABASE,
     remote: true,
     json: false,
-    help: false
+    help: false,
+    routeTraffic: ""
   };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
@@ -84,6 +88,12 @@ function parseArgs(argv) {
       options.remote = false;
     } else if (arg === "--json") {
       options.json = true;
+    } else if (arg === "--route-traffic") {
+      // Written to a caller-chosen path so the audit's default location is a
+      // convention, not a hard-coded side effect of running the report.
+      const value = argv[++i];
+      if (!value || value.startsWith("--")) throw new Error("--route-traffic requires an output file path");
+      options.routeTraffic = value;
     } else if (arg === "-h" || arg === "--help") {
       options.help = true;
     } else {
@@ -152,6 +162,18 @@ GROUP BY 1, 2`
 FROM analytics_events
 WHERE event_name = 'provider_click'${since}
 GROUP BY 1`
+    },
+    {
+      // Per-route traffic, the one dimension the rest of this report does not
+      // cover: every other grouping is by artist, provider, or CTA location.
+      // `source_path` is the page the beacon fired from, so this is the only
+      // query that can answer "which routes earn views and clicks".
+      // Consumed by scripts/audit-indexable-surface.mjs via --route-traffic.
+      key: "trafficByRoute",
+      sql: `SELECT COALESCE(NULLIF(TRIM(source_path), ''), '(none)') AS source_path, event_name, COUNT(*) AS events
+FROM analytics_events
+WHERE event_name IN ('page_view', 'provider_click', 'outbound_click')${since}
+GROUP BY 1, 2`
     },
     {
       key: "priceSnapshotSplit",
@@ -382,7 +404,7 @@ function selfTest() {
 
   check(() => {
     const options = parseArgs(["--days", "7", "--top", "3", "--local", "--json", "--database", "demo-db"]);
-    assert.deepEqual(options, { selfTest: false, days: 7, top: 3, database: "demo-db", remote: false, json: true, help: false });
+    assert.deepEqual(options, { selfTest: false, days: 7, top: 3, database: "demo-db", remote: false, json: true, help: false, routeTraffic: "" });
   });
   check(() => assert.throws(() => parseArgs(["--days", "-1"]), /non-negative/));
   check(() => assert.throws(() => parseArgs(["--bogus"]), /Unknown argument/));
@@ -401,8 +423,31 @@ function selfTest() {
   });
 
   check(() => {
+    const shaped = buildRouteTraffic(
+      [
+        { source_path: "/artists/harry-styles", event_name: "page_view", events: 40 },
+        { source_path: "/artists/harry-styles", event_name: "provider_click", events: 6 },
+        { source_path: "/artists/harry-styles", event_name: "outbound_click", events: 5 },
+        { source_path: "/artists/harry-styles?utm_source=x#show-1", event_name: "page_view", events: 2 },
+        { source_path: "/cities/london-united-kingdom/", event_name: "page_view", events: 3 },
+        { source_path: "(none)", event_name: "page_view", events: 99 },
+        { source_path: "", event_name: "page_view", events: 99 },
+        { source_path: "https://evil.example/x", event_name: "page_view", events: 99 }
+      ],
+      "2026-07-31T00:00:00.000Z"
+    );
+    assert.equal(shaped.generated_at, "2026-07-31T00:00:00.000Z");
+    // Query and hash are stripped, and the trailing slash normalises, so a
+    // route's traffic is not split across several keys.
+    assert.deepEqual(shaped.routes["/artists/harry-styles"], { views: 42, provider_clicks: 6, outbound_clicks: 5 });
+    assert.deepEqual(shaped.routes["/cities/london-united-kingdom"], { views: 3, provider_clicks: 0, outbound_clicks: 0 });
+    // Unattributable rows are dropped rather than bucketed under a made-up path.
+    assert.equal(Object.keys(shaped.routes).length, 2);
+  });
+
+  check(() => {
     const statements = buildStatements("2026-06-22T12:00:00.000Z");
-    assert.deepEqual(statements.map((s) => s.key), ["pageViewsByArtist", "clicksByProvider", "clicksByArtist", "clicksByCtaLocation", "priceSnapshotSplit"]);
+    assert.deepEqual(statements.map((s) => s.key), ["pageViewsByArtist", "clicksByProvider", "clicksByArtist", "clicksByCtaLocation", "trafficByRoute", "priceSnapshotSplit"]);
     for (const statement of statements) {
       assert.match(statement.sql, /^SELECT/);
       assert.match(statement.sql, /created_at >= '2026-06-22T12:00:00\.000Z'/);
@@ -482,7 +527,10 @@ function selfTest() {
     const statements = buildStatements("");
     const stdout = JSON.stringify(statements.map((statement, index) => ({ success: true, results: [{ marker: index }], meta: {} })));
     const parsed = parseWranglerJson(stdout, statements);
-    assert.equal(parsed.priceSnapshotSplit[0].marker, 4);
+    // Result sets are matched to statements by position, so these markers lock
+    // the ordering: inserting a statement must be a deliberate, visible change.
+    assert.equal(parsed.trafficByRoute[0].marker, 4);
+    assert.equal(parsed.priceSnapshotSplit[0].marker, 5);
     assert.throws(() => parseWranglerJson("🌀 Executing…", statements), /did not return JSON/);
     assert.throws(() => parseWranglerJson("[]", statements), /result sets/);
     assert.throws(() => parseWranglerJson(JSON.stringify(statements.map(() => ({ success: false, results: [] }))), statements), /did not succeed/);
@@ -505,6 +553,35 @@ function selfTest() {
   });
 
   return { tests };
+}
+
+/**
+ * Shape the trafficByRoute rows into the per-route export the indexable-surface
+ * audit reads. Pure, so --self-test covers it without touching D1.
+ *
+ * `provider_clicks` counts `provider_click` (the CTA press) rather than
+ * `outbound_click` (the /api/out redirect), matching what the rest of this
+ * report calls a provider click; both are carried so a consumer can tell the
+ * difference between a click and a completed redirect.
+ *
+ * @param {Array<{source_path: string, event_name: string, events: number}>} rows
+ * @param {string} generatedAt ISO timestamp.
+ */
+export function buildRouteTraffic(rows, generatedAt) {
+  const routes = {};
+  for (const row of Array.isArray(rows) ? rows : []) {
+    const routePath = String(row?.source_path ?? "").trim();
+    // Drop rows with no usable path rather than inventing a bucket for them:
+    // an unattributed beacon cannot be assigned to a route.
+    if (!routePath || routePath === "(none)" || !routePath.startsWith("/")) continue;
+    const clean = routePath.split("#")[0].split("?")[0].replace(/\/$/, "") || "/";
+    if (!routes[clean]) routes[clean] = { views: 0, provider_clicks: 0, outbound_clicks: 0 };
+    const count = Number(row.events) || 0;
+    if (row.event_name === "page_view") routes[clean].views += count;
+    else if (row.event_name === "provider_click") routes[clean].provider_clicks += count;
+    else if (row.event_name === "outbound_click") routes[clean].outbound_clicks += count;
+  }
+  return { generated_at: generatedAt, routes };
 }
 
 // ── Entry point ─────────────────────────────────────────────────────────────
@@ -534,6 +611,15 @@ async function main() {
   const statements = buildStatements(sinceIso);
   const resultSets = await runStatements(statements, options);
   const report = buildReport(resultSets, options, sinceIso);
+  if (options.routeTraffic) {
+    const exported = buildRouteTraffic(resultSets.trafficByRoute, now.toISOString());
+    const outPath = path.isAbsolute(options.routeTraffic)
+      ? options.routeTraffic
+      : path.join(REPO_ROOT, options.routeTraffic);
+    await fs.mkdir(path.dirname(outPath), { recursive: true });
+    await fs.writeFile(outPath, `${JSON.stringify(exported, null, 2)}\n`, "utf8");
+    console.error(`Route traffic written to ${outPath} (${Object.keys(exported.routes).length} routes).`);
+  }
   console.log(options.json ? JSON.stringify(report, null, 2) : renderReport(report));
 }
 

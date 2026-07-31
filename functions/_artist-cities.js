@@ -14,21 +14,20 @@
 // artists.json `indexing_status`. Keeping both halves in one deterministic
 // derivation is what lets the router, sitemap, and audit agree on the same set
 // of URLs.
+//
+// Two distinct thresholds matter here and must not be conflated:
+//
+//   hasPublishable (>=1 publishable upcoming show) decides whether the page
+//     *renders at all*. Below it the router 301s to the artist hub, because a
+//     board of CTA-suppressed dates helps nobody.
+//   indexable (>=ARTIST_CITY_MIN_SHOWS publishable upcoming shows) decides
+//     whether it is index,follow and in the sitemap. A single-date combination
+//     renders, stays linked, and is noindex,follow — it is the artist page
+//     filtered to one show card, so it earns navigation but not a listing.
 
 import { slugify, normalizeCountry, citySlug } from "./_cities.js";
 import { venueSlug } from "./_venues.js";
-
-// Event-link publishability, mirrored from functions/[[path]].js /
-// functions/api/out.js / public/app.js. A city page is only worth indexing when
-// at least one upcoming show carries a publishable ticket destination, so the
-// visible show board and MusicEvent schema have real content to render.
-const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
-
-function eventPublishable(event) {
-  const status = String(event?.verification_status || "").trim().toLowerCase();
-  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
-  return event?.provider_links?.ticketmaster?.verified === true;
-}
+import { artistCityGate, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Providers, in a stable display order, that carry a verified stored link on an
 // event. Data-backed only: a provider appears when its provider_links entry is
@@ -129,6 +128,7 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       last_verified_at: String(event.last_verified_at || "").trim(),
       artist_name: String(event.artist_name || "").trim(),
       publishable: eventPublishable(event),
+      statusPublishable: eventStatusPublishable(event),
       providers: verifiedProvidersForEvent(event)
     });
   }
@@ -158,8 +158,13 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       .sort()
       .at(-1) || "";
     const publishableCount = shows.filter((show) => show.publishable).length;
+    // The subset that also clears the row-status gate — i.e. exactly the shows
+    // that receive a MusicEvent node. Kept distinct from publishableCount so
+    // the indexability question and the schema question cannot be conflated
+    // (see eventStatusPublishable in _route-indexability.js).
+    const schemaEventCount = shows.filter((show) => show.statusPublishable).length;
     const ambiguous = (nameCounts.get(group.city) || 0) > 1;
-    cities.push({
+    const record = {
       artistSlug: target,
       slug: group.slug,
       city: group.city,
@@ -171,13 +176,16 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       showCount: shows.length,
       venueCount: venueSlugs.length,
       publishableCount,
+      schemaEventCount,
       hasPublishable: publishableCount >= 1,
       multiNightSameVenue: venueSlugs.length === 1 && shows.length > 1,
       providers,
       earliestISO: shows[0]?.datetime_iso || "",
       latestISO: shows[shows.length - 1]?.datetime_iso || "",
       lastmod
-    });
+    };
+    const gate = artistCityGate(record);
+    cities.push({ ...record, indexable: gate.indexable, exclusionReasons: gate.reasons });
   }
 
   cities.sort((a, b) => b.showCount - a.showCount || a.city.localeCompare(b.city) || a.slug.localeCompare(b.slug));
@@ -226,18 +234,18 @@ export function artistCityFootprint(events, artistSlug) {
 }
 
 /**
- * Flat list of qualifying, indexable artist-city entries across every indexable
- * artist. An entry qualifies when the artist is editorially indexable AND the
- * city has at least one upcoming publishable show. Shared by the sitemap,
- * llms.txt, and the internal-link audit so the indexable URL set is identical
- * everywhere.
+ * Flat list of artist-city entries that currently *render* across every
+ * editorially indexable artist — i.e. the combinations with at least one
+ * upcoming publishable show. Each entry carries its own `indexable` flag, so
+ * callers that need the sitemap set filter on it and callers that need the
+ * full reachable set (the internal-link audit, the surface monitor) do not.
  *
  * @param {any[]} events
  * @param {Iterable<string>} indexableArtistSlugs
  * @param {{ now?: number }} [options]
- * @returns {Array<{ artistSlug: string, slug: string, city: string, country: string, label: string, path: string, lastmod: string, showCount: number, venueCount: number }>}
+ * @returns {Array<{ artistSlug: string, slug: string, city: string, country: string, label: string, path: string, lastmod: string, showCount: number, venueCount: number, publishableCount: number, schemaEventCount: number, indexable: boolean, exclusionReasons: string[] }>}
  */
-export function deriveIndexableArtistCities(events, indexableArtistSlugs, options = {}) {
+export function deriveRenderedArtistCities(events, indexableArtistSlugs, options = {}) {
   const indexable = new Set([...(indexableArtistSlugs || [])].map((slug) => slugify(slug)).filter(Boolean));
   const entries = [];
   for (const artistSlug of indexable) {
@@ -252,10 +260,28 @@ export function deriveIndexableArtistCities(events, indexableArtistSlugs, option
         path: `/artists/${artistSlug}/tickets/${city.slug}`,
         lastmod: city.lastmod,
         showCount: city.showCount,
-        venueCount: city.venueCount
+        venueCount: city.venueCount,
+        publishableCount: city.publishableCount,
+        schemaEventCount: city.schemaEventCount,
+        indexable: city.indexable,
+        exclusionReasons: city.exclusionReasons
       });
     }
   }
   entries.sort((a, b) => a.path.localeCompare(b.path));
   return entries;
+}
+
+/**
+ * The indexable subset of deriveRenderedArtistCities: combinations whose artist
+ * is editorially indexable AND which clear ARTIST_CITY_MIN_SHOWS publishable
+ * upcoming shows. Shared by the sitemap, llms.txt, and the internal-link audit
+ * so the indexable URL set is identical everywhere.
+ *
+ * @param {any[]} events
+ * @param {Iterable<string>} indexableArtistSlugs
+ * @param {{ now?: number }} [options]
+ */
+export function deriveIndexableArtistCities(events, indexableArtistSlugs, options = {}) {
+  return deriveRenderedArtistCities(events, indexableArtistSlugs, options).filter((entry) => entry.indexable);
 }

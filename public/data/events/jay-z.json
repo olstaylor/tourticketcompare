@@ -196,7 +196,7 @@
         "event_id": 7137531,
         "url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-23-2026--concerts-rap-hip-hop/production/7137531",
         "verified": true,
-        "last_verified_at": "2026-07-28",
+        "last_verified_at": "2026-07-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -273,7 +273,7 @@
         "event_id": 7256445,
         "url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-london-tottenham-hotspur-stadium-9-4-2026--concerts-rap-hip-hop/production/7256445",
         "verified": true,
-        "last_verified_at": "2026-07-28",
+        "last_verified_at": "2026-07-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -309,7 +309,7 @@
     "ticketmaster_event_id": "350064E896B5A263",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/jayz-30-london-05-09-2026/event/350064E896B5A263",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-z-tickets-london-tottenham-hotspur-stadium-9-5-2026--concerts-rap-hip-hop/production/7349810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jayz-30-london-05-09-2026/event/350064E896B5A263",
     "last_verified_at": null,
@@ -331,11 +331,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7349810,
+        "url": "https://www.vividseats.com/jay-z-tickets-london-tottenham-hotspur-stadium-9-5-2026--concerts-rap-hip-hop/production/7349810",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -343,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107460111",
+        "url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-5-9-2026/event/107460111",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G6CxpcQaN",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-z-tickets-london-tottenham-hotspur-stadium-5-9-2026/event/107460111"
   },
   {
     "id": "tm-jay-z-2026-inglewood-vvg1iz_gntjqqm",
@@ -362,7 +370,7 @@
     "ticketmaster_event_id": "0A0064C8E971D777",
     "ticketmaster_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-24-2026--concerts-rap-hip-hop/production/7348557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
     "last_verified_at": null,
@@ -384,11 +392,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7348557,
+        "url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-24-2026--concerts-rap-hip-hop/production/7348557",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -396,10 +404,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8164947",
+        "url": "https://www.ticketnetwork.com/en/p/8164947",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107460143",
+        "url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
+        "verified": true,
+        "last_verified_at": "2026-07-30",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164947",
+        "url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GNtjqqM",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164947",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium"
   }
 ]

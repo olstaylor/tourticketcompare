@@ -1399,7 +1399,7 @@
     "ticketmaster_event_id": "31006319DE3A2B37",
     "ticketmaster_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-30-2026/event/31006319DE3A2B37",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-30-8-pm/concert/17700817",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-30-2026--concerts-pop/production/5973696",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-30-2026/event/31006319DE3A2B37",
     "last_verified_at": "2026-05-07",
@@ -1420,11 +1420,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 5973696,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-30-2026--concerts-pop/production/5973696",
-        "verified": true,
-        "last_verified_at": "2026-07-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1434,24 +1434,24 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7373458",
-        "url": "https://www.ticketnetwork.com/en/p/7373458",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7373458",
-        "url": "https://www.ticketliquidator.com/tickets/7373458/Ariana-Grande-tickets-Thu-Jul-30-2026-Centre-Bell",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AsZkG_GkdrCxiM",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373458",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373458/Ariana-Grande-tickets-Thu-Jul-30-2026-Centre-Bell"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319dedc2b4c",
@@ -1492,7 +1492,7 @@
         "event_id": 5995665,
         "url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665",
         "verified": true,
-        "last_verified_at": "2026-07-28",
+        "last_verified_at": "2026-07-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1561,7 +1561,7 @@
         "event_id": 5973688,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
         "verified": true,
-        "last_verified_at": "2026-07-28",
+        "last_verified_at": "2026-07-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1638,7 +1638,7 @@
         "event_id": 5973690,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-5-2026--concerts-pop/production/5973690",
         "verified": true,
-        "last_verified_at": "2026-07-28",
+        "last_verified_at": "2026-07-31",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1715,7 +1715,7 @@
         "event_id": 5995835,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
         "verified": true,
-        "last_verified_at": "2026-07-28",
+        "last_verified_at": "2026-07-31",
         "availability_status": "listed"
       },
       "stubhub": {

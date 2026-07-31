@@ -346,6 +346,8 @@ function summarizeEvent(event, ticketmasterDiscoveryEventId, data = null) {
     ticketmaster_discovery_event_id: ticketmasterDiscoveryEventId,
     artist_slug: clean(event.artist_slug),
     local_event_name: clean(event.event_name),
+    datetime_iso: clean(event.datetime_iso),
+    ticketmaster_datetime_iso: clean(data?.dates?.start?.dateTime) || null,
     ticketmaster_status: clean(data?.dates?.status?.code).toLowerCase() || null
   };
 }

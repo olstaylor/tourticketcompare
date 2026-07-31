@@ -1434,11 +1434,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7373458",
-        "url": "https://www.ticketnetwork.com/en/p/7373458",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7373458",
@@ -1450,7 +1450,7 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AsZkG_GkdrCxiM",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373458",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373458/Ariana-Grande-tickets-Thu-Jul-30-2026-Centre-Bell"
   },
   {

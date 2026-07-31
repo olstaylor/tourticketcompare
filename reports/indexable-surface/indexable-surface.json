@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T12:44:17.969Z",
+  "generated_at": "2026-07-31T12:52:34.137Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -26,7 +26,7 @@
       "indexable": 17
     },
     "artist": {
-      "rendered": 30,
+      "rendered": 40,
       "indexable": 18
     },
     "city": {
@@ -43,15 +43,15 @@
     }
   },
   "overall": {
-    "rendered": 459,
+    "rendered": 469,
     "indexable": 205,
-    "noindex": 254,
+    "noindex": 264,
     "baseline_indexable": 205
   },
   "exclusion_reasons": {
     "artist": {
-      "no_upcoming_shows": 12,
-      "artist_not_editorially_indexable": 4
+      "no_upcoming_shows": 22,
+      "artist_not_editorially_indexable": 14
     },
     "city": {
       "below_show_threshold": 43,
@@ -213,7 +213,7 @@
       "share_of_indexable": 0.5
     },
     {
-      "pattern": "SeatGeek vs Ticketmaster | TourTicketCompare",
+      "pattern": "SeatGeek vs Ticketmaster: Which Is Cheaper or Better?",
       "count": 1,
       "share_of_indexable": 0.5
     },
@@ -363,11 +363,11 @@
           "indexable": 18
         },
         "after": {
-          "rendered": 30,
+          "rendered": 40,
           "indexable": 18
         },
         "kind": "unchanged",
-        "sharePointsDelta": 0,
+        "sharePointsDelta": -15,
         "indexableDelta": 0
       },
       {

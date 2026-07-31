@@ -1,14 +1,14 @@
 # Internal links & indexability audit
 
-Generated: 2026-07-31T12:44:11.324Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-07-31T12:52:42.011Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 
-- routes_crawled: 459
-- rendered_200: 459
+- routes_crawled: 469
+- rendered_200: 469
 - redirects: 0
 - indexable: 205
-- noindex: 254
+- noindex: 264
 - sitemap_entries: 205
 - problems: 0
 
@@ -28,33 +28,33 @@ Generated: 2026-07-31T12:44:11.324Z (read-only, rendered in-process — no live 
 
 | Page | Status | Indexable | Sitemap | Words | Contextual in | Schema types |
 |---|---|---|---|---|---|---|
-| / | 200 | yes | yes | 890 | 458 | Organization, WebSite |
-| /compare-concert-ticket-prices | 200 | yes | yes | 1215 | 267 | BreadcrumbList, FAQPage, ItemList, Organization, WebPage, WebSite |
-| /artists | 200 | yes | yes | 555 | 245 | BreadcrumbList, Organization, WebSite |
-| /guides | 200 | yes | yes | 728 | 54 | BreadcrumbList, Organization, WebSite |
-| /how-it-works | 200 | yes | yes | 419 | 242 | BreadcrumbList, FAQPage, Organization, WebSite |
+| / | 200 | yes | yes | 1022 | 468 | Organization, WebSite |
+| /compare-concert-ticket-prices | 200 | yes | yes | 1215 | 277 | BreadcrumbList, FAQPage, ItemList, Organization, WebPage, WebSite |
+| /artists | 200 | yes | yes | 687 | 255 | BreadcrumbList, Organization, WebSite |
+| /guides | 200 | yes | yes | 728 | 64 | BreadcrumbList, Organization, WebSite |
+| /how-it-works | 200 | yes | yes | 419 | 252 | BreadcrumbList, FAQPage, Organization, WebSite |
 | /currency-converter | 200 | yes | yes | 286 | 2 | BreadcrumbList, Organization, WebSite |
 | /about | 200 | yes | yes | 194 | 17 | BreadcrumbList, Organization, WebSite |
 | /contact | 200 | yes | yes | 190 | 191 | BreadcrumbList, Organization, WebSite |
 | /editorial-policy | 200 | yes | yes | 322 | 207 | BreadcrumbList, Organization, WebSite |
-| /affiliate-disclosure | 200 | yes | yes | 327 | 52 | BreadcrumbList, Organization, WebSite |
-| /guides/how-to-compare-event-ticket-prices | 200 | yes | yes | 847 | 18 | Article, BreadcrumbList, FAQPage, HowTo, Organization, WebSite |
-| /guides/how-to-compare-concert-ticket-prices | 200 | yes | yes | 1561 | 436 | Article, BreadcrumbList, FAQPage, HowTo, Organization, WebSite |
-| /guides/ticketmaster-vs-seatgeek-vs-vivid-seats | 200 | yes | yes | 1777 | 4 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/seatgeek-vs-ticketmaster | 200 | yes | yes | 1710 | 6 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/how-to-avoid-overpaying-for-concert-tickets | 200 | yes | yes | 1973 | 32 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/when-is-the-best-time-to-buy-concert-tickets | 200 | yes | yes | 1275 | 34 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/primary-vs-resale-concert-tickets | 200 | yes | yes | 1324 | 38 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/how-to-avoid-ticket-scams | 200 | yes | yes | 2009 | 14 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/why-ticket-prices-change | 200 | yes | yes | 1592 | 6 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/ticketmaster-vs-stubhub | 200 | yes | yes | 1415 | 5 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/seatgeek-promo-code-guide | 200 | yes | yes | 1183 | 2 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/concert-ticket-fees-explained | 200 | yes | yes | 1210 | 410 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/ticket-delivery-and-transfer-timing | 200 | yes | yes | 1253 | 6 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/how-resale-ticket-pricing-works | 200 | yes | yes | 1498 | 6 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/how-to-prepare-for-a-ticket-onsale | 200 | yes | yes | 998 | 3 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/how-to-read-a-ticket-listing | 200 | yes | yes | 966 | 8 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
-| /guides/what-to-do-if-a-concert-is-postponed-or-cancelled | 200 | yes | yes | 1562 | 3 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /affiliate-disclosure | 200 | yes | yes | 327 | 62 | BreadcrumbList, Organization, WebSite |
+| /guides/how-to-compare-event-ticket-prices | 200 | yes | yes | 919 | 18 | Article, BreadcrumbList, FAQPage, HowTo, Organization, WebSite |
+| /guides/how-to-compare-concert-ticket-prices | 200 | yes | yes | 1633 | 446 | Article, BreadcrumbList, FAQPage, HowTo, Organization, WebSite |
+| /guides/ticketmaster-vs-seatgeek-vs-vivid-seats | 200 | yes | yes | 1849 | 4 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/seatgeek-vs-ticketmaster | 200 | yes | yes | 1787 | 6 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/how-to-avoid-overpaying-for-concert-tickets | 200 | yes | yes | 2045 | 42 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/when-is-the-best-time-to-buy-concert-tickets | 200 | yes | yes | 1347 | 44 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/primary-vs-resale-concert-tickets | 200 | yes | yes | 1396 | 48 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/how-to-avoid-ticket-scams | 200 | yes | yes | 2081 | 24 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/why-ticket-prices-change | 200 | yes | yes | 1664 | 6 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/ticketmaster-vs-stubhub | 200 | yes | yes | 1487 | 5 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/seatgeek-promo-code-guide | 200 | yes | yes | 1255 | 2 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/concert-ticket-fees-explained | 200 | yes | yes | 1282 | 410 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/ticket-delivery-and-transfer-timing | 200 | yes | yes | 1325 | 6 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/how-resale-ticket-pricing-works | 200 | yes | yes | 1570 | 6 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/how-to-prepare-for-a-ticket-onsale | 200 | yes | yes | 1070 | 3 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/how-to-read-a-ticket-listing | 200 | yes | yes | 1038 | 8 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
+| /guides/what-to-do-if-a-concert-is-postponed-or-cancelled | 200 | yes | yes | 1634 | 3 | Article, BreadcrumbList, FAQPage, Organization, WebSite |
 | /artists/beyonce | 200 | no | no | 764 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
 | /artists/harry-styles | 200 | yes | yes | 1710 | 23 | BreadcrumbList, FAQPage, MusicEvent, Organization, Person, WebSite |
 | /artists/bts | 200 | yes | yes | 1307 | 37 | BreadcrumbList, FAQPage, MusicEvent, MusicGroup, Organization, WebSite |
@@ -85,6 +85,16 @@ Generated: 2026-07-31T12:44:11.324Z (read-only, rendered in-process — no live 
 | /artists/sombr | 200 | yes | yes | 1962 | 119 | BreadcrumbList, FAQPage, MusicEvent, Organization, Person, WebSite |
 | /artists/latto | 200 | no | no | 773 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
 | /artists/john-summit | 200 | yes | yes | 1565 | 72 | BreadcrumbList, FAQPage, MusicEvent, Organization, Person, WebSite |
+| /artists/karol-g | 200 | no | no | 816 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
+| /artists/foo-fighters | 200 | no | no | 825 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
+| /artists/metallica | 200 | no | no | 805 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
+| /artists/rush | 200 | no | no | 818 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
+| /artists/muse | 200 | no | no | 810 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
+| /artists/my-chemical-romance | 200 | no | no | 836 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
+| /artists/teddy-swims | 200 | no | no | 825 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
+| /artists/five-finger-death-punch | 200 | no | no | 848 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
+| /artists/system-of-a-down | 200 | no | no | 843 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
+| /artists/laura-pausini | 200 | no | no | 822 | 19 | BreadcrumbList, FAQPage, Organization, Person, WebSite |
 | /cities | 200 | yes | yes | 822 | 84 | BreadcrumbList, CollectionPage, Organization, WebSite |
 | /cities/new-york-united-states | 200 | yes | yes | 916 | 9 | BreadcrumbList, CollectionPage, FAQPage, MusicEvent, Organization, Place, WebSite |
 | /cities/inglewood-united-states | 200 | yes | yes | 1039 | 25 | BreadcrumbList, CollectionPage, FAQPage, MusicEvent, Organization, Place, WebSite |

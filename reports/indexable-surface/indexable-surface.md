@@ -1,12 +1,12 @@
 # Indexable-surface audit
 
-Generated: 2026-07-31T12:44:17.969Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-07-31T12:52:34.137Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 
-- rendered routes: 459
+- rendered routes: 469
 - indexable: 205
-- non-indexable: 254
+- non-indexable: 264
 - stored baseline indexable: 205 (+0)
 
 ## Routes by type
@@ -17,7 +17,7 @@ Generated: 2026-07-31T12:44:17.969Z (read-only, rendered in-process — no live 
 | index | 4 | 4 | 0 | 100% |
 | static | 7 | 7 | 0 | 100% |
 | guide | 17 | 17 | 0 | 100% |
-| artist | 30 | 18 | 12 | 60% |
+| artist | 40 | 18 | 22 | 45% |
 | city | 81 | 35 | 46 | 43% |
 | venue | 109 | 41 | 68 | 38% |
 | artist-city | 210 | 82 | 128 | 39% |
@@ -26,8 +26,8 @@ Generated: 2026-07-31T12:44:17.969Z (read-only, rendered in-process — no live 
 
 | Type | Reason | Routes |
 |---|---|---|
-| artist | no_upcoming_shows | 12 |
-| artist | artist_not_editorially_indexable | 4 |
+| artist | no_upcoming_shows | 22 |
+| artist | artist_not_editorially_indexable | 14 |
 | city | below_show_threshold | 43 |
 | city | below_artist_threshold | 31 |
 | city | no_publishable_destination | 15 |
@@ -94,7 +94,7 @@ Baseline generated 2026-07-31T12:38:28.546Z.
 | index | 4/4 | 4/4 | +0 | +0pp | unchanged |
 | static | 7/7 | 7/7 | +0 | +0pp | unchanged |
 | guide | 17/17 | 17/17 | +0 | +0pp | unchanged |
-| artist | 18/30 | 18/30 | +0 | +0pp | unchanged |
+| artist | 18/30 | 18/40 | +0 | -15pp | unchanged |
 | city | 35/81 | 35/81 | +0 | +0pp | unchanged |
 | venue | 41/109 | 41/109 | +0 | +0pp | unchanged |
 | artist-city | 82/210 | 82/210 | +0 | +0pp | unchanged |

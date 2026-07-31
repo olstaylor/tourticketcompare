@@ -75,6 +75,20 @@ npm run impact-providers:prices:self-test     # exact-ID snapshot writer
 npm run prices:history:prune:self-test        # history retention statement shape
 ```
 
+### Analytics / commercial funnel (before changing measurement code)
+
+```bash
+npm run test:funnel-analytics                 # event validation, duplicate prevention, redirect
+                                              #   tracking, dimension classification, schema
+                                              #   tolerance (in test:mvp)
+npm run report:commercial-funnel:self-test    # read-only report aggregation + SQL safety (in test:mvp)
+npm run report:funnel:self-test               # legacy provider/CTA-location report (in test:mvp)
+```
+
+Touching `functions/api/analytics.js`, `functions/api/out.js`, `functions/_funnel.js`,
+`functions/_analytics-write.js`, or the client beacon in `public/app.js` means running all three.
+Metric definitions and the authoritative-source rule live in [docs/COMMERCIAL_FUNNEL.md](docs/COMMERCIAL_FUNNEL.md).
+
 ### Smoke tests
 
 ```bash

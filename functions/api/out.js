@@ -1,5 +1,16 @@
 import { impactMarketplacePublicEnabled } from "../_impact-marketplace-config.js";
 import { isLikelyBot } from "../_bot-detection.js";
+import { insertAnalyticsRow } from "../_analytics-write.js";
+import {
+  classifyDestination,
+  classifyDeviceCategory,
+  classifyPageType,
+  createClickId,
+  isAffiliateProvider,
+  isValidClickId,
+  normalizeAnalyticsPath,
+  normalizeCtaLocation
+} from "../_funnel.js";
 
 const PLACEHOLDER_URL_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1/i;
 const EVENTS_JSON_PATH = "/data/events.json";
@@ -655,6 +666,23 @@ function validateImpactMarketplaceEventUrl(value, providerConfig) {
   return redirect;
 }
 
+// Funnel dimensions taken from the reviewed event record that the redirect has
+// already resolved and validated. They are read from `events.json`, never from
+// the request, so a click can never assert an event date, city or venue that
+// the catalogue does not hold. The date is stored as the calendar day only —
+// enough to segment near-term versus distant shows without turning the row into
+// a precise behavioural timestamp of the visitor.
+function eventFacts(event) {
+  const iso = clean(event?.datetime_iso, 40);
+  const eventDate = /^\d{4}-\d{2}-\d{2}/.test(iso) ? iso.slice(0, 10) : null;
+  return {
+    eventId: clean(event?.id, 120) || null,
+    eventDate,
+    eventCity: clean(event?.city, 120) || null,
+    eventVenue: clean(event?.venue, 160) || null
+  };
+}
+
 async function resolveShowLink(env, showId, provider) {
   const events = await loadEventsFromAssets(env);
   if (!events) return { ok: false, status: "event_data_unavailable", httpStatus: 503 };
@@ -676,7 +704,8 @@ async function resolveShowLink(env, showId, provider) {
         linkId: clean(event.id, 255),
         showId: clean(event.id, 255),
         redirectUrl: redirect.toString(),
-        verified: true
+        verified: true,
+        ...eventFacts(event)
       },
       redirect
     };
@@ -696,7 +725,8 @@ async function resolveShowLink(env, showId, provider) {
         linkId: clean(event.id, 255),
         showId: clean(event.id, 255),
         redirectUrl: redirect.toString(),
-        verified: true
+        verified: true,
+        ...eventFacts(event)
       },
       redirect
     };
@@ -716,7 +746,8 @@ async function resolveShowLink(env, showId, provider) {
         linkId: clean(event.id, 255),
         showId: clean(event.id, 255),
         redirectUrl: redirect.toString(),
-        verified: true
+        verified: true,
+        ...eventFacts(event)
       },
       redirect
     };
@@ -735,7 +766,8 @@ async function resolveShowLink(env, showId, provider) {
         linkId: clean(event.id, 255),
         showId: clean(event.id, 255),
         redirectUrl: redirect.toString(),
-        verified: true
+        verified: true,
+        ...eventFacts(event)
       },
       redirect
     };
@@ -798,11 +830,29 @@ function validateImpactPxfBaseTrackingUrl(value) {
   return { ok: true, url: parsed };
 }
 
+// Optional SubId passthrough for affiliate reconciliation, **default off**.
+//
+// Impact tracking links can carry a publisher-supplied SubId that comes back on
+// the click and action rows in Impact's reporting, which is what turns "we
+// recorded 40 SeatGeek clicks" into "these 40 rows are the same 40 rows Impact
+// shows". Enabling it changes a live affiliate URL, so it stays behind an
+// explicit flag and the parameter name is configurable — the owner confirms the
+// expected name with Impact, sets it, and verifies one click end to end before
+// relying on it. See docs/COMMERCIAL_FUNNEL.md.
+//
+// Applies only to the pxf.io base-tracking path. The Impact API TrackingLinks
+// path builds its link server-side from Type/DeepLink and is not covered.
+function outboundClickIdParam(env = {}) {
+  if (String(env?.OUT_CLICK_ID_SUBID_ENABLED || "").trim().toLowerCase() !== "true") return "";
+  const configured = clean(env?.OUT_CLICK_ID_SUBID_PARAM, 40) || "subId1";
+  return /^[A-Za-z][A-Za-z0-9_]{0,39}$/.test(configured) ? configured : "";
+}
+
 // Wraps a pre-validated provider destination with the provider's configured
 // pxf.io base tracking URL. `validateDestination` re-validates the destination
 // with the caller's context (event-shape validator on the showId path;
 // validateConfiguredRedirect for hand-verified artist-level entries).
-function buildBaseTrackingRedirect(env, provider, destination, validateDestination) {
+function buildBaseTrackingRedirect(env, provider, destination, validateDestination, clickId = "") {
   const configuredBase = baseTrackingUrlFor(env, provider);
   if (!configuredBase) return { ok: false, status: "impact_base_tracking_url_missing" };
 
@@ -816,6 +866,8 @@ function buildBaseTrackingRedirect(env, provider, destination, validateDestinati
 
   const outbound = new URL(base.url.toString());
   outbound.searchParams.set("u", destinationUrl.toString());
+  const clickIdParam = outboundClickIdParam(env);
+  if (clickIdParam && isValidClickId(clickId)) outbound.searchParams.set(clickIdParam, clickId);
   return { ok: true, trackingUrl: outbound.toString() };
 }
 
@@ -1235,7 +1287,30 @@ async function readBody(request) {
   }
 }
 
-async function trackClick({ request, env, link, sourcePath, destinationHost }) {
+// Anonymous visitor key, computed exactly as functions/api/analytics.js does so
+// an outbound click can be joined to the page views of the same visit. The IP
+// address and user agent are hashed together and discarded — no complete IP is
+// stored, and the digest is not reversible to one.
+async function hashRequestKey(request) {
+  try {
+    const ip = clean(request.headers.get("cf-connecting-ip") || request.headers.get("x-forwarded-for"), 120);
+    const ua = clean(request.headers.get("user-agent"), 255);
+    const bytes = new TextEncoder().encode(`${ip}|${ua}`);
+    const digest = await crypto.subtle.digest("SHA-256", bytes);
+    return Array.from(new Uint8Array(digest))
+      .map((byte) => byte.toString(16).padStart(2, "0"))
+      .join("");
+  } catch (error) {
+    return null;
+  }
+}
+
+// The authoritative outbound-click record. Every monetized and unmonetized CTA
+// on the site navigates through here, so this row — not the client beacon — is
+// what the commercial funnel counts. `provider_click` is the client's
+// statement of intent; `outbound_click` is the server's record that a redirect
+// was actually issued. See docs/COMMERCIAL_FUNNEL.md.
+async function trackClick({ request, env, link, sourcePath, destinationHost, ctaLocation, clickId, outcome = "redirected", status = null }) {
   const db = getDemandDb(env);
   if (!db) return;
   // Self-identifying crawlers follow every affiliate link on the page, which
@@ -1243,57 +1318,99 @@ async function trackClick({ request, env, link, sourcePath, destinationHost }) {
   // them; the redirect itself is untouched and still resolves normally.
   if (isLikelyBot(request.headers.get("user-agent"))) return;
   const now = new Date().toISOString();
+  const path = normalizeAnalyticsPath(sourcePath);
+  const pageType = classifyPageType(path);
+  const normalizedCtaLocation = normalizeCtaLocation(ctaLocation);
+  const destinationCategory = destinationHost ? classifyDestination(destinationHost) : "unknown";
+  const userAgent = clean(request.headers.get("user-agent"), 255) || null;
   const metadata = JSON.stringify({
     provider: link.provider,
     artistSlug: link.artistSlug,
     showId: link.showId || null,
-    sourcePath,
+    sourcePath: path,
     destinationHost,
-    linkId: link.linkId
+    linkId: link.linkId,
+    pageType,
+    ctaLocation: normalizedCtaLocation || undefined,
+    outcome,
+    status: status || undefined
   });
-  try {
-    await db
-      .prepare(
-        `INSERT INTO analytics_events (
-          created_at, event_name, source_path, artist_slug, email, request_key, referrer, user_agent,
-          metadata_json, provider, tour_slug, destination_host, link_id
-        ) VALUES (?1, ?2, ?3, ?4, NULL, NULL, ?5, ?6, ?7, ?8, NULL, ?9, ?10)`
-      )
-      .bind(
-        now,
-        "outbound_click",
-        sourcePath || "/",
-        link.artistSlug,
-        clean(request.headers.get("referer"), 512) || null,
-        clean(request.headers.get("user-agent"), 255) || null,
-        metadata,
-        link.provider,
-        destinationHost || null,
-        link.linkId
-      )
-      .run();
-  } catch (error) {
-    try {
-      await db
-        .prepare(
-          `INSERT INTO analytics_events (
-            created_at, event_name, source_path, artist_slug, email, request_key, referrer, user_agent, metadata_json
-          ) VALUES (?1, ?2, ?3, ?4, NULL, NULL, ?5, ?6, ?7)`
-        )
-        .bind(
-          now,
-          "outbound_click",
-          sourcePath || "/",
-          link.artistSlug,
-          clean(request.headers.get("referer"), 512) || null,
-          clean(request.headers.get("user-agent"), 255) || null,
-          metadata
-        )
-        .run();
-    } catch (fallbackError) {
-      // Click tracking must never block a safe redirect.
-    }
-  }
+
+  await insertAnalyticsRow(db, {
+    created_at: now,
+    event_name: outcome === "redirected" ? "outbound_click" : "outbound_blocked",
+    source_path: path,
+    artist_slug: link.artistSlug || null,
+    email: null,
+    request_key: await hashRequestKey(request),
+    // Not an acquisition source: under the site's same-origin referrer policy
+    // the Referer on this hop is one of our own pages, and that page is already
+    // recorded as source_path.
+    referrer: null,
+    user_agent: userAgent,
+    metadata_json: metadata,
+    provider: link.provider || null,
+    tour_slug: null,
+    destination_host: destinationHost || null,
+    link_id: link.linkId || null,
+    page_type: pageType,
+    landing_path: null,
+    event_id: link.eventId || link.showId || null,
+    event_date: link.eventDate || null,
+    event_city: link.eventCity || null,
+    event_venue: link.eventVenue || null,
+    cta_location: normalizedCtaLocation,
+    destination_category: destinationCategory,
+    is_affiliate: isAffiliateProvider(link.provider) ? 1 : 0,
+    device_category: classifyDeviceCategory(userAgent),
+    acquisition_source: null,
+    utm_source: null,
+    utm_medium: null,
+    utm_campaign: null,
+    click_id: clickId || null
+  });
+}
+
+// A CTA the visitor clicked that did not produce a redirect — an Impact
+// tracking failure, a provider switched off, or a destination that no longer
+// validates. Without this the funnel silently loses the click and the lane
+// looks merely unpopular rather than broken. Deliberately limited to provider
+// and configuration failures: malformed or probing requests are not demand
+// signal and are not recorded.
+const TRACKED_BLOCK_STATUSES = new Set([
+  "provider_not_configured",
+  "configured_redirect_rejected",
+  "event_ticket_url_unavailable",
+  "event_link_not_publishable",
+  "event_data_unavailable",
+  "impact_missing_credentials",
+  "impact_missing_program_id",
+  "impact_request_failed",
+  "impact_response_parse_failed",
+  "impact_response_missing_tracking_url",
+  "impact_tracking_url_unsafe",
+  "impact_tracking_url_failed_safety_check",
+  "impact_tracking_endpoint_not_found",
+  "impact_program_not_accessible",
+  "impact_base_tracking_url_missing",
+  "impact_base_tracking_url_invalid",
+  "impact_base_tracking_url_unsafe",
+  "impact_base_tracking_url_host_not_allowed"
+]);
+
+async function trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status }) {
+  if (!TRACKED_BLOCK_STATUSES.has(String(status || ""))) return;
+  await trackClick({
+    request,
+    env,
+    link,
+    sourcePath,
+    destinationHost: null,
+    ctaLocation,
+    clickId: null,
+    outcome: "blocked",
+    status
+  });
 }
 
 
@@ -1338,12 +1455,33 @@ async function handleOut(request, env, mode) {
   const showId = clean(body.showId || url.searchParams.get("showId"), 255);
   const artistSlug = slugify(body.artistSlug || url.searchParams.get("artistSlug"));
   const provider = providerKey(body.provider || url.searchParams.get("provider") || "ticketmaster");
-  const sourcePath = clean(body.sourcePath || url.searchParams.get("sourcePath") || request.headers.get("referer") || "/", 255);
+  // The page the click came from. An explicit parameter wins; the Referer is
+  // the fallback and is reduced to a path (the site's same-origin referrer
+  // policy means this header is one of our own pages and is never sent to a
+  // third party). Recorded as a path only — no origin, no query string.
+  const sourcePath = normalizeAnalyticsPath(
+    body.sourcePath || url.searchParams.get("sourcePath") || request.headers.get("referer") || "/"
+  );
+  // Which CTA component was clicked. `surface` is the existing artist-level
+  // parameter name; both are validated against the fixed CTA_LOCATIONS list, so
+  // an arbitrary query value is discarded rather than stored.
+  const ctaLocation = normalizeCtaLocation(
+    body.ctaLocation || url.searchParams.get("ctaLocation") || url.searchParams.get("surface")
+  );
   const requestedDestination = clean(body.destinationUrl || body.deepLink || url.searchParams.get("destinationUrl") || url.searchParams.get("deepLink"), 2048);
+  const clickId = createClickId();
 
   const providerConfig = PROVIDERS[provider];
   if (!providerConfig) return json({ ok: false, status: "unknown_provider" }, 400);
   if (providerConfig.publicEnabledEnv && !impactMarketplacePublicEnabled(env, provider)) {
+    await trackBlockedClick({
+      request,
+      env,
+      link: { provider, artistSlug: artistSlug || null, linkId: null, showId: showId || null },
+      sourcePath,
+      ctaLocation,
+      status: "provider_not_configured"
+    });
     return json({ ok: false, status: "provider_not_configured" }, 400);
   }
 
@@ -1354,6 +1492,14 @@ async function handleOut(request, env, mode) {
     // user deep links or provider discovery/search fallbacks for an event click.
     const resolved = await resolveShowLink(env, showId, provider);
     if (!resolved.ok) {
+      await trackBlockedClick({
+        request,
+        env,
+        link: { provider, artistSlug: artistSlug || null, linkId: showId, showId },
+        sourcePath,
+        ctaLocation,
+        status: resolved.status
+      });
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
     }
 
@@ -1374,17 +1520,19 @@ async function handleOut(request, env, mode) {
       let impactTrackingResult = null;
 
       if (hasBaseTrackingUrl(env, provider)) {
-        impactTrackingResult = buildBaseTrackingRedirect(env, provider, destination, validateEventDestination);
+        impactTrackingResult = buildBaseTrackingRedirect(env, provider, destination, validateEventDestination, clickId);
       } else {
         impactTrackingResult = await createImpactTrackingUrlResult(env, destination, provider);
       }
 
       if (!impactTrackingResult.ok) {
+        await trackBlockedClick({ request, env, link: resolved.link, sourcePath, ctaLocation, status: impactTrackingResult.status });
         return json(impactFailurePayload(provider, resolved, impactTrackingResult, providerImpactConfig), 400);
       }
 
       const outbound = safeUrl(impactTrackingResult.trackingUrl);
       if (!outbound) {
+        await trackBlockedClick({ request, env, link: resolved.link, sourcePath, ctaLocation, status: "impact_tracking_url_failed_safety_check" });
         return json(impactFailurePayload(provider, resolved, {
           ok: false,
           status: "impact_tracking_url_failed_safety_check",
@@ -1398,7 +1546,9 @@ async function handleOut(request, env, mode) {
         env,
         link: resolved.link,
         sourcePath,
-        destinationHost: outbound.hostname.toLowerCase()
+        destinationHost: outbound.hostname.toLowerCase(),
+        ctaLocation,
+        clickId
       });
 
       if (mode === "redirect") {
@@ -1423,7 +1573,9 @@ async function handleOut(request, env, mode) {
       env,
       link: resolved.link,
       sourcePath,
-      destinationHost: outbound.hostname.toLowerCase()
+      destinationHost: outbound.hostname.toLowerCase(),
+      ctaLocation,
+      clickId
     });
 
     if (mode === "redirect") {
@@ -1449,11 +1601,22 @@ async function handleOut(request, env, mode) {
 
   const link = VERIFIED_TICKET_LINKS[`${artistSlug}:${provider}`];
   if (!link || !link.verified) {
+    await trackBlockedClick({
+      request,
+      env,
+      link: { provider, artistSlug, linkId: null, showId: null },
+      sourcePath,
+      ctaLocation,
+      status: "provider_not_configured"
+    });
     return json({ ok: false, status: "provider_not_configured" }, 400);
   }
 
   const redirect = validateConfiguredRedirect(providerConfig, link.redirectUrl);
-  if (!redirect) return json({ ok: false, status: "configured_redirect_rejected" }, 400);
+  if (!redirect) {
+    await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status: "configured_redirect_rejected" });
+    return json({ ok: false, status: "configured_redirect_rejected" }, 400);
+  }
 
   let outbound = redirect;
   if (IMPACT_WRAPPED_PROVIDERS.has(provider)) {
@@ -1465,17 +1628,20 @@ async function handleOut(request, env, mode) {
     // performer-page constant, not an event URL.
     const providerImpactConfig = impactConfig(env, provider);
     if (!providerImpactConfig.configured && !hasBaseTrackingUrl(env, provider)) {
+      await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status: "provider_not_configured" });
       return json({ ok: false, status: "provider_not_configured" }, 400);
     }
     const validateArtistDestination = (value) => validateConfiguredRedirect(providerConfig, value);
     const impactTrackingResult = hasBaseTrackingUrl(env, provider)
-      ? buildBaseTrackingRedirect(env, provider, redirect.toString(), validateArtistDestination)
+      ? buildBaseTrackingRedirect(env, provider, redirect.toString(), validateArtistDestination, clickId)
       : await createImpactTrackingUrlResult(env, redirect.toString(), provider);
     if (!impactTrackingResult.ok) {
+      await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status: impactTrackingResult.status });
       return json(impactFailurePayload(provider, { redirect }, impactTrackingResult, providerImpactConfig), 400);
     }
     outbound = safeUrl(impactTrackingResult.trackingUrl);
     if (!outbound) {
+      await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status: "impact_tracking_url_failed_safety_check" });
       return json(impactFailurePayload(provider, { redirect }, {
         ok: false,
         status: "impact_tracking_url_failed_safety_check",
@@ -1485,7 +1651,7 @@ async function handleOut(request, env, mode) {
     }
   }
 
-  await trackClick({ request, env, link, sourcePath, destinationHost: outbound.hostname.toLowerCase() });
+  await trackClick({ request, env, link, sourcePath, destinationHost: outbound.hostname.toLowerCase(), ctaLocation, clickId });
 
   if (mode === "redirect") {
     return redirectResponse(outbound.toString(), 302);
@@ -1501,6 +1667,8 @@ async function handleOut(request, env, mode) {
 }
 
 export {
+  buildBaseTrackingRedirect,
+  outboundClickIdParam,
   createImpactTrackingUrlResult,
   impactConfig,
   impactEndpointDiagnostics,

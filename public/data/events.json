@@ -5688,17 +5688,17 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7373458",
-        "url": "https://www.ticketliquidator.com/tickets/7373458/Ariana-Grande-tickets-Thu-Jul-30-2026-Centre-Bell",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AsZkG_GkdrCxiM",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373458/Ariana-Grande-tickets-Thu-Jul-30-2026-Centre-Bell"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-montreal-31006319dedc2b4c",
@@ -27358,13 +27358,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164947",
+        "url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GNtjqqM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164947",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143"
+    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium"
   },
   {
     "id": "tm-gracie-abrams-2026-denver-g5vzz_55eui2w",
@@ -27427,13 +27435,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002235",
+        "url": "https://www.ticketliquidator.com/tickets/8002235/Gracie-Abrams-tickets-Wed-Dec-2-2026-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_55Eui2W",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002235",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-2-2026/event/107198457"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-2-2026/event/107198457",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002235/Gracie-Abrams-tickets-Wed-Dec-2-2026-Ball-Arena"
   },
   {
     "id": "tm-gracie-abrams-2026-denver-g5vzz_5lhxedg",
@@ -27496,13 +27512,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002236",
+        "url": "https://www.ticketliquidator.com/tickets/8002236/Gracie-Abrams-tickets-Thu-Dec-3-2026-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_5lHXEdG",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002236",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-3-2026/event/107198458"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-3-2026/event/107198458",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002236/Gracie-Abrams-tickets-Thu-Dec-3-2026-Ball-Arena"
   },
   {
     "id": "tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx",
@@ -27565,13 +27589,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002237",
+        "url": "https://www.ticketliquidator.com/tickets/8002237/Gracie-Abrams-tickets-Sun-Dec-6-2026-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1UDxFhX",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002237",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-6-2026/event/107198459"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-6-2026/event/107198459",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002237/Gracie-Abrams-tickets-Sun-Dec-6-2026-Oakland-Arena"
   },
   {
     "id": "tm-gracie-abrams-2026-oakland-g5vyz_5mq0w7n",
@@ -27634,13 +27666,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002238",
+        "url": "https://www.ticketliquidator.com/tickets/8002238/Gracie-Abrams-tickets-Mon-Dec-7-2026-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5mq0w7N",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002238",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-7-2026/event/107198460"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-7-2026/event/107198460",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002238/Gracie-Abrams-tickets-Mon-Dec-7-2026-Oakland-Arena"
   },
   {
     "id": "tm-gracie-abrams-2026-glendale-17k8v0g652smnjw",
@@ -27703,13 +27743,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002239",
+        "url": "https://www.ticketliquidator.com/tickets/8002239/Gracie-Abrams-tickets-Wed-Dec-9-2026-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G652SMnjW",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002239",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-9-2026/event/107198461"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-9-2026/event/107198461",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002239/Gracie-Abrams-tickets-Wed-Dec-9-2026-Desert-Diamond-Arena"
   },
   {
     "id": "tm-gracie-abrams-2026-glendale-17k8v0g65839wds",
@@ -27772,13 +27820,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002240",
+        "url": "https://www.ticketliquidator.com/tickets/8002240/Gracie-Abrams-tickets-Thu-Dec-10-2026-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G65839WDS",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002240",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-10-2026/event/107198462"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-10-2026/event/107198462",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002240/Gracie-Abrams-tickets-Thu-Dec-10-2026-Desert-Diamond-Arena"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_53kkqpx",
@@ -27841,13 +27897,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002241",
+        "url": "https://www.ticketliquidator.com/tickets/8002241/Gracie-Abrams-tickets-Mon-Dec-14-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_53KkQpX",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002241",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-14-2026/event/107248077"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-14-2026/event/107248077",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002241/Gracie-Abrams-tickets-Mon-Dec-14-2026-The-Kia-Forum"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0-czu",
@@ -27910,13 +27974,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002242",
+        "url": "https://www.ticketliquidator.com/tickets/8002242/Gracie-Abrams-tickets-Fri-Dec-18-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5R0-Czu",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002242",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-18-2026/event/107198463"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-18-2026/event/107198463",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002242/Gracie-Abrams-tickets-Fri-Dec-18-2026-The-Kia-Forum"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0nxzp",
@@ -27979,13 +28051,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002243",
+        "url": "https://www.ticketliquidator.com/tickets/8002243/Gracie-Abrams-tickets-Sat-Dec-19-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5R0NXzP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002243",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-19-2026/event/107198464"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-19-2026/event/107198464",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002243/Gracie-Abrams-tickets-Sat-Dec-19-2026-The-Kia-Forum"
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0eryu",
@@ -28048,13 +28128,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002244",
+        "url": "https://www.ticketliquidator.com/tickets/8002244/Gracie-Abrams-tickets-Sun-Dec-20-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_5R0Eryu",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002244",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-20-2026/event/107198465"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-20-2026/event/107198465",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002244/Gracie-Abrams-tickets-Sun-Dec-20-2026-The-Kia-Forum"
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f",
@@ -28117,13 +28205,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002270",
+        "url": "https://www.ticketliquidator.com/tickets/8002270/Gracie-Abrams-tickets-Tue-Jan-26-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1BnJn8F",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002270",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-26-2027/event/107198466"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-26-2027/event/107198466",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002270/Gracie-Abrams-tickets-Tue-Jan-26-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5rykvjn",
@@ -28186,13 +28282,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002271",
+        "url": "https://www.ticketliquidator.com/tickets/8002271/Gracie-Abrams-tickets-Wed-Jan-27-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5RyKVJn",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002271",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-27-2027/event/107198467"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-27-2027/event/107198467",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002271/Gracie-Abrams-tickets-Wed-Jan-27-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5ry97ef",
@@ -28255,13 +28359,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002272",
+        "url": "https://www.ticketliquidator.com/tickets/8002272/Gracie-Abrams-tickets-Fri-Jan-29-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5Ry97EF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002272",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-29-2027/event/107198468"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-29-2027/event/107198468",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002272/Gracie-Abrams-tickets-Fri-Jan-29-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byq5cg",
@@ -28324,13 +28436,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002273",
+        "url": "https://www.ticketliquidator.com/tickets/8002273/Gracie-Abrams-tickets-Sun-Jan-31-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1Byq5cg",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002273",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-1-31-2027/event/107248078"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-1-31-2027/event/107248078",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002273/Gracie-Abrams-tickets-Sun-Jan-31-2027-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byqdcd",
@@ -28393,13 +28513,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002274",
+        "url": "https://www.ticketliquidator.com/tickets/8002274/Gracie-Abrams-tickets-Mon-Feb-1-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1ByqDcD",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002274",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-2-1-2027/event/107248079"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-2-1-2027/event/107248079",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002274/Gracie-Abrams-tickets-Mon-Feb-1-2027-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-gracie-abrams-2027-chicago-vv1fvzv0pycdz72ag6",
@@ -28462,13 +28590,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002275",
+        "url": "https://www.ticketliquidator.com/tickets/8002275/Gracie-Abrams-tickets-Thu-Feb-11-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FvZv0PYCdZ72aG6",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002275",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-11-2027/event/107248080"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-11-2027/event/107248080",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002275/Gracie-Abrams-tickets-Thu-Feb-11-2027-United-Center"
   },
   {
     "id": "tm-gracie-abrams-2027-chicago-vvg18z_5rd-dah",
@@ -28531,13 +28667,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002276",
+        "url": "https://www.ticketliquidator.com/tickets/8002276/Gracie-Abrams-tickets-Fri-Feb-12-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_5RD-DAh",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002276",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-12-2027/event/107248081"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-12-2027/event/107248081",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002276/Gracie-Abrams-tickets-Fri-Feb-12-2027-United-Center"
   },
   {
     "id": "tm-gracie-abrams-2027-nashville-g5viz_51oey1w",
@@ -28600,13 +28744,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002277",
+        "url": "https://www.ticketliquidator.com/tickets/8002277/Gracie-Abrams-tickets-Sun-Feb-14-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_51OEy1W",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002277",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-14-2027/event/107198471"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-14-2027/event/107198471",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002277/Gracie-Abrams-tickets-Sun-Feb-14-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-nashville-g5viz_5rgv7ra",
@@ -28669,13 +28821,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002278",
+        "url": "https://www.ticketliquidator.com/tickets/8002278/Gracie-Abrams-tickets-Mon-Feb-15-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_5RGV7rA",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002278",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-15-2027/event/107198472"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-15-2027/event/107198472",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002278/Gracie-Abrams-tickets-Mon-Feb-15-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-toronto-177zv0g61sqb4k8",
@@ -28844,13 +29004,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002281",
+        "url": "https://www.ticketliquidator.com/tickets/8002281/Gracie-Abrams-tickets-Tue-Feb-23-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_5nqEIA0",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002281",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-23-2027/event/107198473"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-23-2027/event/107198473",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002281/Gracie-Abrams-tickets-Tue-Feb-23-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-gracie-abrams-2027-atlanta-vvg1zz_5nqiiai",
@@ -28913,13 +29081,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002282",
+        "url": "https://www.ticketliquidator.com/tickets/8002282/Gracie-Abrams-tickets-Wed-Feb-24-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_5nqIIAi",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002282",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-24-2027/event/107198474"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-24-2027/event/107198474",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002282/Gracie-Abrams-tickets-Wed-Feb-24-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-gracie-abrams-2027-charlotte-g5evz_am0wlwu",
@@ -28982,13 +29158,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002283",
+        "url": "https://www.ticketliquidator.com/tickets/8002283/Gracie-Abrams-tickets-Fri-Feb-26-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_am0wLwu",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002283",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-26-2027/event/107249077"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-26-2027/event/107249077",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002283/Gracie-Abrams-tickets-Fri-Feb-26-2027-Spectrum-Center"
   },
   {
     "id": "tm-gracie-abrams-2027-charlotte-g5evz_5ryzbyv",
@@ -29051,13 +29235,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002284",
+        "url": "https://www.ticketliquidator.com/tickets/8002284/Gracie-Abrams-tickets-Sat-Feb-27-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_5RyZbYV",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002284",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-27-2027/event/107198477"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-27-2027/event/107198477",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002284/Gracie-Abrams-tickets-Sat-Feb-27-2027-Spectrum-Center"
   },
   {
     "id": "tm-gracie-abrams-2027-boston-vv177z_agkwp_mnl",
@@ -29120,13 +29312,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002285",
+        "url": "https://www.ticketliquidator.com/tickets/8002285/Gracie-Abrams-tickets-Mon-Mar-1-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_aGkwP_mNL",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002285",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-1-2027/event/107198480"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-1-2027/event/107198480",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002285/Gracie-Abrams-tickets-Mon-Mar-1-2027-TD-Garden"
   },
   {
     "id": "tm-gracie-abrams-2027-boston-vvg17z_5rug2cb",
@@ -29189,13 +29389,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002286",
+        "url": "https://www.ticketliquidator.com/tickets/8002286/Gracie-Abrams-tickets-Tue-Mar-2-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_5RuG2CB",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002286",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-2-2027/event/107198481"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-2-2027/event/107198481",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002286/Gracie-Abrams-tickets-Tue-Mar-2-2027-TD-Garden"
   },
   {
     "id": "tm-gracie-abrams-2027-washington-1avfz_agksfejeq",
@@ -29258,13 +29466,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002287",
+        "url": "https://www.ticketliquidator.com/tickets/8002287/Gracie-Abrams-tickets-Thu-Mar-4-2027-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_aGkSfejEQ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002287",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-4-2027/event/107198483"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-4-2027/event/107198483",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002287/Gracie-Abrams-tickets-Thu-Mar-4-2027-Capital-One-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-washington-17a8v0g65r4j5jx",
@@ -29327,13 +29543,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002288",
+        "url": "https://www.ticketliquidator.com/tickets/8002288/Gracie-Abrams-tickets-Fri-Mar-5-2027-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G65R4j5Jx",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002288",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-5-2027/event/107198484"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-5-2027/event/107198484",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002288/Gracie-Abrams-tickets-Fri-Mar-5-2027-Capital-One-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-montreal-17g8v0g65th0d1g",
@@ -29389,12 +29613,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002289",
+        "url": "https://www.ticketliquidator.com/tickets/8002289/Gracie-Abrams-tickets-Mon-Mar-8-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65tH0d1G",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002289"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002289",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002289/Gracie-Abrams-tickets-Mon-Mar-8-2027-Centre-Bell"
   },
   {
     "id": "tm-gracie-abrams-2027-montreal-17g8v0g65thpd1k",
@@ -29450,12 +29682,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002290",
+        "url": "https://www.ticketliquidator.com/tickets/8002290/Gracie-Abrams-tickets-Tue-Mar-9-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G65tHPd1K",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002290"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002290",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002290/Gracie-Abrams-tickets-Tue-Mar-9-2027-Centre-Bell"
   },
   {
     "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65pru4zd",
@@ -29518,13 +29758,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002291",
+        "url": "https://www.ticketliquidator.com/tickets/8002291/Gracie-Abrams-tickets-Fri-Mar-12-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65pRu4zD",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002291",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-12-2027/event/107198482"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-12-2027/event/107198482",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002291/Gracie-Abrams-tickets-Fri-Mar-12-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65prugzw",
@@ -29587,13 +29835,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002292",
+        "url": "https://www.ticketliquidator.com/tickets/8002292/Gracie-Abrams-tickets-Sat-Mar-13-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65pRugzW",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002292",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-13-2027/event/107198479"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-13-2027/event/107198479",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002292/Gracie-Abrams-tickets-Sat-Mar-13-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g61s0b9dq",
@@ -29656,13 +29912,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002293",
+        "url": "https://www.ticketliquidator.com/tickets/8002293/Gracie-Abrams-tickets-Tue-Mar-16-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61S0B9Dq",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002293",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-16-2027/event/107249078"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-16-2027/event/107249078",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002293/Gracie-Abrams-tickets-Tue-Mar-16-2027-Barclays-Center"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65ie2coz",
@@ -29725,13 +29989,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002294",
+        "url": "https://www.ticketliquidator.com/tickets/8002294/Gracie-Abrams-tickets-Wed-Mar-17-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65ie2cOZ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002294",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-17-2027/event/107198478"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-17-2027/event/107198478",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002294/Gracie-Abrams-tickets-Wed-Mar-17-2027-Barclays-Center"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iekqou",
@@ -29794,13 +30066,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002295",
+        "url": "https://www.ticketliquidator.com/tickets/8002295/Gracie-Abrams-tickets-Fri-Mar-19-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65ieKqOu",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002295",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-19-2027/event/107198476"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-19-2027/event/107198476",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002295/Gracie-Abrams-tickets-Fri-Mar-19-2027-Barclays-Center"
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iebqor",
@@ -29863,13 +30143,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002296",
+        "url": "https://www.ticketliquidator.com/tickets/8002296/Gracie-Abrams-tickets-Sat-Mar-20-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65iebqOr",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002296",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-20-2027/event/107198475"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-20-2027/event/107198475",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002296/Gracie-Abrams-tickets-Sat-Mar-20-2027-Barclays-Center"
   },
   {
     "id": "tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b",
@@ -30038,13 +30326,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8002339",
+        "url": "https://www.ticketliquidator.com/tickets/8002339/Gracie-Abrams-tickets-Thu-Apr-22-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G65RbPNZf",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002339",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-22-4-2027/event/107255078"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-22-4-2027/event/107255078",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002339/Gracie-Abrams-tickets-Thu-Apr-22-2027-Co-Op-Live"
   },
   {
     "id": "tm-gracie-abrams-2027-manchester-17uyv0g6gk_vkhl",
@@ -30107,13 +30403,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018170",
+        "url": "https://www.ticketliquidator.com/tickets/8018170/Gracie-Abrams-tickets-Sat-Apr-24-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G6Gk_VKHL",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018170",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-24-4-2027/event/107288081"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-24-4-2027/event/107288081",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018170/Gracie-Abrams-tickets-Sat-Apr-24-2027-Co-Op-Live"
   },
   {
     "id": "tm-gracie-abrams-2027-manchester-17uyv0g6gkp6vc5",
@@ -30176,13 +30480,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018184",
+        "url": "https://www.ticketliquidator.com/tickets/8018184/Gracie-Abrams-tickets-Sun-Apr-25-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G6GkP6Vc5",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018184",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-25-4-2027/event/107288082"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-25-4-2027/event/107288082",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018184/Gracie-Abrams-tickets-Sun-Apr-25-2027-Co-Op-Live"
   },
   {
     "id": "tm-gracie-abrams-2027-london-17u8v0g65wthjl9",
@@ -30489,13 +30801,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018171",
+        "url": "https://www.ticketliquidator.com/tickets/8018171/Gracie-Abrams-tickets-Fri-May-7-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vpdAfZK",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018171",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-7-5-2027/event/107244080"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-7-5-2027/event/107244080",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018171/Gracie-Abrams-tickets-Fri-May-7-2027-Ziggo-Dome"
   },
   {
     "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16v00_azt",
@@ -30558,13 +30878,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018172",
+        "url": "https://www.ticketliquidator.com/tickets/8018172/Gracie-Abrams-tickets-Sat-May-8-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v00_AZt",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018172",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-8-5-2027/event/107244081"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-8-5-2027/event/107244081",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018172/Gracie-Abrams-tickets-Sat-May-8-2027-Ziggo-Dome"
   },
   {
     "id": "tm-gracie-abrams-2027-amsterdam-z698xzbpz16v0oan4g",
@@ -30627,13 +30955,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018173",
+        "url": "https://www.ticketliquidator.com/tickets/8018173/Gracie-Abrams-tickets-Mon-May-10-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0oaN4g",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018173",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-10-5-2027/event/107244082"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-10-5-2027/event/107244082",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018173/Gracie-Abrams-tickets-Mon-May-10-2027-Ziggo-Dome"
   },
   {
     "id": "tm-gracie-abrams-2027-berlin-z698xzc2z16vx9ppa7",
@@ -30696,13 +31032,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018174",
+        "url": "https://www.ticketliquidator.com/tickets/8018174/Gracie-Abrams-tickets-Wed-May-12-2027-Uber-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vx9ppa7",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018174",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-12-5-2027/event/107244077"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-12-5-2027/event/107244077",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018174/Gracie-Abrams-tickets-Wed-May-12-2027-Uber-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-berlin-z698xzc2z16vfef4pp",
@@ -30765,13 +31109,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018175",
+        "url": "https://www.ticketliquidator.com/tickets/8018175/Gracie-Abrams-tickets-Thu-May-13-2027-Uber-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vFEF4pp",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018175",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-13-5-2027/event/107198415"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-13-5-2027/event/107198415",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018175/Gracie-Abrams-tickets-Thu-May-13-2027-Uber-Arena"
   },
   {
     "id": "tm-gracie-abrams-2027-barcelona-z698xz2qz16vav0xgz",
@@ -30834,13 +31186,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018168",
+        "url": "https://www.ticketliquidator.com/tickets/8018168/Gracie-Abrams-tickets-Thu-May-27-2027-Palau-Sant-Jordi",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vaV0xGZ",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018168",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-27-5-2027/event/107198414"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-27-5-2027/event/107198414",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018168/Gracie-Abrams-tickets-Thu-May-27-2027-Palau-Sant-Jordi"
   },
   {
     "id": "tm-gracie-abrams-2027-barcelona-z698xz2qz16vpsaikv",
@@ -30903,13 +31263,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018169",
+        "url": "https://www.ticketliquidator.com/tickets/8018169/Gracie-Abrams-tickets-Fri-May-28-2027-Palau-Sant-Jordi",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPsAIkv",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018169",
-    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-28-5-2027/event/107242082"
+    "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-28-5-2027/event/107242082",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018169/Gracie-Abrams-tickets-Fri-May-28-2027-Palau-Sant-Jordi"
   },
   {
     "id": "tm-niall-horan-2026-birmingham-1anzkoygkdrzveg",
@@ -30972,13 +31340,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7830189",
+        "url": "https://www.ticketliquidator.com/tickets/7830189/Niall-Horan-tickets-Tue-Sep-22-2026-Utilita-Arena-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZkoyGkdRzveg",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7830189",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-birmingham-utilita-arena-birmingham-22-9-2026/event/107154077",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830189/Niall-Horan-tickets-Tue-Sep-22-2026-Utilita-Arena-Birmingham"
   },
   {
     "id": "tm-niall-horan-2026-newcastle-upon-tyne-g5vhz_6jezgkf",
@@ -31034,12 +31410,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831760",
+        "url": "https://www.ticketliquidator.com/tickets/7831760/Niall-Horan-tickets-Wed-Sep-23-2026-Utilita-Arena-Newcastle",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_6JEzgkF",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831760"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831760",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831760/Niall-Horan-tickets-Wed-Sep-23-2026-Utilita-Arena-Newcastle"
   },
   {
     "id": "tm-niall-horan-2026-manchester-1amzkozgkdqek4f",
@@ -31102,13 +31486,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831769",
+        "url": "https://www.ticketliquidator.com/tickets/7831769/Niall-Horan-tickets-Fri-Sep-25-2026-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkozGkdQEK4f",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831769",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-manchester-co-op-live-25-9-2026/event/107153108"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-manchester-co-op-live-25-9-2026/event/107153108",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831769/Niall-Horan-tickets-Fri-Sep-25-2026-Co-Op-Live"
   },
   {
     "id": "tm-niall-horan-2026-glasgow-1auzkozgkeyxugy",
@@ -31171,13 +31563,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831767",
+        "url": "https://www.ticketliquidator.com/tickets/7831767/Niall-Horan-tickets-Mon-Sep-28-2026-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkozGkeYxUgY",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831767",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831767/Niall-Horan-tickets-Mon-Sep-28-2026-OVO-Hydro"
   },
   {
     "id": "tm-niall-horan-2026-sheffield-16gzkozpuza5kedv",
@@ -31240,13 +31640,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831763",
+        "url": "https://www.ticketliquidator.com/tickets/7831763/Niall-Horan-tickets-Tue-Sep-29-2026-Utilita-Arena-Sheffield",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16gZkozPUZA5kedv",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831763",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831763/Niall-Horan-tickets-Tue-Sep-29-2026-Utilita-Arena-Sheffield"
   },
   {
     "id": "tm-niall-horan-2026-london-1agzkoygkdkpykl",
@@ -31492,13 +31900,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831765",
+        "url": "https://www.ticketliquidator.com/tickets/7831765/Niall-Horan-tickets-Thu-Oct-15-2026-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1A9foCb",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831765",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-15-10-2026/event/107146205",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831765/Niall-Horan-tickets-Thu-Oct-15-2026-Ziggo-Dome"
   },
   {
     "id": "tm-niall-horan-2026-amsterdam-z698xzbpz16vxbu8jy",
@@ -31561,13 +31977,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831766",
+        "url": "https://www.ticketliquidator.com/tickets/7831766/Niall-Horan-tickets-Fri-Oct-16-2026-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vxbu8jy",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831766",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-16-10-2026/event/107146206"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-amsterdam-ziggo-dome-16-10-2026/event/107146206",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831766/Niall-Horan-tickets-Fri-Oct-16-2026-Ziggo-Dome"
   },
   {
     "id": "tm-niall-horan-2026-barcelona-z698xz2qz16va-q_8k",
@@ -31630,13 +32054,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7843958",
+        "url": "https://www.ticketliquidator.com/tickets/7843958/Niall-Horan-tickets-Sun-Oct-25-2026-Palau-Sant-Jordi",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vA-Q_8K",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843958",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-barcelona-palau-sant-jordi-25-10-2026/event/107148171",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843958/Niall-Horan-tickets-Sun-Oct-25-2026-Palau-Sant-Jordi"
   },
   {
     "id": "tm-niall-horan-2026-assago-zg9rmiynyzedfa",
@@ -31805,13 +32237,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831764",
+        "url": "https://www.ticketliquidator.com/tickets/7831764/Niall-Horan-tickets-Sat-Oct-31-2026-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kaaofap",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831764",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-munich-olympiahalle-munich-31-10-2026/event/107148177",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831764/Niall-Horan-tickets-Sat-Oct-31-2026-Kleine-Olympiahalle-Munich"
   },
   {
     "id": "tm-niall-horan-2026-krakow-z698xzqpz1kq7zp--",
@@ -32032,13 +32472,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954156",
+        "url": "https://www.ticketliquidator.com/tickets/7954156/Niall-Horan-tickets-Fri-Mar-19-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_1rV4aSt",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954156",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-detroit-tickets-3-19-2027/event/107165599"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-detroit-tickets-3-19-2027/event/107165599",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954156/Niall-Horan-tickets-Fri-Mar-19-2027-Little-Caesars-Arena"
   },
   {
     "id": "tm-niall-horan-2027-columbus-vvg1fz_1x9ig7q",
@@ -32094,12 +32542,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954157",
+        "url": "https://www.ticketliquidator.com/tickets/7954157/Niall-Horan-tickets-Sat-Mar-20-2027-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1x9IG7q",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954157"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954157",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954157/Niall-Horan-tickets-Sat-Mar-20-2027-Nationwide-Arena"
   },
   {
     "id": "tm-niall-horan-2027-chicago-vvg18z_1llyajb",
@@ -32162,13 +32618,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954198",
+        "url": "https://www.ticketliquidator.com/tickets/7954198/Niall-Horan-tickets-Tue-Mar-23-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1LLYAJb",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954198",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-chicago-tickets-3-23-2027/event/107166117"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-chicago-tickets-3-23-2027/event/107166117",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954198/Niall-Horan-tickets-Tue-Mar-23-2027-United-Center"
   },
   {
     "id": "tm-niall-horan-2027-indianapolis-vvg1fz_1htnybv",
@@ -32224,12 +32688,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954200",
+        "url": "https://www.ticketliquidator.com/tickets/7954200/Niall-Horan-tickets-Fri-Mar-26-2027-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_1htNyBv",
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954200"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954200",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954200/Niall-Horan-tickets-Fri-Mar-26-2027-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-niall-horan-2027-saint-louis-vvg1bz_1qy32om",
@@ -32391,12 +32863,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954209",
+        "url": "https://www.ticketliquidator.com/tickets/7954209/Niall-Horan-tickets-Fri-Apr-2-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G61rtd60V",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954209"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954209",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954209/Niall-Horan-tickets-Fri-Apr-2-2027-Centre-Bell"
   },
   {
     "id": "tm-niall-horan-2027-brooklyn-17gzv0g61hpqmr1",
@@ -32459,13 +32939,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954210",
+        "url": "https://www.ticketliquidator.com/tickets/7954210/Niall-Horan-tickets-Sun-Apr-4-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61hpQmr1",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954210",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-brooklyn-tickets-4-4-2027/event/107162727"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-brooklyn-tickets-4-4-2027/event/107162727",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954210/Niall-Horan-tickets-Sun-Apr-4-2027-Barclays-Center"
   },
   {
     "id": "tm-niall-horan-2027-baltimore-17a8v0g61lfcmsv",
@@ -32521,12 +33009,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954211",
+        "url": "https://www.ticketliquidator.com/tickets/7954211/Niall-Horan-tickets-Thu-Apr-8-2027-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61LFCmSV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954211"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954211",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954211/Niall-Horan-tickets-Thu-Apr-8-2027-CFG-Bank-Arena"
   },
   {
     "id": "tm-niall-horan-2027-boston-vvg17z_1qxbhwy",
@@ -32589,13 +33085,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954213",
+        "url": "https://www.ticketliquidator.com/tickets/7954213/Niall-Horan-tickets-Mon-Apr-12-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1QXBHwy",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954213",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-boston-tickets-4-12-2027/event/107165601"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-boston-tickets-4-12-2027/event/107165601",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954213/Niall-Horan-tickets-Mon-Apr-12-2027-TD-Garden"
   },
   {
     "id": "tm-niall-horan-2027-raleigh-g5evz_1r802la",
@@ -32651,12 +33155,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954215",
+        "url": "https://www.ticketliquidator.com/tickets/7954215/Niall-Horan-tickets-Thu-Apr-15-2027-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_1r802lA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954215"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954215",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954215/Niall-Horan-tickets-Thu-Apr-15-2027-Lenovo-Center"
   },
   {
     "id": "tm-niall-horan-2027-orlando-17fov0g61xk1ezu",
@@ -32719,13 +33231,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954325",
+        "url": "https://www.ticketliquidator.com/tickets/7954325/Niall-Horan-tickets-Sat-Apr-17-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61xk1ezU",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954325",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-orlando-tickets-4-17-2027/event/107165602"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-orlando-tickets-4-17-2027/event/107165602",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954325/Niall-Horan-tickets-Sat-Apr-17-2027-Kia-Center"
   },
   {
     "id": "tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt",
@@ -32788,13 +33308,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954216",
+        "url": "https://www.ticketliquidator.com/tickets/7954216/Niall-Horan-tickets-Wed-Apr-28-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_1hoxUDT",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954216",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-atlanta-tickets-4-28-2027/event/107165603"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-atlanta-tickets-4-28-2027/event/107165603",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954216/Niall-Horan-tickets-Wed-Apr-28-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-niall-horan-2027-new-orleans-g5viz_1xkcnon",
@@ -32857,13 +33385,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954217",
+        "url": "https://www.ticketliquidator.com/tickets/7954217/Niall-Horan-tickets-Thu-Apr-29-2027-Smoothie-King-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1xKcnON",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954217",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-new-orleans-tickets-4-29-2027/event/107162728"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-new-orleans-tickets-4-29-2027/event/107162728",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954217/Niall-Horan-tickets-Thu-Apr-29-2027-Smoothie-King-Center"
   },
   {
     "id": "tm-niall-horan-2027-houston-z7r9jz1a709uy",
@@ -32978,13 +33514,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954219",
+        "url": "https://www.ticketliquidator.com/tickets/7954219/Niall-Horan-tickets-Sun-May-2-2027-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1r1jEer",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954219",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954219/Niall-Horan-tickets-Sun-May-2-2027-Dickies-Arena"
   },
   {
     "id": "tm-niall-horan-2027-austin-g5diz_1lpaglw",
@@ -33047,13 +33591,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954220",
+        "url": "https://www.ticketliquidator.com/tickets/7954220/Niall-Horan-tickets-Fri-May-14-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1LPAglW",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954220",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-austin-tickets-5-14-2027/event/107166124"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-austin-tickets-5-14-2027/event/107166124",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954220/Niall-Horan-tickets-Fri-May-14-2027-Moody-Center-ATX"
   },
   {
     "id": "tm-niall-horan-2027-denver-g5vzz_1lspoiu",
@@ -33116,13 +33668,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954221",
+        "url": "https://www.ticketliquidator.com/tickets/7954221/Niall-Horan-tickets-Sun-May-16-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1LSPOiU",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954221",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-denver-tickets-5-16-2027/event/107162733"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-denver-tickets-5-16-2027/event/107162733",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954221/Niall-Horan-tickets-Sun-May-16-2027-Ball-Arena"
   },
   {
     "id": "tm-niall-horan-2027-west-valley-city-g5vzz_1xafaiw",
@@ -33238,13 +33798,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954224",
+        "url": "https://www.ticketliquidator.com/tickets/7954224/Niall-Horan-tickets-Thu-May-20-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61ruOfyR",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954224",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-phoenix-tickets-5-20-2027/event/107166121"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-phoenix-tickets-5-20-2027/event/107166121",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954224/Niall-Horan-tickets-Thu-May-20-2027-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-niall-horan-2027-inglewood-vvg10z_1jzwise",
@@ -33307,13 +33875,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954226",
+        "url": "https://www.ticketliquidator.com/tickets/7954226/Niall-Horan-tickets-Sat-May-22-2027-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1jZWiSe",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954226",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-inglewood-tickets-5-22-2027/event/107170309"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-inglewood-tickets-5-22-2027/event/107170309",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954226/Niall-Horan-tickets-Sat-May-22-2027-The-Kia-Forum"
   },
   {
     "id": "tm-niall-horan-2027-san-francisco-g5vyz_195tivo",
@@ -33376,13 +33952,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954234",
+        "url": "https://www.ticketliquidator.com/tickets/7954234/Niall-Horan-tickets-Tue-May-25-2027-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_195TiVO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954234",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-san-francisco-tickets-5-25-2027/event/107166120"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-san-francisco-tickets-5-25-2027/event/107166120",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954234/Niall-Horan-tickets-Tue-May-25-2027-Chase-Center"
   },
   {
     "id": "tm-niall-horan-2027-seattle-vvg1hz_1hqc03-",
@@ -33445,13 +34029,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954237",
+        "url": "https://www.ticketliquidator.com/tickets/7954237/Niall-Horan-tickets-Thu-May-27-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1hQc03-",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954237",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-seattle-tickets-5-27-2027/event/107162731"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-seattle-tickets-5-27-2027/event/107162731",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954237/Niall-Horan-tickets-Thu-May-27-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-niall-horan-2027-vancouver-1778v0g61qodyye",
@@ -33514,13 +34106,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954249",
+        "url": "https://www.ticketliquidator.com/tickets/7954249/Niall-Horan-tickets-Sat-May-29-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G61QOdyye",
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954249",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604"
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954249/Niall-Horan-tickets-Sat-May-29-2027-Rogers-Arena"
   },
   {
     "id": "tm-doja-cat-2026-detroit-vv17ozbsgki0b7ti",
@@ -33583,13 +34183,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457598",
+        "url": "https://www.ticketliquidator.com/tickets/7457598/Doja-Cat-tickets-Thu-Oct-1-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZbSGkI0b7TI",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457598",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457598/Doja-Cat-tickets-Thu-Oct-1-2026-Little-Caesars-Arena"
   },
   {
     "id": "tm-doja-cat-2026-chicago-vv178zbsgknyfves",
@@ -33652,13 +34260,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457602",
+        "url": "https://www.ticketliquidator.com/tickets/7457602/Doja-Cat-tickets-Sat-Oct-3-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178ZbSGknyfVeS",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457602",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-chicago-tickets-10-3-2026/event/106969165"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-chicago-tickets-10-3-2026/event/106969165",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457602/Doja-Cat-tickets-Sat-Oct-3-2026-United-Center"
   },
   {
     "id": "tm-doja-cat-2026-minneapolis-vv17bzbsgknj3vy9",
@@ -33714,12 +34330,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457605",
+        "url": "https://www.ticketliquidator.com/tickets/7457605/Doja-Cat-tickets-Sun-Oct-4-2026-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZbSGknj3VY9",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457605"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457605",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457605/Doja-Cat-tickets-Sun-Oct-4-2026-Target-Center"
   },
   {
     "id": "tm-doja-cat-2026-kansas-city-vv17bzbsgkwntdvb",
@@ -33775,12 +34399,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457607",
+        "url": "https://www.ticketliquidator.com/tickets/7457607/Doja-Cat-tickets-Tue-Oct-6-2026-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZbSGkwNTdvB",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457607"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457607",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457607/Doja-Cat-tickets-Tue-Oct-6-2026-T-Mobile-Center"
   },
   {
     "id": "tm-doja-cat-2026-denver-g5vzzbsefo0an",
@@ -33843,13 +34475,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457608",
+        "url": "https://www.ticketliquidator.com/tickets/7457608/Doja-Cat-tickets-Thu-Oct-8-2026-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbSEFO0An",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457608",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457608/Doja-Cat-tickets-Thu-Oct-8-2026-Ball-Arena"
   },
   {
     "id": "tm-doja-cat-2026-west-valley-city-g5vzzbslbgavf",
@@ -33965,13 +34605,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457660",
+        "url": "https://www.ticketliquidator.com/tickets/7457660/Doja-Cat-tickets-Tue-Oct-13-2026-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkGyGkdOSIGy",
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457660",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tickets-vancouver-rogers-arena-10-13-2026/event/106969173"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tickets-vancouver-rogers-arena-10-13-2026/event/106969173",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457660/Doja-Cat-tickets-Tue-Oct-13-2026-Rogers-Arena"
   },
   {
     "id": "tm-doja-cat-2026-seattle-vvg1hzbslq8got",
@@ -34034,13 +34682,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457615",
+        "url": "https://www.ticketliquidator.com/tickets/7457615/Doja-Cat-tickets-Thu-Oct-15-2026-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbSlq8gOt",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457615",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-seattle-tickets-10-15-2026/event/106969172"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-seattle-tickets-10-15-2026/event/106969172",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457615/Doja-Cat-tickets-Thu-Oct-15-2026-Climate-Pledge-Arena"
   },
   {
     "id": "tm-doja-cat-2026-portland-vvg1hzbsnaneis",
@@ -34096,12 +34752,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457620",
+        "url": "https://www.ticketliquidator.com/tickets/7457620/Doja-Cat-tickets-Sat-Oct-17-2026-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbSnaneIS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457620"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457620",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457620/Doja-Cat-tickets-Sat-Oct-17-2026-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-doja-cat-2026-san-francisco-g5vyzbs0ua9tw",
@@ -34164,13 +34828,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457622",
+        "url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Mon-Oct-19-2026-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS0uA9TW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457622",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Mon-Oct-19-2026-Chase-Center"
   },
   {
     "id": "tm-doja-cat-2026-sacramento-g5vyzbsnj9ve1",
@@ -34233,13 +34905,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457626",
+        "url": "https://www.ticketliquidator.com/tickets/7457626/Doja-Cat-tickets-Tue-Oct-20-2026-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbSnJ9Ve1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457626",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-sacramento-tickets-10-20-2026/event/106969171",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457626/Doja-Cat-tickets-Tue-Oct-20-2026-Golden-1-Center"
   },
   {
     "id": "tm-doja-cat-2026-inglewood-vv170zbsgkihfzey",
@@ -34302,13 +34982,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457628",
+        "url": "https://www.ticketliquidator.com/tickets/7457628/Doja-Cat-tickets-Thu-Oct-22-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170ZbSGkIhFzEy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457628",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-inglewood-tickets-10-22-2026/event/106972098"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-inglewood-tickets-10-22-2026/event/106972098",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457628/Doja-Cat-tickets-Thu-Oct-22-2026-The-Kia-Forum"
   },
   {
     "id": "tm-doja-cat-2026-san-diego-vvg1izbsi8_kno",
@@ -34364,12 +35052,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457630",
+        "url": "https://www.ticketliquidator.com/tickets/7457630/Doja-Cat-tickets-Tue-Oct-27-2026-Viejas-Arena-At-Aztec-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbSi8_kno",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457630"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457630",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457630/Doja-Cat-tickets-Tue-Oct-27-2026-Viejas-Arena-At-Aztec-Bowl"
   },
   {
     "id": "tm-doja-cat-2026-phoenix-1av0zbsgknh-n_z",
@@ -34432,13 +35128,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457632",
+        "url": "https://www.ticketliquidator.com/tickets/7457632/Doja-Cat-tickets-Thu-Oct-29-2026-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0ZbSGknh-N_Z",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457632",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-phoenix-tickets-10-29-2026/event/107202113"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-phoenix-tickets-10-29-2026/event/107202113",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457632/Doja-Cat-tickets-Thu-Oct-29-2026-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-doja-cat-2026-austin-g5dizbsl2m6xd",
@@ -34501,13 +35205,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457635",
+        "url": "https://www.ticketliquidator.com/tickets/7457635/Doja-Cat-tickets-Tue-Nov-3-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbSl2M6xd",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457635",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-austin-tickets-11-3-2026/event/106972102",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457635/Doja-Cat-tickets-Tue-Nov-3-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-doja-cat-2026-dallas-vvg1yzbstqyohd",
@@ -34570,13 +35282,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457636",
+        "url": "https://www.ticketliquidator.com/tickets/7457636/Doja-Cat-tickets-Wed-Nov-4-2026-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZbStqyOHD",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457636",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-dallas-tickets-11-4-2026/event/106969177",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457636/Doja-Cat-tickets-Wed-Nov-4-2026-American-Airlines-Center"
   },
   {
     "id": "tm-doja-cat-2026-san-antonio-g5dizbsnv5jt4",
@@ -34639,13 +35359,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457638",
+        "url": "https://www.ticketliquidator.com/tickets/7457638/Doja-Cat-tickets-Fri-Nov-6-2026-Frost-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbSNV5Jt4",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457638",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-antonio-tickets-11-6-2026/event/106954711"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-antonio-tickets-11-6-2026/event/106954711",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457638/Doja-Cat-tickets-Fri-Nov-6-2026-Frost-Bank-Center"
   },
   {
     "id": "tm-doja-cat-2026-houston-z7r9jz1a7js4g",
@@ -34760,13 +35488,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457643",
+        "url": "https://www.ticketliquidator.com/tickets/7457643/Doja-Cat-tickets-Wed-Nov-11-2026-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbS0fdfw5",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457643",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-miami-tickets-11-11-2026/event/106969169"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-miami-tickets-11-11-2026/event/106969169",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457643/Doja-Cat-tickets-Wed-Nov-11-2026-Kaseya-Center"
   },
   {
     "id": "tm-doja-cat-2026-tampa-vvg1vzbslmpvjz",
@@ -34829,13 +35565,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457644",
+        "url": "https://www.ticketliquidator.com/tickets/7457644/Doja-Cat-tickets-Fri-Nov-13-2026-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbSlmPVJZ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457644",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tampa-tickets-11-13-2026/event/106969175"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tampa-tickets-11-13-2026/event/106969175",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457644/Doja-Cat-tickets-Fri-Nov-13-2026-Benchmark-International-Arena"
   },
   {
     "id": "tm-doja-cat-2026-orlando-1aefzbsgklnlnmt",
@@ -34898,13 +35642,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457645",
+        "url": "https://www.ticketliquidator.com/tickets/7457645/Doja-Cat-tickets-Sat-Nov-14-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZbSGklNLNmt",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457645",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-orlando-tickets-11-14-2026/event/106969170"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-orlando-tickets-11-14-2026/event/106969170",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457645/Doja-Cat-tickets-Sat-Nov-14-2026-Kia-Center"
   },
   {
     "id": "tm-doja-cat-2026-atlanta-vvg1zzbsle3ugd",
@@ -34967,13 +35719,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457487",
+        "url": "https://www.ticketliquidator.com/tickets/7457487/Doja-Cat-tickets-Tue-Nov-17-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbSle3UGD",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457487",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457487/Doja-Cat-tickets-Tue-Nov-17-2026-State-Farm-Arena-GA"
   },
   {
     "id": "tm-doja-cat-2026-charlotte-g5evzbsemdalv",
@@ -35036,13 +35796,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457650",
+        "url": "https://www.ticketliquidator.com/tickets/7457650/Doja-Cat-tickets-Wed-Nov-18-2026-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZbSEmDaLV",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457650",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457650/Doja-Cat-tickets-Wed-Nov-18-2026-Spectrum-Center"
   },
   {
     "id": "tm-doja-cat-2026-baltimore-1avfzbsgknfre1x",
@@ -35098,12 +35866,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457652",
+        "url": "https://www.ticketliquidator.com/tickets/7457652/Doja-Cat-tickets-Fri-Nov-20-2026-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZbSGknFRe1X",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457652"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457652",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457652/Doja-Cat-tickets-Fri-Nov-20-2026-CFG-Bank-Arena"
   },
   {
     "id": "tm-doja-cat-2026-washington-1a4zkgygkdpgprp",
@@ -35166,13 +35942,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457653",
+        "url": "https://www.ticketliquidator.com/tickets/7457653/Doja-Cat-tickets-Sat-Nov-21-2026-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkGyGkdPgPRp",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457653",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457653/Doja-Cat-tickets-Sat-Nov-21-2026-Capital-One-Arena"
   },
   {
     "id": "tm-doja-cat-2026-boston-vv1f7zbs09vyzd227",
@@ -35235,13 +36019,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457655",
+        "url": "https://www.ticketliquidator.com/tickets/7457655/Doja-Cat-tickets-Mon-Nov-23-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F7ZbS09vyZd227",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457655",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457655/Doja-Cat-tickets-Mon-Nov-23-2026-TD-Garden"
   },
   {
     "id": "tm-doja-cat-2026-toronto-1k7zvncbgagve_c",
@@ -35350,12 +36142,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457664",
+        "url": "https://www.ticketliquidator.com/tickets/7457664/Doja-Cat-tickets-Fri-Nov-27-2026-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkGyGkeMVJJT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457664"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457664",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457664/Doja-Cat-tickets-Fri-Nov-27-2026-Centre-Bell"
   },
   {
     "id": "tm-doja-cat-2026-philadelphia-1adzzbsgkldzvua",
@@ -35418,13 +36218,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457657",
+        "url": "https://www.ticketliquidator.com/tickets/7457657/Doja-Cat-tickets-Sun-Nov-29-2026-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZbSGkldzVUa",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457657",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457657/Doja-Cat-tickets-Sun-Nov-29-2026-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-doja-cat-2026-new-york-g5dizbsintkzt",
@@ -35487,13 +36295,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457486",
+        "url": "https://www.ticketliquidator.com/tickets/7457486/Doja-Cat-tickets-Tue-Dec-1-2026-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZbSINTKZt",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457486",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160"
+    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457486/Doja-Cat-tickets-Tue-Dec-1-2026-Madison-Square-Garden"
   },
   {
     "id": "tm-sombr-2026-vancouver-1aozk3agkddnbd1",
@@ -35556,13 +36372,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874821",
+        "url": "https://www.ticketliquidator.com/tickets/7874821/sombr-tickets-Tue-Sep-29-2026-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk3aGkddnbD1",
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874821",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874821/sombr-tickets-Tue-Sep-29-2026-Rogers-Arena"
   },
   {
     "id": "tm-sombr-2026-seattle-vvg1hz_feci1ir",
@@ -35625,13 +36449,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874826",
+        "url": "https://www.ticketliquidator.com/tickets/7874826/sombr-tickets-Thu-Oct-1-2026-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FECi1Ir",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874826",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874826/sombr-tickets-Thu-Oct-1-2026-Climate-Pledge-Arena"
   },
   {
     "id": "tm-sombr-2026-portland-vvg1hz_fljtdxu",
@@ -35694,13 +36526,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874848",
+        "url": "https://www.ticketliquidator.com/tickets/7874848/sombr-tickets-Fri-Oct-2-2026-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FLJtDXU",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874848",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874848/sombr-tickets-Fri-Oct-2-2026-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-sombr-2026-sacramento-g5vyz_fli21bj",
@@ -35763,13 +36603,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874849",
+        "url": "https://www.ticketliquidator.com/tickets/7874849/sombr-tickets-Tue-Oct-6-2026-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_FLi21bJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874849",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874849/sombr-tickets-Tue-Oct-6-2026-Golden-1-Center"
   },
   {
     "id": "tm-sombr-2026-san-jose-g5vyz_fljzy-y",
@@ -35885,13 +36733,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874852",
+        "url": "https://www.ticketliquidator.com/tickets/7874852/sombr-tickets-Fri-Oct-9-2026-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1Fe8v0xoqvZ7u1ue",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874852",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-anaheim-tickets-10-9-2026/event/107155467"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-anaheim-tickets-10-9-2026/event/107155467",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874852/sombr-tickets-Fri-Oct-9-2026-Honda-Center"
   },
   {
     "id": "tm-sombr-2026-inglewood-vv16azk3azmzauak1v",
@@ -35954,13 +36810,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874853",
+        "url": "https://www.ticketliquidator.com/tickets/7874853/sombr-tickets-Sat-Oct-10-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZk3aZMZAuak1v",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874853",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874853/sombr-tickets-Sat-Oct-10-2026-The-Kia-Forum"
   },
   {
     "id": "tm-sombr-2026-san-diego-z7r9jz1a7x8gw",
@@ -36231,13 +37095,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874863",
+        "url": "https://www.ticketliquidator.com/tickets/7874863/sombr-tickets-Sun-Oct-18-2026-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_FN5kiFV",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874863",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-dallas-tickets-10-18-2026/event/107155471"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-dallas-tickets-10-18-2026/event/107155471",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874863/sombr-tickets-Sun-Oct-18-2026-American-Airlines-Center"
   },
   {
     "id": "tm-sombr-2026-austin-g5diz_fem5b0f",
@@ -36300,13 +37172,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874865",
+        "url": "https://www.ticketliquidator.com/tickets/7874865/sombr-tickets-Tue-Oct-20-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_FEM5b0f",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874865",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-austin-tickets-10-20-2026/event/107155472"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-austin-tickets-10-20-2026/event/107155472",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874865/sombr-tickets-Tue-Oct-20-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-sombr-2026-atlanta-vvg1zz_fxet19l",
@@ -36369,13 +37249,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874866",
+        "url": "https://www.ticketliquidator.com/tickets/7874866/sombr-tickets-Thu-Oct-22-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FxEt19L",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874866",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874866/sombr-tickets-Thu-Oct-22-2026-State-Farm-Arena-GA"
   },
   {
     "id": "tm-sombr-2026-sunrise-z7r9jz1a7x8vw",
@@ -36490,13 +37378,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874868",
+        "url": "https://www.ticketliquidator.com/tickets/7874868/sombr-tickets-Sun-Oct-25-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGkn1Mew3",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874868",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874868/sombr-tickets-Sun-Oct-25-2026-Kia-Center"
   },
   {
     "id": "tm-sombr-2026-charlotte-g5evz_fneqevn",
@@ -36552,12 +37448,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874869",
+        "url": "https://www.ticketliquidator.com/tickets/7874869/sombr-tickets-Tue-Oct-27-2026-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FNeQEvn",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874869"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874869",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874869/sombr-tickets-Tue-Oct-27-2026-Spectrum-Center"
   },
   {
     "id": "tm-sombr-2026-nashville-g5viz_fja3nq8",
@@ -36613,12 +37517,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874870",
+        "url": "https://www.ticketliquidator.com/tickets/7874870/sombr-tickets-Wed-Oct-28-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_FJa3nQ8",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874870"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874870",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874870/sombr-tickets-Wed-Oct-28-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-sombr-2026-saint-louis-vv1akzk3fgkey5tam",
@@ -36727,12 +37639,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874872",
+        "url": "https://www.ticketliquidator.com/tickets/7874872/sombr-tickets-Sat-Oct-31-2026-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_FJFG7WETj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874872"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874872",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874872/sombr-tickets-Sat-Oct-31-2026-T-Mobile-Center"
   },
   {
     "id": "tm-sombr-2026-minneapolis-vv1akzk3agkeivme6",
@@ -36788,12 +37708,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874873",
+        "url": "https://www.ticketliquidator.com/tickets/7874873/sombr-tickets-Sun-Nov-1-2026-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk3aGkeivme6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874873"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874873",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874873/sombr-tickets-Sun-Nov-1-2026-Target-Center"
   },
   {
     "id": "tm-sombr-2026-milwaukee-vv1a6zk3fgkdlouyw",
@@ -36849,12 +37777,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874874",
+        "url": "https://www.ticketliquidator.com/tickets/7874874/sombr-tickets-Tue-Nov-3-2026-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk3FGkdLoUyW",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874874"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874874",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874874/sombr-tickets-Tue-Nov-3-2026-Fiserv-Forum"
   },
   {
     "id": "tm-sombr-2026-chicago-vv1a7zk36gkd2hi7b",
@@ -36917,13 +37853,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874875",
+        "url": "https://www.ticketliquidator.com/tickets/7874875/sombr-tickets-Wed-Nov-4-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk36Gkd2Hi7b",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874875",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874875/sombr-tickets-Wed-Nov-4-2026-United-Center"
   },
   {
     "id": "tm-sombr-2026-indianapolis-vv1aazk3apba_ze8u",
@@ -36979,12 +37923,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874876",
+        "url": "https://www.ticketliquidator.com/tickets/7874876/sombr-tickets-Fri-Nov-6-2026-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1aAZk3aPba_Ze8u",
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874876"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874876",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874876/sombr-tickets-Fri-Nov-6-2026-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-sombr-2026-detroit-vv1afzk3fgkeg5jlz",
@@ -37040,12 +37992,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874877",
+        "url": "https://www.ticketliquidator.com/tickets/7874877/sombr-tickets-Sat-Nov-7-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk3FGkeg5JlZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874877"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874877",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874877/sombr-tickets-Sat-Nov-7-2026-Little-Caesars-Arena"
   },
   {
     "id": "tm-sombr-2026-columbus-vv1kv8v0xbga57f2-",
@@ -37101,12 +38061,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874878",
+        "url": "https://www.ticketliquidator.com/tickets/7874878/sombr-tickets-Sun-Nov-8-2026-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8v0xbGA57f2-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874878"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874878",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874878/sombr-tickets-Sun-Nov-8-2026-Nationwide-Arena"
   },
   {
     "id": "tm-sombr-2026-washington-1a4zk3vgkd85lni",
@@ -37169,13 +38137,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874879",
+        "url": "https://www.ticketliquidator.com/tickets/7874879/sombr-tickets-Tue-Nov-10-2026-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk3vGkd85lNI",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874879",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-washington-tickets-11-10-2026/event/107154729"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-washington-tickets-11-10-2026/event/107154729",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874879/sombr-tickets-Tue-Nov-10-2026-Capital-One-Arena"
   },
   {
     "id": "tm-sombr-2026-pittsburgh-1kaov0xfga560gt",
@@ -37231,12 +38207,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874880",
+        "url": "https://www.ticketliquidator.com/tickets/7874880/sombr-tickets-Thu-Nov-12-2026-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOv0xFGA560gt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874880"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874880",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874880/sombr-tickets-Thu-Nov-12-2026-PPG-Paints-Arena"
   },
   {
     "id": "tm-sombr-2026-cleveland-z7r9jz1a7xav7",
@@ -37351,13 +38335,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874882",
+        "url": "https://www.ticketliquidator.com/tickets/7874882/sombr-tickets-Sat-Nov-14-2026-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_F0KG7ij1e",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874882",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-buffalo-tickets-11-14-2026/event/107154730"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-buffalo-tickets-11-14-2026/event/107154730",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874882/sombr-tickets-Sat-Nov-14-2026-KeyBank-Center"
   },
   {
     "id": "tm-sombr-2026-toronto-1a8zk36gkdv1i_l",
@@ -37473,13 +38465,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874884",
+        "url": "https://www.ticketliquidator.com/tickets/7874884/sombr-tickets-Wed-Nov-18-2026-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk36GkdFNKEx",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874884",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874884/sombr-tickets-Wed-Nov-18-2026-TD-Garden"
   },
   {
     "id": "tm-sombr-2026-philadelphia-1kgzv0xbga5zeae",
@@ -37542,13 +38542,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874885",
+        "url": "https://www.ticketliquidator.com/tickets/7874885/sombr-tickets-Thu-Nov-19-2026-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZv0xbGA5zeAe",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874885",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874885/sombr-tickets-Thu-Nov-19-2026-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-sombr-2026-newark-vv1aezk3fgkdhlmuf",
@@ -37611,13 +38619,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874886",
+        "url": "https://www.ticketliquidator.com/tickets/7874886/sombr-tickets-Sat-Nov-21-2026-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk3FGkdhLmUF",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874886",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874886/sombr-tickets-Sat-Nov-21-2026-Prudential-Center"
   },
   {
     "id": "tm-sombr-2026-new-york-g5diz_flfogz-",
@@ -37680,13 +38696,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7874887",
+        "url": "https://www.ticketliquidator.com/tickets/7874887/sombr-tickets-Mon-Nov-23-2026-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_FlfogZ-",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874887",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874887/sombr-tickets-Mon-Nov-23-2026-Madison-Square-Garden"
   },
   {
     "id": "tm-sombr-2026-new-york-g5diz_flffpzi",
@@ -37749,13 +38773,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877722",
+        "url": "https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_FlffPZI",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877722",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden"
   },
   {
     "id": "tm-john-summit-2026-chicago-z7r9jz1aazo4o",
@@ -39144,13 +40176,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7982968",
+        "url": "https://www.ticketliquidator.com/tickets/7982968/John-Summit-tickets-Fri-Dec-4-2026-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5CHDJie",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982968",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141"
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982968/John-Summit-tickets-Fri-Dec-4-2026-Oakland-Arena"
   },
   {
     "id": "tm-john-summit-2026-oakland-g5vyz_5925f5n",
@@ -39213,12 +40253,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8005513",
+        "url": "https://www.ticketliquidator.com/tickets/8005513/John-Summit-tickets-Sat-Dec-5-2026-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5925f5N",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005513",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083"
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8005513/John-Summit-tickets-Sat-Dec-5-2026-Oakland-Arena"
   }
 ]

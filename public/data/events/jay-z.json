@@ -418,12 +418,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8164947",
+        "url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_GNtjqqM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164947",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143"
+    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium"
   }
 ]

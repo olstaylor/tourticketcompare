@@ -11,8 +11,10 @@ import {
   deriveArtistCities,
   findArtistCity,
   artistCityFootprint,
-  deriveIndexableArtistCities
+  deriveIndexableArtistCities,
+  deriveRenderedArtistCities
 } from "../functions/_artist-cities.js";
+import { ARTIST_CITY_MIN_SHOWS, EXCLUSION_REASONS } from "../functions/_route-indexability.js";
 
 let passed = 0;
 function assert(condition, message) {
@@ -45,7 +47,10 @@ function ev(overrides) {
   };
 }
 
-// --- Single upcoming event: qualifies, one venue, deterministic slug ---------
+// --- Single upcoming event: renders, but is NOT indexable -------------------
+// The route-usefulness policy treats a one-date city as the artist page
+// filtered to one show card: it stays reachable (hasPublishable) and
+// noindex,follow (indexable === false).
 {
   const events = [ev({ id: "a1" })];
   const cities = deriveArtistCities(events, "test-artist", opts);
@@ -54,12 +59,24 @@ function ev(overrides) {
   assert(city.slug === "london-united-kingdom", "slug should be city + normalized country");
   assert(city.showCount === 1 && city.venueCount === 1, "counts should reflect the single show/venue");
   assert(city.hasPublishable === true, "a human_verified event should be publishable");
+  assert(city.publishableCount === 1, "publishableCount counts the publishable upcoming shows");
+  assert(city.indexable === false, "a single-date city run is not indexable");
+  assert(
+    city.exclusionReasons.includes(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD),
+    "a single-date city run reports the show-threshold exclusion reason"
+  );
   assert(city.label === "London", "unambiguous city keeps a bare label");
   assert(city.providers.includes("Ticketmaster"), "verified Ticketmaster link should surface as a provider");
   assert(city.multiNightSameVenue === false, "a single date is not a multi-night run");
+  // It still renders, so it still appears in the rendered set the router and
+  // the internal-link audit walk.
+  const rendered = deriveRenderedArtistCities(events, ["test-artist"], opts);
+  assert(rendered.length === 1, "a single-date combination still renders");
+  assert(rendered[0].indexable === false, "the rendered entry carries indexable: false");
+  assert(deriveIndexableArtistCities(events, ["test-artist"], opts).length === 0, "and never enters the indexable/sitemap set");
 }
 
-// --- Multiple events, same venue: multi-night run ---------------------------
+// --- Multiple events, same venue: multi-night run, indexable ----------------
 {
   const events = [
     ev({ id: "b1", datetime_iso: future1 }),
@@ -70,6 +87,25 @@ function ev(overrides) {
   assert(city.multiNightSameVenue === true, "two dates at one venue is a multi-night run");
   assert(city.earliestISO === future1 && city.latestISO === future2, "earliest/latest span both dates");
   assert(city.shows[0].id === "b1", "shows sort chronologically");
+  assert(ARTIST_CITY_MIN_SHOWS === 2, "the artist-city threshold this suite encodes is two publishable shows");
+  assert(city.indexable === true, "a multi-date city run is indexable");
+  assert(city.exclusionReasons.length === 0, "an indexable run reports no exclusion reasons");
+  assert(deriveIndexableArtistCities(events, ["test-artist"], opts).length === 1, "the multi-date run enters the indexable set");
+}
+
+// --- Two upcoming dates, only one publishable: not indexable ----------------
+// The threshold counts publishable shows, not raw dates: a second CTA-
+// suppressed date adds a row to the board but no comparable ticket option.
+{
+  const events = [
+    ev({ id: "b3", datetime_iso: future1 }),
+    ev({ id: "b4", datetime_iso: future2, verification_status: "needs_recheck", provider_links: {} })
+  ];
+  const city = deriveArtistCities(events, "test-artist", opts)[0];
+  assert(city.showCount === 2, "both upcoming dates are grouped");
+  assert(city.publishableCount === 1, "only the publishable date counts toward the threshold");
+  assert(city.indexable === false, "two dates with one publishable destination is not indexable");
+  assert(city.hasPublishable === true, "the page still renders, because one date can lead somewhere");
 }
 
 // --- Multiple events across venues ------------------------------------------
@@ -147,12 +183,15 @@ function ev(overrides) {
 
 // --- Indexable set gates on the caller-supplied artist allowlist ------------
 {
-  const events = [ev({ id: "j1" })];
+  const events = [ev({ id: "j1" }), ev({ id: "j2", datetime_iso: future2 })];
   assert(deriveIndexableArtistCities(events, [], opts).length === 0, "no indexable artists -> no indexable artist-city pages");
+  assert(deriveRenderedArtistCities(events, [], opts).length === 0, "an editorially non-indexable artist renders no artist-city pages either");
   const entries = deriveIndexableArtistCities(events, ["test-artist"], opts);
-  assert(entries.length === 1, "an indexable artist with a publishable city yields one entry");
+  assert(entries.length === 1, "an indexable artist with a qualifying city run yields one entry");
   assert(entries[0].path === "/artists/test-artist/tickets/london-united-kingdom", "entry path is the canonical route shape");
   assert(entries[0].lastmod === "2026-06-01", "entry carries the latest verification date as lastmod");
+  assert(entries[0].publishableCount === 2, "entry carries the publishable count the gate was decided on");
+  assert(entries[0].indexable === true, "entries returned by deriveIndexableArtistCities are indexable by construction");
 }
 
 // --- Sorting: most shows first ----------------------------------------------

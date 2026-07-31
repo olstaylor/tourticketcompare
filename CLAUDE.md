@@ -167,6 +167,7 @@ node scripts/validate-guide-routes.mjs            # if guides/routes touched
 npm run schema:validate                           # if routes/schema/MusicEvent offers touched
 npm run status:validate                           # recount PROJECT_STATUS.md figures from source
 npm run artist:check -- <slug>                    # if a specific artist touched
+npm run audit:indexable-surface                   # if any route/indexability logic touched
 npm run impact-providers:sync:self-test            # shared Impact catalog matcher
 npm run impact-providers:prices:self-test          # exact-ID snapshot writer
 npm run events:sync                               # required after any public/data/*.json edit
@@ -210,6 +211,6 @@ Note the named-shim trap: editing `functions/artists.js` etc. has **no effect** 
 
 Read in order: **`CLAUDE.md`** (this file) → **`PROJECT_STATUS.md`** → **`BACKLOG.md`**.
 
-Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) · [docs/PROVIDER_SYNC.md](docs/PROVIDER_SYNC.md) · [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)
+Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ROUTE_INDEXABILITY_POLICY.md](docs/ROUTE_INDEXABILITY_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) · [docs/PROVIDER_SYNC.md](docs/PROVIDER_SYNC.md) · [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)
 
 `AGENTS.md` is the concise repository-discovery entrypoint. Do not add parallel handover, archive, status, or governance documents; update the canonical file and use git history for superseded material.

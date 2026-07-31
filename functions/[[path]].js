@@ -312,11 +312,17 @@ async function routeForPath(pathname, env) {
 
   // Artist-city landing pages: /artists/<artist>/tickets/<city>. A four-segment
   // path, so it never collides with the two-segment tour route below or the
-  // /artists/<artist>/tickets redirect above. Lifecycle:
-  //   - qualifying (indexable artist + >=1 upcoming publishable show in the
-  //     city) -> 200 indexable, self-canonical.
+  // /artists/<artist>/tickets redirect above. Lifecycle (policy:
+  // docs/ROUTE_INDEXABILITY_POLICY.md):
+  //   - indexable artist + a multi-date city run (>=ARTIST_CITY_MIN_SHOWS
+  //     publishable upcoming shows) -> 200 index,follow, self-canonical.
+  //   - indexable artist + exactly one publishable upcoming show -> 200
+  //     noindex,follow. The page is the artist board filtered to one show card,
+  //     so it stays available and linked for navigation but does not compete
+  //     with the artist page for a listing. It re-indexes by itself the moment
+  //     a second date in that city is verified.
   //   - a real but currently-inactive combination (the artist has some event
-  //     footprint in that city, but no qualifying upcoming show right now, or
+  //     footprint in that city, but no publishable upcoming show right now, or
   //     the artist itself is under review) -> 301 to the artist hub, the most
   //     relevant surviving page. This is the *selective* redirect: it fires only
   //     for cities the artist has genuinely played, never for arbitrary slugs.
@@ -336,12 +342,16 @@ async function routeForPath(pathname, env) {
         .filter((venue) => venue.indexable)
         .map((venue) => venue.slug);
       const cityIndexable = deriveCities(cityEvents).some((c) => c.indexable && c.slug === artistCity.slug);
+      // Only the artist's other *indexable* city runs are linked from here:
+      // internal authority should flow to the pages that can rank, and every
+      // single-date combination already keeps its inbound link from the artist
+      // page's own by-city section, so nothing is orphaned.
       const otherCities = deriveArtistCities(cityEvents, artist.slug)
-        .filter((c) => c.hasPublishable && c.slug !== artistCity.slug);
+        .filter((c) => c.indexable && c.slug !== artistCity.slug);
       return {
         type: "artist-city",
         path,
-        indexable: true,
+        indexable: artistCity.indexable,
         title: artistCityTitle(enrichedArtist, artistCity),
         description: artistCityDescription(enrichedArtist, artistCity),
         artist: enrichedArtist,
@@ -515,6 +525,12 @@ function faqSchema(route) {
   return faqPageSchema(questions);
 }
 
+// Only questions whose answer is specific to this city. The generic
+// ticket-buying answers that used to sit here ("does the site sell tickets",
+// "are snapshots final totals") repeated verbatim on every location page and
+// were mirrored into FAQPage structured data on each one; both facts are still
+// stated on the page, in the visible disclosure note, and explained at length
+// in the linked guides. See docs/ROUTE_INDEXABILITY_POLICY.md § Shared content.
 function cityFaqEntries(city) {
   const next = city.shows[0];
   const venues = [...new Set(city.shows.map((show) => show.venue))];
@@ -532,14 +548,6 @@ function cityFaqEntries(city) {
     [
       `Which ${city.city} venues are included?`,
       `The current page includes reviewed dates at ${venues.join(", ")}. It is selective coverage, not a complete directory of every concert venue in the city.`
-    ],
-    [
-      `Does TourTicketCompare sell concert tickets in ${city.city}?`,
-      "No. TourTicketCompare does not sell tickets. It links to external providers only when the event and destination pass the relevant verification checks."
-    ],
-    [
-      "Are the displayed price snapshots final checkout prices?",
-      "No. Any displayed figure is a timestamped provider listed-price snapshot for a verified event, not live inventory or a final checkout total. Confirm the current ticket, fees, delivery, availability, and terms with the provider."
     ],
     [
       `How current is this ${city.city} concert page?`,
@@ -846,8 +854,14 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
         }))
       }
     });
-    graph.push(faqPageSchema(cityFaqEntries(city)));
-    if (route.indexable) graph.push(...musicEventsSchemaForListing(city.shows, events, origin, catalog, env, city.country));
+    // Structured data follows indexability. A noindex page cannot earn a rich
+    // result, so emitting FAQPage from one only adds a near-duplicate copy of
+    // the same markup across the site; the visible answers stay for the
+    // visitor who is on the page. Same reasoning as the MusicEvent gate below.
+    if (route.indexable) {
+      graph.push(faqPageSchema(cityFaqEntries(city)));
+      graph.push(...musicEventsSchemaForListing(city.shows, events, origin, catalog, env, city.country));
+    }
   }
   if (route.type === "artist-city" && route.artistCity) {
     const artist = route.artist;
@@ -892,8 +906,10 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     // publishable shows in this city's visible listing — same gate as the
     // artist board, offers off by default.
     graph.push({ "@type": performerType, "@id": artistId, name: artist.name, url: `${origin}/artists/${artist.slug}` });
-    graph.push(faqPageSchema(artistCityFaqEntries(artist, artistCity)));
     if (route.indexable) {
+      // The visible FAQ block is rendered under the same condition, so schema
+      // and page content stay aligned in both directions.
+      graph.push(faqPageSchema(artistCityFaqEntries(artist, artistCity)));
       graph.push(
         ...musicEventsSchemaForListing(artistCity.shows, events, origin, catalog, env, artistCity.country)
       );
@@ -961,8 +977,10 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
         }))
       }
     });
-    graph.push(faqPageSchema(venueFaqEntries(venue)));
-    if (route.indexable) graph.push(...musicEventsSchemaForListing(venue.shows, events, origin, catalog, env, venue.country));
+    if (route.indexable) {
+      graph.push(faqPageSchema(venueFaqEntries(venue)));
+      graph.push(...musicEventsSchemaForListing(venue.shows, events, origin, catalog, env, venue.country));
+    }
   }
   if (route.faq) graph.push(faqSchema(route));
   return { "@context": "https://schema.org", "@graph": graph };
@@ -1323,8 +1341,10 @@ function venueArtistCountLabel(count) {
   return `${count} ${count === 1 ? "artist" : "artists"}`;
 }
 
+// Venue-specific questions only — see the note above cityFaqEntries().
 function venueFaqEntries(venue) {
   const next = venue.shows[0];
+  const artists = venueShowsByArtist(venue).map((artist) => artist.name);
   return [
     [
       `What upcoming concerts does TourTicketCompare track at ${venue.venue}?`,
@@ -1337,16 +1357,10 @@ function venueFaqEntries(venue) {
         : "No upcoming reviewed date is currently available."
     ],
     [
-      `Does TourTicketCompare sell tickets for ${venue.venue}?`,
-      "No. TourTicketCompare does not sell tickets. It links to external providers only when the event and destination pass the relevant verification checks."
-    ],
-    [
-      `How should I compare tickets for a show at ${venue.venue}?`,
-      "Match the artist, local date, ticket type, quantity, section or standing area, view notes, and delivery method. Compare the final checkout total after fees for that exact ticket."
-    ],
-    [
-      "Are the displayed price snapshots final checkout prices?",
-      "No. Any displayed figure is a timestamped provider listed-price snapshot for a verified event, not live inventory or a final checkout total. Confirm current prices, fees, availability, and terms with the provider."
+      `Which artists does TourTicketCompare currently track at ${venue.venue}?`,
+      artists.length
+        ? `The reviewed upcoming dates at ${venue.venue} are for ${artists.join(", ")}. Artists appear here only while they have a verified upcoming date at this venue.`
+        : "No artist currently has a reviewed upcoming date at this venue."
     ],
     [
       `How current is this ${venue.venue} concert page?`,
@@ -1503,27 +1517,46 @@ function renderArtistPricingHtml(pricing) {
   )}</p><ul class="check-list">${points}</ul></section>`;
 }
 
-// Indexable artist-city landing pages the artist currently qualifies for, for
-// the artist -> artist-city crawl path (internal-linking requirement). Only
-// rendered for editorially indexable artists, because artist-city pages exist
-// only for those artists; every link points at a page that returns 200.
+// Artist -> artist-city crawl paths. Only rendered for editorially indexable
+// artists, because artist-city pages exist only for those artists; every link
+// points at a page that returns 200.
+//
+// The two groups are deliberately unequal. Multi-date city runs are the
+// combinations that carry standalone value and stay indexable, so they get the
+// prominent list with show counts. Single-date cities are `noindex,follow`
+// pages, so they get a compact secondary list: still linked (a visitor who
+// wants "the Denver date" gets there, and a crawler can still reach the page to
+// see the noindex rather than being left to guess), just not given the same
+// prominence as the pages that can rank. This mirrors the treatment empty-board
+// artists already get on the homepage and /artists listings.
 function renderArtistTicketCitiesHtml(events, artist) {
   if (artist?.indexing_status !== "indexable_with_substantial_content") return "";
   const cities = deriveArtistCities(events, artist.slug).filter((city) => city.hasPublishable);
   if (!cities.length) return "";
-  const items = cities
-    .slice(0, 40)
-    .map((city) => {
-      const count = cityShowCountLabel(city.showCount);
-      return `<li>${anchor(
-        `${artist.name} tickets in ${city.label}`,
-        `/artists/${artist.slug}/tickets/${city.slug}`
-      )} — ${escapeHtml(count)}</li>`;
-    })
-    .join("");
+  const runs = cities.filter((city) => city.indexable);
+  const singles = cities.filter((city) => !city.indexable);
+
+  const runsHtml = runs.length
+    ? `<p>Multi-date runs — the dates, venues, and ticket links for each city:</p><ul class="guide-link-list">${runs
+        .slice(0, 40)
+        .map(
+          (city) =>
+            `<li>${anchor(
+              `${artist.name} tickets in ${city.label}`,
+              `/artists/${artist.slug}/tickets/${city.slug}`
+            )} — ${escapeHtml(cityShowCountLabel(city.showCount))}</li>`
+        )
+        .join("")}</ul>`
+    : "";
+  const singlesHtml = singles.length
+    ? `<p class="muted">Single dates${runs.length ? " elsewhere" : ""}: ${singles
+        .slice(0, 60)
+        .map((city) => anchor(city.label, `/artists/${artist.slug}/tickets/${city.slug}`))
+        .join(", ")}.</p>`
+    : "";
   return `<section class="nested-panel"><h2>${escapeHtml(
     artist.name
-  )} tickets by city</h2><p>Go straight to a city for the dates, venues, and ticket links there:</p><ul class="guide-link-list">${items}</ul></section>`;
+  )} tickets by city</h2>${runsHtml}${singlesHtml}</section>`;
 }
 
 // The derived, data-driven artist content block. It is wrapped in a single
@@ -1602,6 +1635,10 @@ function artistCityIntroSentence(artist, artistCity) {
   return `${pieces.join(", ")}. Match the date you want, then compare checked ticket options before you buy.`;
 }
 
+// Questions specific to this artist in this city — see the note above
+// cityFaqEntries(). Only rendered on indexable (multi-date) artist-city pages:
+// on a single-date page every one of these restates the one show card that is
+// already on screen.
 function artistCityFaqEntries(artist, artistCity) {
   const next = artistCity.shows[0];
   const venues = artistCity.venues || [];
@@ -1624,14 +1661,6 @@ function artistCityFaqEntries(artist, artistCity) {
       next
         ? `The next currently tracked date is ${formatShowDateServer(next.datetime_iso, next.timezone)} at ${next.venue}. Confirm the schedule and ticket details with the provider before travelling, because they can change.`
         : "No upcoming reviewed date is currently available."
-    ],
-    [
-      `Does TourTicketCompare sell ${artist.name} tickets in ${artistCity.city}?`,
-      "No. TourTicketCompare does not sell tickets. It links to external providers only when the event and destination pass the relevant verification checks."
-    ],
-    [
-      "Are the prices shown here final checkout totals?",
-      "No. Any figure shown is a timestamped provider listed-price snapshot for a verified event, not live inventory or a final checkout total. Confirm the current price, fees, delivery, availability, and terms with the provider."
     ],
     [
       `How current is this ${artist.name} ${artistCity.city} page?`,
@@ -1674,21 +1703,9 @@ function renderArtistCityAnswerSummary(artist, artistCity) {
   )}.` : "Each date carries its own verification record."}</p></article></div></section>`;
 }
 
-function renderArtistCityLocalGuide(artist, artistCity) {
-  return `<section class="nested-panel"><h2>How to buy ${escapeHtml(
-    artist.name
-  )} tickets in ${escapeHtml(
-    artistCity.city
-  )}</h2><p>A short checklist for these ${escapeHtml(
-    artistCity.city
-  )} dates. TourTicketCompare does not sell tickets — it links to destinations we have checked, then you complete the purchase on the provider site.</p><ol class="check-list"><li>Pick the exact ${escapeHtml(
-    artistCity.city
-  )} date and venue you want from the schedule above.</li><li>Open a checked provider link for that date and match the section or standing area to your budget.</li><li>Compare the full checkout total — face value plus service, delivery, and tax fees — not just the first figure shown.</li><li>Check delivery timing and transfer rules so the tickets reach you before the show.</li><li>Review refund, resale, and cancellation terms on the provider site before you pay.</li></ol></section>`;
-}
-
 // Links out from an artist-city page: the artist hub, the shared multi-artist
 // city page and venue pages where those already qualify for indexing, and the
-// artist's other active cities. Descriptive anchors, no keyword-link block.
+// artist's other indexable city runs. Descriptive anchors, no keyword-link block.
 function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndexable, indexableVenueSlugs) {
   const venueSlugSet = new Set(indexableVenueSlugs || []);
   const parts = [];
@@ -2902,9 +2919,18 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // to exactly the reviewed shows in this city.
     const cityShowIds = artistCityShowIdSet(artistCity);
     const shows = futureShowsForArtist(events, artist.slug).filter((show) => cityShowIds.has(String(show.id || "")));
-    const faqHtml = artistCityFaqEntries(artist, artistCity)
-      .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
-      .join("");
+    // A single-date page is noindex,follow: it renders the one show card, the
+    // at-a-glance facts, and the crawl paths, and stops there. The FAQ block
+    // would restate that same card four times, which is the filler this policy
+    // exists to remove — so it is dropped from the page and from the JSON-LD
+    // graph together (routeSchema gates FAQPage on route.indexable).
+    const faqHtml = route.indexable
+      ? `<section class="nested-panel faq-panel"><h2>${escapeHtml(artist.name)} in ${escapeHtml(
+          artistCity.city
+        )}: ticket FAQ</h2>${artistCityFaqEntries(artist, artistCity)
+          .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
+          .join("")}</section>`
+      : "";
     const relatedLinksHtml = renderArtistCityRelatedLinks(
       artist,
       artistCity,
@@ -2930,7 +2956,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       null,
       marketplaceAvailability,
       artist.slug
-    )}${renderArtistCityLocalGuide(artist, artistCity)}${renderArtistPricingHtml(
+    )}${renderArtistPricingHtml(
       artistPricingExplanation()
     )}${relatedLinksHtml}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
@@ -2944,9 +2970,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       `All ${artist.name} tickets`,
       `/artists/${artist.slug}`,
       "button button-primary"
-    )}${anchor("Compare concert ticket prices", "/compare-concert-ticket-prices", "button button-secondary")}</div><section class="nested-panel faq-panel"><h2>${escapeHtml(
-      artist.name
-    )} in ${escapeHtml(artistCity.city)}: ticket FAQ</h2>${faqHtml}</section></section></main>`;
+    )}${anchor("Compare concert ticket prices", "/compare-concert-ticket-prices", "button button-secondary")}</div>${faqHtml}</section></main>`;
   }
 
   if (route.type === "guide") {
@@ -3032,9 +3056,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       city,
       indexableArtistSlugs,
       indexableVenueSlugs
-    )}</section><section class="nested-panel"><h2>How to compare tickets for a ${escapeHtml(
+    )}</section><section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
       city.city
-    )} concert</h2><ol class="check-list"><li>Choose the exact artist, venue, and local date above.</li><li>Open the artist page and compare only provider snapshots attached to that same verified event.</li><li>On the provider site, match the ticket type, quantity, section or standing area, and delivery method.</li><li>Confirm the current final total, fees, availability, restrictions, and refund terms before paying.</li></ol><div class="action-row">${anchor(
+    )} concert</h2><p>Open the artist page for the date you picked above: the event card there carries the checked provider destinations and any eligible, timestamped price snapshots for that exact show. The guides explain what to match before you pay.</p><div class="action-row">${anchor(
       "How to compare concert ticket prices",
       "/guides/how-to-compare-concert-ticket-prices",
       "button button-secondary"
@@ -3096,7 +3120,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       marketplaceAvailability
     )}</section><section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
       venue.venue
-    )}</h2><ul class="check-list"><li>Use the checked provider buttons above for your exact date, or open the artist page for the full event view and any approved, timestamped price snapshots.</li><li>Match the exact date, then confirm the seat or section, ticket type, and final total on the provider site.</li><li>Check delivery timing and transfer rules so your tickets arrive before the show.</li><li>Review refund, resale, and cancellation terms before you pay.</li></ul><div class="action-row">${anchor(
+    )}</h2><p>Use the checked provider button on the exact date you want above, or open that show's artist page for the full event view and any approved, timestamped price snapshots. The guides cover what to match on the provider site before you pay.</p><div class="action-row">${anchor(
       "How to compare concert ticket prices",
       "/guides/how-to-compare-concert-ticket-prices",
       "button button-secondary"

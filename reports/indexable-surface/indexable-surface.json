@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:11:53.766Z",
+  "generated_at": "2026-07-31T13:21:15.802Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -321,7 +321,7 @@
     "note": "no export at reports/analytics/route-traffic.json"
   },
   "baseline_comparison": {
-    "baseline_generated_at": "2026-07-31T13:08:05.792Z",
+    "baseline_generated_at": "2026-07-31T13:11:53.766Z",
     "changes": [
       {
         "type": "home",

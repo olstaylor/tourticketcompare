@@ -71,7 +71,9 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
+import { fileURLToPath } from "node:url";
+
+import { loadSiteFixture, crawlRoutes, computeInboundLinks } from "./lib/route-crawl.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ORIGIN = "https://tourticketcompare.com";
@@ -324,10 +326,6 @@ if (SELF_TEST) {
 // Harness
 // ---------------------------------------------------------------------------
 
-async function read(relativePath) {
-  return fs.readFile(path.join(root, relativePath), "utf8");
-}
-
 async function readJsonIfPresent(absolutePath) {
   try {
     return JSON.parse(await fs.readFile(absolutePath, "utf8"));
@@ -337,64 +335,21 @@ async function readJsonIfPresent(absolutePath) {
   }
 }
 
-const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
-const routeMetadataModule = await import(pathToFileURL(path.join(root, "functions/_route-metadata.js")));
-const citiesModule = await import(pathToFileURL(path.join(root, "functions/_cities.js")));
-const venuesModule = await import(pathToFileURL(path.join(root, "functions/_venues.js")));
-const artistCitiesModule = await import(pathToFileURL(path.join(root, "functions/_artist-cities.js")));
-const artistIndexabilityModule = await import(pathToFileURL(path.join(root, "functions/_artist-indexability.js")));
-const policyModule = await import(pathToFileURL(path.join(root, "functions/_route-indexability.js")));
-
-const catalog = JSON.parse(await read("public/data/catalog.json"));
-const artistsMeta = JSON.parse(await read("public/data/artists.json"));
-const events = JSON.parse(await read("public/data/events.json"));
-
-const assetMap = new Map();
-for (const file of [
-  "index.html",
-  "data/catalog.json",
-  "data/artists.json",
-  "data/events.json",
-  "data/guides-content.json",
-  "data/provider-configs.json"
-]) {
-  assetMap.set(`/${file}`, await read(`public/${file}`));
-}
-assetMap.set("/", assetMap.get("/index.html"));
-
-const env = {
-  MOCK_MODE: "false",
-  ALLOW_MOCK_PRICES: "false",
-  ASSETS: {
-    async fetch(request) {
-      const body = assetMap.get(new URL(request.url).pathname);
-      return body == null ? new Response("not found", { status: 404 }) : new Response(body, { status: 200 });
-    }
-  }
-};
-
-async function renderRoute(pathname) {
-  const response = await middlewareModule.onRequest({
-    request: new Request(`${ORIGIN}${pathname}`),
-    env,
-    next: () => new Response("static-asset", { status: 200 })
-  });
-  return { status: response.status, html: await response.text() };
-}
-
-// ---------------------------------------------------------------------------
-// Inventory — derived from the same shared gates every renderer reads
-// ---------------------------------------------------------------------------
+// One crawler, shared with scripts/audit-internal-links.mjs, so the two audits
+// cannot disagree about which routes exist or how a page parses.
+const site = await loadSiteFixture(root);
+const {
+  renderRoute,
+  modules: { citiesModule, venuesModule, artistCitiesModule, artistIndexabilityModule, policyModule },
+  data: { catalog, artistsMeta, events },
+  indexableArtistSlugs: editoriallyIndexableSlugs,
+  cities,
+  venues,
+  artistCityEntries: artistCities,
+  paths: { allPaths }
+} = site;
 
 const now = Date.now();
-const editoriallyIndexableSlugs = artistsMeta
-  .filter((artist) => artist?.indexing_status === artistIndexabilityModule.INDEXABLE_ARTIST_STATUS)
-  .map((artist) => String(artist?.slug || "").trim())
-  .filter(Boolean);
-
-const cities = citiesModule.deriveCities(events, { now });
-const venues = venuesModule.deriveVenues(events, { now });
-const artistCities = artistCitiesModule.deriveRenderedArtistCities(events, editoriallyIndexableSlugs, { now });
 
 /**
  * Re-run every dynamic gate over the current event data at an arbitrary
@@ -434,8 +389,8 @@ function gateSurfaceAt(ts) {
   return { indexable, rendered };
 }
 
-// Per-route facts the report needs but a rendered page cannot cheaply give back:
-// the counted evidence each gate decided on.
+// Per-route counted evidence each gate decided on — the part a rendered page
+// cannot cheaply give back.
 const evidence = new Map();
 
 for (const artist of catalog.artists || []) {
@@ -487,77 +442,23 @@ for (const entry of artistCities) {
   });
 }
 
-const allPaths = [
-  ...new Set([
-    ...Object.keys(routeMetadataModule.TRUST_ROUTES),
-    ...Object.keys(routeMetadataModule.GUIDE_ROUTES),
-    ...(catalog.artists || []).map((artist) => `/artists/${artist.slug}`),
-    "/cities",
-    ...cities.map((city) => `/cities/${city.slug}`),
-    "/venues",
-    ...venues.map((venue) => `/venues/${venue.slug}`),
-    ...artistCities.map((entry) => entry.path)
-  ])
-];
-
 // ---------------------------------------------------------------------------
-// Crawl
+// Crawl (shared) + per-route evidence
 // ---------------------------------------------------------------------------
 
-function extract(html, regex) {
-  const match = html.match(regex);
-  return match ? match[1].trim() : "";
-}
-
-function decodeEntities(value) {
-  return String(value || "")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">");
-}
-
-function internalHrefs(fragment) {
-  const hrefs = [];
-  for (const match of fragment.matchAll(/<a\s[^>]*href="([^"]+)"/g)) {
-    const href = decodeEntities(match[1]);
-    if (!href.startsWith("/") || href.startsWith("//") || href.startsWith("/api/") || href.startsWith("/data/")) continue;
-    const clean = href.split("#")[0].split("?")[0].replace(/\/$/, "") || "/";
-    if (/\.[a-z0-9]+$/i.test(clean)) continue;
-    hrefs.push(clean);
-  }
-  return hrefs;
-}
-
-const pages = new Map();
-for (const pathname of allPaths) {
-  const { status, html } = await renderRoute(pathname);
-  const main = (html.match(/<main id="mainContent">([\s\S]*?)<\/main>/) || [])[1] || "";
-  const robots = extract(html, /<meta name="robots" content="([^"]*)"/);
-  const record = evidence.get(pathname) || { showCount: null, publishableCount: null, exclusionReasons: [], futureTimestamps: [] };
-  pages.set(pathname, {
-    path: pathname,
-    type: routeType(pathname),
-    status,
-    indexable: status === 200 && !robots.includes("noindex"),
-    title: decodeEntities(extract(html, /<title>([^<]*)<\/title>/i)),
-    showCount: record.showCount,
-    publishableCount: record.publishableCount,
-    exclusionReasons: record.exclusionReasons,
-    futureTimestamps: record.futureTimestamps,
-    contextualLinks: internalHrefs(main),
-    inboundContextual: 0
-  });
-}
-
+const pages = computeInboundLinks(await crawlRoutes(allPaths, renderRoute));
 for (const page of pages.values()) {
-  if (page.status !== 200) continue;
-  for (const target of new Set(page.contextualLinks)) {
-    if (target === page.path) continue;
-    const targetPage = pages.get(target);
-    if (targetPage) targetPage.inboundContextual += 1;
-  }
+  const record = evidence.get(page.path) || {
+    showCount: null,
+    publishableCount: null,
+    exclusionReasons: [],
+    futureTimestamps: []
+  };
+  page.type = routeType(page.path);
+  page.showCount = record.showCount;
+  page.publishableCount = record.publishableCount;
+  page.exclusionReasons = record.exclusionReasons;
+  page.futureTimestamps = record.futureTimestamps;
 }
 
 // ---------------------------------------------------------------------------
@@ -613,7 +514,7 @@ const expiringSoon = indexablePages
 // Indexable routes nothing links to. An unlinked indexable page is a page
 // crawlers may never reach and users cannot navigate to.
 const orphanIndexable = indexablePages
-  .filter((page) => page.path !== "/" && page.inboundContextual === 0)
+  .filter((page) => page.path !== "/" && page.inboundContextual.length === 0)
   .map((page) => page.path)
   .sort();
 

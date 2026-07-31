@@ -1,6 +1,6 @@
 # Indexable-surface audit
 
-Generated: 2026-07-31T13:11:53.766Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-07-31T13:21:15.802Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 
@@ -90,7 +90,7 @@ Generated: 2026-07-31T13:11:53.766Z (read-only, rendered in-process — no live 
 
 ## Change against the stored baseline
 
-Baseline generated 2026-07-31T13:08:05.792Z.
+Baseline generated 2026-07-31T13:11:53.766Z.
 
 | Type | Baseline | Same gates @ baseline date | Now | Clock | Residual | Classification |
 |---|---|---|---|---|---|---|

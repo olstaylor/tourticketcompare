@@ -214,8 +214,7 @@ routes.
 
 ## Monitoring
 
-`npm run audit:indexable-surface` renders every route in process (read-only, no
-network) and writes `reports/indexable-surface/indexable-surface.{md,json}`:
+`npm run audit:indexable-surface` writes `reports/indexable-surface/indexable-surface.{md,json}`:
 routes by type, indexable and non-indexable totals, exclusion reasons, routes
 about to lose indexability, indexable routes with zero internal links,
 duplicate and near-duplicate title patterns, routes with no future events,

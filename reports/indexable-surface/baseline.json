@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:11:53.766Z",
+  "generated_at": "2026-07-31T13:21:15.802Z",
   "note": "Anchor for scripts/audit-indexable-surface.mjs --check. Re-anchor deliberately (npm run audit:indexable-surface:baseline) whenever a route-usefulness policy change is intended; see docs/ROUTE_INDEXABILITY_POLICY.md.",
   "policy": {
     "city_min_shows": 4,

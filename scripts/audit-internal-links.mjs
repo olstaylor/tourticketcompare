@@ -26,188 +26,40 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
+import { fileURLToPath } from "node:url";
+
+import {
+  ORIGIN,
+  loadSiteFixture,
+  crawlRoutes,
+  computeInboundLinks,
+  sitemapPathsFromXml,
+  decodeEntities
+} from "./lib/route-crawl.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CHECK_MODE = process.argv.includes("--check");
-const ORIGIN = "https://tourticketcompare.com";
 
-async function read(relativePath) {
-  return fs.readFile(path.join(root, relativePath), "utf8");
-}
+// One crawler, shared with scripts/audit-indexable-surface.mjs, so the two
+// audits can never disagree about which routes exist or how a page parses.
+const site = await loadSiteFixture(root);
+const {
+  renderRoute,
+  env,
+  modules: { sitemapModule, routeMetadataModule, policyModule },
+  data: { guideContent },
+  cities,
+  venues,
+  artistCityEntries,
+  paths: { guidePaths, allPaths }
+} = site;
 
-const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
-const sitemapModule = await import(pathToFileURL(path.join(root, "functions/sitemap.xml.js")));
-const routeMetadataModule = await import(pathToFileURL(path.join(root, "functions/_route-metadata.js")));
-const venuesModule = await import(pathToFileURL(path.join(root, "functions/_venues.js")));
-const citiesModule = await import(pathToFileURL(path.join(root, "functions/_cities.js")));
-const artistCitiesModule = await import(pathToFileURL(path.join(root, "functions/_artist-cities.js")));
-const policyModule = await import(pathToFileURL(path.join(root, "functions/_route-indexability.js")));
-
-const catalog = JSON.parse(await read("public/data/catalog.json"));
-const artistsMeta = JSON.parse(await read("public/data/artists.json"));
-const events = JSON.parse(await read("public/data/events.json"));
-const guideContent = JSON.parse(await read("public/data/guides-content.json"));
-const robotsTxt = await read("public/robots.txt");
-const staticHeaders = await read("public/_headers");
-
-const assetMap = new Map();
-for (const file of ["index.html", "data/catalog.json", "data/artists.json", "data/events.json", "data/guides-content.json", "data/provider-configs.json"]) {
-  assetMap.set(`/${file}`, await read(`public/${file}`));
-}
-assetMap.set("/", assetMap.get("/index.html"));
-
-const env = {
-  MOCK_MODE: "false",
-  ALLOW_MOCK_PRICES: "false",
-  ASSETS: {
-    async fetch(request) {
-      const url = new URL(request.url);
-      const body = assetMap.get(url.pathname);
-      return body == null ? new Response("not found", { status: 404 }) : new Response(body, { status: 200 });
-    }
-  }
-};
-
-async function renderRoute(pathname) {
-  const response = await middlewareModule.onRequest({
-    request: new Request(`${ORIGIN}${pathname}`),
-    env,
-    next: () => new Response("static-asset", { status: 200, headers: { "x-audit-next": "1" } })
-  });
-  return { status: response.status, location: response.headers.get("location") || "", html: await response.text() };
-}
-
-// ---------- route inventory (derived from the same sources the router uses) ----------
-
-const staticPaths = Object.keys(routeMetadataModule.TRUST_ROUTES);
-const guidePaths = Object.keys(routeMetadataModule.GUIDE_ROUTES);
-const artistPaths = (catalog.artists || []).map((artist) => `/artists/${artist.slug}`);
-const cities = citiesModule.deriveCities(events);
-const cityPaths = cities.map((city) => `/cities/${city.slug}`);
-const venues = venuesModule.deriveVenues(events);
-const venuePaths = venues.map((venue) => `/venues/${venue.slug}`);
-const indexableArtistSlugs = artistsMeta
-  .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
-  .map((artist) => String(artist?.slug || "").trim())
-  .filter(Boolean);
-// Every artist-city combination that *renders*, indexable or not: single-date
-// combinations are noindex,follow 200s under the route-usefulness policy, and
-// the audit must still crawl them for canonical drift, social metadata, robots
-// agreement, and sitemap exclusion.
-const artistCityEntries = artistCitiesModule.deriveRenderedArtistCities(events, indexableArtistSlugs);
-const artistCityPaths = artistCityEntries.map((entry) => entry.path);
-const allPaths = [...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", ...venuePaths, ...artistCityPaths])];
-
-// ---------- parsing helpers ----------
-
-function extract(html, regex) {
-  const match = html.match(regex);
-  return match ? match[1].trim() : "";
-}
-
-function decodeEntities(value) {
-  return String(value || "")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">");
-}
-
-function internalHrefs(fragment) {
-  const hrefs = [];
-  for (const match of fragment.matchAll(/<a\s[^>]*href="([^"]+)"/g)) {
-    const href = decodeEntities(match[1]);
-    if (!href.startsWith("/")) continue;
-    if (href.startsWith("/api/") || href.startsWith("/data/") || href.startsWith("//")) continue;
-    const clean = href.split("#")[0].split("?")[0].replace(/\/$/, "") || "/";
-    if (clean === "" || /\.[a-z0-9]+$/i.test(clean)) continue;
-    hrefs.push(clean);
-  }
-  return hrefs;
-}
-
-function schemaTypes(html) {
-  const types = new Set();
-  for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
-    try {
-      const parsed = JSON.parse(match[1]);
-      const nodes = Array.isArray(parsed?.["@graph"]) ? parsed["@graph"] : [parsed];
-      for (const node of nodes) {
-        if (node && node["@type"]) types.add(String(node["@type"]));
-      }
-    } catch (error) {
-      types.add(`(unparseable: ${error.message})`);
-    }
-  }
-  return [...types].sort();
-}
-
-function visibleWordCount(html) {
-  return decodeEntities(String(html || "").replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " "))
-    .replace(/\s+/g, " ")
-    .trim()
-    .split(" ")
-    .filter(Boolean).length;
-}
+const robotsTxt = await site.read("public/robots.txt");
+const staticHeaders = await site.read("public/_headers");
 
 // ---------- crawl ----------
 
-const pages = new Map();
-for (const pathname of allPaths) {
-  const { status, location, html } = await renderRoute(pathname);
-  const mainMatch = html.match(/<main id="mainContent">([\s\S]*?)<\/main>/);
-  const main = mainMatch ? mainMatch[1] : "";
-  const robots = extract(html, /<meta name="robots" content="([^"]*)"/);
-  const title = decodeEntities(extract(html, /<title>([^<]*)<\/title>/i));
-  const description = decodeEntities(extract(html, /<meta\s+name="description"\s+content="([^"]*)"/i));
-  const canonical = decodeEntities(extract(html, /<link rel="canonical" href="([^"]*)"/));
-  pages.set(pathname, {
-    path: pathname,
-    status,
-    location,
-    title,
-    description,
-    robots,
-    indexable: status === 200 && !robots.includes("noindex"),
-    canonical,
-    ogTitle: decodeEntities(extract(html, /<meta\s+property="og:title"\s+content="([^"]*)"/i)),
-    ogDescription: decodeEntities(extract(html, /<meta\s+property="og:description"\s+content="([^"]*)"/i)),
-    ogUrl: decodeEntities(extract(html, /<meta\s+property="og:url"\s+content="([^"]*)"/i)),
-    ogImage: decodeEntities(extract(html, /<meta\s+property="og:image"\s+content="([^"]*)"/i)),
-    ogImageType: decodeEntities(extract(html, /<meta\s+property="og:image:type"\s+content="([^"]*)"/i)),
-    ogImageAlt: decodeEntities(extract(html, /<meta\s+property="og:image:alt"\s+content="([^"]*)"/i)),
-    twitterTitle: decodeEntities(extract(html, /<meta\s+name="twitter:title"\s+content="([^"]*)"/i)),
-    twitterDescription: decodeEntities(extract(html, /<meta\s+name="twitter:description"\s+content="([^"]*)"/i)),
-    twitterImage: decodeEntities(extract(html, /<meta\s+name="twitter:image"\s+content="([^"]*)"/i)),
-    twitterImageAlt: decodeEntities(extract(html, /<meta\s+name="twitter:image:alt"\s+content="([^"]*)"/i)),
-    twitterCard: decodeEntities(extract(html, /<meta\s+name="twitter:card"\s+content="([^"]*)"/i)),
-    schemaTypes: status === 200 ? schemaTypes(html) : [],
-    mainHtml: main,
-    mainWordCount: visibleWordCount(main),
-    contextualLinks: internalHrefs(main),
-    allLinks: internalHrefs(html)
-  });
-}
-
-// ---------- inbound counts ----------
-
-for (const page of pages.values()) {
-  page.inboundContextual = [];
-  page.inboundAny = 0;
-}
-for (const page of pages.values()) {
-  if (page.status !== 200) continue;
-  for (const target of new Set(page.contextualLinks)) {
-    const targetPage = pages.get(target);
-    if (targetPage && target !== page.path) targetPage.inboundContextual.push(page.path);
-  }
-  for (const target of new Set(page.allLinks)) {
-    const targetPage = pages.get(target);
-    if (targetPage && target !== page.path) targetPage.inboundAny += 1;
-  }
-}
+const pages = computeInboundLinks(await crawlRoutes(allPaths, renderRoute));
 
 const problems = [];
 

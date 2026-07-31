@@ -2886,8 +2886,48 @@ for (const forbidden of ["Offer", "Product", "AggregateRating", "Review"]) {
 assert(!/"@type":"Offer"/.test(artistCityPage.text), "artist-city page must not emit Offer nodes in the default environment");
 assert(/href="\/artists\/[a-z0-9-]+"/.test(artistCityPage.text), "artist-city page should link back to the main artist page");
 assert(/href="\/api\/out\?showId=[^\"]+&amp;provider=/.test(artistCityPage.text), "artist-city page should surface the gated event-level provider CTA (affiliate tracking preserved)");
-assert(artistCityPage.text.includes("How to buy"), "artist-city page should include a local ticket-buying guide");
-assert([...artistCityPage.text.matchAll(/<details>/g)].length >= 6, "artist-city page should render visible artist-city FAQs");
+assert([...artistCityPage.text.matchAll(/<details>/g)].length >= 3, "indexable artist-city page should render visible artist-city FAQs");
+// The templated "How to buy <artist> tickets in <city>" checklist was removed:
+// it repeated verbatim on every artist-city page and duplicated both the artist
+// page's own buying guide and /guides/how-to-compare-concert-ticket-prices.
+assert(!artistCityPage.text.includes("How to buy"), "artist-city page must not reintroduce the templated local buying checklist");
+assert(
+  artistCityPage.text.includes('href="/guides/how-to-compare-concert-ticket-prices"'),
+  "artist-city page should link the shared buying guide instead of restating it"
+);
+
+// A single-date artist-city combination renders for visitors but is
+// noindex,follow and drops the repeated FAQ block and its FAQPage/MusicEvent
+// schema (docs/ROUTE_INDEXABILITY_POLICY.md § Artist-city).
+const smokeSingleDateArtistCity = artistCitiesModule
+  .deriveRenderedArtistCities(JSON.parse(await read("public/data/events.json")), smokeIndexableArtistSlugs)
+  .find((entry) => !entry.indexable);
+if (smokeSingleDateArtistCity) {
+  const singleDatePage = await routeResponse(smokeSingleDateArtistCity.path, artistCityEnv);
+  assert(singleDatePage.response.status === 200, `${smokeSingleDateArtistCity.path} (single date) should still return 200`);
+  assert(
+    /<meta name="robots" content="noindex,follow"/.test(singleDatePage.text),
+    `${smokeSingleDateArtistCity.path} (single date) should render noindex,follow`
+  );
+  assert(
+    extractCanonical(singleDatePage.text) === `https://tourticketcompare.com${smokeSingleDateArtistCity.path}`,
+    "single-date artist-city canonical should stay self-referencing (no cross-canonical to the artist hub)"
+  );
+  assert(!singleDatePage.text.includes('"@type":"FAQPage"'), "single-date artist-city page must not emit FAQPage structured data");
+  assert(!singleDatePage.text.includes('"@type":"MusicEvent"'), "single-date artist-city page must not emit MusicEvent structured data");
+  assert(!singleDatePage.text.includes("<details>"), "single-date artist-city page must not render the repeated FAQ block");
+  assert(/<div class="show-date-badge">/.test(singleDatePage.text), "single-date artist-city page must still render its show card");
+  assert(
+    /href="\/artists\/[a-z0-9-]+"/.test(singleDatePage.text),
+    "single-date artist-city page must still link back to the artist hub"
+  );
+  const singleDateSitemap = await sitemapLocs(artistCityEnv);
+  assert(
+    !singleDateSitemap.includes(`https://tourticketcompare.com${smokeSingleDateArtistCity.path}`),
+    "single-date artist-city page must not appear in the sitemap"
+  );
+  console.log(`single-date artist-city noindex verification passed for ${smokeSingleDateArtistCity.path}`);
+}
 
 // Unknown artist-city slug for a real, indexable artist must 404 (no soft 404,
 // no doorway page for arbitrary cities).

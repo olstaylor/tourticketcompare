@@ -15,7 +15,7 @@ If these files disagree with the repository, the repository wins. Recount and co
 ## Stable reference documents
 
 - Root: `README.md`, `CONTRIBUTING.md`, `SAFE_PUBLISHING_RULES.md`, `AGENTS.md`.
-- `docs/`: `ARCHITECTURE.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ADDING_ARTISTS.md`, `SAFE_NEXT_ARTIST_WORKFLOW.md`, `ADDING_PROVIDERS.md`, `PROVIDER_SYNC.md`, and `SEATGEEK_DISCOVERY.md`.
+- `docs/`: `ARCHITECTURE.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ROUTE_INDEXABILITY_POLICY.md`, `ADDING_ARTISTS.md`, `SAFE_NEXT_ARTIST_WORKFLOW.md`, `ADDING_PROVIDERS.md`, `PROVIDER_SYNC.md`, and `SEATGEEK_DISCOVERY.md`.
 - `migrations/README.md` owns the applied D1 migration ledger.
 
 Stable reference docs should describe contracts and procedures, not volatile counts, workflow run numbers, or point-in-time rollout claims. Link to `PROJECT_STATUS.md` for current values.

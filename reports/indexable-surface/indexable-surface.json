@@ -1,0 +1,419 @@
+{
+  "generated_at": "2026-07-31T12:44:17.969Z",
+  "warn_days": 14,
+  "policy": {
+    "city_min_shows": 4,
+    "city_min_artists": 2,
+    "venue_min_shows": 3,
+    "venue_min_artists": 2,
+    "artist_city_min_shows": 2
+  },
+  "totals": {
+    "home": {
+      "rendered": 1,
+      "indexable": 1
+    },
+    "index": {
+      "rendered": 4,
+      "indexable": 4
+    },
+    "static": {
+      "rendered": 7,
+      "indexable": 7
+    },
+    "guide": {
+      "rendered": 17,
+      "indexable": 17
+    },
+    "artist": {
+      "rendered": 30,
+      "indexable": 18
+    },
+    "city": {
+      "rendered": 81,
+      "indexable": 35
+    },
+    "venue": {
+      "rendered": 109,
+      "indexable": 41
+    },
+    "artist-city": {
+      "rendered": 210,
+      "indexable": 82
+    }
+  },
+  "overall": {
+    "rendered": 459,
+    "indexable": 205,
+    "noindex": 254,
+    "baseline_indexable": 205
+  },
+  "exclusion_reasons": {
+    "artist": {
+      "no_upcoming_shows": 12,
+      "artist_not_editorially_indexable": 4
+    },
+    "city": {
+      "below_show_threshold": 43,
+      "below_artist_threshold": 31,
+      "no_publishable_destination": 15
+    },
+    "venue": {
+      "below_show_threshold": 60,
+      "below_artist_threshold": 56,
+      "no_publishable_destination": 18
+    },
+    "artist-city": {
+      "below_show_threshold": 128
+    }
+  },
+  "expiring_within_warn_days": [
+    {
+      "path": "/artists/morgan-wallen",
+      "type": "artist",
+      "last_show": "2026-08-01",
+      "days_left": 1
+    },
+    {
+      "path": "/artists/morgan-wallen/tickets/philadelphia-united-states",
+      "type": "artist-city",
+      "last_show": "2026-08-01",
+      "days_left": 1
+    },
+    {
+      "path": "/artists/bts/tickets/east-rutherford-united-states",
+      "type": "artist-city",
+      "last_show": "2026-08-03",
+      "days_left": 2
+    },
+    {
+      "path": "/artists/summer-walker/tickets/london-united-kingdom",
+      "type": "artist-city",
+      "last_show": "2026-08-02",
+      "days_left": 2
+    },
+    {
+      "path": "/artists/tame-impala/tickets/charlotte-united-states",
+      "type": "artist-city",
+      "last_show": "2026-08-02",
+      "days_left": 2
+    },
+    {
+      "path": "/artists/zach-bryan/tickets/san-diego-united-states",
+      "type": "artist-city",
+      "last_show": "2026-08-02",
+      "days_left": 2
+    },
+    {
+      "path": "/artists/tame-impala/tickets/nashville-united-states",
+      "type": "artist-city",
+      "last_show": "2026-08-06",
+      "days_left": 5
+    },
+    {
+      "path": "/artists/ariana-grande/tickets/chicago-united-states",
+      "type": "artist-city",
+      "last_show": "2026-08-06",
+      "days_left": 6
+    },
+    {
+      "path": "/artists/bts/tickets/foxborough-united-states",
+      "type": "artist-city",
+      "last_show": "2026-08-07",
+      "days_left": 6
+    }
+  ],
+  "orphan_indexable": [],
+  "indexable_without_future_events": [],
+  "duplicate_titles": [],
+  "title_patterns": [
+    {
+      "pattern": "{} Tickets in {} | Compare Prices",
+      "count": 82,
+      "share_of_indexable": 40
+    },
+    {
+      "pattern": "{} Concerts in {} | Tickets",
+      "count": 41,
+      "share_of_indexable": 20
+    },
+    {
+      "pattern": "Concerts in {} | Upcoming Shows & Tickets",
+      "count": 35,
+      "share_of_indexable": 17.1
+    },
+    {
+      "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
+      "count": 18,
+      "share_of_indexable": 8.8
+    },
+    {
+      "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Compare Concert Ticket Prices | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Artists | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Concert Ticket Buying Guides | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "How TourTicketCompare Works",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Currency Converter for Concert Tickets | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "About TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Contact TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Editorial Policy | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Affiliate Disclosure | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "How to Compare Event Ticket Prices | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "How to Compare Concert Ticket Prices | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "SeatGeek vs Ticketmaster | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Avoid Overpaying for Concert Tickets | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "When to Buy Concert Tickets | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Primary vs Resale Concert Tickets | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "How to Avoid Ticket Scams | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Why Do Concert Ticket Prices Change? | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Ticketmaster vs StubHub: Compare Safely | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Concert Ticket Fees Explained | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Ticket Delivery & Transfer Timing | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "How Resale Ticket Pricing Works | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "How to Prepare for a Concert Onsale | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "How to Read a Concert Ticket Listing | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Concert Postponed or Cancelled | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Concerts by City | Upcoming Tour Dates | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    },
+    {
+      "pattern": "Concert Venues & Upcoming Tour Dates | TourTicketCompare",
+      "count": 1,
+      "share_of_indexable": 0.5
+    }
+  ],
+  "traffic": {
+    "available": false,
+    "note": "no export at reports/analytics/route-traffic.json"
+  },
+  "baseline_comparison": {
+    "baseline_generated_at": "2026-07-31T12:38:28.546Z",
+    "changes": [
+      {
+        "type": "home",
+        "before": {
+          "rendered": 1,
+          "indexable": 1
+        },
+        "after": {
+          "rendered": 1,
+          "indexable": 1
+        },
+        "kind": "unchanged",
+        "sharePointsDelta": 0,
+        "indexableDelta": 0
+      },
+      {
+        "type": "index",
+        "before": {
+          "rendered": 4,
+          "indexable": 4
+        },
+        "after": {
+          "rendered": 4,
+          "indexable": 4
+        },
+        "kind": "unchanged",
+        "sharePointsDelta": 0,
+        "indexableDelta": 0
+      },
+      {
+        "type": "static",
+        "before": {
+          "rendered": 7,
+          "indexable": 7
+        },
+        "after": {
+          "rendered": 7,
+          "indexable": 7
+        },
+        "kind": "unchanged",
+        "sharePointsDelta": 0,
+        "indexableDelta": 0
+      },
+      {
+        "type": "guide",
+        "before": {
+          "rendered": 17,
+          "indexable": 17
+        },
+        "after": {
+          "rendered": 17,
+          "indexable": 17
+        },
+        "kind": "unchanged",
+        "sharePointsDelta": 0,
+        "indexableDelta": 0
+      },
+      {
+        "type": "artist",
+        "before": {
+          "rendered": 30,
+          "indexable": 18
+        },
+        "after": {
+          "rendered": 30,
+          "indexable": 18
+        },
+        "kind": "unchanged",
+        "sharePointsDelta": 0,
+        "indexableDelta": 0
+      },
+      {
+        "type": "city",
+        "before": {
+          "rendered": 81,
+          "indexable": 35
+        },
+        "after": {
+          "rendered": 81,
+          "indexable": 35
+        },
+        "kind": "unchanged",
+        "sharePointsDelta": 0,
+        "indexableDelta": 0
+      },
+      {
+        "type": "venue",
+        "before": {
+          "rendered": 109,
+          "indexable": 41
+        },
+        "after": {
+          "rendered": 109,
+          "indexable": 41
+        },
+        "kind": "unchanged",
+        "sharePointsDelta": 0,
+        "indexableDelta": 0
+      },
+      {
+        "type": "artist-city",
+        "before": {
+          "rendered": 210,
+          "indexable": 82
+        },
+        "after": {
+          "rendered": 210,
+          "indexable": 82
+        },
+        "kind": "unchanged",
+        "sharePointsDelta": 0,
+        "indexableDelta": 0
+      }
+    ]
+  },
+  "warnings": [],
+  "problems": []
+}

@@ -319,7 +319,19 @@ export function projectionRecord(candidateSlug, discoveryEvent) {
     city: discoveryEvent.city,
     country: discoveryEvent.country,
     venue: discoveryEvent.venue,
-    datetime_iso: discoveryEvent.datetime_iso
+    datetime_iso: discoveryEvent.datetime_iso,
+    // The city and venue gates require at least one upcoming show with a
+    // publishable ticket destination (functions/_route-indexability.js), so a
+    // projection has to state what it assumes about this hypothetical row or it
+    // would score every candidate at zero. `machine_high_confidence` is what
+    // these rows genuinely are — recognised Ticketmaster Discovery events — and
+    // it is the status the ingestion lane would give them on onboarding.
+    verification_status: "machine_high_confidence",
+    // Marker so a projection is identifiable if one ever escapes this
+    // report-only script. Projections are never written to events.json, and
+    // they deliberately carry no provider_links: no destination has been
+    // checked, and fabricating one is forbidden.
+    projected: true
   };
 }
 
@@ -692,7 +704,12 @@ function runSelfTest() {
     country: "United States",
     venue,
     datetime_iso: `2026-01-${String(day).padStart(2, "0")}T20:00:00Z`,
-    id: `${slug}-${city}-${day}`
+    id: `${slug}-${city}-${day}`,
+    // Reviewed rows always carry a verification status, and the city/venue
+    // gates require at least one publishable upcoming show, so the fixture
+    // models a real reviewed record rather than a bare date.
+    verification_status: "human_verified",
+    provider_links: { ticketmaster: { verified: true } }
   });
   // Testville: 5 shows / 2 artists -> city indexable at base. Four of them fall
   // inside 20 days; alpha's day-28 show is the only one left past the horizon,
@@ -774,6 +791,22 @@ function runSelfTest() {
   assert("one show cannot flip a gate alone", soloOnly[0].flipScore === 0);
   assert("but it still registers as covering the at-risk market", soloOnly[0].coverageScore === 2);
   assert("projection records carry no provider fields", !("provider_links" in projectionRecord("delta", candidateEvents[0])));
+  assert("projection records are marked as projections", projectionRecord("delta", candidateEvents[0]).projected === true);
+  assert(
+    "projection records state the publishability they assume",
+    projectionRecord("delta", candidateEvents[0]).verification_status === "machine_high_confidence"
+  );
+
+  // A city whose every upcoming date is CTA-suppressed cannot be indexable, so
+  // it must never be counted into the projected surface.
+  const suppressedEvents = [10, 11, 12, 13].map((day) => ({
+    ...mk(day % 2 ? "alpha" : "beta", "Blockville", "Block Arena", day),
+    verification_status: "needs_recheck",
+    provider_links: {}
+  }));
+  const suppressedSurface = surfaceAt(suppressedEvents, artists, base);
+  assert("a city with no publishable destination is not projected as indexable", suppressedSurface.cities === 0);
+  assert("a venue with no publishable destination is not projected as indexable", suppressedSurface.venues === 0);
 
   const exclusions = rosterExclusions(artists, [{ slug: "alpha", ticketmaster_attraction_id: "KROSTER" }]);
   assert("roster slug excluded", isExcludedCandidate("Alpha", "KNEW", exclusions) === "already on the roster");

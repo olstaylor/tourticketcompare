@@ -1,3 +1,5 @@
+import { venueGate, eventPublishable } from "./_route-indexability.js";
+
 // Shared venue derivation used by the HTML router ([[path]].js) and the sitemap
 // (sitemap.xml.js) so the two cannot drift. Venue pages are an aggregation layer
 // over already-verified event records in public/data/events.json — they invent no
@@ -40,7 +42,8 @@ function mostFrequent(values) {
 
 // Build the full set of venues that have at least one upcoming tracked show.
 // Indexing requires enough breadth to answer venue-level intent rather than
-// duplicating a single artist page: at least three shows across two artists.
+// duplicating a single artist page, plus at least one upcoming show that can
+// lead somewhere. Thresholds and reasons live in _route-indexability.js.
 export function deriveVenues(events, options = {}) {
   const now = Number.isFinite(options.now) ? options.now : Date.now();
   const groups = new Map();
@@ -71,6 +74,7 @@ export function deriveVenues(events, options = {}) {
       tour_name: String(event.tour_name || "").trim(),
       datetime_iso: iso,
       last_verified_at: String(event.last_verified_at || "").trim(),
+      publishable: eventPublishable(event),
       ts
     });
   }
@@ -79,7 +83,8 @@ export function deriveVenues(events, options = {}) {
   for (const group of groups.values()) {
     const shows = group.shows.sort((a, b) => a.ts - b.ts);
     const artistSlugs = [...new Set(shows.map((s) => s.artist_slug))];
-    venues.push({
+    const publishableCount = shows.filter((show) => show.publishable).length;
+    const record = {
       slug: group.slug,
       venue: mostFrequent(group.venueLabels),
       city: mostFrequent(group.cityLabels),
@@ -87,13 +92,17 @@ export function deriveVenues(events, options = {}) {
       shows,
       artistSlugs,
       showCount: shows.length,
+      artistCount: artistSlugs.length,
+      publishableCount,
+      hasPublishable: publishableCount >= 1,
       lastmod: shows
         .map((show) => show.last_verified_at)
         .filter((value) => /^\d{4}-\d{2}-\d{2}$/.test(value))
         .sort()
-        .at(-1) || "",
-      indexable: shows.length >= 3 && artistSlugs.length >= 2
-    });
+        .at(-1) || ""
+    };
+    const gate = venueGate(record);
+    venues.push({ ...record, indexable: gate.indexable, exclusionReasons: gate.reasons });
   }
 
   venues.sort(

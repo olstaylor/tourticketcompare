@@ -42,6 +42,7 @@ const routeMetadataModule = await import(pathToFileURL(path.join(root, "function
 const venuesModule = await import(pathToFileURL(path.join(root, "functions/_venues.js")));
 const citiesModule = await import(pathToFileURL(path.join(root, "functions/_cities.js")));
 const artistCitiesModule = await import(pathToFileURL(path.join(root, "functions/_artist-cities.js")));
+const policyModule = await import(pathToFileURL(path.join(root, "functions/_route-indexability.js")));
 
 const catalog = JSON.parse(await read("public/data/catalog.json"));
 const artistsMeta = JSON.parse(await read("public/data/artists.json"));
@@ -90,7 +91,11 @@ const indexableArtistSlugs = artistsMeta
   .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
   .map((artist) => String(artist?.slug || "").trim())
   .filter(Boolean);
-const artistCityEntries = artistCitiesModule.deriveIndexableArtistCities(events, indexableArtistSlugs);
+// Every artist-city combination that *renders*, indexable or not: single-date
+// combinations are noindex,follow 200s under the route-usefulness policy, and
+// the audit must still crawl them for canonical drift, social metadata, robots
+// agreement, and sitemap exclusion.
+const artistCityEntries = artistCitiesModule.deriveRenderedArtistCities(events, indexableArtistSlugs);
 const artistCityPaths = artistCityEntries.map((entry) => entry.path);
 const allPaths = [...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", ...venuePaths, ...artistCityPaths])];
 
@@ -333,9 +338,16 @@ for (const page of indexablePages) {
 for (const city of cities) {
   const path = `/cities/${city.slug}`;
   const page = pages.get(path);
-  const expectedIndexable = city.showCount >= 4 && city.artistCount >= 2;
+  // Independently re-derived from the published policy constants, so a change
+  // to deriveCities() that silently drops a gate still fails here.
+  const expectedIndexable =
+    city.showCount >= policyModule.CITY_MIN_SHOWS &&
+    city.artistCount >= policyModule.CITY_MIN_ARTISTS &&
+    city.publishableCount >= 1;
   if (city.indexable !== expectedIndexable) {
-    problems.push(`city quality: ${path} indexability does not match the 4-show / 2-artist threshold`);
+    problems.push(
+      `city quality: ${path} indexability does not match the ${policyModule.CITY_MIN_SHOWS}-show / ${policyModule.CITY_MIN_ARTISTS}-artist / publishable-destination gate`
+    );
   }
   if (!page || page.status !== 200) {
     problems.push(`city quality: ${path} did not render successfully`);
@@ -352,7 +364,7 @@ for (const city of cities) {
     "Short answer:",
     `Which artists have upcoming concerts in ${city.city}?`,
     `Upcoming concerts in ${city.city}`,
-    `How to compare tickets for a ${city.city} concert`,
+    `Compare tickets for a ${city.city} concert`,
     `${city.city} concert FAQ`
   ];
   for (const marker of requiredCopy) {
@@ -362,8 +374,11 @@ for (const city of cities) {
   if (renderedDates < city.showCount) {
     problems.push(`city quality: ${path} renders ${renderedDates} dated listings for ${city.showCount} source shows`);
   }
+  // Floor, not a target. The FAQ carries only city-specific answers now; the
+  // generic ticket-buying questions that used to pad it to six repeated
+  // verbatim across every location page (see docs/ROUTE_INDEXABILITY_POLICY.md).
   const faqAnswers = [...page.mainHtml.matchAll(/<details>/g)].length;
-  if (faqAnswers < 6) problems.push(`city quality: ${path} renders only ${faqAnswers} visible FAQ answers`);
+  if (faqAnswers < 3) problems.push(`city quality: ${path} renders only ${faqAnswers} visible FAQ answers`);
   for (const type of ["Place", "CollectionPage", "FAQPage"]) {
     if (!page.schemaTypes.includes(type)) problems.push(`city quality: ${path} is missing ${type} structured data`);
   }
@@ -380,9 +395,14 @@ if (!cityIndexPage?.mainHtml.includes("What makes a city page useful?")) {
 for (const venue of venues) {
   const path = `/venues/${venue.slug}`;
   const page = pages.get(path);
-  const expectedIndexable = venue.showCount >= 3 && venue.artistSlugs.length >= 2;
+  const expectedIndexable =
+    venue.showCount >= policyModule.VENUE_MIN_SHOWS &&
+    venue.artistSlugs.length >= policyModule.VENUE_MIN_ARTISTS &&
+    venue.publishableCount >= 1;
   if (venue.indexable !== expectedIndexable) {
-    problems.push(`venue quality: ${path} indexability does not match the 3-show / 2-artist threshold`);
+    problems.push(
+      `venue quality: ${path} indexability does not match the ${policyModule.VENUE_MIN_SHOWS}-show / ${policyModule.VENUE_MIN_ARTISTS}-artist / publishable-destination gate`
+    );
   }
   if (!page || page.status !== 200) {
     problems.push(`venue quality: ${path} did not render successfully`);
@@ -404,12 +424,29 @@ for (const venue of venues) {
     if (!mainText.includes(marker)) problems.push(`venue quality: ${path} is missing "${marker}"`);
   }
   const faqAnswers = [...page.mainHtml.matchAll(/<details>/g)].length;
-  if (faqAnswers < 6) problems.push(`venue quality: ${path} renders only ${faqAnswers} visible FAQ answers`);
+  if (faqAnswers < 3) problems.push(`venue quality: ${path} renders only ${faqAnswers} visible FAQ answers`);
   for (const type of ["MusicVenue", "CollectionPage", "FAQPage"]) {
     if (!page.schemaTypes.includes(type)) problems.push(`venue quality: ${path} is missing ${type} structured data`);
   }
-  if (page.mainWordCount < 450) {
+  if (page.mainWordCount < 400) {
     problems.push(`venue quality: ${path} has only ${page.mainWordCount} visible words; investigate missing useful sections`);
+  }
+}
+
+// Non-indexable location pages must not emit the structured data that only
+// earns a rich result for an indexed page. This is the alignment guard: schema
+// follows indexability, and visible content follows it in the same direction.
+for (const record of [
+  ...cities.map((city) => ({ path: `/cities/${city.slug}`, indexable: city.indexable, label: "city" })),
+  ...venues.map((venue) => ({ path: `/venues/${venue.slug}`, indexable: venue.indexable, label: "venue" }))
+]) {
+  if (record.indexable) continue;
+  const page = pages.get(record.path);
+  if (!page || page.status !== 200) continue;
+  for (const type of ["FAQPage", "MusicEvent"]) {
+    if (page.schemaTypes.includes(type)) {
+      problems.push(`${record.label} quality: noindex page ${record.path} still emits ${type} structured data`);
+    }
   }
 }
 
@@ -428,17 +465,21 @@ for (const entry of artistCityEntries) {
     problems.push(`artist-city quality: ${entry.path} did not render successfully`);
     continue;
   }
-  if (!page.indexable) {
-    problems.push(`artist-city quality: ${entry.path} is a qualifying page but renders noindex`);
+  // The gate is re-derived here from the published constant so a change to
+  // deriveArtistCities() cannot silently move the indexable set on its own.
+  const expectedIndexable = entry.publishableCount >= policyModule.ARTIST_CITY_MIN_SHOWS;
+  if (page.indexable !== expectedIndexable) {
+    problems.push(
+      `artist-city quality: ${entry.path} renders ${page.indexable ? "index" : "noindex"} but has ${entry.publishableCount} publishable upcoming show(s) (threshold ${policyModule.ARTIST_CITY_MIN_SHOWS})`
+    );
   }
   const mainText = decodeEntities(page.mainHtml);
+  // Required on every artist-city page, indexable or not: the local facts and
+  // the crawl path back to the artist hub.
   const requiredCopy = [
     "Tickets in",
     "At a glance:",
     "Short answer:",
-    "How to buy",
-    "ticket FAQ",
-    // A crawl path back to the artist hub is mandatory on every artist-city page.
     `href="/artists/${entry.artistSlug}"`
   ];
   for (const marker of requiredCopy) {
@@ -450,10 +491,32 @@ for (const entry of artistCityEntries) {
   if (renderedDates < 1) {
     problems.push(`artist-city quality: ${entry.path} renders no dated show cards`);
   }
-  const faqAnswers = [...page.mainHtml.matchAll(/<details>/g)].length;
-  if (faqAnswers < 6) problems.push(`artist-city quality: ${entry.path} renders only ${faqAnswers} visible FAQ answers`);
-  for (const type of ["Place", "CollectionPage", "FAQPage"]) {
-    if (!page.schemaTypes.includes(type)) problems.push(`artist-city quality: ${entry.path} is missing ${type} structured data`);
+
+  if (expectedIndexable) {
+    if (!mainText.includes("ticket FAQ")) {
+      problems.push(`artist-city quality: ${entry.path} is missing "ticket FAQ"`);
+    }
+    const faqAnswers = [...page.mainHtml.matchAll(/<details>/g)].length;
+    if (faqAnswers < 3) problems.push(`artist-city quality: ${entry.path} renders only ${faqAnswers} visible FAQ answers`);
+    for (const type of ["Place", "CollectionPage", "FAQPage"]) {
+      if (!page.schemaTypes.includes(type)) problems.push(`artist-city quality: ${entry.path} is missing ${type} structured data`);
+    }
+  } else {
+    // Single-date pages: schema and visible content both drop the repeated FAQ.
+    for (const type of ["FAQPage", "MusicEvent"]) {
+      if (page.schemaTypes.includes(type)) {
+        problems.push(`artist-city quality: noindex page ${entry.path} still emits ${type} structured data`);
+      }
+    }
+    if (page.mainHtml.includes("<details>")) {
+      problems.push(`artist-city quality: noindex page ${entry.path} still renders the repeated FAQ block`);
+    }
+    // A noindex page that nothing links to cannot be re-crawled, so the
+    // noindex signal never reaches the crawler. Every single-date combination
+    // must keep its inbound link from the artist page's by-city section.
+    if (!page.inboundContextual.some((from) => from === `/artists/${entry.artistSlug}`)) {
+      problems.push(`artist-city quality: noindex page ${entry.path} is not linked from its artist page`);
+    }
   }
 }
 

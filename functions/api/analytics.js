@@ -12,10 +12,20 @@ import {
 } from "../_funnel.js";
 
 const MAX_BODY_SIZE = 8 * 1024;
-// Client-observable funnel steps. `outbound_click` stays in the list for
-// backwards compatibility with historical rows and any cached client, but the
-// authoritative outbound event is written server-side by /api/out — see
-// docs/COMMERCIAL_FUNNEL.md.
+// Client-observable funnel steps only.
+//
+// `outbound_click` is deliberately NOT accepted here. This endpoint is
+// unauthenticated, and the commercial report identifies an authoritative click
+// solely by `event_name = 'outbound_click'`, so accepting that name from a
+// browser would let anyone inflate every commercial click metric without ever
+// completing a redirect — the exact property the funnel is built to guarantee.
+// The authoritative row is written server-side by /api/out and by nothing else.
+// No client has ever posted this event, so rejecting it loses no data; rows
+// already in the table were all written by /api/out and stay comparable.
+//
+// The remaining events are denominators (views) or the non-authoritative
+// `provider_click`. Forging those can only depress a rate, never inflate the
+// click count, so they stay open. See docs/COMMERCIAL_FUNNEL.md.
 const ALLOWED_EVENTS = new Set([
   "page_view",
   "artist_view",
@@ -23,7 +33,6 @@ const ALLOWED_EVENTS = new Set([
   "provider_cta_view",
   "email_signup",
   "artist_interest",
-  "outbound_click",
   "provider_click",
   "web_vitals"
 ]);
@@ -197,7 +206,15 @@ export async function onRequestPost({ request, env }) {
   const utmSource = safeUtm(metadata.utmSource);
   const utmMedium = safeUtm(metadata.utmMedium);
   const utmCampaign = safeUtm(metadata.utmCampaign);
-  const acquisitionSource = classifyAcquisitionSource({ referrer, utmMedium, utmSource });
+  // Acquisition belongs to the session's entry — the only beacon that carries a
+  // referrer or UTM values. Classifying a later beacon would stamp every
+  // in-session event "direct" and bury the organic/paid/referral source the
+  // visit actually came from, so those rows are left NULL and the report reads
+  // acquisition from the entry row.
+  const isSessionEntry = metadata.entry === true;
+  const acquisitionSource = isSessionEntry || referrer || utmSource || utmMedium || utmCampaign
+    ? classifyAcquisitionSource({ referrer, utmMedium, utmSource })
+    : null;
   metadata.pageType = pageType;
   const metadataJson = JSON.stringify(metadata).slice(0, 2048);
 

@@ -80,9 +80,23 @@ Reference: docs/COMMERCIAL_FUNNEL.md
 
 function parseIsoDate(value, flag) {
   const raw = String(value || "").trim();
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) throw new Error(`${flag} requires a YYYY-MM-DD date`);
-  const parsed = new Date(`${raw}T00:00:00.000Z`);
-  if (Number.isNaN(parsed.getTime())) throw new Error(`${flag} is not a valid date`);
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(raw);
+  if (!match) throw new Error(`${flag} requires a YYYY-MM-DD date`);
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const parsed = new Date(Date.UTC(year, month - 1, day));
+  // A NaN check is not enough: JavaScript rolls an out-of-range day forward, so
+  // 2026-02-30 becomes 2026-03-02 and the report would silently query a window
+  // the operator never asked for. Round-trip the components to catch it.
+  if (
+    Number.isNaN(parsed.getTime()) ||
+    parsed.getUTCFullYear() !== year ||
+    parsed.getUTCMonth() !== month - 1 ||
+    parsed.getUTCDate() !== day
+  ) {
+    throw new Error(`${flag} is not a real calendar date: ${raw}`);
+  }
   return parsed.toISOString();
 }
 
@@ -133,22 +147,31 @@ export function parseArgs(argv) {
 
 export function computeWindow(options, now = new Date()) {
   const until = options.until || "";
-  const since = options.since || (options.days ? new Date(now.getTime() - options.days * DAY_MS).toISOString() : "");
-  return { since, until };
+  if (options.since) return { since: options.since, until };
+  if (!options.days) return { since: "", until };
+  // A relative window is measured back from the end the operator asked for.
+  // Anchoring to the wall clock instead would make `--until 2026-06-01` with
+  // the default 30 days produce a start *after* the end and quietly return
+  // nothing, which reads as "no traffic" rather than as a bad invocation.
+  const anchor = until ? new Date(until) : now;
+  return { since: new Date(anchor.getTime() - options.days * DAY_MS).toISOString(), until };
 }
 
 const ISO_PATTERN = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/;
 
-export function windowClause({ since, until }) {
+export function windowClause({ since, until }, column = "created_at") {
+  if (!/^[A-Za-z_][A-Za-z0-9_]*(?:\.[A-Za-z_][A-Za-z0-9_]*)?$/.test(column)) {
+    throw new Error(`Refusing to interpolate an unrecognised column: ${column}`);
+  }
   let clause = "";
   // Only an internally generated ISO timestamp may be interpolated.
   if (since) {
     if (!ISO_PATTERN.test(since)) throw new Error(`Refusing to interpolate non-ISO window bound: ${since}`);
-    clause += ` AND created_at >= '${since}'`;
+    clause += ` AND ${column} >= '${since}'`;
   }
   if (until) {
     if (!ISO_PATTERN.test(until)) throw new Error(`Refusing to interpolate non-ISO window bound: ${until}`);
-    clause += ` AND created_at < '${until}'`;
+    clause += ` AND ${column} < '${until}'`;
   }
   return clause;
 }
@@ -234,6 +257,7 @@ const OUTBOUND = "event_name = 'outbound_click'";
 
 export function buildStatements(window) {
   const since = windowClause(window);
+  const clickSince = windowClause(window, "click.created_at");
   const statements = [
     {
       key: "totals",
@@ -311,14 +335,27 @@ GROUP BY 1`
       // the same day. /api/out has no client session state, so the landing page
       // comes from that visitor's page_view rows — see the attribution caveats
       // in docs/COMMERCIAL_FUNNEL.md.
+      //
+      // The join target MUST be one row per visitor-day. Joining the click
+      // against the raw page_view rows would match it once per page the visitor
+      // saw, multiplying a single click by their pageview count and producing
+      // landing-page rates above 100% against the distinct-session denominator.
+      // The subquery collapses each visitor-day to its earliest page_view;
+      // SQLite's documented bare-column rule makes `landing_path` come from the
+      // MIN(created_at) row, which is the landing by definition. It is
+      // deliberately not window-bounded, so a session that began just before
+      // the window still resolves its landing page instead of dropping out.
       sql: `SELECT COALESCE(NULLIF(TRIM(entry.landing_path), ''), '(unknown)') AS landing_path, COUNT(*) AS clicks
 FROM analytics_events click
-JOIN analytics_events entry
-  ON entry.request_key = click.request_key
-  AND substr(entry.created_at, 1, 10) = substr(click.created_at, 1, 10)
-  AND entry.event_name = 'page_view'
-  AND entry.landing_path IS NOT NULL
-WHERE click.event_name = 'outbound_click'${since.replace(/created_at/g, "click.created_at")}
+JOIN (
+  SELECT request_key AS visitor_key, substr(created_at, 1, 10) AS visit_day, landing_path, MIN(created_at) AS first_view
+  FROM analytics_events
+  WHERE event_name = 'page_view' AND TRIM(COALESCE(landing_path, '')) != ''
+  GROUP BY visitor_key, visit_day
+) entry
+  ON entry.visitor_key = click.request_key
+  AND entry.visit_day = substr(click.created_at, 1, 10)
+WHERE click.event_name = 'outbound_click'${clickSince}
 GROUP BY 1`
     },
     {
@@ -852,6 +889,20 @@ function selfTest() {
     assert.equal(options.until, "2026-07-15T00:00:00.000Z");
   });
   check(() => assert.throws(() => parseArgs(["--since", "2026-07-15", "--until", "2026-07-01"]), /must be after/));
+  // A syntactically valid but nonexistent date must not be rolled forward into
+  // a different window than the operator asked for.
+  check(() => assert.throws(() => parseArgs(["--since", "2026-02-30"]), /not a real calendar date/));
+  check(() => assert.throws(() => parseArgs(["--since", "2026-02-29"]), /not a real calendar date/));
+  check(() => assert.throws(() => parseArgs(["--until", "2026-04-31"]), /not a real calendar date/));
+  check(() => assert.equal(parseArgs(["--since", "2028-02-29"]).since, "2028-02-29T00:00:00.000Z"));
+
+  // A relative window is measured back from the requested end, not the clock.
+  check(() => {
+    const now = new Date("2026-07-30T12:00:00.000Z");
+    const historical = computeWindow({ days: 30, since: "", until: "2026-06-01T00:00:00.000Z" }, now);
+    assert.equal(historical.since, "2026-05-02T00:00:00.000Z");
+    assert.ok(historical.since < historical.until, "a historical --until must still produce a usable window");
+  });
 
   check(() => {
     const now = new Date("2026-07-30T12:00:00.000Z");
@@ -876,6 +927,16 @@ function selfTest() {
       assertNoPersonalColumns(statement.sql);
     }
   });
+
+  // The landing-page join must collapse each visitor-day to one row before
+  // counting clicks; joining raw page_view rows multiplies the click count.
+  check(() => {
+    const landing = buildStatements({ since: "", until: "" }).find((entry) => entry.key === "landingPageClicks");
+    assert.match(landing.sql, /JOIN \(\s*SELECT/, "clicks must join a deduplicated subquery, not raw page_view rows");
+    assert.match(landing.sql, /GROUP BY visitor_key, visit_day/);
+    assert.match(landing.sql, /MIN\(created_at\)/, "the landing row must be the visitor-day's earliest page view");
+  });
+  check(() => assert.throws(() => windowClause({ since: "2026-07-01T00:00:00.000Z", until: "" }, "click.created_at; DROP"), /unrecognised column/));
 
   check(() => {
     const statements = buildStatements({ since: "2026-06-30T12:00:00.000Z", until: "2026-07-30T12:00:00.000Z" });

@@ -344,6 +344,108 @@ await test("/api/analytics rejects unknown events and stores funnel dimensions",
   assert.equal(providerClick.is_affiliate, 1);
 });
 
+await test("the authoritative outbound event cannot be written from the public beacon", async () => {
+  const db = fakeDb();
+  // /api/analytics is unauthenticated and the report identifies an
+  // authoritative click purely by event_name, so accepting this name from a
+  // browser would let anyone inflate every commercial click metric without
+  // completing a redirect.
+  const forged = await analyticsPost({
+    request: analyticsRequest({
+      eventName: "outbound_click",
+      sourcePath: "/artists/bts",
+      artistSlug: "bts",
+      provider: "seatgeek"
+    }),
+    env: { DEMAND_DB: db }
+  });
+  assert.equal(forged.status, 400, "a client-posted outbound_click must be rejected");
+  assert.equal(db.rows.length, 0, "and must never reach analytics_events");
+
+  // The same is true of the blocked-redirect event, which is also server-only.
+  const forgedBlocked = await analyticsPost({
+    request: analyticsRequest({ eventName: "outbound_blocked", sourcePath: "/" }),
+    env: { DEMAND_DB: db }
+  });
+  assert.equal(forgedBlocked.status, 400);
+  assert.equal(db.rows.length, 0);
+
+  // Only /api/out writes it, and it still does.
+  const outDb = fakeDb();
+  await outGet({
+    request: outRequest(`showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`),
+    env: { DEMAND_DB: outDb, ASSETS: fakeAssets() }
+  });
+  assert.equal(outDb.rows[0].event_name, "outbound_click");
+});
+
+await test("acquisition is recorded on the session entry and left unset after it", async () => {
+  const db = fakeDb();
+  const env = { DEMAND_DB: db };
+  // Session entry: carries the referrer and UTM values.
+  await analyticsPost({
+    request: analyticsRequest({
+      eventName: "page_view",
+      sourcePath: "/artists/bts",
+      referrer: "https://www.google.com",
+      metadata: { entry: true }
+    }),
+    env
+  });
+  // Everything after it deliberately omits them; classifying those rows would
+  // stamp the whole visit "direct" and bury the organic source.
+  for (const eventName of ["artist_view", "event_view", "provider_cta_view", "provider_click", "page_view"]) {
+    await analyticsPost({ request: analyticsRequest({ eventName, sourcePath: "/artists/bts" }), env });
+  }
+  assert.equal(db.rows[0].acquisition_source, "organic_search");
+  assert.equal(db.rows[0].referrer, "https://www.google.com");
+  for (const row of db.rows.slice(1)) {
+    assert.equal(row.acquisition_source, null, `${row.event_name} must not be labelled as its own acquisition`);
+  }
+
+  // A genuinely direct entry is still recorded as direct, not left blank.
+  const directDb = fakeDb();
+  await analyticsPost({
+    request: analyticsRequest({ eventName: "page_view", sourcePath: "/", metadata: { entry: true } }),
+    env: { DEMAND_DB: directDb }
+  });
+  assert.equal(directDb.rows[0].acquisition_source, "direct");
+});
+
+await test("affiliate status follows the destination actually redirected to", async () => {
+  const affiliateDb = fakeDb();
+  await outGet({
+    request: outRequest(`showId=${SAMPLE_EVENT.id}&provider=seatgeek&sourcePath=/artists/test-artist`),
+    env: {
+      DEMAND_DB: affiliateDb,
+      ASSETS: fakeAssets(),
+      IMPACT_SEATGEEK_BASE_TRACKING_URL: "https://seatgeek.pxf.io/c/1234/5678/9012"
+    }
+  });
+  assert.equal(affiliateDb.rows[0].destination_category, "affiliate_network");
+  assert.equal(affiliateDb.rows[0].is_affiliate, 1);
+
+  // Ticketmaster is an affiliate-programme non-member: a direct provider hop.
+  const directDb = fakeDb();
+  await outGet({
+    request: outRequest(`showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`),
+    env: { DEMAND_DB: directDb, ASSETS: fakeAssets() }
+  });
+  assert.equal(directDb.rows[0].destination_category, "provider_direct");
+  assert.equal(directDb.rows[0].is_affiliate, 0);
+
+  // A blocked click never reached a destination, so it falls back to the lane
+  // the visitor was trying to use rather than being counted as unmonetized.
+  const blockedDb = fakeDb();
+  await outGet({
+    request: outRequest(`showId=${SAMPLE_EVENT.id}&provider=seatgeek&sourcePath=/artists/test-artist`),
+    env: { DEMAND_DB: blockedDb, ASSETS: fakeAssets() }
+  });
+  assert.equal(blockedDb.rows[0].event_name, "outbound_blocked");
+  assert.equal(blockedDb.rows[0].destination_category, "unknown");
+  assert.equal(blockedDb.rows[0].is_affiliate, 1);
+});
+
 await test("/api/analytics never stores an email, even when one is posted", async () => {
   const db = fakeDb();
   await analyticsPost({
@@ -594,7 +696,124 @@ await test("the widest insert is a superset of every earlier schema", () => {
   assert.equal(bindValue(""), null);
 });
 
-// ── 6. Source-level invariants ──────────────────────────────────────────────
+// ── 6. Report SQL executed against a real SQLite engine ─────────────────────
+// String assertions cannot catch a query that is syntactically wrong or that
+// fans out across a join. These build the real 0008 schema in memory and run
+// the report's own statements against it.
+
+const ANALYTICS_SCHEMA = `
+CREATE TABLE analytics_events (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  created_at TEXT NOT NULL, event_name TEXT NOT NULL, source_path TEXT, artist_slug TEXT,
+  email TEXT, request_key TEXT, referrer TEXT, user_agent TEXT, metadata_json TEXT,
+  provider TEXT, tour_slug TEXT, destination_host TEXT, link_id TEXT,
+  page_type TEXT, landing_path TEXT, event_id TEXT, event_date TEXT, event_city TEXT,
+  event_venue TEXT, cta_location TEXT, destination_category TEXT, is_affiliate INTEGER,
+  device_category TEXT, acquisition_source TEXT, utm_source TEXT, utm_medium TEXT,
+  utm_campaign TEXT, click_id TEXT
+);`;
+
+async function openFixtureDb(rows) {
+  const { DatabaseSync } = await import("node:sqlite");
+  const db = new DatabaseSync(":memory:");
+  db.exec(ANALYTICS_SCHEMA);
+  const columns = ["created_at", "event_name", "source_path", "artist_slug", "request_key", "landing_path", "page_type", "provider", "is_affiliate", "destination_category", "cta_location", "metadata_json"];
+  const insert = db.prepare(`INSERT INTO analytics_events (${columns.join(", ")}) VALUES (${columns.map(() => "?").join(", ")})`);
+  for (const row of rows) insert.run(...columns.map((column) => row[column] ?? null));
+  return db;
+}
+
+await test("every report query is valid SQLite against the 0008 schema", async () => {
+  const { buildStatements } = await import("./report-commercial-funnel.mjs");
+  let db;
+  try {
+    db = await openFixtureDb([
+      { created_at: "2026-07-20T10:00:00.000Z", event_name: "page_view", source_path: "/artists/x", artist_slug: "x", request_key: "v1", landing_path: "/artists/x", page_type: "artist" },
+      { created_at: "2026-07-20T10:05:00.000Z", event_name: "outbound_click", source_path: "/artists/x", artist_slug: "x", request_key: "v1", page_type: "artist", provider: "seatgeek", is_affiliate: 1, destination_category: "affiliate_network", cta_location: "event_card" },
+      { created_at: "2026-07-20T10:06:00.000Z", event_name: "outbound_blocked", source_path: "/artists/x", artist_slug: "x", request_key: "v1", provider: "vivid-seats", metadata_json: JSON.stringify({ status: "impact_request_failed" }) },
+      { created_at: "2026-07-20T10:07:00.000Z", event_name: "email_signup", source_path: "/artists/y", artist_slug: "y", request_key: "v2" }
+    ]);
+  } catch (error) {
+    // node:sqlite is unavailable — fall back to asserting the join shape.
+    const statements = buildStatements({ since: "", until: "" });
+    const landing = statements.find((entry) => entry.key === "landingPageClicks");
+    assert.match(landing.sql, /JOIN \(\s*SELECT/, "landing clicks must join a deduplicated subquery");
+    return;
+  }
+  for (const statement of buildStatements({ since: "2026-07-01T00:00:00.000Z", until: "2026-08-01T00:00:00.000Z" })) {
+    assert.doesNotThrow(() => db.prepare(statement.sql).all(), `${statement.key} is not valid SQLite`);
+  }
+  db.close();
+});
+
+await test("a landing page is not credited one click per page the visitor viewed", async () => {
+  const { buildStatements } = await import("./report-commercial-funnel.mjs");
+  let db;
+  try {
+    // One visitor, one click, five page views on the same day. Joining the
+    // click against the raw page_view rows would report five clicks and a
+    // click-through rate above 100% against the distinct-session denominator.
+    const rows = [];
+    for (let index = 0; index < 5; index += 1) {
+      rows.push({
+        created_at: `2026-07-20T1${index}:00:00.000Z`,
+        event_name: "page_view",
+        source_path: index === 0 ? "/" : `/artists/artist-${index}`,
+        request_key: "visitor-1",
+        landing_path: "/",
+        page_type: index === 0 ? "home" : "artist"
+      });
+    }
+    rows.push({
+      created_at: "2026-07-20T15:00:00.000Z",
+      event_name: "outbound_click",
+      source_path: "/artists/artist-1",
+      artist_slug: "artist-1",
+      request_key: "visitor-1",
+      page_type: "artist",
+      provider: "seatgeek",
+      is_affiliate: 1,
+      destination_category: "affiliate_network"
+    });
+    db = await openFixtureDb(rows);
+  } catch (error) {
+    return;
+  }
+  const statements = buildStatements({ since: "2026-07-01T00:00:00.000Z", until: "2026-08-01T00:00:00.000Z" });
+  const landingClicks = db.prepare(statements.find((entry) => entry.key === "landingPageClicks").sql).all();
+  const landingViews = db.prepare(statements.find((entry) => entry.key === "landingPageViews").sql).all();
+  assert.deepEqual(
+    landingClicks.map((row) => [row.landing_path, Number(row.clicks)]),
+    [["/", 1]],
+    "one click must stay one click regardless of how many pages the visitor saw"
+  );
+  const sessions = Number(landingViews.find((row) => row.landing_path === "/").sessions);
+  assert.equal(sessions, 1);
+  assert.ok(Number(landingClicks[0].clicks) <= sessions, "landing-page click-through must not exceed 100%");
+  db.close();
+});
+
+await test("the landing row is the visitor's earliest page view of the day", async () => {
+  const { buildStatements } = await import("./report-commercial-funnel.mjs");
+  let db;
+  try {
+    db = await openFixtureDb([
+      { created_at: "2026-07-20T09:00:00.000Z", event_name: "page_view", source_path: "/", request_key: "v1", landing_path: "/", page_type: "home" },
+      // A later document load in the same tab reuses the stored landing path;
+      // a genuinely new session on the same day reports its own.
+      { created_at: "2026-07-20T18:00:00.000Z", event_name: "page_view", source_path: "/guides", request_key: "v1", landing_path: "/guides", page_type: "guides_index" },
+      { created_at: "2026-07-20T18:30:00.000Z", event_name: "outbound_click", source_path: "/artists/x", artist_slug: "x", request_key: "v1", provider: "seatgeek" }
+    ]);
+  } catch (error) {
+    return;
+  }
+  const statements = buildStatements({ since: "", until: "" });
+  const rows = db.prepare(statements.find((entry) => entry.key === "landingPageClicks").sql).all();
+  assert.deepEqual(rows.map((row) => [row.landing_path, Number(row.clicks)]), [["/", 1]], "the earliest page view of the visitor-day is the landing page");
+  db.close();
+});
+
+// ── 7. Source-level invariants ──────────────────────────────────────────────
 
 await test("GA4 mirrors funnel events without high-cardinality or personal parameters", async () => {
   const appJs = await readFile(new URL("../public/app.js", import.meta.url), "utf8");
@@ -613,6 +832,33 @@ await test("GA4 mirrors funnel events without high-cardinality or personal param
     !/GA4_MIRRORED_EVENTS = \[[^\]]*"outbound_click"/.test(appJs),
     "the authoritative outbound event is server-side and cannot be mirrored from the client"
   );
+});
+
+await test("CTA impressions observe every button, not just the first in the document", async () => {
+  const appJs = await readFile(new URL("../public/app.js", import.meta.url), "utf8");
+  // A deep link to #show-<id> opens the page part-way down the board, where a
+  // later CTA is on screen and the first is not.
+  assert.ok(
+    !/const firstCta = document\.querySelector\("a\[data-cta-provider\]"\)/.test(appJs),
+    "observing only the first CTA misses impressions on deep-linked pages"
+  );
+  assert.match(appJs, /observedCtas = Array\.from\(document\.querySelectorAll\("a\[data-cta-provider\]"\)\)/);
+  // One impression per page view: the first to satisfy dwell cancels the rest.
+  assert.ok(
+    appJs.indexOf("observedCtas.forEach((cta) => funnelImpressionObserver?.unobserve(cta))") > -1,
+    "the remaining CTAs must be unobserved once one has reported"
+  );
+});
+
+await test("a view is never attributed to an artist the catalogue does not have", async () => {
+  const appJs = await readFile(new URL("../public/app.js", import.meta.url), "utf8");
+  // /artists/<unknown> is a 404 and /artists/<real>/<bad-tour> is a 404 under a
+  // real artist. Copying the path segment would invent a slug on the first and
+  // credit an unreadable page on the second.
+  assert.match(appJs, /current\.type !== "not-found" && pathArtistSlug \? findArtist\(pathArtistSlug\)\?\.slug \|\| "" : ""/);
+  const fallbackAt = appJs.indexOf("const resolvedPathArtist");
+  const artistViewAt = appJs.indexOf('sendAnalytics("artist_view"');
+  assert.ok(fallbackAt > -1 && artistViewAt > fallbackAt, "artist_view must depend on the resolved slug");
 });
 
 await test("no analytics endpoint exposes stored data over GET", async () => {

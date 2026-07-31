@@ -42,6 +42,22 @@ that no longer validates. Without it a broken lane looks merely unpopular. It is
 deliberately limited to provider and configuration failures — malformed or
 probing requests are not demand signal and are not recorded.
 
+### Why the authoritative event cannot be forged
+
+`/api/analytics` is a public, unauthenticated endpoint, and the report
+identifies an authoritative click purely by `event_name = 'outbound_click'`.
+Both server-only events are therefore rejected by that endpoint's allow-list:
+posting `outbound_click` or `outbound_blocked` to it returns `400` and writes
+nothing. `/api/out` is the only writer of either, and every row already in the
+table was written by it, so the guarantee is retroactive as well as forward.
+
+The client events that remain open — `page_view`, `artist_view`, `event_view`,
+`provider_cta_view`, `provider_click` — are denominators or non-authoritative
+intent. Forging them can only *depress* a rate, never inflate the click count,
+which is why they do not need the same protection. If you ever add a new
+client-writable event, check which side of that line it falls on before
+allowing it.
+
 ## Dimensions recorded
 
 On the authoritative outbound row, everything below is derived server-side from
@@ -59,8 +75,8 @@ either the request or the reviewed event record — never from a client claim:
 | Provider | `provider` | validated provider slug |
 | CTA component | `cta_location` | `ctaLocation` on the tracked URL, allowlisted |
 | Destination category | `destination_category` | the host actually redirected to |
-| Affiliate status | `is_affiliate` | provider lane (Ticketmaster is unmonetized → 0) |
-| Referrer / acquisition | `referrer`, `acquisition_source` | external referrer origin, session entry only |
+| Affiliate status | `is_affiliate` | the host actually redirected to, not the provider's lane — a tracking response that resolves to a direct provider URL is genuinely unmonetized and is recorded as 0. A blocked click has no destination, so it falls back to the lane the visitor was trying to use |
+| Referrer / acquisition | `referrer`, `acquisition_source` | external referrer origin, **session entry row only**; `NULL` on every later event in the visit |
 | UTM | `utm_source`, `utm_medium`, `utm_campaign` | session entry only |
 | Device | `device_category` | mobile / tablet / desktop from the user-agent |
 | Click id | `click_id` | random per click; see *Reconciling with affiliate dashboards* |
@@ -80,8 +96,15 @@ figures, not exact counts.
 `landing_path` is captured client-side per browsing session (tab-scoped
 `sessionStorage`, no cookie) and stored on `page_view` rows. `/api/out` has no
 client state, so the report attributes an outbound click to the landing page of
-the **same visitor key on the same day**. That join is the weakest link in the
-report — see *Attribution limits*.
+the **same visitor key on the same day**, collapsing that visitor-day to its
+earliest `page_view` first so one click stays one click however many pages the
+visitor saw. That join is the weakest link in the report — see *Attribution
+limits*.
+
+`acquisition_source` is written only on the row that actually carries a referrer
+or UTM values — the session's entry `page_view`. Later events in the same visit
+leave it `NULL` rather than claiming to be `direct`, so read acquisition by
+joining back to the entry row, never by filtering clicks on it.
 
 ## Running the report
 

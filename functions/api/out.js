@@ -1322,6 +1322,16 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
   const pageType = classifyPageType(path);
   const normalizedCtaLocation = normalizeCtaLocation(ctaLocation);
   const destinationCategory = destinationHost ? classifyDestination(destinationHost) : "unknown";
+  // Affiliate status is read from where the redirect actually went, not from the
+  // provider's lane. The Impact API tracking path is not host-restricted, so a
+  // response resolving to a direct provider URL would otherwise be counted in
+  // the affiliate share while `destination_category` correctly said
+  // provider_direct. A blocked click has no destination, so it falls back to the
+  // lane the visitor was trying to use. Redirect behaviour is unchanged — this
+  // only decides what the row records.
+  const isAffiliate = destinationCategory === "unknown"
+    ? (isAffiliateProvider(link.provider) ? 1 : 0)
+    : (destinationCategory === "affiliate_network" ? 1 : 0);
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;
   const metadata = JSON.stringify({
     provider: link.provider,
@@ -1361,7 +1371,7 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     event_venue: link.eventVenue || null,
     cta_location: normalizedCtaLocation,
     destination_category: destinationCategory,
-    is_affiliate: isAffiliateProvider(link.provider) ? 1 : 0,
+    is_affiliate: isAffiliate,
     device_category: classifyDeviceCategory(userAgent),
     acquisition_source: null,
     utm_source: null,

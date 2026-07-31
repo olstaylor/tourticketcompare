@@ -3693,8 +3693,16 @@ async function render() {
   // Artist-city and artist-tour routes are server-rendered, so the client
   // router reports them as "server-rendered" and carries no artist record.
   // Read the slug from the path so those surfaces still attribute to an artist.
+  // Resolve the slug against the catalogue rather than trusting the path. An
+  // unknown /artists/<slug> is a 404 and a bad tour segment is a 404 under a
+  // real artist; copying either into artist_slug would invent a slug on one and
+  // credit a page nobody could read on the other.
   const pathArtistSlug = /^\/artists\/([^/]+)(?:\/|$)/.exec(window.location.pathname)?.[1] || "";
-  const artistSlug = current.artist?.slug || (pageType === "artist" || pageType === "artist_city" || pageType === "artist_tour" ? pathArtistSlug : "");
+  const resolvedPathArtist =
+    current.type !== "not-found" && pathArtistSlug ? findArtist(pathArtistSlug)?.slug || "" : "";
+  const artistSlug =
+    current.artist?.slug ||
+    (pageType === "artist" || pageType === "artist_city" || pageType === "artist_tour" ? resolvedPathArtist : "");
 
   sendAnalytics("page_view", {
     routeType: current.type,
@@ -3726,6 +3734,7 @@ let funnelImpressionObserver = null;
 let funnelImpressionTimers = new Map();
 let seenEventViews = new Set();
 let providerCtaViewReported = false;
+let observedCtas = [];
 // Impression state is keyed to the page, not to a render pass. Artist boards
 // are server-rendered and then replaced by the hydrated version, so the scan
 // runs more than once per page; resetting per render would let one card report
@@ -3753,6 +3762,10 @@ function scheduleFunnelImpressionScan() {
 function reportProviderCtaView(ctaElement) {
   if (providerCtaViewReported) return;
   providerCtaViewReported = true;
+  // One impression per page view is all this event records, so stop watching
+  // the rest as soon as any CTA has been seen.
+  observedCtas.forEach((cta) => funnelImpressionObserver?.unobserve(cta));
+  observedCtas = [];
   // One row per page view, listing which providers the visitor could actually
   // see. That is the honest denominator for provider click-through: a page
   // whose CTAs were never scrolled into view did not fail to convert.
@@ -3787,6 +3800,7 @@ function observeFunnelImpressions() {
     funnelImpressionPath = window.location.pathname;
     seenEventViews = new Set();
     providerCtaViewReported = false;
+    observedCtas = [];
   }
 
   funnelImpressionObserver = new window.IntersectionObserver((entries) => {
@@ -3818,8 +3832,14 @@ function observeFunnelImpressions() {
     .slice(0, EVENT_VIEW_CAP);
   cards.forEach((card) => funnelImpressionObserver.observe(card));
   if (!providerCtaViewReported) {
-    const firstCta = document.querySelector("a[data-cta-provider]");
-    if (firstCta) funnelImpressionObserver.observe(firstCta);
+    // Every CTA is observed, not just the first in document order. A deep link
+    // to #show-<id>, or a restored scroll position, opens the page part-way
+    // down the board where a later CTA is on screen while the first is not —
+    // watching only the first would miss a real impression and understate the
+    // denominator this event exists to provide. The first one to satisfy the
+    // dwell threshold reports and cancels the others.
+    observedCtas = Array.from(document.querySelectorAll("a[data-cta-provider]"));
+    observedCtas.forEach((cta) => funnelImpressionObserver.observe(cta));
   }
 
   if (!funnelMutationObserver && typeof window.MutationObserver === "function") {

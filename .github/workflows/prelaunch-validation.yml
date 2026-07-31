@@ -34,6 +34,12 @@ jobs:
       - name: Run canonical prelaunch validation
         run: npm run test:mvp
 
+      # Fails only on structural change — routes that still render changing
+      # indexability — and annotates (never fails) a large total swing caused by
+      # ordinary event expiry. See docs/ROUTE_INDEXABILITY_POLICY.md § Monitoring.
+      - name: Audit the indexable surface against its baseline
+        run: npm run audit:indexable-surface:check
+
       - name: Check JavaScript syntax
         run: node --check public/app.js 'functions/[[path]].js' functions/api/out.js
 

@@ -62,6 +62,14 @@ npm run validate:internal-links               # read-only in-process crawl of ev
                                               #   titles/descriptions, broken legacy guide redirects,
                                               #   and sitemap/indexability mismatches (in test:mvp)
 npm run audit:internal-links                  # full internal-link & indexability report to reports/internal-links/
+npm run audit:indexable-surface:check         # route-usefulness policy guard (in test:mvp) — fails on
+                                              #   structural indexability change, orphaned indexable
+                                              #   routes, indexable routes with no future events, and
+                                              #   duplicate titles; ordinary event expiry is reported,
+                                              #   never failed. See docs/ROUTE_INDEXABILITY_POLICY.md
+npm run audit:indexable-surface               # full surface report to reports/indexable-surface/
+npm run audit:indexable-surface:baseline      # re-anchor the baseline (only for an intended policy change)
+npm run test:route-indexability               # gate units, city/venue derivations, redirect-map safety
 ```
 
 ### Tooling self-tests (before changing the matching/snapshot scripts)

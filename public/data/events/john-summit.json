@@ -1386,13 +1386,21 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7982968",
+        "url": "https://www.ticketliquidator.com/tickets/7982968/John-Summit-tickets-Fri-Dec-4-2026-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5CHDJie",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982968",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141"
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982968/John-Summit-tickets-Fri-Dec-4-2026-Oakland-Arena"
   },
   {
     "id": "tm-john-summit-2026-oakland-g5vyz_5925f5n",
@@ -1455,12 +1463,20 @@
         "verified": true,
         "last_verified_at": "2026-07-30",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8005513",
+        "url": "https://www.ticketliquidator.com/tickets/8005513/John-Summit-tickets-Sat-Dec-5-2026-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-07-31",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_5925f5N",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005513",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083"
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8005513/John-Summit-tickets-Sat-Dec-5-2026-Oakland-Arena"
   }
 ]

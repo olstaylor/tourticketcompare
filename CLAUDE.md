@@ -68,6 +68,12 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
                           show; empty boards self-heal to noindex (mirrors _cities/_venues)
   _impact-marketplace-config.js  Shared config for the TicketNetwork / Ticket Liquidator /
                           StubHub International lanes
+  _funnel.js              Shared, pure funnel classifiers (page type, device category,
+                          affiliate/destination category, CTA location allowlist,
+                          acquisition source, duplicate guard, click id). No I/O, no secrets.
+  _analytics-write.js     Schema-tolerant analytics_events writer shared by /api/analytics,
+                          /api/out and /api/signup (falls back a column tier at a time)
+  _bot-detection.js       Shared crawler classifier for first-party analytics writes
   [named-shims].js        artists.js, guides.js, etc. Re-export from [[path]].js;
                           inactive while _middleware.js exists (kept as documented fallback)
   sitemap.xml.js, llms.txt.js  Generated sitemap and /llms.txt
@@ -76,7 +82,8 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
                           affiliates Impact-wrapped). Contains VERIFIED_TICKET_LINKS. Protected.
     health.js             Runtime config status (no secrets exposed)
     shows.js              Event metadata by artistSlug
-    analytics.js          D1-backed event analytics
+    analytics.js          D1-backed event analytics (write-only beacon endpoint; the
+                          commercial funnel contract lives in docs/COMMERCIAL_FUNNEL.md)
     signup.js             Email/interest demand capture to D1 (incl. intent=price_alert;
                           nothing is ever emailed — demand signal only)
     price-history.js      Read-only per-event listed-price snapshot history; applies the
@@ -125,6 +132,7 @@ Non-secret configuration (feature flags such as `SCHEMA_OFFERS_ENABLED`, and oth
 - `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` — network-level Impact fallback (server-side only).
 - `IMPACT_SEATGEEK_*` / `IMPACT_VIVIDSEATS_*` — provider-specific Impact credentials for their approved lanes.
 - `IMPACT_TICKETNETWORK_*`, `IMPACT_TICKETLIQUIDATOR_*`, `IMPACT_STUBHUB_INTERNATIONAL_*` — optional provider-specific overrides; any approved fallback and campaign/catalog IDs are server-side configuration.
+- `OUT_CLICK_ID_SUBID_ENABLED` / `OUT_CLICK_ID_SUBID_PARAM` — repo-managed `[vars]`, **default off**. When enabled, `/api/out` appends its per-click id to the pxf.io tracking URL as an Impact SubId so clicks reconcile one-to-one with affiliate reporting. Off means affiliate URLs are unchanged. See `docs/COMMERCIAL_FUNNEL.md`.
 - Provider `*_PUBLIC_ENABLED` and `*_PRICE_DISPLAY_ENABLED` flags — independent kill switches. A flag never substitutes for provider rights, exact-event provenance, approved source, URL validation, or freshness.
 - Confirm current activation through `/api/health`, fail-closed redirect tests, workflow YAML, and `PROJECT_STATUS.md`; do not infer it from secret names in the repository.
 
@@ -166,6 +174,8 @@ python3 scripts/validate-events.py --for-production
 node scripts/validate-guide-routes.mjs            # if guides/routes touched
 npm run schema:validate                           # if routes/schema/MusicEvent offers touched
 npm run status:validate                           # recount PROJECT_STATUS.md figures from source
+npm run test:funnel-analytics                     # if analytics/out/CTA measurement touched
+npm run report:commercial-funnel:self-test        # if the funnel report touched
 npm run artist:check -- <slug>                    # if a specific artist touched
 npm run audit:indexable-surface                   # if any route/indexability logic touched
 npm run impact-providers:sync:self-test            # shared Impact catalog matcher
@@ -211,6 +221,6 @@ Note the named-shim trap: editing `functions/artists.js` etc. has **no effect** 
 
 Read in order: **`CLAUDE.md`** (this file) → **`PROJECT_STATUS.md`** → **`BACKLOG.md`**.
 
-Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ROUTE_INDEXABILITY_POLICY.md](docs/ROUTE_INDEXABILITY_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) · [docs/PROVIDER_SYNC.md](docs/PROVIDER_SYNC.md) · [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)
+Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ROUTE_INDEXABILITY_POLICY.md](docs/ROUTE_INDEXABILITY_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) · [docs/PROVIDER_SYNC.md](docs/PROVIDER_SYNC.md) · [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md) · [docs/COMMERCIAL_FUNNEL.md](docs/COMMERCIAL_FUNNEL.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)
 
 `AGENTS.md` is the concise repository-discovery entrypoint. Do not add parallel handover, archive, status, or governance documents; update the canonical file and use git history for superseded material.

@@ -1,3 +1,6 @@
+import { insertAnalyticsRow } from "../_analytics-write.js";
+import { classifyDeviceCategory, classifyPageType, normalizeAnalyticsPath } from "../_funnel.js";
+
 const MAX_BODY_SIZE = 8 * 1024;
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX = 5;
@@ -96,24 +99,42 @@ async function insertAnalytics(db, eventName, row, metadata = null) {
         metadataJson = "{}";
       }
     }
-    await db
-      .prepare(
-        `INSERT INTO analytics_events (
-          created_at, event_name, source_path, artist_slug, email, request_key, referrer, user_agent, metadata_json
-        ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)`
-      )
-      .bind(
-        row.createdAt,
-        eventName,
-        row.sourcePath || null,
-        row.artistSlug || null,
-        row.email || null,
-        row.requestKey || null,
-        row.referrer || null,
-        row.userAgent || null,
-        metadataJson
-      )
-      .run();
+    const sourcePath = normalizeAnalyticsPath(row.sourcePath || "/");
+    const pageType = classifyPageType(sourcePath);
+    await insertAnalyticsRow(db, {
+      created_at: row.createdAt,
+      event_name: eventName,
+      source_path: sourcePath,
+      artist_slug: row.artistSlug || null,
+      // The subscriber's own address on their own consented signup. It is the
+      // one place an address is written to analytics_events, it predates the
+      // commercial funnel, and the funnel report never selects this column —
+      // see docs/COMMERCIAL_FUNNEL.md.
+      email: row.email || null,
+      request_key: row.requestKey || null,
+      referrer: row.referrer || null,
+      user_agent: row.userAgent || null,
+      metadata_json: metadataJson,
+      provider: null,
+      tour_slug: null,
+      destination_host: null,
+      link_id: null,
+      page_type: pageType,
+      landing_path: null,
+      event_id: null,
+      event_date: null,
+      event_city: null,
+      event_venue: null,
+      cta_location: null,
+      destination_category: null,
+      is_affiliate: null,
+      device_category: classifyDeviceCategory(row.userAgent),
+      acquisition_source: null,
+      utm_source: null,
+      utm_medium: null,
+      utm_campaign: null,
+      click_id: null
+    });
   } catch (error) {
     // Signup should not fail because a secondary analytics insert failed.
   }

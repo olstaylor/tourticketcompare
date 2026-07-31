@@ -18,7 +18,11 @@
       content="Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider."
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
-    <meta name="referrer" content="no-referrer" />
+    <!-- same-origin: cross-origin requests still send no referrer, so no
+         provider, analytics vendor or affiliate network learns which page a
+         visitor came from. Our own /api/out redirect does receive one, which is
+         how a CTA click is attributed to the page it happened on. -->
+    <meta name="referrer" content="same-origin" />
     <meta name="theme-color" content="#0f1412" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="TourTicketCompare" />
@@ -629,6 +633,6 @@
     </script>
     <script src="/impact-publisher-tag.js?v=20260714a" defer></script>
     <script src="/web-vitals.js?v=20260722a" defer></script>
-    <script src="/app.js?v=20260730a" defer></script>
+    <script src="/app.js?v=20260731a" defer></script>
   </body>
 </html>

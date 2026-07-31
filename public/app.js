@@ -305,6 +305,20 @@ function outboundCtaRel(href) {
   return provider === "ticketmaster" ? "noopener nofollow" : "noopener nofollow sponsored";
 }
 
+// Records which CTA component produced an outbound click, on the one URL the
+// server actually sees. Appended to the tracked redirect only — never to a
+// provider or affiliate URL, which /api/out resolves separately from stored
+// event data. /api/out validates the value against a fixed list.
+// Keep in sync with withCtaLocation in functions/[[path]].js.
+function withCtaLocation(href, ctaLocation) {
+  // Returns the argument untouched when it is not a tracked redirect, so a
+  // suppressed CTA (href null) stays suppressed rather than becoming "".
+  if (typeof href !== "string" || !href.startsWith("/api/out?")) return href;
+  const location = String(ctaLocation || "").trim();
+  if (!location || /[?&]ctaLocation=/.test(href)) return href;
+  return `${href}&ctaLocation=${encodeURIComponent(location)}`;
+}
+
 function link(label, href, className) {
   const element = document.createElement("a");
   element.href = href;
@@ -365,36 +379,148 @@ function createList(items, className) {
   return list;
 }
 
-// Acquisition context for this document load. The Referer header on a beacon
-// POST is always our own page, so the external source has to come from the
-// client. Only the origin is kept (never the full referring URL or query), and
-// only third-party origins count — same-site navigation is not acquisition.
-const ACQUISITION = (() => {
-  let referrer = "";
+// ── Commercial funnel instrumentation ──────────────────────────────────────
+// One beacon contract, shared by every client-side funnel step. The server
+// derives page type, device category and acquisition channel from what is sent
+// here; see functions/_funnel.js and docs/COMMERCIAL_FUNNEL.md.
+//
+// Nothing in this block reads or sends a name, an email address, or a full URL.
+// Only same-tab sessionStorage is used — no cookie is set, and nothing is
+// written that survives the tab closing.
+
+// Page type for the GA4 mirror. The first-party row is labelled server-side
+// from the request path; this is the same rule expressed client-side so the two
+// agree. Keep in sync with classifyPageType in functions/_funnel.js
+// (scripts/funnel-analytics.test.mjs asserts the two never diverge).
+const TRUST_PAGE_PATHS = ["/how-it-works", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure", "/privacy", "/terms"];
+
+function clientPageType(pathname) {
+  let path = String(pathname || "/").split("?")[0].split("#")[0];
+  if (path !== "/") path = path.replace(/\/+$/, "") || "/";
+  if (path === "/") return "home";
+  if (TRUST_PAGE_PATHS.indexOf(path) !== -1) return "trust";
+  if (path === "/compare-concert-ticket-prices") return "compare_hub";
+  if (path === "/currency-converter") return "currency_converter";
+  const parts = path.split("/").filter(Boolean);
+  if (parts[0] === "artists") {
+    if (parts.length === 1) return "artists_index";
+    if (parts.length === 2) return "artist";
+    if (parts.length === 4 && parts[2] === "tickets") return "artist_city";
+    if (parts.length === 3) return "artist_tour";
+    return "other";
+  }
+  if (parts[0] === "cities") return parts.length === 1 ? "cities_index" : parts.length === 2 ? "city" : "other";
+  if (parts[0] === "venues") return parts.length === 1 ? "venues_index" : parts.length === 2 ? "venue" : "other";
+  if (parts[0] === "guides") return parts.length === 1 ? "guides_index" : parts.length === 2 ? "guide" : "other";
+  return "other";
+}
+
+// Session-scoped acquisition context. document.referrer only describes the
+// document that is loading, so a visit spanning several server-rendered pages
+// used to report acquisition once per hard navigation — counting one visit as
+// several. Storing it for the tab means the landing page and the traffic source
+// are recorded once, and every later event can be attributed back to them.
+const FUNNEL_SESSION_STORAGE_KEY = "ttc:funnel-session";
+
+const FUNNEL_SESSION = (() => {
+  const capture = () => {
+    let referrer = "";
+    try {
+      const raw = document.referrer || "";
+      if (raw) {
+        const url = new URL(raw);
+        // Only the origin is kept, never the full referring URL or its query,
+        // and only third-party origins count — same-site navigation is not
+        // acquisition.
+        if (url.hostname && url.hostname !== window.location.hostname) referrer = url.origin;
+      }
+    } catch (error) {}
+    let params = null;
+    try {
+      params = new URLSearchParams(window.location.search || "");
+    } catch (error) {}
+    const pick = (key) => String((params && params.get(key)) || "").trim().slice(0, 80);
+    return {
+      landingPath: window.location.pathname,
+      referrer,
+      utmSource: pick("utm_source"),
+      utmMedium: pick("utm_medium"),
+      utmCampaign: pick("utm_campaign")
+    };
+  };
+
+  let store = null;
   try {
-    const raw = document.referrer || "";
-    if (raw) {
-      const url = new URL(raw);
-      if (url.hostname && url.hostname !== window.location.hostname) referrer = url.origin;
+    store = window.sessionStorage;
+  } catch (error) {}
+  if (!store) return { ...capture(), isNewSession: true };
+
+  try {
+    const stored = JSON.parse(store.getItem(FUNNEL_SESSION_STORAGE_KEY) || "null");
+    if (stored && typeof stored === "object" && typeof stored.landingPath === "string") {
+      return { ...stored, isNewSession: false };
     }
   } catch (error) {}
-  let params = null;
+
+  const fresh = capture();
   try {
-    params = new URLSearchParams(window.location.search || "");
+    store.setItem(FUNNEL_SESSION_STORAGE_KEY, JSON.stringify(fresh));
   } catch (error) {}
-  const pick = (key) => String(params?.get(key) || "").trim().slice(0, 80);
-  return {
-    referrer,
-    utmSource: pick("utm_source"),
-    utmMedium: pick("utm_medium"),
-    utmCampaign: pick("utm_campaign")
+  return { ...fresh, isNewSession: true };
+})();
+
+// Acquisition is attached to the first page_view of the session only. A
+// returning document load inside the same tab reuses the stored context without
+// re-reporting it, so one visit can never be counted as several.
+let acquisitionReported = !FUNNEL_SESSION.isNewSession;
+
+// Suppresses a second beacon for the same interaction inside the window: a
+// double-click, a bubbling re-dispatch, or a CTA nested inside another tracked
+// element. Client-side counts must never inflate the funnel. Keep in sync with
+// createDuplicateGuard in functions/_funnel.js.
+const FUNNEL_DUPLICATE_WINDOW_MS = 1500;
+
+const isDuplicateFunnelEvent = (() => {
+  const seen = new Map();
+  const maxKeys = 200;
+  return (key, now) => {
+    const stamp = Number(now);
+    if (!key || !Number.isFinite(stamp)) return false;
+    const previous = seen.get(key);
+    if (previous !== undefined && stamp - previous < FUNNEL_DUPLICATE_WINDOW_MS) return true;
+    seen.set(key, stamp);
+    if (seen.size > maxKeys) {
+      const excess = seen.size - maxKeys;
+      let removed = 0;
+      for (const existing of seen.keys()) {
+        seen.delete(existing);
+        removed += 1;
+        if (removed >= excess) break;
+      }
+    }
+    return false;
   };
 })();
 
-// document.referrer does not change across SPA route changes, so only the first
-// page_view of a document load is treated as the session entry. Reporting it on
-// every in-session navigation would multiply one visit into several.
-let acquisitionReported = false;
+// GA4 mirror. The first-party D1 row stays authoritative — GA4 cannot see the
+// server-side outbound redirect at all, and its page_view is emitted by the
+// gtag config snippet, so mirroring either here would double-count. Parameters
+// are deliberately low-cardinality labels: no event id, no city or venue, no
+// path, no referrer, nothing that identifies a person.
+const GA4_MIRRORED_EVENTS = ["artist_view", "provider_cta_view", "provider_click", "email_signup"];
+
+function mirrorToGa4(eventName, payload, metadata) {
+  if (GA4_MIRRORED_EVENTS.indexOf(eventName) === -1) return;
+  if (typeof window.gtag !== "function") return;
+  try {
+    const params = { page_type: clientPageType(window.location.pathname) };
+    if (payload.artistSlug) params.artist_slug = payload.artistSlug;
+    if (payload.provider) params.provider = payload.provider;
+    if (metadata.ctaLocation) params.cta_location = metadata.ctaLocation;
+    if (typeof metadata.isAffiliate === "boolean") params.is_affiliate = metadata.isAffiliate;
+    window.gtag("event", eventName, params);
+  } catch (error) {}
+}
 
 function sendAnalytics(eventName, metadata = {}) {
   if (!navigator.sendBeacon) return;
@@ -403,22 +529,25 @@ function sendAnalytics(eventName, metadata = {}) {
     const payload = {
       eventName,
       sourcePath: window.location.pathname,
+      landingPath: FUNNEL_SESSION.landingPath || window.location.pathname,
       artistSlug: metadata.artistSlug || "",
       provider: metadata.provider || "",
       tourSlug: metadata.tourSlug || "",
       destinationHost: metadata.destinationHost || "",
       linkId: metadata.linkId || "",
+      eventId: metadata.eventId || metadata.showId || "",
       metadata: enriched
     };
     if (eventName === "page_view" && !acquisitionReported) {
       acquisitionReported = true;
       enriched.entry = true;
-      if (ACQUISITION.referrer) payload.referrer = ACQUISITION.referrer;
-      if (ACQUISITION.utmSource) enriched.utmSource = ACQUISITION.utmSource;
-      if (ACQUISITION.utmMedium) enriched.utmMedium = ACQUISITION.utmMedium;
-      if (ACQUISITION.utmCampaign) enriched.utmCampaign = ACQUISITION.utmCampaign;
+      if (FUNNEL_SESSION.referrer) payload.referrer = FUNNEL_SESSION.referrer;
+      if (FUNNEL_SESSION.utmSource) enriched.utmSource = FUNNEL_SESSION.utmSource;
+      if (FUNNEL_SESSION.utmMedium) enriched.utmMedium = FUNNEL_SESSION.utmMedium;
+      if (FUNNEL_SESSION.utmCampaign) enriched.utmCampaign = FUNNEL_SESSION.utmCampaign;
     }
     navigator.sendBeacon("/api/analytics", JSON.stringify(payload));
+    mirrorToGa4(eventName, payload, enriched);
   } catch (error) {}
 }
 
@@ -758,7 +887,7 @@ function renderProviderButtons(artist, surface) {
     card.className = "provider-card";
     text(card, "p", "Artist-level provider page", "eyebrow");
     text(card, "h3", copy.name);
-    const cta = buttonLink(copy.label, artistProviderHref(artist, item, surface), "primary");
+    const cta = buttonLink(copy.label, withCtaLocation(artistProviderHref(artist, item, surface), "artist_provider_panel"), "primary");
     // The delegated provider_click listener reads these dimensions; no
     // per-button listener needed.
     cta.dataset.ctaProvider = providerSlug;
@@ -1739,17 +1868,19 @@ function hasApprovedMarketplacePrice(show) {
 // sync with renderProviderCtaButtonHtml in functions/[[path]].js.
 function renderProviderCtaButton(name, href, amount, analytics = {}) {
   const cta = document.createElement("a");
+  const ctaLocation = analytics.ctaLocation || "event_card";
+  const trackedHref = withCtaLocation(href, ctaLocation);
   cta.className = `provider-cta${amount ? " provider-cta-priced" : ""}`;
-  cta.href = href;
+  cta.href = trackedHref;
   cta.target = "_blank";
-  cta.rel = outboundCtaRel(href) || "noopener";
+  cta.rel = outboundCtaRel(trackedHref) || "noopener";
   // Analytics dimensions for the delegated provider_click listener: artist,
   // event, provider, snapshot present/absent, and CTA location.
   cta.dataset.ctaProvider = analytics.provider || slugify(name);
   cta.dataset.ctaArtist = analytics.artistSlug || "";
   cta.dataset.ctaShowId = analytics.showId || "";
   cta.dataset.ctaPriceSnapshot = amount ? "present" : "absent";
-  cta.dataset.ctaLocation = analytics.ctaLocation || "event_card";
+  cta.dataset.ctaLocation = ctaLocation;
   text(cta, "span", name, "provider-cta-name");
   text(cta, "span", amount || "Check prices", `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
   return cta;
@@ -1929,6 +2060,9 @@ function renderShowCard(show, options = {}) {
   article.className = "info-card show-card";
   const anchorId = showAnchorId(show);
   if (anchorId) article.id = anchorId;
+  // Stable event id for the event_view observer. Keep in sync with
+  // renderShowCardServerHtml in functions/[[path]].js.
+  if (show?.id) article.dataset.eventId = String(show.id);
 
   const dateBadge = renderShowDateBadge(show);
   if (dateBadge) article.append(dateBadge);
@@ -2219,7 +2353,7 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     });
     // Secondary: on an empty board the signup is the primary action, and the
     // artist-level provider page is a "check for yourself" fallback.
-    const providerCta = buttonLink(`Check ${providerName} for updates`, `/api/out?${params.toString()}`, "secondary");
+    const providerCta = buttonLink(`Check ${providerName} for updates`, withCtaLocation(`/api/out?${params.toString()}`, "empty_state"), "secondary");
     providerCta.dataset.ctaProvider = providerSlug;
     providerCta.dataset.ctaArtist = artistSlug;
     providerCta.dataset.ctaPriceSnapshot = "absent";
@@ -3722,11 +3856,166 @@ async function render() {
   }
   else renderNotFound();
 
+  const pageType = clientPageType(window.location.pathname);
+  // Artist-city and artist-tour routes are server-rendered, so the client
+  // router reports them as "server-rendered" and carries no artist record.
+  // Read the slug from the path so those surfaces still attribute to an artist.
+  // Resolve the slug against the catalogue rather than trusting the path. An
+  // unknown /artists/<slug> is a 404 and a bad tour segment is a 404 under a
+  // real artist; copying either into artist_slug would invent a slug on one and
+  // credit a page nobody could read on the other.
+  const pathArtistSlug = /^\/artists\/([^/]+)(?:\/|$)/.exec(window.location.pathname)?.[1] || "";
+  const resolvedPathArtist =
+    current.type !== "not-found" && pathArtistSlug ? findArtist(pathArtistSlug)?.slug || "" : "";
+  const artistSlug =
+    current.artist?.slug ||
+    (pageType === "artist" || pageType === "artist_city" || pageType === "artist_tour" ? resolvedPathArtist : "");
+
   sendAnalytics("page_view", {
     routeType: current.type,
-    artistSlug: current.artist?.slug || "",
+    pageType,
+    artistSlug,
     guideSlug: current.guide?.slug || ""
   });
+
+  // Funnel step 2: the visitor is looking at a specific artist. Emitted
+  // alongside page_view rather than instead of it so the page-level count stays
+  // comparable with historical rows.
+  if (artistSlug) {
+    sendAnalytics("artist_view", { routeType: current.type, pageType, artistSlug });
+  }
+
+  observeFunnelImpressions();
+}
+
+// ── Impression instrumentation ─────────────────────────────────────────────
+// Views are counted only when the element is actually on screen and stays
+// there, so a scroll past the top of a long board is not recorded as a view.
+// Both observers are capped and deduplicated per render: they are a denominator
+// for click-through, and an inflated denominator is worse than none.
+const EVENT_VIEW_CAP = 20;
+const IMPRESSION_DWELL_MS = 1000;
+const IMPRESSION_VISIBLE_RATIO = 0.5;
+
+let funnelImpressionObserver = null;
+let funnelImpressionTimers = new Map();
+let seenEventViews = new Set();
+let providerCtaViewReported = false;
+let observedCtas = [];
+// Impression state is keyed to the page, not to a render pass. Artist boards
+// are server-rendered and then replaced by the hydrated version, so the scan
+// runs more than once per page; resetting per render would let one card report
+// twice.
+let funnelImpressionPath = "";
+let funnelImpressionScanTimer = null;
+let funnelMutationObserver = null;
+
+function clearFunnelImpressionTimers() {
+  funnelImpressionTimers.forEach((timer) => window.clearTimeout(timer));
+  funnelImpressionTimers = new Map();
+}
+
+// Re-scan after DOM changes settle. Hydration swaps the show board in after the
+// route render returns, so a single scan at render time would observe elements
+// that are about to be discarded.
+function scheduleFunnelImpressionScan() {
+  if (funnelImpressionScanTimer) window.clearTimeout(funnelImpressionScanTimer);
+  funnelImpressionScanTimer = window.setTimeout(() => {
+    funnelImpressionScanTimer = null;
+    observeFunnelImpressions();
+  }, 250);
+}
+
+function reportProviderCtaView(ctaElement) {
+  if (providerCtaViewReported) return;
+  providerCtaViewReported = true;
+  // One impression per page view is all this event records, so stop watching
+  // the rest as soon as any CTA has been seen.
+  observedCtas.forEach((cta) => funnelImpressionObserver?.unobserve(cta));
+  observedCtas = [];
+  // One row per page view, listing which providers the visitor could actually
+  // see. That is the honest denominator for provider click-through: a page
+  // whose CTAs were never scrolled into view did not fail to convert.
+  const ctas = Array.from(document.querySelectorAll("a[data-cta-provider]"));
+  const providers = Array.from(new Set(ctas.map((cta) => String(cta.dataset.ctaProvider || "").trim()).filter(Boolean))).sort();
+  sendAnalytics("provider_cta_view", {
+    artistSlug: String(ctaElement?.dataset?.ctaArtist || "").trim(),
+    ctaLocation: String(ctaElement?.dataset?.ctaLocation || "").trim(),
+    ctaProviders: providers.join(","),
+    ctaCount: ctas.length
+  });
+}
+
+function reportEventView(card) {
+  const eventId = String(card?.dataset?.eventId || "").trim();
+  if (!eventId || seenEventViews.has(eventId)) return;
+  if (seenEventViews.size >= EVENT_VIEW_CAP) return;
+  seenEventViews.add(eventId);
+  const cta = card.querySelector("a[data-cta-provider]");
+  sendAnalytics("event_view", {
+    eventId,
+    artistSlug: String(cta?.dataset?.ctaArtist || "").trim(),
+    pageType: clientPageType(window.location.pathname)
+  });
+}
+
+function observeFunnelImpressions() {
+  if (typeof window.IntersectionObserver !== "function") return;
+  if (funnelImpressionObserver) funnelImpressionObserver.disconnect();
+  clearFunnelImpressionTimers();
+  if (funnelImpressionPath !== window.location.pathname) {
+    funnelImpressionPath = window.location.pathname;
+    seenEventViews = new Set();
+    providerCtaViewReported = false;
+    observedCtas = [];
+  }
+
+  funnelImpressionObserver = new window.IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      const element = entry.target;
+      if (!entry.isIntersecting || entry.intersectionRatio < IMPRESSION_VISIBLE_RATIO) {
+        const pending = funnelImpressionTimers.get(element);
+        if (pending) {
+          window.clearTimeout(pending);
+          funnelImpressionTimers.delete(element);
+        }
+        return;
+      }
+      if (funnelImpressionTimers.has(element)) return;
+      funnelImpressionTimers.set(
+        element,
+        window.setTimeout(() => {
+          funnelImpressionTimers.delete(element);
+          if (element.matches("a[data-cta-provider]")) reportProviderCtaView(element);
+          else reportEventView(element);
+          funnelImpressionObserver?.unobserve(element);
+        }, IMPRESSION_DWELL_MS)
+      );
+    });
+  }, { threshold: [IMPRESSION_VISIBLE_RATIO] });
+
+  const cards = Array.from(document.querySelectorAll("[data-event-id]"))
+    .filter((card) => !seenEventViews.has(String(card.dataset.eventId || "")))
+    .slice(0, EVENT_VIEW_CAP);
+  cards.forEach((card) => funnelImpressionObserver.observe(card));
+  if (!providerCtaViewReported) {
+    // Every CTA is observed, not just the first in document order. A deep link
+    // to #show-<id>, or a restored scroll position, opens the page part-way
+    // down the board where a later CTA is on screen while the first is not —
+    // watching only the first would miss a real impression and understate the
+    // denominator this event exists to provide. The first one to satisfy the
+    // dwell threshold reports and cancels the others.
+    observedCtas = Array.from(document.querySelectorAll("a[data-cta-provider]"));
+    observedCtas.forEach((cta) => funnelImpressionObserver.observe(cta));
+  }
+
+  if (!funnelMutationObserver && typeof window.MutationObserver === "function") {
+    const root = document.getElementById("mainContent") || document.body;
+    if (root) {
+      funnelMutationObserver = new window.MutationObserver(() => scheduleFunnelImpressionScan());
+      funnelMutationObserver.observe(root, { childList: true, subtree: true });
+    }
+  }
 }
 
 if (year) year.textContent = String(new Date().getFullYear());
@@ -3782,18 +4071,28 @@ document.addEventListener("click", async (event) => {
 // Delegated provider-CTA click analytics. Covers server-rendered and hydrated
 // CTAs alike via the data-cta-* attributes: artist, event, provider, snapshot
 // present/absent, and CTA location. Never blocks or rewrites the navigation.
+const AFFILIATE_CTA_PROVIDERS = ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"];
+
 document.addEventListener("click", (event) => {
   const cta = event.target?.closest?.("a[data-cta-provider]");
   if (!cta) return;
   const provider = String(cta.dataset.ctaProvider || "").trim();
   if (!provider) return;
   const showId = String(cta.dataset.ctaShowId || "").trim();
+  const ctaLocation = String(cta.dataset.ctaLocation || "").trim();
+  // A double-click, or a click that bubbles through a nested tracked element,
+  // is one intent and must produce one row. The authoritative count comes from
+  // /api/out either way, but an inflated provider_click would distort the
+  // CTA-click-to-redirect completion rate.
+  if (isDuplicateFunnelEvent(`provider_click:${provider}:${showId}:${ctaLocation}`, Date.now())) return;
   sendAnalytics("provider_click", {
     provider,
     artistSlug: String(cta.dataset.ctaArtist || "").trim(),
     showId,
+    eventId: showId,
     priceSnapshot: cta.dataset.ctaPriceSnapshot === "present" ? "present" : "absent",
-    ctaLocation: String(cta.dataset.ctaLocation || "").trim(),
+    ctaLocation,
+    isAffiliate: AFFILIATE_CTA_PROVIDERS.indexOf(provider) !== -1,
     linkId: showId ? `${showId}:${provider}` : String(cta.dataset.ctaLinkId || "").trim()
   });
 });
@@ -3833,6 +4132,10 @@ document.addEventListener("submit", async (event) => {
     if (response.ok) {
       setStatus("Done — we'll email you when we've got confirmed dates up.");
       if (emailInput) emailInput.value = "";
+      // GA4 mirror only. /api/signup has already written the authoritative
+      // first-party email_signup row; a beacon here would double-count it. The
+      // address itself is never included in either analytics path.
+      mirrorToGa4("email_signup", { artistSlug: String(form.dataset.watchlistSignup || "").trim() }, {});
     } else {
       setStatus("That didn't work — check the email address and try again.");
       delete form.dataset.signupSubmitting;

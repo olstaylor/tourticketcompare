@@ -125,6 +125,28 @@ function venueLocalDate(iso, tz) {
   }
 }
 
+function eventNeedsCurrentReview(localEvent, remoteData = null, now = Date.now()) {
+  const localValue = clean(localEvent?.datetime_iso);
+  const localTimestamp = /^\d{4}-\d{2}-\d{2}$/.test(localValue)
+    ? Date.parse(`${localValue}T23:59:59Z`)
+    : Date.parse(localValue);
+  if (Number.isFinite(localTimestamp) && localTimestamp >= now) return true;
+
+  const remoteTimestamp = Date.parse(clean(remoteData?.dates?.start?.dateTime));
+  if (Number.isFinite(remoteTimestamp) && remoteTimestamp >= now) return true;
+
+  const remoteLocalDate = validDatePrefix(remoteData?.dates?.start?.localDate);
+  if (remoteLocalDate) {
+    const remoteDayEnd = Date.parse(`${remoteLocalDate}T23:59:59Z`);
+    if (Number.isFinite(remoteDayEnd) && remoteDayEnd >= now) return true;
+  }
+
+  // A malformed local date must never be hidden as "historical". Valid past
+  // dates with no future remote date are retained in the artefact but do not
+  // create current-action noise in the rolling issue.
+  return !Number.isFinite(localTimestamp);
+}
+
 // Collapse case / punctuation / whitespace so cosmetic venue-name differences
 // (e.g. "MERKUR SPIEL-ARENA" vs "Merkur Spiel Arena") are not reported as drift.
 function normalizeVenue(name) {
@@ -171,7 +193,16 @@ function runSelfTest() {
     ['date-only value stays venue-local', venueLocalDate('2026-06-19', 'America/Los_Angeles') === '2026-06-19'],
     ['offset-free wall time stays venue-local', venueLocalDate('2026-06-19T02:00:00', 'America/Los_Angeles') === '2026-06-19'],
     ['UTC instant converts to venue-local date', venueLocalDate('2026-06-19T02:00:00Z', 'America/Los_Angeles') === '2026-06-18'],
-    ['malformed local date is rejected', venueLocalDate('invalid', 'America/Los_Angeles') === null]
+    ['malformed local date is rejected', venueLocalDate('invalid', 'America/Los_Angeles') === null],
+    ['past local event is historical', eventNeedsCurrentReview({ datetime_iso: '2026-07-01T20:00:00Z' }, null, Date.parse('2026-07-30T12:00:00Z')) === false],
+    ['future local event is current', eventNeedsCurrentReview({ datetime_iso: '2026-08-01T20:00:00Z' }, null, Date.parse('2026-07-30T12:00:00Z')) === true],
+    ['date-only event stays current through its calendar day', eventNeedsCurrentReview({ datetime_iso: '2026-07-30' }, null, Date.parse('2026-07-30T12:00:00Z')) === true],
+    ['remote reschedule into the future stays current', eventNeedsCurrentReview(
+      { datetime_iso: '2026-07-01T20:00:00Z' },
+      { dates: { start: { dateTime: '2026-08-01T20:00:00Z' } } },
+      Date.parse('2026-07-30T12:00:00Z')
+    ) === true],
+    ['malformed local event stays current', eventNeedsCurrentReview({ datetime_iso: 'invalid' }, null, Date.parse('2026-07-30T12:00:00Z')) === true]
   ];
   let failed = 0;
   for (const [label, pass] of checks) {
@@ -200,6 +231,9 @@ async function main() {
   let totalErrors = 0;
   let totalChanged = 0;
   let totalUnresolvable = 0;
+  let totalCurrentFindings = 0;
+  let totalHistoricalFindings = 0;
+  const auditNow = Date.now();
 
   for (const slug of slugs) {
     const events = await loadArtistEvents(slug);
@@ -230,15 +264,31 @@ async function main() {
       totalChecked += 1;
       if (result.exists === false) {
         totalMissing += 1;
-        missing.push({ id: event.id, ticketmaster_event_id: clean(event.ticketmaster_event_id), discovery_event_id: id, city: event.city, datetime_iso: event.datetime_iso, status: result.status });
+        const actionable = eventNeedsCurrentReview(event, null, auditNow);
+        if (actionable) totalCurrentFindings += 1;
+        else totalHistoricalFindings += 1;
+        missing.push({ id: event.id, ticketmaster_event_id: clean(event.ticketmaster_event_id), discovery_event_id: id, city: event.city, datetime_iso: event.datetime_iso, status: result.status, actionable });
       } else if (result.exists === null) {
         totalErrors += 1;
-        errors.push({ id: event.id, ticketmaster_event_id: clean(event.ticketmaster_event_id), discovery_event_id: id, error: result.error, status: result.status });
+        const actionable = eventNeedsCurrentReview(event, null, auditNow);
+        if (actionable) totalCurrentFindings += 1;
+        else totalHistoricalFindings += 1;
+        errors.push({ id: event.id, ticketmaster_event_id: clean(event.ticketmaster_event_id), discovery_event_id: id, datetime_iso: event.datetime_iso, error: result.error, status: result.status, actionable });
       } else {
         const diffs = compareLocal(event, result);
         if (diffs.length) {
           totalChanged += 1;
-          changed.push({ id: event.id, ticketmaster_event_id: id, diffs });
+          const actionable = eventNeedsCurrentReview(event, result.data, auditNow);
+          if (actionable) totalCurrentFindings += 1;
+          else totalHistoricalFindings += 1;
+          changed.push({
+            id: event.id,
+            ticketmaster_event_id: id,
+            datetime_iso: event.datetime_iso,
+            remote_datetime_iso: clean(result.data?.dates?.start?.dateTime) || null,
+            actionable,
+            diffs
+          });
         }
       }
       if (requestDelayMs > 0) await sleep(requestDelayMs);
@@ -265,7 +315,9 @@ async function main() {
       missing: totalMissing,
       changed: totalChanged,
       errors: totalErrors,
-      unresolvable: totalUnresolvable
+      unresolvable: totalUnresolvable,
+      current_findings: totalCurrentFindings,
+      historical_findings: totalHistoricalFindings
     }
   };
 

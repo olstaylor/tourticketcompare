@@ -17,15 +17,20 @@ const ARTISTS_FIXTURE = [
   { slug: 'clean-artist', name: 'Clean', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'link-fail-artist', name: 'Link Fail', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'link-blocked-artist', name: 'Link Blocked', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
+  { slug: 'historical-link-artist', name: 'Historical Link', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'tm-missing-artist', name: 'TM Missing', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'tm-error-artist', name: 'TM Error', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'tm-changed-artist', name: 'TM Changed', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
+  { slug: 'historical-tm-artist', name: 'Historical TM', indexing_status: 'indexable_with_substantial_content', last_verified_at: '2026-05-01' },
   { slug: 'unindexed-artist', name: 'Unindexed', indexing_status: 'index_pending', last_verified_at: '2026-05-01' }
 ];
 
 const LINKS_FIXTURE = {
   checked: 7,
-  failures: [{ url: 'https://example.com/x', artistSlugs: ['link-fail-artist'] }],
+  failures: [
+    { url: 'https://example.com/x', artistSlugs: ['link-fail-artist'] },
+    { url: 'https://example.com/past', artistSlugs: ['historical-link-artist'], actionable: false, reviewScope: 'expired' }
+  ],
   blocked: [{ url: 'https://example.com/blocked', status: 403, artistSlugs: ['link-blocked-artist'] }],
   passes: [],
   redirects: []
@@ -39,7 +44,8 @@ const TM_FIXTURE = {
     { slug: 'link-blocked-artist', events_checked: 1, events_without_tm_id: 0, missing: [], errors: [], changed: [] },
     { slug: 'tm-missing-artist', events_checked: 1, events_without_tm_id: 0, missing: [{ id: 'e1', ticketmaster_event_id: 'TM1', status: 404 }], errors: [], changed: [] },
     { slug: 'tm-error-artist', events_checked: 1, events_without_tm_id: 0, missing: [], errors: [{ id: 'e2', ticketmaster_event_id: 'TM2', error: 'timeout' }], changed: [] },
-    { slug: 'tm-changed-artist', events_checked: 1, events_without_tm_id: 0, missing: [], errors: [], changed: [{ id: 'e3', diffs: [{ field: 'venue', local: 'A', remote: 'B' }] }] }
+    { slug: 'tm-changed-artist', events_checked: 1, events_without_tm_id: 0, missing: [], errors: [], changed: [{ id: 'e3', diffs: [{ field: 'venue', local: 'A', remote: 'B' }] }] },
+    { slug: 'historical-tm-artist', events_checked: 1, events_without_tm_id: 0, missing: [{ id: 'past', ticketmaster_event_id: 'TM-PAST', actionable: false }], errors: [], changed: [] }
   ],
   totals: { checked: 5, missing: 1, changed: 1, errors: 1 }
 };
@@ -144,11 +150,13 @@ console.log('Case 5: tm-status ok with findings -> only clean artists bumped, er
   expect('clean-artist bumped', bumped.includes('clean-artist'), `bumped=${JSON.stringify(bumped)}`);
   expect('link-fail-artist NOT bumped', !bumped.includes('link-fail-artist'));
   expect('link-blocked-artist NOT bumped (blocked link is unconfirmed)', !bumped.includes('link-blocked-artist'));
+  expect('historical-link-artist bumped (past-only failure is informational)', bumped.includes('historical-link-artist'));
   expect('tm-missing-artist NOT bumped', !bumped.includes('tm-missing-artist'));
   expect('tm-error-artist NOT bumped (errors[] guard)', !bumped.includes('tm-error-artist'));
   expect('tm-changed-artist NOT bumped', !bumped.includes('tm-changed-artist'));
+  expect('historical-tm-artist bumped (past-only finding is informational)', bumped.includes('historical-tm-artist'));
   expect('unindexed-artist NOT bumped (not indexable)', !bumped.includes('unindexed-artist'));
-  expect('exactly one artist bumped', bumped.length === 1, `bumped=${JSON.stringify(bumped)}`);
+  expect('exactly three artists bumped', bumped.length === 3, `bumped=${JSON.stringify(bumped)}`);
 }
 
 console.log('Case 6: dry-run with ok status -> reports candidates, does not modify artists.json');

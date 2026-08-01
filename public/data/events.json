@@ -959,18 +959,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107004331",
-        "url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-7-31-2026/event/107004331",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv17FZbgGkM65iFV",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-7-31-2026/event/107004331"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635da084a7a9",
@@ -24897,11 +24897,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107019988",
-        "url": "https://www.stubhub.ie/zach-bryan-san-diego-tickets-7-31-2026/event/107019988",
-        "verified": true,
-        "last_verified_at": "2026-07-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbUhFIERa",
@@ -24909,7 +24909,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583736",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583736/Zach-Bryan-tickets-Fri-Jul-31-2026-Snapdragon-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-san-diego-tickets-7-31-2026/event/107019988"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-zach-bryan-2026-san-diego-vvg1izbunnre2z",

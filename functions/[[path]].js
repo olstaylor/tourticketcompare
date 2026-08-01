@@ -2775,13 +2775,33 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
 }
 
+// Copy for a card whose providers all lack an eligible snapshot. A show can
+// carry checked destinations and still have no displayable price — most often
+// because no provider with a numeric price lane has a verified exact-event
+// match for that date. Naming the destinations the card actually offers turns
+// "no price" into a next step. No link is emitted here: the provider buttons
+// above stay the card's only outbound links.
+// Keep in sync with priceUnavailableNote in public/app.js.
+function priceUnavailableNote(ctaSpecs) {
+  const names = ctaSpecs.map((spec) => spec.name).filter(Boolean).slice(0, 3);
+  if (!names.length) return "";
+  const list = names.length === 1 ? names[0] : `${names.slice(0, -1).join(", ")} or ${names[names.length - 1]}`;
+  return `No listed-price snapshot is available for this date. Check current prices on ${list} using the buttons above.`;
+}
+
 // Required snapshot disclosures for every price shown on a button, rendered
 // once below the unified provider list. Provider names and capture times appear
-// only for actual approved, fresh lanes.
+// only for actual approved, fresh lanes; when no lane qualifies, the same slot
+// states that plainly instead of rendering nothing.
 // Keep in sync with renderShowCardPriceNotes in public/app.js.
 function renderServerPriceNotes(ctaSpecs) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
-  if (!priced.length) return "";
+  if (!priced.length) {
+    const unavailable = priceUnavailableNote(ctaSpecs);
+    return unavailable
+      ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(unavailable)}</p></div>`
+      : "";
+  }
   const snapshotTimes = priced.map((spec) => `${spec.name} (${spec.priceAsOf})`).join(" · ");
   const note = `Listed-price snapshots, not live availability. ${snapshotTimes}. Prices may change and may exclude fees.`;
   return `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(note)}</p></div>`;

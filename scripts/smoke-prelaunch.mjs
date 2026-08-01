@@ -1224,6 +1224,7 @@ assert(!appJs.includes("Event last checked:"), "hydration should rely on the con
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
 assert(appJs.includes("Listed-price snapshots, not live availability."), "hydration should include the unified listed-price snapshot disclosure");
+assert(appJs.includes("No listed-price snapshot is available for this date. Check current prices on "), "hydration should state the price-unavailable case and point at the card's own providers");
 assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
 assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
 assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price snapshot should hide expired data");
@@ -2813,6 +2814,22 @@ assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mar
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
 assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-name\">Ticketmaster<"), "/artists/morgan-wallen (indexable) must show the Ticketmaster event CTA button");
 assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-check\">Check prices<"), "an unpriced provider button must read 'Check prices'");
+// A card with checked destinations but no eligible snapshot must say so and
+// name where to look, rather than leaving the price slot silently empty.
+assert(
+  serverMorganWithoutSeatGeek.text.includes("No listed-price snapshot is available for this date. Check current prices on Ticketmaster using the buttons above."),
+  "a card whose providers all lack an eligible snapshot must state the unavailable case and name its own providers"
+);
+// Per card, not per page: one board legitimately mixes both states, so the
+// invariant is that a card carrying a price never also carries the note.
+const pricedMorganCards = serverPricedMorgan.text
+  .split("<article")
+  .filter((card) => card.includes("provider-cta-price"));
+assert(pricedMorganCards.length > 0, "the priced Morgan Wallen board should render at least one card with a snapshot");
+assert(
+  pricedMorganCards.every((card) => !card.includes("No listed-price snapshot is available for this date.")),
+  "a card carrying an eligible snapshot must keep the snapshot disclosure, not the unavailable note"
+);
 assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&amp;provider=ticketmaster`), "server-rendered verified Ticketmaster event CTA should use its existing safe redirect");
 
 console.log("indexable artist verification passed for bruno-mars");

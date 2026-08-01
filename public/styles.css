@@ -1,3 +1,11 @@
+/* Google Tag Manager's no-JavaScript fallback frame. Google's snippet hides it
+   with an inline style attribute, which our style-src 'self' CSP blocks, so the
+   rule lives here instead. */
+.gtm-noscript {
+  display: none;
+  visibility: hidden;
+}
+
 :root {
   /* Aligned with the brand-evolved design system (ttc-home.css):
      warm paper, forest-green identity, one terracotta CTA, sans

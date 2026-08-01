@@ -49,11 +49,19 @@ const EVENT_PRICE_GUIDE_FALLBACK = {
 // _headers applies to static-asset responses only, not to function-generated responses.
 // These headers must be set explicitly on every HTML Response returned by this function.
 const SECURITY_HEADERS = {
-  // The sha256 hash authorizes the inline Google tag (gtag.js) snippet in public/index.html;
-  // recompute it if that snippet's contents change (see scripts/smoke-prelaunch.mjs EXPECTED_CSP).
+  // The two sha256 hashes authorize the inline Google Tag Manager loader and the inline
+  // Google tag (gtag.js) snippet in public/index.html; recompute them if either snippet's
+  // contents change (see scripts/smoke-prelaunch.mjs EXPECTED_CSP). frame-src is scoped to
+  // the GTM container host for the noscript fallback frame — nothing else may be framed.
   "Content-Security-Policy":
-    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
-  "Referrer-Policy": "no-referrer",
+    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+  // same-origin, not no-referrer: cross-origin requests still send nothing, so
+  // no provider, analytics vendor or affiliate network ever learns which page a
+  // visitor came from. What changes is that our own /api/out redirect finally
+  // receives a Referer, which is the only way a no-JavaScript visitor's CTA
+  // click can be attributed to the page it happened on. See
+  // docs/COMMERCIAL_FUNNEL.md.
+  "Referrer-Policy": "same-origin",
   "X-Content-Type-Options": "nosniff",
   "X-Frame-Options": "DENY",
   "Permissions-Policy": "interest-cohort=()",
@@ -2258,7 +2266,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
       const provider = slugify(item.provider);
       const displayName = PROVIDER_DISPLAY_NAMES[provider] || item.provider;
       const label = "Check provider";
-      const destination = artistProviderHref(artist, item, surface);
+      const destination = withCtaLocation(artistProviderHref(artist, item, surface), "artist_provider_panel");
       const verificationNote = providerVerificationNote(item);
       return `<article class="provider-card"><p class="eyebrow">Artist page</p><h3>${escapeHtml(displayName)}</h3>${anchor(
         label,
@@ -2569,6 +2577,20 @@ function outboundCtaRel(href) {
   return provider === "ticketmaster" ? "noopener nofollow" : "noopener nofollow sponsored";
 }
 
+// Records which CTA component produced an outbound click, on the one URL the
+// server actually sees. Appended to the tracked redirect only — never to a
+// provider or affiliate URL, which /api/out resolves separately from stored
+// event data. /api/out validates the value against a fixed list.
+// Keep in sync with withCtaLocation in public/app.js.
+function withCtaLocation(href, ctaLocation) {
+  // Returns the argument untouched when it is not a tracked redirect, so a
+  // suppressed CTA (href null) stays suppressed rather than becoming "".
+  if (typeof href !== "string" || !href.startsWith("/api/out?")) return href;
+  const location = String(ctaLocation || "").trim();
+  if (!location || /[?&]ctaLocation=/.test(href)) return href;
+  return `${href}&ctaLocation=${encodeURIComponent(location)}`;
+}
+
 function eventTicketHref(show, provider) {
   const showId = show?.id ? String(show.id) : "";
   if (!showId) return null;
@@ -2747,8 +2769,10 @@ function formatServerSnapshotTime(value) {
 function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const value = amount || "Check prices";
   const valueClass = amount ? "provider-cta-value provider-cta-price" : "provider-cta-value provider-cta-check";
-  const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(analytics.ctaLocation || "event_card")}"`;
-  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}" href="${escapeAttr(href)}" target="_blank" rel="${escapeAttr(outboundCtaRel(href) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
+  const ctaLocation = analytics.ctaLocation || "event_card";
+  const trackedHref = withCtaLocation(href, ctaLocation);
+  const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"`;
+  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
 }
 
 // Required snapshot disclosures for every price shown on a button, rendered
@@ -2902,7 +2926,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
         fullDate ? ` — this card is ${escapeHtml(fullDate)}` : ""
       }</p>`
     : "";
-  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
+  return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
 }
 
 // Zero-event board state. The primary CTA is the artist-level page of the
@@ -2940,8 +2964,9 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, arti
   };
   // The artist-level provider page is the only outbound option here: there are
   // no verified dates, so there is nothing event-level to link to.
+  const emptyStateHref = providerCta ? withCtaLocation(providerCta.href, "empty_state") : "";
   const primaryCta = providerCta
-    ? anchor(`Check ${escapeHtml(providerCta.name)} for updates`, providerCta.href, "button button-secondary", `rel="${escapeAttr(outboundCtaRel(providerCta.href) || "noopener")}" data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
+    ? anchor(`Check ${escapeHtml(providerCta.name)} for updates`, emptyStateHref, "button button-secondary", `rel="${escapeAttr(outboundCtaRel(emptyStateHref) || "noopener")}" data-cta-provider="${escapeAttr(slugify(providerCta.name))}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-price-snapshot="absent" data-cta-location="empty_state"`)
     : anchor("Read ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary");
   const recentHtml = renderRecentShowsHtml(safeName, pastShows);
   const signupHtml = artistSlug
@@ -3712,7 +3737,7 @@ async function renderInternalImpactTagTest(request, env, url) {
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="noindex,nofollow" />
-<meta name="referrer" content="no-referrer" />
+<meta name="referrer" content="same-origin" />
 <title>Impact Publisher Tag Test (internal) | TourTicketCompare</title>
 ${sgTagMeta}
 <link rel="stylesheet" href="/internal/impact-tag-test.css" />
@@ -3751,7 +3776,7 @@ ${sgTagBanner}
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", "no-store");
   headers.set("X-Robots-Tag", "noindex, nofollow");
-  headers.set("Referrer-Policy", "no-referrer");
+  headers.set("Referrer-Policy", "same-origin");
   headers.set("X-Content-Type-Options", "nosniff");
   headers.set("X-Frame-Options", "DENY");
   headers.set("Permissions-Policy", "interest-cohort=()");

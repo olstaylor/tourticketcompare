@@ -33,9 +33,9 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260730a";
+const APP_ASSET_VERSION = "20260731a";
 const TTC_HOME_ASSET_VERSION = "20260729b";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
@@ -795,19 +795,51 @@ for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt",
 
 const indexHtml = await read("public/index.html");
 assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags");
-// The Google tag (gtag.js) snippet is the only bare inline script; its CSP sha256 hash
-// must stay in sync with the snippet body or browsers will refuse to run it.
+// The Google Tag Manager loader and the Google tag (gtag.js) snippet are the only bare
+// inline scripts; each one's CSP sha256 hash must stay in sync with its body or browsers
+// will refuse to run it.
 {
-  const inlineScripts = [...indexHtml.matchAll(/<script>([\s\S]*?)<\/script>/g)];
-  assert(inlineScripts.length === 1, "index.html should contain exactly one bare inline script (the Google tag snippet)");
-  assert(inlineScripts[0][1].includes("gtag('config', 'G-Q7R1NQY8YH')"), "index.html inline script should be the Google tag snippet");
   const { createHash } = await import("node:crypto");
-  const inlineHash = createHash("sha256").update(inlineScripts[0][1], "utf8").digest("base64");
+  const inlineScripts = [...indexHtml.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((match) => match[1]);
+  assert(inlineScripts.length === 2, "index.html should contain exactly two bare inline scripts (Google Tag Manager and the Google tag snippet)");
   assert(
-    EXPECTED_CSP.includes(`'sha256-${inlineHash}'`),
-    `CSP sha256 hash must match the inline Google tag snippet — expected 'sha256-${inlineHash}' in EXPECTED_CSP (update functions/[[path]].js, public/_headers, and EXPECTED_CSP together)`
+    inlineScripts.some((body) => body.includes("'script','dataLayer','GTM-MZ42TPMM'")),
+    "index.html should contain the Google Tag Manager container loader"
   );
+  assert(
+    inlineScripts.some((body) => body.includes("gtag('config', 'G-Q7R1NQY8YH')")),
+    "index.html should contain the Google tag snippet"
+  );
+  for (const body of inlineScripts) {
+    const inlineHash = createHash("sha256").update(body, "utf8").digest("base64");
+    assert(
+      EXPECTED_CSP.includes(`'sha256-${inlineHash}'`),
+      `CSP sha256 hash must match every inline snippet in index.html — expected 'sha256-${inlineHash}' in EXPECTED_CSP (update functions/[[path]].js, public/_headers, and EXPECTED_CSP together)`
+    );
+  }
 }
+// The GTM no-JavaScript frame must load from the container host, and must be hidden by a
+// stylesheet rule rather than the inline style attribute CSP style-src 'self' would block.
+assert(
+  indexHtml.includes('src="https://www.googletagmanager.com/ns.html?id=GTM-MZ42TPMM"'),
+  "index.html must include the Google Tag Manager noscript frame"
+);
+assert(
+  /<noscript><iframe class="gtm-noscript"/.test(indexHtml),
+  "the GTM noscript frame must be hidden via the .gtm-noscript stylesheet rule"
+);
+assert(
+  !/<noscript><iframe[^>]*\sstyle=/.test(indexHtml),
+  "the GTM noscript frame must not use an inline style attribute (blocked by style-src 'self')"
+);
+assert(
+  (await read("public/styles.css")).includes(".gtm-noscript"),
+  "public/styles.css must define the .gtm-noscript hiding rule"
+);
+assert(
+  EXPECTED_CSP.includes("frame-src https://www.googletagmanager.com"),
+  "CSP must allow the Google Tag Manager noscript frame"
+);
 assert(!indexHtml.includes("impact.js"), "index.html must not reference the removed Ticketmaster Impact Publisher Tag (/impact.js)");
 assert(indexHtml.includes('/impact-publisher-tag.js?v=20260714a'), "index.html must load the account Publisher Tag loader");
 const publisherTagLoader = await read("public/impact-publisher-tag.js");

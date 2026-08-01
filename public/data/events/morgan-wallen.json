@@ -909,7 +909,7 @@
     "status": "announced",
     "ticketmaster_event_id": "0200635DC72EC234",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
-    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-07-31-5-30-pm/concert/17873142",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-philadelphia-lincoln-financial-field-7-31-2026--concerts-country-and-folk/production/6207820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
@@ -924,11 +924,11 @@
         "discovery_event_id": "vv17FZbgGkM65iFV"
       },
       "seatgeek": {
-        "event_id": 17873142,
-        "url": "https://seatgeek.com/morgan-wallen-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-07-31-5-30-pm/concert/17873142",
-        "verified": true,
-        "last_verified_at": "2026-07-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6207820,
@@ -1004,7 +1004,7 @@
         "event_id": 17873143,
         "url": "https://seatgeek.com/morgan-wallen-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-08-01-5-30-pm/concert/17873143",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "vivid-seats": {

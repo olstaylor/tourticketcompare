@@ -3,14 +3,15 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const publicRoutes = ["/", "/artists", "/cities", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
-const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
-const functionBackedWildcardRoutes = ["/artists/*", "/cities/*", "/guides/*"];
+const publicRoutes = ["/", "/artists", "/cities", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
+const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
+const functionBackedWildcardRoutes = ["/artists/*", "/cities/*", "/guides/*", "/blog/*"];
 const expectedH1 = new Map([
   ["/", "Find your show, then compare the ticket sites that have it."],
   ["/artists", "Artists we track"],
   ["/cities", "Concerts by city"],
   ["/guides", "Ticket buying guides"],
+  ["/blog", "TourTicketCompare blog"],
   ["/compare-concert-ticket-prices", "Compare concert ticket prices"],
   ["/how-it-works", "How TourTicketCompare works"],
   ["/currency-converter", "Currency converter"],
@@ -24,6 +25,7 @@ const expectedTitle = new Map([
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
+  ["/blog", "Ticket Research Blog | TourTicketCompare"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
   ["/currency-converter", "Currency Converter for Concert Tickets | TourTicketCompare"],
@@ -54,6 +56,7 @@ const routeMarkers = new Map([
   ["/artists", "Pick an artist to see their upcoming dates and where to buy for each one."],
   ["/cities", "at least four upcoming reviewed shows across at least two artists"],
   ["/guides", "Compare the total at checkout for that exact ticket"],
+  ["/blog", "what a price snapshot does and does not claim"],
   ["/compare-concert-ticket-prices", "We only compare prices captured for the same event, each with the time it was taken"],
   ["/how-it-works", "A button only goes up when we can confirm where it lands"],
   ["/currency-converter", "European Central Bank daily reference rates"],
@@ -467,6 +470,7 @@ const publicUiFiles = [
   "public/data/events-index.json",
   "public/data/catalog.json",
   "public/data/guides-content.json",
+  "public/data/blog-content.json",
   "public/ttc-home.js"
 ];
 const publicCopyFiles = [
@@ -628,9 +632,14 @@ assert(
   JSON.stringify(routesManifest.include) === JSON.stringify(["/*"]),
   "_routes.json should invoke Functions for all public routes"
 );
+// The exclude list is deliberately tiny and pinned: anything listed here
+// bypasses Functions entirely, so an accidental addition would silently strip
+// routing, security headers, and metadata injection from that path. The
+// vendored content-editor bundle is a large static file with no server-side
+// behaviour, which is exactly what belongs here.
 assert(
-  JSON.stringify(routesManifest.exclude) === JSON.stringify(["/_assets/*", "/favicon.ico"]),
-  "_routes.json should only exclude immutable assets and favicon.ico"
+  JSON.stringify(routesManifest.exclude) === JSON.stringify(["/_assets/*", "/favicon.ico", "/admin/sveltia-cms.js"]),
+  "_routes.json should only exclude immutable assets, favicon.ico, and the vendored content-editor bundle"
 );
 await read("public/404.html");
 
@@ -970,11 +979,15 @@ const jsonLdRoutes = [
   { pathname: "/", expectTypes: ["Organization", "WebSite"], noTypes: ["BreadcrumbList", "FAQPage", "Article"] },
   { pathname: "/artists", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article"] },
   { pathname: "/guides", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article"] },
+  // ItemList is nested inside the Blog node's mainEntity, not a top-level
+  // @graph member, so it is not asserted here (same shape as /cities).
+  { pathname: "/blog", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Blog"], noTypes: ["FAQPage", "Article", "BlogPosting"] },
   { pathname: "/compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/how-it-works", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article"] },
   { pathname: "/artists/beyonce", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "FAQPage"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] },
   { pathname: "/guides/how-to-compare-concert-ticket-prices", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] },
-  { pathname: "/guides/seatgeek-vs-ticketmaster", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] }
+  { pathname: "/guides/seatgeek-vs-ticketmaster", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "Article", "FAQPage"], noTypes: ["Event", "Product", "Offer", "AggregateRating"] },
+  { pathname: "/blog/what-a-price-snapshot-actually-is", expectTypes: ["Organization", "WebSite", "BreadcrumbList", "BlogPosting"], noTypes: ["Article", "Event", "Product", "Offer", "AggregateRating"] }
 ];
 for (const { pathname, expectTypes, noTypes } of jsonLdRoutes) {
   const { text } = await routeResponse(pathname);
@@ -3433,6 +3446,111 @@ console.log("artist-city landing-page verification passed");
     );
   }
   console.log("non-canonical host noindex + apex canonical verified");
+}
+
+// ---------------------------------------------------------------------------
+// Blog gates. The internal-link and indexable-surface audits already crawl the
+// blog routes; what they cannot show is that each gate holds for the reason it
+// was written. Each assertion below fixes one behaviour that would otherwise be
+// easy to regress silently.
+// ---------------------------------------------------------------------------
+{
+  const blogModule = await import(pathToFileURL(path.join(root, "functions/_blog.js")));
+  const blogContent = JSON.parse(await read("public/data/blog-content.json"));
+  const allPosts = blogModule.derivePosts(blogContent);
+  const blogSitemap = new Set((await sitemapLocs()).map((loc) => new URL(loc).pathname));
+
+  // A draft is committed but has no route at all.
+  const rawSlugs = (blogContent.posts || []).map((post) => post.slug);
+  const draftSlugs = (blogContent.posts || []).filter((post) => post.status !== "published").map((post) => post.slug);
+  assert(rawSlugs.length > 0, "blog content should contain at least one post");
+  for (const slug of draftSlugs) {
+    const draft = await routeResponse(`/blog/${slug}`);
+    assert(draft.response.status === 404, `draft post /blog/${slug} must not render`);
+    assert(!blogSitemap.has(`/blog/${slug}`), `draft post /blog/${slug} must not be in the sitemap`);
+  }
+
+  const indexResponse = await routeResponse("/blog");
+  assert(indexResponse.response.status === 200, "/blog should return 200");
+  assert(blogSitemap.has("/blog"), "/blog should be in the sitemap while it has an indexable post");
+
+  for (const post of allPosts) {
+    const page = await routeResponse(post.path);
+    assert(page.response.status === 200, `${post.path} should return 200`);
+    const noindex = page.text.includes('content="noindex,follow"');
+    const indexable = blogModule.postIndexable(post);
+    assert(indexable !== noindex, `${post.path} robots meta must match its indexability gate`);
+    assert(
+      blogSitemap.has(post.path) === indexable,
+      `${post.path} sitemap membership must match its indexability gate`
+    );
+    assert(
+      page.text.includes(`<link rel="canonical" href="https://tourticketcompare.com${post.path}" />`),
+      `${post.path} must carry a self-referencing canonical even when noindex`
+    );
+  }
+
+  // A tag page below the two-post threshold renders, stays linked, and stays
+  // out of the index — the same treatment single-date artist-city pages get.
+  for (const tag of blogModule.deriveTags(allPosts)) {
+    const page = await routeResponse(tag.path);
+    assert(page.response.status === 200, `${tag.path} should return 200`);
+    assert(
+      page.text.includes('content="noindex,follow"') !== tag.indexable,
+      `${tag.path} robots meta must match the tag indexability gate`
+    );
+    assert(blogSitemap.has(tag.path) === tag.indexable, `${tag.path} sitemap membership must match its gate`);
+  }
+
+  const unknownPost = await routeResponse("/blog/not-a-real-post");
+  assert(unknownPost.response.status === 404, "an unknown blog slug must 404, never render an empty shell");
+
+  const rssModule = await import(pathToFileURL(path.join(root, "functions/blog/rss.xml.js")));
+  const rss = await rssModule.onRequestGet({ request: new Request("https://tourticketcompare.com/blog/rss.xml"), env });
+  const rssXml = await rss.text();
+  assert(rss.status === 200, "/blog/rss.xml should return 200");
+  assert(rss.headers.get("Content-Type")?.includes("application/rss+xml"), "the feed should be served as RSS");
+  for (const post of allPosts) {
+    const present = rssXml.includes(`<link>https://tourticketcompare.com${post.path}</link>`);
+    assert(
+      present === blogModule.postIndexable(post),
+      `the feed should carry ${post.path} only when the site would index it`
+    );
+  }
+  for (const slug of draftSlugs) {
+    assert(!rssXml.includes(`/blog/${slug}<`), `the feed must not carry draft post ${slug}`);
+  }
+
+  // The content editor is reachable, unindexable, and inert without OAuth
+  // configuration — it must never fail open.
+  const adminModule = await import(pathToFileURL(path.join(root, "functions/admin.js")));
+  const adminResponse = await adminModule.onRequestGet();
+  assert(adminResponse.status === 200, "/admin should render the editor shell");
+  assert(adminResponse.headers.get("X-Robots-Tag")?.includes("noindex"), "/admin must be noindex");
+  assert(
+    /script-src 'self'/.test(adminResponse.headers.get("Content-Security-Policy") || ""),
+    "/admin must load scripts only from its own origin"
+  );
+  assert((await read("public/robots.txt")).includes("Disallow: /admin"), "robots.txt must disallow /admin");
+
+  const authModule = await import(pathToFileURL(path.join(root, "functions/api/admin/auth.js")));
+  const unconfigured = await authModule.onRequestGet({
+    request: new Request("https://tourticketcompare.com/api/admin/auth"),
+    env: {}
+  });
+  assert(unconfigured.status === 503, "the editor sign-in must fail closed when the OAuth app is not configured");
+  const unconfiguredBody = await unconfigured.text();
+  assert(
+    unconfiguredBody.includes("GITHUB_OAUTH_CLIENT_ID") && !unconfiguredBody.includes("client_secret="),
+    "the unconfigured sign-in response should name the missing settings without leaking a value"
+  );
+  const wrongHost = await authModule.onRequestGet({
+    request: new Request("https://tourticketcompare.pages.dev/api/admin/auth"),
+    env: { GITHUB_OAUTH_CLIENT_ID: "id", GITHUB_OAUTH_CLIENT_SECRET: "secret" }
+  });
+  assert(wrongHost.status === 403, "the editor sign-in must refuse non-canonical hosts");
+
+  console.log("blog + content editor verification passed");
 }
 
 console.log("Cloudflare Pages MVP smoke checks passed");

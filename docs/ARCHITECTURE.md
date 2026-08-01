@@ -62,11 +62,12 @@ request
   → public/_routes.json
   → functions/_middleware.js
       ├─ /api/* and known assets → context.next()
+      ├─ /admin                  → context.next() → functions/admin.js
       ├─ file-extension paths    → static asset handling
       └─ HTML routes            → functions/[[path]].js
 ```
 
-`functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, artist routes, city routes, venue routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry for fixed and guide routes; data-derived city and venue metadata is composed in the router from the shared aggregation records.
+`functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, blog routes, artist routes, city routes, venue routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry for fixed and guide routes; data-derived city and venue metadata is composed in the router from the shared aggregation records.
 
 The named route shims (`functions/artists.js`, `guides.js`, and peers) only re-export `onRequest` from `[[path]].js`. While middleware is active, editing a shim does not change live routing.
 
@@ -85,6 +86,14 @@ Venue landing pages (`/venues` index + `/venues/<slug>`) are a server-rendered a
 Artist-city landing pages (`/artists/<artist>/tickets/<city>`) target local intent (`[Artist] tickets [City]`) and are a server-rendered aggregation derived purely from one artist's reviewed upcoming `events.json` records (`functions/_artist-cities.js`, shared with the sitemap, `llms.txt`, and internal-link audit). The four-segment path never collides with the two-segment tour route or the `/artists/<artist>/tickets` redirect. The city slug is the same `slugify("<city> <normalized-country>")` as `/cities/<slug>`, so country aliases merge and a same-named city in two countries stays two distinct pages (the visible label carries the country to keep titles/descriptions unique). The page reuses the artist show board — so CTAs, gated price snapshots, `/api/out` tracking, and analytics are identical to the main artist page — plus a data-derived at-a-glance summary, a local buying guide, the pricing explanation, artist-city FAQs, and internal links back to the artist hub, the shared `/cities` and `/venues` pages where those qualify, and the artist's other active cities. It emits `Place`, `CollectionPage`, `ItemList`, breadcrumb, an inline performer, and publishable-gated `MusicEvent` structured data mirroring visible content, and never invents local facts, prices, or availability.
 
 **Indexing lifecycle.** A combination is indexable (200, self-canonical, in the sitemap) only when the artist is `indexable_with_substantial_content` **and** the city has at least one upcoming publishable show. A genuinely inactive combination — a city the artist has an event footprint in, but with no qualifying upcoming show now, or an under-review artist — selectively **301s to the artist hub** rather than leaving a misleading empty page. Any other slug (unknown artist, or a city the artist has never played) returns a real **404**, never a soft 404. Expired combinations therefore leave the index automatically as their dates pass. The router, sitemap, and internal-link audit all consume the one `functions/_artist-cities.js` derivation, so the indexable URL set cannot drift between them. Current counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
+
+## Blog and content authoring layer
+
+Blog posts are authored as Markdown with YAML front matter in `content/blog/`, which is the source of truth. `scripts/build-blog-content.mjs` compiles them into the single generated asset `public/data/blog-content.json`; the runtime reads only that file. The compile step exists because Cloudflare Pages serves `public/` with no build and Pages Functions cannot list a directory, so the runtime has no way to discover Markdown files. `.github/workflows/content-build.yml` runs the compile on pushes touching `content/blog/`, gates it behind the full validation suite, and commits the result — that commit is what deploys a post. `npm run blog:check` fails CI when the generated file drifts from its source, mirroring the `stale-sync-guard` contract for event data.
+
+`functions/_blog.js` is the single derivation shared by the router, sitemap, `llms.txt`, the RSS feed at `/blog/rss.xml`, and both site audits, so the blog's indexable URL set cannot drift between them. A `draft` post has no route at all (404). A published post renders at `/blog/<slug>` and is indexable at 300+ body words; a tag page renders at `/blog/tags/<tag>` and is indexable once two or more indexable posts share the tag. Below either threshold the page still returns 200 with a self-referencing canonical and stays internally linked, `noindex,follow` — the same treatment single-date artist-city pages receive (`docs/ROUTE_INDEXABILITY_POLICY.md`). Post pages emit `BlogPosting`; index and tag pages emit `Blog`/`CollectionPage` with a nested `ItemList`. The blog carries no provider, CTA, price, or event logic of its own.
+
+`/admin` serves a vendored browser editor (`functions/admin.js` + `public/admin/`) that commits Markdown to `content/blog/` through the signed-in editor's own GitHub account. It holds no site credential: the OAuth handshake in `functions/api/admin/` exchanges a code for a user token server-side and fails closed with setup instructions when unconfigured. Authoring reference and one-time setup: `docs/BLOG.md`.
 
 ## Data and rendering flow
 
@@ -157,6 +166,8 @@ Changes to these files require explicit scope and proportionate validation:
 - `functions/api/shows.js` price/eligibility gates
 - `public/_routes.json`
 - reviewed records under `public/data/`
+- `public/data/blog-content.json` (generated — edit `content/blog/*.md` instead)
+- `functions/api/admin/` OAuth handshake and the vendored `public/admin/` bundle
 - Impact/provider credentials and tracking logic
 
 ## Documentation boundaries

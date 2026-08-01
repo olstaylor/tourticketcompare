@@ -1,0 +1,98 @@
+name: Content Build
+
+# Compiles content/blog/*.md into public/data/blog-content.json and commits the
+# result, which is what makes a post appear on the live site.
+#
+# Why this exists: Cloudflare Pages serves public/ with no build step, so
+# nothing else would ever compile the Markdown. The browser editor at /admin
+# commits Markdown and stops; this job finishes the job.
+#
+# Scope is deliberately narrow. It only ever writes public/data/blog-content.json,
+# it never touches event, artist, catalog, or provider data, and it commits only
+# after the full validation suite has passed in this same job on exactly the
+# content it is about to publish. A validation failure leaves main unchanged and
+# fails loudly.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/blog/**'
+      - 'scripts/build-blog-content.mjs'
+      - 'functions/_blog.js'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build and validate without committing'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Compile content/blog into public/data/blog-content.json
+        run: npm run blog:build
+
+      - name: Report what changed
+        id: changed
+        run: |
+          if git diff --quiet -- public/data/blog-content.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No change: the committed JSON already matches content/blog."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git --no-pager diff --stat -- public/data/blog-content.json
+          fi
+
+      # The generated file is an input to the router, the sitemap, llms.txt and
+      # both site audits, so it goes through the same gate as any other change
+      # to published content — before the commit, not after.
+      - name: Run canonical validation suite
+        if: steps.changed.outputs.changed == 'true'
+        run: npm run test:mvp
+
+      - name: Validate rendered head + JSON-LD schema contract
+        if: steps.changed.outputs.changed == 'true'
+        run: npm run schema:validate
+
+      - name: Audit the indexable surface against its baseline
+        if: steps.changed.outputs.changed == 'true'
+        run: npm run audit:indexable-surface:check
+
+      - name: Check patch whitespace
+        if: steps.changed.outputs.changed == 'true'
+        run: git diff --check
+
+      - name: Commit the compiled content
+        if: steps.changed.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "tourticketcompare-bot"
+          git config user.email "tourticketcompare-bot@users.noreply.github.com"
+          git add public/data/blog-content.json
+          git commit -m "content: rebuild blog content from content/blog"
+          git push origin HEAD:main
+
+      - name: Report dry run
+        if: steps.changed.outputs.changed == 'true' && github.event.inputs.dry_run == 'true'
+        run: echo "::notice::Dry run — validation passed and the rebuild was not committed."

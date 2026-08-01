@@ -43,6 +43,9 @@ public/                    Static frontend (served as-is by Cloudflare Pages)
     fallback-catalog.json Client-side fallback if catalog.json fails to load
     provider-configs.json Per-provider display/cache/safety configuration
     guides-content.json   Guide page content (topic guides)
+    blog-content.json     Generated blog content — compiled from content/blog/*.md by
+                          `npm run blog:build`. Never hand-edit; `npm run blog:check`
+                          fails CI when it drifts from the Markdown source.
     events.json           Reviewed event records (Ticketmaster-sourced)
     events/               Per-artist partitioned event files (generated)
     events-index.json     Generated index over the partitions
@@ -63,6 +66,10 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
   _artist-content.js      Pure, data-derived editorial content model for artist pages
                           (intro, tour summaries, buying guide, pricing explanation);
                           returns plain data only — no HTML, no secrets
+  _blog.js                Shared blog derivation and indexability gates (posts, tags,
+                          related posts) read by the router, sitemap, llms.txt and RSS
+  admin.js                Serves the /admin content editor shell with its own CSP
+  blog/rss.xml.js         Blog RSS feed, gated identically to the sitemap
   _artist-indexability.js Shared indexability gate: an editorially-indexable artist page
                           is index,follow + in the sitemap only while it has ≥1 upcoming
                           show; empty boards self-heal to noindex (mirrors _cities/_venues)
@@ -86,6 +93,9 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
                           commercial funnel contract lives in docs/COMMERCIAL_FUNNEL.md)
     signup.js             Email/interest demand capture to D1 (incl. intent=price_alert;
                           nothing is ever emailed — demand signal only)
+    admin/                GitHub OAuth handshake for the /admin content editor
+                          (auth.js + callback.js). Fails closed with setup
+                          instructions when the OAuth app is not configured.
     price-history.js      Read-only per-event listed-price snapshot history; applies the
                           exact badge display-eligibility gate, per-provider only
     rates.js              Cache-backed ECB daily reference rates (via Frankfurter) for the
@@ -94,6 +104,12 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
     impact/               Impact API diagnostics (health, catalogs, products, tracking-links)
   _provider-registry.js + api/_providers/  Parked scaffolding — do not build on
                           without a scoped provider integration (see BACKLOG.md)
+
+content/
+  blog/                     Blog post source of truth: one Markdown file per post with
+                            YAML front matter. Owner-editable by hand, via `npm run
+                            blog:new`, or through the browser editor at /admin.
+                            See docs/BLOG.md.
 
 data/
   provider-identities.json  Verified provider identity registry (TM attraction ids,
@@ -180,6 +196,7 @@ npm run artist:check -- <slug>                    # if a specific artist touched
 npm run audit:indexable-surface                   # if any route/indexability logic touched
 npm run impact-providers:sync:self-test            # shared Impact catalog matcher
 npm run impact-providers:prices:self-test          # exact-ID snapshot writer
+npm run blog:build                                # required after any content/blog/*.md edit
 npm run events:sync                               # required after any public/data/*.json edit
 node --check public/app.js 'functions/[[path]].js' functions/api/out.js
 git diff --check
@@ -196,6 +213,7 @@ Do not modify without explicit task scope:
 - **`functions/[[path]].js`** — all HTML routing; changes affect every public page
 - **`functions/_route-metadata.js`** — single source of truth for page metadata
 - **`public/data/events.json`, `artists.json`, `catalog.json`** — no records added, modified, or removed without a verified source
+- **`public/data/blog-content.json`** — generated. Edit `content/blog/*.md` and run `npm run blog:build`; never edit the JSON directly
 - **`public/_routes.json`** — incorrect changes cause site-wide failures
 - **Impact credentials and affiliate tracking logic** (including `functions/api/impact/`)
 - **Cloudflare dashboard settings** (routes, bindings, secrets)
@@ -221,6 +239,6 @@ Note the named-shim trap: editing `functions/artists.js` etc. has **no effect** 
 
 Read in order: **`CLAUDE.md`** (this file) → **`PROJECT_STATUS.md`** → **`BACKLOG.md`**.
 
-Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ROUTE_INDEXABILITY_POLICY.md](docs/ROUTE_INDEXABILITY_POLICY.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) · [docs/PROVIDER_SYNC.md](docs/PROVIDER_SYNC.md) · [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md) · [docs/COMMERCIAL_FUNNEL.md](docs/COMMERCIAL_FUNNEL.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)
+Reference: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) · [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) · [docs/PROVIDER_DATA_POLICY.md](docs/PROVIDER_DATA_POLICY.md) · [docs/ROUTE_INDEXABILITY_POLICY.md](docs/ROUTE_INDEXABILITY_POLICY.md) · [docs/BLOG.md](docs/BLOG.md) · [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md) · [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md) · [docs/ADDING_PROVIDERS.md](docs/ADDING_PROVIDERS.md) · [docs/PROVIDER_SYNC.md](docs/PROVIDER_SYNC.md) · [docs/SEATGEEK_DISCOVERY.md](docs/SEATGEEK_DISCOVERY.md) · [docs/COMMERCIAL_FUNNEL.md](docs/COMMERCIAL_FUNNEL.md) · [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md)
 
 `AGENTS.md` is the concise repository-discovery entrypoint. Do not add parallel handover, archive, status, or governance documents; update the canonical file and use git history for superseded material.

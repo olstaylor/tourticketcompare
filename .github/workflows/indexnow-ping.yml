@@ -24,8 +24,14 @@ on:
       - 'public/data/events/**'
       - 'public/data/artists.json'
       - 'public/data/catalog.json'
+      # Compiled blog content — a new or revised post changes the indexable URL
+      # set exactly like a new event does. content/blog/*.md is deliberately not
+      # listed: it is the source, and content-build.yml commits the compiled
+      # file, which is the push that should trigger this.
+      - 'public/data/blog-content.json'
       # Code that decides which routes are indexable at all.
       - 'functions/sitemap.xml.js'
+      - 'functions/_blog.js'
       - 'functions/_route-metadata.js'
       - 'functions/_cities.js'
       - 'functions/_venues.js'

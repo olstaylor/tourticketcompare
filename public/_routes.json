@@ -1,5 +1,5 @@
 {
   "version": 1,
   "include": ["/*"],
-  "exclude": ["/_assets/*", "/favicon.ico"]
+  "exclude": ["/_assets/*", "/favicon.ico", "/admin/sveltia-cms.js"]
 }

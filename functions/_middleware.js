@@ -12,7 +12,11 @@ const STATIC_ASSET_PATHS = new Set([
   "/styles.css",
   "/favicon.svg",
   "/robots.txt",
-  "/_routes.json"
+  "/_routes.json",
+  // The content editor. It has no file extension, so without this entry it
+  // would be routed to [[path]].js and 404. context.next() dispatches it to
+  // functions/admin.js, which sets its own Content-Security-Policy.
+  "/admin"
 ]);
 
 function normalizePath(pathname) {

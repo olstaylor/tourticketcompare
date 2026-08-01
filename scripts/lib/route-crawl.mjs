@@ -28,6 +28,7 @@ const ASSET_FILES = [
   "data/artists.json",
   "data/events.json",
   "data/guides-content.json",
+  "data/blog-content.json",
   "data/provider-configs.json"
 ];
 
@@ -115,7 +116,7 @@ export async function loadSiteFixture(root) {
   const read = (relativePath) => fs.readFile(path.join(root, relativePath), "utf8");
   const load = async (relativePath) => import(pathToFileURL(path.join(root, relativePath)));
 
-  const [middlewareModule, sitemapModule, routeMetadataModule, venuesModule, citiesModule, artistCitiesModule, artistIndexabilityModule, policyModule] =
+  const [middlewareModule, sitemapModule, routeMetadataModule, venuesModule, citiesModule, artistCitiesModule, artistIndexabilityModule, policyModule, blogModule] =
     await Promise.all([
       load("functions/_middleware.js"),
       load("functions/sitemap.xml.js"),
@@ -124,13 +125,15 @@ export async function loadSiteFixture(root) {
       load("functions/_cities.js"),
       load("functions/_artist-cities.js"),
       load("functions/_artist-indexability.js"),
-      load("functions/_route-indexability.js")
+      load("functions/_route-indexability.js"),
+      load("functions/_blog.js")
     ]);
 
   const catalog = JSON.parse(await read("public/data/catalog.json"));
   const artistsMeta = JSON.parse(await read("public/data/artists.json"));
   const events = JSON.parse(await read("public/data/events.json"));
   const guideContent = JSON.parse(await read("public/data/guides-content.json"));
+  const blogContent = JSON.parse(await read("public/data/blog-content.json"));
 
   const assetMap = new Map();
   for (const file of ASSET_FILES) assetMap.set(`/${file}`, await read(`public/${file}`));
@@ -177,8 +180,15 @@ export async function loadSiteFixture(root) {
   const venuePaths = venues.map((venue) => `/venues/${venue.slug}`);
   const artistCityPaths = artistCityEntries.map((entry) => entry.path);
 
+  // Every blog route that renders, indexable or not — the audits need to see a
+  // thin post and a one-post tag page to confirm they are excluded for the
+  // right reason and are absent from the sitemap.
+  const blogPosts = blogModule.derivePosts(blogContent);
+  const blogTags = blogModule.deriveTags(blogPosts);
+  const blogPaths = [blogModule.BLOG_INDEX_PATH, ...blogPosts.map((post) => post.path), ...blogTags.map((tag) => tag.path)];
+
   const allPaths = [
-    ...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", ...venuePaths, ...artistCityPaths])
+    ...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", ...venuePaths, ...artistCityPaths, ...blogPaths])
   ];
 
   return {
@@ -194,14 +204,17 @@ export async function loadSiteFixture(root) {
       citiesModule,
       artistCitiesModule,
       artistIndexabilityModule,
-      policyModule
+      policyModule,
+      blogModule
     },
-    data: { catalog, artistsMeta, events, guideContent },
+    data: { catalog, artistsMeta, events, guideContent, blogContent },
     indexableArtistSlugs,
     cities,
     venues,
     artistCityEntries,
-    paths: { staticPaths, guidePaths, artistPaths, cityPaths, venuePaths, artistCityPaths, allPaths }
+    blogPosts,
+    blogTags,
+    paths: { staticPaths, guidePaths, artistPaths, cityPaths, venuePaths, artistCityPaths, blogPaths, allPaths }
   };
 }
 

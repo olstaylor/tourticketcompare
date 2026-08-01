@@ -1510,17 +1510,17 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7397426",
-        "url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AsZkG_GkdrMecG",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006319ddea2cd5",

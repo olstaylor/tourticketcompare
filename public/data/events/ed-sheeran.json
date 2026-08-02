@@ -555,11 +555,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954172",
-        "url": "https://www.stubhub.ie/ed-sheeran-seattle-tickets-8-1-2026/event/106954172",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbwBOKsEL",
@@ -568,7 +568,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418586",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418586/Ed-Sheeran-tickets-Sat-Aug-1-2026-Lumen-Field",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-seattle-tickets-8-1-2026/event/106954172"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-inglewood-0a006331dc273765",

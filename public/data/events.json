@@ -1036,18 +1036,18 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107007147",
-        "url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-8-1-2026/event/107007147",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv17FZbgGkUO-1rt",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-8-1-2026/event/107007147"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350404814e",
@@ -3540,18 +3540,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107073218",
-        "url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-1-2026/event/107073218",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "k7vGF_eElChcR",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676858",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676858/BTS-tickets-Sat-Aug-1-2026-MetLife-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-1-2026/event/107073218"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-east-rutherford-00006429ed30bceb",
@@ -20023,11 +20023,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954172",
-        "url": "https://www.stubhub.ie/ed-sheeran-seattle-tickets-8-1-2026/event/106954172",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbwBOKsEL",
@@ -20036,7 +20036,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418586",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418586/Ed-Sheeran-tickets-Sat-Aug-1-2026-Lumen-Field",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-seattle-tickets-8-1-2026/event/106954172"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-inglewood-0a006331dc273765",
@@ -21783,18 +21783,18 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107092100",
-        "url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-1-8-2026/event/107092100",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk8MGkdnfpsx",
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "stubhub_international_url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-1-8-2026/event/107092100"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-summer-walker-2026-london-1agzk8ugkeefegp",
@@ -24974,11 +24974,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107026442",
-        "url": "https://www.stubhub.ie/zach-bryan-san-diego-tickets-8-1-2026/event/107026442",
-        "verified": true,
-        "last_verified_at": "2026-07-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbUnnRE2Z",
@@ -24986,7 +24986,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583737",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583737/Zach-Bryan-tickets-Sat-Aug-1-2026-Snapdragon-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-san-diego-tickets-8-1-2026/event/107026442"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-zach-bryan-2026-salt-lake-city-g5vzzbm2nlqmp",
@@ -26114,11 +26114,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198186",
-        "url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-1-2026/event/107198186",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_dQ4fyz7",
@@ -26126,7 +26126,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-1-2026/event/107198186"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-charlotte-g5evz_7stecj-",

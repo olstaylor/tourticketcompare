@@ -308,11 +308,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7735037",
-        "url": "https://www.ticketnetwork.com/en/p/7735037",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7735037",
@@ -332,7 +332,7 @@
     "ticketmaster_discovery_event_id": "G5eVZ_dQ4fyz7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735037",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735037/Tame-Impala-tickets-Sat-Aug-1-2026-Spectrum-Center",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-1-2026/event/107198186"
   },

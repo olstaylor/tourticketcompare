@@ -35,7 +35,7 @@ const expectedTitle = new Map([
 const homepageDescription = "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.";
 const APP_ASSET_VERSION = "20260731a";
 const TTC_HOME_ASSET_VERSION = "20260729b";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
@@ -795,20 +795,20 @@ for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt",
 
 const indexHtml = await read("public/index.html");
 assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags");
-// The Google Tag Manager loader and the Google tag (gtag.js) snippet are the only bare
+// The Google Tag Manager loader and Google tag bootstrap are the only bare
 // inline scripts; each one's CSP sha256 hash must stay in sync with its body or browsers
 // will refuse to run it.
 {
   const { createHash } = await import("node:crypto");
   const inlineScripts = [...indexHtml.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((match) => match[1]);
-  assert(inlineScripts.length === 2, "index.html should contain exactly two bare inline scripts (Google Tag Manager and the Google tag snippet)");
+  assert(inlineScripts.length === 2, "index.html should contain exactly two bare inline scripts (Google Tag Manager and the Google tag bootstrap)");
   assert(
     inlineScripts.some((body) => body.includes("'script','dataLayer','GTM-MZ42TPMM'")),
     "index.html should contain the Google Tag Manager container loader"
   );
   assert(
-    inlineScripts.some((body) => body.includes("gtag('config', 'G-Q7R1NQY8YH')")),
-    "index.html should contain the Google tag snippet"
+    inlineScripts.some((body) => body.includes("dataLayer.push({'event': 'ttc_google_tag_init'})")),
+    "index.html should contain the GTM activation event"
   );
   for (const body of inlineScripts) {
     const inlineHash = createHash("sha256").update(body, "utf8").digest("base64");
@@ -864,10 +864,15 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
     `${pathname} must revalidate rendered HTML so new client asset versions reach returning visitors immediately`
   );
 
-  // Google tag: every rendered page keeps the shell's gtag.js snippet
+  // Google tag: every rendered page keeps the shell's GTM activation event and does
+  // not also load gtag.js directly (which would duplicate the GTM-managed page view).
   assert(
-    text.includes('src="https://www.googletagmanager.com/gtag/js?id=G-Q7R1NQY8YH"'),
-    `${pathname} should include the Google tag (gtag.js) loader from the shell <head>`
+    text.includes("dataLayer.push({'event': 'ttc_google_tag_init'})"),
+    `${pathname} should include the Google tag GTM activation event from the shell <head>`
+  );
+  assert(
+    !text.includes('src="https://www.googletagmanager.com/gtag/js?id=G-Q7R1NQY8YH"'),
+    `${pathname} should not load gtag.js directly alongside the GTM-managed Google tag`
   );
 
   // Canonical URL: tag must be present and point to the exact route

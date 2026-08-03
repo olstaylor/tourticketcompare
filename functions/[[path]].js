@@ -50,11 +50,11 @@ const EVENT_PRICE_GUIDE_FALLBACK = {
 // These headers must be set explicitly on every HTML Response returned by this function.
 const SECURITY_HEADERS = {
   // The two sha256 hashes authorize the inline Google Tag Manager loader and the inline
-  // Google tag (gtag.js) snippet in public/index.html; recompute them if either snippet's
+  // Google tag bootstrap in public/index.html; recompute them if either snippet's
   // contents change (see scripts/smoke-prelaunch.mjs EXPECTED_CSP). frame-src is scoped to
   // the GTM container host for the noscript fallback frame — nothing else may be framed.
   "Content-Security-Policy":
-    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
   // same-origin, not no-referrer: cross-origin requests still send nothing, so
   // no provider, analytics vendor or affiliate network ever learns which page a
   // visitor came from. What changes is that our own /api/out redirect finally

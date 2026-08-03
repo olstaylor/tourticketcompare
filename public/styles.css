@@ -207,6 +207,18 @@ main {
   gap: 28px;
 }
 
+/* A grid item's automatic minimum size is its min-content, so any single wide
+   thing inside a page section — a long unbroken word, a wide table, or a form
+   control whose intrinsic width comes from its `size` attribute — makes the
+   whole page wider than the viewport and forces horizontal scrolling. The
+   empty artist board hit this through the watchlist email input at <=390px.
+   Pinning the minimum at 0 lets the section shrink to the viewport and the
+   content wrap, which is what every other grid in this file already does via
+   minmax(0, 1fr). */
+main > * {
+  min-width: 0;
+}
+
 .hero-panel,
 .section-grid,
 .content-page,
@@ -1468,6 +1480,13 @@ summary {
 
 .watchlist-signup-row input[type="email"] {
   flex: 1 1 220px;
+  /* An <input> with no `size` attribute defaults to size=20, and that intrinsic
+     width is what the row contributes to its ancestors' min-content — flex-basis
+     and min-width do not change it, which is why the row could force the page
+     wider than a 320-360px viewport. `width: 0` zeroes the contribution; the
+     field is still sized by flex-basis + flex-grow (148px at 320px wide, 218px
+     at 390px), so nothing about how it looks or behaves changes. */
+  width: 0;
   min-width: 0;
   padding: 10px 14px;
   border: 1px solid var(--line-strong);

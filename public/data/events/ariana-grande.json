@@ -1467,7 +1467,7 @@
     "status": "announced",
     "ticketmaster_event_id": "31006319DEDC2B4C",
     "ticketmaster_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/ariana-grande-the-eternal-sunshine-tour-montreal-quebec-07-31-2026/event/31006319DEDC2B4C",
@@ -1482,11 +1482,11 @@
         "discovery_event_id": "1AsZkG_GkdrMecG"
       },
       "seatgeek": {
-        "event_id": 17724151,
-        "url": "https://seatgeek.com/ariana-grande-tickets/montreal-canada-centre-bell-2026-07-31-8-pm/concert/17724151",
-        "verified": true,
-        "last_verified_at": "2026-07-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 5995665,
@@ -1503,24 +1503,24 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7397426",
-        "url": "https://www.ticketnetwork.com/en/p/7397426",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7397426",
-        "url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AsZkG_GkdrMecG",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397426",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397426/Ariana-Grande-tickets-Fri-Jul-31-2026-Centre-Bell"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-chicago-04006319ddea2cd5",
@@ -1554,14 +1554,14 @@
         "event_id": 17700811,
         "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 5973688,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1631,14 +1631,14 @@
         "event_id": 17700813,
         "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-05-8-pm/concert/17700813",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 5973690,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-5-2026--concerts-pop/production/5973690",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1708,14 +1708,14 @@
         "event_id": 17724381,
         "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 5995835,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "stubhub": {

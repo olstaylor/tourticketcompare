@@ -1,6 +1,6 @@
 # Vivid Seats CTA sync log
 
-Generated: 2026-07-31T08:13:53.772Z
+Generated: 2026-08-03T08:46:46.953Z
 
 Written by `scripts/sync-vividseats-events.mjs`. Identity anchor: an
 exact-name Impact Marketplace Products query for a registry-verified
@@ -10,14 +10,14 @@ timezone) against the Vivid Seats production slug date.
 ## Run summary
 
 - Mode: apply
-- Events selected: 245
-- Events skipped before API checks: 200
-- API calls made: 17
-- Verified provenance written: 180
+- Events selected: 236
+- Events skipped before API checks: 209
+- API calls made: 16
+- Verified provenance written: 170
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 1
+- Provenance un-verified: 2
 - Conflicts (ambiguous, untouched): 0
 - No qualifying listing: 64
 - Transient API errors (untouched, retried next run): 0
@@ -27,8 +27,6 @@ timezone) against the Vivid Seats production slug date.
 
 | showId | artist | action | Vivid Seats id | url | notes |
 | --- | --- | --- | --- | --- | --- |
-| tm-morgan-wallen-2026-philadelphia-0200635dc72ec234 | morgan-wallen | verify (applied) | 6207820 | https://www.vividseats.com/morgan-wallen-tickets-philadelphia-lincoln-financial-field-7-31-2026--concerts-country-and-folk/production/6207820 | - |
-| tm-morgan-wallen-2026-philadelphia-0200635da084a7a9 | morgan-wallen | verify (applied) | 6207826 | https://www.vividseats.com/morgan-wallen-tickets-philadelphia-lincoln-financial-field-8-1-2026--concerts-country-and-folk/production/6207826 | - |
 | tm-harry-styles-2026-new-york-3b0064350404814e | harry-styles | verify (applied) | 6564542 | https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-8-26-2026--concerts-pop/production/6564542 | - |
 | tm-harry-styles-2026-new-york-3b00643504538196 | harry-styles | verify (applied) | 6564553 | https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-8-28-2026--concerts-pop/production/6564553 | - |
 | tm-harry-styles-2026-new-york-3b006435046481aa | harry-styles | verify (applied) | 6564557 | https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-8-29-2026--concerts-pop/production/6564557 | - |
@@ -59,8 +57,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-harry-styles-2026-new-york-3b00643506bf83b6 | harry-styles | verify (applied) | 6564706 | https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-28-2026--concerts-pop/production/6564706 | - |
 | tm-harry-styles-2026-new-york-3b00643506cf83cb | harry-styles | verify (applied) | 6564711 | https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-30-2026--concerts-pop/production/6564711 | - |
 | tm-harry-styles-2026-new-york-3b00643506da83de | harry-styles | verify (applied) | 6564719 | https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-31-2026--concerts-pop/production/6564719 | - |
-| tm-bts-2026-east-rutherford-00006429eb39bb6f | bts | verify (applied) | 6517073 | https://www.vividseats.com/bts---bangtan-boys-tickets-east-rutherford-metlife-stadium-8-1-2026--concerts-k-pop/production/6517073 | - |
-| tm-bts-2026-east-rutherford-00006429ed30bceb | bts | verify (applied) | 6517077 | https://www.vividseats.com/bts---bangtan-boys-tickets-east-rutherford-metlife-stadium-8-2-2026--concerts-k-pop/production/6517077 | - |
+| tm-bts-2026-east-rutherford-00006429ed30bceb | bts | unverify (applied) | - | - | stored URL failed: stored production id 6517077 not found in the fully-paginated Vivid Seats catalog for 'BTS' (confirmed gone); previously verified record no longer matches |
 | tm-bts-2026-foxborough-0100642cbd7ab56b | bts | verify (applied) | 6517100 | https://www.vividseats.com/bts---bangtan-boys-tickets-foxborough-gillette-stadium-8-5-2026--concerts-k-pop/production/6517100 | - |
 | tm-bts-2026-foxborough-0100642cc24ebb04 | bts | verify (applied) | 6517102 | https://www.vividseats.com/bts---bangtan-boys-tickets-foxborough-gillette-stadium-8-6-2026--concerts-k-pop/production/6517102 | - |
 | tm-bts-2026-chicago-0400642acbbd5d44 | bts | verify (applied) | 6517083 | https://www.vividseats.com/bts---bangtan-boys-tickets-chicago-soldier-field-8-27-2026--concerts-k-pop/production/6517083 | - |
@@ -71,8 +68,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-bts-2026-inglewood-0a006429b353645f | bts | verify (applied) | 6517139 | https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-6-2026--concerts-k-pop/production/6517139 | - |
 | tm-bts-2026-toronto-1avzz_egkiiidcu | bts | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-bts-2026-toronto-1avzz_egkicklrr | bts | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-ariana-grande-2026-montreal-31006319de3a2b37 | ariana-grande | unverify (applied) | - | - | stored URL failed: stored production id 5973696 not found in the fully-paginated Vivid Seats catalog for 'Ariana Grande' (confirmed gone); previously verified record no longer matches |
-| tm-ariana-grande-2026-montreal-31006319dedc2b4c | ariana-grande | verify (applied) | 5995665 | https://www.vividseats.com/ariana-grande-tickets-montreal-bell-centre-7-31-2026--concerts-pop/production/5995665 | - |
 | tm-ariana-grande-2026-chicago-04006319ddea2cd5 | ariana-grande | verify (applied) | 5973688 | https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688 | - |
 | tm-ariana-grande-2026-chicago-0400631adf313481 | ariana-grande | verify (applied) | 5973690 | https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-5-2026--concerts-pop/production/5973690 | - |
 | tm-ariana-grande-2026-chicago-04006325ad9f24a7 | ariana-grande | verify (applied) | 5995835 | https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835 | - |
@@ -204,7 +199,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-shakira-2026-madrid-z698xz2qz1koifuzg | shakira | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-shakira-2026-madrid-z698xz2qz1koecouy | shakira | verify (applied) | 6837757 | https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-10-2026/production/6837757 | - |
 | tm-shakira-2026-madrid-z698xz2qz16vfpafo8 | shakira | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-ed-sheeran-2026-seattle-0f00632ea04f19df | ed-sheeran | verify (applied) | 6049707 | https://www.vividseats.com/ed-sheeran-tickets-seattle-lumen-field-8-1-2026--concerts-pop/production/6049707 | - |
 | tm-ed-sheeran-2026-inglewood-0a006331dc273765 | ed-sheeran | verify (applied) | 6049710 | https://www.vividseats.com/ed-sheeran-tickets-inglewood-sofi-stadium-8-8-2026--concerts-pop/production/6049710 | - |
 | tm-ed-sheeran-2026-minneapolis-0600632e29196b3e | ed-sheeran | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-ed-sheeran-2026-toronto-1000632fe9bb4345 | ed-sheeran | verify (applied) | 6067349 | https://www.vividseats.com/ed-sheeran-tickets-toronto-rogers-centre-8-20-2026--concerts-pop/production/6067349 | - |
@@ -222,8 +216,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-ed-sheeran-2026-hollywood-0d006331a7d91aff | ed-sheeran | verify (applied) | 6049741 | https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-29-2026--concerts-pop/production/6049741 | - |
 | tm-ed-sheeran-2026-hollywood-0d006331f45e4089 | ed-sheeran | verify (applied) | 6049743 | https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-30-2026--concerts-pop/production/6049743 | - |
 | tm-ed-sheeran-2026-tampa-0d006331d60a3a7a | ed-sheeran | verify (applied) | 6049744 | https://www.vividseats.com/ed-sheeran-tickets-tampa-raymond-james-stadium-11-7-2026--concerts-pop/production/6049744 | - |
-| tm-summer-walker-2026-london-1agzk8mgkdnfpsx | summer-walker | verify (applied) | 6598358 | https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-1-2026/production/6598358 | - |
-| tm-summer-walker-2026-london-1agzk8ugkeefegp | summer-walker | verify (applied) | 6566289 | https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-2-2026--concerts-rb/production/6566289 | - |
+| tm-summer-walker-2026-london-1agzk8ugkeefegp | summer-walker | unverify (applied) | - | - | stored URL failed: stored production id 6566289 not found in the fully-paginated Vivid Seats catalog for 'Summer Walker' (confirmed gone); previously verified record no longer matches |
 | tm-summer-walker-2026-bristow-17a8v0g6urtwfpk | summer-walker | verify (applied) | 7210953 | https://www.vividseats.com/broccoli-city-festival-tickets-bristow-jiffy-lube-live-9-19-2026/production/7210953 | - |
 | tm-summer-walker-2026-chicago-vvg18z_uroiect | summer-walker | verify (applied) | 7208420 | https://www.vividseats.com/summer-walker-tickets-chicago-credit-union-1-arena-at-uic-10-16-2026/production/7208420 | - |
 | tm-jay-z-2026-inglewood-vvg1iz_gncu5jv | jay-z | verify (applied) | 7137531 | https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-23-2026--concerts-rap-hip-hop/production/7137531 | - |
@@ -239,8 +232,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-charli-xcx-2026-inglewood-vvg10z_g9r7nph | charli-xcx | verify (applied) | 7132070 | https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070 | - |
 | tm-charli-xcx-2026-inglewood-vvg10z_g9gehi7 | charli-xcx | verify (applied) | 7132072 | https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-18-2026--concerts-pop/production/7132072 | - |
 | tm-charli-xcx-2026-glendale-17k8v0g6g9pu_yt | charli-xcx | verify (applied) | 7132074 | https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074 | - |
-| tm-zach-bryan-2026-san-diego-vvg1izbuhfiera | zach-bryan | verify (applied) | 6339024 | https://www.vividseats.com/zach-bryan-tickets-san-diego-snapdragon-stadium-7-31-2026--concerts-country-and-folk/production/6339024 | - |
-| tm-zach-bryan-2026-san-diego-vvg1izbunnre2z | zach-bryan | verify (applied) | 6338929 | https://www.vividseats.com/zach-bryan-tickets-san-diego-snapdragon-stadium-8-1-2026--concerts-country-and-folk/production/6338929 | - |
 | tm-zach-bryan-2026-salt-lake-city-g5vzzbm2nlqmp | zach-bryan | verify (applied) | 6338937 | https://www.vividseats.com/zach-bryan-tickets-salt-lake-city-rice-eccles-stadium-8-7-2026--concerts-country-and-folk/production/6338937 | - |
 | tm-zach-bryan-2026-denver-g5vzzbm515_rn | zach-bryan | verify (applied) | 6338939 | https://www.vividseats.com/zach-bryan-tickets-denver-empower-field-at-mile-high-8-13-2026--concerts-country-and-folk/production/6338939 | - |
 | tm-zach-bryan-2026-denver-g5vzzbm51uyri | zach-bryan | verify (applied) | 6338945 | https://www.vividseats.com/zach-bryan-tickets-denver-empower-field-at-mile-high-8-14-2026--concerts-country-and-folk/production/6338945 | - |
@@ -293,6 +284,8 @@ timezone) against the Vivid Seats production slug date.
 | tm-morgan-wallen-2026-baltimore-z7r9jz1a7qtbk | morgan-wallen | event is in the past — nothing to maintain |
 | tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbs | morgan-wallen | event is in the past — nothing to maintain |
 | tm-morgan-wallen-2026-ann-arbor-z7r9jz1a7qtbf | morgan-wallen | event is in the past — nothing to maintain |
+| tm-morgan-wallen-2026-philadelphia-0200635dc72ec234 | morgan-wallen | event is in the past — nothing to maintain |
+| tm-morgan-wallen-2026-philadelphia-0200635da084a7a9 | morgan-wallen | event is in the past — nothing to maintain |
 | tm-bts-2026-stanford-1c006429c95ea2b8 | bts | event is in the past — nothing to maintain |
 | tm-bts-2026-stanford-1c006429c9dda300 | bts | event is in the past — nothing to maintain |
 | tm-bts-2026-stanford-1c006435858268ec | bts | event is in the past — nothing to maintain |
@@ -300,6 +293,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-bts-2026-las-vegas-17006429e3354a8c | bts | event is in the past — nothing to maintain |
 | tm-bts-2026-las-vegas-17006429e3454a9e | bts | event is in the past — nothing to maintain |
 | tm-bts-2026-las-vegas-17006429e3514ab0 | bts | event is in the past — nothing to maintain |
+| tm-bts-2026-east-rutherford-00006429eb39bb6f | bts | event is in the past — nothing to maintain |
 | tm-ariana-grande-2026-oakland-1c00631913d14ad8 | ariana-grande | event is in the past — nothing to maintain |
 | tm-ariana-grande-2026-oakland-1c00631a8fc31891 | ariana-grande | event is in the past — nothing to maintain |
 | tm-ariana-grande-2026-oakland-1c00632490b77e47 | ariana-grande | event is in the past — nothing to maintain |
@@ -323,6 +317,8 @@ timezone) against the Vivid Seats production slug date.
 | tm-ariana-grande-2026-boston-0100631aca626435 | ariana-grande | event is in the past — nothing to maintain |
 | tm-ariana-grande-2026-boston-010063289ef611c4 | ariana-grande | event is in the past — nothing to maintain |
 | tm-ariana-grande-2026-montreal-31006319ddb22b1f | ariana-grande | event is in the past — nothing to maintain |
+| tm-ariana-grande-2026-montreal-31006319de3a2b37 | ariana-grande | event is in the past — nothing to maintain |
+| tm-ariana-grande-2026-montreal-31006319dedc2b4c | ariana-grande | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-barcelona-653666176 | bad-bunny | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-barcelona-1116290311 | bad-bunny | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-madrid-417009905 | bad-bunny | event is in the past — nothing to maintain |
@@ -410,6 +406,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-ed-sheeran-2026-las-vegas-1700632f29ecabed | ed-sheeran | event is in the past — nothing to maintain |
 | tm-ed-sheeran-2026-san-diego-0a006331da303659 | ed-sheeran | event is in the past — nothing to maintain |
 | tm-ed-sheeran-2026-santa-clara-1c006331c1a54d19 | ed-sheeran | event is in the past — nothing to maintain |
+| tm-ed-sheeran-2026-seattle-0f00632ea04f19df | ed-sheeran | event is in the past — nothing to maintain |
 | tm-ed-sheeran-2026-arlington-z7r9jz1a7jw | ed-sheeran | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
 | tm-summer-walker-2026-atlanta-vvg1zz_dkce1ug | summer-walker | event is in the past — nothing to maintain |
 | tm-summer-walker-2026-miami-vvg1vz_d3n-985 | summer-walker | event is in the past — nothing to maintain |
@@ -419,6 +416,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-summer-walker-2026-oakland-g5vyz_dptbovy | summer-walker | event is in the past — nothing to maintain |
 | tm-summer-walker-2026-seattle-vvg1hz_d9kqqkt | summer-walker | event is in the past — nothing to maintain |
 | tm-summer-walker-2026-vancouver-1f78v0uvf8z7g576 | summer-walker | event is in the past — nothing to maintain |
+| tm-summer-walker-2026-london-1agzk8mgkdnfpsx | summer-walker | event is in the past — nothing to maintain |
 | tm-harry-styles-2026-london-1aegz_egkuqz8x- | harry-styles | event is in the past — nothing to maintain |
 | tm-harry-styles-2026-london-1aegz_egkusb-e- | harry-styles | event is in the past — nothing to maintain |
 | tm-harry-styles-2026-london-1aegz_egkug9sdf | harry-styles | event is in the past — nothing to maintain |
@@ -446,13 +444,14 @@ timezone) against the Vivid Seats production slug date.
 | tm-rosalia-2026-san-diego-vvg1izbuda5f5g | rosalia | event is in the past — nothing to maintain |
 | tm-rosalia-2026-oakland-g5vyzbumkyr1f | rosalia | event is in the past — nothing to maintain |
 | tm-bad-bunny-2026-brussels-z7r9jz1a7xzuo | bad-bunny | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
-| tm-shakira-2026-madrid-z7r9jz1a7j7vi | shakira | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
 | tm-post-malone-2026-kansas-city-vv17bz_dgkhumcmx | post-malone | event is in the past — nothing to maintain |
 | tm-post-malone-2026-ames-vv17bz_dgkbv6aim | post-malone | event is in the past — nothing to maintain |
 | tm-post-malone-2026-edmonton-1av7z_dgkdhlsdx | post-malone | event is in the past — nothing to maintain |
 | tm-post-malone-2026-edmonton-1aozkodgkd2xd4i | post-malone | event is in the past — nothing to maintain |
 | tm-post-malone-2026-salt-lake-city-g5vzz_dbvwfnk | post-malone | event is in the past — nothing to maintain |
 | tm-zach-bryan-2026-eugene-vvg1hzbz5kbt3x | zach-bryan | event is in the past — nothing to maintain |
+| tm-zach-bryan-2026-san-diego-vvg1izbuhfiera | zach-bryan | event is in the past — nothing to maintain |
+| tm-zach-bryan-2026-san-diego-vvg1izbunnre2z | zach-bryan | event is in the past — nothing to maintain |
 | tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu | zach-bryan | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
 | tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt | zach-bryan | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
 | tm-zach-bryan-2026-dover-z7r9jz1a7r4vz | zach-bryan | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
@@ -462,6 +461,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-tame-impala-2026-toronto-1a8zk8ygkeelgsk | tame-impala | event is in the past — nothing to maintain |
 | tm-tame-impala-2026-toronto-168zk8uopzackd28 | tame-impala | event is in the past — nothing to maintain |
 | tm-tame-impala-2026-boston-vv1avzk8ygkdxncl3 | tame-impala | event is in the past — nothing to maintain |
+| tm-tame-impala-2026-boston-vv1avzko7gkd9ltgz | tame-impala | event is in the past — nothing to maintain |
 | tm-tame-impala-2026-minneapolis-z7r9jz1a7-f_m | tame-impala | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
 | tm-tame-impala-2026-houston-z7r9jz1a7-f_z | tame-impala | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |
 | tm-tame-impala-2026-houston-z7r9jz1a7-a4m | tame-impala | datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed |

@@ -1915,6 +1915,25 @@ assert(healthJson.config.ticketNetworkPriceDisplayEnabled === true, "TicketNetwo
 assert(healthJson.config.ticketLiquidatorPriceDisplayEnabled === false, "Ticket Liquidator price snapshots must stay disabled while CurrentPrice is absent");
 assert(healthJson.config.stubHubInternationalPriceDisplayEnabled === true, "StubHub International price snapshots should default enabled after exact-ID proof");
 
+// bindings.debugApiToken is what an operator checks to confirm the
+// /api/impact/* gate is live, so it must track the gate's own notion of a
+// usable token — a declared-but-empty variable denies every request and must
+// not read as configured here.
+for (const [label, tokenEnv, expected] of [
+  ["unset", {}, false],
+  ["declared but empty", { DEBUG_API_TOKEN: "" }, false],
+  ["whitespace only", { DEBUG_API_TOKEN: "   " }, false],
+  ["configured", { DEBUG_API_TOKEN: "valid-debug-token" }, true]
+]) {
+  const response = await healthModule.onRequestGet({ env: { ...env, ...tokenEnv } });
+  const body = await response.json();
+  assert(
+    body.bindings.debugApiToken === expected,
+    `/api/health debugApiToken must report ${expected} when DEBUG_API_TOKEN is ${label}`
+  );
+  assert(!JSON.stringify(body).includes("valid-debug-token"), "/api/health must never echo the debug token value");
+}
+
 const fallbackHealthResponse = await healthModule.onRequestGet({
   env: {
     ...env,

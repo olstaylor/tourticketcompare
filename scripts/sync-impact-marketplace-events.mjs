@@ -5,12 +5,14 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  CATALOG_PROXY_REJECTION_HINT,
   PROVIDERS,
   catalogItems,
   catalogItemsUrl,
   catalogProxyHeaders,
   clean,
   impactCredentials,
+  isCatalogProxyRejection,
   normalizeProviderUrl,
   productCandidates,
   providerConfig
@@ -224,7 +226,13 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     } catch (error) {
       return { candidates, complete: false, stopReason: `request_failed:${clean(error?.message, 120)}` };
     } finally { clearTimeout(timeout); }
-    if (response.status === 401 || response.status === 403) return { candidates, complete: false, authFailure: true, stopReason: `http_${response.status}` };
+    // An incomplete catalog is a normal, silent, exit-0 outcome that preserves
+    // existing links, so anything meaning "we were refused" has to be an
+    // authFailure instead — otherwise a refused run looks identical to a run
+    // with nothing to do. A proxied 404 is the gate rejecting our token.
+    if (response.status === 401 || response.status === 403 || isCatalogProxyRejection(response.status, env)) {
+      return { candidates, complete: false, authFailure: true, stopReason: `http_${response.status}` };
+    }
     if (!response.ok) return { candidates, complete: false, stopReason: `http_${response.status}` };
     let payload;
     try { payload = await response.json(); } catch { return { candidates, complete: false, stopReason: "invalid_json" }; }
@@ -279,15 +287,16 @@ async function run(options, deps = {}) {
     byArtist.set(item.artistName, rows);
   }
   let authFailure = false;
+  let authFailureReason = "";
   for (const [artistName, artistEvents] of byArtist) {
     let catalog = deps.fetchCatalog ? await deps.fetchCatalog(config, artistName, options, state) : await fetchCatalog(config, artistName, options, state, deps.env, deps.fetchImpl);
-    if (catalog.authFailure) { authFailure = true; break; }
+    if (catalog.authFailure) { authFailure = true; authFailureReason = catalog.stopReason || ""; break; }
     if (config.slug === "ticket-liquidator" && catalog.complete) {
       const referenceConfig = providerConfig("ticketnetwork");
       const reference = deps.fetchCatalog
         ? await deps.fetchCatalog(referenceConfig, artistName, options, state)
         : await fetchCatalog(referenceConfig, artistName, options, state, deps.env, deps.fetchImpl);
-      if (reference.authFailure) { authFailure = true; break; }
+      if (reference.authFailure) { authFailure = true; authFailureReason = reference.stopReason || ""; break; }
       if (!reference.complete) {
         catalog = { ...catalog, complete: false, stopReason: `reference_${reference.stopReason || "incomplete"}` };
       } else {
@@ -309,7 +318,12 @@ async function run(options, deps = {}) {
       results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "" });
     }
   }
-  if (authFailure) throw new Error(`${config.name} Impact catalog returned 401/403; no writes were made`);
+  if (authFailure) {
+    const hint = isCatalogProxyRejection(authFailureReason.replace("http_", ""), deps.env || process.env)
+      ? ` — ${CATALOG_PROXY_REJECTION_HINT}`
+      : "";
+    throw new Error(`${config.name} Impact catalog fetch was refused (${authFailureReason || "auth_failure"}); no writes were made${hint}`);
+  }
   if (options.apply && results.some((row) => row.applied)) await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
   return {
     provider: config.slug, mode: options.apply ? "apply" : "dry-run", selected: selected.length, api_calls: state.apiCalls,
@@ -365,6 +379,55 @@ async function selfTest() {
     () => catalogItemsUrl(config, "RAYE", 1, { IMPACT_CATALOG_PROXY_URL: proxyEnv.IMPACT_CATALOG_PROXY_URL }),
     /token-gated/
   );
+
+  // A token that CI has but Cloudflare Pages rejects: the request goes out and
+  // comes back 404 from the gate. That must surface as an auth failure, not as
+  // an incomplete catalog — an incomplete catalog exits 0 with no changes, so
+  // the mismatch would otherwise leave the nightly sync a permanently green
+  // no-op. A 404 on a direct (non-proxied) run keeps its old meaning.
+  assert.equal(isCatalogProxyRejection(404, proxyEnv), true);
+  assert.equal(isCatalogProxyRejection(404, { IMPACT_SEATGEEK_ACCOUNT_SID: "sid" }), false);
+  assert.equal(isCatalogProxyRejection(500, proxyEnv), false);
+  const gateRejected = await fetchCatalog(
+    config, "RAYE", { delayMs: 0 }, { apiCalls: 0 },
+    { ...proxyEnv, IMPACT_TICKETNETWORK_CAMPAIGN_ID: "2322", IMPACT_TICKETNETWORK_CATALOG_ID: "896" },
+    async () => new Response(JSON.stringify({ ok: false, error: "Not found" }), { status: 404 })
+  );
+  assert.equal(gateRejected.authFailure, true);
+  assert.equal(gateRejected.stopReason, "http_404");
+  assert.equal(gateRejected.complete, false);
+  // The same 404 without the proxy stays an ordinary incomplete catalog.
+  const directNotFound = await fetchCatalog(
+    config, "RAYE", { delayMs: 0 }, { apiCalls: 0 },
+    { IMPACT_SEATGEEK_ACCOUNT_SID: "sid", IMPACT_SEATGEEK_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "2322", IMPACT_TICKETNETWORK_CATALOG_ID: "896" },
+    async () => new Response("", { status: 404 })
+  );
+  assert.equal(directNotFound.authFailure, undefined);
+  assert.equal(directNotFound.complete, false);
+  // 401/403 keep failing regardless of transport.
+  for (const status of [401, 403]) {
+    const refused = await fetchCatalog(
+      config, "RAYE", { delayMs: 0 }, { apiCalls: 0 },
+      { IMPACT_SEATGEEK_ACCOUNT_SID: "sid", IMPACT_SEATGEEK_AUTH_TOKEN: "token", IMPACT_TICKETNETWORK_CAMPAIGN_ID: "2322", IMPACT_TICKETNETWORK_CATALOG_ID: "896" },
+      async () => new Response("", { status })
+    );
+    assert.equal(refused.authFailure, true);
+  }
+  // run() must convert that into a throw that names the misconfiguration,
+  // rather than returning a clean zero-change summary.
+  await assert.rejects(
+    run({ provider: "ticketnetwork", apply: false, delayMs: 0, limit: null, maxApiCalls: null, artist: "" }, {
+      env: proxyEnv,
+      fetchCatalog: async () => ({ candidates: [], complete: false, authFailure: true, stopReason: "http_404" }),
+      now: new Date("2027-01-01T00:00:00Z"),
+      data: [
+        [{ id: "e1", artist_slug: "raye", datetime_iso: "2027-07-09T19:00:00", timezone: "Europe/London", city: "London", venue: "O2 Arena", provider_links: {} }],
+        [{ slug: "raye", name: "RAYE" }],
+        [{ slug: "raye", review_status: "verified" }]
+      ]
+    }),
+    /refused \(http_404\)[\s\S]*IMPACT_CATALOG_PROXY_TOKEN/
+  );
   const event = { id: "e1", artist_slug: "raye", datetime_iso: "2027-07-09T19:00:00", timezone: "Europe/London", city: "London", venue: "O2 Arena", provider_links: {} };
   assert.equal(dateMatches("2027-07-09T20:00:00+01:00", { year: 2027, month: 7, day: 9 }), true);
   assert.equal(evaluateCandidate(event, "RAYE", candidate).ok, true);
@@ -387,7 +450,7 @@ async function selfTest() {
   });
   assert.equal(dry.added, 1);
   assert.equal(dry.changed, 0);
-  return 27;
+  return 39;
 }
 
 async function main() {

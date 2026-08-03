@@ -79,11 +79,27 @@ function catalogProxyToken(env = process.env) {
   return clean(env.IMPACT_CATALOG_PROXY_TOKEN || env.DEBUG_API_TOKEN, 255);
 }
 
+export function usingCatalogProxy(env = process.env) {
+  return Boolean(clean(env.IMPACT_CATALOG_PROXY_URL, 2048));
+}
+
 export function catalogProxyHeaders(env = process.env) {
-  if (!clean(env.IMPACT_CATALOG_PROXY_URL, 2048)) return {};
+  if (!usingCatalogProxy(env)) return {};
   const token = catalogProxyToken(env);
   return token ? { "X-Debug-Token": token } : {};
 }
+
+// /api/impact/products produces a 404 only from its DEBUG_API_TOKEN gate, so a
+// 404 on a proxied request means the token CI sends and the one deployed to
+// Cloudflare Pages have diverged. That is a configuration failure, and callers
+// must treat it as one: an ordinary incomplete catalog is a normal, silent
+// outcome, so a mismatched gate would otherwise read as "nothing to do".
+export function isCatalogProxyRejection(status, env = process.env) {
+  return usingCatalogProxy(env) && Number(status) === 404;
+}
+
+export const CATALOG_PROXY_REJECTION_HINT =
+  "a 404 through IMPACT_CATALOG_PROXY_URL means /api/impact/products rejected the token — check IMPACT_CATALOG_PROXY_TOKEN matches DEBUG_API_TOKEN in Cloudflare Pages";
 
 function impactCredentials(config, env = process.env) {
   if (!config) throw new Error("Unknown Impact marketplace provider");

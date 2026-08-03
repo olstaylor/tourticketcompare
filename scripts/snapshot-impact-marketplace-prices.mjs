@@ -8,12 +8,14 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import {
+  CATALOG_PROXY_REJECTION_HINT,
   PROVIDERS,
   catalogItems,
   catalogItemsUrl,
   catalogProxyHeaders,
   clean,
   impactCredentials,
+  isCatalogProxyRejection,
   productCandidates,
   providerConfig
 } from "./lib/impact-marketplace-providers.mjs";
@@ -114,7 +116,13 @@ async function fetchArtistCatalog(config, artistName, env = process.env, fetchIm
           ...catalogProxyHeaders(env)
         }
       }, fetchImpl);
-      if (!response.ok) return { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
+      // Every failed fetch here already sets a non-zero exit via summary.failed,
+      // so this only has to name the cause rather than change the outcome.
+      if (!response.ok) {
+        return isCatalogProxyRejection(response.status, env)
+          ? { ok: false, reason: `Impact Catalogs returned HTTP 404 — ${CATALOG_PROXY_REJECTION_HINT}` }
+          : { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
+      }
       const payload = await response.json();
       const items = catalogItems(payload);
       if (!items) return { ok: false, reason: "Impact response had no Items array" };

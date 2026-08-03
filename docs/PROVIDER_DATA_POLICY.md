@@ -136,8 +136,15 @@ Confirm the token is configured via `bindings.debugApiToken` in `/api/health`.
 
 Automation that reads catalogs through `IMPACT_CATALOG_PROXY_URL` (the
 marketplace provider-sync and price-snapshot workflows) must therefore also set
-`IMPACT_CATALOG_PROXY_TOKEN`; the scripts fail fast with a readable error rather
-than reading the gate's 404 as an empty catalog.
+`IMPACT_CATALOG_PROXY_TOKEN`. Two distinct misconfigurations are both made
+loud, because the sync's safe response to a bad catalog is to change nothing —
+which is indistinguishable from a healthy run with nothing to do:
+
+- **No token in CI** — the scripts throw before the first request.
+- **Token present but rejected by the deployed gate** (the Actions secret and
+  the Cloudflare Pages secret have diverged) — a proxied 404 is treated as an
+  authentication failure, not an incomplete catalog, so the run fails instead
+  of exiting 0 having silently done nothing.
 
 **Missing credentials behaviour:**
 - `/api/impact/*` returns a safe `missing_credentials` response to an authorised caller

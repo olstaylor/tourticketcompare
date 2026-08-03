@@ -3,111 +3,111 @@
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
     "/guides/how-to-compare-event-ticket-prices": {
-      "content_hash": "576fbb21f54279a0",
+      "content_hash": "b51724df47926fe6",
       "content_updated_at": "2026-07-14"
     },
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "3fc167f5d5d90899",
+      "content_hash": "fa51c85ce41955ad",
       "content_updated_at": "2026-07-22"
     },
     "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-      "content_hash": "3c81a1006ea4c5b9",
+      "content_hash": "8c14ef32d871ed5b",
       "content_updated_at": "2026-07-13"
     },
     "/guides/seatgeek-vs-ticketmaster": {
-      "content_hash": "74df9c37d5116f7d",
+      "content_hash": "305ac23d38957ce5",
       "content_updated_at": "2026-07-28"
     },
     "/guides/how-to-avoid-overpaying-for-concert-tickets": {
-      "content_hash": "40cef78634c655b2",
+      "content_hash": "b58a75d7a6f5b39c",
       "content_updated_at": "2026-06-17"
     },
     "/guides/when-is-the-best-time-to-buy-concert-tickets": {
-      "content_hash": "8f47adad1f8f93e8",
+      "content_hash": "f2aae32452ca5deb",
       "content_updated_at": "2026-06-19"
     },
     "/guides/primary-vs-resale-concert-tickets": {
-      "content_hash": "76f8d8c5adec4347",
+      "content_hash": "642a1edbc230991b",
       "content_updated_at": "2026-07-22"
     },
     "/guides/how-to-avoid-ticket-scams": {
-      "content_hash": "938626b93b019c55",
+      "content_hash": "c30091fad658a060",
       "content_updated_at": "2026-06-17"
     },
     "/guides/why-ticket-prices-change": {
-      "content_hash": "91e2d592f6c02686",
+      "content_hash": "3124f04eaf89b63e",
       "content_updated_at": "2026-06-19"
     },
     "/guides/ticketmaster-vs-stubhub": {
-      "content_hash": "7ddffe2c10de3478",
+      "content_hash": "c22e455d29cab257",
       "content_updated_at": "2026-06-19"
     },
     "/guides/seatgeek-promo-code-guide": {
-      "content_hash": "1e15df7681b70ae1",
+      "content_hash": "ded5977b1fd0c251",
       "content_updated_at": "2026-06-19"
     },
     "/guides/concert-ticket-fees-explained": {
-      "content_hash": "e52763d4222044ff",
+      "content_hash": "5d0e7a8c1a4a6bfe",
       "content_updated_at": "2026-07-22"
     },
     "/guides/ticket-delivery-and-transfer-timing": {
-      "content_hash": "112666ec276d290a",
+      "content_hash": "899038291be1a642",
       "content_updated_at": "2026-06-19"
     },
     "/guides/how-resale-ticket-pricing-works": {
-      "content_hash": "66518758522ed7cd",
+      "content_hash": "566cbd82965a8481",
       "content_updated_at": "2026-06-19"
     },
     "/guides/how-to-prepare-for-a-ticket-onsale": {
-      "content_hash": "6439b0178141ee7c",
+      "content_hash": "3125e09eb075cf87",
       "content_updated_at": "2026-06-19"
     },
     "/guides/how-to-read-a-ticket-listing": {
-      "content_hash": "18c0d108cbfa7541",
+      "content_hash": "f6bdd20a87576d33",
       "content_updated_at": "2026-06-19"
     },
     "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
-      "content_hash": "8c4cec3d5d664dc8",
+      "content_hash": "84c335f5c43377eb",
       "content_updated_at": "2026-06-19"
     },
     "/": {
-      "content_hash": "e7eaabbc44006d67",
+      "content_hash": "3b2a73a477f1a0ee",
       "content_updated_at": "2026-07-13"
     },
     "/compare-concert-ticket-prices": {
-      "content_hash": "37efa1a6c267c818",
+      "content_hash": "a9fbd130e00b5f30",
       "content_updated_at": "2026-07-13"
     },
     "/artists": {
-      "content_hash": "b7e55cbeab1a145d",
+      "content_hash": "6703357c8933ca00",
       "content_updated_at": "2026-07-13"
     },
     "/guides": {
-      "content_hash": "5d4599068915ad08",
+      "content_hash": "976a67dcb996eda5",
       "content_updated_at": "2026-07-13"
     },
     "/how-it-works": {
-      "content_hash": "047bad862f5d488d",
+      "content_hash": "e4b9ee11f9e3e8e9",
       "content_updated_at": "2026-07-13"
     },
     "/currency-converter": {
-      "content_hash": "ee77cc72504aa0fb",
+      "content_hash": "24bdf544caea2316",
       "content_updated_at": "2026-07-13"
     },
     "/about": {
-      "content_hash": "e4bfdead9f729c53",
+      "content_hash": "1ef36e705cc01ef4",
       "content_updated_at": "2026-07-13"
     },
     "/contact": {
-      "content_hash": "7342685230be98e5",
+      "content_hash": "5f58573312e8aeb0",
       "content_updated_at": "2026-07-13"
     },
     "/editorial-policy": {
-      "content_hash": "682f0b74c7894d46",
+      "content_hash": "91a7eec411175926",
       "content_updated_at": "2026-07-13"
     },
     "/affiliate-disclosure": {
-      "content_hash": "f2ed2b0a384c0f5f",
+      "content_hash": "86790b64759606db",
       "content_updated_at": "2026-07-13"
     }
   }

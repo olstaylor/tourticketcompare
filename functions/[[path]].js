@@ -36,12 +36,15 @@ const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robo
 // serves stale route metadata. This fallback mirrors _route-metadata.js and
 // prevents Googlebot/Search Console from seeing a transient 404/noindex response.
 //
-// The dates are read from GUIDE_ROUTES rather than restated. They used to be a
-// second hardcoded copy, which meant the automated provenance sync could
-// advance the canonical entry while this fallback kept publishing the old
-// "Updated" date on exactly the request where the canonical entry was missing.
-// Literal title/description/h1 stay inline on purpose: the whole point of the
-// fallback is to survive a metadata module that did not load.
+// Every field is a literal, dates included. Reading the dates from GUIDE_ROUTES
+// would defeat the fallback: it exists for the case where that entry is missing,
+// and an optional lookup would then yield undefined — stripping the page's
+// visible Published/Updated line and its Article datePublished/dateModified in
+// exactly the scenario the fallback is for. Drift is prevented instead by
+// scripts/route-metadata.test.mjs, which fails the build if these literals stop
+// matching the canonical entry that scripts/sync-content-provenance.mjs
+// maintains. Keep them in step by copying the canonical values here when that
+// test says so.
 const EVENT_PRICE_GUIDE_PATH = "/guides/how-to-compare-event-ticket-prices";
 const EVENT_PRICE_GUIDE_FALLBACK = {
   title: "How to Compare Event Ticket Prices | TourTicketCompare",
@@ -49,8 +52,8 @@ const EVENT_PRICE_GUIDE_FALLBACK = {
   description:
     "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, and final checkout total.",
   fullContent: true,
-  datePublished: GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH]?.datePublished,
-  lastmod: GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH]?.lastmod
+  datePublished: "2026-07-14",
+  lastmod: "2026-07-14"
 };
 
 // _headers applies to static-asset responses only, not to function-generated responses.

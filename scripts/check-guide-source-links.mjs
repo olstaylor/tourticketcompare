@@ -55,6 +55,11 @@ const option = (name) => {
 const DRY_RUN = flag('--dry-run');
 const SELF_TEST = flag('--self-test');
 const JSON_OUT = option('--json');
+// Apply stamps from a report a previous run produced, without re-probing.
+// The daily audit probes in its first job — where the report is uploaded as an
+// artefact and folded into the rolling issue — and stamps in the second, so
+// findings are actually delivered rather than left in transient step logs.
+const FROM_REPORT = option('--from-report');
 const TODAY = option('--today') || new Date().toISOString().slice(0, 10);
 const TIMEOUT_MS = Number(option('--timeout') || 15000);
 const CONCURRENCY = Number(option('--concurrency') || 4);
@@ -207,14 +212,30 @@ export function applyStampsToText(raw, stampsByUrl, today) {
   return { text, stamped };
 }
 
+/** Rebuild per-URL verdicts from a stored report, so stamping needs no network. */
+export function outcomesFromReport(report) {
+  const outcomes = [];
+  for (const url of report?.ok || []) outcomes.push({ url, verdict: 'ok', detail: 'from report' });
+  for (const entry of report?.blocked || []) outcomes.push({ url: entry.url, verdict: 'blocked', detail: entry.detail });
+  for (const entry of report?.needs_review || []) outcomes.push({ url: entry.url, verdict: 'failed', detail: entry.detail });
+  return outcomes;
+}
+
 async function run() {
   const raw = await fs.readFile(GUIDES_CONTENT_PATH, 'utf8');
   const guides = JSON.parse(raw);
 
   const urls = [...new Set(Object.values(guides).flatMap((g) => (g?.sources || []).map((s) => s?.url).filter(Boolean)))];
-  console.log(`Checking ${urls.length} unique guide source URLs (timeout ${TIMEOUT_MS}ms, concurrency ${CONCURRENCY})`);
 
-  const outcomes = await mapWithConcurrency(urls, CONCURRENCY, async (url) => ({ url, ...(await probe(url)) }));
+  let outcomes;
+  if (FROM_REPORT) {
+    const report = JSON.parse(await fs.readFile(path.resolve(FROM_REPORT), 'utf8'));
+    outcomes = outcomesFromReport(report);
+    console.log(`Applying ${outcomes.length} verdict(s) from ${FROM_REPORT} (no network)`);
+  } else {
+    console.log(`Checking ${urls.length} unique guide source URLs (timeout ${TIMEOUT_MS}ms, concurrency ${CONCURRENCY})`);
+    outcomes = await mapWithConcurrency(urls, CONCURRENCY, async (url) => ({ url, ...(await probe(url)) }));
+  }
 
   const byVerdict = { ok: [], blocked: [], failed: [], error: [] };
   for (const outcome of outcomes) byVerdict[outcome.verdict].push(outcome);
@@ -245,6 +266,20 @@ async function run() {
   if (JSON_OUT) {
     await fs.mkdir(path.dirname(path.resolve(JSON_OUT)), { recursive: true });
     await fs.writeFile(path.resolve(JSON_OUT), `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+  }
+
+  // Surface findings in the job summary as well as the report file, so a broken
+  // citation is visible on the run page without downloading an artefact.
+  if (process.env.GITHUB_STEP_SUMMARY && report.needs_review.length) {
+    const lines = [
+      '### Guide source links needing review',
+      '',
+      '| Source URL | Result |',
+      '| --- | --- |',
+      ...report.needs_review.map((entry) => `| ${entry.url} | ${entry.detail} |`),
+      ''
+    ];
+    await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, `${lines.join('\n')}\n`, 'utf8');
   }
 
   if (DRY_RUN) {
@@ -317,6 +352,19 @@ function selfTest() {
   const nextDay = applyStampsToText(expandedOut.text, new Map([['u1', 'ok']]), '2026-08-04');
   assert('existing stamp is updated in place', nextDay.text.includes('"linkCheckedAt": "2026-08-04"') && nextDay.stamped === 1);
   assert('editorial lastChecked survives a re-stamp', nextDay.text.includes('"lastChecked": "2026-01-01"'));
+
+  // A report round-trips into the same verdicts, so the probe/stamp split in
+  // the daily audit cannot change what gets stamped.
+  const report = { ok: ['a'], blocked: [{ url: 'b', detail: '403' }], needs_review: [{ url: 'c', detail: '404' }] };
+  const restored = new Map(outcomesFromReport(report).map((o) => [o.url, o.verdict]));
+  assert('report restores ok verdicts', restored.get('a') === 'ok');
+  assert('report restores blocked verdicts', restored.get('b') === 'blocked');
+  assert('report restores failed verdicts', restored.get('c') === 'failed');
+  assert('only the ok url stamps from a report', applyStampsToText(
+    '{\n  "/g": {\n    "sources": [\n      { "url": "a" },\n      { "url": "b" },\n      { "url": "c" }\n    ]\n  }\n}\n',
+    restored,
+    '2026-08-03'
+  ).stamped === 1);
 
   // Against the real file: the invariant that matters is that text surgery
   // changes the document in exactly one respect and no other. Stamp every

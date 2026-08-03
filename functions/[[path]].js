@@ -35,6 +35,13 @@ const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robo
 // Keep the highest-value editorial guide routable even if an edge deploy briefly
 // serves stale route metadata. This fallback mirrors _route-metadata.js and
 // prevents Googlebot/Search Console from seeing a transient 404/noindex response.
+//
+// The dates are read from GUIDE_ROUTES rather than restated. They used to be a
+// second hardcoded copy, which meant the automated provenance sync could
+// advance the canonical entry while this fallback kept publishing the old
+// "Updated" date on exactly the request where the canonical entry was missing.
+// Literal title/description/h1 stay inline on purpose: the whole point of the
+// fallback is to survive a metadata module that did not load.
 const EVENT_PRICE_GUIDE_PATH = "/guides/how-to-compare-event-ticket-prices";
 const EVENT_PRICE_GUIDE_FALLBACK = {
   title: "How to Compare Event Ticket Prices | TourTicketCompare",
@@ -42,8 +49,8 @@ const EVENT_PRICE_GUIDE_FALLBACK = {
   description:
     "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, and final checkout total.",
   fullContent: true,
-  datePublished: "2026-07-14",
-  lastmod: "2026-07-14"
+  datePublished: GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH]?.datePublished,
+  lastmod: GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH]?.lastmod
 };
 
 // _headers applies to static-asset responses only, not to function-generated responses.
@@ -2180,8 +2187,25 @@ function renderGuideSources(sources) {
       const name = String(source?.name || "").trim();
       if (!url || !name) return "";
       const publisher = String(source?.publisher || "").trim();
-      const checked = formatVerificationDate(source?.lastChecked);
-      const details = [publisher, checked ? `checked ${checked}` : ""].filter(Boolean).join(" · ");
+      // Two different claims, kept visibly distinct.
+      //
+      // `lastChecked` is editorial: a person read the source and confirmed this
+      // guide still describes it correctly. Only a human may set it, so it is
+      // labelled "reviewed" and goes stale honestly when nobody has re-read it.
+      //
+      // `linkCheckedAt` is what automation can actually prove — that the cited
+      // URL still resolves — and is stamped nightly by
+      // scripts/check-guide-source-links.mjs. Labelling it "link checked" stops
+      // an automated 200 from reading as an editorial review.
+      const reviewed = formatVerificationDate(source?.lastChecked);
+      const linkChecked = formatVerificationDate(source?.linkCheckedAt);
+      const details = [
+        publisher,
+        reviewed ? `reviewed ${reviewed}` : "",
+        linkChecked ? `link checked ${linkChecked}` : ""
+      ]
+        .filter(Boolean)
+        .join(" · ");
       return `<li><a class="text-link" href="${escapeAttr(url)}" target="_blank" rel="noopener">${escapeHtml(
         name
       )}</a>${details ? ` <span class="muted">(${escapeHtml(details)})</span>` : ""}</li>`;
@@ -3582,6 +3606,15 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
   );
   next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
+  // Footer copyright year. public/app.js fills #currentYear on load, so every
+  // JS visitor saw the right year and nobody noticed that the served HTML ships
+  // an empty span — crawlers and no-JS visitors were reading a bare
+  // "Copyright  TourTicketCompare". Filling it server-side makes the rendered
+  // year correct before any script runs; app.js then writes the same value.
+  next = next.replace(
+    /(<span\s+id="currentYear">)[^<]*(<\/span>)/i,
+    `$1${new Date().getUTCFullYear()}$2`
+  );
   if (route.path === "/") {
     // Homepage-only progressive enhancement: ttc-home.js hydrates the #ttc-main
     // mount with the full redesigned homepage. Same-origin, so it satisfies the

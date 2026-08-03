@@ -26184,11 +26184,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7745563",
-        "url": "https://www.ticketliquidator.com/tickets/7745563/Tame-Impala-tickets-Sun-Aug-2-2026-Spectrum-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107198187",
@@ -26202,7 +26202,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745563/Tame-Impala-tickets-Sun-Aug-2-2026-Spectrum-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-2-2026/event/107198187"
   },
   {

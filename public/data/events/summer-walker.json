@@ -497,7 +497,7 @@
     "ticketmaster_event_id": "35006436A7502325",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-2-2026--concerts-rb/production/6566289",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
     "last_verified_at": "2026-07-07",
@@ -518,11 +518,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6566289,
-        "url": "https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-2-2026--concerts-rb/production/6566289",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -635,7 +635,7 @@
         "event_id": 7210953,
         "url": "https://www.vividseats.com/broccoli-city-festival-tickets-bristow-jiffy-lube-live-9-19-2026/production/7210953",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -704,7 +704,7 @@
         "event_id": 7208420,
         "url": "https://www.vividseats.com/summer-walker-tickets-chicago-credit-union-1-arena-at-uic-10-16-2026/production/7208420",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -72,6 +72,8 @@ jobs:
       EVENT_ID: ${{ github.event.inputs.event_id || '' }}
       DATABASE: ${{ github.event.inputs.database || 'tourticketcompare-demand' }}
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
+      # /api/impact/products is token-gated; without this the proxy returns 404.
+      IMPACT_CATALOG_PROXY_TOKEN: ${{ secrets.DEBUG_API_TOKEN }}
       IMPACT_CATALOG_CREDENTIAL_SET: seatgeek
       IMPACT_CATALOG_API_VERSION: '16'
       IMPACT_TICKETNETWORK_ACCOUNT_SID: ${{ secrets.IMPACT_TICKETNETWORK_ACCOUNT_SID }}

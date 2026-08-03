@@ -1654,8 +1654,16 @@ for (const implausible of [3.8, 0]) {
   assert(implausibleLane?.price === null && implausibleLane?.providerStatus === "unavailable", `an implausible listed price (${implausible}) must be withheld even from a fresh approved snapshot`);
   // Only assert non-leakage for the distinctive value; "0" is a substring of
   // timestamps, ids and counts throughout the payload.
+  //
+  // ISO timestamps carry a millisecond fraction, so a payload generated at a
+  // second ending in 3 with milliseconds starting with 8 ("...:33.854Z")
+  // contains the literal "3.8" with no price involved. That made this a real
+  // (roughly 1-in-100 per timestamp) flake, observed failing CI on run
+  // 30816574427 at 13:09:33.854. Strip timestamps first so the check tests
+  // price leakage, which is what it is for.
   if (implausible === 3.8) {
-    assert(!JSON.stringify(implausibleJson).includes("3.8"), "a withheld implausible price must not leak into the response payload");
+    const payloadWithoutTimestamps = JSON.stringify(implausibleJson).replace(/\d{4}-\d{2}-\d{2}T[\d:.]+Z/g, "");
+    assert(!payloadWithoutTimestamps.includes("3.8"), "a withheld implausible price must not leak into the response payload");
   }
   globalThis.caches.default = new MemoryCache();
 }

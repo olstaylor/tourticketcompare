@@ -2824,6 +2824,7 @@ assert(
 // invariant is that a card carrying a price never also carries the note.
 const pricedMorganCards = serverPricedMorgan.text
   .split("<article")
+  .map((card) => card.split("</article>")[0])
   .filter((card) => card.includes("provider-cta-price"));
 assert(pricedMorganCards.length > 0, "the priced Morgan Wallen board should render at least one card with a snapshot");
 assert(

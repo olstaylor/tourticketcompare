@@ -909,7 +909,7 @@
     "status": "announced",
     "ticketmaster_event_id": "0200635DC72EC234",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
-    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-07-31-5-30-pm/concert/17873142",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-philadelphia-lincoln-financial-field-7-31-2026--concerts-country-and-folk/production/6207820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-still-the-problem-tour-philadelphia-pennsylvania-07-31-2026/event/0200635DC72EC234",
@@ -924,11 +924,11 @@
         "discovery_event_id": "vv17FZbgGkM65iFV"
       },
       "seatgeek": {
-        "event_id": 17873142,
-        "url": "https://seatgeek.com/morgan-wallen-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-07-31-5-30-pm/concert/17873142",
-        "verified": true,
-        "last_verified_at": "2026-07-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6207820,
@@ -945,32 +945,32 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7529810",
-        "url": "https://www.ticketnetwork.com/en/p/7529810",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7529810",
-        "url": "https://www.ticketliquidator.com/tickets/7529810/Morgan-Wallen-tickets-Fri-Jul-31-2026-Lincoln-Financial-Field",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107004331",
-        "url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-7-31-2026/event/107004331",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv17FZbgGkM65iFV",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529810",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529810/Morgan-Wallen-tickets-Fri-Jul-31-2026-Lincoln-Financial-Field",
-    "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-7-31-2026/event/107004331"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-morgan-wallen-2026-philadelphia-0200635da084a7a9",
@@ -1004,7 +1004,7 @@
         "event_id": 17873143,
         "url": "https://seatgeek.com/morgan-wallen-tickets/philadelphia-pennsylvania-lincoln-financial-field-2026-08-01-5-30-pm/concert/17873143",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1022,31 +1022,31 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7529811",
-        "url": "https://www.ticketnetwork.com/en/p/7529811",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7529811",
-        "url": "https://www.ticketliquidator.com/tickets/7529811/Morgan-Wallen-tickets-Sat-Aug-1-2026-Lincoln-Financial-Field",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107007147",
-        "url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-8-1-2026/event/107007147",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv17FZbgGkUO-1rt",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7529811",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7529811/Morgan-Wallen-tickets-Sat-Aug-1-2026-Lincoln-Financial-Field",
-    "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-philadelphia-tickets-8-1-2026/event/107007147"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   }
 ]

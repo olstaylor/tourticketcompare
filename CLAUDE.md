@@ -92,8 +92,12 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
                           exact badge display-eligibility gate, per-provider only
     rates.js              Cache-backed ECB daily reference rates (via Frankfurter) for the
                           /currency-converter page; fail-closed 503, provider prices never converted
-    debug-seatgeek.js     Internal diagnostic (kept deliberately)
-    impact/               Impact API diagnostics (health, catalogs, products, tracking-links)
+    debug-seatgeek.js     Internal diagnostic (kept deliberately); DEBUG_API_TOKEN-gated
+    impact/               Impact API diagnostics (health, catalogs, products, tracking-links).
+                          Every route proxies an authenticated Publisher API call on the
+                          account's own credentials, so all four are DEBUG_API_TOKEN-gated
+                          and 404 without it — never expose one publicly. Automation reading
+                          catalogs through IMPACT_CATALOG_PROXY_URL must send the token too.
   _provider-registry.js + api/_providers/  Parked scaffolding — do not build on
                           without a scoped provider integration (see BACKLOG.md)
 

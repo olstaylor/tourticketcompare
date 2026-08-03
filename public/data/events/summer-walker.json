@@ -471,18 +471,18 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107092100",
-        "url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-1-8-2026/event/107092100",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk8MGkdnfpsx",
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "stubhub_international_url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-1-8-2026/event/107092100"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-summer-walker-2026-london-1agzk8ugkeefegp",
@@ -497,7 +497,7 @@
     "ticketmaster_event_id": "35006436A7502325",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-2-2026--concerts-rb/production/6566289",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/summer-walker-london-02-08-2026/event/35006436A7502325",
     "last_verified_at": "2026-07-07",
@@ -518,11 +518,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6566289,
-        "url": "https://www.vividseats.com/summer-walker-tickets-london-the-o2---london-8-2-2026--concerts-rb/production/6566289",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -532,18 +532,18 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107083245",
-        "url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-2-8-2026/event/107083245",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk8UGkeEfeGP",
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "stubhub_international_url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-2-8-2026/event/107083245"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-summer-walker-2026-houston-z7r9jz1a7oixf",
@@ -635,7 +635,7 @@
         "event_id": 7210953,
         "url": "https://www.vividseats.com/broccoli-city-festival-tickets-bristow-jiffy-lube-live-9-19-2026/production/7210953",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -697,14 +697,14 @@
         "event_id": 18328041,
         "url": "https://seatgeek.com/summer-walker-tickets/chicago-illinois-credit-union-1-arena-at-uic-2026-10-16-7-30-pm/concert/18328041",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7208420,
         "url": "https://www.vividseats.com/summer-walker-tickets-chicago-credit-union-1-arena-at-uic-10-16-2026/production/7208420",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "stubhub": {

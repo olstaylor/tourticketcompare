@@ -1,6 +1,8 @@
-import { impactReadiness, json } from "./_utils.js";
+import { diagnosticNotFound, impactReadiness, isDiagnosticAuthorised, json } from "./_utils.js";
 
-export async function onRequestGet({ env }) {
+export async function onRequestGet({ request, env }) {
+  if (!isDiagnosticAuthorised(request, env)) return diagnosticNotFound();
+
   const readiness = impactReadiness(env, "seatgeek");
   const productSearchConfigured = readiness.configured;
   return json({

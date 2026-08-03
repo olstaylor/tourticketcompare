@@ -13,6 +13,35 @@ export function json(payload, status = 200) {
   });
 }
 
+// Every route in this directory is an internal diagnostic that proxies an
+// authenticated impact.com Publisher API call using the account's own
+// credentials. None of them serve the public site, so they are gated behind
+// DEBUG_API_TOKEN exactly like /api/debug-seatgeek: no token, no route.
+// Ungated they are an open proxy — anyone can spend the account's API quota,
+// read its catalog/campaign relationships, or POST a real tracking link.
+//
+// Fail closed: an unset DEBUG_API_TOKEN denies every request rather than
+// falling back to open access. The token may arrive as `?token=` or as an
+// X-Debug-Token header, so POST callers need not put it in a logged URL.
+export function isDiagnosticAuthorised(request, env) {
+  const expected = clean(env?.DEBUG_API_TOKEN, 255);
+  if (!expected) return false;
+  let supplied = "";
+  try {
+    supplied = clean(new URL(request?.url).searchParams.get("token"), 255);
+  } catch {
+    supplied = "";
+  }
+  if (!supplied) supplied = clean(request?.headers?.get?.("x-debug-token"), 255);
+  return Boolean(supplied) && supplied === expected;
+}
+
+// Unauthorised callers get a generic 404 — the same response an unrouted path
+// would give, so the endpoint's existence is not confirmed.
+export function diagnosticNotFound() {
+  return json({ ok: false, error: "Not found" }, 404);
+}
+
 export function impactCredentialSet(value) {
   const requested = clean(value, 40).toLowerCase();
   return IMPACT_CREDENTIAL_SETS.has(requested) ? requested : "shared";

@@ -52,7 +52,9 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
                           sends all HTML routes to [[path]].js
   [[path]].js             HTML routing: titles, meta, schemas, redirects, 404s
   _route-metadata.js      Single source of truth for page metadata and guide routes —
-                          edit here, not in [[path]].js
+                          edit here, not in [[path]].js. Guide/trust `lastmod` values are
+                          generated: edit the copy and run `npm run content:provenance`,
+                          never the date by hand (see docs/CONTENT_RULES.md → Guides).
   _cities.js              City aggregation derived from reviewed events (shared with
                           sitemap/llms.txt; substantial-content indexing gate)
   _venues.js              Venue aggregation derived from reviewed events (shared with
@@ -102,6 +104,8 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
 data/
   provider-identities.json  Verified provider identity registry (TM attraction ids,
                             SeatGeek performer ids) — human-verified entries only
+  content-provenance.json   Generated content fingerprints for static routes; the state
+                            behind every guide/trust-page "Updated" date. Do not hand-edit.
 
 scripts/                  Validation, discovery, and automation tooling (see CONTRIBUTING.md
                           and docs/DEPLOYMENT.md for the command map)
@@ -150,7 +154,7 @@ Impact credentials are never exposed client-side; they are used only by server f
 
 Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS.md`.
 
-- `daily-audit.yml` (03:00 UTC) — URL liveness + Ticketmaster Discovery diff into a rolling issue; auto-commits verification-date bumps (`last_verified_at` for clean artists) directly to `main` after in-job validation (owner-approved 2026-07-28; the old human-review PR flow is retired).
+- `daily-audit.yml` (03:00 UTC) — URL liveness + Ticketmaster Discovery diff into a rolling issue; auto-commits verification-date bumps (`last_verified_at` for clean artists) directly to `main` after in-job validation (owner-approved 2026-07-28; the old human-review PR flow is retired). Also re-checks that every guide's cited source URL resolves and stamps `linkCheckedAt`; it never touches the editorial `lastChecked` and can never move a page's published "Updated" date.
 - `nightly-data-sync.yml` (03:30 UTC) — lossless factual refresh (date/time, venue, `event_name`, canonical TM URL) auto-committed to `main` per event; anything needing judgement goes to the rolling issue.
 - `tm-new-shows-pr.yml` (04:00 UTC) — new-show discovery PR; auto-merges once its in-run validation suite passes (owner-approved). `tour_name` stays blank for human review.
 - `seatgeek-discovery-proposal.yml` (dispatch) — proposal-only SeatGeek event-URL discovery.
@@ -185,6 +189,8 @@ npm run audit:indexable-surface                   # if any route/indexability lo
 npm run impact-providers:sync:self-test            # shared Impact catalog matcher
 npm run impact-providers:prices:self-test          # exact-ID snapshot writer
 npm run events:sync                               # required after any public/data/*.json edit
+npm run content:provenance                        # required after editing guide or trust-page copy
+npm run guides:sources:check:dry-run              # optional: confirm cited guide sources resolve
 node --check public/app.js 'functions/[[path]].js' functions/api/out.js
 git diff --check
 ```

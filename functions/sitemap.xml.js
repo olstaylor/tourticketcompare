@@ -30,10 +30,20 @@ async function loadJsonAsset(env, pathname) {
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
-// Stable freshness date for static/guide routes. These pages change rarely, so
-// stamping them with "today" on every request is a noisy/false signal to crawlers.
-// Bump this when the static page content or guides are meaningfully revised.
-const STATIC_LASTMOD = "2026-07-13";
+// Static and guide routes carry their own `lastmod`, maintained by
+// scripts/sync-content-provenance.mjs: it fingerprints each page's copy and
+// advances the date only when the copy actually changes. This replaces a
+// hardcoded constant that nobody remembered to bump — it had been frozen at
+// 2026-07-13 while eleven guides were separately declaring dates from June.
+//
+// `lastmod` is optional per the sitemap protocol, so a route with no verifiable
+// modification date now omits the element entirely rather than inheriting a
+// shared date that was true for none of them. A wrong lastmod is worse than an
+// absent one: crawlers learn to distrust the whole file.
+const lastmodOf = (value) => (ISO_DATE.test(String(value || "")) ? String(value) : null);
+
+/** Newest of a set of ISO dates, or null when none are usable. */
+const newestDate = (...values) => values.map(lastmodOf).filter(Boolean).sort().at(-1) || null;
 
 async function loadIndexableVenues(env) {
   try {
@@ -65,6 +75,37 @@ async function loadIndexableArtistCities(env, indexableArtistSlugs) {
   }
 }
 
+/**
+ * slug -> last_verified_at for every artist that has one, unfiltered.
+ *
+ * Location pages take their lastmod from the newest `last_verified_at` among
+ * the event rows they aggregate, but 269 of 607 event records carry no such
+ * field, which left 54 city/venue/artist-city routes with no date at all. They
+ * used to inherit the shared static constant, which asserted a verification
+ * date those pages had never had.
+ *
+ * The honest fallback is the artist-level verification date for the artists
+ * whose shows the page is built from: a real date, produced by the same daily
+ * audit, describing the same underlying records. It is the date the artist page
+ * itself publishes for that content.
+ */
+async function loadArtistVerificationDates(env) {
+  try {
+    const artistsMeta = await loadJsonAsset(env, "/data/artists.json");
+    if (!Array.isArray(artistsMeta)) return new Map();
+    return new Map(
+      artistsMeta
+        .map((artist) => [String(artist?.slug || "").trim(), lastmodOf(artist?.last_verified_at)])
+        .filter(([slug, date]) => slug && date)
+    );
+  } catch (error) {
+    return new Map();
+  }
+}
+
+/** Newest artist verification date across a page's contributing artists. */
+const artistFallbackLastmod = (dates, slugs) => newestDate(...(slugs || []).map((slug) => dates.get(slug)));
+
 async function loadIndexableArtists(env) {
   try {
     const [catalog, artistsMeta, events] = await Promise.all([
@@ -92,10 +133,7 @@ async function loadIndexableArtists(env) {
     return catalog.artists
       .map((artist) => String(artist?.slug || "").trim())
       .filter((slug) => slug && verifiedBySlug.has(slug))
-      .map((slug) => {
-        const verified = verifiedBySlug.get(slug);
-        return { slug, lastmod: ISO_DATE.test(verified) ? verified : STATIC_LASTMOD };
-      });
+      .map((slug) => ({ slug, lastmod: lastmodOf(verifiedBySlug.get(slug)) }));
   } catch (error) {
     return [];
   }
@@ -104,16 +142,30 @@ async function loadIndexableArtists(env) {
 export async function onRequestGet({ request, env }) {
   const requestUrl = new URL(request.url);
   const origin = canonicalOrigin(`${requestUrl.protocol}//${requestUrl.host}`);
-  const staticEntries = STATIC_INDEXABLE_PATHS.map((path) => {
-    const guideLastmod = GUIDE_ROUTES[path]?.lastmod;
-    return {
-      path,
-      lastmod: ISO_DATE.test(String(guideLastmod || "")) ? guideLastmod : STATIC_LASTMOD,
-      changefreq: "monthly",
-      priority: path === "/" ? "1.0" : "0.6"
-    };
-  });
-  const indexableArtists = await loadIndexableArtists(env);
+  const [indexableArtists, artistVerificationDates] = await Promise.all([
+    loadIndexableArtists(env),
+    loadArtistVerificationDates(env)
+  ]);
+  // Index pages are as fresh as the newest thing they list, which is a real
+  // date rather than an assertion about their own copy. Their own content
+  // fingerprint still counts — whichever is newer wins.
+  const newestArtistLastmod = newestDate(...indexableArtists.map((artist) => artist.lastmod));
+  const newestGuideLastmod = newestDate(...Object.values(GUIDE_ROUTES).map((route) => route.lastmod));
+  const DATA_DERIVED_INDEX_LASTMOD = {
+    "/": newestArtistLastmod,
+    "/artists": newestArtistLastmod,
+    "/compare-concert-ticket-prices": newestArtistLastmod,
+    "/guides": newestGuideLastmod
+  };
+  const staticEntries = STATIC_INDEXABLE_PATHS.map((path) => ({
+    path,
+    lastmod: newestDate(
+      GUIDE_ROUTES[path]?.lastmod ?? TRUST_ROUTES[path]?.lastmod,
+      DATA_DERIVED_INDEX_LASTMOD[path]
+    ),
+    changefreq: "monthly",
+    priority: path === "/" ? "1.0" : "0.6"
+  }));
   const artistEntries = indexableArtists.map(({ slug, lastmod }) => ({
     path: `/artists/${slug}`,
     lastmod,
@@ -125,7 +177,7 @@ export async function onRequestGet({ request, env }) {
   const artistCityEntries = (await loadIndexableArtistCities(env, indexableArtists.map((artist) => artist.slug))).map(
     ({ path, lastmod }) => ({
       path,
-      lastmod: ISO_DATE.test(String(lastmod || "")) ? lastmod : STATIC_LASTMOD,
+      lastmod: newestDate(lastmod, artistFallbackLastmod(artistVerificationDates, [path.split("/")[2]])),
       changefreq: "weekly",
       priority: "0.7"
     })
@@ -134,23 +186,27 @@ export async function onRequestGet({ request, env }) {
     loadIndexableCities(env),
     loadIndexableVenues(env)
   ]);
-  const cityLastmod = indexableCities.map((city) => city.lastmod).filter((value) => ISO_DATE.test(value)).sort().at(-1) || STATIC_LASTMOD;
+  const cityLastmod = newestDate(
+    ...indexableCities.map((city) => newestDate(city.lastmod, artistFallbackLastmod(artistVerificationDates, city.artistSlugs)))
+  );
   const cityEntries = indexableCities.length
     ? [{ path: "/cities", lastmod: cityLastmod, changefreq: "weekly", priority: "0.7" }].concat(
         indexableCities.map((city) => ({
           path: `/cities/${city.slug}`,
-          lastmod: ISO_DATE.test(city.lastmod) ? city.lastmod : STATIC_LASTMOD,
+          lastmod: newestDate(city.lastmod, artistFallbackLastmod(artistVerificationDates, city.artistSlugs)),
           changefreq: "weekly",
           priority: "0.7"
         }))
       )
     : [];
-  const venueLastmod = indexableVenues.map((venue) => venue.lastmod).filter((value) => ISO_DATE.test(value)).sort().at(-1) || STATIC_LASTMOD;
+  const venueLastmod = newestDate(
+    ...indexableVenues.map((venue) => newestDate(venue.lastmod, artistFallbackLastmod(artistVerificationDates, venue.artistSlugs)))
+  );
   const venueEntries = indexableVenues.length
     ? [{ path: "/venues", lastmod: venueLastmod, changefreq: "weekly", priority: "0.6" }].concat(
         indexableVenues.map((venue) => ({
           path: `/venues/${venue.slug}`,
-          lastmod: ISO_DATE.test(venue.lastmod) ? venue.lastmod : STATIC_LASTMOD,
+          lastmod: newestDate(venue.lastmod, artistFallbackLastmod(artistVerificationDates, venue.artistSlugs)),
           changefreq: "weekly",
           priority: "0.6"
         }))
@@ -160,14 +216,19 @@ export async function onRequestGet({ request, env }) {
 
   const urlsXml = entries
     .map((entry) => {
+      // <lastmod> is optional in the protocol. Emit it only when a real date
+      // backs it, rather than falling back to a shared constant that would be
+      // wrong for every route that inherited it.
       return [
         "  <url>",
         `    <loc>${escapeXml(`${origin}${entry.path}`)}</loc>`,
-        `    <lastmod>${escapeXml(entry.lastmod)}</lastmod>`,
+        entry.lastmod ? `    <lastmod>${escapeXml(entry.lastmod)}</lastmod>` : null,
         `    <changefreq>${entry.changefreq}</changefreq>`,
         `    <priority>${entry.priority}</priority>`,
         "  </url>"
-      ].join("\n");
+      ]
+        .filter(Boolean)
+        .join("\n");
     })
     .join("\n");
 

@@ -497,18 +497,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107075185",
-        "url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-2-2026/event/107075185",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "k7vGF_eEcG5Sl",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676859",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676859/BTS-tickets-Sun-Aug-2-2026-MetLife-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-2-2026/event/107075185"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cbd7ab56b",

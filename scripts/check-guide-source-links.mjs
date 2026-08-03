@@ -144,7 +144,13 @@ export function applyStamps(guides, stampsByUrl, today) {
  */
 export function applyStampsToText(raw, stampsByUrl, today) {
   let stamped = 0;
-  const text = raw.replace(/\{[^{}]*"url"\s*:\s*"([^"]+)"[^{}]*\}/g, (objectText, url) => {
+
+  // Only ever edit inside a `"sources": [ ... ]` array. A guide's `schema`
+  // block is JSON-LD and can legitimately carry its own `url` key; without this
+  // scope, a schema node whose url happened to match a cited source would have
+  // had a linkCheckedAt field injected into the structured data.
+  const stampSourcesArray = (arrayText) =>
+    arrayText.replace(/\{[^{}]*"url"\s*:\s*"([^"]+)"[^{}]*\}/g, (objectText, url) => {
     const verdict = stampsByUrl.get(url);
     if (!verdict || !shouldStamp(verdict)) return objectText;
 
@@ -169,7 +175,35 @@ export function applyStampsToText(raw, stampsByUrl, today) {
     const indentMatch = objectText.match(/\n(\s*)"[^"]+"\s*:/);
     const indent = indentMatch ? indentMatch[1] : "  ";
     return objectText.replace(/\s*\}$/, multiline ? `,\n${indent}"linkCheckedAt": "${today}"\n${indent.slice(2)}}` : `, "linkCheckedAt": "${today}" }`);
-  });
+    });
+
+  // Walk each `"sources": [` to its balanced `]` and stamp only within it.
+  // Source arrays contain no nested arrays, so a depth counter is sufficient.
+  let text = '';
+  let cursor = 0;
+  const opener = /"sources"\s*:\s*\[/g;
+  let match;
+  while ((match = opener.exec(raw)) !== null) {
+    const arrayStart = match.index + match[0].length - 1;
+    let depth = 0;
+    let arrayEnd = -1;
+    for (let i = arrayStart; i < raw.length; i += 1) {
+      if (raw[i] === '[') depth += 1;
+      else if (raw[i] === ']') {
+        depth -= 1;
+        if (depth === 0) {
+          arrayEnd = i + 1;
+          break;
+        }
+      }
+    }
+    if (arrayEnd < 0) break;
+    text += raw.slice(cursor, arrayStart) + stampSourcesArray(raw.slice(arrayStart, arrayEnd));
+    cursor = arrayEnd;
+    opener.lastIndex = arrayEnd;
+  }
+  text += raw.slice(cursor);
+
   return { text, stamped };
 }
 
@@ -253,6 +287,13 @@ function selfTest() {
   assert('unchecked sibling untouched', doc['/g'].sources[1].linkCheckedAt === undefined);
 
   assert('stamping is idempotent', applyStamps(doc, new Map([['a', 'ok']]), '2026-08-03') === 0);
+
+  // A url outside a sources array — a JSON-LD node, say — must never be stamped.
+  const withSchema =
+    '{\n  "/g": {\n    "schema": { "@type": "Article", "url": "u1" },\n    "sources": [\n      { "name": "N", "url": "u1", "lastChecked": "2026-01-01" }\n    ]\n  }\n}\n';
+  const schemaOut = applyStampsToText(withSchema, new Map([['u1', 'ok']]), '2026-08-03');
+  assert('schema node with a matching url is not stamped', schemaOut.text.includes('"schema": { "@type": "Article", "url": "u1" }'));
+  assert('the real citation is still stamped', schemaOut.stamped === 1 && schemaOut.text.includes('"lastChecked": "2026-01-01", "linkCheckedAt": "2026-08-03"'));
 
   // --- text writer: preserves each citation's existing layout ---------------
   const compact = '{\n  "/g": {\n    "sources": [\n      { "name": "N", "url": "u1", "lastChecked": "2026-01-01" }\n    ]\n  }\n}\n';

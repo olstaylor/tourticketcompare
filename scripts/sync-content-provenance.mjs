@@ -65,8 +65,16 @@ const STATE_PATH = path.join(ROOT, 'data', 'content-provenance.json');
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
+// The router function that returns every page body. Trust-route branches are
+// located *inside* this function, never across the whole file: `route.type ===
+// "comparison-hub"` also opens a branch in routeSchema() several thousand lines
+// earlier, and a naive whole-file indexOf matched that one — fingerprinting the
+// hub's JSON-LD instead of its visible copy, so edits to the hub's words would
+// never have advanced its date. Scoping first makes the branch unambiguous.
+const RENDER_CONTAINER = 'renderMainContent';
+
 /**
- * How to find each trust route's body copy inside functions/[[path]].js.
+ * How to find each trust route's body copy inside renderMainContent().
  *
  * `block` is the opening line of the branch that returns the page body; the
  * extractor takes it to its matching close. `also` names shared helpers whose
@@ -141,12 +149,34 @@ export function extractBlock(source, opener) {
   return null;
 }
 
-/** Extract a top-level `function name(...) { ... }` declaration. */
+/**
+ * Extract a top-level `function name(...) { ... }` declaration, body included.
+ *
+ * Brace counting cannot start at the declaration: a parameter list with
+ * destructured or object defaults — `renderMainContent(route, catalog, events =
+ * [], guideContent = {}, env = {})` — opens and closes braces before the body
+ * begins, so a naive counter terminates on `guideContent = {}` and returns a
+ * signature instead of a function. Match the parameter parens first, then take
+ * the balanced block from the `{` that follows.
+ */
 export function extractFunction(source, name) {
-  const marker = `\nfunction ${name}(`;
+  const marker = `function ${name}(`;
   const at = source.indexOf(marker);
   if (at < 0) return null;
-  return extractBlock(source.slice(at + 1), `function ${name}(`);
+  let depth = 0;
+  for (let i = at + marker.length - 1; i < source.length; i += 1) {
+    if (source[i] === '(') depth += 1;
+    else if (source[i] === ')') {
+      depth -= 1;
+      if (depth === 0) {
+        const brace = source.indexOf('{', i);
+        if (brace < 0) return null;
+        const body = extractBlock(source.slice(brace), '{');
+        return body ? source.slice(at, brace) + body : null;
+      }
+    }
+  }
+  return null;
 }
 
 /**
@@ -230,8 +260,14 @@ export function writeLastmod(source, routePath, value) {
   if (!/lastmod:\s*"[\d-]*"/.test(entry)) {
     throw new Error(`cannot write lastmod: route ${routePath} has no lastmod field to update`);
   }
-  const updated = entry.replace(/lastmod:\s*"[\d-]*"/, `lastmod: "${value}"`);
-  return source.replace(entry, updated);
+  const updated = entry.replace(/lastmod:\s*"[\d-]*"/, () => `lastmod: "${value}"`);
+  // Splice by index, not String.replace: a string replacement argument
+  // interprets $&, $`, $', $$ and $n, so a route whose title or description
+  // ever contained one of those would be silently corrupted — in a protected
+  // file where a syntax error breaks every HTML route. The callback form above
+  // is safe for the same reason.
+  const at = source.indexOf(entry);
+  return source.slice(0, at) + updated + source.slice(at + entry.length);
 }
 
 async function buildFingerprints() {
@@ -243,6 +279,10 @@ async function buildFingerprints() {
 
   const guides = parseRouteObject(metadataSource, 'GUIDE_ROUTES');
   const trust = parseRouteObject(metadataSource, 'TRUST_ROUTES');
+  const renderContainer = extractFunction(routerSource, RENDER_CONTAINER);
+  if (!renderContainer) {
+    fail(`could not locate ${RENDER_CONTAINER}() in functions/[[path]].js — trust-route copy cannot be fingerprinted`);
+  }
   const routes = new Map();
 
   for (const routePath of guides.paths) {
@@ -268,11 +308,21 @@ async function buildFingerprints() {
     const metadata = extractMetadataEntry(trust.block, routePath);
     if (!metadata) fail(`trust route ${routePath} could not be fingerprinted`);
 
-    const body = spec.tail ? extractTail(routerSource, spec.tail) : extractBlock(routerSource, spec.block);
+    const body = spec.tail ? extractTail(renderContainer, spec.tail) : extractBlock(renderContainer, spec.block);
     if (!body) {
       fail(
-        `trust route ${routePath}: render block not found in functions/[[path]].js ` +
+        `trust route ${routePath}: render block not found inside ${RENDER_CONTAINER}() ` +
           `(looked for ${JSON.stringify(spec.tail || spec.block)}). The renderer moved — update RENDER_SPECS.`
+      );
+    }
+    // Cheap proof that we captured page copy and not some same-shaped branch
+    // elsewhere (a schema builder, a redirect table). Every trust body this
+    // script tracks returns the page's <main>; if one does not, the spec is
+    // pointing at the wrong thing and the date would silently freeze.
+    if (!body.includes('<main id="mainContent">')) {
+      fail(
+        `trust route ${routePath}: the matched block contains no <main id="mainContent">, so it is not ` +
+          `the page body. Fix its RENDER_SPECS entry rather than fingerprinting the wrong source.`
       );
     }
     const helpers = (spec.also || []).map((name) => {
@@ -418,6 +468,11 @@ async function selfTest() {
   assert('extractBlock balances braces', extractBlock(sample, 'if (x) {') === 'if (x) {\n  return `a${ {b: 1} }c`;\n}');
   assert('extractBlock misses cleanly', extractBlock(sample, 'if (y) {') === null);
 
+  // A parameter list with object defaults must not be mistaken for the body.
+  const withDefaults = 'function f(a, b = {}, c = {}) {\n  return 1;\n}\n';
+  assert('extractFunction skips object defaults in params', extractFunction(withDefaults, 'f') === 'function f(a, b = {}, c = {}) {\n  return 1;\n}');
+  assert('extractFunction misses cleanly', extractFunction(withDefaults, 'g') === null);
+
   // Provenance fields must not reach the fingerprint.
   const meta = '  "/x": {\n    title: "T",\n    datePublished: "2026-01-01",\n    lastmod: "2026-01-02"\n  },';
   const entry = extractMetadataEntry(meta, '/x');
@@ -439,6 +494,13 @@ async function selfTest() {
   const written = writeLastmod(two, '/b', '2026-09-09');
   assert('writeLastmod updates the target', written.includes('"/b": {\n    lastmod: "2026-09-09"'));
   assert('writeLastmod leaves siblings alone', written.includes('"/a": {\n    lastmod: "2026-01-01"'));
+
+  // $-substitution patterns in surrounding copy must survive untouched. A
+  // String.replace with a string replacement would mangle these.
+  const dollars = '  "/c": {\n    title: "Save $& now $\' and $$ and $1",\n    lastmod: "2026-01-01"\n  },';
+  const dollarsOut = writeLastmod(dollars, '/c', '2026-09-09');
+  assert('writeLastmod does not interpret $ patterns', dollarsOut.includes('title: "Save $& now $\' and $$ and $1"'));
+  assert('writeLastmod still updates alongside $ patterns', dollarsOut.includes('lastmod: "2026-09-09"'));
 
   // Every real route must resolve to real copy.
   const { routes } = await buildFingerprints();

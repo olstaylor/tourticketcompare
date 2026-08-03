@@ -11,6 +11,7 @@ import {
   PROVIDERS,
   catalogItems,
   catalogItemsUrl,
+  catalogProxyHeaders,
   clean,
   impactCredentials,
   productCandidates,
@@ -107,7 +108,11 @@ async function fetchArtistCatalog(config, artistName, env = process.env, fetchIm
   try {
     for (let page = 1; page <= MAX_PAGES; page += 1) {
       const response = await fetchWithTimeout(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
-        headers: { Accept: "application/json", ...(authorization ? { Authorization: authorization } : {}) }
+        headers: {
+          Accept: "application/json",
+          ...(authorization ? { Authorization: authorization } : {}),
+          ...catalogProxyHeaders(env)
+        }
       }, fetchImpl);
       if (!response.ok) return { ok: false, reason: `Impact Catalogs returned HTTP ${response.status}` };
       const payload = await response.json();

@@ -1,9 +1,11 @@
 import {
   basicAuthHeader,
   clean,
+  diagnosticNotFound,
   impactCatalogApiVersion,
   impactConfig,
   impactCredentialSet,
+  isDiagnosticAuthorised,
   json,
   missingCredentialsPayload,
   readImpactResponse
@@ -58,6 +60,8 @@ function safeProduct(product) {
 }
 
 export async function onRequestGet({ request, env }) {
+  if (!isDiagnosticAuthorised(request, env)) return diagnosticNotFound();
+
   const url = new URL(request.url);
   const credentialSet = impactCredentialSet(url.searchParams.get("credentialSet"));
   const config = impactConfig(env, credentialSet);

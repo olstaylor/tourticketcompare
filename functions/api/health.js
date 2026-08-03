@@ -89,6 +89,9 @@ export async function onRequestGet({ env }) {
       impactStubHubInternationalConfigured: stubHubInternational.trackingConfigured,
       seatGeekClientId: hasBinding(env, "SEATGEEK_CLIENT_ID"),
       seatGeekClientSecret: hasBinding(env, "SEATGEEK_CLIENT_SECRET"),
+      // Presence only, never the value. Gates /api/debug-seatgeek and every
+      // /api/impact/* diagnostic; when false those routes all return 404.
+      debugApiToken: hasBinding(env, "DEBUG_API_TOKEN"),
       retiredTicketmasterImpactCredentialsIgnored: Boolean(
         hasBinding(env, "IMPACT_ACCOUNT_SID") || hasBinding(env, "IMPACT_AUTH_TOKEN")
       )

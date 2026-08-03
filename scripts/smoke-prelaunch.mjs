@@ -1927,21 +1927,58 @@ assert(fallbackHealthJson.bindings.impactTicketNetworkConfigured === true, "Tick
 assert(fallbackHealthJson.bindings.impactTicketLiquidatorConfigured === true, "Ticket Liquidator health should recognize the verified SeatGeek-scoped credential fallback");
 assert(fallbackHealthJson.bindings.impactStubHubInternationalConfigured === true, "StubHub International health should recognize the verified SeatGeek-scoped credential fallback");
 
-const impactHealth = await impactHealthModule.onRequestGet({ env });
+// /api/impact/* are internal diagnostics that proxy authenticated Publisher API
+// calls on the account's own credentials. Ungated they are an open proxy, so
+// every route must 404 without DEBUG_API_TOKEN — including the POST route that
+// creates a real tracking link, which must be refused before confirmCreate is
+// even read. `env` deliberately carries no token, so it doubles as the
+// unauthorised fixture.
+const impactGateFixtures = [
+  ["/api/impact/health", () => impactHealthModule.onRequestGet({
+    request: new Request("https://tourticketcompare.com/api/impact/health"),
+    env
+  })],
+  ["/api/impact/products", () => impactProductsModule.onRequestGet({
+    request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
+    env
+  })],
+  ["/api/impact/tracking-links", () => impactTrackingModule.onRequestPost({
+    request: new Request("https://tourticketcompare.com/api/impact/tracking-links", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ confirmCreate: true, programId: "123" })
+    }),
+    env
+  })]
+];
+for (const [route, invoke] of impactGateFixtures) {
+  const response = await invoke();
+  const payload = await response.json();
+  assert(response.status === 404, `${route} must 404 without DEBUG_API_TOKEN`);
+  assert(payload.error === "Not found" && payload.ok === false, `${route} must not confirm its own existence to unauthorised callers`);
+  assert(!JSON.stringify(payload).includes("impact"), `${route} 404 body must not disclose the Impact integration`);
+}
+
+const impactDebugEnv = { ...env, DEBUG_API_TOKEN: "valid-debug-token" };
+const impactToken = "?token=valid-debug-token";
+const impactHealth = await impactHealthModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/impact/health${impactToken}`),
+  env: impactDebugEnv
+});
 assert(impactHealth.status === 200, "/api/impact/health should fail safely without credentials");
 const impactProducts = await impactProductsModule.onRequestGet({
-  request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
-  env
+  request: new Request(`https://tourticketcompare.com/api/impact/products${impactToken}&q=ticket`),
+  env: impactDebugEnv
 });
 const impactProductsJson = await impactProducts.json();
 assert(impactProducts.status === 200 && impactProductsJson.status === "missing_credentials", "/api/impact/products should fail safely without credentials");
 const impactTracking = await impactTrackingModule.onRequestPost({
-  request: new Request("https://tourticketcompare.com/api/impact/tracking-links", {
+  request: new Request(`https://tourticketcompare.com/api/impact/tracking-links${impactToken}`, {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ confirmCreate: true, programId: "123" })
   }),
-  env
+  env: impactDebugEnv
 });
 const impactTrackingJson = await impactTracking.json();
 assert(impactTracking.status === 200 && impactTrackingJson.status === "missing_credentials", "/api/impact/tracking-links should fail safely without credentials");

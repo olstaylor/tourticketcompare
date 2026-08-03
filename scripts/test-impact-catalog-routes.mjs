@@ -5,28 +5,63 @@ import { onRequestGet as impactProducts } from "../functions/api/impact/products
 import { impactConfig as outboundImpactConfig } from "../functions/api/out.js";
 import { impactMarketplaceRuntimeConfig } from "../functions/_impact-marketplace-config.js";
 
-const missingEnv = {};
-const healthResponse = await impactHealth({ env: missingEnv });
+// Every /api/impact/* route is an internal diagnostic gated on DEBUG_API_TOKEN,
+// so each fixture env carries a token and each request presents it.
+const DEBUG_TOKEN = "fixture-debug-token";
+const gated = (env = {}) => ({ ...env, DEBUG_API_TOKEN: DEBUG_TOKEN });
+const gatedRequest = (url, init) => {
+  const parsed = new URL(url);
+  parsed.searchParams.set("token", DEBUG_TOKEN);
+  return new Request(parsed, init);
+};
+
+// The gate itself: no token, a wrong token, and a configured-but-tokenless
+// deployment must all be indistinguishable from an unrouted path.
+for (const [label, request, env] of [
+  ["no token", new Request("https://tourticketcompare.com/api/impact/catalogs?q=ticket"), gated()],
+  ["wrong token", new Request("https://tourticketcompare.com/api/impact/catalogs?token=nope"), gated()],
+  ["unset DEBUG_API_TOKEN", new Request(`https://tourticketcompare.com/api/impact/catalogs?token=${DEBUG_TOKEN}`), {}]
+]) {
+  for (const [routeName, route] of [["catalogs", impactCatalogs], ["products", impactProducts], ["health", impactHealth]]) {
+    const response = await route({ request, env });
+    assert.equal(response.status, 404, `${routeName} must 404 with ${label}`);
+    assert.equal((await response.json()).error, "Not found");
+  }
+}
+
+// A header-supplied token is accepted so POST callers need not log it in a URL.
+const headerAuthed = await impactHealth({
+  request: new Request("https://tourticketcompare.com/api/impact/health", { headers: { "X-Debug-Token": DEBUG_TOKEN } }),
+  env: gated()
+});
+assert.equal(headerAuthed.status, 200);
+
+const missingEnv = gated();
+const healthResponse = await impactHealth({
+  request: gatedRequest("https://tourticketcompare.com/api/impact/health"),
+  env: missingEnv
+});
 const healthJson = await healthResponse.json();
 assert.equal(healthResponse.status, 200);
 assert.equal(healthJson.productSearchReady, false);
 assert.equal(healthJson.productSearchAccessVerified, false);
 
 const retiredTicketmasterHealth = await impactHealth({
-  env: { IMPACT_ACCOUNT_SID: "retired-account", IMPACT_AUTH_TOKEN: "retired-token" }
+  request: gatedRequest("https://tourticketcompare.com/api/impact/health"),
+  env: gated({ IMPACT_ACCOUNT_SID: "retired-account", IMPACT_AUTH_TOKEN: "retired-token" })
 });
 const retiredTicketmasterJson = await retiredTicketmasterHealth.json();
 assert.equal(retiredTicketmasterJson.readiness.configured, false);
 assert.equal(retiredTicketmasterJson.productSearchConfigured, false);
 
 const missingCatalogs = await impactCatalogs({
-  request: new Request("https://tourticketcompare.com/api/impact/catalogs?q=ticket"),
+  request: gatedRequest("https://tourticketcompare.com/api/impact/catalogs?q=ticket"),
   env: missingEnv
 });
 assert.equal((await missingCatalogs.json()).status, "missing_credentials");
 
 const missingProducts = await impactProducts({
-  request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
+  request: gatedRequest("https://tourticketcompare.com/api/impact/products?q=ticket"),
   env: missingEnv
 });
 assert.equal((await missingProducts.json()).status, "missing_credentials");
@@ -47,8 +82,8 @@ try {
     }]
   }), { status: 200, headers: { "content-type": "application/json" } });
   const safeProductsResponse = await impactProducts({
-    request: new Request("https://tourticketcompare.com/api/impact/products?credentialSet=seatgeek&q=example"),
-    env: { IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" }
+    request: gatedRequest("https://tourticketcompare.com/api/impact/products?credentialSet=seatgeek&q=example"),
+    env: gated({ IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" })
   });
   const safeProducts = await safeProductsResponse.json();
   assert.equal(safeProductsResponse.status, 200);
@@ -104,13 +139,13 @@ try {
     });
   };
   const deniedResponse = await impactCatalogs({
-    request: new Request("https://tourticketcompare.com/api/impact/catalogs?credentialSet=seatgeek&version=15"),
-    env: {
+    request: gatedRequest("https://tourticketcompare.com/api/impact/catalogs?credentialSet=seatgeek&version=15"),
+    env: gated({
       IMPACT_ACCOUNT_SID: "shared-account",
       IMPACT_AUTH_TOKEN: "shared-token",
       IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account",
       IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token"
-    }
+    })
   });
   const denied = await deniedResponse.json();
   assert.equal(deniedResponse.status, 403);
@@ -139,8 +174,8 @@ try {
     });
   };
   const connectedResponse = await impactCatalogs({
-    request: new Request("https://tourticketcompare.com/api/impact/catalogs?credentialSet=seatgeek&q=ticketnetwork"),
-    env: { IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" }
+    request: gatedRequest("https://tourticketcompare.com/api/impact/catalogs?credentialSet=seatgeek&q=ticketnetwork"),
+    env: gated({ IMPACT_SEATGEEK_ACCOUNT_SID: "sg-account", IMPACT_SEATGEEK_AUTH_TOKEN: "sg-token" })
   });
   const connected = await connectedResponse.json();
   assert.equal(connectedResponse.status, 200);
@@ -154,4 +189,4 @@ try {
   globalThis.fetch = originalFetch;
 }
 
-console.log("Impact Catalogs route self-test passed (credential selection, v16 default, redaction).\n");
+console.log("Impact Catalogs route self-test passed (DEBUG_API_TOKEN gate, credential selection, v16 default, redaction).\n");

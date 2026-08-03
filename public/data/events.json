@@ -3617,18 +3617,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107075185",
-        "url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-2-2026/event/107075185",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "k7vGF_eEcG5Sl",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676859",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676859/BTS-tickets-Sun-Aug-2-2026-MetLife-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-east-rutherford-tickets-8-2-2026/event/107075185"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cbd7ab56b",
@@ -21844,18 +21844,18 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107083245",
-        "url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-2-8-2026/event/107083245",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk8UGkeEfeGP",
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "stubhub_international_url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-2-8-2026/event/107083245"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-london-1aegz_egkuqz8x-",
@@ -26191,11 +26191,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198187",
-        "url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-2-2026/event/107198187",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_7SteCJ-",
@@ -26203,7 +26203,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-2-2026/event/107198187"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-nashville-g5viz_7ksioai",

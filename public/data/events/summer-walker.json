@@ -532,18 +532,18 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107083245",
-        "url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-2-8-2026/event/107083245",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk8UGkeEfeGP",
     "timezone": "Europe/London",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "stubhub_international_url": "https://www.stubhub.ie/summer-walker-tickets-london-the-o2-arena-2-8-2026/event/107083245"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-summer-walker-2026-houston-z7r9jz1a7oixf",

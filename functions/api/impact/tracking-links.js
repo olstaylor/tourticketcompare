@@ -1,4 +1,12 @@
-import { basicAuthHeader, clean, impactConfig, json, missingCredentialsPayload } from "./_utils.js";
+import {
+  basicAuthHeader,
+  clean,
+  diagnosticNotFound,
+  impactConfig,
+  isDiagnosticAuthorised,
+  json,
+  missingCredentialsPayload
+} from "./_utils.js";
 
 async function readJson(request) {
   try {
@@ -21,6 +29,10 @@ function validDeepLink(value) {
 }
 
 export async function onRequestPost({ request, env }) {
+  // This route creates a real tracking link on the account. The token check
+  // comes before every other gate, including confirmCreate.
+  if (!isDiagnosticAuthorised(request, env)) return diagnosticNotFound();
+
   const config = impactConfig(env);
   if (!config.configured) return json(missingCredentialsPayload("impact-tracking-links"));
 

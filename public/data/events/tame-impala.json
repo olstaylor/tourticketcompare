@@ -297,7 +297,7 @@
         "event_id": 6652591,
         "url": "https://www.vividseats.com/tame-impala-tickets-charlotte-spectrum-center-8-1-2026--concerts-rock/production/6652591",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -308,33 +308,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7735037",
-        "url": "https://www.ticketnetwork.com/en/p/7735037",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7735037",
-        "url": "https://www.ticketliquidator.com/tickets/7735037/Tame-Impala-tickets-Sat-Aug-1-2026-Spectrum-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198186",
-        "url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-1-2026/event/107198186",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_dQ4fyz7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735037",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735037/Tame-Impala-tickets-Sat-Aug-1-2026-Spectrum-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-1-2026/event/107198186"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-charlotte-g5evz_7stecj-",
@@ -374,7 +374,7 @@
         "event_id": 6678490,
         "url": "https://www.vividseats.com/tame-impala-tickets-charlotte-spectrum-center-8-2-2026--concerts-rock/production/6678490",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -385,33 +385,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7745563",
-        "url": "https://www.ticketnetwork.com/en/p/7745563",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7745563",
-        "url": "https://www.ticketliquidator.com/tickets/7745563/Tame-Impala-tickets-Sun-Aug-2-2026-Spectrum-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198187",
-        "url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-2-2026/event/107198187",
-        "verified": true,
-        "last_verified_at": "2026-07-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_7SteCJ-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745563",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7745563/Tame-Impala-tickets-Sun-Aug-2-2026-Spectrum-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-charlotte-tickets-8-2-2026/event/107198187"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-tame-impala-2026-nashville-g5viz_7ksioai",
@@ -451,7 +451,7 @@
         "event_id": 6652593,
         "url": "https://www.vividseats.com/tame-impala-tickets-nashville-bridgestone-arena-8-4-2026--concerts-rock/production/6652593",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -520,7 +520,7 @@
         "event_id": 6678526,
         "url": "https://www.vividseats.com/tame-impala-tickets-nashville-bridgestone-arena-8-5-2026--concerts-rock/production/6678526",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -589,7 +589,7 @@
         "event_id": 6652597,
         "url": "https://www.vividseats.com/tame-impala-tickets-columbus-nationwide-arena-8-25-2026--concerts-rock/production/6652597",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -651,7 +651,7 @@
         "event_id": 18070208,
         "url": "https://seatgeek.com/tame-impala-tickets/minneapolis-minnesota-target-center-2026-08-28-7-pm/concert/18070208",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -710,7 +710,7 @@
         "event_id": 6652599,
         "url": "https://www.vividseats.com/tame-impala-tickets-seattle-climate-pledge-arena-9-1-2026--concerts-rock/production/6652599",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -787,7 +787,7 @@
         "event_id": 6678965,
         "url": "https://www.vividseats.com/tame-impala-tickets-seattle-climate-pledge-arena-9-2-2026--concerts-rock/production/6678965",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -864,7 +864,7 @@
         "event_id": 6652623,
         "url": "https://www.vividseats.com/tame-impala-tickets-vancouver-rogers-arena-9-5-2026--concerts-rock/production/6652623",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -941,7 +941,7 @@
         "event_id": 6679025,
         "url": "https://www.vividseats.com/tame-impala-tickets-vancouver-rogers-arena-9-6-2026/production/6679025",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1018,7 +1018,7 @@
         "event_id": 6652601,
         "url": "https://www.vividseats.com/tame-impala-tickets-portland-moda-center-9-8-2026--concerts-rock/production/6652601",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1095,7 +1095,7 @@
         "event_id": 6652607,
         "url": "https://www.vividseats.com/tame-impala-tickets-denver-ball-arena-9-11-2026--concerts-rock/production/6652607",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1172,7 +1172,7 @@
         "event_id": 6652609,
         "url": "https://www.vividseats.com/tame-impala-tickets-phoenix-mortgage-matchup-center-9-14-2026--concerts-rock/production/6652609",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1249,7 +1249,7 @@
         "event_id": 6652605,
         "url": "https://www.vividseats.com/tame-impala-tickets-dallas-american-airlines-center---tx-9-17-2026/production/6652605",
         "verified": true,
-        "last_verified_at": "2026-07-29",
+        "last_verified_at": "2026-08-01",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1319,7 +1319,7 @@
         "event_id": 18070199,
         "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-19-7-pm/concert/18070199",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1371,7 +1371,7 @@
         "event_id": 18080351,
         "url": "https://seatgeek.com/tame-impala-tickets/houston-texas-toyota-center-2026-09-20-7-pm/concert/18080351",
         "verified": true,
-        "last_verified_at": "2026-07-31",
+        "last_verified_at": "2026-08-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

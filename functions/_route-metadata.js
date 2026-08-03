@@ -113,33 +113,46 @@ export function withoutParentheticalQualifier(label) {
   return stripped || raw;
 }
 
+// Trust and index routes.
+//
+// `lastmod` on these entries is NOT hand-maintained: scripts/sync-content-provenance.mjs
+// fingerprints each route's rendered copy (its metadata here plus its render block in
+// functions/[[path]].js) and advances the date only when that fingerprint changes. A
+// reformat, a dependency bump, or the calendar moving will never touch it. The values
+// were seeded from the frozen sitemap constant they replaced (2026-07-13), so no page's
+// published date moved when the mechanism landed. Run `npm run content:provenance`
+// after editing any copy below; `--check` runs in CI and fails a stale commit.
 export const TRUST_ROUTES = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
       "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.",
-    indexable: true
+    indexable: true,
+    lastmod: "2026-07-13"
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices | TourTicketCompare",
     description:
       "Find a checked concert event, compare timestamped provider listed-price snapshots for the same show, then confirm fees and the final total with the provider.",
     indexable: true,
-    breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }]
+    breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }],
+    lastmod: "2026-07-13"
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
     description:
       "Browse major artist pages with verified ticket links where available and practical buying guidance on what to check before checkout.",
     indexable: true,
-    breadcrumb: [{ name: "Artists", path: "/artists" }]
+    breadcrumb: [{ name: "Artists", path: "/artists" }],
+    lastmod: "2026-07-13"
   },
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
     description:
       "Practical concert-ticket guides on matching listings, checking final totals, choosing primary or resale, timing a purchase, and confirming provider terms.",
     indexable: true,
-    breadcrumb: [{ name: "Guides", path: "/guides" }]
+    breadcrumb: [{ name: "Guides", path: "/guides" }],
+    lastmod: "2026-07-13"
   },
   "/how-it-works": {
     title: "How TourTicketCompare Works",
@@ -147,41 +160,47 @@ export const TRUST_ROUTES = {
       "How TourTicketCompare checks official sources, keeps ticket links specific, and gives you clear guidance on what to confirm before checkout.",
     indexable: true,
     faq: true,
-    breadcrumb: [{ name: "How it works", path: "/how-it-works" }]
+    breadcrumb: [{ name: "How it works", path: "/how-it-works" }],
+    lastmod: "2026-07-13"
   },
   "/currency-converter": {
     title: "Currency Converter for Concert Tickets | TourTicketCompare",
     description:
       "Convert a ticket budget between currencies using European Central Bank reference rates, then confirm the checkout currency and card fees with the provider.",
     indexable: true,
-    breadcrumb: [{ name: "Currency converter", path: "/currency-converter" }]
+    breadcrumb: [{ name: "Currency converter", path: "/currency-converter" }],
+    lastmod: "2026-07-13"
   },
   "/about": {
     title: "About TourTicketCompare",
     description:
       "TourTicketCompare is an independent, unofficial ticket research site for major live music tours and verified links where available.",
     indexable: true,
-    breadcrumb: [{ name: "About", path: "/about" }]
+    breadcrumb: [{ name: "About", path: "/about" }],
+    lastmod: "2026-07-13"
   },
   "/contact": {
     title: "Contact TourTicketCompare",
     description: "Contact TourTicketCompare about broken ticket links, incorrect event details, provider-link issues, or general site feedback.",
     indexable: true,
-    breadcrumb: [{ name: "Contact", path: "/contact" }]
+    breadcrumb: [{ name: "Contact", path: "/contact" }],
+    lastmod: "2026-07-13"
   },
   "/editorial-policy": {
     title: "Editorial Policy | TourTicketCompare",
     description:
       "The editorial rules TourTicketCompare follows before publishing artist facts, tour pages, provider links, prices, or availability.",
     indexable: true,
-    breadcrumb: [{ name: "Editorial policy", path: "/editorial-policy" }]
+    breadcrumb: [{ name: "Editorial policy", path: "/editorial-policy" }],
+    lastmod: "2026-07-13"
   },
   "/affiliate-disclosure": {
     title: "Affiliate Disclosure | TourTicketCompare",
     description:
       "How TourTicketCompare uses affiliate links while staying independent, unofficial, and focused on checked ticket destinations.",
     indexable: true,
-    breadcrumb: [{ name: "Affiliate disclosure", path: "/affiliate-disclosure" }]
+    breadcrumb: [{ name: "Affiliate disclosure", path: "/affiliate-disclosure" }],
+    lastmod: "2026-07-13"
   }
 };
 

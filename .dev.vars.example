@@ -57,6 +57,11 @@ IMPACT_SEATGEEK_AUTH_TOKEN=your_seatgeek_auth_token_here
 # IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID=your_stubhub_international_campaign_id_here
 # IMPACT_STUBHUB_INTERNATIONAL_CATALOG_ID=your_stubhub_international_catalog_id_here
 # IMPACT_STUBHUB_INTERNATIONAL_BASE_TRACKING_URL=https://stubhubinternational.pxf.io/your_code_here
+# Gates /api/debug-seatgeek and every /api/impact/* diagnostic. Those routes
+# proxy authenticated Publisher API calls on the account's own credentials, so
+# without this token they all return 404. Use a long random value.
+DEBUG_API_TOKEN=your_debug_token_here
+
 PUBLIC_SITE_PHASE=pages_mvp_market_watch
 ENABLE_PUBLIC_TICKET_LISTINGS=false
 

@@ -72,6 +72,35 @@ function normalizeProviderUrl(config, value) {
   }
 }
 
+// /api/impact/products is token-gated (see functions/api/impact/_utils.js), so
+// a proxied run must present DEBUG_API_TOKEN or it gets a generic 404. Sent as
+// a header rather than a query param to keep the token out of logged URLs.
+function catalogProxyToken(env = process.env) {
+  return clean(env.IMPACT_CATALOG_PROXY_TOKEN || env.DEBUG_API_TOKEN, 255);
+}
+
+export function usingCatalogProxy(env = process.env) {
+  return Boolean(clean(env.IMPACT_CATALOG_PROXY_URL, 2048));
+}
+
+export function catalogProxyHeaders(env = process.env) {
+  if (!usingCatalogProxy(env)) return {};
+  const token = catalogProxyToken(env);
+  return token ? { "X-Debug-Token": token } : {};
+}
+
+// /api/impact/products produces a 404 only from its DEBUG_API_TOKEN gate, so a
+// 404 on a proxied request means the token CI sends and the one deployed to
+// Cloudflare Pages have diverged. That is a configuration failure, and callers
+// must treat it as one: an ordinary incomplete catalog is a normal, silent
+// outcome, so a mismatched gate would otherwise read as "nothing to do".
+export function isCatalogProxyRejection(status, env = process.env) {
+  return usingCatalogProxy(env) && Number(status) === 404;
+}
+
+export const CATALOG_PROXY_REJECTION_HINT =
+  "a 404 through IMPACT_CATALOG_PROXY_URL means /api/impact/products rejected the token — check IMPACT_CATALOG_PROXY_TOKEN matches DEBUG_API_TOKEN in Cloudflare Pages";
+
 function impactCredentials(config, env = process.env) {
   if (!config) throw new Error("Unknown Impact marketplace provider");
   const proxyUrl = clean(env.IMPACT_CATALOG_PROXY_URL, 2048);
@@ -86,6 +115,11 @@ function impactCredentials(config, env = process.env) {
   const catalogId = clean(env[`${config.envPrefix}_CATALOG_ID`] || config.defaultCatalogId, 120);
   if ((!accountSid || !authToken) && !proxyUrl) {
     throw new Error(`IMPACT_SEATGEEK credentials or IMPACT_CATALOG_PROXY_URL are required`);
+  }
+  // Fail fast with a readable error instead of letting every proxied page come
+  // back as the gate's generic 404 and look like an empty catalog.
+  if (proxyUrl && !catalogProxyToken(env)) {
+    throw new Error("IMPACT_CATALOG_PROXY_URL requires IMPACT_CATALOG_PROXY_TOKEN (or DEBUG_API_TOKEN) — /api/impact/products is token-gated");
   }
   if (!programId || !catalogId) throw new Error(`${config.envPrefix} campaign and catalog IDs are required`);
   return { accountSid, authToken, programId, catalogId, proxyUrl };

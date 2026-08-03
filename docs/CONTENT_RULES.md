@@ -99,6 +99,17 @@ Event-level buttons must additionally have a reviewed local event ID, the provid
 - Guides may reference general market behaviour (e.g., "service fees typically add 20–30% to face value") if that is factual and widely documented.
 - Guides may explain the approved snapshot comparison feature, but must not claim guaranteed savings, final checkout totals, availability, or data that is not actually displayed.
 
+### Published dates are claims, and are governed like any other claim
+
+A page's "Updated" date and a citation's "reviewed" date assert that work happened. Neither may be advanced because time passed, because a file was reformatted, or because a deploy ran.
+
+- **Page `lastmod`** is maintained by `scripts/sync-content-provenance.mjs`, which fingerprints each static route's copy and advances the date only when that fingerprint changes. Do not hand-edit `lastmod` in `functions/_route-metadata.js`; edit the copy and run `npm run content:provenance`. `content:provenance:check` runs in `test:mvp` and fails a commit whose published dates disagree with its copy.
+- **`datePublished`** is set once, when a page first goes live, and never moves.
+- **A source's `lastChecked` is editorial and human-only.** It means a person re-read the cited source and confirmed the guide still describes it correctly. No automation may set it.
+- **A source's `linkCheckedAt` is automated and narrower.** It means only that the cited URL still resolved, and is stamped by `scripts/check-guide-source-links.mjs` in the daily audit. It renders as "link checked" precisely so it cannot be read as an editorial review. A 401/403/429 is recorded as blocked and stamps nothing — a WAF challenge is not a successful check.
+
+Do not derive a published date from git commit dates. This repository's history was re-rooted on 2026-07-25 in a single bulk commit, so commit dates report that day for content untouched since June; a git-derived date would backdate eleven guides to a restructure that changed none of their words.
+
 ---
 
 ## SEO and Schema

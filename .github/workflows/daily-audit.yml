@@ -59,6 +59,17 @@ jobs:
             exit $code
           fi
 
+      # Confirms each guide's cited source URL still resolves. Runs here, in the
+      # job that publishes the rolling issue and uploads .audit/, so a broken
+      # citation is actually delivered for human follow-up instead of dying in
+      # this step's log. --dry-run because guides-content.json is committed from
+      # the verification-dates job, which applies these verdicts via
+      # --from-report rather than probing every URL a second time.
+      - name: Check guide source links
+        id: guide_sources
+        continue-on-error: true
+        run: node scripts/check-guide-source-links.mjs --dry-run --json .audit/guide-sources.json
+
       - name: Update rolling audit issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -66,6 +77,7 @@ jobs:
           node scripts/daily-audit-report.mjs \
             --links .audit/links.json \
             --tm .audit/tm.json \
+            --guide-sources .audit/guide-sources.json \
             --repo "${GITHUB_REPOSITORY}"
 
       - name: Upload audit artefacts
@@ -119,10 +131,28 @@ jobs:
             --tm-status .audit/tm-status.json \
             $DRY_RUN_FLAG
 
+      # Confirms each guide's cited source URL still resolves and stamps
+      # linkCheckedAt. Deliberately narrow: it never touches the editorial
+      # `lastChecked` (only a human may set that), and 401/403/429 is treated as
+      # "blocked, not verified" exactly as the artist link audit does, so a WAF
+      # challenge never produces a fresh timestamp. These fields are excluded
+      # from the content fingerprint, so this can never move a guide's published
+      # "Updated" date.
+      # Applies the verdicts the audit job already established. No network, so a
+      # URL cannot be reported one way upstream and stamped another way here.
+      - name: Stamp checked guide source links
+        continue-on-error: true
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+          node scripts/check-guide-source-links.mjs --from-report .audit/guide-sources.json $DRY_RUN_FLAG
+
       - name: Check for changes
         id: diff
         run: |
-          if git diff --quiet -- public/data/artists.json; then
+          if git diff --quiet -- public/data/artists.json public/data/guides-content.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -155,6 +185,6 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
-          git add public/data/artists.json public/index.html
-          git commit -m "Bump last_verified_at for clean artists (${TODAY})"
+          git add public/data/artists.json public/data/guides-content.json public/index.html
+          git commit -m "Bump verification timestamps (${TODAY})"
           git push origin HEAD:main

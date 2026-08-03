@@ -35,7 +35,7 @@ const expectedTitle = new Map([
 const homepageDescription = "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.";
 const APP_ASSET_VERSION = "20260803a";
 const TTC_HOME_ASSET_VERSION = "20260729b";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
@@ -795,20 +795,20 @@ for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt",
 
 const indexHtml = await read("public/index.html");
 assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags");
-// The Google Tag Manager loader and the Google tag (gtag.js) snippet are the only bare
+// The Google Tag Manager loader and Google tag bootstrap are the only bare
 // inline scripts; each one's CSP sha256 hash must stay in sync with its body or browsers
 // will refuse to run it.
 {
   const { createHash } = await import("node:crypto");
   const inlineScripts = [...indexHtml.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((match) => match[1]);
-  assert(inlineScripts.length === 2, "index.html should contain exactly two bare inline scripts (Google Tag Manager and the Google tag snippet)");
+  assert(inlineScripts.length === 2, "index.html should contain exactly two bare inline scripts (Google Tag Manager and the Google tag bootstrap)");
   assert(
     inlineScripts.some((body) => body.includes("'script','dataLayer','GTM-MZ42TPMM'")),
     "index.html should contain the Google Tag Manager container loader"
   );
   assert(
-    inlineScripts.some((body) => body.includes("gtag('config', 'G-Q7R1NQY8YH')")),
-    "index.html should contain the Google tag snippet"
+    inlineScripts.some((body) => body.includes("dataLayer.push({'event': 'ttc_google_tag_init'})")),
+    "index.html should contain the GTM activation event"
   );
   for (const body of inlineScripts) {
     const inlineHash = createHash("sha256").update(body, "utf8").digest("base64");
@@ -864,10 +864,15 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
     `${pathname} must revalidate rendered HTML so new client asset versions reach returning visitors immediately`
   );
 
-  // Google tag: every rendered page keeps the shell's gtag.js snippet
+  // Google tag: every rendered page keeps the shell's GTM activation event and does
+  // not also load gtag.js directly (which would duplicate the GTM-managed page view).
   assert(
-    text.includes('src="https://www.googletagmanager.com/gtag/js?id=G-Q7R1NQY8YH"'),
-    `${pathname} should include the Google tag (gtag.js) loader from the shell <head>`
+    text.includes("dataLayer.push({'event': 'ttc_google_tag_init'})"),
+    `${pathname} should include the Google tag GTM activation event from the shell <head>`
+  );
+  assert(
+    !text.includes('src="https://www.googletagmanager.com/gtag/js?id=G-Q7R1NQY8YH"'),
+    `${pathname} should not load gtag.js directly alongside the GTM-managed Google tag`
   );
 
   // Canonical URL: tag must be present and point to the exact route
@@ -1926,6 +1931,25 @@ assert(healthJson.config.ticketNetworkPriceDisplayEnabled === true, "TicketNetwo
 assert(healthJson.config.ticketLiquidatorPriceDisplayEnabled === false, "Ticket Liquidator price snapshots must stay disabled while CurrentPrice is absent");
 assert(healthJson.config.stubHubInternationalPriceDisplayEnabled === true, "StubHub International price snapshots should default enabled after exact-ID proof");
 
+// bindings.debugApiToken is what an operator checks to confirm the
+// /api/impact/* gate is live, so it must track the gate's own notion of a
+// usable token — a declared-but-empty variable denies every request and must
+// not read as configured here.
+for (const [label, tokenEnv, expected] of [
+  ["unset", {}, false],
+  ["declared but empty", { DEBUG_API_TOKEN: "" }, false],
+  ["whitespace only", { DEBUG_API_TOKEN: "   " }, false],
+  ["configured", { DEBUG_API_TOKEN: "valid-debug-token" }, true]
+]) {
+  const response = await healthModule.onRequestGet({ env: { ...env, ...tokenEnv } });
+  const body = await response.json();
+  assert(
+    body.bindings.debugApiToken === expected,
+    `/api/health debugApiToken must report ${expected} when DEBUG_API_TOKEN is ${label}`
+  );
+  assert(!JSON.stringify(body).includes("valid-debug-token"), "/api/health must never echo the debug token value");
+}
+
 const fallbackHealthResponse = await healthModule.onRequestGet({
   env: {
     ...env,
@@ -1938,21 +1962,58 @@ assert(fallbackHealthJson.bindings.impactTicketNetworkConfigured === true, "Tick
 assert(fallbackHealthJson.bindings.impactTicketLiquidatorConfigured === true, "Ticket Liquidator health should recognize the verified SeatGeek-scoped credential fallback");
 assert(fallbackHealthJson.bindings.impactStubHubInternationalConfigured === true, "StubHub International health should recognize the verified SeatGeek-scoped credential fallback");
 
-const impactHealth = await impactHealthModule.onRequestGet({ env });
+// /api/impact/* are internal diagnostics that proxy authenticated Publisher API
+// calls on the account's own credentials. Ungated they are an open proxy, so
+// every route must 404 without DEBUG_API_TOKEN — including the POST route that
+// creates a real tracking link, which must be refused before confirmCreate is
+// even read. `env` deliberately carries no token, so it doubles as the
+// unauthorised fixture.
+const impactGateFixtures = [
+  ["/api/impact/health", () => impactHealthModule.onRequestGet({
+    request: new Request("https://tourticketcompare.com/api/impact/health"),
+    env
+  })],
+  ["/api/impact/products", () => impactProductsModule.onRequestGet({
+    request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
+    env
+  })],
+  ["/api/impact/tracking-links", () => impactTrackingModule.onRequestPost({
+    request: new Request("https://tourticketcompare.com/api/impact/tracking-links", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ confirmCreate: true, programId: "123" })
+    }),
+    env
+  })]
+];
+for (const [route, invoke] of impactGateFixtures) {
+  const response = await invoke();
+  const payload = await response.json();
+  assert(response.status === 404, `${route} must 404 without DEBUG_API_TOKEN`);
+  assert(payload.error === "Not found" && payload.ok === false, `${route} must not confirm its own existence to unauthorised callers`);
+  assert(!JSON.stringify(payload).includes("impact"), `${route} 404 body must not disclose the Impact integration`);
+}
+
+const impactDebugEnv = { ...env, DEBUG_API_TOKEN: "valid-debug-token" };
+const impactToken = "?token=valid-debug-token";
+const impactHealth = await impactHealthModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/impact/health${impactToken}`),
+  env: impactDebugEnv
+});
 assert(impactHealth.status === 200, "/api/impact/health should fail safely without credentials");
 const impactProducts = await impactProductsModule.onRequestGet({
-  request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
-  env
+  request: new Request(`https://tourticketcompare.com/api/impact/products${impactToken}&q=ticket`),
+  env: impactDebugEnv
 });
 const impactProductsJson = await impactProducts.json();
 assert(impactProducts.status === 200 && impactProductsJson.status === "missing_credentials", "/api/impact/products should fail safely without credentials");
 const impactTracking = await impactTrackingModule.onRequestPost({
-  request: new Request("https://tourticketcompare.com/api/impact/tracking-links", {
+  request: new Request(`https://tourticketcompare.com/api/impact/tracking-links${impactToken}`, {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ confirmCreate: true, programId: "123" })
   }),
-  env
+  env: impactDebugEnv
 });
 const impactTrackingJson = await impactTracking.json();
 assert(impactTracking.status === 200 && impactTrackingJson.status === "missing_credentials", "/api/impact/tracking-links should fail safely without credentials");
@@ -3201,6 +3262,37 @@ assert(artistStylesCss.includes(".show-board-jump-list"), "the month jump list s
 assert(
   narrowBlock[0].includes("min-height: 40px") || narrowBlock[0].includes("min-height: 44px"),
   "narrow-screen tap targets should meet a minimum height"
+);
+
+// Horizontal-overflow guards. `main` is a grid, so a grid item's automatic
+// minimum size is its min-content: one wide thing inside a section makes the
+// whole page scroll sideways. The empty artist board hit this through the
+// watchlist email input, whose intrinsic width comes from the `size` attribute
+// it does not set (defaulting to 20 characters) and which neither flex-basis
+// nor min-width affects.
+assert(
+  /main > \*\s*\{[^}]*min-width:\s*0/.test(artistStylesCss),
+  "main's grid items must be allowed to shrink below their min-content width"
+);
+assert(
+  /\.watchlist-signup-row input\[type="email"\]\s*\{[^}]*\bwidth:\s*0/.test(artistStylesCss),
+  "the watchlist email input must not contribute its default size=20 intrinsic width to the page"
+);
+
+// The page shell must not carry an inline <style> block: the Content Security
+// Policy this site sends is `style-src 'self'`, which refuses inline styles
+// outright, so such a block is dead weight that never applies and logs a
+// violation on every page load.
+assert(!/<style[\s>]/i.test(shellHtml), "public/index.html must not carry an inline <style> block — style-src 'self' blocks it");
+assert(
+  !/\sstyle="/i.test(shellHtml),
+  "public/index.html must not carry inline style attributes — style-src 'self' blocks them"
+);
+const cspStyleSrc = (await read("functions/[[path]].js")).match(/"style-src ([^"]*)"/);
+assert(cspStyleSrc, "the CSP should still declare a style-src directive");
+assert(
+  !cspStyleSrc[1].includes("unsafe-inline"),
+  "style-src must not be relaxed to unsafe-inline; remove inline styles instead"
 );
 
 console.log("artist-page comparison UX verified: many / one / multi-night / weak-coverage / empty");

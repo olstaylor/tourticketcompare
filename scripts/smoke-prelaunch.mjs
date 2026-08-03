@@ -33,7 +33,7 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260731a";
+const APP_ASSET_VERSION = "20260803a";
 const TTC_HOME_ASSET_VERSION = "20260729b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
@@ -1229,6 +1229,9 @@ assert(!appJs.includes("Event last checked:"), "hydration should rely on the con
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
 assert(appJs.includes("Listed-price snapshots, not live availability."), "hydration should include the unified listed-price snapshot disclosure");
+assert(appJs.includes("No listed-price snapshot is available for this date. Check current prices using the provider buttons above."), "hydration should state the price-unavailable case");
+assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show))"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
+assert(appJs.includes("Array.isArray(show?.prices) && show.prices.length > 0"), "the hydrated priced-lane check must treat an empty lane array as unchecked, not as a confirmed absence");
 assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
 assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
 assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price snapshot should hide expired data");
@@ -1656,8 +1659,16 @@ for (const implausible of [3.8, 0]) {
   assert(implausibleLane?.price === null && implausibleLane?.providerStatus === "unavailable", `an implausible listed price (${implausible}) must be withheld even from a fresh approved snapshot`);
   // Only assert non-leakage for the distinctive value; "0" is a substring of
   // timestamps, ids and counts throughout the payload.
+  //
+  // ISO timestamps carry a millisecond fraction, so a payload generated at a
+  // second ending in 3 with milliseconds starting with 8 ("...:33.854Z")
+  // contains the literal "3.8" with no price involved. That made this a real
+  // (roughly 1-in-100 per timestamp) flake, observed failing CI on run
+  // 30816574427 at 13:09:33.854. Strip timestamps first so the check tests
+  // price leakage, which is what it is for.
   if (implausible === 3.8) {
-    assert(!JSON.stringify(implausibleJson).includes("3.8"), "a withheld implausible price must not leak into the response payload");
+    const payloadWithoutTimestamps = JSON.stringify(implausibleJson).replace(/\d{4}-\d{2}-\d{2}T[\d:.]+Z/g, "");
+    assert(!payloadWithoutTimestamps.includes("3.8"), "a withheld implausible price must not leak into the response payload");
   }
   globalThis.caches.default = new MemoryCache();
 }
@@ -2874,6 +2885,40 @@ assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mar
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
 assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-name\">Ticketmaster<"), "/artists/morgan-wallen (indexable) must show the Ticketmaster event CTA button");
 assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-check\">Check prices<"), "an unpriced provider button must read 'Check prices'");
+// A card with checked destinations but no eligible snapshot must say so and
+// name where to look, rather than leaving the price slot silently empty.
+assert(
+  serverMorganWithoutSeatGeek.text.includes("No listed-price snapshot is available for this date. Check current prices using the provider buttons above."),
+  "a card whose queried lanes all lack an eligible snapshot must state the unavailable case"
+);
+
+// Regression: the router attaches cached prices to a bounded slice of the board
+// (see the futureShowsForArtist limit in onRequest), so a card outside that
+// slice was never queried. It must stay silent rather than announce an absence
+// the server never established — a fresh D1 snapshot may well exist for it.
+const boundedPriceBoard = await routeResponse("/artists/olivia-rodrigo");
+if (boundedPriceBoard.response.status === 200) {
+  const boardCards = boundedPriceBoard.text.split("<article").filter((card) => card.includes("info-card show-card"));
+  const cardsWithButtons = boardCards.filter((card) => card.includes('class="provider-cta-group"'));
+  const cardsWithNote = boardCards.filter((card) => card.includes("No listed-price snapshot is available for this date."));
+  if (cardsWithButtons.length > 6) {
+    assert(
+      cardsWithButtons.length > cardsWithNote.length,
+      "cards whose price lanes were never queried must not claim that no snapshot is available"
+    );
+  }
+}
+// Per card, not per page: one board legitimately mixes both states, so the
+// invariant is that a card carrying a price never also carries the note.
+const pricedMorganCards = serverPricedMorgan.text
+  .split("<article")
+  .map((card) => card.split("</article>")[0])
+  .filter((card) => card.includes("provider-cta-price"));
+assert(pricedMorganCards.length > 0, "the priced Morgan Wallen board should render at least one card with a snapshot");
+assert(
+  pricedMorganCards.every((card) => !card.includes("No listed-price snapshot is available for this date.")),
+  "a card carrying an eligible snapshot must keep the snapshot disclosure, not the unavailable note"
+);
 assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&amp;provider=ticketmaster`), "server-rendered verified Ticketmaster event CTA should use its existing safe redirect");
 
 console.log("indexable artist verification passed for bruno-mars");

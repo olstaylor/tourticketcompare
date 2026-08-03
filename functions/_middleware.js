@@ -28,6 +28,15 @@ export async function onRequest(context) {
   const url = new URL(context.request.url);
   const pathname = normalizePath(url.pathname);
 
+  // /admin/ must normalize before the pass-through below, which matches on the
+  // normalized path and would otherwise hand "/admin/" to asset serving as-is
+  // and 404. Scoped to this one route so no /api/ path changes behaviour.
+  if (pathname === "/admin" && url.pathname !== "/admin") {
+    const canonicalAdmin = new URL(url);
+    canonicalAdmin.pathname = "/admin";
+    return Response.redirect(canonicalAdmin.toString(), 301);
+  }
+
   if (
     pathname.startsWith("/api/") ||
     pathname.startsWith("/data/") ||

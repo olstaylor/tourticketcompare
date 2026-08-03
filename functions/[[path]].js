@@ -906,7 +906,10 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       "@type": route.type === "blog-index" ? "Blog" : "CollectionPage",
       "@id": `${origin}${route.path}#webpage`,
       url: `${origin}${route.path}`,
-      name: route.title.replace(" | TourTicketCompare", ""),
+      // Not route.title.replace(" | TourTicketCompare", ""): a tag title ends
+      // " | TourTicketCompare Blog", so that replace would leave "<Tag> Blog".
+      // The visible H1 is the correct name for both page types.
+      name: route.type === "blog-tag" ? route.tag.label : "TourTicketCompare blog",
       description: route.description,
       inLanguage: "en",
       dateModified: listed.map((post) => post.dateModified).sort().at(-1) || undefined,
@@ -2404,7 +2407,9 @@ function renderBlogProvenance(post) {
   const published = formatVerificationDate(post.datePublished);
   const updated = post.dateModified !== post.datePublished ? formatVerificationDate(post.dateModified) : null;
   const dates = [published ? `Published ${published}` : "", updated ? `Updated ${updated}` : ""].filter(Boolean);
-  return `<div class="guide-provenance"><p>By ${anchor(escapeHtml(post.author), "/about", "text-link")}${
+  // anchor() escapes its own label — do not pre-escape, or an author name
+  // containing & or an apostrophe renders double-escaped.
+  return `<div class="guide-provenance"><p>By ${anchor(post.author, "/about", "text-link")}${
     dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""
   }</p><p class="disclosure-note">TourTicketCompare is an independent, unofficial site and does not sell tickets. Some outbound ticket links earn a commission, which never changes what gets published — see the ${anchor(
     "affiliate disclosure",

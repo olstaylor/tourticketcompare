@@ -113,71 +113,194 @@ function stripQuotes(raw) {
   return value;
 }
 
+// YAML's null spellings. The `updated` field is an optional date the editor may
+// clear, and a cleared field must read as absent, not as the literal "null".
+const NULL_SCALARS = new Set(["", "null", "Null", "NULL", "~"]);
+
+function indentWidth(line, lineNumber) {
+  const leading = line.match(/^\s*/)[0];
+  if (leading.includes("\t")) {
+    throw new Error(`front-matter line ${lineNumber} is indented with a tab; YAML requires spaces`);
+  }
+  return leading.length;
+}
+
+function isBlank(line) {
+  return !line.trim();
+}
+
+function nextContentLine(lines, from) {
+  for (let i = from; i < lines.length; i += 1) {
+    if (!isBlank(lines[i]) && !lines[i].trim().startsWith("#")) return i;
+  }
+  return -1;
+}
+
 /**
- * Parse the constrained YAML subset this project's front matter uses: scalars,
- * flow lists (`tags: [a, b]`), block lists of scalars, and block lists of
- * one-level objects (the `sources` shape). Deliberately not a general YAML
- * parser — an unsupported construct raises rather than being silently dropped,
- * because a silently dropped field would publish a post missing its metadata.
+ * Absorb the continuation lines of a multi-line plain or quoted scalar.
+ *
+ * This is the case that matters most in practice. The browser editor serializes
+ * with the `yaml` package at its default `lineWidth: 80`, so any value longer
+ * than that — which `description` and `summary` always are — is written folded
+ * across several more-indented lines:
+ *
+ *     description: A full sentence that comfortably clears the character floor
+ *       for search snippets.
+ *
+ * YAML folds a single newline to a space, so the parts join with " ".
+ */
+function foldContinuation(lines, cursor, parentIndent, first) {
+  const parts = [first];
+  while (cursor.i < lines.length) {
+    const line = lines[cursor.i];
+    if (isBlank(line)) break;
+    const lineIndent = indentWidth(line, cursor.i + 1);
+    if (lineIndent <= parentIndent) break;
+    const rest = line.slice(lineIndent);
+    if (/^-(\s|$)/.test(rest)) break;
+    parts.push(rest.trim());
+    cursor.i += 1;
+  }
+  return parts.join(" ");
+}
+
+// Literal (`|`) and folded (`>`) block scalars. The editor does not currently
+// emit these, but a human writing front matter by hand reasonably might, and
+// silently dropping the value would publish a post missing a required field.
+function parseBlockScalar(lines, cursor, parentIndent, folded) {
+  const collected = [];
+  let blockIndent = null;
+  while (cursor.i < lines.length) {
+    const line = lines[cursor.i];
+    if (isBlank(line)) {
+      collected.push("");
+      cursor.i += 1;
+      continue;
+    }
+    const lineIndent = indentWidth(line, cursor.i + 1);
+    if (lineIndent <= parentIndent) break;
+    if (blockIndent === null) blockIndent = lineIndent;
+    collected.push(line.slice(Math.min(blockIndent, lineIndent)));
+    cursor.i += 1;
+  }
+  while (collected.length && collected.at(-1) === "") collected.pop();
+  if (!folded) return collected.join("\n");
+  // Folded: newlines inside a paragraph become spaces, a blank line is a break.
+  return collected
+    .join("\n")
+    .split(/\n{2,}/)
+    .map((paragraph) => paragraph.split("\n").map((part) => part.trim()).join(" ").trim())
+    .join("\n\n")
+    .trim();
+}
+
+function parseFlowList(value) {
+  const inner = value.slice(1, -1).trim();
+  return inner ? inner.split(",").map((entry) => stripQuotes(entry)).filter(Boolean) : [];
+}
+
+function parseValue(lines, cursor, parentIndent, inline) {
+  const blockScalar = inline.match(/^([|>])[-+]?\d*$/);
+  if (blockScalar) return parseBlockScalar(lines, cursor, parentIndent, blockScalar[1] === ">");
+
+  if (inline) {
+    if (inline.startsWith("[") && inline.endsWith("]")) return parseFlowList(inline);
+    const folded = foldContinuation(lines, cursor, parentIndent, inline);
+    const scalar = stripQuotes(folded);
+    return NULL_SCALARS.has(scalar) ? "" : scalar;
+  }
+
+  // Nothing on the key's own line: a nested sequence or mapping may follow.
+  const next = nextContentLine(lines, cursor.i);
+  if (next === -1) return "";
+  const nextIndent = indentWidth(lines[next], next + 1);
+  if (nextIndent < parentIndent) return "";
+  const rest = lines[next].slice(nextIndent);
+  // A block sequence may sit at the key's own indent, which is legal YAML and
+  // what a hand-written file often looks like.
+  if (/^-(\s|$)/.test(rest)) return parseSequence(lines, cursor, nextIndent);
+  if (nextIndent > parentIndent) return parseMapping(lines, cursor, nextIndent);
+  return "";
+}
+
+function parseSequence(lines, cursor, indent) {
+  const items = [];
+  while (cursor.i < lines.length) {
+    const line = lines[cursor.i];
+    if (isBlank(line)) {
+      cursor.i += 1;
+      continue;
+    }
+    const lineIndent = indentWidth(line, cursor.i + 1);
+    if (lineIndent < indent) break;
+    const rest = line.slice(lineIndent);
+    if (lineIndent > indent || !/^-(\s|$)/.test(rest)) break;
+
+    const itemBody = rest.replace(/^-\s*/, "");
+    const keyColumn = lineIndent + (rest.length - itemBody.length);
+    cursor.i += 1;
+
+    const objectEntry = itemBody.match(/^([A-Za-z0-9_]+):(?:\s+(.*))?$/);
+    if (objectEntry) {
+      // An object item: its first key sets the column that its sibling keys
+      // share, so the rest of the mapping parses at that indent.
+      const object = {};
+      object[objectEntry[1]] = parseValue(lines, cursor, keyColumn, (objectEntry[2] ?? "").trim());
+      Object.assign(object, parseMapping(lines, cursor, keyColumn));
+      items.push(object);
+      continue;
+    }
+
+    const scalar = stripQuotes(foldContinuation(lines, cursor, indent, itemBody));
+    if (scalar) items.push(scalar);
+  }
+  return items;
+}
+
+function parseMapping(lines, cursor, indent) {
+  const result = {};
+  while (cursor.i < lines.length) {
+    const line = lines[cursor.i];
+    if (isBlank(line) || line.trim().startsWith("#")) {
+      cursor.i += 1;
+      continue;
+    }
+    const lineIndent = indentWidth(line, cursor.i + 1);
+    if (lineIndent < indent) break;
+    if (lineIndent > indent) {
+      throw new Error(`unexpected indentation at front-matter line ${cursor.i + 1}: "${line}"`);
+    }
+    const match = line.slice(indent).match(/^([A-Za-z0-9_]+):(?:\s+(.*))?\s*$/);
+    if (!match) break;
+    cursor.i += 1;
+    result[match[1]] = parseValue(lines, cursor, indent, (match[2] ?? "").trim());
+  }
+  return result;
+}
+
+/**
+ * Parse the constrained YAML subset this project's front matter uses: scalars
+ * (including values folded across lines and `|`/`>` block scalars), flow lists
+ * (`tags: [a, b]`), block lists of scalars, and block lists of one-level
+ * objects (the `sources` shape).
+ *
+ * Deliberately not a general YAML parser, but it must accept everything the
+ * browser editor writes: that is the primary authoring path, and a construct
+ * this cannot read would fail the build with a parse error rather than
+ * publishing. An unsupported construct raises rather than being silently
+ * dropped, because a dropped field would publish a post missing its metadata.
  *
  * @param {string} text Raw front matter body (without the --- fences).
  * @returns {Record<string, unknown>}
  */
 export function parseFrontMatter(text) {
-  const result = {};
   const lines = String(text || "").split("\n");
-  let index = 0;
-
-  while (index < lines.length) {
-    const line = lines[index];
-    if (!line.trim() || line.trim().startsWith("#")) {
-      index += 1;
-      continue;
-    }
-    if (/^\s/.test(line)) throw new Error(`unexpected indentation at front-matter line ${index + 1}: "${line}"`);
-
-    const match = line.match(/^([A-Za-z0-9_]+):\s*(.*)$/);
-    if (!match) throw new Error(`cannot parse front-matter line ${index + 1}: "${line}"`);
-    const [, key, rawValue] = match;
-    const value = rawValue.trim();
-    index += 1;
-
-    if (value.startsWith("[") && value.endsWith("]")) {
-      const inner = value.slice(1, -1).trim();
-      result[key] = inner ? inner.split(",").map((entry) => stripQuotes(entry)).filter(Boolean) : [];
-      continue;
-    }
-    if (value) {
-      result[key] = stripQuotes(value);
-      continue;
-    }
-
-    // Empty scalar: either a block list follows, or the key is genuinely blank.
-    const items = [];
-    while (index < lines.length && /^\s*-\s/.test(lines[index])) {
-      const itemIndent = lines[index].match(/^(\s*)-/)[1].length;
-      const first = lines[index].replace(/^\s*-\s*/, "");
-      index += 1;
-
-      const objectEntry = first.match(/^([A-Za-z0-9_]+):\s*(.*)$/);
-      if (objectEntry) {
-        const object = { [objectEntry[1]]: stripQuotes(objectEntry[2]) };
-        while (index < lines.length && /^\s+[A-Za-z0-9_]+:/.test(lines[index])) {
-          const childIndent = lines[index].match(/^(\s*)/)[1].length;
-          if (childIndent <= itemIndent) break;
-          const child = lines[index].trim().match(/^([A-Za-z0-9_]+):\s*(.*)$/);
-          if (!child) throw new Error(`cannot parse nested front-matter line ${index + 1}: "${lines[index]}"`);
-          object[child[1]] = stripQuotes(child[2]);
-          index += 1;
-        }
-        items.push(object);
-        continue;
-      }
-      items.push(stripQuotes(first));
-    }
-    result[key] = items;
+  const cursor = { i: 0 };
+  const result = parseMapping(lines, cursor, 0);
+  const remaining = nextContentLine(lines, cursor.i);
+  if (remaining !== -1) {
+    throw new Error(`cannot parse front-matter line ${remaining + 1}: "${lines[remaining]}"`);
   }
-
   return result;
 }
 
@@ -344,8 +467,19 @@ function validatePost(post, context) {
       const slug = clean.split("/")[2];
       if (slug && !context.artistSlugs.has(slug)) problems.push(`${where}: internal link "${href}" points at an unknown artist slug`);
     }
-    if (clean.startsWith("/blog/") && !clean.startsWith("/blog/tags/") && !context.slugs.has(clean.split("/")[2])) {
-      problems.push(`${where}: internal link "${href}" points at a blog post that does not exist`);
+    if (clean.startsWith("/blog/tags/")) {
+      const tag = clean.split("/")[3];
+      if (tag && !context.tags.has(tag)) {
+        problems.push(`${where}: internal link "${href}" points at a tag no published post carries`);
+      }
+    } else if (clean.startsWith("/blog/")) {
+      const slug = clean.split("/")[2];
+      if (slug && !context.slugs.has(slug)) {
+        problems.push(`${where}: internal link "${href}" points at a blog post that does not exist`);
+      } else if (slug && post.status === "published" && !context.publishedSlugs.has(slug)) {
+        // A draft has no route, so a published post linking to one ships a 404.
+        problems.push(`${where}: internal link "${href}" points at a draft post — publish it, or drop the link`);
+      }
     }
   }
 
@@ -477,7 +611,14 @@ async function readPosts() {
 
 async function run() {
   const { posts, problems } = await readPosts();
-  const context = { ...(await loadContext()), slugs: new Set(posts.map((post) => post.slug)) };
+  const publishedPosts = posts.filter((post) => post.status === "published");
+  const context = {
+    ...(await loadContext()),
+    slugs: new Set(posts.map((post) => post.slug)),
+    publishedSlugs: new Set(publishedPosts.map((post) => post.slug)),
+    // Only tags a published post carries have a route to link to.
+    tags: new Set(publishedPosts.flatMap((post) => post.tags))
+  };
 
   for (const post of posts) problems.push(...validatePost(post, context));
 
@@ -550,13 +691,74 @@ function selfTest() {
   assert(parsed.related_guides.length === 1 && parsed.related_guides[0] === "concert-ticket-fees-explained", "flow lists parse");
   assert(parsed.sources.length === 1 && parsed.sources[0].url === "https://example.org/guidance", "object lists parse");
 
+  // Regression: the browser editor serializes with the `yaml` package at its
+  // default lineWidth of 80, so every `description` and `summary` it writes is
+  // folded across lines. An earlier parser threw on the continuation line,
+  // which would have failed the build on the first post authored through
+  // /admin. This is exactly the byte layout that editor produces.
+  const cmsAuthored = parseFrontMatter(
+    [
+      "title: Why ticket fees appear so late in checkout",
+      "description: A full sentence description that comfortably clears the fifty",
+      "  character floor for search snippets.",
+      "summary: One or two sentences shown on the blog index card and used as the page",
+      "  lead paragraph at the top.",
+      "date: 2026-08-14",
+      "status: published",
+      "tags:",
+      "  - ticket-prices",
+      "sources:",
+      "  - label: Provider fee schedule",
+      "    url: https://example.com/fees"
+    ].join("\n")
+  );
+  assert(
+    cmsAuthored.description === "A full sentence description that comfortably clears the fifty character floor for search snippets.",
+    "a folded plain scalar rejoins into one line"
+  );
+  assert(
+    cmsAuthored.summary === "One or two sentences shown on the blog index card and used as the page lead paragraph at the top.",
+    "a second folded scalar does not bleed into the next key"
+  );
+  assert(cmsAuthored.date === "2026-08-14" && cmsAuthored.status === "published", "keys after a folded scalar still parse");
+  assert(cmsAuthored.tags.length === 1 && cmsAuthored.tags[0] === "ticket-prices", "a sequence after a folded scalar parses");
+  assert(cmsAuthored.sources[0].url === "https://example.com/fees", "an object sequence after a folded scalar parses");
+
+  const foldedInList = parseFrontMatter(
+    ["sources:", "  - label: A label long enough that the serializer wraps it onto", "      a second line", "    url: https://example.com/x"].join("\n")
+  );
+  assert(
+    foldedInList.sources[0].label === "A label long enough that the serializer wraps it onto a second line",
+    "a folded value inside a sequence item rejoins"
+  );
+  assert(foldedInList.sources[0].url === "https://example.com/x", "a sibling key after a folded value inside a sequence item parses");
+
+  const blockScalars = parseFrontMatter(["a: >-", "  folded over", "  two lines", "b: |-", "  literal", "  lines"].join("\n"));
+  assert(blockScalars.a === "folded over two lines", "a folded block scalar joins with spaces");
+  assert(blockScalars.b === "literal\nlines", "a literal block scalar keeps its newlines");
+
+  const flushSequence = parseFrontMatter("tags:\n- one\n- two\nstatus: published");
+  assert(flushSequence.tags.length === 2 && flushSequence.status === "published", "a sequence at the key's own indent parses");
+
+  // A cleared optional date must read as absent, not as the string "null".
+  const cleared = parseFrontMatter("updated: null\nother: ~");
+  assert(cleared.updated === "" && cleared.other === "", "YAML null spellings read as empty");
+
   let threw = false;
   try {
-    parseFrontMatter("title: ok\n  stray: value");
+    parseFrontMatter("  stray: value");
   } catch (error) {
     threw = true;
   }
   assert(threw, "unsupported indentation raises rather than silently dropping a field");
+
+  threw = false;
+  try {
+    parseFrontMatter("title: ok\n\tstray: value");
+  } catch (error) {
+    threw = true;
+  }
+  assert(threw, "tab indentation raises with a clear message");
 
   threw = false;
   try {
@@ -580,7 +782,13 @@ function selfTest() {
   }
   assert(threw, "a level-1 heading in the body raises");
 
-  const context = { guidePaths: new Set(["/guides/known"]), artistSlugs: new Set(["known-artist"]), slugs: new Set(["a-post"]) };
+  const context = {
+    guidePaths: new Set(["/guides/known"]),
+    artistSlugs: new Set(["known-artist"]),
+    slugs: new Set(["a-post", "a-draft"]),
+    publishedSlugs: new Set(["a-post"]),
+    tags: new Set(["known-tag"])
+  };
   const base = {
     file: "content/blog/a-post.md",
     frontMatter: { title: "t", description: "d", summary: "s", date: "2026-08-01" },
@@ -618,6 +826,21 @@ function selfTest() {
   const withImage = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "![alt](/assets/blog/x.png)" }] }, context);
   assert(withImage.some((problem) => /images are not supported/.test(problem)), "an embedded image fails validation");
 
+  const draftLink = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [it](/blog/a-draft)." }] }, context);
+  assert(draftLink.some((problem) => /draft post/.test(problem)), "a published post linking to a draft fails validation");
+
+  const okDraftLink = validatePost(
+    { ...base, status: "draft", sections: [{ type: "section", title: "H", content: "See [it](/blog/a-draft)." }] },
+    context
+  );
+  assert(!okDraftLink.some((problem) => /draft post/.test(problem)), "a draft may link to another draft");
+
+  const badTag = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [it](/blog/tags/nope)." }] }, context);
+  assert(badTag.some((problem) => /tag no published post carries/.test(problem)), "a link to an unused tag fails validation");
+
+  const goodTag = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [it](/blog/tags/known-tag)." }] }, context);
+  assert(goodTag.length === 0, "a link to a real tag validates clean");
+
   const document = buildDocument([
     { ...base, slug: "older", path: "/blog/older", datePublished: "2026-07-01", tags: ["fees"] },
     { ...base, slug: "newer", path: "/blog/newer", datePublished: "2026-08-01", tags: ["fees", "resale"] },
@@ -634,8 +857,14 @@ function selfTest() {
   if (!process.exitCode) console.log("build-blog-content self-test passed.");
 }
 
+// Only act when invoked as a command. Without this guard, importing the module
+// for one of its exported helpers (a test, a future tool) would silently run a
+// full build and rewrite public/data/blog-content.json as a side effect.
+const invokedDirectly =
+  Boolean(process.argv[1]) && pathToFileURL(path.resolve(process.argv[1])).href === import.meta.url;
+
 if (SELF_TEST) {
   selfTest();
-} else {
+} else if (invokedDirectly) {
   await run();
 }

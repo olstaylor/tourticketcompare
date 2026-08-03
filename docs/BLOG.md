@@ -78,7 +78,9 @@ Plain Markdown below the front matter.
 - `## ` opens a section, `### ` opens a subsection.
 - **Do not use a single `#`** — the title is already the page H1, and the build rejects it.
 - `**bold**`, `*italic*`, `- ` bullet lists, and `|` tables are supported.
-- Links must be site paths (`/guides/...`, `/artists/...`, `/blog/...`, `/about`) or `https://` URLs. Every internal link is resolved at build time, so a typo fails the build instead of shipping a dead link.
+- Links must be site paths (`/guides/...`, `/artists/...`, `/blog/...`, `/about`) or `https://` URLs.
+  - Guide, artist, blog-post and blog-tag targets are **resolved** at build time, so a typo fails the build instead of shipping a dead link. A published post may not link to a draft.
+  - City and venue targets (`/cities/...`, `/venues/...`) are **shape-checked only**. Those routes are calendar-dependent — they drop below their threshold as dates pass and then 301 to a sensible parent — so resolving them would make the build fail on ordinary event expiry. Prefer linking to the artist page.
 - Images are not supported by the renderer and are rejected by the build.
 
 ---
@@ -117,7 +119,7 @@ Create or edit a file under `content/blog/` in GitHub's web editor and commit to
 - Required front-matter keys are present, and no unknown key is silently ignored.
 - Title, search-title, and description lengths fit their search-result budgets.
 - Dates are valid ISO dates and `updated` is not before `date`.
-- Every `related_guides`, `related_artists`, and internal body link resolves to a real page.
+- Every `related_guides`, `related_artists`, and guide/artist/blog body link resolves to a real page, and no published post links to a draft. City and venue links are shape-checked only (see above).
 - No embedded images.
 - No claim the site cannot support — `cheapest`, `lowest price`, `guaranteed availability`, `sold out`, `selling fast`, and similar. This is a blunt substring check on purpose. If it fires on a sentence that was actually fine, rephrase rather than working around it.
 

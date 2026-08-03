@@ -151,6 +151,14 @@ Below a few hundred words it loses to the guide or artist page that already
 covers the topic, and adds a near-duplicate to the index. Recovery is automatic:
 extend the post and it indexes on the next build.
 
+**Removing several posts at once trips the surface audit.** Blog routes are not
+date-derived, so the audit has no clock-controlled reference for them and reads
+the whole delta as unexplained. Unpublishing or deleting more than three
+indexable posts in one change is therefore reported as a structural change and
+fails `npm run audit:indexable-surface:check`. That is the audit working as
+designed — a deliberate removal of that size should re-anchor the baseline in
+the same commit. Adding posts only ever produces a warning.
+
 ### Publishable is not the same as schema-eligible
 
 This distinction applies to all three location route types.

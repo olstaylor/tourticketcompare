@@ -2775,31 +2775,41 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
 }
 
-// Copy for a card whose providers all lack an eligible snapshot. A show can
-// carry checked destinations and still have no displayable price — most often
-// because no provider with a numeric price lane has a verified exact-event
-// match for that date. Naming the destinations the card actually offers turns
-// "no price" into a next step. No link is emitted here: the provider buttons
+// Copy for a card whose lanes were checked and none had an eligible snapshot.
+// Deliberately neutral about where to look: the buttons are ordered affiliate
+// first, so naming a subset of them would read as a recommendation rather than
+// a description of the card. No link is emitted here — the provider buttons
 // above stay the card's only outbound links.
-// Keep in sync with priceUnavailableNote in public/app.js.
-function priceUnavailableNote(ctaSpecs) {
-  const names = ctaSpecs.map((spec) => spec.name).filter(Boolean).slice(0, 3);
-  if (!names.length) return "";
-  const list = names.length === 1 ? names[0] : `${names.slice(0, -1).join(", ")} or ${names[names.length - 1]}`;
-  return `No listed-price snapshot is available for this date. Check current prices on ${list} using the buttons above.`;
+// Keep in sync with PRICE_UNAVAILABLE_NOTE in public/app.js.
+const PRICE_UNAVAILABLE_NOTE =
+  "No listed-price snapshot is available for this date. Check current prices using the provider buttons above.";
+
+// Did this card's price lanes actually get queried? attachApprovedMarketplacePrices
+// returns one entry per approved lane (including the unavailable ones), while
+// enrichEventAsShow defaults the field to an empty array — so "has entries", not
+// "is an array", is the signal. Anything else is a card the server never checked,
+// and silence is the only honest state for it.
+// Keep in sync with pricesWereChecked in public/app.js.
+function pricesWereChecked(show) {
+  return Array.isArray(show?.prices) && show.prices.length > 0;
 }
 
 // Required snapshot disclosures for every price shown on a button, rendered
 // once below the unified provider list. Provider names and capture times appear
-// only for actual approved, fresh lanes; when no lane qualifies, the same slot
-// states that plainly instead of rendering nothing.
+// only for actual approved, fresh lanes.
+//
+// pricesChecked is load-bearing, not defensive: this route attaches cached
+// prices to a bounded slice of the board (see onRequest), so a card beyond that
+// slice carries no lanes because it was never queried — not because D1 has
+// nothing fresh for it. Claiming "no snapshot" there would state something the
+// server never established, so an unchecked card renders no note at all and
+// client hydration fills it in.
 // Keep in sync with renderShowCardPriceNotes in public/app.js.
-function renderServerPriceNotes(ctaSpecs) {
+function renderServerPriceNotes(ctaSpecs, pricesChecked = false) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
-    const unavailable = priceUnavailableNote(ctaSpecs);
-    return unavailable
-      ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(unavailable)}</p></div>`
+    return pricesChecked && ctaSpecs.length
+      ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(PRICE_UNAVAILABLE_NOTE)}</p></div>`
       : "";
   }
   const snapshotTimes = priced.map((spec) => `${spec.name} (${spec.priceAsOf})`).join(" · ");
@@ -2902,7 +2912,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       const ctaLabel = `<p class="provider-cta-label">Compare ticket options for this date<span class="sr-only"> at ${escapeHtml(
         location || "this show"
       )}</span></p>`;
-      ctaHtml = `${ctaLabel}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs)}`;
+      ctaHtml = `${ctaLabel}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`;
     }
   }
 

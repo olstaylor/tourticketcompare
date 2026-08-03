@@ -1886,32 +1886,40 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
   return cta;
 }
 
-// Copy for a card whose providers all lack an eligible snapshot. A show can
-// carry checked destinations and still have no displayable price — most often
-// because no provider with a numeric price lane has a verified exact-event
-// match for that date. Naming the destinations the card actually offers turns
-// "no price" into a next step. No link is emitted here: the provider buttons
+// Copy for a card whose lanes were checked and none had an eligible snapshot.
+// Deliberately neutral about where to look: the buttons are ordered affiliate
+// first, so naming a subset of them would read as a recommendation rather than
+// a description of the card. No link is emitted here — the provider buttons
 // above stay the card's only outbound links.
-// Keep in sync with priceUnavailableNote in functions/[[path]].js.
-function priceUnavailableNote(ctaSpecs) {
-  const names = ctaSpecs.map((spec) => spec.name).filter(Boolean).slice(0, 3);
-  if (!names.length) return "";
-  const list = names.length === 1 ? names[0] : `${names.slice(0, -1).join(", ")} or ${names[names.length - 1]}`;
-  return `No listed-price snapshot is available for this date. Check current prices on ${list} using the buttons above.`;
+// Keep in sync with PRICE_UNAVAILABLE_NOTE in functions/[[path]].js.
+const PRICE_UNAVAILABLE_NOTE =
+  "No listed-price snapshot is available for this date. Check current prices using the provider buttons above.";
+
+// Did this card's price lanes actually get queried? A priced response carries
+// one entry per approved lane (including the unavailable ones), while a board
+// rendered without price data carries none — so "has entries", not "is an
+// array", is the signal. Anything else is a card nothing checked, and silence
+// is the only honest state for it.
+// Keep in sync with pricesWereChecked in functions/[[path]].js.
+function pricesWereChecked(show) {
+  return Array.isArray(show?.prices) && show.prices.length > 0;
 }
 
 // Required snapshot disclosures for every price shown on a button, rendered
 // once beneath the unified provider list. Provider names and capture times
-// appear only for actual approved, fresh lanes; when no lane qualifies, the
-// same slot states that plainly instead of rendering nothing.
-function renderShowCardPriceNotes(ctaSpecs) {
+// appear only for actual approved, fresh lanes.
+//
+// pricesChecked is load-bearing, not defensive: a board rendered from data that
+// never carried price lanes (the offline fallback catalogue, or any response
+// fetched without includePrices) would otherwise announce "no snapshot" for
+// every date without having checked one.
+function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
-    const unavailable = priceUnavailableNote(ctaSpecs);
-    if (!unavailable) return null;
+    if (!pricesChecked || !ctaSpecs.length) return null;
     const emptyWrap = document.createElement("div");
     emptyWrap.className = "provider-cta-notes";
-    text(emptyWrap, "p", unavailable, "disclosure-note");
+    text(emptyWrap, "p", PRICE_UNAVAILABLE_NOTE, "disclosure-note");
     return emptyWrap;
   }
   const wrap = document.createElement("div");
@@ -2198,7 +2206,7 @@ function renderShowCard(show, options = {}) {
       }
       body.append(ctaLabel, ctaGroup);
 
-      const notes = renderShowCardPriceNotes(ctaSpecs);
+      const notes = renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show));
       if (notes) body.append(notes);
 
       // On-site per-event price history (Phase 1): only where an approved price

@@ -1224,7 +1224,9 @@ assert(!appJs.includes("Event last checked:"), "hydration should rely on the con
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
 assert(appJs.includes("Listed-price snapshots, not live availability."), "hydration should include the unified listed-price snapshot disclosure");
-assert(appJs.includes("No listed-price snapshot is available for this date. Check current prices on "), "hydration should state the price-unavailable case and point at the card's own providers");
+assert(appJs.includes("No listed-price snapshot is available for this date. Check current prices using the provider buttons above."), "hydration should state the price-unavailable case");
+assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show))"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
+assert(appJs.includes("Array.isArray(show?.prices) && show.prices.length > 0"), "the hydrated priced-lane check must treat an empty lane array as unchecked, not as a confirmed absence");
 assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
 assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
 assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price snapshot should hide expired data");
@@ -2817,9 +2819,26 @@ assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-check\">Check pri
 // A card with checked destinations but no eligible snapshot must say so and
 // name where to look, rather than leaving the price slot silently empty.
 assert(
-  serverMorganWithoutSeatGeek.text.includes("No listed-price snapshot is available for this date. Check current prices on Ticketmaster using the buttons above."),
-  "a card whose providers all lack an eligible snapshot must state the unavailable case and name its own providers"
+  serverMorganWithoutSeatGeek.text.includes("No listed-price snapshot is available for this date. Check current prices using the provider buttons above."),
+  "a card whose queried lanes all lack an eligible snapshot must state the unavailable case"
 );
+
+// Regression: the router attaches cached prices to a bounded slice of the board
+// (see the futureShowsForArtist limit in onRequest), so a card outside that
+// slice was never queried. It must stay silent rather than announce an absence
+// the server never established — a fresh D1 snapshot may well exist for it.
+const boundedPriceBoard = await routeResponse("/artists/olivia-rodrigo");
+if (boundedPriceBoard.response.status === 200) {
+  const boardCards = boundedPriceBoard.text.split("<article").filter((card) => card.includes("info-card show-card"));
+  const cardsWithButtons = boardCards.filter((card) => card.includes('class="provider-cta-group"'));
+  const cardsWithNote = boardCards.filter((card) => card.includes("No listed-price snapshot is available for this date."));
+  if (cardsWithButtons.length > 6) {
+    assert(
+      cardsWithButtons.length > cardsWithNote.length,
+      "cards whose price lanes were never queried must not claim that no snapshot is available"
+    );
+  }
+}
 // Per card, not per page: one board legitimately mixes both states, so the
 // invariant is that a card carrying a price never also carries the note.
 const pricedMorganCards = serverPricedMorgan.text

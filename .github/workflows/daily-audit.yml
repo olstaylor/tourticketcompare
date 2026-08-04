@@ -227,6 +227,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # verification-dates may have pushed to main minutes ago in this same run.
+      # This job checked out the run's original SHA, so regenerating from that
+      # tree would recompute the per-artist table from PRE-bump artists.json and
+      # push a commit that undoes the bump's own record of itself. Starting from
+      # the tip removes that race entirely — and removes the need to rebase a
+      # commit built on a stale base.
+      - name: Sync to the tip of main
+        run: |
+          git fetch origin main
+          git checkout -B status-figures origin/main
+
       - name: Refresh generated figures
         run: |
           # Data-derived counts (sub-second read of the data files), then the
@@ -264,7 +275,8 @@ jobs:
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
           git add PROJECT_STATUS.md
           git commit -m "Refresh generated status figures (${TODAY})"
-          # verification-dates may have pushed to main minutes earlier in this
-          # same run; rebase onto it rather than failing on a stale ref.
-          git pull --rebase origin main
+          # HEAD is origin/main plus this one commit (see "Sync to the tip"), so
+          # this is a fast-forward. If someone pushed in between it is rejected
+          # rather than forced — the writers are idempotent, so the next run
+          # simply redoes the work.
           git push origin HEAD:main

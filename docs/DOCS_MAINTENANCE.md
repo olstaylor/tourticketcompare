@@ -6,17 +6,21 @@ TourTicketCompare keeps a small, explicit documentation set. The repository and 
 
 | File | Owns | Update when |
 |---|---|---|
-| `CLAUDE.md` | Stable contributor rules, protected areas, architecture summary, automation map | A durable rule, protected area, binding, workflow, or repository structure changes |
-| `PROJECT_STATUS.md` | Current production/data state, counts, rollout status, active risks | Data, configuration, provider activation, or operational risk changes |
-| `BACKLOG.md` | Priorities and explicit parking decisions | Work opens, closes, changes priority, or is deliberately parked |
+| `CLAUDE.md` | Concise, stable contributor rules, protected areas, and working style — non-negotiable rules and key commands only | A durable rule or protected area changes |
+| `docs/ARCHITECTURE.md` | Repository structure, request routing, and durable contracts | Structure, routing, or a durable contract changes |
+| `docs/OPERATIONS.md` | Workflow schedules, secrets/bindings reference, known infrastructure incidents | A workflow schedule, credential, or infrastructure incident changes |
+| `PROJECT_STATUS.md` | Current data counts and per-artist status — largely machine-generated | Data or provider activation changes (mostly self-heals via the writer scripts) |
+| `BACKLOG.md` | Genuinely outstanding priorities and explicit parking decisions | Work opens, closes, changes priority, or is deliberately parked |
 
 If these files disagree with the repository, the repository wins. Recount and correct the documentation; do not copy a stale number forward.
 
 ## Stable reference documents
 
 - Root: `README.md`, `CONTRIBUTING.md`, `SAFE_PUBLISHING_RULES.md`, `AGENTS.md`.
-- `docs/`: `ARCHITECTURE.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ROUTE_INDEXABILITY_POLICY.md`, `ADDING_ARTISTS.md`, `SAFE_NEXT_ARTIST_WORKFLOW.md`, `ADDING_PROVIDERS.md`, `PROVIDER_SYNC.md`, `SEATGEEK_DISCOVERY.md`, `COMMERCIAL_FUNNEL.md`, and `BLOG.md`.
+- `docs/`: `ARCHITECTURE.md`, `OPERATIONS.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ROUTE_INDEXABILITY_POLICY.md`, `ADDING_ARTISTS.md`, `SAFE_NEXT_ARTIST_WORKFLOW.md`, `ADDING_PROVIDERS.md`, `PROVIDER_SYNC.md`, `SEATGEEK_DISCOVERY.md`, `COMMERCIAL_FUNNEL.md`, and `BLOG.md`.
 - `migrations/README.md` owns the applied D1 migration ledger.
+
+`docs/OPERATIONS.md` owns the live workflow schedule, the secrets/bindings reference, and known infrastructure incidents — content that used to live in `CLAUDE.md` and `PROJECT_STATUS.md`. `docs/ARCHITECTURE.md` owns durable structure and contracts (routing, bindings mechanics, aggregation layers) that used to be partly duplicated in `CLAUDE.md`.
 
 Stable reference docs should describe contracts and procedures, not volatile counts, workflow run numbers, or point-in-time rollout claims. Link to `PROJECT_STATUS.md` for current values.
 
@@ -69,5 +73,5 @@ When updating `PROJECT_STATUS.md`:
 2. Confirm workflow schedules from `.github/workflows/`, not from older prose.
 3. Confirm runtime configuration through `/api/health` or the relevant fail-closed endpoint without exposing secret values.
 4. Move completed work to the short completed section in `BACKLOG.md`; keep implementation history in git.
-5. When a risk resolves or a dated review concludes, distill its live residue into `PROJECT_STATUS.md`/`BACKLOG.md`, then move the narrative to `reports/status-history/` or delete it to git history — `PROJECT_STATUS.md` stays current-state only.
+5. When a risk resolves or a dated review concludes, distill its live residue into `PROJECT_STATUS.md` (data/counts), `docs/OPERATIONS.md` (infrastructure incidents), or `BACKLOG.md` (task tracking) as appropriate, then move the narrative to `reports/status-history/` or delete it to git history — `PROJECT_STATUS.md` stays current-state-and-counts only.
 6. Run `npm run docs:check` and the relevant repository validation.

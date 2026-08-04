@@ -1,6 +1,6 @@
 # TourTicketCompare architecture
 
-TourTicketCompare is a static-first Cloudflare Pages application with Pages Functions for routing and APIs. This document describes durable repository contracts; current counts, provider rollout state, and live risks belong in [PROJECT_STATUS.md](../PROJECT_STATUS.md).
+TourTicketCompare is a static-first Cloudflare Pages application with Pages Functions for routing and APIs. This document describes durable repository contracts; current data counts belong in [PROJECT_STATUS.md](../PROJECT_STATUS.md), and workflow schedules, secrets, and known infrastructure incidents belong in [OPERATIONS.md](OPERATIONS.md).
 
 ## Runtime
 
@@ -194,6 +194,7 @@ Changes to these files require explicit scope and proportionate validation:
 ## Documentation boundaries
 
 - Stable contracts and structure: this file, `CLAUDE.md`, and topic runbooks.
-- Current counts, runtime state, and risks: `PROJECT_STATUS.md` only.
+- Workflow schedules, secrets/bindings, and known infrastructure incidents: `docs/OPERATIONS.md` only.
+- Current data counts and per-artist status: `PROJECT_STATUS.md` only.
 - Priorities and parked work: `BACKLOG.md` only.
 - Historical implementation details: git history, pull requests, and issues.

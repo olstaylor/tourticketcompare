@@ -17,6 +17,7 @@ const REQUIRED_DOCS = [
   "CONTRIBUTING.md",
   "SAFE_PUBLISHING_RULES.md",
   "docs/ARCHITECTURE.md",
+  "docs/OPERATIONS.md",
   "docs/DEPLOYMENT.md",
   "docs/CONTENT_RULES.md",
   "docs/PROVIDER_DATA_POLICY.md",

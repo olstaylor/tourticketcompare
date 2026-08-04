@@ -125,7 +125,7 @@ node scripts/prune-provider-pricing-history.mjs --provider ticketnetwork --json
 
 The event-link workflow runs nightly in three serialized provider lanes after the Ticketmaster, SeatGeek, and Vivid Seats jobs. Catalog results are campaign-isolated and write only unambiguous artist + venue + city + venue-local-date matches. Scheduled changes auto-merge only after the full validation suite passes; manual dispatch remains preview-first and manual apply remains review-only. Provider-specific credentials may override an explicitly approved fallback credential set.
 
-The snapshot workflow reads the exact stored provider event ID. It skips missing/conflicting price or currency observations. Only providers with approved numeric feed data and enabled schedules write D1; other provider lanes remain manual and price-disabled. Check workflow YAML and `PROJECT_STATUS.md` for current activation rather than copying campaign IDs or schedules here.
+The snapshot workflow reads the exact stored provider event ID. It skips missing/conflicting price or currency observations. Only providers with approved numeric feed data and enabled schedules write D1; other provider lanes remain manual and price-disabled. Check workflow YAML and `docs/OPERATIONS.md` for current activation rather than copying campaign IDs or schedules here.
 
 Snapshot cadence is bounded on two sides. The cron interval sets how stale a displayed price can be on average; `DEFAULT_FRESHNESS_HOURS` in each snapshot script sets the hard cap, and **must stay strictly larger than the cron interval** or rows expire between runs and badges blink out. Keep the two in step whenever either changes.
 

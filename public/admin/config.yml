@@ -15,7 +15,9 @@ backend:
   name: github
   repo: olstaylor/tourticketcompare
   branch: main
-  base_url: https://tourticketcompare.com
+  # The editor's own origin, not the apex: see ADMIN_HOST in
+  # functions/_route-metadata.js for why the two are kept apart.
+  base_url: https://admin.tourticketcompare.com
   auth_endpoint: api/admin/auth
   commit_messages:
     create: 'content: add blog post "{{slug}}"'

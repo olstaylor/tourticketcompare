@@ -9,7 +9,7 @@
 // Fails closed and loudly: with no OAuth app configured this returns 503 with
 // setup instructions rather than a broken redirect. See docs/BLOG.md.
 
-import { CANONICAL_HOST, isLocalOrigin } from "../../_route-metadata.js";
+import { ADMIN_ORIGIN, isAdminHost, isLocalOrigin } from "../../_route-metadata.js";
 
 export const STATE_COOKIE = "ttc_admin_oauth_state";
 const STATE_TTL_SECONDS = 600;
@@ -23,16 +23,18 @@ const STATE_TTL_SECONDS = 600;
 const SCOPE = "public_repo";
 
 /**
- * Only the canonical production host and local development may start the flow.
- * Preview and alias hosts are refused so a token can never be issued against an
- * origin the OAuth app's callback URL does not match.
+ * Only the dedicated editor host and local development may start the flow.
+ *
+ * The apex is deliberately excluded: a token issued there would land in
+ * localStorage shared with the public site's third-party tags. Preview and
+ * alias hosts are refused for the same reason, and because a token must never
+ * be issued against an origin the OAuth app's callback URL does not match.
  *
  * @param {URL} url
  * @returns {boolean}
  */
 export function allowedAuthOrigin(url) {
-  const host = url.hostname.toLowerCase();
-  return host === CANONICAL_HOST || isLocalOrigin(url.origin);
+  return isAdminHost(url.hostname) || isLocalOrigin(url.origin);
 }
 
 function randomState() {
@@ -52,7 +54,7 @@ export async function onRequestGet({ request, env }) {
   const url = new URL(request.url);
 
   if (!allowedAuthOrigin(url)) {
-    return plain(`The content editor sign-in is only available on https://${CANONICAL_HOST}/admin.`, 403);
+    return plain(`The content editor sign-in is only available on ${ADMIN_ORIGIN}/admin.`, 403);
   }
 
   const clientId = String(env?.GITHUB_OAUTH_CLIENT_ID || "").trim();
@@ -66,7 +68,7 @@ export async function onRequestGet({ request, env }) {
         "  GITHUB_OAUTH_CLIENT_ID",
         "  GITHUB_OAUTH_CLIENT_SECRET",
         "",
-        `The OAuth App's Authorization callback URL must be exactly https://${CANONICAL_HOST}/api/admin/callback`,
+        `The OAuth App's Authorization callback URL must be exactly ${ADMIN_ORIGIN}/api/admin/callback`,
         "",
         "Full instructions: docs/BLOG.md in the repository.",
         "Until then, edit content/blog/*.md directly on GitHub — the site publishes from those files either way."

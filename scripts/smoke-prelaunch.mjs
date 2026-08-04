@@ -3552,21 +3552,44 @@ console.log("artist-city landing-page verification passed");
     assert(!rssXml.includes(`/blog/${slug}<`), `the feed must not carry draft post ${slug}`);
   }
 
-  // The content editor is reachable, unindexable, and inert without OAuth
-  // configuration — it must never fail open.
+  // The content editor lives on its own origin so its localStorage — which
+  // holds a GitHub token — is not shared with the public site and its
+  // third-party tags. Both halves of that boundary are asserted here.
+  const { ADMIN_ORIGIN } = routeMetadataModule;
   const adminModule = await import(pathToFileURL(path.join(root, "functions/admin.js")));
-  const adminResponse = await adminModule.onRequestGet();
-  assert(adminResponse.status === 200, "/admin should render the editor shell");
+
+  const adminResponse = await adminModule.onRequestGet({ request: new Request(`${ADMIN_ORIGIN}/admin`) });
+  assert(adminResponse.status === 200, "/admin should render the editor shell on the admin host");
   assert(adminResponse.headers.get("X-Robots-Tag")?.includes("noindex"), "/admin must be noindex");
   assert(
     /script-src 'self'/.test(adminResponse.headers.get("Content-Security-Policy") || ""),
     "/admin must load scripts only from its own origin"
   );
+  const adminOnApex = await adminModule.onRequestGet({ request: new Request("https://tourticketcompare.com/admin") });
+  assert(adminOnApex.status === 404, "the editor shell must not be served on the public origin");
+
+  // Routed through the real middleware: the apex must not serve the editor, and
+  // the admin host must not serve the public site (which is what would put a
+  // tag-manager script on the editor's origin).
+  for (const adminPath of ["/admin", "/admin/config.yml", "/api/admin/auth"]) {
+    const onApex = await routeResponse(adminPath);
+    assert(onApex.response.status === 404, `${adminPath} must 404 on the public origin`);
+  }
+  for (const publicPath of ["/", "/artists", "/blog"]) {
+    const onAdmin = await routeResponse(publicPath, env, ADMIN_ORIGIN);
+    assert(onAdmin.response.status === 301, `${publicPath} must redirect off the editor origin`);
+    assert(
+      (onAdmin.response.headers.get("location") || "").startsWith("https://tourticketcompare.com"),
+      `${publicPath} must redirect to the apex, keeping public pages off the editor origin`
+    );
+  }
+  const adminRobots = await routeResponse("/robots.txt", env, ADMIN_ORIGIN);
+  assert(adminRobots.text.includes("Disallow: /"), "the editor origin must disallow all crawling");
   assert((await read("public/robots.txt")).includes("Disallow: /admin"), "robots.txt must disallow /admin");
 
   const authModule = await import(pathToFileURL(path.join(root, "functions/api/admin/auth.js")));
   const unconfigured = await authModule.onRequestGet({
-    request: new Request("https://tourticketcompare.com/api/admin/auth"),
+    request: new Request(`${ADMIN_ORIGIN}/api/admin/auth`),
     env: {}
   });
   assert(unconfigured.status === 503, "the editor sign-in must fail closed when the OAuth app is not configured");
@@ -3575,13 +3598,15 @@ console.log("artist-city landing-page verification passed");
     unconfiguredBody.includes("GITHUB_OAUTH_CLIENT_ID") && !unconfiguredBody.includes("client_secret="),
     "the unconfigured sign-in response should name the missing settings without leaking a value"
   );
-  const wrongHost = await authModule.onRequestGet({
-    request: new Request("https://tourticketcompare.pages.dev/api/admin/auth"),
-    env: { GITHUB_OAUTH_CLIENT_ID: "id", GITHUB_OAUTH_CLIENT_SECRET: "secret" }
-  });
-  assert(wrongHost.status === 403, "the editor sign-in must refuse non-canonical hosts");
+  for (const badOrigin of ["https://tourticketcompare.com", "https://tourticketcompare.pages.dev"]) {
+    const wrongHost = await authModule.onRequestGet({
+      request: new Request(`${badOrigin}/api/admin/auth`),
+      env: { GITHUB_OAUTH_CLIENT_ID: "id", GITHUB_OAUTH_CLIENT_SECRET: "secret" }
+    });
+    assert(wrongHost.status === 403, `the editor sign-in must refuse ${badOrigin} — a token there would share storage with the public site`);
+  }
 
-  console.log("blog + content editor verification passed");
+  console.log("blog + content editor verification passed (editor origin isolated)");
 }
 
 console.log("Cloudflare Pages MVP smoke checks passed");

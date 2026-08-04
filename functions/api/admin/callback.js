@@ -9,7 +9,7 @@
 // how *they* commit, not a site credential. It is never stored, never logged,
 // and never written to D1.
 
-import { CANONICAL_HOST } from "../../_route-metadata.js";
+import { ADMIN_ORIGIN } from "../../_route-metadata.js";
 import { STATE_COOKIE, allowedAuthOrigin } from "./auth.js";
 
 // The handshake script is fixed — the token is delivered separately in a
@@ -64,7 +64,7 @@ function failure(message, status = 400) {
 
 export async function onRequestGet({ request, env }) {
   const url = new URL(request.url);
-  if (!allowedAuthOrigin(url)) return failure(`this flow only runs on https://${CANONICAL_HOST}`, 403);
+  if (!allowedAuthOrigin(url)) return failure(`this flow only runs on ${ADMIN_ORIGIN}`, 403);
 
   const clientId = String(env?.GITHUB_OAUTH_CLIENT_ID || "").trim();
   const clientSecret = String(env?.GITHUB_OAUTH_CLIENT_SECRET || "").trim();

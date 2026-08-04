@@ -145,35 +145,42 @@ A post or tag page below its threshold still returns 200 with a self-referencing
 
 ## Setting up the `/admin` editor (one-time, owner)
 
-> **Unresolved security issue — read before creating the OAuth App.**
->
-> Sveltia persists the signed-in account, **including the GitHub access token**, in `localStorage` under the key `sveltia-cms.user` (`WM.set` in the vendored bundle is a `localStorage` wrapper; the bundle contains no `sessionStorage` path). `localStorage` is shared by every page on an origin, and `tourticketcompare.com` also serves the public site with Google Tag Manager and Google Analytics on it. A GTM Custom HTML tag, a compromised GTM account, or any XSS anywhere on the apex could therefore read a long-lived token that can push to this repository — and a push to `main` auto-deploys.
->
-> The token scope is `public_repo` rather than `repo`, so a leak cannot reach private repositories, but it can still push here. **Do not create the OAuth App until this is resolved** — the editor is inert without it, so nothing is exposed while it stays unconfigured. The durable fix is to serve the editor from its own origin (e.g. `admin.tourticketcompare.com`) so its storage is isolated from the public site. Tracked in `PROJECT_STATUS.md` → Active risks.
+The editor runs on **its own hostname**, `admin.tourticketcompare.com`, not on the apex. That is a security boundary, not cosmetics.
 
-The editor is [Sveltia CMS](https://github.com/sveltia/sveltia-cms), vendored into `public/admin/sveltia-cms.js` so no third-party *script* origin appears in the CSP of a page that holds a repository token. (`font-src` does allow `cdn.jsdelivr.net`: the bundle loads Material Symbols from there, and an icon font that fails to load leaves every icon button rendering its ligature name as text. A font cannot execute.) It is inert until a GitHub OAuth App exists.
+Sveltia persists the signed-in account — **including the GitHub access token** — in `localStorage` under `sveltia-cms.user` (`WM.set` in the vendored bundle is a `localStorage` wrapper; the bundle has no `sessionStorage` path). `localStorage` is shared by every page on an origin, and the apex serves the public site with Google Tag Manager and Analytics on it. An editor on the apex would put a repository-write credential within reach of any third-party tag or any XSS anywhere on the site — and a push to `main` auto-deploys. A separate hostname gives the editor its own storage partition.
 
-1. **Create a GitHub OAuth App** at <https://github.com/settings/developers> → *New OAuth App*.
+Two rules keep the origins apart, both enforced in `functions/_middleware.js` and asserted by the smoke suite:
+
+- The admin host serves **nothing** except `/admin`, `/admin/*` and `/api/admin/*`. Every other path 301s to the apex, so no public page — and therefore no analytics or tag-manager script — ever runs on that origin. It also serves its own `robots.txt` with `Disallow: /`.
+- No other host serves the editor. `/admin` and `/api/admin/*` return 404 on the apex, on preview hosts, and on `*.pages.dev`.
+
+The token scope is `public_repo` rather than `repo`, so even a leaked token cannot reach private repositories. If this repository is ever made private that must change to `repo`, and the storage question should be revisited first.
+
+### Steps
+
+1. **Add the hostname to the Cloudflare Pages project.** Pages → `tourticketcompare` → *Custom domains* → *Set up a custom domain* → `admin.tourticketcompare.com`. Cloudflare adds the DNS record for you when the zone is on Cloudflare. It is the same Pages project — there is nothing extra to deploy.
+2. **Create a GitHub OAuth App** at <https://github.com/settings/developers> → *New OAuth App*.
    - Application name: anything, e.g. `TourTicketCompare content editor`
-   - Homepage URL: `https://tourticketcompare.com`
-   - **Authorization callback URL: `https://tourticketcompare.com/api/admin/callback`** — this must match exactly.
-2. **Generate a client secret** and copy both values.
-3. **Add two secrets in the Cloudflare Pages dashboard** (Settings → Environment variables → Production, *encrypted*):
+   - Homepage URL: `https://admin.tourticketcompare.com`
+   - **Authorization callback URL: `https://admin.tourticketcompare.com/api/admin/callback`** — this must match exactly.
+3. **Generate a client secret** and copy both values.
+4. **Add two secrets in the Cloudflare Pages dashboard** (Settings → Environment variables → Production, *encrypted*):
    - `GITHUB_OAUTH_CLIENT_ID`
    - `GITHUB_OAUTH_CLIENT_SECRET`
-4. Redeploy (any push to `main` will do) and open `https://tourticketcompare.com/admin`.
+5. Redeploy (any push to `main` will do) and open `https://admin.tourticketcompare.com/admin`.
 
-Until step 3 is done, `/admin` loads but signing in returns a 503 explaining exactly what is missing. That is deliberate: the editor fails closed.
+Until step 4 is done, the editor loads but signing in returns a 503 explaining exactly what is missing. That is deliberate: it fails closed.
 
 ### How access works
 
 The editor holds no site credential. Signing in issues a token against **your own** GitHub account, so the ability to publish is exactly your write access to the repository. Revoking a person's repository access revokes their ability to publish, with nothing to clean up here.
 
-- `/admin` is `noindex`, disallowed in `robots.txt`, and serves its own tightened Content-Security-Policy.
-- `/api/admin/auth` only runs on the canonical host, so a preview or alias origin can never start a sign-in.
+- `/admin` is `noindex`, disallowed by the admin origin's `robots.txt`, and serves its own tightened Content-Security-Policy.
+- `/api/admin/auth` runs **only** on the admin host, so a token can never be issued against the apex or a preview origin.
 - The OAuth `state` is a random 256-bit value in an HttpOnly, `Secure`, `SameSite=Lax` cookie, checked and burned on callback.
 - The client secret is used only in a server-to-server exchange and never reaches the browser.
-- The access token is passed to the editor window and never stored, logged, or written to D1.
+- The access token is passed to the editor window and never stored, logged, or written to D1 by this site's own code.
+- `font-src` allows `cdn.jsdelivr.net`: the bundle loads Material Symbols from there, and an icon font that fails to load leaves every icon button rendering its ligature name as text. A font cannot execute; no third-party *script* origin is permitted.
 
 ### Updating the editor
 

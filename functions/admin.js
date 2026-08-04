@@ -10,6 +10,8 @@
 // signing in is what grants any write ability, and that happens through the
 // editor's own GitHub account.
 
+import { isAdminHost, isLocalOrigin } from "./_route-metadata.js";
+
 const ADMIN_CSP = [
   "default-src 'self'",
   // The editor is a compiled Svelte app: its component styles are injected as
@@ -49,7 +51,18 @@ const HTML = `<!doctype html>
 </html>
 `;
 
-export async function onRequestGet() {
+export async function onRequestGet({ request }) {
+  // The middleware already refuses this path on any other host; this is the
+  // same rule restated at the handler so the boundary does not depend on a
+  // single call site.
+  const url = new URL(request.url);
+  if (!isAdminHost(url.hostname) && !isLocalOrigin(url.origin)) {
+    return new Response("Not found.\n", {
+      status: 404,
+      headers: { "Content-Type": "text/plain; charset=UTF-8", "X-Robots-Tag": "noindex, nofollow" }
+    });
+  }
+
   return new Response(HTML, {
     headers: {
       "Content-Type": "text/html; charset=UTF-8",

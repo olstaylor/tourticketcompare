@@ -74,16 +74,31 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { loadSiteFixture, crawlRoutes, computeInboundLinks } from "./lib/route-crawl.mjs";
+import {
+  checkSurface,
+  applySurfaceWrites,
+  computeEmptyBoards,
+  renderSurfaceLine,
+  renderEmptyBoardLine,
+  SURFACE_TYPES
+} from "./lib/status-surface.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ORIGIN = "https://tourticketcompare.com";
 const REPORT_DIR = path.join(root, "reports/indexable-surface");
 const BASELINE_PATH = path.join(REPORT_DIR, "baseline.json");
 const ANALYTICS_PATH = path.join(root, "reports/analytics/route-traffic.json");
+const STATUS_PATH = path.join(root, "PROJECT_STATUS.md");
 
 const argv = process.argv.slice(2);
 const CHECK_MODE = argv.includes("--check");
 const WRITE_BASELINE = argv.includes("--write-baseline");
+// The route surface and the empty-board list are the only PROJECT_STATUS.md
+// figures that move with the calendar rather than with a data edit, and this
+// crawl is the only thing that knows them truthfully (robots meta as rendered,
+// not as inferred). --check warns when they drift; --write-status refreshes
+// them, and is wired into the same lanes that self-heal the data counts.
+const WRITE_STATUS = argv.includes("--write-status");
 const SELF_TEST = argv.includes("--self-test");
 const WARN_DAYS = Number(argv[argv.indexOf("--warn-days") + 1]) > 0 ? Number(argv[argv.indexOf("--warn-days") + 1]) : 14;
 
@@ -227,6 +242,84 @@ if (SELF_TEST) {
   assert(routeType("/blog/why-prices-move") === "blog-post", "blog post route");
   assert(routeType("/blog/tags/how-we-work") === "blog-tag", "blog tag route");
   assert(routeType("/about") === "static", "trust pages are static routes");
+
+  // --- PROJECT_STATUS.md generated figures ------------------------------
+  // These sentences are written into a file no test renders, so the round
+  // trip (render -> detect drift -> write -> clean) is asserted here.
+  const fakeSummary = {
+    generated_at: "2026-08-04T09:00:00.000Z",
+    totals: Object.fromEntries(SURFACE_TYPES.map((type, i) => [type, { rendered: i + 1, indexable: i }])),
+    overall: { rendered: 55, indexable: 45 }
+  };
+  const surfaceLine = renderSurfaceLine(fakeSummary);
+  assert(/\*\*55 rendered \/ 45 indexable\*\*/.test(surfaceLine), "surface line carries the overall totals");
+  assert(surfaceLine.startsWith("Generated 2026-08-04:"), "surface line is stamped with the run date, not today");
+  assert(surfaceLine.includes("artist-city 10/9"), "surface line carries every type");
+
+  const emptyInput = {
+    generatedAt: Date.parse("2026-08-04T09:00:00.000Z"),
+    editoriallyIndexable: 4,
+    emptySlugs: ["raye", "latto"],
+    zeroEventSlugs: ["latto"]
+  };
+  const emptyLine = renderEmptyBoardLine(emptyInput);
+  assert(/leaving \*\*2 live artist pages\*\*/.test(emptyLine), "empty-board line derives the live count");
+  assert(emptyLine.includes("1 of them (latto) have never had an event record"), "never-had-events subset is named");
+  assert(
+    !renderEmptyBoardLine({ ...emptyInput, emptySlugs: [], zeroEventSlugs: [] }).includes("leaving"),
+    "with no empty boards the sentence states the all-live case instead"
+  );
+
+  const statusDoc = [
+    "intro",
+    "<!-- generated:route-surface -->",
+    "Generated 2020-01-01: **1 rendered / 1 indexable**. By type (rendered/indexable): stale.",
+    "<!-- /generated:route-surface -->",
+    "middle",
+    "<!-- generated:empty-boards -->",
+    "stale empty-board sentence",
+    "<!-- /generated:empty-boards -->",
+    "outro"
+  ].join("\n");
+  const statusInputFixture = { summary: fakeSummary, emptyBoards: emptyInput };
+  const drift = checkSurface(statusDoc, statusInputFixture);
+  assert(drift.divergences.length === 2, "both generated blocks are seen as stale");
+  const written = applySurfaceWrites(statusDoc, drift.writeOps);
+  assert(written.includes("intro") && written.includes("middle") && written.includes("outro"), "prose outside the markers survives");
+  assert(checkSurface(written, statusInputFixture).divergences.length === 0, "a written document is clean on re-check");
+
+  const missingMarkers = checkSurface("no markers here", statusInputFixture);
+  assert(
+    missingMarkers.divergences.length === 0 && missingMarkers.missing.length === 2,
+    "absent markers are reported as skipped, never written blind"
+  );
+  const duplicated = `${statusDoc}\n${statusDoc}`;
+  assert(
+    checkSurface(duplicated, statusInputFixture).missing.some((m) => /ambiguous/.test(m.reason)),
+    "duplicated markers are ambiguous, not a coin flip"
+  );
+
+  // The fixture that defines artistIndexabilityModule is loaded further down,
+  // after this block exits — so the self-test imports the gate directly rather
+  // than reaching for a binding that does not exist yet.
+  const artistIndexabilityForTest = await import("../functions/_artist-indexability.js");
+  const boards = computeEmptyBoards({
+    artistsMeta: [
+      { slug: "live", indexing_status: "indexable_with_substantial_content" },
+      { slug: "empty", indexing_status: "indexable_with_substantial_content" },
+      { slug: "never", indexing_status: "indexable_with_substantial_content" },
+      { slug: "shell", indexing_status: "review_required" }
+    ],
+    events: [
+      { artist_slug: "live", datetime_iso: "2030-01-01T00:00:00Z" },
+      { artist_slug: "empty", datetime_iso: "2020-01-01T00:00:00Z" }
+    ],
+    artistIndexabilityModule: artistIndexabilityForTest,
+    now: Date.parse("2026-08-04T00:00:00Z")
+  });
+  assert(boards.editoriallyIndexable === 3, "shells are not counted as editorially indexable");
+  assert(boards.emptySlugs.join(",") === "empty,never", "past-only and no-event artists are both empty boards");
+  assert(boards.zeroEventSlugs.join(",") === "never", "only the artist with no records at all is in the never-had subset");
 
   const sampleTokens = ["Harry Styles", "Doja Cat", "London", "Toronto", "Denver"];
   assert(
@@ -832,6 +925,45 @@ if (WRITE_BASELINE) {
   console.log(`indexable-surface: baseline written to ${path.relative(root, BASELINE_PATH)}`);
 }
 
+// ---------------------------------------------------------------------------
+// PROJECT_STATUS.md generated figures
+// ---------------------------------------------------------------------------
+
+const statusInput = {
+  summary,
+  emptyBoards: computeEmptyBoards({ artistsMeta, events, artistIndexabilityModule, now })
+};
+
+async function syncStatusFigures({ write }) {
+  let text;
+  try {
+    text = await fs.readFile(STATUS_PATH, "utf8");
+  } catch {
+    console.log("indexable-surface: PROJECT_STATUS.md not readable — status figures skipped");
+    return;
+  }
+  const { divergences, missing, writeOps } = checkSurface(text, statusInput);
+  for (const gap of missing) {
+    console.log(`::warning::indexable-surface: PROJECT_STATUS.md ${gap.key} — ${gap.reason} (skipped)`);
+  }
+  if (!divergences.length) {
+    if (write) console.log("indexable-surface: PROJECT_STATUS.md generated figures already current");
+    return;
+  }
+  if (!write) {
+    // Warning, not a problem: these move with the calendar every day, so
+    // failing on them would fail CI for the passage of time.
+    for (const d of divergences) {
+      console.log(`::warning::indexable-surface: PROJECT_STATUS.md ${d.key} is stale — run \`npm run status:surface:write\``);
+    }
+    return;
+  }
+  await fs.writeFile(STATUS_PATH, applySurfaceWrites(text, writeOps));
+  console.log(`indexable-surface: refreshed ${divergences.length} generated figure(s) in PROJECT_STATUS.md`);
+}
+
+if (WRITE_STATUS) await syncStatusFigures({ write: true });
+
 if (CHECK_MODE) {
   console.log(
     `indexable-surface: ${summary.overall.rendered} routes, ${summary.overall.indexable} indexable, ` +
@@ -850,6 +982,7 @@ if (CHECK_MODE) {
     for (const problem of problems) console.error(`  - ${problem}`);
     process.exit(1);
   }
+  await syncStatusFigures({ write: false });
   console.log("indexable-surface: no orphans, no empty indexable routes, no duplicate titles, no structural change");
   process.exit(0);
 }

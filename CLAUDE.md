@@ -215,6 +215,7 @@ python3 scripts/validate-events.py --for-production
 node scripts/validate-guide-routes.mjs            # if guides/routes touched
 npm run schema:validate                           # if routes/schema/MusicEvent offers touched
 npm run status:validate                           # recount PROJECT_STATUS.md figures from source
+npm run status:surface:write                      # regenerate its route-surface / empty-board blocks
 npm run test:funnel-analytics                     # if analytics/out/CTA measurement touched
 npm run report:commercial-funnel:self-test        # if the funnel report touched
 npm run artist:check -- <slug>                    # if a specific artist touched

@@ -18,6 +18,7 @@
     "audit:indexable-surface": "node scripts/audit-indexable-surface.mjs",
     "audit:indexable-surface:check": "node scripts/audit-indexable-surface.mjs --check",
     "audit:indexable-surface:baseline": "node scripts/audit-indexable-surface.mjs --write-baseline",
+    "status:surface:write": "node scripts/audit-indexable-surface.mjs --write-status",
     "audit:indexable-surface:self-test": "node scripts/audit-indexable-surface.mjs --self-test",
     "indexnow:ping": "node scripts/indexnow-ping.mjs",
     "indexnow:ping:self-test": "node scripts/indexnow-ping.mjs --self-test",

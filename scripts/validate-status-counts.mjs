@@ -5,11 +5,17 @@
 // public/data/* (and auto-merge) but do not touch PROJECT_STATUS.md, so its
 // counts silently rot. See PROJECT_STATUS.md -> "How to update this file".
 //
-// Scope: only mechanically-derivable counts are enforced — the "Current data"
-// bullets and the per-artist table's numeric columns. Prose notes, tour names,
-// last_verified_at currency, and the date-derived city/venue indexable counts
-// (functions/_cities.js gates on `ts < now`, so they change with the calendar,
-// not with a data edit) are deliberately NOT enforced.
+// Scope: the "Current data" bullets and every mechanically-derivable column of
+// the per-artist table, including `last_verified_at` — that column is copied
+// straight from artists.json, and leaving it unenforced is what let the daily
+// audit's 2026-08-02 verification bump sit unrecorded in nine rows. Prose notes
+// and tour names stay unenforced (no source to compare against).
+//
+// The date-derived route counts are enforced too, but not here: "is this route
+// indexable?" is only answered truthfully by rendering the route, so
+// scripts/audit-indexable-surface.mjs owns those figures via --write-status and
+// scripts/lib/status-surface.mjs holds their anchors. This script stays a
+// sub-second read of the data files.
 //
 // Modes:
 //   (default / --check)  recount and report divergence; exit 0 (warning-first).
@@ -127,7 +133,12 @@ export function computeCounts(sources) {
 export function computeTable(sources) {
   const { artists, events } = sources;
   const rows = new Map();
-  for (const a of artists) rows.set(a.slug, { events: 0, seatgeek_url: 0, sg_verified: 0, needs_recheck: 0 });
+  for (const a of artists) {
+    // `null` is the literal the table prints for a shell with no verification
+    // date; keeping it as a string means one comparison path for both cases.
+    const verified = nonEmpty(a.last_verified_at) ? a.last_verified_at.trim() : "null";
+    rows.set(a.slug, { last_verified_at: verified, events: 0, seatgeek_url: 0, sg_verified: 0, needs_recheck: 0 });
+  }
   for (const e of events) {
     const r = rows.get((e.artist_slug || "").trim());
     if (!r) continue;
@@ -248,6 +259,8 @@ function applyScalarWrites(text, writeOps) {
 // ---- Per-artist table -------------------------------------------------------
 
 const TABLE_COLS = { events: 2, seatgeek_url: 3, sg_verified: 4, needs_recheck: 5 };
+// Compared and written as text, not parsed as a number like the columns above.
+const TABLE_DATE_COL = 1;
 
 function findTableRange(lines) {
   const headerIdx = lines.findIndex((l) => /^\|\s*Slug\s*\|/.test(l) && /Events/.test(l) && /SG verified/.test(l));
@@ -281,6 +294,10 @@ function checkTable(text, expectedRows) {
     const slug = cells[0];
     const expected = expectedRows.get(slug);
     if (!expected) continue; // rows without a known slug are left alone
+    const foundDate = (cells[TABLE_DATE_COL] || "").trim();
+    if (foundDate !== expected.last_verified_at) {
+      divergences.push({ key: `table:${slug}.last_verified_at`, expected: expected.last_verified_at, found: foundDate || "(empty)" });
+    }
     for (const [field, col] of Object.entries(TABLE_COLS)) {
       const found = Number((cells[col] || "").replace(/[^\d]/g, ""));
       if (found !== expected[field]) {
@@ -297,6 +314,7 @@ function applyTableWrites(lines, range, expectedRows) {
     const slug = cells[0];
     const expected = expectedRows.get(slug);
     if (!expected) continue;
+    cells[TABLE_DATE_COL] = expected.last_verified_at;
     cells[TABLE_COLS.events] = String(expected.events);
     cells[TABLE_COLS.seatgeek_url] = String(expected.seatgeek_url);
     cells[TABLE_COLS.sg_verified] = String(expected.sg_verified);
@@ -371,9 +389,9 @@ function selfTest() {
 
   const sources = {
     artists: [
-      { slug: "a", indexing_status: "indexable_with_substantial_content" },
-      { slug: "b", indexing_status: "indexable_with_substantial_content" },
-      { slug: "c", indexing_status: "review_required" },
+      { slug: "a", indexing_status: "indexable_with_substantial_content", last_verified_at: "2026-08-02" },
+      { slug: "b", indexing_status: "indexable_with_substantial_content", last_verified_at: "2026-07-30" },
+      { slug: "c", indexing_status: "review_required", last_verified_at: null },
     ],
     catalog: {
       artists: [{}, {}, {}],
@@ -406,6 +424,8 @@ function selfTest() {
   assert("catalog hidden shell", counts["catalog.ticket_links.hidden_shell"] === 1);
 
   const rows = computeTable(sources);
+  assert("table a last_verified_at", rows.get("a").last_verified_at === "2026-08-02");
+  assert("table shell last_verified_at renders null", rows.get("c").last_verified_at === "null");
   assert("table a events", rows.get("a").events === 2);
   assert("table a sg_verified", rows.get("a").sg_verified === 2);
   assert("table b needs_recheck", rows.get("b").needs_recheck === 1);
@@ -440,10 +460,16 @@ function selfTest() {
   ].join("\n");
   const t = checkTable(tableMd, rows);
   assert("table drift detected", t.divergences.length > 0);
+  // The stale-date case specifically: this is the drift that went unnoticed for
+  // nine rows because the column was previously copied by hand.
+  assert(
+    "stale last_verified_at detected",
+    t.divergences.some((d) => d.key === "table:a.last_verified_at" && d.found === "2026-01-01" && d.expected === "2026-08-02"),
+  );
   const tableFixed = applyTableWrites(tableMd.split("\n"), findTableRange(tableMd.split("\n")), rows);
   // b has 2 events (one needs_recheck, one machine_high_confidence), so the
   // Events column becomes 2 and the needs_recheck column bolds to **1**.
-  assert("table b recheck bolded", /\| b \| 2026-01-01 \| 2 \| 0 \| 0 \| \*\*1\*\* \|/.test(tableFixed));
+  assert("table b recheck bolded and date refreshed", /\| b \| 2026-07-30 \| 2 \| 0 \| 0 \| \*\*1\*\* \|/.test(tableFixed));
   const t2 = checkTable(tableFixed, rows);
   assert("table clean after write", t2.divergences.length === 0);
 

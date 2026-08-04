@@ -90,6 +90,11 @@ npm run audit:indexable-surface:check         # route-usefulness policy guard (i
                                               #   duplicate titles; ordinary event expiry is reported,
                                               #   never failed. See docs/ROUTE_INDEXABILITY_POLICY.md
 npm run audit:indexable-surface               # full surface report to reports/indexable-surface/
+npm run status:surface:write                  # regenerate the <!-- generated:… --> blocks in
+                                              #   PROJECT_STATUS.md (route surface, empty boards)
+                                              #   from a real render of every route. Runs daily in
+                                              #   daily-audit.yml; run it by hand after a change
+                                              #   that moves the indexable set.
 npm run audit:indexable-surface:baseline      # re-anchor the baseline (only for an intended policy change)
 npm run test:route-indexability               # gate units, city/venue derivations, redirect-map safety
 ```

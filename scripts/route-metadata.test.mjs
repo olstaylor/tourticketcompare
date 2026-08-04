@@ -9,7 +9,10 @@
 // over budget at once and the failing validation discarded a PR carrying ~183
 // newly discovered events.
 
+import { readFileSync } from "node:fs";
 import {
+  GUIDE_ROUTES,
+  TRUST_ROUTES,
   TITLE_LENGTH_LIMIT,
   fitTitleToBudget,
   withoutParentheticalQualifier
@@ -98,5 +101,49 @@ assert(
   withoutParentheticalQualifier("Washington, D.C. (DC)") === "Washington, D.C.",
   "keeps a comma-qualified name while dropping the parenthetical"
 );
+
+// --- provenance date contract ------------------------------------------------
+// functions/[[path]].js keeps an inline fallback for the event-price guide so a
+// deploy serving stale route metadata still renders it rather than 404ing.
+const EVENT_PRICE_GUIDE_PATH = "/guides/how-to-compare-event-ticket-prices";
+assert(
+  Boolean(GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH]),
+  "the inline guide fallback's route exists in GUIDE_ROUTES"
+);
+
+// The fallback holds its own literal dates so it still publishes provenance when
+// the canonical entry is missing — which is the only time it renders. That means
+// nothing at runtime keeps the two in step, so this test does. If the provenance
+// sync advances the canonical entry, copy the new values into
+// EVENT_PRICE_GUIDE_FALLBACK in functions/[[path]].js.
+const routerSource = readFileSync(new URL("../functions/[[path]].js", import.meta.url), "utf8");
+const fallbackBlock = routerSource.slice(
+  routerSource.indexOf("const EVENT_PRICE_GUIDE_FALLBACK = {"),
+  routerSource.indexOf("};", routerSource.indexOf("const EVENT_PRICE_GUIDE_FALLBACK = {"))
+);
+for (const field of ["datePublished", "lastmod"]) {
+  const literal = fallbackBlock.match(new RegExp(`${field}:\\s*"([\\d-]+)"`))?.[1];
+  assert(
+    literal === GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH][field],
+    `EVENT_PRICE_GUIDE_FALLBACK.${field} (${literal}) matches GUIDE_ROUTES (${GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH][field]})`
+  );
+}
+
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+
+// Every static route the sitemap and the provenance sync depend on must carry a
+// well-formed lastmod. scripts/sync-content-provenance.mjs updates these values
+// in place, and the sitemap emits them.
+for (const [path, route] of Object.entries(GUIDE_ROUTES)) {
+  assert(ISO_DATE.test(String(route.lastmod || "")), `${path} has an ISO lastmod`);
+  assert(ISO_DATE.test(String(route.datePublished || "")), `${path} has an ISO datePublished`);
+  assert(
+    String(route.lastmod) >= String(route.datePublished),
+    `${path} was not updated before it was published`
+  );
+}
+for (const [path, route] of Object.entries(TRUST_ROUTES)) {
+  assert(ISO_DATE.test(String(route.lastmod || "")), `${path} has an ISO lastmod`);
+}
 
 console.log(`route-metadata: ${passed} assertions passed`);

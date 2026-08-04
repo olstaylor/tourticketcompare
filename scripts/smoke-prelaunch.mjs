@@ -35,9 +35,9 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.";
-const APP_ASSET_VERSION = "20260731a";
+const APP_ASSET_VERSION = "20260803a";
 const TTC_HOME_ASSET_VERSION = "20260729b";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
@@ -805,20 +805,20 @@ for (const pathname of ["/app.js", "/styles.css", "/favicon.svg", "/robots.txt",
 
 const indexHtml = await read("public/index.html");
 assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must not contain inline script tags");
-// The Google Tag Manager loader and the Google tag (gtag.js) snippet are the only bare
+// The Google Tag Manager loader and Google tag bootstrap are the only bare
 // inline scripts; each one's CSP sha256 hash must stay in sync with its body or browsers
 // will refuse to run it.
 {
   const { createHash } = await import("node:crypto");
   const inlineScripts = [...indexHtml.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((match) => match[1]);
-  assert(inlineScripts.length === 2, "index.html should contain exactly two bare inline scripts (Google Tag Manager and the Google tag snippet)");
+  assert(inlineScripts.length === 2, "index.html should contain exactly two bare inline scripts (Google Tag Manager and the Google tag bootstrap)");
   assert(
     inlineScripts.some((body) => body.includes("'script','dataLayer','GTM-MZ42TPMM'")),
     "index.html should contain the Google Tag Manager container loader"
   );
   assert(
-    inlineScripts.some((body) => body.includes("gtag('config', 'G-Q7R1NQY8YH')")),
-    "index.html should contain the Google tag snippet"
+    inlineScripts.some((body) => body.includes("dataLayer.push({'event': 'ttc_google_tag_init'})")),
+    "index.html should contain the GTM activation event"
   );
   for (const body of inlineScripts) {
     const inlineHash = createHash("sha256").update(body, "utf8").digest("base64");
@@ -874,10 +874,15 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
     `${pathname} must revalidate rendered HTML so new client asset versions reach returning visitors immediately`
   );
 
-  // Google tag: every rendered page keeps the shell's gtag.js snippet
+  // Google tag: every rendered page keeps the shell's GTM activation event and does
+  // not also load gtag.js directly (which would duplicate the GTM-managed page view).
   assert(
-    text.includes('src="https://www.googletagmanager.com/gtag/js?id=G-Q7R1NQY8YH"'),
-    `${pathname} should include the Google tag (gtag.js) loader from the shell <head>`
+    text.includes("dataLayer.push({'event': 'ttc_google_tag_init'})"),
+    `${pathname} should include the Google tag GTM activation event from the shell <head>`
+  );
+  assert(
+    !text.includes('src="https://www.googletagmanager.com/gtag/js?id=G-Q7R1NQY8YH"'),
+    `${pathname} should not load gtag.js directly alongside the GTM-managed Google tag`
   );
 
   // Canonical URL: tag must be present and point to the exact route
@@ -1238,6 +1243,9 @@ assert(!appJs.includes("Event last checked:"), "hydration should rely on the con
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
 assert(appJs.includes("Listed-price snapshots, not live availability."), "hydration should include the unified listed-price snapshot disclosure");
+assert(appJs.includes("No listed-price snapshot is available for this date. Check current prices using the provider buttons above."), "hydration should state the price-unavailable case");
+assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show))"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
+assert(appJs.includes("Array.isArray(show?.prices) && show.prices.length > 0"), "the hydrated priced-lane check must treat an empty lane array as unchecked, not as a confirmed absence");
 assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
 assert(appJs.includes("source !== \"seatgeek_partner_api\""), "hydrated SeatGeek price snapshot should require the approved source attribution");
 assert(appJs.includes("expiresAtMs <= Date.now()"), "hydrated SeatGeek price snapshot should hide expired data");
@@ -1665,8 +1673,16 @@ for (const implausible of [3.8, 0]) {
   assert(implausibleLane?.price === null && implausibleLane?.providerStatus === "unavailable", `an implausible listed price (${implausible}) must be withheld even from a fresh approved snapshot`);
   // Only assert non-leakage for the distinctive value; "0" is a substring of
   // timestamps, ids and counts throughout the payload.
+  //
+  // ISO timestamps carry a millisecond fraction, so a payload generated at a
+  // second ending in 3 with milliseconds starting with 8 ("...:33.854Z")
+  // contains the literal "3.8" with no price involved. That made this a real
+  // (roughly 1-in-100 per timestamp) flake, observed failing CI on run
+  // 30816574427 at 13:09:33.854. Strip timestamps first so the check tests
+  // price leakage, which is what it is for.
   if (implausible === 3.8) {
-    assert(!JSON.stringify(implausibleJson).includes("3.8"), "a withheld implausible price must not leak into the response payload");
+    const payloadWithoutTimestamps = JSON.stringify(implausibleJson).replace(/\d{4}-\d{2}-\d{2}T[\d:.]+Z/g, "");
+    assert(!payloadWithoutTimestamps.includes("3.8"), "a withheld implausible price must not leak into the response payload");
   }
   globalThis.caches.default = new MemoryCache();
 }
@@ -1929,6 +1945,25 @@ assert(healthJson.config.ticketNetworkPriceDisplayEnabled === true, "TicketNetwo
 assert(healthJson.config.ticketLiquidatorPriceDisplayEnabled === false, "Ticket Liquidator price snapshots must stay disabled while CurrentPrice is absent");
 assert(healthJson.config.stubHubInternationalPriceDisplayEnabled === true, "StubHub International price snapshots should default enabled after exact-ID proof");
 
+// bindings.debugApiToken is what an operator checks to confirm the
+// /api/impact/* gate is live, so it must track the gate's own notion of a
+// usable token — a declared-but-empty variable denies every request and must
+// not read as configured here.
+for (const [label, tokenEnv, expected] of [
+  ["unset", {}, false],
+  ["declared but empty", { DEBUG_API_TOKEN: "" }, false],
+  ["whitespace only", { DEBUG_API_TOKEN: "   " }, false],
+  ["configured", { DEBUG_API_TOKEN: "valid-debug-token" }, true]
+]) {
+  const response = await healthModule.onRequestGet({ env: { ...env, ...tokenEnv } });
+  const body = await response.json();
+  assert(
+    body.bindings.debugApiToken === expected,
+    `/api/health debugApiToken must report ${expected} when DEBUG_API_TOKEN is ${label}`
+  );
+  assert(!JSON.stringify(body).includes("valid-debug-token"), "/api/health must never echo the debug token value");
+}
+
 const fallbackHealthResponse = await healthModule.onRequestGet({
   env: {
     ...env,
@@ -1941,21 +1976,58 @@ assert(fallbackHealthJson.bindings.impactTicketNetworkConfigured === true, "Tick
 assert(fallbackHealthJson.bindings.impactTicketLiquidatorConfigured === true, "Ticket Liquidator health should recognize the verified SeatGeek-scoped credential fallback");
 assert(fallbackHealthJson.bindings.impactStubHubInternationalConfigured === true, "StubHub International health should recognize the verified SeatGeek-scoped credential fallback");
 
-const impactHealth = await impactHealthModule.onRequestGet({ env });
+// /api/impact/* are internal diagnostics that proxy authenticated Publisher API
+// calls on the account's own credentials. Ungated they are an open proxy, so
+// every route must 404 without DEBUG_API_TOKEN — including the POST route that
+// creates a real tracking link, which must be refused before confirmCreate is
+// even read. `env` deliberately carries no token, so it doubles as the
+// unauthorised fixture.
+const impactGateFixtures = [
+  ["/api/impact/health", () => impactHealthModule.onRequestGet({
+    request: new Request("https://tourticketcompare.com/api/impact/health"),
+    env
+  })],
+  ["/api/impact/products", () => impactProductsModule.onRequestGet({
+    request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
+    env
+  })],
+  ["/api/impact/tracking-links", () => impactTrackingModule.onRequestPost({
+    request: new Request("https://tourticketcompare.com/api/impact/tracking-links", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ confirmCreate: true, programId: "123" })
+    }),
+    env
+  })]
+];
+for (const [route, invoke] of impactGateFixtures) {
+  const response = await invoke();
+  const payload = await response.json();
+  assert(response.status === 404, `${route} must 404 without DEBUG_API_TOKEN`);
+  assert(payload.error === "Not found" && payload.ok === false, `${route} must not confirm its own existence to unauthorised callers`);
+  assert(!JSON.stringify(payload).includes("impact"), `${route} 404 body must not disclose the Impact integration`);
+}
+
+const impactDebugEnv = { ...env, DEBUG_API_TOKEN: "valid-debug-token" };
+const impactToken = "?token=valid-debug-token";
+const impactHealth = await impactHealthModule.onRequestGet({
+  request: new Request(`https://tourticketcompare.com/api/impact/health${impactToken}`),
+  env: impactDebugEnv
+});
 assert(impactHealth.status === 200, "/api/impact/health should fail safely without credentials");
 const impactProducts = await impactProductsModule.onRequestGet({
-  request: new Request("https://tourticketcompare.com/api/impact/products?q=ticket"),
-  env
+  request: new Request(`https://tourticketcompare.com/api/impact/products${impactToken}&q=ticket`),
+  env: impactDebugEnv
 });
 const impactProductsJson = await impactProducts.json();
 assert(impactProducts.status === 200 && impactProductsJson.status === "missing_credentials", "/api/impact/products should fail safely without credentials");
 const impactTracking = await impactTrackingModule.onRequestPost({
-  request: new Request("https://tourticketcompare.com/api/impact/tracking-links", {
+  request: new Request(`https://tourticketcompare.com/api/impact/tracking-links${impactToken}`, {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ confirmCreate: true, programId: "123" })
   }),
-  env
+  env: impactDebugEnv
 });
 const impactTrackingJson = await impactTracking.json();
 assert(impactTracking.status === 200 && impactTrackingJson.status === "missing_credentials", "/api/impact/tracking-links should fail safely without credentials");
@@ -2827,6 +2899,40 @@ assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mar
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
 assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-name\">Ticketmaster<"), "/artists/morgan-wallen (indexable) must show the Ticketmaster event CTA button");
 assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-check\">Check prices<"), "an unpriced provider button must read 'Check prices'");
+// A card with checked destinations but no eligible snapshot must say so and
+// name where to look, rather than leaving the price slot silently empty.
+assert(
+  serverMorganWithoutSeatGeek.text.includes("No listed-price snapshot is available for this date. Check current prices using the provider buttons above."),
+  "a card whose queried lanes all lack an eligible snapshot must state the unavailable case"
+);
+
+// Regression: the router attaches cached prices to a bounded slice of the board
+// (see the futureShowsForArtist limit in onRequest), so a card outside that
+// slice was never queried. It must stay silent rather than announce an absence
+// the server never established — a fresh D1 snapshot may well exist for it.
+const boundedPriceBoard = await routeResponse("/artists/olivia-rodrigo");
+if (boundedPriceBoard.response.status === 200) {
+  const boardCards = boundedPriceBoard.text.split("<article").filter((card) => card.includes("info-card show-card"));
+  const cardsWithButtons = boardCards.filter((card) => card.includes('class="provider-cta-group"'));
+  const cardsWithNote = boardCards.filter((card) => card.includes("No listed-price snapshot is available for this date."));
+  if (cardsWithButtons.length > 6) {
+    assert(
+      cardsWithButtons.length > cardsWithNote.length,
+      "cards whose price lanes were never queried must not claim that no snapshot is available"
+    );
+  }
+}
+// Per card, not per page: one board legitimately mixes both states, so the
+// invariant is that a card carrying a price never also carries the note.
+const pricedMorganCards = serverPricedMorgan.text
+  .split("<article")
+  .map((card) => card.split("</article>")[0])
+  .filter((card) => card.includes("provider-cta-price"));
+assert(pricedMorganCards.length > 0, "the priced Morgan Wallen board should render at least one card with a snapshot");
+assert(
+  pricedMorganCards.every((card) => !card.includes("No listed-price snapshot is available for this date.")),
+  "a card carrying an eligible snapshot must keep the snapshot disclosure, not the unavailable note"
+);
 assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&amp;provider=ticketmaster`), "server-rendered verified Ticketmaster event CTA should use its existing safe redirect");
 
 console.log("indexable artist verification passed for bruno-mars");

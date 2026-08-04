@@ -52,6 +52,15 @@ claim the site cannot support fails rather than publishing. Authoring reference:
 
 ```bash
 node scripts/validate-guide-routes.mjs        # guides or route metadata touched
+npm run content:provenance                    # REQUIRED after editing any guide or trust-page copy.
+                                              #   Re-fingerprints each static route and advances its
+                                              #   published lastmod only where the copy actually
+                                              #   changed. Commit the result: content:provenance:check
+                                              #   runs in test:mvp and fails a stale commit.
+npm run guides:sources:check:dry-run          # optional: confirm every cited guide source still
+                                              #   resolves. The scheduled daily audit runs the writing
+                                              #   form; it stamps linkCheckedAt only, never the
+                                              #   editorial lastChecked.
 npm run artist:check -- <slug>                # a specific artist touched — checks artists.json,
                                               #   catalog.json, events.json, partitions,
                                               #   VERIFIED_TICKET_LINKS in out.js, and the shows.js

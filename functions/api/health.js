@@ -89,6 +89,14 @@ export async function onRequestGet({ env }) {
       impactStubHubInternationalConfigured: stubHubInternational.trackingConfigured,
       seatGeekClientId: hasBinding(env, "SEATGEEK_CLIENT_ID"),
       seatGeekClientSecret: hasBinding(env, "SEATGEEK_CLIENT_SECRET"),
+      // Presence only, never the value. Gates /api/debug-seatgeek and every
+      // /api/impact/* diagnostic; when false those routes all return 404.
+      // Deliberately not hasBinding(): that reports a declared-but-empty
+      // variable as present, whereas the gate treats empty as unset and denies
+      // everything. This flag is what an operator checks to confirm the gate is
+      // live, so it has to agree with the gate rather than with the key's
+      // existence.
+      debugApiToken: String(env?.DEBUG_API_TOKEN || "").trim().length > 0,
       retiredTicketmasterImpactCredentialsIgnored: Boolean(
         hasBinding(env, "IMPACT_ACCOUNT_SID") || hasBinding(env, "IMPACT_AUTH_TOKEN")
       )

@@ -1536,7 +1536,7 @@
     "status": "announced",
     "ticketmaster_event_id": "04006319DDEA2CD5",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-    "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-3-2026--concerts-pop/production/5973688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
@@ -1551,11 +1551,11 @@
         "discovery_event_id": "vv1A7ZkG_GkdqBxS4"
       },
       "seatgeek": {
-        "event_id": 17700811,
-        "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-03-8-pm/concert/17700811",
-        "verified": true,
-        "last_verified_at": "2026-08-01",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 5973688,
@@ -1586,18 +1586,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106916438",
-        "url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-3-2026/event/106916438",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv1A7ZkG_GkdqBxS4",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373451",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373451/Ariana-Grande-tickets-Mon-Aug-3-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-3-2026/event/106916438"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-chicago-0400631adf313481",
@@ -1631,7 +1631,7 @@
         "event_id": 17700813,
         "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-05-8-pm/concert/17700813",
         "verified": true,
-        "last_verified_at": "2026-08-01",
+        "last_verified_at": "2026-08-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1708,7 +1708,7 @@
         "event_id": 17724381,
         "url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-06-8-pm/concert/17724381",
         "verified": true,
-        "last_verified_at": "2026-08-01",
+        "last_verified_at": "2026-08-04",
         "availability_status": "listed"
       },
       "vivid-seats": {

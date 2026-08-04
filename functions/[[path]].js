@@ -45,6 +45,16 @@ const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robo
 // Keep the highest-value editorial guide routable even if an edge deploy briefly
 // serves stale route metadata. This fallback mirrors _route-metadata.js and
 // prevents Googlebot/Search Console from seeing a transient 404/noindex response.
+//
+// Every field is a literal, dates included. Reading the dates from GUIDE_ROUTES
+// would defeat the fallback: it exists for the case where that entry is missing,
+// and an optional lookup would then yield undefined — stripping the page's
+// visible Published/Updated line and its Article datePublished/dateModified in
+// exactly the scenario the fallback is for. Drift is prevented instead by
+// scripts/route-metadata.test.mjs, which fails the build if these literals stop
+// matching the canonical entry that scripts/sync-content-provenance.mjs
+// maintains. Keep them in step by copying the canonical values here when that
+// test says so.
 const EVENT_PRICE_GUIDE_PATH = "/guides/how-to-compare-event-ticket-prices";
 const EVENT_PRICE_GUIDE_FALLBACK = {
   title: "How to Compare Event Ticket Prices | TourTicketCompare",
@@ -60,11 +70,11 @@ const EVENT_PRICE_GUIDE_FALLBACK = {
 // These headers must be set explicitly on every HTML Response returned by this function.
 const SECURITY_HEADERS = {
   // The two sha256 hashes authorize the inline Google Tag Manager loader and the inline
-  // Google tag (gtag.js) snippet in public/index.html; recompute them if either snippet's
+  // Google tag bootstrap in public/index.html; recompute them if either snippet's
   // contents change (see scripts/smoke-prelaunch.mjs EXPECTED_CSP). frame-src is scoped to
   // the GTM container host for the noscript fallback frame — nothing else may be framed.
   "Content-Security-Policy":
-    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-NA6Fs6EENO5v4wTsp2imB+jef7W4UHySG38JuT59oy0=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
   // same-origin, not no-referrer: cross-origin requests still send nothing, so
   // no provider, analytics vendor or affiliate network ever learns which page a
   // visitor came from. What changes is that our own /api/out redirect finally
@@ -2352,8 +2362,25 @@ function renderGuideSources(sources) {
       const name = String(source?.name || "").trim();
       if (!url || !name) return "";
       const publisher = String(source?.publisher || "").trim();
-      const checked = formatVerificationDate(source?.lastChecked);
-      const details = [publisher, checked ? `checked ${checked}` : ""].filter(Boolean).join(" · ");
+      // Two different claims, kept visibly distinct.
+      //
+      // `lastChecked` is editorial: a person read the source and confirmed this
+      // guide still describes it correctly. Only a human may set it, so it is
+      // labelled "reviewed" and goes stale honestly when nobody has re-read it.
+      //
+      // `linkCheckedAt` is what automation can actually prove — that the cited
+      // URL still resolves — and is stamped nightly by
+      // scripts/check-guide-source-links.mjs. Labelling it "link checked" stops
+      // an automated 200 from reading as an editorial review.
+      const reviewed = formatVerificationDate(source?.lastChecked);
+      const linkChecked = formatVerificationDate(source?.linkCheckedAt);
+      const details = [
+        publisher,
+        reviewed ? `reviewed ${reviewed}` : "",
+        linkChecked ? `link checked ${linkChecked}` : ""
+      ]
+        .filter(Boolean)
+        .join(" · ");
       return `<li><a class="text-link" href="${escapeAttr(url)}" target="_blank" rel="noopener">${escapeHtml(
         name
       )}</a>${details ? ` <span class="muted">(${escapeHtml(details)})</span>` : ""}</li>`;
@@ -3064,13 +3091,43 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="${valueClass}">${escapeHtml(value)}</span></a>`;
 }
 
+// Copy for a card whose lanes were checked and none had an eligible snapshot.
+// Deliberately neutral about where to look: the buttons are ordered affiliate
+// first, so naming a subset of them would read as a recommendation rather than
+// a description of the card. No link is emitted here — the provider buttons
+// above stay the card's only outbound links.
+// Keep in sync with PRICE_UNAVAILABLE_NOTE in public/app.js.
+const PRICE_UNAVAILABLE_NOTE =
+  "No listed-price snapshot is available for this date. Check current prices using the provider buttons above.";
+
+// Did this card's price lanes actually get queried? attachApprovedMarketplacePrices
+// returns one entry per approved lane (including the unavailable ones), while
+// enrichEventAsShow defaults the field to an empty array — so "has entries", not
+// "is an array", is the signal. Anything else is a card the server never checked,
+// and silence is the only honest state for it.
+// Keep in sync with pricesWereChecked in public/app.js.
+function pricesWereChecked(show) {
+  return Array.isArray(show?.prices) && show.prices.length > 0;
+}
+
 // Required snapshot disclosures for every price shown on a button, rendered
 // once below the unified provider list. Provider names and capture times appear
 // only for actual approved, fresh lanes.
+//
+// pricesChecked is load-bearing, not defensive: this route attaches cached
+// prices to a bounded slice of the board (see onRequest), so a card beyond that
+// slice carries no lanes because it was never queried — not because D1 has
+// nothing fresh for it. Claiming "no snapshot" there would state something the
+// server never established, so an unchecked card renders no note at all and
+// client hydration fills it in.
 // Keep in sync with renderShowCardPriceNotes in public/app.js.
-function renderServerPriceNotes(ctaSpecs) {
+function renderServerPriceNotes(ctaSpecs, pricesChecked = false) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
-  if (!priced.length) return "";
+  if (!priced.length) {
+    return pricesChecked && ctaSpecs.length
+      ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(PRICE_UNAVAILABLE_NOTE)}</p></div>`
+      : "";
+  }
   const snapshotTimes = priced.map((spec) => `${spec.name} (${spec.priceAsOf})`).join(" · ");
   const note = `Listed-price snapshots, not live availability. ${snapshotTimes}. Prices may change and may exclude fees.`;
   return `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(note)}</p></div>`;
@@ -3171,7 +3228,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       const ctaLabel = `<p class="provider-cta-label">Compare ticket options for this date<span class="sr-only"> at ${escapeHtml(
         location || "this show"
       )}</span></p>`;
-      ctaHtml = `${ctaLabel}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs)}`;
+      ctaHtml = `${ctaLabel}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`;
     }
   }
 
@@ -3951,6 +4008,15 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
   );
   next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
+  // Footer copyright year. public/app.js fills #currentYear on load, so every
+  // JS visitor saw the right year and nobody noticed that the served HTML ships
+  // an empty span — crawlers and no-JS visitors were reading a bare
+  // "Copyright  TourTicketCompare". Filling it server-side makes the rendered
+  // year correct before any script runs; app.js then writes the same value.
+  next = next.replace(
+    /(<span\s+id="currentYear">)[^<]*(<\/span>)/i,
+    `$1${new Date().getUTCFullYear()}$2`
+  );
   if (route.path === "/") {
     // Homepage-only progressive enhancement: ttc-home.js hydrates the #ttc-main
     // mount with the full redesigned homepage. Same-origin, so it satisfies the

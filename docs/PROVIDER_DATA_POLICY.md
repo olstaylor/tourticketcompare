@@ -126,8 +126,28 @@ No inventory/scarcity claim, final-price claim, scraping, generic search link, c
 - `GET /api/impact/catalogs` and `GET /api/impact/products` to return Catalogs API data; both default to current API v16 and can safely probe the provider-specific SeatGeek credentials with `credentialSet=seatgeek`
 - `POST /api/impact/tracking-links` to generate tracking URLs
 
+**`/api/impact/*` is token-gated — it is not a public API.** Every route in that
+directory proxies an authenticated Publisher API call on the account's own
+credentials, so all four require `DEBUG_API_TOKEN` (as `?token=` or an
+`X-Debug-Token` header) and return a generic `404 Not found` otherwise — the
+same posture as `/api/debug-seatgeek`. The gate fails closed: an unset
+`DEBUG_API_TOKEN` denies everything rather than reverting to open access.
+Confirm the token is configured via `bindings.debugApiToken` in `/api/health`.
+
+Automation that reads catalogs through `IMPACT_CATALOG_PROXY_URL` (the
+marketplace provider-sync and price-snapshot workflows) must therefore also set
+`IMPACT_CATALOG_PROXY_TOKEN`. Two distinct misconfigurations are both made
+loud, because the sync's safe response to a bad catalog is to change nothing —
+which is indistinguishable from a healthy run with nothing to do:
+
+- **No token in CI** — the scripts throw before the first request.
+- **Token present but rejected by the deployed gate** (the Actions secret and
+  the Cloudflare Pages secret have diverged) — a proxied 404 is treated as an
+  authentication failure, not an incomplete catalog, so the run fails instead
+  of exiting 0 having silently done nothing.
+
 **Missing credentials behaviour:**
-- `/api/impact/*` returns a safe `missing_credentials` response
+- `/api/impact/*` returns a safe `missing_credentials` response to an authorised caller
 - `/api/out` returns diagnostic JSON for Impact affiliate providers when tracking is unavailable; it never emits an untracked affiliate redirect. The three new providers additionally return `provider_not_configured` unless their provider-specific public flag is true. Plain Ticketmaster links remain direct because Ticketmaster is not an affiliate provider.
 
 ---

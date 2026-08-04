@@ -89,7 +89,7 @@ Plain Markdown below the front matter.
 
 ### From the browser (`/admin`)
 
-1. Go to `https://tourticketcompare.com/admin` and sign in with GitHub.
+1. Go to `https://admin.tourticketcompare.com/admin` and sign in with GitHub. (The editor is not served from the apex — see the setup section for why.)
 2. Write the post. The form mirrors the front matter above, with a Markdown editor for the body.
 3. Save. The editor commits the Markdown file to `main`.
 4. `content-build.yml` compiles it, runs the full validation suite, and commits `public/data/blog-content.json`. Cloudflare deploys that commit.

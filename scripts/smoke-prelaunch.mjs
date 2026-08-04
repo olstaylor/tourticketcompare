@@ -635,11 +635,12 @@ assert(
 // The exclude list is deliberately tiny and pinned: anything listed here
 // bypasses Functions entirely, so an accidental addition would silently strip
 // routing, security headers, and metadata injection from that path. The
-// vendored content-editor bundle is a large static file with no server-side
-// behaviour, which is exactly what belongs here.
+// content-editor bundle is deliberately NOT excluded — excluding it would let
+// the apex serve it as a plain asset, around the middleware host check that
+// keeps the editor off the public origin.
 assert(
-  JSON.stringify(routesManifest.exclude) === JSON.stringify(["/_assets/*", "/favicon.ico", "/admin/sveltia-cms.js"]),
-  "_routes.json should only exclude immutable assets, favicon.ico, and the vendored content-editor bundle"
+  JSON.stringify(routesManifest.exclude) === JSON.stringify(["/_assets/*", "/favicon.ico"]),
+  "_routes.json should only exclude immutable assets and favicon.ico"
 );
 await read("public/404.html");
 
@@ -3571,7 +3572,9 @@ console.log("artist-city landing-page verification passed");
   // Routed through the real middleware: the apex must not serve the editor, and
   // the admin host must not serve the public site (which is what would put a
   // tag-manager script on the editor's origin).
-  for (const adminPath of ["/admin", "/admin/config.yml", "/api/admin/auth"]) {
+  // Every editor path, including the vendored bundle — which only reaches the
+  // middleware because it is not in the _routes.json exclude list.
+  for (const adminPath of ["/admin", "/admin/config.yml", "/admin/sveltia-cms.js", "/api/admin/auth", "/api/admin/callback"]) {
     const onApex = await routeResponse(adminPath);
     assert(onApex.response.status === 404, `${adminPath} must 404 on the public origin`);
   }

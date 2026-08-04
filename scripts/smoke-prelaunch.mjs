@@ -2906,21 +2906,28 @@ assert(
   "a card whose queried lanes all lack an eligible snapshot must state the unavailable case"
 );
 
-// Regression: the router attaches cached prices to a bounded slice of the board
-// (see the futureShowsForArtist limit in onRequest), so a card outside that
-// slice was never queried. It must stay silent rather than announce an absence
-// the server never established — a fresh D1 snapshot may well exist for it.
-const boundedPriceBoard = await routeResponse("/artists/olivia-rodrigo");
-if (boundedPriceBoard.response.status === 200) {
-  const boardCards = boundedPriceBoard.text.split("<article").filter((card) => card.includes("info-card show-card"));
+// Coverage contract: onRequest queries prices for every card the route renders,
+// not a fixed prefix of the board, so a card carrying provider buttons must
+// resolve to either a snapshot or the unavailable note. Silence means it was
+// never queried — the state this replaced, where a long board went blank past
+// its sixth date for no-JS visitors and crawlers.
+const fullyPricedBoard = await routeResponse("/artists/olivia-rodrigo");
+if (fullyPricedBoard.response.status === 200) {
+  const boardCards = fullyPricedBoard.text
+    .split("<article")
+    .map((card) => card.split("</article>")[0])
+    .filter((card) => card.includes("info-card show-card"));
   const cardsWithButtons = boardCards.filter((card) => card.includes('class="provider-cta-group"'));
-  const cardsWithNote = boardCards.filter((card) => card.includes("No listed-price snapshot is available for this date."));
-  if (cardsWithButtons.length > 6) {
-    assert(
-      cardsWithButtons.length > cardsWithNote.length,
-      "cards whose price lanes were never queried must not claim that no snapshot is available"
-    );
-  }
+  const silentCards = cardsWithButtons.filter(
+    (card) =>
+      !card.includes("No listed-price snapshot is available for this date.") &&
+      !card.includes("provider-cta-price")
+  );
+  assert(cardsWithButtons.length > 6, "the coverage check needs a board longer than the old six-show slice to be meaningful");
+  assert(
+    silentCards.length === 0,
+    `every rendered card must be price-checked; ${silentCards.length} of ${cardsWithButtons.length} showed neither a snapshot nor the unavailable note`
+  );
 }
 // Per card, not per page: one board legitimately mixes both states, so the
 // invariant is that a card carrying a price never also carries the note.

@@ -31,8 +31,12 @@ function text(value) {
   return String(value ?? "").trim();
 }
 
+// Deduplicated: a repeated tag would push the same post into a tag bucket
+// twice, which both renders its card twice and lets one post satisfy the
+// two-post tag-indexability gate on its own. The build rejects duplicates too,
+// but the generated JSON is the runtime contract, so the gate is enforced here.
 function slugList(value) {
-  return (Array.isArray(value) ? value : []).map(text).filter((entry) => SLUG_PATTERN.test(entry));
+  return [...new Set((Array.isArray(value) ? value : []).map(text).filter((entry) => SLUG_PATTERN.test(entry)))];
 }
 
 /**

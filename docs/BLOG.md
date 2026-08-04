@@ -145,7 +145,13 @@ A post or tag page below its threshold still returns 200 with a self-referencing
 
 ## Setting up the `/admin` editor (one-time, owner)
 
-The editor is [Sveltia CMS](https://github.com/sveltia/sveltia-cms), vendored into `public/admin/sveltia-cms.js` so no third-party host appears in the CSP of a page that holds a repository token. It is inert until a GitHub OAuth App exists.
+> **Unresolved security issue — read before creating the OAuth App.**
+>
+> Sveltia persists the signed-in account, **including the GitHub access token**, in `localStorage` under the key `sveltia-cms.user` (`WM.set` in the vendored bundle is a `localStorage` wrapper; the bundle contains no `sessionStorage` path). `localStorage` is shared by every page on an origin, and `tourticketcompare.com` also serves the public site with Google Tag Manager and Google Analytics on it. A GTM Custom HTML tag, a compromised GTM account, or any XSS anywhere on the apex could therefore read a long-lived token that can push to this repository — and a push to `main` auto-deploys.
+>
+> The token scope is `public_repo` rather than `repo`, so a leak cannot reach private repositories, but it can still push here. **Do not create the OAuth App until this is resolved** — the editor is inert without it, so nothing is exposed while it stays unconfigured. The durable fix is to serve the editor from its own origin (e.g. `admin.tourticketcompare.com`) so its storage is isolated from the public site. Tracked in `PROJECT_STATUS.md` → Active risks.
+
+The editor is [Sveltia CMS](https://github.com/sveltia/sveltia-cms), vendored into `public/admin/sveltia-cms.js` so no third-party *script* origin appears in the CSP of a page that holds a repository token. (`font-src` does allow `cdn.jsdelivr.net`: the bundle loads Material Symbols from there, and an icon font that fails to load leaves every icon button rendering its ligature name as text. A font cannot execute.) It is inert until a GitHub OAuth App exists.
 
 1. **Create a GitHub OAuth App** at <https://github.com/settings/developers> → *New OAuth App*.
    - Application name: anything, e.g. `TourTicketCompare content editor`

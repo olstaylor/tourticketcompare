@@ -2268,7 +2268,13 @@ const GUIDE_INLINE_LINK = /\[([^\]]+)\]\((\/guides\/[a-z0-9-]+)\)/g;
 // Blog bodies may additionally link to any published route family and to https
 // sources. scripts/build-blog-content.mjs resolves every one of those targets
 // at build time, so a dead internal link fails the build rather than shipping.
-const BLOG_INLINE_LINK = /\[([^\]]+)\]\((https:\/\/[^\s)"]+|\/[a-z0-9][a-z0-9\-/]*)\)/g;
+//
+// Internal paths accept an optional query and fragment, because the build
+// validator strips both before resolving a target and therefore accepts a link
+// like /about#corrections. Without them here that link would pass the build and
+// then render as raw Markdown on the page. "&" is rejected by the validator on
+// every link, so nothing here has to survive HTML-escaping of an ampersand.
+const BLOG_INLINE_LINK = /\[([^\]]+)\]\((https:\/\/[^\s)"]+|\/[a-z0-9][a-z0-9\-/]*(?:\?[^\s)"#]*)?(?:#[a-zA-Z0-9\-_]*)?)\)/g;
 
 function inlineMarkdownToHtml(text, linkPattern = GUIDE_INLINE_LINK) {
   return escapeHtml(text)

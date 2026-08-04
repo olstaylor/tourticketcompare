@@ -15,7 +15,14 @@ const ADMIN_CSP = [
   // The editor is a compiled Svelte app: its component styles are injected as
   // inline <style> elements at runtime, which style-src 'self' alone blocks.
   "style-src 'self' 'unsafe-inline'",
-  "font-src 'self' data:",
+  // The vendored bundle injects @font-face rules pointing at jsDelivr for
+  // Source Sans 3, Noto Mono and Material Symbols. Material Symbols is an icon
+  // font, so blocking it does not degrade gracefully — every icon button
+  // renders its ligature name as literal text and the editor looks broken.
+  // A font is data, not code: it cannot execute, and this grant is font-src
+  // only, so the "no third-party script origin on a page that can hold a
+  // repository token" property is unchanged.
+  "font-src 'self' data: https://cdn.jsdelivr.net",
   // GitHub avatars for the signed-in user and commit authors.
   "img-src 'self' data: blob: https://avatars.githubusercontent.com https://*.githubusercontent.com",
   "script-src 'self'",

@@ -84,6 +84,13 @@ jobs:
         if: steps.changed.outputs.changed == 'true'
         run: git diff --check
 
+      # The validation suite above takes minutes, and the scheduled sync lanes
+      # (daily-audit, nightly-data-sync, the provider syncs) push to main
+      # independently. A plain `git push origin HEAD:main` is rejected as
+      # non-fast-forward if any of them lands first, and nothing would rebuild
+      # that Markdown afterwards — an /admin save could sit unpublished
+      # indefinitely. On rejection, reset onto the new main, recompile from the
+      # content that main now carries, and retry.
       - name: Commit the compiled content
         if: steps.changed.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
         run: |
@@ -91,7 +98,27 @@ jobs:
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
           git add public/data/blog-content.json
           git commit -m "content: rebuild blog content from content/blog"
-          git push origin HEAD:main
+
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Pushed the rebuilt blog content (attempt ${attempt})."
+              exit 0
+            fi
+            echo "::warning::push rejected on attempt ${attempt}; reconciling with the current main tip."
+            sleep $((attempt * 5))
+            git fetch origin main
+            git reset --hard origin/main
+            npm run blog:build
+            if git diff --quiet -- public/data/blog-content.json; then
+              echo "::notice::main already carries an equivalent rebuild; nothing left to push."
+              exit 0
+            fi
+            git add public/data/blog-content.json
+            git commit -m "content: rebuild blog content from content/blog"
+          done
+
+          echo "::error::Could not push the rebuilt blog content after 5 attempts. Re-run this workflow to publish."
+          exit 1
 
       - name: Report dry run
         if: steps.changed.outputs.changed == 'true' && github.event.inputs.dry_run == 'true'

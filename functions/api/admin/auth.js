@@ -14,9 +14,13 @@ import { CANONICAL_HOST, isLocalOrigin } from "../../_route-metadata.js";
 export const STATE_COOKIE = "ttc_admin_oauth_state";
 const STATE_TTL_SECONDS = 600;
 
-// `repo` is required: the editor commits Markdown to a repository that may be
-// private, and GitHub has no narrower contents-write scope for OAuth apps.
-const SCOPE = "repo";
+// `public_repo`, not `repo`: this repository is public, so the narrower scope
+// is sufficient to commit Markdown, and a leaked token then cannot touch the
+// signed-in user's private repositories. It can still push here, so it is a
+// reduction in blast radius, not a fix — see the storage warning in
+// docs/BLOG.md. If this repository is ever made private this must become
+// `repo`, and the storage question has to be settled first.
+const SCOPE = "public_repo";
 
 /**
  * Only the canonical production host and local development may start the flow.

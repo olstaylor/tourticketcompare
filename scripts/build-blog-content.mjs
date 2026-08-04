@@ -63,10 +63,24 @@ const REQUIRED_KEYS = ["title", "description", "summary", "date"];
 const ALLOWED_STATUS = new Set(["published", "draft"]);
 const DEFAULT_AUTHOR = "TourTicketCompare editorial team";
 
-// Route families a post body may link to. Anything else is a typo or a link to
-// a page this site does not publish, and both should fail the build rather than
-// ship a dead internal link.
-const INTERNAL_LINK_PREFIXES = ["/guides/", "/artists/", "/cities/", "/venues/", "/blog/"];
+// Route shapes a post body may link to, as complete patterns rather than
+// prefixes. A prefix test accepts /artists/harry-styles/bogus and
+// /blog/<real-slug>/extra, neither of which the router serves — which defeats
+// the point of resolving links at build time. Segment counts are exact.
+//
+// /artists/<artist>/tickets/<city> is deliberately absent: it is a real route,
+// but a calendar-dependent one that 301s or 404s as dates pass, so a post must
+// not hard-link to it. Link the artist page instead.
+const INTERNAL_LINK_SHAPES = [
+  { pattern: /^\/guides\/[a-z0-9-]+$/, kind: "guide" },
+  { pattern: /^\/artists\/[a-z0-9-]+$/, kind: "artist" },
+  { pattern: /^\/blog\/tags\/[a-z0-9-]+$/, kind: "blog-tag" },
+  { pattern: /^\/blog\/[a-z0-9-]+$/, kind: "blog-post" },
+  // Shape-checked only: city and venue pages move with the calendar, so
+  // resolving them would fail the build on ordinary event expiry.
+  { pattern: /^\/cities\/[a-z0-9-]+$/, kind: "location" },
+  { pattern: /^\/venues\/[a-z0-9-]+$/, kind: "location" }
+];
 const INTERNAL_LINK_EXACT = new Set([
   "/",
   "/artists",
@@ -100,6 +114,45 @@ const BANNED_CLAIM_PATTERNS = [
 
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+
+/**
+ * A date that exists on the calendar, not merely one shaped like a date.
+ *
+ * The shape test alone accepts 2026-02-30. JavaScript's Date rolls that over to
+ * 2 March, so the rendered byline would read "Mar 2, 2026" while the generated
+ * JSON, the BlogPosting schema, the RSS pubDate and the sitemap lastmod all
+ * kept 2026-02-30 — the page and its machine-readable metadata disagreeing
+ * about when it was published.
+ *
+ * @param {string} value
+ * @returns {boolean}
+ */
+export function isCalendarDate(value) {
+  if (!ISO_DATE_PATTERN.test(String(value ?? ""))) return false;
+  const [year, month, day] = value.split("-").map(Number);
+  const parsed = new Date(Date.UTC(year, month - 1, day));
+  return parsed.getUTCFullYear() === year && parsed.getUTCMonth() === month - 1 && parsed.getUTCDate() === day;
+}
+
+/**
+ * An https URL with a usable host.
+ *
+ * A `startsWith("https://")` test accepts "https://" and "https://not a URL",
+ * which then fail the renderer's own safeGuideSourceUrl parse — so the build
+ * reports success while the deployed post silently drops the source and its
+ * schema citation.
+ *
+ * @param {string} value
+ * @returns {boolean}
+ */
+export function isUsableHttpsUrl(value) {
+  try {
+    const parsed = new URL(String(value ?? ""));
+    return parsed.protocol === "https:" && Boolean(parsed.hostname) && parsed.hostname.includes(".");
+  } catch (error) {
+    return false;
+  }
+}
 
 // ---------------------------------------------------------------------------
 // Front matter
@@ -385,13 +438,13 @@ function validatePost(post, context) {
   if (!SLUG_PATTERN.test(post.slug)) {
     problems.push(`${where}: filename must be a lowercase hyphenated slug (got "${post.slug}")`);
   }
-  if (!ISO_DATE_PATTERN.test(post.datePublished)) {
-    problems.push(`${where}: "date" must be YYYY-MM-DD (got "${post.datePublished}")`);
+  if (!isCalendarDate(post.datePublished)) {
+    problems.push(`${where}: "date" must be a real YYYY-MM-DD calendar date (got "${post.datePublished}")`);
   }
-  if (post.dateModified && !ISO_DATE_PATTERN.test(post.dateModified)) {
-    problems.push(`${where}: "updated" must be YYYY-MM-DD (got "${post.dateModified}")`);
+  if (post.dateModified && !isCalendarDate(post.dateModified)) {
+    problems.push(`${where}: "updated" must be a real YYYY-MM-DD calendar date (got "${post.dateModified}")`);
   }
-  if (post.dateModified && ISO_DATE_PATTERN.test(post.datePublished) && post.dateModified < post.datePublished) {
+  if (post.dateModified && isCalendarDate(post.datePublished) && post.dateModified < post.datePublished) {
     problems.push(`${where}: "updated" (${post.dateModified}) is before "date" (${post.datePublished})`);
   }
   if (!ALLOWED_STATUS.has(post.status)) {
@@ -419,6 +472,17 @@ function validatePost(post, context) {
   for (const tag of post.tags) {
     if (!SLUG_PATTERN.test(tag)) problems.push(`${where}: tag "${tag}" must be a lowercase hyphenated slug`);
   }
+  // The CMS list widget happily accepts the same value twice. A repeated tag
+  // would count the one post twice toward the two-post tag-indexability gate
+  // and render its card twice on the tag page.
+  for (const [field, values] of [
+    ["tags", post.tags],
+    ["related_guides", post.relatedGuides],
+    ["related_artists", post.relatedArtists]
+  ]) {
+    const duplicates = [...new Set(values.filter((value, index) => values.indexOf(value) !== index))];
+    if (duplicates.length) problems.push(`${where}: "${field}" repeats ${duplicates.map((value) => `"${value}"`).join(", ")}`);
+  }
 
   for (const slug of post.relatedGuides) {
     if (!context.guidePaths.has(`/guides/${slug}`)) problems.push(`${where}: related_guides "${slug}" is not a published guide`);
@@ -429,7 +493,9 @@ function validatePost(post, context) {
 
   for (const source of post.sources) {
     if (!source.label) problems.push(`${where}: every "sources" entry needs a "label"`);
-    if (!/^https:\/\//.test(source.url || "")) problems.push(`${where}: source "${source.label || "(unlabelled)"}" must have an https URL`);
+    if (!isUsableHttpsUrl(source.url)) {
+      problems.push(`${where}: source "${source.label || "(unlabelled)"}" needs a parseable https URL with a hostname (got "${source.url}")`);
+    }
   }
 
   const bodyText = post.sections.map((section) => `${section.title || ""}\n${section.content}`).join("\n");
@@ -446,37 +512,44 @@ function validatePost(post, context) {
   }
 
   for (const { href } of markdownLinks(bodyText)) {
+    // "&" is rejected on every link, internal or external. The renderer
+    // HTML-escapes body text before matching links, so an "&" has already
+    // become "&amp;" by the time the link pattern runs — it would either fail
+    // to match or be escaped twice in the href.
+    if (href.includes("&")) {
+      problems.push(`${where}: link "${href}" contains "&"; use a URL without one`);
+      continue;
+    }
     if (href.startsWith("https://")) {
-      if (href.includes("&")) problems.push(`${where}: external link ${href} contains "&"; use a URL without a query string`);
+      if (!isUsableHttpsUrl(href)) problems.push(`${where}: external link "${href}" is not a parseable https URL`);
       continue;
     }
     if (!href.startsWith("/")) {
       problems.push(`${where}: link "${href}" must be an absolute site path (starting "/") or an https URL`);
       continue;
     }
+
     const clean = href.split("#")[0].split("?")[0].replace(/\/$/, "") || "/";
-    const known = INTERNAL_LINK_EXACT.has(clean) || INTERNAL_LINK_PREFIXES.some((prefix) => clean.startsWith(prefix));
-    if (!known) {
-      problems.push(`${where}: internal link "${href}" does not point at a published route family`);
+    const shape = INTERNAL_LINK_SHAPES.find((candidate) => candidate.pattern.test(clean));
+    if (!shape && !INTERNAL_LINK_EXACT.has(clean)) {
+      problems.push(`${where}: internal link "${href}" does not match a route this site serves`);
       continue;
     }
-    if (clean.startsWith("/guides/") && !context.guidePaths.has(clean)) {
+
+    if (shape?.kind === "guide" && !context.guidePaths.has(clean)) {
       problems.push(`${where}: internal link "${href}" points at a guide that does not exist`);
     }
-    if (clean.startsWith("/artists/")) {
-      const slug = clean.split("/")[2];
-      if (slug && !context.artistSlugs.has(slug)) problems.push(`${where}: internal link "${href}" points at an unknown artist slug`);
+    if (shape?.kind === "artist" && !context.artistSlugs.has(clean.split("/")[2])) {
+      problems.push(`${where}: internal link "${href}" points at an unknown artist slug`);
     }
-    if (clean.startsWith("/blog/tags/")) {
-      const tag = clean.split("/")[3];
-      if (tag && !context.tags.has(tag)) {
-        problems.push(`${where}: internal link "${href}" points at a tag no published post carries`);
-      }
-    } else if (clean.startsWith("/blog/")) {
+    if (shape?.kind === "blog-tag" && !context.tags.has(clean.split("/")[3])) {
+      problems.push(`${where}: internal link "${href}" points at a tag no published post carries`);
+    }
+    if (shape?.kind === "blog-post") {
       const slug = clean.split("/")[2];
-      if (slug && !context.slugs.has(slug)) {
+      if (!context.slugs.has(slug)) {
         problems.push(`${where}: internal link "${href}" points at a blog post that does not exist`);
-      } else if (slug && post.status === "published" && !context.publishedSlugs.has(slug)) {
+      } else if (post.status === "published" && !context.publishedSlugs.has(slug)) {
         // A draft has no route, so a published post linking to one ships a 404.
         problems.push(`${where}: internal link "${href}" points at a draft post — publish it, or drop the link`);
       }
@@ -818,7 +891,7 @@ function selfTest() {
   assert(deadLink.some((problem) => /does not exist/.test(problem)), "a link to a missing guide fails validation");
 
   const offSite = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [this](/nope/path)." }] }, context);
-  assert(offSite.some((problem) => /published route family/.test(problem)), "a link outside the published route families fails validation");
+  assert(offSite.some((problem) => /does not match a route this site serves/.test(problem)), "a link outside the published routes fails validation");
 
   const longTitle = validatePost({ ...base, seoTitle: `${"x".repeat(60)}${TITLE_SUFFIX}` }, context);
   assert(longTitle.some((problem) => /search title/.test(problem)), "an over-budget search title fails validation");
@@ -840,6 +913,42 @@ function selfTest() {
 
   const goodTag = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [it](/blog/tags/known-tag)." }] }, context);
   assert(goodTag.length === 0, "a link to a real tag validates clean");
+
+  // A date that is shaped right but does not exist. JavaScript rolls 2026-02-30
+  // over to 2 March, so the visible byline and the stored metadata would
+  // disagree about the publication date.
+  assert(!isCalendarDate("2026-02-30"), "30 February is not a calendar date");
+  assert(!isCalendarDate("2026-13-01") && !isCalendarDate("2026-00-10"), "impossible months are rejected");
+  assert(isCalendarDate("2026-02-28") && isCalendarDate("2028-02-29"), "real dates including a leap day are accepted");
+  const impossibleDate = validatePost({ ...base, datePublished: "2026-02-30" }, context);
+  assert(impossibleDate.some((problem) => /real YYYY-MM-DD calendar date/.test(problem)), "an impossible date fails validation");
+
+  // Prefix matching accepted paths with extra segments that the router 404s.
+  for (const dead of ["/artists/known-artist/bogus", "/blog/a-post/extra", "/cities/london/extra", "/guides/known/deeper"]) {
+    const result = validatePost({ ...base, sections: [{ type: "section", title: "H", content: `See [it](${dead}).` }] }, context);
+    assert(result.some((problem) => /does not match a route this site serves/.test(problem)), `"${dead}" fails validation`);
+  }
+  const okShapes = validatePost(
+    { ...base, sections: [{ type: "section", title: "H", content: "A [g](/guides/known), [a](/artists/known-artist), [c](/cities/london) and [t](/about)." }] },
+    context
+  );
+  assert(okShapes.length === 0, "well-shaped internal links of every allowed family validate clean");
+
+  // The validator strips a query/fragment before resolving, so the renderer has
+  // to accept them or the link ships as raw Markdown.
+  const withFragment = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [it](/about#corrections)." }] }, context);
+  assert(withFragment.length === 0, "a fragment on an allowed route validates clean");
+  const withAmpersand = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "See [it](/about?a=1&b=2)." }] }, context);
+  assert(withAmpersand.some((problem) => /contains "&"/.test(problem)), "an ampersand in a link fails validation");
+
+  assert(!isUsableHttpsUrl("https://") && !isUsableHttpsUrl("https://not a URL"), "a hostless https string is not a usable URL");
+  assert(!isUsableHttpsUrl("http://example.com"), "plain http is not a usable source URL");
+  assert(isUsableHttpsUrl("https://example.com/a"), "a real https URL is usable");
+  const badSource = validatePost({ ...base, sources: [{ label: "L", url: "https://" }] }, context);
+  assert(badSource.some((problem) => /parseable https URL with a hostname/.test(problem)), "an unparseable source URL fails validation");
+
+  const repeatedTag = validatePost({ ...base, tags: ["fees", "fees"] }, context);
+  assert(repeatedTag.some((problem) => /"tags" repeats/.test(problem)), "a repeated tag fails validation");
 
   const document = buildDocument([
     { ...base, slug: "older", path: "/blog/older", datePublished: "2026-07-01", tags: ["fees"] },

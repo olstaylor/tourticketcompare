@@ -123,6 +123,42 @@ option, so it does not make the page more useful than the artist page.
 **Recovery is automatic.** The moment a second date in that city is verified,
 the page flips to `index,follow` and re-enters the sitemap on the next deploy.
 
+### Blog — `/blog`, `/blog/<slug>`, `/blog/tags/<tag>`
+
+Blog posts are authored editorial rather than derived from event data, so the
+calendar cannot move them. The gates are about substance and duplication, and
+they follow the same "render it, don't index it" pattern as the route types
+above. Gate constants and derivation: `functions/_blog.js`.
+
+| Situation | Response |
+|---|---|
+| Post `status: draft` | **404** — a draft has no route at all |
+| Published post, 300+ body words | **200, `index,follow`**, self-canonical, in the sitemap and the RSS feed |
+| Published post under 300 body words | **200, `noindex,follow`**, self-canonical, still linked, absent from sitemap and feed |
+| Tag carried by ≥ 2 **indexable** posts | **200, `index,follow`**, in the sitemap |
+| Tag carried by fewer | **200, `noindex,follow`**, still linked from `/blog`, not in the sitemap |
+| `/blog` with at least one indexable post | **200, `index,follow`** |
+| `/blog` with none | **200, `noindex,follow`** — the route survives, the index entry does not |
+| Unknown slug or tag | **404** |
+
+**Why a tag needs two posts.** A tag page listing one post is that post with
+extra steps: same title words, same summary, one link. At two it starts to group
+something. Counting *indexable* posts rather than published ones stops a tag
+being indexed on the strength of posts that are themselves noindex.
+
+**Why the word threshold.** A post is competing on a "read about this" query.
+Below a few hundred words it loses to the guide or artist page that already
+covers the topic, and adds a near-duplicate to the index. Recovery is automatic:
+extend the post and it indexes on the next build.
+
+**Removing several posts at once trips the surface audit.** Blog routes are not
+date-derived, so the audit has no clock-controlled reference for them and reads
+the whole delta as unexplained. Unpublishing or deleting more than three
+indexable posts in one change is therefore reported as a structural change and
+fails `npm run audit:indexable-surface:check`. That is the audit working as
+designed — a deliberate removal of that size should re-anchor the baseline in
+the same commit. Adding posts only ever produces a warning.
+
 ### Publishable is not the same as schema-eligible
 
 This distinction applies to all three location route types.

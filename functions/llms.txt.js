@@ -3,6 +3,7 @@ import { deriveCities } from "./_cities.js";
 import { deriveVenues } from "./_venues.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { artistHasUpcomingShow } from "./_artist-indexability.js";
+import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } from "./_blog.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -63,6 +64,16 @@ async function loadIndexableLocations(env, indexableArtistSlugs = []) {
   }
 }
 
+// Only posts that are indexable on the site are advertised here, so answer
+// engines and the search index see the same blog surface.
+async function loadIndexableBlogPosts(env) {
+  try {
+    return deriveBlogPosts(await loadJsonAsset(env, "/data/blog-content.json")).filter(blogPostIndexable);
+  } catch (error) {
+    return [];
+  }
+}
+
 function linkLine(origin, path, name, description) {
   const suffix = description ? `: ${description}` : "";
   return `- [${name}](${origin}${path})${suffix}`;
@@ -75,6 +86,14 @@ export async function onRequestGet({ request, env }) {
   const guideLines = Object.entries(GUIDE_ROUTES).map(([path, guide]) =>
     linkLine(origin, path, guide.h1 || guide.title, guide.description)
   );
+
+  const blogPosts = await loadIndexableBlogPosts(env);
+  const blogLines = blogPosts.length
+    ? [
+        linkLine(origin, "/blog", "TourTicketCompare blog", "How this site verifies links, reports prices, and decides what to publish."),
+        ...blogPosts.map((post) => linkLine(origin, post.path, post.title, post.description))
+      ]
+    : [];
 
   const artists = await loadIndexableArtists(env);
   const locations = await loadIndexableLocations(env, artists.map((artist) => artist.slug));
@@ -140,7 +159,15 @@ Key facts:
 ## Buying guides
 
 ${guideLines.join("\n")}
+${
+  blogLines.length
+    ? `
+## Blog
 
+${blogLines.join("\n")}
+`
+    : ""
+}
 ## Artist pages
 
 ${artistLines.join("\n")}

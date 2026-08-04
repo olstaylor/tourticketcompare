@@ -98,14 +98,16 @@ export function routeType(pathname) {
   if (pathname === "/") return "home";
   if (/^\/artists\/[^/]+\/tickets\/[^/]+$/.test(pathname)) return "artist-city";
   if (/^\/artists\/[^/]+$/.test(pathname)) return "artist";
-  if (pathname === "/cities" || pathname === "/venues" || pathname === "/artists" || pathname === "/guides") return "index";
+  if (pathname === "/cities" || pathname === "/venues" || pathname === "/artists" || pathname === "/guides" || pathname === "/blog") return "index";
   if (pathname.startsWith("/cities/")) return "city";
   if (pathname.startsWith("/venues/")) return "venue";
   if (pathname.startsWith("/guides/")) return "guide";
+  if (pathname.startsWith("/blog/tags/")) return "blog-tag";
+  if (pathname.startsWith("/blog/")) return "blog-post";
   return "static";
 }
 
-export const ROUTE_TYPE_ORDER = ["home", "index", "static", "guide", "artist", "city", "venue", "artist-city"];
+export const ROUTE_TYPE_ORDER = ["home", "index", "static", "guide", "blog-post", "blog-tag", "artist", "city", "venue", "artist-city"];
 
 /**
  * Normalise a title into the template it was generated from, so two pages that
@@ -221,6 +223,9 @@ if (SELF_TEST) {
   assert(routeType("/venues/the-o2-london") === "venue", "venue route");
   assert(routeType("/cities") === "index" && routeType("/venues") === "index", "listing pages are index routes");
   assert(routeType("/guides/how-to-avoid-ticket-scams") === "guide", "guide route");
+  assert(routeType("/blog") === "index", "the blog index is an index route");
+  assert(routeType("/blog/why-prices-move") === "blog-post", "blog post route");
+  assert(routeType("/blog/tags/how-we-work") === "blog-tag", "blog tag route");
   assert(routeType("/about") === "static", "trust pages are static routes");
 
   const sampleTokens = ["Harry Styles", "Doja Cat", "London", "Toronto", "Denver"];

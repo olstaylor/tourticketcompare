@@ -3,4 +3,5 @@ Allow: /
 Disallow: /api/
 Disallow: /data/
 Disallow: /internal/
+Disallow: /admin
 Sitemap: https://tourticketcompare.com/sitemap.xml

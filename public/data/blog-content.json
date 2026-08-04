@@ -1,0 +1,168 @@
+{
+  "generator": "scripts/build-blog-content.mjs",
+  "source": "content/blog",
+  "posts": [
+    {
+      "slug": "how-a-ticket-link-gets-published",
+      "path": "/blog/how-a-ticket-link-gets-published",
+      "title": "How a ticket link gets published on TourTicketCompare",
+      "seoTitle": "How a ticket link gets published | TourTicketCompare",
+      "description": "The checks a ticket destination passes before it becomes a button on this site, and why some links stay hidden until a human has opened them.",
+      "summary": "Every ticket button on this site is a link somebody opened first. Here is the sequence a destination goes through before it becomes a button, and what happens when a link stops working.",
+      "datePublished": "2026-08-01",
+      "dateModified": "2026-08-01",
+      "status": "published",
+      "author": "TourTicketCompare editorial team",
+      "tags": [
+        "how-we-work",
+        "transparency"
+      ],
+      "relatedGuides": [
+        "how-to-avoid-ticket-scams",
+        "primary-vs-resale-concert-tickets"
+      ],
+      "relatedArtists": [],
+      "wordCount": 507,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Most ticket comparison sites will happily send you somewhere before anyone has checked that the destination exists. We do the opposite, and it costs us buttons: a page with no verified destination shows an empty state instead of a link. This post explains the sequence, because if you are going to trust a link you should know what standing behind it means."
+        },
+        {
+          "type": "section",
+          "title": "An artist starts with no buttons at all",
+          "content": "When an artist is added, the page is deliberately inert. It carries the artist name, a short factual summary, and nothing else. No ticket buttons, no provider logos, no event dates. Internally this is a \"review required\" state, and the page is marked noindex so search engines do not pick it up while it is incomplete.\n\nNothing about that state is automatic to escape. A person has to open the proposed destination in a browser and confirm three things: that it loads, that it is the right artist rather than a same-name collision, and that it is the provider's own page rather than a redirect chain or a tracking wrapper pointing somewhere else. Only then does the artist get an entry in the verified-link registry that the redirect service reads."
+        },
+        {
+          "type": "section",
+          "title": "Event dates come from a different pipeline",
+          "content": "Artist-level links and individual show dates are separate problems. Dates are pulled from official listings on a schedule, and each one lands as a reviewed record with its own venue, local start time, and canonical listing URL. A date is not a ticket link — a show can be tracked and displayed while its ticket destination is still unverified.\n\nThat separation is why you sometimes see a date on the site with a plain \"Check Ticketmaster\" link and no resale buttons beside it, or the reverse. Each provider's button publishes on its own evidence. One provider's link being checked never vouches for another's."
+        },
+        {
+          "type": "section",
+          "title": "Links break, and the site is built to notice",
+          "content": "A verified link is a claim about the past, so it gets rechecked. An automated audit walks the stored destinations daily and reports anything that stopped resolving. When a storefront URL breaks, the row is flagged and its Ticketmaster button is suppressed — not quietly redirected somewhere else, not swapped for a generic search page.\n\nRestoring it is deliberately harder than breaking it. An automated lookup finding an ID again is not enough evidence; someone has to open the page. In the meantime, if an independent provider has its own separately verified destination for that exact show, its button can still publish, because that verification never depended on the broken one."
+        },
+        {
+          "type": "section",
+          "title": "What this does not cover",
+          "content": "Verification means the destination is real and specific. It does not mean the price is good, the seats are available, or the terms suit you — those belong to the provider and change constantly. If a link on the site is broken or points at the wrong thing, the [contact page](/contact) is the fastest way to tell us, and the [editorial policy](/editorial-policy) sets out what gets corrected and how."
+        }
+      ]
+    },
+    {
+      "slug": "what-a-price-snapshot-actually-is",
+      "path": "/blog/what-a-price-snapshot-actually-is",
+      "title": "What a price snapshot actually is (and what it is not)",
+      "seoTitle": "What a price snapshot actually is | TourTicketCompare",
+      "description": "The prices on this site are timestamped listed-price snapshots from one provider at one moment, not live inventory and not a checkout total. Here is why.",
+      "summary": "When a price appears on an event card here it is a snapshot: one provider's listed price, captured at a stated time, for that exact show. That is a narrower claim than it looks, and the difference matters at checkout.",
+      "datePublished": "2026-08-01",
+      "dateModified": "2026-08-01",
+      "status": "published",
+      "author": "TourTicketCompare editorial team",
+      "tags": [
+        "how-we-work",
+        "ticket-prices"
+      ],
+      "relatedGuides": [
+        "concert-ticket-fees-explained",
+        "why-ticket-prices-change",
+        "how-to-compare-concert-ticket-prices"
+      ],
+      "relatedArtists": [],
+      "wordCount": 522,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "The word \"price\" does a lot of unearned work on ticket sites. It can mean a starting figure, a per-ticket figure before fees, a figure for a section that has two seats left, or the number you actually pay. When a figure appears on an event card here, it means something specific and quite narrow, and it is worth knowing exactly what."
+        },
+        {
+          "type": "section",
+          "title": "One provider, one event, one moment",
+          "content": "A snapshot is a listed price a single provider published for a single verified show, recorded with the time it was captured. It is stored, displayed with that timestamp, and expires. It is not an average, not a market rate, and not a figure we calculated.\n\nSeveral conditions all have to hold before a figure renders at all: the provider must have granted display rights, the record must map to that exact event rather than a nearby one, the destination URL must be independently verified, and the observation has to be recent enough to still be meaningful. If any one fails, no figure appears. The absence of a price on a card is a real signal, not a rendering bug."
+        },
+        {
+          "type": "section",
+          "title": "Why snapshots expire",
+          "content": "Listed prices move continuously. Measuring our own stored history, they drift by low single-digit percentages per hour across the resale lanes — enough that a figure captured this morning is genuinely a different claim by this evening. Snapshots are therefore refreshed on a short cycle and carry a hard expiry: past it, the figure stops displaying rather than sitting there looking current.\n\nThat is also why the site shows a capture time next to a price instead of presenting it as the price. The timestamp is not a disclaimer bolted on afterwards; it is the part that makes the number honest."
+        },
+        {
+          "type": "section",
+          "title": "Not every provider has one",
+          "content": "Providers differ in what their feeds expose, and we do not fill the gaps by guessing. Some approved partners supply numeric listed prices and can show a figure. At least one supplies verified links but no usable numeric price at all, so it is a link-only provider here and always will be. Ticketmaster is a verification and link source on this site rather than a price lane.\n\nThe visible consequence is asymmetry: one show may display a figure from two providers and a plain link from a third. That is the data being reported accurately rather than flattened into a tidier-looking table."
+        },
+        {
+          "type": "section",
+          "title": "What we will never tell you",
+          "content": "We will not rank providers against each other or crown one of them the low-price option. Snapshots are per provider and per moment; ordering them as if they were like-for-like offers would imply a comparison the underlying data cannot support. We also make no claim about availability, because we have no inventory feed and inventing one would be worse than saying nothing.\n\nWhat a snapshot is good for is narrowing the field before you open two or three tabs. The final number is the provider's order summary after fees, delivery, and tax, and [our guide to ticket fees](/guides/concert-ticket-fees-explained) covers what tends to get added between the headline and the total."
+        }
+      ]
+    },
+    {
+      "slug": "why-some-artist-pages-show-no-dates",
+      "path": "/blog/why-some-artist-pages-show-no-dates",
+      "title": "Why some artist pages here show no dates",
+      "seoTitle": "Why some artist pages show no dates | TourTicketCompare",
+      "description": "An artist page with no upcoming shows is usually a finished tour, not a data gap. Here is what an empty board means and what the page does instead.",
+      "summary": "Roughly half the artist pages on this site have no upcoming dates at any given moment. That is the calendar working correctly rather than a broken page, and the page behaves differently when it happens.",
+      "datePublished": "2026-08-01",
+      "dateModified": "2026-08-01",
+      "status": "published",
+      "author": "TourTicketCompare editorial team",
+      "tags": [
+        "how-we-work",
+        "transparency"
+      ],
+      "relatedGuides": [
+        "how-to-prepare-for-a-ticket-onsale",
+        "when-is-the-best-time-to-buy-concert-tickets"
+      ],
+      "relatedArtists": [],
+      "wordCount": 489,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "If you land on an artist page here and find no tour dates, the most likely explanation is the boring one: the tour finished, and the last tracked date has passed. The page does not hide that or pad itself out to look busier. It says so, and then it changes what it offers you."
+        },
+        {
+          "type": "section",
+          "title": "An empty board is a state, not an error",
+          "content": "Every artist page is built from reviewed event records. When the final upcoming date passes, the records do not disappear — they simply stop being upcoming, and the board empties. Nothing is deleted and nothing is invented to fill the space.\n\nWhat changes is how the page presents itself. An artist page with no upcoming shows drops out of the search index automatically and starts telling search engines not to list it, because a page promising \"tickets and tour dates\" with neither is thin for the query somebody typed. It also stops appearing in the site's sitemap. When a new verified date lands, all of that reverses on its own — no manual step, no republishing."
+        },
+        {
+          "type": "section",
+          "title": "The listings stop promising too",
+          "content": "It is not enough for the page itself to be honest if every link pointing at it implies otherwise. So the artist listings across the site read the same test the page does: an artist with no upcoming dates is badged plainly, offered as a date-alert signup rather than a ticket link, and sorted below the artists who do have shows.\n\nThose links stay followable — the page is still real and still useful — but they stop occupying the prominent slots. The intent is that you should never click through from a grid of tour dates to a page that has none."
+        },
+        {
+          "type": "section",
+          "title": "What the page is still for",
+          "content": "An empty board is not a dead page. It still carries the artist's factual summary, the artist-level provider links where a destination has been verified, any recently passed dates for context, and a watchlist signup so you can register interest in future dates. Registering interest is a demand signal only; nothing is currently emailed to anyone from this site.\n\nIt is also worth saying what an empty board is not evidence of. It does not mean the artist has no tour — it means this site has no verified date for one. Coverage here is selective, built artist by artist, and an announced tour can exist for weeks before it appears. If you know a date is missing, the [contact page](/contact) is the fastest way to flag it."
+        },
+        {
+          "type": "section",
+          "title": "If you are waiting on an onsale",
+          "content": "Empty boards are common in the window between a tour ending and the next being announced, which is also the window where scams cluster, because there is demand and nothing legitimate to buy yet. Two things worth reading in that period: [how to prepare for an onsale](/guides/how-to-prepare-for-a-ticket-onsale), and [how to spot fake listings](/guides/how-to-avoid-ticket-scams) before the real dates arrive."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "slug": "how-we-work",
+      "label": "How We Work",
+      "postCount": 3
+    },
+    {
+      "slug": "transparency",
+      "label": "Transparency",
+      "postCount": 2
+    },
+    {
+      "slug": "ticket-prices",
+      "label": "Ticket Prices",
+      "postCount": 1
+    }
+  ]
+}

@@ -43,5 +43,14 @@
 /internal/*
   X-Robots-Tag: noindex, nofollow
 
+# The content editor's own assets. The /admin document itself is served by
+# functions/admin.js, which sets the editor's Content-Security-Policy directly;
+# these are the vendored editor bundle and its configuration.
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+
+/admin/sveltia-cms.js
+  Cache-Control: public, max-age=3600
+
 /og-image.png
   Cache-Control: public, max-age=604800

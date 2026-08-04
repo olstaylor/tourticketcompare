@@ -553,6 +553,30 @@ h3 {
   align-content: start;
 }
 
+/* Blog. Posts reuse the guide page shell, so only the pieces guides do not
+   have need styling: the tag chip row and the publication date on a card. */
+.blog-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  grid-template-columns: none;
+}
+
+.blog-tag-list .mini-link {
+  min-height: 0;
+  padding: 8px 14px;
+}
+
+.blog-post .eyebrow,
+.guide-grid .info-card .eyebrow {
+  margin: 0 0 6px;
+  color: var(--muted, #6b7280);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 .empty-state {
   width: 100%;
   margin: 0;

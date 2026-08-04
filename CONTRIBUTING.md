@@ -35,6 +35,19 @@ node scripts/validate-partitions.mjs          # if partitions touched
 
 `validate-events.py --for-production` hard-errors on a missing `tour_name` key and warns on a blank `tour_name` for indexed artists.
 
+### Blog / content
+
+```bash
+npm run blog:build       # compile content/blog/*.md -> public/data/blog-content.json
+npm run blog:check       # fail if the generated JSON is stale (also run by test:mvp)
+npm run blog:self-test   # parser + validator unit tests
+```
+
+`npm run blog:build` is required after any edit under `content/blog/`. It validates
+before it writes: a post with a broken internal link, an over-budget title, or a
+claim the site cannot support fails rather than publishing. Authoring reference:
+[docs/BLOG.md](docs/BLOG.md).
+
 ### Route / provider / artist validators (run the ones relevant to your change)
 
 ```bash
@@ -201,6 +214,7 @@ Batch onboarding (preferred): `npm run artists:onboard:propose` → review the i
 - [ ] Relevant syntax checks pass (`node --check`)
 - [ ] Event data validated (`npm run events:validate`) if `events.json` was touched
 - [ ] `npm run events:sync` run if any data files changed
+- [ ] `npm run blog:build` run if any `content/blog/*.md` was changed
 - [ ] Smoke tests pass (`node scripts/smoke-prelaunch.mjs`)
 - [ ] `npm run docs:check` passes
 - [ ] `git diff --check` clean

@@ -3,7 +3,11 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const SKIP_DIRS = new Set([".git", "node_modules", ".wrangler", "reports"]);
+// `content/` holds published site copy (content/blog/*.md), not documentation:
+// its Markdown links are site routes like /guides/... which do not resolve to
+// repository files, and it is validated by scripts/build-blog-content.mjs
+// instead — which resolves those routes against the real route metadata.
+const SKIP_DIRS = new Set([".git", "node_modules", ".wrangler", "reports", "content"]);
 const REQUIRED_DOCS = [
   "AGENTS.md",
   "README.md",

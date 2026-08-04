@@ -14,6 +14,21 @@
 export const CANONICAL_HOST = "tourticketcompare.com";
 export const CANONICAL_ORIGIN = `https://${CANONICAL_HOST}`;
 
+// The content editor runs on its own hostname, not on the apex.
+//
+// This is a security boundary, not cosmetics. Sveltia persists the signed-in
+// user's GitHub token in localStorage, and localStorage is shared by every page
+// on an origin. The apex serves the public site with Google Tag Manager and
+// Analytics on it, so an editor on the apex would put a repository-write
+// credential within reach of any third-party tag or any XSS anywhere on the
+// site — and a push to main auto-deploys. A separate hostname gives the editor
+// its own storage partition.
+//
+// Two rules keep the origins apart, both enforced in _middleware.js: the admin
+// host serves nothing except the editor, and no other host serves the editor.
+export const ADMIN_HOST = `admin.${CANONICAL_HOST}`;
+export const ADMIN_ORIGIN = `https://${ADMIN_HOST}`;
+
 const LOCAL_HOSTNAMES = new Set(["localhost", "127.0.0.1", "0.0.0.0", "[::1]", "::1"]);
 
 function hostnameOf(origin) {
@@ -39,7 +54,32 @@ export function isCanonicalOrigin(origin) {
 // engines drop it. Note this is deliberately *not* a robots.txt disallow:
 // blocking the crawl would hide the noindex and strand already-indexed copies.
 export function isIndexableOrigin(origin) {
+  // The admin host is a subdomain of the canonical host, so it would otherwise
+  // read as canonical here. It must never emit indexable HTML.
+  if (isAdminHost(hostnameOf(origin))) return false;
   return isCanonicalOrigin(origin) || isLocalOrigin(origin);
+}
+
+/**
+ * Whether this hostname is the dedicated editor origin.
+ *
+ * @param {string} hostname
+ * @returns {boolean}
+ */
+export function isAdminHost(hostname) {
+  return String(hostname || "").toLowerCase() === ADMIN_HOST;
+}
+
+/**
+ * Whether this path belongs to the content editor: the editor shell, its static
+ * assets, and its OAuth handshake.
+ *
+ * @param {string} pathname Already normalized (no trailing slash).
+ * @returns {boolean}
+ */
+export function isAdminPath(pathname) {
+  const path = String(pathname || "");
+  return path === "/admin" || path.startsWith("/admin/") || path.startsWith("/api/admin/");
 }
 
 export function canonicalOrigin(origin) {
@@ -128,7 +168,7 @@ export const TRUST_ROUTES = {
     description:
       "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.",
     indexable: true,
-    lastmod: "2026-07-13"
+    lastmod: "2026-08-04"
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices | TourTicketCompare",
@@ -152,7 +192,7 @@ export const TRUST_ROUTES = {
       "Practical concert-ticket guides on matching listings, checking final totals, choosing primary or resale, timing a purchase, and confirming provider terms.",
     indexable: true,
     breadcrumb: [{ name: "Guides", path: "/guides" }],
-    lastmod: "2026-07-13"
+    lastmod: "2026-08-04"
   },
   "/how-it-works": {
     title: "How TourTicketCompare Works",

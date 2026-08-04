@@ -1,0 +1,156 @@
+# Sveltia CMS configuration for the /admin editor.
+#
+# This file describes the *shape* of editable content. It grants no access on
+# its own: writes happen through the signed-in editor's own GitHub account over
+# the OAuth flow in functions/api/admin/, so only someone with write access to
+# the repository can publish. No credentials belong in this file — it is a
+# public static asset.
+#
+# The CMS commits Markdown to content/blog/. It does NOT compile it: the
+# generated public/data/blog-content.json is rebuilt by
+# .github/workflows/content-build.yml after the commit lands, which is what
+# makes a post appear on the site.
+
+backend:
+  name: github
+  repo: olstaylor/tourticketcompare
+  branch: main
+  # The editor's own origin, not the apex: see ADMIN_HOST in
+  # functions/_route-metadata.js for why the two are kept apart.
+  base_url: https://admin.tourticketcompare.com
+  auth_endpoint: api/admin/auth
+  commit_messages:
+    create: 'content: add blog post "{{slug}}"'
+    update: 'content: update blog post "{{slug}}"'
+    delete: 'content: remove blog post "{{slug}}"'
+
+# Editing straight to main matches how the rest of this repository publishes
+# content, and `status: draft` is the real safety net — a draft post has no
+# route at all, so an unfinished commit cannot go live.
+publish_mode: simple
+
+site_url: https://tourticketcompare.com
+display_url: https://tourticketcompare.com
+logo_url: https://tourticketcompare.com/og-image.png
+
+# Posts are text. The Markdown renderer used by the site does not support
+# embedded images yet, and `npm run blog:build` rejects a post containing one
+# with an explanatory message, so uploads would only produce broken pages. The
+# folder is declared because the CMS expects the key to exist.
+media_folder: public/assets/blog
+public_folder: /assets/blog
+
+collections:
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    folder: content/blog
+    create: true
+    slug: '{{slug}}'
+    identifier_field: title
+    extension: md
+    format: yaml-frontmatter
+    summary: '{{title}} — {{date}} ({{status}})'
+    sortable_fields: [date, title]
+    view_filters:
+      - label: Published
+        field: status
+        pattern: published
+      - label: Drafts
+        field: status
+        pattern: draft
+    fields:
+      - name: title
+        label: Title
+        widget: string
+        hint: The page H1 and the headline in search. Keep it under 70 characters.
+
+      - name: seo_title
+        label: Search title
+        widget: string
+        required: false
+        hint: >-
+          Optional shorter title used in the browser tab and search results.
+          " | TourTicketCompare" is appended, so keep this under 40 characters.
+          Leave blank to reuse the title.
+
+      - name: description
+        label: Search description
+        widget: text
+        hint: >-
+          One full sentence, 50-160 characters. This is the snippet under the
+          link in search results.
+
+      - name: summary
+        label: Summary
+        widget: text
+        hint: >-
+          One or two sentences. Shown on the blog index card and as the lead
+          paragraph at the top of the post.
+
+      - name: date
+        label: Publication date
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+
+      - name: updated
+        label: Last updated
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+        required: false
+        hint: Leave blank unless you are revising an already-published post.
+
+      - name: status
+        label: Status
+        widget: select
+        default: draft
+        options: [draft, published]
+        hint: >-
+          Drafts are committed but never rendered — no page, no sitemap entry,
+          no feed item.
+
+      - name: tags
+        label: Tags
+        widget: list
+        required: false
+        default: [how-we-work]
+        hint: >-
+          Lowercase, hyphenated. A tag page is only indexed once two or more
+          published posts share the tag.
+
+      - name: related_guides
+        label: Related guides
+        widget: list
+        required: false
+        hint: >-
+          Guide slugs without the /guides/ prefix, e.g.
+          concert-ticket-fees-explained. The build fails on a guide that does
+          not exist.
+
+      - name: related_artists
+        label: Artists mentioned
+        widget: list
+        required: false
+        hint: >-
+          Artist slugs, e.g. harry-styles. The build fails on an artist that is
+          not in the site's artist data.
+
+      - name: sources
+        label: Sources
+        widget: list
+        required: false
+        fields:
+          - { name: label, label: Label, widget: string }
+          - { name: url, label: URL, widget: string, pattern: ['^https://', 'Must be an https URL'] }
+
+      - name: body
+        label: Body
+        widget: markdown
+        hint: >-
+          Use "## " for sections and "### " for subsections — do not use a
+          single "#", the title is already the H1. Links must be site paths
+          (/guides/..., /artists/..., /blog/...) or https URLs.

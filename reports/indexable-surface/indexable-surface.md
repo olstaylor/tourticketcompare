@@ -1,26 +1,28 @@
 # Indexable-surface audit
 
-Generated: 2026-07-31T13:21:15.802Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-08-01T00:54:49.492Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 
-- rendered routes: 497
-- indexable: 220
-- non-indexable: 277
-- stored baseline indexable: 220 (+0)
+- rendered routes: 506
+- indexable: 227
+- non-indexable: 279
+- stored baseline indexable: 220 (+7)
 
 ## Routes by type
 
 | Type | Rendered | Indexable | Non-indexable | Indexable share |
 |---|---|---|---|---|
 | home | 1 | 1 | 0 | 100% |
-| index | 4 | 4 | 0 | 100% |
+| index | 5 | 5 | 0 | 100% |
 | static | 7 | 7 | 0 | 100% |
 | guide | 17 | 17 | 0 | 100% |
+| blog-post | 3 | 3 | 0 | 100% |
+| blog-tag | 3 | 2 | 1 | 67% |
 | artist | 40 | 18 | 22 | 45% |
 | city | 81 | 37 | 44 | 46% |
-| venue | 109 | 44 | 65 | 40% |
-| artist-city | 238 | 92 | 146 | 39% |
+| venue | 108 | 45 | 63 | 42% |
+| artist-city | 241 | 92 | 149 | 38% |
 
 ## Reasons for exclusion
 
@@ -30,27 +32,25 @@ Generated: 2026-07-31T13:21:15.802Z (read-only, rendered in-process — no live 
 | artist | artist_not_editorially_indexable | 14 |
 | city | below_show_threshold | 43 |
 | city | below_artist_threshold | 31 |
-| city | no_publishable_destination | 3 |
-| venue | below_show_threshold | 60 |
-| venue | below_artist_threshold | 56 |
-| venue | no_publishable_destination | 4 |
-| artist-city | below_show_threshold | 146 |
+| venue | below_show_threshold | 59 |
+| venue | below_artist_threshold | 55 |
+| artist-city | below_show_threshold | 149 |
+| blog-tag | editorial_or_static_route | 1 |
 
 ## Losing indexability within 14 days
 
 | Route | Type | Last tracked show | Days left | Why |
 |---|---|---|---|---|
 | /artists/morgan-wallen | artist | 2026-08-01 | 1 | runs_out_of_shows |
-| /artists/morgan-wallen/tickets/philadelphia-united-states | artist-city | 2026-08-01 | 1 | runs_out_of_shows |
+| /artists/zach-bryan/tickets/san-diego-united-states | artist-city | 2026-08-02 | 1 | runs_out_of_shows |
 | /artists/bts/tickets/east-rutherford-united-states | artist-city | 2026-08-03 | 2 | runs_out_of_shows |
 | /artists/summer-walker/tickets/london-united-kingdom | artist-city | 2026-08-02 | 2 | runs_out_of_shows |
 | /artists/tame-impala/tickets/charlotte-united-states | artist-city | 2026-08-02 | 2 | runs_out_of_shows |
-| /artists/zach-bryan/tickets/san-diego-united-states | artist-city | 2026-08-02 | 2 | runs_out_of_shows |
 | /artists/tame-impala/tickets/nashville-united-states | artist-city | 2026-08-06 | 5 | runs_out_of_shows |
 | /artists/ariana-grande/tickets/chicago-united-states | artist-city | 2026-08-06 | 6 | runs_out_of_shows |
 | /artists/bts/tickets/foxborough-united-states | artist-city | 2026-08-07 | 6 | runs_out_of_shows |
 | /artists/zach-bryan/tickets/denver-united-states | artist-city | 2026-08-15 | 14 | falls_below_threshold |
-| /cities/san-diego-united-states | city | 2026-10-28 | 89 | falls_below_threshold |
+| /cities/san-diego-united-states | city | 2026-10-28 | 88 | falls_below_threshold |
 
 `runs_out_of_shows` = the route's last tracked date passes. `falls_below_threshold` = the route keeps future dates but drops under a count gate, which is why this section re-runs the real gates at the horizon rather than looking at the last show date.
 
@@ -66,18 +66,18 @@ Generated: 2026-07-31T13:21:15.802Z (read-only, rendered in-process — no live 
 
 | Routes | Share | Pattern |
 |---|---|---|
-| 92 | 41.8% | `{} Tickets in {} | Compare Prices` |
-| 44 | 20% | `{} Concerts in {} | Tickets` |
-| 37 | 16.8% | `Concerts in {} | Upcoming Shows & Tickets` |
-| 18 | 8.2% | `{} Tickets & Tour Dates | TourTicketCompare` |
-| 1 | 0.5% | `Compare Concert Tickets & Tour Dates | TourTicketCompare` |
-| 1 | 0.5% | `Compare Concert Ticket Prices | TourTicketCompare` |
-| 1 | 0.5% | `Artists | TourTicketCompare` |
-| 1 | 0.5% | `Concert Ticket Buying Guides | TourTicketCompare` |
-| 1 | 0.5% | `How TourTicketCompare Works` |
-| 1 | 0.5% | `Currency Converter for Concert Tickets | TourTicketCompare` |
-| 1 | 0.5% | `About TourTicketCompare` |
-| 1 | 0.5% | `Contact TourTicketCompare` |
+| 91 | 40.1% | `{} Tickets in {} | Compare Prices` |
+| 45 | 19.8% | `{} Concerts in {} | Tickets` |
+| 37 | 16.3% | `Concerts in {} | Upcoming Shows & Tickets` |
+| 18 | 7.9% | `{} Tickets & Tour Dates | TourTicketCompare` |
+| 1 | 0.4% | `Compare Concert Tickets & Tour Dates | TourTicketCompare` |
+| 1 | 0.4% | `Compare Concert Ticket Prices | TourTicketCompare` |
+| 1 | 0.4% | `Artists | TourTicketCompare` |
+| 1 | 0.4% | `Concert Ticket Buying Guides | TourTicketCompare` |
+| 1 | 0.4% | `How TourTicketCompare Works` |
+| 1 | 0.4% | `Currency Converter for Concert Tickets | TourTicketCompare` |
+| 1 | 0.4% | `About TourTicketCompare` |
+| 1 | 0.4% | `Contact TourTicketCompare` |
 
 ### Exact duplicate titles
 
@@ -90,18 +90,20 @@ Generated: 2026-07-31T13:21:15.802Z (read-only, rendered in-process — no live 
 
 ## Change against the stored baseline
 
-Baseline generated 2026-07-31T13:11:53.766Z.
+Baseline generated 2026-07-31T13:21:15.802Z.
 
 | Type | Baseline | Same gates @ baseline date | Now | Clock | Residual | Classification |
 |---|---|---|---|---|---|---|
 | home | 1/1 | 1/1 | 1/1 | +0 | +0 (tol 3) | unchanged |
-| index | 4/4 | 4/4 | 4/4 | +0 | +0 (tol 3) | unchanged |
+| index | 4/4 | 5/5 | 5/5 | +0 | +1 (tol 3) | inventory-growth |
 | static | 7/7 | 7/7 | 7/7 | +0 | +0 (tol 3) | unchanged |
 | guide | 17/17 | 17/17 | 17/17 | +0 | +0 (tol 3) | unchanged |
+| blog-post | 0/0 | 3/3 | 3/3 | +0 | +3 (tol 3) | inventory-growth |
+| blog-tag | 0/0 | 2/3 | 2/3 | +0 | +2 (tol 3) | inventory-growth |
 | artist | 18/40 | 18/40 | 18/40 | +0 | +0 (tol 3) | unchanged |
 | city | 37/81 | 37/81 | 37/81 | +0 | +0 (tol 4) | unchanged |
-| venue | 44/109 | 44/109 | 44/109 | +0 | +0 (tol 5) | unchanged |
-| artist-city | 92/238 | 92/238 | 92/238 | +0 | +0 (tol 10) | unchanged |
+| venue | 44/109 | 45/108 | 45/108 | +0 | +1 (tol 5) | inventory-growth |
+| artist-city | 92/238 | 93/242 | 92/241 | -1 | +1 (tol 10) | unchanged |
 
 **Clock** is what the calendar alone accounts for: the same gates re-run over the same event data at the baseline's timestamp versus now. **Residual** is everything left over — a code, gate, or data change. `inventory-decay` / `inventory-growth` are expected. `structural` (residual loss beyond tolerance) fails `--check`; `unexplained-growth` only warns, because an artist batch or a big discovery run produces it legitimately.
 

@@ -3,6 +3,7 @@ import { deriveVenues } from "./_venues.js";
 import { deriveCities } from "./_cities.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { artistHasUpcomingShow } from "./_artist-indexability.js";
+import { deriveIndexableBlogEntries } from "./_blog.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -70,6 +71,17 @@ async function loadIndexableArtistCities(env, indexableArtistSlugs) {
     const events = await loadJsonAsset(env, "/data/events.json");
     if (!Array.isArray(events)) return [];
     return deriveIndexableArtistCities(events, indexableArtistSlugs);
+  } catch (error) {
+    return [];
+  }
+}
+
+// Blog index, posts, and tag pages. deriveIndexableBlogEntries applies the same
+// gates the router applies, so a noindex post or a one-post tag page can never
+// enter the sitemap.
+async function loadIndexableBlogEntries(env) {
+  try {
+    return deriveIndexableBlogEntries(await loadJsonAsset(env, "/data/blog-content.json"));
   } catch (error) {
     return [];
   }
@@ -212,7 +224,16 @@ export async function onRequestGet({ request, env }) {
         }))
       )
     : [];
-  const entries = staticEntries.concat(artistEntries, artistCityEntries, cityEntries, venueEntries);
+  // A blog lastmod is the post's own authored date, so it needs no fallback:
+  // lastmodOf returns null for anything malformed and the entry simply omits
+  // <lastmod>, per the shared rule above.
+  const blogEntries = (await loadIndexableBlogEntries(env)).map((entry) => ({
+    path: entry.path,
+    lastmod: lastmodOf(entry.lastmod),
+    changefreq: entry.type === "blog-post" ? "monthly" : "weekly",
+    priority: entry.type === "blog-post" ? "0.6" : "0.5"
+  }));
+  const entries = staticEntries.concat(artistEntries, artistCityEntries, cityEntries, venueEntries, blogEntries);
 
   const urlsXml = entries
     .map((entry) => {

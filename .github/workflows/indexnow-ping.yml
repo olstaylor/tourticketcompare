@@ -24,8 +24,22 @@ on:
       - 'public/data/events/**'
       - 'public/data/artists.json'
       - 'public/data/catalog.json'
+      # Compiled blog content — a new or revised post changes the indexable URL
+      # set exactly like a new event does. content/blog/*.md is deliberately not
+      # listed: it is the source, and the compiled file is what the sitemap
+      # derives from.
+      #
+      # Caveat: GitHub does not start a workflow from a push made with the
+      # default GITHUB_TOKEN, so this does NOT fire for the commit
+      # content-build.yml makes after an /admin save. It does fire for the
+      # text-editor path, where a human commits the Markdown and the rebuilt
+      # JSON together. After publishing through /admin, run this workflow
+      # manually if you want the ping; otherwise the URLs are picked up on the
+      # next ordinary crawl.
+      - 'public/data/blog-content.json'
       # Code that decides which routes are indexable at all.
       - 'functions/sitemap.xml.js'
+      - 'functions/_blog.js'
       - 'functions/_route-metadata.js'
       - 'functions/_cities.js'
       - 'functions/_venues.js'

@@ -3919,12 +3919,28 @@ export async function onRequest(context) {
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
   let renderEvents = events;
   if ((route.type === "artist" || route.type === "artist-city" || route.type === "venue") && events.length) {
-    const priceCandidates = route.type === "artist" || route.type === "artist-city"
-      ? futureShowsForArtist(events, route.artist.slug, 6)
-      : events
+    // Query prices for exactly the cards each route renders, not a fixed prefix
+    // of the board. A card the server never queried can neither show a snapshot
+    // nor honestly report one as absent, so the old six-show slice left the rest
+    // of a long board blank for no-JS visitors and crawlers even where D1 held a
+    // fresh row — and on an artist-city page the slice was the artist's first six
+    // dates anywhere, which frequently did not include the city being rendered.
+    //
+    // Reads stay batched: fetchApprovedMarketplaceCachedRows chunks ids at 50, so
+    // a board costs ceil(cards / 50) cache reads, not one per card.
+    let priceCandidates;
+    if (route.type === "artist") {
+      priceCandidates = futureShowsForArtist(events, route.artist.slug);
+    } else if (route.type === "artist-city") {
+      const cityShowIds = artistCityShowIdSet(route.artistCity || {});
+      priceCandidates = futureShowsForArtist(events, route.artist.slug)
+        .filter((show) => cityShowIds.has(String(show.id || "")));
+    } else {
+      priceCandidates = events
         .filter((event) => route.venue?.shows?.some((show) => String(show?.id || "") === String(event?.id || "")))
         .map((event) => futureShowsForArtist([event], event.artist_slug, 1)[0])
         .filter(Boolean);
+    }
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
     renderEvents = events.map((event) => {

@@ -2,7 +2,7 @@
 
 Production runs on Cloudflare Pages with Pages Functions. Normal production changes deploy from merges to GitHub `main`; manual CLI deployment is an emergency/operator path.
 
-Current binding presence, provider rollout state, and operational risks are tracked in [PROJECT_STATUS.md](../PROJECT_STATUS.md).
+Current binding presence and provider rollout state are tracked in [PROJECT_STATUS.md](../PROJECT_STATUS.md); the workflow schedule, secrets reference, and known operational incidents are tracked in [OPERATIONS.md](OPERATIONS.md).
 
 ## Local development
 
@@ -120,7 +120,7 @@ Scheduled snapshot workflows write approved exact-event observations to `provide
 - A run summary must make `eligible`, `fetched`, `usable`, `written`, `skipped`, `stale`, and `failed` outcomes explicit.
 - Failed or unusable observations must not overwrite a fresh cache row.
 
-Treat workflow YAML and [PROJECT_STATUS.md](../PROJECT_STATUS.md) as the current schedule/activation sources; do not copy run numbers or eligible-row counts into this stable runbook.
+Treat workflow YAML and [OPERATIONS.md](OPERATIONS.md) as the current schedule/activation sources; do not copy run numbers or eligible-row counts into this stable runbook.
 
 ## D1 migrations
 

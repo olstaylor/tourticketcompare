@@ -1,6 +1,6 @@
 # Contributing
 
-Practical guide for working on TourTicketCompare. Start by reading [CLAUDE.md](CLAUDE.md) → [PROJECT_STATUS.md](PROJECT_STATUS.md) → [BACKLOG.md](BACKLOG.md).
+Practical guide for working on TourTicketCompare. Start by reading [CLAUDE.md](CLAUDE.md) → [PROJECT_STATUS.md](PROJECT_STATUS.md) → [BACKLOG.md](BACKLOG.md). Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Workflow schedules, secrets, and incidents: [docs/OPERATIONS.md](docs/OPERATIONS.md).
 
 ---
 
@@ -97,6 +97,20 @@ npm run status:surface:write                  # regenerate the <!-- generated:�
                                               #   that moves the indexable set.
 npm run audit:indexable-surface:baseline      # re-anchor the baseline (only for an intended policy change)
 npm run test:route-indexability               # gate units, city/venue derivations, redirect-map safety
+```
+
+### Targeted subset commands (scoped changes)
+
+Prefer these over the full `test:mvp` chain when a change is scoped to one area — useful for an agent that only needs to inspect and validate the relevant page/route type:
+
+```bash
+npm run test:routes      # route-metadata + route-indexability units, guide-route validation,
+                         #   and the internal-links crawl — routing/metadata changes
+npm run test:content     # blog:check + content:provenance:check + guide-route validation —
+                         #   content/copy changes (guides, trust pages, blog)
+npm run test:providers   # provider-structure, artist-provider-claims, CTA-provider-state,
+                         #   provider-allowlists, and provider-identities validators —
+                         #   provider/CTA changes
 ```
 
 ### Tooling self-tests (before changing the matching/snapshot scripts)

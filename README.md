@@ -43,9 +43,11 @@ Setup details, targeted checks, event-data commands, and the PR checklist are in
 
 | Document | Purpose |
 |---|---|
-| [CLAUDE.md](CLAUDE.md) | Stable contributor rules, protected areas, architecture, and working style |
-| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Current data counts, production state, and active risks |
-| [BACKLOG.md](BACKLOG.md) | Prioritised work and explicit parking decisions |
+| [CLAUDE.md](CLAUDE.md) | Concise, stable contributor rules, protected areas, and working style |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Repository structure, request routing, and durable contracts |
+| [docs/OPERATIONS.md](docs/OPERATIONS.md) | Workflow schedules, secrets/bindings reference, and known incidents |
+| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Brief, largely machine-generated current-state snapshot — data counts and per-artist status |
+| [BACKLOG.md](BACKLOG.md) | Genuinely outstanding, prioritised work and explicit parking decisions |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Local setup, validation, and change checklist |
 | [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) | Non-negotiable data, CTA, price, and automation rules |
 | [docs/DOCS_MAINTENANCE.md](docs/DOCS_MAINTENANCE.md) | Documentation ownership, lifecycle, and drift checks |

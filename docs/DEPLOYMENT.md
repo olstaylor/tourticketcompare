@@ -52,7 +52,8 @@ curl -fsSI https://www.tourticketcompare.com/
 Confirm:
 
 - health returns `ok: true` and `runtime: "cloudflare-pages-functions"`;
-- the response reports configuration presence without secret values;
+- the response reports configuration presence without secret values (booleans and counts only — `debugApiToken` reports the same gate the diagnostics enforce);
+- `/api/impact/health` returns 404 without `DEBUG_API_TOKEN`, and the editor paths (`/admin`, `/admin/*`, `/api/admin/*`) return 404 on the apex;
 - `www` redirects to the apex domain;
 - the home page and one affected artist/guide route return route-specific HTML;
 - affected `/api/out` redirects either reach the verified provider destination or fail closed with diagnostic JSON; and
@@ -83,9 +84,11 @@ Submission requires `public/9ffca7bd48067983c70d2ce6601728d3.txt` to be served a
 Production requires:
 
 - D1 binding: `DEMAND_DB`;
-- non-secret safety flags such as `MOCK_MODE=false` and `ALLOW_MOCK_PRICES=false`;
-- provider public/price-display flags documented in [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md); and
-- server-side credentials for the provider lanes that are enabled.
+- non-secret safety flags such as `MOCK_MODE=false` and `ALLOW_MOCK_PRICES=false` — these and the other `[vars]` are **repo-managed in `wrangler.toml`**, not dashboard settings; only Secrets live in the dashboard;
+- provider public/price-display flags documented in [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md);
+- server-side credentials for the provider lanes that are enabled;
+- `DEBUG_API_TOKEN`, without which `/api/debug-seatgeek` and every `/api/impact/*` diagnostic 404 (they are never public — each proxies an authenticated Publisher API call); and
+- for the `/admin` content editor only: the `admin.tourticketcompare.com` custom domain on this same Pages project, plus `GITHUB_OAUTH_CLIENT_ID` / `GITHUB_OAUTH_CLIENT_SECRET`. Neither exists yet; until both do, the editor is unreachable and sign-in fails closed with a 503 naming what is missing. Setup steps: [BLOG.md](BLOG.md).
 
 Provider credential families currently used by code include network-level Impact credentials, SeatGeek, Vivid Seats, and optional marketplace-provider overrides. Exact current configuration belongs in `PROJECT_STATUS.md` and should be verified via `/api/health` plus a fail-closed redirect test. Obsolete `IMPACT_TICKETMASTER_*` values should not be restored.
 
@@ -97,20 +100,21 @@ Automation may require:
 
 - `TICKETMASTER_API_KEY` for Discovery-based event checks and sync;
 - `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` for SeatGeek API lanes;
-- provider-specific or approved fallback Impact credentials for catalog/tracking lanes; and
+- provider-specific or approved fallback Impact credentials for catalog/tracking lanes;
+- `DEBUG_API_TOKEN` for any lane reading Impact catalogs through `IMPACT_CATALOG_PROXY_URL` — the proxy routes are token-gated, and a 404 from the proxy is treated as an auth failure rather than an empty catalog, so a missing token can never look like a provider that dropped its listings; and
 - `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` for remote D1 writes.
 
 Missing credentials must cause a safe no-op or explicit failure, never guessed data or an untracked redirect.
 
 ### Repository write capability
 
-Direct-to-`main` capability exists in exactly two workflows, each narrowly gated: `nightly-data-sync.yml`, for its lossless factual updates only (see [PROVIDER_SYNC.md](PROVIDER_SYNC.md)); and `daily-audit.yml`, for `last_verified_at` verification-date bumps on clean artists only, after its in-job validation (owner-approved 2026-07-28, replacing the former human-review PR flow). The price-snapshot workflows (`impact-marketplace-price-snapshots.yml`, `vividseats-price-snapshots.yml`) write only to D1, never to the repository. Auto-merge-capable workflows: `tm-new-shows-pr.yml`, `seatgeek-cta-sync.yml`, `vividseats-cta-sync.yml`, and — scheduled runs only — `impact-marketplace-provider-sync.yml`; each only after its in-run validation suite passes, and a failed merge leaves the PR open for a human. `indexnow-ping.yml` writes to neither the repository nor D1 — it only submits already-public sitemap URLs to an external endpoint, and asserts a clean working tree at the end. Every other workflow is report-only or opens a review-only PR that never auto-merges. Widening any of these capabilities is an owner decision, not a maintenance change.
+Direct-to-`main` capability exists in exactly three workflows, each narrowly gated: `nightly-data-sync.yml`, for its lossless factual updates only (see [PROVIDER_SYNC.md](PROVIDER_SYNC.md)); `daily-audit.yml`, for `last_verified_at` verification-date bumps on clean artists only, after its in-job validation (owner-approved 2026-07-28, replacing the former human-review PR flow); and `content-build.yml`, for the single generated file `public/data/blog-content.json`, recompiled from `content/blog/*.md` and committed only after `test:mvp`, `schema:validate`, the indexable-surface check and `git diff --check` pass in-job on exactly that output — it writes that file and nothing else, and a validation failure leaves `main` unchanged. The price-snapshot workflows (`impact-marketplace-price-snapshots.yml`, `vividseats-price-snapshots.yml`) write only to D1, never to the repository. Auto-merge-capable workflows: `tm-new-shows-pr.yml`, `seatgeek-cta-sync.yml`, `vividseats-cta-sync.yml`, and — scheduled runs only — `impact-marketplace-provider-sync.yml`; each only after its in-run validation suite passes, and a failed merge leaves the PR open for a human. `indexnow-ping.yml` writes to neither the repository nor D1 — it only submits already-public sitemap URLs to an external endpoint, and asserts a clean working tree at the end. Note the trigger asymmetry: a merged PR's push fires it, but a workflow's own `git push origin HEAD:main` does not, so the three direct-push lanes above produce no ping and rely on the next merge or a manual dispatch. Every other workflow is report-only or opens a review-only PR that never auto-merges. Widening any of these capabilities is an owner decision, not a maintenance change.
 
 ## Provider snapshot operations
 
 Scheduled snapshot workflows write approved exact-event observations to `provider_pricing_cache`; public traffic reads only D1.
 
-- Vivid Seats has a dedicated scheduled snapshot workflow. The SeatGeek snapshot workflow is dispatch-only and produces no usable rows: SeatGeek's API returns null pricing statistics for this client (permanent limitation — SeatGeek is a CTA-only provider; see `PROJECT_STATUS.md`).
+- Vivid Seats has a dedicated scheduled snapshot workflow. Both numeric lanes run every two hours (since 2026-07-30) with a six-hour freshness constant; the interval must stay strictly below that constant, since the display gate hides any row past `expires_at`. Each scheduled apply run ends with the 90-day history prune. The SeatGeek snapshot workflow is dispatch-only and produces no usable rows: SeatGeek's API returns null pricing statistics for this client (permanent limitation — SeatGeek is a CTA-only provider; see `PROJECT_STATUS.md`).
 - `impact-marketplace-price-snapshots.yml` schedules only providers whose feed has an approved numeric-price lane; providers without numeric price data remain manual and display-disabled.
 - `bootstrap-provider-pricing-schema.yml` is the manual idempotent schema bootstrap for the cache/history tables; its migration is tracked in `migrations/README.md`.
 - A run summary must make `eligible`, `fetched`, `usable`, `written`, `skipped`, `stale`, and `failed` outcomes explicit.

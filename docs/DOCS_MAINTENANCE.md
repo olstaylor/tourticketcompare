@@ -34,7 +34,7 @@ Provider sync audit output is generated under `reports/provider-sync/`. The scri
 
 `npm run docs:check` deliberately does not scan `reports/`, so frozen text cannot rot into validation failures; links **to** these files from canonical documents are still existence-checked.
 
-`public/index.html` also contains a generated inline data fallback. Regenerate it with `npm run events:sync` after any `public/data/*.json` change.
+Three more files are generated and must never be hand-edited: `public/index.html`'s inline data fallback (`npm run events:sync` after any `public/data/*.json` change), `public/data/blog-content.json` (`npm run blog:build` after any `content/blog/*.md` change), and `data/content-provenance.json` (`npm run content:provenance` after editing guide or trust-page copy). Each has a `--check` counterpart wired into `test:mvp`, so a stale commit fails CI rather than shipping.
 
 ## Lifecycle policy
 
@@ -65,7 +65,7 @@ The check fails when:
 
 When updating `PROJECT_STATUS.md`:
 
-1. Recount directly from `public/data/*.json`, `data/provider-identities.json`, and `functions/api/out.js`. `npm run status:validate` does this recount for the deterministic "Current data" figures and the per-artist table and reports any divergence; `npm run status:validate:write` rewrites those numbers in place. City/venue indexable counts are date-derived (`functions/_cities.js` gates on `ts < now`) and are not machine-enforced — refresh them by hand.
+1. Recount directly from `public/data/*.json`, `data/provider-identities.json`, and `functions/api/out.js`. `npm run status:validate` does this recount for the deterministic "Current data" figures and the per-artist table and reports any divergence; `npm run status:validate:write` rewrites those numbers in place. Two things it does **not** cover: the per-artist `last_verified_at` column (the daily audit moves it in `artists.json`, and `--write` does not copy it across), and the city/venue/artist-city route counts, which are date-derived (`functions/_route-indexability.js` gates on upcoming shows). Refresh the route counts from `npm run audit:indexable-surface` and the decay projection from `npm run roster:forecast` — never by hand.
 2. Confirm workflow schedules from `.github/workflows/`, not from older prose.
 3. Confirm runtime configuration through `/api/health` or the relevant fail-closed endpoint without exposing secret values.
 4. Move completed work to the short completed section in `BACKLOG.md`; keep implementation history in git.

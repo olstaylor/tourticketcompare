@@ -11,6 +11,8 @@ TourTicketCompare helps fans find checked ticket destinations, understand buying
 - Verified artist- and event-level ticket links where the required provider checks pass
 - Provider-attributed listed-price snapshots for approved, exact-matched events
 - Buying guides covering fees, resale risk, timing, and provider differences
+- City, venue, and artist-city pages aggregated from the same reviewed event records
+- A blog written in Markdown under `content/blog/` ([docs/BLOG.md](docs/BLOG.md))
 - Artist watchlist pages for major tours
 
 Ticketmaster is a plain, unmonetized event/link source. Approved affiliate lanes currently include SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International; availability varies by event and each lane fails closed when its URL, provenance, runtime configuration, or source checks do not pass. See [Provider Data Policy](docs/PROVIDER_DATA_POLICY.md) for the durable rules and [Project Status](PROJECT_STATUS.md) for the current rollout state.
@@ -25,6 +27,7 @@ Displayed prices are timestamped provider-supplied listed-price snapshots, not l
 - **Ticketmaster freshness:** a daily, PR-gated discovery job updates the persisted catalogue; visitor requests never fan out to Ticketmaster.
 - **Operational live lookup:** disabled by default. Set `TICKETMASTER_LIVE_ARTIST_DISCOVERY_ENABLED=true` only for controlled diagnostics, then request `liveArtist=true`; it is short-cached and serves the last verified result for up to 36 hours if Ticketmaster is rate-limited or unavailable.
 - **Deployment:** merges to GitHub `main` deploy through Cloudflare Pages Git integration
+- **Configuration:** non-secret flags live in `wrangler.toml` `[vars]` (repo-managed); only credentials live in the Cloudflare dashboard
 
 ## Quick start
 

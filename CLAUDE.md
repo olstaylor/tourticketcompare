@@ -70,11 +70,21 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
                           returns plain data only — no HTML, no secrets
   _blog.js                Shared blog derivation and indexability gates (posts, tags,
                           related posts) read by the router, sitemap, llms.txt and RSS
-  admin.js                Serves the /admin content editor shell with its own CSP
+  admin.js                Serves the /admin content editor shell with its own CSP — and only
+                          on the ADMIN_HOST origin (admin.tourticketcompare.com). The editor
+                          holds a GitHub token in localStorage, so it must never share an
+                          origin with the apex's analytics tags; _middleware.js 404s every
+                          editor path on any other host and the smoke suite asserts it
   blog/rss.xml.js         Blog RSS feed, gated identically to the sitemap
   _artist-indexability.js Shared indexability gate: an editorially-indexable artist page
                           is index,follow + in the sitemap only while it has ≥1 upcoming
                           show; empty boards self-heal to noindex (mirrors _cities/_venues)
+  _route-indexability.js  Single source of truth for the dynamic route-usefulness policy:
+                          the city/venue/artist-city thresholds, the shared "can this page
+                          lead anywhere" publishability test, and the exclusion reason codes.
+                          Read by _cities/_venues/_artist-cities, the router, sitemap,
+                          llms.txt, both audits and the roster forecast — change it and
+                          docs/ROUTE_INDEXABILITY_POLICY.md together
   _impact-marketplace-config.js  Shared config for the TicketNetwork / Ticket Liquidator /
                           StubHub International lanes
   _funnel.js              Shared, pure funnel classifiers (page type, device category,
@@ -96,7 +106,9 @@ functions/                Cloudflare Pages Functions (server-side routing + APIs
     signup.js             Email/interest demand capture to D1 (incl. intent=price_alert;
                           nothing is ever emailed — demand signal only)
     admin/                GitHub OAuth handshake for the /admin content editor
-                          (auth.js + callback.js). Fails closed with setup
+                          (auth.js + callback.js), served only on ADMIN_HOST. Exchanges
+                          the code for a public_repo-scoped *user* token server-side —
+                          the site holds no editor credential. Fails closed with setup
                           instructions when the OAuth app is not configured.
     price-history.js      Read-only per-event listed-price snapshot history; applies the
                           exact badge display-eligibility gate, per-provider only
@@ -140,6 +152,8 @@ docs/                     Stable reference policies and runbooks
 Request
   → _routes.json: routes /* through Functions (excludes /_assets/*, /favicon.ico)
   → _middleware.js
+      ├─ Host is ADMIN_HOST                      → editor paths only; everything else 301s
+      ├─ Editor path (/admin*, /api/admin/*)     → 404 on every host except ADMIN_HOST
       ├─ API path (/api/*, /data/*)              → context.next() → handler
       ├─ Known static file (app.js, styles.css)  → context.next() → asset
       ├─ Any file extension (.*)                 → context.next() → asset
@@ -156,7 +170,9 @@ Non-secret configuration (feature flags such as `SCHEMA_OFFERS_ENABLED`, and oth
 - `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN` — network-level Impact fallback (server-side only).
 - `IMPACT_SEATGEEK_*` / `IMPACT_VIVIDSEATS_*` — provider-specific Impact credentials for their approved lanes.
 - `IMPACT_TICKETNETWORK_*`, `IMPACT_TICKETLIQUIDATOR_*`, `IMPACT_STUBHUB_INTERNATIONAL_*` — optional provider-specific overrides; any approved fallback and campaign/catalog IDs are server-side configuration.
-- `OUT_CLICK_ID_SUBID_ENABLED` / `OUT_CLICK_ID_SUBID_PARAM` — repo-managed `[vars]`, **default off**. When enabled, `/api/out` appends its per-click id to the pxf.io tracking URL as an Impact SubId so clicks reconcile one-to-one with affiliate reporting. Off means affiliate URLs are unchanged. See `docs/COMMERCIAL_FUNNEL.md`.
+- `DEBUG_API_TOKEN` — Secret. Gates `/api/debug-seatgeek` **and every `/api/impact/*` diagnostic**; without it those routes 404. Automation reading catalogs through `IMPACT_CATALOG_PROXY_URL` must send it.
+- `GITHUB_OAUTH_CLIENT_ID` / `GITHUB_OAUTH_CLIENT_SECRET` — Secrets for the `/admin` editor's OAuth handshake. Not configured yet; sign-in returns a 503 naming what is missing until they and the `admin.tourticketcompare.com` custom domain exist (`docs/BLOG.md`).
+- `OUT_CLICK_ID_SUBID_ENABLED` / `OUT_CLICK_ID_SUBID_PARAM` — repo-managed `[vars]`, **not currently set, so off**. When enabled, `/api/out` appends its per-click id to the pxf.io tracking URL as an Impact SubId so clicks reconcile one-to-one with affiliate reporting. Off means affiliate URLs are unchanged. See `docs/COMMERCIAL_FUNNEL.md`.
 - Provider `*_PUBLIC_ENABLED` and `*_PRICE_DISPLAY_ENABLED` flags — independent kill switches. A flag never substitutes for provider rights, exact-event provenance, approved source, URL validation, or freshness.
 - Confirm current activation through `/api/health`, fail-closed redirect tests, workflow YAML, and `PROJECT_STATUS.md`; do not infer it from secret names in the repository.
 
@@ -181,8 +197,9 @@ Operational detail in `docs/DEPLOYMENT.md`; current run state in `PROJECT_STATUS
 - `impact-marketplace-price-snapshots.yml` — scheduled exact-ID D1 snapshots for approved numeric-price lanes, plus dispatch/bootstrap; non-numeric lanes remain manual/display-disabled.
 - `bootstrap-provider-pricing-schema.yml` (manual only) — idempotent cache/history schema bootstrap tracked by `migrations/README.md`.
 
-- `indexnow-ping.yml` (pushes to `main` that change indexable-route data/code, plus dispatch) — waits for the Cloudflare deploy, then submits the live sitemap URL list to IndexNow. Writes nothing to the repo or D1.
-- `prelaunch-validation.yml` (PRs) — validation suite incl. the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`.
+- `content-build.yml` (pushes to `main` touching `content/blog/**`, plus dispatch) — compiles the Markdown posts and **auto-commits the generated `public/data/blog-content.json` to `main`** after the full validation suite passes in-job on exactly that output. That one generated file and nothing else; it never touches event, artist, catalog, or provider data.
+- `indexnow-ping.yml` (pushes to `main` that change indexable-route data/code, plus dispatch) — waits for the Cloudflare deploy, then submits the live sitemap URL list to IndexNow. Writes nothing to the repo or D1. Note it fires on *merged PRs*, not on a workflow's direct `git push origin HEAD:main`, so the daily-audit verification-date bumps produce no ping.
+- `prelaunch-validation.yml` (PRs, plus dispatch with an optional `ref`) — validation suite incl. the `stale-sync-guard` that fails PRs whose `public/index.html` fallback is out of sync with `public/data/*.json`.
 - `tm-data-refresh-pr.yml` (dispatch) — manual PR-based refresh of existing events.
 
 ---

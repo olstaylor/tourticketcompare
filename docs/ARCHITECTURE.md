@@ -36,13 +36,32 @@ functions/
   _impact-marketplace-config.js  Shared marketplace provider configuration
   _cities.js                 City aggregation derived from events.json (shared with sitemap/llms.txt)
   _venues.js                 Venue aggregation derived from events.json (shared with sitemap)
+  _artist-cities.js          Artist-city aggregation for /artists/<artist>/tickets/<city>
+  _route-indexability.js     Shared route-usefulness thresholds, publishability test, reasons
+  _artist-indexability.js    Artist-page index/noindex gate (≥1 upcoming show)
+  _artist-content.js         Data-derived editorial content model for artist pages
+  _blog.js                   Blog derivation and indexability gates (posts, tags, related)
+  _funnel.js                 Pure funnel classifiers shared by analytics and /api/out
+  _analytics-write.js        Schema-tolerant analytics_events writer
+  _bot-detection.js          Shared self-identifying-crawler classifier
+  admin.js                   Content-editor shell, ADMIN_HOST origin only
   sitemap.xml.js / llms.txt.js  Generated discovery endpoints
+  blog/rss.xml.js            Blog RSS feed, gated like the sitemap
   [named route shims]        Fallback re-exports from [[path]].js
   api/
     out.js                   Fail-closed outbound redirect and provider policy
     shows.js                 Event API and cache-only price responses
     health.js                Runtime/config presence without secret values
-    impact/                  Server-side Impact helpers and diagnostics
+    analytics.js             First-party write-only analytics beacon
+    signup.js                Email/interest demand capture (nothing is ever emailed)
+    price-history.js         Read-only snapshot history behind the badge display gate
+    rates.js                 Cache-backed ECB reference rates for /currency-converter
+    admin/                   GitHub OAuth handshake for the editor (ADMIN_HOST only)
+    impact/                  Server-side Impact helpers and diagnostics — every route is
+                             DEBUG_API_TOKEN-gated and 404s without it
+
+content/
+  blog/                      Markdown + front matter; source of truth for the blog
 
 data/
   provider-identities.json   Human-verified provider identity registry
@@ -75,17 +94,17 @@ Unknown non-file routes return a real noindex 404. Known city and venue aggregat
 
 ## City aggregation layer
 
-City landing pages (`/cities` index + `/cities/<city-country>`) are a server-rendered aggregation derived purely from reviewed upcoming `events.json` records (`functions/_cities.js`, shared with the sitemap, `llms.txt`, and internal-link audit). Country aliases such as `United States Of America` normalize before grouping so one city does not split into duplicate canonical pages. A city is indexable only with at least four upcoming tracked shows across at least two artists; thinner known cities render `noindex`, and unknown slugs 404. City pages include a data-derived direct answer, artist/date/venue-specific coverage, editorial provenance, grouped schedules, buying guidance, and visible FAQs. They deep-link to the matching artist show card and indexable venue pages, and emit `Place`, `CollectionPage`, `ItemList`, breadcrumb, and FAQ structured data that mirrors visible content without duplicating event offers or inventing location facts. Current city counts live in `PROJECT_STATUS.md` and change with `events.json` and the calendar.
+City landing pages (`/cities` index + `/cities/<city-country>`) are a server-rendered aggregation derived purely from reviewed upcoming `events.json` records (`functions/_cities.js`, shared with the sitemap, `llms.txt`, and internal-link audit). Country aliases such as `United States Of America` normalize before grouping so one city does not split into duplicate canonical pages. A city is indexable only with at least four upcoming tracked shows across at least two artists **and at least one upcoming show carrying a publishable ticket destination** — a page that can list dates but lead nowhere does not serve the purpose its title promises. Thinner known cities render `noindex,follow` and stay linked; unknown slugs 404. The thresholds and the shared publishability test live in `functions/_route-indexability.js` (policy: [ROUTE_INDEXABILITY_POLICY.md](ROUTE_INDEXABILITY_POLICY.md)). City pages include a data-derived direct answer, artist/date/venue-specific coverage, editorial provenance, grouped schedules, buying guidance, and visible FAQs. They deep-link to the matching artist show card and indexable venue pages, and emit `Place`, `CollectionPage`, `ItemList`, breadcrumb, and FAQ structured data that mirrors visible content without duplicating event offers or inventing location facts. Current city counts live in `PROJECT_STATUS.md` and change with `events.json` and the calendar.
 
 ## Venue aggregation layer
 
-Venue landing pages (`/venues` index + `/venues/<slug>`) are a server-rendered aggregation derived purely from reviewed `events.json` records (`functions/_venues.js`, shared with the sitemap, `llms.txt`, and internal-link audit). Each qualifying page provides a direct answer, artist/date coverage, editorial provenance, event cards grouped by artist, buying guidance, and visible FAQs grounded in the same records. The artist pages remain the source of verified provider CTAs and price snapshots — the venue aggregation invents no data or provider state. The slug is `slugify("<venue> <city>")` so inconsistent country labels for one physical venue merge. Venues with ≥3 upcoming shows across ≥2 artists are indexable and in the sitemap; thinner known venues render `noindex`; unknown slugs 404. Current venue counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
+Venue landing pages (`/venues` index + `/venues/<slug>`) are a server-rendered aggregation derived purely from reviewed `events.json` records (`functions/_venues.js`, shared with the sitemap, `llms.txt`, and internal-link audit). Each qualifying page provides a direct answer, artist/date coverage, editorial provenance, event cards grouped by artist, buying guidance, and visible FAQs grounded in the same records. The artist pages remain the source of verified provider CTAs and price snapshots — the venue aggregation invents no data or provider state. The slug is `slugify("<venue> <city>")` so inconsistent country labels for one physical venue merge. Venues with ≥3 upcoming shows across ≥2 artists **and ≥1 upcoming show with a publishable ticket destination** are indexable and in the sitemap; thinner known venues render `noindex,follow` and stay linked; unknown slugs 404. Same shared module and policy as cities. Current venue counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
 
 ## Artist-city aggregation layer
 
 Artist-city landing pages (`/artists/<artist>/tickets/<city>`) target local intent (`[Artist] tickets [City]`) and are a server-rendered aggregation derived purely from one artist's reviewed upcoming `events.json` records (`functions/_artist-cities.js`, shared with the sitemap, `llms.txt`, and internal-link audit). The four-segment path never collides with the two-segment tour route or the `/artists/<artist>/tickets` redirect. The city slug is the same `slugify("<city> <normalized-country>")` as `/cities/<slug>`, so country aliases merge and a same-named city in two countries stays two distinct pages (the visible label carries the country to keep titles/descriptions unique). The page reuses the artist show board — so CTAs, gated price snapshots, `/api/out` tracking, and analytics are identical to the main artist page — plus a data-derived at-a-glance summary, a local buying guide, the pricing explanation, artist-city FAQs, and internal links back to the artist hub, the shared `/cities` and `/venues` pages where those qualify, and the artist's other active cities. It emits `Place`, `CollectionPage`, `ItemList`, breadcrumb, an inline performer, and publishable-gated `MusicEvent` structured data mirroring visible content, and never invents local facts, prices, or availability.
 
-**Indexing lifecycle.** A combination is indexable (200, self-canonical, in the sitemap) only when the artist is `indexable_with_substantial_content` **and** the city has at least one upcoming publishable show. A genuinely inactive combination — a city the artist has an event footprint in, but with no qualifying upcoming show now, or an under-review artist — selectively **301s to the artist hub** rather than leaving a misleading empty page. Any other slug (unknown artist, or a city the artist has never played) returns a real **404**, never a soft 404. Expired combinations therefore leave the index automatically as their dates pass. The router, sitemap, and internal-link audit all consume the one `functions/_artist-cities.js` derivation, so the indexable URL set cannot drift between them. Current counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
+**Indexing lifecycle.** A combination *renders* when the artist is `indexable_with_substantial_content` and the city has at least one upcoming publishable show; it is *indexable* (in the sitemap, `index,follow`) only with **at least two**. With a single date the page is the artist page filtered to one show card, so it renders 200 with a self-referencing canonical, keeps its inbound artist-page link, and is `noindex,follow`. A genuinely inactive combination — a city the artist has an event footprint in, but with no qualifying upcoming show now, or an under-review artist — selectively **301s to the artist hub** rather than leaving a misleading empty page. Any other slug (unknown artist, or a city the artist has never played) returns a real **404**, never a soft 404. Expired combinations therefore leave the index automatically as their dates pass. The router, sitemap, and internal-link audit all consume the one `functions/_artist-cities.js` derivation, so the indexable URL set cannot drift between them. Current counts live in `PROJECT_STATUS.md` and move with `events.json` and the calendar.
 
 ## Blog and content authoring layer
 
@@ -135,6 +154,8 @@ Public page requests never fan out to marketplace APIs. Approved writers put exa
 - an unexpired cache row for the same local event.
 
 Comparisons require at least two eligible snapshots for the same event and currency. They are listed-price observations, not availability or final checkout totals.
+
+Server rendering queries the cache for **exactly the cards a route renders** — the whole artist board, or an artist-city page's own city shows — with reads chunked at 50 ids, so coverage is per-card and cost stays O(cards/50) rather than O(cards). This distinction is load-bearing for honesty, not only coverage: a card whose lanes were queried and found ineligible states the unavailable case in provider-neutral wording, while a card whose lanes were **not** queried renders no note at all, because the server has established nothing about it. Never widen the note to unqueried cards.
 
 ## Bindings and secrets
 

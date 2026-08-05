@@ -224,7 +224,7 @@ Later migrations are applied one-off with `wrangler d1 execute` — see [migrati
 
 ## Adding a New Artist
 
-Batch onboarding (preferred): `npm run artists:onboard:propose` → review the identity manifest → shells → `npm run artists:promote:batch` (≤20 artists/PR, per-artist human browser spot-check checklist in the PR body). Single-artist path and phase gates: [docs/SAFE_NEXT_ARTIST_WORKFLOW.md](docs/SAFE_NEXT_ARTIST_WORKFLOW.md); field templates: [docs/ADDING_ARTISTS.md](docs/ADDING_ARTISTS.md). Every artist requires human browser verification before promotion — never auto-publish.
+Batch onboarding (preferred): `npm run artists:onboard:propose` → review the identity manifest → shells → `npm run artists:promote:batch` (≤20 artists/PR, per-artist human browser spot-check checklist in the PR body). Single-artist path, phase gates, and field templates: [.claude/skills/artist-onboarding/SKILL.md](.claude/skills/artist-onboarding/SKILL.md). Every artist requires human browser verification before promotion — never auto-publish.
 
 ---
 

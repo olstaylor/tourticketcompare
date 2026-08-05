@@ -290,7 +290,7 @@ function isTicketmasterHost(host) {
 // Ticketmaster itself supplied a public storefront artist page; nothing is
 // constructed or guessed. A "sourced" status is still evidence, not
 // verification: a human must open the URL in a browser before it is used
-// anywhere (docs/SAFE_NEXT_ARTIST_WORKFLOW.md gates 1 and 3).
+// anywhere (.claude/skills/artist-onboarding/SKILL.md gates 1 and 3).
 const ARTIST_PAGE_URL_SOURCE = "discovery_attraction_url";
 
 function classifyArtistPageUrl(rawUrl) {
@@ -717,7 +717,7 @@ function buildAffiliateActions(artistGroups) {
           "confirm it resolves to the correct artist, then hand-add the " +
           `\`VERIFIED_TICKET_LINKS["${result.slug}:ticketmaster"]\` entry in \`functions/api/out.js\` ` +
           "(protected file). A plain ticketmaster.com URL is acceptable there; no pre-minted " +
-          "Impact vanity link is required (see docs/SAFE_NEXT_ARTIST_WORKFLOW.md Phase 3)."
+          "Impact vanity link is required (see .claude/skills/artist-onboarding/SKILL.md Phase 3)."
       );
     } else {
       lines.push(

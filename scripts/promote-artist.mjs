@@ -2,7 +2,7 @@
 // Promote-phase scaffold: generates the exact edits for promoting a shell
 // artist to indexable_with_substantial_content with a verified Ticketmaster
 // CTA. It does NOT verify the URL is live — the human browser verification
-// required by docs/SAFE_NEXT_ARTIST_WORKFLOW.md (Phase 3 pre-condition) must
+// required by .claude/skills/artist-onboarding/SKILL.md (Phase 3 pre-condition) must
 // happen the same day, BEFORE running with --write.
 //
 // Usage:

@@ -1614,7 +1614,7 @@
     "ticketmaster_event_id": "0400631ADF313481",
     "ticketmaster_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-05-2026/event/0400631ADF313481",
     "seatgeek_url": "https://seatgeek.com/ariana-grande-tickets/chicago-illinois-united-center-2026-08-05-8-pm/concert/17700813",
-    "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-5-2026--concerts-pop/production/5973690",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-05-2026/event/0400631ADF313481",
     "last_verified_at": "2026-05-07",
@@ -1635,11 +1635,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 5973690,
-        "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-5-2026--concerts-pop/production/5973690",
-        "verified": true,
-        "last_verified_at": "2026-08-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1715,7 +1715,7 @@
         "event_id": 5995835,
         "url": "https://www.vividseats.com/ariana-grande-tickets-chicago-united-center-8-6-2026--concerts-pop/production/5995835",
         "verified": true,
-        "last_verified_at": "2026-08-03",
+        "last_verified_at": "2026-08-06",
         "availability_status": "listed"
       },
       "stubhub": {

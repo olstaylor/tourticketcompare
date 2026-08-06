@@ -18,7 +18,7 @@ permissions:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -202,7 +202,7 @@ jobs:
   # independently.
   #
   # `if: always()` and no dependency on the audit's *result* are deliberate. The
-  # audit job has been cancelled at its 25-minute cap on real days (see
+  # audit job has previously hit the former 25-minute cap on real days (see
   # docs/OPERATIONS.md -> Known incidents), and neither writer reads its artefacts —
   # both recount from the repository. Tying doc freshness to the flakiest job in
   # the workflow is exactly the coupling this is meant to remove. It is ordered

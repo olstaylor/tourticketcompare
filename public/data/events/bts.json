@@ -525,7 +525,7 @@
     "ticketmaster_event_id": "0100642CBD7AB56B",
     "ticketmaster_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-05-2026/event/0100642CBD7AB56B",
     "seatgeek_url": "https://seatgeek.com/bts-tickets/foxborough-massachusetts-gillette-stadium-2026-08-05-8-pm/concert/18010319",
-    "vividseats_url": "https://www.vividseats.com/bts---bangtan-boys-tickets-foxborough-gillette-stadium-8-5-2026--concerts-k-pop/production/6517100",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-05-2026/event/0100642CBD7AB56B",
     "last_verified_at": "2026-05-07",
@@ -546,11 +546,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6517100,
-        "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-foxborough-gillette-stadium-8-5-2026--concerts-k-pop/production/6517100",
-        "verified": true,
-        "last_verified_at": "2026-08-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -626,7 +626,7 @@
         "event_id": 6517102,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-foxborough-gillette-stadium-8-6-2026--concerts-k-pop/production/6517102",
         "verified": true,
-        "last_verified_at": "2026-08-03",
+        "last_verified_at": "2026-08-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -703,7 +703,7 @@
         "event_id": 6517083,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-chicago-soldier-field-8-27-2026--concerts-k-pop/production/6517083",
         "verified": true,
-        "last_verified_at": "2026-08-03",
+        "last_verified_at": "2026-08-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -780,7 +780,7 @@
         "event_id": 6517086,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-chicago-soldier-field-8-28-2026--concerts-k-pop/production/6517086",
         "verified": true,
-        "last_verified_at": "2026-08-03",
+        "last_verified_at": "2026-08-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -857,7 +857,7 @@
         "event_id": 6517116,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-1-2026--concerts-k-pop/production/6517116",
         "verified": true,
-        "last_verified_at": "2026-08-03",
+        "last_verified_at": "2026-08-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -934,7 +934,7 @@
         "event_id": 6517130,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-2-2026--concerts-k-pop/production/6517130",
         "verified": true,
-        "last_verified_at": "2026-08-03",
+        "last_verified_at": "2026-08-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1011,7 +1011,7 @@
         "event_id": 6517135,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-5-2026--concerts-k-pop/production/6517135",
         "verified": true,
-        "last_verified_at": "2026-08-03",
+        "last_verified_at": "2026-08-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1088,7 +1088,7 @@
         "event_id": 6517139,
         "url": "https://www.vividseats.com/bts---bangtan-boys-tickets-inglewood-sofi-stadium-9-6-2026--concerts-k-pop/production/6517139",
         "verified": true,
-        "last_verified_at": "2026-08-03",
+        "last_verified_at": "2026-08-06",
         "availability_status": "listed"
       },
       "stubhub": {

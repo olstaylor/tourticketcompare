@@ -574,18 +574,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107073220",
-        "url": "https://www.stubhub.ie/bts-foxborough-tickets-8-5-2026/event/107073220",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv177Z_eGkwWrl4l",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676861",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676861/BTS-tickets-Wed-Aug-5-2026-Gillette-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-foxborough-tickets-8-5-2026/event/107073220"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-foxborough-0100642cc24ebb04",

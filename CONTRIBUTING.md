@@ -131,11 +131,12 @@ npm run test:funnel-analytics                 # event validation, duplicate prev
                                               #   tracking, dimension classification, schema
                                               #   tolerance (in test:mvp)
 npm run report:commercial-funnel:self-test    # read-only report aggregation + SQL safety (in test:mvp)
+npm run report:affiliate-performance:self-test # Impact Actions x TTC click join, self-test only (in test:mvp)
 npm run report:funnel:self-test               # legacy provider/CTA-location report (in test:mvp)
 ```
 
 Touching `functions/api/analytics.js`, `functions/api/out.js`, `functions/_funnel.js`,
-`functions/_analytics-write.js`, or the client beacon in `public/app.js` means running all three.
+`functions/_analytics-write.js`, or the client beacon in `public/app.js` means running all four.
 Metric definitions and the authoritative-source rule live in [docs/COMMERCIAL_FUNNEL.md](docs/COMMERCIAL_FUNNEL.md).
 
 ### Smoke tests

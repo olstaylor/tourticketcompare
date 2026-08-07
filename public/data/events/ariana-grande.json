@@ -1740,18 +1740,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106946081",
-        "url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-6-2026/event/106946081",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv1A7ZkGPGkecEw3E",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7397549",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7397549/Ariana-Grande-tickets-Thu-Aug-6-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-chicago-tickets-8-6-2026/event/106946081"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c8ea13055",

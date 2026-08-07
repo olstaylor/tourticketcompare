@@ -601,7 +601,7 @@
     "status": "announced",
     "ticketmaster_event_id": "0100642CC24EBB04",
     "ticketmaster_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-06-2026/event/0100642CC24EBB04",
-    "seatgeek_url": "https://seatgeek.com/bts-tickets/foxborough-massachusetts-gillette-stadium-2026-08-06-8-pm/concert/18010318",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bts---bangtan-boys-tickets-foxborough-gillette-stadium-8-6-2026--concerts-k-pop/production/6517102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bts-world-tour-arirang-in-foxborough-foxborough-massachusetts-08-06-2026/event/0100642CC24EBB04",
@@ -616,11 +616,11 @@
         "discovery_event_id": "vv177Z_eGkSeKli7"
       },
       "seatgeek": {
-        "event_id": 18010318,
-        "url": "https://seatgeek.com/bts-tickets/foxborough-massachusetts-gillette-stadium-2026-08-06-8-pm/concert/18010318",
-        "verified": true,
-        "last_verified_at": "2026-08-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6517102,
@@ -696,7 +696,7 @@
         "event_id": 18010321,
         "url": "https://seatgeek.com/bts-tickets/chicago-illinois-soldier-field-2026-08-27-8-pm/concert/18010321",
         "verified": true,
-        "last_verified_at": "2026-08-04",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -773,7 +773,7 @@
         "event_id": 18010323,
         "url": "https://seatgeek.com/bts-tickets/chicago-illinois-soldier-field-2026-08-28-8-pm/concert/18010323",
         "verified": true,
-        "last_verified_at": "2026-08-04",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -850,7 +850,7 @@
         "event_id": 18010329,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-01-8-pm/concert/18010329",
         "verified": true,
-        "last_verified_at": "2026-08-04",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -927,7 +927,7 @@
         "event_id": 18010331,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-02-8-pm/concert/18010331",
         "verified": true,
-        "last_verified_at": "2026-08-04",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1004,7 +1004,7 @@
         "event_id": 18010333,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-05-8-pm/concert/18010333",
         "verified": true,
-        "last_verified_at": "2026-08-04",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1081,7 +1081,7 @@
         "event_id": 18010335,
         "url": "https://seatgeek.com/bts-tickets/inglewood-california-sofi-stadium-2026-09-06-8-pm/concert/18010335",
         "verified": true,
-        "last_verified_at": "2026-08-04",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1369,7 +1369,7 @@
         "event_id": 17975621,
         "url": "https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-15-8-pm/concert/17975621",
         "verified": true,
-        "last_verified_at": "2026-08-06",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1421,7 +1421,7 @@
         "event_id": 18009296,
         "url": "https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-16-8-pm/concert/18009296",
         "verified": true,
-        "last_verified_at": "2026-08-06",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1473,7 +1473,7 @@
         "event_id": 18010334,
         "url": "https://seatgeek.com/bts-tickets/toronto-canada-rogers-stadium-toronto-2026-08-22-8-pm/concert/18010334",
         "verified": true,
-        "last_verified_at": "2026-08-04",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1526,7 +1526,7 @@
         "event_id": 18010336,
         "url": "https://seatgeek.com/bts-tickets/toronto-canada-rogers-stadium-toronto-2026-08-23-8-pm/concert/18010336",
         "verified": true,
-        "last_verified_at": "2026-08-04",
+        "last_verified_at": "2026-08-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

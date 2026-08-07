@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tm-latto-2026-petersburg-vv1avzkfkgkej6frv",
+    "artist_slug": "latto",
+    "artist_name": "Latto",
+    "event_name": "VSU Homecoming Concert Suite 2026",
+    "city": "Petersburg",
+    "country": "United States Of America",
+    "venue": "VSU Multi-Purpose Center",
+    "datetime_iso": "2026-10-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006506A61D4BF4",
+    "ticketmaster_url": "https://www.ticketmaster.com/vsu-homecoming-concert-suite-2026-petersburg-virginia-10-07-2026/event/01006506A61D4BF4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vsu-homecoming-concert-suite-2026-petersburg-virginia-10-07-2026/event/01006506A61D4BF4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006506A61D4BF4",
+        "discovery_event_id": "vv1AvZkfkGkeJ6fRV",
+        "url": "https://www.ticketmaster.com/vsu-homecoming-concert-suite-2026-petersburg-virginia-10-07-2026/event/01006506A61D4BF4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfkGkeJ6fRV",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

@@ -25051,11 +25051,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107019494",
-        "url": "https://www.stubhub.ie/zach-bryan-salt-lake-city-tickets-8-7-2026/event/107019494",
-        "verified": true,
-        "last_verified_at": "2026-07-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbM2nlQMp",
@@ -25063,7 +25063,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583738",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583738/Zach-Bryan-tickets-Fri-Aug-7-2026-Rice-Eccles-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-salt-lake-city-tickets-8-7-2026/event/107019494"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-zach-bryan-2026-denver-g5vzzbm515_rn",

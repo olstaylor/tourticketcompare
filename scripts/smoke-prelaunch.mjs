@@ -3084,15 +3084,34 @@ const runBoard = await renderSyntheticArtistBoard([
 ]);
 assert(runBoard.html.includes("Night 1 of 2") && runBoard.html.includes("Night 2 of 2"), "multi-night runs should number each night");
 assert(runBoard.html.includes('class="show-run-chip"'), "the night number should render as a visible chip, not a muted aside");
-assert(
-  (runBoard.html.match(/this card is /g) || []).length === 2,
-  "each night in a run should restate its own full date so the cards cannot be confused"
-);
+// The run line must add only the night number — the full date is already
+// shown by the date badge and meta line above, so restating it here is
+// clutter (and previously read "... at this venue — this card is <date>").
+assert(!runBoard.html.includes("this card is "), "multi-night run text must not repeat the full date already shown in the card's meta line");
+const runParagraphs = runBoard.html.match(/<p class="show-card-run">[\s\S]*?<\/p>/g) || [];
+assert(runParagraphs.length === 2, "each night in a run should render exactly one run line");
+for (const runParagraph of runParagraphs) {
+  assert(
+    /^<p class="show-card-run"><span class="show-run-chip">Night \d+ of \d+<\/span> at this venue<\/p>$/.test(runParagraph),
+    `multi-night run text should contain only the night chip and venue context, not a restated date: ${runParagraph}`
+  );
+}
 assert(runBoard.html.includes("nights at Rogers Stadium"), "a single multi-night run should be called out in the lead");
 // Every card carries the facts that identify one date apart from another.
 assert((runBoard.html.match(/class="show-card-meta"/g) || []).length === 2, "each date card should carry a meta line");
 assert(/class="show-card-meta">[\s\S]*?Canada/.test(runBoard.html), "the card meta line should include the country");
 assert(/\d{1,2}:\d{2}\s?(AM|PM) local/.test(runBoard.html), "the card meta line should include the venue-local start time when the source has one");
+
+// The provider-button row's uppercase "Compare ticket options for this date"
+// label was pure clutter above buttons that are self-explanatory — it, and
+// the CSS that only styled it, must not come back on either rendering path.
+assert(manyBoard.cards > 0 && manyBoard.html.includes('class="provider-cta-group"'), "the many-show board should still render provider CTA buttons");
+assert(!manyBoard.html.includes("Compare ticket options for this date"), "server-rendered show cards must not render the removed provider CTA label");
+assert(!manyBoard.html.includes('class="provider-cta-label"'), "server-rendered show cards must not carry the removed provider-cta-label element");
+assert(!appJs.includes("Compare ticket options for this date"), "client-rendered show cards (public/app.js) must not render the removed provider CTA label");
+assert(!appJs.includes('"provider-cta-label"'), "client-rendered show cards (public/app.js) must not carry the removed provider-cta-label class");
+assert(!appJs.includes("this card is"), "client-rendered multi-night run text (public/app.js) must not repeat the full date already shown in the card's meta line");
+assert(!(await read("public/styles.css")).includes(".provider-cta-label"), "styles.css must not keep CSS that only styled the removed provider CTA label");
 
 // A date-only source record must not be given an invented midnight start time.
 // Checked in several zones because the midnight guard reads a locale-formatted
@@ -3225,6 +3244,37 @@ assert(
   manyBoard.html.includes("no separate human editorial review date"),
   "the provenance block should distinguish automated checks from human review"
 );
+// The event-record date range (derived from mixed-semantics event
+// last_verified_at values, which could produce a misleading or reversed
+// span) must never be folded into the artist page's "Data checked" line —
+// only the artist-level verification date renders.
+assert(!manyBoard.html.includes("event records"), "artist page provenance must not fold event last_verified_at into a date range");
+assert(!beyonceEmptyStatePage.text.includes("event records"), "empty-board artist page provenance must not fold event last_verified_at into a date range");
+{
+  const reversedRangeShows = [
+    syntheticShow({ id: "syn-freshness-1", city: "Miami", venue: "Kaseya Center", iso: futureIso(20) }),
+    syntheticShow({ id: "syn-freshness-2", city: "Miami", venue: "Kaseya Center", iso: futureIso(21) })
+  ];
+  reversedRangeShows[0].last_verified_at = "2026-08-01";
+  reversedRangeShows[1].last_verified_at = "2026-01-15";
+  const freshnessBoard = await renderSyntheticArtistBoard(reversedRangeShows);
+  assert(
+    !freshnessBoard.html.includes("Aug 1, 2026") && !freshnessBoard.html.includes("Jan 15, 2026"),
+    "per-event last_verified_at dates must never surface in the artist page's Data checked line, even out of chronological order"
+  );
+}
+// An artist with no artist-level verification date must not fall back to
+// generic "checks run daily" filler — the Data checked line is omitted
+// entirely rather than printing a sentence with nothing factual in it.
+{
+  const noVerifiedDatePage = await routeResponse("/artists/sabrina-carpenter");
+  assert(noVerifiedDatePage.response.status === 200, "an artist with no verified-link date should still render its page");
+  assert(noVerifiedDatePage.text.includes("data-artist-trust"), "the provenance section should render even without a Data checked date");
+  assert(
+    !noVerifiedDatePage.text.includes("<strong>Data checked:</strong>"),
+    "an artist with no verified-link date must not render a generic 'Data checked' filler line"
+  );
+}
 // Artist-level provider buttons land on the artist's page, not on one date, so
 // neither the provenance block nor the shared help may claim otherwise.
 assert(

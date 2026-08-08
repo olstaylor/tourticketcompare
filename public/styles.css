@@ -1330,16 +1330,6 @@ summary {
   color: var(--accent-dark);
 }
 
-/* Label above the provider button row, so the row reads as one action. */
-.provider-cta-label {
-  margin: 2px 0 -2px;
-  font-size: 0.78rem;
-  font-weight: 950;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
 /* Show-card meta line: full date · venue-local start time · country. The facts
    that separate one date on a tour from another. */
 .show-card-meta {

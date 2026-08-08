@@ -1129,7 +1129,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A704vb",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-niall-horan-2027-detroit-vvg1oz_1rv4ast",
@@ -2171,7 +2172,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A709uy",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer",

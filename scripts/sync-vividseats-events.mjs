@@ -57,6 +57,13 @@ import fs from "node:fs/promises";
 import { execFile } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  eventInstantMs,
+  eventLocalDateParts as eventLocalDate,
+  localDatePartsEqual as localDatesEqual,
+  localDateSkipReason,
+  resolveEventLocalDate
+} from "./lib/event-local-date.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -174,68 +181,12 @@ function parseProductionSlug(url) {
   return { locationBlob, localDate: { year, month, day } };
 }
 
-function localDatesEqual(a, b) {
-  if (!a || !b) return false;
-  return a.year === b.year && a.month === b.month && a.day === b.day;
-}
-
-// UTC-offset of an IANA zone at a given instant, in ms (copied from
-// verify-seatgeek-events.mjs).
-function tzOffsetMs(timeZone, date) {
-  const parts = new Intl.DateTimeFormat("en-US", {
-    timeZone,
-    hourCycle: "h23",
-    year: "numeric", month: "2-digit", day: "2-digit",
-    hour: "2-digit", minute: "2-digit", second: "2-digit"
-  }).formatToParts(date);
-  const lookup = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-  const asUtc = Date.UTC(lookup.year, lookup.month - 1, lookup.day, lookup.hour, lookup.minute, lookup.second);
-  return asUtc - date.getTime();
-}
-
-// Resolve an event's datetime_iso to a UTC instant (ms) or null when
-// ambiguous (copied from verify-seatgeek-events.mjs).
-function eventInstantMs(event) {
-  const raw = clean(event?.datetime_iso, 100);
-  if (!raw) return null;
-  if (!/T\d{2}:\d{2}/.test(raw)) return null;
-  const hasZone = /(?:Z|[+-]\d{2}:\d{2})$/i.test(raw);
-  if (hasZone) {
-    const parsed = new Date(raw);
-    return Number.isNaN(parsed.getTime()) ? null : parsed.getTime();
-  }
-  const timeZone = clean(event?.timezone, 80);
-  if (!timeZone || !timeZone.includes("/")) return null;
-  const naiveUtc = new Date(`${raw}Z`);
-  if (Number.isNaN(naiveUtc.getTime())) return null;
-  try {
-    let instant = naiveUtc.getTime() - tzOffsetMs(timeZone, naiveUtc);
-    instant = naiveUtc.getTime() - tzOffsetMs(timeZone, new Date(instant));
-    return instant;
-  } catch {
-    return null;
-  }
-}
-
-// The Vivid Seats slug carries a local calendar date, not an instant — this
-// resolves the event's own local date via its IANA timezone. No timezone (or
-// no resolvable instant) is always ambiguous and is skipped, never guessed.
-function eventLocalDate(event) {
-  const instant = eventInstantMs(event);
-  if (instant === null) return null;
-  const timeZone = clean(event?.timezone, 80);
-  if (!timeZone || !timeZone.includes("/")) return null;
-  try {
-    const parts = new Intl.DateTimeFormat("en-CA", {
-      timeZone,
-      year: "numeric", month: "2-digit", day: "2-digit"
-    }).formatToParts(new Date(instant));
-    const lookup = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-    return { year: Number.parseInt(lookup.year, 10), month: Number.parseInt(lookup.month, 10), day: Number.parseInt(lookup.day, 10) };
-  } catch {
-    return null;
-  }
-}
+// The Vivid Seats slug carries a local calendar date, not an instant. The
+// resolution rules (IANA timezone first, an explicit numeric offset's own date
+// prefix as a safe fallback, UTC-without-a-timezone left unresolved) now live
+// in scripts/lib/event-local-date.mjs, shared with the SeatGeek and Impact
+// marketplace matchers so all four agree on which night an event is.
+// `eventInstantMs`, `eventLocalDate` and `localDatesEqual` are imported above.
 
 const METRO_PAIRS = new Set([
   "new york|east rutherford", "east rutherford|new york",
@@ -441,14 +392,17 @@ function selectEvents(events, registryBySlug, artistNameBySlug, options, now = n
       skipped.push({ event, reason: "artist name contains an apostrophe — no SQL-escape guessing against the Impact Query parameter" });
       continue;
     }
-    const localDate = eventLocalDate(event);
-    if (localDate === null) {
-      skipped.push({ event, reason: "datetime_iso/timezone cannot resolve to an unambiguous local date — never guessed" });
-      continue;
-    }
+    // Past events are excluded before the local-date gate so a row that is both
+    // finished and time-ambiguous is reported as finished — the accurate reason,
+    // and not something a timezone backfill would fix.
     const instant = eventInstantMs(event);
     if (instant !== null && instant < now.getTime() - PAST_EVENT_GRACE_MS) {
       skipped.push({ event, reason: "event is in the past — nothing to maintain" });
+      continue;
+    }
+    const resolvedDate = resolveEventLocalDate(event);
+    if (resolvedDate.parts === null) {
+      skipped.push({ event, reason: `local date unresolved: ${localDateSkipReason(resolvedDate.reason)}` });
       continue;
     }
     selected.push(event);
@@ -724,6 +678,12 @@ function selfTest() {
   assert("naive datetime with IANA timezone resolves local date", localDate && localDate.year === 2026 && localDate.month === 7 && localDate.day === 6);
   const lateNight = eventLocalDate({ datetime_iso: "2026-07-07T02:30:00Z", timezone: "America/Los_Angeles" });
   assert("zoned datetime resolves the venue-local calendar date, not the UTC date", lateNight && lateNight.month === 7 && lateNight.day === 6);
+  // Shared resolver: an explicit numeric offset states the local wall time, so
+  // its date prefix is usable without an IANA timezone. A UTC instant with no
+  // timezone stays unresolved.
+  const offsetOnly = eventLocalDate({ datetime_iso: "2026-07-02T00:30:00+02:00" });
+  assert("numeric-offset datetime without a timezone resolves its stated local date", offsetOnly && offsetOnly.month === 7 && offsetOnly.day === 2);
+  assert("UTC datetime without a timezone stays ambiguous", eventLocalDate({ datetime_iso: "2026-07-07T02:30:00Z" }) === null);
 
   // City / venue slug matching
   assert("exact city contained in blob matches", cityMatchesSlug("Nashville", "nashville-bridgestone-arena-7-9-2026--floor"));
@@ -804,14 +764,18 @@ function selfTest() {
     { ...base, id: "s4", vividseats_url: "https://vividseats.com/x/production/3", provider_links: { "vivid-seats": { verified: true, url: "https://vividseats.com/x/production/3", last_verified_at: "2026-06-01" } } },
     { ...base, id: "s5", datetime_iso: "2026-09-01T20:00:00", timezone: "" },
     { id: "s6", artist_slug: "unknown-artist", datetime_iso: "2026-09-01T00:00:00Z" },
-    { artist_slug: "apostrophe-artist", id: "s7", datetime_iso: "2026-09-01T00:00:00Z" }
+    { artist_slug: "apostrophe-artist", id: "s7", datetime_iso: "2026-09-01T00:00:00Z" },
+    { ...base, id: "s8", datetime_iso: "2026-09-01T20:00:00+02:00", timezone: "" },
+    { ...base, id: "s9", datetime_iso: "2026-09-01T20:00:00Z", timezone: "" }
   ], registryBySlug, artistNameBySlug, selOptions, now);
   const selectedIds = selection.selected.map((event) => event.id);
   assert("event with no url selected for discovery", selectedIds.includes("s1"));
   assert("unverified stored URL selected for backfill", selectedIds.includes("s2"));
   assert("fresh provenance not re-checked", !selectedIds.includes("s3"));
   assert("stale provenance re-checked", selectedIds.includes("s4"));
-  assert("ambiguous datetime skipped with reason", selection.skipped.some((row) => row.event.id === "s5" && row.reason.includes("ambiguous")));
+  assert("ambiguous datetime skipped with reason", selection.skipped.some((row) => row.event.id === "s5" && row.reason.includes("local date unresolved")));
+  assert("numeric-offset event with no timezone is now selectable", selectedIds.includes("s8"));
+  assert("UTC event with no timezone stays skipped", !selectedIds.includes("s9") && selection.skipped.some((row) => row.event.id === "s9" && row.reason.includes("local date unresolved")));
   assert("unregistered artist skipped with reason", selection.skipped.some((row) => row.event.id === "s6"));
   assert("apostrophe artist name skipped with reason", selection.skipped.some((row) => row.event.id === "s7" && row.reason.includes("apostrophe")));
   assert("past event skipped, never touched", !selectedIds.includes("s0") && selection.skipped.some((row) => row.event.id === "s0" && row.reason.includes("past")));

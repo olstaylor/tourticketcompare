@@ -8131,7 +8131,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A706ep"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706ep",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
@@ -8183,7 +8184,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A70677"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70677",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
@@ -9942,7 +9944,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067F"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067F",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
@@ -9994,7 +9997,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067o"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067o",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
@@ -10816,7 +10820,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kk"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kk",
+    "timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf",
@@ -10868,7 +10873,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kF"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kF",
+    "timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw",
@@ -14575,7 +14581,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_K"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_K",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_f",
@@ -14627,7 +14634,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_f"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_f",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_4",
@@ -14679,7 +14687,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_4"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_4",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vg6pypf",
@@ -15037,7 +15046,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_x"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_x",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_n",
@@ -15089,7 +15099,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_N"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_N",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-london-1aegzbzgksgzoma",
@@ -16803,7 +16814,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7O9_A"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7O9_A",
+    "timezone": "America/Denver"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i",
@@ -16855,7 +16867,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ox8I"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ox8I",
+    "timezone": "America/Denver"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f",
@@ -19517,7 +19530,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_M",
     "status": "on-sale",
-    "verification_status": "human_verified"
+    "verification_status": "human_verified",
+    "timezone": "America/Phoenix"
   },
   {
     "id": "tm-ed-sheeran-2026-nashville-z7r9jz1a7js",
@@ -19569,7 +19583,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_S",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-ed-sheeran-2026-milwaukee-0700632fb5d7362c",
@@ -21078,7 +21093,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_w",
     "status": "on-sale",
-    "verification_status": "needs_recheck"
+    "verification_status": "needs_recheck",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331a7d91aff",
@@ -22596,7 +22612,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOuI",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-bts-2026-arlington-z7r9jz1a7oout",
@@ -22648,7 +22665,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOut",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkiiidcu",
@@ -22806,7 +22824,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Qoav",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-ariana-grande-2026-sunrise-z7r9jz1a7qoaz",
@@ -22858,7 +22877,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7QoaZ",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-ariana-grande-2026-sunrise-z7r9jz1a7j6op",
@@ -22910,7 +22930,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j6Op",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-bad-bunny-2026-marseille-z7r9jz1a7baxb",
@@ -23906,7 +23927,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OIxF",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-rosalia-2026-chicago-vv178zbugkmzvbum",
@@ -24011,7 +24033,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OZ43",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-rosalia-2026-inglewood-vv170zbugkd8gp9v",
@@ -24458,7 +24481,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZuo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-post-malone-2026-kansas-city-vv17bz_dgkhumcmx",
@@ -25269,7 +25293,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vU",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt",
@@ -25321,7 +25346,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vt",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Phoenix"
   },
   {
     "id": "tm-zach-bryan-2026-dover-z7r9jz1a7r4vz",
@@ -25373,7 +25399,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vz",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-zach-bryan-2026-dover-z7r9jz1a7r4vj",
@@ -25425,7 +25452,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vJ",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-zach-bryan-2026-toronto-1a8zkcegkegri4f",
@@ -25737,7 +25765,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4ev",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-jelly-roll-2026-colorado-springs-z7r9jz1a7xfou",
@@ -25789,7 +25818,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xFoU",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Denver"
   },
   {
     "id": "tm-tame-impala-2026-toronto-1a8zk8ygkeelgsk",
@@ -26462,7 +26492,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_M",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-tame-impala-2026-seattle-vvg1hz_d6os55n",
@@ -27130,7 +27161,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_z",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-tame-impala-2026-houston-z7r9jz1a7-a4m",
@@ -27182,7 +27214,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-a4M",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-jay-z-2026-london-17u8v0g6cxpcqan",
@@ -32357,7 +32390,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A704vb",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-niall-horan-2027-detroit-vvg1oz_1rv4ast",
@@ -33399,7 +33433,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A709uy",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer",
@@ -35373,7 +35408,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4g",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-doja-cat-2026-miami-vvg1vzbs0fdfw5",
@@ -36824,7 +36860,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Gw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-sombr-2026-glendale-z7r9jz1a7x8gy",
@@ -36876,7 +36913,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8GY",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Phoenix"
   },
   {
     "id": "tm-sombr-2026-oklahoma-city-z7r9jz1a7x8av",
@@ -36928,7 +36966,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Av",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-sombr-2026-houston-z7r9jz1a7x8ae",
@@ -36980,7 +37019,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Ae",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-sombr-2026-dallas-vvg1yz_fn5kifv",
@@ -37263,7 +37303,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8vw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-sombr-2026-orlando-1aefz_fgkn1mew3",
@@ -38220,7 +38261,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xav7",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-sombr-2026-buffalo-k7v17_f0kg7ij1e",
@@ -38787,7 +38829,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZo4o",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-john-summit-2026-champaign-z7r9jz1a70ijb",
@@ -38839,7 +38882,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IJb",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-john-summit-2026-montreal-17g8v0g652qqblc",
@@ -39257,7 +39301,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70t74",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-john-summit-2026-austin-g5diz_52qgtuz",

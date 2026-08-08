@@ -503,7 +503,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vU",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt",
@@ -555,7 +556,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vt",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Phoenix"
   },
   {
     "id": "tm-zach-bryan-2026-dover-z7r9jz1a7r4vz",
@@ -607,7 +609,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vz",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-zach-bryan-2026-dover-z7r9jz1a7r4vj",
@@ -659,7 +662,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vJ",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-zach-bryan-2026-toronto-1a8zkcegkegri4f",
@@ -971,6 +975,7 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4ev",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   }
 ]

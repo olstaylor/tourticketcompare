@@ -67,6 +67,9 @@ data/
   provider-identities.json   Human-verified provider identity registry
 
 scripts/                     Validation, sync, reporting, and automation tools
+  lib/event-local-date.mjs   Shared venue-local date/instant resolver (all provider matchers)
+  lib/event-link-coverage.mjs  Offline mirror of the runtime event-CTA publishability gate
+  lib/artist-filter.mjs      Shared exact `--artist` filter semantics
 .github/workflows/           Scheduled and manual automation
 reports/provider-sync/       Latest generated provider-sync audit output
 reports/status-history/      Dated frozen status narratives moved out of PROJECT_STATUS.md
@@ -138,7 +141,9 @@ All public ticket clicks route through `/api/out`.
 - Event-level destinations come from reviewed event data and provider-specific provenance.
 - Any missing or invalid condition suppresses the CTA or returns diagnostic JSON. There is no untracked affiliate fallback.
 
-Event CTAs publish independently per provider: the Ticketmaster link follows the row's verification status, while an affiliate provider link may still publish on a `needs_recheck` row when that provider link carries its own verified provenance. The shared rule is `providerEventPublishable`, implemented in parallel in `functions/api/out.js`, `functions/[[path]].js`, `public/app.js`, and `functions/api/shows.js`; the smoke suite guards SSR/API parity.
+Event CTAs publish independently per provider: the Ticketmaster link follows the row's verification status, while an affiliate provider link may still publish on a `needs_recheck` row when that provider link carries its own verified provenance. The shared rule is `providerEventPublishable`, implemented in parallel in `functions/api/out.js`, `functions/[[path]].js`, `public/app.js`, and `functions/api/shows.js`; the smoke suite guards SSR/API parity. `scripts/lib/event-link-coverage.mjs` is the offline mirror of that gate — read by the link-coverage report and the SeatGeek enrichment prioritiser so tooling counts exactly the buttons the site renders. It is a mirror, not a source: change it in the same commit as the runtime gate.
+
+A show card states how many checked ticket sites the date leads to in one compact line above its buttons (`ctaCountLabel` in `functions/[[path]].js`, `showCtaCountLabel` in `public/app.js`). "Compare" appears only at two or more — one provider is one site, not a comparison — and the line carries no price wording, which stays in the separate snapshot disclosures. The smoke suite asserts both renderers produce the same wording from the same count.
 
 Client and server CTA builders (`artistProviderHref`/`eventTicketHref` in `public/app.js` and `functions/[[path]].js`) emit `/api/out?...&provider=<slug>`, which `out.js` resolves and Impact-wraps server-side. The account Impact Publisher Tag (`public/impact-publisher-tag.js`, UTT `P-A3977745`) loads site-wide for **impression** tracking only (`impactStat("trackImpression")`); it does not transform links, so click attribution never depends on client-side rewriting or Impact dashboard auto-link configuration. Do not switch monetized CTAs to raw/direct destinations.
 

@@ -3254,11 +3254,25 @@ function serverShowCtaSpecs(show, { seatGeekAvailable = false, vividSeatsAvailab
   return specs;
 }
 
+// One compact line above a card's provider buttons, saying exactly how many
+// checked ticket sites this date leads to. It exists because the count is the
+// one thing the buttons alone do not state, and because "compare" is only true
+// of two or more: a single button is one site, not a comparison, and calling it
+// one was the site describing something it was not doing. It is deliberately
+// one short line and carries no price wording — missing prices are a separate
+// matter, handled by renderServerPriceNotes. Keep in sync with
+// showCtaCountLabel in public/app.js.
+function ctaCountLabel(count) {
+  if (count >= 2) return `Compare ${count} checked ticket sites for this date`;
+  if (count === 1) return "1 checked ticket site for this date";
+  return "";
+}
+
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
   const location = showLocationServer(show);
   const anchorId = showAnchorId(show);
-  let ctaHtml = `<p class="disclosure-note">No verified ticket link is available for this date. It stays listed so the date itself is still visible.</p>`;
+  let ctaHtml = `<p class="disclosure-note">No checked ticket link is available for this date yet. It stays listed so the date itself is still visible.</p>`;
 
   if (!isIndexableArtist) {
     ctaHtml = `<p class="disclosure-note">Ticket links for this artist are still being reviewed. Buy buttons appear once the destination has been checked.</p>`;
@@ -3274,7 +3288,8 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
         .join("");
       // The buttons are the only outbound links on the card — there is no
       // second "compare" link to double-count a click through.
-      ctaHtml = `<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`;
+      const countHtml = `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length))}</p>`;
+      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`;
     }
   }
 

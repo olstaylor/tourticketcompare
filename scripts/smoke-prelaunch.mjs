@@ -1179,6 +1179,25 @@ const tmIndexInGroup = controlledCardCtaGroup.indexOf("provider-cta-name\">Ticke
 assert(sgIndexInGroup !== -1 && tmIndexInGroup !== -1 && sgIndexInGroup < tmIndexInGroup, "SeatGeek CTA must render before the Ticketmaster CTA on paired cards");
 const firstCtaInGroup = controlledCardCtaGroup.slice(controlledCardCtaGroup.indexOf("provider-cta-name\">"));
 assert(firstCtaInGroup.startsWith("provider-cta-name\">SeatGeek<"), "SeatGeek CTA must be the first button on paired cards");
+// The count line above the buttons must state what the card actually offers.
+// "Compare" is only true of two or more sites; a one-provider card must never
+// use comparison wording, because one site is not a comparison.
+const controlledCardCountLines = serverMorganWithSeatGeek.text.match(/<p class="provider-cta-count muted">([^<]*)<\/p>/g) || [];
+assert(controlledCardCountLines.length > 0, "server-rendered show cards with CTAs should carry a checked-ticket-site count line");
+for (const line of controlledCardCountLines) {
+  assert(
+    /^<p class="provider-cta-count muted">(1 checked ticket site for this date|Compare [2-9]\d* checked ticket sites for this date)<\/p>$/.test(line),
+    `show-card CTA count line should read as one site or a comparison of N: ${line}`
+  );
+}
+const controlledCardChunk = serverMorganWithSeatGeek.text
+  .split('<article class="info-card show-card')
+  .find((chunk) => chunk.includes(RENDERED_SG_EVENT_OUT_HREF));
+const controlledCardButtonCount = (controlledCardChunk.match(/provider-cta-name">/g) || []).length;
+assert(
+  controlledCardButtonCount >= 2 && controlledCardChunk.includes(`Compare ${controlledCardButtonCount} checked ticket sites for this date`),
+  `a card rendering ${controlledCardButtonCount} provider buttons should say it compares exactly that many checked ticket sites`
+);
 const invalidSeatGeekEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
   ? { ...event, seatgeek_url: "https://example.com/not-a-valid-seatgeek-event" }
   : event));
@@ -1276,7 +1295,7 @@ assert(boardPriceFetch[0].includes('priceProviders: "approved-marketplaces"'), "
 const boardPriceHydration = appJs.match(/async function hydrateShowBoardPriceSnapshots\(shows, cardOptions\) \{[\s\S]*?\n\}/);
 assert(boardPriceHydration && !boardPriceHydration[0].includes(".slice(0, 6)"), "board price hydration must not cap approved snapshots to the first six cards");
 assert(!appJs.match(/lowest\s+overall\s+price|cheapest/i), "hydration must not label SeatGeek snapshots as lowest overall or cheapest");
-assert(appJs.includes("No verified ticket link is available for this date."), "event cards should have a safe unavailable state");
+assert(appJs.includes("No checked ticket link is available for this date yet."), "event cards should have a safe unavailable state that says no link has been checked yet");
 assert(!appJs.includes("renderProviderButtons(artist, \"artist_hero\")"), "artist pages should not render a separate generic provider panel");
 assert(appJs.includes('text(relatedGuides, "h2", "Related guides")'), "artist hydration should preserve the server-rendered related-guide cluster");
 assert(appJs.includes('link("Compare concert ticket prices", "/compare-concert-ticket-prices", "mini-link")'), "artist hydration should preserve a descriptive internal link to the comparison hub");
@@ -3105,8 +3124,53 @@ assert(/\d{1,2}:\d{2}\s?(AM|PM) local/.test(runBoard.html), "the card meta line 
 // The provider-button row's uppercase "Compare ticket options for this date"
 // label was pure clutter above buttons that are self-explanatory — it, and
 // the CSS that only styled it, must not come back on either rendering path.
+// What replaced it is a single line stating the COUNT, which is the one thing
+// the buttons do not say; the count is what makes "compare" honest or not.
 assert(manyBoard.cards > 0 && manyBoard.html.includes('class="provider-cta-group"'), "the many-show board should still render provider CTA buttons");
 assert(!manyBoard.html.includes("Compare ticket options for this date"), "server-rendered show cards must not render the removed provider CTA label");
+// This board is rendered without affiliate credentials, so each card has only
+// the plain Ticketmaster link: exactly the one-provider case that must never
+// claim to be a comparison.
+const manyBoardCountLines = manyBoard.html.match(/<p class="provider-cta-count muted">([^<]*)<\/p>/g) || [];
+assert(
+  manyBoardCountLines.length === manyBoard.cards,
+  "every server-rendered card with a CTA should carry exactly one checked-ticket-site count line"
+);
+assert(
+  manyBoardCountLines.every((line) => line.includes("1 checked ticket site for this date")),
+  "a card offering a single provider must say '1 checked ticket site for this date'"
+);
+assert(
+  !manyBoard.html.includes("Compare 1 checked ticket site"),
+  "a one-provider card must never use comparison wording"
+);
+assert(
+  !/Compare 1 checked/.test(appJs),
+  "client-rendered cards (public/app.js) must never use comparison wording for a single provider"
+);
+// Both renderers must produce the same three strings from the same count.
+assert(
+  appJs.includes("1 checked ticket site for this date") && appJs.includes("checked ticket sites for this date"),
+  "client-rendered cards should carry the same checked-ticket-site count wording as the server"
+);
+assert(
+  pathSource.includes("1 checked ticket site for this date") && pathSource.includes("checked ticket sites for this date"),
+  "server-rendered cards should carry the checked-ticket-site count wording"
+);
+assert(
+  appJs.includes('"provider-cta-count muted"') && pathSource.includes('"provider-cta-count muted"'),
+  "both rendering paths should mark the count line with the same class, so SSR and hydration match"
+);
+assert(
+  (await read("public/styles.css")).includes(".show-card .provider-cta-count"),
+  "the checked-ticket-site count line should be styled"
+);
+// The count line is about links, not prices: price availability has its own
+// copy in .provider-cta-notes and must not be folded into this one.
+assert(
+  !/checked ticket site[s]? for this date[^<]*price/i.test(manyBoard.html),
+  "the CTA count line must not carry price wording"
+);
 assert(!manyBoard.html.includes('class="provider-cta-label"'), "server-rendered show cards must not carry the removed provider-cta-label element");
 assert(!appJs.includes("Compare ticket options for this date"), "client-rendered show cards (public/app.js) must not render the removed provider CTA label");
 assert(!appJs.includes('"provider-cta-label"'), "client-rendered show cards (public/app.js) must not carry the removed provider-cta-label class");
@@ -3155,7 +3219,7 @@ const weakBoard = await renderSyntheticArtistBoard([
 assert(weakBoard.html.includes("1 of the 3 have a checked ticket link"), "partial provider coverage must be stated in the lead");
 assert(weakBoard.html.includes("1 of 3 dates"), "the fact strip should quantify partial link coverage");
 assert(
-  (weakBoard.html.match(/No verified ticket link is available for this date/g) || []).length === 2,
+  (weakBoard.html.match(/No checked ticket link is available for this date yet/g) || []).length === 2,
   "dates without a checked link must render the safe no-link state"
 );
 assert(

@@ -564,7 +564,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Gw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-sombr-2026-glendale-z7r9jz1a7x8gy",
@@ -616,7 +617,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8GY",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Phoenix"
   },
   {
     "id": "tm-sombr-2026-oklahoma-city-z7r9jz1a7x8av",
@@ -668,7 +670,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Av",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-sombr-2026-houston-z7r9jz1a7x8ae",
@@ -720,7 +723,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Ae",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-sombr-2026-dallas-vvg1yz_fn5kifv",
@@ -1003,7 +1007,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8vw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-sombr-2026-orlando-1aefz_fgkn1mew3",
@@ -1960,7 +1965,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xav7",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-sombr-2026-buffalo-k7v17_f0kg7ij1e",

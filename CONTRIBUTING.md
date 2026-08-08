@@ -120,12 +120,30 @@ npm run test:providers   # provider-structure, artist-provider-claims, CTA-provi
 ### Tooling self-tests (before changing the matching/snapshot scripts)
 
 ```bash
+npm run test:event-local-date                 # shared venue-local date/instant resolver used by
+                                              #   every provider matcher (in test:mvp)
 npm run seatgeek:self-test                    # SeatGeek discovery scoring/safety
-npm run seatgeek:verify:self-test             # SeatGeek verification invariants
-npm run vividseats:sync:self-test             # Vivid Seats CTA sync
+npm run seatgeek:enrich:self-test             # SeatGeek enrichment scheduling + matching (in test:mvp)
+npm run seatgeek:verify:self-test             # SeatGeek verification invariants (in test:mvp)
+npm run vividseats:sync:self-test             # Vivid Seats CTA sync (in test:mvp)
 npm run impact-providers:sync:self-test       # shared Impact catalog matcher
 npm run impact-providers:prices:self-test     # exact-ID snapshot writer
 npm run prices:history:prune:self-test        # history retention statement shape
+npm run events:backfill-timezones:self-test   # Discovery timezone backfill decisions (in test:mvp)
+```
+
+### Exact-event link coverage (before changing CTA gates or provider matchers)
+
+```bash
+npm run report:link-coverage                  # 0/1/2/3+ publishable CTAs per upcoming event,
+                                              #   low-coverage events grouped by artist/country/cause
+npm run report:link-coverage:json             # same, machine-readable
+npm run report:link-coverage:check            # fails on any zero-link upcoming event (in test:mvp);
+                                              #   one-link events are a reported warning, not a failure
+npm run events:recheck-review                 # owner worklist: upcoming needs_recheck rows, their
+                                              #   stored Ticketmaster destination, and which providers
+                                              #   publish independently. Read-only — restoring a
+                                              #   Ticketmaster CTA stays a human decision.
 ```
 
 ### Analytics / commercial funnel (before changing measurement code)

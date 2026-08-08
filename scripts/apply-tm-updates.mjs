@@ -283,6 +283,23 @@ async function fetchEvent(apiKey, base, eventId) {
 // its remote Ticketmaster record. This function is intentionally side-effect
 // free: callers must first prove there are no review-only blockers, then apply
 // the returned changes.
+// The exact IANA venue timezone this Discovery record states, or ''. Discovery
+// carries it in one of three places depending on the market and the endpoint —
+// `dates.timezone`, `dates.start.timeZone`, or the venue record's own
+// `timezone` — and reading only the first left rows whose stored instant has no
+// recoverable venue-local date, which every provider event matcher keys on. The
+// venue field is read only when exactly one venue is embedded, so the zone
+// always belongs to this event's own venue. Nothing is inferred from the city.
+function discoveryVenueTimezone(data) {
+  const venues = data?._embedded?.venues;
+  const venueZone = Array.isArray(venues) && venues.length === 1 ? venues[0]?.timezone : '';
+  for (const candidate of [data?.dates?.timezone, data?.dates?.start?.timeZone, venueZone]) {
+    const value = clean(candidate);
+    if (value.includes('/')) return value;
+  }
+  return '';
+}
+
 function computeIntendedUpdates(event, remote) {
   const changes = [];
   const data = remote?.data;
@@ -300,8 +317,8 @@ function computeIntendedUpdates(event, remote) {
 
   // Only fill a missing timezone; never rewrite a present one (avoids churn
   // when the API reports an equivalent zone for the same location).
-  const remoteTz = clean(data?.dates?.timezone);
-  if (remoteTz && remoteTz.includes('/') && !clean(event.timezone)) {
+  const remoteTz = discoveryVenueTimezone(data);
+  if (remoteTz && !clean(event.timezone)) {
     changes.push({ field: 'timezone', from: clean(event.timezone), to: remoteTz });
   }
 
@@ -542,6 +559,17 @@ function runSelfTest() {
     !fieldsOf(ev({ timezone: 'America/New_York' }), remote({ dates: { start: {}, timezone: 'America/Toronto' } })).includes('timezone'));
   assert('missing timezone is filled',
     fieldsOf(ev({ timezone: '' }), remote({ dates: { start: {}, timezone: 'America/New_York' } })).includes('timezone'));
+  assert('missing timezone is filled from the single embedded venue record',
+    fieldsOf(
+      ev({ timezone: '' }),
+      remote({ _embedded: { venues: [{ name: '', city: { name: '' }, country: { name: '' }, timezone: 'America/New_York' }] } })
+    ).includes('timezone'));
+  assert('a venue timezone is ignored when more than one venue is embedded',
+    discoveryVenueTimezone({ dates: {}, _embedded: { venues: [{ timezone: 'America/New_York' }, { timezone: 'America/Chicago' }] } }) === '');
+  assert('a non-IANA timezone value is never stored',
+    discoveryVenueTimezone({ dates: { timezone: 'EST' } }) === '');
+  assert('no timezone anywhere yields no change, never a guess',
+    !fieldsOf(ev({ timezone: '' }), remote({ dates: { start: {} } })).includes('timezone'));
 
   let failed = 0;
   for (const c of checks) {

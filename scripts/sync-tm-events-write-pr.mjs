@@ -128,9 +128,32 @@ function buildEventId(slug, datetimeIso, city, discoveryId) {
 // Ticketmaster Discovery API listing title, carried verbatim (a provider-sourced
 // fact, same trust level as date/venue). tour_name is always blank — never
 // inferred from a URL slug or a listing title (#172); a human supplies it.
+// The IANA venue timezone the recogniser read off the exact Discovery record.
+// Anything that is not in Area/Location form is not a zone we can resolve a
+// venue-local date with, so it is treated as absent rather than stored.
+function ianaTimezone(value) {
+  const zone = clean(value);
+  return zone.includes("/") ? zone : "";
+}
+
+// Post-condition for the CSV row: a timezone the provider supplied must arrive
+// in events.json unchanged. Without a venue timezone, an event's stored instant
+// cannot be resolved back to the calendar date every provider matcher keys on,
+// so a row that quietly loses one becomes permanently unmatchable — and nothing
+// downstream would have reported it. This makes that a hard failure instead.
+function assertTimezonePreserved(reportRow, csvRow) {
+  const supplied = ianaTimezone(reportRow?.timezone);
+  if (supplied && clean(csvRow?.timezone) !== supplied) {
+    throw new Error(
+      `Discovery supplied timezone '${supplied}' for ${clean(reportRow?.ticketmaster_discovery_event_id) || "(no id)"} but the candidate row carries '${clean(csvRow?.timezone) || "(empty)"}' — refusing to write an event whose venue timezone was dropped.`
+    );
+  }
+  return csvRow;
+}
+
 function buildCsvRow(reportRow, slug, artistName) {
   const discoveryId = clean(reportRow.ticketmaster_discovery_event_id);
-  return {
+  return assertTimezonePreserved(reportRow, {
     id: buildEventId(slug, reportRow.datetime_iso, reportRow.city, discoveryId),
     artist_slug: slug,
     artist_name: clean(artistName),
@@ -149,7 +172,7 @@ function buildCsvRow(reportRow, slug, artistName) {
     seatgeek_url: "",
     vividseats_event_id: "",
     vividseats_url: "",
-  };
+  });
 }
 
 // Splits a recogniser report into the per-artist proposed/withheld rows plus
@@ -388,6 +411,20 @@ function selfTest() {
   assert("buildCsvRow never infers tour_name", csvRow.tour_name === "");
   assert("buildCsvRow carries the resolved storefront url", csvRow.ticketmaster_url === longRow.ticketmaster_url);
   assert("buildCsvRow blanks marketplace columns", csvRow.seatgeek_url === "" && csvRow.vividseats_url === "");
+  assert("buildCsvRow carries the Discovery venue timezone verbatim", csvRow.timezone === longRow.timezone);
+  assert("a row with no Discovery timezone is still written (blank, never invented)", buildCsvRow({ ...longRow, timezone: "" }, "raye", "RAYE").timezone === "");
+  assert("a non-IANA timezone value imposes no preservation contract", buildCsvRow({ ...longRow, timezone: "BST" }, "raye", "RAYE").timezone === "BST");
+  assert(
+    "dropping a supplied venue timezone is a hard failure, not a silent write",
+    (() => {
+      try {
+        assertTimezonePreserved({ ticketmaster_discovery_event_id: "vv1ABC", timezone: "Europe/London" }, { timezone: "" });
+        return false;
+      } catch (error) {
+        return /venue timezone was dropped/.test(String(error?.message));
+      }
+    })()
+  );
 
   const toCsvOut = toCsv([csvRow]);
   assert("toCsv emits a header line + one data line", toCsvOut.trim().split("\n").length === 2);

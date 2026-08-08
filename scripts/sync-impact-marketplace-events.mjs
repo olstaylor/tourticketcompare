@@ -17,6 +17,12 @@ import {
   productCandidates,
   providerConfig
 } from "./lib/impact-marketplace-providers.mjs";
+// Shared venue-local date/instant resolution — the same rules the SeatGeek and
+// Vivid Seats matchers use, so a given event resolves to one night everywhere.
+import {
+  eventInstantMs as eventInstant,
+  eventLocalDateParts as eventLocalDate
+} from "./lib/event-local-date.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const EVENTS_PATH = path.join(ROOT, "public", "data", "events.json");
@@ -111,40 +117,6 @@ function cityMatches(text, city) {
 
 function venueMatches(text, venue) {
   return containsNormalized(text, venue) || diceSimilarity(text, venue) >= 0.35;
-}
-
-function eventInstant(event) {
-  const raw = clean(event?.datetime_iso || event?.dateTimeISO, 100);
-  if (!raw || !/T\d{2}:\d{2}/.test(raw)) return null;
-  if (/(?:Z|[+-]\d{2}:\d{2})$/i.test(raw)) {
-    const parsed = Date.parse(raw);
-    return Number.isFinite(parsed) ? parsed : null;
-  }
-  const zone = clean(event?.timezone, 80);
-  if (!zone.includes("/")) return null;
-  const naive = new Date(`${raw}Z`);
-  if (!Number.isFinite(naive.getTime())) return null;
-  try {
-    const parts = new Intl.DateTimeFormat("en-CA", {
-      timeZone: zone, hourCycle: "h23", year: "numeric", month: "2-digit", day: "2-digit",
-      hour: "2-digit", minute: "2-digit", second: "2-digit"
-    }).formatToParts(naive);
-    const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-    const offset = Date.UTC(values.year, values.month - 1, values.day, values.hour, values.minute, values.second) - naive.getTime();
-    return naive.getTime() - offset;
-  } catch { return null; }
-}
-
-function eventLocalDate(event) {
-  const instant = eventInstant(event);
-  const zone = clean(event?.timezone, 80);
-  if (instant == null || !zone.includes("/")) return null;
-  try {
-    const parts = new Intl.DateTimeFormat("en-GB", { timeZone: zone, year: "numeric", month: "2-digit", day: "2-digit" })
-      .formatToParts(new Date(instant));
-    const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-    return { year: Number(values.year), month: Number(values.month), day: Number(values.day) };
-  } catch { return null; }
 }
 
 function dateMatches(text, date) {
@@ -432,6 +404,16 @@ async function selfTest() {
   assert.equal(dateMatches("2027-07-09T20:00:00+01:00", { year: 2027, month: 7, day: 9 }), true);
   assert.equal(evaluateCandidate(event, "RAYE", candidate).ok, true);
   assert.equal(evaluateCandidate({ ...event, city: "Manchester" }, "RAYE", candidate).ok, false);
+  // Shared local-date resolver: a row carrying an explicit numeric offset but
+  // no IANA timezone states its own local date, so the date gate can pass. A
+  // UTC instant with no timezone stays unresolved and the gate stays closed.
+  assert.deepEqual(eventLocalDate({ datetime_iso: "2027-07-09T19:00:00+01:00" }), { year: 2027, month: 7, day: 9 });
+  assert.equal(evaluateCandidate({ ...event, datetime_iso: "2027-07-09T19:00:00+01:00", timezone: "" }, "RAYE", candidate).ok, true);
+  assert.equal(eventLocalDate({ datetime_iso: "2027-07-09T19:00:00Z" }), null);
+  assert.equal(
+    evaluateCandidate({ ...event, datetime_iso: "2027-07-09T19:00:00Z", timezone: "" }, "RAYE", candidate).reasons.includes("venue-local date mismatch"),
+    true
+  );
   const enrichedTl = enrichTicketLiquidatorCandidates(
     [{ externalId: "same-1", normalizedUrl: "https://ticketliquidator.com/tickets/same-1/raye-o2", searchableText: "RAYE O2 Arena 2027-07-09" }],
     [{ externalId: "same-1", normalizedUrl: "https://ticketnetwork.com/tickets/same-1", searchableText: "RAYE O2 Arena London 2027-07-09" }]
@@ -450,7 +432,7 @@ async function selfTest() {
   });
   assert.equal(dry.added, 1);
   assert.equal(dry.changed, 0);
-  return 39;
+  return 44;
 }
 
 async function main() {

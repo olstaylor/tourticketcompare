@@ -2413,7 +2413,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Qoav",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-ariana-grande-2026-sunrise-z7r9jz1a7qoaz",
@@ -2465,7 +2466,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7QoaZ",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-ariana-grande-2026-sunrise-z7r9jz1a7j6op",
@@ -2517,6 +2519,7 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j6Op",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/New_York"
   }
 ]

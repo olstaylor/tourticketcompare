@@ -121,6 +121,9 @@
 .ttc-btn { display: inline-flex; align-items: center; gap: 7px; font-weight: 700; font-size: 14px; border-radius: 9px; padding: 8px 14px; transition: .14s; white-space: nowrap; }
 .ttc-btn--ghost { color: var(--ttc-ink); border: 1px solid var(--ttc-border-strong); background: var(--ttc-surface); }
 .ttc-btn--ghost:hover { border-color: var(--ttc-muted); }
+/* Primary action ("Find a show"): the hero's one committed next step. */
+.ttc-btn--primary { background: var(--ttc-accent); color: #fff; font-size: 15px; padding: 11px 20px; }
+.ttc-btn--primary:hover { background: var(--ttc-accent-hover); }
 .ttc-hamb { display: none; align-items: center; justify-content: center; min-height: 44px; padding: 0 14px; border: 1px solid var(--ttc-border-strong); border-radius: 9px; background: var(--ttc-surface); color: var(--ttc-ink); font-weight: 700; font-size: 14px; }
 .ttc-hamb:hover { border-color: var(--ttc-muted); }
 .ttc-hd__search:empty { display: none; }
@@ -181,10 +184,7 @@
 .ttc-hero__chips .lab { font-family: var(--ttc-font-mono); font-size: 11px; color: var(--ttc-faint); text-transform: uppercase; letter-spacing: .1em; }
 .ttc-chip { font-size: 13px; font-weight: 600; color: var(--ttc-ink); border: 1px solid var(--ttc-border-strong); background: var(--ttc-surface); padding: 5px 11px; border-radius: 99px; transition: .12s; white-space: nowrap; }
 .ttc-chip:hover { border-color: var(--ttc-brand); color: var(--ttc-brand); }
-.ttc-hero__trust { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 22px; }
-.ttc-hero__trust > div { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ttc-muted); font-weight: 500; white-space: nowrap; }
-.ttc-hero__trust b { color: var(--ttc-ink); font-weight: 700; }
-.ttc-hero__trust svg { width: 15px; height: 15px; color: var(--ttc-good); }
+.ttc-hero__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
 
 /* tracked dates feed */
 .ttc-feed { background: var(--ttc-surface); border: 1px solid var(--ttc-border); border-radius: var(--ttc-radius); box-shadow: var(--ttc-shadow); overflow: hidden; }
@@ -199,8 +199,6 @@
 .ttc-evrow__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
 .ttc-evrow__a { font-weight: 700; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .ttc-evrow__v { font-size: 12px; color: var(--ttc-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.ttc-feed__ft { padding: 10px 16px; border-top: 1px solid var(--ttc-border); background: color-mix(in oklab, var(--ttc-ink) 2.5%, transparent); }
-.ttc-feed__ft .ttc-meta { white-space: normal; line-height: 1.5; }
 .ttc-feed__empty { padding: 22px 16px; text-align: center; font-size: 13px; line-height: 1.5; color: var(--ttc-muted); }
 
 /* ============================================================ SIGNAL STRIP */
@@ -226,6 +224,8 @@
 .ttc-vpcard__ic svg { width: 18px; height: 18px; }
 .ttc-vpcard h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; }
 .ttc-vpcard p { font-size: 13.5px; color: var(--ttc-muted); margin-top: 7px; }
+.ttc-vpcard__link { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; font-size: 13px; font-weight: 700; color: var(--ttc-accent); }
+.ttc-vpcard__link svg { width: 13px; height: 13px; }
 
 /* ============================================================ ARTIST TABLE */
 .ttc-tablecard { background: var(--ttc-surface); border: 1px solid var(--ttc-border); border-radius: var(--ttc-radius); overflow: hidden; box-shadow: var(--ttc-shadow); }
@@ -335,8 +335,7 @@
   .ttc-search__tabs { flex-wrap: wrap; }
   .ttc-search__hint { flex-basis: 100%; margin-left: 0; padding: 3px 6px 0; }
   .ttc-search__panel { max-height: min(70vh, 520px); overflow-y: auto; }
-  .ttc-hero__trust { gap: 10px 14px; }
-  .ttc-hero__trust > div { white-space: normal; }
+  .ttc-hero__actions .ttc-btn--primary { width: 100%; justify-content: center; min-height: 46px; }
 }
 
 /* ============================================================

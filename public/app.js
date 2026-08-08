@@ -1,5 +1,51 @@
 let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] };
 
+// The homepage proposition has three renderers: this client fallback (used when
+// the server shell was not injected), the server template
+// (functions/[[path]].js), and the hydrated homepage (public/ttc-home.js). They
+// drifted into three different promises, so the wording now lives in one marked
+// block that is copied verbatim into all three files. Keep the block
+// byte-identical — scripts/homepage-proposition.test.mjs fails the build the
+// moment it drifts.
+// >>> homepage-proposition >>>
+const HOME_HEADLINE = "Compare ticket prices for the show you want.";
+const HOME_SUBCOPY =
+  "Choose an artist and date, see current listed prices from ticket sites where available, then check the final total with the provider.";
+const HOME_PRIMARY_CTA_LABEL = "Find a show";
+const HOME_PRIMARY_CTA_HREF = "/artists";
+const HOME_STEPS = [
+  {
+    title: "1. Find a show",
+    body: "Choose an artist and pick the date you want to go to.",
+    ctaLabel: "Browse artists",
+    href: "/artists"
+  },
+  {
+    title: "2. Compare ticket prices",
+    body: "See the current listed prices we have from ticket sites for that same date.",
+    ctaLabel: "Compare ticket prices",
+    href: "/compare-concert-ticket-prices"
+  },
+  {
+    title: "3. Check the total",
+    body: "Open the ticket site to check the final total, the fees, and what is included.",
+    ctaLabel: "Read the guide",
+    href: "/guides/how-to-compare-concert-ticket-prices"
+  }
+];
+// <<< homepage-proposition <<<
+
+// The same proposition, said once, on the two surfaces that repeat it. Shared
+// verbatim with functions/[[path]].js, which is authoritative for these pages;
+// the renderers below only run when its markup is absent. Also parity-checked by
+// scripts/homepage-proposition.test.mjs.
+// >>> site-proposition >>>
+const ARTISTS_INDEX_LEAD = "Choose an artist, then pick the date you want to compare ticket prices for.";
+const ARTISTS_INDEX_NOTE = "Coverage varies by artist and region.";
+const HOW_IT_WORKS_LEAD =
+  "Compare ticket prices for the show you want: choose an artist and date, see current listed prices from ticket sites where available, then check the final total with the provider. We're independent, and we don't sell tickets.";
+// <<< site-proposition <<<
+
 const providerCopy = {
   ticketmaster: {
     name: "Ticketmaster",
@@ -206,7 +252,7 @@ const routeMeta = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider."
+      "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total."
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices | TourTicketCompare",
@@ -1267,11 +1313,7 @@ function renderSearchResultsPanel() {
   const header = document.createElement("div");
   header.className = "section-intro";
   text(header, "h2", "Search results").id = "searchSectionTitle";
-  text(
-    header,
-    "p",
-    "Search artists, events, and guides we’ve reviewed — by name, city, country, venue, or tour."
-  );
+  text(header, "p", "Search artists, shows, and guides.");
 
   const resultsContainer = document.createElement("div");
   resultsContainer.className = "search-results";
@@ -1295,12 +1337,7 @@ function renderWhatYouCanDo() {
   text(header, "h2", "How it works").id = "whatYouCanDoTitle";
   const grid = document.createElement("div");
   grid.className = "card-grid";
-  // Keep in sync with the homepage template in functions/[[path]].js.
-  [
-    ["1. Find your show", "Search an artist and pick the verified date that matches your plans.", "/artists", "Browse artists"],
-    ["2. Compare snapshots", "See available provider price snapshots for the same event.", "/compare-concert-ticket-prices", "Compare ticket prices"],
-    ["3. Confirm and buy", "Open the provider site to confirm the final price, fees, availability, and ticket details.", "/guides/how-to-compare-concert-ticket-prices", "Read the guide"]
-  ].forEach(([title, body, href, ctaLabel]) => {
+  HOME_STEPS.forEach(({ title, body, href, ctaLabel }) => {
     const card = document.createElement("article");
     card.className = "info-card";
     text(card, "h3", title);
@@ -1341,13 +1378,8 @@ async function renderHome() {
   hero.setAttribute("aria-labelledby", "heroTitle");
   const copy = document.createElement("div");
   copy.className = "hero-copy-block";
-  text(copy, "h1", "Find your show, then compare the ticket sites that have it.", "hero-title").id = "heroTitle";
-  text(
-    copy,
-    "p",
-    "Search an artist, pick your date, and see the prices we have from each ticket site. Then head over to the provider to check the fees and buy.",
-    "hero-subcopy"
-  );
+  text(copy, "h1", HOME_HEADLINE, "hero-title").id = "heroTitle";
+  text(copy, "p", HOME_SUBCOPY, "hero-subcopy");
   text(
     copy,
     "p",
@@ -1360,17 +1392,8 @@ async function renderHome() {
 
   const actions = document.createElement("div");
   actions.className = "action-row";
-  const browseCta = buttonLink("Browse artists", "#featured-artists", "secondary");
-  browseCta.addEventListener("click", (event) => {
-    const target = document.getElementById("featured-artists");
-    if (target) {
-      event.preventDefault();
-      target.scrollIntoView({ behavior: "smooth" });
-    }
-  });
   actions.append(
-    buttonLink("Compare concert ticket prices", "/compare-concert-ticket-prices", "primary"),
-    browseCta,
+    buttonLink(HOME_PRIMARY_CTA_LABEL, HOME_PRIMARY_CTA_HREF, "primary"),
     buttonLink("Read buying guides", "/guides", "secondary")
   );
   copy.append(actions);
@@ -1386,7 +1409,7 @@ async function renderHome() {
   text(
     artistHeader,
     "p",
-    "Upcoming dates and ticket links for every artist on the site. Artists with announced dates come first; the ones marked “No dates yet” have a page and an alert signup, but nothing on sale."
+    "Upcoming dates and ticket links for every artist on the site. Artists with announced dates come first."
   );
   const homeEvents = await loadEventsForSearch();
   const grid = document.createElement("div");
@@ -3022,18 +3045,8 @@ async function renderArtistsIndex() {
   section.setAttribute("aria-labelledby", "artistsTitle");
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Artists" }]));
   text(section, "h1", "Artists we track").id = "artistsTitle";
-  text(
-    section,
-    "p",
-    "Pick an artist to see their upcoming dates and where to buy for each one. Artists with announced dates are listed first; the ones marked “No dates yet” have a page and an alert signup, but nothing on sale.",
-    "lead"
-  );
-  text(
-    section,
-    "p",
-    "Coverage varies by artist and region. A ticket link only goes up once we've checked the artist, date, venue, and where the link lands.",
-    "disclosure-note"
-  );
+  text(section, "p", ARTISTS_INDEX_LEAD, "lead");
+  text(section, "p", ARTISTS_INDEX_NOTE, "disclosure-note");
   const events = await loadEventsForSearch();
   const grid = document.createElement("div");
   grid.className = "artist-card-grid";
@@ -3364,12 +3377,7 @@ function renderHowItWorks() {
   section.className = "content-page";
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "How it works" }]));
   text(section, "h1", "How TourTicketCompare works");
-  text(
-    section,
-    "p",
-    "TourTicketCompare is an independent, unofficial ticket research site that helps fans find checked ticket options, compare available provider price snapshots for the same event, and use practical buying guidance. We do not sell tickets and only link out to destinations we have checked.",
-    "lead"
-  );
+  text(section, "p", HOW_IT_WORKS_LEAD, "lead");
 
   const whatWeDo = document.createElement("section");
   whatWeDo.className = "nested-panel";

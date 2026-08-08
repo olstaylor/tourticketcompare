@@ -7,7 +7,7 @@ const publicRoutes = ["/", "/artists", "/cities", "/guides", "/blog", "/compare-
 const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/cities/*", "/guides/*", "/blog/*"];
 const expectedH1 = new Map([
-  ["/", "Find your show, then compare the ticket sites that have it."],
+  ["/", "Compare ticket prices for the show you want."],
   ["/artists", "Artists we track"],
   ["/cities", "Concerts by city"],
   ["/guides", "Ticket buying guides"],
@@ -34,7 +34,7 @@ const expectedTitle = new Map([
   ["/editorial-policy", "Editorial Policy | TourTicketCompare"],
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
-const homepageDescription = "Compare timestamped provider listed-price snapshots for verified concert events, find tour dates, then confirm fees and availability with the provider.";
+const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.";
 const APP_ASSET_VERSION = "20260803a";
 const TTC_HOME_ASSET_VERSION = "20260729b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
@@ -53,7 +53,7 @@ const SMOKE_TEST_NOW_MS = Date.parse(SMOKE_TEST_NOW_ISO);
 assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO timestamp");
 Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
-  ["/artists", "Pick an artist to see their upcoming dates and where to buy for each one."],
+  ["/artists", "Choose an artist, then pick the date you want to compare ticket prices for."],
   ["/cities", "at least four upcoming reviewed shows across at least two artists"],
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/blog", "what a price snapshot does and does not claim"],
@@ -510,7 +510,7 @@ const publicAffiliateUrlFiles = [
 
 const joinedPublic = (await Promise.all(publicAffiliateUrlFiles.map((file) => read(file)))).join("\n");
 assert(
-  joinedPublic.includes("Find your show, then compare the ticket sites that have it."),
+  joinedPublic.includes("Compare ticket prices for the show you want."),
   "homepage public-facing copy should be present"
 );
 const clientApp = await read("public/app.js");
@@ -1215,8 +1215,8 @@ assert(ttcHomeJs.includes('id: "search-widget"'), "hydrated homepage should pres
 assert(ttcHomeJs.includes('homepageSearch.setQuery(query, { open: true, focus: window.location.hash === "#search-widget" })'), "homepage q hydration should prefill and open the large search panel");
 assert(ttcHomeJs.includes('searchWidget.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage q hydration should scroll to the preserved search-widget anchor when requested");
 assert(ttcHomeJs.includes("Approved snapshots are provider-attributed and timestamped."), "homepage should describe gated provider-attributed snapshots accurately");
-assert(ttcHomeJs.includes("Compare concert ticket prices"), "homepage should lead with the comparison intent");
-assert(ttcHomeJs.includes("Confirm final prices, fees, and availability on the provider site."), "homepage should tell fans where final prices and fees are confirmed");
+assert(ttcHomeJs.includes("Compare ticket prices for the show you want."), "homepage should lead with the comparison intent");
+assert(ttcHomeJs.includes("then check the final total with the provider."), "homepage should tell fans where the final total is confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");
 assert(ttcHomeJs.includes('role: "combobox"') && ttcHomeJs.includes('"aria-activedescendant"'), "homepage search should expose combobox state for keyboard and assistive-technology users");

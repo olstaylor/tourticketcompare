@@ -97,6 +97,10 @@ npm run status:surface:write                  # regenerate the <!-- generated:â€
                                               #   that moves the indexable set.
 npm run audit:indexable-surface:baseline      # re-anchor the baseline (only for an intended policy change)
 npm run test:route-indexability               # gate units, city/venue derivations, redirect-map safety
+npm run test:homepage-proposition             # homepage/artists/how-it-works copy parity across the
+                                              #   server template, the hydrated homepage, and the
+                                              #   client fallback (in test:mvp) â€” run it after editing
+                                              #   any of that copy. See docs/ARCHITECTURE.md
 ```
 
 ### Targeted subset commands (scoped changes)

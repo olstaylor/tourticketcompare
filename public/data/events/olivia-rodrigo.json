@@ -49,7 +49,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A706ep"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706ep",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
@@ -101,7 +102,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A70677"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70677",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
@@ -1860,7 +1862,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067F"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067F",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
@@ -1912,7 +1915,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067o"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7067o",
+    "timezone": "America/New_York"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
@@ -2734,7 +2738,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kk"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kk",
+    "timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf",
@@ -2786,7 +2791,8 @@
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kF"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A706kF",
+    "timezone": "America/Los_Angeles"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw",

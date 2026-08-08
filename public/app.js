@@ -2108,6 +2108,17 @@ function renderPriceHistoryContent(panel, wrap, data) {
   if (interest) panel.append(interest);
 }
 
+// One compact line above a card's provider buttons, saying exactly how many
+// checked ticket sites this date leads to. "Compare" is only true of two or
+// more — a single button is one site, not a comparison. No price wording: a
+// missing price is a separate matter, handled by renderShowCardPriceNotes.
+// Keep in sync with ctaCountLabel in functions/[[path]].js.
+function showCtaCountLabel(count) {
+  if (count >= 2) return `Compare ${count} checked ticket sites for this date`;
+  if (count === 1) return "1 checked ticket site for this date";
+  return "";
+}
+
 function renderShowCard(show, options = {}) {
   const article = document.createElement("article");
   article.className = "info-card show-card";
@@ -2211,7 +2222,12 @@ function renderShowCard(show, options = {}) {
         ctaLocation: options.ctaLocation || "event_card"
       };
       // The buttons are the only outbound links on the card — there is no
-      // second "compare" link to double-count a click through.
+      // second "compare" link to double-count a click through. One compact
+      // line states how many checked ticket sites this date leads to; "compare"
+      // is only used for two or more, because one site is not a comparison.
+      // Keep in sync with ctaCountLabel in functions/[[path]].js.
+      const countLabel = showCtaCountLabel(ctaSpecs.length);
+      if (countLabel) text(body, "p", countLabel, "provider-cta-count muted");
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
       for (const spec of ctaSpecs) {
@@ -2233,7 +2249,7 @@ function renderShowCard(show, options = {}) {
       text(
         body,
         "p",
-        "No verified ticket link is available for this date. It stays listed so the date itself is still visible.",
+        "No checked ticket link is available for this date yet. It stays listed so the date itself is still visible.",
         "disclosure-note"
       );
     }

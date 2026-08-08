@@ -1302,7 +1302,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4g",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-doja-cat-2026-miami-vvg1vzbs0fdfw5",

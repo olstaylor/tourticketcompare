@@ -511,7 +511,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_K"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_K",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_f",
@@ -563,7 +564,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_f"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_f",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-berlin-z7r9jz1a7oe_4",
@@ -615,7 +617,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_4"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_4",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-amsterdam-z698xzbpz16vg6pypf",
@@ -973,7 +976,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_x"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_x",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-milan-z7r9jz1a7oe_n",
@@ -1025,7 +1029,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_N"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7OE_N",
+    "timezone": "Europe/Budapest"
   },
   {
     "id": "tm-bruno-mars-2026-london-1aegzbzgksgzoma",
@@ -2739,7 +2744,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7O9_A"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7O9_A",
+    "timezone": "America/Denver"
   },
   {
     "id": "tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i",
@@ -2791,7 +2797,8 @@
     },
     "status": "on-sale",
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ox8I"
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ox8I",
+    "timezone": "America/Denver"
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f",

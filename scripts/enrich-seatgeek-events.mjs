@@ -1,15 +1,53 @@
 #!/usr/bin/env node
+//
+// enrich-seatgeek-events.mjs
+//
+// Adds event-level SeatGeek URLs to Ticketmaster-verified events that are
+// missing one, on high-confidence matches only (see SAFE_PUBLISHING_RULES.md
+// "SeatGeek event CTAs"). Zero, weak, or ambiguous candidates never write.
+//
+// Scheduling contract (this is what stops the run starving events):
+//
+//   - Only UPCOMING events are eligible. A finished show costs API calls and
+//     can never gain a useful CTA, so past events are excluded before the first
+//     request and consume zero budget.
+//   - Eligible events are ordered by need: fewest currently publishable
+//     exact-event CTAs first (a date leading nowhere matters more than one with
+//     four buttons), then the nearest event date, then id for stability.
+//   - A capped run checks a WINDOW of that ordered list, and the window
+//     advances every run (`--rotation-key`, defaulting to the UTC day number).
+//     Consecutive capped runs therefore sweep the whole eligible set instead of
+//     re-checking the same head of the queue forever. This is deliberately
+//     stateless: the previous design wrote a resume cursor into the audit log,
+//     but the workflow only commits that log when the run also changed event
+//     data, so on the common "nothing to add" night the cursor was discarded and
+//     every run restarted from the top.
+//   - `--resume-from` / `--resume-from-log` remain for manual operator runs.
+//
+// Usage: node scripts/enrich-seatgeek-events.mjs [--apply-high-confidence] [...]
+//        node scripts/enrich-seatgeek-events.mjs --self-test
+
 import fs from "node:fs/promises";
 import { execFile } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { eventInstantMs, eventLocalDateIso, localDateSkipReason, resolveEventLocalDate, shiftLocalDateIso } from "./lib/event-local-date.mjs";
+import { eventMatchesArtistFilter } from "./lib/artist-filter.mjs";
+import { providerConfiguredTest, publishableCtaCount } from "./lib/event-link-coverage.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
+const CATALOG_PATH = path.join(REPO_ROOT, "public", "data", "catalog.json");
 const EVENTS_PARTITIONS_DIR = path.join(REPO_ROOT, "public", "data", "events");
 const LOG_PATH = path.join(REPO_ROOT, "reports", "provider-sync", "seatgeek-cta-auto-add.md");
 const SEATGEEK_EVENTS_ENDPOINT = "https://api.seatgeek.com/2/events";
+// Past shows render nowhere on the site and SeatGeek delists them, so they are
+// excluded before any API call. Same grace window as the verification lane.
+const PAST_EVENT_GRACE_MS = 24 * 60 * 60 * 1000;
+// The attempt ladder below issues at most this many queries per event; it is
+// what turns an API-call cap into an events-per-run window.
+const MAX_ATTEMPTS_PER_EVENT = 5;
 const DEFAULT_PER_PAGE = 20;
 const HIGH_CONFIDENCE_MIN_SCORE = 78;
 const CONFLICT_SCORE_WINDOW = 10;
@@ -41,6 +79,9 @@ function parseArgs(argv) {
     refresh: false,
     json: false,
     verbose: false,
+    selfTest: false,
+    eventsPerRun: null,
+    rotationKey: null,
     logPath: LOG_PATH
   };
 
@@ -80,6 +121,22 @@ function parseArgs(argv) {
       if (!Number.isFinite(parsed) || parsed < 1) throw new Error("--max-api-calls must be a positive number");
       options.maxApiCalls = parsed;
       i += 1;
+    } else if (arg === "--events-per-run") {
+      const value = argv[i + 1];
+      if (!value || value.startsWith("--")) throw new Error("--events-per-run requires a positive number");
+      const parsed = Number.parseInt(value, 10);
+      if (!Number.isFinite(parsed) || parsed < 1) throw new Error("--events-per-run must be a positive number");
+      options.eventsPerRun = parsed;
+      i += 1;
+    } else if (arg === "--rotation-key") {
+      const value = argv[i + 1];
+      if (value === undefined || value.startsWith("--")) throw new Error("--rotation-key requires a non-negative number");
+      const parsed = Number.parseInt(value, 10);
+      if (!Number.isFinite(parsed) || parsed < 0) throw new Error("--rotation-key must be a non-negative number");
+      options.rotationKey = parsed;
+      i += 1;
+    } else if (arg === "--self-test") {
+      options.selfTest = true;
     } else if (arg === "--resume-from-log") {
       options.resumeFromLog = true;
     } else if (arg === "--resume-from") {
@@ -103,7 +160,7 @@ function parseArgs(argv) {
 }
 
 function usage() {
-  return `Usage: node scripts/enrich-seatgeek-events.mjs [options]\n\nSearch SeatGeek with SEATGEEK_CLIENT_ID only and add event-level SeatGeek URLs only in explicit apply mode. Default mode is a dry-run: events.json is not modified, but the audit log is refreshed.\n\nOptions:\n  --apply-high-confidence  Write high-confidence top-level seatgeek_url matches to events.json\n  --artist <slug-or-name>  Filter by artist slug or name\n  --limit <number>         Process at most this many selected events\n  --max-events <number>    Alias for --limit\n  --delay-ms <number>      Delay before each SeatGeek API call (default: 1000)\n  --max-api-calls <number> Stop before exceeding this many enrichment API calls\n  --resume-from-log        Resume from the next showId written in the audit log\n  --resume-from <showId>   Resume from a specific selected showId\n  --refresh                Include events that already have seatgeek_url\n  --json                   Emit machine-readable JSON\n  --verbose                Include API query and candidate diagnostics\n  --log-path <path>        Override audit log path\n  -h, --help               Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID       Required\n`;
+  return `Usage: node scripts/enrich-seatgeek-events.mjs [options]\n\nSearch SeatGeek with SEATGEEK_CLIENT_ID only and add event-level SeatGeek URLs only in explicit apply mode. Default mode is a dry-run: events.json is not modified, but the audit log is refreshed.\n\nOnly upcoming events are eligible. Eligible events are ordered by fewest publishable exact-event CTAs, then nearest date; a capped run checks one rotating window of that order so consecutive runs sweep the whole set.\n\nOptions:\n  --apply-high-confidence  Write high-confidence top-level seatgeek_url matches to events.json\n  --artist <slug-or-name>  Filter by exact artist slug or artist name\n  --limit <number>         Process at most this many selected events\n  --max-events <number>    Alias for --limit\n  --delay-ms <number>      Delay before each SeatGeek API call (default: 1000)\n  --max-api-calls <number> Stop before exceeding this many enrichment API calls\n  --events-per-run <n>     Window size (default: --max-api-calls / ${MAX_ATTEMPTS_PER_EVENT})\n  --rotation-key <n>       Window index source (default: UTC day number)\n  --resume-from-log        Resume from the next showId written in the audit log\n  --resume-from <showId>   Resume from a specific selected showId\n  --refresh                Include events that already have seatgeek_url\n  --json                   Emit machine-readable JSON\n  --verbose                Include API query and candidate diagnostics\n  --self-test              Run the offline scheduling/matching tests\n  --log-path <path>        Override audit log path\n  -h, --help               Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID       Required (except for --self-test)\n`;
 }
 
 function clean(value, max = 500) {
@@ -148,21 +205,16 @@ function containsNormalized(haystack, needle) {
   return Boolean(n.trim()) && h.includes(n);
 }
 
-function localDateFromIso(iso, timeZone) {
-  const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return "";
-  try {
-    const parts = new Intl.DateTimeFormat("en-CA", {
-      timeZone: timeZone || "UTC",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit"
-    }).formatToParts(date);
-    const lookup = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-    return `${lookup.year}-${lookup.month}-${lookup.day}`;
-  } catch {
-    return date.toISOString().slice(0, 10);
-  }
+// The venue-local calendar date this event happens on, or "" when it cannot be
+// resolved without guessing. Shared with the Vivid Seats and Impact marketplace
+// matchers (scripts/lib/event-local-date.mjs). Previously this fell back to
+// formatting the instant in UTC when the event had no IANA timezone, which
+// produced the wrong calendar date for any show whose local evening lands on
+// the next UTC day — and the SeatGeek date filter would then search the wrong
+// night. An unresolvable date now skips the event with an explicit reason and
+// spends no API budget.
+function localDateForEvent(event) {
+  return eventLocalDateIso(event);
 }
 
 function isoDateOnly(value) {
@@ -171,13 +223,6 @@ function isoDateOnly(value) {
   if (match) return match[1];
   const date = new Date(raw);
   return Number.isNaN(date.getTime()) ? "" : date.toISOString().slice(0, 10);
-}
-
-function addDays(dateString, days) {
-  const date = new Date(`${dateString}T00:00:00Z`);
-  if (Number.isNaN(date.getTime())) return "";
-  date.setUTCDate(date.getUTCDate() + days);
-  return date.toISOString().slice(0, 10);
 }
 
 function isPlaceholderUrl(value) {
@@ -226,18 +271,6 @@ function eventIsTicketmasterVerified(event) {
   return source === "ticketmaster" && Boolean(tmId) && /^https:\/\//i.test(tmUrl) && provider?.verified === true;
 }
 
-function artistMatches(event, artistFilter) {
-  if (!artistFilter) return true;
-  const filterSlug = slugify(artistFilter);
-  const filterText = normalizeText(artistFilter);
-  return (
-    slugify(event.artist_slug) === filterSlug ||
-    slugify(event.artist_name) === filterSlug ||
-    normalizeText(event.artist_name).includes(filterText) ||
-    filterText.includes(normalizeText(event.artist_name))
-  );
-}
-
 async function resumeShowIdFromLog(logPath) {
   try {
     const log = await fs.readFile(logPath, "utf8");
@@ -255,26 +288,90 @@ function applyResumeCursor(selected, resumeFromId) {
   return selected.slice(index);
 }
 
-function selectEvents(events, options) {
-  let selected = events.filter(eventIsTicketmasterVerified);
-  if (!options.refresh) {
-    selected = selected.filter((event) => !isValidSeatGeekEventUrl(event.seatgeek_url).ok);
+// A sortable instant for ordering and past-event exclusion. `eventInstantMs`
+// deliberately refuses ambiguous rows, so fall back to a plain parse purely for
+// ordering/expiry — never for matching, which still requires the unambiguous
+// value.
+function sortableInstant(event) {
+  const exact = eventInstantMs(event);
+  if (exact !== null) return exact;
+  const parsed = Date.parse(clean(event?.datetime_iso, 100));
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+// Which Ticketmaster-verified events are worth spending SeatGeek API budget on,
+// and in what order. Past events and events whose venue-local date cannot be
+// resolved are reported with a reason and cost zero API calls.
+function eligibleEvents(events, options, now = Date.now(), ctaCountFor = () => 0) {
+  const eligible = [];
+  const skipped = [];
+  for (const event of events) {
+    if (!eventIsTicketmasterVerified(event)) continue;
+    if (!options.refresh && isValidSeatGeekEventUrl(event.seatgeek_url).ok) continue;
+    if (!eventMatchesArtistFilter(event, options.artist)) continue;
+
+    const instant = sortableInstant(event);
+    if (instant !== null && instant < now - PAST_EVENT_GRACE_MS) {
+      skipped.push({ event, reason: "past_event", detail: "event is in the past — SeatGeek delists finished shows; no API call spent" });
+      continue;
+    }
+    const resolved = resolveEventLocalDate(event);
+    if (!resolved.iso) {
+      skipped.push({ event, reason: "local_date_unresolved", detail: localDateSkipReason(resolved.reason) });
+      continue;
+    }
+    eligible.push({
+      event,
+      localDate: resolved.iso,
+      instant: instant === null ? Number.MAX_SAFE_INTEGER : instant,
+      ctaCount: ctaCountFor(event)
+    });
   }
-  if (options.artist) {
-    selected = selected.filter((event) => artistMatches(event, options.artist));
-  }
-  selected = applyResumeCursor(selected, options.resumeFromId);
-  if (options.limit !== null) {
-    selected = selected.slice(0, options.limit);
-  }
-  return selected;
+  // Fewest publishable exact-event CTAs first — a date that currently leads
+  // nowhere is the one worth a query — then the nearest date, then id so the
+  // order is stable between runs.
+  eligible.sort((a, b) =>
+    a.ctaCount - b.ctaCount ||
+    a.instant - b.instant ||
+    String(a.event.id).localeCompare(String(b.event.id))
+  );
+  return { eligible, skipped };
+}
+
+// How many events one capped run can actually check. `--max-api-calls` is a
+// budget of QUERIES; the attempt ladder issues up to MAX_ATTEMPTS_PER_EVENT of
+// them per event, so this is the honest events-per-run figure and the size of
+// the rotating window.
+function eventsPerRunFor(options) {
+  if (options.eventsPerRun !== null) return options.eventsPerRun;
+  if (options.limit !== null) return options.limit;
+  if (options.maxApiCalls !== null) return Math.max(1, Math.floor(options.maxApiCalls / MAX_ATTEMPTS_PER_EVENT));
+  return null;
+}
+
+// The rotating window over the ordered eligible list. Window `k mod windows` is
+// checked on run `k`, so ceil(N / size) consecutive runs check every eligible
+// event exactly once — no event can be starved by a run cap, and no state has
+// to survive between runs for that to hold.
+function selectWindow(ordered, windowSize, rotationKey) {
+  if (!windowSize || windowSize >= ordered.length) return { selected: ordered, windowIndex: 0, windowCount: 1 };
+  const windowCount = Math.ceil(ordered.length / windowSize);
+  const key = Number.isFinite(rotationKey) ? Math.trunc(rotationKey) : 0;
+  const windowIndex = ((key % windowCount) + windowCount) % windowCount;
+  const start = windowIndex * windowSize;
+  return { selected: ordered.slice(start, start + windowSize), windowIndex, windowCount };
+}
+
+/** UTC day number — a rotation key that advances once per scheduled daily run. */
+function defaultRotationKey(now = Date.now()) {
+  return Math.floor(now / 86400000);
 }
 
 function buildAttempts(event) {
   const artist = clean(event.artist_name || event.artist_slug, 120);
   const venue = clean(event.venue, 160);
   const city = clean(event.city, 100);
-  const exactDate = localDateFromIso(event.datetime_iso, event.timezone);
+  const exactDate = localDateForEvent(event);
   const attempts = [
     {
       name: "artist + venue + city + exact date",
@@ -301,8 +398,8 @@ function buildAttempts(event) {
       name: "artist + city + narrow date window",
       q: [artist, city].filter(Boolean).join(" "),
       city,
-      dateStart: addDays(exactDate, -1),
-      dateEnd: addDays(exactDate, 1)
+      dateStart: shiftLocalDateIso(exactDate, -1),
+      dateEnd: shiftLocalDateIso(exactDate, 1)
     },
     {
       name: "artist only + exact date",
@@ -312,7 +409,18 @@ function buildAttempts(event) {
       dateEnd: exactDate
     }
   ];
-  return attempts.filter((attempt) => attempt.q && attempt.dateStart && attempt.dateEnd);
+  // Drop attempts that would issue an identical query. With a blank venue,
+  // attempts 1 and 2 collapse; with a blank city, 1 and 3 do. Sending the same
+  // request twice buys nothing and burns a slot of the run's API budget, which
+  // is what decides how many events get checked at all.
+  const seen = new Set();
+  return attempts.filter((attempt) => {
+    if (!attempt.q || !attempt.dateStart || !attempt.dateEnd) return false;
+    const key = `${attempt.q}|${attempt.city}|${attempt.dateStart}|${attempt.dateEnd}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function buildSeatGeekUrl(attempt) {
@@ -400,7 +508,7 @@ async function fetchSeatGeekCandidates(event, options, runState) {
         reason: "Stopped before exceeding --max-api-calls.",
         attempts: attemptResults,
         candidates: [...candidateMap.values()],
-        localDate: localDateFromIso(event.datetime_iso, event.timezone),
+        localDate: localDateForEvent(event),
         stopped: true,
         stopReason: "api_call_limit_reached"
       };
@@ -438,7 +546,7 @@ async function fetchSeatGeekCandidates(event, options, runState) {
           reason: `SeatGeek API returned HTTP 429 after ${rateLimitRetries} retry attempt(s); stopped early to avoid hammering the API.`,
           attempts: attemptResults,
           candidates: [...candidateMap.values()],
-          localDate: localDateFromIso(event.datetime_iso, event.timezone),
+          localDate: localDateForEvent(event),
           stopped: true,
           stopReason: "rate_limited"
         };
@@ -470,7 +578,7 @@ async function fetchSeatGeekCandidates(event, options, runState) {
     reason: errors.length ? errors.join("; ") : "ok",
     attempts: attemptResults,
     candidates: [...candidateMap.values()],
-    localDate: localDateFromIso(event.datetime_iso, event.timezone),
+    localDate: localDateForEvent(event),
     stopped: false,
     stopReason: ""
   };
@@ -714,7 +822,7 @@ function emptyApiResult(event, reason, stopped = false) {
     reason,
     attempts: [],
     candidates: [],
-    localDate: localDateFromIso(event.datetime_iso, event.timezone),
+    localDate: localDateForEvent(event),
     stopped,
     stopReason: reason
   };
@@ -801,7 +909,7 @@ function buildResumeCommand(options, nextResumeShowId) {
   return args.join(" ");
 }
 
-function summarize(results, options, apiEnvironment, runState, events) {
+function summarize(results, options, apiEnvironment, runState, events, scheduling = {}) {
   const skipped = results.filter((result) => result.decision === "skipped");
   const ticketmasterVerifiedEvents = events.filter(eventIsTicketmasterVerified);
   const eventsWithValidSeatGeekUrl = events.filter((event) => isValidSeatGeekEventUrl(event.seatgeek_url).ok);
@@ -819,6 +927,14 @@ function summarize(results, options, apiEnvironment, runState, events) {
     events_with_valid_seatgeek_url: eventsWithValidSeatGeekUrl.length,
     ticketmaster_verified_with_valid_seatgeek_url: ticketmasterVerifiedWithSeatGeekUrl.length,
     ticketmaster_verified_missing_valid_seatgeek_url: ticketmasterVerifiedEvents.length - ticketmasterVerifiedWithSeatGeekUrl.length,
+    eligible_upcoming: scheduling.eligible ?? results.length,
+    pre_api_skipped: scheduling.preSkippedCount ?? 0,
+    pre_api_skipped_reasons: scheduling.preSkippedReasons ?? {},
+    events_per_run: scheduling.eventsPerRun ?? null,
+    rotation_key: scheduling.rotationKey ?? null,
+    rotation_window: scheduling.windowIndex ?? null,
+    rotation_window_count: scheduling.windowCount ?? null,
+    runs_to_cover_all_eligible: scheduling.windowCount ?? 1,
     selected: results.length,
     checked: checkedResults.length,
     high_confidence: results.filter((result) => result.decision === "high_confidence").length,
@@ -854,6 +970,8 @@ function textCell(value) {
 function printTextResults(results, summary) {
   console.log(`SeatGeek ${summary.mode} enrichment checked ${summary.checked} event(s): ${summary.added} URL(s) added, ${summary.high_confidence} high-confidence candidate(s), ${summary.skipped} skipped.`);
   console.log(`API calls made: ${summary.api_calls_made}`);
+  console.log(`Eligible upcoming events: ${summary.eligible_upcoming}; skipped before any API call: ${summary.pre_api_skipped} ${JSON.stringify(summary.pre_api_skipped_reasons)}`);
+  console.log(`Rotation: window ${Number(summary.rotation_window) + 1} of ${summary.rotation_window_count} (key ${summary.rotation_key}); every eligible event is checked within ${summary.runs_to_cover_all_eligible} run(s).`);
   if (summary.stopped_early) console.log(`Stopped early: ${summary.stop_reason}`);
   if (summary.next_resume_command) console.log(`Next resume command: ${summary.next_resume_command}`);
   console.log(`Skipped reasons: ${JSON.stringify(summary.skipped_reasons)}`);
@@ -922,7 +1040,7 @@ async function syncPartitionedEventFiles(events, additions) {
   return [...changedFiles];
 }
 
-function renderLog(results, summary) {
+function renderLog(results, summary, preSkipped = []) {
   const added = results.filter((result) => result.applied);
   const skipped = results.filter((result) => result.decision === "skipped");
   const venueMismatches = results.filter((result) => result.venue_mismatch_accepted);
@@ -947,6 +1065,11 @@ function renderLog(results, summary) {
     `- Events already carrying a valid SeatGeek URL: ${summary.events_with_valid_seatgeek_url}`,
     `- Ticketmaster-verified events already carrying a valid SeatGeek URL: ${summary.ticketmaster_verified_with_valid_seatgeek_url}`,
     `- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: ${summary.ticketmaster_verified_missing_valid_seatgeek_url}`,
+    `- Eligible (upcoming, resolvable local date) after pre-API filtering: ${summary.eligible_upcoming}`,
+    `- Skipped before any API call: ${summary.pre_api_skipped} (${Object.entries(summary.pre_api_skipped_reasons).map(([reason, count]) => `${reason}: ${count}`).join(", ") || "none"})`,
+    `- Events this run can check (window size): ${summary.events_per_run ?? "all eligible"}`,
+    `- Rotation: window ${Number(summary.rotation_window) + 1} of ${summary.rotation_window_count} (key ${summary.rotation_key})`,
+    `- Runs needed to check every eligible event once: ${summary.runs_to_cover_all_eligible}`,
     `- Events selected/logged by this run: ${summary.selected}`,
     `- Events checked by this run: ${summary.checked}`,
     `- API calls made: ${summary.api_calls_made}`,
@@ -1033,7 +1156,159 @@ function renderLog(results, summary) {
   ]) : "- None");
   lines.push("");
 
+  lines.push("## Skipped before any API call", "");
+  lines.push("Ticketmaster-verified events missing a SeatGeek URL that this run deliberately did not query. Past events can never gain a useful CTA; an unresolvable venue-local date would make the SeatGeek date filter search the wrong night, so it is never guessed.");
+  lines.push("");
+  lines.push(preSkipped.length ? markdownTable(preSkipped, [
+    { label: "showId", value: (row) => row.event?.id },
+    { label: "artist", value: (row) => row.event?.artist_slug },
+    { label: "datetime_iso", value: (row) => row.event?.datetime_iso },
+    { label: "reason", value: (row) => row.reason },
+    { label: "detail", value: (row) => row.detail }
+  ]) : "- None");
+  lines.push("");
+
   return `${lines.join("\n").trimEnd()}\n`;
+}
+
+// ─── Self-test (offline; no API access, no writes) ──────────────────────────
+
+function selfTest() {
+  const checks = [];
+  const assert = (label, pass) => checks.push({ label, pass: !!pass });
+  const now = Date.parse("2026-08-08T12:00:00Z");
+  const baseOptions = { artist: "", refresh: false, limit: null, maxApiCalls: null, eventsPerRun: null, rotationKey: null, resumeFromId: "" };
+  const tmVerified = (id, overrides = {}) => ({
+    id,
+    artist_slug: "ok-artist",
+    artist_name: "OK Artist",
+    city: "London",
+    venue: "The O2",
+    datetime_iso: "2026-12-01T20:00:00Z",
+    timezone: "Europe/London",
+    source_type: "ticketmaster",
+    ticketmaster_event_id: "ABC123",
+    ticketmaster_url: "https://www.ticketmaster.com/ok-artist-london/event/ABC123",
+    verification_status: "human_verified",
+    seatgeek_url: "",
+    provider_links: { ticketmaster: { verified: true } },
+    ...overrides
+  });
+
+  // Past events must never reach the API.
+  const withPast = [
+    tmVerified("past-1", { datetime_iso: "2026-01-01T20:00:00Z" }),
+    tmVerified("past-2", { datetime_iso: "2026-08-06T20:00:00Z" }),
+    tmVerified("future-1")
+  ];
+  const pastRun = eligibleEvents(withPast, baseOptions, now);
+  assert("past events are excluded from the eligible set", pastRun.eligible.map((row) => row.event.id).join(",") === "future-1");
+  assert("past events are reported with a reason", pastRun.skipped.filter((row) => row.reason === "past_event").length === 2);
+  assert(
+    "no attempt is ever built for a skipped past event",
+    // The run loop only ever calls buildAttempts on eligible rows, so proving
+    // past rows are absent from `eligible` proves they cost zero API calls.
+    !pastRun.eligible.some((row) => row.event.id.startsWith("past-"))
+  );
+  assert("an eligible event does build API attempts", buildAttempts(withPast[2]).length > 0);
+
+  // Time-ambiguous rows cost nothing and say why.
+  const ambiguous = eligibleEvents([
+    tmVerified("utc-no-tz", { datetime_iso: "2026-12-01T20:00:00Z", timezone: "" }),
+    tmVerified("offset-no-tz", { datetime_iso: "2026-12-01T20:00:00+01:00", timezone: "" })
+  ], baseOptions, now);
+  assert("UTC datetime without a timezone is skipped before the API", ambiguous.skipped.some((row) => row.event.id === "utc-no-tz" && row.reason === "local_date_unresolved"));
+  assert("numeric-offset datetime without a timezone is now eligible", ambiguous.eligible.some((row) => row.event.id === "offset-no-tz"));
+  assert("a skipped row carries a human-readable detail", ambiguous.skipped.every((row) => row.detail.length > 0));
+  assert("an event with no resolvable local date builds no attempts", buildAttempts({ ...tmVerified("x"), datetime_iso: "2026-12-01T20:00:00Z", timezone: "" }).length === 0);
+
+  // Prioritisation: fewest publishable CTAs first, then nearest date.
+  const sgUrl = "https://seatgeek.com/x-tickets/y/concert/1";
+  const countFor = (event) => publishableCtaCount(event, () => true);
+  const priorityRows = [
+    // One publishable CTA (Ticketmaster only), the later date.
+    tmVerified("near-one", { datetime_iso: "2026-09-01T20:00:00Z" }),
+    // Two publishable CTAs (Ticketmaster + verified Vivid Seats), the nearer date.
+    tmVerified("near-two", {
+      datetime_iso: "2026-08-20T20:00:00Z",
+      vividseats_url: "https://vividseats.com/x-tickets-y/production/9",
+      provider_links: { ticketmaster: { verified: true }, "vivid-seats": { verified: true, url: "https://vividseats.com/x-tickets-y/production/9" } }
+    })
+  ];
+  assert("the CTA counter sees one lane vs two", countFor(priorityRows[0]) === 1 && countFor(priorityRows[1]) === 2);
+  const ordered = eligibleEvents(priorityRows, baseOptions, now, countFor).eligible.map((row) => row.event.id);
+  assert("fewer publishable CTAs sorts first", ordered[0] === "near-one" && ordered[1] === "near-two");
+  const sameCount = eligibleEvents([
+    tmVerified("later", { datetime_iso: "2027-01-01T20:00:00Z" }),
+    tmVerified("sooner", { datetime_iso: "2026-09-01T20:00:00Z" })
+  ], baseOptions, now, countFor).eligible.map((row) => row.event.id);
+  assert("equal CTA counts fall back to the nearest date", sameCount[0] === "sooner");
+
+  // Rotation: a capped run cannot starve later events.
+  const many = Array.from({ length: 11 }, (_, index) => `e${String(index).padStart(2, "0")}`);
+  const seenAcrossRuns = new Set();
+  for (let key = 0; key < 4; key += 1) {
+    for (const id of selectWindow(many, 3, key).selected) seenAcrossRuns.add(id);
+  }
+  assert("four capped runs of three cover all eleven eligible events", seenAcrossRuns.size === many.length);
+  assert("a run checks at most the window size", selectWindow(many, 3, 0).selected.length === 3);
+  assert("consecutive runs check disjoint windows", selectWindow(many, 3, 0).selected[0] !== selectWindow(many, 3, 1).selected[0]);
+  assert("the window wraps back to the start", selectWindow(many, 3, 4).selected[0] === selectWindow(many, 3, 0).selected[0]);
+  assert("the last window holds the remainder", selectWindow(many, 3, 3).selected.length === 2);
+  assert("no window is needed when the cap exceeds the queue", selectWindow(many, 50, 7).selected.length === many.length);
+  assert("window count is reported", selectWindow(many, 3, 0).windowCount === 4);
+  assert("a negative rotation key still lands in range", selectWindow(many, 3, -1).windowIndex === 3);
+  assert("the rotation key advances once per UTC day", defaultRotationKey(Date.parse("2026-08-09T00:00:00Z")) - defaultRotationKey(Date.parse("2026-08-08T00:00:00Z")) === 1);
+  assert("the rotation key is stable within a UTC day", defaultRotationKey(Date.parse("2026-08-08T01:00:00Z")) === defaultRotationKey(Date.parse("2026-08-08T23:00:00Z")));
+
+  // The API budget maps to an honest events-per-run window.
+  assert("150 API calls is a 30-event window", eventsPerRunFor({ ...baseOptions, maxApiCalls: 150 }) === 30);
+  assert("an explicit --events-per-run wins", eventsPerRunFor({ ...baseOptions, maxApiCalls: 150, eventsPerRun: 5 }) === 5);
+  assert("no cap means no window", eventsPerRunFor(baseOptions) === null);
+
+  // Artist filter: exact slug or name, never a substring — same as the
+  // verification lane.
+  const filterRows = [tmVerified("f1"), tmVerified("f2", { artist_slug: "ok-artist-two", artist_name: "OK Artist Two" })];
+  const bySlug = eligibleEvents(filterRows, { ...baseOptions, artist: "ok-artist" }, now).eligible.map((row) => row.event.id);
+  const byName = eligibleEvents(filterRows, { ...baseOptions, artist: "OK Artist" }, now).eligible.map((row) => row.event.id);
+  assert("artist filter matches the exact slug", bySlug.join(",") === "f1");
+  assert("artist filter matches the exact artist name", byName.join(",") === "f1");
+  assert("artist filter is not a substring match", eligibleEvents(filterRows, { ...baseOptions, artist: "OK" }, now).eligible.length === 0);
+
+  // Events that already carry a valid SeatGeek URL are not re-queried.
+  assert(
+    "an event with a valid seatgeek_url is not eligible",
+    eligibleEvents([tmVerified("has-url", { seatgeek_url: sgUrl })], baseOptions, now).eligible.length === 0
+  );
+  assert(
+    "--refresh re-includes it",
+    eligibleEvents([tmVerified("has-url", { seatgeek_url: sgUrl })], { ...baseOptions, refresh: true }, now).eligible.length === 1
+  );
+
+  // Attempt de-duplication: identical queries never burn two budget slots.
+  const noVenue = buildAttempts(tmVerified("nv", { venue: "" }));
+  assert("identical attempts are de-duplicated", new Set(noVenue.map((a) => `${a.q}|${a.city}|${a.dateStart}|${a.dateEnd}`)).size === noVenue.length);
+  assert("the full ladder is never longer than the per-event budget", buildAttempts(tmVerified("full")).length <= MAX_ATTEMPTS_PER_EVENT);
+
+  // Zero/ambiguous candidates remain no-write outcomes.
+  assert("no candidates is a skip", classifyCandidate(tmVerified("z"), []).decision === "skipped");
+  const strong = {
+    raw: {}, seatgeek: { id: 1, title: "OK Artist", date: "2026-12-01", city: "London", venue: "The O2", url: sgUrl, performers: [], taxonomies: [], attempts: [] },
+    score: 95,
+    signals: { performerSimilarity: 1, titleSimilarity: 1, venueSimilarity: 1, exactDate: true, cityExact: true, cityMetro: false, taxonomyRelevant: true, validUrl: true, mandatoryPass: true },
+    reasons: [], notes: []
+  };
+  const rival = { ...strong, seatgeek: { ...strong.seatgeek, id: 2, url: "https://seatgeek.com/x-tickets/y/concert/2" }, score: 94 };
+  assert("a single strong candidate is high confidence", classifyCandidate(tmVerified("z"), [strong]).decision === "high_confidence");
+  assert("two plausible candidates never write", classifyCandidate(tmVerified("z"), [strong, rival]).decision === "skipped");
+
+  let failed = 0;
+  for (const check of checks) {
+    if (!check.pass) failed += 1;
+    console.log(`${check.pass ? "PASS" : "FAIL"}  ${check.label}`);
+  }
+  console.log(`\n${checks.length - failed}/${checks.length} checks passed.`);
+  return failed === 0 ? 0 : 1;
 }
 
 async function confirmSeatGeekApiAccess() {
@@ -1054,6 +1329,7 @@ async function main() {
     console.log(usage());
     return 0;
   }
+  if (options.selfTest) return selfTest();
 
   const clientId = clean(process.env.SEATGEEK_CLIENT_ID, 255);
   if (!clientId) throw new Error("SEATGEEK_CLIENT_ID is required for SeatGeek API enrichment");
@@ -1076,10 +1352,46 @@ async function main() {
   const events = JSON.parse(eventsRaw);
   if (!Array.isArray(events)) throw new Error("public/data/events.json must contain an array");
 
-  const eligibleOptions = { ...options, limit: null };
-  const eligible = selectEvents(events, eligibleOptions);
-  const selected = options.limit === null ? eligible : eligible.slice(0, options.limit);
+  // Prioritisation reads the same publishability gate the site renders with, so
+  // "fewest CTAs first" means fewest buttons a visitor would actually see.
+  let isProviderConfigured = () => true;
+  try {
+    isProviderConfigured = providerConfiguredTest(JSON.parse(await fs.readFile(CATALOG_PATH, "utf8")));
+  } catch {
+    // Catalog unreadable: fall back to counting every lane as configured. The
+    // ordering degrades, the safety gates do not.
+  }
+
+  const now = Date.now();
+  const { eligible: eligibleRows, skipped: preSkipped } = eligibleEvents(
+    events,
+    options,
+    now,
+    (event) => publishableCtaCount(event, isProviderConfigured)
+  );
+  const ordered = applyResumeCursor(eligibleRows.map((row) => row.event), options.resumeFromId);
+  const eventsPerRun = eventsPerRunFor(options);
+  const rotationKey = options.rotationKey ?? defaultRotationKey(now);
+  // An explicit --resume-from is an operator taking manual control of the
+  // position, so it takes the head of the list rather than a rotated window.
+  const window = options.resumeFromId
+    ? { selected: eventsPerRun ? ordered.slice(0, eventsPerRun) : ordered, windowIndex: 0, windowCount: 1 }
+    : selectWindow(ordered, eventsPerRun, rotationKey);
+  const eligible = ordered;
+  const selected = window.selected;
   const selectedIds = new Set(selected.map((event) => event.id));
+  const preSkippedReasons = {};
+  for (const row of preSkipped) preSkippedReasons[row.reason] = (preSkippedReasons[row.reason] || 0) + 1;
+  const scheduling = {
+    eligible: eligible.length,
+    preSkipped,
+    preSkippedCount: preSkipped.length,
+    preSkippedReasons,
+    eventsPerRun,
+    rotationKey,
+    windowIndex: window.windowIndex,
+    windowCount: window.windowCount
+  };
   const results = [];
   const additions = new Map();
   const runState = {
@@ -1092,7 +1404,7 @@ async function main() {
   for (let index = 0; index < selected.length; index += 1) {
     const event = selected[index];
     const apiResult = await fetchSeatGeekCandidates(event, options, runState);
-    const tmLocalDate = apiResult.localDate || localDateFromIso(event.datetime_iso, event.timezone);
+    const tmLocalDate = apiResult.localDate || localDateForEvent(event);
 
     if (apiResult.stopped && apiResult.stopReason === "rate_limited") {
       runState.stopReason = "rate_limited";
@@ -1158,11 +1470,15 @@ async function main() {
     await syncPartitionedEventFiles(events, additions);
   }
 
-  const summary = summarize(results, options, apiEnvironment, runState, events);
-  await fs.writeFile(options.logPath, renderLog(results, summary));
+  const summary = summarize(results, options, apiEnvironment, runState, events, scheduling);
+  await fs.writeFile(options.logPath, renderLog(results, summary, preSkipped));
 
   if (options.json) {
-    console.log(JSON.stringify({ summary, results }, null, 2));
+    console.log(JSON.stringify({
+      summary,
+      results,
+      pre_api_skipped: preSkipped.map((row) => ({ showId: row.event.id, artist: row.event.artist_slug, reason: row.reason, detail: row.detail }))
+    }, null, 2));
   } else {
     printTextResults(results, summary);
   }

@@ -13,6 +13,31 @@ This runbook describes how verified provider identities, event links, and provid
 - `tour_name`, new artists, and ambiguous/withheld rows remain human-gated.
 - `/api/out` and public rendering remain fail closed.
 
+## Venue-local dates: one shared resolver
+
+Every provider event matcher answers the same two questions before it may match a listing to one of our events: what UTC instant is this show, and what calendar date is it *at the venue*. Both live in `scripts/lib/event-local-date.mjs`, which the SeatGeek enrichment/verification, Vivid Seats, and shared Impact marketplace matchers all import — there is no per-script copy.
+
+Resolution order, and what is deliberately refused:
+
+- An IANA `timezone` on the event always wins. The instant is resolved first, then formatted in that zone.
+- Failing that, an explicit numeric UTC offset in `datetime_iso` already states the local wall time, so its `YYYY-MM-DD` prefix **is** the venue-local date. Nothing is inferred — the offset is used only for the date it literally states.
+- A `Z` (UTC) datetime with no IANA timezone stays **unresolved**. The local date is unrecoverable and is never guessed; the matcher skips the event with an explicit reason rather than searching the wrong night.
+- Date-only, missing, and malformed values stay unresolved.
+
+`npm run test:event-local-date` covers midnight boundaries, positive and negative offsets, DST transition dates, malformed values, and the UTC-without-timezone rule.
+
+Missing timezones are fixed at source, never guessed:
+
+```bash
+npm run events:backfill-timezones          # dry run (default)
+npm run events:backfill-timezones:apply    # writes `timezone` only
+npm run events:backfill-timezones:self-test
+```
+
+`scripts/backfill-event-timezones.mjs` fills an **absent** `timezone` from the Discovery record for that row's own Discovery event id, after confirming the response id, venue, and city match the stored row, and after confirming the candidate zone reproduces Discovery's own stated local start time from the row's stored instant. A zone that would change what the row means is reported as ambiguous and never written. It never rewrites a stored zone and touches no other field. Without `TICKETMASTER_API_KEY` it is a safe no-op.
+
+Ingestion cannot silently drop a supplied zone: the recogniser reads it from `dates.timezone`, `dates.start.timeZone`, or the single embedded venue record (`scripts/sync-ticketmaster-events.py`), the write-to-PR step fails loudly if a supplied zone does not reach the candidate row, and the canonical event writer throws rather than emitting a row that lost one.
+
 ## Provider identity registry
 
 `data/provider-identities.json` is the canonical cross-provider identity registry. An entry is usable only when `review_status` is `verified`.
@@ -76,9 +101,13 @@ SeatGeek discovery and verification are separate steps:
 npm run seatgeek:propose
 npm run seatgeek:enrich          # dry run
 npm run seatgeek:verify          # dry run
+npm run seatgeek:enrich:self-test
+npm run seatgeek:verify:self-test
 ```
 
 Discovery scopes by the registry-verified performer ID where available. Enrichment applies only high-confidence matches. Verification checks the stored SeatGeek event against performer ID, instant, city, venue, and event URL shape before writing `provider_links.seatgeek` provenance.
+
+**Enrichment scheduling.** Only upcoming events are eligible — a finished show costs API calls and can never gain a useful CTA, so past events are excluded before the first request. Eligible events are ordered by fewest currently publishable exact-event CTAs, then nearest date; a capped run checks one **window** of that order, and the window advances every run (`--rotation-key`, defaulting to the UTC day number), so `ceil(eligible / events-per-run)` consecutive runs check every eligible event. The window size is `--events-per-run`, defaulting to `--max-api-calls / 5` because the attempt ladder issues up to five queries per event. This is stateless on purpose: the earlier design wrote a resume cursor into the audit log, which the workflow only commits when the run also changed event data, so on a quiet night the cursor was discarded and the next run restarted from the top. `--resume-from` / `--resume-from-log` remain for manual operator runs. `--artist` means an exact artist slug or artist name in both the enrichment and verification lanes (`scripts/lib/artist-filter.mjs`).
 
 The scheduled SeatGeek CTA workflow may apply and auto-merge only within its documented validation/safe-direction gates. It writes its latest audit evidence to:
 
@@ -141,6 +170,21 @@ Any event-data write must regenerate:
 
 Run `npm run events:sync`. Generated provider reports live in `reports/provider-sync/` and are operational evidence, not policy or current-state authority.
 
+## Link-coverage reporting
+
+```bash
+npm run report:link-coverage          # human report
+npm run report:link-coverage:json     # machine-readable
+npm run report:link-coverage:check    # fails on zero-link upcoming events
+npm run events:recheck-review         # owner-only needs_recheck worklist
+```
+
+`scripts/report-link-coverage.mjs` answers "how many checked ticket sites does each upcoming date actually lead to?" using `scripts/lib/event-link-coverage.mjs` — an offline mirror of the runtime `providerEventPublishable`, provider-enabled, and URL-shape gates, also read by the SeatGeek enrichment prioritiser so the report and the scheduler cannot disagree. It reports the 0/1/2/3+ distribution and groups low-coverage upcoming events by artist, country, and cause (missing/invalid time data, `needs_recheck`, provider not configured, no qualifying provider listing, ambiguous match, unprocessed/API-cap). Cause attribution reads the committed audit logs in `reports/provider-sync/` tolerantly: a missing or restructured log simply contributes no evidence.
+
+`--check` runs in `test:mvp`. **A zero-link upcoming event fails the build** — a listed date that leads nowhere is the state this pipeline exists to prevent. A one-link event is a reported **warning**, never a failure: a provider genuinely not listing a show is an allowed outcome, and forcing a second link would mean inventing one. Nothing is generated into the repository; the automation evidence that belongs in git already lives in `reports/provider-sync/`.
+
+`npm run events:recheck-review` lists upcoming `needs_recheck` records with the stored Ticketmaster destination and the providers independently publishing on each. It is a worklist only — restoring a Ticketmaster CTA still requires a human to open the stored URL and confirm it lands on that exact event, and no tool in this pipeline does it automatically.
+
 ## Validation
 
 Run the relevant provider self-tests plus:
@@ -149,6 +193,7 @@ Run the relevant provider self-tests plus:
 npm run docs:check
 npm run providers:identities:validate
 npm run validate:cta-provider-state
+npm run report:link-coverage:check
 npm run events:validate:prod
 npm run events:validate:partitions
 npm run test:mvp

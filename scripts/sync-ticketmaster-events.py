@@ -308,6 +308,32 @@ def venue_date_key(venue_name, local_date):
     return f"{venue}|{date}"
 
 
+def discovery_venue_timezone(tm_event):
+    """The exact IANA venue timezone the Discovery record states, or "".
+
+    Discovery reports the zone in one of three places depending on the market
+    and the endpoint: `dates.timezone` on the event, `dates.start.timeZone` on
+    some international listings, and the venue record's own `timezone` — which
+    is where several US listings carry it and nowhere else. Reading only the
+    first silently dropped the zone for the rest, leaving rows whose stored
+    instant cannot be resolved back to a venue-local calendar date, which is
+    what every provider event matcher keys on. All three are read here; the
+    venue field only when the response embeds exactly one venue, so the zone
+    always belongs to this event's own venue. Nothing is inferred from the city,
+    the country, or the UTC offset, and a value that is not in Area/Location
+    form is rejected rather than stored.
+    """
+    dates = tm_event.get("dates") or {}
+    start = dates.get("start") or {}
+    venues = (tm_event.get("_embedded") or {}).get("venues")
+    venue_zone = venues[0].get("timezone") if isinstance(venues, list) and len(venues) == 1 else ""
+    for candidate in (dates.get("timezone"), start.get("timeZone"), venue_zone):
+        value = str(candidate or "").strip()
+        if "/" in value:
+            return value
+    return ""
+
+
 def event_local_date(datetime_iso, tz_name=""):
     """Venue-local calendar date (YYYY-MM-DD) for an events.json row.
 
@@ -409,7 +435,7 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     event_id = (tm_event.get("id") or "").strip()
     url = (tm_event.get("url") or "").strip()
     status_code = (((tm_event.get("dates") or {}).get("status") or {}).get("code") or "").strip().lower()
-    timezone = (((tm_event.get("dates") or {}).get("timezone")) or "").strip()
+    timezone = discovery_venue_timezone(tm_event)
     datetime_iso, has_exact_time = parse_event_datetime(tm_event)
 
     if not datetime_iso:
@@ -981,6 +1007,69 @@ def self_test():
     check(
         "event_local_date falls back to UTC date without a timezone",
         event_local_date("2026-08-04T02:00:00Z", "") == "2026-08-04",
+    )
+
+    # Venue timezone: read exactly, from either place Discovery states it,
+    # never inferred and never silently dropped.
+    check(
+        "venue timezone read from dates.timezone",
+        discovery_venue_timezone({"dates": {"timezone": "America/New_York"}}) == "America/New_York",
+    )
+    check(
+        "venue timezone falls back to dates.start.timeZone",
+        discovery_venue_timezone({"dates": {"start": {"timeZone": "Europe/Madrid"}}}) == "Europe/Madrid",
+    )
+    check(
+        "dates.timezone wins when both are present",
+        discovery_venue_timezone(
+            {"dates": {"timezone": "America/New_York", "start": {"timeZone": "Europe/Madrid"}}}
+        )
+        == "America/New_York",
+    )
+    check(
+        "a non-IANA timezone value is rejected, not stored",
+        discovery_venue_timezone({"dates": {"timezone": "EST"}}) == "",
+    )
+    check(
+        "an absent timezone yields an empty string, never a guess",
+        discovery_venue_timezone({"dates": {"start": {"localDate": "2026-08-04"}}}) == "",
+    )
+    check(
+        "venue timezone falls back to the single embedded venue record",
+        discovery_venue_timezone(
+            {"dates": {}, "_embedded": {"venues": [{"timezone": "America/New_York"}]}}
+        )
+        == "America/New_York",
+    )
+    check(
+        "a venue timezone is ignored when more than one venue is embedded",
+        discovery_venue_timezone(
+            {"dates": {}, "_embedded": {"venues": [{"timezone": "America/New_York"}, {"timezone": "America/Chicago"}]}}
+        )
+        == "",
+    )
+    check(
+        "a candidate row carries the Discovery venue timezone verbatim",
+        classify_event(
+            {
+                "id": "Z1",
+                "name": "OK Artist",
+                "url": "https://www.ticketmaster.com/ok-artist-london/event/Z1",
+                "dates": {
+                    "start": {"dateTime": "2027-07-09T19:00:00Z", "localDate": "2027-07-09"},
+                    "timezone": "Europe/London",
+                    "status": {"code": "onsale"},
+                },
+                "_embedded": {"venues": [{"name": "The O2", "city": {"name": "London"}, "country": {"name": "United Kingdom"}}]},
+            },
+            attraction_id="K1",
+            allowed_hosts={"ticketmaster.com"},
+            existing_event_ids=set(),
+            existing_venue_keys=set(),
+            batch_venue_keys=set(),
+            now_iso="2026-08-08T00:00:00Z",
+        )["timezone"]
+        == "Europe/London",
     )
 
     # Dry-run-only contract: the script source must expose no write path.

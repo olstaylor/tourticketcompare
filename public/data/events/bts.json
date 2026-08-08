@@ -1388,7 +1388,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOuI",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-bts-2026-arlington-z7r9jz1a7oout",
@@ -1440,7 +1441,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOut",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkiiidcu",

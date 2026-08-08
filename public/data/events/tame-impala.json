@@ -670,7 +670,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_M",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-tame-impala-2026-seattle-vvg1hz_d6os55n",
@@ -1338,7 +1339,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_z",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-tame-impala-2026-houston-z7r9jz1a7-a4m",
@@ -1390,6 +1392,7 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-a4M",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   }
 ]

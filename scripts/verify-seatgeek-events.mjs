@@ -60,6 +60,8 @@ import fs from "node:fs/promises";
 import { execFile } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { eventInstantMs } from "./lib/event-local-date.mjs";
+import { eventMatchesArtistFilter } from "./lib/artist-filter.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -123,46 +125,12 @@ function seatGeekEventIdFromUrl(value) {
   return match ? Number.parseInt(match[1], 10) : null;
 }
 
-// UTC-offset of an IANA zone at a given instant, in ms.
-function tzOffsetMs(timeZone, date) {
-  const parts = new Intl.DateTimeFormat("en-US", {
-    timeZone,
-    hourCycle: "h23",
-    year: "numeric", month: "2-digit", day: "2-digit",
-    hour: "2-digit", minute: "2-digit", second: "2-digit"
-  }).formatToParts(date);
-  const lookup = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-  const asUtc = Date.UTC(lookup.year, lookup.month - 1, lookup.day, lookup.hour, lookup.minute, lookup.second);
-  return asUtc - date.getTime();
-}
-
-// Resolve an event's datetime_iso to a UTC instant (ms) or null when
-// ambiguous. Date-only values (time-TBA rows) are always ambiguous — treating
-// them as midnight would let a ±3h comparison clear a valid evening listing.
-// Timezone-naive values are ONLY interpreted through the event's own IANA
-// timezone field; with no timezone they are skipped, never guessed.
-function eventInstantMs(event) {
-  const raw = clean(event?.datetime_iso, 100);
-  if (!raw) return null;
-  if (!/T\d{2}:\d{2}/.test(raw)) return null;
-  const hasZone = /(?:Z|[+-]\d{2}:\d{2})$/i.test(raw);
-  if (hasZone) {
-    const parsed = new Date(raw);
-    return Number.isNaN(parsed.getTime()) ? null : parsed.getTime();
-  }
-  const timeZone = clean(event?.timezone, 80);
-  if (!timeZone || !timeZone.includes("/")) return null;
-  const naiveUtc = new Date(`${raw}Z`);
-  if (Number.isNaN(naiveUtc.getTime())) return null;
-  try {
-    // Two-pass inversion: naive local time − zone offset ≈ instant.
-    let instant = naiveUtc.getTime() - tzOffsetMs(timeZone, naiveUtc);
-    instant = naiveUtc.getTime() - tzOffsetMs(timeZone, new Date(instant));
-    return instant;
-  } catch {
-    return null;
-  }
-}
+// `eventInstantMs` is imported from scripts/lib/event-local-date.mjs — the one
+// resolver every provider matcher shares. Its contract here is unchanged:
+// date-only values (time-TBA rows) are always ambiguous, because treating them
+// as midnight would let a ±3h comparison clear a valid evening listing, and a
+// timezone-naive wall time is only interpreted through the event's own IANA
+// timezone field. Nothing is guessed.
 
 function candidateInstantMs(candidate) {
   const raw = clean(candidate?.datetime_utc, 100);
@@ -347,7 +315,9 @@ function selectEvents(events, registryBySlug, options, now = new Date()) {
   const skipped = [];
   for (const event of events) {
     const slug = clean(event?.artist_slug, 120);
-    if (options.artist && slug !== options.artist) continue;
+    // Same `--artist` semantics as the enrichment lane (scripts/lib/artist-filter.mjs):
+    // an exact artist slug or artist name, never a substring.
+    if (!eventMatchesArtistFilter(event, options.artist)) continue;
     const status = clean(event?.verification_status, 64).toLowerCase();
     const storedUrl = clean(event?.seatgeek_url, 2048);
     const sgLink = event?.provider_links?.seatgeek;
@@ -629,6 +599,18 @@ function selfTest() {
   assert("ambiguous datetime skipped with reason", selection.skipped.some((row) => row.event.id === "s6" && row.reason.includes("ambiguous")));
   assert("unregistered artist skipped with reason", selection.skipped.some((row) => row.event.id === "s7"));
   assert("past event skipped, never touched", !selectedIds.includes("s0") && selection.skipped.some((row) => row.event.id === "s0" && row.reason.includes("past")));
+
+  // --artist semantics, shared with the enrichment lane: exact slug or exact
+  // artist name, never a substring.
+  const filterRows = [
+    { ...base, id: "f1", artist_name: "OK Artist", verification_status: "needs_recheck" },
+    { ...base, id: "f2", artist_slug: "ok-artist-two", artist_name: "OK Artist Two", verification_status: "needs_recheck" }
+  ];
+  const bySlug = selectEvents(filterRows, registryBySlug, { ...selOptions, artist: "ok-artist" }, now).selected.map((event) => event.id);
+  const byName = selectEvents(filterRows, registryBySlug, { ...selOptions, artist: "OK Artist" }, now).selected.map((event) => event.id);
+  assert("artist filter matches the exact slug", bySlug.includes("f1") && !bySlug.includes("f2"));
+  assert("artist filter matches the exact artist name", byName.includes("f1") && !byName.includes("f2"));
+  assert("artist filter is not a substring match", !selectEvents(filterRows, registryBySlug, { ...selOptions, artist: "OK" }, now).selected.length);
 
   let failed = 0;
   for (const check of checks) {

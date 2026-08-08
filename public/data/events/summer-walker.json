@@ -595,7 +595,8 @@
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OIxF",
-    "status": "on-sale"
+    "status": "on-sale",
+    "timezone": "America/Chicago"
   },
   {
     "id": "tm-summer-walker-2026-bristow-17a8v0g6urtwfpk",

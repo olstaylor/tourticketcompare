@@ -296,6 +296,14 @@ function buildEvent(row, verificationStatus = "needs_recheck") {
   }
   if (timezone) event.timezone = timezone;
   if (status) event.status = status;
+  // Post-condition: a provider-supplied IANA venue timezone must survive into
+  // the written record. Without it, the stored instant cannot be resolved back
+  // to the venue-local calendar date every provider event matcher keys on, and
+  // the event silently becomes unmatchable for every resale lane. A drop here
+  // is a bug in this writer, so it fails loudly rather than shipping the row.
+  if (timezone.includes("/") && event.timezone !== timezone) {
+    throw new Error(`buildEvent dropped the supplied venue timezone '${timezone}' for row '${clean(row.id)}'`);
+  }
   return event;
 }
 
@@ -510,6 +518,18 @@ function runSelfTest() {
     buildEvent({ ...goodRow, tour_name: "Should Not Pass Through" }).tour_name === ""
   );
   assert("built event keeps last_verified_at null", event.last_verified_at === null);
+  assert(
+    "built event preserves the row's IANA venue timezone",
+    buildEvent({ ...goodRow, timezone: "America/New_York" }).timezone === "America/New_York"
+  );
+  assert(
+    "built event omits the timezone key entirely when the row has none",
+    !("timezone" in buildEvent({ ...goodRow, timezone: "" }))
+  );
+  assert(
+    "built event never invents a timezone from the city",
+    !("timezone" in buildEvent({ ...goodRow, city: "New York", timezone: "" }))
+  );
 
   const existing = [{ id: "dup-1" }, { id: "keep-1" }];
   const plan = planMerge(existing, [

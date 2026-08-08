@@ -14,6 +14,40 @@
 (function () {
   "use strict";
 
+  // The homepage proposition has three renderers: this hydrated homepage, the
+  // server template (functions/[[path]].js), and the client fallback that runs
+  // when the server shell was not injected (public/app.js). They drifted into
+  // three different promises, so the wording now lives in one marked block that
+  // is copied verbatim into all three files. Keep the block byte-identical —
+  // scripts/homepage-proposition.test.mjs fails the build the moment it drifts.
+  // >>> homepage-proposition >>>
+  const HOME_HEADLINE = "Compare ticket prices for the show you want.";
+  const HOME_SUBCOPY =
+    "Choose an artist and date, see current listed prices from ticket sites where available, then check the final total with the provider.";
+  const HOME_PRIMARY_CTA_LABEL = "Find a show";
+  const HOME_PRIMARY_CTA_HREF = "/artists";
+  const HOME_STEPS = [
+    {
+      title: "1. Find a show",
+      body: "Choose an artist and pick the date you want to go to.",
+      ctaLabel: "Browse artists",
+      href: "/artists"
+    },
+    {
+      title: "2. Compare ticket prices",
+      body: "See the current listed prices we have from ticket sites for that same date.",
+      ctaLabel: "Compare ticket prices",
+      href: "/compare-concert-ticket-prices"
+    },
+    {
+      title: "3. Check the total",
+      body: "Open the ticket site to check the final total, the fees, and what is included.",
+      ctaLabel: "Read the guide",
+      href: "/guides/how-to-compare-concert-ticket-prices"
+    }
+  ];
+  // <<< homepage-proposition <<<
+
   let searchInstance = 0;
 
   /* ---------- DOM helper ---------- */
@@ -337,19 +371,17 @@
     const chips = (withDates.length ? withDates : linkable).slice(0, 5);
     const left = h("div", {}, [
       h("span", { class: "ttc-eyebrow" }, [pulse(), "Independent & unofficial"]),
-      h("h1", { class: "ttc-hero__h1", html: 'Compare concert ticket prices <em>for the same show.</em>' }),
-      h("p", { class: "ttc-hero__sub" }, ["Search an artist, city, or venue. Choose a checked event, then use current provider listed-price snapshots where available to shortlist options. Confirm final prices, fees, and availability on the provider site."]),
+      h("h1", { class: "ttc-hero__h1" }, [HOME_HEADLINE]),
+      h("p", { class: "ttc-hero__sub" }, [HOME_SUBCOPY]),
       h("div", { id: "search-widget", class: "ttc-hero__searchwrap" }, [
         buildSearch(DATA, "lg"),
         h("div", { class: "ttc-hero__chips" }, [
-          h("span", { class: "lab" }, ["Browse artists"]),
-          ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug, onclick: () => track("artist_interest", { result: "home_hero_chip", routeType: "artist", artistSlug: artist.slug }) }, [artist.name])),
-          h("a", { class: "ttc-chip", href: "/artists" }, ["All artists"])
+          h("span", { class: "lab" }, ["Artists"]),
+          ...chips.map(artist => h("a", { class: "ttc-chip", href: "/artists/" + artist.slug, onclick: () => track("artist_interest", { result: "home_hero_chip", routeType: "artist", artistSlug: artist.slug }) }, [artist.name]))
         ])
       ]),
-      h("div", { class: "ttc-hero__trust" }, [
-        h("div", {}, [svg("check"), document.createTextNode(" "), h("b", {}, ["Event links checked"])]),
-        h("div", {}, [h("span", { class: "ttc-pulse ttc-pulse--accent" }, [h("i")]), document.createTextNode(" Snapshots timestamped where available")])
+      h("div", { class: "ttc-hero__actions" }, [
+        h("a", { class: "ttc-btn ttc-btn--primary", href: HOME_PRIMARY_CTA_HREF }, [HOME_PRIMARY_CTA_LABEL])
       ])
     ]);
 
@@ -366,29 +398,26 @@
     ]);
     const feed = h("div", { class: "ttc-feed" }, [
       h("div", { class: "ttc-feed__hd" }, [h("span", { class: "t" }, [pulse(), "Upcoming dates we’re tracking"]), h("span", { class: "ttc-meta" }, [DATA.upcomingCount + " dates"])]),
-      feedList,
-      h("div", { class: "ttc-feed__ft" }, [h("span", { class: "ttc-meta" }, ["Event links checked · final price, fees & availability on the provider"])])
+      feedList
     ]);
 
     return h("section", { class: "ttc-hero" }, [h("div", { class: "ttc-wrap ttc-hero__grid" }, [left, feed])]);
   }
 
   function valueSection() {
-    const vp = [
-      { ic: "search", t: "Find your show", b: "Search an artist and pick the verified date that matches your plans." },
-      { ic: "check",  t: "Shortlist provider options", b: "Compare available, timestamped listed-price snapshots for that same event." },
-      { ic: "arrow",  t: "Confirm and buy", b: "Open the provider site to confirm the final price, fees, availability and ticket details." },
-    ];
+    // Icons are presentation only; the step copy itself is the shared block.
+    const icons = ["search", "check", "arrow"];
     return h("section", { class: "ttc-sec" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["How it works"]), h("p", { class: "ttc-sec__desc" }, ["Three practical steps from a checked event to a provider checkout."])]),
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["How it works"])]),
         h("a", { class: "ttc-sec__link", href: "/how-it-works" }, ["Full details ", svg("arrow")])
       ]),
-      h("div", { class: "ttc-vp" }, vp.map((v, i) => h("div", { class: "ttc-vpcard" }, [
+      h("div", { class: "ttc-vp" }, HOME_STEPS.map((step, i) => h("div", { class: "ttc-vpcard" }, [
         h("div", { class: "ttc-vpcard__n" }, ["0" + (i + 1)]),
-        h("div", { class: "ttc-vpcard__ic" }, [svg(v.ic)]),
-        h("h3", {}, [v.t]),
-        h("p", {}, [v.b])
+        h("div", { class: "ttc-vpcard__ic" }, [svg(icons[i] || "arrow")]),
+        h("h3", {}, [step.title.replace(/^\d+\.\s*/, "")]),
+        h("p", {}, [step.body]),
+        h("a", { class: "ttc-vpcard__link", href: step.href }, [step.ctaLabel, " ", svg("arrow")])
       ])))
     ])]);
   }

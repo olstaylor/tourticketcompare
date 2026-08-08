@@ -2121,9 +2121,9 @@ function renderShowCard(show, options = {}) {
     if (meta) body.append(meta);
     text(body, "p", location || "City and venue details are shown only when verified by the source.", "show-card-sub muted");
   }
-  // Multi-night stands: the date is the only thing separating these cards, so
-  // the night number is a visible chip beside the date rather than a muted
-  // aside. Keep in sync with runHtml in renderShowCardServerHtml.
+  // Multi-night stands: the date badge and meta line above already show this
+  // card's date, so the run line adds only what they don't — which night of
+  // the stand this is. Keep in sync with runHtml in renderShowCardServerHtml.
   const venueRun = options.venueRuns?.[String(show.id || "")];
   if (venueRun) {
     article.classList.add("show-card-run-night");
@@ -2133,8 +2133,6 @@ function renderShowCard(show, options = {}) {
     chip.className = "show-run-chip";
     chip.textContent = `Night ${venueRun.position} of ${venueRun.total}`;
     runLine.append(chip, document.createTextNode(" at this venue"));
-    const runDate = formatShowDate(show.dateTimeISO, show.timezone);
-    if (runDate) runLine.append(document.createTextNode(` — this card is ${runDate}`));
     body.append(runLine);
   }
 
@@ -2189,22 +2187,14 @@ function renderShowCard(show, options = {}) {
         showId: String(show.id || "").trim(),
         ctaLocation: options.ctaLocation || "event_card"
       };
-      // One labelled group, so the row of provider buttons reads as the action
-      // it is. The buttons are the only outbound links on the card — there is
-      // no second "compare" link to double-count a click through.
-      const ctaLabel = document.createElement("p");
-      ctaLabel.className = "provider-cta-label";
-      ctaLabel.append(document.createTextNode("Compare ticket options for this date"));
-      const ctaContext = document.createElement("span");
-      ctaContext.className = "sr-only";
-      ctaContext.textContent = ` at ${location || "this show"}`;
-      ctaLabel.append(ctaContext);
+      // The buttons are the only outbound links on the card — there is no
+      // second "compare" link to double-count a click through.
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
       for (const spec of ctaSpecs) {
         ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }));
       }
-      body.append(ctaLabel, ctaGroup);
+      body.append(ctaGroup);
 
       const notes = renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show));
       if (notes) body.append(notes);

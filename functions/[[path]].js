@@ -390,7 +390,14 @@ async function routeForPath(pathname, env) {
     const artist = findArtist(catalog, artistMatch[1]);
     if (!artist) return null;
     const artistMetaRecord = artistsMeta.find(m => slugify(m.slug) === artistMatch[1]) || {};
-    const enrichedArtist = { ...artist, indexing_status: artistMetaRecord.indexing_status || "" };
+    const enrichedArtist = {
+      ...artist,
+      indexing_status: artistMetaRecord.indexing_status || "",
+      // The artist-level link verification date lives only in artists.json —
+      // catalog.json (the `artist` object above) carries no such field. This
+      // is the one date the provenance panel prints; see renderVerificationDisclosure.
+      last_verified_at: artistMetaRecord.last_verified_at || ""
+    };
     // Indexability is dynamic: an editorially-indexable artist page is only
     // index,follow while it currently has an upcoming show. With zero upcoming
     // dates the board is empty (no dates, no ticket links), so the page
@@ -2609,22 +2616,20 @@ function formatVerificationDate(value) {
 }
 
 // The artist page's editorial provenance block, matching the pattern the city,
-// venue, and guide pages already use. The dates it prints come from the
-// automated verification lanes, and it says so: the repository holds no
-// human-review timestamp for an artist page, so none is claimed here.
-function renderVerificationDisclosure(artist, shows = []) {
+// venue, and guide pages already use. Only the artist-level link verification
+// date renders here: event last_verified_at carries mixed semantics across
+// records (not consistently a verification pass), so folding it into a range
+// with the earliest/latest event date could show a misleading or reversed
+// span. The repository holds no human-review timestamp for an artist page, so
+// none is claimed here, and no generic "checks run daily" filler renders when
+// there's no real date to report.
+function renderVerificationDisclosure(artist) {
   const artistVerifiedDate = formatVerificationDate(artist.last_verified_at);
-  const eventDates = [...new Set(shows.map(show => formatVerificationDate(show.last_verified_at)).filter(Boolean))];
-  const eventRange = eventDates.length ? (eventDates.length === 1 ? eventDates[0] : `${eventDates[0]} to ${eventDates[eventDates.length - 1]}`) : null;
-  const checkedParts = [
-    artistVerifiedDate ? `artist links ${escapeHtml(artistVerifiedDate)}` : "",
-    eventRange ? `event records ${escapeHtml(eventRange)}` : ""
-  ].filter(Boolean);
-  const checkedLine = checkedParts.length
-    ? `<p><strong>Data checked:</strong> ${checkedParts.join(
-        ", "
-      )}. Those are the most recent dates our automated link and source checks recorded against this page's records; the checks themselves run daily. This page has no separate human editorial review date, and we don't print one we haven't done.</p>`
-    : `<p><strong>Data checked:</strong> our automated link and source checks run daily, and none has recorded a date against this page's records yet. This page has no separate human editorial review date, and we don't print one we haven't done.</p>`;
+  const checkedLine = artistVerifiedDate
+    ? `<p><strong>Data checked:</strong> artist links ${escapeHtml(
+        artistVerifiedDate
+      )}. That's the most recent date our automated link checks recorded against this page's records; the checks themselves run daily. This page has no separate human editorial review date, and we don't print one we haven't done.</p>`
+    : "";
   return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How we check this page</h2><p>Published by the ${anchor(
     "TourTicketCompare editorial team",
     "/about",
@@ -3222,13 +3227,9 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       const buttonsHtml = ctaSpecs
         .map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }))
         .join("");
-      // One labelled group, so the row of provider buttons reads as the action
-      // it is. The buttons are the only outbound links on the card — there is
-      // no second "compare" link to double-count a click through.
-      const ctaLabel = `<p class="provider-cta-label">Compare ticket options for this date<span class="sr-only"> at ${escapeHtml(
-        location || "this show"
-      )}</span></p>`;
-      ctaHtml = `${ctaLabel}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`;
+      // The buttons are the only outbound links on the card — there is no
+      // second "compare" link to double-count a click through.
+      ctaHtml = `<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`;
     }
   }
 
@@ -3263,14 +3264,13 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     show.country ? escapeHtml(show.country) : ""
   ].filter(Boolean);
   const metaHtml = metaParts.length ? `<p class="show-card-meta">${metaParts.join(" · ")}</p>` : "";
-  // Multi-night stands: the date is the only thing separating these cards, so
-  // the night number is a visible chip beside the date rather than a muted
-  // aside. Derived purely from the verified rows already on the board.
+  // Multi-night stands: the date badge and meta line above already show this
+  // card's date, so the run line adds only what they don't — which night of
+  // the stand this is. Derived purely from the verified rows already on the
+  // board.
   const run = venueRuns[String(show.id || "")];
   const runHtml = run
-    ? `<p class="show-card-run"><span class="show-run-chip">Night ${run.position} of ${run.total}</span> at this venue${
-        fullDate ? ` — this card is ${escapeHtml(fullDate)}` : ""
-      }</p>`
+    ? `<p class="show-card-run"><span class="show-run-chip">Night ${run.position} of ${run.total}</span> at this venue</p>`
     : "";
   return `<article class="info-card show-card${run ? " show-card-run-night" : ""}"${anchorId ? ` id="${escapeAttr(anchorId)}"` : ""}${show.id ? ` data-event-id="${escapeAttr(String(show.id))}"` : ""} data-show-json="${showJson}">${badgeHtml}<div class="show-card-body"><h3 class="show-card-title">${escapeHtml(title)}</h3>${metaHtml}${subHtml}${runHtml}${ctaHtml}${copyLinkHtml}</div></article>`;
 }
@@ -3478,7 +3478,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       contentModel.emptyBoard
     );
     const providerPanelHtml = renderProviderFallback(catalog, artist, "artist_page", providerAvailability);
-    const trustHtml = renderVerificationDisclosure(artist, shows);
+    const trustHtml = renderVerificationDisclosure(artist);
     // Page order: dates and provider options first, then the compact shared
     // price/fee help, then provenance, and only then supporting editorial. An
     // empty board skips the help component entirely — there is nothing to

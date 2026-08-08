@@ -11,7 +11,7 @@ Numbered SQL files applied to the production D1 database `tourticketcompare-dema
 | `0005_daily_provider_calls.sql` | `daily_provider_calls` rate-cap table (used by `functions/api/shows.js`) | Applied manually via `wrangler d1 execute` (originally named `001_daily_provider_calls.sql`; renamed 2026-07-07 for consistent numbering) |
 | `0006_provider_pricing_history.sql` | `provider_pricing_history` immutable provider-attributed price observations | Covered by the `0007` bootstrap (same `CREATE TABLE IF NOT EXISTS` schema) |
 | `0007_bootstrap_provider_pricing_schema.sql` | Idempotent bootstrap of the pricing cache + history tables and indexes (`CREATE ... IF NOT EXISTS` only, no destructive statements) | `bootstrap-provider-pricing-schema.yml` workflow (`workflow_dispatch`, `apply: true`); added 2026-07-10 |
-| `0008_analytics_commercial_funnel.sql` | Commercial funnel dimensions on `analytics_events` (page type, landing path, event id/date/city/venue, CTA location, destination category, affiliate flag, device, acquisition source, UTM, click id) plus supporting indexes | **Not yet applied** — apply with `wrangler d1 execute` (see below); added 2026-07-31. Confirmed still unapplied on 2026-08-04 by reading the live column list of `analytics_events`, which ends at `link_id`. |
+| `0008_analytics_commercial_funnel.sql` | Commercial funnel dimensions on `analytics_events` (page type, landing path, event id/date/city/venue, CTA location, destination category, affiliate flag, device, acquisition source, UTM, click id) plus supporting indexes | **Applied 2026-08-07** — confirmed via a live `PRAGMA table_info(analytics_events)` read, which now lists all 15 new columns through `click_id`, plus the four new indexes. Added 2026-07-31. |
 
 Notes:
 

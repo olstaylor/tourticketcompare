@@ -187,20 +187,90 @@ does not, set the flag back to `"false"` — nothing else depends on it.
 Applies to the `pxf.io` base-tracking path only. Links built through the Impact
 API `TrackingLinks` endpoint are **not** covered.
 
+### SubId verification procedure (owner, one-time)
+
+`OUT_CLICK_ID_SUBID_ENABLED` is off by default and must stay off until this is
+done once:
+
+1. Confirm with Impact that `subId1` (the default `OUT_CLICK_ID_SUBID_PARAM`)
+   is the correct passthrough parameter name for these campaigns.
+2. Set `OUT_CLICK_ID_SUBID_ENABLED="true"` in `wrangler.toml` `[vars]` and
+   deploy.
+3. Click one live provider CTA end to end.
+4. In Impact's dashboard (or via `npm run report:affiliate-performance`, see
+   below), find the resulting click/action and confirm its `SubId1` matches
+   the `click_id` this site wrote for that click (readable from the
+   `analytics_events` row, or from the `report:affiliate-performance` output's
+   `sub_id_attribution.matched_orders` once a matching action clears).
+5. If the SubId does not appear, set the flag back to `"false"` — nothing
+   else depends on it — and stop; do not guess at a different parameter name
+   without confirming it with Impact first.
+
+## Affiliate performance (Impact Actions x TTC clicks)
+
+`npm run report:affiliate-performance` is a **separate** report from
+`report:commercial-funnel`. It answers a different question: not "how much
+on-site traffic did we get," but "what did Impact do with the clicks we sent
+it." It reads Impact's own read-only Publisher API
+(`GET /Mediapartners/{AccountSID}/Actions`) — orders, order state
+(pending/approved/reversed), commission (`Payout`), and campaign — for the
+same window, keyed to a provider by `CampaignId`, and joins that against this
+site's own authoritative `outbound_click` count per provider from D1.
+
+```bash
+npm run report:affiliate-performance                      # last 30 days
+npm run report:affiliate-performance -- --days 7
+npm run report:affiliate-performance -- --since 2026-08-01 --until 2026-09-01
+npm run report:affiliate-performance -- --json
+npm run report:affiliate-performance -- --self-test        # no network, no D1, no Impact call
+```
+
+Requires `IMPACT_SEATGEEK_ACCOUNT_SID` / `IMPACT_SEATGEEK_AUTH_TOKEN` in the
+environment (the same read-only Impact Publisher API credentials
+`functions/api/out.js` and `functions/api/impact/*` already use server-side)
+plus `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` for the D1 read. Every
+Impact call is a `GET`; every D1 statement is a `SELECT`. It never creates a
+tracking link and never writes anything, in Impact or in D1.
+
+What it reports per provider: TTC outbound clicks, Impact actions split by
+state (approved/pending/reversed), commission earned (approved `Payout` only —
+pending payout is shown separately and is not yet earned), a conversion rate
+and earnings-per-click both computed against **our own** `outbound_click`
+count (never a fabricated Impact click total), and a daily trend of actions
+and payout. Ticketmaster is never queried — it has no Impact program.
+
+**What it still cannot show, and why:** an aggregate Impact-side click count.
+The Impact Partner API's `Clicks` resource retrieves one click by its own ID
+only (`GET /Mediapartners/{AccountSID}/Clicks/{Id}`); there is no
+list/filter-by-date-range endpoint. A true Impact-side click total requires
+either the Impact dashboard UI or Impact's asynchronous `ReportExport` job
+flow, both out of scope for this script. Use the manual reconciliation
+procedure above (*Reconciling with affiliate dashboards*) for that number.
+
+Per-order artist/event attribution (`sub_id_attribution.matched_orders`) is
+only populated once `OUT_CLICK_ID_SUBID_ENABLED` is turned on and verified —
+see the procedure above. With the flag off, this section always reports zero
+candidates; that is expected, not a bug.
+
 ## What cannot be measured
 
-**Checkout happens on the provider's site. We never see it.** The site has no
-visibility into, and must never claim:
+**Checkout happens on the provider's site. We never see it directly.** The
+site's own first-party analytics has no visibility into, and must never claim:
 
 - whether a click became a purchase
 - how many tickets were bought, at what price, or with what fees
-- revenue or commission — these exist only in Impact's dashboards
-- refunds, chargebacks, or reversed commissions
-- anything a visitor does after the redirect
+- refunds or chargebacks
+- anything a visitor does after the redirect, beyond what Impact reports back
+  at the order level (state, payout, campaign, and — only once
+  `OUT_CLICK_ID_SUBID_ENABLED` is verified — the click that referred it)
 
-The funnel therefore ends at "left the site through a monetized link". Revenue
-attribution beyond that point is Impact's number, not ours, and the report will
-never print a conversion or revenue figure. **Do not add one.**
+The `report:commercial-funnel` funnel therefore ends at "left the site through
+a monetized link", and it will never print a conversion or revenue figure —
+**do not add one to it.** `report:affiliate-performance` (above) is the one
+place order state and commission appear, sourced solely from Impact's own
+account data, run manually by the owner; it is not part of the public site,
+is not displayed to visitors, and does not feed back into rankings, CTA
+ordering, or any public page.
 
 Also currently unmeasurable:
 

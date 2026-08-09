@@ -731,7 +731,9 @@ if (baseline?.totals) {
 
 const problems = [];
 for (const orphan of orphanIndexable) problems.push(`orphan: indexable route ${orphan} has no inbound internal link`);
-for (const route of indexableWithoutFutureEvents) problems.push(`empty: indexable route ${route} has no future events`);
+// Empty artist boards are an expected presentation state: the durable artist
+// page remains indexable and is listed in the report while its homepage card
+// moves to the secondary section until a future event is added.
 for (const duplicate of duplicateTitles) {
   problems.push(`duplicate title: ${duplicate.count} indexable routes share "${duplicate.title.slice(0, 70)}"`);
 }

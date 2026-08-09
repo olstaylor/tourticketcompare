@@ -168,7 +168,7 @@ export const TRUST_ROUTES = {
     description:
       "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.",
     indexable: true,
-    lastmod: "2026-08-08"
+    lastmod: "2026-08-09"
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices | TourTicketCompare",
@@ -184,7 +184,7 @@ export const TRUST_ROUTES = {
       "Browse major artist pages with verified ticket links where available and practical buying guidance on what to check before checkout.",
     indexable: true,
     breadcrumb: [{ name: "Artists", path: "/artists" }],
-    lastmod: "2026-08-08"
+    lastmod: "2026-08-09"
   },
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",

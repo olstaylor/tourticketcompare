@@ -15,7 +15,7 @@ import { deriveVenues, findVenue } from "./_venues.js";
 import { deriveCities, findCity, normalizeCountry } from "./_cities.js";
 import { deriveArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
-import { artistPageIndexable, artistHasUpcomingShow } from "./_artist-indexability.js";
+import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -443,11 +443,9 @@ async function routeForPath(pathname, env) {
       // is the one date the provenance panel prints; see renderVerificationDisclosure.
       last_verified_at: artistMetaRecord.last_verified_at || ""
     };
-    // Indexability is dynamic: an editorially-indexable artist page is only
-    // index,follow while it currently has an upcoming show. With zero upcoming
-    // dates the board is empty (no dates, no ticket links), so the page
-    // downgrades to noindex,follow and leaves the sitemap until a new verified
-    // date lands. Shared with sitemap.xml.js so robots meta and sitemap agree.
+    // Date availability controls presentation, not whether the durable artist
+    // URL remains indexable. The empty board is explicit and the same URL fills
+    // again when a future event is added.
     const artistEvents = await loadEvents(env);
     const hasUpcoming = artistHasUpcomingShow(artistEvents, artist.slug);
     return {
@@ -456,9 +454,9 @@ async function routeForPath(pathname, env) {
       indexable: artistPageIndexable(enrichedArtist.indexing_status, artistEvents, artist.slug),
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
       // The authored description promises dates, which is right while the board
-      // has them. An empty board (always noindex,follow) gets a description that
-      // matches what the page actually says, so a shared or cached snippet never
-      // promises dates that are not there.
+      // has them. An empty board gets a description that matches what the page
+      // actually says, so a shared or cached snippet never promises dates that
+      // are not there.
       description: hasUpcoming
         ? artist.meta_description ||
           `Every upcoming ${artist.name} date we've verified, with the ticket links we've checked for each one.`
@@ -1239,16 +1237,27 @@ function artistHasVerifiedEventLinks(catalog, events, artistSlug) {
   ));
 }
 
-// Card state for an artist tile. The `dateless` flag is derived from the *same*
-// gate that decides whether the artist page is indexable at all
-// (functions/_artist-indexability.js), so a card can never promise dates that
-// the page it links to does not have. An empty board is a real destination —
-// bio, recent dates, and a watchlist signup — but it is not a "tickets and tour
-// dates" answer, so the card says so before the click and the tile is sorted
-// and styled as secondary. Keep in sync with artistCardStatus in public/app.js.
-function artistCardStatus(catalog, artist, events) {
+// Card state for an artist tile. Upcoming status comes from the same
+// future-event gate that powers the artist page board. It is presentation
+// state only: artists without dates remain valid linked pages. Keep the card
+// copy in sync with artistCardStatus in public/app.js.
+function artistCardStatus(catalog, artist, events, now = Date.now()) {
   const hasArtistLinks = ticketLinksForArtist(catalog, artist.slug).length > 0;
-  const hasUpcoming = artistHasUpcomingShow(events, artist.slug);
+  const hasUpcoming = artistHasUpcomingShow(events, artist.slug, now);
+  if (!hasUpcoming) {
+    return {
+      pending: false,
+      dateless: true,
+      badgeClass: "status-badge status-badge-muted",
+      badge: "No dates currently listed",
+      detail: "No future dates are currently listed",
+      cardStatus: hasArtistLinks
+        ? "No future dates are currently listed; get an alert when they land."
+        : "No future dates are currently listed for this artist.",
+      ctaLabel: hasArtistLinks ? "Get date alerts" : "View artist page",
+      ctaClass: "button button-secondary"
+    };
+  }
   if (hasUpcoming && artistHasVerifiedEventLinks(catalog, events, artist.slug)) {
     return {
       pending: false,
@@ -1287,16 +1296,6 @@ function artistCardStatus(catalog, artist, events) {
       ctaClass: "button button-primary"
     };
   }
-  return {
-    pending: false,
-    dateless: true,
-    badgeClass: "status-badge status-badge-muted",
-    badge: "No dates yet",
-    detail: "No announced dates — get an alert when they land",
-    cardStatus: "No dates listed yet — the links go to this artist's page on each provider.",
-    ctaLabel: "Get date alerts",
-    ctaClass: "button button-secondary"
-  };
 }
 
 function formatCardDate(iso, timezone) {
@@ -1318,30 +1317,10 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
   return `Next date: ${next} · ${shows.length} upcoming ${shows.length === 1 ? "date" : "dates"}`;
 }
 
-// Grid tier: artists with upcoming dates first, then empty boards, then
-// unverified shells. Two reasons, both deliberate:
-//   1. Visitors — the first thing on the grid is an artist who actually has
-//      dates to buy for, instead of a tile that dead-ends on "No upcoming
-//      dates yet".
-//   2. Crawling — empty-board pages are noindex (see _artist-indexability.js),
-//      so keeping them below the indexable tiles puts the homepage's most
-//      prominent internal links on the pages search engines can actually keep.
-//      The links stay followed: those pages are noindex,follow and their own
-//      internal links still pass equity on.
-function artistCardTier(status) {
-  if (status.pending) return 2;
-  return status.dateless ? 1 : 0;
-}
-
-function renderArtistLinks(catalog, events = []) {
-  const cards = (catalog.artists || []).map((artist) => ({
-    artist,
-    status: artistCardStatus(catalog, artist, events)
-  }));
-  // Array#sort is stable, so catalog order is preserved inside each tier.
-  cards.sort((a, b) => artistCardTier(a.status) - artistCardTier(b.status));
-  return `<div class="artist-card-grid">${cards
-    .map(({ artist, status }) => {
+function renderArtistLinks(catalog, events = [], now = Date.now()) {
+  const renderCards = (artists) => `<div class="artist-card-grid">${artists
+    .map((artist) => {
+      const status = artistCardStatus(catalog, artist, events, now);
       const showSummary = status.pending ? null : upcomingVerifiedShowSummary(events, artist.slug);
       const cardClass = ["artist-card", status.pending ? "is-pending" : "", status.dateless ? "is-dateless" : ""]
         .filter(Boolean)
@@ -1355,6 +1334,8 @@ function renderArtistLinks(catalog, events = []) {
       )}</p>${anchor(status.ctaLabel, `/artists/${artist.slug}`, status.ctaClass)}</article>`;
     })
     .join("")}</div>`;
+  const { primary, secondary } = splitArtistsByUpcoming(catalog.artists, events, now);
+  return `<section class="artist-status-section" aria-labelledby="artistsWithDatesTitle"><div class="section-intro"><h2 id="artistsWithDatesTitle">Artists with upcoming dates</h2><p>${primary.length ? "Choose an artist with a future date currently listed on the site." : "No future dates are currently listed."}</p></div>${primary.length ? renderCards(primary) : ""}</section>${secondary.length ? `<section class="artist-status-section artist-status-section--secondary" aria-labelledby="artistsWithoutDatesTitle"><div class="section-intro"><h2 id="artistsWithoutDatesTitle">No dates currently listed</h2><p>These artist pages remain available and move back to the primary section automatically when a future date is added.</p></div>${renderCards(secondary)}</section>` : ""}`;
 }
 
 function cityShowCountLabel(count) {
@@ -1733,9 +1714,10 @@ function artistBoardModel(route, events, env) {
       hasPriceSnapshot: specs.some((spec) => spec.priceAmount && spec.priceAsOf)
     };
   });
-  // Only computed for the empty board: the artist's last verified dates give
-  // the zero-upcoming state real, factual content instead of a bare form.
-  const pastShows = shows.length ? [] : recentPastShowsForArtist(events, artist.slug, 3);
+  // Keep the zero-upcoming state concise. Past dates and their verification
+  // timestamps are not a substitute for current dates and can make an empty
+  // page sound like an active tour, so they are intentionally omitted here.
+  const pastShows = [];
   const model = {
     shows,
     pastShows,
@@ -2150,7 +2132,7 @@ function renderGuideClusters() {
 function renderArtistStatusLegendHtml() {
   const items = [
     ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
-    ["status-badge status-badge-muted", "No dates yet", "No announced dates — artist page and alerts only"],
+    ["status-badge status-badge-muted", "No dates currently listed", "No future dates — artist page and alerts only"],
     ["status-badge status-badge-muted", "Being checked", "Links appear once we've checked them"]
   ];
   return `<div class="artist-status-legend" aria-label="Artist card status legend">${items
@@ -3433,9 +3415,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   const boardIntro = shows.length
     ? `<p>Each date below comes from a reviewed source record. Pick yours, then compare the ticket sites that cover it.</p>`
     : `<p>Dates appear here once a source record confirms them and we've followed the ticket link.</p>`;
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">${
-    shows.length ? "Upcoming dates" : "Upcoming shows"
-  }</h2>${boardIntro}<p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}<p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -3507,18 +3487,12 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       .map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`)
       .join("");
     const providerAvailability = { seatgeek: seatGeekAvailable, "vivid-seats": vividSeatsAvailable, ...marketplaceAvailability };
-    const primaryProviderLink = availableArtistProviderLinks(catalog, artist, providerAvailability)[0] || null;
-    const emptyStateProviderCta = primaryProviderLink
-      ? {
-          name: PROVIDER_DISPLAY_NAMES[slugify(primaryProviderLink.provider)] || primaryProviderLink.provider,
-          href: artistProviderHref(artist, primaryProviderLink, "artist_page")
-        }
-      : null;
+    const emptyStateProviderCta = null;
     // Lead block: heading, the data-grounded intro, and the fact strip. Wrapped
     // for hydration transplant so the client never recomputes this copy.
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
-      artist.name
-    )} tickets and tour dates</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${renderArtistStatusFactsHtml(
+      shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
+    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${renderArtistStatusFactsHtml(
       contentModel.facts
     )}</div>`;
     const showBoardHtml = renderShowBoardServerHtml(
@@ -3533,15 +3507,17 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       pastShows,
       contentModel.emptyBoard
     );
-    const providerPanelHtml = renderProviderFallback(catalog, artist, "artist_page", providerAvailability);
-    const trustHtml = renderVerificationDisclosure(artist);
+    const providerPanelHtml = shows.length
+      ? renderProviderFallback(catalog, artist, "artist_page", providerAvailability)
+      : "";
+    const trustHtml = shows.length ? renderVerificationDisclosure(artist) : "";
     // Page order: dates and provider options first, then the compact shared
     // price/fee help, then provenance, and only then supporting editorial. An
     // empty board skips the help component entirely — there is nothing to
     // compare, and a page with no dates is not the place for a buying course.
     const commercialHtml = shows.length
       ? `${showBoardHtml}${providerPanelHtml}${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
-      : `${providerPanelHtml}${showBoardHtml}${trustHtml}`;
+      : showBoardHtml;
     const supportingHtml = `<section class="split-section"><div><h2>About ${escapeHtml(
       artist.name
     )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div><div><h2>About these links</h2><p>${escapeHtml(
@@ -3996,7 +3972,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></div></section><section id="search-widget" class="section-grid search-section" aria-labelledby="searchSectionTitle"><div class="section-intro"><h2 id="searchSectionTitle">Search results</h2><p>Search artists, shows, and guides.</p></div><div class="search-results" role="region" aria-label="Search results" aria-live="polite" aria-atomic="false"></div></section><section class="section-grid what-you-can-do" aria-labelledby="whatYouCanDoTitle"><div class="section-intro"><h2 id="whatYouCanDoTitle">How it works</h2></div><div class="card-grid">${HOME_STEPS.map(
     (step) =>
       `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`
-  ).join("")}</div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Upcoming dates and ticket links for every artist on the site. Artists with announced dates come first. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
+  ).join("")}</div></section><section id="featured-artists" class="section-grid" aria-labelledby="homeArtistsTitle"><div class="section-intro"><h2 id="homeArtistsTitle">Artists we track</h2><p>Artists with future dates appear in the primary section. Artist pages without a future date remain available below and return automatically when a date is added. Planning around a place rather than an act? ${anchor("Browse cities", "/cities", "text-link")} or ${anchor("browse venues", "/venues", "text-link")}.</p></div>${renderArtistLinks(
     catalog,
     events
   )}</section><section class="section-grid" aria-labelledby="homeBuyingGuidesTitle"><div class="section-intro"><h2 id="homeBuyingGuidesTitle">Buying guides</h2><p>Fees, resale, timing, scams — what to check before you buy.</p></div>${renderHomepageGuideLinks()}<div class="action-row">${anchor(

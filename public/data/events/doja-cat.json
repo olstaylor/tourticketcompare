@@ -1306,12 +1306,20 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7457641",
+        "url": "https://www.ticketliquidator.com/tickets/7457641/Doja-Cat-tickets-Sat-Nov-7-2026-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4g",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457641"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457641",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457641/Doja-Cat-tickets-Sat-Nov-7-2026-Toyota-Center-TX"
   },
   {
     "id": "tm-doja-cat-2026-miami-vvg1vzbs0fdfw5",

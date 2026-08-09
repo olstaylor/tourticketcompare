@@ -52,13 +52,21 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7921647",
+        "url": "https://www.ticketliquidator.com/tickets/7921647/Olivia-Rodrigo-tickets-Fri-Sep-25-2026-PeoplesBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A706ep",
     "timezone": "America/New_York",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921647"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921647",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921647/Olivia-Rodrigo-tickets-Fri-Sep-25-2026-PeoplesBank-Arena"
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
@@ -113,13 +121,21 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7921648",
+        "url": "https://www.ticketliquidator.com/tickets/7921648/Olivia-Rodrigo-tickets-Sat-Sep-26-2026-PeoplesBank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70677",
     "timezone": "America/New_York",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921648"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921648",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921648/Olivia-Rodrigo-tickets-Sat-Sep-26-2026-PeoplesBank-Arena"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
@@ -1881,13 +1897,21 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7921667",
+        "url": "https://www.ticketliquidator.com/tickets/7921667/Olivia-Rodrigo-tickets-Thu-Nov-19-2026-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7067F",
     "timezone": "America/New_York",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921667"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921667",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921667/Olivia-Rodrigo-tickets-Thu-Nov-19-2026-Amerant-Bank-Arena"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
@@ -1942,13 +1966,21 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7921668",
+        "url": "https://www.ticketliquidator.com/tickets/7921668/Olivia-Rodrigo-tickets-Fri-Nov-20-2026-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7067o",
     "timezone": "America/New_York",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921668"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921668",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921668/Olivia-Rodrigo-tickets-Fri-Nov-20-2026-Amerant-Bank-Arena"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
@@ -2773,13 +2805,21 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7921677",
+        "url": "https://www.ticketliquidator.com/tickets/7921677/Olivia-Rodrigo-tickets-Sat-Dec-19-2026-T-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A706kk",
     "timezone": "America/Los_Angeles",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921677"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921677",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921677/Olivia-Rodrigo-tickets-Sat-Dec-19-2026-T-Mobile-Arena"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf",
@@ -2834,13 +2874,21 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7921678",
+        "url": "https://www.ticketliquidator.com/tickets/7921678/Olivia-Rodrigo-tickets-Sun-Dec-20-2026-T-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A706kF",
     "timezone": "America/Los_Angeles",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921678"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921678",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921678/Olivia-Rodrigo-tickets-Sun-Dec-20-2026-T-Mobile-Arena"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw",

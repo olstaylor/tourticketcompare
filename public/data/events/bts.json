@@ -1392,12 +1392,20 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676866",
+        "url": "https://www.ticketliquidator.com/tickets/7676866/BTS-tickets-Sat-Aug-15-2026-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOuI",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676866"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676866",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676866/BTS-tickets-Sat-Aug-15-2026-ATT-Stadium"
   },
   {
     "id": "tm-bts-2026-arlington-z7r9jz1a7oout",
@@ -1453,12 +1461,20 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676867",
+        "url": "https://www.ticketliquidator.com/tickets/7676867/BTS-tickets-Sun-Aug-16-2026-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOut",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676867"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676867",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676867/BTS-tickets-Sun-Aug-16-2026-ATT-Stadium"
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkiiidcu",

@@ -1133,12 +1133,20 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954151",
+        "url": "https://www.ticketliquidator.com/tickets/7954151/Niall-Horan-tickets-Wed-Mar-17-2027-Grand-Casino-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A704vb",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954151"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954151",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954151/Niall-Horan-tickets-Wed-Mar-17-2027-Grand-Casino-Arena"
   },
   {
     "id": "tm-niall-horan-2027-detroit-vvg1oz_1rv4ast",
@@ -2184,12 +2192,20 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7954218",
+        "url": "https://www.ticketliquidator.com/tickets/7954218/Niall-Horan-tickets-Sat-May-1-2027-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A709uy",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954218"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954218",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954218/Niall-Horan-tickets-Sat-May-1-2027-Toyota-Center-TX"
   },
   {
     "id": "tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer",

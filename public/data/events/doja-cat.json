@@ -1299,11 +1299,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457641",
+        "url": "https://www.ticketnetwork.com/en/p/7457641",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4g",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457641"
   },
   {
     "id": "tm-doja-cat-2026-miami-vvg1vzbs0fdfw5",

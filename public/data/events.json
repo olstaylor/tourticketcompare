@@ -8127,12 +8127,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7921647",
+        "url": "https://www.ticketnetwork.com/en/p/7921647",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A706ep",
-    "timezone": "America/New_York"
+    "timezone": "America/New_York",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921647"
   },
   {
     "id": "tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677",
@@ -8180,12 +8188,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7921648",
+        "url": "https://www.ticketnetwork.com/en/p/7921648",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70677",
-    "timezone": "America/New_York"
+    "timezone": "America/New_York",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921648"
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv",
@@ -9940,12 +9956,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7921667",
+        "url": "https://www.ticketnetwork.com/en/p/7921667",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7067F",
-    "timezone": "America/New_York"
+    "timezone": "America/New_York",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921667"
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
@@ -9993,12 +10017,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7921668",
+        "url": "https://www.ticketnetwork.com/en/p/7921668",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7067o",
-    "timezone": "America/New_York"
+    "timezone": "America/New_York",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921668"
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
@@ -10816,12 +10848,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7921677",
+        "url": "https://www.ticketnetwork.com/en/p/7921677",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A706kk",
-    "timezone": "America/Los_Angeles"
+    "timezone": "America/Los_Angeles",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921677"
   },
   {
     "id": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf",
@@ -10869,12 +10909,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7921678",
+        "url": "https://www.ticketnetwork.com/en/p/7921678",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A706kF",
-    "timezone": "America/Los_Angeles"
+    "timezone": "America/Los_Angeles",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921678"
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw",
@@ -21089,12 +21137,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418618",
+        "url": "https://www.ticketnetwork.com/en/p/7418618",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_w",
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418618"
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331a7d91aff",
@@ -22609,11 +22665,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676866",
+        "url": "https://www.ticketnetwork.com/en/p/7676866",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOuI",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676866"
   },
   {
     "id": "tm-bts-2026-arlington-z7r9jz1a7oout",
@@ -22662,11 +22726,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676867",
+        "url": "https://www.ticketnetwork.com/en/p/7676867",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOut",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676867"
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkiiidcu",
@@ -25290,11 +25362,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583741",
+        "url": "https://www.ticketnetwork.com/en/p/7583741",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vU",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583741"
   },
   {
     "id": "tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt",
@@ -25343,11 +25423,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583742",
+        "url": "https://www.ticketnetwork.com/en/p/7583742",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vt",
     "status": "on-sale",
-    "timezone": "America/Phoenix"
+    "timezone": "America/Phoenix",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583742"
   },
   {
     "id": "tm-zach-bryan-2026-dover-z7r9jz1a7r4vz",
@@ -25762,11 +25850,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7583748",
+        "url": "https://www.ticketnetwork.com/en/p/7583748",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4ev",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583748"
   },
   {
     "id": "tm-jelly-roll-2026-colorado-springs-z7r9jz1a7xfou",
@@ -26489,11 +26585,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735040",
+        "url": "https://www.ticketnetwork.com/en/p/7735040",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_M",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735040"
   },
   {
     "id": "tm-tame-impala-2026-seattle-vvg1hz_d6os55n",
@@ -27158,11 +27262,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7735047",
+        "url": "https://www.ticketnetwork.com/en/p/7735047",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_z",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735047"
   },
   {
     "id": "tm-tame-impala-2026-houston-z7r9jz1a7-a4m",
@@ -27211,11 +27323,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7745714",
+        "url": "https://www.ticketnetwork.com/en/p/7745714",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-a4M",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7745714"
   },
   {
     "id": "tm-jay-z-2026-london-17u8v0g6cxpcqan",
@@ -32387,11 +32507,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954151",
+        "url": "https://www.ticketnetwork.com/en/p/7954151",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A704vb",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954151"
   },
   {
     "id": "tm-niall-horan-2027-detroit-vvg1oz_1rv4ast",
@@ -33430,11 +33558,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7954218",
+        "url": "https://www.ticketnetwork.com/en/p/7954218",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A709uy",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954218"
   },
   {
     "id": "tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer",
@@ -35405,11 +35541,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7457641",
+        "url": "https://www.ticketnetwork.com/en/p/7457641",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jS4g",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457641"
   },
   {
     "id": "tm-doja-cat-2026-miami-vvg1vzbs0fdfw5",
@@ -36857,11 +37001,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874854",
+        "url": "https://www.ticketnetwork.com/en/p/7874854",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Gw",
     "status": "on-sale",
-    "timezone": "America/Los_Angeles"
+    "timezone": "America/Los_Angeles",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874854"
   },
   {
     "id": "tm-sombr-2026-glendale-z7r9jz1a7x8gy",
@@ -36910,11 +37062,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874855",
+        "url": "https://www.ticketnetwork.com/en/p/7874855",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8GY",
     "status": "on-sale",
-    "timezone": "America/Phoenix"
+    "timezone": "America/Phoenix",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874855"
   },
   {
     "id": "tm-sombr-2026-oklahoma-city-z7r9jz1a7x8av",
@@ -36963,11 +37123,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874858",
+        "url": "https://www.ticketnetwork.com/en/p/7874858",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Av",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874858"
   },
   {
     "id": "tm-sombr-2026-houston-z7r9jz1a7x8ae",
@@ -37016,11 +37184,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874862",
+        "url": "https://www.ticketnetwork.com/en/p/7874862",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8Ae",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874862"
   },
   {
     "id": "tm-sombr-2026-dallas-vvg1yz_fn5kifv",
@@ -37300,11 +37476,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874867",
+        "url": "https://www.ticketnetwork.com/en/p/7874867",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8vw",
     "status": "on-sale",
-    "timezone": "America/New_York"
+    "timezone": "America/New_York",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874867"
   },
   {
     "id": "tm-sombr-2026-orlando-1aefz_fgkn1mew3",
@@ -38258,11 +38442,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7874881",
+        "url": "https://www.ticketnetwork.com/en/p/7874881",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xav7",
     "status": "on-sale",
-    "timezone": "America/New_York"
+    "timezone": "America/New_York",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874881"
   },
   {
     "id": "tm-sombr-2026-buffalo-k7v17_f0kg7ij1e",
@@ -38879,11 +39071,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982945",
+        "url": "https://www.ticketnetwork.com/en/p/7982945",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IJb",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982945"
   },
   {
     "id": "tm-john-summit-2026-montreal-17g8v0g652qqblc",
@@ -39298,11 +39498,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7982952",
+        "url": "https://www.ticketnetwork.com/en/p/7982952",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70t74",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982952"
   },
   {
     "id": "tm-john-summit-2026-austin-g5diz_52qgtuz",

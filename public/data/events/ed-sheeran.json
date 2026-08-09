@@ -1608,12 +1608,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7418618",
+        "url": "https://www.ticketnetwork.com/en/p/7418618",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_w",
     "status": "on-sale",
     "verification_status": "needs_recheck",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418618"
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331a7d91aff",

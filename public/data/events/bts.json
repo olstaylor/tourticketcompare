@@ -1385,11 +1385,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676866",
+        "url": "https://www.ticketnetwork.com/en/p/7676866",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOuI",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676866"
   },
   {
     "id": "tm-bts-2026-arlington-z7r9jz1a7oout",
@@ -1438,11 +1446,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7676867",
+        "url": "https://www.ticketnetwork.com/en/p/7676867",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOut",
     "status": "on-sale",
-    "timezone": "America/Chicago"
+    "timezone": "America/Chicago",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676867"
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkiiidcu",

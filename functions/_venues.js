@@ -73,6 +73,10 @@ export function deriveVenues(events, options = {}) {
       event_name: String(event.event_name || "").trim(),
       tour_name: String(event.tour_name || "").trim(),
       datetime_iso: iso,
+      // See the matching note in _cities.js: without the event's timezone the
+      // page's date labels fall back to UTC and disagree with the show cards
+      // rendered directly below them.
+      timezone: String(event.timezone || "").trim(),
       last_verified_at: String(event.last_verified_at || "").trim(),
       publishable: eventPublishable(event),
       statusPublishable: eventStatusPublishable(event),

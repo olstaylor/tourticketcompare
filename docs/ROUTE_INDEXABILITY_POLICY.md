@@ -188,6 +188,36 @@ These apply to city, venue, and artist-city pages together.
   page types. Both facts remain stated in the visible disclosure note every one
   of these pages already renders, and are explained properly in the linked
   guides. Repeating them made hundreds of near-identical `FAQPage` blocks.
+- **City and venue pages carry no FAQ at all.** What survived the rule above
+  was four questions per page whose answers restated the counts in the lead and
+  the first row of the schedule directly underneath them — a question-shaped
+  copy of the page. They were removed rather than reworded, and nothing was
+  written to take their place. Their `FAQPage` mirror went with them, because
+  schema never describes content the page does not show. Artist-city pages keep
+  their FAQ: those answers are about one artist in one city and are not
+  restated elsewhere on the page.
+- **Say each fact once.** A city or venue page states its upcoming-show count,
+  artist count and date span in one lead sentence built from the derived record,
+  and then shows the schedule. The "at a glance" card decks, the artist-coverage
+  list, and the page-level "most recently checked ..." paragraph all restated
+  those same numbers further down; `scripts/audit-internal-links.mjs` now fails
+  a location page that names its show count more than once.
+- **Location page dates are local dates.** The city and venue derivations carry
+  each event's `timezone` so a show is labelled with the day it happens, matching
+  the show card on the artist page. Without it the renderer falls back to UTC,
+  which prints the wrong calendar day for most records — a US evening show is
+  already "tomorrow" in UTC.
+- **No word-count floor on a location page.** These pages are an aggregation
+  layer: their length should follow the size of the schedule, not a target. The
+  audit checks that the useful parts are present (the disclosure, the schedule,
+  one dated listing per upcoming show, the route to ticket options, the byline)
+  and that the filler has not returned. Rule 3 above applies here too — a page
+  padded to clear a floor is filler.
+- **An empty location record gets an empty state, not a frame.** The router
+  404s a city or venue with nothing upcoming, so this is reached only in the gap
+  between a date passing and the derivation seeing it. The template says so in
+  one sentence and offers a way onward; it never renders a heading stack around
+  no content. Covered by `scripts/location-pages.test.mjs`.
 - **No templated buying checklist.** The "How to buy \<artist\> tickets in
   \<city\>" five-step list was byte-identical across every artist-city page and
   duplicated both the artist page's own buying guide and

@@ -97,6 +97,10 @@ npm run status:surface:write                  # regenerate the <!-- generated:�
                                               #   that moves the indexable set.
 npm run audit:indexable-surface:baseline      # re-anchor the baseline (only for an intended policy change)
 npm run test:route-indexability               # gate units, city/venue derivations, redirect-map safety
+npm run test:location-pages                   # the shared city/venue page templates rendered against a
+                                              #   pinned clock, with and without upcoming shows — run it
+                                              #   after editing either template. See
+                                              #   docs/ROUTE_INDEXABILITY_POLICY.md § Shared content
 npm run test:homepage-proposition             # homepage/artists/how-it-works copy parity across the
                                               #   server template, the hydrated homepage, and the
                                               #   client fallback (in test:mvp) — run it after editing

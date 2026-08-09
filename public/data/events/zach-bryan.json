@@ -507,12 +507,20 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583741",
+        "url": "https://www.ticketliquidator.com/tickets/7583741/Zach-Bryan-tickets-Sat-Aug-22-2026-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vU",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583741"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583741",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583741/Zach-Bryan-tickets-Sat-Aug-22-2026-ATT-Stadium"
   },
   {
     "id": "tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt",
@@ -568,12 +576,20 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583742",
+        "url": "https://www.ticketliquidator.com/tickets/7583742/Zach-Bryan-tickets-Sat-Sep-5-2026-State-Farm-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4vt",
     "status": "on-sale",
     "timezone": "America/Phoenix",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583742"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583742",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583742/Zach-Bryan-tickets-Sat-Sep-5-2026-State-Farm-Stadium"
   },
   {
     "id": "tm-zach-bryan-2026-dover-z7r9jz1a7r4vz",
@@ -995,11 +1011,19 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7583748",
+        "url": "https://www.ticketliquidator.com/tickets/7583748/Zach-Bryan-tickets-Sat-Oct-10-2026-Jordan-Hare-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4ev",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583748"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583748",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583748/Zach-Bryan-tickets-Sat-Oct-10-2026-Jordan-Hare-Stadium"
   }
 ]

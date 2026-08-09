@@ -1,25 +1,12 @@
 // Shared artist-page indexability gate.
 //
-// An artist page (/artists/<slug>) is a "tickets and tour dates" page. When the
-// artist has no upcoming shows, that page renders an empty board with no dates
-// and no event ticket links — thin, doorway-like content for the query it
-// targets. Following the same self-healing pattern the city and venue
-// aggregations already use (functions/_cities.js / _venues.js), an artist page
-// is treated as indexable only when BOTH hold right now:
+// An artist page (/artists/<slug>) remains a durable destination even when its
+// artist has no upcoming shows. That page renders an explicit empty state.
+// Future-date availability is presentation state, not a reason to delete or
+// noindex the artist URL; the same URL fills again when a future event is added.
 //
-//   1. its editorial record is marked indexable_with_substantial_content, and
-//   2. it currently has at least one upcoming show.
-//
-// The moment a new verified date lands (via the nightly discovery lanes) the
-// page flips back to index,follow and re-enters the sitemap automatically; the
-// moment the last date passes it drops to noindex,follow and leaves the
-// sitemap. No data is invented and no manual list is maintained — the gate is
-// derived from the same reviewed events.json every other page type reads.
-//
-// This module is the single source of truth for that gate so the router (robots
-// meta in functions/[[path]].js) and the sitemap (functions/sitemap.xml.js)
-// cannot drift — scripts/audit-internal-links.mjs --check fails CI if a page's
-// robots state ever disagrees with its sitemap membership.
+// This module is the single source of truth for future-date state used by the
+// presentation layer.
 
 export const INDEXABLE_ARTIST_STATUS = "indexable_with_substantial_content";
 
@@ -38,8 +25,8 @@ function normalizeSlug(value) {
  * Mirrors the future-date filter in futureShowsForArtist(): a parseable
  * datetime_iso at or after `now`. Publishability is deliberately NOT required —
  * a future date still renders a real card with city/venue/date, which is
- * genuine unique content even if its CTA is suppressed. Only a truly empty
- * board (zero upcoming shows) downgrades the page.
+ * genuine unique content even if its CTA is suppressed. A zero-date board is
+ * still a valid artist page with an explicit empty state.
  *
  * @param {Array<object>} events    Raw events.json records.
  * @param {string} artistSlug
@@ -58,8 +45,23 @@ export function artistHasUpcomingShow(events, artistSlug, now = Date.now()) {
 }
 
 /**
- * Is the artist page currently indexable? True only when the editorial record
- * is indexable_with_substantial_content AND the artist has an upcoming show.
+ * Split catalog artists into the two presentation sections used by the
+ * homepage and artist index. `now` is injectable so rollover behaviour is
+ * tested without relying on the wall clock.
+ */
+export function splitArtistsByUpcoming(artists, events, now = Date.now()) {
+  const primary = [];
+  const secondary = [];
+  for (const artist of Array.isArray(artists) ? artists : []) {
+    (artistHasUpcomingShow(events, artist?.slug, now) ? primary : secondary).push(artist);
+  }
+  return { primary, secondary };
+}
+
+/**
+ * Is the artist page currently indexable? Future-date availability does not
+ * remove the page from search: it is a presentation state, not an indexability
+ * gate. Extra arguments are retained for callers of the previous API.
  *
  * @param {string} indexingStatus   artists.json indexing_status.
  * @param {Array<object>} events    Raw events.json records.
@@ -68,5 +70,8 @@ export function artistHasUpcomingShow(events, artistSlug, now = Date.now()) {
  * @returns {boolean}
  */
 export function artistPageIndexable(indexingStatus, events, artistSlug, now = Date.now()) {
-  return indexingStatus === INDEXABLE_ARTIST_STATUS && artistHasUpcomingShow(events, artistSlug, now);
+  void events;
+  void artistSlug;
+  void now;
+  return indexingStatus === INDEXABLE_ARTIST_STATUS;
 }

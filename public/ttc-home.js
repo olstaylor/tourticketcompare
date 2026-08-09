@@ -452,7 +452,7 @@
         h("td", { "data-k": "Region" }, [h("span", { class: "ttc-region" }, [regionCode(a.country)])]),
         h("td", { "data-k": "Dates" }, [a.upcoming
           ? h("span", { class: "ttc-pill ttc-pill--info" }, [a.upcoming + (a.upcoming === 1 ? " date" : " dates")])
-          : h("span", { class: "ttc-pill ttc-pill--muted" }, ["No dates yet"])]),
+          : h("span", { class: "ttc-pill ttc-pill--muted" }, ["No dates currently listed"])]),
         h("td", { "data-k": "Verified" }, [a.verified
           ? h("span", { class: "ttc-pill ttc-pill--good" }, [svg("check"), a.provider])
           : h("span", { class: "ttc-pill ttc-pill--muted" }, ["Watching"])]),
@@ -471,6 +471,29 @@
         h("td", { class: "ttc-tcell-act", "data-k": "" }, [h("a", { class: "ttc-tbtn", href: eventHref(e), onclick: () => track("artist_interest", { result: "home_table_event", routeType: "event", artistSlug: e.artist_slug, showId: String(e.id || "") }) }, ["View event ", svg("arrow")])])
       ]));
     }
+    function artistCard(a) {
+      const article = h("article", { class: "artist-card" + (a.upcoming ? "" : " is-dateless") }, [
+        h("h3", {}, [a.name]),
+        h("p", { class: a.upcoming ? "status-badge" : "status-badge status-badge-muted" }, [a.upcoming ? "Dates listed" : "No dates currently listed"]),
+        h("p", { class: "card-status" }, [a.upcoming ? `${a.upcoming} upcoming ${a.upcoming === 1 ? "date" : "dates"}` : "No future dates are currently listed."]),
+        h("a", { class: a.upcoming ? "button button-primary" : "button button-secondary", href: "/artists/" + a.slug }, [a.upcoming ? "View dates" : "View artist page"])
+      ]);
+      return article;
+    }
+    function artistSections() {
+      const primary = DATA.artists.filter(a => a.upcoming > 0);
+      const secondary = DATA.artists.filter(a => a.upcoming === 0);
+      const section = (title, description, items, secondaryClass = "") => h("section", { class: "artist-status-section" + secondaryClass }, [
+        h("div", { class: "section-intro" }, [h("h3", {}, [title]), ...(description ? [h("p", {}, [description])] : [])]),
+        items.length
+          ? h("div", { class: "artist-card-grid" }, items.map(artistCard))
+          : h("p", { class: "muted" }, ["No future dates are currently listed."])
+      ]);
+      return h("div", {}, [
+        section("Artists with upcoming dates", "Choose an artist with a future date currently listed on the site.", primary),
+        ...(secondary.length ? [section("No dates currently listed", "These artist pages remain available and return to the primary group automatically when a date is added.", secondary, " artist-status-section--secondary")] : [])
+      ]);
+    }
     function render() {
       card.innerHTML = "";
       const tabs = [["artist", "Artists", DATA.artists.length], ["event", "Upcoming dates", DATA.eventRows.length]];
@@ -481,28 +504,20 @@
       const table = h("table", { class: "ttc-table" });
       const thead = h("thead");
       if (tab === "artist") {
-        const cols = [["name", "Artist"], ["genre", "Genre"], ["region", "Region"], ["dates", "Dates"], ["verified", "Verified"], ["last", "Last check"], [null, "Action", true]];
-        thead.appendChild(h("tr", {}, cols.map(([key, lbl, right]) => {
-          const th = h("th", { class: right ? "right" : "" }, [lbl]);
-          if (key) { th.appendChild(h("span", { class: "car" }, [sort.key === key ? (sort.dir < 0 ? "↓" : "↑") : "↕"])); th.addEventListener("click", () => { sort = { key, dir: sort.key === key ? -sort.dir : 1 }; render(); }); }
-          return th;
-        })));
-        table.appendChild(thead);
-        const rows = artistRows();
-        table.appendChild(h("tbody", {}, rows.length ? rows : [emptyRow(7, "No artists to show yet.")]));
+        card.appendChild(artistSections());
       } else {
         thead.appendChild(h("tr", {}, [["Event"],["Venue"],["Date"],["Region"],["Action",true]].map(([lbl, right]) => h("th", { class: right ? "right" : "" }, [lbl]))));
         table.appendChild(thead);
         const rows = eventRows();
         table.appendChild(h("tbody", {}, rows.length ? rows : [emptyRow(5, "No upcoming dates are being tracked right now. Dates appear here once they’ve been announced and checked.")]));
       }
-      card.appendChild(table);
+      if (tab === "event") card.appendChild(table);
     }
     render();
 
     return h("section", { class: "ttc-sec ttc-sec--flush" }, [h("div", { class: "ttc-wrap" }, [
       h("div", { class: "ttc-sec__hd" }, [
-        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Coverage explorer"]), h("p", { class: "ttc-sec__desc" }, ["Every tracked artist and when we last checked their links. Artists with announced dates are listed first; “No dates yet” means the page is up and taking alert signups, but nothing is on sale. Ticket buttons appear only for verified destinations."])]),
+        h("div", {}, [h("h2", { class: "ttc-sec__h2" }, ["Coverage explorer"]), h("p", { class: "ttc-sec__desc" }, ["Artists with future dates are shown first. Artists without a future date remain available below and return to the primary group automatically when a date is added. Ticket buttons appear only for verified destinations."])]),
         h("a", { class: "ttc-sec__link", href: "/artists" }, ["All artists ", svg("arrow")])
       ]),
       card

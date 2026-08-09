@@ -665,11 +665,10 @@ function artistHasVerifiedEventLinks(events, artistSlug) {
 }
 
 // Does the artist have at least one upcoming (future-dated) reviewed show?
-// Mirrors artistHasUpcomingShow in functions/_artist-indexability.js — the same
-// gate that decides whether /artists/<slug> is indexable at all. Publishability
-// is deliberately not required: a future date still renders a real card.
-function artistHasUpcomingShow(events, artistSlug) {
-  const now = Date.now();
+// Mirrors artistHasUpcomingShow in functions/_artist-indexability.js. This is
+// presentation state only; it does not decide whether the artist URL exists or
+// is indexable.
+function artistHasUpcomingShow(events, artistSlug, now = Date.now()) {
   const slug = slugify(artistSlug);
   return (events || []).some((event) => {
     if (!event || slugify(event.artist_slug) !== slug) return false;
@@ -678,15 +677,27 @@ function artistHasUpcomingShow(events, artistSlug) {
   });
 }
 
-// Card state for an artist tile. `dateless` comes from the shared indexability
-// gate, so a card never promises dates the page it links to does not have: an
-// empty board is a real destination (bio, recent dates, watchlist signup) but
-// not a "tickets and tour dates" answer, so the card says so before the click.
-// Keep in sync with artistCardStatus in functions/[[path]].js.
+// Card state for an artist tile. Upcoming status comes from the same
+// future-event gate as the server renderer. Keep in sync with
+// artistCardStatus in functions/[[path]].js.
 function artistCardStatus(artist, events) {
   const activeProviders = ticketLinksForArtist(artist.slug).filter((item) => providerEnabled(slugify(item.provider)));
   const hasArtistLinks = activeProviders.length > 0;
   const hasUpcoming = artistHasUpcomingShow(events, artist.slug);
+  if (!hasUpcoming) {
+    return {
+      pending: false,
+      dateless: true,
+      badgeClass: "status-badge status-badge-muted",
+      badge: "No dates currently listed",
+      detail: "No future dates are currently listed",
+      cardStatus: hasArtistLinks
+        ? "No future dates are currently listed; get an alert when they land."
+        : "No future dates are currently listed for this artist.",
+      ctaLabel: hasArtistLinks ? "Get date alerts" : "View artist page",
+      ctaVariant: "secondary"
+    };
+  }
   if (hasUpcoming && artistHasVerifiedEventLinks(events, artist.slug)) {
     return {
       pending: false,
@@ -723,30 +734,15 @@ function artistCardStatus(artist, events) {
       ctaVariant: "primary"
     };
   }
+}
+
+// Stable copies of the artist list split by current future-event state.
+function artistsByUpcomingState(artists, events) {
+  const cards = (artists || []).map((artist) => ({ artist, status: artistCardStatus(artist, events) }));
   return {
-    pending: false,
-    dateless: true,
-    badgeClass: "status-badge status-badge-muted",
-    badge: "No dates yet",
-    detail: "No announced dates — get an alert when they land",
-    cardStatus: "No dates listed yet — the links go to this artist's page on each provider.",
-    ctaLabel: "Get date alerts",
-    ctaVariant: "secondary"
+    primary: cards.filter(({ status }) => !status.dateless),
+    secondary: cards.filter(({ status }) => status.dateless)
   };
-}
-
-// Artists with upcoming dates first, then empty boards, then unverified shells.
-// Keep in sync with artistCardTier in functions/[[path]].js.
-function artistCardTier(status) {
-  if (status.pending) return 2;
-  return status.dateless ? 1 : 0;
-}
-
-// Stable-sorted copy of the artist list in card-tier order.
-function artistsByCardTier(artists, events) {
-  return (artists || [])
-    .map((artist) => ({ artist, status: artistCardStatus(artist, events) }))
-    .sort((a, b) => artistCardTier(a.status) - artistCardTier(b.status));
 }
 
 function getRoute() {
@@ -828,8 +824,8 @@ function renderBreadcrumb(items) {
   return nav;
 }
 
-function artistPageHeading(artist) {
-  return `${artist.name} tickets and tour dates`;
+function artistPageHeading(artist, hasServerDates = true) {
+  return hasServerDates ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`;
 }
 
 // Artist-page editorial copy — the lead, the fact strip, the shared price/link
@@ -1412,12 +1408,27 @@ async function renderHome() {
     "Upcoming dates and ticket links for every artist on the site. Artists with announced dates come first."
   );
   const homeEvents = await loadEventsForSearch();
-  const grid = document.createElement("div");
-  grid.className = "artist-card-grid";
-  artistsByCardTier(catalog.artists, homeEvents).forEach(({ artist, status }) => {
-    grid.append(renderArtistCard(artist, homeEvents, status));
-  });
-  artists.append(artistHeader, grid);
+  const states = artistsByUpcomingState(catalog.artists, homeEvents);
+  const renderGrid = (items) => {
+    const grid = document.createElement("div");
+    grid.className = "artist-card-grid";
+    items.forEach(({ artist, status }) => grid.append(renderArtistCard(artist, homeEvents, status)));
+    return grid;
+  };
+  artists.append(artistHeader);
+  const primary = document.createElement("section");
+  primary.className = "artist-status-section";
+  text(primary, "h2", "Artists with upcoming dates");
+  primary.append(states.primary.length ? renderGrid(states.primary) : text(primary, "p", "No future dates are currently listed.", "muted"));
+  artists.append(primary);
+  if (states.secondary.length) {
+    const secondary = document.createElement("section");
+    secondary.className = "artist-status-section artist-status-section--secondary";
+    text(secondary, "h2", "No dates currently listed");
+    text(secondary, "p", "These artist pages remain available and move back to the primary section automatically when a future date is added.");
+    secondary.append(renderGrid(states.secondary));
+    artists.append(secondary);
+  }
 
   main.replaceChildren(hero, resultsSection, renderWhatYouCanDo(), artists, renderGuidePreview(), renderTrustSection());
 }
@@ -1430,7 +1441,7 @@ function renderArtistStatusLegend() {
   // Keep in sync with renderArtistStatusLegendHtml in functions/[[path]].js.
   const items = [
     ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
-    ["status-badge status-badge-muted", "No dates yet", "No announced dates — artist page and alerts only"],
+    ["status-badge status-badge-muted", "No dates currently listed", "No future dates — artist page and alerts only"],
     ["status-badge status-badge-muted", "Being checked", "Links appear once we've checked them"]
   ];
   items.forEach(([badgeClass, badge, detail]) => {
@@ -3064,12 +3075,26 @@ async function renderArtistsIndex() {
   text(section, "p", ARTISTS_INDEX_LEAD, "lead");
   text(section, "p", ARTISTS_INDEX_NOTE, "disclosure-note");
   const events = await loadEventsForSearch();
-  const grid = document.createElement("div");
-  grid.className = "artist-card-grid";
-  artistsByCardTier(catalog.artists, events).forEach(({ artist, status }) =>
-    grid.append(renderArtistCard(artist, events, status))
-  );
-  section.append(renderArtistStatusLegend(), grid);
+  const states = artistsByUpcomingState(catalog.artists, events);
+  const primary = document.createElement("section");
+  primary.className = "artist-status-section";
+  text(primary, "h2", "Artists with upcoming dates");
+  const primaryGrid = document.createElement("div");
+  primaryGrid.className = "artist-card-grid";
+  states.primary.forEach(({ artist, status }) => primaryGrid.append(renderArtistCard(artist, events, status)));
+  primary.append(states.primary.length ? primaryGrid : text(primary, "p", "No future dates are currently listed.", "muted"));
+  section.append(renderArtistStatusLegend(), primary);
+  if (states.secondary.length) {
+    const secondary = document.createElement("section");
+    secondary.className = "artist-status-section artist-status-section--secondary";
+    text(secondary, "h2", "No dates currently listed");
+    text(secondary, "p", "These artist pages remain available and move back to the primary section automatically when a future date is added.");
+    const secondaryGrid = document.createElement("div");
+    secondaryGrid.className = "artist-card-grid";
+    states.secondary.forEach(({ artist, status }) => secondaryGrid.append(renderArtistCard(artist, events, status)));
+    secondary.append(secondaryGrid);
+    section.append(secondary);
+  }
   main.replaceChildren(section);
 }
 
@@ -3082,13 +3107,10 @@ function renderArtist(artist) {
   // description back on a page with no dates — including og:/twitter:.
   const hasServerDates = main.querySelectorAll("article.show-card[data-show-json]").length > 0;
   const serverDescription = document.querySelector('meta[name="description"]')?.getAttribute("content") || "";
-  // Artist-page indexability is dynamic (functions/_artist-indexability.js):
-  // editorially indexable AND at least one upcoming show. setMeta previously
-  // keyed robots on the editorial status alone, so hydration rewrote the
-  // server's noindex,follow back to index,follow on every empty board — undoing
-  // the gate for any crawler that runs the page script. Mirror the server's
-  // decision instead of re-deriving half of it.
-  const shouldNoindex = isReviewRequired || !hasServerDates;
+  // Artist-page indexability is editorial. Future-date availability controls
+  // the board and the index sections, but an empty artist page remains a valid
+  // indexable destination with a truthful empty state.
+  const shouldNoindex = isReviewRequired;
   setMeta(
     {
       title: artist.seo_title || `${artist.name} Tickets | Options & Availability`,
@@ -3112,7 +3134,7 @@ function renderArtist(artist) {
   if (serverLead) {
     section.append(serverLead);
   } else {
-    text(section, "h1", artistPageHeading(artist)).id = "artistTitle";
+    text(section, "h1", artistPageHeading(artist, hasServerDates)).id = "artistTitle";
   }
   if (isReviewRequired) {
     const reviewNotice = document.createElement("section");
@@ -3130,7 +3152,7 @@ function renderArtist(artist) {
   // Keep this intro in sync with renderShowBoardServerHtml in functions/[[path]].js.
   const showBoard = renderShowBoardShell(
     "artistShowBoard",
-    serverShows.length ? "Upcoming dates" : "Upcoming shows",
+    "Upcoming dates",
     serverShows.length
       ? "Each date below comes from a reviewed source record. Pick yours, then compare the ticket sites that cover it."
       : "Dates appear here once a source record confirms them and we've followed the ticket link.",
@@ -3140,14 +3162,14 @@ function renderArtist(artist) {
   // once from the shared content model; transplant, never rebuild.
   const ticketHelp = transplantServerNode("[data-artist-ticket-help]");
   const verificationPanel = transplantServerNode("[data-artist-trust]");
-  const providerPanel = renderProviderButtons(artist, "artist_page");
+  const providerPanel = serverShows.length ? renderProviderButtons(artist, "artist_page") : null;
   // Dates and provider options first; help and provenance after them. An empty
-  // board leads with the artist-level providers because there is no date to
-  // pick, and carries no help component at all.
+  // board stays concise and does not surface date-specific provider or
+  // last-checked claims.
   if (serverShows.length) {
     section.append(showBoard, providerPanel, ...(ticketHelp ? [ticketHelp] : []), ...(verificationPanel ? [verificationPanel] : []));
   } else {
-    section.append(providerPanel, showBoard, ...(verificationPanel ? [verificationPanel] : []));
+    section.append(showBoard);
   }
 
   const summary = document.createElement("section");

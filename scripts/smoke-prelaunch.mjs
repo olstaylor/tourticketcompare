@@ -724,29 +724,18 @@ assert(
   sitemapLocations.includes("https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster"),
   "/sitemap.xml should include the focused SeatGeek vs Ticketmaster guide"
 );
-// Artist-page indexability is dynamic: editorially-indexable AND has an
-// upcoming show. Derive the expected sitemap set from the same shared gate the
-// router and sitemap use, so this assertion stays honest as tour dates pass.
+// Artist-page indexability is editorial. Future-date state controls the
+// primary/secondary presentation sections but does not remove durable artist
+// URLs from the sitemap.
 const { artistHasUpcomingShow } = await import(pathToFileURL(path.join(root, "functions/_artist-indexability.js")));
 const editoriallyIndexableSlugs = artists
   .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
   .map((artist) => normalizeSlug(artist?.slug))
   .filter(Boolean);
-const indexableArtistSlugs = editoriallyIndexableSlugs.filter((slug) => artistHasUpcomingShow(events, slug));
-const emptyBoardArtistSlugs = editoriallyIndexableSlugs.filter((slug) => !artistHasUpcomingShow(events, slug));
-for (const slug of indexableArtistSlugs) {
+for (const slug of editoriallyIndexableSlugs) {
   assert(
     sitemapLocations.includes(`https://tourticketcompare.com/artists/${slug}`),
-    `/sitemap.xml should include indexable artist with upcoming shows ${slug}`
-  );
-}
-// Editorially-indexable artists whose board is currently empty (tour ended, or
-// no dates verified yet) must NOT be advertised in the sitemap — they render
-// noindex,follow until a new date lands.
-for (const slug of emptyBoardArtistSlugs) {
-  assert(
-    !sitemapLocations.includes(`https://tourticketcompare.com/artists/${slug}`),
-    `/sitemap.xml must exclude editorially-indexable artist ${slug} while it has zero upcoming shows`
+    `/sitemap.xml should include editorially indexable artist ${slug}`
   );
 }
 
@@ -781,7 +770,7 @@ const syntheticSitemapEnv = {
   }
 };
 const syntheticSitemapLocations = await sitemapLocs(syntheticSitemapEnv);
-for (const slug of indexableArtistSlugs) {
+for (const slug of editoriallyIndexableSlugs) {
   assert(
     syntheticSitemapLocations.includes(`https://tourticketcompare.com/artists/${slug}`),
     `/sitemap.xml should preserve currently indexable artist ${slug} with synthetic shell fixture`
@@ -937,7 +926,9 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   // H1: must match the route-specific expected value
   const h1 = extractH1(text);
   const artist = catalog.artists.find((a) => `/artists/${a.slug}` === pathname);
-  const expected = expectedH1.get(pathname) || `${artist?.name} tickets and tour dates`;
+  const expected =
+    expectedH1.get(pathname) ||
+    (artist && !artistHasUpcomingShow(events, artist.slug) ? `${artist.name} tickets` : `${artist?.name} tickets and tour dates`);
   assert(h1 === expected, `${pathname} should render route-specific H1 "${expected}", got "${h1}"`);
 
   // Title: must match the route-specific expected value
@@ -2963,13 +2954,12 @@ assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURICom
 
 console.log("indexable artist verification passed for bruno-mars");
 
-// Editorially-indexable artist with zero upcoming events (Beyoncé) must render
-// the full empty state for users/crawlers but downgrade to noindex,follow: a
-// "tickets and tour dates" page with no dates and no ticket links is thin, so
-// it stays crawlable and re-indexes automatically once a date is verified.
+// Editorially-indexable artist with zero upcoming events (Beyoncé) keeps its
+// durable URL and renders a concise, truthful empty state. A future event will
+// move it back into the primary artist section automatically.
 const beyonceEmptyStatePage = await routeResponse("/artists/beyonce");
 assert(beyonceEmptyStatePage.response.status === 200, "/artists/beyonce must return 200");
-assert(/<meta name="robots" content="noindex,follow"/.test(beyonceEmptyStatePage.text), "/artists/beyonce (zero upcoming shows) must render noindex,follow robots meta");
+assert(/<meta name="robots" content="index,follow/.test(beyonceEmptyStatePage.text), "/artists/beyonce (zero upcoming shows) must remain indexable");
 const beyonceShowBoardMatch = beyonceEmptyStatePage.text.match(/<section class="section-grid show-board"[\s\S]*?<\/section>/);
 assert(beyonceShowBoardMatch, "zero-event artist page must render the show board section");
 const beyonceShowBoard = beyonceShowBoardMatch[0];
@@ -3005,8 +2995,7 @@ assert(
 // for updates") but must never render an event-level ticket CTA — there are
 // no verified dates to sell.
 assert(!/View Tickets|Check \w[\w ]* for tickets|showId=/i.test(beyonceShowBoard), "zero-event empty state must not include any event-level ticket CTA");
-assert(beyonceShowBoard.includes("for updates"), "zero-event empty state should link the artist-level provider page for updates");
-assert(!beyonceShowBoard.includes("provider=seatgeek"), "zero-event empty state must not surface a SeatGeek artist link without SeatGeek Impact config");
+assert(!beyonceShowBoard.includes("provider="), "zero-event empty state must not surface an outbound provider claim");
 assert(beyonceShowBoard.includes('href="/artists"') && beyonceShowBoard.includes("Browse artists"), "zero-event empty state must link users to the artists index");
 console.log("zero-event empty-state verification passed for beyonce");
 
@@ -3264,7 +3253,7 @@ assert(
   "an artist page must keep the bare artist canonical"
 );
 assert(/<meta name="robots" content="index,follow/.test(manyBoard.html), "an artist page with upcoming dates should be indexable");
-assert(/<meta name="robots" content="noindex,follow/.test(beyonceEmptyStatePage.text), "an empty artist board must stay noindex,follow");
+assert(/<meta name="robots" content="index,follow/.test(beyonceEmptyStatePage.text), "an empty artist board must remain indexable");
 const manyGraph = JSON.parse(manyBoard.html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
 const manyMusicEvents = manyGraph["@graph"].filter((node) => node["@type"] === "MusicEvent");
 assert(manyMusicEvents.length > 0, "an indexable artist page should emit MusicEvent structured data");
@@ -3291,8 +3280,9 @@ assert(
   "an artist page with no verified dates must emit no MusicEvent structured data"
 );
 
-// (7) Editorial provenance: what we check, what we don't, and who publishes it.
-for (const [label, page] of [["many", manyBoard.html], ["empty", beyonceEmptyStatePage.text]]) {
+// (7) Editorial provenance: populated boards carry the dated verification
+// disclosure; empty boards omit it so no stale link-check claim is shown.
+for (const [label, page] of [["many", manyBoard.html]]) {
   assert(page.includes("data-artist-trust"), `artist page (${label}) should carry the provenance block`);
   assert(page.includes("<strong>Data checked:</strong>"), `artist page (${label}) provenance should state when the data was checked`);
   assert(page.includes("<strong>What we verify:</strong>"), `artist page (${label}) provenance should state what is verified`);
@@ -3304,6 +3294,8 @@ for (const [label, page] of [["many", manyBoard.html], ["empty", beyonceEmptySta
   assert(!/reviewed by (a|our) (human|editor)/i.test(page), `artist page (${label}) must not claim a human review it cannot evidence`);
   assert(!/Page reviewed:/i.test(page), `artist page (${label}) must not print a human review timestamp`);
 }
+assert(!beyonceEmptyStatePage.text.includes("data-artist-trust"), "empty artist pages should omit dated provenance claims");
+assert(!beyonceEmptyStatePage.text.includes("Data checked:"), "empty artist pages should omit last-checked claims");
 assert(
   manyBoard.html.includes("no separate human editorial review date"),
   "the provenance block should distinguish automated checks from human review"
@@ -3371,13 +3363,10 @@ assert(
   renderArtistSource[0].includes("No verified upcoming"),
   "artist hydration must keep an empty-board description that does not promise dates"
 );
-// Same class of drift, and worse: artist-page indexability is dynamic
-// (editorially indexable AND >=1 upcoming show), but setMeta used to receive
-// only the editorial status, so hydration rewrote the server's noindex,follow
-// to index,follow on every empty board.
+// Hydration must preserve editorial indexability while the board is empty.
 assert(
-  appJs.includes("const shouldNoindex = isReviewRequired || !hasServerDates;"),
-  "artist hydration must derive robots from the board state, not the editorial status alone"
+  appJs.includes("const shouldNoindex = isReviewRequired;"),
+  "artist hydration must not noindex solely because the board is empty"
 );
 assert(
   !/setMeta\(\s*\{[\s\S]*?\},\s*isReviewRequired\s*\)/.test(appJs),

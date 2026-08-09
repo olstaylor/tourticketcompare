@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189143",
+        "url": "https://www.stubhub.ie/john-summit-champaign-tickets-10-1-2026/event/107189143",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IJb",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982945"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982945",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-champaign-tickets-10-1-2026/event/107189143"
   },
   {
     "id": "tm-john-summit-2026-montreal-17g8v0g652qqblc",

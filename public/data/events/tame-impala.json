@@ -681,13 +681,21 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107108089",
+        "url": "https://www.stubhub.ie/tame-impala-minneapolis-tickets-8-28-2026/event/107108089",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-F_M",
     "status": "on-sale",
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7735040",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735040/Tame-Impala-tickets-Fri-Aug-28-2026-Target-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7735040/Tame-Impala-tickets-Fri-Aug-28-2026-Target-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-minneapolis-tickets-8-28-2026/event/107108089"
   },
   {
     "id": "tm-tame-impala-2026-seattle-vvg1hz_d6os55n",

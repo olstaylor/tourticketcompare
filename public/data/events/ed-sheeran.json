@@ -634,11 +634,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "106954173",
-        "url": "https://www.stubhub.ie/ed-sheeran-inglewood-tickets-8-8-2026/event/106954173",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbS6jaSqP",
@@ -647,7 +647,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418587",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418587/Ed-Sheeran-tickets-Sat-Aug-8-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-inglewood-tickets-8-8-2026/event/106954173"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-minneapolis-0600632e29196b3e",
@@ -1622,6 +1622,13 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106954384",
+        "url": "https://www.stubhub.ie/ed-sheeran-arlington-tickets-10-24-2026/event/106954384",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7j-_w",
@@ -1629,7 +1636,8 @@
     "verification_status": "needs_recheck",
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418618",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418618/Ed-Sheeran-tickets-Sat-Oct-24-2026-ATT-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418618/Ed-Sheeran-tickets-Sat-Oct-24-2026-ATT-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-arlington-tickets-10-24-2026/event/106954384"
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331a7d91aff",

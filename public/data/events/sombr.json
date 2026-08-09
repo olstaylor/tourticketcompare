@@ -644,13 +644,21 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155469",
+        "url": "https://www.stubhub.ie/sombr-glendale-tickets-10-14-2026/event/107155469",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8GY",
     "status": "on-sale",
     "timezone": "America/Phoenix",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874855",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874855/sombr-tickets-Wed-Oct-14-2026-Desert-Diamond-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874855/sombr-tickets-Wed-Oct-14-2026-Desert-Diamond-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-glendale-tickets-10-14-2026/event/107155469"
   },
   {
     "id": "tm-sombr-2026-oklahoma-city-z7r9jz1a7x8av",
@@ -1082,13 +1090,21 @@
         "verified": true,
         "last_verified_at": "2026-08-09",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158195",
+        "url": "https://www.stubhub.ie/sombr-sunrise-tickets-10-24-2026/event/107158195",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x8vw",
     "status": "on-sale",
     "timezone": "America/New_York",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874867",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874867/sombr-tickets-Sat-Oct-24-2026-Amerant-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874867/sombr-tickets-Sat-Oct-24-2026-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-sunrise-tickets-10-24-2026/event/107158195"
   },
   {
     "id": "tm-sombr-2026-orlando-1aefz_fgkn1mew3",

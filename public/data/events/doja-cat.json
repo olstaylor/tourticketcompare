@@ -1265,7 +1265,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7jS4g",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4g",
     "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-houston-toyota-center---tx-11-7-2026--concerts-rap-hip-hop/production/6091565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS4g",
     "last_verified_at": null,
@@ -1287,11 +1287,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6091565,
+        "url": "https://www.vividseats.com/doja-cat-tickets-houston-toyota-center---tx-11-7-2026--concerts-rap-hip-hop/production/6091565",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

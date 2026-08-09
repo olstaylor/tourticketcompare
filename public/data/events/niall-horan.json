@@ -1092,7 +1092,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A704vb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A704vb",
     "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-17-7-30-pm/concert/18235523",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-saint-paul-grand-casino-arena-3-17-2027/production/7017227",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A704vb",
     "last_verified_at": null,
@@ -1114,11 +1114,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017227,
+        "url": "https://www.vividseats.com/niall-horan-tickets-saint-paul-grand-casino-arena-3-17-2027/production/7017227",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2135,7 +2135,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A709uy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uy",
     "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/houston-texas-toyota-center-2027-05-01-7-30-pm/concert/18235544",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-houston-toyota-center---tx-5-1-2027--concerts-pop/production/7017234",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A709uy",
     "last_verified_at": null,
@@ -2157,11 +2157,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7017234,
+        "url": "https://www.vividseats.com/niall-horan-tickets-houston-toyota-center---tx-5-1-2027--concerts-pop/production/7017234",
+        "verified": true,
+        "last_verified_at": "2026-08-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

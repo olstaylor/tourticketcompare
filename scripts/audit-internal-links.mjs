@@ -211,13 +211,16 @@ for (const city of cities) {
   if (!expectedIndexable) continue;
   const mainText = decodeEntities(page.mainHtml);
 
+  // What a city page must carry: who it is about, the selective-coverage
+  // disclosure the policy requires, the schedule, the route to ticket options,
+  // and an accountable author. Nothing here asks for a section whose content is
+  // the same on every city page — that filler was removed deliberately, and a
+  // marker demanding it back would reinstate it.
   const requiredCopy = [
     "Maintained by the TourTicketCompare editorial team.",
-    "Short answer:",
-    `Which artists have upcoming concerts in ${city.city}?`,
+    `Selected tour dates we have verified — not a complete ${city.city} events calendar.`,
     `Upcoming concerts in ${city.city}`,
-    `Compare tickets for a ${city.city} concert`,
-    `${city.city} concert FAQ`
+    `Compare tickets for a ${city.city} concert`
   ];
   for (const marker of requiredCopy) {
     if (!mainText.includes(marker)) problems.push(`city quality: ${path} is missing "${marker}"`);
@@ -226,16 +229,19 @@ for (const city of cities) {
   if (renderedDates < city.showCount) {
     problems.push(`city quality: ${path} renders ${renderedDates} dated listings for ${city.showCount} source shows`);
   }
-  // Floor, not a target. The FAQ carries only city-specific answers now; the
-  // generic ticket-buying questions that used to pad it to six repeated
-  // verbatim across every location page (see docs/ROUTE_INDEXABILITY_POLICY.md).
-  const faqAnswers = [...page.mainHtml.matchAll(/<details>/g)].length;
-  if (faqAnswers < 3) problems.push(`city quality: ${path} renders only ${faqAnswers} visible FAQ answers`);
-  for (const type of ["Place", "CollectionPage", "FAQPage"]) {
+  // The counts belong on the page exactly once, in the lead sentence. A second
+  // copy is the summary-of-the-summary pattern these pages used to have.
+  const countMentions = [...mainText.matchAll(new RegExp(`${city.showCount} upcoming shows?\\b`, "g"))].length;
+  if (countMentions !== 1) {
+    problems.push(`city quality: ${path} states its upcoming-show count ${countMentions} times; it belongs in the lead sentence only`);
+  }
+  for (const type of ["Place", "CollectionPage"]) {
     if (!page.schemaTypes.includes(type)) problems.push(`city quality: ${path} is missing ${type} structured data`);
   }
-  if (page.mainWordCount < 350) {
-    problems.push(`city quality: ${path} has only ${page.mainWordCount} visible words; investigate missing useful sections`);
+  // The visible FAQ is gone, so the schema that mirrored it must be gone too —
+  // structured data never describes content the page does not show.
+  if (page.schemaTypes.includes("FAQPage")) {
+    problems.push(`city quality: ${path} emits FAQPage structured data with no visible FAQ`);
   }
 }
 
@@ -266,22 +272,24 @@ for (const venue of venues) {
   if (!expectedIndexable) continue;
   const mainText = decodeEntities(page.mainHtml);
 
+  // Same contract as the city loop above.
   for (const marker of [
     "Maintained by the TourTicketCompare editorial team.",
-    "Short answer:",
+    `Selected tour dates we have verified — not the full ${venue.venue} calendar.`,
     `Upcoming shows at ${venue.venue}`,
-    `Getting tickets at ${venue.venue}`,
-    `${venue.venue} concert FAQ`
+    `Getting tickets at ${venue.venue}`
   ]) {
     if (!mainText.includes(marker)) problems.push(`venue quality: ${path} is missing "${marker}"`);
   }
-  const faqAnswers = [...page.mainHtml.matchAll(/<details>/g)].length;
-  if (faqAnswers < 3) problems.push(`venue quality: ${path} renders only ${faqAnswers} visible FAQ answers`);
-  for (const type of ["MusicVenue", "CollectionPage", "FAQPage"]) {
+  const countMentions = [...mainText.matchAll(new RegExp(`${venue.showCount} upcoming shows?\\b`, "g"))].length;
+  if (countMentions !== 1) {
+    problems.push(`venue quality: ${path} states its upcoming-show count ${countMentions} times; it belongs in the lead sentence only`);
+  }
+  for (const type of ["MusicVenue", "CollectionPage"]) {
     if (!page.schemaTypes.includes(type)) problems.push(`venue quality: ${path} is missing ${type} structured data`);
   }
-  if (page.mainWordCount < 400) {
-    problems.push(`venue quality: ${path} has only ${page.mainWordCount} visible words; investigate missing useful sections`);
+  if (page.schemaTypes.includes("FAQPage")) {
+    problems.push(`venue quality: ${path} emits FAQPage structured data with no visible FAQ`);
   }
 }
 

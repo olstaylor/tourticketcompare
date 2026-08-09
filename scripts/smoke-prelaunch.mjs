@@ -3474,7 +3474,10 @@ assert(cityDetailSlug, "/cities index should link at least one substantial city 
 const cityDetail = await routeResponse(`/cities/${cityDetailSlug}`, cityEnv);
 assert(cityDetail.response.status === 200, `/cities/${cityDetailSlug} should return 200`);
 assert(cityDetail.text.includes('"@type":"Place"'), "city detail page should emit Place structured data");
-assert(cityDetail.text.includes('"@type":"FAQPage"'), "city detail page should emit FAQPage structured data matching visible answers");
+// The templated city FAQ was removed, so its FAQPage mirror goes with it:
+// structured data never describes content the page does not show.
+assert(!cityDetail.text.includes('"@type":"FAQPage"'), "city detail page should not emit FAQPage structured data without a visible FAQ");
+assert(!cityDetail.text.includes("<details>"), "city detail page should not render a templated FAQ");
 assert(/href="\/artists\/[a-z0-9-]+#show-/.test(cityDetail.text), "city detail page should deep-link to artist show cards");
 assert(
   extractCanonical(cityDetail.text) === `https://tourticketcompare.com/cities/${cityDetailSlug}`,
@@ -3505,7 +3508,8 @@ assert(venueDetailSlug, "/venues index should link at least one venue detail pag
 const venueDetail = await routeResponse(`/venues/${venueDetailSlug}`, venueEnv);
 assert(venueDetail.response.status === 200, `/venues/${venueDetailSlug} should return 200`);
 assert(venueDetail.text.includes('"@type":"MusicVenue"'), "venue detail page should emit MusicVenue structured data");
-assert(venueDetail.text.includes('"@type":"FAQPage"'), "venue detail page should emit FAQPage structured data matching visible answers");
+assert(!venueDetail.text.includes('"@type":"FAQPage"'), "venue detail page should not emit FAQPage structured data without a visible FAQ");
+assert(!venueDetail.text.includes("<details>"), "venue detail page should not render a templated FAQ");
 assert(venueDetail.text.includes("Maintained by the TourTicketCompare editorial team."), "venue detail page should show editorial provenance");
 assert(/href="\/artists\/[a-z0-9-]+"/.test(venueDetail.text), "venue detail page should link out to artist pages");
 assert(/href="\/api\/out\?showId=[^\"]+&amp;provider=/.test(venueDetail.text), "venue detail page should surface a gated event-level provider CTA");

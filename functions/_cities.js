@@ -71,6 +71,12 @@ export function deriveCities(events, options = {}) {
       venue,
       venue_slug: venueSlug(venue, city),
       datetime_iso: iso,
+      // Carried so the page can label a show with the date it happens locally.
+      // Without it the renderer falls back to UTC, which prints the wrong
+      // calendar day for the majority of records — a US evening show is already
+      // "tomorrow" in UTC — and disagreed with the same show's card on the
+      // artist page.
+      timezone: String(event.timezone || "").trim(),
       last_verified_at: String(event.last_verified_at || "").trim(),
       publishable: eventPublishable(event),
       statusPublishable: eventStatusPublishable(event),

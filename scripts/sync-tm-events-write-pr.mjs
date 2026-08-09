@@ -598,7 +598,7 @@ async function main() {
   const prBody = [
     "## What this PR does",
     `- Adds ${proposedRows.length} recognised Ticketmaster event(s) for \`${slugs.join("`, `")}\` from the dry-run recogniser, applied through \`scripts/apply-artists.mjs\` (the canonical events writer).`,
-    "- Link publishability is classified by apply-artists: canonical long-form storefront URLs become `machine_high_confidence` (CTAs render); short-form `/event/<id>` and any non-canonical URL become `needs_recheck` (URL preserved, CTA suppressed). See the apply-artists output for the per-row split.",
+    "- Link provenance is classified by apply-artists: canonical long-form storefront URLs become `machine_high_confidence`; short-form `/event/<id>` and other non-canonical URLs become `needs_recheck` (URL preserved). All stored destinations still pass the runtime host, protocol, event-ID, and redirect checks before a CTA can resolve.",
     "- `event_name` is populated verbatim from the Ticketmaster Discovery API listing title (the same provider source as date/venue).",
     "",
     "## Withheld (not in this PR)",

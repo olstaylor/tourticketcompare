@@ -14,7 +14,7 @@
 // VERIFIED_TICKET_LINKS and /api/out are unchanged by this step (and by this
 // script). What this adds is a guard that the data behind those gates is
 // consistent with the verified provider state recorded in the registry and the
-// per-event verification_status.
+// per-event destination/provenance fields.
 //
 // Hard errors (exit 1):
 //   1. Every "<slug>:ticketmaster" key in VERIFIED_TICKET_LINKS is backed by a
@@ -79,10 +79,9 @@ function clean(value) {
 // Faithful copy of eventLinkPublishable from functions/api/out.js /
 // functions/[[path]].js / public/app.js. Keep in sync with those — this is the
 // derivation under test, so it MUST match the runtime gate exactly.
-const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
 function eventLinkPublishable(event) {
-  const status = clean(event?.verification_status).toLowerCase();
-  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  const destination = clean(event?.ticketmaster_url || event?.source_url);
+  if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
@@ -345,7 +344,7 @@ function evaluate({ events, registryBySlug, verifiedKeys, allowedHosts }) {
     }
   }
   if (seatgeekStandalone > 0) {
-    info.push(`${seatgeekStandalone} event(s) publish a standalone SeatGeek CTA on verified provenance (provider_links.seatgeek.verified) while the Ticketmaster link stays suppressed.`);
+    info.push(`${seatgeekStandalone} event(s) publish a standalone SeatGeek CTA on verified provenance (provider_links.seatgeek.verified) while no Ticketmaster destination is currently available.`);
   }
   if (seatgeekSuppressed > 0) {
     info.push(`${seatgeekSuppressed} event(s) store a seatgeek_url while the event is not publishable — the SeatGeek CTA renders standalone only when provider_links.seatgeek.verified is true, otherwise it stays suppressed.`);
@@ -395,7 +394,8 @@ function selfTest() {
   };
 
   assert("publishable status detected", eventLinkPublishable(goodEvent) === true);
-  assert("needs_recheck not publishable", eventLinkPublishable({ ...goodEvent, verification_status: "needs_recheck" }) === false);
+  assert("needs_recheck status does not suppress a stored destination", eventLinkPublishable({ ...goodEvent, verification_status: "needs_recheck" }) === true);
+  assert("missing destination remains unpublished", eventLinkPublishable({ ...goodEvent, verification_status: "needs_recheck", ticketmaster_url: "", source_url: "", provider_links: {} }) === false);
   assert("absent status falls back to provider verified flag", eventLinkPublishable({ provider_links: { ticketmaster: { verified: true } } }) === true);
   assert("clean machine_high_confidence passes its contract", machineHighConfidenceIssue(goodEvent, allowedHosts) === "");
   assert("short-form url fails mhc contract", machineHighConfidenceIssue({ ...goodEvent, ticketmaster_url: "https://www.ticketmaster.com/event/ABC123" }, allowedHosts) !== "");

@@ -31,7 +31,6 @@
 //   npm run report:link-coverage              (human report)
 //   npm run report:link-coverage -- --json    (machine-readable)
 //   npm run report:link-coverage:check        (fails on zero-link upcoming events)
-//   npm run report:link-coverage -- --recheck-review   (owner-only recheck list)
 //   npm run report:link-coverage:self-test
 
 import fs from "node:fs/promises";
@@ -59,7 +58,6 @@ const PROVIDER_REPORTS_DIR = path.join(REPO_ROOT, "reports", "provider-sync");
 // key on these, so add a new one rather than repurposing an existing code.
 export const CAUSES = Object.freeze({
   TIME_DATA: "missing_or_invalid_time_data",
-  NEEDS_RECHECK: "ticketmaster_needs_recheck",
   NOT_CONFIGURED: "provider_not_configured",
   NO_LISTING: "no_qualifying_provider_listing",
   AMBIGUOUS: "ambiguous_match",
@@ -69,7 +67,6 @@ export const CAUSES = Object.freeze({
 
 export const CAUSE_LABELS = Object.freeze({
   [CAUSES.TIME_DATA]: "missing/invalid time data (venue-local date unresolvable, so no matcher can run)",
-  [CAUSES.NEEDS_RECHECK]: "needs_recheck (Ticketmaster storefront suppressed pending human review)",
   [CAUSES.NOT_CONFIGURED]: "provider not configured at runtime",
   [CAUSES.NO_LISTING]: "no qualifying provider listing (checked; the provider does not list this show)",
   [CAUSES.AMBIGUOUS]: "ambiguous match (multiple plausible listings — never guessed)",
@@ -182,9 +179,6 @@ export function diagnoseEvent(event, isConfigured, evidence = {}) {
     if (lane.blocker === LANE_BLOCKERS.PROVIDER_NOT_CONFIGURED) {
       cause = CAUSES.NOT_CONFIGURED;
       detail = `${lane.name} is not enabled/configured for public CTAs`;
-    } else if (lane.blocker === LANE_BLOCKERS.TICKETMASTER_NEEDS_RECHECK) {
-      cause = CAUSES.NEEDS_RECHECK;
-      detail = `verification_status is '${String(event?.verification_status || "(absent)")}' — the Ticketmaster CTA stays suppressed until a human restores it`;
     } else if (lane.blocker === LANE_BLOCKERS.URL_SHAPE) {
       cause = CAUSES.URL_SHAPE;
       detail = `stored ${lane.slug} URL does not pass that provider's event-URL check`;
@@ -272,39 +266,6 @@ export function analyse(events, isConfigured, evidence = new Map(), now = Date.n
   };
 }
 
-// ─── Owner-review list for upcoming needs_recheck rows ──────────────────────
-//
-// A needs_recheck row's Ticketmaster storefront link is suppressed on purpose
-// and stays suppressed: restoring it requires a human to open the URL and
-// confirm it lands on that exact event (SAFE_PUBLISHING_RULES.md). Nothing here
-// changes any state — it is a worklist, so the owner can see at a glance which
-// rows are still leaning on independently verified marketplace links.
-
-export function recheckReview(events, isConfigured, now = Date.now()) {
-  return events
-    .filter((event) => isUpcoming(event, now))
-    .filter((event) => String(event?.verification_status || "").trim().toLowerCase() === "needs_recheck")
-    .map((event) => {
-      const lanes = evaluateEventLanes(event, isConfigured);
-      return {
-        showId: String(event?.id || ""),
-        artist: String(event?.artist_slug || ""),
-        date: String(event?.datetime_iso || ""),
-        city: String(event?.city || ""),
-        country: String(event?.country || ""),
-        venue: String(event?.venue || ""),
-        ticketmaster_event_id: String(event?.ticketmaster_event_id || ""),
-        // The stored destination a human has to open and confirm. It is printed
-        // for review only — it is not published while the row is needs_recheck.
-        ticketmaster_url: String(event?.ticketmaster_url || ""),
-        ticketmaster_url_shape_ok: Boolean(safeLaneUrl(event, PROVIDER_LANES.find((lane) => lane.slug === "ticketmaster"))),
-        independently_verified_providers: lanes.filter((lane) => lane.publishes && lane.slug !== "ticketmaster").map((lane) => lane.name),
-        publishable_cta_count: lanes.filter((lane) => lane.publishes).length
-      };
-    })
-    .sort((a, b) => a.publishable_cta_count - b.publishable_cta_count || a.date.localeCompare(b.date));
-}
-
 // ─── Self-test ──────────────────────────────────────────────────────────────
 
 function selfTest() {
@@ -335,12 +296,12 @@ function selfTest() {
     diagnoseEvent({ ...base, seatgeek_url: sgUrl, provider_links: { ...base.provider_links, seatgeek: { verified: true, url: sgUrl } } }, allConfigured).ctaCount === 2
   );
   assert(
-    "a needs_recheck row with a verified SeatGeek link still publishes one CTA",
-    diagnoseEvent({ ...base, verification_status: "needs_recheck", seatgeek_url: sgUrl, provider_links: { seatgeek: { verified: true, url: sgUrl } } }, allConfigured).ctaCount === 1
+    "a needs_recheck row with a verified SeatGeek link still publishes both CTAs",
+    diagnoseEvent({ ...base, verification_status: "needs_recheck", seatgeek_url: sgUrl, provider_links: { seatgeek: { verified: true, url: sgUrl } } }, allConfigured).ctaCount === 2
   );
   assert(
-    "a needs_recheck row with nothing verified publishes none",
-    diagnoseEvent({ ...base, verification_status: "needs_recheck" }, allConfigured).ctaCount === 0
+    "a needs_recheck status does not suppress a stored Ticketmaster destination",
+    diagnoseEvent({ ...base, verification_status: "needs_recheck" }, allConfigured).ctaCount === 1
   );
   assert(
     "verified provenance with no stored URL publishes nothing",
@@ -362,7 +323,7 @@ function selfTest() {
   // Causes.
   const causesOf = (event, evidence = {}, isConfigured = allConfigured) =>
     new Set(diagnoseEvent(event, isConfigured, evidence).blocked.map((blocker) => blocker.cause));
-  assert("a needs_recheck row reports the recheck cause", causesOf({ ...base, verification_status: "needs_recheck" }).has(CAUSES.NEEDS_RECHECK));
+  assert("a needs_recheck status does not suppress a stored Ticketmaster destination", diagnoseEvent({ ...base, verification_status: "needs_recheck" }, allConfigured).publishing.includes("ticketmaster"));
   assert(
     "an unresolvable local date reports the time-data cause",
     causesOf({ ...base, datetime_iso: "2027-01-01T20:00:00Z", timezone: "" }).has(CAUSES.TIME_DATA)
@@ -435,37 +396,23 @@ function selfTest() {
   const now = Date.parse("2026-08-08T00:00:00Z");
   const analysis = analyse([
     { ...base, id: "u-two", seatgeek_url: sgUrl, provider_links: { ...base.provider_links, seatgeek: { verified: true, url: sgUrl } } },
-    { ...base, id: "u-one" },
+    { ...base, id: "u-one", ticketmaster_url: "", provider_links: {} },
     { ...base, id: "u-zero", verification_status: "needs_recheck" },
     { ...base, id: "past-zero", datetime_iso: "2026-01-01T20:00:00Z", verification_status: "needs_recheck" }
   ], allConfigured, new Map(), now);
   assert("past events are outside the report", analysis.upcoming === 3);
   assert("the distribution buckets 0/1/2", analysis.distribution["0"] === 1 && analysis.distribution["1"] === 1 && analysis.distribution["2"] === 1);
-  assert("zero-link upcoming events are collected", analysis.zeroLink.map((row) => row.event.id).join(",") === "u-zero");
-  assert("one-link upcoming events are collected separately", analysis.oneLink.map((row) => row.event.id).join(",") === "u-one");
+  assert("zero-link upcoming events are collected", analysis.zeroLink.map((row) => row.event.id).join(",") === "u-one");
+  assert("one-link upcoming events are collected separately", analysis.oneLink.map((row) => row.event.id).join(",") === "u-zero");
   assert("low coverage is the union of the two", analysis.lowCoverage.length === 2);
   assert("low coverage groups by artist", analysis.byArtist[0][0] === "ok-artist" && analysis.byArtist[0][1] === 2);
   assert("low coverage groups by country", analysis.byCountry[0][0] === "United States");
-  assert("low coverage groups by cause", analysis.byCause.some(([cause]) => cause === CAUSES.NEEDS_RECHECK));
+  assert("low coverage groups by cause", analysis.byCause.some(([cause]) => cause === CAUSES.UNPROCESSED));
   const threePlus = analyse([{
     ...base, id: "u-three", seatgeek_url: sgUrl, vividseats_url: vsUrl, ticketnetwork_url: tnUrl,
     provider_links: { ticketmaster: { verified: true }, seatgeek: { verified: true }, "vivid-seats": { verified: true }, ticketnetwork: { verified: true } }
   }], allConfigured, new Map(), now);
   assert("four lanes land in the 3+ bucket", threePlus.distribution["3+"] === 1);
-
-  // Owner recheck review.
-  const review = recheckReview([
-    { ...base, id: "r-1", verification_status: "needs_recheck", seatgeek_url: sgUrl, provider_links: { seatgeek: { verified: true, url: sgUrl } } },
-    { ...base, id: "r-2", verification_status: "needs_recheck" },
-    { ...base, id: "r-3" },
-    { ...base, id: "r-past", verification_status: "needs_recheck", datetime_iso: "2026-01-01T20:00:00Z" }
-  ], allConfigured, now);
-  assert("only upcoming needs_recheck rows are listed", review.map((row) => row.showId).sort().join(",") === "r-1,r-2");
-  assert("the fully suppressed row sorts first", review[0].showId === "r-2");
-  assert("the stored Ticketmaster destination is shown for review", review[0].ticketmaster_url === base.ticketmaster_url);
-  assert("independently verified providers are named", review.find((row) => row.showId === "r-1").independently_verified_providers.join(",") === "SeatGeek");
-  assert("a fully suppressed row names none", review.find((row) => row.showId === "r-2").independently_verified_providers.length === 0);
-  assert("the review changes no state", review.every((row) => typeof row.publishable_cta_count === "number"));
 
   let failed = 0;
   for (const check of checks) {
@@ -529,34 +476,14 @@ function printHuman(analysis, options) {
   }
 }
 
-function printRecheckReview(review) {
-  console.log("Owner review: upcoming needs_recheck records\n");
-  console.log("Each row's Ticketmaster storefront link stays suppressed until a human opens the");
-  console.log("stored destination and confirms it lands on that exact event. Nothing here changes");
-  console.log("any state, and no tool in this pipeline restores a Ticketmaster CTA automatically.\n");
-  if (!review.length) {
-    console.log("No upcoming needs_recheck records.");
-    return;
-  }
-  for (const row of review) {
-    console.log(`${row.showId}`);
-    console.log(`  ${row.artist} · ${row.date.slice(0, 10)} · ${row.city}, ${row.country} · ${row.venue}`);
-    console.log(`  stored Ticketmaster destination: ${row.ticketmaster_url || "(none)"}${row.ticketmaster_url_shape_ok ? "" : "  [fails the redirect URL check]"}`);
-    console.log(`  independently verified providers publishing now: ${row.independently_verified_providers.join(", ") || "NONE — this date currently leads nowhere"}`);
-    console.log("");
-  }
-  console.log(`${review.length} record(s). ${review.filter((row) => !row.independently_verified_providers.length).length} with no other publishable link.`);
-}
-
 // ─── Main ───────────────────────────────────────────────────────────────────
 
 function parseArgs(argv) {
-  const options = { json: false, check: false, verbose: false, recheckReview: false, selfTest: false, fromEnv: false, help: false };
+  const options = { json: false, check: false, verbose: false, selfTest: false, fromEnv: false, help: false };
   for (const arg of argv) {
     if (arg === "--json") options.json = true;
     else if (arg === "--check") options.check = true;
     else if (arg === "--verbose") options.verbose = true;
-    else if (arg === "--recheck-review") options.recheckReview = true;
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "--from-env") options.fromEnv = true;
     else if (arg === "--help" || arg === "-h") options.help = true;
@@ -583,13 +510,6 @@ async function main() {
   // additionally requires this shell's Impact credentials, for checking the
   // effect of a kill switch.
   const isConfigured = providerConfiguredTest(catalog, options.fromEnv ? process.env : null);
-
-  if (options.recheckReview) {
-    const review = recheckReview(events, isConfigured);
-    if (options.json) console.log(JSON.stringify({ recheck_review: review }, null, 2));
-    else printRecheckReview(review);
-    return 0;
-  }
 
   const evidence = await loadProviderEvidence();
   const analysis = analyse(events, isConfigured, evidence);

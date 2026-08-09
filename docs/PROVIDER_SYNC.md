@@ -176,14 +176,11 @@ Run `npm run events:sync`. Generated provider reports live in `reports/provider-
 npm run report:link-coverage          # human report
 npm run report:link-coverage:json     # machine-readable
 npm run report:link-coverage:check    # fails on zero-link upcoming events
-npm run events:recheck-review         # owner-only needs_recheck worklist
 ```
 
-`scripts/report-link-coverage.mjs` answers "how many checked ticket sites does each upcoming date actually lead to?" using `scripts/lib/event-link-coverage.mjs` — an offline mirror of the runtime `providerEventPublishable`, provider-enabled, and URL-shape gates, also read by the SeatGeek enrichment prioritiser so the report and the scheduler cannot disagree. It reports the 0/1/2/3+ distribution and groups low-coverage upcoming events by artist, country, and cause (missing/invalid time data, `needs_recheck`, provider not configured, no qualifying provider listing, ambiguous match, unprocessed/API-cap). Cause attribution reads the committed audit logs in `reports/provider-sync/` tolerantly: a missing or restructured log simply contributes no evidence.
+`scripts/report-link-coverage.mjs` answers "how many checked ticket sites does each upcoming date actually lead to?" using `scripts/lib/event-link-coverage.mjs` — an offline mirror of the runtime `providerEventPublishable`, provider-enabled, and URL-shape gates, also read by the SeatGeek enrichment prioritiser so the report and the scheduler cannot disagree. It reports the 0/1/2/3+ distribution and groups low-coverage upcoming events by artist, country, and cause (missing/invalid time data, provider not configured, no qualifying provider listing, ambiguous match, unprocessed/API-cap). Cause attribution reads the committed audit logs in `reports/provider-sync/` tolerantly: a missing or restructured log simply contributes no evidence.
 
 `--check` runs in `test:mvp`. **A zero-link upcoming event fails the build** — a listed date that leads nowhere is the state this pipeline exists to prevent. A one-link event is a reported **warning**, never a failure: a provider genuinely not listing a show is an allowed outcome, and forcing a second link would mean inventing one. Nothing is generated into the repository; the automation evidence that belongs in git already lives in `reports/provider-sync/`.
-
-`npm run events:recheck-review` lists upcoming `needs_recheck` records with the stored Ticketmaster destination and the providers independently publishing on each. It is a worklist only — restoring a Ticketmaster CTA still requires a human to open the stored URL and confirm it lands on that exact event, and no tool in this pipeline does it automatically.
 
 ## Validation
 

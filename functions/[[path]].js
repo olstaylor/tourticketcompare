@@ -2886,28 +2886,24 @@ function showDatePartsServer(iso, timezone) {
   }
 }
 
-// Explicit event-link publishability. CTAs may render only for events whose
-// verification_status is an allowed publish state ("human_verified" or
-// "machine_high_confidence"); "needs_recheck" suppresses CTAs even when a
-// top-level ticketmaster_url is present. Events without an explicit
-// verification_status fall back to the legacy human-verified provider flag.
+// Explicit event-link publishability. verification_status remains provenance
+// metadata, but is no longer a human-review gate: the stored destination and
+// the strict /api/out URL validation are the controls that decide whether a
+// Ticketmaster CTA can publish. Events without a stored destination fall back
+// to the legacy human-verified provider flag.
 // Keep in sync with eventLinkPublishable in public/app.js and
 // functions/api/out.js.
-const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
-
 function eventLinkPublishable(event) {
-  const status = String(event?.verification_status || "").trim().toLowerCase();
-  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
+  if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
-// Per-provider event publishability. Ticketmaster follows the event-level
-// verification_status above. SeatGeek and Vivid Seats event CTAs may
-// additionally publish on a needs_recheck event when that provider link carries
-// its own verified provenance — the recheck flag tracks the Ticketmaster
-// storefront URL, not the independently verified marketplace listing. Keep in
-// sync with providerEventPublishable in functions/api/out.js and
-// public/app.js.
+// Per-provider event publishability. Impact marketplace lanes require their
+// own verified provenance; SeatGeek/Vivid retain their existing event-link
+// fallback. Ticketmaster relies on its stored destination and the redirect
+// validator; no manual status flip is required. Keep in sync with
+// providerEventPublishable in functions/api/out.js and public/app.js.
 function providerEventPublishable(event, provider) {
   if (IMPACT_MARKETPLACE_PROVIDERS.some((candidate) => candidate.slug === provider)) {
     return event?.provider_links?.[provider]?.verified === true;

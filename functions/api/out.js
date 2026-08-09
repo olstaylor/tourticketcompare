@@ -574,28 +574,23 @@ function eventUrlContainsTicketmasterId(redirect, eventId) {
   return redirect.toString().toLowerCase().includes(encodeURIComponent(expected).toLowerCase());
 }
 
-// Explicit event-link publishability. Event-level redirects may resolve only
-// for events whose verification_status is an allowed publish state
-// ("human_verified" or "machine_high_confidence"); "needs_recheck" blocks the
-// redirect even when a top-level ticketmaster_url is present. Events without
-// an explicit verification_status fall back to the legacy human-verified
-// provider flag. Keep in sync with eventLinkPublishable in
+// Explicit event-link publishability. verification_status is retained as
+// provenance metadata, but it is no longer a human-review gate. A stored
+// destination may resolve when it passes the strict provider host/event-id
+// validation below. Events without a destination fall back to the legacy
+// human-verified provider flag. Keep in sync with eventLinkPublishable in
 // functions/[[path]].js and public/app.js.
-const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
-
 function eventLinkPublishable(event) {
-  const status = clean(event?.verification_status, 64).toLowerCase();
-  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  const destination = clean(event?.ticketmaster_url || event?.source_url, 2048);
+  if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
-// Per-provider event publishability. Ticketmaster follows the event-level
-// verification_status above. A SeatGeek event CTA may additionally publish on
-// a needs_recheck event when the SeatGeek link carries its own verified
-// provenance (provider_links.seatgeek.verified === true) — the recheck flag
-// tracks the Ticketmaster storefront URL, not the SeatGeek listing. Keep in
-// sync with providerEventPublishable in functions/[[path]].js and
-// public/app.js.
+// Per-provider event publishability. Impact marketplace lanes require their
+// own verified provenance; SeatGeek/Vivid retain their existing event-link
+// fallback. Ticketmaster relies on its stored destination and the redirect
+// validator. Keep in sync with providerEventPublishable in
+// functions/[[path]].js and public/app.js.
 function providerEventPublishable(event, provider) {
   if (["ticketnetwork", "ticket-liquidator", "stubhub-international"].includes(provider)) {
     return event?.provider_links?.[provider]?.verified === true;

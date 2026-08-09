@@ -619,11 +619,11 @@ await test("provider allowlisting and fail-closed redirects are unchanged", asyn
   });
   assert.equal(privateHost.status, 400, "a private-network destination must be refused");
 
-  const unpublishable = await outGet({
+  const previouslyGated = await outGet({
     request: outRequest("showId=tm-test-artist-2026-berlin-abc123&provider=ticketmaster"),
     env: { DEMAND_DB: fakeDb(), ASSETS: fakeAssets([{ ...SAMPLE_EVENT, verification_status: "needs_recheck" }]) }
   });
-  assert.equal(unpublishable.status, 400, "a needs_recheck event must not produce a Ticketmaster redirect");
+  assert.equal(previouslyGated.status, 302, "a needs_recheck status must not block a checked Ticketmaster destination");
 });
 
 await test("the affiliate URL is unchanged unless the SubId flag is explicitly on", async () => {

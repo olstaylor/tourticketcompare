@@ -29,11 +29,9 @@ OWNER_ACCEPTED_BLANK_TOUR_NAME_IDS = {
     "tm-jay-z-2026-london-17u8v0g6cksbad4",
 }
 
-# Explicit event-link publishability states. human_verified and
-# machine_high_confidence allow CTAs/redirects; needs_recheck suppresses them.
-# Runtime gates: eventLinkPublishable in functions/[[path]].js, public/app.js,
-# functions/api/out.js. An absent key falls back to the legacy
-# provider_links.ticketmaster.verified flag.
+# Explicit event-link provenance states. All statuses remain valid metadata;
+# runtime CTA/redirect eligibility comes from the stored destination and strict
+# URL validation. An absent key falls back to the legacy provider flag.
 ALLOWED_VERIFICATION_STATUSES = {"human_verified", "machine_high_confidence", "needs_recheck"}
 PLACEHOLDER_MARKERS = (
     "example.com",
@@ -990,7 +988,7 @@ def main() -> int:
         print(
             f"WARNING: blank tour_name on indexed artist events "
             f"({total_blank} event(s) across {len(blank_tour_name_by_slug)} artist(s)). "
-            "Populate from a verified source or mark the event verification_status=needs_recheck. "
+            "Populate from a verified source or retain the event's provenance status. "
             "Do not infer tour names from URL slugs.",
             file=sys.stderr,
         )

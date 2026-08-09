@@ -61,7 +61,7 @@ export const ARTIST_CITY_MIN_SHOWS = 2;
 // equivalent gate in functions/api/out.js and public/app.js), which publishes a
 // CTA when EITHER of two independent things holds:
 //
-//   1. the row's own verification status is publishable — this governs the
+//   1. the row has a stored Ticketmaster destination — this governs the
 //      Ticketmaster link; or
 //   2. any non-Ticketmaster provider link carries its own verified provenance —
 //      the standalone resale CTA, which publishes on a `needs_recheck` row
@@ -72,8 +72,6 @@ export const ARTIST_CITY_MIN_SHOWS = 2;
 // Houston and Sunrise is `needs_recheck` with a verified SeatGeek link, and all
 // of them render a live SeatGeek CTA. Testing only the row status would call
 // those pages dead ends and de-index them while their buttons still work.
-const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
-
 /**
  * Does this reviewed event currently carry at least one publishable ticket
  * destination, from any provider?
@@ -96,16 +94,12 @@ export function eventPublishable(event) {
 }
 
 /**
- * The narrower, row-status gate: does this event's *own* verification status
- * make it publishable? Mirrors eventLinkPublishable() in functions/[[path]].js,
- * which is what governs the Ticketmaster link and — importantly — which events
- * get a `MusicEvent` node in the JSON-LD graph.
+ * Does this event have a Ticketmaster destination suitable for the route's
+ * event-level representation? verification_status remains useful provenance,
+ * but no longer creates a manual review gate. The outbound redirect performs
+ * the strict host and event-id validation before sending a visitor away.
  *
- * This is deliberately NOT the same question as eventPublishable(). A
- * `needs_recheck` row with a verified SeatGeek destination renders a working
- * CTA (so its page can lead somewhere, and is worth indexing) while remaining
- * outside the MusicEvent contract (whose gate this PR does not change). Callers
- * must be explicit about which of the two they mean:
+ * Callers must be explicit about which of the two they mean:
  *
  *   eventPublishable()       -> "can this page lead anywhere?"  (indexability)
  *   eventStatusPublishable() -> "does this event get a MusicEvent node?" (schema)
@@ -114,8 +108,8 @@ export function eventPublishable(event) {
  * @returns {boolean}
  */
 export function eventStatusPublishable(event) {
-  const status = String(event?.verification_status || "").trim().toLowerCase();
-  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
+  if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 

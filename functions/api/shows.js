@@ -692,17 +692,14 @@ function validVividSeatsEventUrl(value) {
   }
 }
 
-// Per-provider event publishability. Keep in sync with
-// providerEventPublishable in functions/api/out.js, functions/[[path]].js
-// and public/app.js: a needs_recheck event may publish a SeatGeek CTA only
-// when the SeatGeek link carries its own verified provenance.
-const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
-
 function eventLinkPublishable(event) {
-  const status = String(event?.verification_status || "").trim().toLowerCase();
-  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
+  if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
+
+// Per-provider event publishability. Keep in sync with providerEventPublishable
+// in functions/api/out.js, functions/[[path]].js and public/app.js.
 
 function providerEventPublishable(event, provider) {
   if (IMPACT_MARKETPLACE_BY_SLUG[provider]) {

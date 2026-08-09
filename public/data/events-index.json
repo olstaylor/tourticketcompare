@@ -1567,6 +1567,7 @@
     "city": "Hartford",
     "venue": "PeoplesBank Arena",
     "datetime_iso": "2026-09-25T19:00:00-04:00",
+    "timezone": "America/New_York",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
   },
@@ -1578,6 +1579,7 @@
     "city": "Hartford",
     "venue": "PeoplesBank Arena",
     "datetime_iso": "2026-09-26T19:00:00-04:00",
+    "timezone": "America/New_York",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
   },
@@ -1865,6 +1867,7 @@
     "city": "Sunrise",
     "venue": "Amerant Bank Arena",
     "datetime_iso": "2026-11-19T19:00:00-05:00",
+    "timezone": "America/New_York",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
   },
@@ -1876,6 +1879,7 @@
     "city": "Sunrise",
     "venue": "Amerant Bank Arena",
     "datetime_iso": "2026-11-20T19:00:00-05:00",
+    "timezone": "America/New_York",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
   },
@@ -2007,6 +2011,7 @@
     "city": "Las Vegas",
     "venue": "T-Mobile Arena",
     "datetime_iso": "2026-12-19T19:00:00-08:00",
+    "timezone": "America/Los_Angeles",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
   },
@@ -2018,6 +2023,7 @@
     "city": "Las Vegas",
     "venue": "T-Mobile Arena",
     "datetime_iso": "2026-12-20T19:00:00-08:00",
+    "timezone": "America/Los_Angeles",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
   },
@@ -2674,6 +2680,7 @@
     "city": "Berlin",
     "venue": "Olympiastadion - Berlin",
     "datetime_iso": "2026-06-26T18:00:00+02:00",
+    "timezone": "Europe/Budapest",
     "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
@@ -2685,6 +2692,7 @@
     "city": "Berlin",
     "venue": "Olympiastadion - Berlin",
     "datetime_iso": "2026-06-28T18:00:00+02:00",
+    "timezone": "Europe/Budapest",
     "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
@@ -2696,6 +2704,7 @@
     "city": "Berlin",
     "venue": "Olympiastadion - Berlin",
     "datetime_iso": "2026-06-29T18:00:00+02:00",
+    "timezone": "Europe/Budapest",
     "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
@@ -2779,6 +2788,7 @@
     "city": "Milan",
     "venue": "San Siro Stadium",
     "datetime_iso": "2026-07-14T19:30:00+02:00",
+    "timezone": "Europe/Budapest",
     "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
@@ -2790,6 +2800,7 @@
     "city": "Milan",
     "venue": "San Siro Stadium",
     "datetime_iso": "2026-07-15T19:30:00+02:00",
+    "timezone": "Europe/Budapest",
     "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
@@ -3065,6 +3076,7 @@
     "city": "Colorado Springs",
     "venue": "Falcon Stadium",
     "datetime_iso": "2026-09-26T19:00:00-06:00",
+    "timezone": "America/Denver",
     "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
@@ -3076,6 +3088,7 @@
     "city": "Colorado Springs",
     "venue": "Falcon Stadium",
     "datetime_iso": "2026-09-27T19:00:00-06:00",
+    "timezone": "America/Denver",
     "tour_name": "The Romantic Tour",
     "status": "on-sale"
   },
@@ -3591,6 +3604,7 @@
     "city": "Glendale",
     "venue": "State Farm Stadium",
     "datetime_iso": "2026-06-13T17:30:00-07:00",
+    "timezone": "America/Phoenix",
     "tour_name": "The Loop Tour",
     "status": "on-sale"
   },
@@ -3602,6 +3616,7 @@
     "city": "Nashville",
     "venue": "Nissan Stadium",
     "datetime_iso": "2026-06-20T17:30:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "The Loop Tour",
     "status": "on-sale"
   },
@@ -3865,6 +3880,7 @@
     "city": "Arlington",
     "venue": "AT&T Stadium",
     "datetime_iso": "2026-10-24T17:30:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "The Loop Tour",
     "status": "on-sale"
   },
@@ -4188,6 +4204,7 @@
     "city": "Arlington",
     "venue": "AT&T Stadium",
     "datetime_iso": "2026-08-15T20:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "status": "on-sale"
   },
@@ -4199,6 +4216,7 @@
     "city": "Arlington",
     "venue": "AT&T Stadium",
     "datetime_iso": "2026-08-16T20:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "BTS WORLD TOUR 'ARIRANG'",
     "status": "on-sale"
   },
@@ -4234,6 +4252,7 @@
     "city": "Sunrise",
     "venue": "Amerant Bank Arena",
     "datetime_iso": "2026-06-30T20:00:00-04:00",
+    "timezone": "America/New_York",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "on-sale"
   },
@@ -4245,6 +4264,7 @@
     "city": "Sunrise",
     "venue": "Amerant Bank Arena",
     "datetime_iso": "2026-07-02T20:00:00-04:00",
+    "timezone": "America/New_York",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "on-sale"
   },
@@ -4256,6 +4276,7 @@
     "city": "Sunrise",
     "venue": "Amerant Bank Arena",
     "datetime_iso": "2026-07-03T20:00:00-04:00",
+    "timezone": "America/New_York",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "on-sale"
   },
@@ -4422,6 +4443,7 @@
     "city": "Houston",
     "venue": "Toyota Center - TX",
     "datetime_iso": "2026-06-21T19:30:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "Still Finally Over It",
     "status": "on-sale"
   },
@@ -4445,6 +4467,7 @@
     "city": "Houston",
     "venue": "Toyota Center - TX",
     "datetime_iso": "2026-06-23T20:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "LUX TOUR 2026",
     "status": "on-sale"
   },
@@ -4540,6 +4563,7 @@
     "city": "Brussels",
     "venue": "Stade Roi Boudoin - Brussels",
     "datetime_iso": "2026-07-22T00:00:00+02:00",
+    "timezone": "Europe/Budapest",
     "tour_name": "",
     "status": "on-sale"
   },
@@ -4683,6 +4707,7 @@
     "city": "Arlington",
     "venue": "AT&T Stadium",
     "datetime_iso": "2026-08-22T19:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "With Heaven On Tour",
     "status": "on-sale"
   },
@@ -4694,6 +4719,7 @@
     "city": "Glendale",
     "venue": "State Farm Stadium",
     "datetime_iso": "2026-09-05T19:00:00-07:00",
+    "timezone": "America/Phoenix",
     "tour_name": "With Heaven On Tour",
     "status": "on-sale"
   },
@@ -4705,6 +4731,7 @@
     "city": "Dover",
     "venue": "The Woodlands at Dover Motor Speedway",
     "datetime_iso": "2026-09-18T15:00:00-04:00",
+    "timezone": "America/New_York",
     "tour_name": "With Heaven On Tour",
     "status": "on-sale"
   },
@@ -4716,6 +4743,7 @@
     "city": "Dover",
     "venue": "The Woodlands at Dover Motor Speedway",
     "datetime_iso": "2026-09-19T15:00:00-04:00",
+    "timezone": "America/New_York",
     "tour_name": "With Heaven On Tour",
     "status": "on-sale"
   },
@@ -4775,6 +4803,7 @@
     "city": "Auburn University",
     "venue": "Jordan Hare Stadium",
     "datetime_iso": "2026-10-10T19:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "With Heaven On Tour",
     "status": "on-sale"
   },
@@ -4786,6 +4815,7 @@
     "city": "Colorado Springs",
     "venue": "Weidner Field",
     "datetime_iso": "2026-07-30T17:30:00-06:00",
+    "timezone": "America/Denver",
     "tour_name": "",
     "status": "on-sale"
   },
@@ -4905,6 +4935,7 @@
     "city": "Minneapolis",
     "venue": "Target Center",
     "datetime_iso": "2026-08-28T19:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "The Deadbeat Tour",
     "status": "on-sale"
   },
@@ -5012,6 +5043,7 @@
     "city": "Houston",
     "venue": "Toyota Center - TX",
     "datetime_iso": "2026-09-19T19:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "The Deadbeat Tour",
     "status": "on-sale"
   },
@@ -5023,6 +5055,7 @@
     "city": "Houston",
     "venue": "Toyota Center - TX",
     "datetime_iso": "2026-09-20T19:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "The Deadbeat Tour",
     "status": "on-sale"
   },
@@ -5886,6 +5919,7 @@
     "city": "Saint Paul",
     "venue": "Grand Casino Arena",
     "datetime_iso": "2027-03-17T19:30:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "Dinner Party Live On Tour",
     "status": "on-sale"
   },
@@ -6065,6 +6099,7 @@
     "city": "Houston",
     "venue": "Toyota Center - TX",
     "datetime_iso": "2027-05-01T19:30:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "Dinner Party Live On Tour",
     "status": "on-sale"
   },
@@ -6388,6 +6423,7 @@
     "city": "Houston",
     "venue": "Toyota Center - TX",
     "datetime_iso": "2026-11-07T20:00:00-06:00",
+    "timezone": "America/Chicago",
     "tour_name": "Tour Ma Vie World Tour",
     "status": "on-sale"
   },
@@ -6627,6 +6663,7 @@
     "city": "San Diego",
     "venue": "Pechanga Arena San Diego",
     "datetime_iso": "2026-10-13T19:00:00-07:00",
+    "timezone": "America/Los_Angeles",
     "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
@@ -6638,6 +6675,7 @@
     "city": "Glendale",
     "venue": "Desert Diamond Arena",
     "datetime_iso": "2026-10-14T19:00:00-07:00",
+    "timezone": "America/Phoenix",
     "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
@@ -6649,6 +6687,7 @@
     "city": "Oklahoma City",
     "venue": "Paycom Center",
     "datetime_iso": "2026-10-16T19:30:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
@@ -6660,6 +6699,7 @@
     "city": "Houston",
     "venue": "Toyota Center - TX",
     "datetime_iso": "2026-10-17T19:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
@@ -6707,6 +6747,7 @@
     "city": "Sunrise",
     "venue": "Amerant Bank Arena",
     "datetime_iso": "2026-10-24T19:00:00-04:00",
+    "timezone": "America/New_York",
     "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
@@ -6874,6 +6915,7 @@
     "city": "Cleveland",
     "venue": "Rocket Arena",
     "datetime_iso": "2026-11-13T19:00:00-05:00",
+    "timezone": "America/New_York",
     "tour_name": "You Are The Reason Tour",
     "status": "on-sale"
   },
@@ -6969,6 +7011,7 @@
     "city": "Chicago",
     "venue": "Radius - Chicago",
     "datetime_iso": "2026-07-30T22:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
   },
@@ -6980,6 +7023,7 @@
     "city": "Champaign",
     "venue": "State Farm Center",
     "datetime_iso": "2026-10-01T19:00:00-05:00",
+    "timezone": "America/Chicago",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
     "status": "on-sale"
   },
@@ -7063,6 +7107,7 @@
     "city": "Houston",
     "venue": "Toyota Center - TX",
     "datetime_iso": "2026-11-05T19:00:00-06:00",
+    "timezone": "America/Chicago",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
     "status": "on-sale"
   },

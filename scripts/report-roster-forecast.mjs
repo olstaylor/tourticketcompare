@@ -242,9 +242,9 @@ export function projectSurface(events, artists, baseNow, horizons = DEFAULT_HORI
 }
 
 /**
- * When does each editorially-indexable artist page fall out of the index?
+ * When does each editorially-indexable artist lose its future-date status?
  * `dropsOn` is the day after its last upcoming show; null when the artist is
- * already empty-boarded.
+ * already empty-boarded. The artist page itself remains indexable.
  */
 export function artistDropouts(events, artists, baseNow) {
   const rows = [];
@@ -729,7 +729,7 @@ function runSelfTest() {
   assert("venue gate met at base", now.venues === 1);
 
   const after = surfaceAt(events, artists, base + 30 * DAY_MS);
-  assert("surface empties once every date has passed", after.total === 0);
+  assert("surface retains durable artist pages once every date has passed", after.artists === 2 && after.total === 2);
 
   const projection = projectSurface(events, artists, base, [0, 30]);
   assert("projection covers each requested horizon", projection.length === 2 && projection[0].days === 0);

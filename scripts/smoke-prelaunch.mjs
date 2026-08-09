@@ -3319,16 +3319,15 @@ assert(!beyonceEmptyStatePage.text.includes("event records"), "empty-board artis
     "per-event last_verified_at dates must never surface in the artist page's Data checked line, even out of chronological order"
   );
 }
-// An artist with no artist-level verification date must not fall back to
-// generic "checks run daily" filler — the Data checked line is omitted
-// entirely rather than printing a sentence with nothing factual in it.
+// An artist with no future dates must omit dated provenance claims entirely,
+// including when it has no artist-level verification date.
 {
   const noVerifiedDatePage = await routeResponse("/artists/sabrina-carpenter");
   assert(noVerifiedDatePage.response.status === 200, "an artist with no verified-link date should still render its page");
-  assert(noVerifiedDatePage.text.includes("data-artist-trust"), "the provenance section should render even without a Data checked date");
+  assert(!noVerifiedDatePage.text.includes("data-artist-trust"), "an empty artist page should omit dated provenance claims");
   assert(
     !noVerifiedDatePage.text.includes("<strong>Data checked:</strong>"),
-    "an artist with no verified-link date must not render a generic 'Data checked' filler line"
+    "an empty artist page must not render a generic 'Data checked' filler line"
   );
 }
 // Artist-level provider buttons land on the artist's page, not on one date, so

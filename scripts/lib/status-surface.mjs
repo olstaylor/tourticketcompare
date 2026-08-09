@@ -122,13 +122,7 @@ export function computeEmptyBoards({ artistsMeta, events, artistIndexabilityModu
   const editorial = artistsMeta.filter(
     (artist) => artist?.indexing_status === artistIndexabilityModule.INDEXABLE_ARTIST_STATUS
   );
-  const hasUpcoming = (slug) =>
-    artistIndexabilityModule.artistPageIndexable(
-      artistIndexabilityModule.INDEXABLE_ARTIST_STATUS,
-      events,
-      slug,
-      now
-    );
+  const hasUpcoming = (slug) => artistIndexabilityModule.artistHasUpcomingShow(events, slug, now);
   const eventCount = new Map();
   for (const event of events) {
     const slug = String(event?.artist_slug || "").trim();

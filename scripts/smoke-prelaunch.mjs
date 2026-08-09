@@ -166,8 +166,8 @@ function safeSeatGeekEventUrl(value) {
 // functions/[[path]].js / public/app.js for the SeatGeek lane.
 function seatGeekEventPublishable(event) {
   if (event?.provider_links?.seatgeek?.verified === true) return true;
-  const status = String(event?.verification_status || "").trim().toLowerCase();
-  if (status) return status === "human_verified" || status === "machine_high_confidence";
+  const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
+  if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
@@ -1406,10 +1406,9 @@ assert(!strayFlaggedPage.text.includes(TM_RECHECK_HIDDEN_COPY), "stray suppressi
 assert(strayFlaggedPage.text.includes(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "verified Ticketmaster CTA must survive stray transient suppression flags");
 assert(strayFlaggedPage.text.includes(RENDERED_SG_EVENT_OUT_HREF), "SeatGeek CTA must never be hidden by stray transient suppression flags");
 
-// 2b. Behavioural guard: an explicit, reviewed verification_status of
-//     needs_recheck IS the supported row-level suppression state — the event's
-//     CTAs must NOT render (eventLinkPublishable gate), and the recheck-hidden
-//     copy must still never render.
+// 2b. Behavioural guard: needs_recheck is retained as provenance metadata but
+//     no longer suppresses a checked stored Ticketmaster destination. Provider
+//     URL and provenance gates still apply independently.
 const recheckStatusEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
   ? { ...event, verification_status: "needs_recheck" }
   : event));
@@ -1425,17 +1424,18 @@ const recheckStatusEnv = {
 };
 const recheckStatusPage = await routeResponse("/artists/morgan-wallen", recheckStatusEnv);
 assert(!recheckStatusPage.text.includes(TM_RECHECK_HIDDEN_COPY), "explicit needs_recheck must not render the Ticketmaster-hidden recheck copy");
-assert(!recheckStatusPage.text.includes(controlledSeatGeekShow.ticketmaster_url), "explicit verification_status=needs_recheck must suppress the event's Ticketmaster CTA");
-assert(!recheckStatusPage.text.includes(RENDERED_SG_EVENT_OUT_HREF), "explicit verification_status=needs_recheck must suppress the event's SeatGeek CTA when the SeatGeek link has no verified provenance of its own");
-// The needs_recheck event must not resolve through /api/out for either provider.
+assert(recheckStatusPage.text.includes(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "explicit verification_status=needs_recheck must not suppress the checked Ticketmaster CTA");
+assert(recheckStatusPage.text.includes(RENDERED_SG_EVENT_OUT_HREF), "explicit verification_status=needs_recheck must not suppress a checked SeatGeek destination");
+// The needs_recheck event resolves through /api/out for Ticketmaster when its
+// stored destinations pass strict redirect checks.
+const recheckTmOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=ticketmaster`, "GET", null, recheckStatusEnv);
+assert(recheckTmOut.status === 302, "needs_recheck event with a checked Ticketmaster destination must resolve");
 const recheckSgOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=seatgeek`, "GET", null, recheckStatusEnv);
-assert(recheckSgOut.status === 400, "needs_recheck event without SeatGeek provenance must not resolve a SeatGeek redirect");
-assert((await recheckSgOut.json()).status === "event_link_not_publishable", "needs_recheck SeatGeek redirect should fail with event_link_not_publishable");
+assert(recheckSgOut.status === 302, "needs_recheck event with a checked SeatGeek destination must resolve");
 
 // 2b-ii. Standalone SeatGeek: a needs_recheck event whose SeatGeek link carries
 //        its own verified provenance (provider_links.seatgeek.verified) renders
-//        the SeatGeek CTA standalone — the suppressed Ticketmaster CTA stays
-//        hidden — and /api/out resolves SeatGeek but not Ticketmaster.
+//        both provider CTAs — and /api/out resolves both destinations.
 const recheckSgVerifiedEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
   ? {
       ...event,
@@ -1458,13 +1458,12 @@ const recheckSgVerifiedEnv = {
 };
 const recheckSgVerifiedPage = await routeResponse("/artists/morgan-wallen", recheckSgVerifiedEnv);
 assert(recheckSgVerifiedPage.text.includes(RENDERED_SG_EVENT_OUT_HREF), "needs_recheck event with verified SeatGeek provenance must render the standalone SeatGeek CTA");
-assert(!recheckSgVerifiedPage.text.includes(controlledSeatGeekShow.ticketmaster_url), "needs_recheck event with verified SeatGeek provenance must still suppress the Ticketmaster CTA");
+assert(recheckSgVerifiedPage.text.includes(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "needs_recheck event with verified SeatGeek provenance must keep the Ticketmaster CTA");
 const standaloneSgOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=seatgeek`, "GET", null, recheckSgVerifiedEnv);
 assert(standaloneSgOut.status === 302, "needs_recheck event with verified SeatGeek provenance must resolve the SeatGeek redirect");
 assert(new URL(standaloneSgOut.headers.get("location")).searchParams.get("u") === CONTROLLED_SEATGEEK_URL, "standalone SeatGeek redirect must deep-link to the stored SeatGeek event URL");
 const standaloneTmOut = await out(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&provider=ticketmaster`, "GET", null, recheckSgVerifiedEnv);
-assert(standaloneTmOut.status === 400, "needs_recheck event must not resolve a Ticketmaster redirect even when the SeatGeek link is independently verified");
-assert((await standaloneTmOut.json()).status === "event_link_not_publishable", "needs_recheck Ticketmaster redirect should fail with event_link_not_publishable");
+assert(standaloneTmOut.status === 302, "needs_recheck event must resolve its checked Ticketmaster redirect even when the SeatGeek link is independently verified");
 
 // 2c. Behavioural guard: machine_high_confidence is CTA-publishable without
 //     the human-verified provider flag — the explicit status alone must keep
@@ -2709,7 +2708,7 @@ const vsRecheckShow = vsRecheckShowsJson.shows.find((show) => show.id === CONTRO
 assert(vsRecheckShow?.provider_ctas?.vividseats === true, "needs_recheck event with verified Vivid Seats provenance should remain publishable through /api/shows");
 const vsRecheckPage = await routeResponse("/artists/morgan-wallen", vsRecheckEnv);
 assert(vsRecheckPage.text.includes(RENDERED_VS_EVENT_OUT_HREF), "SSR should render a standalone Vivid Seats CTA when its needs_recheck event has verified provider provenance");
-assert(!vsRecheckPage.text.includes(controlledSeatGeekShow.ticketmaster_url), "SSR should keep Ticketmaster suppressed for the independently verified Vivid Seats needs_recheck event");
+assert(vsRecheckPage.text.includes(`/api/out?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&amp;provider=ticketmaster`), "SSR should keep Ticketmaster available for the independently verified Vivid Seats needs_recheck event");
 try {
   globalThis.fetch = async () => {
     throw new Error("Vivid Seats base tracking redirects should not call the Impact API");
@@ -3030,7 +3029,9 @@ function syntheticShow({ id, city, venue, country = "United States", iso, timezo
     datetime_iso: iso,
     timezone,
     ticketmaster_event_id: eventId,
-    ticketmaster_url: `https://www.ticketmaster.com/bruno-mars-${city.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/event/${eventId}`,
+    ticketmaster_url: verified
+      ? `https://www.ticketmaster.com/bruno-mars-${city.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/event/${eventId}`
+      : "",
     seatgeek_url: "",
     vividseats_url: "",
     source_type: "ticketmaster",

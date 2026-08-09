@@ -95,8 +95,8 @@ function types(graph) {
 // functions/api/out.js) so this check fails if the schema builder ever drifts
 // from it.
 function eventPublishable(event) {
-  const status = String(event?.verification_status || "").trim().toLowerCase();
-  if (status) return status === "human_verified" || status === "machine_high_confidence";
+  const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
+  if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 

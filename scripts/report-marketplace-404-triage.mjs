@@ -194,11 +194,9 @@ function safeImpactMarketplaceTicketUrl(value, provider) {
   }
 }
 
-const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
-
 function eventLinkPublishable(event) {
-  const status = String(event?.verification_status || "").trim().toLowerCase();
-  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
+  if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
@@ -403,13 +401,13 @@ function selfTest() {
   check(() => assert.equal(safeSeatGeekTicketUrl("https://seatgeek.com/a-tickets/x/concert/18157380"), "https://seatgeek.com/a-tickets/x/concert/18157380"));
 
   // Render gates: marketplace lanes require their own verified provenance;
-  // needs_recheck suppresses Ticketmaster but not independently verified resale.
+  // a stored Ticketmaster destination is eligible regardless of status.
   const event = fixtureEvent();
   check(() => assert.equal(laneRenders(event, "ticketnetwork"), true));
   check(() => assert.equal(laneRenders(event, "ticket-liquidator"), false));
   check(() => assert.equal(laneRenders(event, "ticketmaster"), true));
   const recheck = fixtureEvent({ verification_status: "needs_recheck" });
-  check(() => assert.equal(laneRenders(recheck, "ticketmaster"), false));
+  check(() => assert.equal(laneRenders(recheck, "ticketmaster"), true));
   check(() => assert.equal(laneRenders(recheck, "vivid-seats"), true));
   const unverifiedLane = fixtureEvent({ provider_links: { ...fixtureEvent().provider_links, ticketnetwork: { verified: false } } });
   check(() => assert.equal(laneRenders(unverifiedLane, "ticketnetwork"), false));

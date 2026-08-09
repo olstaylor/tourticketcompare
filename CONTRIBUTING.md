@@ -140,10 +140,6 @@ npm run report:link-coverage                  # 0/1/2/3+ publishable CTAs per up
 npm run report:link-coverage:json             # same, machine-readable
 npm run report:link-coverage:check            # fails on any zero-link upcoming event (in test:mvp);
                                               #   one-link events are a reported warning, not a failure
-npm run events:recheck-review                 # owner worklist: upcoming needs_recheck rows, their
-                                              #   stored Ticketmaster destination, and which providers
-                                              #   publish independently. Read-only — restoring a
-                                              #   Ticketmaster CTA stays a human decision.
 ```
 
 ### Analytics / commercial funnel (before changing measurement code)

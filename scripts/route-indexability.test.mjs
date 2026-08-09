@@ -53,6 +53,7 @@ function ev(overrides = {}) {
     country: "United Kingdom",
     venue: "First Direct Arena",
     datetime_iso: futureA,
+    ticketmaster_url: "https://www.ticketmaster.com/artist-one-leeds/event/ABC123",
     verification_status: "human_verified",
     provider_links: { ticketmaster: { verified: true } },
     last_verified_at: "2026-06-01",
@@ -65,8 +66,8 @@ function ev(overrides = {}) {
   assert(eventPublishable(ev()) === true, "human_verified is publishable");
   assert(eventPublishable(ev({ verification_status: "machine_high_confidence" })) === true, "machine_high_confidence is publishable");
   assert(
-    eventPublishable(ev({ verification_status: "needs_recheck", provider_links: {} })) === false,
-    "needs_recheck with no verified link at all is not publishable"
+    eventPublishable(ev({ verification_status: "needs_recheck", provider_links: {} })) === true,
+    "needs_recheck does not suppress a stored Ticketmaster destination"
   );
   assert(
     eventPublishable({ provider_links: { ticketmaster: { verified: true } } }) === true,
@@ -91,8 +92,8 @@ function ev(overrides = {}) {
   });
   assert(eventPublishable(standalone) === true, "a needs_recheck row with a verified SeatGeek destination can lead somewhere");
   assert(
-    eventStatusPublishable(standalone) === false,
-    "...but it stays outside the row-status gate that governs MusicEvent emission"
+    eventStatusPublishable(standalone) === true,
+    "...and its stored Ticketmaster destination also supports MusicEvent emission"
   );
 
   // Provenance without a destination is not a destination: the renderer's
@@ -100,17 +101,18 @@ function ev(overrides = {}) {
   // reachable page with no reachable link.
   const noUrl = ev({
     verification_status: "needs_recheck",
+    ticketmaster_url: "",
     provider_links: { seatgeek: { verified: true, url: "" } }
   });
   assert(eventPublishable(noUrl) === false, "verified: true with no stored URL is not a publishable destination");
 
-  // A verified Ticketmaster link alone never rescues a needs_recheck row — the
-  // recheck flag is precisely a statement about that storefront URL.
+  // A stored Ticketmaster destination is enough regardless of the retained
+  // provenance status; the redirect validator remains the safety boundary.
   const tmOnly = ev({
     verification_status: "needs_recheck",
     provider_links: { ticketmaster: { verified: true, url: "https://www.ticketmaster.com/event/ABC" } }
   });
-  assert(eventPublishable(tmOnly) === false, "a verified Ticketmaster link does not override needs_recheck");
+  assert(eventPublishable(tmOnly) === true, "a stored Ticketmaster destination is publishable regardless of status");
 
   // Any approved marketplace lane counts, not just SeatGeek.
   for (const provider of ["vivid-seats", "ticketnetwork", "stubhub-international"]) {
@@ -122,7 +124,7 @@ function ev(overrides = {}) {
   }
 
   // A fully verified row is publishable under both gates.
-  assert(eventStatusPublishable(ev()) === true, "human_verified passes the row-status gate too");
+  assert(eventStatusPublishable(ev()) === true, "a stored Ticketmaster destination passes the event-status gate too");
 }
 
 // --- Gate units -----------------------------------------------------------
@@ -189,7 +191,7 @@ function ev(overrides = {}) {
 {
   // Same shape, but every date is CTA-suppressed: the page lists dates that
   // cannot lead anywhere, so it must not be indexed.
-  const suppressed = { verification_status: "needs_recheck", provider_links: {} };
+  const suppressed = { ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} };
   const events = [
     ev({ id: "d1", datetime_iso: futureA, ...suppressed }),
     ev({ id: "d2", datetime_iso: futureB, ...suppressed }),
@@ -209,9 +211,9 @@ function ev(overrides = {}) {
   // One publishable date is enough to clear the destination gate.
   const events = [
     ev({ id: "e1", datetime_iso: futureA }),
-    ev({ id: "e2", datetime_iso: futureB, verification_status: "needs_recheck", provider_links: {} }),
-    ev({ id: "e3", artist_slug: "artist-two", datetime_iso: futureC, verification_status: "needs_recheck", provider_links: {} }),
-    ev({ id: "e4", artist_slug: "artist-two", datetime_iso: futureD, verification_status: "needs_recheck", provider_links: {} })
+    ev({ id: "e2", datetime_iso: futureB, ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} }),
+    ev({ id: "e3", artist_slug: "artist-two", datetime_iso: futureC, ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} }),
+    ev({ id: "e4", artist_slug: "artist-two", datetime_iso: futureD, ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} })
   ];
   const city = deriveCities(events, opts)[0];
   assert(city.publishableCount === 1 && city.indexable === true, "one reachable destination clears the city destination gate");
@@ -233,7 +235,7 @@ function ev(overrides = {}) {
   assert(venue.indexable === true, "a three-show two-artist venue with destinations is indexable");
 }
 {
-  const suppressed = { verification_status: "needs_recheck", provider_links: {} };
+  const suppressed = { ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} };
   const events = [
     ev({ id: "h1", datetime_iso: futureA, ...suppressed }),
     ev({ id: "h2", datetime_iso: futureB, ...suppressed }),

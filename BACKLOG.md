@@ -33,7 +33,7 @@ Remaining `review_required` shells awaiting Promote: **sabrina-carpenter, lady-g
 
 ### 4. Routine data hygiene (recurring)
 
-- **`needs_recheck` re-checks:** 46 events carry this state (per-artist breakdown: `PROJECT_STATUS.md` → Per-artist status). Verified resale provenance keeps 27 standalone SeatGeek CTAs publishable; 39 of 46 rows have at least one independent resale route; the 7 fully CTA-suppressed rows are all past events. Re-check Ticketmaster storefront URLs periodically; never restore from the Discovery `url` field alone — an owner browser check is required.
+- **`needs_recheck` provenance:** 46 events retain this historical confidence state (per-artist breakdown: `PROJECT_STATUS.md` → Per-artist status). It is no longer a manual CTA queue: stored destinations go through the runtime host, protocol, event-ID, and redirect checks automatically; rows without a usable destination remain suppressed.
 - **Blank tour labels:** the remaining validator warning is expected for the JAY-Z Inglewood/London rows (owner-accepted blank), John Summit's separate Lollapalooza aftershow (deliberately unlabelled), and a handful of Bad Bunny/Jelly Roll/Post Malone rows needing event-specific human confirmation. Never infer tour names from URL slugs.
 - **Tombstone dedup deletions:** when deleting a row from `events.json` that Ticketmaster still lists, add its ids and/or venue/date to `data/deleted-events.json` in the same change (see `docs/PROVIDER_SYNC.md` and `docs/OPERATIONS.md` → Known incidents).
 - Review the rolling automation issues (`automation:daily-audit`, `automation:data-sync`) and any withheld rows from the new-show PRs.

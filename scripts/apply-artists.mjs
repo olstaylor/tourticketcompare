@@ -216,10 +216,8 @@ function ticketmasterHostAllowed(hostname) {
 // (short-form /event/<id> URLs are excluded — they have 404'd in browsers
 // while still resolving via the Discovery API), the storefront event id
 // appears in the URL, and the row has a full datetime plus venue and city.
-// Everything else is needs_recheck: the URL is preserved but CTAs and
-// /api/out redirects stay suppressed until a human verifies it. This never
-// produces human_verified — machine approval and human verification are
-// distinct states.
+// Everything else is needs_recheck: the provenance state is preserved, while
+// the runtime independently validates any stored destination before redirecting.
 function classifyCandidateLink(row, confidenceBySlug) {
   const confidence = confidenceBySlug instanceof Map ? confidenceBySlug.get(clean(row.artist_slug)) : undefined;
   if (confidence !== 1) return "needs_recheck";
@@ -274,8 +272,9 @@ function buildEvent(row, verificationStatus = "needs_recheck") {
     last_verified_at: null,
     // Explicit publishability state read by the runtime CTA/redirect gates
     // (eventLinkPublishable in functions/[[path]].js, public/app.js,
-    // functions/api/out.js). machine_high_confidence rows may render without
-    // human review; needs_recheck rows never render until a human flips them.
+    // functions/api/out.js). verification_status is retained as provenance
+    // metadata; it is not a manual CTA gate. The runtime still validates the
+    // stored destination before redirecting.
     verification_status: verificationStatus,
     provider_links: {
       ticketmaster: {
@@ -607,7 +606,9 @@ async function main() {
   const report = reportResult.ok ? reportResult.data : null;
   // Discovery artist-match confidence per slug, used to classify candidate
   // link publishability. Missing report or missing entry → no confidence →
-  // rows land as needs_recheck (suppressed until human review).
+  // rows may retain needs_recheck as provenance metadata when the candidate
+  // does not meet the machine-confidence contract; it no longer suppresses a
+  // stored destination at runtime.
   const confidenceBySlug = new Map(
     (Array.isArray(report?.accepted) ? report.accepted : [])
       .filter((entry) => entry && clean(entry.proposed_slug))

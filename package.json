@@ -88,7 +88,6 @@
     "report:link-coverage:json": "node scripts/report-link-coverage.mjs --json",
     "report:link-coverage:check": "node scripts/report-link-coverage.mjs --check",
     "report:link-coverage:self-test": "node scripts/report-link-coverage.mjs --self-test",
-    "events:recheck-review": "node scripts/report-link-coverage.mjs --recheck-review",
     "test:funnel-analytics": "node scripts/funnel-analytics.test.mjs",
     "roster:forecast": "node scripts/report-roster-forecast.mjs",
     "roster:forecast:candidates": "node scripts/report-roster-forecast.mjs --candidates",

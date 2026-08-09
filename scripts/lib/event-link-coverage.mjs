@@ -12,9 +12,8 @@
 // The gate has three independent parts, all of which must pass for a lane:
 //
 //   1. Provider publishability (`providerEventPublishable`) — Ticketmaster
-//      follows the row's own verification_status; every other lane publishes on
-//      its own verified provenance, which is why a `needs_recheck` row can still
-//      show a SeatGeek button.
+//      uses its stored destination; every other lane publishes on its own
+//      verified provenance.
 //   2. A stored destination that passes that provider's URL-shape validator —
 //      host allowlist, no generic search/artist/venue page, provider-specific
 //      event-path shape.
@@ -68,12 +67,10 @@ export function laneBySlug(slug) {
 // Publishability (faithful copy of functions/[[path]].js)
 // ---------------------------------------------------------------------------
 
-const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
-
 /** Row-status gate — governs the Ticketmaster link. */
 export function eventLinkPublishable(event) {
-  const status = clean(event?.verification_status, 64).toLowerCase();
-  if (status) return PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+  const destination = clean(event?.ticketmaster_url || event?.source_url);
+  if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;
 }
 
@@ -174,7 +171,6 @@ export function safeLaneUrl(event, lane) {
 /** Why a lane does not currently publish. Stable machine-readable codes. */
 export const LANE_BLOCKERS = Object.freeze({
   PROVIDER_NOT_CONFIGURED: "provider_not_configured",
-  TICKETMASTER_NEEDS_RECHECK: "ticketmaster_needs_recheck",
   NOT_VERIFIED: "provider_not_verified",
   NO_URL: "provider_no_stored_url",
   URL_SHAPE: "provider_url_shape_invalid"
@@ -195,20 +191,14 @@ export function evaluateLane(event, lane, isConfigured) {
   if (!configured) {
     return { slug: lane.slug, name: lane.name, publishes: false, blocker: LANE_BLOCKERS.PROVIDER_NOT_CONFIGURED, url: null };
   }
-  if (!publishable) {
-    return {
-      slug: lane.slug,
-      name: lane.name,
-      publishes: false,
-      blocker: lane.kind === "ticketmaster" ? LANE_BLOCKERS.TICKETMASTER_NEEDS_RECHECK : LANE_BLOCKERS.NOT_VERIFIED,
-      url: null
-    };
-  }
   if (!clean(event?.[lane.urlField])) {
     return { slug: lane.slug, name: lane.name, publishes: false, blocker: LANE_BLOCKERS.NO_URL, url: null };
   }
   if (!url) {
     return { slug: lane.slug, name: lane.name, publishes: false, blocker: LANE_BLOCKERS.URL_SHAPE, url: null };
+  }
+  if (!publishable) {
+    return { slug: lane.slug, name: lane.name, publishes: false, blocker: LANE_BLOCKERS.NOT_VERIFIED, url: null };
   }
   return { slug: lane.slug, name: lane.name, publishes: true, blocker: "", url };
 }

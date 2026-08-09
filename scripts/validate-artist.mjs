@@ -396,21 +396,18 @@ async function checkArtist(slug, { artists, catalog, events, vtlKeys, showsArtis
 
     // Events whose Ticketmaster link is not CTA-publishable. Mirrors
     // eventLinkPublishable in functions/[[path]].js / public/app.js /
-    // functions/api/out.js: an explicit verification_status of
-    // human_verified or machine_high_confidence allows CTAs; needs_recheck
-    // suppresses them; with no explicit status the legacy
-    // provider_links.ticketmaster.verified flag decides.
-    const PUBLISHABLE_VERIFICATION_STATUSES = new Set(["human_verified", "machine_high_confidence"]);
+    // functions/api/out.js: a stored destination is eligible regardless of
+    // verification_status, while a statusless record still needs the legacy
+    // provider_links.ticketmaster.verified flag.
     const nonPublishable = eventsForSlug.filter(e => {
-      const status = String(e?.verification_status || "").trim().toLowerCase();
-      if (status) return !PUBLISHABLE_VERIFICATION_STATUSES.has(status);
+      const destination = String(e?.ticketmaster_url || e?.source_url || "").trim();
+      if (destination) return false;
       return e?.provider_links?.ticketmaster?.verified !== true;
     });
     if (nonPublishable.length > 0) {
       report.warn(
         `${nonPublishable.length} event(s) are not CTA-publishable ` +
-        `(verification_status is needs_recheck, or no explicit status and ` +
-        `provider_links.ticketmaster.verified is not true) ` +
+        `(no stored destination and provider_links.ticketmaster.verified is not true) ` +
         `— show cards for these events will have no Ticketmaster CTA`
       );
     }

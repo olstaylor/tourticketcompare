@@ -12,7 +12,9 @@ What it does:
   - queries the TM Discovery API by attraction ID (the same API and no-op
     credential pattern as scripts/apply-tm-updates.mjs / propose-artists.mjs);
   - classifies every recognised event as PROPOSED or WITHHELD using the
-    withhold rules below and prints a structured report.
+    withhold rules below and prints a structured report, tagging each withhold
+    with a stable machine-readable code (WITHHOLD_REASON_CODES) alongside the
+    human sentence, so downstream observability never parses prose.
 
 What it never does:
   - write any file (events, registry, public data — nothing);
@@ -81,6 +83,41 @@ TRAVEL_PACKAGE_MARKERS = ("travel", "hotel", "package", "parking", "shuttle", "h
 
 PLACEHOLDER_MARKERS = ("localhost", "example.com", "placeholder", "replace-me", "tbd")
 AFFILIATE_WRAPPER_HOSTS = {"ticketmaster.evyy.net"}
+
+# Stable machine-readable withhold reason codes. Each key is emitted by exactly
+# one call site in classify_event() (the self-test enforces that the catalogue
+# and the code paths never drift apart), so downstream observability can count
+# and trend withholding without parsing English prose — the human sentence in
+# `withheld_reasons` stays free to change wording.
+#
+# These codes are an OUTPUT CONTRACT: rename one and every historical artifact
+# stops comparing. Add new codes rather than repurposing existing ones.
+WITHHOLD_REASON_CODES = {
+    "missing_datetime": "Discovery record carries no start date at all.",
+    "date_only_datetime": "Start date has no exact time (date-only listing).",
+    "past_event": "Start date is already in the past.",
+    "status_not_onsale": "dates.status.code is not an on-sale state (cancelled, postponed, offsale, ...).",
+    "missing_venue": "Embedded venue record has no name.",
+    "missing_city": "Embedded venue record has no city.",
+    "missing_country": "Embedded venue record has no country.",
+    "missing_url": "Discovery record carries no event URL.",
+    "malformed_url": "Event URL could not be parsed into a host.",
+    "wrapper_missing_destination": "Affiliate wrapper URL has no u= destination to unwrap.",
+    "wrapper_malformed_destination": "Affiliate wrapper u= destination could not be parsed.",
+    "url_not_https": "Resolved storefront URL is not HTTPS.",
+    "host_not_allowlisted": "Resolved host is not in the out.js Ticketmaster allowlist.",
+    "missing_storefront_event_id": "Resolved storefront URL has no /event/<id> path segment.",
+    "destination_is_affiliate_wrapper": "Resolved destination is still an affiliate wrapper, not a storefront.",
+    "placeholder_url": "URL matches a placeholder marker (localhost, example.com, ...).",
+    "travel_package_listing": "Listing looks like a travel/hotel/parking/hospitality upsell package.",
+    "attraction_identity_mismatch": "Event attractions do not include the registry's verified attraction ID.",
+    "not_primary_attraction": "Registry attraction is not the primary attraction (support act / festival lineup).",
+    "duplicate_existing_event_id": "Same Ticketmaster event id as an existing events.json row.",
+    "duplicate_existing_venue_date": "Same venue and venue-local date as an existing events.json row.",
+    "duplicate_within_batch": "Same venue and venue-local date as an earlier row in this same fetch.",
+    "tombstoned_event_id": "Matches an owner-deleted (tombstoned) row by Ticketmaster event id.",
+    "tombstoned_venue_date": "Matches an owner-deleted (tombstoned) row by venue and venue-local date.",
+}
 
 
 def load_json(path):
@@ -425,8 +462,19 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     Pure function: no I/O, no network. A row with any withhold reason is
     WITHHELD for human review; otherwise it is PROPOSED (report-only — nothing
     is written in dry-run, and no other mode exists).
+
+    Every withhold records BOTH a human sentence (`withheld_reasons`) and the
+    stable code for the rule that fired (`withheld_reason_codes`), in the same
+    order. The code is attached here, at the real decision site — nothing
+    downstream re-derives it by pattern-matching the prose.
     """
     reasons = []
+    codes = []
+
+    def withhold(code, message):
+        codes.append(code)
+        reasons.append(message)
+
     venue = ((tm_event.get("_embedded") or {}).get("venues") or [{}])[0]
     venue_name = (venue.get("name") or "").strip()
     city = ((venue.get("city") or {}).get("name") or "").strip()
@@ -439,19 +487,19 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     datetime_iso, has_exact_time = parse_event_datetime(tm_event)
 
     if not datetime_iso:
-        reasons.append("missing datetime")
+        withhold("missing_datetime", "missing datetime")
     elif not has_exact_time:
-        reasons.append("date-only datetime (no exact start time)")
+        withhold("date_only_datetime", "date-only datetime (no exact start time)")
     if datetime_iso and datetime_iso[:10] < now_iso[:10]:
-        reasons.append("past event")
+        withhold("past_event", "past event")
     if status_code not in PROPOSABLE_STATUS_CODES:
-        reasons.append(f"status is '{status_code}' (not onsale)")
+        withhold("status_not_onsale", f"status is '{status_code}' (not onsale)")
     if not venue_name:
-        reasons.append("missing venue")
+        withhold("missing_venue", "missing venue")
     if not city:
-        reasons.append("missing city")
+        withhold("missing_city", "missing city")
     if not country:
-        reasons.append("missing country")
+        withhold("missing_country", "missing country")
 
     resolution = resolve_ticketmaster_url(url)
     raw_url_host = resolution["raw_url_host"]
@@ -462,58 +510,76 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     resolved_url_host_allowed = False
     storefront_event_id = ""
     if url_resolution_status == "missing_url":
-        reasons.append("missing ticketmaster url")
+        withhold("missing_url", "missing ticketmaster url")
     elif url_resolution_status == "malformed_raw_url":
-        reasons.append("malformed ticketmaster url")
+        withhold("malformed_url", "malformed ticketmaster url")
     elif url_resolution_status == "wrapper_missing_u":
-        reasons.append("ticketmaster.evyy.net wrapper has no u= destination")
+        withhold("wrapper_missing_destination", "ticketmaster.evyy.net wrapper has no u= destination")
     elif url_resolution_status == "wrapper_malformed_destination":
-        reasons.append("ticketmaster.evyy.net wrapper u= destination is malformed")
+        withhold("wrapper_malformed_destination", "ticketmaster.evyy.net wrapper u= destination is malformed")
 
     if resolved_parsed:
         if resolved_parsed.scheme.lower() != "https":
-            reasons.append("resolved ticketmaster url is not HTTPS")
+            withhold("url_not_https", "resolved ticketmaster url is not HTTPS")
         resolved_url_host_allowed = bool(resolved_url_host) and host_allowed(resolved_url_host, allowed_hosts)
         if not resolved_url_host_allowed:
-            reasons.append(
-                f"resolved url host '{resolved_url_host or 'unparseable'}' not in the out.js Ticketmaster allowlist"
+            withhold(
+                "host_not_allowlisted",
+                f"resolved url host '{resolved_url_host or 'unparseable'}' not in the out.js Ticketmaster allowlist",
             )
         storefront_event_id = storefront_event_id_from_url(resolved_parsed)
         if not storefront_event_id:
-            reasons.append("resolved Ticketmaster storefront URL is missing an /event/<id> path")
+            withhold(
+                "missing_storefront_event_id",
+                "resolved Ticketmaster storefront URL is missing an /event/<id> path",
+            )
 
     if is_affiliate_wrapper_host(resolved_url_host):
-        reasons.append("resolved destination is still the ticketmaster.evyy.net wrapper, not a storefront")
+        withhold(
+            "destination_is_affiliate_wrapper",
+            "resolved destination is still the ticketmaster.evyy.net wrapper, not a storefront",
+        )
 
     lowered = f"{url} {resolved_url}".lower()
     if any(marker in lowered for marker in PLACEHOLDER_MARKERS):
-        reasons.append("url looks like a placeholder")
+        withhold("placeholder_url", "url looks like a placeholder")
 
     haystack = f"{event_name} {url} {resolved_url}".lower()
     travel_hits = [m for m in TRAVEL_PACKAGE_MARKERS if m in haystack]
     if travel_hits:
-        reasons.append(f"likely travel/upsell package listing (matched: {', '.join(travel_hits)})")
+        withhold(
+            "travel_package_listing",
+            f"likely travel/upsell package listing (matched: {', '.join(travel_hits)})",
+        )
 
     event_attraction_ids = [
         (a.get("id") or "").strip()
         for a in ((tm_event.get("_embedded") or {}).get("attractions") or [])
     ]
     if attraction_id not in event_attraction_ids:
-        reasons.append(
-            "event attractions do not include the registry's verified attraction ID (weak/mismatched identity)"
+        withhold(
+            "attraction_identity_mismatch",
+            "event attractions do not include the registry's verified attraction ID (weak/mismatched identity)",
         )
     elif event_attraction_ids[0] != attraction_id:
-        reasons.append(
-            "registry attraction is not the event's primary attraction (support act / festival lineup appearance)"
+        withhold(
+            "not_primary_attraction",
+            "registry attraction is not the event's primary attraction (support act / festival lineup appearance)",
         )
 
     duplicate_ids = {event_id.upper()} if event_id else set()
     if storefront_event_id:
         duplicate_ids.add(storefront_event_id.upper())
     if duplicate_ids & existing_event_ids:
-        reasons.append("duplicate of an existing events.json row (same ticketmaster event id)")
+        withhold(
+            "duplicate_existing_event_id",
+            "duplicate of an existing events.json row (same ticketmaster event id)",
+        )
     elif duplicate_ids & tombstoned_event_ids:
-        reasons.append("matches a tombstoned (owner-deleted) events.json row (same ticketmaster event id) — not re-proposed")
+        withhold(
+            "tombstoned_event_id",
+            "matches a tombstoned (owner-deleted) events.json row (same ticketmaster event id) — not re-proposed",
+        )
     # Discovery's localDate is the venue-local calendar date; fall back to
     # deriving it from the datetime + event timezone for defensive coverage.
     start_local_date = ((tm_event.get("dates") or {}).get("start") or {}).get("localDate") or ""
@@ -521,11 +587,17 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     venue_key = venue_date_key(venue_name, local_date)
     if venue_key:
         if venue_key in existing_venue_keys:
-            reasons.append("duplicate of an existing events.json row (same venue/date)")
+            withhold(
+                "duplicate_existing_venue_date",
+                "duplicate of an existing events.json row (same venue/date)",
+            )
         elif venue_key in tombstoned_venue_keys:
-            reasons.append("matches a tombstoned (owner-deleted) events.json row (same venue/date) — not re-proposed")
+            withhold(
+                "tombstoned_venue_date",
+                "matches a tombstoned (owner-deleted) events.json row (same venue/date) — not re-proposed",
+            )
         elif venue_key in batch_venue_keys:
-            reasons.append("duplicate venue/date within this fetched batch")
+            withhold("duplicate_within_batch", "duplicate venue/date within this fetched batch")
         else:
             batch_venue_keys.add(venue_key)
 
@@ -551,6 +623,8 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         "status_code": status_code or "(none)",
         "disposition": "withheld" if reasons else "proposed",
         "withheld_reasons": reasons,
+        # Same order as withheld_reasons; stable across wording changes.
+        "withheld_reason_codes": codes,
     }
 
 
@@ -614,6 +688,7 @@ def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, b
         "proposed": 0,
         "withheld": 0,
         "withheld_reason_counts": {},
+        "withheld_reason_code_counts": {},
         "warnings": [],
         "rows": [],
     }
@@ -676,6 +751,8 @@ def build_artist_report(entry, artist, events_by_slug, allowed_hosts, api_key, b
     for row in report["rows"]:
         for reason in row["withheld_reasons"]:
             report["withheld_reason_counts"][reason] = report["withheld_reason_counts"].get(reason, 0) + 1
+        for code in row["withheld_reason_codes"]:
+            report["withheld_reason_code_counts"][code] = report["withheld_reason_code_counts"].get(code, 0) + 1
     return report
 
 
@@ -699,10 +776,10 @@ def print_human_report(report):
     print(
         f"  recognised: {report['recognised']}  proposed: {report['proposed']}  withheld: {report['withheld']}"
     )
-    if report["withheld_reason_counts"]:
+    if report["withheld_reason_code_counts"]:
         print("  withheld reasons:")
-        for reason, count in sorted(report["withheld_reason_counts"].items(), key=lambda kv: -kv[1]):
-            print(f"    {count}x {reason}")
+        for code, count in sorted(report["withheld_reason_code_counts"].items(), key=lambda kv: (-kv[1], kv[0])):
+            print(f"    {count}x [{code}] {WITHHOLD_REASON_CODES.get(code, code)}")
     for row in report["rows"]:
         marker = "PROPOSE " if row["disposition"] == "proposed" else "WITHHOLD"
         print(
@@ -723,8 +800,8 @@ def print_human_report(report):
             f"storefront id: {row['ticketmaster_event_id'] or '(missing)'}  "
             f"discovery id: {row['ticketmaster_discovery_event_id'] or '(missing)'}"
         )
-        for reason in row["withheld_reasons"]:
-            print(f"           withheld: {reason}")
+        for code, reason in zip(row["withheld_reason_codes"], row["withheld_reasons"]):
+            print(f"           withheld [{code}]: {reason}")
     print()
 
 
@@ -1072,8 +1149,67 @@ def self_test():
         == "Europe/London",
     )
 
-    # Dry-run-only contract: the script source must expose no write path.
+    # ── Machine-readable withhold reason codes ──────────────────────────────
+    # The codes are the observability contract downstream artifacts count and
+    # trend on, so they are checked two ways: the catalogue must match the real
+    # call sites exactly, and each rule must emit its own code.
     source = Path(__file__).read_text(encoding="utf-8")
+    emitted_codes = set(re.findall(r"""withhold\(\s*\n?\s*["']([a-z0-9_]+)["']""", source))
+    check(
+        "every declared reason code is emitted by a real withhold call site",
+        set(WITHHOLD_REASON_CODES) - emitted_codes == set(),
+    )
+    check(
+        "every emitted reason code is declared in the catalogue",
+        emitted_codes - set(WITHHOLD_REASON_CODES) == set(),
+    )
+
+    def codes_for(event, **kwargs):
+        return classify(event, **kwargs)["withheld_reason_codes"]
+
+    check("a proposed row carries no reason codes", codes_for(make_event()) == [])
+    check(
+        "codes and human reasons stay index-aligned",
+        (lambda r: len(r["withheld_reason_codes"]) == len(r["withheld_reasons"]) and len(r["withheld_reasons"]) >= 2)(
+            classify(make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001",
+                                dates={"start": {"dateTime": "2027-06-01T19:00:00Z"},
+                                       "status": {"code": "cancelled"}}))
+        ),
+    )
+    check("past event emits past_event", "past_event" in codes_for(
+        make_event(dates={"start": {"dateTime": "2025-01-01T19:00:00Z"}, "status": {"code": "onsale"}})))
+    check("cancelled status emits status_not_onsale", "status_not_onsale" in codes_for(
+        make_event(dates={"start": {"dateTime": "2027-06-01T19:00:00Z"}, "status": {"code": "cancelled"}})))
+    check("date-only listing emits date_only_datetime", "date_only_datetime" in codes_for(
+        make_event(dates={"start": {"localDate": "2027-06-01"}, "status": {"code": "onsale"}})))
+    check("missing venue emits missing_venue", "missing_venue" in codes_for(no_venue))
+    check("missing city emits missing_city", "missing_city" in codes_for(no_city))
+    check("non-allowlisted host emits host_not_allowlisted", "host_not_allowlisted" in codes_for(
+        make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001")))
+    check("travel package emits travel_package_listing", "travel_package_listing" in codes_for(
+        make_event(name="RAYE Hotel + Ticket Travel Package")))
+    check("mismatched attraction emits attraction_identity_mismatch",
+          "attraction_identity_mismatch" in codes_for(wrong_attraction))
+    check("support-act appearance emits not_primary_attraction",
+          "not_primary_attraction" in codes_for(support_act))
+    check("existing-id duplicate emits duplicate_existing_event_id",
+          "duplicate_existing_event_id" in codes_for(make_event(), existing_ids={"VV001"}))
+    check("existing venue/date duplicate emits duplicate_existing_venue_date",
+          "duplicate_existing_venue_date" in codes_for(make_event(id="VV002"), existing_keys={"the o2|2027-06-01"}))
+    batch_codes = set()
+    classify(make_event(), batch=batch_codes)
+    check("in-batch duplicate emits duplicate_within_batch",
+          "duplicate_within_batch" in codes_for(make_event(id="VV003"), batch=batch_codes))
+    check("tombstoned id emits tombstoned_event_id",
+          "tombstoned_event_id" in codes_for(make_event(), tomb_ids={"VV001"}))
+    check("tombstoned venue/date emits tombstoned_venue_date",
+          "tombstoned_venue_date" in codes_for(make_event(id="VV005"), tomb_keys={"the o2|2027-06-01"}))
+    check("affiliate wrapper without a destination emits wrapper_missing_destination",
+          "wrapper_missing_destination" in codes_for(make_event(url="https://ticketmaster.evyy.net/c/1/2/3")))
+    check("non-HTTPS destination emits url_not_https", "url_not_https" in codes_for(
+        make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=http%3A%2F%2Fwww.ticketmaster.com%2Fevent%2FVV001")))
+
+    # Dry-run-only contract: the script source must expose no write path.
     check(
         "no file opened for writing anywhere in the script",
         not re.search(r"""open\([^)\n]*["'][wax]b?["']""", source),
@@ -1158,7 +1294,19 @@ def main():
     ]
 
     if args.json:
-        print(json.dumps({"mode": "dry-run", "live_lookup_available": bool(api_key), "artists": reports}, indent=2))
+        print(
+            json.dumps(
+                {
+                    "mode": "dry-run",
+                    "live_lookup_available": bool(api_key),
+                    # Shipped with the report so a consumer never has to hardcode
+                    # (or guess) the withhold vocabulary this run was produced by.
+                    "withhold_reason_codes": WITHHOLD_REASON_CODES,
+                    "artists": reports,
+                },
+                indent=2,
+            )
+        )
         return
 
     for report in reports:

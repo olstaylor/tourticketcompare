@@ -21,6 +21,12 @@ name: Ticketmaster new shows PR
 #     tour_name is left blank on every new row (never inferred from a URL slug
 #     or listing title, issue #172); the PR flags it as a human follow-up.
 #   - Without TICKETMASTER_API_KEY the recogniser no-ops safely (no rows, no PR).
+#   - Every discovered candidate is accounted for in the run's ingestion
+#     observability artifacts (.tm-discovery/ingestion-outcomes.json and
+#     ingestion-summary.md): exactly one result each — added, existing duplicate
+#     or withheld — with a stable reason code for every non-added row, plus
+#     totals by result and by reason. Diagnostics only; they change nothing
+#     about what is published.
 #
 # See docs/PROVIDER_SYNC.md and SAFE_PUBLISHING_RULES.md.
 
@@ -112,6 +118,22 @@ jobs:
           fi
           echo "Running: node scripts/sync-tm-events-write-pr.mjs ${ARGS[*]}"
           node scripts/sync-tm-events-write-pr.mjs "${ARGS[@]}"
+
+      # Ingestion observability: render this run's per-candidate outcome summary
+      # (added / existing duplicate / withheld, with stable reason codes and
+      # totals) into the job summary. Runs on failure too — the outcomes file is
+      # written before the apply/validation step, so a run that dies mid-write
+      # still explains what it discovered instead of leaving only a red X.
+      - name: Publish ingestion outcomes to the job summary
+        if: always()
+        run: |
+          if [ -f .tm-discovery/ingestion-summary.md ]; then
+            cat .tm-discovery/ingestion-summary.md >> "${GITHUB_STEP_SUMMARY}"
+          else
+            echo "### Ticketmaster new-show ingestion" >> "${GITHUB_STEP_SUMMARY}"
+            echo "" >> "${GITHUB_STEP_SUMMARY}"
+            echo "No ingestion outcomes were produced — the run failed before the recogniser report was partitioned." >> "${GITHUB_STEP_SUMMARY}"
+          fi
 
       # Heartbeat: maintain the rolling automation:tm-discovery coverage issue so
       # every full-roster run leaves a positive trace of which artists were checked

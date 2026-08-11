@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-08-09T05:54:05.501Z
+Generated: 2026-08-11T06:00:07.768Z
 
 ## Run summary
 
@@ -16,7 +16,7 @@ Generated: 2026-08-09T05:54:05.501Z
 - Eligible (upcoming, resolvable local date) after pre-API filtering: 53
 - Skipped before any API call: 74 (past_event: 74)
 - Events this run can check (window size): 30
-- Rotation: window 1 of 2 (key 20674)
+- Rotation: window 1 of 2 (key 20676)
 - Runs needed to check every eligible event once: 2
 - Events selected/logged by this run: 30
 - Events checked by this run: 30
@@ -24,18 +24,17 @@ Generated: 2026-08-09T05:54:05.501Z
 - Rate-limit responses: 0
 - URLs added: 0
 - Events skipped: 30
-- no_candidates_returned: 29
+- no_candidates_returned: 30
 - rate_limited_not_checked: 0
 - Stopped early: no
-- Next resume showId: tm-shakira-2026-madrid-z698xz2qz1koecouy
-- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-shakira-2026-madrid-z698xz2qz1koecouy'
+- Next resume showId: tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev
+- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev'
 - Accepted venue mismatches: 0
 - Conflicts found: 0
 
 ## Skipped reasons
 
-- no_candidates_returned: 29
-- city_or_metro_match_failed: 1
+- no_candidates_returned: 30
 
 ## Interpretation
 
@@ -63,7 +62,6 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-shakira-2026-madrid-z698xz2qz16vowff-f | Shakira | 2026-09-26 | Madrid | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz1konkpax | Shakira | 2026-09-27 | Madrid | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz1koifuzg | Shakira | 2026-10-09 | Madrid | no_candidates_returned | - |
-| tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev | Zach Bryan | 2026-10-10 | Auburn University | city_or_metro_match_failed | https://seatgeek.com/zach-bryan-tickets/auburn-alabama-jordan-hare-stadium-2026-10-10-7-pm/concert/17930442 |
 | tm-shakira-2026-madrid-z698xz2qz16vfpafo8 | Shakira | 2026-10-11 | Madrid | no_candidates_returned | - |
 | tm-niall-horan-2026-krakow-z698xzqpz1kq7zp-- | Niall Horan | 2026-11-03 | Krakow | no_candidates_returned | - |
 | tm-niall-horan-2026-merksem-antwerpen-z698xzg2z1k1kb9e_ | Niall Horan | 2026-11-05 | Merksem (Antwerpen) | no_candidates_returned | - |
@@ -86,6 +84,7 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-shakira-2026-madrid-z698xz2qz1kbi4uav | Shakira | 2026-10-02 | Madrid | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz16v4mzjas | Shakira | 2026-10-03 | Madrid | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz16v73axp9 | Shakira | 2026-10-04 | Madrid | no_candidates_returned | - |
+| tm-shakira-2026-madrid-z698xz2qz1koecouy | Shakira | 2026-10-10 | Madrid | no_candidates_returned | - |
 
 ## Accepted venue mismatches
 

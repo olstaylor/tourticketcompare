@@ -1079,8 +1079,10 @@ function renderLog(results, summary, preSkipped = []) {
     `- no_candidates_returned: ${summary.no_candidates_returned}`,
     `- rate_limited_not_checked: ${summary.rate_limited_not_checked}`,
     `- Stopped early: ${summary.stopped_early ? summary.stop_reason : "no"}`,
-    `- Next resume showId: ${summary.next_resume_show_id || ""}`,
-    `- Next recommended resume command: ${summary.next_resume_command || ""}`,
+    // No value means the label stands alone: a dangling "label: " would end the
+    // line in whitespace, which `git diff --check` rejects in the sync workflow.
+    `- Next resume showId:${summary.next_resume_show_id ? ` ${summary.next_resume_show_id}` : ""}`,
+    `- Next recommended resume command:${summary.next_resume_command ? ` ${summary.next_resume_command}` : ""}`,
     `- Accepted venue mismatches: ${summary.accepted_venue_mismatches}`,
     `- Conflicts found: ${summary.conflicts_found}`,
     "",
@@ -1168,7 +1170,11 @@ function renderLog(results, summary, preSkipped = []) {
   ]) : "- None");
   lines.push("");
 
-  return `${lines.join("\n").trimEnd()}\n`;
+  // Trailing whitespace on any line fails the `git diff --check` gate in
+  // .github/workflows/seatgeek-cta-sync.yml, which would abort the run after
+  // the writes but before the PR. Strip it per line, not just at the end.
+  const body = lines.join("\n").split("\n").map((line) => line.trimEnd()).join("\n");
+  return `${body.trimEnd()}\n`;
 }
 
 // ─── Self-test (offline; no API access, no writes) ──────────────────────────
@@ -1301,6 +1307,32 @@ function selfTest() {
   const rival = { ...strong, seatgeek: { ...strong.seatgeek, id: 2, url: "https://seatgeek.com/x-tickets/y/concert/2" }, score: 94 };
   assert("a single strong candidate is high confidence", classifyCandidate(tmVerified("z"), [strong]).decision === "high_confidence");
   assert("two plausible candidates never write", classifyCandidate(tmVerified("z"), [strong, rival]).decision === "skipped");
+
+  // The rendered log must survive `git diff --check` in the sync workflow: a
+  // run that ends on the last eligible event has no resume cursor, and the
+  // empty value used to leave "- Next resume showId: " dangling.
+  const logSummary = (overrides = {}) => ({
+    mode: "apply-high-confidence",
+    api_environment: { seatgeek_client_id_present: true, seatgeek_client_secret_present: false, client_id_only_http_status: 200 },
+    pre_api_skipped_reasons: {},
+    skipped_reasons: {},
+    stopped_early: false,
+    stop_reason: "",
+    next_resume_show_id: "",
+    next_resume_command: "",
+    ...overrides
+  });
+  const exhaustedLog = renderLog([], logSummary(), []);
+  const resumedLog = renderLog([], logSummary({ next_resume_show_id: "tm-ok-artist-1", next_resume_command: "node scripts/enrich-seatgeek-events.mjs --resume-from tm-ok-artist-1" }), []);
+  assert("a log with no resume cursor has no trailing whitespace on any line", !/[ \t]+$/m.test(exhaustedLog));
+  assert("a log with a resume cursor has no trailing whitespace on any line", !/[ \t]+$/m.test(resumedLog));
+  assert("the empty cursor renders as a bare label", exhaustedLog.includes("\n- Next resume showId:\n"));
+  assert("a present cursor still renders its value", resumedLog.includes("\n- Next resume showId: tm-ok-artist-1\n"));
+  // resumeShowIdFromLog must read back exactly what was written, and must read
+  // nothing at all from the bare-label form.
+  const resumeCursorIn = (log) => clean(log.match(/^- Next resume showId: `?([^`\n]+)`?/m)?.[1] || "", 120);
+  assert("the bare label yields no resume cursor", resumeCursorIn(exhaustedLog) === "");
+  assert("a written cursor is read back unchanged", resumeCursorIn(resumedLog) === "tm-ok-artist-1");
 
   let failed = 0;
   for (const check of checks) {

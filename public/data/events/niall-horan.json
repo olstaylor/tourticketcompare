@@ -2923,10 +2923,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831762",
+        "url": "https://www.ticketnetwork.com/en/p/7831762",
+        "verified": true,
+        "last_verified_at": "2026-08-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16eekFYQa",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831762"
   }
 ]

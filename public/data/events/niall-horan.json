@@ -1117,7 +1117,7 @@
         "event_id": 7017227,
         "url": "https://www.vividseats.com/niall-horan-tickets-saint-paul-grand-casino-arena-3-17-2027/production/7017227",
         "verified": true,
-        "last_verified_at": "2026-08-09",
+        "last_verified_at": "2026-08-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2176,7 +2176,7 @@
         "event_id": 7017234,
         "url": "https://www.vividseats.com/niall-horan-tickets-houston-toyota-center---tx-5-1-2027--concerts-pop/production/7017234",
         "verified": true,
-        "last_verified_at": "2026-08-09",
+        "last_verified_at": "2026-08-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2889,7 +2889,7 @@
     "ticketmaster_event_id": "2086230689",
     "ticketmaster_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-box-seat-tickets/2086230689?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-berlin-uber-arena-10-8-2026--concerts-pop/production/6832662",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-box-seat-tickets/2086230689?language=en-us",
     "last_verified_at": null,
@@ -2911,11 +2911,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6832662,
+        "url": "https://www.vividseats.com/niall-horan-tickets-berlin-uber-arena-10-8-2026--concerts-pop/production/6832662",
+        "verified": true,
+        "last_verified_at": "2026-08-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

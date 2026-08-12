@@ -7290,5 +7290,29 @@
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-shakira-2026-madrid-z7r9jz1aazaza",
+    "artist_slug": "shakira",
+    "artist_name": "Shakira",
+    "country": "Spain",
+    "city": "Madrid",
+    "venue": "Shakira Stadium",
+    "datetime_iso": "2026-10-03T18:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "country": "Germany",
+    "city": "Berlin",
+    "venue": "Uber Arena",
+    "datetime_iso": "2026-10-08T18:00:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

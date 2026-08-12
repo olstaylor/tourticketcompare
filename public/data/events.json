@@ -40934,11 +40934,19 @@
         "verified": true,
         "last_verified_at": "2026-08-12",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7831762",
+        "url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena",
+        "verified": true,
+        "last_verified_at": "2026-08-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16eekFYQa",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831762"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831762",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena"
   }
 ]

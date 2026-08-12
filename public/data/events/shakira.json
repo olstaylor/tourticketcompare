@@ -1684,5 +1684,58 @@
     "status": "on-sale",
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfPaFO8",
     "verification_status": "human_verified"
+  },
+  {
+    "id": "tm-shakira-2026-madrid-z7r9jz1aazaza",
+    "artist_slug": "shakira",
+    "artist_name": "Shakira",
+    "event_name": "Shakira",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Shakira Stadium",
+    "datetime_iso": "2026-10-03T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZAZa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAZa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAZa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZAZa",
+        "discovery_event_id": "Z7r9jZ1AAZAZa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZAZa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZAZa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

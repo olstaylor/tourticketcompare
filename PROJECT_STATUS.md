@@ -10,7 +10,7 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 
 - `public/data/artists.json`: **40 records — 26 `indexable_with_substantial_content` + 14 `review_required` shells** (sabrina-carpenter, lady-gaga, the-weeknd, coldplay, karol-g, foo-fighters, metallica, rush, muse, my-chemical-romance, teddy-swims, five-finger-death-punch, system-of-a-down, laura-pausini). The 26 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 14 shells carry `verified_providers: []` and render no CTA. 3 of the 26 indexable carry 0 events and render artist-level CTAs only — beyonce, raye, tate-mcrae, latto.
 - `public/data/catalog.json`: 40 artist records; 0 tour records; **66 ticket_links rows** (40 ticketmaster + 26 seatgeek artist pages; 52 `verified` + `public_enabled`, plus 14 unverified/hidden shell ticketmaster rows for the 14 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
-- `public/data/events.json`: **608 events** — 289 `human_verified`, 273 `machine_high_confidence`, 46 `needs_recheck`. Verified event-level provider provenance: SeatGeek 200 (252 rows carry a stored `seatgeek_url`), Vivid Seats 400, TicketNetwork 365, Ticket Liquidator 317, StubHub International 327. Of the 46 `needs_recheck` rows: 27 retain a standalone SeatGeek CTA, 25 retain a standalone Vivid Seats CTA, and 7 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
+- `public/data/events.json`: **610 events** — 289 `human_verified`, 273 `machine_high_confidence`, 48 `needs_recheck`. Verified event-level provider provenance: SeatGeek 200 (252 rows carry a stored `seatgeek_url`), Vivid Seats 400, TicketNetwork 365, Ticket Liquidator 317, StubHub International 327. Of the 48 `needs_recheck` rows: 27 retain a standalone SeatGeek CTA, 25 retain a standalone Vivid Seats CTA, and 9 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
 - `public/data/guides-content.json`: **17 guide content entries** (topic guides; not per-artist).
 - `content/blog/*.md`: **3 published blog posts, 0 drafts, 3 tags** (2 indexable, 1 below the two-post tag gate). Source of truth for the blog; `public/data/blog-content.json` is generated from it and must never be hand-edited. Recount with `npm run blog:build`.
@@ -38,7 +38,7 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 | olivia-rodrigo | 2026-05-27 | 84 | 59 | 59 | **6** | The Unraveled Tour | All 6 recheck rows retain a standalone SeatGeek CTA via verified provenance. |
 | bruno-mars | 2026-05-28 | 56 | 30 | 30 | 0 | The Romantic Tour | Four Mexico City events intentionally excluded (`ticketmaster.com.mx` not in the allowlist). |
 | ed-sheeran | 2026-06-12 | 27 | 26 | 21 | **2** | The Loop Tour | Recheck rows: Nashville (no-link), Arlington (standalone SeatGeek CTA). |
-| shakira | 2026-06-10 | 30 | 16 | 5 | 0 | Las Mujeres Ya No Lloran | Recheck row: the re-added "Shakira Stadium" Madrid row — CTA-suppressed. |
+| shakira | 2026-06-10 | 31 | 16 | 5 | **1** | Las Mujeres Ya No Lloran | Recheck row: the re-added "Shakira Stadium" Madrid row — CTA-suppressed. |
 | raye | 2026-08-12 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | charli-xcx | 2026-06-18 | 11 | 11 | 11 | 0 | Music, Fashion, Film Tour | — |
 | tate-mcrae | 2026-08-12 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
@@ -63,7 +63,7 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 | system-of-a-down | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | laura-pausini | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | gracie-abrams | 2026-07-30 | 53 | 0 | 0 | **7** | The Look at My Life Tour | Both Antwerp dates restored on official TM links. |
-| niall-horan | 2026-07-30 | 41 | 2 | 2 | **7** | Dinner Party Live On Tour | Kraków and Antwerp restored on official TM links. |
+| niall-horan | 2026-07-30 | 42 | 2 | 2 | **8** | Dinner Party Live On Tour | Kraków and Antwerp restored on official TM links. |
 | doja-cat | 2026-07-30 | 30 | 1 | 1 | **1** | Tour Ma Vie World Tour | Recheck row retains independent verified SeatGeek coverage. |
 | sombr | 2026-07-30 | 36 | 6 | 6 | **6** | You Are The Reason Tour | All 6 recheck rows retain independent verified SeatGeek coverage. |
 | latto | 2026-08-07 | 1 | 0 | 0 | 0 | — | Promoted 2026-07-29; 0 events yet — artist-level CTAs only, noindex until dates land. |

@@ -389,7 +389,7 @@
     "ticketmaster_event_id": "1E006372CA379BE8",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-denver-colorado-08-14-2026/event/1E006372CA379BE8",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-denver-empower-field-at-mile-high-8-14-2026--concerts-country-and-folk/production/6338945",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-with-heaven-on-tour-denver-colorado-08-14-2026/event/1E006372CA379BE8",
     "last_verified_at": null,
@@ -411,11 +411,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6338945,
-        "url": "https://www.vividseats.com/zach-bryan-tickets-denver-empower-field-at-mile-high-8-14-2026--concerts-country-and-folk/production/6338945",
-        "verified": true,
-        "last_verified_at": "2026-08-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -568,7 +568,7 @@
         "event_id": 6339038,
         "url": "https://www.vividseats.com/zach-bryan-tickets-glendale-state-farm-stadium-9-5-2026--concerts-country-and-folk/production/6339038",
         "verified": true,
-        "last_verified_at": "2026-08-12",
+        "last_verified_at": "2026-08-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -743,7 +743,7 @@
         "event_id": 6379736,
         "url": "https://www.vividseats.com/zach-bryan-tickets-toronto-rogers-centre-9-21-2026--concerts-country-and-folk/production/6379736",
         "verified": true,
-        "last_verified_at": "2026-08-12",
+        "last_verified_at": "2026-08-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -796,7 +796,7 @@
         "event_id": 6379970,
         "url": "https://www.vividseats.com/zach-bryan-tickets-toronto-rogers-centre-9-22-2026--concerts-country-and-folk/production/6379970",
         "verified": true,
-        "last_verified_at": "2026-08-12",
+        "last_verified_at": "2026-08-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -849,7 +849,7 @@
         "event_id": 6338949,
         "url": "https://www.vividseats.com/zach-bryan-tickets-foxborough-gillette-stadium-10-2-2026--concerts-country-and-folk/production/6338949",
         "verified": true,
-        "last_verified_at": "2026-08-12",
+        "last_verified_at": "2026-08-15",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -926,7 +926,7 @@
         "event_id": 6338957,
         "url": "https://www.vividseats.com/zach-bryan-tickets-foxborough-gillette-stadium-10-3-2026--concerts-country-and-folk/production/6338957",
         "verified": true,
-        "last_verified_at": "2026-08-12",
+        "last_verified_at": "2026-08-15",
         "availability_status": "listed"
       },
       "stubhub": {

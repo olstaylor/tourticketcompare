@@ -25445,11 +25445,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107026099",
-        "url": "https://www.stubhub.ie/zach-bryan-denver-tickets-8-14-2026/event/107026099",
-        "verified": true,
-        "last_verified_at": "2026-07-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbM51uyRI",
@@ -25457,7 +25457,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583740",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583740/Zach-Bryan-tickets-Fri-Aug-14-2026-Empower-Field-At-Mile-High",
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-denver-tickets-8-14-2026/event/107026099"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu",

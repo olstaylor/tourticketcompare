@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-08-15T05:34:12.885Z
+Generated: 2026-08-16T05:36:54.515Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,14 +9,14 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 41 (needs_recheck: 41, provenance backfill: 0, stale re-check: 27)
+- Events selected: 41 (needs_recheck: 41, provenance backfill: 0, stale re-check: 26)
 - Events skipped before API checks: 81
-- API calls made: 41
-- Verified provenance written: 27
+- API calls made: 42
+- Verified provenance written: 26
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 0
+- Provenance un-verified: 1
 - Conflicts (ambiguous, untouched): 0
 - No qualifying listing: 14
 - Transient API errors (untouched, retried next run): 0
@@ -33,7 +33,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk | olivia-rodrigo | verify (applied) | 18211722 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722 | - |
 | tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | olivia-rodrigo | verify (applied) | 18211723 | https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723 | - |
 | tm-ed-sheeran-2026-arlington-z7r9jz1a7jw | ed-sheeran | verify (applied) | 17729039 | https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039 | - |
-| tm-bts-2026-arlington-z7r9jz1a7ooui | bts | verify (applied) | 17975621 | https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-15-8-pm/concert/17975621 | - |
+| tm-bts-2026-arlington-z7r9jz1a7ooui | bts | unverify (applied) | - | - | stored URL failed: SeatGeek /events/17975621 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-bts-2026-arlington-z7r9jz1a7oout | bts | verify (applied) | 18009296 | https://seatgeek.com/bts-tickets/arlington-texas-at-t-stadium-2026-08-16-8-pm/concert/18009296 | - |
 | tm-zach-bryan-2026-arlington-z7r9jz1a7r4vu | zach-bryan | verify (applied) | 17870796 | https://seatgeek.com/zach-bryan-tickets/arlington-texas-at-t-stadium-2026-08-22-7-pm/concert/17870796 | - |
 | tm-zach-bryan-2026-glendale-z7r9jz1a7r4vt | zach-bryan | verify (applied) | 17871645 | https://seatgeek.com/zach-bryan-tickets/glendale-arizona-state-farm-stadium-2026-09-05-7-pm/concert/17871645 | - |

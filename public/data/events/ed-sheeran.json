@@ -697,18 +697,18 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "106954174",
-        "url": "https://www.stubhub.ie/ed-sheeran-minneapolis-tickets-8-15-2026/event/106954174",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZbwGkztkpiX",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-minneapolis-tickets-8-15-2026/event/106954174"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-toronto-1000632fe9bb4345",

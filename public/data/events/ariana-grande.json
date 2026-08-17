@@ -1864,16 +1864,16 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "106916445",
-        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-16-8-2026/event/106916445",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AdfZbsGkwKqNdB",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-16-8-2026/event/106916445"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c950d310b",

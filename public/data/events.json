@@ -6111,16 +6111,16 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "106916445",
-        "url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-16-8-2026/event/106916445",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AdfZbsGkwKqNdB",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-tickets-london-the-o2-arena-16-8-2026/event/106916445"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ariana-grande-2026-london-3500631c950d310b",
@@ -22870,11 +22870,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107075191",
-        "url": "https://www.stubhub.ie/bts-arlington-tickets-8-16-2026/event/107075191",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOut",
@@ -22882,7 +22882,7 @@
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676867",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676867/BTS-tickets-Sun-Aug-16-2026-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-arlington-tickets-8-16-2026/event/107075191"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkiiidcu",

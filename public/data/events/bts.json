@@ -1478,11 +1478,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107075191",
-        "url": "https://www.stubhub.ie/bts-arlington-tickets-8-16-2026/event/107075191",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOut",
@@ -1490,7 +1490,7 @@
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676867",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676867/BTS-tickets-Sun-Aug-16-2026-ATT-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bts-arlington-tickets-8-16-2026/event/107075191"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bts-2026-toronto-1avzz_egkiiidcu",

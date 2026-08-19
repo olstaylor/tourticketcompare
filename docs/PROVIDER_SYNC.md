@@ -72,9 +72,24 @@ npm run providers:sync:tm:dry-run
 
 # Offline writer self-test
 npm run providers:sync:tm:write-pr:self-test
+
+# Offline recogniser + ingestion-accounting self-tests
+npm run providers:sync:tm:self-test
+npm run test:tm-ingestion-outcomes
 ```
 
 The scheduled new-show workflow (`tm-new-shows-pr.yml`) uses verified attraction IDs and `sync_enabled` artists. Its writer (`scripts/sync-tm-events-write-pr.mjs`) applies only proposed rows through the canonical event writer, regenerates derived data, validates the exact proposed content, and opens one pull request (`automation:tm-events` label); it never commits to `main` directly. The recogniser withholds events already in `events.json`, so a quiet day produces no commit and no PR; `event_name` is populated verbatim from the Discovery API listing title and `tour_name` is left blank for human verification. Its sanctioned auto-merge is limited by [SAFE_PUBLISHING_RULES.md](../SAFE_PUBLISHING_RULES.md); a failed merge leaves the PR open for a human. Manual `workflow_dispatch` defaults to a safe preview (no PR), accepts an optional single-artist `artist` input, and only auto-merges when the `auto_merge` input is set. Without `TICKETMASTER_API_KEY` the recogniser no-ops safely. Withheld rows are reported, not published.
+
+### New-show ingestion outcomes (observability)
+
+Every new-shows run accounts for **every** candidate the recogniser discovered. The run artifact (`.tm-discovery/`, uploaded by `tm-new-shows-pr.yml`) carries two diagnostic files alongside `coverage.json`, both produced by `scripts/lib/tm-ingestion-outcomes.mjs`:
+
+- **`ingestion-outcomes.json`** — one entry per candidate with exactly one result (`added`, `duplicate`, or `withheld`), the stable reason codes behind it, totals by result / by reason code / by artist, and a capped sample. An unresolved or unexplained candidate is a hard failure, not a silent gap.
+- **`ingestion-summary.md`** — the same figures as a short table, rendered into the workflow job summary (on failure too) and into the PR body.
+
+Reason codes are attached where each rule actually fires: the recogniser owns `WITHHOLD_REASON_CODES` in `scripts/sync-ticketmaster-events.py` and ships that catalogue inside its `--json` report, so nothing downstream parses English prose. The writer adds only the codes the recogniser cannot see — an artist skipped before its rows were read (`artist_not_eligible`, `artist_lookup_failed`), a proposed row whose deterministic id is already published (`duplicate_existing_event_row`), and a batched row missing from `events.json` after the write (`write_not_applied`). Codes are an output contract: add new ones rather than renaming existing ones, or historical artifacts stop comparing.
+
+`duplicate` means de-duplication was the *only* reason a candidate was held back. A tombstoned match, or a duplicate that also tripped another rule, stays `withheld` — a human still has something to look at. The report is diagnostics only: it changes no eligibility rule, writes no event data, and does not affect auto-merge.
 
 The recogniser also consults a tombstone registry, `data/deleted-events.json`. When an owner deletes a row from `events.json` that Ticketmaster still lists (a de-duplicated or dead-storefront copy), adding that row's ids and/or venue/date to the registry stops the next run from re-proposing it. Matching mirrors the live dedup keys (Ticketmaster id **or** normalized venue/date), tombstoned candidates are withheld with a distinct reason, and the registry can only ever withhold more — never widen what gets proposed. A missing or malformed file fails open (no tombstones).
 

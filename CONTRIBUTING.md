@@ -134,6 +134,13 @@ npm run impact-providers:sync:self-test       # shared Impact catalog matcher
 npm run impact-providers:prices:self-test     # exact-ID snapshot writer
 npm run prices:history:prune:self-test        # history retention statement shape
 npm run events:backfill-timezones:self-test   # Discovery timezone backfill decisions (in test:mvp)
+npm run providers:sync:tm:self-test           # Ticketmaster withhold rules + the stable reason-code
+                                              #   catalogue they emit (in test:mvp)
+npm run providers:sync:tm:write-pr:self-test  # new-shows write-to-PR partitioning and candidate rows
+                                              #   (in test:mvp)
+npm run test:tm-ingestion-outcomes            # per-candidate ingestion accounting: added / existing
+                                              #   duplicate / withheld, totals, capped samples
+                                              #   (in test:mvp)
 ```
 
 ### Exact-event link coverage (before changing CTA gates or provider matchers)

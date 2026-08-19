@@ -21,6 +21,12 @@
 //      needs_recheck), events.json serialization, partition + fallback
 //      regeneration, and validate-with-rollback. No data logic is duplicated
 //      here.
+//   3b. Emits the run's ingestion observability artifacts — ingestion-outcomes.json
+//      (every discovered candidate with exactly one deterministic result —
+//      added / duplicate / withheld — and stable reason codes) and
+//      ingestion-summary.md (the capped Markdown summary reused for the GitHub
+//      job summary and the PR body). Diagnostics only: they are derived from
+//      the run and change nothing about what is published.
 //   4. Runs the full validation suite, then opens a branch + PR.
 //      With --auto-merge the PR is
 //      squash-merged immediately (owner-approved 2026-07-07): validation
@@ -59,10 +65,17 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { slugify } from "./lib/slugify.mjs";
+import {
+  buildOutcomesArtifact,
+  buildOutcomesMarkdown,
+  candidateKey,
+  deriveOutcomes,
+} from "./lib/tm-ingestion-outcomes.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const ARTISTS_PATH = path.join(REPO_ROOT, "public", "data", "artists.json");
+const EVENTS_PATH = path.join(REPO_ROOT, "public", "data", "events.json");
 const RECOGNISER = path.join("scripts", "sync-ticketmaster-events.py");
 const LABEL = "automation:tm-events";
 
@@ -177,11 +190,17 @@ function buildCsvRow(reportRow, slug, artistName) {
 
 // Splits a recogniser report into the per-artist proposed/withheld rows plus
 // any artists whose live lookup did not succeed (cannot be trusted to write).
+//
+// Also returns proposedIdByKey: candidateKey -> the deterministic events.json id
+// the row would carry. That is the join the outcomes report needs to tell an
+// added row from one the canonical writer silently dropped; it is derived, not
+// stored, so it cannot change what gets written.
 function partitionReport(report, namesBySlug) {
   const proposedRows = [];
   const withheld = [];
   const skippedArtists = [];
   const usedArtists = [];
+  const proposedIdByKey = new Map();
   for (const artist of report?.artists || []) {
     const slug = clean(artist.artist_slug);
     if (!artist.eligible) {
@@ -194,17 +213,19 @@ function partitionReport(report, namesBySlug) {
     }
     const name = namesBySlug.get(slug) || slug;
     let proposedForArtist = 0;
-    for (const row of artist.rows || []) {
+    (artist.rows || []).forEach((row, index) => {
       if (row.disposition === "proposed") {
-        proposedRows.push(buildCsvRow(row, slug, name));
+        const csvRow = buildCsvRow(row, slug, name);
+        proposedRows.push(csvRow);
+        proposedIdByKey.set(candidateKey(slug, row, index), csvRow.id);
         proposedForArtist += 1;
       } else {
         withheld.push({ slug, row });
       }
-    }
+    });
     usedArtists.push({ slug, proposed: proposedForArtist });
   }
-  return { proposedRows, withheld, skippedArtists, usedArtists };
+  return { proposedRows, withheld, skippedArtists, usedArtists, proposedIdByKey };
 }
 
 // report.json the apply-artists.mjs write path expects: mode must be "dry-run"
@@ -238,7 +259,12 @@ function buildWithheldMarkdown(withheld) {
   lines.push("", "## Rows", "");
   for (const { slug, row } of withheld) {
     lines.push(`- **${slug}** ${row.event_id || "(no id)"} — ${row.datetime_iso || "(no date)"} — ${row.venue || "(no venue)"}, ${row.city || "(no city)"}`);
-    for (const reason of row.withheld_reasons || []) lines.push(`  - withheld: ${reason}`);
+    // Codes are shown next to the sentence so this human report and
+    // ingestion-outcomes.json name the same rule. Older reports have no codes.
+    (row.withheld_reasons || []).forEach((reason, index) => {
+      const code = (row.withheld_reason_codes || [])[index];
+      lines.push(`  - withheld${code ? ` [\`${code}\`]` : ""}: ${reason}`);
+    });
   }
   lines.push("");
   return lines.join("\n");
@@ -278,6 +304,30 @@ function buildCoverage({ usedArtists, skippedArtists, withheld, proposedRows, mo
 
 async function readJson(file) {
   return JSON.parse(await fs.readFile(file, "utf8"));
+}
+
+// The set of ids currently in events.json. Read before the write (to spot a
+// candidate whose deterministic id is already published) and again after it (to
+// confirm every batched row actually landed). Read-only.
+async function readEventIds() {
+  try {
+    const events = await readJson(EVENTS_PATH);
+    return new Set((Array.isArray(events) ? events : []).map((event) => clean(event?.id)).filter(Boolean));
+  } catch {
+    return new Set();
+  }
+}
+
+// Writes the two ingestion-observability artifacts side by side: the
+// machine-readable JSON (full per-candidate accounting) and the concise
+// Markdown used for the job summary and the PR body. Called before the write
+// and again after it, so a run that dies mid-write still leaves the diagnosis
+// behind. Returns the Markdown.
+async function writeOutcomeArtifacts(outDir, artifact) {
+  const markdown = buildOutcomesMarkdown(artifact);
+  await fs.writeFile(path.join(outDir, "ingestion-outcomes.json"), `${JSON.stringify(artifact, null, 2)}\n`, "utf8");
+  await fs.writeFile(path.join(outDir, "ingestion-summary.md"), markdown, "utf8");
+  return markdown;
 }
 
 function run(cmd, args, opts = {}) {
@@ -467,6 +517,14 @@ function selfTest() {
     part.skippedArtists.some((s) => s.slug === "tate-mcrae")
   );
   assert("partition records the proposed count per used artist", part.usedArtists.some((a) => a.slug === "raye" && a.proposed === 1));
+  assert(
+    "partition maps each proposed candidate to the events.json id it will carry",
+    part.proposedIdByKey.get("raye|vv1ABC") === "tm-raye-2027-london-vv1abc"
+  );
+  assert(
+    "partition never maps a withheld candidate to an events.json id",
+    part.proposedIdByKey.size === 1
+  );
 
   const applyReport = buildApplyReport(part.usedArtists);
   assert("apply report mode is dry-run (apply-artists write precondition)", applyReport.mode === "dry-run");
@@ -475,6 +533,16 @@ function selfTest() {
 
   const md = buildWithheldMarkdown(part.withheld);
   assert("withheld markdown lists the reason", md.includes("past event"));
+  assert(
+    "withheld markdown names the machine-readable code alongside the sentence",
+    buildWithheldMarkdown([
+      { slug: "raye", row: { withheld_reasons: ["past event"], withheld_reason_codes: ["past_event"] } },
+    ]).includes("withheld [`past_event`]: past event")
+  );
+  assert(
+    "withheld markdown still renders a report that carries no codes",
+    buildWithheldMarkdown([{ slug: "raye", row: { withheld_reasons: ["past event"] } }]).includes("- withheld: past event")
+  );
   assert("empty withheld markdown is explicit", buildWithheldMarkdown([]).includes("None"));
 
   const coverage = buildCoverage({ ...part, proposedRows: part.proposedRows, mode: "write-pr" });
@@ -524,7 +592,8 @@ async function main() {
   const artists = await readJson(ARTISTS_PATH);
   const namesBySlug = new Map(artists.map((a) => [clean(a.slug), clean(a.name)]));
 
-  const { proposedRows, withheld, skippedArtists, usedArtists } = partitionReport(report, namesBySlug);
+  const { proposedRows, withheld, skippedArtists, usedArtists, proposedIdByKey } = partitionReport(report, namesBySlug);
+  const eventIdsBefore = await readEventIds();
 
   console.log(`Recognised report: ${proposedRows.length} proposed row(s), ${withheld.length} withheld, ${skippedArtists.length} artist(s) skipped.`);
   for (const s of skippedArtists) console.log(`  skipped ${s.slug}: ${s.reason}`);
@@ -543,7 +612,27 @@ async function main() {
   const coverage = buildCoverage({ usedArtists, skippedArtists, withheld, proposedRows, mode: options.writePr ? "write-pr" : "preview" });
   const coveragePath = path.join(outDir, "coverage.json");
   await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
-  console.log(`Candidate batch + coverage written to ${path.relative(REPO_ROOT, outDir)}/`);
+
+  // Per-candidate ingestion outcomes. Written here, BEFORE the write path, so a
+  // run that fails during apply/validation still leaves a full account of what
+  // it discovered. Rebuilt after a successful write with `applied: true`.
+  const artistScope = options.artist || (options.allApproved ? "all-approved" : "report-file");
+  const buildArtifact = (appliedEventIds) =>
+    buildOutcomesArtifact({
+      report,
+      outcomes: deriveOutcomes({
+        report,
+        proposedIdByKey,
+        existingEventIds: eventIdsBefore,
+        appliedEventIds,
+      }),
+      mode: options.writePr ? "write-pr" : "preview",
+      applied: Boolean(appliedEventIds),
+      generatedAt: new Date().toISOString(),
+      artistScope,
+    });
+  let outcomesMarkdown = await writeOutcomeArtifacts(outDir, buildArtifact(null));
+  console.log(`Candidate batch + coverage + ingestion outcomes written to ${path.relative(REPO_ROOT, outDir)}/`);
 
   if (proposedRows.length === 0) {
     console.log("No proposed rows — nothing to write, no PR. (Withheld rows, if any, are in withheld-review.md.)");
@@ -561,6 +650,10 @@ async function main() {
   // ---- Write path -----------------------------------------------------------
   console.log("\nWRITE MODE — applying candidate batch via apply-artists.mjs --write:\n");
   run("node", [...applyArgs, "--write"]);
+  // Reconcile: re-read events.json and settle every batched row as added or
+  // (if the canonical writer dropped it) withheld with `write_not_applied`.
+  // Diagnostic only — the write already happened and is not revisited here.
+  outcomesMarkdown = await writeOutcomeArtifacts(outDir, buildArtifact(await readEventIds()));
   // Self-heal PROJECT_STATUS.md counts from the freshly-written events so the
   // status doc rides along in this commit (before test:mvp, which then sees
   // matching counts). Keeps the auto-merged new-shows PR from drifting the doc.
@@ -603,6 +696,11 @@ async function main() {
     "",
     "## Withheld (not in this PR)",
     `- ${withheld.length} recognised event(s) were withheld for human review — see \`withheld-review.md\` in the batch artifact. They are NOT written here.`,
+    "",
+    "## Ingestion outcomes",
+    "",
+    outcomesMarkdown,
+    "Full per-candidate accounting (every discovered show, its result and its reason codes) is in `ingestion-outcomes.json` in this run's artifact.",
     "",
     "## Explicit non-changes",
     "- `tour_name` is left blank on every new row — never inferred from a URL slug or listing title (#172). A human supplies the official tour name in a follow-up.",

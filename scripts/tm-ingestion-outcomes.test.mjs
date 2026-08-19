@@ -372,6 +372,88 @@ assert(
   candidateKey("slug", {}, 4) === "slug|row-4"
 );
 
+// ── Codex review follow-ups (PR #690) ───────────────────────────────────────
+
+// Two candidates can collapse onto one deterministic events.json id, and
+// apply-artists writes a single row for them. Set membership alone would call
+// both `added` and overstate the additions.
+const collidingReport = {
+  withhold_reason_codes: report.withhold_reason_codes,
+  artists: [
+    {
+      artist_slug: "fixture-artist-collide",
+      eligible: true,
+      live_lookup: "ok",
+      rows: [
+        { ticketmaster_discovery_event_id: "VVCOL1", disposition: "proposed", datetime_iso: "2027-05-04T19:00:00Z", venue: "Fixture Arena", city: "Testville" },
+        { ticketmaster_discovery_event_id: "VVCOL2", disposition: "proposed", datetime_iso: "2027-05-04T19:00:00Z", venue: "Fixture Arena", city: "Testville" },
+      ],
+    },
+  ],
+};
+const collidingIds = new Map([
+  ["fixture-artist-collide|VVCOL1", "tm-fixture-artist-collide-2027-testville-"],
+  ["fixture-artist-collide|VVCOL2", "tm-fixture-artist-collide-2027-testville-"],
+]);
+const collided = deriveOutcomes({
+  report: collidingReport,
+  proposedIdByKey: collidingIds,
+  existingEventIds: new Set(),
+  appliedEventIds: new Set(["tm-fixture-artist-collide-2027-testville-"]),
+});
+assert(
+  "two candidates sharing one events.json id count as one addition, not two",
+  summariseOutcomes(collided).by_result.added === 1
+);
+assert(
+  "the second claim on a shared id is a duplicate of the first, with its own code",
+  byKey(collided, "fixture-artist-collide|VVCOL2")?.result === "duplicate" &&
+    byKey(collided, "fixture-artist-collide|VVCOL2").reason_codes.join() === "duplicate_batch_event_id"
+);
+assert(
+  "a colliding pair whose id was already published stays an existing duplicate, not a batch one",
+  deriveOutcomes({
+    report: collidingReport,
+    proposedIdByKey: collidingIds,
+    existingEventIds: new Set(["tm-fixture-artist-collide-2027-testville-"]),
+    appliedEventIds: new Set(["tm-fixture-artist-collide-2027-testville-"]),
+  }).every((outcome) => outcome.reason_codes.join() === "duplicate_existing_event_row")
+);
+assert("the batch-collision code is catalogued", "duplicate_batch_event_id" in WRITER_REASON_CODES);
+
+// The Markdown points operators at the JSON for the rows the cap omitted, so
+// the JSON has to actually contain them.
+assert(
+  "the artifact carries every candidate, not just the sampled ones",
+  bigArtifact.outcomes.length === bigArtifact.totals.candidates && bigArtifact.outcomes.length === 240
+);
+assert(
+  "a candidate omitted from the capped sample is still in the full list with its result and codes",
+  (() => {
+    const sampled = new Set(bigArtifact.sample.outcomes.map((outcome) => outcome.key));
+    const omitted = bigArtifact.outcomes.filter((outcome) => !sampled.has(outcome.key));
+    return omitted.length > 0 && omitted.every((outcome) => outcome.result && outcome.reason_codes.length > 0);
+  })()
+);
+assert(
+  "the full list obeys the same field allowlist as the sample",
+  bigArtifact.outcomes.every((outcome) =>
+    Object.keys(outcome.event).every((key) =>
+      ["discovery_event_id", "storefront_event_id", "date", "venue", "city", "country", "status_code", "url_host"].includes(key)
+    )
+  )
+);
+assert(
+  "completeness leaks nothing: no credential or URL reaches the full list either",
+  !JSON.stringify(artifactFor().outcomes).includes("FIXTURE_SECRET_MUST_NOT_LEAK") &&
+    !JSON.stringify(artifactFor().outcomes).toLowerCase().includes("apikey") &&
+    !JSON.stringify(artifactFor().outcomes).includes("https://")
+);
+assert(
+  "the capped markdown names the array an operator should open",
+  buildOutcomesMarkdown(bigArtifact).includes("`outcomes` array")
+);
+
 let failed = 0;
 for (const check of checks) {
   if (!check.pass) failed += 1;

@@ -22,10 +22,11 @@
 //      artist, so a withholding path that suddenly swallows a whole roster is
 //      visible in one line instead of buried in prose.
 //
-// Output discipline (SAFE_PUBLISHING_RULES.md): the artifact carries a CAPPED
-// sample of affected shows built from a field ALLOWLIST — never a provider
-// payload, never a URL (query strings can carry credentials/affiliate tokens),
-// never an API key. Host is kept because host allowlisting is a withhold rule.
+// Output discipline (SAFE_PUBLISHING_RULES.md): every row — the artifact's full
+// `outcomes` list and the CAPPED sample the Markdown renders alike — is built
+// from a field ALLOWLIST: never a provider payload, never a URL (query strings
+// can carry credentials/affiliate tokens), never an API key. Host is kept
+// because host allowlisting is itself a withhold rule.
 //
 // Pure module: no I/O, no network, no clock of its own (the caller supplies
 // `generatedAt`), so the whole thing is directly testable from fixtures.
@@ -44,6 +45,8 @@ export const WRITER_REASON_CODES = {
     "Live Discovery lookup did not succeed for this artist; writing from a partial fetch is refused.",
   duplicate_existing_event_row:
     "Proposed row's deterministic events.json id already exists in events.json.",
+  duplicate_batch_event_id:
+    "An earlier candidate in this same run produced the identical deterministic events.json id, so the canonical writer wrote only one row for both.",
   write_not_applied:
     "Row entered the write batch but is absent from events.json after the write (dropped by the canonical writer).",
   reason_codes_missing_from_report:
@@ -63,6 +66,7 @@ export const DUPLICATE_REASON_CODES = new Set([
   "duplicate_existing_venue_date",
   "duplicate_within_batch",
   "duplicate_existing_event_row",
+  "duplicate_batch_event_id",
 ]);
 
 export const SAMPLE_CAP = { perBucket: 3, total: 30 };
@@ -132,6 +136,13 @@ export function deriveOutcomes({
   appliedEventIds = null,
 }) {
   const outcomes = [];
+  // Two candidates can collapse onto one deterministic events.json id (blank
+  // Discovery ids under the same artist/city/year, or ids differing only by
+  // case before buildEventId lowercases them). apply-artists writes ONE row for
+  // them, so testing "is this id in events.json afterwards?" would report both
+  // as added and overstate the additions. Only the first claim on an id can be
+  // the write; later ones are duplicates of it.
+  const claimedIds = new Set();
   for (const artist of report?.artists || []) {
     const slug = clean(artist?.artist_slug);
     // An artist the writer refused to use taints every row underneath it. The
@@ -161,6 +172,18 @@ export function deriveOutcomes({
       // Proposed rows: the recogniser cleared them, so their result comes from
       // what the canonical writer actually did with them.
       const eventsJsonId = clean(proposedIdByKey.get(key));
+      if (eventsJsonId && !existingEventIds.has(eventsJsonId) && claimedIds.has(eventsJsonId)) {
+        outcomes.push({
+          key,
+          artist_slug: slug,
+          result: "duplicate",
+          reason_codes: ["duplicate_batch_event_id"],
+          event,
+          events_json_id: eventsJsonId,
+        });
+        return;
+      }
+      if (eventsJsonId) claimedIds.add(eventsJsonId);
       if (eventsJsonId && existingEventIds.has(eventsJsonId)) {
         outcomes.push({
           key,
@@ -312,11 +335,18 @@ export function buildOutcomesArtifact({
     },
     totals: summary,
     reason_code_catalogue: catalogue,
+    // EVERY candidate, in report order. The capped `sample` below is what the
+    // Markdown renders; this is what the Markdown points an operator AT, so it
+    // has to be complete — a run where one bucket overflowed the cap would
+    // otherwise have no record of the omitted rows anywhere. Same allowlisted
+    // fields, so completeness costs disclosure nothing.
+    outcomes,
     sample: sampleOutcomes(outcomes, cap),
     notes: [
       "Diagnostics only — this artifact changes no eligibility rule and no event data.",
       "`duplicate` means duplication was the only reason a candidate was held back; anything else stays `withheld`.",
-      "Sample is capped and built from a field allowlist: no provider payloads, no URLs, no credentials.",
+      "`outcomes` holds every candidate; `sample` is the capped subset the Markdown summary renders.",
+      "Every row is built from a field allowlist: no provider payloads, no URLs, no credentials.",
     ],
   };
 }
@@ -382,7 +412,7 @@ export function buildOutcomesMarkdown(artifact) {
     if (sample.truncated) {
       lines.push("");
       lines.push(
-        `_Capped at ${sample.cap.per_bucket} row(s) per bucket and ${sample.cap.total} overall — full per-candidate detail is in \`ingestion-outcomes.json\` in the run artifact._`
+        `_Capped at ${sample.cap.per_bucket} row(s) per bucket and ${sample.cap.total} overall — every candidate is in the \`outcomes\` array of \`ingestion-outcomes.json\` in the run artifact._`
       );
     }
   }

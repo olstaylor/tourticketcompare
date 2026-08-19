@@ -87,7 +87,7 @@ Full mechanism and contracts: `docs/ARCHITECTURE.md`. Deploy/config runbook: `do
 - `MusicEvent` `offers` JSON-LD is enabled site-wide (`SCHEMA_OFFERS_ENABLED=true`, no pilot-slug scoping) for the three numeric-price lanes only; never emits availability.
 - `MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false`. `OUT_CLICK_ID_SUBID_ENABLED` is off (code default applies; affiliate URLs unchanged).
 - City, venue, and artist-city aggregation pages are live, gated by `docs/ROUTE_INDEXABILITY_POLICY.md`, and reflected in the route-surface figures above.
-- The blog (`/blog`), `/currency-converter`, and derived-content artist pages (`functions/_artist-content.js`) are live; the `/admin` browser editor is not yet reachable — see `docs/OPERATIONS.md` → Known incidents.
+- The blog (`/blog`), `/currency-converter`, and derived-content artist pages (`functions/_artist-content.js`) are live; the `/admin` browser editor is live on its own origin at `https://admin.tourticketcompare.com/admin` (GitHub sign-in; setup steps in `docs/BLOG.md`).
 - Not supported: live inventory/"cheapest" claims, tour or individual event landing pages, artist-level Vivid Seats CTAs, Ticketmaster affiliate tracking of any kind, `Event`/`MusicEvent` schema without verified event-level data, or conversion/revenue attribution (checkout happens off-site).
 
 ## How to update this file

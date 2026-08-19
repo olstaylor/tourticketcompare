@@ -2053,7 +2053,8 @@ const GUIDE_CLUSTERS = [
       "/guides/concert-ticket-fees-explained",
       "/guides/why-ticket-prices-change",
       "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
-      "/guides/seatgeek-vs-ticketmaster"
+      "/guides/seatgeek-vs-ticketmaster",
+      "/guides/ticketnetwork-vs-ticketmaster"
     ]
   },
   {

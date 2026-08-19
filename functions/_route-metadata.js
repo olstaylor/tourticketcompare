@@ -192,7 +192,7 @@ export const TRUST_ROUTES = {
       "Practical concert-ticket guides on matching listings, checking final totals, choosing primary or resale, timing a purchase, and confirming provider terms.",
     indexable: true,
     breadcrumb: [{ name: "Guides", path: "/guides" }],
-    lastmod: "2026-08-04"
+    lastmod: "2026-08-19"
   },
   "/how-it-works": {
     title: "How TourTicketCompare Works",
@@ -280,6 +280,15 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     datePublished: "2026-07-13",
     lastmod: "2026-07-28"
+  },
+  "/guides/ticketnetwork-vs-ticketmaster": {
+    title: "TicketNetwork vs Ticketmaster: Which Should You Use?",
+    h1: "How should I compare TicketNetwork and Ticketmaster?",
+    description:
+      "Compare TicketNetwork and Ticketmaster: who sells the ticket, who sets the price, what each guarantees, delivery timing, and the complete total at checkout.",
+    fullContent: true,
+    datePublished: "2026-08-19",
+    lastmod: "2026-08-19"
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     title: "Avoid Overpaying for Concert Tickets | TourTicketCompare",

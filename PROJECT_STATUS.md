@@ -10,14 +10,14 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 
 - `public/data/artists.json`: **40 records — 26 `indexable_with_substantial_content` + 14 `review_required` shells** (sabrina-carpenter, lady-gaga, the-weeknd, coldplay, karol-g, foo-fighters, metallica, rush, muse, my-chemical-romance, teddy-swims, five-finger-death-punch, system-of-a-down, laura-pausini). The 26 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 14 shells carry `verified_providers: []` and render no CTA. 3 of the 26 indexable carry 0 events and render artist-level CTAs only — beyonce, raye, tate-mcrae, latto.
 - `public/data/catalog.json`: 40 artist records; 0 tour records; **66 ticket_links rows** (40 ticketmaster + 26 seatgeek artist pages; 52 `verified` + `public_enabled`, plus 14 unverified/hidden shell ticketmaster rows for the 14 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
-- `public/data/events.json`: **610 events** — 289 `human_verified`, 273 `machine_high_confidence`, 48 `needs_recheck`. Verified event-level provider provenance: SeatGeek 198 (250 rows carry a stored `seatgeek_url`), Vivid Seats 400, TicketNetwork 366, Ticket Liquidator 318, StubHub International 321. Of the 48 `needs_recheck` rows: 25 retain a standalone SeatGeek CTA, 26 retain a standalone Vivid Seats CTA, and 8 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
+- `public/data/events.json`: **610 events** — 289 `human_verified`, 273 `machine_high_confidence`, 48 `needs_recheck`. Verified event-level provider provenance: SeatGeek 198 (250 rows carry a stored `seatgeek_url`), Vivid Seats 400, TicketNetwork 366, Ticket Liquidator 318, StubHub International 320. Of the 48 `needs_recheck` rows: 25 retain a standalone SeatGeek CTA, 26 retain a standalone Vivid Seats CTA, and 8 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
 - `public/data/guides-content.json`: **18 guide content entries** (topic guides; not per-artist). Generated from `content/guides/*.md` — do not hand-edit.
 - `content/blog/*.md`: **3 published blog posts, 1 draft, 3 tags** (2 indexable, 1 below the two-post tag gate). Source of truth for the blog; `public/data/blog-content.json` is generated from it and must never be hand-edited. Recount with `npm run blog:build`.
 - `functions/_guide-routes.generated.js`: **18 guide routes** (published guides only), re-exported by `functions/_route-metadata.js`, which still owns the trust/static route metadata and `OLD_GUIDE_REDIRECTS`.
 - Route surface — **generated, do not hand-edit.** `npm run status:surface:write` refreshes this line from the audit's own render of every route (robots meta as served, not as inferred), and `npm run audit:indexable-surface:check` — which runs in `test:mvp` — warns when it goes stale. Exclusion reasons, expiry horizon and the stored baseline live in `reports/indexable-surface/`.
   <!-- generated:route-surface -->
-  Generated 2026-08-19: **492 rendered / 224 indexable**. By type (rendered/indexable): home 1/1 · index 5/5 · static 7/7 · guide 18/18 · blog-post 3/3 · blog-tag 3/2 · artist 40/26 · city 81/34 · venue 105/45 · artist-city 229/83.
+  Generated 2026-08-20: **492 rendered / 224 indexable**. By type (rendered/indexable): home 1/1 · index 5/5 · static 7/7 · guide 18/18 · blog-post 3/3 · blog-tag 3/2 · artist 40/26 · city 81/34 · venue 105/45 · artist-city 229/83.
   <!-- /generated:route-surface -->
 - `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **52 artist-level entries** — one plain `<slug>:ticketmaster` and one Impact-wrapped `<slug>:seatgeek` per indexable artist (26 artists). There are no artist-level Vivid Seats entries; live event-level Vivid redirects resolve from verified event data.
 - `data/provider-identities.json`: all **26 entries** verified with `ticketmaster_attraction_id`, `ticketmaster_artist_url`, `seatgeek_performer_id`, and `seatgeek_artist_url` (the 14 `review_required` shells have no registry entry yet — added at Promote). The onboarding manifest lives in gitignored `artifacts/` and does not survive environment recycling; regenerate it with `npm run artists:onboard:propose -- --names <names> --allow-existing-shells`.
@@ -28,25 +28,25 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 
 | Slug | `last_verified_at` | Events | With `seatgeek_url` | SG verified | `needs_recheck` | Tour name | Notes |
 |---|---|---|---|---|---|---|---|
-| beyonce | 2026-08-19 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| beyonce | 2026-08-20 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | harry-styles | 2026-04-30 | 39 | 30 | 30 | 0 | Together, Together | — |
 | bts | 2026-04-30 | 25 | 18 | 11 | **4** | BTS WORLD TOUR 'ARIRANG' | Recheck rows: Madrid 6/26 & 6/27 (no-link), Arlington 8/16 & 8/17 (standalone SeatGeek CTA). |
 | ariana-grande | 2026-04-30 | 41 | 17 | 5 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
-| bad-bunny | 2026-08-19 | 26 | 0 | 0 | **2** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
-| morgan-wallen | 2026-08-19 | 18 | 14 | 4 | 0 | Still the Problem Tour | — |
+| bad-bunny | 2026-08-20 | 26 | 0 | 0 | **2** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
+| morgan-wallen | 2026-08-20 | 18 | 14 | 4 | 0 | Still the Problem Tour | — |
 | jay-z | 2026-04-30 | 7 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | Inglewood/London rows have blank `tour_name`, owner-accepted. |
 | olivia-rodrigo | 2026-05-27 | 84 | 59 | 59 | **6** | The Unraveled Tour | All 6 recheck rows retain a standalone SeatGeek CTA via verified provenance. |
 | bruno-mars | 2026-05-28 | 56 | 30 | 30 | 0 | The Romantic Tour | Four Mexico City events intentionally excluded (`ticketmaster.com.mx` not in the allowlist). |
 | ed-sheeran | 2026-06-12 | 27 | 26 | 21 | **2** | The Loop Tour | Recheck rows: Nashville (no-link), Arlington (standalone SeatGeek CTA). |
 | shakira | 2026-06-10 | 31 | 16 | 5 | **1** | Las Mujeres Ya No Lloran | Recheck row: the re-added "Shakira Stadium" Madrid row — CTA-suppressed. |
-| raye | 2026-08-19 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| raye | 2026-08-20 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | charli-xcx | 2026-06-18 | 11 | 11 | 11 | 0 | Music, Fashion, Film Tour | — |
-| tate-mcrae | 2026-08-19 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
+| tate-mcrae | 2026-08-20 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
 | summer-walker | 2026-06-11 | 13 | 7 | 1 | 0 | Still Finally Over It | Houston 6/21 renders a plain "Check Ticketmaster" link (owner-verified). |
-| rosalia | 2026-08-19 | 6 | 1 | 0 | 0 | LUX TOUR 2026 | Houston 6/23 renders a plain "Check Ticketmaster" link (owner-verified). |
-| post-malone | 2026-08-19 | 5 | 0 | 0 | 0 | — | `tour_name` blank pending human verification. Vivid Seats covers 3 events. |
+| rosalia | 2026-08-20 | 6 | 1 | 0 | 0 | LUX TOUR 2026 | Houston 6/23 renders a plain "Check Ticketmaster" link (owner-verified). |
+| post-malone | 2026-08-20 | 5 | 0 | 0 | 0 | — | `tour_name` blank pending human verification. Vivid Seats covers 3 events. |
 | zach-bryan | 2026-07-15 | 15 | 4 | 4 | **4** | With Heaven On Tour | Arlington, Glendale and Dover ×2 remain recheck rows with standalone verified resale CTAs. Vivid Seats covers 10 events. |
-| jelly-roll | 2026-08-19 | 1 | 0 | 0 | **1** | — | `tour_name` blank pending human verification. |
+| jelly-roll | 2026-08-20 | 1 | 0 | 0 | **1** | — | `tour_name` blank pending human verification. |
 | tame-impala | 2026-07-22 | 20 | 3 | 3 | **3** | The Deadbeat Tour | 3 recheck rows each publish a standalone verified SeatGeek CTA. |
 | sabrina-carpenter | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |
 | lady-gaga | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |
@@ -74,7 +74,7 @@ Event CTAs publish independently per provider (`providerEventPublishable`; see `
 **Empty boards move daily** — generated by the same `npm run status:surface:write` pass, from the `artistPageIndexable` gate the router and sitemap read.
 
 <!-- generated:empty-boards -->
-Generated 2026-08-19: 8 of the 26 editorially-indexable artists have no upcoming date and render `noindex,follow` — beyonce, bad-bunny, morgan-wallen, raye, tate-mcrae, rosalia, post-malone, jelly-roll — leaving **18 live artist pages**; 3 of them (beyonce, raye, tate-mcrae) have never had an event record.
+Generated 2026-08-20: 8 of the 26 editorially-indexable artists have no upcoming date and render `noindex,follow` — beyonce, bad-bunny, morgan-wallen, raye, tate-mcrae, rosalia, post-malone, jelly-roll — leaving **18 live artist pages**; 3 of them (beyonce, raye, tate-mcrae) have never had an event record.
 <!-- /generated:empty-boards -->
 
 ## What's true right now
@@ -87,7 +87,7 @@ Full mechanism and contracts: `docs/ARCHITECTURE.md`. Deploy/config runbook: `do
 - `MusicEvent` `offers` JSON-LD is enabled site-wide (`SCHEMA_OFFERS_ENABLED=true`, no pilot-slug scoping) for the three numeric-price lanes only; never emits availability.
 - `MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false`. `OUT_CLICK_ID_SUBID_ENABLED` is off (code default applies; affiliate URLs unchanged).
 - City, venue, and artist-city aggregation pages are live, gated by `docs/ROUTE_INDEXABILITY_POLICY.md`, and reflected in the route-surface figures above.
-- The blog (`/blog`), `/currency-converter`, and derived-content artist pages (`functions/_artist-content.js`) are live. The `/admin` browser editor is live on `admin.tourticketcompare.com` (verified 2026-08-19) and now edits both blog posts and buying guides.
+- The blog (`/blog`), `/currency-converter`, and derived-content artist pages (`functions/_artist-content.js`) are live; the `/admin` browser editor is live on its own origin at `https://admin.tourticketcompare.com/admin` (GitHub sign-in; setup steps in `docs/BLOG.md`), and edits both blog posts and buying guides.
 - Not supported: live inventory/"cheapest" claims, tour or individual event landing pages, artist-level Vivid Seats CTAs, Ticketmaster affiliate tracking of any kind, `Event`/`MusicEvent` schema without verified event-level data, or conversion/revenue attribution (checkout happens off-site).
 
 ## How to update this file

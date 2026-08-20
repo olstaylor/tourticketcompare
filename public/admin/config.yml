@@ -135,6 +135,24 @@ collections:
           revising a guide moves that date and never this one. A guide that has
           never been published may leave this blank.
 
+      - name: comparison_providers
+        label: Comparison providers
+        widget: select
+        multiple: true
+        required: false
+        min: 2
+        max: 2
+        options:
+          - { label: Ticketmaster, value: ticketmaster }
+          - { label: SeatGeek, value: seatgeek }
+          - { label: Vivid Seats, value: vivid-seats }
+          - { label: TicketNetwork, value: ticketnetwork }
+          - { label: Ticket Liquidator, value: ticket-liquidator }
+          - { label: StubHub International, value: stubhub-international }
+        hint: >-
+          Optional exact-event opportunity module. Select exactly two different
+          allowlisted providers; the guide build validates the pair again.
+
       - name: sources
         label: Sources
         label_singular: Source

@@ -170,6 +170,28 @@ function expectedMusicEventCount(artistSlug) {
 
 // 4. Compare-prices guide: authored HowTo emitted, without a nested @context.
 {
+  const pathname = "/guides/vivid-seats-vs-ticketmaster";
+  const response = await render(pathname);
+  const html = await response.text();
+  if (response.status !== 200) fail(`${pathname}: expected 200, got ${response.status}`);
+  assertApexHead(html, pathname);
+  if (!/<meta name="robots" content="index,follow(?:,[^"]*)?"/.test(html)) fail(`${pathname}: missing index,follow robots meta`);
+  if (!/<title>Vivid Seats vs Ticketmaster: Fees, Safety &amp; Delivery<\/title>/.test(html)) fail(`${pathname}: unique SEO title missing`);
+  const graph = extractGraph(html, pathname);
+  if (graph) {
+    const article = graph.find((node) => node?.["@type"] === "Article");
+    const breadcrumb = graph.find((node) => node?.["@type"] === "BreadcrumbList");
+    const faq = graph.find((node) => node?.["@type"] === "FAQPage");
+    if (!article || !breadcrumb) fail(`${pathname}: Article or BreadcrumbList missing`);
+    if (!faq || faq.mainEntity?.length !== 8) fail(`${pathname}: expected FAQPage with 8 visible questions`);
+    const unsupported = graph.filter((node) => "offers" in node || "price" in node || "availability" in node);
+    if (unsupported.length) fail(`${pathname}: unsupported Offer/price/availability schema emitted`);
+    else ok(`${pathname} emits Article + BreadcrumbList + 8-question FAQPage with no offer schema`);
+  }
+}
+
+// 5. Compare-prices guide: authored HowTo emitted, without a nested @context.
+{
   const pathname = "/guides/how-to-compare-concert-ticket-prices";
   const graph = extractGraph(await (await render(pathname)).text(), pathname);
   if (graph) {
@@ -180,7 +202,7 @@ function expectedMusicEventCount(artistSlug) {
   }
 }
 
-// 5. Promo-code guide FAQ schema must mirror its newly authored visible FAQ.
+// 6. Promo-code guide FAQ schema must mirror its newly authored visible FAQ.
 {
   const pathname = "/guides/seatgeek-promo-code-guide";
   const graph = extractGraph(await (await render(pathname)).text(), pathname);
@@ -191,7 +213,7 @@ function expectedMusicEventCount(artistSlug) {
   }
 }
 
-// 6. Every artist page: MusicEvent count matches the publishable gate exactly,
+// 7. Every artist page: MusicEvent count matches the publishable gate exactly,
 // nodes carry required fields, and never offers/price/availability. This runs
 // with the default env (no flags, no D1), so it also proves the schema-offers
 // exception stays fail-closed: without SCHEMA_OFFERS_ENABLED and a live cache

@@ -209,7 +209,7 @@ function renderGuideSources(guideSources) {
   const summary = `Checked ${guideSources.checked ?? 0} cited source URL(s); ${findings.length} need review, ${blocked} blocked (not a failure).\n\n`;
   if (!findings.length) return `${summary}✅ Every cited guide source still resolves.\n`;
   const rows = findings.map((entry) => `| ${entry.url} | ${entry.detail} |`).join('\n');
-  return `${summary}| Source URL | Result |\n| --- | --- |\n${rows}\n\nA cited source that no longer resolves is a content problem: update or replace the citation in \`public/data/guides-content.json\`. The automated check never stamps a failing URL.\n`;
+  return `${summary}| Source URL | Result |\n| --- | --- |\n${rows}\n\nA cited source that no longer resolves is a content problem: update or replace the citation in the guide's \`content/guides/<slug>.md\`. The automated check never stamps a failing URL.\n`;
 }
 
 function buildBody(links, tm, guideSources) {

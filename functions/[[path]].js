@@ -9,6 +9,9 @@ import {
   fitTitleToBudget,
   withoutParentheticalQualifier
 } from "./_route-metadata.js";
+// The event-price guide's standalone render fallback, generated alongside
+// GUIDE_ROUTES from content/guides/*.md. See the note at its use below.
+import { EVENT_PRICE_GUIDE_PATH, EVENT_PRICE_GUIDE_FALLBACK } from "./_guide-routes.generated.js";
 import { attachApprovedMarketplacePrices } from "./api/shows.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 import { deriveVenues, findVenue } from "./_venues.js";
@@ -88,28 +91,22 @@ const RESERVED_PREFIXES = ["/api/", "/data/", "/admin/"];
 const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/sitemap.xml", "/blog/rss.xml", "/admin"]);
 
 // Keep the highest-value editorial guide routable even if an edge deploy briefly
-// serves stale route metadata. This fallback mirrors _route-metadata.js and
-// prevents Googlebot/Search Console from seeing a transient 404/noindex response.
+// serves stale route metadata. EVENT_PRICE_GUIDE_FALLBACK mirrors that guide's
+// GUIDE_ROUTES entry and prevents Googlebot/Search Console from seeing a
+// transient 404/noindex response, or a page stripped of its visible
+// Published/Updated line and its Article datePublished/dateModified.
 //
-// Every field is a literal, dates included. Reading the dates from GUIDE_ROUTES
-// would defeat the fallback: it exists for the case where that entry is missing,
-// and an optional lookup would then yield undefined — stripping the page's
-// visible Published/Updated line and its Article datePublished/dateModified in
-// exactly the scenario the fallback is for. Drift is prevented instead by
-// scripts/route-metadata.test.mjs, which fails the build if these literals stop
-// matching the canonical entry that scripts/sync-content-provenance.mjs
-// maintains. Keep them in step by copying the canonical values here when that
-// test says so.
-const EVENT_PRICE_GUIDE_PATH = "/guides/how-to-compare-event-ticket-prices";
-const EVENT_PRICE_GUIDE_FALLBACK = {
-  title: "How to Compare Event Ticket Prices | TourTicketCompare",
-  h1: "How to Compare Event Ticket Prices",
-  description:
-    "Compare event ticket prices across concerts, sports, and theatre by matching the exact event, seat or section, ticket type, fees, and final checkout total.",
-  fullContent: true,
-  datePublished: "2026-07-14",
-  lastmod: "2026-07-14"
-};
+// It is a separate top-level binding in functions/_guide-routes.generated.js,
+// not a lookup into GUIDE_ROUTES: a missing or malformed entry there still
+// leaves this object intact, which is the case it exists for. (It has never
+// covered the module failing to load outright — GUIDE_ROUTES is imported at
+// module scope, so that takes every HTML route down regardless.)
+//
+// Both are generated from the same Markdown, so they cannot drift:
+// scripts/build-guide-content.mjs refuses to draft, rename or delete that
+// guide, and scripts/route-metadata.test.mjs asserts every field of the
+// fallback equals the GUIDE_ROUTES entry.
+
 
 // _headers applies to static-asset responses only, not to function-generated responses.
 // These headers must be set explicitly on every HTML Response returned by this function.

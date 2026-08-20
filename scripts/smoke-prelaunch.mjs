@@ -485,7 +485,11 @@ const publicCopyFiles = [
 const guideCopyFiles = [
   "public/data/guides-content.json",
   "public/app.js",
-  "functions/_route-metadata.js"
+  "functions/_route-metadata.js",
+  // Guide titles, H1s and descriptions live here now (generated from
+  // content/guides/*.md). Without this entry they would drop out of every copy
+  // scan below the moment they stopped being literals in _route-metadata.js.
+  "functions/_guide-routes.generated.js"
 ];
 const publicCopyRegressionFiles = [
   "public/index.html",
@@ -494,6 +498,7 @@ const publicCopyRegressionFiles = [
   "functions/_artist-content.js",
   "functions/_artist-cities.js",
   "functions/_route-metadata.js",
+  "functions/_guide-routes.generated.js",
   "public/data/guides-content.json",
   "public/data/catalog.json",
   "public/ttc-home.js"
@@ -503,7 +508,8 @@ const publicAffiliateUrlFiles = [
     publicUiFiles.concat([
       "public/data/guides-content.json",
       "functions/[[path]].js",
-      "functions/_route-metadata.js"
+      "functions/_route-metadata.js",
+      "functions/_guide-routes.generated.js"
     ])
   )
 ];

@@ -151,7 +151,6 @@ export function computeTable(sources) {
 }
 
 function loadSources() {
-  const routeMeta = readText("functions/_route-metadata.js");
   const outJs = readText("functions/api/out.js");
   return {
     artists: readJson("public/data/artists.json"),
@@ -159,7 +158,13 @@ function loadSources() {
     events: readJson("public/data/events.json"),
     guidesContent: readJson("public/data/guides-content.json"),
     providerIdentities: readJson("data/provider-identities.json"),
-    guideRoutesCount: countObjectKeys(routeMeta, /GUIDE_ROUTES\s*=\s*\{/, /"\/guides\/[a-z0-9-]+"\s*:\s*\{/g),
+    // GUIDE_ROUTES is generated from content/guides/*.md and re-exported by
+    // functions/_route-metadata.js, so count it where it is actually declared.
+    guideRoutesCount: countObjectKeys(
+      readText("functions/_guide-routes.generated.js"),
+      /GUIDE_ROUTES\s*=\s*\{/,
+      /"\/guides\/[a-z0-9-]+"\s*:\s*\{/g
+    ),
     verifiedTicketLinksCount: countObjectKeys(outJs, /VERIFIED_TICKET_LINKS\s*=\s*\{/, /["'][a-z0-9-]+:[a-z0-9-]+["']\s*:/g),
   };
 }

@@ -38,15 +38,35 @@ node scripts/validate-partitions.mjs          # if partitions touched
 ### Blog / content
 
 ```bash
-npm run blog:build       # compile content/blog/*.md -> public/data/blog-content.json
-npm run blog:check       # fail if the generated JSON is stale (also run by test:mvp)
-npm run blog:self-test   # parser + validator unit tests
+npm run blog:build          # compile content/blog/*.md   -> public/data/blog-content.json
+npm run guides:build        # compile content/guides/*.md -> public/data/guides-content.json
+                            #   and functions/_guide-routes.generated.js
+npm run content:provenance  # derive each page's Updated date from its copy (see below)
+npm run blog:check          # fail if the generated blog JSON is stale (also run by test:mvp)
+npm run guides:check        # fail if either generated guide file is stale (also run by test:mvp)
+npm run blog:self-test      # parser + validator unit tests
+npm run guides:self-test    # validator, publication-ledger and emitter unit tests
+npm run content:cms-contract  # every persisted front-matter key has a CMS field, and every
+                              #   document survives a Sveltia-style save unchanged
 ```
 
-`npm run blog:build` is required after any edit under `content/blog/`. It validates
-before it writes: a post with a broken internal link, an over-budget title, or a
-claim the site cannot support fails rather than publishing. Authoring reference:
-[docs/BLOG.md](docs/BLOG.md).
+`npm run blog:build` is required after any edit under `content/blog/`, and
+`npm run guides:build` after any edit under `content/guides/`. Both validate
+before they write: a page with a broken internal link, an over-budget title, or a
+claim the site cannot support fails rather than publishing.
+
+Two things you do **not** edit by hand. A guide's Updated date lives in
+`data/content-provenance.json` and is derived from a fingerprint of its copy, so
+run `npm run content:provenance` after changing a guide's words and commit the
+result. A source's "link checked" date lives in
+`data/guide-source-link-checks.json` and is written only by the nightly audit —
+the editorial claim is `last_checked` in the Markdown. Generated files
+(`public/data/*-content.json`, `functions/_guide-routes.generated.js`,
+`data/content-provenance.json`) are never hand-edited.
+
+Withdrawing a published guide — drafting, renaming or deleting it — fails the
+build unless `OLD_GUIDE_REDIRECTS` in `functions/_route-metadata.js` carries an
+entry for the old path. Authoring reference: [docs/BLOG.md](docs/BLOG.md).
 
 ### Route / provider / artist validators (run the ones relevant to your change)
 
@@ -59,8 +79,9 @@ npm run content:provenance                    # REQUIRED after editing any guide
                                               #   runs in test:mvp and fails a stale commit.
 npm run guides:sources:check:dry-run          # optional: confirm every cited guide source still
                                               #   resolves. The scheduled daily audit runs the writing
-                                              #   form; it stamps linkCheckedAt only, never the
-                                              #   editorial lastChecked.
+                                              #   form; it records the check in
+                                              #   data/guide-source-link-checks.json only, never the
+                                              #   editorial last_checked in the Markdown.
 npm run artist:check -- <slug>                # a specific artist touched — checks artists.json,
                                               #   catalog.json, events.json, partitions,
                                               #   VERIFIED_TICKET_LINKS in out.js, and the shows.js
@@ -114,8 +135,8 @@ Prefer these over the full `test:mvp` chain when a change is scoped to one area 
 ```bash
 npm run test:routes      # route-metadata + route-indexability units, guide-route validation,
                          #   and the internal-links crawl — routing/metadata changes
-npm run test:content     # blog:check + content:provenance:check + guide-route validation —
-                         #   content/copy changes (guides, trust pages, blog)
+npm run test:content     # blog:check + guides:check + content:provenance:check + guide-route
+                         #   validation — content/copy changes (guides, trust pages, blog)
 npm run test:providers   # provider-structure, artist-provider-claims, CTA-provider-state,
                          #   provider-allowlists, and provider-identities validators —
                          #   provider/CTA changes
@@ -264,6 +285,8 @@ Batch onboarding (preferred): `npm run artists:onboard:propose` → review the i
 - [ ] Event data validated (`npm run events:validate`) if `events.json` was touched
 - [ ] `npm run events:sync` run if any data files changed
 - [ ] `npm run blog:build` run if any `content/blog/*.md` was changed
+- [ ] `npm run guides:build` run if any `content/guides/*.md` was changed
+- [ ] `npm run content:provenance` run if any guide or trust-page copy was changed
 - [ ] Smoke tests pass (`node scripts/smoke-prelaunch.mjs`)
 - [ ] `npm run docs:check` passes
 - [ ] `git diff --check` clean

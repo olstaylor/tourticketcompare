@@ -114,5 +114,61 @@
       "content_hash": "86790b64759606db",
       "content_updated_at": "2026-07-13"
     }
+  },
+  "guide_publication": {
+    "/guides/concert-ticket-fees-explained": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/how-resale-ticket-pricing-works": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/how-to-avoid-overpaying-for-concert-tickets": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/how-to-avoid-ticket-scams": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/how-to-compare-concert-ticket-prices": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/how-to-compare-event-ticket-prices": {
+      "date_published": "2026-07-14"
+    },
+    "/guides/how-to-prepare-for-a-ticket-onsale": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/how-to-read-a-ticket-listing": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/primary-vs-resale-concert-tickets": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/seatgeek-promo-code-guide": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/seatgeek-vs-ticketmaster": {
+      "date_published": "2026-07-13"
+    },
+    "/guides/ticket-delivery-and-transfer-timing": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/ticketmaster-vs-stubhub": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/ticketnetwork-vs-ticketmaster": {
+      "date_published": "2026-08-19"
+    },
+    "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/when-is-the-best-time-to-buy-concert-tickets": {
+      "date_published": "2026-06-11"
+    },
+    "/guides/why-ticket-prices-change": {
+      "date_published": "2026-06-11"
+    }
   }
 }

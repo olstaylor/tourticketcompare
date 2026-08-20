@@ -10,10 +10,12 @@ TourTicketCompare helps fans find checked ticket destinations, understand buying
 
 - Verified artist- and event-level ticket links where the required provider checks pass
 - Provider-attributed listed-price snapshots for approved, exact-matched events
-- Buying guides covering fees, resale risk, timing, and provider differences
+- Buying guides covering fees, resale risk, timing, and provider differences, written in Markdown under `content/guides/`
 - City, venue, and artist-city pages aggregated from the same reviewed event records
-- A blog written in Markdown under `content/blog/` ([docs/BLOG.md](docs/BLOG.md))
+- A blog written in Markdown under `content/blog/`
 - Artist watchlist pages for major tours
+
+Both editorial collections — guides and blog — are edited in a browser at `admin.tourticketcompare.com/admin`, in a text editor, or on GitHub, and are compiled into the site's generated data files by CI. Authoring reference: [docs/BLOG.md](docs/BLOG.md).
 
 Ticketmaster is a plain, unmonetized event/link source. Approved affiliate lanes currently include SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator, and StubHub International; availability varies by event and each lane fails closed when its URL, provenance, runtime configuration, or source checks do not pass. See [Provider Data Policy](docs/PROVIDER_DATA_POLICY.md) for the durable rules and [Project Status](PROJECT_STATUS.md) for the current rollout state.
 

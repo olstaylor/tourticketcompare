@@ -39,8 +39,14 @@ import fsSync from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { buildGuideOutputs } from './build-guide-content.mjs';
+
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const GUIDES_CONTENT_PATH = path.join(ROOT, 'public', 'data', 'guides-content.json');
+const LINK_CHECKS_PATH = path.join(ROOT, 'data', 'guide-source-link-checks.json');
+const SIDECAR_NOTE =
+  'Machine-owned. Records only that a cited URL still resolved, never that a human re-read it — the ' +
+  'editorial claim is `last_checked` in content/guides/*.md. Do not hand-edit.';
 
 const USER_AGENT =
   'Mozilla/5.0 (compatible; TourTicketCompareLinkCheck/1.0; +https://tourticketcompare.com/contact)';
@@ -118,98 +124,62 @@ async function mapWithConcurrency(items, limit, worker) {
 }
 
 /**
- * Apply stamps to the guide content tree. Pure, so the self-test can prove that
- * a blocked or failed URL leaves the document untouched.
+ * Every citation in the compiled guides, as (slug, url) pairs.
+ *
+ * Keyed by guide as well as URL because two guides may cite the same source and
+ * be checked on different days: a URL-only record would back-date one of them,
+ * or silently assert a check that never happened for that citation.
  */
-export function applyStamps(guides, stampsByUrl, today) {
-  let stamped = 0;
-  for (const guide of Object.values(guides || {})) {
+export function citationsFrom(guides) {
+  const citations = [];
+  for (const [routePath, guide] of Object.entries(guides || {})) {
+    const slug = String(routePath).replace(/^\/guides\//, '');
     for (const source of guide?.sources || []) {
-      const verdict = stampsByUrl.get(source?.url);
-      if (verdict && shouldStamp(verdict) && source.linkCheckedAt !== today) {
-        source.linkCheckedAt = today;
-        stamped += 1;
-      }
+      if (source?.url) citations.push({ slug, url: source.url });
     }
   }
-  return stamped;
+  return citations;
 }
 
 /**
- * Stamp the file as text rather than reserialising it.
+ * Record confirmed checks in the machine-owned sidecar.
  *
- * guides-content.json is hand-formatted and inconsistent about it: some
- * `sources` arrays put each citation on one compact line, others expand every
- * key. `JSON.stringify(..., 2)` normalises all of them, which would turn this
- * job's first nightly run into a 180-line reformat commit and bury the one-word
- * change it actually made. Editing in place keeps the diff to the lines that
- * gained a date, and leaves the author's chosen layout alone.
+ * The sidecar — data/guide-source-link-checks.json — is the only thing this
+ * script writes. It does NOT edit content/guides/*.md (that is human-authored;
+ * a bot commit there would race an editor's save and would be asserting a
+ * review no one performed) and it does NOT edit the generated
+ * public/data/guides-content.json directly (that would leave the generated file
+ * ahead of its source). The guide build merges the sidecar back in.
  *
- * Source objects never nest, so a brace-to-brace match delimits one exactly.
+ * Pure, so the self-test can prove a blocked or failed URL changes nothing.
  */
-export function applyStampsToText(raw, stampsByUrl, today) {
+export function applySidecarStamps(sidecar, citations, stampsByUrl, today) {
+  const next = { ...sidecar, guides: { ...(sidecar?.guides || {}) } };
   let stamped = 0;
-
-  // Only ever edit inside a `"sources": [ ... ]` array. A guide's `schema`
-  // block is JSON-LD and can legitimately carry its own `url` key; without this
-  // scope, a schema node whose url happened to match a cited source would have
-  // had a linkCheckedAt field injected into the structured data.
-  const stampSourcesArray = (arrayText) =>
-    arrayText.replace(/\{[^{}]*"url"\s*:\s*"([^"]+)"[^{}]*\}/g, (objectText, url) => {
+  for (const { slug, url } of citations) {
     const verdict = stampsByUrl.get(url);
-    if (!verdict || !shouldStamp(verdict)) return objectText;
-
-    const existing = objectText.match(/"linkCheckedAt"\s*:\s*"([^"]*)"/);
-    if (existing) {
-      if (existing[1] === today) return objectText;
-      stamped += 1;
-      return objectText.replace(/("linkCheckedAt"\s*:\s*)"[^"]*"/, `$1"${today}"`);
-    }
-
-    // Insert after `lastChecked` where present (keeps provenance fields
-    // together), otherwise before the closing brace.
-    const anchor = objectText.match(/(^|\n)(\s*)"lastChecked"\s*:\s*"[^"]*"/);
+    if (!verdict || !shouldStamp(verdict)) continue;
+    const current = next.guides[slug]?.[url];
+    if (current === today) continue;
+    next.guides[slug] = { ...(next.guides[slug] || {}), [url]: today };
     stamped += 1;
-    if (anchor) {
-      const indent = anchor[2];
-      const multiline = anchor[1] === "\n";
-      const insertion = multiline ? `,\n${indent}"linkCheckedAt": "${today}"` : `, "linkCheckedAt": "${today}"`;
-      return objectText.replace(/("lastChecked"\s*:\s*"[^"]*")/, `$1${insertion}`);
-    }
-    const multiline = objectText.includes("\n");
-    const indentMatch = objectText.match(/\n(\s*)"[^"]+"\s*:/);
-    const indent = indentMatch ? indentMatch[1] : "  ";
-    return objectText.replace(/\s*\}$/, multiline ? `,\n${indent}"linkCheckedAt": "${today}"\n${indent.slice(2)}}` : `, "linkCheckedAt": "${today}" }`);
-    });
-
-  // Walk each `"sources": [` to its balanced `]` and stamp only within it.
-  // Source arrays contain no nested arrays, so a depth counter is sufficient.
-  let text = '';
-  let cursor = 0;
-  const opener = /"sources"\s*:\s*\[/g;
-  let match;
-  while ((match = opener.exec(raw)) !== null) {
-    const arrayStart = match.index + match[0].length - 1;
-    let depth = 0;
-    let arrayEnd = -1;
-    for (let i = arrayStart; i < raw.length; i += 1) {
-      if (raw[i] === '[') depth += 1;
-      else if (raw[i] === ']') {
-        depth -= 1;
-        if (depth === 0) {
-          arrayEnd = i + 1;
-          break;
-        }
-      }
-    }
-    if (arrayEnd < 0) break;
-    text += raw.slice(cursor, arrayStart) + stampSourcesArray(raw.slice(arrayStart, arrayEnd));
-    cursor = arrayEnd;
-    opener.lastIndex = arrayEnd;
   }
-  text += raw.slice(cursor);
-
-  return { text, stamped };
+  // Drop records for citations that no longer exist, so a removed source does
+  // not leave a stale date behind to be re-merged if the URL comes back.
+  const live = new Map();
+  for (const { slug, url } of citations) {
+    if (!live.has(slug)) live.set(slug, new Set());
+    live.get(slug).add(url);
+  }
+  const pruned = {};
+  for (const slug of Object.keys(next.guides).sort()) {
+    const keep = live.get(slug);
+    if (!keep) continue;
+    const urls = Object.keys(next.guides[slug]).filter((url) => keep.has(url)).sort();
+    if (urls.length) pruned[slug] = Object.fromEntries(urls.map((url) => [url, next.guides[slug][url]]));
+  }
+  next.guides = pruned;
+  return { next, stamped };
 }
 
 /** Rebuild per-URL verdicts from a stored report, so stamping needs no network. */
@@ -222,8 +192,15 @@ export function outcomesFromReport(report) {
 }
 
 async function run() {
-  const raw = await fs.readFile(GUIDES_CONTENT_PATH, 'utf8');
-  const guides = JSON.parse(raw);
+  const guides = JSON.parse(await fs.readFile(GUIDES_CONTENT_PATH, 'utf8'));
+  const citations = citationsFrom(guides);
+  let sidecar;
+  try {
+    sidecar = JSON.parse(await fs.readFile(LINK_CHECKS_PATH, 'utf8'));
+  } catch (error) {
+    if (error?.code !== 'ENOENT') throw error;
+    sidecar = { generated_by: 'scripts/check-guide-source-links.mjs', note: SIDECAR_NOTE, guides: {} };
+  }
 
   const urls = [...new Set(Object.values(guides).flatMap((g) => (g?.sources || []).map((s) => s?.url).filter(Boolean)))];
 
@@ -241,7 +218,7 @@ async function run() {
   for (const outcome of outcomes) byVerdict[outcome.verdict].push(outcome);
 
   const stampsByUrl = new Map(outcomes.map((o) => [o.url, o.verdict]));
-  const { text: stampedText, stamped } = applyStampsToText(raw, stampsByUrl, TODAY);
+  const { next: nextSidecar, stamped } = applySidecarStamps(sidecar, citations, stampsByUrl, TODAY);
 
   console.log(
     `  ok ${byVerdict.ok.length} · blocked ${byVerdict.blocked.length} · failed ${byVerdict.failed.length} · error ${byVerdict.error.length}`
@@ -283,15 +260,33 @@ async function run() {
   }
 
   if (DRY_RUN) {
-    console.log('[dry-run] guides-content.json not written');
+    console.log('[dry-run] data/guide-source-link-checks.json not written');
     return;
   }
-  if (stamped) {
-    // Parse before writing: text surgery must never be able to emit invalid
-    // JSON into a file the site reads at request time.
-    JSON.parse(stampedText);
-    await fs.writeFile(GUIDES_CONTENT_PATH, stampedText, 'utf8');
+  const serialized = `${JSON.stringify(
+    { generated_by: 'scripts/check-guide-source-links.mjs', note: SIDECAR_NOTE, guides: nextSidecar.guides },
+    null,
+    2
+  )}\n`;
+  const current = await fs.readFile(LINK_CHECKS_PATH, 'utf8').catch(() => '');
+  if (serialized === current) {
+    console.log('  sidecar unchanged; nothing to rebuild');
+    return;
   }
+  await fs.writeFile(LINK_CHECKS_PATH, serialized, 'utf8');
+
+  // Merge the sidecar back into the generated guide content. The rebuild is
+  // gated on the same validation as any other guide change, and it can only
+  // move `linkCheckedAt`: `lastmod` comes from data/content-provenance.json,
+  // which this script never writes, and the daily audit asserts that file and
+  // the generated route module are unchanged before it commits.
+  const rebuild = await buildGuideOutputs({ write: true });
+  if (rebuild.problems.length) {
+    console.error('GUIDE REBUILD FAILED after stamping link checks:');
+    for (const problem of rebuild.problems) console.error(`  - ${problem}`);
+    process.exit(1);
+  }
+  console.log('  rebuilt public/data/guides-content.json from the updated sidecar');
 }
 
 function selfTest() {
@@ -310,48 +305,62 @@ function selfTest() {
 
   assert('only ok stamps', shouldStamp('ok') && !shouldStamp('blocked') && !shouldStamp('failed') && !shouldStamp('error'));
 
-  // A blocked or dead source must leave the document untouched.
-  const doc = { '/g': { sources: [{ url: 'a', lastChecked: '2026-01-01' }, { url: 'b', lastChecked: '2026-01-01' }] } };
-  const before = JSON.stringify(doc);
-  applyStamps(doc, new Map([['a', 'blocked'], ['b', 'failed']]), '2026-08-03');
-  assert('blocked/failed sources are not stamped', JSON.stringify(doc) === before);
+  // --- sidecar stamping ---------------------------------------------------
+  const citations = [
+    { slug: 'g', url: 'a' },
+    { slug: 'g', url: 'b' },
+    { slug: 'h', url: 'a' }
+  ];
+  const empty = { guides: {} };
 
-  const stamped = applyStamps(doc, new Map([['a', 'ok']]), '2026-08-03');
-  assert('ok source is stamped', stamped === 1 && doc['/g'].sources[0].linkCheckedAt === '2026-08-03');
-  assert('editorial lastChecked is never touched', doc['/g'].sources[0].lastChecked === '2026-01-01');
-  assert('unchecked sibling untouched', doc['/g'].sources[1].linkCheckedAt === undefined);
+  const blockedRun = applySidecarStamps(empty, citations, new Map([['a', 'blocked'], ['b', 'failed']]), '2026-08-03');
+  assert('blocked/failed sources are not stamped', blockedRun.stamped === 0 && Object.keys(blockedRun.next.guides).length === 0);
 
-  assert('stamping is idempotent', applyStamps(doc, new Map([['a', 'ok']]), '2026-08-03') === 0);
+  const okRun = applySidecarStamps(empty, citations, new Map([['a', 'ok']]), '2026-08-03');
+  assert('an ok url stamps every citation of it', okRun.stamped === 2);
+  assert('stamps are recorded per guide', okRun.next.guides.g.a === '2026-08-03' && okRun.next.guides.h.a === '2026-08-03');
+  assert('an unchecked sibling citation is not recorded', okRun.next.guides.g.b === undefined);
 
-  // A url outside a sources array — a JSON-LD node, say — must never be stamped.
-  const withSchema =
-    '{\n  "/g": {\n    "schema": { "@type": "Article", "url": "u1" },\n    "sources": [\n      { "name": "N", "url": "u1", "lastChecked": "2026-01-01" }\n    ]\n  }\n}\n';
-  const schemaOut = applyStampsToText(withSchema, new Map([['u1', 'ok']]), '2026-08-03');
-  assert('schema node with a matching url is not stamped', schemaOut.text.includes('"schema": { "@type": "Article", "url": "u1" }'));
-  assert('the real citation is still stamped', schemaOut.stamped === 1 && schemaOut.text.includes('"lastChecked": "2026-01-01", "linkCheckedAt": "2026-08-03"'));
+  assert('stamping is idempotent', applySidecarStamps(okRun.next, citations, new Map([['a', 'ok']]), '2026-08-03').stamped === 0);
 
-  // --- text writer: preserves each citation's existing layout ---------------
-  const compact = '{\n  "/g": {\n    "sources": [\n      { "name": "N", "url": "u1", "lastChecked": "2026-01-01" }\n    ]\n  }\n}\n';
-  const compactOut = applyStampsToText(compact, new Map([['u1', 'ok']]), '2026-08-03');
-  assert('compact citation stays on one line', compactOut.text.includes('{ "name": "N", "url": "u1", "lastChecked": "2026-01-01", "linkCheckedAt": "2026-08-03" }'));
-  assert('compact stamp counted', compactOut.stamped === 1);
-  assert('compact output is valid JSON', (() => { try { JSON.parse(compactOut.text); return true; } catch { return false; } })());
+  const nextDay = applySidecarStamps(okRun.next, citations, new Map([['a', 'ok']]), '2026-08-04');
+  assert('an existing record is advanced in place', nextDay.stamped === 2 && nextDay.next.guides.g.a === '2026-08-04');
 
-  const expanded = '{\n  "/g": {\n    "sources": [\n      {\n        "name": "N",\n        "url": "u1",\n        "lastChecked": "2026-01-01"\n      }\n    ]\n  }\n}\n';
-  const expandedOut = applyStampsToText(expanded, new Map([['u1', 'ok']]), '2026-08-03');
-  assert('expanded citation stays expanded', expandedOut.text.includes('        "lastChecked": "2026-01-01",\n        "linkCheckedAt": "2026-08-03"'));
-  assert('expanded output is valid JSON', (() => { try { JSON.parse(expandedOut.text); return true; } catch { return false; } })());
+  // Two guides citing one URL, checked on different days, must not back-date or
+  // forward-date each other — the reason the record is keyed by guide.
+  const perGuide = applySidecarStamps(
+    { guides: { g: { a: '2026-01-01' } } },
+    citations,
+    new Map([['a', 'ok']]),
+    '2026-08-05'
+  );
+  assert('each guide keeps its own record', perGuide.next.guides.g.a === '2026-08-05' && perGuide.next.guides.h.a === '2026-08-05');
 
-  // The property that keeps nightly runs quiet: nothing else in the file moves.
-  const untouched = applyStampsToText(expanded, new Map([['u1', 'blocked']]), '2026-08-03');
-  assert('blocked leaves the file byte-identical', untouched.text === expanded && untouched.stamped === 0);
+  const pruned = applySidecarStamps(
+    { guides: { g: { a: '2026-08-03', 'gone-url': '2026-08-03' }, 'deleted-guide': { a: '2026-08-03' } } },
+    citations,
+    new Map(),
+    '2026-08-04'
+  );
+  assert('a removed citation drops out of the sidecar', pruned.next.guides.g['gone-url'] === undefined);
+  assert('a removed guide drops out of the sidecar', pruned.next.guides['deleted-guide'] === undefined);
+  assert('surviving records are kept', pruned.next.guides.g.a === '2026-08-03');
 
-  const rerun = applyStampsToText(expandedOut.text, new Map([['u1', 'ok']]), '2026-08-03');
-  assert('text stamping is idempotent', rerun.text === expandedOut.text && rerun.stamped === 0);
+  // This script may not touch the editorial claim, nor the Markdown that holds
+  // it. The sidecar has no lastChecked key at all, which is the structural
+  // guarantee: there is nothing here for automation to overwrite.
+  assert(
+    'the sidecar carries no editorial field to overwrite',
+    !JSON.stringify(okRun.next).includes('lastChecked')
+  );
 
-  const nextDay = applyStampsToText(expandedOut.text, new Map([['u1', 'ok']]), '2026-08-04');
-  assert('existing stamp is updated in place', nextDay.text.includes('"linkCheckedAt": "2026-08-04"') && nextDay.stamped === 1);
-  assert('editorial lastChecked survives a re-stamp', nextDay.text.includes('"lastChecked": "2026-01-01"'));
+  // --- citations --------------------------------------------------------
+  const extracted = citationsFrom({
+    '/guides/one': { sources: [{ url: 'u1' }, { url: 'u2' }] },
+    '/guides/two': { sources: [{ url: 'u1' }] }
+  });
+  assert('citations are (slug, url) pairs', extracted.length === 3 && extracted[0].slug === 'one' && extracted[2].slug === 'two');
+  assert('a schema url is not a citation', citationsFrom({ '/guides/one': { schema: { url: 'u9' }, sources: [] } }).length === 0);
 
   // A report round-trips into the same verdicts, so the probe/stamp split in
   // the daily audit cannot change what gets stamped.
@@ -360,33 +369,27 @@ function selfTest() {
   assert('report restores ok verdicts', restored.get('a') === 'ok');
   assert('report restores blocked verdicts', restored.get('b') === 'blocked');
   assert('report restores failed verdicts', restored.get('c') === 'failed');
-  assert('only the ok url stamps from a report', applyStampsToText(
-    '{\n  "/g": {\n    "sources": [\n      { "url": "a" },\n      { "url": "b" },\n      { "url": "c" }\n    ]\n  }\n}\n',
-    restored,
-    '2026-08-03'
-  ).stamped === 1);
-
-  // Against the real file: the invariant that matters is that text surgery
-  // changes the document in exactly one respect and no other. Stamp every
-  // citation, then prove the parsed tree is identical once linkCheckedAt is
-  // removed from both sides — no reordering, no dropped key, no mangled prose.
-  const realRaw = fsSync.readFileSync(GUIDES_CONTENT_PATH, 'utf8');
-  const realUrls = [...realRaw.matchAll(/"url"\s*:\s*"([^"]+)"/g)].map((m) => m[1]);
-  const realOut = applyStampsToText(realRaw, new Map(realUrls.map((u) => [u, 'ok'])), '2999-01-01');
-  let realParsed = null;
-  try { realParsed = JSON.parse(realOut.text); } catch { /* reported below */ }
-  assert('real file stays valid JSON after stamping', realParsed !== null);
-
-  const withoutStamps = (value) =>
-    JSON.stringify(value, (key, inner) => (key === 'linkCheckedAt' ? undefined : inner));
   assert(
-    'stamping the real file changes nothing but linkCheckedAt',
-    realParsed !== null && withoutStamps(realParsed) === withoutStamps(JSON.parse(realRaw))
+    'only the ok url stamps from a report',
+    applySidecarStamps(empty, [{ slug: 'g', url: 'a' }, { slug: 'g', url: 'b' }, { slug: 'g', url: 'c' }], restored, '2026-08-03').stamped === 1
+  );
+
+  // Against the real corpus: every cited URL is reachable from the compiled
+  // guides, and stamping them all changes nothing outside `guides`.
+  const realGuides = JSON.parse(fsSync.readFileSync(GUIDES_CONTENT_PATH, 'utf8'));
+  const realCitations = citationsFrom(realGuides);
+  assert('the real corpus has citations to check', realCitations.length > 0);
+  const realSidecar = fsSync.existsSync(LINK_CHECKS_PATH)
+    ? JSON.parse(fsSync.readFileSync(LINK_CHECKS_PATH, 'utf8'))
+    : { guides: {} };
+  const realRun = applySidecarStamps(realSidecar, realCitations, new Map(realCitations.map((c) => [c.url, 'ok'])), '2999-01-01');
+  assert(
+    'stamping the real corpus records every citation',
+    realCitations.every((c) => realRun.next.guides[c.slug]?.[c.url] === '2999-01-01')
   );
   assert(
-    'every real citation received the stamp',
-    realParsed !== null &&
-      Object.values(realParsed).flatMap((g) => g.sources || []).every((s) => s.linkCheckedAt === '2999-01-01')
+    'stamping the real corpus touches nothing but `guides`',
+    JSON.stringify({ ...realRun.next, guides: null }) === JSON.stringify({ ...realSidecar, guides: null })
   );
 
   if (failures.length) {

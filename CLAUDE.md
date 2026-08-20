@@ -20,7 +20,7 @@ See [SAFE_PUBLISHING_RULES.md](SAFE_PUBLISHING_RULES.md) for the full non-negoti
 
 ## How the repository is organized
 
-`public/` static frontend; `functions/` Pages Functions (routing + APIs) — `[[path]].js` handles all HTML routes, `_route-metadata.js` owns fixed/guide metadata; `content/blog/` Markdown blog source; `data/` verified provider-identity registry; `scripts/` validation/automation tooling; `docs/` stable policy and runbooks. Full map, routing flow, and bindings: **`docs/ARCHITECTURE.md`**. Live schedule, secrets, incidents: **`docs/OPERATIONS.md`**. Non-secret flags (`SCHEMA_OFFERS_ENABLED`, etc.) are repo-managed in `wrangler.toml` `[vars]` — only credentials live in the Cloudflare dashboard.
+`public/` static frontend; `functions/` Pages Functions (routing + APIs) — `[[path]].js` handles all HTML routes, `_route-metadata.js` owns fixed/guide metadata; `content/blog/` and `content/guides/` Markdown content source; `data/` verified provider-identity registry; `scripts/` validation/automation tooling; `docs/` stable policy and runbooks. Full map, routing flow, and bindings: **`docs/ARCHITECTURE.md`**. Live schedule, secrets, incidents: **`docs/OPERATIONS.md`**. Non-secret flags (`SCHEMA_OFFERS_ENABLED`, etc.) are repo-managed in `wrangler.toml` `[vars]` — only credentials live in the Cloudflare dashboard.
 
 ## Validation
 
@@ -40,9 +40,11 @@ Do not modify without explicit task scope:
 - **`functions/api/out.js`** — verified outbound redirect logic; contains `VERIFIED_TICKET_LINKS`
 - **`functions/_middleware.js`** — entry point for all requests; a bug here breaks all HTML routes
 - **`functions/[[path]].js`** — all HTML routing; changes affect every public page
-- **`functions/_route-metadata.js`** — single source of truth for page metadata
+- **`functions/_route-metadata.js`** — trust/static route metadata and `OLD_GUIDE_REDIRECTS`; re-exports the generated `GUIDE_ROUTES`
 - **`public/data/events.json`, `artists.json`, `catalog.json`** — no records added, modified, or removed without a verified source
 - **`public/data/blog-content.json`** — generated. Edit `content/blog/*.md` and run `npm run blog:build`; never edit the JSON directly
+- **`public/data/guides-content.json` and `functions/_guide-routes.generated.js`** — generated. Edit `content/guides/*.md` and run `npm run guides:build`; never edit either directly
+- **`data/content-provenance.json`** — generated. Holds each page's copy fingerprint, its derived `lastmod`, and each guide's immutable first-publication date; run `npm run content:provenance`
 - **`public/_routes.json`** — incorrect changes cause site-wide failures
 - **Impact credentials and affiliate tracking logic** (including `functions/api/impact/`)
 - **Cloudflare dashboard settings** (routes, bindings, secrets)

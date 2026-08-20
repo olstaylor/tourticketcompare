@@ -1,0 +1,23 @@
+{
+  "note": "Display order for published guides: the sitemap, llms.txt, the /guides index and the homepage guide cards all read GUIDE_ROUTES in this sequence. Hand-authored and deliberately outside the CMS so saving a guide cannot reorder the homepage. A guide missing from this list is appended in slug order.",
+  "order": [
+    "how-to-compare-event-ticket-prices",
+    "how-to-compare-concert-ticket-prices",
+    "ticketmaster-vs-seatgeek-vs-vivid-seats",
+    "seatgeek-vs-ticketmaster",
+    "ticketnetwork-vs-ticketmaster",
+    "how-to-avoid-overpaying-for-concert-tickets",
+    "when-is-the-best-time-to-buy-concert-tickets",
+    "primary-vs-resale-concert-tickets",
+    "how-to-avoid-ticket-scams",
+    "why-ticket-prices-change",
+    "ticketmaster-vs-stubhub",
+    "seatgeek-promo-code-guide",
+    "concert-ticket-fees-explained",
+    "ticket-delivery-and-transfer-timing",
+    "how-resale-ticket-pricing-works",
+    "how-to-prepare-for-a-ticket-onsale",
+    "how-to-read-a-ticket-listing",
+    "what-to-do-if-a-concert-is-postponed-or-cancelled"
+  ]
+}

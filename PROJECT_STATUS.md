@@ -12,9 +12,9 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 - `public/data/catalog.json`: 40 artist records; 0 tour records; **66 ticket_links rows** (40 ticketmaster + 26 seatgeek artist pages; 52 `verified` + `public_enabled`, plus 14 unverified/hidden shell ticketmaster rows for the 14 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
 - `public/data/events.json`: **610 events** — 289 `human_verified`, 273 `machine_high_confidence`, 48 `needs_recheck`. Verified event-level provider provenance: SeatGeek 198 (250 rows carry a stored `seatgeek_url`), Vivid Seats 400, TicketNetwork 366, Ticket Liquidator 318, StubHub International 320. Of the 48 `needs_recheck` rows: 25 retain a standalone SeatGeek CTA, 26 retain a standalone Vivid Seats CTA, and 8 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
-- `public/data/guides-content.json`: **18 guide content entries** (topic guides; not per-artist).
+- `public/data/guides-content.json`: **18 guide content entries** (topic guides; not per-artist). Generated from `content/guides/*.md` — do not hand-edit.
 - `content/blog/*.md`: **3 published blog posts, 1 draft, 3 tags** (2 indexable, 1 below the two-post tag gate). Source of truth for the blog; `public/data/blog-content.json` is generated from it and must never be hand-edited. Recount with `npm run blog:build`.
-- `functions/_route-metadata.js`: **18 guide routes** plus trust/static route metadata.
+- `functions/_guide-routes.generated.js`: **18 guide routes** (published guides only), re-exported by `functions/_route-metadata.js`, which still owns the trust/static route metadata and `OLD_GUIDE_REDIRECTS`.
 - Route surface — **generated, do not hand-edit.** `npm run status:surface:write` refreshes this line from the audit's own render of every route (robots meta as served, not as inferred), and `npm run audit:indexable-surface:check` — which runs in `test:mvp` — warns when it goes stale. Exclusion reasons, expiry horizon and the stored baseline live in `reports/indexable-surface/`.
   <!-- generated:route-surface -->
   Generated 2026-08-20: **492 rendered / 224 indexable**. By type (rendered/indexable): home 1/1 · index 5/5 · static 7/7 · guide 18/18 · blog-post 3/3 · blog-tag 3/2 · artist 40/26 · city 81/34 · venue 105/45 · artist-city 229/83.
@@ -87,7 +87,7 @@ Full mechanism and contracts: `docs/ARCHITECTURE.md`. Deploy/config runbook: `do
 - `MusicEvent` `offers` JSON-LD is enabled site-wide (`SCHEMA_OFFERS_ENABLED=true`, no pilot-slug scoping) for the three numeric-price lanes only; never emits availability.
 - `MOCK_MODE=false`, `ALLOW_MOCK_PRICES=false`. `OUT_CLICK_ID_SUBID_ENABLED` is off (code default applies; affiliate URLs unchanged).
 - City, venue, and artist-city aggregation pages are live, gated by `docs/ROUTE_INDEXABILITY_POLICY.md`, and reflected in the route-surface figures above.
-- The blog (`/blog`), `/currency-converter`, and derived-content artist pages (`functions/_artist-content.js`) are live; the `/admin` browser editor is live on its own origin at `https://admin.tourticketcompare.com/admin` (GitHub sign-in; setup steps in `docs/BLOG.md`).
+- The blog (`/blog`), `/currency-converter`, and derived-content artist pages (`functions/_artist-content.js`) are live; the `/admin` browser editor is live on its own origin at `https://admin.tourticketcompare.com/admin` (GitHub sign-in; setup steps in `docs/BLOG.md`), and edits both blog posts and buying guides.
 - Not supported: live inventory/"cheapest" claims, tour or individual event landing pages, artist-level Vivid Seats CTAs, Ticketmaster affiliate tracking of any kind, `Event`/`MusicEvent` schema without verified event-level data, or conversion/revenue attribution (checkout happens off-site).
 
 ## How to update this file

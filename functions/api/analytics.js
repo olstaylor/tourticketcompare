@@ -14,7 +14,8 @@ import {
 const MAX_BODY_SIZE = 8 * 1024;
 // Client-observable funnel steps only.
 //
-// `outbound_click` is deliberately NOT accepted here. This endpoint is
+// `outbound_attempt`, `outbound_click` and `outbound_blocked` are deliberately
+// NOT accepted here. This endpoint is
 // unauthenticated, and the commercial report identifies an authoritative click
 // solely by `event_name = 'outbound_click'`, so accepting that name from a
 // browser would let anyone inflate every commercial click metric without ever

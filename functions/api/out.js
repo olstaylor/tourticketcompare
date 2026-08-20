@@ -7,6 +7,7 @@ import {
   classifyPageType,
   createClickId,
   isAffiliateProvider,
+  isAffiliateTrackingHost,
   isValidClickId,
   normalizeAnalyticsPath,
   normalizeCtaLocation
@@ -1135,8 +1136,17 @@ function basicAuthHeader(accountSid, authToken) {
   return `Basic ${encoded}`;
 }
 
-function validateImpactTrackingUrl(value) {
-  return safeUrl(value);
+function validateImpactTrackingUrl(value, provider = "") {
+  const parsed = safeUrl(value);
+  const providerConfig = PROVIDERS[providerKey(provider)];
+  const isReviewedTrackingHost = isAffiliateTrackingHost(parsed?.hostname);
+  const isReviewedProviderHost = Boolean(
+    parsed && providerConfig && hostnameAllowed(parsed.hostname, providerConfig.allowedDestinationHosts)
+  );
+  // Impact can return a branded provider-domain tracking URL. It is accepted
+  // only for the provider whose verified deep link was submitted.
+  if (!parsed || (!isReviewedTrackingHost && !isReviewedProviderHost)) return null;
+  return parsed;
 }
 
 function safeFieldNames(payload) {
@@ -1242,7 +1252,7 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
         endpointDiagnostics
       };
     }
-    const trackingUrl = validateImpactTrackingUrl(rawTrackingUrl);
+    const trackingUrl = validateImpactTrackingUrl(rawTrackingUrl, normalizedProvider);
     if (!trackingUrl) {
       return {
         ok: false,
@@ -1305,7 +1315,7 @@ async function hashRequestKey(request) {
 // what the commercial funnel counts. `provider_click` is the client's
 // statement of intent; `outbound_click` is the server's record that a redirect
 // was actually issued. See docs/COMMERCIAL_FUNNEL.md.
-async function trackClick({ request, env, link, sourcePath, destinationHost, ctaLocation, clickId, outcome = "redirected", status = null }) {
+async function trackClick({ request, env, link, sourcePath, destinationHost, ctaLocation, clickId, impactTracked = false, outcome = "redirected", status = null }) {
   const db = getDemandDb(env);
   if (!db) return;
   // Self-identifying crawlers follow every affiliate link on the page, which
@@ -1316,7 +1326,9 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
   const path = normalizeAnalyticsPath(sourcePath);
   const pageType = classifyPageType(path);
   const normalizedCtaLocation = normalizeCtaLocation(ctaLocation);
-  const destinationCategory = destinationHost ? classifyDestination(destinationHost) : "unknown";
+  const destinationCategory = destinationHost
+    ? (impactTracked ? "affiliate_network" : classifyDestination(destinationHost))
+    : "unknown";
   // Affiliate status is read from where the redirect actually went, not from the
   // provider's lane. The Impact API tracking path is not host-restricted, so a
   // response resolving to a direct provider URL would otherwise be counted in
@@ -1376,6 +1388,54 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
   });
 }
 
+// Server receipt for a legitimate request entering the outbound funnel. This
+// is distinct from `outbound_click`, which means a 3xx was actually issued.
+// The same opaque click ID joins this row to exactly one terminal outcome.
+async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocation, clickId }) {
+  const db = getDemandDb(env);
+  if (!db || isLikelyBot(request.headers.get("user-agent"))) return;
+  const path = normalizeAnalyticsPath(sourcePath);
+  const pageType = classifyPageType(path);
+  const userAgent = clean(request.headers.get("user-agent"), 255) || null;
+  await insertAnalyticsRow(db, {
+    created_at: new Date().toISOString(),
+    event_name: "outbound_attempt",
+    source_path: path,
+    artist_slug: link.artistSlug || null,
+    email: null,
+    request_key: await hashRequestKey(request),
+    referrer: null,
+    user_agent: userAgent,
+    metadata_json: JSON.stringify({
+      provider: link.provider,
+      showId: link.showId || null,
+      linkId: link.linkId || null,
+      pageType,
+      ctaLocation: normalizeCtaLocation(ctaLocation) || undefined,
+      outcome: "attempted"
+    }),
+    provider: link.provider || null,
+    tour_slug: null,
+    destination_host: null,
+    link_id: link.linkId || null,
+    page_type: pageType,
+    landing_path: null,
+    event_id: link.eventId || link.showId || null,
+    event_date: link.eventDate || null,
+    event_city: link.eventCity || null,
+    event_venue: link.eventVenue || null,
+    cta_location: normalizeCtaLocation(ctaLocation),
+    destination_category: "unknown",
+    is_affiliate: isAffiliateProvider(link.provider) ? 1 : 0,
+    device_category: classifyDeviceCategory(userAgent),
+    acquisition_source: null,
+    utm_source: null,
+    utm_medium: null,
+    utm_campaign: null,
+    click_id: clickId || null
+  });
+}
+
 // A CTA the visitor clicked that did not produce a redirect — an Impact
 // tracking failure, a provider switched off, or a destination that no longer
 // validates. Without this the funnel silently loses the click and the lane
@@ -1403,7 +1463,7 @@ const TRACKED_BLOCK_STATUSES = new Set([
   "impact_base_tracking_url_host_not_allowed"
 ]);
 
-async function trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status }) {
+async function trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId = null, status }) {
   if (!TRACKED_BLOCK_STATUSES.has(String(status || ""))) return;
   await trackClick({
     request,
@@ -1412,7 +1472,7 @@ async function trackBlockedClick({ request, env, link, sourcePath, ctaLocation, 
     sourcePath,
     destinationHost: null,
     ctaLocation,
-    clickId: null,
+    clickId,
     outcome: "blocked",
     status
   });
@@ -1478,6 +1538,15 @@ async function handleOut(request, env, mode) {
 
   const providerConfig = PROVIDERS[provider];
   if (!providerConfig) return json({ ok: false, status: "unknown_provider" }, 400);
+  if (!showId && !artistSlug) return json({ ok: false, status: "missing_artist_slug" }, 400);
+  await trackOutboundAttempt({
+    request,
+    env,
+    link: { provider, artistSlug: artistSlug || null, linkId: showId || null, showId: showId || null },
+    sourcePath,
+    ctaLocation,
+    clickId
+  });
   if (providerConfig.publicEnabledEnv && !impactMarketplacePublicEnabled(env, provider)) {
     await trackBlockedClick({
       request,
@@ -1485,6 +1554,7 @@ async function handleOut(request, env, mode) {
       link: { provider, artistSlug: artistSlug || null, linkId: null, showId: showId || null },
       sourcePath,
       ctaLocation,
+      clickId,
       status: "provider_not_configured"
     });
     return json({ ok: false, status: "provider_not_configured" }, 400);
@@ -1503,6 +1573,7 @@ async function handleOut(request, env, mode) {
         link: { provider, artistSlug: artistSlug || null, linkId: showId, showId },
         sourcePath,
         ctaLocation,
+        clickId,
         status: resolved.status
       });
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
@@ -1531,13 +1602,13 @@ async function handleOut(request, env, mode) {
       }
 
       if (!impactTrackingResult.ok) {
-        await trackBlockedClick({ request, env, link: resolved.link, sourcePath, ctaLocation, status: impactTrackingResult.status });
+        await trackBlockedClick({ request, env, link: resolved.link, sourcePath, ctaLocation, clickId, status: impactTrackingResult.status });
         return json(impactFailurePayload(provider, resolved, impactTrackingResult, providerImpactConfig), 400);
       }
 
       const outbound = safeUrl(impactTrackingResult.trackingUrl);
       if (!outbound) {
-        await trackBlockedClick({ request, env, link: resolved.link, sourcePath, ctaLocation, status: "impact_tracking_url_failed_safety_check" });
+        await trackBlockedClick({ request, env, link: resolved.link, sourcePath, ctaLocation, clickId, status: "impact_tracking_url_failed_safety_check" });
         return json(impactFailurePayload(provider, resolved, {
           ok: false,
           status: "impact_tracking_url_failed_safety_check",
@@ -1553,7 +1624,8 @@ async function handleOut(request, env, mode) {
         sourcePath,
         destinationHost: outbound.hostname.toLowerCase(),
         ctaLocation,
-        clickId
+        clickId,
+        impactTracked: true
       });
 
       if (mode === "redirect") {
@@ -1612,6 +1684,7 @@ async function handleOut(request, env, mode) {
       link: { provider, artistSlug, linkId: null, showId: null },
       sourcePath,
       ctaLocation,
+      clickId,
       status: "provider_not_configured"
     });
     return json({ ok: false, status: "provider_not_configured" }, 400);
@@ -1619,7 +1692,7 @@ async function handleOut(request, env, mode) {
 
   const redirect = validateConfiguredRedirect(providerConfig, link.redirectUrl);
   if (!redirect) {
-    await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status: "configured_redirect_rejected" });
+    await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: "configured_redirect_rejected" });
     return json({ ok: false, status: "configured_redirect_rejected" }, 400);
   }
 
@@ -1633,7 +1706,7 @@ async function handleOut(request, env, mode) {
     // performer-page constant, not an event URL.
     const providerImpactConfig = impactConfig(env, provider);
     if (!providerImpactConfig.configured && !hasBaseTrackingUrl(env, provider)) {
-      await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status: "provider_not_configured" });
+      await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: "provider_not_configured" });
       return json({ ok: false, status: "provider_not_configured" }, 400);
     }
     const validateArtistDestination = (value) => validateConfiguredRedirect(providerConfig, value);
@@ -1641,12 +1714,12 @@ async function handleOut(request, env, mode) {
       ? buildBaseTrackingRedirect(env, provider, redirect.toString(), validateArtistDestination, clickId)
       : await createImpactTrackingUrlResult(env, redirect.toString(), provider);
     if (!impactTrackingResult.ok) {
-      await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status: impactTrackingResult.status });
+      await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: impactTrackingResult.status });
       return json(impactFailurePayload(provider, { redirect }, impactTrackingResult, providerImpactConfig), 400);
     }
     outbound = safeUrl(impactTrackingResult.trackingUrl);
     if (!outbound) {
-      await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, status: "impact_tracking_url_failed_safety_check" });
+      await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: "impact_tracking_url_failed_safety_check" });
       return json(impactFailurePayload(provider, { redirect }, {
         ok: false,
         status: "impact_tracking_url_failed_safety_check",
@@ -1656,7 +1729,16 @@ async function handleOut(request, env, mode) {
     }
   }
 
-  await trackClick({ request, env, link, sourcePath, destinationHost: outbound.hostname.toLowerCase(), ctaLocation, clickId });
+  await trackClick({
+    request,
+    env,
+    link,
+    sourcePath,
+    destinationHost: outbound.hostname.toLowerCase(),
+    ctaLocation,
+    clickId,
+    impactTracked: IMPACT_WRAPPED_PROVIDERS.has(provider)
+  });
 
   if (mode === "redirect") {
     return redirectResponse(outbound.toString(), 302);

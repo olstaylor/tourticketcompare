@@ -156,15 +156,41 @@ export const DESTINATION_CATEGORIES = Object.freeze([
   "unknown"
 ]);
 
-const AFFILIATE_NETWORK_HOST_SUFFIXES = ["pxf.io", "evyy.net", "sjv.io", "impactradius.com"];
+// This is the reviewed set of Impact/tracking destinations used by the active
+// provider lanes. A host is not affiliate merely because it is unfamiliar: an
+// unknown host remains `unknown` until it is reviewed and added here.
+export const AFFILIATE_NETWORK_HOST_SUFFIXES = Object.freeze([
+  "pxf.io",
+  "evyy.net",
+  "sjv.io",
+  "impactradius.com",
+  "goto.ticketnetwork.com"
+]);
+
+export function isAffiliateTrackingHost(destinationHost) {
+  const host = String(destinationHost || "").trim().toLowerCase();
+  return AFFILIATE_NETWORK_HOST_SUFFIXES.some((suffix) => host === suffix || host.endsWith(`.${suffix}`));
+}
 
 export function classifyDestination(destinationHost) {
   const host = String(destinationHost || "").trim().toLowerCase();
   if (!host) return "unknown";
-  if (AFFILIATE_NETWORK_HOST_SUFFIXES.some((suffix) => host === suffix || host.endsWith(`.${suffix}`))) {
+  if (isAffiliateTrackingHost(host)) {
     return "affiliate_network";
   }
-  return "provider_direct";
+  // Only a reviewed provider host is a direct destination. This prevents an
+  // Impact response or configuration mistake from being reported as a safe,
+  // non-affiliate redirect.
+  const providerHosts = [
+    "ticketmaster.com", "ticketmaster.ca", "ticketmaster.co.uk", "ticketmaster.es", "ticketmaster.de",
+    "ticketmaster.nl", "ticketmaster.se", "ticketmaster.pl", "ticketmaster.be", "ticketmaster.it",
+    "seatgeek.com", "vividseats.com", "ticketnetwork.com", "ticketliquidator.com",
+    "stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it",
+    "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr",
+    "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"
+  ];
+  if (providerHosts.some((suffix) => host === suffix || host.endsWith(`.${suffix}`))) return "provider_direct";
+  return "unknown";
 }
 
 // ── CTA location ────────────────────────────────────────────────────────────

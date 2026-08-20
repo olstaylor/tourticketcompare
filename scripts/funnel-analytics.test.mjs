@@ -197,7 +197,15 @@ await test("affiliate status and destination category are derived, not guessed",
 
   assert.equal(classifyDestination("seatgeek.pxf.io"), "affiliate_network");
   assert.equal(classifyDestination("vivid-seats.pxf.io"), "affiliate_network");
+  assert.equal(classifyDestination("goto.ticketnetwork.com"), "affiliate_network");
   assert.equal(classifyDestination("www.ticketmaster.com"), "provider_direct");
+  for (const host of [
+    "seatgeek.com", "www.vividseats.com", "ticketnetwork.com", "ticketliquidator.com",
+    "stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it",
+    "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr",
+    "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"
+  ]) assert.equal(classifyDestination(host), "provider_direct", `${host} must be a reviewed direct provider host`);
+  assert.equal(classifyDestination("tracking.example"), "unknown");
   assert.equal(classifyDestination(""), "unknown");
 });
 
@@ -376,7 +384,7 @@ await test("the authoritative outbound event cannot be written from the public b
     request: outRequest(`showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`),
     env: { DEMAND_DB: outDb, ASSETS: fakeAssets() }
   });
-  assert.equal(outDb.rows[0].event_name, "outbound_click");
+  assert.equal(outDb.rows.find((row) => row.event_name === "outbound_click")?.event_name, "outbound_click");
 });
 
 await test("acquisition is recorded on the session entry and left unset after it", async () => {
@@ -422,8 +430,9 @@ await test("affiliate status follows the destination actually redirected to", as
       IMPACT_SEATGEEK_BASE_TRACKING_URL: "https://seatgeek.pxf.io/c/1234/5678/9012"
     }
   });
-  assert.equal(affiliateDb.rows[0].destination_category, "affiliate_network");
-  assert.equal(affiliateDb.rows[0].is_affiliate, 1);
+  const affiliateRow = affiliateDb.rows.find((row) => row.event_name === "outbound_click");
+  assert.equal(affiliateRow.destination_category, "affiliate_network");
+  assert.equal(affiliateRow.is_affiliate, 1);
 
   // Ticketmaster is an affiliate-programme non-member: a direct provider hop.
   const directDb = fakeDb();
@@ -431,8 +440,9 @@ await test("affiliate status follows the destination actually redirected to", as
     request: outRequest(`showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`),
     env: { DEMAND_DB: directDb, ASSETS: fakeAssets() }
   });
-  assert.equal(directDb.rows[0].destination_category, "provider_direct");
-  assert.equal(directDb.rows[0].is_affiliate, 0);
+  const directRow = directDb.rows.find((row) => row.event_name === "outbound_click");
+  assert.equal(directRow.destination_category, "provider_direct");
+  assert.equal(directRow.is_affiliate, 0);
 
   // A blocked click never reached a destination, so it falls back to the lane
   // the visitor was trying to use rather than being counted as unmonetized.
@@ -441,9 +451,10 @@ await test("affiliate status follows the destination actually redirected to", as
     request: outRequest(`showId=${SAMPLE_EVENT.id}&provider=seatgeek&sourcePath=/artists/test-artist`),
     env: { DEMAND_DB: blockedDb, ASSETS: fakeAssets() }
   });
-  assert.equal(blockedDb.rows[0].event_name, "outbound_blocked");
-  assert.equal(blockedDb.rows[0].destination_category, "unknown");
-  assert.equal(blockedDb.rows[0].is_affiliate, 1);
+  const blockedRow = blockedDb.rows.find((row) => row.event_name === "outbound_blocked");
+  assert.equal(blockedRow.destination_category, "unknown");
+  assert.equal(blockedRow.is_affiliate, 1);
+  assert.equal(blockedDb.rows.find((row) => row.event_name === "outbound_attempt")?.click_id, blockedRow.click_id);
 });
 
 await test("/api/analytics never stores an email, even when one is posted", async () => {
@@ -511,7 +522,7 @@ await test("one interaction produces exactly one outbound row", async () => {
   const db = fakeDb();
   const env = { DEMAND_DB: db, ASSETS: fakeAssets() };
   await outGet({ request: outRequest(`showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`), env });
-  assert.equal(db.rows.length, 1, "a single redirect writes a single row");
+  assert.equal(db.rows.filter((row) => row.click_id && row.click_id === db.rows[0].click_id).length, 2, "one click id has an attempt and one terminal row");
   assert.equal(db.rows.filter((row) => row.event_name === "outbound_click").length, 1);
 });
 
@@ -527,7 +538,7 @@ await test("outbound_click records the funnel dimensions from the reviewed event
   assert.equal(response.status, 302);
   assert.equal(response.headers.get("Location"), SAMPLE_EVENT.ticketmaster_url);
 
-  const row = db.rows[0];
+  const row = db.rows.find((candidate) => candidate.event_name === "outbound_click");
   assert.equal(row.event_name, "outbound_click");
   assert.equal(row.source_path, "/cities/berlin-germany");
   assert.equal(row.page_type, "city", "page type is derived server-side from the clicked page");
@@ -557,7 +568,7 @@ await test("event facts and dimensions cannot be spoofed through the query strin
     ),
     env
   });
-  const row = db.rows[0];
+  const row = db.rows.find((candidate) => candidate.event_name === "outbound_click");
   assert.equal(row.source_path, "/phish", "an absolute foreign URL is reduced to a path");
   assert.equal(row.cta_location, null, "an unknown CTA location is discarded, not stored");
   assert.equal(row.event_city, "Berlin", "city comes from the event record regardless of the query");
@@ -585,8 +596,8 @@ await test("a blocked redirect is recorded instead of vanishing from the funnel"
     env: { DEMAND_DB: db, ASSETS: fakeAssets() }
   });
   assert.equal(response.status, 400, "an Impact failure must never produce an untracked redirect");
-  assert.equal(db.rows.length, 1);
-  const row = db.rows[0];
+  assert.equal(db.rows.length, 2);
+  const row = db.rows.find((candidate) => candidate.event_name === "outbound_blocked");
   assert.equal(row.event_name, "outbound_blocked", "blocked clicks use a distinct name so outbound_click stays comparable");
   assert.equal(row.provider, "seatgeek");
   assert.equal(row.artist_slug, "test-artist");
@@ -641,8 +652,9 @@ await test("the affiliate URL is unchanged unless the SubId flag is explicitly o
   const plainLocation = new URL(withoutSubId.headers.get("Location"));
   assert.deepEqual([...plainLocation.searchParams.keys()], ["u"], "by default only the destination parameter is added");
   assert.equal(plainLocation.searchParams.get("u"), SAMPLE_EVENT.seatgeek_url);
-  assert.equal(defaultDb.rows[0].destination_category, "affiliate_network");
-  assert.equal(defaultDb.rows[0].is_affiliate, 1);
+  const defaultRow = defaultDb.rows.find((row) => row.event_name === "outbound_click");
+  assert.equal(defaultRow.destination_category, "affiliate_network");
+  assert.equal(defaultRow.is_affiliate, 1);
 
   assert.equal(outboundClickIdParam({}), "", "the SubId passthrough is off by default");
   assert.equal(outboundClickIdParam({ OUT_CLICK_ID_SUBID_ENABLED: "true" }), "subId1");
@@ -656,7 +668,7 @@ await test("the affiliate URL is unchanged unless the SubId flag is explicitly o
   });
   const trackedLocation = new URL(withSubId.headers.get("Location"));
   assert.equal(trackedLocation.searchParams.get("u"), SAMPLE_EVENT.seatgeek_url, "the destination is untouched by the SubId");
-  assert.equal(trackedLocation.searchParams.get("subId1"), enabledDb.rows[0].click_id, "the SubId is the click id recorded on our own row");
+  assert.equal(trackedLocation.searchParams.get("subId1"), enabledDb.rows.find((row) => row.event_name === "outbound_click").click_id, "the SubId is the click id recorded on our own row");
 });
 
 // ── 5. Schema tolerance and backwards compatibility ─────────────────────────
@@ -829,8 +841,8 @@ await test("GA4 mirrors funnel events without high-cardinality or personal param
     "page_view must not be mirrored — the gtag config snippet already emits it"
   );
   assert.ok(
-    !/GA4_MIRRORED_EVENTS = \[[^\]]*"outbound_click"/.test(appJs),
-    "the authoritative outbound event is server-side and cannot be mirrored from the client"
+    /const ga4EventName = eventName === "provider_click" \? "outbound_click"/.test(appJs),
+    "the legacy provider intent must have one canonical GA4 outbound_click name"
   );
 });
 
@@ -890,6 +902,10 @@ await test("every funnel report query is read-only and free of personal columns"
   for (const statement of clickQueries) {
     assert.match(statement.sql, /'outbound_click'/, `${statement.key} must count the authoritative outbound event`);
   }
+  const reconciliation = statements.find((statement) => statement.key === "reconciliationByProvider");
+  assert.ok(reconciliation, "the report must expose provider reconciliation output");
+  assert.match(reconciliation.sql, /legitimate_attempts/);
+  assert.match(reconciliation.sql, /impact_reconcilable_click_ids/);
 });
 
 // ── Result ──────────────────────────────────────────────────────────────────

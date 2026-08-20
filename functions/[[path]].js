@@ -1579,7 +1579,7 @@ function artistBoardModel(route, events, env) {
     return {
       ...show,
       ctaProviderCount: specs.length,
-      hasPriceSnapshot: specs.some((spec) => spec.priceAmount && spec.priceAsOf)
+      hasPriceSnapshot: hasApprovedServerPriceSnapshot(show)
     };
   });
   // Keep the zero-upcoming state concise. Past dates and their verification
@@ -2154,12 +2154,16 @@ function renderHomepageGuideLinks() {
 function publishableFutureShows(events, limit = 500) {
   return (events || [])
     .map((ev) => ({
+      ...ev,
       id: String(ev.id || "").trim(),
       artist_slug: slugify(ev.artist_slug),
       artist_name: String(ev.artist_name || "").trim(),
       event_name: String(ev.event_name || ev.name || "").trim(),
       city: String(ev.city || "").trim(),
+      country: String(ev.country || "").trim(),
       venue: String(ev.venue || "").trim(),
+      tour_name: String(ev.tour_name || "").trim(),
+      timezone: String(ev.timezone || "").trim(),
       dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
       ticketmaster_url: String(ev.ticketmaster_url || "").trim(),
       seatgeek_url: String(ev.seatgeek_url || "").trim(),
@@ -2208,14 +2212,29 @@ function renderComparisonHubCityLinks(events = []) {
     .join("")}</div>`;
 }
 
-function renderComparisonHubEventCards(events = []) {
+function renderComparisonHubEventCards(events = [], env = {}) {
   const shows = publishableFutureShows(events, 6);
   if (!shows.length) return "";
-  return `<section id="current-events" class="nested-panel"><h2>Prices on upcoming shows</h2><p>For each show below, we load whatever current prices we have from the ticket sites. Where two or more sites quote the same show in the same currency, we'll point out the lower one — but that's a listed price, not your final total. Fees, tax, delivery, and availability are settled at the provider's checkout.</p><div class="card-grid show-card-grid">${shows
+  const seatGeekAvailable = isSeatGeekConfigured(env);
+  const vividSeatsAvailable = isVividSeatsConfigured(env);
+  const marketplaceAvailability = Object.fromEntries(
+    IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
+  );
+  return `<section id="current-events" class="nested-panel"><h2>Prices on upcoming shows</h2><p>For each show below, we display approved current listed-price snapshots where available. Where a snapshot appears, that's a listed price, not your final total: fees, tax, delivery, seat details, and availability are settled at the provider's checkout.</p><div class="card-grid show-card-grid">${shows
     .map((show) => {
       const date = formatShowDateServer(show.dateTimeISO, show.timezone);
       const title = show.event_name || [show.artist_name, show.city].filter(Boolean).join(" – ") || "Upcoming concert";
-      return `<article class="info-card"><h3>${escapeHtml(title)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(showLocationServer(show) || "Venue details shown when verified.")}</p><p class="disclosure-note">Open the artist page for checked event-level provider links and any eligible price snapshots.</p>${anchor("View artist ticket options", `/artists/${show.artist_slug}`, "text-link")}</article>`;
+      const ctaSpecs = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability });
+      const buttons = ctaSpecs.map((spec) => renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
+        provider: spec.provider,
+        artistSlug: show.artist_slug,
+        showId: show.id,
+        ctaLocation: "comparison_hub"
+      })).join("");
+      const ctas = ctaSpecs.length
+        ? `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length))}</p><div class="provider-cta-group">${buttons}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`
+        : `<p class="disclosure-note">No checked provider link is currently available for this date.</p>`;
+      return `<article class="info-card show-card" data-event-id="${escapeAttr(show.id)}"><h3>${escapeHtml(title)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(showLocationServer(show) || "Venue details shown when verified.")}</p>${ctas}${anchor("View artist page", `/artists/${show.artist_slug}`, "text-link")}</article>`;
     })
     .join("")}</div></section>`;
 }
@@ -3070,6 +3089,18 @@ function approvedServerPriceLane(show, provider) {
   return { price, currency, fetchedAt, expiresAt };
 }
 
+// Price-history eligibility is broader than the subset of lanes whose value is
+// printed on a CTA. SeatGeek snapshots, for example, are permitted to power the
+// on-site history panel even though the SeatGeek button remains price-free.
+// Keep this aligned with hasApprovedMarketplacePrice in public/app.js.
+function hasApprovedServerPriceSnapshot(show) {
+  return Boolean(
+    approvedServerPriceLane(show, "SeatGeek") ||
+    approvedServerPriceLane(show, "Vivid Seats") ||
+    IMPACT_MARKETPLACE_PROVIDERS.some((provider) => approvedServerPriceLane(show, provider.name))
+  );
+}
+
 function formatServerPrice(value, currency) {
   try {
     return new Intl.NumberFormat("en", {
@@ -3236,6 +3267,22 @@ function ctaCountLabel(count) {
   return "";
 }
 
+function renderPriceHistoryPanelHtml(artistSlug, showId) {
+  const safeArtist = escapeAttr(String(artistSlug || "").trim());
+  const safeShowId = escapeAttr(String(showId || "").trim());
+  if (!safeArtist || !safeShowId) return "";
+  const panelId = `price-history-panel-${slugify(showId)}`;
+  return `<div class="price-history" data-price-history="${safeShowId}" data-price-history-artist="${safeArtist}"><button type="button" class="price-history-toggle" data-price-history-toggle aria-expanded="false" aria-controls="${escapeAttr(
+    panelId
+  )}">Show price snapshot history</button><div class="price-history-panel" id="${escapeAttr(
+    panelId
+  )}" data-price-history-panel hidden><form class="price-alert-interest" method="post" action="/api/signup" data-price-alert-interest="${safeArtist}" data-event-id="${safeShowId}"><p class="muted">Want an email if this price drops? We don't send price emails yet — leave an address to register interest and help us decide whether to build alerts.</p><div class="price-alert-interest-row"><label class="sr-only" for="price-alert-email-${escapeAttr(
+    slugify(showId)
+  )}">Email address</label><input type="email" id="price-alert-email-${escapeAttr(
+    slugify(showId)
+  )}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-secondary" type="submit">Register interest</button></div><p class="disclosure-note" data-alert-interest-status aria-live="polite"></p></form></div></div>`;
+}
+
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
   const location = showLocationServer(show);
@@ -3257,7 +3304,10 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       // The buttons are the only outbound links on the card — there is no
       // second "compare" link to double-count a click through.
       const countHtml = `<p class="provider-cta-count muted">${escapeHtml(ctaCountLabel(ctaSpecs.length))}</p>`;
-      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}`;
+      const historyHtml = hasApprovedServerPriceSnapshot(show)
+        ? renderPriceHistoryPanelHtml(artistSlug, show.id)
+        : "";
+      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show))}${historyHtml}`;
     }
   }
 
@@ -3531,12 +3581,13 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Currency converter",
       "/currency-converter",
       "button button-secondary"
-    )}</div></section><section id="current-events" class="nested-panel"><h2>Browse concerts and tours</h2><p>Artist and tour pages are where the checked links and per-show guidance live.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse cities", "/cities", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
+    )}</div></section><section id="browse-catalog" class="nested-panel"><h2>Browse concerts and tours</h2><p>Artist and tour pages are where the checked links and per-show guidance live.</p><div class="mini-link-grid">${anchor("All artists", "/artists", "mini-link")}${anchor("Browse cities", "/cities", "mini-link")}${anchor("Browse venues", "/venues", "mini-link")}${anchor("Buying guides", "/guides", "mini-link")}${(catalog.tours || [])
       .filter((tour) => tour && tour.verified === true && tour.artist_slug && tour.slug)
       .slice(0, 6)
       .map((tour) => anchor(tour.tour_name || "Tour ticket options", `/artists/${tour.artist_slug}/${tour.slug}`, "mini-link"))
       .join("")}</div></section>${renderComparisonHubEventCards(
-      events
+      events,
+      env
     )}<section class="nested-panel faq-panel"><h2>FAQ</h2>${faqHtml}</section></section></main>`;
   }
 
@@ -4069,21 +4120,21 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20260820a" defer></script>',
-    '<script src="/shell.js?v=20260820a" defer></script>'
+    '<script src="/app.js?v=20260820b" defer></script>',
+    '<script src="/shell.js?v=20260820b" defer></script>'
   );
   if (route.type === "artist" || route.type === "artist-city") {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20260820a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20260820b" defer></script></body>');
   }
   if (route.path === "/currency-converter") {
-    next = next.replace("</body>", '<script src="/currency-converter.js?v=20260820a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/currency-converter.js?v=20260820b" defer></script></body>');
   }
   if (route.path === "/") {
     // The final homepage DOM is server-rendered. The small route module only
     // enhances the existing search form; it never clears or rebuilds #ttc-main.
     next = next.replace('<div id="ttc-main">', '<div id="ttc-main" class="ttc ttc-home">');
-    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260820a" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260820a" defer></script></body>');
+    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260820b" /></head>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260820b" defer></script></body>');
   }
   return next;
 }
@@ -4349,7 +4400,7 @@ export async function onRequest(context) {
   const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
   let renderEvents = events;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "venue") && events.length) {
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "venue" || route.type === "comparison-hub") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -4366,11 +4417,13 @@ export async function onRequest(context) {
       const cityShowIds = artistCityShowIdSet(route.artistCity || {});
       priceCandidates = futureShowsForArtist(events, route.artist.slug)
         .filter((show) => cityShowIds.has(String(show.id || "")));
-    } else {
+    } else if (route.type === "venue") {
       priceCandidates = events
         .filter((event) => route.venue?.shows?.some((show) => String(show?.id || "") === String(event?.id || "")))
         .map((event) => futureShowsForArtist([event], event.artist_slug, 1)[0])
         .filter(Boolean);
+    } else {
+      priceCandidates = publishableFutureShows(events, 6);
     }
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));

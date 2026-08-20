@@ -1,6 +1,8 @@
 /* Homepage-only progressive enhancement. The server-rendered #ttc-main is the
    final visual DOM: this module never clears or replaces it and makes no
-   catalogue request. Search is built from links already present in the HTML. */
+   catalogue request. Search starts with links already present in the HTML and
+   loads the purpose-built lightweight event index only after LCP/idle or when
+   a visitor searches. */
 (function () {
   "use strict";
 
@@ -39,16 +41,17 @@
     href: HOME_PRIMARY_CTA_HREF,
     steps: HOME_STEPS
   });
-  var index = null;
+  var linkIndex = null;
+  var eventIndexPromise = null;
 
   function fold(value) {
     return String(value || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
 
-  function buildIndex() {
-    if (index) return index;
+  function buildLinkIndex() {
+    if (linkIndex) return linkIndex;
     var seen = new Set();
-    index = Array.from(document.querySelectorAll("#ttc-main a[href]"))
+    linkIndex = Array.from(document.querySelectorAll("#ttc-main a[href]"))
       .map(function (link) {
         var href = String(link.getAttribute("href") || "");
         var label = String(link.textContent || "").trim();
@@ -59,20 +62,65 @@
         return { href: href, label: label, search: fold(label + " " + href.replace(/[\/-]+/g, " ")) };
       })
       .filter(Boolean);
-    return index;
+    return linkIndex;
   }
 
-  function renderResults(query) {
+  function eventDate(record) {
+    var iso = String(record.datetime_iso || record.dateTimeISO || "");
+    var value = Date.parse(iso);
+    if (!Number.isFinite(value)) return "";
+    try {
+      return new Intl.DateTimeFormat("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+        timeZone: String(record.timezone || "UTC")
+      }).format(new Date(value));
+    } catch (error) { return ""; }
+  }
+
+  function loadEventIndex() {
+    if (eventIndexPromise) return eventIndexPromise;
+    eventIndexPromise = fetch("/data/events-index.json", { cache: "force-cache" })
+      .then(function (response) { return response.ok ? response.json() : []; })
+      .then(function (records) {
+        var now = Date.now();
+        return (Array.isArray(records) ? records : []).map(function (record) {
+          var slug = String(record.artist_slug || "").trim();
+          var id = String(record.id || "").trim();
+          var dateValue = Date.parse(String(record.datetime_iso || record.dateTimeISO || ""));
+          if (!slug || !id || !Number.isFinite(dateValue) || dateValue < now || record.status === "cancelled") return null;
+          var artist = String(record.artist_name || slug.replace(/-/g, " ")).trim();
+          var place = [record.city, record.venue].map(function (value) { return String(value || "").trim(); }).filter(Boolean).join(" · ");
+          var label = [artist, place, eventDate(record)].filter(Boolean).join(" — ");
+          var search = [artist, record.event_name, record.tour_name, record.city, record.country, record.venue, eventDate(record)].join(" ");
+          return { href: "/artists/" + encodeURIComponent(slug) + "#show-" + encodeURIComponent(id), label: label, search: fold(search) };
+        }).filter(Boolean);
+      })
+      .catch(function () { return []; });
+    return eventIndexPromise;
+  }
+
+  function buildIndex() {
+    return loadEventIndex().then(function (events) { return buildLinkIndex().concat(events); });
+  }
+
+  async function renderResults(query) {
     var container = document.querySelector("#search-widget .search-results");
     if (!container) return;
     var term = fold(query.trim());
-    var matches = term ? buildIndex().filter(function (entry) { return entry.search.includes(term); }).slice(0, 12) : [];
     container.replaceChildren();
     if (!term) return;
+    var loading = document.createElement("p");
+    loading.className = "muted";
+    loading.textContent = "Searching checked artists, shows, and guides…";
+    container.appendChild(loading);
+    var matches = (await buildIndex()).filter(function (entry) { return entry.search.includes(term); }).slice(0, 12);
+    container.replaceChildren();
     if (!matches.length) {
       var empty = document.createElement("p");
       empty.className = "muted";
-      empty.textContent = "No checked artist or guide matches that search. Browse all artists instead.";
+      empty.textContent = "No checked artist, show, or guide matches that search. Browse all artists instead.";
       container.appendChild(empty);
       return;
     }
@@ -105,7 +153,7 @@
       input.value = query;
       renderResults(query);
     }
-    var prepare = function () { buildIndex(); };
+    var prepare = function () { buildLinkIndex(); loadEventIndex(); };
     if ("requestIdleCallback" in window) window.requestIdleCallback(prepare, { timeout: 2000 });
     else window.setTimeout(prepare, 1200);
     // Keeps the parity contract live without rewriting server-rendered copy.

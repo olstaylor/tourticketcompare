@@ -144,14 +144,10 @@ collections:
         max: 2
         options:
           - { label: Ticketmaster, value: ticketmaster }
-          - { label: SeatGeek, value: seatgeek }
           - { label: Vivid Seats, value: vivid-seats }
-          - { label: TicketNetwork, value: ticketnetwork }
-          - { label: Ticket Liquidator, value: ticket-liquidator }
-          - { label: StubHub International, value: stubhub-international }
         hint: >-
-          Optional exact-event opportunity module. Select exactly two different
-          allowlisted providers; the guide build validates the pair again.
+          Optional exact-event opportunity module. The current renderer supports
+          the Ticketmaster + Vivid Seats pair; the guide build validates it again.
 
       - name: sources
         label: Sources

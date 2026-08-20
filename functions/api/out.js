@@ -681,16 +681,16 @@ function eventFacts(event) {
 
 async function resolveShowLink(env, showId, provider) {
   const events = await loadEventsFromAssets(env);
-  if (!events) return { ok: false, status: "event_data_unavailable", httpStatus: 503 };
+  if (!events) return { ok: false, legitimate: false, status: "event_data_unavailable", httpStatus: 503 };
 
   const event = events.find((candidate) => clean(candidate?.id, 255) === showId);
-  if (!event) return { ok: false, status: "show_not_found" };
-  if (!providerEventPublishable(event, provider)) return { ok: false, status: "event_link_not_publishable" };
+  if (!event) return { ok: false, legitimate: false, status: "show_not_found" };
+  if (!providerEventPublishable(event, provider)) return { ok: false, legitimate: true, status: "event_link_not_publishable" };
 
   if (provider === "ticketmaster") {
     const providerConfig = PROVIDERS.ticketmaster;
     const redirect = validateTicketmasterEventUrl(event, providerConfig);
-    if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
+    if (!redirect) return { ok: false, legitimate: true, status: "event_ticket_url_unavailable" };
 
     return {
       ok: true,
@@ -711,7 +711,7 @@ async function resolveShowLink(env, showId, provider) {
     const providerConfig = PROVIDERS.seatgeek;
     const seatGeekUrl = clean(event?.seatgeek_url, 2048);
     const redirect = validateSeatGeekEventUrl(seatGeekUrl, providerConfig);
-    if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
+    if (!redirect) return { ok: false, legitimate: true, status: "event_ticket_url_unavailable" };
 
     return {
       ok: true,
@@ -732,7 +732,7 @@ async function resolveShowLink(env, showId, provider) {
     const providerConfig = PROVIDERS["vivid-seats"];
     const vividSeatsUrl = clean(event?.vividseats_url, 2048);
     const redirect = validateVividSeatsEventUrl(vividSeatsUrl, providerConfig);
-    if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
+    if (!redirect) return { ok: false, legitimate: true, status: "event_ticket_url_unavailable" };
 
     return {
       ok: true,
@@ -753,7 +753,7 @@ async function resolveShowLink(env, showId, provider) {
   if (impactMarketplaceConfig?.urlField) {
     const storedUrl = clean(event?.[impactMarketplaceConfig.urlField], 2048);
     const redirect = validateImpactMarketplaceEventUrl(storedUrl, impactMarketplaceConfig);
-    if (!redirect) return { ok: false, status: "event_ticket_url_unavailable" };
+    if (!redirect) return { ok: false, legitimate: true, status: "event_ticket_url_unavailable" };
     return {
       ok: true,
       link: {
@@ -769,7 +769,7 @@ async function resolveShowLink(env, showId, provider) {
     };
   }
 
-  return { ok: false, status: "provider_not_configured" };
+  return { ok: false, legitimate: true, status: "provider_not_configured" };
 }
 
 
@@ -863,8 +863,9 @@ function buildBaseTrackingRedirect(env, provider, destination, validateDestinati
   const outbound = new URL(base.url.toString());
   outbound.searchParams.set("u", destinationUrl.toString());
   const clickIdParam = outboundClickIdParam(env);
-  if (clickIdParam && isValidClickId(clickId)) outbound.searchParams.set(clickIdParam, clickId);
-  return { ok: true, trackingUrl: outbound.toString() };
+  const reconciliationIdPropagated = Boolean(clickIdParam && isValidClickId(clickId));
+  if (reconciliationIdPropagated) outbound.searchParams.set(clickIdParam, clickId);
+  return { ok: true, trackingUrl: outbound.toString(), reconciliationIdPropagated };
 }
 
 function impactConfig(env = {}, provider = "ticketmaster") {
@@ -1268,6 +1269,7 @@ async function createImpactTrackingUrlResult(env, deepLink, provider = "ticketma
     return {
       ok: true,
       trackingUrl: trackingUrl.toString(),
+      reconciliationIdPropagated: false,
       endpointDiagnostics,
       impactStatusCode: response.status
     };
@@ -1315,7 +1317,7 @@ async function hashRequestKey(request) {
 // what the commercial funnel counts. `provider_click` is the client's
 // statement of intent; `outbound_click` is the server's record that a redirect
 // was actually issued. See docs/COMMERCIAL_FUNNEL.md.
-async function trackClick({ request, env, link, sourcePath, destinationHost, ctaLocation, clickId, impactTracked = false, outcome = "redirected", status = null }) {
+async function trackClick({ request, env, link, sourcePath, destinationHost, ctaLocation, clickId, impactTracked = false, impactReconciliationEligible = false, outcome = "redirected", status = null }) {
   const db = getDemandDb(env);
   if (!db) return;
   // Self-identifying crawlers follow every affiliate link on the page, which
@@ -1384,7 +1386,8 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     utm_source: null,
     utm_medium: null,
     utm_campaign: null,
-    click_id: clickId || null
+    click_id: clickId || null,
+    impact_reconciliation_eligible: impactReconciliationEligible ? 1 : 0
   });
 }
 
@@ -1432,7 +1435,8 @@ async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocatio
     utm_source: null,
     utm_medium: null,
     utm_campaign: null,
-    click_id: clickId || null
+    click_id: clickId || null,
+    impact_reconciliation_eligible: 0
   });
 }
 
@@ -1539,26 +1543,6 @@ async function handleOut(request, env, mode) {
   const providerConfig = PROVIDERS[provider];
   if (!providerConfig) return json({ ok: false, status: "unknown_provider" }, 400);
   if (!showId && !artistSlug) return json({ ok: false, status: "missing_artist_slug" }, 400);
-  await trackOutboundAttempt({
-    request,
-    env,
-    link: { provider, artistSlug: artistSlug || null, linkId: showId || null, showId: showId || null },
-    sourcePath,
-    ctaLocation,
-    clickId
-  });
-  if (providerConfig.publicEnabledEnv && !impactMarketplacePublicEnabled(env, provider)) {
-    await trackBlockedClick({
-      request,
-      env,
-      link: { provider, artistSlug: artistSlug || null, linkId: null, showId: showId || null },
-      sourcePath,
-      ctaLocation,
-      clickId,
-      status: "provider_not_configured"
-    });
-    return json({ ok: false, status: "provider_not_configured" }, 400);
-  }
 
   if (showId) {
     // showId mode is intentionally controlled: resolve the stored event URL
@@ -1567,16 +1551,26 @@ async function handleOut(request, env, mode) {
     // user deep links or provider discovery/search fallbacks for an event click.
     const resolved = await resolveShowLink(env, showId, provider);
     if (!resolved.ok) {
+      if (resolved.legitimate) {
+        const link = { provider, artistSlug: artistSlug || null, linkId: showId, showId };
+        await trackOutboundAttempt({ request, env, link, sourcePath, ctaLocation, clickId });
+        await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: resolved.status });
+      }
+      return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
+    }
+
+    await trackOutboundAttempt({ request, env, link: resolved.link, sourcePath, ctaLocation, clickId });
+    if (providerConfig.publicEnabledEnv && !impactMarketplacePublicEnabled(env, provider)) {
       await trackBlockedClick({
         request,
         env,
-        link: { provider, artistSlug: artistSlug || null, linkId: showId, showId },
+        link: resolved.link,
         sourcePath,
         ctaLocation,
         clickId,
-        status: resolved.status
+        status: "provider_not_configured"
       });
-      return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
+      return json({ ok: false, status: "provider_not_configured" }, 400);
     }
 
     if (IMPACT_WRAPPED_PROVIDERS.has(provider)) {
@@ -1625,7 +1619,8 @@ async function handleOut(request, env, mode) {
         destinationHost: outbound.hostname.toLowerCase(),
         ctaLocation,
         clickId,
-        impactTracked: true
+        impactTracked: true,
+        impactReconciliationEligible: impactTrackingResult.reconciliationIdPropagated === true
       });
 
       if (mode === "redirect") {
@@ -1678,25 +1673,22 @@ async function handleOut(request, env, mode) {
 
   const link = VERIFIED_TICKET_LINKS[`${artistSlug}:${provider}`];
   if (!link || !link.verified) {
-    await trackBlockedClick({
-      request,
-      env,
-      link: { provider, artistSlug, linkId: null, showId: null },
-      sourcePath,
-      ctaLocation,
-      clickId,
-      status: "provider_not_configured"
-    });
     return json({ ok: false, status: "provider_not_configured" }, 400);
   }
 
   const redirect = validateConfiguredRedirect(providerConfig, link.redirectUrl);
   if (!redirect) {
-    await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: "configured_redirect_rejected" });
     return json({ ok: false, status: "configured_redirect_rejected" }, 400);
   }
 
+  await trackOutboundAttempt({ request, env, link, sourcePath, ctaLocation, clickId });
+  if (providerConfig.publicEnabledEnv && !impactMarketplacePublicEnabled(env, provider)) {
+    await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: "provider_not_configured" });
+    return json({ ok: false, status: "provider_not_configured" }, 400);
+  }
+
   let outbound = redirect;
+  let impactReconciliationEligible = false;
   if (IMPACT_WRAPPED_PROVIDERS.has(provider)) {
     // Artist-level SeatGeek / Vivid Seats clicks are Impact-wrapped exactly
     // like the event path; failures return diagnostic JSON, never an
@@ -1717,6 +1709,7 @@ async function handleOut(request, env, mode) {
       await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: impactTrackingResult.status });
       return json(impactFailurePayload(provider, { redirect }, impactTrackingResult, providerImpactConfig), 400);
     }
+    impactReconciliationEligible = impactTrackingResult.reconciliationIdPropagated === true;
     outbound = safeUrl(impactTrackingResult.trackingUrl);
     if (!outbound) {
       await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: "impact_tracking_url_failed_safety_check" });
@@ -1737,7 +1730,8 @@ async function handleOut(request, env, mode) {
     destinationHost: outbound.hostname.toLowerCase(),
     ctaLocation,
     clickId,
-    impactTracked: IMPACT_WRAPPED_PROVIDERS.has(provider)
+    impactTracked: IMPACT_WRAPPED_PROVIDERS.has(provider),
+    impactReconciliationEligible
   });
 
   if (mode === "redirect") {

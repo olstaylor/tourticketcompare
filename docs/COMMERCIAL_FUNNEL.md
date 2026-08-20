@@ -193,7 +193,9 @@ npm run report:commercial-funnel -- --since 2026-08-01 --until 2026-09-01 --json
 
 It includes legitimate TTC attempts, successful redirects, blocked redirects,
 affiliate redirects, GA4-eligible CTA events, and Impact-reconcilable click
-IDs. These figures are expected to differ: TTC records a server-issued
+IDs. An ID is reconcilable only when the click ID was actually propagated into
+the outbound Impact base-tracking URL; default-off SubID rows, API-generated
+TrackingLinks rows, and historical rows are not counted. These figures are expected to differ: TTC records a server-issued
 redirect, GA4 records the CTA action, and Impact records what arrived at its
 network.
 

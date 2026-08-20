@@ -295,7 +295,7 @@ GROUP BY 1, 2`
   COUNT(DISTINCT CASE WHEN event_name = 'outbound_blocked' THEN click_id END) AS blocked_redirects,
   COUNT(DISTINCT CASE WHEN event_name = 'outbound_click' AND is_affiliate = 1 THEN click_id END) AS affiliate_redirects,
   COUNT(CASE WHEN event_name = 'provider_click' THEN 1 END) AS ga4_eligible_events,
-  COUNT(DISTINCT CASE WHEN event_name = 'outbound_click' AND is_affiliate = 1 THEN click_id END) AS impact_reconcilable_click_ids
+  COUNT(DISTINCT CASE WHEN event_name = 'outbound_click' AND impact_reconciliation_eligible = 1 THEN click_id END) AS impact_reconcilable_click_ids
 FROM analytics_events
 WHERE event_name IN ('outbound_attempt', 'outbound_click', 'outbound_blocked', 'provider_click')${since}
 GROUP BY 1`

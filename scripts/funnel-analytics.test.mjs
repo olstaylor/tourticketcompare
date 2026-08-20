@@ -611,6 +611,8 @@ await test("probing and malformed requests are not recorded as demand", async ()
   assert.equal(unknownProvider.status, 400);
   const missingArtist = await outGet({ request: outRequest("provider=ticketmaster"), env });
   assert.equal(missingArtist.status, 400);
+  const unknownShow = await outGet({ request: outRequest("showId=random&provider=ticketmaster"), env });
+  assert.equal(unknownShow.status, 400);
   assert.equal(db.rows.length, 0, "scanner traffic must not enter the funnel");
 });
 
@@ -655,6 +657,7 @@ await test("the affiliate URL is unchanged unless the SubId flag is explicitly o
   const defaultRow = defaultDb.rows.find((row) => row.event_name === "outbound_click");
   assert.equal(defaultRow.destination_category, "affiliate_network");
   assert.equal(defaultRow.is_affiliate, 1);
+  assert.equal(defaultRow.impact_reconciliation_eligible, 0, "default-off SubID must not claim Impact reconciliation");
 
   assert.equal(outboundClickIdParam({}), "", "the SubId passthrough is off by default");
   assert.equal(outboundClickIdParam({ OUT_CLICK_ID_SUBID_ENABLED: "true" }), "subId1");
@@ -669,6 +672,7 @@ await test("the affiliate URL is unchanged unless the SubId flag is explicitly o
   const trackedLocation = new URL(withSubId.headers.get("Location"));
   assert.equal(trackedLocation.searchParams.get("u"), SAMPLE_EVENT.seatgeek_url, "the destination is untouched by the SubId");
   assert.equal(trackedLocation.searchParams.get("subId1"), enabledDb.rows.find((row) => row.event_name === "outbound_click").click_id, "the SubId is the click id recorded on our own row");
+  assert.equal(enabledDb.rows.find((row) => row.event_name === "outbound_click").impact_reconciliation_eligible, 1, "only a URL carrying the click ID is reconcilable");
 });
 
 // ── 5. Schema tolerance and backwards compatibility ─────────────────────────
@@ -722,7 +726,7 @@ CREATE TABLE analytics_events (
   page_type TEXT, landing_path TEXT, event_id TEXT, event_date TEXT, event_city TEXT,
   event_venue TEXT, cta_location TEXT, destination_category TEXT, is_affiliate INTEGER,
   device_category TEXT, acquisition_source TEXT, utm_source TEXT, utm_medium TEXT,
-  utm_campaign TEXT, click_id TEXT
+  utm_campaign TEXT, click_id TEXT, impact_reconciliation_eligible INTEGER
 );`;
 
 async function openFixtureDb(rows) {

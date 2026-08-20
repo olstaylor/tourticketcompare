@@ -358,7 +358,7 @@ async function assertNoRawPublicAffiliateUrls(files) {
 
 function extractH1(html) {
   const match = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  return match ? match[1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim() : "";
+  return match ? decodeHtmlEntities(match[1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim()) : "";
 }
 
 function decodeHtmlEntities(str) {

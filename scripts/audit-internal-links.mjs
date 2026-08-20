@@ -63,9 +63,9 @@ const pages = computeInboundLinks(await crawlRoutes(allPaths, renderRoute));
 
 const problems = [];
 
-// Keep crawlable HTML open while excluding machine endpoints and raw data
-// assets that duplicate information already presented on indexable pages.
-for (const prefix of ["/api/", "/data/", "/internal/"]) {
+// Keep crawlable HTML open while excluding machine endpoints and internal
+// routes. Public /data/ assets must stay crawlable for Googlebot rendering.
+for (const prefix of ["/api/", "/internal/"]) {
   if (!robotsTxt.includes(`Disallow: ${prefix}`)) problems.push(`robots.txt: missing Disallow for ${prefix}`);
 }
 if (!robotsTxt.includes(`Sitemap: ${ORIGIN}/sitemap.xml`)) {

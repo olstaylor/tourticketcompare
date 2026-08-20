@@ -1063,7 +1063,7 @@ const pairwiseArticle = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] =
 const pairwiseFaq = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] === "FAQPage");
 assert(Array.isArray(pairwiseArticle?.citation) && pairwiseArticle.citation.length === 8, "focused guide Article schema should cite all eight visible primary sources");
 assert(pairwiseArticle?.articleSection === "Compare prices and fees", "focused guide should join the comparison topic cluster");
-assert(pairwiseArticle?.dateModified === "2026-07-28", "focused guide Article schema should expose the SEO review date");
+assert(pairwiseArticle?.dateModified === routeMetadataModule.GUIDE_ROUTES["/guides/seatgeek-vs-ticketmaster"]?.lastUpdated, "focused guide Article schema should expose the SEO review date");
 assert(Array.isArray(pairwiseFaq?.mainEntity) && pairwiseFaq.mainEntity.length === 8, "focused guide FAQ schema should mirror all eight visible answers");
 
 const comparisonHub = await routeResponse("/compare-concert-ticket-prices");

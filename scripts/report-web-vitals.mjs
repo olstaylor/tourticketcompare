@@ -39,6 +39,11 @@ function fallbackTemplate(pathname) {
   if (parts[0] === "artists") return parts.length === 1 ? "artists-index" : parts[2] === "tickets" ? "artist-city" : "artist";
   if (parts[0] === "cities") return parts.length === 1 ? "cities-index" : "city";
   if (parts[0] === "venues") return parts.length === 1 ? "venues-index" : "venue";
+  if (parts[0] === "blog") {
+    if (parts.length === 1) return "blog-index";
+    if (parts[1] === "tags") return "blog-tag";
+    return "blog-post";
+  }
   return "static";
 }
 
@@ -61,18 +66,22 @@ export function summarize(rows) {
     }
   }
   return [...groups.values()]
-    .map((group) => ({
-      routeTemplate: group.routeTemplate,
-      navigationType: group.navigationType,
-      samples: group.samples,
-      lowSample: group.samples < LOW_SAMPLE,
-      metrics: Object.fromEntries(METRICS.map((metric) => [metric, {
+    .map((group) => {
+      const metrics = Object.fromEntries(METRICS.map((metric) => [metric, {
         samples: group.values[metric].length,
+        lowSample: group.values[metric].length < LOW_SAMPLE,
         p50: percentile(group.values[metric], 0.5),
         p75: percentile(group.values[metric], 0.75),
         p95: percentile(group.values[metric], 0.95)
-      }]))
-    }))
+      }]));
+      return {
+        routeTemplate: group.routeTemplate,
+        navigationType: group.navigationType,
+        samples: group.samples,
+        lowSample: metrics.lcp.lowSample,
+        metrics
+      };
+    })
     .sort((a, b) => a.routeTemplate.localeCompare(b.routeTemplate) || a.navigationType.localeCompare(b.navigationType));
 }
 
@@ -93,7 +102,9 @@ function printTable(summary) {
     route: group.routeTemplate,
     navigation: group.navigationType,
     n: group.samples,
-    warning: group.lowSample ? `provisional (<${LOW_SAMPLE})` : "",
+    warning: METRICS.some((metric) => group.metrics[metric].lowSample)
+      ? `provisional: ${METRICS.filter((metric) => group.metrics[metric].lowSample).map((metric) => `${metric}<${LOW_SAMPLE}`).join(", ")}`
+      : "",
     "LCP p50/p75/p95 ms": [group.metrics.lcp.p50, group.metrics.lcp.p75, group.metrics.lcp.p95].map((value) => value ?? "—").join(" / "),
     "TTFB p75 ms": group.metrics.ttfb.p75 ?? "—",
     "FCP p75 ms": group.metrics.fcp.p75 ?? "—",
@@ -111,6 +122,16 @@ function selfTest() {
   assert.equal(result[0].metrics.lcp.p50, 2000);
   assert.equal(result[0].metrics.lcp.p75, 3000);
   assert.equal(result[0].lowSample, true);
+  assert.equal(result[0].metrics.lcp.lowSample, true);
+  const sparseLcp = summarize(Array.from({ length: 75 }, (_, index) => ({
+    source_path: "/",
+    metadata_json: JSON.stringify({ routeTemplate: "home", navigationType: "navigate", ttfb: 400 + index, ...(index < 2 ? { lcp: 2000 + index } : {}) })
+  })))[0];
+  assert.equal(sparseLcp.samples, 75);
+  assert.equal(sparseLcp.metrics.ttfb.lowSample, false);
+  assert.equal(sparseLcp.metrics.lcp.samples, 2);
+  assert.equal(sparseLcp.metrics.lcp.lowSample, true);
+  assert.equal(sparseLcp.lowSample, true);
   console.log("report-web-vitals self-test passed");
 }
 

@@ -37,14 +37,15 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20260820a";
-const TTC_HOME_ASSET_VERSION = "20260820a";
-const TTC_SHELL_ASSET_VERSION = "20260820a";
+const APP_ASSET_VERSION = "20260820b";
+const TTC_HOME_ASSET_VERSION = "20260820b";
+const TTC_SHELL_ASSET_VERSION = "20260820b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
 const CONTROLLED_VIVIDSEATS_PRICE_URL = "https://www.vividseats.com/morgan-wallen-tickets/production/5432101";
+const CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL = "https://vividseats.pxf.io/testcode";
 // Monetized CTAs route through /api/out for server-side Impact tracking; the
 // stored provider destination is resolved and Impact-wrapped by out.js, not
 // rendered raw in the page. In server-rendered markup "&" is escaped to "&amp;".
@@ -1247,7 +1248,9 @@ assert(ttcHomeJs.includes('document.querySelector("#search-widget .search-result
 assert(ttcHomeJs.includes('input[type=search]'), "homepage enhancement should bind the existing accessible search input");
 assert(ttcHomeJs.includes('results.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage query submission should scroll to the preserved search-widget anchor");
 assert(ttcHomeJs.includes('document.querySelectorAll("#ttc-main a[href]")'), "homepage search should build its index from compiled server-rendered links");
-assert(!ttcHomeJs.includes("fetch("), "homepage enhancement should make no catalogue or event request");
+assert(ttcHomeJs.includes('fetch("/data/events-index.json"'), "homepage search should lazy-load the purpose-built lightweight event index");
+assert(!ttcHomeJs.includes('fetch("/data/events.json"') && !ttcHomeJs.includes('fetch("/data/catalog.json"'), "homepage enhancement must not request the full event or catalogue payload");
+assert(ttcHomeJs.includes("record.city") && ttcHomeJs.includes("record.venue"), "homepage event search should preserve city and venue matching");
 assert(!ttcHomeJs.includes("main.replaceChildren") && !ttcHomeJs.includes('getElementById("ttc-main").innerHTML'), "homepage enhancement must not replace the server-rendered visual DOM");
 assert(ttcHomeJs.includes("Compare ticket prices for the show you want."), "homepage should lead with the comparison intent");
 assert(ttcHomeJs.includes("then check the final total with the provider."), "homepage should tell fans where the final total is confirmed");
@@ -1582,10 +1585,10 @@ const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster")
 assert(lightweightGuide.text.includes(`/shell.js?v=${TTC_SHELL_ASSET_VERSION}`), "guide routes must load the shared shell");
 assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
 assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
-assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260820a"), "artist routes must load only the artist-board route module");
+assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260820b"), "artist routes must load only the artist-board route module");
 assert(!serverMorganWithSeatGeek.text.includes("/app.js?v="), "artist routes must not load the universal app bundle");
 const converterAssets = await routeResponse("/currency-converter");
-assert(converterAssets.text.includes("/currency-converter.js?v=20260820a"), "currency converter must load its route module");
+assert(converterAssets.text.includes("/currency-converter.js?v=20260820b"), "currency converter must load its route module");
 assert(!converterAssets.text.includes("/app.js?v="), "currency converter must not load the universal app bundle");
 
 const bulkPriceResponse = await showsModule.onRequestGet({
@@ -1692,6 +1695,13 @@ assert(flagOnFreshSeatGeekLane?.fetchedAt === freshSeatGeekPriceRow.verified_at,
 assert(flagOnFreshSeatGeekLane?.source === "seatgeek_partner_api", "SeatGeek price lane should expose only the approved source attribution");
 assert(flagOnFreshSeatGeekLane?.expiresAt === freshSeatGeekPriceRow.expires_at, "SeatGeek price lane should expose the snapshot expiry for freshness checks");
 assert(flagOnFreshSeatGeekLane?.note.includes("SeatGeek price snapshot"), "SeatGeek timestamp/source copy should appear only after a fresh approved D1 row passes the enabled API gate");
+globalThis.caches.default = new MemoryCache();
+const seatGeekHistoryRoute = await routeResponse("/artists/morgan-wallen", envWithEventsJson(seatGeekPriceEventsJson, {
+  DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow], freshSeatGeekHistoryRows),
+  SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
+  IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL
+}));
+assert(seatGeekHistoryRoute.text.includes(`data-price-history="${CONTROLLED_SEATGEEK_SHOW_ID}"`), "an approved SeatGeek snapshot should retain the on-site history tracker even though its CTA stays price-free");
 
 const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
@@ -1856,6 +1866,24 @@ const flagOnFreshVividSeatsResponse = await showsModule.onRequestGet({
 const flagOnVividSeatsLane = vividSeatsLaneFrom(await flagOnFreshVividSeatsResponse.json());
 assert(flagOnVividSeatsLane?.price === freshVividSeatsPriceRow.low_price, "Vivid Seats price should be returned from a fresh approved D1 latest snapshot when the feature flag is enabled");
 assert(flagOnVividSeatsLane?.providerStatus === "ok" && flagOnVividSeatsLane?.source === "vividseats_impact_marketplace_api", "fresh Vivid Seats snapshot should expose only the approved source attribution");
+
+// The route-module split must retain both surfaces that consume approved price
+// data: artist cards keep the on-demand history tracker, and the comparison hub
+// keeps exact-event provider buttons with the same snapshot framing.
+globalThis.caches.default = new MemoryCache();
+const pricedRouteEnv = envWithEventsJson(vividSeatsPriceEventsJson, {
+  DEMAND_DB: createProviderPricingDb([freshVividSeatsPriceRow]),
+  VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true",
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL
+});
+const pricedArtistRoute = await routeResponse("/artists/morgan-wallen", pricedRouteEnv);
+assert(pricedArtistRoute.text.includes(`data-price-history="${CONTROLLED_SEATGEEK_SHOW_ID}"`), "a priced artist event should server-render its price snapshot history control");
+assert(pricedArtistRoute.text.includes("Show price snapshot history"), "the restored artist price tracker should be visible as a collapsed control");
+assert(pricedArtistRoute.text.includes("data-price-alert-interest"), "the price tracker should retain the price-drop demand instrument");
+const pricedComparisonHub = await routeResponse("/compare-concert-ticket-prices", pricedRouteEnv);
+assert(pricedComparisonHub.text.includes('data-cta-location="comparison_hub"'), "the comparison hub should server-render tracked exact-event provider CTAs");
+assert(pricedComparisonHub.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}`), "the comparison hub should link the exact reviewed event through /api/out");
+assert(pricedComparisonHub.text.includes("$98.75"), "the comparison hub should retain the approved exact-event price snapshot");
 
 const staleVividSeatsResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
@@ -2652,7 +2680,6 @@ try {
 // --- Vivid Seats wiring: dormant without Impact config + verified event URLs,
 //     Impact-wrapped (never a raw redirect) once configured. ---
 const CONTROLLED_VIVIDSEATS_URL = "https://www.vividseats.com/morgan-wallen-tickets--concerts-country-and-folk/production/5240001";
-const CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL = "https://vividseats.pxf.io/testcode";
 const vividSeatsEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
   ? { ...event, vividseats_url: CONTROLLED_VIVIDSEATS_URL }
   : event));

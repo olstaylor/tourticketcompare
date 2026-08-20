@@ -136,6 +136,7 @@ const ALLOWED_COMPARISON_PROVIDERS = new Set([
   "ticket-liquidator",
   "stubhub-international"
 ]);
+const SUPPORTED_COMPARISON_PROVIDER_PAIRS = new Set(["ticketmaster|vivid-seats"]);
 
 // Route shapes a guide body may link to, as complete patterns. Guides link to
 // each other, to the artist index and to the comparison hub; city and venue
@@ -331,6 +332,15 @@ export function validateGuide(guide, context) {
           ].join(", ")})`
         );
       }
+    }
+    if (
+      guide.comparisonProviders.length === 2 &&
+      guide.comparisonProviders.every((provider) => ALLOWED_COMPARISON_PROVIDERS.has(provider)) &&
+      !SUPPORTED_COMPARISON_PROVIDER_PAIRS.has(guide.comparisonProviders.join("|"))
+    ) {
+      problems.push(
+        `${where}: comparison provider pair "${guide.comparisonProviders.join(" + ")}" has no runtime renderer (supported: ticketmaster + vivid-seats)`
+      );
     }
   }
 
@@ -947,6 +957,12 @@ function selfTest() {
     baseContext()
   );
   assert(validProviderPair.length === 0, "an allowlisted two-provider comparison validates clean");
+
+  const unsupportedProviderPair = validateGuide(
+    baseGuide({ comparisonProviders: ["ticketmaster", "seatgeek"] }),
+    baseContext()
+  );
+  assert(unsupportedProviderPair.some((problem) => /has no runtime renderer/.test(problem)), "an allowlisted but unsupported provider pair fails");
 
   const oneProvider = validateGuide(baseGuide({ comparisonProviders: ["ticketmaster"] }), baseContext());
   assert(oneProvider.some((problem) => /exactly two provider slugs/.test(problem)), "a one-sided comparison pair fails");

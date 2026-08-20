@@ -99,7 +99,11 @@
     if (parts[0] === "artists") return parts.length === 1 ? "artists-index" : parts[2] === "tickets" ? "artist-city" : "artist";
     if (parts[0] === "cities") return parts.length === 1 ? "cities-index" : "city";
     if (parts[0] === "venues") return parts.length === 1 ? "venues-index" : "venue";
-    if (parts[0] === "blog") return parts.length === 1 ? "blog-index" : "blog-post";
+    if (parts[0] === "blog") {
+      if (parts.length === 1) return "blog-index";
+      if (parts[1] === "tags") return "blog-tag";
+      return "blog-post";
+    }
     if (pathname === "/compare-concert-ticket-prices") return "comparison-hub";
     if (pathname === "/currency-converter") return "currency-converter";
     return "static";

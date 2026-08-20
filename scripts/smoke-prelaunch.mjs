@@ -532,8 +532,9 @@ const expectedClientMetadata = [
   "Find a checked concert event, compare timestamped provider listed-price snapshots for the same show, then confirm fees and the final total with the provider.",
   "How to Compare Concert Ticket Prices | TourTicketCompare",
   "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
-  "SeatGeek vs Ticketmaster | TourTicketCompare",
-  "Is SeatGeek cheaper or better than Ticketmaster? Compare primary and resale tickets, fees, Deal Score, delivery, and buyer protections before buying."
+  "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety | TourTicketCompare",
+  "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety",
+  "SeatGeek vs Ticketmaster in 2026: compare fees, prices, safety, delivery, resale tickets and buyer protection—and learn whether they are the same company."
 ];
 for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);

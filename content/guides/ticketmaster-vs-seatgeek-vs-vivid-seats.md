@@ -41,7 +41,7 @@ sources:
 
 Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.
 
-There is no provider that is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. TourTicketCompare can shorten that process with approved, timestamped provider price snapshots for the same verified event, but the provider page remains the source for current inventory and the final amount payable. For the narrower two-platform decision, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster).
+There is no provider that is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. TourTicketCompare can shorten that process with approved, timestamped provider price snapshots for the same verified event, but the provider page remains the source for current inventory and the final amount payable. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).
 
 ## Ticketmaster vs SeatGeek vs Vivid Seats at a glance
 

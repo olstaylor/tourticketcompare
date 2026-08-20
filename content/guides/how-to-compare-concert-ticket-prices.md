@@ -135,6 +135,8 @@ No. Availability changes on the provider site and is confirmed there at the time
 
 ## Quick comparison checklist
 
+If your shortlist is provider-specific, use this routine alongside [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster) rather than relying on a generic brand ranking.
+
 - Match artist, local date, venue, and event name
 - Match quantity, ticket type, section, row, and view notes
 - Check the snapshot timestamp and provider attribution

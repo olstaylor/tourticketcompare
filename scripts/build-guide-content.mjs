@@ -118,6 +118,7 @@ const ALLOWED_KEYS = new Set([
   "status",
   "date_published",
   "sources",
+  "comparison_providers",
   "howto",
   "legacy_article_headline",
   "legacy_article_description"
@@ -127,6 +128,14 @@ const ALLOWED_STATUS = new Set(["published", "draft"]);
 const ALLOWED_SOURCE_KEYS = new Set(["name", "publisher", "url", "last_checked"]);
 const ALLOWED_HOWTO_KEYS = new Set(["name", "description", "steps"]);
 const ALLOWED_STEP_KEYS = new Set(["name", "text"]);
+const ALLOWED_COMPARISON_PROVIDERS = new Set([
+  "ticketmaster",
+  "seatgeek",
+  "vivid-seats",
+  "ticketnetwork",
+  "ticket-liquidator",
+  "stubhub-international"
+]);
 
 // Route shapes a guide body may link to, as complete patterns. Guides link to
 // each other, to the artist index and to the comparison hub; city and venue
@@ -254,6 +263,7 @@ export function normalizeGuide(file, source) {
     description: trimmed(frontMatter.description),
     status: trimmed(frontMatter.status) || "draft",
     datePublished: trimmed(frontMatter.date_published),
+    comparisonProviders: asList(frontMatter.comparison_providers).map(trimmed).filter(Boolean),
     sources: asList(frontMatter.sources)
       .filter((entry) => entry && typeof entry === "object")
       .map((entry) => ({
@@ -304,6 +314,24 @@ export function validateGuide(guide, context) {
   }
   if (!ALLOWED_STATUS.has(guide.status)) {
     problems.push(`${where}: "status" must be one of ${[...ALLOWED_STATUS].join(", ")} (got "${guide.status}")`);
+  }
+
+  if (guide.comparisonProviders.length) {
+    if (guide.comparisonProviders.length !== 2) {
+      problems.push(`${where}: "comparison_providers" must contain exactly two provider slugs`);
+    }
+    if (new Set(guide.comparisonProviders).size !== guide.comparisonProviders.length) {
+      problems.push(`${where}: "comparison_providers" must contain two different provider slugs`);
+    }
+    for (const provider of guide.comparisonProviders) {
+      if (!ALLOWED_COMPARISON_PROVIDERS.has(provider)) {
+        problems.push(
+          `${where}: comparison provider "${provider}" is not allowlisted (allowed: ${[
+            ...ALLOWED_COMPARISON_PROVIDERS
+          ].join(", ")})`
+        );
+      }
+    }
   }
 
   // --- dates -------------------------------------------------------------
@@ -600,13 +628,14 @@ export function toContentEntry(guide, linkChecks) {
       return record;
     })
   };
+  if (guide.comparisonProviders.length) entry.comparisonProviders = guide.comparisonProviders;
   const schema = schemaFor(guide);
   if (schema) entry.schema = schema;
   return entry;
 }
 
 export function toRouteEntry(guide, lastmod) {
-  return {
+  const entry = {
     title: seoTitleFor(guide.title),
     h1: guide.h1,
     description: guide.description,
@@ -614,6 +643,8 @@ export function toRouteEntry(guide, lastmod) {
     datePublished: guide.datePublished,
     lastmod: lastmod || guide.datePublished
   };
+  if (guide.comparisonProviders.length) entry.comparisonProviders = guide.comparisonProviders;
+  return entry;
 }
 
 /**
@@ -659,6 +690,9 @@ export function renderRoutesModule(entries, fallbackPath, fallbackEntry) {
       `${pad}h1: ${JSON.stringify(entry.h1)},`,
       `${pad}description: ${JSON.stringify(entry.description)},`,
       `${pad}fullContent: true,`,
+      ...(entry.comparisonProviders
+        ? [`${pad}comparisonProviders: ${JSON.stringify(entry.comparisonProviders)},`]
+        : []),
       `${pad}datePublished: ${JSON.stringify(entry.datePublished)},`,
       `${pad}lastmod: ${JSON.stringify(entry.lastmod)}`
     ].join("\n");
@@ -867,6 +901,7 @@ function baseGuide(overrides = {}) {
     description: "A description that is comfortably long enough to clear the fifty character floor for snippets.",
     status: "published",
     datePublished: "2026-06-01",
+    comparisonProviders: [],
     sources: [
       { raw: {}, name: "One", publisher: "Pub", url: "https://example.org/a", lastChecked: "2026-06-01" },
       { raw: {}, name: "Two", publisher: "Pub", url: "https://example.org/b", lastChecked: "2026-06-01" }
@@ -906,6 +941,27 @@ function selfTest() {
 
   const firstPublication = validateGuide(baseGuide(), baseContext());
   assert(firstPublication.length === 0, "a first publication with a date and no ledger entry validates clean");
+
+  const validProviderPair = validateGuide(
+    baseGuide({ comparisonProviders: ["ticketmaster", "vivid-seats"] }),
+    baseContext()
+  );
+  assert(validProviderPair.length === 0, "an allowlisted two-provider comparison validates clean");
+
+  const oneProvider = validateGuide(baseGuide({ comparisonProviders: ["ticketmaster"] }), baseContext());
+  assert(oneProvider.some((problem) => /exactly two provider slugs/.test(problem)), "a one-sided comparison pair fails");
+
+  const duplicateProvider = validateGuide(
+    baseGuide({ comparisonProviders: ["ticketmaster", "ticketmaster"] }),
+    baseContext()
+  );
+  assert(duplicateProvider.some((problem) => /two different provider slugs/.test(problem)), "a duplicate comparison pair fails");
+
+  const unsafeProvider = validateGuide(
+    baseGuide({ comparisonProviders: ["ticketmaster", "marketplace-home"] }),
+    baseContext()
+  );
+  assert(unsafeProvider.some((problem) => /is not allowlisted/.test(problem)), "an unapproved comparison provider fails");
 
   const movedDate = validateGuide(
     baseGuide({ datePublished: "2026-08-01" }),

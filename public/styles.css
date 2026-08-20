@@ -6,6 +6,14 @@
   visibility: hidden;
 }
 
+.guide-provider-pair-grid{margin-top:1rem}
+.guide-provider-pair-card{display:flex;flex-direction:column;gap:.75rem}
+.guide-provider-pair-card p{margin:0}
+.guide-provider-pair-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;margin-top:auto}
+.guide-provider-pair-actions .button{justify-content:center;text-align:center}
+.guide-provider-pair-methodology{margin-top:1rem}
+@media(max-width:620px){.guide-provider-pair-actions{grid-template-columns:1fr}}
+
 :root {
   /* Aligned with the brand-evolved design system (ttc-home.css):
      warm paper, forest-green identity, one terracotta CTA, sans

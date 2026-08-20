@@ -2049,6 +2049,7 @@ const GUIDE_CLUSTERS = [
       "/guides/how-to-avoid-overpaying-for-concert-tickets",
       "/guides/concert-ticket-fees-explained",
       "/guides/why-ticket-prices-change",
+      "/guides/vivid-seats-vs-ticketmaster",
       "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
       "/guides/seatgeek-vs-ticketmaster",
       "/guides/ticketnetwork-vs-ticketmaster"
@@ -2131,6 +2132,7 @@ function renderArtistStatusLegendHtml() {
 
 function renderHomepageGuideLinks() {
   const priorityPaths = [
+    "/guides/vivid-seats-vs-ticketmaster",
     "/guides/seatgeek-vs-ticketmaster",
     "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats",
     "/guides/how-to-compare-concert-ticket-prices"
@@ -2213,7 +2215,7 @@ function renderComparisonHubEventCards(events = []) {
     .map((show) => {
       const date = formatShowDateServer(show.dateTimeISO, show.timezone);
       const title = show.event_name || [show.artist_name, show.city].filter(Boolean).join(" – ") || "Upcoming concert";
-      return `<article class="info-card" data-comparison-show-id="${escapeAttr(show.id)}"><h3>${escapeHtml(title)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(showLocationServer(show) || "Venue details shown when verified.")}</p><p class="disclosure-note">Loading approved provider price snapshots…</p>${anchor("View artist ticket options", `/artists/${show.artist_slug}`, "text-link")}</article>`;
+      return `<article class="info-card"><h3>${escapeHtml(title)}</h3>${date ? `<p class="card-status">${escapeHtml(date)}</p>` : ""}<p class="muted">${escapeHtml(showLocationServer(show) || "Venue details shown when verified.")}</p><p class="disclosure-note">Open the artist page for checked event-level provider links and any eligible price snapshots.</p>${anchor("View artist ticket options", `/artists/${show.artist_slug}`, "text-link")}</article>`;
     })
     .join("")}</div></section>`;
 }
@@ -3406,6 +3408,95 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}<p class="disclosure-note">Some links earn us a commission — this never affects your price.</p></div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
+function safeTicketmasterGuideEventUrl(event) {
+  const raw = safeShowTicketUrl(event?.ticketmaster_url || event?.source_url);
+  if (!raw) return null;
+  try {
+    const parsed = new URL(raw);
+    const host = parsed.hostname.toLowerCase();
+    const allowed = [
+      "ticketmaster.com", "ticketmaster.ca", "ticketmaster.co.uk", "ticketmaster.es", "ticketmaster.de",
+      "ticketmaster.nl", "ticketmaster.se", "ticketmaster.pl", "ticketmaster.be", "ticketmaster.it"
+    ];
+    if (!allowed.some((candidate) => host === candidate || host.endsWith(`.${candidate}`))) return null;
+    const eventId = String(event?.ticketmaster_event_id || "").trim().toLowerCase();
+    if (eventId && !parsed.toString().toLowerCase().includes(encodeURIComponent(eventId).toLowerCase())) return null;
+    return raw;
+  } catch (error) { return null; }
+}
+
+export function guideProviderPairEligibility(events, env = {}) {
+  if (!isVividSeatsConfigured(env)) return [];
+  return (events || [])
+    .filter((event) => {
+      const date = Date.parse(String(event?.datetime_iso || event?.dateTimeISO || ""));
+      if (!Number.isFinite(date) || date < Date.now()) return false;
+      return Boolean(
+        event?.id &&
+          safeTicketmasterGuideEventUrl(event) &&
+          eventLinkPublishable(event) &&
+          safeVividSeatsTicketUrl(event?.vividseats_url) &&
+          providerEventPublishable(event, "vivid-seats")
+      );
+    })
+    .sort(
+      (a, b) =>
+        Date.parse(String(a?.datetime_iso || a?.dateTimeISO || "")) -
+        Date.parse(String(b?.datetime_iso || b?.dateTimeISO || ""))
+    );
+}
+
+function guideProviderPairHref(event, provider, guideSlug, position) {
+  const base = withCtaLocation(eventTicketHref(event, provider), "guide_provider_pair");
+  if (!base) return null;
+  return `${base}&guideSlug=${encodeURIComponent(guideSlug)}&position=${position}`;
+}
+
+export function renderGuideProviderPair(route, events, env = {}) {
+  const pair = Array.isArray(route?.comparisonProviders) ? route.comparisonProviders : [];
+  if (pair.length !== 2 || pair[0] !== "ticketmaster" || pair[1] !== "vivid-seats") return "";
+  const eligible = guideProviderPairEligibility(events, env);
+  const displayed = eligible.slice(0, 8);
+  const guideSlug = route.path.split("/").at(-1);
+  const calculatedAt = new Date().toISOString();
+  const methodology = `<p class="disclosure-note guide-provider-pair-methodology">${escapeHtml(
+    `${eligible.length} upcoming event${eligible.length === 1 ? "" : "s"} passed both providers' existing event-level provenance and direct-URL safety checks at ${calculatedAt}. This is checked-link coverage, not a live inventory or price claim.`
+  )}</p>`;
+  if (!displayed.length) {
+    return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>No upcoming event currently passes both providers' checked event-link gates. The editorial comparison remains valid; use the ${anchor(
+      "artist index",
+      "/artists",
+      "text-link"
+    )} or ${anchor("event comparison hub", "/compare-concert-ticket-prices", "text-link")} to start with a specific show.</p>${methodology}</section>`;
+  }
+  const rows = displayed
+    .map((event, index) => {
+      const position = index + 1;
+      const artistSlug = slugify(event.artist_slug);
+      const artistName = String(event.artist_name || event.event_name || artistSlug).trim();
+      const date = formatShowDateServer(event.datetime_iso || event.dateTimeISO, event.timezone);
+      const location = [event.venue, event.city].map((value) => String(value || "").trim()).filter(Boolean).join(" · ");
+      const ticketmasterHref = guideProviderPairHref(event, "ticketmaster", guideSlug, position);
+      const vividSeatsHref = guideProviderPairHref(event, "vivid-seats", guideSlug, position);
+      if (!ticketmasterHref || !vividSeatsHref) return "";
+      return `<article class="info-card guide-provider-pair-card" data-event-id="${escapeAttr(event.id)}"><h3>${anchor(
+        artistName,
+        `/artists/${artistSlug}`,
+        "guide-card-link"
+      )}</h3><p>${escapeHtml([date, location].filter(Boolean).join(" · "))}</p><div class="guide-provider-pair-actions"><a class="button button-secondary" href="${escapeAttr(
+        ticketmasterHref
+      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(ticketmasterHref))}" data-cta-provider="ticketmaster" data-cta-artist="${escapeAttr(
+        artistSlug
+      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Ticketmaster</a><a class="button button-primary" href="${escapeAttr(
+        vividSeatsHref
+      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(vividSeatsHref))}" data-cta-provider="vivid-seats" data-cta-artist="${escapeAttr(
+        artistSlug
+      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Vivid Seats</a></div></article>`;
+    })
+    .join("");
+  return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>These are the next reviewed dates with a safe, event-specific link for both Ticketmaster and Vivid Seats. Open both and match the ticket details and checkout total yourself.</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
+}
+
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
   if (route.type === "comparison-hub") {
     const faqHtml = comparisonHubFaqEntries()
@@ -3429,6 +3520,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "/how-it-works",
       "button button-secondary"
     )}${anchor("Affiliate disclosure", "/affiliate-disclosure", "button button-secondary")}${anchor("Ticket buying guide", "/guides/how-to-compare-concert-ticket-prices", "button button-secondary")}${anchor(
+      "Vivid Seats vs Ticketmaster",
+      "/guides/vivid-seats-vs-ticketmaster",
+      "button button-secondary"
+    )}${anchor(
       "SeatGeek vs Ticketmaster",
       "/guides/seatgeek-vs-ticketmaster",
       "button button-secondary"
@@ -3603,11 +3698,12 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       ? fullContent
       : `<section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify. Final prices, fees, availability, delivery, and checkout terms should always be confirmed on the provider site.</p></section>`;
     const artistBrowseHtml = renderArtistBrowseSection(catalog);
+    const providerPairHtml = renderGuideProviderPair(route, events, env);
     return `<main id="mainContent"><section class="content-page guide-page" aria-labelledby="guideTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${renderGuideProvenance(route)}${contentHtml}${renderGuideSources(
+    )}</p>${renderGuideProvenance(route)}${contentHtml}${providerPairHtml}${renderGuideSources(
       guideContent[route.path]?.sources
     )}${artistBrowseHtml}<div class="action-row">${anchor(
       "Compare event ticket prices",
@@ -3809,7 +3905,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
 
   if (route.path === "/currency-converter") {
     // Server-rendered shell for the converter. Controls stay disabled until
-    // public/app.js loads rates from /api/rates (ECB reference rates, cached,
+    // public/currency-converter.js loads rates from /api/rates (ECB reference rates, cached,
     // fail-closed) — no rates are ever rendered or invented server-side.
     return `<main id="mainContent"><section class="content-page currency-converter-page" aria-labelledby="converterTitle">${renderBreadcrumbHtml(
       route
@@ -3971,12 +4067,23 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     /(<span\s+id="currentYear">)[^<]*(<\/span>)/i,
     `$1${new Date().getUTCFullYear()}$2`
   );
+  next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
+  next = next.replace(
+    '<script src="/app.js?v=20260820a" defer></script>',
+    '<script src="/shell.js?v=20260820a" defer></script>'
+  );
+  if (route.type === "artist" || route.type === "artist-city") {
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20260820a" defer></script></body>');
+  }
+  if (route.path === "/currency-converter") {
+    next = next.replace("</body>", '<script src="/currency-converter.js?v=20260820a" defer></script></body>');
+  }
   if (route.path === "/") {
-    // Homepage-only progressive enhancement: ttc-home.js hydrates the #ttc-main
-    // mount with the full redesigned homepage. Same-origin, so it satisfies the
-    // existing CSP (script-src 'self'). The chrome stylesheet (ttc-home.css) is
-    // loaded site-wide from the shell <head>; only this script is homepage-scoped.
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260729b" defer></script></body>');
+    // The final homepage DOM is server-rendered. The small route module only
+    // enhances the existing search form; it never clears or rebuilds #ttc-main.
+    next = next.replace('<div id="ttc-main">', '<div id="ttc-main" class="ttc ttc-home">');
+    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260820a" /></head>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260820a" defer></script></body>');
   }
   return next;
 }
@@ -4238,7 +4345,8 @@ export async function onRequest(context) {
   }
 
   const catalog = await loadCatalog(env);
-  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.path === "/artists" || route.path === "/";
+  const needsGuideEvents = route.type === "guide" && Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2;
+  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
   let renderEvents = events;
   if ((route.type === "artist" || route.type === "artist-city" || route.type === "venue") && events.length) {

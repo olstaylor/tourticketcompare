@@ -98,6 +98,8 @@ No. Prices, fees, seats, and availability vary. Compare the final checkout total
 
 Consider resale when the official path has no suitable option, but only after checking the exact event, seat, delivery timing, final total, and marketplace protection terms.
 
+For a concrete primary-versus-resale example, the [Vivid Seats vs Ticketmaster comparison](/guides/vivid-seats-vs-ticketmaster) explains how those roles, fees, and transfers can differ.
+
 **Do resale tickets arrive immediately?**
 
 Not always. Delivery depends on when the seller receives and transfers the ticket. Check the promised delivery method and deadline before paying.

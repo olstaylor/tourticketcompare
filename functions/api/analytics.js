@@ -61,7 +61,7 @@ const SAFE_METADATA_KEYS = new Set([
   "routeType", "artistSlug", "guideSlug", "tourSlug", "provider", "linkId",
   "eventId", "showId", "status", "reason", "currency", "hasPrice",
   "comparisonProviders", "result", "priceSnapshot", "ctaLocation",
-  "lcp", "inp", "cls", "navigationType",
+  "ttfb", "fcp", "lcp", "lcpRenderDelay", "inp", "cls", "navigationType", "routeTemplate", "lcpCategory",
   "utmSource", "utmMedium", "utmCampaign", "entry",
   // Commercial funnel additions. All are low-cardinality labels or counts —
   // never free text, never an identifier of a person.

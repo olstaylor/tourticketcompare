@@ -51,7 +51,10 @@ assert.doesNotMatch(server, /data-watchlist-signup="\$\{escapeAttr\(artistSlug\)
 const appVersion = shell.match(/\/app\.js\?v=([0-9a-z]+)/)?.[1];
 const smokeVersion = smoke.match(/const APP_ASSET_VERSION = "([0-9a-z]+)"/)?.[1];
 assert.equal(appVersion, smokeVersion);
-assert.equal(shell.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20260729b");
-assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20260729b");
+assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20260820a");
+assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20260820a");
+assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20260820a");
+assert.match(route, /\/artist-board\.js\?v=20260820a/);
+assert.match(route, /\/currency-converter\.js\?v=20260820a/);
 
 console.log("remediation review self-test passed (analytics, privacy, CTA ordering, watchlist, and asset invariants).");

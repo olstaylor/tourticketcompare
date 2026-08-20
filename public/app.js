@@ -548,11 +548,13 @@ const isDuplicateFunnelEvent = (() => {
   };
 })();
 
-// GA4 mirror. The first-party D1 row stays authoritative — GA4 cannot see the
-// server-side outbound redirect at all, and its page_view is emitted by the
-// gtag config snippet, so mirroring either here would double-count. Parameters
-// are deliberately low-cardinality labels: no event id, no city or venue, no
-// path, no referrer, nothing that identifies a person.
+// GA4 mirror. The first-party D1 row stays authoritative — GA4 cannot observe
+// the server-side 3xx, and its page_view is emitted by the GTM configuration.
+// The legacy D1 `provider_click` intent is represented in GA4 as one
+// `outbound_click` CTA-activation event, avoiding the old provider_click vs
+// outbound_click naming split and avoiding a second GA4 event for one action.
+// GA4's event is eligible/observed intent; D1's server `outbound_click` remains
+// the successful-redirect metric. Parameters stay low-cardinality.
 const GA4_MIRRORED_EVENTS = ["artist_view", "provider_cta_view", "provider_click", "email_signup"];
 
 function mirrorToGa4(eventName, payload, metadata) {
@@ -564,7 +566,8 @@ function mirrorToGa4(eventName, payload, metadata) {
     if (payload.provider) params.provider = payload.provider;
     if (metadata.ctaLocation) params.cta_location = metadata.ctaLocation;
     if (typeof metadata.isAffiliate === "boolean") params.is_affiliate = metadata.isAffiliate;
-    window.gtag("event", eventName, params);
+    const ga4EventName = eventName === "provider_click" ? "outbound_click" : eventName;
+    window.gtag("event", ga4EventName, params);
   } catch (error) {}
 }
 

@@ -39,7 +39,8 @@ const FUNNEL_COLUMNS = Object.freeze([
   "utm_source",
   "utm_medium",
   "utm_campaign",
-  "click_id"
+  "click_id",
+  "impact_reconciliation_eligible"
 ]);
 
 // Widest first. Every entry is a compile-time constant, so no caller-supplied

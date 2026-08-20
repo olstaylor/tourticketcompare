@@ -12,6 +12,21 @@ displayed) · `PROJECT_STATUS.md` (what is live right now).
 
 ## The funnel
 
+### Canonical definitions
+
+`provider_click` means a visitor activated a provider CTA (client intent).
+`outbound_attempt` means a valid known-provider request reached `/api/out` and
+received a server-generated opaque `click_id`. `outbound_click` means the
+reviewed destination and any required Impact tracking URL were validated, the
+row was recorded, and a 3xx was issued. `outbound_blocked` means the same
+legitimate attempt fail-closed before a 3xx, with a safe failure reason.
+
+Affiliate/non-affiliate status is based on the actual redirect hostname:
+reviewed Impact/tracking hosts are `affiliate_network`; reviewed provider hosts
+are `provider_direct`; unknown hosts remain `unknown` and are never silently
+reported as direct. One click ID joins one attempt to one terminal row. Reports
+count terminal rows for funnel totals and distinct IDs for reconciliation.
+
 | Step | Event | Written by | Trust |
 |---|---|---|---|
 | 1. Landed on a page | `page_view` | client beacon (`public/app.js`) | Indicative |
@@ -19,9 +34,10 @@ displayed) · `PROJECT_STATUS.md` (what is live right now).
 | 3. Looked at a specific date | `event_view` | client beacon (viewport) | Indicative |
 | 4. Saw a provider button | `provider_cta_view` | client beacon (viewport) | Indicative |
 | 5. Clicked a provider button | `provider_click` | client beacon | **Intent only** |
-| 6. Left through `/api/out` | `outbound_click` | **server, `functions/api/out.js`** | **Authoritative** |
-| 6b. Click that never left | `outbound_blocked` | server, `functions/api/out.js` | Authoritative |
-| 7. Left an email address | `email_signup`, `artist_interest`, `price_alert_interest` | server, `functions/api/signup.js` | Authoritative |
+| 6. Entered `/api/out` | `outbound_attempt` | **server, `functions/api/out.js`** | Authoritative receipt |
+| 7. Left through `/api/out` | `outbound_click` | **server, `functions/api/out.js`** | **Authoritative success** |
+| 7b. Click that never left | `outbound_blocked` | server, `functions/api/out.js` | Authoritative failure |
+| 8. Left an email address | `email_signup`, `artist_interest`, `price_alert_interest` | server, `functions/api/signup.js` | Authoritative |
 
 **`outbound_click` is the authoritative provider-click metric.** It is written
 by the redirect itself, so it cannot be missed by an ad blocker, a failed
@@ -42,14 +58,16 @@ that no longer validates. Without it a broken lane looks merely unpopular. It is
 deliberately limited to provider and configuration failures — malformed or
 probing requests are not demand signal and are not recorded.
 
+`outbound_attempt` is the server receipt before resolution. It is included for
+traceability, but is never added to success or blocked totals.
+
 ### Why the authoritative event cannot be forged
 
 `/api/analytics` is a public, unauthenticated endpoint, and the report
 identifies an authoritative click purely by `event_name = 'outbound_click'`.
-Both server-only events are therefore rejected by that endpoint's allow-list:
-posting `outbound_click` or `outbound_blocked` to it returns `400` and writes
-nothing. `/api/out` is the only writer of either, and every row already in the
-table was written by it, so the guarantee is retroactive as well as forward.
+All three server-only events are therefore rejected by that endpoint's
+allow-list: posting `outbound_attempt`, `outbound_click` or `outbound_blocked`
+to it returns `400` and writes nothing. `/api/out` is the only writer of them.
 
 The client events that remain open — `page_view`, `artist_view`, `event_view`,
 `provider_cta_view`, `provider_click` — are denominators or non-authoritative
@@ -166,6 +184,20 @@ date range vs that provider's own click count in Impact**.
    - Crawler filtering differs. We drop self-identifying crawlers before writing
      the row (`functions/_bot-detection.js`); Impact applies its own rules.
    - Timezone boundaries. Our `created_at` is UTC.
+
+The read-only report also exposes a reconciliation table by provider:
+
+```bash
+npm run report:commercial-funnel -- --since 2026-08-01 --until 2026-09-01 --json
+```
+
+It includes legitimate TTC attempts, successful redirects, blocked redirects,
+affiliate redirects, GA4-eligible CTA events, and Impact-reconcilable click
+IDs. An ID is reconcilable only when the click ID was actually propagated into
+the outbound Impact base-tracking URL; default-off SubID rows, API-generated
+TrackingLinks rows, and historical rows are not counted. These figures are expected to differ: TTC records a server-issued
+redirect, GA4 records the CTA action, and Impact records what arrived at its
+network.
 
 A persistent gap in one direction is worth investigating; day-to-day variation
 of a few clicks is not.
@@ -315,8 +347,8 @@ Also currently unmeasurable:
   reads that column.
 - Paths are stored without query strings; referrers are stored as an origin
   only, never a full URL.
-- GA4 receives a **mirror** of `artist_view`, `provider_cta_view`,
-  `provider_click` and `email_signup` with low-cardinality parameters only
+- GA4 receives a **mirror** of `artist_view`, `provider_cta_view`, the legacy
+  `provider_click` intent as one `outbound_click` event, and `email_signup` with low-cardinality parameters only
   (page type, artist slug, provider, CTA location, affiliate flag). No event id,
   city, venue, path, referrer or address is ever sent to GA4. GA4 cannot see the
   server-side outbound redirect at all, which is why first-party D1 remains

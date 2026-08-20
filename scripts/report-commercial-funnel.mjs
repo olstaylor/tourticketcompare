@@ -263,7 +263,7 @@ export function buildStatements(window) {
       key: "totals",
       sql: `SELECT event_name, COUNT(*) AS events, COUNT(DISTINCT request_key) AS visitors, COUNT(DISTINCT (request_key || substr(created_at, 1, 10))) AS sessions
 FROM analytics_events
-WHERE event_name IN ('page_view', 'artist_view', 'event_view', 'provider_cta_view', 'provider_click', 'outbound_click', 'outbound_blocked', 'email_signup', 'artist_interest', 'price_alert_interest')${since}
+WHERE event_name IN ('page_view', 'artist_view', 'event_view', 'provider_cta_view', 'provider_click', 'outbound_attempt', 'outbound_click', 'outbound_blocked', 'email_signup', 'artist_interest', 'price_alert_interest')${since}
 GROUP BY 1`
     },
     {
@@ -286,6 +286,19 @@ GROUP BY 1`
 FROM analytics_events
 WHERE event_name IN ('provider_click', 'outbound_click', 'outbound_blocked')${since}
 GROUP BY 1, 2`
+    },
+    {
+      key: "reconciliationByProvider",
+      sql: `SELECT COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider,
+  COUNT(DISTINCT CASE WHEN event_name = 'outbound_attempt' THEN click_id END) AS legitimate_attempts,
+  COUNT(DISTINCT CASE WHEN event_name = 'outbound_click' THEN click_id END) AS successful_redirects,
+  COUNT(DISTINCT CASE WHEN event_name = 'outbound_blocked' THEN click_id END) AS blocked_redirects,
+  COUNT(DISTINCT CASE WHEN event_name = 'outbound_click' AND is_affiliate = 1 THEN click_id END) AS affiliate_redirects,
+  COUNT(CASE WHEN event_name = 'provider_click' THEN 1 END) AS ga4_eligible_events,
+  COUNT(DISTINCT CASE WHEN event_name = 'outbound_click' AND impact_reconciliation_eligible = 1 THEN click_id END) AS impact_reconcilable_click_ids
+FROM analytics_events
+WHERE event_name IN ('outbound_attempt', 'outbound_click', 'outbound_blocked', 'provider_click')${since}
+GROUP BY 1`
     },
     {
       key: "clicksByArtist",
@@ -528,6 +541,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
 
   const pageViews = at("page_view");
   const outbound = at("outbound_click").events;
+  const outboundAttempts = at("outbound_attempt").events;
   const providerClicks = at("provider_click").events;
   const ctaViews = at("provider_cta_view").events;
 
@@ -539,6 +553,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
     event_views: at("event_view").events,
     provider_cta_views: ctaViews,
     provider_clicks_client: providerClicks,
+    outbound_attempts: outboundAttempts,
     provider_clicks: outbound,
     outbound_blocked: at("outbound_blocked").events,
     signups: at("email_signup").events + at("artist_interest").events + at("price_alert_interest").events,
@@ -566,6 +581,16 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
       redirect_completion_rate: rate(entry.provider_clicks, entry.provider_clicks_client, options.minClicks)
     }))
     .sort((a, b) => b.provider_clicks - a.provider_clicks || a.provider.localeCompare(b.provider));
+
+  const reconciliationByProvider = (resultSets.reconciliationByProvider || []).map((row) => ({
+    provider: String(row.provider ?? "(none)"),
+    legitimate_attempts: Number(row.legitimate_attempts) || 0,
+    successful_redirects: Number(row.successful_redirects) || 0,
+    blocked_redirects: Number(row.blocked_redirects) || 0,
+    affiliate_redirects: Number(row.affiliate_redirects) || 0,
+    ga4_eligible_events: Number(row.ga4_eligible_events) || 0,
+    impact_reconcilable_click_ids: Number(row.impact_reconcilable_click_ids) || 0
+  })).sort((a, b) => b.successful_redirects - a.successful_redirects || a.provider.localeCompare(b.provider));
 
   const artistViews = toCountMap(resultSets.viewsByArtist, "artist_slug", "views");
   const byArtist = resultSets.clicksByArtist
@@ -702,6 +727,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
     },
     funnel,
     clicks_by_provider: byProvider,
+    reconciliation_by_provider: reconciliationByProvider,
     clicks_by_artist: byArtist.slice(0, options.top),
     clicks_by_page_type: byPageType,
     clicks_by_cta_location: resultSets.clicksByCtaLocation
@@ -764,6 +790,7 @@ export function renderReport(report) {
       ["event_view", funnel.event_views],
       ["provider_cta_view", funnel.provider_cta_views],
       ["provider_click (client intent)", funnel.provider_clicks_client],
+      ["outbound_attempt (server receipt)", funnel.outbound_attempts],
       ["outbound_click (AUTHORITATIVE)", funnel.provider_clicks],
       ["outbound_blocked", funnel.outbound_blocked],
       ["signups", funnel.signups]
@@ -784,6 +811,21 @@ export function renderReport(report) {
       row.provider_clicks_client,
       formatRate(row.redirect_completion_rate, row.provider_clicks_client, minClicks),
       row.blocked
+    ])
+  ));
+  lines.push("");
+
+  lines.push("-- Reconciliation by provider --");
+  lines.push(renderTable(
+    ["provider", "attempts", "redirected", "blocked", "affiliate", "GA4 eligible", "Impact IDs"],
+    report.reconciliation_by_provider.map((row) => [
+      row.provider,
+      row.legitimate_attempts,
+      row.successful_redirects,
+      row.blocked_redirects,
+      row.affiliate_redirects,
+      row.ga4_eligible_events,
+      row.impact_reconcilable_click_ids
     ])
   ));
   lines.push("");
@@ -941,7 +983,7 @@ function selfTest() {
   check(() => {
     const statements = buildStatements({ since: "2026-06-30T12:00:00.000Z", until: "2026-07-30T12:00:00.000Z" });
     assert.deepEqual(statements.map((s) => s.key), [
-      "totals", "viewsByPageType", "clicksByPageType", "clicksByProvider", "clicksByArtist",
+      "totals", "viewsByPageType", "clicksByPageType", "clicksByProvider", "reconciliationByProvider", "clicksByArtist",
       "viewsByArtist", "affiliateSplit", "clicksByCtaLocation", "landingPageViews",
       "landingPageClicks", "pageViewsByPath", "clicksByPath", "signupsByArtist", "blockedByStatus"
     ]);
@@ -990,6 +1032,10 @@ function selfTest() {
       { event_name: "outbound_click", provider: "seatgeek", clicks: 26 },
       { event_name: "outbound_click", provider: "ticketmaster", clicks: 18 },
       { event_name: "outbound_blocked", provider: "vivid-seats", clicks: 6 }
+    ],
+    reconciliationByProvider: [
+      { provider: "seatgeek", legitimate_attempts: 30, successful_redirects: 26, blocked_redirects: 4, affiliate_redirects: 26, ga4_eligible_events: 30, impact_reconcilable_click_ids: 26 },
+      { provider: "ticketmaster", legitimate_attempts: 18, successful_redirects: 18, blocked_redirects: 0, affiliate_redirects: 0, ga4_eligible_events: 18, impact_reconcilable_click_ids: 0 }
     ],
     clicksByArtist: [
       { artist_slug: "artist-a", clicks: 30 },

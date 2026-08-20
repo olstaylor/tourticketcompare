@@ -40,7 +40,7 @@ Full setup steps: [DEPLOYMENT.md](DEPLOYMENT.md). Reference of the actual creden
 | `IMPACT_SEATGEEK_*` / `IMPACT_VIVIDSEATS_*` | Provider-specific Impact credentials | Their approved lanes only. |
 | `IMPACT_TICKETNETWORK_*`, `IMPACT_TICKETLIQUIDATOR_*`, `IMPACT_STUBHUB_INTERNATIONAL_*` | Optional provider-specific overrides | Fall back to network-level if unset. |
 | `DEBUG_API_TOKEN` | `/api/debug-seatgeek`, every `/api/impact/*` diagnostic, `IMPACT_CATALOG_PROXY_URL` automation | Routes 404 without it — never expose one publicly. |
-| `GITHUB_OAUTH_CLIENT_ID` / `GITHUB_OAUTH_CLIENT_SECRET` | `/admin` editor OAuth handshake | Configured 2026-08-19, alongside the `admin.tourticketcompare.com` custom domain. Pages binds these at deploy time: after changing either value, redeploy or sign-in keeps 503ing against the old one. |
+| `GITHUB_OAUTH_CLIENT_ID` / `GITHUB_OAUTH_CLIENT_SECRET` | `/admin` editor OAuth handshake | Configured 2026-08-19, alongside the `admin.tourticketcompare.com` custom domain. Pages binds these at deploy time, and the symptom differs by case: a binding added but not yet deployed reads empty and 503s at `/api/admin/auth`, while a rotated value whose deploy has not landed still redirects and then fails the token exchange with a 502 at `/api/admin/callback`. Redeploy after either change. |
 | `SEATGEEK_CLIENT_ID` / `SEATGEEK_CLIENT_SECRET` | Controlled discovery/snapshot tooling | Never `/api/out`. |
 | `TICKETMASTER_API_KEY` | Scheduled discovery/audit workflows; opt-in live-discovery path in `/api/shows` (default off) | Normal traffic reads the persisted catalogue. |
 | `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` | Remote D1 writes from Actions | |

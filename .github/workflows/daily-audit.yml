@@ -280,6 +280,12 @@ jobs:
           # audit's own render of every route to read robots meta truthfully.
           node scripts/validate-status-counts.mjs --write
           npm run status:surface:write
+          # The command above also refreshes the human-readable and JSON
+          # evidence reports. They are intentionally not committed by this
+          # job: their generated_at timestamp would create daily churn. Restore
+          # those two evidence files before the allowlist check; the status
+          # figures remain the only persisted output of this job.
+          git restore --source=HEAD -- reports/indexable-surface/indexable-surface.json reports/indexable-surface/indexable-surface.md
 
       - name: Check for changes
         id: diff

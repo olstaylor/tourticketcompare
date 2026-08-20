@@ -2292,7 +2292,11 @@ function renderArtistBrowseSection(catalog) {
 
 // Guide bodies may only link to other guides — the narrowest pattern that has
 // always applied, kept as the default so guide output is byte-identical.
-const GUIDE_INLINE_LINK = /\[([^\]]+)\]\((\/guides\/[a-z0-9-]+)\)/g;
+// Guides may link to any route that the compiler validates, plus HTTPS
+// primary sources. Keep this pattern aligned with INTERNAL_LINK_SHAPES and
+// INTERNAL_LINK_EXACT in scripts/build-guide-content.mjs so accepted Markdown
+// never renders as literal Markdown on the published page.
+const GUIDE_INLINE_LINK = /\[([^\]]+)\]\((https:\/\/[^\s)"]+|\/[a-z0-9][a-z0-9\-/]*(?:\?[^\s)"#]*)?(?:#[a-zA-Z0-9\-_]*)?)\)/g;
 // Blog bodies may additionally link to any published route family and to https
 // sources. scripts/build-blog-content.mjs resolves every one of those targets
 // at build time, so a dead internal link fails the build rather than shipping.

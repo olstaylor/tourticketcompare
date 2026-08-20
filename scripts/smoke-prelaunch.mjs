@@ -971,6 +971,18 @@ for (const evidence of routeRawEvidence) {
   console.log(JSON.stringify(evidence));
 }
 
+// Guide Markdown accepts internal and HTTPS links. Verify a published guide
+// renders an accepted internal link as HTML rather than leaking literal Markdown.
+const guideLinkSmoke = await routeResponse("/guides/primary-vs-resale-concert-tickets");
+assert(
+  /<a class="text-link" href="\/artists">artist page<\/a>/.test(guideLinkSmoke.text),
+  "guide internal links should render as HTML anchors"
+);
+assert(
+  !guideLinkSmoke.text.includes("[artist page](/artists)"),
+  "guide internal links must not leak literal Markdown"
+);
+
 // JSON-LD: verify schema exists, parses, and contains correct types per route
 function extractJsonLd(html) {
   const match = html.match(/<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/i);

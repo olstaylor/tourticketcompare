@@ -119,7 +119,27 @@ Blog posts are authored as Markdown with YAML front matter in `content/blog/`, w
 
 `functions/_blog.js` is the single derivation shared by the router, sitemap, `llms.txt`, the RSS feed at `/blog/rss.xml`, and both site audits, so the blog's indexable URL set cannot drift between them. A `draft` post has no route at all (404). A published post renders at `/blog/<slug>` and is indexable at 300+ body words; a tag page renders at `/blog/tags/<tag>` and is indexable once two or more indexable posts share the tag. Below either threshold the page still returns 200 with a self-referencing canonical and stays internally linked, `noindex,follow` — the same treatment single-date artist-city pages receive (`docs/ROUTE_INDEXABILITY_POLICY.md`). Post pages emit `BlogPosting`; index and tag pages emit `Blog`/`CollectionPage` with a nested `ItemList`. The blog carries no provider, CTA, price, or event logic of its own.
 
-The browser editor is served from a **separate origin**, `admin.tourticketcompare.com` (`ADMIN_HOST` in `functions/_route-metadata.js`), because the CMS keeps the signed-in user's GitHub token in `localStorage` and `localStorage` is shared across an origin — the apex runs GTM and GA, so an editor there would expose a repository-write credential to any third-party tag or XSS. `functions/_middleware.js` enforces the boundary both ways: the admin host serves only `/admin`, `/admin/*` and `/api/admin/*` (everything else 301s to the apex, and it serves its own `Disallow: /` robots), and every other host 404s those paths. `functions/admin.js` restates the host check at the handler. The OAuth handshake in `functions/api/admin/` exchanges a code for a `public_repo`-scoped user token server-side and fails closed with setup instructions when unconfigured; the editor holds no site credential. Authoring reference and one-time setup: `docs/BLOG.md`.
+### Content pipeline
+
+Two collections share one shape: a Markdown file with YAML front matter, compiled into generated artefacts the runtime reads, because Pages serves `public/` with no build step and a Function cannot list a directory.
+
+| | Blog | Guides |
+|---|---|---|
+| Source | `content/blog/*.md` | `content/guides/*.md` |
+| Build | `npm run blog:build` | `npm run guides:build` |
+| Generated | `public/data/blog-content.json` | `public/data/guides-content.json` and `functions/_guide-routes.generated.js` |
+| Draft gate | absent from the compiled post list | absent from `GUIDE_ROUTES`, so no route, sitemap entry or `llms.txt` line |
+| Staleness guard | `npm run blog:check` | `npm run guides:check` |
+
+`functions/_route-metadata.js` re-exports the generated `GUIDE_ROUTES` and keeps owning `TRUST_ROUTES` and `OLD_GUIDE_REDIRECTS`. Withdrawal is deliberately outside the CMS: the guide build refuses to drop a previously published path unless `OLD_GUIDE_REDIRECTS` carries an entry for it.
+
+Three machine-owned files sit beside the sources and are never hand-edited:
+
+- `data/content-provenance.json` — each page's copy fingerprint, the `lastmod` derived from it, and `guide_publication`, the append-only record of when each guide first went live. A guide's `date_published` is checked against that ledger on every build, so it cannot move once set, and the entry survives the guide being drafted or deleted.
+- `data/guide-source-link-checks.json` — when each cited source URL last resolved, written only by the nightly link check. The editorial claim that a human re-read a source is `last_checked` in the Markdown, which automation never touches.
+- `data/guide-order.json` — hand-authored display order for published guides, read by the sitemap, `llms.txt`, `/guides` and the homepage cards. Kept out of the CMS so saving a guide cannot reorder the homepage.
+
+The browser editor is served from a **separate origin**, `admin.tourticketcompare.com` (`ADMIN_HOST` in `functions/_route-metadata.js`), because the CMS keeps the signed-in user's GitHub token in `localStorage` and `localStorage` is shared across an origin — the apex runs GTM and GA, so an editor there would expose a repository-write credential to any third-party tag or XSS. `functions/_middleware.js` enforces the boundary both ways: the admin host serves only `/admin`, `/admin/*` and `/api/admin/*` (everything else 301s to the apex, and it serves its own `Disallow: /` robots), and every other host 404s those paths. `functions/admin.js` restates the host check at the handler. The OAuth handshake in `functions/api/admin/` exchanges a code for a `public_repo`-scoped user token server-side and fails closed with setup instructions when unconfigured; the editor holds no site credential. It edits two collections, blog posts and buying guides, both of which compile through `content-build.yml`. Authoring reference and one-time setup: `docs/BLOG.md`.
 
 ## Data and rendering flow
 
@@ -198,6 +218,7 @@ Changes to these files require explicit scope and proportionate validation:
 - reviewed records under `public/data/`
 - `public/data/blog-content.json` (generated — edit `content/blog/*.md` instead)
 - `functions/api/admin/` OAuth handshake and the vendored `public/admin/` bundle
+- `functions/_guide-routes.generated.js` — generated; edit `content/guides/*.md` and run `npm run guides:build`
 - Impact/provider credentials and tracking logic
 
 ## Documentation boundaries

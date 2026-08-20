@@ -102,32 +102,52 @@ assert(
   "keeps a comma-qualified name while dropping the parenthetical"
 );
 
-// --- provenance date contract ------------------------------------------------
-// functions/[[path]].js keeps an inline fallback for the event-price guide so a
-// deploy serving stale route metadata still renders it rather than 404ing.
-const EVENT_PRICE_GUIDE_PATH = "/guides/how-to-compare-event-ticket-prices";
-assert(
-  Boolean(GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH]),
-  "the inline guide fallback's route exists in GUIDE_ROUTES"
-);
+// --- the event-price guide's render fallback -------------------------------
+// functions/[[path]].js renders this guide from a standalone literal when its
+// GUIDE_ROUTES entry is missing, so the page never 404s or loses its provenance
+// line on a stale deploy. Both objects are generated from the same Markdown by
+// scripts/build-guide-content.mjs; this asserts every field agrees, not just the
+// dates, so a drifted generator is caught here rather than in production.
+const { EVENT_PRICE_GUIDE_PATH, EVENT_PRICE_GUIDE_FALLBACK } = await import("../functions/_guide-routes.generated.js");
 
-// The fallback holds its own literal dates so it still publishes provenance when
-// the canonical entry is missing — which is the only time it renders. That means
-// nothing at runtime keeps the two in step, so this test does. If the provenance
-// sync advances the canonical entry, copy the new values into
-// EVENT_PRICE_GUIDE_FALLBACK in functions/[[path]].js.
-const routerSource = readFileSync(new URL("../functions/[[path]].js", import.meta.url), "utf8");
-const fallbackBlock = routerSource.slice(
-  routerSource.indexOf("const EVENT_PRICE_GUIDE_FALLBACK = {"),
-  routerSource.indexOf("};", routerSource.indexOf("const EVENT_PRICE_GUIDE_FALLBACK = {"))
-);
-for (const field of ["datePublished", "lastmod"]) {
-  const literal = fallbackBlock.match(new RegExp(`${field}:\\s*"([\\d-]+)"`))?.[1];
+assert(Boolean(GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH]), "the inline guide fallback's route exists in GUIDE_ROUTES");
+
+const canonicalGuideEntry = GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH];
+const fallbackFields = ["title", "h1", "description", "fullContent", "datePublished", "lastmod"];
+for (const field of fallbackFields) {
   assert(
-    literal === GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH][field],
-    `EVENT_PRICE_GUIDE_FALLBACK.${field} (${literal}) matches GUIDE_ROUTES (${GUIDE_ROUTES[EVENT_PRICE_GUIDE_PATH][field]})`
+    EVENT_PRICE_GUIDE_FALLBACK[field] === canonicalGuideEntry[field],
+    `EVENT_PRICE_GUIDE_FALLBACK.${field} (${EVENT_PRICE_GUIDE_FALLBACK[field]}) matches GUIDE_ROUTES (${canonicalGuideEntry[field]})`
   );
 }
+assert(
+  Object.keys(EVENT_PRICE_GUIDE_FALLBACK).sort().join(",") === fallbackFields.slice().sort().join(","),
+  "EVENT_PRICE_GUIDE_FALLBACK carries exactly the fields GUIDE_ROUTES does"
+);
+
+// The fallback must stay a standalone literal. If a future generator ever
+// emitted it as `GUIDE_ROUTES[path]`, a missing entry would yield undefined and
+// the fallback would fail in exactly the case it exists for.
+const guideModuleSource = readFileSync(new URL("../functions/_guide-routes.generated.js", import.meta.url), "utf8");
+assert(
+  /export const EVENT_PRICE_GUIDE_FALLBACK = \{\n\s+title:/.test(guideModuleSource),
+  "EVENT_PRICE_GUIDE_FALLBACK is emitted as its own object literal, not a lookup into GUIDE_ROUTES"
+);
+assert(
+  !/EVENT_PRICE_GUIDE_FALLBACK\s*=\s*GUIDE_ROUTES/.test(guideModuleSource),
+  "EVENT_PRICE_GUIDE_FALLBACK does not alias GUIDE_ROUTES"
+);
+
+// The router must import it rather than carry its own copy.
+const routerSource = readFileSync(new URL("../functions/[[path]].js", import.meta.url), "utf8");
+assert(
+  /import \{ EVENT_PRICE_GUIDE_PATH, EVENT_PRICE_GUIDE_FALLBACK \} from "\.\/_guide-routes\.generated\.js";/.test(routerSource),
+  "functions/[[path]].js imports the generated fallback"
+);
+assert(
+  !/const EVENT_PRICE_GUIDE_FALLBACK = \{/.test(routerSource),
+  "functions/[[path]].js keeps no second copy of the fallback literal"
+);
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 

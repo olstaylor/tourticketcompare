@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 // Validates that guide routes, guide content, redirects, and sitemap generation
-// stay in sync. Catches drift such as a route added to functions/_route-metadata.js
-// without a matching entry in public/data/guides-content.json (or vice versa),
-// duplicate slugs, dead old-guide redirects, and missing sitemap coverage.
+// stay in sync. Both GUIDE_ROUTES and public/data/guides-content.json are now
+// generated from content/guides/*.md by scripts/build-guide-content.mjs, so the
+// two can no longer disagree by hand — but they can disagree with the Markdown
+// that produced them, with the redirect table, or with what the sitemap and
+// llms.txt actually emit. This checks all of that from the outside.
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -34,6 +36,8 @@ function findDuplicateMatches(source, pattern) {
 }
 
 const routeMetadataPath = "functions/_route-metadata.js";
+const generatedRoutesPath = "functions/_guide-routes.generated.js";
+const guidesSourceDir = "content/guides";
 const guideContentPath = "public/data/guides-content.json";
 const sitemapModulePath = "functions/sitemap.xml.js";
 
@@ -58,14 +62,54 @@ const contentSlugs = Object.keys(guideContent);
 // 1. Source-level uniqueness: JS and JSON parsers silently drop duplicate keys,
 // so check the raw source files for repeated slug keys.
 const routeMetadataSource = await readText(routeMetadataPath);
+const generatedRoutesSource = await readText(generatedRoutesPath);
 const duplicateRouteSlugs = findDuplicateMatches(
-  routeMetadataSource,
-  /"(\/guides\/[a-z0-9-]+)"\s*:/g
+  generatedRoutesSource,
+  /^ {2}"(\/guides\/[a-z0-9-]+)"\s*:/gm
 );
 if (duplicateRouteSlugs.length) {
-  fail(`duplicate guide slugs in ${routeMetadataPath}: ${duplicateRouteSlugs.join(", ")}`);
+  fail(`duplicate guide slugs in ${generatedRoutesPath}: ${duplicateRouteSlugs.join(", ")}`);
 } else {
-  ok(`${routeMetadataPath} guide slugs are unique`);
+  ok(`${generatedRoutesPath} guide slugs are unique`);
+}
+
+// 1b. The generated route table must come from the generator, and the
+// hand-authored metadata module must not have grown a second copy of it.
+if (!/GENERATED FILE — DO NOT EDIT/.test(generatedRoutesSource)) {
+  fail(`${generatedRoutesPath} has lost its generated-file banner`);
+} else {
+  ok(`${generatedRoutesPath} is marked generated`);
+}
+if (/export const GUIDE_ROUTES\s*=\s*\{/.test(routeMetadataSource)) {
+  fail(`${routeMetadataPath} declares its own GUIDE_ROUTES; it must re-export the generated one`);
+} else if (!/export \{ GUIDE_ROUTES \} from "\.\/_guide-routes\.generated\.js";/.test(routeMetadataSource)) {
+  fail(`${routeMetadataPath} does not re-export GUIDE_ROUTES from ${generatedRoutesPath}`);
+} else {
+  ok(`${routeMetadataPath} re-exports the generated GUIDE_ROUTES`);
+}
+
+// 1c. Every published route traces back to a Markdown file, and every Markdown
+// file that is not published is absent from the route table — the draft gate.
+const guideFiles = (await fs.readdir(path.join(root, guidesSourceDir))).filter((file) => file.endsWith(".md"));
+const sourceSlugs = new Set(guideFiles.map((file) => file.replace(/\.md$/, "")));
+const routesWithoutSource = routeSlugs.filter((slug) => !sourceSlugs.has(slug.replace("/guides/", "")));
+if (routesWithoutSource.length) {
+  fail(`guide route(s) with no ${guidesSourceDir}/<slug>.md: ${routesWithoutSource.join(", ")}`);
+} else {
+  ok(`all ${routeSlugs.length} guide routes trace back to ${guidesSourceDir}`);
+}
+
+const draftSlugs = [];
+for (const file of guideFiles) {
+  const source = await readText(`${guidesSourceDir}/${file}`);
+  const status = source.match(/^status:\s*(\S+)\s*$/m)?.[1];
+  if (status !== "published") draftSlugs.push(file.replace(/\.md$/, ""));
+}
+const leakedDrafts = draftSlugs.filter((slug) => routeSlugs.includes(`/guides/${slug}`));
+if (leakedDrafts.length) {
+  fail(`draft guide(s) present in GUIDE_ROUTES: ${leakedDrafts.join(", ")}`);
+} else {
+  ok(`${draftSlugs.length} draft guide(s) have no route, sitemap entry or llms.txt line`);
 }
 
 const duplicateContentSlugs = findDuplicateMatches(

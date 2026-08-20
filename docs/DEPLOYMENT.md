@@ -88,7 +88,7 @@ Production requires:
 - provider public/price-display flags documented in [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md);
 - server-side credentials for the provider lanes that are enabled;
 - `DEBUG_API_TOKEN`, without which `/api/debug-seatgeek` and every `/api/impact/*` diagnostic 404 (they are never public — each proxies an authenticated Publisher API call); and
-- for the `/admin` content editor only: the `admin.tourticketcompare.com` custom domain on this same Pages project, plus `GITHUB_OAUTH_CLIENT_ID` / `GITHUB_OAUTH_CLIENT_SECRET`. Neither exists yet; until both do, the editor is unreachable and sign-in fails closed with a 503 naming what is missing. Setup steps: [BLOG.md](BLOG.md).
+- for the `/admin` content editor only: the `admin.tourticketcompare.com` custom domain on this same Pages project, plus `GITHUB_OAUTH_CLIENT_ID` / `GITHUB_OAUTH_CLIENT_SECRET`. All three exist as of 2026-08-19 and the editor is live; if a secret is ever cleared, sign-in fails closed with a 503 naming what is missing. Setup steps: [BLOG.md](BLOG.md).
 
 Provider credential families currently used by code include network-level Impact credentials, SeatGeek, Vivid Seats, and optional marketplace-provider overrides. Exact current configuration belongs in `PROJECT_STATUS.md` and should be verified via `/api/health` plus a fail-closed redirect test. Obsolete `IMPACT_TICKETMASTER_*` values should not be restored.
 

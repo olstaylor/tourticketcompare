@@ -44,7 +44,7 @@ Closed on GitHub; kept as a short audit trail only. Full detail lives in the lin
 
 - Full-board price coverage + honest unavailable state (2026-08-04, PRs #646/#657)
 - Impact diagnostics security pass — `/api/impact/*` + `/api/debug-seatgeek` token-gated (2026-08-03, PR #648)
-- Content editor isolated on `admin.tourticketcompare.com` (2026-08-04, PR #652; owner DNS/OAuth setup still outstanding — `docs/OPERATIONS.md`)
+- Content editor isolated on `admin.tourticketcompare.com` (2026-08-04, PR #652; DNS and OAuth completed and verified live 2026-08-19)
 - Static-page date provenance derived from copy fingerprints (2026-08-03, PR #647)
 - Blog + Markdown content pipeline (2026-08-01)
 - Commercial funnel measurement — server-side `outbound_click` as authoritative metric (2026-07-31; migration `0008` applied to production 2026-08-07)

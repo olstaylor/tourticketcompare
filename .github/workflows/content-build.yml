@@ -1,24 +1,45 @@
 name: Content Build
 
-# Compiles content/blog/*.md into public/data/blog-content.json and commits the
-# result, which is what makes a post appear on the live site.
+# Compiles content/blog/*.md and content/guides/*.md into the generated files
+# the live site reads, and commits the result — which is what makes a post or a
+# guide appear.
 #
 # Why this exists: Cloudflare Pages serves public/ with no build step, so
 # nothing else would ever compile the Markdown. The browser editor at /admin
 # commits Markdown and stops; this job finishes the job.
 #
-# Scope is deliberately narrow. It only ever writes public/data/blog-content.json,
-# it never touches event, artist, catalog, or provider data, and it commits only
-# after the full validation suite has passed in this same job on exactly the
-# content it is about to publish. A validation failure leaves main unchanged and
-# fails loudly.
+# Scope is deliberately narrow. It writes FOUR generated, machine-owned files
+# and nothing else:
+#
+#   public/data/blog-content.json          compiled from content/blog/*.md
+#   public/data/guides-content.json        compiled from content/guides/*.md
+#   functions/_guide-routes.generated.js   published guide routes + the router's
+#                                          event-price fallback literal
+#   data/content-provenance.json           each page's copy fingerprint, its
+#                                          derived lastmod, and the immutable
+#                                          first-publication ledger
+#
+# It never touches event, artist, catalog, provider, pricing, redirect or
+# affiliate data, and it never writes content/**: the Markdown is human-authored
+# and a bot commit there would race an editor's save. The commit happens only
+# after the full validation suite has passed in this same job, on exactly the
+# content it is about to publish, and only after the diff has been proved to
+# contain nothing outside the four paths above. A failure leaves main unchanged
+# and fails loudly.
 
 on:
   push:
     branches: [main]
     paths:
       - 'content/blog/**'
+      - 'content/guides/**'
+      # Hand-authored guide display order. Distinct from the data/ file this job
+      # commits, so a bot commit cannot re-trigger the workflow.
+      - 'data/guide-order.json'
       - 'scripts/build-blog-content.mjs'
+      - 'scripts/build-guide-content.mjs'
+      - 'scripts/sync-content-provenance.mjs'
+      - 'scripts/lib/content-markdown.mjs'
       - 'functions/_blog.js'
   workflow_dispatch:
     inputs:
@@ -37,7 +58,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # The retry path below re-runs the whole validation suite against the new
+    # base rather than pushing an unvalidated rebuild, so the budget has to
+    # cover more than one pass.
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,22 +75,44 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Compile content/blog into public/data/blog-content.json
-        run: npm run blog:build
+      # --- writers ------------------------------------------------------
+      # Everything that can modify a file runs here, before any validation.
+      # Nothing below this block writes, so what is validated is exactly what
+      # is committed.
+      #
+      # Order matters and converges in one pass: the guide build compiles the
+      # Markdown, the provenance sync fingerprints that compiled output and
+      # advances lastmod only where the copy actually changed, and the final
+      # guide build folds any advanced date back into the generated route
+      # module. The fingerprint excludes datePublished and lastmod, so the hash
+      # cannot change as a result of the value it determines — the third build
+      # is a no-op by construction, and `guides:check` in the suite below
+      # proves it.
+      - name: Compile content and refresh provenance
+        run: |
+          npm run guides:build
+          npm run blog:build
+          npm run content:provenance
+          npm run guides:build
 
       - name: Report what changed
         id: changed
         run: |
-          if git diff --quiet -- public/data/blog-content.json; then
+          if git diff --quiet -- \
+            public/data/blog-content.json \
+            public/data/guides-content.json \
+            functions/_guide-routes.generated.js \
+            data/content-provenance.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No change: the committed JSON already matches content/blog."
+            echo "No change: the committed output already matches content/."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            git --no-pager diff --stat -- public/data/blog-content.json
+            git --no-pager diff --stat
           fi
 
-      # The generated file is an input to the router, the sitemap, llms.txt and
-      # both site audits, so it goes through the same gate as any other change
+      # --- validation ---------------------------------------------------
+      # The generated files are inputs to the router, the sitemap, llms.txt and
+      # both site audits, so they go through the same gate as any other change
       # to published content — before the commit, not after.
       - name: Run canonical validation suite
         if: steps.changed.outputs.changed == 'true'
@@ -84,40 +130,83 @@ jobs:
         if: steps.changed.outputs.changed == 'true'
         run: git diff --check
 
+      # `git add <paths>` only decides what is staged; it says nothing about
+      # what the build actually touched. This proves the working tree contains
+      # no change outside the four allowlisted outputs, so a compiler bug — or
+      # a future edit to this workflow — cannot quietly ship a fifth file.
+      - name: Assert the diff contains only allowlisted files
+        if: steps.changed.outputs.changed == 'true'
+        run: ./.github/workflows/scripts/assert-diff-allowlist.sh
+          public/data/blog-content.json
+          public/data/guides-content.json
+          functions/_guide-routes.generated.js
+          data/content-provenance.json
+
+      # --- commit (no writer runs after this point) ---------------------
       # The validation suite above takes minutes, and the scheduled sync lanes
       # (daily-audit, nightly-data-sync, the provider syncs) push to main
       # independently. A plain `git push origin HEAD:main` is rejected as
       # non-fast-forward if any of them lands first, and nothing would rebuild
       # that Markdown afterwards — an /admin save could sit unpublished
-      # indefinitely. On rejection, reset onto the new main, recompile from the
-      # content that main now carries, and retry.
+      # indefinitely. On rejection, reset onto the new main, re-run the whole
+      # writer + validation pipeline against the content main now carries, and
+      # retry. Re-validating is the point: another lane may have changed the
+      # artist data a guide's links resolve against.
       - name: Commit the compiled content
         if: steps.changed.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
         run: |
+          set -euo pipefail
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
-          git add public/data/blog-content.json
-          git commit -m "content: rebuild blog content from content/blog"
 
-          for attempt in 1 2 3 4 5; do
+          stage_and_commit() {
+            git add public/data/blog-content.json \
+                    public/data/guides-content.json \
+                    functions/_guide-routes.generated.js \
+                    data/content-provenance.json
+            git commit -m "content: rebuild blog and guide content from content/"
+          }
+
+          stage_and_commit
+
+          for attempt in 1 2 3; do
             if git push origin HEAD:main; then
-              echo "Pushed the rebuilt blog content (attempt ${attempt})."
+              echo "Pushed the rebuilt content (attempt ${attempt})."
               exit 0
             fi
             echo "::warning::push rejected on attempt ${attempt}; reconciling with the current main tip."
             sleep $((attempt * 5))
             git fetch origin main
             git reset --hard origin/main
+
+            npm run guides:build
             npm run blog:build
-            if git diff --quiet -- public/data/blog-content.json; then
+            npm run content:provenance
+            npm run guides:build
+
+            if git diff --quiet -- \
+              public/data/blog-content.json \
+              public/data/guides-content.json \
+              functions/_guide-routes.generated.js \
+              data/content-provenance.json; then
               echo "::notice::main already carries an equivalent rebuild; nothing left to push."
               exit 0
             fi
-            git add public/data/blog-content.json
-            git commit -m "content: rebuild blog content from content/blog"
+
+            npm run test:mvp
+            npm run schema:validate
+            npm run audit:indexable-surface:check
+            git diff --check
+            ./.github/workflows/scripts/assert-diff-allowlist.sh \
+              public/data/blog-content.json \
+              public/data/guides-content.json \
+              functions/_guide-routes.generated.js \
+              data/content-provenance.json
+
+            stage_and_commit
           done
 
-          echo "::error::Could not push the rebuilt blog content after 5 attempts. Re-run this workflow to publish."
+          echo "::error::Could not push the rebuilt content after 3 attempts. Re-run this workflow to publish."
           exit 1
 
       - name: Report dry run

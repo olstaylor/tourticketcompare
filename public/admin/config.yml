@@ -6,10 +6,19 @@
 # the repository can publish. No credentials belong in this file — it is a
 # public static asset.
 #
-# The CMS commits Markdown to content/blog/. It does NOT compile it: the
-# generated public/data/blog-content.json is rebuilt by
-# .github/workflows/content-build.yml after the commit lands, which is what
-# makes a post appear on the site.
+# The CMS commits Markdown to content/blog/ and content/guides/. It does NOT
+# compile it: the generated public/data/blog-content.json,
+# public/data/guides-content.json and functions/_guide-routes.generated.js are
+# rebuilt by .github/workflows/content-build.yml after the commit lands, which
+# is what makes a post or guide appear on the site.
+#
+# Two fields you will not find below, on purpose:
+#   * a guide's "last updated" date. It is derived from a fingerprint of the
+#     published copy (scripts/sync-content-provenance.mjs), so it moves when the
+#     words move and never because a file was touched. Nobody types it.
+#   * a source's "link checked" date. That is stamped by the nightly link check
+#     and means only that the URL still resolved. The editorial claim — that a
+#     person re-read the source — is "Source last reviewed" below.
 
 backend:
   name: github
@@ -20,9 +29,19 @@ backend:
   base_url: https://admin.tourticketcompare.com
   auth_endpoint: api/admin/auth
   commit_messages:
-    create: 'content: add blog post "{{slug}}"'
-    update: 'content: update blog post "{{slug}}"'
-    delete: 'content: remove blog post "{{slug}}"'
+    create: 'content: add {{collection}} entry "{{slug}}"'
+    update: 'content: update {{collection}} entry "{{slug}}"'
+    delete: 'content: remove {{collection}} entry "{{slug}}"'
+
+# Pin the serializer. Sveltia formats front matter with the `yaml` package and
+# these are its defaults, but stating them keeps a bundle upgrade from silently
+# reformatting every file — and scripts/cms-content-contract.test.mjs asserts a
+# save with exactly these options round-trips every existing document.
+output:
+  yaml:
+    indent_size: 2
+    indent_sequences: true
+    quote: none
 
 # Editing straight to main matches how the rest of this repository publishes
 # content, and `status: draft` is the real safety net — a draft post has no
@@ -41,9 +60,167 @@ media_folder: public/assets/blog
 public_folder: /assets/blog
 
 collections:
+  - name: guides
+    label: Buying guides
+    label_singular: Buying guide
+    icon: menu_book
+    folder: content/guides
+    create: true
+    # A published guide is a live URL with a publication date and inbound links.
+    # Deleting one here would 404 it silently, so the button is off: withdrawing
+    # a guide is a redirect decision, taken in OLD_GUIDE_REDIRECTS
+    # (functions/_route-metadata.js) in a reviewed commit. The build refuses to
+    # drop a previously published path that has no redirect, so setting a guide
+    # back to Draft fails validation with that instruction rather than removing
+    # the page.
+    delete: false
+    slug: '{{slug}}'
+    identifier_field: h1
+    extension: md
+    format: yaml-frontmatter
+    summary: '{{h1}} — published {{date_published}} ({{status}})'
+    sortable_fields: [date_published, title, h1]
+    view_filters:
+      - label: Published
+        field: status
+        pattern: published
+      - label: Drafts
+        field: status
+        pattern: draft
+    fields:
+      - name: title
+        label: Search title
+        widget: string
+        hint: >-
+          The headline in search results. " | TourTicketCompare" is added
+          automatically when the two fit in 60 characters, so write the guide's
+          own title here and leave the suffix off.
+
+      - name: h1
+        label: Page heading (H1)
+        widget: string
+        hint: >-
+          The heading a reader sees at the top of the page, and the link text
+          used wherever the guide is listed. Often phrased as the question the
+          guide answers. Under 70 characters.
+
+      - name: description
+        label: Search description
+        widget: text
+        hint: >-
+          One full sentence, 50-160 characters. This is the snippet under the
+          link in search results and the lead paragraph on the page.
+
+      - name: status
+        label: Status
+        widget: select
+        default: draft
+        options: [draft, published]
+        hint: >-
+          Drafts are committed but never rendered — no page, no sitemap entry,
+          no llms.txt line. A guide that has already been published cannot be
+          returned to draft without a redirect decision.
+
+      - name: date_published
+        label: First published
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: true
+        required: false
+        hint: >-
+          The day this guide first went live. Required to publish, and fixed for
+          good once it has: it is a historical claim, not a freshness signal.
+          The "Updated" date on the page is derived from the copy itself, so
+          revising a guide moves that date and never this one. A guide that has
+          never been published may leave this blank.
+
+      - name: sources
+        label: Sources
+        label_singular: Source
+        widget: list
+        summary: '{{fields.name}} — {{fields.publisher}} (reviewed {{fields.last_checked}})'
+        hint: >-
+          Primary provider or regulator pages backing the time-sensitive claims
+          in this guide. A published guide needs at least two.
+        fields:
+          - name: name
+            label: Title of the source page
+            widget: string
+          - name: publisher
+            label: Publisher
+            widget: string
+            hint: Who publishes it, e.g. "Ticketmaster Help" or "US Federal Trade Commission".
+          - name: url
+            label: URL
+            widget: string
+            pattern: ['^https://', 'Must be an https URL']
+          - name: last_checked
+            label: Source last reviewed
+            widget: datetime
+            date_format: YYYY-MM-DD
+            time_format: false
+            picker_utc: true
+            hint: >-
+              The day a person last re-read this source and confirmed the guide
+              still describes it correctly. Only ever set by a human — move it
+              when you have actually re-read the page, not when you save. The
+              separate "link checked" date shown on the page is stamped by the
+              nightly automation and means only that the URL still loaded.
+
+      - name: howto
+        label: Step-by-step summary
+        widget: object
+        required: false
+        collapsed: true
+        hint: >-
+          Optional. Fill this in only for a guide that genuinely walks through
+          numbered steps, and only with steps the page itself covers — it is
+          published as structured data, so it must not describe more than a
+          reader can see.
+        fields:
+          - name: name
+            label: Name of the procedure
+            widget: string
+          - name: description
+            label: One-line description
+            widget: string
+          - name: steps
+            label: Steps
+            label_singular: Step
+            widget: list
+            summary: '{{fields.name}}'
+            fields:
+              - name: name
+                label: Step name
+                widget: string
+              - name: text
+                label: What to do
+                widget: text
+
+      # Two guides carried a hand-written Article structured-data object from
+      # before this pipeline existed. It is inert — the site derives its Article
+      # schema from the page — but it is preserved verbatim rather than dropped
+      # during a migration. Hidden: there is nothing here for an editor to
+      # decide, and the build rejects these fields on any other guide.
+      - { name: legacy_article_headline, widget: hidden, required: false }
+      - { name: legacy_article_description, widget: hidden, required: false }
+
+      - name: body
+        label: Body
+        widget: markdown
+        hint: >-
+          Open with a paragraph before the first heading. Use "## " for sections
+          and "### " for subsections — do not use a single "#", the page heading
+          above is already the H1. A published guide needs a "## FAQ" section of
+          **bold questions** followed by plain answers. Links must be site paths
+          (/guides/..., /artists/..., /compare-concert-ticket-prices) or https
+          URLs.
+
   - name: blog
     label: Blog posts
     label_singular: Blog post
+    icon: article
     folder: content/blog
     create: true
     slug: '{{slug}}'
@@ -124,12 +301,19 @@ collections:
 
       - name: related_guides
         label: Related guides
-        widget: list
+        widget: relation
+        collection: guides
+        multiple: true
         required: false
+        # Stores the guide's slug, not its URL: the build and the renderer both
+        # expect a bare slug, and a stored URL would silently stop resolving.
+        value_field: '{{slug}}'
+        display_fields: [h1]
+        search_fields: [title, h1, description]
         hint: >-
-          Guide slugs without the /guides/ prefix, e.g.
-          concert-ticket-fees-explained. The build fails on a guide that does
-          not exist.
+          Pick from the guides in this repository. A draft guide can be picked
+          but the build will reject it while it stays a draft, because a
+          published post may not link to a page that does not exist.
 
       - name: related_artists
         label: Artists mentioned
@@ -141,8 +325,10 @@ collections:
 
       - name: sources
         label: Sources
+        label_singular: Source
         widget: list
         required: false
+        summary: '{{fields.label}}'
         fields:
           - { name: label, label: Label, widget: string }
           - { name: url, label: URL, widget: string, pattern: ['^https://', 'Must be an https URL'] }

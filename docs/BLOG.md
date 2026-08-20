@@ -1,6 +1,6 @@
 # Blog and content authoring
 
-How to write, edit, and publish blog posts on TourTicketCompare — from a browser, from a text editor, or from GitHub — without touching code.
+How to write, edit, and publish the two editorial collections on TourTicketCompare — **blog posts** and **buying guides** — from a browser, from a text editor, or from GitHub, without touching code.
 
 Related: [CONTENT_RULES.md](CONTENT_RULES.md) for what may be published, [../SAFE_PUBLISHING_RULES.md](../SAFE_PUBLISHING_RULES.md) for the non-negotiables, [ROUTE_INDEXABILITY_POLICY.md](ROUTE_INDEXABILITY_POLICY.md) for how the indexability gates work elsewhere on the site.
 
@@ -8,10 +8,11 @@ Related: [CONTENT_RULES.md](CONTENT_RULES.md) for what may be published, [../SAF
 
 ## The short version
 
-- **Posts are Markdown files in `content/blog/`.** One file, one post. The filename is the URL slug.
-- **`content/blog/` is the source of truth.** `public/data/blog-content.json` is generated from it and should never be hand-edited.
-- **Three ways to write:** the browser editor at `/admin`, `npm run blog:new` locally, or GitHub's own file editor. All three produce the same Markdown file.
-- **`status: draft` means the post does not exist** — no page, no sitemap entry, no feed item, 404 on the URL. Set `status: published` when it is ready.
+- **Posts and guides are Markdown files**, in `content/blog/` and `content/guides/`. One file, one page. The filename is the URL slug.
+- **Those two directories are the source of truth.** `public/data/blog-content.json`, `public/data/guides-content.json` and `functions/_guide-routes.generated.js` are generated from them and must never be hand-edited.
+- **Three ways to write:** the browser editor at `/admin`, `npm run blog:new` / `npm run guides:new` locally, or GitHub's own file editor. All three produce the same Markdown file.
+- **`status: draft` means the page does not exist** — no route, no sitemap entry, no `llms.txt` line, no feed item, 404 on the URL. Set `status: published` when it is ready.
+- **Two dates you never type.** A guide's "Updated" date is derived from a fingerprint of its published copy, and a source's "link checked" date is stamped by the nightly automation. See *Dates and what they claim* below.
 
 ---
 
@@ -20,11 +21,11 @@ Related: [CONTENT_RULES.md](CONTENT_RULES.md) for what may be published, [../SAF
 | Content | Source | Edit it via |
 |---|---|---|
 | Blog posts | `content/blog/*.md` | `/admin`, a text editor, or GitHub |
-| Topic guides | `public/data/guides-content.json` + `functions/_route-metadata.js` | Hand-edited (not yet migrated to Markdown) |
+| Topic guides | `content/guides/*.md` | `/admin`, a text editor, or GitHub |
 | Artist facts | `public/data/artists.json` | The gated artist workflows, never by hand |
 | Event data | `public/data/events.json` | Automation only |
 
-Only the blog is on the Markdown pipeline today. Migrating the 17 guides onto the same pipeline is a separate, deliberately un-started piece of work.
+Both editorial collections are on the Markdown pipeline. Artist and event data are not, and are not editable from the CMS by design — they are gated by their own verification workflows.
 
 ---
 
@@ -85,6 +86,60 @@ Plain Markdown below the front matter.
 
 ---
 
+## Writing a guide
+
+Guides live in `content/guides/`. Same file shape as a post, different front matter.
+
+```yaml
+---
+title: How to Compare Event Ticket Prices
+h1: How to Compare Event Ticket Prices
+description: A full sentence, 50-160 characters, written for the search result snippet.
+status: published
+date_published: 2026-07-14
+sources:
+  - name: Rule on Unfair or Deceptive Fees
+    publisher: US Federal Trade Commission
+    url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
+    last_checked: 2026-07-14
+howto:
+  name: How to Compare Event Ticket Prices
+  description: A practical method for comparing live-event ticket totals.
+  steps:
+    - name: Match the exact event
+      text: Confirm event name, date, venue, city, and session on every listing.
+---
+```
+
+| Key | Required | Notes |
+|---|---|---|
+| `title` | yes | The search-result headline. ` \| TourTicketCompare` is appended automatically when the two fit in 60 characters, so leave the suffix off. |
+| `h1` | yes | The heading on the page and the link text everywhere the guide is listed. Under 70 characters. |
+| `description` | yes | Search snippet and page lead. 50-160 characters, enforced. |
+| `status` | no | `published` or `draft`. Defaults to `draft`. |
+| `date_published` | to publish | `YYYY-MM-DD`. Optional while a guide has never been published; required to publish, and fixed for good once it has. |
+| `sources` | 2+ to publish | `name`, `publisher`, https `url`, and `last_checked`. |
+| `howto` | no | `name`, `description`, and `steps` of `name`/`text`. Published as HowTo structured data, so only for a guide that genuinely walks through steps the page covers. |
+
+Body rules match the blog's: prose before the first heading becomes the intro, `##` opens a section, a single `#` is rejected, images are rejected, links must be site paths or https URLs. A published guide additionally needs a `## FAQ` section written as `**bold questions**` followed by plain answers — the router turns it into the page's FAQPage structured data.
+
+### Dates and what they claim
+
+Four dates appear around a guide and only two of them are yours to type.
+
+| Date | Who sets it | What it claims |
+|---|---|---|
+| `date_published` | you, once | The day the guide first went live. Recorded in `data/content-provenance.json` at first publication and immutable afterwards — the build fails if the file and the ledger disagree. |
+| "Updated" (`lastmod`) | `npm run content:provenance` | Derived from a fingerprint of the published copy. It moves when the words move, and never because a file was touched, a dependency bumped, or a link was re-checked. Nobody types it, and it is not a CMS field. |
+| `last_checked` on a source | you | A person re-read that source and confirmed the guide still describes it correctly. Move it when you have actually re-read the page. |
+| "link checked" on a source | the nightly audit | Only that the URL still resolved. Stored in `data/guide-source-link-checks.json`, never in the Markdown, and labelled differently on the page precisely so an automated 200 cannot read as an editorial review. |
+
+### Withdrawing a guide
+
+A published guide is a live URL. Setting it back to `draft`, renaming its file, or deleting it would 404 that URL, so the build refuses all three unless `OLD_GUIDE_REDIRECTS` in `functions/_route-metadata.js` carries an entry sending the old path to a published guide. That is a deliberate code change, outside the CMS — which is also why the Guides collection has its delete button switched off.
+
+`/guides/how-to-compare-event-ticket-prices` is a further exception: the router keeps a standalone copy of its metadata as a render fallback, so it cannot be drafted, renamed or deleted at all.
+
 ## Publishing
 
 ### From the browser (`/admin`)
@@ -92,23 +147,26 @@ Plain Markdown below the front matter.
 1. Go to `https://admin.tourticketcompare.com/admin` and sign in with GitHub. (The editor is not served from the apex — see the setup section for why.)
 2. Write the post. The form mirrors the front matter above, with a Markdown editor for the body.
 3. Save. The editor commits the Markdown file to `main`.
-4. `content-build.yml` compiles it, runs the full validation suite, and commits `public/data/blog-content.json`. Cloudflare deploys that commit.
+4. `content-build.yml` compiles it, refreshes provenance, runs the full validation suite, proves the diff touches nothing but its four generated files, and commits them. Cloudflare deploys that commit.
 
-The post is live a few minutes after you save — the compile step is what makes it appear, not the save itself.
+The page is live a few minutes after you save — the compile step is what makes it appear, not the save itself. If validation fails nothing is committed: the Markdown sits on `main` and the site keeps serving the last good build, with the failure on the Actions run.
 
 ### From a text editor
 
 ```bash
-npm run blog:new -- "Why ticket fees appear so late"   # scaffolds a draft with valid front matter
-# write the post, set status: published
-npm run blog:build                                     # compile
+npm run blog:new -- "Why ticket fees appear so late"   # scaffolds a draft post
+npm run guides:new -- "How to check a resale listing"  # scaffolds a draft guide
+
+# write it, then set status: published (and date_published, for a guide)
+npm run blog:build && npm run guides:build             # compile
+npm run content:provenance                             # derive the Updated date
 npm run test:mvp                                       # full validation
-git add content/blog public/data/blog-content.json && git commit && git push
+git add content public/data data functions/_guide-routes.generated.js && git commit && git push
 ```
 
 ### From GitHub directly
 
-Create or edit a file under `content/blog/` in GitHub's web editor and commit to `main`. `content-build.yml` does the rest.
+Create or edit a file under `content/blog/` or `content/guides/` in GitHub's web editor and commit to `main`. `content-build.yml` does the rest.
 
 ---
 
@@ -195,9 +253,18 @@ Strip the trailing `//# sourceMappingURL=` line, then load `/admin` and confirm 
 ## Commands
 
 ```bash
-npm run blog:new -- "Post title"   # scaffold content/blog/<slug>.md as a draft
-npm run blog:build                 # compile content/blog -> public/data/blog-content.json
-npm run blog:check                 # fail if the generated file is stale (CI guard)
-npm run blog:self-test             # unit-test the parser and validators
-npm run test:mvp                   # full validation suite (includes the two above)
+npm run blog:new -- "Post title"    # scaffold content/blog/<slug>.md as a draft
+npm run blog:build                  # compile content/blog -> public/data/blog-content.json
+npm run blog:check                  # fail if the generated file is stale (CI guard)
+npm run blog:self-test              # unit-test the parser and validators
+
+npm run guides:new -- "Guide title" # scaffold content/guides/<slug>.md as a draft
+npm run guides:build                # compile content/guides -> guides-content.json + the route module
+npm run guides:check                # fail if either generated file is stale (CI guard)
+npm run guides:self-test            # unit-test the validators, the ledger and the emitters
+npm run guides:validate             # route/content/redirect/sitemap/llms.txt drift check
+
+npm run content:provenance          # derive every page's Updated date from its copy
+npm run content:cms-contract        # every persisted key has a CMS field, and every file round-trips
+npm run test:mvp                    # full validation suite (includes all of the above)
 ```

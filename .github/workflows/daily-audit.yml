@@ -62,9 +62,9 @@ jobs:
       # Confirms each guide's cited source URL still resolves. Runs here, in the
       # job that publishes the rolling issue and uploads .audit/, so a broken
       # citation is actually delivered for human follow-up instead of dying in
-      # this step's log. --dry-run because guides-content.json is committed from
-      # the verification-dates job, which applies these verdicts via
-      # --from-report rather than probing every URL a second time.
+      # this step's log. --dry-run because the sidecar is written from the
+      # verification-dates job, which applies these verdicts via --from-report
+      # rather than probing every URL a second time.
       - name: Check guide source links
         id: guide_sources
         continue-on-error: true
@@ -131,13 +131,18 @@ jobs:
             --tm-status .audit/tm-status.json \
             $DRY_RUN_FLAG
 
-      # Confirms each guide's cited source URL still resolves and stamps
-      # linkCheckedAt. Deliberately narrow: it never touches the editorial
-      # `lastChecked` (only a human may set that), and 401/403/429 is treated as
+      # Confirms each guide's cited source URL still resolves and records the
+      # result in data/guide-source-link-checks.json, then rebuilds
+      # public/data/guides-content.json from it.
+      #
+      # Deliberately narrow in three ways. It never touches the editorial
+      # `last_checked` in content/guides/*.md — only a human may set that, and
+      # this job never writes content/** at all. 401/403/429 is treated as
       # "blocked, not verified" exactly as the artist link audit does, so a WAF
-      # challenge never produces a fresh timestamp. These fields are excluded
-      # from the content fingerprint, so this can never move a guide's published
-      # "Updated" date.
+      # challenge never produces a fresh timestamp. And the recorded dates are
+      # excluded from the content fingerprint, so this cannot move a guide's
+      # published "Updated" date — asserted outright further down.
+      #
       # Applies the verdicts the audit job already established. No network, so a
       # URL cannot be reported one way upstream and stamped another way here.
       - name: Stamp checked guide source links
@@ -152,7 +157,7 @@ jobs:
       - name: Check for changes
         id: diff
         run: |
-          if git diff --quiet -- public/data/artists.json public/data/guides-content.json; then
+          if git diff --quiet -- public/data/artists.json public/data/guides-content.json data/guide-source-link-checks.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -166,6 +171,19 @@ jobs:
           # (this replaces the stale-sync-guard the old PR flow relied on).
           python3 scripts/sync-events-data.py
 
+      # The bump moves last_verified_at in artists.json, which PROJECT_STATUS.md's
+      # per-artist table mirrors. Refreshing it here is what keeps the two in
+      # step: before this, the table was hand-copied and drifted nine rows.
+      #
+      # This is a WRITER, so it runs before the validation block below and not
+      # after it. Anything that modifies a file after `npm run test:mvp` and
+      # `git diff --check` would be committing content those checks never saw.
+      - name: Refresh the per-artist table from source
+        if: steps.diff.outputs.changed == 'true'
+        run: node scripts/validate-status-counts.mjs --write
+
+      # --- validation (no writer runs after this point) -------------------
+      #
       # Validation gates the commit: if any check fails, nothing is pushed.
       # last_verified_at is bumped ONLY for artists whose URL liveness + TM
       # Discovery diff came back clean, so this is a lossless freshness-timestamp
@@ -179,12 +197,29 @@ jobs:
           npm run test:mvp
           git diff --check
 
-      # The bump moves last_verified_at in artists.json, which PROJECT_STATUS.md's
-      # per-artist table mirrors. Refreshing it here is what keeps the two in
-      # step: before this, the table was hand-copied and drifted nine rows.
-      - name: Refresh the per-artist table from source
+      # A link check proves a URL resolved. It must not be able to prove
+      # anything else. The generated route module carries every guide's
+      # published and updated dates, and the provenance state carries the
+      # fingerprints and the first-publication ledger; if stamping a link check
+      # ever perturbed either, this job stops instead of committing.
+      - name: Assert the link check moved no published date
         if: steps.diff.outputs.changed == 'true'
-        run: node scripts/validate-status-counts.mjs --write
+        run: |
+          if ! git diff --quiet -- functions/_guide-routes.generated.js data/content-provenance.json; then
+            echo "::error::the nightly link check changed a generated route table or the provenance state."
+            git --no-pager diff -- functions/_guide-routes.generated.js data/content-provenance.json
+            exit 1
+          fi
+          echo "No published or updated date moved."
+
+      - name: Assert the diff contains only allowlisted files
+        if: steps.diff.outputs.changed == 'true'
+        run: ./.github/workflows/scripts/assert-diff-allowlist.sh
+          public/data/artists.json
+          data/guide-source-link-checks.json
+          public/data/guides-content.json
+          public/index.html
+          PROJECT_STATUS.md
 
       - name: Commit and push to main
         if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
@@ -192,7 +227,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
-          git add public/data/artists.json public/data/guides-content.json public/index.html PROJECT_STATUS.md
+          git add public/data/artists.json data/guide-source-link-checks.json public/data/guides-content.json public/index.html PROJECT_STATUS.md
           git commit -m "Bump verification timestamps (${TODAY})"
           git push origin HEAD:main
 
@@ -266,6 +301,10 @@ jobs:
         run: |
           npm run test:mvp
           git diff --check
+
+      - name: Assert the diff contains only allowlisted files
+        if: steps.diff.outputs.changed == 'true'
+        run: ./.github/workflows/scripts/assert-diff-allowlist.sh PROJECT_STATUS.md
 
       - name: Commit and push to main
         if: steps.diff.outputs.changed == 'true'

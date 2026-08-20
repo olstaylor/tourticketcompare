@@ -27,7 +27,10 @@
  * ---------------------
  * Guide routes:  their GUIDE_ROUTES metadata (title/h1/description) plus their
  *                guides-content.json entry (sections, source names/publishers/
- *                URLs, schema).
+ *                URLs, schema). Both of those are now GENERATED from
+ *                content/guides/*.md, and the fingerprint is taken over the
+ *                generated form, so the recorded hashes are unchanged by the
+ *                move to Markdown.
  * Trust routes:  their TRUST_ROUTES metadata plus the render block in
  *                functions/[[path]].js that produces the page body, plus any
  *                shared copy helper that block calls (see RENDER_SPECS).
@@ -37,6 +40,22 @@
  * about the copy, not the copy — including them would make the daily link
  * checker bump every guide's "Updated" date, which is the false-freshness
  * problem this script exists to prevent.
+ *
+ * GUIDES ARE STATE-DRIVEN
+ * -----------------------
+ * A trust route's lastmod is written back into functions/_route-metadata.js,
+ * because that file is hand-authored. A guide's is not: content/guides/*.md is
+ * hand-authored and must never be rewritten by automation — an editor's save
+ * would race a bot's commit, and a date is not the editor's claim to make. So
+ * this script records the guide date in data/content-provenance.json and then
+ * re-runs the guide build, which reads it back out into
+ * functions/_guide-routes.generated.js. The Markdown is never touched.
+ *
+ * The same state file carries `guide_publication`, the immutable record of when
+ * each guide was first published. It is append-only: an entry survives the
+ * guide being drafted, renamed or deleted, which is what lets
+ * scripts/build-guide-content.mjs tell a never-published draft (no entry, may
+ * omit date_published) from a withdrawn one (entry retained, needs a redirect).
  *
  * FIRST RUN SEEDS, IT DOES NOT REWRITE
  * ------------------------------------
@@ -57,8 +76,15 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
+import { buildGuideOutputs } from './build-guide-content.mjs';
+import { splitDocument } from './lib/content-markdown.mjs';
+
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ROUTE_METADATA_PATH = path.join(ROOT, 'functions', '_route-metadata.js');
+// Guide metadata is generated, so its lastmod is not written back into a source
+// file. See the "GUIDES ARE STATE-DRIVEN" note below.
+const GUIDE_ROUTES_MODULE_PATH = path.join(ROOT, 'functions', '_guide-routes.generated.js');
+const GUIDES_SOURCE_DIR = path.join(ROOT, 'content', 'guides');
 const ROUTER_PATH = path.join(ROOT, 'functions', '[[path]].js');
 const GUIDES_CONTENT_PATH = path.join(ROOT, 'public', 'data', 'guides-content.json');
 const STATE_PATH = path.join(ROOT, 'data', 'content-provenance.json');
@@ -339,6 +365,13 @@ function parseRouteObject(source, exportName) {
   return { block, paths };
 }
 
+/** Current `datePublished` declared in the metadata source for a route. */
+function declaredDatePublished(block, routePath) {
+  const entry = extractBlock(block, `"${routePath}": {`);
+  const match = entry?.match(/datePublished:\s*"([\d-]+)"/);
+  return match ? match[1] : null;
+}
+
 /** Current `lastmod` recorded in the metadata source for a route. */
 function declaredLastmod(block, routePath) {
   const entry = extractBlock(block, `"${routePath}": {`);
@@ -382,13 +415,14 @@ export function writeLastmod(source, routePath, value) {
 }
 
 async function buildFingerprints() {
-  const [metadataSource, routerSource, guidesContent] = await Promise.all([
+  const [metadataSource, guideModuleSource, routerSource, guidesContent] = await Promise.all([
     fs.readFile(ROUTE_METADATA_PATH, 'utf8'),
+    fs.readFile(GUIDE_ROUTES_MODULE_PATH, 'utf8'),
     fs.readFile(ROUTER_PATH, 'utf8'),
     readJson(GUIDES_CONTENT_PATH, {})
   ]);
 
-  const guides = parseRouteObject(metadataSource, 'GUIDE_ROUTES');
+  const guides = parseRouteObject(guideModuleSource, 'GUIDE_ROUTES');
   const trust = parseRouteObject(metadataSource, 'TRUST_ROUTES');
   const declarations = buildDeclarationIndex(routerSource);
   const renderContainer = extractFunction(routerSource, RENDER_CONTAINER);
@@ -405,7 +439,8 @@ async function buildFingerprints() {
     routes.set(routePath, {
       kind: 'guide',
       hash: hash(`${metadata} ${content}`),
-      declared: declaredLastmod(guides.block, routePath)
+      declared: declaredLastmod(guides.block, routePath),
+      datePublished: declaredDatePublished(guides.block, routePath)
     });
   }
 
@@ -460,8 +495,38 @@ function emptyState() {
       'Content fingerprints for static routes. content_updated_at advances only when content_hash ' +
       'changes, so a published "Updated" date never moves without the copy moving. Do not hand-edit; ' +
       'run `npm run content:provenance`.',
-    routes: {}
+    routes: {},
+    guide_publication: {}
   };
+}
+
+/**
+ * The immutable first-publication ledger.
+ *
+ * Append-only by design. An entry is created the first time a guide is seen
+ * published and is never removed, so drafting, renaming or deleting a guide
+ * leaves the record of when it went live intact — which is what
+ * scripts/build-guide-content.mjs reads to tell a never-published draft from a
+ * withdrawn one, and to refuse a date_published that tries to move.
+ */
+export function nextGuidePublication(recorded, routes) {
+  const next = { ...recorded };
+  const problems = [];
+  for (const [routePath, info] of routes) {
+    if (info.kind !== 'guide' || !ISO_DATE.test(String(info.datePublished || ''))) continue;
+    const existing = next[routePath]?.date_published;
+    if (!existing) {
+      next[routePath] = { date_published: info.datePublished };
+      continue;
+    }
+    if (existing !== info.datePublished) {
+      problems.push(
+        `${routePath}: date_published is ${info.datePublished} but the ledger records ${existing}. ` +
+          'A published date never moves; fix the guide, or correct the ledger in a reviewed commit.'
+      );
+    }
+  }
+  return { next, problems };
 }
 
 async function run() {
@@ -501,8 +566,18 @@ async function run() {
     (routePath) => routes.get(routePath).declared !== nextRoutes[routePath].content_updated_at
   );
 
+  const recordedLedger = state.guide_publication && typeof state.guide_publication === 'object' ? state.guide_publication : {};
+  const ledger = nextGuidePublication(recordedLedger, routes);
+  const ledgerAdded = Object.keys(ledger.next).filter((routePath) => !recordedLedger[routePath]);
+
   if (CHECK_MODE) {
-    const problems = [];
+    const problems = [...ledger.problems];
+    if (ledgerAdded.length) {
+      problems.push(
+        `${ledgerAdded.length} guide(s) are not in the first-publication ledger yet:\n` +
+          ledgerAdded.map((routePath) => `    ${routePath}`).join('\n')
+      );
+    }
     if (changed.length) {
       problems.push(
         `${changed.length} route(s) have edited copy with a stale published date:\n` +
@@ -535,14 +610,31 @@ async function run() {
     return;
   }
 
+  if (ledger.problems.length) {
+    console.error('CONTENT PROVENANCE FAILED\n');
+    for (const problem of ledger.problems) console.error(`  - ${problem}`);
+    process.exit(1);
+  }
+
+  // Only trust routes are written back into the hand-authored metadata file. A
+  // guide's lastmod is carried in the state file and re-emitted into the
+  // generated route module by the guide build below, so no automation ever
+  // rewrites content/guides/*.md.
   let nextMetadata = metadataSource;
   for (const [routePath, entry] of Object.entries(nextRoutes)) {
+    if (routes.get(routePath).kind !== 'trust') continue;
     if (routes.get(routePath).declared !== entry.content_updated_at) {
       nextMetadata = writeLastmod(nextMetadata, routePath, entry.content_updated_at);
     }
   }
 
-  const nextState = { ...state, generated_by: emptyState().generated_by, note: emptyState().note, routes: nextRoutes };
+  const nextState = {
+    ...state,
+    generated_by: emptyState().generated_by,
+    note: emptyState().note,
+    routes: nextRoutes,
+    guide_publication: Object.fromEntries(Object.keys(ledger.next).sort().map((key) => [key, ledger.next[key]]))
+  };
 
   if (DRY_RUN) {
     console.log('[dry-run] no files written');
@@ -550,6 +642,15 @@ async function run() {
     await fs.mkdir(path.dirname(STATE_PATH), { recursive: true });
     await fs.writeFile(STATE_PATH, `${JSON.stringify(nextState, null, 2)}\n`, 'utf8');
     if (nextMetadata !== metadataSource) await fs.writeFile(ROUTE_METADATA_PATH, nextMetadata, 'utf8');
+    // The guide module's lastmod values come from the state just written, so
+    // regenerate them here rather than leaving the outputs stale until someone
+    // remembers to run the guide build.
+    const rebuild = await buildGuideOutputs({ write: true });
+    if (rebuild.problems.length) {
+      console.error('CONTENT PROVENANCE FAILED: the guide rebuild did not validate\n');
+      for (const problem of rebuild.problems) console.error(`  - ${problem}`);
+      process.exit(1);
+    }
   }
 
   console.log(`Content provenance — ${routes.size} routes tracked (today: ${TODAY})`);

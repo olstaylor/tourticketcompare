@@ -40,20 +40,20 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-08-20"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-    title: "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
-    h1: "Ticketmaster vs SeatGeek vs Vivid Seats: key differences",
-    description: "Compare Ticketmaster, SeatGeek, and Vivid Seats by ticket type, listed prices, fees, seat details, delivery, and buyer protections before choosing where to buy.",
+    title: "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better?",
+    h1: "Vivid Seats vs Ticketmaster vs SeatGeek: Key Differences",
+    description: "Compare Vivid Seats vs Ticketmaster and SeatGeek by ticket type, listed prices, fees, delivery and buyer protection—plus whether the platforms are the same.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-08-20"
+    lastmod: "2026-08-21"
   },
   "/guides/seatgeek-vs-ticketmaster": {
-    title: "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety",
-    h1: "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety",
-    description: "SeatGeek vs Ticketmaster in 2026: compare fees, prices, safety, delivery, resale tickets and buyer protection—and learn whether they are the same company.",
+    title: "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
+    h1: "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
+    description: "Compare SeatGeek vs Ticketmaster for fees, price differences, delivery and buyer protection—whether they are the same company, and which suits your concert.",
     fullContent: true,
     datePublished: "2026-07-13",
-    lastmod: "2026-08-20"
+    lastmod: "2026-08-21"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",

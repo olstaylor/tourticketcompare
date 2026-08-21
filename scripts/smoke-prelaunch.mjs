@@ -13,7 +13,7 @@ const expectedH1 = new Map([
   ["/guides", "Ticket buying guides"],
   ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster (2026): fees, safety and delivery"],
   ["/blog", "TourTicketCompare blog"],
-  ["/compare-concert-ticket-prices", "Compare concert ticket prices"],
+  ["/compare-concert-ticket-prices", "Compare concert ticket prices across ticket sites"],
   ["/how-it-works", "How TourTicketCompare works"],
   ["/currency-converter", "Currency converter"],
   ["/about", "About TourTicketCompare"],
@@ -28,7 +28,7 @@ const expectedTitle = new Map([
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
   ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
-  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices | TourTicketCompare"],
+  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices Across Ticket Sites | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
   ["/currency-converter", "Currency Converter for Concert Tickets | TourTicketCompare"],
   ["/about", "About TourTicketCompare"],
@@ -533,13 +533,13 @@ assert(
 const expectedClientMetadata = [
   "Compare Concert Tickets & Tour Dates | TourTicketCompare",
   homepageDescription,
-  "Compare Concert Ticket Prices | TourTicketCompare",
-  "Find a checked concert event, compare timestamped provider listed-price snapshots for the same show, then confirm fees and the final total with the provider.",
+  "Compare Concert Ticket Prices Across Ticket Sites | TourTicketCompare",
+  "Compare concert ticket prices for the same checked show across ticket sites where provider listed-price snapshots are eligible, then confirm fees and the total with the provider.",
   "How to Compare Concert Ticket Prices | TourTicketCompare",
-  "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
-  "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety | TourTicketCompare",
-  "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety",
-  "SeatGeek vs Ticketmaster in 2026: compare fees, prices, safety, delivery, resale tickets and buyer protection—and learn whether they are the same company."
+  "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better? | TourTicketCompare",
+  "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices | TourTicketCompare",
+  "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
+  "Compare SeatGeek vs Ticketmaster for fees, price differences, delivery and buyer protection—whether they are the same company, and which suits your concert."
 ];
 for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
@@ -1047,10 +1047,10 @@ const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
 assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");
 assert(
-  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety",
+  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
   "focused guide should expose exact pairwise decision title metadata"
 );
-assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety", "focused guide should expose the pairwise decision H1");
+assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices", "focused guide should expose the pairwise decision H1");
 for (const expectedCopy of [
   "Short answer:",
   "SeatGeek vs Ticketmaster at a glance",

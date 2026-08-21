@@ -46,15 +46,20 @@ export function renderSurfaceLine(summary) {
 }
 
 /**
- * Render the generated empty-board sentence. Both figures come from the same
- * `artistPageIndexable` gate the router and sitemap read, so the file cannot
- * claim a page is live that renders `noindex`.
+ * Render the generated empty-board sentence.
+ *
+ * An artist page with no upcoming date is NOT noindexed: per
+ * functions/_artist-indexability.js an artist URL is a durable destination
+ * that renders an explicit empty state, and future-date availability is
+ * presentation state rather than an indexing signal. So this sentence counts
+ * empty boards, never robots state — every editorially-indexable artist here
+ * renders `index,follow` whether or not it has a date.
  */
 export function renderEmptyBoardLine({ generatedAt, editoriallyIndexable, emptySlugs, zeroEventSlugs }) {
   const live = editoriallyIndexable - emptySlugs.length;
   const empties = emptySlugs.length
-    ? `${emptySlugs.length} of the ${editoriallyIndexable} editorially-indexable artists have no upcoming date and render \`noindex,follow\` — ${emptySlugs.join(", ")} — leaving **${live} live artist pages**`
-    : `every one of the ${editoriallyIndexable} editorially-indexable artists currently has an upcoming date, so all **${live}** render \`index,follow\``;
+    ? `${emptySlugs.length} of the ${editoriallyIndexable} editorially-indexable artists have no upcoming date and render an empty board (still \`index,follow\`) — ${emptySlugs.join(", ")} — leaving **${live} artist pages with upcoming dates**`
+    : `every one of the ${editoriallyIndexable} editorially-indexable artists currently has an upcoming date, so none renders an empty board`;
   const neverHad = zeroEventSlugs.length
     ? `; ${zeroEventSlugs.length} of them (${zeroEventSlugs.join(", ")}) have never had an event record`
     : "";

@@ -1,13 +1,13 @@
 # Indexable-surface audit
 
-Generated: 2026-08-21T08:51:45.154Z (read-only, rendered in-process — no live crawl)
+Generated: 2026-08-21T09:15:19.816Z (read-only, rendered in-process — no live crawl)
 
 ## Totals
 
 - rendered routes: 496
 - indexable: 231
 - non-indexable: 265
-- stored baseline indexable: 230 (+1)
+- stored baseline indexable: 227 (+4)
 
 ## Routes by type
 
@@ -89,7 +89,7 @@ Generated: 2026-08-21T08:51:45.154Z (read-only, rendered in-process — no live 
 | 34 | 14.7% | `Concerts in {} | Upcoming Shows & Tickets` |
 | 31 | 13.4% | `{} Tickets & Tour Dates | TourTicketCompare` |
 | 1 | 0.4% | `Compare Concert Tickets & Tour Dates | TourTicketCompare` |
-| 1 | 0.4% | `Compare Concert Ticket Prices Across Ticket Sites | TourTicketCompare` |
+| 1 | 0.4% | `Compare Concert Ticket Prices by Site | TourTicketCompare` |
 | 1 | 0.4% | `Artists | TourTicketCompare` |
 | 1 | 0.4% | `Concert Ticket Buying Guides | TourTicketCompare` |
 | 1 | 0.4% | `How TourTicketCompare Works` |
@@ -108,26 +108,26 @@ Generated: 2026-08-21T08:51:45.154Z (read-only, rendered in-process — no live 
 
 ## Change against the stored baseline
 
-Baseline generated 2026-08-21T08:49:07.526Z.
+Baseline generated 2026-08-01T00:54:49.492Z.
 
 | Type | Baseline | Same gates @ baseline date | Now | Clock | Residual | Classification |
 |---|---|---|---|---|---|---|
 | home | 1/1 | 1/1 | 1/1 | +0 | +0 (tol 3) | unchanged |
 | index | 5/5 | 5/5 | 5/5 | +0 | +0 (tol 3) | unchanged |
 | static | 7/7 | 7/7 | 7/7 | +0 | +0 (tol 3) | unchanged |
-| guide | 18/18 | 19/19 | 19/19 | +0 | +1 (tol 3) | inventory-growth |
+| guide | 17/17 | 19/19 | 19/19 | +0 | +2 (tol 3) | inventory-growth |
 | blog-post | 3/3 | 3/3 | 3/3 | +0 | +0 (tol 3) | unchanged |
 | blog-tag | 2/3 | 2/3 | 2/3 | +0 | +0 (tol 3) | unchanged |
-| artist | 32/40 | 32/40 | 32/40 | +0 | +0 (tol 4) | unchanged |
-| city | 34/81 | 34/82 | 34/82 | +0 | +0 (tol 4) | unchanged |
-| venue | 45/105 | 45/106 | 45/106 | +0 | +0 (tol 5) | unchanged |
-| artist-city | 83/229 | 83/230 | 83/230 | +0 | +0 (tol 9) | unchanged |
+| artist | 18/40 | 32/40 | 32/40 | +0 | +14 (tol 3) | unexplained-growth |
+| city | 37/81 | 37/83 | 34/82 | -3 | +0 (tol 4) | inventory-decay |
+| venue | 45/108 | 46/111 | 45/106 | -1 | +1 (tol 5) | unchanged |
+| artist-city | 92/241 | 92/244 | 83/230 | -9 | +0 (tol 10) | inventory-decay |
 
 **Clock** is what the calendar alone accounts for: the same gates re-run over the same event data at the baseline's timestamp versus now. **Residual** is everything left over — a code, gate, or data change. `inventory-decay` / `inventory-growth` are expected. `structural` (residual loss beyond tolerance) fails `--check`; `unexplained-growth` only warns, because an artist batch or a big discovery run produces it legitimately.
 
 ## Warnings (non-blocking)
 
-- none
+- artist: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run.
 
 ## Problems
 

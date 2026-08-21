@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T08:51:45.154Z",
+  "generated_at": "2026-08-21T09:15:19.816Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -54,7 +54,7 @@
     "rendered": 496,
     "indexable": 231,
     "noindex": 265,
-    "baseline_indexable": 230
+    "baseline_indexable": 227
   },
   "exclusion_reasons": {
     "artist": {
@@ -228,7 +228,7 @@
       "share_of_indexable": 0.4
     },
     {
-      "pattern": "Compare Concert Ticket Prices Across Ticket Sites | TourTicketCompare",
+      "pattern": "Compare Concert Ticket Prices by Site | TourTicketCompare",
       "count": 1,
       "share_of_indexable": 0.4
     },
@@ -423,7 +423,7 @@
     "note": "no export at reports/analytics/route-traffic.json"
   },
   "baseline_comparison": {
-    "baseline_generated_at": "2026-08-21T08:49:07.526Z",
+    "baseline_generated_at": "2026-08-01T00:54:49.492Z",
     "changes": [
       {
         "type": "home",
@@ -488,8 +488,8 @@
       {
         "type": "guide",
         "before": {
-          "rendered": 18,
-          "indexable": 18
+          "rendered": 17,
+          "indexable": 17
         },
         "after": {
           "rendered": 19,
@@ -500,9 +500,9 @@
           "indexable": 19
         },
         "kind": "inventory-growth",
-        "indexableDelta": 1,
+        "indexableDelta": 2,
         "clockDelta": 0,
-        "residual": 1,
+        "residual": 2,
         "tolerance": 3
       },
       {
@@ -549,7 +549,7 @@
         "type": "artist",
         "before": {
           "rendered": 40,
-          "indexable": 32
+          "indexable": 18
         },
         "after": {
           "rendered": 40,
@@ -559,36 +559,36 @@
           "rendered": 40,
           "indexable": 32
         },
-        "kind": "unchanged",
-        "indexableDelta": 0,
+        "kind": "unexplained-growth",
+        "indexableDelta": 14,
         "clockDelta": 0,
-        "residual": 0,
-        "tolerance": 4
+        "residual": 14,
+        "tolerance": 3
       },
       {
         "type": "city",
         "before": {
           "rendered": 81,
-          "indexable": 34
+          "indexable": 37
         },
         "after": {
           "rendered": 82,
           "indexable": 34
         },
         "at_baseline_instant": {
-          "rendered": 82,
-          "indexable": 34
+          "rendered": 83,
+          "indexable": 37
         },
-        "kind": "unchanged",
-        "indexableDelta": 0,
-        "clockDelta": 0,
+        "kind": "inventory-decay",
+        "indexableDelta": -3,
+        "clockDelta": -3,
         "residual": 0,
         "tolerance": 4
       },
       {
         "type": "venue",
         "before": {
-          "rendered": 105,
+          "rendered": 108,
           "indexable": 45
         },
         "after": {
@@ -596,37 +596,39 @@
           "indexable": 45
         },
         "at_baseline_instant": {
-          "rendered": 106,
-          "indexable": 45
+          "rendered": 111,
+          "indexable": 46
         },
         "kind": "unchanged",
         "indexableDelta": 0,
-        "clockDelta": 0,
-        "residual": 0,
+        "clockDelta": -1,
+        "residual": 1,
         "tolerance": 5
       },
       {
         "type": "artist-city",
         "before": {
-          "rendered": 229,
-          "indexable": 83
+          "rendered": 241,
+          "indexable": 92
         },
         "after": {
           "rendered": 230,
           "indexable": 83
         },
         "at_baseline_instant": {
-          "rendered": 230,
-          "indexable": 83
+          "rendered": 244,
+          "indexable": 92
         },
-        "kind": "unchanged",
-        "indexableDelta": 0,
-        "clockDelta": 0,
+        "kind": "inventory-decay",
+        "indexableDelta": -9,
+        "clockDelta": -9,
         "residual": 0,
-        "tolerance": 9
+        "tolerance": 10
       }
     ]
   },
-  "warnings": [],
+  "warnings": [
+    "artist: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run."
+  ],
   "problems": []
 }

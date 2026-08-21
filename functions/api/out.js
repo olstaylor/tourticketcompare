@@ -444,6 +444,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-john-summit",
     redirectUrl: "https://seatgeek.com/john-summit-tickets",
     verified: true
+  },
+  "karol-g:ticketmaster": {
+    artistSlug: "karol-g",
+    provider: "ticketmaster",
+    linkId: "tm-artist-karol-g",
+    redirectUrl: "https://www.ticketmaster.com/karol-g-tickets/artist/2412593",
+    verified: true
+  },
+  "karol-g:seatgeek": {
+    artistSlug: "karol-g",
+    provider: "seatgeek",
+    linkId: "sg-artist-karol-g",
+    redirectUrl: "https://seatgeek.com/karol-g-tickets",
+    verified: true
+  },
+  "foo-fighters:ticketmaster": {
+    artistSlug: "foo-fighters",
+    provider: "ticketmaster",
+    linkId: "tm-artist-foo-fighters",
+    redirectUrl: "https://www.ticketmaster.com/foo-fighters-tickets/artist/776005",
+    verified: true
+  },
+  "foo-fighters:seatgeek": {
+    artistSlug: "foo-fighters",
+    provider: "seatgeek",
+    linkId: "sg-artist-foo-fighters",
+    redirectUrl: "https://seatgeek.com/foo-fighters-tickets",
+    verified: true
+  },
+  "metallica:ticketmaster": {
+    artistSlug: "metallica",
+    provider: "ticketmaster",
+    linkId: "tm-artist-metallica",
+    redirectUrl: "https://www.ticketmaster.com/metallica-tickets/artist/735647",
+    verified: true
+  },
+  "metallica:seatgeek": {
+    artistSlug: "metallica",
+    provider: "seatgeek",
+    linkId: "sg-artist-metallica",
+    redirectUrl: "https://seatgeek.com/metallica-tickets",
+    verified: true
+  },
+  "my-chemical-romance:ticketmaster": {
+    artistSlug: "my-chemical-romance",
+    provider: "ticketmaster",
+    linkId: "tm-artist-my-chemical-romance",
+    redirectUrl: "https://www.ticketmaster.com/my-chemical-romance-tickets/artist/859324",
+    verified: true
+  },
+  "my-chemical-romance:seatgeek": {
+    artistSlug: "my-chemical-romance",
+    provider: "seatgeek",
+    linkId: "sg-artist-my-chemical-romance",
+    redirectUrl: "https://seatgeek.com/my-chemical-romance-tickets",
+    verified: true
+  },
+  "teddy-swims:ticketmaster": {
+    artistSlug: "teddy-swims",
+    provider: "ticketmaster",
+    linkId: "tm-artist-teddy-swims",
+    redirectUrl: "https://www.ticketmaster.com/teddy-swims-tickets/artist/2712573",
+    verified: true
+  },
+  "teddy-swims:seatgeek": {
+    artistSlug: "teddy-swims",
+    provider: "seatgeek",
+    linkId: "sg-artist-teddy-swims",
+    redirectUrl: "https://seatgeek.com/teddy-swims-tickets",
+    verified: true
+  },
+  "five-finger-death-punch:ticketmaster": {
+    artistSlug: "five-finger-death-punch",
+    provider: "ticketmaster",
+    linkId: "tm-artist-five-finger-death-punch",
+    redirectUrl: "https://www.ticketmaster.com/five-finger-death-punch-tickets/artist/1170515",
+    verified: true
+  },
+  "five-finger-death-punch:seatgeek": {
+    artistSlug: "five-finger-death-punch",
+    provider: "seatgeek",
+    linkId: "sg-artist-five-finger-death-punch",
+    redirectUrl: "https://seatgeek.com/five-finger-death-punch-tickets",
+    verified: true
   }
 };
 

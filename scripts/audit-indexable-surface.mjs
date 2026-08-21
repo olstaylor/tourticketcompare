@@ -263,11 +263,15 @@ if (SELF_TEST) {
     zeroEventSlugs: ["latto"]
   };
   const emptyLine = renderEmptyBoardLine(emptyInput);
-  assert(/leaving \*\*2 live artist pages\*\*/.test(emptyLine), "empty-board line derives the live count");
+  assert(/leaving \*\*2 artist pages with upcoming dates\*\*/.test(emptyLine), "empty-board line derives the dated-page count");
+  // An empty board is not a noindex: artist URLs stay index,follow with no
+  // upcoming date (functions/_artist-indexability.js). The sentence claimed
+  // otherwise until 2026-08-21 and mislabelled every dateless artist.
+  assert(!/noindex/.test(emptyLine), "empty-board line never claims a noindexed artist page");
   assert(emptyLine.includes("1 of them (latto) have never had an event record"), "never-had-events subset is named");
   assert(
     !renderEmptyBoardLine({ ...emptyInput, emptySlugs: [], zeroEventSlugs: [] }).includes("leaving"),
-    "with no empty boards the sentence states the all-live case instead"
+    "with no empty boards the sentence states the all-dated case instead"
   );
 
   const statusDoc = [

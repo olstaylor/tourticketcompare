@@ -41011,11 +41011,19 @@
         "verified": true,
         "last_verified_at": "2026-08-21",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8204658",
+        "url": "https://www.ticketliquidator.com/tickets/8204658/John-Summit-tickets-Sat-Dec-12-2026-Los-Angeles-Memorial-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-08-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_2TeSLQM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8204658"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8204658",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8204658/John-Summit-tickets-Sat-Dec-12-2026-Los-Angeles-Memorial-Coliseum"
   }
 ]

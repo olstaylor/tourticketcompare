@@ -633,6 +633,9 @@ const harryStylesArtist = catalog.artists.find((artist) => artist.slug === "harr
 assert(harryStylesArtist?.seo_title === "Harry Styles Tickets & Tour Dates | TourTicketCompare", "Harry Styles metadata should target the observed tickets-and-tour-dates search intent");
 assert(harryStylesArtist?.meta_description?.includes("available price snapshots"), "Harry Styles search copy should explain the page's distinctive comparison value");
 
+// The generated per-page Open Graph card manifest, so the social assertions
+// below expect the same image the router serves.
+const { OG_CARDS } = await import(pathToFileURL(path.join(root, "functions/_og-cards.generated.js")));
 const routesManifest = await readJson("public/_routes.json");
 assert(routesManifest.version === 1, "_routes.json should use Cloudflare Pages routes schema version 1");
 assert(
@@ -645,10 +648,27 @@ assert(
 // content-editor bundle is deliberately NOT excluded — excluding it would let
 // the apex serve it as a plain asset, around the middleware host check that
 // keeps the editor off the public origin.
+//
+// /og/* is the generated per-page social cards. They are inert images that need
+// no routing or metadata injection, and the /* rules in public/_headers are
+// applied by Pages rather than the middleware, so excluding them keeps every
+// security header while dropping a Function invocation per card fetch. The
+// trade is that a card is also reachable on the editor origin, which is
+// harmless: an image executes nothing and cannot read the editor's localStorage,
+// and /robots.txt still runs through the middleware, so that origin keeps
+// disallowing crawlers.
 assert(
-  JSON.stringify(routesManifest.exclude) === JSON.stringify(["/_assets/*", "/favicon.ico"]),
-  "_routes.json should only exclude immutable assets and favicon.ico"
+  JSON.stringify(routesManifest.exclude) === JSON.stringify(["/_assets/*", "/og/*", "/favicon.ico"]),
+  "_routes.json should only exclude immutable assets, generated OG cards, and favicon.ico"
 );
+// Every card the router can reference must fall inside an excluded prefix,
+// otherwise half the corpus quietly goes back through Functions.
+for (const cardUrl of new Set(Object.values(OG_CARDS))) {
+  assert(
+    routesManifest.exclude.some((rule) => rule.endsWith("/*") && cardUrl.startsWith(rule.slice(0, -1))),
+    `${cardUrl} should be served straight from assets via a _routes.json exclude rule`
+  );
+}
 await read("public/404.html");
 
 const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
@@ -657,9 +677,6 @@ const sitemapModule = await import(pathToFileURL(path.join(root, "functions/site
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
 const debugSeatgeekModule = await import(pathToFileURL(path.join(root, "functions/api/debug-seatgeek.js")));
-// The generated per-page Open Graph card manifest, so the social assertions
-// below expect the same image the router serves.
-const { OG_CARDS } = await import(pathToFileURL(path.join(root, "functions/_og-cards.generated.js")));
 const healthModule = await import(pathToFileURL(path.join(root, "functions/api/health.js")));
 const impactHealthModule = await import(pathToFileURL(path.join(root, "functions/api/impact/health.js")));
 const impactProductsModule = await import(pathToFileURL(path.join(root, "functions/api/impact/products.js")));

@@ -54,3 +54,9 @@
 
 /og-image.png
   Cache-Control: public, max-age=604800
+
+# Generated per-page social cards. Excluded from Functions in _routes.json, so
+# these are served straight from the asset layer — the /* security headers above
+# still apply, since those are applied by Pages rather than the middleware.
+/og/*
+  Cache-Control: public, max-age=604800

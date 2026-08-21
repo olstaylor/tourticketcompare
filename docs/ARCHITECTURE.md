@@ -84,12 +84,20 @@ migrations/                  Ordered D1 migrations and applied-state ledger
 ```text
 request
   → public/_routes.json
+      └─ excluded (/_assets/*, /og/*, /favicon.ico) → static asset, no Function
   → functions/_middleware.js
       ├─ /api/* and known assets → context.next()
       ├─ /admin                  → context.next() → functions/admin.js
       ├─ file-extension paths    → static asset handling
       └─ HTML routes            → functions/[[path]].js
 ```
+
+The `_routes.json` exclude list is pinned by `scripts/smoke-prelaunch.mjs` and
+stays minimal: an excluded path bypasses Functions entirely, losing routing and
+metadata injection. The generated OG cards are excluded because they are inert
+images needing neither, and the `/*` rules in `public/_headers` are applied by
+Pages rather than the middleware — so they keep every security header while
+costing no Function invocation.
 
 `functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, blog routes, artist routes, city routes, venue routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry for fixed and guide routes; data-derived city and venue metadata is composed in the router from the shared aggregation records.
 

@@ -22,21 +22,30 @@ export const GUIDE_ROUTES = {
     datePublished: "2026-06-11",
     lastmod: "2026-08-21"
   },
+  "/guides/vivid-seats-vs-ticketmaster": {
+    title: "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery",
+    h1: "Vivid Seats vs Ticketmaster (2026): fees, safety and delivery",
+    description: "Compare Vivid Seats and Ticketmaster by ticket type, all-in pricing, fees, transfers, delivery, buyer protection, cancellations and rewards.",
+    fullContent: true,
+    comparisonProviders: ["ticketmaster","vivid-seats"],
+    datePublished: "2026-08-20",
+    lastmod: "2026-08-20"
+  },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-    title: "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
-    h1: "Ticketmaster vs SeatGeek vs Vivid Seats: key differences",
-    description: "Compare Ticketmaster, SeatGeek, and Vivid Seats by ticket type, listed prices, fees, seat details, delivery, and buyer protections before choosing where to buy.",
+    title: "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better?",
+    h1: "Vivid Seats vs Ticketmaster vs SeatGeek: Key Differences",
+    description: "Compare Vivid Seats vs Ticketmaster and SeatGeek by ticket type, listed prices, fees, delivery and buyer protection before choosing where to buy.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-07-13"
+    lastmod: "2026-08-21"
   },
   "/guides/seatgeek-vs-ticketmaster": {
-    title: "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety",
-    h1: "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety",
-    description: "SeatGeek vs Ticketmaster in 2026: compare fees, prices, safety, delivery, resale tickets and buyer protection—and learn whether they are the same company.",
+    title: "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
+    h1: "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
+    description: "Compare SeatGeek vs Ticketmaster for fees, price differences, delivery and buyer protection—whether they are the same company, and which suits your concert.",
     fullContent: true,
     datePublished: "2026-07-13",
-    lastmod: "2026-08-20"
+    lastmod: "2026-08-21"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",
@@ -68,7 +77,7 @@ export const GUIDE_ROUTES = {
     description: "Decide between primary and resale concert tickets by weighing ticket type, seat choice, final total, transfer timing, provider terms, and certainty.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-07-22"
+    lastmod: "2026-08-20"
   },
   "/guides/how-to-avoid-ticket-scams": {
     title: "How to Avoid Ticket Scams | TourTicketCompare",
@@ -92,7 +101,7 @@ export const GUIDE_ROUTES = {
     description: "Compare Ticketmaster and StubHub by checking event source, ticket type, final totals, delivery timing, and provider terms before checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-08-20"
   },
   "/guides/seatgeek-promo-code-guide": {
     title: "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
@@ -108,7 +117,7 @@ export const GUIDE_ROUTES = {
     description: "Know which concert-ticket charges to compare, how to read the order summary, and when a lower displayed price is not the lower final total.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-07-22"
+    lastmod: "2026-08-20"
   },
   "/guides/ticket-delivery-and-transfer-timing": {
     title: "Ticket Delivery & Transfer Timing | TourTicketCompare",
@@ -116,7 +125,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to check ticket delivery methods and transfer timing so checkout terms match your travel and event plans.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-06-19"
+    lastmod: "2026-08-20"
   },
   "/guides/how-resale-ticket-pricing-works": {
     title: "How Resale Ticket Pricing Works | TourTicketCompare",

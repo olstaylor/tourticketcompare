@@ -79,6 +79,8 @@ Some events delay mobile barcodes or transfers until close to the show. Check th
 
 It is an electronic ticket accepted through the venue's or original ticketing platform's app or mobile site. You may need to create an account with the same email used for the order.
 
+That is why a resale order can arrive through a different app. The [Vivid Seats vs Ticketmaster guide](/guides/vivid-seats-vs-ticketmaster) explains this transfer hand-off in context.
+
 **Can I use a screenshot of a mobile ticket?**
 
 Do not assume so. Many venues use rotating barcodes or require the ticket to be displayed in an official app. Follow the entry instructions attached to the exact event.

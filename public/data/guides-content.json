@@ -53,7 +53,7 @@
       {
         "type": "section",
         "title": "Quick comparison checklist",
-        "content": "- Match artist, local date, venue, and event name\n- Match quantity, ticket type, section, row, and view notes\n- Check the snapshot timestamp and provider attribution\n- Open the provider pages and confirm current availability\n- Compare the final amount payable and delivery terms\n- Read buyer-protection, refund, transfer, and cancellation rules"
+        "content": "If your shortlist is provider-specific, use this routine alongside [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster) rather than relying on a generic brand ranking.\n\n- Match artist, local date, venue, and event name\n- Match quantity, ticket type, section, row, and view notes\n- Check the snapshot timestamp and provider attribution\n- Open the provider pages and confirm current availability\n- Compare the final amount payable and delivery terms\n- Read buyer-protection, refund, transfer, and cancellation rules"
       },
       {
         "type": "section",
@@ -67,14 +67,14 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -88,7 +88,7 @@
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "All In Prices",
@@ -136,11 +136,138 @@
       ]
     }
   },
+  "/guides/vivid-seats-vs-ticketmaster": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "**Short verdict:** Ticketmaster is often the authorised primary seller for a concert and also carries clearly labelled resale tickets. Vivid Seats is a resale marketplace where independent resellers list tickets. Neither role makes one provider the right choice for every order. Start with the seller named by the artist, venue, or promoter for an official onsale. When you compare resale options, match the exact event, ticket type, quantity, section or standing area, delivery method, and complete checkout total.\n\nThe distinction matters because a Ticketmaster primary ticket and a Vivid Seats resale listing are not automatically equivalent. Even for the same artist, date, and venue, the seats, transfer timing, and terms may differ. The practical decision concerns one purchase, not a general brand ranking."
+      },
+      {
+        "type": "section",
+        "title": "Vivid Seats vs Ticketmaster at a glance",
+        "content": "| Question | Ticketmaster | Vivid Seats |\n|---|---|---|\n| Typical role | Authorised primary seller for many events, plus labelled resale inventory | Resale marketplace |\n| Who sets the listed price? | Event organiser for primary tickets; reseller for resale tickets | Independent ticket reseller |\n| Upfront price in the US | Mandatory fees are included in the displayed total; tax and optional charges can be separate | Uses all-in ticket pricing that includes its service and delivery charges; government tax and selected extras can affect the final amount |\n| Delivery | Depends on the event and ticket type; mobile entry and transfers are common | Depends on the seller and listing; electronic transfer may arrive through another ticketing account |\n| Order protection | Terms depend on whether the ticket is primary or resale and on the event outcome | Published Buyer Guarantee applies subject to its terms and exclusions |\n| Loyalty feature | Event-specific programmes may vary | Vivid Seats Rewards is an app-based programme governed by current terms |\n\nThese are typical roles for a US audience. Inventory, display rules, and account requirements can differ by event or country, so read the exact listing and current provider terms."
+      },
+      {
+        "type": "section",
+        "title": "Primary inventory versus resale inventory",
+        "content": "A primary ticket is sold through a channel authorised by the event organiser. The organiser decides the original ticket types, onsale schedule, prices, and many event-specific conditions. Ticketmaster often operates that channel. It may also display resale tickets on an event page; those listings should be identified as resale and are priced by the reseller.\n\nVivid Seats operates a resale marketplace. Its support material explains that ticket resellers set listing prices using factors such as supply, demand, seat location, and the timing of the event. A resale price can therefore differ from the ticket's original face value in either direction. That difference is not, by itself, evidence that the event details are wrong.\n\nBefore comparing totals, identify what each side offers. Primary, premium, official resale, and marketplace resale tickets can carry different terms. If the ticket type or seat details do not match, do not treat the totals as like for like. The [primary versus resale ticket guide](/guides/primary-vs-resale-concert-tickets) explains these labels."
+      },
+      {
+        "type": "section",
+        "title": "All-in pricing, fees, taxes and optional charges",
+        "content": "US federal rules require live-event ticket sellers to display the total price including mandatory fees whenever a price is shown. The FTC's guidance also explains that taxes, shipping, and optional goods or services can be excluded from that upfront figure when the rule's conditions are met. This makes the first displayed number more useful, but it does not remove the need to read the final order summary.\n\nTicketmaster says ticket prices and fees are determined by event organisers, with mandatory fees included in the upfront price. Its help material distinguishes the ticket price from service charges, order-processing charges, taxes, and delivery choices that may apply in a particular transaction.\n\nVivid Seats says ticket resellers set the listing price. Its current fee guidance says its all-in ticket price includes both the service charge and delivery charge. Government tax and any optional selection can still affect the amount ultimately paid under the applicable checkout rules. Always compare complete current totals in the same currency and for the same number of tickets.\n\nThe useful question is not “which brand charges fees?” Ask whether mandatory charges are included, what remains separate, and whether an optional selection was added. Use the [concert ticket fees guide](/guides/concert-ticket-fees-explained) as a checkout checklist."
+      },
+      {
+        "type": "section",
+        "title": "Why a Vivid Seats ticket may transfer through Ticketmaster",
+        "content": "Buying on Vivid Seats does not necessarily mean the final ticket lives in a Vivid Seats app. The original ticket may have been issued in Ticketmaster's digital system. In that case, the reseller can fulfil the Vivid Seats order by transferring the ticket to the buyer's Ticketmaster account.\n\nThat hand-off is normal for many mobile-transfer orders: Vivid Seats is the marketplace where the order is placed, while Ticketmaster is the system that holds the event's digital ticket. The buyer may receive an email asking them to accept the transfer and may need to sign in or create an account using the same email address associated with the order.\n\nThis does not turn the purchase into a direct Ticketmaster order. Questions about the sale, protection, or missing delivery begin with the order marketplace. The transfer platform controls acceptance and mobile entry; the marketplace controls the resale transaction. Keep both confirmations until after the event."
+      },
+      {
+        "type": "section",
+        "title": "Delivery timing and account requirements",
+        "content": "Electronic transfer is not always immediate. Vivid Seats explains that sellers may not receive tickets from the original issuer until closer to the event, and the estimated delivery date can therefore be later than the purchase date. A delayed transfer is different from a missed promised delivery, so read the listing's delivery estimate before paying.\n\nWhen a transfer arrives, follow the acceptance link from a trusted message, verify the event details, and add the ticket to the account or mobile wallet required by the issuer. Do not rely on a screenshot if the ticket uses a moving barcode. Check whether every member of the group needs an account and whether the venue requires the provider's app at entry.\n\nFor Ticketmaster purchases, delivery timing can also vary by event. Organisers can use mobile-only entry or delay access to barcodes. The confirmation page and account should state the delivery method. If timing is important, compare the promised delivery method as carefully as the seat and total. See [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) for a step-by-step routine."
+      },
+      {
+        "type": "section",
+        "title": "Buyer protections, cancellations and refunds",
+        "content": "Ticketmaster's remedies depend on the ticket type, event status, organiser decisions, and applicable terms. A primary ticket bought directly through Ticketmaster and a resale ticket displayed on Ticketmaster do not necessarily follow identical refund or transfer rules. Review the order-specific terms before checkout and keep the confirmation.\n\nVivid Seats publishes a Buyer Guarantee covering transaction security, delivery before the event, and ticket validity and authenticity, subject to its current terms and exclusions. Cancellation, postponement, and refund outcomes remain governed by the current order terms. A published protection is important, but it is not a promise that every schedule change produces a cash refund or that every complaint has the same remedy.\n\nIf an event is postponed, moved, or rescheduled, wait for the official event notice and read the order channel's instructions. Do not assume that a changed date equals a cancellation. If a transfer has not arrived by the stated delivery deadline, contact the marketplace through the order record rather than trying to solve the seller's identity yourself. Our [postponement and cancellation guide](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) separates those outcomes."
+      },
+      {
+        "type": "section",
+        "title": "Vivid Seats Rewards is a feature, not proof of value",
+        "content": "Vivid Seats Rewards is an app-based loyalty programme. Its current terms explain how eligible purchases can earn stamps and how a completed stamp sequence can create a Reward Credit. Eligibility, calculation, expiry, and redemption are governed by the programme's current rules.\n\nTreat a potential reward as one feature of the transaction, not as evidence that the underlying ticket is better value. A future credit does not make two seats equivalent, remove delivery risk, or replace the need to compare today's complete totals. If rewards matter to you, check that the order qualifies, value the benefit conservatively, and confirm when any credit expires."
+      },
+      {
+        "type": "section",
+        "title": "A like-for-like purchase checklist",
+        "content": "- Confirm the artist, venue, city, and local event date on both listings.\n- Identify primary, premium, official resale, or marketplace resale inventory.\n- Match the number of tickets and whether seats must be bought together.\n- Match the section, row, seat range, standing area, and view restrictions.\n- Check whether the ticket is mobile entry, electronic transfer, will call, or another method.\n- Read the promised delivery date and note which account or app must accept the ticket.\n- Compare the complete current totals in the same currency, including applicable tax and selected extras.\n- Read buyer-protection, cancellation, postponement, refund, and transfer terms for the exact order.\n- Use only the official checkout and keep both the order confirmation and any later transfer confirmation.\n\nIf a detail is missing on either side, pause the comparison. A lower visible total for a different seat, quantity, or delivery commitment is not a like-for-like saving. The [concert price comparison guide](/guides/how-to-compare-concert-ticket-prices) provides a broader routine."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Are Vivid Seats and Ticketmaster the same company?**\n\nNo. They are separate ticketing businesses. Ticketmaster often serves as an authorised primary seller and also displays resale tickets. Vivid Seats is a resale marketplace.\n\n**Why did my Vivid Seats order arrive through Ticketmaster?**\n\nThe original digital ticket may be held in Ticketmaster's system. The reseller fulfils the Vivid Seats order by transferring that ticket to your Ticketmaster account. Keep both companies' confirmations because the marketplace handles the order while the issuing platform handles acceptance and entry.\n\n**Do I need a Ticketmaster account for a Vivid Seats transfer?**\n\nYou may need one when Ticketmaster issued the original mobile ticket. Follow the transfer instructions and use the email address associated with the order. Account requirements can vary by issuing platform.\n\n**Does Vivid Seats include fees in the displayed price?**\n\nVivid Seats says its all-in ticket price includes its service charge and delivery charge. Government tax and optional choices may still affect the final amount. Check the final summary before paying.\n\n**Does Ticketmaster include fees in the displayed price?**\n\nTicketmaster says mandatory fees are included in the upfront US price. Taxes, delivery choices, and optional items can depend on the transaction, so confirm the final order summary.\n\n**What happens if a transferred ticket arrives close to the event?**\n\nCompare the actual arrival with the promised delivery estimate. Some tickets are released by the original issuer only near the event. If the stated deadline passes, contact the marketplace through your order record promptly.\n\n**Does Vivid Seats Rewards make a listing a better deal?**\n\nNot by itself. Rewards are governed by programme terms and may be useful to an eligible buyer, but they do not prove two tickets are equivalent or that one current total is lower.\n\n**Which provider should I use for an official onsale?**\n\nUse the authorised seller named by the artist, venue, promoter, or event organiser. That may be Ticketmaster or another primary seller. Use resale marketplaces only after understanding the listing type, total, delivery, and protection terms."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)\n- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [Ticketmaster vs StubHub](/guides/ticketmaster-vs-stubhub)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
+        "publisher": "US Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+        "lastChecked": "2026-08-20",
+        "linkCheckedAt": "2026-08-21"
+      },
+      {
+        "name": "How are ticket prices and fees determined?",
+        "publisher": "Ticketmaster Help",
+        "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
+        "lastChecked": "2026-08-20",
+        "linkCheckedAt": "2026-08-21"
+      },
+      {
+        "name": "Third-Party Resale Tickets: Everything You Need to Know",
+        "publisher": "Ticketmaster Help",
+        "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
+        "lastChecked": "2026-08-20",
+        "linkCheckedAt": "2026-08-21"
+      },
+      {
+        "name": "How are ticket prices determined?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
+        "lastChecked": "2026-08-20",
+        "linkCheckedAt": "2026-08-21"
+      },
+      {
+        "name": "Are there additional fees? How are fees determined?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210524-are-there-additional-fees-how-are-fees-determined-",
+        "lastChecked": "2026-08-20",
+        "linkCheckedAt": "2026-08-21"
+      },
+      {
+        "name": "Vivid Seats order protection terms",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210291-what-is-the-100-buyer-guarantee-",
+        "lastChecked": "2026-08-20",
+        "linkCheckedAt": "2026-08-21"
+      },
+      {
+        "name": "What is Electronic Transfer?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/11000005313-what-is-electronic-transfer-",
+        "lastChecked": "2026-08-20",
+        "linkCheckedAt": "2026-08-21"
+      },
+      {
+        "name": "Estimated Delivery Date",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000213827-estimated-delivery-date",
+        "lastChecked": "2026-08-20",
+        "linkCheckedAt": "2026-08-21"
+      },
+      {
+        "name": "Vivid Seats Rewards",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards",
+        "lastChecked": "2026-08-20",
+        "linkCheckedAt": "2026-08-21"
+      }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "vivid-seats"
+    ]
+  },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     "sections": [
       {
         "type": "intro",
-        "content": "Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.\n\nThere is no provider that is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. TourTicketCompare can shorten that process with approved, timestamped provider price snapshots for the same verified event, but the provider page remains the source for current inventory and the final amount payable. For the narrower two-platform decision, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)."
+        "content": "Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.\n\nThere is no provider that is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. TourTicketCompare can shorten that process with approved, timestamped provider price snapshots for the same verified event, but the provider page remains the source for current inventory and the final amount payable. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)."
       },
       {
         "type": "section",
@@ -199,14 +326,14 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -220,7 +347,7 @@
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Can I trust tickets sold on SeatGeek?",
@@ -234,7 +361,7 @@
         "publisher": "Vivid Seats",
         "url": "https://www.vividseats.com/guarantee",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "What is Deal Score?",
@@ -248,7 +375,7 @@
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       }
     ]
   },
@@ -291,7 +418,7 @@
       {
         "type": "section",
         "title": "Which should you use?",
-        "content": "- **For an official onsale:** use the seller named by the artist, venue, team, or promoter. That may be Ticketmaster, SeatGeek, or another authorised provider.\n- **When primary inventory is unavailable:** compare clearly labelled resale inventory on established marketplaces, including the exact seat, current total, delivery, and protection terms.\n- **When both show tickets:** first identify primary versus resale, then match quantity, section, row, view notes, ticket type, and delivery before comparing totals.\n- **When details do not match:** do not call the lower number a saving. Record the difference and choose the option whose complete terms fit your needs.\n\nFor a wider marketplace comparison, see [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats)."
+        "content": "- **For an official onsale:** use the seller named by the artist, venue, team, or promoter. That may be Ticketmaster, SeatGeek, or another authorised provider.\n- **When primary inventory is unavailable:** compare clearly labelled resale inventory on established marketplaces, including the exact seat, current total, delivery, and protection terms.\n- **When both show tickets:** first identify primary versus resale, then match quantity, section, row, view notes, ticket type, and delivery before comparing totals.\n- **When details do not match:** do not call the lower number a saving. Record the difference and choose the option whose complete terms fit your needs.\n\nFor a wider marketplace comparison, see [Ticketmaster vs SeatGeek vs Vivid Seats](/guides/ticketmaster-vs-seatgeek-vs-vivid-seats). If the resale option you are weighing is Vivid Seats specifically, [compare Ticketmaster and Vivid Seats](/guides/vivid-seats-vs-ticketmaster) directly."
       },
       {
         "type": "section",
@@ -315,28 +442,28 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Third-Party Resale Tickets: Everything You Need to Know",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How do I sell tickets?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9672915828881-How-do-I-sell-tickets",
         "lastChecked": "2026-07-13",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -426,35 +553,35 @@
         "publisher": "TicketNetwork",
         "url": "https://www.ticketnetwork.com/about-us",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Policies",
         "publisher": "TicketNetwork",
         "url": "https://www.ticketnetwork.com/policies",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Third-Party Resale Tickets: Everything You Need to Know",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-08-19",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       }
     ]
   },
@@ -516,14 +643,14 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -593,7 +720,7 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://consumer.ftc.gov/consumer-alerts/2021/01/cracking-down-ticket-bots-leave-you-out-cold",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "What should I expect when buying tickets for prominent events?",
@@ -607,7 +734,7 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       }
     ]
   },
@@ -655,7 +782,7 @@
       {
         "type": "section",
         "title": "FAQ",
-        "content": "**What is the difference between a primary and resale ticket?**\n\nA primary ticket is sold through an authorised ticketing source for the event. A resale ticket is listed by a previous buyer or professional reseller on a marketplace. Some platforms carry both, so read the listing label rather than relying on the platform name.\n\n**Is a primary ticket always cheaper than resale?**\n\nNo. Prices, fees, seats, and availability vary. Compare the final checkout total for equivalent tickets and confirm whether each listing is primary or resale.\n\n**When should I consider a resale ticket?**\n\nConsider resale when the official path has no suitable option, but only after checking the exact event, seat, delivery timing, final total, and marketplace protection terms.\n\n**Do resale tickets arrive immediately?**\n\nNot always. Delivery depends on when the seller receives and transfers the ticket. Check the promised delivery method and deadline before paying."
+        "content": "**What is the difference between a primary and resale ticket?**\n\nA primary ticket is sold through an authorised ticketing source for the event. A resale ticket is listed by a previous buyer or professional reseller on a marketplace. Some platforms carry both, so read the listing label rather than relying on the platform name.\n\n**Is a primary ticket always cheaper than resale?**\n\nNo. Prices, fees, seats, and availability vary. Compare the final checkout total for equivalent tickets and confirm whether each listing is primary or resale.\n\n**When should I consider a resale ticket?**\n\nConsider resale when the official path has no suitable option, but only after checking the exact event, seat, delivery timing, final total, and marketplace protection terms.\n\nFor a concrete primary-versus-resale example, the [Vivid Seats vs Ticketmaster comparison](/guides/vivid-seats-vs-ticketmaster) explains how those roles, fees, and transfers can differ.\n\n**Do resale tickets arrive immediately?**\n\nNot always. Delivery depends on when the seller receives and transfers the ticket. Check the promised delivery method and deadline before paying."
       },
       {
         "type": "section",
@@ -669,14 +796,14 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How are ticket prices determined?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How and when will my tickets be delivered?",
@@ -740,7 +867,7 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How to Spot Scams",
@@ -754,7 +881,7 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9641645631889-What-ticket-delivery-options-does-Ticketmaster-offer",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       }
     ],
     "schema": {
@@ -827,21 +954,21 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How are ticket prices determined?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       }
     ]
   },
@@ -889,7 +1016,7 @@
       {
         "type": "section",
         "title": "The short version",
-        "content": "Ticketmaster and StubHub do different jobs, and neither wins by default. Confirm the official ticketing path first, then weigh any resale listings once the event, seats, final total, delivery timing, and terms are all clear.\n\nTourTicketCompare helps with the research; the provider settles the final price, fees, availability, delivery, and refund and cancellation terms at checkout."
+        "content": "Ticketmaster and StubHub do different jobs, and neither wins by default. Confirm the official ticketing path first, then weigh any resale listings once the event, seats, final total, delivery timing, and terms are all clear.\n\nThe same method applies to another resale marketplace: use [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster) when those are the two order paths you need to assess.\n\nTourTicketCompare helps with the research; the provider settles the final price, fees, availability, delivery, and refund and cancellation terms at checkout."
       },
       {
         "type": "section",
@@ -903,14 +1030,14 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       }
     ]
   },
@@ -1002,7 +1129,7 @@
       {
         "type": "section",
         "title": "Next steps",
-        "content": "Choose the next step based on the remaining decision:\n- [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices) for the full like-for-like routine.\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets) when the ticket type is different.\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) when a lower total comes with a later transfer.\n- [Browse checked artist pages](/artists) when you are ready to apply the checks to a specific show."
+        "content": "Choose the next step based on the remaining decision:\n- [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices) for the full like-for-like routine.\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets) when the ticket type is different.\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) when a lower total comes with a later transfer.\n- [Vivid Seats transfer and fees](/guides/vivid-seats-vs-ticketmaster) when those are the two providers on your shortlist.\n- [Browse checked artist pages](/artists) when you are ready to apply the checks to a specific show."
       },
       {
         "type": "section",
@@ -1016,14 +1143,14 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How are ticket prices and fees determined?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9663528775313-How-are-ticket-prices-and-fees-determined",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -1063,7 +1190,7 @@
       {
         "type": "section",
         "title": "FAQ",
-        "content": "**Why have my tickets not arrived yet?**\n\nSome events delay mobile barcodes or transfers until close to the show. Check the delivery method and promised timing in your provider account before assuming the order has failed.\n\n**What is a mobile transfer ticket?**\n\nIt is an electronic ticket accepted through the venue's or original ticketing platform's app or mobile site. You may need to create an account with the same email used for the order.\n\n**Can I use a screenshot of a mobile ticket?**\n\nDo not assume so. Many venues use rotating barcodes or require the ticket to be displayed in an official app. Follow the entry instructions attached to the exact event.\n\n**What should I do if delivery is late?**\n\nCheck the provider account, email and spam folders, and the stated delivery deadline. If that deadline has passed, contact the provider through its official order-support channel."
+        "content": "**Why have my tickets not arrived yet?**\n\nSome events delay mobile barcodes or transfers until close to the show. Check the delivery method and promised timing in your provider account before assuming the order has failed.\n\n**What is a mobile transfer ticket?**\n\nIt is an electronic ticket accepted through the venue's or original ticketing platform's app or mobile site. You may need to create an account with the same email used for the order.\n\nThat is why a resale order can arrive through a different app. The [Vivid Seats vs Ticketmaster guide](/guides/vivid-seats-vs-ticketmaster) explains this transfer hand-off in context.\n\n**Can I use a screenshot of a mobile ticket?**\n\nDo not assume so. Many venues use rotating barcodes or require the ticket to be displayed in an official app. Follow the entry instructions attached to the exact event.\n\n**What should I do if delivery is late?**\n\nCheck the provider account, email and spam folders, and the stated delivery deadline. If that deadline has passed, contact the provider through its official order-support channel."
       },
       {
         "type": "section",
@@ -1077,7 +1204,7 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9641645631889-What-ticket-delivery-options-does-Ticketmaster-offer",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "What is mobile transfer ticket delivery?",
@@ -1091,7 +1218,7 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       }
     ]
   },
@@ -1153,14 +1280,14 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How are ticket prices determined?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Does SeatGeek charge a fee to buy tickets?",
@@ -1219,7 +1346,7 @@
         "publisher": "US Federal Trade Commission",
         "url": "https://consumer.ftc.gov/consumer-alerts/2021/01/cracking-down-ticket-bots-leave-you-out-cold",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "What should I expect when buying tickets for prominent events?",
@@ -1283,14 +1410,14 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "What ticket delivery options does Ticketmaster offer?",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9641645631889-What-ticket-delivery-options-does-Ticketmaster-offer",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "How and when will my tickets be delivered?",
@@ -1364,21 +1491,21 @@
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/categories/13919047702033-Event-Updates",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "Third-Party Resale Tickets: Everything You Need to Know",
         "publisher": "Ticketmaster Help",
         "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       },
       {
         "name": "What are the signs of a scam?",
         "publisher": "US Federal Trade Commission",
         "url": "https://consumer.ftc.gov/consumer-alerts/2025/03/what-are-signs-scam",
         "lastChecked": "2026-07-22",
-        "linkCheckedAt": "2026-08-20"
+        "linkCheckedAt": "2026-08-21"
       }
     ]
   }

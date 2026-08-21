@@ -83,14 +83,14 @@
         "event_id": 18257239,
         "url": "https://seatgeek.com/john-summit-tickets/champaign-illinois-state-farm-center-2026-10-01-7-pm/concert/18257239",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7058733,
         "url": "https://www.vividseats.com/john-summit-tickets-champaign-state-farm-center-10-1-2026--concerts-dance-electronica/production/7058733",
         "verified": true,
-        "last_verified_at": "2026-08-18",
+        "last_verified_at": "2026-08-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -518,14 +518,14 @@
         "event_id": 18257241,
         "url": "https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241",
         "verified": true,
-        "last_verified_at": "2026-08-20",
+        "last_verified_at": "2026-08-21",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7058784,
         "url": "https://www.vividseats.com/john-summit-tickets-houston-toyota-center---tx-11-5-2026--concerts-dance-electronica/production/7058784",
         "verified": true,
-        "last_verified_at": "2026-08-18",
+        "last_verified_at": "2026-08-21",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1505,5 +1505,74 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005513",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8005513/John-Summit-tickets-Sat-Dec-5-2026-Oakland-Arena"
+  },
+  {
+    "id": "tm-john-summit-2026-los-angeles-vvg1iz_2teslqm",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT - CTRL ESCAPE TOUR",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Los Angeles Memorial Coliseum",
+    "datetime_iso": "2026-12-13T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064FFC2CDF6B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-12-2026/event/0A0064FFC2CDF6B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-12-2026/event/0A0064FFC2CDF6B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064FFC2CDF6B7",
+        "discovery_event_id": "vvG1IZ_2TeSLQM",
+        "url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-12-2026/event/0A0064FFC2CDF6B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8204658",
+        "url": "https://www.ticketnetwork.com/en/p/8204658",
+        "verified": true,
+        "last_verified_at": "2026-08-21",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8204658",
+        "url": "https://www.ticketliquidator.com/tickets/8204658/John-Summit-tickets-Sat-Dec-12-2026-Los-Angeles-Memorial-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-08-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_2TeSLQM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8204658",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8204658/John-Summit-tickets-Sat-Dec-12-2026-Los-Angeles-Memorial-Coliseum"
   }
 ]

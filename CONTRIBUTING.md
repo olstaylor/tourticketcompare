@@ -197,6 +197,8 @@ npm run test:funnel-analytics                 # event validation, duplicate prev
 npm run report:commercial-funnel:self-test    # read-only report aggregation + SQL safety (in test:mvp)
 npm run report:affiliate-performance:self-test # Impact Actions x TTC click join, self-test only (in test:mvp)
 npm run report:funnel:self-test               # legacy provider/CTA-location report (in test:mvp)
+npm run report:web-vitals:self-test           # percentile aggregation + low-sample warnings
+npm run report:web-vitals -- --days 28        # read-only mobile p50/p75/p95 by route/navigation
 ```
 
 Touching `functions/api/analytics.js`, `functions/api/out.js`, `functions/_funnel.js`,

@@ -166,6 +166,7 @@ export const OG_CARDS = {
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": "/og/guides-ticketmaster-vs-seatgeek-vs-vivid-seats.png",
   "/guides/ticketmaster-vs-stubhub": "/og/guides-ticketmaster-vs-stubhub.png",
   "/guides/ticketnetwork-vs-ticketmaster": "/og/guides-ticketnetwork-vs-ticketmaster.png",
+  "/guides/vivid-seats-vs-ticketmaster": "/og/guides-vivid-seats-vs-ticketmaster.png",
   "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": "/og/guides-what-to-do-if-a-concert-is-postponed-or-cancelled.png",
   "/guides/when-is-the-best-time-to-buy-concert-tickets": "/og/guides-when-is-the-best-time-to-buy-concert-tickets.png",
   "/guides/why-ticket-prices-change": "/og/guides-why-ticket-prices-change.png",

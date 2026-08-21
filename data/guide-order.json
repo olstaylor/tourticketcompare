@@ -2,6 +2,7 @@
   "note": "Display order for published guides: the sitemap, llms.txt, the /guides index and the homepage guide cards all read GUIDE_ROUTES in this sequence. Hand-authored and deliberately outside the CMS so saving a guide cannot reorder the homepage. A guide missing from this list is appended in slug order.",
   "order": [
     "how-to-compare-concert-ticket-prices",
+    "vivid-seats-vs-ticketmaster",
     "ticketmaster-vs-seatgeek-vs-vivid-seats",
     "seatgeek-vs-ticketmaster",
     "ticketnetwork-vs-ticketmaster",

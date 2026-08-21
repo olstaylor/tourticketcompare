@@ -7314,5 +7314,17 @@
     "timezone": "Europe/Berlin",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-john-summit-2026-los-angeles-vvg1iz_2teslqm",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "country": "United States Of America",
+    "city": "Los Angeles",
+    "venue": "Los Angeles Memorial Coliseum",
+    "datetime_iso": "2026-12-13T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

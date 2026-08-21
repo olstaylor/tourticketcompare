@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const publicRoutes = ["/", "/artists", "/cities", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
+const publicRoutes = ["/", "/artists", "/cities", "/guides", "/guides/vivid-seats-vs-ticketmaster", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/about", "/contact", "/editorial-policy", "/affiliate-disclosure"];
 const functionBackedStaticRoutes = ["/artists", "/cities", "/guides", "/blog", "/compare-concert-ticket-prices", "/how-it-works", "/currency-converter", "/editorial-policy", "/affiliate-disclosure", "/about", "/contact"];
 const functionBackedWildcardRoutes = ["/artists/*", "/cities/*", "/guides/*", "/blog/*"];
 const expectedH1 = new Map([
@@ -11,8 +11,9 @@ const expectedH1 = new Map([
   ["/artists", "Artists we track"],
   ["/cities", "Concerts by city"],
   ["/guides", "Ticket buying guides"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster (2026): fees, safety and delivery"],
   ["/blog", "TourTicketCompare blog"],
-  ["/compare-concert-ticket-prices", "Compare concert ticket prices"],
+  ["/compare-concert-ticket-prices", "Compare concert ticket prices by site"],
   ["/how-it-works", "How TourTicketCompare works"],
   ["/currency-converter", "Currency converter"],
   ["/about", "About TourTicketCompare"],
@@ -25,8 +26,9 @@ const expectedTitle = new Map([
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
-  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices | TourTicketCompare"],
+  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices by Site | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
   ["/currency-converter", "Currency Converter for Concert Tickets | TourTicketCompare"],
   ["/about", "About TourTicketCompare"],
@@ -35,13 +37,15 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20260820a";
-const TTC_HOME_ASSET_VERSION = "20260729b";
+const APP_ASSET_VERSION = "20260820b";
+const TTC_HOME_ASSET_VERSION = "20260820b";
+const TTC_SHELL_ASSET_VERSION = "20260820b";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
 const CONTROLLED_VIVIDSEATS_PRICE_URL = "https://www.vividseats.com/morgan-wallen-tickets/production/5432101";
+const CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL = "https://vividseats.pxf.io/testcode";
 // Monetized CTAs route through /api/out for server-side Impact tracking; the
 // stored provider destination is resolved and Impact-wrapped by out.js, not
 // rendered raw in the page. In server-rendered markup "&" is escaped to "&amp;".
@@ -56,6 +60,7 @@ const routeMarkers = new Map([
   ["/artists", "Choose an artist, then pick the date you want to compare ticket prices for."],
   ["/cities", "at least four upcoming reviewed shows across at least two artists"],
   ["/guides", "Compare the total at checkout for that exact ticket"],
+  ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
   ["/blog", "what a price snapshot does and does not claim"],
   ["/compare-concert-ticket-prices", "We only compare prices captured for the same event, each with the time it was taken"],
   ["/how-it-works", "A button only goes up when we can confirm where it lands"],
@@ -528,13 +533,13 @@ assert(
 const expectedClientMetadata = [
   "Compare Concert Tickets & Tour Dates | TourTicketCompare",
   homepageDescription,
-  "Compare Concert Ticket Prices | TourTicketCompare",
-  "Find a checked concert event, compare timestamped provider listed-price snapshots for the same show, then confirm fees and the final total with the provider.",
+  "Compare Concert Ticket Prices by Site | TourTicketCompare",
+  "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
   "How to Compare Concert Ticket Prices | TourTicketCompare",
-  "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
-  "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety | TourTicketCompare",
-  "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety",
-  "SeatGeek vs Ticketmaster in 2026: compare fees, prices, safety, delivery, resale tickets and buyer protection—and learn whether they are the same company."
+  "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better? | TourTicketCompare",
+  "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices | TourTicketCompare",
+  "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
+  "Compare SeatGeek vs Ticketmaster for fees, price differences, delivery and buyer protection—whether they are the same company, and which suits your concert."
 ];
 for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
@@ -1065,10 +1070,10 @@ const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
 assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");
 assert(
-  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety",
+  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
   "focused guide should expose exact pairwise decision title metadata"
 );
-assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster (2026): Fees, Prices & Safety", "focused guide should expose the pairwise decision H1");
+assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices", "focused guide should expose the pairwise decision H1");
 for (const expectedCopy of [
   "Short answer:",
   "SeatGeek vs Ticketmaster at a glance",
@@ -1261,17 +1266,19 @@ const serverMorganWithoutSeatGeek = await routeResponse("/artists/morgan-wallen"
 assert(!serverMorganWithoutSeatGeek.text.includes("provider-cta-name\">SeatGeek<"), "server-rendered SeatGeek CTA should stay hidden without SeatGeek Impact config");
 assert(!serverMorganWithoutSeatGeek.text.includes("provider=seatgeek"), "server-rendered pages should not link /api/out SeatGeek redirects without SeatGeek Impact config");
 const ttcHomeJs = await read("public/ttc-home.js");
-assert(ttcHomeJs.includes('wrap.setQuery = function (query, options)'), "homepage search should expose a hydration query setter");
-assert(ttcHomeJs.includes('new URLSearchParams(window.location.search).get("q")'), "homepage hydration should read the q query parameter");
-assert(ttcHomeJs.includes('id: "search-widget"'), "hydrated homepage should preserve the #search-widget anchor target");
-assert(ttcHomeJs.includes('homepageSearch.setQuery(query, { open: true, focus: window.location.hash === "#search-widget" })'), "homepage q hydration should prefill and open the large search panel");
-assert(ttcHomeJs.includes('searchWidget.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage q hydration should scroll to the preserved search-widget anchor when requested");
-assert(ttcHomeJs.includes("Approved snapshots are provider-attributed and timestamped."), "homepage should describe gated provider-attributed snapshots accurately");
+assert(ttcHomeJs.includes('new URLSearchParams(window.location.search).get("q")'), "homepage enhancement should read the q query parameter");
+assert(ttcHomeJs.includes('document.querySelector("#search-widget .search-results")'), "homepage enhancement should preserve and populate the server-rendered search-widget target");
+assert(ttcHomeJs.includes('input[type=search]'), "homepage enhancement should bind the existing accessible search input");
+assert(ttcHomeJs.includes('results.scrollIntoView({ behavior: "smooth", block: "start" })'), "homepage query submission should scroll to the preserved search-widget anchor");
+assert(ttcHomeJs.includes('document.querySelectorAll("#ttc-main a[href]")'), "homepage search should build its index from compiled server-rendered links");
+assert(ttcHomeJs.includes('fetch("/data/events-index.json"'), "homepage search should lazy-load the purpose-built lightweight event index");
+assert(!ttcHomeJs.includes('fetch("/data/events.json"') && !ttcHomeJs.includes('fetch("/data/catalog.json"'), "homepage enhancement must not request the full event or catalogue payload");
+assert(ttcHomeJs.includes("record.city") && ttcHomeJs.includes("record.venue"), "homepage event search should preserve city and venue matching");
+assert(!ttcHomeJs.includes("main.replaceChildren") && !ttcHomeJs.includes('getElementById("ttc-main").innerHTML'), "homepage enhancement must not replace the server-rendered visual DOM");
 assert(ttcHomeJs.includes("Compare ticket prices for the show you want."), "homepage should lead with the comparison intent");
 assert(ttcHomeJs.includes("then check the final total with the provider."), "homepage should tell fans where the final total is confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");
-assert(ttcHomeJs.includes('role: "combobox"') && ttcHomeJs.includes('"aria-activedescendant"'), "homepage search should expose combobox state for keyboard and assistive-technology users");
 assert(!ttcHomeJs.includes("never show live prices"), "homepage should not make an absolute no-price claim that contradicts approved snapshot support");
 assert(!ttcHomeJs.includes("No live prices, ever"), "homepage trust copy should not contradict approved snapshot support");
 
@@ -1583,14 +1590,29 @@ assert(
   "index.html must bump the app.js version whenever client metadata or hydration behavior changes"
 );
 assert(
-  shellHtml.includes(`/ttc-home.css?v=${TTC_HOME_ASSET_VERSION}`),
-  "index.html must version the homepage stylesheet so the current renderer and styles deploy together"
+  shellHtml.includes(`/ttc-shell.css?v=${TTC_SHELL_ASSET_VERSION}`),
+  "index.html must version the shared shell stylesheet"
 );
 const cacheBustedHome = await routeResponse("/");
+assert(
+  cacheBustedHome.text.includes(`/ttc-home.css?v=${TTC_HOME_ASSET_VERSION}`),
+  "server-rendered homepage must version its route-specific stylesheet"
+);
 assert(
   cacheBustedHome.text.includes(`/ttc-home.js?v=${TTC_HOME_ASSET_VERSION}`),
   "server-rendered homepage must version ttc-home.js so stale cached hydration cannot replace current search content"
 );
+assert(cacheBustedHome.text.includes(`/shell.js?v=${TTC_SHELL_ASSET_VERSION}`), "server-rendered routes must load the shared shell script");
+assert(!cacheBustedHome.text.includes(`/app.js?v=${APP_ASSET_VERSION}`), "the routed homepage must not load the universal app bundle");
+const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
+assert(lightweightGuide.text.includes(`/shell.js?v=${TTC_SHELL_ASSET_VERSION}`), "guide routes must load the shared shell");
+assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
+assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
+assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260820b"), "artist routes must load only the artist-board route module");
+assert(!serverMorganWithSeatGeek.text.includes("/app.js?v="), "artist routes must not load the universal app bundle");
+const converterAssets = await routeResponse("/currency-converter");
+assert(converterAssets.text.includes("/currency-converter.js?v=20260820b"), "currency converter must load its route module");
+assert(!converterAssets.text.includes("/app.js?v="), "currency converter must not load the universal app bundle");
 
 const bulkPriceResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?includePrices=true"),
@@ -1696,6 +1718,13 @@ assert(flagOnFreshSeatGeekLane?.fetchedAt === freshSeatGeekPriceRow.verified_at,
 assert(flagOnFreshSeatGeekLane?.source === "seatgeek_partner_api", "SeatGeek price lane should expose only the approved source attribution");
 assert(flagOnFreshSeatGeekLane?.expiresAt === freshSeatGeekPriceRow.expires_at, "SeatGeek price lane should expose the snapshot expiry for freshness checks");
 assert(flagOnFreshSeatGeekLane?.note.includes("SeatGeek price snapshot"), "SeatGeek timestamp/source copy should appear only after a fresh approved D1 row passes the enabled API gate");
+globalThis.caches.default = new MemoryCache();
+const seatGeekHistoryRoute = await routeResponse("/artists/morgan-wallen", envWithEventsJson(seatGeekPriceEventsJson, {
+  DEMAND_DB: createProviderPricingDb([freshSeatGeekPriceRow], freshSeatGeekHistoryRows),
+  SEATGEEK_PRICE_DISPLAY_ENABLED: "true",
+  IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL
+}));
+assert(seatGeekHistoryRoute.text.includes(`data-price-history="${CONTROLLED_SEATGEEK_SHOW_ID}"`), "an approved SeatGeek snapshot should retain the on-site history tracker even though its CTA stays price-free");
 
 const flagOnStaleSeatGeekResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
@@ -1860,6 +1889,24 @@ const flagOnFreshVividSeatsResponse = await showsModule.onRequestGet({
 const flagOnVividSeatsLane = vividSeatsLaneFrom(await flagOnFreshVividSeatsResponse.json());
 assert(flagOnVividSeatsLane?.price === freshVividSeatsPriceRow.low_price, "Vivid Seats price should be returned from a fresh approved D1 latest snapshot when the feature flag is enabled");
 assert(flagOnVividSeatsLane?.providerStatus === "ok" && flagOnVividSeatsLane?.source === "vividseats_impact_marketplace_api", "fresh Vivid Seats snapshot should expose only the approved source attribution");
+
+// The route-module split must retain both surfaces that consume approved price
+// data: artist cards keep the on-demand history tracker, and the comparison hub
+// keeps exact-event provider buttons with the same snapshot framing.
+globalThis.caches.default = new MemoryCache();
+const pricedRouteEnv = envWithEventsJson(vividSeatsPriceEventsJson, {
+  DEMAND_DB: createProviderPricingDb([freshVividSeatsPriceRow]),
+  VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true",
+  IMPACT_VIVIDSEATS_BASE_TRACKING_URL: CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL
+});
+const pricedArtistRoute = await routeResponse("/artists/morgan-wallen", pricedRouteEnv);
+assert(pricedArtistRoute.text.includes(`data-price-history="${CONTROLLED_SEATGEEK_SHOW_ID}"`), "a priced artist event should server-render its price snapshot history control");
+assert(pricedArtistRoute.text.includes("Show price snapshot history"), "the restored artist price tracker should be visible as a collapsed control");
+assert(pricedArtistRoute.text.includes("data-price-alert-interest"), "the price tracker should retain the price-drop demand instrument");
+const pricedComparisonHub = await routeResponse("/compare-concert-ticket-prices", pricedRouteEnv);
+assert(pricedComparisonHub.text.includes('data-cta-location="comparison_hub"'), "the comparison hub should server-render tracked exact-event provider CTAs");
+assert(pricedComparisonHub.text.includes(`showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}`), "the comparison hub should link the exact reviewed event through /api/out");
+assert(pricedComparisonHub.text.includes("$98.75"), "the comparison hub should retain the approved exact-event price snapshot");
 
 const staleVividSeatsResponse = await showsModule.onRequestGet({
   request: new Request(`https://tourticketcompare.com/api/shows?showId=${encodeURIComponent(CONTROLLED_SEATGEEK_SHOW_ID)}&includePrices=true`),
@@ -2656,7 +2703,6 @@ try {
 // --- Vivid Seats wiring: dormant without Impact config + verified event URLs,
 //     Impact-wrapped (never a raw redirect) once configured. ---
 const CONTROLLED_VIVIDSEATS_URL = "https://www.vividseats.com/morgan-wallen-tickets--concerts-country-and-folk/production/5240001";
-const CONTROLLED_VIVIDSEATS_BASE_TRACKING_URL = "https://vividseats.pxf.io/testcode";
 const vividSeatsEventsJson = JSON.stringify(events.map((event) => event.id === CONTROLLED_SEATGEEK_SHOW_ID
   ? { ...event, vividseats_url: CONTROLLED_VIVIDSEATS_URL }
   : event));

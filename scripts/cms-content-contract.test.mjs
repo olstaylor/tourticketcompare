@@ -94,6 +94,7 @@ const COLLECTIONS = [
       "description",
       "status",
       "date_published",
+      "comparison_providers",
       "sources",
       "howto",
       "legacy_article_headline",

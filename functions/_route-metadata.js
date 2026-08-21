@@ -168,15 +168,15 @@ export const TRUST_ROUTES = {
     description:
       "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.",
     indexable: true,
-    lastmod: "2026-08-09"
+    lastmod: "2026-08-20"
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices | TourTicketCompare",
+    title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
     description:
-      "Find a checked concert event, compare timestamped provider listed-price snapshots for the same show, then confirm fees and the final total with the provider.",
+      "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }],
-    lastmod: "2026-08-09"
+    lastmod: "2026-08-21"
   },
   "/artists": {
     title: "Artists | TourTicketCompare",

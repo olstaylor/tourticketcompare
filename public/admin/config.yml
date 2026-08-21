@@ -135,6 +135,20 @@ collections:
           revising a guide moves that date and never this one. A guide that has
           never been published may leave this blank.
 
+      - name: comparison_providers
+        label: Comparison providers
+        widget: select
+        multiple: true
+        required: false
+        min: 2
+        max: 2
+        options:
+          - { label: Ticketmaster, value: ticketmaster }
+          - { label: Vivid Seats, value: vivid-seats }
+        hint: >-
+          Optional exact-event opportunity module. The current renderer supports
+          the Ticketmaster + Vivid Seats pair; the guide build validates it again.
+
       - name: sources
         label: Sources
         label_singular: Source

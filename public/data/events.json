@@ -40956,5 +40956,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831762",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-berlin-uber-arena-8-10-2026/event/107148175"
+  },
+  {
+    "id": "tm-john-summit-2026-los-angeles-vvg1iz_2teslqm",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT - CTRL ESCAPE TOUR",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Los Angeles Memorial Coliseum",
+    "datetime_iso": "2026-12-13T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064FFC2CDF6B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-12-2026/event/0A0064FFC2CDF6B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-12-2026/event/0A0064FFC2CDF6B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064FFC2CDF6B7",
+        "discovery_event_id": "vvG1IZ_2TeSLQM",
+        "url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-12-2026/event/0A0064FFC2CDF6B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_2TeSLQM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

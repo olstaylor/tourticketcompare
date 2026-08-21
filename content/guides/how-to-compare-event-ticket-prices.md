@@ -77,6 +77,7 @@ No. Prices, inventory, fees, and terms can change on the provider site. Use a co
 
 Keep comparing with these related guides:
 
+- [Compare Ticketmaster and Vivid Seats](/guides/vivid-seats-vs-ticketmaster)
 - [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices)
 - [Concert ticket fees explained](/guides/concert-ticket-fees-explained)
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)

@@ -92,6 +92,8 @@ Your order is governed by the terms you accepted at checkout. TourTicketCompare 
 
 Ticketmaster and StubHub do different jobs, and neither wins by default. Confirm the official ticketing path first, then weigh any resale listings once the event, seats, final total, delivery timing, and terms are all clear.
 
+The same method applies to another resale marketplace: use [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster) when those are the two order paths you need to assess.
+
 TourTicketCompare helps with the research; the provider settles the final price, fees, availability, delivery, and refund and cancellation terms at checkout.
 
 ## Related guides

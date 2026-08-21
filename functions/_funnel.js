@@ -203,6 +203,7 @@ export const CTA_LOCATIONS = Object.freeze([
   "artist_page",
   "empty_state",
   "comparison_hub",
+  "guide_provider_pair",
   "venue_card",
   "city_card"
 ]);

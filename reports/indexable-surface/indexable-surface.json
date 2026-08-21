@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T08:49:07.526Z",
+  "generated_at": "2026-08-21T08:51:45.154Z",
   "warn_days": 14,
   "policy": {
     "city_min_shows": 4,
@@ -22,8 +22,8 @@
       "indexable": 7
     },
     "guide": {
-      "rendered": 18,
-      "indexable": 18
+      "rendered": 19,
+      "indexable": 19
     },
     "blog-post": {
       "rendered": 3,
@@ -38,23 +38,23 @@
       "indexable": 32
     },
     "city": {
-      "rendered": 81,
+      "rendered": 82,
       "indexable": 34
     },
     "venue": {
-      "rendered": 105,
+      "rendered": 106,
       "indexable": 45
     },
     "artist-city": {
-      "rendered": 229,
+      "rendered": 230,
       "indexable": 83
     }
   },
   "overall": {
-    "rendered": 492,
-    "indexable": 230,
-    "noindex": 262,
-    "baseline_indexable": 227
+    "rendered": 496,
+    "indexable": 231,
+    "noindex": 265,
+    "baseline_indexable": 230
   },
   "exclusion_reasons": {
     "artist": {
@@ -62,15 +62,15 @@
       "no_upcoming_shows": 8
     },
     "city": {
-      "below_show_threshold": 46,
-      "below_artist_threshold": 30
+      "below_show_threshold": 47,
+      "below_artist_threshold": 31
     },
     "venue": {
-      "below_show_threshold": 56,
-      "below_artist_threshold": 51
+      "below_show_threshold": 57,
+      "below_artist_threshold": 52
     },
     "artist-city": {
-      "below_show_threshold": 146
+      "below_show_threshold": 147
     },
     "blog-tag": {
       "editorial_or_static_route": 1
@@ -205,22 +205,22 @@
     {
       "pattern": "{} Tickets in {} | Compare Prices",
       "count": 82,
-      "share_of_indexable": 35.7
+      "share_of_indexable": 35.5
     },
     {
       "pattern": "{} Concerts in {} | Tickets",
       "count": 45,
-      "share_of_indexable": 19.6
+      "share_of_indexable": 19.5
     },
     {
       "pattern": "Concerts in {} | Upcoming Shows & Tickets",
       "count": 34,
-      "share_of_indexable": 14.8
+      "share_of_indexable": 14.7
     },
     {
       "pattern": "{} Tickets & Tour Dates | TourTicketCompare",
       "count": 31,
-      "share_of_indexable": 13.5
+      "share_of_indexable": 13.4
     },
     {
       "pattern": "Compare Concert Tickets & Tour Dates | TourTicketCompare",
@@ -228,7 +228,7 @@
       "share_of_indexable": 0.4
     },
     {
-      "pattern": "Compare Concert Ticket Prices | TourTicketCompare",
+      "pattern": "Compare Concert Ticket Prices Across Ticket Sites | TourTicketCompare",
       "count": 1,
       "share_of_indexable": 0.4
     },
@@ -283,12 +283,17 @@
       "share_of_indexable": 0.4
     },
     {
-      "pattern": "Ticketmaster vs SeatGeek vs Vivid Seats | TourTicketCompare",
+      "pattern": "Vivid Seats vs Ticketmaster: Fees, Safety & Delivery",
       "count": 1,
       "share_of_indexable": 0.4
     },
     {
-      "pattern": "SeatGeek vs Ticketmaster ({}): Fees, Prices & Safety",
+      "pattern": "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better?",
+      "count": 1,
+      "share_of_indexable": 0.4
+    },
+    {
+      "pattern": "SeatGeek vs Ticketmaster: Which Is Better? Fees & Prices",
       "count": 1,
       "share_of_indexable": 0.4
     },
@@ -418,7 +423,7 @@
     "note": "no export at reports/analytics/route-traffic.json"
   },
   "baseline_comparison": {
-    "baseline_generated_at": "2026-08-01T00:54:49.492Z",
+    "baseline_generated_at": "2026-08-21T08:49:07.526Z",
     "changes": [
       {
         "type": "home",
@@ -483,16 +488,16 @@
       {
         "type": "guide",
         "before": {
-          "rendered": 17,
-          "indexable": 17
+          "rendered": 18,
+          "indexable": 18
         },
         "after": {
-          "rendered": 18,
-          "indexable": 18
+          "rendered": 19,
+          "indexable": 19
         },
         "at_baseline_instant": {
-          "rendered": 18,
-          "indexable": 18
+          "rendered": 19,
+          "indexable": 19
         },
         "kind": "inventory-growth",
         "indexableDelta": 1,
@@ -544,7 +549,7 @@
         "type": "artist",
         "before": {
           "rendered": 40,
-          "indexable": 18
+          "indexable": 32
         },
         "after": {
           "rendered": 40,
@@ -554,76 +559,74 @@
           "rendered": 40,
           "indexable": 32
         },
-        "kind": "unexplained-growth",
-        "indexableDelta": 14,
+        "kind": "unchanged",
+        "indexableDelta": 0,
         "clockDelta": 0,
-        "residual": 14,
-        "tolerance": 3
+        "residual": 0,
+        "tolerance": 4
       },
       {
         "type": "city",
         "before": {
           "rendered": 81,
-          "indexable": 37
+          "indexable": 34
         },
         "after": {
-          "rendered": 81,
+          "rendered": 82,
           "indexable": 34
         },
         "at_baseline_instant": {
           "rendered": 82,
-          "indexable": 37
+          "indexable": 34
         },
-        "kind": "inventory-decay",
-        "indexableDelta": -3,
-        "clockDelta": -3,
+        "kind": "unchanged",
+        "indexableDelta": 0,
+        "clockDelta": 0,
         "residual": 0,
         "tolerance": 4
       },
       {
         "type": "venue",
         "before": {
-          "rendered": 108,
-          "indexable": 45
-        },
-        "after": {
           "rendered": 105,
           "indexable": 45
         },
+        "after": {
+          "rendered": 106,
+          "indexable": 45
+        },
         "at_baseline_instant": {
-          "rendered": 110,
-          "indexable": 46
+          "rendered": 106,
+          "indexable": 45
         },
         "kind": "unchanged",
         "indexableDelta": 0,
-        "clockDelta": -1,
-        "residual": 1,
+        "clockDelta": 0,
+        "residual": 0,
         "tolerance": 5
       },
       {
         "type": "artist-city",
         "before": {
-          "rendered": 241,
-          "indexable": 92
-        },
-        "after": {
           "rendered": 229,
           "indexable": 83
         },
-        "at_baseline_instant": {
-          "rendered": 243,
-          "indexable": 92
+        "after": {
+          "rendered": 230,
+          "indexable": 83
         },
-        "kind": "inventory-decay",
-        "indexableDelta": -9,
-        "clockDelta": -9,
+        "at_baseline_instant": {
+          "rendered": 230,
+          "indexable": 83
+        },
+        "kind": "unchanged",
+        "indexableDelta": 0,
+        "clockDelta": 0,
         "residual": 0,
-        "tolerance": 10
+        "tolerance": 9
       }
     ]
   },
-  "warnings": [
-    "artist: 14 more indexable route(s) than the baseline, beyond what the calendar explains (tolerance 3). Expected after an artist batch or a large discovery run."
-  ],
+  "warnings": [],
   "problems": []
 }

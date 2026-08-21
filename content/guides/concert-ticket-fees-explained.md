@@ -92,6 +92,7 @@ Choose the next step based on the remaining decision:
 - [How to compare concert ticket prices safely](/guides/how-to-compare-concert-ticket-prices) for the full like-for-like routine.
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets) when the ticket type is different.
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) when a lower total comes with a later transfer.
+- [Vivid Seats transfer and fees](/guides/vivid-seats-vs-ticketmaster) when those are the two providers on your shortlist.
 - [Browse checked artist pages](/artists) when you are ready to apply the checks to a specific show.
 
 ## Related guides

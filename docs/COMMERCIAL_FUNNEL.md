@@ -143,6 +143,12 @@ self-test if a query breaks those rules.
 `npm run report:funnel` (the older provider/CTA-location report) still exists
 and is unchanged.
 
+`npm run report:web-vitals -- --days 28` is the separate read-only mobile
+performance report. It groups numeric TTFB, FCP, LCP, and LCP render delay by
+fixed route template and navigation type, and marks every group with fewer
+than 75 samples as provisional. The browser beacon never sends selectors,
+element text, resource URLs, or search queries.
+
 ### Minimum volumes
 
 A rate needs **≥ 30 views** in its denominator and a ranked row needs **≥ 3

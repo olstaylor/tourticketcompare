@@ -55,7 +55,7 @@
     "guides:validate": "node scripts/validate-guide-routes.mjs",
     "guides:build": "node scripts/build-guide-content.mjs",
     "guides:check": "node scripts/build-guide-content.mjs --check",
-    "guides:self-test": "node scripts/build-guide-content.mjs --self-test",
+    "guides:self-test": "node scripts/build-guide-content.mjs --self-test && node scripts/guide-provider-pair.test.mjs",
     "guides:new": "node scripts/new-guide.mjs",
     "blog:build": "node scripts/build-blog-content.mjs",
     "blog:check": "node scripts/build-blog-content.mjs --check",
@@ -87,6 +87,8 @@
     "status:validate:self-test": "node scripts/validate-status-counts.mjs --self-test",
     "report:funnel": "node scripts/report-analytics-funnel.mjs",
     "report:funnel:self-test": "node scripts/report-analytics-funnel.mjs --self-test",
+    "report:web-vitals": "node scripts/report-web-vitals.mjs",
+    "report:web-vitals:self-test": "node scripts/report-web-vitals.mjs --self-test",
     "report:commercial-funnel": "node scripts/report-commercial-funnel.mjs",
     "report:commercial-funnel:self-test": "node scripts/report-commercial-funnel.mjs --self-test",
     "report:affiliate-performance": "node scripts/report-affiliate-performance.mjs",
@@ -151,6 +153,7 @@
   },
   "overrides": {
     "esbuild": "0.28.1",
+    "undici": "7.29.0",
     "ws": "8.21.0",
     "sharp": "^0.35.0"
   }

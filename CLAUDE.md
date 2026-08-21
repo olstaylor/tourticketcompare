@@ -67,6 +67,6 @@ Named-shim trap: editing `functions/artists.js` etc. has **no effect** while `_m
 
 ## Key Documentation
 
-[ARCHITECTURE](docs/ARCHITECTURE.md) · [OPERATIONS](docs/OPERATIONS.md) · [DEPLOYMENT](docs/DEPLOYMENT.md) · [CONTENT_RULES](docs/CONTENT_RULES.md) · [PROVIDER_DATA_POLICY](docs/PROVIDER_DATA_POLICY.md) · [ROUTE_INDEXABILITY_POLICY](docs/ROUTE_INDEXABILITY_POLICY.md) · [BLOG](docs/BLOG.md) · [ARTIST_ONBOARDING](.claude/skills/artist-onboarding/SKILL.md) · [ADDING_PROVIDERS](docs/ADDING_PROVIDERS.md) · [PROVIDER_SYNC](docs/PROVIDER_SYNC.md) · [SEATGEEK_DISCOVERY](docs/SEATGEEK_DISCOVERY.md) · [COMMERCIAL_FUNNEL](docs/COMMERCIAL_FUNNEL.md) · [DOCS_MAINTENANCE](docs/DOCS_MAINTENANCE.md)
+[ARCHITECTURE](docs/ARCHITECTURE.md) · [OPERATIONS](docs/OPERATIONS.md) · [DEPLOYMENT](docs/DEPLOYMENT.md) · [CONTENT_RULES](docs/CONTENT_RULES.md) · [PROVIDER_DATA_POLICY](docs/PROVIDER_DATA_POLICY.md) · [ROUTE_INDEXABILITY_POLICY](docs/ROUTE_INDEXABILITY_POLICY.md) · [BLOG](docs/BLOG.md) · [ARTIST_ONBOARDING](.claude/skills/artist-onboarding/SKILL.md) · [ADDING_PROVIDERS](docs/ADDING_PROVIDERS.md) · [PROVIDER_SYNC](docs/PROVIDER_SYNC.md) · [SEATGEEK_DISCOVERY](docs/SEATGEEK_DISCOVERY.md) · [COMMERCIAL_FUNNEL](docs/COMMERCIAL_FUNNEL.md) · [BACKLINK_CAMPAIGN](docs/BACKLINK_CAMPAIGN.md) · [DOCS_MAINTENANCE](docs/DOCS_MAINTENANCE.md)
 
 `AGENTS.md` is the concise repository-discovery entrypoint. Do not add parallel handover, archive, status, or governance documents; update the canonical file and use git history for superseded material.

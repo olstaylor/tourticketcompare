@@ -1435,6 +1435,8 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     linkId: link.linkId,
     pageType,
     ctaLocation: normalizedCtaLocation || undefined,
+    guideSlug: link.guideSlug || undefined,
+    position: link.position || undefined,
     outcome,
     status: status || undefined
   });
@@ -1499,6 +1501,8 @@ async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocatio
       linkId: link.linkId || null,
       pageType,
       ctaLocation: normalizeCtaLocation(ctaLocation) || undefined,
+      guideSlug: link.guideSlug || undefined,
+      position: link.position || undefined,
       outcome: "attempted"
     }),
     provider: link.provider || null,
@@ -1621,6 +1625,16 @@ async function handleOut(request, env, mode) {
   const ctaLocation = normalizeCtaLocation(
     body.ctaLocation || url.searchParams.get("ctaLocation") || url.searchParams.get("surface")
   );
+  const rawGuideSlug = clean(body.guideSlug || url.searchParams.get("guideSlug"), 120);
+  const requestedPosition = Number(body.position || url.searchParams.get("position"));
+  const guideSlug =
+    ctaLocation === "guide_provider_pair" && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(rawGuideSlug)
+      ? rawGuideSlug
+      : null;
+  const position =
+    ctaLocation === "guide_provider_pair" && Number.isInteger(requestedPosition) && requestedPosition >= 1 && requestedPosition <= 8
+      ? requestedPosition
+      : null;
   const requestedDestination = clean(body.destinationUrl || body.deepLink || url.searchParams.get("destinationUrl") || url.searchParams.get("deepLink"), 2048);
   const clickId = createClickId();
 
@@ -1636,12 +1650,14 @@ async function handleOut(request, env, mode) {
     const resolved = await resolveShowLink(env, showId, provider);
     if (!resolved.ok) {
       if (resolved.legitimate) {
-        const link = { provider, artistSlug: artistSlug || null, linkId: showId, showId };
+        const link = { provider, artistSlug: artistSlug || null, linkId: showId, showId, guideSlug, position };
         await trackOutboundAttempt({ request, env, link, sourcePath, ctaLocation, clickId });
         await trackBlockedClick({ request, env, link, sourcePath, ctaLocation, clickId, status: resolved.status });
       }
       return json({ ok: false, status: resolved.status }, resolved.httpStatus || 400);
     }
+    resolved.link.guideSlug = guideSlug;
+    resolved.link.position = position;
 
     await trackOutboundAttempt({ request, env, link: resolved.link, sourcePath, ctaLocation, clickId });
     if (providerConfig.publicEnabledEnv && !impactMarketplacePublicEnabled(env, provider)) {

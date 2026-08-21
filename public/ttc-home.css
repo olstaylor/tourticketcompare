@@ -398,3 +398,14 @@
   .ttc-gcard:hover { transform: none; }
   .ttc-search__go:active { transform: none; }
 }
+
+/* Server-first homepage hero. JavaScript enhances this markup in place and
+   never swaps it, so the first visual DOM is also the final one. */
+.ttc-home .hero-panel{padding:46px 40px 38px;background:linear-gradient(145deg,#fff 0%,#f7f2e9 100%);border:1px solid var(--ttc-border);border-radius:var(--ttc-radius);box-shadow:var(--ttc-shadow)}
+.ttc-home .hero-copy-block{max-width:780px}
+.ttc-home .hero-title{font-family:var(--ttc-font-ui);font-size:clamp(2.45rem,6vw,4.4rem);font-weight:800;line-height:.98;letter-spacing:-.045em;max-width:13ch;text-wrap:balance}
+.ttc-home .hero-subcopy{margin-top:18px;max-width:54ch;font-size:1.12rem;color:var(--ttc-muted)}
+.ttc-home .hero-search-form{margin-top:24px;display:grid;grid-template-columns:1fr auto;gap:10px;max-width:720px}
+.ttc-home .hero-search-input{min-height:56px;padding:0 18px;border:1.5px solid var(--ttc-border-strong);border-radius:var(--ttc-radius);font:600 1rem var(--ttc-font-ui);background:#fff}
+.ttc-home .hero-search-submit{min-height:56px}
+@media(max-width:620px){.ttc-home .hero-panel{padding:32px 20px 28px}.ttc-home .hero-title{font-size:2.7rem}.ttc-home .hero-search-form{grid-template-columns:1fr}.ttc-home .hero-search-submit{width:100%}}

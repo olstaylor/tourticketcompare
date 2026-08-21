@@ -41004,10 +41004,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8204658",
+        "url": "https://www.ticketnetwork.com/en/p/8204658",
+        "verified": true,
+        "last_verified_at": "2026-08-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_2TeSLQM",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8204658"
   }
 ]

@@ -1304,8 +1304,8 @@ function renderSearchResultsPanel() {
 
   const header = document.createElement("div");
   header.className = "section-intro";
-  text(header, "h2", "Search results").id = "searchSectionTitle";
-  text(header, "p", "Search artists, shows, and guides.");
+  text(header, "h2", "Start with a search").id = "searchSectionTitle";
+  text(header, "p", "Enter an artist, city, venue, or tour above to see matching checked dates and guides.").id = "searchWidgetIntro";
 
   const resultsContainer = document.createElement("div");
   resultsContainer.className = "search-results";
@@ -1418,8 +1418,11 @@ async function renderHome() {
   primary.append(states.primary.length ? renderGrid(states.primary) : text(primary, "p", "No future dates are currently listed.", "muted"));
   artists.append(primary);
   if (states.secondary.length) {
-    const secondary = document.createElement("section");
+    const secondary = document.createElement("details");
     secondary.className = "artist-status-section artist-status-section--secondary";
+    const summary = document.createElement("summary");
+    summary.textContent = `More artists to follow (${states.secondary.length} without dates currently listed)`;
+    secondary.append(summary);
     text(secondary, "h2", "No dates currently listed");
     text(secondary, "p", "These artist pages remain available and move back to the primary section automatically when a future date is added.");
     secondary.append(renderGrid(states.secondary));

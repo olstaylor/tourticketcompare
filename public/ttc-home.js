@@ -108,9 +108,17 @@
   async function renderResults(query) {
     var container = document.querySelector("#search-widget .search-results");
     if (!container) return;
+    var title = document.getElementById("searchSectionTitle");
+    var intro = document.getElementById("searchWidgetIntro");
     var term = fold(query.trim());
     container.replaceChildren();
-    if (!term) return;
+    if (!term) {
+      if (title) title.textContent = "Start with a search";
+      if (intro) intro.textContent = "Enter an artist, city, venue, or tour above to see matching checked dates and guides.";
+      return;
+    }
+    if (title) title.textContent = "Search results";
+    if (intro) intro.textContent = "Matches from checked artists, upcoming dates, and buying guides.";
     var loading = document.createElement("p");
     loading.className = "muted";
     loading.textContent = "Searching checked artists, shows, and guides…";

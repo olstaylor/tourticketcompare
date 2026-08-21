@@ -97,7 +97,7 @@ const guidePages = [
   {
     slug: "ticketmaster-vs-seatgeek-vs-vivid-seats",
     title: "Vivid Seats vs Ticketmaster vs SeatGeek: Which Is Better? | TourTicketCompare",
-    description: "Compare Vivid Seats vs Ticketmaster and SeatGeek by ticket type, listed prices, fees, delivery and buyer protection—plus whether the platforms are the same.",
+    description: "Compare Vivid Seats vs Ticketmaster and SeatGeek by ticket type, listed prices, fees, delivery and buyer protection before choosing where to buy.",
     h1: "Vivid Seats vs Ticketmaster vs SeatGeek: Key Differences",
     serverRendered: true
   },
@@ -255,9 +255,9 @@ const routeMeta = {
       "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total."
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices Across Ticket Sites | TourTicketCompare",
+    title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
     description:
-      "Compare concert ticket prices for the same checked show across ticket sites where provider listed-price snapshots are eligible, then confirm fees and the total with the provider."
+      "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -3819,11 +3819,11 @@ function renderComparisonHub() {
   section.append(renderBreadcrumb([{ label: "Home", href: "/" }, { label: "Compare Concert Ticket Prices" }]));
   const panel = document.createElement("section");
   panel.className = "nested-panel";
-  text(panel, "h1", "Compare Concert Ticket Prices Across Ticket Sites");
+  text(panel, "h1", "Compare Concert Ticket Prices by Site");
   text(
     panel,
     "p",
-    "Compare concert ticket prices for the same checked show across ticket sites where provider listed-price snapshots are eligible, then confirm fees, availability, and ticket terms on the provider site before buying.",
+    "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees, availability, and ticket terms on the provider site before buying.",
     "lead"
   );
   const actions = document.createElement("div");

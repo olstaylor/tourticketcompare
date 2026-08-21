@@ -8,8 +8,8 @@ This file is the current-state snapshot — data counts, per-artist status, and 
 
 Verified by direct inspection of `public/data/`, `data/provider-identities.json`, and `functions/api/out.js` on 2026-08-04 (`npm run data:stats` + `npm run status:validate`, which recounts these figures from source, both clean), and cross-checked against production `/api/health` the same day (`artists: 40`, `events: 607`, `needsRecheck: 46`, provider event-URL coverage `seatgeek 254 / vividseats 383 / ticketnetwork 339 / ticketliquidator 293 / stubhub_international 319`):
 
-- `public/data/artists.json`: **40 records — 26 `indexable_with_substantial_content` + 14 `review_required` shells** (sabrina-carpenter, lady-gaga, the-weeknd, coldplay, karol-g, foo-fighters, metallica, rush, muse, my-chemical-romance, teddy-swims, five-finger-death-punch, system-of-a-down, laura-pausini). The 26 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 14 shells carry `verified_providers: []` and render no CTA. 3 of the 26 indexable carry 0 events and render artist-level CTAs only — beyonce, raye, tate-mcrae, latto.
-- `public/data/catalog.json`: 40 artist records; 0 tour records; **66 ticket_links rows** (40 ticketmaster + 26 seatgeek artist pages; 52 `verified` + `public_enabled`, plus 14 unverified/hidden shell ticketmaster rows for the 14 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
+- `public/data/artists.json`: **40 records — 32 `indexable_with_substantial_content` + 8 `review_required` shells** (sabrina-carpenter, lady-gaga, the-weeknd, coldplay, rush, muse, system-of-a-down, laura-pausini). The 32 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 8 shells carry `verified_providers: []` and render no CTA. 9 of the 32 indexable carry 0 events and render artist-level CTAs only — beyonce, raye, tate-mcrae, karol-g, foo-fighters, metallica, my-chemical-romance, teddy-swims, five-finger-death-punch.
+- `public/data/catalog.json`: 40 artist records; 0 tour records; **72 ticket_links rows** (40 ticketmaster + 32 seatgeek artist pages; 64 `verified` + `public_enabled`, plus 8 unverified/hidden shell ticketmaster rows for the 8 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
 - `public/data/events.json`: **610 events** — 289 `human_verified`, 273 `machine_high_confidence`, 48 `needs_recheck`. Verified event-level provider provenance: SeatGeek 198 (250 rows carry a stored `seatgeek_url`), Vivid Seats 400, TicketNetwork 366, Ticket Liquidator 318, StubHub International 320. Of the 48 `needs_recheck` rows: 25 retain a standalone SeatGeek CTA, 26 retain a standalone Vivid Seats CTA, and 8 have no independently verified resale provider and remain fully CTA-suppressed; all 7 are past events, so no upcoming recheck row is fully CTA-suppressed.
 - `public/data/events/<artist>.json`: per-artist partitions used at runtime.
 - `public/data/guides-content.json`: **18 guide content entries** (topic guides; not per-artist). Generated from `content/guides/*.md` — do not hand-edit.
@@ -17,14 +17,14 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 - `functions/_guide-routes.generated.js`: **18 guide routes** (published guides only), re-exported by `functions/_route-metadata.js`, which still owns the trust/static route metadata and `OLD_GUIDE_REDIRECTS`.
 - Route surface — **generated, do not hand-edit.** `npm run status:surface:write` refreshes this line from the audit's own render of every route (robots meta as served, not as inferred), and `npm run audit:indexable-surface:check` — which runs in `test:mvp` — warns when it goes stale. Exclusion reasons, expiry horizon and the stored baseline live in `reports/indexable-surface/`.
   <!-- generated:route-surface -->
-  Generated 2026-08-20: **492 rendered / 224 indexable**. By type (rendered/indexable): home 1/1 · index 5/5 · static 7/7 · guide 18/18 · blog-post 3/3 · blog-tag 3/2 · artist 40/26 · city 81/34 · venue 105/45 · artist-city 229/83.
+  Generated 2026-08-21: **492 rendered / 230 indexable**. By type (rendered/indexable): home 1/1 · index 5/5 · static 7/7 · guide 18/18 · blog-post 3/3 · blog-tag 3/2 · artist 40/32 · city 81/34 · venue 105/45 · artist-city 229/83.
   <!-- /generated:route-surface -->
-- `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **52 artist-level entries** — one plain `<slug>:ticketmaster` and one Impact-wrapped `<slug>:seatgeek` per indexable artist (26 artists). There are no artist-level Vivid Seats entries; live event-level Vivid redirects resolve from verified event data.
-- `data/provider-identities.json`: all **26 entries** verified with `ticketmaster_attraction_id`, `ticketmaster_artist_url`, `seatgeek_performer_id`, and `seatgeek_artist_url` (the 14 `review_required` shells have no registry entry yet — added at Promote). The onboarding manifest lives in gitignored `artifacts/` and does not survive environment recycling; regenerate it with `npm run artists:onboard:propose -- --names <names> --allow-existing-shells`.
+- `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **64 artist-level entries** — one plain `<slug>:ticketmaster` and one Impact-wrapped `<slug>:seatgeek` per indexable artist (26 artists). There are no artist-level Vivid Seats entries; live event-level Vivid redirects resolve from verified event data.
+- `data/provider-identities.json`: all **32 entries** verified with `ticketmaster_attraction_id`, `ticketmaster_artist_url`, `seatgeek_performer_id`, and `seatgeek_artist_url` (the 14 `review_required` shells have no registry entry yet — added at Promote). The onboarding manifest lives in gitignored `artifacts/` and does not survive environment recycling; regenerate it with `npm run artists:onboard:propose -- --names <names> --allow-existing-shells`.
 
 ## Per-artist status
 
-26 of the 40 artists are `indexable_with_substantial_content` with `verified_providers: ["ticketmaster","seatgeek"]` and both `<slug>:ticketmaster` and `<slug>:seatgeek` entries in `VERIFIED_TICKET_LINKS`; the remaining 14 are `review_required` shells with no CTA (last fourteen rows below). "SG verified" = events carrying `provider_links.seatgeek.verified === true`.
+32 of the 40 artists are `indexable_with_substantial_content` with `verified_providers: ["ticketmaster","seatgeek"]` and both `<slug>:ticketmaster` and `<slug>:seatgeek` entries in `VERIFIED_TICKET_LINKS`; the remaining 8 are `review_required` shells with no CTA. "SG verified" = events carrying `provider_links.seatgeek.verified === true`.
 
 | Slug | `last_verified_at` | Events | With `seatgeek_url` | SG verified | `needs_recheck` | Tour name | Notes |
 |---|---|---|---|---|---|---|---|
@@ -52,14 +52,14 @@ Verified by direct inspection of `public/data/`, `data/provider-identities.json`
 | lady-gaga | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |
 | the-weeknd | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. 0 upcoming SeatGeek events at capture. |
 | coldplay | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. |
-| karol-g | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
-| foo-fighters | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
-| metallica | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
+| karol-g | 2026-08-21 | 0 | 0 | 0 | 0 | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
+| foo-fighters | 2026-08-21 | 0 | 0 | 0 | 0 | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
+| metallica | 2026-08-21 | 0 | 0 | 0 | 0 | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
 | rush | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | muse | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
-| my-chemical-romance | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
-| teddy-swims | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
-| five-finger-death-punch | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
+| my-chemical-romance | 2026-08-21 | 0 | 0 | 0 | 0 | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
+| teddy-swims | 2026-08-21 | 0 | 0 | 0 | 0 | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
+| five-finger-death-punch | 2026-08-21 | 0 | 0 | 0 | 0 | — | Promoted 2026-08-21; 0 events yet — artist-level CTAs only, empty board until dates land. |
 | system-of-a-down | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | laura-pausini | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | gracie-abrams | 2026-07-30 | 53 | 0 | 0 | **7** | The Look at My Life Tour | Both Antwerp dates restored on official TM links. |
@@ -74,7 +74,7 @@ Event CTAs publish independently per provider (`providerEventPublishable`; see `
 **Empty boards move daily** — generated by the same `npm run status:surface:write` pass, from the `artistPageIndexable` gate the router and sitemap read.
 
 <!-- generated:empty-boards -->
-Generated 2026-08-20: 8 of the 26 editorially-indexable artists have no upcoming date and render `noindex,follow` — beyonce, bad-bunny, morgan-wallen, raye, tate-mcrae, rosalia, post-malone, jelly-roll — leaving **18 live artist pages**; 3 of them (beyonce, raye, tate-mcrae) have never had an event record.
+Generated 2026-08-21: 14 of the 32 editorially-indexable artists have no upcoming date and render `noindex,follow` — beyonce, bad-bunny, morgan-wallen, raye, tate-mcrae, rosalia, post-malone, jelly-roll, karol-g, foo-fighters, metallica, my-chemical-romance, teddy-swims, five-finger-death-punch — leaving **18 live artist pages**; 9 of them (beyonce, raye, tate-mcrae, karol-g, foo-fighters, metallica, my-chemical-romance, teddy-swims, five-finger-death-punch) have never had an event record.
 <!-- /generated:empty-boards -->
 
 ## What's true right now

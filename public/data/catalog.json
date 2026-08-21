@@ -1375,8 +1375,8 @@
       "image_alt": "Five Finger Death Punch artist ticket information",
       "factual_summary": "Five Finger Death Punch are an American heavy metal band formed in Las Vegas in 2005. Their albums include The Way of the Fist, War Is the Answer and F8, and the band tours arenas and amphitheatres internationally.",
       "ticket_buying_notes": "These links go to the Five Finger Death Punch page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
-      "seo_title": "Five Finger Death Punch Tickets & Tour Dates | TourTicketCompare",
-      "meta_description": "Five Finger Death Punch tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "seo_title": "Five Finger Death Punch Tickets & Dates | TourTicketCompare",
+      "meta_description": "Five Finger Death Punch tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the total with the provider.",
       "faq": [
         {
           "question": "Where can I find Five Finger Death Punch tour dates?",
@@ -2560,12 +2560,13 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
-      "disclosure_required": true
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/karol-g-tickets/artist/2412593"
     },
     {
       "link_id": "tm-artist-foo-fighters",
@@ -2573,12 +2574,13 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
-      "disclosure_required": true
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/foo-fighters-tickets/artist/776005"
     },
     {
       "link_id": "tm-artist-metallica",
@@ -2586,12 +2588,13 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
-      "disclosure_required": true
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/metallica-tickets/artist/735647"
     },
     {
       "link_id": "tm-artist-rush",
@@ -2625,12 +2628,13 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
-      "disclosure_required": true
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/my-chemical-romance-tickets/artist/859324"
     },
     {
       "link_id": "tm-artist-teddy-swims",
@@ -2638,12 +2642,13 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
-      "disclosure_required": true
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/teddy-swims-tickets/artist/2712573"
     },
     {
       "link_id": "tm-artist-five-finger-death-punch",
@@ -2651,12 +2656,13 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
-      "disclosure_required": true
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/five-finger-death-punch-tickets/artist/1170515"
     },
     {
       "link_id": "tm-artist-system-of-a-down",
@@ -2683,6 +2689,90 @@
       "market": "global",
       "last_checked_at": null,
       "disclosure_required": true
+    },
+    {
+      "link_id": "sg-artist-karol-g",
+      "artist_slug": "karol-g",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/karol-g-tickets"
+    },
+    {
+      "link_id": "sg-artist-foo-fighters",
+      "artist_slug": "foo-fighters",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/foo-fighters-tickets"
+    },
+    {
+      "link_id": "sg-artist-metallica",
+      "artist_slug": "metallica",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/metallica-tickets"
+    },
+    {
+      "link_id": "sg-artist-my-chemical-romance",
+      "artist_slug": "my-chemical-romance",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/my-chemical-romance-tickets"
+    },
+    {
+      "link_id": "sg-artist-teddy-swims",
+      "artist_slug": "teddy-swims",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/teddy-swims-tickets"
+    },
+    {
+      "link_id": "sg-artist-five-finger-death-punch",
+      "artist_slug": "five-finger-death-punch",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-08-21",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/five-finger-death-punch-tickets"
     }
   ],
   "safety_rules": [

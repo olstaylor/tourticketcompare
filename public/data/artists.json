@@ -351,28 +351,37 @@
     "slug": "karol-g",
     "name": "Karol G",
     "short_description": "Colombian singer and songwriter.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-21"
   },
   {
     "slug": "foo-fighters",
     "name": "Foo Fighters",
     "short_description": "American rock band led by Dave Grohl.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-21"
   },
   {
     "slug": "metallica",
     "name": "Metallica",
     "short_description": "American heavy metal band.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-21"
   },
   {
     "slug": "rush",
@@ -396,28 +405,37 @@
     "slug": "my-chemical-romance",
     "name": "My Chemical Romance",
     "short_description": "American rock band from New Jersey.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-21"
   },
   {
     "slug": "teddy-swims",
     "name": "Teddy Swims",
     "short_description": "American singer-songwriter.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-21"
   },
   {
     "slug": "five-finger-death-punch",
     "name": "Five Finger Death Punch",
     "short_description": "American heavy metal band.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-08-21"
   },
   {
     "slug": "system-of-a-down",

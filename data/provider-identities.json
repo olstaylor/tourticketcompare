@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-29",
+  "updated_at": "2026-08-21",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -293,6 +293,72 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Batch-promoted 2026-07-29: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match). Owner browser spot-check completed 2026-07-29: both destinations opened and confirmed as the correct artist page. Machine verification was not possible — SeatGeek and Ticketmaster return 403 to CI/datacenter IPs."
+    },
+    {
+      "slug": "karol-g",
+      "ticketmaster_attraction_id": "K8vZ917p3-V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/karol-g-tickets/artist/2412593",
+      "seatgeek_performer_id": 661147,
+      "seatgeek_artist_url": "https://seatgeek.com/karol-g-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-21: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "foo-fighters",
+      "ticketmaster_attraction_id": "K8vZ91713Y7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/foo-fighters-tickets/artist/776005",
+      "seatgeek_performer_id": 744,
+      "seatgeek_artist_url": "https://seatgeek.com/foo-fighters-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-21: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "metallica",
+      "ticketmaster_attraction_id": "K8vZ9171G9V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/metallica-tickets/artist/735647",
+      "seatgeek_performer_id": 45,
+      "seatgeek_artist_url": "https://seatgeek.com/metallica-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-21: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "my-chemical-romance",
+      "ticketmaster_attraction_id": "K8vZ9175mU7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/my-chemical-romance-tickets/artist/859324",
+      "seatgeek_performer_id": 6721,
+      "seatgeek_artist_url": "https://seatgeek.com/my-chemical-romance-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-21: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "teddy-swims",
+      "ticketmaster_attraction_id": "K8vZ917bnP0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/teddy-swims-tickets/artist/2712573",
+      "seatgeek_performer_id": 781071,
+      "seatgeek_artist_url": "https://seatgeek.com/teddy-swims-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-21: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "five-finger-death-punch",
+      "ticketmaster_attraction_id": "K8vZ917GCJ7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/five-finger-death-punch-tickets/artist/1170515",
+      "seatgeek_performer_id": 733,
+      "seatgeek_artist_url": "https://seatgeek.com/five-finger-death-punch-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Batch-promoted 2026-08-21: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
     }
   ]
 }

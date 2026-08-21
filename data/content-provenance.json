@@ -2,13 +2,9 @@
   "generated_by": "scripts/sync-content-provenance.mjs",
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
-    "/guides/how-to-compare-event-ticket-prices": {
-      "content_hash": "b51724df47926fe6",
-      "content_updated_at": "2026-07-14"
-    },
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "fa51c85ce41955ad",
-      "content_updated_at": "2026-07-22"
+      "content_hash": "c69c62c934a0b2cc",
+      "content_updated_at": "2026-08-21"
     },
     "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
       "content_hash": "8c14ef32d871ed5b",
@@ -87,8 +83,8 @@
       "content_updated_at": "2026-08-09"
     },
     "/guides": {
-      "content_hash": "45af806658448774",
-      "content_updated_at": "2026-08-19"
+      "content_hash": "c1531a2f46e1857d",
+      "content_updated_at": "2026-08-21"
     },
     "/how-it-works": {
       "content_hash": "ce6ba0faee4fd9fc",

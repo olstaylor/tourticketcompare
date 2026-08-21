@@ -9,9 +9,9 @@ import {
   fitTitleToBudget,
   withoutParentheticalQualifier
 } from "./_route-metadata.js";
-// The event-price guide's standalone render fallback, generated alongside
+// The compare-prices guide's standalone render fallback, generated alongside
 // GUIDE_ROUTES from content/guides/*.md. See the note at its use below.
-import { EVENT_PRICE_GUIDE_PATH, EVENT_PRICE_GUIDE_FALLBACK } from "./_guide-routes.generated.js";
+import { PRICE_GUIDE_FALLBACK_PATH, PRICE_GUIDE_FALLBACK } from "./_guide-routes.generated.js";
 import { attachApprovedMarketplacePrices } from "./api/shows.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 import { deriveVenues, findVenue } from "./_venues.js";
@@ -91,7 +91,7 @@ const RESERVED_PREFIXES = ["/api/", "/data/", "/admin/"];
 const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robots.txt", "/sitemap.xml", "/blog/rss.xml", "/admin"]);
 
 // Keep the highest-value editorial guide routable even if an edge deploy briefly
-// serves stale route metadata. EVENT_PRICE_GUIDE_FALLBACK mirrors that guide's
+// serves stale route metadata. PRICE_GUIDE_FALLBACK mirrors that guide's
 // GUIDE_ROUTES entry and prevents Googlebot/Search Console from seeing a
 // transient 404/noindex response, or a page stripped of its visible
 // Published/Updated line and its Article datePublished/dateModified.
@@ -261,7 +261,7 @@ async function routeForPath(pathname, env) {
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
   if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
   if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
-  const guide = GUIDE_ROUTES[path] || (path === EVENT_PRICE_GUIDE_PATH ? EVENT_PRICE_GUIDE_FALLBACK : null);
+  const guide = GUIDE_ROUTES[path] || (path === PRICE_GUIDE_FALLBACK_PATH ? PRICE_GUIDE_FALLBACK : null);
   if (guide) {
     return {
       type: "guide",
@@ -2044,7 +2044,6 @@ const GUIDE_CLUSTERS = [
     title: "Compare prices and fees",
     intro: "Compare final checkout totals, fees, and provider terms before you decide.",
     slugs: [
-      "/guides/how-to-compare-event-ticket-prices",
       "/guides/how-to-compare-concert-ticket-prices",
       "/guides/how-to-avoid-overpaying-for-concert-tickets",
       "/guides/concert-ticket-fees-explained",
@@ -3609,11 +3608,11 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route.description
     )}</p>${renderGuideProvenance(route)}${contentHtml}${renderGuideSources(
       guideContent[route.path]?.sources
-    )}${artistBrowseHtml}<div class="action-row">${anchor(
-      "Compare event ticket prices",
-      "/guides/how-to-compare-event-ticket-prices",
-      "button button-primary"
-    )}${anchor(
+    )}${artistBrowseHtml}<div class="action-row">${
+      route.path === "/guides/how-to-compare-concert-ticket-prices"
+        ? ""
+        : anchor("How to compare ticket prices", "/guides/how-to-compare-concert-ticket-prices", "button button-primary")
+    }${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"

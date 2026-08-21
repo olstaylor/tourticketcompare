@@ -3554,7 +3554,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       .join("");
     return `<main id="mainContent"><section class="content-page comparison-hub" aria-labelledby="compareTitle">${renderBreadcrumbHtml(
       route
-    )}<section class="nested-panel"><h1 id="compareTitle">Compare concert ticket prices across ticket sites</h1><p class="lead">Start with the show you actually want to see, not a generic "site A vs site B" argument. Where eligible provider listed-price snapshots exist for that exact show, use them to narrow things down — then open the providers and compare the real listing, fees, and delivery terms.</p><div class="action-row">${anchor(
+    )}<section class="nested-panel"><h1 id="compareTitle">Compare concert ticket prices by site</h1><p class="lead">Start with the show you actually want to see, not a generic "site A vs site B" argument. Where eligible provider listed-price snapshots exist for that exact show, use them to narrow things down — then open the providers and compare the real listing, fees, and delivery terms.</p><div class="action-row">${anchor(
       "Browse checked events",
       "#current-events",
       "button button-primary"

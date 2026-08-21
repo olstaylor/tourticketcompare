@@ -171,9 +171,9 @@ export const TRUST_ROUTES = {
     lastmod: "2026-08-20"
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices Across Ticket Sites | TourTicketCompare",
+    title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
     description:
-      "Compare concert ticket prices for the same checked show across ticket sites where provider listed-price snapshots are eligible, then confirm fees and the total with the provider.",
+      "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }],
     lastmod: "2026-08-21"

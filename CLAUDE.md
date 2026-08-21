@@ -44,6 +44,7 @@ Do not modify without explicit task scope:
 - **`public/data/events.json`, `artists.json`, `catalog.json`** — no records added, modified, or removed without a verified source
 - **`public/data/blog-content.json`** — generated. Edit `content/blog/*.md` and run `npm run blog:build`; never edit the JSON directly
 - **`public/data/guides-content.json` and `functions/_guide-routes.generated.js`** — generated. Edit `content/guides/*.md` and run `npm run guides:build`; never edit either directly
+- **`public/og/` and `functions/_og-cards.generated.js`** — generated per-page Open Graph cards. Run `npm run og:build`; never hand-edit a card or the manifest
 - **`data/content-provenance.json`** — generated. Holds each page's copy fingerprint, its derived `lastmod`, and each guide's immutable first-publication date; run `npm run content:provenance`
 - **`public/_routes.json`** — incorrect changes cause site-wide failures
 - **Impact credentials and affiliate tracking logic** (including `functions/api/impact/`)

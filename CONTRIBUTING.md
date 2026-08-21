@@ -50,6 +50,19 @@ npm run content:cms-contract  # every persisted front-matter key has a CMS field
                               #   document survives a Sveltia-style save unchanged
 ```
 
+### Social cards
+
+```bash
+npm run og:build            # render public/og/*.png + functions/_og-cards.generated.js
+npm run og:check            # fail if the manifest references a card that is not committed
+npm run og:self-test        # text-fit, layout-geometry and manifest unit tests
+```
+
+Run `npm run og:build` after adding an artist, guide or blog post, and commit the
+new cards with the change. Routes that appear between builds (a city or venue
+qualifying as dates land) fall back to the shared `/og-image.png` until the next
+run — that is expected, not a failure.
+
 `npm run blog:build` is required after any edit under `content/blog/`, and
 `npm run guides:build` after any edit under `content/guides/`. Both validate
 before they write: a page with a broken internal link, an over-budget title, or a
@@ -62,6 +75,7 @@ result. A source's "link checked" date lives in
 `data/guide-source-link-checks.json` and is written only by the nightly audit —
 the editorial claim is `last_checked` in the Markdown. Generated files
 (`public/data/*-content.json`, `functions/_guide-routes.generated.js`,
+`functions/_og-cards.generated.js`, `public/og/*.png`,
 `data/content-provenance.json`) are never hand-edited.
 
 Withdrawing a published guide — drafting, renaming or deleting it — fails the

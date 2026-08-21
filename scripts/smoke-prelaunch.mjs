@@ -657,6 +657,9 @@ const sitemapModule = await import(pathToFileURL(path.join(root, "functions/site
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
 const debugSeatgeekModule = await import(pathToFileURL(path.join(root, "functions/api/debug-seatgeek.js")));
+// The generated per-page Open Graph card manifest, so the social assertions
+// below expect the same image the router serves.
+const { OG_CARDS } = await import(pathToFileURL(path.join(root, "functions/_og-cards.generated.js")));
 const healthModule = await import(pathToFileURL(path.join(root, "functions/api/health.js")));
 const impactHealthModule = await import(pathToFileURL(path.join(root, "functions/api/impact/health.js")));
 const impactProductsModule = await import(pathToFileURL(path.join(root, "functions/api/impact/products.js")));
@@ -895,18 +898,21 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
 
   assert(nextCalled === false, `${pathname} should be rendered by Pages Functions middleware, not passed to static assets`);
 
-  // Social share image: every route must expose an absolute og:image + twitter:image
-  // pointing at the shared brand card, and use the large summary card.
+  // Social share image: every route must expose an absolute og:image +
+  // twitter:image and use the large summary card. The image is the route's own
+  // generated card where one exists (OG_CARDS) and the shared brand card
+  // otherwise — both absolute, both 1200x630.
   const ogImage = text.match(/<meta\s+property="og:image"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
   const twitterImage = text.match(/<meta\s+name="twitter:image"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
   const twitterCard = text.match(/<meta\s+name="twitter:card"\s+content="([^"]*)"\s*\/?>/i)?.[1] || "";
+  const expectedOgImage = `https://tourticketcompare.com${OG_CARDS[pathname] || "/og-image.png"}`;
   assert(
-    ogImage === "https://tourticketcompare.com/og-image.png",
-    `${pathname} og:image should be the absolute brand image URL, got "${ogImage}"`
+    ogImage === expectedOgImage,
+    `${pathname} og:image should be "${expectedOgImage}", got "${ogImage}"`
   );
   assert(
-    twitterImage === "https://tourticketcompare.com/og-image.png",
-    `${pathname} twitter:image should be the absolute brand image URL, got "${twitterImage}"`
+    twitterImage === expectedOgImage,
+    `${pathname} twitter:image should be "${expectedOgImage}", got "${twitterImage}"`
   );
   assert(
     twitterCard === "summary_large_image",

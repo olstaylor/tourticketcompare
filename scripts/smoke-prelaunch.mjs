@@ -37,9 +37,9 @@ const expectedTitle = new Map([
   ["/affiliate-disclosure", "Affiliate Disclosure | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see current listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20260820b";
-const TTC_HOME_ASSET_VERSION = "20260820b";
-const TTC_SHELL_ASSET_VERSION = "20260820b";
+const APP_ASSET_VERSION = "20260821a";
+const TTC_HOME_ASSET_VERSION = "20260821a";
+const TTC_SHELL_ASSET_VERSION = "20260821a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-p0R1STvFKL0RAzEJmT9k4b8JKBKWzcJJtA+S5ktYPqc=' 'sha256-HvWK2bdlS3tIjA99SF0iSFMCH60ZHReAEE7XB6qwLXI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; frame-src https://www.googletagmanager.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -1585,10 +1585,10 @@ const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster")
 assert(lightweightGuide.text.includes(`/shell.js?v=${TTC_SHELL_ASSET_VERSION}`), "guide routes must load the shared shell");
 assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
 assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
-assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260820b"), "artist routes must load only the artist-board route module");
+assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260821a"), "artist routes must load only the artist-board route module");
 assert(!serverMorganWithSeatGeek.text.includes("/app.js?v="), "artist routes must not load the universal app bundle");
 const converterAssets = await routeResponse("/currency-converter");
-assert(converterAssets.text.includes("/currency-converter.js?v=20260820b"), "currency converter must load its route module");
+assert(converterAssets.text.includes("/currency-converter.js?v=20260821a"), "currency converter must load its route module");
 assert(!converterAssets.text.includes("/app.js?v="), "currency converter must not load the universal app bundle");
 
 const bulkPriceResponse = await showsModule.onRequestGet({

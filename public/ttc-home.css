@@ -407,5 +407,6 @@
 .ttc-home .hero-subcopy{margin-top:18px;max-width:54ch;font-size:1.12rem;color:var(--ttc-muted)}
 .ttc-home .hero-search-form{margin-top:24px;display:grid;grid-template-columns:1fr auto;gap:10px;max-width:720px}
 .ttc-home .hero-search-input{min-height:56px;padding:0 18px;border:1.5px solid var(--ttc-border-strong);border-radius:var(--ttc-radius);font:600 1rem var(--ttc-font-ui);background:#fff}
-.ttc-home .hero-search-submit{min-height:56px}
+#ttc-main .hero-search-submit,.ttc-home .hero-search-submit{min-height:56px;background:var(--ttc-accent);color:#fff;border:1px solid var(--ttc-accent-hover);box-shadow:0 3px 0 var(--ttc-accent-hover),0 10px 22px -12px rgba(166,62,34,.85)}
+#ttc-main .hero-search-submit:hover,#ttc-main .hero-search-submit:focus-visible,.ttc-home .hero-search-submit:hover,.ttc-home .hero-search-submit:focus-visible{background:var(--ttc-accent-hover);border-color:var(--ttc-accent-hover)}
 @media(max-width:620px){.ttc-home .hero-panel{padding:32px 20px 28px}.ttc-home .hero-title{font-size:2.7rem}.ttc-home .hero-search-form{grid-template-columns:1fr}.ttc-home .hero-search-submit{width:100%}}

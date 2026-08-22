@@ -15770,11 +15770,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071100",
-        "url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-21-2026/event/107071100",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -15783,7 +15783,7 @@
     "ticketmaster_discovery_event_id": "k7vGFbyDOLWCM",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-east-rutherford-tickets-8-21-2026/event/107071100"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-east-rutherford-k7vgfbydo-qcd",
@@ -41193,13 +41193,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162344",
+        "url": "https://www.stubhub.ie/karol-g-santa-clara-tickets-8-22-2026/event/107162344",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_aNMPKQV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7914348",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7914348/Karol-G-tickets-Sat-Aug-22-2026-Levis-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7914348/Karol-G-tickets-Sat-Aug-22-2026-Levis-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-santa-clara-tickets-8-22-2026/event/107162344"
   },
   {
     "id": "tm-karol-g-2026-seattle-vvg1hz_a1yzbuj",
@@ -41262,13 +41270,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162158",
+        "url": "https://www.stubhub.ie/karol-g-seattle-tickets-8-26-2026/event/107162158",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_a1YZbUJ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896603",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896603/Karol-G-tickets-Wed-Aug-26-2026-Lumen-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896603/Karol-G-tickets-Wed-Aug-26-2026-Lumen-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-seattle-tickets-8-26-2026/event/107162158"
   },
   {
     "id": "tm-karol-g-2026-san-antonio-g5diz_ak3mivp",
@@ -41331,13 +41347,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162159",
+        "url": "https://www.stubhub.ie/karol-g-san-antonio-tickets-9-2-2026/event/107162159",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_ak3mIVP",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896561",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896561/Karol-G-tickets-Wed-Sep-2-2026-Alamodome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896561/Karol-G-tickets-Wed-Sep-2-2026-Alamodome",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-san-antonio-tickets-9-2-2026/event/107162159"
   },
   {
     "id": "tm-karol-g-2026-el-paso-vvg1yz_an5e3ov",
@@ -41400,13 +41424,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164251",
+        "url": "https://www.stubhub.ie/karol-g-el-paso-tickets-9-5-2026/event/107164251",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_aN5E3ov",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7918428",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7918428/Karol-G-tickets-Sat-Sep-5-2026-Sun-Bowl-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7918428/Karol-G-tickets-Sat-Sep-5-2026-Sun-Bowl-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-el-paso-tickets-9-5-2026/event/107164251"
   },
   {
     "id": "tm-karol-g-2026-el-paso-vvg1yz_akoajis",
@@ -41469,13 +41501,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164252",
+        "url": "https://www.stubhub.ie/karol-g-el-paso-tickets-9-6-2026/event/107164252",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_aKOajIs",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896567",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896567/Karol-G-tickets-Sun-Sep-6-2026-Sun-Bowl-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896567/Karol-G-tickets-Sun-Sep-6-2026-Sun-Bowl-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-el-paso-tickets-9-6-2026/event/107164252"
   },
   {
     "id": "tm-karol-g-2026-foxborough-vv1avzk3ogkebubpy",
@@ -41538,13 +41578,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107161138",
+        "url": "https://www.stubhub.ie/karol-g-foxborough-tickets-9-12-2026/event/107161138",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk3oGkeBuBpy",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896571",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896571/Karol-G-tickets-Sat-Sep-12-2026-Gillette-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896571/Karol-G-tickets-Sat-Sep-12-2026-Gillette-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-foxborough-tickets-9-12-2026/event/107161138"
   },
   {
     "id": "tm-karol-g-2026-east-rutherford-k7vgf_a6cy2uc",
@@ -41607,13 +41655,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162164",
+        "url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-17-2026/event/107162164",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_a6Cy2uc",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896548",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896548/Karol-G-tickets-Thu-Sep-17-2026-MetLife-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896548/Karol-G-tickets-Thu-Sep-17-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-17-2026/event/107162164"
   },
   {
     "id": "tm-karol-g-2026-east-rutherford-k7vgf_anrle2y",
@@ -41676,13 +41732,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162345",
+        "url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-18-2026/event/107162345",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_aNRle2Y",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7913589",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7913589/Karol-G-tickets-Fri-Sep-18-2026-MetLife-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7913589/Karol-G-tickets-Fri-Sep-18-2026-MetLife-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-east-rutherford-tickets-9-18-2026/event/107162345"
   },
   {
     "id": "tm-karol-g-2026-atlanta-vvg1zz_ag0kdf4",
@@ -41745,13 +41809,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162165",
+        "url": "https://www.stubhub.ie/karol-g-atlanta-tickets-9-24-2026/event/107162165",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_aG0kdf4",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896545",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896545/Karol-G-tickets-Thu-Sep-24-2026-Mercedes-Benz-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896545/Karol-G-tickets-Thu-Sep-24-2026-Mercedes-Benz-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-atlanta-tickets-9-24-2026/event/107162165"
   },
   {
     "id": "tm-karol-g-2026-houston-g5diz_akcfr2w",
@@ -41814,13 +41886,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162167",
+        "url": "https://www.stubhub.ie/karol-g-houston-tickets-9-27-2026/event/107162167",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_aKCFR2W",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896540",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896540/Karol-G-tickets-Sun-Sep-27-2026-Reliant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896540/Karol-G-tickets-Sun-Sep-27-2026-Reliant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-houston-tickets-9-27-2026/event/107162167"
   },
   {
     "id": "tm-karol-g-2026-miami-vvg1vz_a38lpr5",
@@ -41883,13 +41963,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162168",
+        "url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-2-2026/event/107162168",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_a38LpR5",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896542",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896542/Karol-G-tickets-Fri-Oct-2-2026-Hard-Rock-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896542/Karol-G-tickets-Fri-Oct-2-2026-Hard-Rock-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-2-2026/event/107162168"
   },
   {
     "id": "tm-karol-g-2026-miami-vvg1vz_afezyvt",
@@ -41952,13 +42040,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162346",
+        "url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-3-2026/event/107162346",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_afeZYVt",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7913597",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7913597/Karol-G-tickets-Sat-Oct-3-2026-Hard-Rock-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7913597/Karol-G-tickets-Sat-Oct-3-2026-Hard-Rock-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-3-2026/event/107162346"
   },
   {
     "id": "tm-karol-g-2026-tampa-vvg1vz_aksr-m3",
@@ -42021,13 +42117,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162169",
+        "url": "https://www.stubhub.ie/karol-g-tampa-tickets-10-9-2026/event/107162169",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_aKsr-m3",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896543",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896543/Karol-G-tickets-Fri-Oct-9-2026-Raymond-James-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896543/Karol-G-tickets-Fri-Oct-9-2026-Raymond-James-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tampa-tickets-10-9-2026/event/107162169"
   },
   {
     "id": "tm-karol-g-2026-arlington-z7r9jz1a7xfrb",
@@ -42090,13 +42194,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162170",
+        "url": "https://www.stubhub.ie/karol-g-arlington-tickets-10-15-2026/event/107162170",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xfrb",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896541",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896541/Karol-G-tickets-Thu-Oct-15-2026-ATT-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896541/Karol-G-tickets-Thu-Oct-15-2026-ATT-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-arlington-tickets-10-15-2026/event/107162170"
   },
   {
     "id": "tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k",
@@ -42670,11 +42782,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107161134",
+        "url": "https://www.stubhub.ie/karol-g-tickets-london-tottenham-hotspur-stadium-6-7-2027/event/107161134",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3oGkdDBUhf",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-london-tottenham-hotspur-stadium-6-7-2027/event/107161134"
   },
   {
     "id": "tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy",
@@ -42737,13 +42857,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162215",
+        "url": "https://www.stubhub.ie/karol-g-tickets-amsterdam-johan-cruijff-arena-10-7-2027/event/107162215",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vC_bwjy",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896506",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896506/Karol-G-tickets-Sat-Jul-10-2027-Johan-Cruijff-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896506/Karol-G-tickets-Sat-Jul-10-2027-Johan-Cruijff-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-amsterdam-johan-cruijff-arena-10-7-2027/event/107162215"
   },
   {
     "id": "tm-karol-g-2027-warsaw-z698xzqpz16vfa4vgs",
@@ -43066,13 +43194,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106999129",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026/event/106999129",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZku4GkewUExj",
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511935",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511935/Foo-Fighters-tickets-Sun-Sep-20-2026-BC-Place-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511935/Foo-Fighters-tickets-Sun-Sep-20-2026-BC-Place-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-vancouver-bc-place-stadium-9-20-2026/event/106999129"
   },
   {
     "id": "tm-foo-fighters-2026-las-vegas-1a9zkufgkd3cmyl",
@@ -43135,13 +43271,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106999130",
+        "url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkufGkd3CMyl",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7511942",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7511942/Foo-Fighters-tickets-Sat-Sep-26-2026-Allegiant-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-las-vegas-tickets-9-26-2026/event/106999130"
   },
   {
     "id": "tm-foo-fighters-2026-uncasville-g5vvz_unjqq1q",
@@ -43448,13 +43592,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107132085",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-30-2027/event/107132085",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_kk3G7nDXr",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775513",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775513/Metallica-tickets-Sat-Jan-30-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775513/Metallica-tickets-Sat-Jan-30-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-30-2027/event/107132085"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0yct0",
@@ -43570,13 +43722,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133088",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-6-2027/event/107133088",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzr6s",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785087",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785087/Metallica-tickets-Sat-Feb-6-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785087/Metallica-tickets-Sat-Feb-6-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-6-2027/event/107133088"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0ywtn",
@@ -43692,13 +43852,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133092",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-20-2027/event/107133092",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzr6g",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785089",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785089/Metallica-tickets-Sat-Feb-20-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785089/Metallica-tickets-Sat-Feb-20-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-20-2027/event/107133092"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0buti",
@@ -43814,13 +43982,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133100",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-13-2027/event/107133100",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzXFF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785871",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785871/Metallica-tickets-Sat-Mar-13-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785871/Metallica-tickets-Sat-Mar-13-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-13-2027/event/107133100"
   },
   {
     "id": "tm-my-chemical-romance-2026-minneapolis-vv1kvovngegageom5",
@@ -43883,13 +44059,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106964083",
+        "url": "https://www.stubhub.ie/my-chemical-romance-minneapolis-tickets-8-24-2026/event/106964083",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvNGEGAGeom5",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424934",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424934/My-Chemical-Romance-tickets-Mon-Aug-24-2026-Target-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424934/My-Chemical-Romance-tickets-Mon-Aug-24-2026-Target-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-minneapolis-tickets-8-24-2026/event/106964083"
   },
   {
     "id": "tm-my-chemical-romance-2026-denver-g5vzzbwncbsnm",
@@ -44021,13 +44205,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106960285",
+        "url": "https://www.stubhub.ie/my-chemical-romance-san-diego-tickets-8-30-2026/event/106960285",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbwYkcki4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424936",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424936/My-Chemical-Romance-tickets-Sun-Aug-30-2026-Petco-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424936/My-Chemical-Romance-tickets-Sun-Aug-30-2026-Petco-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-san-diego-tickets-8-30-2026/event/106960285"
   },
   {
     "id": "tm-my-chemical-romance-2026-phoenix-1a_zkgygkd3ywvj",
@@ -44090,13 +44282,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106964082",
+        "url": "https://www.stubhub.ie/my-chemical-romance-phoenix-tickets-9-6-2026/event/106964082",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkGYGkd3YwVJ",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424937",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424937/My-Chemical-Romance-tickets-Sun-Sep-6-2026-Chase-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424937/My-Chemical-Romance-tickets-Sun-Sep-6-2026-Chase-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-phoenix-tickets-9-6-2026/event/106964082"
   },
   {
     "id": "tm-my-chemical-romance-2026-san-antonio-g5dizbsd0c4y6",
@@ -44159,13 +44359,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106960286",
+        "url": "https://www.stubhub.ie/my-chemical-romance-san-antonio-tickets-9-12-2026/event/106960286",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbSd0c4y6",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424939",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424939/My-Chemical-Romance-tickets-Sat-Sep-12-2026-Alamodome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424939/My-Chemical-Romance-tickets-Sat-Sep-12-2026-Alamodome",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-san-antonio-tickets-9-12-2026/event/106960286"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55mdjk",
@@ -44228,13 +44436,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106964079",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-21-2026/event/106964079",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55MdJK",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424940",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424940/My-Chemical-Romance-tickets-Wed-Oct-21-2026-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424940/My-Chemical-Romance-tickets-Wed-Oct-21-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-21-2026/event/106964079"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55msjp",
@@ -44297,13 +44513,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106964080",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-23-2026/event/106964080",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55MSJp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424941",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424941/My-Chemical-Romance-tickets-Fri-Oct-23-2026-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424941/My-Chemical-Romance-tickets-Fri-Oct-23-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-23-2026/event/106964080"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55znjb",
@@ -44366,13 +44590,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106964081",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-24-2026/event/106964081",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55zNJb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7424942",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424942/My-Chemical-Romance-tickets-Sat-Oct-24-2026-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7424942/My-Chemical-Romance-tickets-Sat-Oct-24-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-24-2026/event/106964081"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55ykjr",
@@ -44435,13 +44667,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076168",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-30-2026/event/107076168",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55yKJr",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570185",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570185/My-Chemical-Romance-tickets-Fri-Oct-30-2026-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570185/My-Chemical-Romance-tickets-Fri-Oct-30-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-30-2026/event/107076168"
   },
   {
     "id": "tm-my-chemical-romance-2026-hollywood-vvg1izbs55bdjv",
@@ -44504,13 +44744,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107074158",
+        "url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-31-2026/event/107074158",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZbS55BdJV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7570377",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570377/My-Chemical-Romance-tickets-Sat-Oct-31-2026-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7570377/My-Chemical-Romance-tickets-Sat-Oct-31-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/my-chemical-romance-hollywood-tickets-10-31-2026/event/107074158"
   },
   {
     "id": "tm-my-chemical-romance-2026-singapore-z7r9jz1a7oup6",
@@ -44626,13 +44874,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163018",
+        "url": "https://www.stubhub.ie/teddy-swims-kansas-city-tickets-9-22-2026/event/107163018",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70v1a",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883090",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883090/Teddy-Swims-tickets-Tue-Sep-22-2026-T-Mobile-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883090/Teddy-Swims-tickets-Tue-Sep-22-2026-T-Mobile-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-kansas-city-tickets-9-22-2026/event/107163018"
   },
   {
     "id": "tm-teddy-swims-2026-saint-louis-vv17bz_fgkuhx1g-",
@@ -44681,11 +44937,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107163014",
+        "url": "https://www.stubhub.ie/teddy-swims-saint-louis-tickets-9-23-2026/event/107163014",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_FGkUHx1G-",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-saint-louis-tickets-9-23-2026/event/107163014"
   },
   {
     "id": "tm-teddy-swims-2026-chicago-vv178z_fgkuxeurm",
@@ -44748,13 +45012,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158266",
+        "url": "https://www.stubhub.ie/teddy-swims-chicago-tickets-9-25-2026/event/107158266",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_FGkUXeURm",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883092",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883092/Teddy-Swims-tickets-Fri-Sep-25-2026-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883092/Teddy-Swims-tickets-Fri-Sep-25-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-chicago-tickets-9-25-2026/event/107158266"
   },
   {
     "id": "tm-teddy-swims-2026-saint-paul-z7r9jz1a7xf0u",
@@ -44817,13 +45089,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168137",
+        "url": "https://www.stubhub.ie/teddy-swims-saint-paul-tickets-9-26-2026/event/107168137",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xF0U",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883093",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883093/Teddy-Swims-tickets-Sat-Sep-26-2026-Grand-Casino-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883093/Teddy-Swims-tickets-Sat-Sep-26-2026-Grand-Casino-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-saint-paul-tickets-9-26-2026/event/107168137"
   },
   {
     "id": "tm-teddy-swims-2026-detroit-vv17oz_fgktec1td",
@@ -44886,13 +45166,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163017",
+        "url": "https://www.stubhub.ie/teddy-swims-detroit-tickets-9-29-2026/event/107163017",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_FGkTEC1td",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883094",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883094/Teddy-Swims-tickets-Tue-Sep-29-2026-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883094/Teddy-Swims-tickets-Tue-Sep-29-2026-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-detroit-tickets-9-29-2026/event/107163017"
   },
   {
     "id": "tm-teddy-swims-2026-columbus-vv17fz_fgkdx0-pn",
@@ -44955,13 +45243,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163019",
+        "url": "https://www.stubhub.ie/teddy-swims-columbus-tickets-9-30-2026/event/107163019",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_FGkDx0-pN",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883095",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883095/Teddy-Swims-tickets-Wed-Sep-30-2026-Nationwide-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883095/Teddy-Swims-tickets-Wed-Sep-30-2026-Nationwide-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-columbus-tickets-9-30-2026/event/107163019"
   },
   {
     "id": "tm-teddy-swims-2026-brooklyn-1adzz_fgknbfkoe",
@@ -45024,13 +45320,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154938",
+        "url": "https://www.stubhub.ie/teddy-swims-brooklyn-tickets-10-2-2026/event/107154938",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_FGknbFKOe",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883096",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883096/Teddy-Swims-tickets-Fri-Oct-2-2026-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883096/Teddy-Swims-tickets-Fri-Oct-2-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-brooklyn-tickets-10-2-2026/event/107154938"
   },
   {
     "id": "tm-teddy-swims-2026-toronto-1avzz_fgku3eucw",
@@ -45215,13 +45519,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158269",
+        "url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_FGktNMxtd",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883099",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883099/Teddy-Swims-tickets-Fri-Oct-9-2026-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883099/Teddy-Swims-tickets-Fri-Oct-9-2026-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269"
   },
   {
     "id": "tm-teddy-swims-2026-philadelphia-1adzz_fgkm5wpjt",
@@ -45284,13 +45596,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163013",
+        "url": "https://www.stubhub.ie/teddy-swims-philadelphia-tickets-10-10-2026/event/107163013",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_FGkM5WPjT",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883100",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883100/Teddy-Swims-tickets-Sat-Oct-10-2026-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883100/Teddy-Swims-tickets-Sat-Oct-10-2026-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-philadelphia-tickets-10-10-2026/event/107163013"
   },
   {
     "id": "tm-teddy-swims-2026-washington-16vfz_f0sg7tpdk",
@@ -45353,13 +45673,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154939",
+        "url": "https://www.stubhub.ie/teddy-swims-washington-tickets-10-13-2026/event/107154939",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_F0SG7TPDk",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883102",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883102/Teddy-Swims-tickets-Tue-Oct-13-2026-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883102/Teddy-Swims-tickets-Tue-Oct-13-2026-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-washington-tickets-10-13-2026/event/107154939"
   },
   {
     "id": "tm-teddy-swims-2026-nashville-g5viz_fxfo1dj",
@@ -45422,13 +45750,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168136",
+        "url": "https://www.stubhub.ie/teddy-swims-nashville-tickets-10-16-2026/event/107168136",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_FXfO1dj",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883103",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883103/Teddy-Swims-tickets-Fri-Oct-16-2026-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883103/Teddy-Swims-tickets-Fri-Oct-16-2026-Bridgestone-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-nashville-tickets-10-16-2026/event/107168136"
   },
   {
     "id": "tm-teddy-swims-2026-charlotte-g5evz_fumjscw",
@@ -45491,13 +45827,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168138",
+        "url": "https://www.stubhub.ie/teddy-swims-charlotte-tickets-10-18-2026/event/107168138",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_FUMjSCw",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883104",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883104/Teddy-Swims-tickets-Sun-Oct-18-2026-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883104/Teddy-Swims-tickets-Sun-Oct-18-2026-Spectrum-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-charlotte-tickets-10-18-2026/event/107168138"
   },
   {
     "id": "tm-teddy-swims-2026-atlanta-vvg1zz_fuw3nll",
@@ -45560,13 +45904,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158270",
+        "url": "https://www.stubhub.ie/teddy-swims-atlanta-tickets-10-20-2026/event/107158270",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FUW3nLL",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883105",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883105/Teddy-Swims-tickets-Tue-Oct-20-2026-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883105/Teddy-Swims-tickets-Tue-Oct-20-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-atlanta-tickets-10-20-2026/event/107158270"
   },
   {
     "id": "tm-teddy-swims-2026-orlando-1aefz_fgkd1sjat",
@@ -45629,13 +45981,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158271",
+        "url": "https://www.stubhub.ie/teddy-swims-orlando-tickets-10-22-2026/event/107158271",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGkD1SJat",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883107",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883107/Teddy-Swims-tickets-Thu-Oct-22-2026-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883107/Teddy-Swims-tickets-Thu-Oct-22-2026-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-orlando-tickets-10-22-2026/event/107158271"
   },
   {
     "id": "tm-teddy-swims-2026-sunrise-z7r9jz1a70v8i",
@@ -45698,13 +46058,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107155510",
+        "url": "https://www.stubhub.ie/teddy-swims-sunrise-tickets-10-23-2026/event/107155510",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70v8I",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883108",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883108/Teddy-Swims-tickets-Fri-Oct-23-2026-Amerant-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883108/Teddy-Swims-tickets-Fri-Oct-23-2026-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-sunrise-tickets-10-23-2026/event/107155510"
   },
   {
     "id": "tm-teddy-swims-2026-tampa-vvg1vz_fdr-qk6",
@@ -45767,13 +46135,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158272",
+        "url": "https://www.stubhub.ie/teddy-swims-tampa-tickets-10-25-2026/event/107158272",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_FDr-qK6",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883109",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883109/Teddy-Swims-tickets-Sun-Oct-25-2026-Benchmark-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883109/Teddy-Swims-tickets-Sun-Oct-25-2026-Benchmark-International-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tampa-tickets-10-25-2026/event/107158272"
   },
   {
     "id": "tm-teddy-swims-2026-houston-z7r9jz1a7x4fs",
@@ -45905,13 +46281,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154940",
+        "url": "https://www.stubhub.ie/teddy-swims-austin-tickets-10-28-2026/event/107154940",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_FXgRQAF",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883110",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883110/Teddy-Swims-tickets-Wed-Oct-28-2026-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883110/Teddy-Swims-tickets-Wed-Oct-28-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-austin-tickets-10-28-2026/event/107154940"
   },
   {
     "id": "tm-teddy-swims-2026-fort-worth-vvg1yz_flxlbcf",
@@ -45974,13 +46358,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158274",
+        "url": "https://www.stubhub.ie/teddy-swims-fort-worth-tickets-10-30-2026/event/107158274",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_FlXlBcf",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883111",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883111/Teddy-Swims-tickets-Fri-Oct-30-2026-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-fort-worth-tickets-10-30-2026/event/107158274"
   },
   {
     "id": "tm-teddy-swims-2026-denver-g5vzz_fuokkc4",
@@ -46043,13 +46435,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168139",
+        "url": "https://www.stubhub.ie/teddy-swims-denver-tickets-11-1-2026/event/107168139",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_FUokkC4",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883112",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883112/Teddy-Swims-tickets-Sun-Nov-1-2026-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883112/Teddy-Swims-tickets-Sun-Nov-1-2026-Ball-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-denver-tickets-11-1-2026/event/107168139"
   },
   {
     "id": "tm-teddy-swims-2026-salt-lake-city-z7r9jz1a7x_ag",
@@ -46112,13 +46512,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107163016",
+        "url": "https://www.stubhub.ie/teddy-swims-salt-lake-city-tickets-11-3-2026/event/107163016",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x_ag",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883114",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883114/Teddy-Swims-tickets-Tue-Nov-3-2026-Delta-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883114/Teddy-Swims-tickets-Tue-Nov-3-2026-Delta-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-salt-lake-city-tickets-11-3-2026/event/107163016"
   },
   {
     "id": "tm-teddy-swims-2026-seattle-vvg1hz_fujpiyp",
@@ -46181,13 +46589,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158275",
+        "url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FUJPIyp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883115",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883115/Teddy-Swims-tickets-Thu-Nov-5-2026-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883115/Teddy-Swims-tickets-Thu-Nov-5-2026-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-seattle-tickets-11-5-2026/event/107158275"
   },
   {
     "id": "tm-teddy-swims-2026-vancouver-1av7z_fgkbd-_xv",
@@ -46250,13 +46666,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158276",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026/event/107158276",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_FGkBD-_xV",
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883116",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883116/Teddy-Swims-tickets-Fri-Nov-6-2026-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883116/Teddy-Swims-tickets-Fri-Nov-6-2026-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-vancouver-rogers-arena-11-6-2026/event/107158276"
   },
   {
     "id": "tm-teddy-swims-2026-portland-vvg1hz_fbodkr9",
@@ -46319,13 +46743,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107168140",
+        "url": "https://www.stubhub.ie/teddy-swims-portland-tickets-11-8-2026/event/107168140",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FBoDkR9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883117",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883117/Teddy-Swims-tickets-Sun-Nov-8-2026-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883117/Teddy-Swims-tickets-Sun-Nov-8-2026-Moda-Center-at-the-Rose-Quarter",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-portland-tickets-11-8-2026/event/107168140"
   },
   {
     "id": "tm-teddy-swims-2026-san-francisco-g5vyz_fnhi2ez",
@@ -46388,13 +46820,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158277",
+        "url": "https://www.stubhub.ie/teddy-swims-san-francisco-tickets-11-10-2026/event/107158277",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_FnHI2eZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883120",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883120/Teddy-Swims-tickets-Tue-Nov-10-2026-Chase-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883120/Teddy-Swims-tickets-Tue-Nov-10-2026-Chase-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-san-francisco-tickets-11-10-2026/event/107158277"
   },
   {
     "id": "tm-teddy-swims-2026-sacramento-g5vyz_fmsnbtg",
@@ -46457,13 +46897,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158278",
+        "url": "https://www.stubhub.ie/teddy-swims-sacramento-tickets-11-11-2026/event/107158278",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_FMsNbTG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883122",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883122/Teddy-Swims-tickets-Wed-Nov-11-2026-Golden-1-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883122/Teddy-Swims-tickets-Wed-Nov-11-2026-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-sacramento-tickets-11-11-2026/event/107158278"
   },
   {
     "id": "tm-teddy-swims-2026-san-diego-z7r9jz1a7xpf-",
@@ -46595,13 +47043,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158279",
+        "url": "https://www.stubhub.ie/teddy-swims-las-vegas-tickets-11-14-2026/event/107158279",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xpfb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883124",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883124/Teddy-Swims-tickets-Sat-Nov-14-2026-T-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883124/Teddy-Swims-tickets-Sat-Nov-14-2026-T-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-las-vegas-tickets-11-14-2026/event/107158279"
   },
   {
     "id": "tm-teddy-swims-2026-phoenix-1av0z_fgkbna4b9",
@@ -46664,13 +47120,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158280",
+        "url": "https://www.stubhub.ie/teddy-swims-phoenix-tickets-11-16-2026/event/107158280",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_FGkBNa4B9",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883125",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883125/Teddy-Swims-tickets-Mon-Nov-16-2026-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883125/Teddy-Swims-tickets-Mon-Nov-16-2026-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-phoenix-tickets-11-16-2026/event/107158280"
   },
   {
     "id": "tm-teddy-swims-2026-inglewood-vv170z_fgkmxw1os",
@@ -46733,13 +47197,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107158281",
+        "url": "https://www.stubhub.ie/teddy-swims-inglewood-tickets-11-18-2026/event/107158281",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_FGkMxW1Os",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883127",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883127/Teddy-Swims-tickets-Wed-Nov-18-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883127/Teddy-Swims-tickets-Wed-Nov-18-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-inglewood-tickets-11-18-2026/event/107158281"
   },
   {
     "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16v7i-zc9",
@@ -46802,13 +47274,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107458276",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v7I-zC9",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167507",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276"
   },
   {
     "id": "tm-teddy-swims-2027-berlin-z698xzc2z16v8g0v0d",
@@ -46871,13 +47351,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107458277",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-berlin-uber-arena-11-3-2027/event/107458277",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v8g0v0d",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167509",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167509/Teddy-Swims-tickets-Thu-Mar-11-2027-Uber-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167509/Teddy-Swims-tickets-Thu-Mar-11-2027-Uber-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-berlin-uber-arena-11-3-2027/event/107458277"
   },
   {
     "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz16vajo8c6",
@@ -46940,13 +47428,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455905",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-16-3-2027/event/107455905",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vAJO8C6",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8166020",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8166020/Teddy-Swims-tickets-Tue-Mar-16-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8166020/Teddy-Swims-tickets-Tue-Mar-16-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-16-3-2027/event/107455905"
   },
   {
     "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz1kb300fz",
@@ -47009,13 +47505,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107460175",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-17-3-2027/event/107460175",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kb300FZ",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168696",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168696/Teddy-Swims-tickets-Wed-Mar-17-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168696/Teddy-Swims-tickets-Wed-Mar-17-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-17-3-2027/event/107460175"
   },
   {
     "id": "tm-teddy-swims-2027-amsterdam-z698xzbpz16vckf4-9",
@@ -47064,11 +47568,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107460176",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-18-3-2027/event/107460176",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vCKf4-9",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-18-3-2027/event/107460176"
   },
   {
     "id": "tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z1kf7vp3p",
@@ -47237,13 +47749,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455913",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-glasgow-ovo-hydro-arena-glasgow-13-4-2027/event/107455913",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62QLsPVu",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8163374",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8163374/Teddy-Swims-tickets-Tue-Apr-13-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8163374/Teddy-Swims-tickets-Tue-Apr-13-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-glasgow-ovo-hydro-arena-glasgow-13-4-2027/event/107455913"
   },
   {
     "id": "tm-teddy-swims-2027-manchester-17uyv0g62pcoosz",
@@ -47306,13 +47826,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455914",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-16-4-2027/event/107455914",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62pcooSz",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8163375",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8163375/Teddy-Swims-tickets-Fri-Apr-16-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8163375/Teddy-Swims-tickets-Fri-Apr-16-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-16-4-2027/event/107455914"
   },
   {
     "id": "tm-teddy-swims-2027-manchester-17uyv0g62m2z8vc",
@@ -47361,11 +47889,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107460174",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-17-4-2027/event/107460174",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62m2z8Vc",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-17-4-2027/event/107460174"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g6253xeaz",
@@ -47414,11 +47950,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107455915",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-21-4-2027/event/107455915",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G6253xEAZ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-21-4-2027/event/107455915"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g623cnnvk",
@@ -47467,11 +48011,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107460173",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-22-4-2027/event/107460173",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G623cNNvk",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-22-4-2027/event/107460173"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g623yvkkm",
@@ -47520,11 +48072,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107469438",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G623YvKkM",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438"
   },
   {
     "id": "tm-five-finger-death-punch-2026-auburn-vvg1hz_eppsgpt",
@@ -47763,12 +48323,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076161",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-mountain-view-tickets-9-16-2026/event/107076161",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_eplUIuH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676468"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676468",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-mountain-view-tickets-9-16-2026/event/107076161"
   },
   {
     "id": "tm-five-finger-death-punch-2026-long-beach-vvg1iz_els87ti",
@@ -47946,12 +48514,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164509",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-phoenix-tickets-9-24-2026/event/107164509",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8v0atGA5OfFo",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676472"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676472",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-phoenix-tickets-9-24-2026/event/107164509"
   },
   {
     "id": "tm-five-finger-death-punch-2026-albuquerque-g5vzz_er_rgel",
@@ -48121,12 +48697,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164507",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-austin-tickets-9-28-2026/event/107164507",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_eQGEVGg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676476"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676476",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-austin-tickets-9-28-2026/event/107164507"
   },
   {
     "id": "tm-five-finger-death-punch-2026-fort-worth-vvg1yz_ehes4-b",
@@ -48182,12 +48766,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076162",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-fort-worth-tickets-9-30-2026/event/107076162",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_ehes4-b",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676481"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676481",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-fort-worth-tickets-9-30-2026/event/107076162"
   },
   {
     "id": "tm-five-finger-death-punch-2026-rogers-g5viz_eq6la31",
@@ -48540,12 +49132,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107076164",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_eQW6ABN",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676515"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676515",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164"
   },
   {
     "id": "tm-five-finger-death-punch-2026-alpharetta-vvg1zz_eq2kn-d",
@@ -48906,12 +49506,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164508",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk8EGkdloFXu",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676549"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676549",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508"
   },
   {
     "id": "tm-five-finger-death-punch-2026-bristow-1avfz_egki4tnxq",
@@ -49028,12 +49636,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164485",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-manchester-manchester-ao-arena-16-1-2027/event/107164485",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GnH6Q4f",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7987816"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7987816",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-manchester-manchester-ao-arena-16-1-2027/event/107164485"
   },
   {
     "id": "tm-five-finger-death-punch-2027-birmingham-1anzk3bgkev6s0s",
@@ -49089,12 +49705,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164486",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-birmingham-bp-pulse-live-22-1-2027/event/107164486",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZk3bGkeV6s0S",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090419"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090419",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-birmingham-bp-pulse-live-22-1-2027/event/107164486"
   },
   {
     "id": "tm-five-finger-death-punch-2027-london-1agzk3bgkdreu6-",
@@ -49143,11 +49767,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162584",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-london-the-o2-arena-23-1-2027/event/107162584",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3bGkdREU6-",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-london-the-o2-arena-23-1-2027/event/107162584"
   },
   {
     "id": "tm-five-finger-death-punch-2027-hamburg-z698xzc2z16vad3p4g",
@@ -49196,11 +49828,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107164434",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-hamburg-barclays-arena-hamburg-27-1-2027/event/107164434",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vAd3p4g",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-hamburg-barclays-arena-hamburg-27-1-2027/event/107164434"
   },
   {
     "id": "tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_",
@@ -49249,11 +49889,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107164435",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-lodz-atlas-arena-29-1-2027/event/107164435",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1k-o8Yj_",
     "timezone": "Europe/Warsaw",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-lodz-atlas-arena-29-1-2027/event/107164435"
   },
   {
     "id": "tm-five-finger-death-punch-2027-amsterdam-z698xzbpz16vk3p3p4",

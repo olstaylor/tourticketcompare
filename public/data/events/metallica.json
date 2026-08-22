@@ -235,13 +235,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107132085",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-30-2027/event/107132085",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vjZ_kk3G7nDXr",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775513",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775513/Metallica-tickets-Sat-Jan-30-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775513/Metallica-tickets-Sat-Jan-30-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-30-2027/event/107132085"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0yct0",
@@ -357,13 +365,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133088",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-6-2027/event/107133088",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzr6s",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785087",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785087/Metallica-tickets-Sat-Feb-6-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785087/Metallica-tickets-Sat-Feb-6-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-6-2027/event/107133088"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0ywtn",
@@ -479,13 +495,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133092",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-20-2027/event/107133092",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzr6g",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785089",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785089/Metallica-tickets-Sat-Feb-20-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785089/Metallica-tickets-Sat-Feb-20-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-20-2027/event/107133092"
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0buti",
@@ -601,12 +625,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133100",
+        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-13-2027/event/107133100",
+        "verified": true,
+        "last_verified_at": "2026-08-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko-GkePzXFF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785871",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785871/Metallica-tickets-Sat-Mar-13-2027-Sphere"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785871/Metallica-tickets-Sat-Mar-13-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-13-2027/event/107133100"
   }
 ]
